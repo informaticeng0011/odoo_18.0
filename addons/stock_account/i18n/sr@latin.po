@@ -11,7 +11,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-06-03 08:43+0000\n"
+=======
+"POT-Creation-Date: 2025-10-24 18:36+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2022-09-22 05:55+0000\n"
 "Last-Translator: Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>, "
 "2022\n"
@@ -26,6 +30,17 @@ msgstr ""
 #. module: stock_account
 #. odoo-python
 #: code:addons/stock_account/wizard/stock_valuation_layer_revaluation.py:0
+<<<<<<< HEAD
+=======
+msgid ""
+"\n"
+"Affected valuation layers: %s"
+msgstr ""
+
+#. module: stock_account
+#. odoo-python
+#: code:addons/stock_account/wizard/stock_valuation_layer_revaluation.py:0
+>>>>>>> upstream/18.0
 msgid " Product cost updated from %(previous)s to %(new_cost)s."
 msgstr ""
 
@@ -37,16 +52,33 @@ msgstr ""
 
 #. module: stock_account
 #. odoo-python
+<<<<<<< HEAD
 #: code:addons/stock_account/models/product.py:0
 msgid "%(user)s changed cost from %(previous)s to %(new_price)s - %(product)s"
+=======
+#: code:addons/stock_account/wizard/stock_valuation_layer_revaluation.py:0
+msgid " lot/serial number cost updated from %(previous)s to %(new_cost)s."
+msgstr ""
+
+#. module: stock_account
+#. odoo-python
+#: code:addons/stock_account/models/stock_valuation_layer.py:0
+msgid "%(user)s changed cost from %(previous)s to %(new_price)s - %(record)s"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock_account
 #. odoo-python
 #: code:addons/stock_account/wizard/stock_valuation_layer_revaluation.py:0
 msgid ""
+<<<<<<< HEAD
 "%(user)s changed stock valuation from  %(previous)s to %(new_value)s - "
 "%(product)s"
+=======
+"%(user)s changed stock valuation from  %(previous)s to %(new_value)s - %"
+"(product)s\n"
+"%(reason)s"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock_account
@@ -69,6 +101,10 @@ msgstr ""
 
 #. module: stock_account
 #: model_terms:ir.ui.view,arch_db:stock_account.stock_valuation_layer_picking
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:stock_account.view_production_lot_form_stock_account
+>>>>>>> upstream/18.0
 msgid "<span class=\"o_stat_text\">Valuation</span>"
 msgstr ""
 
@@ -141,6 +177,14 @@ msgid "Added value"
 msgstr ""
 
 #. module: stock_account
+<<<<<<< HEAD
+=======
+#: model:ir.actions.act_window,name:stock_account.action_revalue_layers
+msgid "Adjust Valuation"
+msgstr ""
+
+#. module: stock_account
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:stock_account.field_res_config_settings__module_stock_landed_costs
 #: model_terms:ir.ui.view,arch_db:stock_account.res_config_settings_view_form
 msgid ""
@@ -175,6 +219,10 @@ msgstr ""
 
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_product_product__avg_cost
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:stock_account.field_stock_lot__avg_cost
+>>>>>>> upstream/18.0
 msgid "Average Cost"
 msgstr ""
 
@@ -234,6 +282,14 @@ msgid "Cogs Origin"
 msgstr ""
 
 #. module: stock_account
+<<<<<<< HEAD
+=======
+#: model:ir.model,name:stock_account.model_res_company
+msgid "Companies"
+msgstr ""
+
+#. module: stock_account
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:stock_account.field_stock_valuation_layer__company_id
 #: model:ir.model.fields,field_description:stock_account.field_stock_valuation_layer_revaluation__company_id
 #: model_terms:ir.ui.view,arch_db:stock_account.view_inventory_valuation_search
@@ -254,6 +310,20 @@ msgid ""
 msgstr ""
 
 #. module: stock_account
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/stock_account/models/stock_move.py:0
+msgid "Correction of %s (modification of past move)"
+msgstr ""
+
+#. module: stock_account
+#: model:ir.model.fields,field_description:stock_account.field_stock_lot__standard_price
+msgid "Cost"
+msgstr ""
+
+#. module: stock_account
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:stock_account.field_product_category__property_cost_method
 #: model:ir.model.fields,field_description:stock_account.field_product_product__cost_method
 #: model:ir.model.fields,field_description:stock_account.field_product_template__cost_method
@@ -362,8 +432,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/stock_account/models/product.py:0
 msgid ""
+<<<<<<< HEAD
 "Due to a change of product category (from %(old_category)s to "
 "%(new_category)s), the costing method has changed for product %(product)s: "
+=======
+"Due to a change of product category (from %(old_category)s to %"
+"(new_category)s), the costing method has changed for product %(product)s: "
+>>>>>>> upstream/18.0
 "from %(old_method)s to %(new_method)s."
 msgstr ""
 
@@ -389,6 +464,15 @@ msgid "ID"
 msgstr "ID"
 
 #. module: stock_account
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,help:stock_account.field_product_product__lot_valuated
+#: model:ir.model.fields,help:stock_account.field_product_template__lot_valuated
+msgid "If checked, the valuation will be specific by Lot/Serial number."
+msgstr ""
+
+#. module: stock_account
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:stock_account.view_inventory_valuation_search
 msgid "Incoming"
 msgstr "Dolazni"
@@ -460,6 +544,46 @@ msgid "Linked To"
 msgstr ""
 
 #. module: stock_account
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/stock_account/models/product.py:0
+msgid ""
+"Lot %(lot)s has a negative quantity in stock.\n"
+"Correct this quantity before enabling/disabling lot valuation."
+msgstr ""
+
+#. module: stock_account
+#. odoo-python
+#: code:addons/stock_account/models/stock_lot.py:0
+msgid "Lot value manually modified (from %(old)s to %(new)s)"
+msgstr ""
+
+#. module: stock_account
+#: model:ir.model,name:stock_account.model_stock_lot
+msgid "Lot/Serial"
+msgstr ""
+
+#. module: stock_account
+#: model:ir.model.fields,field_description:stock_account.field_stock_valuation_layer__lot_id
+#: model_terms:ir.ui.view,arch_db:stock_account.view_inventory_valuation_search
+msgid "Lot/Serial Number"
+msgstr ""
+
+#. module: stock_account
+#. odoo-python
+#: code:addons/stock_account/models/stock_lot.py:0
+msgid "Lot/Serial number Revaluation"
+msgstr ""
+
+#. module: stock_account
+#. odoo-python
+#: code:addons/stock_account/models/stock_move_line.py:0
+msgid "Lot/Serial number is mandatory for product valuated by lot"
+msgstr ""
+
+#. module: stock_account
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:stock_account.res_config_settings_view_form
 msgid "Lots & Serial numbers will appear on the invoice"
 msgstr ""
@@ -476,12 +600,15 @@ msgid "Manual Stock Valuation: %s."
 msgstr ""
 
 #. module: stock_account
+<<<<<<< HEAD
 #. odoo-python
 #: code:addons/stock_account/wizard/stock_valuation_layer_revaluation.py:0
 msgid "Manual Stock Valuation: No Reason Given."
 msgstr ""
 
 #. module: stock_account
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:stock_account.field_product_category__property_valuation
 #: model:ir.model.fields,help:stock_account.field_product_product__valuation
 #: model:ir.model.fields,help:stock_account.field_product_template__valuation
@@ -505,6 +632,15 @@ msgid "New value by quantity"
 msgstr ""
 
 #. module: stock_account
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/stock_account/wizard/stock_valuation_layer_revaluation.py:0
+msgid "No Reason Given"
+msgstr ""
+
+#. module: stock_account
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:stock_account.stock_valuation_layer_form
 msgid "Other Info"
 msgstr "Ostale informacije"
@@ -522,6 +658,18 @@ msgid "Product"
 msgstr "Proizvod"
 
 #. module: stock_account
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/stock_account/models/product.py:0
+msgid ""
+"Product %(product)s has quantity in valued location %(location)s without any "
+"lot.\n"
+"Please assign lots to all your quantities before enabling lot valuation."
+msgstr ""
+
+#. module: stock_account
+>>>>>>> upstream/18.0
 #: model:ir.model,name:stock_account.model_product_category
 #: model:ir.model.fields,field_description:stock_account.field_stock_valuation_layer__categ_id
 #: model_terms:ir.ui.view,arch_db:stock_account.view_inventory_valuation_search
@@ -558,6 +706,19 @@ msgid ""
 msgstr ""
 
 #. module: stock_account
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:stock_account.field_res_company__account_production_wip_account_id
+msgid "Production WIP Account"
+msgstr ""
+
+#. module: stock_account
+#: model:ir.model.fields,field_description:stock_account.field_res_company__account_production_wip_overhead_account_id
+msgid "Production WIP Overhead Account"
+msgstr ""
+
+#. module: stock_account
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:stock_account.field_stock_valuation_layer__quantity
 #: model_terms:ir.ui.view,arch_db:stock_account.stock_valuation_layer_tree
 msgid "Quantity"
@@ -565,6 +726,10 @@ msgstr "Količina"
 
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_product_product__quantity_svl
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:stock_account.field_stock_lot__quantity_svl
+>>>>>>> upstream/18.0
 msgid "Quantity Svl"
 msgstr ""
 
@@ -594,6 +759,14 @@ msgid "Reference"
 msgstr "Referenca"
 
 #. module: stock_account
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:stock_account.field_stock_valuation_layer_revaluation__lot_id
+msgid "Related lot/serial number"
+msgstr ""
+
+#. module: stock_account
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:stock_account.field_stock_valuation_layer_revaluation__product_id
 msgid "Related product"
 msgstr ""
@@ -609,6 +782,7 @@ msgid "Remaining Value"
 msgstr ""
 
 #. module: stock_account
+<<<<<<< HEAD
 #: model:ir.model,name:stock_account.model_stock_return_picking
 msgid "Return Picking"
 msgstr ""
@@ -616,6 +790,16 @@ msgstr ""
 #. module: stock_account
 #: model:ir.model,name:stock_account.model_stock_return_picking_line
 msgid "Return Picking Line"
+=======
+#: model:ir.model,name:stock_account.model_stock_return_picking_line
+msgid "Return Picking Line"
+msgstr ""
+
+#. module: stock_account
+#. odoo-python
+#: code:addons/stock_account/models/product.py:0
+msgid "Revaluation of %(name)s (negative inventory)"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock_account
@@ -630,6 +814,15 @@ msgid "Revalue"
 msgstr ""
 
 #. module: stock_account
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/stock_account/models/stock_lot.py:0
+msgid "Select an existing lot/serial number to be reevaluated"
+msgstr ""
+
+#. module: stock_account
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:stock_account.selection__product_category__property_cost_method__standard
 msgid "Standard Price"
 msgstr "Standardna cena"
@@ -668,7 +861,10 @@ msgstr "Dnevnik zaliha"
 #: model:ir.model,name:stock_account.model_stock_move
 #: model:ir.model.fields,field_description:stock_account.field_account_bank_statement_line__stock_move_id
 #: model:ir.model.fields,field_description:stock_account.field_account_move__stock_move_id
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:stock_account.field_account_payment__stock_move_id
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:stock_account.field_stock_valuation_layer__stock_move_id
 msgid "Stock Move"
 msgstr "Premeštanje zaliha"
@@ -722,8 +918,13 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock_account.field_account_bank_statement_line__stock_valuation_layer_ids
 #: model:ir.model.fields,field_description:stock_account.field_account_move__stock_valuation_layer_ids
 #: model:ir.model.fields,field_description:stock_account.field_account_move_line__stock_valuation_layer_ids
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:stock_account.field_account_payment__stock_valuation_layer_ids
 #: model:ir.model.fields,field_description:stock_account.field_product_product__stock_valuation_layer_ids
+=======
+#: model:ir.model.fields,field_description:stock_account.field_product_product__stock_valuation_layer_ids
+#: model:ir.model.fields,field_description:stock_account.field_stock_lot__stock_valuation_layer_ids
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:stock_account.field_stock_move__stock_valuation_layer_ids
 #: model:ir.model.fields,field_description:stock_account.field_stock_valuation_layer__stock_valuation_layer_ids
 msgid "Stock Valuation Layer"
@@ -792,6 +993,26 @@ msgstr ""
 
 #. module: stock_account
 #. odoo-python
+<<<<<<< HEAD
+=======
+#: code:addons/stock_account/models/product.py:0
+msgid ""
+"The stock accounts should be set in order to use the automatic valuation."
+msgstr ""
+
+#. module: stock_account
+#. odoo-python
+#: code:addons/stock_account/models/stock_move_line.py:0
+msgid ""
+"The stock valuation of a move is based on the type of the source and "
+"destination locations. As the move is already processed, you cannot modify "
+"the locations in a way that changes the valuation logic defined during the "
+"initial processing."
+msgstr ""
+
+#. module: stock_account
+#. odoo-python
+>>>>>>> upstream/18.0
 #: code:addons/stock_account/wizard/stock_valuation_layer_revaluation.py:0
 msgid ""
 "The value of a stock valuation layer cannot be negative. Landed cost could "
@@ -807,6 +1028,33 @@ msgid ""
 msgstr ""
 
 #. module: stock_account
+<<<<<<< HEAD
+=======
+#. odoo-javascript
+#: code:addons/stock_account/static/src/fields/boolean_confirm.js:0
+msgid ""
+"This operation might lead in a loss of data. Valuation will be identical for "
+"all lots/SN. Do you want to proceed ? "
+msgstr ""
+
+#. module: stock_account
+#. odoo-python
+#: code:addons/stock_account/models/product.py:0
+msgid ""
+"This product is valuated by lot/serial number. Changing the cost will update "
+"the cost of every lot/serial number in stock."
+msgstr ""
+
+#. module: stock_account
+#. odoo-python
+#: code:addons/stock_account/models/stock_move_line.py:0
+msgid ""
+"This product is valuated by lot: an explicit Lot/Serial number is required "
+"when adding quantity"
+msgstr ""
+
+#. module: stock_account
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:stock_account.stock_valuation_layer_tree
 msgid "Total Moved Quantity"
 msgstr ""
@@ -825,6 +1073,10 @@ msgstr ""
 
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_product_product__total_value
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:stock_account.field_stock_lot__total_value
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:stock_account.field_stock_valuation_layer__value
 #: model_terms:ir.ui.view,arch_db:stock_account.product_product_stock_tree_inherit_stock_account
 #: model_terms:ir.ui.view,arch_db:stock_account.stock_valuation_layer_tree
@@ -873,6 +1125,15 @@ msgid "Update quantities on SO/PO"
 msgstr ""
 
 #. module: stock_account
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/stock_account/models/product.py:0
+msgid "Updating lot valuation for product %s."
+msgstr ""
+
+#. module: stock_account
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:stock_account.field_stock_location__valuation_in_account_id
 msgid ""
 "Used for real-time inventory valuation. When set on a virtual location (non "
@@ -902,10 +1163,22 @@ msgstr ""
 
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_product_product__company_currency_id
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:stock_account.field_stock_lot__company_currency_id
+>>>>>>> upstream/18.0
 msgid "Valuation Currency"
 msgstr ""
 
 #. module: stock_account
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:stock_account.field_stock_valuation_layer_revaluation__adjusted_layer_ids
+msgid "Valuation Layers"
+msgstr ""
+
+#. module: stock_account
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:stock_account.product_product_stock_tree_inherit_stock_account
 msgid "Valuation Report"
 msgstr ""
@@ -917,11 +1190,30 @@ msgid "Valuation at Date"
 msgstr ""
 
 #. module: stock_account
+<<<<<<< HEAD
 #. odoo-python
 #: code:addons/stock_account/models/product.py:0
 msgid ""
 "Valuation method change for product category %(category)s: from "
 "%(old_method)s to %(new_method)s."
+=======
+#: model:ir.model.fields,field_description:stock_account.field_product_product__lot_valuated
+#: model:ir.model.fields,field_description:stock_account.field_product_template__lot_valuated
+msgid "Valuation by Lot/Serial number"
+msgstr ""
+
+#. module: stock_account
+#. odoo-python
+#: code:addons/stock_account/models/product.py:0
+msgid ""
+"Valuation method change for product category %(category)s: from %"
+"(old_method)s to %(new_method)s."
+msgstr ""
+
+#. module: stock_account
+#: model:ir.model.fields,help:stock_account.field_stock_valuation_layer_revaluation__adjusted_layer_ids
+msgid "Valuations layers being adjusted"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock_account
@@ -937,10 +1229,26 @@ msgstr ""
 
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_product_product__value_svl
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:stock_account.field_stock_lot__value_svl
+>>>>>>> upstream/18.0
 msgid "Value Svl"
 msgstr ""
 
 #. module: stock_account
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,help:stock_account.field_stock_lot__standard_price
+msgid ""
+"Value of the lot (automatically computed in AVCO).\n"
+"        Used to value the product when the purchase cost is not known (e.g. "
+"inventory adjustment).\n"
+"        Used to compute margins on sale orders."
+msgstr ""
+
+#. module: stock_account
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/stock_account/models/product.py:0
 msgid "Warning"
@@ -978,6 +1286,38 @@ msgstr ""
 
 #. module: stock_account
 #. odoo-python
+<<<<<<< HEAD
+=======
+#: code:addons/stock_account/models/stock_lot.py:0
+#: code:addons/stock_account/wizard/stock_valuation_layer_revaluation.py:0
+msgid "You cannot adjust the valuation of a layer with zero quantity"
+msgstr ""
+
+#. module: stock_account
+#. odoo-python
+#: code:addons/stock_account/wizard/stock_valuation_layer_revaluation.py:0
+msgid "You cannot adjust valuation without a product"
+msgstr ""
+
+#. module: stock_account
+#. odoo-python
+#: code:addons/stock_account/models/product.py:0
+msgid ""
+"You cannot change the costing method of product valuated by lot/serial "
+"number."
+msgstr ""
+
+#. module: stock_account
+#. odoo-python
+#: code:addons/stock_account/models/product.py:0
+msgid ""
+"You cannot change the product category of a product valuated by lot/serial "
+"number."
+msgstr ""
+
+#. module: stock_account
+#. odoo-python
+>>>>>>> upstream/18.0
 #: code:addons/stock_account/wizard/stock_valuation_layer_revaluation.py:0
 msgid "You cannot revalue a product with a standard cost method."
 msgstr ""
@@ -990,7 +1330,18 @@ msgstr ""
 
 #. module: stock_account
 #. odoo-python
+<<<<<<< HEAD
 #: code:addons/stock_account/models/product.py:0
+=======
+#: code:addons/stock_account/wizard/stock_valuation_layer_revaluation.py:0
+msgid "You cannot revalue multiple products at once"
+msgstr ""
+
+#. module: stock_account
+#. odoo-python
+#: code:addons/stock_account/models/product.py:0
+#: code:addons/stock_account/models/stock_lot.py:0
+>>>>>>> upstream/18.0
 msgid ""
 "You cannot update the cost of a product in automated valuation as it leads "
 "to the creation of a journal entry, for which you don't have the access "
@@ -1009,17 +1360,28 @@ msgstr ""
 #. odoo-python
 #: code:addons/stock_account/models/product.py:0
 msgid ""
+<<<<<<< HEAD
 "You don't have any stock input account defined on your product category. You "
 "must define one before processing this operation."
+=======
+"You don't have any output valuation account defined on your product "
+"category. You must define one before processing this operation."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock_account
 #. odoo-python
 #: code:addons/stock_account/models/product.py:0
+<<<<<<< HEAD
 #, python-format
 msgid ""
 "You don't have any output valuation account defined on your product "
 "category. You must define one before processing this operation."
+=======
+msgid ""
+"You don't have any stock input account defined on your product category. You "
+"must define one before processing this operation."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock_account
@@ -1034,6 +1396,10 @@ msgstr ""
 #. odoo-python
 #: code:addons/stock_account/models/product.py:0
 #: code:addons/stock_account/models/stock_move.py:0
+<<<<<<< HEAD
+=======
+#: code:addons/stock_account/models/stock_valuation_layer.py:0
+>>>>>>> upstream/18.0
 msgid ""
 "You don't have any stock valuation account defined on your product category. "
 "You must define one before processing this operation."
@@ -1041,7 +1407,11 @@ msgstr ""
 
 #. module: stock_account
 #. odoo-python
+<<<<<<< HEAD
 #: code:addons/stock_account/models/product.py:0
+=======
+#: code:addons/stock_account/models/stock_valuation_layer.py:0
+>>>>>>> upstream/18.0
 msgid "You must set a counterpart account on your product category."
 msgstr ""
 

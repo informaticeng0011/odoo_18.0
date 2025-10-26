@@ -44,7 +44,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { reactive } from "@odoo/owl";
+=======
+import { markup, reactive } from "@odoo/owl";
+>>>>>>> upstream/18.0
 =======
 import { markup, reactive } from "@odoo/owl";
 >>>>>>> upstream/18.0
@@ -242,7 +246,10 @@ import { Tag } from "./tag";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -402,6 +409,7 @@ const {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Object: { freeze: $freeze },
 =======
     Object: { assign: $assign, freeze: $freeze },
@@ -447,6 +455,9 @@ const {
 >>>>>>> upstream/18.0
 =======
     Object: { assign: $assign, freeze: $freeze },
+>>>>>>> upstream/18.0
+=======
+    Object: { freeze: $freeze },
 >>>>>>> upstream/18.0
 =======
     Object: { freeze: $freeze },
@@ -603,6 +614,9 @@ const SHARED_RESULTS = $freeze([]);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -720,6 +734,7 @@ const SHARED_RESULTS = $freeze([]);
  */
 export function testError({ name, parent }, ...message) {
     const parentString = parent ? ` (in suite ${stringify(parent.name)})` : "";
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -988,6 +1003,11 @@ export function testError({ name, parent }, ...message) {
         `error while registering test ${stringify(name)}${parentString}: ${message.join("\n")}`,
         { level: "critical" }
 >>>>>>> upstream/18.0
+=======
+    return new HootError(
+        `error while registering test ${stringify(name)}${parentString}: ${message.join("\n")}`,
+        { level: "critical" }
+>>>>>>> upstream/18.0
     );
 }
 
@@ -1057,7 +1077,10 @@ export class Test extends Job {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1195,6 +1218,9 @@ export class Test extends Job {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1402,7 +1428,10 @@ export class Test extends Job {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1577,6 +1606,9 @@ export class Test extends Job {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

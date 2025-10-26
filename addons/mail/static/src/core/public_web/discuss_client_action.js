@@ -48,6 +48,10 @@ import { useService } from "@web/core/utils/hooks";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { router } from "@web/core/browser/router";
+>>>>>>> upstream/18.0
 =======
 import { router } from "@web/core/browser/router";
 >>>>>>> upstream/18.0
@@ -283,10 +287,13 @@ export class DiscussClientAction extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (props.action?.params?.highlight_message_id) {
                 activeThread.highlightMessage = props.action.params.highlight_message_id;
                 delete props.action.params.highlight_message_id;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -422,6 +429,9 @@ export class DiscussClientAction extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

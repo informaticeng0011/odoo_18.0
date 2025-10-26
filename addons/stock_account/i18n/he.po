@@ -30,8 +30,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* stock_account
 # 
+=======
+# * stock_account
+#
+>>>>>>> upstream/18.0
 =======
 # * stock_account
 #
@@ -169,6 +174,7 @@
 # Sagi Ahiel, 2025
 # ZVI BLONDER <ZVIBLONDER@gmail.com>, 2025
 # or balmas, 2025
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -620,12 +626,18 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # or balmas <or@laylinetech.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-08-01 07:25+0000\n"
+=======
+"POT-Creation-Date: 2025-10-24 18:36+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-09-25 22:20+0000\n"
 "Last-Translator: or balmas <or@laylinetech.com>\n"
 "Language-Team: Hebrew <https://translate.odoo.com/projects/odoo-18/"
@@ -665,6 +677,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -822,6 +837,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"\n"
+"השפיע על שכבות הערכת שווי מלאי:%s"
+>>>>>>> upstream/18.0
 =======
 "\n"
 "השפיע על שכבות הערכת שווי מלאי:%s"
@@ -1280,7 +1300,11 @@ msgid " [Accounted on %s]"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "[נרשם בתאריך %s]"
+>>>>>>> upstream/18.0
 =======
 msgstr "[נרשם בתאריך %s]"
 >>>>>>> upstream/18.0
@@ -1634,7 +1658,11 @@ msgid " lot/serial number cost updated from %(previous)s to %(new_cost)s."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "עלות מספר אצווה\\סידורי עודכן מ-%(previous)s ל-%(new_cost)s."
+>>>>>>> upstream/18.0
 =======
 msgstr "עלות מספר אצווה\\סידורי עודכן מ-%(previous)s ל-%(new_cost)s."
 >>>>>>> upstream/18.0
@@ -1907,6 +1935,7 @@ msgstr "%(user)s שינה את המחיר מ %(previous)s ל %(new_price)s - %(r
 #. odoo-python
 #: code:addons/stock_account/wizard/stock_valuation_layer_revaluation.py:0
 msgid ""
+<<<<<<< HEAD
 "%(user)s changed stock valuation from  %(previous)s to %(new_value)s - %(product)s\n"
 "%(reason)s"
 msgstr ""
@@ -2345,12 +2374,25 @@ msgstr ""
 "%(user)s שינה את הערכת המלאי מ־%(previous)s ל-%(new_value)s -%(product)s\n"
 "%(reason)s"
 >>>>>>> upstream/18.0
+=======
+"%(user)s changed stock valuation from  %(previous)s to %(new_value)s - %"
+"(product)s\n"
+"%(reason)s"
+msgstr ""
+"%(user)s שינה את הערכת המלאי מ־%(previous)s ל-%(new_value)s -%(product)s\n"
+"%(reason)s"
+>>>>>>> upstream/18.0
 
 #. module: stock_account
 #: model_terms:ir.ui.view,arch_db:stock_account.stock_valuation_layer_revaluation_form_view
 msgid ""
 ")\n"
+<<<<<<< HEAD
 "                            <small class=\"mx-2 fst-italic\">Use a negative added value to record a decrease in the product value</small>"
+=======
+"                            <small class=\"mx-2 fst-italic\">Use a negative "
+"added value to record a decrease in the product value</small>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock_account
@@ -2451,7 +2493,11 @@ msgid "<b>Set other input/output accounts on specific </b>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<b> הגדר חשבונות כניסה\\יציאה על</b>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<b> הגדר חשבונות כניסה\\יציאה על</b>"
 >>>>>>> upstream/18.0
@@ -2859,7 +2905,11 @@ msgid "<span class=\"o_stat_text\">Valuation</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">הערכה</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">הערכה</span>"
 >>>>>>> upstream/18.0
@@ -3413,7 +3463,11 @@ msgid "Added value"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ערך מוסף "
+>>>>>>> upstream/18.0
 =======
 msgstr "ערך מוסף "
 >>>>>>> upstream/18.0
@@ -3778,7 +3832,11 @@ msgid "Adjust Valuation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "התאם הערכת שווי"
+>>>>>>> upstream/18.0
 =======
 msgstr "התאם הערכת שווי"
 >>>>>>> upstream/18.0
@@ -4054,8 +4112,13 @@ msgstr "התאם הערכת שווי"
 #: model:ir.model.fields,help:stock_account.field_res_config_settings__module_stock_landed_costs
 #: model_terms:ir.ui.view,arch_db:stock_account.res_config_settings_view_form
 msgid ""
+<<<<<<< HEAD
 "Affect landed costs on reception operations and split them among products to"
 " update their cost price."
+=======
+"Affect landed costs on reception operations and split them among products to "
+"update their cost price."
+>>>>>>> upstream/18.0
 msgstr ""
 "להשפיע על נחת עלויות פעולות הקבלה ולפצל אותם בין מוצרים כדי לעדכן את מחיר "
 "העלות שלהם."
@@ -4173,7 +4236,11 @@ msgid "Automatic Stock Accounting"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "הנהלת חשבונות של מלאי אוטומטית "
+>>>>>>> upstream/18.0
 =======
 msgstr "הנהלת חשבונות של מלאי אוטומטית "
 >>>>>>> upstream/18.0
@@ -4475,8 +4542,13 @@ msgstr "בטל"
 #. odoo-python
 #: code:addons/stock_account/models/stock_move.py:0
 msgid ""
+<<<<<<< HEAD
 "Cannot find a stock input account for the product %s. You must define one on"
 " the product category, or on the location, before processing this operation."
+=======
+"Cannot find a stock input account for the product %s. You must define one on "
+"the product category, or on the location, before processing this operation."
+>>>>>>> upstream/18.0
 msgstr ""
 "לא ניתן למצוא חשבון קלט מלאי עבור המוצר %s. עליך להגדיר אחד בקטגוריה של "
 "המוצר, או  במיקום, לפני עיבוד פעולה זו."
@@ -4595,7 +4667,11 @@ msgid "Choose a date to get the valuation at that date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "בחר תאריך כדי להעריך את המלאי בתאריך זה"
+>>>>>>> upstream/18.0
 =======
 msgstr "בחר תאריך כדי להעריך את המלאי בתאריך זה"
 >>>>>>> upstream/18.0
@@ -4957,7 +5033,11 @@ msgid "Cogs Origin"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מקור עלות המכר"
+>>>>>>> upstream/18.0
 =======
 msgstr "מקור עלות המכר"
 >>>>>>> upstream/18.0
@@ -5244,8 +5324,13 @@ msgid ""
 "Configuration error. Please configure the price difference account on the "
 "product or its category to process this operation."
 msgstr ""
+<<<<<<< HEAD
 "שגיאת תצורה. אנא הגדר את חשבון ההפרש במחיר במוצר או בקטגוריה שלו כדי לבצע את"
 " הפעולה."
+=======
+"שגיאת תצורה. אנא הגדר את חשבון ההפרש במחיר במוצר או בקטגוריה שלו כדי לבצע את "
+"הפעולה."
+>>>>>>> upstream/18.0
 
 #. module: stock_account
 #. odoo-python
@@ -5338,7 +5423,11 @@ msgid "Correction of %s (modification of past move)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "תיקון של %s(שינוי תנועת מלאי קודמת)"
+>>>>>>> upstream/18.0
 =======
 msgstr "תיקון של %s(שינוי תנועת מלאי קודמת)"
 >>>>>>> upstream/18.0
@@ -5618,11 +5707,19 @@ msgstr "שיטת התמחור"
 #. odoo-python
 #: code:addons/stock_account/models/product.py:0
 msgid ""
+<<<<<<< HEAD
 "Costing method change for product category %(category)s: from %(old_method)s"
 " to %(new_method)s."
 msgstr ""
 "שינוי שיטת תמחיר עבור קטגוריית מוצרים %(category)s: מ %(old_method)s ל "
 "%(new_method)s."
+=======
+"Costing method change for product category %(category)s: from %(old_method)s "
+"to %(new_method)s."
+msgstr ""
+"שינוי שיטת תמחיר עבור קטגוריית מוצרים %(category)s: מ %(old_method)s ל %"
+"(new_method)s."
+>>>>>>> upstream/18.0
 
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_stock_valuation_layer_revaluation__account_id
@@ -5632,8 +5729,15 @@ msgstr "חשבון העמית"
 #. module: stock_account
 #: model:ir.model.fields,help:stock_account.field_product_category__property_stock_account_input_categ_id
 msgid ""
+<<<<<<< HEAD
 "Counterpart journal items for all incoming stock moves will be posted in this account, unless there is a specific valuation account\n"
 "                set on the source location. This is the default value for all products in this category. It can also directly be set on each product."
+=======
+"Counterpart journal items for all incoming stock moves will be posted in "
+"this account, unless there is a specific valuation account\n"
+"                set on the source location. This is the default value for "
+"all products in this category. It can also directly be set on each product."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock_account
@@ -5753,7 +5857,11 @@ msgid "Current Quantity"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "כמות נוכחית"
+>>>>>>> upstream/18.0
 =======
 msgstr "כמות נוכחית"
 >>>>>>> upstream/18.0
@@ -6077,6 +6185,7 @@ msgstr "הצג מספר סידורי ומספר אצווה בחשבוניות"
 #. odoo-python
 #: code:addons/stock_account/models/product.py:0
 msgid ""
+<<<<<<< HEAD
 "Due to a change of product category (from %(old_category)s to "
 "%(new_category)s), the costing method has changed for product %(product)s: "
 "from %(old_method)s to %(new_method)s."
@@ -6603,6 +6712,15 @@ msgstr ""
 "החישוב תמחור השתנתה עבור המוצר %(product)s: מ־%(old_method)s "
 "ל־%(new_method)s."
 >>>>>>> upstream/18.0
+=======
+"Due to a change of product category (from %(old_category)s to %"
+"(new_category)s), the costing method has changed for product %(product)s: "
+"from %(old_method)s to %(new_method)s."
+msgstr ""
+"עקב שינוי קטגוריית המוצר (מ־%(old_category)s ל־%(new_category)s), שיטת "
+"החישוב תמחור השתנתה עבור המוצר %(product)s: מ־%(old_method)s ל־%"
+"(new_method)s."
+>>>>>>> upstream/18.0
 
 #. module: stock_account
 #: model:ir.model.fields.selection,name:stock_account.selection__product_category__property_cost_method__fifo
@@ -6719,7 +6837,11 @@ msgid "If checked, the valuation will be specific by Lot/Serial number."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "אם מסומן, ההערכה מחדש תהיה ספציפית לאצווה\\מספר סידורי."
+>>>>>>> upstream/18.0
 =======
 msgstr "אם מסומן, ההערכה מחדש תהיה ספציפית לאצווה\\מספר סידורי."
 >>>>>>> upstream/18.0
@@ -7108,7 +7230,11 @@ msgid "Invoice value correction with invoice currency"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "תיקון ערך חשבונית במטבע החשבונית"
+>>>>>>> upstream/18.0
 =======
 msgstr "תיקון ערך חשבונית במטבע החשבונית"
 >>>>>>> upstream/18.0
@@ -7504,6 +7630,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+" לאצווה %(lot)sיש כמות שלילית במלאי.\n"
+"תקן את הכמות לפני הפעלה/השבתה של הערכת האצווה."
+>>>>>>> upstream/18.0
 =======
 " לאצווה %(lot)sיש כמות שלילית במלאי.\n"
 "תקן את הכמות לפני הפעלה/השבתה של הערכת האצווה."
@@ -7947,7 +8078,11 @@ msgid "Lot value manually modified (from %(old)s to %(new)s)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ערך אצווה שונה (מ- %(old)s ל-%(new)s)"
+>>>>>>> upstream/18.0
 =======
 msgstr "ערך אצווה שונה (מ- %(old)s ל-%(new)s)"
 >>>>>>> upstream/18.0
@@ -8324,7 +8459,11 @@ msgid "Lot/Serial number Revaluation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "הערכה מחדש של אצווה\\מספר סידורי"
+>>>>>>> upstream/18.0
 =======
 msgstr "הערכה מחדש של אצווה\\מספר סידורי"
 >>>>>>> upstream/18.0
@@ -8690,7 +8829,11 @@ msgid "Lot/Serial number is mandatory for product valuated by lot"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "אצווה\\מספר סידורי הם חובה על מנת לבצע הערכה למוצר לפי אצווה"
+>>>>>>> upstream/18.0
 =======
 msgstr "אצווה\\מספר סידורי הם חובה על מנת לבצע הערכה למוצר לפי אצווה"
 >>>>>>> upstream/18.0
@@ -9066,7 +9209,11 @@ msgid "Manual Stock Valuation: %s."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "הערכת שווי מלאי ידנית:%s."
+>>>>>>> upstream/18.0
 =======
 msgstr "הערכת שווי מלאי ידנית:%s."
 >>>>>>> upstream/18.0
@@ -9344,12 +9491,24 @@ msgstr "הערכת שווי מלאי ידנית:%s."
 #: model:ir.model.fields,help:stock_account.field_product_template__valuation
 #: model:ir.model.fields,help:stock_account.field_stock_valuation_layer_revaluation__property_valuation
 msgid ""
+<<<<<<< HEAD
 "Manual: The accounting entries to value the inventory are not posted automatically.\n"
 "        Automated: An accounting entry is automatically created to value the inventory when a product enters or leaves the company.\n"
 "        "
 msgstr ""
 "ידני: הרישומים החשבונאיים להערכת המלאי אינם מתפרסמים באופן אוטומטי.\n"
 "אוטומטי: רישום חשבונאי נוצר באופן אוטומטי כדי להעריך את המלאי כאשר מוצר נכנס או עוזב את החברה."
+=======
+"Manual: The accounting entries to value the inventory are not posted "
+"automatically.\n"
+"        Automated: An accounting entry is automatically created to value the "
+"inventory when a product enters or leaves the company.\n"
+"        "
+msgstr ""
+"ידני: הרישומים החשבונאיים להערכת המלאי אינם מתפרסמים באופן אוטומטי.\n"
+"אוטומטי: רישום חשבונאי נוצר באופן אוטומטי כדי להעריך את המלאי כאשר מוצר נכנס "
+"או עוזב את החברה."
+>>>>>>> upstream/18.0
 
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_stock_valuation_layer_revaluation__new_value
@@ -9449,7 +9608,11 @@ msgid "New value by quantity"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ערך חדש לפי כמות"
+>>>>>>> upstream/18.0
 =======
 msgstr "ערך חדש לפי כמות"
 >>>>>>> upstream/18.0
@@ -9815,7 +9978,11 @@ msgid "No Reason Given"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ללא סיבה"
+>>>>>>> upstream/18.0
 =======
 msgstr "ללא סיבה"
 >>>>>>> upstream/18.0
@@ -10108,6 +10275,7 @@ msgstr "מוצר"
 #. odoo-python
 #: code:addons/stock_account/models/product.py:0
 msgid ""
+<<<<<<< HEAD
 "Product %(product)s has quantity in valued location %(location)s without any lot.\n"
 "Please assign lots to all your quantities before enabling lot valuation."
 msgstr ""
@@ -10546,6 +10714,14 @@ msgstr ""
 "למוצר%(product)s יש כמות במיקום מוערך %(location)s ללא אצווה.\n"
 "אנא הקצה אצוות לכל הכמויות שלך לפני הפעלת הערכת האצווה."
 >>>>>>> upstream/18.0
+=======
+"Product %(product)s has quantity in valued location %(location)s without any "
+"lot.\n"
+"Please assign lots to all your quantities before enabling lot valuation."
+msgstr ""
+"למוצר%(product)s יש כמות במיקום מוערך %(location)s ללא אצווה.\n"
+"אנא הקצה אצוות לכל הכמויות שלך לפני הפעלת הערכת האצווה."
+>>>>>>> upstream/18.0
 
 #. module: stock_account
 #: model:ir.model,name:stock_account.model_product_category
@@ -10708,7 +10884,11 @@ msgid "Reason of the revaluation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "סיבה להערכה מחדש"
+>>>>>>> upstream/18.0
 =======
 msgstr "סיבה להערכה מחדש"
 >>>>>>> upstream/18.0
@@ -11083,7 +11263,11 @@ msgid "Related lot/serial number"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "אצווה\\מספר סידורי קשורים"
+>>>>>>> upstream/18.0
 =======
 msgstr "אצווה\\מספר סידורי קשורים"
 >>>>>>> upstream/18.0
@@ -11448,7 +11632,11 @@ msgid "Related product"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מוצר קשור"
+>>>>>>> upstream/18.0
 =======
 msgstr "מוצר קשור"
 >>>>>>> upstream/18.0
@@ -11737,6 +11925,7 @@ msgstr "החזר שורת ליקוט"
 
 #. module: stock_account
 #. odoo-python
+<<<<<<< HEAD
 #: code:addons/stock_account/wizard/stock_valuation_layer_revaluation.py:0
 msgid "Revaluation of %s"
 <<<<<<< HEAD
@@ -12100,6 +12289,17 @@ msgstr "הערכה שווי של %s"
 =======
 msgstr "הערכה שווי של %s"
 >>>>>>> upstream/18.0
+=======
+#: code:addons/stock_account/models/product.py:0
+msgid "Revaluation of %(name)s (negative inventory)"
+msgstr ""
+
+#. module: stock_account
+#. odoo-python
+#: code:addons/stock_account/wizard/stock_valuation_layer_revaluation.py:0
+msgid "Revaluation of %s"
+msgstr "הערכה שווי של %s"
+>>>>>>> upstream/18.0
 
 #. module: stock_account
 #: model_terms:ir.ui.view,arch_db:stock_account.stock_valuation_layer_revaluation_form_view
@@ -12194,7 +12394,11 @@ msgid "Revalue"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "הערכה מחדש"
+>>>>>>> upstream/18.0
 =======
 msgstr "הערכה מחדש"
 >>>>>>> upstream/18.0
@@ -12557,7 +12761,11 @@ msgid "Select an existing lot/serial number to be reevaluated"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "בחר אצווה/מספר סידורי קיים להערכה מחדש"
+>>>>>>> upstream/18.0
 =======
 msgstr "בחר אצווה/מספר סידורי קיים להערכה מחדש"
 >>>>>>> upstream/18.0
@@ -12831,14 +13039,28 @@ msgstr "מחיר סטנדרטי"
 #: model:ir.model.fields,help:stock_account.field_product_template__cost_method
 #: model:ir.model.fields,help:stock_account.field_stock_quant__cost_method
 msgid ""
+<<<<<<< HEAD
 "Standard Price: The products are valued at their standard cost defined on the product.\n"
 "        Average Cost (AVCO): The products are valued at weighted average cost.\n"
 "        First In First Out (FIFO): The products are valued supposing those that enter the company first will also leave it first.\n"
+=======
+"Standard Price: The products are valued at their standard cost defined on "
+"the product.\n"
+"        Average Cost (AVCO): The products are valued at weighted average "
+"cost.\n"
+"        First In First Out (FIFO): The products are valued supposing those "
+"that enter the company first will also leave it first.\n"
+>>>>>>> upstream/18.0
 "        "
 msgstr ""
 "מחיר סטנדרטי: המוצרים מוערכים לפי העלות הסטנדרטית המוגדרת במוצר.\n"
 "עלות ממוצעת (AVCO): המוצרים מוערכים בעלות הממוצעת המשוקללת.\n"
+<<<<<<< HEAD
 "נכנס ראשון יוצא ראשון (FIFO): ההמוצרים מוערכים בהנחה שמי שנכנס לחברה תחילה יעזוב אותה קודם."
+=======
+"נכנס ראשון יוצא ראשון (FIFO): ההמוצרים מוערכים בהנחה שמי שנכנס לחברה תחילה "
+"יעזוב אותה קודם."
+>>>>>>> upstream/18.0
 
 #. module: stock_account
 #: model:res.groups,name:stock_account.group_stock_accounting_automatic
@@ -12930,7 +13152,11 @@ msgid "Stock Accounting Automatic"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "חשבונאות מלאי אוטומטית"
+>>>>>>> upstream/18.0
 =======
 msgstr "חשבונאות מלאי אוטומטית"
 >>>>>>> upstream/18.0
@@ -13360,6 +13586,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"שדה טכני להצגה נכונה של המטבע של החברה הנבחרת כרגע, התואם לערך המצטבר של "
+"שכבות הערכת המוצר."
+>>>>>>> upstream/18.0
 =======
 "שדה טכני להצגה נכונה של המטבע של החברה הנבחרת כרגע, התואם לערך המצטבר של "
 "שכבות הערכת המוצר."
@@ -13822,7 +14053,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "הפעולה יוצרת פקודת יומן, ואין לך את ההרשאות המתאימות לכך."
+>>>>>>> upstream/18.0
 =======
 msgstr "הפעולה יוצרת פקודת יומן, ואין לך את ההרשאות המתאימות לכך."
 >>>>>>> upstream/18.0
@@ -14188,7 +14423,11 @@ msgid "The added value doesn't have any impact on the stock valuation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "הערך המוסף אינו משפיע על הערכת שווי המלאי"
+>>>>>>> upstream/18.0
 =======
 msgstr "הערך המוסף אינו משפיע על הערכת שווי המלאי"
 >>>>>>> upstream/18.0
@@ -14583,7 +14822,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "הערכת שווי אוטומטית מחייבת הגדרה של חשבונות המלאי."
+>>>>>>> upstream/18.0
 =======
 msgstr "הערכת שווי אוטומטית מחייבת הגדרה של חשבונות המלאי."
 >>>>>>> upstream/18.0
@@ -14951,6 +15194,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"הערכת המלאי של תנועה מתבססת על סוגי המיקומים של המקור והיעד. מכיוון שהתנועה "
+"כבר עובדה, אינך יכול לשנות את המיקומים באופן שישנה את לוגיקת ההערכה שהוגדרה "
+"במהלך העיבוד הראשוני."
+>>>>>>> upstream/18.0
 =======
 "הערכת המלאי של תנועה מתבססת על סוגי המיקומים של המקור והיעד. מכיוון שהתנועה "
 "כבר עובדה, אינך יכול לשנות את המיקומים באופן שישנה את לוגיקת ההערכה שהוגדרה "
@@ -15481,6 +15730,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+" ערך של שכבת הערכת מלאי לא יכול להיות שלילי.\n"
+"ניתן להשתמש בהעמסת עלויות כדי לתקן העברה ספציפית."
+>>>>>>> upstream/18.0
 =======
 " ערך של שכבת הערכת מלאי לא יכול להיות שלילי.\n"
 "ניתן להשתמש בהעמסת עלויות כדי לתקן העברה ספציפית."
@@ -15924,6 +16178,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"אין שכבות הערכה שווי. שכבות הערכת שווי נוצרות כאשר יש תנועות מוצר שמשפיעות "
+"על הערכת המלאי."
+>>>>>>> upstream/18.0
 =======
 "אין שכבות הערכה שווי. שכבות הערכת שווי נוצרות כאשר יש תנועות מוצר שמשפיעות "
 "על הערכת המלאי."
@@ -16277,6 +16536,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/stock_account/static/src/fields/boolean_confirm.js:0
 msgid ""
+<<<<<<< HEAD
 "This operation might lead in a loss of data. Valuation will be identical for"
 " all lots/SN. Do you want to proceed ? "
 msgstr ""
@@ -16715,11 +16975,19 @@ msgstr ""
 "פעולה זו עלולה לגרום לאובדן נתונים. ההערכה תהיה זהה עבור כל האצוות/מספרים "
 "סידוריים. האם ברצונך להמשיך?"
 >>>>>>> upstream/18.0
+=======
+"This operation might lead in a loss of data. Valuation will be identical for "
+"all lots/SN. Do you want to proceed ? "
+msgstr ""
+"פעולה זו עלולה לגרום לאובדן נתונים. ההערכה תהיה זהה עבור כל האצוות/מספרים "
+"סידוריים. האם ברצונך להמשיך?"
+>>>>>>> upstream/18.0
 
 #. module: stock_account
 #. odoo-python
 #: code:addons/stock_account/models/product.py:0
 msgid ""
+<<<<<<< HEAD
 "This product is valuated by lot/serial number. Changing the cost will update"
 " the cost of every lot/serial number in stock."
 msgstr ""
@@ -17069,6 +17337,11 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"This product is valuated by lot/serial number. Changing the cost will update "
+"the cost of every lot/serial number in stock."
+msgstr ""
+>>>>>>> upstream/18.0
 "מוצר זה מוערך לפי מספר אצווה/מספר סידורי. שינוי העלות יעדכן את עלות כל "
 "אצווה/מספר סידורי במלאי."
 
@@ -17122,6 +17395,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17303,7 +17579,11 @@ msgid "Total Moved Quantity"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "סה\"כ כמות שהועברה"
+>>>>>>> upstream/18.0
 =======
 msgstr "סה\"כ כמות שהועברה"
 >>>>>>> upstream/18.0
@@ -17606,8 +17886,13 @@ msgstr "העברה"
 #: model:ir.model.fields,help:stock_account.field_stock_move__to_refund
 #: model:ir.model.fields,help:stock_account.field_stock_return_picking_line__to_refund
 msgid ""
+<<<<<<< HEAD
 "Trigger a decrease of the delivered/received quantity in the associated Sale"
 " Order/Purchase Order"
+=======
+"Trigger a decrease of the delivered/received quantity in the associated Sale "
+"Order/Purchase Order"
+>>>>>>> upstream/18.0
 msgstr "הפעל הפחתה בכמות שנמסרה / שהתקבלה בהזמנת לקוח/ הזמנת רכש"
 
 #. module: stock_account
@@ -17731,7 +18016,11 @@ msgid "Updating lot valuation for product %s."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מעדכן הערכת שווי של אצווה למוצר %s."
+>>>>>>> upstream/18.0
 =======
 msgstr "מעדכן הערכת שווי של אצווה למוצר %s."
 >>>>>>> upstream/18.0
@@ -18012,8 +18301,13 @@ msgid ""
 "generic Stock Output Account set on the product. This has no effect for "
 "internal locations."
 msgstr ""
+<<<<<<< HEAD
 "ממשמש עבור הערכת מלאי בזמן אמת. כאשר מוגדר מיקום וירטואלי (סוג שאינו פנימי),"
 " חשבון זה משמש להחזיק את ערך המוצרים המועברים ממיקום פנימי למיקום זה, במקום "
+=======
+"ממשמש עבור הערכת מלאי בזמן אמת. כאשר מוגדר מיקום וירטואלי (סוג שאינו פנימי), "
+"חשבון זה משמש להחזיק את ערך המוצרים המועברים ממיקום פנימי למיקום זה, במקום "
+>>>>>>> upstream/18.0
 "בחשבון המלאי הכללי שנקבע עבור המוצר. אין לכך השפעה על מיקומים פנימיים."
 
 #. module: stock_account
@@ -18026,8 +18320,13 @@ msgid ""
 "internal locations."
 msgstr ""
 "משמש עבור הערכת מלאי בזמן אמת. כאשר הוא מוגדר במיקום וירטואלי (סוג שאינו "
+<<<<<<< HEAD
 "פנימי), חשבון זה ישמש לשמירה על ערך המוצרים שמועברים מחוץ למיקום זה ולמיקומו"
 " הפנימי, במקום בחשבון הפלט הכללי של המלאי שמוגדר למוצר. אין לכך השפעה על "
+=======
+"פנימי), חשבון זה ישמש לשמירה על ערך המוצרים שמועברים מחוץ למיקום זה ולמיקומו "
+"הפנימי, במקום בחשבון הפלט הכללי של המלאי שמוגדר למוצר. אין לכך השפעה על "
+>>>>>>> upstream/18.0
 "מיקומים פנימיים."
 
 #. module: stock_account
@@ -18137,7 +18436,11 @@ msgid "Valuation Layers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "שכבות הערכת שווי"
+>>>>>>> upstream/18.0
 =======
 msgstr "שכבות הערכת שווי"
 >>>>>>> upstream/18.0
@@ -18508,7 +18811,11 @@ msgid "Valuation at Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "הערכת שווי בתאריך"
+>>>>>>> upstream/18.0
 =======
 msgstr "הערכת שווי בתאריך"
 >>>>>>> upstream/18.0
@@ -18874,7 +19181,11 @@ msgid "Valuation by Lot/Serial number"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "הערכת שווי לפי אצווה\\מספר סידורי"
+>>>>>>> upstream/18.0
 =======
 msgstr "הערכת שווי לפי אצווה\\מספר סידורי"
 >>>>>>> upstream/18.0
@@ -19150,11 +19461,19 @@ msgstr "הערכת שווי לפי אצווה\\מספר סידורי"
 #. odoo-python
 #: code:addons/stock_account/models/product.py:0
 msgid ""
+<<<<<<< HEAD
 "Valuation method change for product category %(category)s: from "
 "%(old_method)s to %(new_method)s."
 msgstr ""
 "שינוי שיטת הערכת שווי עבור קטגוריית מוצרים %(category)s: מ %(old_method)s ל "
 "%(new_method)s."
+=======
+"Valuation method change for product category %(category)s: from %"
+"(old_method)s to %(new_method)s."
+msgstr ""
+"שינוי שיטת הערכת שווי עבור קטגוריית מוצרים %(category)s: מ %(old_method)s ל %"
+"(new_method)s."
+>>>>>>> upstream/18.0
 
 #. module: stock_account
 #: model:ir.model.fields,help:stock_account.field_stock_valuation_layer_revaluation__adjusted_layer_ids
@@ -19249,7 +19568,11 @@ msgid "Valuations layers being adjusted"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "שכבות הערכת מלאי עוברות התאמה"
+>>>>>>> upstream/18.0
 =======
 msgstr "שכבות הערכת מלאי עוברות התאמה"
 >>>>>>> upstream/18.0
@@ -19542,7 +19865,12 @@ msgstr ""
 #: model:ir.model.fields,help:stock_account.field_stock_lot__standard_price
 msgid ""
 "Value of the lot (automatically computed in AVCO).\n"
+<<<<<<< HEAD
 "        Used to value the product when the purchase cost is not known (e.g. inventory adjustment).\n"
+=======
+"        Used to value the product when the purchase cost is not known (e.g. "
+"inventory adjustment).\n"
+>>>>>>> upstream/18.0
 "        Used to compute margins on sale orders."
 msgstr ""
 
@@ -19564,6 +19892,7 @@ msgstr ""
 #. module: stock_account
 #: model:ir.model.fields,help:stock_account.field_product_category__property_stock_account_output_categ_id
 msgid ""
+<<<<<<< HEAD
 "When doing automated inventory valuation, counterpart journal items for all outgoing stock moves will be posted in this account,\n"
 "                unless there is a specific valuation account set on the destination location. This is the default value for all products in this category.\n"
 "                It can also directly be set on each product."
@@ -20090,6 +20419,20 @@ msgstr ""
 "         אלא אם כן מוגדר חשבון הערכה ספציפי במיקום היעד. זהו הערך הברירת מחדל עבור כל המוצרים בקטגוריה זו.\n"
 "ניתן גם להגדיר זאת ישירות עבור כל מוצר ומוצר."
 >>>>>>> upstream/18.0
+=======
+"When doing automated inventory valuation, counterpart journal items for all "
+"outgoing stock moves will be posted in this account,\n"
+"                unless there is a specific valuation account set on the "
+"destination location. This is the default value for all products in this "
+"category.\n"
+"                It can also directly be set on each product."
+msgstr ""
+"בעת ביצוע הערכת מלאי אוטומטית, פריטי היומן נגדיים עבור כל תנועות המלאי "
+"היוצאות יירשמו בחשבון זה,\n"
+"         אלא אם כן מוגדר חשבון הערכה ספציפי במיקום היעד. זהו הערך הברירת "
+"מחדל עבור כל המוצרים בקטגוריה זו.\n"
+"ניתן גם להגדיר זאת ישירות עבור כל מוצר ומוצר."
+>>>>>>> upstream/18.0
 
 #. module: stock_account
 #: model:ir.model.fields,help:stock_account.field_product_category__property_stock_journal
@@ -20184,6 +20527,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"בעת ביצוע הערכת מלאי אוטומטית, זה היומן החשבונאי שבו יירשמו הרשומות באופן "
+"אוטומטי כאשר תנועות מלאי מעובדות."
+>>>>>>> upstream/18.0
 =======
 "בעת ביצוע הערכת מלאי אוטומטית, זה היומן החשבונאי שבו יירשמו הרשומות באופן "
 "אוטומטי כאשר תנועות מלאי מעובדות."
@@ -20623,6 +20971,7 @@ msgid "Wizard model to reavaluate a stock inventory for a product"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: stock_account
@@ -20891,6 +21240,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr "מודל אשף להערכת מלאי מחדש עבור מוצר."
 
 #. module: stock_account
@@ -20981,6 +21332,9 @@ msgstr "מודל אשף להערכת מלאי מחדש עבור מוצר."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -21247,6 +21601,9 @@ msgstr "לא ניתן לבצע התאמה בשכבת הערכת שווי עם כ
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -21521,7 +21878,11 @@ msgid "You cannot adjust valuation without a product"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "לא ניתן לבצע הערכת שווי ללא מוצר"
+>>>>>>> upstream/18.0
 =======
 msgstr "לא ניתן לבצע הערכת שווי ללא מוצר"
 >>>>>>> upstream/18.0
@@ -21889,7 +22250,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "אינך יכול לשנות שיטת התמחור של מוצר שמוערך ע\"י אצווה\\מספר סידורי."
+>>>>>>> upstream/18.0
 =======
 msgstr "אינך יכול לשנות שיטת התמחור של מוצר שמוערך ע\"י אצווה\\מספר סידורי."
 >>>>>>> upstream/18.0
@@ -22255,6 +22620,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"אינך יכול לשנות את קטגוריית המוצר של מוצר המוערך לפי מספר אצווה/מספר סידורי."
+>>>>>>> upstream/18.0
 =======
 "אינך יכול לשנות את קטגוריית המוצר של מוצר המוערך לפי מספר אצווה/מספר סידורי."
 >>>>>>> upstream/18.0
@@ -22611,7 +22980,11 @@ msgid "You cannot revalue a product with a standard cost method."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "לא ניתן להעריך מחדש מוצר עם שיטת עלות סטנדרטית."
+>>>>>>> upstream/18.0
 =======
 msgstr "לא ניתן להעריך מחדש מוצר עם שיטת עלות סטנדרטית."
 >>>>>>> upstream/18.0
@@ -22977,7 +23350,11 @@ msgid "You cannot revalue a product with an empty or negative stock."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "לא ניתן להעריך מחדש מוצר עם מלאי ריק או שלילי."
+>>>>>>> upstream/18.0
 =======
 msgstr "לא ניתן להעריך מחדש מוצר עם מלאי ריק או שלילי."
 >>>>>>> upstream/18.0
@@ -23343,7 +23720,11 @@ msgid "You cannot revalue multiple products at once"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "לא ניתן להעריך מחדש מספר מוצרים בו זמנית"
+>>>>>>> upstream/18.0
 =======
 msgstr "לא ניתן להעריך מחדש מספר מוצרים בו זמנית"
 >>>>>>> upstream/18.0
@@ -23711,6 +24092,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"אינך יכול לעדכן את עלות המוצר בהערכת מלאי אוטומטית מכיוון שזה יוביל ליצירת "
+"פקודת יומן, שאליה אין לך הרשאות גישה."
+>>>>>>> upstream/18.0
 =======
 "אינך יכול לעדכן את עלות המוצר בהערכת מלאי אוטומטית מכיוון שזה יוביל ליצירת "
 "פקודת יומן, שאליה אין לך הרשאות גישה."
@@ -24064,6 +24450,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/stock_account/models/product.py:0
 msgid ""
+<<<<<<< HEAD
 "You don't have any input valuation account defined on your product category."
 " You must define one before processing this operation."
 msgstr ""
@@ -24502,6 +24889,13 @@ msgstr ""
 "אין לך חשבון הערכת כניסה מוגדר בקטגוריית המוצרים שלך. עליך להגדיר אחד לפני "
 "ביצוע פעולה זו."
 >>>>>>> upstream/18.0
+=======
+"You don't have any input valuation account defined on your product category. "
+"You must define one before processing this operation."
+msgstr ""
+"אין לך חשבון הערכת כניסה מוגדר בקטגוריית המוצרים שלך. עליך להגדיר אחד לפני "
+"ביצוע פעולה זו."
+>>>>>>> upstream/18.0
 
 #. module: stock_account
 #. odoo-python
@@ -24515,8 +24909,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/stock_account/models/product.py:0
 msgid ""
+<<<<<<< HEAD
 "You don't have any stock input account defined on your product category. You"
 " must define one before processing this operation."
+=======
+"You don't have any stock input account defined on your product category. You "
+"must define one before processing this operation."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock_account
@@ -24535,8 +24934,13 @@ msgstr ""
 #: code:addons/stock_account/models/stock_move.py:0
 #: code:addons/stock_account/models/stock_valuation_layer.py:0
 msgid ""
+<<<<<<< HEAD
 "You don't have any stock valuation account defined on your product category."
 " You must define one before processing this operation."
+=======
+"You don't have any stock valuation account defined on your product category. "
+"You must define one before processing this operation."
+>>>>>>> upstream/18.0
 msgstr ""
 "אין לך חשבון הערכה של מלאי המוגדר בקטגוריית המוצרים שלך. עליך להגדיר אחד "
 "לפני עיבוד פעולה זו."
@@ -24632,7 +25036,11 @@ msgid "You must set a counterpart account on your product category."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "עליך להגדיר חשבון נגדי בקטגוריית המוצרים שלך."
+>>>>>>> upstream/18.0
 =======
 msgstr "עליך להגדיר חשבון נגדי בקטגוריית המוצרים שלך."
 >>>>>>> upstream/18.0
@@ -24998,7 +25406,11 @@ msgid "locations"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מיקומים"
+>>>>>>> upstream/18.0
 =======
 msgstr "מיקומים"
 >>>>>>> upstream/18.0
@@ -25368,7 +25780,11 @@ msgid "valuation graph"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "גרף הערכת שווי"
+>>>>>>> upstream/18.0
 =======
 msgstr "גרף הערכת שווי"
 >>>>>>> upstream/18.0

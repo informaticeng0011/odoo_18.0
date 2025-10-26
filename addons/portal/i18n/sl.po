@@ -107,6 +107,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Jan Zorko, 2025
+# Aleš Pipan, 2025
+>>>>>>> upstream/18.0
 =======
 # Jan Zorko, 2025
 # Aleš Pipan, 2025
@@ -520,6 +525,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1135,6 +1141,11 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Aleš Pipan, 2025\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-05-23 18:40+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Aleš Pipan, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Slovenian (https://app.transifex.com/odoo/teams/41243/sl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1253,7 +1264,11 @@ msgid "%s days overdue"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s dni zamude"
+>>>>>>> upstream/18.0
 =======
 msgstr "%s dni zamude"
 >>>>>>> upstream/18.0
@@ -1666,7 +1681,11 @@ msgid "1. Enter your password to confirm you own this account"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "1. Vnesite svoje geslo in potrdite, da ste lastnik tega računa"
+>>>>>>> upstream/18.0
 =======
 msgstr "1. Vnesite svoje geslo in potrdite, da ste lastnik tega računa"
 >>>>>>> upstream/18.0
@@ -2107,7 +2126,11 @@ msgid "<i class=\"fa fa-pencil\"/> Edit information"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-pencil\"/> Uredi podatke"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-pencil\"/> Uredi podatke"
 >>>>>>> upstream/18.0
@@ -2520,7 +2543,11 @@ msgid "<i class=\"oi oi-arrow-right me-1\"/>Back to edit mode"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"oi oi-arrow-right me-1\"/>Nazaj v način urejanja"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"oi oi-arrow-right me-1\"/>Nazaj v način urejanja"
 >>>>>>> upstream/18.0
@@ -2945,7 +2972,11 @@ msgid "<i title=\"Documentation\" class=\"fa fa-fw o_button_icon fa-info-circle\
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i title=\"Dokumentacija\" class=\"fa fa-fw o_button_icon fa-info-circle\"/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i title=\"Dokumentacija\" class=\"fa fa-fw o_button_icon fa-info-circle\"/>"
 >>>>>>> upstream/18.0
@@ -3358,7 +3389,11 @@ msgid "<option value=\"\">Country...</option>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<option value=\"\">Država...</option>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<option value=\"\">Država...</option>"
 >>>>>>> upstream/18.0
@@ -3771,7 +3806,11 @@ msgid "<option value=\"\">select...</option>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<option value=\"\">izberite...</option>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<option value=\"\">izberite...</option>"
 >>>>>>> upstream/18.0
@@ -4205,7 +4244,11 @@ msgid "<span class=\"small me-1 navbar-text\">Filter By:</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"small me-1 navbar-text\">Filtriraj po:</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"small me-1 navbar-text\">Filtriraj po:</span>"
 >>>>>>> upstream/18.0
@@ -4618,7 +4661,11 @@ msgid "<span class=\"small me-1 navbar-text\">Group By:</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"small me-1 navbar-text\">Združi po:</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"small me-1 navbar-text\">Združi po:</span>"
 >>>>>>> upstream/18.0
@@ -5031,7 +5078,11 @@ msgid "<span class=\"small me-1 navbar-text\">Sort By:</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"small me-1 navbar-text\">Razvrsti po:</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"small me-1 navbar-text\">Razvrsti po:</span>"
 >>>>>>> upstream/18.0
@@ -5440,6 +5491,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<t t-set=\"user_name\" t-value=\"object.user_id.name or object.partner_id.name or ''\"/>\n"
+"            <t t-set=\"company_name\" t-value=\"object.user_id.company_id.name or object.partner_id.company_id.name or ''\"/>\n"
+"            <t t-set=\"signup_url\" t-value=\"object.user_id.partner_id and object.user_id.partner_id._get_signup_url() or object.partner_id and object.partner_id._get_signup_url()\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "<t t-set=\"user_name\" t-value=\"object.user_id.name or object.partner_id.name or ''\"/>\n"
 "            <t t-set=\"company_name\" t-value=\"object.user_id.company_id.name or object.partner_id.company_id.name or ''\"/>\n"
@@ -6013,6 +6070,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <span style=\"font-size: 20px; font-weight: bold;\" t-out=\"object.user_id.name or ''\">Marc Demo</span>\n"
 =======
 "                    <span style=\"font-size: 20px; font-weight: bold;\" t-out=\"object.user_id.name or object.partner_id.name or ''\">Marc Demo</span>\n"
@@ -6031,6 +6089,9 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 "                    <span style=\"font-size: 20px; font-weight: bold;\" t-out=\"object.user_id.name or object.partner_id.name or ''\">Marc Demo</span>\n"
+>>>>>>> upstream/18.0
+=======
+"                    <span style=\"font-size: 20px; font-weight: bold;\" t-out=\"user_name\">Marc Demo</span>\n"
 >>>>>>> upstream/18.0
 =======
 "                    <span style=\"font-size: 20px; font-weight: bold;\" t-out=\"user_name\">Marc Demo</span>\n"
@@ -6425,6 +6486,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        Dear <t t-out=\"object.user_id.name or ''\">Marc Demo</t>,<br/> <br/>\n"
 "                        Welcome to <t t-out=\"object.user_id.company_id.name\">YourCompany</t>'s Portal!<br/><br/>\n"
 "                        An account has been created for you with the following login: <t t-out=\"object.user_id.login\">demo</t><br/><br/>\n"
@@ -6465,6 +6527,8 @@ msgid ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6747,6 +6811,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7042,7 +7109,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <t t-out=\"object.user_id.company_id.name or ''\">YourCompany</t>\n"
+=======
+"                    <t t-out=\"company_name\">YourCompany</t>\n"
+>>>>>>> upstream/18.0
 =======
 "                    <t t-out=\"company_name\">YourCompany</t>\n"
 >>>>>>> upstream/18.0
@@ -7449,7 +7520,11 @@ msgid "API Key Description"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "API Opis tipke"
+>>>>>>> upstream/18.0
 =======
 msgstr "API Opis tipke"
 >>>>>>> upstream/18.0
@@ -7839,7 +7914,11 @@ msgid "API Key Ready"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "API Ključ pripravljen"
+>>>>>>> upstream/18.0
 =======
 msgstr "API Ključ pripravljen"
 >>>>>>> upstream/18.0
@@ -8247,7 +8326,11 @@ msgid "Account deleted!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Račun izbrisan!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Račun izbrisan!"
 >>>>>>> upstream/18.0
@@ -8666,7 +8749,11 @@ msgid "Add attachment"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dodaj priponko"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dodaj priponko"
 >>>>>>> upstream/18.0
@@ -9084,7 +9171,11 @@ msgid "Add extra content to display in the email"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dodajte dodatno vsebino za prikaz v e-pošti"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dodajte dodatno vsebino za prikaz v e-pošti"
 >>>>>>> upstream/18.0
@@ -9497,7 +9588,11 @@ msgid "Added On"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dodano"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dodano"
 >>>>>>> upstream/18.0
@@ -10093,7 +10188,11 @@ msgid "Delete Account"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izbriši račun"
+>>>>>>> upstream/18.0
 =======
 msgstr "Izbriši račun"
 >>>>>>> upstream/18.0
@@ -10544,7 +10643,11 @@ msgid "Due in %s days"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zapade čez %s dni"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zapade čez %s dni"
 >>>>>>> upstream/18.0
@@ -10971,7 +11074,11 @@ msgid "Enter a description of and purpose for the key."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vnesite opis in namen ključa."
+>>>>>>> upstream/18.0
 =======
 msgstr "Vnesite opis in namen ključa."
 >>>>>>> upstream/18.0
@@ -11354,7 +11461,11 @@ msgid "Forgot password?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ste pozabili geslo?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ste pozabili geslo?"
 >>>>>>> upstream/18.0
@@ -11732,7 +11843,11 @@ msgid "Give a duration for the key's validity"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Določite trajanje veljavnosti ključa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Določite trajanje veljavnosti ključa"
 >>>>>>> upstream/18.0
@@ -12229,12 +12344,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/portal/static/src/xml/portal_security.xml:0
 msgid "Key Description"
 msgstr ""
 
 #. module: portal
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12561,7 +12679,11 @@ msgid "Log out from all devices"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odjava iz vseh naprav"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odjava iz vseh naprav"
 >>>>>>> upstream/18.0
@@ -12957,7 +13079,11 @@ msgid "My account"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Moj račun"
+>>>>>>> upstream/18.0
 =======
 msgstr "Moj račun"
 >>>>>>> upstream/18.0
@@ -13364,7 +13490,11 @@ msgid "Name your key"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poimenujte svoj ključ"
+>>>>>>> upstream/18.0
 =======
 msgstr "Poimenujte svoj ključ"
 >>>>>>> upstream/18.0
@@ -13731,7 +13861,11 @@ msgid "New API Key"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nov ključ API-ja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nov ključ API-ja"
 >>>>>>> upstream/18.0
@@ -14131,7 +14265,11 @@ msgid "Portal Sharing"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Deljenje portala"
+>>>>>>> upstream/18.0
 =======
 msgstr "Deljenje portala"
 >>>>>>> upstream/18.0
@@ -14458,9 +14596,14 @@ msgstr "Varnost"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/portal/static/src/xml/portal_security.xml:0
 msgid "Security Control"
 msgstr ""
+=======
+msgid "Security Control"
+msgstr "Varnostni nadzor"
+>>>>>>> upstream/18.0
 =======
 msgid "Security Control"
 msgstr "Varnostni nadzor"
@@ -15088,7 +15231,11 @@ msgid "The key will be deleted once this period has elapsed."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ključ bo izbrisan po preteku tega obdobja."
+>>>>>>> upstream/18.0
 =======
 msgstr "Ključ bo izbrisan po preteku tega obdobja."
 >>>>>>> upstream/18.0
@@ -15625,7 +15772,11 @@ msgid "What's this key for?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Čemu je namenjen ta ključ?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Čemu je namenjen ta ključ?"
 >>>>>>> upstream/18.0
@@ -16008,7 +16159,11 @@ msgid "Write down your key"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zapišite si svoj ključ"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zapišite si svoj ključ"
 >>>>>>> upstream/18.0
@@ -16385,7 +16540,11 @@ msgid "Wrong password."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Napačno geslo."
+>>>>>>> upstream/18.0
 =======
 msgstr "Napačno geslo."
 >>>>>>> upstream/18.0
@@ -16811,7 +16970,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Your account at {{ object.user_id.company_id.name }}"
+=======
+msgid ""
+"Your account at {{ object.user_id.company_id.name or "
+"object.partner_id.company_id.name }}"
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "Your account at {{ object.user_id.company_id.name or "
@@ -17384,7 +17549,11 @@ msgid "Your contact"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vaš kontakt"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vaš kontakt"
 >>>>>>> upstream/18.0
@@ -17808,7 +17977,11 @@ msgid "has invited you to access the following"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "vas je povabil/a k dostopu do sledečega"
+>>>>>>> upstream/18.0
 =======
 msgstr "vas je povabil/a k dostopu do sledečega"
 >>>>>>> upstream/18.0

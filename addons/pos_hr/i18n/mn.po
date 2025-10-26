@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* pos_hr
+<<<<<<< HEAD
 # 
 # Translators:
 # Batmunkh Ganbat <batmunkh2522@gmail.com>, 2024
@@ -705,10 +706,21 @@
 # Baskhuu Lodoikhuu <baskhuujacara@gmail.com>, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+#
+# Translators:
+# Batmunkh Ganbat <batmunkh2522@gmail.com>, 2024
+# Sanjaajamts Badamjunai <b.sanjaajamtsfc@gmail.com>, 2024
+# Martin Trigaux, 2024
+# Batmunkh Ganbat <batmunkh.g@bumanit.mn>, 2024
+# Baskhuu Lodoikhuu <baskhuujacara@gmail.com>, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-12-16 13:40+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
@@ -1181,6 +1193,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: mn\n"
+=======
+"POT-Creation-Date: 2025-10-24 18:37+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Baskhuu Lodoikhuu <baskhuujacara@gmail.com>, 2025\n"
+"Language-Team: Mongolian (https://app.transifex.com/odoo/teams/41243/mn/)\n"
+"Language: mn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+>>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: pos_hr
@@ -1385,7 +1407,11 @@ msgid "Closed Register"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Хаагдсан бүртгэл"
+>>>>>>> upstream/18.0
 =======
 msgstr "Хаагдсан бүртгэл"
 >>>>>>> upstream/18.0
@@ -1789,6 +1815,17 @@ msgid "Employee: %(employee)s - PoS Config(s): %(config_list)s \n"
 msgstr ""
 
 #. module: pos_hr
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,help:pos_hr.field_pos_config__advanced_employee_ids
+#: model:ir.model.fields,help:pos_hr.field_res_config_settings__pos_advanced_employee_ids
+msgid ""
+"Employees linked to users with the PoS Manager role are automatically added "
+"to this list"
+msgstr ""
+
+#. module: pos_hr
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:pos_hr.field_pos_config__basic_employee_ids
 #: model:ir.model.fields,field_description:pos_hr.field_res_config_settings__pos_basic_employee_ids
 msgid "Employees with basic access"
@@ -1813,12 +1850,15 @@ msgid "If left empty, all employees can log in to PoS"
 msgstr ""
 
 #. module: pos_hr
+<<<<<<< HEAD
 #: model:ir.model.fields,help:pos_hr.field_pos_config__advanced_employee_ids
 #: model:ir.model.fields,help:pos_hr.field_res_config_settings__pos_advanced_employee_ids
 msgid "If left empty, only Odoo users have extended rights in PoS"
 msgstr ""
 
 #. module: pos_hr
+=======
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/pos_hr/static/src/overrides/components/navbar/navbar.xml:0
 msgid "Lock"
@@ -1950,7 +1990,11 @@ msgid "Open Register"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Сэшн нээх"
+>>>>>>> upstream/18.0
 =======
 msgstr "Сэшн нээх"
 >>>>>>> upstream/18.0
@@ -2412,7 +2456,11 @@ msgid "Password?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Нууц үг?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Нууц үг?"
 >>>>>>> upstream/18.0
@@ -2802,7 +2850,11 @@ msgid "Point of Sale Daily Report"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Борлуулалтын цэгийн өдрийн тайлан"
+>>>>>>> upstream/18.0
 =======
 msgstr "Борлуулалтын цэгийн өдрийн тайлан"
 >>>>>>> upstream/18.0

@@ -298,6 +298,7 @@ test("char field translatable", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await mountView({ type: "form", resModel: "res.partner", resId: 1 });
 
     let call_get_field_translations = 0;
@@ -344,6 +345,8 @@ test("char field translatable", async () => {
             return true;
         }
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -609,7 +612,11 @@ test("char field translatable", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     onRpc("res.partner", "update_field_translations", async function ({ args, kwargs }) {
+=======
+    onRpc("res.partner", "update_field_translations", function ({ args, kwargs }) {
+>>>>>>> upstream/18.0
 =======
     onRpc("res.partner", "update_field_translations", function ({ args, kwargs }) {
 >>>>>>> upstream/18.0
@@ -907,6 +914,9 @@ test("char field translatable", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

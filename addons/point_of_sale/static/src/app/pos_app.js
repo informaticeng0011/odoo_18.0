@@ -106,6 +106,7 @@ export class Chrome extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                 targetAddressSpace: "local",
 >>>>>>> upstream/18.0
@@ -123,6 +124,8 @@ export class Chrome extends Component {
 >>>>>>> upstream/18.0
 =======
                 targetAddressSpace: "local",
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

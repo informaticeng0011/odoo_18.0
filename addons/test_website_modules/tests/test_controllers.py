@@ -4,7 +4,11 @@ from base64 import b64encode
 
 from odoo import Command, tests
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.addons.base.tests.common import HttpCaseWithUserDemo
+=======
+from odoo.addons.base.tests.common import HttpCaseWithUserDemo, HttpCaseWithUserPortal
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.base.tests.common import HttpCaseWithUserDemo, HttpCaseWithUserPortal
 >>>>>>> upstream/18.0
@@ -14,7 +18,11 @@ from odoo.tools.json import scriptsafe as json_safe
 
 @tests.tagged('-at_install', 'post_install')
 <<<<<<< HEAD
+<<<<<<< HEAD
 class TestWebEditorController(HttpCaseWithUserDemo):
+=======
+class TestWebEditorController(HttpCaseWithUserDemo, HttpCaseWithUserPortal):
+>>>>>>> upstream/18.0
 =======
 class TestWebEditorController(HttpCaseWithUserDemo, HttpCaseWithUserPortal):
 >>>>>>> upstream/18.0
@@ -101,7 +109,11 @@ class TestWebEditorController(HttpCaseWithUserDemo, HttpCaseWithUserPortal):
         self.assertEqual('odoo.exceptions.AccessError', json['error']['data']['name'], "Expect access error")
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         event = self.env['event.event'].search([], limit=1)
+=======
+        event = self.env['event.event'].create({'name': 'Event'})
+>>>>>>> upstream/18.0
 =======
         event = self.env['event.event'].create({'name': 'Event'})
 >>>>>>> upstream/18.0

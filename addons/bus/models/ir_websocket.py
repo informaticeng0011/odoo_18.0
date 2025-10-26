@@ -51,6 +51,11 @@ class IrWebsocket(models.AbstractModel):
                 .with_context(active_test=False)
                 .search([("id", "in", [int(p[1]) for p in presences if p[0] == "res.partner"])])
             )
+<<<<<<< HEAD
+=======
+        if self.env.user and not self.env.user._is_public():
+            channels.append((self.env.user.partner_id, "presence"))
+>>>>>>> upstream/18.0
         return channels
 
     def _build_bus_channel_list(self, channels):

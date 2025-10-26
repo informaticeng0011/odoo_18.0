@@ -3,8 +3,13 @@ from freezegun import freeze_time
 from unittest import mock
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import _
 from odoo.exceptions import UserError
+=======
+from odoo import _, Command
+from odoo.exceptions import UserError, RedirectWarning
+>>>>>>> upstream/18.0
 =======
 from odoo import _, Command
 from odoo.exceptions import UserError, RedirectWarning
@@ -66,7 +71,10 @@ class TestL10nEsEdiVerifactuDocument(TestL10nEsEdiVerifactuCommon):
         self.assertRecordValues(invoice, [expected_record_values])
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_refund_without_refunded_error(self):
         "Asserts no error is raised during the generation of the document."
         invoice = self._create_dummy_invoice(name='INV/2019/00026', invoice_date='2024-12-30')
@@ -149,6 +157,9 @@ class TestL10nEsEdiVerifactuDocument(TestL10nEsEdiVerifactuCommon):
 
         self.assertTrue(substitution_move.l10n_es_edi_verifactu_document_ids.json_attachment_id)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_certificate_issue(self):
         invoice = self._create_dummy_invoice()

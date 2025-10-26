@@ -159,7 +159,10 @@ QUnit.test("second tab still receives notifications after main pagehide", async 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -372,6 +375,9 @@ QUnit.test("second tab still receives notifications after main pagehide", async 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -640,6 +646,7 @@ QUnit.test("Websocket disconnects upon user log out", async () => {
     patchWebsocketWorkerWithCleanup();
     // first tab connects to the worker with user logged.
     patchWithCleanup(user, { userId: 1 });
+<<<<<<< HEAD
     const firstTabEnv = await makeTestEnv();
     firstTabEnv.services["bus_service"].start();
     await waitForBusEvent(firstTabEnv, "connect");
@@ -648,6 +655,21 @@ QUnit.test("Websocket disconnects upon user log out", async () => {
     patchWithCleanup(user, { userId: false });
     const env2 = await makeTestEnv();
     env2.services["bus_service"].start();
+=======
+    patchWithCleanup(session, { db: "odoo" });
+    const firstTabEnv = await makeTestEnv();
+    firstTabEnv.services["bus_service"].start();
+    await waitForBusEvent(firstTabEnv, "connect");
+    // second tab connects to the worker, ommiting the DB name. Consider same DB.
+    patchWithCleanup(session, { db: undefined });
+    const env2 = await makeTestEnv();
+    env2.services["bus_service"].start();
+    await waitForBusEvent(firstTabEnv, "disconnect", { received: false });
+    // third tab connects to the worker after disconnection: userId is now false.
+    patchWithCleanup(user, { userId: false });
+    const env3 = await makeTestEnv();
+    env3.services["bus_service"].start();
+>>>>>>> upstream/18.0
     await waitForBusEvent(firstTabEnv, "disconnect");
 });
 

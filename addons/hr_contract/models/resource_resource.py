@@ -56,7 +56,10 @@ class ResourceResource(models.Model):
         return calendars_within_period_per_resource
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -68,6 +71,9 @@ class ResourceResource(models.Model):
             result[resource] = employee_calendars[resource.employee_id.id]
         return result
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

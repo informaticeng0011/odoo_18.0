@@ -76,6 +76,10 @@ from odoo.addons.account.tools import (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    is_valid_structured_reference_si,
+>>>>>>> upstream/18.0
 =======
     is_valid_structured_reference_si,
 >>>>>>> upstream/18.0
@@ -458,7 +462,10 @@ class StructuredReferenceTest(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -690,6 +697,9 @@ class StructuredReferenceTest(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -907,6 +917,10 @@ class StructuredReferenceTest(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.assertTrue(is_valid_structured_reference("SI01 25-20-85"))  # SI
+>>>>>>> upstream/18.0
 =======
         self.assertTrue(is_valid_structured_reference("SI01 25-20-85"))  # SI
 >>>>>>> upstream/18.0
@@ -1193,6 +1207,10 @@ class StructuredReferenceTest(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.assertTrue(is_valid_structured_reference("  SI01 25  - 2 0-85  "))  # SI
+>>>>>>> upstream/18.0
 =======
         self.assertTrue(is_valid_structured_reference("  SI01 25  - 2 0-85  "))  # SI
 >>>>>>> upstream/18.0
@@ -1484,6 +1502,10 @@ class StructuredReferenceTest(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.assertFalse(is_valid_structured_reference("0519123584503"))  # SI
+>>>>>>> upstream/18.0
 =======
         self.assertFalse(is_valid_structured_reference("0519123584503"))  # SI
 >>>>>>> upstream/18.0
@@ -1770,6 +1792,10 @@ class StructuredReferenceTest(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.assertFalse(is_valid_structured_reference("SI01 19-1235-84504"))  # SI
+>>>>>>> upstream/18.0
 =======
         self.assertFalse(is_valid_structured_reference("SI01 19-1235-84504"))  # SI
 >>>>>>> upstream/18.0

@@ -1,5 +1,9 @@
 from odoo import _, api, models
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.exceptions import RedirectWarning
+>>>>>>> upstream/18.0
 =======
 from odoo.exceptions import RedirectWarning
 >>>>>>> upstream/18.0
@@ -71,10 +75,13 @@ class AccountMoveSend(models.AbstractModel):
         super()._call_web_service_before_invoice_pdf_render(invoices_data)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         checked_invoices = self.env['account.move'].browse([
             invoice.id for invoice, invoice_data in invoices_data.items()
             if 'es_verifactu' in invoice_data['extra_edis']
 =======
+=======
+>>>>>>> upstream/18.0
         for invoice, invoice_data in invoices_data.items():
             if 'es_verifactu' not in invoice_data['extra_edis']:
                 continue
@@ -104,6 +111,9 @@ class AccountMoveSend(models.AbstractModel):
         checked_invoices = self.env['account.move'].browse([
             invoice.id for invoice, invoice_data in invoices_data.items()
             if 'es_verifactu' in invoice_data['extra_edis'] and not invoice_data.get('error', {}).get('verifactu_redirect_action')
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         ])
         invoices_to_send = self._l10n_es_edi_verifactu_get_move_info(checked_invoices)['moves_to_send']
@@ -120,7 +130,10 @@ class AccountMoveSend(models.AbstractModel):
         if created_document and self._can_commit():
             self._cr.commit()
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def _hook_if_errors(self, moves_data, allow_raising=True):
         # EXTENDS 'account'
@@ -130,4 +143,7 @@ class AccountMoveSend(models.AbstractModel):
                 if isinstance(error, dict) and error.get('verifactu_redirect_action'):
                     raise RedirectWarning('\n'.join(error['errors']), error['verifactu_redirect_action'], error['error_title'])
         super()._hook_if_errors(moves_data, allow_raising=allow_raising)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

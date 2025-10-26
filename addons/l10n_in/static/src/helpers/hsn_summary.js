@@ -127,11 +127,14 @@ patch(accountTaxHelpers, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return {
                 ...get_base_line_grouping_key(base_line),
                 l10n_in_tax_type: tax_data.tax.l10n_in_tax_type,
             };
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -346,6 +349,9 @@ patch(accountTaxHelpers, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

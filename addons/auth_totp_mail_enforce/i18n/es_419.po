@@ -123,7 +123,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Fernanda Alvarez, 2024
+=======
+# Fernanda Alvarez, 2025
+>>>>>>> upstream/18.0
 =======
 # Fernanda Alvarez, 2025
 >>>>>>> upstream/18.0
@@ -607,7 +611,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Fernanda Alvarez, 2024\n"
+=======
+"Last-Translator: Fernanda Alvarez, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Fernanda Alvarez, 2025\n"
 >>>>>>> upstream/18.0
@@ -1069,8 +1077,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "    Apreciable <t t-out=\"object.partner_id.name or ''\"/><br/><br/>\n"
 "    <p>Alguien está intentando iniciar sesión con su cuenta en un dispositivo nuevo.</p>\n"
+=======
+"    Apreciable <t t-out=\"object.partner_id.name or 'usuario'\"/>:<br/><br/>\n"
+"    <p>Alguien está intentando iniciar sesión con tu cuenta en un dispositivo nuevo.</p>\n"
+>>>>>>> upstream/18.0
 =======
 "    Apreciable <t t-out=\"object.partner_id.name or 'usuario'\"/>:<br/><br/>\n"
 "    <p>Alguien está intentando iniciar sesión con tu cuenta en un dispositivo nuevo.</p>\n"
@@ -1318,7 +1331,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "    <p>Si es usted, ingrese el siguiente código para poder iniciar sesión:</p>\n"
+=======
+"    <p>Si eres tú, ingresa el siguiente código para iniciar sesión:</p>\n"
+>>>>>>> upstream/18.0
 =======
 "    <p>Si eres tú, ingresa el siguiente código para iniciar sesión:</p>\n"
 >>>>>>> upstream/18.0
@@ -1517,6 +1534,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "    <small>Tenga en cuenta que este código vence en <t t-out=\"expiration\"/>.</small>\n"
 "\n"
 "    <p style=\"margin: 16px 0px 16px 0px;\">\n"
@@ -1527,6 +1545,8 @@ msgstr ""
 "    <p style=\"margin: 16px 0px 16px 0px;\">\n"
 "        También le recomendamos que active la autenticación de dos factores. Use una aplicación de autenticación, le ayudará a proteger su cuenta.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1677,6 +1697,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1824,7 +1847,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            Activar mi autenticación de dos factores\n"
+=======
+"            Activa tu autenticación de dos factores\n"
+>>>>>>> upstream/18.0
 =======
 "            Activa tu autenticación de dos factores\n"
 >>>>>>> upstream/18.0
@@ -2029,7 +2056,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                Para iniciar sesión ingrese el código de verificación de seis dígitos que recibió en "
+=======
+"                Para iniciar sesión, escribe el código de seis dígitos que te acabamos de enviar a"
+>>>>>>> upstream/18.0
 =======
 "                Para iniciar sesión, escribe el código de seis dígitos que te acabamos de enviar a"
 >>>>>>> upstream/18.0
@@ -2225,6 +2256,7 @@ msgid ""
 "users (including portal users) if they didn't enable any other two-factor "
 "authentication method."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2942,10 +2974,16 @@ msgstr ""
 " todos los usuarios (incluidos los del portal) si no han activado este "
 "método."
 >>>>>>> upstream/18.0
+=======
+"Activa la autenticación de dos factores por correo para los empleados o para"
+" todos los usuarios (incluidos los del portal) si no han activado este "
+"método."
+>>>>>>> upstream/18.0
 
 #. module: auth_totp_mail_enforce
 #: model:ir.model.fields,field_description:auth_totp_mail_enforce.field_res_config_settings__auth_totp_enforce
 msgid "Enforce two-factor authentication"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3423,6 +3461,9 @@ msgstr "Habilita la autenticación de dos factores"
 =======
 msgstr "Habilita la autenticación de dos factores"
 >>>>>>> upstream/18.0
+=======
+msgstr "Habilita la autenticación de dos factores"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp_mail_enforce
 #: model:ir.model.fields,field_description:auth_totp_mail_enforce.field_auth_totp_rate_limit_log__id
@@ -3520,7 +3561,11 @@ msgid "Settings: 2Fa New Login"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ajustes: nuevo inicio de sesión A2F"
+=======
+msgstr "Ajustes: Nuevo inicio de sesión A2F"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ajustes: Nuevo inicio de sesión A2F"
 >>>>>>> upstream/18.0
@@ -3734,7 +3779,11 @@ msgid "Verification failed, please double-check the 6-digit code"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "La verificación falló, revise el código de 6 dígitos"
+=======
+msgstr "La verificación falló, revisa el código de 6 dígitos"
+>>>>>>> upstream/18.0
 =======
 msgstr "La verificación falló, revisa el código de 6 dígitos"
 >>>>>>> upstream/18.0
@@ -3934,8 +3983,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Le recomendamos activar la autenticación de dos factores con la aplicación de verificación para mantener su cuenta segura.\n"
 "<br/>"
+=======
+"Te recomendamos activar la autenticación de dos factores con una aplicación especial para proteger mejor tu cuenta.\n"
+"                <br/>"
+>>>>>>> upstream/18.0
 =======
 "Te recomendamos activar la autenticación de dos factores con una aplicación especial para proteger mejor tu cuenta.\n"
 "                <br/>"
@@ -4181,7 +4235,12 @@ msgid "You reached the limit of authentication mails sent for your account"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Alcanzó el límite de correos de autenticación enviados a su cuenta."
+=======
+msgstr ""
+"Alcanzaste el límite de correos de autenticación enviados a tu cuenta."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "Alcanzaste el límite de correos de autenticación enviados a tu cuenta."
@@ -4427,7 +4486,11 @@ msgid "You reached the limit of code verifications for your account"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Alcanzó el límite de códigos de autenticación para su cuenta."
+=======
+msgstr "Alcanzaste el límite de verificaciones de código para tu cuenta."
+>>>>>>> upstream/18.0
 =======
 msgstr "Alcanzaste el límite de verificaciones de código para tu cuenta."
 >>>>>>> upstream/18.0
@@ -4624,7 +4687,11 @@ msgid "Your two-factor authentication code"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Su código de autenticación de dos factores"
+=======
+msgstr "Tu código de autenticación de dos factores"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tu código de autenticación de dos factores"
 >>>>>>> upstream/18.0

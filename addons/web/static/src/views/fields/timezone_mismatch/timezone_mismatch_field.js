@@ -26,7 +26,11 @@ export class TimezoneMismatchField extends SelectionField {
             const offset = -new Date().getTimezoneOffset();
             let browserOffset = offset < 0 ? "-" : "+";
 <<<<<<< HEAD
+<<<<<<< HEAD
             browserOffset += Math.abs(offset / 60)
+=======
+            browserOffset += Math.floor(Math.abs(offset / 60))
+>>>>>>> upstream/18.0
 =======
             browserOffset += Math.floor(Math.abs(offset / 60))
 >>>>>>> upstream/18.0

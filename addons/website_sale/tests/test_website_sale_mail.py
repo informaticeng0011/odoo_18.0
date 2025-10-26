@@ -5,18 +5,24 @@ from unittest.mock import patch
 import odoo
 from odoo import fields
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tests import HttpCase, tagged
 
 
 @tagged('post_install', '-at_install')
 class TestWebsiteSaleMail(HttpCase):
 =======
+=======
+>>>>>>> upstream/18.0
 from odoo.tests import tagged
 from odoo.addons.base.tests.common import HttpCaseWithUserPortal
 
 
 @tagged('post_install', '-at_install')
 class TestWebsiteSaleMail(HttpCaseWithUserPortal):
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     def test_01_shop_mail_tour(self):
@@ -53,6 +59,7 @@ class TestWebsiteSaleMail(HttpCaseWithUserPortal):
                                                     order='create_date DESC', limit=1)
             self.assertTrue(new_mail)
             self.assertIn('Your', new_mail.body_html)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -228,6 +235,8 @@ class TestWebsiteSaleMail(HttpCaseWithUserPortal):
             self.assertIn('order', new_mail.body_html)
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
             self.assertIn('order', new_mail.body_html)
 
     def test_shop_product_mail_action_redirection(self):
@@ -256,4 +265,7 @@ class TestWebsiteSaleMail(HttpCaseWithUserPortal):
             res = self.url_open(url)
             self.assertEqual(res.status_code, 200)
             self.assertEqual(res.request.path_url, shop_url)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

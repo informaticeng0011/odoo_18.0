@@ -30,6 +30,10 @@ class TestModel(models.Model):
         sanitize_form=False,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        default="""<div class="o_test_website_description"><p>A simple website description content.</p></div>""",
+>>>>>>> upstream/18.0
 =======
         default="""<div class="o_test_website_description"><p>A simple website description content.</p></div>""",
 >>>>>>> upstream/18.0

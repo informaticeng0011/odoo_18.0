@@ -1,8 +1,14 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* website_event_meet
 #
+=======
+# * website_event_meet
+#
+# Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>, 2025.
+>>>>>>> upstream/18.0
 =======
 # * website_event_meet
 #
@@ -14,6 +20,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "PO-Revision-Date: 2024-09-26 08:56+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -22,6 +29,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-10-24 22:20+0000\n"
 "Last-Translator: Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>\n"
 "Language-Team: Serbian (Latin script) <https://translate.odoo.com/projects/"
@@ -33,6 +42,9 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: website_event_meet
@@ -42,6 +54,11 @@ msgid ""
 "                        <span>Loading your room...</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-spin fa-circle-o-notch me-3\"/>\n"
+"                        <span>Vaša soba se učitava...</span>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-spin fa-circle-o-notch me-3\"/>\n"
 "                        <span>Vaša soba se učitava...</span>"
@@ -51,7 +68,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_event_meet.meeting_room_card
 msgid "<span class=\"badge text-bg-danger\">Unpublished</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"badge text-bg-danger\">Neobjavljeno</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"badge text-bg-danger\">Neobjavljeno</span>"
 >>>>>>> upstream/18.0
@@ -63,6 +84,11 @@ msgid ""
 "with us!"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span>Ups! Ova soba je puna!</span><br/>Vratite se kasnije da biste "
+"popričali sa nama!"
+>>>>>>> upstream/18.0
 =======
 "<span>Ups! Ova soba je puna!</span><br/>Vratite se kasnije da biste "
 "popričali sa nama!"
@@ -75,6 +101,11 @@ msgid ""
 "                        Join us here on the"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span>Ova soba trenutno nije otvorena!</span><br/>\n"
+"                        Pridružite nam se ovde na"
+>>>>>>> upstream/18.0
 =======
 "<span>Ova soba trenutno nije otvorena!</span><br/>\n"
 "                        Pridružite nam se ovde na"
@@ -84,7 +115,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_event_meet.meeting_room_main
 msgid "A chat among"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ćaskanje između"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ćaskanje između"
 >>>>>>> upstream/18.0
@@ -93,7 +128,11 @@ msgstr "Ćaskanje između"
 #: model:ir.model.fields,field_description:website_event_meet.field_event_meeting_room__active
 msgid "Active"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aktivno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aktivno"
 >>>>>>> upstream/18.0
@@ -102,7 +141,11 @@ msgstr "Aktivno"
 #: model_terms:ir.ui.view,arch_db:website_event_meet.community_main
 msgid "All Languages"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Svi jezici"
+>>>>>>> upstream/18.0
 =======
 msgstr "Svi jezici"
 >>>>>>> upstream/18.0
@@ -111,7 +154,11 @@ msgstr "Svi jezici"
 #: model_terms:ir.ui.view,arch_db:website_event_meet.event_meet_main
 msgid "All Rooms"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sve sobe"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sve sobe"
 >>>>>>> upstream/18.0
@@ -121,7 +168,11 @@ msgstr "Sve sobe"
 #: model:ir.model.fields,field_description:website_event_meet.field_event_type__meeting_room_allow_creation
 msgid "Allow Room Creation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dozvoli kreiranje soba"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dozvoli kreiranje soba"
 >>>>>>> upstream/18.0
@@ -131,7 +182,11 @@ msgstr "Dozvoli kreiranje soba"
 #: code:addons/website_event_meet/static/src/js/website_event_meeting_room.js:0
 msgid "Are you sure you want to close this room?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Da li ste sigurni da želite da ztvorite ovu sobu?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Da li ste sigurni da želite da ztvorite ovu sobu?"
 >>>>>>> upstream/18.0
@@ -141,7 +196,11 @@ msgstr "Da li ste sigurni da želite da ztvorite ovu sobu?"
 #: code:addons/website_event_meet/static/src/js/website_event_meeting_room.js:0
 msgid "Are you sure you want to duplicate this room?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Da li ste sigurni da želite da duplirate ovu sobu?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Da li ste sigurni da želite da duplirate ovu sobu?"
 >>>>>>> upstream/18.0
@@ -151,7 +210,11 @@ msgstr "Da li ste sigurni da želite da duplirate ovu sobu?"
 #: model_terms:ir.ui.view,arch_db:website_event_meet.event_meeting_room_view_search
 msgid "Audience"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Publika"
+>>>>>>> upstream/18.0
 =======
 msgstr "Publika"
 >>>>>>> upstream/18.0
@@ -160,7 +223,11 @@ msgstr "Publika"
 #: model_terms:ir.ui.view,arch_db:website_event_meet.event_meet_main
 msgid "Back to all Rooms"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nazad na Sve sobe"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nazad na Sve sobe"
 >>>>>>> upstream/18.0
@@ -173,6 +240,11 @@ msgid ""
 "to initiate a new topic."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Budite sigurni da ste spremni da provedete najmanje 10 minuta u sobi ako "
+"želite da započnete novu temu."
+>>>>>>> upstream/18.0
 =======
 "Budite sigurni da ste spremni da provedete najmanje 10 minuta u sobi ako "
 "želite da započnete novu temu."
@@ -182,7 +254,11 @@ msgstr ""
 #: model:event.meeting.room,name:website_event_meet.event_meeting_room_0
 msgid "Best wood for furniture"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Najbolje drvo za nameštaj"
+>>>>>>> upstream/18.0
 =======
 msgstr "Najbolje drvo za nameštaj"
 >>>>>>> upstream/18.0
@@ -191,7 +267,11 @@ msgstr "Najbolje drvo za nameštaj"
 #: model:ir.model.fields,field_description:website_event_meet.field_event_meeting_room__can_publish
 msgid "Can Publish"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Može da objavljuje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Može da objavljuje"
 >>>>>>> upstream/18.0
@@ -201,7 +281,11 @@ msgstr "Može da objavljuje"
 #: code:addons/website_event_meet/static/src/xml/website_event_meeting_room.xml:0
 msgid "Capacity"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kapacitet"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kapacitet"
 >>>>>>> upstream/18.0
@@ -210,7 +294,11 @@ msgstr "Kapacitet"
 #: model:ir.model.fields,field_description:website_event_meet.field_event_meeting_room__chat_room_id
 msgid "Chat Room"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Soba za ćaskanje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Soba za ćaskanje"
 >>>>>>> upstream/18.0
@@ -222,6 +310,11 @@ msgid ""
 "<br/> Don't forget to setup your camera and microphone."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Izaberite temu koja vas zanima i počnite da razgovarate sa zajednicom. <br/> "
+"Ne zaboravite da podesite kameru i mikrofon."
+>>>>>>> upstream/18.0
 =======
 "Izaberite temu koja vas zanima i počnite da razgovarate sa zajednicom. <br/> "
 "Ne zaboravite da podesite kameru i mikrofon."
@@ -231,7 +324,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_event_meet.meeting_room_card
 msgid "Close"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zatvori"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zatvori"
 >>>>>>> upstream/18.0
@@ -241,7 +338,11 @@ msgstr "Zatvori"
 #: code:addons/website_event_meet/static/src/xml/website_event_meeting_room.xml:0
 msgid "Create"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kreiraj"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kreiraj"
 >>>>>>> upstream/18.0
@@ -252,7 +353,11 @@ msgstr "Kreiraj"
 #: model_terms:ir.ui.view,arch_db:website_event_meet.community_aside
 msgid "Create a Room"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kreiraj sobu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kreiraj sobu"
 >>>>>>> upstream/18.0
@@ -261,7 +366,11 @@ msgstr "Kreiraj sobu"
 #: model_terms:ir.ui.view,arch_db:website_event_meet.community_main
 msgid "Create one to get conversations going"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kreiraj jednu da biste započeli razgovore"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kreiraj jednu da biste započeli razgovore"
 >>>>>>> upstream/18.0
@@ -270,7 +379,11 @@ msgstr "Kreiraj jednu da biste započeli razgovore"
 #: model:ir.model.fields,field_description:website_event_meet.field_event_meeting_room__create_uid
 msgid "Created by"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kreirao/la"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kreirao/la"
 >>>>>>> upstream/18.0
@@ -279,7 +392,11 @@ msgstr "Kreirao/la"
 #: model:ir.model.fields,field_description:website_event_meet.field_event_meeting_room__create_date
 msgid "Created on"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kreirano"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kreirano"
 >>>>>>> upstream/18.0
@@ -291,6 +408,11 @@ msgid ""
 "OF ALL EVENTS"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"PREVUCITE BLOKOVE ZA IZGRADNJU OVDE DA BISTE IH UČINILI DOSTUPN NA SVIM "
+"STRANICAMA PONUDA ZA SVE DOGAĐAJE"
+>>>>>>> upstream/18.0
 =======
 "PREVUCITE BLOKOVE ZA IZGRADNJU OVDE DA BISTE IH UČINILI DOSTUPN NA SVIM "
 "STRANICAMA PONUDA ZA SVE DOGAĐAJE"
@@ -301,7 +423,11 @@ msgstr ""
 #: code:addons/website_event_meet/static/src/xml/website_event_meeting_room.xml:0
 msgid "Discard"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poništi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Poništi"
 >>>>>>> upstream/18.0
@@ -310,7 +436,11 @@ msgstr "Poništi"
 #: model:ir.model.fields,field_description:website_event_meet.field_event_meeting_room__display_name
 msgid "Display Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Naziv za prikaz"
+>>>>>>> upstream/18.0
 =======
 msgstr "Naziv za prikaz"
 >>>>>>> upstream/18.0
@@ -319,7 +449,11 @@ msgstr "Naziv za prikaz"
 #: model_terms:ir.ui.view,arch_db:website_event_meet.community_main
 msgid "Dropdown menu"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Padajući meni"
+>>>>>>> upstream/18.0
 =======
 msgstr "Padajući meni"
 >>>>>>> upstream/18.0
@@ -328,7 +462,11 @@ msgstr "Padajući meni"
 #: model_terms:ir.ui.view,arch_db:website_event_meet.meeting_room_card
 msgid "Duplicate"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dupliraj"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dupliraj"
 >>>>>>> upstream/18.0
@@ -340,7 +478,11 @@ msgstr "Dupliraj"
 #: model_terms:ir.ui.view,arch_db:website_event_meet.meeting_room_card
 msgid "Event"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Događaj"
+>>>>>>> upstream/18.0
 =======
 msgstr "Događaj"
 >>>>>>> upstream/18.0
@@ -349,7 +491,11 @@ msgstr "Događaj"
 #: model:ir.model,name:website_event_meet.model_event_meeting_room
 msgid "Event Meeting Room"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Soba za sastanke događaja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Soba za sastanke događaja"
 >>>>>>> upstream/18.0
@@ -358,7 +504,11 @@ msgstr "Soba za sastanke događaja"
 #: model:ir.model.fields.selection,name:website_event_meet.selection__website_event_menu__menu_type__meeting_room
 msgid "Event Meeting Room Menus"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Meni sobe za sastanke događaja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Meni sobe za sastanke događaja"
 >>>>>>> upstream/18.0
@@ -367,7 +517,11 @@ msgstr "Meni sobe za sastanke događaja"
 #: model_terms:ir.ui.view,arch_db:website_event_meet.snippet_options
 msgid "Event Page"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stranica događaja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stranica događaja"
 >>>>>>> upstream/18.0
@@ -376,7 +530,11 @@ msgstr "Stranica događaja"
 #: model:ir.actions.act_window,name:website_event_meet.action_meeting_room_from_event
 msgid "Event Rooms"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sobe događaja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sobe događaja"
 >>>>>>> upstream/18.0
@@ -385,7 +543,11 @@ msgstr "Sobe događaja"
 #: model:ir.model,name:website_event_meet.model_event_type
 msgid "Event Template"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Šablon događaja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Šablon događaja"
 >>>>>>> upstream/18.0
@@ -394,7 +556,11 @@ msgstr "Šablon događaja"
 #: model_terms:ir.ui.view,arch_db:website_event_meet.meeting_room_card
 msgid "Full"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Puno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Puno"
 >>>>>>> upstream/18.0
@@ -403,7 +569,11 @@ msgstr "Puno"
 #: model_terms:ir.ui.view,arch_db:website_event_meet.event_meeting_room_view_search
 msgid "Group By"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Grupiši po"
+>>>>>>> upstream/18.0
 =======
 msgstr "Grupiši po"
 >>>>>>> upstream/18.0
@@ -412,7 +582,11 @@ msgstr "Grupiši po"
 #: model:ir.model.fields,field_description:website_event_meet.field_event_meeting_room__id
 msgid "ID"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ID"
+>>>>>>> upstream/18.0
 =======
 msgstr "ID"
 >>>>>>> upstream/18.0
@@ -421,7 +595,11 @@ msgstr "ID"
 #: model:ir.model.fields,field_description:website_event_meet.field_event_meeting_room__is_pinned
 msgid "Is Pinned"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Je zakačeno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Je zakačeno"
 >>>>>>> upstream/18.0
@@ -430,7 +608,11 @@ msgstr "Je zakačeno"
 #: model:ir.model.fields,field_description:website_event_meet.field_event_meeting_room__is_published
 msgid "Is Published"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Je objavljeno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Je objavljeno"
 >>>>>>> upstream/18.0
@@ -439,7 +621,11 @@ msgstr "Je objavljeno"
 #: model_terms:ir.ui.view,arch_db:website_event_meet.community_main
 msgid "Join a room"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pridruži se sobi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pridruži se sobi"
 >>>>>>> upstream/18.0
@@ -449,7 +635,11 @@ msgstr "Pridruži se sobi"
 #: model_terms:ir.ui.view,arch_db:website_event_meet.meeting_room_main
 msgid "Join us next time to chat about"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pridružite nam se sledeći put da razgovaramo o"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pridružite nam se sledeći put da razgovaramo o"
 >>>>>>> upstream/18.0
@@ -458,7 +648,11 @@ msgstr "Pridružite nam se sledeći put da razgovaramo o"
 #: model_terms:ir.ui.view,arch_db:website_event_meet.meeting_room_main
 msgid "Join us there to chat about"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pridružite nam se tamo da razgovaramo o"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pridružite nam se tamo da razgovaramo o"
 >>>>>>> upstream/18.0
@@ -469,7 +663,11 @@ msgstr "Pridružite nam se tamo da razgovaramo o"
 #: model:ir.model.fields,field_description:website_event_meet.field_event_meeting_room__room_lang_id
 msgid "Language"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Jezik"
+>>>>>>> upstream/18.0
 =======
 msgstr "Jezik"
 >>>>>>> upstream/18.0
@@ -478,7 +676,11 @@ msgstr "Jezik"
 #: model_terms:ir.ui.view,arch_db:website_event_meet.community_main
 msgid "Languages Menu"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Meni jezika"
+>>>>>>> upstream/18.0
 =======
 msgstr "Meni jezika"
 >>>>>>> upstream/18.0
@@ -487,7 +689,11 @@ msgstr "Meni jezika"
 #: model:ir.model.fields,field_description:website_event_meet.field_event_meeting_room__write_uid
 msgid "Last Updated by"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poslednje izmenio/la"
+>>>>>>> upstream/18.0
 =======
 msgstr "Poslednje izmenio/la"
 >>>>>>> upstream/18.0
@@ -496,7 +702,11 @@ msgstr "Poslednje izmenio/la"
 #: model:ir.model.fields,field_description:website_event_meet.field_event_meeting_room__write_date
 msgid "Last Updated on"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poslednje ažuriranje dana"
+>>>>>>> upstream/18.0
 =======
 msgstr "Poslednje ažuriranje dana"
 >>>>>>> upstream/18.0
@@ -505,7 +715,11 @@ msgstr "Poslednje ažuriranje dana"
 #: model:ir.model.fields,field_description:website_event_meet.field_event_meeting_room__room_last_activity
 msgid "Last activity"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poslednja aktivnost"
+>>>>>>> upstream/18.0
 =======
 msgstr "Poslednja aktivnost"
 >>>>>>> upstream/18.0
@@ -515,7 +729,11 @@ msgstr "Poslednja aktivnost"
 #: code:addons/website_event_meet/static/src/xml/website_event_meeting_room.xml:0
 msgid "Launch a new topic"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pokreni novu temu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pokreni novu temu"
 >>>>>>> upstream/18.0
@@ -525,7 +743,11 @@ msgstr "Pokreni novu temu"
 #: model:ir.model.fields,help:website_event_meet.field_event_type__meeting_room_allow_creation
 msgid "Let Visitors Create Rooms"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dozvoli posetiocima da kreiraju sobe"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dozvoli posetiocima da kreiraju sobe"
 >>>>>>> upstream/18.0
@@ -534,7 +756,11 @@ msgstr "Dozvoli posetiocima da kreiraju sobe"
 #: model:event.meeting.room,summary:website_event_meet.event_meeting_room_0
 msgid "Let's talk about wood types for furniture"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hajde da razgovaramo o vrstama drveta za nameštaj"
+>>>>>>> upstream/18.0
 =======
 msgstr "Hajde da razgovaramo o vrstama drveta za nameštaj"
 >>>>>>> upstream/18.0
@@ -543,7 +769,11 @@ msgstr "Hajde da razgovaramo o vrstama drveta za nameštaj"
 #: model:ir.model.fields,field_description:website_event_meet.field_event_meeting_room__room_max_capacity
 msgid "Max capacity"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Max kapacitet"
+>>>>>>> upstream/18.0
 =======
 msgstr "Max kapacitet"
 >>>>>>> upstream/18.0
@@ -552,7 +782,11 @@ msgstr "Max kapacitet"
 #: model:ir.model.fields,help:website_event_meet.field_event_meeting_room__room_max_participant_reached
 msgid "Maximum number of participant reached in the room at the same time"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dostignut je maksimalan broj istovremenih učesnika u sobi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dostignut je maksimalan broj istovremenih učesnika u sobi"
 >>>>>>> upstream/18.0
@@ -563,7 +797,11 @@ msgstr "Dostignut je maksimalan broj istovremenih učesnika u sobi"
 #: model_terms:ir.ui.view,arch_db:website_event_meet.event_meeting_room_view_tree
 msgid "Meeting Room"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Soba za sastanke"
+>>>>>>> upstream/18.0
 =======
 msgstr "Soba za sastanke"
 >>>>>>> upstream/18.0
@@ -572,7 +810,11 @@ msgstr "Soba za sastanke"
 #: model:ir.model.fields,field_description:website_event_meet.field_event_event__meeting_room_ids
 msgid "Meeting rooms"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sobe za sastanke"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sobe za sastanke"
 >>>>>>> upstream/18.0
@@ -581,7 +823,11 @@ msgstr "Sobe za sastanke"
 #: model:ir.model.fields,field_description:website_event_meet.field_website_event_menu__menu_type
 msgid "Menu Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vrsta menija"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vrsta menija"
 >>>>>>> upstream/18.0
@@ -590,7 +836,11 @@ msgstr "Vrsta menija"
 #: model_terms:ir.ui.view,arch_db:website_event_meet.community_main
 msgid "No Room Open"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nema otvorenih soba"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nema otvorenih soba"
 >>>>>>> upstream/18.0
@@ -599,7 +849,11 @@ msgstr "Nema otvorenih soba"
 #: model_terms:ir.ui.view,arch_db:website_event_meet.meeting_room_aside
 msgid "Other Rooms"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ostale sobe"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ostale sobe"
 >>>>>>> upstream/18.0
@@ -608,7 +862,11 @@ msgstr "Ostale sobe"
 #: model:ir.model.fields,field_description:website_event_meet.field_event_meeting_room__room_participant_count
 msgid "Participant count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Brojač učesnika"
+>>>>>>> upstream/18.0
 =======
 msgstr "Brojač učesnika"
 >>>>>>> upstream/18.0
@@ -622,7 +880,11 @@ msgstr ""
 #: model:event.meeting.room,name:website_event_meet.event_meeting_room_1
 msgid "Reducing the ecological footprint with wood?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Smanjenje ekološkog otiska drvetom?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Smanjenje ekološkog otiska drvetom?"
 >>>>>>> upstream/18.0
@@ -631,7 +893,11 @@ msgstr "Smanjenje ekološkog otiska drvetom?"
 #: model_terms:ir.ui.view,arch_db:website_event_meet.event_meeting_room_view_form
 msgid "Reporting"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izveštavanje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Izveštavanje"
 >>>>>>> upstream/18.0
@@ -640,7 +906,11 @@ msgstr "Izveštavanje"
 #: model_terms:ir.ui.view,arch_db:website_event_meet.snippet_options
 msgid "Room Creation (Specific)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kreiranje sobe (Specifično)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kreiranje sobe (Specifično)"
 >>>>>>> upstream/18.0
@@ -649,7 +919,11 @@ msgstr "Kreiranje sobe (Specifično)"
 #: model:ir.model.fields,field_description:website_event_meet.field_event_meeting_room__room_is_full
 msgid "Room Is Full"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Soba je puna"
+>>>>>>> upstream/18.0
 =======
 msgstr "Soba je puna"
 >>>>>>> upstream/18.0
@@ -658,7 +932,11 @@ msgstr "Soba je puna"
 #: model:ir.model.fields,field_description:website_event_meet.field_event_meeting_room__room_name
 msgid "Room Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Naziv sobe"
+>>>>>>> upstream/18.0
 =======
 msgstr "Naziv sobe"
 >>>>>>> upstream/18.0
@@ -668,7 +946,11 @@ msgstr "Naziv sobe"
 #: code:addons/website_event_meet/static/src/xml/website_event_meeting_room.xml:0
 msgid "Room Topic"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tema sobe"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tema sobe"
 >>>>>>> upstream/18.0
@@ -677,7 +959,11 @@ msgstr "Tema sobe"
 #: model:ir.model.fields,field_description:website_event_meet.field_event_event__meeting_room_count
 msgid "Room count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Brojač soba"
+>>>>>>> upstream/18.0
 =======
 msgstr "Brojač soba"
 >>>>>>> upstream/18.0
@@ -686,7 +972,11 @@ msgstr "Brojač soba"
 #: model_terms:ir.ui.view,arch_db:website_event_meet.community_aside
 msgid "Room creation will be available when event starts at"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kreiranje soba će biti dostupno kada događaj počne u"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kreiranje soba će biti dostupno kada događaj počne u"
 >>>>>>> upstream/18.0
@@ -695,7 +985,11 @@ msgstr "Kreiranje soba će biti dostupno kada događaj počne u"
 #: model_terms:ir.ui.view,arch_db:website_event_meet.event_event_view_form
 msgid "Rooms"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sobe"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sobe"
 >>>>>>> upstream/18.0
@@ -707,6 +1001,11 @@ msgid ""
 "Rooms allow your event attendees to meet up and chat on different topics."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Sobe dozvoljavaju učesnicima vaših događaja da se sastaju i razgovaraju o "
+"različitim temama."
+>>>>>>> upstream/18.0
 =======
 "Sobe dozvoljavaju učesnicima vaših događaja da se sastaju i razgovaraju o "
 "različitim temama."
@@ -717,6 +1016,11 @@ msgstr ""
 msgid "Share your tips to reduce your ecological footprint using wood."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Podelite svoje savete kako da smanjite svoj ekološki otisak korišćenjem "
+"drveta."
+>>>>>>> upstream/18.0
 =======
 "Podelite svoje savete kako da smanjite svoj ekološki otisak korišćenjem "
 "drveta."
@@ -727,7 +1031,11 @@ msgstr ""
 #: code:addons/website_event_meet/static/src/xml/website_event_meeting_room.xml:0
 msgid "Short Summary"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kratak rezime"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kratak rezime"
 >>>>>>> upstream/18.0
@@ -736,7 +1044,11 @@ msgstr "Kratak rezime"
 #: model_terms:ir.ui.view,arch_db:website_event_meet.community_aside
 msgid "Start a topic"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pokreni temu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pokreni temu"
 >>>>>>> upstream/18.0
@@ -746,7 +1058,11 @@ msgstr "Pokreni temu"
 #: model_terms:ir.ui.view,arch_db:website_event_meet.event_meeting_room_view_search
 msgid "Summary"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pregled"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pregled"
 >>>>>>> upstream/18.0
@@ -761,7 +1077,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_event_meet.meeting_room_main
 msgid "The event"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Događaj"
+>>>>>>> upstream/18.0
 =======
 msgstr "Događaj"
 >>>>>>> upstream/18.0
@@ -774,6 +1094,11 @@ msgid ""
 "Join us there to chat about \"%(subject)s\"!"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Događaj %(name)s počinje %(date_begin)s (%(timezone)s).\n"
+"Pridruži nam se da razgovaramo o \"%(subject)s\"!"
+>>>>>>> upstream/18.0
 =======
 "Događaj %(name)s počinje %(date_begin)s (%(timezone)s).\n"
 "Pridruži nam se da razgovaramo o \"%(subject)s\"!"
@@ -783,7 +1108,11 @@ msgstr ""
 #: model:ir.model.fields,help:website_event_meet.field_event_meeting_room__website_url
 msgid "The full URL to access the document through the website."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Puna URL adresa za pristup dokumentu preko website-a."
+>>>>>>> upstream/18.0
 =======
 msgstr "Puna URL adresa za pristup dokumentu preko website-a."
 >>>>>>> upstream/18.0
@@ -793,7 +1122,11 @@ msgstr "Puna URL adresa za pristup dokumentu preko website-a."
 #: model_terms:ir.ui.view,arch_db:website_event_meet.event_meeting_room_view_search
 msgid "Topic"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tema"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tema"
 >>>>>>> upstream/18.0
@@ -802,7 +1135,11 @@ msgstr "Tema"
 #: model_terms:ir.ui.view,arch_db:website_event_meet.event_meeting_room_view_tree
 msgid "Total Participant Count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ukupan broj učesnika"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ukupan broj učesnika"
 >>>>>>> upstream/18.0
@@ -811,7 +1148,11 @@ msgstr "Ukupan broj učesnika"
 #: model_terms:ir.ui.view,arch_db:website_event_meet.event_meeting_room_view_search
 msgid "Unpublished"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Neobjavljeno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Neobjavljeno"
 >>>>>>> upstream/18.0
@@ -821,7 +1162,11 @@ msgstr "Neobjavljeno"
 msgid ""
 "Venez partager vos meubles préférés et l'utilisation que vous en faites."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dođite i podelite svoj omiljeni nameštaj i kako ga koristite."
+>>>>>>> upstream/18.0
 =======
 msgstr "Dođite i podelite svoj omiljeni nameštaj i kako ga koristite."
 >>>>>>> upstream/18.0
@@ -830,7 +1175,11 @@ msgstr "Dođite i podelite svoj omiljeni nameštaj i kako ga koristite."
 #: model:ir.model.fields,field_description:website_event_meet.field_event_meeting_room__website_published
 msgid "Visible on current website"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vidljivo na trenutnom website-u"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vidljivo na trenutnom website-u"
 >>>>>>> upstream/18.0
@@ -839,7 +1188,11 @@ msgstr "Vidljivo na trenutnom website-u"
 #: model:event.meeting.room,name:website_event_meet.event_meeting_room_2
 msgid "Vos meubles préférés ?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vaš omiljeni nameštaj?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vaš omiljeni nameštaj?"
 >>>>>>> upstream/18.0
@@ -848,7 +1201,11 @@ msgstr "Vaš omiljeni nameštaj?"
 #: model_terms:ir.ui.view,arch_db:website_event_meet.community_aside
 msgid "Want to create your own discussion room?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Želite da kreirate sopstvenu sobu za diskusiju?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Želite da kreirate sopstvenu sobu za diskusiju?"
 >>>>>>> upstream/18.0
@@ -857,7 +1214,11 @@ msgstr "Želite da kreirate sopstvenu sobu za diskusiju?"
 #: model:ir.model,name:website_event_meet.model_website_event_menu
 msgid "Website Event Menu"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Website meni događaja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Website meni događaja"
 >>>>>>> upstream/18.0
@@ -866,7 +1227,11 @@ msgstr "Website meni događaja"
 #: model:ir.model.fields,field_description:website_event_meet.field_event_meeting_room__website_url
 msgid "Website URL"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Website URL"
+>>>>>>> upstream/18.0
 =======
 msgstr "Website URL"
 >>>>>>> upstream/18.0
@@ -875,7 +1240,11 @@ msgstr "Website URL"
 #: model_terms:ir.ui.view,arch_db:website_event_meet.meeting_room_main
 msgid "a few seconds"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "nekoliko sekundi"
+>>>>>>> upstream/18.0
 =======
 msgstr "nekoliko sekundi"
 >>>>>>> upstream/18.0
@@ -884,7 +1253,11 @@ msgstr "nekoliko sekundi"
 #: model:event.meeting.room,target_audience:website_event_meet.event_meeting_room_2
 msgid "client(s)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "klijent(i)"
+>>>>>>> upstream/18.0
 =======
 msgstr "klijent(i)"
 >>>>>>> upstream/18.0
@@ -895,7 +1268,11 @@ msgstr "klijent(i)"
 #: model_terms:ir.ui.view,arch_db:website_event_meet.event_meeting_room_view_form
 msgid "e.g. Accountants"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "npr. Računovođe"
+>>>>>>> upstream/18.0
 =======
 msgstr "npr. Računovođe"
 >>>>>>> upstream/18.0
@@ -906,7 +1283,11 @@ msgstr "npr. Računovođe"
 #: model_terms:ir.ui.view,arch_db:website_event_meet.event_meeting_room_view_form
 msgid "e.g. Finance"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "npr. Finansije"
+>>>>>>> upstream/18.0
 =======
 msgstr "npr. Finansije"
 >>>>>>> upstream/18.0
@@ -917,7 +1298,11 @@ msgstr "npr. Finansije"
 #: model_terms:ir.ui.view,arch_db:website_event_meet.event_meeting_room_view_form
 msgid "e.g. Let's talk about Corporate Finance"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "npr. Hajde da razgovaramo o korporativnim finansijama"
+>>>>>>> upstream/18.0
 =======
 msgstr "npr. Hajde da razgovaramo o korporativnim finansijama"
 >>>>>>> upstream/18.0
@@ -926,7 +1311,11 @@ msgstr "npr. Hajde da razgovaramo o korporativnim finansijama"
 #: model:event.meeting.room,target_audience:website_event_meet.event_meeting_room_1
 msgid "ecologist(s)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ekolog(i)"
+>>>>>>> upstream/18.0
 =======
 msgstr "ekolog(i)"
 >>>>>>> upstream/18.0
@@ -938,6 +1327,11 @@ msgid ""
 "                        <br/>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"je završen.\n"
+"                        <br/>"
+>>>>>>> upstream/18.0
 =======
 "je završen.\n"
 "                        <br/>"
@@ -950,6 +1344,11 @@ msgid ""
 "                <br/>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"je završen.\n"
+"                <br/>"
+>>>>>>> upstream/18.0
 =======
 "je završen.\n"
 "                <br/>"
@@ -959,7 +1358,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_event_meet.meeting_room_card
 msgid "participant(s)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "učesnik(ci)"
+>>>>>>> upstream/18.0
 =======
 msgstr "učesnik(ci)"
 >>>>>>> upstream/18.0
@@ -968,7 +1371,11 @@ msgstr "učesnik(ci)"
 #: model_terms:ir.ui.view,arch_db:website_event_meet.meeting_room_main
 msgid "starts in"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "počinje u"
+>>>>>>> upstream/18.0
 =======
 msgstr "počinje u"
 >>>>>>> upstream/18.0
@@ -977,7 +1384,11 @@ msgstr "počinje u"
 #: model_terms:ir.ui.view,arch_db:website_event_meet.meeting_room_main
 msgid "starts on"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "počinje dana"
+>>>>>>> upstream/18.0
 =======
 msgstr "počinje dana"
 >>>>>>> upstream/18.0
@@ -986,7 +1397,11 @@ msgstr "počinje dana"
 #: model_terms:ir.ui.view,arch_db:website_event_meet.meeting_room_card
 msgid "to have a chat with us!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "da razgovarate sa nama!"
+>>>>>>> upstream/18.0
 =======
 msgstr "da razgovarate sa nama!"
 >>>>>>> upstream/18.0
@@ -995,7 +1410,11 @@ msgstr "da razgovarate sa nama!"
 #: model:event.meeting.room,target_audience:website_event_meet.event_meeting_room_0
 msgid "wood expert(s)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ekspert(i) za drvo"
+>>>>>>> upstream/18.0
 =======
 msgstr "ekspert(i) za drvo"
 >>>>>>> upstream/18.0
