@@ -50,7 +50,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 xmlns:udt="urn:un:unece:uncefact:data:standard:UnqualifiedDataType:100">
+=======
+                xmlns:udt="urn:un:unece:uncefact:data:standard:UnqualifiedDataType:100"
+                xmlns:qdt="urn:un:unece:uncefact:data:standard:QualifiedDataType:100"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+>>>>>>> upstream/18.0
 =======
                 xmlns:udt="urn:un:unece:uncefact:data:standard:UnqualifiedDataType:100"
                 xmlns:qdt="urn:un:unece:uncefact:data:standard:QualifiedDataType:100"
@@ -381,7 +387,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -524,6 +533,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -638,6 +650,7 @@
         <template id="account_invoice_partner_facturx_export_22">
             <t  xmlns:ram="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100"
                 xmlns:rsm="urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -904,12 +917,17 @@
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 xmlns:udt="urn:un:unece:uncefact:data:standard:UnqualifiedDataType:100"
                 xmlns:qdt="urn:un:unece:uncefact:data:standard:QualifiedDataType:100"
                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                 <!-- Contact. -->
                 <ram:Name t-out="partner.display_name if partner.name else partner.commercial_partner_id.display_name"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -981,7 +999,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 xmlns:udt="urn:un:unece:uncefact:data:standard:UnqualifiedDataType:100">
+=======
+                xmlns:udt="urn:un:unece:uncefact:data:standard:UnqualifiedDataType:100"
+                xmlns:qdt="urn:un:unece:uncefact:data:standard:QualifiedDataType:100"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+>>>>>>> upstream/18.0
 =======
                 xmlns:udt="urn:un:unece:uncefact:data:standard:UnqualifiedDataType:100"
                 xmlns:qdt="urn:un:unece:uncefact:data:standard:QualifiedDataType:100"
@@ -1268,7 +1292,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 xmlns:udt="urn:un:unece:uncefact:data:standard:UnqualifiedDataType:100">
+=======
+                xmlns:udt="urn:un:unece:uncefact:data:standard:UnqualifiedDataType:100"
+                xmlns:qdt="urn:un:unece:uncefact:data:standard:QualifiedDataType:100"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+>>>>>>> upstream/18.0
 =======
                 xmlns:udt="urn:un:unece:uncefact:data:standard:UnqualifiedDataType:100"
                 xmlns:qdt="urn:un:unece:uncefact:data:standard:QualifiedDataType:100"
@@ -1637,7 +1667,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <ram:TypeCode>42</ram:TypeCode>
+=======
+                            <ram:TypeCode t-out="payment_means_code"/>
+>>>>>>> upstream/18.0
 =======
                             <ram:TypeCode t-out="payment_means_code"/>
 >>>>>>> upstream/18.0

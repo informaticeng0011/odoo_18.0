@@ -55,7 +55,10 @@ class TestUblBis3(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         cls.env['ir.config_parameter'].sudo().set_param('account_edi_ubl_cii.use_new_dict_to_xml_helpers', True)
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -243,7 +246,10 @@ class TestUblBis3(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -459,6 +465,9 @@ class TestUblBis3(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -625,7 +634,11 @@ class TestUblBis3(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.env['account.move.send']._generate_and_send_invoices(invoice, sending_methods=['manual'])
+=======
+        self.env['account.move.send']._generate_and_send_invoices(invoice, sending_methods={'manual'})
+>>>>>>> upstream/18.0
 =======
         self.env['account.move.send']._generate_and_send_invoices(invoice, sending_methods={'manual'})
 >>>>>>> upstream/18.0
@@ -827,7 +840,11 @@ class TestUblBis3(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.env['account.move.send']._generate_and_send_invoices(invoice, sending_methods=['manual'])
+=======
+        self.env['account.move.send']._generate_and_send_invoices(invoice, sending_methods={'manual'})
+>>>>>>> upstream/18.0
 =======
         self.env['account.move.send']._generate_and_send_invoices(invoice, sending_methods={'manual'})
 >>>>>>> upstream/18.0
@@ -1029,7 +1046,11 @@ class TestUblBis3(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.env['account.move.send']._generate_and_send_invoices(invoice, sending_methods=['manual'])
+=======
+        self.env['account.move.send']._generate_and_send_invoices(invoice, sending_methods={'manual'})
+>>>>>>> upstream/18.0
 =======
         self.env['account.move.send']._generate_and_send_invoices(invoice, sending_methods={'manual'})
 >>>>>>> upstream/18.0
@@ -1232,7 +1253,11 @@ class TestUblBis3(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.env['account.move.send']._generate_and_send_invoices(invoice, sending_methods=['manual'])
+=======
+        self.env['account.move.send']._generate_and_send_invoices(invoice, sending_methods={'manual'})
+>>>>>>> upstream/18.0
 =======
         self.env['account.move.send']._generate_and_send_invoices(invoice, sending_methods={'manual'})
 >>>>>>> upstream/18.0
@@ -1436,7 +1461,11 @@ class TestUblBis3(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.env['account.move.send']._generate_and_send_invoices(invoice, sending_methods=['manual'])
+=======
+        self.env['account.move.send']._generate_and_send_invoices(invoice, sending_methods={'manual'})
+>>>>>>> upstream/18.0
 =======
         self.env['account.move.send']._generate_and_send_invoices(invoice, sending_methods={'manual'})
 >>>>>>> upstream/18.0
@@ -1660,7 +1689,11 @@ class TestUblBis3(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.env['account.move.send']._generate_and_send_invoices(invoice, sending_methods=['manual'])
+=======
+        self.env['account.move.send']._generate_and_send_invoices(invoice, sending_methods={'manual'})
+>>>>>>> upstream/18.0
 =======
         self.env['account.move.send']._generate_and_send_invoices(invoice, sending_methods={'manual'})
 >>>>>>> upstream/18.0
@@ -1869,7 +1902,11 @@ class TestUblBis3(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.env['account.move.send']._generate_and_send_invoices(invoice, sending_methods=['manual'])
+=======
+        self.env['account.move.send']._generate_and_send_invoices(invoice, sending_methods={'manual'})
+>>>>>>> upstream/18.0
 =======
         self.env['account.move.send']._generate_and_send_invoices(invoice, sending_methods={'manual'})
 >>>>>>> upstream/18.0
@@ -2081,7 +2118,11 @@ class TestUblBis3(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.env['account.move.send']._generate_and_send_invoices(invoice, sending_methods=['manual'])
+=======
+        self.env['account.move.send']._generate_and_send_invoices(invoice, sending_methods={'manual'})
+>>>>>>> upstream/18.0
 =======
         self.env['account.move.send']._generate_and_send_invoices(invoice, sending_methods={'manual'})
 >>>>>>> upstream/18.0
@@ -2284,7 +2325,11 @@ class TestUblBis3(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.env['account.move.send']._generate_and_send_invoices(invoice, sending_methods=['manual'])
+=======
+        self.env['account.move.send']._generate_and_send_invoices(invoice, sending_methods={'manual'})
+>>>>>>> upstream/18.0
 =======
         self.env['account.move.send']._generate_and_send_invoices(invoice, sending_methods={'manual'})
 >>>>>>> upstream/18.0
@@ -2518,9 +2563,12 @@ class TestUblBis3(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.env['account.move.send']._generate_and_send_invoices(invoice, sending_methods=['manual'])
         self._assert_invoice_ubl_file(invoice, 'bis3/test_early_pay_discount_with_discount_on_lines')
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2685,6 +2733,9 @@ class TestUblBis3(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -43,6 +43,10 @@ class IrWebsocket(models.AbstractModel):
             # sudo - mail.guest: guest can access their own channels.
             self_discuss_channels = guest.sudo().channel_ids
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            channels.append((guest, "presence"))
+>>>>>>> upstream/18.0
 =======
             channels.append((guest, "presence"))
 >>>>>>> upstream/18.0

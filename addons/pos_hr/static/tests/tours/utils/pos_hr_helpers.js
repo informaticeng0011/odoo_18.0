@@ -17,6 +17,10 @@ import * as NumberPopup from "@point_of_sale/../tests/tours/utils/number_popup_u
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { negate } from "@point_of_sale/../tests/tours/utils/common";
+>>>>>>> upstream/18.0
 =======
 import { negate } from "@point_of_sale/../tests/tours/utils/common";
 >>>>>>> upstream/18.0
@@ -108,7 +112,10 @@ export function loginScreenIsShown() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -162,6 +169,9 @@ export function loginScreenIsNotShown() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -228,12 +238,15 @@ export function login(name, pin) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     return res.concat([
         ...NumberPopup.enterValue(pin),
         ...NumberPopup.isShown("••••"),
         Dialog.confirm(),
     ]);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -283,6 +296,9 @@ export function enterPin(pin) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -392,6 +408,10 @@ export function refreshPage() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0

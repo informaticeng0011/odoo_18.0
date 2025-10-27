@@ -45,7 +45,11 @@ import { closestBlock, isBlock } from "../utils/blocks";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { hasAnyNodesColor } from "@html_editor/utils/color";
+=======
+import { hasAnyNodesColor, TEXT_CLASSES_REGEX, BG_CLASSES_REGEX } from "@html_editor/utils/color";
+>>>>>>> upstream/18.0
 =======
 import { hasAnyNodesColor, TEXT_CLASSES_REGEX, BG_CLASSES_REGEX } from "@html_editor/utils/color";
 >>>>>>> upstream/18.0
@@ -311,6 +315,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    isEmptyBlock,
+>>>>>>> upstream/18.0
 =======
     isEmptyBlock,
 >>>>>>> upstream/18.0
@@ -818,8 +826,11 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { childNodes, closestElement, descendants, selectElements } from "../utils/dom_traversal";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1199,6 +1210,9 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1699,6 +1713,10 @@ export class FormatPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        selectionchange_handlers: this.removeEmptyInlineElement.bind(this),
+>>>>>>> upstream/18.0
 =======
         selectionchange_handlers: this.removeEmptyInlineElement.bind(this),
 >>>>>>> upstream/18.0
@@ -2124,6 +2142,7 @@ export class FormatPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const traversedNodes = this.dependencies.selection.getTraversedNodes();
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2374,6 +2393,8 @@ export class FormatPlugin extends Plugin {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         const targetedNodes = this.dependencies.selection.getTargetedNodes();
         for (const format of Object.keys(formatsSpecs)) {
             if (
@@ -2423,6 +2444,9 @@ export class FormatPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2601,6 +2625,7 @@ export class FormatPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.dispatchTo("remove_format_handlers");
 =======
 >>>>>>> upstream/18.0
@@ -2679,6 +2704,9 @@ export class FormatPlugin extends Plugin {
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+        this.dispatchTo("remove_format_handlers");
 >>>>>>> upstream/18.0
 =======
         this.dispatchTo("remove_format_handlers");
@@ -2868,6 +2896,7 @@ export class FormatPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param {Node[]} [traversedNodes]
      * @returns {boolean}
      */
@@ -2964,12 +2993,15 @@ export class FormatPlugin extends Plugin {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
      * @param {Node[]} [targetedNodes]
      * @returns {boolean}
      */
     hasSelectionFormat(format, targetedNodes = this.dependencies.selection.getTargetedNodes()) {
         const targetedTextNodes = targetedNodes.filter(isTextNode);
         const isFormatted = formatsSpecs[format].isFormatted;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3116,6 +3148,9 @@ export class FormatPlugin extends Plugin {
 =======
         return targetedTextNodes.some((n) => isFormatted(n, { editable: this.editable }));
 >>>>>>> upstream/18.0
+=======
+        return targetedTextNodes.some((n) => isFormatted(n, { editable: this.editable }));
+>>>>>>> upstream/18.0
     }
     /**
      * Return true if the current selection on the editable appears as the given
@@ -3123,6 +3158,7 @@ export class FormatPlugin extends Plugin {
      * text node in it appears as that format.
      *
      * @param {String} format 'bold'|'italic'|'underline'|'strikeThrough'|'switchDirection'
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3269,6 +3305,8 @@ export class FormatPlugin extends Plugin {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
      * @param {Node[]} [targetedNodes]
      * @returns {boolean}
      */
@@ -3282,6 +3320,7 @@ export class FormatPlugin extends Plugin {
         );
         const isFormatted = formatsSpecs[format].isFormatted;
         return (
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3440,12 +3479,17 @@ export class FormatPlugin extends Plugin {
             targetedTextNodes.length &&
             targetedTextNodes.every((node) => isFormatted(node, { editable: this.editable }))
 >>>>>>> upstream/18.0
+=======
+            targetedTextNodes.length &&
+            targetedTextNodes.every((node) => isFormatted(node, { editable: this.editable }))
+>>>>>>> upstream/18.0
         );
     }
 
     // @todo: issues:
     // - the calls to hasAnyColor should probably be replaced by calls to predicates
     //   registered as resources (e.g. by the ColorPlugin).
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3585,6 +3629,8 @@ export class FormatPlugin extends Plugin {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     hasAnyFormat(targetedNodes) {
         for (const format of Object.keys(formatsSpecs)) {
             if (
@@ -3634,6 +3680,9 @@ export class FormatPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3773,8 +3822,13 @@ export class FormatPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             hasAnyNodesColor(traversedNodes, "color") ||
             hasAnyNodesColor(traversedNodes, "backgroundColor")
+=======
+            hasAnyNodesColor(targetedNodes, "color") ||
+            hasAnyNodesColor(targetedNodes, "backgroundColor")
+>>>>>>> upstream/18.0
 =======
             hasAnyNodesColor(targetedNodes, "color") ||
             hasAnyNodesColor(targetedNodes, "backgroundColor")
@@ -4032,6 +4086,7 @@ export class FormatPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const selectedNodes = /** @type { Text[] } **/ (
             this.dependencies.selection
                 .getSelectedNodes()
@@ -4039,6 +4094,8 @@ export class FormatPlugin extends Plugin {
                     (n) =>
                         ((isTextNode(n) && (isVisibleTextNode(n) || isZWS(n))) ||
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4181,6 +4238,9 @@ export class FormatPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4322,9 +4382,15 @@ export class FormatPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const selectedFieldNodes = new Set(
             this.dependencies.selection
                 .getSelectedNodes()
+=======
+        const tagetedFieldNodes = new Set(
+            this.dependencies.selection
+                .getTargetedNodes()
+>>>>>>> upstream/18.0
 =======
         const tagetedFieldNodes = new Set(
             this.dependencies.selection
@@ -4599,7 +4665,11 @@ export class FormatPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for (const node of selectedNodes) {
+=======
+        for (const node of selectedTextNodes) {
+>>>>>>> upstream/18.0
 =======
         for (const node of selectedTextNodes) {
 >>>>>>> upstream/18.0
@@ -4794,8 +4864,11 @@ export class FormatPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     [...parentNode.classList].every((cls) => FONT_SIZE_CLASSES.includes(cls)))
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4934,6 +5007,9 @@ export class FormatPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5112,12 +5188,15 @@ export class FormatPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for (const selectedFieldNode of selectedFieldNodes) {
             if (applyStyle) {
                 formatSpec.addStyle(selectedFieldNode, formatProps);
             } else {
                 formatSpec.removeStyle(selectedFieldNode);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5255,6 +5334,9 @@ export class FormatPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5396,8 +5478,13 @@ export class FormatPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 selectedNodes.includes(siblings[0]) &&
                 selectedNodes.includes(siblings[siblings.length - 1])
+=======
+                selectedTextNodes.includes(siblings[0]) &&
+                selectedTextNodes.includes(siblings[siblings.length - 1])
+>>>>>>> upstream/18.0
 =======
                 selectedTextNodes.includes(siblings[0]) &&
                 selectedTextNodes.includes(siblings[siblings.length - 1])
@@ -5634,6 +5721,7 @@ export class FormatPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             selectedNodes.length === 1 &&
             selectedNodes[0] &&
             selectedNodes[0].textContent === "\u200B"
@@ -5643,6 +5731,8 @@ export class FormatPlugin extends Plugin {
             const firstNode = selectedNodes[0];
             const lastNode = selectedNodes[selectedNodes.length - 1];
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5783,6 +5873,9 @@ export class FormatPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5936,7 +6029,11 @@ export class FormatPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (selectedFieldNodes.size > 0) {
+=======
+        if (tagetedFieldNodes.size > 0) {
+>>>>>>> upstream/18.0
 =======
         if (tagetedFieldNodes.size > 0) {
 >>>>>>> upstream/18.0
@@ -6227,7 +6324,10 @@ export class FormatPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6623,6 +6723,9 @@ export class FormatPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

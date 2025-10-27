@@ -328,7 +328,11 @@ class SurveyUserInput(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if not answers:
+=======
+        if not answers and not (comment and question.comment_count_as_answer):
+>>>>>>> upstream/18.0
 =======
         if not answers and not (comment and question.comment_count_as_answer):
 >>>>>>> upstream/18.0
@@ -397,6 +401,7 @@ class SurveyUserInput(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         vals_list = []
 
         if question.question_type == 'simple_choice':
@@ -404,6 +409,9 @@ class SurveyUserInput(models.Model):
                 vals_list = [self._get_line_answer_values(question, answer, 'suggestion') for answer in answers]
         elif question.question_type == 'multiple_choice':
             vals_list = [self._get_line_answer_values(question, answer, 'suggestion') for answer in answers]
+=======
+        vals_list = [self._get_line_answer_values(question, answer, 'suggestion') for answer in answers]
+>>>>>>> upstream/18.0
 =======
         vals_list = [self._get_line_answer_values(question, answer, 'suggestion') for answer in answers]
 >>>>>>> upstream/18.0
@@ -924,7 +932,11 @@ class SurveyUserInputLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 line.display_name = fields.Datetime.to_string(line.value_datetime)
+=======
+                line.display_name = fields.Datetime.to_string(fields.Datetime.context_timestamp(self.env.user, line.value_datetime))
+>>>>>>> upstream/18.0
 =======
                 line.display_name = fields.Datetime.to_string(fields.Datetime.context_timestamp(self.env.user, line.value_datetime))
 >>>>>>> upstream/18.0

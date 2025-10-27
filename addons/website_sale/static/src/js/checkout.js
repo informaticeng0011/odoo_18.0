@@ -30,7 +30,10 @@ publicWidget.registry.WebsiteSaleCheckout = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -64,6 +67,9 @@ publicWidget.registry.WebsiteSaleCheckout = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -414,6 +420,7 @@ publicWidget.registry.WebsiteSaleCheckout = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
              // If it's a free delivery (`free_over` field), show 'Free', not '$ 0'.
              if (rateData.is_free_delivery) {
                  deliveryPriceBadge.textContent = _t("Free");
@@ -422,6 +429,8 @@ publicWidget.registry.WebsiteSaleCheckout = publicWidget.Widget.extend({
              }
              this._toggleDeliveryMethodRadio(radio);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -573,6 +582,9 @@ publicWidget.registry.WebsiteSaleCheckout = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

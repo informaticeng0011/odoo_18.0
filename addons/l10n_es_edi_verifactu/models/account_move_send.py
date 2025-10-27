@@ -1,6 +1,10 @@
 from odoo import _, api, models
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.exceptions import RedirectWarning
+>>>>>>> upstream/18.0
 =======
 from odoo.exceptions import RedirectWarning
 >>>>>>> upstream/18.0
@@ -76,10 +80,13 @@ class AccountMoveSend(models.AbstractModel):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         checked_invoices = self.env['account.move'].browse([
             invoice.id for invoice, invoice_data in invoices_data.items()
             if 'es_verifactu' in invoice_data['extra_edis']
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         for invoice, invoice_data in invoices_data.items():
@@ -112,6 +119,9 @@ class AccountMoveSend(models.AbstractModel):
             invoice.id for invoice, invoice_data in invoices_data.items()
             if 'es_verifactu' in invoice_data['extra_edis'] and not invoice_data.get('error', {}).get('verifactu_redirect_action')
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -131,7 +141,10 @@ class AccountMoveSend(models.AbstractModel):
             self._cr.commit()
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -144,6 +157,9 @@ class AccountMoveSend(models.AbstractModel):
                     raise RedirectWarning('\n'.join(error['errors']), error['verifactu_redirect_action'], error['error_title'])
         super()._hook_if_errors(moves_data, allow_raising=allow_raising)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -159,6 +159,7 @@ export class HardwareProxy extends EventBus {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                     targetAddressSpace: "local",
 >>>>>>> upstream/18.0
@@ -176,6 +177,8 @@ export class HardwareProxy extends EventBus {
 >>>>>>> upstream/18.0
 =======
                     targetAddressSpace: "local",
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -203,6 +206,7 @@ export class HardwareProxy extends EventBus {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (
             this.pos.config.iface_cashdrawer &&
             this.printer &&
@@ -213,12 +217,17 @@ export class HardwareProxy extends EventBus {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         const isPrinterConnected =
             ["connected", "init"].includes(this.connectionInfo.status) ||
             this.pos.config.epson_printer_ip;
         if (this.pos.config.iface_cashdrawer && this.printer && isPrinterConnected) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

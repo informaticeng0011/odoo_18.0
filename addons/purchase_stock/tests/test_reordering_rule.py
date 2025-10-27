@@ -1637,7 +1637,10 @@ class TestReorderingRule(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1905,6 +1908,7 @@ class TestReorderingRule(TransactionCase):
         backorder_wizard_dict = delivery.button_validate()
         backorder_wizard_form = Form.from_action(self.env, backorder_wizard_dict)
         backorder_wizard_form.save().process()
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2270,6 +2274,8 @@ class TestReorderingRule(TransactionCase):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         # Check the bakorder values
         purchase_order_line = self.env["purchase.order.line"].search([("product_id", "=", buy_product.id)])
         self.assertRecordValues(delivery.backorder_ids.move_ids, [{
@@ -2377,6 +2383,9 @@ class TestReorderingRule(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

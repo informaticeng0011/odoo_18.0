@@ -4,8 +4,13 @@ from unittest import mock
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import _
 from odoo.exceptions import UserError
+=======
+from odoo import _, Command
+from odoo.exceptions import UserError, RedirectWarning
+>>>>>>> upstream/18.0
 =======
 from odoo import _, Command
 from odoo.exceptions import UserError, RedirectWarning
@@ -72,7 +77,10 @@ class TestL10nEsEdiVerifactuDocument(TestL10nEsEdiVerifactuCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_refund_without_refunded_error(self):
@@ -158,6 +166,9 @@ class TestL10nEsEdiVerifactuDocument(TestL10nEsEdiVerifactuCommon):
         self.assertTrue(substitution_move.l10n_es_edi_verifactu_document_ids.json_attachment_id)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

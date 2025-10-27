@@ -343,6 +343,7 @@ class MailActivity(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             per_user = dict()
             for activity in activity_data['activities'].filtered(lambda act: act.user_id):
                 if activity.user_id not in per_user:
@@ -379,6 +380,11 @@ class MailActivity(models.Model):
                 if activity.res_id not in per_user[activity.user_id]:
 >>>>>>> upstream/18.0
                     per_user[activity.user_id].append(activity.res_id)
+=======
+            per_user = defaultdict(set)
+            for activity in activity_data['activities'].filtered(lambda act: act.user_id):
+                per_user[activity.user_id].add(activity.res_id)
+>>>>>>> upstream/18.0
 =======
             per_user = defaultdict(set)
             for activity in activity_data['activities'].filtered(lambda act: act.user_id):
@@ -654,6 +660,7 @@ class MailActivity(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         todo_activities = activities.filtered(lambda act: act.date_deadline <= fields.Date.today())
         if todo_activities:
             activity.user_id._bus_send("mail.activity/updated", {"activity_created": True})
@@ -687,6 +694,8 @@ class MailActivity(models.Model):
             todo_activities.user_id._bus_send("mail.activity/updated", {"activity_deleted": True})
         return super(MailActivity, self).unlink()
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -872,6 +881,9 @@ class MailActivity(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1097,7 +1109,11 @@ class MailActivity(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             records = self.env[res_model].browse(res_ids)
+=======
+            records = self.env[res_model].browse(res_ids).exists()
+>>>>>>> upstream/18.0
 =======
             records = self.env[res_model].browse(res_ids).exists()
 >>>>>>> upstream/18.0
@@ -1660,9 +1676,12 @@ class MailActivity(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         """ Opens the related record based on the model and ID """
         self.ensure_one()
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1804,6 +1823,9 @@ class MailActivity(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
