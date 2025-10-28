@@ -151,10 +151,16 @@ test("Closing a category sends the updated user setting to the server.", async (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     onRpc("/web/dataset/call_kw/res.users.settings/set_res_users_settings", async (request) => {
         const { params } = await request.json();
         step("/web/dataset/call_kw/res.users.settings/set_res_users_settings");
         expect(params.kwargs.new_settings.is_discuss_sidebar_category_channel_open).toBe(false);
+=======
+    onRpc("res.users.settings", "set_res_users_settings", ({ kwargs }) => {
+        step("/web/dataset/call_kw/res.users.settings/set_res_users_settings");
+        expect(kwargs.new_settings.is_discuss_sidebar_category_channel_open).toBe(false);
+>>>>>>> upstream/18.0
 =======
     onRpc("res.users.settings", "set_res_users_settings", ({ kwargs }) => {
         step("/web/dataset/call_kw/res.users.settings/set_res_users_settings");
@@ -591,10 +597,16 @@ test("Opening a category sends the updated user setting to the server.", async (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     onRpc("/web/dataset/call_kw/res.users.settings/set_res_users_settings", async (request) => {
         const { params } = await request.json();
         step("/web/dataset/call_kw/res.users.settings/set_res_users_settings");
         expect(params.kwargs.new_settings.is_discuss_sidebar_category_channel_open).toBe(true);
+=======
+    onRpc("res.users.settings", "set_res_users_settings", ({ kwargs }) => {
+        step("/web/dataset/call_kw/res.users.settings/set_res_users_settings");
+        expect(kwargs.new_settings.is_discuss_sidebar_category_channel_open).toBe(true);
+>>>>>>> upstream/18.0
 =======
     onRpc("res.users.settings", "set_res_users_settings", ({ kwargs }) => {
         step("/web/dataset/call_kw/res.users.settings/set_res_users_settings");
@@ -1236,7 +1248,11 @@ test("sidebar: basic chat rendering", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains(".o-mail-DiscussSidebarChannel img[data-alt='Thread Image']");
+=======
+    await contains(".o-mail-DiscussSidebarChannel img[alt='Thread Image']");
+>>>>>>> upstream/18.0
 =======
     await contains(".o-mail-DiscussSidebarChannel img[alt='Thread Image']");
 >>>>>>> upstream/18.0
@@ -2592,11 +2608,14 @@ test("Update channel data via bus notification", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains(".o-mail-DiscussSidebarChannel", { text: "Sales", target: env1 });
     await insertText(".o-mail-Discuss-threadName", "test", { target: env1 });
     await triggerHotkey("Enter");
     await contains(".o-mail-DiscussSidebarChannel", { text: "Salestest", target: env2 });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2736,6 +2755,9 @@ test("Update channel data via bus notification", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

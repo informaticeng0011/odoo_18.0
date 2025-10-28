@@ -46,6 +46,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* stock_account
 # 
 # Translators:
@@ -53,6 +54,8 @@
 # Larissa Manderfeld, 2025
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -195,6 +198,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -290,6 +296,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -703,6 +710,9 @@ msgstr ""
 =======
 "POT-Creation-Date: 2025-10-24 18:36+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-10-24 18:36+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-08-25 10:09+0000\n"
 "Last-Translator: \"Larissa Manderfeld (lman)\" <lman@odoo.com>\n"
 "Language-Team: Spanish <https://translate.odoo.com/projects/odoo-18/"
@@ -711,6 +721,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 "Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
@@ -856,6 +867,11 @@ msgstr ""
 "0) ? 1 : 2);\n"
 "X-Generator: Weblate 5.12.2\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == "
+"0) ? 1 : 2);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: stock_account
 #. odoo-python
@@ -930,8 +946,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "el coste del número de serie o lote fue cambiado de %(previous)s a "
 "%(new_cost)s."
+=======
+"el coste del número de serie o lote fue cambiado de %(previous)s a %"
+"(new_cost)s."
+>>>>>>> upstream/18.0
 =======
 "el coste del número de serie o lote fue cambiado de %(previous)s a %"
 "(new_cost)s."
@@ -1173,11 +1194,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "%(user)s changed stock valuation from  %(previous)s to %(new_value)s - %(product)s\n"
 "%(reason)s"
 msgstr ""
 "%(user)s cambió la valoración de stock de %(previous)s a %(new_value)s - %(product)s\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1319,6 +1343,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1462,11 +1489,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            <small class=\"mx-2 fst-italic\">Use a negative added value to record a decrease in the product value</small>"
 msgstr ""
 ")\n"
 "                            <small class=\"mx-2 fst-italic\">Utilice un valor añadido negativo para registrar una reducción en el valor del producto</small>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1609,6 +1639,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1820,8 +1853,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Añada un coste adicional (transporte, aduanas, ...) en el valor del "
 "producto."
+=======
+"Añada un coste adicional (transporte, aduanas, ...) en el valor del producto."
+>>>>>>> upstream/18.0
 =======
 "Añada un coste adicional (transporte, aduanas, ...) en el valor del producto."
 >>>>>>> upstream/18.0
@@ -2026,11 +2063,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Affect landed costs on reception operations and split them among products to"
 " update their cost price."
 msgstr ""
 "Afecte los costos en destino en las operaciones de recepción y divídalos "
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2170,6 +2210,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2364,8 +2407,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Cannot find a stock input account for the product %s. You must define one on"
 " the product category, or on the location, before processing this operation."
+=======
+"Cannot find a stock input account for the product %s. You must define one on "
+"the product category, or on the location, before processing this operation."
+>>>>>>> upstream/18.0
 =======
 "Cannot find a stock input account for the product %s. You must define one on "
 "the product category, or on the location, before processing this operation."
@@ -2683,12 +2731,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Costing method change for product category %(category)s: from %(old_method)s"
 " to %(new_method)s."
 msgstr ""
 "Cambio de método de coste para la categoría de producto %(category)s: de "
 "%(old_method)s a %(new_method)s."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2829,6 +2880,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2975,12 +3029,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Counterpart journal items for all incoming stock moves will be posted in this account, unless there is a specific valuation account\n"
 "                set on the source location. This is the default value for all products in this category. It can also directly be set on each product."
 msgstr ""
 "Los artículos del diario de contraparte para todos los movimientos de stock entrantes se contabilizarán en esta cuenta, a menos que haya una cuenta de valoración\n"
 "                establecida en la ubicación de origen. Este es el valor por defecto para todos los productos de esta categoría. También se puede configurar directamente en cada producto."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3127,6 +3184,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3336,7 +3396,11 @@ msgid "Display Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nombre mostrado"
+=======
+msgstr "Nombre para mostrar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nombre para mostrar"
 >>>>>>> upstream/18.0
@@ -3531,6 +3595,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Due to a change of product category (from %(old_category)s to "
 "%(new_category)s), the costing method has changed for product %(product)s: "
 "from %(old_method)s to %(new_method)s."
@@ -3538,6 +3603,8 @@ msgstr ""
 "Debido a un cambio en la categoría del producto (de %(old_category)s a "
 "%(new_category)s), el método de coste ha cambiado para la plantilla del "
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3679,6 +3746,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3844,8 +3914,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Si se encuentra seleccionado, la valoración será específica para cada número"
 " de serie o lote."
+=======
+"Si se encuentra seleccionado, la valoración será específica para cada número "
+"de serie o lote."
+>>>>>>> upstream/18.0
 =======
 "Si se encuentra seleccionado, la valoración será específica para cada número "
 "de serie o lote."
@@ -4156,7 +4231,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Corrija esta cantidad antes de habilitar o deshabilitar la valoración del lote."
+=======
+"Corrija esta cantidad antes de habilitar o deshabilitar la valoración del "
+"lote."
+>>>>>>> upstream/18.0
 =======
 "Corrija esta cantidad antes de habilitar o deshabilitar la valoración del "
 "lote."
@@ -4441,6 +4521,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Manual: The accounting entries to value the inventory are not posted automatically.\n"
 "        Automated: An accounting entry is automatically created to value the inventory when a product enters or leaves the company.\n"
 "        "
@@ -4448,6 +4529,8 @@ msgstr ""
 "Manual: Los registros contables de valoración del inventario no se publican automáticamente.\n"
 "        Automatizado: Se crea automáticamente un registro contable para evaluar el inventario cuando un producto entra o sale de la empresa.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4593,6 +4676,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4769,12 +4855,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Product %(product)s has quantity in valued location %(location)s without any lot.\n"
 "Please assign lots to all your quantities before enabling lot valuation."
 msgstr ""
 "Hay una cantidad sin lote del producto %(product)s en la ubicación valorada %(location)s.\n"
 "Asigne lotes a todas las cantidades antes de habilitar la valoración de lotes."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4918,6 +5007,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5091,8 +5183,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Valor del producto modificado manualmente (de %(original_price)s a "
 "%(new_price)s)"
+=======
+"Valor del producto modificado manualmente (de %(original_price)s a %"
+"(new_price)s)"
+>>>>>>> upstream/18.0
 =======
 "Valor del producto modificado manualmente (de %(original_price)s a %"
 "(new_price)s)"
@@ -5354,7 +5451,10 @@ msgstr "Línea de albarán de devolución"
 #. odoo-python
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: code:addons/stock_account/models/product.py:0
@@ -5364,6 +5464,9 @@ msgstr ""
 #. module: stock_account
 #. odoo-python
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5426,8 +5529,12 @@ msgid "Select an existing lot/serial number to be reevaluated"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Seleccione un número de lote o serie existente para volver a evaluarlo"
+=======
+msgstr "Seleccione un número de lote o serie existente para volver a evaluarlo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Seleccione un número de lote o serie existente para volver a evaluarlo"
 >>>>>>> upstream/18.0
@@ -5624,6 +5731,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Standard Price: The products are valued at their standard cost defined on the product.\n"
 "        Average Cost (AVCO): The products are valued at weighted average cost.\n"
 "        First In First Out (FIFO): The products are valued supposing those that enter the company first will also leave it first.\n"
@@ -5633,6 +5741,8 @@ msgstr ""
 "        Coste promedio (AVCO): Los productos se valoran según su coste promedio ponderado\n"
 "        Primeras entradas, primeras salidas (FIFO): Los productos se valoran dando por hecho que los primeros en entrar en la empresa son también los primeros en salir.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5783,6 +5893,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6007,8 +6120,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Campo técnico para mostrar correctamente la moneda elegida de la empresa que"
 " corresponde con el valor total de las capas de valoración del producto"
+=======
+"Campo técnico para mostrar correctamente la moneda elegida de la empresa que "
+"corresponde con el valor total de las capas de valoración del producto"
+>>>>>>> upstream/18.0
 =======
 "Campo técnico para mostrar correctamente la moneda elegida de la empresa que "
 "corresponde con el valor total de las capas de valoración del producto"
@@ -6354,8 +6472,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This operation might lead in a loss of data. Valuation will be identical for"
 " all lots/SN. Do you want to proceed ? "
+=======
+"This operation might lead in a loss of data. Valuation will be identical for "
+"all lots/SN. Do you want to proceed ? "
+>>>>>>> upstream/18.0
 =======
 "This operation might lead in a loss of data. Valuation will be identical for "
 "all lots/SN. Do you want to proceed ? "
@@ -6594,6 +6717,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This product is valuated by lot/serial number. Changing the cost will update"
 " the cost of every lot/serial number in stock."
 msgstr ""
@@ -6602,6 +6726,8 @@ msgstr ""
 
 #. module: stock_account
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6754,6 +6880,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6926,8 +7055,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Trigger a decrease of the delivered/received quantity in the associated Sale"
 " Order/Purchase Order"
+=======
+"Trigger a decrease of the delivered/received quantity in the associated Sale "
+"Order/Purchase Order"
+>>>>>>> upstream/18.0
 =======
 "Trigger a decrease of the delivered/received quantity in the associated Sale "
 "Order/Purchase Order"
@@ -7207,8 +7341,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "ubicación interna a esta ubicación, en lugar de la cuenta de salida de stock"
 " genérica establecida en el producto. No tiene efecto para ubicaciones "
+=======
+"ubicación interna a esta ubicación, en lugar de la cuenta de salida de stock "
+"genérica establecida en el producto. No tiene efecto para ubicaciones "
+>>>>>>> upstream/18.0
 =======
 "ubicación interna a esta ubicación, en lugar de la cuenta de salida de stock "
 "genérica establecida en el producto. No tiene efecto para ubicaciones "
@@ -7497,12 +7636,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Valuation method change for product category %(category)s: from "
 "%(old_method)s to %(new_method)s."
 msgstr ""
 "Cambio de método de valuación para la categoría de producto %(category)s: de"
 " %(old_method)s a %(new_method)s."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7643,6 +7785,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7807,12 +7952,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Used to value the product when the purchase cost is not known (e.g. inventory adjustment).\n"
 "        Used to compute margins on sale orders."
 msgstr ""
 "El valor del lote (calculado automáticamente con AVCO).\n"
 "        Se utiliza para valorar el producto cuando se desconoce el coste de compra (por ejemplo, en un ajuste de inventario).\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7955,6 +8103,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8112,6 +8263,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "When doing automated inventory valuation, counterpart journal items for all outgoing stock moves will be posted in this account,\n"
 "                unless there is a specific valuation account set on the destination location. This is the default value for all products in this category.\n"
 "                It can also directly be set on each product."
@@ -8119,6 +8271,8 @@ msgstr ""
 "Al realizar una valoración de inventario automatizada, los artículos de diario de contrapartida para todos los movimientos de stock salientes se registrarán en esta cuenta,\n"
 "                 a menos que haya una cuenta de valoración específica establecida en la ubicación de destino. Este es el valor por defecto para todos los productos de esta categoría.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8267,6 +8421,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8367,6 +8524,7 @@ msgid ""
 "which entries will be automatically posted when stock moves are processed."
 msgstr ""
 "Al realizar una valoración de inventario automatizada, este es el diario de "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8599,11 +8757,16 @@ msgstr ""
 "contabilidad en el que las entradas se contabilizarán automáticamente cuando "
 "se procesen los movimientos de stock."
 >>>>>>> upstream/18.0
+=======
+"contabilidad en el que las entradas se contabilizarán automáticamente cuando "
+"se procesen los movimientos de stock."
+>>>>>>> upstream/18.0
 
 #. module: stock_account
 #: model:ir.model,name:stock_account.model_stock_valuation_layer_revaluation
 msgid "Wizard model to reavaluate a stock inventory for a product"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9010,6 +9173,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Modelo de asistente para revalorizar un inventario del stock para un producto"
 
 #. module: stock_account
@@ -9060,6 +9225,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9262,12 +9430,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You don't have any input valuation account defined on your product category."
 " You must define one before processing this operation."
 msgstr ""
 "No tiene ninguna cuenta de valoración de entrada definida en su categoría de"
 " producto. Debe definir uno antes de procesar esta operación."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9408,6 +9579,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9507,6 +9681,7 @@ msgid ""
 "You don't have any output valuation account defined on your product "
 "category. You must define one before processing this operation."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9739,6 +9914,10 @@ msgstr ""
 "No tiene ninguna cuenta de valoración de entrada definida en su categoría de "
 "producto. Debe definir una antes de procesar esta operación."
 >>>>>>> upstream/18.0
+=======
+"No tiene ninguna cuenta de valoración de entrada definida en su categoría de "
+"producto. Debe definir una antes de procesar esta operación."
+>>>>>>> upstream/18.0
 
 #. module: stock_account
 #. odoo-python
@@ -9790,8 +9969,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You don't have any stock input account defined on your product category. You"
 " must define one before processing this operation."
+=======
+"You don't have any stock input account defined on your product category. You "
+"must define one before processing this operation."
+>>>>>>> upstream/18.0
 =======
 "You don't have any stock input account defined on your product category. You "
 "must define one before processing this operation."
@@ -10042,8 +10226,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You don't have any stock valuation account defined on your product category."
 " You must define one before processing this operation."
+=======
+"You don't have any stock valuation account defined on your product category. "
+"You must define one before processing this operation."
+>>>>>>> upstream/18.0
 =======
 "You don't have any stock valuation account defined on your product category. "
 "You must define one before processing this operation."

@@ -45,6 +45,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from datetime import datetime
 from freezegun import freeze_time
 import logging
@@ -148,6 +149,8 @@ _logger = logging.getLogger(__name__)
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 import base64
 
 from datetime import datetime
@@ -156,6 +159,7 @@ from lxml import etree
 from pytz import timezone
 from odoo import Command
 
+<<<<<<< HEAD
 from odoo.exceptions import ValidationError
 from odoo.tests import tagged
 from odoo.tools import misc
@@ -296,10 +300,17 @@ from odoo.addons.l10n_sa_edi.tests.common import TestSaEdiCommon
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+from odoo.exceptions import ValidationError, UserError
+from odoo.tests import tagged
+from odoo.tools import misc
+from odoo.addons.l10n_sa_edi.tests.common import TestSaEdiCommon
+>>>>>>> upstream/18.0
 
 
 @tagged('post_install_l10n', '-at_install', 'post_install')
 class TestEdiZatca(TestSaEdiCommon):
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -972,6 +983,8 @@ class TestEdiZatca(TestSaEdiCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     # """Test ZATCA EDI compliance for Saudi Arabia."""
 
     def _test_document_generation(self, test_file_path, expected_xpath, freeze_time_at, additional_xpath='', document_type=False, move=False, move_data=False):
@@ -1166,7 +1179,10 @@ class TestEdiZatca(TestSaEdiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1211,6 +1227,9 @@ class TestEdiZatca(TestSaEdiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1281,6 +1300,9 @@ class TestEdiZatca(TestSaEdiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1429,6 +1451,10 @@ class TestEdiZatca(TestSaEdiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            # Context for wizards
+>>>>>>> upstream/18.0
 =======
             # Context for wizards
 >>>>>>> upstream/18.0
@@ -1571,6 +1597,7 @@ class TestEdiZatca(TestSaEdiCommon):
                 'active_model': 'sale.order',
                 'active_ids': [sale_order.id],
                 'active_id': sale_order.id,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2482,6 +2509,8 @@ class TestEdiZatca(TestSaEdiCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 'default_journal_id': self.customer_invoice_journal.id,
             }
 
@@ -2644,6 +2673,7 @@ class TestEdiZatca(TestSaEdiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2734,4 +2764,38 @@ class TestEdiZatca(TestSaEdiCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+    def test_company_missing_country_on_standard_invoice(self):
+        """Test standard invoice generation when the company does not have a country set."""
+        # setup new company to prevent errors in other tests
+        vals = self._get_company_vals({"name": "SA Company (Minus Country)"})
+        new_company = self._create_company(**vals)
+
+        new_company_customer_invoice_journal = self.env['account.journal'].search([
+            ('company_id', '=', new_company.id),
+            ('type', '=', 'sale'),
+        ], limit=1)
+        new_company_customer_invoice_journal._l10n_sa_load_edi_demo_data()
+
+        new_company.country_id = False
+
+        # missing tax should always cause a user error, even if the country is blank
+        move_data = {
+            'name': 'INV/2022/00014',
+            'invoice_date': '2022-09-05',
+            'invoice_date_due': '2022-09-22',
+            'company_id': new_company,
+            'partner_id': self.partner_sa,
+            'invoice_line_ids': [{
+                'product_id': self.product_a.id,
+                'price_unit': self.product_a.standard_price,
+                'tax_ids': False,
+            }],
+        }
+
+        invoice = self._create_invoice(**move_data)
+        with self.assertRaises(UserError):
+            invoice.action_post()
 >>>>>>> upstream/18.0

@@ -125,7 +125,11 @@ class MrpProduction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 labour_amounts[account] += wo._cal_cost()
+=======
+                labour_amounts[account] += wo.company_id.currency_id.round(wo._cal_cost())
+>>>>>>> upstream/18.0
 =======
                 labour_amounts[account] += wo.company_id.currency_id.round(wo._cal_cost())
 >>>>>>> upstream/18.0

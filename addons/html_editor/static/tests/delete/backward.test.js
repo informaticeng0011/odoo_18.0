@@ -69,6 +69,7 @@ import { beforeEach, describe, expect, test } from "@odoo/hoot";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { setupEditor, testEditor } from "../_helpers/editor";
 import { unformat } from "../_helpers/format";
 import { manuallyDispatchProgrammaticEvent, microTick, press } from "@odoo/hoot-dom";
@@ -78,6 +79,8 @@ import { getContent, setSelection } from "../_helpers/selection";
 import { patchWithCleanup } from "@web/../tests/web_test_helpers";
 import { browser } from "@web/core/browser/browser";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -293,6 +296,9 @@ import { deleteBackward, insertText, splitTripleClick, undo } from "../_helpers/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2084,6 +2090,7 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         tripleClick(el.querySelector("h1"));
         await microTick();
         // Chrome puts the cursor at the start of next sibling
@@ -2097,6 +2104,8 @@ describe("Selection not collapsed", () => {
         expect(getContent(el)).toBe("<h1>[abc</h1><p>]def</p>");
         await tick();
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2314,6 +2323,9 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2533,12 +2545,15 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         tripleClick(el.querySelector("h1"));
         await microTick();
         // Chrome puts the cursor at the start of next sibling
         expect(getContent(el)).toBe("<h1>[abc</h1><p>]<br></p><p>def</p>");
         await tick();
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2750,6 +2765,9 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3044,8 +3062,13 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <tr><td>cd</td><td>[]<br></td><td>gh</td></tr>
                         <tr><td>ij</td><td><br></td><td>mn</td></tr>
+=======
+                        <tr><td>cd</td><td><p>[]<br></p></td><td>gh</td></tr>
+                        <tr><td>ij</td><td><p><br></p></td><td>mn</td></tr>
+>>>>>>> upstream/18.0
 =======
                         <tr><td>cd</td><td><p>[]<br></p></td><td>gh</td></tr>
                         <tr><td>ij</td><td><p><br></p></td><td>mn</td></tr>
@@ -3491,6 +3514,7 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             stepFunction: deleteBackward,
             contentAfter: unformat(
                 `<table><tbody>
@@ -3499,6 +3523,8 @@ describe("Selection not collapsed", () => {
                 </tbody></table>`
             ),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3642,6 +3668,9 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

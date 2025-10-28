@@ -8,6 +8,10 @@ from . import test_credit_limit
 from . import test_onchange
 from . import test_payment_flow
 from . import test_product_attribute_value
+<<<<<<< HEAD
+=======
+from . import test_product_catalog
+>>>>>>> upstream/18.0
 from . import test_product_configurator_data
 from . import test_sale_combo_configurator
 from . import test_sale_flow

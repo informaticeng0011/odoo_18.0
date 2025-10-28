@@ -72,6 +72,7 @@ import { parseFloat } from "@web/views/fields/parsers";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import { getButtons } from "@point_of_sale/app/generic_components/numpad/numpad";
 >>>>>>> upstream/18.0
@@ -92,6 +93,9 @@ import { getButtons } from "@point_of_sale/app/generic_components/numpad/numpad"
 >>>>>>> upstream/18.0
 =======
 import { getButtons } from "@point_of_sale/app/generic_components/numpad/numpad";
+>>>>>>> upstream/18.0
+=======
+import { enhancedButtons } from "@point_of_sale/app/generic_components/numpad/numpad";
 >>>>>>> upstream/18.0
 =======
 import { enhancedButtons } from "@point_of_sale/app/generic_components/numpad/numpad";
@@ -310,6 +314,10 @@ export class OrderSummary extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        ev.stopPropagation();
+>>>>>>> upstream/18.0
 =======
         ev.stopPropagation();
 >>>>>>> upstream/18.0
@@ -353,6 +361,7 @@ export class OrderSummary extends Component {
             }, 300);
         }
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -723,6 +732,11 @@ export class OrderSummary extends Component {
         const parsedInput = (buffer && parseFloat(buffer)) || 0;
         if (lastId != selectedLine.uuid || parsedInput < currentQuantity) {
 >>>>>>> upstream/18.0
+=======
+    handleOrderLineQuantityChange(selectedLine, buffer, currentQuantity, lastId) {
+        const parsedInput = (buffer && parseFloat(buffer)) || 0;
+        if (lastId != selectedLine.uuid || parsedInput < currentQuantity) {
+>>>>>>> upstream/18.0
             this._showDecreaseQuantityPopup();
         } else if (currentQuantity < parsedInput) {
             this._setValue(buffer);
@@ -793,6 +807,9 @@ export class OrderSummary extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -994,7 +1011,10 @@ export class OrderSummary extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1190,6 +1210,9 @@ export class OrderSummary extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1415,6 +1438,7 @@ export class OrderSummary extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             const parsedInput = (buffer && parseFloat(buffer)) || 0;
             if (lastId != selectedLine.uuid) {
                 this._showDecreaseQuantityPopup();
@@ -1424,6 +1448,8 @@ export class OrderSummary extends Component {
                 this._showDecreaseQuantityPopup();
             }
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1620,6 +1646,9 @@ export class OrderSummary extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1884,6 +1913,7 @@ export class OrderSummary extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
     async _getShowDecreaseQuantityPopupButtons() {
@@ -1918,6 +1948,11 @@ export class OrderSummary extends Component {
 =======
     async _getShowDecreaseQuantityPopupButtons() {
         return getButtons();
+    }
+>>>>>>> upstream/18.0
+=======
+    async _getShowDecreaseQuantityPopupButtons() {
+        return enhancedButtons();
     }
 >>>>>>> upstream/18.0
 =======
@@ -2273,6 +2308,10 @@ export class OrderSummary extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            buttons: await this._getShowDecreaseQuantityPopupButtons(),
+>>>>>>> upstream/18.0
 =======
             buttons: await this._getShowDecreaseQuantityPopupButtons(),
 >>>>>>> upstream/18.0
@@ -2539,9 +2578,15 @@ export class OrderSummary extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (newQuantity >= currentQuantity) {
                 selectedLine.set_quantity(newQuantity);
             } else if (newQuantity >= selectedLine.saved_quantity) {
+=======
+            if (Math.abs(newQuantity) >= currentQuantity) {
+                selectedLine.set_quantity(newQuantity);
+            } else if (Math.abs(newQuantity) >= selectedLine.saved_quantity) {
+>>>>>>> upstream/18.0
 =======
             if (Math.abs(newQuantity) >= currentQuantity) {
                 selectedLine.set_quantity(newQuantity);

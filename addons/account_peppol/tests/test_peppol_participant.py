@@ -1,7 +1,14 @@
 import json
 from contextlib import contextmanager
+<<<<<<< HEAD
 from requests import Session, PreparedRequest, Response
 from psycopg2 import IntegrityError
+=======
+from urllib.parse import parse_qs, quote_plus
+
+from psycopg2 import IntegrityError
+from requests import PreparedRequest, Response, Session
+>>>>>>> upstream/18.0
 
 from odoo.exceptions import ValidationError, UserError
 from odoo.tests.common import tagged, TransactionCase, freeze_time
@@ -53,6 +60,7 @@ class TestPeppolParticipant(TransactionCase):
     def _request_handler(cls, s: Session, r: PreparedRequest, /, **kw):
         response = Response()
         response.status_code = 200
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -194,6 +202,33 @@ class TestPeppolParticipant(TransactionCase):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+        url = r.path_url.lower()
+        # mock SMP participant lookup: 200 if pid in SMP_OK_IDS, else 404
+        if r.path_url.startswith('/api/peppol/1/lookup'):
+            peppol_identifier = parse_qs(r.path_url.rsplit('?')[1])['peppol_identifier'][0]
+            if peppol_identifier == "0208:0239843188":
+                response.json = lambda: {
+                    "result": {
+                        "identifier": peppol_identifier,
+                        "smp_base_url": "http://example.com/smp",
+                        "ttl": 60,
+                        "service_group_url": "http://example.com/smp/iso6523-actorid-upis%3A%3A" + quote_plus(peppol_identifier),
+                        "services": []
+                    }
+                }
+            else:
+                response.status_code = 404
+                response.json = lambda: {
+                    "error": {
+                        "code": "NOT_FOUND",
+                        "message": "no naptr record",
+                        "retryable": False,
+                    },
+                }
+            return response
+
+>>>>>>> upstream/18.0
         body = json.loads(r.body)
         responses = cls._get_mock_responses()
         if (
@@ -243,7 +278,11 @@ class TestPeppolParticipant(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'peppol_endpoint': '0000000000',
+=======
+            'peppol_endpoint': 'BE0239843188',
+>>>>>>> upstream/18.0
 =======
             'peppol_endpoint': 'BE0239843188',
 >>>>>>> upstream/18.0
@@ -452,7 +491,10 @@ class TestPeppolParticipant(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -868,6 +910,9 @@ class TestPeppolParticipant(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1167,8 +1212,12 @@ class TestPeppolParticipant(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         vals = self._get_participant_vals()
         vals['peppol_eas'] = '0208'
+=======
+        vals = {**self._get_participant_vals(), 'peppol_eas': '0208', 'peppol_endpoint': '0239843188'}
+>>>>>>> upstream/18.0
 =======
         vals = {**self._get_participant_vals(), 'peppol_eas': '0208', 'peppol_endpoint': '0239843188'}
 >>>>>>> upstream/18.0

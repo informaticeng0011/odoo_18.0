@@ -145,10 +145,13 @@ class ImageSelector extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 this.state.images = this.state.images.map(img => {
                     img.active = false;
                     if (img.src === image.src) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -243,6 +246,9 @@ class ImageSelector extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -342,7 +348,11 @@ class ImageSelector extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         src: image.src,
+=======
+                        src: src,
+>>>>>>> upstream/18.0
 =======
                         src: src,
 >>>>>>> upstream/18.0
@@ -471,7 +481,11 @@ class ImageSelector extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 this.seoContext.metaImage = image.src;
+=======
+                this.seoContext.metaImage = src;
+>>>>>>> upstream/18.0
 =======
                 this.seoContext.metaImage = src;
 >>>>>>> upstream/18.0
@@ -748,11 +762,14 @@ class SEOPreview extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (this.props.description.length > 160) {
             return this.props.description.substring(0, 159) + '…';
         }
         return this.props.description;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -892,6 +909,9 @@ class SEOPreview extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -44,6 +44,10 @@ class IrWebsocket(models.AbstractModel):
             self_discuss_channels = guest.sudo().channel_ids
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            channels.append((guest, "presence"))
+>>>>>>> upstream/18.0
 =======
             channels.append((guest, "presence"))
 >>>>>>> upstream/18.0

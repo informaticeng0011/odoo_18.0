@@ -52,6 +52,7 @@ from odoo.addons.mail.tests.common import MailCommon
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tests import Form, tagged
 from odoo.exceptions import UserError, ValidationError
 <<<<<<< HEAD
@@ -229,6 +230,8 @@ from odoo import Command
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 from odoo.addons.test_mail.data.test_mail_data import MAIL_EML_ATTACHMENT
 from odoo.tests import Form, tagged, new_test_user
 from odoo.exceptions import UserError, ValidationError
@@ -278,6 +281,9 @@ from odoo import Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -789,7 +795,10 @@ class TestAccountJournalAlias(AccountTestInvoicingCommon, MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1024,6 +1033,7 @@ class TestAccountJournalAlias(AccountTestInvoicingCommon, MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1066,6 +1076,8 @@ class TestAccountJournalAlias(AccountTestInvoicingCommon, MailCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1220,6 +1232,7 @@ class TestAccountJournalAlias(AccountTestInvoicingCommon, MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1310,4 +1323,26 @@ class TestAccountJournalAlias(AccountTestInvoicingCommon, MailCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+    def test_alias_uniqueness_without_domain(self):
+        """Ensure alias_name is unique even if alias_domain is not defined."""
+        default_account = self.env['account.account'].search(
+            domain=[('deprecated', '=', False), ('account_type', 'in', ('income', 'income_other'))],
+            limit=1,
+        )
+        with Form(self.env['account.journal']) as journal_form:
+            journal_form.type = 'sale'
+            journal_form.code = 'A'
+            journal_form.name = 'Test Journal 1'
+            journal_form.default_account_id = default_account
+            journal_1 = journal_form.save()
+        with Form(self.env['account.journal']) as journal_form:
+            journal_form.type = 'sale'
+            journal_form.code = 'B'
+            journal_form.name = 'Test Journal 2'
+            journal_form.default_account_id = default_account
+            journal_2 = journal_form.save()
+        self.assertNotEqual(journal_1.alias_id.alias_name, journal_2.alias_id.alias_name)
 >>>>>>> upstream/18.0

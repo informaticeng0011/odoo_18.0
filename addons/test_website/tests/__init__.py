@@ -29,6 +29,10 @@ from . import test_website_page_properties
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from . import test_website_field_sanitize
+>>>>>>> upstream/18.0
 =======
 from . import test_website_field_sanitize
 >>>>>>> upstream/18.0

@@ -1,4 +1,8 @@
 import { closestElement } from "@html_editor/utils/dom_traversal";
+<<<<<<< HEAD
+=======
+import { isElement } from "./dom_info";
+>>>>>>> upstream/18.0
 
 export const COLOR_PALETTE_COMPATIBILITY_COLOR_NAMES = [
     "primary",
@@ -269,6 +273,7 @@ export function isColorGradient(value) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 export const TEXT_CLASSES_REGEX = /\btext-[^\s]*\b/;
 =======
 export const TEXT_CLASSES_REGEX =
@@ -457,6 +462,33 @@ export const TEXT_CLASSES_REGEX =
 export const BG_CLASSES_REGEX = /\bbg-[^\s]*\b/;
 
 /**
+=======
+export const TEXT_CLASSES_REGEX =
+    /\btext-(primary|secondary|success|danger|warning|info|light|dark|body|muted|white|black|reset|gradient|opacity-\d{1,3}|o-[^\s]+|\d+)\b/;
+export const BG_CLASSES_REGEX = /\bbg-[^\s]*\b/;
+
+/**
+ * Returns true if the given element has a visible color applied
+ * by `TEXT_CLASSES_REGEX` or `BG_CLASSES_REGEX`
+ *
+ * @param {Element} element
+ * @param {string} mode 'color' or 'backgroundColor'
+ * @returns {boolean}
+ */
+export function hasTextColorClass(element, mode) {
+    if (!element || !isElement(element)) {
+        return false;
+    }
+    const classRegex = mode === "color" ? TEXT_CLASSES_REGEX : BG_CLASSES_REGEX;
+    const parent = element.parentNode;
+    return (
+        classRegex.test(element.className) &&
+        (!parent || getComputedStyle(element)[mode] !== getComputedStyle(parent)[mode])
+    );
+}
+
+/**
+>>>>>>> upstream/18.0
  * Returns true if the given element has a visible color (fore- or
  * -background depending on the given mode).
  *
@@ -467,6 +499,7 @@ export const BG_CLASSES_REGEX = /\bbg-[^\s]*\b/;
 export function hasColor(element, mode) {
     const style = element.style;
     const parent = element.parentNode;
+<<<<<<< HEAD
     const classRegex = mode === "color" ? TEXT_CLASSES_REGEX : BG_CLASSES_REGEX;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -515,6 +548,8 @@ export function hasColor(element, mode) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -654,6 +689,9 @@ export function hasColor(element, mode) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -760,8 +798,12 @@ export function hasColor(element, mode) {
         (style[mode] &&
             style[mode] !== "inherit" &&
             (!parent || style[mode] !== parent.style[mode])) ||
+<<<<<<< HEAD
         (classRegex.test(element.className) &&
             (!parent || getComputedStyle(element)[mode] !== getComputedStyle(parent)[mode]))
+=======
+        hasTextColorClass(element, mode)
+>>>>>>> upstream/18.0
     );
 }
 

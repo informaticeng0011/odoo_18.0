@@ -3,7 +3,11 @@
 # 	* stock_account
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -17,6 +21,7 @@
 # Audrius Palenskis <audrius.palenskis@gmail.com>, 2024
 # Arunas V. <arunas@devoro.com>, 2024
 # Antanas Muliuolis <an.muliuolis@gmail.com>, 2024
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -213,11 +218,14 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # Martin Trigaux, 2024
 # Linas Versada <linaskrisiukenas@gmail.com>, 2024
 # digitouch UAB <digitouchagencyeur@gmail.com>, 2024
 # UAB "Draugiški sprendimai" <transifex@draugiskisprendimai.lt>, 2024
 # Silvija Butko <silvija.butko@gmail.com>, 2024
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -761,10 +769,16 @@ msgstr ""
 # Ramunė ViaLaurea <ramune.vialaurea@gmail.com>, 2025
 #
 >>>>>>> upstream/18.0
+=======
+# Paulius Sladkevičius <paulius@versada.eu>, 2025
+# Ramunė ViaLaurea <ramune.vialaurea@gmail.com>, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2025-08-01 07:25+0000\n"
@@ -909,6 +923,8 @@ msgstr ""
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-10-24 18:36+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 "Last-Translator: Ramunė ViaLaurea <ramune.vialaurea@gmail.com>, 2025\n"
@@ -921,6 +937,9 @@ msgstr ""
 "11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? "
 "1 : n % 1 != 0 ? 2: 3);\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -963,7 +982,12 @@ msgstr ""
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "%(user)s changed stock valuation from  %(previous)s to %(new_value)s - %(product)s\n"
+=======
+"%(user)s changed stock valuation from  %(previous)s to %(new_value)s - %"
+"(product)s\n"
+>>>>>>> upstream/18.0
 =======
 "%(user)s changed stock valuation from  %(previous)s to %(new_value)s - %"
 "(product)s\n"
@@ -981,7 +1005,12 @@ msgid ""
 ")\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            <small class=\"mx-2 fst-italic\">Use a negative added value to record a decrease in the product value</small>"
+=======
+"                            <small class=\"mx-2 fst-italic\">Use a negative "
+"added value to record a decrease in the product value</small>"
+>>>>>>> upstream/18.0
 =======
 "                            <small class=\"mx-2 fst-italic\">Use a negative "
 "added value to record a decrease in the product value</small>"
@@ -1078,7 +1107,11 @@ msgid "6.00"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "6.00"
+>>>>>>> upstream/18.0
 =======
 msgstr "6.00"
 >>>>>>> upstream/18.0
@@ -1403,7 +1436,11 @@ msgid "<span class=\"o_stat_text\">Valuation</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Vertė</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Vertė</span>"
 >>>>>>> upstream/18.0
@@ -1679,8 +1716,13 @@ msgstr ""
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Affect landed costs on reception operations and split them among products to"
 " update their cost price."
+=======
+"Affect landed costs on reception operations and split them among products to "
+"update their cost price."
+>>>>>>> upstream/18.0
 =======
 "Affect landed costs on reception operations and split them among products to "
 "update their cost price."
@@ -1750,8 +1792,13 @@ msgstr "Atšaukti"
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Cannot find a stock input account for the product %s. You must define one on"
 " the product category, or on the location, before processing this operation."
+=======
+"Cannot find a stock input account for the product %s. You must define one on "
+"the product category, or on the location, before processing this operation."
+>>>>>>> upstream/18.0
 =======
 "Cannot find a stock input account for the product %s. You must define one on "
 "the product category, or on the location, before processing this operation."
@@ -1847,8 +1894,13 @@ msgstr "Savikainos būdas"
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Costing method change for product category %(category)s: from %(old_method)s"
 " to %(new_method)s."
+=======
+"Costing method change for product category %(category)s: from %(old_method)s "
+"to %(new_method)s."
+>>>>>>> upstream/18.0
 =======
 "Costing method change for product category %(category)s: from %(old_method)s "
 "to %(new_method)s."
@@ -1869,9 +1921,12 @@ msgstr "Partnerinė sąskaita"
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Counterpart journal items for all incoming stock moves will be posted in this account, unless there is a specific valuation account\n"
 "                set on the source location. This is the default value for all products in this category. It can also directly be set on each product."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "Counterpart journal items for all incoming stock moves will be posted in "
@@ -1879,6 +1934,9 @@ msgid ""
 "                set on the source location. This is the default value for "
 "all products in this category. It can also directly be set on each product."
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1967,8 +2025,13 @@ msgstr "Rodyti partijos arba serijos numerius sąskaitose faktūrose"
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Due to a change of product category (from %(old_category)s to "
 "%(new_category)s), the costing method has changed for product %(product)s: "
+=======
+"Due to a change of product category (from %(old_category)s to %"
+"(new_category)s), the costing method has changed for product %(product)s: "
+>>>>>>> upstream/18.0
 =======
 "Due to a change of product category (from %(old_category)s to %"
 "(new_category)s), the costing method has changed for product %(product)s: "
@@ -2139,6 +2202,7 @@ msgstr ""
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Manual: The accounting entries to value the inventory are not posted automatically.\n"
 "        Automated: An accounting entry is automatically created to value the inventory when a product enters or leaves the company.\n"
 "        "
@@ -2146,6 +2210,8 @@ msgstr ""
 "Rankinis: Apskaitos įrašai inventoriaus vertinimui nėra skelbiami automatiškai.\n"
 "Automatinis: Apskaitos įrašas yra automatiškai pridedamas inventoriaus vertinimui, kai produktas įeina ar išeina iš įmonės."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "Manual: The accounting entries to value the inventory are not posted "
@@ -2159,6 +2225,9 @@ msgstr ""
 "Automatinis: Apskaitos įrašas yra automatiškai pridedamas inventoriaus "
 "vertinimui, kai produktas įeina ar išeina iš įmonės."
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2202,7 +2271,12 @@ msgstr "Produktas"
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Product %(product)s has quantity in valued location %(location)s without any lot.\n"
+=======
+"Product %(product)s has quantity in valued location %(location)s without any "
+"lot.\n"
+>>>>>>> upstream/18.0
 =======
 "Product %(product)s has quantity in valued location %(location)s without any "
 "lot.\n"
@@ -2326,7 +2400,10 @@ msgstr "Paėmimo grąžinimo eilutė"
 #. odoo-python
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: code:addons/stock_account/models/product.py:0
@@ -2336,6 +2413,9 @@ msgstr ""
 #. module: stock_account
 #. odoo-python
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2367,6 +2447,7 @@ msgstr "Savikaina"
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Standard Price: The products are valued at their standard cost defined on the product.\n"
 "        Average Cost (AVCO): The products are valued at weighted average cost.\n"
 "        First In First Out (FIFO): The products are valued supposing those that enter the company first will also leave it first.\n"
@@ -2376,6 +2457,8 @@ msgstr ""
 "        Vidutinė kaina (AVCO): Produktai yra įkainojami pagal vidurkio kainą.\n"
 "        Pirmas Į Pirmas Iš (FIFO): Produktai yra įkainojami galvojant, kad tie, kurie pirmieji atkeliavo į įmonę, ją ir paliks pirmieji."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "Standard Price: The products are valued at their standard cost defined on "
@@ -2392,6 +2475,9 @@ msgstr ""
 "        Pirmas Į Pirmas Iš (FIFO): Produktai yra įkainojami galvojant, kad "
 "tie, kurie pirmieji atkeliavo į įmonę, ją ir paliks pirmieji."
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2543,8 +2629,13 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Perkėlimo eilutės nėra nuolatinėje būsenoje: jos neturi tos pačios kilmės ar"
 " tikslo įmonės."
+=======
+"Perkėlimo eilutės nėra nuolatinėje būsenoje: jos neturi tos pačios kilmės ar "
+"tikslo įmonės."
+>>>>>>> upstream/18.0
 =======
 "Perkėlimo eilutės nėra nuolatinėje būsenoje: jos neturi tos pačios kilmės ar "
 "tikslo įmonės."
@@ -2593,8 +2684,13 @@ msgstr ""
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This operation might lead in a loss of data. Valuation will be identical for"
 " all lots/SN. Do you want to proceed ? "
+=======
+"This operation might lead in a loss of data. Valuation will be identical for "
+"all lots/SN. Do you want to proceed ? "
+>>>>>>> upstream/18.0
 =======
 "This operation might lead in a loss of data. Valuation will be identical for "
 "all lots/SN. Do you want to proceed ? "
@@ -2609,6 +2705,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/stock_account/models/product.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 "This product is valuated by lot/serial number. Changing the cost will update"
@@ -2750,12 +2847,17 @@ msgstr ""
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "This product is valuated by lot/serial number. Changing the cost will update "
 "the cost of every lot/serial number in stock."
 msgstr ""
 
 #. module: stock_account
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2812,6 +2914,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2940,8 +3045,13 @@ msgstr "Perkelti"
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Trigger a decrease of the delivered/received quantity in the associated Sale"
 " Order/Purchase Order"
+=======
+"Trigger a decrease of the delivered/received quantity in the associated Sale "
+"Order/Purchase Order"
+>>>>>>> upstream/18.0
 =======
 "Trigger a decrease of the delivered/received quantity in the associated Sale "
 "Order/Purchase Order"
@@ -3001,8 +3111,13 @@ msgstr ""
 "iš išorinės lokacijos į šią lokaciją, vertinimui, vietoje to, kad būtų "
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "naudojama standartinė išeinančių atsargų sąskaita. Tai neturi jokio poveikio"
 " vidinėms lokacijoms."
+=======
+"naudojama standartinė išeinančių atsargų sąskaita. Tai neturi jokio poveikio "
+"vidinėms lokacijoms."
+>>>>>>> upstream/18.0
 =======
 "naudojama standartinė išeinančių atsargų sąskaita. Tai neturi jokio poveikio "
 "vidinėms lokacijoms."
@@ -3026,8 +3141,13 @@ msgstr ""
 "iš šios lokacijos į vidinę lokaciją, vertinimui, vietoje to, kad būtų "
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "naudojama standartinė išeinančių atsargų sąskaita. Tai neturi jokio poveikio"
 " vidinėms lokacijoms."
+=======
+"naudojama standartinė išeinančių atsargų sąskaita. Tai neturi jokio poveikio "
+"vidinėms lokacijoms."
+>>>>>>> upstream/18.0
 =======
 "naudojama standartinė išeinančių atsargų sąskaita. Tai neturi jokio poveikio "
 "vidinėms lokacijoms."
@@ -3079,8 +3199,13 @@ msgstr ""
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Valuation method change for product category %(category)s: from "
 "%(old_method)s to %(new_method)s."
+=======
+"Valuation method change for product category %(category)s: from %"
+"(old_method)s to %(new_method)s."
+>>>>>>> upstream/18.0
 =======
 "Valuation method change for product category %(category)s: from %"
 "(old_method)s to %(new_method)s."
@@ -3119,7 +3244,12 @@ msgid ""
 "Value of the lot (automatically computed in AVCO).\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Used to value the product when the purchase cost is not known (e.g. inventory adjustment).\n"
+=======
+"        Used to value the product when the purchase cost is not known (e.g. "
+"inventory adjustment).\n"
+>>>>>>> upstream/18.0
 =======
 "        Used to value the product when the purchase cost is not known (e.g. "
 "inventory adjustment).\n"
@@ -3149,9 +3279,12 @@ msgstr ""
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "When doing automated inventory valuation, counterpart journal items for all outgoing stock moves will be posted in this account,\n"
 "                unless there is a specific valuation account set on the destination location. This is the default value for all products in this category.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "When doing automated inventory valuation, counterpart journal items for all "
@@ -3160,6 +3293,9 @@ msgid ""
 "destination location. This is the default value for all products in this "
 "category.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3263,6 +3399,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: code:addons/stock_account/models/stock_lot.py:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/stock_account/models/stock_lot.py:0
 >>>>>>> upstream/18.0
@@ -3572,8 +3712,13 @@ msgstr ""
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You don't have any input valuation account defined on your product category."
 " You must define one before processing this operation."
+=======
+"You don't have any input valuation account defined on your product category. "
+"You must define one before processing this operation."
+>>>>>>> upstream/18.0
 =======
 "You don't have any input valuation account defined on your product category. "
 "You must define one before processing this operation."
@@ -3598,8 +3743,13 @@ msgstr ""
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You don't have any stock input account defined on your product category. You"
 " must define one before processing this operation."
+=======
+"You don't have any stock input account defined on your product category. You "
+"must define one before processing this operation."
+>>>>>>> upstream/18.0
 =======
 "You don't have any stock input account defined on your product category. You "
 "must define one before processing this operation."
@@ -3628,8 +3778,13 @@ msgstr ""
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You don't have any stock valuation account defined on your product category."
 " You must define one before processing this operation."
+=======
+"You don't have any stock valuation account defined on your product category. "
+"You must define one before processing this operation."
+>>>>>>> upstream/18.0
 =======
 "You don't have any stock valuation account defined on your product category. "
 "You must define one before processing this operation."

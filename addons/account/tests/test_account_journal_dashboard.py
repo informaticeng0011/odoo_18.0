@@ -389,6 +389,7 @@ class TestAccountJournalDashboard(TestAccountJournalDashboardCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -431,6 +432,8 @@ class TestAccountJournalDashboard(TestAccountJournalDashboardCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -599,6 +602,9 @@ class TestAccountJournalDashboard(TestAccountJournalDashboardCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -747,6 +753,10 @@ class TestAccountJournalDashboard(TestAccountJournalDashboardCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.env.ref('base.CHF').write({'active': True})
+>>>>>>> upstream/18.0
 =======
         self.env.ref('base.CHF').write({'active': True})
 >>>>>>> upstream/18.0
@@ -947,6 +957,10 @@ class TestAccountJournalDashboard(TestAccountJournalDashboardCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'autocheck_on_post': False,
+>>>>>>> upstream/18.0
 =======
             'autocheck_on_post': False,
 >>>>>>> upstream/18.0
@@ -1100,6 +1114,7 @@ class TestAccountJournalDashboard(TestAccountJournalDashboardCommon):
                     'tax_ids': [],
                 })
             ]
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1302,6 +1317,8 @@ class TestAccountJournalDashboard(TestAccountJournalDashboardCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         } for currency in (self.env.ref('base.EUR'), self.env.ref('base.CHF'))]).action_post()
 
         dashboard_data = journal._get_journal_dashboard_data_batched()[journal.id]
@@ -1351,6 +1368,9 @@ class TestAccountJournalDashboard(TestAccountJournalDashboardCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -113,7 +113,11 @@ class WebsiteSale(main.WebsiteSale):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def pricelist(self, promo, **post):
+=======
+    def pricelist(self, promo, reward_id=None, **post):
+>>>>>>> upstream/18.0
 =======
     def pricelist(self, promo, reward_id=None, **post):
 >>>>>>> upstream/18.0
@@ -530,9 +534,12 @@ class WebsiteSale(main.WebsiteSale):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if request.env.context.get('product_id') or (len(rewards) == 1 and not rewards.multi_product):
                     reward_successfully_applied = self._apply_reward(order, rewards, coupon)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -737,6 +744,7 @@ class WebsiteSale(main.WebsiteSale):
                     reward = rewards
                 else:
                     reward = reward_id in rewards.ids and rewards.browse(reward_id)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1096,6 +1104,10 @@ class WebsiteSale(main.WebsiteSale):
                 if reward and (not reward.multi_product or request.env.context.get('product_id')):
                     reward_successfully_applied = self._apply_reward(order, reward, coupon)
 >>>>>>> upstream/18.0
+=======
+                if reward and (not reward.multi_product or request.env.context.get('product_id')):
+                    reward_successfully_applied = self._apply_reward(order, reward, coupon)
+>>>>>>> upstream/18.0
 
             if reward_successfully_applied:
                 request.session['successful_code'] = promo
@@ -1276,7 +1288,11 @@ class WebsiteSale(main.WebsiteSale):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     return self.pricelist(code)
+=======
+                    return self.pricelist(code, reward_id=reward_id)
+>>>>>>> upstream/18.0
 =======
                     return self.pricelist(code, reward_id=reward_id)
 >>>>>>> upstream/18.0
