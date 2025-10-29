@@ -118,9 +118,15 @@ error = None
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 for submod in ['._pypdf2_2', '._pypdf', '._pypdf2_1']:
     try:
         pypdf = importlib.import_module(submod, __spec__.name)
+=======
+for SUBMOD in ['._pypdf2_2', '._pypdf', '._pypdf2_1']:
+    try:
+        pypdf = importlib.import_module(SUBMOD, __spec__.name)
+>>>>>>> upstream/18.0
 =======
 for SUBMOD in ['._pypdf2_2', '._pypdf', '._pypdf2_1']:
     try:
@@ -552,6 +558,7 @@ DictionaryObject.get = _unwrapping_get
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -567,6 +574,8 @@ NameObject.renumber_table.update({
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -601,6 +610,9 @@ if hasattr(NameObject, 'renumber_table'):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -931,7 +943,10 @@ class OdooPdfFileWriter(PdfFileWriter):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1164,6 +1179,9 @@ class OdooPdfFileWriter(PdfFileWriter):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1382,6 +1400,7 @@ class OdooPdfFileWriter(PdfFileWriter):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         It should take the form of "/xxx#2Fxxx". E.g. for "text/xml": "/text#2Fxml"
         """
         adapted_subtype = subtype
@@ -1394,6 +1413,10 @@ class OdooPdfFileWriter(PdfFileWriter):
                 # The subtype still does not match the correct format, so we will not add it to the document
                 _logger.warning("Attempt to add an attachment with the incorrect subtype '%s'. The subtype will be ignored.", subtype)
                 adapted_subtype = ''
+=======
+        """
+        adapted_subtype = self.format_subtype(subtype)
+>>>>>>> upstream/18.0
 =======
         """
         adapted_subtype = self.format_subtype(subtype)
@@ -1812,7 +1835,11 @@ class OdooPdfFileWriter(PdfFileWriter):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if submod == '._pypdf2_1':
+=======
+                if SUBMOD == '._pypdf2_1':
+>>>>>>> upstream/18.0
 =======
                 if SUBMOD == '._pypdf2_1':
 >>>>>>> upstream/18.0
@@ -2124,9 +2151,12 @@ class OdooPdfFileWriter(PdfFileWriter):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self._header = b"%PDF-1.7\n"
         if submod == '._pypdf2_1':
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2341,6 +2371,9 @@ class OdooPdfFileWriter(PdfFileWriter):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

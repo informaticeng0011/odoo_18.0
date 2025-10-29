@@ -98,7 +98,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -246,6 +249,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2612,6 +2618,7 @@
 </template>
 
 <!-- Effect options -->
+<<<<<<< HEAD
 <record id="website.ripple_effect_scss" model="ir.asset">
     <field name="key">website.ripple_effect_scss</field>
     <field name="name">Ripple effect SCSS</field>
@@ -2627,6 +2634,19 @@
     <field name="path">/website/static/src/js/content/ripple_effect.js</field>
     <field name="active" eval="False"/>
 </record>
+=======
+<asset id="website.ripple_effect_scss" name="Ripple effect SCSS" active="False">
+    <field name="key">website.ripple_effect_scss</field>
+    <bundle>web.assets_frontend</bundle>
+    <path>/website/static/src/scss/options/ripple_effect.scss</path>
+</asset>
+
+<asset id="website.ripple_effect_js" name="Ripple effect JS" active="False">
+    <field name="key">website.ripple_effect_js</field>
+    <bundle>web.assets_frontend</bundle>
+    <path>/website/static/src/js/content/ripple_effect.js</path>
+</asset>
+>>>>>>> upstream/18.0
 
 <!-- Error and special pages -->
 <template id="website_info" name="Odoo Information">
@@ -3125,7 +3145,11 @@ Sitemap: <t t-esc="url_root"/>sitemap.xml
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <input name="order" type="hidden" class="o_search_order_by" t-att-value="order_by if order_by else 'name asc'"/>
+=======
+            <input name="order" type="hidden" class="o_search_order_by oe_unremovable" t-att-value="order_by if order_by else 'name asc'"/>
+>>>>>>> upstream/18.0
 =======
             <input name="order" type="hidden" class="o_search_order_by oe_unremovable" t-att-value="order_by if order_by else 'name asc'"/>
 >>>>>>> upstream/18.0

@@ -14,6 +14,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* account_debit_note
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -160,6 +161,9 @@
 =======
 # * account_debit_note
 >>>>>>> upstream/18.0
+=======
+# * account_debit_note
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
@@ -211,6 +215,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -275,6 +280,9 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# "Manon Rondou (ronm)" <ronm@odoo.com>, 2025.
 >>>>>>> upstream/18.0
 =======
 # "Manon Rondou (ronm)" <ronm@odoo.com>, 2025.
@@ -322,6 +330,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -474,6 +483,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-09-05 18:39+0000\n"
 "PO-Revision-Date: 2025-10-14 22:21+0000\n"
 "Last-Translator: \"Manon Rondou (ronm)\" <ronm@odoo.com>\n"
@@ -492,6 +503,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -523,6 +537,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -706,6 +721,11 @@ msgstr ""
 "1000000 == 0) ? 1 : 2);\n"
 "X-Generator: Weblate 5.12.2\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % "
+"1000000 == 0) ? 1 : 2);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: account_debit_note
 #: model_terms:ir.ui.view,arch_db:account_debit_note.view_move_form_debit
@@ -772,8 +792,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Check this box if you don't want to share the same sequence for invoices and"
 " debit notes made from this journal"
+=======
+"Check this box if you don't want to share the same sequence for invoices and "
+"debit notes made from this journal"
+>>>>>>> upstream/18.0
 =======
 "Check this box if you don't want to share the same sequence for invoices and "
 "debit notes made from this journal"
@@ -1047,7 +1072,11 @@ msgid "If empty, uses the journal of the journal entry to be debited."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Si vide, utilise le journal de la pièce comptable pour être débité."
+=======
+msgstr "Si vide, utilise le journal de l’écriture comptable à débiter."
+>>>>>>> upstream/18.0
 =======
 msgstr "Si vide, utilise le journal de l’écriture comptable à débiter."
 >>>>>>> upstream/18.0
@@ -1123,7 +1152,11 @@ msgid "Journal Entry"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Pièce comptable"
+=======
+msgstr "Écriture comptable"
+>>>>>>> upstream/18.0
 =======
 msgstr "Écriture comptable"
 >>>>>>> upstream/18.0
@@ -1273,7 +1306,11 @@ msgstr "Notes de débit créées pour cette facture"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/account_debit_note/wizard/account_debit_note.py:0
+=======
+#: code:addons/account_debit_note/models/account_move.py:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/account_debit_note/models/account_move.py:0
 >>>>>>> upstream/18.0
@@ -1477,8 +1514,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Vous pouvez uniquement établir une note de débit pour une facture client, un"
 " avoir client, une facture fournisseur ou un avoir fournisseur."
+=======
+"Vous pouvez uniquement établir une note de débit pour une facture client, un "
+"avoir client, une facture fournisseur ou un avoir fournisseur."
+>>>>>>> upstream/18.0
 =======
 "Vous pouvez uniquement établir une note de débit pour une facture client, un "
 "avoir client, une facture fournisseur ou un avoir fournisseur."
@@ -1725,8 +1767,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You can't make a debit note for an invoice that is already linked to a debit"
 " note."
+=======
+"You can't make a debit note for an invoice that is already linked to a debit "
+"note."
+>>>>>>> upstream/18.0
 =======
 "You can't make a debit note for an invoice that is already linked to a debit "
 "note."

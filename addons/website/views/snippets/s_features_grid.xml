@@ -74,6 +74,7 @@
     </section>
 </template>
 
+<<<<<<< HEAD
 <record id="website.s_features_grid_000_scss" model="ir.asset">
     <field name="name">Features grid 000 SCSS</field>
     <field name="bundle">web.assets_frontend</field>
@@ -85,5 +86,15 @@
     <field name="bundle">web.assets_frontend</field>
     <field name="path">website/static/src/snippets/s_features_grid/001.scss</field>
 </record>
+=======
+<asset id="website.s_features_grid_000_scss" name="Features grid 000 SCSS" active="False">
+    <bundle>web.assets_frontend</bundle>
+    <path>website/static/src/snippets/s_features_grid/000.scss</path>
+</asset>
+<asset id="website.s_features_grid_001_scss" name="Features grid 001 SCSS">
+    <bundle>web.assets_frontend</bundle>
+    <path>website/static/src/snippets/s_features_grid/001.scss</path>
+</asset>
+>>>>>>> upstream/18.0
 
 </odoo>

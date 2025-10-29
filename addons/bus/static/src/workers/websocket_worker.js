@@ -55,6 +55,10 @@ export class WebsocketWorker {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    CONNECTION_CHECK_DELAY = 60_000;
+>>>>>>> upstream/18.0
 =======
     CONNECTION_CHECK_DELAY = 60_000;
 >>>>>>> upstream/18.0
@@ -263,6 +267,7 @@ export class WebsocketWorker {
         if (this.newestStartTs && this.newestStartTs > startTs) {
             this.debugModeByClient.set(client, debug);
             this.isDebug = [...this.debugModeByClient.values()].some(Boolean);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -772,6 +777,9 @@ export class WebsocketWorker {
 =======
             this.sendToClient(client, "worker_state_updated", this.state);
 >>>>>>> upstream/18.0
+=======
+            this.sendToClient(client, "worker_state_updated", this.state);
+>>>>>>> upstream/18.0
             this.sendToClient(client, "initialized");
             return;
         }
@@ -788,10 +796,13 @@ export class WebsocketWorker {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if ((this.currentUID !== uid && isCurrentUserKnown) || this.currentDB !== db) {
             this.currentUID = uid;
             this.currentDB = db;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -802,6 +813,9 @@ export class WebsocketWorker {
             this.currentDB = db || this.currentDB;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -812,6 +826,7 @@ export class WebsocketWorker {
             }
             this.channelsByClient.forEach((_, key) => this.channelsByClient.set(key, []));
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1321,6 +1336,9 @@ export class WebsocketWorker {
 =======
         this.sendToClient(client, "worker_state_updated", this.state);
 >>>>>>> upstream/18.0
+=======
+        this.sendToClient(client, "worker_state_updated", this.state);
+>>>>>>> upstream/18.0
         this.sendToClient(client, "initialized");
         if (!this.active) {
             this.sendToClient(client, "outdated");
@@ -1374,6 +1392,10 @@ export class WebsocketWorker {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        clearInterval(this._connectionCheckInterval);
+>>>>>>> upstream/18.0
 =======
         clearInterval(this._connectionCheckInterval);
 >>>>>>> upstream/18.0
@@ -1441,6 +1463,10 @@ export class WebsocketWorker {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this._restartConnectionCheckInterval();
+>>>>>>> upstream/18.0
 =======
         this._restartConnectionCheckInterval();
 >>>>>>> upstream/18.0
@@ -1600,6 +1626,7 @@ export class WebsocketWorker {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             if (!this.websocket) {
                 return;
@@ -2124,6 +2151,8 @@ export class WebsocketWorker {
             this.messageWaitQueue = [];
         });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2162,6 +2191,9 @@ export class WebsocketWorker {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2215,6 +2247,10 @@ export class WebsocketWorker {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            this._restartConnectionCheckInterval();
+>>>>>>> upstream/18.0
 =======
             this._restartConnectionCheckInterval();
 >>>>>>> upstream/18.0
@@ -2381,9 +2417,12 @@ export class WebsocketWorker {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.websocket?.close();
         this._removeWebsocketListeners();
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2716,6 +2755,9 @@ export class WebsocketWorker {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

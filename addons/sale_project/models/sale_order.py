@@ -151,7 +151,11 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             order.project_count = len(projects)
+=======
+            order.project_count = len(projects.filtered('active'))
+>>>>>>> upstream/18.0
 =======
             order.project_count = len(projects.filtered('active'))
 >>>>>>> upstream/18.0
@@ -276,7 +280,13 @@ class SaleOrder(models.Model):
             action['context'] = {}
         else:
             # Load top bar if all the tasks linked to the SO belong to the same project
+<<<<<<< HEAD
             action = self.env['ir.actions.actions'].with_context({'active_id': project_ids.id})._for_xml_id('project.act_project_project_2_project_task_all')
+=======
+            action = self.env['ir.actions.actions'].with_context(
+                active_id=project_ids.id,
+            )._for_xml_id('project.act_project_project_2_project_task_all')
+>>>>>>> upstream/18.0
             action['context'] = {
                 'active_id': project_ids.id,
                 'search_default_sale_order_id': self.id,
@@ -384,7 +394,11 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'domain': ['|', ('sale_order_id', '=', self.id), ('id', 'in', self.with_context(active_test=False).project_ids.ids), ('active', 'in', [True, False])],
+=======
+            'domain': ['|', ('sale_order_id', '=', self.id), ('id', 'in', self.project_ids.ids)],
+>>>>>>> upstream/18.0
 =======
             'domain': ['|', ('sale_order_id', '=', self.id), ('id', 'in', self.project_ids.ids)],
 >>>>>>> upstream/18.0
@@ -523,7 +537,11 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if len(self.with_context(active_test=False).project_ids) == 1:
+=======
+        if len(self.project_ids) == 1:
+>>>>>>> upstream/18.0
 =======
         if len(self.project_ids) == 1:
 >>>>>>> upstream/18.0

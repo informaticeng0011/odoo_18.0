@@ -21,6 +21,10 @@ from . import test_i18n
 from . import test_image
 from . import test_avatar_mixin
 from . import test_ir_actions
+<<<<<<< HEAD
+=======
+from . import test_ir_asset
+>>>>>>> upstream/18.0
 from . import test_ir_attachment
 from . import test_ir_cron
 from . import test_ir_filters

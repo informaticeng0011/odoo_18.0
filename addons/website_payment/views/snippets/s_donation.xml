@@ -116,6 +116,7 @@
     </xpath>
 </template>
 
+<<<<<<< HEAD
 <record id="website_payment.s_donation_000_js" model="ir.asset">
     <field name="name">Donation 000 JS</field>
     <field name="bundle">web.assets_frontend</field>
@@ -127,5 +128,16 @@
     <field name="bundle">web.assets_frontend</field>
     <field name="path">website_payment/static/src/snippets/s_donation/000.scss</field>
 </record>
+=======
+<asset id="website_payment.s_donation_000_js" name="Donation 000 JS">
+    <bundle>web.assets_frontend</bundle>
+    <path>website_payment/static/src/snippets/s_donation/000.js</path>
+</asset>
+
+<asset id="website_payment.s_donation_000_scss" name="Donation 000 SCSS">
+    <bundle>web.assets_frontend</bundle>
+    <path>website_payment/static/src/snippets/s_donation/000.scss</path>
+</asset>
+>>>>>>> upstream/18.0
 
 </odoo>

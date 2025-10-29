@@ -47,6 +47,10 @@ from odoo import models, _
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.tools import float_is_zero
+>>>>>>> upstream/18.0
 =======
 from odoo.tools import float_is_zero
 >>>>>>> upstream/18.0
@@ -235,6 +239,10 @@ class AccountEdiXmlUBLPINTANZ(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        vals.setdefault('party_tax_scheme_vals', [])
+>>>>>>> upstream/18.0
 =======
         vals.setdefault('party_tax_scheme_vals', [])
 >>>>>>> upstream/18.0
@@ -400,7 +408,10 @@ class AccountEdiXmlUBLPINTANZ(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -551,6 +562,9 @@ class AccountEdiXmlUBLPINTANZ(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -716,7 +730,10 @@ class AccountEdiXmlUBLPINTANZ(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -888,6 +905,9 @@ class AccountEdiXmlUBLPINTANZ(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

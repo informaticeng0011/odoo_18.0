@@ -138,7 +138,10 @@ registerWebsitePreviewTour("text_animations", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -446,6 +449,9 @@ registerWebsitePreviewTour("text_animations", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -750,8 +756,13 @@ registerWebsitePreviewTour("text_animations", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         content: "Check that the animation was applied",
         trigger: ":iframe .s_cover:has(span.o_animated_text)",
+=======
+        content: "Check that the animation was applied and that the <font> element is inside the o_animated_text element",
+        trigger: ":iframe .s_cover:has(span.o_animated_text > font.bg-black)",
+>>>>>>> upstream/18.0
 =======
         content: "Check that the animation was applied and that the <font> element is inside the o_animated_text element",
         trigger: ":iframe .s_cover:has(span.o_animated_text > font.bg-black)",

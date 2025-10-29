@@ -987,7 +987,10 @@ class TestWarehouse(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1260,6 +1263,7 @@ class TestWarehouse(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1436,6 +1440,8 @@ class TestWarehouse(TestStockCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_modified_global_route(self):
         """ Ensure that _find_or_create_global_route, if called multiple time, only creates the route once
@@ -1459,4 +1465,7 @@ class TestWarehouse(TestStockCommon):
         new_mto_route = route_sudo.search([("name", "=", "Replenish on Order (MTO)")])
         self.assertEqual(len(new_mto_route), 1)
         self.assertEqual(new_mto_route.company_id.id, company_2.id)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

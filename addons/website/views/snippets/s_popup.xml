@@ -76,6 +76,7 @@
     </xpath>
 </template>
 
+<<<<<<< HEAD
 <record id="website.s_popup_000_scss" model="ir.asset">
     <field name="name">Popup 000 SCSS</field>
     <field name="bundle">web.assets_frontend</field>
@@ -94,5 +95,21 @@
     <field name="bundle">web.assets_frontend</field>
     <field name="path">website/static/src/snippets/s_popup/001.scss</field>
 </record>
+=======
+<asset id="website.s_popup_000_scss" name="Popup 000 SCSS" active="False">
+    <bundle>web.assets_frontend</bundle>
+    <path>website/static/src/snippets/s_popup/000.scss</path>
+</asset>
+
+<asset id="website.s_popup_000_js" name="Popup 000 JS">
+    <bundle>web.assets_frontend</bundle>
+    <path>website/static/src/snippets/s_popup/000.js</path>
+</asset>
+
+<asset id="website.s_popup_001_scss" name="Popup 001 SCSS">
+    <bundle>web.assets_frontend</bundle>
+    <path>website/static/src/snippets/s_popup/001.scss</path>
+</asset>
+>>>>>>> upstream/18.0
 
 </odoo>

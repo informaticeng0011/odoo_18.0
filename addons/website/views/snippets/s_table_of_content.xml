@@ -92,6 +92,7 @@
     </xpath>
 </template>
 
+<<<<<<< HEAD
 <record id="website.s_table_of_content_000_scss" model="ir.asset">
     <field name="name">Table of content 000 SCSS</field>
     <field name="bundle">web.assets_frontend</field>
@@ -103,5 +104,16 @@
     <field name="bundle">web.assets_frontend</field>
     <field name="path">website/static/src/snippets/s_table_of_content/000.js</field>
 </record>
+=======
+<asset id="website.s_table_of_content_000_scss" name="Table of content 000 SCSS">
+    <bundle>web.assets_frontend</bundle>
+    <path>website/static/src/snippets/s_table_of_content/000.scss</path>
+</asset>
+
+<asset id="website.s_table_of_content_000_js" name="Table of content 000 JS">
+    <bundle>web.assets_frontend</bundle>
+    <path>website/static/src/snippets/s_table_of_content/000.js</path>
+</asset>
+>>>>>>> upstream/18.0
 
 </odoo>

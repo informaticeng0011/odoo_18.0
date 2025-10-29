@@ -164,6 +164,10 @@ test("pager buttons", async () => {
     // need to await 2 macro steps
     await macroIsComplete();
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    await animationFrame();
+>>>>>>> upstream/18.0
 =======
     await animationFrame();
 >>>>>>> upstream/18.0
@@ -189,6 +193,10 @@ test("pager buttons", async () => {
     // need to await 2 macro steps
     await macroIsComplete();
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    await animationFrame();
+>>>>>>> upstream/18.0
 =======
     await animationFrame();
 >>>>>>> upstream/18.0

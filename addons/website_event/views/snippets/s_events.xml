@@ -112,6 +112,7 @@
 
 <!--ASSETS-->
 
+<<<<<<< HEAD
 <record id="website_event.s_events_000_scss" model="ir.asset">
     <field name="name">Event 000 SCSS</field>
     <field name="bundle">web.assets_frontend</field>
@@ -123,5 +124,16 @@
     <field name="bundle">web.assets_frontend</field>
     <field name="path">website_event/static/src/snippets/s_events/000.js</field>
 </record>
+=======
+<asset id="website_event.s_events_000_scss" name="Event 000 SCSS">
+    <bundle>web.assets_frontend</bundle>
+    <path>website_event/static/src/snippets/s_events/000.scss</path>
+</asset>
+
+<asset id="website_event.s_events_000_js" name="Event 000 JS">
+    <bundle>web.assets_frontend</bundle>
+    <path>website_event/static/src/snippets/s_events/000.js</path>
+</asset>
+>>>>>>> upstream/18.0
 
 </odoo>

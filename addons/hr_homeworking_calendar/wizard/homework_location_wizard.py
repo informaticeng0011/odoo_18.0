@@ -68,7 +68,11 @@ class HomeworkLocationWizard(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             record.day_week_string = record.date.strftime("%A")
+=======
+            record.day_week_string = record.date.strftime("%A") if record.date else ''
+>>>>>>> upstream/18.0
 =======
             record.day_week_string = record.date.strftime("%A") if record.date else ''
 >>>>>>> upstream/18.0
@@ -264,6 +268,11 @@ class HomeworkLocationWizard(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if not self.date:
+            return
+>>>>>>> upstream/18.0
 =======
         if not self.date:
             return

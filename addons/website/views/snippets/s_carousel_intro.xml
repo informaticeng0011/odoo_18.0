@@ -140,10 +140,17 @@
     </xpath>
 </template>
 
+<<<<<<< HEAD
 <record id="website.s_carousel_intro_000_scss" model="ir.asset">
     <field name="name">Carousel Intro 000 SCSS</field>
     <field name="bundle">web.assets_frontend</field>
     <field name="path">website/static/src/snippets/s_carousel_intro/000.scss</field>
 </record>
+=======
+<asset id="website.s_carousel_intro_000_scss" name="Carousel Intro 000 SCSS">
+    <bundle>web.assets_frontend</bundle>
+    <path>website/static/src/snippets/s_carousel_intro/000.scss</path>
+</asset>
+>>>>>>> upstream/18.0
 
 </odoo>
