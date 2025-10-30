@@ -51,6 +51,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Sergio Zanchetta <primes2h@gmail.com>, 2024
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -554,11 +555,17 @@
 # Marianna Ciofani, 2025
 # Sergio Zanchetta <primes2h@gmail.com>, 2025
 >>>>>>> upstream/18.0
+=======
+# Wil Odoo, 2025
+# Marianna Ciofani, 2025
+# Sergio Zanchetta <primes2h@gmail.com>, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1186,6 +1193,11 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Sergio Zanchetta <primes2h@gmail.com>, 2025\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-05-23 18:40+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Sergio Zanchetta <primes2h@gmail.com>, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Italian (https://app.transifex.com/odoo/teams/41243/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1432,6 +1444,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<t t-set=\"user_name\" t-value=\"object.user_id.name or object.partner_id.name or ''\"/>\n"
+"            <t t-set=\"company_name\" t-value=\"object.user_id.company_id.name or object.partner_id.company_id.name or ''\"/>\n"
+"            <t t-set=\"signup_url\" t-value=\"object.user_id.partner_id and object.user_id.partner_id._get_signup_url() or object.partner_id and object.partner_id._get_signup_url()\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "<t t-set=\"user_name\" t-value=\"object.user_id.name or object.partner_id.name or ''\"/>\n"
 "            <t t-set=\"company_name\" t-value=\"object.user_id.company_id.name or object.partner_id.company_id.name or ''\"/>\n"
@@ -2029,6 +2047,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <span style=\"font-size: 20px; font-weight: bold;\" t-out=\"object.user_id.name or ''\">Marc Demo</span>\n"
 =======
 "                    <span style=\"font-size: 20px; font-weight: bold;\" t-out=\"object.user_id.name or object.partner_id.name or ''\">Marc Demo</span>\n"
@@ -2047,6 +2066,9 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 "                    <span style=\"font-size: 20px; font-weight: bold;\" t-out=\"object.user_id.name or object.partner_id.name or ''\">Marc Demo</span>\n"
+>>>>>>> upstream/18.0
+=======
+"                    <span style=\"font-size: 20px; font-weight: bold;\" t-out=\"user_name\">Marc Demo</span>\n"
 >>>>>>> upstream/18.0
 =======
 "                    <span style=\"font-size: 20px; font-weight: bold;\" t-out=\"user_name\">Marc Demo</span>\n"
@@ -2457,6 +2479,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        Dear <t t-out=\"object.user_id.name or ''\">Marc Demo</t>,<br/> <br/>\n"
 "                        Welcome to <t t-out=\"object.user_id.company_id.name\">YourCompany</t>'s Portal!<br/><br/>\n"
 "                        An account has been created for you with the following login: <t t-out=\"object.user_id.login\">demo</t><br/><br/>\n"
@@ -2497,6 +2520,8 @@ msgid ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2791,6 +2816,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3098,7 +3126,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <t t-out=\"object.user_id.company_id.name or ''\">YourCompany</t>\n"
+=======
+"                    <t t-out=\"company_name\">YourCompany</t>\n"
+>>>>>>> upstream/18.0
 =======
 "                    <t t-out=\"company_name\">YourCompany</t>\n"
 >>>>>>> upstream/18.0
@@ -3520,11 +3552,17 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+"<t t-set=\"user_name\" t-value=\"object.user_id.name or object.partner_id.name or ''\"/>\n"
+"            <t t-set=\"company_name\" t-value=\"object.user_id.company_id.name or object.partner_id.company_id.name or ''\"/>\n"
+"            <t t-set=\"signup_url\" t-value=\"object.user_id.partner_id and object.user_id.partner_id._get_signup_url() or object.partner_id and object.partner_id._get_signup_url()\"/>\n"
 >>>>>>> upstream/18.0
 =======
 "<t t-set=\"user_name\" t-value=\"object.user_id.name or object.partner_id.name or ''\"/>\n"
@@ -4102,6 +4140,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <span style=\"font-size: 20px; font-weight: bold;\" t-out=\"object.user_id.name or ''\">Marc Demo</span>\n"
 =======
 "                    <span style=\"font-size: 20px; font-weight: bold;\" t-out=\"object.user_id.name or object.partner_id.name or ''\">Marc Demo</span>\n"
@@ -4111,6 +4150,9 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 "                    <span style=\"font-size: 20px; font-weight: bold;\" t-out=\"object.user_id.name or object.partner_id.name or ''\">Marc Demo</span>\n"
+>>>>>>> upstream/18.0
+=======
+"                    <span style=\"font-size: 20px; font-weight: bold;\" t-out=\"user_name\">Marc Demo</span>\n"
 >>>>>>> upstream/18.0
 =======
 "                    <span style=\"font-size: 20px; font-weight: bold;\" t-out=\"user_name\">Marc Demo</span>\n"
@@ -4506,6 +4548,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        Gentile <t t-out=\"object.user_id.name or ''\">Marc Demo</t>,<br/> <br/>\n"
 "                        benvenuto nel portale dell'azienda <t t-out=\"object.user_id.company_id.name\">YourCompany</t>!<br/><br/>\n"
 "                        È stato creato un account per te, con le seguenti credenziali: <t t-out=\"object.user_id.login\">demo</t><br/><br/>\n"
@@ -4528,6 +4571,8 @@ msgstr ""
 "                        <div style=\"margin: 16px 0px 16px 0px; text-align: center;\">\n"
 "                            <a t-att-href=\"object.user_id.partner_id._get_signup_url() or object.partner_id._get_signup_url()\" style=\"display: inline-block; padding: 10px; text-decoration: none; font-size: 12px; background-color: #875A7B; color: #fff; border-radius: 5px;\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4813,6 +4858,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5100,6 +5148,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5400,7 +5451,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <t t-out=\"object.user_id.company_id.name or ''\">YourCompany</t>\n"
+=======
+"                    <t t-out=\"company_name\">YourCompany</t>\n"
+>>>>>>> upstream/18.0
 =======
 "                    <t t-out=\"company_name\">YourCompany</t>\n"
 >>>>>>> upstream/18.0
@@ -5806,6 +5861,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6099,7 +6157,11 @@ msgid "Add attachment"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Aggiunge allegato"
+=======
+msgstr "Aggiungi allegato"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aggiungi allegato"
 >>>>>>> upstream/18.0
@@ -6301,7 +6363,11 @@ msgid "Add extra content to display in the email"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Aggiungi contenuti extra da visualizzare nell'e-mail"
+=======
+msgstr "Aggiunge contenuti supplementari da visualizzare nella e-mail"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aggiunge contenuti supplementari da visualizzare nella e-mail"
 >>>>>>> upstream/18.0
@@ -6508,7 +6574,11 @@ msgid "Are you sure you want to do this?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Sei sicuro di volerlo fare?"
+=======
+msgstr "Procedere veramente?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Procedere veramente?"
 >>>>>>> upstream/18.0
@@ -6727,8 +6797,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Impossibile modificare la partita IVA dopo l'emissione dei documenti per il "
 "conto. Per questa operazione contattarci direttamente."
+=======
+"Non è consentito cambiare la partita IVA dopo l'emissione dei documenti per "
+"il conto. Per questa operazione contattarci direttamente."
+>>>>>>> upstream/18.0
 =======
 "Non è consentito cambiare la partita IVA dopo l'emissione dei documenti per "
 "il conto. Per questa operazione contattarci direttamente."
@@ -6976,8 +7051,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Impossibile modificare il nome dell'azienda dopo l'emissione dei documenti "
 "per il conto. Per questa operazione contattarci direttamente."
+=======
+"Non è consentito cambiare il nome dell'azienda dopo l'emissione dei "
+"documenti per il conto. Per questa operazione contattarci direttamente."
+>>>>>>> upstream/18.0
 =======
 "Non è consentito cambiare il nome dell'azienda dopo l'emissione dei "
 "documenti per il conto. Per questa operazione contattarci direttamente."
@@ -7232,7 +7312,11 @@ msgid "Check failed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Controllo fallito"
+=======
+msgstr "Controllo non superato"
+>>>>>>> upstream/18.0
 =======
 msgstr "Controllo non superato"
 >>>>>>> upstream/18.0
@@ -7435,7 +7519,11 @@ msgid "Click here to see your document."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Clicca qui per vedere il tuo documento."
+=======
+msgstr "Fai clic per vedere il documento."
+>>>>>>> upstream/18.0
 =======
 msgstr "Fai clic per vedere il documento."
 >>>>>>> upstream/18.0
@@ -7683,7 +7771,11 @@ msgid "Contact Details"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Dettagli Contatto"
+=======
+msgstr "Dettagli contatto"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dettagli contatto"
 >>>>>>> upstream/18.0
@@ -7910,7 +8002,11 @@ msgid "Customer API Keys"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Chiavi API Clienti"
+=======
+msgstr "Chiavi API cliente"
+>>>>>>> upstream/18.0
 =======
 msgstr "Chiavi API cliente"
 >>>>>>> upstream/18.0
@@ -8117,7 +8213,11 @@ msgid "Dear"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Spett.le"
+=======
+msgstr "Gentile"
+>>>>>>> upstream/18.0
 =======
 msgstr "Gentile"
 >>>>>>> upstream/18.0
@@ -8396,7 +8496,11 @@ msgid "Enter a description of and purpose for the key."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Inserisci una descrizione e lo scopo della chiave."
+=======
+msgstr "Inserire una descrizione e lo scopo della chiave."
+>>>>>>> upstream/18.0
 =======
 msgstr "Inserire una descrizione e lo scopo della chiave."
 >>>>>>> upstream/18.0
@@ -8640,8 +8744,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Ecco la tua nuova chiave API, utilizzala al posto di una password per l'accesso RPC.\n"
 "                Il login è ancora necessario per l'utilizzo interattivo."
+=======
+"Questa è la nuova chiave API, utilizzarla al posto della password per l'accesso RPC.\n"
+"                Per l'utilizzo interattivo è ancora necessario l'accesso con nome utente."
+>>>>>>> upstream/18.0
 =======
 "Questa è la nuova chiave API, utilizzarla al posto della password per l'accesso RPC.\n"
 "                Per l'utilizzo interattivo è ancora necessario l'accesso con nome utente."
@@ -8886,7 +8995,11 @@ msgid "Home"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Home"
+=======
+msgstr "Pagina iniziale"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pagina iniziale"
 >>>>>>> upstream/18.0
@@ -9112,7 +9225,11 @@ msgid "Invalid Email! Please enter a valid email address."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "L'e-mail non è valida, inserire un indirizzo corretto."
+=======
+msgstr "E-mail non valida, inserire un indirizzo corretto."
+>>>>>>> upstream/18.0
 =======
 msgstr "E-mail non valida, inserire un indirizzo corretto."
 >>>>>>> upstream/18.0
@@ -9297,6 +9414,7 @@ msgid ""
 "It is very important that this description be clear\n"
 "                and complete,"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9624,6 +9742,8 @@ msgstr "Descrizione chiave"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "È molto importante che la descrizione sia chiara\n"
 "                e completa,"
 
@@ -9675,6 +9795,9 @@ msgstr "Descrizione chiave"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9887,7 +10010,11 @@ msgid "Name your key"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Dai un nome alla tua chiave"
+=======
+msgstr "Nome della chiave"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nome della chiave"
 >>>>>>> upstream/18.0
@@ -10097,7 +10224,11 @@ msgid "Next"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Succ"
+=======
+msgstr "Successivo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Successivo"
 >>>>>>> upstream/18.0
@@ -10313,8 +10444,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Ops! Qualcosa è andato storto. Ricaricare la pagina e provare nuovamente ad "
 "accedere."
+=======
+"Ops! Qualcosa è andato storto. Ricaricare la pagina e riprovare ad accedere."
+>>>>>>> upstream/18.0
 =======
 "Ops! Qualcosa è andato storto. Ricaricare la pagina e riprovare ad accedere."
 >>>>>>> upstream/18.0
@@ -10546,7 +10681,11 @@ msgid "Portal Access Management"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Gestione degli accessi al portale"
+=======
+msgstr "Gestione accessi al portale"
+>>>>>>> upstream/18.0
 =======
 msgstr "Gestione accessi al portale"
 >>>>>>> upstream/18.0
@@ -10758,7 +10897,11 @@ msgid "Portal User Config"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Configurazione Utente Portale"
+=======
+msgstr "Configurazione utente portale"
+>>>>>>> upstream/18.0
 =======
 msgstr "Configurazione utente portale"
 >>>>>>> upstream/18.0
@@ -10995,7 +11138,11 @@ msgid "Related Document"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Documento collegato"
+=======
+msgstr "Documento correlato"
+>>>>>>> upstream/18.0
 =======
 msgstr "Documento correlato"
 >>>>>>> upstream/18.0
@@ -11192,7 +11339,11 @@ msgid "Related Document ID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "ID documento collegato"
+=======
+msgstr "ID documento correlato"
+>>>>>>> upstream/18.0
 =======
 msgstr "ID documento correlato"
 >>>>>>> upstream/18.0
@@ -11389,7 +11540,11 @@ msgid "Related Document Model"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Modello documento collegato"
+=======
+msgstr "Modello documento correlato"
+>>>>>>> upstream/18.0
 =======
 msgstr "Modello documento correlato"
 >>>>>>> upstream/18.0
@@ -11674,7 +11829,10 @@ msgstr "Sicurezza"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/portal/static/src/xml/portal_security.xml:0
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11950,9 +12108,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Seleziona quali contatti dovrebbero poter accedere al portale dalla lista sottostante.\n"
 "                        L'indirizo email di ogni contatto selezionato deve essere univoco e valido.\n"
 "                        Se necessario, puoi modificare l'indirizzo email di un contatto direttamente all'interno della lista."
+=======
+"Selezionare dall'elenco sottostante quali contatti aggiungere al portale.\n"
+"                        L'indirizzo e-mail di ciascun contatto selezionato deve essere valido e univoco.\n"
+"                        Se necessario, correggere l'indirizzo e-mail direttamente dall'elenco."
+>>>>>>> upstream/18.0
 =======
 "Selezionare dall'elenco sottostante quali contatti aggiungere al portale.\n"
 "                        L'indirizzo e-mail di ciascun contatto selezionato deve essere valido e univoco.\n"
@@ -12263,7 +12427,11 @@ msgid "Show As Optional Inherit"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Mostra come eredità opzionale"
+=======
+msgstr "Mostra come ereditata opzionale"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mostra come ereditata opzionale"
 >>>>>>> upstream/18.0
@@ -12535,7 +12703,11 @@ msgid "The contact \"%s\" does not have a valid email."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Il contatto \"%s\" non ha un indirizzo e-mail valido."
+=======
+msgstr "Il contatto \"%s\" non ha una e-mail valida."
+>>>>>>> upstream/18.0
 =======
 msgstr "Il contatto \"%s\" non ha una e-mail valida."
 >>>>>>> upstream/18.0
@@ -12792,7 +12964,11 @@ msgid "This is a preview of the customer portal."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Questa è una anteprima del portale clienti."
+=======
+msgstr "Anteprima del portale clienti."
+>>>>>>> upstream/18.0
 =======
 msgstr "Anteprima del portale clienti."
 >>>>>>> upstream/18.0
@@ -13006,7 +13182,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Questo testo è contenuto nell'e-mail inviata ai nuovi utenti del portale."
+=======
+"Questo testo viene incluso nella e-mail inviata ai nuovi utenti del portale."
+>>>>>>> upstream/18.0
 =======
 "Questo testo viene incluso nella e-mail inviata ai nuovi utenti del portale."
 >>>>>>> upstream/18.0
@@ -13335,7 +13515,11 @@ msgid "Write down your key"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Annota la tua chiave"
+=======
+msgstr "Annotare la chiave"
+>>>>>>> upstream/18.0
 =======
 msgstr "Annotare la chiave"
 >>>>>>> upstream/18.0
@@ -13511,6 +13695,7 @@ msgstr "Devi prima concedere l'accesso al portale al partner \"%s\"."
 
 #. module: portal
 #: model:mail.template,subject:portal.mail_template_data_portal_welcome
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13803,6 +13988,8 @@ msgstr "Il tuo account con {{ object.user_id.company_id.name }}"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "Your account at {{ object.user_id.company_id.name or "
 "object.partner_id.company_id.name }}"
@@ -13903,10 +14090,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+"Il tuo account presso {{ object.user_id.company_id.name or "
+"object.partner_id.company_id.name }}"
 >>>>>>> upstream/18.0
 =======
 "Il tuo account presso {{ object.user_id.company_id.name or "
@@ -14384,7 +14576,11 @@ msgid "to post a comment."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "per inviare un commento."
+=======
+msgstr "per pubblicare un commento."
+>>>>>>> upstream/18.0
 =======
 msgstr "per pubblicare un commento."
 >>>>>>> upstream/18.0

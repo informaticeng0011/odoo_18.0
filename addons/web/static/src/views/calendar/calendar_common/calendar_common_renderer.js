@@ -61,6 +61,10 @@ export class CalendarCommonRenderer extends Component {
         this.fc = useFullCalendar("fullCalendar", this.options);
         this.click = useClickHandler(this.onClick, this.onDblClick);
         this.popover = useCalendarPopover(this.constructor.components.Popover);
+<<<<<<< HEAD
+=======
+        this.timeFormat = is24HourFormat() ? "HH:mm" : "hh:mm a";
+>>>>>>> upstream/18.0
         useBus(this.props.model.bus, "SCROLL_TO_CURRENT_HOUR", () =>
             this.fc.api.scrollToTime(`${luxon.DateTime.local().hour - 2}:00:00`)
         );
@@ -139,6 +143,7 @@ export class CalendarCommonRenderer extends Component {
     }
 
     getStartTime(record) {
+<<<<<<< HEAD
         const timeFormat = is24HourFormat() ? "HH:mm" : "hh:mm a";
         return record.start.toFormat(timeFormat);
     }
@@ -146,6 +151,13 @@ export class CalendarCommonRenderer extends Component {
     getEndTime(record) {
         const timeFormat = is24HourFormat() ? "HH:mm" : "hh:mm a";
         return record.end.toFormat(timeFormat);
+=======
+        return record.start.toFormat(this.timeFormat);
+    }
+
+    getEndTime(record) {
+        return record.end.toFormat(this.timeFormat);
+>>>>>>> upstream/18.0
     }
 
     computeEventSelector(event) {
@@ -221,7 +233,17 @@ export class CalendarCommonRenderer extends Component {
     onEventClick(info) {
         this.click(info);
     }
+<<<<<<< HEAD
     onEventContent({ event }) {
+=======
+    onEventContent(arg) {
+        const { event } = arg;
+        if (event.start && event.end) {
+            const dateFmt = (date) =>
+                luxon.DateTime.fromJSDate(date).toFormat(this.timeFormat);
+            arg.timeText = `${dateFmt(event.start)} - ${dateFmt(event.end)}`;
+        }
+>>>>>>> upstream/18.0
         const record = this.props.model.records[event.id];
         if (record) {
             // This is needed in order to give the possibility to change the event template.
@@ -438,7 +460,10 @@ export class CalendarCommonRenderer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         el.classList.remove("fc-daygrid-more-link");
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

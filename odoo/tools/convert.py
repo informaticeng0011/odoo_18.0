@@ -423,7 +423,10 @@ form: module.record_id""" % (xml_id,)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -656,6 +659,9 @@ form: module.record_id""" % (xml_id,)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -948,18 +954,28 @@ form: module.record_id""" % (xml_id,)
         if 'key' in el.attrib:
             record.append(Field(el.get('key'), name='key'))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
         # If the "active" value is set on the root node (instead of an inner
         # <field>), it is treated as the value for the "active" field but only
         # when *not updating*. This allows to update the record in a more recent
         # version without changing its active state (compatibility).
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         if el.get('active') in ("True", "False"):
             view_id = self.id_get(tpl_id, raise_if_not_found=False)
             if self.mode != "update" or not view_id:
                 record.append(Field(name='active', eval=el.get('active')))
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> upstream/18.0
 =======
 
 >>>>>>> upstream/18.0
@@ -986,7 +1002,10 @@ form: module.record_id""" % (xml_id,)
         return self._tag_record(record)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def _tag_asset(self, el):
         """
         Transforms an <asset> element into a <record> and forwards it.
@@ -1027,6 +1046,9 @@ form: module.record_id""" % (xml_id,)
 
         return self._tag_record(record)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def id_get(self, id_str, raise_if_not_found=True):
         if id_str in self.idref:
@@ -1101,6 +1123,10 @@ form: module.record_id""" % (xml_id,)
             'menuitem': self._tag_menuitem,
             'template': self._tag_template,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'asset': self._tag_asset,
+>>>>>>> upstream/18.0
 =======
             'asset': self._tag_asset,
 >>>>>>> upstream/18.0

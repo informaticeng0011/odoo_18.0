@@ -23,6 +23,7 @@ from . import test_settings
 from . import test_snippet_background_video
 from . import test_systray
 <<<<<<< HEAD
+<<<<<<< HEAD
 from . import test_views_during_module_operation
 from . import test_website_controller_page
 from . import test_website_page_properties
@@ -47,9 +48,14 @@ from . import test_website_field_sanitize
 from . import test_website_field_sanitize
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 from . import test_theme_ir_asset
 from . import test_views_during_module_operation
 from . import test_website_controller_page
 from . import test_website_page_properties
 from . import test_website_field_sanitize
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

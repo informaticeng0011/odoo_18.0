@@ -10,6 +10,10 @@ from . import test_payment_flow
 from . import test_product_attribute_value
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from . import test_product_catalog
+>>>>>>> upstream/18.0
 =======
 from . import test_product_catalog
 >>>>>>> upstream/18.0

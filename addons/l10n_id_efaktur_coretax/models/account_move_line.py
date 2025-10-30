@@ -94,6 +94,11 @@ from odoo import models
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.tools.float_utils import float_repr
+
+>>>>>>> upstream/18.0
 =======
 from odoo.tools.float_utils import float_repr
 
@@ -589,7 +594,11 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "Price": tax_res['total_excluded'],
+=======
+            "Price": idr.round(tax_res['total_excluded']),
+>>>>>>> upstream/18.0
 =======
             "Price": idr.round(tax_res['total_excluded']),
 >>>>>>> upstream/18.0
@@ -920,7 +929,11 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "STLGRate": luxury_tax.amount if luxury_tax else 0.0,
+=======
+            "STLGRate": sum(luxury_tax.mapped('amount')) if luxury_tax else 0.0,
+>>>>>>> upstream/18.0
 =======
             "STLGRate": sum(luxury_tax.mapped('amount')) if luxury_tax else 0.0,
 >>>>>>> upstream/18.0
@@ -1119,7 +1132,11 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             line_val['VATRate'] = regular_tax.amount
+=======
+            line_val['VATRate'] = sum(regular_tax.mapped('amount'))
+>>>>>>> upstream/18.0
 =======
             line_val['VATRate'] = sum(regular_tax.mapped('amount'))
 >>>>>>> upstream/18.0
@@ -1359,7 +1376,10 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1641,6 +1661,9 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

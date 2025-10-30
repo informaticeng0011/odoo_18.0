@@ -365,6 +365,10 @@ describe("formatFloat", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expect(formatFloat(-0.0000001, options)).toBe("0.00");
+>>>>>>> upstream/18.0
 =======
         expect(formatFloat(-0.0000001, options)).toBe("0.00");
 >>>>>>> upstream/18.0
@@ -569,6 +573,12 @@ describe("formatFloat", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+        Object.assign(options, { humanReadable: false });
+        expect(formatFloat(-0.0000001, options)).toBe("0.00");
+>>>>>>> upstream/18.0
 =======
 
         Object.assign(options, { humanReadable: false });

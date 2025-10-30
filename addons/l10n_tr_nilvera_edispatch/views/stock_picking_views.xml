@@ -15,7 +15,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -66,6 +69,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -114,6 +120,7 @@
         <field name="inherit_id" ref="stock.view_picking_form"/>
         <field name="arch" type="xml">
             <xpath expr="//header" position="inside">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -364,6 +371,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 <button name="action_generate_l10n_tr_edispatch_xml" type="object" invisible="country_code != 'TR' or picking_type_code != 'outgoing' or state != 'done' or not partner_id" string="Generate GİB e-Dispatch (XML)" />
             </xpath>
             <xpath expr="//notebook" position="inside">
@@ -381,6 +390,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -434,7 +446,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <field name="l10n_tr_nilvera_dispatch_state"/>
+=======
+                            <field name="l10n_tr_nilvera_dispatch_state" invisible="picking_type_code != 'outgoing'"/>
+>>>>>>> upstream/18.0
 =======
                             <field name="l10n_tr_nilvera_dispatch_state" invisible="picking_type_code != 'outgoing'"/>
 >>>>>>> upstream/18.0
@@ -540,7 +556,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <div class="m-0" name="warnings" invisible="not l10n_tr_nilvera_edispatch_warnings">
+=======
+                <div class="m-0" name="warnings" invisible="not l10n_tr_nilvera_edispatch_warnings or (state == 'done' and not partner_id)">
+>>>>>>> upstream/18.0
 =======
                 <div class="m-0" name="warnings" invisible="not l10n_tr_nilvera_edispatch_warnings or (state == 'done' and not partner_id)">
 >>>>>>> upstream/18.0

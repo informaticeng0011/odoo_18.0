@@ -195,7 +195,10 @@ class TestBuyGiftCard(TestSaleCouponCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         order._auto_apply_rewards()
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -586,7 +589,11 @@ class TestBuyGiftCard(TestSaleCouponCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         orders.with_context({}).with_user(public_user).sudo().action_confirm()
+=======
+        orders.with_user(public_user).with_company(order.company_id).sudo().action_confirm()
+>>>>>>> upstream/18.0
 =======
         orders.with_user(public_user).with_company(order.company_id).sudo().action_confirm()
 >>>>>>> upstream/18.0

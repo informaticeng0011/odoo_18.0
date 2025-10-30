@@ -37,7 +37,11 @@
                         <t t-set-slot="content">
                             <div t-if="customerFacingDisplayButtonIsShown" class="d-flex gap-2 p-2 border-bottom">
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <ProxyStatus t-if="pos.config.use_proxy" />
+=======
+                                <ProxyStatus t-if="pos.useProxy()" />
+>>>>>>> upstream/18.0
 =======
                                 <ProxyStatus t-if="pos.useProxy()" />
 >>>>>>> upstream/18.0

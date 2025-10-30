@@ -27,7 +27,11 @@ export class AccountMoveFormController extends FormController {
 
     async loadExtraPrintItems() {
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (!this.model.root.isNew) {
+=======
+        if (this.model.root.isNew) {
+>>>>>>> upstream/18.0
 =======
         if (this.model.root.isNew) {
 >>>>>>> upstream/18.0

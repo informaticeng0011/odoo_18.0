@@ -167,7 +167,11 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             res = int(id_number)
+=======
+            res = id_number and int(id_number)
+>>>>>>> upstream/18.0
 =======
             res = id_number and int(id_number)
 >>>>>>> upstream/18.0

@@ -880,6 +880,10 @@ QUnit.module("WebEditor.HtmlField", ({ beforeEach }) => {
         const node = editor.editable.querySelector('p').childNodes[0];
         newHistoryStepPromise();
         node.textContent = 'b';
+<<<<<<< HEAD
+=======
+        editor.historyStep();
+>>>>>>> upstream/18.0
         await historyStepPromise;
 
         assert.equal(editor.editable.children[0].children[0].innerHTML.trim(), '<p>b</p>');
@@ -943,6 +947,10 @@ QUnit.module("WebEditor.HtmlField", ({ beforeEach }) => {
         const node = editor.editable.querySelector('p').childNodes[0];
         newHistoryStepPromise();
         node.textContent = 'b';
+<<<<<<< HEAD
+=======
+        editor.historyStep();
+>>>>>>> upstream/18.0
         await historyStepPromise;
 
         assert.equal(editor.editable.children[0].children[0].innerHTML.trim(), '<p class="oe_unremovable">b</p>');
@@ -1006,6 +1014,10 @@ QUnit.module("WebEditor.HtmlField", ({ beforeEach }) => {
         const node = editor.editable.querySelector('div.oe_unremovable');
         newHistoryStepPromise();
         node.textContent = 'b';
+<<<<<<< HEAD
+=======
+        editor.historyStep();
+>>>>>>> upstream/18.0
         await historyStepPromise;
 
         assert.equal(editor.editable.children[0].children[0].innerHTML.trim(), '<div class="oe_unremovable"><p class="oe_unremovable">a</p></div>');
