@@ -72,6 +72,10 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    peppol_eas = fields.Selection(selection_add=[('odemo', 'Odoo Demo ID')])  # Not a real EAS, used for demonstration.
+>>>>>>> upstream/18.0
 =======
     peppol_eas = fields.Selection(selection_add=[('odemo', 'Odoo Demo ID')])  # Not a real EAS, used for demonstration.
 >>>>>>> upstream/18.0
@@ -302,7 +306,10 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -455,6 +462,9 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -591,6 +601,10 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # DEPRECATED: Peppol moved from CNAME to NAPTR DNS records
+>>>>>>> upstream/18.0
 =======
         # DEPRECATED: Peppol moved from CNAME to NAPTR DNS records
 >>>>>>> upstream/18.0
@@ -619,6 +633,7 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         participant_identifier = participant_info.findtext('{*}ParticipantIdentifier')
         service_metadata = participant_info.find('.//{*}ServiceMetadataReference')
         service_href = ''
@@ -627,6 +642,8 @@ class ResPartner(models.Model):
 
         if edi_identification != participant_identifier or 'hermes-belgium' in service_href:
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -648,6 +665,9 @@ class ResPartner(models.Model):
         if edi_identification.lower() != participant_identifier.lower() or 'hermes-belgium' in service_href:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -675,6 +695,7 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _check_document_type_support(self, participant_info, ubl_cii_format):
         service_references = participant_info.findall(
             '{*}ServiceMetadataReferenceCollection/{*}ServiceMetadataReference'
@@ -683,6 +704,8 @@ class ResPartner(models.Model):
         for service in service_references:
             if document_type in parse.unquote_plus(service.attrib.get('href', '')):
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -733,6 +756,9 @@ class ResPartner(models.Model):
             if expected_customization_id in parse.unquote_plus(service.attrib.get('href', '')):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -790,7 +816,12 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         - "http://B-" + hexstring(md5(lowercase(ID-VALUE))) + "." + ID-SCHEME + "." + SML-ZONE-NAME + "/" + url_encoded(ID-SCHEME + "::" + ID-VALUE)
+=======
+        strip-trailing(base32(sha256(lowercase(ID-VALUE))),"=") + "." + ID-SCHEME + "." + SML-ZONE-NAME
+        The lookup should be done on NAPTR DNS from 2025-11-01
+>>>>>>> upstream/18.0
 =======
         strip-trailing(base32(sha256(lowercase(ID-VALUE))),"=") + "." + ID-SCHEME + "." + SML-ZONE-NAME
         The lookup should be done on NAPTR DNS from 2025-11-01
@@ -834,6 +865,11 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if not self_partner.peppol_eas or not self_partner.peppol_endpoint:
+            return False
+>>>>>>> upstream/18.0
 =======
         if not self_partner.peppol_eas or not self_partner.peppol_endpoint:
             return False
@@ -936,6 +972,7 @@ class ResPartner(models.Model):
             self.peppol_eas,
             self_partner._get_peppol_edi_format(),
         )
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1214,6 +1251,8 @@ class ResPartner(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         if self_partner.peppol_verification_state == 'valid' and not self_partner.invoice_sending_method:
             self_partner.invoice_sending_method = 'peppol'
 
@@ -1252,6 +1291,9 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1312,7 +1354,11 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         participant_info = self._get_participant_info(edi_identification)
+=======
+        participant_info = self._peppol_lookup_participant(edi_identification)
+>>>>>>> upstream/18.0
 =======
         participant_info = self._peppol_lookup_participant(edi_identification)
 >>>>>>> upstream/18.0

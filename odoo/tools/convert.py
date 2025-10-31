@@ -424,7 +424,10 @@ form: module.record_id""" % (xml_id,)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -660,6 +663,9 @@ form: module.record_id""" % (xml_id,)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -955,7 +961,10 @@ form: module.record_id""" % (xml_id,)
             record.append(Field(el.get('key'), name='key'))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -964,6 +973,9 @@ form: module.record_id""" % (xml_id,)
         # when *not updating*. This allows to update the record in a more recent
         # version without changing its active state (compatibility).
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -973,6 +985,10 @@ form: module.record_id""" % (xml_id,)
                 record.append(Field(name='active', eval=el.get('active')))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> upstream/18.0
 =======
 
 >>>>>>> upstream/18.0
@@ -1003,7 +1019,10 @@ form: module.record_id""" % (xml_id,)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def _tag_asset(self, el):
@@ -1047,6 +1066,9 @@ form: module.record_id""" % (xml_id,)
         return self._tag_record(record)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1124,6 +1146,10 @@ form: module.record_id""" % (xml_id,)
             'template': self._tag_template,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'asset': self._tag_asset,
+>>>>>>> upstream/18.0
 =======
             'asset': self._tag_asset,
 >>>>>>> upstream/18.0

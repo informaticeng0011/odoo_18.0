@@ -4,10 +4,18 @@ from odoo.addons.account.tests.common import AccountTestInvoicingCommon
 from odoo.tests import tagged, Form
 from odoo import Command, fields
 from odoo.exceptions import UserError
+<<<<<<< HEAD
+=======
+from odoo.tools import mute_logger
+>>>>>>> upstream/18.0
 
 
 from datetime import timedelta
 from freezegun import freeze_time
+<<<<<<< HEAD
+=======
+from psycopg2.errors import ForeignKeyViolation
+>>>>>>> upstream/18.0
 import pytz
 
 
@@ -939,6 +947,12 @@ class TestPurchase(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        with po_1.order_line.new() as po_line:
+            po_line.display_type = 'line_note'
+            po_line.name = 'Test Note'
+>>>>>>> upstream/18.0
 =======
         with po_1.order_line.new() as po_line:
             po_line.display_type = 'line_note'
@@ -1359,6 +1373,12 @@ class TestPurchase(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        with po_2.order_line.new() as po_line:
+            po_line.display_type = 'line_section'
+            po_line.name = 'Test section'
+>>>>>>> upstream/18.0
 =======
         with po_2.order_line.new() as po_line:
             po_line.display_type = 'line_section'
@@ -1872,7 +1892,10 @@ class TestPurchase(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2184,6 +2207,7 @@ class TestPurchase(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(len(matching_records), 2)
         self.assertEqual(matching_records.account_move_id, vendor_bill)
         self.assertEqual(matching_records.purchase_order_id, purchase_order)
@@ -2440,6 +2464,8 @@ class TestPurchase(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2557,6 +2583,9 @@ class TestPurchase(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2734,6 +2763,7 @@ class TestPurchase(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2758,6 +2788,8 @@ class TestPurchase(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2956,7 +2988,10 @@ class TestPurchase(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3110,6 +3145,9 @@ class TestPurchase(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3277,6 +3315,7 @@ class TestPurchase(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3305,6 +3344,8 @@ class TestPurchase(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3465,6 +3506,7 @@ class TestPurchase(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3561,4 +3603,30 @@ class TestPurchase(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+    def test_purchase_order_line_without_uom(self):
+        uom_test = self.env['uom.uom'].create({
+            'name': 'Test Uom',
+            'category_id': self.env.ref('uom.product_uom_categ_unit').id,
+            'ratio': 250.0,
+            'uom_type': 'bigger',
+            'rounding': 1.0,
+        })
+
+        po = self.env['purchase.order'].create({
+            'partner_id': self.partner_a.id,
+            'order_line': [
+                (0, 0, {
+                    'product_id': self.product_a.id,
+                    'product_qty': 1.0,
+                    'product_uom': uom_test.id,
+                })],
+        })
+
+        with (self.assertRaises(ForeignKeyViolation), self.cr.savepoint(), mute_logger("odoo.sql_db")):
+            uom_test.unlink()
+
+        self.assertEqual(po.order_line[0].product_uom, uom_test)
 >>>>>>> upstream/18.0

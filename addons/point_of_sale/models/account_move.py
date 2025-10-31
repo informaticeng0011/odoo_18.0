@@ -10,7 +10,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import fields, models, api
+=======
+from odoo import fields, models, api, _
+from odoo.exceptions import UserError
+>>>>>>> upstream/18.0
 =======
 from odoo import fields, models, api, _
 from odoo.exceptions import UserError
@@ -136,6 +141,7 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -181,6 +187,17 @@ class AccountMove(models.Model):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+    def button_draft(self):
+        if self.sudo().pos_order_ids.filtered(lambda o: o.session_id.state != 'closed'):
+            self.env.user._bus_send("simple_notification", {
+                'type': 'warning',
+                'title': _("Warning: Invoice Reset Risk"),
+                'message': _("This invoice is linked to a POS Order, resetting it to draft prevents closing the session. You should rather refund the order or create a credit note."),
+                'sticky': True,
+            })
+        return super().button_draft()
 >>>>>>> upstream/18.0
 
 

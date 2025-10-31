@@ -64,7 +64,10 @@ export function selectNthOrder(n) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -225,6 +228,9 @@ export function settleSaleOrderByPrice(price) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -332,10 +338,19 @@ export function settleNthOrder(n, options = {}) {
             run: "click",
         },
     ];
+<<<<<<< HEAD
     if (loadSN) {
         step.push({
             content: `Choose to auto link the lot number to the order line`,
             trigger: `.modal-content:contains('Do you want to load the SN/Lots linked to the Sales Order?') button:contains('Ok')`,
+=======
+    if (loadSN !== undefined) {
+        step.push({
+            content: `Choose to auto link the lot number to the order line`,
+            trigger: `.modal-content:contains('Do you want to load the SN/Lots linked to the Sales Order?') button:contains('${
+                loadSN ? "Ok" : "Cancel"
+            }')`,
+>>>>>>> upstream/18.0
             run: "click",
         });
     }
@@ -369,6 +384,7 @@ export function checkOrdersListEmpty() {
 }
 
 export function selectedOrderLinesHasLots(productName, lots) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -521,10 +537,13 @@ export function selectedOrderLinesHasLots(productName, lots) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     const getSerialStep = (index, serialNumber) => ({
         content: `check lot${index} is linked`,
         trigger: `.info-list li:contains(${serialNumber})`,
     });
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -673,3 +692,18 @@ export function selectedOrderLinesHasLots(productName, lots) {
     const lotSteps = lots.reduce((acc, serial, i) => acc.concat(getSerialStep(i, serial)), []);
     return [...ProductScreen.selectedOrderlineHas(productName), ...lotSteps];
 }
+=======
+    const lotSteps = lots.reduce((acc, serial, i) => acc.concat(getSerialStep(i, serial)), []);
+    return [...ProductScreen.selectedOrderlineHas(productName), ...lotSteps];
+}
+
+export function checkOrdersListNotEmpty() {
+    return [
+        ...ProductScreen.clickControlButton("Quotation/Order"),
+        {
+            content: "Check that the orders list is not empty",
+            trigger: ".o_data_row",
+        },
+    ];
+}
+>>>>>>> upstream/18.0

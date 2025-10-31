@@ -127,11 +127,17 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 rec.l10n_eg_long_id = response_data.get('l10n_eg_long_id')
             else:
                 rec.l10n_eg_uuid = False
                 rec.l10n_eg_submission_number = False
                 rec.l10n_eg_long_id = False
+=======
+            else:
+                rec.l10n_eg_uuid = False
+                rec.l10n_eg_submission_number = False
+>>>>>>> upstream/18.0
 =======
             else:
                 rec.l10n_eg_uuid = False

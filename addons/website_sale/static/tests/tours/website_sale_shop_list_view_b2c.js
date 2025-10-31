@@ -141,7 +141,11 @@ registerWebsitePreviewTour('shop_list_view_b2c', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         goToCart({backend: true}),
+=======
+        goToCart({ backend: true, expectUnloadPage: false }),
+>>>>>>> upstream/18.0
 =======
         goToCart({ backend: true, expectUnloadPage: false }),
 >>>>>>> upstream/18.0

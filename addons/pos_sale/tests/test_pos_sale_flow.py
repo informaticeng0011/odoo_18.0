@@ -597,7 +597,11 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.env['res.partner'].create({'name': 'Test Partner AAA'})
+=======
+        self.env['res.partner'].create({'name': 'A Test Partner AAA'})
+>>>>>>> upstream/18.0
 =======
         self.env['res.partner'].create({'name': 'A Test Partner AAA'})
 >>>>>>> upstream/18.0
@@ -1200,10 +1204,13 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def test_settle_order_ship_later_delivered_qty(self):
         """This test create an order, settle it in the PoS and ship it later.
             We need to make sure that the quantity delivered on the original sale is updated correctly
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1487,6 +1494,9 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1776,7 +1786,10 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2062,6 +2075,9 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2258,6 +2274,7 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
             'street': 'Rue du burger',
         })
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2635,6 +2652,9 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 =======
         sale_order_single = self.env['sale.order'].create({
 >>>>>>> upstream/18.0
+=======
+        sale_order_single = self.env['sale.order'].create({
+>>>>>>> upstream/18.0
             'partner_id': partner_test.id,
             'order_line': [(0, 0, {
                 'product_id': product_a.id,
@@ -2644,6 +2664,7 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
                 'price_unit': product_a.lst_price,
             })],
         })
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2755,6 +2776,8 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
         pickings.button_validate()
         self.assertEqual(sale_order.order_line[0].qty_delivered, 1)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3073,6 +3096,9 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3467,7 +3493,11 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'name': 'Test Partner',
+=======
+            'name': 'A Test Partner',
+>>>>>>> upstream/18.0
 =======
             'name': 'A Test Partner',
 >>>>>>> upstream/18.0
@@ -3782,6 +3812,7 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'order_line': [(0, 0, {
                 'product_id': product.id,
                 'name': product.name,
@@ -3790,6 +3821,8 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
                 'price_unit': product.lst_price,
             })],
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4070,6 +4103,9 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4383,7 +4419,10 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4661,6 +4700,7 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
         })
         self.main_pos_config.down_payment_product_id = self.env.ref("pos_sale.default_downpayment_product")
         self.main_pos_config.open_ui()
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5098,6 +5138,9 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 =======
         self.start_pos_tour('test_down_payment_displayed', "accountman")
 >>>>>>> upstream/18.0
+=======
+        self.start_pos_tour('test_down_payment_displayed', "accountman")
+>>>>>>> upstream/18.0
 
     def test_amount_to_invoice(self):
         """
@@ -5294,6 +5337,7 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5330,6 +5374,8 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5713,6 +5759,7 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5823,6 +5870,8 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6113,6 +6162,10 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
         self.start_tour("/pos/ui?config_id=%d" % self.main_pos_config.id, 'test_multiple_lots_sale_order_1', login="accountman")
         sale_order.action_confirm()
         self.start_tour("/pos/ui?config_id=%d" % self.main_pos_config.id, 'test_multiple_lots_sale_order_2', login="accountman")
+<<<<<<< HEAD
+=======
+        self.start_tour("/pos/ui?config_id=%d" % self.main_pos_config.id, 'test_multiple_lots_sale_order_3', login="accountman")
+>>>>>>> upstream/18.0
         self.main_pos_config.current_session_id.action_pos_session_close()
         picking = sale_order.pos_order_line_ids.order_id.picking_ids
         self.assertEqual(picking.move_ids.quantity, 3)
@@ -6169,6 +6222,7 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6193,6 +6247,8 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6336,6 +6392,7 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6408,4 +6465,79 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+    def test_ecommerce_paid_order_is_hidden_in_pos(self):
+        """
+        Tests that a Sale Order fully paid via a payment.transaction (eCommerce)
+        does not appear in the list of orders fetched by the Point of Sale.
+        """
+        partner_1 = self.env['res.partner'].create({'name': 'A Test Partner 1', 'email': 'test.customer@example.com'})
+        product_a = self.env['product.product'].create({
+            'name': 'Product A',
+            'available_in_pos': True,
+            'lst_price': 10.0,
+        })
+        sale_order = self.env['sale.order'].create({
+            'partner_id': partner_1.id,
+            'order_line': [(0, 0, {
+                'product_id': product_a.id,
+                'product_uom_qty': 2,
+                'price_unit': product_a.lst_price
+            })]
+        })
+        provider = self.env['payment.provider'].create({
+            'name': 'Test',
+        })
+        transaction = self.env['payment.transaction'].create({
+            'provider_id': provider.id,
+            'payment_method_id': self.env.ref('payment.payment_method_unknown').id,
+            'amount': sale_order.amount_total,
+            'currency_id': sale_order.currency_id.id,
+            'partner_id': sale_order.partner_id.id,
+            'sale_order_ids': [(6, 0, [sale_order.id])],
+        })
+        transaction._set_done()
+        sale_order.invalidate_recordset(['transaction_ids'])
+
+        self.assertEqual(
+            sale_order.amount_unpaid, 0.0,
+            "The amount_unpaid for the SO should be 0 after a successful transaction."
+        )
+        self.main_pos_config.open_ui()
+        self.start_tour("/pos/ui?config_id=%d" % self.main_pos_config.id, 'test_ecommerce_paid_order_is_hidden_in_pos', login="accountman")
+
+    def test_ecommerce_unpaid_order_is_shown_in_pos(self):
+        """
+        Tests that a Sale Order fully paid via a payment.transaction (eCommerce)
+        does not appear in the list of orders fetched by the Point of Sale.
+        """
+        partner_1 = self.env['res.partner'].create({'name': 'A Test Partner 1', 'email': 'test.customer@example.com'})
+        product_a = self.env['product.product'].create({
+            'name': 'Product A',
+            'available_in_pos': True,
+            'lst_price': 10.0,
+        })
+        sale_order = self.env['sale.order'].create({
+            'partner_id': partner_1.id,
+            'order_line': [(0, 0, {
+                'product_id': product_a.id,
+                'product_uom_qty': 2,
+                'price_unit': product_a.lst_price
+            })]
+        })
+        sale_order = self.env['sale.order'].create({
+            'partner_id': partner_1.id,
+            'order_line': [(0, 0, {
+                'product_id': product_a.id,
+                'product_uom_qty': 2,
+                'price_unit': product_a.lst_price
+            })]
+        })
+        self.assertEqual(
+            sale_order.amount_unpaid, sale_order.amount_total,
+            "The amount_unpaid for the SO should not be 0 if there are no transactions."
+        )
+        self.start_tour("/pos/ui?config_id=%d" % self.main_pos_config.id, 'test_ecommerce_unpaid_order_is_shown_in_pos', login="accountman")
 >>>>>>> upstream/18.0

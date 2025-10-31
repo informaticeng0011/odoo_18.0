@@ -49,6 +49,10 @@ import { patch } from "@web/core/utils/patch";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { computeSAQRCode } from "@l10n_sa_pos/app/utils/qr";
+>>>>>>> upstream/18.0
 =======
 import { computeSAQRCode } from "@l10n_sa_pos/app/utils/qr";
 >>>>>>> upstream/18.0
@@ -286,6 +290,7 @@ patch(PosOrder.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     compute_sa_qr_code(name, vat, date_isostring, amount_total, amount_tax) {
         /* Generate the qr code for Saudi e-invoicing. Specs are available at the following link at page 23
 https://zatca.gov.sa/ar/E-Invoicing/SystemsDevelopers/Documents/20210528_ZATCA_Electronic_Invoice_Security_Features_Implementation_Standards_vShared.pdf
@@ -315,6 +320,11 @@ https://zatca.gov.sa/ar/E-Invoicing/SystemsDevelopers/Documents/20210528_ZATCA_E
         const name_tag_encoding = [tag];
         const name_length_encoding = [name_byte_array.length];
         return name_tag_encoding.concat(name_length_encoding, name_byte_array);
+=======
+
+    compute_sa_qr_code(name, vat, date_isostring, amount_total, amount_tax) {
+        return computeSAQRCode(name, vat, date_isostring, amount_total, amount_tax);
+>>>>>>> upstream/18.0
 =======
 
     compute_sa_qr_code(name, vat, date_isostring, amount_total, amount_tax) {

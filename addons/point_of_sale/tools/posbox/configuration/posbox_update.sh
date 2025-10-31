@@ -135,6 +135,7 @@ echo "addons/point_of_sale/tools/posbox/overwrite_after_init/home/pi/odoo" >> .g
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 echo "addons/iot_base" >> .git/info/sparse-checkout
 >>>>>>> upstream/18.0
@@ -574,6 +575,12 @@ echo "addons/iot_drivers" >> .git/info/sparse-checkout
 =======
 echo "addons/iot_base" >> .git/info/sparse-checkout
 echo "addons/iot_drivers" >> .git/info/sparse-checkout
+>>>>>>> upstream/18.0
+=======
+echo "addons/iot_base" >> .git/info/sparse-checkout
+echo "addons/iot_drivers" >> .git/info/sparse-checkout
+echo "addons/iot_box_image/configuration" >> .git/info/sparse-checkout
+echo "setup/iot_box_builder/configuration" >> .git/info/sparse-checkout
 >>>>>>> upstream/18.0
 
 git fetch "${localremote}" "${localbranch}" --depth=1
@@ -659,7 +666,10 @@ fi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -866,6 +876,7 @@ fi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1000,5 +1011,24 @@ fi
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# we create a symlinks in case the image uses hardcoded paths (ramdisks.service for example)
+if [ -d /home/pi/odoo/addons/iot_box_image ]; then
+  # if we have the iot_box_image module, it means configuration files are not in point_of_sale anymore
+  mkdir -p /home/pi/odoo/addons/point_of_sale/tools/posbox
+  ln -sf /home/pi/odoo/addons/iot_box_image/configuration /home/pi/odoo/addons/point_of_sale/tools/posbox
+fi
+
+if [ -d /home/pi/odoo/setup/iot_box_builder ]; then
+  # if we have the iot_box_builder module, it means configuration files are not in point_of_sale anymore
+  # in case ramdisks.service points to point_of_sale, we create a symlink
+  mkdir -p /home/pi/odoo/addons/point_of_sale/tools/posbox
+  ln -sf /home/pi/odoo/setup/iot_box_builder/configuration /home/pi/odoo/addons/point_of_sale/tools/posbox
+  # in case ramdisks.service points to iot_box_image, we create a symlink
+  mkdir -p /home/pi/odoo/addons/iot_box_image
+  ln -sf /home/pi/odoo/setup/iot_box_builder/configuration /home/pi/odoo/addons/iot_box_image
+fi
+
 >>>>>>> upstream/18.0
 sudo service led-status start

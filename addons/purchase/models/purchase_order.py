@@ -71,7 +71,11 @@ class PurchaseOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @api.depends('order_line.price_subtotal', 'company_id')
+=======
+    @api.depends('order_line.price_subtotal', 'company_id', 'currency_id')
+>>>>>>> upstream/18.0
 =======
     @api.depends('order_line.price_subtotal', 'company_id', 'currency_id')
 >>>>>>> upstream/18.0
@@ -330,6 +334,7 @@ class PurchaseOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     partner_id = fields.Many2one('res.partner', string='Vendor', required=True, change_default=True, tracking=True, check_company=True, help="You can find a vendor by its Name, TIN, Email or Internal Reference.")
     dest_address_id = fields.Many2one('res.partner', check_company=True, string='Dropship Address',
         help="Put an address if you want to deliver directly from the vendor to the customer. "
@@ -337,6 +342,8 @@ class PurchaseOrder(models.Model):
     currency_id = fields.Many2one('res.currency', 'Currency', required=True,
         default=lambda self: self.env.company.currency_id.id)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -492,6 +499,9 @@ class PurchaseOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -879,6 +889,7 @@ class PurchaseOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         default_currency = self._context.get("default_currency_id")
         if not self.partner_id:
             self.fiscal_position_id = False
@@ -984,6 +995,8 @@ class PurchaseOrder(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         if not self.partner_id:
             self.fiscal_position_id = False
         else:
@@ -1037,6 +1050,9 @@ class PurchaseOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1187,7 +1203,10 @@ class PurchaseOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1341,6 +1360,9 @@ class PurchaseOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1905,7 +1927,12 @@ class PurchaseOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     existing_line = oldest_rfq.order_line.filtered(lambda l: l.product_id == rfq_line.product_id and
+=======
+                    existing_line = oldest_rfq.order_line.filtered(lambda l: l.display_type not in ['line_note', 'line_section'] and
+                                                                                l.product_id == rfq_line.product_id and
+>>>>>>> upstream/18.0
 =======
                     existing_line = oldest_rfq.order_line.filtered(lambda l: l.display_type not in ['line_note', 'line_section'] and
                                                                                 l.product_id == rfq_line.product_id and
@@ -2544,9 +2571,12 @@ class PurchaseOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             product_infos.update(
                 price=seller.price_discounted,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2696,6 +2726,9 @@ class PurchaseOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2986,9 +3019,12 @@ class PurchaseOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 # Fix the PO line's price on the seller's one.
                 pol.price_unit = seller.price_discounted
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3138,6 +3174,9 @@ class PurchaseOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

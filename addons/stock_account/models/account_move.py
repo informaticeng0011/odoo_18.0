@@ -405,9 +405,12 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         price_unit = self.price_unit * (1 - self.discount / 100) if self.discount else\
                      self.price_subtotal / self.quantity
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -660,6 +663,7 @@ class AccountMoveLine(models.Model):
             else:
                 price_unit = self.price_subtotal / self.quantity
         else:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1130,6 +1134,10 @@ class AccountMoveLine(models.Model):
             price_unit = 0
 
 >>>>>>> upstream/18.0
+=======
+            price_unit = 0
+
+>>>>>>> upstream/18.0
         return -price_unit if self.move_id.move_type == 'in_refund' else price_unit
 
     def _get_stock_valuation_layers(self, move):
@@ -1157,6 +1165,7 @@ class AccountMoveLine(models.Model):
     @api.onchange('product_id')
     def _inverse_product_id(self):
         super(AccountMoveLine, self.filtered(lambda l: l.display_type != 'cogs'))._inverse_product_id()
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1570,6 +1579,8 @@ class AccountMoveLine(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 
     def _get_exchange_journal(self, company):
         if (
@@ -1698,6 +1709,9 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2079,7 +2093,11 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self and self.move_id.stock_valuation_layer_ids and
+=======
+            self and self.move_id.sudo().stock_valuation_layer_ids and
+>>>>>>> upstream/18.0
 =======
             self and self.move_id.sudo().stock_valuation_layer_ids and
 >>>>>>> upstream/18.0
@@ -2595,6 +2613,9 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

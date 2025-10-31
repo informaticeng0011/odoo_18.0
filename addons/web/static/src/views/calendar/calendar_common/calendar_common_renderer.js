@@ -62,6 +62,10 @@ export class CalendarCommonRenderer extends Component {
         this.click = useClickHandler(this.onClick, this.onDblClick);
         this.popover = useCalendarPopover(this.constructor.components.Popover);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.timeFormat = is24HourFormat() ? "HH:mm" : "hh:mm a";
+>>>>>>> upstream/18.0
 =======
         this.timeFormat = is24HourFormat() ? "HH:mm" : "hh:mm a";
 >>>>>>> upstream/18.0
@@ -144,6 +148,7 @@ export class CalendarCommonRenderer extends Component {
 
     getStartTime(record) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         const timeFormat = is24HourFormat() ? "HH:mm" : "hh:mm a";
         return record.start.toFormat(timeFormat);
     }
@@ -152,11 +157,16 @@ export class CalendarCommonRenderer extends Component {
         const timeFormat = is24HourFormat() ? "HH:mm" : "hh:mm a";
         return record.end.toFormat(timeFormat);
 =======
+=======
+>>>>>>> upstream/18.0
         return record.start.toFormat(this.timeFormat);
     }
 
     getEndTime(record) {
         return record.end.toFormat(this.timeFormat);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     }
 
@@ -234,8 +244,11 @@ export class CalendarCommonRenderer extends Component {
         this.click(info);
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
     onEventContent({ event }) {
 =======
+=======
+>>>>>>> upstream/18.0
     onEventContent(arg) {
         const { event } = arg;
         if (event.start && event.end) {
@@ -243,6 +256,9 @@ export class CalendarCommonRenderer extends Component {
                 luxon.DateTime.fromJSDate(date).toFormat(this.timeFormat);
             arg.timeText = `${dateFmt(event.start)} - ${dateFmt(event.end)}`;
         }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         const record = this.props.model.records[event.id];
         if (record) {
@@ -461,7 +477,10 @@ export class CalendarCommonRenderer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         el.classList.remove("fc-daygrid-more-link");
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
