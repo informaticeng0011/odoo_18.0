@@ -379,7 +379,10 @@ class TestWorkEntryLeave(TestWorkEntryHolidaysBase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -747,6 +750,10 @@ class TestWorkEntryLeave(TestWorkEntryHolidaysBase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'full_time_required_hours': 40.0,
+>>>>>>> upstream/18.0
 =======
             'full_time_required_hours': 40.0,
 >>>>>>> upstream/18.0
@@ -1128,6 +1135,7 @@ class TestWorkEntryLeave(TestWorkEntryHolidaysBase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         self.assertEqual(paid_leave_entry.duration, 32, "The duration of the work entry for flexible employee should "
                                                         "be number of days * hours per day")
@@ -1248,6 +1256,11 @@ class TestWorkEntryLeave(TestWorkEntryHolidaysBase):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+        self.assertEqual(len(paid_leave_entry), 4, "Four work entries should be created for a flexible employee")
+        self.assertEqual(sum(paid_leave_entry.mapped('duration')), 32, "The combined duration of the work entries for flexible employee should "
+                                                                        "be number of days * hours per day")
 >>>>>>> upstream/18.0
 =======
         self.assertEqual(len(paid_leave_entry), 4, "Four work entries should be created for a flexible employee")

@@ -2,6 +2,11 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 import odoo.tests
+<<<<<<< HEAD
+=======
+
+from urllib.parse import urlparse
+>>>>>>> upstream/18.0
 from odoo.addons.pos_self_order.tests.self_order_common_test import SelfOrderCommonTest
 
 
@@ -136,6 +141,7 @@ class TestSelfOrderMobile(SelfOrderCommonTest):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -254,6 +260,23 @@ class TestSelfOrderMobile(SelfOrderCommonTest):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+    def test_self_order_mobile_no_access_token(self):
+        self.pos_config.write({
+            'self_ordering_mode': 'mobile',
+            'self_ordering_pay_after': 'each',
+            'self_ordering_service_mode': 'table',
+        })
+
+        self.pos_config.with_user(self.pos_user).open_ui()
+        self.pos_config.current_session_id.set_opening_control(0, "")
+        self_route = self.pos_config._get_self_order_route()
+
+        # removing access token to simulate a request without it
+        route = urlparse(self_route)
+        self.start_tour(route.path, "self_order_mobile_no_access_token")
 >>>>>>> upstream/18.0
 
     def test_self_order_mobile_0_price_order(self):
@@ -348,6 +371,7 @@ class TestSelfOrderMobile(SelfOrderCommonTest):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -366,6 +390,11 @@ class TestSelfOrderMobile(SelfOrderCommonTest):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+        order = self.env['pos.order'].search([], limit=1)
+        self.assertEqual(order.picking_count, 1)
 >>>>>>> upstream/18.0
 =======
 

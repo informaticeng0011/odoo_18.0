@@ -7,7 +7,11 @@ from odoo.addons.mrp.tests.common import TestMrpCommon
 from odoo.tests import Form
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tests.common import TransactionCase
+=======
+from odoo.tests.common import TransactionCase, freeze_time
+>>>>>>> upstream/18.0
 =======
 from odoo.tests.common import TransactionCase, freeze_time
 >>>>>>> upstream/18.0
@@ -617,7 +621,10 @@ class TestMrpProductionBackorder(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1050,6 +1057,9 @@ class TestMrpProductionBackorder(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1463,6 +1473,18 @@ class TestMrpProductionBackorder(TestMrpCommon):
         self.assertEqual(mo.product_qty, 1)
         self.assertEqual(mo.move_raw_ids.mapped('product_uom_qty'), [0.5, 1])
 
+<<<<<<< HEAD
+=======
+    def test_split_multiple_mo(self):
+        """ Checks that we can open the `split_production` wizard with multiple MOs at once
+        """
+        productions = self.env['mrp.production'].create([{
+            'product_qty': 5,
+            'bom_id': self.bom_1.id,
+        } for _ in range(2)])
+        Form.from_action(self.env, productions.action_split())
+
+>>>>>>> upstream/18.0
     def test_split_mo_partially_available(self):
         """
         Test that an MO components availability is correct after split.
@@ -1748,6 +1770,10 @@ class TestMrpWorkorderBackorder(TransactionCase):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    @freeze_time('2025-10-27 12:00:00')
+>>>>>>> upstream/18.0
 =======
     @freeze_time('2025-10-27 12:00:00')
 >>>>>>> upstream/18.0
@@ -1806,6 +1832,7 @@ class TestMrpWorkorderBackorder(TransactionCase):
         op_6.button_start()
         op_6.button_finish()
         bo_2.button_mark_done()
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1933,6 +1960,8 @@ class TestMrpWorkorderBackorder(TransactionCase):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         self.assertRecordValues(bo_2.workorder_ids, [
             {'state': 'cancel', 'qty_remaining': 0.0, 'duration': 0.0},
             {'state': 'done', 'qty_remaining': 0.0, 'duration': 240.0}
@@ -1964,6 +1993,9 @@ class TestMrpWorkorderBackorder(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

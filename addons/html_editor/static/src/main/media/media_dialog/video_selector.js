@@ -52,7 +52,10 @@ export class VideoSelector extends Component {
             youtube: "youtube",
             dailymotion: "dailymotion",
             vimeo: "vimeo",
+<<<<<<< HEAD
             youku: "youku",
+=======
+>>>>>>> upstream/18.0
         };
 
         this.OPTIONS = {
@@ -61,7 +64,10 @@ export class VideoSelector extends Component {
                 description: _t("Videos are muted when autoplay is enabled"),
                 platforms: [
                     this.PLATFORMS.youtube,
+<<<<<<< HEAD
                     this.PLATFORMS.dailymotion,
+=======
+>>>>>>> upstream/18.0
                     this.PLATFORMS.vimeo,
                 ],
                 urlParameter: "autoplay=1",
@@ -75,7 +81,10 @@ export class VideoSelector extends Component {
                 label: _t("Hide player controls"),
                 platforms: [
                     this.PLATFORMS.youtube,
+<<<<<<< HEAD
                     this.PLATFORMS.dailymotion,
+=======
+>>>>>>> upstream/18.0
                     this.PLATFORMS.vimeo,
                 ],
                 urlParameter: "controls=0",
@@ -87,6 +96,7 @@ export class VideoSelector extends Component {
                 isHidden: () =>
                     this.state.options.filter((option) => option.id === "hide_controls")[0].value,
             },
+<<<<<<< HEAD
             hide_dm_logo: {
                 label: _t("Hide Dailymotion logo"),
                 platforms: [this.PLATFORMS.dailymotion],
@@ -97,6 +107,8 @@ export class VideoSelector extends Component {
                 platforms: [this.PLATFORMS.dailymotion],
                 urlParameter: "sharing-enable=0",
             },
+=======
+>>>>>>> upstream/18.0
         };
 
         this.state = useState({

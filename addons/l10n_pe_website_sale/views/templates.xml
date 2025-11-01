@@ -59,7 +59,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             t-att-selected="id_type.id == partner_sudo.l10n_latam_identification_type_id.id">
+=======
+                            t-att-selected="id_type.id == int(identification or 0)"
+                        >
+>>>>>>> upstream/18.0
 =======
                             t-att-selected="id_type.id == int(identification or 0)"
                         >

@@ -55,7 +55,11 @@ publicWidget.registry.postLink = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const url = this.el.dataset.post || this.el.href;
+=======
+        const url = this.el.dataset.post || this.el.href || this.el.value;
+>>>>>>> upstream/18.0
 =======
         const url = this.el.dataset.post || this.el.href || this.el.value;
 >>>>>>> upstream/18.0

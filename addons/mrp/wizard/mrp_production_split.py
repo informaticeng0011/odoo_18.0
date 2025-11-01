@@ -47,13 +47,21 @@ class MrpProductionSplit(models.TransientModel):
             for _ in range(wizard.counter - 1):
                 commands.append(Command.create({
                     'quantity': quantity,
+<<<<<<< HEAD
                     'user_id': wizard.production_id.user_id,
+=======
+                    'user_id': wizard.production_id.user_id.id,
+>>>>>>> upstream/18.0
                     'date': wizard.production_id.date_start,
                 }))
                 remaining_quantity = float_round(remaining_quantity - quantity, precision_rounding=wizard.product_uom_id.rounding)
             commands.append(Command.create({
                 'quantity': remaining_quantity,
+<<<<<<< HEAD
                 'user_id': wizard.production_id.user_id,
+=======
+                'user_id': wizard.production_id.user_id.id,
+>>>>>>> upstream/18.0
                 'date': wizard.production_id.date_start,
             }))
             wizard.production_detailed_vals_ids = commands

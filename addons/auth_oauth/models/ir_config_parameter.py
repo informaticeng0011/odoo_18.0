@@ -11,7 +11,11 @@ class IrConfigParameter(models.Model):
         super(IrConfigParameter, self).init(force=force)
         if force:
 <<<<<<< HEAD
+<<<<<<< HEAD
             oauth_oe = self.env.ref('auth_oauth.provider_openerp')
+=======
+            oauth_oe = self.env.ref('auth_oauth.provider_openerp', raise_if_not_found=False)
+>>>>>>> upstream/18.0
 =======
             oauth_oe = self.env.ref('auth_oauth.provider_openerp', raise_if_not_found=False)
 >>>>>>> upstream/18.0

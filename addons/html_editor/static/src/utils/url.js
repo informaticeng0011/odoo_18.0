@@ -50,9 +50,12 @@ export function getVideoUrl(platform, videoId, params) {
         case "instagram":
             url = new URL(`https://www.instagram.com/p/${videoId}/embed`);
             break;
+<<<<<<< HEAD
         case "youku":
             url = new URL(`https://player.youku.com/embed/${videoId}`);
             break;
+=======
+>>>>>>> upstream/18.0
         default:
             throw new Error(`Unsupported platform: ${platform}`);
     }

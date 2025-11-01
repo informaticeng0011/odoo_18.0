@@ -318,7 +318,10 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -676,6 +679,9 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1041,9 +1047,13 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             **({'invoice_ids': [Command.set(self._context.get('active_ids', []))]}
                 if self._context.get('active_model') == 'account.move'
                 else {}),
+=======
+            'invoice_ids': [Command.set(invoice_ids)],
+>>>>>>> upstream/18.0
 =======
             'invoice_ids': [Command.set(invoice_ids)],
 >>>>>>> upstream/18.0

@@ -882,6 +882,10 @@ QUnit.module("WebEditor.HtmlField", ({ beforeEach }) => {
         node.textContent = 'b';
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        editor.historyStep();
+>>>>>>> upstream/18.0
 =======
         editor.historyStep();
 >>>>>>> upstream/18.0
@@ -953,6 +957,10 @@ QUnit.module("WebEditor.HtmlField", ({ beforeEach }) => {
         node.textContent = 'b';
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        editor.historyStep();
+>>>>>>> upstream/18.0
 =======
         editor.historyStep();
 >>>>>>> upstream/18.0
@@ -1024,6 +1032,10 @@ QUnit.module("WebEditor.HtmlField", ({ beforeEach }) => {
         node.textContent = 'b';
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        editor.historyStep();
+>>>>>>> upstream/18.0
 =======
         editor.historyStep();
 >>>>>>> upstream/18.0

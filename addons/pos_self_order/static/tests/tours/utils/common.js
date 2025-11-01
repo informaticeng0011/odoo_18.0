@@ -6,6 +6,21 @@ export function clickBtn(buttonName) {
     };
 }
 
+<<<<<<< HEAD
+=======
+export function negate(selector, parent = "body") {
+    return `${parent}:not(:has(${selector}))`;
+}
+
+export function negateStep(step) {
+    return {
+        ...step,
+        content: `Check that: ---${step.content}--- is not true`,
+        trigger: negate(step.trigger),
+    };
+}
+
+>>>>>>> upstream/18.0
 export function checkBtn(buttonName) {
     return {
         content: `Check is button '${buttonName}'`,
@@ -116,6 +131,10 @@ export function changeLanguage(language) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0

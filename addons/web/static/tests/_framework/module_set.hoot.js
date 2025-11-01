@@ -21,6 +21,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { describe, dryRun, globals, start, stop } from "@odoo/hoot";
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -211,6 +212,8 @@ import { watchAddedNodes, watchKeys, watchListeners } from "@odoo/hoot-mock";
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 import {
     Deferred,
     delay,
@@ -243,6 +246,9 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -313,6 +319,7 @@ const { define, loader } = odoo;
 /**
  * @param {Record<any, any>} object
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -584,6 +591,8 @@ const clearObject = (object) => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 function clearObject(object) {
     for (const key in object) {
         delete object[key];
@@ -677,6 +686,9 @@ function clearObject(object) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -949,7 +961,11 @@ function clearObject(object) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const defineModuleSet = async (fileSuffix, entryPoints, additionalAddons) => {
+=======
+async function defineModuleSet(fileSuffix, entryPoints, additionalAddons) {
+>>>>>>> upstream/18.0
 =======
 async function defineModuleSet(fileSuffix, entryPoints, additionalAddons) {
 >>>>>>> upstream/18.0
@@ -1342,7 +1358,11 @@ async function defineModuleSet(fileSuffix, entryPoints, additionalAddons) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -1704,7 +1724,11 @@ async function defineModuleSet(fileSuffix, entryPoints, additionalAddons) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const describeDrySuite = async (fileSuffix, entryPoints) => {
+=======
+async function describeDrySuite(fileSuffix, entryPoints) {
+>>>>>>> upstream/18.0
 =======
 async function describeDrySuite(fileSuffix, entryPoints) {
 >>>>>>> upstream/18.0
@@ -1996,6 +2020,7 @@ async function describeDrySuite(fileSuffix, entryPoints) {
         });
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2404,6 +2429,10 @@ async function describeDrySuite(fileSuffix, entryPoints) {
     await moduleSetLoader.cleanup();
 }
 >>>>>>> upstream/18.0
+=======
+    await moduleSetLoader.cleanup();
+}
+>>>>>>> upstream/18.0
 
 /**
  * @param {Set<string>} addons
@@ -2497,7 +2526,11 @@ async function describeDrySuite(fileSuffix, entryPoints) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const fetchDependencies = async (addons) => {
+=======
+async function fetchDependencies(addons) {
+>>>>>>> upstream/18.0
 =======
 async function fetchDependencies(addons) {
 >>>>>>> upstream/18.0
@@ -2888,7 +2921,11 @@ async function fetchDependencies(addons) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -3249,7 +3286,11 @@ async function fetchDependencies(addons) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const findMockFactory = (name) => {
+=======
+function findMockFactory(name) {
+>>>>>>> upstream/18.0
 =======
 function findMockFactory(name) {
 >>>>>>> upstream/18.0
@@ -3615,8 +3656,11 @@ function findMockFactory(name) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3942,6 +3986,9 @@ function freezeModel(model) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4212,7 +4259,13 @@ function freezeModel(model) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const getAddonName = (name) => name.match(R_PATH_ADDON)?.[1];
+=======
+function getAddonName(name) {
+    return name.match(R_PATH_ADDON)?.[1];
+}
+>>>>>>> upstream/18.0
 =======
 function getAddonName(name) {
     return name.match(R_PATH_ADDON)?.[1];
@@ -4751,7 +4804,11 @@ function getAddonName(name) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const getDependencies = (addons) => {
+=======
+function getDependencies(addons) {
+>>>>>>> upstream/18.0
 =======
 function getDependencies(addons) {
 >>>>>>> upstream/18.0
@@ -5119,7 +5176,11 @@ function getDependencies(addons) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -5480,7 +5541,13 @@ function getDependencies(addons) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const getSuitePath = (name) => name.replace("../tests/", "");
+=======
+function getSuitePath(name) {
+    return name.replace("../tests/", "");
+}
+>>>>>>> upstream/18.0
 =======
 function getSuitePath(name) {
     return name.replace("../tests/", "");
@@ -6021,7 +6088,11 @@ function getSuitePath(name) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const makeFixedFactory = (name) => {
+=======
+function makeFixedFactory(name) {
+>>>>>>> upstream/18.0
 =======
 function makeFixedFactory(name) {
 >>>>>>> upstream/18.0
@@ -6384,7 +6455,11 @@ function makeFixedFactory(name) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -6751,7 +6826,11 @@ function makeFixedFactory(name) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const orm = async (model, method, args, kwargs) => {
+=======
+async function orm(model, method, args, kwargs) {
+>>>>>>> upstream/18.0
 =======
 async function orm(model, method, args, kwargs) {
 >>>>>>> upstream/18.0
@@ -7125,7 +7204,11 @@ async function orm(model, method, args, kwargs) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -7487,7 +7570,11 @@ async function orm(model, method, args, kwargs) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const resolveAddonDependencies = (dependencies) => {
+=======
+function resolveAddonDependencies(dependencies) {
+>>>>>>> upstream/18.0
 =======
 function resolveAddonDependencies(dependencies) {
 >>>>>>> upstream/18.0
@@ -7864,8 +7951,11 @@ function resolveAddonDependencies(dependencies) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8144,6 +8234,9 @@ function unfreezeModel(model) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8425,7 +8518,11 @@ function unfreezeModel(model) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const __gcAndLogMemory = async (label, testCount) => {
+=======
+async function __gcAndLogMemory(label, testCount) {
+>>>>>>> upstream/18.0
 =======
 async function __gcAndLogMemory(label, testCount) {
 >>>>>>> upstream/18.0
@@ -8810,7 +8907,11 @@ async function __gcAndLogMemory(label, testCount) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -9132,6 +9233,10 @@ class ModuleSetLoader extends loader.constructor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    preventGlobalDefine = false;
+>>>>>>> upstream/18.0
 =======
     preventGlobalDefine = false;
 >>>>>>> upstream/18.0
@@ -9365,8 +9470,11 @@ class ModuleSetLoader extends loader.constructor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     cleanup() {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9519,6 +9627,9 @@ class ModuleSetLoader extends loader.constructor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9681,7 +9792,11 @@ class ModuleSetLoader extends loader.constructor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (!loader.factories.has(name)) {
+=======
+        if (!this.preventGlobalDefine && !loader.factories.has(name)) {
+>>>>>>> upstream/18.0
 =======
         if (!this.preventGlobalDefine && !loader.factories.has(name)) {
 >>>>>>> upstream/18.0
@@ -9897,7 +10012,12 @@ class ModuleSetLoader extends loader.constructor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             watchListeners()
+=======
+            watchListeners(window),
+            watchAddedNodes(window)
+>>>>>>> upstream/18.0
 =======
             watchListeners(window),
             watchAddedNodes(window)
@@ -10243,6 +10363,7 @@ const ALLOWED_GLOBAL_KEYS = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "Chart", // Chart.js
 =======
     // Bootstrap.js is voluntarily ignored as it is deprecated
@@ -10550,6 +10671,8 @@ const ALLOWED_GLOBAL_KEYS = [
     "DOMPurify", // DOMPurify
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10701,6 +10824,9 @@ const ALLOWED_GLOBAL_KEYS = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10804,6 +10930,7 @@ const ALLOWED_GLOBAL_KEYS = [
     "L", // Leaflet
     "lamejs", // LameJS
     "luxon", // Luxon
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11138,10 +11265,13 @@ const ALLOWED_GLOBAL_KEYS = [
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     "odoo", // Odoo global object
     "owl", // Owl
     "pdfjsLib", // PDF JS
     "Popper", // Popper
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11377,6 +11507,8 @@ const ALLOWED_GLOBAL_KEYS = [
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11528,6 +11660,9 @@ const ALLOWED_GLOBAL_KEYS = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11758,7 +11893,11 @@ const moduleNamesCache = new Map();
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /** @type {Map<string, Record<string, any>>} */
+=======
+/** @type {Map<string, Record<string, unknown>>} */
+>>>>>>> upstream/18.0
 =======
 /** @type {Map<string, Record<string, unknown>>} */
 >>>>>>> upstream/18.0
@@ -12159,7 +12298,11 @@ export async function fetchModelDefinitions(modelNames) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             serverModelCache.set(modelName, modelDef);
+=======
+            serverModelCache.set(modelName, freezeModel(modelDef));
+>>>>>>> upstream/18.0
 =======
             serverModelCache.set(modelName, freezeModel(modelDef));
 >>>>>>> upstream/18.0
@@ -12520,8 +12663,11 @@ export async function fetchModelDefinitions(modelNames) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     return [...modelNames].map((modelName) => [modelName, serverModelCache.get(modelName)]);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12791,6 +12937,9 @@ export async function fetchModelDefinitions(modelNames) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13082,10 +13231,14 @@ export async function runTests(options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const [{ suites }] = await Promise.all([
         dryRun(() => describeDrySuite(fileSuffix, testModuleNames)),
         whenReady(),
     ]);
+=======
+    const { suites } = await dryRun(() => describeDrySuite(fileSuffix, testModuleNames));
+>>>>>>> upstream/18.0
 =======
     const { suites } = await dryRun(() => describeDrySuite(fileSuffix, testModuleNames));
 >>>>>>> upstream/18.0
@@ -13318,7 +13471,11 @@ export async function runTests(options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         moduleSetLoader.cleanup();
+=======
+        await moduleSetLoader.cleanup();
+>>>>>>> upstream/18.0
 =======
         await moduleSetLoader.cleanup();
 >>>>>>> upstream/18.0

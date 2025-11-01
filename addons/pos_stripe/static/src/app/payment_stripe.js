@@ -222,11 +222,26 @@ export class PaymentStripe extends PaymentInterface {
     }
 
     async capturePayment(paymentIntentId) {
+<<<<<<< HEAD
+=======
+        return this.capturePaymentStripe(paymentIntentId);
+    }
+
+    async capturePaymentStripe(paymentIntentId, amount = null, context = {}) {
+>>>>>>> upstream/18.0
         try {
             const data = await this.pos.data.silentCall(
                 "pos.payment.method",
                 "stripe_capture_payment",
+<<<<<<< HEAD
                 [paymentIntentId]
+=======
+                [paymentIntentId],
+                {
+                    amount,
+                    context,
+                }
+>>>>>>> upstream/18.0
             );
             if (data.error) {
                 throw data.error;

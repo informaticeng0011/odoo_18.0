@@ -903,6 +903,12 @@ publicWidget.registry.websiteSaleProductPageReviews = publicWidget.Widget.extend
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        const reviewsContent = this.el.querySelector("#o_product_page_reviews_content");
+        const reviewsTitle = this.el.querySelector(".o_product_page_reviews_title");
+        reviewsTitle.classList.toggle("collapsed", !reviewsContent.classList.contains("show"));
+>>>>>>> upstream/18.0
 =======
         const reviewsContent = this.el.querySelector("#o_product_page_reviews_content");
         const reviewsTitle = this.el.querySelector(".o_product_page_reviews_title");

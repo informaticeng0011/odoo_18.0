@@ -105,8 +105,15 @@ class PosPaymentMethod(models.Model):
 
         data = None
         if amount is not None:
+<<<<<<< HEAD
             data = {
                 "amount_to_capture": self._stripe_calculate_amount(amount),
+=======
+            # No rounding values stored in a model method
+            rounding = self.env.context.get('stripe_currency_rounding', 0.01)
+            data = {
+                "amount_to_capture": round(amount / rounding),
+>>>>>>> upstream/18.0
             }
 
         return self.sudo()._get_stripe_payment_provider()._stripe_make_request(endpoint, data)

@@ -63,6 +63,10 @@ export class CalendarCommonRenderer extends Component {
         this.popover = useCalendarPopover(this.constructor.components.Popover);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.timeFormat = is24HourFormat() ? "HH:mm" : "hh:mm a";
+>>>>>>> upstream/18.0
 =======
         this.timeFormat = is24HourFormat() ? "HH:mm" : "hh:mm a";
 >>>>>>> upstream/18.0
@@ -149,6 +153,7 @@ export class CalendarCommonRenderer extends Component {
     getStartTime(record) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const timeFormat = is24HourFormat() ? "HH:mm" : "hh:mm a";
         return record.start.toFormat(timeFormat);
     }
@@ -159,12 +164,17 @@ export class CalendarCommonRenderer extends Component {
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         return record.start.toFormat(this.timeFormat);
     }
 
     getEndTime(record) {
         return record.end.toFormat(this.timeFormat);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -245,8 +255,11 @@ export class CalendarCommonRenderer extends Component {
     }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     onEventContent({ event }) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     onEventContent(arg) {
@@ -257,6 +270,9 @@ export class CalendarCommonRenderer extends Component {
             arg.timeText = `${dateFmt(event.start)} - ${dateFmt(event.end)}`;
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -478,7 +494,10 @@ export class CalendarCommonRenderer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         el.classList.remove("fc-daygrid-more-link");
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

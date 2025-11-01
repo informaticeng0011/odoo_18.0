@@ -103,7 +103,11 @@ class AccountEdiXmlUBLPINTMY(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'company_id': partner.vat,
+=======
+                'company_id': partner.vat or 'NA',
+>>>>>>> upstream/18.0
 =======
                 'company_id': partner.vat or 'NA',
 >>>>>>> upstream/18.0

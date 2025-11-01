@@ -39,6 +39,7 @@ class L10nInWithholdWizard(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if len(active_ids) > 1:
             raise UserError(_("You can only create a withhold for only one record at a time."))
         if active_model not in ('account.move', 'account.payment') or not active_ids:
@@ -90,6 +91,8 @@ class L10nInWithholdWizard(models.TransientModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         if active_model not in ('account.move', 'account.payment') or not active_ids:
             raise UserError(_("TDS must be created from an Invoice or a Payment."))
         if len(active_ids) > 1:
@@ -117,6 +120,9 @@ class L10nInWithholdWizard(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -368,11 +374,14 @@ class L10nInWithholdWizard(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             elif wizard.related_payment_id and float_compare(wizard.related_payment_id.amount, sum(line.base for line in wizard.withhold_line_ids), precision_digits=precision) < 0:
                 message = _("The base amount of TDS lines is greater than the untaxed amount of the %s", wizard.type_name)
                 warnings['lower_payment_amount'] = {
                     'message': message
                 }
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

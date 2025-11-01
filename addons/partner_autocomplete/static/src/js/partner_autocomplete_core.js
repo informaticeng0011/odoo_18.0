@@ -3,6 +3,7 @@
 
 import { loadJS } from "@web/core/assets";
 import { _t } from "@web/core/l10n/translation";
+<<<<<<< HEAD
 import { browser } from "@web/core/browser/browser";
 import { KeepLast } from "@web/core/utils/concurrency";
 import { useService } from "@web/core/utils/hooks";
@@ -528,6 +529,12 @@ import { onWillStart } from "@odoo/owl";
 =======
 import { onWillStart } from "@odoo/owl";
 >>>>>>> upstream/18.0
+=======
+import { KeepLast } from "@web/core/utils/concurrency";
+import { useService } from "@web/core/utils/hooks";
+import { renderToMarkup } from "@web/core/utils/render";
+import { onWillStart } from "@odoo/owl";
+>>>>>>> upstream/18.0
 
 /**
  * Get list of companies via Autocomplete API
@@ -672,7 +679,10 @@ export function usePartnerAutocomplete() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1064,6 +1074,9 @@ export function usePartnerAutocomplete() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1458,9 +1471,12 @@ export function usePartnerAutocomplete() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         // Lazyload jsvat only if the component is being used.
         await loadJS("/partner_autocomplete/static/lib/jsvat.js");
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1785,6 +1801,7 @@ export function usePartnerAutocomplete() {
      * @returns {Promise}
      */
     function getCreateData(company, fieldsToKeep) {
+<<<<<<< HEAD
         return new Promise((resolve) => {
             // Fetch additional company info via Autocomplete Enrichment API
             const enrichPromise = enrichCompany(company);
@@ -1904,6 +1921,31 @@ export function usePartnerAutocomplete() {
             xhr.onerror = reject;
             xhr.send();
         });
+=======
+        return enrichCompany(company).then((companyData) => {
+            // Fetch additional company info via Autocomplete Enrichment API
+
+            if (companyData.error) {
+                if (companyData.error_message === 'Insufficient Credit') {
+                    notifyNoCredits();
+                }
+                else if (companyData.error_message === 'No Account Token') {
+                    notifyAccountToken();
+                }
+                else {
+                    notification.add(companyData.error_message);
+                }
+                companyData = {
+                    ...company,
+                    ...companyData,
+                };
+            }
+            return {
+                company: companyData,
+                logo: companyData.logo || false,
+            };
+        })
+>>>>>>> upstream/18.0
     }
 
     /**
@@ -1926,7 +1968,10 @@ export function usePartnerAutocomplete() {
         const suggestions = await keepLastOdoo.add(prom);
         await Promise.all(suggestions.map(async (suggestion) => {
             suggestion.query = value;  // Save queried value (name, VAT) for later
+<<<<<<< HEAD
             suggestion.logoUrl = await getClearbitLogoUrl(suggestion);
+=======
+>>>>>>> upstream/18.0
             suggestion.description = '';
             if (suggestion.city){
                 suggestion.description += suggestion.city;
@@ -1941,6 +1986,7 @@ export function usePartnerAutocomplete() {
     }
 
     /**
+<<<<<<< HEAD
      * Utility to wait for multiple promises
      * Promise.all will reject all promises whenever a promise is rejected
      * This utility will continue
@@ -1956,6 +2002,8 @@ export function usePartnerAutocomplete() {
     }
 
     /**
+=======
+>>>>>>> upstream/18.0
      * @private
      * @returns {Promise}
      */

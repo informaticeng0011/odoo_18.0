@@ -1380,7 +1380,11 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             test("should merge an ordered list into an unordered list", async () => {
+=======
+            test("should merge an ordered list into an unordered list (1)", async () => {
+>>>>>>> upstream/18.0
 =======
             test("should merge an ordered list into an unordered list (1)", async () => {
 >>>>>>> upstream/18.0
@@ -1589,6 +1593,11 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            });
+            test("should merge an ordered list into an unordered list (2)", async () => {
+>>>>>>> upstream/18.0
 =======
             });
             test("should merge an ordered list into an unordered list (2)", async () => {
@@ -1847,6 +1856,11 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            });
+            test("should merge an ordered list into an unordered list (3)", async () => {
+>>>>>>> upstream/18.0
 =======
             });
             test("should merge an ordered list into an unordered list (3)", async () => {
@@ -2105,6 +2119,11 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            });
+            test("should merge an ordered list into an unordered list (4)", async () => {
+>>>>>>> upstream/18.0
 =======
             });
             test("should merge an ordered list into an unordered list (4)", async () => {

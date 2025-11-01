@@ -54,14 +54,21 @@ export class VideoSelector extends Component {
             youtube: 'youtube',
             dailymotion: 'dailymotion',
             vimeo: 'vimeo',
+<<<<<<< HEAD
             youku: 'youku',
+=======
+>>>>>>> upstream/18.0
         };
 
         this.OPTIONS = {
             autoplay: {
                 label: _t("Autoplay"),
                 description: _t("Videos are muted when autoplay is enabled"),
+<<<<<<< HEAD
                 platforms: [this.PLATFORMS.youtube, this.PLATFORMS.dailymotion, this.PLATFORMS.vimeo],
+=======
+                platforms: [this.PLATFORMS.youtube, this.PLATFORMS.vimeo],
+>>>>>>> upstream/18.0
                 urlParameter: 'autoplay=1',
             },
             loop: {
@@ -71,7 +78,11 @@ export class VideoSelector extends Component {
             },
             hide_controls: {
                 label: _t("Hide player controls"),
+<<<<<<< HEAD
                 platforms: [this.PLATFORMS.youtube, this.PLATFORMS.dailymotion, this.PLATFORMS.vimeo],
+=======
+                platforms: [this.PLATFORMS.youtube, this.PLATFORMS.vimeo],
+>>>>>>> upstream/18.0
                 urlParameter: 'controls=0',
             },
             hide_fullscreen: {
@@ -80,6 +91,7 @@ export class VideoSelector extends Component {
                 urlParameter: 'fs=0',
                 isHidden: () => this.state.options.filter(option => option.id === 'hide_controls')[0].value,
             },
+<<<<<<< HEAD
             hide_dm_logo: {
                 label: _t("Hide Dailymotion logo"),
                 platforms: [this.PLATFORMS.dailymotion],
@@ -90,6 +102,8 @@ export class VideoSelector extends Component {
                 platforms: [this.PLATFORMS.dailymotion],
                 urlParameter: 'sharing-enable=0',
             },
+=======
+>>>>>>> upstream/18.0
         };
 
         this.state = useState({
@@ -336,6 +350,7 @@ export class VideoSelector extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             const { thumbnail_url: thumbnailSrc } = await this.http.get(`https://vimeo.com/api/oembed.json?url=http%3A//vimeo.com/${encodeURIComponent(videoId)}`);
             this.state.vimeoPreviews.push({
                 id: videoId,
@@ -343,6 +358,8 @@ export class VideoSelector extends Component {
                 src: `https://player.vimeo.com/video/${encodeURIComponent(videoId)}`
             });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -599,6 +616,9 @@ export class VideoSelector extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

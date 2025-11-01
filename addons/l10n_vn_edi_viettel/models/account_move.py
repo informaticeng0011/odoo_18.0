@@ -678,8 +678,12 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'buyerDistrictName': self.partner_id.state_id.name,
             'buyerCityName': self.partner_id.city,
+=======
+            'buyerCityName': self.partner_id.city or self.partner_id.state_id.name,
+>>>>>>> upstream/18.0
 =======
             'buyerCityName': self.partner_id.city or self.partner_id.state_id.name,
 >>>>>>> upstream/18.0
@@ -951,7 +955,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'itemTotalAmountWithoutTax': line.currency_id.round(line.price_unit * line.quantity) * sign,
+=======
+                'itemTotalAmountWithoutTax': line.currency_id.round(line.price_unit * line.quantity),
+>>>>>>> upstream/18.0
 =======
                 'itemTotalAmountWithoutTax': line.currency_id.round(line.price_unit * line.quantity),
 >>>>>>> upstream/18.0
@@ -1156,11 +1164,14 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'taxAmount': (line.price_total - line.price_subtotal) * sign,
                 'discount': line.discount,
                 'itemTotalAmountAfterDiscount': line.price_subtotal * sign,
                 'itemTotalAmountWithTax': line.price_total * sign,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1312,6 +1323,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

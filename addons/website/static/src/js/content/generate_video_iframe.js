@@ -9,8 +9,11 @@ const SUPPORTED_DOMAINS = [
     "player.vimeo.com",
     "vimeo.com",
     "dailymotion.com",
+<<<<<<< HEAD
     "player.youku.com",
     "youku.com",
+=======
+>>>>>>> upstream/18.0
 ];
 
 /**

@@ -25,6 +25,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* point_of_sale
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -125,6 +126,10 @@
 #
 >>>>>>> upstream/18.0
 =======
+#
+>>>>>>> upstream/18.0
+=======
+# * point_of_sale
 #
 >>>>>>> upstream/18.0
 =======
@@ -365,6 +370,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Wil Odoo, 2025
 # Gregor Flajs, 2025
 =======
@@ -878,6 +884,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # Gregor Flajs, 2025
 # Wil Odoo, 2025
 # Aleš Pipan, 2025
@@ -931,6 +939,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -979,6 +988,9 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# Jan Zorko <jan.zorko@implex.si>, 2025.
 >>>>>>> upstream/18.0
 =======
 # Jan Zorko <jan.zorko@implex.si>, 2025.
@@ -1059,6 +1071,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1702,6 +1715,9 @@ msgstr ""
 =======
 "POT-Creation-Date: 2025-10-24 18:36+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-10-24 18:36+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-10-06 22:21+0000\n"
 "Last-Translator: Jan Zorko <jan.zorko@implex.si>\n"
 "Language-Team: Slovenian <https://translate.odoo.com/projects/odoo-18/"
@@ -1730,6 +1746,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1783,6 +1802,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2008,6 +2028,11 @@ msgstr ""
 "n%100==4 ? 2 : 3;\n"
 "X-Generator: Weblate 5.12.2\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
+"n%100==4 ? 2 : 3;\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: point_of_sale
 #. odoo-python
@@ -2064,8 +2089,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This issue occurs because the quantity becomes zero after rounding during the conversion. To fix this, adjust the conversion factors or rounding method to ensure that even the smallest quantity in the original unit does not round down to zero in the target unit."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2217,6 +2245,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2505,7 +2536,11 @@ msgid "%(vatLabel)s: %(vatId)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(vatLabel)s: %(vatId)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(vatLabel)s: %(vatId)s"
 >>>>>>> upstream/18.0
@@ -2955,7 +2990,11 @@ msgid "1000"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "1000"
+>>>>>>> upstream/18.0
 =======
 msgstr "1000"
 >>>>>>> upstream/18.0
@@ -3266,7 +3305,11 @@ msgid "42"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "42"
+>>>>>>> upstream/18.0
 =======
 msgstr "42"
 >>>>>>> upstream/18.0
@@ -3732,11 +3775,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Dear <t t-out=\"object.partner_id.name or 'Valuable Customer'\">Azure Interior</t>,\n"
 "    </h4>\n"
 "    <p style=\"font-size: 13px;\">\n"
 "We have a limited-time offer only for you, enjoy a flat 20% off on your next purchase with us.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3890,6 +3936,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4068,9 +4117,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<p>Dear %(client_name)s,<br/>Here is your Receipt %(is_invoiced)sfor"
 "             %(pos_name)s amounting in %(amount)s from %(company_name)s. "
 "</p>"
+=======
+"<p>Dear %(client_name)s,<br/>Here is your Receipt %"
+"(is_invoiced)sfor             %(pos_name)s amounting in %(amount)s from %"
+"(company_name)s. </p>"
+>>>>>>> upstream/18.0
 =======
 "<p>Dear %(client_name)s,<br/>Here is your Receipt %"
 "(is_invoiced)sfor             %(pos_name)s amounting in %(amount)s from %"
@@ -4384,7 +4439,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                <i class=\"fa fa-info-circle me-1\" title=\"This setting is common to all PoS.\" pos-data-toggle=\"tooltip\"/>"
+=======
+"                                <i class=\"fa fa-info-circle me-1\" "
+"title=\"This setting is common to all PoS.\" pos-data-toggle=\"tooltip\"/>"
+>>>>>>> upstream/18.0
 =======
 "                                <i class=\"fa fa-info-circle me-1\" "
 "title=\"This setting is common to all PoS.\" pos-data-toggle=\"tooltip\"/>"
@@ -4683,11 +4743,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                    in order to install a Payment Terminal and make a fully integrated payment method."
 msgstr ""
 "<strong>&gt; Plačilni terminali</strong>\n"
 "                               za namestitev plačilnega terminala in vzpostavitev integriranega načina plačevanja."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4841,6 +4904,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5050,7 +5116,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5203,6 +5272,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5539,7 +5611,11 @@ msgid "Account Move"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Premik računa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Premik računa"
 >>>>>>> upstream/18.0
@@ -5947,8 +6023,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Account used as outstanding account when creating accounting payment records"
 " for bank payments."
+=======
+"Account used as outstanding account when creating accounting payment records "
+"for bank payments."
+>>>>>>> upstream/18.0
 =======
 "Account used as outstanding account when creating accounting payment records "
 "for bank payments."
@@ -6410,8 +6491,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Vsi razpoložljivi ceniki morajo biti v enaki valuti, kot je valuta podjetja,"
 " ali kot je nastavljena v dnevniku na tej prodajni točki, če uporabljate "
+=======
+"Vsi razpoložljivi ceniki morajo biti v enaki valuti, kot je valuta podjetja, "
+"ali kot je nastavljena v dnevniku na tej prodajni točki, če uporabljate "
+>>>>>>> upstream/18.0
 =======
 "Vsi razpoložljivi ceniki morajo biti v enaki valuti, kot je valuta podjetja, "
 "ali kot je nastavljena v dnevniku na tej prodajni točki, če uporabljate "
@@ -6673,8 +6759,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "All payment methods must be in the same currency as the Sales Journal or the"
 " company currency if that is not set."
+=======
+"All payment methods must be in the same currency as the Sales Journal or the "
+"company currency if that is not set."
+>>>>>>> upstream/18.0
 =======
 "All payment methods must be in the same currency as the Sales Journal or the "
 "company currency if that is not set."
@@ -7067,6 +7158,10 @@ msgstr "Skupni znesek"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: code:addons/point_of_sale/static/src/customer_display/customer_facing_qr.xml:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/point_of_sale/static/src/customer_display/customer_facing_qr.xml:0
 >>>>>>> upstream/18.0
@@ -7513,7 +7608,10 @@ msgstr "Notranja identifikacija tiskalnika"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7671,6 +7769,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7909,6 +8010,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Obrtniški kruh iz kislega testa s hrustljavo skorjo in mehko notranjostjo."
+>>>>>>> upstream/18.0
 =======
 "Obrtniški kruh iz kislega testa s hrustljavo skorjo in mehko notranjostjo."
 >>>>>>> upstream/18.0
@@ -8302,7 +8407,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "At the session closing: A picking is created for the entire session when it's closed\n"
+=======
+"At the session closing: A picking is created for the entire session when "
+"it's closed\n"
+>>>>>>> upstream/18.0
 =======
 "At the session closing: A picking is created for the entire session when "
 "it's closed\n"
@@ -8674,7 +8784,11 @@ msgid "Backend"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zaledni del"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zaledni del"
 >>>>>>> upstream/18.0
@@ -8951,7 +9065,11 @@ msgid "Bagel"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Štručka"
+>>>>>>> upstream/18.0
 =======
 msgstr "Štručka"
 >>>>>>> upstream/18.0
@@ -9377,7 +9495,11 @@ msgid "Bakery"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pekarna"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pekarna"
 >>>>>>> upstream/18.0
@@ -9800,7 +9922,11 @@ msgid "Bakery Shop"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pekarna"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pekarna"
 >>>>>>> upstream/18.0
@@ -10239,7 +10365,11 @@ msgid "Bar"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Bar"
 >>>>>>> upstream/18.0
@@ -10683,8 +10813,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "kartice, programi zvestobe. Določite lahko posebne pogoje (izdelki, stranke,"
 " najmanjši znesek nakupa, obdobje). Nagrade so lahko popusti (% or znesek) "
+=======
+"kartice, programi zvestobe. Določite lahko posebne pogoje (izdelki, stranke, "
+"najmanjši znesek nakupa, obdobje). Nagrade so lahko popusti (% or znesek) "
+>>>>>>> upstream/18.0
 =======
 "kartice, programi zvestobe. Določite lahko posebne pogoje (izdelki, stranke, "
 "najmanjši znesek nakupa, obdobje). Nagrade so lahko popusti (% or znesek) "
@@ -11188,7 +11323,11 @@ msgid "Cash Bakery"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pekarna denar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pekarna denar"
 >>>>>>> upstream/18.0
@@ -11694,7 +11833,11 @@ msgid "Cash Clothes Shop"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Trgovina z oblačili za gotovino"
+>>>>>>> upstream/18.0
 =======
 msgstr "Trgovina z oblačili za gotovino"
 >>>>>>> upstream/18.0
@@ -12206,7 +12349,11 @@ msgid "Cash Furn. Shop"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Trgovina s pohištvom za gotovino"
+>>>>>>> upstream/18.0
 =======
 msgstr "Trgovina s pohištvom za gotovino"
 >>>>>>> upstream/18.0
@@ -12796,7 +12943,11 @@ msgid "Chairs"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Stolice"
+=======
+msgstr "Stoli"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stoli"
 >>>>>>> upstream/18.0
@@ -12890,6 +13041,7 @@ msgstr "Spremeni tip"
 #: model:ir.model.fields,help:point_of_sale.field_product_product__to_weight
 #: model:ir.model.fields,help:point_of_sale.field_product_template__to_weight
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13092,6 +13244,9 @@ msgid ""
 =======
 "Check if the product should be weighted using the hardware scale integration."
 >>>>>>> upstream/18.0
+=======
+"Check if the product should be weighted using the hardware scale integration."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: point_of_sale
@@ -13123,7 +13278,11 @@ msgid "Check if you want this product to appear in the Point of Sale."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Preverite, ali želite, da se ta izdelek prikaže na prodajni točki"
+=======
+msgstr "Preverite, ali želite, da se ta izdelek prikaže na prodajni točki."
+>>>>>>> upstream/18.0
 =======
 msgstr "Preverite, ali želite, da se ta izdelek prikaže na prodajni točki."
 >>>>>>> upstream/18.0
@@ -13314,7 +13473,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13468,6 +13630,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13679,7 +13844,11 @@ msgid "Cinnamon Roll"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cimetova rolada"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cimetova rolada"
 >>>>>>> upstream/18.0
@@ -14379,7 +14548,11 @@ msgid "Connection failed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Connection failedPovezava ni uspela"
+>>>>>>> upstream/18.0
 =======
 msgstr "Connection failedPovezava ni uspela"
 >>>>>>> upstream/18.0
@@ -14591,7 +14764,11 @@ msgid "Connection to IoT Box failed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Povezava z IoT Boxom ni uspela"
+>>>>>>> upstream/18.0
 =======
 msgstr "Povezava z IoT Boxom ni uspela"
 >>>>>>> upstream/18.0
@@ -14835,8 +15012,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Conversion Error: The following unit of measure conversions result in a zero"
 " quantity due to rounding:"
+=======
+"Conversion Error: The following unit of measure conversions result in a zero "
+"quantity due to rounding:"
+>>>>>>> upstream/18.0
 =======
 "Conversion Error: The following unit of measure conversions result in a zero "
 "quantity due to rounding:"
@@ -15563,6 +15745,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Določite najmanjši kovanec valute, ki se uporablja za plačevanje z gotovino."
+>>>>>>> upstream/18.0
 =======
 "Določite najmanjši kovanec valute, ki se uporablja za plačevanje z gotovino."
 >>>>>>> upstream/18.0
@@ -16171,7 +16357,11 @@ msgid "Dismiss"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zavrzi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zavrzi"
 >>>>>>> upstream/18.0
@@ -16447,9 +16637,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            Proxy where the printer can be found, and a list of product categories.\n"
 "            An Order Printer will only print updates for products belonging to one of\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -16601,6 +16794,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16790,7 +16986,11 @@ msgid "Edited"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Urejeno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Urejeno"
 >>>>>>> upstream/18.0
@@ -17089,8 +17289,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Ensure that there is an existing bank journal. Check if chart of accounts is"
 " installed in your company."
+=======
+"Ensure that there is an existing bank journal. Check if chart of accounts is "
+"installed in your company."
+>>>>>>> upstream/18.0
 =======
 "Ensure that there is an existing bank journal. Check if chart of accounts is "
 "installed in your company."
@@ -17451,8 +17656,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Flaky croissant filled with creamy cheese, a savory twist on a classic."
+=======
+msgid "Flaky croissant filled with creamy cheese, a savory twist on a classic."
+>>>>>>> upstream/18.0
 =======
 msgid "Flaky croissant filled with creamy cheese, a savory twist on a classic."
 >>>>>>> upstream/18.0
@@ -17991,7 +18200,11 @@ msgid "Hearty multigrain loaf with seeds and grains for extra nutrition."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Obilen več zrnati kruh s semeni in žiti za dodatno hranilno vrednost."
+>>>>>>> upstream/18.0
 =======
 msgstr "Obilen več zrnati kruh s semeni in žiti za dodatno hranilno vrednost."
 >>>>>>> upstream/18.0
@@ -18475,8 +18688,12 @@ msgid "Improve navigation for imprecise industrial touchscreens"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Izboljšajte navigacijo pri nenatančnih industrijskih zaslonih na dotik"
+=======
+msgstr "Izboljšajte navigacijo pri nenatančnih industrijskih zaslonih na dotik"
+>>>>>>> upstream/18.0
 =======
 msgstr "Izboljšajte navigacijo pri nenatančnih industrijskih zaslonih na dotik"
 >>>>>>> upstream/18.0
@@ -18762,7 +18979,11 @@ msgid "Install App"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Namestite aplikacijo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Namestite aplikacijo"
 >>>>>>> upstream/18.0
@@ -19164,7 +19385,11 @@ msgid "Integration"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Integracija"
+>>>>>>> upstream/18.0
 =======
 msgstr "Integracija"
 >>>>>>> upstream/18.0
@@ -19856,7 +20081,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Overrides the company's receivable account (for Point of Sale) used in the journal entries."
+=======
+"Overrides the company's receivable account (for Point of Sale) used in the "
+"journal entries."
+>>>>>>> upstream/18.0
 =======
 "Overrides the company's receivable account (for Point of Sale) used in the "
 "journal entries."
@@ -20118,10 +20348,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Defines the journal where to book the accumulated payments (or individual payment if Identify Customer is true) after closing the session.\n"
 "For cash journal, we directly write to the default account in the journal via statement lines.\n"
 "For bank journal, we write to the outstanding account specified in this payment method.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -20275,6 +20508,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -20521,8 +20757,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Make several pricelists available in the Point of Sale. You can also apply a"
 " pricelist to specific customers from their contact form (in Sales tab). To "
+=======
+"Make several pricelists available in the Point of Sale. You can also apply a "
+"pricelist to specific customers from their contact form (in Sales tab). To "
+>>>>>>> upstream/18.0
 =======
 "Make several pricelists available in the Point of Sale. You can also apply a "
 "pricelist to specific customers from their contact form (in Sales tab). To "
@@ -20881,7 +21122,11 @@ msgid "Marc Demo"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Marc Demo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Marc Demo"
 >>>>>>> upstream/18.0
@@ -21478,7 +21723,11 @@ msgid "Multigrain Bread"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Večzrnati kruh"
+>>>>>>> upstream/18.0
 =======
 msgstr "Večzrnati kruh"
 >>>>>>> upstream/18.0
@@ -21853,7 +22102,11 @@ msgid "My Sessions"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Moje seje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Moje seje"
 >>>>>>> upstream/18.0
@@ -22216,8 +22469,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "No chart of account configured, go to the \"configuration / settings\" menu,"
 " and install one from the Invoicing tab."
+=======
+"No chart of account configured, go to the \"configuration / settings\" menu, "
+"and install one from the Invoicing tab."
+>>>>>>> upstream/18.0
 =======
 "No chart of account configured, go to the \"configuration / settings\" menu, "
 "and install one from the Invoicing tab."
@@ -22876,7 +23134,10 @@ msgstr "Številka naročila"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -23030,6 +23291,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -23193,7 +23457,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            order updates in the kitchen/bar when the waiter updates the order."
+=======
+"            order updates in the kitchen/bar when the waiter updates the "
+"order."
+>>>>>>> upstream/18.0
 =======
 "            order updates in the kitchen/bar when the waiter updates the "
 "order."
@@ -23583,7 +23852,11 @@ msgid "Other Devices"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Druge naprave"
+>>>>>>> upstream/18.0
 =======
 msgstr "Druge naprave"
 >>>>>>> upstream/18.0
@@ -23991,7 +24264,11 @@ msgid "Others"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ostali"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ostali"
 >>>>>>> upstream/18.0
@@ -24445,7 +24722,11 @@ msgid "Outstanding Account"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Neporavnani račun"
+>>>>>>> upstream/18.0
 =======
 msgstr "Neporavnani račun"
 >>>>>>> upstream/18.0
@@ -25014,7 +25295,11 @@ msgid "Pain au Chocolat"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Čokoladna torta"
+>>>>>>> upstream/18.0
 =======
 msgstr "Čokoladna torta"
 >>>>>>> upstream/18.0
@@ -25432,7 +25717,11 @@ msgid "Pastries"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pecivo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pecivo"
 >>>>>>> upstream/18.0
@@ -25999,7 +26288,11 @@ msgid "Please check if the IoT Box is still connected."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Preverite, ali je IoT Box še vedno povezan."
+>>>>>>> upstream/18.0
 =======
 msgstr "Preverite, ali je IoT Box še vedno povezan."
 >>>>>>> upstream/18.0
@@ -26206,8 +26499,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Some browsers don't allow HTTP calls from websites to devices in the network (for security reasons). If it is the case, you will need to follow Odoo's documentation for 'Self-signed certificate for ePOS printers' and 'Secure connection (HTTPS)' to solve the issue. "
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -26359,6 +26655,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -26524,7 +26823,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Please close and validate the following open PoS Sessions before modifying this payment method.\n"
+=======
+"Please close and validate the following open PoS Sessions before modifying "
+"this payment method.\n"
+>>>>>>> upstream/18.0
 =======
 "Please close and validate the following open PoS Sessions before modifying "
 "this payment method.\n"
@@ -26781,8 +27085,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Please create/select a Point of Sale above to show the configuration "
 "options."
+=======
+"Please create/select a Point of Sale above to show the configuration options."
+>>>>>>> upstream/18.0
 =======
 "Please create/select a Point of Sale above to show the configuration options."
 >>>>>>> upstream/18.0
@@ -26993,6 +27301,7 @@ msgstr "Prosim vnesite stranko za to prodajo."
 
 #. module: point_of_sale
 #. odoo-javascript
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -27312,6 +27621,10 @@ msgstr ""
 #: code:addons/point_of_sale/static/src/customer_display/customer_facing_qr.js:0
 >>>>>>> upstream/18.0
 =======
+#: code:addons/point_of_sale/static/src/customer_display/customer_facing_qr.js:0
+>>>>>>> upstream/18.0
+=======
+#: code:addons/point_of_sale/static/src/app/utils/qr_code_popup/qr_code_popup.js:0
 #: code:addons/point_of_sale/static/src/customer_display/customer_facing_qr.js:0
 >>>>>>> upstream/18.0
 =======
@@ -28268,7 +28581,11 @@ msgid "Product Description"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Opis izdelka"
+>>>>>>> upstream/18.0
 =======
 msgstr "Opis izdelka"
 >>>>>>> upstream/18.0
@@ -28870,6 +29187,7 @@ msgstr "Škrlatna"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "QR Code"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -28906,6 +29224,11 @@ msgstr "QR Koda"
 msgstr "QR Koda"
 >>>>>>> upstream/18.0
 =======
+msgstr "QR Koda"
+>>>>>>> upstream/18.0
+=======
+#: code:addons/point_of_sale/static/src/customer_display/customer_facing_qr.xml:0
+msgid "QR Code"
 msgstr "QR Koda"
 >>>>>>> upstream/18.0
 =======
@@ -29659,7 +29982,11 @@ msgid "Receipt Printer"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tiskalnik računov"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tiskalnik računov"
 >>>>>>> upstream/18.0
@@ -30073,8 +30400,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Reversal of POS closing entry %(entry)s for order %(order)s from session "
 "%(session)s"
+=======
+"Reversal of POS closing entry %(entry)s for order %(order)s from session %"
+"(session)s"
+>>>>>>> upstream/18.0
 =======
 "Reversal of POS closing entry %(entry)s for order %(order)s from session %"
 "(session)s"
@@ -30453,7 +30785,11 @@ msgid "Rounding"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zaokroževanje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zaokroževanje"
 >>>>>>> upstream/18.0
@@ -31003,7 +31339,11 @@ msgid "Scan"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Skeniraj"
+>>>>>>> upstream/18.0
 =======
 msgstr "Skeniraj"
 >>>>>>> upstream/18.0
@@ -31717,6 +32057,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "Mehko testo z maslenim cimetovim nadevom, prelito z glazuro iz kremnega "
 "sira."
@@ -31936,6 +32277,9 @@ msgstr ""
 =======
 "Mehko testo z maslenim cimetovim nadevom, prelito z glazuro iz kremnega "
 "sira."
+>>>>>>> upstream/18.0
+=======
+"Mehko testo z maslenim cimetovim nadevom, prelito z glazuro iz kremnega sira."
 >>>>>>> upstream/18.0
 =======
 "Mehko testo z maslenim cimetovim nadevom, prelito z glazuro iz kremnega sira."
@@ -32517,7 +32861,11 @@ msgid "Tax Mapping of Fiscal Position"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Davčno mapiranje fiskalnega položaja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Davčno mapiranje fiskalnega položaja"
 >>>>>>> upstream/18.0
@@ -33037,8 +33385,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Prodajna točka  ni našla nobenega izdelka, stranke, zaposlenega ali dejanja,"
 " povezanega s skenirano črtno kodo"
+=======
+"Prodajna točka  ni našla nobenega izdelka, stranke, zaposlenega ali dejanja, "
+"povezanega s skenirano črtno kodo"
+>>>>>>> upstream/18.0
 =======
 "Prodajna točka  ni našla nobenega izdelka, stranke, zaposlenega ali dejanja, "
 "povezanega s skenirano črtno kodo"
@@ -33315,9 +33668,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The amount of your payment lines must be rounded to validate the transaction.\n"
 "The rounding precision is %s so you should set %s as payment amount instead of %s."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -33469,6 +33825,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -33578,6 +33937,7 @@ msgstr ""
 #. module: point_of_sale
 #. odoo-python
 #: code:addons/point_of_sale/models/pos_config.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -33983,6 +34343,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "The cash rounding strategy of the point of sale %(pos)s must be: '%(value)s'"
 msgstr ""
@@ -34037,6 +34399,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -34273,6 +34638,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -34605,8 +34973,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The default tip product is missing. Please manually specify the tip product."
 " (See Tips field.)"
+=======
+"The default tip product is missing. Please manually specify the tip product. "
+"(See Tips field.)"
+>>>>>>> upstream/18.0
 =======
 "The default tip product is missing. Please manually specify the tip product. "
 "(See Tips field.)"
@@ -34887,8 +35260,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The invoice journal must be in the same currency as the Sales Journal or the"
 " company currency if that is not set."
+=======
+"The invoice journal must be in the same currency as the Sales Journal or the "
+"company currency if that is not set."
+>>>>>>> upstream/18.0
 =======
 "The invoice journal must be in the same currency as the Sales Journal or the "
 "company currency if that is not set."
@@ -35153,8 +35531,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The money counted doesn't match what we expected. Want to log the difference"
 " for the books?"
+=======
+"The money counted doesn't match what we expected. Want to log the difference "
+"for the books?"
+>>>>>>> upstream/18.0
 =======
 "The money counted doesn't match what we expected. Want to log the difference "
 "for the books?"
@@ -35432,7 +35815,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -35591,6 +35977,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -35770,8 +36159,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "selected category trees. If no category is specified, all available products"
 " will be shown"
+=======
+"selected category trees. If no category is specified, all available products "
+"will be shown"
+>>>>>>> upstream/18.0
 =======
 "selected category trees. If no category is specified, all available products "
 "will be shown"
@@ -36041,8 +36435,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The pricelist used if no customer is selected or if the customer has no Sale"
 " Pricelist configured if any."
+=======
+"The pricelist used if no customer is selected or if the customer has no Sale "
+"Pricelist configured if any."
+>>>>>>> upstream/18.0
 =======
 "The pricelist used if no customer is selected or if the customer has no Sale "
 "Pricelist configured if any."
@@ -36328,6 +36727,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The requested quantity to be refunded is higher than the refundable "
 "quantity."
 =======
@@ -36473,6 +36873,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "The requested quantity to be refunded is higher than the refundable quantity."
 msgstr ""
 
@@ -36485,6 +36887,9 @@ msgid "The search on Order Number only supports up to 3 digits."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -36587,8 +36992,12 @@ msgstr "Seja je bila odprta predolgo. Razmislite, da jo zaprete."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "The session is being closed by another user. The page will be reloaded."
+=======
+msgid "The session is being closed by another user. The page will be reloaded."
+>>>>>>> upstream/18.0
 =======
 msgid "The session is being closed by another user. The page will be reloaded."
 >>>>>>> upstream/18.0
@@ -36823,8 +37232,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The transactions are processed by Razorpay. Set your Razorpay credentials on"
 " the related payment method."
+=======
+"The transactions are processed by Razorpay. Set your Razorpay credentials on "
+"the related payment method."
+>>>>>>> upstream/18.0
 =======
 "The transactions are processed by Razorpay. Set your Razorpay credentials on "
 "the related payment method."
@@ -37081,8 +37495,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The transactions are processed by Six. Set the IP address of the terminal on"
 " the related payment method."
+=======
+"The transactions are processed by Six. Set the IP address of the terminal on "
+"the related payment method."
+>>>>>>> upstream/18.0
 =======
 "The transactions are processed by Six. Set the IP address of the terminal on "
 "the related payment method."
@@ -37339,8 +37758,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The transactions are processed by Stripe. Set your Stripe credentials on the"
 " related payment method."
+=======
+"The transactions are processed by Stripe. Set your Stripe credentials on the "
+"related payment method."
+>>>>>>> upstream/18.0
 =======
 "The transactions are processed by Stripe. Set your Stripe credentials on the "
 "related payment method."
@@ -37620,11 +38044,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "There are still orders in draft state in the session. Pay or cancel the following orders to validate the session:\n"
 "%s"
 msgstr ""
 "V tej seji so še vedno naročila v osnutku. Za potrditev seje plačajte ali prekličite naročila:\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -37778,6 +38205,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -37955,6 +38385,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "There is no cash payment method available in this point of sale to handle the change.\n"
 "\n"
 " Please pay the exact amount or add a cash payment method in the point of sale configuration"
@@ -37963,6 +38394,8 @@ msgstr ""
 "\n"
 " Potrebno je plačilo v točnem znesku ali pa dodati način plačila v POS nastavitve."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -38120,6 +38553,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -38317,8 +38753,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This field depicts the maximum difference allowed between the ending balance"
 " and the theoretical cash when closing a session, for non-POS managers. If "
+=======
+"This field depicts the maximum difference allowed between the ending balance "
+"and the theoretical cash when closing a session, for non-POS managers. If "
+>>>>>>> upstream/18.0
 =======
 "This field depicts the maximum difference allowed between the ending balance "
 "and the theoretical cash when closing a session, for non-POS managers. If "
@@ -38596,8 +39037,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This is useful for restaurants with onsite and take-away services that imply"
 " specific tax rates."
+=======
+"This is useful for restaurants with onsite and take-away services that imply "
+"specific tax rates."
+>>>>>>> upstream/18.0
 =======
 "This is useful for restaurants with onsite and take-away services that imply "
 "specific tax rates."
@@ -38871,7 +39317,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                } orders in the browser. You will lose all the data. This operation cannot be undone."
+=======
+"                } orders in the browser. You will lose all the data. This "
+"operation cannot be undone."
+>>>>>>> upstream/18.0
 =======
 "                } orders in the browser. You will lose all the data. This "
 "operation cannot be undone."
@@ -39083,6 +39534,7 @@ msgid ""
 msgstr ""
 
 #. module: point_of_sale
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -39633,6 +40085,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/point_of_sale/models/pos_order.py:0
 msgid ""
@@ -39689,6 +40143,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -39972,7 +40429,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Deleting a product available in a session would be like attempting to snatch a hamburger from a customer’s hand mid-bite; chaos will ensue as ketchup and mayo go flying everywhere!"
+=======
+"Deleting a product available in a session would be like attempting to snatch "
+"a hamburger from a customer’s hand mid-bite; chaos will ensue as ketchup and "
+"mayo go flying everywhere!"
+>>>>>>> upstream/18.0
 =======
 "Deleting a product available in a session would be like attempting to snatch "
 "a hamburger from a customer’s hand mid-bite; chaos will ensue as ketchup and "
@@ -40455,7 +40918,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Please set corresponding tax account in each repartition line of the following taxes: \n"
+=======
+"Please set corresponding tax account in each repartition line of the "
+"following taxes: \n"
+>>>>>>> upstream/18.0
 =======
 "Please set corresponding tax account in each repartition line of the "
 "following taxes: \n"
@@ -40801,7 +41269,11 @@ msgid "Unsupported search operation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nepodprta iskalna operacija"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nepodprta iskalna operacija"
 >>>>>>> upstream/18.0
@@ -41064,8 +41536,12 @@ msgid "Use fiscal positions to get different taxes by order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Uporaba davčnih območji za pridobitev različnih davkov po vrstnem redu"
+=======
+msgstr "Uporaba davčnih območji za pridobitev različnih davkov po vrstnem redu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Uporaba davčnih območji za pridobitev različnih davkov po vrstnem redu"
 >>>>>>> upstream/18.0
@@ -41440,8 +41916,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "accounting journal for all the orders not invoiced. Invoices are recorded in"
 " accounting separately."
+=======
+"accounting journal for all the orders not invoiced. Invoices are recorded in "
+"accounting separately."
+>>>>>>> upstream/18.0
 =======
 "accounting journal for all the orders not invoiced. Invoices are recorded in "
 "accounting separately."
@@ -41781,7 +42262,11 @@ msgid "XL"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "XL"
+>>>>>>> upstream/18.0
 =======
 msgstr "XL"
 >>>>>>> upstream/18.0
@@ -42189,7 +42674,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You are trying to sell products with serial/lot numbers, but some of them are not set.\n"
+=======
+"You are trying to sell products with serial/lot numbers, but some of them "
+"are not set.\n"
+>>>>>>> upstream/18.0
 =======
 "You are trying to sell products with serial/lot numbers, but some of them "
 "are not set.\n"
@@ -42480,8 +42970,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot archive '%(picking_type)s' as it is used by POS configuration "
 "'%(config)s'."
+=======
+"You cannot archive '%(picking_type)s' as it is used by POS configuration '%"
+"(config)s'."
+>>>>>>> upstream/18.0
 =======
 "You cannot archive '%(picking_type)s' as it is used by POS configuration '%"
 "(config)s'."
@@ -42727,7 +43222,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -42772,6 +43270,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -42920,7 +43421,10 @@ msgstr "Pos kategorije ne morete izbrisati, dokler je seja še vedno odprta."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -43274,6 +43778,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -43633,12 +44140,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/point_of_sale/models/account_cash_rounding.py:0
 #, python-format
 msgid ""
 "You cannot delete a rounding method that is used in a Point of Sale "
 "configuration."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -43658,6 +44168,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -43679,6 +44192,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -44041,8 +44557,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You must set the iot box's IP address to use an IoT-connected screen. You'll"
 " find the field under the 'IoT Box' option."
+=======
+"You must set the iot box's IP address to use an IoT-connected screen. You'll "
+"find the field under the 'IoT Box' option."
+>>>>>>> upstream/18.0
 =======
 "You must set the iot box's IP address to use an IoT-connected screen. You'll "
 "find the field under the 'IoT Box' option."
@@ -44419,7 +44940,11 @@ msgid "by Email"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "po e-pošti"
+>>>>>>> upstream/18.0
 =======
 msgstr "po e-pošti"
 >>>>>>> upstream/18.0
@@ -44902,12 +45427,15 @@ msgstr "popust"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/app/screens/receipt_screen/receipt_screen.xml:0
 msgid "e.g. 0123456789"
 msgstr ""
 
 #. module: point_of_sale
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -45257,12 +45785,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/app/screens/receipt_screen/receipt_screen.xml:0
 msgid "e.g. john.doe@mail.com"
 msgstr ""
 
 #. module: point_of_sale
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -45641,7 +46172,11 @@ msgid "in"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "v"
+>>>>>>> upstream/18.0
 =======
 msgstr "v"
 >>>>>>> upstream/18.0
@@ -46199,6 +46734,7 @@ msgstr "z uporabo"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #. module: point_of_sale
 #. odoo-javascript
@@ -46213,6 +46749,8 @@ msgid ""
 "{{ line.has_valid_product_lot() ? 'Valid product lot' : 'Invalid product "
 "lot'}}"
 msgstr ""
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
