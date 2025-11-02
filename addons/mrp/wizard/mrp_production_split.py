@@ -48,7 +48,11 @@ class MrpProductionSplit(models.TransientModel):
                 commands.append(Command.create({
                     'quantity': quantity,
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'user_id': wizard.production_id.user_id,
+=======
+                    'user_id': wizard.production_id.user_id.id,
+>>>>>>> upstream/18.0
 =======
                     'user_id': wizard.production_id.user_id.id,
 >>>>>>> upstream/18.0
@@ -58,7 +62,11 @@ class MrpProductionSplit(models.TransientModel):
             commands.append(Command.create({
                 'quantity': remaining_quantity,
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'user_id': wizard.production_id.user_id,
+=======
+                'user_id': wizard.production_id.user_id.id,
+>>>>>>> upstream/18.0
 =======
                 'user_id': wizard.production_id.user_id.id,
 >>>>>>> upstream/18.0

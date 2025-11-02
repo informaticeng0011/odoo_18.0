@@ -53,7 +53,10 @@ export class VideoSelector extends Component {
             dailymotion: "dailymotion",
             vimeo: "vimeo",
 <<<<<<< HEAD
+<<<<<<< HEAD
             youku: "youku",
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         };
@@ -65,7 +68,10 @@ export class VideoSelector extends Component {
                 platforms: [
                     this.PLATFORMS.youtube,
 <<<<<<< HEAD
+<<<<<<< HEAD
                     this.PLATFORMS.dailymotion,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                     this.PLATFORMS.vimeo,
@@ -82,7 +88,10 @@ export class VideoSelector extends Component {
                 platforms: [
                     this.PLATFORMS.youtube,
 <<<<<<< HEAD
+<<<<<<< HEAD
                     this.PLATFORMS.dailymotion,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                     this.PLATFORMS.vimeo,
@@ -97,6 +106,7 @@ export class VideoSelector extends Component {
                     this.state.options.filter((option) => option.id === "hide_controls")[0].value,
             },
 <<<<<<< HEAD
+<<<<<<< HEAD
             hide_dm_logo: {
                 label: _t("Hide Dailymotion logo"),
                 platforms: [this.PLATFORMS.dailymotion],
@@ -107,6 +117,8 @@ export class VideoSelector extends Component {
                 platforms: [this.PLATFORMS.dailymotion],
                 urlParameter: "sharing-enable=0",
             },
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         };

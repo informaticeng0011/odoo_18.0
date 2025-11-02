@@ -7,7 +7,10 @@ export function clickBtn(buttonName) {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 export function negate(selector, parent = "body") {
     return `${parent}:not(:has(${selector}))`;
 }
@@ -20,6 +23,9 @@ export function negateStep(step) {
     };
 }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 export function checkBtn(buttonName) {
     return {
@@ -132,6 +138,10 @@ export function changeLanguage(language) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0

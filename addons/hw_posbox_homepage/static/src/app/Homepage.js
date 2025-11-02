@@ -104,6 +104,7 @@ export class Homepage extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <div t-if="!this.store.advanced and !state.data.is_certificate_ok" class="alert alert-warning" role="alert">
                 <p class="m-0 fw-bold">
 <<<<<<< HEAD
@@ -1039,6 +1040,8 @@ export class Homepage extends Component {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             <div t-if="!state.data.is_certificate_ok and state.data.server_status !== 'Not Configured'" class="alert alert-warning" role="alert">
                 <p class="m-0 fw-bold">
                     This IoT Box doesn't have a valid certificate.
@@ -1063,6 +1066,9 @@ export class Homepage extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

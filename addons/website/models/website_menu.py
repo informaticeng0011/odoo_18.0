@@ -118,7 +118,10 @@ class Menu(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -300,6 +303,9 @@ class Menu(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -456,7 +462,11 @@ class Menu(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             Note: Particulary useful when installing a module that adds a menu like
+=======
+            Note: Particularly useful when installing a module that adds a menu like
+>>>>>>> upstream/18.0
 =======
             Note: Particularly useful when installing a module that adds a menu like
 >>>>>>> upstream/18.0
@@ -680,6 +690,7 @@ class Menu(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 # create for every site
                 w_vals = [dict(vals, **{
                     'website_id': website.id,
@@ -689,6 +700,8 @@ class Menu(models.Model):
                 # if creating a default menu, we should also save it as such
                 default_menu = self.env.ref('website.main_menu', raise_if_not_found=False)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -853,6 +866,9 @@ class Menu(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1066,12 +1082,18 @@ class Menu(models.Model):
             unslug_url = self.env['ir.http']._unslug_url
             if unslug_url(menu_url.path) == unslug_url(request_url.path):
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
                 # By default we compare the unslug version of the current URL
                 # with the menu URL but if the menu is linked to a page we don't
                 # consider it active if the paths don't match exactly.
                 if self.page_id and menu_url.path != request_url.path:
                     return False
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 if not (
                     set(menu_url.decode_query().items(multi=True))

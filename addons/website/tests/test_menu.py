@@ -58,6 +58,10 @@ from odoo.tests import common
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.exceptions import UserError
+>>>>>>> upstream/18.0
 =======
 from odoo.exceptions import UserError
 >>>>>>> upstream/18.0
@@ -491,6 +495,7 @@ class TestMenu(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -591,6 +596,8 @@ class TestMenu(common.TransactionCase):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
         # Test with a menu that is linked to a page
         result = website_1.new_page(
             name='/sub/page-3',
@@ -606,6 +613,9 @@ class TestMenu(common.TransactionCase):
             self.request_url_mock = 'http://localhost:8069/sub/slug-3'
             self.assertFalse(menu._is_active(), "Page linked, same unslug, should not match")
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_07_menu_hierarchy_validation(self):
         Menu = self.env['website.menu']
@@ -700,6 +710,9 @@ class TestMenu(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

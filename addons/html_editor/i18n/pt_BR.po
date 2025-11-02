@@ -1,17 +1,26 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* html_editor
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Tiffany Chang, 2024
 # Martin Trigaux, 2024
 # Maitê Dietze, 2025
 # Wil Odoo, 2025
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -457,6 +466,19 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: pt_BR\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+=======
+"POT-Creation-Date: 2025-10-31 18:38+0000\n"
+"PO-Revision-Date: 2024-09-29 00:00+0000\n"
+"Last-Translator: Wil Odoo, 2025\n"
+"Language-Team: Portuguese (Brazil) (https://app.transifex.com/odoo/teams/"
+"41243/pt_BR/)\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % "
+"1000000 == 0 ? 1 : 2;\n"
+>>>>>>> upstream/18.0
 
 #. module: html_editor
 #. odoo-javascript
@@ -560,8 +582,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/html_editor/controllers/main.py:0
 msgid ""
+<<<<<<< HEAD
 "Action %s not found, link preview is not available, please check your url is"
 " correct"
+=======
+"Action %s not found, link preview is not available, please check your url is "
+"correct"
+>>>>>>> upstream/18.0
 msgstr ""
 "Ação %s não encontrada. A visualização do link não está disponível, "
 "verifique se o URL está correto"
@@ -1002,8 +1029,12 @@ msgstr "Marcador de posição dinâmico"
 #. odoo-python
 #: code:addons/html_editor/controllers/main.py:0
 msgid "ERROR: couldn't get download urls from media library."
+<<<<<<< HEAD
 msgstr ""
 "ERRO: Não é possível fazer download de URLs pela biblioteca de mídias."
+=======
+msgstr "ERRO: Não é possível fazer download de URLs pela biblioteca de mídias."
+>>>>>>> upstream/18.0
 
 #. module: html_editor
 #. odoo-javascript
@@ -1285,12 +1316,15 @@ msgstr "Título 6"
 #. module: html_editor
 #. odoo-javascript
 #: code:addons/html_editor/static/src/main/media/media_dialog/video_selector.js:0
+<<<<<<< HEAD
 msgid "Hide Dailymotion logo"
 msgstr "Ocultar logo do Dailymotion"
 
 #. module: html_editor
 #. odoo-javascript
 #: code:addons/html_editor/static/src/main/media/media_dialog/video_selector.js:0
+=======
+>>>>>>> upstream/18.0
 msgid "Hide fullscreen button"
 msgstr "Ocultar botão de tela cheia"
 
@@ -1302,12 +1336,15 @@ msgstr "Ocultar controles de player"
 
 #. module: html_editor
 #. odoo-javascript
+<<<<<<< HEAD
 #: code:addons/html_editor/static/src/main/media/media_dialog/video_selector.js:0
 msgid "Hide sharing button"
 msgstr "Ocultar botão de compartilhamento"
 
 #. module: html_editor
 #. odoo-javascript
+=======
+>>>>>>> upstream/18.0
 #: code:addons/html_editor/static/src/others/embedded_components/plugins/table_of_content_plugin/table_of_content_plugin.js:0
 msgid "Highlight the structure (headings) of this field"
 msgstr "Destaque a estrutura (cabeçalhos) desse campo"
@@ -1523,6 +1560,15 @@ msgstr "Inserir sua assinatura"
 
 #. module: html_editor
 #. odoo-javascript
+<<<<<<< HEAD
+=======
+#: code:addons/html_editor/static/src/main/media/media_dialog/video_selector.xml:0
+msgid "Instagram"
+msgstr ""
+
+#. module: html_editor
+#. odoo-javascript
+>>>>>>> upstream/18.0
 #: code:addons/html_editor/static/src/main/link/link_popover.xml:0
 msgid "Label"
 msgstr "Rótulo"
@@ -1562,8 +1608,12 @@ msgstr "Link copiado para a área de transferência."
 #. odoo-python
 #: code:addons/html_editor/controllers/main.py:0
 msgid ""
+<<<<<<< HEAD
 "Link preview is not available because %s, please check if your url is "
 "correct"
+=======
+"Link preview is not available because %s, please check if your url is correct"
+>>>>>>> upstream/18.0
 msgstr ""
 "A visualização do link não está disponível porque %s, verifique se o URL "
 "está correto"
@@ -2167,8 +2217,13 @@ msgid ""
 "This type of image is not supported for cropping.<br/>If you want to crop "
 "it, please first download it from the original source and upload it in Odoo."
 msgstr ""
+<<<<<<< HEAD
 "O corte deste tipo de imagem não é suportado.<br/>Se você quiser recortá-la,"
 " primeiro faça download da fonte original e carregue-a no Odoo."
+=======
+"O corte deste tipo de imagem não é suportado.<br/>Se você quiser recortá-la, "
+"primeiro faça download da fonte original e carregue-a no Odoo."
+>>>>>>> upstream/18.0
 
 #. module: html_editor
 #. odoo-javascript
@@ -2216,8 +2271,12 @@ msgstr "Monitore tarefas com listas de controle"
 #. odoo-javascript
 #: code:addons/html_editor/static/src/main/media/image_plugin.js:0
 msgid "Transform the picture (click twice to reset transformation)"
+<<<<<<< HEAD
 msgstr ""
 "Transforme a imagem (clique duas vezes para redefinir a transformação)"
+=======
+msgstr "Transforme a imagem (clique duas vezes para redefinir a transformação)"
+>>>>>>> upstream/18.0
 
 #. module: html_editor
 #. odoo-javascript
@@ -2406,12 +2465,15 @@ msgstr "Você precisa especificar os dados ou o URL para criar um anexo."
 
 #. module: html_editor
 #. odoo-javascript
+<<<<<<< HEAD
 #: code:addons/html_editor/static/src/main/media/media_dialog/video_selector.xml:0
 msgid "Youku"
 msgstr "Youku"
 
 #. module: html_editor
 #. odoo-javascript
+=======
+>>>>>>> upstream/18.0
 #: code:addons/html_editor/static/src/others/embedded_components/core/video/video.xml:0
 msgid "Your browser does not support iframe."
 msgstr "Seu navegador não oferece suporte a iframe."
@@ -2551,12 +2613,15 @@ msgstr "Menos zoom"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/html_editor/static/src/main/media/media_dialog/file_selector.xml:0
 msgid "all"
 msgstr "todos"
 
 #. module: html_editor
 #. odoo-javascript
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2896,12 +2961,15 @@ msgstr "e"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/html_editor/static/src/main/media/media_dialog/file_selector.xml:0
 msgid "database"
 msgstr "database"
 
 #. module: html_editor
 #. odoo-javascript
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3247,12 +3315,15 @@ msgstr "arquivo"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/html_editor/static/src/main/media/media_dialog/file_selector.xml:0
 msgid "media-library"
 msgstr "media-library"
 
 #. module: html_editor
 #. odoo-javascript
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3480,6 +3551,7 @@ msgstr "ou"
 #: code:addons/html_editor/static/src/main/media/media_dialog/video_selector.xml:0
 msgid "videos"
 msgstr "vídeos"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3824,4 +3896,15 @@ msgstr "{{state.url}}"
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+#~ msgid "Hide Dailymotion logo"
+#~ msgstr "Ocultar logo do Dailymotion"
+
+#~ msgid "Hide sharing button"
+#~ msgstr "Ocultar botão de compartilhamento"
+
+#~ msgid "Youku"
+#~ msgstr "Youku"
 >>>>>>> upstream/18.0

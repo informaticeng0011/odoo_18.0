@@ -78,6 +78,10 @@ registry.category("web_tour.tours").add("event_buy_tickets", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -431,6 +435,10 @@ registry.category("web_tour.tours").add("event_buy_tickets", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -709,7 +717,11 @@ registry.category("web_tour.tours").add("event_buy_tickets", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ...wsTourUtils.payWithTransfer(),
+=======
+        ...wsTourUtils.payWithTransfer({ expectUnloadPage: true, waitFinalizeYourPayment: true }),
+>>>>>>> upstream/18.0
 =======
         ...wsTourUtils.payWithTransfer({ expectUnloadPage: true, waitFinalizeYourPayment: true }),
 >>>>>>> upstream/18.0

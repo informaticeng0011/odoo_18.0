@@ -148,6 +148,7 @@ class AccountEdiXmlUBL21Zatca(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return [{
             'id_attrs': {'schemeID': partner.l10n_sa_additional_identification_scheme},
             'id': (
@@ -156,6 +157,8 @@ class AccountEdiXmlUBL21Zatca(models.AbstractModel):
                 else partner.vat
             ),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -302,6 +305,9 @@ class AccountEdiXmlUBL21Zatca(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -774,7 +780,11 @@ class AccountEdiXmlUBL21Zatca(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             prepayment_move_id = line.sale_line_ids.invoice_lines.move_id.filtered(lambda m: m._is_downpayment())
+=======
+            prepayment_move_id = line.sale_line_ids.invoice_lines.move_id.filtered(lambda m: m.move_type == 'out_invoice' and m._is_downpayment())
+>>>>>>> upstream/18.0
 =======
             prepayment_move_id = line.sale_line_ids.invoice_lines.move_id.filtered(lambda m: m.move_type == 'out_invoice' and m._is_downpayment())
 >>>>>>> upstream/18.0
@@ -1236,10 +1246,13 @@ class AccountEdiXmlUBL21Zatca(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             # we set the values for the down payment line, and we do not pass any filters to the
             # _prepare_invoice_aggregated_taxes method
             line_taxes = line.move_id._prepare_invoice_aggregated_taxes(grouping_key_generator=grouping_key_generator)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1497,6 +1510,9 @@ class AccountEdiXmlUBL21Zatca(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1709,7 +1725,11 @@ class AccountEdiXmlUBL21Zatca(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'taxable_amount': abs(vals['base_amount_currency']),
+=======
+                'taxable_amount': vals['base_amount_currency'] if vals['tax_amount'] == 0 else abs(vals['base_amount_currency']),
+>>>>>>> upstream/18.0
 =======
                 'taxable_amount': vals['base_amount_currency'] if vals['tax_amount'] == 0 else abs(vals['base_amount_currency']),
 >>>>>>> upstream/18.0

@@ -42,7 +42,10 @@ import { standardActionServiceProps } from "@web/webclient/actions/action_servic
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { addLoadingEffect as addButtonLoadingEffect } from "@web/core/utils/ui";
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -496,7 +499,10 @@ export class PaletteSelectionScreen extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -897,6 +903,9 @@ export class PaletteSelectionScreen extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1410,7 +1419,11 @@ export class ThemeSelectionScreen extends ApplyConfiguratorScreen {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const removeLoadingEffect = addButtonLoadingEffect(this.extraThemesButtonRef.el);
+=======
+        this.uiService.block();
+>>>>>>> upstream/18.0
 =======
         this.uiService.block();
 >>>>>>> upstream/18.0
@@ -1485,7 +1498,11 @@ export class ThemeSelectionScreen extends ApplyConfiguratorScreen {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         removeLoadingEffect();
+=======
+        this.uiService.unblock();
+>>>>>>> upstream/18.0
 =======
         this.uiService.unblock();
 >>>>>>> upstream/18.0
@@ -1816,7 +1833,10 @@ export class Configurator extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2129,6 +2149,9 @@ export class Configurator extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2484,6 +2507,10 @@ export class Configurator extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            redirect_url: results.redirect_url,
+>>>>>>> upstream/18.0
 =======
             redirect_url: results.redirect_url,
 >>>>>>> upstream/18.0

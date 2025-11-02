@@ -65,6 +65,10 @@ class GelatoController(Controller):
                 order_sudo.message_post_with_source(
                     source_ref=request.env.ref('sale.mail_template_sale_cancellation'),
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    subtype_xmlid='mail.mt_comment',
+>>>>>>> upstream/18.0
 =======
                     subtype_xmlid='mail.mt_comment',
 >>>>>>> upstream/18.0
@@ -76,6 +80,10 @@ class GelatoController(Controller):
                 order_sudo.with_context({'tracking_data': tracking_data}).message_post_with_source(
                     source_ref=request.env.ref('sale_gelato.order_status_update'),
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    subtype_xmlid='mail.mt_comment',
+>>>>>>> upstream/18.0
 =======
                     subtype_xmlid='mail.mt_comment',
 >>>>>>> upstream/18.0
@@ -86,6 +94,10 @@ class GelatoController(Controller):
                 order_sudo.with_context({'order_delivered': True}).message_post_with_source(
                     source_ref=request.env.ref('sale_gelato.order_status_update'),
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    subtype_xmlid='mail.mt_comment',
+>>>>>>> upstream/18.0
 =======
                     subtype_xmlid='mail.mt_comment',
 >>>>>>> upstream/18.0
@@ -163,7 +175,10 @@ class GelatoController(Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -321,6 +336,9 @@ class GelatoController(Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

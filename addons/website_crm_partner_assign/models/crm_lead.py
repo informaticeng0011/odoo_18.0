@@ -79,7 +79,10 @@ class CrmLead(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -239,6 +242,9 @@ class CrmLead(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -535,6 +541,10 @@ class CrmLead(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self._assert_portal_write_access()
+>>>>>>> upstream/18.0
 =======
         self._assert_portal_write_access()
 >>>>>>> upstream/18.0
@@ -727,11 +737,14 @@ class CrmLead(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             lead.message_post(body=message)
             lead.sudo().convert_opportunity(lead.partner_id)  # sudo required to convert partner data
 
     def partner_desinterested(self, comment=False, contacted=False, spam=False):
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -875,6 +888,9 @@ class CrmLead(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1024,7 +1040,11 @@ class CrmLead(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.message_post(body=message)
+=======
+        self.sudo().message_post(body=message)
+>>>>>>> upstream/18.0
 =======
         self.sudo().message_post(body=message)
 >>>>>>> upstream/18.0
@@ -1226,7 +1246,11 @@ class CrmLead(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.browse().check_access('write')
+=======
+        self._assert_portal_write_access()
+>>>>>>> upstream/18.0
 =======
         self._assert_portal_write_access()
 >>>>>>> upstream/18.0
@@ -1446,7 +1470,11 @@ class CrmLead(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.browse().check_access('write')
+=======
+        self._assert_portal_write_access()
+>>>>>>> upstream/18.0
 =======
         self._assert_portal_write_access()
 >>>>>>> upstream/18.0

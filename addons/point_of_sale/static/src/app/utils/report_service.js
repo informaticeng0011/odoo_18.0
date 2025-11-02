@@ -5,8 +5,13 @@ import { downloadReport } from "@web/webclient/actions/reports/utils";
 
 export const reportService = {
 <<<<<<< HEAD
+<<<<<<< HEAD
     dependencies: ["ui", "orm", "pos"],
     start(env, { ui, orm, pos }) {
+=======
+    dependencies: ["ui"],
+    start(env, { ui }) {
+>>>>>>> upstream/18.0
 =======
     dependencies: ["ui"],
     start(env, { ui }) {

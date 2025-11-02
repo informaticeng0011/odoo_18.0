@@ -119,6 +119,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-12-16 13:39+0000\n"
 =======
 "POT-Creation-Date: 2025-05-14 20:46+0000\n"
@@ -254,6 +255,9 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 "POT-Creation-Date: 2025-05-14 20:46+0000\n"
+>>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-06-27 18:38+0000\n"
 >>>>>>> upstream/18.0
 =======
 "POT-Creation-Date: 2025-06-27 18:38+0000\n"
@@ -662,7 +666,10 @@ msgstr "# Bewertungen"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:project.field_project_milestone__task_count
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1098,9 +1105,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            bitte nehmen Sie sich einen Moment Zeit und bewerten Sie unsere Dienste im Zusammenhang mit der Aufgabe <strong t-out=\"object.name or ''\">Planung und Budget</strong>, die\n"
 "            <t t-if=\"object._rating_get_operator().name\">\n"
 "                <strong t-out=\"object._rating_get_operator().name or ''\">Mitchell Admin</strong> zugewiesen wurde.<br/>\n"
+=======
+"            bitte nehmen Sie sich einen Moment Zeit und bewerten Sie unsere Dienste im Zusammenhang mit der Aufgabe <strong t-out=\"object.name or ''\">Planung und Budget</strong>,\n"
+"            <t t-if=\"object._rating_get_operator().name\">\n"
+"                um die <strong t-out=\"object._rating_get_operator().name or ''\">Mitchell Admin</strong> sich kümmert.<br/>\n"
+>>>>>>> upstream/18.0
 =======
 "            bitte nehmen Sie sich einen Moment Zeit und bewerten Sie unsere Dienste im Zusammenhang mit der Aufgabe <strong t-out=\"object.name or ''\">Planung und Budget</strong>,\n"
 "            <t t-if=\"object._rating_get_operator().name\">\n"
@@ -1559,7 +1572,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                <br/><span style=\"margin: 0; font-size: 12px; opacity: 0.5; color: #454748;\">Diese Zufriedenheitsumfrage wurde versendet, weil Ihre Aufgabe in die Phase <b t-out=\"object.stage_id.name or ''\">In Bearbeitung</b> verschoben wurde</span>\n"
+=======
+"                <br/><span style=\"margin: 0; font-size: 12px; opacity: 0.5; color: #454748;\">Diese Zufriedenheitsumfrage wurde versendet, weil Ihre Aufgabe in die Phase <b t-out=\"object.stage_id.name or ''\">In Bearbeitung</b> verschoben wurde.</span>\n"
+>>>>>>> upstream/18.0
 =======
 "                <br/><span style=\"margin: 0; font-size: 12px; opacity: 0.5; color: #454748;\">Diese Zufriedenheitsumfrage wurde versendet, weil Ihre Aufgabe in die Phase <b t-out=\"object.stage_id.name or ''\">In Bearbeitung</b> verschoben wurde.</span>\n"
 >>>>>>> upstream/18.0
@@ -7353,7 +7370,11 @@ msgid "e.g. mycompany.com"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "z. B. mycompany.com"
+=======
+msgstr "z. B. meinunternehmen.com"
+>>>>>>> upstream/18.0
 =======
 msgstr "z. B. meinunternehmen.com"
 >>>>>>> upstream/18.0
@@ -7846,12 +7867,15 @@ msgstr ", um die Aufgabe als abgeschlossen zu markieren."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/project/static/src/project_sharing/components/chatter/chatter_composer.xml:0
 msgid "state.message"
 msgstr "state.message"
 
 #. module: project
 #. odoo-javascript
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

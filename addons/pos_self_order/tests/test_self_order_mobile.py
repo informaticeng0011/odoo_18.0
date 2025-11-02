@@ -3,6 +3,11 @@
 
 import odoo.tests
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+from urllib.parse import urlparse
+>>>>>>> upstream/18.0
 =======
 
 from urllib.parse import urlparse
@@ -142,6 +147,7 @@ class TestSelfOrderMobile(SelfOrderCommonTest):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -262,6 +268,8 @@ class TestSelfOrderMobile(SelfOrderCommonTest):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_self_order_mobile_no_access_token(self):
         self.pos_config.write({
@@ -277,6 +285,9 @@ class TestSelfOrderMobile(SelfOrderCommonTest):
         # removing access token to simulate a request without it
         route = urlparse(self_route)
         self.start_tour(route.path, "self_order_mobile_no_access_token")
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     def test_self_order_mobile_0_price_order(self):
@@ -372,6 +383,7 @@ class TestSelfOrderMobile(SelfOrderCommonTest):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -390,6 +402,11 @@ class TestSelfOrderMobile(SelfOrderCommonTest):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+        order = self.env['pos.order'].search([], limit=1)
+        self.assertEqual(order.picking_count, 1)
 >>>>>>> upstream/18.0
 =======
 

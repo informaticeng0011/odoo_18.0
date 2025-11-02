@@ -31,6 +31,7 @@ class MailingContactToList(models.TransientModel):
         self.ensure_one()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         previous_count = len(self.mailing_list_id.contact_ids)
         self.mailing_list_id.write({
             'contact_ids': [
@@ -39,6 +40,8 @@ class MailingContactToList(models.TransientModel):
                 if contact not in self.mailing_list_id.contact_ids]
             })
 =======
+=======
+>>>>>>> upstream/18.0
         contacts_to_add = self.contact_ids.filtered(lambda c: c not in self.mailing_list_id.contact_ids)
         self.mailing_list_id.write({
             'subscription_ids': [
@@ -48,6 +51,9 @@ class MailingContactToList(models.TransientModel):
                 }) for contact in contacts_to_add
             ]
         })
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
         return {
@@ -57,7 +63,11 @@ class MailingContactToList(models.TransientModel):
                 'type': 'info',
                 'message': _("%s Mailing Contacts have been added. ",
 <<<<<<< HEAD
+<<<<<<< HEAD
                              len(self.mailing_list_id.contact_ids) - previous_count
+=======
+                             len(contacts_to_add)
+>>>>>>> upstream/18.0
 =======
                              len(contacts_to_add)
 >>>>>>> upstream/18.0

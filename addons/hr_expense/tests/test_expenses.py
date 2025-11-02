@@ -63,7 +63,11 @@ from odoo.addons.hr_expense.tests.common import TestExpenseCommon
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.exceptions import RedirectWarning, UserError, ValidationError
+=======
+from odoo.exceptions import UserError, ValidationError
+>>>>>>> upstream/18.0
 =======
 from odoo.exceptions import UserError, ValidationError
 >>>>>>> upstream/18.0
@@ -1501,6 +1505,7 @@ class TestExpenses(TestExpenseCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def test_expense_sheet_with_employee_of_no_work_email(self):
         """
         Should raise a RedirectWarning when the selected employee in the sheet doesn't have a work email.
@@ -1519,6 +1524,8 @@ class TestExpenses(TestExpenseCommon):
         with self.assertRaises(RedirectWarning):
             sheet.action_approve_expense_sheets()
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2276,7 +2283,10 @@ class TestExpenses(TestExpenseCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2496,6 +2506,9 @@ class TestExpenses(TestExpenseCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

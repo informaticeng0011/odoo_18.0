@@ -36,6 +36,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* event
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -207,6 +208,9 @@
 =======
 # * event
 >>>>>>> upstream/18.0
+=======
+# * event
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Collex100, 2024
@@ -254,6 +258,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -264,6 +269,9 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# "Anastasiia Koroleva (koan)" <koan@odoo.com>, 2025.
 >>>>>>> upstream/18.0
 =======
 # "Anastasiia Koroleva (koan)" <koan@odoo.com>, 2025.
@@ -377,6 +385,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -645,6 +654,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-10-03 18:38+0000\n"
 "PO-Revision-Date: 2025-10-20 06:22+0000\n"
 "Last-Translator: \"Anastasiia Koroleva (koan)\" <koan@odoo.com>\n"
@@ -661,6 +672,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -725,6 +739,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
 "(n%100>=11 && n%100<=14)? 2 : 3);\n"
 <<<<<<< HEAD
@@ -801,6 +816,11 @@ msgstr ""
 =======
 "n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
 "(n%100>=11 && n%100<=14)? 2 : 3);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
+=======
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || ("
+"n%100>=11 && n%100<=14)? 2 : 3);\n"
 "X-Generator: Weblate 5.12.2\n"
 >>>>>>> upstream/18.0
 =======
@@ -1014,7 +1034,11 @@ msgid "%(start_date)s to %(end_date)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(start_date)s по %(end_date)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(start_date)s по %(end_date)s"
 >>>>>>> upstream/18.0
@@ -1242,7 +1266,11 @@ msgid "'%(name)s' badge sent to printer '%(printer)s'"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Бейдж «%(name)s» отправлен на принтер «%(printer)s»"
+>>>>>>> upstream/18.0
 =======
 msgstr "Бейдж «%(name)s» отправлен на принтер «%(printer)s»"
 >>>>>>> upstream/18.0
@@ -1464,7 +1492,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "'Бейдж - %s - %s' % ((object.event_id.name or 'Событие').replace('/',''), "
+=======
+"'Бейдж - %s - %s' % ((object.event_id.name or 'Event').replace('/',''), "
+>>>>>>> upstream/18.0
 =======
 "'Бейдж - %s - %s' % ((object.event_id.name or 'Event').replace('/',''), "
 >>>>>>> upstream/18.0
@@ -1674,7 +1706,11 @@ msgid "'Badge - %s' % (object.name or 'Event').replace('/','')"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "'Badge - %s' % (object.name or 'Событие').replace('/','')"
+=======
+msgstr "'Бейдж - %s' % (object.name or 'Event').replace('/','')"
+>>>>>>> upstream/18.0
 =======
 msgstr "'Бейдж - %s' % (object.name or 'Event').replace('/','')"
 >>>>>>> upstream/18.0
@@ -1887,7 +1923,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "'Событие').replace('/',''), (object.name or '').replace('/',''))"
+=======
+"'Event').replace('/',''), (object.name or '').replace('/',''))"
+>>>>>>> upstream/18.0
 =======
 "'Event').replace('/',''), (object.name or '').replace('/',''))"
 >>>>>>> upstream/18.0
@@ -2096,7 +2136,12 @@ msgid "'Full Page Ticket - %s' % (object.name or 'Event').replace('/','')"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "'Full Page Ticket - %s' % (object.name or 'Событие').replace('/','')"
+=======
+msgstr ""
+"'Билет на всю страницу - %s' % (object.name or 'Event').replace('/','')"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "'Билет на всю страницу - %s' % (object.name or 'Event').replace('/','')"
@@ -2407,7 +2452,11 @@ msgid "96x134mm (Badge Printer)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "96×134 мм (бейдж-принтер)"
+>>>>>>> upstream/18.0
 =======
 msgstr "96×134 мм (бейдж-принтер)"
 >>>>>>> upstream/18.0
@@ -2616,7 +2665,11 @@ msgid "96x82mm (Badge Printer)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "96×82 мм (бейдж-принтер)"
+>>>>>>> upstream/18.0
 =======
 msgstr "96×82 мм (бейдж-принтер)"
 >>>>>>> upstream/18.0
@@ -2819,8 +2872,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<b>Бизнес-зал</b> - Для обсуждения методологий внедрения, передовой практики"
 " продаж и т.д."
+=======
+"<b>Бизнес-зал</b> - Для обсуждения методологий внедрения, передовой практики "
+"продаж и т.д."
+>>>>>>> upstream/18.0
 =======
 "<b>Бизнес-зал</b> - Для обсуждения методологий внедрения, передовой практики "
 "продаж и т.д."
@@ -3038,6 +3096,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<b>Технические комнаты</b> - одна для продвинутых разработчиков Odoo, другая"
 " для новых разработчиков."
 =======
@@ -3208,10 +3267,15 @@ msgstr ""
 "<b>Технические комнаты</b> - одна для продвинутых разработчиков Odoo, другая "
 "для новых разработчиков."
 >>>>>>> upstream/18.0
+=======
+"<b>Технические комнаты</b> - одна для продвинутых разработчиков Odoo, другая "
+"для новых разработчиков."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3342,6 +3406,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "<b>The Design Fair is preceded by 2 days of Training Sessions for experts!</"
 "b><br> We propose 3 different training sessions, 2 days each."
 msgstr ""
@@ -3388,6 +3454,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3486,6 +3555,7 @@ msgstr ""
 #. module: event
 #: model_terms:event.event,description:event.event_0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3648,6 +3718,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "<b>The whole event is open to all public!</b> <br>We ask a participation fee "
 "of 49.50€ for the costs for the 3 days (coffee breaks, catering, drinks and "
 "a surprising concert and beer party).<br> For those who don't want to "
@@ -3695,6 +3767,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3833,6 +3908,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3997,6 +4075,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<br/>\n"
+"                                            <span class=\"me-1\">с</span>"
+>>>>>>> upstream/18.0
 =======
 "<br/>\n"
 "                                            <span class=\"me-1\">с</span>"
@@ -4259,6 +4342,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<br/>\n"
+"                                            <span class=\"me-1\">до</span>"
+>>>>>>> upstream/18.0
 =======
 "<br/>\n"
 "                                            <span class=\"me-1\">до</span>"
@@ -4468,6 +4556,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
 msgid ""
 "<br/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4597,6 +4686,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                                        <span class=\"text-muted\">Air your "
 "tracks online through a Youtube integration</span>"
 msgstr ""
@@ -4644,6 +4735,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4774,11 +4868,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                        <span class=\"text-muted\">Share a quiz to your attendees once a track is over</span>"
 msgstr ""
 "<br/>\n"
 "                                        <span class=\"text-muted\">Предложите участникам викторину по окончании трека</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4908,6 +5005,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5069,6 +5169,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-check fa-3x\" role=\"img\" aria-label=\"Confirm Attendance "
+"Button\" title=\"Подтвердить участие\"/>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-check fa-3x\" role=\"img\" aria-label=\"Confirm Attendance "
 "Button\" title=\"Подтвердить участие\"/>"
@@ -5277,6 +5382,7 @@ msgstr ""
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_registration_view_kanban
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5450,6 +5556,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "<i class=\"fa fa-check fa-3x\" role=\"img\" aria-label=\"Reset To Registered "
 "Button\" title=\"Reset To Registered\"/>"
 msgstr ""
@@ -5496,6 +5604,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5647,9 +5758,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-map-marker mt-1 me-2 text-center ps-1\" title=\"Location\"/>"
 msgstr "<i class=\"fa fa-map-marker mt-1 me-2 text-center ps-1\" title=\"Location\"/>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5777,6 +5891,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5920,7 +6037,11 @@ msgid "<i class=\"oi oi-arrow-right me-2\" title=\"End date\"/>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"oi oi-arrow-right me-2\" title=\"Дата окончания\"/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"oi oi-arrow-right me-2\" title=\"Дата окончания\"/>"
 >>>>>>> upstream/18.0
@@ -6120,6 +6241,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span class=\"badge text-bg-secondary o_wevent_badge float-"
 "end\">SPEAKER</span>"
 msgstr ""
@@ -6162,6 +6284,8 @@ msgstr ""
 "end\">СПИКЕР</span>"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6290,6 +6414,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6428,7 +6555,11 @@ msgid "<span class=\"me-1\">to</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"me-1\">по</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"me-1\">по</span>"
 >>>>>>> upstream/18.0
@@ -6654,7 +6785,11 @@ msgid "<span>John Doe</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<span>Неизвестный</span>"
+=======
+msgstr "<span>Джон Доу</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>Джон Доу</span>"
 >>>>>>> upstream/18.0
@@ -6854,6 +6989,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"padding-top: 16px; background-color: #F1F1F1; font-family:Verdana, Arial,sans-serif; color: #454748; width: 100%; border-collapse:separate;\"><tr><td align=\"center\">\n"
 "<t t-set=\"date_begin\" t-value=\"format_datetime(object.event_id.date_begin, tz='UTC', dt_format=&quot;yyyyMMdd'T'HHmmss'Z'&quot;)\"/>\n"
 "<t t-set=\"date_end\" t-value=\"format_datetime(object.event_id.date_end, tz='UTC', dt_format=&quot;yyyyMMdd'T'HHmmss'Z'&quot;)\"/>\n"
@@ -6863,6 +6999,8 @@ msgid ""
 "<t t-set=\"registration_ids\" t-value=\"object.ids if not is_sale else object._get_event_registration_ids_from_order()\"/>\n"
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"padding: 16px; background-color: white; color: #454748; border-collapse:separate;\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7004,6 +7142,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7133,10 +7274,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <table width=\"590\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
 "                <tr><td valign=\"middle\">\n"
 "                    <span style=\"font-size: 10px;\">Your registration</span><br/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7266,6 +7410,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7395,6 +7542,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <a t-attf-href=\"/event/{{ object.event_id.id }}/my_tickets?badge_mode=1&amp;registration_ids={{ registration_ids }}&amp;tickets_hash={{ object.event_id._get_tickets_access_hash(registration_ids) }}\" target=\"_blank\" style=\"padding: 8px 12px; font-size: 12px; color: #FFFFFF; text-decoration: none !important; font-weight: 400; background-color: #875A7B; border: 0px solid #875A7B; border-radius:3px\">\n"
 "                        Download Badges\n"
 "                    </a>\n"
@@ -7405,6 +7553,8 @@ msgid ""
 "                <tr><td colspan=\"2\" style=\"text-align:center;\">\n"
 "                  <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin:16px 0px 16px 0px;\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7546,6 +7696,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7678,6 +7831,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <table width=\"590\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
 "                <tr><td valign=\"top\" style=\"font-size: 14px;\">\n"
 "                    <div>\n"
@@ -7689,6 +7843,8 @@ msgid ""
 "                        <t t-else=\"\">\n"
 "                            <strong t-out=\"object.event_id.name or ''\">OpenWood Collection Online Reveal</strong>.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7828,6 +7984,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7916,6 +8075,7 @@ msgid ""
 "                    <div>\n"
 "                        <br/>\n"
 "                        <strong>Add this event to your calendar</strong>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8048,6 +8208,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                        <a t-attf-href=\"https://www.google.com/calendar/"
 "render?action=TEMPLATE&amp;text={{ object.event_id.name }}"
 "&amp;dates={{ date_begin }}/{{ date_end }}&amp;location={{ location }}"
@@ -8078,6 +8240,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8193,6 +8358,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8326,11 +8494,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            <t t-out=\"event_organizer.name or ''\">YourCompany</t>\n"
 "                        </t>\n"
 "                        <t t-else=\"\">\n"
 "                            The <t t-out=\"object.event_id.name or ''\">OpenWood Collection Online Reveal</t> Team\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8460,6 +8631,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8590,7 +8764,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                  <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+=======
+"                  <hr width=\"100%\" style=\"background-"
+"color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
+"size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "                  <hr width=\"100%\" style=\"background-"
 "color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
@@ -8850,7 +9030,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <table width=\"590\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
+=======
+"            <table width=\"590\" border=\"0\" cellpadding=\"0\" "
+"cellspacing=\"0\" style=\"min-width: 590px; background-color: white; "
+"padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
+>>>>>>> upstream/18.0
 =======
 "            <table width=\"590\" border=\"0\" cellpadding=\"0\" "
 "cellspacing=\"0\" style=\"min-width: 590px; background-color: white; "
@@ -9107,6 +9293,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                <img src=\"/web_editor/font_to_img/61555/rgb(81,81,102)/34\" style=\"padding:4px;max-width:inherit;\" height=\"34\" alt=\"\"/>\n"
 "                            </td>\n"
 "                            <td style=\"padding: 0px 10px 0px 10px;width:50%;line-height:20px;vertical-align:top;\">\n"
@@ -9159,6 +9346,8 @@ msgid ""
 "                                        <div t-out=\"object.event_id.address_id.country_id.name\">Argentina</div>\n"
 "                                        <t t-set=\"location\" t-valuef=\"{{location}}, {{object.event_id.address_id.country_id.name}}\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9375,6 +9564,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9508,7 +9700,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+=======
+"                        <hr width=\"100%\" style=\"background-"
+"color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
+"size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "                        <hr width=\"100%\" style=\"background-"
 "color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
@@ -9768,6 +9966,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            <span style=\"font-weight:300;margin:10px 0px\">Questions about this event?</span>\n"
 "                            <div>Please contact the organizer:</div>\n"
 "                            <ul>\n"
@@ -9778,6 +9977,8 @@ msgid ""
 "                                <t t-if=\"event_organizer.phone\">\n"
 "                                    <li>Phone: <t t-out=\"event_organizer.phone\">+1 650-123-4567</t></li>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9915,6 +10116,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10048,7 +10252,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+=======
+"                        <hr width=\"100%\" style=\"background-"
+"color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
+"size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "                        <hr width=\"100%\" style=\"background-"
 "color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
@@ -10308,7 +10518,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            <strong>Get the best mobile experience.</strong>\n"
+=======
+"                            <strong>Get the best mobile experience.</"
+"strong>\n"
+>>>>>>> upstream/18.0
 =======
 "                            <strong>Get the best mobile experience.</"
 "strong>\n"
@@ -10526,7 +10741,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+=======
+"                        <hr width=\"100%\" style=\"background-"
+"color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
+"size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "                        <hr width=\"100%\" style=\"background-"
 "color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
@@ -10787,11 +11008,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                <i class=\"fa fa-map-marker\"/>\n"
 "                                <a t-attf-href=\"https://maps.google.com/maps?q={{ location }}\" target=\"new\">\n"
 "                                    <img t-if=\"event_address.static_map_url and event_address.static_map_url_is_valid\" t-att-src=\"event_address.static_map_url\" style=\"vertical-align:bottom; width: 100%;\" alt=\"Google Maps\"/>\n"
 "                                    <t t-else=\"\">See location on Google Maps</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10925,6 +11149,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11064,6 +11291,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <table width=\"590\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"min-width: 590px; background-color: #F1F1F1; color: #454748; padding: 8px; border-collapse:separate;\">\n"
 "        <tr><td style=\"text-align: center; font-size: 14px;\">\n"
 "            Sent by <a target=\"_blank\" t-attf-href=\"{{ object.company_id.website }}\" style=\"color: #875A7B;\" t-out=\"object.company_id.name or ''\">YourCompany</a>\n"
@@ -11071,6 +11299,8 @@ msgid ""
 "                <br/>\n"
 "                Discover <a href=\"/event\" style=\"color:#875A7B;\">all our events</a>.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11205,6 +11435,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11296,6 +11529,7 @@ msgid ""
 "</table>\n"
 "            "
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14049,6 +14283,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"padding-top: "
 "16px; background-color: #F1F1F1; font-family:Verdana, Arial,sans-serif; "
 "color: #454748; width: 100%; border-collapse:separate;\"><tr><td align=\""
@@ -14082,8 +14318,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<t t-set=\"is_sale\" t-value="
 "\"'sale_order_id' in object and object.sale_order_id\"/>\n"
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14158,6 +14397,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14209,6 +14451,7 @@ msgstr ""
 "    <!-- HEADER -->\n"
 "    <tr>\n"
 "        <td align=\"center\" style=\"min-width: 590px;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14286,12 +14529,15 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "            <table width=\"590\" border=\"0\" cellpadding=\"0\" cellspacing="
 "\"0\" style=\"min-width: 590px; background-color: white; padding: 0px 8px "
 "0px 8px; border-collapse:separate;\">\n"
 "                <tr><td valign=\"middle\">\n"
 "                    <span style=\"font-size: 10px;\">Ваша регистрация</span><"
 "br/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14402,6 +14648,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                    <span style=\"font-size: 20px; font-weight: bold;\">\n"
 "                        <t t-out=\"object.name or 'Guest'\"/>\n"
 "                    </span>\n"
@@ -14441,6 +14689,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14513,6 +14764,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14567,6 +14821,7 @@ msgstr ""
 "    <!-- EVENT DESCRIPTION -->\n"
 "    <tr>\n"
 "        <td align=\"center\" style=\"min-width: 590px;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14658,6 +14913,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "            <table width=\"590\" border=\"0\" cellpadding=\"0\" cellspacing="
 "\"0\" style=\"min-width: 590px; background-color: white; padding: 0px 8px "
 "0px 8px; border-collapse:separate;\">\n"
@@ -14687,7 +14944,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        Мы рады напомнить вам, что мероприятие\n"
+=======
+"                        К письму прикреплен ваш бейдж для следующего "
+"мероприятия:\n"
+>>>>>>> upstream/18.0
 =======
 "                        К письму прикреплен ваш бейдж для следующего "
 "мероприятия:\n"
@@ -14805,10 +15067,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ">OpenWood Collection Online Reveal</strong>\n"
 "                        </t>\n"
 "                        стартует <strong t-out="
 "\"object.event_date_range or ''\">сегодня</strong>.\n"
+=======
+">OpenWood Collection Online Reveal</strong>.\n"
+"                        </t>\n"
+>>>>>>> upstream/18.0
 =======
 ">OpenWood Collection Online Reveal</strong>.\n"
 "                        </t>\n"
@@ -14927,8 +15194,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "object.event_id._get_external_description() }}\" style=\"padding:3px "
 "5px;border:1px solid #875A7B;color:#875A7B;text-decoration:none;border-"
+=======
+"object.event_id._get_external_description_url_encoded() }}\" style=\"padding:"
+"3px 5px;border:1px solid #875A7B;color:#875A7B;text-decoration:none;border-"
+>>>>>>> upstream/18.0
 =======
 "object.event_id._get_external_description_url_encoded() }}\" style=\"padding:"
 "3px 5px;border:1px solid #875A7B;color:#875A7B;text-decoration:none;border-"
@@ -15036,6 +15308,7 @@ msgstr ""
 "                            <img src="
 "\"/web_editor/font_to_img/61525/rgb(135,90,123)/16\" style=\"vertical-"
 "align:middle;\" height=\"16\" alt=\"\"/> Yahoo\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18763,6 +19036,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                        </a>\n"
 "                        <br/><br/>\n"
 "                    </div>\n"
@@ -18771,6 +19046,7 @@ msgstr ""
 "                        <span style=\"color: #454748;\">\n"
 "                        -- <br/>\n"
 "                        <t t-if=\"event_organizer\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18885,6 +19161,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                            <t t-out=\"event_organizer.name or ''\""
 ">YourCompany</t>\n"
 "                        </t>\n"
@@ -18912,6 +19190,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18989,7 +19270,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                  <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+=======
+"                  <hr width=\"100%\" style=\"background-"
+"color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
+"size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "                  <hr width=\"100%\" style=\"background-"
 "color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
@@ -19171,7 +19458,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <table width=\"590\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
+=======
+"            <table width=\"590\" border=\"0\" cellpadding=\"0\" cellspacing="
+"\"0\" style=\"min-width: 590px; background-color: white; padding: 0px 8px "
+"0px 8px; border-collapse:separate;\">\n"
+>>>>>>> upstream/18.0
 =======
 "            <table width=\"590\" border=\"0\" cellpadding=\"0\" cellspacing="
 "\"0\" style=\"min-width: 590px; background-color: white; padding: 0px 8px "
@@ -19350,6 +19643,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                <img src=\"/web_editor/font_to_img/61555/rgb(81,81,102)/34\" style=\"padding:4px;max-width:inherit;\" height=\"34\" alt=\"\"/>\n"
 "                            </td>\n"
 "                            <td style=\"padding: 0px 10px 0px 10px;width:50%;line-height:20px;vertical-align:top;\">\n"
@@ -19402,6 +19696,8 @@ msgstr ""
 "                                        <div t-out=\"object.event_id.address_id.country_id.name\">Argentina</div>\n"
 "                                        <t t-set=\"location\" t-valuef=\"{{location}}, {{object.event_id.address_id.country_id.name}}\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -19580,6 +19876,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -19674,7 +19973,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+=======
+"                        <hr width=\"100%\" style=\"background-"
+"color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
+"size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "                        <hr width=\"100%\" style=\"background-"
 "color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
@@ -19856,6 +20161,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            <span style=\"font-weight:300;margin:10px 0px\">Есть вопросы по поводу этого мероприятия?</span>\n"
 "                            <div>Пожалуйста, свяжитесь с организатором:</div>\n"
 "                            <ul>\n"
@@ -19879,6 +20185,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -21421,6 +21729,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -21508,6 +21819,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -21602,7 +21916,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+=======
+"                        <hr width=\"100%\" style=\"background-"
+"color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
+"size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "                        <hr width=\"100%\" style=\"background-"
 "color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
@@ -21784,7 +22104,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            <strong>Получите максимум от мобильного приложения.</strong>\n"
+=======
+"                            <strong>Получите максимум от мобильного "
+"приложения.</strong>\n"
+>>>>>>> upstream/18.0
 =======
 "                            <strong>Получите максимум от мобильного "
 "приложения.</strong>\n"
@@ -21937,7 +22262,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+=======
+"                        <hr width=\"100%\" style=\"background-"
+"color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
+"size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "                        <hr width=\"100%\" style=\"background-"
 "color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
@@ -22120,11 +22451,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                <i class=\"fa fa-map-marker\"/>\n"
 "                                <a t-attf-href=\"https://maps.google.com/maps?q={{ location }}\" target=\"new\">\n"
 "                                    <img t-if=\"event_address.static_map_url and event_address.static_map_url_is_valid\" t-att-src=\"event_address.static_map_url\" style=\"vertical-align:bottom; width: 100%;\" alt=\"Google Maps\"/>\n"
 "                                    <t t-else=\"\">Локация в Google Maps</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -22220,6 +22554,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -22320,6 +22657,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <table width=\"590\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"min-width: 590px; background-color: #F1F1F1; color: #454748; padding: 8px; border-collapse:separate;\">\n"
 "        <tr><td style=\"text-align: center; font-size: 14px;\">\n"
 "            Отправлено: <a target=\"_blank\" t-attf-href=\"{{ object.company_id.website }}\" style=\"color: #875A7B;\" t-out=\"object.company_id.name or ''\">YourCompany</a>\n"
@@ -22327,6 +22665,8 @@ msgstr ""
 "                <br/>\n"
 "                Откройте для себя <a href=\"/event\" style=\"color:#875A7B;\">все наши мероприятия</a>.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -22418,6 +22758,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                Откройте для себя <a href=\"/event\" style=\"color:#875A7B;\""
 ">все наши мероприятия</a>.\n"
 <<<<<<< HEAD
@@ -22426,6 +22767,10 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+"                Календарь <a href=\"/event\" style=\"color:#875A7B;\">наших "
+"мероприятий</a>.\n"
 >>>>>>> upstream/18.0
 =======
 "                Календарь <a href=\"/event\" style=\"color:#875A7B;\">наших "
@@ -22575,6 +22920,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -22738,7 +23086,11 @@ msgid "Activity Exception Decoration"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Оформление исключения активности"
+=======
+msgstr "Оформление задачи-исключения"
+>>>>>>> upstream/18.0
 =======
 msgstr "Оформление задачи-исключения"
 >>>>>>> upstream/18.0
@@ -22811,6 +23163,7 @@ msgstr "Добавить описание..."
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -22941,6 +23294,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Add a navigation menu to your event web pages with schedule, tracks, a track "
 "proposal form, etc."
 msgstr ""
@@ -22987,6 +23342,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -23118,8 +23476,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Добавьте несколько внутренних заметок (списки дел, контактная информация, "
 "...)"
+=======
+"Добавьте несколько внутренних заметок (списки дел, контактная "
+"информация, ...)"
+>>>>>>> upstream/18.0
 =======
 "Добавьте несколько внутренних заметок (списки дел, контактная "
 "информация, ...)"
@@ -23378,12 +23741,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "And this time, we go fully ONLINE! Meet us in our live streams from the comfort of your house.<br>\n"
 "        Special discount codes will be handed out during the various streams, make sure to be there on time."
 msgstr ""
 "И на этот раз мы полностью переходим в режим ONLINE! Встречайтесь с нами на наших прямых трансляциях, не выходя из дома.<br>\n"
 "        Во время стримов будут раздаваться специальные коды на скидку, успейте прийти вовремя."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -23516,6 +23882,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -23726,12 +24095,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Всего в 13 лет John DOE уже начал разрабатывать свои первые бизнес-"
 "приложения для клиентов. Освоив гражданское строительство, он основал "
 "компанию TinyERP. Это была первая фаза OpenERP, которая впоследствии стала "
 "Odoo, самым устанавливаемым бизнес-приложением с открытым исходным кодом во "
 "всем мире."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -23887,6 +24259,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -24113,7 +24488,11 @@ msgid "Auto-Print"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Автопечать"
+>>>>>>> upstream/18.0
 =======
 msgstr "Автопечать"
 >>>>>>> upstream/18.0
@@ -24333,7 +24712,11 @@ msgid "Badge (96x134mm)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Бейдж (96×134 мм)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Бейдж (96×134 мм)"
 >>>>>>> upstream/18.0
@@ -24542,7 +24925,11 @@ msgid "Badge (96x82mm)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Бейдж (96×82 мм)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Бейдж (96×82 мм)"
 >>>>>>> upstream/18.0
@@ -24763,12 +25150,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Bands like Bar Fighters, Led Slippers and Link Floyd will offer you the show"
 " of the century during our three day event."
 msgstr ""
 "Такие группы, как Bar Fighters, Led Slippers и Link Floyd, предложат вам шоу"
 " века во время нашего трехдневного мероприятия."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -24897,6 +25287,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -25091,8 +25484,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Bring your outdoor field hockey season to the next level by taking the field"
 " at this 9th annual Field Hockey tournament."
+=======
+"Bring your outdoor field hockey season to the next level by taking the field "
+"at this 9th annual Field Hockey tournament."
+>>>>>>> upstream/18.0
 =======
 "Bring your outdoor field hockey season to the next level by taking the field "
 "at this 9th annual Field Hockey tournament."
@@ -25347,7 +25745,11 @@ msgid "Cancelled registration"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Регистрация отменена"
+>>>>>>> upstream/18.0
 =======
 msgstr "Регистрация отменена"
 >>>>>>> upstream/18.0
@@ -25560,8 +25962,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Chamber Works оставляет за собой право отменить, переименовать или перенести"
 " мероприятие или изменить даты его проведения."
+=======
+"Chamber Works оставляет за собой право отменить, переименовать или перенести "
+"мероприятие или изменить даты его проведения."
+>>>>>>> upstream/18.0
 =======
 "Chamber Works оставляет за собой право отменить, переименовать или перенести "
 "мероприятие или изменить даты его проведения."
@@ -25788,6 +26195,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Выберите шаблон для автозаполнения билетов, писем, описаний и других полей."
+>>>>>>> upstream/18.0
 =======
 "Выберите шаблон для автозаполнения билетов, писем, описаний и других полей."
 >>>>>>> upstream/18.0
@@ -26094,7 +26505,11 @@ msgid "Confirm Attendance Button"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Кнопка «Подтвердить участие»"
+>>>>>>> upstream/18.0
 =======
 msgstr "Кнопка «Подтвердить участие»"
 >>>>>>> upstream/18.0
@@ -26304,7 +26719,11 @@ msgid "Confirm attendance?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Подтвердить участие?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Подтвердить участие?"
 >>>>>>> upstream/18.0
@@ -26567,7 +26986,11 @@ msgid "Created by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Создано"
+=======
+msgstr "Создано:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Создано:"
 >>>>>>> upstream/18.0
@@ -26789,7 +27212,11 @@ msgid "Created on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Создано"
+=======
+msgstr "Дата создания:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дата создания:"
 >>>>>>> upstream/18.0
@@ -27096,7 +27523,11 @@ msgid "Display Timezone"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Отображать часовой пояс"
+>>>>>>> upstream/18.0
 =======
 msgstr "Отображать часовой пояс"
 >>>>>>> upstream/18.0
@@ -27364,8 +27795,12 @@ msgid "Enhance your architectural business and improve professional skills."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Улучшите свой архитектурный бизнес и повысьте профессиональные навыки."
+=======
+msgstr "Улучшите свой архитектурный бизнес и повысьте профессиональные навыки."
+>>>>>>> upstream/18.0
 =======
 msgstr "Улучшите свой архитектурный бизнес и повысьте профессиональные навыки."
 >>>>>>> upstream/18.0
@@ -27608,7 +28043,11 @@ msgid "Event Mail Template Reference"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ссылка на шаблон письма для мероприятия"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ссылка на шаблон письма для мероприятия"
 >>>>>>> upstream/18.0
@@ -27881,6 +28320,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Планировщик событий для:\n"
 "  - Событие: %(event_name)s (%(event_id)s)\n"
 "  - Запланировано: %(date)s\n"
@@ -27894,6 +28334,8 @@ msgstr ""
 "  - или ответственным за мероприятие,\n"
 "  - или последним автором шаблона.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -28056,6 +28498,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -28264,12 +28709,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                usually based on the types of events you organize (e.g. \"Workshop\",\n"
 "                \"Roadshow\", \"Online Webinar\", etc)."
 msgstr ""
 "Шаблоны событий объединяют конфигурации, которые вы часто используете\n"
 "                обычно основаны на типах организуемых вами мероприятий (например, \"Семинар\",\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -28400,6 +28848,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -28616,6 +29067,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Every year we invite our community, partners and end-users to come and meet us! It's the ideal event to get together and present new features, roadmap of future versions, achievements of the software, workshops, training sessions, etc...\n"
 "            This event is also an opportunity to showcase our partners' case studies, methodology or developments. Be there and see directly from the source the features of the new version!"
 msgstr ""
@@ -28667,6 +29119,8 @@ msgstr ""
 "            Также это шанс представить кейсы наших партнеров, их методологию и разработки. Присоединяйтесь и узнайте о возможностях новых функций напрямую от разработчиков!"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -28805,6 +29259,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -28939,8 +29396,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Каждый год мы приглашаем наше сообщество, партнеров и конечных пользователей"
 " к нам на встречу! Это идеальное мероприятие, чтобы собраться вместе и "
+=======
+"Каждый год мы приглашаем наше сообщество, партнеров и конечных пользователей "
+"к нам на встречу! Это идеальное мероприятие, чтобы собраться вместе и "
+>>>>>>> upstream/18.0
 =======
 "Каждый год мы приглашаем наше сообщество, партнеров и конечных пользователей "
 "к нам на встречу! Это идеальное мероприятие, чтобы собраться вместе и "
@@ -29179,6 +29641,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "Завершенные мероприятия. Odoo автоматически переместит их на этот этап после"
 " наступления даты окончания."
@@ -29214,6 +29677,10 @@ msgstr ""
 =======
 "Завершенные мероприятия. Odoo автоматически переместит их на этот этап после"
 " наступления даты окончания."
+>>>>>>> upstream/18.0
+=======
+"Завершенные мероприятия. Odoo автоматически переместит их на этот этап после "
+"наступления даты окончания."
 >>>>>>> upstream/18.0
 =======
 "Завершенные мероприятия. Odoo автоматически переместит их на этот этап после "
@@ -29501,8 +29968,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "From this dashboard you can report, analyze and detect trends regarding your"
 " event registrations."
+=======
+"From this dashboard you can report, analyze and detect trends regarding your "
+"event registrations."
+>>>>>>> upstream/18.0
 =======
 "From this dashboard you can report, analyze and detect trends regarding your "
 "event registrations."
@@ -29818,7 +30290,11 @@ msgid "Guest #"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Гость #"
+>>>>>>> upstream/18.0
 =======
 msgstr "Гость #"
 >>>>>>> upstream/18.0
@@ -30067,7 +30543,11 @@ msgid "How to Fold (1)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Как складывать (1)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Как складывать (1)"
 >>>>>>> upstream/18.0
@@ -30276,7 +30756,11 @@ msgid "How to Fold (2)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Как складывать (2)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Как складывать (2)"
 >>>>>>> upstream/18.0
@@ -30485,7 +30969,11 @@ msgid "How to Fold (3)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Как складывать (3)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Как складывать (3)"
 >>>>>>> upstream/18.0
@@ -30694,7 +31182,11 @@ msgid "How to Fold (4)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Как складывать (4)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Как складывать (4)"
 >>>>>>> upstream/18.0
@@ -30900,7 +31392,11 @@ msgid "Icon to indicate an exception activity."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Значок, обозначающий исключение Дела."
+=======
+msgstr "Иконка, указывающая на задачу-исключение."
+>>>>>>> upstream/18.0
 =======
 msgstr "Иконка, указывающая на задачу-исключение."
 >>>>>>> upstream/18.0
@@ -31026,8 +31522,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Если используется продажа билетов, содержит самую раннюю дату начала продажи"
 " билетов."
+=======
+"Если используется продажа билетов, содержит самую раннюю дату начала продажи "
+"билетов."
+>>>>>>> upstream/18.0
 =======
 "Если используется продажа билетов, содержит самую раннюю дату начала продажи "
 "билетов."
@@ -31247,12 +31748,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If you don't know anything about Hockey, this is a great introduction to this wonderful sport as you will will be able to see some training process and also have some time\n"
 "                to chat with experienced players and trainers once the tournament is over!"
 msgstr ""
 "Если вы ничего не знаете о хоккее, то это отличное знакомство с этим замечательным видом спорта, ведь вы сможете увидеть тренировочный процесс, а также у вас будет время\n"
 "                пообщаться с опытными игроками и тренерами после окончания турнира!"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -31387,6 +31891,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -31551,6 +32058,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Указывает часовой пояс, в котором даты и время мероприятия будут "
+"отображаться на сайте."
+>>>>>>> upstream/18.0
 =======
 "Указывает часовой пояс, в котором даты и время мероприятия будут "
 "отображаться на сайте."
@@ -31883,8 +32395,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Присоединяйтесь к нам, чтобы принять участие в величайшей гонке на воздушных"
 " шарах всех времен!"
+=======
+"Присоединяйтесь к нам, чтобы принять участие в величайшей гонке на воздушных "
+"шарах всех времен!"
+>>>>>>> upstream/18.0
 =======
 "Присоединяйтесь к нам, чтобы принять участие в величайшей гонке на воздушных "
 "шарах всех времен!"
@@ -32161,7 +32678,11 @@ msgid "Last Attendee"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Последний участник"
+>>>>>>> upstream/18.0
 =======
 msgstr "Последний участник"
 >>>>>>> upstream/18.0
@@ -32384,7 +32905,11 @@ msgid "Last Updated by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Последнее обновление"
+=======
+msgstr "Последнее обновление:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Последнее обновление:"
 >>>>>>> upstream/18.0
@@ -32610,7 +33135,11 @@ msgid "Last Updated on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Последнее обновление"
+=======
+msgstr "Дата последнего обновления:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дата последнего обновления:"
 >>>>>>> upstream/18.0
@@ -33075,8 +33604,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Теперь, когда ваше мероприятие готово, нажмите здесь, чтобы перевести его на"
 " другой этап."
+=======
+"Теперь, когда ваше мероприятие готово, нажмите здесь, чтобы перевести его на "
+"другой этап."
+>>>>>>> upstream/18.0
 =======
 "Теперь, когда ваше мероприятие готово, нажмите здесь, чтобы перевести его на "
 "другой этап."
@@ -33371,7 +33905,11 @@ msgid "Online Event"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Онлайн-мероприятие"
+>>>>>>> upstream/18.0
 =======
 msgstr "Онлайн-мероприятие"
 >>>>>>> upstream/18.0
@@ -33590,7 +34128,11 @@ msgid "Online if not set"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Онлайн, если не указано иное"
+>>>>>>> upstream/18.0
 =======
 msgstr "Онлайн, если не указано иное"
 >>>>>>> upstream/18.0
@@ -33801,6 +34343,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Откройте выбор диапазона дат.<br/>Укажите дату начала и окончания "
+"мероприятия."
+>>>>>>> upstream/18.0
 =======
 "Откройте выбор диапазона дат.<br/>Укажите дату начала и окончания "
 "мероприятия."
@@ -34051,8 +34598,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "OpenElec Applications reserves the right to cancel, re-name or re-locate the"
 " event or change the dates on which it is held."
+=======
+"OpenElec Applications reserves the right to cancel, re-name or re-locate the "
+"event or change the dates on which it is held."
+>>>>>>> upstream/18.0
 =======
 "OpenElec Applications reserves the right to cancel, re-name or re-locate the "
 "event or change the dates on which it is held."
@@ -34307,12 +34859,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Override the default value displayed for the done state for kanban "
 "selection."
 msgstr ""
 "Переопределите значение по умолчанию, отображаемое для состояния \"сделано\""
 " при выборе канбан."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -34440,6 +34995,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -34573,8 +35131,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Переопределите значение по умолчанию, отображаемое для нормального состояния"
 " при выборе канбан."
+=======
+"Переопределите значение по умолчанию, отображаемое для нормального состояния "
+"при выборе канбан."
+>>>>>>> upstream/18.0
 =======
 "Переопределите значение по умолчанию, отображаемое для нормального состояния "
 "при выборе канбан."
@@ -35064,7 +35627,11 @@ msgid "Reset To Registered"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Сбросить до «Зарегистрирован»"
+>>>>>>> upstream/18.0
 =======
 msgstr "Сбросить до «Зарегистрирован»"
 >>>>>>> upstream/18.0
@@ -35273,7 +35840,11 @@ msgid "Reset To Registered Button"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Кнопка – Сбросить до «Зарегистрирован»"
+>>>>>>> upstream/18.0
 =======
 msgstr "Кнопка – Сбросить до «Зарегистрирован»"
 >>>>>>> upstream/18.0
@@ -35517,7 +36088,11 @@ msgid "Scan or Tap"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Отсканировать или приложить"
+>>>>>>> upstream/18.0
 =======
 msgstr "Отсканировать или приложить"
 >>>>>>> upstream/18.0
@@ -35731,8 +36306,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "отправляйте автоматические письма с подтверждением, продавайте билеты и т. "
 "д."
+=======
+"отправляйте автоматические письма с подтверждением, продавайте билеты и т. д."
+>>>>>>> upstream/18.0
 =======
 "отправляйте автоматические письма с подтверждением, продавайте билеты и т. д."
 >>>>>>> upstream/18.0
@@ -35924,7 +36503,11 @@ msgid "Scheduler Emails"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Планировщик e-mail писем"
+>>>>>>> upstream/18.0
 =======
 msgstr "Планировщик e-mail писем"
 >>>>>>> upstream/18.0
@@ -36151,7 +36734,11 @@ msgid "Select printer..."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Выбрать принтер..."
+>>>>>>> upstream/18.0
 =======
 msgstr "Выбрать принтер..."
 >>>>>>> upstream/18.0
@@ -36375,7 +36962,11 @@ msgid "Sell tickets with Point of Sale"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Продавать билеты через POS"
+>>>>>>> upstream/18.0
 =======
 msgstr "Продавать билеты через POS"
 >>>>>>> upstream/18.0
@@ -36767,7 +37358,11 @@ msgid "Successfully registered!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Вы успешно зарегистрированы!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Вы успешно зарегистрированы!"
 >>>>>>> upstream/18.0
@@ -37007,8 +37602,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Задача заблокирована. Нажмите, чтобы разблокировать или установите состояние"
 " \"сделано\"."
+=======
+"Задача заблокирована. Нажмите, чтобы разблокировать или установите состояние "
+"\"сделано\"."
+>>>>>>> upstream/18.0
 =======
 "Задача заблокирована. Нажмите, чтобы разблокировать или установите состояние "
 "\"сделано\"."
@@ -37289,8 +37889,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "используется продажа билетов и все билеты проданы, мероприятие будет "
 "продано."
+=======
+"используется продажа билетов и все билеты проданы, мероприятие будет продано."
+>>>>>>> upstream/18.0
 =======
 "используется продажа билетов и все билеты проданы, мероприятие будет продано."
 >>>>>>> upstream/18.0
@@ -37471,11 +38075,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The following tickets cannot be deleted while they have one or more registrations linked to them:\n"
 "- %s"
 msgstr ""
 "Следующие билеты не могут быть удалены, пока к ним привязана одна или несколько регистраций:\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -37605,6 +38212,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -37741,12 +38351,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The stop date cannot be earlier than the start date. Please check ticket "
 "%(ticket_name)s"
 msgstr ""
 "Дата остановки не может быть раньше даты начала. Пожалуйста, проверьте билет"
 " %(ticket_name)s"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -37875,6 +38488,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -38027,12 +38643,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This event is fully online and FREE, if you have paid for tickets, you should get a refund.<br>\n"
 "        It will require a good Internet connection to get the best video quality."
 msgstr ""
 "Это мероприятие полностью онлайн и БЕСПЛАТНО, если вы заплатили за билеты, вам должны вернуть деньги.<br>\n"
 "        Для получения наилучшего качества видео потребуется хорошее подключение к Интернету."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -38165,6 +38784,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -38347,7 +38969,11 @@ msgid "This ticket is for another event!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Этот билет для другого мероприятия!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Этот билет для другого мероприятия!"
 >>>>>>> upstream/18.0
@@ -38588,7 +39214,11 @@ msgid "Ticket already scanned!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Билет уже отсканирован!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Билет уже отсканирован!"
 >>>>>>> upstream/18.0
@@ -38826,7 +39456,11 @@ msgid "Tickets with PoS"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Билеты через модуль POS"
+>>>>>>> upstream/18.0
 =======
 msgstr "Билеты через модуль POS"
 >>>>>>> upstream/18.0
@@ -39035,7 +39669,11 @@ msgid "Tickets with Sale"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Билеты через модуль Продажи"
+>>>>>>> upstream/18.0
 =======
 msgstr "Билеты через модуль Продажи"
 >>>>>>> upstream/18.0
@@ -39279,7 +39917,11 @@ msgid "Type of the exception activity on record."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Тип Дела для исключения в записи."
+=======
+msgstr "Тип задачи-исключения в записи."
+>>>>>>> upstream/18.0
 =======
 msgstr "Тип задачи-исключения в записи."
 >>>>>>> upstream/18.0
@@ -39383,7 +40025,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Unconfirmed: registrations in a pending state waiting for an action (specific case, notably with sale status)\n"
+=======
+"Unconfirmed: registrations in a pending state waiting for an action "
+"(specific case, notably with sale status)\n"
+>>>>>>> upstream/18.0
 =======
 "Unconfirmed: registrations in a pending state waiting for an action "
 "(specific case, notably with sale status)\n"
@@ -39598,7 +40245,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Неподтвержденные: регистрации, находящиеся в состоянии ожидания какого-либо действия (конкретный случай, в частности, статус продажи)\n"
+=======
+"Неподтвержденные: регистрации, находящиеся в состоянии ожидания какого-либо "
+"действия (конкретный случай, в частности, статус продажи)\n"
+>>>>>>> upstream/18.0
 =======
 "Неподтвержденные: регистрации, находящиеся в состоянии ожидания какого-либо "
 "действия (конкретный случай, в частности, статус продажи)\n"
@@ -39940,8 +40592,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "We reserve the right to cancel, re-name or re-locate the event or change the"
 " dates on which it is held in case the weather fails us."
+=======
+"We reserve the right to cancel, re-name or re-locate the event or change the "
+"dates on which it is held in case the weather fails us."
+>>>>>>> upstream/18.0
 =======
 "We reserve the right to cancel, re-name or re-locate the event or change the "
 "dates on which it is held in case the weather fails us."
@@ -40200,7 +40857,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Когда должно пройти мероприятие (укажите в вашем часовом поясе)."
+>>>>>>> upstream/18.0
 =======
 msgstr "Когда должно пройти мероприятие (укажите в вашем часовом поясе)."
 >>>>>>> upstream/18.0
@@ -40420,8 +41081,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You can also add a description to help your coworkers understand the meaning"
 " and purpose of the stage."
+=======
+"You can also add a description to help your coworkers understand the meaning "
+"and purpose of the stage."
+>>>>>>> upstream/18.0
 =======
 "You can also add a description to help your coworkers understand the meaning "
 "and purpose of the stage."
@@ -40827,6 +41493,7 @@ msgid "{{ object.event_id.name }}: {{ object.event_date_range }}"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "{{ object.event_id.name }}: {{ object.event_date_range }}"
@@ -40856,6 +41523,8 @@ msgstr "{{ object.event_id.name }}: {{ object.event_date_range }}"
 msgstr "{{ object.event_id.name }}: {{ object.event_date_range }}"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -40987,6 +41656,7 @@ msgstr "{{ object.event_id.name }}: {{ object.event_date_range }}"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -41003,6 +41673,8 @@ msgstr "{{ object.event_id.name }}: {{ object.event_date_range }}"
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -42583,6 +43255,9 @@ msgstr "{{ object.event_id.name }}: {{ object.event_date_range }}"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -43442,6 +44117,9 @@ msgstr "{{ object.event_id.name }}: {{ object.event_date_range }}"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -45738,6 +46416,9 @@ msgstr "{{ object.event_id.name }}: {{ object.event_date_range }}"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

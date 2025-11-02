@@ -11,7 +11,10 @@ patch(PaymentStripe.prototype, {
     },
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     async send_payment_adjust(uuid) {
         const order = this.pos.get_order();
         const line = order.get_paymentline_by_uuid(uuid);
@@ -20,6 +23,9 @@ patch(PaymentStripe.prototype, {
         });
     },
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     canBeAdjusted(uuid) {
         var order = this.pos.get_order();

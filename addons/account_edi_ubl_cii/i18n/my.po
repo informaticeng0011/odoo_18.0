@@ -7,6 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-08-08 18:38+0000\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -125,6 +126,10 @@ msgstr ""
 =======
 "PO-Revision-Date: 2025-10-03 16:18+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-10-31 18:37+0000\n"
+"PO-Revision-Date: 2025-10-03 16:18+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: Oakarmin Iron <oakarminiron@gmail.com>\n"
 "Language-Team: Burmese <https://translate.odoo.com/projects/odoo-18/"
 "account_edi_ubl_cii/my/>\n"
@@ -139,8 +144,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/account_edi_ubl_cii/models/account_edi_xml_ubl_bis3.py:0
 msgid ""
+<<<<<<< HEAD
 "%s should have a KVK or OIN number set in Company ID field or as Peppol "
 "e-address (EAS code 0106 or 0190)."
+=======
+"%s should have a KVK or OIN number set in Company ID field or as Peppol e-"
+"address (EAS code 0106 or 0190)."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account_edi_ubl_cii
@@ -195,8 +205,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/account_edi_ubl_cii/models/account_edi_common.py:0
 msgid ""
+<<<<<<< HEAD
 "At least one of the following fields %(field_list)s is required on "
 "%(record)s."
+=======
+"At least one of the following fields %(field_list)s is required on %"
+"(record)s."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account_edi_ubl_cii
@@ -206,6 +221,7 @@ msgid "Attachment"
 msgstr ""
 
 #. module: account_edi_ubl_cii
+<<<<<<< HEAD
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__0151
 msgid "Australia ABN"
 msgstr ""
@@ -213,6 +229,15 @@ msgstr ""
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__invoice_edi_format__ubl_a_nz
 msgid "Australia BIS Billing 3.0 A-NZ"
+=======
+#: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__invoice_edi_format__ubl_a_nz
+msgid "Australia (BIS Billing 3.0 A-NZ)"
+msgstr ""
+
+#. module: account_edi_ubl_cii
+#: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__0151
+msgid "Australia ABN"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account_edi_ubl_cii
@@ -272,7 +297,12 @@ msgstr ""
 #: model:ir.model.fields,help:account_edi_ubl_cii.field_res_users__peppol_eas
 msgid ""
 "Code used to identify the Endpoint for BIS Billing 3.0 and its derivatives.\n"
+<<<<<<< HEAD
 "             List available at https://docs.peppol.eu/poacc/billing/3.0/codelist/eas/"
+=======
+"             List available at https://docs.peppol.eu/poacc/billing/3.0/"
+"codelist/eas/"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account_edi_ubl_cii
@@ -330,7 +360,11 @@ msgid "Configure"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ပြင်ဆင်"
+>>>>>>> upstream/18.0
 =======
 msgstr "ပြင်ဆင်"
 >>>>>>> upstream/18.0
@@ -436,8 +470,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/account_edi_ubl_cii/models/account_edi_common.py:0
 msgid ""
+<<<<<<< HEAD
 "Could not retrieve currency: %s. Did you enable the multicurrency option and"
 " activate the currency?"
+=======
+"Could not retrieve currency: %s. Did you enable the multicurrency option and "
+"activate the currency?"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account_edi_ubl_cii
@@ -455,8 +494,12 @@ msgstr ""
 #. module: account_edi_ubl_cii
 #. odoo-python
 #: code:addons/account_edi_ubl_cii/models/account_edi_common.py:0
+<<<<<<< HEAD
 msgid ""
 "Could not retrieve the tax: %s for the document level allowance/charge."
+=======
+msgid "Could not retrieve the tax: %s for the document level allowance/charge."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account_edi_ubl_cii
@@ -765,7 +808,11 @@ msgid "Journal Entry"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ဂျာနယ်စာရင်း"
+>>>>>>> upstream/18.0
 =======
 msgstr "ဂျာနယ်စာရင်း"
 >>>>>>> upstream/18.0
@@ -988,7 +1035,11 @@ msgid "Odoo"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "အိုဒူး"
+>>>>>>> upstream/18.0
 =======
 msgstr "အိုဒူး"
 >>>>>>> upstream/18.0
@@ -1176,7 +1227,11 @@ msgstr ""
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__invoice_edi_format__ubl_sg
+<<<<<<< HEAD
 msgid "Singapore BIS Billing 3.0 SG"
+=======
+msgid "Singapore (BIS Billing 3.0 SG)"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account_edi_ubl_cii
@@ -1287,8 +1342,12 @@ msgstr ""
 #. module: account_edi_ubl_cii
 #. odoo-python
 #: code:addons/account_edi_ubl_cii/models/account_edi_xml_cii_facturx.py:0
+<<<<<<< HEAD
 msgid ""
 "The field 'Sanitized Account Number' is required on the Recipient Bank."
+=======
+msgid "The field 'Sanitized Account Number' is required on the Recipient Bank."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account_edi_ubl_cii
@@ -1389,8 +1448,13 @@ msgstr ""
 #: code:addons/account_edi_ubl_cii/models/account_edi_xml_cii_facturx.py:0
 msgid ""
 "You should include at least one tax per invoice line. [BR-CO-04]-Each "
+<<<<<<< HEAD
 "Invoice line (BG-25) shall be categorized with an Invoiced item VAT category"
 " code (BT-151)."
+=======
+"Invoice line (BG-25) shall be categorized with an Invoiced item VAT category "
+"code (BT-151)."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account_edi_ubl_cii
