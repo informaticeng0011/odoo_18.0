@@ -32,6 +32,7 @@ import { expect, test } from "@odoo/hoot";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { setupEditor, testEditor } from "../_helpers/editor";
 import { getContent } from "../_helpers/selection";
 import { em, span } from "../_helpers/tags";
@@ -696,6 +697,8 @@ import { tick } from "@odoo/hoot-mock";
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 import { press } from "@odoo/hoot-dom";
 import { patchWithCleanup } from "@web/../tests/web_test_helpers";
 import { setupEditor, testEditor } from "../_helpers/editor";
@@ -742,6 +745,9 @@ import { tick } from "@odoo/hoot-mock";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -903,8 +909,11 @@ test("should make a whole heading italic after a triple click", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         stepFunction: italic,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1062,6 +1071,9 @@ test("should make a whole heading italic after a triple click", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1222,11 +1234,14 @@ test("should make a whole heading not italic after a triple click", async () => 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const { el, editor } = await setupEditor(`<h1>${em(`[ab`)}</h1><p>]cd</p>`);
     await tripleClick(el.querySelector("h1"));
     italic(editor);
     expect(getContent(el)).toBe(`<h1>[ab]</h1><p>cd</p>`);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1388,6 +1403,9 @@ test("should make a whole heading not italic after a triple click", async () => 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1675,7 +1693,10 @@ test("should not format non-editable text (italic)", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2081,6 +2102,9 @@ test("should remove empty italic tag when changing selection", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2497,8 +2521,12 @@ test("should make a few characters italic inside table (italic)", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             </table>`
         ),
+=======
+            </table>`),
+>>>>>>> upstream/18.0
 =======
             </table>`),
 >>>>>>> upstream/18.0
@@ -3047,6 +3075,7 @@ test("should make a few characters italic inside table (italic)", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             </table>`
         ),
 =======
@@ -3413,6 +3442,8 @@ test("should make a few characters italic inside table (italic)", async () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             </table>`),
     });
 });
@@ -3466,6 +3497,9 @@ test("should not add history step for italic on collapsed selection", async () =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

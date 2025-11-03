@@ -253,6 +253,7 @@ class TestEdiFacturaeXmls(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         wizard.action_send_and_print()
         self.assertFalse(invoice.l10n_es_edi_facturae_xml_id)
 =======
@@ -550,6 +551,11 @@ class TestEdiFacturaeXmls(AccountTestInvoicingCommon):
         with self.assertRaises(UserError):
             wizard.action_send_and_print()
 >>>>>>> upstream/18.0
+=======
+        # Expect a UserError if no certificate is configured
+        with self.assertRaises(UserError):
+            wizard.action_send_and_print()
+>>>>>>> upstream/18.0
 
     def test_in_invoice(self):
         random.seed(42)
@@ -596,7 +602,10 @@ class TestEdiFacturaeXmls(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -673,6 +682,9 @@ class TestEdiFacturaeXmls(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -973,7 +985,10 @@ class TestEdiFacturaeXmls(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1226,6 +1241,7 @@ class TestEdiFacturaeXmls(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1340,6 +1356,8 @@ class TestEdiFacturaeXmls(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1417,6 +1435,9 @@ class TestEdiFacturaeXmls(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

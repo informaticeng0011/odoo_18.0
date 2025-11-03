@@ -71,6 +71,7 @@ test("url is given by the session", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     onRpc(
         "/get_translations/*",
         function (request) {
@@ -80,6 +81,8 @@ test("url is given by the session", async () => {
         { pure: true }
     );
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -117,6 +120,9 @@ test("url is given by the session", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

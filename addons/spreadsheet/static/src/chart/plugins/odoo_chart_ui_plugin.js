@@ -246,6 +246,7 @@ export class OdooChartUIPlugin extends OdooUIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if (!items.length) {
                     return;
                 }
@@ -345,6 +346,9 @@ export class OdooChartUIPlugin extends OdooUIPlugin {
 >>>>>>> upstream/18.0
 =======
                 if (!items.length ||  !env || items[0].datasetIndex >= datasets.length ) {
+>>>>>>> upstream/18.0
+=======
+                if (!items.length || !env || items[0].datasetIndex >= datasets.length) {
 >>>>>>> upstream/18.0
 =======
                 if (!items.length || !env || items[0].datasetIndex >= datasets.length) {
@@ -642,6 +646,10 @@ export class OdooChartUIPlugin extends OdooUIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this._addDomain(chartId);
+>>>>>>> upstream/18.0
 =======
         this._addDomain(chartId);
 >>>>>>> upstream/18.0

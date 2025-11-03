@@ -289,7 +289,10 @@ class HolidaysType(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     ('allocation_type', '=', 'accrual'),
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -549,7 +552,11 @@ class HolidaysType(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     or (alloc.max_leaves > 0 and alloc.virtual_remaining_leaves > -allowed_excess)
+=======
+                    or (alloc.max_leaves > 0 and (alloc.max_leaves - alloc.leaves_taken) > -allowed_excess)
+>>>>>>> upstream/18.0
 =======
                     or (alloc.max_leaves > 0 and (alloc.max_leaves - alloc.leaves_taken) > -allowed_excess)
 >>>>>>> upstream/18.0
@@ -988,7 +995,11 @@ class HolidaysType(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @api.depends_context('holiday_status_display_name', 'employee_id', 'from_manager_leave_form')
+=======
+    @api.depends_context('holiday_status_display_name', 'employee_id')
+>>>>>>> upstream/18.0
 =======
     @api.depends_context('holiday_status_display_name', 'employee_id')
 >>>>>>> upstream/18.0
@@ -1399,7 +1410,11 @@ class HolidaysType(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if record.requires_allocation == "yes" and not self._context.get("from_manager_leave_form"):
+=======
+            if record.requires_allocation == "yes":
+>>>>>>> upstream/18.0
 =======
             if record.requires_allocation == "yes":
 >>>>>>> upstream/18.0
@@ -1810,6 +1825,10 @@ class HolidaysType(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'employee_id': False,
+>>>>>>> upstream/18.0
 =======
             'employee_id': False,
 >>>>>>> upstream/18.0
@@ -2314,8 +2333,14 @@ class HolidaysType(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expiration_dates_per_allocation = defaultdict(lambda: {'expiration_date': fields.Date(), 'carryover_date': fields.Date()})
         expiration_dates = list()
+=======
+        expiration_dates_per_allocation = defaultdict(lambda: {'expiration_date': fields.Date(), 'carryover_date': fields.Date(), 'carried_over_days_expiration_date': fields.Date()})
+        expiration_dates = list()
+        carried_over_days_expiration_data = self._get_carried_over_days_expiration_data(allocations, target_date)
+>>>>>>> upstream/18.0
 =======
         expiration_dates_per_allocation = defaultdict(lambda: {'expiration_date': fields.Date(), 'carryover_date': fields.Date(), 'carried_over_days_expiration_date': fields.Date()})
         expiration_dates = list()
@@ -3009,10 +3034,13 @@ class HolidaysType(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expiration_dates.extend([expiration_date, carryover_date])
             expiration_dates_per_allocation[allocation]['expiration_date'] = expiration_date
             expiration_dates_per_allocation[allocation]['carryover_date'] = carryover_date
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3355,6 +3383,9 @@ class HolidaysType(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3702,6 +3733,11 @@ class HolidaysType(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                carried_over_days_expiration_date = expiration_dates_per_allocation[allocation]['carried_over_days_expiration_date']
+
+>>>>>>> upstream/18.0
 =======
                 carried_over_days_expiration_date = expiration_dates_per_allocation[allocation]['carried_over_days_expiration_date']
 
@@ -4272,6 +4308,12 @@ class HolidaysType(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                elif carried_over_days_expiration_date and carried_over_days_expiration_date == closest_expiration_date:
+                    expiring_leaves_count += carried_over_days_expiration_data[allocation]['no_expiring_days']
+
+>>>>>>> upstream/18.0
 =======
                 elif carried_over_days_expiration_date and carried_over_days_expiration_date == closest_expiration_date:
                     expiring_leaves_count += carried_over_days_expiration_data[allocation]['no_expiring_days']
@@ -4955,7 +4997,10 @@ class HolidaysType(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5308,6 +5353,9 @@ class HolidaysType(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

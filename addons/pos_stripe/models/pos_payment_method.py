@@ -107,9 +107,12 @@ class PosPaymentMethod(models.Model):
         if amount is not None:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             data = {
                 "amount_to_capture": self._stripe_calculate_amount(amount),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             # No rounding values stored in a model method
@@ -117,6 +120,9 @@ class PosPaymentMethod(models.Model):
             data = {
                 "amount_to_capture": round(amount / rounding),
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

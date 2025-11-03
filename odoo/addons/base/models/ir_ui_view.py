@@ -542,7 +542,11 @@ actual arch.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @api.constrains('type', 'groups_id', 'inherit_id')
+=======
+    @api.constrains('groups_id', 'inherit_id', 'mode')
+>>>>>>> upstream/18.0
 =======
     @api.constrains('groups_id', 'inherit_id', 'mode')
 >>>>>>> upstream/18.0
@@ -1004,9 +1008,12 @@ actual arch.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @api.model_create_multi
     def create(self, vals_list):
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1170,6 +1177,9 @@ actual arch.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1330,6 +1340,11 @@ actual arch.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if values.get('arch_base'):
+                self._validate_xml_encoding(values['arch_base'])
+>>>>>>> upstream/18.0
 =======
             if values.get('arch_base'):
                 self._validate_xml_encoding(values['arch_base'])
@@ -1599,7 +1614,10 @@ actual arch.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1760,6 +1778,9 @@ actual arch.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1957,6 +1978,11 @@ actual arch.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if vals.get('arch_base'):
+            self._validate_xml_encoding(vals['arch_base'])
+>>>>>>> upstream/18.0
 =======
         if vals.get('arch_base'):
             self._validate_xml_encoding(vals['arch_base'])
@@ -4129,6 +4155,11 @@ class Model(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            elif field.type == "binary" and not isinstance(field, fields.Image) and not field.store:
+                continue
+>>>>>>> upstream/18.0
 =======
             elif field.type == "binary" and not isinstance(field, fields.Image) and not field.store:
                 continue
@@ -4725,7 +4756,10 @@ class Model(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5004,6 +5038,9 @@ class Model(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5307,7 +5344,11 @@ class Model(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         arch, models = view.postprocess_and_fields(arch, model=self._name, **options)
+=======
+        arch, models = self._get_view_postprocessed(view, arch, **options)
+>>>>>>> upstream/18.0
 =======
         arch, models = self._get_view_postprocessed(view, arch, **options)
 >>>>>>> upstream/18.0

@@ -224,7 +224,10 @@ export class PaymentStripe extends PaymentInterface {
     async capturePayment(paymentIntentId) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         return this.capturePaymentStripe(paymentIntentId);
@@ -232,6 +235,9 @@ export class PaymentStripe extends PaymentInterface {
 
     async capturePaymentStripe(paymentIntentId, amount = null, context = {}) {
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -241,8 +247,11 @@ export class PaymentStripe extends PaymentInterface {
                 "stripe_capture_payment",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 [paymentIntentId]
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                 [paymentIntentId],
@@ -251,6 +260,9 @@ export class PaymentStripe extends PaymentInterface {
                     context,
                 }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

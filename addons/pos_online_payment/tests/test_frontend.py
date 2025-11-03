@@ -77,6 +77,10 @@ from odoo.addons.point_of_sale.tests.common import archive_products
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.exceptions import UserError
+>>>>>>> upstream/18.0
 =======
 from odoo.exceptions import UserError
 >>>>>>> upstream/18.0
@@ -328,7 +332,11 @@ import odoo.tests
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 @odoo.tests.tagged('post_install', '-at_install')
+=======
+@odoo.tests.tagged('post_install', '-at_install', 'is_tour')
+>>>>>>> upstream/18.0
 =======
 @odoo.tests.tagged('post_install', '-at_install', 'is_tour')
 >>>>>>> upstream/18.0
@@ -819,7 +827,10 @@ class TestUi(TestPointOfSaleHttpCommon, OnlinePaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1055,6 +1066,7 @@ class TestUi(TestPointOfSaleHttpCommon, OnlinePaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1161,6 +1173,8 @@ class TestUi(TestPointOfSaleHttpCommon, OnlinePaymentCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1203,6 +1217,9 @@ class TestUi(TestPointOfSaleHttpCommon, OnlinePaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
