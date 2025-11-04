@@ -35,6 +35,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* sale_timesheet
 # 
 # Translators:
@@ -183,6 +184,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # * sale_timesheet
 #
 # Translators:
@@ -224,6 +227,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -298,6 +304,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-27 13:04+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -516,6 +523,9 @@ msgstr ""
 =======
 "PO-Revision-Date: 2025-10-08 15:46+0000\n"
 >>>>>>> upstream/18.0
+=======
+"PO-Revision-Date: 2025-11-03 21:50+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: \"Fernanda Alvarez (mfar)\" <mfar@odoo.com>\n"
 "Language-Team: Spanish (Latin America) <https://translate.odoo.com/projects/"
 "odoo-18/sale_timesheet/es_419/>\n"
@@ -560,6 +570,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -771,7 +784,11 @@ msgid "2 open days"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "2 días disponibles"
+=======
+msgstr "2 días hábiles"
+>>>>>>> upstream/18.0
 =======
 msgstr "2 días hábiles"
 >>>>>>> upstream/18.0
@@ -1279,7 +1296,11 @@ msgid "Choose the Sales Order to invoice"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Seleccione la orden de venta a facturar"
+=======
+msgstr "Elige la orden de venta a facturar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Elige la orden de venta a facturar"
 >>>>>>> upstream/18.0
@@ -2134,9 +2155,24 @@ msgid ""
 "If you would like to bill the same service at a different rate, you need to create two separate sales order items as each sales order item can only have a single unit price at a time.\n"
 "You can also define the hourly company cost of your employees for their timesheets on this project specifically. It will bypass the timesheet cost set on the employee."
 msgstr ""
+<<<<<<< HEAD
 "Artículo de la orden de venta que se seleccionará de forma predeterminada en las hojas de horas del empleado correspondiente. No toma en cuenta el elemento de la orden de venta definido en el proyecto y la tarea; puede modificarse en cada entrada de la hoja de horas si es necesario. En otras palabras, define el precio en el que se factura el tiempo de un empleado dependiendo de ciertas características, como sus conocimientos, habilidades o experiencia.\n"
 "Si desea facturar el mismo servicio con un precio diferente, deberá crear dos artículos distintos en la orden de venta, ya que cada artículo solo puede tener un precio único a la vez.\n"
 "También puede definir el costo por hora de sus empleados para sus hojas de horas en un proyecto en específico. Se omitirá el costo de la hoja de horas establecido en el empleado."
+=======
+"Artículo de la orden de venta que se seleccionará de forma predeterminada en "
+"las hojas de horas del empleado correspondiente. Sustituye el artículo de la "
+"orden de venta definido en el proyecto y la tarea; puedes cambiarlo en cada "
+"entrada de la hoja de horas en caso de que sea necesario. En otras palabras, "
+"define el precio al que se factura el tiempo del empleado según su "
+"experiencia, habilidades o conocimientos, por ejemplo. \n"
+"Si quieres facturar el mismo servicio con un precio diferente deberás crear "
+"dos artículos de la orden de venta separados, ya que cada artículo puede "
+"tener un solo precio unitario a la vez. \n"
+"También puedes definir el costo por hora de tus empleados para sus hojas de "
+"horas en este proyecto en específico. Sustituye el costo de la hoja de horas "
+"configurado en el empleado."
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:ir.model.fields,help:sale_timesheet.field_account_analytic_line__so_line
@@ -2554,8 +2590,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Importe total a facturar en la orden de venta, con todos los artículos "
 "incluidos (servicios, almacenables, gastos, ...)"
+=======
+"Importe total a facturar en la orden de venta con todos los artículos "
+"incluidos (servicios, almacenables, gastos y más)."
+>>>>>>> upstream/18.0
 =======
 "Importe total a facturar en la orden de venta con todos los artículos "
 "incluidos (servicios, almacenables, gastos y más)."
@@ -2820,7 +2861,11 @@ msgid "You can only apply this action from a project."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Solo puede aplicar esta acción desde un proyecto."
+=======
+msgstr "Solo puedes aplicar esta acción desde un proyecto."
+>>>>>>> upstream/18.0
 =======
 msgstr "Solo puedes aplicar esta acción desde un proyecto."
 >>>>>>> upstream/18.0

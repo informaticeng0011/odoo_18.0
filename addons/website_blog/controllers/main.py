@@ -226,7 +226,11 @@ class WebsiteBlog(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         nav_list = tools.lazy(self.nav_list)
+=======
+        nav_list = tools.lazy(lambda: self.nav_list(blog))
+>>>>>>> upstream/18.0
 =======
         nav_list = tools.lazy(lambda: self.nav_list(blog))
 >>>>>>> upstream/18.0
@@ -555,12 +559,15 @@ class WebsiteBlog(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if tag and request.httprequest.method == 'GET':
             # redirect get tag-1,tag-2 -> get tag-1
             tags = tag.split(',')
             if len(tags) > 1:
                 url = QueryURL('' if blog else '/blog', ['blog', 'tag'], blog=blog, tag=tags[0], date_begin=date_begin, date_end=date_end, search=search)()
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -644,6 +651,9 @@ class WebsiteBlog(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

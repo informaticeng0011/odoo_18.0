@@ -203,6 +203,11 @@ class BaseFollowersTest(MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        with self.assertRaisesRegex(AccessError, 'Portal users can only filter threads'):
+            self.env['mail.test.simple'].with_user(self.user_portal).search([('message_partner_ids', 'in', partner.ids)])
+>>>>>>> upstream/18.0
 =======
         with self.assertRaisesRegex(AccessError, 'Portal users can only filter threads'):
             self.env['mail.test.simple'].with_user(self.user_portal).search([('message_partner_ids', 'in', partner.ids)])
@@ -943,7 +948,10 @@ class BaseFollowersTest(MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1052,6 +1060,9 @@ class BaseFollowersTest(MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

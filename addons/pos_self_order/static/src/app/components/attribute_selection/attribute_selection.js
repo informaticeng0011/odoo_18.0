@@ -53,7 +53,10 @@ import { useSelfOrder } from "@pos_self_order/app/self_order_service";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { attributeFlatter, attributeFormatter } from "@pos_self_order/app/utils";
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -284,6 +287,7 @@ export class AttributeSelection extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     get attributeSelected() {
         const flatAttribute = attributeFlatter(this.selectedValues);
         const customAttribute = this.env.customValues;
@@ -294,6 +298,8 @@ export class AttributeSelection extends Component {
         );
     }
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -557,7 +563,11 @@ export class AttributeSelection extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return !floatIsZero(priceExtra, this.selfOrder.config.currency_decimals);
+=======
+        return !floatIsZero(priceExtra, this.selfOrder.currency.decimal_places);
+>>>>>>> upstream/18.0
 =======
         return !floatIsZero(priceExtra, this.selfOrder.currency.decimal_places);
 >>>>>>> upstream/18.0

@@ -1,5 +1,9 @@
 /** @odoo-module **/
 
+<<<<<<< HEAD
+=======
+import { redirect } from '@web/core/utils/urls';
+>>>>>>> upstream/18.0
 import publicWidget from "@web/legacy/js/public/public_widget";
 import wSaleUtils from "@website_sale/js/website_sale_utils";
 import VariantMixin from "@website_sale/js/sale_variant_mixin";
@@ -215,7 +219,11 @@ publicWidget.registry.ProductWishlist = publicWidget.Widget.extend(VariantMixin,
      * @private
      */
     _redirectNoWish: function () {
+<<<<<<< HEAD
         window.location.href = '/shop/cart';
+=======
+        redirect('/shop/cart');
+>>>>>>> upstream/18.0
     },
 
 
@@ -232,7 +240,11 @@ publicWidget.registry.ProductWishlist = publicWidget.Widget.extend(VariantMixin,
             this._redirectNoWish();
             return;
         }
+<<<<<<< HEAD
         window.location = '/shop/wishlist';
+=======
+        redirect('/shop/wishlist');
+>>>>>>> upstream/18.0
     },
     /**
      * @private

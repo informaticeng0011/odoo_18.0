@@ -78,7 +78,11 @@ registry
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ...wsTourUtils.addToCart({ productName: "Main product", search: false }),
+=======
+            ...wsTourUtils.addToCart({ productName: "Main product", search: false, expectUnloadPage: true }),
+>>>>>>> upstream/18.0
 =======
             ...wsTourUtils.addToCart({ productName: "Main product", search: false, expectUnloadPage: true }),
 >>>>>>> upstream/18.0
@@ -392,6 +396,10 @@ registry
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
                 expectUnloadPage: true,
 >>>>>>> upstream/18.0

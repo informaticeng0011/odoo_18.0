@@ -66,7 +66,11 @@ class IrRule(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     _MODES = ['read', 'write', 'create', 'unlink']
+=======
+    _MODES = ('read', 'write', 'create', 'unlink')
+>>>>>>> upstream/18.0
 =======
     _MODES = ('read', 'write', 'create', 'unlink')
 >>>>>>> upstream/18.0

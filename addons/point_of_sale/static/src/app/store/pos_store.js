@@ -147,8 +147,11 @@ import { AlertDialog } from "@web/core/confirmation_dialog/confirmation_dialog";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { deduceUrl, lte, random5Chars, uuidv4 } from "@point_of_sale/utils";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -576,6 +579,9 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1015,7 +1021,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { deserializeDate } from "@web/core/l10n/dates";
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1544,7 +1553,10 @@ export class PosStore extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1910,6 +1922,9 @@ export class PosStore extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2298,7 +2313,11 @@ export class PosStore extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (data.login_number == this.session.login_number) {
+=======
+        if (data.login_number == odoo.login_number) {
+>>>>>>> upstream/18.0
 =======
         if (data.login_number == odoo.login_number) {
 >>>>>>> upstream/18.0
@@ -2602,7 +2621,13 @@ export class PosStore extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             const orders = this.models["pos.order"].filter((o) => typeof o.id !== "number");
+=======
+            // All orders saved on the server should be cancelled by the device that closes
+            // the session. If some orders are not cancelled, we need to cancel them here.
+            const orders = this.models["pos.order"].filter((o) => typeof o.id === "number");
+>>>>>>> upstream/18.0
 =======
             // All orders saved on the server should be cancelled by the device that closes
             // the session. If some orders are not cancelled, we need to cancel them here.
@@ -3430,7 +3455,11 @@ export class PosStore extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     await this.sendOrderInPreparation(order, true);
+=======
+                    await this.checkPreparationStateAndSentOrderInPreparation(order, true);
+>>>>>>> upstream/18.0
 =======
                     await this.checkPreparationStateAndSentOrderInPreparation(order, true);
 >>>>>>> upstream/18.0
@@ -3632,7 +3661,11 @@ export class PosStore extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             await this.data.callRelated("pos.order", "action_pos_order_cancel", [Array.from(ids)]);
+=======
+            await this.data.call("pos.order", "action_pos_order_cancel", [Array.from(ids)]);
+>>>>>>> upstream/18.0
 =======
             await this.data.call("pos.order", "action_pos_order_cancel", [Array.from(ids)]);
 >>>>>>> upstream/18.0
@@ -3842,6 +3875,10 @@ export class PosStore extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> upstream/18.0
 =======
 
 >>>>>>> upstream/18.0
@@ -4269,6 +4306,7 @@ export class PosStore extends Reactive {
         if (data) {
             data = this.models[data.model].readMany(data.ids);
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4925,6 +4963,9 @@ export class PosStore extends Reactive {
 =======
         computeProductPricelistCache(this, data);
 >>>>>>> upstream/18.0
+=======
+        computeProductPricelistCache(this, data);
+>>>>>>> upstream/18.0
     }
 
     async _loadMissingPricelistItems(products) {
@@ -5114,12 +5155,15 @@ export class PosStore extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     async openConfigurator(product) {
         const attrById = this.models["product.attribute"].getAllBy("id");
         const attributeLines = product.attribute_line_ids.filter(
             (attr) => attr.attribute_id?.id in attrById
         );
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5463,6 +5507,7 @@ export class PosStore extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5585,6 +5630,8 @@ export class PosStore extends Reactive {
             return await makeAwaitable(this.dialog, ProductConfiguratorPopup, {
                 product: product,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5757,6 +5804,9 @@ export class PosStore extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6064,7 +6114,10 @@ export class PosStore extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.addPendingOrder([order.id]);
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6507,7 +6560,11 @@ export class PosStore extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             const payload = await this.openConfigurator(values.product_id);
+=======
+            const payload = await this.openConfigurator(values.product_id, opts);
+>>>>>>> upstream/18.0
 =======
             const payload = await this.openConfigurator(values.product_id, opts);
 >>>>>>> upstream/18.0
@@ -6966,7 +7023,12 @@ export class PosStore extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 this.data.models["product.template.attribute.value"].getAllBy("id")
+=======
+                this.data.models["product.template.attribute.value"].getAllBy("id"),
+                this.currency
+>>>>>>> upstream/18.0
 =======
                 this.data.models["product.template.attribute.value"].getAllBy("id"),
                 this.currency
@@ -7313,6 +7375,10 @@ export class PosStore extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    price_type: "automatic",
+>>>>>>> upstream/18.0
 =======
                     price_type: "automatic",
 >>>>>>> upstream/18.0
@@ -7782,9 +7848,12 @@ export class PosStore extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             } else {
                 const packLotLine = pack_lot_ids.newPackLotLines;
                 values.pack_lot_ids = packLotLine.map((lot) => ["create", lot]);
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7901,6 +7970,7 @@ export class PosStore extends Reactive {
         if (values.product_id.to_weight && this.config.iface_electronic_scale && configure) {
             if (values.product_id.isScaleAvailable) {
                 this.scale.setProduct(values.product_id, this.getProductPrice(values.product_id));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8392,6 +8462,8 @@ export class PosStore extends Reactive {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 const weight = await this.weighProduct();
                 if (weight) {
                     values.qty = weight;
@@ -8454,6 +8526,9 @@ export class PosStore extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8616,7 +8691,10 @@ export class PosStore extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8703,6 +8781,9 @@ export class PosStore extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8819,6 +8900,10 @@ export class PosStore extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        let lineToReturn = line;
+>>>>>>> upstream/18.0
 =======
         let lineToReturn = line;
 >>>>>>> upstream/18.0
@@ -9042,6 +9127,10 @@ export class PosStore extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            lineToReturn = to_merge_orderline;
+>>>>>>> upstream/18.0
 =======
             lineToReturn = to_merge_orderline;
 >>>>>>> upstream/18.0
@@ -9259,7 +9348,11 @@ export class PosStore extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (product.tracking === "serial") {
+=======
+        if (product.isTracked()) {
+>>>>>>> upstream/18.0
 =======
         if (product.isTracked()) {
 >>>>>>> upstream/18.0
@@ -9496,7 +9589,11 @@ export class PosStore extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return line;
+=======
+        return lineToReturn;
+>>>>>>> upstream/18.0
 =======
         return lineToReturn;
 >>>>>>> upstream/18.0
@@ -9713,6 +9810,7 @@ export class PosStore extends Reactive {
      * @returns {name: string, id: int, role: string}
      */
     get_cashier() {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10254,6 +10352,9 @@ export class PosStore extends Reactive {
 =======
         this.user._role = this.user.raw.role;
 >>>>>>> upstream/18.0
+=======
+        this.user._role = this.user.raw.role;
+>>>>>>> upstream/18.0
         return this.user;
     }
     get_cashier_user_id() {
@@ -10367,7 +10468,11 @@ export class PosStore extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             zero_pad(this.session.login_number, 3) +
+=======
+            zero_pad(parseInt(odoo.login_number), 3) +
+>>>>>>> upstream/18.0
 =======
             zero_pad(parseInt(odoo.login_number), 3) +
 >>>>>>> upstream/18.0
@@ -10598,6 +10703,7 @@ export class PosStore extends Reactive {
     }
 
     getPendingOrder() {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10969,6 +11075,8 @@ export class PosStore extends Reactive {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         const orderToCreate = this.models["pos.order"]
             .filter((order) => this.pendingOrder.create.has(order.id) && order.hasItemsOrPayLater)
             .filter(Boolean);
@@ -11098,6 +11206,9 @@ export class PosStore extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11422,7 +11533,11 @@ export class PosStore extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             login_number: this.session.login_number,
+=======
+            login_number: parseInt(odoo.login_number),
+>>>>>>> upstream/18.0
 =======
             login_number: parseInt(odoo.login_number),
 >>>>>>> upstream/18.0
@@ -11595,6 +11710,7 @@ export class PosStore extends Reactive {
 
         // Filter out orders that are already being synced
         orders = orders.filter((order) => !this.syncingOrders.has(order.id));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13522,6 +13638,8 @@ export class PosStore extends Reactive {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         const orderIdsToDelete = this.getOrderIdsToDelete();
         const context = this.getSyncAllOrdersContext(orders, options);
 
@@ -13624,6 +13742,9 @@ export class PosStore extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13915,7 +14036,12 @@ export class PosStore extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     !paymentLine.is_done()
+=======
+                    !paymentLine.is_done() &&
+                    paymentLine.get_payment_status() !== "retry"
+>>>>>>> upstream/18.0
 =======
                     !paymentLine.is_done() &&
                     paymentLine.get_payment_status() !== "retry"
@@ -14288,9 +14414,12 @@ export class PosStore extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     // Now the printer should work in PoS without restaurant
     async sendOrderInPreparation(order, cancelled = false) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14481,6 +14610,9 @@ export class PosStore extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14647,7 +14779,11 @@ export class PosStore extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 this.printChanges(order, orderChange);
+=======
+                isPrinted = await this.printChanges(order, orderChange);
+>>>>>>> upstream/18.0
 =======
                 isPrinted = await this.printChanges(order, orderChange);
 >>>>>>> upstream/18.0
@@ -14866,7 +15002,10 @@ export class PosStore extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -15029,6 +15168,9 @@ export class PosStore extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15194,11 +15336,14 @@ export class PosStore extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         await this.sendOrderInPreparation(o, cancelled);
     }
 
     async printChanges(order, orderChange) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -15360,6 +15505,9 @@ export class PosStore extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15497,6 +15645,7 @@ export class PosStore extends Reactive {
                     true,
                     diningModeUpdate
                 );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15711,6 +15860,8 @@ export class PosStore extends Reactive {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 changes.new = [];
                 if (!printed) {
                     unsuccedPrints.push("Detailed Receipt");
@@ -15768,6 +15919,9 @@ export class PosStore extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15935,6 +16089,11 @@ export class PosStore extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                } else {
+                    isPrinted = true;
+>>>>>>> upstream/18.0
 =======
                 } else {
                     isPrinted = true;
@@ -16218,6 +16377,7 @@ export class PosStore extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16240,6 +16400,10 @@ export class PosStore extends Reactive {
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+                } else {
+                    isPrinted = true;
 >>>>>>> upstream/18.0
 =======
                 } else {
@@ -16465,6 +16629,7 @@ export class PosStore extends Reactive {
                 body: _t("Failed in printing %s changes of the order", failedReceipts),
             });
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17091,6 +17256,8 @@ export class PosStore extends Reactive {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 
         return isPrinted;
     }
@@ -17150,6 +17317,9 @@ export class PosStore extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17264,6 +17434,7 @@ export class PosStore extends Reactive {
             order_note: order.general_note,
             diningModeUpdate: diningModeUpdate,
         };
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17657,6 +17828,8 @@ export class PosStore extends Reactive {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     }
 
     async getRenderedReceipt(order, title, lines, fullReceipt = false, diningModeUpdate) {
@@ -17792,6 +17965,9 @@ export class PosStore extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18211,6 +18387,7 @@ export class PosStore extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return {};
 =======
         return {
@@ -18226,6 +18403,9 @@ export class PosStore extends Reactive {
         return {
             pos_config_id: this.config.id,
         };
+>>>>>>> upstream/18.0
+=======
+        return {};
 >>>>>>> upstream/18.0
 =======
         return {};
@@ -18809,7 +18989,10 @@ export class PosStore extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -19205,6 +19388,9 @@ export class PosStore extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -19607,6 +19793,7 @@ export class PosStore extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         );
 =======
 =======
@@ -19620,6 +19807,8 @@ export class PosStore extends Reactive {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -20008,6 +20197,9 @@ export class PosStore extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -20368,8 +20560,11 @@ export class PosStore extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             (order) => order.is_empty() && !order.finalized
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -20533,6 +20728,9 @@ export class PosStore extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -20751,7 +20949,10 @@ export class PosStore extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -21060,6 +21261,7 @@ export class PosStore extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -21148,6 +21350,8 @@ export class PosStore extends Reactive {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -21323,6 +21527,9 @@ export class PosStore extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -34,12 +34,22 @@ const removeImg = [
         trigger: "we-customizeblock-options:has(we-title:contains('Image')) we-button[data-name='media_wsale_remove']",
         run: "click",
     },
+<<<<<<< HEAD
     // If the snippet editor is not visible, the remove process is considered as
     // finished.
+=======
+>>>>>>> upstream/18.0
     {
         content: "Check that the snippet editor is not visible",
         trigger: ".o_we_customize_panel:not(:has(we-customizeblock-options:has(we-title:contains('Re-order'))))",
     },
+<<<<<<< HEAD
+=======
+    {
+        content: "Wait until the the image removal is saved",
+        trigger: ':iframe #o-carousel-product div:not(.o_dirty) > img',
+    },
+>>>>>>> upstream/18.0
 ];
 
 registerWebsitePreviewTour("add_and_remove_main_product_image_no_variant", {
@@ -53,7 +63,11 @@ registerWebsitePreviewTour("add_and_remove_main_product_image_no_variant", {
     },
     {
         content: "Click on the new image",
+<<<<<<< HEAD
         trigger: ".o_select_media_dialog img[title='s_default_image.jpg']",
+=======
+        trigger: ".o_select_media_dialog img[title='green.jpg']",
+>>>>>>> upstream/18.0
         run: "click",
     },
     {

@@ -53,6 +53,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* sale
 # 
 # Translators:
@@ -349,6 +350,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # * sale
 #
 # Translators:
@@ -411,6 +414,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -520,6 +526,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -991,6 +998,10 @@ msgstr ""
 "POT-Creation-Date: 2025-07-11 18:39+0000\n"
 "PO-Revision-Date: 2025-10-22 07:32+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-07-11 18:39+0000\n"
+"PO-Revision-Date: 2025-10-22 07:32+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: \"Anastasiia Koroleva (koan)\" <koan@odoo.com>\n"
 "Language-Team: Russian <https://translate.odoo.com/projects/odoo-18/sale/ru/>"
 "\n"
@@ -1054,6 +1065,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1344,7 +1358,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1573,6 +1590,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1985,7 +2005,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2391,6 +2414,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2632,6 +2658,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -2678,6 +2705,8 @@ msgstr ""
 "            <t t-if=\"len(documents)&gt;1\">\n"
 "                Несколько дополнительных документов, которые могут вас заинтересовать: \n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2871,6 +2900,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3036,7 +3068,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <a t-out=\"document.ir_attachment_id.name\" t-att-href=\"object.get_portal_url('/document/' + str(document.id))\" t-att-target=\"target\"/>\n"
+=======
+"                        <a t-out=\"document.ir_attachment_id.name\" t-att-"
+"href=\"object.get_portal_url('/document/' + str(document.id))\" t-att-target="
+"\"target\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "                        <a t-out=\"document.ir_attachment_id.name\" t-att-"
 "href=\"object.get_portal_url('/document/' + str(document.id))\" t-att-target="
@@ -3360,11 +3398,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Не стесняйтесь обращаться к нам, если у вас возникнут какие-либо вопросы.\n"
 "        <t t-if=\"not is_html_empty(object.user_id.signature)\" data-o-mail-quote-container=\"1\">\n"
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Митчелл Админ</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3528,6 +3569,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3700,6 +3744,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3911,7 +3958,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4116,6 +4166,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4289,7 +4342,11 @@ msgid "<i class=\"fa fa-fw fa-clock-o\"/> Expired"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<i class=\"fa fa-fw fa-clock-o\"/> Просрочено</i>"
+=======
+msgstr "<i class=\"fa fa-fw fa-clock-o\"/> Просрочено"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-fw fa-clock-o\"/> Просрочено"
 >>>>>>> upstream/18.0
@@ -4372,7 +4429,11 @@ msgid "<i class=\"fa fa-fw fa-remove\"/> Cancelled"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<i class=\"fa fa-fw fa-remove\"/> Отменено</i>"
+=======
+msgstr "<i class=\"fa fa-fw fa-remove\"/> Отменено"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-fw fa-remove\"/> Отменено"
 >>>>>>> upstream/18.0
@@ -4500,7 +4561,11 @@ msgid "<i class=\"fa fa-print me-1\"/>View Details"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-print me-1\"/>Посмотреть детали"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-print me-1\"/>Посмотреть детали"
 >>>>>>> upstream/18.0
@@ -4768,6 +4833,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "<i class=\"fa fa-usd me-1\" role=\"img\" aria-label=\"Sale orders\" "
 "title=\"Sales orders\"/>"
@@ -4779,6 +4845,10 @@ msgstr ""
 =======
 "<i class=\"fa fa-usd me-1\" role=\"img\" aria-label=\"Sale orders\" "
 "title=\"Sales orders\"/>"
+>>>>>>> upstream/18.0
+=======
+"<i class=\"fa fa-usd me-1\" role=\"img\" aria-label=\"Заказы на продажу\" "
+"title=\"Заказы на продажу\"/>"
 >>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-usd me-1\" role=\"img\" aria-label=\"Заказы на продажу\" "
@@ -5122,6 +5192,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"fa fa-exclamation-triangle text-warning me-1\" title=\"Этот "
+"товар в архиве\" invisible=\"state not in ['draft', 'sent'] or not "
+"is_product_archived\"/>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"fa fa-exclamation-triangle text-warning me-1\" title=\"Этот "
 "товар в архиве\" invisible=\"state not in ['draft', 'sent'] or not "
@@ -5533,6 +5609,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span id=\"o_sale_portal_use_amount_total\">\n"
+"                                                Оплачивая,\n"
+"                                            </span>"
+>>>>>>> upstream/18.0
 =======
 "<span id=\"o_sale_portal_use_amount_total\">\n"
 "                                                Оплачивая,\n"
@@ -5919,6 +6001,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span invisible=\"1\" class=\"oe_inline text-danger\" title=\"Первоначальный взнос превышает сумму, оставшуюся для выставления счета.\">\n"
+"                            <i class=\"fa fa-warning\"/>\n"
+"                        </span>"
+>>>>>>> upstream/18.0
 =======
 "<span invisible=\"1\" class=\"oe_inline text-danger\" title=\"Первоначальный взнос превышает сумму, оставшуюся для выставления счета.\">\n"
 "                            <i class=\"fa fa-warning\"/>\n"
@@ -6304,6 +6392,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span invisible=\"advance_payment_method != 'percentage'\" "
+"class=\"oe_inline\">% </span>"
+>>>>>>> upstream/18.0
 =======
 "<span invisible=\"advance_payment_method != 'percentage'\" "
 "class=\"oe_inline\">% </span>"
@@ -6626,6 +6719,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span><b>Поздравляем</b>, ваше первое коммерческое предложение отправлено! <br>Проверьте почту, чтобы подтвердить его.\n"
+"        </span>"
+>>>>>>> upstream/18.0
 =======
 "<span><b>Поздравляем</b>, ваше первое коммерческое предложение отправлено! <br>Проверьте почту, чтобы подтвердить его.\n"
 "        </span>"
@@ -6970,7 +7068,11 @@ msgid "<span>Sales visibility</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Видимость продаж</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>Видимость продаж</span>"
 >>>>>>> upstream/18.0
@@ -7232,7 +7334,11 @@ msgid "<span>Warning: This quote contains archived product(s)</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Предупреждение: в этом КП есть архивированные товары.</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>Предупреждение: в этом КП есть архивированные товары.</span>"
 >>>>>>> upstream/18.0
@@ -7489,6 +7595,7 @@ msgid "<span>Warning: this order might be a duplicate of</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: sale
@@ -7730,6 +7837,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7925,6 +8034,9 @@ msgstr "<strong class=\"d-block mt-3\">Адрес доставки</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8120,7 +8232,11 @@ msgid "<strong>Expiration</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Срок действия</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Срок действия</strong>"
 >>>>>>> upstream/18.0
@@ -8319,6 +8435,7 @@ msgstr "<strong>Замечание о Финансовой Позиции:</stro
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.report_saleorder_document
 msgid "<strong>Salesperson</strong>"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8633,6 +8750,8 @@ msgstr "Адрес доставки"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr "<strong>Менеджер по продажам</strong>"
 
 #. module: sale
@@ -8699,6 +8818,9 @@ msgstr "<strong>Менеджер по продажам</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8903,7 +9025,11 @@ msgid "<strong>This quotation has been cancelled.</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Это коммерческое предложение отменено.</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Это коммерческое предложение отменено.</strong>"
 >>>>>>> upstream/18.0
@@ -9160,7 +9286,11 @@ msgid "<strong>Your Reference</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Ваша ссылка</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Ваша ссылка</strong>"
 >>>>>>> upstream/18.0
@@ -9424,6 +9554,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Вы не можете подтвердить заказ, так как в одной из строк заказа отсутствует "
+"товар."
+>>>>>>> upstream/18.0
 =======
 "Вы не можете подтвердить заказ, так как в одной из строк заказа отсутствует "
 "товар."
@@ -9754,6 +9889,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Позиция‑комбо в строке заказа должна присутствовать среди доступных "
+"вариантов комбо, связанных с этой строкой."
+>>>>>>> upstream/18.0
 =======
 "Позиция‑комбо в строке заказа должна присутствовать среди доступных "
 "вариантов комбо, связанных с этой строкой."
@@ -10074,7 +10214,11 @@ msgid "A sale order line's product must match its combo item's product."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Товар в строке заказа должен совпадать с товаром позиции‑комбо."
+>>>>>>> upstream/18.0
 =======
 msgstr "Товар в строке заказа должен совпадать с товаром позиции‑комбо."
 >>>>>>> upstream/18.0
@@ -10332,7 +10476,11 @@ msgid "Accept &amp; Sign"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Принять &amp Подписать"
+=======
+msgstr "Принять и подписать"
+>>>>>>> upstream/18.0
 =======
 msgstr "Принять и подписать"
 >>>>>>> upstream/18.0
@@ -10399,6 +10547,7 @@ msgid ""
 "  - Timesheet: the quantity is the sum of hours recorded on tasks linked to this sale line\n"
 "  - Stock Moves: the quantity comes from confirmed pickings\n"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10612,6 +10761,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "В зависимости от настроек товара, доставленное количество может рассчитываться автоматически по следующему принципу:\n"
 "  - Вручную: количество указывается вручную в строке;\n"
 "  - Аналитика из расходов: количество берется как сумма подтвержденных расходов;\n"
@@ -10673,6 +10824,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10835,7 +10989,11 @@ msgid "Activity Exception Decoration"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Оформление исключения активности"
+=======
+msgstr "Оформление задачи-исключения"
+>>>>>>> upstream/18.0
 =======
 msgstr "Оформление задачи-исключения"
 >>>>>>> upstream/18.0
@@ -10984,6 +11142,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Планы дел позволяют назначать список дел в несколько кликов\n"
+"                (например, «Планирование доставки», «Контроль оплаты заказа» и т.п.)"
+>>>>>>> upstream/18.0
 =======
 "Планы дел позволяют назначать список дел в несколько кликов\n"
 "                (например, «Планирование доставки», «Контроль оплаты заказа» и т.п.)"
@@ -11324,7 +11487,11 @@ msgid "Add note"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Добавить примечание"
+>>>>>>> upstream/18.0
 =======
 msgstr "Добавить примечание"
 >>>>>>> upstream/18.0
@@ -11598,7 +11765,11 @@ msgid "Add section"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Добавить раздел"
+>>>>>>> upstream/18.0
 =======
 msgstr "Добавить раздел"
 >>>>>>> upstream/18.0
@@ -11878,7 +12049,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12071,6 +12245,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12360,7 +12537,11 @@ msgid "Are you sure you want to cancel the selected item?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Вы уверены, что хотите отменить выбранный элемент?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Вы уверены, что хотите отменить выбранный элемент?"
 >>>>>>> upstream/18.0
@@ -12698,6 +12879,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Опережайте конкурентов благодаря впечатляющим коммерческим предложениям!"
+>>>>>>> upstream/18.0
 =======
 "Опережайте конкурентов благодаря впечатляющим коммерческим предложениям!"
 >>>>>>> upstream/18.0
@@ -12969,6 +13154,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Увеличьте продажи с помощью онлайн‑оплаты, электронных подписей, допродаж и "
+"удобного клиентского портала."
+>>>>>>> upstream/18.0
 =======
 "Увеличьте продажи с помощью онлайн‑оплаты, электронных подписей, допродаж и "
 "удобного клиентского портала."
@@ -13302,7 +13492,11 @@ msgid "Build your first quotation right here!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Создайте свое первое коммерческое предложение прямо здесь!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Создайте свое первое коммерческое предложение прямо здесь!"
 >>>>>>> upstream/18.0
@@ -13559,7 +13753,11 @@ msgid "By paying a <u>down payment</u> of"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Заплатив этот <u>первоначальный взнос</u> в размере"
+>>>>>>> upstream/18.0
 =======
 msgstr "Заплатив этот <u>первоначальный взнос</u> в размере"
 >>>>>>> upstream/18.0
@@ -13816,7 +14014,11 @@ msgid "By paying,"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "При оплате,"
+>>>>>>> upstream/18.0
 =======
 msgstr "При оплате,"
 >>>>>>> upstream/18.0
@@ -14073,7 +14275,11 @@ msgid "By signing, you confirm acceptance on behalf of"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Подписывая, вы подтверждаете согласие от имени"
+>>>>>>> upstream/18.0
 =======
 msgstr "Подписывая, вы подтверждаете согласие от имени"
 >>>>>>> upstream/18.0
@@ -14394,6 +14600,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Невозможно создать счет-фактуру. Нет товаров, доступных для выставления счета-фактуры.\n"
 "\n"
 "Чтобы решить эту проблему, пожалуйста, убедитесь, что:\n"
@@ -14404,6 +14611,8 @@ msgstr ""
 "   - Для расходуемых или хранимых продуктов откройте продукт, перейдите на вкладку \"Общая информация\" и измените \"Политику выставления счетов\" с \"Доставленное количество\" на \"Заказанное количество\".\n"
 "   - Для услуг (и других продуктов) измените \"Политику выставления счетов\" на \"Предоплата/фиксированная цена\".\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14599,6 +14808,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14823,7 +15035,11 @@ msgid "Check a sample. It's clean!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Посмотрите пример  –  всё аккуратно!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Посмотрите пример  –  всё аккуратно!"
 >>>>>>> upstream/18.0
@@ -15104,7 +15320,11 @@ msgid "Combo Item"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Элемент комбо"
+>>>>>>> upstream/18.0
 =======
 msgstr "Элемент комбо"
 >>>>>>> upstream/18.0
@@ -15387,9 +15607,12 @@ msgstr "Макет документов компании"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Compute shipping costs and ship with DHL"
 msgstr "Вычислить стоимость доставки и отгрузить DHL"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -15553,6 +15776,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15623,6 +15847,11 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+"Рассчитать стоимость доставки и оформить отправку через DHL<br/>\n"
+"                                    <strong>(перейдите в Главная &gt; "
+"Модули, чтобы установить)</strong>"
 >>>>>>> upstream/18.0
 =======
 "Рассчитать стоимость доставки и оформить отправку через DHL<br/>\n"
@@ -15722,6 +15951,7 @@ msgstr "Рассчитайте стоимость доставки и отпра
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15885,6 +16115,8 @@ msgstr "Вычислить стоимость доставки и отгрузи
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "Compute shipping costs and ship with FedEx<br/>\n"
 "                                    <strong>(please go to Home&gt;Apps to install)</strong>"
@@ -15942,6 +16174,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16012,6 +16245,11 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+"Рассчитать стоимость доставки и оформить отправку через FedEx<br/>\n"
+"                                    <strong>(перейдите в Главная &gt; "
+"Модули, чтобы установить)</strong>"
 >>>>>>> upstream/18.0
 =======
 "Рассчитать стоимость доставки и оформить отправку через FedEx<br/>\n"
@@ -16117,6 +16355,7 @@ msgstr "Рассчитайте стоимость доставки и отпра
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 msgid "Compute shipping costs and ship with Starshipit"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16325,6 +16564,8 @@ msgstr "Вычислить стоимость доставки и отгрузи
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr "Рассчитайте стоимость доставки и отправьте через Starshipit"
 
 #. module: sale
@@ -16351,6 +16592,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Рассчитать стоимость доставки и оформить отправку через UPS<br/>\n"
+"                                    <strong>(перейдите в Главная &gt; "
+"Модули, чтобы установить)</strong>"
+>>>>>>> upstream/18.0
 =======
 "Рассчитать стоимость доставки и оформить отправку через UPS<br/>\n"
 "                                    <strong>(перейдите в Главная &gt; "
@@ -16501,6 +16748,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16571,6 +16819,11 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+"Рассчитать стоимость доставки и оформить отправку через USPS<br/>\n"
+"                                    <strong>(перейдите в Главная &gt; "
+"Модули, чтобы установить)</strong>"
 >>>>>>> upstream/18.0
 =======
 "Рассчитать стоимость доставки и оформить отправку через USPS<br/>\n"
@@ -16813,7 +17066,11 @@ msgid "Create Draft"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Создать черновик"
+>>>>>>> upstream/18.0
 =======
 msgstr "Создать черновик"
 >>>>>>> upstream/18.0
@@ -17081,7 +17338,11 @@ msgid "Create a Sale Order Activity Plan"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Создать план дел для заказа на продажу"
+>>>>>>> upstream/18.0
 =======
 msgstr "Создать план дел для заказа на продажу"
 >>>>>>> upstream/18.0
@@ -17356,7 +17617,11 @@ msgid "Create invoice(s)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Создать счет(а)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Создать счет(а)"
 >>>>>>> upstream/18.0
@@ -17631,7 +17896,11 @@ msgid "Created by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Создано"
+=======
+msgstr "Создано:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Создано:"
 >>>>>>> upstream/18.0
@@ -17853,7 +18122,11 @@ msgid "Created on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Создано"
+=======
+msgstr "Дата создания:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дата создания:"
 >>>>>>> upstream/18.0
@@ -18185,6 +18458,7 @@ msgstr "Клиенты"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -18402,6 +18676,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 msgid "DHL Connector"
 msgstr "Коннектор DHL"
@@ -18424,6 +18700,9 @@ msgstr "Коннектор DHL"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18581,6 +18860,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Стандартный срок действия коммерческого предложения, в течение которого "
+"клиент может его принять. Значение можно изменить для конкретного заказа или"
+" шаблона."
+>>>>>>> upstream/18.0
 =======
 "Стандартный срок действия коммерческого предложения, в течение которого "
 "клиент может его принять. Значение можно изменить для конкретного заказа или"
@@ -19062,7 +19347,11 @@ msgid "Discount %(percent)s%%"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Скидка %(percent)s%%"
+>>>>>>> upstream/18.0
 =======
 msgstr "Скидка %(percent)s%%"
 >>>>>>> upstream/18.0
@@ -19320,7 +19609,11 @@ msgid "Discount %(percent)s%%- On products with the following taxes %(taxes)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Скидка %(percent)s%%-На товары со следующими налогами %(taxes)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Скидка %(percent)s%%-На товары со следующими налогами %(taxes)s"
 >>>>>>> upstream/18.0
@@ -19608,7 +19901,11 @@ msgid "Discount- On products with the following taxes %(taxes)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Скидка - на товары со следующими налогами: %(taxes)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Скидка - на товары со следующими налогами: %(taxes)s"
 >>>>>>> upstream/18.0
@@ -19896,7 +20193,10 @@ msgstr "Аналитический счет распределения"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -20061,6 +20361,9 @@ msgstr "Документация"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -20252,7 +20555,11 @@ msgid "Down Payment (Cancelled)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Предоплата (отменена)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Предоплата (отменена)"
 >>>>>>> upstream/18.0
@@ -20510,7 +20817,11 @@ msgid "Down Payment (ref: %(reference)s on %(date)s)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Предоплата (номер: %(reference)sот %(date)s)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Предоплата (номер: %(reference)sот %(date)s)"
 >>>>>>> upstream/18.0
@@ -20821,7 +21132,11 @@ msgid "Downpayment Account"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Счет для предоплаты"
+>>>>>>> upstream/18.0
 =======
 msgstr "Счет для предоплаты"
 >>>>>>> upstream/18.0
@@ -21090,7 +21405,11 @@ msgid "Duplicated Order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Дублированный заказ"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дублированный заказ"
 >>>>>>> upstream/18.0
@@ -21390,7 +21709,10 @@ msgstr "Email"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -21654,6 +21976,9 @@ msgstr "Мастер составления Email"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -21907,6 +22232,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ошибка импорта вложения '%(file_name)s' как заказа (decoder=%(decoder)s)"
+>>>>>>> upstream/18.0
 =======
 "Ошибка импорта вложения '%(file_name)s' как заказа (decoder=%(decoder)s)"
 >>>>>>> upstream/18.0
@@ -22194,6 +22523,10 @@ msgstr "Дополнительная строка с %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 >>>>>>> upstream/18.0
@@ -22518,7 +22851,11 @@ msgid "Generated Orders"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Сгенерированные заказы"
+>>>>>>> upstream/18.0
 =======
 msgstr "Сгенерированные заказы"
 >>>>>>> upstream/18.0
@@ -22786,7 +23123,11 @@ msgid "Go ahead and send the quotation."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Отправьте коммерческое предложение."
+>>>>>>> upstream/18.0
 =======
 msgstr "Отправьте коммерческое предложение."
 >>>>>>> upstream/18.0
@@ -23046,6 +23387,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Товары  –  материальные изделия и продукция, которую вы поставляете.\n"
+"Услуга  –  нематериальный продукт, который вы предоставляете."
+>>>>>>> upstream/18.0
 =======
 "Товары  –  материальные изделия и продукция, которую вы поставляете.\n"
 "Услуга  –  нематериальный продукт, который вы предоставляете."
@@ -23387,7 +23733,11 @@ msgid "Has Archived Products"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Содержит архивированные товары"
+>>>>>>> upstream/18.0
 =======
 msgstr "Содержит архивированные товары"
 >>>>>>> upstream/18.0
@@ -23647,7 +23997,11 @@ msgid "Icon to indicate an exception activity."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Значок, обозначающий исключение Дела."
+=======
+msgstr "Иконка, указывающая на задачу-исключение."
+>>>>>>> upstream/18.0
 =======
 msgstr "Иконка, указывающая на задачу-исключение."
 >>>>>>> upstream/18.0
@@ -23813,7 +24167,11 @@ msgid "Immediate"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Немедленно"
+>>>>>>> upstream/18.0
 =======
 msgstr "Немедленно"
 >>>>>>> upstream/18.0
@@ -24172,10 +24530,16 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Доход по счетам-фактурам за текущий месяц. Это сумма, на которую в этом "
 "месяце выставлены счет-фактуры в канале продаж. Он используется для "
 "вычисления коэффициента выполнения текущего и целевого дохода в "
 "представлении типа канбана."
+=======
+"Доход по счетам за текущий месяц. Это сумма, на которую в этом месяце "
+"выставлены счета в канале продаж. Используется для расчета прогресса по "
+"сравнению с планом в Канбан-режиме."
+>>>>>>> upstream/18.0
 =======
 "Доход по счетам за текущий месяц. Это сумма, на которую в этом месяце "
 "выставлены счета в канале продаж. Используется для расчета прогресса по "
@@ -24538,7 +24902,11 @@ msgid "Invoiced Quantity (posted)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Количество, выставленное в счетах (проведено)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Количество, выставленное в счетах (проведено)"
 >>>>>>> upstream/18.0
@@ -24880,7 +25248,11 @@ msgid "Is Product Archived"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Товар в архиве"
+>>>>>>> upstream/18.0
 =======
 msgstr "Товар в архиве"
 >>>>>>> upstream/18.0
@@ -25160,7 +25532,11 @@ msgid "Issued Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Дата выставления счета"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дата выставления счета"
 >>>>>>> upstream/18.0
@@ -25442,7 +25818,11 @@ msgid "Last Updated by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Последнее обновление"
+=======
+msgstr "Последнее обновление:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Последнее обновление:"
 >>>>>>> upstream/18.0
@@ -25669,7 +26049,11 @@ msgid "Last Updated on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Последнее обновление"
+=======
+msgstr "Дата последнего обновления:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дата последнего обновления:"
 >>>>>>> upstream/18.0
@@ -25916,7 +26300,11 @@ msgid "Let’s create a beautiful quotation in a few clicks ."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Создайте красивое коммерческое предложение за несколько кликов."
+>>>>>>> upstream/18.0
 =======
 msgstr "Создайте красивое коммерческое предложение за несколько кликов."
 >>>>>>> upstream/18.0
@@ -26178,7 +26566,11 @@ msgid "Linked Order Lines"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Связанные строки заказа"
+>>>>>>> upstream/18.0
 =======
 msgstr "Связанные строки заказа"
 >>>>>>> upstream/18.0
@@ -26435,7 +26827,11 @@ msgid "Linked Virtual"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Связанный виртуальный"
+>>>>>>> upstream/18.0
 =======
 msgstr "Связанный виртуальный"
 >>>>>>> upstream/18.0
@@ -26728,6 +27124,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Управляйте акциями, купонами, бонусными картами, подарочными сертификатами "
+"и электронным кошельком"
+>>>>>>> upstream/18.0
 =======
 "Управляйте акциями, купонами, бонусными картами, подарочными сертификатами "
 "и электронным кошельком"
@@ -27047,7 +27448,11 @@ msgid "Manage Sales & teams targets and commissions"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Управляйте планами продаж, целями команд и комиссионными"
+>>>>>>> upstream/18.0
 =======
 msgstr "Управляйте планами продаж, целями команд и комиссионными"
 >>>>>>> upstream/18.0
@@ -27559,7 +27964,11 @@ msgid "On confirmed order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "По подтвержденному заказу"
+>>>>>>> upstream/18.0
 =======
 msgstr "По подтвержденному заказу"
 >>>>>>> upstream/18.0
@@ -27816,7 +28225,11 @@ msgid "On quote"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "По коммерческому предложению"
+>>>>>>> upstream/18.0
 =======
 msgstr "По коммерческому предложению"
 >>>>>>> upstream/18.0
@@ -28240,7 +28653,11 @@ msgid "Order Invoice Status"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Статус счета заказа"
+>>>>>>> upstream/18.0
 =======
 msgstr "Статус счета заказа"
 >>>>>>> upstream/18.0
@@ -28577,7 +28994,11 @@ msgid "PDF Quote builder"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Построитель цитат в формате PDF"
+=======
+msgstr "Конструктор коммерческих предложений в формате PDF"
+>>>>>>> upstream/18.0
 =======
 msgstr "Конструктор коммерческих предложений в формате PDF"
 >>>>>>> upstream/18.0
@@ -28821,9 +29242,13 @@ msgid "Payment Providers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Выберите поставщиков платежных услуг и включите способы оплаты при "
 "оформлении заказа"
+=======
+msgstr "Платежные провайдеры"
+>>>>>>> upstream/18.0
 =======
 msgstr "Платежные провайдеры"
 >>>>>>> upstream/18.0
@@ -28970,7 +29395,11 @@ msgid "Payment Transactions Amount"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Сумма платежных транзакций"
+>>>>>>> upstream/18.0
 =======
 msgstr "Сумма платежных транзакций"
 >>>>>>> upstream/18.0
@@ -29434,7 +29863,11 @@ msgid "Promotions, Loyalty & Gift Card"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Акции, бонусные карты и подарочные сертификаты"
+>>>>>>> upstream/18.0
 =======
 msgstr "Акции, бонусные карты и подарочные сертификаты"
 >>>>>>> upstream/18.0
@@ -29789,7 +30222,11 @@ msgid "Quotation Viewed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Предложение просмотрено"
+>>>>>>> upstream/18.0
 =======
 msgstr "Предложение просмотрено"
 >>>>>>> upstream/18.0
@@ -30106,7 +30543,11 @@ msgid "Re-Invoice Costs"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Перерасчет расходов"
+>>>>>>> upstream/18.0
 =======
 msgstr "Перерасчет расходов"
 >>>>>>> upstream/18.0
@@ -30439,6 +30880,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Запросите оплату для подтверждения заказов  –  полностью (100 %) или "
+"частично. Значение можно изменить для конкретного заказа или шаблона."
+>>>>>>> upstream/18.0
 =======
 "Запросите оплату для подтверждения заказов  –  полностью (100 %) или "
 "частично. Значение можно изменить для конкретного заказа или шаблона."
@@ -30761,6 +31207,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Запросите подпись клиента на коммерческом предложении для подтверждения "
+"заказа. Значение можно изменить для конкретного заказа или шаблона."
+>>>>>>> upstream/18.0
 =======
 "Запросите подпись клиента на коммерческом предложении для подтверждения "
 "заказа. Значение можно изменить для конкретного заказа или шаблона."
@@ -31095,6 +31546,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"План по выручке на текущий месяц (без учета налогов, по оплаченным счетам)."
+>>>>>>> upstream/18.0
 =======
 "План по выручке на текущий месяц (без учета налогов, по оплаченным счетам)."
 >>>>>>> upstream/18.0
@@ -31387,7 +31842,11 @@ msgid "Sale : Visible at"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Продажа : отображается в"
+>>>>>>> upstream/18.0
 =======
 msgstr "Продажа : отображается в"
 >>>>>>> upstream/18.0
@@ -31740,7 +32199,11 @@ msgid "Sales Analysis By Products"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Анализ продаж по товарам"
+>>>>>>> upstream/18.0
 =======
 msgstr "Анализ продаж по товарам"
 >>>>>>> upstream/18.0
@@ -32199,7 +32662,10 @@ msgstr "Продавцы"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -32463,6 +32929,9 @@ msgstr "Запланированное сообщение"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -32708,7 +33177,11 @@ msgid "Search a customer name, or create one on the fly."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Найдите клиента по имени или создайте нового на лету."
+>>>>>>> upstream/18.0
 =======
 msgstr "Найдите клиента по имени или создайте нового на лету."
 >>>>>>> upstream/18.0
@@ -32986,7 +33459,11 @@ msgid "Selected Combo Items"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Выбранные позиции‑комбо"
+>>>>>>> upstream/18.0
 =======
 msgstr "Выбранные позиции‑комбо"
 >>>>>>> upstream/18.0
@@ -33440,6 +33917,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Выбраны подтвержденные заказы; при их отмене связанные документы могут\n"
+"                        быть изменены."
+>>>>>>> upstream/18.0
 =======
 "Выбраны подтвержденные заказы; при их отмене связанные документы могут\n"
 "                        быть изменены."
@@ -33760,7 +34242,11 @@ msgid "Some orders are not in a state requiring confirmation."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Некоторые заказы не требуют подтверждения."
+>>>>>>> upstream/18.0
 =======
 msgstr "Некоторые заказы не требуют подтверждения."
 >>>>>>> upstream/18.0
@@ -34035,7 +34521,11 @@ msgid "Starshipit Connector"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Коннектор Starshipit"
+>>>>>>> upstream/18.0
 =======
 msgstr "Коннектор Starshipit"
 >>>>>>> upstream/18.0
@@ -34346,6 +34836,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Сумма транзакций, проведенных через онлайн‑форму оплаты, находящихся в "
+"статусе «Выполнено» или «Авторизовано» и привязанных к этому заказу."
+>>>>>>> upstream/18.0
 =======
 "Сумма транзакций, проведенных через онлайн‑форму оплаты, находящихся в "
 "статусе «Выполнено» или «Авторизовано» и привязанных к этому заказу."
@@ -34692,7 +35187,11 @@ msgid "Tax Excl."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Налог не включен"
+>>>>>>> upstream/18.0
 =======
 msgstr "Налог не включен"
 >>>>>>> upstream/18.0
@@ -34954,7 +35453,11 @@ msgid "Tax Incl."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Налог включен"
+>>>>>>> upstream/18.0
 =======
 msgstr "Налог включен"
 >>>>>>> upstream/18.0
@@ -35234,7 +35737,11 @@ msgid "Taxes to add on the discount line."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Налоги, которые нужно добавить к строке скидки."
+>>>>>>> upstream/18.0
 =======
 msgstr "Налоги, которые нужно добавить к строке скидки."
 >>>>>>> upstream/18.0
@@ -35498,6 +36005,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"В команде %(team_name)s открыто следующее количество активных "
+"продаж:%(sale_order_count)s. Рекомендуем отменить их или заархивировать "
+"команду."
+>>>>>>> upstream/18.0
 =======
 "В команде %(team_name)s открыто следующее количество активных "
 "продаж:%(sale_order_count)s. Рекомендуем отменить их или заархивировать "
@@ -35895,7 +36408,11 @@ msgid "Technical Price Unit"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Техническая цена за единицу"
+>>>>>>> upstream/18.0
 =======
 msgstr "Техническая цена за единицу"
 >>>>>>> upstream/18.0
@@ -36200,6 +36717,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Заказ на продажу %(order)s, подлежащий повторному выставлению счета, "
+"отменен. Нельзя регистрировать расходы по отмененному заказу."
+>>>>>>> upstream/18.0
 =======
 "Заказ на продажу %(order)s, подлежащий повторному выставлению счета, "
 "отменен. Нельзя регистрировать расходы по отмененному заказу."
@@ -36523,6 +37045,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Заказ на продажу %(order)s, подлежащий повторному выставлению счета, сейчас "
+"заблокирован. Нельзя регистрировать расходы по заблокированному заказу."
+>>>>>>> upstream/18.0
 =======
 "Заказ на продажу %(order)s, подлежащий повторному выставлению счета, сейчас "
 "заблокирован. Нельзя регистрировать расходы по заблокированному заказу."
@@ -36846,6 +37373,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Заказ на продажу %(order)s должен быть подтвержден до регистрации расходов."
+>>>>>>> upstream/18.0
 =======
 "Заказ на продажу %(order)s должен быть подтвержден до регистрации расходов."
 >>>>>>> upstream/18.0
@@ -37119,6 +37650,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Необходимо указать компанию  –  выберите ее, прежде чем вносить другие "
+"изменения в заказ."
+>>>>>>> upstream/18.0
 =======
 "Необходимо указать компанию  –  выберите ее, прежде чем вносить другие "
 "изменения в заказ."
@@ -37469,9 +38005,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Счет-фактура генерируется автоматически и доступен на портале клиента, когда транзакция подтверждена поставщиком платежей.\n"
 "Счет помечается как оплаченный, а платеж регистрируется в журнале платежей, определенном в конфигурации поставщика платежей.\n"
 "Этот режим рекомендуется использовать, если вы выставляете окончательный счет при заказе, а не после доставки."
+=======
+"Счет создается автоматически и становится доступен в клиентском портале после подтверждения транзакции платежным провайдером.\n"
+"Счет автоматически помечается как оплаченный, а платеж регистрируется в журнале, указанном в настройках платежного провайдера.\n"
+"Режим рекомендуется использовать, если вы выставляете окончательный счет на этапе заказа, а не после доставки."
+>>>>>>> upstream/18.0
 =======
 "Счет создается автоматически и становится доступен в клиентском портале после подтверждения транзакции платежным провайдером.\n"
 "Счет автоматически помечается как оплаченный, а платеж регистрируется в журнале, указанном в настройках платежного провайдера.\n"
@@ -37874,6 +38416,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Количество выбранных позиций‑комбо должно соответствовать числу доступных "
+"вариантов."
+>>>>>>> upstream/18.0
 =======
 "Количество выбранных позиций‑комбо должно соответствовать числу доступных "
 "вариантов."
@@ -38287,7 +38834,11 @@ msgid "This account will be used on Downpayment invoices."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Этот счет будет использоваться в счетах на предоплату."
+>>>>>>> upstream/18.0
 =======
 msgstr "Этот счет будет использоваться в счетах на предоплату."
 >>>>>>> upstream/18.0
@@ -38624,6 +39175,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Этот отчёт нужен для анализа ваших коммерческих предложений и продаж. Он "
 "показывает доходы от продаж и группирует их по разным признакам "
 "(ответственный, клиент, продукт и т.д.). Используйте этот отчет для анализа "
@@ -38631,6 +39183,8 @@ msgstr ""
 " оборот, то используйте отчет \"Анализ счетов\" в приложении "
 "\"Бухгалтерия\"."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -38823,6 +39377,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -39021,12 +39578,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Этот отчёт нужен для анализа ваших коммерческих предложений. Он показывает "
 "доходы от продаж и группирует их по разным признакам (продавец, клиент, "
 "продукт и т. п.). Используйте этот отчет для анализа заказов, по которым ещё"
 " не выставлены счета. Если вы хотите проанализировать оборот, то используйте"
 " отчет \"Анализ счетов\" в приложении \"Бухгалтерия\"."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -39218,6 +39778,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -39416,6 +39979,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Этот отчёт проводит анализ ваших заказов на продажу. Анализ учитывает ваши "
 "доходы от продаж и сортирует их по различным критериям группы (продавец, "
 "партнёр, продукт и т. п.). Используйте этот отчёт для проведения анализа "
@@ -39423,6 +39987,8 @@ msgstr ""
 "свой оборот, вы должны использовать отчёт «Анализ счетов» в приложении "
 "«Бухгалтерия»."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -39614,6 +40180,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -39917,6 +40486,7 @@ msgstr "Транзакции"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -40134,6 +40704,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__translated_product_name
 msgid "Translated Product Name"
 msgstr "Переведенное название товара"
@@ -40201,6 +40773,9 @@ msgstr "Переведенное название товара"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -40358,7 +40933,11 @@ msgid "Type of the exception activity on record."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Тип Дела для исключения в записи."
+=======
+msgstr "Тип задачи-исключения в записи."
+>>>>>>> upstream/18.0
 =======
 msgstr "Тип задачи-исключения в записи."
 >>>>>>> upstream/18.0
@@ -40483,6 +41062,10 @@ msgstr "Введите, чтобы найти продукт..."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 >>>>>>> upstream/18.0
@@ -40704,6 +41287,10 @@ msgstr "Коннектор Ups"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 >>>>>>> upstream/18.0
@@ -40941,7 +41528,11 @@ msgid "Un-invoiced Balance"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Невыставленный остаток"
+>>>>>>> upstream/18.0
 =======
 msgstr "Невыставленный остаток"
 >>>>>>> upstream/18.0
@@ -41311,6 +41902,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Подтвержденные расходы, счета поставщиков или складские отгрузки (при "
+"настроенном учете себестоимости) могут быть выставлены покупателю по "
+"себестоимости или цене продажи."
+>>>>>>> upstream/18.0
 =======
 "Подтвержденные расходы, счета поставщиков или складские отгрузки (при "
 "настроенном учете себестоимости) могут быть выставлены покупателю по "
@@ -41696,6 +42293,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Срок действия заказа: по его истечении коммерческое предложение нельзя будет"
+" подписать или оплатить."
+>>>>>>> upstream/18.0
 =======
 "Срок действия заказа: по его истечении коммерческое предложение нельзя будет"
 " подписать или оплатить."
@@ -42049,12 +42651,15 @@ msgstr "Подробнее"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "View Order"
 msgstr "Посмотреть заказ"
 
 #. module: sale
 #. odoo-python
 #: code:addons/sale/models/sale_order.py:0
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -42298,7 +42903,11 @@ msgid "Virtual"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Виртуальный"
+>>>>>>> upstream/18.0
 =======
 msgstr "Виртуальный"
 >>>>>>> upstream/18.0
@@ -42510,7 +43119,11 @@ msgid "Void Transaction"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Пустая транзакция"
+=======
+msgstr "Аннулировать транзакцию"
+>>>>>>> upstream/18.0
 =======
 msgstr "Аннулировать транзакцию"
 >>>>>>> upstream/18.0
@@ -42684,7 +43297,11 @@ msgid "You can invoice goods before they are delivered."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Вы можете выставить счет до того, как товар будет доставлен."
+>>>>>>> upstream/18.0
 =======
 msgstr "Вы можете выставить счет до того, как товар будет доставлен."
 >>>>>>> upstream/18.0
@@ -43007,7 +43624,11 @@ msgid "You cannot modify the product of this order line."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Нельзя изменить товар в этой строке заказа."
+>>>>>>> upstream/18.0
 =======
 msgstr "Нельзя изменить товар в этой строке заказа."
 >>>>>>> upstream/18.0
@@ -43336,7 +43957,11 @@ msgid "add the price of your product."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "добавьте цену вашего товара."
+>>>>>>> upstream/18.0
 =======
 msgstr "добавьте цену вашего товара."
 >>>>>>> upstream/18.0
@@ -43625,7 +44250,11 @@ msgid "let's continue"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "продолжим"
+>>>>>>> upstream/18.0
 =======
 msgstr "продолжим"
 >>>>>>> upstream/18.0
@@ -43882,7 +44511,11 @@ msgid "quote."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "КП."
+>>>>>>> upstream/18.0
 =======
 msgstr "КП."
 >>>>>>> upstream/18.0
@@ -44148,6 +44781,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"выбранные \n"
+"                    элементы?"
+>>>>>>> upstream/18.0
 =======
 "выбранные \n"
 "                    элементы?"
@@ -44472,7 +45110,11 @@ msgid "you confirm acceptance on the behalf of"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "вы подтверждаете согласие от имени"
+>>>>>>> upstream/18.0
 =======
 msgstr "вы подтверждаете согласие от имени"
 >>>>>>> upstream/18.0

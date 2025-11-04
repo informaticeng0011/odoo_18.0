@@ -8,6 +8,10 @@ from odoo.exceptions import UserError
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.tools import mute_logger
+>>>>>>> upstream/18.0
 =======
 from odoo.tools import mute_logger
 >>>>>>> upstream/18.0
@@ -28,6 +32,10 @@ from freezegun import freeze_time
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from psycopg2.errors import ForeignKeyViolation
+>>>>>>> upstream/18.0
 =======
 from psycopg2.errors import ForeignKeyViolation
 >>>>>>> upstream/18.0
@@ -975,6 +983,12 @@ class TestPurchase(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        with po_1.order_line.new() as po_line:
+            po_line.display_type = 'line_note'
+            po_line.name = 'Test Note'
+>>>>>>> upstream/18.0
 =======
         with po_1.order_line.new() as po_line:
             po_line.display_type = 'line_note'
@@ -1419,6 +1433,12 @@ class TestPurchase(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        with po_2.order_line.new() as po_line:
+            po_line.display_type = 'line_section'
+            po_line.name = 'Test section'
+>>>>>>> upstream/18.0
 =======
         with po_2.order_line.new() as po_line:
             po_line.display_type = 'line_section'
@@ -1956,7 +1976,10 @@ class TestPurchase(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2280,6 +2303,7 @@ class TestPurchase(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(len(matching_records), 2)
         self.assertEqual(matching_records.account_move_id, vendor_bill)
         self.assertEqual(matching_records.purchase_order_id, purchase_order)
@@ -2536,6 +2560,8 @@ class TestPurchase(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2665,6 +2691,9 @@ class TestPurchase(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2854,6 +2883,7 @@ class TestPurchase(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2878,6 +2908,8 @@ class TestPurchase(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3088,7 +3120,10 @@ class TestPurchase(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3254,6 +3289,9 @@ class TestPurchase(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3433,6 +3471,7 @@ class TestPurchase(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3461,6 +3500,8 @@ class TestPurchase(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3633,6 +3674,7 @@ class TestPurchase(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3731,6 +3773,8 @@ class TestPurchase(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3764,6 +3808,9 @@ class TestPurchase(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

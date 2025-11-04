@@ -3,6 +3,10 @@
 import publicWidget from "@web/legacy/js/public/public_widget";
 import { rpc } from "@web/core/network/rpc";
 import { debounce } from "@web/core/utils/timing";
+<<<<<<< HEAD
+=======
+import { redirect } from '@web/core/utils/urls';
+>>>>>>> upstream/18.0
 
 publicWidget.registry.websiteSaleAddress = publicWidget.Widget.extend({
     // /shop/address
@@ -189,7 +193,11 @@ publicWidget.registry.websiteSaleAddress = publicWidget.Widget.extend({
                 new FormData(this.addressForm),
             )
             if (result.redirectUrl) {
+<<<<<<< HEAD
                 window.location = result.redirectUrl;
+=======
+                redirect(result.redirectUrl);
+>>>>>>> upstream/18.0
             } else {
                 // Highlight missing/invalid form values
                 document.querySelectorAll('.is-invalid').forEach(element => {

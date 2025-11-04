@@ -59,6 +59,7 @@ from odoo.addons.mail.tests.common import MailCommon
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tests import Form, tagged
 from odoo.exceptions import UserError, ValidationError
 <<<<<<< HEAD
@@ -250,6 +251,8 @@ from odoo import Command
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 from odoo.addons.test_mail.data.test_mail_data import MAIL_EML_ATTACHMENT
 from odoo.tests import Form, tagged, new_test_user
 from odoo.exceptions import UserError, ValidationError
@@ -306,6 +309,9 @@ from odoo import Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -838,7 +844,10 @@ class TestAccountJournalAlias(AccountTestInvoicingCommon, MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1094,6 +1103,7 @@ class TestAccountJournalAlias(AccountTestInvoicingCommon, MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1136,6 +1146,8 @@ class TestAccountJournalAlias(AccountTestInvoicingCommon, MailCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1311,6 +1323,7 @@ class TestAccountJournalAlias(AccountTestInvoicingCommon, MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1403,6 +1416,8 @@ class TestAccountJournalAlias(AccountTestInvoicingCommon, MailCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1441,6 +1456,9 @@ class TestAccountJournalAlias(AccountTestInvoicingCommon, MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

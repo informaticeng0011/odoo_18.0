@@ -9,6 +9,16 @@ from odoo.fields import Command
 from odoo.tests import HttpCase, tagged
 
 
+<<<<<<< HEAD
+=======
+def _create_image(color: int | str = 0, dims=(1920, 1080), format='JPEG'):
+    f = io.BytesIO()
+    Image.new('RGB', dims, color).save(f, format)  # type: ignore
+    f.seek(0)
+    return base64.b64encode(f.read())
+
+
+>>>>>>> upstream/18.0
 @tagged('post_install', '-at_install')
 class TestWebsiteSaleImage(HttpCase):
 
@@ -50,6 +60,7 @@ class TestWebsiteSaleImage(HttpCase):
         })
 
         # first image (blue) for the template
+<<<<<<< HEAD
         f = io.BytesIO()
         Image.new('RGB', (1920, 1080), color_blue).save(f, 'JPEG')
         f.seek(0)
@@ -72,11 +83,24 @@ class TestWebsiteSaleImage(HttpCase):
         Image.new('RGB', (124, 147)).save(f, 'GIF')
         f.seek(0)
         image_gif = base64.b64encode(f.read())
+=======
+        blue_image = _create_image(color=color_blue)
+
+        # second image (red) for the variant 1, small image (no zoom)
+        red_image = _create_image(color=color_red, dims=(800, 500))
+
+        # second image (green) for the variant 2, big image (zoom)
+        green_image = _create_image(color=color_green)
+
+        # Template Extra Image 1
+        image_gif = _create_image(dims=(124, 147), format='GIF')
+>>>>>>> upstream/18.0
 
         # Template Extra Image 2
         image_svg = base64.b64encode(b'<svg></svg>')
 
         # Red Variant Extra Image 1
+<<<<<<< HEAD
         f = io.BytesIO()
         Image.new('RGB', (767, 247)).save(f, 'BMP')
         f.seek(0)
@@ -87,6 +111,12 @@ class TestWebsiteSaleImage(HttpCase):
         Image.new('RGB', (2147, 3251)).save(f, 'PNG')
         f.seek(0)
         image_png = base64.b64encode(f.read())
+=======
+        image_bmp = _create_image(dims=(767, 247), format='BMP')
+
+        # Green Variant Extra Image 1
+        image_png = _create_image(dims=(2147, 3251), format='PNG')
+>>>>>>> upstream/18.0
 
         # create the template, without creating the variants
         template = self.env['product.template'].create({
@@ -276,10 +306,14 @@ class TestWebsiteSaleImage(HttpCase):
         self.assertEqual(variant_image.product_variant_id.id, product.id)
 
     def test_02_image_holder(self):
+<<<<<<< HEAD
         f = io.BytesIO()
         Image.new('RGB', (800, 500), '#FF0000').save(f, 'JPEG')
         f.seek(0)
         image = base64.b64encode(f.read())
+=======
+        image = _create_image(color='#FF0000', dims=(800, 500))
+>>>>>>> upstream/18.0
 
         # create the color attribute
         product_attribute = self.env['product.attribute'].create({
@@ -342,6 +376,7 @@ class TestWebsiteSaleRemoveImage(HttpCase):
     @classmethod
     def setUpClass(cls):
         super().setUpClass()
+<<<<<<< HEAD
         # Attachment needed for the replacement of images
         cls.env['ir.attachment'].create({
             'public': True,
@@ -350,12 +385,27 @@ class TestWebsiteSaleRemoveImage(HttpCase):
             'url': f'{cls.base_url()}/web/image/website.s_banner_default_image.jpg',
         })
 
+=======
+>>>>>>> upstream/18.0
         # First image (blue) for the template.
         color_blue = '#4169E1'
         name_blue = 'Royal Blue'
         # Red for the variant.
         color_red = '#CD5C5C'
         name_red = 'Indian Red'
+<<<<<<< HEAD
+=======
+        # Green for the replacement
+        color_green = '#228B22'
+
+        # Attachment needed for the replacement of images
+        cls.env['ir.attachment'].create({
+            'public': True,
+            'name': 'green.jpg',
+            'type': 'binary',
+            'datas': _create_image(color=color_green)
+        })
+>>>>>>> upstream/18.0
 
         # Create the color attribute.
         cls.product_attribute = cls.env['product.attribute'].create({
@@ -376,6 +426,7 @@ class TestWebsiteSaleRemoveImage(HttpCase):
             'sequence': 2,
         },
         ])
+<<<<<<< HEAD
         f = io.BytesIO()
         Image.new('RGB', (1920, 1080), color_blue).save(f, 'JPEG')
         f.seek(0)
@@ -384,6 +435,12 @@ class TestWebsiteSaleRemoveImage(HttpCase):
         cls.template = cls.env['product.template'].with_context(create_product_product=False).create({
             'name': 'Test Remove Image',
             'image_1920': blue_image,
+=======
+
+        cls.template = cls.env['product.template'].with_context(create_product_product=False).create({
+            'name': 'Test Remove Image',
+            'image_1920': _create_image(color=color_blue),
+>>>>>>> upstream/18.0
         })
 
     def test_website_sale_add_and_remove_main_product_image_no_variant(self):

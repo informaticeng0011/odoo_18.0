@@ -32,6 +32,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* stock
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -595,6 +596,9 @@
 =======
 # * stock
 >>>>>>> upstream/18.0
+=======
+# * stock
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Paolo Valier, 2024
@@ -633,6 +637,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -694,6 +699,9 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# "Marianna Ciofani (cima)" <cima@odoo.com>, 2025.
 >>>>>>> upstream/18.0
 =======
 # "Marianna Ciofani (cima)" <cima@odoo.com>, 2025.
@@ -795,6 +803,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1376,6 +1385,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-09-27 01:48+0000\n"
 "PO-Revision-Date: 2025-10-24 22:20+0000\n"
 "Last-Translator: \"Marianna Ciofani (cima)\" <cima@odoo.com>\n"
@@ -1390,6 +1401,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1413,6 +1427,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1668,6 +1683,11 @@ msgstr ""
 " ? 1 : 2);\n"
 "X-Generator: Weblate 5.12.2\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
+" ? 1 : 2);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: stock
 #. odoo-python
@@ -1675,6 +1695,7 @@ msgstr ""
 msgid ""
 "\n"
 "\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1838,6 +1859,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Transfers %(transfer_list)s: You need to supply a Lot/Serial number for "
 "products %(product_list)s."
 msgstr ""
@@ -1897,6 +1920,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2071,6 +2097,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The quantity done for the product %(product)s doesn't respect the rounding precision defined on the unit of measure %(unit)s.\n"
 "Please change the quantity done or the rounding precision of your unit of measure."
 msgstr ""
@@ -2078,6 +2105,8 @@ msgstr ""
 "La quantità completata per il prodotto %(product)s non rispetta la precisione di arrotondamento definita nell'unità di misura %(unit)s.\n"
 "Modifica la quantità completata o la precisione di arrotondamento dell'unità di misura."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2244,6 +2273,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2407,6 +2439,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 " * Waiting another operation: This transfer is waiting for another operation before being ready.\n"
 " * Waiting: The transfer is waiting for the availability of some products.\n"
 "(a) The shipping policy is \"As soon as possible\": no product could be reserved.\n"
@@ -2426,6 +2459,8 @@ msgstr ""
 "(a) Politica di spedizione \"Prima possibile\": almeno un prodotto è stato prenotato.\n"
 "(b) Politica di spedizione \"Quando tutti i prodotti sono pronti\": tutti i prodotti sono stati prenotati.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2612,6 +2647,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2786,8 +2824,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Se diversa da 0, la prossima data di inventario per i prodotti conservati in"
 " questa ubicazione sarà impostata automaticamente alla frequenza definita."
+=======
+"Se diversa da 0, la prossima data di inventario per i prodotti conservati in "
+"questa ubicazione sarà impostata automaticamente alla frequenza definita."
+>>>>>>> upstream/18.0
 =======
 "Se diversa da 0, la prossima data di inventario per i prodotti conservati in "
 "questa ubicazione sarà impostata automaticamente alla frequenza definita."
@@ -3117,12 +3160,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "%(operations)s have default source or destination locations within warehouse"
 " %(warehouse)s, therefore you cannot archive it."
 msgstr ""
 "%(operations)s ha/hanno la fonte predefinita o le ubicazioni di destinazione"
 " nel magazzino %(warehouse)s quindi non puoi archiviarla/e. "
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3284,6 +3330,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3453,6 +3502,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "%(product_name)s --> Product UoM is %(product_uom)s "
 "(%(product_uom_category)s) - Move UoM is %(move_uom)s "
 "(%(move_uom_category)s)"
@@ -3460,6 +3510,8 @@ msgstr ""
 "%(product_name)s --> UDM prodotto %(product_uom)s (%(product_uom_category)s)"
 " - UDM movimento %(move_uom)s (%(move_uom_category)s)"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3621,6 +3673,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3800,7 +3855,11 @@ msgid "%(warehouse)s: Supply Product from %(supplier)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "%(warehouse)s: rifornisci prodotto da %(supplier)s"
+=======
+msgstr "%(warehouse)s: fornitura prodotto da %(supplier)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(warehouse)s: fornitura prodotto da %(supplier)s"
 >>>>>>> upstream/18.0
@@ -4052,8 +4111,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "%s: niente da dividere, tutte le richieste sono state eseguite. Per dividere"
 " è necessario avere almeno una riga non completata"
+=======
+"%s: niente da dividere, tutte le richieste sono state eseguite. Per dividere "
+"è necessario avere almeno una riga non completata"
+>>>>>>> upstream/18.0
 =======
 "%s: niente da dividere, tutte le richieste sono state eseguite. Per dividere "
 "è necessario avere almeno una riga non completata"
@@ -4337,8 +4401,12 @@ msgstr "\"Numero fogli\""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "'Delivery Slip - %s - %s' % (object.partner_id.name or '', object.name)"
+=======
+msgid "'Delivery Slip - %s - %s' % (object.partner_id.name or '', object.name)"
+>>>>>>> upstream/18.0
 =======
 msgid "'Delivery Slip - %s - %s' % (object.partner_id.name or '', object.name)"
 >>>>>>> upstream/18.0
@@ -4616,7 +4684,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "* Waiting Availability: The stock move is confirmed but the product can't be reserved.\n"
+=======
+"* Waiting Availability: The stock move is confirmed but the product can't be "
+"reserved.\n"
+>>>>>>> upstream/18.0
 =======
 "* Waiting Availability: The stock move is confirmed but the product can't be "
 "reserved.\n"
@@ -4886,11 +4959,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "* In attesa di un altro movimento: è necessario eseguire un altro movimento di magazzino prima di questo.\n"
 "* In attesa di disponibilità: il movimento di magazzino è confermato ma il prodotto non può essere messo da parte.\n"
 "* Disponibile: il prodotto del movimento di magazzino è messo da parte.\n"
 "* Fatto: il prodotto è stato trasformato e il trasferimento è stato confermato."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5054,6 +5130,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5220,6 +5299,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "* Vendor Location: Virtual location representing the source location for products coming from your vendors\n"
 "* View: Virtual location used to create a hierarchical structures for your warehouse, aggregating its child locations ; can't directly contain products\n"
 "* Internal Location: Physical locations inside your own warehouses,\n"
@@ -5236,6 +5316,8 @@ msgstr ""
 "* Produzione: ubicazione virtuale equivalente per le operazioni di produzione: utilizza i componenti e produce prodotti finiti\n"
 "* Ubicazione di transito: ubicazione equivalente che deve essere usata per operazioni interaziendali o tra magazzini"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5422,6 +5504,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5719,8 +5804,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<br>Per coprire la necessità che si è creata in <b>%s</b> viene attivata una"
 " regola."
+=======
+"<br>Per coprire la necessità che si è creata in <b>%s</b> viene attivata una "
+"regola."
+>>>>>>> upstream/18.0
 =======
 "<br>Per coprire la necessità che si è creata in <b>%s</b> viene attivata una "
 "regola."
@@ -5991,8 +6081,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<br>If the products are not available in <b>%s</b>, a rule will be triggered"
 " to bring the missing quantity in this location."
+=======
+"<br>If the products are not available in <b>%s</b>, a rule will be triggered "
+"to bring the missing quantity in this location."
+>>>>>>> upstream/18.0
 =======
 "<br>If the products are not available in <b>%s</b>, a rule will be triggered "
 "to bring the missing quantity in this location."
@@ -6277,6 +6372,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Hello <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>,<br/><br/>\n"
 "        We are glad to inform you that your order has been shipped.\n"
 "        <t t-if=\"hasattr(object, 'carrier_tracking_ref') and object.carrier_tracking_ref\">\n"
@@ -6292,6 +6388,8 @@ msgid ""
 "                <t t-else=\"\">\n"
 "                    <a t-attf-href=\"{{ object.carrier_tracking_url }}\" target=\"_blank\" t-out=\"object.carrier_tracking_ref or ''\"/>.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6468,6 +6566,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6634,12 +6735,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Please find your delivery order attached for more details.<br/><br/>\n"
 "        Thank you,\n"
 "        <t t-if=\"user.signature\" data-o-mail-quote-container=\"1\">\n"
 "            <br/>\n"
 "            <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6803,6 +6907,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6968,6 +7075,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Ciao <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>,<br/><br/>\n"
 "        siamo felici di dirti che il tuo ordine è stato spedito.\n"
 "        <t t-if=\"hasattr(object, 'carrier_tracking_ref') and object.carrier_tracking_ref\">\n"
@@ -6983,6 +7091,8 @@ msgstr ""
 "                <t t-else=\"\">\n"
 "                    <a t-attf-href=\"{{ object.carrier_tracking_url }}\" target=\"_blank\" t-out=\"object.carrier_tracking_ref or ''\"/>.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7159,6 +7269,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7325,12 +7438,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Trovi il tuo ordine di consegna in allegato per maggiori dettagli.<br/><br/>\n"
 "        Grazie,\n"
 "        <t t-if=\"user.signature\" data-o-mail-quote-container=\"1\">\n"
 "            <br/>\n"
 "            <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7494,6 +7610,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7659,9 +7778,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-clock-o\" role=\"img\" aria-label=\"Date\" title=\"Date\"/>"
 msgstr "<i class=\"fa fa-clock-o\" role=\"img\" aria-label=\"Date\" title=\"Data\"/>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7822,6 +7944,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7985,11 +8110,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                All products could not be reserved. Click on the \"Check Availability\" button to try to reserve products."
 msgstr ""
 "<i class=\"fa fa-exclamation-triangle\"/>\n"
 "                                Impossibile prenotare tutti i prodotti. Fare clic sul pulsante \"Controlla disponibilità\" ed effettuare un tentativo di prenotazione."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8153,6 +8281,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8492,7 +8623,10 @@ msgstr "<strong>Indirizzo cliente</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8657,6 +8791,9 @@ msgstr "<strong>Consegnato</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8825,6 +8962,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "quantity and now, the difference of quantity is not consistent "
 "anymore.</strong>"
 msgstr ""
@@ -8832,6 +8970,8 @@ msgstr ""
 " iniziale della quantità, la differenza di quantità non è più "
 "coerente.</strong>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8994,6 +9134,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9181,6 +9324,7 @@ msgstr "<strong>Ordine</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #: model_terms:ir.ui.view,arch_db:stock.report_delivery_document
 msgid "<strong>Ordered</strong>"
@@ -9189,6 +9333,8 @@ msgstr "<strong>Ordinare</strong>"
 #. module: stock
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9350,6 +9496,9 @@ msgstr "<strong>Ordinate</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9640,8 +9789,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Activate this function to get all quantities to replenish at this particular"
 " location"
+=======
+"Activate this function to get all quantities to replenish at this particular "
+"location"
+>>>>>>> upstream/18.0
 =======
 "Activate this function to get all quantities to replenish at this particular "
 "location"
@@ -9954,7 +10108,11 @@ msgid "Add a Product"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Aggiungi un Prodotto"
+=======
+msgstr "Aggiungi prodotto"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aggiungi prodotto"
 >>>>>>> upstream/18.0
@@ -10200,12 +10358,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Add and customize route operations to process product moves in your warehouse(s): e.g. unload > quality control > stock for incoming products, pick > pack > ship for outgoing products. \n"
 " You can also set putaway strategies on warehouse locations in order to send incoming products into specific child locations straight away (e.g. specific bins, racks)."
 msgstr ""
 "Aggiunge e personalizza operazioni sui percorsi per elaborare gli spostamenti prodotto nei magazzini: es. scarico → controllo qualità → giacenza per prodotti in entrata, prelievo → creazione collo → spedizione per prodotti in uscita.\n"
 " È anche possibile impostare strategie di stoccaggio per le ubicazioni di magazzino, in modo da inviare immediatamente i prodotti in entrata in specifiche ubicazioni secondarie (es. contenitori particolari, scaffali)."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10376,6 +10537,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10546,12 +10710,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "giacenza per prodotti in entrata, prelievo → creazione collo → spedizione "
 "per prodotti in uscita. È anche possibile impostare strategie di stoccaggio "
 "per le ubicazioni di magazzino, in modo da inviare immediatamente i prodotti"
 " in entrata in specifiche ubicazioni secondarie (es. contenitori "
 "particolari, scaffali)."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10713,6 +10880,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11045,8 +11215,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Esiste un altro luogo padre/secondario di rifornimento %s, se vuoi cambiarlo"
 " deselezionalo"
+=======
+"Esiste un altro luogo padre/secondario di rifornimento %s, se vuoi cambiarlo "
+"deselezionalo"
+>>>>>>> upstream/18.0
 =======
 "Esiste un altro luogo padre/secondario di rifornimento %s, se vuoi cambiarlo "
 "deselezionalo"
@@ -11556,8 +11731,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Prima di cambiare il monitoraggio delle scorte, la quantità disponibile deve"
 " essere pari zero"
+=======
+"Prima di cambiare il monitoraggio delle scorte, la quantità disponibile deve "
+"essere pari zero"
+>>>>>>> upstream/18.0
 =======
 "Prima di cambiare il monitoraggio delle scorte, la quantità disponibile deve "
 "essere pari zero"
@@ -11882,7 +12062,11 @@ msgid "Barcode Rule"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Regola Codice a barre"
+=======
+msgstr "Regola codice a barre"
+>>>>>>> upstream/18.0
 =======
 msgstr "Regola codice a barre"
 >>>>>>> upstream/18.0
@@ -12099,7 +12283,11 @@ msgid "Barcode Scanner"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Lettore Codice a barre"
+=======
+msgstr "Lettore codici a barre"
+>>>>>>> upstream/18.0
 =======
 msgstr "Lettore codici a barre"
 >>>>>>> upstream/18.0
@@ -12359,7 +12547,11 @@ msgid "Bulk Content"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Contenuto complessivo"
+=======
+msgstr "Contenuto sfuso"
+>>>>>>> upstream/18.0
 =======
 msgstr "Contenuto sfuso"
 >>>>>>> upstream/18.0
@@ -12615,8 +12807,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Deselezionando il campo «Attivo» è possibile nascondere una ubicazione senza"
 " eliminarla."
+=======
+"Deselezionando il campo «Attivo» è possibile nascondere una ubicazione senza "
+"eliminarla."
+>>>>>>> upstream/18.0
 =======
 "Deselezionando il campo «Attivo» è possibile nascondere una ubicazione senza "
 "eliminarla."
@@ -12991,8 +13188,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "verrà pagata dal cliente alle autorità fiscali. My Company (Chicago) non può"
 " essere in nessun modo coinvolta nei costi legati alla legislazione di una "
+=======
+"verrà pagata dal cliente alle autorità fiscali. My Company (Chicago) non può "
+"essere in nessun modo coinvolta nei costi legati alla legislazione di una "
+>>>>>>> upstream/18.0
 =======
 "verrà pagata dal cliente alle autorità fiscali. My Company (Chicago) non può "
 "essere in nessun modo coinvolta nei costi legati alla legislazione di una "
@@ -13272,8 +13474,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Changing the Lot/Serial number for move lines with different products is not"
 " allowed."
+=======
+"Changing the Lot/Serial number for move lines with different products is not "
+"allowed."
+>>>>>>> upstream/18.0
 =======
 "Changing the Lot/Serial number for move lines with different products is not "
 "allowed."
@@ -13561,9 +13768,13 @@ msgid "Changing the operation type of this record is forbidden at this point."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "La modifica del tipo di operazione di questo record è vietata a questo "
 "punto."
+=======
+msgstr "In questo punto è vietato il cambio del tipo di operazione del record."
+>>>>>>> upstream/18.0
 =======
 msgstr "In questo punto è vietato il cambio del tipo di operazione del record."
 >>>>>>> upstream/18.0
@@ -13807,7 +14018,11 @@ msgid "Check the existence of pack operation on the picking"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Controlla l’esistenza dell’operazione di imballaggio sul prelievo"
+=======
+msgstr "Controlla l’esistenza dell’operazione di confezionamento sul prelievo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Controlla l’esistenza dell’operazione di confezionamento sul prelievo"
 >>>>>>> upstream/18.0
@@ -14034,8 +14249,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Selezionare la casella per utilizzare l'ubicazione per merci "
 "scartate/danneggiate."
+=======
+"Selezionare la casella per utilizzare l'ubicazione per merci scartate/"
+"danneggiate."
+>>>>>>> upstream/18.0
 =======
 "Selezionare la casella per utilizzare l'ubicazione per merci scartate/"
 "danneggiate."
@@ -14319,7 +14539,11 @@ msgid "Choose a date to get the inventory at that date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Scegliere la data dell’inventario da valutare"
+=======
+msgstr "Scegliere una data alla quale ottenere l'inventario"
+>>>>>>> upstream/18.0
 =======
 msgstr "Scegliere una data alla quale ottenere l'inventario"
 >>>>>>> upstream/18.0
@@ -14628,6 +14852,7 @@ msgstr "Calcolo dei costi di spedizione e invio con DHL"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 msgid ""
 "Compute shipping costs and ship with DHL<br/>\n"
@@ -14640,6 +14865,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14807,6 +15034,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14976,6 +15206,7 @@ msgstr "Calcolo dei costi di spedizione e invio con FedEx"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 msgid ""
 "Compute shipping costs and ship with FedEx<br/>\n"
@@ -14988,6 +15219,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -15155,6 +15388,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15334,6 +15570,7 @@ msgstr "Calcolo dei costi di spedizione e invio con UPS"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 msgid ""
 "Compute shipping costs and ship with UPS<br/>\n"
@@ -15346,6 +15583,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -15513,6 +15752,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15677,6 +15919,7 @@ msgstr "Calcolo dei costi di spedizione e invio con USPS"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 msgid ""
 "Compute shipping costs and ship with USPS<br/>\n"
@@ -15689,6 +15932,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -15856,6 +16101,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16071,11 +16319,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Consider product forecast these many days in the future upon product replenishment, set to 0 for just-in-time.\n"
 "The value depends on the type of the route (Buy or Manufacture)"
 msgstr ""
 "Considera la previsione dei prodotti per il futuro in questi giorni specifici, in base al rifornimento del prodotto, impostato su 0 per la logistica just in time.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -16239,6 +16490,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16506,7 +16760,11 @@ msgid "Count Sheet"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Numero fogli"
+=======
+msgstr "Foglio conteggi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Foglio conteggi"
 >>>>>>> upstream/18.0
@@ -16765,12 +17023,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            products later. Do not create a backorder if you will not\n"
 "                            process the remaining products."
 msgstr ""
 "Crea un ordine residuo se pensi di elaborare i prodotti\n"
 "                            restanti più tardi. Non creare un ordine residuo se non\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -16934,6 +17195,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17127,8 +17391,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Crea alcuni prodotti stoccabili per vederne le disponibilità in questa "
 "vista."
+=======
+"Crea alcuni prodotti stoccabili per vederne le disponibilità in questa vista."
+>>>>>>> upstream/18.0
 =======
 "Crea alcuni prodotti stoccabili per vederne le disponibilità in questa vista."
 >>>>>>> upstream/18.0
@@ -17507,6 +17775,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "In a context with a single Stock Location, this includes goods stored at this Location, or any of its children.\n"
 "In a context with a single Warehouse, this includes goods stored in the Stock Location of this Warehouse, or any of its children.\n"
 "stored in the Stock Location of the Warehouse of this Shop, or any of its children.\n"
@@ -17518,6 +17787,8 @@ msgstr ""
 "In un contesto di singolo punto vendita, include la merce stoccata nell'ubicazione principale delle giacenze di magazzino del punto vendita o in una delle secondarie.\n"
 "Diversamente, include la merce stoccata in qualsiasi ubicazione di giacenza di tipo \"interno\"."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -17694,6 +17965,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17940,7 +18214,10 @@ msgstr "DEMO_UDM"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -18105,6 +18382,9 @@ msgstr "Connettore DHL"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18344,12 +18624,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Day of the month when the annual inventory should occur. If zero or negative, then the first day of the month will be selected instead.\n"
 "        If greater than the last day of a month, then the last day of the month will be selected instead."
 msgstr ""
 "Giorno del mese in cui dovrebbe verificarsi l'inventario annuale. Se pari a 0 o negativo, verrà selezionato il primo giorno del mese.\n"
 "        Se superiore rispetto all'ultimo giorno del mese, verrà selezionato l'ultimo giorno del mese."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -18515,6 +18798,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18794,6 +19080,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Definire le ubicazioni per indicare la struttura del magazzino e della\n"
 "            organizzazione. Odoo è in grado di gestire le ubicazioni fisiche\n"
 "            (magazzini, scaffali, cestino, ecc.), sedi dei partner (clienti,\n"
@@ -18801,6 +19088,8 @@ msgstr ""
 "            operazioni di magazzino come consumi da ordini\n"
 "            di produzione, giacenze, ecc."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -18966,6 +19255,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -19128,6 +19420,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Defines the default method used for suggesting the exact location (shelf) where to take the products from, which lot etc. for this location. This method can be enforced at the product category level, and a fallback is made on the parent locations if none is set here.\n"
 "\n"
 "FIFO: products/lots that were stocked first will be moved out first.\n"
@@ -19142,6 +19435,8 @@ msgstr ""
 "Closest location: i prodotti/lotti più vicini alla posizione di destinazione saranno spostati per primi.\n"
 "FEFO: i prodotti/lotti con la data di rimozione più vicina saranno spostati per primi (la disponibilità di questo metodo dipende dall'impostazione \"Date di scadenza\")."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -19326,6 +19621,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -19518,7 +19816,11 @@ msgid "Deliver in 3 steps (pick + pack + ship)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Consegna in 3 fasi (prelievo + imballaggio + spedizione)"
+=======
+msgstr "Consegna in 3 fasi (prelievo + confezionamento + spedizione)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Consegna in 3 fasi (prelievo + confezionamento + spedizione)"
 >>>>>>> upstream/18.0
@@ -19859,8 +20161,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "percorso del prodotto in questo imballaggio: se sarà acquistato, fabbricato,"
 " rifornito su ordinazione, ecc."
+=======
+"percorso del prodotto in questo imballaggio: se sarà acquistato, fabbricato, "
+"rifornito su ordinazione, ecc."
+>>>>>>> upstream/18.0
 =======
 "percorso del prodotto in questo imballaggio: se sarà acquistato, fabbricato, "
 "rifornito su ordinazione, ecc."
@@ -20136,7 +20443,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "prodotto: se verrà comprato, fabbricato, rifornito su ordine ecc."
+=======
+"prodotto: se verrà comprato, fabbricato, rifornito su ordine ecc..."
+>>>>>>> upstream/18.0
 =======
 "prodotto: se verrà comprato, fabbricato, rifornito su ordine ecc..."
 >>>>>>> upstream/18.0
@@ -20612,7 +20923,11 @@ msgid "Display package content"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Visualizza il contenuto del pacchetto"
+=======
+msgstr "Visualizza contenuto collo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Visualizza contenuto collo"
 >>>>>>> upstream/18.0
@@ -20829,7 +21144,11 @@ msgid "Disposable Box"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Scatola usa e getta"
+=======
+msgstr "Scatola monouso"
+>>>>>>> upstream/18.0
 =======
 msgstr "Scatola monouso"
 >>>>>>> upstream/18.0
@@ -21046,6 +21365,7 @@ msgid "Do you confirm you want to scrap"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Confermi di voler rottamare"
 
 #. module: stock
@@ -21054,6 +21374,8 @@ msgstr "Confermi di voler rottamare"
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -21214,6 +21536,9 @@ msgstr "Confermare lo scarto di"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -21499,6 +21824,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Enjoy a quick-paced experience with the Odoo barcode app. It is blazing fast"
 " and works even without a stable internet connection. It supports all flows:"
 " inventory adjustments, batch picking, moving lots or pallets, low inventory"
@@ -21511,6 +21837,8 @@ msgstr ""
 "verifiche di inventario, ecc. Vai sul menu delle App per attivare "
 "l'interfaccia di Barcode Scanner."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -21678,6 +22006,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -21858,10 +22189,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            ubicazione ad un’altra. Ad esempio, se vengono ricevuti prodotti\n"
 "            da un fornitore, Odoo trasferisce i prodotti dall'ubicazione\n"
 "            del fornitore a quella di giacenza. Ciascun resoconto può essere\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -22023,6 +22357,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -22197,7 +22534,11 @@ msgid "Exp"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Exp"
+=======
+msgstr "Atteso il"
+>>>>>>> upstream/18.0
 =======
 msgstr "Atteso il"
 >>>>>>> upstream/18.0
@@ -22427,7 +22768,11 @@ msgid "Expected Delivery:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Consegna prevista:"
+=======
+msgstr "Consegna attesa:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Consegna attesa:"
 >>>>>>> upstream/18.0
@@ -22679,6 +23024,10 @@ msgstr "Febbraio"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 >>>>>>> upstream/18.0
@@ -22997,6 +23346,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "In a context with a single Stock Location, this includes goods stored in this location, or any of its children.\n"
 "In a context with a single Warehouse, this includes goods stored in the Stock Location of this Warehouse, or any of its children.\n"
 "Otherwise, this includes goods stored in any Stock Location with 'internal' type."
@@ -23006,6 +23356,8 @@ msgstr ""
 "In un contesto di singolo magazzino, include la merce stoccata nel'ubicazione principale delle giacenze di magazzino o in una delle secondarie.\n"
 "Diversamente, include la merce stoccata in qualsiasi ubicazione di giacenza di tipo “interno”."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -23178,6 +23530,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -23341,6 +23696,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "In a context with a single Stock Location, this includes goods stored in this location, or any of its children.\n"
 "In a context with a single Warehouse, this includes goods stored in the Stock Location of this Warehouse, or any of its children.\n"
 "Otherwise, this includes goods stored in any Stock Location with 'internal' type."
@@ -23350,6 +23706,8 @@ msgstr ""
 "In un contesto di singolo magazzino, include la merce stoccata nel'ubicazione principale delle giacenze di magazzino o in una delle secondarie.\n"
 "Diversamente, include la merce stoccata in qualsiasi ubicazione di giacenza di tipo “interno”."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -23522,6 +23880,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -23740,7 +24101,11 @@ msgid "Forecasted Report"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Resoconto previsionale"
+=======
+msgstr "Rendiconto previsionale"
+>>>>>>> upstream/18.0
 =======
 msgstr "Rendiconto previsionale"
 >>>>>>> upstream/18.0
@@ -23968,7 +24333,11 @@ msgid "Forecasted with Pending"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Previsionale e in sospeso"
+=======
+msgstr "Previste e in sospeso"
+>>>>>>> upstream/18.0
 =======
 msgstr "Previste e in sospeso"
 >>>>>>> upstream/18.0
@@ -24313,12 +24682,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Give to the more specialized category, a higher priority to have them in top"
 " of the list."
 msgstr ""
 "Dare alla categoria più specializzata, una priorità più alta per averle in "
 "cima alla lista."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -24480,6 +24852,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -24696,7 +25071,11 @@ msgid "Has Pack Operations"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Contiene operazioni di imballaggio"
+=======
+msgstr "Contiene operazioni di confezionamento"
+>>>>>>> upstream/18.0
 =======
 msgstr "Contiene operazioni di confezionamento"
 >>>>>>> upstream/18.0
@@ -24928,7 +25307,11 @@ msgid "Has Tracking"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "È monitorato"
+=======
+msgstr "È tracciabile"
+>>>>>>> upstream/18.0
 =======
 msgstr "È tracciabile"
 >>>>>>> upstream/18.0
@@ -25271,11 +25654,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Se un pagamento è ancora in sospeso più di sessanta (60) giorni dopo la data"
 " di pagamento dovuta, My Company (Chicago) si riserva il diritto di chiamare"
 " i servizi di una società di recupero crediti. Tutte le spese legali saranno"
 " a carico del cliente."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -25436,6 +25822,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -25598,8 +25987,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If a separator is defined, a QR code containing all serial numbers contained"
 " in package will be generated, using the defined character(s) to separate "
+=======
+"If a separator is defined, a QR code containing all serial numbers contained "
+"in package will be generated, using the defined character(s) to separate "
+>>>>>>> upstream/18.0
 =======
 "If a separator is defined, a QR code containing all serial numbers contained "
 "in package will be generated, using the defined character(s) to separate "
@@ -25908,8 +26302,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If the UoM of a lot is not 'units', the lot will be considered as a unit and"
 " only one label will be printed for this lot."
+=======
+"If the UoM of a lot is not 'units', the lot will be considered as a unit and "
+"only one label will be printed for this lot."
+>>>>>>> upstream/18.0
 =======
 "If the UoM of a lot is not 'units', the lot will be considered as a unit and "
 "only one label will be printed for this lot."
@@ -26246,8 +26645,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If this checkbox is ticked, Odoo will automatically print the product labels"
 " of a picking when it is validated."
+=======
+"If this checkbox is ticked, Odoo will automatically print the product labels "
+"of a picking when it is validated."
+>>>>>>> upstream/18.0
 =======
 "If this checkbox is ticked, Odoo will automatically print the product labels "
 "of a picking when it is validated."
@@ -26538,8 +26942,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If this checkbox is ticked, Odoo will automatically print the return slip of"
 " a picking when it is validated."
+=======
+"If this checkbox is ticked, Odoo will automatically print the return slip of "
+"a picking when it is validated."
+>>>>>>> upstream/18.0
 =======
 "If this checkbox is ticked, Odoo will automatically print the return slip of "
 "a picking when it is validated."
@@ -26824,6 +27233,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If this checkbox is ticked, the pickings lines will represent detailed stock"
 " operations. If not, the picking lines will represent an aggregate of "
 "detailed stock operations."
@@ -26832,6 +27242,8 @@ msgstr ""
 "di magazzino dettagliate. In caso contrario, un aggregato di tali "
 "operazioni."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -26994,6 +27406,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -27180,8 +27595,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If this picking was created as a return of another picking, this field links"
 " to the original picking."
+=======
+"If this picking was created as a return of another picking, this field links "
+"to the original picking."
+>>>>>>> upstream/18.0
 =======
 "If this picking was created as a return of another picking, this field links "
 "to the original picking."
@@ -27466,8 +27886,12 @@ msgid "If ticked, you will be able to select entire packages to move"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Se selezionata, sarà possibile selezionare interi colli da movimentare"
+=======
+msgstr "Se selezionata, sarà possibile selezionare interi colli da movimentare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Se selezionata, sarà possibile selezionare interi colli da movimentare"
 >>>>>>> upstream/18.0
@@ -27684,8 +28108,12 @@ msgid "If unchecked, it will allow you to hide the rule without removing it."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Se non selezionata, consente di nascondere la regola senza rimuoverla."
+=======
+msgstr "Se non selezionata, consente di nascondere la regola senza rimuoverla."
+>>>>>>> upstream/18.0
 =======
 msgstr "Se non selezionata, consente di nascondere la regola senza rimuoverla."
 >>>>>>> upstream/18.0
@@ -27942,12 +28370,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "In case of outgoing flow, validate the transfer before this date to allow to deliver at promised date to the customer.\n"
 "        In case of incoming flow, validate the transfer before this date in order to have these products in stock at the date promised by the supplier"
 msgstr ""
 "In caso di flusso in uscita, convalida il trasferimento prima della data indicata per consentire la consegna nella data promessa al cliente.\n"
 "        In caso di flusso in entrata, convalida il trasferimento prima della data indicata per avere la disponibilità dei prodotti alla data promessa dal fornitore"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -28114,6 +28545,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -28331,8 +28765,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Indicates the gap between the product's theoretical quantity and its counted"
 " quantity."
+=======
+"Indicates the gap between the product's theoretical quantity and its counted "
+"quantity."
+>>>>>>> upstream/18.0
 =======
 "Indicates the gap between the product's theoretical quantity and its counted "
 "quantity."
@@ -28701,12 +29140,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Internal reference number in case it differs from the manufacturer's "
 "lot/serial number"
 msgstr ""
 "Numero di riferimento interno nel caso in cui differisca dal numero di "
 "lotto/serie del produttore"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -28868,6 +29310,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -29046,8 +29491,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Operando destro \"%s\" non valido per il dominio. Deve essere di tipo "
 "intero/virgola mobile"
+=======
+"Operando destro \"%s\" non valido per il dominio. Deve essere di tipo intero/"
+"virgola mobile"
+>>>>>>> upstream/18.0
 =======
 "Operando destro \"%s\" non valido per il dominio. Deve essere di tipo intero/"
 "virgola mobile"
@@ -29592,8 +30042,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Mantieni la <strong>quantità contata</strong> (la differenza sarà "
 "aggiornata)"
+=======
+"Mantieni la <strong>quantità contata</strong> (la differenza sarà aggiornata)"
+>>>>>>> upstream/18.0
 =======
 "Mantieni la <strong>quantità contata</strong> (la differenza sarà aggiornata)"
 >>>>>>> upstream/18.0
@@ -29813,8 +30267,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Mantieni la <strong>differenza</strong> (la quantità contata sarà aggiornata"
 " per riflettere la stessa differenza di quando hai contato)"
+=======
+"Mantieni la <strong>differenza</strong> (la quantità contata sarà aggiornata "
+"per riflettere la stessa differenza di quando hai contato)"
+>>>>>>> upstream/18.0
 =======
 "Mantieni la <strong>differenza</strong> (la quantità contata sarà aggiornata "
 "per riflettere la stessa differenza di quando hai contato)"
@@ -30373,7 +30832,11 @@ msgid "Location Barcode"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Posizione Codice a barre"
+=======
+msgstr "Codice a barre ubicazione"
+>>>>>>> upstream/18.0
 =======
 msgstr "Codice a barre ubicazione"
 >>>>>>> upstream/18.0
@@ -30782,11 +31245,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            From their traceability report you will see the full history of their use, as well as their composition."
 msgstr ""
 "I lotti/numeri di serie ti aiutano a tracciare il percorso seguito dai tuoi prodotti.\n"
 "Dal loro rapporto di tracciabilità potrai vedere la storia completa del loro utilizzo, così come la loro composizione."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -30950,6 +31416,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -31217,7 +31686,11 @@ msgid "Max weight should be a positive number."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Il peso massimo deve essere un numero positivo."
+=======
+msgstr "Peso massimo deve essere un numero positivo."
+>>>>>>> upstream/18.0
 =======
 msgstr "Peso massimo deve essere un numero positivo."
 >>>>>>> upstream/18.0
@@ -31497,7 +31970,11 @@ msgid "Minimum Inventory Rule"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Regola di scorta minima"
+=======
+msgstr "Regola di inventario minimo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Regola di inventario minimo"
 >>>>>>> upstream/18.0
@@ -31790,8 +32267,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Moves created through this orderpoint will be put in this procurement group."
 " If none is given, the moves generated by stock rules will be grouped into "
+=======
+"Moves created through this orderpoint will be put in this procurement group. "
+"If none is given, the moves generated by stock rules will be grouped into "
+>>>>>>> upstream/18.0
 =======
 "Moves created through this orderpoint will be put in this procurement group. "
 "If none is given, the moves generated by stock rules will be grouped into "
@@ -32087,7 +32569,11 @@ msgid "My Activity Deadline"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Scadenza mie attività"
+=======
+msgstr "Scadenza mia attività"
+>>>>>>> upstream/18.0
 =======
 msgstr "Scadenza mia attività"
 >>>>>>> upstream/18.0
@@ -32304,8 +32790,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "My Company (Chicago) undertakes to do its best to supply performant services"
 " in due time in accordance with the agreed timeframes. However, none of its "
+=======
+"My Company (Chicago) undertakes to do its best to supply performant services "
+"in due time in accordance with the agreed timeframes. However, none of its "
+>>>>>>> upstream/18.0
 =======
 "My Company (Chicago) undertakes to do its best to supply performant services "
 "in due time in accordance with the agreed timeframes. However, none of its "
@@ -32579,9 +33070,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "risultato. My Company (Chicago) non può in nessun caso, essere richiesto dal"
 " cliente di apparire come terza parte nel contesto di qualsiasi richiesta di"
 " risarcimento danni presentata al cliente da un consumatore finale."
+=======
+"risultato. My Company (Chicago) non può in nessun caso, essere richiesto dal "
+"cliente di apparire come terza parte nel contesto di qualsiasi richiesta di "
+"risarcimento danni presentata al cliente da un consumatore finale."
+>>>>>>> upstream/18.0
 =======
 "risultato. My Company (Chicago) non può in nessun caso, essere richiesto dal "
 "cliente di apparire come terza parte nel contesto di qualsiasi richiesta di "
@@ -33271,6 +33768,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Odoo opens a PDF preview by default. If you (Enterprise users only) want to print instantly,\n"
 "                                        install the IoT App on a computer that is on the same local network as the\n"
 "                                        barcode operator and configure the routing of the reports.\n"
@@ -33280,6 +33778,8 @@ msgstr ""
 "                                       installa l'app IoT su un computer che ha la stessa rete locale\n"
 "                                        dell'operatore di codice a barre e configura il percorso dei resoconti.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -33450,6 +33950,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -33760,8 +34263,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Indirizzo opzionale a cui devono essere consegnate le merci, specificamente "
 "utilizzato per la consegna"
+=======
+"Indirizzo opzionale a cui devono essere consegnate le merci, utilizzato "
+"specificamente per l'assegnazione."
+>>>>>>> upstream/18.0
 =======
 "Indirizzo opzionale a cui devono essere consegnate le merci, utilizzato "
 "specificamente per l'assegnazione."
@@ -34129,8 +34637,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "My Company (Chicago) will be authorized to suspend any provision of services"
 " without prior warning in the event of late payment."
+=======
+"My Company (Chicago) will be authorized to suspend any provision of services "
+"without prior warning in the event of late payment."
+>>>>>>> upstream/18.0
 =======
 "My Company (Chicago) will be authorized to suspend any provision of services "
 "without prior warning in the event of late payment."
@@ -34402,8 +34915,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "sarà autorizzato a sospendere qualsiasi fornitura di servizi senza preavviso"
 " in caso di ritardo nel pagamento."
+=======
+"sarà autorizzato a sospendere qualsiasi fornitura di servizi senza preavviso "
+"in caso di ritardo nel pagamento."
+>>>>>>> upstream/18.0
 =======
 "sarà autorizzato a sospendere qualsiasi fornitura di servizi senza preavviso "
 "in caso di ritardo nel pagamento."
@@ -34753,7 +35271,11 @@ msgid "Pack"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Collo"
+=======
+msgstr "Confezione"
+>>>>>>> upstream/18.0
 =======
 msgstr "Confezione"
 >>>>>>> upstream/18.0
@@ -34985,7 +35507,11 @@ msgid "Pack Type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tipologia imballaggio"
+=======
+msgstr "Tipo di confezione"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tipo di confezione"
 >>>>>>> upstream/18.0
@@ -35227,7 +35753,11 @@ msgid "Package Barcode (PDF)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Codice a barre del pacchetto (PDF)"
+=======
+msgstr "Codice a barre del collo (PDF)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Codice a barre del collo (PDF)"
 >>>>>>> upstream/18.0
@@ -35444,7 +35974,11 @@ msgid "Package Barcode (ZPL)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Codice a barre del pacchetto (ZPL)"
+=======
+msgstr "Codice a barre del collo (ZPL)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Codice a barre del collo (ZPL)"
 >>>>>>> upstream/18.0
@@ -35777,12 +36311,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Packages are usually created via transfers (during pack operation) and can contain different products.\n"
 "                Once created, the whole package can be moved at once, or products can be unpacked and moved as single units again."
 msgstr ""
 "I pacchetti sono di solito creati tramite trasferimenti (durante l'operazione di imballaggio) e possono contenere diversi prodotti.\n"
 "Una volta creato, l'intero pacchetto può essere spostato in una volta sola, oppure i prodotti possono essere disimballati e spostati di nuovo come unità singole."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -35949,6 +36486,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -36296,7 +36836,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                Il pacco deve essere inviato al seguente indirizzo:"
+=======
+"                                Il pacco deve essere inviato al seguente "
+"indirizzo:"
+>>>>>>> upstream/18.0
 =======
 "                                Il pacco deve essere inviato al seguente "
 "indirizzo:"
@@ -36598,8 +37143,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Premi il pulsante \"Nuovo\" per indicare la quantità di un prodotto in stock"
 " o importa quantità da un foglio di calcolo tramite il menu delle azioni"
+=======
+"Premi il pulsante \"Nuovo\" per indicare la quantità di un prodotto in stock "
+"o importa quantità da un foglio di calcolo tramite il menu delle azioni"
+>>>>>>> upstream/18.0
 =======
 "Premi il pulsante \"Nuovo\" per indicare la quantità di un prodotto in stock "
 "o importa quantità da un foglio di calcolo tramite il menu delle azioni"
@@ -36928,7 +37478,11 @@ msgid "Process at this date to be on time"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Trattare a questa data per essere in tempo"
+=======
+msgstr "Data di elaborazione per essere puntuali"
+>>>>>>> upstream/18.0
 =======
 msgstr "Data di elaborazione per essere puntuali"
 >>>>>>> upstream/18.0
@@ -37230,7 +37784,11 @@ msgid "Procurement: run scheduler"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Approvvigionamento: esegui schedulatore"
+=======
+msgstr "Approvvigionamento: esegui pianificatore"
+>>>>>>> upstream/18.0
 =======
 msgstr "Approvvigionamento: esegui pianificatore"
 >>>>>>> upstream/18.0
@@ -37807,7 +38365,11 @@ msgid "Product Tmpl"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Modello del prodotto"
+=======
+msgstr "Mod. prodotto"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mod. prodotto"
 >>>>>>> upstream/18.0
@@ -38060,8 +38622,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Prodotto contenuto nel numero di lotto/serie. Se è già stato movimentato non"
 " è più possibile cambiarlo."
+=======
+"Prodotto contenuto nel numero di lotto/serie. Se è già stato movimentato non "
+"è più possibile cambiarlo."
+>>>>>>> upstream/18.0
 =======
 "Prodotto contenuto nel numero di lotto/serie. Se è già stato movimentato non "
 "è più possibile cambiarlo."
@@ -38457,7 +39024,11 @@ msgid "Put in Pack"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Crea collo"
+=======
+msgstr "Confeziona"
+>>>>>>> upstream/18.0
 =======
 msgstr "Confeziona"
 >>>>>>> upstream/18.0
@@ -38675,7 +39246,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Aggiunta dei prodotti a colli (es. pacchi, scatole) e relativo tracciamento"
+=======
+"Aggiunta dei prodotti a confezioni (es. pacchi, scatole) e relativo "
+"tracciamento"
+>>>>>>> upstream/18.0
 =======
 "Aggiunta dei prodotti a confezioni (es. pacchi, scatole) e relativo "
 "tracciamento"
@@ -39143,6 +39719,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "In a context with a single Stock Location, this includes goods arriving to this Location, or any of its children.\n"
 "In a context with a single Warehouse, this includes goods arriving to the Stock Location of this Warehouse, or any of its children.\n"
 "Otherwise, this includes goods arriving to any Stock Location with 'internal' type."
@@ -39152,6 +39729,8 @@ msgstr ""
 "In un contesto di singolo magazzino, include la merce che arriva nell'ubicazione principale delle giacenze di magazzino o in una delle secondarie.\n"
 "Diversamente, include la merce che arriva in qualsiasi ubicazione di giacenza di tipo “interno”."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -39323,6 +39902,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -39486,6 +40068,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "In a context with a single Stock Location, this includes goods leaving this Location, or any of its children.\n"
 "In a context with a single Warehouse, this includes goods leaving the Stock Location of this Warehouse, or any of its children.\n"
 "Otherwise, this includes goods leaving any Stock Location with 'internal' type."
@@ -39495,6 +40078,8 @@ msgstr ""
 "In un contesto di singolo magazzino, include la merce che esce dall'ubicazione principale delle giacenze di magazzino o da una delle secondarie.\n"
 "Diversamente, include la merce che esce da qualsiasi ubicazione di giacenza di tipo “interno”."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -39666,6 +40251,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -39831,8 +40419,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Quantità di prodotti in questo campo, nell'unità di misura predefinita del "
 "prodotto"
+=======
+"Quantità di prodotti in questo quantitativo, nell'unità di misura "
+"predefinita del prodotto"
+>>>>>>> upstream/18.0
 =======
 "Quantità di prodotti in questo quantitativo, nell'unità di misura "
 "predefinita del prodotto"
@@ -40105,7 +40698,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Quantità di prodotti riservati in questo campo, nell'unità di misura "
+=======
+"Quantità di prodotti prenotati in questo quantitativo, nell'unità di misura "
+>>>>>>> upstream/18.0
 =======
 "Quantità di prodotti prenotati in questo quantitativo, nell'unità di misura "
 >>>>>>> upstream/18.0
@@ -40365,8 +40962,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "devono essere eliminati in modo manuale, chiedere a un supervisore "
 "magazzino."
+=======
+"devono essere eliminati in modo manuale, chiedere a un supervisore magazzino."
+>>>>>>> upstream/18.0
 =======
 "devono essere eliminati in modo manuale, chiedere a un supervisore magazzino."
 >>>>>>> upstream/18.0
@@ -40584,7 +41185,11 @@ msgid "Quants cannot be created for consumables or services."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Non si possono creare quantitativi per prodotti di consumo o servizi."
+=======
+msgstr "Impossibile creare quantitativi per consumabili o servizi."
+>>>>>>> upstream/18.0
 =======
 msgstr "Impossibile creare quantitativi per consumabili o servizi."
 >>>>>>> upstream/18.0
@@ -40843,7 +41448,11 @@ msgid "Receipt"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ricevuta"
+=======
+msgstr "Ricezione"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ricezione"
 >>>>>>> upstream/18.0
@@ -41138,11 +41747,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        locations management traceability, quality control, etc."
 msgstr ""
 "Riduci l'esaurimento delle scorte grazie ad avvisi, app codice a barre, proposte di rifornimento,\n"
 "                        gestione tracciabilità ubicazioni, controlli qualità, ecc."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -41306,6 +41918,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -41615,6 +42230,7 @@ msgstr "Errore stampa rapporto"
 #: model:ir.ui.menu,name:stock.menu_warehouse_report
 #: model_terms:ir.ui.view,arch_db:stock.stock_picking_type_kanban
 msgid "Reporting"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -42164,6 +42780,9 @@ msgstr "Rendicontazione"
 =======
 msgstr "Rendicontazione"
 >>>>>>> upstream/18.0
+=======
+msgstr "Rendicontazione"
+>>>>>>> upstream/18.0
 
 #. module: stock
 #: model:ir.actions.act_window,name:stock.action_stock_request_count
@@ -42206,7 +42825,11 @@ msgid "Reserve"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Di riserva"
+=======
+msgstr "Prenota"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prenota"
 >>>>>>> upstream/18.0
@@ -42299,12 +42922,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Reserve Only Full Packagings: will not reserve partial packagings. If customer orders 2 pallets of 1000 units each and you only have 1600 in stock, then only 1000 will be reserved\n"
 "Reserve Partial Packagings: allow reserving partial packagings. If customer orders 2 pallets of 1000 units each and you only have 1600 in stock, then 1600 will be reserved"
 msgstr ""
 "Prenota solo colli interi: i colli parziali non verranno prenotati. Se il cliente ordina 2 palette da 1000 unità ognuna e ne hai solo 1600 in stock, verranno prenotate solo 1000 unità.\n"
 "Prenota colli parziali: permette di prenotare colli parziali. Se il cliente ordina 2 palette da 1000 unità ognuna e ne hai solo 1600 in stock, verranno prenotate 1600 unità."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -42474,6 +43100,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -42769,12 +43398,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Reusable boxes are used for batch picking and emptied afterwards to be reused. In the barcode application, scanning a reusable box will add the products in this box.\n"
 "        Disposable boxes aren't reused, when scanning a disposable box in the barcode application, the contained products are added to the transfer."
 msgstr ""
 "Le scatole riutilizzabili sono usate per i prelievi raggruppati e vengono successivamente svuotate per il riutilizzo. Nell'applicazione codice a barre, scansionare una scatola di questo tipo aggiunge i prodotti contenuti nella scatola.\n"
 "        Le scatole monouso non vengono riutilizzate Quando viene scansionata una scatola di questo tipo nell'applicazione codice a barre, i prodotti contenuti vengono aggiunti al trasferimento."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -42944,6 +43576,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -43162,8 +43797,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Routes will be created for these resupply warehouses and you can select them"
 " on products and product categories"
+=======
+"Routes will be created for these resupply warehouses and you can select them "
+"on products and product categories"
+>>>>>>> upstream/18.0
 =======
 "Routes will be created for these resupply warehouses and you can select them "
 "on products and product categories"
@@ -43438,8 +44078,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Rule %(rule)s belongs to %(rule_company)s while the route belongs to "
 "%(route_company)s."
+=======
+"Rule %(rule)s belongs to %(rule_company)s while the route belongs to %"
+"(route_company)s."
+>>>>>>> upstream/18.0
 =======
 "Rule %(rule)s belongs to %(rule_company)s while the route belongs to %"
 "(route_company)s."
@@ -43824,7 +44469,11 @@ msgid "Scrap"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Scarti"
+=======
+msgstr "Scarto"
+>>>>>>> upstream/18.0
 =======
 msgstr "Scarto"
 >>>>>>> upstream/18.0
@@ -44085,11 +44734,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                end up in a scrap location that can be used for reporting purpose."
 msgstr ""
 "Scartare un prodotto lo rimuove dalla giacenza. Andrà in una\n"
 "                ubicazione di scarto utilizzabile per fini di rendicontazione."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -44252,6 +44904,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -44463,8 +45118,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "con il messaggio e viene bloccato il flusso. Scrivere il messaggio nel campo"
 " successivo."
+=======
+"con il messaggio e viene bloccato il flusso. Scrivere il messaggio nel campo "
+"successivo."
+>>>>>>> upstream/18.0
 =======
 "con il messaggio e viene bloccato il flusso. Scrivere il messaggio nel campo "
 "successivo."
@@ -44745,10 +45405,16 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Send an automatic confirmation SMS Text Message when Delivery Orders are "
 "done"
 msgstr ""
 "Invio di un messaggio SMS di conferma automatico a buono di consegna "
+=======
+"Send an automatic confirmation SMS Text Message when Delivery Orders are done"
+msgstr ""
+"Invio di un messaggio SMS di conferma automatico a ordine di consegna "
+>>>>>>> upstream/18.0
 =======
 "Send an automatic confirmation SMS Text Message when Delivery Orders are done"
 msgstr ""
@@ -45073,7 +45739,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Invio di una e-mail di conferma automatica a buono di consegna completato"
+=======
+"Invio di una e-mail di conferma automatica a ordine di consegna completato"
+>>>>>>> upstream/18.0
 =======
 "Invio di una e-mail di conferma automatica a ordine di consegna completato"
 >>>>>>> upstream/18.0
@@ -45302,8 +45972,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "E-mail inviata ai clienti una volta che gli ordini sono stati consegnati, se"
 " l'impostazione è attiva"
+=======
+"E-mail inviata ai clienti una volta che gli ordini sono stati consegnati, se "
+"l'impostazione è attiva"
+>>>>>>> upstream/18.0
 =======
 "E-mail inviata ai clienti una volta che gli ordini sono stati consegnati, se "
 "l'impostazione è attiva"
@@ -45613,12 +46288,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Serial number (%(serial_number)s) already exists in location(s): "
 "%(location_list)s. Please correct the serial number encoded."
 msgstr ""
 "Il numero di serie (%(serial_number)s) esiste già nella posizione: "
 "%(location_list)s. Correggi il numero di serie codificato."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -45780,6 +46458,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -45943,12 +46624,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Serial number (%(serial_number)s) is not located in %(source_location)s, but is located in location(s): %(other_locations)s.\n"
 "\n"
 "Please correct this to prevent inconsistent data."
 msgstr ""
 "Il numero seriale (%(serial_number)s) non è localizzato in %(source_location)s ma in: %(other_locations)s.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -46112,6 +46796,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -46277,6 +46964,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Serial number (%(serial_number)s) is not located in %(source_location)s, but is located in location(s): %(other_locations)s.\n"
 "\n"
 "Source location for this move will be changed to %(recommended_location)s"
@@ -46285,6 +46973,8 @@ msgstr ""
 "\n"
 "L'ubicazione di origine per questo movimento verrà modificata in %(recommended_location)s"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -46451,6 +47141,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -46634,6 +47327,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Set a specific removal strategy that will be used regardless of the source location for this product category.\n"
 "\n"
 "FIFO: products/lots that were stocked first will be moved out first.\n"
@@ -46650,6 +47344,8 @@ msgstr ""
 "FEFO:  prodotti/lotti con la data di rimozione più vicina saranno spostati per primi (la disponibilità di questo metodo dipende dall'impostazione \"Date di scadenza\").\n"
 "Minimo di colli: FIFO ma con il minor numero di colli possibile quando ci sono vari colli che contengono lo stesso prodotto."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -46834,6 +47530,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -47069,8 +47768,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Shipping connectors allow to compute accurate shipping costs, print shipping"
 " labels and request carrier picking at your warehouse to ship to the "
+=======
+"Shipping connectors allow to compute accurate shipping costs, print shipping "
+"labels and request carrier picking at your warehouse to ship to the "
+>>>>>>> upstream/18.0
 =======
 "Shipping connectors allow to compute accurate shipping costs, print shipping "
 "labels and request carrier picking at your warehouse to ship to the "
@@ -47371,7 +48075,11 @@ msgid "Show Check Availability"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Mostra «Controlla disponibilità»"
+=======
+msgstr "Mostra controlla disponibilità"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mostra controlla disponibilità"
 >>>>>>> upstream/18.0
@@ -47601,7 +48309,11 @@ msgid "Show Lots M2O"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Mostrare i lotti M2O"
+=======
+msgstr "Mostra molti a uno lotti"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mostra molti a uno lotti"
 >>>>>>> upstream/18.0
@@ -47819,7 +48531,11 @@ msgid "Show Lots Text"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Mostra testo dei lotti"
+=======
+msgstr "Mostra testo lotti"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mostra testo lotti"
 >>>>>>> upstream/18.0
@@ -48336,7 +49052,11 @@ msgid "Stock Quant"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Quantitativo in magazzino"
+=======
+msgstr "Quantitativo in giacenza"
+>>>>>>> upstream/18.0
 =======
 msgstr "Quantitativo in giacenza"
 >>>>>>> upstream/18.0
@@ -48704,8 +49424,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Store and retrieve information regarding every Lot/Serial Number (condition,"
 " product info, ...)."
+=======
+"Store and retrieve information regarding every Lot/Serial Number (condition, "
+"product info, ...)."
+>>>>>>> upstream/18.0
 =======
 "Store and retrieve information regarding every Lot/Serial Number (condition, "
 "product info, ...)."
@@ -49003,7 +49728,11 @@ msgid "Supplied Warehouse"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Magazzino approvvigionato"
+=======
+msgstr "Magazzino rifornito"
+>>>>>>> upstream/18.0
 =======
 msgstr "Magazzino rifornito"
 >>>>>>> upstream/18.0
@@ -49221,7 +49950,11 @@ msgid "Supply Method"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Metodo di approvvigionamento"
+=======
+msgstr "Metodo di fornitura"
+>>>>>>> upstream/18.0
 =======
 msgstr "Metodo di fornitura"
 >>>>>>> upstream/18.0
@@ -49439,7 +50172,11 @@ msgid "Supplying Warehouse"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Magazzino di approvvigionamento"
+=======
+msgstr "Magazzino di fornitura"
+>>>>>>> upstream/18.0
 =======
 msgstr "Magazzino di fornitura"
 >>>>>>> upstream/18.0
@@ -49671,6 +50408,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Take From Stock: the products will be taken from the available stock of the source location.\n"
 "Trigger Another Rule: the system will try to find a stock rule to bring the products in the source location. The available stock will be ignored.\n"
 "Take From Stock, if Unavailable, Trigger Another Rule: the products will be taken from the available stock of the source location.If there is no stock available, the system will try to find a  rule to bring the products in the source location."
@@ -49679,6 +50417,8 @@ msgstr ""
 "Attiva altra regola: il sistema prova a cercare un'altra regola di giacenza per portare i prodotti nell'ubicazione di origine. La giacenza disponibile viene ignorata.\n"
 "Preleva da giacenza. Se non disponibile, attiva altra regola: i prodotti vengono prelevati dalla giacenza disponibile nell'ubicazione di origine. Se non c'è disponibilità, il sistema prova a cercare una regola per portare i prodotti nell'ubicazione stessa."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -49853,6 +50593,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -50047,8 +50790,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "L'ubicazione %s è richiesta dall'app Magazzino e non può essere eliminata ma"
 " puoi archiviarla."
+=======
+"L'ubicazione %s è richiesta dall'app Magazzino e non può essere eliminata ma "
+"puoi archiviarla."
+>>>>>>> upstream/18.0
 =======
 "L'ubicazione %s è richiesta dall'app Magazzino e non può essere eliminata ma "
 "puoi archiviarla."
@@ -50318,8 +51066,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The 'Manual Operation' value will create a stock move after the current one."
 " With 'Automatic No Step Added', the location is replaced in the original "
+=======
+"The 'Manual Operation' value will create a stock move after the current one. "
+"With 'Automatic No Step Added', the location is replaced in the original "
+>>>>>>> upstream/18.0
 =======
 "The 'Manual Operation' value will create a stock move after the current one. "
 "With 'Automatic No Step Added', the location is replaced in the original "
@@ -50611,6 +51364,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The Serial Number (%(serial_number)s) is already used in location(s): %(location_list)s.\n"
 "\n"
 "Is this expected? For example, this can occur if a delivery operation is validated before its corresponding receipt operation is validated. In this case the issue will be solved automatically once all steps are completed. Otherwise, the serial number should be corrected to prevent inconsistent data."
@@ -50619,6 +51373,8 @@ msgstr ""
 "\n"
 "È previsto? Ad esempio, questo può accadere se un'operazione di consegna viene convalidata prima che la sua corrispondente operazione di ricezione sia convalidata. In questo caso, il problema si risolve automaticamente una volta che tutti i passi sono stati completati. Altrimenti, il numero di serie dovrebbe essere corretto per evitare dati incoerenti."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -50792,6 +51548,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -50960,8 +51719,12 @@ msgid "The barcode for a location must be unique per company!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Il codice a barre di un'ubicazione deve essere unico per ogni azienda!"
+=======
+msgstr "Il codice a barre di un'ubicazione deve essere unico per ogni azienda!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Il codice a barre di un'ubicazione deve essere unico per ogni azienda!"
 >>>>>>> upstream/18.0
@@ -51192,12 +51955,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The combination of lot/serial number and product must be unique within a company including when no company is defined.\n"
 "The following combinations contain duplicates:\n"
 "%(error_lines)s"
 msgstr ""
 "La combinazione lotto/numero seriale e prodotto deve essere univoca all'interno di un'azienda anche quando nessuna azienda è stata definita.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -51361,6 +52127,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -51590,8 +52359,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "La frequenza d'inventario (Giorni) per un'ubicazione non deve essere "
 "negativa"
+=======
+"La frequenza d'inventario (Giorni) per un'ubicazione non deve essere negativa"
+>>>>>>> upstream/18.0
 =======
 "La frequenza d'inventario (Giorni) per un'ubicazione non deve essere negativa"
 >>>>>>> upstream/18.0
@@ -51822,8 +52595,12 @@ msgid "The number of Serial Numbers to generate must be greater than zero."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Il totale dei numeri seriali da generare deve essere maggiore di zero."
+=======
+msgstr "Il totale dei numeri seriali da generare deve essere maggiore di zero."
+>>>>>>> upstream/18.0
 =======
 msgstr "Il totale dei numeri seriali da generare deve essere maggiore di zero."
 >>>>>>> upstream/18.0
@@ -52044,8 +52821,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "parte di una catena di operazioni che devono raggiungere l'ubicazione "
 "finale."
+=======
+"parte di una catena di operazioni che devono raggiungere l'ubicazione finale."
+>>>>>>> upstream/18.0
 =======
 "parte di una catena di operazioni che devono raggiungere l'ubicazione finale."
 >>>>>>> upstream/18.0
@@ -52268,6 +53049,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            operation a specific type which will alter its views accordingly.\n"
 "            On the operation type you could e.g. specify if packing is needed by default,\n"
 "            if it should show the customer."
@@ -52276,6 +53058,8 @@ msgstr ""
 "            di magazzino una tipologia specifica che cambierà di conseguenza le relative viste.\n"
 "            Nel tipo di operazione puoi specificare ad esempio se l'imballaggio è necessario in modo predefinito oppure\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -52443,6 +53227,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -52611,7 +53398,11 @@ msgid "The package containing this quant"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Il collo che contiene questo quantitativo"
+=======
+msgstr "Collo che contiene il quantitativo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Collo che contiene il quantitativo"
 >>>>>>> upstream/18.0
@@ -52840,8 +53631,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "La quantità di approvvigionamento verrà arrotondata ad un multiplo del campo"
 " quantità. Se pari a 0, non viene arrotondata."
+=======
+"La quantità di approvvigionamento verrà arrotondata ad un multiplo del campo "
+"quantità. Se pari a 0, non viene arrotondata."
+>>>>>>> upstream/18.0
 =======
 "La quantità di approvvigionamento verrà arrotondata ad un multiplo del campo "
 "quantità. Se pari a 0, non viene arrotondata."
@@ -53122,11 +53918,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    You may not assign them a package without moving them to a common location."
 msgstr ""
 "Le quantità selezionate non appartengono tutte alla stessa ubicazione.\n"
 "                    Non è possibile assegnare loro un collo senza spostarle in un'ubicazione comune."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -53289,6 +54088,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -53458,8 +54260,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Modifica la quantità completata o la precisione di arrotondamento dell'unità"
 " di misura."
+=======
+"Modifica la quantità completata o la precisione di arrotondamento dell'unità "
+"di misura."
+>>>>>>> upstream/18.0
 =======
 "Modifica la quantità completata o la precisione di arrotondamento dell'unità "
 "di misura."
@@ -53782,7 +54589,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "L'ubicazione di giacenza usata come destinazione per l'invio di merce al "
+=======
+"L'ubicazione di giacenza usata come destinazione per l'invio di merci al "
+>>>>>>> upstream/18.0
 =======
 "L'ubicazione di giacenza usata come destinazione per l'invio di merci al "
 >>>>>>> upstream/18.0
@@ -54003,7 +54814,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "L'ubicazione di giacenza usata come origine per la ricezione di merce dal "
+=======
+"L'ubicazione di giacenza usata come origine per la ricezione di merci dal "
+>>>>>>> upstream/18.0
 =======
 "L'ubicazione di giacenza usata come origine per la ricezione di merci dal "
 >>>>>>> upstream/18.0
@@ -54252,8 +55067,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Non c'è nulla di idoneo da inserire in una collo oppure non ci sono quantità"
 " da inserire o tutti i prodotti sono già stati inseriti."
+=======
+"Non c'è nulla di idoneo da inserire in una collo oppure non ci sono quantità "
+"da inserire o tutti i prodotti sono già stati inseriti."
+>>>>>>> upstream/18.0
 =======
 "Non c'è nulla di idoneo da inserire in una collo oppure non ci sono quantità "
 "da inserire o tutti i prodotti sono già stati inseriti."
@@ -54533,12 +55353,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This adds a dropshipping route to apply on products in order to request your"
 " vendors to deliver to your customers. A product to dropship will generate a"
 " purchase request for quotation once the sales order confirmed. This is a "
 "on-demand flow. The requested delivery address will be the customer delivery"
 " address and not your warehouse."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -54700,6 +55523,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -54872,8 +55698,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "L'analisi offre una panoramica del livello attuale delle scorte dei "
 "prodotti."
+=======
+"L'analisi offre una panoramica del livello attuale delle scorte dei prodotti."
+>>>>>>> upstream/18.0
 =======
 "L'analisi offre una panoramica del livello attuale delle scorte dei prodotti."
 >>>>>>> upstream/18.0
@@ -55111,8 +55941,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "manualmente. Tuttavia, è possibile modificarla in seguito oppure è possibile"
 " che i percorsi ne utilizzino un'altra per impostazione predefinita."
+=======
+"manualmente. Tuttavia, è possibile modificarla in seguito oppure è possibile "
+"che i percorsi ne utilizzino un'altra per impostazione predefinita."
+>>>>>>> upstream/18.0
 =======
 "manualmente. Tuttavia, è possibile modificarla in seguito oppure è possibile "
 "che i percorsi ne utilizzino un'altra per impostazione predefinita."
@@ -55382,8 +56217,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This is the default source location when this operation is manually created."
 " However, it is possible to change it afterwards or that the routes use "
+=======
+"This is the default source location when this operation is manually created. "
+"However, it is possible to change it afterwards or that the routes use "
+>>>>>>> upstream/18.0
 =======
 "This is the default source location when this operation is manually created. "
 "However, it is possible to change it afterwards or that the routes use "
@@ -55658,7 +56498,11 @@ msgid "This is the owner of the quant"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Questo è il proprietario del quantitativo"
+=======
+msgstr "Proprietario del quantitativo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Proprietario del quantitativo"
 >>>>>>> upstream/18.0
@@ -55881,8 +56725,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "dei movimenti assegnati influisce sulla prenotazione del prodotto e dovrebbe"
 " essere eseguita con attenzione."
+=======
+"dei movimenti assegnati influisce sulla prenotazione del prodotto e dovrebbe "
+"essere eseguita con attenzione."
+>>>>>>> upstream/18.0
 =======
 "dei movimenti assegnati influisce sulla prenotazione del prodotto e dovrebbe "
 "essere eseguita con attenzione."
@@ -56183,6 +57032,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                operations on a specific product. You can filter on the product\n"
 "                to see all the past or future movements for the product."
 msgstr ""
@@ -56190,6 +57040,8 @@ msgstr ""
 "                di magazzino per un determinato prodotto. Si può filtrare sul prodotto\n"
 "                per visualizzare tutti i movimenti passati o futuri del prodotto. "
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -56354,6 +57206,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -56516,12 +57371,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This menu gives you the full traceability of inventory operations on a specific product.\n"
 "                    You can filter on the product to see all the past movements for the product."
 msgstr ""
 "Questo menu offre una completa tracciabilità delle operazioni di magazzino per un determinato prodotto.\n"
 "Si può filtrare sul prodotto per visualizzare tutti i movimenti passati del prodotto. "
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -56687,6 +57545,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -56863,8 +57724,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This note is added to receipt orders (e.g. where to store the product in the"
 " warehouse)."
+=======
+"This note is added to receipt orders (e.g. where to store the product in the "
+"warehouse)."
+>>>>>>> upstream/18.0
 =======
 "This note is added to receipt orders (e.g. where to store the product in the "
 "warehouse)."
@@ -57140,6 +58006,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "better solution could be to archive the product and create a new one "
 "instead."
 msgstr ""
@@ -57148,6 +58015,8 @@ msgstr ""
 "incoerenze. Archiviare il prodotto e crearne uno nuovo rappresenta invece "
 "una soluzione migliore."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -57310,6 +58179,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -57483,8 +58355,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This product's company cannot be changed as long as there are stock moves of"
 " it belonging to another company."
+=======
+"This product's company cannot be changed as long as there are stock moves of "
+"it belonging to another company."
+>>>>>>> upstream/18.0
 =======
 "This product's company cannot be changed as long as there are stock moves of "
 "it belonging to another company."
@@ -57771,8 +58648,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Questo report non può essere utilizzato allo stesso tempo %s per fatti e non"
 " fatti"
+=======
+"Questo report non può essere utilizzato allo stesso tempo %s per fatti e non "
+"fatti"
+>>>>>>> upstream/18.0
 =======
 "Questo report non può essere utilizzato allo stesso tempo %s per fatti e non "
 "fatti"
@@ -58045,12 +58927,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "reference values or assign the existing reference sequence to this operation"
 " type."
 msgstr ""
 "Questo prefisso di sequenza è già in uso per un altro tipo di operazione. Ti"
 " consigliamo di scegliere un prefisso unico per evitare problemi e/o valori "
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -58212,6 +59097,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -58411,11 +59299,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Those products you added are tracked but lots/serials were not defined. Once applied those can't be changed.<br/>\n"
 "                    Apply anyway?"
 msgstr ""
 "I prodotti che hai aggiunto sono tracciati ma i lotti/seriali non sono stati definiti. Una volta applicati non possono essere modificati.<br/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -58578,6 +59469,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -58754,7 +59648,12 @@ msgid "Tip: Speed up inventory operations with barcodes"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Consiglio: velocizza le operazioni di inventario con i codici a barre"
+=======
+msgstr ""
+"Suggerimento: velocizza le operazioni di inventario con i codici a barre"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "Suggerimento: velocizza le operazioni di inventario con i codici a barre"
@@ -59196,8 +60095,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "shipping weight specified will default to their products' total weight. This"
 " is the weight used to compute the cost of the shipping."
+=======
+"shipping weight specified will default to their products' total weight. This "
+"is the weight used to compute the cost of the shipping."
+>>>>>>> upstream/18.0
 =======
 "shipping weight specified will default to their products' total weight. This "
 "is the weight used to compute the cost of the shipping."
@@ -59505,12 +60409,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Track following dates on lots & serial numbers: best before, removal, end of life, alert. \n"
 " Such dates are set automatically at lot/serial number creation based on values set on the product (in days)."
 msgstr ""
 "È possibile tracciare le seguenti date tramite i numeri di lotto e di serie: data di validità, data di ritiro, data di scadenza e data di avviso.\n"
 "Queste date vengono definite automaticamente quando si crea il numero di lotto/serie in base ai valori impostati per ciascun prodotto (in giorni)."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -59676,6 +60583,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -59785,6 +60695,7 @@ msgstr ""
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -59949,6 +60860,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Track following dates on lots & serial numbers: best before, removal, end of "
 "life, alert. Such dates are set automatically at lot/serial number creation "
 "based on values set on the product (in days)."
@@ -60009,6 +60922,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -60182,7 +61098,11 @@ msgid "Tracked Products in Inventory Adjustment"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Prodotti tracciabili nella rettifica di inventario"
+=======
+msgstr "Prodotti tracciati nella rettifica di inventario"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prodotti tracciati nella rettifica di inventario"
 >>>>>>> upstream/18.0
@@ -60444,7 +61364,11 @@ msgid "Transfers %s: Please add some items to move."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Trasferimento %s: aggiungere alcuni articoli da movimentare."
+=======
+msgstr "Trasferimenti %s: aggiungere alcuni articoli da movimentare."
+>>>>>>> upstream/18.0
 =======
 msgstr "Trasferimenti %s: aggiungere alcuni articoli da movimentare."
 >>>>>>> upstream/18.0
@@ -60745,10 +61669,13 @@ msgstr "Scrivi un messaggio..."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:stock.view_pickingtype_filter
 msgid "Type of Operation"
 msgstr "Tipo di operazione"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -60909,6 +61836,9 @@ msgstr "Operazione di tipo"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -61077,6 +62007,10 @@ msgstr "Tipo di attività eccezione sul record."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 >>>>>>> upstream/18.0
@@ -61298,6 +62232,10 @@ msgstr "Connettore UPS"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 >>>>>>> upstream/18.0
@@ -61526,12 +62464,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Unavailable Serial numbers. Please correct the serial numbers encoded: "
 "%(serial_numbers_to_locations)s"
 msgstr ""
 "Numeri seriali non disponibili. Correggi i numeri di serie codificato: "
 "%(serial_numbers_to_locations)s"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -61693,6 +62634,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -61924,7 +62868,11 @@ msgid "Units of Measures"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Unità di misure"
+=======
+msgstr "Unità di misura"
+>>>>>>> upstream/18.0
 =======
 msgstr "Unità di misura"
 >>>>>>> upstream/18.0
@@ -62147,7 +63095,11 @@ msgid "Unknown Pack"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Collo sconosciuto"
+=======
+msgstr "Confezione sconosciuta"
+>>>>>>> upstream/18.0
 =======
 msgstr "Confezione sconosciuta"
 >>>>>>> upstream/18.0
@@ -62364,12 +63316,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Unless previously specified by the source document, this will be the default"
 " picking policy for this operation type."
 msgstr ""
 "A meno che non sia stato specificato in precedenza dal documento di origine,"
 " questa sarà la politica di prelievo predefinita per questo tipo di "
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -62531,6 +63486,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -62694,7 +63652,11 @@ msgid "Unpack"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Spacchettare"
+=======
+msgstr "Disimballa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Disimballa"
 >>>>>>> upstream/18.0
@@ -62954,7 +63916,11 @@ msgid "Update Product Quantity"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Aggiornare quantità prodotto"
+=======
+msgstr "Aggiornamento quantità prodotto"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aggiornamento quantità prodotto"
 >>>>>>> upstream/18.0
@@ -63189,6 +64155,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Updating the location of this transfer will result in unreservation of the currently assigned items. An attempt to reserve items at the new location will be made and the link with preceding transfers will be discarded.\n"
 "\n"
 "To avoid this, please discard the source location change before saving."
@@ -63197,6 +64164,8 @@ msgstr ""
 "\n"
 "Per evitarlo, annulla la modifica dell'ubicazione di origine prima di salvare."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -63367,6 +64336,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -63592,7 +64564,11 @@ msgid "Validate"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Convalida"
+=======
+msgstr "Valida"
+>>>>>>> upstream/18.0
 =======
 msgstr "Valida"
 >>>>>>> upstream/18.0
@@ -63848,7 +64824,11 @@ msgid "View Diagram"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Visualizza schema"
+=======
+msgstr "Vedi diagramma"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vedi diagramma"
 >>>>>>> upstream/18.0
@@ -64371,8 +65351,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Se selezionato, il percorso sarà selezionabile sulla confezione del "
 "prodotto."
+=======
+"Se selezionato, il percorso sarà selezionabile sulla confezione del prodotto."
+>>>>>>> upstream/18.0
 =======
 "Se selezionato, il percorso sarà selezionabile sulla confezione del prodotto."
 >>>>>>> upstream/18.0
@@ -64596,9 +65580,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "When products are needed in <b>%(destination)s</b>, <br> "
 "<b>%(operation)s</b> are created from <b>%(source_location)s</b> to fulfill "
 "the need. %(suffix)s"
+=======
+"When products are needed in <b>%(destination)s</b>, <br> <b>%(operation)s</"
+"b> are created from <b>%(source_location)s</b> to fulfill the need. %"
+"(suffix)s"
+>>>>>>> upstream/18.0
 =======
 "When products are needed in <b>%(destination)s</b>, <br> <b>%(operation)s</"
 "b> are created from <b>%(source_location)s</b> to fulfill the need. %"
@@ -64926,8 +65916,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "When products arrive in <b>%(source_location)s</b>, <br> "
 "<b>%(operation)s</b> are created to send them to <b>%(destination)s</b>."
+=======
+"When products arrive in <b>%(source_location)s</b>, <br> <b>%(operation)s</"
+"b> are created to send them to <b>%(destination)s</b>."
+>>>>>>> upstream/18.0
 =======
 "When products arrive in <b>%(source_location)s</b>, <br> <b>%(operation)s</"
 "b> are created to send them to <b>%(destination)s</b>."
@@ -65212,8 +66207,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Un prelievo non completato consente di variare la richiesta iniziale. Quando"
 " viene completato è consentito modificare le quantità realizzate."
+=======
+"Un prelievo non completato consente di variare la richiesta iniziale. Quando "
+"viene completato è consentito modificare le quantità realizzate."
+>>>>>>> upstream/18.0
 =======
 "Un prelievo non completato consente di variare la richiesta iniziale. Quando "
 "viene completato è consentito modificare le quantità realizzate."
@@ -65483,9 +66483,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "When the virtual stock goes below the Min Quantity specified for this field,"
 " Odoo generates a procurement to bring the forecasted quantity above of this"
 " Min Quantity."
+=======
+"When the virtual stock goes below the Min Quantity specified for this field, "
+"Odoo generates a procurement to bring the forecasted quantity above of this "
+"Min Quantity."
+>>>>>>> upstream/18.0
 =======
 "When the virtual stock goes below the Min Quantity specified for this field, "
 "Odoo generates a procurement to bring the forecasted quantity above of this "
@@ -65817,9 +66823,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "genera un approvvigionamento per portare la quantità prevista alla (o vicino"
 " alla) quantità massima specificata per questo campo (o alla quantità "
 "minima, a seconda della più grande)."
+=======
+"genera un approvvigionamento per portare la quantità prevista alla (o vicino "
+"alla) quantità massima specificata per questo campo (o alla quantità minima, "
+"a seconda della più grande)."
+>>>>>>> upstream/18.0
 =======
 "genera un approvvigionamento per portare la quantità prevista alla (o vicino "
 "alla) quantità massima specificata per questo campo (o alla quantità minima, "
@@ -66157,7 +67169,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 " * Ask: users are asked to choose if they want to make a backorder for remaining products\n"
+=======
+" * Ask: users are asked to choose if they want to make a backorder for "
+"remaining products\n"
+>>>>>>> upstream/18.0
 =======
 " * Ask: users are asked to choose if they want to make a backorder for "
 "remaining products\n"
@@ -66427,7 +67444,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 " *Chiedi - agli utenti viene chiesto di scegliere se vogliono realizzare un nuovo ordine per i prodotti rimanenti\n"
+=======
+" *Chiedi - agli utenti viene chiesto di scegliere se vogliono realizzare un "
+"nuovo ordine per i prodotti rimanenti\n"
+>>>>>>> upstream/18.0
 =======
 " *Chiedi - agli utenti viene chiesto di scegliere se vogliono realizzare un "
 "nuovo ordine per i prodotti rimanenti\n"
@@ -66751,9 +67773,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You are about to move quantities in a package without moving the full package.\n"
 "                    Those quantities will be removed from the following package(s):"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -66914,6 +67939,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -67098,9 +68126,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Non è consentito cambiare il prodotto collegato ad un numero di serie o a un"
 " lotto se sono già stati creati dei movimenti di magazzino con quel numero. "
 "Questo porterebbe a delle incongruenze nel magazzino. "
+=======
+"Non è consentito cambiare il prodotto collegato a un numero di serie o di "
+"lotto se sono già stati creati dei movimenti di magazzino con lo stesso "
+"numero. Ciò porterebbe a incongruenze nelle giacenze."
+>>>>>>> upstream/18.0
 =======
 "Non è consentito cambiare il prodotto collegato a un numero di serie o di "
 "lotto se sono già stati creati dei movimenti di magazzino con lo stesso "
@@ -67425,6 +68459,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "type. To change this, go on the operation type and tick the box \"Create New"
 " Lots/Serial Numbers\"."
 msgstr ""
@@ -67432,6 +68467,8 @@ msgstr ""
 "operazione. Per cambiare questo comportamento, andare nel tipo di operazione"
 " e spuntare la casella \"Creare nuovi lotti/numeri di serie\"."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -67594,6 +68631,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -67782,6 +68822,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                your warehouses and that define the flows of your products. These\n"
 "                routes can be assigned to a product, a product category or be fixed\n"
 "                on procurement or sales order."
@@ -67790,6 +68831,8 @@ msgstr ""
 "                    i magazzini e che definiscono i flussi dei prodotti. Possono essere\n"
 "                    assegnati a un prodotto, a una categoria prodotto oppure essere fissi su\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -67957,6 +69000,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -68130,8 +69176,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Impossibile cambiare il monitoraggio delle scorte di un prodotto attualmente"
 " prenotato per un movimento di magazzino. Se necessario, annullare prima la "
+=======
+"Impossibile cambiare il monitoraggio delle scorte di un prodotto attualmente "
+"prenotato per un movimento di magazzino. Se necessario, annullare prima la "
+>>>>>>> upstream/18.0
 =======
 "Impossibile cambiare il monitoraggio delle scorte di un prodotto attualmente "
 "prenotato per un movimento di magazzino. Se necessario, annullare prima la "
@@ -68403,8 +69454,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You can not change the inventory tracking of a product that was already "
 "used."
+=======
+"You can not change the inventory tracking of a product that was already used."
+>>>>>>> upstream/18.0
 =======
 "You can not change the inventory tracking of a product that was already used."
 >>>>>>> upstream/18.0
@@ -68624,8 +69679,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "You can not create a snoozed orderpoint that is not manually triggered."
+=======
+msgid "You can not create a snoozed orderpoint that is not manually triggered."
+>>>>>>> upstream/18.0
 =======
 msgid "You can not create a snoozed orderpoint that is not manually triggered."
 >>>>>>> upstream/18.0
@@ -68877,8 +69936,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "È possibile spostare un lotto/seriale in una nuova ubicazione solo se esiste"
 " in una sola ubicazione."
+=======
+"È possibile spostare un lotto/seriale in una nuova ubicazione solo se esiste "
+"in una sola ubicazione."
+>>>>>>> upstream/18.0
 =======
 "È possibile spostare un lotto/seriale in una nuova ubicazione solo se esiste "
 "in una sola ubicazione."
@@ -69160,8 +70224,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Con un numero di serie univoco è possibile elaborare solo 1,0 %s di "
 "prodotto."
+=======
+"Con un numero di serie univoco è possibile elaborare solo 1,0 %s di prodotto."
+>>>>>>> upstream/18.0
 =======
 "Con un numero di serie univoco è possibile elaborare solo 1,0 %s di prodotto."
 >>>>>>> upstream/18.0
@@ -69389,8 +70457,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You can't deactivate the multi-location if you have more than once warehouse"
 " by company"
+=======
+"You can't deactivate the multi-location if you have more than once warehouse "
+"by company"
+>>>>>>> upstream/18.0
 =======
 "You can't deactivate the multi-location if you have more than once warehouse "
 "by company"
@@ -69672,8 +70745,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot archive location %(location)s because it is used by warehouse "
 "%(warehouse)s"
+=======
+"You cannot archive location %(location)s because it is used by warehouse %"
+"(warehouse)s"
+>>>>>>> upstream/18.0
 =======
 "You cannot archive location %(location)s because it is used by warehouse %"
 "(warehouse)s"
@@ -69972,8 +71050,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "You cannot change the UoM for a stock move that has been set to 'Done'."
+=======
+msgid "You cannot change the UoM for a stock move that has been set to 'Done'."
+>>>>>>> upstream/18.0
 =======
 msgid "You cannot change the UoM for a stock move that has been set to 'Done'."
 >>>>>>> upstream/18.0
@@ -70194,8 +71276,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot change the company of a lot/serial number currently in a location"
 " belonging to another company."
+=======
+"You cannot change the company of a lot/serial number currently in a location "
+"belonging to another company."
+>>>>>>> upstream/18.0
 =======
 "You cannot change the company of a lot/serial number currently in a location "
 "belonging to another company."
@@ -70472,7 +71559,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Impossibile cambiare il rapporto dell'unità di misura, alcuni prodotti con "
+=======
+"Impossibile cambiare il rapporto dell'unità di misura. Alcuni prodotti con "
+>>>>>>> upstream/18.0
 =======
 "Impossibile cambiare il rapporto dell'unità di misura. Alcuni prodotti con "
 >>>>>>> upstream/18.0
@@ -70733,12 +71824,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot move the same package content more than once in the same transfer"
 " or split the same package into two location."
 msgstr ""
 "Impossibile movimentare più di una volta il contenuto del collo nello stesso"
 " trasferimento o suddividere il collo in due ubicazioni."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -70900,6 +71994,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -71076,6 +72173,7 @@ msgstr ""
 #: code:addons/stock/models/stock_move.py:0
 msgid "You cannot unreserve a stock move that has been set to 'Done'."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -71343,6 +72441,10 @@ msgstr ""
 "Impossibile annullare la prenotazione di un movimento di magazzino impostato "
 "a \"Completato\"."
 >>>>>>> upstream/18.0
+=======
+"Impossibile annullare la prenotazione di un movimento di magazzino impostato "
+"a \"Completato\"."
+>>>>>>> upstream/18.0
 
 #. module: stock
 #. odoo-python
@@ -71358,6 +72460,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/stock/models/stock_picking.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -71488,6 +72591,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "You cannot validate a transfer if no quantities are reserved, or if only non-"
 "reserved moves are picked.To force the transfer, encode quantities."
 msgstr ""
@@ -71525,6 +72630,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -71649,8 +72757,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Non è possibile convalidare un trasferimento vuoto. Aggiungi alcuni prodotti"
 " da spostare prima di procedere."
+=======
+"Non è possibile convalidare un trasferimento vuoto. Aggiungi alcuni prodotti "
+"da spostare prima di procedere."
+>>>>>>> upstream/18.0
 =======
 "Non è possibile convalidare un trasferimento vuoto. Aggiungi alcuni prodotti "
 "da spostare prima di procedere."
@@ -71929,7 +73042,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Nel magazzino sono presenti prodotti che hanno abilitato il numero di lotto/seriale per il tracciamento. \n"
+=======
+"Nel magazzino sono presenti prodotti che hanno abilitato il numero di lotto/"
+"seriale per il tracciamento. \n"
+>>>>>>> upstream/18.0
 =======
 "Nel magazzino sono presenti prodotti che hanno abilitato il numero di lotto/"
 "seriale per il tracciamento. \n"
@@ -72204,8 +73322,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Sono presenti prodotti in giacenza che che non possiedono un numero di "
 "lotto/serie. È possibile assegnarlo effettuando una rettifica di inventario."
+=======
+"Sono presenti prodotti in giacenza che che non possiedono un numero di lotto/"
+"serie. È possibile assegnarlo effettuando una rettifica di inventario."
+>>>>>>> upstream/18.0
 =======
 "Sono presenti prodotti in giacenza che che non possiedono un numero di lotto/"
 "serie. È possibile assegnarlo effettuando una rettifica di inventario."
@@ -72476,11 +73599,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You have to select a product unit of measure that is in the same category as"
 " the default unit of measure of the product"
 msgstr ""
 "È necessario selezionare una unità di misura del prodotto della stessa "
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -72641,6 +73767,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -72820,8 +73949,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Per creare operazioni di tipo interno è necessario attivare le ubicazioni di"
 " stoccaggio."
+=======
+"Per creare operazioni di tipo interno è necessario attivare le ubicazioni di "
+"stoccaggio."
+>>>>>>> upstream/18.0
 =======
 "Per creare operazioni di tipo interno è necessario attivare le ubicazioni di "
 "stoccaggio."
@@ -73123,8 +74257,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Ci sono ancora operazioni in corso per operazioni di tipo %(operations)s nel"
 " magazzino %(warehouse)s"
+=======
+"Ci sono ancora operazioni in corso per operazioni di tipo %(operations)s nel "
+"magazzino %(warehouse)s"
+>>>>>>> upstream/18.0
 =======
 "Ci sono ancora operazioni in corso per operazioni di tipo %(operations)s nel "
 "magazzino %(warehouse)s"
@@ -73414,6 +74553,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You'll find here smart replenishment propositions based on inventory forecasts.\n"
 "            Choose the quantity to buy or manufacture and launch orders in a click.\n"
 "            To save time in the future, set the rules as \"automated\"."
@@ -73422,6 +74562,8 @@ msgstr ""
 "Scegli la quantità da comprare o da produrre ed avvia gli ordini tramite un clic.\n"
 "Per risparmiare tempo in futuro, imposta le regole come \"automatizzate\"."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -73590,6 +74732,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -73871,7 +75016,11 @@ msgid "e.g. PO0032"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "es. A00032"
+=======
+msgstr "es. PO0032"
+>>>>>>> upstream/18.0
 =======
 msgstr "es. PO0032"
 >>>>>>> upstream/18.0
@@ -74167,7 +75316,11 @@ msgid "planned on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "programmato il"
+=======
+msgstr "programmate il"
+>>>>>>> upstream/18.0
 =======
 msgstr "programmate il"
 >>>>>>> upstream/18.0
@@ -74459,6 +75612,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "{{ object.company_id.name }} Buono di consegna (Ref {{ object.name or 'n/a' "
 "}})"
 =======
@@ -74598,6 +75752,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "{{ object.company_id.name }} Buono di consegna (Ref {{ object.name or 'n/"
 "a' }})"
 
@@ -74643,6 +75799,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

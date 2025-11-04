@@ -37,9 +37,12 @@ class TestMailingContactToList(MassMailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         action = wizard.action_add_contacts()
         self.assertEqual(contacts.list_ids, mailing)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -52,6 +55,9 @@ class TestMailingContactToList(MassMailCommon):
             self.assertTrue(all(date == frozen_time for date in create_dates), "All create dates should be equal to frozen datetime")
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

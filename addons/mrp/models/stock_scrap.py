@@ -64,6 +64,16 @@ class StockScrap(models.Model):
             else:
                 return super()._onchange_serial_number()
 
+<<<<<<< HEAD
+=======
+    @api.onchange('product_id')
+    def _onchange_product_id(self):
+        if self.product_is_kit:
+            self.bom_id = self.env['mrp.bom']._bom_find(self.product_id, company_id=self.company_id.id, bom_type='phantom')[self.product_id]
+        else:
+            self.bom_id = False
+
+>>>>>>> upstream/18.0
     @api.depends('move_ids', 'move_ids.move_line_ids.quantity', 'product_id')
     def _compute_scrap_qty(self):
         self.scrap_qty = 1
@@ -208,10 +218,13 @@ class StockScrap(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'move_dest_ids': self.production_id.procurement_group_id.stock_move_ids.filtered(
                     lambda m: m.location_id == self.location_id
                               and m.product_id == self.product_id
                               and m.state not in ('assigned', 'done', 'cancel'))
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
