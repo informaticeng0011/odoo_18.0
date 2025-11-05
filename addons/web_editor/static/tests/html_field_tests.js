@@ -4,6 +4,10 @@ import { click, editInput, getFixture, makeDeferred, mockSendBeacon, nextTick, p
 import { createWebClient, doAction } from "@web/../tests/webclient/helpers";
 import { makeView, setupViewRegistries } from "@web/../tests/views/helpers";
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { contains } from "@web/../tests/utils";
+>>>>>>> upstream/18.0
 =======
 import { contains } from "@web/../tests/utils";
 >>>>>>> upstream/18.0
@@ -890,6 +894,10 @@ QUnit.module("WebEditor.HtmlField", ({ beforeEach }) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        editor.historyStep();
+>>>>>>> upstream/18.0
 =======
         editor.historyStep();
 >>>>>>> upstream/18.0
@@ -977,6 +985,10 @@ QUnit.module("WebEditor.HtmlField", ({ beforeEach }) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        editor.historyStep();
+>>>>>>> upstream/18.0
 =======
         editor.historyStep();
 >>>>>>> upstream/18.0
@@ -1064,6 +1076,10 @@ QUnit.module("WebEditor.HtmlField", ({ beforeEach }) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        editor.historyStep();
+>>>>>>> upstream/18.0
 =======
         editor.historyStep();
 >>>>>>> upstream/18.0
@@ -1148,7 +1164,11 @@ QUnit.module("WebEditor.HtmlField", ({ beforeEach }) => {
 
     QUnit.test("link preview in Link Dialog", async (assert) => {
 <<<<<<< HEAD
+<<<<<<< HEAD
         assert.expect(6);
+=======
+        assert.expect(7);
+>>>>>>> upstream/18.0
 =======
         assert.expect(7);
 >>>>>>> upstream/18.0
@@ -1158,7 +1178,10 @@ QUnit.module("WebEditor.HtmlField", ({ beforeEach }) => {
             txt: "<p class='test_target'><a href='/test'>This website</a></p>",
         });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         const wysiwygPromise = makeDeferred();
         patchWithCleanup(HtmlField.prototype, {
             async startWysiwyg() {
@@ -1166,6 +1189,9 @@ QUnit.module("WebEditor.HtmlField", ({ beforeEach }) => {
                 wysiwygPromise.resolve();
             },
         });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         await makeView({
             type: "form",
@@ -1178,6 +1204,10 @@ QUnit.module("WebEditor.HtmlField", ({ beforeEach }) => {
                 </form>`,
         });
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        await wysiwygPromise;
+>>>>>>> upstream/18.0
 =======
         await wysiwygPromise;
 >>>>>>> upstream/18.0
@@ -1193,6 +1223,11 @@ QUnit.module("WebEditor.HtmlField", ({ beforeEach }) => {
         // Make sure popover is closed
         await new Promise(resolve => $(a).on('hidden.bs.popover.link_popover', resolve));
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        // Make sure modal is open
+        await contains(".modal input#o_link_dialog_label_input");
+>>>>>>> upstream/18.0
 =======
         // Make sure modal is open
         await contains(".modal input#o_link_dialog_label_input");

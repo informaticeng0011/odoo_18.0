@@ -38,12 +38,18 @@ class MrpProduction(models.Model):
                 line_by_product[line.product_id] |= line
             for move in production.move_raw_ids:
 <<<<<<< HEAD
+<<<<<<< HEAD
                 move.move_line_ids = line_by_product.pop(move.product_id, self.env['stock.move.line'])
 =======
+=======
+>>>>>>> upstream/18.0
                 lines = line_by_product.pop(move.product_id, self.env['stock.move.line'])
                 lines_to_delete = move.move_line_ids - lines
                 move.move_line_ids = lines
                 lines_to_delete.unlink()
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             for product_id, lines in line_by_product.items():
                 qty = sum(line.product_uom_id._compute_quantity(line.quantity, product_id.uom_id) for line in lines)

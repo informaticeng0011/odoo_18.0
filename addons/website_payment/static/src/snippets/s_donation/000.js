@@ -25,6 +25,10 @@ publicWidget.registry.DonationSnippet = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        // Patched in the init
+>>>>>>> upstream/18.0
 =======
         // Patched in the init
 >>>>>>> upstream/18.0
@@ -86,7 +90,10 @@ publicWidget.registry.DonationSnippet = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -141,6 +148,9 @@ publicWidget.registry.DonationSnippet = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -193,6 +203,10 @@ publicWidget.registry.DonationSnippet = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.__confirmCurrencyLoaded();
+>>>>>>> upstream/18.0
 =======
         this.__confirmCurrencyLoaded();
 >>>>>>> upstream/18.0
@@ -354,7 +368,10 @@ publicWidget.registry.DonationSnippet = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -401,6 +418,9 @@ publicWidget.registry.DonationSnippet = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

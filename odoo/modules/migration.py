@@ -167,7 +167,11 @@ class MigrationManager(object):
 
         def _get_migration_versions(pkg, stage):
             versions = sorted({
+<<<<<<< HEAD
                 ver
+=======
+                ver: None
+>>>>>>> upstream/18.0
                 for lv in self.migrations[pkg.name].values()
                 for ver, lf in lv.items()
                 if lf

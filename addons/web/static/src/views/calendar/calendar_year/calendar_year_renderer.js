@@ -47,7 +47,10 @@ import { localization } from "@web/core/l10n/localization";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { useDebounced } from "@web/core/utils/timing";
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -226,7 +229,10 @@ export class CalendarYearRenderer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.onWindowResizeDebounced = useDebounced(this.onWindowResize, 200);
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -410,7 +416,11 @@ export class CalendarYearRenderer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             windowResize: this.onWindowResizeDebounced,
+=======
+            windowResize: this.onWindowResize,
+>>>>>>> upstream/18.0
 =======
             windowResize: this.onWindowResize,
 >>>>>>> upstream/18.0

@@ -66,6 +66,10 @@ class AccountEdiXmlUBLANZ(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        vals.setdefault('party_tax_scheme_vals', [])
+>>>>>>> upstream/18.0
 =======
         vals.setdefault('party_tax_scheme_vals', [])
 >>>>>>> upstream/18.0

@@ -68,7 +68,10 @@ import { Component, onMounted, onPatched, useRef, useState, xml } from "@odoo/ow
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { makeMockEnv } from "@web/../tests/_framework/env_test_helpers";
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -235,6 +238,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    makeMockEnv,
+>>>>>>> upstream/18.0
 =======
     makeMockEnv,
 >>>>>>> upstream/18.0

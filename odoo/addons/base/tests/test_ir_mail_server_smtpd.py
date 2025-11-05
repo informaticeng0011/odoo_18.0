@@ -143,8 +143,13 @@ class TestIrMailServerSMTPD(TransactionCaseWithUserDemo):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         family, _, cls.port = _find_free_local_address()
         cls.localhost = getaddrinfo('localhost', cls.port, family)
+=======
+        family, addr, cls.port = _find_free_local_address()
+        cls.localhost = getaddrinfo(addr, cls.port, family)
+>>>>>>> upstream/18.0
 =======
         family, addr, cls.port = _find_free_local_address()
         cls.localhost = getaddrinfo(addr, cls.port, family)
