@@ -73,8 +73,11 @@ class TestImLivechatSessionHistory(TestImLivechatCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.start_tour("/odoo", "im_livechat_history_back_and_forth_tour", login="operator")
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -243,6 +246,9 @@ class TestImLivechatSessionHistory(TestImLivechatCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

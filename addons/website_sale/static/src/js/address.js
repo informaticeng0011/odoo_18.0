@@ -5,6 +5,10 @@ import { rpc } from "@web/core/network/rpc";
 import { debounce } from "@web/core/utils/timing";
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { redirect } from '@web/core/utils/urls';
+>>>>>>> upstream/18.0
 =======
 import { redirect } from '@web/core/utils/urls';
 >>>>>>> upstream/18.0
@@ -199,7 +203,11 @@ publicWidget.registry.websiteSaleAddress = publicWidget.Widget.extend({
             if (result.redirectUrl) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 window.location = result.redirectUrl;
+=======
+                redirect(result.redirectUrl);
+>>>>>>> upstream/18.0
 =======
                 redirect(result.redirectUrl);
 >>>>>>> upstream/18.0

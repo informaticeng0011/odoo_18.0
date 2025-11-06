@@ -193,7 +193,11 @@ class MailTemplate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         templates_with_xmlid = self.env['ir.model.data']._search([
+=======
+        templates_with_xmlid = self.env['ir.model.data'].sudo()._search([
+>>>>>>> upstream/18.0
 =======
         templates_with_xmlid = self.env['ir.model.data'].sudo()._search([
 >>>>>>> upstream/18.0
@@ -442,8 +446,11 @@ class MailTemplate(models.Model):
     def copy_data(self, default=None):
         vals_list = super().copy_data(default=default)
 <<<<<<< HEAD
+<<<<<<< HEAD
         return [dict(vals, name=self.env._("%s (copy)", template.name)) for template, vals in zip(self, vals_list)]
 =======
+=======
+>>>>>>> upstream/18.0
         for vals, template in zip(vals_list, self):
             if 'name' not in (default or {}) and vals.get('name') == template.name:
                 vals['name'] = self.env._("%s (copy)", template.name)
@@ -469,6 +476,9 @@ class MailTemplate(models.Model):
                         ]
                     })
         return copies
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     def unlink_action(self):

@@ -53,7 +53,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { describe, expect, test } from "@odoo/hoot";
+=======
+import { describe, expect } from "@odoo/hoot";
+>>>>>>> upstream/18.0
 =======
 import { describe, expect } from "@odoo/hoot";
 >>>>>>> upstream/18.0
@@ -281,6 +285,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    onlineTest,
+>>>>>>> upstream/18.0
 =======
     onlineTest,
 >>>>>>> upstream/18.0
@@ -542,7 +550,11 @@ class Network {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test("basic peer to peer connection", async () => {
+=======
+onlineTest("basic peer to peer connection", async () => {
+>>>>>>> upstream/18.0
 =======
 onlineTest("basic peer to peer connection", async () => {
 >>>>>>> upstream/18.0
@@ -781,7 +793,11 @@ onlineTest("basic peer to peer connection", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test("mesh peer to peer connections", async () => {
+=======
+onlineTest("mesh peer to peer connections", async () => {
+>>>>>>> upstream/18.0
 =======
 onlineTest("mesh peer to peer connections", async () => {
 >>>>>>> upstream/18.0
@@ -1029,7 +1045,11 @@ onlineTest("mesh peer to peer connections", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test("connection recovery", async () => {
+=======
+onlineTest("connection recovery", async () => {
+>>>>>>> upstream/18.0
 =======
 onlineTest("connection recovery", async () => {
 >>>>>>> upstream/18.0
@@ -1276,7 +1296,11 @@ onlineTest("connection recovery", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test("can broadcast a stream and control download", async () => {
+=======
+onlineTest("can broadcast a stream and control download", async () => {
+>>>>>>> upstream/18.0
 =======
 onlineTest("can broadcast a stream and control download", async () => {
 >>>>>>> upstream/18.0
@@ -1537,7 +1561,11 @@ onlineTest("can broadcast a stream and control download", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test("can broadcast arbitrary messages (dataChannel)", async () => {
+=======
+onlineTest("can broadcast arbitrary messages (dataChannel)", async () => {
+>>>>>>> upstream/18.0
 =======
 onlineTest("can broadcast arbitrary messages (dataChannel)", async () => {
 >>>>>>> upstream/18.0
@@ -1791,7 +1819,11 @@ onlineTest("can broadcast arbitrary messages (dataChannel)", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test("can reject arbitrary offers", async () => {
+=======
+onlineTest("can reject arbitrary offers", async () => {
+>>>>>>> upstream/18.0
 =======
 onlineTest("can reject arbitrary offers", async () => {
 >>>>>>> upstream/18.0

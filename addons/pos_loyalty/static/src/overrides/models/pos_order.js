@@ -55,7 +55,11 @@ import { patch } from "@web/core/utils/patch";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { roundDecimals, roundPrecision } from "@web/core/utils/numbers";
+=======
+import { roundDecimals, roundPrecision, floatIsZero } from "@web/core/utils/numbers";
+>>>>>>> upstream/18.0
 =======
 import { roundDecimals, roundPrecision, floatIsZero } from "@web/core/utils/numbers";
 >>>>>>> upstream/18.0
@@ -372,7 +376,10 @@ patch(PosOrder.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -540,6 +547,9 @@ patch(PosOrder.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -946,6 +956,7 @@ patch(PosOrder.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -1192,6 +1203,8 @@ patch(PosOrder.prototype, {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 
             //If there is only one possible reward we try to claim the most possible out of it
             if (
@@ -1256,6 +1269,9 @@ patch(PosOrder.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1457,7 +1473,10 @@ patch(PosOrder.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1554,6 +1573,9 @@ patch(PosOrder.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1789,7 +1811,11 @@ patch(PosOrder.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (line.is_reward_line && line.coupon_id.id === coupon_id) {
+=======
+            if (line.is_reward_line && line.coupon_id?.id === coupon_id) {
+>>>>>>> upstream/18.0
 =======
             if (line.is_reward_line && line.coupon_id?.id === coupon_id) {
 >>>>>>> upstream/18.0
@@ -2249,7 +2275,10 @@ patch(PosOrder.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2533,6 +2562,9 @@ patch(PosOrder.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2783,7 +2815,11 @@ patch(PosOrder.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const orderLines = this.get_orderlines();
+=======
+        const orderLines = this.get_orderlines().filter((line) => !line.combo_parent_id);
+>>>>>>> upstream/18.0
 =======
         const orderLines = this.get_orderlines().filter((line) => !line.combo_parent_id);
 >>>>>>> upstream/18.0
@@ -3052,6 +3088,12 @@ patch(PosOrder.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if (!this.isLineValidForLoyaltyPoints(line)) {
+                continue;
+            }
+>>>>>>> upstream/18.0
 =======
             if (!this.isLineValidForLoyaltyPoints(line)) {
                 continue;
@@ -3606,12 +3648,15 @@ patch(PosOrder.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     (sum, line) => sum + line.get_price_with_tax(),
                     0
                 );
                 const amountWithoutTax = linesForRule.reduce(
                     (sum, line) => sum + line.get_price_without_tax(),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3787,6 +3832,9 @@ patch(PosOrder.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3991,8 +4039,11 @@ patch(PosOrder.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         orderedProductPaid += line.get_price_with_tax();
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4159,6 +4210,9 @@ patch(PosOrder.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4360,10 +4414,13 @@ patch(PosOrder.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                             };
                                         }
                                         return { points: pointsPerUnit };
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4494,6 +4551,9 @@ patch(PosOrder.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4881,7 +4941,13 @@ patch(PosOrder.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const program = this.models["loyalty.program"].find((p) => p.program_type === "gift_card");
+=======
+        const program =
+            this.get_selected_orderline()._e_wallet_program_id ||
+            this.models["loyalty.program"].find((p) => p.program_type === "gift_card");
+>>>>>>> upstream/18.0
 =======
         const program =
             this.get_selected_orderline()._e_wallet_program_id ||
@@ -5441,7 +5507,11 @@ patch(PosOrder.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (!discountable) {
+=======
+        if (floatIsZero(discountable)) {
+>>>>>>> upstream/18.0
 =======
         if (floatIsZero(discountable)) {
 >>>>>>> upstream/18.0
@@ -5810,7 +5880,11 @@ patch(PosOrder.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 price_unit: -(entry[1] * discountFactor),
+=======
+                price_unit: -(Math.min(this.get_total_with_tax(), entry[1]) * discountFactor),
+>>>>>>> upstream/18.0
 =======
                 price_unit: -(Math.min(this.get_total_with_tax(), entry[1]) * discountFactor),
 >>>>>>> upstream/18.0
@@ -6424,12 +6498,18 @@ patch(PosOrder.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 const line = this.get_orderlines().find(
                     (line) => line._reward_product_id?.id === product.id
                 );
                 // Compute the correction points once even if there are multiple reward lines.
                 // This is because _getPointsCorrection is taking into account all the lines already.
                 const claimedPoints = line ? this._getPointsCorrection(reward.program_id) : 0;
+=======
+                // Compute the correction points once even if there are multiple reward lines.
+                // This is because _getPointsCorrection is taking into account all the lines already.
+                const claimedPoints = this._getPointsCorrection(reward.program_id);
+>>>>>>> upstream/18.0
 =======
                 // Compute the correction points once even if there are multiple reward lines.
                 // This is because _getPointsCorrection is taking into account all the lines already.

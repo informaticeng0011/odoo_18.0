@@ -162,7 +162,11 @@ QUnit.module("Fields", (hooks) => {
                     context: {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         form_view_ref: "account.view_duplicated_moves_tree_js",
+=======
+                        list_view_ref: "account.view_duplicated_moves_tree_js",
+>>>>>>> upstream/18.0
 =======
                         list_view_ref: "account.view_duplicated_moves_tree_js",
 >>>>>>> upstream/18.0

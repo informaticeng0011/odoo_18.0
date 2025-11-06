@@ -184,7 +184,10 @@ export class ChatWindow extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const maxHeight = !this.ui.isSmall ? "max-height: 95vh;" : "";
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -468,7 +471,11 @@ export class ChatWindow extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return `${offsetFrom}: ${visibleOffset}px; ${oppositeFrom}: auto; ${maxHeight}`;
+=======
+        return `${offsetFrom}: ${visibleOffset}px; ${oppositeFrom}: auto;`;
+>>>>>>> upstream/18.0
 =======
         return `${offsetFrom}: ${visibleOffset}px; ${oppositeFrom}: auto;`;
 >>>>>>> upstream/18.0

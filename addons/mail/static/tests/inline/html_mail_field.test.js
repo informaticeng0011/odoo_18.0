@@ -87,6 +87,10 @@ import { insertText } from "@html_editor/../tests/_helpers/user_actions";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { expectElementCount } from "@html_editor/../tests/_helpers/ui_expectations";
+>>>>>>> upstream/18.0
 =======
 import { expectElementCount } from "@html_editor/../tests/_helpers/ui_expectations";
 >>>>>>> upstream/18.0
@@ -382,6 +386,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    clickSave,
+>>>>>>> upstream/18.0
 =======
     clickSave,
 >>>>>>> upstream/18.0
@@ -553,7 +561,11 @@ test("HtmlMail save inline html", async function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             `<h1 style="border-radius:0px;border-style:none;padding:0px;margin:0px 0 8px 0;box-sizing:border-box;border-left-width:0px;border-bottom-width:0px;border-right-width:0px;border-top-width:0px;font-size: []px;color:#111827;line-height:1.2;font-weight:500;font-family:'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Ubuntu, 'Noto Sans', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';">first</h1>`
+=======
+            `<h1 style="border-radius:0px;border-style:none;padding:0px;margin:0px 0 8px 0;box-sizing:border-box;border-left-color:#111827;border-bottom-color:#111827;border-right-color:#111827;border-top-color:#111827;border-left-width:0px;border-bottom-width:0px;border-right-width:0px;border-top-width:0px;font-size: []px;color:#111827;line-height:1.2;font-weight:500;font-family:'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Ubuntu, 'Noto Sans', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';">first</h1>`
+>>>>>>> upstream/18.0
 =======
             `<h1 style="border-radius:0px;border-style:none;padding:0px;margin:0px 0 8px 0;box-sizing:border-box;border-left-color:#111827;border-bottom-color:#111827;border-right-color:#111827;border-top-color:#111827;border-left-width:0px;border-bottom-width:0px;border-right-width:0px;border-top-width:0px;font-size: []px;color:#111827;line-height:1.2;font-weight:500;font-family:'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Ubuntu, 'Noto Sans', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';">first</h1>`
 >>>>>>> upstream/18.0
@@ -616,6 +628,7 @@ test("HtmlMail save inline html", async function () {
     await press("enter");
     expect(".odoo-editor-editable").toHaveInnerHTML("<h1> first </h1>");
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -867,6 +880,10 @@ test("HtmlMail save inline html", async function () {
     await clickSave();
     await expect.waitForSteps(["web_save"]);
 >>>>>>> upstream/18.0
+=======
+    await clickSave();
+    await expect.waitForSteps(["web_save"]);
+>>>>>>> upstream/18.0
 });
 
 test("HtmlMail don't have access to column commands", async function () {
@@ -882,6 +899,7 @@ test("HtmlMail don't have access to column commands", async function () {
     setSelectionInHtmlField();
     await insertText(htmlEditor, "/");
     await animationFrame();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1147,6 +1165,8 @@ test("HtmlMail don't have access to column commands", async function () {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     await expectElementCount(".o-we-powerbox", 1);
 
     await insertText(htmlEditor, "column");
@@ -1238,6 +1258,9 @@ test("HtmlMail don't have access to column commands", async function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1433,6 +1456,7 @@ test("HtmlMail add icon and save inline html", async function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         }`
     );
     onRpc("web_save", ({ args }) => {
@@ -1443,6 +1467,8 @@ test("HtmlMail add icon and save inline html", async function () {
             `<p style="border-radius:0px;border-style:none;padding:0px;margin:0px 0 16px 0;box-sizing:border-box;border-left-color:#374151;border-bottom-color:#374151;border-right-color:#374151;border-top-color:#374151;border-left-width:0px;border-bottom-width:0px;border-right-width:0px;border-top-width:0px;"><span style="display: inline-block; width: 14px; height: 14px; vertical-align: text-bottom;" class="oe_unbreakable "><img width="14" height="14" src="/web_editor/font_to_img/61440/rgb(55%2C65%2C81)/rgb(249%2C250%2C251)/14x14" data-class="fa fa-glass" data-style="null" style="border-radius:0px;border-style:none;padding:0px;border-left-color:#374151;border-bottom-color:#374151;border-right-color:#374151;border-top-color:#374151;border-left-width:0px;border-bottom-width:0px;border-right-width:0px;border-top-width:0px;box-sizing: border-box; line-height: 14px; width: 14px; height: 14px; vertical-align: unset; margin: 0px;"></span>first</p>`
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1491,6 +1517,9 @@ test("HtmlMail add icon and save inline html", async function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1537,6 +1566,7 @@ test("HtmlMail add icon and save inline html", async function () {
     await contains("a.nav-link:contains('Icons')").click();
     await contains("span.fa-glass").click();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1670,6 +1700,10 @@ test("HtmlMail add icon and save inline html", async function () {
     await expect.waitForSteps(["web_save"]);
 >>>>>>> upstream/18.0
 =======
+    await expect.waitForSteps(["web_save"]);
+>>>>>>> upstream/18.0
+=======
+    await clickSave();
     await expect.waitForSteps(["web_save"]);
 >>>>>>> upstream/18.0
 =======

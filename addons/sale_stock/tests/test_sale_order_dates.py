@@ -34,10 +34,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.addons.stock_account.tests.test_anglo_saxon_valuation_reconciliation_common import ValuationReconciliationTestCommon
 from datetime import timedelta
 from odoo import fields
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -139,6 +142,9 @@ from odoo import Command, fields
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -345,7 +351,10 @@ class TestSaleExpectedDate(ValuationReconciliationTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -444,6 +453,10 @@ class TestSaleExpectedDate(ValuationReconciliationTestCommon):
             25.0,
         )
         with freeze_time(effective_date + timedelta(days=3)):
+<<<<<<< HEAD
+=======
+            custom_delivery_date = fields.Date.today()
+>>>>>>> upstream/18.0
             picking_2 = (order.picking_ids - picking_1).ensure_one()
             picking_2.move_ids.write({'quantity': 25.0, 'picked': True})
             picking_2._action_done()
@@ -453,11 +466,16 @@ class TestSaleExpectedDate(ValuationReconciliationTestCommon):
             )
             product_line = invoice.line_ids[0]
             invoice.write({
+<<<<<<< HEAD
                 'delivery_date': fields.Date.today(),
+=======
+                'delivery_date': custom_delivery_date,
+>>>>>>> upstream/18.0
                 'line_ids': [Command.update(product_line.id, {'quantity': 0.0})],
             })
             product_line.quantity += 75.0
             self.assertEqual(
+<<<<<<< HEAD
                 invoice.delivery_date, fields.Date.today(),
                 "Custom invoice delivery shouldn't change after line change",
             )
@@ -557,4 +575,14 @@ class TestSaleExpectedDate(ValuationReconciliationTestCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+                invoice.delivery_date, custom_delivery_date,
+                "Custom invoice delivery shouldn't change after line change",
+            )
+            invoice.action_post()
+            self.assertEqual(
+                invoice.delivery_date, custom_delivery_date,
+                "Custom invoice delivery shouldn't change posting invoice",
+            )
 >>>>>>> upstream/18.0

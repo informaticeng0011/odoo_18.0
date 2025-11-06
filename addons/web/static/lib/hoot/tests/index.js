@@ -53,8 +53,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { start } from "@odoo/hoot";
 import { whenReady } from "@odoo/owl";
+=======
+import { isHootReady, start } from "@odoo/hoot";
+>>>>>>> upstream/18.0
 =======
 import { isHootReady, start } from "@odoo/hoot";
 >>>>>>> upstream/18.0
@@ -287,11 +291,14 @@ import "./mock/window.test.js";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import "./ui/hoot_test_result.test.js";
 import "./ui/hoot_technical_value.test.js";
 
 whenReady(() => start());
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -458,6 +465,9 @@ isHootReady.then(start);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

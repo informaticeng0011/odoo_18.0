@@ -169,6 +169,7 @@ export class HardwareProxy extends EventBus {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                     targetAddressSpace: "local",
 >>>>>>> upstream/18.0
@@ -186,6 +187,8 @@ export class HardwareProxy extends EventBus {
 >>>>>>> upstream/18.0
 =======
                     targetAddressSpace: "local",
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -243,12 +246,15 @@ export class HardwareProxy extends EventBus {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (
             this.pos.config.iface_cashdrawer &&
             this.printer &&
             ["connected", "init"].includes(this.connectionInfo.status)
         ) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -289,6 +295,9 @@ export class HardwareProxy extends EventBus {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

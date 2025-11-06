@@ -64,11 +64,14 @@ import { useComponent, useEffect, useRef } from "@odoo/owl";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @param {() => string} getValue a function that returns the value to write in
  *   the input, if the user isn't currently editing it
  * @param {string} [refName="input"] the ref of the input/textarea
  * @param {boolean} preventLineBreaks Prevent line breaks in input when set
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -240,6 +243,9 @@ import { useComponent, useEffect, useRef } from "@odoo/owl";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -408,6 +414,11 @@ export function useInputField(params) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    const fieldName = params.fieldName || component.props.name;
+    const shouldSave = params.shouldSave ?? (() => false);
+>>>>>>> upstream/18.0
 =======
     const fieldName = params.fieldName || component.props.name;
     const shouldSave = params.shouldSave ?? (() => false);
@@ -715,7 +726,11 @@ export function useInputField(params) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             component.props.record.resetFieldValidity(component.props.name);
+=======
+            component.props.record.resetFieldValidity(fieldName);
+>>>>>>> upstream/18.0
 =======
             component.props.record.resetFieldValidity(fieldName);
 >>>>>>> upstream/18.0
@@ -952,7 +967,11 @@ export function useInputField(params) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     component.props.record.setInvalidField(component.props.name);
+=======
+                    component.props.record.setInvalidField(fieldName);
+>>>>>>> upstream/18.0
 =======
                     component.props.record.setInvalidField(fieldName);
 >>>>>>> upstream/18.0
@@ -1178,11 +1197,14 @@ export function useInputField(params) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if (val !== component.props.record.data[component.props.name]) {
                     lastSetValue = inputRef.el.value;
                     pendingUpdate = true;
                     await component.props.record.update({ [component.props.name]: val });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1349,6 +1371,9 @@ export function useInputField(params) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1561,7 +1586,11 @@ export function useInputField(params) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             !component.props.record.isFieldInvalid(component.props.name)
+=======
+            !component.props.record.isFieldInvalid(fieldName)
+>>>>>>> upstream/18.0
 =======
             !component.props.record.isFieldInvalid(fieldName)
 >>>>>>> upstream/18.0
@@ -1813,7 +1842,11 @@ export function useInputField(params) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         component.props.record.setInvalidField(component.props.name);
+=======
+                        component.props.record.setInvalidField(fieldName);
+>>>>>>> upstream/18.0
 =======
                         component.props.record.setInvalidField(fieldName);
 >>>>>>> upstream/18.0
@@ -2042,9 +2075,15 @@ export function useInputField(params) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if ((val || false) !== (component.props.record.data[component.props.name] || false)) {
                 lastSetValue = inputRef.el.value;
                 await component.props.record.update({ [component.props.name]: val });
+=======
+            if ((val || false) !== (component.props.record.data[fieldName] || false)) {
+                lastSetValue = inputRef.el.value;
+                await component.props.record.update({ [fieldName]: val }, { save: shouldSave() });
+>>>>>>> upstream/18.0
 =======
             if ((val || false) !== (component.props.record.data[fieldName] || false)) {
                 lastSetValue = inputRef.el.value;

@@ -39,8 +39,11 @@ class MrpProduction(models.Model):
             for move in production.move_raw_ids:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 move.move_line_ids = line_by_product.pop(move.product_id, self.env['stock.move.line'])
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                 lines = line_by_product.pop(move.product_id, self.env['stock.move.line'])
@@ -48,6 +51,9 @@ class MrpProduction(models.Model):
                 move.move_line_ids = lines
                 lines_to_delete.unlink()
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -236,6 +236,7 @@ export class SaleOrderLineProductField extends ProductLabelSectionAndNoteField {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -257,6 +258,8 @@ export class SaleOrderLineProductField extends ProductLabelSectionAndNoteField {
             // Remove the translated name as it is already shown to the salesman on the SOL.
             label = label.slice(label.indexOf("\n") + 1);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -504,6 +507,9 @@ export class SaleOrderLineProductField extends ProductLabelSectionAndNoteField {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -755,8 +761,12 @@ export class SaleOrderLineProductField extends ProductLabelSectionAndNoteField {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (this.translatedProductName === undefined) {
             // View was not updated to include `translatedProductName`
+=======
+        if (!this.translatedProductName) {
+>>>>>>> upstream/18.0
 =======
         if (!this.translatedProductName) {
 >>>>>>> upstream/18.0
@@ -1085,9 +1095,14 @@ export class SaleOrderLineProductField extends ProductLabelSectionAndNoteField {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 this.translatedProductName && value && this.translatedProductName.concat("\n", value)
                 || !value && this.translatedProductName
                 || value
+=======
+                value && this.translatedProductName.concat("\n", value)
+                || this.translatedProductName
+>>>>>>> upstream/18.0
 =======
                 value && this.translatedProductName.concat("\n", value)
                 || this.translatedProductName
@@ -1504,6 +1519,9 @@ export class SaleOrderLineProductField extends ProductLabelSectionAndNoteField {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

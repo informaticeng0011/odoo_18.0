@@ -211,6 +211,7 @@ const FormEditor = options.Class.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param {string} name The name of the field used also as label
      * @returns {Object}
      */
@@ -219,6 +220,8 @@ const FormEditor = options.Class.extend({
             name: name,
             string: name,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -463,6 +466,9 @@ const FormEditor = options.Class.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -753,7 +759,10 @@ const FormEditor = options.Class.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -820,6 +829,9 @@ const FormEditor = options.Class.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -971,7 +983,10 @@ const FieldEditor = FormEditor.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1210,6 +1225,9 @@ const FieldEditor = FormEditor.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1419,6 +1437,10 @@ const FieldEditor = FormEditor.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            offset: [...this.$target[0].classList].filter(el => el.match(/^offset-/g)).join(' '),
+>>>>>>> upstream/18.0
 =======
             offset: [...this.$target[0].classList].filter(el => el.match(/^offset-/g)).join(' '),
 >>>>>>> upstream/18.0
@@ -2149,10 +2171,13 @@ options.registry.WebsiteFormEditor = FormEditor.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 field.formatInfo = formatInfo;
                 await this._fetchFieldRecords(field);
                 this.$target.find('.s_website_form_submit, .s_website_form_recaptcha').first().before(this._renderField(field));
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2398,6 +2423,9 @@ options.registry.WebsiteFormEditor = FormEditor.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2721,7 +2749,10 @@ options.registry.WebsiteFieldEditor = FieldEditor.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2965,6 +2996,9 @@ options.registry.WebsiteFieldEditor = FieldEditor.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3224,10 +3258,14 @@ options.registry.WebsiteFieldEditor = FieldEditor.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const field = this._getActiveField();
         delete field.id;
         const fieldEl = this._renderField(field);
         this._replaceFieldElement(fieldEl);
+=======
+        this._rerenderField();
+>>>>>>> upstream/18.0
 =======
         this._rerenderField();
 >>>>>>> upstream/18.0
@@ -3931,6 +3969,10 @@ options.registry.WebsiteFieldEditor = FieldEditor.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                button.dataset.noSplit = true;
+>>>>>>> upstream/18.0
 =======
                 button.dataset.noSplit = true;
 >>>>>>> upstream/18.0
@@ -4206,7 +4248,11 @@ options.registry.WebsiteFieldEditor = FieldEditor.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (newInputEl) {
+=======
+        if (newInputEl && dataFillWith) {
+>>>>>>> upstream/18.0
 =======
         if (newInputEl && dataFillWith) {
 >>>>>>> upstream/18.0
@@ -4540,7 +4586,10 @@ options.registry.WebsiteFieldEditor = FieldEditor.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4786,6 +4835,9 @@ options.registry.WebsiteFieldEditor = FieldEditor.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

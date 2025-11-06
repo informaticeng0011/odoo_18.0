@@ -38,6 +38,7 @@ class HRLeaveType(models.Model):
             ('overtime_deductible', '=', True),
             ('requires_allocation', '=', 'no')])
 <<<<<<< HEAD
+<<<<<<< HEAD
         leave_type_names = deductible_time_off_types.mapped('name')
         for employee in res:
             for leave_data in res[employee]:
@@ -47,6 +48,8 @@ class HRLeaveType(models.Model):
                 else:
                     leave_data[1]['overtime_deductible'] = False
 =======
+=======
+>>>>>>> upstream/18.0
         for employee in employees:
             for leave_type in deductible_time_off_types:
                 if leave_type in self and employee.sudo().total_overtime > 0:
@@ -71,5 +74,8 @@ class HRLeaveType(models.Model):
                         leave_type.requires_allocation,
                         leave_type.id)
                     res[employee].append(lt_info)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         return res

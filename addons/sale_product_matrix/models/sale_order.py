@@ -59,6 +59,10 @@ class SaleOrder(models.Model):
                     lambda line: line.product_id.id == product.id
                     and line.product_no_variant_attribute_value_ids.ids == no_variant_attribute_values.ids
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    and not line.combo_item_id
+>>>>>>> upstream/18.0
 =======
                     and not line.combo_item_id
 >>>>>>> upstream/18.0
@@ -146,7 +150,11 @@ class SaleOrder(models.Model):
                     if not cell.get('name', False):
                         line = order_lines.filtered(lambda line: has_ptavs(line, cell['ptav_ids']))
 <<<<<<< HEAD
+<<<<<<< HEAD
                         if line:
+=======
+                        if line and not line.combo_item_id:
+>>>>>>> upstream/18.0
 =======
                         if line and not line.combo_item_id:
 >>>>>>> upstream/18.0

@@ -659,12 +659,18 @@
                 <t t-set="tax_totals" t-value="sale_order.tax_totals"/>
                 <t t-set="currency" t-value="sale_order.currency_id"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
                 <!--
                 NOTE: This variable should not be used in templates before version 19.1, as it might
                 not be available in earlier versions if customer does not upgrade the `sale` module.
                 -->
                 <t t-set="doc" t-value="sale_order"/>
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             </t>
         </table>

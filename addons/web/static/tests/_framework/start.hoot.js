@@ -55,6 +55,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { definePreset, defineTags } from "@odoo/hoot";
 import { runTests } from "./module_set.hoot";
 
@@ -92,6 +93,11 @@ import { runTests } from "./module_set.hoot";
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+import { definePreset, defineTags, isHootReady } from "@odoo/hoot";
+import { runTests } from "./module_set.hoot";
+
 >>>>>>> upstream/18.0
 =======
 import { definePreset, defineTags, isHootReady } from "@odoo/hoot";
@@ -443,6 +449,7 @@ function beforeFocusRequired(test) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -625,6 +632,11 @@ definePreset("desktop", {
     icon: "fa-desktop",
     label: "Desktop",
 >>>>>>> upstream/18.0
+=======
+definePreset("desktop", {
+    icon: "fa-desktop",
+    label: "Desktop",
+>>>>>>> upstream/18.0
     size: [1366, 768],
     tags: ["-mobile"],
     touch: false,
@@ -647,7 +659,10 @@ definePreset("mobile", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     platform: "android",
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -697,6 +712,7 @@ defineTags(
     },
     {
         name: "focus required",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -922,6 +938,8 @@ queueMicrotask(() => runTests({ fileSuffix: ".test" }));
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         before: beforeFocusRequired,
     }
 );
@@ -982,6 +1000,9 @@ isHootReady.then(() => runTests({ fileSuffix: ".test" }));
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

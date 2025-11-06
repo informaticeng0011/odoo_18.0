@@ -81,6 +81,7 @@ class TestMailTemplate(TestMailTemplateCommon):
         self.assertEqual(action.binding_model_id.model, 'mail.test.lang')
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     def test_template_copy(self):
         """ Test copying template, notably for attachments management """
         template = self.test_template
@@ -93,6 +94,8 @@ class TestMailTemplate(TestMailTemplateCommon):
         )
         self.assertEqual(copy.attachment_ids.mapped("res_id"), [copy.id] * 2)
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     @mute_logger('odoo.addons.mail.models.mail_mail')
@@ -251,15 +254,21 @@ class TestMailTemplateLanguages(TestMailTemplateCommon):
         for idx, (mail, record) in enumerate(zip(mails_sudo, self.test_records_batch)):
             self.assertEqual(sorted(mail.attachment_ids.mapped('name')), ['first.txt', 'second.txt'])
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.assertEqual(mail.attachment_ids.mapped("res_id"), [self.test_template_wreports.id] * 2)
             self.assertEqual(mail.attachment_ids.mapped("res_model"), [template._name] * 2)
             self.assertEqual(mail.email_cc, self.test_template.email_cc)
             self.assertEqual(mail.email_to, self.test_template.email_to)
 =======
+=======
+>>>>>>> upstream/18.0
             self.assertEqual(mail.attachment_ids.mapped("res_id"), [template.id] * 2)
             self.assertEqual(mail.attachment_ids.mapped("res_model"), [template._name] * 2)
             self.assertEqual(mail.email_cc, template.email_cc)
             self.assertEqual(mail.email_to, template.email_to)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             self.assertEqual(mail.recipient_ids, self.partner_2 | self.user_admin.partner_id)
             if idx >= 50:

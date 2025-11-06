@@ -70,7 +70,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <span t-field="o.location_id.warehouse_id.partner_id"
+=======
+                            <span t-field="(o if o.picking_type_code == 'incoming' else o.location_id.warehouse_id).partner_id"
+>>>>>>> upstream/18.0
 =======
                             <span t-field="(o if o.picking_type_code == 'incoming' else o.location_id.warehouse_id).partner_id"
 >>>>>>> upstream/18.0

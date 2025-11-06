@@ -471,6 +471,7 @@ class AccountMove(models.Model):
 
             twd_excluded_amount = base_line['tax_details']['raw_total_excluded']
             twd_included_amount = base_line['tax_details']['raw_total_included']
+<<<<<<< HEAD
 
             if self.l10n_tw_edi_is_b2b:
                 item_price = float_round(twd_excluded_amount / line.quantity, precision_rounding=0.01)
@@ -481,13 +482,30 @@ class AccountMove(models.Model):
                     item_amount = float_round(twd_excluded_amount, precision_rounding=0.01)
                 else:
                     item_price = float_round(twd_included_amount / line.quantity, precision_rounding=0.01)
+=======
+            quantity = abs(line.quantity)
+
+            if self.l10n_tw_edi_is_b2b:
+                item_price = float_round(twd_excluded_amount / quantity, precision_rounding=0.01)
+                item_amount = float_round(twd_excluded_amount, precision_rounding=0.01)
+            else:
+                if not is_allowance and line.tax_ids and not line.tax_ids[0].price_include:
+                    item_price = float_round(twd_excluded_amount / quantity, precision_rounding=0.01)
+                    item_amount = float_round(twd_excluded_amount, precision_rounding=0.01)
+                else:
+                    item_price = float_round(twd_included_amount / quantity, precision_rounding=0.01)
+>>>>>>> upstream/18.0
                     item_amount = float_round(twd_included_amount, precision_rounding=0.01)
 
                 item_amount_taxed = float_round(twd_included_amount, precision_rounding=0.01)
 
             # For special tax, we use twd_included_amount
             if tax_type == "4":
+<<<<<<< HEAD
                 item_price = float_round(twd_included_amount / line.quantity, precision_rounding=0.01)
+=======
+                item_price = float_round(twd_included_amount / quantity, precision_rounding=0.01)
+>>>>>>> upstream/18.0
                 item_amount = float_round(twd_included_amount, precision_rounding=0.01)
 
             # Set item sequence for each invoice line, the sequence cannot start from 0
@@ -500,7 +518,11 @@ class AccountMove(models.Model):
                     "OriginalInvoiceDate": self.l10n_tw_edi_invoice_create_date.strftime("%Y-%m-%d"),
                     "OriginalSequenceNumber": line.l10n_tw_edi_ecpay_item_sequence,
                     "ItemName": line.name[:100],
+<<<<<<< HEAD
                     "ItemCount": line.quantity,
+=======
+                    "ItemCount": quantity,
+>>>>>>> upstream/18.0
                     "ItemPrice": item_price,
                     "ItemAmount": item_amount,
                 })
@@ -508,7 +530,11 @@ class AccountMove(models.Model):
                 item_list.append({
                     "ItemSeq": line.l10n_tw_edi_ecpay_item_sequence,
                     "ItemName": line.name[:100],
+<<<<<<< HEAD
                     "ItemCount": line.quantity,
+=======
+                    "ItemCount": quantity,
+>>>>>>> upstream/18.0
                     "ItemWord": line.product_uom_id.name[:6] if line.product_uom_id else False,
                     "ItemPrice": item_price,
                     "ItemTaxType": line.tax_ids[0].l10n_tw_edi_tax_type if tax_type != "4" and line.tax_ids else "",
