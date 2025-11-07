@@ -1532,7 +1532,11 @@ class Import(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             elif field.type == 'binary' and field.attachment and any(f in name for f in IMAGE_FIELDS) and name in import_fields:
+=======
+            elif field.type == 'binary' and field.attachment and name in import_fields:
+>>>>>>> upstream/18.0
 =======
             elif field.type == 'binary' and field.attachment and name in import_fields:
 >>>>>>> upstream/18.0

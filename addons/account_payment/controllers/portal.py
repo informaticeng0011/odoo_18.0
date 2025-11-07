@@ -67,11 +67,14 @@ class PortalAccount(portal.PortalAccount, PaymentPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _invoice_get_page_view_values(self, invoice, access_token, payment=False, **kwargs):
         # EXTENDS account
 
         values = super()._invoice_get_page_view_values(invoice, access_token, **kwargs)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -241,6 +244,9 @@ class PortalAccount(portal.PortalAccount, PaymentPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -432,7 +438,11 @@ class PortalAccount(portal.PortalAccount, PaymentPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         amount_custom = float(kwargs['amount']) if kwargs.get('amount') else 0.0
+=======
+        amount_custom = float(amount or 0.0)
+>>>>>>> upstream/18.0
 =======
         amount_custom = float(amount or 0.0)
 >>>>>>> upstream/18.0
@@ -668,11 +678,14 @@ class PortalAccount(portal.PortalAccount, PaymentPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'amount': total_amount,
                 'currency': currency,
             },
             'amount': total_amount,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -734,6 +747,9 @@ class PortalAccount(portal.PortalAccount, PaymentPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -862,6 +878,10 @@ class PortalAccount(portal.PortalAccount, PaymentPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            **kwargs,
+>>>>>>> upstream/18.0
 =======
             **kwargs,
 >>>>>>> upstream/18.0

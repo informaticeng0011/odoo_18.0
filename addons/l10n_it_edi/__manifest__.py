@@ -28,4 +28,8 @@ E-invoice implementation
         'data/account_invoice_demo.xml',
     ],
     'license': 'LGPL-3',
+<<<<<<< HEAD
+=======
+    'uninstall_hook': 'uninstall_hook',
+>>>>>>> upstream/18.0
 }

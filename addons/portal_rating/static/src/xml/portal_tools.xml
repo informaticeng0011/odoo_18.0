@@ -77,6 +77,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <t t-set="two_columns" t-value="widget.options['two_columns']"/>
         <div class="row o_website_rating_card_container justify-content-center">
             <div t-attf-class="#{two_columns and 'col-lg-12' or 'col-lg-5'}" t-if="Object.keys(widget._ratingCardValues).length > 0">
@@ -105,6 +106,8 @@
                                 <div class="progress">
                                     <div class="progress-bar o_rating_progressbar" role="progressbar" t-att-aria-valuenow="percent['percent']" aria-valuemin="0" aria-valuemax="100" t-att-style="'width:' + percent['percent'] + '%;'" aria-label="Progress bar">
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -298,6 +301,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -413,6 +419,7 @@
                                 </div>
                             </td>
                             <td class="o_website_rating_table_percent">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -585,6 +592,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                                 <strong><t t-esc="Math.round(percents[percent] * 100) / 100"/>%</strong>
                             </td>
                             <td class="o_website_rating_table_reset">
@@ -645,6 +654,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

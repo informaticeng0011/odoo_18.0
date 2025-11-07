@@ -107,7 +107,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -282,6 +285,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1387,8 +1393,13 @@
                         <ul class="navbar-nav container d-grid h-100 px-3 o_grid_header_3_cols">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <!-- Return empty placeholder if the element is not active to keep the right layout -->
                             <li class="o_header_sales_two_lang_selector_placeholder" t-if="is_view_active('website.header_language_selector') == False"/>
+=======
+                            <!-- Return empty placeholder if the element is not active or if there is only one language to keep the right layout -->
+                            <li class="o_header_sales_two_lang_selector_placeholder" t-if="is_view_active('website.header_language_selector') == False or len(frontend_languages) == 1"/>
+>>>>>>> upstream/18.0
 =======
                             <!-- Return empty placeholder if the element is not active or if there is only one language to keep the right layout -->
                             <li class="o_header_sales_two_lang_selector_placeholder" t-if="is_view_active('website.header_language_selector') == False or len(frontend_languages) == 1"/>
@@ -2546,7 +2557,11 @@
     <xpath expr="." position="inside">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <li data-name="Language Selector" t-attf-class="o_header_language_selector #{_item_class}">
+=======
+        <li t-if="len(frontend_languages) > 1" data-name="Language Selector" t-attf-class="o_header_language_selector #{_item_class}">
+>>>>>>> upstream/18.0
 =======
         <li t-if="len(frontend_languages) > 1" data-name="Language Selector" t-attf-class="o_header_language_selector #{_item_class}">
 >>>>>>> upstream/18.0
@@ -2693,6 +2708,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <record id="website.ripple_effect_scss" model="ir.asset">
     <field name="key">website.ripple_effect_scss</field>
     <field name="name">Ripple effect SCSS</field>
@@ -2709,6 +2725,8 @@
     <field name="active" eval="False"/>
 </record>
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2744,6 +2762,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3268,7 +3289,11 @@ Sitemap: <t t-esc="url_root"/>sitemap.xml
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <input name="order" type="hidden" class="o_search_order_by" t-att-value="order_by if order_by else 'name asc'"/>
+=======
+            <input name="order" type="hidden" class="o_search_order_by oe_unremovable" t-att-value="order_by if order_by else 'name asc'"/>
+>>>>>>> upstream/18.0
 =======
             <input name="order" type="hidden" class="o_search_order_by oe_unremovable" t-att-value="order_by if order_by else 'name asc'"/>
 >>>>>>> upstream/18.0

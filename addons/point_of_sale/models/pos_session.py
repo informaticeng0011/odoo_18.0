@@ -220,7 +220,10 @@ class PosSession(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -599,6 +602,9 @@ class PosSession(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -940,8 +946,13 @@ class PosSession(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         'pos.category', 'pos.bill', 'res.company', 'account.tax', 'account.tax.group', 'product.product', 'product.attribute', 'product.attribute.custom.value',
             'product.template.attribute.line', 'product.template.attribute.value', 'product.combo', 'product.combo.item', 'product.packaging', 'res.users', 'res.partner',
+=======
+                        'pos.category', 'pos.bill', 'res.company', 'account.tax', 'account.tax.group', 'product.product', 'product.template', 'product.template.attribute.line', 'product.attribute',
+            'product.attribute.custom.value', 'product.template.attribute.value', 'product.combo', 'product.combo.item', 'product.packaging', 'res.users', 'res.partner',
+>>>>>>> upstream/18.0
 =======
                         'pos.category', 'pos.bill', 'res.company', 'account.tax', 'account.tax.group', 'product.product', 'product.template', 'product.template.attribute.line', 'product.attribute',
             'product.attribute.custom.value', 'product.template.attribute.value', 'product.combo', 'product.combo.item', 'product.packaging', 'res.users', 'res.partner',
@@ -1289,6 +1300,7 @@ class PosSession(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         data[0]['_has_cash_move_perm'] = self.env.user.has_group('account.group_account_invoice')
 =======
 >>>>>>> upstream/18.0
@@ -1359,6 +1371,9 @@ class PosSession(models.Model):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+        data[0]['_has_cash_move_perm'] = self.env.user.has_group('account.group_account_invoice')
 >>>>>>> upstream/18.0
 =======
         data[0]['_has_cash_move_perm'] = self.env.user.has_group('account.group_account_invoice')
@@ -1731,7 +1746,10 @@ class PosSession(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2147,6 +2165,9 @@ class PosSession(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2534,7 +2555,10 @@ class PosSession(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         pricelist_fields = self.env['product.pricelist']._load_pos_data_fields(config_id)
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2859,12 +2883,17 @@ class PosSession(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         pricelist = pricelist_item.pricelist_id
 
         return {
             'product.pricelist.item': pricelist_item.read(pricelist_item_fields, load=False),
             'product.pricelist': pricelist.read(pricelist_fields, load=False)
         }
+=======
+
+        return {'product.pricelist.item': pricelist_item.read(pricelist_item_fields, load=False)}
+>>>>>>> upstream/18.0
 =======
 
         return {'product.pricelist.item': pricelist_item.read(pricelist_item_fields, load=False)}
@@ -3437,7 +3466,12 @@ class PosSession(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 result = self.env['pos.payment']._read_group([('session_id', '=', session.id), ('payment_method_id', '=', cash_payment_method.id)], aggregates=['amount:sum'])
+=======
+                captured_cash_payments_domain = AND([session._get_captured_payments_domain(),[('payment_method_id', '=', cash_payment_method.id)]])
+                result = self.env['pos.payment']._read_group(captured_cash_payments_domain, aggregates=['amount:sum'])
+>>>>>>> upstream/18.0
 =======
                 captured_cash_payments_domain = AND([session._get_captured_payments_domain(),[('payment_method_id', '=', cash_payment_method.id)]])
                 result = self.env['pos.payment']._read_group(captured_cash_payments_domain, aggregates=['amount:sum'])
@@ -4481,7 +4515,10 @@ class PosSession(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.config_id._notify(('CLOSING_SESSION', {'login_number': self.env.context.get('login_number', False)}))
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4845,11 +4882,14 @@ class PosSession(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _get_diff_vals(self, payment_method_id, diff_amount):
         payment_method = self.env['pos.payment.method'].browse(payment_method_id)
         diff_compare_to_zero = self.currency_id.compare_amounts(diff_amount, 0)
         source_account = payment_method.outstanding_account_id
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5019,6 +5059,9 @@ class PosSession(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5676,7 +5719,11 @@ class PosSession(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         MoveLine.create(vals)
+=======
+        data['pay_later_move_lines'] = MoveLine.create(vals)
+>>>>>>> upstream/18.0
 =======
         data['pay_later_move_lines'] = MoveLine.create(vals)
 >>>>>>> upstream/18.0
@@ -6055,7 +6102,11 @@ class PosSession(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'amount': abs(amounts['amount']) + diff_amount,
+=======
+            'amount': abs(amounts['amount']),
+>>>>>>> upstream/18.0
 =======
             'amount': abs(amounts['amount']),
 >>>>>>> upstream/18.0
@@ -6347,6 +6398,10 @@ class PosSession(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                'payment_type': 'outbound',
+>>>>>>> upstream/18.0
 =======
                 'payment_type': 'outbound',
 >>>>>>> upstream/18.0
@@ -6726,7 +6781,11 @@ class PosSession(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         diff_vals = self._get_diff_vals(payment_method.id, diff_amount)
+=======
+        diff_vals = self._get_diff_vals(payment_method.id, diff_amount, account_payment.outstanding_account_id)
+>>>>>>> upstream/18.0
 =======
         diff_vals = self._get_diff_vals(payment_method.id, diff_amount, account_payment.outstanding_account_id)
 >>>>>>> upstream/18.0
@@ -6967,6 +7026,12 @@ class PosSession(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        account_payment.write({
+            'amount': abs(new_balance),
+        })
+>>>>>>> upstream/18.0
 =======
         account_payment.write({
             'amount': abs(new_balance),
@@ -7507,7 +7572,10 @@ class PosSession(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8105,6 +8173,7 @@ class PosSession(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def set_opening_control(self, cashbox_value: int, notes: str):
         if self.state != 'opening_control':
             return
@@ -8209,6 +8278,8 @@ class PosSession(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     def _set_opening_control_data(self, cashbox_value: int, notes: str):
         """
         Internal logic for opening the session.
@@ -8222,6 +8293,9 @@ class PosSession(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8282,6 +8356,7 @@ class PosSession(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         if not self.rescue:
             self.name = self.env['ir.sequence'].with_context(company_id=self.config_id.company_id.id).next_by_code('pos.session')
@@ -8423,6 +8498,8 @@ class PosSession(models.Model):
 
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8456,6 +8533,9 @@ class PosSession(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8539,6 +8619,7 @@ class PosSession(models.Model):
             for session in sessions
         ]
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8746,6 +8827,9 @@ class PosSession(models.Model):
 >>>>>>> upstream/18.0
 =======
         self.env['account.bank.statement.line'].sudo().create(vals_list)
+>>>>>>> upstream/18.0
+=======
+        self.env['account.bank.statement.line'].create(vals_list)
 >>>>>>> upstream/18.0
 =======
         self.env['account.bank.statement.line'].create(vals_list)

@@ -332,7 +332,11 @@ class HrExpenseSheet(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @api.depends('employee_journal_id', 'payment_method_line_id')
+=======
+    @api.depends('employee_journal_id', 'payment_method_line_id', 'payment_mode')
+>>>>>>> upstream/18.0
 =======
     @api.depends('employee_journal_id', 'payment_method_line_id', 'payment_mode')
 >>>>>>> upstream/18.0
@@ -658,9 +662,15 @@ class HrExpenseSheet(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         is_team_approver = self.env.user.has_group('hr_expense.group_hr_expense_team_approver')
         is_approver = self.env.user.has_group('hr_expense.group_hr_expense_user')
         is_hr_admin = self.env.user.has_group('hr_expense.group_hr_expense_manager')
+=======
+        is_team_approver = self.env.user.has_group('hr_expense.group_hr_expense_team_approver') or self.env.su
+        is_approver = self.env.user.has_group('hr_expense.group_hr_expense_user') or self.env.su
+        is_hr_admin = self.env.user.has_group('hr_expense.group_hr_expense_manager') or self.env.su
+>>>>>>> upstream/18.0
 =======
         is_team_approver = self.env.user.has_group('hr_expense.group_hr_expense_team_approver') or self.env.su
         is_approver = self.env.user.has_group('hr_expense.group_hr_expense_user') or self.env.su
@@ -1213,7 +1223,10 @@ class HrExpenseSheet(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1429,6 +1442,9 @@ class HrExpenseSheet(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1834,12 +1850,15 @@ class HrExpenseSheet(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         missing_email_employees = self.filtered(lambda sheet: not sheet.employee_id.work_email).employee_id
         if missing_email_employees:
             action = self.env['ir.actions.actions']._for_xml_id('hr.open_view_employee_list_my')
             action['domain'] = [('id', 'in', missing_email_employees.ids)]
             raise RedirectWarning(_("The work email of some employees is missing. Please add it on the employee form"), action, _("Show missing work email employees"))
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2112,6 +2131,7 @@ class HrExpenseSheet(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         moves = self.account_move_ids
         draft_moves = moves.filtered(lambda m: m.state == 'draft')
         non_draft_moves = moves - draft_moves
@@ -2121,6 +2141,8 @@ class HrExpenseSheet(models.Model):
         )
         draft_moves.unlink()
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2331,6 +2353,9 @@ class HrExpenseSheet(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -117,7 +117,10 @@ class TestMrpCancelMO(TestMrpCommon):
         self.assertEqual(mo.move_finished_ids.state, 'cancel')
         self.assertEqual(mo.state, 'cancel')
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_cannot_cancel_done_mo_with_three_steps(self):
         """Test that a done manufacturing order cannot be canceled.
@@ -140,4 +143,7 @@ class TestMrpCancelMO(TestMrpCommon):
         self.assertNotEqual(mo.picking_ids.mapped('state'), ['cancel', 'cancel'])
         with self.assertRaises(UserError):
             mo.unlink()
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

@@ -149,7 +149,13 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if sale_orders[0].payment_term_id:
+=======
+            if sale_orders[0].payment_term_id and not sale_orders[0].payment_term_id.early_discount:
+                invoice_vals['invoice_payment_term_id'] = sale_orders[0].payment_term_id.id
+            else:
+>>>>>>> upstream/18.0
 =======
             if sale_orders[0].payment_term_id and not sale_orders[0].payment_term_id.early_discount:
                 invoice_vals['invoice_payment_term_id'] = sale_orders[0].payment_term_id.id
@@ -865,8 +871,11 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     new_qty = so_line.product_uom_qty - so_line.qty_delivered
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1177,6 +1186,9 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1518,6 +1530,10 @@ class PosOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        product_qty_left_to_assign = {}
+>>>>>>> upstream/18.0
 =======
         product_qty_left_to_assign = {}
 >>>>>>> upstream/18.0
@@ -1748,12 +1764,15 @@ class PosOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if outgoing_pickings:
                     moves = outgoing_pickings.move_ids.filtered(
                         lambda m: m.state == 'done' and m.product_id == order_line.product_id
                     )
                     order_line.qty_delivered = sum(moves.mapped('quantity'))
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1934,6 +1953,9 @@ class PosOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

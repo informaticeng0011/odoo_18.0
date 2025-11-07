@@ -169,7 +169,11 @@ class MigrationManager(object):
             versions = sorted({
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 ver
+=======
+                ver: None
+>>>>>>> upstream/18.0
 =======
                 ver: None
 >>>>>>> upstream/18.0

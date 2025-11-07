@@ -46,7 +46,11 @@ class TestWorkEntryHolidaysPerformance(TestWorkEntryHolidaysBase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         with self.assertQueryCount(__system__=117, admin=118):  # com 96/97
+=======
+        with self.assertQueryCount(__system__=118, admin=119):  # com 96/97
+>>>>>>> upstream/18.0
 =======
         with self.assertQueryCount(__system__=118, admin=119):  # com 96/97
 >>>>>>> upstream/18.0

@@ -7,6 +7,10 @@ from urllib.parse import urljoin
 from freezegun import freeze_time
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo import Command
+>>>>>>> upstream/18.0
 =======
 from odoo import Command
 >>>>>>> upstream/18.0
@@ -241,7 +245,10 @@ class L10nTWITestEdi(TestAccountMoveSendCommon, HttpCase):
             send_and_print.action_send_and_print()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_08_invoice_with_downpayment(self):
         """Ensure downpayment with -ve quantity is normalized for ECPay JSON."""
         invoice = self.init_invoice(
@@ -283,6 +290,9 @@ class L10nTWITestEdi(TestAccountMoveSendCommon, HttpCase):
             ],
         )
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     # -------------------------------------------------------------------------
     # Patched methods

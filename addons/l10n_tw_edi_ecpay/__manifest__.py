@@ -24,4 +24,8 @@
         "views/l10n_tw_edi_invoice_print_view.xml",
     ],
     "installable": True,
+<<<<<<< HEAD
+=======
+    "uninstall_hook": "uninstall_hook",
+>>>>>>> upstream/18.0
 }

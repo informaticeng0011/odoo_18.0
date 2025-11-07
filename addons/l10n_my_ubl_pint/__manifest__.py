@@ -15,5 +15,9 @@
         'views/res_partner_view.xml',
     ],
     'installable': True,
+<<<<<<< HEAD
+=======
+    'uninstall_hook': 'uninstall_hook',
+>>>>>>> upstream/18.0
     'license': 'LGPL-3'
 }

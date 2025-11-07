@@ -472,6 +472,7 @@ class AccountMove(models.Model):
             twd_excluded_amount = base_line['tax_details']['raw_total_excluded']
             twd_included_amount = base_line['tax_details']['raw_total_included']
 <<<<<<< HEAD
+<<<<<<< HEAD
 
             if self.l10n_tw_edi_is_b2b:
                 item_price = float_round(twd_excluded_amount / line.quantity, precision_rounding=0.01)
@@ -483,6 +484,8 @@ class AccountMove(models.Model):
                 else:
                     item_price = float_round(twd_included_amount / line.quantity, precision_rounding=0.01)
 =======
+=======
+>>>>>>> upstream/18.0
             quantity = abs(line.quantity)
 
             if self.l10n_tw_edi_is_b2b:
@@ -494,6 +497,9 @@ class AccountMove(models.Model):
                     item_amount = float_round(twd_excluded_amount, precision_rounding=0.01)
                 else:
                     item_price = float_round(twd_included_amount / quantity, precision_rounding=0.01)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                     item_amount = float_round(twd_included_amount, precision_rounding=0.01)
 
@@ -502,7 +508,11 @@ class AccountMove(models.Model):
             # For special tax, we use twd_included_amount
             if tax_type == "4":
 <<<<<<< HEAD
+<<<<<<< HEAD
                 item_price = float_round(twd_included_amount / line.quantity, precision_rounding=0.01)
+=======
+                item_price = float_round(twd_included_amount / quantity, precision_rounding=0.01)
+>>>>>>> upstream/18.0
 =======
                 item_price = float_round(twd_included_amount / quantity, precision_rounding=0.01)
 >>>>>>> upstream/18.0
@@ -519,7 +529,11 @@ class AccountMove(models.Model):
                     "OriginalSequenceNumber": line.l10n_tw_edi_ecpay_item_sequence,
                     "ItemName": line.name[:100],
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "ItemCount": line.quantity,
+=======
+                    "ItemCount": quantity,
+>>>>>>> upstream/18.0
 =======
                     "ItemCount": quantity,
 >>>>>>> upstream/18.0
@@ -531,7 +545,11 @@ class AccountMove(models.Model):
                     "ItemSeq": line.l10n_tw_edi_ecpay_item_sequence,
                     "ItemName": line.name[:100],
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "ItemCount": line.quantity,
+=======
+                    "ItemCount": quantity,
+>>>>>>> upstream/18.0
 =======
                     "ItemCount": quantity,
 >>>>>>> upstream/18.0

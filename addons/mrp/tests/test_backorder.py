@@ -13,7 +13,11 @@ from odoo.tests import Form
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tests.common import TransactionCase
+=======
+from odoo.tests.common import TransactionCase, freeze_time
+>>>>>>> upstream/18.0
 =======
 from odoo.tests.common import TransactionCase, freeze_time
 >>>>>>> upstream/18.0
@@ -647,7 +651,10 @@ class TestMrpProductionBackorder(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1098,6 +1105,9 @@ class TestMrpProductionBackorder(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1529,7 +1539,10 @@ class TestMrpProductionBackorder(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1554,6 +1567,9 @@ class TestMrpProductionBackorder(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1856,6 +1872,10 @@ class TestMrpWorkorderBackorder(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    @freeze_time('2025-10-27 12:00:00')
+>>>>>>> upstream/18.0
 =======
     @freeze_time('2025-10-27 12:00:00')
 >>>>>>> upstream/18.0
@@ -1932,6 +1952,7 @@ class TestMrpWorkorderBackorder(TransactionCase):
         op_6.button_start()
         op_6.button_finish()
         bo_2.button_mark_done()
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2077,6 +2098,8 @@ class TestMrpWorkorderBackorder(TransactionCase):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         self.assertRecordValues(bo_2.workorder_ids, [
             {'state': 'cancel', 'qty_remaining': 0.0, 'duration': 0.0},
             {'state': 'done', 'qty_remaining': 0.0, 'duration': 240.0}
@@ -2114,6 +2137,9 @@ class TestMrpWorkorderBackorder(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

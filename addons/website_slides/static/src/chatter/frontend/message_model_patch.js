@@ -41,7 +41,13 @@ const messagePatch = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.store.env.bus.trigger("reload_rating_popup_composer", data);
+=======
+        if (data) {
+            this.store.env.bus.trigger("reload_rating_popup_composer", data);
+        }
+>>>>>>> upstream/18.0
 =======
         if (data) {
             this.store.env.bus.trigger("reload_rating_popup_composer", data);

@@ -25,5 +25,9 @@ Using SInvoice by Viettel
         "wizard/l10n_vn_edi_cancellation_request_views.xml",
     ],
     "installable": True,
+<<<<<<< HEAD
+=======
+    "uninstall_hook": "uninstall_hook",
+>>>>>>> upstream/18.0
     "license": "LGPL-3",
 }

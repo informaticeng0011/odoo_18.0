@@ -142,6 +142,11 @@ test("Search a message in history", async () => {
     triggerHotkey("Enter");
     await contains(".o-mail-SearchMessagesPanel .o-mail-Message");
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    await click(".o-mail-SearchMessagesPanel .o-mail-MessageCard-jump");
+    await contains(".o-mail-Thread .o-mail-Message.o-highlighted");
+>>>>>>> upstream/18.0
 =======
     await click(".o-mail-SearchMessagesPanel .o-mail-MessageCard-jump");
     await contains(".o-mail-Thread .o-mail-Message.o-highlighted");

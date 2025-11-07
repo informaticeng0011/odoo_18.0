@@ -160,6 +160,10 @@ export const turnStile = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                expiredCallback: "turnstileExpired",
+>>>>>>> upstream/18.0
 =======
                 expiredCallback: "turnstileExpired",
 >>>>>>> upstream/18.0
@@ -748,6 +752,7 @@ export const turnStile = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             // `this` is bound to the turnstile widget calling the callback
             globalThis.turnstileSuccess = function () {
                 const turnstileContainer = this.wrapper.parentElement;
@@ -758,6 +763,8 @@ export const turnStile = {
                 button.classList.remove("disabled");
                 spinner.remove();
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1201,6 +1208,9 @@ export const turnStile = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1517,11 +1527,30 @@ export const turnStile = {
     },
 
     /**
+<<<<<<< HEAD
+=======
+     * Remove spinner if any and enable the button.
+     */
+    cleanSpinner() {
+        const buttonEl = this.spinnerEl?.parentElement;
+        if (buttonEl) {
+            buttonEl.disabled = false;
+            buttonEl.classList.remove("disabled");
+            this.spinnerEl.remove();
+        }
+    },
+
+    /**
+>>>>>>> upstream/18.0
      * @override
      * Discard all library changes to reset the state of the Html.
      */
     destroy: function () {
         this.cleanTurnstile();
+<<<<<<< HEAD
+=======
+        this.cleanSpinner();
+>>>>>>> upstream/18.0
         this._super(...arguments);
     },
 
@@ -1559,6 +1588,7 @@ export const turnStile = {
      * same as addSpinner but does not set innerText
      */
     addSpinnerNoMangle(button) {
+<<<<<<< HEAD
         const spinner = this._createSpinner();
         spinner.classList.add("me-1");
         button.disabled = true;
@@ -1568,11 +1598,26 @@ export const turnStile = {
 
     addSpinner(button) {
         const spinner = this._createSpinner();
+=======
+        this.spinnerEl = this._createSpinner();
+        this.spinnerEl.classList.add("me-1");
+        button.disabled = true;
+        button.classList.add("disabled");
+        button.prepend(this.spinnerEl);
+    },
+
+    addSpinner(button) {
+        this.spinnerEl = this._createSpinner();
+>>>>>>> upstream/18.0
         // avoids double-spacing if the button already contains a space
         button.innerText = " " + button.innerText;
         button.disabled = true;
         button.classList.add("disabled");
+<<<<<<< HEAD
         button.prepend(spinner);
+=======
+        button.prepend(this.spinnerEl);
+>>>>>>> upstream/18.0
     },
 };
 
@@ -1657,6 +1702,12 @@ publicWidget.registry.s_website_form.include({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if (this.$target[0].classList.contains('s_website_form_no_recaptcha')) {
+            return res;
+        }
+>>>>>>> upstream/18.0
 =======
         if (this.$target[0].classList.contains('s_website_form_no_recaptcha')) {
             return res;

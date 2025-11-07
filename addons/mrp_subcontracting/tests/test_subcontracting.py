@@ -224,6 +224,10 @@ class TestSubcontractingFlows(TestMrpSubcontractingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.assertEqual(mo.origin, picking_receipt.name)
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(mo.origin, picking_receipt.name)
 >>>>>>> upstream/18.0
@@ -708,6 +712,10 @@ class TestSubcontractingFlows(TestMrpSubcontractingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.assertEqual(mo.origin, picking_receipt.name)
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(mo.origin, picking_receipt.name)
 >>>>>>> upstream/18.0
@@ -1182,6 +1190,10 @@ class TestSubcontractingFlows(TestMrpSubcontractingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.assertEqual(mo.origin, picking_receipt.name)
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(mo.origin, picking_receipt.name)
 >>>>>>> upstream/18.0
@@ -1916,6 +1928,7 @@ class TestSubcontractingFlows(TestMrpSubcontractingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def test_backorder_with_subcontracting(self):
         """Test that a subcontracted move is not marked as picked when its quantity is updated.
         """
@@ -1955,6 +1968,8 @@ class TestSubcontractingFlows(TestMrpSubcontractingCommon):
         self.assertEqual(backorder.move_ids.mapped('quantity'), [3.0, 1.0])
         self.assertEqual(backorder.move_ids.mapped('picked'), [True, True])
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2613,6 +2628,7 @@ class TestSubcontractingFlows(TestMrpSubcontractingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @freeze_time('2024-01-01')
     def test_bom_overview_availability(self):
         # Create routes for components and the main product
@@ -2667,6 +2683,8 @@ class TestSubcontractingFlows(TestMrpSubcontractingCommon):
         self.assertEqual(bom_data['lines']['leftover_capacity'], 1)
         self.assertEqual(bom_data['lines']['leftover_date'], '01/16/2024')
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2983,7 +3001,10 @@ class TestSubcontractingFlows(TestMrpSubcontractingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3207,6 +3228,7 @@ class TestSubcontractingFlows(TestMrpSubcontractingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3288,6 +3310,8 @@ class TestSubcontractingFlows(TestMrpSubcontractingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3362,6 +3386,7 @@ class TestSubcontractingFlows(TestMrpSubcontractingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3440,6 +3465,8 @@ class TestSubcontractingFlows(TestMrpSubcontractingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3474,6 +3501,7 @@ class TestSubcontractingFlows(TestMrpSubcontractingCommon):
         mo.subcontracting_record_component()
         self.assertFalse(line_to_remove.exists())
 
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3481,6 +3509,56 @@ class TestSubcontractingFlows(TestMrpSubcontractingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+    def test_subcontracted_product_return_locations(self):
+        """
+        Verify that when returning subcontracted and non-subcontracted products:
+        - the picking has destination location set to the supplier location.
+        - The returned move line for the subcontracted product has destination location set to the subcontractor's stock location.
+        - The returned move line for the non-subcontracted product returns to the supplier location.
+        """
+        supplier_location = self.env.ref('stock.stock_location_suppliers')
+        stock_location = self.warehouse.lot_stock_id
+        picking_receipt = self.env['stock.picking'].create({
+            'picking_type_id': self.env.ref('stock.picking_type_in').id,
+            'partner_id': self.subcontractor_partner1.id,
+            'location_id': supplier_location.id,
+            'location_dest_id': stock_location.id,
+            'move_ids': [
+                Command.create({
+                    'name': self.finished.name,
+                    'product_id': self.finished.id,
+                }),
+                Command.create({
+                    'name': self.comp1.name,
+                    'product_id': self.comp1.id,
+                }),
+            ]
+        })
+        picking_receipt.action_confirm()
+        picking_receipt.move_ids.quantity = 1
+        picking_receipt.move_ids.picked = True
+        picking_receipt.button_validate()
+        self.assertEqual(picking_receipt.state, 'done')
+        # Ensure returns to subcontractor location
+        return_form = Form(self.env['stock.return.picking'].with_context(active_id=picking_receipt.id, active_model='stock.picking'))
+        return_wizard = return_form.save()
+        return_wizard.product_return_moves.quantity = 1
+        return_picking = return_wizard._create_return()
+        self.assertEqual(len(return_picking), 1)
+        self.assertEqual(return_picking.location_dest_id, supplier_location)
+        self.assertEqual(return_picking.location_id, stock_location)
+        self.assertRecordValues(return_picking.move_ids.move_line_ids, [
+            {'product_id': self.finished.id, 'location_id': stock_location.id, 'location_dest_id': self.subcontractor_partner1.property_stock_subcontractor.id},
+            {'product_id': self.comp1.id, 'location_id': stock_location.id, 'location_dest_id': supplier_location.id}
+        ])
+        self.assertRecordValues(return_picking.move_ids, [
+            {'product_id': self.finished.id, 'location_id': stock_location.id, 'location_dest_id': self.subcontractor_partner1.property_stock_subcontractor.id},
+            {'product_id': self.comp1.id, 'location_id': stock_location.id, 'location_dest_id': supplier_location.id}
+        ])
+
+
 >>>>>>> upstream/18.0
 @tagged('post_install', '-at_install')
 class TestSubcontractingTracking(TransactionCase):
@@ -3605,6 +3683,11 @@ class TestSubcontractingTracking(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # We shouldn't be able to edit the quantity when there are tracked components
+        self.assertFalse(picking_receipt.move_ids.is_quantity_done_editable)
+>>>>>>> upstream/18.0
 =======
         # We shouldn't be able to edit the quantity when there are tracked components
         self.assertFalse(picking_receipt.move_ids.is_quantity_done_editable)
@@ -3962,6 +4045,11 @@ class TestSubcontractingTracking(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # We shouldn't be able to edit the quantity of a tracked move
+        self.assertFalse(picking_receipt.move_ids.is_quantity_done_editable)
+>>>>>>> upstream/18.0
 =======
         # We shouldn't be able to edit the quantity of a tracked move
         self.assertFalse(picking_receipt.move_ids.is_quantity_done_editable)
@@ -4844,7 +4932,10 @@ class TestSubcontractingSerialMassReceipt(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5105,10 +5196,13 @@ class TestSubcontractingSerialMassReceipt(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         with Form(receipt) as picking_form:
             with picking_form.move_ids_without_package.edit(0) as move:
                 move.quantity = 5.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5279,6 +5373,9 @@ class TestSubcontractingSerialMassReceipt(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5451,10 +5548,13 @@ class TestSubcontractingSerialMassReceipt(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         with Form(backorder) as picking_form:
             with picking_form.move_ids_without_package.edit(0) as move:
                 move.quantity = 3.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5625,6 +5725,9 @@ class TestSubcontractingSerialMassReceipt(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5835,6 +5938,9 @@ class TestSubcontractingSerialMassReceipt(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -13,6 +13,7 @@ def _l10n_tr_nilvera_einvoice_extended_post_init(env):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     """Existing companies that have the Turkish Chart of Accounts set"""
     tr_companies = env["res.company"].search([("chart_template", "=", "tr")], order="parent_path")
     for company in tr_companies:
@@ -27,6 +28,8 @@ def _l10n_tr_nilvera_einvoice_extended_post_init(env):
         })
         chart_template._load_translations(companies=company)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -61,6 +64,9 @@ def _l10n_tr_nilvera_einvoice_extended_post_init(env):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

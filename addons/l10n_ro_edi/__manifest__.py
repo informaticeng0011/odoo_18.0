@@ -19,5 +19,9 @@ E-invoice implementation for Romania
     ],
     'installable': True,
     'auto_install': True,
+<<<<<<< HEAD
+=======
+    'uninstall_hook': 'uninstall_hook',
+>>>>>>> upstream/18.0
     'license': 'LGPL-3',
 }

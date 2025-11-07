@@ -2,3 +2,10 @@
 
 from . import models
 from . import wizard
+<<<<<<< HEAD
+=======
+
+
+def uninstall_hook(env):
+    env["res.partner"]._clear_removed_edi_formats("vn_sinvoice")
+>>>>>>> upstream/18.0

@@ -344,7 +344,12 @@ class IrAsset(models.Model):
             if addon not in installed:
                 # Assert that the path is in the installed addons
 <<<<<<< HEAD
+<<<<<<< HEAD
                 raise Exception(f"Unallowed to fetch files from addon {addon} for file {path_def}")
+=======
+                raise Exception(f"""Unallowed to fetch files from addon {addon} for file {path_def}. """
+                                f"""Addon {addon} is not installed""")
+>>>>>>> upstream/18.0
 =======
                 raise Exception(f"""Unallowed to fetch files from addon {addon} for file {path_def}. """
                                 f"""Addon {addon} is not installed""")

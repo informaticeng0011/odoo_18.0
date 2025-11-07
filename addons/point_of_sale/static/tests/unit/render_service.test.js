@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { describe, expect, test, getFixture } from "@odoo/hoot";
 import { mockFetch } from "@odoo/hoot-mock";
 import { htmlToCanvas } from "@point_of_sale/app/printer/render_service";
@@ -38,6 +39,8 @@ describe("RenderService", () => {
             message: "htmlToCanvas should work with all ascii characters",
         });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -92,6 +95,9 @@ test("htmlToCanvas", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

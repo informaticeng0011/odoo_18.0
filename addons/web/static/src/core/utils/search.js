@@ -34,12 +34,20 @@ function match(pattern, strs) {
 function _match(pattern, str) {
     let totalScore = 0;
     let currentScore = 0;
+<<<<<<< HEAD
     const len = str.length;
+=======
+>>>>>>> upstream/18.0
     let patternIndex = 0;
 
     pattern = unaccent(pattern, false);
     str = unaccent(str, false);
 
+<<<<<<< HEAD
+=======
+    const len = str.length;
+
+>>>>>>> upstream/18.0
     for (let i = 0; i < len; i++) {
         if (str[i] === pattern[patternIndex]) {
             patternIndex++;

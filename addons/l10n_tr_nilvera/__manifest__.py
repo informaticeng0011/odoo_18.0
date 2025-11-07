@@ -13,5 +13,9 @@ Base module containing core functionalities required by other Nilvera modules.
         'data/uom_data.xml',
     ],
     'post_init_hook': '_l10n_tr_nilvera_post_init',
+<<<<<<< HEAD
+=======
+    'uninstall_hook': 'uninstall_hook',
+>>>>>>> upstream/18.0
     'license': 'LGPL-3',
 }

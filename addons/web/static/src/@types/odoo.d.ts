@@ -131,6 +131,10 @@ class OdooModuleLoader {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    debug: boolean;
+>>>>>>> upstream/18.0
 =======
     debug: boolean;
 >>>>>>> upstream/18.0
