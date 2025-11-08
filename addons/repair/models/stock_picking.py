@@ -237,7 +237,12 @@ class PickingType(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         repair_records = [(i, d, _('Confirmed')) for i, d in picking_type_id_to_dates.items()]
+=======
+        label = self.env._('Confirmed')
+        repair_records = [(i, d, label) for i, d in picking_type_id_to_dates.items()]
+>>>>>>> upstream/18.0
 =======
         label = self.env._('Confirmed')
         repair_records = [(i, d, label) for i, d in picking_type_id_to_dates.items()]

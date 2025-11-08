@@ -6,11 +6,19 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 17.3alpha1+e\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-12-08 10:58+0000\n"
 "PO-Revision-Date: 2024-04-24 08:11+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: \n"
+=======
+"POT-Creation-Date: 2025-11-03 15:42+0000\n"
+"PO-Revision-Date: 2024-04-24 08:11+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de\n"
+>>>>>>> upstream/18.0
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -63,6 +71,7 @@ msgid ""
 "                        &amp;.invoice_note {\n"
 "                            td {\n"
 "                                .address {\n"
+<<<<<<< HEAD
 "                                    &gt; span {\n"
 "                                        color:"
 msgstr ""
@@ -75,6 +84,11 @@ msgstr ""
 "                                .address {\n"
 "                                    &gt; span {\n"
 "                                        color:"
+=======
+"                                    .colored_address {\n"
+"                                        color:"
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: l10n_din5008
 #: model_terms:ir.ui.view,arch_db:l10n_din5008.din5008_css
@@ -97,6 +111,7 @@ msgstr ""
 
 #. module: l10n_din5008
 #: model_terms:ir.ui.view,arch_db:l10n_din5008.report_invoice_document
+<<<<<<< HEAD
 msgid "<span class=\"fw-bold\">Invoicing Address:</span>"
 msgstr "<span class=\"fw-bold\">Rechnungsadresse:</span>"
 
@@ -107,6 +122,8 @@ msgstr "<span class=\"fw-bold\">Rechnungs- und Lieferadresse:</span>"
 
 #. module: l10n_din5008
 #: model_terms:ir.ui.view,arch_db:l10n_din5008.report_invoice_document
+=======
+>>>>>>> upstream/18.0
 msgid "<span class=\"fw-bold\">Beneficiary:</span>"
 msgstr "<span class=\"fw-bold\">Leistungsempfänger:</span>"
 
@@ -297,8 +314,11 @@ msgid "Street2"
 msgstr "Straße 2"
 
 #. module: l10n_din5008
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:l10n_din5008.external_layout_din5008
 #: model_terms:ir.ui.view,arch_db:l10n_din5008.external_layout_din5008_account_move
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:l10n_din5008.report_invoice_document
 msgid "Tax ID"
 msgstr "USt-IdNr."
@@ -321,6 +341,14 @@ msgstr ""
 
 #. module: l10n_din5008
 #: model_terms:ir.ui.view,arch_db:l10n_din5008.report_invoice_document
+<<<<<<< HEAD
+=======
+msgid "VAT"
+msgstr ""
+
+#. module: l10n_din5008
+#: model_terms:ir.ui.view,arch_db:l10n_din5008.report_invoice_document
+>>>>>>> upstream/18.0
 msgid "Vendor Bill"
 msgstr "Lieferantenrechnung"
 

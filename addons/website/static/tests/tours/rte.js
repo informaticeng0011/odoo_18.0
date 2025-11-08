@@ -247,7 +247,11 @@ registerWebsitePreviewTour('rte_translator', {
     run: "click",
 }, {
     content: "Check body",
+<<<<<<< HEAD
     trigger: ":iframe body:not(:has(#wrap p font:first:contains(/^paragraphs <b>describing</b>$/)))",
+=======
+    trigger: ":iframe body:not(:has(#wrap p font:first:text(paragraphs <b>describing</b>)))",
+>>>>>>> upstream/18.0
 },
 ...clickOnEditAndWaitEditMode(),
 {

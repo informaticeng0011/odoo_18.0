@@ -6,7 +6,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 17.1alpha1\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2023-09-07 07:50+0000\n"
+=======
+"POT-Creation-Date: 2025-11-03 15:45+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2023-09-07 07:51+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -22,6 +26,14 @@ msgid "ABM Code"
 msgstr "Código ABM"
 
 #. module: l10n_mx
+<<<<<<< HEAD
+=======
+#: model:ir.model,name:l10n_mx.model_account_account
+msgid "Account"
+msgstr ""
+
+#. module: l10n_mx
+>>>>>>> upstream/18.0
 #: model:ir.model,name:l10n_mx.model_account_chart_template
 msgid "Account Chart Template"
 msgstr "Plantilla del plan de cuentas"
@@ -32,12 +44,15 @@ msgid "Activity"
 msgstr "Actividad"
 
 #. module: l10n_mx
+<<<<<<< HEAD
 #: model_terms:res.company,invoice_terms_html:l10n_mx.demo_company_mx
 msgid "All our contractual relations will be governed exclusively by Mexico law."
 msgstr ""
 "Todas nuestras relaciones contractuales se regirán solo por las leyes mexicanas."
 
 #. module: l10n_mx
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model,name:l10n_mx.model_res_bank
 msgid "Bank"
 msgstr "Banco"
@@ -48,6 +63,7 @@ msgid "Bank Accounts"
 msgstr "Cuentas bancarias"
 
 #. module: l10n_mx
+<<<<<<< HEAD
 #: model_terms:res.company,invoice_terms_html:l10n_mx.demo_company_mx
 msgid ""
 "Below text serves as a suggestion and doesn’t engage Odoo S.A. responsibility."
@@ -56,12 +72,15 @@ msgstr ""
 "responsabilidad."
 
 #. module: l10n_mx
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:l10n_mx.field_account_setup_bank_manual_config__l10n_mx_edi_clabe
 #: model:ir.model.fields,field_description:l10n_mx.field_res_partner_bank__l10n_mx_edi_clabe
 msgid "CLABE"
 msgstr "CLABE"
 
 #. module: l10n_mx
+<<<<<<< HEAD
 #: model_terms:res.company,invoice_terms_html:l10n_mx.demo_company_mx
 msgid ""
 "Certain countries apply withholding at source on the amount of invoices, in "
@@ -91,6 +110,8 @@ msgid "Create your electronic invoices automatically (CFDI format)"
 msgstr "Cree sus facturas electrónicas de forma automática (formato CFDI)"
 
 #. module: l10n_mx
+=======
+>>>>>>> upstream/18.0
 #: model:account.account.tag,name:l10n_mx.tag_credit_balance_account
 msgid "Credit Balance Account"
 msgstr "Cuenta de saldo acreedor"
@@ -112,6 +133,7 @@ msgid "Debit Balance Account"
 msgstr "Cuenta de saldo deudor"
 
 #. module: l10n_mx
+<<<<<<< HEAD
 #: model_terms:res.company,invoice_terms_html:l10n_mx.demo_company_mx
 msgid ""
 "ESCUELA KEMPER URGATE undertakes to do its best to supply performant services "
@@ -128,6 +150,11 @@ msgstr ""
 "circunstancia, hacer que ESCUELA KEMPER URGATE comparezca como externo en el "
 "contexto de cualquier demanda por daños y perjuicios presentada contra el "
 "cliente por parte de un consumidor final."
+=======
+#: model:ir.model,name:l10n_mx.model_account_tax
+msgid "ETA tax codes mixin"
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: l10n_mx
 #. odoo-python
@@ -136,6 +163,7 @@ msgid "Effectively Paid"
 msgstr "Pago efectivo"
 
 #. module: l10n_mx
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -841,6 +869,8 @@ msgstr "Otros Ingresos"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:account.report.column,name:l10n_mx.diot_report_exempt
 msgid "Exempt"
 msgstr "Exento"
@@ -884,7 +914,10 @@ msgstr "Exento"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1001,6 +1034,9 @@ msgstr "Importaciones exentas"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1086,6 +1122,16 @@ msgid "Factor Type"
 msgstr "Tipo de factor"
 
 #. module: l10n_mx
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:l10n_mx.field_account_setup_bank_manual_config__fiscal_country_codes
+#: model:ir.model.fields,field_description:l10n_mx.field_res_bank__fiscal_country_codes
+#: model:ir.model.fields,field_description:l10n_mx.field_res_partner_bank__fiscal_country_codes
+msgid "Fiscal Country Codes"
+msgstr ""
+
+#. module: l10n_mx
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:l10n_mx.selection__account_tax__l10n_mx_tax_type__ieps
 msgid "IEPS"
 msgstr "IEPS"
@@ -1101,6 +1147,7 @@ msgid "IVA"
 msgstr "IVA"
 
 #. module: l10n_mx
+<<<<<<< HEAD
 #: model_terms:res.company,invoice_terms_html:l10n_mx.demo_company_mx
 msgid ""
 "If a payment is still outstanding more than sixty (60) days after the due "
@@ -1471,6 +1518,13 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+#: model:account.report.column,name:l10n_mx.diot_report_paid_16_imp_wnc
+msgid "Importation 16%"
+msgstr "Importación 16%"
+
+#. module: l10n_mx
+>>>>>>> upstream/18.0
 #: model:account.report.column,name:l10n_mx.diot_report_paid_16_imp
 msgid "Importation 16% - Creditable"
 msgstr "Importación 16% - acreditable"
@@ -1533,6 +1587,9 @@ msgstr "Importaciones intangibles 16% - no acreditables"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1613,6 +1670,7 @@ msgid "Job"
 msgstr "Empleo"
 
 #. module: l10n_mx
+<<<<<<< HEAD
 #: model:ir.model,name:l10n_mx.model_account_journal
 msgid "Journal"
 msgstr "Diario"
@@ -1621,6 +1679,11 @@ msgstr "Diario"
 #: model:ir.model.fields,field_description:l10n_mx.field_res_config_settings__module_l10n_mx_edi
 msgid "Mexican Electronic Invoicing"
 msgstr "Facturación electrónica mexicana"
+=======
+#: model:ir.model.fields.selection,name:l10n_mx.selection__account_tax__l10n_mx_tax_type__local
+msgid "Local"
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: l10n_mx
 #: model:ir.model.fields,help:l10n_mx.field_account_tax__l10n_mx_factor_type
@@ -1670,7 +1733,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1750,6 +1816,7 @@ msgid "No Tax Object"
 msgstr "Sin objeto fiscal"
 
 #. module: l10n_mx
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1877,6 +1944,12 @@ msgstr ""
 "solicitar un pago de interés fijo por un importe correspondiente al 10% del "
 "importe restante. ESCUELA KEMPER URGATE estará autorizada a suspender cualquier "
 "prestación de servicios sin previo aviso en caso de retraso en el pago."
+=======
+#. odoo-python
+#: code:addons/l10n_mx/models/template_mx.py:0
+msgid "Other Income"
+msgstr "Otros Ingresos"
+>>>>>>> upstream/18.0
 
 #. module: l10n_mx
 #: model:account.report.column,name:l10n_mx.diot_report_paid_0
@@ -1922,7 +1995,11 @@ msgstr "Pagado al 0%"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:account.report.column,name:l10n_mx.diot_report_paid_16
+=======
+#: model:account.report.column,name:l10n_mx.diot_report_paid_16_wnc
+>>>>>>> upstream/18.0
 =======
 #: model:account.report.column,name:l10n_mx.diot_report_paid_16_wnc
 >>>>>>> upstream/18.0
@@ -2079,6 +2156,7 @@ msgstr "Pagado al 16%"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:account.report.column,name:l10n_mx.diot_report_paid_16_non_cred
 msgid "Paid 16% - Non-Creditable"
 msgstr "Pagado al 16% - No acreditable"
@@ -2098,6 +2176,8 @@ msgstr "Pagado al 8% - No acreditable"
 msgid "Refunds"
 msgstr "Reembolsos"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2272,6 +2352,9 @@ msgstr "Reembolsos importaciones intangibles 16%"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2354,11 +2437,14 @@ msgid "SAT Tax Type"
 msgstr "Tipo de impuesto SAT"
 
 #. module: l10n_mx
+<<<<<<< HEAD
 #: model_terms:res.company,invoice_terms_html:l10n_mx.demo_company_mx
 msgid "STANDARD TERMS AND CONDITIONS OF SALE"
 msgstr "TÉRMINOS Y CONDICIONES GENERALES DE VENTA"
 
 #. module: l10n_mx
+=======
+>>>>>>> upstream/18.0
 #: model:uom.category,name:l10n_mx.product_uom_categ_service
 msgid "Service"
 msgstr "Servicio"
@@ -2371,10 +2457,18 @@ msgstr "Unidad de servicio"
 #. module: l10n_mx
 #: model:ir.model.fields,help:l10n_mx.field_account_setup_bank_manual_config__l10n_mx_edi_clabe
 #: model:ir.model.fields,help:l10n_mx.field_res_partner_bank__l10n_mx_edi_clabe
+<<<<<<< HEAD
 msgid "Standardized banking cipher for Mexico. More info wikipedia.org/wiki/CLABE"
 msgstr ""
 "Cifra bancaria estandarizada para México. Más información en es.wikipedia.org/"
 "wiki/CLABE"
+=======
+msgid ""
+"Standardized banking cipher for Mexico. More info wikipedia.org/wiki/CLABE"
+msgstr ""
+"Cifra bancaria estandarizada para México. Más información en "
+"es.wikipedia.org/wiki/CLABE"
+>>>>>>> upstream/18.0
 
 #. module: l10n_mx
 #: model:ir.model.fields.selection,name:l10n_mx.selection__account_tax__l10n_mx_factor_type__tasa
@@ -2382,6 +2476,7 @@ msgid "Tasa"
 msgstr "Tasa"
 
 #. module: l10n_mx
+<<<<<<< HEAD
 #: model:ir.model,name:l10n_mx.model_account_tax
 msgid "Tax"
 msgstr "Impuesto"
@@ -2406,11 +2501,22 @@ msgid ""
 msgstr ""
 "Número de tres dígitos asignado por la ABM para identificar a las instituciones "
 "bancarias (ABM es el acrónimo de Asociación de Bancos de México)."
+=======
+#: model:ir.model.fields,help:l10n_mx.field_res_bank__l10n_mx_edi_code
+msgid ""
+"Three-digit number assigned by the ABM to identify banking institutions (ABM "
+"is an acronym for Asociación de Bancos de México)"
+msgstr ""
+"Número de tres dígitos asignado por la ABM para identificar a las "
+"instituciones bancarias (ABM es el acrónimo de Asociación de Bancos de "
+"México)."
+>>>>>>> upstream/18.0
 
 #. module: l10n_mx
 #: model:account.report.column,name:l10n_mx.diot_report_withheld
 msgid "Withheld"
 msgstr "Retenido"
+<<<<<<< HEAD
 
 #. module: l10n_mx
 #: model_terms:res.company,invoice_terms_html:l10n_mx.demo_company_mx
@@ -2418,3 +2524,5 @@ msgid "You should update this document to reflect your T&amp;C."
 msgstr ""
 "Le recomendamos actualizar este documento de acuerdo a sus Términos y "
 "Condiciones."
+=======
+>>>>>>> upstream/18.0

@@ -6,17 +6,26 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0+e\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-04-11 07:53+0000\n"
 "PO-Revision-Date: 2024-04-11 07:53+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: \n"
+=======
+"POT-Creation-Date: 2025-11-03 15:39+0000\n"
+"PO-Revision-Date: 2024-04-11 07:53+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: bg\n"
+>>>>>>> upstream/18.0
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
 #. module: l10n_bg
+<<<<<<< HEAD
 #: model:account.tax,description:l10n_bg.1_l10n_bg_sale_vat_0_140
 #: model:account.tax,description:l10n_bg.2_l10n_bg_sale_vat_0_140
 #: model:account.tax,name:l10n_bg.1_l10n_bg_sale_vat_0_140
@@ -450,6 +459,11 @@ msgstr "Привлечени средства по депозитни сметк
 #: model:account.account.template,name:l10n_bg.l10n_bg_445
 msgid "Awarded receivables"
 msgstr "Присъдени вземания"
+=======
+#: model:ir.model,name:l10n_bg.model_account_chart_template
+msgid "Account Chart Template"
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: l10n_bg
 #: model:account.report.column,name:l10n_bg.l10n_bg_tax_report_balance
@@ -457,6 +471,7 @@ msgid "Balance"
 msgstr "Баланс"
 
 #. module: l10n_bg
+<<<<<<< HEAD
 #: model:account.account,name:l10n_bg.1_l10n_bg_141
 #: model:account.account,name:l10n_bg.2_l10n_bg_141
 #: model:account.account.template,name:l10n_bg.l10n_bg_141
@@ -808,11 +823,14 @@ msgid "Deferred tax estimates"
 msgstr "Разчети по отсрочени данъци"
 
 #. module: l10n_bg
+=======
+>>>>>>> upstream/18.0
 #: model:account.report.line,name:l10n_bg.l10n_bg_tax_report_12_2
 msgid "Deliveries under Art. 82, para. 2-6"
 msgstr "Доставки по чл. 82, ал. 2-6"
 
 #. module: l10n_bg
+<<<<<<< HEAD
 #: model:account.account,name:l10n_bg.1_l10n_bg_301
 #: model:account.account,name:l10n_bg.2_l10n_bg_301
 #: model:account.account.template,name:l10n_bg.l10n_bg_301
@@ -1725,11 +1743,14 @@ msgid "Internal settlements on intrabank operations"
 msgstr "Вътрешни разчети по вътрешнобанкови операции"
 
 #. module: l10n_bg
+=======
+>>>>>>> upstream/18.0
 #: model:account.report.line,name:l10n_bg.l10n_bg_tax_report_12_1
 msgid "Intra-community acquisitions"
 msgstr "Вътрешнообщностни придобивания"
 
 #. module: l10n_bg
+<<<<<<< HEAD
 #: model:account.account,name:l10n_bg.1_l10n_bg_224
 #: model:account.account,name:l10n_bg.2_l10n_bg_224
 #: model:account.account.template,name:l10n_bg.l10n_bg_224
@@ -2828,6 +2849,8 @@ msgid "Sales revenue"
 msgstr "Приходи от продажби"
 
 #. module: l10n_bg
+=======
+>>>>>>> upstream/18.0
 #: model:account.report.line,name:l10n_bg.l10n_bg_tax_report_a
 msgid "Section A: Data on value added tax charged"
 msgstr "Секция A: Данни за начисления данък върху добавената стойност"
@@ -2854,8 +2877,20 @@ msgstr "Секция E: Възстановяем ДДС"
 
 #. module: l10n_bg
 #: model:account.report.line,name:l10n_bg.l10n_bg_tax_report_b_2
+<<<<<<< HEAD
 msgid "Tax base of the received deliveries, VAT, the received deliveries under art. 82, para 2-6 of the VAT Act, the import, as well as the tax base of the received deliveries, used for making deliveries under art. 69, para 2 of the VAT Act"
 msgstr "Данъчна основа на получените доставки, ВОП, получените доставки по чл.82, ал.2-6 от ЗДДС, вноса, както и данъчната основа на получени доставки, използвани за извършване на доставки по чл.69, ал.2 ЗДДС"
+=======
+msgid ""
+"Tax base of the received deliveries, VAT, the received deliveries under art. "
+"82, para 2-6 of the VAT Act, the import, as well as the tax base of the "
+"received deliveries, used for making deliveries under art. 69, para 2 of the "
+"VAT Act"
+msgstr ""
+"Данъчна основа на получените доставки, ВОП, получените доставки по чл.82, "
+"ал.2-6 от ЗДДС, вноса, както и данъчната основа на получени доставки, "
+"използвани за извършване на доставки по чл.69, ал.2 ЗДДС"
+>>>>>>> upstream/18.0
 
 #. module: l10n_bg
 #: model:account.report.line,name:l10n_bg.l10n_bg_tax_report_a_2
@@ -2873,6 +2908,7 @@ msgid "Tax report"
 msgstr "Данъчен отчет"
 
 #. module: l10n_bg
+<<<<<<< HEAD
 #: model:account.account,name:l10n_bg.1_l10n_bg_403
 #: model:account.account,name:l10n_bg.2_l10n_bg_403
 #: model:account.account.template,name:l10n_bg.l10n_bg_403
@@ -3012,6 +3048,33 @@ msgstr "[11] - данъчна основа на облагаемите дост�
 #: model:account.report.line,name:l10n_bg.l10n_bg_tax_report_12
 msgid "[12] - tax base of VAT and tax base of received supplies under Article 82, paragraphs 2-6 of the VAT Act"
 msgstr "[12] - данъчна основа на ВОП и данъчна основа на получени доставки по чл.82, ал.2-6 от ЗДДС"
+=======
+#: model:account.report.line,name:l10n_bg.l10n_bg_tax_report_01
+msgid ""
+"[01] Total amount of the tax bases for VAT taxation (amount from class 11 to "
+"class 16)"
+msgstr ""
+"[01] Общ размер на данъчните основи за облагане с ДДС (сума от кл.11 до "
+"кл.16)"
+
+#. module: l10n_bg
+#: model:account.report.line,name:l10n_bg.l10n_bg_tax_report_11
+msgid ""
+"[11] - tax base of taxable supplies, incl. deliveries under the conditions "
+"of distance sales with a place of performance on the territory of the country"
+msgstr ""
+"[11] - данъчна основа на облагаемите доставки, вкл. доставките при условията "
+"на дистанционни продажби с място на изпълнение на територията на страната  "
+
+#. module: l10n_bg
+#: model:account.report.line,name:l10n_bg.l10n_bg_tax_report_12
+msgid ""
+"[12] - tax base of VAT and tax base of received supplies under Article 82, "
+"paragraphs 2-6 of the VAT Act"
+msgstr ""
+"[12] - данъчна основа на ВОП и данъчна основа на получени доставки по чл.82, "
+"ал.2-6 от ЗДДС"
+>>>>>>> upstream/18.0
 
 #. module: l10n_bg
 #: model:account.report.line,name:l10n_bg.l10n_bg_tax_report_13
@@ -3030,11 +3093,17 @@ msgstr "[15] - данъчна основа на ВОД на стоки"
 
 #. module: l10n_bg
 #: model:account.report.line,name:l10n_bg.l10n_bg_tax_report_16
+<<<<<<< HEAD
 msgid "[16] Tax base of supplies under Articles 140, 146 and 173 of the VAT Act "
+=======
+msgid ""
+"[16] Tax base of supplies under Articles 140, 146 and 173 of the VAT Act "
+>>>>>>> upstream/18.0
 msgstr "[16] - данъчна основа на доставки по чл.140, 146 и чл.173 ЗДДС"
 
 #. module: l10n_bg
 #: model:account.report.line,name:l10n_bg.l10n_bg_tax_report_17
+<<<<<<< HEAD
 msgid "[17] Tax base for supplies of services under Article 21, paragraph 2 with a place of performance on the territory of another member state"
 msgstr "[17] Данъчна основа на доставки на услуги по чл.21, ал.2 с място на изпълнение на територията на друга страна членка"
 
@@ -3042,6 +3111,26 @@ msgstr "[17] Данъчна основа на доставки на услуги
 #: model:account.report.line,name:l10n_bg.l10n_bg_tax_report_18
 msgid "[18] Tax base of supplies under Article 69, paragraph 2 of the VAT Act, incl. deliveries on the basis of distance selling with a place of performance in the territory of another Member State, as well as deliveries as an intermediary in a tripartite"
 msgstr "[18] Данъчна основа на доставки по чл.69, ал.2 ЗДДС, вкл. доставките при условията на дистанционни продажби с място на изпълнение на територията на друга държава членка, както и на доставки като посредник в тристранна"
+=======
+msgid ""
+"[17] Tax base for supplies of services under Article 21, paragraph 2 with a "
+"place of performance on the territory of another member state"
+msgstr ""
+"[17] Данъчна основа на доставки на услуги по чл.21, ал.2 с място на "
+"изпълнение на територията на друга страна членка"
+
+#. module: l10n_bg
+#: model:account.report.line,name:l10n_bg.l10n_bg_tax_report_18
+msgid ""
+"[18] Tax base of supplies under Article 69, paragraph 2 of the VAT Act, "
+"incl. deliveries on the basis of distance selling with a place of "
+"performance in the territory of another Member State, as well as deliveries "
+"as an intermediary in a tripartite"
+msgstr ""
+"[18] Данъчна основа на доставки по чл.69, ал.2 ЗДДС, вкл. доставките при "
+"условията на дистанционни продажби с място на изпълнение на територията на "
+"друга държава членка, както и на доставки като посредник в тристранна"
+>>>>>>> upstream/18.0
 
 #. module: l10n_bg
 #: model:account.report.line,name:l10n_bg.l10n_bg_tax_report_19
@@ -3060,7 +3149,12 @@ msgstr "[21] Начислен ДДС"
 
 #. module: l10n_bg
 #: model:account.report.line,name:l10n_bg.l10n_bg_tax_report_22
+<<<<<<< HEAD
 msgid "[22] VAT charged for VAT and for received deliveries under Art. 82, para 2-6"
+=======
+msgid ""
+"[22] VAT charged for VAT and for received deliveries under Art. 82, para 2-6"
+>>>>>>> upstream/18.0
 msgstr "[22] Начислен ДДС за ВОП и за получени доставки по чл. 82, ал.2-6"
 
 #. module: l10n_bg
@@ -3075,8 +3169,18 @@ msgstr "[24] Начислен ДДС (9%)"
 
 #. module: l10n_bg
 #: model:account.report.line,name:l10n_bg.l10n_bg_tax_report_30
+<<<<<<< HEAD
 msgid "[30] Tax base and tax on the received deliveries, VAT, the received deliveries under art. 82, para. 2-6 of the VAT Act and imports without the right to a tax credit or without tax"
 msgstr "[30] Данъчна основа и данък на получените доставки, ВОП, получените доставки по чл.82, ал. 2-6 от ЗДДС и вноса без право на данъчен кредит или без данък"
+=======
+msgid ""
+"[30] Tax base and tax on the received deliveries, VAT, the received "
+"deliveries under art. 82, para. 2-6 of the VAT Act and imports without the "
+"right to a tax credit or without tax"
+msgstr ""
+"[30] Данъчна основа и данък на получените доставки, ВОП, получените доставки "
+"по чл.82, ал. 2-6 от ЗДДС и вноса без право на данъчен кредит или без данък"
+>>>>>>> upstream/18.0
 
 #. module: l10n_bg
 #: model:account.report.line,name:l10n_bg.l10n_bg_tax_report_31
@@ -3128,7 +3232,13 @@ msgstr "[60] ДДС за възстановяване (кл.20 - кл.40) < 0"
 msgid ""
 "[70] Tax for payment from Art. 50, deducted in accordance with Art. 92, "
 "para. 1 of the VAT Act"
+<<<<<<< HEAD
 msgstr "[70] Данък за плащане по чл. 50, удържан съгласно чл. 92, параграф 1 от Закона за ДДС"
+=======
+msgstr ""
+"[70] Данък за плащане по чл. 50, удържан съгласно чл. 92, параграф 1 от "
+"Закона за ДДС"
+>>>>>>> upstream/18.0
 
 #. module: l10n_bg
 #: model:account.report.line,name:l10n_bg.l10n_bg_tax_report_71
@@ -3140,18 +3250,36 @@ msgstr "[71] Данък за плащане по чл. 50, ефективно п
 msgid ""
 "[80] According to Art. 92, para. 1 of the VAT Act within a 30-day period "
 "from the submission of this declaration"
+<<<<<<< HEAD
 msgstr "[80] Съгласно чл. 92, параграф 1 от Закона за ДДС в рамките на 30-дневен период от подаването на тази декларация"
+=======
+msgstr ""
+"[80] Съгласно чл. 92, параграф 1 от Закона за ДДС в рамките на 30-дневен "
+"период от подаването на тази декларация"
+>>>>>>> upstream/18.0
 
 #. module: l10n_bg
 #: model:account.report.line,name:l10n_bg.l10n_bg_tax_report_81
 msgid ""
 "[81] According to Art. 92, para. 3 of the VAT Act within a 30-day period "
 "from the submission of this declaration"
+<<<<<<< HEAD
 msgstr "[81] Съгласно чл. 92, параграф 3 от Закона за ДДС в рамките на 30-дневен период от подаването на тази декларация"
+=======
+msgstr ""
+"[81] Съгласно чл. 92, параграф 3 от Закона за ДДС в рамките на 30-дневен "
+"период от подаването на тази декларация"
+>>>>>>> upstream/18.0
 
 #. module: l10n_bg
 #: model:account.report.line,name:l10n_bg.l10n_bg_tax_report_82
 msgid ""
 "[82] According to Art. 92, para. 4 of the VAT Act within a 30-day period "
 "from the submission of this declaration"
+<<<<<<< HEAD
 msgstr "[82] Съгласно чл. 92, параграф 4 от Закона за ДДС в рамките на 30-дневен период от подаването на тази декларация"
+=======
+msgstr ""
+"[82] Съгласно чл. 92, параграф 4 от Закона за ДДС в рамките на 30-дневен "
+"период от подаването на тази декларация"
+>>>>>>> upstream/18.0

@@ -4,10 +4,17 @@
 #
 msgid ""
 msgstr ""
+<<<<<<< HEAD
 "Project-Id-Version: Odoo Server saas~17.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-25 14:42+0000\n"
 "PO-Revision-Date: 2024-02-25 14:42+0000\n"
+=======
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-03 15:41+0000\n"
+"PO-Revision-Date: 2025-11-03 15:41+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -18,8 +25,14 @@ msgstr ""
 #. module: l10n_de
 #. odoo-python
 #: code:addons/l10n_de/models/ir_attachment.py:0
+<<<<<<< HEAD
 #, python-format
 msgid "%(attachment_name)s (detached by %(user)s on %(date)s)"
+=======
+msgid ""
+"%(attachment_name)s (detached by %(user)s on "
+"%(date)s)%(attachment_extension)s"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: l10n_de
@@ -606,6 +619,14 @@ msgid "Deductible input tax amounts"
 msgstr ""
 
 #. module: l10n_de
+<<<<<<< HEAD
+=======
+#: model:ir.model,name:l10n_de.model_account_tax
+msgid "ETA tax codes mixin"
+msgstr ""
+
+#. module: l10n_de
+>>>>>>> upstream/18.0
 #: model:account.account.tag,name:l10n_de.tag_de_pl_01
 msgid "G&V: 1-Turnover revenue"
 msgstr ""
@@ -789,7 +810,10 @@ msgstr ""
 
 #. module: l10n_de
 #: model:account.report.line,name:l10n_de.tax_report_de_tag_02
+<<<<<<< HEAD
 #: model:ir.model,name:l10n_de.model_account_tax
+=======
+>>>>>>> upstream/18.0
 msgid "Tax"
 msgstr ""
 
@@ -834,34 +858,49 @@ msgstr ""
 #. module: l10n_de
 #. odoo-python
 #: code:addons/l10n_de/models/account_account.py:0
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 msgid "You can not change the code of an account."
 msgstr ""
 
 #. module: l10n_de
 #. odoo-python
 #: code:addons/l10n_de/models/res_company.py:0
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 msgid "You cannot change the fiscal country."
 msgstr ""
 
 #. module: l10n_de
 #. odoo-python
 #: code:addons/l10n_de/models/ir_attachment.py:0
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 msgid "You cannot remove parts of the audit trail."
 msgstr ""
 
 #. module: l10n_de
 #. odoo-python
 #: code:addons/l10n_de/models/res_company.py:0
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 msgid "Your company's SteuerNummer is not compatible with your state"
 msgstr ""
 
 #. module: l10n_de
 #. odoo-python
 #: code:addons/l10n_de/models/res_company.py:0
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 msgid "Your company's SteuerNummer is not valid"
 msgstr ""

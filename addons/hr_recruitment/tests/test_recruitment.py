@@ -202,7 +202,10 @@ class TestRecruitment(TransactionCase):
         self.env.invalidate_all()
         self.assertEqual(candidate.application_count, 2, 'The applications_count should not change after archiving an application')
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_candidate_related_partner_name(self):
         """
@@ -214,4 +217,7 @@ class TestRecruitment(TransactionCase):
             'email_from': 'Test@test.com'
         })
         self.assertEqual(candidate.partner_id.name, 'Test Name')
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

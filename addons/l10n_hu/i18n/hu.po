@@ -6,10 +6,18 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 17.0+e\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-08-28 16:56+0000\n"
 "PO-Revision-Date: 2024-08-28 16:56+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
+=======
+"POT-Creation-Date: 2025-11-03 15:43+0000\n"
+"PO-Revision-Date: 2024-08-28 16:56+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: hu\n"
+>>>>>>> upstream/18.0
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -56,6 +64,14 @@ msgid "Compensation Surcharge"
 msgstr "Kompenzációs Felár"
 
 #. module: l10n_hu
+<<<<<<< HEAD
+=======
+#: model:ir.model,name:l10n_hu.model_res_partner
+msgid "Contact"
+msgstr ""
+
+#. module: l10n_hu
+>>>>>>> upstream/18.0
 #: model:account.report.line,name:l10n_hu.tax_report_alap_fiz_koron_kivuli
 #: model:account.report.line,name:l10n_hu.tax_report_alap_viss_koron_kivuli
 msgid "Exempt"
@@ -99,6 +115,15 @@ msgid "Journal Entry"
 msgstr "Könyvelési tétel"
 
 #. module: l10n_hu
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:l10n_hu.field_res_partner__l10n_hu_eu_vat
+#: model:ir.model.fields,field_description:l10n_hu.field_res_users__l10n_hu_eu_vat
+msgid "L10N Hu Eu Vat"
+msgstr ""
+
+#. module: l10n_hu
+>>>>>>> upstream/18.0
 #: model:account.report.line,name:l10n_hu.tax_report_base_pay
 #: model:account.report.line,name:l10n_hu.tax_report_vat_pay
 msgid "Payable"

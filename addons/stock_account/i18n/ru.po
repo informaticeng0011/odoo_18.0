@@ -16,8 +16,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* stock_account
 # 
+=======
+# * stock_account
+#
+>>>>>>> upstream/18.0
 =======
 # * stock_account
 #
@@ -86,6 +91,7 @@
 # Nadia Martynova, 2024
 # Ilya Rozhkov, 2024
 # Wil Odoo, 2025
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -584,10 +590,16 @@ msgstr ""
 #
 # "Anastasiia Koroleva (koan)" <koan@odoo.com>, 2025.
 >>>>>>> upstream/18.0
+=======
+# Anastasiia Koroleva, 2025
+#
+# "Anastasiia Koroleva (koan)" <koan@odoo.com>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -783,6 +795,10 @@ msgstr ""
 "POT-Creation-Date: 2025-10-24 18:36+0000\n"
 "PO-Revision-Date: 2025-11-04 05:31+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-10-24 18:36+0000\n"
+"PO-Revision-Date: 2025-11-04 05:31+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: \"Anastasiia Koroleva (koan)\" <koan@odoo.com>\n"
 "Language-Team: Russian <https://translate.odoo.com/projects/odoo-18/"
 "stock_account/ru/>\n"
@@ -791,6 +807,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -857,6 +874,11 @@ msgstr ""
 =======
 "n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
 "(n%100>=11 && n%100<=14)? 2 : 3);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
+=======
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || ("
+"n%100>=11 && n%100<=14)? 2 : 3);\n"
 "X-Generator: Weblate 5.12.2\n"
 >>>>>>> upstream/18.0
 =======
@@ -903,6 +925,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"\n"
+"Затронутые слои оценки: %s"
+>>>>>>> upstream/18.0
 =======
 "\n"
 "Затронутые слои оценки: %s"
@@ -1001,6 +1028,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 " себестоимость по партии/серийному номеру обновлена с %(previous)s до "
 "%(new_cost)s."
@@ -1012,6 +1040,10 @@ msgstr ""
 =======
 " себестоимость по партии/серийному номеру обновлена с %(previous)s до "
 "%(new_cost)s."
+>>>>>>> upstream/18.0
+=======
+" себестоимость по партии/серийному номеру обновлена с %(previous)s до %"
+"(new_cost)s."
 >>>>>>> upstream/18.0
 =======
 " себестоимость по партии/серийному номеру обновлена с %(previous)s до %"
@@ -1090,6 +1122,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "%(user)s changed stock valuation from  %(previous)s to %(new_value)s - %(product)s\n"
 "%(reason)s"
 msgstr ""
@@ -1136,6 +1169,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "%(user)s changed stock valuation from  %(previous)s to %(new_value)s - %"
 "(product)s\n"
 "%(reason)s"
@@ -1155,6 +1190,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1198,11 +1236,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            <small class=\"mx-2 fst-italic\">Use a negative added value to record a decrease in the product value</small>"
 msgstr ""
 ")\n"
 "                           <small class=\"mx-2 fst-italic\">Используйте отрицательную добавленную стоимость, чтобы зафиксировать уменьшение стоимости продукта</small>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1246,6 +1287,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1377,7 +1421,11 @@ msgid "Adjust Valuation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Скорректировать оценку"
+>>>>>>> upstream/18.0
 =======
 msgstr "Скорректировать оценку"
 >>>>>>> upstream/18.0
@@ -1444,8 +1492,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Affect landed costs on reception operations and split them among products to"
 " update their cost price."
+=======
+"Affect landed costs on reception operations and split them among products to "
+"update their cost price."
+>>>>>>> upstream/18.0
 =======
 "Affect landed costs on reception operations and split them among products to "
 "update their cost price."
@@ -1570,6 +1623,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Cannot find a stock input account for the product %s. You must define one on"
 " the product category, or on the location, before processing this operation."
 msgstr ""
@@ -1577,6 +1631,8 @@ msgstr ""
 "обработкой этой операции необходимо определить ее в категории продукта или в"
 " местоположении."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1619,6 +1675,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1667,8 +1726,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "обработкой этой операции необходимо определить ее в категории продукта или в"
 " местоположении."
+=======
+"обработкой этой операции необходимо определить ее в категории продукта или в "
+"местоположении."
+>>>>>>> upstream/18.0
 =======
 "обработкой этой операции необходимо определить ее в категории продукта или в "
 "местоположении."
@@ -1779,8 +1843,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Ошибка конфигурации. Чтобы обработать эту операцию, настройте учетную запись"
 " разницы цен на продукте или его категории."
+=======
+"Ошибка конфигурации. Чтобы обработать эту операцию, настройте учетную запись "
+"разницы цен на продукте или его категории."
+>>>>>>> upstream/18.0
 =======
 "Ошибка конфигурации. Чтобы обработать эту операцию, настройте учетную запись "
 "разницы цен на продукте или его категории."
@@ -1854,7 +1923,11 @@ msgid "Correction of %s (modification of past move)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Корректировка %s (изменение прошлой операции)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Корректировка %s (изменение прошлой операции)"
 >>>>>>> upstream/18.0
@@ -1934,12 +2007,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Costing method change for product category %(category)s: from %(old_method)s"
 " to %(new_method)s."
 msgstr ""
 "Изменение метода калькуляции для категории продукции %(category)s: с "
 "%(old_method)s на %(new_method)s."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1981,6 +2057,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2028,12 +2107,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Counterpart journal items for all incoming stock moves will be posted in this account, unless there is a specific valuation account\n"
 "                set on the source location. This is the default value for all products in this category. It can also directly be set on each product."
 msgstr ""
 "Контрагентные журнальные статьи для всех входящих перемещений запасов будут размещаться на этом счете, если только не установлен специальный счет оценки\n"
 "                установленный для исходного местоположения. Это значение по умолчанию для всех продуктов в данной категории. Его также можно задать непосредственно для каждого продукта."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2081,6 +2163,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2173,7 +2258,11 @@ msgid "Created by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Создано"
+=======
+msgstr "Создано:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Создано:"
 >>>>>>> upstream/18.0
@@ -2407,7 +2496,11 @@ msgid "Created on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Создано"
+=======
+msgstr "Дата создания:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дата создания:"
 >>>>>>> upstream/18.0
@@ -2659,6 +2752,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Due to a change of product category (from %(old_category)s to "
 "%(new_category)s), the costing method has changed for product %(product)s: "
 "from %(old_method)s to %(new_method)s."
@@ -2706,6 +2800,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Due to a change of product category (from %(old_category)s to %"
 "(new_category)s), the costing method has changed for product %(product)s: "
 "from %(old_method)s to %(new_method)s."
@@ -2725,6 +2821,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2793,6 +2892,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Если флажок установлен, оценка будет вестись отдельно по каждой партии/"
+"серийному номеру."
+>>>>>>> upstream/18.0
 =======
 "Если флажок установлен, оценка будет вестись отдельно по каждой партии/"
 "серийному номеру."
@@ -2974,7 +3078,11 @@ msgid "Last Updated by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Последнее обновление"
+=======
+msgstr "Последнее обновление:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Последнее обновление:"
 >>>>>>> upstream/18.0
@@ -3212,7 +3320,11 @@ msgid "Last Updated on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Последнее обновление"
+=======
+msgstr "Дата последнего обновления:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дата последнего обновления:"
 >>>>>>> upstream/18.0
@@ -3416,6 +3528,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Партия %(lot)s имеет отрицательный остаток на складе.\n"
+"Исправьте количество перед включением или отключением оценки по партиям."
+>>>>>>> upstream/18.0
 =======
 "Партия %(lot)s имеет отрицательный остаток на складе.\n"
 "Исправьте количество перед включением или отключением оценки по партиям."
@@ -3501,7 +3618,11 @@ msgid "Lot value manually modified (from %(old)s to %(new)s)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Оценка партии изменена вручную (с %(old)s на %(new)s)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Оценка партии изменена вручную (с %(old)s на %(new)s)"
 >>>>>>> upstream/18.0
@@ -3582,7 +3703,11 @@ msgid "Lot/Serial number Revaluation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Переоценка партии/серийного номера"
+>>>>>>> upstream/18.0
 =======
 msgstr "Переоценка партии/серийного номера"
 >>>>>>> upstream/18.0
@@ -3653,6 +3778,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Для товаров, оцениваемых по партиям, необходимо указать партию/серийный номер"
+>>>>>>> upstream/18.0
 =======
 "Для товаров, оцениваемых по партиям, необходимо указать партию/серийный номер"
 >>>>>>> upstream/18.0
@@ -3737,6 +3866,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Manual: The accounting entries to value the inventory are not posted automatically.\n"
 "        Automated: An accounting entry is automatically created to value the inventory when a product enters or leaves the company.\n"
 "        "
@@ -3744,6 +3874,8 @@ msgstr ""
 "Вручную: Бухгалтерские проводки по оценке запасов не выполняются автоматически.\n"
 "        Автоматизированный: Бухгалтерская проводка автоматически создается для определения стоимости запасов, когда товар поступает в компанию или покидает ее.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3791,6 +3923,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3848,7 +3983,11 @@ msgid "No Reason Given"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Причина не указана"
+>>>>>>> upstream/18.0
 =======
 msgstr "Причина не указана"
 >>>>>>> upstream/18.0
@@ -3932,6 +4071,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Product %(product)s has quantity in valued location %(location)s without any lot.\n"
 "Please assign lots to all your quantities before enabling lot valuation."
 msgstr ""
@@ -3944,6 +4084,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3984,6 +4126,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4028,6 +4173,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4116,7 +4264,11 @@ msgid "Production WIP Account"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Счет НЗП по производству"
+>>>>>>> upstream/18.0
 =======
 msgstr "Счет НЗП по производству"
 >>>>>>> upstream/18.0
@@ -4185,7 +4337,11 @@ msgid "Production WIP Overhead Account"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Счет накладных расходов НЗП по производству"
+>>>>>>> upstream/18.0
 =======
 msgstr "Счет накладных расходов НЗП по производству"
 >>>>>>> upstream/18.0
@@ -4291,7 +4447,11 @@ msgid "Related lot/serial number"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Связанная партия/серийный номер"
+>>>>>>> upstream/18.0
 =======
 msgstr "Связанная партия/серийный номер"
 >>>>>>> upstream/18.0
@@ -4376,6 +4536,7 @@ msgstr "Позиции комплектования к возврату"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -4431,6 +4592,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: code:addons/stock_account/models/product.py:0
 msgid "Revaluation of %(name)s (negative inventory)"
 msgstr "Переоценка %(name)s (отрицательный остаток запасов)"
@@ -4440,6 +4603,9 @@ msgstr "Переоценка %(name)s (отрицательный остаток
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4476,7 +4642,11 @@ msgid "Select an existing lot/serial number to be reevaluated"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Выберите существующую партию/серийный номер для переоценки"
+>>>>>>> upstream/18.0
 =======
 msgstr "Выберите существующую партию/серийный номер для переоценки"
 >>>>>>> upstream/18.0
@@ -4550,6 +4720,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Standard Price: The products are valued at their standard cost defined on the product.\n"
 "        Average Cost (AVCO): The products are valued at weighted average cost.\n"
 "        First In First Out (FIFO): The products are valued supposing those that enter the company first will also leave it first.\n"
@@ -4559,6 +4730,8 @@ msgstr ""
 "        Средняя стоимость (AVCO): Продукция оценивается по средневзвешенной стоимости.\n"
 "        Первым пришел, первым ушел (FIFO): Продукция оценивается исходя из предположения, что те товары, которые первыми поступают в компанию, также первыми ее покидают.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4610,6 +4783,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4754,8 +4930,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Счета ввода и/или вывода запасов не могут совпадать со счетом оценки "
 "запасов."
+=======
+"Счета ввода и/или вывода запасов не могут совпадать со счетом оценки запасов."
+>>>>>>> upstream/18.0
 =======
 "Счета ввода и/или вывода запасов не могут совпадать со счетом оценки запасов."
 >>>>>>> upstream/18.0
@@ -4866,6 +5046,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Для использования автоматической оценки необходимо задать счета учета "
+"запасов."
+>>>>>>> upstream/18.0
 =======
 "Для использования автоматической оценки необходимо задать счета учета "
 "запасов."
@@ -4956,7 +5141,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5006,6 +5194,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5075,6 +5266,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This operation might lead in a loss of data. Valuation will be identical for"
 " all lots/SN. Do you want to proceed ? "
 msgstr ""
@@ -5118,6 +5310,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "This operation might lead in a loss of data. Valuation will be identical for "
 "all lots/SN. Do you want to proceed ? "
 msgstr ""
@@ -5135,6 +5329,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5165,6 +5362,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/stock_account/models/product.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5378,6 +5576,11 @@ msgstr ""
 "the cost of every lot/serial number in stock."
 msgstr ""
 >>>>>>> upstream/18.0
+=======
+"This product is valuated by lot/serial number. Changing the cost will update "
+"the cost of every lot/serial number in stock."
+msgstr ""
+>>>>>>> upstream/18.0
 "Товар оценивается по партиям/серийным номерам. Изменение себестоимости "
 "обновит стоимость для всех партий/серийных номеров на складе."
 
@@ -5397,6 +5600,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5450,6 +5656,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #. module: stock_account
 <<<<<<< HEAD
@@ -5574,6 +5781,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5623,6 +5832,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5702,8 +5914,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Trigger a decrease of the delivered/received quantity in the associated Sale"
 " Order/Purchase Order"
+=======
+"Trigger a decrease of the delivered/received quantity in the associated Sale "
+"Order/Purchase Order"
+>>>>>>> upstream/18.0
 =======
 "Trigger a decrease of the delivered/received quantity in the associated Sale "
 "Order/Purchase Order"
@@ -5807,7 +6024,11 @@ msgid "Updating lot valuation for product %s."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Обновление оценки по партиям для товара %s."
+>>>>>>> upstream/18.0
 =======
 msgstr "Обновление оценки по партиям для товара %s."
 >>>>>>> upstream/18.0
@@ -5921,7 +6142,11 @@ msgid "Valuation Layers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Слои оценки"
+>>>>>>> upstream/18.0
 =======
 msgstr "Слои оценки"
 >>>>>>> upstream/18.0
@@ -6002,7 +6227,11 @@ msgid "Valuation by Lot/Serial number"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Оценка по партиям/серийным номерам"
+>>>>>>> upstream/18.0
 =======
 msgstr "Оценка по партиям/серийным номерам"
 >>>>>>> upstream/18.0
@@ -6069,12 +6298,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Valuation method change for product category %(category)s: from "
 "%(old_method)s to %(new_method)s."
 msgstr ""
 "Изменение метода оценки для категории продукции %(category)s: с "
 "%(old_method)s на %(new_method)s."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6116,6 +6348,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6161,7 +6396,11 @@ msgid "Valuations layers being adjusted"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Корректируемые слои оценки"
+>>>>>>> upstream/18.0
 =======
 msgstr "Корректируемые слои оценки"
 >>>>>>> upstream/18.0
@@ -6245,6 +6484,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Used to value the product when the purchase cost is not known (e.g. inventory adjustment).\n"
 "        Used to compute margins on sale orders."
 msgstr ""
@@ -6293,6 +6533,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "        Used to value the product when the purchase cost is not known (e.g. "
 "inventory adjustment).\n"
 "        Used to compute margins on sale orders."
@@ -6314,6 +6556,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6371,6 +6616,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "When doing automated inventory valuation, counterpart journal items for all outgoing stock moves will be posted in this account,\n"
 "                unless there is a specific valuation account set on the destination location. This is the default value for all products in this category.\n"
 "                It can also directly be set on each product."
@@ -6378,6 +6624,8 @@ msgstr ""
 "При автоматической оценке запасов на этом счете будут отражаться контрагентские статьи журнала для всех исходящих перемещений запасов,\n"
 "                если только для места назначения не установлен специальный счет оценки. Это значение по умолчанию для всех продуктов в данной категории.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6426,6 +6674,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6592,6 +6843,7 @@ msgstr "Модель мастера для переоценки складски
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #: code:addons/stock_account/models/stock_lot.py:0
 >>>>>>> upstream/18.0
@@ -6947,6 +7199,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: code:addons/stock_account/models/stock_lot.py:0
 #: code:addons/stock_account/wizard/stock_valuation_layer_revaluation.py:0
 msgid "You cannot adjust the valuation of a layer with zero quantity"
@@ -6966,6 +7220,9 @@ msgstr "Невозможно скорректировать оценку сло�
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7018,7 +7275,11 @@ msgid "You cannot adjust valuation without a product"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Невозможно скорректировать оценку без указания товара"
+>>>>>>> upstream/18.0
 =======
 msgstr "Невозможно скорректировать оценку без указания товара"
 >>>>>>> upstream/18.0
@@ -7091,6 +7352,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Нельзя изменить метод расчета себестоимости для товара, оцениваемого по "
+"партиям/серийным номерам."
+>>>>>>> upstream/18.0
 =======
 "Нельзя изменить метод расчета себестоимости для товара, оцениваемого по "
 "партиям/серийным номерам."
@@ -7179,6 +7445,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Нельзя изменить категорию товара, оцениваемого по партиям/серийным номерам."
+>>>>>>> upstream/18.0
 =======
 "Нельзя изменить категорию товара, оцениваемого по партиям/серийным номерам."
 >>>>>>> upstream/18.0
@@ -7260,7 +7530,11 @@ msgid "You cannot revalue multiple products at once"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Невозможно переоценить несколько товаров одновременно"
+>>>>>>> upstream/18.0
 =======
 msgstr "Невозможно переоценить несколько товаров одновременно"
 >>>>>>> upstream/18.0
@@ -7333,8 +7607,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "это приведет к созданию записи в журнале, для которой у вас нет прав "
 "доступа."
+=======
+"это приведет к созданию записи в журнале, для которой у вас нет прав доступа."
+>>>>>>> upstream/18.0
 =======
 "это приведет к созданию записи в журнале, для которой у вас нет прав доступа."
 >>>>>>> upstream/18.0
@@ -7392,8 +7670,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You don't have any input valuation account defined on your product category."
 " You must define one before processing this operation."
+=======
+"You don't have any input valuation account defined on your product category. "
+"You must define one before processing this operation."
+>>>>>>> upstream/18.0
 =======
 "You don't have any input valuation account defined on your product category. "
 "You must define one before processing this operation."
@@ -7477,8 +7760,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You don't have any stock input account defined on your product category. You"
 " must define one before processing this operation."
+=======
+"You don't have any stock input account defined on your product category. You "
+"must define one before processing this operation."
+>>>>>>> upstream/18.0
 =======
 "You don't have any stock input account defined on your product category. You "
 "must define one before processing this operation."
@@ -7564,8 +7852,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You don't have any stock valuation account defined on your product category."
 " You must define one before processing this operation."
+=======
+"You don't have any stock valuation account defined on your product category. "
+"You must define one before processing this operation."
+>>>>>>> upstream/18.0
 =======
 "You don't have any stock valuation account defined on your product category. "
 "You must define one before processing this operation."
@@ -7668,7 +7961,11 @@ msgid "valuation graph"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "график оценки"
+>>>>>>> upstream/18.0
 =======
 msgstr "график оценки"
 >>>>>>> upstream/18.0

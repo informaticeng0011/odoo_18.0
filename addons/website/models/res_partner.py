@@ -96,10 +96,13 @@ class Partner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     def _compute_can_publish(self):
         self2 = self.with_context(can_publish_unsudo_main_object=False)
         super(Partner, self2)._compute_can_publish()
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

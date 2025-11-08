@@ -146,7 +146,10 @@ class TestSelfAccessRights(TestHrCommon):
             self.hubert_emp.with_user(self.richard).read(self.protected_fields_emp.keys())
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         # Check simple user can read all public fields of private employee
@@ -158,6 +161,9 @@ class TestSelfAccessRights(TestHrCommon):
         res = self.hubert_emp.with_user(self.richard).read(public_fields)
         self.assertEqual(len(public_fields), len(res[0]))
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

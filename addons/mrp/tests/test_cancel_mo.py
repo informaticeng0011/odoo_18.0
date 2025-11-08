@@ -118,7 +118,10 @@ class TestMrpCancelMO(TestMrpCommon):
         self.assertEqual(mo.state, 'cancel')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -144,6 +147,9 @@ class TestMrpCancelMO(TestMrpCommon):
         with self.assertRaises(UserError):
             mo.unlink()
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

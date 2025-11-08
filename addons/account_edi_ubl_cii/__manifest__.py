@@ -37,6 +37,10 @@ Pro rules and show the errors.
     'auto_install': True,
     'license': 'LGPL-3',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    'uninstall_hook': 'uninstall_hook',
+>>>>>>> upstream/18.0
 =======
     'uninstall_hook': 'uninstall_hook',
 >>>>>>> upstream/18.0

@@ -119,9 +119,16 @@ class MailTracking(models.Model):
                 'new_value_char': new_value.display_name if new_value else ''
             })
         elif col_info['type'] in {'one2many', 'many2many'}:
+<<<<<<< HEAD
             values.update({
                 'old_value_char': ', '.join(initial_value.mapped('display_name')) if initial_value else '',
                 'new_value_char': ', '.join(new_value.mapped('display_name')) if new_value else '',
+=======
+            model_name = self.env['ir.model']._get(field.relation).display_name
+            values.update({
+                'old_value_char': ', '.join(value.display_name or self.env._('Unnamed %(record_model_name)s (%(record_id)s)', record_model_name=model_name, record_id=value.id) for value in initial_value) if initial_value else '',
+                'new_value_char': ', '.join(value.display_name or self.env._('Unnamed %(record_model_name)s (%(record_id)s)', record_model_name=model_name, record_id=value.id) for value in new_value) if new_value else '',
+>>>>>>> upstream/18.0
             })
         else:
             raise NotImplementedError(f'Unsupported tracking on field {field.name} (type {col_info["type"]}')
@@ -257,7 +264,11 @@ class MailTracking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             tracked_fields = TrackedModel.fields_get(self.field_id.mapped('name'), attributes={'string', 'type'})
+=======
+            tracked_fields = TrackedModel.fields_get(self.field_id.mapped('name'), attributes={'digits', 'string', 'type'})
+>>>>>>> upstream/18.0
 =======
             tracked_fields = TrackedModel.fields_get(self.field_id.mapped('name'), attributes={'digits', 'string', 'type'})
 >>>>>>> upstream/18.0
@@ -674,6 +685,10 @@ class MailTracking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    'floatPrecision': col_info.get('digits'),
+>>>>>>> upstream/18.0
 =======
                     'floatPrecision': col_info.get('digits'),
 >>>>>>> upstream/18.0
@@ -1066,6 +1081,10 @@ class MailTracking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    'floatPrecision': col_info.get('digits'),
+>>>>>>> upstream/18.0
 =======
                     'floatPrecision': col_info.get('digits'),
 >>>>>>> upstream/18.0

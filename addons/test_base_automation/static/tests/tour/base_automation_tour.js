@@ -636,7 +636,11 @@ registry.category("web_tour.tours").add("base_automation.on_change_rule_creation
             run: "edit ir.ui.view",
         },
         {
+<<<<<<< HEAD
             trigger: ".ui-menu-item > a:contains(/^View$/)",
+=======
+            trigger: ".ui-menu-item > a:text(View)",
+>>>>>>> upstream/18.0
             run: "click",
         },
         {
@@ -648,7 +652,11 @@ registry.category("web_tour.tours").add("base_automation.on_change_rule_creation
             run: "edit Active",
         },
         {
+<<<<<<< HEAD
             trigger: ".ui-menu-item > a:contains(/^Active$/)",
+=======
+            trigger: ".ui-menu-item > a:text(Active)",
+>>>>>>> upstream/18.0
             run: "click",
         },
         ...stepUtils.saveForm(),

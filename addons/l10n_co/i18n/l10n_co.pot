@@ -4,10 +4,17 @@
 #
 msgid ""
 msgstr ""
+<<<<<<< HEAD
 "Project-Id-Version: Odoo Server 16.1alpha1+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-06 09:35+0000\n"
 "PO-Revision-Date: 2022-12-06 09:35+0000\n"
+=======
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-03 15:41+0000\n"
+"PO-Revision-Date: 2025-11-03 15:41+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -16,6 +23,14 @@ msgstr ""
 "Plural-Forms: \n"
 
 #. module: l10n_co
+<<<<<<< HEAD
+=======
+#: model:ir.model,name:l10n_co.model_account_chart_template
+msgid "Account Chart Template"
+msgstr ""
+
+#. module: l10n_co
+>>>>>>> upstream/18.0
 #: model:ir.ui.menu,name:l10n_co.account_reports_co_statements_menu
 msgid "Colombia"
 msgstr ""
@@ -41,6 +56,7 @@ msgid "Document Code"
 msgstr ""
 
 #. module: l10n_co
+<<<<<<< HEAD
 #: model:l10n_latam.identification.type,name:l10n_co.diplomatic_card
 msgid "INACTIVO - Carné Diplomatico"
 msgstr ""
@@ -51,6 +67,8 @@ msgid "INACTIVO - Cédula"
 msgstr ""
 
 #. module: l10n_co
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model,name:l10n_co.model_l10n_latam_identification_type
 msgid "Identification Types"
 msgstr ""
@@ -71,6 +89,7 @@ msgid "Nit de otro país"
 msgstr ""
 
 #. module: l10n_co
+<<<<<<< HEAD
 #: model:l10n_latam.identification.type,name:l10n_co.civil_registration
 msgid "Registro Civil"
 msgstr ""
@@ -78,6 +97,20 @@ msgstr ""
 #. module: l10n_co
 #: model:l10n_latam.identification.type,name:l10n_co.residence_document
 msgid "Salvoconducto de Permanencia"
+=======
+#: model:l10n_latam.identification.type,name:l10n_co.residence_document
+msgid "PEP (Permiso Especial de Permanencia)"
+msgstr ""
+
+#. module: l10n_co
+#: model:l10n_latam.identification.type,name:l10n_co.48
+msgid "PPT(Permiso Protección Temporal)"
+msgstr ""
+
+#. module: l10n_co
+#: model:l10n_latam.identification.type,name:l10n_co.civil_registration
+msgid "Registro Civil"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: l10n_co

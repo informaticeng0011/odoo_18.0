@@ -173,6 +173,7 @@ registry.category("web_tour.tours").add('website_links_tour', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -399,6 +400,13 @@ registry.category("web_tour.tours").add('website_links_tour', {
         {
             content: "check that we landed on correct page with correct query strings",
             trigger: ".s_title h1:contains(/^Contact us$/)",
+=======
+            expectUnloadPage: true,
+        },
+        {
+            content: "check that we landed on correct page with correct query strings",
+            trigger: ".s_title h1:text(Contact us)",
+>>>>>>> upstream/18.0
             run: function () {
                 const enc = c => encodeURIComponent(c).replace(/%20/g, '+');
                 const expectedUrl = `/contactus?utm_campaign=${enc(campaignValue)}&utm_source=${enc(sourceValue)}&utm_medium=${enc(mediumValue)}`;
@@ -481,6 +489,10 @@ registry.category("web_tour.tours").add('website_links_tour', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -793,6 +805,10 @@ registry.category("web_tour.tours").add('website_links_tour', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0

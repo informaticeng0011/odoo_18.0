@@ -1,6 +1,9 @@
 from . import models
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 
 def uninstall_hook(env):
@@ -12,4 +15,7 @@ def uninstall_hook(env):
         "ubl_sg",
         "xrechnung",
     )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

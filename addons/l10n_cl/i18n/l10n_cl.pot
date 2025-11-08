@@ -4,10 +4,17 @@
 #
 msgid ""
 msgstr ""
+<<<<<<< HEAD
 "Project-Id-Version: Odoo Server 16.5alpha1+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-07 07:42+0000\n"
 "PO-Revision-Date: 2023-09-07 07:42+0000\n"
+=======
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-03 15:40+0000\n"
+"PO-Revision-Date: 2025-11-03 15:40+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -442,6 +449,14 @@ msgid ""
 msgstr ""
 
 #. module: l10n_cl
+<<<<<<< HEAD
+=======
+#: model:ir.model,name:l10n_cl.model_account_tax
+msgid "ETA tax codes mixin"
+msgstr ""
+
+#. module: l10n_cl
+>>>>>>> upstream/18.0
 #: model:l10n_latam.document.type,name:l10n_cl.dc_nc_f_dte
 msgid "Electronic Credit Note"
 msgstr ""
@@ -994,6 +1009,14 @@ msgid "Purchases - Non Recoverable VAT Amount"
 msgstr ""
 
 #. module: l10n_cl
+<<<<<<< HEAD
+=======
+#: model:account.account.tag,name:l10n_cl.tag_cl_purchase_mnt_iec
+msgid "Purchases - Specific Fuel Tax"
+msgstr ""
+
+#. module: l10n_cl
+>>>>>>> upstream/18.0
 #: model:account.account.tag,name:l10n_cl.tag_cl_purchase_imp_sin_cred
 msgid "Purchases - Tax No Credit"
 msgstr ""
@@ -1323,6 +1346,14 @@ msgid "Source Document"
 msgstr ""
 
 #. module: l10n_cl
+<<<<<<< HEAD
+=======
+#: model:account.account.tag,name:l10n_cl.tag_cl_specific_fuel_tax
+msgid "Specific Fuel Tax"
+msgstr ""
+
+#. module: l10n_cl
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:l10n_cl.selection__l10n_latam_document_type__internal_type__stock_picking
 msgid "Stock Delivery"
 msgstr ""
@@ -1358,7 +1389,10 @@ msgid "TMN"
 msgstr ""
 
 #. module: l10n_cl
+<<<<<<< HEAD
 #: model:ir.model,name:l10n_cl.model_account_tax
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:l10n_cl.view_complete_invoice_refund_tree
 msgid "Tax"
 msgstr ""

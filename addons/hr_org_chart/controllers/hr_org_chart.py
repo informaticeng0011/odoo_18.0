@@ -67,9 +67,13 @@ class HrOrgChartController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if not employee_id:  # to check
             return None
         employee_id = int(employee_id)
+=======
+        employee_id = int(employee_id) if employee_id else False
+>>>>>>> upstream/18.0
 =======
         employee_id = int(employee_id) if employee_id else False
 >>>>>>> upstream/18.0
@@ -304,11 +308,17 @@ class HrOrgChartController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         Employee = request.env['hr.employee.public'].with_context(allowed_company_ids=cids)
         employee = Employee.browse(employee_id)
         # check and raise
         return employee if employee.has_access('read') else None
+=======
+        Employee = request.env['hr.employee.public'].with_context(allowed_company_ids=cids)
+        employee = Employee.browse(employee_id)
+        return employee if employee.has_access('read') else Employee.browse()
+>>>>>>> upstream/18.0
 =======
         Employee = request.env['hr.employee.public'].with_context(allowed_company_ids=cids)
         employee = Employee.browse(employee_id)
@@ -673,8 +683,14 @@ class HrOrgChartController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         employee = self._check_employee(employee_id, **kw)
+=======
+        employee = self._check_employee(employee_id, **kw)
+        new_parent_id = kw.get('context')['new_parent_id']
+        new_parent = self._check_employee(new_parent_id, **kw)
+>>>>>>> upstream/18.0
 =======
         employee = self._check_employee(employee_id, **kw)
         new_parent_id = kw.get('context')['new_parent_id']
@@ -1025,10 +1041,13 @@ class HrOrgChartController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         while current.parent_id and len(ancestors) < self._managers_level+1 and current != current.parent_id:
             ancestors += current.parent_id
             current = current.parent_id
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1205,6 +1224,9 @@ class HrOrgChartController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1381,7 +1403,11 @@ class HrOrgChartController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if idx < self._managers_level
+=======
+                if idx < max_level - 1
+>>>>>>> upstream/18.0
 =======
                 if idx < max_level - 1
 >>>>>>> upstream/18.0

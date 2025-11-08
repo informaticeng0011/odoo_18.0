@@ -41,6 +41,10 @@ for more informations, see https://www.facturae.gob.es/face/Paginas/FACE.aspx
     'auto_install': ['l10n_es'],
     'license': 'LGPL-3',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    'uninstall_hook': 'uninstall_hook',
+>>>>>>> upstream/18.0
 =======
     'uninstall_hook': 'uninstall_hook',
 >>>>>>> upstream/18.0

@@ -114,7 +114,11 @@ class ReturnPicking(models.TransientModel):
     def _create_return(self):
         picking = super()._create_return()
 <<<<<<< HEAD
+<<<<<<< HEAD
         if len(picking.move_ids.partner_id) == 1:
+=======
+        if len(picking.move_ids.partner_id) == 1 and picking.partner_id != picking.move_ids.partner_id:
+>>>>>>> upstream/18.0
 =======
         if len(picking.move_ids.partner_id) == 1 and picking.partner_id != picking.move_ids.partner_id:
 >>>>>>> upstream/18.0

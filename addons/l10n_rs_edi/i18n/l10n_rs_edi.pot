@@ -4,10 +4,17 @@
 #
 msgid ""
 msgstr ""
+<<<<<<< HEAD
 "Project-Id-Version: Odoo Server 17.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-27 09:04+0000\n"
 "PO-Revision-Date: 2025-01-27 09:04+0000\n"
+=======
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-03 15:46+0000\n"
+"PO-Revision-Date: 2025-11-03 15:46+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -33,6 +40,14 @@ msgid "Account Move Send"
 msgstr ""
 
 #. module: l10n_rs_edi
+<<<<<<< HEAD
+=======
+#: model:ir.model,name:l10n_rs_edi.model_account_move_send_wizard
+msgid "Account Move Send Wizard"
+msgstr ""
+
+#. module: l10n_rs_edi
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:l10n_rs_edi.res_config_settings_view_form
 msgid "Activate demo environment for sending e-invoice to eFaktura"
 msgstr ""
@@ -83,7 +98,10 @@ msgstr ""
 #. module: l10n_rs_edi
 #. odoo-python
 #: code:addons/l10n_rs_edi/models/res_partner.py:0
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 msgid "Customer identification number should be 8 or 13 digits"
 msgstr ""
 
@@ -94,22 +112,35 @@ msgstr ""
 
 #. module: l10n_rs_edi
 #. odoo-python
+<<<<<<< HEAD
 #: code:addons/l10n_rs_edi/wizard/account_move_send.py:0
 #, python-format
 msgid "Errors when generating the UBL document:"
+=======
+#: code:addons/l10n_rs_edi/models/account_move_send.py:0
+msgid "Errors when submitting the e-invoice to eFaktura:"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: l10n_rs_edi
 #. odoo-python
+<<<<<<< HEAD
 #: code:addons/l10n_rs_edi/wizard/account_move_send.py:0
 #, python-format
 msgid "Errors when submitting the e-invoice to eFaktura:"
+=======
+#: code:addons/l10n_rs_edi/models/account_move.py:0
+msgid "Invalid response from eFaktura: %s"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: l10n_rs_edi
 #: model:ir.model.fields,field_description:l10n_rs_edi.field_account_bank_statement_line__l10n_rs_edi_invoice
 #: model:ir.model.fields,field_description:l10n_rs_edi.field_account_move__l10n_rs_edi_invoice
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_rs_edi.field_account_payment__l10n_rs_edi_invoice
+=======
+>>>>>>> upstream/18.0
 msgid "Invoice Id"
 msgstr ""
 
@@ -127,11 +158,15 @@ msgstr ""
 #. module: l10n_rs_edi
 #: model:ir.model.fields,field_description:l10n_rs_edi.field_account_bank_statement_line__l10n_rs_edi_is_eligible
 #: model:ir.model.fields,field_description:l10n_rs_edi.field_account_move__l10n_rs_edi_is_eligible
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_rs_edi.field_account_payment__l10n_rs_edi_is_eligible
+=======
+>>>>>>> upstream/18.0
 msgid "L10N Rs Edi Is Eligible"
 msgstr ""
 
 #. module: l10n_rs_edi
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_rs_edi.field_account_move_send__l10n_rs_edi_send_enable
 msgid "L10N Rs Edi Send Enable"
 msgstr ""
@@ -145,34 +180,50 @@ msgstr ""
 #. odoo-python
 #: code:addons/l10n_rs_edi/wizard/account_move_send.py:0
 #, python-format
+=======
+#. odoo-python
+#: code:addons/l10n_rs_edi/models/account_move_send.py:0
+>>>>>>> upstream/18.0
 msgid "Please configure the eFaktura API Key in the company settings."
 msgstr ""
 
 #. module: l10n_rs_edi
 #. odoo-python
 #: code:addons/l10n_rs_edi/models/res_partner.py:0
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 msgid "Public Funds ID(JBKJS) must be exactly five digits"
 msgstr ""
 
 #. module: l10n_rs_edi
 #: model:ir.model.fields,field_description:l10n_rs_edi.field_account_bank_statement_line__l10n_rs_edi_purchase_invoice
 #: model:ir.model.fields,field_description:l10n_rs_edi.field_account_move__l10n_rs_edi_purchase_invoice
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_rs_edi.field_account_payment__l10n_rs_edi_purchase_invoice
+=======
+>>>>>>> upstream/18.0
 msgid "Purchase Invoice Id"
 msgstr ""
 
 #. module: l10n_rs_edi
 #. odoo-python
 #: code:addons/l10n_rs_edi/models/account_move.py:0
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 msgid "RS E-Invoice: %s"
 msgstr ""
 
 #. module: l10n_rs_edi
 #: model:ir.model.fields,field_description:l10n_rs_edi.field_account_bank_statement_line__l10n_rs_edi_uuid
 #: model:ir.model.fields,field_description:l10n_rs_edi.field_account_move__l10n_rs_edi_uuid
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_rs_edi.field_account_payment__l10n_rs_edi_uuid
+=======
+>>>>>>> upstream/18.0
 msgid "RS Invoice UUID"
 msgstr ""
 
@@ -185,11 +236,15 @@ msgstr ""
 #. module: l10n_rs_edi
 #: model:ir.model.fields,field_description:l10n_rs_edi.field_account_bank_statement_line__l10n_rs_edi_sales_invoice
 #: model:ir.model.fields,field_description:l10n_rs_edi.field_account_move__l10n_rs_edi_sales_invoice
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_rs_edi.field_account_payment__l10n_rs_edi_sales_invoice
+=======
+>>>>>>> upstream/18.0
 msgid "Sales Invoice Id"
 msgstr ""
 
 #. module: l10n_rs_edi
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_rs_edi.field_account_move_send__l10n_rs_edi_send_cir_checkbox
 msgid "Send To CIR"
 msgstr ""
@@ -202,13 +257,23 @@ msgstr ""
 #. module: l10n_rs_edi
 #: model:ir.model.fields,help:l10n_rs_edi.field_account_move_send__l10n_rs_edi_send_cir_checkbox
 msgid "Send to Central Invoice Register(For B2G and the public sector)"
+=======
+#. odoo-python
+#: code:addons/l10n_rs_edi/models/account_move_send.py:0
+msgid "Send to CIR"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: l10n_rs_edi
 #. odoo-python
+<<<<<<< HEAD
 #: code:addons/l10n_rs_edi/models/account_move.py:0
 #, python-format
 msgid "Sending Failed with Code: [%s] %s"
+=======
+#: code:addons/l10n_rs_edi/models/account_move_send.py:0
+msgid "Send to Central Invoice Register(For B2G and the public sector)"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: l10n_rs_edi
@@ -219,42 +284,60 @@ msgstr ""
 #. module: l10n_rs_edi
 #: model:ir.model.fields,field_description:l10n_rs_edi.field_account_bank_statement_line__l10n_rs_edi_error
 #: model:ir.model.fields,field_description:l10n_rs_edi.field_account_move__l10n_rs_edi_error
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_rs_edi.field_account_payment__l10n_rs_edi_error
+=======
+>>>>>>> upstream/18.0
 msgid "Serbia E-Invoice error"
 msgstr ""
 
 #. module: l10n_rs_edi
 #: model:ir.model.fields,field_description:l10n_rs_edi.field_account_bank_statement_line__l10n_rs_edi_state
 #: model:ir.model.fields,field_description:l10n_rs_edi.field_account_move__l10n_rs_edi_state
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_rs_edi.field_account_payment__l10n_rs_edi_state
+=======
+>>>>>>> upstream/18.0
 msgid "Serbia E-Invoice state"
 msgstr ""
 
 #. module: l10n_rs_edi
 #: model:ir.model.fields,help:l10n_rs_edi.field_account_bank_statement_line__l10n_rs_edi_attachment_file
 #: model:ir.model.fields,help:l10n_rs_edi.field_account_move__l10n_rs_edi_attachment_file
+<<<<<<< HEAD
 #: model:ir.model.fields,help:l10n_rs_edi.field_account_payment__l10n_rs_edi_attachment_file
+=======
+>>>>>>> upstream/18.0
 msgid "Serbia: technical field holding the e-invoice XML data."
 msgstr ""
 
 #. module: l10n_rs_edi
 #: model:ir.model.fields,field_description:l10n_rs_edi.field_account_bank_statement_line__l10n_rs_edi_attachment_file
 #: model:ir.model.fields,field_description:l10n_rs_edi.field_account_move__l10n_rs_edi_attachment_file
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_rs_edi.field_account_payment__l10n_rs_edi_attachment_file
+=======
+>>>>>>> upstream/18.0
 msgid "Serbian E-Invoice XML File"
 msgstr ""
 
 #. module: l10n_rs_edi
 #: model:ir.model.fields,field_description:l10n_rs_edi.field_account_bank_statement_line__l10n_rs_tax_date_obligations_code
 #: model:ir.model.fields,field_description:l10n_rs_edi.field_account_move__l10n_rs_tax_date_obligations_code
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_rs_edi.field_account_payment__l10n_rs_tax_date_obligations_code
+=======
+>>>>>>> upstream/18.0
 msgid "Tax Date Obligations"
 msgstr ""
 
 #. module: l10n_rs_edi
 #: model:ir.model.fields,help:l10n_rs_edi.field_account_bank_statement_line__l10n_rs_edi_is_eligible
 #: model:ir.model.fields,help:l10n_rs_edi.field_account_move__l10n_rs_edi_is_eligible
+<<<<<<< HEAD
 #: model:ir.model.fields,help:l10n_rs_edi.field_account_payment__l10n_rs_edi_is_eligible
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "Technical field to determine if this invoice is eligible to be e-invoiced."
 msgstr ""
@@ -262,7 +345,10 @@ msgstr ""
 #. module: l10n_rs_edi
 #. odoo-python
 #: code:addons/l10n_rs_edi/models/account_move.py:0
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 msgid "There was a problem with the connection with eFaktura: %s"
 msgstr ""
 
@@ -274,7 +360,10 @@ msgstr ""
 #. module: l10n_rs_edi
 #: model:ir.model.fields,help:l10n_rs_edi.field_account_bank_statement_line__l10n_rs_edi_uuid
 #: model:ir.model.fields,help:l10n_rs_edi.field_account_move__l10n_rs_edi_uuid
+<<<<<<< HEAD
 #: model:ir.model.fields,help:l10n_rs_edi.field_account_payment__l10n_rs_edi_uuid
+=======
+>>>>>>> upstream/18.0
 msgid "Unique Identifier for an invoice used as request id"
 msgstr ""
 
@@ -282,8 +371,12 @@ msgstr ""
 #: model:ir.model.fields,help:l10n_rs_edi.field_res_partner__l10n_rs_edi_public_funds
 #: model:ir.model.fields,help:l10n_rs_edi.field_res_users__l10n_rs_edi_public_funds
 msgid ""
+<<<<<<< HEAD
 "Unique Identifier of Public Funds Users ( Jedinstveni Identifikator "
 "Korisnika Javnih Sredstava ) such as Government agencies, public "
+=======
+"Unique Identifier of Public Funds Users such as Government agencies, public "
+>>>>>>> upstream/18.0
 "institutions and state-owned enterprises."
 msgstr ""
 
@@ -294,7 +387,10 @@ msgid "Use Demo Environment"
 msgstr ""
 
 #. module: l10n_rs_edi
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_rs_edi.field_account_move_send__l10n_rs_edi_send_checkbox
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:l10n_rs_edi.view_move_form
 msgid "eFaktura"
 msgstr ""
@@ -312,8 +408,12 @@ msgstr ""
 
 #. module: l10n_rs_edi
 #. odoo-python
+<<<<<<< HEAD
 #: code:addons/l10n_rs_edi/wizard/account_move_send.py:0
 #, python-format
+=======
+#: code:addons/l10n_rs_edi/models/account_move_send.py:0
+>>>>>>> upstream/18.0
 msgid "eFaktura API Key is missing."
 msgstr ""
 
@@ -325,6 +425,9 @@ msgstr ""
 #. module: l10n_rs_edi
 #: model:ir.model.fields,field_description:l10n_rs_edi.field_account_bank_statement_line__l10n_rs_edi_attachment_id
 #: model:ir.model.fields,field_description:l10n_rs_edi.field_account_move__l10n_rs_edi_attachment_id
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_rs_edi.field_account_payment__l10n_rs_edi_attachment_id
+=======
+>>>>>>> upstream/18.0
 msgid "eFaktura XML Attachment"
 msgstr ""

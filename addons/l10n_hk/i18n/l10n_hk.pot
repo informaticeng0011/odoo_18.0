@@ -4,10 +4,17 @@
 #
 msgid ""
 msgstr ""
+<<<<<<< HEAD
 "Project-Id-Version: Odoo Server 16.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-07 09:39+0000\n"
 "PO-Revision-Date: 2023-03-07 09:39+0000\n"
+=======
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-03 15:43+0000\n"
+"PO-Revision-Date: 2025-11-03 15:43+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -16,11 +23,20 @@ msgstr ""
 "Plural-Forms: \n"
 
 #. module: l10n_hk
+<<<<<<< HEAD
+=======
+#: model:ir.model,name:l10n_hk.model_account_chart_template
+msgid "Account Chart Template"
+msgstr ""
+
+#. module: l10n_hk
+>>>>>>> upstream/18.0
 #: model:ir.model,name:l10n_hk.model_res_partner_bank
 msgid "Bank Accounts"
 msgstr ""
 
 #. module: l10n_hk
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_hk.field_account_setup_bank_manual_config__country_code
 #: model:ir.model.fields,field_description:l10n_hk.field_res_partner_bank__country_code
 msgid "Country Code"
@@ -87,9 +103,77 @@ msgstr ""
 msgid ""
 "The account receiving the payment must have a FPS type and a FPS identifier "
 "set."
+=======
+#. odoo-python
+#: code:addons/l10n_hk/models/res_bank.py:0
+msgid "Can't generate a FPS QR code with a currency other than HKD or CNY."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: l10n_hk
 #: model_terms:ir.ui.view,arch_db:l10n_hk.view_partner_bank_form_inherit_account
+<<<<<<< HEAD
 msgid "e.g. +852-67891234"
+=======
+msgid "Documentation"
+msgstr ""
+
+#. module: l10n_hk
+#: model:ir.model.fields.selection,name:l10n_hk.selection__res_partner_bank__proxy_type__email
+msgid "Email Address"
+msgstr ""
+
+#. module: l10n_hk
+#: model:ir.model.fields.selection,name:l10n_hk.selection__res_partner_bank__proxy_type__id
+msgid "FPS ID"
+msgstr ""
+
+#. module: l10n_hk
+#. odoo-python
+#: code:addons/l10n_hk/models/res_bank.py:0
+msgid ""
+"Invalid Email! Please enter a valid email address for account number %s."
+msgstr ""
+
+#. module: l10n_hk
+#. odoo-python
+#: code:addons/l10n_hk/models/res_bank.py:0
+msgid ""
+"Invalid FPS ID! Please enter a valid FPS ID with length 7 or 9 for account "
+"number %s."
+msgstr ""
+
+#. module: l10n_hk
+#. odoo-python
+#: code:addons/l10n_hk/models/res_bank.py:0
+msgid ""
+"Invalid Mobile! Please enter a valid mobile number with format +852-67891234"
+" for account number %s."
+msgstr ""
+
+#. module: l10n_hk
+#: model:ir.model.fields.selection,name:l10n_hk.selection__res_partner_bank__proxy_type__mobile
+msgid "Mobile Number"
+msgstr ""
+
+#. module: l10n_hk
+#: model:ir.model.fields,field_description:l10n_hk.field_account_setup_bank_manual_config__proxy_type
+#: model:ir.model.fields,field_description:l10n_hk.field_res_partner_bank__proxy_type
+msgid "Proxy Type"
+msgstr ""
+
+#. module: l10n_hk
+#. odoo-python
+#: code:addons/l10n_hk/models/res_bank.py:0
+msgid ""
+"The FPS Type must be either ID, Mobile or Email to generate a FPS QR code "
+"for account number %s."
+msgstr ""
+
+#. module: l10n_hk
+#. odoo-python
+#: code:addons/l10n_hk/models/res_bank.py:0
+msgid ""
+"The FPS Type must be either ID, Mobile or Email to generate a FPS QR code."
+>>>>>>> upstream/18.0
 msgstr ""

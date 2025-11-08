@@ -81,6 +81,7 @@ registry.category("web_tour.tours").add("check_free_delivery", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ...tourUtils.addToCart({ productName: "Office Chair Black TEST" }),
 =======
         ...tourUtils.addToCart({ productName: "Office Chair Black TEST", expectUnloadPage: true }),
@@ -308,6 +309,13 @@ registry.category("web_tour.tours").add("check_free_delivery", {
         tourUtils.goToCheckout(),
         {
             trigger: "#o_delivery_methods label:contains(/^Delivery Now Free Over 10$/)",
+=======
+        ...tourUtils.addToCart({ productName: "Office Chair Black TEST", expectUnloadPage: true }),
+        tourUtils.goToCart({ quantity: 1 }),
+        tourUtils.goToCheckout(),
+        {
+            trigger: "#o_delivery_methods label:text(Delivery Now Free Over 10)",
+>>>>>>> upstream/18.0
         },
         {
             content: "Check Free Delivery value to be zero",
@@ -403,7 +411,11 @@ registry.category("web_tour.tours").add("check_free_delivery", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         tourUtils.pay(),
+=======
+        ...tourUtils.pay({ expectUnloadPage: true, waitFinalizeYourPayment: true }),
+>>>>>>> upstream/18.0
 =======
         ...tourUtils.pay({ expectUnloadPage: true, waitFinalizeYourPayment: true }),
 >>>>>>> upstream/18.0

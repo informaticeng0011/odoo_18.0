@@ -13,7 +13,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.3alpha1+e\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-12-26 17:03+0000\n"
+=======
+"POT-Creation-Date: 2025-11-03 15:39+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2023-04-14 14:20+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -72,14 +76,23 @@ msgstr "46T - Ventes ABC"
 #. module: l10n_be
 #: model:account.report.line,name:l10n_be.tax_report_line_47
 msgid "47 - Other exempted operations and operations carried out abroad"
+<<<<<<< HEAD
 msgstr ""
 "47 - Autres opérations exemptées et opérations effectuées à l'étranger"
+=======
+msgstr "47 - Autres opérations exemptées et opérations effectuées à l'étranger"
+>>>>>>> upstream/18.0
 
 #. module: l10n_be
 #: model:account.report.line,name:l10n_be.tax_report_title_operations_sortie_48
 msgid "48 - Credit notes for operations in grids [44] and [46]"
 msgstr ""
+<<<<<<< HEAD
 "48 - Notes de crédit relatives aux opérations inscrites en grilles [44] et [46]"
+=======
+"48 - Notes de crédit relatives aux opérations inscrites en grilles [44] et "
+"[46]"
+>>>>>>> upstream/18.0
 
 #. module: l10n_be
 #: model:account.report.line,name:l10n_be.tax_report_line_48s44
@@ -252,6 +265,14 @@ msgid "Contact"
 msgstr "Contact"
 
 #. module: l10n_be
+<<<<<<< HEAD
+=======
+#: model:ir.model,name:l10n_be.model_account_tax
+msgid "ETA tax codes mixin"
+msgstr ""
+
+#. module: l10n_be
+>>>>>>> upstream/18.0
 #: model:account.report.line,name:l10n_be.tax_report_title_operations_sortie
 msgid "II Outgoing"
 msgstr "II A la sortie"
@@ -297,11 +318,14 @@ msgid "Restrict the use of taxes to a type of product."
 msgstr "Limiter l'utilisation de taxes à un type de produit."
 
 #. module: l10n_be
+<<<<<<< HEAD
 #: model:ir.model,name:l10n_be.model_account_tax
 msgid "Tax"
 msgstr "Taxe"
 
 #. module: l10n_be
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:l10n_be.field_account_tax__tax_scope
 msgid "Tax Scope"
 msgstr "Portée de la taxe"

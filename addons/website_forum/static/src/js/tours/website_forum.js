@@ -86,6 +86,10 @@ registerBackendAndFrontendTour("question", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
     expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -324,14 +328,22 @@ registerBackendAndFrontendTour("question", {
     run: "editor Test",
 },
 {
+<<<<<<< HEAD
     trigger: `.note-editable p:not(:contains(/^<br>$/))`,
+=======
+    trigger: `.note-editable p:not(:text(<br>))`,
+>>>>>>> upstream/18.0
 },
 {
     trigger: ".o_select_menu_toggler",
     content: _t("Insert tags related to your question."),
     tooltipPosition: "top",
     run: "click",
+<<<<<<< HEAD
 }, 
+=======
+},
+>>>>>>> upstream/18.0
 {
     trigger: ".o_select_menu_sticky",
     run: "edit Test",
@@ -428,6 +440,10 @@ registerBackendAndFrontendTour("question", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
     expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -672,13 +688,18 @@ registerBackendAndFrontendTour("question", {
     run: "editor Test",
 },
 {
+<<<<<<< HEAD
     trigger: `.note-editable p:not(:contains(/^<br>$/))`,
+=======
+    trigger: `.note-editable p:not(:text(<br>))`,
+>>>>>>> upstream/18.0
 },
 {
     trigger: "button:contains(\"Post Answer\")",
     content: _t("Click to post your answer."),
     tooltipPosition: "bottom",
     run: "click",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -976,6 +997,10 @@ registerBackendAndFrontendTour("question", {
     expectUnloadPage: true,
 >>>>>>> upstream/18.0
 }, 
+=======
+    expectUnloadPage: true,
+},
+>>>>>>> upstream/18.0
 {
     trigger: ".o_wforum_content_wrapper h3:contains(test)",
 },

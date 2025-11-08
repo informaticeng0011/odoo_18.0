@@ -71,7 +71,11 @@ registerWebsitePreviewTour(
     () => [
         {
             content: "check that the view got fixed",
+<<<<<<< HEAD
             trigger: ":iframe p:contains(/^Test Page View$/)",
+=======
+            trigger: ":iframe p:text(Test Page View)",
+>>>>>>> upstream/18.0
         },
         {
             content: "check that the inherited COW view is still there (created during edit mode)",

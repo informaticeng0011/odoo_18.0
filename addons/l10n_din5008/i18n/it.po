@@ -6,11 +6,19 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 17.3alpha1+e\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-12-08 10:58+0000\n"
 "PO-Revision-Date: 2024-04-24 08:11+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: \n"
+=======
+"POT-Creation-Date: 2025-11-03 15:42+0000\n"
+"PO-Revision-Date: 2024-04-24 08:11+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: it\n"
+>>>>>>> upstream/18.0
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -52,7 +60,11 @@ msgid ""
 "                        &amp;.invoice_note {\n"
 "                            td {\n"
 "                                .address {\n"
+<<<<<<< HEAD
 "                                    &gt; span {\n"
+=======
+"                                    .colored_address {\n"
+>>>>>>> upstream/18.0
 "                                        color:"
 msgstr ""
 
@@ -70,6 +82,7 @@ msgstr ""
 
 #. module: l10n_din5008
 #: model_terms:ir.ui.view,arch_db:l10n_din5008.report_invoice_document
+<<<<<<< HEAD
 msgid "<span class=\"fw-bold\">Invoicing Address:</span>"
 msgstr "<span class=\"fw-bold\">Indirizzo di fatturazione:</span>"
 
@@ -80,6 +93,8 @@ msgstr "<span class=\"fw-bold\">Indirizzo di fatturazione e spedizione:</span>"
 
 #. module: l10n_din5008
 #: model_terms:ir.ui.view,arch_db:l10n_din5008.report_invoice_document
+=======
+>>>>>>> upstream/18.0
 msgid "<span class=\"fw-bold\">Beneficiary:</span>"
 msgstr "<span class=\"fw-bold\">Beneficiario:</span>"
 
@@ -270,8 +285,11 @@ msgid "Street2"
 msgstr "Strada 2"
 
 #. module: l10n_din5008
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:l10n_din5008.external_layout_din5008
 #: model_terms:ir.ui.view,arch_db:l10n_din5008.external_layout_din5008_account_move
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:l10n_din5008.report_invoice_document
 msgid "Tax ID"
 msgstr "Partita IVA"
@@ -292,6 +310,14 @@ msgstr ""
 
 #. module: l10n_din5008
 #: model_terms:ir.ui.view,arch_db:l10n_din5008.report_invoice_document
+<<<<<<< HEAD
+=======
+msgid "VAT"
+msgstr ""
+
+#. module: l10n_din5008
+#: model_terms:ir.ui.view,arch_db:l10n_din5008.report_invoice_document
+>>>>>>> upstream/18.0
 msgid "Vendor Bill"
 msgstr "Fattura fornitore"
 

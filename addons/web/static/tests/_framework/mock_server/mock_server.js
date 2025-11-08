@@ -26,9 +26,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { before, createJobScopedGetter, expect, getCurrent, registerDebugInfo } from "@odoo/hoot";
 import { mockFetch, mockWebSocket } from "@odoo/hoot-mock";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -92,6 +95,7 @@ import {
     mockWebSocket,
     registerDebugInfo,
 } from "@odoo/hoot";
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -192,11 +196,15 @@ import { makeErrorFromResponse, RPCError } from "@web/core/network/rpc";
 =======
 import { makeErrorFromResponse, RPCError } from "@web/core/network/rpc";
 >>>>>>> upstream/18.0
+=======
+import { makeErrorFromResponse, RPCError } from "@web/core/network/rpc";
+>>>>>>> upstream/18.0
 import { registry } from "@web/core/registry";
 import { ensureArray, isIterable } from "@web/core/utils/arrays";
 import { isObject } from "@web/core/utils/objects";
 import { serverState } from "../mock_server_state.hoot";
 import { fetchModelDefinitions, globalCachedFetch, registerModelToFetch } from "../module_set.hoot";
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -490,6 +498,8 @@ import {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 import { DEFAULT_FIELD_PROPERTIES, getFieldDisplayName, S_SERVER_FIELD } from "./mock_fields";
 import {
     getRecordQualifier,
@@ -591,6 +601,9 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -814,6 +827,7 @@ const { DateTime } = luxon;
  *
  * @typedef {import("./mock_model").ModelConstructor} ModelConstructor
  *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1199,6 +1213,9 @@ const { DateTime } = luxon;
 =======
  * @typedef {(this: MockServer, params: OrmParams) => unknown} OrmCallback
 >>>>>>> upstream/18.0
+=======
+ * @typedef {(this: MockServer, params: OrmParams) => unknown} OrmCallback
+>>>>>>> upstream/18.0
  *
  * @typedef {{
  *  args: any[];
@@ -1222,6 +1239,7 @@ const { DateTime } = luxon;
  * @typedef {{
  *  actions?: Partial<MockServer["actions"]>;
  *  lang?: string;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1432,6 +1450,8 @@ const { DateTime } = luxon;
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
  *  lang_parameters?: Partial<MockServer["_lang_parameters"]>;
  *  menus?: MenuDefinition[];
  *  models?: Iterable<ModelConstructor>;
@@ -1504,6 +1524,9 @@ const { DateTime } = luxon;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1743,6 +1766,7 @@ const { DateTime } = luxon;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
  * @typedef {import("@odoo/hoot-mock").ServerWebSocket} ServerWebSocket
  *
@@ -2013,6 +2037,10 @@ const { DateTime } = luxon;
 >>>>>>> upstream/18.0
 =======
  * @typedef {import("@odoo/hoot-mock").ServerWebSocket} ServerWebSocket
+ *
+>>>>>>> upstream/18.0
+=======
+ * @typedef {import("@odoo/hoot").ServerWebSocket} ServerWebSocket
  *
 >>>>>>> upstream/18.0
 =======
@@ -2235,11 +2263,15 @@ const { DateTime } = luxon;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @typedef {{
  *  args?: any[];
  *  context?: Record<string, any>;
  *  [key: string]: any;
  * } & Partial<T>} KwArgs
+=======
+ * @typedef {import("./mock_model").KwArgs} KwArgs
+>>>>>>> upstream/18.0
 =======
  * @typedef {import("./mock_model").KwArgs} KwArgs
 >>>>>>> upstream/18.0
@@ -2638,7 +2670,11 @@ const { DateTime } = luxon;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const authenticateUser = (user) => {
+=======
+function authenticateUser(user) {
+>>>>>>> upstream/18.0
 =======
 function authenticateUser(user) {
 >>>>>>> upstream/18.0
@@ -3029,7 +3065,11 @@ function authenticateUser(user) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -3420,7 +3460,11 @@ function authenticateUser(user) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const deepCopy = (object) => {
+=======
+function deepCopy(object) {
+>>>>>>> upstream/18.0
 =======
 function deepCopy(object) {
 >>>>>>> upstream/18.0
@@ -3831,12 +3875,16 @@ function deepCopy(object) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
 
 /**
  * @param {unknown} error
  */
 const ensureError = (error) => (error instanceof Error ? error : new Error(error));
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -4225,7 +4273,11 @@ const ensureError = (error) => (error instanceof Error ? error : new Error(error
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const getAssignAction = (options) => {
+=======
+function getAssignAction(options) {
+>>>>>>> upstream/18.0
 =======
 function getAssignAction(options) {
 >>>>>>> upstream/18.0
@@ -4624,9 +4676,15 @@ function getAssignAction(options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
 
 const getCurrentMockServer = () => {
+=======
+}
+
+function getCurrentMockServer() {
+>>>>>>> upstream/18.0
 =======
 }
 
@@ -5211,6 +5269,7 @@ function getCurrentMockServer() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
 
 const getCurrentParams = createJobScopedGetter(
@@ -5471,6 +5530,8 @@ const isNil = (value) => value === null || value === undefined;
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 }
 
 /**
@@ -5508,6 +5569,9 @@ function getJsonRpcParams({ headers, body }) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5614,6 +5678,9 @@ function getJsonRpcParams({ headers, body }) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5863,6 +5930,9 @@ function makeServerEnv(models) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6155,8 +6225,13 @@ function makeServerEnv(models) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const match = (target, matchers) =>
     matchers.some(
+=======
+function match(target, matchers) {
+    return matchers.some(
+>>>>>>> upstream/18.0
 =======
 function match(target, matchers) {
     return matchers.some(
@@ -6641,6 +6716,10 @@ function match(target, matchers) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -6933,6 +7012,7 @@ function match(target, matchers) {
 /**
  * @param {string} modelName
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7623,6 +7703,8 @@ function modelNotFoundError(modelName, consequence) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 function modelNotFoundError(modelName, consequence) {
     return new MockServerError(
         `Cannot find a definition for model "${modelName}": ${consequence} (did you forget to use \`defineModels()?\`)`
@@ -7644,6 +7726,9 @@ function modelNotFoundError(modelName, consequence) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7777,6 +7862,7 @@ function modelNotFoundError(modelName, consequence) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const parseTranslations = (translations) =>
     isIterable(translations)
         ? translations
@@ -7794,6 +7880,8 @@ const toDisplayName = (value) => {
     return str[0].toUpperCase() + str.slice(1);
 };
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8112,6 +8200,9 @@ const getCurrentParams = createJobScopedGetter(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8411,6 +8502,12 @@ class MockServerBaseEnvironment {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    /**
+     * @type {import("@web/core/context").Context}
+     */
+>>>>>>> upstream/18.0
 =======
     /**
      * @type {import("@web/core/context").Context}
@@ -9024,6 +9121,7 @@ const R_WEBCLIENT_ROUTE = /(?<step>\/web\/webclient\/\w+)/;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const mockRpcRegistry = registry.category("mock_rpc");
 /** @type {WeakMap<() => any, MockServer>} */
 const mockServers = new WeakMap();
@@ -9300,6 +9398,8 @@ const seenModels = new WeakSet();
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 /** @type {WeakMap<() => any, MockServer>} */
 const mockServers = new WeakMap();
 /** @type {WeakSet<typeof Model>} */
@@ -9372,6 +9472,7 @@ const seenModels = new WeakSet();
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9474,6 +9575,10 @@ const seenModels = new WeakSet();
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+let nextJsonRpcId = 1e9;
 >>>>>>> upstream/18.0
 =======
 
@@ -9621,7 +9726,11 @@ export class MockServer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return mockServer?.started ? mockServer : null;
+=======
+        return mockServer?._started ? mockServer : null;
+>>>>>>> upstream/18.0
 =======
         return mockServer?._started ? mockServer : null;
 >>>>>>> upstream/18.0
@@ -9908,9 +10017,12 @@ export class MockServer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     // Server params
     lang_parameters = {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10126,6 +10238,9 @@ export class MockServer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10272,6 +10387,7 @@ export class MockServer {
         thousands_sep: ",",
         week_start: 7,
     };
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10918,6 +11034,8 @@ export class MockServer {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     /**
      * @private
      * @type {Record<string, Model>}
@@ -11030,6 +11148,9 @@ export class MockServer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11172,6 +11293,7 @@ export class MockServer {
      * @param {Partial<ServerParams>} params
      * @param {DefineOptions<"replace">} [options]
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11557,6 +11679,9 @@ export class MockServer {
 =======
     async configure(params, options) {
 >>>>>>> upstream/18.0
+=======
+    async configure(params, options) {
+>>>>>>> upstream/18.0
         const assign = getAssignAction(options);
         if (params.actions) {
             assign(this, "actions", params.actions);
@@ -11565,6 +11690,7 @@ export class MockServer {
             assign(serverState, "lang", params.lang);
         }
         if (params.lang_parameters) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11912,11 +12038,16 @@ export class MockServer {
             // Never fully replace "_lang_parameters"
             Object.assign(this._lang_parameters, params.lang_parameters);
 >>>>>>> upstream/18.0
+=======
+            // Never fully replace "_lang_parameters"
+            Object.assign(this._lang_parameters, params.lang_parameters);
+>>>>>>> upstream/18.0
         }
         if (params.menus) {
             assign(this, "menus", params.menus);
         }
         if (params.models) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12295,6 +12426,8 @@ export class MockServer {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             assign(
                 this,
                 "_modelSpecs",
@@ -12370,6 +12503,9 @@ export class MockServer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12580,9 +12716,15 @@ export class MockServer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 this.modules[module] ||= { messages: [] };
                 assign(
                     this.modules[module],
+=======
+                this._modules[module] ||= { messages: [] };
+                assign(
+                    this._modules[module],
+>>>>>>> upstream/18.0
 =======
                 this._modules[module] ||= { messages: [] };
                 assign(
@@ -13009,7 +13151,11 @@ export class MockServer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             assign(this.modules.web, "messages", parseTranslations(params.translations));
+=======
+            assign(this._modules.web, "messages", parseTranslations(params.translations));
+>>>>>>> upstream/18.0
 =======
             assign(this._modules.web, "messages", parseTranslations(params.translations));
 >>>>>>> upstream/18.0
@@ -13231,6 +13377,7 @@ export class MockServer {
      * @param {string} [url]
      */
     getWebSockets(url) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13528,6 +13675,8 @@ export class MockServer {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         return url ? this._websockets.filter((ws) => ws.url.includes(url)) : this._websockets;
     }
 
@@ -13605,6 +13754,9 @@ export class MockServer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13767,9 +13919,13 @@ export class MockServer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this._onRoute(["/web/bundle/<string:bundle_name>"], this.loadBundle, {
             pure: true,
         });
+=======
+        this._onRoute(["/web/bundle/<string:bundle_name>"], this.loadBundle);
+>>>>>>> upstream/18.0
 =======
         this._onRoute(["/web/bundle/<string:bundle_name>"], this.loadBundle);
 >>>>>>> upstream/18.0
@@ -13827,6 +13983,7 @@ export class MockServer {
             { final: true }
         );
         this._onRoute(["/web/dataset/resequence"], this.resequence);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14046,6 +14203,8 @@ export class MockServer {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         this._onRoute(["/web/image/<string:model>/<int:id>/<string:field>"], this.loadImage);
         this._onRoute(["/web/webclient/load_menus/<string:unique>"], this.loadMenus);
         this._onRoute(["/web/webclient/translations/<string:unique>"], this.loadTranslations);
@@ -14066,6 +14225,9 @@ export class MockServer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14174,6 +14336,9 @@ export class MockServer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14411,6 +14576,9 @@ export class MockServer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14615,6 +14783,7 @@ export class MockServer {
      * @param {OrmParams} params
      */
     _callOrm(params) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14894,6 +15063,9 @@ export class MockServer {
 =======
         const { args, method, model: modelName, kwargs } = params;
 >>>>>>> upstream/18.0
+=======
+        const { args, method, model: modelName, kwargs } = params;
+>>>>>>> upstream/18.0
 
         // Try to find a model method
         if (modelName) {
@@ -14936,7 +15108,11 @@ export class MockServer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         throw new MockServerError(`unimplemented ORM method: ${modelName}.${method}`);
+=======
+        throw new MockServerError(`Unimplemented ORM method: ${modelName}.${method}`);
+>>>>>>> upstream/18.0
 =======
         throw new MockServerError(`Unimplemented ORM method: ${modelName}.${method}`);
 >>>>>>> upstream/18.0
@@ -15087,7 +15263,11 @@ export class MockServer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for (const [modelMatchers, methodMatchers, callback] of this.ormListeners) {
+=======
+        for (const [modelMatchers, methodMatchers, callback] of this._ormListeners) {
+>>>>>>> upstream/18.0
 =======
         for (const [modelMatchers, methodMatchers, callback] of this._ormListeners) {
 >>>>>>> upstream/18.0
@@ -15378,7 +15558,11 @@ export class MockServer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for (const [routeRegexes, callback, options] of this.routes) {
+=======
+        for (const [routeRegexes, callback, options] of this._routes) {
+>>>>>>> upstream/18.0
 =======
         for (const [routeRegexes, callback, options] of this._routes) {
 >>>>>>> upstream/18.0
@@ -15598,6 +15782,7 @@ export class MockServer {
 
     /**
      * @private
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15944,6 +16129,8 @@ export class MockServer {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
      * @param {Partial<ActionDefinition>} rawAction
      */
     _getAction(rawAction) {
@@ -16039,7 +16226,11 @@ export class MockServer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         `invalid action type "${action.type}" in action ${id}`
+=======
+                        `Invalid action type "${action.type}" in action ${id}`
+>>>>>>> upstream/18.0
 =======
                         `Invalid action type "${action.type}" in action ${id}`
 >>>>>>> upstream/18.0
@@ -16107,6 +16298,7 @@ export class MockServer {
         const model = ModelClass.definition;
 
         // Server model
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16505,6 +16697,8 @@ export class MockServer {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         if (ModelClass._fetch) {
             this._modelNamesToFetch.add(model._name);
         }
@@ -16577,6 +16771,9 @@ export class MockServer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16721,6 +16918,7 @@ export class MockServer {
      * @private
      * @param {string} url
      * @param {RequestInit} init
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18293,6 +18491,8 @@ export class MockServer {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
      */
     async _handleRequest(url, init) {
         const request = new Request(url, init);
@@ -18333,7 +18533,11 @@ export class MockServer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     if (pure) {
+=======
+                    if (pure || result instanceof Response) {
+>>>>>>> upstream/18.0
 =======
                     if (pure || result instanceof Response) {
 >>>>>>> upstream/18.0
@@ -18443,6 +18647,9 @@ export class MockServer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18549,6 +18756,9 @@ export class MockServer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18692,6 +18902,7 @@ export class MockServer {
      * @private
      */
     async _loadModels() {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18906,6 +19117,8 @@ export class MockServer {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         const models = this._modelSpecs;
         const serverModelInheritances = new Set();
         this._modelSpecs = [];
@@ -18982,6 +19195,9 @@ export class MockServer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -19267,6 +19483,9 @@ export class MockServer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -19479,7 +19698,11 @@ export class MockServer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         `invalid _rec_name "${model._rec_name}" on model "${model._name}": field does not exist`
+=======
+                        `Invalid _rec_name "${model._rec_name}" on model "${model._name}": field does not exist`
+>>>>>>> upstream/18.0
 =======
                         `Invalid _rec_name "${model._rec_name}" on model "${model._name}": field does not exist`
 >>>>>>> upstream/18.0
@@ -19539,6 +19762,7 @@ export class MockServer {
                 model._rec_name = "x_name";
             }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19874,6 +20098,8 @@ export class MockServer {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             // Find duplicate models
             if (model._name in this._models) {
                 const existingModel = this._models[model._name];
@@ -19883,6 +20109,7 @@ export class MockServer {
                     model._fields[fieldName] ??= existingModel._fields[fieldName];
                 }
                 Object.setPrototypeOf(Object.getPrototypeOf(model), existingModel);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -20106,10 +20333,16 @@ export class MockServer {
                 throw new MockServerError(
                     `Cannot register model "${model._name}": a server environment property with the same name already exists`
 >>>>>>> upstream/18.0
+=======
+            } else if (model._name in this.env) {
+                throw new MockServerError(
+                    `Cannot register model "${model._name}": a server environment property with the same name already exists`
+>>>>>>> upstream/18.0
                 );
             }
 
             // Register models on mock server
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -20399,6 +20632,8 @@ export class MockServer {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             this._models[model._name] = model;
         }
 
@@ -20471,6 +20706,9 @@ export class MockServer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -20614,6 +20852,7 @@ export class MockServer {
                 if (!modelName) {
                     continue;
                 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -20891,6 +21130,9 @@ export class MockServer {
 =======
                 const parentModel = this._models[modelName];
 >>>>>>> upstream/18.0
+=======
+                const parentModel = this._models[modelName];
+>>>>>>> upstream/18.0
                 if (parentModel) {
                     for (const fieldName in parentModel._fields) {
                         model._fields[fieldName] ??= parentModel._fields[fieldName];
@@ -20905,6 +21147,7 @@ export class MockServer {
                 }
             }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -21282,6 +21525,8 @@ export class MockServer {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             // Re-iterate over fields after inheritances have been applied
             for (const [fieldName, field] of Object.entries(model._fields)) {
                 // Check missing models
@@ -21357,6 +21602,9 @@ export class MockServer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -21594,6 +21842,7 @@ export class MockServer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             }
         }
 
@@ -21605,6 +21854,8 @@ export class MockServer {
                     /** @type {(this: Model, fieldName: string) => void} */
                     let computeFn = compute;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -21906,6 +22157,9 @@ export class MockServer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -22118,7 +22372,11 @@ export class MockServer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 `could not find compute function "${computeFn}" on model "${model._name}"`
+=======
+                                `Could not find compute function "${computeFn}" on model "${model._name}"`
+>>>>>>> upstream/18.0
 =======
                                 `Could not find compute function "${computeFn}" on model "${model._name}"`
 >>>>>>> upstream/18.0
@@ -22174,6 +22432,7 @@ export class MockServer {
                         }
                     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -22465,6 +22724,8 @@ export class MockServer {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                     model._computes[fieldName] = computeFn;
                 } else if (field.related) {
                     // Related field
@@ -22497,7 +22758,11 @@ export class MockServer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             `unknown field "${fieldName}" on ${getRecordQualifier(
+=======
+                            `Unknown field "${fieldName}" on ${getRecordQualifier(
+>>>>>>> upstream/18.0
 =======
                             `Unknown field "${fieldName}" on ${getRecordQualifier(
 >>>>>>> upstream/18.0
@@ -22574,7 +22839,11 @@ export class MockServer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             `duplicate ID ${record.id} in model "${model._name}"`
+=======
+                            `Duplicate ID ${record.id} in model "${model._name}"`
+>>>>>>> upstream/18.0
 =======
                             `Duplicate ID ${record.id} in model "${model._name}"`
 >>>>>>> upstream/18.0
@@ -22723,7 +22992,11 @@ export class MockServer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const IrModelFields = this.models["ir.model.fields"];
+=======
+        const IrModelFields = this._models["ir.model.fields"];
+>>>>>>> upstream/18.0
 =======
         const IrModelFields = this._models["ir.model.fields"];
 >>>>>>> upstream/18.0
@@ -23036,6 +23309,9 @@ export class MockServer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -23233,6 +23509,7 @@ export class MockServer {
     }
 
     /**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23542,6 +23819,8 @@ export class MockServer {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
      * @overload
      * @param {OrmCallback} callback
      */
@@ -23571,6 +23850,7 @@ export class MockServer {
         const model = ensureArray(args.pop() || "*");
 
         if (typeof callback !== "function") {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23833,6 +24113,8 @@ export class MockServer {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             throw new MockServerError(
                 `onRpc: expected callback to be a function, got: ${callback}`
             );
@@ -23855,6 +24137,9 @@ export class MockServer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -23978,7 +24263,11 @@ export class MockServer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.routes.push([routeRegexes, callback, options || {}]);
+=======
+        this._routes.push([routeRegexes, callback, options || {}]);
+>>>>>>> upstream/18.0
 =======
         this._routes.push([routeRegexes, callback, options || {}]);
 >>>>>>> upstream/18.0
@@ -24317,6 +24606,11 @@ export class MockServer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        params.args ||= [];
+        params.kwargs = makeKwArgs(params.kwargs || {});
+>>>>>>> upstream/18.0
 =======
         params.args ||= [];
         params.kwargs = makeKwArgs(params.kwargs || {});
@@ -24602,6 +24896,7 @@ export class MockServer {
         const ormListeners = this._findOrmListeners(params);
         while (ormListeners.length) {
             const result = await callNextOrmCallback();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -24987,6 +25282,9 @@ export class MockServer {
 =======
             if (result !== null && result !== undefined) {
 >>>>>>> upstream/18.0
+=======
+            if (result !== null && result !== undefined) {
+>>>>>>> upstream/18.0
                 return result;
             }
         }
@@ -25019,6 +25317,7 @@ export class MockServer {
                 }
             } else if (model) {
                 if (!resId) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -25074,6 +25373,8 @@ export class MockServer {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                     throw new MockServerError("Actions with a 'model' should also have a 'resId'");
                 }
                 displayName = this.env[model].browse(resId)[0].display_name;
@@ -25097,6 +25398,9 @@ export class MockServer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -25209,7 +25513,11 @@ export class MockServer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             throw new MockServerError(`missing menu ID(s): ${missingMenuIds.join(", ")}`);
+=======
+            throw new MockServerError(`Missing menu ID(s): ${missingMenuIds.join(", ")}`);
+>>>>>>> upstream/18.0
 =======
             throw new MockServerError(`Missing menu ID(s): ${missingMenuIds.join(", ")}`);
 >>>>>>> upstream/18.0
@@ -25338,7 +25646,11 @@ export class MockServer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const langParameters = { ...this.lang_parameters };
+=======
+        const langParameters = { ...this._lang_parameters };
+>>>>>>> upstream/18.0
 =======
         const langParameters = { ...this._lang_parameters };
 >>>>>>> upstream/18.0
@@ -25621,7 +25933,11 @@ export class MockServer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             modules: this.modules,
+=======
+            modules: this._modules,
+>>>>>>> upstream/18.0
 =======
             modules: this._modules,
 >>>>>>> upstream/18.0
@@ -25971,7 +26287,11 @@ export function defineActions(actions, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     return defineParams({ actions }, { mode: "add", ...options }).actions;
+=======
+    before(() => _defineParams({ actions }, { mode: "add", ...options }));
+>>>>>>> upstream/18.0
 =======
     before(() => _defineParams({ actions }, { mode: "add", ...options }));
 >>>>>>> upstream/18.0
@@ -26363,7 +26683,11 @@ export function defineMenus(menus, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     return defineParams({ menus }, { mode: "add", ...options }).menus;
+=======
+    before(() => _defineParams({ menus }, { mode: "add", ...options }));
+>>>>>>> upstream/18.0
 =======
     before(() => _defineParams({ menus }, { mode: "add", ...options }));
 >>>>>>> upstream/18.0
@@ -26759,6 +27083,7 @@ export function defineModels(ModelClasses, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const instance = new ModelClass();
         // we cannot get the `definition` as this will trigger the model creation
         if (instance._fetch) {
@@ -26768,6 +27093,8 @@ export function defineModels(ModelClasses, options) {
 
     return defineParams({ models }, { mode: "add", ...options }).models;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -27063,6 +27390,9 @@ export function defineModels(ModelClasses, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -27357,6 +27687,7 @@ export function defineParams(params, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const assign = getAssignAction(options);
     before(() => {
         const currentParams = getCurrentParams();
@@ -27368,6 +27699,9 @@ export function defineParams(params, options) {
     });
 
     return params;
+=======
+    before(() => _defineParams(params, options));
+>>>>>>> upstream/18.0
 =======
     before(() => _defineParams(params, options));
 >>>>>>> upstream/18.0
@@ -27771,6 +28105,7 @@ export function logout() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  */
 export async function makeMockServer() {
     const mockServer = getCurrentMockServer();
@@ -27789,6 +28124,8 @@ export async function makeMockServer() {
 
     return mockServer.start();
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -28078,6 +28415,9 @@ export async function makeMockServer() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -28394,7 +28734,11 @@ export function onRpc(...args) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     return defineParams({ routes: [args] }, { mode: "add" }).routes;
+=======
+    before(() => _defineParams({ routes: [args] }, { mode: "add" }));
+>>>>>>> upstream/18.0
 =======
     before(() => _defineParams({ routes: [args] }, { mode: "add" }));
 >>>>>>> upstream/18.0
@@ -28826,6 +29170,11 @@ export async function withUser(userId, fn) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+export const S_MODEL_LOADED = Symbol("model-loaded");
+>>>>>>> upstream/18.0
 =======
 
 export const S_MODEL_LOADED = Symbol("model-loaded");

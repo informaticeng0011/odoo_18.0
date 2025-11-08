@@ -4,10 +4,17 @@
 #
 msgid ""
 msgstr ""
+<<<<<<< HEAD
 "Project-Id-Version: Odoo Server 16.3alpha1+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-31 12:42+0000\n"
 "PO-Revision-Date: 2023-03-31 12:42+0000\n"
+=======
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-03 15:45+0000\n"
+"PO-Revision-Date: 2025-11-03 15:45+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -600,6 +607,14 @@ msgid "Company Document Layout"
 msgstr ""
 
 #. module: l10n_ma
+<<<<<<< HEAD
+=======
+#: model:ir.model,name:l10n_ma.model_res_partner
+msgid "Contact"
+msgstr ""
+
+#. module: l10n_ma
+>>>>>>> upstream/18.0
 #: model:account.report.line,name:l10n_ma.tax_report_part_d
 msgid "D - Breakdown of deductions"
 msgstr ""
@@ -615,12 +630,26 @@ msgid "Header text displayed at the top of all reports."
 msgstr ""
 
 #. module: l10n_ma
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/l10n_ma/models/res_partner.py:0
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:l10n_ma.view_company_form
 #: model_terms:ir.ui.view,arch_db:l10n_ma.view_partner_property_form
 msgid "ICE"
 msgstr ""
 
 #. module: l10n_ma
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/l10n_ma/models/res_partner.py:0
+msgid "ICE number should have exactly 15 digits."
+msgstr ""
+
+#. module: l10n_ma
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:l10n_ma.report_invoice_document
 msgid "ICE:"
 msgstr ""
@@ -689,6 +718,7 @@ msgstr ""
 #: model:account.report.line,name:l10n_ma.tax_report_part_b_14_nd
 msgid "Without right to deduct"
 msgstr ""
+<<<<<<< HEAD
 
 #. module: l10n_ma
 #. odoo-python
@@ -701,3 +731,5 @@ msgstr ""
 #: code:addons/l10n_ma/models/res_partner.py:0
 msgid "ICE"
 msgstr ""
+=======
+>>>>>>> upstream/18.0

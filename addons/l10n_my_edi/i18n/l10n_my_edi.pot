@@ -4,6 +4,7 @@
 #
 msgid ""
 msgstr ""
+<<<<<<< HEAD
 "Project-Id-Version: Odoo Server 17.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 <<<<<<< HEAD
@@ -548,6 +549,12 @@ msgstr ""
 "POT-Creation-Date: 2025-05-23 08:19+0000\n"
 "PO-Revision-Date: 2025-05-23 08:19+0000\n"
 >>>>>>> upstream/18.0
+=======
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-03 15:45+0000\n"
+"PO-Revision-Date: 2025-11-03 15:45+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -664,9 +671,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:l10n_my_edi.view_move_form_inherit_l10n_my_myinvois
 msgid ". This warning is non-blocking."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1119,6 +1129,7 @@ msgstr ""
 #: model:ir.model.fields.selection,name:l10n_my_edi.selection__product_template__l10n_my_edi_classification_code__045
 msgid ""
 "(045) Self-billed - Non-monetary payment to agents, dealers or distributors"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1775,6 +1786,8 @@ msgid "<span class=\"text-success\">The TIN validation succeeded.</span>"
 =======
 >>>>>>> upstream/18.0
 msgid "202001234568"
+=======
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: l10n_my_edi
@@ -1896,6 +1909,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2126,7 +2142,10 @@ msgstr ""
 #. module: l10n_my_edi
 #. odoo-python
 #: code:addons/l10n_my_edi/models/account_move.py:0
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "An error occurred while validating the invoice: \"%(property_name)s\" is "
 "invalid."
@@ -2135,12 +2154,16 @@ msgstr ""
 #. module: l10n_my_edi
 #. odoo-python
 #: code:addons/l10n_my_edi/models/account_move.py:0
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 msgid "An unexpected error has occurred."
 msgstr ""
 
 #. module: l10n_my_edi
 #. odoo-python
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2466,12 +2489,16 @@ msgstr ""
 >>>>>>> upstream/18.0
 #: code:addons/l10n_my_edi/models/res_config_settings.py:0
 #, python-format
+=======
+#: code:addons/l10n_my_edi/models/res_config_settings.py:0
+>>>>>>> upstream/18.0
 msgid ""
 "An unexpected error occurred while unregistering. Please try again later."
 msgstr ""
 
 #. module: l10n_my_edi
 #. odoo-python
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2796,6 +2823,9 @@ msgstr ""
 >>>>>>> upstream/18.0
 #: code:addons/l10n_my_edi/models/res_partner.py:0
 #, python-format
+=======
+#: code:addons/l10n_my_edi/models/res_partner.py:0
+>>>>>>> upstream/18.0
 msgid ""
 "An unexpected error occurred while validating the TIN. Please try again "
 "later."
@@ -2807,6 +2837,7 @@ msgid "Army"
 msgstr ""
 
 #. module: l10n_my_edi
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3136,6 +3167,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:l10n_my_edi.selection__res_partner__l10n_my_identification_type__brn
 msgid "Business Registration Number"
 msgstr ""
@@ -3143,13 +3176,17 @@ msgstr ""
 #. module: l10n_my_edi
 #: model:ir.model.fields,help:l10n_my_edi.field_account_bank_statement_line__l10n_my_edi_exemption_reason
 #: model:ir.model.fields,help:l10n_my_edi.field_account_move__l10n_my_edi_exemption_reason
+<<<<<<< HEAD
 #: model:ir.model.fields,help:l10n_my_edi.field_account_payment__l10n_my_edi_exemption_reason
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "Buyer’s sales tax exemption certificate number, special exemption as per gazette orders, etc.\n"
 "Only applicable if you are using a tax with a type 'Exempt'."
 msgstr ""
 
 #. module: l10n_my_edi
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3484,6 +3521,10 @@ msgstr ""
 #. odoo-python
 #: code:addons/l10n_my_edi/models/account_move.py:0
 #, python-format
+=======
+#. odoo-python
+#: code:addons/l10n_my_edi/models/account_move.py:0
+>>>>>>> upstream/18.0
 msgid "Cancel Document"
 msgstr ""
 
@@ -3493,6 +3534,7 @@ msgid "Cancelled"
 msgstr ""
 
 #. module: l10n_my_edi
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3822,6 +3864,14 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+#. odoo-python
+#: code:addons/l10n_my_edi/models/account_move_send.py:0
+msgid "Check Invoice(s)"
+msgstr ""
+
+#. module: l10n_my_edi
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:l10n_my_edi.l10n_my_edi_document_status_update_form
 msgid "Close"
 msgstr ""
@@ -3837,6 +3887,7 @@ msgid "Companies"
 msgstr ""
 
 #. module: l10n_my_edi
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4166,11 +4217,14 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model,name:l10n_my_edi.model_res_config_settings
 msgid "Config Settings"
 msgstr ""
 
 #. module: l10n_my_edi
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4507,11 +4561,14 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model,name:l10n_my_edi.model_res_partner
 msgid "Contact"
 msgstr ""
 
 #. module: l10n_my_edi
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4850,6 +4907,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:l10n_my_edi.field_l10n_my_edi_document_status_update__create_uid
 #: model:ir.model.fields,field_description:l10n_my_edi.field_l10n_my_edi_industry_classification__create_uid
 msgid "Created by"
@@ -4864,7 +4923,10 @@ msgstr ""
 #. module: l10n_my_edi
 #: model:ir.model.fields,field_description:l10n_my_edi.field_account_bank_statement_line__l10n_my_edi_custom_form_reference
 #: model:ir.model.fields,field_description:l10n_my_edi.field_account_move__l10n_my_edi_custom_form_reference
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_my_edi.field_account_payment__l10n_my_edi_custom_form_reference
+=======
+>>>>>>> upstream/18.0
 msgid "Customs Form Reference Number"
 msgstr ""
 
@@ -4988,6 +5050,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields.selection,name:l10n_my_edi.selection__res_company__l10n_my_edi_mode__demo
 msgid "Demo"
 msgstr ""
@@ -5003,6 +5066,8 @@ msgid "Disbursement "
 msgstr ""
 
 #. module: l10n_my_edi
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5343,11 +5408,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields.selection,name:l10n_my_edi.selection__product_template__l10n_my_edi_classification_code__007
 msgid "Donation"
 msgstr ""
 
 #. module: l10n_my_edi
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5677,6 +5745,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields.selection,name:l10n_my_edi.selection__product_template__l10n_my_edi_classification_code__029
 msgid ""
 "EV charging facilities (Installation, rental, sale / purchase or "
@@ -5686,10 +5755,15 @@ msgstr ""
 #. module: l10n_my_edi
 #: model:ir.model.fields.selection,name:l10n_my_edi.selection__product_template__l10n_my_edi_classification_code__010
 msgid "Education fees"
+=======
+#: model:ir.model,name:l10n_my_edi.model_account_tax
+msgid "ETA tax codes mixin"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: l10n_my_edi
 #. odoo-python
+<<<<<<< HEAD
 #: code:addons/l10n_my_edi/models/account_move.py:0
 #, python-format
 msgid "Error importing attachment '' as invoice (decoder=)"
@@ -5915,31 +5989,46 @@ msgstr ""
 #. odoo-python
 #: code:addons/l10n_my_edi/wizard/account_move_send.py:0
 #, python-format
+=======
+#: code:addons/l10n_my_edi/models/account_move_send.py:0
+>>>>>>> upstream/18.0
 msgid "Error when fetching statuses from the E-invoicing service."
 msgstr ""
 
 #. module: l10n_my_edi
 #. odoo-python
+<<<<<<< HEAD
 #: code:addons/l10n_my_edi/wizard/account_move_send.py:0
 #, python-format
+=======
+#: code:addons/l10n_my_edi/models/account_move_send.py:0
+>>>>>>> upstream/18.0
 msgid "Error when generating MyInvois file:"
 msgstr ""
 
 #. module: l10n_my_edi
 #. odoo-python
+<<<<<<< HEAD
 #: code:addons/l10n_my_edi/wizard/account_move_send.py:0
 #, python-format
+=======
+#: code:addons/l10n_my_edi/models/account_move_send.py:0
+>>>>>>> upstream/18.0
 msgid "Error when sending the invoices to the E-invoicing service."
 msgstr ""
 
 #. module: l10n_my_edi
 #. odoo-python
 #: code:addons/l10n_my_edi/models/account_edi_proxy_user.py:0
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 msgid "Failed to contact the E-Invoicing service. Please try again later."
 msgstr ""
 
 #. module: l10n_my_edi
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6302,6 +6391,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:l10n_my_edi.selection__account_tax__l10n_my_tax_type__04
 msgid "High-Value Goods Tax"
 msgstr ""
@@ -6415,7 +6506,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6742,6 +6836,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7091,6 +7188,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:l10n_my_edi.view_partner_form_inherit_l10n_my_myinvois
 msgid "If possible, please"
 msgstr ""
@@ -7315,6 +7413,15 @@ msgstr ""
 #. odoo-python
 #: code:addons/l10n_my_edi/models/res_partner.py:0
 #, python-format
+=======
+#: model:ir.model.fields,help:l10n_my_edi.field_res_config_settings__l10n_my_edi_company_vat
+msgid "Identification Number for selected type"
+msgstr ""
+
+#. module: l10n_my_edi
+#. odoo-python
+#: code:addons/l10n_my_edi/models/res_partner.py:0
+>>>>>>> upstream/18.0
 msgid ""
 "In order to validate the TIN, you must provide the Identification type and "
 "number."
@@ -7326,6 +7433,7 @@ msgid "Ind. Classification"
 msgstr ""
 
 #. module: l10n_my_edi
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7670,6 +7778,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:l10n_my_edi.selection__account_move__l10n_my_edi_state__invalid
 #: model:ir.model.fields.selection,name:l10n_my_edi.selection__res_partner__l10n_my_tin_validation_state__invalid
 msgid "Invalid"
@@ -7678,7 +7788,10 @@ msgstr ""
 #. module: l10n_my_edi
 #. odoo-python
 #: code:addons/l10n_my_edi/models/account_move.py:0
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "It has been more than 72h since the invoice validation, you can no longer cancel it.\n"
 "Instead, you should issue a debit or credit note."
@@ -7687,7 +7800,10 @@ msgstr ""
 #. module: l10n_my_edi
 #. odoo-python
 #: code:addons/l10n_my_edi/models/account_move.py:0
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "It has been more than 72h since the invoice validation, you can no longer update it.\n"
 "Instead, you should issue or request a debit or credit note."
@@ -7807,6 +7923,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -8021,6 +8138,13 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+#: model_terms:ir.ui.view,arch_db:l10n_my_edi.ubl_21_InvoiceType_my
+msgid "K2"
+msgstr ""
+
+#. module: l10n_my_edi
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:l10n_my_edi.field_res_config_settings__l10n_my_accept_processing
 msgid "L10N My Accept Processing"
@@ -8134,6 +8258,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8355,11 +8482,14 @@ msgid "L10N My Edi Display Tin Warning"
 msgstr ""
 
 #. module: l10n_my_edi
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_my_edi.field_account_move_send__l10n_my_edi_enable
 msgid "L10N My Edi Enable"
 msgstr ""
 
 #. module: l10n_my_edi
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:l10n_my_edi.field_res_company__l10n_my_edi_mode
 #: model:ir.model.fields,field_description:l10n_my_edi.field_res_config_settings__l10n_my_edi_mode
 msgid "L10N My Edi Mode"
@@ -8372,6 +8502,7 @@ msgid "L10N My Edi Proxy User"
 msgstr ""
 
 #. module: l10n_my_edi
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8701,6 +8832,15 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+#: model:ir.model.fields,field_description:l10n_my_edi.field_res_company__l10n_my_identification_number_placeholder
+#: model:ir.model.fields,field_description:l10n_my_edi.field_res_partner__l10n_my_identification_number_placeholder
+#: model:ir.model.fields,field_description:l10n_my_edi.field_res_users__l10n_my_identification_number_placeholder
+msgid "L10N My Identification Number Placeholder"
+msgstr ""
+
+#. module: l10n_my_edi
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:l10n_my_edi.field_l10n_my_edi_document_status_update__write_uid
 #: model:ir.model.fields,field_description:l10n_my_edi.field_l10n_my_edi_industry_classification__write_uid
 msgid "Last Updated by"
@@ -8749,6 +8889,7 @@ msgid "Malaysian implementation of ubl for the MyInvois portal"
 msgstr ""
 
 #. module: l10n_my_edi
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9098,6 +9239,10 @@ msgstr ""
 #. odoo-python
 #: code:addons/l10n_my_edi/models/account_move.py:0
 #, python-format
+=======
+#. odoo-python
+#: code:addons/l10n_my_edi/models/account_move.py:0
+>>>>>>> upstream/18.0
 msgid ""
 "Multiple different supplier TIN were found in the invoices.\n"
 "If the company TIN changed, you may need to delete your invoice attachments and regenerate them."
@@ -9106,7 +9251,10 @@ msgstr ""
 #. module: l10n_my_edi
 #. odoo-python
 #: code:addons/l10n_my_edi/models/account_move.py:0
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "Multiple different supplier identification information were found in the invoices.\n"
 "If the company identification information changed, you may need to delete your invoice attachments and regenerate them."
@@ -9120,7 +9268,10 @@ msgstr ""
 #. module: l10n_my_edi
 #: model:ir.model.fields,field_description:l10n_my_edi.field_account_bank_statement_line__l10n_my_edi_external_uuid
 #: model:ir.model.fields,field_description:l10n_my_edi.field_account_move__l10n_my_edi_external_uuid
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_my_edi.field_account_payment__l10n_my_edi_external_uuid
+=======
+>>>>>>> upstream/18.0
 msgid "MyInvois ID"
 msgstr ""
 
@@ -9233,7 +9384,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9560,6 +9714,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9778,6 +9933,10 @@ msgstr ""
 #. odoo-python
 #: code:addons/l10n_my_edi/models/account_move.py:0
 #, python-format
+=======
+#. odoo-python
+#: code:addons/l10n_my_edi/models/account_move.py:0
+>>>>>>> upstream/18.0
 msgid ""
 "MyInvois could not match your TIN with the identification information you "
 "provided on the company."
@@ -9791,6 +9950,7 @@ msgstr ""
 #. module: l10n_my_edi
 #. odoo-python
 #: code:addons/l10n_my_edi/models/res_partner.py:0
+<<<<<<< HEAD
 #, python-format
 msgid ""
 <<<<<<< HEAD
@@ -10335,6 +10495,11 @@ msgid ""
 "MyInvois was not able to match the TIN with the provided identification number.\n"
 "This may happen when using generic TIN and will not prevent you from invoicing."
 >>>>>>> upstream/18.0
+=======
+msgid ""
+"MyInvois was not able to match the TIN with the provided identification number.\n"
+"This may happen when using generic TIN and will not prevent you from invoicing."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: l10n_my_edi
@@ -10363,6 +10528,7 @@ msgid "New status to set on the document."
 msgstr ""
 
 #. module: l10n_my_edi
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10694,11 +10860,14 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:l10n_my_edi.selection__account_tax__l10n_my_tax_type__06
 msgid "Not Applicable"
 msgstr ""
 
 #. module: l10n_my_edi
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11028,11 +11197,14 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:l10n_my_edi.selection__res_partner__l10n_my_identification_type__passport
 msgid "Passport"
 msgstr ""
 
 #. module: l10n_my_edi
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11691,11 +11863,19 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+#. odoo-python
+#: code:addons/l10n_my_edi/models/account_move.py:0
+msgid ""
+"Permission to do this action has not been granted. Please ensure that Odoo "
+"has sufficient permissions on the MyInvois platform."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: l10n_my_edi
 #. odoo-python
 #: code:addons/l10n_my_edi/models/account_edi_proxy_user.py:0
+<<<<<<< HEAD
 #, python-format
 msgid ""
 <<<<<<< HEAD
@@ -12131,13 +12311,20 @@ msgid ""
 =======
 "Please fill the TIN of company \"%(company_name)s\" before enabling the "
 >>>>>>> upstream/18.0
+=======
+msgid ""
+"Please fill the TIN of company \"%(company_name)s\" before enabling the "
+>>>>>>> upstream/18.0
 "integration with MyInvois."
 msgstr ""
 
 #. module: l10n_my_edi
 #. odoo-python
 #: code:addons/l10n_my_edi/models/account_move.py:0
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "Please make sure that your company TIN is correct, and that you gave Odoo "
 "sufficient permissions on the MyInvois platform."
@@ -12147,7 +12334,10 @@ msgstr ""
 #. odoo-python
 #: code:addons/l10n_my_edi/models/account_move.py:0
 #: code:addons/l10n_my_edi/models/res_partner.py:0
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 msgid "Please register for the E-Invoicing service in the settings first."
 msgstr ""
 
@@ -12157,6 +12347,7 @@ msgid "Pre-Production"
 msgstr ""
 
 #. module: l10n_my_edi
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12699,6 +12890,10 @@ msgid "Processing"
 #: model_terms:ir.ui.view,arch_db:l10n_my_edi.view_move_form_inherit_l10n_my_myinvois
 msgid "Processing"
 >>>>>>> upstream/18.0
+=======
+#: model_terms:ir.ui.view,arch_db:l10n_my_edi.view_move_form_inherit_l10n_my_myinvois
+msgid "Processing"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: l10n_my_edi
@@ -12729,8 +12924,15 @@ msgstr ""
 #. module: l10n_my_edi
 #: model:ir.model.fields,help:l10n_my_edi.field_account_bank_statement_line__l10n_my_edi_custom_form_reference
 #: model:ir.model.fields,help:l10n_my_edi.field_account_move__l10n_my_edi_custom_form_reference
+<<<<<<< HEAD
 #: model:ir.model.fields,help:l10n_my_edi.field_account_payment__l10n_my_edi_custom_form_reference
 msgid "Reference Number of Customs Form No.1, 9, etc."
+=======
+msgid ""
+"Reference Number of Customs Forms\n"
+"Customs form No. 2 for Customer Invoices\n"
+"Customs form No. 1, 9, etc for Vendor Bills"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: l10n_my_edi
@@ -12739,6 +12941,7 @@ msgid "Register"
 msgstr ""
 
 #. module: l10n_my_edi
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13068,6 +13271,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:l10n_my_edi.view_move_form_inherit_l10n_my_myinvois
 msgid "Reject"
 msgstr ""
@@ -13075,7 +13280,10 @@ msgstr ""
 #. module: l10n_my_edi
 #. odoo-python
 #: code:addons/l10n_my_edi/models/account_move.py:0
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 msgid "Reject Document"
 msgstr ""
 
@@ -13189,6 +13397,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:l10n_my_edi.view_move_form_inherit_l10n_my_myinvois
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:l10n_my_edi.view_move_form_inherit_l10n_my_myinvois
 >>>>>>> upstream/18.0
@@ -13625,6 +13837,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields.selection,name:l10n_my_edi.selection__product_template__l10n_my_edi_classification_code__028
 msgid "Rental of motor vehicle"
 msgstr ""
@@ -13861,6 +14074,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:l10n_my_edi.selection__account_tax__l10n_my_tax_type__01
 msgid "Sales Tax"
 msgstr ""
@@ -13871,6 +14086,7 @@ msgid "Sales Tax on Low Value Goods"
 msgstr ""
 
 #. module: l10n_my_edi
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14226,13 +14442,20 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:l10n_my_edi.field_account_move_send__l10n_my_edi_send_checkbox
+=======
+#. odoo-python
+#: code:addons/l10n_my_edi/models/account_move_send.py:0
+>>>>>>> upstream/18.0
 msgid "Send to MyInvois"
 msgstr ""
 
 #. module: l10n_my_edi
 #. odoo-python
 #: code:addons/l10n_my_edi/models/account_move.py:0
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "Server error; If the problem persists, please contact the Odoo support."
 msgstr ""
@@ -14245,6 +14468,7 @@ msgstr ""
 #. module: l10n_my_edi
 #: model:ir.model.fields,help:l10n_my_edi.field_account_bank_statement_line__l10n_my_edi_state
 #: model:ir.model.fields,help:l10n_my_edi.field_account_move__l10n_my_edi_state
+<<<<<<< HEAD
 #: model:ir.model.fields,help:l10n_my_edi.field_account_payment__l10n_my_edi_state
 msgid ""
 <<<<<<< HEAD
@@ -14680,17 +14904,25 @@ msgid ""
 =======
 "State of this invoice on the MyInvois portal.\n"
 >>>>>>> upstream/18.0
+=======
+msgid ""
+"State of this invoice on the MyInvois portal.\n"
+>>>>>>> upstream/18.0
 "An invoice awaiting validation will be automatically updated once the validation status is available."
 msgstr ""
 
 #. module: l10n_my_edi
 #: model:ir.model.fields,field_description:l10n_my_edi.field_account_bank_statement_line__l10n_my_edi_submission_uid
 #: model:ir.model.fields,field_description:l10n_my_edi.field_account_move__l10n_my_edi_submission_uid
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_my_edi.field_account_payment__l10n_my_edi_submission_uid
+=======
+>>>>>>> upstream/18.0
 msgid "Submission UID"
 msgstr ""
 
 #. module: l10n_my_edi
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15035,6 +15267,10 @@ msgstr ""
 #: model:ir.model.fields,field_description:l10n_my_edi.field_account_bank_statement_line__l10n_my_edi_exemption_reason
 #: model:ir.model.fields,field_description:l10n_my_edi.field_account_move__l10n_my_edi_exemption_reason
 #: model:ir.model.fields,field_description:l10n_my_edi.field_account_payment__l10n_my_edi_exemption_reason
+=======
+#: model:ir.model.fields,field_description:l10n_my_edi.field_account_bank_statement_line__l10n_my_edi_exemption_reason
+#: model:ir.model.fields,field_description:l10n_my_edi.field_account_move__l10n_my_edi_exemption_reason
+>>>>>>> upstream/18.0
 msgid "Tax Exemption Reason"
 msgstr ""
 
@@ -15147,7 +15383,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -15474,6 +15713,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15802,9 +16044,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,help:l10n_my_edi.field_account_bank_statement_line__l10n_my_tin_validation_state
 #: model:ir.model.fields,help:l10n_my_edi.field_account_move__l10n_my_tin_validation_state
 #: model:ir.model.fields,help:l10n_my_edi.field_account_payment__l10n_my_tin_validation_state
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -16031,6 +16276,7 @@ msgstr ""
 #. module: l10n_my_edi
 #. odoo-python
 #: code:addons/l10n_my_edi/models/account_move.py:0
+<<<<<<< HEAD
 #, python-format
 msgid ""
 <<<<<<< HEAD
@@ -16366,6 +16612,9 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+msgid ""
+>>>>>>> upstream/18.0
 "The MyInvois platform returned an \"Invalid\" status for this invoice for "
 "reason: %(reason)s"
 msgstr ""
@@ -16479,7 +16728,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -16699,6 +16951,7 @@ msgid "The TIN"
 msgstr ""
 
 #. module: l10n_my_edi
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17362,12 +17615,18 @@ msgid "The TIN validation failed. You will still be able to invoice."
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+#. odoo-python
+#: code:addons/l10n_my_edi/models/account_move.py:0
+msgid ""
+>>>>>>> upstream/18.0
 "The TIN number of the supplier in the invoices does not match with the one provided at the time of registering for the e-invoice service.\n"
 "If the TIN of the supplier's record changed after that, you will need to archive your EDI Proxy User and re-register.\n"
 "The TIN found in the document is %(tin_number)s"
 msgstr ""
 
 #. module: l10n_my_edi
+<<<<<<< HEAD
 #: model:ir.model.fields,help:l10n_my_edi.field_res_config_settings__l10n_my_edi_company_vat
 msgid ""
 "The Tax Identification Number. Values here will be validated based on the "
@@ -17701,12 +17960,17 @@ msgstr ""
 #. odoo-python
 #: code:addons/l10n_my_edi/models/account_move.py:0
 #, python-format
+=======
+#. odoo-python
+#: code:addons/l10n_my_edi/models/account_move.py:0
+>>>>>>> upstream/18.0
 msgid ""
 "The api request limit has been reached. Please wait until "
 "%(limit_reset_datetime)s to try again."
 msgstr ""
 
 #. module: l10n_my_edi
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18033,6 +18297,10 @@ msgstr ""
 #. odoo-python
 #: code:addons/l10n_my_edi/models/account_move.py:0
 #, python-format
+=======
+#. odoo-python
+#: code:addons/l10n_my_edi/models/account_move.py:0
+>>>>>>> upstream/18.0
 msgid "The document provided in the request does not exist."
 msgstr ""
 
@@ -18144,6 +18412,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18365,6 +18636,7 @@ msgstr ""
 
 #. module: l10n_my_edi
 #. odoo-python
+<<<<<<< HEAD
 #: code:addons/l10n_my_edi/models/account_edi_xml_ubl_my.py:0
 #, python-format
 msgid ""
@@ -18690,6 +18962,19 @@ msgid ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+#: code:addons/l10n_my_edi/models/account_move_send.py:0
+msgid ""
+"The following invoice(s) are waiting for validation from MyInvois: "
+"%(move_name_list)s.Their status will be updated later on, or you can do it "
+"manually from the form view."
+msgstr ""
+
+#. module: l10n_my_edi
+#. odoo-python
+#: code:addons/l10n_my_edi/models/account_edi_xml_ubl_my.py:0
+msgid ""
 >>>>>>> upstream/18.0
 "The following line must have their item classification code set: "
 "%(line_name)s"
@@ -18698,20 +18983,27 @@ msgstr ""
 #. module: l10n_my_edi
 #. odoo-python
 #: code:addons/l10n_my_edi/models/account_edi_xml_ubl_my.py:0
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 msgid "The following partner's city is missing: %(partner_name)s"
 msgstr ""
 
 #. module: l10n_my_edi
 #. odoo-python
 #: code:addons/l10n_my_edi/models/account_edi_xml_ubl_my.py:0
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 msgid "The following partner's country is missing: %(partner_name)s"
 msgstr ""
 
 #. module: l10n_my_edi
 #. odoo-python
 #: code:addons/l10n_my_edi/models/account_edi_xml_ubl_my.py:0
+<<<<<<< HEAD
 #, python-format
 msgid ""
 <<<<<<< HEAD
@@ -19035,6 +19327,9 @@ msgid ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgid ""
 >>>>>>> upstream/18.0
 "The following partner's identification type or number is missing: "
 "%(partner_name)s"
@@ -19043,14 +19338,20 @@ msgstr ""
 #. module: l10n_my_edi
 #. odoo-python
 #: code:addons/l10n_my_edi/models/account_edi_xml_ubl_my.py:0
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 msgid "The following partner's phone number is missing: %(partner_name)s"
 msgstr ""
 
 #. module: l10n_my_edi
 #. odoo-python
 #: code:addons/l10n_my_edi/models/account_edi_xml_ubl_my.py:0
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "The following partner's phone number should follow the E.164 format: "
 "%(partner_name)s"
@@ -19059,6 +19360,7 @@ msgstr ""
 #. module: l10n_my_edi
 #. odoo-python
 #: code:addons/l10n_my_edi/models/account_edi_xml_ubl_my.py:0
+<<<<<<< HEAD
 #, python-format
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19169,6 +19471,8 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -19391,6 +19695,7 @@ msgstr ""
 #. module: l10n_my_edi
 #. odoo-python
 #: code:addons/l10n_my_edi/models/account_edi_xml_ubl_my.py:0
+<<<<<<< HEAD
 #, python-format
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19499,6 +19804,8 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -19720,6 +20027,7 @@ msgstr ""
 #. module: l10n_my_edi
 #. odoo-python
 #: code:addons/l10n_my_edi/models/account_edi_xml_ubl_my.py:0
+<<<<<<< HEAD
 #, python-format
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19830,6 +20138,8 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -20050,6 +20360,7 @@ msgstr ""
 #. module: l10n_my_edi
 #. odoo-python
 #: code:addons/l10n_my_edi/models/account_edi_xml_ubl_my.py:0
+<<<<<<< HEAD
 #, python-format
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -20158,6 +20469,8 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -20487,7 +20800,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -20818,6 +21134,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -21036,6 +21353,10 @@ msgstr ""
 #. odoo-python
 #: code:addons/l10n_my_edi/models/account_edi_xml_ubl_my.py:0
 #, python-format
+=======
+#. odoo-python
+#: code:addons/l10n_my_edi/models/account_edi_xml_ubl_my.py:0
+>>>>>>> upstream/18.0
 msgid ""
 "The industrial classification must be defined on company: %(company_name)s"
 msgstr ""
@@ -21043,6 +21364,7 @@ msgstr ""
 #. module: l10n_my_edi
 #. odoo-python
 #: code:addons/l10n_my_edi/models/account_move.py:0
+<<<<<<< HEAD
 #, python-format
 msgid ""
 <<<<<<< HEAD
@@ -21370,6 +21692,9 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+msgid ""
+>>>>>>> upstream/18.0
 "The invoice has been canceled on MyInvois, But the cancellation in Odoo failed with error: %(error)s\n"
 "Please resolve the problem manually, and then cancel the invoice."
 msgstr ""
@@ -21377,6 +21702,7 @@ msgstr ""
 #. module: l10n_my_edi
 #. odoo-python
 #: code:addons/l10n_my_edi/models/account_move.py:0
+<<<<<<< HEAD
 #, python-format
 msgid ""
 "The invoice has been sent to MyInvois with uuid \"%(uuid)s\" and submission id \"%(submission_id)s\".\n"
@@ -21703,6 +22029,11 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+msgid ""
+"The invoice has been sent to MyInvois with uuid \"%(uuid)s\" and submission id \"%(submission_id)s\".\n"
+"Validation results will be available shortly."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: l10n_my_edi
@@ -21716,13 +22047,17 @@ msgstr ""
 #. module: l10n_my_edi
 #. odoo-python
 #: code:addons/l10n_my_edi/models/account_move.py:0
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 msgid "The search params are invalid."
 msgstr ""
 
 #. module: l10n_my_edi
 #. odoo-python
 #: code:addons/l10n_my_edi/models/account_move.py:0
+<<<<<<< HEAD
 #, python-format
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -21833,6 +22168,8 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -22053,14 +22390,18 @@ msgstr ""
 #. module: l10n_my_edi
 #. odoo-python
 #: code:addons/l10n_my_edi/models/account_move.py:0
+<<<<<<< HEAD
 #: code:addons/l10n_my_edi/models/account_move.py:0
 #, python-format
+=======
+>>>>>>> upstream/18.0
 msgid "The validation failed with the following errors:"
 msgstr ""
 
 #. module: l10n_my_edi
 #. odoo-python
 #: code:addons/l10n_my_edi/models/account_move.py:0
+<<<<<<< HEAD
 #, python-format
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -22169,6 +22510,8 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -22500,6 +22843,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #: code:addons/l10n_my_edi/models/account_move.py:0
 #: code:addons/l10n_my_edi/models/account_move.py:0
@@ -22933,6 +23277,8 @@ msgstr ""
 #: code:addons/l10n_my_edi/models/account_move.py:0
 >>>>>>> upstream/18.0
 #, python-format
+=======
+>>>>>>> upstream/18.0
 msgid "This invoice has been %(status)s for reason: %(reason)s"
 msgstr ""
 
@@ -22942,6 +23288,7 @@ msgid "Tourism Tax"
 msgstr ""
 
 #. module: l10n_my_edi
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23276,13 +23623,20 @@ msgstr ""
 #: model:ir.model.fields,help:l10n_my_edi.field_account_bank_statement_line__l10n_my_edi_submission_uid
 #: model:ir.model.fields,help:l10n_my_edi.field_account_move__l10n_my_edi_submission_uid
 #: model:ir.model.fields,help:l10n_my_edi.field_account_payment__l10n_my_edi_submission_uid
+=======
+#: model:ir.model.fields,help:l10n_my_edi.field_account_bank_statement_line__l10n_my_edi_submission_uid
+#: model:ir.model.fields,help:l10n_my_edi.field_account_move__l10n_my_edi_submission_uid
+>>>>>>> upstream/18.0
 msgid "Unique ID assigned to a batch of invoices when sent to MyInvois."
 msgstr ""
 
 #. module: l10n_my_edi
 #: model:ir.model.fields,help:l10n_my_edi.field_account_bank_statement_line__l10n_my_edi_external_uuid
 #: model:ir.model.fields,help:l10n_my_edi.field_account_move__l10n_my_edi_external_uuid
+<<<<<<< HEAD
 #: model:ir.model.fields,help:l10n_my_edi.field_account_payment__l10n_my_edi_external_uuid
+=======
+>>>>>>> upstream/18.0
 msgid "Unique ID assigned to a specific invoice when sent to MyInvois."
 msgstr ""
 
@@ -23395,7 +23749,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -23722,6 +24079,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -24061,7 +24421,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -24388,6 +24751,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -24608,6 +24974,7 @@ msgid "Validation In Progress"
 msgstr ""
 
 #. module: l10n_my_edi
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -24945,13 +25312,26 @@ msgstr ""
 #. odoo-python
 #: code:addons/l10n_my_edi/models/account_move.py:0
 #, python-format
+=======
+#. odoo-python
+#: code:addons/l10n_my_edi/models/account_move_send.py:0
+msgid "View Invoice(s)"
+msgstr ""
+
+#. module: l10n_my_edi
+#. odoo-python
+#: code:addons/l10n_my_edi/models/account_move.py:0
+>>>>>>> upstream/18.0
 msgid "You can only update the status of invoices in the valid state."
 msgstr ""
 
 #. module: l10n_my_edi
 #. odoo-python
 #: code:addons/l10n_my_edi/models/account_edi_xml_ubl_my.py:0
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "You cannot send a debit / credit note for invoice %(invoice_number)s as it "
 "has not yet been sent to MyInvois."
@@ -24960,7 +25340,10 @@ msgstr ""
 #. module: l10n_my_edi
 #. odoo-python
 #: code:addons/l10n_my_edi/models/account_move.py:0
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "You cannot update this invoice, has it has been referenced by a debit or credit note.\n"
 "If you still want to update it, you must first update the debit/credit note."
@@ -24969,18 +25352,34 @@ msgstr ""
 #. module: l10n_my_edi
 #. odoo-python
 #: code:addons/l10n_my_edi/models/account_move.py:0
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 msgid "You do not have the permission to update this invoice."
 msgstr ""
 
 #. module: l10n_my_edi
 #. odoo-python
+<<<<<<< HEAD
 #: code:addons/l10n_my_edi/wizard/l10n_my_edi_status_update_wizard.py:0
 #, python-format
+=======
+#: code:addons/l10n_my_edi/models/account_edi_xml_ubl_my.py:0
+msgid ""
+"You must have a commercial partner named 'General Public' with a VAT number "
+"set to 'EI00000000010' in order to proceed."
+msgstr ""
+
+#. module: l10n_my_edi
+#. odoo-python
+#: code:addons/l10n_my_edi/wizard/l10n_my_edi_status_update_wizard.py:0
+>>>>>>> upstream/18.0
 msgid "You must provide a reason for updating the document."
 msgstr ""
 
 #. module: l10n_my_edi
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -25342,11 +25741,27 @@ msgid "validating"
 msgid ""
 "You must set a Tax Exemption Reason on the invoice : %(invoice_name)s as "
 "some taxes have the type 'Tax exemption'."
+=======
+#. odoo-python
+#: code:addons/l10n_my_edi/models/account_edi_xml_ubl_my.py:0
+msgid ""
+"You must set a Tax Exemption Reason on each tax exempt taxes in order to use"
+" them in a Myinvois Document."
 msgstr ""
 
 #. module: l10n_my_edi
 #. odoo-python
 #: code:addons/l10n_my_edi/models/account_edi_xml_ubl_my.py:0
+msgid ""
+"You must set a Tax Exemption Reason on the invoice : %(invoice_name)s as "
+"some taxes have the type 'Tax exemption' without a reason set."
+>>>>>>> upstream/18.0
+msgstr ""
+
+#. module: l10n_my_edi
+#. odoo-python
+#: code:addons/l10n_my_edi/models/account_edi_xml_ubl_my.py:0
+<<<<<<< HEAD
 #, python-format
 msgid ""
 "You must set a tax on the line : %(line_name)s.\n"
@@ -25673,6 +26088,11 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+msgid ""
+"You must set a tax on the line : %(line_name)s.\n"
+"If taxes are not applicable, please set a 0%% tax with a tax type 'Not Applicable'."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: l10n_my_edi
@@ -25785,9 +26205,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "• In Demo mode Odoo will just simulate the sending of invoices to the LHDN Malaysia.<br/>\n"
 "                                • In Pre-Production mode Odoo will send the invoices to a non-production service. It can be used to test your configuration.<br/><br/>"
+=======
+msgid "will be used when sending e-invoices.<br/>"
+>>>>>>> upstream/18.0
 =======
 msgid "will be used when sending e-invoices.<br/>"
 >>>>>>> upstream/18.0

@@ -493,7 +493,10 @@ class TestSubcontractingDropshippingFlows(TestMrpSubcontractingCommon):
         self.assertEqual(delivery.partner_id, p1)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_mrp_subcontracting_dropshipping_svl(self):
         """Check that svls created from a subcontracted dropshipped product delivery
         do not a have a remainging value  and quantity (just like svls created from a
@@ -541,6 +544,9 @@ class TestSubcontractingDropshippingFlows(TestMrpSubcontractingCommon):
             {'product_id': self.finished.id, 'value': 5.0, 'unit_cost': 5.0, 'quantity': 1.0, 'remaining_qty': 0, 'remaining_value': 0},
         ])
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 class TestSubcontractingDropshippingPortal(TestSubcontractingPortal):

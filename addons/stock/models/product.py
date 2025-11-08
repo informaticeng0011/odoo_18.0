@@ -373,6 +373,7 @@ class Product(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         elif locations:
             paths_domain = expression.OR([[('parent_path', '=like', loc.parent_path + '%')] for loc in locations])
             loc_domain = [('location_id', 'any', paths_domain)]
@@ -423,6 +424,9 @@ class Product(models.Model):
 =======
 >>>>>>> upstream/18.0
             dest_loc_domain_out = [('location_dest_id', 'in', locations.ids)]
+=======
+            dest_loc_domain_out = [('location_dest_id', 'not in', locations.ids)]
+>>>>>>> upstream/18.0
 =======
             dest_loc_domain_out = [('location_dest_id', 'not in', locations.ids)]
 >>>>>>> upstream/18.0
@@ -608,6 +612,9 @@ class Product(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -783,7 +790,11 @@ class Product(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             loc_domain + ['!'] + dest_loc_domain,
+=======
+            loc_domain + dest_loc_domain_out,
+>>>>>>> upstream/18.0
 =======
             loc_domain + dest_loc_domain_out,
 >>>>>>> upstream/18.0
@@ -1297,7 +1308,10 @@ class Product(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1474,6 +1488,9 @@ class Product(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2044,6 +2061,11 @@ class ProductTemplate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if not self.env.user._get_default_warehouse_id():
+            self.env['stock.warehouse']._warehouse_redirect_warning()
+>>>>>>> upstream/18.0
 =======
         if not self.env.user._get_default_warehouse_id():
             self.env['stock.warehouse']._warehouse_redirect_warning()

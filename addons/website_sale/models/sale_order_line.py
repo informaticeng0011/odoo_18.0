@@ -99,10 +99,13 @@ class SaleOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         return self.tax_id.compute_all(
             self.price_unit, self.currency_id, 1, self.product_id, self.order_partner_id,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -279,6 +282,9 @@ class SaleOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -540,7 +546,11 @@ class SaleOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return self.product_id._is_add_to_cart_allowed()
+=======
+        return bool(self.product_id) and self.product_id._is_add_to_cart_allowed()
+>>>>>>> upstream/18.0
 =======
         return bool(self.product_id) and self.product_id._is_add_to_cart_allowed()
 >>>>>>> upstream/18.0

@@ -75,7 +75,11 @@ from odoo.tools import config, human_size, image, str2bool, consteq
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tools.mimetypes import guess_mimetype, fix_filename_extension
+=======
+from odoo.tools.mimetypes import guess_mimetype, fix_filename_extension, _olecf_mimetypes
+>>>>>>> upstream/18.0
 =======
 from odoo.tools.mimetypes import guess_mimetype, fix_filename_extension, _olecf_mimetypes
 >>>>>>> upstream/18.0
@@ -590,8 +594,11 @@ class IrAttachment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         quality = int(ICP('base.image_autoresize_quality', 80))
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -638,6 +645,9 @@ class IrAttachment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -974,7 +984,10 @@ class IrAttachment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1299,6 +1312,9 @@ class IrAttachment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1785,6 +1801,11 @@ class IrAttachment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if mimetype in ('application/zip', *_olecf_mimetypes):
+                mimetype = mimetypes.guess_type(filename)[0]
+>>>>>>> upstream/18.0
 =======
             if mimetype in ('application/zip', *_olecf_mimetypes):
                 mimetype = mimetypes.guess_type(filename)[0]
@@ -2125,7 +2146,10 @@ class IrAttachment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2283,6 +2307,9 @@ class IrAttachment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
