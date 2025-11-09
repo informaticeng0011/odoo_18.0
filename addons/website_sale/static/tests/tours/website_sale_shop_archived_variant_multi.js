@@ -19,6 +19,7 @@ registry.category("web_tour.tours").add('tour_shop_archived_variant_multi', {
     {
         content: "select Test Product",
 <<<<<<< HEAD
+<<<<<<< HEAD
         trigger: ".oe_product_cart a:contains(/^Test Product 2$/)",
         run: "click",
 <<<<<<< HEAD
@@ -322,6 +323,11 @@ registry.category("web_tour.tours").add('tour_shop_archived_variant_multi', {
         run: "click",
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
+=======
+        trigger: ".oe_product_cart a:text(Test Product 2)",
+        run: "click",
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
     },
     {
         content: 'click on the first variant',
@@ -370,6 +376,7 @@ registry.category("web_tour.tours").add('test_09_pills_variant', {
     steps: () => [
     {
         content: "select Test Product",
+<<<<<<< HEAD
 <<<<<<< HEAD
         trigger: ".oe_product_cart a:contains(/^Test Product 2$/)",
         run: "click",
@@ -667,6 +674,11 @@ registry.category("web_tour.tours").add('test_09_pills_variant', {
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
 =======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
+=======
+        trigger: ".oe_product_cart a:text(Test Product 2)",
+        run: "click",
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
 =======

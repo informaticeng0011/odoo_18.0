@@ -10,6 +10,7 @@ registry.category("web_tour.tours").add('tour_shop_multi_checkbox', {
     {
         content: "select Product",
 <<<<<<< HEAD
+<<<<<<< HEAD
         trigger: ".oe_product_cart a:contains(/^Product Multi$/)",
         run: "click",
 <<<<<<< HEAD
@@ -313,6 +314,11 @@ registry.category("web_tour.tours").add('tour_shop_multi_checkbox', {
         run: "click",
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
+=======
+        trigger: ".oe_product_cart a:text(Product Multi)",
+        run: "click",
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
     },
     {
         content: "check price",
@@ -369,6 +375,7 @@ registry.category("web_tour.tours").add('tour_shop_multi_checkbox_single_value',
     steps: () => [
     {
         content: "select Product",
+<<<<<<< HEAD
 <<<<<<< HEAD
         trigger: '.oe_product_cart a:contains(/^Burger$/)',
         run: "click",
@@ -666,6 +673,11 @@ registry.category("web_tour.tours").add('tour_shop_multi_checkbox_single_value',
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
 =======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
+=======
+        trigger: '.oe_product_cart a:text(Burger)',
+        run: "click",
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
 =======

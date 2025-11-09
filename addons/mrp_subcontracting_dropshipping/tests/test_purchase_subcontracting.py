@@ -494,7 +494,10 @@ class TestSubcontractingDropshippingFlows(TestMrpSubcontractingCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_mrp_subcontracting_dropshipping_svl(self):
@@ -545,6 +548,9 @@ class TestSubcontractingDropshippingFlows(TestMrpSubcontractingCommon):
         ])
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

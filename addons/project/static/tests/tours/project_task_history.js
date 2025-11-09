@@ -85,7 +85,10 @@ function changeDescriptionContentAndSave(newContent) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -279,6 +282,9 @@ function insertEditorContent(newContent) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -476,17 +482,23 @@ registry.category("web_tour.tours").add("project_task_history_tour", {
     }, {
         content: "Click on Restore History btn to get back to the selected revision in the previous step",
 <<<<<<< HEAD
+<<<<<<< HEAD
         trigger: ".modal button.btn-primary:contains(/^Restore history$/)",
         run: "click",
     }, {
         content: "Verify the confirmation dialog is opened",
         trigger: ".modal button.btn-primary:contains(/^Restore$/)",
 =======
+=======
+>>>>>>> upstream/18.0
         trigger: ".modal button.btn-primary:text(Restore history)",
         run: "click",
     }, {
         content: "Verify the confirmation dialog is opened",
         trigger: ".modal button.btn-primary:text(Restore)",
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         run: "click",
     }, {
@@ -614,7 +626,10 @@ registry.category("web_tour.tours").add("project_task_history_tour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -770,7 +785,11 @@ registry.category("web_tour.tours").add("project_task_last_history_steps_tour", 
         run: "click",
     }, {
 <<<<<<< HEAD
+<<<<<<< HEAD
         trigger: '.modal button.btn-primary:contains(/^Restore$/)',
+=======
+        trigger: '.modal button.btn-primary:text(Restore)',
+>>>>>>> upstream/18.0
 =======
         trigger: '.modal button.btn-primary:text(Restore)',
 >>>>>>> upstream/18.0
@@ -848,6 +867,9 @@ registry.category("web_tour.tours").add("project_task_last_history_steps_tour", 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

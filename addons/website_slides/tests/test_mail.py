@@ -103,6 +103,10 @@ class TestSlidesMail(SlidesCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                'display_name': user_id.partner_id.display_name,
+>>>>>>> upstream/18.0
 =======
                 'display_name': user_id.partner_id.display_name,
 >>>>>>> upstream/18.0

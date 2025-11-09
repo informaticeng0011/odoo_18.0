@@ -203,7 +203,10 @@ class TestRecruitment(TransactionCase):
         self.assertEqual(candidate.application_count, 2, 'The applications_count should not change after archiving an application')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -218,6 +221,9 @@ class TestRecruitment(TransactionCase):
         })
         self.assertEqual(candidate.partner_id.name, 'Test Name')
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

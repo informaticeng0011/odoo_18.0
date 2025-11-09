@@ -49,17 +49,23 @@ registry.category('web_tour.tours').add('update_shipping_after_discount', {
         {
             content: "check discount code discount",
 <<<<<<< HEAD
+<<<<<<< HEAD
             trigger: '[data-reward-type=discount] .oe_currency_value:not(:visible):contains(/^- 50.00$/)',
         },
         {
             content: "check eWallet discount",
             trigger: '[data-reward-type=discount] .oe_currency_value:not(:visible):contains(/^- 55.00$/)',
 =======
+=======
+>>>>>>> upstream/18.0
             trigger: '[data-reward-type=discount] .oe_currency_value:not(:visible):text(- 50.00)',
         },
         {
             content: "check eWallet discount",
             trigger: '[data-reward-type=discount] .oe_currency_value:not(:visible):text(- 55.00)',
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         },
     ],

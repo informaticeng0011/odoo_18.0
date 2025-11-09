@@ -1,5 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* analytic
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -234,6 +235,10 @@
 =======
 #
 >>>>>>> upstream/18.0
+=======
+# * analytic
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Manuela Silva <mmsrs@sky.com>, 2025
 # Maitê Dietze, 2025
@@ -357,6 +362,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Daniel Reis, 2025
 # Rita Bastos, 2025
 # Peter Lawrence Romão <peterromao@yahoo.co.uk>, 2025
@@ -598,10 +604,13 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # Rita Bastos, 2025
 # Peter Lawrence Romão <peterromao@yahoo.co.uk>, 2025
 # Wil Odoo, 2025
 # Daniel Reis, 2025
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1016,10 +1025,14 @@
 =======
 #
 >>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1450,10 +1463,18 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Daniel Reis, 2025\n"
 "Language-Team: Portuguese (https://app.transifex.com/odoo/teams/41243/pt/)\n"
+=======
+"POT-Creation-Date: 2025-08-15 18:36+0000\n"
+"PO-Revision-Date: 2025-11-08 17:34+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Portuguese <https://translate.odoo.com/projects/odoo-18/"
+"analytic/pt/>\n"
+>>>>>>> upstream/18.0
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % "
 "1000000 == 0 ? 1 : 2;\n"
 <<<<<<< HEAD
@@ -1628,6 +1649,11 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % "
+"1000000 == 0) ? 1 : 2);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #. odoo-python
@@ -1636,6 +1662,7 @@ msgid "%s (copy)"
 msgstr "%s (cópia)"
 
 #. module: analytic
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1990,6 +2017,17 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:analytic.account_analytic_plan_form_view
 msgid "<span class=\"o_stat_text\">Analytic Accounts</span>"
 msgstr ""
+=======
+#. odoo-python
+#: code:addons/analytic/models/analytic_line.py:0
+msgid "%s analytic lines created"
+msgstr "%s linhas analíticas criadas"
+
+#. module: analytic
+#: model_terms:ir.ui.view,arch_db:analytic.account_analytic_plan_form_view
+msgid "<span class=\"o_stat_text\">Analytic Accounts</span>"
+msgstr "<span class=\"o_stat_text\">Contas analíticas</span>"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model_terms:ir.ui.view,arch_db:analytic.view_account_analytic_account_form
@@ -2003,12 +2041,21 @@ msgid ""
 "A 'Project' plan needs to exist and its id needs to be set as "
 "`analytic.project_plan` in the system variables"
 msgstr ""
+<<<<<<< HEAD
+=======
+"É necessário que exista um plano 'Projeto' e que seu ID seja definido como "
+"`analytic.project_plan` nas variáveis do sistema"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #. odoo-javascript
 #: code:addons/analytic/static/src/components/analytic_distribution/analytic_distribution.js:0
 msgid "Account field"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Campo de conta"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_plan__account_ids
@@ -2028,7 +2075,11 @@ msgstr "Ativo"
 #. module: analytic
 #: model:account.analytic.account,name:analytic.analytic_active_account
 msgid "Active account"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Conta ativa"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #. odoo-javascript
@@ -2164,7 +2215,11 @@ msgid "Administrative"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Administrativo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Administrativo"
 >>>>>>> upstream/18.0
@@ -2526,7 +2581,11 @@ msgstr "Administrativo"
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_plan__all_account_count
 msgid "All Analytic Accounts Count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Total de todas as contas analíticas"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_line__amount
@@ -2538,7 +2597,11 @@ msgstr "Valor"
 #. odoo-javascript
 #: code:addons/analytic/static/src/components/analytic_distribution/analytic_distribution.js:0
 msgid "Amount field"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Campo de valor"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #. odoo-javascript
@@ -2571,6 +2634,7 @@ msgstr "Contas Analíticas"
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_plan__account_count
 msgid "Analytic Accounts Count"
+<<<<<<< HEAD
 msgstr ""
 
 #. module: analytic
@@ -2807,6 +2871,13 @@ msgstr ""
 =======
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_line__analytic_distribution
 >>>>>>> upstream/18.0
+=======
+msgstr "Total das contas analíticas"
+
+#. module: analytic
+#: model:ir.model.fields,field_description:analytic.field_account_analytic_distribution_model__analytic_distribution
+#: model:ir.model.fields,field_description:analytic.field_account_analytic_line__analytic_distribution
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:analytic.field_analytic_mixin__analytic_distribution
 msgid "Analytic Distribution"
 msgstr "Distribuição da Analítica"
@@ -2828,7 +2899,11 @@ msgstr "Modelos de distribuição analítica"
 #. module: analytic
 #: model_terms:ir.ui.view,arch_db:analytic.view_account_analytic_line_form
 msgid "Analytic Item"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Item analítico"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.actions.act_window,name:analytic.account_analytic_line_action_entries
@@ -2851,17 +2926,29 @@ msgstr "Linhas Analíticas"
 #. module: analytic
 #: model:ir.model,name:analytic.model_analytic_mixin
 msgid "Analytic Mixin"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mixin analítico"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_applicability__analytic_plan_id
 msgid "Analytic Plan"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Plano analítico"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model,name:analytic.model_analytic_plan_fields_mixin
 msgid "Analytic Plan Fields"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Campos do plano analítico"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model,name:analytic.model_account_analytic_applicability
@@ -2936,6 +3023,10 @@ msgstr "Planos analíticos"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:analytic.field_account_analytic_line__analytic_precision
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_line__analytic_precision
 >>>>>>> upstream/18.0
@@ -3118,13 +3209,21 @@ msgstr "Precisão analítica"
 #. odoo-python
 #: code:addons/analytic/models/analytic_plan.py:0
 msgid "Analytical Accounts"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Contas analíticas"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #. odoo-python
 #: code:addons/analytic/models/analytic_plan.py:0
 msgid "Analytical Plans"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Planos analíticos"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_applicability__applicability
@@ -3266,7 +3365,11 @@ msgid "Asustek"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Asustek"
+>>>>>>> upstream/18.0
 =======
 msgstr "Asustek"
 >>>>>>> upstream/18.0
@@ -3629,7 +3732,11 @@ msgstr "Asustek"
 #. odoo-python
 #: code:addons/analytic/models/analytic_line.py:0
 msgid "At least one analytic account must be set"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pelo menos uma conta analítica deve ser definida"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_account__message_attachment_count
@@ -3651,12 +3758,20 @@ msgstr "Balanço:"
 #. odoo-javascript
 #: code:addons/analytic/static/src/components/analytic_distribution/analytic_distribution.js:0
 msgid "Business domain"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Domínio comercial"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:account.analytic.account,name:analytic.analytic_partners_camp_to_camp
 msgid "Camp to Camp"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Campo a Campo"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:account.analytic.account,name:analytic.analytic_integration_c2c
@@ -3780,7 +3895,11 @@ msgid "CampToCamp"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "CampToCamp"
+>>>>>>> upstream/18.0
 =======
 msgstr "CampToCamp"
 >>>>>>> upstream/18.0
@@ -4152,7 +4271,11 @@ msgstr "Plano de Contas Analítico"
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_plan__children_count
 msgid "Children Plans Count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Total de planos secundários"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_plan__children_ids
@@ -4276,7 +4399,11 @@ msgid "Childrens"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Descendentes"
+>>>>>>> upstream/18.0
 =======
 msgstr "Descendentes"
 >>>>>>> upstream/18.0
@@ -4638,7 +4765,11 @@ msgstr "Descendentes"
 #. module: analytic
 #: model_terms:ir.actions.act_window,help:analytic.account_analytic_plan_action
 msgid "Click to add a new analytic account plan."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Clique para adicionar um novo plano de contas analítico."
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #. odoo-javascript
@@ -4659,7 +4790,11 @@ msgstr "Índice de Cor"
 #. module: analytic
 #: model:account.analytic.account,name:analytic.analytic_commercial_marketing
 msgid "Commercial & Marketing"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Comercial e marketing"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_account__company_id
@@ -4677,7 +4812,11 @@ msgstr "Nome Completo"
 #. module: analytic
 #: model_terms:ir.ui.view,arch_db:analytic.account_analytic_distribution_model_form_view
 msgid "Conditions to meet"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Condições a cumprir"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model,name:analytic.model_res_config_settings
@@ -4747,7 +4886,11 @@ msgstr "Data"
 #. module: analytic
 #: model:ir.model.fields,help:analytic.field_account_analytic_account__active
 msgid "Deactivate the account."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Desativar a conta."
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_account__debit
@@ -4758,17 +4901,29 @@ msgstr "Débito"
 #. module: analytic
 #: model:account.analytic.account,name:analytic.analytic_agrolait
 msgid "Deco Addict"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Deco Addict"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_plan__default_applicability
 msgid "Default Applicability"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aplicabilidade padrão"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:account.analytic.account,name:analytic.analytic_deltapc
 msgid "Delta PC"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Delta PC"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:account.analytic.plan,name:analytic.analytic_plan_departments
@@ -4784,13 +4939,21 @@ msgstr "Descrição"
 #. module: analytic
 #: model:account.analytic.account,name:analytic.analytic_desertic_hispafuentes
 msgid "Desertic - Hispafuentes"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Desertic - Hispafuentes"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #. odoo-javascript
 #: code:addons/analytic/static/src/components/analytic_distribution/analytic_distribution.js:0
 msgid "Disable save"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Desabilitar salvamento"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_account__display_name
@@ -4805,12 +4968,20 @@ msgstr "Nome a Exibir"
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_distribution_model__distribution_analytic_account_ids
 #: model:ir.model.fields,field_description:analytic.field_analytic_mixin__distribution_analytic_account_ids
 msgid "Distribution Analytic Account"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Conta analítica de distribuição"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model_terms:ir.ui.view,arch_db:analytic.account_analytic_distribution_model_form_view
 msgid "Distribution to apply"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Distribuição a ser aplicada"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_applicability__business_domain
@@ -4818,6 +4989,7 @@ msgid "Domain"
 msgstr "Domínio"
 
 #. module: analytic
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5242,6 +5414,12 @@ msgstr "Finanças"
 #: code:addons/analytic/static/src/components/analytic_distribution/analytic_distribution.xml:0
 msgid "Don't update"
 msgstr ""
+=======
+#. odoo-javascript
+#: code:addons/analytic/static/src/components/analytic_distribution/analytic_distribution.xml:0
+msgid "Don't update"
+msgstr "Não atualizar"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:account.analytic.account,name:analytic.analytic_rd_finance
@@ -5304,6 +5482,9 @@ msgstr "Finanças"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5434,7 +5615,11 @@ msgstr "Seguidores (Parceiros)"
 #. odoo-javascript
 #: code:addons/analytic/static/src/components/analytic_distribution/analytic_distribution.js:0
 msgid "Force applicability"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Forçar aplicabilidade"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.actions.act_window,name:analytic.account_analytic_line_action
@@ -5481,6 +5666,7 @@ msgstr "Se estiver marcado, algumas mensagens têm um erro na entrega."
 #: model_terms:ir.actions.act_window,help:analytic.account_analytic_line_action_entries
 msgid ""
 "In Odoo, sales orders and projects are implemented using\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5774,6 +5960,16 @@ msgid ""
 >>>>>>> upstream/18.0
 "                your margins easily."
 msgstr ""
+=======
+"                analytic accounts. You can track costs and revenues to "
+"analyse\n"
+"                your margins easily."
+msgstr ""
+"No Odoo, pedidos de venda e projetos são implementados usando\n"
+"                contas analíticas. Você pode rastrear os custos e receita "
+"para analisar\n"
+"                suas margens facilmente."
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:account.analytic.plan,name:analytic.analytic_plan_internal
@@ -5925,7 +6121,11 @@ msgid "Legal"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Legal"
+>>>>>>> upstream/18.0
 =======
 msgstr "Legal"
 >>>>>>> upstream/18.0
@@ -6287,12 +6487,20 @@ msgstr "Legal"
 #. module: analytic
 #: model:account.analytic.account,name:analytic.analytic_think_big_systems
 msgid "Lumber Inc"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Lumber Inc"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:account.analytic.account,name:analytic.analytic_luminous_technologies
 msgid "Luminous Technologies"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Luminous Technologies"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model.fields.selection,name:analytic.selection__account_analytic_applicability__applicability__mandatory
@@ -6313,7 +6521,11 @@ msgstr "Mensagens"
 #. module: analytic
 #: model:account.analytic.account,name:analytic.analytic_millennium_industries
 msgid "Millennium Industries"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Millennium Industries"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model.fields.selection,name:analytic.selection__account_analytic_applicability__business_domain__general
@@ -6321,6 +6533,7 @@ msgid "Miscellaneous"
 msgstr "Diversos"
 
 #. module: analytic
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6672,6 +6885,14 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+#. odoo-javascript
+#: code:addons/analytic/static/src/components/analytic_distribution/analytic_distribution.js:0
+msgid "Multi edit"
+msgstr "Edição múltipla"
+
+#. module: analytic
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_plan__name
 #: model_terms:ir.ui.view,arch_db:analytic.view_account_analytic_account_list
 msgid "Name"
@@ -6799,7 +7020,11 @@ msgid "Nebula"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nebula"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nebula"
 >>>>>>> upstream/18.0
@@ -7162,23 +7387,39 @@ msgstr "Nebula"
 #. odoo-javascript
 #: code:addons/analytic/static/src/components/analytic_distribution/analytic_distribution.xml:0
 msgid "New Model"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Novo modelo"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model_terms:ir.actions.act_window,help:analytic.account_analytic_line_action_entries
 msgid "No activity yet"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ainda sem atividade"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model_terms:ir.actions.act_window,help:analytic.account_analytic_line_action
 msgid "No activity yet on this account"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ainda sem atividade nesta conta"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #. odoo-javascript
 #: code:addons/analytic/static/src/components/analytic_distribution/analytic_distribution.xml:0
 msgid "No analytic plans found"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nenhum plano analítico encontrado"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_account__message_needaction_counter
@@ -7204,12 +7445,20 @@ msgstr "Número de mensagens com um erro na entrega"
 #. odoo-python
 #: code:addons/analytic/models/analytic_mixin.py:0
 msgid "One or more lines require a 100% analytic distribution."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Uma ou mais linhas requerem uma distribuição 100% analítica."
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:account.analytic.account,name:analytic.analytic_internal
 msgid "Operating Costs"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Custos operacionais"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #. odoo-python
@@ -7231,7 +7480,11 @@ msgstr "Outro"
 #. module: analytic
 #: model:account.analytic.account,name:analytic.analytic_our_super_product
 msgid "Our Super Product"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nosso super produto"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_plan__parent_id
@@ -7252,7 +7505,11 @@ msgstr "Parceiro"
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_distribution_model__partner_category_id
 msgid "Partner Category"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Categoria do parceiro"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #. odoo-javascript
@@ -7269,7 +7526,11 @@ msgstr "Plano"
 #. odoo-javascript
 #: code:addons/analytic/static/src/components/analytic_distribution/analytic_distribution.js:0
 msgid "Product field"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Campo de produto"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:account.analytic.account,name:analytic.analytic_rd_production
@@ -7285,7 +7546,11 @@ msgstr "Projeto"
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_line__account_id
 #: model:ir.model.fields,field_description:analytic.field_analytic_plan_fields_mixin__account_id
 msgid "Project Account"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Conta do projeto"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_line__unit_amount
@@ -7308,6 +7573,7 @@ msgstr "Pesquisa & Desenvolvimento"
 #: model_terms:ir.actions.act_window,help:analytic.account_analytic_line_action_entries
 msgid ""
 "Revenues will be created automatically when you create customer\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7483,10 +7749,13 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                invoices. Customer invoices can be created based on sales "
 "orders\n"
 "                (fixed price invoices), on timesheets (based on the work "
 "done) or\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7661,6 +7930,15 @@ msgid ""
 >>>>>>> upstream/18.0
 "                on expenses (e.g. reinvoicing of travel costs)."
 msgstr ""
+=======
+"                on expenses (e.g. reinvoicing of travel costs)."
+msgstr ""
+"Receitas serão criadas automaticamente quando você criar uma fatura\n"
+"para o cliente. As faturas podem ser criadas com base em pedidos de venda\n"
+"(faturas com preço fixo), em planilhas de horas (baseado no trabalho "
+"realizado) ou \n"
+"em despesas (ex. reembolso de viagem)."
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_plan__root_id
@@ -7670,18 +7948,30 @@ msgstr "Raíz"
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_account__root_plan_id
 msgid "Root Plan"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Plano raiz"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #. odoo-javascript
 #: code:addons/analytic/static/src/components/analytic_distribution/analytic_distribution.xml:0
 msgid "Save as new analytic distribution model"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Salvar como novo modelo de distribuição analítica"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:account.analytic.account,name:analytic.analytic_seagate_p2
 msgid "Seagate P2"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Seagate P2"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model_terms:ir.ui.view,arch_db:analytic.view_account_analytic_line_filter
@@ -7692,7 +7982,11 @@ msgstr "Procurar Linhas Analíticas"
 #. odoo-python
 #: code:addons/analytic/models/analytic_account.py:0
 msgid "See them"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "See them"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model.fields,help:analytic.field_account_analytic_distribution_model__company_id
@@ -7701,6 +7995,13 @@ msgid ""
 "create new customer invoice or Sales order if we select this company, it "
 "will automatically take this as an analytic account)"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Selecione uma empresa para a qual a distribuição analítica será usada (por "
+"exemplo, crie uma nova fatura de cliente ou pedido de venda; se "
+"selecionarmos esta empresa, isso será considerado automaticamente como uma "
+"conta analítica)"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model.fields,help:analytic.field_account_analytic_distribution_model__partner_category_id
@@ -7709,6 +8010,13 @@ msgid ""
 "(e.g. create new customer invoice or Sales order if we select this partner, "
 "it will automatically take this as an analytic account)"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Selecione uma categoria de usuário para a qual a distribuição analítica será "
+"usada (por exemplo, criar uma nova fatura de cliente ou pedido de venda se "
+"selecionarmos um usuário desta categoria, e isso será considerado "
+"automaticamente como uma conta analítica)"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model.fields,help:analytic.field_account_analytic_distribution_model__partner_id
@@ -7717,6 +8025,13 @@ msgid ""
 "create new customer invoice or Sales order if we select this partner, it "
 "will automatically take this as an analytic account)"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Selecione um usuário para o qual a distribuição analítica será usada (por "
+"exemplo, crie uma nova fatura de cliente ou pedido de venda; se "
+"selecionarmos este usuário, isso será considerado automaticamente como uma "
+"conta analítica)"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_distribution_model__sequence
@@ -7727,7 +8042,11 @@ msgstr "Sequência"
 #. module: analytic
 #: model:account.analytic.account,name:analytic.analytic_spark
 msgid "Spark Systems"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Spark Systems"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model_terms:ir.ui.view,arch_db:analytic.account_analytic_plan_form_view
@@ -7851,7 +8170,11 @@ msgid "Subplans"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Subplanos"
+>>>>>>> upstream/18.0
 =======
 msgstr "Subplanos"
 >>>>>>> upstream/18.0
@@ -8343,7 +8666,11 @@ msgid "Unavailable"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Não disponível"
+>>>>>>> upstream/18.0
 =======
 msgstr "Não disponível"
 >>>>>>> upstream/18.0
@@ -8771,6 +9098,7 @@ msgstr "Categoria da UdM"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -9064,6 +9392,14 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+#. odoo-javascript
+#: code:addons/analytic/static/src/components/analytic_distribution/analytic_distribution.xml:0
+msgid "Update"
+msgstr "Atualizar"
+
+#. module: analytic
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_line__user_id
 msgid "User"
 msgstr "Utilizador"
@@ -9072,6 +9408,7 @@ msgstr "Utilizador"
 #. odoo-python
 #: code:addons/analytic/models/analytic_account.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9365,6 +9702,13 @@ msgid ""
 "that, shall we?"
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+"Whoa there! Making this change would wipe out your current data. Let's avoid "
+"that, shall we?"
+msgstr ""
+"Calma! Fazer essa alteração apagaria seus dados atuais. É melhor evitar "
+"isso, certo?"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #. odoo-python
@@ -9378,7 +9722,11 @@ msgstr ""
 #. odoo-python
 #: code:addons/analytic/models/analytic_plan.py:0
 msgid "You cannot add a parent to the base plan '%s'"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Não é possível adicionar um superior ao plano básico '%s'"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #. odoo-python
@@ -9387,6 +9735,12 @@ msgid ""
 "You defined a distribution with analytic account(s) belonging to a specific "
 "company but a model shared between companies or with a different company"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Você definiu uma distribuição com conta(s) analítica(s) pertencente(s) a uma "
+"empresa específica, mas um modelo compartilhado entre empresas ou com uma "
+"empresa diferente"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model_terms:ir.ui.view,arch_db:analytic.view_account_analytic_account_form

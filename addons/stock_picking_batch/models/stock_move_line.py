@@ -105,6 +105,10 @@ class StockMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        split_pickings_ids = set()
+>>>>>>> upstream/18.0
 =======
         split_pickings_ids = set()
 >>>>>>> upstream/18.0
@@ -365,6 +369,10 @@ class StockMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            split_pickings_ids.add(picking.id)
+>>>>>>> upstream/18.0
 =======
             split_pickings_ids.add(picking.id)
 >>>>>>> upstream/18.0
@@ -612,7 +620,12 @@ class StockMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.env['stock.picking'].create(picking_to_wave_vals_list)
+=======
+            split_pickings = self.env['stock.picking'].browse(split_pickings_ids) | self.env['stock.picking'].create(picking_to_wave_vals_list)
+            split_pickings._add_to_wave_post_picking_split_hook()
+>>>>>>> upstream/18.0
 =======
             split_pickings = self.env['stock.picking'].browse(split_pickings_ids) | self.env['stock.picking'].create(picking_to_wave_vals_list)
             split_pickings._add_to_wave_post_picking_split_hook()
@@ -937,7 +950,10 @@ class StockMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1086,6 +1102,9 @@ class StockMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1243,6 +1262,10 @@ class StockMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                domain = lines._get_potential_existing_waves_extra_domain(domain, picking_type)
+>>>>>>> upstream/18.0
 =======
                 domain = lines._get_potential_existing_waves_extra_domain(domain, picking_type)
 >>>>>>> upstream/18.0
@@ -1456,7 +1479,12 @@ class StockMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         or (picking_type.wave_group_by_location and waves_nearest_parent_locations[wave] != nearest_parent_locations[line].id):
+=======
+                        or (picking_type.wave_group_by_location and waves_nearest_parent_locations[wave] != nearest_parent_locations[line].id) \
+                        or not line._is_potential_existing_wave_extra(wave):
+>>>>>>> upstream/18.0
 =======
                         or (picking_type.wave_group_by_location and waves_nearest_parent_locations[wave] != nearest_parent_locations[line].id) \
                         or not line._is_potential_existing_wave_extra(wave):
@@ -1742,6 +1770,10 @@ class StockMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            domain = lines._get_potential_new_waves_extra_domain(domain, picking_type)
+>>>>>>> upstream/18.0
 =======
             domain = lines._get_potential_new_waves_extra_domain(domain, picking_type)
 >>>>>>> upstream/18.0
@@ -1948,7 +1980,12 @@ class StockMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     or (picking_type.wave_group_by_location and lines_nearest_parent_locations[potential_line] != nearest_parent_locations[line].id):
+=======
+                    or (picking_type.wave_group_by_location and lines_nearest_parent_locations[potential_line] != nearest_parent_locations[line].id)  \
+                    or not line._is_new_potential_line_extra(potential_line):
+>>>>>>> upstream/18.0
 =======
                     or (picking_type.wave_group_by_location and lines_nearest_parent_locations[potential_line] != nearest_parent_locations[line].id)  \
                     or not line._is_new_potential_line_extra(potential_line):

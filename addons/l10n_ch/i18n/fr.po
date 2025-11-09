@@ -1,11 +1,19 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* l10n_ch
 #
+=======
+# * l10n_ch
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 17.1alpha1+e\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2023-12-12 12:22+0000\n"
 "PO-Revision-Date: 2023-12-12 12:22+0000\n"
@@ -22,10 +30,24 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
+=======
+"POT-Creation-Date: 2025-11-03 15:40+0000\n"
+"PO-Revision-Date: 2025-11-08 09:30+0000\n"
+"Last-Translator: \"Dylan Kiss (dyki)\" <dyki@odoo.com>\n"
+"Language-Team: French <https://translate.odoo.com/projects/odoo-18-l10n/"
+"l10n_ch/fr/>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: l10n_ch
 #. odoo-python
 #: code:addons/l10n_ch/wizard/qr_invoice_wizard.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgid "%s invoices could be printed in the %s format."
 msgstr ""
@@ -33,6 +55,9 @@ msgstr ""
 #. module: l10n_ch
 #: model_terms:ir.ui.view,arch_db:l10n_ch.l10n_ch_header_template
 msgid "&amp;nbsp;"
+=======
+msgid "%(amount)s invoices could be printed in the %(format)s format."
+>>>>>>> upstream/18.0
 =======
 msgid "%(amount)s invoices could be printed in the %(format)s format."
 >>>>>>> upstream/18.0
@@ -74,8 +99,13 @@ msgid ""
 msgstr ""
 "220 - Prestations exonérées (p. ex. exportations, art. 23), prestations "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "exonérées fournies à des institutions et à des personnes bénéficiaires (art."
 " 107, al. 1, let. a)"
+=======
+"exonérées fournies à des institutions et à des personnes bénéficiaires (art. "
+"107, al. 1, let. a)"
+>>>>>>> upstream/18.0
 =======
 "exonérées fournies à des institutions et à des personnes bénéficiaires (art. "
 "107, al. 1, let. a)"
@@ -90,8 +120,13 @@ msgstr "221 - Prestations fournies à l’étranger"
 #: model:account.report.line,name:l10n_ch.account_tax_report_line_chtax_225
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "225 - Transfer of supplies according to the notification procedure (art. 38,"
 " please submit Form 764)"
+=======
+"225 - Transfer of supplies according to the notification procedure (art. 38, "
+"please submit Form 764)"
+>>>>>>> upstream/18.0
 =======
 "225 - Transfer of supplies according to the notification procedure (art. 38, "
 "please submit Form 764)"
@@ -204,8 +239,12 @@ msgstr ""
 #: model:account.report.line,name:l10n_ch.account_tax_report_line_chtax_382a
 msgid "382a - Acquisition tax: Supplies CHF to 31.12.2023"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "382a - Impôt sur les acquisitions: Prestations CHF jusqu'au 31.12.2023"
+=======
+msgstr "382a - Impôt sur les acquisitions: Prestations CHF jusqu'au 31.12.2023"
+>>>>>>> upstream/18.0
 =======
 msgstr "382a - Impôt sur les acquisitions: Prestations CHF jusqu'au 31.12.2023"
 >>>>>>> upstream/18.0
@@ -214,8 +253,12 @@ msgstr "382a - Impôt sur les acquisitions: Prestations CHF jusqu'au 31.12.2023"
 #: model:account.report.line,name:l10n_ch.account_tax_report_line_chtax_382b
 msgid "382b - Acquisition tax: Tax amount CHF / cent. to 31.12.2023"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "382b - Impôt sur les acquisitions: Impôt CHF / ct. jusqu'au 31.12.2023"
+=======
+msgstr "382b - Impôt sur les acquisitions: Impôt CHF / ct. jusqu'au 31.12.2023"
+>>>>>>> upstream/18.0
 =======
 msgstr "382b - Impôt sur les acquisitions: Impôt CHF / ct. jusqu'au 31.12.2023"
 >>>>>>> upstream/18.0
@@ -303,8 +346,13 @@ msgstr ""
 #: model:account.report.line,name:l10n_ch.account_tax_report_line_chtax_910
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "910 - Donations, dividends, payments of damages etc. (art. 18 para. 2 lit. d"
 " to l)"
+=======
+"910 - Donations, dividends, payments of damages etc. (art. 18 para. 2 lit. d "
+"to l)"
+>>>>>>> upstream/18.0
 =======
 "910 - Donations, dividends, payments of damages etc. (art. 18 para. 2 lit. d "
 "to l)"
@@ -385,7 +433,11 @@ msgstr ""
 #. module: l10n_ch
 #: model:account.report.column,name:l10n_ch.tax_report_balance
 msgid "Balance"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Solde"
+>>>>>>> upstream/18.0
 
 #. module: l10n_ch
 #: model:ir.model,name:l10n_ch.model_res_partner_bank
@@ -409,12 +461,18 @@ msgstr ""
 
 #. module: l10n_ch
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:account.cash.rounding,name:l10n_ch.cash_rounding_5_centime
 msgid "Coinage 0.05"
 msgstr ""
 
 #. module: l10n_ch
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:l10n_ch.field_account_journal__invoice_reference_model
 msgid "Communication Standard"
@@ -423,18 +481,29 @@ msgstr "Standard de communication"
 #. module: l10n_ch
 #: model:ir.model.fields,field_description:l10n_ch.field_l10n_ch_qr_invoice_wizard__create_uid
 msgid "Created by"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Créé par"
+>>>>>>> upstream/18.0
 
 #. module: l10n_ch
 #: model:ir.model.fields,field_description:l10n_ch.field_l10n_ch_qr_invoice_wizard__create_date
 msgid "Created on"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Créé le"
+>>>>>>> upstream/18.0
 
 #. module: l10n_ch
 #: model:ir.model.fields,help:l10n_ch.field_account_bank_statement_line__l10n_ch_is_qr_valid
 #: model:ir.model.fields,help:l10n_ch.field_account_move__l10n_ch_is_qr_valid
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,help:l10n_ch.field_account_payment__l10n_ch_is_qr_valid
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 msgid "Determines whether an invoice can be printed as a QR or not"
@@ -443,7 +512,11 @@ msgstr ""
 #. module: l10n_ch
 #: model:ir.model.fields,field_description:l10n_ch.field_l10n_ch_qr_invoice_wizard__display_name
 msgid "Display Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nom d'affichage"
+>>>>>>> upstream/18.0
 
 #. module: l10n_ch
 #: model:ir.model,name:l10n_ch.model_l10n_ch_qr_invoice_wizard
@@ -458,7 +531,11 @@ msgstr "I. CHIFFRE D'AFFAIRES"
 #. module: l10n_ch
 #: model:ir.model.fields,field_description:l10n_ch.field_l10n_ch_qr_invoice_wizard__id
 msgid "ID"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ID"
+>>>>>>> upstream/18.0
 
 #. module: l10n_ch
 #: model:account.report.line,name:l10n_ch.account_tax_report_line_calc_impot
@@ -479,7 +556,11 @@ msgstr ""
 #. module: l10n_ch
 #: model:ir.model,name:l10n_ch.model_account_journal
 msgid "Journal"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Journal"
+>>>>>>> upstream/18.0
 
 #. module: l10n_ch
 #: model:ir.model,name:l10n_ch.model_account_move
@@ -496,7 +577,10 @@ msgstr ""
 #: model:ir.model.fields,field_description:l10n_ch.field_account_bank_statement_line__l10n_ch_is_qr_valid
 #: model:ir.model.fields,field_description:l10n_ch.field_account_move__l10n_ch_is_qr_valid
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_ch.field_account_payment__l10n_ch_is_qr_valid
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 msgid "L10N Ch Is Qr Valid"
@@ -510,12 +594,20 @@ msgstr ""
 #. module: l10n_ch
 #: model:ir.model.fields,field_description:l10n_ch.field_l10n_ch_qr_invoice_wizard__write_uid
 msgid "Last Updated by"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mis à jour par"
+>>>>>>> upstream/18.0
 
 #. module: l10n_ch
 #: model:ir.model.fields,field_description:l10n_ch.field_l10n_ch_qr_invoice_wizard__write_date
 msgid "Last Updated on"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mis à jour le"
+>>>>>>> upstream/18.0
 
 #. module: l10n_ch
 #: model:ir.model.fields,field_description:l10n_ch.field_l10n_ch_qr_invoice_wizard__nb_classic_inv
@@ -593,7 +685,11 @@ msgstr ""
 #. odoo-python
 #: code:addons/l10n_ch/models/res_bank.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "QR-IBAN %r is invalid."
+=======
+msgid "QR-IBAN numbers are only available in Switzerland."
+>>>>>>> upstream/18.0
 =======
 msgid "QR-IBAN numbers are only available in Switzerland."
 >>>>>>> upstream/18.0
@@ -603,7 +699,11 @@ msgstr ""
 #. odoo-python
 #: code:addons/l10n_ch/models/res_bank.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "QR-IBAN numbers are only available in Switzerland."
+=======
+msgid "QR-IBAN “%s” is invalid."
+>>>>>>> upstream/18.0
 =======
 msgid "QR-IBAN “%s” is invalid."
 >>>>>>> upstream/18.0
@@ -616,11 +716,14 @@ msgstr ""
 
 #. module: l10n_ch
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.actions.report,name:l10n_ch.l10n_ch_qr_header
 msgid "QR-bill Header"
 msgstr ""
 
 #. module: l10n_ch
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:ir.actions.act_window,name:l10n_ch.l10n_ch_qr_invoice_wizard
@@ -672,7 +775,11 @@ msgstr "Suisse"
 #. module: l10n_ch
 #: model:account.report,name:l10n_ch.tax_report
 msgid "Tax Report"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Déclaration fiscale"
+>>>>>>> upstream/18.0
 
 #. module: l10n_ch
 #: model:account.report.line,name:l10n_ch.account_tax_report_line_tax_amount_1
@@ -728,11 +835,14 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:l10n_ch.l10n_ch_qr_invoice_wizard_form
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "To be able to print all invoices in the QR format, you might need to : <br/>\n"
 "                    - check the account is a valid QR-IBAN<br/>\n"
 "                    - or check your company and the partners are located in Switzerland.<br/>\n"
 "                    Press Check Invalid Invoices to see a list of the invoices that were printed without a QR."
 =======
+=======
+>>>>>>> upstream/18.0
 "To be able to print all invoices in the QR format, you might need to : <br/"
 ">\n"
 "                    - check the account is a valid QR-IBAN<br/>\n"
@@ -740,6 +850,9 @@ msgid ""
 "Switzerland.<br/>\n"
 "                    Press Check Invalid Invoices to see a list of the "
 "invoices that were printed without a QR."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 

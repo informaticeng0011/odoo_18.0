@@ -1,11 +1,18 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* l10n_ro_edi_stock
 #
+=======
+# * l10n_ro_edi_stock
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 17.0+e\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2025-01-09 15:05+0000\n"
 "PO-Revision-Date: 2025-01-09 15:05+0000\n"
@@ -22,12 +29,29 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
+=======
+"POT-Creation-Date: 2025-11-03 15:46+0000\n"
+"PO-Revision-Date: 2025-11-08 09:22+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Romanian <https://translate.odoo.com/projects/odoo-18-l10n/"
+"l10n_ro_edi_stock/ro/>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2;\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: l10n_ro_edi_stock
 #. odoo-python
 #: code:addons/l10n_ro_edi_stock/models/stock_picking.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 msgid "%(location_group)s is missing following fields: %(field_names)s"
@@ -37,7 +61,10 @@ msgstr "%(location_group)s lipsesc următoarele câmpuri: %(field_names)s"
 #. odoo-python
 #: code:addons/l10n_ro_edi_stock/models/stock_picking.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 msgid "%(location_group)s is missing the %(field_name)s field."
@@ -47,7 +74,10 @@ msgstr "%(location_group)s lipsește câmpul %(field_name)s."
 #. odoo-python
 #: code:addons/l10n_ro_edi_stock/models/stock_picking.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 msgid "'End Location Type' is missing"
@@ -57,7 +87,10 @@ msgstr "„Tipul locație finală” lipsește"
 #. odoo-python
 #: code:addons/l10n_ro_edi_stock/models/stock_picking.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 msgid "'End Location'"
@@ -67,7 +100,10 @@ msgstr "„Locația finală”"
 #. odoo-python
 #: code:addons/l10n_ro_edi_stock/models/stock_picking.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 msgid "'Start Location Type' is missing"
@@ -77,7 +113,10 @@ msgstr "„Tipul de locație de pornire” lipsește"
 #. odoo-python
 #: code:addons/l10n_ro_edi_stock/models/stock_picking.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 msgid "'Start Location'"
@@ -86,7 +125,11 @@ msgstr "„Locația de pornire”"
 #. module: l10n_ro_edi_stock
 #: model_terms:ir.ui.view,arch_db:l10n_ro_edi_stock.l10n_ro_edi_stock_report_delivery_document
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<strong>eTransport UIT:</strong>"
+=======
+msgid "<strong>eTransport UIT</strong>"
+>>>>>>> upstream/18.0
 =======
 msgid "<strong>eTransport UIT</strong>"
 >>>>>>> upstream/18.0
@@ -96,7 +139,10 @@ msgstr ""
 #. odoo-python
 #: code:addons/l10n_ro_edi_stock/models/etransport_api.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 msgid "Access token is forbidden."
@@ -681,7 +727,10 @@ msgstr ""
 #. odoo-python
 #: code:addons/l10n_ro_edi_stock/models/stock_picking.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 msgid "Both 'End' and 'Start Location Type' are missing"
@@ -709,8 +758,11 @@ msgstr ""
 #. odoo-python
 #: code:addons/l10n_ro_edi_stock/models/stock_picking.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/l10n_ro_edi_stock/models/stock_picking.py:0
 #, python-format
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 msgid "City"
@@ -805,7 +857,11 @@ msgstr "Operațiuni scutite"
 #. module: l10n_ro_edi_stock
 #: model:ir.model.fields.selection,name:l10n_ro_edi_stock.selection__stock_picking__l10n_ro_edi_stock_operation_type__50
 msgid "Export"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Export"
+>>>>>>> upstream/18.0
 
 #. module: l10n_ro_edi_stock
 #: model_terms:ir.ui.view,arch_db:l10n_ro_edi_stock.l10n_ro_edi_stock_stock_picking_view_tree
@@ -832,7 +888,11 @@ msgstr ""
 #. module: l10n_ro_edi_stock
 #: model_terms:ir.ui.view,arch_db:l10n_ro_edi_stock.l10n_ro_edi_stock_view_picking_form
 msgid "General"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "General"
+>>>>>>> upstream/18.0
 
 #. module: l10n_ro_edi_stock
 #: model:ir.model.fields.selection,name:l10n_ro_edi_stock.selection__stock_picking__l10n_ro_edi_stock_end_bcp__9
@@ -869,7 +929,11 @@ msgstr "Id-ul acestui document folosit pentru interacțiunea cu API-ul anaf."
 #. module: l10n_ro_edi_stock
 #: model:ir.model.fields.selection,name:l10n_ro_edi_stock.selection__stock_picking__l10n_ro_edi_stock_operation_type__40
 msgid "Import"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Importă"
+>>>>>>> upstream/18.0
 
 #. module: l10n_ro_edi_stock
 #: model_terms:ir.ui.view,arch_db:l10n_ro_edi_stock.res_config_settings_form_inherit_l10n_ro_edi
@@ -904,7 +968,10 @@ msgstr ""
 #. odoo-python
 #: code:addons/l10n_ro_edi_stock/models/stock_picking.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 msgid "Invalid picking type %(type_code)s"
@@ -1047,7 +1114,10 @@ msgstr "Domeniul de aplicare"
 #. odoo-python
 #: code:addons/l10n_ro_edi_stock/models/stock_picking.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 msgid "Operation scope is missing."
@@ -1057,7 +1127,10 @@ msgstr "Domeniul de operare lipsește."
 #. odoo-python
 #: code:addons/l10n_ro_edi_stock/models/stock_picking.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 msgid "Operation type is missing."
@@ -1120,7 +1193,10 @@ msgstr ""
 #. odoo-python
 #: code:addons/l10n_ro_edi_stock/models/stock_picking.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 msgid "Postal Code"
@@ -1130,7 +1206,10 @@ msgstr "Cod poștal"
 #. odoo-python
 #: code:addons/l10n_ro_edi_stock/models/stock_picking.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 msgid "Product %(name)s is missing the intrastat code value."
@@ -1140,7 +1219,10 @@ msgstr "Produsul %(name)s lipsește valoarea codului intrastat"
 #. odoo-python
 #: code:addons/l10n_ro_edi_stock/models/stock_picking.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 msgid "Products %(names)s are missing the intrastat code value."
@@ -1155,8 +1237,11 @@ msgstr "Remarci"
 #. odoo-python
 #: code:addons/l10n_ro_edi_stock/models/stock_picking.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/l10n_ro_edi_stock/models/stock_picking.py:0
 #, python-format
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 msgid ""
@@ -1203,7 +1288,12 @@ msgstr ""
 "Trimis -> Trimis cu succes către SPV, în așteptarea validării.\n"
 "                Validat -> Trimis și validat de SPV.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                Eroare -> Eroare de trimitere sau eroare de validare de la SPV."
+=======
+"                Eroare -> Eroare de trimitere sau eroare de validare de la "
+"SPV."
+>>>>>>> upstream/18.0
 =======
 "                Eroare -> Eroare de trimitere sau eroare de validare de la "
 "SPV."
@@ -1250,7 +1340,10 @@ msgstr "Tip locație"
 #. odoo-python
 #: code:addons/l10n_ro_edi_stock/models/stock_picking.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 msgid "State"
@@ -1275,8 +1368,11 @@ msgstr "Stocuri la dispoziţia clientului (Call-off stock) - ieşire"
 #. odoo-python
 #: code:addons/l10n_ro_edi_stock/models/stock_picking.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/l10n_ro_edi_stock/models/stock_picking.py:0
 #, python-format
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 msgid "Street"
@@ -1298,7 +1394,10 @@ msgstr ""
 #. odoo-python
 #: code:addons/l10n_ro_edi_stock/models/stock_picking.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 msgid "The border crossing point is missing under %(location_group)s"
@@ -1308,7 +1407,10 @@ msgstr "Punctul de trecere a frontierei lipsește sub %(location_group)s"
 #. odoo-python
 #: code:addons/l10n_ro_edi_stock/models/stock_picking.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 msgid "The customs office is missing under %(location_group)s"
@@ -1318,7 +1420,10 @@ msgstr "Biroul vamal lipsește sub %(location_group)s"
 #. odoo-python
 #: code:addons/l10n_ro_edi_stock/models/stock_picking.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 msgid ""
@@ -1330,6 +1435,7 @@ msgstr ""
 #. module: l10n_ro_edi_stock
 #. odoo-python
 #: code:addons/l10n_ro_edi_stock/models/stock_picking.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 #, python-format
 msgid "The delivery carrier partner has to be located in Romania."
@@ -1346,18 +1452,26 @@ msgstr ""
 "Partenerului transportatorului de livrare lipsesc următoarele câmpuri: "
 "%(field_names)s"
 =======
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "The delivery carrier partner is missing following fields: %(field_names)s"
 msgstr ""
 "Partenerului transportatorului de livrare lipsesc următoarele câmpuri: %"
 "(field_names)s"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: l10n_ro_edi_stock
 #. odoo-python
 #: code:addons/l10n_ro_edi_stock/models/stock_picking.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 msgid "The delivery carrier partner is missing the %(field_name)s field."
@@ -1368,7 +1482,10 @@ msgstr ""
 #. odoo-python
 #: code:addons/l10n_ro_edi_stock/models/stock_picking.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 msgid "The picking %(picking_name)s is missing a delivery carrier."
@@ -1378,7 +1495,10 @@ msgstr "Pentru picking %(picking_name)s lipsește un transportator."
 #. odoo-python
 #: code:addons/l10n_ro_edi_stock/models/stock_picking.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 msgid "This document has already been successfully sent to anaf."
@@ -1388,7 +1508,10 @@ msgstr "Acest document a fost deja trimis cu succes către anaf."
 #. odoo-python
 #: code:addons/l10n_ro_edi_stock/models/stock_picking.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 msgid "This document has not been corrected yet because it contains errors."
@@ -1398,11 +1521,17 @@ msgstr "Acest document nu a fost încă corectat deoarece conține erori."
 #. odoo-python
 #: code:addons/l10n_ro_edi_stock/models/stock_picking.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 #, python-format
 msgid ""
 "This document has not been successfully sent yet because it contains errors."
 msgstr ""
 "Acest document nu a fost încă trimis cu succes deoarece conține erori."
+=======
+msgid ""
+"This document has not been successfully sent yet because it contains errors."
+msgstr "Acest document nu a fost încă trimis cu succes deoarece conține erori."
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "This document has not been successfully sent yet because it contains errors."
@@ -1422,7 +1551,11 @@ msgstr "Numărul remorcii 2"
 #. module: l10n_ro_edi_stock
 #: model:ir.model,name:l10n_ro_edi_stock.model_stock_picking
 msgid "Transfer"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Transfer"
+>>>>>>> upstream/18.0
 
 #. module: l10n_ro_edi_stock
 #: model:ir.model.fields.selection,name:l10n_ro_edi_stock.selection__stock_picking__l10n_ro_edi_stock_operation_scope__704
@@ -1432,7 +1565,11 @@ msgstr "Transfer între gestiuni"
 #. module: l10n_ro_edi_stock
 #: model_terms:ir.ui.view,arch_db:l10n_ro_edi_stock.l10n_ro_edi_stock_view_picking_form
 msgid "Transport"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Transport"
+>>>>>>> upstream/18.0
 
 #. module: l10n_ro_edi_stock
 #: model:ir.model.fields.selection,name:l10n_ro_edi_stock.selection__stock_picking__l10n_ro_edi_stock_operation_type__30
@@ -1465,7 +1602,10 @@ msgstr "UIT al acestui document de transport electronic."
 #. odoo-python
 #: code:addons/l10n_ro_edi_stock/models/stock_picking.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 msgid "Unhandled eTransport document state: %(state)s"
@@ -1481,11 +1621,16 @@ msgstr ""
 #. odoo-python
 #: code:addons/l10n_ro_edi_stock/models/stock_picking.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 #, python-format
 =======
 >>>>>>> upstream/18.0
 msgid "VAT"
 msgstr ""
+=======
+msgid "VAT"
+msgstr "TVA"
+>>>>>>> upstream/18.0
 
 #. module: l10n_ro_edi_stock
 #: model:ir.model.fields.selection,name:l10n_ro_edi_stock.selection__stock_picking__l10n_ro_edi_stock_end_bcp__23
@@ -1514,7 +1659,10 @@ msgstr "Numărul vehiculului"
 #. odoo-python
 #: code:addons/l10n_ro_edi_stock/models/stock_picking.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 msgid "Vehicle number and trailer number fields must be unique."
@@ -1526,7 +1674,10 @@ msgstr ""
 #. odoo-python
 #: code:addons/l10n_ro_edi_stock/models/stock_picking.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 msgid "Vehicle number is missing."
@@ -1548,7 +1699,10 @@ msgstr ""
 #. odoo-python
 #: code:addons/l10n_ro_edi_stock/models/stock_picking.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 msgid "XML contains errors."
@@ -1558,7 +1712,10 @@ msgstr "XML conține erori."
 #. odoo-python
 #: code:addons/l10n_ro_edi_stock/models/etransport_api.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 msgid "You reached the limit of requests. Please try again later."

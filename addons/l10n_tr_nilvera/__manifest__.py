@@ -15,6 +15,10 @@ Base module containing core functionalities required by other Nilvera modules.
     'post_init_hook': '_l10n_tr_nilvera_post_init',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    'uninstall_hook': 'uninstall_hook',
+>>>>>>> upstream/18.0
 =======
     'uninstall_hook': 'uninstall_hook',
 >>>>>>> upstream/18.0

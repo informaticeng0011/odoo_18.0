@@ -117,6 +117,7 @@ from odoo.exceptions import UserError, ValidationError
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tools import float_repr, format_list
 =======
 from odoo.tools import float_is_zero, float_repr, format_list
@@ -404,6 +405,8 @@ from odoo.tools.xml_utils import find_xml_value
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 from odoo.tools import float_is_zero, float_repr, format_list
 from odoo.tools.float_utils import float_round
 from odoo.tools.misc import clean_context, formatLang, html_escape
@@ -466,6 +469,9 @@ from datetime import datetime
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -677,6 +683,10 @@ EAS_MAPPING = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    'AE': {'0235': 'vat'},
+>>>>>>> upstream/18.0
 =======
     'AE': {'0235': 'vat'},
 >>>>>>> upstream/18.0
@@ -936,7 +946,11 @@ EAS_MAPPING = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     'LV': {'9939': 'vat'},
+=======
+    'LV': {'0218': 'company_registry', '9939': 'vat'},
+>>>>>>> upstream/18.0
 =======
     'LV': {'0218': 'company_registry', '9939': 'vat'},
 >>>>>>> upstream/18.0
@@ -1189,7 +1203,10 @@ EAS_MAPPING = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1374,6 +1391,9 @@ EAS_MAPPING = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1678,7 +1698,10 @@ class AccountEdiCommon(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1918,6 +1941,9 @@ class AccountEdiCommon(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2318,7 +2344,11 @@ class AccountEdiCommon(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             for bank in ResPartnerBank.search(
+=======
+            for bank in ResPartnerBank.with_context(active_test=False).search(
+>>>>>>> upstream/18.0
 =======
             for bank in ResPartnerBank.with_context(active_test=False).search(
 >>>>>>> upstream/18.0
@@ -2557,6 +2587,11 @@ class AccountEdiCommon(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                if not partner_bank.active:
+                    partner_bank.active = True
+>>>>>>> upstream/18.0
 =======
                 if not partner_bank.active:
                     partner_bank.active = True
@@ -2937,7 +2972,10 @@ class AccountEdiCommon(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3156,6 +3194,9 @@ class AccountEdiCommon(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3354,6 +3395,7 @@ class AccountEdiCommon(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         deferred_values = {}
         start_date = end_date = None
         if self.env['account.move.line']._fields.get('deferred_start_date'):
@@ -3363,6 +3405,8 @@ class AccountEdiCommon(models.AbstractModel):
                 start_date = start_date_node.text
                 end_date = end_date_node.text
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3543,6 +3587,9 @@ class AccountEdiCommon(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3757,7 +3804,11 @@ class AccountEdiCommon(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         basis_qty = float(self._find_value(xpath_dict['basis_qty'], tree) or 1)
+=======
+        basis_qty = float(self._find_value(xpath_dict['basis_qty'], tree) or 1) or 1.0
+>>>>>>> upstream/18.0
 =======
         basis_qty = float(self._find_value(xpath_dict['basis_qty'], tree) or 1) or 1.0
 >>>>>>> upstream/18.0
@@ -3982,6 +4033,7 @@ class AccountEdiCommon(models.AbstractModel):
 
         # discount
         discount = 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4542,6 +4594,8 @@ class AccountEdiCommon(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         currency = self.env.company.currency_id
         if not float_is_zero(delivered_qty * price_unit, currency.decimal_places) and price_subtotal is not None:
             inferred_discount = 100 * (1 - (price_subtotal - charge_amount) / currency.round(delivered_qty * price_unit))
@@ -4577,6 +4631,9 @@ class AccountEdiCommon(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -1,11 +1,18 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* l10n_kz
 #
+=======
+# * l10n_kz
+#
+# "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.1alpha1+e\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2022-11-23 11:24+0000\n"
 "PO-Revision-Date: 2022-11-22 14:04+0000\n"
@@ -30,13 +37,32 @@ msgstr ""
 #: model:account.report.expression,report_line_name:l10n_kz.l10n_kz_tr_expression_300_00_001_tax
 =======
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-11-03 15:45+0000\n"
+"PO-Revision-Date: 2025-11-08 09:53+0000\n"
+"Last-Translator: \"Dylan Kiss (dyki)\" <dyki@odoo.com>\n"
+"Language-Team: Russian <https://translate.odoo.com/projects/odoo-18-l10n/"
+"l10n_kz/ru/>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.12.2\n"
+
+#. module: l10n_kz
+>>>>>>> upstream/18.0
 #: model:account.report.line,name:l10n_kz.l10n_kz_tr_line_300_00_001
 msgid "300.00.001. Sales turnover subject to VAT, including"
 msgstr "300.00.001. Оборот по реализации, облагаемый НДС, в т.ч."
 
 #. module: l10n_kz
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:account.report.expression,report_line_name:l10n_kz.l10n_kz_tr_expression_300_00_002_net
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:account.report.line,name:l10n_kz.l10n_kz_tr_line_300_00_002
@@ -45,8 +71,11 @@ msgstr "300.00.002. Оборот по реализации, облагаемый
 
 #. module: l10n_kz
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:account.report.expression,report_line_name:l10n_kz.l10n_kz_tr_expression_300_00_003_net
 #: model:account.report.expression,report_line_name:l10n_kz.l10n_kz_tr_expression_300_00_003_tax
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:account.report.line,name:l10n_kz.l10n_kz_tr_line_300_00_003
@@ -54,6 +83,7 @@ msgid "300.00.003. Adjustment of taxable turnover"
 msgstr "300.00.003. Корректировка размера облагаемого оборота"
 
 #. module: l10n_kz
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model:account.report.expression,report_line_name:l10n_kz.l10n_kz_tr_expression_300_00_004_net
 #: model:account.report.line,name:l10n_kz.l10n_kz_tr_line_300_00_004
@@ -63,6 +93,8 @@ msgstr "300.00.004. Оборот по реализации товаров, ра�
 #. module: l10n_kz
 #: model:account.report.expression,report_line_name:l10n_kz.l10n_kz_tr_expression_300_00_005_net
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:account.report.line,name:l10n_kz.l10n_kz_tr_line_300_00_004
 msgid ""
 "300.00.004. Turnover on sale of goods, works, services, the place of sale of "
@@ -72,6 +104,9 @@ msgstr ""
 "которых не является РК"
 
 #. module: l10n_kz
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:account.report.line,name:l10n_kz.l10n_kz_tr_line_300_00_005
 msgid "300.00.005. Turnover exempt from VAT"
@@ -79,7 +114,10 @@ msgstr "300.00.005. Оборот, освобожденный от НДС"
 
 #. module: l10n_kz
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:account.report.expression,report_line_name:l10n_kz.l10n_kz_tr_expression_300_00_006_net
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:account.report.line,name:l10n_kz.l10n_kz_tr_line_300_00_006
@@ -88,7 +126,10 @@ msgstr "300.00.006. Общий оборот"
 
 #. module: l10n_kz
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:account.report.expression,report_line_name:l10n_kz.l10n_kz_tr_expression_300_00_007_net
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:account.report.line,name:l10n_kz.l10n_kz_tr_line_300_00_007
@@ -96,6 +137,7 @@ msgid "300.00.007. Share of taxable turnover in total turnover"
 msgstr "300.00.007. Доля облагаемого оборота в общем обороте"
 
 #. module: l10n_kz
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model:account.report.expression,report_line_name:l10n_kz.l10n_kz_tr_expression_300_00_008_net
 #: model:account.report.line,name:l10n_kz.l10n_kz_tr_line_300_00_008
@@ -123,6 +165,8 @@ msgstr "300.00.011. НДС начисленный при импорте това
 #. module: l10n_kz
 #: model:account.report.expression,report_line_name:l10n_kz.l10n_kz_tr_expression_300_00_012_tax
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:account.report.line,name:l10n_kz.l10n_kz_tr_line_300_00_008
 msgid ""
 "300.00.008. Share of taxable turnover at zero rate in the total taxable "
@@ -161,12 +205,16 @@ msgstr ""
 "исключением строки 300.00.010 (300.04.001 B)"
 
 #. module: l10n_kz
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:account.report.line,name:l10n_kz.l10n_kz_tr_line_300_00_012
 msgid "300.00.012. Total VAT accrued"
 msgstr "300.00.012. Всего начислено НДС"
 
 #. module: l10n_kz
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model:account.report.expression,report_line_name:l10n_kz.l10n_kz_tr_expression_300_00_013_net
 #: model:account.report.expression,report_line_name:l10n_kz.l10n_kz_tr_expression_300_00_013_tax
@@ -178,6 +226,8 @@ msgstr "300.00.013. Товары, работы, услуги, приобрете
 #: model:account.report.expression,report_line_name:l10n_kz.l10n_kz_tr_expression_300_00_014_net
 #: model:account.report.expression,report_line_name:l10n_kz.l10n_kz_tr_expression_300_00_014_tax
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:account.report.line,name:l10n_kz.l10n_kz_tr_line_300_00_013
 msgid ""
 "300.00.013. Goods, works, services purchased with VAT in the Republic of "
@@ -185,12 +235,16 @@ msgid ""
 msgstr "300.00.013. Товары, работы, услуги, приобретенные с НДС в РК, в т.ч."
 
 #. module: l10n_kz
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:account.report.line,name:l10n_kz.l10n_kz_tr_line_300_00_014
 msgid "300.00.014. Works, services purchased from a non-resident"
 msgstr "300.00.014. Работы, услуги, приобретенные от нерезидента"
 
 #. module: l10n_kz
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model:account.report.expression,report_line_name:l10n_kz.l10n_kz_tr_expression_300_00_015_net
 #: model:account.report.line,name:l10n_kz.l10n_kz_tr_line_300_00_015
@@ -205,6 +259,8 @@ msgstr "300.00.016. Импорт с уплатой НДС (на основани
 #. module: l10n_kz
 #: model:account.report.expression,report_line_name:l10n_kz.l10n_kz_tr_expression_300_00_017_net
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:account.report.line,name:l10n_kz.l10n_kz_tr_line_300_00_015
 msgid ""
 "300.00.015. Goods, works, services purchased without VAT and for which set-"
@@ -223,12 +279,16 @@ msgstr ""
 "основании декларации ф. 320.00), в том числе:"
 
 #. module: l10n_kz
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:account.report.line,name:l10n_kz.l10n_kz_tr_line_300_00_017
 msgid "300.00.017. Exempted imports of goods"
 msgstr "300.00.017. Освобожденный импорт товаров"
 
 #. module: l10n_kz
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model:account.report.expression,report_line_name:l10n_kz.l10n_kz_tr_expression_300_00_018_tax
 #: model:account.report.line,name:l10n_kz.l10n_kz_tr_line_300_00_018
@@ -251,6 +311,8 @@ msgstr "300.00.020. Импорт товаров, по которым НДС уп
 #. module: l10n_kz
 #: model:account.report.expression,report_line_name:l10n_kz.l10n_kz_tr_expression_300_00_021_net
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:account.report.line,name:l10n_kz.l10n_kz_tr_line_300_00_018
 msgid ""
 "300.00.018. Import of goods for which the deadline for payment of VAT has "
@@ -278,6 +340,9 @@ msgstr ""
 "соответствии с условиями контракта на недропользование"
 
 #. module: l10n_kz
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:account.report.line,name:l10n_kz.l10n_kz_tr_line_300_00_021
 msgid "300.00.021. Total purchases"
@@ -285,7 +350,10 @@ msgstr "300.00.021. Всего приобретено"
 
 #. module: l10n_kz
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:account.report.expression,report_line_name:l10n_kz.l10n_kz_tr_expression_300_00_022_tax
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:account.report.line,name:l10n_kz.l10n_kz_tr_line_300_00_022
@@ -294,7 +362,10 @@ msgstr "300.00.022. Корректировка суммы НДС, относим
 
 #. module: l10n_kz
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:account.report.expression,report_line_name:l10n_kz.l10n_kz_tr_expression_300_00_023_tax
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:account.report.line,name:l10n_kz.l10n_kz_tr_line_300_00_023
@@ -303,11 +374,14 @@ msgstr "300.00.023. Общая сумма НДС, относимого в зач
 
 #. module: l10n_kz
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:account.report.expression,report_line_name:l10n_kz.l10n_kz_tr_expression_300_00_024_tax
 #: model:account.report.line,name:l10n_kz.l10n_kz_tr_line_300_00_024
 msgid "300.00.024. The total amount of VAT to be credited when applying the proportional method with the right to separate accounting for certain turnovers, including:"
 msgstr "300.00.024. Общая сумма НДС, относимого в зачет при применении пропорционального  метода с правом ведения раздельного учета по отдельным оборотам, в том числе:"
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:account.report.line,name:l10n_kz.l10n_kz_tr_line_300_00_024
 msgid ""
 "300.00.024. The total amount of VAT to be credited when applying the "
@@ -317,6 +391,9 @@ msgstr ""
 "300.00.024. Общая сумма НДС, относимого в зачет при применении "
 "пропорционального  метода с правом ведения раздельного учета по отдельным "
 "оборотам, в том числе:"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: l10n_kz
@@ -332,6 +409,7 @@ msgstr "300.00.026. Сумма не разрешенного к отнесени
 #. module: l10n_kz
 #: model:account.report.line,name:l10n_kz.l10n_kz_tr_line_300_00_027
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "300.00.027. The amount of excess VAT, attributable to offset, over the amount of accrued tax"
 msgstr "300.00.027. Сумма превышения НДС, относимого в зачет, над суммой начисленного налога"
 
@@ -345,6 +423,8 @@ msgstr "300.00.028. Сумма НДС по товарам, работам, ус�
 #: model:account.report.expression,report_line_name:l10n_kz.l10n_kz_tr_expression_300_00_029_net
 #: model:account.report.expression,report_line_name:l10n_kz.l10n_kz_tr_expression_300_00_029_tax
 =======
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "300.00.027. The amount of excess VAT, attributable to offset, over the "
 "amount of accrued tax"
@@ -362,6 +442,9 @@ msgstr ""
 "оборотов, облагаемых по нулевой ставке"
 
 #. module: l10n_kz
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:account.report.line,name:l10n_kz.l10n_kz_tr_line_300_00_029
 msgid "300.00.029. Import of goods for which VAT is paid by offset method"
@@ -374,11 +457,14 @@ msgstr "300.00.030. Исчисленная сумма НДС за налогов
 
 #. module: l10n_kz
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:account.report.expression,report_line_name:l10n_kz.l10n_kz_tr_expression_300_00_031_tax
 #: model:account.report.line,name:l10n_kz.l10n_kz_tr_line_300_00_031
 msgid "300.00.031. Reducing the amount of excess VAT generated after meeting the requirements specified in subparagraph 3) of paragraph 1 of Article 369 of the Tax Code"
 msgstr "300.00.031. Уменьшение суммы превышения НДС, сложившегося после выполнения требований, указанных в подпункте 3) пункта 1 статьи 369 Налогового кодекса "
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:account.report.line,name:l10n_kz.l10n_kz_tr_line_300_00_031
 msgid ""
 "300.00.031. Reducing the amount of excess VAT generated after meeting the "
@@ -387,6 +473,9 @@ msgid ""
 msgstr ""
 "300.00.031. Уменьшение суммы превышения НДС, сложившегося после выполнения "
 "требований, указанных в подпункте 3) пункта 1 статьи 369 Налогового кодекса "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: l10n_kz
@@ -395,6 +484,7 @@ msgid "Account Chart Template"
 msgstr "План счетов бухгалтерского учета"
 
 #. module: l10n_kz
+<<<<<<< HEAD
 <<<<<<< HEAD
 #. odoo-python
 #: code:addons/l10n_kz/models/chart_template.py:0
@@ -416,6 +506,8 @@ msgstr "I. Сложившееся на начало отчетного нало�
 #. module: l10n_kz
 #: model:account.report.expression,report_line_name:l10n_kz.l10n_kz_tr_expression_300_00_030_1_tax
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:account.report.line,name:l10n_kz.l10n_kz_tr_line_300_00_027_1
 msgid ""
 "I. Accrued at the beginning of the reporting tax period on an accrual basis "
@@ -425,6 +517,9 @@ msgstr ""
 "деятельности, предусмотренной статьей 411  Налогового кодекса"
 
 #. module: l10n_kz
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:account.report.line,name:l10n_kz.l10n_kz_tr_line_300_00_030_1
 msgid "I. Amount of VAT payable to the budget"
@@ -432,7 +527,10 @@ msgstr "I. Сумма НДС, подлежащая уплате в бюджет"
 
 #. module: l10n_kz
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:account.report.expression,report_line_name:l10n_kz.l10n_kz_tr_expression_300_00_006_1_net
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:account.report.line,name:l10n_kz.l10n_kz_tr_line_300_00_006_1
@@ -440,6 +538,7 @@ msgid "I. Amount of taxable turnover"
 msgstr "I. Сумма облагаемого оборота"
 
 #. module: l10n_kz
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model:account.report.expression,report_line_name:l10n_kz.l10n_kz_tr_expression_300_00_024_1_tax
 #: model:account.report.line,name:l10n_kz.l10n_kz_tr_line_300_00_024_1
@@ -457,6 +556,8 @@ msgstr "I. Импорт из государств, не являющихся ч�
 #: model:account.report.expression,report_line_name:l10n_kz.l10n_kz_tr_expression_300_00_013_1_net
 #: model:account.report.expression,report_line_name:l10n_kz.l10n_kz_tr_expression_300_00_013_1_tax
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:account.report.line,name:l10n_kz.l10n_kz_tr_line_300_00_024_1
 msgid ""
 "I. For goods, works, services for which the proportional method of "
@@ -474,6 +575,9 @@ msgstr ""
 "союза"
 
 #. module: l10n_kz
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:account.report.line,name:l10n_kz.l10n_kz_tr_line_300_00_013_1
 msgid "I. On invoices"
@@ -481,8 +585,11 @@ msgstr "I. По счетам-фактурам"
 
 #. module: l10n_kz
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:account.report.expression,report_line_name:l10n_kz.l10n_kz_tr_expression_300_00_001_1_net
 #: model:account.report.expression,report_line_name:l10n_kz.l10n_kz_tr_expression_300_00_001_1_tax
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:account.report.line,name:l10n_kz.l10n_kz_tr_line_300_00_001_1
@@ -491,7 +598,10 @@ msgstr "I. С выпиской счетов-фактур"
 
 #. module: l10n_kz
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:account.report.expression,report_line_name:l10n_kz.l10n_kz_tr_expression_300_00_026_1_tax
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:account.report.line,name:l10n_kz.l10n_kz_tr_line_300_00_025_1
@@ -500,6 +610,7 @@ msgid "I. With the proportional method"
 msgstr "I. При пропорциональном методе"
 
 #. module: l10n_kz
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model:account.report.expression,report_line_name:l10n_kz.l10n_kz_tr_expression_300_00_027_2_tax
 #: model:account.report.line,name:l10n_kz.l10n_kz_tr_line_300_00_027_2
@@ -522,6 +633,8 @@ msgstr "II. По товарам, работам, услугам, по котор
 #: model:account.report.expression,report_line_name:l10n_kz.l10n_kz_tr_expression_300_00_016_2_net
 #: model:account.report.expression,report_line_name:l10n_kz.l10n_kz_tr_expression_300_00_016_2_tax
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:account.report.line,name:l10n_kz.l10n_kz_tr_line_300_00_027_2
 msgid ""
 "II. Cumulative total on the declaration at the end of the reporting tax "
@@ -546,6 +659,9 @@ msgstr ""
 "раздельного учета"
 
 #. module: l10n_kz
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:account.report.line,name:l10n_kz.l10n_kz_tr_line_300_00_016_2
 msgid "II. Imports from member states of the Eurasian Economic Union"
@@ -553,8 +669,11 @@ msgstr "II. Импорт из государств-членов Евразийс
 
 #. module: l10n_kz
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:account.report.expression,report_line_name:l10n_kz.l10n_kz_tr_expression_300_00_013_2_net
 #: model:account.report.expression,report_line_name:l10n_kz.l10n_kz_tr_expression_300_00_013_2_tax
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:account.report.line,name:l10n_kz.l10n_kz_tr_line_300_00_013_2
@@ -563,7 +682,10 @@ msgstr "II. По иным документам"
 
 #. module: l10n_kz
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:account.report.expression,report_line_name:l10n_kz.l10n_kz_tr_expression_300_00_026_2_tax
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:account.report.line,name:l10n_kz.l10n_kz_tr_line_300_00_026_2
@@ -572,7 +694,10 @@ msgstr "II. Через ведение раздельного учета"
 
 #. module: l10n_kz
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:account.report.expression,report_line_name:l10n_kz.l10n_kz_tr_expression_300_00_025_1_tax
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:account.report.line,name:l10n_kz.l10n_kz_tr_line_300_00_025_2
@@ -581,8 +706,11 @@ msgstr "II. При раздельном методе"
 
 #. module: l10n_kz
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:account.report.expression,report_line_name:l10n_kz.l10n_kz_tr_expression_300_00_001_2_net
 #: model:account.report.expression,report_line_name:l10n_kz.l10n_kz_tr_expression_300_00_001_2_tax
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:account.report.line,name:l10n_kz.l10n_kz_tr_line_300_00_001_2
@@ -590,6 +718,7 @@ msgid "II. Without the issuance of invoices"
 msgstr "II. Без выписки счетов-фактур"
 
 #. module: l10n_kz
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model:account.report.expression,report_line_name:l10n_kz.l10n_kz_tr_expression_300_00_026_3_tax
 #: model:account.report.line,name:l10n_kz.l10n_kz_tr_line_300_00_026_3
@@ -614,6 +743,8 @@ msgstr "III. По товарам, работам, услугам, использ
 msgid "IV. When applying the provisions of Article 411 of the Tax Code (additional VAT credit)"
 msgstr "IV. При применении положений статьи 411 Налогового кодекса (дополнительная сумма НДС относимого в зачет)"
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:account.report.line,name:l10n_kz.l10n_kz_tr_line_300_00_026_3
 msgid ""
 "III. At proportional and separate method with separate accounting on "
@@ -648,6 +779,9 @@ msgid ""
 msgstr ""
 "IV. При применении положений статьи 411 Налогового кодекса (дополнительная "
 "сумма НДС относимого в зачет)"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: l10n_kz

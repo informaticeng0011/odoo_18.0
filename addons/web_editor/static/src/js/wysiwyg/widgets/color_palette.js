@@ -473,12 +473,18 @@ export class ColorPalette extends Component {
         }
         this._buildCustomColors();
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.state.customSelectedColor = colorInfo.color;
 =======
+=======
+>>>>>>> upstream/18.0
         this.state.customSelectedColor = isCSSColor(colorInfo.color)
             ? colorInfo.color
             : weUtils.getCSSVariableValue(colorInfo.color, this.style);
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         const customGradient = weUtils.isColorGradient(colorInfo.color) ? colorInfo.color : false;
         if (this.pickers['custom_gradient']) {

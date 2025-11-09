@@ -1,11 +1,19 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* l10n_ca
 #
+=======
+# * l10n_ca
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.4alpha1+e\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2023-07-17 07:24+0000\n"
 "PO-Revision-Date: 2023-07-17 07:24+0000\n"
@@ -22,6 +30,19 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
+=======
+"POT-Creation-Date: 2025-11-03 15:40+0000\n"
+"PO-Revision-Date: 2025-11-08 09:26+0000\n"
+"Last-Translator: \"Dylan Kiss (dyki)\" <dyki@odoo.com>\n"
+"Language-Team: French <https://translate.odoo.com/projects/odoo-18-l10n/"
+"l10n_ca/fr/>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: l10n_ca
 #: model:account.report.line,name:l10n_ca.l10n_ca_tr_pst_sk_1
@@ -93,8 +114,13 @@ msgstr "106 - 206 - CTI/RTI"
 msgid ""
 "106 - GST/HST you paid or that is payable by you on qualifying expenses "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "(input tax credits – ITCs) for the current period and any eligible unclaimed"
 " ITCs from a previous period"
+=======
+"(input tax credits – ITCs) for the current period and any eligible unclaimed "
+"ITCs from a previous period"
+>>>>>>> upstream/18.0
 =======
 "(input tax credits – ITCs) for the current period and any eligible unclaimed "
 "ITCs from a previous period"
@@ -117,8 +143,12 @@ msgid ""
 msgstr ""
 "107 - Redressements à déduire de la taxe nette pour la période de "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "déclaration (par exemple, la TPS/TVH comprise dans une créance "
 "irrécouvrable)"
+=======
+"déclaration (par exemple, la TPS/TVH comprise dans une créance irrécouvrable)"
+>>>>>>> upstream/18.0
 =======
 "déclaration (par exemple, la TPS/TVH comprise dans une créance irrécouvrable)"
 >>>>>>> upstream/18.0
@@ -126,8 +156,12 @@ msgstr ""
 #. module: l10n_ca
 #: model:account.report.line,name:l10n_ca.l10n_ca_tr_qst_108_208
 msgid "108 - 208 - ITCs/ITRs and adjustments"
+<<<<<<< HEAD
 msgstr ""
 "108 - 208 - Total des redressements de CTI/RTI et autres redressements "
+=======
+msgstr "108 - 208 - Total des redressements de CTI/RTI et autres redressements "
+>>>>>>> upstream/18.0
 
 #. module: l10n_ca
 #: model:account.report.line,name:l10n_ca.l10n_ca_tr_gsthst_108
@@ -310,6 +344,7 @@ msgid "9 - Portion of Credits Applied"
 msgstr "9 - Portion des crédits appliqués"
 
 #. module: l10n_ca
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model_terms:res.company,appraisal_employee_feedback_template:l10n_ca.demo_company_ca
 msgid ""
@@ -505,6 +540,8 @@ msgid ""
 "                My work\n"
 "            </span>"
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:account.report.line,name:l10n_ca.l10n_ca_tr_gsthst_90
 msgid ""
 "90 - Taxable sales including zero-rated supplies (other than zero‑rated "
@@ -514,6 +551,9 @@ msgstr ""
 #. module: l10n_ca
 #: model:account.report.line,name:l10n_ca.l10n_ca_tr_gsthst_91
 msgid "91 - Exempt supplies and zero-rated exports"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -538,7 +578,11 @@ msgstr "B - TVP Recouvrable sur les ventes et les locations"
 #: model:account.report.column,name:l10n_ca.l10n_ca_tr_pst_mb_balance
 #: model:account.report.column,name:l10n_ca.l10n_ca_tr_pst_sk_balance
 msgid "Balance"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Solde"
+>>>>>>> upstream/18.0
 
 #. module: l10n_ca
 #: model:account.report,name:l10n_ca.l10n_ca_tr_pst_bc
@@ -552,6 +596,10 @@ msgstr ""
 
 #. module: l10n_ca
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,help:l10n_ca.field_base_document_layout__l10n_ca_pst
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,help:l10n_ca.field_base_document_layout__l10n_ca_pst
 >>>>>>> upstream/18.0
@@ -564,6 +612,7 @@ msgstr ""
 #. module: l10n_ca
 #: model:ir.model,name:l10n_ca.model_res_company
 msgid "Companies"
+<<<<<<< HEAD
 msgstr ""
 
 #. module: l10n_ca
@@ -572,6 +621,16 @@ msgstr ""
 #: model:ir.model,name:l10n_ca.model_base_document_layout
 msgid "Company Document Layout"
 msgstr ""
+
+#. module: l10n_ca
+>>>>>>> upstream/18.0
+=======
+msgstr "Sociétés"
+
+#. module: l10n_ca
+#: model:ir.model,name:l10n_ca.model_base_document_layout
+msgid "Company Document Layout"
+msgstr "Mise en page des documents de votre société"
 
 #. module: l10n_ca
 >>>>>>> upstream/18.0
@@ -600,10 +659,18 @@ msgstr "F - TVP due sur les achats et les locations"
 
 #. module: l10n_ca
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #: model:ir.model.fields,field_description:l10n_ca.field_base_document_layout__account_fiscal_country_id
 msgid "Fiscal Country"
 msgstr ""
+
+#. module: l10n_ca
+>>>>>>> upstream/18.0
+=======
+#: model:ir.model.fields,field_description:l10n_ca.field_base_document_layout__account_fiscal_country_id
+msgid "Fiscal Country"
+msgstr "Pays d'imposition"
 
 #. module: l10n_ca
 >>>>>>> upstream/18.0
@@ -623,6 +690,7 @@ msgstr "Rapport de TPS/TVH"
 
 #. module: l10n_ca
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:res.company,appraisal_manager_feedback_template:l10n_ca.demo_company_ca
 msgid ""
 "Give one positive achievement that convinced you of the employee's\n"
@@ -632,11 +700,14 @@ msgstr ""
 #. module: l10n_ca
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:account.report.line,name:l10n_ca.l10n_ca_tr_pst_bc_h
 msgid "H - PST on Bad Debt Write-Off"
 msgstr "H - TVP sur la radiation de créances irrécouvrables"
 
 #. module: l10n_ca
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model_terms:res.company,appraisal_manager_feedback_template:l10n_ca.demo_company_ca
 msgid "How could the employee improve?"
@@ -655,6 +726,8 @@ msgstr ""
 #. module: l10n_ca
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:account.report.line,name:l10n_ca.l10n_ca_tr_pst_bc_i
 msgid "I - PST on Amounts Refunded or Credited to Customers"
 msgstr "I - TVP sur les montants remboursés ou crédités aux clients"
@@ -671,6 +744,7 @@ msgstr "K - Montant total dû"
 
 #. module: l10n_ca
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:res.company,appraisal_manager_feedback_template:l10n_ca.demo_company_ca
 msgid ""
 "Long term (&gt; 6 months) career discussion, where does the employee\n"
@@ -678,6 +752,8 @@ msgid ""
 msgstr ""
 
 #. module: l10n_ca
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:account.report,name:l10n_ca.l10n_ca_tr_pst_mb
@@ -691,6 +767,10 @@ msgstr "Solde à payer incluant les intérêts"
 
 #. module: l10n_ca
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:l10n_ca.field_base_document_layout__l10n_ca_pst
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:l10n_ca.field_base_document_layout__l10n_ca_pst
 >>>>>>> upstream/18.0
@@ -706,11 +786,17 @@ msgstr "Numéro de TVP"
 
 #. module: l10n_ca
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:l10n_ca.l10n_ca_external_layout_bold
 #: model_terms:ir.ui.view,arch_db:l10n_ca.l10n_ca_external_layout_boxed
 #: model_terms:ir.ui.view,arch_db:l10n_ca.l10n_ca_external_layout_standard
 #: model_terms:ir.ui.view,arch_db:l10n_ca.l10n_ca_external_layout_striped
 #: model_terms:ir.ui.view,arch_db:l10n_ca.l10n_ca_report_invoice_document_inherit
+=======
+#: model_terms:ir.ui.view,arch_db:l10n_ca.l10n_ca_external_layout_folder
+#: model_terms:ir.ui.view,arch_db:l10n_ca.l10n_ca_report_invoice_document_inherit
+#: model_terms:ir.ui.view,arch_db:l10n_ca.pst_external_layout
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:l10n_ca.l10n_ca_external_layout_folder
 #: model_terms:ir.ui.view,arch_db:l10n_ca.l10n_ca_report_invoice_document_inherit
@@ -735,6 +821,7 @@ msgid "Saskatchewan PST report"
 msgstr "Rapport de TVP Saskatchewan"
 
 #. module: l10n_ca
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model_terms:res.company,appraisal_manager_feedback_template:l10n_ca.demo_company_ca
 msgid "Short term (6-months) actions / decisions / objectives"
@@ -790,24 +877,44 @@ msgid ""
 #: model:account.report.line,name:l10n_ca.l10n_ca_tr_pst_sk_step_1
 msgid "Step 1"
 msgstr ""
+=======
+#: model:account.report.line,name:l10n_ca.l10n_ca_tr_pst_sk_step_1
+msgid "Step 1"
+msgstr "Étape 1"
+>>>>>>> upstream/18.0
 
 #. module: l10n_ca
 #: model:account.report.line,name:l10n_ca.l10n_ca_tr_pst_sk_step_2
 msgid "Step 2"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Étape 2"
+>>>>>>> upstream/18.0
 
 #. module: l10n_ca
 #: model:account.report.line,name:l10n_ca.l10n_ca_tr_pst_sk_step_3
 msgid "Step 3"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Étape 3"
+>>>>>>> upstream/18.0
 
 #. module: l10n_ca
 #: model:ir.model.fields,help:l10n_ca.field_base_document_layout__account_fiscal_country_id
 msgid "The country to use the tax reports from for this company"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Le pays à utiliser pour les déclarations fiscales de cette entreprise."
+>>>>>>> upstream/18.0
 
 #. module: l10n_ca
 #: model:account.report.line,name:l10n_ca.l10n_ca_tr_pst_sk_total_sales
 msgid "Total Sales Before Taxes"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""

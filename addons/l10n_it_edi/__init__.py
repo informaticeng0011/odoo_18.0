@@ -4,7 +4,10 @@ from . import models
 from . import tools
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -12,6 +15,9 @@ from . import tools
 def uninstall_hook(env):
     env["res.partner"]._clear_removed_edi_formats("it_edi_xml")
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

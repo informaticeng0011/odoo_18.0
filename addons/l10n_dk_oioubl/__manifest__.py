@@ -19,6 +19,10 @@ E-invoice implementation for the Denmark
     'license': 'LGPL-3',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    'uninstall_hook': 'uninstall_hook',
+>>>>>>> upstream/18.0
 =======
     'uninstall_hook': 'uninstall_hook',
 >>>>>>> upstream/18.0

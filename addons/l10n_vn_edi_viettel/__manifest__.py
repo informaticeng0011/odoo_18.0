@@ -27,6 +27,10 @@ Using SInvoice by Viettel
     "installable": True,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    "uninstall_hook": "uninstall_hook",
+>>>>>>> upstream/18.0
 =======
     "uninstall_hook": "uninstall_hook",
 >>>>>>> upstream/18.0

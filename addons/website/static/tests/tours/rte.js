@@ -248,7 +248,11 @@ registerWebsitePreviewTour('rte_translator', {
 }, {
     content: "Check body",
 <<<<<<< HEAD
+<<<<<<< HEAD
     trigger: ":iframe body:not(:has(#wrap p font:first:contains(/^paragraphs <b>describing</b>$/)))",
+=======
+    trigger: ":iframe body:not(:has(#wrap p font:first:text(paragraphs <b>describing</b>)))",
+>>>>>>> upstream/18.0
 =======
     trigger: ":iframe body:not(:has(#wrap p font:first:text(paragraphs <b>describing</b>)))",
 >>>>>>> upstream/18.0

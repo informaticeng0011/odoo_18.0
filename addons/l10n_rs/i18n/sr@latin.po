@@ -1,11 +1,18 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* l10n_rs
 #
+=======
+# * l10n_rs
+#
+# "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.1alpha1\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2022-12-01 08:54+0000\n"
 "PO-Revision-Date: 2022-12-01 08:55+0000\n"
@@ -40,6 +47,22 @@ msgstr "002 - Promet dobara i usluga koji je oslobođen PDV bez prava na odbitak
 #. module: l10n_rs
 #: model:account.report.expression,report_line_name:l10n_rs.tax_report_line_003_tag
 =======
+=======
+"POT-Creation-Date: 2025-11-03 15:46+0000\n"
+"PO-Revision-Date: 2025-11-08 10:06+0000\n"
+"Last-Translator: \"Dylan Kiss (dyki)\" <dyki@odoo.com>\n"
+"Language-Team: Serbian (Latin script) <https://translate.odoo.com/projects/"
+"odoo-18-l10n/l10n_rs/sr_Latn/>\n"
+"Language: sr@latin\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.12.2\n"
+
+#. module: l10n_rs
+>>>>>>> upstream/18.0
 #: model:account.report.line,name:l10n_rs.tax_report_line_001
 msgid ""
 "001 - Turnover of goods and services exempt from VAT with the right to "
@@ -58,6 +81,9 @@ msgstr ""
 "prethodnog poreza"
 
 #. module: l10n_rs
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:account.report.line,name:l10n_rs.tax_report_line_003
 msgid "003 - Turnover of goods and services at the general rate"
@@ -65,7 +91,10 @@ msgstr "003 - Promet dobara i usluga po opštoj stopi"
 
 #. module: l10n_rs
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:account.report.expression,report_line_name:l10n_rs.tax_report_line_004_tag
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:account.report.line,name:l10n_rs.tax_report_line_004
@@ -74,7 +103,10 @@ msgstr "004 - Promet dobara i usluga po posebnoj stopi"
 
 #. module: l10n_rs
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:account.report.expression,report_line_name:l10n_rs.tax_report_line_005_formula
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:account.report.line,name:l10n_rs.tax_report_line_005
@@ -83,7 +115,10 @@ msgstr "005 - ZBIR (001 + 002 + 003 + 004)"
 
 #. module: l10n_rs
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:account.report.expression,report_line_name:l10n_rs.tax_report_line_006_tag
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:account.report.line,name:l10n_rs.tax_report_line_006
@@ -92,7 +127,10 @@ msgstr "006 - Prethodni porez plaćen prilikom uvoza"
 
 #. module: l10n_rs
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:account.report.expression,report_line_name:l10n_rs.tax_report_line_007_tag
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:account.report.line,name:l10n_rs.tax_report_line_007
@@ -101,7 +139,10 @@ msgstr "007 - PDV Nadoknada plaćena poljoprivredniku"
 
 #. module: l10n_rs
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:account.report.expression,report_line_name:l10n_rs.tax_report_line_008_tag
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:account.report.line,name:l10n_rs.tax_report_line_008
@@ -110,7 +151,10 @@ msgstr "008 - Prethodni porez, osim prethodnog poreza sa red. br. 6. i 7"
 
 #. module: l10n_rs
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:account.report.expression,report_line_name:l10n_rs.tax_report_line_009_formula
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:account.report.line,name:l10n_rs.tax_report_line_009
@@ -119,7 +163,10 @@ msgstr "009 - ZBIR (006 + 007 + 008)"
 
 #. module: l10n_rs
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:account.report.expression,report_line_name:l10n_rs.tax_report_line_103_tag
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:account.report.line,name:l10n_rs.tax_report_line_103
@@ -128,7 +175,10 @@ msgstr "103 - Promet roba i usluga po opštem kursu"
 
 #. module: l10n_rs
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:account.report.expression,report_line_name:l10n_rs.tax_report_line_104_tag
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:account.report.line,name:l10n_rs.tax_report_line_104
@@ -137,7 +187,10 @@ msgstr "104 - Promet roba i usluga po posebnoj stopi"
 
 #. module: l10n_rs
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:account.report.expression,report_line_name:l10n_rs.tax_report_line_105_formula
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:account.report.line,name:l10n_rs.tax_report_line_105
@@ -146,7 +199,10 @@ msgstr "105 - Ukupno (103 + 104)"
 
 #. module: l10n_rs
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:account.report.expression,report_line_name:l10n_rs.tax_report_line_106_tag
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:account.report.line,name:l10n_rs.tax_report_line_106
@@ -155,7 +211,10 @@ msgstr "106 - Prethodni porez plaćen pri uvozu"
 
 #. module: l10n_rs
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:account.report.expression,report_line_name:l10n_rs.tax_report_line_107_tag
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:account.report.line,name:l10n_rs.tax_report_line_107
@@ -164,7 +223,10 @@ msgstr "107 - PDV Naknada plaćena poljoprivredniku"
 
 #. module: l10n_rs
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:account.report.expression,report_line_name:l10n_rs.tax_report_line_108_tag
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:account.report.line,name:l10n_rs.tax_report_line_108
@@ -173,7 +235,10 @@ msgstr "108 - Prethodni porez, osim prethodnog poreza sa br. 6. i 7"
 
 #. module: l10n_rs
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:account.report.expression,report_line_name:l10n_rs.tax_report_line_109_formula
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:account.report.line,name:l10n_rs.tax_report_line_109
@@ -182,7 +247,10 @@ msgstr "109 - Ukupno (106 + 107 + 108)"
 
 #. module: l10n_rs
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:account.report.expression,report_line_name:l10n_rs.tax_report_line_110_formula
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:account.report.line,name:l10n_rs.tax_report_line_110
@@ -191,12 +259,18 @@ msgstr "110 - Iznos PDV-a u poreskom periodu (105 - 109)"
 
 #. module: l10n_rs
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model,name:l10n_rs.model_account_chart_template
 msgid "Account Chart Template"
 msgstr ""
 
 #. module: l10n_rs
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:account.report.line,name:l10n_rs.tax_report_title_operations
 msgid "Amount of fee without VAT"
@@ -243,7 +317,10 @@ msgstr "Srbija"
 #: model:ir.model.fields,field_description:l10n_rs.field_account_bank_statement_line__l10n_rs_turnover_date
 #: model:ir.model.fields,field_description:l10n_rs.field_account_move__l10n_rs_turnover_date
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_rs.field_account_payment__l10n_rs_turnover_date
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 msgid "Turnover Date"

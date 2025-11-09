@@ -1,4 +1,8 @@
 import { useOwnDebugContext } from "@web/core/debug/debug_context";
+<<<<<<< HEAD
+=======
+import { Deferred } from "@web/core/utils/concurrency";
+>>>>>>> upstream/18.0
 import { DebugMenu } from "@web/core/debug/debug_menu";
 import { localization } from "@web/core/l10n/localization";
 import { MainComponentsContainer } from "@web/core/main_components_container";
@@ -59,6 +63,10 @@ export class WebClient extends Component {
             this.env.bus.trigger("WEB_CLIENT_READY");
         });
         useExternalListener(window, "click", this.onGlobalClick, { capture: true });
+<<<<<<< HEAD
+=======
+        this.serviceWorkerActivatedDeferred = new Deferred();
+>>>>>>> upstream/18.0
         onWillStart(this.registerServiceWorker);
     }
 
@@ -124,12 +132,15 @@ export class WebClient extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const firstAction = router.current.actionStack?.[0]?.action;
         if (!menuId && firstAction) {
             menuId = this.menuService
                 .getAll()
                 .find((m) => m.actionID === firstAction || m.actionPath === firstAction)?.appID;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -318,6 +329,9 @@ export class WebClient extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -459,6 +473,7 @@ export class WebClient extends Component {
             menuId = this.menuService.getAll().find((m) => m.actionID === actionId)?.appID;
             if (!menuId) {
                 // Setting the menu based on the session storage if no other menu was found
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -692,6 +707,9 @@ export class WebClient extends Component {
 =======
                 menuId = storedMenuId;
 >>>>>>> upstream/18.0
+=======
+                menuId = storedMenuId;
+>>>>>>> upstream/18.0
             }
             if (menuId) {
                 // Sets the menu according to the current action
@@ -750,6 +768,22 @@ export class WebClient extends Component {
         if (navigator.serviceWorker) {
             navigator.serviceWorker
                 .register("/web/service-worker.js", { scope: "/odoo" })
+<<<<<<< HEAD
+=======
+                .then((registration) => {
+                    if (registration.active && registration.active.state === "activated") {
+                        this.serviceWorkerActivatedDeferred.resolve();
+                    } else {
+                        const sw =
+                            registration.installing || registration.waiting || registration.active;
+                        sw.addEventListener("statechange", (e) => {
+                            if (e.target.state === "activated") {
+                                this.serviceWorkerActivatedDeferred.resolve();
+                            }
+                        });
+                    }
+                })
+>>>>>>> upstream/18.0
                 .catch((error) => {
                     console.error("Service worker registration failed, error:", error);
                 });

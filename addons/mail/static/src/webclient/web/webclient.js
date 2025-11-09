@@ -16,7 +16,13 @@ patch(WebClient.prototype, {
         this.orm = useService("orm");
         this.notification = useService("notification");
         if (this._canSendNativeNotification) {
+<<<<<<< HEAD
             this._subscribePush();
+=======
+            this.env.bus.addEventListener("WEB_CLIENT_READY", () => this._subscribePush(), {
+                once: true,
+            });
+>>>>>>> upstream/18.0
         }
         if (browser.navigator.permissions) {
             let notificationPerm;
@@ -52,6 +58,10 @@ patch(WebClient.prototype, {
      * @return {Promise<void>}
      */
     async _subscribePush(numberTry = 1) {
+<<<<<<< HEAD
+=======
+        await this.serviceWorkerActivatedDeferred;
+>>>>>>> upstream/18.0
         const pushManager = await this.pushManager();
         if (!pushManager) {
             return;
@@ -121,6 +131,10 @@ patch(WebClient.prototype, {
      * @return {Promise<void>}
      */
     async _unsubscribePush() {
+<<<<<<< HEAD
+=======
+        await this.serviceWorkerActivatedDeferred;
+>>>>>>> upstream/18.0
         const pushManager = await this.pushManager();
         if (!pushManager) {
             return;

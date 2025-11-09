@@ -1,11 +1,18 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* l10n_account_withholding
 #
+=======
+# * l10n_account_withholding
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.4a1+e\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2025-06-12 02:39+0000\n"
 "PO-Revision-Date: 2025-06-12 02:39+0000\n"
@@ -460,17 +467,39 @@ msgstr ""
 #: model:ir.model.fields,help:l10n_account_withholding.field_account_tax__withholding_sequence_id
 #: model:ir.model.fields,help:l10n_account_withholding.field_account_withholding_line__withholding_sequence_id
 =======
+=======
+"POT-Creation-Date: 2025-11-03 15:38+0000\n"
+"PO-Revision-Date: 2025-11-08 18:14+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Thai <https://translate.odoo.com/projects/odoo-18-l10n/"
+"l10n_account_withholding_tax/th/>\n"
+"Language: th\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.12.2\n"
+
+>>>>>>> upstream/18.0
 #. module: l10n_account_withholding_tax
 #. odoo-python
 #: code:addons/l10n_account_withholding_tax/models/product_template.py:0
 msgid "%(amount)s Excl. Taxes"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(amount)sไม่รวมภาษี"
+>>>>>>> upstream/18.0
 
 #. module: l10n_account_withholding_tax
 #. odoo-python
 #: code:addons/l10n_account_withholding_tax/models/product_template.py:0
 msgid "%(amount)s Incl. Taxes"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(amount)s รวมภาษี"
+>>>>>>> upstream/18.0
 
 #. module: l10n_account_withholding_tax
 #. odoo-python
@@ -481,7 +510,11 @@ msgstr ""
 #. module: l10n_account_withholding_tax
 #: model_terms:ir.ui.view,arch_db:l10n_account_withholding_tax.report_payment_receipt_document
 msgid "<span>Amount</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>จำนวน</span>"
+>>>>>>> upstream/18.0
 
 #. module: l10n_account_withholding_tax
 #: model_terms:ir.ui.view,arch_db:l10n_account_withholding_tax.report_payment_receipt_document
@@ -503,7 +536,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_withholding_line__account_id
 #: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_withholding_line__account_id
 msgid "Account"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "บัญชี"
+>>>>>>> upstream/18.0
 
 #. module: l10n_account_withholding_tax
 #. odoo-python
@@ -522,14 +559,22 @@ msgstr ""
 #: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_withholding_line__analytic_distribution
 #: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_withholding_line__analytic_distribution
 msgid "Analytic Distribution"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "การกระจายการวิเคราะห์"
+>>>>>>> upstream/18.0
 
 #. module: l10n_account_withholding_tax
 #: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_register_withholding_line__analytic_precision
 #: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_withholding_line__analytic_precision
 #: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_withholding_line__analytic_precision
 msgid "Analytic Precision"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ความแม่นยำในการวิเคราะห์"
+>>>>>>> upstream/18.0
 
 #. module: l10n_account_withholding_tax
 #: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_register_withholding_line__comodel_currency_id
@@ -569,7 +614,11 @@ msgstr "บริษัท"
 #: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_withholding_line__company_id
 #: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_withholding_line__company_id
 msgid "Company"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "บริษัท"
+>>>>>>> upstream/18.0
 
 #. module: l10n_account_withholding_tax
 #: model:ir.model,name:l10n_account_withholding_tax.model_res_config_settings
@@ -580,25 +629,41 @@ msgstr "ตั้งค่าการกำหนดค่า"
 #: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_register_withholding_line__create_uid
 #: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_withholding_line__create_uid
 msgid "Created by"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "สร้างโดย"
+>>>>>>> upstream/18.0
 
 #. module: l10n_account_withholding_tax
 #: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_register_withholding_line__create_date
 #: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_withholding_line__create_date
 msgid "Created on"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "สร้างเมื่อ"
+>>>>>>> upstream/18.0
 
 #. module: l10n_account_withholding_tax
 #: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_register_withholding_line__comodel_company_currency_id
 #: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_withholding_line__comodel_company_currency_id
 #: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_withholding_line__comodel_company_currency_id
 msgid "Currency"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "สกุลเงิน"
+>>>>>>> upstream/18.0
 
 #. module: l10n_account_withholding_tax
 #: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_register__withholding_default_account_id
 msgid "Default Account"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "บัญชีเริ่มต้น"
+>>>>>>> upstream/18.0
 
 #. module: l10n_account_withholding_tax
 #: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_register_withholding_line__display_name
@@ -617,7 +682,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_withholding_line__distribution_analytic_account_ids
 #: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_withholding_line__distribution_analytic_account_ids
 msgid "Distribution Analytic Account"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "บัญชีวิเคราะห์การจัดจำหน่าย"
+>>>>>>> upstream/18.0
 
 #. module: l10n_account_withholding_tax
 #: model:ir.model,name:l10n_account_withholding_tax.model_account_tax
@@ -661,13 +730,21 @@ msgstr ""
 #: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_register_withholding_line__write_uid
 #: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_withholding_line__write_uid
 msgid "Last Updated by"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "อัปเดตครั้งล่าสุดโดย"
+>>>>>>> upstream/18.0
 
 #. module: l10n_account_withholding_tax
 #: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_register_withholding_line__write_date
 #: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_withholding_line__write_date
 msgid "Last Updated on"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "อัปเดตครั้งล่าสุดเมื่อ"
+>>>>>>> upstream/18.0
 
 #. module: l10n_account_withholding_tax
 #: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_register__withholding_net_amount
@@ -707,7 +784,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment__outstanding_account_id
 #: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_register__withholding_outstanding_account_id
 msgid "Outstanding Account"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "บัญชีคงค้าง"
+>>>>>>> upstream/18.0
 
 #. module: l10n_account_withholding_tax
 #: model:ir.model,name:l10n_account_withholding_tax.model_account_payment_register
@@ -717,13 +798,21 @@ msgstr "จ่าย"
 #. module: l10n_account_withholding_tax
 #: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_withholding_line__payment_id
 msgid "Payment"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ชำระเงิน"
+>>>>>>> upstream/18.0
 
 #. module: l10n_account_withholding_tax
 #: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment__withholding_payment_account_id
 #: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_register__withholding_payment_account_id
 msgid "Payment Account"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "บัญชีการชำระเงิน"
+>>>>>>> upstream/18.0
 
 #. module: l10n_account_withholding_tax
 #: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_register_withholding_line__payment_register_id
@@ -789,14 +878,22 @@ msgstr "สินค้า"
 #: model:ir.model.fields.selection,name:l10n_account_withholding_tax.selection__account_payment_withholding_line__comodel_payment_type__inbound
 #: model:ir.model.fields.selection,name:l10n_account_withholding_tax.selection__account_withholding_line__comodel_payment_type__inbound
 msgid "Receive Money"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "รับเงิน"
+>>>>>>> upstream/18.0
 
 #. module: l10n_account_withholding_tax
 #: model:ir.model.fields.selection,name:l10n_account_withholding_tax.selection__account_payment_register_withholding_line__comodel_payment_type__outbound
 #: model:ir.model.fields.selection,name:l10n_account_withholding_tax.selection__account_payment_withholding_line__comodel_payment_type__outbound
 #: model:ir.model.fields.selection,name:l10n_account_withholding_tax.selection__account_withholding_line__comodel_payment_type__outbound
 msgid "Send Money"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ส่งเงิน"
+>>>>>>> upstream/18.0
 
 #. module: l10n_account_withholding_tax
 #: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_register_withholding_line__name
@@ -804,7 +901,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_withholding_line__name
 #: model_terms:ir.ui.view,arch_db:l10n_account_withholding_tax.view_account_payment_form
 msgid "Sequence Number"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "เลขลำดับ"
+>>>>>>> upstream/18.0
 
 #. module: l10n_account_withholding_tax
 #: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_register_withholding_line__source_base_amount
@@ -825,7 +926,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_withholding_line__source_currency_id
 #: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_withholding_line__source_currency_id
 msgid "Source Currency"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "สกุลเงินต้นทาง"
+>>>>>>> upstream/18.0
 
 #. module: l10n_account_withholding_tax
 #: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_register_withholding_line__source_tax_id
@@ -886,12 +991,16 @@ msgstr ""
 #: model:ir.model.fields,help:l10n_account_withholding_tax.field_account_payment_withholding_line__withholding_sequence_id
 #: model:ir.model.fields,help:l10n_account_withholding_tax.field_account_tax__withholding_sequence_id
 #: model:ir.model.fields,help:l10n_account_withholding_tax.field_account_withholding_line__withholding_sequence_id
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 "This sequence will be used to generate default numbers on payment "
 "withholding lines."
 msgstr ""
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 #. module: l10n_account_withholding
 #: model_terms:ir.ui.view,arch_db:l10n_account_withholding.view_account_payment_form
@@ -967,6 +1076,8 @@ msgstr ""
 #. odoo-python
 #: code:addons/l10n_account_withholding/models/account_tax.py:0
 =======
+=======
+>>>>>>> upstream/18.0
 #. module: l10n_account_withholding_tax
 #: model_terms:ir.ui.view,arch_db:l10n_account_withholding_tax.view_account_payment_form
 #: model_terms:ir.ui.view,arch_db:l10n_account_withholding_tax.view_account_payment_register_form
@@ -1023,7 +1134,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:l10n_account_withholding_tax.view_account_payment_form
 #: model_terms:ir.ui.view,arch_db:l10n_account_withholding_tax.view_account_payment_register_form
 msgid "Withholding"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "การหัก ณ ที่จ่าย"
+>>>>>>> upstream/18.0
 
 #. module: l10n_account_withholding_tax
 #: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment__withholding_hide_tax_base_account
@@ -1040,12 +1155,16 @@ msgstr ""
 #. module: l10n_account_withholding_tax
 #. odoo-python
 #: code:addons/l10n_account_withholding_tax/models/account_tax.py:0
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 "Withholding On Payment taxes cannot use the 'Group of Taxes' or the "
 "'Percentage Tax Included' computations."
 msgstr ""
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 #. module: l10n_account_withholding
 #: model:ir.model.fields,field_description:l10n_account_withholding.field_account_payment_register_withholding_line__withholding_sequence_id
@@ -1083,6 +1202,8 @@ msgstr ""
 #. module: l10n_account_withholding
 #: model:ir.model,name:l10n_account_withholding.model_account_withholding_line
 =======
+=======
+>>>>>>> upstream/18.0
 #. module: l10n_account_withholding_tax
 #: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_register_withholding_line__withholding_sequence_id
 #: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_withholding_line__withholding_sequence_id
@@ -1118,6 +1239,9 @@ msgstr ""
 
 #. module: l10n_account_withholding_tax
 #: model:ir.model,name:l10n_account_withholding_tax.model_account_withholding_line
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid "withholding line"
 msgstr ""

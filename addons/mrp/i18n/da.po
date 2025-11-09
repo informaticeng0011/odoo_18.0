@@ -1,5 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* mrp
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -110,6 +111,10 @@
 =======
 #
 >>>>>>> upstream/18.0
+=======
+# * mrp
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Pernille Kristensen <pernillekristensen1994@gmail.com>, 2024
 # jonas jensen <j.jensen@tcomp.dk>, 2024
@@ -120,6 +125,7 @@
 # Ejner Sønniksen <ejner@vkdata.dk>, 2024
 # Martin Trigaux, 2024
 # Wil Odoo, 2024
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -504,10 +510,15 @@
 # Kira Petersen, 2025
 #
 >>>>>>> upstream/18.0
+=======
+# Kira Petersen, 2025
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -972,10 +983,17 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Kira Petersen, 2025\n"
 "Language-Team: Danish (https://app.transifex.com/odoo/teams/41243/da/)\n"
+=======
+"POT-Creation-Date: 2025-11-07 18:36+0000\n"
+"PO-Revision-Date: 2025-11-08 16:51+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Danish <https://translate.odoo.com/projects/odoo-18/mrp/da/>\n"
+>>>>>>> upstream/18.0
 "Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1056,6 +1074,10 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+=======
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_production__state
@@ -1089,7 +1111,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 " * Confirmed: The MO is confirmed, the stock rules and the reordering of the components are trigerred.\n"
+=======
+" * Confirmed: The MO is confirmed, the stock rules and the reordering of the "
+"components are trigerred.\n"
+>>>>>>> upstream/18.0
 =======
 " * Confirmed: The MO is confirmed, the stock rules and the reordering of the "
 "components are trigerred.\n"
@@ -1231,7 +1258,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "* Godkendt: MO'en er godkendt, lagerregler og omrokeringen af komponenterne er igangsat.\n"
+=======
+"* Godkendt: MO'en er godkendt, lagerregler og omrokeringen af komponenterne "
+"er igangsat.\n"
+>>>>>>> upstream/18.0
 =======
 "* Godkendt: MO'en er godkendt, lagerregler og omrokeringen af komponenterne "
 "er igangsat.\n"
@@ -1382,6 +1414,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 " <br/><br/> The manufactured products will be moved towards "
 "<b>%(destination)s</b>, <br/> as specified from <b>%(operation)s</b> "
 "destination."
@@ -1494,6 +1527,13 @@ msgid ""
 "(destination)s</b>, <br/> as specified from <b>%(operation)s</b> destination."
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+" <br/><br/> The manufactured products will be moved towards <b>%"
+"(destination)s</b>, <br/> as specified from <b>%(operation)s</b> destination."
+msgstr ""
+" <br/><br/> De fremstillede produkter flyttes til <b>%(destination)s</b>, <"
+"br/> som angivet i målet for <b>%(operation)s</b>."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields.selection,name:mrp.selection__mrp_bom__ready_to_produce__all_available
@@ -1531,49 +1571,81 @@ msgstr "# af BoM blev brugt"
 #. odoo-python
 #: code:addons/mrp/models/stock_warehouse.py:0
 msgid "%(name)s Sequence picking before manufacturing"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(name)s Plukning i rækkefølge før produktion"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-python
 #: code:addons/mrp/models/stock_warehouse.py:0
 msgid "%(name)s Sequence production"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(name)s Sekvensproduktion"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-python
 #: code:addons/mrp/models/stock_warehouse.py:0
 msgid "%(name)s Sequence stock after manufacturing"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(name)s Sekvensbestand efter fremstilling"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-python
 #: code:addons/mrp/report/mrp_report_mo_overview.py:0
 msgid "%(producible_qty)s Ready"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(producible_qty)s Klar"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-python
 #: code:addons/mrp/models/mrp_unbuild.py:0
 msgid "%(product)s: Insufficient Quantity To Unbuild"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(product)s: Utilstrækkelig mængde til demontering"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-python
 #: code:addons/mrp/models/mrp_bom.py:0
 msgid "%(product_name)s (new) %(number_of_boms)s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(product_name)s (ny) %(number_of_boms)s"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-python
 #: code:addons/mrp/models/mrp_unbuild.py:0
 msgid "%(qty)s %(measure)s unbuilt in %(order)s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(qty)s %(measure)s afmonteret om %(order)s"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-python
 #: code:addons/mrp/models/mrp_routing.py:0
 msgid "%i work orders"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%i arbejdsordrer"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-python
@@ -1590,7 +1662,11 @@ msgstr "%s kan ikke slettes. Prøv at aflyse dem først."
 #. module: mrp
 #: model:ir.actions.report,print_report_name:mrp.action_report_bom_structure
 msgid "'Bom Overview - %s' % object.display_name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "'Styklisteoversigt - %s' % object.display_name"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.actions.report,print_report_name:mrp.action_report_finished_product
@@ -1600,7 +1676,11 @@ msgstr "'Færdiggjorte produkter - %s' % object.name"
 #. module: mrp
 #: model:ir.actions.report,print_report_name:mrp.action_report_mrp_mo_overview
 msgid "'MO Overview - %s' % object.display_name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "'Oversigt over produktionsordrer - %s' % object.display_name"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.actions.report,print_report_name:mrp.action_report_production_order
@@ -1610,14 +1690,22 @@ msgstr "'Produktionsordre - %s' % object.name"
 #. module: mrp
 #: model:ir.actions.report,print_report_name:mrp.action_report_workorder
 msgid "'Work Order - %s' % object.name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "'Arbejdsordre - %s' % object.name"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-javascript
 #: code:addons/mrp/static/src/components/mo_overview/mrp_mo_overview.xml:0
 #: model_terms:ir.ui.view,arch_db:mrp.mo_overview_content
 msgid "(in"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "(om"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-python
@@ -1653,7 +1741,10 @@ msgstr "+ %d dag(e)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1738,6 +1829,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1794,6 +1886,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mrp.mo_overview_content
 msgid "- Overview"
 msgstr ""
+=======
+#: model_terms:ir.ui.view,arch_db:mrp.mo_overview_content
+msgid "- Overview"
+msgstr "- Oversigt"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.exception_on_mo
@@ -1809,6 +1906,7 @@ msgstr ""
 msgid ""
 "1 Step: Consume components from stock and produce.\n"
 "              2 Steps: Pick components from stock and then produce.\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1946,6 +2044,15 @@ msgid ""
 "final product(s) from production area to stock."
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+"              3 Steps: Pick components from stock, produce, and then move "
+"final product(s) from production area to stock."
+msgstr ""
+"Trin 1: Forbrug komponenter fra lageret og producér produktet.\n"
+"              Trin 2: Pluk komponenter fra lageret og producér produktet.\n"
+"              Trin 3: Pluk komponenter fra lageret, producér produktet, og "
+"flyt derefter det/de færdige produk/produkter til lageret."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.report_mrporder
@@ -2002,6 +2109,7 @@ msgstr "987654321098"
 #. odoo-javascript
 #: code:addons/mrp/static/src/workcenter_dashboard_graph/workcenter_dashboard_graph_field.js:0
 msgid ":  hours"
+<<<<<<< HEAD
 msgstr ""
 
 #. module: mrp
@@ -2092,6 +2200,12 @@ msgid "<i class=\"fa fa-play fs-6\" role=\"img\" aria-label=\"Run\" title=\"Run\
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+msgstr ":  timer"
+
+#. module: mrp
+#: model_terms:ir.ui.view,arch_db:mrp.workcenter_line_kanban
+>>>>>>> upstream/18.0
 msgid ""
 "<i class=\"fa fa-pause\" role=\"img\" aria-label=\"Pause\" title=\"Pause\"/>"
 msgstr ""
@@ -2127,6 +2241,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2184,6 +2301,7 @@ msgstr ""
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.workcenter_line_kanban
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2266,6 +2384,8 @@ msgstr "<i class=\"fa fa-stop\" role=\"img\" aria-label=\"Stop\" title=\"Stop\"/
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "<i class=\"fa fa-stop\" role=\"img\" aria-label=\"Stop\" title=\"Stop\"/>"
 msgstr ""
@@ -2296,6 +2416,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2384,7 +2507,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        Use this feature to store any files, like drawings or specifications.\n"
+=======
+"                        Use this feature to store any files, like drawings "
+"or specifications.\n"
+>>>>>>> upstream/18.0
 =======
 "                        Use this feature to store any files, like drawings "
 "or specifications.\n"
@@ -2525,7 +2653,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        Brug denne funktion til at lagre filer, såsom tegninger eller specifikationer.\n"
+=======
+"                        Brug denne funktion til at lagre filer, såsom "
+"tegninger eller specifikationer.\n"
+>>>>>>> upstream/18.0
 =======
 "                        Brug denne funktion til at lagre filer, såsom "
 "tegninger eller specifikationer.\n"
@@ -2639,27 +2772,47 @@ msgstr ""
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.stock_production_type_kanban
 msgid "<span class=\"col-6\">In Progress</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"col-6\">Under behandling</span>"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.stock_production_type_kanban
 msgid "<span class=\"col-6\">Late</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"col-6\">Forsinket</span>"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.stock_production_type_kanban
 msgid "<span class=\"col-6\">To Close</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"col-6\">Skal lukkes</span>"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.stock_production_type_kanban
 msgid "<span class=\"col-6\">Waiting</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"col-6\">Afventer</span>"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
 msgid "<span class=\"fw-bold text-nowrap\">To Produce</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"fw-bold text-nowrap\">Skal fremstilles</span>"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
@@ -2669,7 +2822,11 @@ msgstr "<span class=\"o_stat_text\">Restordre</span>"
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_bom_form_view
 msgid "<span class=\"o_stat_text\">BoM Overview</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Styklisteoversigt</span>"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
@@ -2710,12 +2867,20 @@ msgstr "<span class=\"o_stat_text\">Operationer</span>"
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_bom_form_view
 msgid "<span class=\"o_stat_text\">Operations<br/>Performance</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Operationernes<br/>ydeevne</span>"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
 msgid "<span class=\"o_stat_text\">Overview</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Oversigt</span>"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_workcenter_view
@@ -2726,7 +2891,11 @@ msgstr "<span class=\"o_stat_text\">Resultat</span>"
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_unbuild_form_view
 msgid "<span class=\"o_stat_text\">Product Moves</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Produktbevægelser</span>"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
@@ -2742,17 +2911,26 @@ msgstr "<span class=\"o_stat_text\">Kilde Produktionsordre</span>"
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
 msgid "<span class=\"o_stat_text\">Traceability</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Sporbarhed</span>"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
 msgid "<span class=\"o_stat_text\">Unbuilds</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Demonteringer</span>"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.view_change_production_qty_wizard
 msgid ""
 "<span class=\"text-muted\">Modifying the quantity to produce will also "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2891,6 +3069,14 @@ msgid ""
 "</span>"
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+"modify the quantities of components to consume for this manufacturing order."
+"</span>"
+msgstr ""
+"<span class=\"text-muted\">En ændring i produktionsmængden medfører "
+"tilsvarende ændringer i de komponenter, der er nødvendige for "
+"produktionsordren.</span>"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.report_mrp_production_components
@@ -2899,6 +3085,12 @@ msgid ""
 "            Components\n"
 "        </span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span>\n"
+"            Komponenter\n"
+"        </span>"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_workorder_form_view_inherit
@@ -2913,7 +3105,11 @@ msgstr "<span>Handlinger</span>"
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
 msgid "<span>Generate BOM</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Generér stykliste</span>"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.stock_production_type_kanban
@@ -2958,17 +3154,29 @@ msgstr "<strong class=\"mr8 oe-inline\">to</strong>"
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.report_mrporder
 msgid "<strong>Actual Duration (minutes)</strong>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Faktisk varighed (minutter)</strong>"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.report_mrporder
 msgid "<strong>Barcode</strong>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Stregkode</strong>"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.report_mrporder
 msgid "<strong>Deadline:</strong><br/>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Deadline:</strong><br/>"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.report_mrporder
@@ -2978,7 +3186,11 @@ msgstr "<strong>Beskrivelse:</strong>"
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.report_mrporder
 msgid "<strong>Duration (minutes)</strong>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Varighed (minutter)</strong>"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_workcenter_productivity_loss_kanban
@@ -2998,7 +3210,11 @@ msgstr "<strong>Er en grund til blokering? </strong>"
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.report_mrp_workorder
 msgid "<strong>Manufacturing Order:</strong><br/>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Produktionsordre:</strong><br/>"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.report_mrporder
@@ -3008,12 +3224,20 @@ msgstr "<strong>Operation</strong>"
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.report_mrporder
 msgid "<strong>Product:</strong><br/>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Produkt:</strong><br/>"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.report_mrporder
 msgid "<strong>Quantity Producing:</strong><br/>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Produktionsmængde:</strong><br/>"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.report_mrp_workorder
@@ -3056,6 +3280,7 @@ msgstr "? Dette kan føre til uoverensstemmelser i dit lager."
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_bom_form_view
 msgid ""
 "A BoM of type Kit is not produced with a manufacturing order.<br/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3193,6 +3418,15 @@ msgid ""
 "its components when:"
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+"                                Instead, it is used to decompose a BoM into "
+"its components when:"
+msgstr ""
+"En stykliste, der repræsenterer et byggesæt, produceres ikke via en "
+"produktionsordre.<br/>\n"
+"                                Den bruges i stedet til at opdele "
+"styklistekomponenterne, når:"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-python
@@ -3288,7 +3522,11 @@ msgstr "Tilføj kvalitetstjek til dine arbejdsordre"
 #. module: mrp
 #: model:ir.model,name:mrp.model_mrp_workcenter_tag
 msgid "Add tag for the workcenter"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tilføj nøgleord til arbejdspladsen"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:res.groups,name:mrp.group_mrp_manager
@@ -3309,18 +3547,27 @@ msgstr "Alle"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__all_move_ids
 msgid "All Move"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Alle bevægelser"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__all_move_raw_ids
 msgid "All Move Raw"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Alle råvarebevægelser"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.constraint,message:mrp.constraint_mrp_bom_line_bom_qty_zero
 msgid ""
 "All product quantities must be greater or equal to 0.\n"
 "Lines with 0 quantities can be used as optional lines. \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3458,6 +3705,15 @@ msgid ""
 "products on BoMs!"
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+"You should install the mrp_byproduct module if you want to manage extra "
+"products on BoMs!"
+msgstr ""
+"Alle produktmængder skal være mindst 0.\n"
+"Linjer med mængden 0 kan bruges som valgfrie linjer.\n"
+"Hvis du vil administrere flere produkter på styklister, skal modulet "
+"'mrp_byproduct' installeres!"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
@@ -3467,23 +3723,39 @@ msgstr "Tildeling"
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.view_picking_type_form_inherit_mrp
 msgid "Allocation Report"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tildelingsrapport"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.view_picking_type_form_inherit_mrp
 msgid "Allocation Report Labels"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tildelingsrapportmærkater"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_res_config_settings__group_mrp_reception_report
 msgid "Allocation Report for Manufacturing Orders"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tildelingsrapport for produktionsordrer"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__allow_workorder_dependencies
 #: model:ir.model.fields,field_description:mrp.field_mrp_workorder__allow_workorder_dependencies
 msgid "Allow Work Order Dependencies"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tillad afhængigheder mellem arbejdsordrer"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.res_config_settings_view_form
@@ -3491,6 +3763,11 @@ msgid ""
 "Allow manufacturing users to modify quantities to consume, without the need "
 "for prior approval"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Det er muligt for brugere af Produktionsappen at ændre forbrugsmængder uden "
+"tidligere godkendelse"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_production__use_create_components_lots
@@ -3555,7 +3832,11 @@ msgstr "Anvend på Varianter"
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_routing_workcenter_bom_tree_view
 msgid "Archive Operation"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Arkivér operation"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_bom_form_view
@@ -3570,7 +3851,11 @@ msgstr "Arkiveret"
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
 msgid "Are you sure you want to cancel this manufacturing order?"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Er du sikker på, at du vil annullere denne produktionsordre?"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.report_mrporder
@@ -3608,32 +3893,56 @@ msgstr "Egenskabs værdier"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_stock_picking_type__auto_print_mrp_reception_report
 msgid "Auto Print Allocation Report"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Udskriv tildelingsrapport automatisk"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_stock_picking_type__auto_print_mrp_reception_report_labels
 msgid "Auto Print Allocation Report Labels"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Automatisk udskrivning af tildelingsrapportmærkater"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_stock_picking_type__auto_print_done_production_order
 msgid "Auto Print Done Production Order"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Udskriv færdig produktionsordre automatisk"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_stock_picking_type__auto_print_generated_mrp_lot
 msgid "Auto Print Generated Lot/SN Label"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Automatisk udskrivning af etiketter med genererede parti- eller serienumre"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_stock_picking_type__auto_print_done_mrp_lot
 msgid "Auto Print Produced Lot Label"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Automatisk udskrivning af etiketter for færdigproducerede partier"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_stock_picking_type__auto_print_done_mrp_product_labels
 msgid "Auto Print Produced Product Labels"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Automatisk udskrivning af etiketter for færdigproducerede produkter"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_stock_picking_type__auto_print_generated_mrp_lot
@@ -3641,6 +3950,11 @@ msgid ""
 "Automatically print the lot/SN label when the \"Create a new serial/lot "
 "number\" button is used."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Automatisk udskrivning af etiketter med knappen \"Opret et nyt parti- eller "
+"serienummer."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-javascript
@@ -3653,7 +3967,11 @@ msgstr "Tilgængeligheder"
 #. odoo-javascript
 #: code:addons/mrp/static/src/components/bom_overview_table/mrp_bom_overview_table.xml:0
 msgid "Availabilities on products."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Produkter på lager."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-javascript
@@ -3687,6 +4005,7 @@ msgstr "Avatar"
 msgid ""
 "Average lead time in days to manufacture this product. In the case of multi-"
 "level BOM, the manufacturing lead times of the components will be added. In "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3825,27 +4144,48 @@ msgid ""
 "which components should be sent to the subcontractor."
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+"case the product is subcontracted, this can be used to determine the date at "
+"which components should be sent to the subcontractor."
+msgstr ""
+"Gennemsnitlig gennemløbstid i dage for fremstillingen af dette produkt. Ved "
+"flerstegs-styklister lægges komponenternes fremstillingstider sammen. Hvis "
+"produktet udliciteres til en underleverandør, kan denne tid bruges til at "
+"fastlægge, hvornår komponenterne skal sendes til underleverandøren."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-javascript
 #: code:addons/mrp/static/src/components/mo_overview/mrp_mo_overview.xml:0
 #: model_terms:ir.ui.view,arch_db:mrp.mo_overview_content
 msgid "Avg Cost of Components per Unit"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gennemsnitlige omkostninger pr. enhed for komponenterne"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-javascript
 #: code:addons/mrp/static/src/components/mo_overview/mrp_mo_overview.xml:0
 #: model_terms:ir.ui.view,arch_db:mrp.mo_overview_content
 msgid "Avg Cost of Operations per Unit"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gennemsnitlige driftsomkostninger pr. enhed"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-javascript
 #: code:addons/mrp/static/src/components/mo_overview/mrp_mo_overview.xml:0
 #: model_terms:ir.ui.view,arch_db:mrp.mo_overview_content
 msgid "Avg Total Cost per Unit"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gennemsnitlige samlede omkostninger pr. enhed"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model,name:mrp.model_report_mrp_report_bom_structure
@@ -3908,7 +4248,11 @@ msgid "BOM Overview Report"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sammenfattende rapport over styklister"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sammenfattende rapport over styklister"
 >>>>>>> upstream/18.0
@@ -4105,13 +4449,21 @@ msgstr "BOM linjer for den refererede BoM"
 #. odoo-javascript
 #: code:addons/mrp/static/src/components/product_catalog/kanban_controller.js:0
 msgid "Back to BoM"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tilbage til stykliste"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-javascript
 #: code:addons/mrp/static/src/components/product_catalog/kanban_controller.js:0
 msgid "Back to Production"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tilbage til produktion"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model,name:mrp.model_mrp_production_backorder_line
@@ -4142,6 +4494,7 @@ msgstr "Restordre Sekvens"
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_production__backorder_sequence
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4252,6 +4605,9 @@ msgid "Backorder sequence, if equals to 0 means there is not related backorder"
 =======
 msgid "Backorder sequence, if equals to 0 means there is not related backorder"
 >>>>>>> upstream/18.0
+=======
+msgid "Backorder sequence, if equals to 0 means there is not related backorder"
+>>>>>>> upstream/18.0
 msgstr ""
 "Restordre sekvens, hvis lig med 0 betyder det at der ikke er en relateret "
 "restordre"
@@ -4271,7 +4627,11 @@ msgstr "Baseret på"
 #: model:ir.actions.act_window,name:mrp.action_mrp_batch_produce
 #: model:ir.model.fields,field_description:mrp.field_mrp_batch_produce__production_text
 msgid "Batch Production"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Serieproduktion"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields.selection,name:mrp.selection__mrp_production__search_date_category__before
@@ -4332,6 +4692,7 @@ msgstr "Styklister"
 #: model:ir.model.fields,help:mrp.field_mrp_unbuild__mo_bom_id
 #: model:ir.model.fields,help:mrp.field_mrp_workorder__production_bom_id
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4470,11 +4831,19 @@ msgid ""
 "and work order instructions."
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+"Bills of Materials, also called recipes, are used to autocomplete components "
+"and work order instructions."
+msgstr ""
+"Styklister, også kaldet opskrifter, bruges til at udfylde komponenter og "
+"arbejdsordreinstruktioner automatisk."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.actions.act_window,help:mrp.mrp_bom_form_action
 msgid ""
 "Bills of materials allow you to define the list of required raw\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4560,6 +4929,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                materials used to make a finished product; through a "
 "manufacturing\n"
 "                order or a pack of products."
@@ -4593,6 +4964,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4724,7 +5098,11 @@ msgstr "BoM omkostninger"
 #. odoo-javascript
 #: code:addons/mrp/static/src/components/mo_overview_display_filter/mrp_mo_overview_display_filter.js:0
 msgid "BoM Costs"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Styklisteomkostninger"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_stock_move__bom_line_id
@@ -4741,7 +5119,11 @@ msgstr "Stykliste linjer"
 #: model:ir.actions.report,name:mrp.action_report_bom_structure
 #: model_terms:ir.ui.view,arch_db:mrp.report_mrp_bom
 msgid "BoM Overview"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Styklisteoversigt"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_bom__type
@@ -4773,7 +5155,11 @@ msgstr "Biprodukt"
 #. odoo-python
 #: code:addons/mrp/models/mrp_bom.py:0
 msgid "By-product %s should not be the same as BoM product."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Biprodukt %s kan ikke være det samme som styklisteprodukt."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_stock_move__byproduct_id
@@ -4792,7 +5178,11 @@ msgstr "Biprodukter"
 #: code:addons/mrp/models/mrp_bom.py:0
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "By-products cost shares must be positive."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Biprodukters omkostninger skal være positive."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model,name:mrp.model_mrp_bom_byproduct
@@ -4833,6 +5223,11 @@ msgid ""
 "Cannot compute days to prepare due to missing route info for at least 1 "
 "component or for the final product."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Kan ikke beregne forberedelsestid, da der mangler ruteoplysninger for mindst "
+"én komponent eller for det færdige produkt."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-python
@@ -4854,7 +5249,11 @@ msgstr ""
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_workorder__qty_reported_from_previous_wo
 msgid "Carried Quantity"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Overført mængde"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_bom_form_view
@@ -4876,7 +5275,11 @@ msgstr "Kategori"
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.report_mrporder
 msgid "Center A"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Center A"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.view_change_production_qty_wizard
@@ -4900,6 +5303,11 @@ msgid ""
 "Changing the product or variant will permanently reset all previously "
 "encoded variant-related data."
 msgstr ""
+<<<<<<< HEAD
+=======
+"At redigere produktet eller varianten nulstiller permanent alle tidligere "
+"kodede variantrelaterede data."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
@@ -4918,22 +5326,38 @@ msgstr "Vælg Etiketlayout"
 #. odoo-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "Choose Type of Labels To Print"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vælg, hvilken etikettype der skal udskrives"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model,name:mrp.model_picking_label_type
 msgid "Choose whether to print product or lot/sn labels"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vælg, om du vil udskrive produkt- eller parti- og/eller serienumre"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter__time_stop
 msgid "Cleanup Time"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Oprydningstid"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter_capacity__time_stop
 msgid "Cleanup Time (minutes)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Oprydningstid (minutter)"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter__code
@@ -4980,7 +5404,11 @@ msgstr "Komponent"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__components_availability
 msgid "Component Status"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Komponentstatus"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-javascript
@@ -4991,7 +5419,11 @@ msgstr "Komponent af Kladde PO"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_batch_produce__component_separator
 msgid "Component separator"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Komponentseparator"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__move_raw_ids
@@ -5009,7 +5441,11 @@ msgstr "Komponenter Tilgængeligheds Status"
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_filter
 msgid "Components Available"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tilgængelige komponenter"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__location_src_id
@@ -5037,6 +5473,7 @@ msgstr "Udregn baseret på sporet tid"
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_bom_form_view
 msgid ""
 "Compute the days required to resupply all components from BoM, by either "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5203,11 +5640,25 @@ msgid ""
 "note that purchase security lead times will be added when appropriate."
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+"buying or manufacturing the components and/or "
+"subassemblies.                                                       Also "
+"note that purchase security lead times will be added when appropriate."
+msgstr ""
+"Beregn, hvor mange dage der kræves for at genforsyne alle komponenter på "
+"styklisterne, enten ved indkøb eller fremstilling af komponenterne og/eller "
+"underenhederne. Bemærk, at leveringstider for sikkerhedsindkøb automatisk "
+"tilføjes efter behov."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_routing_workcenter__time_computed_on
 msgid "Computed on last"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Beregnet på den sidste"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model,name:mrp.model_res_config_settings
@@ -5287,19 +5738,31 @@ msgstr ""
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_routing_workcenter_bom_tree_view
 msgid "Copy Existing Operations"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kopiere eksisterende operationer"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_routing_workcenter_copy_to_bom_tree_view
 msgid "Copy selected operations"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kopiere valgte operationer"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-javascript
 #: code:addons/mrp/static/src/components/mo_overview/mrp_mo_overview.xml:0
 #: model_terms:ir.ui.view,arch_db:mrp.mo_overview_content
 msgid "Cost Breakdown of Products"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fordeling af produktomkostninger"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_bom_byproduct__cost_share
@@ -5363,7 +5826,11 @@ msgid "Cost Share (%)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Omkostningsandel (%)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Omkostningsandel (%)"
 >>>>>>> upstream/18.0
@@ -5543,39 +6010,64 @@ msgstr "Omkostningsandel (%)"
 #. odoo-javascript
 #: code:addons/mrp/static/src/components/mo_overview/mrp_mo_overview.xml:0
 msgid "Cost as it is currently accumulated"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aktuelle omkostninger"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-javascript
 #: code:addons/mrp/static/src/components/mo_overview/mrp_mo_overview.xml:0
 msgid "Cost based on cost projection"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Omkostninger fastlagt ud fra omkostningsprognoser"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-javascript
 #: code:addons/mrp/static/src/components/mo_overview/mrp_mo_overview.xml:0
 msgid "Cost based on related replenishments. Otherwise cost from product form"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Omkostninger fastlagt ud fra relaterede genopfyldninger. Ellers omkostninger "
+"fra produktformular"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-javascript
 #: code:addons/mrp/static/src/components/mo_overview/mrp_mo_overview.xml:0
 msgid "Cost based on the BoM"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Omkostninger fastlagt ud fra styklisten"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-javascript
 #: code:addons/mrp/static/src/components/mo_overview/mrp_mo_overview.xml:0
 #: model_terms:ir.ui.view,arch_db:mrp.mo_overview_content
 msgid "Cost of Components per unit"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Enhedsomkostninger for komponenter"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-javascript
 #: code:addons/mrp/static/src/components/mo_overview/mrp_mo_overview.xml:0
 #: model_terms:ir.ui.view,arch_db:mrp.mo_overview_content
 msgid "Cost of Operations per unit"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Operationsomkostninger for komponenter"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter__costs_hour
@@ -5645,8 +6137,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Create a backorder if you expect to process the remaining products later. Do"
 " not create a backorder if you will not process the remaining products."
+=======
+"Create a backorder if you expect to process the remaining products later. Do "
+"not create a backorder if you will not process the remaining products."
+>>>>>>> upstream/18.0
 =======
 "Create a backorder if you expect to process the remaining products later. Do "
 "not create a backorder if you will not process the remaining products."
@@ -5807,6 +6304,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Create and confirm Manufacturing Orders this many days in advance, to have enough time to replenish components or manufacture semi-finished products.\n"
 =======
 "Create and confirm Manufacturing Orders this many days in advance, to have "
@@ -5918,6 +6416,17 @@ msgid ""
 >>>>>>> upstream/18.0
 "Note that security lead times will also be considered when appropriate."
 msgstr ""
+=======
+"Create and confirm Manufacturing Orders this many days in advance, to have "
+"enough time to replenish components or manufacture semi-finished products.\n"
+"Note that security lead times will also be considered when appropriate."
+msgstr ""
+"Opret og bekræft produktionsordrer dette antal dage i forvejen for at sikre "
+"tilstrækkelig tid til genopfyldning af komponenter eller produktion af "
+"halvfabrikata.\n"
+"Bemærk, at sikkerhedsleveringstider også tages i betragtning, hvor det er "
+"relevant."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_backorder_form
@@ -5927,7 +6436,11 @@ msgstr "Opret restordre"
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.res_config_settings_view_form
 msgid "Create customizable worksheets for your quality checks"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Opret brugertilpassede regneark til dine kvalitetskontroller"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_bom__allow_operation_dependencies
@@ -5938,6 +6451,13 @@ msgid ""
 "and nothing is specified, Odoo will assume that all operations can be "
 "started simultaneously."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Opret driftsafhængigheder, der påvirker planlægning og arbejdsordrestatus "
+"ved bekræftelse af produktionsordrer. Hvis funktionen er aktiveret, og der "
+"ikke er angivet nogen afhængigheder, antager Odoo, at alle operationer kan "
+"starte samtidig."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_stock_move__created_production_id
@@ -6039,6 +6559,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "In a context with a single Stock Location, this includes goods stored at this Location, or any of its children.\n"
 "In a context with a single Warehouse, this includes goods stored in the Stock Location of this Warehouse, or any of its children.\n"
 "stored in the Stock Location of the Warehouse of this Shop, or any of its children.\n"
@@ -6050,6 +6571,8 @@ msgstr ""
 "eller i denne butiks lager eller nogen af dets underlokationer.\n"
 "Ellers omfatter dette varer, der er gemt i en hvilken som helst lagerplacering med typen 'intern'."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6145,6 +6668,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6219,29 +6745,51 @@ msgstr "Dato"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__search_date_category
 msgid "Date Category"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Datokategori"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_filter
 msgid "Date by Month"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dato efter måned"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_production__date_finished
 msgid ""
 "Date you expect to finish production or actual date you finished production."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Den dato, du forventer at afslutte produktionen, eller den faktiske dato, "
+"hvor produktionen blev afsluttet."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_production__date_start
 msgid ""
 "Date you plan to start production or date you actually started production."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Den dato, du forventer at starte produktionen, eller den faktiske dato, hvor "
+"produktionen blev sat i gang."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_filter
 msgid "Date: Last 365 Days"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dato: sidste 365 dage"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-javascript
@@ -6255,12 +6803,20 @@ msgstr "Dage"
 #. odoo-python
 #: code:addons/mrp/models/stock_rule.py:0
 msgid "Days to Supply Components"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dage til levering af komponenter"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_bom__days_to_prepare_mo
 msgid "Days to prepare Manufacturing Order"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dage til at forberede produktionsordre"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__date_deadline
@@ -6309,8 +6865,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "you need to produce 10 units, then the operation time listed on the BOM will"
 " be multiplied by two. However, note that both time before and after "
+=======
+"you need to produce 10 units, then the operation time listed on the BOM will "
+"be multiplied by two. However, note that both time before and after "
+>>>>>>> upstream/18.0
 =======
 "you need to produce 10 units, then the operation time listed on the BOM will "
 "be multiplied by two. However, note that both time before and after "
@@ -6532,6 +7093,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Angiv ressourcens arbejdstider. Hvis du ikke angiver dette, har ressourcen "
+"fuldstændig fleksible arbejdstider."
+>>>>>>> upstream/18.0
 =======
 "Angiv ressourcens arbejdstider. Hvis du ikke angiver dette, har ressourcen "
 "fuldstændig fleksible arbejdstider."
@@ -6919,12 +7485,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Defines if you can consume more or less components than the quantity defined on the BoM:\n"
 "  * Allowed: allowed for all manufacturing users.\n"
 "  * Allowed with warning: allowed for all manufacturing users with summary of consumption differences when closing the manufacturing order.\n"
 "  Note that in the case of component Highlight Consumption, where consumption is registered manually exclusively, consumption warnings will still be issued when appropriate also.\n"
 "  * Blocked: only a manager can close a manufacturing order when the BoM consumption is not respected."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7013,6 +7582,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7067,6 +7637,18 @@ msgid ""
 =======
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+msgstr ""
+"Fastsæt, om det er muligt at forbruge flere eller færre komponenter end "
+"angivet på styklister:\n"
+"  * Tilladt: Alle brugere i produktionsappen kan justere forbruget.\n"
+"  * Tilladt med advarsel: Alle brugere kan justere forbruget, men forskelle "
+"i forbruget opsummeres, når produktionsordren lukkes.\n"
+"  Bemærk: Hvis komponenten har “Fremhæv forbrug” og forbruget registreres "
+"manuelt, kan der stadig udstedes advarsler ved behov.\n"
+"  Blokeret: Kun en leder kan lukke produktionsordren, hvis forbruget af "
+"styklistekomponenter ikke overholdes."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__delay_alert_date
@@ -7076,12 +7658,20 @@ msgstr "Forsinkelse Advarselsdato"
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_filter
 msgid "Delayed Productions"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Forsinkede produktioner"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.res_config_settings_view_form
 msgid "Delegate part of the production process to subcontractors"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Delegér en del af produktionsprocessen til underleverandører"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__delivery_count
@@ -7202,6 +7792,10 @@ msgstr "Demonteringsordre"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
 >>>>>>> upstream/18.0
@@ -7520,12 +8114,20 @@ msgstr "Vis serienummer genvejen på bevægelser"
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
 msgid "Displays the consumed Lot/Serial Numbers."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vis forbrugte parti-/serienumre."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
 msgid "Displays the produced Lot/Serial Numbers."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vis producerede parti-/serienumre."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.stock_warn_insufficient_qty_unbuild_form_view
@@ -7685,7 +8287,11 @@ msgid "End"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Slut"
+>>>>>>> upstream/18.0
 =======
 msgstr "Slut"
 >>>>>>> upstream/18.0
@@ -7889,14 +8495,22 @@ msgstr "Forsikre sporbarheden af opbevarings produkter i dit lager."
 #. module: mrp
 #: model:mrp.workcenter.productivity.loss,name:mrp.block_reason1
 msgid "Equipment Failure"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Udstyrsfejl"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-python
 #: code:addons/mrp/report/mrp_report_bom_structure.py:0
 #: code:addons/mrp/report/mrp_report_mo_overview.py:0
 msgid "Estimated %s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Estimeret %s"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.exception_on_mo
@@ -7924,7 +8538,11 @@ msgstr "Forventet"
 #: code:addons/mrp/report/mrp_report_bom_structure.py:0
 #: code:addons/mrp/report/mrp_report_mo_overview.py:0
 msgid "Expected %s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Forventet %s"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__duration_expected
@@ -7936,18 +8554,30 @@ msgstr "Forventet varighed"
 #: model_terms:ir.ui.view,arch_db:mrp.view_work_center_load_graph
 #: model_terms:ir.ui.view,arch_db:mrp.view_workcenter_load_pivot
 msgid "Expected Duration (minutes)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Forventet varighed (minutter)"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_batch_produce__production_text_help
 msgid "Explanation for batch production"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Forklaring vedrørende serieproduktion"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-javascript
 #: code:addons/mrp/static/src/components/bom_overview_table/mrp_bom_overview_table.xml:0
 msgid "Files attached to the product."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Filer vedhæftet produktet."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_unbuild_search_view
@@ -8015,7 +8645,11 @@ msgid "Final Location from procurement"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Endelig placering fra indkøb"
+>>>>>>> upstream/18.0
 =======
 msgstr "Endelig placering fra indkøb"
 >>>>>>> upstream/18.0
@@ -8235,7 +8869,11 @@ msgstr "Lokation for færdigvarer"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_batch_produce__lot_name
 msgid "First Lot/SN"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Første parti-/serienummer"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_bom__consumption
@@ -8347,7 +8985,11 @@ msgid "Forecast Report"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prognoserapport"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prognoserapport"
 >>>>>>> upstream/18.0
@@ -8554,6 +9196,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "In a context with a single Stock Location, this includes goods stored in this location, or any of its children.\n"
 "In a context with a single Warehouse, this includes goods stored in the Stock Location of this Warehouse, or any of its children.\n"
 "Otherwise, this includes goods stored in any Stock Location with 'internal' type."
@@ -8563,6 +9206,8 @@ msgstr ""
 "Ved en enkelt lagerbygning omfatter dette varer, der er opbevaret på lagerpladsen på dette lager eller nogen af dets andre lagre.\n"
 "Ellers omfatter dette varer, der er opbevaret i en hvilken som helst lagerlokation med typen 'intern'."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8655,6 +9300,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8775,7 +9423,11 @@ msgid "Forecasted Issue"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Forudsagt problem"
+>>>>>>> upstream/18.0
 =======
 msgstr "Forudsagt problem"
 >>>>>>> upstream/18.0
@@ -8962,14 +9614,22 @@ msgstr ""
 #: code:addons/mrp/static/src/components/bom_overview_table/mrp_bom_overview_table.xml:0
 #: model_terms:ir.ui.view,arch_db:mrp.report_mrp_bom
 msgid "Free to Use / On Hand"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tilgængelig/på lager"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-javascript
 #: code:addons/mrp/static/src/components/mo_overview/mrp_mo_overview.xml:0
 #: model_terms:ir.ui.view,arch_db:mrp.mo_overview_content
 msgid "Free to use / On Hand"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tilgængelig/på lager"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
@@ -8984,7 +9644,11 @@ msgstr "Fuldt ud produktiv"
 #. module: mrp
 #: model:mrp.workcenter.productivity.loss,name:mrp.block_reason7
 msgid "Fully Productive Time"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fuldt produktiv tid"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_unbuild_search_view
@@ -9005,17 +9669,29 @@ msgstr "Generer"
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_batch_produce_form
 msgid "Generate Serial Numbers"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Generér serienumre"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
 msgid "Generate a new BoM from this Manufacturing Order"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Generér en ny stykliste ud fra denne produktionsordre"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_stock_picking_type__generated_mrp_lot_label_to_print
 msgid "Generated Lot/SN Label to Print"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Genererede parti- og/eller serienumre til udskrivning"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.actions.act_window,help:mrp.action_mrp_routing_time
@@ -9072,7 +9748,11 @@ msgstr "Sortér efter"
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.view_picking_type_form_inherit_mrp
 msgid "Hardware"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hardware"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_workorder__is_produced
@@ -9082,7 +9762,11 @@ msgstr "Er blevet produceret"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_stock_picking__has_kits
 msgid "Has Kits"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Har sæt"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_bom__has_message
@@ -9096,6 +9780,7 @@ msgstr "Har besked"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter__has_routing_lines
 msgid "Has Routing Lines"
+<<<<<<< HEAD
 msgstr ""
 
 #. module: mrp
@@ -9355,6 +10040,11 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr "Har rutelinjer"
+
+#. module: mrp
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:mrp.field_mrp_workorder__has_worksheet
 msgid "Has Worksheet"
@@ -9446,6 +10136,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9629,7 +10322,11 @@ msgstr ""
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_workcenter__costs_hour
 msgid "Hourly processing cost."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Timebaserede behandlingsomkostninger."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-python
@@ -9711,8 +10408,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Hvis en produktvariant er defineret, er styklisten kun tilgængelig for dette"
 " produkt."
+=======
+"Hvis en produktvariant er defineret, er styklisten kun tilgængelig for dette "
+"produkt."
+>>>>>>> upstream/18.0
 =======
 "Hvis en produktvariant er defineret, er styklisten kun tilgængelig for dette "
 "produkt."
@@ -9889,8 +10591,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Hvis det aktive felt er sat til Falsk, vil du kunne gemme ressourcen uden at"
 " fjerne den."
+=======
+"Hvis det aktive felt er sat til Falsk, vil du kunne gemme ressourcen uden at "
+"fjerne den."
+>>>>>>> upstream/18.0
 =======
 "Hvis det aktive felt er sat til Falsk, vil du kunne gemme ressourcen uden at "
 "fjerne den."
@@ -10006,6 +10713,11 @@ msgid ""
 "If this checkbox is ticked, Odoo will automatically print the allocation "
 "report labels of a MO when it is done."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Hvis dette felt er markeret, udskriver Odoo automatisk etiketterne fra "
+"allokeringsrapporten for en produktionsordre, når den er afsluttet."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_stock_picking_type__auto_print_mrp_reception_report
@@ -10013,6 +10725,11 @@ msgid ""
 "If this checkbox is ticked, Odoo will automatically print the allocation "
 "report of a MO when it is done and has assigned moves."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Hvis dette felt er markeret, udskriver Odoo automatisk allokeringsrapporten "
+"for en produktionsordre, når den er afsluttet og har tildelte bevægelser."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_stock_picking_type__auto_print_done_mrp_lot
@@ -10020,10 +10737,16 @@ msgid ""
 "If this checkbox is ticked, Odoo will automatically print the lot/SN label "
 "of a MO when it is done."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Hvis dette felt er markeret, udskriver Odoo automatisk parti- og "
+"serienummeretiketten for en produktionsordre, når den er afsluttet."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_stock_picking_type__auto_print_done_mrp_product_labels
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10162,6 +10885,13 @@ msgid ""
 "of a MO when it is done."
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+"If this checkbox is ticked, Odoo will automatically print the product labels "
+"of a MO when it is done."
+msgstr ""
+"Hvis dette felt er markeret, udskriver Odoo automatisk produktetiketter for "
+"en produktionsordre, når den er afsluttet."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_stock_picking_type__auto_print_done_production_order
@@ -10169,6 +10899,11 @@ msgid ""
 "If this checkbox is ticked, Odoo will automatically print the production "
 "order of a MO when it is done."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Hvis dette felt er markeret, udskriver Odoo automatisk produktionsordren, "
+"når den er afsluttet."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.exception_on_mo
@@ -10185,6 +10920,7 @@ msgstr "Importer skabelon for stykliste"
 #. odoo-python
 #: code:addons/mrp/models/mrp_workorder.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10295,6 +11031,9 @@ msgid ""
 =======
 "Impossible to plan the workorder. Please check the workcenter availabilities."
 >>>>>>> upstream/18.0
+=======
+"Impossible to plan the workorder. Please check the workcenter availabilities."
+>>>>>>> upstream/18.0
 msgstr ""
 "Umuligt at planlægge arbejdsordren. Tjek venligst workcentrets "
 "tilgængelighed."
@@ -10304,6 +11043,11 @@ msgstr ""
 #: code:addons/mrp/report/mrp_report_bom_structure.py:0
 msgid "Impossible to plan. Please check the workcenter availabilities."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Planlægning ikke mulig. Kontrollér venligst, at arbejdsstedet er "
+"tilgængeligt."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields.selection,name:mrp.selection__mrp_production__state__progress
@@ -10321,17 +11065,29 @@ msgstr "I gang"
 #. odoo-python
 #: code:addons/mrp/report/mrp_report_mo_overview.py:0
 msgid "In Transit"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "I transit"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.product_view_search_catalog
 msgid "In the BoM"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "På styklisten"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.product_view_search_catalog
 msgid "In the MO"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "På produktionsordrer"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_production__date_deadline
@@ -10349,6 +11105,7 @@ msgstr "Inventar bevægelser"
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_workorder__move_line_ids
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10459,13 +11216,20 @@ msgid "Inventory moves for which you must scan a lot number at this work order"
 =======
 msgid "Inventory moves for which you must scan a lot number at this work order"
 >>>>>>> upstream/18.0
+=======
+msgid "Inventory moves for which you must scan a lot number at this work order"
+>>>>>>> upstream/18.0
 msgstr ""
 "Inventar bevægelser hvor du skal scanne et lot nummer for denne arbejdsordre"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__is_delayed
 msgid "Is Delayed"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Er forsinket"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_bom__message_is_follower
@@ -10481,7 +11245,11 @@ msgstr "Er følger"
 #: model:ir.model.fields,field_description:mrp.field_product_template__is_kits
 #: model:ir.model.fields,field_description:mrp.field_stock_scrap__product_is_kit
 msgid "Is Kits"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Er sæt"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__is_locked
@@ -10511,6 +11279,12 @@ msgid ""
 "It is not possible to unplan one single Work Order. You should unplan the "
 "Manufacturing Order instead in order to unplan all the linked operations."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Det er ikke muligt at fjerne planlægningen for en enkelt arbejdsordre. Fjern "
+"i stedet planlægningen for hele produktionsordren for at kunne fjerne "
+"planlægningen for alle tilknyttede operationer."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__is_planned
@@ -10550,17 +11324,29 @@ msgstr "Bærbar"
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.report_mrporder
 msgid "Laptop Model X"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bærbar model x"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.report_mrp_workorder
 msgid "Laptop model X"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bærbar model x"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.report_mrporder
 msgid "Laptop with 16GB RAM"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bærbar med 16GB RAM"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_change_production_qty__write_uid
@@ -10697,7 +11483,11 @@ msgid "Late Availability"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Seneste tilgængelighed"
+>>>>>>> upstream/18.0
 =======
 msgstr "Seneste tilgængelighed"
 >>>>>>> upstream/18.0
@@ -10884,6 +11674,11 @@ msgid ""
 "Latest component availability status for this MO. If green, then the MO's "
 "readiness status is ready, as per BOM configuration."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Seneste status for produktionsordren. Hvis status vises som grøn, er ordren "
+"klar i overensstemmelse med styklistekonfigurationen."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:product.template,description:mrp.product_product_wood_ply_product_template
@@ -10912,6 +11707,7 @@ msgstr "Forlad"
 #: model:ir.model.fields,help:mrp.field_product_document__attached_on_mrp
 msgid ""
 "Leave hidden if document only accessible on product form.\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11049,6 +11845,14 @@ msgid ""
 "when this product is in a bill of material."
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+"Select Bill of Materials to visualise this document as a product attachment "
+"when this product is in a bill of material."
+msgstr ""
+"Lad dokumentet forblive skjult, hvis det kun er tilgængeligt via "
+"produktformularen.\n"
+"Vælg de styklister, hvor dokumentet skal vises som en produktvedhæftning."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model,name:mrp.model_mrp_consumption_warning_line
@@ -11085,7 +11889,11 @@ msgstr "Sted hvor du vil sende komponenterne fra en Tilbageført Produktion"
 #. module: mrp
 #: model:ir.actions.server,name:mrp.action_production_order_lock_unlock
 msgid "Lock/Unlock"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Lås/lås op"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter_productivity__loss_id
@@ -11097,32 +11905,56 @@ msgstr "Tabs årsag"
 #. odoo-python
 #: code:addons/mrp/wizard/mrp_batch_produce.py:0
 msgid "Lot %s does not exist."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Parti %s findes ikke."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_batch_produce__lots_quantity_separator
 msgid "Lot quantity separator"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Partimængdeseparator"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_batch_produce__lots_separator
 msgid "Lot separator"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Partiseparator"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.view_picking_type_form_inherit_mrp
 msgid "Lot/SN Label"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Parti-/serieetiket"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_stock_picking_type__done_mrp_lot_label_to_print
 msgid "Lot/SN Label to Print"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Parti-/serieetiket til udskrivning"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.view_picking_type_form_inherit_mrp
 msgid "Lot/SN Labels"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Parti-/serieetiketter"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model,name:mrp.model_stock_lot
@@ -11156,32 +11988,52 @@ msgstr "PO Restordre"
 #: model:mail.message.subtype,description:mrp.mrp_mo_in_cancelled
 #: model:mail.message.subtype,name:mrp.mrp_mo_in_cancelled
 msgid "MO Cancelled"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Produktionsordre annulleret"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:mail.message.subtype,description:mrp.mrp_mo_in_confirmed
 #: model:mail.message.subtype,name:mrp.mrp_mo_in_confirmed
 msgid "MO Confirmed"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Produktionsordre bekræftet"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-javascript
 #: code:addons/mrp/static/src/components/mo_overview/mrp_mo_overview.xml:0
 #: model_terms:ir.ui.view,arch_db:mrp.mo_overview_content
 msgid "MO Cost"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Produktionsordreomkostning"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-javascript
 #: code:addons/mrp/static/src/components/mo_overview_display_filter/mrp_mo_overview_display_filter.js:0
 msgid "MO Costs"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Produktionsordreomkostninger"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:mail.message.subtype,description:mrp.mrp_mo_in_done
 #: model:mail.message.subtype,name:mrp.mrp_mo_in_done
 msgid "MO Done"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Produktionsordre udført"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-python
@@ -11193,7 +12045,11 @@ msgstr "PO Genereret af %s"
 #: model:ir.actions.client,name:mrp.action_report_mo_overview
 #: model:ir.actions.report,name:mrp.action_report_mrp_mo_overview
 msgid "MO Overview"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Oversigt over produktionsordre"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model,name:mrp.model_report_mrp_report_mo_overview
@@ -11256,7 +12112,11 @@ msgid "MO Overview Report"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sammenfattende rapport over produktionsordrer"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sammenfattende rapport over produktionsordrer"
 >>>>>>> upstream/18.0
@@ -11435,39 +12295,67 @@ msgstr "Sammenfattende rapport over produktionsordrer"
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_filter
 msgid "MO Pending"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Produktionsordre afventer"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:mail.message.subtype,description:mrp.mrp_mo_in_progress
 #: model:mail.message.subtype,name:mrp.mrp_mo_in_progress
 msgid "MO Progress"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Produktionsordre under behandling"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__reservation_state
 msgid "MO Readiness"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Forberedelsesstatus for produktionsordre"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_filter
 msgid "MO Ready"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Produktionsordre klar"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:mail.message.subtype,description:mrp.mrp_mo_in_to_close
 #: model:mail.message.subtype,name:mrp.mrp_mo_in_to_close
 msgid "MO To Close"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Produktionsordre klar til afslutning"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_product_document__attached_on_mrp
 msgid "MRP : Visible at"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "MRP: synlig ved"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.actions.client,name:mrp.mrp_reception_action
 msgid "MRP Reception Report"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "MRP-modtagelsesrapport"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_res_config_settings__group_mrp_routings
@@ -11492,7 +12380,11 @@ msgstr "Administrer arbejdsordre operationer"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_stock_move__manual_consumption
 msgid "Manual Consumption"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Manuelt forbrug"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_routing_workcenter__time_cycle_manual
@@ -11502,7 +12394,11 @@ msgstr "Manuel varighed"
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_bom_form_view
 msgid "Manuf. Lead Time"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gennemløbstid for produktion"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-javascript
@@ -11583,7 +12479,11 @@ msgstr "Produktion"
 #. odoo-javascript
 #: code:addons/mrp/static/src/mrp_forecasted/forecasted_buttons.xml:0
 msgid "Manufacturing Forecast"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Produktionsprognose"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-python
@@ -11651,11 +12551,16 @@ msgstr "Produktionsreference"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_stock_warehouse_orderpoint__manufacturing_visibility_days
 msgid "Manufacturing Visibility Days"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Produktionens synlighedsdage"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.actions.act_window,help:mrp.mrp_workcenter_action
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11689,6 +12594,8 @@ msgstr ""
 "Produktions operationer behandles på Arbejdscentre. Et Arbejdscentre består af\n"
 "               arbejdere og/eller maskiner, og bruges til omkostninger, planlægning, kapacitet planlægning, osv."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11776,6 +12683,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11860,6 +12770,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Manufacturing operations are processed at Work Centers. A Work Center can be composed of\n"
 "                workers and/or machines, they are used for costing, scheduling, capacity planning, etc.\n"
 "                They can be defined via the configuration menu."
@@ -11867,6 +12778,8 @@ msgstr ""
 "Produktions operationer behandles på Arbejdscentre. Et Arbejdscentre estår af\n"
 "arbejdere og/eller maskiner, og bruges til omkostninger, planlægning, kapacitet planlægning, osv.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11955,6 +12868,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12016,6 +12932,7 @@ msgstr ""
 msgid ""
 "Manufacturing readiness for this MO, as per bill of material configuration:\n"
 "            * Ready: The material is available to start the production.\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12153,13 +13070,28 @@ msgid ""
 "production.\n"
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+"            * Waiting: The material is not available to start the "
+"production.\n"
+msgstr ""
+"Angiver, hvor klar denne produktionsordre er i henhold til "
+"styklistekonfigurationen:\n"
+"            * Klar: Materialet er tilgængeligt, og produktionen kan "
+"påbegyndes.\n"
+"            * Afventer: Materialet er ikke tilgængelig, og produktionen kan "
+"ikke påbegyndes.\n"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.actions.act_window,name:mrp.action_picking_tree_mrp_operation
 #: model:ir.actions.act_window,name:mrp.action_picking_tree_mrp_operation_graph
 #: model:ir.ui.menu,name:mrp.mrp_operation_picking
 msgid "Manufacturings"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Produktioner"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.report_mrp_workorder
@@ -12174,7 +13106,11 @@ msgstr "Markér som udført"
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_batch_produce_form
 msgid "Mass Produce"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Masseproduktion"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_res_config_settings__module_mrp_mps
@@ -12249,7 +13185,11 @@ msgstr "MRP Forbrug Advarsel Linje"
 #. module: mrp
 #: model:ir.actions.client,name:mrp.action_mrp_display
 msgid "Mrp Display"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "MRP-visning"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_consumption_warning__mrp_production_ids
@@ -12273,12 +13213,20 @@ msgstr "Deadline på mine aktiviteter "
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_filter
 msgid "My MOs"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mine produktionsordrer"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__never_product_template_attribute_value_ids
 msgid "Never attribute values"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tildel aldrig værdier"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-python
@@ -12292,7 +13240,11 @@ msgstr "Ny"
 #. odoo-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "New BoM from %(mo_name)s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ny stykliste fra %(mo_name)s"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_tree_view
@@ -12360,7 +13312,10 @@ msgstr "Ingen restordre"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12445,6 +13400,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12571,12 +13529,20 @@ msgstr "Utilgængelig"
 #. odoo-python
 #: code:addons/mrp/report/mrp_report_mo_overview.py:0
 msgid "Not Ready"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ikke klar"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
 msgid "Note that another version of this BOM is available."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bemærk, at en anden version af denne stykliste er tilgængelig."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-python
@@ -12586,6 +13552,7 @@ msgid ""
 "of Materials, which means that operations can still be planned on it/them. "
 "To prevent this, deletion of the work center is recommended instead."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12751,6 +13718,11 @@ msgstr ""
 "Stykliste, hvilket betyder at operationer stadig kan planlægges for dem. For "
 "at undgå dette, foreslås det i stedet at slette arbejdscentrene."
 >>>>>>> upstream/18.0
+=======
+"Bemærk at de arkiverede arbejdscentre: '%s' stadig er forbundet til en aktiv "
+"Stykliste, hvilket betyder at operationer stadig kan planlægges for dem. For "
+"at undgå dette, foreslås det i stedet at slette arbejdscentrene."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-python
@@ -12759,6 +13731,11 @@ msgid ""
 "Note that product(s): '%s' is/are still linked to active Bill of Materials, "
 "which means that the product can still be used on it/them."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Bemærk, at produktet/produkterne '%s' stadig er tilknyttet aktive "
+"styklister, hvilket betyder, at de stadig kan bruges i disse."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_bom__message_needaction_counter
@@ -12772,7 +13749,11 @@ msgstr "Antal handlinger"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_stock_picking_type__count_mo_in_progress
 msgid "Number of Manufacturing Orders In Progress"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Antal produktionsordrer under behandling"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_stock_picking_type__count_mo_late
@@ -12782,7 +13763,11 @@ msgstr "Antal af forsinkede produktionsordre"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_stock_picking_type__count_mo_to_close
 msgid "Number of Manufacturing Orders To Close"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Antal produktionsordrer, der kan afsluttes"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_stock_picking_type__count_mo_waiting
@@ -12802,7 +13787,11 @@ msgstr "Nummer SN"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__unbuild_count
 msgid "Number of Unbuilds"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Antal demonteringer"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_bom__message_has_error_counter
@@ -12887,9 +13876,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                install the IoT App on a computer that is on the same local network as the\n"
 "                                barcode operator and configure the routing of the reports."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12972,6 +13964,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13026,6 +14019,15 @@ msgid ""
 =======
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+msgstr ""
+"Odoo åbner som standard en forhåndsvisning af PDF-filen. Hvis du ønsker at "
+"udskrive med det samme,\n"
+"                                skal du installere IoT-appen på en computer, "
+"der er på samme lokale netværk som\n"
+"                                stregkodeoperatøren, og konfigurere "
+"rapporternes ruter."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter__oee
@@ -13043,12 +14045,21 @@ msgstr "På lager"
 msgid ""
 "Only manufacturing orders in either a draft or confirmed state can be %s."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Kun produktionsordrer, der enten er udskrevet eller har status 'bekræftet', "
+"kan være %s."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "Only manufacturing orders with a Bill of Materials can be %s."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kun produktionsordrer med en stykliste kan være %s."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.stock_production_type_kanban
@@ -13073,7 +14084,11 @@ msgstr "Handling"
 #: model:ir.model.fields,field_description:mrp.field_mrp_bom__allow_operation_dependencies
 #: model:ir.model.fields,field_description:mrp.field_mrp_routing_workcenter__allow_operation_dependencies
 msgid "Operation Dependencies"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Driftsafhængigheder"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_stock_move__operation_id
@@ -13117,11 +14132,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                Each operation is done at a specific Work Center and has a specific duration."
 msgstr ""
 "Operation der definere hvad der skal gøres for at realisere et Arbejdscenter.\n"
 "                Hver operation udføres på et specifikt Arbejdscenter, og har en specifik varighed."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13207,6 +14225,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13307,17 +14328,29 @@ msgstr "Planlagte operationer"
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_routing_workcenter_filter
 msgid "Operations Search Filters"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Søgefiltre for operationer"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_routing_workcenter__needed_by_operation_ids
 msgid "Operations that cannot start before this operation is completed."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Operationer, der ikke kan påbegyndes, inden denne proces er afsluttet."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_routing_workcenter__blocked_by_operation_ids
 msgid "Operations that need to be completed before this operation can start."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Operationer, der skal afsluttes, inden denne proces kan påbegyndes."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__orderpoint_id
@@ -13337,7 +14370,11 @@ msgstr "Oprindelig produktions kvantitet"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__is_outdated_bom
 msgid "Outdated BoM"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Forældet stykliste"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_workcenter__oee_target
@@ -13374,7 +14411,11 @@ msgstr "PDF"
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.report_mrporder
 msgid "Package barcode"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pakkens stregkode"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_bom_line__bom_id
@@ -13425,8 +14466,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Indsæt URL'en til din Google Slide. Tjek at adgang til dokumentet er angivet"
 " til offentlig."
+=======
+"Indsæt URL'en til din Google Slide. Tjek at adgang til dokumentet er angivet "
+"til offentlig."
+>>>>>>> upstream/18.0
 =======
 "Indsæt URL'en til din Google Slide. Tjek at adgang til dokumentet er angivet "
 "til offentlig."
@@ -13580,7 +14626,11 @@ msgstr "Vælg komponenter og producér"
 #. module: mrp
 #: model:ir.model.fields.selection,name:mrp.selection__stock_warehouse__manufacture_steps__pbm
 msgid "Pick components then manufacture (2 steps)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vælg komponenter, og producér derefter (2 trin)"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-python
@@ -13591,7 +14641,11 @@ msgstr "Vælg komponenter, producér, og opbevar produkter (3 trin)"
 #. module: mrp
 #: model:ir.model.fields.selection,name:mrp.selection__stock_warehouse__manufacture_steps__pbm_sam
 msgid "Pick components, manufacture, then store products (3 steps)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vælg komponenter, producér, og opbevar derefter produkter (3 trin)"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_stock_warehouse__pbm_mto_pull_id
@@ -13626,7 +14680,11 @@ msgstr "Pluk før produktions sted"
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.report_mrp_production_components
 msgid "Pieces"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stykker"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
@@ -13642,7 +14700,11 @@ msgstr "Planlæg ordrer"
 #. module: mrp
 #: model:ir.actions.server,name:mrp.action_plan_with_components_availability
 msgid "Plan based on Components Availability"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Produktion planlægges ud fra tilgængelige komponenter"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.res_config_settings_view_form
@@ -13682,31 +14744,52 @@ msgstr "Angiv venligst et positivt antal."
 #. odoo-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "Please set the first Serial Number or a default sequence"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Angiv venligst det første serienummer eller en standardrækkefølge"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-python
 #: code:addons/mrp/wizard/mrp_batch_produce.py:0
 msgid "Please specify the first serial number you would like to use."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Angiv venligst det første serienummer, som du ønsker at bruge."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-python
 #: code:addons/mrp/wizard/mrp_batch_produce.py:0
 msgid "Please specify the serial number you would like to use."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Angiv venligst det serienummer, som du ønsker at bruge."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-python
 #: code:addons/mrp/models/mrp_workorder.py:0
 msgid "Please unblock the work center to start the work order."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Fjern venligst blokeringen af arbejdscentret for at kunne påbegynde "
+"arbejdsordren."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-python
 #: code:addons/mrp/models/mrp_workorder.py:0
 msgid "Please unblock the work center to validate the work order"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Fjern venligst blokeringen af arbejdscentret for at godkende arbejdsordren"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:product.template,name:mrp.product_product_wood_ply_product_template
@@ -13729,7 +14812,11 @@ msgstr "Popover Data JSON"
 #: model:ir.model.fields,field_description:mrp.field_mrp_bom_line__possible_bom_product_template_attribute_value_ids
 #: model:ir.model.fields,field_description:mrp.field_mrp_routing_workcenter__possible_bom_product_template_attribute_value_ids
 msgid "Possible Product Template Attribute Value"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mulig attributværdi for produktskabelonen"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-python
@@ -13746,7 +14833,11 @@ msgstr "Før-produktion"
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_batch_produce_form
 msgid "Prepare MO"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Forbered produktionsordre"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-javascript
@@ -13775,17 +14866,29 @@ msgstr ""
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.view_picking_type_form_inherit_mrp
 msgid "Print labels as:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Udskriv etiketter som:"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.view_picking_type_form_inherit_mrp
 msgid "Print when \"Create new Lot/SN\""
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Udskriv, når \"opret nye partier/serier\""
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.view_picking_type_form_inherit_mrp
 msgid "Print when done"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Udskriv, når fuldført"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__priority
@@ -13795,12 +14898,20 @@ msgstr "Prioritet"
 #. module: mrp
 #: model:mrp.workcenter.productivity.loss,name:mrp.block_reason5
 msgid "Process Defect"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Operationsfejl"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.res_config_settings_view_form
 msgid "Process manufacturing orders from the barcode application"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Behandl produktionsordrer direkte fra stregkodeappen"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.res_config_settings_view_form
@@ -13833,12 +14944,20 @@ msgstr "Fremstil"
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
 msgid "Produce All"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Producér alle"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model,name:mrp.model_mrp_batch_produce
 msgid "Produce a batch of production order"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Producér en produktionsordrebatch"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:res.groups,name:mrp.group_mrp_byproducts
@@ -13848,7 +14967,11 @@ msgstr "Producer restprodukter"
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.res_config_settings_view_form
 msgid "Produce residual products (A + B -> C + D)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Producér biprodukter (A + B -> C + D)"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
@@ -13892,17 +15015,29 @@ msgstr "Produkt vedhæftelser"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter__capacity_ids
 msgid "Product Capacities"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Produktkapaciteter"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_product_product__product_catalog_product_is_in_bom
 msgid "Product Catalog Product Is In Bom"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Produktkatalogets produkt er i stykliste"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_product_product__product_catalog_product_is_in_mo
 msgid "Product Catalog Product Is In Mo"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Produktkatalogets produkt er i produktionsordre"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-javascript
@@ -13919,17 +15054,29 @@ msgstr "Produktdokument"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_stock_move__product_virtual_available
 msgid "Product Forecasted Quantity"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Forventede produktmængde"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_stock_picking_type__mrp_product_label_to_print
 msgid "Product Label to Print"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Produktetiket til udskrivning"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.view_picking_type_form_inherit_mrp
 msgid "Product Labels"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Produktetiketter"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_res_config_settings__module_mrp_plm
@@ -13944,7 +15091,11 @@ msgstr "Produkt bevægelser (Lagerbevægelse linje)"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_stock_move__product_qty_available
 msgid "Product On Hand Quantity"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Antal produkter på lager"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.view_production_graph
@@ -14017,7 +15168,11 @@ msgid "Product Replenish Mixin"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mixin til produktgenopfyldning"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mixin til produktgenopfyldning"
 >>>>>>> upstream/18.0
@@ -14232,7 +15387,11 @@ msgstr ""
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
 msgid "Product to build..."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Produkt, der skal fremstilles ..."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_batch_produce__production_id
@@ -14245,7 +15404,11 @@ msgstr "Produktion"
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__production_capacity
 #: model:ir.model.fields,field_description:mrp.field_mrp_production_split__production_capacity
 msgid "Production Capacity"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Produktionskapacitet"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_workorder__production_date
@@ -14303,7 +15466,11 @@ msgstr "Produktion er startet for sent"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production_split_multi__production_ids
 msgid "Productions To Split"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Produktionsordrer til opdeling"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields.selection,name:mrp.selection__mrp_workcenter_productivity_loss_type__loss_type__productive
@@ -14361,7 +15528,11 @@ msgstr "Kvalitet tab"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_res_config_settings__module_quality_control_worksheet
 msgid "Quality Worksheet"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Arbejdsseddel til kvalitetskontrol"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_stock_warn_insufficient_qty_unbuild__quant_ids
@@ -14429,6 +15600,10 @@ msgstr "Mængde som skal fremstilles"
 #: model:ir.model.fields,help:mrp.field_mrp_production_split__production_capacity
 msgid "Quantity that can be produced with the current stock of components"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Mængde, der kan produceres med den aktuelle lagerbeholdning af komponenter"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model,name:mrp.model_stock_quant
@@ -14476,13 +15651,21 @@ msgstr ""
 #: code:addons/mrp/static/src/components/mo_overview/mrp_mo_overview.xml:0
 #: model_terms:ir.ui.view,arch_db:mrp.mo_overview_content
 msgid "Real Cost"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Reelle omkostninger"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-javascript
 #: code:addons/mrp/static/src/components/mo_overview_display_filter/mrp_mo_overview_display_filter.js:0
 msgid "Real Costs"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Reelle omkostninger"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__duration
@@ -14507,17 +15690,29 @@ msgstr "Varemodtagelse"
 #. odoo-javascript
 #: code:addons/mrp/static/src/components/bom_overview_table/mrp_bom_overview_table.xml:0
 msgid "Reception time estimation."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Forventet modtagelsestidspunkt."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:mrp.workcenter.productivity.loss,name:mrp.block_reason4
 msgid "Reduced Speed"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Reduceret hastighed"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:mrp.workcenter.productivity.loss,name:mrp.block_reason6
 msgid "Reduced Yield"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Reduceret fortjeneste"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_bom__code
@@ -14560,8 +15755,12 @@ msgstr "Referencen skal være unik pr. firma!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Reference of the document that generated this production order request."
+=======
+msgid "Reference of the document that generated this production order request."
+>>>>>>> upstream/18.0
 =======
 msgid "Reference of the document that generated this production order request."
 >>>>>>> upstream/18.0
@@ -14680,7 +15879,11 @@ msgstr "Genopfyld på ordre (MTO)"
 #. odoo-javascript
 #: code:addons/mrp/static/src/components/mo_overview_display_filter/mrp_mo_overview_display_filter.js:0
 msgid "Replenishments"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Genopfyldninger"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.ui.menu,name:mrp.menu_mrp_reporting
@@ -14717,7 +15920,11 @@ msgstr "Ansvarlig bruger"
 #. odoo-javascript
 #: code:addons/mrp/static/src/components/bom_overview_table/mrp_bom_overview_table.xml:0
 msgid "Resupply lead time."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gennemløbstid for genopfyldning."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-javascript
@@ -14777,6 +15984,7 @@ msgstr ""
 msgid ""
 "Scheduled before the previous work order, planned from %(start)s to %(end)s"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14914,6 +16122,10 @@ msgstr ""
 "Planlagt til før den foregående arbejdsordre, planlagt fra %(start)s til %"
 "(end)s"
 >>>>>>> upstream/18.0
+=======
+"Planlagt til før den foregående arbejdsordre, planlagt fra %(start)s til %"
+"(end)s"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-javascript
@@ -14940,7 +16152,11 @@ msgstr "Skrotflytning"
 #: code:addons/mrp/models/mrp_production.py:0
 #: code:addons/mrp/models/mrp_workorder.py:0
 msgid "Scrap Products"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fjern produkter"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__scrap_ids
@@ -14992,7 +16208,11 @@ msgstr "Sikkerhedsdage for hver produktionsoperation"
 #. odoo-python
 #: code:addons/mrp/models/mrp_routing.py:0
 msgid "Select Operations to Copy"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vælg operationer til kopiering"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-python
@@ -15014,12 +16234,20 @@ msgstr "Sekvens"
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_consumption_warning_form
 msgid "Set Quantities & Validate"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Forbrug planlagt og valideret"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.view_change_production_qty_wizard
 msgid "Set Quantity"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Angiv mængde"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields.selection,name:mrp.selection__mrp_routing_workcenter__time_mode__manual
@@ -15032,6 +16260,12 @@ msgid ""
 "Set the order that work orders should be processed in. Activate the feature "
 "within each BoM's Miscellaneous tab"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Angiv den rækkefølge, som arbejdsordrer skal behandles i. Aktivér "
+"funktionerne i hver styklistefane for forskellige operationer eller "
+"processer."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.actions.act_window,name:mrp.action_mrp_configuration
@@ -15043,22 +16277,38 @@ msgstr "Opsætning"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter__time_start
 msgid "Setup Time"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Konfigurationstid"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter_capacity__time_start
 msgid "Setup Time (minutes)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Konfigurationstid (minutter)"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:mrp.workcenter.productivity.loss,name:mrp.block_reason2
 msgid "Setup and Adjustments"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Konfiguration og tilpasninger"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__show_allocation
 msgid "Show Allocation"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vis tildeling"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_stock_warehouse_orderpoint__show_bom
@@ -15069,7 +16319,11 @@ msgstr "Vis Stykliste kolonne"
 #: model:ir.model.fields,field_description:mrp.field_product_replenish__show_bom
 #: model:ir.model.fields,field_description:mrp.field_stock_replenish_mixin__show_bom
 msgid "Show Bom"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vis stykliste"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__show_final_lots
@@ -15089,12 +16343,20 @@ msgstr "Vis Popover?"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__show_produce
 msgid "Show Produce"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vis \"Producér\""
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__show_produce_all
 msgid "Show Produce All"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vis \"Producér alle\""
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_unbuild_search_view
@@ -15146,6 +16408,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15285,11 +16548,24 @@ msgid ""
 "\n"
 "It’d be a shame to waste all that progress, right?"
 msgstr ""
+=======
+"Some work orders are already done, so you cannot unplan this manufacturing "
+"order.\n"
+"\n"
+"It’d be a shame to waste all that progress, right?"
+msgstr ""
+"Nogle arbejdsordrer er allerede afsluttet, så produktionsordren kan ikke "
+"annulleres.\n"
+"\n"
+"Det ville spilde det arbejde, der allerede er udført. Og det ville da være "
+"en skam, ikke?"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15429,6 +16705,18 @@ msgid ""
 "\n"
 "It’d be a shame to waste all that progress, right?"
 msgstr ""
+=======
+"Some work orders have already started, so you cannot unplan this "
+"manufacturing order.\n"
+"\n"
+"It’d be a shame to waste all that progress, right?"
+msgstr ""
+"Nogle arbejdsordrer er allerede påbegyndt, så produktionsordren kan ikke "
+"annulleres.\n"
+"\n"
+"Det ville spilde det arbejde, der allerede er udført. Og det ville da være "
+"en skam, ikke?"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__origin
@@ -15447,6 +16735,7 @@ msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_workcenter__capacity_ids
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15558,6 +16847,12 @@ msgid "Specific number of pieces that can be produced in parallel per product."
 msgid "Specific number of pieces that can be produced in parallel per product."
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+msgid "Specific number of pieces that can be produced in parallel per product."
+msgstr ""
+"Angiver det specifikke antal enheder, der kan produceres samtidig for hvert "
+"produkt."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.actions.server,name:mrp.action_production_order_split
@@ -15573,35 +16868,59 @@ msgstr ""
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production_split__production_detailed_vals_ids
 msgid "Split Details"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Opdel oplysninger"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production_split_line__mrp_production_split_id
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_split_form
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_split_multi_form
 msgid "Split Production"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Opdel produktionen"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model,name:mrp.model_mrp_production_split_line
 msgid "Split Production Detail"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Opdel produktionsoplysninger"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production_split__production_split_multi_id
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_split_multi_form
 msgid "Split Productions"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Opdel produktioner"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.actions.act_window,name:mrp.action_mrp_production_split
 msgid "Split production"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Opdel produktion"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.actions.act_window,name:mrp.action_mrp_production_split_multi
 msgid "Split productions"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Opdel produktioner"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:product.template,description:mrp.product_product_computer_desk_screw_product_template
@@ -15699,7 +17018,11 @@ msgstr "Lagerflytning"
 #. module: mrp
 #: model:ir.model,name:mrp.model_report_stock_report_reception
 msgid "Stock Reception Report"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Rapport om modtagelse af lagerbeholdning"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model,name:mrp.model_stock_forecasted_product_product
@@ -15778,21 +17101,37 @@ msgid ""
 "Technical Field used to decide whether the button \"Allocation\" should be "
 "displayed."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Teknisk felt tbruges til at afgøre, om knappen \"Tildeling\" skal vises."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_workcenter__has_routing_lines
 msgid "Technical field for workcenter views"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Teknisk felt til arbejdscentervisninger"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_production__show_produce_all
 msgid "Technical field to check if produce all button can be shown"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Teknisk felt til at kontrollere, om knappen \"Producér alle\" kan vises"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_production__show_produce
 msgid "Technical field to check if produce button can be shown"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Teknisk felt til at kontrollere, om knappen \"Producér\" kan vises"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_production__reserve_visible
@@ -15812,7 +17151,11 @@ msgstr "Tekst"
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_production__is_outdated_bom
 msgid "The BoM has been updated since creation of the MO"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Styklisten er blevet opdateret siden oprettelsen af produktionsordren"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-python
@@ -15826,7 +17169,11 @@ msgstr "Enheden du vælger har en anden kategori end i vare skærmbilledet."
 #. odoo-python
 #: code:addons/mrp/models/mrp_workcenter.py:0
 msgid "The Workorder (%s) cannot be started twice!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Arbejdsordren (%s) kan ikke påbegyndes to gange!"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-python
@@ -15849,6 +17196,10 @@ msgstr "Kapaciteten skal være større end 0."
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "The component %s should not be the same as the product to produce."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Komponenten %s bør ikke være det samme som det produkt, der skal produceres."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-python
@@ -15857,12 +17208,21 @@ msgid ""
 "The current configuration is incorrect because it would create a cycle "
 "between these products: %s."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Den aktuelle opsætning er ugyldig, da den vil skabe en cirkulær afhængighed "
+"mellem disse produkter: %s."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields.selection,name:mrp.selection__mrp_production__search_date_category__day_2
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_filter
 msgid "The day after tomorrow"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Overmorgen"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-python
@@ -15891,6 +17251,12 @@ msgid ""
 "(divided between the quantity produced).The total of all by-products' cost "
 "share must be less than or equal to 100."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Den procentvise andel af de samlede produktionsomkostninger, der tilskrives "
+"denne biproduktlinje (divideret med produceret mængde). Summen af andelene "
+"for alle biprodukter må ikke overstige 100 %."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_stock_move__cost_share
@@ -15898,6 +17264,12 @@ msgid ""
 "The percentage of the final production cost for this by-product. The total "
 "of all by-products' cost share must be smaller or equal to 100."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Den procentvise andel af de samlede produktionsomkostninger, der tilskrives "
+"dette biprodukt. Summen af andelene for alle biprodukter må ikke overstige "
+"100 %."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-python
@@ -15917,12 +17289,23 @@ msgid ""
 "lead to undesirable behaviours. You should rather archive the product and "
 "create a new one with a new bill of materials."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Produktet er allerede blevet anvendt mindst én gang. Ændring af dets "
+"struktur kan føre til uønsket adfærd. Arkivér i stedet produktet, og opret "
+"et nyt med en ny stykliste."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_workorder__qty_reported_from_previous_wo
 msgid ""
 "The quantity already produced awaiting allocation in the backorders chain."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Den allerede producerede mængde, som venter på at blive tildelt i køen af "
+"restordrer."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.constraint,message:mrp.constraint_mrp_bom_qty_positive
@@ -15933,12 +17316,17 @@ msgstr "Mængde, som skal fremstilles, skal være positiv"
 #. module: mrp
 #: model:ir.model.constraint,message:mrp.constraint_mrp_unbuild_qty_positive
 msgid "The quantity to unbuild must be positive!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mængden til demontering skal være positiv!"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16076,6 +17464,10 @@ msgid ""
 "The serial number %(number)s used for byproduct %(product_name)s has already "
 "been produced"
 >>>>>>> upstream/18.0
+=======
+"The serial number %(number)s used for byproduct %(product_name)s has already "
+"been produced"
+>>>>>>> upstream/18.0
 msgstr ""
 "Serienummeret %(number)s anvendt for biprodukt %(product_name)s er allerede "
 "blevet produceret"
@@ -16093,13 +17485,22 @@ msgstr ""
 #. module: mrp
 #: model:ir.model.constraint,message:mrp.constraint_mrp_workcenter_tag_tag_name_unique
 msgid "The tag name must be unique."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tag-navnet skal være unikt."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-python
 #: code:addons/mrp/models/mrp_bom.py:0
 msgid "The total cost share for a BoM's by-products cannot exceed 100."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Den samlede procentvise andel af produktionsomkostningerne for alle "
+"biprodukter i en stykliste må ikke overstige 100 %."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-python
@@ -16108,11 +17509,21 @@ msgid ""
 "The total cost share for a manufacturing order's by-products cannot exceed "
 "100."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Den samlede procentvise andel af produktionsomkostningerne for alle "
+"biprodukter må ikke overstige 100 %."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_split_form
 msgid "The total should be equal to the quantity to produce."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Summen af biprodukternes mængder skal svare til den samlede mængde, der skal "
+"produceres."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-python
@@ -16125,13 +17536,22 @@ msgstr "Arbejdsorden bør allerede være blevet behandlet."
 msgid ""
 "There are no components to consume. Are you still sure you want to continue?"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Der er ingen komponenter til rådighed for forbrug. Er du sikker på, at du "
+"vil fortsætte?"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-python
 #: code:addons/mrp/models/mrp_workorder.py:0
 #: code:addons/mrp/report/mrp_report_bom_structure.py:0
 msgid "There is no defined calendar on workcenter %s."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Der er ikke angivet nogen kalender for dette arbejdscenter %s."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.actions.act_window,help:mrp.action_mrp_unbuild_moves
@@ -16162,6 +17582,7 @@ msgid ""
 "the efficiency factor is 200%, however the expected duration will be 30 "
 "minutes."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16247,6 +17668,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Dette felt bruges til at udregne den forventede varighed for en arbejdsordre "
 "ved dette arbejdscentre. For eksempel, hvis en arbejdsordre tager en time, "
 "og effektivitetsfaktoren er 100%, vil den forventede varighed være en time. "
@@ -16278,6 +17701,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16372,8 +17798,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Dette er omkostningerne baseret på styklisten for produktet. Den er udregnet"
 " ved at sammenlægge omkostningerne for komponenter og operationer, der skal "
+=======
+"Dette er omkostningerne baseret på styklisten for produktet. Den er udregnet "
+"ved at sammenlægge omkostningerne for komponenter og operationer, der skal "
+>>>>>>> upstream/18.0
 =======
 "Dette er omkostningerne baseret på styklisten for produktet. Den er udregnet "
 "ved at sammenlægge omkostningerne for komponenter og operationer, der skal "
@@ -16520,12 +17951,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This menu gives you the full traceability of inventory operations on a specific product.\n"
 "                You can filter on the product to see all the past movements for the product."
 msgstr ""
 "Denne menu giver dig fuld sporbarhed over lager operationer for et specifikt produkt.\n"
 "                 Du kan filtrere ud fra produktet, og se alle tidligere bevægelser for det produkt."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -16613,6 +18047,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16671,13 +18108,21 @@ msgstr ""
 #. odoo-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "This production has been merge in %s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Denne produktioner er blevet slået sammen i %s"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "This production order has been created from Replenishment Report."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Denne produktionsordre er blevet oprettet ud fra genopfyldningsrapport."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-python
@@ -16692,6 +18137,12 @@ msgid ""
 "If the BOM contains operations, make sure the work center capacity is "
 "accurate."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Dette er den mindste mængde, produktet kan produceres i. Hvis der indgår "
+"processer i styklisten, skal du sørge for, at arbejdscentrets kapacitet er "
+"korrekt afstemt."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_workorder__time_ids
@@ -16786,7 +18237,11 @@ msgstr "At påbegynde"
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.stock_production_type_kanban
 msgid "To Manufacture"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Skal fremstilles"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-python
@@ -16828,21 +18283,33 @@ msgstr "Øverste lag af et træpanel."
 #: code:addons/mrp/static/src/components/mo_overview/mrp_mo_overview.xml:0
 #: model_terms:ir.ui.view,arch_db:mrp.mo_overview_content
 msgid "Total Cost of Components"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Samlede komponentomkostninger"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-javascript
 #: code:addons/mrp/static/src/components/mo_overview/mrp_mo_overview.xml:0
 #: model_terms:ir.ui.view,arch_db:mrp.mo_overview_content
 msgid "Total Cost of Operations"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Samlede driftsomkostninger"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-javascript
 #: code:addons/mrp/static/src/components/mo_overview/mrp_mo_overview.xml:0
 #: model_terms:ir.ui.view,arch_db:mrp.mo_overview_content
 msgid "Total Cost of Production"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Samlede produktionsomkostninger"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_routing_workcenter_bom_tree_view
@@ -16882,22 +18349,38 @@ msgstr "Samlet antal At Forbruge"
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_tree_view
 msgid "Total expected duration"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Forventede samlede varighed"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_production__duration_expected
 msgid "Total expected duration (in minutes)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Forventede samlede varighed (i minutter)"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_tree_view
 msgid "Total real duration"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Faktiske samlede varighed"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_production__duration
 msgid "Total real duration (in minutes)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Faktiske samlede varighed (i minutter)"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
@@ -16945,6 +18428,10 @@ msgstr "Type af undtagelsesaktivitet registreret "
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "Unable to split with more than the quantity to produce."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Det er ikke muligt at opdele med mere end den mængde, der skal produceres."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-javascript
@@ -16983,12 +18470,20 @@ msgstr "Tilbagefør Produktion: %s"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__unbuild_ids
 msgid "Unbuilds"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Demonteringer"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_filter
 msgid "Unbuilt"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Demonteret"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-javascript
@@ -17014,7 +18509,11 @@ msgstr "Enhedsomkostning"
 #. odoo-javascript
 #: code:addons/mrp/static/src/components/mo_overview_display_filter/mrp_mo_overview_display_filter.js:0
 msgid "Unit Costs"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Enhedsomkostninger"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_stock_move__unit_factor
@@ -17052,12 +18551,20 @@ msgstr "Enheder"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_res_config_settings__group_unlocked_by_default
 msgid "Unlock Manufacturing Orders"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Lås produktionsordrene op"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:res.groups,name:mrp.group_unlocked_by_default
 msgid "Unlocked by default"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Som standard låst op"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
@@ -17096,16 +18603,29 @@ msgid ""
 "Use Manufacturing Orders (MO) to build finished products while consuming "
 "components: i.e. 1 Table = 4 Table Legs + 1 Table Top"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Brug produktionsordrer til at fremstille færdige produkter ud fra "
+"komponenter, f.eks.: 1 bord = 4 bordben + 1 bordplade"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:res.groups,name:mrp.group_mrp_workorder_dependencies
 msgid "Use Operation Dependencies"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Brug operationelle afhængigheder"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:res.groups,name:mrp.group_mrp_reception_report
 msgid "Use Reception Report with Manufacturing Orders"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Brug modtagelsesrapporten sammen med produktionsordrer"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.product_product_form_view_bom_button
@@ -17151,6 +18671,7 @@ msgstr "Validér"
 #: code:addons/mrp/wizard/mrp_consumption_warning.py:0
 msgid ""
 "Values cannot be set and validated because a Lot/Serial Number needs to be "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17289,6 +18810,14 @@ msgid ""
 "%(products)s"
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+"specified for a tracked product that is having its consumed amount increased:"
+"%(products)s"
+msgstr ""
+"Værdierne kan ikke fastlægges eller valideres, fordi der skal angives et "
+"parti-/serienummer for et sporet produkt, når den forbrugte mængde øges: "
+"%(products)s"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-javascript
@@ -17299,12 +18828,20 @@ msgstr "Variant"
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.report_mrporder
 msgid "Vendor ABC"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Leverandør ABC"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_workorder_form_view_inherit
 msgid "View WorkOrder"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Se arbejdsordre"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.res_config_settings_view_form
@@ -17312,11 +18849,19 @@ msgid ""
 "View and allocate production quantities to customer orders or other "
 "manufacturing orders"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Se og tildel produktionsmængder til kundeordrer eller andre produktionsordrer"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_stock_warehouse_orderpoint__manufacturing_visibility_days
 msgid "Visibility Days applied on the manufacturing routes."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Synlighedsdage, som gælder for produktionsruterne."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields.selection,name:mrp.selection__mrp_production__reservation_state__confirmed
@@ -17377,8 +18922,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Planlagt til før den foregående arbejdsordre, planlagt fra %(start)s til "
 "%(end)s"
+=======
+"Planlagt til før den foregående arbejdsordre, planlagt fra %(start)s til %"
+"(end)s"
+>>>>>>> upstream/18.0
 =======
 "Planlagt til før den foregående arbejdsordre, planlagt fra %(start)s til %"
 "(end)s"
@@ -17568,6 +19118,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "try to create a Manufacturing Order for that product using a BoM of the same"
 " operation type. That allows to define stock rules which trigger different "
 "manufacturing orders with different BoMs."
@@ -17578,6 +19129,8 @@ msgstr ""
 " regler, hvilket udløser forskellige produktionsordre med forskellige "
 "styklister."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -17664,6 +19217,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17749,9 +19305,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "When activated, then the registration of consumption for that component is recorded manually exclusively.\n"
 "If not activated, and any of the components consumption is edited manually on the manufacturing order, Odoo assumes manual consumption also."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -17834,6 +19393,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17888,6 +19448,14 @@ msgid ""
 =======
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+msgstr ""
+"Hvis denne indstilling er aktiveret, registreres forbruget af denne "
+"komponent kun manuelt.\n"
+"Hvis indstillingen ikke er aktiveret, og forbruget af en af komponenterne "
+"behandles manuelt på produktionsordren, accepterer Odoo også det manuelle "
+"forbrug."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields.selection,name:mrp.selection__mrp_bom__ready_to_produce__asap
@@ -17947,8 +19515,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Kvalitetstest er perfekt integreret ind i processen. Medarbejdere kan udløse"
 " tilbagemeldings løkker, vedligeholdelses alarmeringer, skrotte produkter, "
+=======
+"Kvalitetstest er perfekt integreret ind i processen. Medarbejdere kan udløse "
+"tilbagemeldings løkker, vedligeholdelses alarmeringer, skrotte produkter, "
+>>>>>>> upstream/18.0
 =======
 "Kvalitetstest er perfekt integreret ind i processen. Medarbejdere kan udløse "
 "tilbagemeldings løkker, vedligeholdelses alarmeringer, skrotte produkter, "
@@ -18092,8 +19665,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Guide i tilfælde af forbrug i advarsel/streng og flere komponenter er blevet"
 " brugt til en PO (relateret til styklisten)"
+=======
+"Guide i tilfælde af forbrug i advarsel/streng og flere komponenter er blevet "
+"brugt til en PO (relateret til styklisten)"
+>>>>>>> upstream/18.0
 =======
 "Guide i tilfælde af forbrug i advarsel/streng og flere komponenter er blevet "
 "brugt til en PO (relateret til styklisten)"
@@ -18206,12 +19784,20 @@ msgstr ""
 #. module: mrp
 #: model:ir.model,name:mrp.model_mrp_production_split_multi
 msgid "Wizard to Split Multiple Productions"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Assistent til opdeling af flere produktioner"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model,name:mrp.model_mrp_production_split
 msgid "Wizard to Split a Production"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Assistent til opdeling af produktion"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model,name:mrp.model_mrp_production_backorder
@@ -18241,7 +19827,11 @@ msgstr "Arbejdscenter"
 #. module: mrp
 #: model:ir.model,name:mrp.model_mrp_workcenter_capacity
 msgid "Work Center Capacity"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Arbejdscentrets kapacitet"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter__workcenter_load
@@ -18300,7 +19890,11 @@ msgstr "Produktionsordre"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_res_config_settings__group_mrp_workorder_dependencies
 msgid "Work Order Dependencies"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Arbejdsordreafhængigheder"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.res_config_settings_view_form
@@ -18355,12 +19949,17 @@ msgstr "Arbejdsseddel"
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_work_order_search
 msgid "Work center"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Arbejdscenter"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.actions.act_window,help:mrp.action_work_orders
 msgid ""
 "Work orders are operations to do as part of a manufacturing order.\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18445,6 +20044,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                    Operations are defined in the bill of materials or added "
 "in the manufacturing order directly."
 msgstr ""
@@ -18477,6 +20078,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18565,11 +20169,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            Operations are defined in the bill of materials or added in the manufacturing order directly."
 msgstr ""
 "Arbejdsordre er operationer til udførsel som del af en produktionsordre.\n"
 "            Operationer er defineret i styklisten, eller tilføjet direkte til produktionsordren."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -18654,6 +20261,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18724,7 +20334,11 @@ msgstr "Workcenter"
 #. odoo-python
 #: code:addons/mrp/models/mrp_workcenter.py:0
 msgid "Workcenter %s cannot be an alternative of itself."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Arbejdscenter %s kan ikke vælges som alternativ til sig selv."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.oee_form_view
@@ -18795,6 +20409,11 @@ msgid ""
 "Write one line per finished product to produce, with serial numbers as "
 "follows:\n"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Skriv en linje for hvert færdigt produkt, der skal produceres, med "
+"tilhørende serienumre som følger:\n"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields.selection,name:mrp.selection__mrp_production__search_date_category__yesterday
@@ -18833,6 +20452,7 @@ msgid ""
 "You can not delete a Bill of Material with running manufacturing orders.\n"
 "Please close or cancel it first."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18969,6 +20589,10 @@ msgstr ""
 "Du kan ikke slette en regning på materiale med løbende "
 "fremstillingsordrer. \n"
 >>>>>>> upstream/18.0
+=======
+"Du kan ikke slette en regning på materiale med løbende "
+"fremstillingsordrer. \n"
+>>>>>>> upstream/18.0
 "Venligst luk eller annullere den først."
 
 #. module: mrp
@@ -18977,6 +20601,11 @@ msgstr ""
 msgid ""
 "You can only merge manufacturing orders of identical products with same BoM."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Du kan kun sammenlægge produktionsordrer for identiske produkter med samme "
+"stykliste."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-python
@@ -18985,23 +20614,42 @@ msgid ""
 "You can only merge manufacturing orders with no additional components or by-"
 "products."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Du kan kun sammenlægge produktionsordrer, der ikke har ekstra komponenter "
+"eller biprodukter."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "You can only merge manufacturing with the same operation type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Du kan kun sammenlægge produktionsordrer med samme operationstype"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "You can only merge manufacturing with the same state."
+<<<<<<< HEAD
+=======
+msgstr "Du kan kun sammenlægge produktionsordrer med den samme status."
+
+#. module: mrp
+#. odoo-python
+#: code:addons/mrp/models/mrp_production.py:0
+msgid "You cannot cancel a manufacturing order that is already done."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: mrp
 #. odoo-python
 #: code:addons/mrp/models/mrp_workorder.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19112,6 +20760,9 @@ msgid ""
 =======
 "You cannot change the workcenter of a work order that is in progress or done."
 >>>>>>> upstream/18.0
+=======
+"You cannot change the workcenter of a work order that is in progress or done."
+>>>>>>> upstream/18.0
 msgstr ""
 "Du kan ikke ændre workcentret for en arbejdsordre der er under behandling "
 "eller færdiggjort."
@@ -19127,6 +20778,15 @@ msgstr "Du kan ikke oprette en ny stykliste herfra."
 #: code:addons/mrp/models/mrp_routing.py:0
 #: code:addons/mrp/models/mrp_workorder.py:0
 msgid "You cannot create cyclic dependency."
+<<<<<<< HEAD
+=======
+msgstr "Du kan ikke oprette cykliske afhængigheder."
+
+#. module: mrp
+#. odoo-python
+#: code:addons/mrp/models/mrp_production.py:0
+msgid "You cannot delete a manufacturing order that is already done."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: mrp
@@ -19166,6 +20826,11 @@ msgstr "Du kan ikke producere det samme serienummer to gange."
 #: code:addons/mrp/models/mrp_workorder.py:0
 msgid "You cannot start a work order that is already done or cancelled"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Det er ikke muligt at påbegynde en arbejdsordre, der allerede er udført "
+"eller annuleret"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-python
@@ -19180,6 +20845,11 @@ msgid ""
 "You cannot use the 'Apply on Variant' functionality and simultaneously "
 "create a BoM for a specific variant."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Du kan ikke bruge funktionen 'Anvend på variant' samtidig med, at du "
+"opretter en stykliste for en specifik variant."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_consumption_warning_form
@@ -19216,10 +20886,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            Please review your component consumption or ask a manager to validate\n"
 "                            <span invisible=\"mrp_production_count != 1\">this manufacturing order</span>\n"
 "                            <span invisible=\"mrp_production_count == 1\">these manufacturing orders</span>.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -19304,6 +20977,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -19359,12 +21033,32 @@ msgid ""
 >>>>>>> upstream/18.0
 "                        </b>"
 msgstr ""
+=======
+"                        </b>"
+msgstr ""
+"Du har forbrugt en anden mængde end forventet for følgende produkter.\n"
+"                        <b invisible=\"consumption == 'strict'\">\n"
+"                            Bekræft venligst, at dette er gjort med vilje.\n"
+"                        </b>\n"
+"                        <b invisible=\"consumption != 'strict'\">\n"
+"                            Kontrollér dit komponentforbrug, eller bed en "
+"leder om at godkende\n"
+"                            <span invisible=\"mrp_production_count != 1\""
+">denne produktionsordre</span>\n"
+"                            <span invisible=\"mrp_production_count == 1\""
+">disse produktionsordrer</span>.\n"
+"                        </b>"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "You need at least two production orders to merge them."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Du skal bruge mindst to produktionsordrer for at kunne flette dem."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-python
@@ -19409,8 +21103,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "'Productivity'. Create one from the Manufacturing app, menu: Configuration /"
 " Productivity Losses."
+=======
+"'Productivity'. Create one from the Manufacturing app, menu: Configuration / "
+"Productivity Losses."
+>>>>>>> upstream/18.0
 =======
 "'Productivity'. Create one from the Manufacturing app, menu: Configuration / "
 "Productivity Losses."
@@ -19572,6 +21271,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You need to supply Lot/Serial Number for products and 'consume' them: "
 "%(missing_products)s"
 =======
@@ -19683,6 +21383,13 @@ msgid ""
 "(missing_products)s"
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+"You need to supply Lot/Serial Number for products and 'consume' them: %"
+"(missing_products)s"
+msgstr ""
+"Du skal angive et parti-/serienummer for produkterne og forbruge disse: "
+"%(missing_products)s"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.actions.act_window,name:mrp.action_mrp_production_backorder
@@ -19702,6 +21409,11 @@ msgid ""
 "You should update the components quantity instead of directly updating the "
 "quantity of the kit product."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Du bør opdatere mængden af komponenterne i stedet for at ændre mængden af "
+"det samlede produkt direkte."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields.selection,name:mrp.selection__stock_picking_type__done_mrp_lot_label_to_print__zpl
@@ -19723,13 +21435,21 @@ msgstr "dage"
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.res_config_settings_view_form
 msgid "days before"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "dage inden"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_workorder_form_view_inherit
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_workorder_tree_editable_view
 msgid "expected duration"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "forventet varighed"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.stock_warn_insufficient_qty_unbuild_form_view
@@ -19739,7 +21459,11 @@ msgstr "fra sted"
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_bom_form_view
 msgid "it is added as a component in a manufacturing order"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "den tilføjes som komponent på en produktionsordre"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_bom_form_view
@@ -19747,6 +21471,10 @@ msgid ""
 "it is moved via a transfer, such as a receipt or a delivery order for "
 "instance."
 msgstr ""
+<<<<<<< HEAD
+=======
+"den flyttes via en overførsel, f.eks. en kvittering eller en leveringsordre."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_routing_workcenter_form_view
@@ -19763,7 +21491,11 @@ msgstr "produktionsordre"
 #. odoo-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "merged"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "slået sammen"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-python
@@ -19786,7 +21518,11 @@ msgstr "bestilt i stedet for"
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_workcenter_view
 msgid "per workcenter"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "pr. arbejdscenter"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.production_message
@@ -19796,18 +21532,27 @@ msgstr "antal er blevet opdateret."
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_workorder_tree_editable_view
 msgid "real duration"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "faktiske varighed"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "split"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "opdelt"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_routing_workcenter_form_view
 msgid "work orders"
 msgstr "Arbejdsordrer"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19917,6 +21662,8 @@ msgstr ""
 #: code:addons/mrp/static/src/components/mo_overview_operations_block/mrp_mo_overview_operations_block.xml:0
 msgid "{{ state.isFolded ? 'Unfold' : 'Fold' }}"
 msgstr ""
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

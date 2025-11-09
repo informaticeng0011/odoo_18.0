@@ -145,6 +145,10 @@ class TestSurveyInternals(common.TestSurveyCommon, MailCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    @users('survey_manager')
+>>>>>>> upstream/18.0
 =======
     @users('survey_manager')
 >>>>>>> upstream/18.0
@@ -400,7 +404,11 @@ class TestSurveyInternals(common.TestSurveyCommon, MailCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 self.assertEqual(question_answer.display_name, '2020-02-15 18:00:00')
+=======
+                self.assertEqual(question_answer.display_name, '2020-02-15 19:00:00')
+>>>>>>> upstream/18.0
 =======
                 self.assertEqual(question_answer.display_name, '2020-02-15 19:00:00')
 >>>>>>> upstream/18.0
@@ -719,7 +727,10 @@ class TestSurveyInternals(common.TestSurveyCommon, MailCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -884,6 +895,9 @@ class TestSurveyInternals(common.TestSurveyCommon, MailCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1104,7 +1118,10 @@ class TestSurveyInternals(common.TestSurveyCommon, MailCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1213,6 +1230,9 @@ class TestSurveyInternals(common.TestSurveyCommon, MailCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

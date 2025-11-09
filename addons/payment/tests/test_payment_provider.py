@@ -99,7 +99,10 @@ class TestPaymentProvider(PaymentCommon):
             self.assertNotIn(self.provider, compatible_providers)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_provider_compatible_with_branch_companies(self):
         """ Test that the provider is available to branch companies. """
         branch_company = self.env['res.company'].create({
@@ -111,6 +114,9 @@ class TestPaymentProvider(PaymentCommon):
         )
         self.assertIn(self.provider, compatible_providers)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_provider_compatible_with_available_countries(self):
         """ Test that the provider is compatible with its available countries. """

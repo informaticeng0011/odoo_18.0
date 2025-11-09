@@ -21,6 +21,10 @@ E-invoice implementation for Romania
     'auto_install': True,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    'uninstall_hook': 'uninstall_hook',
+>>>>>>> upstream/18.0
 =======
     'uninstall_hook': 'uninstall_hook',
 >>>>>>> upstream/18.0
