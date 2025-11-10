@@ -377,6 +377,7 @@ class PurchaseOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             res['balance'] = self.currency_id._convert(
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -432,6 +433,8 @@ class PurchaseOrderLine(models.Model):
                 self.price_unit_discounted * self.qty_to_invoice,
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -614,6 +617,9 @@ class PurchaseOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -100,7 +100,10 @@ class TestPaymentProvider(PaymentCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_provider_compatible_with_branch_companies(self):
@@ -115,6 +118,9 @@ class TestPaymentProvider(PaymentCommon):
         self.assertIn(self.provider, compatible_providers)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -6761,6 +6761,11 @@ class PDFPrintService {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    // ODOO PATCH PRINT PREVIEW MOBILE
+    this.hasFinishPrint = null;
+>>>>>>> upstream/18.0
 =======
     // ODOO PATCH PRINT PREVIEW MOBILE
     this.hasFinishPrint = null;
@@ -7120,6 +7125,7 @@ class PDFPrintService {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     return new Promise(resolve => {
       setTimeout(() => {
         if (!this.active) {
@@ -7131,6 +7137,8 @@ class PDFPrintService {
       }, 0);
     });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7324,6 +7332,9 @@ class PDFPrintService {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7534,6 +7545,7 @@ window.print = function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     activeService.renderPages().then(function () {
       return activeServiceOnEntry.performPrint();
     }).catch(function () {}).then(function () {
@@ -7541,6 +7553,8 @@ window.print = function () {
         // ODOO Patch: https://github.com/mozilla/pdf.js/issues/10630#issuecomment-855754913
         setTimeout(abort, 1000);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7726,6 +7740,9 @@ window.print = function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7939,7 +7956,10 @@ if ("onbeforeprint" in window) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8119,6 +8139,9 @@ if ("onbeforeprint" in window) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

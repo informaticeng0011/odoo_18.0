@@ -10,6 +10,10 @@ from freezegun import freeze_time
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo import Command
+>>>>>>> upstream/18.0
 =======
 from odoo import Command
 >>>>>>> upstream/18.0
@@ -256,7 +260,10 @@ class L10nTWITestEdi(TestAccountMoveSendCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -307,10 +314,13 @@ class L10nTWITestEdi(TestAccountMoveSendCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_09_refund_invoice_with_payment(self):
@@ -359,6 +369,9 @@ class L10nTWITestEdi(TestAccountMoveSendCommon, HttpCase):
         )
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -519,7 +532,10 @@ class L10nTWITestEdi(TestAccountMoveSendCommon, HttpCase):
             raise UserError('Unexpected endpoint called during a test: %s with params %s.' % (endpoint, params))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -560,6 +576,9 @@ class L10nTWITestEdi(TestAccountMoveSendCommon, HttpCase):
         else:
             raise UserError('Unexpected endpoint called during a test: %s with params %s.' % (endpoint, params))
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

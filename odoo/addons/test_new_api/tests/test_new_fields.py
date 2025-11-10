@@ -997,7 +997,10 @@ class TestFields(TransactionCaseWithUserDemo, TransactionExpressionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1190,6 +1193,9 @@ class TestFields(TransactionCaseWithUserDemo, TransactionExpressionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1469,7 +1475,10 @@ class TestFields(TransactionCaseWithUserDemo, TransactionExpressionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1527,6 +1536,9 @@ class TestFields(TransactionCaseWithUserDemo, TransactionExpressionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4366,6 +4378,7 @@ class TestHtmlField(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # in a perfect world this should be 1, but at the moment the value is
         # sanitized more than once during creation of the record
         self.assertEqual(patch.call_count, 2)
@@ -4376,6 +4389,8 @@ class TestHtmlField(TransactionCase):
 
         # the value is already sanitized for flushing
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4559,6 +4574,9 @@ class TestHtmlField(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

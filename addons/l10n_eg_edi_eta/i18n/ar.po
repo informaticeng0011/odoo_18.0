@@ -1,7 +1,11 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* l10n_eg_edi_eta
+=======
+# * l10n_eg_edi_eta
+>>>>>>> upstream/18.0
 =======
 # * l10n_eg_edi_eta
 >>>>>>> upstream/18.0
@@ -10,7 +14,11 @@
 # Malaz Abuidris <msea@odoo.com>, 2022
 # Martin Trigaux, 2022
 <<<<<<< HEAD
+<<<<<<< HEAD
 #
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
@@ -18,6 +26,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0+e\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2022-05-17 10:23+0000\n"
@@ -28,11 +37,16 @@ msgstr ""
 "Last-Translator: Martin Trigaux, 2022\n"
 "Language-Team: Arabic (https://www.transifex.com/odoo/teams/41243/ar/)\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-11-03 15:42+0000\n"
 "PO-Revision-Date: 2025-11-08 09:22+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Arabic <https://translate.odoo.com/projects/odoo-18-l10n/"
 "l10n_eg_edi_eta/ar/>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Language: ar\n"
 "MIME-Version: 1.0\n"
@@ -40,7 +54,12 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+=======
+"&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 =======
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
 "X-Generator: Weblate 5.12.2\n"
@@ -631,7 +650,11 @@ msgstr "اسم العرض "
 #: code:addons/l10n_eg_edi_eta/models/account_edi_format.py:0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Document Canceled"
+=======
+msgid "Document Cancelled"
+>>>>>>> upstream/18.0
 =======
 msgid "Document Cancelled"
 >>>>>>> upstream/18.0
@@ -645,7 +668,10 @@ msgstr ""
 #: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_account_move__l10n_eg_uuid
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_account_payment__l10n_eg_uuid
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -722,7 +748,10 @@ msgstr ""
 #: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_account_move__l10n_eg_long_id
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_account_payment__l10n_eg_long_id
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -735,7 +764,10 @@ msgstr ""
 #: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_account_move__l10n_eg_qr_code
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_account_payment__l10n_eg_qr_code
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1314,7 +1346,10 @@ msgstr ""
 #: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_account_move__l10n_eg_eta_json_doc_id
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_account_payment__l10n_eg_eta_json_doc_id
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1327,7 +1362,10 @@ msgstr ""
 #: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_account_move__l10n_eg_is_signed
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_account_payment__l10n_eg_is_signed
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2358,7 +2396,11 @@ msgstr "وحدة قياس المنتج"
 #: model:ir.model,name:l10n_eg_edi_eta.model_product_product
 msgid "Product Variant"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "متغير المنتج"
+>>>>>>> upstream/18.0
 =======
 msgstr "متغير المنتج"
 >>>>>>> upstream/18.0
@@ -2816,7 +2858,10 @@ msgstr ""
 #: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_account_move__l10n_eg_signing_time
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_account_payment__l10n_eg_signing_time
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2895,7 +2940,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:l10n_eg_edi_eta.eg_partner_address_form
 msgid "State..."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "المحافظة..."
+>>>>>>> upstream/18.0
 =======
 msgstr "المحافظة..."
 >>>>>>> upstream/18.0
@@ -2920,7 +2969,10 @@ msgstr ""
 #: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_account_move__l10n_eg_submission_number
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_account_payment__l10n_eg_submission_number
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3163,7 +3215,11 @@ msgstr ""
 #: code:addons/l10n_eg_edi_eta/static/src/client_action/sign_invoice.js:0
 msgid "Unauthorized"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "غير مصرح به"
+>>>>>>> upstream/18.0
 =======
 msgstr "غير مصرح به"
 >>>>>>> upstream/18.0
@@ -3403,7 +3459,11 @@ msgstr ""
 #: model:l10n_eg_edi.uom.code,name:l10n_eg_edi_eta.l10n_eg_edi_uom_code_PMP
 msgid "pump"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "مضخة"
+>>>>>>> upstream/18.0
 =======
 msgstr "مضخة"
 >>>>>>> upstream/18.0
@@ -3417,7 +3477,11 @@ msgstr ""
 #: model:l10n_eg_edi.uom.code,name:l10n_eg_edi_eta.l10n_eg_edi_uom_code_RUN
 msgid "run"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "تشغيل"
+>>>>>>> upstream/18.0
 =======
 msgstr "تشغيل"
 >>>>>>> upstream/18.0

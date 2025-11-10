@@ -1,8 +1,14 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* l10n_ro_edi_stock_batch
 #
+=======
+# * l10n_ro_edi_stock_batch
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 =======
 # * l10n_ro_edi_stock_batch
 #
@@ -12,6 +18,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 17.0+e\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2025-01-09 15:13+0000\n"
@@ -30,6 +37,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-11-03 15:46+0000\n"
 "PO-Revision-Date: 2025-11-08 09:22+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
@@ -42,6 +51,9 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
 "20)) ? 1 : 2;\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: l10n_ro_edi_stock_batch
@@ -65,7 +77,10 @@ msgstr ""
 #: code:addons/l10n_ro_edi_stock_batch/models/stock_picking_batch.py:0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -79,7 +94,10 @@ msgstr ""
 #: code:addons/l10n_ro_edi_stock_batch/models/stock_picking_batch.py:0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -639,7 +657,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:l10n_ro_edi_stock_batch.field_l10n_ro_edi_document__batch_id
 msgid "Batch"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Lot"
+>>>>>>> upstream/18.0
 =======
 msgstr "Lot"
 >>>>>>> upstream/18.0
@@ -775,7 +797,11 @@ msgstr "Operațiuni scutite"
 #: model:ir.model.fields.selection,name:l10n_ro_edi_stock_batch.selection__stock_picking_batch__l10n_ro_edi_stock_operation_type__50
 msgid "Export"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Export"
+>>>>>>> upstream/18.0
 =======
 msgstr "Export"
 >>>>>>> upstream/18.0
@@ -806,7 +832,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:l10n_ro_edi_stock_batch.l10n_ro_edi_stock_view_batch_form
 msgid "General"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "General"
+>>>>>>> upstream/18.0
 =======
 msgstr "General"
 >>>>>>> upstream/18.0
@@ -842,7 +872,11 @@ msgstr ""
 #: model:ir.model.fields.selection,name:l10n_ro_edi_stock_batch.selection__stock_picking_batch__l10n_ro_edi_stock_operation_type__40
 msgid "Import"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Importă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Importă"
 >>>>>>> upstream/18.0
@@ -942,7 +976,11 @@ msgstr "Locaţie"
 #: model:ir.model.fields.selection,name:l10n_ro_edi_stock_batch.selection__stock_picking_batch__l10n_ro_edi_stock_operation_scope__101
 msgid "Marketing"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Marketing"
+>>>>>>> upstream/18.0
 =======
 msgstr "Marketing"
 >>>>>>> upstream/18.0
@@ -1041,7 +1079,10 @@ msgstr "Remarci"
 #: code:addons/l10n_ro_edi_stock_batch/models/stock_picking_batch.py:0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1143,7 +1184,10 @@ msgstr ""
 #: code:addons/l10n_ro_edi_stock_batch/models/stock_picking_batch.py:0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1156,7 +1200,10 @@ msgstr "Acest document a fost deja trimis cu succes către anaf."
 #: code:addons/l10n_ro_edi_stock_batch/models/stock_picking_batch.py:0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1167,6 +1214,7 @@ msgstr "Acest document nu a fost încă corectat deoarece conține erori."
 #. module: l10n_ro_edi_stock_batch
 #. odoo-python
 #: code:addons/l10n_ro_edi_stock_batch/models/stock_picking_batch.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 #, python-format
@@ -1184,12 +1232,21 @@ msgid ""
 "This document has not been successfully sent yet because it contains errors."
 msgstr "Acest document nu a fost trimis încă cu succes deoarece conține erori."
 >>>>>>> upstream/18.0
+=======
+msgid ""
+"This document has not been successfully sent yet because it contains errors."
+msgstr "Acest document nu a fost trimis încă cu succes deoarece conține erori."
+>>>>>>> upstream/18.0
 
 #. module: l10n_ro_edi_stock_batch
 #: model:ir.model.fields,field_description:l10n_ro_edi_stock_batch.field_stock_picking_batch__l10n_ro_edi_stock_trailer_1_number
 msgid "Trailer 1 Number"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Numărul remorcii 1"
+>>>>>>> upstream/18.0
 =======
 msgstr "Numărul remorcii 1"
 >>>>>>> upstream/18.0
@@ -1198,7 +1255,11 @@ msgstr "Numărul remorcii 1"
 #: model:ir.model.fields,field_description:l10n_ro_edi_stock_batch.field_stock_picking_batch__l10n_ro_edi_stock_trailer_2_number
 msgid "Trailer 2 Number"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Numărul remorcii 2"
+>>>>>>> upstream/18.0
 =======
 msgstr "Numărul remorcii 2"
 >>>>>>> upstream/18.0
@@ -1207,7 +1268,11 @@ msgstr "Numărul remorcii 2"
 #: model:ir.model,name:l10n_ro_edi_stock_batch.model_stock_picking
 msgid "Transfer"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Transfer"
+>>>>>>> upstream/18.0
 =======
 msgstr "Transfer"
 >>>>>>> upstream/18.0
@@ -1221,7 +1286,11 @@ msgstr "Transfer între conduceri"
 #: model_terms:ir.ui.view,arch_db:l10n_ro_edi_stock_batch.l10n_ro_edi_stock_view_batch_form
 msgid "Transport"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Transport"
+>>>>>>> upstream/18.0
 =======
 msgstr "Transport"
 >>>>>>> upstream/18.0
@@ -1253,7 +1322,10 @@ msgstr ""
 #: code:addons/l10n_ro_edi_stock_batch/models/stock_picking_batch.py:0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1306,7 +1378,10 @@ msgstr ""
 #: code:addons/l10n_ro_edi_stock_batch/models/stock_picking_batch.py:0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1355,7 +1430,11 @@ msgstr "Starea eTransport"
 #: model:ir.model.fields,field_description:l10n_ro_edi_stock_batch.field_stock_picking_batch__l10n_ro_edi_stock_document_uit
 msgid "eTransport UIT"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "UIT eTransport"
+>>>>>>> upstream/18.0
 =======
 msgstr "UIT eTransport"
 >>>>>>> upstream/18.0

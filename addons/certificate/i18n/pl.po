@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* certificate
 # 
 # Translators:
@@ -8,6 +9,8 @@
 # Marta Wacławek, 2025
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 # * certificate
 #
 # Translators:
@@ -15,12 +18,16 @@
 # Marta Wacławek, 2025
 #
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-16 13:39+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "PO-Revision-Date: 2024-09-29 00:00+0000\n"
 "Last-Translator: Marta Wacławek, 2025\n"
@@ -31,6 +38,8 @@ msgstr ""
 "Language: pl\n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-11-08 16:51+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Polish <https://translate.odoo.com/projects/odoo-18/"
@@ -43,6 +52,9 @@ msgstr ""
 "n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && "
 "n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: certificate
@@ -50,7 +62,11 @@ msgstr ""
 #: code:addons/certificate/models/key.py:0
 msgid "A private key is required to decrypt data."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Do odszyfrowania danych, wymagany jest prywatny klucz."
+>>>>>>> upstream/18.0
 =======
 msgstr "Do odszyfrowania danych, wymagany jest prywatny klucz."
 >>>>>>> upstream/18.0
@@ -65,7 +81,11 @@ msgstr "Aktywne"
 #: model_terms:ir.ui.view,arch_db:certificate.res_config_settings_view_form
 msgid "Add, edit and delete certificates."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dodawaj, edytuj i usuwaj certyfikaty."
+>>>>>>> upstream/18.0
 =======
 msgstr "Dodawaj, edytuj i usuwaj certyfikaty."
 >>>>>>> upstream/18.0
@@ -74,7 +94,11 @@ msgstr "Dodawaj, edytuj i usuwaj certyfikaty."
 #: model_terms:ir.ui.view,arch_db:certificate.res_config_settings_view_form
 msgid "Add, edit and delete keys."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dodawaj, edytuj i usuwaj klucze."
+>>>>>>> upstream/18.0
 =======
 msgstr "Dodawaj, edytuj i usuwaj klucze."
 >>>>>>> upstream/18.0
@@ -89,7 +113,11 @@ msgstr "Zarchiwizowane"
 #: model_terms:ir.ui.view,arch_db:certificate.certificate_certificate_view_search
 msgid "Archived certificates"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zarchiwizowane certyfikaty"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zarchiwizowane certyfikaty"
 >>>>>>> upstream/18.0
@@ -98,7 +126,11 @@ msgstr "Zarchiwizowane certyfikaty"
 #: model_terms:ir.ui.view,arch_db:certificate.certificate_key_view_search
 msgid "Archived keys"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zarchiwizowane klucze"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zarchiwizowane klucze"
 >>>>>>> upstream/18.0
@@ -107,7 +139,11 @@ msgstr "Zarchiwizowane klucze"
 #: model:ir.model.fields,field_description:certificate.field_certificate_certificate__date_start
 msgid "Available date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Data dostępności"
+>>>>>>> upstream/18.0
 =======
 msgstr "Data dostępności"
 >>>>>>> upstream/18.0
@@ -123,7 +159,11 @@ msgstr "Certyfikat"
 #: model:ir.model.fields,field_description:certificate.field_certificate_certificate__pkcs12_password
 msgid "Certificate Password"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hasło certyfikatu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Hasło certyfikatu"
 >>>>>>> upstream/18.0
@@ -132,7 +172,11 @@ msgstr "Hasło certyfikatu"
 #: model:ir.model.fields,field_description:certificate.field_certificate_certificate__pem_certificate
 msgid "Certificate in PEM format"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Certyfikat w formacie PEM"
+>>>>>>> upstream/18.0
 =======
 msgstr "Certyfikat w formacie PEM"
 >>>>>>> upstream/18.0
@@ -141,7 +185,11 @@ msgstr "Certyfikat w formacie PEM"
 #: model:ir.model.fields,field_description:certificate.field_certificate_certificate__scope
 msgid "Certificate scope"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zakres certyfikatu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zakres certyfikatu"
 >>>>>>> upstream/18.0
@@ -151,7 +199,11 @@ msgstr "Zakres certyfikatu"
 #: model_terms:ir.ui.view,arch_db:certificate.res_config_settings_view_form
 msgid "Certificates"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Certyfikaty"
+>>>>>>> upstream/18.0
 =======
 msgstr "Certyfikaty"
 >>>>>>> upstream/18.0
@@ -160,7 +212,11 @@ msgstr "Certyfikaty"
 #: model_terms:ir.ui.view,arch_db:certificate.res_config_settings_view_form
 msgid "Certificates and Keys"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Certyfikaty i klucze"
+>>>>>>> upstream/18.0
 =======
 msgstr "Certyfikaty i klucze"
 >>>>>>> upstream/18.0
@@ -180,7 +236,11 @@ msgstr "Kod kraju"
 #: model_terms:ir.actions.act_window,help:certificate.certificate_certificate_action_view_list
 msgid "Create a first certificate"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stwórz pierwszy certyfikat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stwórz pierwszy certyfikat"
 >>>>>>> upstream/18.0
@@ -189,7 +249,11 @@ msgstr "Stwórz pierwszy certyfikat"
 #: model_terms:ir.actions.act_window,help:certificate.certificate_key_action_view_list
 msgid "Create a first key"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stwórz pierwszy klucze"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stwórz pierwszy klucze"
 >>>>>>> upstream/18.0
@@ -226,7 +290,11 @@ msgstr "Nazwa wyświetlana"
 #: model:ir.model.fields,field_description:certificate.field_certificate_certificate__date_end
 msgid "Expiration date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Data wygaśnięcia"
+>>>>>>> upstream/18.0
 =======
 msgstr "Data wygaśnięcia"
 >>>>>>> upstream/18.0
@@ -241,7 +309,11 @@ msgstr "Ogólne"
 #: model_terms:ir.ui.view,arch_db:certificate.certificate_certificate_view_search
 msgid "General certificates"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ogólne certyfikaty"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ogólne certyfikaty"
 >>>>>>> upstream/18.0
@@ -267,7 +339,11 @@ msgstr "Klucz"
 #: model:ir.model.fields,field_description:certificate.field_certificate_key__pem_key
 msgid "Key bytes in PEM format"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kluczowe bajty w formacie PEM"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kluczowe bajty w formacie PEM"
 >>>>>>> upstream/18.0
@@ -276,7 +352,11 @@ msgstr "Kluczowe bajty w formacie PEM"
 #: model:ir.model.fields,field_description:certificate.field_certificate_key__content
 msgid "Key file"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Plik klucza"
+>>>>>>> upstream/18.0
 =======
 msgstr "Plik klucza"
 >>>>>>> upstream/18.0
@@ -286,7 +366,11 @@ msgstr "Plik klucza"
 #: model_terms:ir.ui.view,arch_db:certificate.res_config_settings_view_form
 msgid "Keys"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Klucze"
+>>>>>>> upstream/18.0
 =======
 msgstr "Klucze"
 >>>>>>> upstream/18.0
@@ -308,7 +392,11 @@ msgstr "Data ostatniej aktualizacji"
 #: model:ir.model.fields,field_description:certificate.field_certificate_key__loading_error
 msgid "Loading error"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Błąd ładowania"
+>>>>>>> upstream/18.0
 =======
 msgstr "Błąd ładowania"
 >>>>>>> upstream/18.0
@@ -319,6 +407,10 @@ msgstr "Błąd ładowania"
 msgid "Make sure to use a private key to sign documents."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Upewnij się, że korzystasz z prywatnego klucza do podpisywania dokumentów."
+>>>>>>> upstream/18.0
 =======
 "Upewnij się, że korzystasz z prywatnego klucza do podpisywania dokumentów."
 >>>>>>> upstream/18.0
@@ -327,7 +419,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:certificate.res_config_settings_view_form
 msgid "Manage your certificates"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zarządzaj swoimi certyfikatami"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zarządzaj swoimi certyfikatami"
 >>>>>>> upstream/18.0
@@ -336,7 +432,11 @@ msgstr "Zarządzaj swoimi certyfikatami"
 #: model_terms:ir.ui.view,arch_db:certificate.res_config_settings_view_form
 msgid "Manage your keys"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zarządzaj swoimi kluczami"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zarządzaj swoimi kluczami"
 >>>>>>> upstream/18.0
@@ -354,6 +454,11 @@ msgid ""
 "No private key linked to the certificate, it is required to sign documents."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Brak klucza prywatnego powiązanego z certyfikatem, jest on wymagany do "
+"podpisywania dokumentów."
+>>>>>>> upstream/18.0
 =======
 "Brak klucza prywatnego powiązanego z certyfikatem, jest on wymagany do "
 "podpisywania dokumentów."
@@ -363,7 +468,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:certificate.certificate_certificate_view_search
 msgid "Not valid certificates"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nieważne certyfikaty"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nieważne certyfikaty"
 >>>>>>> upstream/18.0
@@ -372,7 +481,11 @@ msgstr "Nieważne certyfikaty"
 #: model:ir.model.fields,field_description:certificate.field_certificate_certificate__content_format
 msgid "Original certificate format"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Oryginalny format certyfikatu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Oryginalny format certyfikatu"
 >>>>>>> upstream/18.0
@@ -391,7 +504,11 @@ msgstr "PKCS12"
 #: model:ir.model.fields,help:certificate.field_certificate_certificate__pkcs12_password
 msgid "Password to decrypt the PKS file."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hasło do deszyfrowania pliku PKS."
+>>>>>>> upstream/18.0
 =======
 msgstr "Hasło do deszyfrowania pliku PKS."
 >>>>>>> upstream/18.0
@@ -410,7 +527,11 @@ msgstr "Prywatny klucz"
 #: model:ir.model.fields,field_description:certificate.field_certificate_key__password
 msgid "Private key password"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hasło prywatnego klucza"
+>>>>>>> upstream/18.0
 =======
 msgstr "Hasło prywatnego klucza"
 >>>>>>> upstream/18.0
@@ -429,7 +550,11 @@ msgstr "Klucz publiczny"
 #: model:ir.model.fields,field_description:certificate.field_certificate_key__public
 msgid "Public/Private key"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Publiczny/prywatny klucz"
+>>>>>>> upstream/18.0
 =======
 msgstr "Publiczny/prywatny klucz"
 >>>>>>> upstream/18.0
@@ -438,7 +563,11 @@ msgstr "Publiczny/prywatny klucz"
 #: model:ir.model.fields,field_description:certificate.field_certificate_certificate__serial_number
 msgid "Serial number"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Numer seryjny"
+>>>>>>> upstream/18.0
 =======
 msgstr "Numer seryjny"
 >>>>>>> upstream/18.0
@@ -447,7 +576,11 @@ msgstr "Numer seryjny"
 #: model:ir.model.fields,help:certificate.field_certificate_certificate__active
 msgid "Set active to false to archive the certificate"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ustaw pole \"aktywny\" na \"fałsz\", aby zarchiwizować ten certyfikat."
+>>>>>>> upstream/18.0
 =======
 msgstr "Ustaw pole \"aktywny\" na \"fałsz\", aby zarchiwizować ten certyfikat."
 >>>>>>> upstream/18.0
@@ -456,7 +589,11 @@ msgstr "Ustaw pole \"aktywny\" na \"fałsz\", aby zarchiwizować ten certyfikat.
 #: model:ir.model.fields,help:certificate.field_certificate_key__active
 msgid "Set active to false to archive the key."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ustaw pole \"aktywny\" na \"fałsz\", aby zarchiwizować klucz."
+>>>>>>> upstream/18.0
 =======
 msgstr "Ustaw pole \"aktywny\" na \"fałsz\", aby zarchiwizować klucz."
 >>>>>>> upstream/18.0
@@ -466,7 +603,11 @@ msgstr "Ustaw pole \"aktywny\" na \"fałsz\", aby zarchiwizować klucz."
 #: model_terms:ir.ui.view,arch_db:certificate.certificate_certificate_view_list
 msgid "Subject Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nazwa podmiotu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nazwa podmiotu"
 >>>>>>> upstream/18.0
@@ -485,7 +626,11 @@ msgstr ""
 #: code:addons/certificate/models/certificate.py:0
 msgid "The certificate and private key are not compatible."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Certyfikat i prywatny klucz nie są zgodne."
+>>>>>>> upstream/18.0
 =======
 msgstr "Certyfikat i prywatny klucz nie są zgodne."
 >>>>>>> upstream/18.0
@@ -495,7 +640,11 @@ msgstr "Certyfikat i prywatny klucz nie są zgodne."
 #: code:addons/certificate/models/certificate.py:0
 msgid "The certificate and public key are not compatible."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Certyfikat i klucz publiczny nie są zgodne."
+>>>>>>> upstream/18.0
 =======
 msgstr "Certyfikat i klucz publiczny nie są zgodne."
 >>>>>>> upstream/18.0
@@ -513,6 +662,7 @@ msgstr ""
 #. module: certificate
 #. odoo-python
 #: code:addons/certificate/models/key.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -927,10 +1077,15 @@ msgstr ""
 msgid "The key size should be at least 512 bytes."
 msgstr "Rozmiar klucza powinien być przynajmniej 512 bajtów."
 >>>>>>> upstream/18.0
+=======
+msgid "The key size should be at least 512 bytes."
+msgstr "Rozmiar klucza powinien być przynajmniej 512 bajtów."
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #. odoo-python
 #: code:addons/certificate/models/key.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1344,10 +1499,15 @@ msgstr ""
 msgid "The private key could not be loaded."
 msgstr "Nie udało się załadować prywatnego klucza."
 >>>>>>> upstream/18.0
+=======
+msgid "The private key could not be loaded."
+msgstr "Nie udało się załadować prywatnego klucza."
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #. odoo-python
 #: code:addons/certificate/models/key.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1759,15 +1919,21 @@ msgstr "Nie udało się załadować prywatnego klucza."
 msgid "The public exponent should be 65537 (or 3 for legacy purposes)."
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 msgid "The public exponent should be 65537 (or 3 for legacy purposes)."
 msgstr ""
 "Współczynnik publiczny powinien wynosić 65537 (lub 3 dla celów zgodności z "
 "poprzednimi wersjami)."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: certificate
 #. odoo-python
 #: code:addons/certificate/models/key.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2181,13 +2347,21 @@ msgstr ""
 msgid "The public key could not be loaded."
 msgstr "Nie udało się załadować publicznego klucza."
 >>>>>>> upstream/18.0
+=======
+msgid "The public key could not be loaded."
+msgstr "Nie udało się załadować publicznego klucza."
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #. odoo-python
 #: code:addons/certificate/models/certificate.py:0
 msgid "The public key from the certificate could not be loaded."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nie udało się załadować publicznego klucza z certyfikatu."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nie udało się załadować publicznego klucza z certyfikatu."
 >>>>>>> upstream/18.0
@@ -2196,7 +2370,11 @@ msgstr "Nie udało się załadować publicznego klucza z certyfikatu."
 #: model:ir.model.fields,help:certificate.field_certificate_certificate__serial_number
 msgid "The serial number to add to electronic documents"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Numer seryjny do dodania do elektronicznych dokumentów"
+>>>>>>> upstream/18.0
 =======
 msgstr "Numer seryjny do dodania do elektronicznych dokumentów"
 >>>>>>> upstream/18.0
@@ -2208,7 +2386,11 @@ msgid ""
 "This certificate could not be loaded. Either the content or the password is "
 "erroneous."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nie udało się załadować tego certyfikatu. Treść lub hasło są błędne."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nie udało się załadować tego certyfikatu. Treść lub hasło są błędne."
 >>>>>>> upstream/18.0
@@ -2218,7 +2400,11 @@ msgstr "Nie udało się załadować tego certyfikatu. Treść lub hasło są bł
 #: code:addons/certificate/models/certificate.py:0
 msgid "This certificate is not valid, its validity has expired."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ten certyfikat jest nieważny, jego ważność już wygasła."
+>>>>>>> upstream/18.0
 =======
 msgstr "Ten certyfikat jest nieważny, jego ważność już wygasła."
 >>>>>>> upstream/18.0
@@ -2231,6 +2417,10 @@ msgid ""
 "erroneous."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nie udało się załadować tego klucza. Jego zawartość lub hasło są błędne."
+>>>>>>> upstream/18.0
 =======
 "Nie udało się załadować tego klucza. Jego zawartość lub hasło są błędne."
 >>>>>>> upstream/18.0
@@ -2243,6 +2433,11 @@ msgid ""
 "decryption: RSA."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nieobsługiwany algorytm kryptografii asymetrycznej \"%s\". Obecnie "
+"obsługiwany do deszyfrowania: RSA."
+>>>>>>> upstream/18.0
 =======
 "Nieobsługiwany algorytm kryptografii asymetrycznej \"%s\". Obecnie "
 "obsługiwany do deszyfrowania: RSA."
@@ -2256,6 +2451,11 @@ msgid ""
 "signature: EC and RSA."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nieobsługiwany algorytm kryptografii asymetrycznej \"%s\". Obecnie "
+"obsługiwany do podpisów: EC i RSA."
+>>>>>>> upstream/18.0
 =======
 "Nieobsługiwany algorytm kryptografii asymetrycznej \"%s\". Obecnie "
 "obsługiwany do podpisów: EC i RSA."
@@ -2269,6 +2469,11 @@ msgid ""
 " RSA."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nieobsługiwany algorytm kryptografii asymetrycznej \"%s\". Obecnie "
+"obsługiwany: EC, RSA."
+>>>>>>> upstream/18.0
 =======
 "Nieobsługiwany algorytm kryptografii asymetrycznej \"%s\". Obecnie "
 "obsługiwany: EC, RSA."
@@ -2282,12 +2487,18 @@ msgid ""
 "             "
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "Używany do konfiguracji publicznego klucza w przypadku, że klucz zawarty w "
 "certyfikacie jest błędny.\n"
 "                Kiedy klucz publiczny jest konfigurowany w ten sposób, "
 "będzie używany zamiast tego w certyfikacie.\n"
 "             "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: certificate
@@ -2300,7 +2511,11 @@ msgstr "Ważny"
 #: model_terms:ir.ui.view,arch_db:certificate.certificate_certificate_view_search
 msgid "Valid certificates"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ważne certyfikaty"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ważne certyfikaty"
 >>>>>>> upstream/18.0
@@ -2315,7 +2530,11 @@ msgstr "Ważność"
 #: model_terms:ir.ui.view,arch_db:certificate.certificate_certificate_view_form
 msgid "certificate form"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "certyfikat z"
+>>>>>>> upstream/18.0
 =======
 msgstr "certyfikat z"
 >>>>>>> upstream/18.0
@@ -2324,7 +2543,11 @@ msgstr "certyfikat z"
 #: model_terms:ir.ui.view,arch_db:certificate.certificate_certificate_view_list
 msgid "certificate list"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "lista certyfikatów"
+>>>>>>> upstream/18.0
 =======
 msgstr "lista certyfikatów"
 >>>>>>> upstream/18.0
@@ -2333,7 +2556,11 @@ msgstr "lista certyfikatów"
 #: model_terms:ir.ui.view,arch_db:certificate.certificate_certificate_view_search
 msgid "certificate search"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "wyszukiwanie certyfikatów"
+>>>>>>> upstream/18.0
 =======
 msgstr "wyszukiwanie certyfikatów"
 >>>>>>> upstream/18.0
@@ -2342,7 +2569,11 @@ msgstr "wyszukiwanie certyfikatów"
 #: model_terms:ir.ui.view,arch_db:certificate.certificate_certificate_view_form
 msgid "e.g. New Certificate"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "np. Nowy certyfikat"
+>>>>>>> upstream/18.0
 =======
 msgstr "np. Nowy certyfikat"
 >>>>>>> upstream/18.0
@@ -2351,7 +2582,11 @@ msgstr "np. Nowy certyfikat"
 #: model_terms:ir.ui.view,arch_db:certificate.certificate_key_view_form
 msgid "key form"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "klucz z"
+>>>>>>> upstream/18.0
 =======
 msgstr "klucz z"
 >>>>>>> upstream/18.0
@@ -2360,7 +2595,11 @@ msgstr "klucz z"
 #: model_terms:ir.ui.view,arch_db:certificate.certificate_key_view_list
 msgid "key list"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "lista kluczy"
+>>>>>>> upstream/18.0
 =======
 msgstr "lista kluczy"
 >>>>>>> upstream/18.0
@@ -2369,7 +2608,11 @@ msgstr "lista kluczy"
 #: model_terms:ir.ui.view,arch_db:certificate.certificate_key_view_search
 msgid "key search"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "wyszukiwanie kluczy"
+>>>>>>> upstream/18.0
 =======
 msgstr "wyszukiwanie kluczy"
 >>>>>>> upstream/18.0

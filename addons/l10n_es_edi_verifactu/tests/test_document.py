@@ -18,8 +18,13 @@ from unittest import mock
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import _
 from odoo.exceptions import UserError
+=======
+from odoo import _, Command
+from odoo.exceptions import UserError, RedirectWarning
+>>>>>>> upstream/18.0
 =======
 from odoo import _, Command
 from odoo.exceptions import UserError, RedirectWarning
@@ -156,7 +161,10 @@ class TestL10nEsEdiVerifactuDocument(TestL10nEsEdiVerifactuCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -284,6 +292,9 @@ class TestL10nEsEdiVerifactuDocument(TestL10nEsEdiVerifactuCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

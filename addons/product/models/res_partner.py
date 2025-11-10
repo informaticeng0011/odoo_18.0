@@ -57,7 +57,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # -*- coding: utf-8 -*-
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -284,12 +287,18 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return super()._commercial_fields() + ['property_product_pricelist']
 
     def _company_dependent_commercial_fields(self):
         return [
             *super()._company_dependent_commercial_fields(),
             'specific_property_product_pricelist'
+=======
+        return [
+            *super()._commercial_fields(),
+            'specific_property_product_pricelist',
+>>>>>>> upstream/18.0
 =======
         return [
             *super()._commercial_fields(),

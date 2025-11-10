@@ -5,7 +5,11 @@ import lazyloader from "@web/legacy/js/public/lazyloader";
 import { WebsiteRoot } from "./website_root";
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { loadBundle } from "@web/core/assets";
+=======
+import { loadCSS, loadJS } from "@web/core/assets";
+>>>>>>> upstream/18.0
 =======
 import { loadCSS, loadJS } from "@web/core/assets";
 >>>>>>> upstream/18.0
@@ -18,6 +22,7 @@ const prom = createPublicRoot(WebsiteRoot).then(async rootInstance => {
     // restricted editor user.
     if (window.frameElement) {
         if (window.frameElement.dataset.loadWysiwyg === 'true') {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -364,6 +369,8 @@ const prom = createPublicRoot(WebsiteRoot).then(async rootInstance => {
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             // `getBundle` fetches the URL of the bundle by including
             // `session.bundle_params` as search params. The `lang` search param
             // in particular determines if the CSS bundles are fetch in their
@@ -376,6 +383,9 @@ const prom = createPublicRoot(WebsiteRoot).then(async rootInstance => {
                 Promise.all([...cssLibs.map(loadCSS), ...jsLibs.map(loadJS)])
             );
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

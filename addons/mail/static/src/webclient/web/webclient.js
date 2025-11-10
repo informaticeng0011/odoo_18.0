@@ -17,7 +17,13 @@ patch(WebClient.prototype, {
         this.notification = useService("notification");
         if (this._canSendNativeNotification) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             this._subscribePush();
+=======
+            this.env.bus.addEventListener("WEB_CLIENT_READY", () => this._subscribePush(), {
+                once: true,
+            });
+>>>>>>> upstream/18.0
 =======
             this.env.bus.addEventListener("WEB_CLIENT_READY", () => this._subscribePush(), {
                 once: true,
@@ -59,6 +65,10 @@ patch(WebClient.prototype, {
      */
     async _subscribePush(numberTry = 1) {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        await this.serviceWorkerActivatedDeferred;
+>>>>>>> upstream/18.0
 =======
         await this.serviceWorkerActivatedDeferred;
 >>>>>>> upstream/18.0
@@ -132,6 +142,10 @@ patch(WebClient.prototype, {
      */
     async _unsubscribePush() {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        await this.serviceWorkerActivatedDeferred;
+>>>>>>> upstream/18.0
 =======
         await this.serviceWorkerActivatedDeferred;
 >>>>>>> upstream/18.0

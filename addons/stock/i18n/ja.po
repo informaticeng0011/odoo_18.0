@@ -59,6 +59,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* stock
 # 
 # Translators:
@@ -589,6 +590,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # * stock
 #
 # Translators:
@@ -656,6 +659,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -712,6 +716,9 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# "Junko Augias (juau)" <juau@odoo.com>, 2025.
 >>>>>>> upstream/18.0
 =======
 # "Junko Augias (juau)" <juau@odoo.com>, 2025.
@@ -807,6 +814,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1424,6 +1432,11 @@ msgstr ""
 "PO-Revision-Date: 2025-10-27 22:21+0000\n"
 "Last-Translator: \"Junko Augias (juau)\" <juau@odoo.com>\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-09-27 01:48+0000\n"
+"PO-Revision-Date: 2025-10-27 22:21+0000\n"
+"Last-Translator: \"Junko Augias (juau)\" <juau@odoo.com>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Japanese <https://translate.odoo.com/projects/odoo-18/stock/"
 "ja/>\n"
 "Language: ja\n"
@@ -1490,6 +1503,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1673,12 +1689,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Transfers %(transfer_list)s: You need to supply a Lot/Serial number for products %(product_list)s."
 msgstr ""
 "\n"
 "\n"
 "転送%(transfer_list)s:プロダクト%(product_list)sのロット/シリアル番号を指定する必要があります。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1860,6 +1879,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2052,12 +2074,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The quantity done for the product %(product)s doesn't respect the rounding precision defined on the unit of measure %(unit)s.\n"
 "Please change the quantity done or the rounding precision of your unit of measure."
 msgstr ""
 "\n"
 "プロダクト%(product)sに対して実施された数量は単位%(unit)sで定義された丸め精度に準じていません。\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2240,6 +2265,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2363,6 +2391,7 @@ msgstr ""
 #: model:ir.model.fields,help:stock.field_stock_picking__state
 msgid ""
 " * Draft: The transfer is not confirmed yet. Reservation doesn't apply.\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3012,6 +3041,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 " * Waiting another operation: This transfer is waiting for another operation "
 "before being ready.\n"
 " * Waiting: The transfer is waiting for the availability of some products.\n"
@@ -3097,6 +3128,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3288,7 +3322,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "0以外の場合、このロケーションに保管されているプロダクトの在庫棚卸日は、定義された頻度で自動的に設定されます。"
+=======
+msgstr ""
+"0以外の場合、このロケーションに保管されているプロダクトの在庫棚卸日は、定義さ"
+"れた頻度で自動的に設定されます。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "0以外の場合、このロケーションに保管されているプロダクトの在庫棚卸日は、定義さ"
@@ -3707,12 +3747,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "%(operations)s have default source or destination locations within warehouse"
 " %(warehouse)s, therefore you cannot archive it."
 msgstr ""
 "%(operations)s "
 "は倉庫内でフォルト移動元または移動先ロケーションを有しています%(warehouse)s、よってアーカイブすることはできません。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3892,6 +3935,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4079,6 +4125,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "%(product_name)s --> Product UoM is %(product_uom)s "
 "(%(product_uom_category)s) - Move UoM is %(move_uom)s "
 "(%(move_uom_category)s)"
@@ -4086,6 +4133,8 @@ msgstr ""
 "%(product_name)s --> プロダクト単位は %(product_uom)s (%(product_uom_category)s) - "
 "移動単位は %(move_uom)s (%(move_uom_category)s)"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4265,6 +4314,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4455,8 +4507,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "%(warehouse)s は %(free_qty)s %(uom)sのみ提供できます。オーダするべき数量は %(qty_to_order)s "
 "%(uom)sです。"
+=======
+"%(warehouse)s は %(free_qty)s %(uom)sのみ提供できます。オーダするべき数量は %"
+"(qty_to_order)s %(uom)sです。"
+>>>>>>> upstream/18.0
 =======
 "%(warehouse)s は %(free_qty)s %(uom)sのみ提供できます。オーダするべき数量は %"
 "(qty_to_order)s %(uom)sです。"
@@ -4794,7 +4851,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "%s: :分割するものは何もありません。分割するためには、少なくとも1行が満たされていない必要があります。"
+=======
+msgstr ""
+"%s: :分割するものは何もありません。分割するためには、少なくとも1行が満たされ"
+"ていない必要があります。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "%s: :分割するものは何もありません。分割するためには、少なくとも1行が満たされ"
@@ -5156,7 +5219,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "%s:  分割するものはありません。新しい転送に必要な数量を完了数量に記入して下さい。"
+=======
+msgstr ""
+"%s:  分割するものはありません。新しい転送に必要な数量を完了数量に記入して下さ"
+"い。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "%s:  分割するものはありません。新しい転送に必要な数量を完了数量に記入して下さ"
@@ -5519,8 +5588,12 @@ msgstr "'在庫棚卸シート'"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "'Delivery Slip - %s - %s' % (object.partner_id.name or '', object.name)"
+=======
+msgid "'Delivery Slip - %s - %s' % (object.partner_id.name or '', object.name)"
+>>>>>>> upstream/18.0
 =======
 msgid "'Delivery Slip - %s - %s' % (object.partner_id.name or '', object.name)"
 >>>>>>> upstream/18.0
@@ -5784,7 +5857,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "'ピッキングオペレーション - %s - %s' % (object.partner_id.name or '', object.name)"
+=======
+"'ピッキングオペレーション - %s - %s' % (object.partner_id.name or '', "
+"object.name)"
+>>>>>>> upstream/18.0
 =======
 "'ピッキングオペレーション - %s - %s' % (object.partner_id.name or '', "
 "object.name)"
@@ -6114,7 +6192,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "* Waiting Availability: The stock move is confirmed but the product can't be reserved.\n"
+=======
+"* Waiting Availability: The stock move is confirmed but the product can't be "
+"reserved.\n"
+>>>>>>> upstream/18.0
 =======
 "* Waiting Availability: The stock move is confirmed but the product can't be "
 "reserved.\n"
@@ -6356,6 +6439,7 @@ msgid ""
 msgstr ""
 "*新規: 在庫移動が作成されましたがまだ確認されていません。\n"
 "*他の移動まち: この前にリンクされた在庫移動が完了する必要があります。\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6893,6 +6977,9 @@ msgstr ""
 =======
 "* 在庫待ち: 在庫移動は確認されましたがプロダクトが引当できません。\n"
 >>>>>>> upstream/18.0
+=======
+"* 在庫待ち: 在庫移動は確認されましたがプロダクトが引当できません。\n"
+>>>>>>> upstream/18.0
 "* 在庫利用可能: 在庫移動のプロダクトは引当済です。\n"
 "* 完了: プロダクトが転送され、転送が検証されました。"
 
@@ -6903,6 +6990,7 @@ msgstr ""
 #: model:ir.model.fields,help:stock.field_stock_move_line__location_dest_usage
 #: model:ir.model.fields,help:stock.field_stock_move_line__location_usage
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6977,6 +7065,8 @@ msgstr ""
 "*在庫損失: 在庫レベルを修正するために使用される在庫操作のカウンターパートとして機能する仮想の場所(実地棚卸)\n"
 "*生産: 生産業務の仮想対応ロケーション: このロケーションで構成品を消費し、完成プロダクトを生産します\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7176,6 +7266,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7489,6 +7582,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<br>ニーズは<b>%sで</b>作成され、それを満たすために規則がトリガーされます。"
 =======
 msgstr ""
@@ -7726,11 +7820,16 @@ msgstr ""
 msgstr ""
 "<br>ニーズは<b>%sで</b>作成され、それを満たすために規則がトリガーされます。"
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"<br>ニーズは<b>%sで</b>作成され、それを満たすために規則がトリガーされます。"
+>>>>>>> upstream/18.0
 
 #. module: stock
 #. odoo-python
 #: code:addons/stock/models/stock_rule.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7910,6 +8009,8 @@ msgstr "<br>プロダクト在庫が <b>%s</b>でない場合、この場所の�
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "<br>If the products are not available in <b>%s</b>, a rule will be triggered "
 "to bring the missing quantity in this location."
 msgstr ""
@@ -7973,6 +8074,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8157,8 +8261,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "プロダクトは、次のように移動されます。 <b>%(destination)s</b>、 <br/> "
 "<b>%(operation)s</b>移動先から定義された通り。"
+=======
+"プロダクトは、次のように移動されます。 <b>%(destination)s</b>、 <br/> <b>%"
+"(operation)s</b>移動先から定義された通り。"
+>>>>>>> upstream/18.0
 =======
 "プロダクトは、次のように移動されます。 <b>%(destination)s</b>、 <br/> <b>%"
 "(operation)s</b>移動先から定義された通り。"
@@ -8460,6 +8569,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Hello <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>,<br/><br/>\n"
 "        We are glad to inform you that your order has been shipped.\n"
 "        <t t-if=\"hasattr(object, 'carrier_tracking_ref') and object.carrier_tracking_ref\">\n"
@@ -8475,6 +8585,8 @@ msgid ""
 "                <t t-else=\"\">\n"
 "                    <a t-attf-href=\"{{ object.carrier_tracking_url }}\" target=\"_blank\" t-out=\"object.carrier_tracking_ref or ''\"/>.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8669,6 +8781,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8853,12 +8968,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Please find your delivery order attached for more details.<br/><br/>\n"
 "        Thank you,\n"
 "        <t t-if=\"user.signature\" data-o-mail-quote-container=\"1\">\n"
 "            <br/>\n"
 "            <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9040,6 +9158,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9223,6 +9344,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>様、<br/><br/>\n"
 "        お客様のご注文が発送されました。\n"
 "        <t t-if=\"hasattr(object, 'carrier_tracking_ref') and object.carrier_tracking_ref\">\n"
@@ -9238,6 +9360,8 @@ msgstr ""
 "                <t t-else=\"\">\n"
 "                    <a t-attf-href=\"{{ object.carrier_tracking_url }}\" target=\"_blank\" t-out=\"object.carrier_tracking_ref or ''\"/>.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9432,6 +9556,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9620,7 +9747,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+=======
+"            <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br "
+"data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+>>>>>>> upstream/18.0
 =======
 "            <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br "
 "data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
@@ -9923,9 +10055,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-clock-o\" role=\"img\" aria-label=\"Date\" title=\"Date\"/>"
 msgstr "<i class=\"fa fa-clock-o\" role=\"img\" aria-label=\"Date\" title=\"日付\"/>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10104,6 +10239,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10226,6 +10364,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:stock.report_picking
 msgid ""
 "<i class=\"fa fa-exclamation-triangle\"/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10781,6 +10920,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                                All products could not be reserved. Click on "
 "the \"Check Availability\" button to try to reserve products."
 msgstr ""
@@ -10845,6 +10986,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11199,7 +11343,10 @@ msgstr "<strong>顧客住所</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11382,6 +11529,9 @@ msgstr "<strong>配送</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11568,10 +11718,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "quantity and now, the difference of quantity is not consistent "
 "anymore.</strong>"
 msgstr "<strong>最初に数量を更新してから現在までの間に在庫が移動したため、数量の差が一定ではなくなりました。</strong>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11751,6 +11904,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11956,7 +12112,10 @@ msgstr "<strong>オーダ</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12139,6 +12298,9 @@ msgstr "<strong>注文</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12447,10 +12609,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Activate this function to get all quantities to replenish at this particular"
 " location"
 msgstr "この関数を有効にすると、この特定のロケーションで補充する全量を取得することができます。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12630,6 +12795,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12757,6 +12925,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock.field_stock_warehouse__active
 #: model:ir.model.fields,field_description:stock.field_stock_warehouse_orderpoint__active
 msgid "Active"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13282,6 +13451,9 @@ msgstr "アクティブ"
 =======
 msgstr "アクティブ"
 >>>>>>> upstream/18.0
+=======
+msgstr "アクティブ"
+>>>>>>> upstream/18.0
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_lot__activity_ids
@@ -13306,7 +13478,11 @@ msgid "Activity Exception Decoration"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "例外活動文字装飾"
+=======
+msgstr "例外の活動を示す装飾"
+>>>>>>> upstream/18.0
 =======
 msgstr "例外の活動を示す装飾"
 >>>>>>> upstream/18.0
@@ -13394,6 +13570,7 @@ msgstr "新しいストレージカテゴリを追加"
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_form
 msgid ""
 "Add an internal note that will be printed on the Picking Operations sheet"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13743,10 +13920,14 @@ msgstr "ピッキングオペレーションシートに印刷される内部メ
 =======
 msgstr "ピッキングオペレーションシートに印刷される内部メモを追加"
 >>>>>>> upstream/18.0
+=======
+msgstr "ピッキングオペレーションシートに印刷される内部メモを追加"
+>>>>>>> upstream/18.0
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_res_config_settings__group_stock_adv_location
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13812,6 +13993,8 @@ msgstr ""
 "倉庫内での商品移動を処理するために、ルート作業を追加・カスタマイズできます。例えば、入荷商品の場合は 荷下ろし > 品質検査 > 在庫登録、出荷商品の場合は ピッキング > 梱包 > 出荷 などのプロセスを設定できます。\n"
 "入荷商品を特定の子の場所(特定のビン、ラックなど)にすぐに送るために、倉庫の場所に入庫戦略を設定することもできます。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13998,6 +14181,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14184,9 +14370,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "倉庫内での商品移動を処理するために、ルート作業を追加・カスタマイズできます。例えば、入荷商品の場合は 荷下ろし > 品質検査 > 在庫登録、出荷商品の場合は ピッキング > 梱包 > 出荷 などのプロセスを設定できます。\n"
 "入荷商品を特定の子の場所(特定のビン、ラックなど)にすぐに送るために、倉庫の場所に入庫戦略を設定することもできます。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14366,6 +14555,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14702,7 +14894,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "周期的な棚卸日が設定されていないプロダクトの年次棚卸月。自動で年次棚卸を行わない場合は、月をなしに設定します。"
+=======
+msgstr ""
+"周期的な棚卸日が設定されていないプロダクトの年次棚卸月。自動で年次棚卸を行わ"
+"ない場合は、月をなしに設定します。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "周期的な棚卸日が設定されていないプロダクトの年次棚卸月。自動で年次棚卸を行わ"
@@ -15064,7 +15262,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "別の親／サブ補充ロケーション%sが存在するので、それを変更したい場合は、まずそのチェックを外して下さい。"
+=======
+msgstr ""
+"別の親／サブ補充ロケーション%sが存在するので、それを変更したい場合は、まずそ"
+"のチェックを外して下さい。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "別の親／サブ補充ロケーション%sが存在するので、それを変更したい場合は、まずそ"
@@ -15473,7 +15677,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "プロダクトのデフォルトルートの代わりに、補充に特定のルートを適用します。"
+=======
+msgstr ""
+"プロダクトのデフォルトルートの代わりに、補充に特定のルートを適用します。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "プロダクトのデフォルトルートの代わりに、補充に特定のルートを適用します。"
@@ -16133,7 +16342,11 @@ msgid "Blocking Message"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "阻止メッセージ"
+=======
+msgstr "ブロッキングメッセージ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ブロッキングメッセージ"
 >>>>>>> upstream/18.0
@@ -16720,6 +16933,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "デフォルトでは、システムは移動元ロケーションの在庫から引き当て、受け入れ可能になるまで受動的に待機します。もう一つの方法として、供給元ロケーションに対して直接調達を作成し(現在の在庫状況を無視して)、プロダクトを集めることも可能です。もし移動を連鎖させ、この移動を前の移動が完了するまで待機させたい場合は、後者のオプションを選択する必要があります。"
 =======
 "デフォルトでは、システムは移動元ロケーションの在庫から取得し、在庫が利用可能になるのを受動的に待機します。一方、もう一つの方法では、出庫元ロケーションに対して直接調達を作成し、現在の在庫を無視してプロダクトを手配することができます。在庫移動を連鎖させ、この移動を前の移動が完了するまで待機させたい場合は、後者の方法を選択する必要があります。"
@@ -17063,6 +17277,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "デフォルトでは、システムは移動元ロケーションの在庫から取得し、在庫が利用可能"
 "になるのを受動的に待機します。一方、もう一つの方法では、出庫元ロケーションに"
 "対して直接調達を作成し、現在の在庫を無視してプロダクトを手配することができま"
@@ -17126,6 +17342,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17307,7 +17526,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "アクティブな項目のチェックを外すことで、ロケーションを削除することなしに非表示にできます。"
+=======
+msgstr ""
+"アクティブな項目のチェックを外すことで、ロケーションを削除することなしに非表"
+"示にできます。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "アクティブな項目のチェックを外すことで、ロケーションを削除することなしに非表"
@@ -17769,10 +17994,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "一部の国では、国内法に従い、請求書の金額に対して源泉徴収が適用されます。源泉徴収は、クライアントが税務当局に支払うことになります。いかなる場合においても、My"
 " Company（Chicago）は、その国の法律に関連する費用に関与することはできません。従って、請求書の金額は、その全額がMy Company "
 "(Chicago)に対するものであり、顧客が所在する国の法律に関連する費用は含まれません。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -17952,6 +18180,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18139,10 +18370,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Changing the Lot/Serial number for move lines with different products is not"
 " allowed."
 msgstr "移動明細のロット/シリアル番号を異なるプロダクトで変更することはできません。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -18321,6 +18555,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18508,7 +18745,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "この時点でこのレコードの会社を変更することは禁止されています。むしろアーカイブして新しいレコードを作成する必要があります。"
+=======
+msgstr ""
+"この時点でこのレコードの会社を変更することは禁止されています。むしろアーカイ"
+"ブして新しいレコードを作成する必要があります。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "この時点でこのレコードの会社を変更することは禁止されています。むしろアーカイ"
@@ -18868,7 +19111,13 @@ msgid "Changing the operation type of this record is forbidden at this point."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "この時点で、このレコードのオペレーションタイプを変更することは禁止されています。"
+=======
+msgstr ""
+"この時点で、このレコードのオペレーションタイプを変更することは禁止されていま"
+"す。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "この時点で、このレコードのオペレーションタイプを変更することは禁止されていま"
@@ -19235,7 +19484,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "集約バーコード(すなわち、複数のバーコードエンコーディングを含むバーコード)に含まれるデータを分離するために使用される文字。"
+=======
+msgstr ""
+"集約バーコード(すなわち、複数のバーコードエンコーディングを含むバーコード)に"
+"含まれるデータを分離するために使用される文字。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "集約バーコード(すなわち、複数のバーコードエンコーディングを含むバーコード)に"
@@ -19536,6 +19791,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_form
 #: model_terms:ir.ui.view,arch_db:stock.vpicktree
 msgid "Check Availability"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -20073,6 +20329,9 @@ msgstr "在庫を確認"
 =======
 msgstr "在庫を確認"
 >>>>>>> upstream/18.0
+=======
+msgstr "在庫を確認"
+>>>>>>> upstream/18.0
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking__has_packages
@@ -20147,7 +20406,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "このオペレーションで出荷ラベルを作成する場合は、このチェックボックスをオンにします。"
+=======
+msgstr ""
+"このオペレーションで出荷ラベルを作成する場合は、このチェックボックスをオンに"
+"します。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "このオペレーションで出荷ラベルを作成する場合は、このチェックボックスをオンに"
@@ -20508,7 +20773,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "廃棄 / 破損品を置くためにこのロケーションを使用する場合は、このボックスをチェックします。"
+=======
+msgstr ""
+"廃棄 / 破損品を置くためにこのロケーションを使用する場合は、このボックスを"
+"チェックします。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "廃棄 / 破損品を置くためにこのロケーションを使用する場合は、このボックスを"
@@ -20978,6 +21249,7 @@ msgstr "DHLで配送費用を計算し発送します"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 msgid ""
 "Compute shipping costs and ship with DHL<br/>\n"
@@ -20988,6 +21260,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -21173,6 +21447,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -21360,6 +21637,7 @@ msgstr "FedExで配送費用を計算し発送します"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 msgid ""
 "Compute shipping costs and ship with FedEx<br/>\n"
@@ -21370,6 +21648,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -21555,6 +21835,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -21752,6 +22035,7 @@ msgstr "UPSで配送費用を計算し発送します"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 msgid ""
 "Compute shipping costs and ship with UPS<br/>\n"
@@ -21762,6 +22046,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -21947,6 +22233,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -22069,6 +22358,7 @@ msgstr "USPSで配送費用を計算し発送します"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -22255,6 +22545,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "Compute shipping costs and ship with USPS<br/>\n"
 "                                    <strong>(please go to Home&gt;Apps to "
@@ -22324,6 +22616,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -22471,6 +22766,7 @@ msgstr "設定"
 #: model_terms:ir.ui.view,arch_db:stock.view_product_replenish
 #: model_terms:ir.ui.view,arch_db:stock.view_stock_quantity_history
 msgid "Confirm"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23044,6 +23340,9 @@ msgstr "確定"
 =======
 msgstr "確定"
 >>>>>>> upstream/18.0
+=======
+msgstr "確定"
+>>>>>>> upstream/18.0
 
 #. module: stock
 #: model:ir.model.fields.selection,name:stock.selection__stock_package_level__state__confirmed
@@ -23070,6 +23369,7 @@ msgstr "不整合"
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_warehouse_orderpoint__visibility_days
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23250,6 +23550,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Consider product forecast these many days in the future upon product "
 "replenishment, set to 0 for just-in-time.\n"
 "The value depends on the type of the route (Buy or Manufacture)"
@@ -23314,6 +23616,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -23546,7 +23851,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "単位間の変換は同じカテゴリに属している場合のみ可能です。変換は比率に基づいて行われます。"
+=======
+msgstr ""
+"単位間の変換は同じカテゴリに属している場合のみ可能です。変換は比率に基づいて"
+"行われます。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "単位間の変換は同じカテゴリに属している場合のみ可能です。変換は比率に基づいて"
@@ -23943,7 +24254,11 @@ msgid "Count Move Ready"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "移動準備完了カウント"
+=======
+msgstr "移動準備完了数"
+>>>>>>> upstream/18.0
 =======
 msgstr "移動準備完了数"
 >>>>>>> upstream/18.0
@@ -24296,7 +24611,11 @@ msgid "Count Picking"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "カウントピッキング"
+=======
+msgstr "ピッキング件数"
+>>>>>>> upstream/18.0
 =======
 msgstr "ピッキング件数"
 >>>>>>> upstream/18.0
@@ -24649,7 +24968,11 @@ msgid "Count Picking Backorders"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "ピッキングバックオーダのカウント"
+=======
+msgstr "ピッキングのバックオーダー件数"
+>>>>>>> upstream/18.0
 =======
 msgstr "ピッキングのバックオーダー件数"
 >>>>>>> upstream/18.0
@@ -25002,7 +25325,11 @@ msgid "Count Picking Draft"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "ピッキングドラフトを数える"
+=======
+msgstr "ピッキングのドラフト件数"
+>>>>>>> upstream/18.0
 =======
 msgstr "ピッキングのドラフト件数"
 >>>>>>> upstream/18.0
@@ -25355,7 +25682,11 @@ msgid "Count Picking Late"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "ピッキングを遅らせる"
+=======
+msgstr "期限超過ピッキング件数"
+>>>>>>> upstream/18.0
 =======
 msgstr "期限超過ピッキング件数"
 >>>>>>> upstream/18.0
@@ -25708,7 +26039,11 @@ msgid "Count Picking Ready"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "ピッキング準備完了カウント"
+=======
+msgstr "準備完了ピッキング件数"
+>>>>>>> upstream/18.0
 =======
 msgstr "準備完了ピッキング件数"
 >>>>>>> upstream/18.0
@@ -26061,7 +26396,11 @@ msgid "Count Picking Waiting"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "ピッキング待機カウント"
+=======
+msgstr "処理待ちピッキング件数"
+>>>>>>> upstream/18.0
 =======
 msgstr "処理待ちピッキング件数"
 >>>>>>> upstream/18.0
@@ -26433,7 +26772,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            products later. Do not create a backorder if you will not\n"
+=======
+"                            products later. Do not create a backorder if you "
+"will not\n"
+>>>>>>> upstream/18.0
 =======
 "                            products later. Do not create a backorder if you "
 "will not\n"
@@ -26754,7 +27098,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "新しい入庫規則を作成して、入荷時に特定のプロダクトを適切な配送先の場所に自動的に発送します。"
+=======
+msgstr ""
+"新しい入庫規則を作成して、入荷時に特定のプロダクトを適切な配送先の場所に自動"
+"的に発送します。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "新しい入庫規則を作成して、入荷時に特定のプロダクトを適切な配送先の場所に自動"
@@ -27222,7 +27572,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "新しい倉庫を作成すると、自動的に保管ロケーションの設定が有効になります。"
+=======
+msgstr ""
+"新しい倉庫を作成すると、自動的に保管ロケーションの設定が有効になります。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "新しい倉庫を作成すると、自動的に保管ロケーションの設定が有効になります。"
@@ -27541,7 +27896,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "この仕訳明細の作成日は、数量増加、 'ピッキング済' ステータスの更新、または明細仕訳の完了により、更新されるまで有効です。"
+=======
+msgstr ""
+"この仕訳明細の作成日は、数量増加、 'ピッキング済' ステータスの更新、または明"
+"細仕訳の完了により、更新されるまで有効です。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "この仕訳明細の作成日は、数量増加、 'ピッキング済' ステータスの更新、または明"
@@ -27929,6 +28290,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "In a context with a single Stock Location, this includes goods stored at this Location, or any of its children.\n"
 "In a context with a single Warehouse, this includes goods stored in the Stock Location of this Warehouse, or any of its children.\n"
 "stored in the Stock Location of the Warehouse of this Shop, or any of its children.\n"
@@ -27940,6 +28302,8 @@ msgstr ""
 "このショップの倉庫の保管ロケーションに保管されているか、またはその子のいずれかに保管されています。\n"
 "それ以外の場合は、「内部」タイプの在庫ロケーションに保管されているロケーションが含まれます。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -28132,6 +28496,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -28396,7 +28763,10 @@ msgstr "DEMO_UOM"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -28579,6 +28949,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -28834,11 +29207,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Day of the month when the annual inventory should occur. If zero or negative, then the first day of the month will be selected instead.\n"
 "        If greater than the last day of a month, then the last day of the month will be selected instead."
 msgstr ""
 "年次棚卸を行う月の日。ゼロまたは負の場合は、代わりに月の初日が選択されます。\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -29020,6 +29396,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -29290,7 +29669,11 @@ msgid "Default unit of measure used for all stock operations."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "すべての在庫オペレーションに使用されるデフォルトの測定単位。"
+=======
+msgstr "すべての在庫オペレーションに使用されるデフォルトの単位。"
+>>>>>>> upstream/18.0
 =======
 msgstr "すべての在庫オペレーションに使用されるデフォルトの単位。"
 >>>>>>> upstream/18.0
@@ -29573,7 +29956,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "最小在庫規則を定義して、在庫を補充するための見積依頼または製造オーダのドラフトをOdooが自動的に作成するようにします。"
+=======
+msgstr ""
+"最小在庫規則を定義して、在庫を補充するための見積依頼または製造オーダのドラフ"
+"トをOdooが自動的に作成するようにします。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "最小在庫規則を定義して、在庫を補充するための見積依頼または製造オーダのドラフ"
@@ -29952,6 +30341,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Defines the default method used for suggesting the exact location (shelf) where to take the products from, which lot etc. for this location. This method can be enforced at the product category level, and a fallback is made on the parent locations if none is set here.\n"
 "\n"
 "FIFO: products/lots that were stocked first will be moved out first.\n"
@@ -29961,6 +30351,8 @@ msgid ""
 msgstr ""
 "このロケーション用にプロダクトを取り出す厳密なロケーション（棚）、ロットなどを提案するのに使用されるデフォルトの方法を定義します。この方法はプロダクトカテゴリレベルで強制することができ、ここで何も設定されていない場合、親ロケーションでフォールバックが行われます。\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -30152,6 +30544,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -30332,7 +30727,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "FEFO：払出日が最も近いプロダクト・ロットから搬出されます（この方法が利用できるかどうかは、「有効期限」の設定に依存します）。"
+=======
+"FEFO：払出日が最も近いプロダクト・ロットから搬出されます（この方法が利用でき"
+"るかどうかは、「有効期限」の設定に依存します）。"
+>>>>>>> upstream/18.0
 =======
 "FEFO：払出日が最も近いプロダクト・ロットから搬出されます（この方法が利用でき"
 "るかどうかは、「有効期限」の設定に依存します）。"
@@ -30740,7 +31140,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "納期(日数)。これは、受注の確認から納品までの、顧客に約束された日数です。"
+=======
+msgstr ""
+"納期(日数)。これは、受注の確認から納品までの、顧客に約束された日数です。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "納期(日数)。これは、受注の確認から納品までの、顧客に約束された日数です。"
@@ -31082,7 +31487,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "インストールされているモジュールによって、購買なのか、製造なのか、オーダ時に補充なのか等、このパッケージング内のプロダクトのルートを定義することができます。"
+=======
+"インストールされているモジュールによって、購買なのか、製造なのか、オーダ時に"
+"補充なのか等、このパッケージング内のプロダクトのルートを定義することができま"
+"す。"
+>>>>>>> upstream/18.0
 =======
 "インストールされているモジュールによって、購買なのか、製造なのか、オーダ時に"
 "補充なのか等、このパッケージング内のプロダクトのルートを定義することができま"
@@ -31445,7 +31856,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "インストールされているモジュールに応じて、製品のルートを定義できます。つまり、購入、製造、注文時に補充するかどうかなどです。"
+=======
+msgstr ""
+"インストールされているモジュールに応じて、製品のルートを定義できます。つま"
+"り、購入、製造、注文時に補充するかどうかなどです。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "インストールされているモジュールに応じて、製品のルートを定義できます。つま"
@@ -31915,7 +32332,11 @@ msgid "Destination Address "
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "移動先アドレス (引当用)"
+=======
+msgstr "配送先住所"
+>>>>>>> upstream/18.0
 =======
 msgstr "配送先住所"
 >>>>>>> upstream/18.0
@@ -32553,6 +32974,7 @@ msgid "Do you confirm you want to scrap"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "スクラップしたいことを確認しますか"
 =======
 msgstr "本当に廃棄しますか?"
@@ -32924,6 +33346,8 @@ msgstr "本当に廃棄しますか?"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr "本当に廃棄しますか?"
 
 #. module: stock
@@ -32987,6 +33411,9 @@ msgstr "本当に廃棄しますか?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -33215,7 +33642,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "将来的に入荷が予定されているため、余剰在庫が発生してしまう可能性があります。再オーダの前に予測レポートを確認して下さい。"
+=======
+msgstr ""
+"将来的に入荷が予定されているため、余剰在庫が発生してしまう可能性があります。"
+"再オーダの前に予測レポートを確認して下さい。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "将来的に入荷が予定されているため、余剰在庫が発生してしまう可能性があります。"
@@ -33603,7 +34036,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "在庫調整場所での数量の編集は禁止されています。これらの場所は、数量を修正する際のカウンターパートとして使用されます。"
+=======
+msgstr ""
+"在庫調整場所での数量の編集は禁止されています。これらの場所は、数量を修正する"
+"際のカウンターパートとして使用されます。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "在庫調整場所での数量の編集は禁止されています。これらの場所は、数量を修正する"
@@ -33994,6 +34433,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Enjoy a quick-paced experience with the Odoo barcode app. It is blazing fast"
 " and works even without a stable internet connection. It supports all flows:"
 " inventory adjustments, batch picking, moving lots or pallets, low inventory"
@@ -34001,6 +34441,8 @@ msgid ""
 msgstr ""
 "Odooバーコードアプリでペースの速い体験をお楽しみください。それは非常に速く、安定したインターネット接続がなくても機能します。在庫調整、バッチピッキング、ロットまたはパレットの移動、在庫不足チェックなど、すべてのフローをサポートします。'アプリ'メニューに移動して、バーコードインターフェイスをアクティブにします。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -34185,6 +34627,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -34382,9 +34827,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Odooのすべての在庫オペレーションは、プロダクトをあるロケーションから別のロケーションに移動します。\n"
 " たとえば、仕入先からプロダクトを受け取った場合、Odooはプロダクトを仕入先のロケーションから在庫のロケーションに移動します。\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -34563,6 +35011,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -34813,6 +35264,10 @@ msgstr "2月"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 >>>>>>> upstream/18.0
@@ -35079,6 +35534,7 @@ msgstr "予測"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_move__forecast_availability
 msgid "Forecast Availability"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -35616,6 +36072,9 @@ msgstr "予測在庫"
 =======
 msgstr "予測在庫"
 >>>>>>> upstream/18.0
+=======
+msgstr "予測在庫"
+>>>>>>> upstream/18.0
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_warehouse_orderpoint_form
@@ -35691,6 +36150,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "In a context with a single Stock Location, this includes goods stored in this location, or any of its children.\n"
 "In a context with a single Warehouse, this includes goods stored in the Stock Location of this Warehouse, or any of its children.\n"
 "Otherwise, this includes goods stored in any Stock Location with 'internal' type."
@@ -35700,6 +36160,8 @@ msgstr ""
 "単一の倉庫のコンテキストでは、この倉庫の在庫ロケーションに保管されている製品またはその子製品が含まれます。\n"
 "それ以外の場合は、「内部」タイプの在庫ロケーションに保管されている製品が含まれます。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -35888,6 +36350,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -36069,6 +36534,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "In a context with a single Stock Location, this includes goods stored in this location, or any of its children.\n"
 "In a context with a single Warehouse, this includes goods stored in the Stock Location of this Warehouse, or any of its children.\n"
 "Otherwise, this includes goods stored in any Stock Location with 'internal' type."
@@ -36078,6 +36544,8 @@ msgstr ""
 "単一の倉庫のコンテキストでは、これには、この倉庫の在庫場所またはその子のいずれかに保管されている製品が含まれます。\n"
 "それ以外の場合、これには'内部'タイプの任意の在庫場所に保管されている製品が含まれます。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -36266,6 +36734,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -36644,7 +37115,11 @@ msgid "From"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "from"
+=======
+msgstr "移動元"
+>>>>>>> upstream/18.0
 =======
 msgstr "移動元"
 >>>>>>> upstream/18.0
@@ -37211,8 +37686,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Give to the more specialized category, a higher priority to have them in top"
 " of the list."
+=======
+"Give to the more specialized category, a higher priority to have them in top "
+"of the list."
+>>>>>>> upstream/18.0
 =======
 "Give to the more specialized category, a higher priority to have them in top "
 "of the list."
@@ -37713,8 +38193,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "支払期日から 60日以上経過しても支払いが未納の場合、My Company (Chicago) "
 "は債権回収会社に依頼する権利を有します。弁護士費用は全てお客様のご負担となります。"
+=======
+"支払期日から 60日以上経過しても支払いが未納の場合、My Company (Chicago) は債"
+"権回収会社に依頼する権利を有します。弁護士費用は全てお客様のご負担となりま"
+"す。"
+>>>>>>> upstream/18.0
 =======
 "支払期日から 60日以上経過しても支払いが未納の場合、My Company (Chicago) は債"
 "権回収会社に依頼する権利を有します。弁護士費用は全てお客様のご負担となりま"
@@ -38073,12 +38559,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If a separator is defined, a QR code containing all serial numbers contained"
 " in package will be generated, using the defined character(s) to separate "
 "each numbers"
 msgstr ""
 "区切り文字が定義されている場合、梱包内に含まれる全てのシリアル番号を含むQRコードが、定義された文字を使用して各番号を区切って生成されます。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -38259,6 +38748,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -38461,7 +38953,12 @@ msgid "If checked, when this move is cancelled, cancel the linked move too"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "チェックした場合、この移動が取り消される際に、関連する移動も取り消されます。"
+=======
+msgstr ""
+"チェックした場合、この移動が取り消される際に、関連する移動も取り消されます。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "チェックした場合、この移動が取り消される際に、関連する移動も取り消されます。"
@@ -38766,10 +39263,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If the UoM of a lot is not 'units', the lot will be considered as a unit and"
 " only one label will be printed for this lot."
 msgstr "ロットの単位が'units'でない場合、そのロットは1単位とみなされ、そのロットのラベルは1枚のみ印刷されます。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -38949,6 +39449,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -39131,7 +39634,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "アクティブな項目がFalseにセットされている場合は、発注点を削除することなく非表示にできます。"
+=======
+msgstr ""
+"アクティブな項目がFalseにセットされている場合は、発注点を削除することなく非表"
+"示にできます。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "アクティブな項目がFalseにセットされている場合は、発注点を削除することなく非表"
@@ -39492,7 +40001,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "このアクティブ項目をFalseに設定すると、ルートは削除することなく非表示にすることができます。"
+=======
+msgstr ""
+"このアクティブ項目をFalseに設定すると、ルートは削除することなく非表示にするこ"
+"とができます。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "このアクティブ項目をFalseに設定すると、ルートは削除することなく非表示にするこ"
@@ -39863,7 +40378,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "このチェックボックスにチェックを入れると、Odooはピッキングが認証されると自動的に配送伝票を印刷します。"
+=======
+msgstr ""
+"このチェックボックスにチェックを入れると、Odooはピッキングが認証されると自動"
+"的に配送伝票を印刷します。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "このチェックボックスにチェックを入れると、Odooはピッキングが認証されると自動"
@@ -40224,7 +40745,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "このチェックボックスをオンにすると、Odooはピッキングの検証時に自動的にロット/シリアル番号ラベルを印刷します。"
+=======
+msgstr ""
+"このチェックボックスをオンにすると、Odooはピッキングの検証時に自動的にロット/"
+"シリアル番号ラベルを印刷します。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "このチェックボックスをオンにすると、Odooはピッキングの検証時に自動的にロット/"
@@ -40585,7 +41112,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "このチェックボックスをオンにすると、\"梱包する\"ボタンを使用した際に、Odooは自動的に梱包ラベルを印刷します。"
+=======
+msgstr ""
+"このチェックボックスをオンにすると、\"梱包する\"ボタンを使用した際に、Odooは"
+"自動的に梱包ラベルを印刷します。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "このチェックボックスをオンにすると、\"梱包する\"ボタンを使用した際に、Odooは"
@@ -40946,7 +41479,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "このチェックボックスをオンにすると、Odooはピッキングが検証された際に、梱包とその内容を自動的に印刷します。"
+=======
+msgstr ""
+"このチェックボックスをオンにすると、Odooはピッキングが検証された際に、梱包と"
+"その内容を自動的に印刷します。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "このチェックボックスをオンにすると、Odooはピッキングが検証された際に、梱包と"
@@ -41305,10 +41844,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If this checkbox is ticked, Odoo will automatically print the product labels"
 " of a picking when it is validated."
 msgstr "このチェックボックスをオンにすると、Odooはピッキングが検証されたときに自動的にプロダクトラベルを印刷します。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -41488,6 +42030,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -41670,7 +42215,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "このチェックボックスにチェックを入れると、Odooはピッキングが検証された際に自動的に入荷レポートラベルを印刷します。"
+=======
+msgstr ""
+"このチェックボックスにチェックを入れると、Odooはピッキングが検証された際に自"
+"動的に入荷レポートラベルを印刷します。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "このチェックボックスにチェックを入れると、Odooはピッキングが検証された際に自"
@@ -42031,7 +42582,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "このチェックボックスにチェックを入れると、Odooはピッキングが承認され、移動が割り当てられた際に、自動的に入荷レポートを印刷します。"
+=======
+msgstr ""
+"このチェックボックスにチェックを入れると、Odooはピッキングが承認され、移動が"
+"割り当てられた際に、自動的に入荷レポートを印刷します。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "このチェックボックスにチェックを入れると、Odooはピッキングが承認され、移動が"
@@ -42390,10 +42947,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If this checkbox is ticked, Odoo will automatically print the return slip of"
 " a picking when it is validated."
 msgstr "このチェックボックスにチェックを入れると、Odooはピッキングが検証された際に自動的に返品伝票を印刷します。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -42573,6 +43133,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -42755,7 +43318,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "このチェックボックスにチェックを入れると、Odooは検証時に自動的に受付レポートを表示します(割り当てる移動がある場合)"
+=======
+msgstr ""
+"このチェックボックスにチェックを入れると、Odooは検証時に自動的に受付レポート"
+"を表示します(割り当てる移動がある場合)"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "このチェックボックスにチェックを入れると、Odooは検証時に自動的に受付レポート"
@@ -43116,12 +43685,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If this checkbox is ticked, the pickings lines will represent detailed stock"
 " operations. If not, the picking lines will represent an aggregate of "
 "detailed stock operations."
 msgstr ""
 "このチェックボックスがチェックされている場合、ピッキングラインは詳細な在庫操作を表します。そうでない場合、ピッキングラインは詳細な在庫操作の集計を表します。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -43303,6 +43875,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -43487,7 +44062,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "これがチェックされている場合は、新しいロット/シリアルナンバーを作成して、テキストフィールドに入力することができます。"
+=======
+msgstr ""
+"これがチェックされている場合は、新しいロット/シリアルナンバーを作成して、テキ"
+"ストフィールドに入力することができます。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "これがチェックされている場合は、新しいロット/シリアルナンバーを作成して、テキ"
@@ -43852,7 +44433,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "これをチェックすると、ロット/シリアル番号を選択できるようになります。このオペレーションタイプにロットを入れないこともできます。これは、ロットなしで在庫を作成するか、取得するロットに制限を設けないことを意味します。"
+=======
+"これをチェックすると、ロット/シリアル番号を選択できるようになります。このオペ"
+"レーションタイプにロットを入れないこともできます。これは、ロットなしで在庫を"
+"作成するか、取得するロットに制限を設けないことを意味します。"
+>>>>>>> upstream/18.0
 =======
 "これをチェックすると、ロット/シリアル番号を選択できるようになります。このオペ"
 "レーションタイプにロットを入れないこともできます。これは、ロットなしで在庫を"
@@ -44211,10 +44798,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If this picking was created as a return of another picking, this field links"
 " to the original picking."
 msgstr "このピッキングが他のピッキングのリターンとして作成された場合、このフィールドは元のピッキングにリンクします。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -44394,6 +44984,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -44576,7 +45169,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "出荷が分割されている場合、このフィールドはすでに処理された部分を含んだ出荷にリンクします。"
+=======
+msgstr ""
+"出荷が分割されている場合、このフィールドはすでに処理された部分を含んだ出荷に"
+"リンクします。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "出荷が分割されている場合、このフィールドはすでに処理された部分を含んだ出荷に"
@@ -44988,12 +45587,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "In case of outgoing flow, validate the transfer before this date to allow to deliver at promised date to the customer.\n"
 "        In case of incoming flow, validate the transfer before this date in order to have these products in stock at the date promised by the supplier"
 msgstr ""
 "出荷フローの場合は、この期日までに転送を検証し、顧客に約束の期日に配送できるようにします。\n"
 "       入荷フローがある場合、仕入先が約束した期日にこれらのプロダクトを在庫しておくために、この期日までに転送を検証して下さい。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -45177,6 +45779,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -45367,7 +45972,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "請求が認められるためには、商品の配送またはサービスの提供から8日以内に、配達記録郵便で登録事務所に送付された書簡により、My　Company(Chicago)に請求が通知される必要があります。"
+=======
+"請求が認められるためには、商品の配送またはサービスの提供から8日以内に、配達記"
+"録郵便で登録事務所に送付された書簡により、My　Company(Chicago)に請求が通知さ"
+"れる必要があります。"
+>>>>>>> upstream/18.0
 =======
 "請求が認められるためには、商品の配送またはサービスの提供から8日以内に、配達記"
 "録郵便で登録事務所に送付された書簡により、My　Company(Chicago)に請求が通知さ"
@@ -45758,7 +46369,13 @@ msgid "Incorrect type of action submitted as a report, skipping action"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "レポートとして提出されたアクションのタイプが正しくないため、アクションがスキップされます。"
+=======
+msgstr ""
+"レポートとして提出されたアクションのタイプが正しくないため、アクションがス"
+"キップされます。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "レポートとして提出されたアクションのタイプが正しくないため、アクションがス"
@@ -46117,8 +46734,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Indicates the gap between the product's theoretical quantity and its counted"
 " quantity."
+=======
+"Indicates the gap between the product's theoretical quantity and its counted "
+"quantity."
+>>>>>>> upstream/18.0
 =======
 "Indicates the gap between the product's theoretical quantity and its counted "
 "quantity."
@@ -46514,8 +47136,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Internal reference number in case it differs from the manufacturer's "
 "lot/serial number"
+=======
+"Internal reference number in case it differs from the manufacturer's lot/"
+"serial number"
+>>>>>>> upstream/18.0
 =======
 "Internal reference number in case it differs from the manufacturer's lot/"
 "serial number"
@@ -47113,7 +47740,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<strong>差異</strong>を保持する (棚卸数量は、棚卸時と同じ差異が反映されるように更新されます)"
+=======
+msgstr ""
+"<strong>差異</strong>を保持する (棚卸数量は、棚卸時と同じ差異が反映されるよう"
+"に更新されます)"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "<strong>差異</strong>を保持する (棚卸数量は、棚卸時と同じ差異が反映されるよう"
@@ -47558,7 +48191,11 @@ msgid "Last In First Out (LIFO)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "先入先出(FIFO)"
+=======
+msgstr "後入先出(LIFO)"
+>>>>>>> upstream/18.0
 =======
 msgstr "後入先出(LIFO)"
 >>>>>>> upstream/18.0
@@ -48134,6 +48771,7 @@ msgid "Late Availability"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "遅延利用可能"
 =======
 msgstr "在庫遅れ"
@@ -48537,6 +49175,9 @@ msgstr "在庫遅延"
 =======
 msgstr "在庫遅延"
 >>>>>>> upstream/18.0
+=======
+msgstr "在庫遅延"
+>>>>>>> upstream/18.0
 
 #. module: stock
 #: model:ir.actions.act_window,name:stock.action_picking_tree_late
@@ -48600,7 +49241,11 @@ msgid "Late Transfers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "転送遅れ"
+=======
+msgstr "遅延移動"
+>>>>>>> upstream/18.0
 =======
 msgstr "遅延移動"
 >>>>>>> upstream/18.0
@@ -48875,7 +49520,13 @@ msgid "Leave this field empty if this route is shared between all companies"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "このルートがすべての企業で共有されている場合は、このフィールドを空白のままにします"
+=======
+msgstr ""
+"このルートがすべての企業で共有されている場合は、このフィールドを空白のままに"
+"します"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "このルートがすべての企業で共有されている場合は、このフィールドを空白のままに"
@@ -49257,7 +49908,13 @@ msgid "Let this field empty if this location is shared between companies"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "このロケーションが企業間で共有されている場合は、このフィールドを空白のままにします"
+=======
+msgstr ""
+"このロケーションが企業間で共有されている場合は、このフィールドを空白のままに"
+"します"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "このロケーションが企業間で共有されている場合は、このフィールドを空白のままに"
@@ -49856,11 +50513,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            From their traceability report you will see the full history of their use, as well as their composition."
 msgstr ""
 "ロット/シリアル番号は、製品がたどる経路を追跡するのに役立ちます。\n"
 "それらのトレーサビリティレポートから、それらの使用の完全な履歴とその構成を確認できます。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -50041,6 +50701,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -50469,12 +51132,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Moves created through this orderpoint will be put in this procurement group."
 " If none is given, the moves generated by stock rules will be grouped into "
 "one big picking."
 msgstr ""
 "このオーダポイントを介して作成された移動は、この調達グループに配置されます。何も指定されていない場合、在庫規則によって生成された動きは1つの大きなピッキングにグループ化されます。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -50656,6 +51322,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -50862,8 +51531,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "My Company (Chicago) undertakes to do its best to supply performant services"
 " in due time in accordance with the agreed timeframes. However, none of its "
+=======
+"My Company (Chicago) undertakes to do its best to supply performant services "
+"in due time in accordance with the agreed timeframes. However, none of its "
+>>>>>>> upstream/18.0
 =======
 "My Company (Chicago) undertakes to do its best to supply performant services "
 "in due time in accordance with the agreed timeframes. However, none of its "
@@ -51164,8 +51838,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "当社(Chicago)は、合意された時間枠に従い、履行可能なサービスを期限内に提供するために最善を尽くすことを約束します。しかし、その義務はいずれも、結果を出す義務であるとは見なされません。当社(Chicago)は、いかなる場合においても、最終消費者が顧客に対して行った損害賠償請求において、第三者として出廷することを要求されることはありません。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -51345,6 +52022,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -51725,7 +52405,11 @@ msgid "No product found. Let's create one!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "製品が見つかりません。作ってみよう！"
+=======
+msgstr "プロダクトが見つかりません。作ってみよう！"
+>>>>>>> upstream/18.0
 =======
 msgstr "プロダクトが見つかりません。作ってみよう！"
 >>>>>>> upstream/18.0
@@ -51969,7 +52653,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "返品する製品はありません(返品できるのは、完了状態で完全には返品されていないラインのみです)。"
+=======
+msgstr ""
+"返品する製品はありません(返品できるのは、完了状態で完全には返品されていないラ"
+"インのみです)。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "返品する製品はありません(返品できるのは、完了状態で完全には返品されていないラ"
@@ -52346,7 +53036,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "\"%(product)s\"に\"%(location)s\"を補充する規則は見つかりませんでした。プロダクトのルート構成を確認します。"
+=======
+msgstr ""
+"\"%(product)s\"に\"%(location)s\"を補充する規則は見つかりませんでした。プロダ"
+"クトのルート構成を確認します。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "\"%(product)s\"に\"%(location)s\"を補充する規則は見つかりませんでした。プロダ"
@@ -52829,6 +53525,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Odoo opens a PDF preview by default. If you (Enterprise users only) want to print instantly,\n"
 "                                        install the IoT App on a computer that is on the same local network as the\n"
 "                                        barcode operator and configure the routing of the reports.\n"
@@ -52838,6 +53535,8 @@ msgstr ""
 "                                       バーコードオペレータと同じローカルネットワーク上にあるコンピュータにIoTアプリをインストールし、\n"
 "                                        レポートのルーティングを設定します。\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -53026,6 +53725,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -53342,7 +54044,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "オペレーションをグループ化し、作業者に業務を割当てて運送を最適化します。"
+=======
+msgstr ""
+"オペレーションをグループ化し、作業者に業務を割当てて運送を最適化します。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "オペレーションをグループ化し、作業者に業務を割当てて運送を最適化します。"
@@ -53747,6 +54454,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "My Company (Chicago) will be authorized to suspend any provision of services"
 " without prior warning in the event of late payment."
 msgstr ""
@@ -53754,6 +54462,8 @@ msgstr ""
 " (Chicago) は、残額の10%に相当する固定金利の支払いを要求する権利を留保します。当社 (Chicago) "
 "は、支払いが遅延した場合、事前の警告なしにサービスの提供を停止する権限を有します。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -53936,6 +54646,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -54372,11 +55085,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Packages are usually created via transfers (during pack operation) and can contain different products.\n"
 "                Once created, the whole package can be moved at once, or products can be unpacked and moved as single units again."
 msgstr ""
 "パッケージは通常、転送(パック操作中)を介して作成され、さまざまな製品を含めることができます。作成したら、パッケージ全体を一度に移動することも、製品を開梱して1つのユニットとして再度移動することもできます。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -54559,6 +55275,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -54772,6 +55491,7 @@ msgstr "実地棚卸"
 #: code:addons/stock/models/stock_warehouse.py:0
 #: model:ir.model.fields,field_description:stock.field_stock_backorder_confirmation__pick_ids
 msgid "Pick"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -55217,6 +55937,9 @@ msgstr "ピッキング"
 =======
 msgstr "ピッキング"
 >>>>>>> upstream/18.0
+=======
+msgstr "ピッキング"
+>>>>>>> upstream/18.0
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_move_line__quant_id
@@ -55308,7 +56031,11 @@ msgid "Pick From"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "以下から集荷:"
+=======
+msgstr "ピッキング元:"
+>>>>>>> upstream/18.0
 =======
 msgstr "ピッキング元:"
 >>>>>>> upstream/18.0
@@ -55661,7 +56388,11 @@ msgid "Pick Type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "ピックタイプ"
+=======
+msgstr "ピッキングタイプ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ピッキングタイプ"
 >>>>>>> upstream/18.0
@@ -56025,7 +56756,11 @@ msgid "Picked"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "集荷済"
+=======
+msgstr "ピッキング済"
+>>>>>>> upstream/18.0
 =======
 msgstr "ピッキング済"
 >>>>>>> upstream/18.0
@@ -56389,7 +57124,11 @@ msgid "Picking Lists"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "集荷リスト"
+=======
+msgstr "ピッキングリスト"
+>>>>>>> upstream/18.0
 =======
 msgstr "ピッキングリスト"
 >>>>>>> upstream/18.0
@@ -56796,7 +57535,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "\"新規\" ボタンをクリックして在庫のプロダクトの数量を定義するか、または \"アクション\" メニューからスプレッドシートから数量をインポートします。"
+=======
+msgstr ""
+"\"新規\" ボタンをクリックして在庫のプロダクトの数量を定義するか、または \"ア"
+"クション\" メニューからスプレッドシートから数量をインポートします。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "\"新規\" ボタンをクリックして在庫のプロダクトの数量を定義するか、または \"ア"
@@ -57464,7 +58209,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "このロット/シリアル番号に含まれる製品。すでに移動している場合は、変更できません。"
+=======
+msgstr ""
+"このロット/シリアル番号に含まれる製品。すでに移動している場合は、変更できませ"
+"ん。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "このロット/シリアル番号に含まれる製品。すでに移動している場合は、変更できませ"
@@ -57941,7 +58692,11 @@ msgid "Products Availability State"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "製品の入手可能性の状態"
+=======
+msgstr "プロダクトの在庫可用性ステータス"
+>>>>>>> upstream/18.0
 =======
 msgstr "プロダクトの在庫可用性ステータス"
 >>>>>>> upstream/18.0
@@ -58486,7 +59241,11 @@ msgid "Propagation of carrier"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "運送会社の展開"
+=======
+msgstr "配送業者の展開"
+>>>>>>> upstream/18.0
 =======
 msgstr "配送業者の展開"
 >>>>>>> upstream/18.0
@@ -59108,6 +59867,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "In a context with a single Stock Location, this includes goods arriving to this Location, or any of its children.\n"
 "In a context with a single Warehouse, this includes goods arriving to the Stock Location of this Warehouse, or any of its children.\n"
 "Otherwise, this includes goods arriving to any Stock Location with 'internal' type."
@@ -59116,6 +59876,8 @@ msgstr ""
 "単一の在庫場所のコンテキストでは、これには、この場所またはその子のいずれかに到着する製品が含まれます。\n"
 "単一の倉庫の場合、これには、この倉庫またはその子の在庫場所に到着する製品が含まれます。\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -59302,6 +60064,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -59484,6 +60249,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "In a context with a single Stock Location, this includes goods leaving this Location, or any of its children.\n"
 "In a context with a single Warehouse, this includes goods leaving the Stock Location of this Warehouse, or any of its children.\n"
 "Otherwise, this includes goods leaving any Stock Location with 'internal' type."
@@ -59492,6 +60258,8 @@ msgstr ""
 "単一の在庫場所のコンテキストでは、これには、この場所またはその子のいずれかを離れる製品が含まれます。\n"
 "単一の倉庫のコンテキストでは、これには、この倉庫またはその子の在庫場所を離れる製品が含まれます。\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -59678,6 +60446,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -59878,7 +60649,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "製品のデフォルトの測定単位での、この数量の予約済み製品の数量"
+=======
+msgstr "製品のデフォルトの単位での、この数量の予約済み製品の数量"
+>>>>>>> upstream/18.0
 =======
 msgstr "製品のデフォルトの単位での、この数量の予約済み製品の数量"
 >>>>>>> upstream/18.0
@@ -60189,7 +60964,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "クオントは適切な場合に自動削除されます。手動で削除する必要がある場合は、在庫管理者に依頼して下さい。"
+=======
+msgstr ""
+"クオントは適切な場合に自動削除されます。手動で削除する必要がある場合は、在庫"
+"管理者に依頼して下さい。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "クオントは適切な場合に自動削除されます。手動で削除する必要がある場合は、在庫"
@@ -60679,11 +61460,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        locations management traceability, quality control, etc."
 msgstr ""
 "アラート、バーコードアプリ、補充提案、\n"
 "                        ロケーション管理のトレーサビリティ、品質管理などで在庫切れを減らします。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -60864,6 +61648,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -61285,12 +62072,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Reserve Only Full Packagings: will not reserve partial packagings. If customer orders 2 pallets of 1000 units each and you only have 1600 in stock, then only 1000 will be reserved\n"
 "Reserve Partial Packagings: allow reserving partial packagings. If customer orders 2 pallets of 1000 units each and you only have 1600 in stock, then 1600 will be reserved"
 msgstr ""
 "全パッケージング引当：部分パッケージングを引当しません。顧客が1000単位を2パレット注文し、在庫が1600あった場合、1000のみが引き当てられます。\n"
 "部分パッケージング引当：部分パッケージング引当を許可します。顧客が1000単位を2パレットオーダし、在庫が1600あった場合、1,600が引当てられます。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -61476,6 +62266,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -61747,7 +62540,11 @@ msgid "Return"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "返却"
+=======
+msgstr "返品"
+>>>>>>> upstream/18.0
 =======
 msgstr "返品"
 >>>>>>> upstream/18.0
@@ -62100,7 +62897,11 @@ msgid "Return All"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "全て返品"
+=======
+msgstr "すべて返品"
+>>>>>>> upstream/18.0
 =======
 msgstr "すべて返品"
 >>>>>>> upstream/18.0
@@ -62453,7 +63254,11 @@ msgid "Return Picking"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "ピッキングの戻し"
+=======
+msgstr "返品ピッキング"
+>>>>>>> upstream/18.0
 =======
 msgstr "返品ピッキング"
 >>>>>>> upstream/18.0
@@ -62806,7 +63611,11 @@ msgid "Return Picking Line"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "ピッキングラインを返す"
+=======
+msgstr "返品ピッキング明細"
+>>>>>>> upstream/18.0
 =======
 msgstr "返品ピッキング明細"
 >>>>>>> upstream/18.0
@@ -63186,7 +63995,11 @@ msgid "Returned Picking"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "返送品の選別"
+=======
+msgstr "返品済ピッキング"
+>>>>>>> upstream/18.0
 =======
 msgstr "返品済ピッキング"
 >>>>>>> upstream/18.0
@@ -63529,12 +64342,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Reusable boxes are used for batch picking and emptied afterwards to be reused. In the barcode application, scanning a reusable box will add the products in this box.\n"
 "        Disposable boxes aren't reused, when scanning a disposable box in the barcode application, the contained products are added to the transfer."
 msgstr ""
 "再利用可能箱はバッチピッキングに使用され、その後空にして再利用されます。バーコードアプリケーションで、再利用可能箱をスキャンすると、この箱内のプロダクトが追加されます。\n"
 "使い捨て箱は再利用されず、バーコードアプリケーションで使い捨て箱をスキャンすると、含まれている製品が転送に追加されます。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -63720,6 +64536,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -63948,7 +64767,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "チェックされた倉庫からこの倉庫に補給するためのルートが自動的に作成されます"
+=======
+msgstr ""
+"チェックされた倉庫からこの倉庫に補給するためのルートが自動的に作成されます"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "チェックされた倉庫からこの倉庫に補給するためのルートが自動的に作成されます"
@@ -64249,10 +65073,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Routes will be created for these resupply warehouses and you can select them"
 " on products and product categories"
 msgstr "これらの補給倉庫にルートが作成され、プロダクトおよびプロダクトカテゴリで選択することができるようになります。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -64432,6 +65259,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -64614,10 +65444,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Rule %(rule)s belongs to %(rule_company)s while the route belongs to "
 "%(route_company)s."
 msgstr "規則 %(rule)sは%(rule_company)s に属しますがルートは %(route_company)sに属しています。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -64797,6 +65630,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -64980,7 +65816,11 @@ msgid "SMS Delivery error"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "SMS配信エラー"
+=======
+msgstr "SMS送信エラー"
+>>>>>>> upstream/18.0
 =======
 msgstr "SMS送信エラー"
 >>>>>>> upstream/18.0
@@ -65074,6 +65914,7 @@ msgstr "サンプルデータ"
 #: model_terms:ir.ui.view,arch_db:stock.view_move_search
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_internal_search
 msgid "Scheduled Date"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -65411,6 +66252,9 @@ msgstr "予定日"
 =======
 msgstr "予定日"
 >>>>>>> upstream/18.0
+=======
+msgstr "予定日"
+>>>>>>> upstream/18.0
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_move__date
@@ -65487,7 +66331,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "出荷の最初の部分が処理される予定時刻。 ここで手動で値を設定すると、すべての在庫移動の予定日として設定されます。"
+=======
+msgstr ""
+"出荷の最初の部分が処理される予定時刻。 ここで手動で値を設定すると、すべての在"
+"庫移動の予定日として設定されます。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "出荷の最初の部分が処理される予定時刻。 ここで手動で値を設定すると、すべての在"
@@ -65900,9 +66750,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                end up in a scrap location that can be used for reporting purpose."
 msgstr "プロダクトを廃棄すると、在庫から削除されます。プロダクトは廃棄ロケーションに移動され、レポート作成時に使用されます。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -66082,6 +66935,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -66297,7 +67153,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "選択された保管カテゴリが、 '保管先'ロケーションまたはそのサブロケーションのいずれにも存在しません。"
+=======
+msgstr ""
+"選択された保管カテゴリが、 '保管先'ロケーションまたはそのサブロケーションのい"
+"ずれにも存在しません。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "選択された保管カテゴリが、 '保管先'ロケーションまたはそのサブロケーションのい"
@@ -66661,7 +67523,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "警告オプションを選択するとユーザにメッセージを通知します。メッセージをブロックを選択するとメッセージとともに例外が発生しその流れがブロックされます。メッセージは次の項目で記述する必要があります。"
+=======
+"警告オプションを選択するとユーザにメッセージを通知します。メッセージをブロッ"
+"クを選択するとメッセージとともに例外が発生しその流れがブロックされます。メッ"
+"セージは次の項目で記述する必要があります。"
+>>>>>>> upstream/18.0
 =======
 "警告オプションを選択するとユーザにメッセージを通知します。メッセージをブロッ"
 "クを選択するとメッセージとともに例外が発生しその流れがブロックされます。メッ"
@@ -67031,8 +67899,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Send an automatic confirmation SMS Text Message when Delivery Orders are "
 "done"
+=======
+"Send an automatic confirmation SMS Text Message when Delivery Orders are done"
+>>>>>>> upstream/18.0
 =======
 "Send an automatic confirmation SMS Text Message when Delivery Orders are done"
 >>>>>>> upstream/18.0
@@ -67335,12 +68207,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Serial number (%(serial_number)s) already exists in location(s): "
 "%(location_list)s. Please correct the serial number encoded."
 msgstr ""
 "シリアル番号 (%(serial_number)s) "
 "はロケーション%(location_list)sにすでに存在します。エンコードされたシリアル番号を修正して下さい。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -67520,6 +68395,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -67701,12 +68579,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Serial number (%(serial_number)s) is not located in %(source_location)s, but is located in location(s): %(other_locations)s.\n"
 "\n"
 "Please correct this to prevent inconsistent data."
 msgstr ""
 "シリアル番号 (%(serial_number)s) は%(source_location)sに存在しませんが、%(other_locations)sに存在します。\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -67888,6 +68769,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -68071,12 +68955,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Serial number (%(serial_number)s) is not located in %(source_location)s, but is located in location(s): %(other_locations)s.\n"
 "\n"
 "Source location for this move will be changed to %(recommended_location)s"
 msgstr ""
 "シリアル番号 (%(serial_number)s) は%(source_location)sに存在しませんが、%(other_locations)sに存在します。\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -68258,6 +69145,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -68461,6 +69351,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Set a specific removal strategy that will be used regardless of the source location for this product category.\n"
 "\n"
 "FIFO: products/lots that were stocked first will be moved out first.\n"
@@ -68477,6 +69368,8 @@ msgstr ""
 "FEFO:払出日が最も近いプロダクト/ロットが先に搬出されます(この方法が利用できるかどうかは有効期限日の設定に依存します)。\n"
 "最小パッケージ： FIFOですが、同じプロダクトを含むパッケージが複数ある場合、可能な限り最小のパッケージ数で移動します。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -68675,6 +69568,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -68877,7 +69773,11 @@ msgid "Shipping"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "出荷"
+=======
+msgstr "配送"
+>>>>>>> upstream/18.0
 =======
 msgstr "配送"
 >>>>>>> upstream/18.0
@@ -68988,6 +69888,7 @@ msgstr "荷物重量"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -69353,6 +70254,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Shipping connectors allow to compute accurate shipping costs, print shipping "
 "labels and request carrier picking at your warehouse to ship to the "
 "customer. Apply shipping connector from delivery methods."
@@ -69418,6 +70321,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -69698,7 +70604,11 @@ msgid "Show Check Availability"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "チェックの可用性を表示"
+=======
+msgstr "在庫確認ボタンを表示"
+>>>>>>> upstream/18.0
 =======
 msgstr "在庫確認ボタンを表示"
 >>>>>>> upstream/18.0
@@ -70300,7 +71210,13 @@ msgid "Some selected lines already have quantities set, they will be ignored."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "選択された行の中にはすでに数量が設定済のものがありますが、それらは無視されます。"
+=======
+msgstr ""
+"選択された行の中にはすでに数量が設定済のものがありますが、それらは無視されま"
+"す。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "選択された行の中にはすでに数量が設定済のものがありますが、それらは無視されま"
@@ -70996,10 +71912,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Store and retrieve information regarding every Lot/Serial Number (condition,"
 " product info, ...)."
 msgstr "ロット/シリアル番号ごとの情報(状態、プロダクト情報など)を保存し、取得します。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -71178,6 +72097,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -71361,7 +72283,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "製品を倉庫の特定の場所(ビン、ラックなど)に保管し、それに応じて在庫を追跡します。"
+=======
+msgstr ""
+"製品を倉庫の特定の場所(ビン、ラックなど)に保管し、それに応じて在庫を追跡しま"
+"す。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "製品を倉庫の特定の場所(ビン、ラックなど)に保管し、それに応じて在庫を追跡しま"
@@ -71767,6 +72695,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Take From Stock: the products will be taken from the available stock of the source location.\n"
 "Trigger Another Rule: the system will try to find a stock rule to bring the products in the source location. The available stock will be ignored.\n"
 "Take From Stock, if Unavailable, Trigger Another Rule: the products will be taken from the available stock of the source location.If there is no stock available, the system will try to find a  rule to bring the products in the source location."
@@ -71775,6 +72704,8 @@ msgstr ""
 "別の規則をトリガーする:システムは、プロダクトを移動元ロケーションに持ってくるための在庫規則を見つけようとします。利用可能な在庫は無視されます。\n"
 "在庫から取得、利用できない場合は、別の規則をトリガーします:プロダクトは、移動元ロケーションの利用可能な在庫から取得されます。利用可能な在庫がない場合、システムは、移動元ロケーションにプロダクトを持ち込むための規則を見つけようとします。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -71966,6 +72897,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -72089,6 +73023,7 @@ msgstr ""
 msgid ""
 "Technical Field used to decide whether the button \"Allocation\" should be "
 "displayed."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -72385,6 +73320,10 @@ msgstr ""
 msgstr ""
 "”割り当て”ボタンを表示するかどうかを決定するために使用される技術フィールド。"
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"”割り当て”ボタンを表示するかどうかを決定するために使用される技術フィールド。"
+>>>>>>> upstream/18.0
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_warehouse
@@ -72396,6 +73335,7 @@ msgstr "技術情報"
 msgid ""
 "Technical field used to compute whether the button \"Check Availability\" "
 "should be displayed."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -73051,6 +73991,11 @@ msgstr ""
 " \"在庫を確認\" ボタンを表示するかどうかを計算するために使用される技術フィー"
 "ルド。"
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+" \"在庫を確認\" ボタンを表示するかどうかを計算するために使用される技術フィー"
+"ルド。"
+>>>>>>> upstream/18.0
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_change_product_qty__product_tmpl_id
@@ -73122,7 +74067,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "この%s位置情報は在庫アプリで必要なもので、削除することはできませんが、アーカイブすることはできます。"
+=======
+msgstr ""
+"この%s位置情報は在庫アプリで必要なもので、削除することはできませんが、アーカ"
+"イブすることはできます。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "この%s位置情報は在庫アプリで必要なもので、削除することはできませんが、アーカ"
@@ -73481,11 +74432,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The 'Manual Operation' value will create a stock move after the current one."
 " With 'Automatic No Step Added', the location is replaced in the original "
 "move."
 msgstr "手動操作'値は、現在のものの後に在庫移動を作成します。 '自動ステップ追加なし'を使用すると、元の移動で場所が置き換えられます。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -73666,6 +74620,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -73796,6 +74753,7 @@ msgstr "ロット/シリアル番号 (%s) は他のプロダクトにリンク�
 msgid ""
 "The Picking Operations report has been deleted so you cannot print at this "
 "time unless the report is restored."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -74151,11 +75109,17 @@ msgstr ""
 "ピッキングオペレーションレポートが削除されたため、レポートが復元されない限"
 "り、現時点では印刷できません。"
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"ピッキングオペレーションレポートが削除されたため、レポートが復元されない限"
+"り、現時点では印刷できません。"
+>>>>>>> upstream/18.0
 
 #. module: stock
 #. odoo-python
 #: code:addons/stock/models/stock_quant.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -74223,6 +75187,8 @@ msgstr ""
 "\n"
 "これは予測していたことですか？例えば、配送オペレーションが、対応する入荷オペレーションが検証される前に検証された場合、これが発生する可能性があります。この場合、全てのステップが完了すると、問題は自動的に解決されます。そうでない場合は、データの不整合を防ぐためにシリアル番号を修正する必要があります。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -74413,6 +75379,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -74609,7 +75578,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "標準的な当該販売条件の後に作成されたものであっても、顧客は、顧客自身の標準販売条件を明示的に放棄するものとします。いかなる逸脱も、それを有効にするためには事前に書面で明示的に合意されなければなりません。"
+=======
+"標準的な当該販売条件の後に作成されたものであっても、顧客は、顧客自身の標準販"
+"売条件を明示的に放棄するものとします。いかなる逸脱も、それを有効にするために"
+"は事前に書面で明示的に合意されなければなりません。"
+>>>>>>> upstream/18.0
 =======
 "標準的な当該販売条件の後に作成されたものであっても、顧客は、顧客自身の標準販"
 "売条件を明示的に放棄するものとします。いかなる逸脱も、それを有効にするために"
@@ -74969,12 +75944,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The combination of lot/serial number and product must be unique within a company including when no company is defined.\n"
 "The following combinations contain duplicates:\n"
 "%(error_lines)s"
 msgstr ""
 "ロット/シリアル番号とプロダクトの組み合わせは、会社が定義されていない場合も含め、会社内で一意でなければなりません。\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -75156,6 +76134,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -75424,7 +76405,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "このオペレーションは、中間ロケーションにプロダクトを運びます。しかし、このオペレーションは、移動先ロケーションをターゲットとしたオペレーションの連鎖の一部です。"
+=======
+"このオペレーションは、中間ロケーションにプロダクトを運びます。しかし、このオ"
+"ペレーションは、移動先ロケーションをターゲットとしたオペレーションの連鎖の一"
+"部です。"
+>>>>>>> upstream/18.0
 =======
 "このオペレーションは、中間ロケーションにプロダクトを運びます。しかし、このオ"
 "ペレーションは、移動先ロケーションをターゲットとしたオペレーションの連鎖の一"
@@ -75783,7 +76770,13 @@ msgid "The operation takes and suggests products from this location."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "このオペレーションでは、このロケーションからプロダクトを受け取り、提案します。"
+=======
+msgstr ""
+"このオペレーションでは、このロケーションからプロダクトを受け取り、提案しま"
+"す。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "このオペレーションでは、このロケーションからプロダクトを受け取り、提案しま"
@@ -76143,9 +77136,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            operation a specific type which will alter its views accordingly.\n"
 "            On the operation type you could e.g. specify if packing is needed by default,\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -76324,6 +77320,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -76504,7 +77503,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            オペレーションタイプでは、例えば、顧客に表示する必要がある場合に、\n"
+=======
+"            オペレーションタイプでは、例えば、顧客に表示する必要がある場合"
+"に、\n"
+>>>>>>> upstream/18.0
 =======
 "            オペレーションタイプでは、例えば、顧客に表示する必要がある場合"
 "に、\n"
@@ -76817,7 +77821,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "このロケーションを含む親ロケーション。 例： '発送ゾーン'は、 'ゲート1'の親ロケーションです。"
+=======
+msgstr ""
+"このロケーションを含む親ロケーション。 例： '発送ゾーン'は、 'ゲート1'の親ロ"
+"ケーションです。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "このロケーションを含む親ロケーション。 例： '発送ゾーン'は、 'ゲート1'の親ロ"
@@ -77178,7 +78188,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "調達数量はこのフィールド数量の倍数に切り上げられます。0の場合、丸められません。"
+=======
+msgstr ""
+"調達数量はこのフィールド数量の倍数に切り上げられます。0の場合、丸められませ"
+"ん。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "調達数量はこのフィールド数量の倍数に切り上げられます。0の場合、丸められませ"
@@ -77548,7 +78564,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    You may not assign them a package without moving them to a common location."
+=======
+"                    You may not assign them a package without moving them to "
+"a common location."
+>>>>>>> upstream/18.0
 =======
 "                    You may not assign them a package without moving them to "
 "a common location."
@@ -77856,8 +78877,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "プロダクト \"%(product)s\" に対して実施された数量は単位 "
 "\"%(unit)s\"で定義された丸め精度に準じていません。数量を変更するか、単位の丸め精度を変更して下さい。"
+=======
+"プロダクト \"%(product)s\" に対して実施された数量は単位 \"%(unit)s\"で定義さ"
+"れた丸め精度に準じていません。数量を変更するか、単位の丸め精度を変更して下さ"
+"い。"
+>>>>>>> upstream/18.0
 =======
 "プロダクト \"%(product)s\" に対して実施された数量は単位 \"%(unit)s\"で定義さ"
 "れた丸め精度に準じていません。数量を変更するか、単位の丸め精度を変更して下さ"
@@ -78226,7 +79253,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "`product_uom_qty`の代わりに` product_qty`フィールドを設定するプログラミングエラーのため、要求された操作は処理できません。"
+=======
+"`product_uom_qty`の代わりに` product_qty`フィールドを設定するプログラミングエ"
+"ラーのため、要求された操作は処理できません。"
+>>>>>>> upstream/18.0
 =======
 "`product_uom_qty`の代わりに` product_qty`フィールドを設定するプログラミングエ"
 "ラーのため、要求された操作は処理できません。"
@@ -78565,7 +79597,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "この連絡先から商品を受け取るときに移動元として使用される在庫ロケーション。"
+=======
+msgstr ""
+"この連絡先から商品を受け取るときに移動元として使用される在庫ロケーション。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "この連絡先から商品を受け取るときに移動元として使用される在庫ロケーション。"
@@ -78879,7 +79916,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "倉庫は、作成された移動/調達に伝播します。この倉庫は、この規則が必要な倉庫とは異なる場合があります(たとえば、別の倉庫からの再供給規則の場合)"
+=======
+"倉庫は、作成された移動/調達に伝播します。この倉庫は、この規則が必要な倉庫とは"
+"異なる場合があります(たとえば、別の倉庫からの再供給規則の場合)"
+>>>>>>> upstream/18.0
 =======
 "倉庫は、作成された移動/調達に伝播します。この倉庫は、この規則が必要な倉庫とは"
 "異なる場合があります(たとえば、別の倉庫からの再供給規則の場合)"
@@ -79129,6 +80171,7 @@ msgstr "元に戻す在庫調整はありません。"
 msgid ""
 "There is nothing eligible to put in a pack. Either there are no quantities "
 "to put in a pack or all products are already in a pack."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -79484,6 +80527,11 @@ msgstr ""
 "梱包に入れるものがありません。梱包に入れる数量がないか、全てのプロダクトが既"
 "にに梱包に入っています。"
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"梱包に入れるものがありません。梱包に入れる数量がないか、全てのプロダクトが既"
+"にに梱包に入っています。"
+>>>>>>> upstream/18.0
 
 #. module: stock
 #: model_terms:ir.actions.act_window,help:stock.stock_move_line_action
@@ -79498,6 +80546,7 @@ msgstr "このシリアル番号はすでに別のロケーションに存在し
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -80102,6 +81151,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "This adds a dropshipping route to apply on products in order to request your "
 "vendors to deliver to your customers. A product to dropship will generate a "
 "purchase request for quotation once the sales order confirmed. This is a on-"
@@ -80170,6 +81221,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -80360,7 +81414,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "このチェックボックスはあくまで目安であり、プロダクトの動きを検証したり、生成したりするものではありません。"
+=======
+msgstr ""
+"このチェックボックスはあくまで目安であり、プロダクトの動きを検証したり、生成"
+"したりするものではありません。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "このチェックボックスはあくまで目安であり、プロダクトの動きを検証したり、生成"
@@ -80728,7 +81788,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "これは、このオペレーションを手動で作成した場合の既定の移動先です。ただし、後から変更したり、既定で別の移動先を使用するルートを作成したりすることも可能です。"
+=======
+"これは、このオペレーションを手動で作成した場合の既定の移動先です。ただし、後"
+"から変更したり、既定で別の移動先を使用するルートを作成したりすることも可能で"
+"す。"
+>>>>>>> upstream/18.0
 =======
 "これは、このオペレーションを手動で作成した場合の既定の移動先です。ただし、後"
 "から変更したり、既定で別の移動先を使用するルートを作成したりすることも可能で"
@@ -81087,12 +82153,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This is the default source location when this operation is manually created."
 " However, it is possible to change it afterwards or that the routes use "
 "another one by default."
 msgstr ""
 "これは、このオペレーションを手動で作成した場合の既定の移動元です。ただし、後から変更したり、既定で別の移動先を使用するルートを作成したりすることも可能です。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -81274,6 +82343,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -81463,7 +82535,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "移動が予定されているプロダクトの数量です。この数量を下げてもバックオーダーは発生しません。割当てられた移動でこの数量を変更すると、プロダクトの引当に影響しますので、注意して実行して下さい。"
+=======
+"移動が予定されているプロダクトの数量です。この数量を下げてもバックオーダーは"
+"発生しません。割当てられた移動でこの数量を変更すると、プロダクトの引当に影響"
+"しますので、注意して実行して下さい。"
+>>>>>>> upstream/18.0
 =======
 "移動が予定されているプロダクトの数量です。この数量を下げてもバックオーダーは"
 "発生しません。割当てられた移動でこの数量を変更すると、プロダクトの引当に影響"
@@ -81824,7 +82902,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "type=Internalでフィルタされたこのロケーション (内部の場合) と全ての子孫"
+=======
+msgstr ""
+"type=Internalでフィルタされたこのロケーション (内部の場合) と全ての子孫"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "type=Internalでフィルタされたこのロケーション (内部の場合) と全ての子孫"
@@ -82126,7 +83209,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "この場所には製品が含まれているため、この場所の使用法を変更して表示することはできません。"
+=======
+msgstr ""
+"この場所には製品が含まれているため、この場所の使用法を変更して表示することは"
+"できません。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "この場所には製品が含まれているため、この場所の使用法を変更して表示することは"
@@ -82498,11 +83587,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                operations on a specific product. You can filter on the product\n"
 "                to see all the past or future movements for the product."
 msgstr ""
 "このメニューは、特定の製品に対する在庫操作の完全なトレーサビリティを提供します。\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -82683,6 +83775,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -82864,11 +83959,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This menu gives you the full traceability of inventory operations on a specific product.\n"
 "                    You can filter on the product to see all the past movements for the product."
 msgstr ""
 "このメニューは、特定の製品の在庫操作の完全なトレーサビリティを提供します。製品をフィルタリングして、製品の過去のすべての動きを確認できます。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -83050,6 +84148,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -83178,6 +84279,7 @@ msgstr "このメモは配送オーダに追加されます。"
 msgid ""
 "This note is added to internal transfer orders (e.g. where to pick the "
 "product in the warehouse)."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -83533,6 +84635,11 @@ msgstr ""
 "このメモは内部転送オーダに追加されます（倉庫内のピッキング場所を指定する"
 "等）。"
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"このメモは内部転送オーダに追加されます（倉庫内のピッキング場所を指定する"
+"等）。"
+>>>>>>> upstream/18.0
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_template_property_form
@@ -83596,8 +84703,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This note is added to receipt orders (e.g. where to store the product in the"
 " warehouse)."
+=======
+"This note is added to receipt orders (e.g. where to store the product in the "
+"warehouse)."
+>>>>>>> upstream/18.0
 =======
 "This note is added to receipt orders (e.g. where to store the product in the "
 "warehouse)."
@@ -83901,11 +85013,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "better solution could be to archive the product and create a new one "
 "instead."
 msgstr ""
 "このプロダクトは、少なくともひとつの在庫移動があります。不整合が起きる可能性があるので、プロダクトタイプの変更はお勧めできません。解決策としては、このプロダクトをアーカイブし、新しいプロダクトを作成する方法があります。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -84085,6 +85200,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -84274,10 +85392,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This product's company cannot be changed as long as there are stock moves of"
 " it belonging to another company."
 msgstr "このプロダクトの会社は、他の会社に属する在庫移動がある限り変更できません。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -84456,6 +85577,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -84657,11 +85781,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "reference values or assign the existing reference sequence to this operation"
 " type."
 msgstr ""
 "この付番プレフィックスは、別のオペレーションタイプですでに使用されています。問題および/または参照番号の繰返しを避けるために一意のプレフィックスを選択するか、既存の参照番号付番をこのオペレーションタイプに割当てることを推奨します。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -84842,6 +85969,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -85025,7 +86155,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "この在庫場所は、製造オーダで生成される在庫移動の移動元ロケーションとして、デフォルトの代わりに使用されます。"
+=======
+msgstr ""
+"この在庫場所は、製造オーダで生成される在庫移動の移動元ロケーションとして、デ"
+"フォルトの代わりに使用されます。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "この在庫場所は、製造オーダで生成される在庫移動の移動元ロケーションとして、デ"
@@ -85387,7 +86523,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "この在庫ロケーションは、棚卸しの実行で生成される在庫の移動元ロケーションとして、デフォルトの代わりに使用されます。"
+=======
+msgstr ""
+"この在庫ロケーションは、棚卸しの実行で生成される在庫の移動元ロケーションとし"
+"て、デフォルトの代わりに使用されます。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "この在庫ロケーションは、棚卸しの実行で生成される在庫の移動元ロケーションとし"
@@ -85749,7 +86891,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "このユーザは、このプロダクトのロジスティックオペレーションに関連する次の活動を担当します。"
+=======
+msgstr ""
+"このユーザは、このプロダクトのロジスティックオペレーションに関連する次の活動"
+"を担当します。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "このユーザは、このプロダクトのロジスティックオペレーションに関連する次の活動"
@@ -86113,11 +87261,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Those products you added are tracked but lots/serials were not defined. Once applied those can't be changed.<br/>\n"
 "                    Apply anyway?"
 msgstr ""
 "追加したプロダクトは追跡対象ですが、ロット/シリアルは定義されていません。一度適用すると変更できません。<br/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -86298,6 +87449,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -86585,7 +87739,11 @@ msgid "To"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "終了日"
+=======
+msgstr "移動先"
+>>>>>>> upstream/18.0
 =======
 msgstr "移動先"
 >>>>>>> upstream/18.0
@@ -87149,7 +88307,11 @@ msgid "To Backorder"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "バックオーダ作成"
+=======
+msgstr "バックオーダ待ち"
+>>>>>>> upstream/18.0
 =======
 msgstr "バックオーダ待ち"
 >>>>>>> upstream/18.0
@@ -87690,7 +88852,11 @@ msgid "To Count"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "未棚卸"
+=======
+msgstr "棚卸待ち"
+>>>>>>> upstream/18.0
 =======
 msgstr "棚卸待ち"
 >>>>>>> upstream/18.0
@@ -88233,7 +89399,11 @@ msgid "To Deliver"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "未配送"
+=======
+msgstr "配送待ち"
+>>>>>>> upstream/18.0
 =======
 msgstr "配送待ち"
 >>>>>>> upstream/18.0
@@ -88792,7 +89962,11 @@ msgid "To Order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "オーダ予定"
+=======
+msgstr "オーダ予定数量"
+>>>>>>> upstream/18.0
 =======
 msgstr "オーダ予定数量"
 >>>>>>> upstream/18.0
@@ -89333,7 +90507,11 @@ msgid "To Order Computed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "算出オーダする"
+=======
+msgstr "オーダ予定数量(自動計算)"
+>>>>>>> upstream/18.0
 =======
 msgstr "オーダ予定数量(自動計算)"
 >>>>>>> upstream/18.0
@@ -89874,7 +91052,11 @@ msgid "To Order Manual"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "手動オーダする"
+=======
+msgstr "オーダ予定数量(手動)"
+>>>>>>> upstream/18.0
 =======
 msgstr "オーダ予定数量(手動)"
 >>>>>>> upstream/18.0
@@ -90416,7 +91598,11 @@ msgid "To Order with Visibility Days"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "先読み日数でオーダ予定"
+=======
+msgstr "オーダ予定数量(先読み日数考慮)"
+>>>>>>> upstream/18.0
 =======
 msgstr "オーダ予定数量(先読み日数考慮)"
 >>>>>>> upstream/18.0
@@ -90977,7 +92163,11 @@ msgid "To Process"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "未処理"
+=======
+msgstr "処理待ち"
+>>>>>>> upstream/18.0
 =======
 msgstr "処理待ち"
 >>>>>>> upstream/18.0
@@ -91559,7 +92749,11 @@ msgid "To Receive"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "未入荷"
+=======
+msgstr "入荷待ち"
+>>>>>>> upstream/18.0
 =======
 msgstr "入荷待ち"
 >>>>>>> upstream/18.0
@@ -92100,7 +93294,11 @@ msgid "To Reorder"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "再注文対象"
+=======
+msgstr "再発注対象"
+>>>>>>> upstream/18.0
 =======
 msgstr "再発注対象"
 >>>>>>> upstream/18.0
@@ -92641,11 +93839,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "shipping weight specified will default to their products' total weight. This"
 " is the weight used to compute the cost of the shipping."
 msgstr ""
 "梱包と梱包に入っていないプロダクトの合計重量。配送重量が指定されていない梱包は、デフォルトでそのプロダクトの合計重量になります。これは送料の計算に使用される重量です。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -92826,6 +94027,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -93039,12 +94243,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Track following dates on lots & serial numbers: best before, removal, end of life, alert. \n"
 " Such dates are set automatically at lot/serial number creation based on values set on the product (in days)."
 msgstr ""
 "ロット/シリアル番号の以下の日付を追跡: 品質保持期限、払出、使用期限、アラート。\n"
 "これらの日付は、プロダクトに設定された値(日数)に基づき、ロット番号/シリアル番号の作成時に自動的に設定されます。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -93228,6 +94435,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -93349,6 +94559,7 @@ msgstr ""
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -93531,6 +94742,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Track following dates on lots & serial numbers: best before, removal, end of "
 "life, alert. Such dates are set automatically at lot/serial number creation "
 "based on values set on the product (in days)."
@@ -93596,6 +94809,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -93916,7 +95132,11 @@ msgid "Transport management: organize packs in your fleet, or carriers."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "運送管理: 車両や運送会社で梱包を管理します。"
+=======
+msgstr "運送管理: 車両や配送業者で梱包を管理します。"
+>>>>>>> upstream/18.0
 =======
 msgstr "運送管理: 車両や配送業者で梱包を管理します。"
 >>>>>>> upstream/18.0
@@ -94341,6 +95561,10 @@ msgstr "メッセージを入力..."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:stock.field_stock_return_picking__picking_type_code
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:stock.field_stock_return_picking__picking_type_code
 >>>>>>> upstream/18.0
@@ -94590,6 +95814,10 @@ msgstr "記録上の例外活動の種類。"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 >>>>>>> upstream/18.0
@@ -94835,6 +96063,10 @@ msgstr "UPSコネクター"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 >>>>>>> upstream/18.0
@@ -95087,10 +96319,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Unavailable Serial numbers. Please correct the serial numbers encoded: "
 "%(serial_numbers_to_locations)s"
 msgstr "使用できないシリアル番号。シリアル番号を修正して下さい:%(serial_numbers_to_locations)s"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -95270,6 +96505,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -95476,6 +96714,7 @@ msgstr "不明な梱包"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_type_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -96007,6 +97246,8 @@ msgstr "元ドキュメントで事前に指定されていない限り、これ
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Unless previously specified by the source document, this will be the default "
 "picking policy for this operation type."
 msgstr ""
@@ -96070,6 +97311,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -96293,7 +97537,11 @@ msgid "UoM"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "測定単位"
+=======
+msgstr "単位"
+>>>>>>> upstream/18.0
 =======
 msgstr "単位"
 >>>>>>> upstream/18.0
@@ -96597,12 +97845,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Updating the location of this transfer will result in unreservation of the currently assigned items. An attempt to reserve items at the new location will be made and the link with preceding transfers will be discarded.\n"
 "\n"
 "To avoid this, please discard the source location change before saving."
 msgstr ""
 "この転送のロケーションを更新すると、現在割当てられている項目の予約が解除されます。新しいロケーションで項目の引当が試みられ、以前の転送とのリンクは破棄されます。\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -96786,6 +98037,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -96988,7 +98242,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "ロット番号やシリアル番号のバーコードを印刷する場合は、GS1表現規則データマトリクスを使用"
+=======
+msgstr ""
+"ロット番号やシリアル番号のバーコードを印刷する場合は、GS1表現規則データマトリ"
+"クスを使用"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "ロット番号やシリアル番号のバーコードを印刷する場合は、GS1表現規則データマトリ"
@@ -97497,7 +98757,11 @@ msgid "View Availability"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "利用可能表示"
+=======
+msgstr "在庫を表示"
+>>>>>>> upstream/18.0
 =======
 msgstr "在庫を表示"
 >>>>>>> upstream/18.0
@@ -98244,7 +99508,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "このルートに倉庫が選択されている場合、このルートは、製品がこの倉庫を通過するときのデフォルトルートと見なされます。"
+=======
+msgstr ""
+"このルートに倉庫が選択されている場合、このルートは、製品がこの倉庫を通過する"
+"ときのデフォルトルートと見なされます。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "このルートに倉庫が選択されている場合、このルートは、製品がこの倉庫を通過する"
@@ -98621,7 +99891,13 @@ msgid "When checked, the route will be selectable on the Product Packaging."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "チェックを入れると、プロダクトパッケージングでルートを選択できるようになります。"
+=======
+msgstr ""
+"チェックを入れると、プロダクトパッケージングでルートを選択できるようになりま"
+"す。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "チェックを入れると、プロダクトパッケージングでルートを選択できるようになりま"
@@ -98987,6 +100263,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "When products are needed in <b>%(destination)s</b>, <br> "
 "<b>%(operation)s</b> are created from <b>%(source_location)s</b> to fulfill "
 "the need. %(suffix)s"
@@ -98994,6 +100271,8 @@ msgstr ""
 " <b>%(destination)s</b>でプロダクトが必要な場合、 <br> <b>%(operation)s</b> 用ニーズを満たすために "
 "<b>%(source_location)s</b>から作成されます。%(suffix)s"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -99174,6 +100453,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -99355,12 +100637,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "When products arrive in <b>%(source_location)s</b>, <br> "
 "<b>%(operation)s</b> are created to send them to <b>%(destination)s</b>."
 msgstr ""
 "プロダクトが <b>%(source_location)s</b>に到着すると、 <br> <b>%(operation)s</b>が作成され、 "
 "それらは<b>%(destination)s</b>に送られます。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -99540,6 +100825,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -99722,7 +101010,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "TRUEに設定すると、stock.moveの移動先が規則になります。そうでない場合は、ピッキングタイプから取得します。"
+=======
+msgstr ""
+"TRUEに設定すると、stock.moveの移動先が規則になります。そうでない場合は、ピッ"
+"キングタイプから取得します。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "TRUEに設定すると、stock.moveの移動先が規則になります。そうでない場合は、ピッ"
@@ -100083,7 +101377,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "ピッキングが行われない場合、これにより初期需要を変更できます。ピッキングが行われると、これにより、行われた数量を変更できます。"
+=======
+msgstr ""
+"ピッキングが行われない場合、これにより初期需要を変更できます。ピッキングが行"
+"われると、これにより、行われた数量を変更できます。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "ピッキングが行われない場合、これにより初期需要を変更できます。ピッキングが行"
@@ -100442,11 +101742,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "When the virtual stock goes below the Min Quantity specified for this field,"
 " Odoo generates a procurement to bring the forecasted quantity above of this"
 " Min Quantity."
 msgstr "仮想在庫がこのフィールドで指定された最小数量を下回ると、Odooは予測数量をこの最小数量を上回るように調達を行います。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -100627,6 +101930,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -100752,6 +102058,7 @@ msgid ""
 "procurement to bring the forecasted quantity up to (or near to) the Max "
 "Quantity specified for this field (or to Min Quantity, whichever is bigger)."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -101107,10 +102414,16 @@ msgstr ""
 "数量(または最小数量のいずれか大きい方)まで(またはその近くまで)引き上げるため"
 "の調達を生成します。"
 >>>>>>> upstream/18.0
+=======
+"仮想在庫が最小数量を下回ると、Odooは予測数量をこのフィールドで指定された最大"
+"数量(または最小数量のいずれか大きい方)まで(またはその近くまで)引き上げるため"
+"の調達を生成します。"
+>>>>>>> upstream/18.0
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_rule__propagate_carrier
 msgid "When ticked, carrier of shipment will be propagated."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -101532,6 +102845,9 @@ msgstr "チェックを入れると、配送業者が展開されます。"
 =======
 msgstr "チェックを入れると、配送業者が展開されます。"
 >>>>>>> upstream/18.0
+=======
+msgstr "チェックを入れると、配送業者が展開されます。"
+>>>>>>> upstream/18.0
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_rule__propagate_cancel
@@ -101597,7 +102913,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "チェックを入れると、この規則で作成された移動が取消されると、次の移動も取消されます。"
+=======
+msgstr ""
+"チェックを入れると、この規則で作成された移動が取消されると、次の移動も取消さ"
+"れます。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "チェックを入れると、この規則で作成された移動が取消されると、次の移動も取消さ"
@@ -101957,7 +103279,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 " * Ask: users are asked to choose if they want to make a backorder for remaining products\n"
+=======
+" * Ask: users are asked to choose if they want to make a backorder for "
+"remaining products\n"
+>>>>>>> upstream/18.0
 =======
 " * Ask: users are asked to choose if they want to make a backorder for "
 "remaining products\n"
@@ -102257,7 +103584,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "* 確認：ユーザは残りのプロダクトについてバックオーダーを作成するかどうか選択するよう求められます。\n"
+=======
+"* 確認：ユーザは残りのプロダクトについてバックオーダーを作成するかどうか選択"
+"するよう求められます。\n"
+>>>>>>> upstream/18.0
 =======
 "* 確認：ユーザは残りのプロダクトについてバックオーダーを作成するかどうか選択"
 "するよう求められます。\n"
@@ -102607,9 +103939,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You are about to move quantities in a package without moving the full package.\n"
 "                    Those quantities will be removed from the following package(s):"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -102788,6 +104123,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -102973,7 +104311,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "このロケーションで参照されていないプロダクトを集荷しようとしています。マイナス在庫につながります。"
+=======
+msgstr ""
+"このロケーションで参照されていないプロダクトを集荷しようとしています。マイナ"
+"ス在庫につながります。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "このロケーションで参照されていないプロダクトを集荷しようとしています。マイナ"
@@ -103342,7 +104686,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "シリアル番号またはロット番号でいくつかの在庫移動がすでに登録されている場合、その番号にリンクされている製品を変更する権限はありません。在庫の不一致につながるでしょう。"
+=======
+"シリアル番号またはロット番号でいくつかの在庫移動がすでに登録されている場合、"
+"その番号にリンクされている製品を変更する権限はありません。在庫の不一致につな"
+"がるでしょう。"
+>>>>>>> upstream/18.0
 =======
 "シリアル番号またはロット番号でいくつかの在庫移動がすでに登録されている場合、"
 "その番号にリンクされている製品を変更する権限はありません。在庫の不一致につな"
@@ -103703,11 +105053,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "type. To change this, go on the operation type and tick the box \"Create New"
 " Lots/Serial Numbers\"."
 msgstr ""
 "このオペレーションタイプではロットやシリアル番号の作成の権限がありません。これを変更するには、オペレーションタイプの画面にて「ロット/シリアル番号を新規作成」を選択して下さい。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -103888,6 +105241,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -104023,6 +105379,7 @@ msgid ""
 "valuate your stock or change its rounding precision to a smaller value "
 "(example: 0.00001)."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -104240,6 +105597,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "製品の在庫を確保するために、使用している単位よりも小さい単位を使用していま"
 "す。これにより、予約数量の丸めの問題が発生する可能性があります。在庫を評価し"
 "たり、丸めの精度を小さい値に変更したりするには、可能な限り小さい単位を使用す"
@@ -104302,6 +105661,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -104483,6 +105845,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                your warehouses and that define the flows of your products. These\n"
 "                routes can be assigned to a product, a product category or be fixed\n"
 "                on procurement or sales order."
@@ -104490,6 +105853,8 @@ msgstr ""
 "ここで、倉庫を通過し、プロダクトのフローを定義する主なルートを定義できます。\n"
 "これらのルートは、プロダクト、プロダクトカテゴリに割り当てるか、調達または販売注文に固定することができます。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -104674,6 +106039,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -104804,6 +106172,7 @@ msgid ""
 "You can not change the inventory tracking of a product that is currently "
 "reserved on a stock move. If you need to change the inventory tracking, you "
 "should first unreserve the stock move."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -105159,6 +106528,11 @@ msgstr ""
 "在庫移動に引き当てられたプロダクトの在庫追跡は変更できません。在庫追跡の変更"
 "が必要な場合、先に在庫移動の引当を解除して下さい。"
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"在庫移動に引き当てられたプロダクトの在庫追跡は変更できません。在庫追跡の変更"
+"が必要な場合、先に在庫移動の引当を解除して下さい。"
+>>>>>>> upstream/18.0
 
 #. module: stock
 #. odoo-python
@@ -105223,8 +106597,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You can not change the inventory tracking of a product that was already "
 "used."
+=======
+"You can not change the inventory tracking of a product that was already used."
+>>>>>>> upstream/18.0
 =======
 "You can not change the inventory tracking of a product that was already used."
 >>>>>>> upstream/18.0
@@ -105466,10 +106844,13 @@ msgstr "すでに使用されているプロダクトの在庫追跡を変更す
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "You can not create a snoozed orderpoint that is not manually triggered."
 msgstr "手動でトリガされていない一時停止済のオーダポイントを作成することはできません。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -105648,6 +107029,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -105837,7 +107221,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "ピッキングが完了済の製品移動は削除できません。完了済数量の修正のみ可能です。"
+=======
+msgstr ""
+"ピッキングが完了済の製品移動は削除できません。完了済数量の修正のみ可能です。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "ピッキングが完了済の製品移動は削除できません。完了済数量の修正のみ可能です。"
@@ -106152,7 +107541,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "ロット／シリアルを新しいロケーションに移動できるのは、それが1つのロケーションに存在する場合のみです。"
+=======
+msgstr ""
+"ロット／シリアルを新しいロケーションに移動できるのは、それが1つのロケーション"
+"に存在する場合のみです。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "ロット／シリアルを新しいロケーションに移動できるのは、それが1つのロケーション"
@@ -106514,7 +107909,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "1回の移転で移動できるのは、1つの会社が使用する場所に保管されている正の数量のみです。"
+=======
+msgstr ""
+"1回の移転で移動できるのは、1つの会社が使用する場所に保管されている正の数量の"
+"みです。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "1回の移転で移動できるのは、1つの会社が使用する場所に保管されている正の数量の"
@@ -106882,7 +108283,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "一時停止できるのは手動オーダポイントのみです。トリガさせたくない場合は、'自動トリガ' オーダーポイントをアーカイブして下さい。"
+=======
+msgstr ""
+"一時停止できるのは手動オーダポイントのみです。トリガさせたくない場合は、'自動"
+"トリガ' オーダーポイントをアーカイブして下さい。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "一時停止できるのは手動オーダポイントのみです。トリガさせたくない場合は、'自動"
@@ -107242,10 +108649,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You can't deactivate the multi-location if you have more than once warehouse"
 " by company"
 msgstr "会社ごとに複数の倉庫がある場合、マルチロケーションを解除することはできません。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -107425,6 +108835,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -107547,6 +108960,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/stock/models/stock_location.py:0
 msgid "You can't disable locations %s because they still contain products."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -107902,11 +109316,17 @@ msgstr ""
 "ロケーション%sを無効にすることはできません。それらにまだプロダクトが含まれて"
 "います。"
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"ロケーション%sを無効にすることはできません。それらにまだプロダクトが含まれて"
+"います。"
+>>>>>>> upstream/18.0
 
 #. module: stock
 #. odoo-python
 #: code:addons/stock/models/stock_location.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -108086,6 +109506,8 @@ msgstr "倉庫%(location)sで使用されているため、場所%(warehouse)s�
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "You cannot archive location %(location)s because it is used by warehouse %"
 "(warehouse)s"
 msgstr ""
@@ -108149,6 +109571,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -108332,7 +109757,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "完了'に設定されている在庫移動はキャンセルできません。行われた動きを逆にするためにリターンを作成します。"
+=======
+msgstr ""
+"完了'に設定されている在庫移動はキャンセルできません。行われた動きを逆にするた"
+"めにリターンを作成します。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "完了'に設定されている在庫移動はキャンセルできません。行われた動きを逆にするた"
@@ -108692,7 +110123,12 @@ msgid "You cannot change a cancelled stock move, create a new line instead."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "キャンセルされた在庫移動を変更することはできません。新しく作成して下さい。"
+=======
+msgstr ""
+"キャンセルされた在庫移動を変更することはできません。新しく作成して下さい。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "キャンセルされた在庫移動を変更することはできません。新しく作成して下さい。"
@@ -108993,7 +110429,13 @@ msgid "You cannot change the Scheduled Date on a done or cancelled transfer."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "転送が完了またはキャンセルされた場合、スケジュール日を変更することはできません。"
+=======
+msgstr ""
+"転送が完了またはキャンセルされた場合、スケジュール日を変更することはできませ"
+"ん。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "転送が完了またはキャンセルされた場合、スケジュール日を変更することはできませ"
@@ -109352,8 +110794,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "You cannot change the UoM for a stock move that has been set to 'Done'."
+=======
+msgid "You cannot change the UoM for a stock move that has been set to 'Done'."
+>>>>>>> upstream/18.0
 =======
 msgid "You cannot change the UoM for a stock move that has been set to 'Done'."
 >>>>>>> upstream/18.0
@@ -109596,10 +111042,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot change the company of a lot/serial number currently in a location"
 " belonging to another company."
 msgstr "現在、他の会社のロケーションにあるロット/シリアル番号の会社を変更することはできません。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -109779,6 +111228,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -109903,6 +111355,7 @@ msgstr ""
 msgid ""
 "You cannot change the ratio of this unit of measure as some products with "
 "this UoM have already been moved or are currently reserved."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -110298,6 +111751,11 @@ msgstr ""
 "このUoMを備えた一部の製品はすでに移動されているか、現在予約されているため、こ"
 "の単位の比率を変更することはできません。"
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"このUoMを備えた一部の製品はすでに移動されているか、現在予約されているため、こ"
+"の単位の比率を変更することはできません。"
+>>>>>>> upstream/18.0
 
 #. module: stock
 #. odoo-python
@@ -110307,6 +111765,7 @@ msgid ""
 "this product. If you want to change the unit of measure, you should rather "
 "archive this product and create a new one."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -110702,6 +112161,11 @@ msgstr ""
 "位を変更したい場合は、この製品をアーカイブして新しい製品を作成する必要があり"
 "ます。"
 >>>>>>> upstream/18.0
+=======
+"この製品にはすでに在庫移動があるため、数量単位を変更することはできません。単"
+"位を変更したい場合は、この製品をアーカイブして新しい製品を作成する必要があり"
+"ます。"
+>>>>>>> upstream/18.0
 
 #. module: stock
 #. odoo-python
@@ -110775,7 +112239,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "このビューでは、異なる転送からの数量を同じ梱包に直接梱包することはできません。バッチピッキングに追加して、そこで梱包して下さい。"
+=======
+msgstr ""
+"このビューでは、異なる転送からの数量を同じ梱包に直接梱包することはできませ"
+"ん。バッチピッキングに追加して、そこで梱包して下さい。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "このビューでは、異なる転送からの数量を同じ梱包に直接梱包することはできませ"
@@ -111147,10 +112617,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot move the same package content more than once in the same transfer"
 " or split the same package into two location."
 msgstr "同じ転送で同じ梱包内容を複数回移動したり、同じ梱包を2つの場所に分割したりすることはできません。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -111330,6 +112803,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -111513,7 +112989,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "異なるオペレーションタイプの異なる転送からのプロダクトを同梱することはできません。"
+=======
+msgstr ""
+"異なるオペレーションタイプの異なる転送からのプロダクトを同梱することはできま"
+"せん。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "異なるオペレーションタイプの異なる転送からのプロダクトを同梱することはできま"
@@ -111875,7 +113357,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "プロダクトの数量単位と数量単位のカテゴリが異なるため、移動を実行できません。"
+=======
+msgstr ""
+"プロダクトの数量単位と数量単位のカテゴリが異なるため、移動を実行できません。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "プロダクトの数量単位と数量単位のカテゴリが異なるため、移動を実行できません。"
@@ -112178,7 +113665,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "製造タイプのオペレーションの出荷先として割当てられている場所を、廃棄場所として設定することはできません。"
+=======
+msgstr ""
+"製造タイプのオペレーションの出荷先として割当てられている場所を、廃棄場所とし"
+"て設定することはできません。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "製造タイプのオペレーションの出荷先として割当てられている場所を、廃棄場所とし"
@@ -112540,7 +114033,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "廃棄ロケーションを製造タイプのオペレーションの出荷先として設定することはできません。"
+=======
+msgstr ""
+"廃棄ロケーションを製造タイプのオペレーションの出荷先として設定することはでき"
+"ません。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "廃棄ロケーションを製造タイプのオペレーションの出荷先として設定することはでき"
@@ -112900,7 +114399,12 @@ msgid "You cannot split a draft move. It needs to be confirmed first."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "ドラフトの移動を分割することはできません。 最初に確認する必要があります。"
+=======
+msgstr ""
+"ドラフトの移動を分割することはできません。 最初に確認する必要があります。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "ドラフトの移動を分割することはできません。 最初に確認する必要があります。"
@@ -113201,7 +114705,12 @@ msgid "You cannot split a stock move that has been set to 'Done' or 'Cancel'."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "'完了'または'キャンセル'に設定されている在庫移動を分割することはできません。"
+=======
+msgstr ""
+"'完了'または'キャンセル'に設定されている在庫移動を分割することはできません。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "'完了'または'キャンセル'に設定されている在庫移動を分割することはできません。"
@@ -113504,7 +115013,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "タイプ'ビュー'(%s)の場所から製品を受け取ったり、製品を配送したりすることはできません。"
+=======
+msgstr ""
+"タイプ'ビュー'(%s)の場所から製品を受け取ったり、製品を配送したりすることはで"
+"きません。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "タイプ'ビュー'(%s)の場所から製品を受け取ったり、製品を配送したりすることはで"
@@ -113872,7 +115387,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "同じシリアル番号を2回使用することはできません。エンコードされているシリアル番号を修正してください。"
+=======
+msgstr ""
+"同じシリアル番号を2回使用することはできません。エンコードされているシリアル番"
+"号を修正してください。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "同じシリアル番号を2回使用することはできません。エンコードされているシリアル番"
@@ -114173,6 +115694,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/stock/models/stock_picking.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -114530,6 +116052,11 @@ msgstr ""
 "reserved moves are picked.To force the transfer, encode quantities."
 msgstr ""
 >>>>>>> upstream/18.0
+=======
+"You cannot validate a transfer if no quantities are reserved, or if only non-"
+"reserved moves are picked.To force the transfer, encode quantities."
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: stock
 #. odoo-python
@@ -114596,7 +116123,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "空の転送は確認できません。先に進む前に転送するプロダクトを追加して下さい。"
+=======
+msgstr ""
+"空の転送は確認できません。先に進む前に転送するプロダクトを追加して下さい。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "空の転送は確認できません。先に進む前に転送するプロダクトを追加して下さい。"
@@ -114914,7 +116446,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "ロット/シリアル番号のない製品の在庫があります。在庫調整を行うことにより、ロット/シリアル番号を割り当てることができます。"
+=======
+msgstr ""
+"ロット/シリアル番号のない製品の在庫があります。在庫調整を行うことにより、ロッ"
+"ト/シリアル番号を割り当てることができます。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "ロット/シリアル番号のない製品の在庫があります。在庫調整を行うことにより、ロッ"
@@ -115274,6 +116812,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You have to select a product unit of measure that is in the same category as"
 " the default unit of measure of the product"
 <<<<<<< HEAD
@@ -115318,6 +116857,8 @@ msgstr "製品のデフォルトの単位と同じカテゴリにある製品の
 msgstr "製品のデフォルトの単位と同じカテゴリにある製品の単位を選択する必要があります"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -115496,6 +117037,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -115691,7 +117235,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "内部オペレーションタイプを実行するため、保管場所をアクティブにする必要があります。"
+=======
+msgstr ""
+"内部オペレーションタイプを実行するため、保管場所をアクティブにする必要があり"
+"ます。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "内部オペレーションタイプを実行するため、保管場所をアクティブにする必要があり"
@@ -116072,7 +117622,12 @@ msgid "You should update this document to reflect your T&amp;C."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "お客様のT&amp;Cを反映させるために、このドキュメントを更新する必要があります。"
+=======
+msgstr ""
+"お客様のT&amp;Cを反映させるために、このドキュメントを更新する必要があります。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "お客様のT&amp;Cを反映させるために、このドキュメントを更新する必要があります。"
@@ -116375,7 +117930,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "オペレーションタイプ%(operations)s用に進行中のオペレーションがまだ倉庫%(warehouse)s内にあります"
+=======
+msgstr ""
+"オペレーションタイプ%(operations)s用に進行中のオペレーションがまだ倉庫%"
+"(warehouse)s内にあります"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "オペレーションタイプ%(operations)s用に進行中のオペレーションがまだ倉庫%"
@@ -116737,7 +118298,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "このプロダクトには、まだいくつかのアクティブな並べ替え規則があります。最初にアーカイブまたは削除して下さい。"
+=======
+msgstr ""
+"このプロダクトには、まだいくつかのアクティブな並べ替え規則があります。最初に"
+"アーカイブまたは削除して下さい。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "このプロダクトには、まだいくつかのアクティブな並べ替え規則があります。最初に"
@@ -117099,7 +118666,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "既存のレコードと同じものは作成できません。代わりに既存のレコードが更新されました。"
+=======
+msgstr ""
+"既存のレコードと同じものは作成できません。代わりに既存のレコードが更新されま"
+"した。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "既存のレコードと同じものは作成できません。代わりに既存のレコードが更新されま"
@@ -117458,9 +119031,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You'll find here smart replenishment propositions based on inventory forecasts.\n"
 "            Choose the quantity to buy or manufacture and launch orders in a click.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -117639,6 +119215,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -117860,7 +119439,11 @@ msgid "Your stock is currently empty"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "現在、在庫はございません。"
+=======
+msgstr "現在、在庫が空です"
+>>>>>>> upstream/18.0
 =======
 msgstr "現在、在庫が空です"
 >>>>>>> upstream/18.0
@@ -118450,6 +120033,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "{{ object.company_id.name }} 配送オーダ (Ref {{ object.name or 'n/a' }})"
 =======
 msgstr ""
@@ -118600,6 +120184,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr ""
 "{{ object.company_id.name }} 配送オーダ (Ref {{ object.name or 'n/a' }})"
 
@@ -118651,6 +120237,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

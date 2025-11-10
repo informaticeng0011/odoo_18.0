@@ -1,8 +1,14 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* l10n_ar_withholding
 #
+=======
+# * l10n_ar_withholding
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 =======
 # * l10n_ar_withholding
 #
@@ -14,6 +20,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-11-28 09:54+0000\n"
 =======
 "POT-Creation-Date: 2025-11-03 15:39+0000\n"
@@ -22,18 +29,28 @@ msgstr ""
 "Last-Translator: Fernanda Alvarez, 2024\n"
 "Language-Team: \n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-11-03 15:39+0000\n"
 "PO-Revision-Date: 2025-11-07 19:09+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Spanish (Latin America) <https://translate.odoo.com/projects/"
 "odoo-18-l10n/l10n_ar_withholding/es_419/>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Language: es_419\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+=======
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 =======
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.12.2\n"
@@ -79,7 +96,11 @@ msgstr "<span>Cantidad</span>"
 #: model_terms:ir.ui.view,arch_db:l10n_ar_withholding.report_payment_receipt_document
 msgid "<span>Base</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Base</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>Base</span>"
 >>>>>>> upstream/18.0
@@ -138,8 +159,13 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Cuenta que se mostrará en las líneas creadas para representar las cantidades"
 " base de impuestos."
+=======
+"Cuenta que se mostrará en las líneas creadas para representar las cantidades "
+"base de impuestos."
+>>>>>>> upstream/18.0
 =======
 "Cuenta que se mostrará en las líneas creadas para representar las cantidades "
 "base de impuestos."
@@ -203,8 +229,13 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Monto base = Base del impuesto + montos bases de impuesto aplicados este mes"
 " al mismo impuesto y al mismo contacto - mínimo no imponible"
+=======
+"Monto base = Base del impuesto + montos bases de impuesto aplicados este mes "
+"al mismo impuesto y al mismo contacto - mínimo no imponible"
+>>>>>>> upstream/18.0
 =======
 "Monto base = Base del impuesto + montos bases de impuesto aplicados este mes "
 "al mismo impuesto y al mismo contacto - mínimo no imponible"
@@ -227,6 +258,7 @@ msgstr ""
 "Cálculo del impuesto de retención: Del monto imponible (monto base + montos "
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "base aplicados en este mes al mismo impuesto y al mismo contacto - mínimo no"
 " imponible) restar el monto inmediato anterior a la columna 'S/ Excedente de"
 " $' para detectar con que fila trabajar y aplicar el porcentaje de dicha "
@@ -235,12 +267,17 @@ msgstr ""
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "base aplicados en este mes al mismo impuesto y al mismo contacto - mínimo no "
 "imponible) restar el monto inmediato anterior a la columna 'S/ Excedente de "
 "$' para detectar con que fila trabajar y aplicar el porcentaje de dicha fila "
 "al resultado de la resta. Luego agregar a dicho monto el monto de la columna "
 "'$'. "
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -314,7 +351,10 @@ msgstr "Nombre para mostrar"
 #. module: l10n_ar_withholding
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:ir.model,name:l10n_ar_withholding.model_account_tax
@@ -323,6 +363,9 @@ msgstr ""
 
 #. module: l10n_ar_withholding
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -342,8 +385,12 @@ msgid "Earnings table scale if tax type is 'Earnings Scale'."
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Tabla de escala de ganancias si el tipo de impuesto es 'Escala de "
 "ganancias'."
+=======
+"Tabla de escala de ganancias si el tipo de impuesto es 'Escala de ganancias'."
+>>>>>>> upstream/18.0
 =======
 "Tabla de escala de ganancias si el tipo de impuesto es 'Escala de ganancias'."
 >>>>>>> upstream/18.0
@@ -366,6 +413,7 @@ msgstr "Fecha desde"
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "From the taxable amount (tax base + tax bases applied this month to same tax"
 " and partner - non-taxable minimum) subtract the immediately previous amount"
 " of this column to detect which row to work with and apply the percentage of"
@@ -373,11 +421,16 @@ msgid ""
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "From the taxable amount (tax base + tax bases applied this month to same tax "
 "and partner - non-taxable minimum) subtract the immediately previous amount "
 "of this column to detect which row to work with and apply the percentage of "
 "said row to the result of the subtraction."
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -394,7 +447,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:l10n_ar_withholding.field_l10n_ar_payment_register_withholding__id
 msgid "ID"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ID"
+>>>>>>> upstream/18.0
 =======
 msgstr "ID"
 >>>>>>> upstream/18.0
@@ -599,7 +656,10 @@ msgstr "Escala 119"
 #. module: l10n_ar_withholding
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model,name:l10n_ar_withholding.model_account_tax
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -661,6 +721,7 @@ msgstr ""
 "montos bases aplicados este mes al mismo impuesto y contacto - mínimo no "
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "imponible) restar el monto inmediato anterior de la columna 'S/ Exced. of $'"
 " para detectar con que fila trabajar y aplicar el porcentaje de dicha fila "
 "al resultado de la resta. Luego sumar el monto de esta columna al resultado "
@@ -668,11 +729,16 @@ msgstr ""
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "imponible) restar el monto inmediato anterior de la columna 'S/ Exced. of $' "
 "para detectar con que fila trabajar y aplicar el porcentaje de dicha fila al "
 "resultado de la resta. Luego sumar el monto de esta columna al resultado de "
 "aplicar el porcentaje."
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -681,7 +747,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:l10n_ar_withholding.view_account_payment_form
 msgid "Total"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Total"
+>>>>>>> upstream/18.0
 =======
 msgstr "Total"
 >>>>>>> upstream/18.0

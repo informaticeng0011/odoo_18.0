@@ -6,6 +6,7 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Project-Id-Version: Odoo Server 17.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-27 09:04+0000\n"
@@ -13,11 +14,16 @@ msgstr ""
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-03 15:46+0000\n"
 "PO-Revision-Date: 2025-11-03 15:46+0000\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -48,7 +54,10 @@ msgstr ""
 #. module: l10n_rs_edi
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:ir.model,name:l10n_rs_edi.model_account_move_send_wizard
@@ -57,6 +66,9 @@ msgstr ""
 
 #. module: l10n_rs_edi
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -112,7 +124,10 @@ msgstr ""
 #: code:addons/l10n_rs_edi/models/res_partner.py:0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -129,9 +144,14 @@ msgstr ""
 #. odoo-python
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/l10n_rs_edi/wizard/account_move_send.py:0
 #, python-format
 msgid "Errors when generating the UBL document:"
+=======
+#: code:addons/l10n_rs_edi/models/account_move_send.py:0
+msgid "Errors when submitting the e-invoice to eFaktura:"
+>>>>>>> upstream/18.0
 =======
 #: code:addons/l10n_rs_edi/models/account_move_send.py:0
 msgid "Errors when submitting the e-invoice to eFaktura:"
@@ -146,9 +166,14 @@ msgstr ""
 #. odoo-python
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/l10n_rs_edi/wizard/account_move_send.py:0
 #, python-format
 msgid "Errors when submitting the e-invoice to eFaktura:"
+=======
+#: code:addons/l10n_rs_edi/models/account_move.py:0
+msgid "Invalid response from eFaktura: %s"
+>>>>>>> upstream/18.0
 =======
 #: code:addons/l10n_rs_edi/models/account_move.py:0
 msgid "Invalid response from eFaktura: %s"
@@ -164,7 +189,10 @@ msgstr ""
 #: model:ir.model.fields,field_description:l10n_rs_edi.field_account_move__l10n_rs_edi_invoice
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_rs_edi.field_account_payment__l10n_rs_edi_invoice
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -188,7 +216,10 @@ msgstr ""
 #: model:ir.model.fields,field_description:l10n_rs_edi.field_account_move__l10n_rs_edi_is_eligible
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_rs_edi.field_account_payment__l10n_rs_edi_is_eligible
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -197,6 +228,7 @@ msgid "L10N Rs Edi Is Eligible"
 msgstr ""
 
 #. module: l10n_rs_edi
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_rs_edi.field_account_move_send__l10n_rs_edi_send_enable
@@ -220,6 +252,10 @@ msgstr ""
 #. odoo-python
 #: code:addons/l10n_rs_edi/models/account_move_send.py:0
 >>>>>>> upstream/18.0
+=======
+#. odoo-python
+#: code:addons/l10n_rs_edi/models/account_move_send.py:0
+>>>>>>> upstream/18.0
 msgid "Please configure the eFaktura API Key in the company settings."
 msgstr ""
 
@@ -228,7 +264,10 @@ msgstr ""
 #: code:addons/l10n_rs_edi/models/res_partner.py:0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -241,7 +280,10 @@ msgstr ""
 #: model:ir.model.fields,field_description:l10n_rs_edi.field_account_move__l10n_rs_edi_purchase_invoice
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_rs_edi.field_account_payment__l10n_rs_edi_purchase_invoice
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -254,7 +296,10 @@ msgstr ""
 #: code:addons/l10n_rs_edi/models/account_move.py:0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -267,7 +312,10 @@ msgstr ""
 #: model:ir.model.fields,field_description:l10n_rs_edi.field_account_move__l10n_rs_edi_uuid
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_rs_edi.field_account_payment__l10n_rs_edi_uuid
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -286,7 +334,10 @@ msgstr ""
 #: model:ir.model.fields,field_description:l10n_rs_edi.field_account_move__l10n_rs_edi_sales_invoice
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_rs_edi.field_account_payment__l10n_rs_edi_sales_invoice
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -295,6 +346,7 @@ msgid "Sales Invoice Id"
 msgstr ""
 
 #. module: l10n_rs_edi
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_rs_edi.field_account_move_send__l10n_rs_edi_send_cir_checkbox
@@ -319,15 +371,25 @@ msgid "Send to CIR"
 #: code:addons/l10n_rs_edi/models/account_move_send.py:0
 msgid "Send to CIR"
 >>>>>>> upstream/18.0
+=======
+#. odoo-python
+#: code:addons/l10n_rs_edi/models/account_move_send.py:0
+msgid "Send to CIR"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: l10n_rs_edi
 #. odoo-python
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/l10n_rs_edi/models/account_move.py:0
 #, python-format
 msgid "Sending Failed with Code: [%s] %s"
+=======
+#: code:addons/l10n_rs_edi/models/account_move_send.py:0
+msgid "Send to Central Invoice Register(For B2G and the public sector)"
+>>>>>>> upstream/18.0
 =======
 #: code:addons/l10n_rs_edi/models/account_move_send.py:0
 msgid "Send to Central Invoice Register(For B2G and the public sector)"
@@ -348,7 +410,10 @@ msgstr ""
 #: model:ir.model.fields,field_description:l10n_rs_edi.field_account_move__l10n_rs_edi_error
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_rs_edi.field_account_payment__l10n_rs_edi_error
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -361,7 +426,10 @@ msgstr ""
 #: model:ir.model.fields,field_description:l10n_rs_edi.field_account_move__l10n_rs_edi_state
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_rs_edi.field_account_payment__l10n_rs_edi_state
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -374,7 +442,10 @@ msgstr ""
 #: model:ir.model.fields,help:l10n_rs_edi.field_account_move__l10n_rs_edi_attachment_file
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,help:l10n_rs_edi.field_account_payment__l10n_rs_edi_attachment_file
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -387,7 +458,10 @@ msgstr ""
 #: model:ir.model.fields,field_description:l10n_rs_edi.field_account_move__l10n_rs_edi_attachment_file
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_rs_edi.field_account_payment__l10n_rs_edi_attachment_file
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -400,7 +474,10 @@ msgstr ""
 #: model:ir.model.fields,field_description:l10n_rs_edi.field_account_move__l10n_rs_tax_date_obligations_code
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_rs_edi.field_account_payment__l10n_rs_tax_date_obligations_code
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -413,7 +490,10 @@ msgstr ""
 #: model:ir.model.fields,help:l10n_rs_edi.field_account_move__l10n_rs_edi_is_eligible
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,help:l10n_rs_edi.field_account_payment__l10n_rs_edi_is_eligible
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -427,7 +507,10 @@ msgstr ""
 #: code:addons/l10n_rs_edi/models/account_move.py:0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -445,7 +528,10 @@ msgstr ""
 #: model:ir.model.fields,help:l10n_rs_edi.field_account_move__l10n_rs_edi_uuid
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,help:l10n_rs_edi.field_account_payment__l10n_rs_edi_uuid
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -459,8 +545,12 @@ msgstr ""
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Unique Identifier of Public Funds Users ( Jedinstveni Identifikator "
 "Korisnika Javnih Sredstava ) such as Government agencies, public "
+=======
+"Unique Identifier of Public Funds Users such as Government agencies, public "
+>>>>>>> upstream/18.0
 =======
 "Unique Identifier of Public Funds Users such as Government agencies, public "
 >>>>>>> upstream/18.0
@@ -479,7 +569,10 @@ msgstr ""
 #. module: l10n_rs_edi
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_rs_edi.field_account_move_send__l10n_rs_edi_send_checkbox
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -503,8 +596,12 @@ msgstr ""
 #. odoo-python
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/l10n_rs_edi/wizard/account_move_send.py:0
 #, python-format
+=======
+#: code:addons/l10n_rs_edi/models/account_move_send.py:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/l10n_rs_edi/models/account_move_send.py:0
 >>>>>>> upstream/18.0
@@ -524,7 +621,10 @@ msgstr ""
 #: model:ir.model.fields,field_description:l10n_rs_edi.field_account_move__l10n_rs_edi_attachment_id
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_rs_edi.field_account_payment__l10n_rs_edi_attachment_id
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

@@ -499,8 +499,13 @@ describe("not collapsed selection", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <tr><td>cd</td><td><span class="a">TEST</span>[]</td><td>gh</td></tr>
                         <tr><td>ij</td><td><br></td><td>mn</td></tr>
+=======
+                        <tr><td>cd</td><td><p><span class="a">TEST</span>[]</p></td><td>gh</td></tr>
+                        <tr><td>ij</td><td><p><br></p></td><td>mn</td></tr>
+>>>>>>> upstream/18.0
 =======
                         <tr><td>cd</td><td><p><span class="a">TEST</span>[]</p></td><td>gh</td></tr>
                         <tr><td>ij</td><td><p><br></p></td><td>mn</td></tr>

@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* google_calendar
 # 
 # Translators:
@@ -411,17 +412,23 @@
 >>>>>>> upstream/18.0
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 # * google_calendar
 #
 # Translators:
 # Wil Odoo, 2025
 #
 # "Marta (wacm)" <wacm@odoo.com>, 2025.
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1039,6 +1046,8 @@ msgstr ""
 "Language: pl\n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-07-18 18:38+0000\n"
 "PO-Revision-Date: 2025-11-05 15:05+0000\n"
 "Last-Translator: \"Marta (wacm)\" <wacm@odoo.com>\n"
@@ -1052,6 +1061,9 @@ msgstr ""
 "n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && "
 "n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: google_calendar
@@ -1059,7 +1071,11 @@ msgstr ""
 #: code:addons/google_calendar/models/google_sync.py:0
 msgid "%(id)s and %(length)s following"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "%(id)s i %(length)s następujące"
+=======
+msgstr "%(id)s i %(length)s następują"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(id)s i %(length)s następują"
 >>>>>>> upstream/18.0
@@ -1087,7 +1103,11 @@ msgstr "%(reminder_type)s - %(duration)s minut"
 #: code:addons/google_calendar/models/calendar.py:0
 msgid "(No title)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "(Brak tytułu)"
+=======
+msgstr "(Beztytułu)"
+>>>>>>> upstream/18.0
 =======
 msgstr "(Beztytułu)"
 >>>>>>> upstream/18.0
@@ -1119,18 +1139,28 @@ msgid ""
 " synchronization."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "Wystąpił błąd podczas generowania tokenu. Twój kod autoryzacyjny może być "
 "nieprawidłowy lub już wygasł [%s]. Sprawdź swój identyfikator klienta i "
 "klucz na platformie Google APIs lub spróbuj zatrzymać i ponownie uruchomić "
 "synchronizację kalendarza."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: google_calendar
 #: model:ir.model,name:google_calendar.model_calendar_attendee
 msgid "Calendar Attendee Information"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Kalendarzowa informacja dla uczestników"
+=======
+msgstr "Informacja kalendarza dla uczestników"
+>>>>>>> upstream/18.0
 =======
 msgstr "Informacja kalendarza dla uczestników"
 >>>>>>> upstream/18.0
@@ -1155,7 +1185,11 @@ msgstr "Anuluj"
 #: model_terms:ir.ui.view,arch_db:google_calendar.res_config_settings_view_form
 msgid "Client ID"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Identyfikator klienta"
+=======
+msgstr "ID klienta"
+>>>>>>> upstream/18.0
 =======
 msgstr "ID klienta"
 >>>>>>> upstream/18.0
@@ -1164,7 +1198,11 @@ msgstr "ID klienta"
 #: model_terms:ir.ui.view,arch_db:google_calendar.res_config_settings_view_form
 msgid "Client Secret"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Klucz Client Secret"
+=======
+msgstr "Klucz klienta"
+>>>>>>> upstream/18.0
 =======
 msgstr "Klucz klienta"
 >>>>>>> upstream/18.0
@@ -1173,7 +1211,11 @@ msgstr "Klucz klienta"
 #: model:ir.model.fields,field_description:google_calendar.field_res_config_settings__cal_client_id
 msgid "Client_id"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "ID klienta"
+=======
+msgstr "Client_id"
+>>>>>>> upstream/18.0
 =======
 msgstr "Client_id"
 >>>>>>> upstream/18.0
@@ -1182,7 +1224,11 @@ msgstr "Client_id"
 #: model:ir.model.fields,field_description:google_calendar.field_res_config_settings__cal_client_secret
 msgid "Client_key"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Klucz klienta"
+=======
+msgstr "Client_key"
+>>>>>>> upstream/18.0
 =======
 msgstr "Client_key"
 >>>>>>> upstream/18.0
@@ -1213,7 +1259,11 @@ msgstr "Potwierdź"
 #: model:ir.model.fields,field_description:google_calendar.field_google_calendar_account_reset__create_uid
 msgid "Created by"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Utworzył(a)"
+=======
+msgstr "Utworzył/a"
+>>>>>>> upstream/18.0
 =======
 msgstr "Utworzył/a"
 >>>>>>> upstream/18.0
@@ -1227,7 +1277,11 @@ msgstr "Data utworzenia"
 #: model:ir.model.fields.selection,name:google_calendar.selection__google_calendar_account_reset__delete_policy__delete_odoo
 msgid "Delete from Odoo"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Usunięte z Odoo"
+=======
+msgstr "Usuń z Odoo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Usuń z Odoo"
 >>>>>>> upstream/18.0
@@ -1236,7 +1290,11 @@ msgstr "Usuń z Odoo"
 #: model:ir.model.fields.selection,name:google_calendar.selection__google_calendar_account_reset__delete_policy__delete_both
 msgid "Delete from both"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Usunięte z obu"
+=======
+msgstr "Usuń z obu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Usuń z obu"
 >>>>>>> upstream/18.0
@@ -1366,7 +1424,10 @@ msgstr "E-mail"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1636,6 +1697,9 @@ msgstr "Zarządzanie alarmem wydarzenia"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1880,7 +1944,11 @@ msgstr "Kalendarz Google: Synchronizacja"
 #: model:ir.model.fields.selection,name:google_calendar.selection__calendar_event__videocall_source__google_meet
 msgid "Google Meet"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Google Meet"
+>>>>>>> upstream/18.0
 =======
 msgstr "Google Meet"
 >>>>>>> upstream/18.0
@@ -1895,7 +1963,11 @@ msgstr "Synchronizacja Google wstrzymana"
 #: model:ir.model.fields,field_description:google_calendar.field_res_users_settings__google_synchronization_stopped
 msgid "Google Synchronization stopped"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Zatrzymano synchronizację z Google"
+=======
+msgstr "Synchronizacja Google zatrzymana"
+>>>>>>> upstream/18.0
 =======
 msgstr "Synchronizacja Google zatrzymana"
 >>>>>>> upstream/18.0
@@ -1910,7 +1982,11 @@ msgstr "Google podało następujące wyjaśnienie: %s"
 #: model:ir.model.fields,field_description:google_calendar.field_calendar_event__guests_readonly
 msgid "Guests Event Modification Permission"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zezwolenie na modyfikację wydarzenia dla gości"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zezwolenie na modyfikację wydarzenia dla gości"
 >>>>>>> upstream/18.0
@@ -1928,7 +2004,11 @@ msgid ""
 msgstr ""
 "Jeśli przestawisz pole Aktywne na False, to ukryjesz alarm zdarzenia bez "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "usuwania go. "
+=======
+"usuwania go."
+>>>>>>> upstream/18.0
 =======
 "usuwania go."
 >>>>>>> upstream/18.0
@@ -1938,6 +2018,10 @@ msgstr ""
 msgid "Indicates if synchronization with Google Calendar is paused or not."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Wskazuje, czy synchronizacja z Kalendarzem Google jest wstrzymana, czy nie."
+>>>>>>> upstream/18.0
 =======
 "Wskazuje, czy synchronizacja z Kalendarzem Google jest wstrzymana, czy nie."
 >>>>>>> upstream/18.0
@@ -1947,7 +2031,11 @@ msgstr ""
 #: code:addons/google_calendar/models/google_sync.py:0
 msgid "It will not be synced as long at it is not updated."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nie będzie synchronizowane, dopóki nie zostanie zaktualizowane."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nie będzie synchronizowane, dopóki nie zostanie zaktualizowane."
 >>>>>>> upstream/18.0
@@ -1961,7 +2049,12 @@ msgid ""
 msgstr ""
 "Ostatnie ID kalendarza zostało zsynchronizowane. Jeśli zostanie zmienione, "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "usuniemy wszystkie powiązania między ID Google i wewnętrznym ID Odoo Google."
+=======
+"usuniemy wszystkie powiązania między ID Google i wewnętrznym ID Google w "
+"Odoo."
+>>>>>>> upstream/18.0
 =======
 "usuniemy wszystkie powiązania między ID Google i wewnętrznym ID Google w "
 "Odoo."
@@ -2010,7 +2103,11 @@ msgstr "Powiadomienie"
 #: model_terms:ir.ui.view,arch_db:google_calendar.res_config_settings_view_form
 msgid "Pause Synchronization"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Wstrzymaj synchronizację"
+>>>>>>> upstream/18.0
 =======
 msgstr "Wstrzymaj synchronizację"
 >>>>>>> upstream/18.0
@@ -2064,6 +2161,11 @@ msgid ""
 "event permissions set on Google Calendar."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Poniższe wydarzenie może być aktualizowane wyłącznie przez organizatora "
+"zgodnie z uprawnieniami ustawionymi w Kalendarzu Google."
+>>>>>>> upstream/18.0
 =======
 "Poniższe wydarzenie może być aktualizowane wyłącznie przez organizatora "
 "zgodnie z uprawnieniami ustawionymi w Kalendarzu Google."
@@ -2075,6 +2177,10 @@ msgstr ""
 msgid "The following event could not be synced with Google Calendar."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nie udało się zsynchronizować następującego wydarzenia z Kalendarzem Google."
+>>>>>>> upstream/18.0
 =======
 "Nie udało się zsynchronizować następującego wydarzenia z Kalendarzem Google."
 >>>>>>> upstream/18.0

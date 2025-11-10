@@ -164,6 +164,10 @@ import { getScrollingElement } from "@web/core/utils/scrolling";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { isBrowserMicrosoftEdge } from "@web/core/browser/feature_detection";
+>>>>>>> upstream/18.0
 =======
 import { isBrowserMicrosoftEdge } from "@web/core/browser/feature_detection";
 >>>>>>> upstream/18.0
@@ -937,7 +941,10 @@ export class WebsitePreview extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1344,6 +1351,9 @@ export class WebsitePreview extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1911,12 +1921,15 @@ export class WebsitePreview extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (!this.websiteContext.edition && this.iframe.el.contentDocument.body && this.iframefallback.el) {
             this.iframefallback.el.contentDocument.body.replaceWith(this.iframe.el.contentDocument.body.cloneNode(true));
             this.iframefallback.el.classList.remove('d-none');
             getScrollingElement(this.iframefallback.el.contentDocument).scrollTop = getScrollingElement(this.iframe.el.contentDocument).scrollTop;
             this._cleanIframeFallback();
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2066,6 +2079,9 @@ export class WebsitePreview extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

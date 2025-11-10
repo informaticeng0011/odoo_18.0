@@ -1,18 +1,25 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* l10n_uy
 #
 =======
+=======
+>>>>>>> upstream/18.0
 # * l10n_uy
 #
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2025-02-11 15:10+0000\n"
@@ -31,6 +38,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-11-03 15:47+0000\n"
 "PO-Revision-Date: 2025-11-08 10:21+0000\n"
 "Last-Translator: \"Dylan Kiss (dyki)\" <dyki@odoo.com>\n"
@@ -42,11 +51,15 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: l10n_uy
 #. odoo-python
 #: code:addons/l10n_uy/models/l10n_latam_document_type.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 #, python-format
@@ -56,12 +69,17 @@ msgid ""
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "%(document_number)s is not a valid value for %(document_type)s.\n"
 "The document number must be entered with a maximum of 2 letters for the "
 "first part and 7 numbers for the second. The following are examples of valid "
 "document numbers:\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -72,7 +90,13 @@ msgstr ""
 "%(document_number)s no es un un valor válida para %(document_type)s.\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "El número de documento ingresado debe tener un máximo de 2 letras para la primera parte y 7 números para la segunda. Los siguientes son ejemplos de números de documento válidos:\n"
+=======
+"El número de documento ingresado debe tener un máximo de 2 letras para la "
+"primera parte y 7 números para la segunda. Los siguientes son ejemplos de "
+"números de documento válidos:\n"
+>>>>>>> upstream/18.0
 =======
 "El número de documento ingresado debe tener un máximo de 2 letras para la "
 "primera parte y 7 números para la segunda. Los siguientes son ejemplos de "
@@ -102,7 +126,11 @@ msgstr "Plantilla de plan contable"
 #: model:account.report.column,name:l10n_uy.tax_report_balance
 msgid "Balance"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Saldo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Saldo"
 >>>>>>> upstream/18.0
@@ -125,7 +153,10 @@ msgstr "Base 22% Compras"
 #. module: l10n_uy
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:account.report.line,name:l10n_uy.account_tax_report_base_impb_cmprs_reduced
@@ -134,6 +165,9 @@ msgstr ""
 
 #. module: l10n_uy
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -154,7 +188,10 @@ msgstr "Base 22% Ventas"
 #. module: l10n_uy
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:account.report.line,name:l10n_uy.account_tax_report_base_impb_vnts_reduced
@@ -163,10 +200,16 @@ msgstr ""
 
 #. module: l10n_uy
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 #: model:l10n_latam.document.type,name:l10n_uy.dc_boleta_venta_contado
 msgid "Boleta"
 msgstr ""
+=======
+#: model:l10n_latam.document.type,name:l10n_uy.dc_boleta_venta_contado
+msgid "Boleta"
+msgstr "Boleta"
+>>>>>>> upstream/18.0
 =======
 #: model:l10n_latam.document.type,name:l10n_uy.dc_boleta_venta_contado
 msgid "Boleta"
@@ -329,7 +372,11 @@ msgstr "Código DGI"
 #: model:l10n_latam.identification.type,name:l10n_uy.it_dni
 msgid "DNI"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "DNI"
+>>>>>>> upstream/18.0
 =======
 msgstr "DNI"
 >>>>>>> upstream/18.0
@@ -352,7 +399,10 @@ msgstr "Remito"
 #. module: l10n_uy
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:ir.model,name:l10n_uy.model_account_tax
@@ -361,6 +411,9 @@ msgstr ""
 
 #. module: l10n_uy
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -452,7 +505,11 @@ msgstr "Documento Nacional de identidad de Argentina, Brasil, Chile o Paraguay"
 #: model:l10n_latam.identification.type,name:l10n_uy.it_other
 msgid "OTR"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "OTR"
+>>>>>>> upstream/18.0
 =======
 msgstr "OTR"
 >>>>>>> upstream/18.0
@@ -475,6 +532,7 @@ msgstr "Pasaporte (todos los paises)"
 #. module: l10n_uy
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-python
 #: code:addons/l10n_uy/models/l10n_latam_document_type.py:0
 msgid ""
@@ -488,6 +546,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:account.report.line,name:l10n_uy.account_tax_report_cmprs_exnto_iva
 msgid "Purchases Exempt from VAT"
 msgstr "Compras IVA Exentas"
@@ -495,7 +555,10 @@ msgstr "Compras IVA Exentas"
 #. module: l10n_uy
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:account.report.line,name:l10n_uy.account_tax_report_cmprs_iva_reduced
@@ -504,6 +567,9 @@ msgstr ""
 
 #. module: l10n_uy
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -514,7 +580,10 @@ msgstr ""
 #. module: l10n_uy
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:account.report.line,name:l10n_uy.account_tax_report_vnts_iva_reduced
@@ -523,6 +592,9 @@ msgstr ""
 
 #. module: l10n_uy
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -543,11 +615,14 @@ msgstr "Ventas exentas de IVA"
 #. module: l10n_uy
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model,name:l10n_uy.model_account_tax
 msgid "Tax"
 msgstr "Impuestos"
 
 #. module: l10n_uy
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -594,11 +669,14 @@ msgstr ""
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The %(vat_label)s number [%(wrong_vat)s] for %(partner_label)s does not seem to be valid.\n"
 "Note: the expected format is %(expected_format)s"
 msgstr ""
 "El %(vat_label)s número [%(wrong_vat)s] para %(partner_label)s no parece válido.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "The %(vat_label)s number [%(wrong_vat)s] for %(partner_label)s does not seem "
@@ -608,6 +686,9 @@ msgstr ""
 "El %(vat_label)s número [%(wrong_vat)s] para %(partner_label)s no parece "
 "válido.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -1,8 +1,14 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* l10n_latam_check
 #
+=======
+# * l10n_latam_check
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 =======
 # * l10n_latam_check
 #
@@ -12,6 +18,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2025-02-11 15:22+0000\n"
@@ -30,6 +37,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-11-03 15:45+0000\n"
 "PO-Revision-Date: 2025-11-08 09:22+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
@@ -41,6 +50,9 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: l10n_latam_check
@@ -120,7 +132,12 @@ msgstr "Ícono de tipo de actvidad"
 msgid "All selected checks must be on the same journal and on hand"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Todos los cheques seleccionados deben estan en el mismo Diario y a mano"
+=======
+msgstr ""
+"Todos los cheques seleccionados deben estan en el mismo Diario y a mano"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "Todos los cheques seleccionados deben estan en el mismo Diario y a mano"
@@ -336,7 +353,11 @@ msgstr "Tiene un mensaje"
 #: model:ir.model.fields,field_description:l10n_latam_check.field_l10n_latam_payment_register_check__id
 msgid "ID"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ID"
+>>>>>>> upstream/18.0
 =======
 msgstr "ID"
 >>>>>>> upstream/18.0
@@ -356,7 +377,12 @@ msgstr "Icono para indicar una actividad de excepción."
 msgid "If checked, new messages require your attention."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Si se encuentra seleccionado, hay nuevos mensajes que requieren tu atención."
+=======
+msgstr ""
+"Si se encuentra seleccionado, hay nuevos mensajes que requieren tu atención."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "Si se encuentra seleccionado, hay nuevos mensajes que requieren tu atención."
@@ -445,6 +471,7 @@ msgid ""
 "Manual: Pay or Get paid by any method outside of Odoo.\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Payment Providers: Each payment provider has its own Payment Method. Request a transaction on/to a card thanks to a payment token saved by the partner when buying or subscribing online.\n"
 "Check: Pay bills by check and print it from Odoo.\n"
 "Batch Deposit: Collect several customer checks at once generating and submitting a batch deposit to your bank. Module account_batch_payment is necessary.\n"
@@ -458,6 +485,8 @@ msgstr ""
 "SEPA Credit Transfer: Pague en la zona SEPA enviando un fichero de transferencia SEPA a su banco. Módulo account_sepa es necesario.\n"
 "SEPA Direct Debit: Cobre en la zona SEPA gracias a un mandato que su socio le habrá otorgado. Módulo account_sepa es necesario.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "Payment Providers: Each payment provider has its own Payment Method. Request "
@@ -485,6 +514,9 @@ msgstr ""
 "SEPA Direct Debit: Cobre en la zona SEPA gracias a un mandato que su socio "
 "le habrá otorgado. Módulo account_sepa es necesario.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -502,7 +534,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:l10n_latam_check.field_l10n_latam_payment_mass_transfer__communication
 msgid "Memo"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Memo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Memo"
 >>>>>>> upstream/18.0
@@ -604,8 +640,13 @@ msgstr ""
 "Se encontraron otros cheques con el mismo número, emisor y banco. Verifique "
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "que no esté codificando el mismo cheque más de una vez. Lista de otros "
 "pagos/cheques: %s"
+=======
+"que no esté codificando el mismo cheque más de una vez. Lista de otros pagos/"
+"cheques: %s"
+>>>>>>> upstream/18.0
 =======
 "que no esté codificando el mismo cheque más de una vez. Lista de otros pagos/"
 "cheques: %s"
@@ -652,11 +693,14 @@ msgstr "Registrar pago"
 #. module: l10n_latam_check
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model,name:l10n_latam_check.model_account_payment_register
 msgid "Pay"
 msgstr "Pagar"
 
 #. module: l10n_latam_check
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -709,7 +753,11 @@ msgstr "Pagos"
 #: model:ir.model.fields,field_description:l10n_latam_check.field_l10n_latam_check__rating_ids
 msgid "Ratings"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Calificaciones"
+>>>>>>> upstream/18.0
 =======
 msgstr "Calificaciones"
 >>>>>>> upstream/18.0
@@ -746,7 +794,12 @@ msgstr "Los cheques seleccionados \"%s\" no están publicados"
 msgid "Show all records which has next action date is before today"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Mostrar todos los registros que tienen la próxima fecha de acción antes de "
+=======
+msgstr ""
+"Mostrar todos los registros que tienen la próxima fecha de acción antes de "
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "Mostrar todos los registros que tienen la próxima fecha de acción antes de "
@@ -762,11 +815,17 @@ msgstr ""
 #: code:addons/l10n_latam_check/models/account_payment.py:0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Some checks are already in hand and can't be received again. Checks: %s"
 msgstr ""
 "Algunos cheques ya están en mano y no se pueden volver a recibir. Cheques: "
 "%s"
+=======
+msgid "Some checks are already in hand and can't be received again. Checks: %s"
+msgstr ""
+"Algunos cheques ya están en mano y no se pueden volver a recibir. Cheques: %s"
+>>>>>>> upstream/18.0
 =======
 msgid "Some checks are already in hand and can't be received again. Checks: %s"
 msgstr ""
@@ -841,8 +900,12 @@ msgstr "Moneda del pago."
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The register payment wizard should only be called on account.payment "
 "records."
+=======
+"The register payment wizard should only be called on account.payment records."
+>>>>>>> upstream/18.0
 =======
 "The register payment wizard should only be called on account.payment records."
 >>>>>>> upstream/18.0
@@ -902,6 +965,7 @@ msgstr "Historial de comunicaciones del sitio web"
 #. odoo-python
 #: code:addons/l10n_latam_check/models/account_payment.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 "You can't cancel or re-open a payment with checks if some check has been debited or been voided. Checks:\n"
@@ -1329,6 +1393,8 @@ msgstr ""
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "You can't cancel or re-open a payment with checks if some check has been "
 "debited or been voided. Checks:\n"
 "%s"
@@ -1353,6 +1419,9 @@ msgstr ""
 
 #. module: l10n_latam_check
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

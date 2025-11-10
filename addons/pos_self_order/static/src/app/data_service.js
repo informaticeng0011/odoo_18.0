@@ -15,7 +15,13 @@ patch(PosData.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return await rpc(`/pos-self/data/${parseInt(configId)}`);
+=======
+        return await rpc(`/pos-self/data/${parseInt(configId)}`, {
+            access_token: odoo.access_token,
+        });
+>>>>>>> upstream/18.0
 =======
         return await rpc(`/pos-self/data/${parseInt(configId)}`, {
             access_token: odoo.access_token,

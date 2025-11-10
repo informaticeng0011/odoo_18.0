@@ -130,7 +130,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # yoav sc <yoav19991@gmail.com>, 2024
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -387,6 +390,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -856,6 +860,9 @@ msgstr ""
 =======
 "POT-Creation-Date: 2025-05-23 18:40+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-05-23 18:40+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: or balmas, 2025\n"
 "Language-Team: Hebrew (https://app.transifex.com/odoo/teams/41243/he/)\n"
@@ -960,7 +967,11 @@ msgid "1. Enter your password to confirm you own this account"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "1. הזן את הסיסמה שלך כדי לאשר שאתה הבעלים של החשבון הזה"
+>>>>>>> upstream/18.0
 =======
 msgstr "1. הזן את הסיסמה שלך כדי לאשר שאתה הבעלים של החשבון הזה"
 >>>>>>> upstream/18.0
@@ -1299,6 +1310,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-fw fa-id-card-o me-1 small text-primary text-primary-"
+"emphasis\"/> החשבון שלי"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-fw fa-id-card-o me-1 small text-primary text-primary-"
 "emphasis\"/> החשבון שלי"
@@ -1720,6 +1736,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-fw fa-th me-1 small text-primary text-primary-emphasis\"/> "
+"יישומים"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-fw fa-th me-1 small text-primary text-primary-emphasis\"/> "
 "יישומים"
@@ -2161,7 +2182,11 @@ msgid "<option value=\"\">select...</option>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<option value=\"\">בחר...</option>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<option value=\"\">בחר...</option>"
 >>>>>>> upstream/18.0
@@ -2558,6 +2583,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<t t-set=\"user_name\" t-value=\"object.user_id.name or object.partner_id.name or ''\"/>\n"
+"            <t t-set=\"company_name\" t-value=\"object.user_id.company_id.name or object.partner_id.company_id.name or ''\"/>\n"
+"            <t t-set=\"signup_url\" t-value=\"object.user_id.partner_id and object.user_id.partner_id._get_signup_url() or object.partner_id and object.partner_id._get_signup_url()\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "<t t-set=\"user_name\" t-value=\"object.user_id.name or object.partner_id.name or ''\"/>\n"
 "            <t t-set=\"company_name\" t-value=\"object.user_id.company_id.name or object.partner_id.company_id.name or ''\"/>\n"
@@ -3221,6 +3252,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <span style=\"font-size: 20px; font-weight: bold;\" t-out=\"object.user_id.name or ''\">Marc Demo</span>\n"
 =======
 "                    <span style=\"font-size: 20px; font-weight: bold;\" t-out=\"object.user_id.name or object.partner_id.name or ''\">Marc Demo</span>\n"
@@ -3239,6 +3271,9 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 "                    <span style=\"font-size: 20px; font-weight: bold;\" t-out=\"object.user_id.name or object.partner_id.name or ''\">Marc Demo</span>\n"
+>>>>>>> upstream/18.0
+=======
+"                    <span style=\"font-size: 20px; font-weight: bold;\" t-out=\"user_name\">Marc Demo</span>\n"
 >>>>>>> upstream/18.0
 =======
 "                    <span style=\"font-size: 20px; font-weight: bold;\" t-out=\"user_name\">Marc Demo</span>\n"
@@ -3693,6 +3728,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        Dear <t t-out=\"object.user_id.name or ''\">Marc Demo</t>,<br/> <br/>\n"
 "                        Welcome to <t t-out=\"object.user_id.company_id.name\">YourCompany</t>'s Portal!<br/><br/>\n"
 "                        An account has been created for you with the following login: <t t-out=\"object.user_id.login\">demo</t><br/><br/>\n"
@@ -3733,6 +3769,8 @@ msgid ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4060,6 +4098,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4400,7 +4441,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <t t-out=\"object.user_id.company_id.name or ''\">YourCompany</t>\n"
+=======
+"                    <t t-out=\"company_name\">YourCompany</t>\n"
+>>>>>>> upstream/18.0
 =======
 "                    <t t-out=\"company_name\">YourCompany</t>\n"
 >>>>>>> upstream/18.0
@@ -4837,7 +4882,11 @@ msgid "API Key Description"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "תיאור מפתח API"
+>>>>>>> upstream/18.0
 =======
 msgstr "תיאור מפתח API"
 >>>>>>> upstream/18.0
@@ -5167,7 +5216,11 @@ msgid "API Key Ready"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מפתח  API מוכן"
+>>>>>>> upstream/18.0
 =======
 msgstr "מפתח  API מוכן"
 >>>>>>> upstream/18.0
@@ -5509,7 +5562,11 @@ msgid "Account deleted!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "חשבון נמחק!"
+>>>>>>> upstream/18.0
 =======
 msgstr "חשבון נמחק!"
 >>>>>>> upstream/18.0
@@ -5859,7 +5916,11 @@ msgid "Added On"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "נוסף ב"
+>>>>>>> upstream/18.0
 =======
 msgstr "נוסף ב"
 >>>>>>> upstream/18.0
@@ -6188,7 +6249,11 @@ msgid "Already Registered"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "כבר נרשם"
+>>>>>>> upstream/18.0
 =======
 msgstr "כבר נרשם"
 >>>>>>> upstream/18.0
@@ -6517,7 +6582,11 @@ msgid "Are you sure you want to do this?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "האם אתה בטוח שברצונך לבצע פעולה זו?"
+>>>>>>> upstream/18.0
 =======
 msgstr "האם אתה בטוח שברצונך לבצע פעולה זו?"
 >>>>>>> upstream/18.0
@@ -6886,6 +6955,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"שינוי המדינה אינו אפשרי לאחר שהונפקו מסמכים לחשבונך. אנא צור איתנו קשר "
+"ישירות לביצוע פעולה זו."
+>>>>>>> upstream/18.0
 =======
 "שינוי המדינה אינו אפשרי לאחר שהונפקו מסמכים לחשבונך. אנא צור איתנו קשר "
 "ישירות לביצוע פעולה זו."
@@ -7408,7 +7482,11 @@ msgid "Customers can generate API Keys"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "לקוחות יכולים ליצור מפתחות API "
+>>>>>>> upstream/18.0
 =======
 msgstr "לקוחות יכולים ליצור מפתחות API "
 >>>>>>> upstream/18.0
@@ -7748,7 +7826,11 @@ msgid "Delete Account"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מחיקת חשבון"
+>>>>>>> upstream/18.0
 =======
 msgstr "מחיקת חשבון"
 >>>>>>> upstream/18.0
@@ -8212,7 +8294,11 @@ msgid "Important:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "חשוב:"
+>>>>>>> upstream/18.0
 =======
 msgstr "חשוב:"
 >>>>>>> upstream/18.0
@@ -8636,12 +8722,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/portal/static/src/xml/portal_security.xml:0
 msgid "Key Description"
 msgstr ""
 
 #. module: portal
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9246,7 +9335,10 @@ msgstr "אבטחה"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/portal/static/src/xml/portal_security.xml:0
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9612,7 +9704,11 @@ msgid "Skip to Content"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "דלג לתוכן"
+>>>>>>> upstream/18.0
 =======
 msgstr "דלג לתוכן"
 >>>>>>> upstream/18.0
@@ -10002,7 +10098,11 @@ msgid "The contact \"%s\" does not have a valid email."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "לאיש קשר \"%s\" אין כתובת מייל תקפה."
+>>>>>>> upstream/18.0
 =======
 msgstr "לאיש קשר \"%s\" אין כתובת מייל תקפה."
 >>>>>>> upstream/18.0
@@ -10332,7 +10432,11 @@ msgid "The contact \"%s\" has the same email as an existing user"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "לאיש קשר \"%s\"  יש כבר כתובת דוא\"ל בתור משתמש קיים"
+>>>>>>> upstream/18.0
 =======
 msgstr "לאיש קשר \"%s\"  יש כבר כתובת דוא\"ל בתור משתמש קיים"
 >>>>>>> upstream/18.0
@@ -10789,7 +10893,11 @@ msgid "VAT Number"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "מספר VAT"
+=======
+msgstr "מספר עוסק מורשה\\ ח.פ"
+>>>>>>> upstream/18.0
 =======
 msgstr "מספר עוסק מורשה\\ ח.פ"
 >>>>>>> upstream/18.0
@@ -11352,7 +11460,11 @@ msgid "Wrong password."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "סיסמא שגויה."
+>>>>>>> upstream/18.0
 =======
 msgstr "סיסמא שגויה."
 >>>>>>> upstream/18.0
@@ -11730,9 +11842,12 @@ msgstr "עליך קודם לאפשר גישה לפורטל עבור השותפ/�
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Your account at {{ object.user_id.company_id.name }}"
 msgstr "חשבון ה-Odoo שלך ב {{ object.user_id.company_id.name }}"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12058,6 +12173,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12369,7 +12487,11 @@ msgid "full access"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "גישה מלאה"
+>>>>>>> upstream/18.0
 =======
 msgstr "גישה מלאה"
 >>>>>>> upstream/18.0
@@ -12698,7 +12820,11 @@ msgid "has invited you to access the following"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "הזמין אותך לגשת ל-"
+>>>>>>> upstream/18.0
 =======
 msgstr "הזמין אותך לגשת ל-"
 >>>>>>> upstream/18.0
