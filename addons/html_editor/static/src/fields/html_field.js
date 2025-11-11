@@ -86,6 +86,11 @@ import { fixInvalidHTML, instanceofMarkup } from "@html_editor/utils/sanitize";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+const HTML_FIELD_METADATA_ATTRIBUTES = ["data-last-history-steps"];
+
+>>>>>>> upstream/18.0
 =======
 const HTML_FIELD_METADATA_ATTRIBUTES = ["data-last-history-steps"];
 
@@ -486,9 +491,12 @@ export class HtmlField extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         await this.editor.shared.media?.savePendingImages();
         return this.editor.getElContent();
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -597,6 +605,9 @@ export class HtmlField extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -856,6 +867,10 @@ export class HtmlField extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                ...config.resources,
+>>>>>>> upstream/18.0
 =======
                 ...config.resources,
 >>>>>>> upstream/18.0
@@ -1325,6 +1340,10 @@ export const htmlField = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            editorConfig.classList = ["overflow-auto"];
+>>>>>>> upstream/18.0
 =======
             editorConfig.classList = ["overflow-auto"];
 >>>>>>> upstream/18.0
@@ -1838,7 +1857,10 @@ registry.category("fields").add("html", htmlField, { force: true });
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2036,6 +2058,9 @@ export function setHtmlFieldMetadata(content, metadata) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

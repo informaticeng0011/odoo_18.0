@@ -12,4 +12,11 @@ patch(Message.prototype, {
         }
         return super.authorAvatarUrl;
     },
+<<<<<<< HEAD
+=======
+
+    get shouldHideFromMessageListOnDelete() {
+        return this.env.inFrontendPortalChatter || super.shouldHideFromMessageListOnDelete;
+    },
+>>>>>>> upstream/18.0
 });

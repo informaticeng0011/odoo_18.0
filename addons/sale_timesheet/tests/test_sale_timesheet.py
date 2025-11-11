@@ -67,7 +67,11 @@ from odoo.addons.sale_timesheet.tests.common import TestCommonSaleTimesheet
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tests import Form, tagged
+=======
+from odoo.tests import Form, tagged, new_test_user
+>>>>>>> upstream/18.0
 =======
 from odoo.tests import Form, tagged, new_test_user
 >>>>>>> upstream/18.0
@@ -319,7 +323,10 @@ class TestSaleTimesheet(TestCommonSaleTimesheet):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -536,6 +543,9 @@ class TestSaleTimesheet(TestCommonSaleTimesheet):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

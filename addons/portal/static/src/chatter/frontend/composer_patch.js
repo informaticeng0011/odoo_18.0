@@ -13,4 +13,11 @@ patch(Composer.prototype, {
     get showComposerAvatar() {
         return super.showComposerAvatar || (this.compact && this.props.composer.portalComment);
     },
+<<<<<<< HEAD
+=======
+
+    get shouldHideFromMessageListOnDelete() {
+        return this.env.inFrontendPortalChatter || super.shouldHideFromMessageListOnDelete;
+    },
+>>>>>>> upstream/18.0
 });

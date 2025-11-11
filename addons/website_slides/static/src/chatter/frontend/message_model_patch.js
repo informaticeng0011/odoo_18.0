@@ -4,7 +4,11 @@ import { patch } from "@web/core/utils/patch";
 /** @type {import("models").Message} */
 const messagePatch = {
     async remove() {
+<<<<<<< HEAD
         const data = await super.remove();
+=======
+        const data = await super.remove(...arguments);
+>>>>>>> upstream/18.0
         this.store.env.bus.trigger("reload_rating_popup_composer", data);
         return data;
     },
@@ -45,7 +49,13 @@ const messagePatch = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.store.env.bus.trigger("reload_rating_popup_composer", data);
+=======
+        if (data) {
+            this.store.env.bus.trigger("reload_rating_popup_composer", data);
+        }
+>>>>>>> upstream/18.0
 =======
         if (data) {
             this.store.env.bus.trigger("reload_rating_popup_composer", data);

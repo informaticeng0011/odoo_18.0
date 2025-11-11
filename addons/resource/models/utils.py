@@ -162,7 +162,11 @@ class Intervals(object):
 
         # using 'self' and 'other' below forces normalization
         bounds1 = _boundaries(self, 'start', 'stop')
+<<<<<<< HEAD
         bounds2 = _boundaries(other, 'switch', 'switch')
+=======
+        bounds2 = _boundaries(Intervals(other), 'switch', 'switch')
+>>>>>>> upstream/18.0
 
         start = None                    # set by start/stop
         recs1 = None                    # set by start

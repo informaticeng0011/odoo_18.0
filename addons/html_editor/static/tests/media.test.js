@@ -59,6 +59,7 @@ import { describe, expect, test } from "@odoo/hoot";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { click, press, waitFor } from "@odoo/hoot-dom";
 import { animationFrame, tick } from "@odoo/hoot-mock";
 import { makeMockEnv, onRpc } from "@web/../tests/web_test_helpers";
@@ -310,6 +311,8 @@ import { expectElementCount } from "./_helpers/ui_expectations";
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 import { click, press, waitFor, waitForNone } from "@odoo/hoot-dom";
 import { animationFrame, tick } from "@odoo/hoot-mock";
 import { contains, makeMockEnv, onRpc } from "@web/../tests/web_test_helpers";
@@ -377,6 +380,9 @@ import { delay } from "@web/core/utils/concurrency";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -591,6 +597,9 @@ test("Can replace an image", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -851,6 +860,7 @@ test("Can replace an image", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test.tags("focus required");
 test("Selection is collapsed after the image after replacing it", async () => {
 <<<<<<< HEAD
@@ -883,6 +893,8 @@ test("Selection is collapsed after the image after replacing it", async () => {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1146,6 +1158,9 @@ test("Selection is collapsed after the image after replacing it", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1394,6 +1409,9 @@ test("Selection is collapsed after the image after replacing it", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1662,6 +1680,7 @@ test("Can insert an image, and selection should be collapsed after it", async ()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     onRpc("/web/dataset/call_kw/ir.attachment/search_read", () => {
         return [
             {
@@ -1675,6 +1694,8 @@ test("Can insert an image, and selection should be collapsed after it", async ()
         ];
     });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1934,6 +1955,9 @@ test("Can insert an image, and selection should be collapsed after it", async ()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2105,6 +2129,7 @@ test("Can insert an image, and selection should be collapsed after it", async ()
     const { editor, el } = await setupEditor("<p>a[]bc</p>", { env });
     await insertText(editor, "/image");
     await animationFrame();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2482,6 +2507,9 @@ test("Can insert an image, and selection should be collapsed after it", async ()
 =======
     await expectElementCount(".o-we-powerbox", 1);
 >>>>>>> upstream/18.0
+=======
+    await expectElementCount(".o-we-powerbox", 1);
+>>>>>>> upstream/18.0
     await press("Enter");
     await animationFrame();
     await click("img.o_we_attachment_highlight");
@@ -2491,6 +2519,7 @@ test("Can insert an image, and selection should be collapsed after it", async ()
 });
 
 test("press escape to close media dialog", async () => {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2748,6 +2777,8 @@ test("press escape to close media dialog", async () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     onRpc("ir.attachment", "search_read", () => []);
     const env = await makeMockEnv();
     const { editor, el } = await setupEditor("<p>a[]bc</p>", { env });
@@ -2835,6 +2866,9 @@ test("press escape to close media dialog", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3100,9 +3134,15 @@ describe("Powerbox search keywords", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         insertText(editor, "/");
         for (const word of ["image", "icon"]) {
             insertText(editor, word);
+=======
+        await insertText(editor, "/");
+        for (const word of ["image", "icon"]) {
+            await insertText(editor, word);
+>>>>>>> upstream/18.0
 =======
         await insertText(editor, "/");
         for (const word of ["image", "icon"]) {
@@ -3611,7 +3651,11 @@ describe("Powerbox search keywords", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 press("backspace");
+=======
+                await press("backspace");
+>>>>>>> upstream/18.0
 =======
                 await press("backspace");
 >>>>>>> upstream/18.0
@@ -3967,6 +4011,7 @@ describe("Powerbox search keywords", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -4004,6 +4049,8 @@ test("cropper should not open for external image", async () => {
         };
     });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4258,6 +4305,9 @@ test("cropper should not open for external image", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4435,6 +4485,7 @@ test("cropper should not open for external image", async () => {
     await animationFrame();
 
     await click('.btn[name="image_crop"]');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4834,6 +4885,8 @@ test("cropper should not open for external image", async () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     await waitFor(".o_notification_manager .o_notification", { timeout: 1000 });
     expect("img.o_we_cropper_img").toHaveCount(0);
 });
@@ -4918,6 +4971,9 @@ test("Image cropper disappear on backspace", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

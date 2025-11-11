@@ -103,11 +103,14 @@ registry.category("web_tour.tours").add('totportal_tour_setup', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     run: async function(helpers) {
         const secret = this.anchor
             .closest("div")
             .querySelector('span[name="secret"]').textContent;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -341,6 +344,9 @@ registry.category("web_tour.tours").add('totportal_tour_setup', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -575,9 +581,12 @@ registry.category("web_tour.tours").add('totportal_tour_setup', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         await helpers.click("button.btn-primary:contains(Activate)");
     }
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -812,6 +821,9 @@ registry.category("web_tour.tours").add('totportal_tour_setup', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -974,6 +986,7 @@ registry.category("web_tour.tours").add('totportal_login_enabled', {
     url: '/',
     steps: () => [{
     content: "check that we're on the login page or go to it",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1217,6 +1230,8 @@ registry.category("web_tour.tours").add('totportal_login_enabled', {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     isActive: ["body:not(:has(input#login))"],
     trigger: "a:contains(Sign in)",
     run: "click",
@@ -1286,6 +1301,9 @@ registry.category("web_tour.tours").add('totportal_login_enabled', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1506,6 +1524,10 @@ registry.category("web_tour.tours").add('totportal_login_enabled', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
     expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -1824,12 +1846,15 @@ registry.category("web_tour.tours").add('totportal_login_enabled', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         // FIXME: is there a way to put the button as its own step trigger without
         //        the tour straight blowing through and not waiting for this?
         await helpers.click('button:contains("Log in")');
     }
 }, {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2064,6 +2089,9 @@ registry.category("web_tour.tours").add('totportal_login_enabled', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2300,6 +2328,10 @@ registry.category("web_tour.tours").add('totportal_login_enabled', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
     expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -2618,7 +2650,11 @@ registry.category("web_tour.tours").add('totportal_login_enabled', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     run: "edit portal", // FIXME: better way to do this?
+=======
+    run: "edit portal",
+>>>>>>> upstream/18.0
 =======
     run: "edit portal",
 >>>>>>> upstream/18.0
@@ -2931,6 +2967,10 @@ registry.category("web_tour.tours").add('totportal_login_enabled', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
     expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -3237,6 +3277,7 @@ registry.category("web_tour.tours").add('totportal_login_disabled', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     trigger: 'input#login, a:contains(Sign in)',
     run: "click",
 <<<<<<< HEAD
@@ -3284,6 +3325,8 @@ registry.category("web_tour.tours").add('totportal_login_disabled', {
     expectUnloadPage: true,
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3483,6 +3526,9 @@ registry.category("web_tour.tours").add('totportal_login_disabled', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3703,6 +3749,10 @@ registry.category("web_tour.tours").add('totportal_login_disabled', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
     expectUnloadPage: true,
 >>>>>>> upstream/18.0

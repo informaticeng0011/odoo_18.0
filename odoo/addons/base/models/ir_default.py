@@ -101,7 +101,11 @@ class IrDefault(models.Model):
             ('user_id', '=', user_id),
             ('company_id', '=', company_id),
             ('condition', '=', condition),
+<<<<<<< HEAD
         ])
+=======
+        ], limit=1)
+>>>>>>> upstream/18.0
         if default:
             # Avoid clearing the cache if nothing changes
             if default.json_value != json_value:

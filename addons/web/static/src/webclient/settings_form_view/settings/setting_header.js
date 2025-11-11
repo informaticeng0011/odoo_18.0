@@ -63,7 +63,11 @@ export class SettingHeader extends Setting {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return this.props.string || this.props.record.fields[this.props.name].string;
+=======
+        return this.props.string || this.props.record.fields[this.props.name]?.string || "";
+>>>>>>> upstream/18.0
 =======
         return this.props.string || this.props.record.fields[this.props.name]?.string || "";
 >>>>>>> upstream/18.0

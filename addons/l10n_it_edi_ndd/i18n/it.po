@@ -2,8 +2,14 @@
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* l10n_it_edi_ndd
 #
+=======
+# * l10n_it_edi_ndd
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 =======
 # * l10n_it_edi_ndd
 #
@@ -18,6 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 17.0+e\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -39,6 +46,8 @@ msgstr ""
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-11-03 15:44+0000\n"
 "PO-Revision-Date: 2025-11-08 09:22+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
@@ -51,6 +60,9 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.12.2\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -95,7 +107,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Fattura differita (art. 21, comma 4, terzo periodo, lettera b 'Dropshipping')"
+=======
+msgstr ""
+"Fattura differita (art. 21, comma 4, terzo periodo, lettera b 'Dropshipping')"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "Fattura differita (art. 21, comma 4, terzo periodo, lettera b 'Dropshipping')"
@@ -129,6 +146,10 @@ msgstr "Nome visualizzato"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:l10n_it_edi_ndd.l10n_it_document_type_form
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:l10n_it_edi_ndd.l10n_it_document_type_form
 >>>>>>> upstream/18.0
@@ -143,6 +164,7 @@ msgid "Document Type"
 msgstr "Tipi di documento"
 
 #. module: l10n_it_edi_ndd
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -331,6 +353,10 @@ msgstr "Tipi di documento"
 #. odoo-python
 #: code:addons/l10n_it_edi_ndd/models/l10n_it_document_type.py:0
 >>>>>>> upstream/18.0
+=======
+#. odoo-python
+#: code:addons/l10n_it_edi_ndd/models/l10n_it_document_type.py:0
+>>>>>>> upstream/18.0
 msgid "Document Type code must be unique."
 msgstr "Il codice del tipo di documento deve essere univoco."
 
@@ -394,6 +420,7 @@ msgstr "Il codice del tipo di documento deve essere univoco."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -522,6 +549,11 @@ msgstr "ID"
 msgid "ID"
 msgstr "ID"
 >>>>>>> upstream/18.0
+=======
+#: model:ir.model.fields,field_description:l10n_it_edi_ndd.field_l10n_it_document_type__id
+msgid "ID"
+msgstr "ID"
+>>>>>>> upstream/18.0
 
 #. module: l10n_it_edi_ndd
 #: model:l10n_it.document.type,name:l10n_it_edi_ndd.l10n_it_document_type_16
@@ -531,7 +563,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Autofattura interna in reverse charge (art. 17 del D.P.R. n. 633/72 per le fatture con i sottocodici Natura 'N6')"
+=======
+msgstr ""
+"Autofattura interna in reverse charge (art. 17 del D.P.R. n. 633/72 per le "
+"fatture con i sottocodici Natura 'N6')"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "Autofattura interna in reverse charge (art. 17 del D.P.R. n. 633/72 per le "
@@ -556,7 +594,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Fattura (immediata o accompagnatoria se <DatiTrasporto> o <DatiDDT> sono compilati)"
+=======
+msgstr ""
+"Fattura (immediata o accompagnatoria se <DatiTrasporto> o <DatiDDT> sono "
+"compilati)"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "Fattura (immediata o accompagnatoria se <DatiTrasporto> o <DatiDDT> sono "
@@ -594,7 +638,10 @@ msgstr "Registrazione contabile"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_it_edi_ndd.field_account_payment__l10n_it_document_type
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -610,7 +657,10 @@ msgstr "L10N It Tipo di documento"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_it_edi_ndd.field_account_payment__l10n_it_payment_method
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -804,10 +854,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Self-invoice Report (ex art.6 c8 471/97 or art.46 c5 331/93), or for invoice"
 " not received or for a lower amount"
 msgstr "Rapporto di autofattura (ex art.6 c8 471/97 o art.46 c5 331/93), oppure per fattura non ricevuta o di importo inferiore"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -819,6 +872,9 @@ msgstr ""
 "fattura non ricevuta o di importo inferiore"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -834,7 +890,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Autofattura per imposta italiana da fornitori esteri identificati ma non stabiliti in Italia e per acquisti da San Marino con IVA (carta fattura)"
+=======
+msgstr ""
+"Autofattura per imposta italiana da fornitori esteri identificati ma non "
+"stabiliti in Italia e per acquisti da San Marino con IVA (carta fattura)"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "Autofattura per imposta italiana da fornitori esteri identificati ma non "
@@ -863,7 +925,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Autofattura per estrazione di beni da deposito IVA con IVA responsabilità"
+=======
+msgstr ""
+"Autofattura per estrazione di beni da deposito IVA con IVA responsabilità"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "Autofattura per estrazione di beni da deposito IVA con IVA responsabilità"
@@ -883,9 +950,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Self-invoice for extraction of goods from VAT warehouse without VAT "
 "liability"
 msgstr "Autofattura per estrazione di beni da deposito IVA senza IVA responsabilità"
+=======
+"Self-invoice for extraction of goods from VAT warehouse without VAT liability"
+msgstr ""
+"Autofattura per estrazione di beni da deposito IVA senza IVA responsabilità"
+>>>>>>> upstream/18.0
 =======
 "Self-invoice for extraction of goods from VAT warehouse without VAT liability"
 msgstr ""
@@ -911,7 +984,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Autofattura per merci estere (sia intra che extra UE) già presenti in Italia (art. 17 comma 2 del DPR 633/72) - Alternativa all'esterometro"
+=======
+msgstr ""
+"Autofattura per merci estere (sia intra che extra UE) già presenti in Italia "
+"(art. 17 comma 2 del DPR 633/72) - Alternativa all'esterometro"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "Autofattura per merci estere (sia intra che extra UE) già presenti in Italia "
@@ -936,7 +1015,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Autofattura per acquisti di servizi esteri (sia all'interno che extra UE) - Alternativa all'esterometro"
+=======
+msgstr ""
+"Autofattura per acquisti di servizi esteri (sia all'interno che extra UE) - "
+"Alternativa all'esterometro"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "Autofattura per acquisti di servizi esteri (sia all'interno che extra UE) - "
@@ -967,7 +1052,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Autofattura per acquisto di beni intracomunitari - Alternativa all'esterometro"
+=======
+msgstr ""
+"Autofattura per acquisto di beni intracomunitari - Alternativa "
+"all'esterometro"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "Autofattura per acquisto di beni intracomunitari - Alternativa "
@@ -1012,7 +1103,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Cessione di beni ammortizzabili e per trasferimenti interni (ex art.36 DPR 633/72)"
+=======
+msgstr ""
+"Cessione di beni ammortizzabili e per trasferimenti interni (ex art.36 DPR "
+"633/72)"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "Cessione di beni ammortizzabili e per trasferimenti interni (ex art.36 DPR "

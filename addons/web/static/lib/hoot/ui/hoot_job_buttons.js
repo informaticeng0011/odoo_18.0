@@ -137,6 +137,7 @@ export class HootJobButtons extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 type="type"
                 id="props.job.id"
 =======
@@ -475,6 +476,9 @@ export class HootJobButtons extends Component {
 =======
                 ids="{ id: props.job.id }"
 >>>>>>> upstream/18.0
+=======
+                ids="{ id: props.job.id }"
+>>>>>>> upstream/18.0
                 class="'hoot-btn-link border border-primary text-emerald rounded transition-colors'"
                 title="'Run this ' + type + ' only'"
             >
@@ -482,6 +486,7 @@ export class HootJobButtons extends Component {
             </HootLink>
             <t t-if="type === 'test'">
                 <HootLink
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -932,6 +937,9 @@ export class HootJobButtons extends Component {
 =======
                     ids="{ id: props.job.id }"
 >>>>>>> upstream/18.0
+=======
+                    ids="{ id: props.job.id }"
+>>>>>>> upstream/18.0
                     options="{ debug: true }"
                     class="'hoot-btn-link border border-primary text-emerald rounded transition-colors'"
                     title="'Run this ' + type + ' only in debug mode'"
@@ -940,6 +948,7 @@ export class HootJobButtons extends Component {
                 </HootLink>
             </t>
             <HootLink
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1209,6 +1218,9 @@ export class HootJobButtons extends Component {
 >>>>>>> upstream/18.0
 =======
                 ids="{ [type]: props.job.id }"
+>>>>>>> upstream/18.0
+=======
+                ids="{ id: props.job.id }"
 >>>>>>> upstream/18.0
 =======
                 ids="{ id: props.job.id }"

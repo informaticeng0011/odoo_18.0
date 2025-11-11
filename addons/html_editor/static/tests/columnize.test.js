@@ -73,6 +73,7 @@ import { setupEditor, testEditor } from "./_helpers/editor";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { getContent } from "./_helpers/selection";
 import { insertText, redo, undo } from "./_helpers/user_actions";
 import { execCommand } from "./_helpers/userCommands";
@@ -84,6 +85,8 @@ function columnsContainer(contents) {
 function column(size, contents) {
     return `<div class="col-${size}">${contents}</div>`;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -313,6 +316,9 @@ function columnDuringEdit(size, contents) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -543,9 +549,15 @@ describe("2 columns", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 columnsContainer(
                     column(6, `<p placeholder="Empty column" class="o-we-hint">[]<br></p>`) +
                     column(6, `<p><br></p>`)
+=======
+                columsDuringEditContainer(
+                    columnDuringEdit(6, `<p placeholder="Empty column" class="o-we-hint">[]<br></p>`) +
+                    columnDuringEdit(6, `<p><br></p>`)
+>>>>>>> upstream/18.0
 =======
                 columsDuringEditContainer(
                     columnDuringEdit(6, `<p placeholder="Empty column" class="o-we-hint">[]<br></p>`) +
@@ -986,9 +998,15 @@ describe("2 columns", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 columnsContainer(
                     column(6, `<table><tbody><tr><td><p placeholder='Type "/" for commands' class="o-we-hint">[]<br></p></td><td><p><br></p></td></tr></tbody></table>`) +
                     column(6, `<p><br></p>`)
+=======
+                columsDuringEditContainer(
+                    columnDuringEdit(6, `<table><tbody><tr><td><p placeholder='Type "/" for commands' class="o-we-hint">[]<br></p></td><td><p><br></p></td></tr></tbody></table>`) +
+                    columnDuringEdit(6, `<p><br></p>`)
+>>>>>>> upstream/18.0
 =======
                 columsDuringEditContainer(
                     columnDuringEdit(6, `<table><tbody><tr><td><p placeholder='Type "/" for commands' class="o-we-hint">[]<br></p></td><td><p><br></p></td></tr></tbody></table>`) +
@@ -1438,9 +1456,15 @@ describe("2 columns", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 columnsContainer(
                     column(6, "<p>[]abcd</p>") +
                     column(6, `<p><br></p>`)
+=======
+                columsDuringEditContainer(
+                    columnDuringEdit(6, "<p>[]abcd</p>") +
+                    columnDuringEdit(6, `<p><br></p>`)
+>>>>>>> upstream/18.0
 =======
                 columsDuringEditContainer(
                     columnDuringEdit(6, "<p>[]abcd</p>") +
@@ -1916,7 +1940,11 @@ describe("2 columns", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             `<div class="container o_text_columns"><div class="row"><div class="col-6"><p>ab[]cd</p></div><div class="col-6"><p><br></p></div></div></div><p><br></p>`
+=======
+            `<div class="container o_text_columns o-contenteditable-false" contenteditable="false"><div class="row"><div class="col-6 o-contenteditable-true" contenteditable="true"><p>ab[]cd</p></div><div class="col-6 o-contenteditable-true" contenteditable="true"><p><br></p></div></div></div><p><br></p>`
+>>>>>>> upstream/18.0
 =======
             `<div class="container o_text_columns o-contenteditable-false" contenteditable="false"><div class="row"><div class="col-6 o-contenteditable-true" contenteditable="true"><p>ab[]cd</p></div><div class="col-6 o-contenteditable-true" contenteditable="true"><p><br></p></div></div></div><p><br></p>`
 >>>>>>> upstream/18.0
@@ -2220,11 +2248,14 @@ describe("3 columns", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 columnsContainer(
                     column(4, "<p>abcd</p>") +
                     column(4, `<p><br></p>`) +
                     column(4, `<p placeholder="Empty column" class="o-we-hint">[]<br></p>`)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2439,6 +2470,9 @@ describe("3 columns", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2666,11 +2700,14 @@ describe("3 columns", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 columnsContainer(
                     column(4, "<p>ab[]cd</p>") +
                     column(4, `<p><br></p>`) +
                     column(4, `<p><br></p>`)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2885,6 +2922,9 @@ describe("3 columns", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3147,7 +3187,11 @@ describe("3 columns", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             `<div class="container o_text_columns"><div class="row"><div class="col-4"><p>ab[]cd</p></div><div class="col-4"><p><br></p></div><div class="col-4"><p><br></p></div></div></div><p><br></p>`
+=======
+            `<div class="container o_text_columns o-contenteditable-false" contenteditable="false"><div class="row"><div class="col-4 o-contenteditable-true" contenteditable="true"><p>ab[]cd</p></div><div class="col-4 o-contenteditable-true" contenteditable="true"><p><br></p></div><div class="col-4 o-contenteditable-true" contenteditable="true"><p><br></p></div></div></div><p><br></p>`
+>>>>>>> upstream/18.0
 =======
             `<div class="container o_text_columns o-contenteditable-false" contenteditable="false"><div class="row"><div class="col-4 o-contenteditable-true" contenteditable="true"><p>ab[]cd</p></div><div class="col-4 o-contenteditable-true" contenteditable="true"><p><br></p></div><div class="col-4 o-contenteditable-true" contenteditable="true"><p><br></p></div></div></div><p><br></p>`
 >>>>>>> upstream/18.0
@@ -3517,7 +3561,11 @@ describe("4 columns", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             `<div class="container o_text_columns"><div class="row"><div class="col-3"><p>ab[]cd</p></div><div class="col-3"><p><br></p></div><div class="col-3"><p><br></p></div><div class="col-3"><p><br></p></div></div></div><p><br></p>`
+=======
+            `<div class="container o_text_columns o-contenteditable-false" contenteditable="false"><div class="row"><div class="col-3 o-contenteditable-true" contenteditable="true"><p>ab[]cd</p></div><div class="col-3 o-contenteditable-true" contenteditable="true"><p><br></p></div><div class="col-3 o-contenteditable-true" contenteditable="true"><p><br></p></div><div class="col-3 o-contenteditable-true" contenteditable="true"><p><br></p></div></div></div><p><br></p>`
+>>>>>>> upstream/18.0
 =======
             `<div class="container o_text_columns o-contenteditable-false" contenteditable="false"><div class="row"><div class="col-3 o-contenteditable-true" contenteditable="true"><p>ab[]cd</p></div><div class="col-3 o-contenteditable-true" contenteditable="true"><p><br></p></div><div class="col-3 o-contenteditable-true" contenteditable="true"><p><br></p></div><div class="col-3 o-contenteditable-true" contenteditable="true"><p><br></p></div></div></div><p><br></p>`
 >>>>>>> upstream/18.0
@@ -3871,7 +3919,11 @@ describe("remove columns", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             `<div class="container o_text_columns"><div class="row"><div class="col-6"><p>ab[]cd</p></div><div class="col-6"><p><br></p></div></div></div><p><br></p>`
+=======
+            `<div class="container o_text_columns o-contenteditable-false" contenteditable="false"><div class="row"><div class="col-6 o-contenteditable-true" contenteditable="true"><p>ab[]cd</p></div><div class="col-6 o-contenteditable-true" contenteditable="true"><p><br></p></div></div></div><p><br></p>`
+>>>>>>> upstream/18.0
 =======
             `<div class="container o_text_columns o-contenteditable-false" contenteditable="false"><div class="row"><div class="col-6 o-contenteditable-true" contenteditable="true"><p>ab[]cd</p></div><div class="col-6 o-contenteditable-true" contenteditable="true"><p><br></p></div></div></div><p><br></p>`
 >>>>>>> upstream/18.0
@@ -4187,7 +4239,11 @@ describe("complex", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 '<div class="container"><div class="row"><div class="col">' +
+=======
+                '<div class="container o-contenteditable-false"><div class="row"><div class="col o-contenteditable-true">' +
+>>>>>>> upstream/18.0
 =======
                 '<div class="container o-contenteditable-false"><div class="row"><div class="col o-contenteditable-true">' +
 >>>>>>> upstream/18.0
@@ -4476,6 +4532,7 @@ describe("complex", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 '<div class="container"><div class="row"><div class="col">' +
                 '<div class="o_text_columns"><div class="row">' + // no "container" class
                 '<div class="col-6">' +
@@ -4483,6 +4540,8 @@ describe("complex", () => {
                 "</div>" +
                 '<div class="col-6"><p><br></p></div>' +
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4699,6 +4758,9 @@ describe("complex", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4946,7 +5008,10 @@ describe("undo", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5197,6 +5262,9 @@ describe("selection", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

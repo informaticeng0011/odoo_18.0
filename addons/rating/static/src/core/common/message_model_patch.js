@@ -68,7 +68,10 @@ patch(Message.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -193,7 +196,11 @@ patch(Message.prototype, {
     },
 
      async remove() {
+<<<<<<< HEAD
         const data = await super.remove();
+=======
+        const data = await super.remove(...arguments);
+>>>>>>> upstream/18.0
         this.rating_value = false;
         return data;
     },
@@ -260,6 +267,9 @@ patch(Message.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

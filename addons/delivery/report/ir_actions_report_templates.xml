@@ -65,7 +65,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <div t-out="doc.carrier_id.carrier_description"/>
+=======
+                <span class="d-block" t-out="doc.carrier_id.carrier_description"/>
+                <div class="d-none" t-out="doc.carrier_id.carrier_description"/>
+>>>>>>> upstream/18.0
 =======
                 <span class="d-block" t-out="doc.carrier_id.carrier_description"/>
                 <div class="d-none" t-out="doc.carrier_id.carrier_description"/>
