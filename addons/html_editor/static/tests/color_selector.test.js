@@ -70,6 +70,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    manuallyDispatchProgrammaticEvent,
+>>>>>>> upstream/18.0
 =======
     manuallyDispatchProgrammaticEvent,
 >>>>>>> upstream/18.0
@@ -354,6 +358,10 @@ import { execCommand } from "./_helpers/userCommands";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { expectElementCount } from "./_helpers/ui_expectations";
+>>>>>>> upstream/18.0
 =======
 import { expectElementCount } from "./_helpers/ui_expectations";
 >>>>>>> upstream/18.0
@@ -747,8 +755,12 @@ test("can set foreground color", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await waitFor(".o-we-toolbar");
     expect(".o-we-toolbar").toHaveCount(1); // toolbar still open
+=======
+    await expectElementCount(".o-we-toolbar", 1);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-toolbar", 1);
 >>>>>>> upstream/18.0
@@ -1145,8 +1157,12 @@ test("can set background color", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await waitFor(".o-we-toolbar");
     expect(".o-we-toolbar").toHaveCount(1); // toolbar still open
+=======
+    await expectElementCount(".o-we-toolbar", 1);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-toolbar", 1);
 >>>>>>> upstream/18.0
@@ -1543,8 +1559,12 @@ test("should add opacity to custom background colors but not to theme colors", a
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await waitFor(".o-we-toolbar");
     expect(".o-we-toolbar").toHaveCount(1);
+=======
+    await expectElementCount(".o-we-toolbar", 1);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-toolbar", 1);
 >>>>>>> upstream/18.0
@@ -1911,7 +1931,10 @@ test("should add opacity to custom background colors but not to theme colors", a
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2111,6 +2134,9 @@ test("default opacity should get applied when applying background color to icon"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2435,7 +2461,10 @@ test("custom background colors used in the editor are shown in the colorpicker",
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2808,6 +2837,9 @@ test("applied custom color should be shown in colorpicker after switching tab", 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3338,7 +3370,10 @@ test("gradient picker correctly shows the current selected gradient", async () =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3532,6 +3567,9 @@ test("custom colorpicker should show default color when selected text has gradie
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3880,6 +3918,7 @@ describe("color preview", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <td class="" style="background-color: rgb(206, 0, 0); ${defaultTextColor}">
 =======
                         <td class="" style="background-color: rgba(206, 0, 0, 0.6); ${defaultTextColor}">
@@ -3940,6 +3979,9 @@ describe("color preview", () => {
 >>>>>>> upstream/18.0
 =======
                         <td class="" style="background-color: rgba(206, 0, 0, 0.6); ${defaultTextColor}">
+>>>>>>> upstream/18.0
+=======
+                        <td class="o_selected_td o_selected_td_bg_color_preview" style="background-color: rgba(206, 0, 0, 0.6); ${defaultTextColor}">
 >>>>>>> upstream/18.0
 =======
                         <td class="o_selected_td o_selected_td_bg_color_preview" style="background-color: rgba(206, 0, 0, 0.6); ${defaultTextColor}">
@@ -4129,6 +4171,7 @@ describe("color preview", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <td class="" style="background-color: rgb(206, 0, 0); ${defaultTextColor}">
 =======
                         <td class="" style="background-color: rgba(206, 0, 0, 0.6); ${defaultTextColor}">
@@ -4189,6 +4232,9 @@ describe("color preview", () => {
 >>>>>>> upstream/18.0
 =======
                         <td class="" style="background-color: rgba(206, 0, 0, 0.6); ${defaultTextColor}">
+>>>>>>> upstream/18.0
+=======
+                        <td class="o_selected_td o_selected_td_bg_color_preview" style="background-color: rgba(206, 0, 0, 0.6); ${defaultTextColor}">
 >>>>>>> upstream/18.0
 =======
                         <td class="o_selected_td o_selected_td_bg_color_preview" style="background-color: rgba(206, 0, 0, 0.6); ${defaultTextColor}">
@@ -4433,7 +4479,11 @@ describe("color preview", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(".o-we-toolbar").toHaveCount(1); // toolbar still open
+=======
+        await expectElementCount(".o-we-toolbar", 1);
+>>>>>>> upstream/18.0
 =======
         await expectElementCount(".o-we-toolbar", 1);
 >>>>>>> upstream/18.0
@@ -4796,7 +4846,11 @@ describe("color preview", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <td class="bg-black" style="${defaultTextColor}">
+=======
+                        <td class="o_selected_td o_selected_td_bg_color_preview bg-black" style="${defaultTextColor}">
+>>>>>>> upstream/18.0
 =======
                         <td class="o_selected_td o_selected_td_bg_color_preview bg-black" style="${defaultTextColor}">
 >>>>>>> upstream/18.0
@@ -4965,7 +5019,11 @@ describe("color preview", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <td class="bg-black" style="${defaultTextColor}">
+=======
+                        <td class="o_selected_td o_selected_td_bg_color_preview bg-black" style="${defaultTextColor}">
+>>>>>>> upstream/18.0
 =======
                         <td class="o_selected_td o_selected_td_bg_color_preview bg-black" style="${defaultTextColor}">
 >>>>>>> upstream/18.0
@@ -5114,6 +5172,7 @@ describe("color preview", () => {
                 </tbody>
             </table>
         `);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5433,6 +5492,8 @@ describe("color preview", () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         await expectElementCount(".o-we-toolbar", 1);
     });
 
@@ -5518,6 +5579,9 @@ describe("color preview", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

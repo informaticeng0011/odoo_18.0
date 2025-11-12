@@ -133,7 +133,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <div t-if='managers_more' class="o_org_chart_more pe-3">
+=======
+        <div t-if='managers_more' class="o_org_chart_more pe-3" t-attf-class="{{max_level !== null ? 'invisible' : ''}}">
+>>>>>>> upstream/18.0
 =======
         <div t-if='managers_more' class="o_org_chart_more pe-3" t-attf-class="{{max_level !== null ? 'invisible' : ''}}">
 >>>>>>> upstream/18.0

@@ -67,7 +67,11 @@ from freezegun import freeze_time
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tests import new_test_user
+=======
+from odoo.tests import Form, new_test_user
+>>>>>>> upstream/18.0
 =======
 from odoo.tests import Form, new_test_user
 >>>>>>> upstream/18.0
@@ -766,12 +770,15 @@ class TestHrAttendanceOvertime(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.env['hr.attendance'].create({
             'employee_id': self.employee.id,
             'check_in': datetime(2024, 2, 1, 8, 0),
             'check_out': datetime(2024, 2, 1, 13, 0)
         })
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1131,6 +1138,9 @@ class TestHrAttendanceOvertime(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1475,7 +1485,10 @@ class TestHrAttendanceOvertime(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1742,6 +1755,9 @@ class TestHrAttendanceOvertime(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2009,6 +2025,10 @@ class TestHrAttendanceOvertime(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.assertEqual(attendance_flexible_pending.check_out, False)
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(attendance_flexible_pending.check_out, False)
 >>>>>>> upstream/18.0
@@ -2398,6 +2418,7 @@ class TestHrAttendanceOvertime(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -2644,6 +2665,8 @@ class TestHrAttendanceOvertime(TransactionCase):
         # Employee with flexible working schedule should not be checked out
         self.assertEqual(attendance_flexible_pending.check_out, False)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2761,6 +2784,9 @@ class TestHrAttendanceOvertime(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2914,6 +2940,9 @@ class TestHrAttendanceOvertime(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3209,6 +3238,9 @@ class TestHrAttendanceOvertime(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3573,7 +3605,10 @@ class TestHrAttendanceOvertime(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3841,6 +3876,9 @@ class TestHrAttendanceOvertime(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4109,6 +4147,10 @@ class TestHrAttendanceOvertime(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.assertAlmostEqual(self.flexible_employee.total_overtime, 0, 2)
+>>>>>>> upstream/18.0
 =======
         self.assertAlmostEqual(self.flexible_employee.total_overtime, 0, 2)
 >>>>>>> upstream/18.0
@@ -4472,6 +4514,12 @@ class TestHrAttendanceOvertime(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # Flexible schedule employee, no absence found
+        self.assertAlmostEqual(self.flexible_employee.total_overtime, 0, 2)
+
+>>>>>>> upstream/18.0
 =======
         # Flexible schedule employee, no absence found
         self.assertAlmostEqual(self.flexible_employee.total_overtime, 0, 2)
@@ -5095,7 +5143,10 @@ class TestHrAttendanceOvertime(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5313,12 +5364,15 @@ class TestHrAttendanceOvertime(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         attendance = self.env['hr.attendance'].create({
             'employee_id': self.employee.id,
             'check_in': datetime(2023, 1, 2, 8, 0),
             'check_out': datetime(2023, 1, 2, 18, 0)
         })
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5523,6 +5577,7 @@ class TestHrAttendanceOvertime(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5531,6 +5586,8 @@ class TestHrAttendanceOvertime(TransactionCase):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5718,6 +5775,9 @@ class TestHrAttendanceOvertime(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5921,6 +5981,7 @@ class TestHrAttendanceOvertime(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5945,6 +6006,8 @@ class TestHrAttendanceOvertime(TransactionCase):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6130,6 +6193,9 @@ class TestHrAttendanceOvertime(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

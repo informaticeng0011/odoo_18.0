@@ -40,9 +40,15 @@ export class WelcomePage extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     joinChannel() {
         if (this.store.self.type === "guest") {
             this.store.self.updateGuestName(this.state.userName.trim());
+=======
+    async joinChannel() {
+        if (this.store.self.type === "guest") {
+            await this.store.self.updateGuestName(this.state.userName.trim());
+>>>>>>> upstream/18.0
 =======
     async joinChannel() {
         if (this.store.self.type === "guest") {

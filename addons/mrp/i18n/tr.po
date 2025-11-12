@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* mrp
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -111,6 +112,10 @@
 #
 >>>>>>> upstream/18.0
 =======
+#
+>>>>>>> upstream/18.0
+=======
+# * mrp
 #
 >>>>>>> upstream/18.0
 =======
@@ -277,6 +282,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Deniz Guvener, 2025
 # Cengiz Cokay Global Nonwoven, 2025
 =======
@@ -798,10 +804,16 @@
 # Deniz Guvener_Odoo <degu@odoo.com>, 2025
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
+=======
+# Cengiz Cokay Global Nonwoven, 2025
+# Deniz Guvener_Odoo <degu@odoo.com>, 2025
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1448,6 +1460,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-11-07 18:36+0000\n"
 "PO-Revision-Date: 2025-11-08 16:52+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
@@ -1455,6 +1469,9 @@ msgstr ""
 "\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1493,6 +1510,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1547,6 +1565,10 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+=======
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 =======
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Weblate 5.12.2\n"
@@ -1565,6 +1587,7 @@ msgstr ""
 #: model:ir.model.fields,help:mrp.field_mrp_workorder__production_state
 msgid ""
 " * Draft: The MO is not confirmed yet.\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1716,11 +1739,16 @@ msgid ""
 " * Confirmed: The MO is confirmed, the stock rules and the reordering of the "
 "components are trigerred.\n"
 >>>>>>> upstream/18.0
+=======
+" * Confirmed: The MO is confirmed, the stock rules and the reordering of the "
+"components are trigerred.\n"
+>>>>>>> upstream/18.0
 " * In Progress: The production has started (on the MO or on the WO).\n"
 " * To Close: The production is done, the MO has to be closed.\n"
 " * Done: The MO is closed, the stock moves are posted. \n"
 " * Cancelled: The MO has been cancelled, can't be confirmed anymore."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2022,6 +2050,11 @@ msgstr ""
 " * Onaylandı: Üretim emri onaylandı, stok kuralları ve bileşenlerin yeniden "
 "siparişi tetiklendi.\n"
 >>>>>>> upstream/18.0
+=======
+" * Taslak: Üretim emri henüz onaylanmadı.\n"
+" * Onaylandı: Üretim emri onaylandı, stok kuralları ve bileşenlerin yeniden "
+"siparişi tetiklendi.\n"
+>>>>>>> upstream/18.0
 " * Devam Ediyor: Üretim başladı (üretim emri veya iş emri üzerinden).\n"
 " * Kapatılacak: Üretim tamamlandı, üretim emri kapatılmalı.\n"
 " * Tamamlandı: Üretim emri kapatıldı, stok hareketleri kaydedildi. \n"
@@ -2093,6 +2126,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2269,9 +2305,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 " <br/><br/> The manufactured products will be moved towards "
 "<b>%(destination)s</b>, <br/> as specified from <b>%(operation)s</b> "
 "destination."
+=======
+" <br/><br/> The manufactured products will be moved towards <b>%"
+"(destination)s</b>, <br/> as specified from <b>%(operation)s</b> destination."
+>>>>>>> upstream/18.0
 =======
 " <br/><br/> The manufactured products will be moved towards <b>%"
 "(destination)s</b>, <br/> as specified from <b>%(operation)s</b> destination."
@@ -2555,7 +2596,10 @@ msgstr "+ %d gün(ler)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2649,6 +2693,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2756,12 +2803,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "              3 Steps: Pick components from stock, produce, and then move final product(s) from production area to stock."
 msgstr ""
 "Tek Adım: Stoktaki bileşenleri kullanarak üretim yapın.\n"
 "              İki Adım: Stoktan bileşenleri seçin ve sonra üretim yapın.\n"
 "              Üç Adım: Stoktan bileşenleri seçin, üretim yapın ve sonra nihai ürünü (ya da ürünleri) üretim alanından stoğa taşıyın. "
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2856,6 +2906,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3005,6 +3058,7 @@ msgstr ":  saat"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-pause\" role=\"img\" aria-label=\"Pause\" title=\"Pause\"/>"
 msgstr "<i class=\"fa fa-pause\" role=\"img\" aria-label=\"Pause\" title=\"Pause\"/>"
 
@@ -3076,6 +3130,8 @@ msgstr "<i class=\"fa fa-stop\" role=\"img\" aria-label=\"Stop\" title=\"Stop\"/
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "<i class=\"fa fa-pause\" role=\"img\" aria-label=\"Pause\" title=\"Pause\"/>"
 msgstr ""
@@ -3123,6 +3179,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3220,7 +3279,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        Use this feature to store any files, like drawings or specifications.\n"
+=======
+"                        Use this feature to store any files, like drawings "
+"or specifications.\n"
+>>>>>>> upstream/18.0
 =======
 "                        Use this feature to store any files, like drawings "
 "or specifications.\n"
@@ -3376,7 +3440,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        Çizimler veya şartnameleler gibi dosyaları saklamak için bu özelliği kullanın.\n"
+=======
+"                        Çizimler veya şartnameleler gibi dosyaları saklamak "
+"için bu özelliği kullanın.\n"
+>>>>>>> upstream/18.0
 =======
 "                        Çizimler veya şartnameleler gibi dosyaları saklamak "
 "için bu özelliği kullanın.\n"
@@ -3646,6 +3715,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "modify the quantities of components to consume for this manufacturing "
 "order.</span>"
 msgstr ""
@@ -3653,6 +3723,8 @@ msgstr ""
 "bu üretim siparişi için tüketilecek bileşen miktarlarını da "
 "değiştirecektir.</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3746,6 +3818,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4003,7 +4078,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                Instead, it is used to decompose a BoM into its components when:"
+=======
+"                                Instead, it is used to decompose a BoM into "
+"its components when:"
+>>>>>>> upstream/18.0
 =======
 "                                Instead, it is used to decompose a BoM into "
 "its components when:"
@@ -4285,7 +4365,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You should install the mrp_byproduct module if you want to manage extra products on BoMs!"
+=======
+"You should install the mrp_byproduct module if you want to manage extra "
+"products on BoMs!"
+>>>>>>> upstream/18.0
 =======
 "You should install the mrp_byproduct module if you want to manage extra "
 "products on BoMs!"
@@ -4673,8 +4758,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "case the product is subcontracted, this can be used to determine the date at"
 " which components should be sent to the subcontractor."
+=======
+"case the product is subcontracted, this can be used to determine the date at "
+"which components should be sent to the subcontractor."
+>>>>>>> upstream/18.0
 =======
 "case the product is subcontracted, this can be used to determine the date at "
 "which components should be sent to the subcontractor."
@@ -4915,11 +5005,17 @@ msgstr "Ön Teslimat Sırası"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Backorder sequence, if equals to 0 means there is not related backorder"
 msgstr ""
 "Ön teslimat sırası eğer 0'a eşitse ilgili ön teslimat olmadığı anlamına "
 "gelir"
+=======
+msgid "Backorder sequence, if equals to 0 means there is not related backorder"
+msgstr ""
+"Ön teslimat sırası eğer 0'a eşitse ilgili ön teslimat olmadığı anlamına gelir"
+>>>>>>> upstream/18.0
 =======
 msgid "Backorder sequence, if equals to 0 means there is not related backorder"
 msgstr ""
@@ -5147,6 +5243,7 @@ msgstr "Ürün Reçetesi"
 #: model:ir.model.fields,help:mrp.field_mrp_unbuild__mo_bom_id
 #: model:ir.model.fields,help:mrp.field_mrp_workorder__production_bom_id
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5444,6 +5541,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Bills of Materials, also called recipes, are used to autocomplete components "
 "and work order instructions."
 msgstr ""
@@ -5478,6 +5577,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5572,12 +5674,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                materials used to make a finished product; through a manufacturing\n"
 "                order or a pack of products."
 msgstr ""
 "Ürün reçeteleri, üretim emri ya da ürün paketi ile, \n"
 "biten ürünlerin yapılması için gereken hammadde listesini tanımlamanıza yardımcı olur."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5672,6 +5777,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6151,9 +6259,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "buying or manufacturing the components and/or subassemblies."
 "                                                       Also note that "
 "purchase security lead times will be added when appropriate."
+=======
+"buying or manufacturing the components and/or "
+"subassemblies.                                                       Also "
+"note that purchase security lead times will be added when appropriate."
+>>>>>>> upstream/18.0
 =======
 "buying or manufacturing the components and/or "
 "subassemblies.                                                       Also "
@@ -6518,8 +6632,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Create a backorder if you expect to process the remaining products later. Do"
 " not create a backorder if you will not process the remaining products."
+=======
+"Create a backorder if you expect to process the remaining products later. Do "
+"not create a backorder if you will not process the remaining products."
+>>>>>>> upstream/18.0
 =======
 "Create a backorder if you expect to process the remaining products later. Do "
 "not create a backorder if you will not process the remaining products."
@@ -6694,12 +6813,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Create and confirm Manufacturing Orders this many days in advance, to have enough time to replenish components or manufacture semi-finished products.\n"
 "Note that security lead times will also be considered when appropriate."
 msgstr ""
 "Bileşenleri yenilemek veya yarı mamul ürünler üretmek için yeterli zamana sahip olmak için Üretim Siparişlerini bu kadar gün önceden oluşturun ve onaylayın.\n"
 "Uygun olduğunda güvenlik sağlama sürelerinin de dikkate alınacağını unutmayın."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6796,6 +6918,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6953,6 +7078,7 @@ msgstr "Kur"
 #: model:ir.model.fields,help:mrp.field_stock_move__product_qty_available
 msgid ""
 "Current quantity of products.\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7282,6 +7408,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "In a context with a single Stock Location, this includes goods stored at "
 "this Location, or any of its children.\n"
 "In a context with a single Warehouse, this includes goods stored in the "
@@ -7329,6 +7457,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7412,7 +7543,11 @@ msgid "Date Category"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tarih Kategorisi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tarih Kategorisi"
 >>>>>>> upstream/18.0
@@ -7514,8 +7649,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "you need to produce 10 units, then the operation time listed on the BOM will"
 " be multiplied by two. However, note that both time before and after "
+=======
+"you need to produce 10 units, then the operation time listed on the BOM will "
+"be multiplied by two. However, note that both time before and after "
+>>>>>>> upstream/18.0
 =======
 "you need to produce 10 units, then the operation time listed on the BOM will "
 "be multiplied by two. However, note that both time before and after "
@@ -7745,6 +7885,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Kaynağın çalışma programını tanımlayın. Ayarlanmazsa, kaynak tamamen esnek "
+"çalışma saatlerine sahip olacaktır."
+>>>>>>> upstream/18.0
 =======
 "Kaynağın çalışma programını tanımlayın. Ayarlanmazsa, kaynak tamamen esnek "
 "çalışma saatlerine sahip olacaktır."
@@ -8099,12 +8244,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Defines if you can consume more or less components than the quantity defined on the BoM:\n"
 "  * Allowed: allowed for all manufacturing users.\n"
 "  * Allowed with warning: allowed for all manufacturing users with summary of consumption differences when closing the manufacturing order.\n"
 "  Note that in the case of component Highlight Consumption, where consumption is registered manually exclusively, consumption warnings will still be issued when appropriate also.\n"
 "  * Blocked: only a manager can close a manufacturing order when the BoM consumption is not respected."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8202,6 +8350,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8427,6 +8578,10 @@ msgstr "Söküm"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
 >>>>>>> upstream/18.0
@@ -9160,6 +9315,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "In a context with a single Stock Location, this includes goods stored in this location, or any of its children.\n"
 "In a context with a single Warehouse, this includes goods stored in the Stock Location of this Warehouse, or any of its children.\n"
 "Otherwise, this includes goods stored in any Stock Location with 'internal' type."
@@ -9167,6 +9323,8 @@ msgstr ""
 "Öngörülen miktar (Eldeki Miktar - Çıkan + Giren olarak hesaplanır\n"
 "Tek bir stok konumu bağlamında bu, bu konumda veya onun herhangi bir alt konumunda depolanan malları içerir.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9264,6 +9422,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9571,7 +9732,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9841,6 +10005,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10184,8 +10351,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If this checkbox is ticked, Odoo will automatically print the product labels"
 " of a MO when it is done."
+=======
+"If this checkbox is ticked, Odoo will automatically print the product labels "
+"of a MO when it is done."
+>>>>>>> upstream/18.0
 =======
 "If this checkbox is ticked, Odoo will automatically print the product labels "
 "of a MO when it is done."
@@ -10360,8 +10532,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Impossible to plan the workorder. Please check the workcenter "
 "availabilities."
+=======
+"Impossible to plan the workorder. Please check the workcenter availabilities."
+>>>>>>> upstream/18.0
 =======
 "Impossible to plan the workorder. Please check the workcenter availabilities."
 >>>>>>> upstream/18.0
@@ -10536,8 +10712,12 @@ msgstr "Stok Hareketleri"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Inventory moves for which you must scan a lot number at this work order"
+=======
+msgid "Inventory moves for which you must scan a lot number at this work order"
+>>>>>>> upstream/18.0
 =======
 msgid "Inventory moves for which you must scan a lot number at this work order"
 >>>>>>> upstream/18.0
@@ -10700,7 +10880,11 @@ msgid "John Doe"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "John Doe"
+>>>>>>> upstream/18.0
 =======
 msgstr "John Doe"
 >>>>>>> upstream/18.0
@@ -10850,7 +11034,11 @@ msgid "Laptop"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dizüstü bilgisayar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dizüstü bilgisayar"
 >>>>>>> upstream/18.0
@@ -11313,7 +11501,11 @@ msgid "Late Availability"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Geç Kullanılabilirlik"
+>>>>>>> upstream/18.0
 =======
 msgstr "Geç Kullanılabilirlik"
 >>>>>>> upstream/18.0
@@ -11365,8 +11557,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Bu MO için en son bileşen kullanılabilirlik durumu. Yeşilse, Malzeme Listesi"
 " yapılandırmasına göre MO'nun hazır olma durumu hazırdır."
+=======
+"Bu MO için en son bileşen kullanılabilirlik durumu. Yeşilse, Malzeme Listesi "
+"yapılandırmasına göre MO'nun hazır olma durumu hazırdır."
+>>>>>>> upstream/18.0
 =======
 "Bu MO için en son bileşen kullanılabilirlik durumu. Yeşilse, Malzeme Listesi "
 "yapılandırmasına göre MO'nun hazır olma durumu hazırdır."
@@ -11545,7 +11742,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Select Bill of Materials to visualise this document as a product attachment when this product is in a bill of material."
+=======
+"Select Bill of Materials to visualise this document as a product attachment "
+"when this product is in a bill of material."
+>>>>>>> upstream/18.0
 =======
 "Select Bill of Materials to visualise this document as a product attachment "
 "when this product is in a bill of material."
@@ -12072,12 +12274,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Manufacturing operations are processed at Work Centers. A Work Center can be composed of\n"
 "                workers and/or machines, they are used for costing, scheduling, capacity planning, etc."
 msgstr ""
 "Üretim operasyonları, İş Merkezlerinde gerçekleşir. Bir İş Merkezi, \n"
 "çalışanlardan ve/veya makinelerden oluşabilir, bunlar maliyetlendirme, planlama, kapasite planlaması vs. için kullanılır."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12173,6 +12378,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12266,6 +12474,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Manufacturing operations are processed at Work Centers. A Work Center can be composed of\n"
 "                workers and/or machines, they are used for costing, scheduling, capacity planning, etc.\n"
 "                They can be defined via the configuration menu."
@@ -12273,6 +12482,8 @@ msgstr ""
 "Üretim operasyonları, İş Merkezlerinde gerçekleşir. Bir İş Merkezi, çalışanlardan ve/veya\n"
 "makinelerden oluşabilir, bunlar maliyetlendirme, planlama, kapasite planlaması vs. için kullanılır. Yapılandırma menüsü aracılığıyla tanımlanabilirler."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12371,6 +12582,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12467,7 +12681,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            * Waiting: The material is not available to start the production.\n"
+=======
+"            * Waiting: The material is not available to start the "
+"production.\n"
+>>>>>>> upstream/18.0
 =======
 "            * Waiting: The material is not available to start the "
 "production.\n"
@@ -12802,7 +13021,10 @@ msgstr "Ön Teslimat Yok"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12896,6 +13118,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13188,9 +13413,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                install the IoT App on a computer that is on the same local network as the\n"
 "                                barcode operator and configure the routing of the reports."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13282,6 +13510,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13437,11 +13668,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                Each operation is done at a specific Work Center and has a specific duration."
 msgstr ""
 "Operasyon, iş emrini gerçekleştirmek için yapılması gerekenleri tanımlar.\n"
 "Her operasyon belirli bir iş merkezinde yapılır ve belirli bir süreye sahiptir."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13535,6 +13769,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13820,8 +14057,12 @@ msgid "Pick components, manufacture, then store products (3 steps)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Bileşenleri seçin, ürünleri üretin, sonra stok sahasına alın (3. adım)"
+=======
+msgstr "Bileşenleri seçin, ürünleri üretin, sonra stok sahasına alın (3. adım)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Bileşenleri seçin, ürünleri üretin, sonra stok sahasına alın (3. adım)"
 >>>>>>> upstream/18.0
@@ -14386,7 +14627,11 @@ msgid "Product Replenish Mixin"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ürün Yenileme Karışımı"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ürün Yenileme Karışımı"
 >>>>>>> upstream/18.0
@@ -15079,8 +15324,12 @@ msgstr "Referans her şirket için tekil olmalı!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Reference of the document that generated this production order request."
+=======
+msgid "Reference of the document that generated this production order request."
+>>>>>>> upstream/18.0
 =======
 msgid "Reference of the document that generated this production order request."
 >>>>>>> upstream/18.0
@@ -15392,7 +15641,11 @@ msgid "Selection not supported."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Seçim desteklenmiyor."
+>>>>>>> upstream/18.0
 =======
 msgstr "Seçim desteklenmiyor."
 >>>>>>> upstream/18.0
@@ -15581,7 +15834,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Some work orders are already done, so you cannot unplan this manufacturing order.\n"
+=======
+"Some work orders are already done, so you cannot unplan this manufacturing "
+"order.\n"
+>>>>>>> upstream/18.0
 =======
 "Some work orders are already done, so you cannot unplan this manufacturing "
 "order.\n"
@@ -15740,7 +15998,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Some work orders have already started, so you cannot unplan this manufacturing order.\n"
+=======
+"Some work orders have already started, so you cannot unplan this "
+"manufacturing order.\n"
+>>>>>>> upstream/18.0
 =======
 "Some work orders have already started, so you cannot unplan this "
 "manufacturing order.\n"
@@ -15912,8 +16175,12 @@ msgstr "Spesifik Kapasiteler"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Specific number of pieces that can be produced in parallel per product."
+=======
+msgid "Specific number of pieces that can be produced in parallel per product."
+>>>>>>> upstream/18.0
 =======
 msgid "Specific number of pieces that can be produced in parallel per product."
 >>>>>>> upstream/18.0
@@ -16317,7 +16584,11 @@ msgid "The day after tomorrow"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Yarından sonraki gün"
+>>>>>>> upstream/18.0
 =======
 msgstr "Yarından sonraki gün"
 >>>>>>> upstream/18.0
@@ -16393,8 +16664,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Bu yan ürün için nihai üretim maliyetinin yüzdesi. Tüm yan ürünlerin maliyet"
 " payının toplamı 100'e eşit veya daha küçük olmalıdır."
+=======
+"Bu yan ürün için nihai üretim maliyetinin yüzdesi. Tüm yan ürünlerin maliyet "
+"payının toplamı 100'e eşit veya daha küçük olmalıdır."
+>>>>>>> upstream/18.0
 =======
 "Bu yan ürün için nihai üretim maliyetinin yüzdesi. Tüm yan ürünlerin maliyet "
 "payının toplamı 100'e eşit veya daha küçük olmalıdır."
@@ -16565,8 +16841,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "davranışlara yol açabilir. Ürünü arşivlemeyi ve yeni bir malzeme listesi ile"
 " yeni bir tane oluşturmayı tercih etmelisiniz."
+=======
+"davranışlara yol açabilir. Ürünü arşivlemeyi ve yeni bir malzeme listesi ile "
+"yeni bir tane oluşturmayı tercih etmelisiniz."
+>>>>>>> upstream/18.0
 =======
 "davranışlara yol açabilir. Ürünü arşivlemeyi ve yeni bir malzeme listesi ile "
 "yeni bir tane oluşturmayı tercih etmelisiniz."
@@ -16818,7 +17099,11 @@ msgid "The quantity to unbuild must be positive!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sökülecek miktar pozitif olmalıdır!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sökülecek miktar pozitif olmalıdır!"
 >>>>>>> upstream/18.0
@@ -17193,8 +17478,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The serial number %(number)s used for byproduct %(product_name)s has already"
 " been produced"
+=======
+"The serial number %(number)s used for byproduct %(product_name)s has already "
+"been produced"
+>>>>>>> upstream/18.0
 =======
 "The serial number %(number)s used for byproduct %(product_name)s has already "
 "been produced"
@@ -17435,8 +17725,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Bu alan, bu iş merkezindeki bir iş emrinin beklenen süresini hesaplamak için"
 " kullanılır. Örneğin, bir iş emri bir saat sürer ve etkinlik faktörü% 100 "
+=======
+"Bu alan, bu iş merkezindeki bir iş emrinin beklenen süresini hesaplamak için "
+"kullanılır. Örneğin, bir iş emri bir saat sürer ve etkinlik faktörü% 100 "
+>>>>>>> upstream/18.0
 =======
 "Bu alan, bu iş merkezindeki bir iş emrinin beklenen süresini hesaplamak için "
 "kullanılır. Örneğin, bir iş emri bir saat sürer ve etkinlik faktörü% 100 "
@@ -17615,12 +17910,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This menu gives you the full traceability of inventory operations on a specific product.\n"
 "                You can filter on the product to see all the past movements for the product."
 msgstr ""
 "Bu menü belirli bir üründeki stok işlemlerinin tam izlenebilirliğini sağlar.\n"
 "                Ürüne ait tüm geçmiş hareketleri görmek için ürün üzerinde filtreleme yapabilirsiniz."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -17717,6 +18015,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17833,8 +18134,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "operasyonlar içeriyorsa, iş merkezi kapasitesinin doğru olduğundan emin "
 "olun."
+=======
+"operasyonlar içeriyorsa, iş merkezi kapasitesinin doğru olduğundan emin olun."
+>>>>>>> upstream/18.0
 =======
 "operasyonlar içeriyorsa, iş merkezi kapasitesinin doğru olduğundan emin olun."
 >>>>>>> upstream/18.0
@@ -18305,8 +18610,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Ölçü Birimi (Ölçü Birimi) stok kontrolünde kullanılacak ölçü birimidir"
+=======
+msgstr "Ölçü Birimi (Ölçü Birimi) stok kontrolünde kullanılacak ölçü birimidir"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ölçü Birimi (Ölçü Birimi) stok kontrolünde kullanılacak ölçü birimidir"
 >>>>>>> upstream/18.0
@@ -18535,8 +18844,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "specified for a tracked product that is having its consumed amount "
 "increased:%(products)s"
+=======
+"specified for a tracked product that is having its consumed amount increased:"
+"%(products)s"
+>>>>>>> upstream/18.0
 =======
 "specified for a tracked product that is having its consumed amount increased:"
 "%(products)s"
@@ -18803,6 +19117,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "try to create a Manufacturing Order for that product using a BoM of the same"
 " operation type. That allows to define stock rules which trigger different "
 "manufacturing orders with different BoMs."
@@ -18812,6 +19127,8 @@ msgstr ""
 "Siparişi yaratmaya çalışacaktır. Bu, farklı Ürün Reçetelerinde farklı imalat"
 " siparişlerini tetikleyen tedarik kurallarını tanımlamaya olanak tanır."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -18907,6 +19224,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -19001,12 +19321,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "When activated, then the registration of consumption for that component is recorded manually exclusively.\n"
 "If not activated, and any of the components consumption is edited manually on the manufacturing order, Odoo assumes manual consumption also."
 msgstr ""
 "Etkinleştirildiğinde, bu bileşen için tüketim kaydı yalnızca manuel olarak kaydedilir.\n"
 "Etkinleştirilmezse ve bileşenlerden herhangi birinin tüketimi üretim siparişinde manuel olarak düzenlenirse, Odoo manuel tüketimi de varsayar."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -19103,6 +19426,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -19225,8 +19551,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "bildirim döngülerini, bakım alarmlarını, hurda ürünlerini vs. "
 "tetikleyebilir."
+=======
+"bildirim döngülerini, bakım alarmlarını, hurda ürünlerini vs. tetikleyebilir."
+>>>>>>> upstream/18.0
 =======
 "bildirim döngülerini, bakım alarmlarını, hurda ürünlerini vs. tetikleyebilir."
 >>>>>>> upstream/18.0
@@ -19514,11 +19844,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    Operations are defined in the bill of materials or added in the manufacturing order directly."
 msgstr ""
 "İş emirleri bir üretim emrinin parçası olarak yapılacak operasyonlardır. \n"
 "Operasyonlar ürün reçetesinde tanımlanır ya da üretim emrine doğrudan eklenir."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -19612,6 +19945,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -19709,7 +20045,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            Operations are defined in the bill of materials or added in the manufacturing order directly."
+=======
+"            Operations are defined in the bill of materials or added in the "
+"manufacturing order directly."
+>>>>>>> upstream/18.0
 =======
 "            Operations are defined in the bill of materials or added in the "
 "manufacturing order directly."
@@ -19998,6 +20339,7 @@ msgstr "Üretimi yalnızca aynı durumda birleştirebilirsiniz."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/mrp/models/mrp_workorder.py:0
 msgid ""
 <<<<<<< HEAD
@@ -20115,6 +20457,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "You cannot cancel a manufacturing order that is already done."
 msgstr ""
@@ -20126,6 +20470,9 @@ msgid ""
 "You cannot change the workcenter of a work order that is in progress or done."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -20152,7 +20499,10 @@ msgstr "Döngüsel bağımlılık oluşturamazsınız."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -20165,6 +20515,9 @@ msgstr ""
 #. odoo-python
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -20259,10 +20612,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            Please review your component consumption or ask a manager to validate\n"
 "                            <span invisible=\"mrp_production_count != 1\">this manufacturing order</span>\n"
 "                            <span invisible=\"mrp_production_count == 1\">these manufacturing orders</span>.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -20356,6 +20712,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -20452,10 +20811,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            Malzeme kullanımınızı teyit ediniz veya müdürünüzden doğrulamasını isteyiniz\n"
 "                            <span invisible=\"mrp_production_count != 1\">bu üretim emri</span>\n"
 "                            <span invisible=\"mrp_production_count == 1\">bu üretim emirleri</span>.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -20549,6 +20911,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -20644,8 +21009,12 @@ msgid "You need at least two production orders to merge them."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Bunları birleştirmek için en az iki üretim siparişine ihtiyacınız var."
+=======
+msgstr "Bunları birleştirmek için en az iki üretim siparişine ihtiyacınız var."
+>>>>>>> upstream/18.0
 =======
 msgstr "Bunları birleştirmek için en az iki üretim siparişine ihtiyacınız var."
 >>>>>>> upstream/18.0
@@ -20776,8 +21145,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Üretim uygulamasından, menüden bir tane oluşturun: Yapılandırma / Verimlilik"
 " Kaybı."
+=======
+"Üretim uygulamasından, menüden bir tane oluşturun: Yapılandırma / Verimlilik "
+"Kaybı."
+>>>>>>> upstream/18.0
 =======
 "Üretim uygulamasından, menüden bir tane oluşturun: Yapılandırma / Verimlilik "
 "Kaybı."
@@ -20934,6 +21308,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "'Productivity'. Create one from the Manufacturing app, menu: Configuration /"
 " Productivity Losses."
 msgstr ""
@@ -20941,6 +21316,8 @@ msgstr ""
 "Üretim uygulamasından, menüden bir tane oluşturun: Yapılandırma / Verimlilik"
 " Kaybı."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -21034,6 +21411,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -21146,8 +21526,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You need to supply Lot/Serial Number for products and 'consume' them: "
 "%(missing_products)s"
+=======
+"You need to supply Lot/Serial Number for products and 'consume' them: %"
+"(missing_products)s"
+>>>>>>> upstream/18.0
 =======
 "You need to supply Lot/Serial Number for products and 'consume' them: %"
 "(missing_products)s"
@@ -21513,6 +21898,7 @@ msgstr "iş emirleri"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #. module: mrp
 #. odoo-javascript
@@ -21533,6 +21919,8 @@ msgstr ""
 #: code:addons/mrp/static/src/components/mo_overview_operations_block/mrp_mo_overview_operations_block.xml:0
 msgid "{{ state.isFolded ? 'Unfold' : 'Fold' }}"
 msgstr ""
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

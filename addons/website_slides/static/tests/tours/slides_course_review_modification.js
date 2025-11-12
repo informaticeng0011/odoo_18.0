@@ -37,11 +37,17 @@ registry.category("web_tour.tours").add("course_review_modification", {
         },
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
             trigger:
                 "#chatterRoot:shadow .o-mail-Chatter .o_website_rating_card_container .o_website_rating_table_row[data-star='4']:contains(100%)",
         },
         {
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             trigger: "#chatterRoot:shadow .o-mail-Message:contains(First review)",
             run: "hover && click #chatterRoot:shadow .o-mail-Message [title='Expand']",
@@ -55,6 +61,7 @@ registry.category("web_tour.tours").add("course_review_modification", {
             run: "click",
         },
         {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -194,11 +201,16 @@ registry.category("web_tour.tours").add("course_review_modification", {
             trigger: "#chatterRoot:shadow .o-mail-Thread:contains(The conversation is empty.)",
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
             trigger:
                 "#chatterRoot:shadow .o-mail-Chatter:not(:has(.o_website_rating_card_container))",
         },
         {
             trigger: "#chatterRoot:shadow .o-mail-Thread:contains(The conversation is empty.)",
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         },
         {
@@ -235,11 +247,17 @@ registry.category("web_tour.tours").add("course_review_modification", {
         {
             trigger:
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
                 "#chatterRoot:shadow .o-mail-Chatter .o_website_rating_card_container .o_website_rating_table_row[data-star='3']:contains(100%)",
         },
         {
             trigger:
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 "#chatterRoot:shadow .o-mail-Message:contains(Second review) .o_website_rating_static[title='3 stars on 5']",
         },
@@ -270,11 +288,17 @@ registry.category("web_tour.tours").add("course_review_modification", {
         {
             trigger:
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
                 "#chatterRoot:shadow .o-mail-Chatter .o_website_rating_card_container .o_website_rating_table_row[data-star='2']:contains(100%)",
         },
         {
             trigger:
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 "#chatterRoot:shadow .o-mail-Message:contains(Second review is edited in rating composer) .o_website_rating_static[title='2 stars on 5']",
             run: "hover && click #chatterRoot:shadow .o-mail-Message [title='Edit']",
@@ -337,11 +361,17 @@ registry.category("web_tour.tours").add("course_review_modification", {
         },
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
             trigger:
                 "#chatterRoot:shadow .o-mail-Chatter:not(:has(.o_website_rating_card_container))",
         },
         {
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             trigger: "span:contains(Add Review)",
             run: "click",
@@ -384,7 +414,10 @@ registry.category("web_tour.tours").add("course_review_modification", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -522,6 +555,9 @@ registry.category("web_tour.tours").add("course_review_modification", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

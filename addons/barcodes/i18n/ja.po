@@ -46,6 +46,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
@@ -328,6 +329,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
@@ -377,6 +380,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -470,6 +476,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -894,6 +901,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-09-27 01:48+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Junko Augias, 2025\n"
@@ -946,6 +955,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1086,7 +1098,13 @@ msgid " '*' is not a valid Regex Barcode Pattern. Did you mean '.*'?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr " '*' は有効な正規表現バーコードパターンではありません。意図されているのは、以下ですか:'.*'?"
+=======
+msgstr ""
+" '*' は有効な正規表現バーコードパターンではありません。意図されているのは、以"
+"下ですか:'.*'?"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 " '*' は有効な正規表現バーコードパターンではありません。意図されているのは、以"
@@ -1361,6 +1379,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<i>Barcodes Nomenclatures</i> define how barcodes are recognized and categorized.\n"
 "                                When a barcode is scanned it is associated to the <i>first</i> rule with a matching\n"
 "                                pattern. The pattern syntax is that of regular expression, and a barcode is matched\n"
@@ -1370,6 +1389,8 @@ msgstr ""
 "バーコードスキャン時に、パターンが合致する規則のうち <i>一番始めのもの</i> を採用します。\n"
 "パターンシンタックスは正規表現です。正規表現がバーコードのプレフィクスに一致することをもち、バーコードが規則に合致すると判断します。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1517,6 +1538,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1655,10 +1679,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "A barcode nomenclature defines how the point of sale identify and interprets"
 " barcodes"
 msgstr "バーコード表現規則は、販売時点管理がどのようにバーコードを識別し解釈するかを定義します"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1796,6 +1823,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2111,7 +2141,10 @@ msgstr "ID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2300,6 +2333,7 @@ msgid ""
 "In order to use barcodes.barcode_events_mixin, method on_barcode_scanned "
 "must be implemented"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2576,6 +2610,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "barcodes.barcode_events_mixinを使用するにはon_barcode_scanned メソッドを実装"
 "する必要があります。 "
 
@@ -2624,6 +2660,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2782,6 +2821,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Patterns can also define how numerical values, such as weight or price, can be\n"
 "                                encoded into the barcode. They are indicated by <code>{NNN}</code> where the N's\n"
 "                                define where the number's digits are encoded. Floats are also supported with the\n"
@@ -2795,6 +2835,8 @@ msgstr ""
 "                               例えば <code>{NNNDD}</code>浮動小数点もサポートされています。これらの場合、\n"
 "                                関連するレコードのバーコードフィールドはこれらの数値をゼロとして示す<i>必要があります</i>。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2948,6 +2990,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3143,7 +3188,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "バーコードパターン%(pattern)sにシンタックスエラーがあります: 1 つの規則には中括弧を 1 組しか含めることができません。"
+=======
+msgstr ""
+"バーコードパターン%(pattern)sにシンタックスエラーがあります: 1 つの規則には中"
+"括弧を 1 組しか含めることができません。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "バーコードパターン%(pattern)sにシンタックスエラーがあります: 1 つの規則には中"
@@ -3421,7 +3472,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "バーコードパターン %(pattern)sにシンタックスエラーがあります: 中括弧には後にD'sが続くN'sのみ含むことができます。"
+=======
+msgstr ""
+"バーコードパターン %(pattern)sにシンタックスエラーがあります: 中括弧には後に"
+"D'sが続くN'sのみ含むことができます。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "バーコードパターン %(pattern)sにシンタックスエラーがあります: 中括弧には後に"
@@ -3698,7 +3755,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "バーコードパターン%(pattern)sにシンタックスエラーがあります: 中括弧が空です。"
+=======
+msgstr ""
+"バーコードパターン%(pattern)sにシンタックスエラーがあります: 中括弧が空です。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "バーコードパターン%(pattern)sにシンタックスエラーがあります: 中括弧が空です。"
@@ -3930,7 +3992,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "この規則は、バーコードが指定されたエンコーディングでエンコードされている場合にのみ適用されます"
+=======
+msgstr ""
+"この規則は、バーコードが指定されたエンコーディングでエンコードされている場合"
+"にのみ適用されます"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "この規則は、バーコードが指定されたエンコーディングでエンコードされている場合"
@@ -4211,12 +4279,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "setting determines if a UPC/EAN barcode should be automatically converted in"
 " one way or another when trying to match a rule with the other encoding."
 msgstr ""
 "UPCコードは、プレフィックスとしてゼロを付けてJAN/EANに変換できます。 この設定では、ある規則と他のエンコーディングを一致させるときにUPC "
 "/EANバーコードを自動的に変換するかどうかを決定します。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4355,6 +4426,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4518,9 +4592,15 @@ msgstr "不明なバーコードコマンド"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Used to order rules such that rules with a smaller sequence match first"
 msgstr "より小さな付番規則が最初に一致するように規則を順序付けするために使用されます"
+=======
+msgid "Used to order rules such that rules with a smaller sequence match first"
+msgstr ""
+"より小さな付番規則が最初に一致するように規則を順序付けするために使用されます"
+>>>>>>> upstream/18.0
 =======
 msgid "Used to order rules such that rules with a smaller sequence match first"
 msgstr ""
@@ -4796,7 +4876,10 @@ msgstr "最後にスキャンされたバーコードの値。"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4936,6 +5019,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

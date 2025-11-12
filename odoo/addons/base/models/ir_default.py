@@ -102,7 +102,11 @@ class IrDefault(models.Model):
             ('company_id', '=', company_id),
             ('condition', '=', condition),
 <<<<<<< HEAD
+<<<<<<< HEAD
         ])
+=======
+        ], limit=1)
+>>>>>>> upstream/18.0
 =======
         ], limit=1)
 >>>>>>> upstream/18.0

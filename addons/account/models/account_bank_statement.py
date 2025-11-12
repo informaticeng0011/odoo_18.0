@@ -246,6 +246,7 @@ class AccountBankStatement(models.Model):
 
         self.env.cr.execute(f"""
 <<<<<<< HEAD
+<<<<<<< HEAD
             SELECT st.id
               FROM account_bank_statement st
          LEFT JOIN res_company co ON st.company_id = co.id
@@ -262,6 +263,8 @@ class AccountBankStatement(models.Model):
              WHERE ROUND(prev.balance_end_real, currency.decimal_places) != ROUND(st.balance_start, currency.decimal_places)
                {"" if all_statements else "AND st.id IN %(ids)s"}
 =======
+=======
+>>>>>>> upstream/18.0
              WITH statements AS (
                      SELECT st.id,
                             st.balance_start,
@@ -282,6 +285,9 @@ class AccountBankStatement(models.Model):
              FROM statements
             WHERE prev_balance_end_real IS NOT NULL
               AND ROUND(prev_balance_end_real, decimal_places) != ROUND(balance_start, decimal_places);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         """, {
             'ids': tuple(self.ids)
