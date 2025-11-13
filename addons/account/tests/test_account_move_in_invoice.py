@@ -953,6 +953,11 @@ class TestAccountMoveInInvoiceOnchanges(AccountTestInvoicingCommon):
         })
 
     def test_in_invoice_line_onchange_currency_1(self):
+<<<<<<< HEAD
+=======
+        self.other_currency.rounding = 0.001
+
+>>>>>>> upstream/18.0
         move_form = Form(self.invoice)
         move_form.currency_id = self.other_currency
         move_form.save()

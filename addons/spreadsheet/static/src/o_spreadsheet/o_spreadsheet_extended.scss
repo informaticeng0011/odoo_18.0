@@ -20,16 +20,34 @@
 }
 
 .o-sidePanel {
+<<<<<<< HEAD
     .o_input {
         color: #111827;
         border-color: #D8DADD;
+=======
+    --o-spreadsheet-input-border-color: #D8DADD;
+    .o_input {
+        color: #111827;
+        border-color: var(--o-spreadsheet-input-border-color);
+>>>>>>> upstream/18.0
         &::placeholder {
             opacity: 0.5;
         }
     }
 
+<<<<<<< HEAD
     .o_required_modifier {
         .o-input {
+=======
+    .o_field_invalid, .o_missing_field{
+        .o-input, .o_input {
+            border-color: var(--o-input-border-color);
+        }
+    }
+
+    .o_required_modifier:not(.o_field_invalid):not(.o_missing_field) {
+        .o_input {
+>>>>>>> upstream/18.0
             border-color: #111827;
         }
     }

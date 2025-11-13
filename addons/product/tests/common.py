@@ -14,7 +14,10 @@ class ProductCommon(
     @classmethod
     def setUpClass(cls):
         super().setUpClass()
+<<<<<<< HEAD
 
+=======
+>>>>>>> upstream/18.0
         cls.product_category = cls.env['product.category'].create({
             'name': 'Test Category',
         })

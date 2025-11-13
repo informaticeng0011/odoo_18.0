@@ -64,7 +64,11 @@ import { rpc } from "@web/core/network/rpc";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const HIDDEN_CONNECTION_STATES = new Set([undefined, "connected", "completed"]);
+=======
+const HIDDEN_CONNECTION_STATES = new Set(["connected", "completed"]);
+>>>>>>> upstream/18.0
 =======
 const HIDDEN_CONNECTION_STATES = new Set(["connected", "completed"]);
 >>>>>>> upstream/18.0
@@ -277,6 +281,7 @@ export class CallParticipantCard extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (!this.rtcSession) {
             return false;
         }
@@ -284,6 +289,8 @@ export class CallParticipantCard extends Component {
             !this.rtcSession.eq(this.rtc.selfSession) ||
             (this.env.debug && this.rtc.state.connectionType === CONNECTION_TYPES.SERVER)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -384,6 +391,9 @@ export class CallParticipantCard extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

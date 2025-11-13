@@ -9,11 +9,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Project-Id-Version: Odoo Server 17.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-26 08:15+0000\n"
 "PO-Revision-Date: 2024-08-26 08:15+0000\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -30,6 +33,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -62,6 +68,25 @@ msgid "Created on"
 msgstr ""
 
 #. module: l10n_it_edi_ndd
+<<<<<<< HEAD
+=======
+#: model:l10n_it.document.type,name:l10n_it_edi_ndd.l10n_it_document_type_01
+msgid ""
+"Invoice"
+msgstr ""
+
+#. module: l10n_it_edi_ndd
+#: model:l10n_it.document.type,name:l10n_it_edi_ndd.l10n_it_document_type_02
+msgid "Deposit/advance on invoice"
+msgstr ""
+
+#. module: l10n_it_edi_ndd
+#: model:l10n_it.document.type,name:l10n_it_edi_ndd.l10n_it_document_type_03
+msgid "Deposit/advance on vendor bill"
+msgstr ""
+
+#. module: l10n_it_edi_ndd
+>>>>>>> upstream/18.0
 #: model:l10n_it.document.type,name:l10n_it_edi_ndd.l10n_it_document_type_04
 msgid "Credit note"
 msgstr ""
@@ -72,15 +97,89 @@ msgid "Debit note"
 msgstr ""
 
 #. module: l10n_it_edi_ndd
+<<<<<<< HEAD
 #: model:l10n_it.document.type,name:l10n_it_edi_ndd.l10n_it_document_type_24
 msgid ""
 "Deferred invoice (Article 21, paragraph 4, third period letter to "
 "Presidential Decree 633/72)"
+=======
+#: model:l10n_it.document.type,name:l10n_it_edi_ndd.l10n_it_document_type_06
+msgid "Vendor bill"
+msgstr ""
+
+#. module: l10n_it_edi_ndd
+#: model:l10n_it.document.type,name:l10n_it_edi_ndd.l10n_it_document_type_07
+msgid "Simplified invoice"
+msgstr ""
+
+#. module: l10n_it_edi_ndd
+#: model:l10n_it.document.type,name:l10n_it_edi_ndd.l10n_it_document_type_08
+msgid "Simplified credit note"
+msgstr ""
+
+#. module: l10n_it_edi_ndd
+#: model:l10n_it.document.type,name:l10n_it_edi_ndd.l10n_it_document_type_09
+msgid "Simplified debit note"
+msgstr ""
+
+#. module: l10n_it_edi_ndd
+#: model:l10n_it.document.type,name:l10n_it_edi_ndd.l10n_it_document_type_16
+msgid ""
+"Reverse charged vendor bill integration for domestic reverse charge"
+msgstr ""
+
+#. module: l10n_it_edi_ndd
+#: model:l10n_it.document.type,name:l10n_it_edi_ndd.l10n_it_document_type_17
+msgid ""
+"Reverse charged vendor bill integration for purchase of foreign services"
+msgstr ""
+
+#. module: l10n_it_edi_ndd
+#: model:l10n_it.document.type,name:l10n_it_edi_ndd.l10n_it_document_type_18
+msgid ""
+"Reverse charged vendor bill integration for the purchase of intra-EU goods"
+msgstr ""
+
+#. module: l10n_it_edi_ndd
+#: model:l10n_it.document.type,name:l10n_it_edi_ndd.l10n_it_document_type_19
+msgid ""
+"Reverse charged vendor bill integration purchase of goods from foreign markets"
+msgstr ""
+
+#. module: l10n_it_edi_ndd
+#: model:l10n_it.document.type,name:l10n_it_edi_ndd.l10n_it_document_type_20
+msgid ""
+"Self-invoice for invoice correction"
+msgstr ""
+
+#. module: l10n_it_edi_ndd
+#: model:l10n_it.document.type,name:l10n_it_edi_ndd.l10n_it_document_type_21
+msgid "Self-invoice for exceeded threshold"
+msgstr ""
+
+#. module: l10n_it_edi_ndd
+#: model:l10n_it.document.type,name:l10n_it_edi_ndd.l10n_it_document_type_22
+msgid ""
+"Withdrawal of goods from VAT warehouse"
+msgstr ""
+
+#. module: l10n_it_edi_ndd
+#: model:l10n_it.document.type,name:l10n_it_edi_ndd.l10n_it_document_type_23
+msgid ""
+"Withdrawal of goods from VAT warehouse with VAT settlement"
+msgstr ""
+
+#. module: l10n_it_edi_ndd
+#: model:l10n_it.document.type,name:l10n_it_edi_ndd.l10n_it_document_type_24
+msgid ""
+"Deferred invoice"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: l10n_it_edi_ndd
 #: model:l10n_it.document.type,name:l10n_it_edi_ndd.l10n_it_document_type_25
 msgid ""
+<<<<<<< HEAD
 "Deferred invoice (Article 21, paragraph 4, third period, letter b "
 "(Dropshipping))"
 msgstr ""
@@ -93,6 +192,27 @@ msgstr ""
 #. module: l10n_it_edi_ndd
 #: model:l10n_it.document.type,name:l10n_it_edi_ndd.l10n_it_document_type_03
 msgid "Deposit/advance on parcel"
+=======
+"Deferred invoice for Dropshipping"
+msgstr ""
+
+#. module: l10n_it_edi_ndd
+#: model:l10n_it.document.type,name:l10n_it_edi_ndd.l10n_it_document_type_26
+msgid ""
+"Transfer of depreciable assets and internal transfers"
+msgstr ""
+
+#. module: l10n_it_edi_ndd
+#: model:l10n_it.document.type,name:l10n_it_edi_ndd.l10n_it_document_type_27
+msgid ""
+"Self-invoice for self-consumption, gifts or for free services"
+msgstr ""
+
+#. module: l10n_it_edi_ndd
+#: model:l10n_it.document.type,name:l10n_it_edi_ndd.l10n_it_document_type_28
+msgid ""
+"Self-invoice for purchases from San Marino with VAT (paper invoice)"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: l10n_it_edi_ndd
@@ -107,6 +227,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:l10n_it_edi_ndd.l10n_it_document_type_form
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:l10n_it_edi_ndd.l10n_it_document_type_form
 >>>>>>> upstream/18.0
@@ -127,6 +251,7 @@ msgid "Document Type"
 msgstr ""
 
 #. module: l10n_it_edi_ndd
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -325,6 +450,10 @@ msgstr ""
 #. odoo-python
 #: code:addons/l10n_it_edi_ndd/models/l10n_it_document_type.py:0
 >>>>>>> upstream/18.0
+=======
+#. odoo-python
+#: code:addons/l10n_it_edi_ndd/models/l10n_it_document_type.py:0
+>>>>>>> upstream/18.0
 msgid "Document Type code must be unique."
 msgstr ""
 
@@ -390,6 +519,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -518,6 +650,7 @@ msgid "ID"
 msgstr ""
 
 #. module: l10n_it_edi_ndd
+<<<<<<< HEAD
 #: model:l10n_it.document.type,name:l10n_it_edi_ndd.l10n_it_document_type_16
 msgid ""
 "Internal reverse charge self-invoice (Article 17 of Presidential Decree no. "
@@ -532,6 +665,8 @@ msgid ""
 msgstr ""
 
 #. module: l10n_it_edi_ndd
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model,name:l10n_it_edi_ndd.model_l10n_it_document_type
 msgid "Italian Document Type"
 msgstr ""
@@ -554,7 +689,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_it_edi_ndd.field_account_payment__l10n_it_document_type
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -576,7 +714,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_it_edi_ndd.field_account_payment__l10n_it_payment_method
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -744,11 +885,14 @@ msgid "Name"
 msgstr ""
 
 #. module: l10n_it_edi_ndd
+<<<<<<< HEAD
 #: model:l10n_it.document.type,name:l10n_it_edi_ndd.l10n_it_document_type_06
 msgid "Parcel"
 msgstr ""
 
 #. module: l10n_it_edi_ndd
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:l10n_it_edi_ndd.account_invoice_form_l10n_it
 msgid "Payment Method"
 msgstr ""
@@ -769,6 +913,7 @@ msgid "Sale"
 msgstr ""
 
 #. module: l10n_it_edi_ndd
+<<<<<<< HEAD
 #: model:l10n_it.document.type,name:l10n_it_edi_ndd.l10n_it_document_type_20
 msgid ""
 "Self-invoice Report (ex art.6 c8 471/97 or art.46 c5 331/93), or for invoice"
@@ -845,11 +990,14 @@ msgid "Simplified invoice"
 msgstr ""
 
 #. module: l10n_it_edi_ndd
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:l10n_it_edi_ndd.field_l10n_it_document_type__name
 msgid "The document type name"
 msgstr ""
 
 #. module: l10n_it_edi_ndd
+<<<<<<< HEAD
 #: model:l10n_it.document.type,name:l10n_it_edi_ndd.l10n_it_document_type_26
 msgid ""
 "Transfer of depreciable assets and for internal transfers (ex art.36 "
@@ -857,6 +1005,8 @@ msgid ""
 msgstr ""
 
 #. module: l10n_it_edi_ndd
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:l10n_it_edi_ndd.field_l10n_it_document_type__type
 msgid "Type"
 msgstr ""

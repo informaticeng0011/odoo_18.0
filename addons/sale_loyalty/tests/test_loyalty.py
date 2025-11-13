@@ -442,7 +442,10 @@ class TestLoyalty(TestSaleCouponCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -677,6 +680,9 @@ class TestLoyalty(TestSaleCouponCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1402,6 +1408,7 @@ class TestLoyalty(TestSaleCouponCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(order.amount_total, 10, msg=msg)
 =======
         self.assertEqual(order.amount_to_invoice, 10, msg=msg)
@@ -1453,6 +1460,9 @@ class TestLoyalty(TestSaleCouponCommon):
 >>>>>>> upstream/18.0
 =======
         self.assertEqual(order.amount_to_invoice, 10, msg=msg)
+>>>>>>> upstream/18.0
+=======
+        self.assertEqual(order.amount_total, 10, msg=msg)
 >>>>>>> upstream/18.0
 =======
         self.assertEqual(order.amount_total, 10, msg=msg)
@@ -1729,7 +1739,10 @@ class TestLoyalty(TestSaleCouponCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1888,6 +1901,9 @@ class TestLoyalty(TestSaleCouponCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

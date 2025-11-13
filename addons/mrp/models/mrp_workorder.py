@@ -101,6 +101,10 @@ from odoo import api, fields, models, _
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.addons.resource.models.utils import Intervals, sum_intervals
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.resource.models.utils import Intervals, sum_intervals
 >>>>>>> upstream/18.0
@@ -573,6 +577,10 @@ class MrpWorkorder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    has_worksheet = fields.Boolean(compute='_compute_has_worksheet')
+>>>>>>> upstream/18.0
 =======
     has_worksheet = fields.Boolean(compute='_compute_has_worksheet')
 >>>>>>> upstream/18.0
@@ -1142,6 +1150,7 @@ class MrpWorkorder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if order.state not in ('progress', 'done'):
                     order.state = 'progress'
 <<<<<<< HEAD
@@ -1544,6 +1553,11 @@ class MrpWorkorder(models.Model):
                     order.state = 'progress'
                 enddate = fields.Datetime.now()
 >>>>>>> upstream/18.0
+=======
+                if order.state not in ('progress', 'done', 'cancel'):
+                    order.state = 'progress'
+                enddate = fields.Datetime.now()
+>>>>>>> upstream/18.0
                 date_start = enddate - timedelta(seconds=_float_duration_to_second(delta_duration))
                 if order.duration_expected >= new_order_duration or old_order_duration >= order.duration_expected:
                     # either only productive or only performance (i.e. reduced speed) time respectively
@@ -1675,7 +1689,10 @@ class MrpWorkorder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1957,6 +1974,9 @@ class MrpWorkorder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2337,6 +2357,7 @@ class MrpWorkorder(models.Model):
         :param date datetime: Only calculate for time_ids that ended before this date
         """
         total = 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2838,6 +2859,8 @@ class MrpWorkorder(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         for workorder in self:
             intervals = Intervals([
                 [t.date_start, t.date_end, t]
@@ -2870,6 +2893,9 @@ class MrpWorkorder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2977,6 +3003,7 @@ class MrpWorkorder(models.Model):
 
     def button_finish(self):
         date_finished = fields.Datetime.now()
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3239,6 +3266,26 @@ class MrpWorkorder(models.Model):
                     move._set_quantity_done(new_qty)
             moves.picked = True
             workorder.end_all()
+=======
+        all_vals_dict = defaultdict(lambda: self.env['mrp.workorder'])
+        workorders_to_end = self.filtered(lambda workorder: workorder.state not in ('done', 'cancel'))
+        operations = workorders_to_end.operation_id
+        moves_to_pick = workorders_to_end.move_raw_ids.filtered(lambda move: not move.picked)
+        moves_to_pick += workorders_to_end.production_id.move_byproduct_ids.filtered(lambda move: not move.picked and move.operation_id in operations)
+
+        for move in moves_to_pick:
+            production_id = move.raw_material_production_id or move.production_id
+            if float_is_zero(production_id.qty_producing, precision_rounding=production_id.product_uom_id.rounding):
+                qty_available = production_id.product_qty
+            else:
+                qty_available = production_id.qty_producing
+            new_qty = float_round(qty_available * move.unit_factor, precision_rounding=move.product_uom.rounding)
+            move._set_quantity_done(new_qty)
+
+        moves_to_pick.picked = True
+        workorders_to_end.end_all()
+        for workorder in workorders_to_end:
+>>>>>>> upstream/18.0
             vals = {
                 'qty_produced': workorder.qty_produced or workorder.qty_producing or workorder.qty_production,
                 'state': 'done',
@@ -3309,7 +3356,13 @@ class MrpWorkorder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             workorder.with_context(bypass_duration_calculation=True).write(vals)
+=======
+            all_vals_dict[frozenset(vals.items())] |= workorder
+        for frozen_vals, workorders in all_vals_dict.items():
+            workorders.with_context(bypass_duration_calculation=True).write(dict(frozen_vals))
+>>>>>>> upstream/18.0
 =======
             all_vals_dict[frozenset(vals.items())] |= workorder
         for frozen_vals, workorders in all_vals_dict.items():

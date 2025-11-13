@@ -14,7 +14,10 @@ patch(Message.prototype, {
     },
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -22,6 +25,9 @@ patch(Message.prototype, {
         return this.env.inFrontendPortalChatter || super.shouldHideFromMessageListOnDelete;
     },
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

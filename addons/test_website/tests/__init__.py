@@ -37,6 +37,7 @@ from . import test_systray
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from . import test_views_during_module_operation
 from . import test_website_controller_page
 from . import test_website_page_properties
@@ -61,6 +62,8 @@ from . import test_website_field_sanitize
 from . import test_website_field_sanitize
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -108,6 +111,9 @@ from . import test_website_field_sanitize
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

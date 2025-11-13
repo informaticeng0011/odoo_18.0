@@ -38,7 +38,10 @@ registry.category("web_tour.tours").add("course_review_modification", {
         {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             trigger:
@@ -46,6 +49,9 @@ registry.category("web_tour.tours").add("course_review_modification", {
         },
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -61,6 +67,7 @@ registry.category("web_tour.tours").add("course_review_modification", {
             run: "click",
         },
         {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -203,12 +210,17 @@ registry.category("web_tour.tours").add("course_review_modification", {
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             trigger:
                 "#chatterRoot:shadow .o-mail-Chatter:not(:has(.o_website_rating_card_container))",
         },
         {
             trigger: "#chatterRoot:shadow .o-mail-Thread:contains(The conversation is empty.)",
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -248,7 +260,10 @@ registry.category("web_tour.tours").add("course_review_modification", {
             trigger:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                 "#chatterRoot:shadow .o-mail-Chatter .o_website_rating_card_container .o_website_rating_table_row[data-star='3']:contains(100%)",
@@ -256,6 +271,9 @@ registry.category("web_tour.tours").add("course_review_modification", {
         {
             trigger:
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -289,7 +307,10 @@ registry.category("web_tour.tours").add("course_review_modification", {
             trigger:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                 "#chatterRoot:shadow .o-mail-Chatter .o_website_rating_card_container .o_website_rating_table_row[data-star='2']:contains(100%)",
@@ -297,6 +318,9 @@ registry.category("web_tour.tours").add("course_review_modification", {
         {
             trigger:
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -362,7 +386,10 @@ registry.category("web_tour.tours").add("course_review_modification", {
         {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             trigger:
@@ -370,6 +397,9 @@ registry.category("web_tour.tours").add("course_review_modification", {
         },
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -415,7 +445,10 @@ registry.category("web_tour.tours").add("course_review_modification", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -556,6 +589,9 @@ registry.category("web_tour.tours").add("course_review_modification", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

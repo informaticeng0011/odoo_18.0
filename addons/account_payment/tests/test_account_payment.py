@@ -367,7 +367,10 @@ class TestAccountPayment(AccountPaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -766,6 +769,7 @@ class TestAccountPayment(AccountPaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1003,6 +1007,8 @@ class TestAccountPayment(AccountPaymentCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 
     def test_vendor_payment_name_remains_same_after_repost(self):
         """
@@ -1074,6 +1080,9 @@ class TestAccountPayment(AccountPaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1319,6 +1328,7 @@ class TestAccountPayment(AccountPaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1332,6 +1342,8 @@ class TestAccountPayment(AccountPaymentCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1549,6 +1561,9 @@ class TestAccountPayment(AccountPaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1781,6 +1796,7 @@ class TestAccountPayment(AccountPaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1928,11 +1944,18 @@ class TestAccountPayment(AccountPaymentCommon):
 
     def test_payment_token_for_invoice_partner_is_available(self):
         """Test that the payment token of the invoice partner is available"""
+=======
+
+    def test_payment_token_for_invoice_partner_is_available(self):
+        """Test that the payment token of the invoice partner is available"""
+        Wizard = self.env['account.payment.register'].with_context(active_model='account.move')
+>>>>>>> upstream/18.0
         with self.mocked_get_payment_method_information():
             bank_journal = self.company_data['default_journal_bank']
             payment_method_line = bank_journal.inbound_payment_method_line_ids\
                 .filtered(lambda line: line.payment_provider_id == self.dummy_provider)
             self.assertTrue(payment_method_line)
+<<<<<<< HEAD
             child_partner = self.env['res.partner'].create(
                 {
                     'name': "test_payment_token_for_invoice_partner_is_available",
@@ -1940,6 +1963,19 @@ class TestAccountPayment(AccountPaymentCommon):
                     'parent_id': self.partner.id,
                 }
             )
+=======
+
+            def payment_register_wizard(invoices):
+                return Wizard.with_context(active_ids=invoices.ids).create({
+                    'payment_method_line_id': payment_method_line.id,
+                })
+
+            child_partner, other_child = self.env['res.partner'].create([{
+                'name': name,
+                'is_company': False,
+                'parent_id': self.partner.id,
+            } for name in ("child_partner", "other_child")])
+>>>>>>> upstream/18.0
             invoice = self.env['account.move'].create({
                 'move_type': 'out_invoice',
                 'partner_id': child_partner.id,
@@ -1952,11 +1988,15 @@ class TestAccountPayment(AccountPaymentCommon):
             })
             invoice.action_post()
             payment_token = self._create_token(partner_id=child_partner.id)
+<<<<<<< HEAD
             wizard = (
                 self.env["account.payment.register"]
                 .with_context(active_model="account.move", active_ids=invoice.ids)
                 .create({"payment_method_line_id": payment_method_line.id})
             )
+=======
+            wizard = payment_register_wizard(invoice)
+>>>>>>> upstream/18.0
             self.assertRecordValues(wizard, [{
                 'suitable_payment_token_ids': payment_token.ids,
                 'payment_token_id': payment_token.id,
@@ -1983,6 +2023,7 @@ class TestAccountPayment(AccountPaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2027,4 +2068,19 @@ class TestAccountPayment(AccountPaymentCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+            # Check that tokens assigned to the specific partner as well as their
+            # commercial partner can be selected.
+            parent_token = self._create_token(partner_id=self.partner.id)
+            wizard = payment_register_wizard(invoice)
+            self.assertEqual(wizard.suitable_payment_token_ids, payment_token + parent_token)
+
+            # Check that payments for multiple invoices with multiple partners
+            # only retrieve tokens assigned to a common commercial partner.
+            other_invoice = invoice.copy({'partner_id': other_child.id})
+            other_invoice.action_post()
+            wizard = payment_register_wizard(invoice + other_invoice)
+            self.assertEqual(wizard.suitable_payment_token_ids, parent_token)
 >>>>>>> upstream/18.0

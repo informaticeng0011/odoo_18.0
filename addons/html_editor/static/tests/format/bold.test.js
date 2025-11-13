@@ -147,6 +147,7 @@ import { getContent } from "../_helpers/selection";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { BOLD_TAGS, notStrong, span, strong } from "../_helpers/tags";
 import { bold, simulateArrowKeyPress, tripleClick } from "../_helpers/user_actions";
 =======
@@ -683,6 +684,8 @@ import { expectElementCount } from "../_helpers/ui_expectations";
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 import { BOLD_TAGS, notStrong, span, strong, em } from "../_helpers/tags";
 import {
     bold,
@@ -735,6 +738,9 @@ import { expectElementCount } from "../_helpers/ui_expectations";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -952,8 +958,11 @@ test("should make a whole heading bold after a triple click", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         stepFunction: bold,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1141,6 +1150,9 @@ test("should make a whole heading bold after a triple click", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1323,6 +1335,7 @@ test("should get ready to type in not bold", async () => {
 test("should remove a bold tag that was redondant while performing the command", async () => {
     for (const tag of BOLD_TAGS) {
         await testEditor({
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1728,6 +1741,9 @@ test("should remove a bold tag that was redondant while performing the command",
 =======
             contentBefore: `<p>a${tag(`b[c]d`)}e</p>`,
 >>>>>>> upstream/18.0
+=======
+            contentBefore: `<p>a${tag(`b[c]d`)}e</p>`,
+>>>>>>> upstream/18.0
             stepFunction: bold,
             contentAfter: `<p>a${tag("b")}[c]${tag("d")}e</p>`,
         });
@@ -1796,7 +1812,10 @@ test("should remove a bold tag that was redondant while performing the command",
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1989,6 +2008,9 @@ test("should remove bold format when having newline character nodes in selection
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2276,8 +2298,13 @@ test("should make a few characters bold inside table (bold)", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test("should insert a span zws when toggling a formatting command twice", () => {
     return testEditor({
+=======
+test("should insert a span zws when toggling a formatting command twice", () =>
+    testEditor({
+>>>>>>> upstream/18.0
 =======
 test("should insert a span zws when toggling a formatting command twice", () =>
     testEditor({
@@ -2717,8 +2744,12 @@ test("should insert a span zws when toggling a formatting command twice", () =>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     });
 });
+=======
+    }));
+>>>>>>> upstream/18.0
 =======
     }));
 >>>>>>> upstream/18.0
@@ -3123,7 +3154,11 @@ test("create bold with shortcut + selected with arrow", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-toolbar").toHaveCount(1);
+=======
+    await expectElementCount(".o-we-toolbar", 1);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-toolbar", 1);
 >>>>>>> upstream/18.0
@@ -3513,7 +3548,11 @@ test("create bold with shortcut + selected with arrow", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-toolbar").toHaveCount(0);
+=======
+    await expectElementCount(".o-we-toolbar", 0);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-toolbar", 0);
 >>>>>>> upstream/18.0
@@ -3989,7 +4028,10 @@ describe("inside container font-weight: 500 and strong being strong-weight: 500"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4450,6 +4492,7 @@ test("should not remove empty bold tag in an empty block when changing selection
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4648,6 +4691,8 @@ test("should not remove empty bold tag in an empty block when changing selection
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4792,6 +4837,9 @@ test("should not add history step for bold on collapsed selection", async () => 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

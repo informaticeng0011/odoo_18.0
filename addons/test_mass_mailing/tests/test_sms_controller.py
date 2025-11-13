@@ -126,6 +126,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 from odoo.addons.test_mass_mailing.tests.common import TestMassSMSCommon
@@ -135,6 +136,8 @@ from odoo.tools import mute_logger
 
 class TestSmsController(HttpCase, TestMassSMSCommon):
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -521,6 +524,9 @@ class TestSmsController(TestMassSMSCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -4,8 +4,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* l10n_it_edi_ndd
 #
+=======
+# * l10n_it_edi_ndd
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 =======
 # * l10n_it_edi_ndd
 #
@@ -35,6 +41,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-08-26 08:15+0000\n"
 "PO-Revision-Date: 2024-08-26 08:15+0000\n"
 "Last-Translator: \n"
@@ -57,6 +64,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-11-03 15:44+0000\n"
 "PO-Revision-Date: 2025-11-08 09:22+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
@@ -71,6 +80,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -95,6 +107,25 @@ msgid "Created on"
 msgstr "Creato il"
 
 #. module: l10n_it_edi_ndd
+<<<<<<< HEAD
+=======
+#: model:l10n_it.document.type,name:l10n_it_edi_ndd.l10n_it_document_type_01
+msgid ""
+"Invoice"
+msgstr "Fattura"
+
+#. module: l10n_it_edi_ndd
+#: model:l10n_it.document.type,name:l10n_it_edi_ndd.l10n_it_document_type_02
+msgid "Deposit/advance on invoice"
+msgstr "Acconto/anticipo su fattura"
+
+#. module: l10n_it_edi_ndd
+#: model:l10n_it.document.type,name:l10n_it_edi_ndd.l10n_it_document_type_03
+msgid "Deposit/advance on vendor bill"
+msgstr "Acconto/anticipo su fattura fornitore"
+
+#. module: l10n_it_edi_ndd
+>>>>>>> upstream/18.0
 #: model:l10n_it.document.type,name:l10n_it_edi_ndd.l10n_it_document_type_04
 msgid "Credit note"
 msgstr "Nota di credito"
@@ -105,15 +136,90 @@ msgid "Debit note"
 msgstr "Nota di debito"
 
 #. module: l10n_it_edi_ndd
+<<<<<<< HEAD
 #: model:l10n_it.document.type,name:l10n_it_edi_ndd.l10n_it_document_type_24
 msgid ""
 "Deferred invoice (Article 21, paragraph 4, third period letter to "
 "Presidential Decree 633/72)"
 msgstr "Fattura differita (art. 21, comma 4, terzo periodo del DPR 633/72)"
+=======
+#: model:l10n_it.document.type,name:l10n_it_edi_ndd.l10n_it_document_type_06
+msgid "Vendor bill"
+msgstr "Fattura fornitore"
+
+#. module: l10n_it_edi_ndd
+#: model:l10n_it.document.type,name:l10n_it_edi_ndd.l10n_it_document_type_07
+msgid "Simplified invoice"
+msgstr "Fattura semplificata"
+
+#. module: l10n_it_edi_ndd
+#: model:l10n_it.document.type,name:l10n_it_edi_ndd.l10n_it_document_type_08
+msgid "Simplified credit note"
+msgstr "Nota di credito semplificata"
+
+#. module: l10n_it_edi_ndd
+#: model:l10n_it.document.type,name:l10n_it_edi_ndd.l10n_it_document_type_09
+msgid "Simplified debit note"
+msgstr "Nota di debito semplificata"
+
+#. module: l10n_it_edi_ndd
+#: model:l10n_it.document.type,name:l10n_it_edi_ndd.l10n_it_document_type_16
+msgid ""
+"Reverse charged vendor bill integration for domestic reverse charge"
+msgstr "Integrazione fattura fornitore con reverse charge interno"
+
+#. module: l10n_it_edi_ndd
+#: model:l10n_it.document.type,name:l10n_it_edi_ndd.l10n_it_document_type_17
+msgid ""
+"Reverse charged vendor bill integration for purchase of foreign services"
+msgstr "Integrazione fattura fornitore con reverse charge per acquisto di servizi dall'estero"
+
+#. module: l10n_it_edi_ndd
+#: model:l10n_it.document.type,name:l10n_it_edi_ndd.l10n_it_document_type_18
+msgid ""
+"Reverse charged vendor bill integration for the purchase of intra-EU goods"
+msgstr "Integrazione fattura fornitore con reverse charge per acquisto di beni intracomunitari"
+
+#. module: l10n_it_edi_ndd
+#: model:l10n_it.document.type,name:l10n_it_edi_ndd.l10n_it_document_type_19
+msgid ""
+"Reverse charged vendor bill integration purchase of goods from foreign markets"
+msgstr "Integrazione fattura fornitore con reverse charge per acquisto merci estere"
+
+#. module: l10n_it_edi_ndd
+#: model:l10n_it.document.type,name:l10n_it_edi_ndd.l10n_it_document_type_20
+msgid ""
+"Self-invoice for invoice correction"
+msgstr "Autofattura per regolarizzazione e integrazione delle fatture"
+
+#. module: l10n_it_edi_ndd
+#: model:l10n_it.document.type,name:l10n_it_edi_ndd.l10n_it_document_type_21
+msgid "Self-invoice for exceeded threshold"
+msgstr "Autofattura per splafonamento"
+
+#. module: l10n_it_edi_ndd
+#: model:l10n_it.document.type,name:l10n_it_edi_ndd.l10n_it_document_type_22
+msgid ""
+"Withdrawal of goods from VAT warehouse"
+msgstr "Estrazione beni da Deposito IVA"
+
+#. module: l10n_it_edi_ndd
+#: model:l10n_it.document.type,name:l10n_it_edi_ndd.l10n_it_document_type_23
+msgid ""
+"Withdrawal of goods from VAT warehouse with VAT settlement"
+msgstr "Estrazione beni da Deposito IVA con versamento dell'IVA"
+
+#. module: l10n_it_edi_ndd
+#: model:l10n_it.document.type,name:l10n_it_edi_ndd.l10n_it_document_type_24
+msgid ""
+"Deferred invoice"
+msgstr "Fattura differita"
+>>>>>>> upstream/18.0
 
 #. module: l10n_it_edi_ndd
 #: model:l10n_it.document.type,name:l10n_it_edi_ndd.l10n_it_document_type_25
 msgid ""
+<<<<<<< HEAD
 "Deferred invoice (Article 21, paragraph 4, third period, letter b "
 "(Dropshipping))"
 <<<<<<< HEAD
@@ -152,6 +258,28 @@ msgstr "Deposito/anticipo su fattura"
 #: model:l10n_it.document.type,name:l10n_it_edi_ndd.l10n_it_document_type_03
 msgid "Deposit/advance on parcel"
 msgstr "Deposito/anticipo sulla parcella"
+=======
+"Deferred invoice for Dropshipping"
+msgstr "Fattura differita per dropshipping"
+
+#. module: l10n_it_edi_ndd
+#: model:l10n_it.document.type,name:l10n_it_edi_ndd.l10n_it_document_type_26
+msgid ""
+"Transfer of depreciable assets and internal transfers"
+msgstr "Cessione di beni ammortizzabili e per passaggi interni"
+
+#. module: l10n_it_edi_ndd
+#: model:l10n_it.document.type,name:l10n_it_edi_ndd.l10n_it_document_type_27
+msgid ""
+"Self-invoice for self-consumption, gifts or for free services"
+msgstr "Autofattura per autoconsumo, cessioni di beni senza rivalsa o prestazioni gratuite"
+
+#. module: l10n_it_edi_ndd
+#: model:l10n_it.document.type,name:l10n_it_edi_ndd.l10n_it_document_type_28
+msgid ""
+"Self-invoice for purchases from San Marino with VAT (paper invoice)"
+msgstr "Autofattura per acquisti da San Marino con IVA (fattura cartacea)"
+>>>>>>> upstream/18.0
 
 #. module: l10n_it_edi_ndd
 #: model:ir.model.fields,field_description:l10n_it_edi_ndd.field_l10n_it_document_type__display_name
@@ -165,6 +293,10 @@ msgstr "Nome visualizzato"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:l10n_it_edi_ndd.l10n_it_document_type_form
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:l10n_it_edi_ndd.l10n_it_document_type_form
 >>>>>>> upstream/18.0
@@ -185,6 +317,7 @@ msgid "Document Type"
 msgstr "Tipi di documento"
 
 #. module: l10n_it_edi_ndd
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -383,10 +516,15 @@ msgstr "Tipi di documento"
 #. odoo-python
 #: code:addons/l10n_it_edi_ndd/models/l10n_it_document_type.py:0
 >>>>>>> upstream/18.0
+=======
+#. odoo-python
+#: code:addons/l10n_it_edi_ndd/models/l10n_it_document_type.py:0
+>>>>>>> upstream/18.0
 msgid "Document Type code must be unique."
 msgstr "Il codice del tipo di documento deve essere univoco."
 
 #. module: l10n_it_edi_ndd
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -660,6 +798,11 @@ msgstr ""
 "Fattura (immediata o accompagnatoria se <DatiTrasporto> o <DatiDDT> sono "
 "compilati)"
 >>>>>>> upstream/18.0
+=======
+#: model:ir.model.fields,field_description:l10n_it_edi_ndd.field_l10n_it_document_type__id
+msgid "ID"
+msgstr "ID"
+>>>>>>> upstream/18.0
 
 #. module: l10n_it_edi_ndd
 #: model:ir.model,name:l10n_it_edi_ndd.model_l10n_it_document_type
@@ -684,7 +827,10 @@ msgstr "Registrazione contabile"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_it_edi_ndd.field_account_payment__l10n_it_document_type
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -706,7 +852,10 @@ msgstr "L10N It Tipo di documento"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_it_edi_ndd.field_account_payment__l10n_it_payment_method
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -874,11 +1023,14 @@ msgid "Name"
 msgstr "Nome"
 
 #. module: l10n_it_edi_ndd
+<<<<<<< HEAD
 #: model:l10n_it.document.type,name:l10n_it_edi_ndd.l10n_it_document_type_06
 msgid "Parcel"
 msgstr "Parcella"
 
 #. module: l10n_it_edi_ndd
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:l10n_it_edi_ndd.account_invoice_form_l10n_it
 msgid "Payment Method"
 msgstr "Metodi di pagamento"
@@ -899,6 +1051,7 @@ msgid "Sale"
 msgstr "Vendita"
 
 #. module: l10n_it_edi_ndd
+<<<<<<< HEAD
 #: model:l10n_it.document.type,name:l10n_it_edi_ndd.l10n_it_document_type_20
 msgid ""
 <<<<<<< HEAD
@@ -1224,6 +1377,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 
 #. module: l10n_it_edi_ndd
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:l10n_it_edi_ndd.field_l10n_it_document_type__type
 msgid "Type"
 msgstr "Tipo"

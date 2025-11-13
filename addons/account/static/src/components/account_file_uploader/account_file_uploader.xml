@@ -20,7 +20,11 @@
     <t t-name="account.JournalUploadLink">
         <t groups="account.group_account_invoice">
 <<<<<<< HEAD
+<<<<<<< HEAD
             <a t-att-class="props.btnClass" href="#" t-out="props.linkText"/>
+=======
+            <a t-att-class="props.btnClass" href="#" t-out="props.linkText" draggable="false"/>
+>>>>>>> upstream/18.0
 =======
             <a t-att-class="props.btnClass" href="#" t-out="props.linkText" draggable="false"/>
 >>>>>>> upstream/18.0

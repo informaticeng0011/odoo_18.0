@@ -1,6 +1,10 @@
 import { describe, expect, getFixture, test } from "@odoo/hoot";
 import { click, on } from "@odoo/hoot-dom";
+<<<<<<< HEAD
 import { tick } from "@odoo/hoot-mock";
+=======
+import { mockMatchMedia, tick } from "@odoo/hoot-mock";
+>>>>>>> upstream/18.0
 import { patchWithCleanup } from "@web/../tests/web_test_helpers";
 
 import { browser } from "@web/core/browser/browser";
@@ -1661,6 +1665,27 @@ describe("History", () => {
     });
 });
 
+<<<<<<< HEAD
+=======
+describe("Scoped apps", () => {
+    test("url location is changed to /odoo if the client is not used in a standalone scoped app", async () => {
+        Object.assign(browser.location, { pathname: "/scoped_app/some-path" });
+        createRouter();
+        router.pushState({ app_name: "some_app", path: "scoped_app/some_path" });
+        await tick();
+        expect(browser.location.href).toBe("https://www.hoot.test/odoo/some-path?app_name=some_app&path=scoped_app%2Fsome_path");
+    });
+    test("url location is preserved as /scoped_app if the client is used in a standalone scoped app", async () => {
+        mockMatchMedia({ ["display-mode"]: "standalone" });
+        Object.assign(browser.location, { pathname: "/scoped_app/some-path" });
+        createRouter();
+        router.pushState({ app_name: "some_app", path: "scoped_app/some_path" });
+        await tick();
+        expect(browser.location.href).toBe("https://www.hoot.test/scoped_app/some-path?app_name=some_app&path=scoped_app%2Fsome_path");
+    });
+})
+
+>>>>>>> upstream/18.0
 describe("Retrocompatibility", () => {
     test("parse an url with hash (key/values)", async () => {
         Object.assign(browser.location, { pathname: "/web" });

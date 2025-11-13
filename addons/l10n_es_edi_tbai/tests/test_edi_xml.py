@@ -152,7 +152,11 @@ class TestEdiTbaiXmls(TestEsEdiTbaiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'invoice_date': date(2022, 1, 1),
+=======
+            'invoice_date': date(2025, 1, 1),
+>>>>>>> upstream/18.0
 =======
             'invoice_date': date(2025, 1, 1),
 >>>>>>> upstream/18.0
@@ -615,7 +619,10 @@ class TestEdiTbaiXmls(TestEsEdiTbaiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -813,6 +820,9 @@ class TestEdiTbaiXmls(TestEsEdiTbaiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1008,7 +1018,10 @@ class TestEdiTbaiXmls(TestEsEdiTbaiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1208,6 +1221,9 @@ class TestEdiTbaiXmls(TestEsEdiTbaiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1466,7 +1482,11 @@ class TestEdiTbaiXmls(TestEsEdiTbaiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'invoice_date': date(2022, 1, 1),
+=======
+                'invoice_date': date(2025, 1, 1),
+>>>>>>> upstream/18.0
 =======
                 'invoice_date': date(2025, 1, 1),
 >>>>>>> upstream/18.0
@@ -2065,7 +2085,10 @@ class TestEdiTbaiXmls(TestEsEdiTbaiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <OperacionEnRecargoDeEquivalenciaORegimenSimplificado>N</OperacionEnRecargoDeEquivalenciaORegimenSimplificado>
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2609,7 +2632,11 @@ class TestEdiTbaiXmls(TestEsEdiTbaiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <CabeceraFactura><FechaExpedicionFactura>01-01-2022</FechaExpedicionFactura></CabeceraFactura>
+=======
+<CabeceraFactura><FechaExpedicionFactura>01-01-2025</FechaExpedicionFactura></CabeceraFactura>
+>>>>>>> upstream/18.0
 =======
 <CabeceraFactura><FechaExpedicionFactura>01-01-2025</FechaExpedicionFactura></CabeceraFactura>
 >>>>>>> upstream/18.0

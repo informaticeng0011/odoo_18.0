@@ -67,7 +67,11 @@ export class OdooViewsDataSource extends LoadableDataSource {
      */
     _assertMetaDataLoaded() {
         if (!this._isModelValid) {
+<<<<<<< HEAD
             throw this.loadError;
+=======
+            throw this._loadError;
+>>>>>>> upstream/18.0
         }
         if (!this._metaDataLoaded) {
             this.loadMetadata();

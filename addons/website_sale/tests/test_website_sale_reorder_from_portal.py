@@ -141,6 +141,7 @@ from odoo.fields import Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tests import HttpCase, tagged
 
 
@@ -154,6 +155,8 @@ class TestWebsiteSaleReorderFromPortal(HttpCase):
     def test_website_sale_reorder_from_portal(self):
         product_1, product_2 = self.env['product.product'].create([
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -589,6 +592,9 @@ class TestWebsiteSaleReorderFromPortal(HttpCaseWithUserPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1016,6 +1022,11 @@ class TestWebsiteSaleReorderFromPortal(HttpCaseWithUserPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+    def test_website_sale_reorder_from_portal(self):
+>>>>>>> upstream/18.0
 =======
 
     def test_website_sale_reorder_from_portal(self):
@@ -1732,6 +1743,7 @@ class TestWebsiteSaleReorderFromPortal(HttpCaseWithUserPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         order = self.env['sale.order'].create({
             'partner_id': user_admin.partner_id.id,
             'state': 'sale',
@@ -1742,6 +1754,8 @@ class TestWebsiteSaleReorderFromPortal(HttpCaseWithUserPortal):
                 Command.create({
                     'product_id': product_2.id,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2165,6 +2179,9 @@ class TestWebsiteSaleReorderFromPortal(HttpCaseWithUserPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2596,6 +2613,10 @@ class TestWebsiteSaleReorderFromPortal(HttpCaseWithUserPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        order.action_confirm()
+>>>>>>> upstream/18.0
 =======
         order.action_confirm()
 >>>>>>> upstream/18.0
@@ -3166,7 +3187,10 @@ class TestWebsiteSaleReorderFromPortal(HttpCaseWithUserPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3637,6 +3661,9 @@ class TestWebsiteSaleReorderFromPortal(HttpCaseWithUserPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
