@@ -1393,7 +1393,11 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             test("should merge an ordered list into an unordered list", async () => {
+=======
+            test("should merge an ordered list into an unordered list (1)", async () => {
+>>>>>>> upstream/18.0
 =======
             test("should merge an ordered list into an unordered list (1)", async () => {
 >>>>>>> upstream/18.0
@@ -1654,6 +1658,11 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            });
+            test("should merge an ordered list into an unordered list (2)", async () => {
+>>>>>>> upstream/18.0
 =======
             });
             test("should merge an ordered list into an unordered list (2)", async () => {
@@ -1977,6 +1986,11 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            });
+            test("should merge an ordered list into an unordered list (3)", async () => {
+>>>>>>> upstream/18.0
 =======
             });
             test("should merge an ordered list into an unordered list (3)", async () => {
@@ -2300,6 +2314,11 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            });
+            test("should merge an ordered list into an unordered list (4)", async () => {
+>>>>>>> upstream/18.0
 =======
             });
             test("should merge an ordered list into an unordered list (4)", async () => {
@@ -2883,7 +2902,11 @@ describe("Selection collapsed", () => {
             });
         });
         describe("Unordered to checklist", () => {
+<<<<<<< HEAD
             test("should merge an unordered list into an checklist list", async () => {
+=======
+            test("should merge an unordered list into an checklist list (1)", async () => {
+>>>>>>> upstream/18.0
                 await testEditor({
                     contentBefore:
                         '<ul class="o_checklist"><li class="o_checked">a</li></ul><ul><li>[]b</li></ul>',
@@ -2893,6 +2916,11 @@ describe("Selection collapsed", () => {
                     },
                     contentAfter: '<ul class="o_checklist"><li class="o_checked">a[]b</li></ul>',
                 });
+<<<<<<< HEAD
+=======
+            });
+            test("should merge an unordered list into an checklist list (2)", async () => {
+>>>>>>> upstream/18.0
                 await testEditor({
                     contentBefore:
                         '<ul class="o_checklist"><li class="o_checked">a</li></ul><ul><li><p>[]b</p></li></ul>',
@@ -2903,6 +2931,11 @@ describe("Selection collapsed", () => {
                     // Paragraphs in list items are treated as nonsense.
                     contentAfter: '<ul class="o_checklist"><li class="o_checked">a[]b</li></ul>',
                 });
+<<<<<<< HEAD
+=======
+            });
+            test("should merge an unordered list into an checklist list (3)", async () => {
+>>>>>>> upstream/18.0
                 await testEditor({
                     contentBefore:
                         '<ul class="o_checklist"><li class="o_checked"><p>a</p></li></ul><ul><li>[]b</li></ul>',
@@ -2914,6 +2947,11 @@ describe("Selection collapsed", () => {
                     contentAfter:
                         '<ul class="o_checklist"><li class="o_checked"><p>a[]b</p></li></ul>',
                 });
+<<<<<<< HEAD
+=======
+            });
+            test("should merge an unordered list into an checklist list (4)", async () => {
+>>>>>>> upstream/18.0
                 await testEditor({
                     contentBefore:
                         '<ul class="o_checklist"><li class="o_checked"><p>a</p></li></ul><ul><li><p>[]b</p></li></ul>',

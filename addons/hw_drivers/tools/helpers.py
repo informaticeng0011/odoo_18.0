@@ -46,11 +46,14 @@ _logger = logging.getLogger(__name__)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 try:
     import crypt
 except ImportError:
     _logger.warning('Could not import library crypt')
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -184,7 +187,11 @@ def check_certificate():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "error_code": "ERR_IOT_HTTPS_CHECK_CERT_READ_EXCEPTION"}
+=======
+                "error_code": "Can't read certificate file"}
+>>>>>>> upstream/18.0
 =======
                 "error_code": "Can't read certificate file"}
 >>>>>>> upstream/18.0
@@ -422,7 +429,11 @@ def check_image():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 def save_conf_server(url, token, db_uuid, enterprise_code):
+=======
+def save_conf_server(url, token, db_uuid, enterprise_code, db_name=None):
+>>>>>>> upstream/18.0
 =======
 def save_conf_server(url, token, db_uuid, enterprise_code, db_name=None):
 >>>>>>> upstream/18.0
@@ -765,6 +776,10 @@ def save_conf_server(url, token, db_uuid, enterprise_code, db_name=None):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    :param db_name: The database name
+>>>>>>> upstream/18.0
 =======
     :param db_name: The database name
 >>>>>>> upstream/18.0
@@ -1107,6 +1122,10 @@ def save_conf_server(url, token, db_uuid, enterprise_code, db_name=None):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        'db_name': db_name,
+>>>>>>> upstream/18.0
 =======
         'db_name': db_name,
 >>>>>>> upstream/18.0
@@ -1377,6 +1396,7 @@ def generate_password():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     """
     Generate an unique code to secure raspberry pi
     """
@@ -1388,6 +1408,8 @@ def generate_password():
         with writable():
             subprocess.run(('sudo', 'cp', '/etc/shadow', '/root_bypass_ramdisks/etc/shadow'), check=True)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1434,6 +1456,9 @@ def generate_password():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1560,6 +1585,7 @@ def get_img_name():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 def get_ip():
     interfaces = netifaces.interfaces()
     for interface in interfaces:
@@ -1568,6 +1594,8 @@ def get_ip():
             if addr != '127.0.0.1':
                 return addr
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1781,6 +1809,9 @@ def get_ip():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1988,7 +2019,10 @@ def get_mac_address():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2189,6 +2223,9 @@ def get_serial_number():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2384,6 +2421,7 @@ def load_certificate():
     """
     db_uuid = get_conf('db_uuid')
     enterprise_code = get_conf('enterprise_code')
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2936,11 +2974,16 @@ def load_certificate():
     if not db_uuid:
         return "No database UUID found on the IoT Box configuration, try pairing again."
 >>>>>>> upstream/18.0
+=======
+    if not db_uuid:
+        return "No database UUID found on the IoT Box configuration, try pairing again."
+>>>>>>> upstream/18.0
 
     url = 'https://www.odoo.com/odoo-enterprise/iot/x509'
     data = {
         'params': {
             'db_uuid': db_uuid,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3470,6 +3513,9 @@ def load_certificate():
 =======
             'enterprise_code': enterprise_code or ''
 >>>>>>> upstream/18.0
+=======
+            'enterprise_code': enterprise_code or ''
+>>>>>>> upstream/18.0
         }
     }
     urllib3.disable_warnings()
@@ -3481,6 +3527,7 @@ def load_certificate():
             body = json.dumps(data).encode('utf8'),
             headers = {'Content-type': 'application/json', 'Accept': 'text/plain'}
         )
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4036,6 +4083,8 @@ def load_certificate():
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     except Exception:
         _logger.exception("An error occurred while trying to reach odoo.com servers.")
         return "ERR_SSL_CERT_DOWNLOAD"
@@ -4065,6 +4114,9 @@ def load_certificate():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4134,7 +4186,11 @@ def load_certificate():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return "ERR_IOT_HTTPS_LOAD_REQUEST_NO_RESULT"
+=======
+        return server_error
+>>>>>>> upstream/18.0
 =======
         return server_error
 >>>>>>> upstream/18.0
@@ -4228,6 +4284,7 @@ def load_certificate():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return "ERR_IOT_HTTPS_LOAD_REQUEST_NO_RESULT"
 
 <<<<<<< HEAD
@@ -4668,6 +4725,8 @@ def load_certificate():
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4737,6 +4796,9 @@ def load_certificate():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4821,6 +4883,7 @@ def download_iot_handlers(auto=True):
     server = get_odoo_server_url()
     if server:
         urllib3.disable_warnings()
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5018,6 +5081,8 @@ def download_iot_handlers(auto=True):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         pm = urllib3.PoolManager()
         server = server + '/iot/get_handlers'
         try:
@@ -5035,6 +5100,9 @@ def download_iot_handlers(auto=True):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5135,6 +5203,9 @@ def download_iot_handlers(auto=True):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5457,6 +5528,7 @@ def update_conf(values, section='iot.box'):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     _logger.debug("Updating odoo.conf with values: %s", values)
     conf = get_conf()
     get_conf.cache_clear()  # Clear the cache to get the updated config
@@ -5470,6 +5542,8 @@ def update_conf(values, section='iot.box'):
 
     write_file("odoo.conf", conf)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5670,6 +5744,9 @@ def update_conf(values, section='iot.box'):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5944,6 +6021,7 @@ def disconnect_from_server():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         'screen_orientation': '',
         'browser_url': '',
@@ -6150,6 +6228,8 @@ def disconnect_from_server():
         'iot_handlers_etag': '',
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6403,6 +6483,9 @@ def disconnect_from_server():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

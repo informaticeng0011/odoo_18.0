@@ -176,14 +176,20 @@ export class TableResizePlugin extends Plugin {
                 const currentNeighborSize = neighborRect[sizeProp];
                 const newNeighborSize = currentNeighborSize - sizeDelta;
 <<<<<<< HEAD
+<<<<<<< HEAD
                 const maxWidth =
                     this.editable.clientWidth -
 =======
+=======
+>>>>>>> upstream/18.0
                 const enclosingCell = closestElement(table, "td, th");
                 const containerWidth =
                     enclosingCell?.getBoundingClientRect().width || this.editable.clientWidth;
                 const maxWidth =
                     containerWidth -
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                     parseFloat(editableStyle.paddingLeft) -
                     parseFloat(editableStyle.paddingRight);

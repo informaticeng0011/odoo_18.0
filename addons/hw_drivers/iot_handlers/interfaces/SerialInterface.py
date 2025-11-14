@@ -14,7 +14,11 @@ class SerialInterface(Interface):
         serial_devices = {
             port.device: {'identifier': port.device}
             for port in comports()
+<<<<<<< HEAD
             if platform.system() == 'Windows' or port.subsystem != 'amba'
+=======
+            if platform.system() == 'Windows' or port.device != '/dev/ttyAMA10'
+>>>>>>> upstream/18.0
             # RPI 5 uses ttyAMA10 as a console serial port for system messages: odoo interprets it as scale -> avoid it
         }
         return serial_devices

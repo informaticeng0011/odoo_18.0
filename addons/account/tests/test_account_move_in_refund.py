@@ -606,6 +606,11 @@ class TestAccountMoveInRefundOnchanges(AccountTestInvoicingCommon):
 
     def test_in_refund_line_onchange_currency_1(self):
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.other_currency.rounding = 0.001
+
+>>>>>>> upstream/18.0
 =======
         self.other_currency.rounding = 0.001
 

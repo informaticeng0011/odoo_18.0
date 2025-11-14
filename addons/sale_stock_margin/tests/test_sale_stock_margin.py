@@ -50,7 +50,10 @@ class TestSaleStockMargin(TestStockValuationCommon):
         return product_template.product_variant_ids
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def _setup_multicurrency(self):
         usd = self.env.ref('base.USD')
         self.company_currency = self.env.company.currency_id
@@ -62,6 +65,9 @@ class TestSaleStockMargin(TestStockValuationCommon):
         ])
         return self.company_currency, self.other_currency
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     #########
     # TESTS #
@@ -215,6 +221,7 @@ class TestSaleStockMargin(TestStockValuationCommon):
 
     def test_so_and_multicurrency(self):
 <<<<<<< HEAD
+<<<<<<< HEAD
         ResCurrencyRate = self.env['res.currency.rate']
         company_currency = self.env.company.currency_id
         other_currency = self.env.ref('base.EUR') if company_currency == self.env.ref('base.USD') else self.env.ref('base.USD')
@@ -227,6 +234,9 @@ class TestSaleStockMargin(TestStockValuationCommon):
         else:
             ResCurrencyRate.create({'currency_id': other_currency.id, 'rate': 2, 'name': date})
 
+=======
+        _company_currency, other_currency = self._setup_multicurrency()
+>>>>>>> upstream/18.0
 =======
         _company_currency, other_currency = self._setup_multicurrency()
 >>>>>>> upstream/18.0
@@ -316,6 +326,10 @@ class TestSaleStockMargin(TestStockValuationCommon):
 
     def test_purchase_price_changes(self):
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self._setup_multicurrency()
+>>>>>>> upstream/18.0
 =======
         self._setup_multicurrency()
 >>>>>>> upstream/18.0
@@ -342,7 +356,10 @@ class TestSaleStockMargin(TestStockValuationCommon):
         self.assertEqual(so.order_line[0].purchase_price, 15)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         # Set SO back to draft, and trigger purchase price recompute via currency change
         so.with_context(disable_cancel_warning=True).action_cancel()
         so.action_draft()
@@ -350,6 +367,9 @@ class TestSaleStockMargin(TestStockValuationCommon):
         self.assertEqual(so.order_line.move_ids.state, 'cancel')
         self.assertEqual(so.order_line.purchase_price, 40)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_add_product_on_delivery_price_unit_on_sale(self):
         """ Adding a product directly on a sale order's delivery should result in the new SOL
@@ -486,7 +506,10 @@ class TestSaleStockMargin(TestStockValuationCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -856,6 +879,9 @@ class TestSaleStockMargin(TestStockValuationCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

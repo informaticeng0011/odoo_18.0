@@ -103,6 +103,10 @@ from datetime import datetime, timedelta, time
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from freezegun import freeze_time
+>>>>>>> upstream/18.0
 =======
 from freezegun import freeze_time
 >>>>>>> upstream/18.0
@@ -511,6 +515,10 @@ from odoo.addons.mrp.tests.common import TestMrpCommon
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.tests import Form
+>>>>>>> upstream/18.0
 =======
 from odoo.tests import Form
 >>>>>>> upstream/18.0
@@ -927,7 +935,10 @@ class TestOee(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1244,6 +1255,7 @@ class TestOee(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1446,6 +1458,9 @@ class TestOee(TestMrpCommon):
 =======
 >>>>>>> upstream/18.0
     def test_wrokcenter_oee(self):
+=======
+    def test_workcenter_oee(self):
+>>>>>>> upstream/18.0
         """  Test case workcenter oee. """
         day = datetime.date(datetime.today())
         self.workcenter_1.resource_calendar_id.leave_ids.unlink()
@@ -1485,6 +1500,7 @@ class TestOee(TestMrpCommon):
         end_time = time_to_string_utc_datetime(time(10, 53, 22))
         self.create_productivity_line(self.env.ref('mrp.block_reason4'), start_time, end_time)
 
+<<<<<<< HEAD
         # Block time : ( Process Defact (1.33 min) + Reduced Speed (3.0 min) + Material Availability (1.52 min)) = 5.85 min
         blocked_time_in_hour = round(((1.33 + 3.0 + 1.52) / 60.0), 2)
         # Productive time : Productive time duration (13 min)
@@ -1496,4 +1512,17 @@ class TestOee(TestMrpCommon):
 
         # Check overall equipment effectiveness
         computed_oee = round(((productive_time_in_hour * 100.0)/(productive_time_in_hour + blocked_time_in_hour)), 2)
+=======
+        # Blocked time : ( Process Defect (1.33 min) + Reduced Speed (3.0 min) + Material Availability (1.52 min)) = 5.85 min
+        blocked_time = 1.33 + 3.0 + 1.52
+        # Productive time : Productive time duration (13 min)
+        productive_time = 13.0
+
+        # Blocked & Productive time are rounded to 2 digits when computed
+        self.assertEqual(self.workcenter_1.blocked_time, round(blocked_time / 60, 2), "Wrong blocked time on workcenter.")
+        self.assertEqual(self.workcenter_1.productive_time, round(productive_time / 60, 2), "Wrong productive time on workcenter.")
+
+        # OEE is not calculated with intermediary rounding
+        computed_oee = round((((productive_time / 60) * 100.0) / ((productive_time / 60) + (blocked_time / 60))), 2)
+>>>>>>> upstream/18.0
         self.assertEqual(self.workcenter_1.oee, computed_oee, "Wrong oee on workcenter.")

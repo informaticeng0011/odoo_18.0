@@ -32,9 +32,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { after, afterEach } from "@odoo/hoot";
 import {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -140,6 +143,9 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -260,6 +266,7 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 } from "@odoo/hoot-dom";
 import { advanceFrame, advanceTime, animationFrame } from "@odoo/hoot-mock";
 import { hasTouch } from "@web/core/browser/feature_detection";
@@ -275,6 +282,8 @@ import { hasTouch } from "@web/core/browser/feature_detection";
  * @typedef {import("@odoo/hoot-dom").QueryOptions} QueryOptions
  * @typedef {import("@odoo/hoot-dom").Target} Target
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -387,6 +396,9 @@ import { hasTouch } from "@web/core/browser/feature_detection";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -504,7 +516,11 @@ import { hasTouch } from "@web/core/browser/feature_detection";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @typedef {import("@odoo/hoot-dom").MaybePromise<T>} MaybePromise
+=======
+ * @typedef {T | PromiseLike<T>} MaybePromise
+>>>>>>> upstream/18.0
 =======
  * @typedef {T | PromiseLike<T>} MaybePromise
 >>>>>>> upstream/18.0
@@ -678,12 +694,27 @@ const waitForTouchDelay = async (delay) => {
     }
 };
 
+<<<<<<< HEAD
 let unconsumedContains = [];
 
 afterEach(() => {
     if (unconsumedContains.length) {
         const targets = unconsumedContains.map(String).join(", ");
         unconsumedContains = [];
+=======
+/** @type {(() => any) | null} */
+let cancelCurrentDragSequence = null;
+/** @type {Target[]} */
+const unconsumedContains = [];
+
+afterEach(async () => {
+    if (cancelCurrentDragSequence) {
+        await cancelCurrentDragSequence();
+    }
+    if (unconsumedContains.length) {
+        const targets = unconsumedContains.map(String).join(", ");
+        unconsumedContains.length = 0;
+>>>>>>> upstream/18.0
         throw new Error(
             `called 'contains' on "${targets}" without any action: use 'waitFor' if no interaction is intended`
         );
@@ -756,11 +787,18 @@ export function contains(target, options) {
          * @returns {Promise<DragHelpers>}
          */
         drag: async (options) => {
+<<<<<<< HEAD
             consumeContains();
+=======
+>>>>>>> upstream/18.0
             /** @type {typeof cancel} */
             const cancelWithDelay = async (options) => {
                 await cancel(options);
                 await advanceFrame();
+<<<<<<< HEAD
+=======
+                cancelCurrentDragSequence = null;
+>>>>>>> upstream/18.0
             };
 
             /** @type {typeof drop} */
@@ -770,6 +808,10 @@ export function contains(target, options) {
                 }
                 await drop();
                 await advanceFrame();
+<<<<<<< HEAD
+=======
+                cancelCurrentDragSequence = null;
+>>>>>>> upstream/18.0
             };
 
             /** @type {typeof moveTo} */
@@ -780,6 +822,14 @@ export function contains(target, options) {
                 return helpersWithDelay;
             };
 
+<<<<<<< HEAD
+=======
+            consumeContains();
+
+            await cancelCurrentDragSequence?.();
+            cancelCurrentDragSequence = cancelWithDelay;
+
+>>>>>>> upstream/18.0
             const { cancel, drop, moveTo } = await drag(nodePromise, options);
             const helpersWithDelay = {
                 cancel: cancelWithDelay,
@@ -800,6 +850,12 @@ export function contains(target, options) {
          */
         dragAndDrop: async (target, dropOptions, dragOptions) => {
             consumeContains();
+<<<<<<< HEAD
+=======
+
+            await cancelCurrentDragSequence?.();
+
+>>>>>>> upstream/18.0
             const [from, to] = await Promise.all([nodePromise, waitFor(target)]);
             const { drop, moveTo } = await drag(from, dragOptions);
 
@@ -993,7 +1049,12 @@ export function contains(target, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             await scroll(nodePromise, position);
+=======
+            // disable "scrollable" check
+            await scroll(nodePromise, position, { scrollable: false, ...options });
+>>>>>>> upstream/18.0
 =======
             // disable "scrollable" check
             await scroll(nodePromise, position, { scrollable: false, ...options });

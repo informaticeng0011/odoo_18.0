@@ -15,7 +15,10 @@ class ProductCommon(
     def setUpClass(cls):
         super().setUpClass()
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         cls.product_category = cls.env['product.category'].create({

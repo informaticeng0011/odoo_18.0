@@ -4,11 +4,17 @@ import { cookie as cookieManager } from "@web/core/browser/cookie";
 import { session } from "@web/session";
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 function getClosestLiEls(selector) {
     return Array.from(document.querySelectorAll(selector), (el) => el.closest("li"));
 }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 /**
  * Unhide elements that are hidden by default and that should be visible
@@ -22,8 +28,11 @@ export function unhideConditionalElements() {
     document.head.appendChild(styleEl);
     const conditionalEls = document.querySelectorAll('[data-visibility="conditional"]');
 <<<<<<< HEAD
+<<<<<<< HEAD
     for (const conditionalEl of conditionalEls) {
 =======
+=======
+>>>>>>> upstream/18.0
 
     const desktopMegaMenuLiEls = getClosestLiEls(
         "header#top nav:not(.o_header_mobile) .o_mega_menu_toggle"
@@ -42,6 +51,9 @@ export function unhideConditionalElements() {
             desktopMegaMenuLiEl.dataset.visibilityId = visibilityId;
             mobileMegaMenuLiEl.dataset.visibilityId = visibilityId;
         }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         const selectors = conditionalEl.dataset.visibilitySelectors;
         styleEl.sheet.insertRule(`${selectors} { display: none !important; }`);
@@ -82,7 +94,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     unhideConditionalElements();
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     document
         .querySelectorAll(".o_mega_menu > section.o_snippet_desktop_invisible")
@@ -108,5 +123,8 @@ document.addEventListener('DOMContentLoaded', () => {
         const index = desktopMegaMenuLiEls.indexOf(mobileInvisibleMegaMenuLiEl);
         mobileMegaMenuLiEls[index].classList.add("hidden_mega_menu_li");
     }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 });

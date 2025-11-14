@@ -1,7 +1,11 @@
 import { describe, expect, getFixture, test } from "@odoo/hoot";
 import { click, on } from "@odoo/hoot-dom";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { tick } from "@odoo/hoot-mock";
+=======
+import { mockMatchMedia, tick } from "@odoo/hoot-mock";
+>>>>>>> upstream/18.0
 =======
 import { mockMatchMedia, tick } from "@odoo/hoot-mock";
 >>>>>>> upstream/18.0
@@ -1666,7 +1670,10 @@ describe("History", () => {
 });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 describe("Scoped apps", () => {
     test("url location is changed to /odoo if the client is not used in a standalone scoped app", async () => {
         Object.assign(browser.location, { pathname: "/scoped_app/some-path" });
@@ -1685,6 +1692,9 @@ describe("Scoped apps", () => {
     });
 })
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 describe("Retrocompatibility", () => {
     test("parse an url with hash (key/values)", async () => {
