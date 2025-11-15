@@ -201,6 +201,12 @@ class FormatAddressMixin(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                new_address_node = sub_arch.find('.//div[@class="o_address_format"]')
+                if new_address_node is not None:
+                    sub_arch = new_address_node
+>>>>>>> upstream/18.0
 =======
                 new_address_node = sub_arch.find('.//div[@class="o_address_format"]')
                 if new_address_node is not None:
@@ -905,7 +911,11 @@ class PartnerCategory(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return [('id', 'child_of', self._search(domain))]
+=======
+            return [('id', 'child_of', self._search(list(domain)))]
+>>>>>>> upstream/18.0
 =======
             return [('id', 'child_of', self._search(list(domain)))]
 >>>>>>> upstream/18.0
@@ -1231,7 +1241,11 @@ class Partner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     company_registry = fields.Char(string="Company ID", compute='_compute_company_registry', store=True, readonly=False,
+=======
+    company_registry = fields.Char(string="Company ID", compute='_compute_company_registry', store=True, readonly=False, index='btree_not_null',
+>>>>>>> upstream/18.0
 =======
     company_registry = fields.Char(string="Company ID", compute='_compute_company_registry', store=True, readonly=False, index='btree_not_null',
 >>>>>>> upstream/18.0
@@ -1607,6 +1621,10 @@ class Partner(models.Model):
                 domain += [('id', '!=', partner_id), '!', ('id', 'child_of', partner_id)]
             partner.same_company_registry_partner_id = bool(partner.company_registry) and not partner.parent_id and Partner.search(domain, limit=1)
 
+<<<<<<< HEAD
+=======
+    @api.depends('vat')
+>>>>>>> upstream/18.0
     @api.depends_context('company')
     def _compute_vat_label(self):
         self.vat_label = self.env.company.country_id.vat_label or _("Tax ID")

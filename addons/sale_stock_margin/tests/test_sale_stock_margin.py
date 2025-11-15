@@ -51,7 +51,10 @@ class TestSaleStockMargin(TestStockValuationCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def _setup_multicurrency(self):
@@ -66,6 +69,9 @@ class TestSaleStockMargin(TestStockValuationCommon):
         return self.company_currency, self.other_currency
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -222,6 +228,7 @@ class TestSaleStockMargin(TestStockValuationCommon):
     def test_so_and_multicurrency(self):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ResCurrencyRate = self.env['res.currency.rate']
         company_currency = self.env.company.currency_id
         other_currency = self.env.ref('base.EUR') if company_currency == self.env.ref('base.USD') else self.env.ref('base.USD')
@@ -234,6 +241,9 @@ class TestSaleStockMargin(TestStockValuationCommon):
         else:
             ResCurrencyRate.create({'currency_id': other_currency.id, 'rate': 2, 'name': date})
 
+=======
+        _company_currency, other_currency = self._setup_multicurrency()
+>>>>>>> upstream/18.0
 =======
         _company_currency, other_currency = self._setup_multicurrency()
 >>>>>>> upstream/18.0
@@ -327,6 +337,10 @@ class TestSaleStockMargin(TestStockValuationCommon):
     def test_purchase_price_changes(self):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self._setup_multicurrency()
+>>>>>>> upstream/18.0
 =======
         self._setup_multicurrency()
 >>>>>>> upstream/18.0
@@ -357,7 +371,10 @@ class TestSaleStockMargin(TestStockValuationCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         # Set SO back to draft, and trigger purchase price recompute via currency change
@@ -368,6 +385,9 @@ class TestSaleStockMargin(TestStockValuationCommon):
         self.assertEqual(so.order_line.purchase_price, 40)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -507,7 +527,10 @@ class TestSaleStockMargin(TestStockValuationCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -880,6 +903,9 @@ class TestSaleStockMargin(TestStockValuationCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

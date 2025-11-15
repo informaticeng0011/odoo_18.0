@@ -46,7 +46,10 @@ class TestAuditTrail(AccountTestInvoicingCommon):
             self.assertIn(expected, message.account_audit_log_preview)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_can_reset_deferred_invoice(self):
         customer = self.env['res.partner'].create({'name': 'Rob Odoo'})
         invoice = self.env['account.move'].create({
@@ -69,6 +72,9 @@ class TestAuditTrail(AccountTestInvoicingCommon):
             invoice.action_post()
             invoice.button_draft()
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_can_unlink_draft(self):
         self.move.unlink()

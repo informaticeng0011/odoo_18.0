@@ -588,7 +588,10 @@ class TestCRMLead(TestCrmCommon):
         self.assertEqual(lead.stage_id, self.stage_gen_won)  # generic won stage has lower sequence than team won stage
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_crm_lead_stages_with_multiple_possible_teams(self):
         """ Test lead stage is properly set when switching between multiple teams. """
         self.sales_team_2 = self.env['crm.team'].create({
@@ -624,6 +627,9 @@ class TestCRMLead(TestCrmCommon):
         self.assertEqual(lead.team_id, self.sales_team_2)
         self.assertEqual(lead.stage_id, self.stage_team2_1)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     @users('user_sales_manager')
     def test_crm_lead_unlink_calendar_event(self):
@@ -1093,7 +1099,11 @@ class TestLeadFormTools(FormatAddressCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 @tagged('lead_internals')
+=======
+@tagged('lead_internals', 'is_query_count')
+>>>>>>> upstream/18.0
 =======
 @tagged('lead_internals', 'is_query_count')
 >>>>>>> upstream/18.0

@@ -4,6 +4,10 @@ import json
 
 from babel.dates import format_date
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from collections import defaultdict
+>>>>>>> upstream/18.0
 =======
 from collections import defaultdict
 >>>>>>> upstream/18.0
@@ -235,12 +239,15 @@ class MrpWorkcenter(models.Model):
     @api.depends('blocked_time', 'productive_time')
     def _compute_oee(self):
 <<<<<<< HEAD
+<<<<<<< HEAD
         for order in self:
             if order.productive_time:
                 order.oee = round(order.productive_time * 100.0 / (order.productive_time + order.blocked_time), 2)
             else:
                 order.oee = 0.0
 =======
+=======
+>>>>>>> upstream/18.0
         time_data = self.env['mrp.workcenter.productivity']._read_group(
             domain=[
                 ('date_start', '>=', fields.Datetime.to_string(datetime.now() - relativedelta.relativedelta(months=1))),
@@ -263,6 +270,9 @@ class MrpWorkcenter(models.Model):
                 workcenter.oee = float_round(productive_time * 100.0 / (productive_time + blocked_time), precision_digits=2)
             else:
                 workcenter.oee = 0.0
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     def _compute_performance(self):
@@ -414,7 +424,11 @@ class MrpWorkcenter(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         remaining = duration
+=======
+        remaining = duration = max(duration, 1 / 60)
+>>>>>>> upstream/18.0
 =======
         remaining = duration = max(duration, 1 / 60)
 >>>>>>> upstream/18.0
@@ -848,6 +862,11 @@ class MrpWorkcenterProductivity(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if not self.date_end:
+            return
+>>>>>>> upstream/18.0
 =======
         if not self.date_end:
             return

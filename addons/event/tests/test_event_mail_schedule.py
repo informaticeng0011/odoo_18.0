@@ -658,7 +658,11 @@ class TestMailSchedule(EventCase, MockEmail, CronMixinCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def test_archived_event_mail_schedule(self):
+=======
+    def test_scheduler_on_archived_event(self):
+>>>>>>> upstream/18.0
 =======
     def test_scheduler_on_archived_event(self):
 >>>>>>> upstream/18.0
@@ -887,7 +891,10 @@ class TestMailSchedule(EventCase, MockEmail, CronMixinCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1072,6 +1079,9 @@ class TestMailSchedule(EventCase, MockEmail, CronMixinCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

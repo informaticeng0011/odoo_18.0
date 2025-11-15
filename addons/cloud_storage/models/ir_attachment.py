@@ -1,11 +1,24 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
+<<<<<<< HEAD
 import uuid
 
 from odoo import models, fields, _
 from odoo.exceptions import UserError
 from odoo.http import Stream
 
+=======
+import logging
+import requests
+import uuid
+
+from odoo import models, fields, _
+from odoo.exceptions import UserError, ValidationError
+from odoo.http import Stream
+
+_logger = logging.getLogger(__name__)
+
+>>>>>>> upstream/18.0
 
 class CloudStorageAttachment(models.Model):
     _inherit = 'ir.attachment'
@@ -41,6 +54,28 @@ class CloudStorageAttachment(models.Model):
                     'url': record._generate_cloud_storage_url(),
                 })
 
+<<<<<<< HEAD
+=======
+    def _migrate_remote_to_local(self):
+        if self.type != 'cloud_storage':
+            return super()._migrate_remote_to_local()
+        url = self._generate_cloud_storage_download_info()['url']
+        response = requests.get(url, timeout=10)
+        response.raise_for_status()
+        if response.status_code != 200:
+            raise ValidationError(_(
+                "Failed to download attachment (%(id)s) from cloud: %(code)s - %(reason)s",
+                id=self.id, code=response.status_code, reason=response.reason,
+            ))
+        attachment_data = response.content
+        _logger.info("Migrating attachment (%s) with url (%s) from cloud_storage to binary.", self.id, self.url)
+        self.write({
+            'type': 'binary',
+            'url': False,
+            'raw': attachment_data,
+        })
+
+>>>>>>> upstream/18.0
     def _generate_cloud_storage_blob_name(self):
         """
         Generate a unique blob name for the attachment
@@ -143,7 +178,10 @@ class CloudStorageAttachment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -264,6 +302,7 @@ class CloudStorageAttachment(models.Model):
     def _get_cloud_storage_unsupported_models(self):
         # Some models may use their attachments' data in the business code
         # We should avoid those attachments to be uploaded to the cloud storage
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -439,6 +478,8 @@ class CloudStorageAttachment(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         models = self.env.registry.descendants(['mail.thread.main.attachment'], '_inherit', '_inherits')
         if 'documents.mixin' in self.env:
             models.update(self.env.registry.descendants(['documents.mixin'], '_inherit'))
@@ -472,6 +513,9 @@ class CloudStorageAttachment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

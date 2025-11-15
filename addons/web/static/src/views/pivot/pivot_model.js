@@ -1214,10 +1214,13 @@ export class PivotModel extends Model {
      */
     async _getSubGroups(groupBy, params) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         const { resModel, groupDomain, measureSpecs, kwargs, mapping } = params;
         const key = JSON.stringify(groupBy);
         if (!mapping[key]) {
 =======
+=======
+>>>>>>> upstream/18.0
         const { resModel, groupDomain, kwargs, mapping } = params;
         const key = JSON.stringify(groupBy);
         if (!mapping[key]) {
@@ -1225,6 +1228,9 @@ export class PivotModel extends Model {
                 const fieldName = measureSpec.split(":")[0];
                 return groupBy.includes(fieldName) ? fieldName : measureSpec;
             });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             mapping[key] = this.orm.readGroup(resModel, groupDomain, measureSpecs, groupBy, kwargs);
         }

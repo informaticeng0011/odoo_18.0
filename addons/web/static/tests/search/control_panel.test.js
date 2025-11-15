@@ -63,7 +63,11 @@ import { expect, test, getFixture } from "@odoo/hoot";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { click, press, queryAll } from "@odoo/hoot-dom";
+=======
+import { click, press, keyDown, keyUp, queryAll, queryFirst } from "@odoo/hoot-dom";
+>>>>>>> upstream/18.0
 =======
 import { click, press, keyDown, keyUp, queryAll, queryFirst } from "@odoo/hoot-dom";
 >>>>>>> upstream/18.0
@@ -377,8 +381,11 @@ class Foo extends models.Model {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: `<search/>`,
         list: `<list/>`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -727,7 +734,12 @@ test("simple rendering", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test.tags`desktop`("breadcrumbs", async () => {
+=======
+test.tags("desktop");
+test("breadcrumbs", async () => {
+>>>>>>> upstream/18.0
 =======
 test.tags("desktop");
 test("breadcrumbs", async () => {
@@ -1382,7 +1394,12 @@ test("breadcrumbs", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test.tags`desktop`("view switcher", async () => {
+=======
+test.tags("desktop");
+test("view switcher", async () => {
+>>>>>>> upstream/18.0
 =======
 test.tags("desktop");
 test("view switcher", async () => {
@@ -2034,7 +2051,12 @@ test("view switcher", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test.tags`mobile`("view switcher on mobile", async () => {
+=======
+test.tags("mobile");
+test("view switcher on mobile", async () => {
+>>>>>>> upstream/18.0
 =======
 test.tags("mobile");
 test("view switcher on mobile", async () => {
@@ -2729,6 +2751,7 @@ test("view switcher hotkey cycles through views", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test.tags`desktop`("control panel layout buttons in dialog", async () => {
 =======
 test.tags("desktop");
@@ -3101,6 +3124,8 @@ test("control panel layout buttons in dialog", async () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 test.tags("desktop");
 test("hotkey overlay not overlapped by active view button", async () => {
     onRpc("has_group", () => true);
@@ -3195,6 +3220,9 @@ test("control panel layout buttons in dialog", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3435,7 +3463,11 @@ test("control panel layout buttons in dialog", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Foo._views["list,false"] = `<list editable="top"><field name="char"/></list>`;
+=======
+    Foo._views["list"] = `<list editable="top"><field name="char"/></list>`;
+>>>>>>> upstream/18.0
 =======
     Foo._views["list"] = `<list editable="top"><field name="char"/></list>`;
 >>>>>>> upstream/18.0

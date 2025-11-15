@@ -159,7 +159,11 @@ from odoo.tests.common import HOST
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tests import HttpCase
+=======
+from odoo.tests import HttpCase, TEST_CURSOR_COOKIE_NAME
+>>>>>>> upstream/18.0
 =======
 from odoo.tests import HttpCase, TEST_CURSOR_COOKIE_NAME
 >>>>>>> upstream/18.0
@@ -808,6 +812,7 @@ class WebsocketCase(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         kwargs['cookie'] += f';{TEST_CURSOR_COOKIE_NAME}={self.http_request_key}'
 >>>>>>> upstream/18.0
@@ -831,6 +836,10 @@ class WebsocketCase(HttpCase):
 >>>>>>> upstream/18.0
         if 'timeout' not in kwargs:
             kwargs['timeout'] = 5
+=======
+        kwargs['cookie'] += f';{TEST_CURSOR_COOKIE_NAME}={self.http_request_key}'
+        kwargs['timeout'] = 10  # keep a large timeout to avoid aving a websocket request escaping the test
+>>>>>>> upstream/18.0
 =======
         kwargs['cookie'] += f';{TEST_CURSOR_COOKIE_NAME}={self.http_request_key}'
         kwargs['timeout'] = 10  # keep a large timeout to avoid aving a websocket request escaping the test

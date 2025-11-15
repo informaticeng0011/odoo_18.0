@@ -296,11 +296,14 @@ class ResUsers(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 message = _('A reset password link was send by email')
             else:
                 _logger.info("Signup email sent for user <%s> to <%s>", user.login, user.email)
                 message = _('A signup link was send by email')
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -494,6 +497,9 @@ class ResUsers(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -637,7 +643,11 @@ class ResUsers(models.Model):
             _logger.warning("Template 'auth_signup.mail_template_data_unregistered_users' was not found. Cannot send reminder notifications.")
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.env['ir.cron']._commit_progress(deactivate=True)
+=======
+            self.env['ir.cron']._notify_progress(deactivate=True)
+>>>>>>> upstream/18.0
 =======
             self.env['ir.cron']._notify_progress(deactivate=True)
 >>>>>>> upstream/18.0

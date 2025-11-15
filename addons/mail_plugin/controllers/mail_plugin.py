@@ -50,7 +50,11 @@ class MailPluginController(http.Controller):
         company, enrichment_info = self._create_company_from_iap(normalized_email)
 
         if company:
+<<<<<<< HEAD
             partner.write({'parent_id': company})
+=======
+            partner.write({'parent_id': company.id})
+>>>>>>> upstream/18.0
 
         return {
             'enrichment_info': enrichment_info,
@@ -420,7 +424,11 @@ class MailPluginController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 _logger.warning('Download of image for new company %s failed, error %s', new_company_info.name, e)
+=======
+                _logger.warning('Download of image for new company %s failed, error %s', new_company_info['name'], e)
+>>>>>>> upstream/18.0
 =======
                 _logger.warning('Download of image for new company %s failed, error %s', new_company_info['name'], e)
 >>>>>>> upstream/18.0

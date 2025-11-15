@@ -15,7 +15,11 @@ class SerialInterface(Interface):
             port.device: {'identifier': port.device}
             for port in comports()
 <<<<<<< HEAD
+<<<<<<< HEAD
             if platform.system() == 'Windows' or port.subsystem != 'amba'
+=======
+            if platform.system() == 'Windows' or port.device != '/dev/ttyAMA10'
+>>>>>>> upstream/18.0
 =======
             if platform.system() == 'Windows' or port.device != '/dev/ttyAMA10'
 >>>>>>> upstream/18.0

@@ -104,7 +104,11 @@ class ProductTemplate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         res = self.taxes_id.filtered(lambda t: t.company_id == self.env.company).compute_all(
+=======
+        res = self.taxes_id._filter_taxes_by_company(self.env.company).compute_all(
+>>>>>>> upstream/18.0
 =======
         res = self.taxes_id._filter_taxes_by_company(self.env.company).compute_all(
 >>>>>>> upstream/18.0
@@ -246,6 +250,7 @@ class ProductTemplate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for product_grouped_by_tax in self.grouped('taxes_id').values():
             product_grouped_by_tax.taxes_id += default_customer_taxes
         self.invalidate_recordset(['taxes_id'])
@@ -256,6 +261,8 @@ class ProductTemplate(models.Model):
             product_grouped_by_tax.supplier_taxes_id += default_supplier_taxes
         self.invalidate_recordset(['supplier_taxes_id'])
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -444,6 +451,9 @@ class ProductTemplate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -612,7 +622,11 @@ class ProductTemplate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         other_companies = self.env['res.company'].sudo().search([('id', 'not in', self.env.companies.ids)])
+=======
+        other_companies = self.env['res.company'].sudo().search(['!', ('id', 'child_of', self.env.companies.ids)])
+>>>>>>> upstream/18.0
 =======
         other_companies = self.env['res.company'].sudo().search(['!', ('id', 'child_of', self.env.companies.ids)])
 >>>>>>> upstream/18.0
@@ -864,6 +878,7 @@ class ProductProduct(models.Model):
             # cut Sales Description from the name
             name = name.split('\n')[0]
         domains = []
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1275,6 +1290,8 @@ class ProductProduct(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         if barcode:
             domains.append([('barcode', '=', barcode)])
         if default_code:
@@ -1344,8 +1361,11 @@ class ProductProduct(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             domains += [[('name', '=', name)], [('name', 'ilike', name)]]
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1539,6 +1559,9 @@ class ProductProduct(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1811,6 +1834,9 @@ class ProductProduct(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

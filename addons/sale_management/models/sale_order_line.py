@@ -40,6 +40,12 @@ class SaleOrderLine(models.Model):
 
     def _lines_without_price_recomputation(self):
         """ Hook to allow filtering the lines to avoid the recomputation of the price. """
+<<<<<<< HEAD
+=======
+        if self.env.context.get('pricelist_update'):
+            # Recompute the optional products only if the pricelist got updated
+            return self.env['sale.order.line']
+>>>>>>> upstream/18.0
         return self.filtered('sale_order_option_ids')
 
     #=== TOOLING ===#

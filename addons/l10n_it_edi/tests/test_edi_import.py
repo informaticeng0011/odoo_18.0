@@ -180,7 +180,10 @@ class TestItEdiImport(TestItEdi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -485,6 +488,7 @@ class TestItEdiImport(TestItEdi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             }],
         }])
 
@@ -628,6 +632,8 @@ class TestItEdiImport(TestItEdi):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -826,6 +832,9 @@ class TestItEdiImport(TestItEdi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -968,7 +977,10 @@ class TestItEdiImport(TestItEdi):
         }])
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_import_refund_with_linked_po(self):
         if self.env['ir.module.module']._get('purchase').state != 'installed':
             self.skipTest("purchase module is not installed")
@@ -1011,6 +1023,9 @@ class TestItEdiImport(TestItEdi):
             }],
         }])
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_receive_signed_vendor_bill(self):
         """ Test a signed (P7M) sample e-invoice file from
@@ -1070,7 +1085,11 @@ class TestItEdiImport(TestItEdi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'amount_untaxed': 57.54,
+=======
+                'amount_untaxed': 39.54,
+>>>>>>> upstream/18.0
 =======
                 'amount_untaxed': 39.54,
 >>>>>>> upstream/18.0
@@ -1287,7 +1306,11 @@ class TestItEdiImport(TestItEdi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'amount_untaxed': 3.0,
+=======
+            'amount_untaxed': 5.0,
+>>>>>>> upstream/18.0
 =======
             'amount_untaxed': 5.0,
 >>>>>>> upstream/18.0
@@ -1379,11 +1402,14 @@ class TestItEdiImport(TestItEdi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 {
                     'quantity': 1.0,
                     'name': 'SCONTO',
                     'price_unit': -2,
                 }
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1534,7 +1560,10 @@ class TestItEdiImport(TestItEdi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1746,6 +1775,9 @@ class TestItEdiImport(TestItEdi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

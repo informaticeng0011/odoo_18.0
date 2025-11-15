@@ -6,8 +6,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* l10n_it_edi_ndd
 #
+=======
+# * l10n_it_edi_ndd
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 =======
 # * l10n_it_edi_ndd
 #
@@ -49,6 +55,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-08-26 08:15+0000\n"
 "PO-Revision-Date: 2024-08-26 08:15+0000\n"
 "Last-Translator: \n"
@@ -75,6 +82,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-11-03 15:44+0000\n"
 "PO-Revision-Date: 2025-11-08 09:22+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
@@ -91,6 +100,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -121,7 +133,10 @@ msgstr "Creato il"
 #. module: l10n_it_edi_ndd
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:l10n_it.document.type,name:l10n_it_edi_ndd.l10n_it_document_type_01
@@ -141,6 +156,9 @@ msgstr "Acconto/anticipo su fattura fornitore"
 
 #. module: l10n_it_edi_ndd
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -156,12 +174,15 @@ msgstr "Nota di debito"
 #. module: l10n_it_edi_ndd
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:l10n_it.document.type,name:l10n_it_edi_ndd.l10n_it_document_type_24
 msgid ""
 "Deferred invoice (Article 21, paragraph 4, third period letter to "
 "Presidential Decree 633/72)"
 msgstr "Fattura differita (art. 21, comma 4, terzo periodo del DPR 633/72)"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:l10n_it.document.type,name:l10n_it_edi_ndd.l10n_it_document_type_06
@@ -236,6 +257,9 @@ msgid ""
 "Deferred invoice"
 msgstr "Fattura differita"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -243,6 +267,7 @@ msgstr "Fattura differita"
 #. module: l10n_it_edi_ndd
 #: model:l10n_it.document.type,name:l10n_it_edi_ndd.l10n_it_document_type_25
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 "Deferred invoice (Article 21, paragraph 4, third period, letter b "
@@ -286,6 +311,8 @@ msgstr "Deposito/anticipo sulla parcella"
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Deferred invoice for Dropshipping"
 msgstr "Fattura differita per dropshipping"
 
@@ -307,6 +334,9 @@ msgid ""
 "Self-invoice for purchases from San Marino with VAT (paper invoice)"
 msgstr "Autofattura per acquisti da San Marino con IVA (fattura cartacea)"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -325,6 +355,10 @@ msgstr "Nome visualizzato"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:l10n_it_edi_ndd.l10n_it_document_type_form
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:l10n_it_edi_ndd.l10n_it_document_type_form
 >>>>>>> upstream/18.0
@@ -351,6 +385,7 @@ msgid "Document Type"
 msgstr "Tipi di documento"
 
 #. module: l10n_it_edi_ndd
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -559,10 +594,15 @@ msgstr "Tipi di documento"
 #. odoo-python
 #: code:addons/l10n_it_edi_ndd/models/l10n_it_document_type.py:0
 >>>>>>> upstream/18.0
+=======
+#. odoo-python
+#: code:addons/l10n_it_edi_ndd/models/l10n_it_document_type.py:0
+>>>>>>> upstream/18.0
 msgid "Document Type code must be unique."
 msgstr "Il codice del tipo di documento deve essere univoco."
 
 #. module: l10n_it_edi_ndd
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -848,6 +888,11 @@ msgstr "ID"
 msgid "ID"
 msgstr "ID"
 >>>>>>> upstream/18.0
+=======
+#: model:ir.model.fields,field_description:l10n_it_edi_ndd.field_l10n_it_document_type__id
+msgid "ID"
+msgstr "ID"
+>>>>>>> upstream/18.0
 
 #. module: l10n_it_edi_ndd
 #: model:ir.model,name:l10n_it_edi_ndd.model_l10n_it_document_type
@@ -874,7 +919,10 @@ msgstr "Registrazione contabile"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_it_edi_ndd.field_account_payment__l10n_it_document_type
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -902,7 +950,10 @@ msgstr "L10N It Tipo di documento"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_it_edi_ndd.field_account_payment__l10n_it_payment_method
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1076,11 +1127,14 @@ msgstr "Nome"
 #. module: l10n_it_edi_ndd
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:l10n_it.document.type,name:l10n_it_edi_ndd.l10n_it_document_type_06
 msgid "Parcel"
 msgstr "Parcella"
 
 #. module: l10n_it_edi_ndd
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1105,6 +1159,7 @@ msgid "Sale"
 msgstr "Vendita"
 
 #. module: l10n_it_edi_ndd
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 #: model:l10n_it.document.type,name:l10n_it_edi_ndd.l10n_it_document_type_20
@@ -1432,6 +1487,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 
 #. module: l10n_it_edi_ndd
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

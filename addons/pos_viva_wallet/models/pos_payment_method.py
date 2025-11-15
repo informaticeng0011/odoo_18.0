@@ -135,7 +135,12 @@ class PosPaymentMethod(models.Model):
         pos_session_sudo = self.env["pos.session"].browse(int(data.get('pos_session_id', False)))
         if pos_session_sudo:
             pos_session_sudo.config_id._notify('VIVA_WALLET_LATEST_RESPONSE', {
+<<<<<<< HEAD
                 'config_id': pos_session_sudo.config_id.id
+=======
+                'config_id': pos_session_sudo.config_id.id,
+                'session_id': data.get('sessionId'),
+>>>>>>> upstream/18.0
             })
 
     def _load_pos_data_fields(self, config_id):

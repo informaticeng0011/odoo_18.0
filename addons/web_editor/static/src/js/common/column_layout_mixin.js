@@ -11,7 +11,11 @@ export const ColumnLayoutMixin = {
      * @returns {integer|string} number of columns or "custom"
      */
     _getNbColumns(columnEls, isMobile) {
+<<<<<<< HEAD
         if (!columnEls) {
+=======
+        if (!columnEls || !columnEls[0]) {
+>>>>>>> upstream/18.0
             return 0;
         }
         if (this._areColsCustomized(columnEls, isMobile)) {
@@ -70,6 +74,12 @@ export const ColumnLayoutMixin = {
      * @returns {boolean}
      */
     _areColsCustomized(columnEls, isMobile) {
+<<<<<<< HEAD
+=======
+        if (!columnEls || !columnEls[0]) {
+            return false;
+        }
+>>>>>>> upstream/18.0
         const resolutionModifier = isMobile ? "" : "lg-";
         const colRegex = new RegExp(`(?:^|\\s+)col-${resolutionModifier}(\\d{1,2})(?!\\S)`);
         const colSize = parseInt(columnEls[0].className.match(colRegex)?.[1] || 12);

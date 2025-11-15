@@ -182,8 +182,13 @@ class TestSubcontractingDropshippingValuation(ValuationReconciliationTestCommon)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             {'account_id': stock_valu_acc_id,   'product_id': self.product_a.id,    'debit': 0.0,   'credit': 110.0},
             {'account_id': stock_in_acc_id,     'product_id': self.product_a.id,    'debit': 110.0, 'credit': 0.0},
+=======
+            {'account_id': stock_out_acc_id,      'product_id': self.product_a.id,    'debit': 0.0,   'credit': 110.0},
+            {'account_id': stock_valu_acc_id,     'product_id': self.product_a.id,    'debit': 110.0, 'credit': 0.0},
+>>>>>>> upstream/18.0
 =======
             {'account_id': stock_out_acc_id,      'product_id': self.product_a.id,    'debit': 0.0,   'credit': 110.0},
             {'account_id': stock_valu_acc_id,     'product_id': self.product_a.id,    'debit': 110.0, 'credit': 0.0},
@@ -566,9 +571,13 @@ class TestSubcontractingDropshippingValuation(ValuationReconciliationTestCommon)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         res = dropship_transfer.button_validate()
         wizard = Form(self.env[res['res_model']].with_context(res['context'])).save()
         wizard.process()
+=======
+        dropship_transfer.with_context(cancel_backorder=False)._action_done()
+>>>>>>> upstream/18.0
 =======
         dropship_transfer.with_context(cancel_backorder=False)._action_done()
 >>>>>>> upstream/18.0
@@ -829,7 +838,11 @@ class TestSubcontractingDropshippingValuation(ValuationReconciliationTestCommon)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         dropship_backorder.button_validate()
+=======
+        dropship_backorder._action_done()
+>>>>>>> upstream/18.0
 =======
         dropship_backorder._action_done()
 >>>>>>> upstream/18.0
@@ -1055,6 +1068,10 @@ class TestSubcontractingDropshippingValuation(ValuationReconciliationTestCommon)
             'property_account_expense_id': self.copy_account(self.company_data['default_account_expense']).id,
             'taxes_id': [Command.set((self.tax_sale_a + self.tax_sale_b).ids)],
             'supplier_taxes_id': [Command.set((self.tax_purchase_a + self.tax_purchase_b).ids)],
+<<<<<<< HEAD
+=======
+            'is_storable': True
+>>>>>>> upstream/18.0
         })
         kit_bom = self.env['mrp.bom'].create({
             'product_tmpl_id': kit_final_prod.product_tmpl_id.id,
@@ -1062,6 +1079,7 @@ class TestSubcontractingDropshippingValuation(ValuationReconciliationTestCommon)
             'product_qty': 1.0,
             'type': 'phantom',
         })
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1099,6 +1117,8 @@ class TestSubcontractingDropshippingValuation(ValuationReconciliationTestCommon)
             'product_qty': 2,
         })]
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1196,6 +1216,9 @@ class TestSubcontractingDropshippingValuation(ValuationReconciliationTestCommon)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1293,7 +1316,11 @@ class TestSubcontractingDropshippingValuation(ValuationReconciliationTestCommon)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+        self.product_b.standard_price = 10
+>>>>>>> upstream/18.0
 =======
         self.product_b.standard_price = 10
 >>>>>>> upstream/18.0
@@ -1417,7 +1444,11 @@ class TestSubcontractingDropshippingValuation(ValuationReconciliationTestCommon)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'order_line': [(0, 0, {
+=======
+            'order_line': [Command.create({
+>>>>>>> upstream/18.0
 =======
             'order_line': [Command.create({
 >>>>>>> upstream/18.0
@@ -1544,7 +1575,10 @@ class TestSubcontractingDropshippingValuation(ValuationReconciliationTestCommon)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         dropship_transfer.move_ids[0].quantity = 2.0
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

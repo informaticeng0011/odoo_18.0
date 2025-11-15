@@ -1748,7 +1748,11 @@ class TestAccrualAllocations(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'carryover_day': 20,
+=======
+            'carryover_day': 31,
+>>>>>>> upstream/18.0
 =======
             'carryover_day': 31,
 >>>>>>> upstream/18.0
@@ -2182,7 +2186,11 @@ class TestAccrualAllocations(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         with freeze_time("2023-04-20"):
+=======
+        with freeze_time("2023-04-30"):
+>>>>>>> upstream/18.0
 =======
         with freeze_time("2023-04-30"):
 >>>>>>> upstream/18.0
@@ -2610,12 +2618,15 @@ class TestAccrualAllocations(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'date_from': '2023-04-20',
             })
             allocation.action_validate()
 
         with freeze_time("2024-04-20"):
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2933,6 +2944,9 @@ class TestAccrualAllocations(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5403,7 +5417,10 @@ class TestAccrualAllocations(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5972,6 +5989,7 @@ class TestAccrualAllocations(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6136,6 +6154,8 @@ class TestAccrualAllocations(TestHrHolidaysCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6421,6 +6441,7 @@ class TestAccrualAllocations(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6547,4 +6568,28 @@ class TestAccrualAllocations(TestHrHolidaysCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+    def test_accrual_plan_cleared_when_switch_to_regular(self):
+        accrual_plan = self.env['hr.leave.accrual.plan'].with_context(tracking_disable=True).create({
+            'name': 'Accrual Plan For Test',
+        })
+        allocation = self.env['hr.leave.allocation'].with_context(tracking_disable=True).create({
+            'name': 'Accrual allocation for employee',
+            'allocation_type': 'accrual',
+            'holiday_status_id': self.leave_type.id,
+            'accrual_plan_id': accrual_plan.id,
+            'employee_id': self.employee_emp.id,
+            'number_of_days': 10,
+        })
+        self.assertEqual(allocation.accrual_plan_id, accrual_plan, "Accrual plan should initially be set.")
+
+        with Form(allocation) as alloc_form:
+            alloc_form.allocation_type = 'regular'
+        self.assertFalse(
+            allocation.accrual_plan_id,
+            "accrual_plan_id should be cleared automatically when type becomes 'regular'."
+        )
+        self.assertEqual(accrual_plan.employees_count, 0, "Accrual plan should not have any linked employees.")
 >>>>>>> upstream/18.0

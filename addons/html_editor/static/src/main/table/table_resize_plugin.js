@@ -177,9 +177,12 @@ export class TableResizePlugin extends Plugin {
                 const newNeighborSize = currentNeighborSize - sizeDelta;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 const maxWidth =
                     this.editable.clientWidth -
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                 const enclosingCell = closestElement(table, "td, th");
@@ -188,6 +191,9 @@ export class TableResizePlugin extends Plugin {
                 const maxWidth =
                     containerWidth -
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

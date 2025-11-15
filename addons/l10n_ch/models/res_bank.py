@@ -8,7 +8,11 @@ from odoo import api, fields, models, _
 from odoo.addons.base.models.res_bank import sanitize_account_number
 from odoo.addons.base_iban.models.res_partner_bank import normalize_iban, pretty_iban, validate_iban
 from odoo.exceptions import ValidationError
+<<<<<<< HEAD
 from odoo.tools import LazyTranslate
+=======
+from odoo.tools import LazyTranslate, street_split
+>>>>>>> upstream/18.0
 from odoo.tools.misc import mod10r
 
 _lt = LazyTranslate(__name__)
@@ -95,8 +99,13 @@ class ResPartnerBank(models.Model):
         if free_communication:
             comment = (free_communication[:137] + '...') if len(free_communication) > 140 else free_communication
 
+<<<<<<< HEAD
         creditor_addr_1, creditor_addr_2 = self._get_partner_address_lines(self.partner_id)
         debtor_addr_1, debtor_addr_2 = self._get_partner_address_lines(debtor_partner)
+=======
+        cred_street, cred_street_number, cred_zip, cred_city = self._get_partner_address_lines(self.partner_id)
+        debt_street, debt_street_number, debt_zip, debt_city = self._get_partner_address_lines(debtor_partner)
+>>>>>>> upstream/18.0
 
         # Compute reference type (empty by default, only mandatory for QR-IBAN,
         # and must then be 27 characters-long, with mod10r check digit as the 27th one)
@@ -120,12 +129,21 @@ class ResPartnerBank(models.Model):
             '0200',                                               # Version
             '1',                                                  # Coding Type
             acc_number,                                           # IBAN / QR-IBAN
+<<<<<<< HEAD
             'K',                                                  # Creditor Address Type
             (self.acc_holder_name or self.partner_id.name)[:70],  # Creditor Name
             creditor_addr_1,                                      # Creditor Address Line 1
             creditor_addr_2,                                      # Creditor Address Line 2
             '',                                                   # Creditor Postal Code (empty, since we're using combined addres elements)
             '',                                                   # Creditor Town (empty, since we're using combined addres elements)
+=======
+            'S',                                                  # Creditor Address Type
+            (self.acc_holder_name or self.partner_id.name)[:70],  # Creditor Name
+            cred_street,                                          # Creditor Street Name
+            cred_street_number,                                   # Creditor Building Number
+            cred_zip,                                             # Creditor Postal Code
+            cred_city,                                            # Creditor Town
+>>>>>>> upstream/18.0
             self.partner_id.country_id.code,                      # Creditor Country
             '',                                                   # Ultimate Creditor Address Type
             '',                                                   # Name
@@ -136,6 +154,7 @@ class ResPartnerBank(models.Model):
             '',                                                   # Ultimate Creditor Country
             '{:.2f}'.format(amount),                              # Amount
             currency.name,                                        # Currency
+<<<<<<< HEAD
             'K',                                                  # Ultimate Debtor Address Type
             debtor_partner.commercial_partner_id.name[:70],       # Ultimate Debtor Name
             debtor_addr_1,                                        # Ultimate Debtor Address Line 1
@@ -143,6 +162,15 @@ class ResPartnerBank(models.Model):
             '',                                                   # Ultimate Debtor Postal Code (not to be provided for address type K)
             '',                                                   # Ultimate Debtor Postal City (not to be provided for address type K)
             debtor_partner.country_id.code,                       # Ultimate Debtor Postal Country
+=======
+            'S',                                                  # Ultimate Debtor Address Type
+            debtor_partner.commercial_partner_id.name[:70],       # Ultimate Debtor Name
+            debt_street,                                          # Ultimate Debtor Street Name
+            debt_street_number,                                   # Ultimate Debtor Building Number
+            debt_zip,                                             # Ultimate Debtor Postal Code
+            debt_city,                                            # Ultimate Debtor Town
+            debtor_partner.country_id.code,                       # Ultimate Debtor Country
+>>>>>>> upstream/18.0
             reference_type,                                       # Reference Type
             reference,                                            # Reference
             comment,                                              # Unstructured Message
@@ -169,6 +197,7 @@ class ResPartnerBank(models.Model):
         return super()._get_qr_code_generation_params(qr_method, amount, currency, debtor_partner, free_communication, structured_communication)
 
     def _get_partner_address_lines(self, partner):
+<<<<<<< HEAD
         """ Returns a tuple of two elements containing the address lines to use
         for this partner. Line 1 contains the street and number, line 2 contains
         zip and city. Those two lines are limited to 70 characters
@@ -177,6 +206,30 @@ class ResPartnerBank(models.Model):
         line_1 = ' '.join(filter(None, streets))
         line_2 = partner.zip + ' ' + partner.city
         return line_1[:70], line_2[:70]
+=======
+        """ Retrieves the partner's address fields, truncated to respect the line specs.
+        :returns: tuple(street, street_number, zip, city)
+        """
+        street_1_split = street_split(partner.street or '')
+        street_name = street_1_split['street_name']
+        building_number = f"{street_1_split['street_number']} {street_1_split['street_number2']}".strip()
+
+        if building_number:
+            concatenated_building_number = f"{building_number} {partner.street2 or ''}".strip()
+            if len(concatenated_building_number) <= 16:
+                building_number = concatenated_building_number
+        else:
+            # Try to complete the address with street2
+            street_2_split = street_split(partner.street2 or '')
+
+            building_number = f"{street_2_split['street_number']} {street_2_split['street_number2']}".strip()
+            if building_number:
+                street_name = f"{street_name} {street_2_split['street_name']}".strip()
+            else:
+                building_number = (partner.street2 or '').strip()
+
+        return street_name[:70], building_number[:16], partner.zip[:16], partner.city[:35]
+>>>>>>> upstream/18.0
 
     @api.model
     def _is_qr_reference(self, reference):

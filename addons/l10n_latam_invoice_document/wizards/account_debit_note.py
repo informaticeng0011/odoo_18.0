@@ -15,11 +15,17 @@ class AccountDebitNote(models.TransientModel):
             new_move._onchange_l10n_latam_document_type_id()
         return res
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def _prepare_default_values(self, move):
         """ Needed to avoid constraint when creating Debit Note from Credit Note """
         vals = super()._prepare_default_values(move)
         vals['l10n_latam_document_type_id'] = False
         return vals
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

@@ -5,17 +5,33 @@
         <record id="sgst_tag_account" model="account.account.tag">
             <field name="name">SGST</field>
             <field name="applicability">accounts</field>
+<<<<<<< HEAD
+=======
+            <field name="country_id" ref="base.in"/>
+>>>>>>> upstream/18.0
         </record>
         <record id="cgst_tag_account" model="account.account.tag">
             <field name="name">CGST</field>
             <field name="applicability">accounts</field>
+<<<<<<< HEAD
+=======
+            <field name="country_id" ref="base.in"/>
+>>>>>>> upstream/18.0
         </record>
         <record id="igst_tag_account" model="account.account.tag">
             <field name="name">IGST</field>
             <field name="applicability">accounts</field>
+<<<<<<< HEAD
+=======
+            <field name="country_id" ref="base.in"/>
+>>>>>>> upstream/18.0
         </record>
         <record id="cess_tag_account" model="account.account.tag">
             <field name="name">CESS</field>
             <field name="applicability">accounts</field>
+<<<<<<< HEAD
+=======
+            <field name="country_id" ref="base.in"/>
+>>>>>>> upstream/18.0
         </record>
         </odoo>

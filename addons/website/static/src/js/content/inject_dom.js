@@ -5,7 +5,10 @@ import { session } from "@web/session";
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 function getClosestLiEls(selector) {
@@ -13,6 +16,9 @@ function getClosestLiEls(selector) {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -29,8 +35,11 @@ export function unhideConditionalElements() {
     const conditionalEls = document.querySelectorAll('[data-visibility="conditional"]');
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     for (const conditionalEl of conditionalEls) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -52,6 +61,9 @@ export function unhideConditionalElements() {
             mobileMegaMenuLiEl.dataset.visibilityId = visibilityId;
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -95,7 +107,10 @@ document.addEventListener('DOMContentLoaded', () => {
     unhideConditionalElements();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -124,6 +139,9 @@ document.addEventListener('DOMContentLoaded', () => {
         mobileMegaMenuLiEls[index].classList.add("hidden_mega_menu_li");
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
