@@ -71,9 +71,15 @@ const searchViewArch = `
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <filter name="x_plan122_id" context="{'group_by': 'x_plan122_id'}"/>
         <filter name="x_plan122_id_1" context="{'group_by': 'x_plan122_id_1'}"/>
         <filter name="x_plan122_id_2" context="{'group_by': 'x_plan122_id_2'}"/>
+=======
+        <filter name="x_plan1_id" context="{'group_by': 'x_plan1_id'}"/>
+        <filter name="x_plan1_id_1" context="{'group_by': 'x_plan1_id_1'}"/>
+        <filter name="x_plan1_id_2" context="{'group_by': 'x_plan1_id_2'}"/>
+>>>>>>> upstream/18.0
 =======
         <filter name="x_plan1_id" context="{'group_by': 'x_plan1_id'}"/>
         <filter name="x_plan1_id_1" context="{'group_by': 'x_plan1_id_1'}"/>
@@ -470,12 +476,15 @@ beforeEach(async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const eu = env['account.analytic.plan'].create({ name: "Europe", parent_id: root });
     const be = env['account.analytic.plan'].create({ name: "Belgium", parent_id: eu });
     const fr = env['account.analytic.plan'].create({ name: "France", parent_id: eu });
     const am = env['account.analytic.plan'].create({ name: "America", parent_id: root });
     const us = env['account.analytic.plan'].create({ name: "USA", parent_id: am });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -673,6 +682,9 @@ beforeEach(async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -876,6 +888,7 @@ beforeEach(async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         { x_plan122_id: accounts[0], x_plan122_id_1: eu, x_plan122_id_2: be, amount: 1 },
         { x_plan122_id: accounts[1], x_plan122_id_1: eu, x_plan122_id_2: be, amount: 10 },
         { x_plan122_id: accounts[2], x_plan122_id_1: eu, x_plan122_id_2: fr, amount: 100 },
@@ -883,6 +896,8 @@ beforeEach(async () => {
         { x_plan122_id: accounts[4], x_plan122_id_1: am, x_plan122_id_2: us, amount: 10000 },
         { x_plan122_id: accounts[5], x_plan122_id_1: am, x_plan122_id_2: us, amount: 100000 },
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1081,6 +1096,9 @@ beforeEach(async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

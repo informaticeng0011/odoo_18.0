@@ -956,6 +956,11 @@ class TestAccountMoveInInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.other_currency.rounding = 0.001
+
+>>>>>>> upstream/18.0
 =======
         self.other_currency.rounding = 0.001
 

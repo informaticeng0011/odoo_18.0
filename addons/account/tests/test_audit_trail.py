@@ -47,7 +47,10 @@ class TestAuditTrail(AccountTestInvoicingCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_can_reset_deferred_invoice(self):
@@ -73,6 +76,9 @@ class TestAuditTrail(AccountTestInvoicingCommon):
             invoice.button_draft()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

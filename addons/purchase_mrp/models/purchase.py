@@ -98,7 +98,10 @@ class PurchaseOrderLine(models.Model):
             return move_dests._compute_kit_quantities(self.product_id, self.product_qty, kit_bom, filters)
         return super()._get_move_dests_initial_demand(move_dests)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def _get_sale_order_line_product(self):
         return False
@@ -118,4 +121,7 @@ class PurchaseOrderLine(models.Model):
                     if vals['product_id'] in bom_kit_component:
                         vals['bom_line_id'] = bom_kit_component[vals['product_id']]
         return res
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

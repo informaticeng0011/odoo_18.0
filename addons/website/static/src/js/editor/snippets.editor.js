@@ -356,7 +356,10 @@ export class WebsiteSnippetsMenu extends weSnippetEditor.SnippetsMenu {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -623,6 +626,9 @@ export class WebsiteSnippetsMenu extends weSnippetEditor.SnippetsMenu {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1179,7 +1185,10 @@ export class WebsiteSnippetsMenu extends weSnippetEditor.SnippetsMenu {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1544,6 +1553,9 @@ export class WebsiteSnippetsMenu extends weSnippetEditor.SnippetsMenu {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

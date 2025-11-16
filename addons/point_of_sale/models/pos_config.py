@@ -362,6 +362,7 @@ class PosConfig(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def read_config_open_orders(self, domain, record_ids):
         all_domain = expression.OR([domain, [('id', 'in', record_ids.get('pos.order')), ('config_id', '=', self.id)]])
         all_orders = self.env['pos.order'].search(all_domain)
@@ -373,6 +374,8 @@ class PosConfig(models.Model):
         return {
             'dynamic_records': all_orders.filtered_domain(domain).read_pos_data([], self.id),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -681,11 +684,14 @@ class PosConfig(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for model, domain in domain.items():
             ids = record_ids[model]
             delete_record_ids[model] = [id for id in ids if not self.env[model].browse(id).exists()]
             dynamic_records[model] = self.env[model].search(domain)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -776,6 +782,7 @@ class PosConfig(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 delete_record_ids[model] += browsed.filtered(lambda r: r.state == "cancel").ids
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -792,6 +799,9 @@ class PosConfig(models.Model):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+                delete_record_ids[model] += browsed.exists().filtered(lambda r: r.state == "cancel").ids
 >>>>>>> upstream/18.0
 =======
                 delete_record_ids[model] += browsed.exists().filtered(lambda r: r.state == "cancel").ids
@@ -1017,6 +1027,9 @@ class PosConfig(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1542,7 +1555,10 @@ class PosConfig(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2014,6 +2030,9 @@ class PosConfig(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2443,6 +2462,7 @@ class PosConfig(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for cash_method in self.payment_method_ids.filtered(lambda m: m.journal_id.type == 'cash'):
             if self.env['pos.config'].search_count([('id', '!=', self.id), ('payment_method_ids', 'in', cash_method.ids)], limit=1):
                 raise ValidationError(_("This cash payment method is already used in another Point of Sale.\n"
@@ -2450,6 +2470,8 @@ class PosConfig(models.Model):
             if len(cash_method.journal_id.pos_payment_method_ids) > 1:
                 raise ValidationError(_("You cannot use the same journal on multiples cash payment methods."))
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2649,6 +2671,9 @@ class PosConfig(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2937,6 +2962,12 @@ class PosConfig(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    def _config_sequence_implementation(self):
+        return 'standard'
+
+>>>>>>> upstream/18.0
 =======
     def _config_sequence_implementation(self):
         return 'standard'
@@ -3794,6 +3825,10 @@ class PosConfig(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                'implementation': self._config_sequence_implementation(),
+>>>>>>> upstream/18.0
 =======
                 'implementation': self._config_sequence_implementation(),
 >>>>>>> upstream/18.0
@@ -4771,7 +4806,11 @@ class PosConfig(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         default_cash_account = self.env['account.account'].search([
+=======
+        default_cash_account = self.env['account.account'].with_context(lang='en_US').search([
+>>>>>>> upstream/18.0
 =======
         default_cash_account = self.env['account.account'].with_context(lang='en_US').search([
 >>>>>>> upstream/18.0

@@ -514,7 +514,10 @@ class TestSaleOrder(SaleManagementCommon):
             pass
         self.assertEqual(len(log_catcher.output), 0, "Form creation shouldn't trigger a warning")
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_updating_price_upon_changing_pricelist(self):
         optional_product = self.env['product.product'].create({'name': 'Optional Product'})
@@ -564,4 +567,7 @@ class TestSaleOrder(SaleManagementCommon):
         sale_order.action_update_prices()
 
         self.assertEqual(sale_order.order_line[1].price_unit, pricelist_2.item_ids.fixed_price)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

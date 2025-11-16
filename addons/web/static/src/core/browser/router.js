@@ -184,7 +184,11 @@ export function urlToState(urlObj) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (prefix === "odoo" || isScopedApp()) {
+=======
+    if (["odoo", "scoped_app"].includes(prefix)) {
+>>>>>>> upstream/18.0
 =======
     if (["odoo", "scoped_app"].includes(prefix)) {
 >>>>>>> upstream/18.0
@@ -241,7 +245,10 @@ export function urlToState(urlObj) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -253,6 +260,9 @@ export function urlToState(urlObj) {
         }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -304,7 +314,10 @@ browser.addEventListener("popstate", (ev) => {
     }
     state = ev.state?.nextState || router.urlToState(new URL(browser.location));
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     // The `popstate` event is bound on window from here as well as from
     // wysiwyg_adapter. In Edit mode, clicking the browser's back button
     // triggers this event first, followed by the `wysiwyg_adapter` event. This
@@ -315,6 +328,9 @@ browser.addEventListener("popstate", (ev) => {
     // `BEFORE_ROUTE_CHANGE`. In handler of `BEFORE_ROUTE_CHANGE` we tweak the
     // code so that the dialog closes properly and prevents the traceback.
     routerBus.trigger("BEFORE_ROUTE_CHANGE");
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     // Some client actions want to handle loading their own state. This is a ugly hack to allow not
     // reloading the webclient's state when they manipulate history.

@@ -111,7 +111,11 @@ import { NameAndSignature } from "@web/core/signature/name_and_signature";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 class SignatureForm extends Component {
+=======
+export class SignatureForm extends Component {
+>>>>>>> upstream/18.0
 =======
 export class SignatureForm extends Component {
 >>>>>>> upstream/18.0
@@ -499,11 +503,14 @@ export class SignatureForm extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.rootRef.el.closest('.modal').addEventListener('shown.bs.modal', () => {
                 this.signature.resetSignature();
                 this.toggleSignatureFormVisibility();
             });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -688,6 +695,9 @@ export class SignatureForm extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

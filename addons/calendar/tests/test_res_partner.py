@@ -132,6 +132,7 @@ class TestResPartner(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         Event.create({'name': 'event_9',
                       'partner_ids': [(6, 0, [test_partner_2.id,
@@ -139,6 +140,8 @@ class TestResPartner(TransactionCase):
 
         Event.create({'name': 'event_10',
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -355,6 +358,9 @@ class TestResPartner(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

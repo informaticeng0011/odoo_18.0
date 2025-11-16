@@ -458,6 +458,7 @@ export async function testEditor(Editor = OdooEditor, spec, options = {}) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         // Wait for selectionchange handlers to react before any actual testing.
         await Promise.resolve();
@@ -701,6 +702,11 @@ export async function testEditor(Editor = OdooEditor, spec, options = {}) {
 =======
         // Wait for selectionchange handlers to react before any actual testing.
         await Promise.resolve();
+
+>>>>>>> upstream/18.0
+=======
+        // Wait for selectionchange handlers to react before any actual testing.
+        await nextTick();
 
 >>>>>>> upstream/18.0
 =======

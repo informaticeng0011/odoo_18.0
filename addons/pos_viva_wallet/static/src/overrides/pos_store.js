@@ -5,12 +5,15 @@ patch(PosStore.prototype, {
     async setup() {
         await super.setup(...arguments);
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.data.connectWebSocket("VIVA_WALLET_LATEST_RESPONSE", () => {
             const pendingLine = this.getPendingPaymentLine("viva_wallet");
 
             if (pendingLine) {
                 pendingLine.payment_method_id.payment_terminal.handleVivaWalletStatusResponse();
 =======
+=======
+>>>>>>> upstream/18.0
         this.data.connectWebSocket("VIVA_WALLET_LATEST_RESPONSE", (payload) => {
             if (payload.config_id === this.config.id) {
                 const paymentLine = this.models["pos.payment"].find(
@@ -26,6 +29,9 @@ patch(PosStore.prototype, {
                         paymentLine
                     );
                 }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             }
         });

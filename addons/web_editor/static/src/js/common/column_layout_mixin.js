@@ -12,7 +12,11 @@ export const ColumnLayoutMixin = {
      */
     _getNbColumns(columnEls, isMobile) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (!columnEls) {
+=======
+        if (!columnEls || !columnEls[0]) {
+>>>>>>> upstream/18.0
 =======
         if (!columnEls || !columnEls[0]) {
 >>>>>>> upstream/18.0
@@ -75,6 +79,12 @@ export const ColumnLayoutMixin = {
      */
     _areColsCustomized(columnEls, isMobile) {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if (!columnEls || !columnEls[0]) {
+            return false;
+        }
+>>>>>>> upstream/18.0
 =======
         if (!columnEls || !columnEls[0]) {
             return false;

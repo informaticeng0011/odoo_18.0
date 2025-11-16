@@ -333,7 +333,13 @@ class Location(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         locations = self.child_internal_location_ids
+=======
+        locations = self.env.context.get("locations")
+        if not locations:
+            locations = self.child_internal_location_ids
+>>>>>>> upstream/18.0
 =======
         locations = self.env.context.get("locations")
         if not locations:

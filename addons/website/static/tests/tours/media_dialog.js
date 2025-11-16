@@ -5,6 +5,10 @@ import {
     clickOnSave,
     insertSnippet,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    clickOnEditAndWaitEditMode,
+>>>>>>> upstream/18.0
 =======
     clickOnEditAndWaitEditMode,
 >>>>>>> upstream/18.0
@@ -212,7 +216,10 @@ registerWebsitePreviewTour("website_media_dialog_insert_media", {
     },
 ]);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 registerWebsitePreviewTour("website_replace_remove_image", {
     url: "/",
@@ -291,4 +298,7 @@ registerWebsitePreviewTour("website_replace_remove_image", {
         run: "click",
     },
 ]);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

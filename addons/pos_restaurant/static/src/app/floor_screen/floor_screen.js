@@ -131,7 +131,11 @@ export class FloorScreen extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.ui = useService("ui");
+=======
+        this.ui = useState(useService("ui"));
+>>>>>>> upstream/18.0
 =======
         this.ui = useState(useService("ui"));
 >>>>>>> upstream/18.0

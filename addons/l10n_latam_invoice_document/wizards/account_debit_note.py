@@ -16,7 +16,10 @@ class AccountDebitNote(models.TransientModel):
         return res
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -26,6 +29,9 @@ class AccountDebitNote(models.TransientModel):
         vals['l10n_latam_document_type_id'] = False
         return vals
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

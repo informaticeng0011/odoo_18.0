@@ -93,6 +93,10 @@ registry.category("web_tour.tours").add("course_reviews_reaction_public", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -433,10 +437,13 @@ registry.category("web_tour.tours").add("course_reviews_reaction_public", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 const addReactionButton = document.querySelector('#chatterRoot').shadowRoot.querySelector("[title='Add a Reaction']")
                 if (addReactionButton) {
                     throw new Error("Non-authenticated user should not be able to add a reaction to a message");
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -687,6 +694,9 @@ registry.category("web_tour.tours").add("course_reviews_reaction_public", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -938,7 +948,13 @@ registry.category("web_tour.tours").add("course_reviews_reaction_public", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 const reactionButton = document.querySelector("#chatterRoot").shadowRoot.querySelector(".o-mail-MessageReaction")
+=======
+                const reactionButton = document
+                    .querySelector("#chatterRoot")
+                    .shadowRoot.querySelector(".o-mail-MessageReaction");
+>>>>>>> upstream/18.0
 =======
                 const reactionButton = document
                     .querySelector("#chatterRoot")
@@ -1444,10 +1460,13 @@ registry.category("web_tour.tours").add("course_reviews_reaction_public", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 const addReaction = document.querySelector("#chatterRoot").shadowRoot.querySelector(".o-mail-MessageReactions-add")
                 if (addReaction) {
                     throw new Error("Non-authenticated user should not be able to add a reaction to a message");
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1698,6 +1717,9 @@ registry.category("web_tour.tours").add("course_reviews_reaction_public", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
