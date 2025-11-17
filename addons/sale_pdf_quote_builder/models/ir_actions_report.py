@@ -82,6 +82,11 @@ class IrActionsReport(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if order.id not in result or 'stream' not in result[order.id]:
+                continue
+>>>>>>> upstream/18.0
 =======
             if order.id not in result or 'stream' not in result[order.id]:
                 continue
@@ -513,7 +518,11 @@ class IrActionsReport(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 elif not value_:
+=======
+                elif not value_ and field_type_ not in {'integer', 'float'}:
+>>>>>>> upstream/18.0
 =======
                 elif not value_ and field_type_ not in {'integer', 'float'}:
 >>>>>>> upstream/18.0

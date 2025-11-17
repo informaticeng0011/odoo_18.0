@@ -515,7 +515,10 @@ class TestSaleOrder(SaleManagementCommon):
         self.assertEqual(len(log_catcher.output), 0, "Form creation shouldn't trigger a warning")
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -568,6 +571,9 @@ class TestSaleOrder(SaleManagementCommon):
 
         self.assertEqual(sale_order.order_line[1].price_unit, pricelist_2.item_ids.fixed_price)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

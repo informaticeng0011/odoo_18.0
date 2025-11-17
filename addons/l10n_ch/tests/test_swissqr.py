@@ -122,12 +122,15 @@ class TestSwissQR(AccountTestInvoicingCommon):
             "{iban}\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "K\n"
             "company_1_data\n"
             "Route de Berne 88\n"
             "2000 Neuchâtel\n"
             "\n\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             "S\n"
@@ -137,6 +140,9 @@ class TestSwissQR(AccountTestInvoicingCommon):
             "2000\n"
             "Neuchâtel\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -144,6 +150,7 @@ class TestSwissQR(AccountTestInvoicingCommon):
             "\n\n\n\n\n\n\n"
             "42.00\n"
             "CHF\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             "K\n"
@@ -154,6 +161,8 @@ class TestSwissQR(AccountTestInvoicingCommon):
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             "S\n"
             "Partner\n"
             "Route de Berne\n"
@@ -161,6 +170,9 @@ class TestSwissQR(AccountTestInvoicingCommon):
             "1000\n"
             "Lausanne\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

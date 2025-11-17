@@ -99,7 +99,10 @@ class PurchaseOrderLine(models.Model):
         return super()._get_move_dests_initial_demand(move_dests)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -122,6 +125,9 @@ class PurchaseOrderLine(models.Model):
                         vals['bom_line_id'] = bom_kit_component[vals['product_id']]
         return res
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

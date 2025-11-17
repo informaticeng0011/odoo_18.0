@@ -52,6 +52,10 @@ from odoo.exceptions import ValidationError
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+MAX_INT32 = 2147483647
+>>>>>>> upstream/18.0
 =======
 MAX_INT32 = 2147483647
 >>>>>>> upstream/18.0
@@ -295,10 +299,13 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if journal.check_next_number and not re.match(r'^[0-9]+$', journal.check_next_number):
                 raise ValidationError(_('Next Check Number should only contains numbers.'))
             if int(journal.check_next_number) < journal.check_sequence_id.number_next_actual:
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -444,6 +451,9 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -593,8 +603,11 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 journal.check_sequence_id.sudo().number_next_actual = int(journal.check_next_number)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -744,6 +757,9 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -1,6 +1,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from datetime import date
+=======
+from datetime import date, timedelta
+>>>>>>> upstream/18.0
 =======
 from datetime import date, timedelta
 >>>>>>> upstream/18.0
@@ -486,7 +490,10 @@ class TestAllocations(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -752,6 +759,7 @@ class TestAllocations(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -780,6 +788,8 @@ class TestAllocations(TestHrHolidaysCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1019,6 +1029,7 @@ class TestAllocations(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1147,6 +1158,8 @@ class TestAllocations(TestHrHolidaysCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -1222,6 +1235,9 @@ class TestAllocations(TestHrHolidaysCommon):
         allocation_3_days.action_refuse()
         self.assertEqual(allocation_3_days.state, 'refuse')
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -137,7 +137,12 @@ class PosPaymentMethod(models.Model):
             pos_session_sudo.config_id._notify('VIVA_WALLET_LATEST_RESPONSE', {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'config_id': pos_session_sudo.config_id.id
+=======
+                'config_id': pos_session_sudo.config_id.id,
+                'session_id': data.get('sessionId'),
+>>>>>>> upstream/18.0
 =======
                 'config_id': pos_session_sudo.config_id.id,
                 'session_id': data.get('sessionId'),

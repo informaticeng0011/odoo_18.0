@@ -68,8 +68,11 @@ options.registry.Pricelist = options.Class.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     descriptionEl.classList.add(params.descriptionClass, "d-block", "pe-5", "text-muted", "o_default_snippet_text");
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -216,6 +219,9 @@ options.registry.Pricelist = options.Class.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

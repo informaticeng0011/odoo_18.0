@@ -25,6 +25,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* survey
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -135,6 +136,9 @@
 =======
 # * survey
 >>>>>>> upstream/18.0
+=======
+# * survey
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Marta Wacławek, 2025
@@ -174,6 +178,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -192,6 +197,9 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# "Marta (wacm)" <wacm@odoo.com>, 2025.
 >>>>>>> upstream/18.0
 =======
 # "Marta (wacm)" <wacm@odoo.com>, 2025.
@@ -272,6 +280,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -414,6 +423,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-10-11 02:16+0000\n"
 "PO-Revision-Date: 2025-10-30 10:50+0000\n"
 "Last-Translator: \"Marta (wacm)\" <wacm@odoo.com>\n"
@@ -435,6 +446,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -472,6 +486,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -577,6 +592,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && ("
 "n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && "
 "n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
@@ -605,6 +622,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -735,7 +755,11 @@ msgid "%s (copy)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "%s (kopiuj)"
+=======
+msgstr "%s (kopia)"
+>>>>>>> upstream/18.0
 =======
 msgstr "%s (kopia)"
 >>>>>>> upstream/18.0
@@ -968,7 +992,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                    <span class=\"text-muted\">Completed</span>"
+=======
+"                                    <span class=\"text-muted\">Completed</"
+"span>"
+>>>>>>> upstream/18.0
 =======
 "                                    <span class=\"text-muted\">Completed</"
 "span>"
@@ -1152,7 +1181,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                    <span class=\"text-muted\">Registered</span>"
+=======
+"                                    <span class=\"text-muted\">Registered</"
+"span>"
+>>>>>>> upstream/18.0
 =======
 "                                    <span class=\"text-muted\">Registered</"
 "span>"
@@ -1340,6 +1374,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<div style=\"background:#F0F0F0;color:#515166;padding:10px 0px;font-family:Arial,Helvetica,sans-serif;font-size:14px;\">\n"
 "    <table style=\"width:600px;margin:5px auto;\">\n"
 "        <tbody>\n"
@@ -1362,6 +1397,8 @@ msgid ""
 "                </p>\n"
 "                <p>Congratulations for passing the test with a score of <strong t-out=\"object.scoring_percentage\"/>%!</p>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1495,6 +1532,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1605,6 +1645,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<div style=\"background:#F0F0F0;color:#515166;padding:10px 0px;font-family:Arial,Helvetica,sans-serif;font-size:14px;\">\n"
 "    <table style=\"width:600px;margin:5px auto;\">\n"
 "        <tbody>\n"
@@ -1627,6 +1668,8 @@ msgstr ""
 "                </p>\n"
 "                <p>Gratulujemy zdania testu z wynikiem <strong t-out=\"object.scoring_percentage\"/>%!</p>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1760,6 +1803,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1875,7 +1921,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Dear <t t-out=\"object.partner_id.name or 'participant'\">participant</t><br/><br/>\n"
+=======
+"        Dear <t t-out=\"object.partner_id.name or "
+"'participant'\">participant</t><br/><br/>\n"
+>>>>>>> upstream/18.0
 =======
 "        Dear <t t-out=\"object.partner_id.name or "
 "'participant'\">participant</t><br/><br/>\n"
@@ -2055,11 +2106,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            We are conducting a survey and your response would be appreciated.\n"
 "        </t>\n"
 "        </p><div style=\"margin: 16px 0px 16px 0px;\">\n"
 "            <a t-att-href=\"(object.get_start_url())\" style=\"background-color: #875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px; font-size:13px;\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2169,6 +2223,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2282,7 +2339,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            Please answer the survey for <t t-out=\"format_date(object.deadline) or ''\">05/05/2021</t>.<br/><br/>\n"
+=======
+"            Please answer the survey for <t t-"
+"out=\"format_date(object.deadline) or ''\">05/05/2021</t>.<br/><br/>\n"
+>>>>>>> upstream/18.0
 =======
 "            Please answer the survey for <t t-"
 "out=\"format_date(object.deadline) or ''\">05/05/2021</t>.<br/><br/>\n"
@@ -2471,10 +2533,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Drogi/-a <t t-out=\"object.partner_id.name or 'uczestniku/-czko'\">uczestniku/-czko</t><br/><br/>\n"
 "        <t t-if=\"object.survey_id.certification\">\n"
 "            Zostałeś/-aś zaproszony/-a do wzięcia udziału w nowej certyfikacji.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2582,6 +2647,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2691,7 +2759,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <a t-att-href=\"(object.get_start_url())\" style=\"background-color: #875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px; font-size:13px;\">\n"
+=======
+"            <a t-att-href=\"(object.get_start_url())\" style=\"background-"
+"color: #875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: "
+"#fff; border-radius: 5px; font-size:13px;\">\n"
+>>>>>>> upstream/18.0
 =======
 "            <a t-att-href=\"(object.get_start_url())\" style=\"background-"
 "color: #875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: "
@@ -2911,7 +2985,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            Prosimy wypełnić kwestionariusz do <t t-out=\"format_date(object.deadline) or ''\">05/05/2021</t>.<br/><br/>\n"
+=======
+"            Prosimy wypełnić kwestionariusz do <t t-"
+"out=\"format_date(object.deadline) or ''\">05/05/2021</t>.<br/><br/>\n"
+>>>>>>> upstream/18.0
 =======
 "            Prosimy wypełnić kwestionariusz do <t t-"
 "out=\"format_date(object.deadline) or ''\">05/05/2021</t>.<br/><br/>\n"
@@ -3138,8 +3217,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<i class=\"fa fa-dot-circle-o fa-lg\" role=\"img\" aria-label=\"Sprawdzone\""
 " title=\"Sprawdzone\"/>"
+=======
+"<i class=\"fa fa-dot-circle-o fa-lg\" role=\"img\" aria-label=\"Sprawdzone\" "
+"title=\"Sprawdzone\"/>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-dot-circle-o fa-lg\" role=\"img\" aria-label=\"Sprawdzone\" "
 "title=\"Sprawdzone\"/>"
@@ -3329,11 +3413,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<i class=\"fa fa-fw fa-trophy\" role=\"img\" aria-label=\"Download certification\" title=\"Download certification\"/>\n"
 "                                        Download certification"
 msgstr ""
 "<i class=\"fa fa-fw fa-trophy\" role=\"img\" aria-label=\"Download certification\" title=\"Download certification\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3442,6 +3529,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3570,12 +3660,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span class=\"badge text-bg-secondary only_left_radius px-2 "
 "pt-1\">Avg</span>"
 msgstr ""
 "<span class=\"badge text-bg-secondary only_left_radius px-2 "
 "pt-1\">Średnia</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3682,6 +3775,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3755,6 +3851,7 @@ msgstr ""
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_page_statistics_question
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3864,6 +3961,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "<span class=\"badge text-bg-secondary only_left_radius px-2 pt-1\">Max</span>"
 msgstr ""
 "<span class=\"badge text-bg-secondary only_left_radius px-2 pt-1\">Maks.</"
@@ -3902,6 +4001,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3975,6 +4077,7 @@ msgstr ""
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_page_statistics_question
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4084,6 +4187,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "<span class=\"badge text-bg-secondary only_left_radius px-2 pt-1\">Min</span>"
 msgstr ""
 "<span class=\"badge text-bg-secondary only_left_radius px-2 pt-1\">Min.</"
@@ -4122,6 +4227,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4240,12 +4348,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            <span id=\"enter-tooltip\">or press Enter</span>\n"
 "                        </span>"
 msgstr ""
 "<span class=\"fw-bold text-muted ms-2 d-none d-md-inline\">\n"
 "                            <span id=\"enter-tooltip\">lub naciśnij Enter</span>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4355,6 +4466,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4469,7 +4583,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <span id=\"enter-tooltip\">lub naciśnij CTRL+Enter</span>\n"
+=======
+"                    <span id=\"enter-tooltip\">lub naciśnij CTRL+Enter</"
+"span>\n"
+>>>>>>> upstream/18.0
 =======
 "                    <span id=\"enter-tooltip\">lub naciśnij CTRL+Enter</"
 "span>\n"
@@ -4655,12 +4774,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span class=\"o_stat_text\" invisible=\"certifications_company_count &lt; 2\">Certifications</span>\n"
 "                        <span class=\"o_stat_text\" invisible=\"certifications_company_count &gt; 1\">Certification</span>"
 msgstr ""
 "<span class=\"o_stat_text\" invisible=\"certifications_company_count &lt; 2\">Certyfikacje</span>\n"
 "                        <span class=\"o_stat_text\" invisible=\"certifications_company_count &gt; 1\">Certyfikacja</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4772,6 +4894,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4880,12 +5005,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span class=\"o_stat_text\" invisible=\"certifications_count &lt; 2\">Certifications</span>\n"
 "                        <span class=\"o_stat_text\" invisible=\"certifications_count &gt; 1\">Certification</span>"
 msgstr ""
 "<span class=\"o_stat_text\" invisible=\"certifications_count &lt; 2\">Certyfikacje</span>\n"
 "                        <span class=\"o_stat_text\" invisible=\"certifications_count &gt; 1\">Certyfikacje</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4997,6 +5125,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5105,8 +5236,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span class=\"o_survey_enter fw-bold text-muted ms-2 d-none d-md-inline\">or"
 " press Enter</span>"
+=======
+"<span class=\"o_survey_enter fw-bold text-muted ms-2 d-none d-md-inline\">or "
+"press Enter</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"o_survey_enter fw-bold text-muted ms-2 d-none d-md-inline\">or "
 "press Enter</span>"
@@ -5301,12 +5437,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                <i class=\"fa fa-trash me-1\"/>Remove all filters\n"
 "                            </span>"
 msgstr ""
 "<span class=\"o_survey_results_topbar_clear_filters text-primary\">\n"
 "                                <i class=\"fa fa-trash me-1\"/>Usuń wszystkie filtry\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5416,6 +5555,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5589,7 +5731,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<span>\"Czerwony\" to nie kategoria, wiem co próbujesz zrobić ;)</span>"
+=======
+msgstr ""
+"<span>\"Czerwony\" to nie kategoria, wiem co próbujesz zrobić ;)</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "<span>\"Czerwony\" to nie kategoria, wiem co próbujesz zrobić ;)</span>"
@@ -5806,12 +5953,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                    <i class=\"fa fa-2x\" role=\"img\" aria-label=\"Numeric\" title=\"Numeric\">123 </i>\n"
 "                                    <i class=\"fa fa-2x fa-sort\" role=\"img\" aria-label=\"Numeric\"/>"
 msgstr ""
 "<span>Ile ...?</span><br/>\n"
 "<i class=\"fa fa-2x\" role=\"img\" aria-label=\"Numeric\" title=\"Numeric\">123 </i>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5922,6 +6072,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6031,12 +6184,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span>If you don't like us, please try to be as objective as "
 "possible.</span>"
 msgstr ""
 "<span>Jeśli nas nie lubisz, postaraj się być jak najbardziej "
 "obiektywny.</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6143,6 +6299,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6252,11 +6411,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                    <i class=\"fa fa-align-justify fa-4x\" role=\"img\" aria-label=\"Multiple lines\" title=\"Multiple Lines\"/>"
 msgstr ""
 "<span>Nazwij wszystkie zwierzęta</span><br/>\n"
 "<i class=\"fa fa-align-justify fa-4x\" role=\"img\" aria-label=\"Multiple lines\" title=\"Multiple Lines\"/>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6365,6 +6527,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6474,11 +6639,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                    <i class=\"fa fa-minus fa-4x\" role=\"img\" aria-label=\"Single Line\" title=\"Single Line\"/>"
 msgstr ""
 "<span>Nazwij jedno zwierzę</span><br/>\n"
 "<i class=\"fa fa-minus fa-4x\" role=\"img\" aria-label=\"Single Line\" title=\"Single Line\"/>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6587,6 +6755,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6829,7 +7000,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Punktowana ankieta wymaga przynajmniej jednego pytania, które przyznaje punkty.\n"
+=======
+"Punktowana ankieta wymaga przynajmniej jednego pytania, które przyznaje "
+"punkty.\n"
+>>>>>>> upstream/18.0
 =======
 "Punktowana ankieta wymaga przynajmniej jednego pytania, które przyznaje "
 "punkty.\n"
@@ -7328,6 +7504,10 @@ msgstr "Uczestnicy odpowiadają na pytanie..."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,help:survey.field_survey_question__survey_session_speed_rating
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,help:survey.field_survey_question__survey_session_speed_rating
 >>>>>>> upstream/18.0
@@ -7783,11 +7963,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Combining roaming and \"Scoring with answers after each page\" is not possible; please update the following surveys:\n"
 "- %(survey_names)s"
 msgstr ""
 "Kombinowanie \"włóczenia się\" i \"oceniania odpowiedzi po każdej stronie\" nie jest możliwe, proszę zaktualizować następujące ankiety:\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7896,6 +8079,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8253,8 +8439,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Tworzenie tokenów dla osób zewnętrznych jest niedozwolone w przypadku ankiet"
 " wymagających uwierzytelnienia."
+=======
+"Tworzenie tokenów dla osób zewnętrznych jest niedozwolone w przypadku ankiet "
+"wymagających uwierzytelnienia."
+>>>>>>> upstream/18.0
 =======
 "Tworzenie tokenów dla osób zewnętrznych jest niedozwolone w przypadku ankiet "
 "wymagających uwierzytelnienia."
@@ -8518,6 +8709,10 @@ msgstr "Termin"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,help:survey.field_survey_question__survey_session_speed_rating_time_limit
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,help:survey.field_survey_question__survey_session_speed_rating_time_limit
 >>>>>>> upstream/18.0
@@ -8923,7 +9118,10 @@ msgstr "Preferencje żywieniowe"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9032,6 +9230,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9181,7 +9382,10 @@ msgstr "Zbieranie informacji zwrotnych od pracowników i klientów"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9289,6 +9493,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9540,8 +9747,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Jak myślisz, ile krzeseł powinniśmy sprzedać w ciągu roku (bez oceny)?"
+=======
+msgstr "Jak myślisz, ile krzeseł powinniśmy sprzedać w ciągu roku (bez oceny)?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Jak myślisz, ile krzeseł powinniśmy sprzedać w ciągu roku (bez oceny)?"
 >>>>>>> upstream/18.0
@@ -9730,8 +9941,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Właściwie to nie lubię myśleć. Myślę, że ludzie myślą, że lubię dużo myśleć."
 " A tak nie jest. W ogóle nie lubię myśleć."
+=======
+"Właściwie to nie lubię myśleć. Myślę, że ludzie myślą, że lubię dużo myśleć. "
+"A tak nie jest. W ogóle nie lubię myśleć."
+>>>>>>> upstream/18.0
 =======
 "Właściwie to nie lubię myśleć. Myślę, że ludzie myślą, że lubię dużo myśleć. "
 "A tak nie jest. W ogóle nie lubię myśleć."
@@ -9984,8 +10200,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Jeśli klient kupi produkt 6 stycznia 2020 r., jaki jest najpóźniejszy dzień,"
 " w którym spodziewamy się go wysłać?"
+=======
+"Jeśli klient kupi produkt 6 stycznia 2020 r., jaki jest najpóźniejszy dzień, "
+"w którym spodziewamy się go wysłać?"
+>>>>>>> upstream/18.0
 =======
 "Jeśli klient kupi produkt 6 stycznia 2020 r., jaki jest najpóźniejszy dzień, "
 "w którym spodziewamy się go wysłać?"
@@ -10182,8 +10403,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Jeśli opcja ta jest zaznaczona, odpowiedź użytkownika zostanie zapisana jako"
 " jego adres e-mail."
+=======
+"Jeśli opcja ta jest zaznaczona, odpowiedź użytkownika zostanie zapisana jako "
+"jego adres e-mail."
+>>>>>>> upstream/18.0
 =======
 "Jeśli opcja ta jest zaznaczona, odpowiedź użytkownika zostanie zapisana jako "
 "jego adres e-mail."
@@ -10364,8 +10590,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Jeśli opcja ta jest zaznaczona, odpowiedź użytkownika zostanie zapisana jako"
 " jego pseudonim."
+=======
+"Jeśli opcja ta jest zaznaczona, odpowiedź użytkownika zostanie zapisana jako "
+"jego pseudonim."
+>>>>>>> upstream/18.0
 =======
 "Jeśli opcja ta jest zaznaczona, odpowiedź użytkownika zostanie zapisana jako "
 "jego pseudonim."
@@ -10630,8 +10861,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Include this question as part of quiz scoring. Requires an answer and answer"
 " score to be taken into account."
+=======
+"Include this question as part of quiz scoring. Requires an answer and answer "
+"score to be taken into account."
+>>>>>>> upstream/18.0
 =======
 "Include this question as part of quiz scoring. Requires an answer and answer "
 "score to be taken into account."
@@ -10969,8 +11205,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Nigdy tak naprawdę nie chciałem jechać do Japonii. Po prostu dlatego, że nie"
 " lubię jeść ryb. A wiem, że w Afryce jest to bardzo popularne."
+=======
+"Nigdy tak naprawdę nie chciałem jechać do Japonii. Po prostu dlatego, że nie "
+"lubię jeść ryb. A wiem, że w Afryce jest to bardzo popularne."
+>>>>>>> upstream/18.0
 =======
 "Nigdy tak naprawdę nie chciałem jechać do Japonii. Po prostu dlatego, że nie "
 "lubię jeść ryb. A wiem, że w Afryce jest to bardzo popularne."
@@ -11190,12 +11431,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Labels used for proposed choices: simple choice, multiple choice and columns"
 " of matrix"
 msgstr ""
 "Etykiety stosowane do proponowanych wyborów: prosty wybór, wielokrotny wybór"
 " i kolumny macierzy"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11303,6 +11547,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12098,11 +12345,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Oopsie! We could not let you open this survey. Make sure you are using the correct link and are allowed to\n"
 "                        participate or get in touch with its organizer."
 msgstr ""
 "Ups! Nie mogliśmy pozwolić Ci otworzyć tej ankiety. Upewnij się, że korzystasz z poprawnego linku i masz pozwolenie na\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12211,6 +12461,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12338,8 +12591,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "a placeholder expression that provides the appropriate language, e.g. {{ "
 "object.partner_id.lang }}."
+=======
+"a placeholder expression that provides the appropriate language, e.g. "
+"{{ object.partner_id.lang }}."
+>>>>>>> upstream/18.0
 =======
 "a placeholder expression that provides the appropriate language, e.g. "
 "{{ object.partner_id.lang }}."
@@ -12717,8 +12975,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Please complete this very short survey to let us know how satisfied your are"
 " with our products."
+=======
+"Please complete this very short survey to let us know how satisfied your are "
+"with our products."
+>>>>>>> upstream/18.0
 =======
 "Please complete this very short survey to let us know how satisfied your are "
 "with our products."
@@ -12918,8 +13181,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "także co najmniej jednej sekcji, jeśli wybierzesz układ \"Strona na "
 "sekcję\".<br/>"
+=======
+"także co najmniej jednej sekcji, jeśli wybierzesz układ \"Strona na sekcję\"."
+"<br/>"
+>>>>>>> upstream/18.0
 =======
 "także co najmniej jednej sekcji, jeśli wybierzesz układ \"Strona na sekcję\"."
 "<br/>"
@@ -13369,6 +13637,10 @@ msgstr "Przejrzyj swoje odpowiedzi"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:survey.field_survey_question__survey_session_speed_rating
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:survey.field_survey_question__survey_session_speed_rating
 >>>>>>> upstream/18.0
@@ -13611,7 +13883,11 @@ msgid "Score (%)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ocena (%)"
+=======
+msgstr "Wynik (%)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Wynik (%)"
 >>>>>>> upstream/18.0
@@ -14337,11 +14613,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The access of the following surveys is restricted. Make sure their responsible still has access to it: \n"
 "%(survey_names)s\n"
 msgstr ""
 "Dostęp do następujących ankiet został ograniczony. Upewnij się, że osoba odpowiedzialna za nie wciąż ma do nich dostęp:\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14450,6 +14729,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14572,8 +14854,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The attempts limit needs to be a positive number if the survey has a limited"
 " number of attempts."
+=======
+"The attempts limit needs to be a positive number if the survey has a limited "
+"number of attempts."
+>>>>>>> upstream/18.0
 =======
 "The attempts limit needs to be a positive number if the survey has a limited "
 "number of attempts."
@@ -14802,8 +15089,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Następujący odbiorcy nie mają konta użytkownika: %s. Powinieneś utworzyć dla"
 " nich konta użytkowników lub zezwolić na zewnętrzną rejestrację w "
+=======
+"Następujący odbiorcy nie mają konta użytkownika: %s. Powinieneś utworzyć dla "
+"nich konta użytkowników lub zezwolić na zewnętrzną rejestrację w "
+>>>>>>> upstream/18.0
 =======
 "Następujący odbiorcy nie mają konta użytkownika: %s. Powinieneś utworzyć dla "
 "nich konta użytkowników lub zezwolić na zewnętrzną rejestrację w "
@@ -15005,8 +15297,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Skala musi być rosnącym nie-pustym zakresem pomiędzy 0 a 10 (włącznie)"
+=======
+msgstr "Skala musi być rosnącym nie-pustym zakresem pomiędzy 0 a 10 (włącznie)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Skala musi być rosnącym nie-pustym zakresem pomiędzy 0 a 10 (włącznie)"
 >>>>>>> upstream/18.0
@@ -15172,8 +15468,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The time at which the current question has started, used to handle the timer"
 " for attendees."
+=======
+"The time at which the current question has started, used to handle the timer "
+"for attendees."
+>>>>>>> upstream/18.0
 =======
 "The time at which the current question has started, used to handle the timer "
 "for attendees."
@@ -15358,8 +15659,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Limit czasu musi być liczbą dodatnią, jeśli badanie jest ograniczone "
 "czasowo."
+=======
+"Limit czasu musi być liczbą dodatnią, jeśli badanie jest ograniczone czasowo."
+>>>>>>> upstream/18.0
 =======
 "Limit czasu musi być liczbą dodatnią, jeśli badanie jest ograniczone czasowo."
 >>>>>>> upstream/18.0
@@ -15504,8 +15809,12 @@ msgid "The tool to compare the products is useful to make a choice"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Narzędzie do porównywania produktów jest przydatne do dokonania wyboru"
+=======
+msgstr "Narzędzie do porównywania produktów jest przydatne do dokonania wyboru"
+>>>>>>> upstream/18.0
 =======
 msgstr "Narzędzie do porównywania produktów jest przydatne do dokonania wyboru"
 >>>>>>> upstream/18.0
@@ -15693,8 +16002,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This code will be used by your attendees to reach your session. Feel free to"
 " customize it however you like!"
+=======
+"This code will be used by your attendees to reach your session. Feel free to "
+"customize it however you like!"
+>>>>>>> upstream/18.0
 =======
 "This code will be used by your attendees to reach your session. Feel free to "
 "customize it however you like!"
@@ -15938,11 +16252,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This survey allows you to give a feedback about your experience with our products.\n"
 "    Filling it helps us improving your experience."
 msgstr ""
 "Ta ankieta umożliwia wyrażenie opinii na temat doświadczeń związanych z naszymi produktami.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -16051,6 +16368,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16161,8 +16481,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This survey does not allow external people to participate. You should create"
 " user accounts or update survey access mode accordingly."
+=======
+"This survey does not allow external people to participate. You should create "
+"user accounts or update survey access mode accordingly."
+>>>>>>> upstream/18.0
 =======
 "This survey does not allow external people to participate. You should create "
 "user accounts or update survey access mode accordingly."
@@ -16462,11 +16787,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Triggers based on the following questions will not work because they are positioned after this question:\n"
 "\"%s\"."
 msgstr ""
 "Wyzwalacze na podstawie następujących pytań nie będą działać, ponieważ są umieszczone po tym pytaniu:\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -16575,6 +16903,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16786,8 +17117,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Używany w losowych sekcjach, aby pobrać X losowych pytań ze wszystkich pytań"
 " z tej sekcji."
+=======
+"Używany w losowych sekcjach, aby pobrać X losowych pytań ze wszystkich pytań "
+"z tej sekcji."
+>>>>>>> upstream/18.0
 =======
 "Używany w losowych sekcjach, aby pobrać X losowych pytań ze wszystkich pytań "
 "z tej sekcji."
@@ -17206,8 +17542,12 @@ msgid "Whenever you pick an answer, Odoo saves it for you."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Za każdym razem, gdy wybierzesz odpowiedź, Odoo zapisze ją dla Ciebie."
+=======
+msgstr "Za każdym razem, gdy wybierzesz odpowiedź, Odoo zapisze ją dla Ciebie."
+>>>>>>> upstream/18.0
 =======
 msgstr "Za każdym razem, gdy wybierzesz odpowiedź, Odoo zapisze ją dla Ciebie."
 >>>>>>> upstream/18.0
@@ -17450,11 +17790,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                        <i class=\"fa fa-calendar\" role=\"img\" aria-label=\"Calendar\" title=\"Calendar\"/>"
 msgstr ""
 "RRRR-MM-DD\n"
 "<i class=\"fa fa-calendar\" role=\"img\" aria-label=\"Calendar\" title=\"Calendar\"/>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -17563,6 +17906,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17672,11 +18018,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                        <i class=\"fa fa-calendar\" role=\"img\" aria-label=\"Calendar\" title=\"Calendar\"/>"
 msgstr ""
 "RRRR-MM-DD hh:mm:ss\n"
 "<i class=\"fa fa-calendar\" role=\"img\" aria-label=\"Calendar\" title=\"Calendar\"/>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -17785,6 +18134,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17912,8 +18264,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You can only create certifications for surveys that have a scoring "
 "mechanism."
+=======
+"You can only create certifications for surveys that have a scoring mechanism."
+>>>>>>> upstream/18.0
 =======
 "You can only create certifications for surveys that have a scoring mechanism."
 >>>>>>> upstream/18.0
@@ -18182,7 +18538,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "np. \"Rick Sanchez\" <rick_sanchez@example.com>, hictor_vugo@example.com"
+=======
+msgstr ""
+"np. \"Rick Sanchez\" <rick_sanchez@example.com>, hictor_vugo@example.com"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "np. \"Rick Sanchez\" <rick_sanchez@example.com>, hictor_vugo@example.com"

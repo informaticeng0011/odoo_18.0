@@ -118,6 +118,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # -*- coding: utf-8 -*-
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 from collections import defaultdict
@@ -365,6 +366,8 @@ from odoo import fields, models, _
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 import json
 import math
 from collections import defaultdict
@@ -372,6 +375,7 @@ from collections import defaultdict
 import requests
 
 from odoo import _, fields, models
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -790,6 +794,8 @@ from odoo.addons.certificate.tools import CertificateAdapter
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 from odoo.tools import html_escape, zeep
 from odoo.tools.float_utils import float_round
 
@@ -900,6 +906,9 @@ from odoo.addons.certificate.tools import CertificateAdapter
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1239,6 +1248,7 @@ EUSKADI_CIPHERS = "DEFAULT:!DH"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 class PatchedHTTPAdapter(requests.adapters.HTTPAdapter):
     """ An adapter to block DH ciphers which may not work for the tax agencies called"""
 
@@ -1277,6 +1287,8 @@ class PatchedHTTPAdapter(requests.adapters.HTTPAdapter):
         return conn
 
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1695,8 +1707,11 @@ class AccountEdiFormat(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         recargo_tax_details = defaultdict(list)  # Mapping between main tax and recargo tax details
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2104,6 +2119,9 @@ class AccountEdiFormat(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2380,6 +2398,7 @@ class AccountEdiFormat(models.Model):
             if recargo_tax and taxes:
                 recargo_main_tax = taxes.filtered(lambda x: x.l10n_es_type in ('sujeto', 'sujeto_isp'))[:1]
                 aggregated_values = tax_details['tax_details_per_record'][line]
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2794,6 +2813,8 @@ class AccountEdiFormat(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 recargo_values = next(iter(
                     values
                     for values in aggregated_values['tax_details'].values()
@@ -2939,6 +2960,9 @@ class AccountEdiFormat(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3393,6 +3417,7 @@ class AccountEdiFormat(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         eu_country_codes = set(self.env.ref('base.europe').country_ids.mapped('code'))
 
         partner_info = {}
@@ -3416,6 +3441,9 @@ class AccountEdiFormat(models.Model):
             if partner.country_id:
                 partner_info['IDOtro']['CodigoPais'] = partner.country_id.code
         return partner_info
+=======
+        return partner._l10n_es_edi_get_partner_info()
+>>>>>>> upstream/18.0
 =======
         return partner._l10n_es_edi_get_partner_info()
 >>>>>>> upstream/18.0
@@ -3845,11 +3873,14 @@ class AccountEdiFormat(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     if not invoice_node.get('TipoDesglose'):
                         raise UserError(_(
                             "In case of a foreign customer, you need to configure the tax scope on taxes:\n%s",
                             "\n".join(invoice.line_ids.tax_ids.mapped('name'))
                         ))
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4299,7 +4330,11 @@ class AccountEdiFormat(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         session.mount('https://', PatchedHTTPAdapter())
+=======
+        session.mount('https://', CertificateAdapter(ciphers=EUSKADI_CIPHERS))
+>>>>>>> upstream/18.0
 =======
         session.mount('https://', CertificateAdapter(ciphers=EUSKADI_CIPHERS))
 >>>>>>> upstream/18.0
@@ -4924,9 +4959,12 @@ class AccountEdiFormat(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for line in move.invoice_line_ids.filtered(lambda line: line.display_type not in ('line_note', 'line_section')):
             taxes = line.tax_ids.flatten_taxes_hierarchy()
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5249,6 +5287,9 @@ class AccountEdiFormat(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5586,7 +5627,10 @@ class AccountEdiFormat(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5910,6 +5954,9 @@ class AccountEdiFormat(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

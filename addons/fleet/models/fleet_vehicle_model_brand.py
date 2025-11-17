@@ -68,11 +68,14 @@ class FleetVehicleModelBrand(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @api.depends('model_ids')
     def _compute_model_count(self):
         model_data = self.env['fleet.vehicle.model']._read_group([
             ('brand_id', 'in', self.ids),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -233,6 +236,9 @@ class FleetVehicleModelBrand(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

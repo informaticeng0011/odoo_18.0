@@ -10,7 +10,11 @@ from odoo.addons.base_iban.models.res_partner_bank import normalize_iban, pretty
 from odoo.exceptions import ValidationError
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tools import LazyTranslate
+=======
+from odoo.tools import LazyTranslate, street_split
+>>>>>>> upstream/18.0
 =======
 from odoo.tools import LazyTranslate, street_split
 >>>>>>> upstream/18.0
@@ -105,8 +109,13 @@ class ResPartnerBank(models.Model):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         creditor_addr_1, creditor_addr_2 = self._get_partner_address_lines(self.partner_id)
         debtor_addr_1, debtor_addr_2 = self._get_partner_address_lines(debtor_partner)
+=======
+        cred_street, cred_street_number, cred_zip, cred_city = self._get_partner_address_lines(self.partner_id)
+        debt_street, debt_street_number, debt_zip, debt_city = self._get_partner_address_lines(debtor_partner)
+>>>>>>> upstream/18.0
 =======
         cred_street, cred_street_number, cred_zip, cred_city = self._get_partner_address_lines(self.partner_id)
         debt_street, debt_street_number, debt_zip, debt_city = self._get_partner_address_lines(debtor_partner)
@@ -140,6 +149,7 @@ class ResPartnerBank(models.Model):
             acc_number,                                           # IBAN / QR-IBAN
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'K',                                                  # Creditor Address Type
             (self.acc_holder_name or self.partner_id.name)[:70],  # Creditor Name
             creditor_addr_1,                                      # Creditor Address Line 1
@@ -149,6 +159,8 @@ class ResPartnerBank(models.Model):
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             'S',                                                  # Creditor Address Type
             (self.acc_holder_name or self.partner_id.name)[:70],  # Creditor Name
             cred_street,                                          # Creditor Street Name
@@ -156,6 +168,9 @@ class ResPartnerBank(models.Model):
             cred_zip,                                             # Creditor Postal Code
             cred_city,                                            # Creditor Town
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -171,6 +186,7 @@ class ResPartnerBank(models.Model):
             currency.name,                                        # Currency
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'K',                                                  # Ultimate Debtor Address Type
             debtor_partner.commercial_partner_id.name[:70],       # Ultimate Debtor Name
             debtor_addr_1,                                        # Ultimate Debtor Address Line 1
@@ -181,6 +197,8 @@ class ResPartnerBank(models.Model):
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             'S',                                                  # Ultimate Debtor Address Type
             debtor_partner.commercial_partner_id.name[:70],       # Ultimate Debtor Name
             debt_street,                                          # Ultimate Debtor Street Name
@@ -189,6 +207,9 @@ class ResPartnerBank(models.Model):
             debt_city,                                            # Ultimate Debtor Town
             debtor_partner.country_id.code,                       # Ultimate Debtor Country
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -220,6 +241,7 @@ class ResPartnerBank(models.Model):
     def _get_partner_address_lines(self, partner):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         """ Returns a tuple of two elements containing the address lines to use
         for this partner. Line 1 contains the street and number, line 2 contains
         zip and city. Those two lines are limited to 70 characters
@@ -229,6 +251,8 @@ class ResPartnerBank(models.Model):
         line_2 = partner.zip + ' ' + partner.city
         return line_1[:70], line_2[:70]
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         """ Retrieves the partner's address fields, truncated to respect the line specs.
@@ -254,6 +278,9 @@ class ResPartnerBank(models.Model):
 
         return street_name[:70], building_number[:16], partner.zip[:16], partner.city[:35]
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

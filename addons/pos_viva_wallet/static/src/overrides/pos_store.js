@@ -6,12 +6,15 @@ patch(PosStore.prototype, {
         await super.setup(...arguments);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.data.connectWebSocket("VIVA_WALLET_LATEST_RESPONSE", () => {
             const pendingLine = this.getPendingPaymentLine("viva_wallet");
 
             if (pendingLine) {
                 pendingLine.payment_method_id.payment_terminal.handleVivaWalletStatusResponse();
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         this.data.connectWebSocket("VIVA_WALLET_LATEST_RESPONSE", (payload) => {
@@ -30,6 +33,9 @@ patch(PosStore.prototype, {
                     );
                 }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

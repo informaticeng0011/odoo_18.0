@@ -185,7 +185,11 @@ export function urlToState(urlObj) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (prefix === "odoo" || isScopedApp()) {
+=======
+    if (["odoo", "scoped_app"].includes(prefix)) {
+>>>>>>> upstream/18.0
 =======
     if (["odoo", "scoped_app"].includes(prefix)) {
 >>>>>>> upstream/18.0
@@ -246,7 +250,10 @@ export function urlToState(urlObj) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -261,6 +268,9 @@ export function urlToState(urlObj) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -315,7 +325,10 @@ browser.addEventListener("popstate", (ev) => {
     state = ev.state?.nextState || router.urlToState(new URL(browser.location));
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     // The `popstate` event is bound on window from here as well as from
@@ -329,6 +342,9 @@ browser.addEventListener("popstate", (ev) => {
     // code so that the dialog closes properly and prevents the traceback.
     routerBus.trigger("BEFORE_ROUTE_CHANGE");
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
