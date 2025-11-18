@@ -72,6 +72,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-09-05 18:40+0000\n"
 =======
 "POT-Creation-Date: 2025-09-12 01:51+0000\n"
@@ -80,6 +81,10 @@ msgstr ""
 "POT-Creation-Date: 2025-09-12 01:51+0000\n"
 >>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-09-10 13:57+0000\n"
+=======
+"POT-Creation-Date: 2025-09-12 01:51+0000\n"
+"PO-Revision-Date: 2025-09-15 07:44+0000\n"
+>>>>>>> upstream/18.0
 =======
 "POT-Creation-Date: 2025-09-12 01:51+0000\n"
 "PO-Revision-Date: 2025-09-15 07:44+0000\n"
@@ -414,6 +419,7 @@ msgstr "%(failure_type)s: %(failure_reason)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -428,6 +434,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -620,6 +628,9 @@ msgstr "„An“ und „Von“-Nummern dürfen nicht gleich sein"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -817,6 +828,7 @@ msgstr "+1 555-123-4567"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "A 'To' phone number is required."
 msgstr "Eine Empfangsnummer („An“) ist erforderlich."
 =======
@@ -826,6 +838,10 @@ msgstr ""
 =======
 msgid "A 'To' phone number is required"
 msgstr ""
+>>>>>>> upstream/18.0
+=======
+msgid "A 'To' phone number is required"
+msgstr "Eine Empfangsnummer („An“) ist erforderlich."
 >>>>>>> upstream/18.0
 =======
 msgid "A 'To' phone number is required"
@@ -1169,6 +1185,10 @@ msgstr "Authentifizierungstoken"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields.selection,name:sms_twilio.selection__mail_notification__failure_type__twilio_authentication
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields.selection,name:sms_twilio.selection__mail_notification__failure_type__twilio_authentication
 >>>>>>> upstream/18.0
@@ -1510,7 +1530,10 @@ msgstr "Fehlertyp"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1710,12 +1733,18 @@ msgid "From / To identic"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: sms_twilio
 <<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr "Von/An identisch"
+
+#. module: sms_twilio
 >>>>>>> upstream/18.0
 =======
 msgstr "Von/An identisch"
@@ -2103,6 +2132,10 @@ msgstr "ID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields.selection,name:sms_twilio.selection__mail_notification__failure_type__twilio_callback
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields.selection,name:sms_twilio.selection__mail_notification__failure_type__twilio_callback
 >>>>>>> upstream/18.0
@@ -2411,12 +2444,18 @@ msgstr "Twilio-SMS verwalten"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
 #: model:ir.model,name:sms_twilio.model_mail_notification
 msgid "Message Notifications"
 msgstr ""
+=======
+#: model:ir.model,name:sms_twilio.model_mail_notification
+msgid "Message Notifications"
+msgstr "Mitteilungsbenachrichtigungen"
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model,name:sms_twilio.model_mail_notification
 msgid "Message Notifications"
@@ -2800,12 +2839,18 @@ msgid "Missing From Number"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: sms_twilio
 <<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr "„Von“-Nummer fehlt"
+
+#. module: sms_twilio
 >>>>>>> upstream/18.0
 =======
 msgstr "„Von“-Nummer fehlt"
@@ -3194,8 +3239,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            <i class=\"fa fa-external-link\" aria-hidden="
 "\"true\"/>"
+=======
+"                            <i class=\"fa fa-external-link\" aria-"
+"hidden=\"true\"/>"
+>>>>>>> upstream/18.0
 =======
 "                            <i class=\"fa fa-external-link\" aria-"
 "hidden=\"true\"/>"
@@ -3609,6 +3659,7 @@ msgstr "Die SMS wurde von %s gesendet"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "The number you're trying to reach is not correctly formatted."
 msgstr ""
 "Die Nummer, die Sie zu erreichen versuchen, ist nicht korrekt formatiert."
@@ -3619,6 +3670,11 @@ msgstr ""
 =======
 msgid "The number you're trying to reach is not correctly formatted"
 msgstr ""
+>>>>>>> upstream/18.0
+=======
+msgid "The number you're trying to reach is not correctly formatted"
+msgstr ""
+"Die Nummer, die Sie zu erreichen versuchen, ist nicht korrekt formatiert."
 >>>>>>> upstream/18.0
 =======
 msgid "The number you're trying to reach is not correctly formatted"
@@ -4010,11 +4066,16 @@ msgstr "Das ist eine Test-SMS von Odoo"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
 msgid "Trial Account Limitation"
 msgstr ""
+=======
+msgid "Trial Account Limitation"
+msgstr "Limit für Testkonto"
+>>>>>>> upstream/18.0
 =======
 msgid "Trial Account Limitation"
 msgstr "Limit für Testkonto"
@@ -4335,6 +4396,9 @@ msgstr "Limit für Testkonto"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4574,6 +4638,7 @@ msgstr "Unbekannter Fehler beim Senden, wenden Sie sich an den Odoo-Support"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -4588,6 +4653,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4780,6 +4847,9 @@ msgstr "Nicht verifizierter Empfänger in Testkonto"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4979,7 +5049,10 @@ msgstr "abcde12345abcde12345abcde12345ab"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5179,6 +5252,9 @@ msgstr "abcde12345abcde12345abcde12345ab"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5388,9 +5464,12 @@ msgstr "abcde12345abcde12345abcde12345ab"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #~ msgid "Failure type"
 #~ msgstr "Fehlertyp"
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

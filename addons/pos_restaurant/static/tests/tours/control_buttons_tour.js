@@ -93,7 +93,11 @@ registry.category("web_tour.tours").add("ControlButtonsTour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 trigger: ".modal div.numpad button:contains(/^1$/)",
+=======
+                trigger: ".modal div.numpad button:text(1)",
+>>>>>>> upstream/18.0
 =======
                 trigger: ".modal div.numpad button:text(1)",
 >>>>>>> upstream/18.0
@@ -138,7 +142,11 @@ registry.category("web_tour.tours").add("ControlButtonsTour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 trigger: ".modal div.numpad button:contains(/^5$/)",
+=======
+                trigger: ".modal div.numpad button:text(5)",
+>>>>>>> upstream/18.0
 =======
                 trigger: ".modal div.numpad button:text(5)",
 >>>>>>> upstream/18.0
@@ -191,7 +199,11 @@ registry.category("web_tour.tours").add("ControlButtonsTour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 trigger: ".modal div.numpad button:contains(/^5$/)",
+=======
+                trigger: ".modal div.numpad button:text(5)",
+>>>>>>> upstream/18.0
 =======
                 trigger: ".modal div.numpad button:text(5)",
 >>>>>>> upstream/18.0

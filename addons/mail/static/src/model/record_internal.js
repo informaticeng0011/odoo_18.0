@@ -69,7 +69,11 @@ import { onChange } from "@mail/utils/common/misc";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { IS_DELETED_SYM, IS_DELETING_SYM, IS_RECORD_SYM, isRelation } from "./misc";
+=======
+import { IS_DELETED_SYM, IS_RECORD_SYM, isRelation } from "./misc";
+>>>>>>> upstream/18.0
 =======
 import { IS_DELETED_SYM, IS_RECORD_SYM, isRelation } from "./misc";
 >>>>>>> upstream/18.0
@@ -277,7 +281,10 @@ import { RecordUses } from "./record_uses";
 
 export class RecordInternal {
     [IS_RECORD_SYM] = true;
+<<<<<<< HEAD
     [IS_DELETED_SYM] = false;
+=======
+>>>>>>> upstream/18.0
     // Note: state of fields in Maps rather than object is intentional for improved performance.
     /**
      * For computed field, determines whether the field is computing its value.
@@ -485,6 +492,7 @@ export class RecordInternal {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (record._[IS_DELETING_SYM]) {
 =======
         if (record._[IS_DELETED_SYM]) {
@@ -686,6 +694,9 @@ export class RecordInternal {
 >>>>>>> upstream/18.0
 =======
         if (record._[IS_DELETED_SYM]) {
+>>>>>>> upstream/18.0
+=======
+        if (record[IS_DELETED_SYM]) {
 >>>>>>> upstream/18.0
             return;
         }
@@ -772,6 +783,7 @@ export class RecordInternal {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (record._[IS_DELETING_SYM]) {
 =======
         if (record._[IS_DELETED_SYM]) {
@@ -973,6 +985,9 @@ export class RecordInternal {
 >>>>>>> upstream/18.0
 =======
         if (record._[IS_DELETED_SYM]) {
+>>>>>>> upstream/18.0
+=======
+        if (record[IS_DELETED_SYM]) {
 >>>>>>> upstream/18.0
             return;
         }

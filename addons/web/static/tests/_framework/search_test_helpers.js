@@ -36,7 +36,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { queryAll, queryAllTexts, queryOne, queryText } from "@odoo/hoot-dom";
+=======
+import { queryAll, queryAllTexts, queryOne, queryText } from "@odoo/hoot";
+>>>>>>> upstream/18.0
 =======
 import { queryAll, queryAllTexts, queryOne, queryText } from "@odoo/hoot";
 >>>>>>> upstream/18.0
@@ -265,6 +269,7 @@ export async function mountWithSearch(componentConstructor, searchProps = {}, co
  * @param {string} label
  */
 export async function toggleMenu(label) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -778,12 +783,16 @@ export async function toggleMenu(label) {
 =======
     await contains(`button.o-dropdown:text(${label})`).click();
 >>>>>>> upstream/18.0
+=======
+    await contains(`button.o-dropdown:text(${label})`).click();
+>>>>>>> upstream/18.0
 }
 
 /**
  * @param {string} label
  */
 export async function toggleMenuItem(label) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1297,6 +1306,9 @@ export async function toggleMenuItem(label) {
 =======
     const target = queryOne`.o_menu_item:text(${label})`;
 >>>>>>> upstream/18.0
+=======
+    const target = queryOne`.o_menu_item:text(${label})`;
+>>>>>>> upstream/18.0
     if (target.classList.contains("dropdown-toggle")) {
         await contains(target).hover();
     } else {
@@ -1309,6 +1321,7 @@ export async function toggleMenuItem(label) {
  * @param {string} optionLabel
  */
 export async function toggleMenuItemOption(itemLabel, optionLabel) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1951,6 +1964,10 @@ export async function toggleMenuItemOption(itemLabel, optionLabel) {
     const { parentElement: root } = queryOne`.o_menu_item:text(${itemLabel})`;
     const target = queryOne(`.o_item_option:text(${optionLabel})`, { root });
 >>>>>>> upstream/18.0
+=======
+    const { parentElement: root } = queryOne`.o_menu_item:text(${itemLabel})`;
+    const target = queryOne(`.o_item_option:text(${optionLabel})`, { root });
+>>>>>>> upstream/18.0
     if (target.classList.contains("dropdown-toggle")) {
         await contains(target).hover();
     } else {
@@ -1962,6 +1979,7 @@ export async function toggleMenuItemOption(itemLabel, optionLabel) {
  * @param {string} label
  */
 export function isItemSelected(label) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2475,6 +2493,9 @@ export function isItemSelected(label) {
 =======
     return queryOne`.o_menu_item:text(${label})`.classList.contains("selected");
 >>>>>>> upstream/18.0
+=======
+    return queryOne`.o_menu_item:text(${label})`.classList.contains("selected");
+>>>>>>> upstream/18.0
 }
 
 /**
@@ -2482,6 +2503,7 @@ export function isItemSelected(label) {
  * @param {string} optionLabel
  */
 export function isOptionSelected(itemLabel, optionLabel) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3126,6 +3148,10 @@ export function isOptionSelected(itemLabel, optionLabel) {
     const { parentElement: root } = queryOne`.o_menu_item:text(${itemLabel})`;
     return queryOne(`.o_item_option:text(${optionLabel})`, { root }).classList.contains("selected");
 >>>>>>> upstream/18.0
+=======
+    const { parentElement: root } = queryOne`.o_menu_item:text(${itemLabel})`;
+    return queryOne(`.o_item_option:text(${optionLabel})`, { root }).classList.contains("selected");
+>>>>>>> upstream/18.0
 }
 
 export function getMenuItemTexts() {
@@ -3185,6 +3211,7 @@ export async function toggleFavoriteMenu() {
  */
 export async function deleteFavorite(text) {
     await ensureSearchBarMenu();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3698,6 +3725,9 @@ export async function deleteFavorite(text) {
 =======
     await contains(`.o_favorite_menu .o_menu_item:text(${text}) i.fa-trash-o`).click();
 >>>>>>> upstream/18.0
+=======
+    await contains(`.o_favorite_menu .o_menu_item:text(${text}) i.fa-trash-o`).click();
+>>>>>>> upstream/18.0
 }
 
 export async function toggleSaveFavorite() {
@@ -3742,6 +3772,7 @@ export function getFacetTexts() {
  */
 export async function removeFacet(label) {
     await ensureSearchView();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4224,6 +4255,9 @@ export async function removeFacet(label) {
 >>>>>>> upstream/18.0
 =======
     await contains(`.o_searchview_facet:contains(/^${label}$/i) .o_facet_remove`).click();
+>>>>>>> upstream/18.0
+=======
+    await contains(`.o_searchview_facet:text(${label}) .o_facet_remove`).click();
 >>>>>>> upstream/18.0
 =======
     await contains(`.o_searchview_facet:text(${label}) .o_facet_remove`).click();

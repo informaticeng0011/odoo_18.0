@@ -116,7 +116,11 @@ describe("insert separator", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should insert a separator before current element", async () => {
+=======
+    test("should insert a separator before current element if empty", async () => {
+>>>>>>> upstream/18.0
 =======
     test("should insert a separator before current element if empty", async () => {
 >>>>>>> upstream/18.0
@@ -521,8 +525,11 @@ describe("insert separator", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should insert a separator before current paragraph related element but remain inside the div", async () => {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -827,6 +834,9 @@ describe("insert separator", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1130,7 +1140,10 @@ describe("insert separator", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1433,6 +1446,9 @@ describe("insert separator", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1737,7 +1753,11 @@ describe("insert separator", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should insert a separator before a p element inside a table cell", async () => {
+=======
+    test("should insert a separator before a empty p element inside a table cell", async () => {
+>>>>>>> upstream/18.0
 =======
     test("should insert a separator before a empty p element inside a table cell", async () => {
 >>>>>>> upstream/18.0
@@ -2141,8 +2161,11 @@ describe("insert separator", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should insert a seperator within a block node", async () => {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2447,6 +2470,9 @@ describe("insert separator", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2750,7 +2776,10 @@ describe("insert separator", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3053,6 +3082,9 @@ describe("insert separator", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

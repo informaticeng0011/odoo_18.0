@@ -624,7 +624,10 @@ options.registry.GalleryImageList = options.registry.GalleryLayout.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1094,6 +1097,9 @@ options.registry.GalleryImageList = options.registry.GalleryLayout.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1660,7 +1666,11 @@ options.registry.GalleryImageList = options.registry.GalleryLayout.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (name === 'image_removed') {
+=======
+        if (name === 'image_removed' && !this.isBeingRemoved) {
+>>>>>>> upstream/18.0
 =======
         if (name === 'image_removed' && !this.isBeingRemoved) {
 >>>>>>> upstream/18.0

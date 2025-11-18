@@ -301,7 +301,11 @@ class PaymentTransaction(models.Model):
             raise ValidationError("Worldline: " + _("Received data with missing payment state."))
 
         if status in const.PAYMENT_STATUS_MAPPING['pending']:
+<<<<<<< HEAD
             if status == 'AUTHORIZATION_REQUESTED':
+=======
+            if status == 'AUTHORIZATION_REQUESTED' and self.operation in ('online_token', 'offline'):
+>>>>>>> upstream/18.0
                 self._set_error("Worldline: " + status)
             elif self.operation == 'validation' \
                  and status in {'PENDING_CAPTURE', 'CAPTURE_REQUESTED'} \

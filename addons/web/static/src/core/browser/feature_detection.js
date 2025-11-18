@@ -159,7 +159,10 @@ export function isBrowserFirefox() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -593,6 +596,9 @@ export function isBrowserMicrosoftEdge() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -891,9 +897,19 @@ export function isAndroid() {
 }
 
 export function isIOS() {
+<<<<<<< HEAD
     return (
         /(iPad|iPhone|iPod)/i.test(browser.navigator.userAgent) ||
         (browser.navigator.platform === "MacIntel" && maxTouchPoints() > 1)
+=======
+    let isIOSPlatform = false;
+    if ("platform" in browser.navigator) {
+        isIOSPlatform = browser.navigator.platform === "MacIntel";
+    }
+    return (
+        /(iPad|iPhone|iPod)/i.test(browser.navigator.userAgent) ||
+        (isIOSPlatform && maxTouchPoints() > 1)
+>>>>>>> upstream/18.0
     );
 }
 

@@ -12,6 +12,10 @@ import { Record, Store, makeStore } from "@mail/core/common/record";
 import { AND, Markup } from "@mail/model/misc";
 import { registry } from "@web/core/registry";
 import { serializeDateTime } from "@web/core/l10n/dates";
+<<<<<<< HEAD
+=======
+import { effect } from "@web/core/utils/reactive";
+>>>>>>> upstream/18.0
 
 describe.current.tags("desktop");
 defineMailModels();
@@ -1159,7 +1163,10 @@ test("insert with id relation keeps existing field values", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1502,6 +1509,7 @@ test("Can assign new record on Many field with One inverse", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1580,6 +1588,8 @@ test("Can assign new record on Many field with One inverse", async () => {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1886,6 +1896,7 @@ test("Delete record with side-effect compute to insert it should have resulting 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2018,4 +2029,28 @@ test("Delete record with side-effect compute to insert it should have resulting 
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+test("Record exists is reactive", async () => {
+    (class Thread extends Record {
+        static id = "name";
+        name;
+    }).register(localRegistry);
+    const store = await start();
+    const thread = store.Thread.insert("General");
+    effect(
+        (rec) => {
+            if (rec.exists()) {
+                expect.step("thread exists");
+            } else {
+                expect.step("thread does not exist");
+            }
+        },
+        [thread]
+    );
+    await expect.waitForSteps(["thread exists"]);
+    thread.delete();
+    await expect.waitForSteps(["thread does not exist"]);
+});
 >>>>>>> upstream/18.0

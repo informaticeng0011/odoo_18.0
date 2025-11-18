@@ -203,6 +203,7 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # the next dict is a matrix [layer L, invoice I] where each cell gives two info:
         # [initial qty of L invoiced by I, remaining invoiced qty]
         # the second info is usefull in case of a refund
@@ -269,6 +270,11 @@ class AccountMoveLine(models.Model):
                     qty_to_invoice_per_layer[layer][1] -= sign * common_qty
                     layers_and_invoices_qties[(layer, invoice)] = [common_qty, common_qty]
                     layers_and_invoices_qties[(layer, impacted_invoice)][1] -= common_qty
+=======
+        # Replay the whole history: we want to know what are the links between each layer and each invoice,
+        # and then the links between `self` and the layers
+        qty_to_invoice_per_layer, layers_and_invoices_qties = self._replay_history(layers, history)
+>>>>>>> upstream/18.0
 =======
         # Replay the whole history: we want to know what are the links between each layer and each invoice,
         # and then the links between `self` and the layers
@@ -1036,6 +1042,10 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> upstream/18.0
 =======
 
 >>>>>>> upstream/18.0
@@ -1602,6 +1612,7 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
                 aml = self
 
@@ -1631,6 +1642,8 @@ class AccountMoveLine(models.Model):
                 layer.remaining_value += svl_vals['value']
                 svl_vals_list.append(svl_vals)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1989,6 +2002,11 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                # Filter out revaluation layers (Landed Cost)
+                initial_layer = initial_layer.filtered(lambda svl: not svl.stock_valuation_layer_id)
+>>>>>>> upstream/18.0
 =======
                 # Filter out revaluation layers (Landed Cost)
                 initial_layer = initial_layer.filtered(lambda svl: not svl.stock_valuation_layer_id)
@@ -2454,7 +2472,10 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2660,6 +2681,9 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2944,6 +2968,9 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

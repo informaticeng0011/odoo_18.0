@@ -32,6 +32,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import fields, models, _
 =======
 from odoo import api, fields, models, _
@@ -140,6 +141,9 @@ from odoo.tools import SQL
 =======
 from odoo import api, fields, models, _
 from odoo.tools import SQL
+>>>>>>> upstream/18.0
+=======
+from odoo import fields, models, _
 >>>>>>> upstream/18.0
 =======
 from odoo import fields, models, _
@@ -214,6 +218,7 @@ class AccountMoveLine(models.Model):
     def unlink(self):
         self.sudo().vehicle_log_service_ids.with_context(ignore_linked_bill_constraint=True).unlink()
         return super().unlink()
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -334,6 +339,8 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

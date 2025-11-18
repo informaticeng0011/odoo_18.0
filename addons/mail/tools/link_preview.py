@@ -150,7 +150,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+import re
+>>>>>>> upstream/18.0
 =======
 import re
 >>>>>>> upstream/18.0
@@ -823,8 +827,11 @@ def get_link_preview_from_html(url, response):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     tree = html.fromstring(decoded_content)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1280,6 +1287,9 @@ def get_link_preview_from_html(url, response):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

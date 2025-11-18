@@ -70,7 +70,11 @@ from odoo.tools.misc import file_open
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tools.mimetypes import guess_mimetype
+=======
+from odoo.tools.mimetypes import guess_mimetype, magic
+>>>>>>> upstream/18.0
 =======
 from odoo.tools.mimetypes import guess_mimetype, magic
 >>>>>>> upstream/18.0
@@ -370,7 +374,10 @@ class TestMimeGuessing(BaseCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -577,6 +584,9 @@ class TestMimeGuessing(BaseCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -806,10 +816,13 @@ class TestMimeGuessing(BaseCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(
             guess_mimetype(contents('csv')),
             'text/plain'
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1012,6 +1025,9 @@ class TestMimeGuessing(BaseCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

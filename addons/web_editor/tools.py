@@ -54,7 +54,11 @@ from markupsafe import Markup
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from urllib.parse import parse_qs
+=======
+from urllib.parse import parse_qs, urlparse
+>>>>>>> upstream/18.0
 =======
 from urllib.parse import parse_qs, urlparse
 >>>>>>> upstream/18.0
@@ -229,7 +233,10 @@ player_regexes = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     'youku': r'(?:(https?:\/\/)?(v\.youku\.com/v_show/id_|player\.youku\.com/player\.php/sid/|player\.youku\.com/embed/|cloud\.youku\.com/services/sharev\?vid=|video\.tudou\.com/v/)|youku:)(?P<id>[A-Za-z0-9]+)(?:\.html|/v\.swf|)',
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -306,9 +313,12 @@ def get_video_source_data(video_url):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         youku_match = re.search(player_regexes['youku'], video_url)
         if youku_match:
             return ('youku', youku_match.group("id"), youku_match)
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -415,6 +425,7 @@ def get_video_url_data(video_url, autoplay=False, loop=False, hide_controls=Fals
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         params['autoplay'] = autoplay and 1 or 0
         if autoplay:
             params['mute'] = 1
@@ -429,6 +440,11 @@ def get_video_url_data(video_url, autoplay=False, loop=False, hide_controls=Fals
         embed_url = f'//www.instagram.com/p/{video_id}/embed/'
     elif platform == 'youku':
         embed_url = f'//player.youku.com/embed/{video_id}'
+=======
+        embed_url = f'//www.dailymotion.com/embed/video/{video_id}'
+    elif platform == 'instagram':
+        embed_url = f'//www.instagram.com/p/{video_id}/embed/'
+>>>>>>> upstream/18.0
 =======
         embed_url = f'//www.dailymotion.com/embed/video/{video_id}'
     elif platform == 'instagram':
@@ -576,8 +592,11 @@ def get_video_embed_code(video_url):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     data = get_video_url_data(video_url)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -729,6 +748,9 @@ def get_video_embed_code(video_url):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
