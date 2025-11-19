@@ -109,6 +109,10 @@ class L10nPEWebsiteSale(WebsiteSale):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                "identification": partner_sudo.l10n_latam_identification_type_id or request.env.ref('l10n_pe.it_DNI').id,
+>>>>>>> upstream/18.0
 =======
                 "identification": partner_sudo.l10n_latam_identification_type_id or request.env.ref('l10n_pe.it_DNI').id,
 >>>>>>> upstream/18.0

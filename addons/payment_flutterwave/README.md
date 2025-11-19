@@ -2,7 +2,11 @@
 
 ## Technical details
 
+<<<<<<< HEAD
 API: [Flutterwave standard](https://developer.flutterwave.com/docs/collecting-payments/standard/)
+=======
+API: [Flutterwave standard](https://developer.flutterwave.com/v3.0.0/docs/flutterwave-standard-1)
+>>>>>>> upstream/18.0
 version `3`
 
 This module integrates Flutterwave using the generic payment with redirection flow based on form
@@ -26,7 +30,11 @@ submission provided by the `payment` module.
 
 ## Testing instructions
 
+<<<<<<< HEAD
 https://developer.flutterwave.com/docs/integration-guides/testing-helpers
+=======
+https://developer.flutterwave.com/v3.0.0/docs/testing
+>>>>>>> upstream/18.0
 
 ### MasterCard
 

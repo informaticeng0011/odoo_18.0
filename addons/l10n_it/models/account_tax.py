@@ -54,6 +54,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 from odoo import _, api, fields, models
@@ -275,6 +276,8 @@ from odoo.tools import float_compare
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 from odoo import _, api, fields, models
 from odoo.exceptions import UserError, ValidationError
 from odoo.tools import float_compare
@@ -299,6 +302,9 @@ from odoo.tools import float_compare
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -368,10 +374,15 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ("N2", "[N2] Non soggette"),
             ("N2.1", "[N2.1] Non soggette ad IVA ai sensi degli artt. Da 7 a 7-septies del DPR 633/72"),
             ("N2.2", "[N2.2] Non soggette - altri casi"),
             ("N3", "[N3] Non imponibili"),
+=======
+            ("N2.1", "[N2.1] Non soggette ad IVA ai sensi degli artt. Da 7 a 7-septies del DPR 633/72"),
+            ("N2.2", "[N2.2] Non soggette - altri casi"),
+>>>>>>> upstream/18.0
 =======
             ("N2.1", "[N2.1] Non soggette ad IVA ai sensi degli artt. Da 7 a 7-septies del DPR 633/72"),
             ("N2.2", "[N2.2] Non soggette - altri casi"),
@@ -485,7 +496,10 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ("N6", "[N6] Inversione contabile (per le operazioni in reverse charge ovvero nei casi di autofatturazione per acquisti extra UE di servizi ovvero per importazioni di beni nei soli casi previsti)"),
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -537,6 +551,7 @@ class AccountTax(models.Model):
             ("N6.7", "[N6.7] Inversione contabile - prestazioni comparto edile esettori connessi"),
             ("N6.8", "[N6.8] Inversione contabile - operazioni settore energetico"),
             ("N6.9", "[N6.9] Inversione contabile - altri casi"),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -622,6 +637,9 @@ class AccountTax(models.Model):
 =======
             ("N7", "[N7] IVA assolta in altro stato UE (prestazione di servizi di telecomunicazioni, tele-radiodiffusione ed elettronici ex art. 7-octies, comma 1 lett. a, b, art. 74-sexies DPR 633/72)"),
 >>>>>>> upstream/18.0
+=======
+            ("N7", "[N7] IVA assolta in altro stato UE (prestazione di servizi di telecomunicazioni, tele-radiodiffusione ed elettronici ex art. 7-octies, comma 1 lett. a, b, art. 74-sexies DPR 633/72)"),
+>>>>>>> upstream/18.0
         ],
         string="Exoneration",
         help="Exoneration type",
@@ -641,6 +659,7 @@ class AccountTax(models.Model):
                 if tax.l10n_it_exempt_reason == 'N6' and tax._l10n_it_is_split_payment():
                     raise UserError(_("Split Payment is not compatible with exoneration of kind 'N6'"))
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -816,6 +835,8 @@ class AccountTax(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     def _l10n_it_filter_kind(self, kind):
         if kind == 'vat':
             return self.flatten_taxes_hierarchy().filtered(lambda tax:
@@ -877,6 +898,9 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

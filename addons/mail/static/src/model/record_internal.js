@@ -70,7 +70,11 @@ import { onChange } from "@mail/utils/common/misc";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { IS_DELETED_SYM, IS_DELETING_SYM, IS_RECORD_SYM, isRelation } from "./misc";
+=======
+import { IS_DELETED_SYM, IS_RECORD_SYM, isRelation } from "./misc";
+>>>>>>> upstream/18.0
 =======
 import { IS_DELETED_SYM, IS_RECORD_SYM, isRelation } from "./misc";
 >>>>>>> upstream/18.0
@@ -282,7 +286,10 @@ import { RecordUses } from "./record_uses";
 export class RecordInternal {
     [IS_RECORD_SYM] = true;
 <<<<<<< HEAD
+<<<<<<< HEAD
     [IS_DELETED_SYM] = false;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     // Note: state of fields in Maps rather than object is intentional for improved performance.
@@ -425,6 +432,7 @@ export class RecordInternal {
     }
 
     requestCompute(record, fieldName, { force = false } = {}) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -698,6 +706,9 @@ export class RecordInternal {
 =======
         if (record[IS_DELETED_SYM]) {
 >>>>>>> upstream/18.0
+=======
+        if (record[IS_DELETED_SYM]) {
+>>>>>>> upstream/18.0
             return;
         }
         const Model = record.Model;
@@ -716,6 +727,7 @@ export class RecordInternal {
         }
     }
     requestSort(record, fieldName, { force } = {}) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -985,6 +997,9 @@ export class RecordInternal {
 >>>>>>> upstream/18.0
 =======
         if (record._[IS_DELETED_SYM]) {
+>>>>>>> upstream/18.0
+=======
+        if (record[IS_DELETED_SYM]) {
 >>>>>>> upstream/18.0
 =======
         if (record[IS_DELETED_SYM]) {

@@ -1008,7 +1008,10 @@ class TestWarehouse(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1344,6 +1347,7 @@ class TestWarehouse(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1520,6 +1524,8 @@ class TestWarehouse(TestStockCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1606,6 +1612,7 @@ class TestWarehouse(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1648,4 +1655,51 @@ class TestWarehouse(TestStockCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+    def test_search_qty_to_order_of_0(self):
+        """
+        Test that searching for orderpoints on `qty_to_order` with value = 0 for different operators
+        works correctly.
+
+        The test first creates two orderpoints with `qty_to_order_manual = 0`,
+        then updates `qty_to_order` to a non-zero value to ensure the search
+        properly filters records based on the field value.
+        """
+        self.env['stock.warehouse.orderpoint'].search([]).write({'active': False})
+        orderpoints = self.env['stock.warehouse.orderpoint'].create([
+            {
+                'location_id': self.warehouse_1.lot_stock_id.id,
+                'product_id': self.product_1.id,
+                'product_min_qty': 0.0,
+                'product_max_qty': 0.0,
+                'trigger': 'manual',
+            },
+            {
+                'location_id': self.warehouse_1.lot_stock_id.id,
+                'product_id': self.product_2.id,
+                'product_min_qty': 3.0,
+                'product_max_qty': 5.0,
+                'trigger': 'manual',
+            },
+        ])
+
+        for op, expected in [
+            ('=', orderpoints[0]),
+            ('>', orderpoints[1]),
+            ('>=', orderpoints),
+            ('<', self.env['stock.warehouse.orderpoint']),
+        ]:
+            res = self.env['stock.warehouse.orderpoint'].search([('qty_to_order', op, 0)])
+            self.assertEqual(res, expected, "Error with operator %s" % op)
+
+        orderpoints[0].qty_to_order = 3
+
+        for op, expected in [
+            ('!=', orderpoints),
+            ('=', self.env['stock.warehouse.orderpoint']),
+        ]:
+            res = self.env['stock.warehouse.orderpoint'].search([('qty_to_order', op, 0)])
+            self.assertEqual(res, expected, "Error with operator %s" % op)
 >>>>>>> upstream/18.0

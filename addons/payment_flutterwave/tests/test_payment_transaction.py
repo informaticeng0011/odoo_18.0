@@ -2,6 +2,11 @@
 
 from unittest.mock import patch
 
+<<<<<<< HEAD
+=======
+from freezegun import freeze_time
+
+>>>>>>> upstream/18.0
 from odoo.tests import tagged
 from odoo.tools import mute_logger
 
@@ -11,6 +16,15 @@ from odoo.addons.payment_flutterwave.tests.common import FlutterwaveCommon
 @tagged('post_install', '-at_install')
 class TestPaymentTransaction(FlutterwaveCommon):
 
+<<<<<<< HEAD
+=======
+    @freeze_time('2011-11-02 12:00:21')  # Freeze time for consistent singularization behavior.
+    def test_reference_is_singularized(self):
+        """Test that transaction references are unique at the provider level."""
+        reference = self.env['payment.transaction']._compute_reference(self.flutterwave.code)
+        self.assertEqual(reference, 'tx-20111102120021')
+
+>>>>>>> upstream/18.0
     def test_no_item_missing_from_rendering_values(self):
         """ Test that the rendered values are conform to the transaction fields. """
         tx = self._create_transaction(flow='redirect')

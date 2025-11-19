@@ -350,6 +350,10 @@ QUnit.module("Base Import Tests", (hooks) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        const secondTemplateURL = "/mySecondTemplateURL.xlsx";
+>>>>>>> upstream/18.0
 =======
         const secondTemplateURL = "/mySecondTemplateURL.xlsx";
 >>>>>>> upstream/18.0
@@ -500,7 +504,10 @@ QUnit.module("Base Import Tests", (hooks) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -604,6 +611,9 @@ QUnit.module("Base Import Tests", (hooks) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -722,6 +732,7 @@ QUnit.module("Base Import Tests", (hooks) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             target.querySelector(".o_nocontent_help .btn-outline-primary").textContent,
             " Some Import Template"
         );
@@ -730,6 +741,8 @@ QUnit.module("Base Import Tests", (hooks) => {
             window.location.origin + templateURL,
             "button has the right download url"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -850,6 +863,9 @@ QUnit.module("Base Import Tests", (hooks) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1147,6 +1163,31 @@ QUnit.module("Base Import Tests", (hooks) => {
         );
     });
 
+<<<<<<< HEAD
+=======
+    QUnit.test("Import view: import a CSV file with uppercase extension", async function (assert) {
+        registerFakeHTTPService((route, params) => {
+            assert.strictEqual(route, "/base_import/set_file");
+            assert.strictEqual(
+                params.ufile[0].name,
+                "fake_file.CSV",
+                "file with uppercase .CSV extension is correctly uploaded to the server"
+            );
+        });
+        await createImportAction();
+
+        // Simulate uploading a .CSV file (uppercase extension)
+        const file = new File(["fake_file"], "fake_file.CSV", { type: "text/plain" });
+        await editInput(target, ".o_control_panel_main_buttons input[type='file'].d-none", file);
+
+        assert.containsOnce(
+            target,
+            ".o_import_data_sidepanel .o_import_formatting",
+            "formatting options are shown for uppercase extention .CSV file"
+        );
+    });
+
+>>>>>>> upstream/18.0
     QUnit.test("Import view: additional options in debug", async function (assert) {
         patchWithCleanup(odoo, { debug: true });
         registerFakeHTTPService();
@@ -1807,7 +1848,10 @@ QUnit.module("Base Import Tests", (hooks) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1920,6 +1964,9 @@ QUnit.module("Base Import Tests", (hooks) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

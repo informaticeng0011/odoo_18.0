@@ -28,6 +28,11 @@ Set the payment reference type from the Sales Journal.
     'data': [
         'data/account_account_tag_data.xml',
         'data/account_tax_report_line.xml',
+<<<<<<< HEAD
+=======
+        'views/res_company_views.xml',
+        'views/res_partner_views.xml',
+>>>>>>> upstream/18.0
     ],
     'demo': [
         'demo/demo_company.xml',

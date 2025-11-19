@@ -62,6 +62,10 @@ class PosController(PortalAccount):
 
         # The POS only works in one company, so we enforce the one of the session in the context
         session_info = pos_session._update_session_info(request.env['ir.http'].session_info())
+<<<<<<< HEAD
+=======
+        use_lna = bool(pos_session.env["ir.config_parameter"].get_param("point_of_sale.use_lna"))
+>>>>>>> upstream/18.0
         context = {
             'from_backend': 1 if from_backend else 0,
             'use_pos_fake_tours': True if k.get('tours', False) else False,
@@ -70,6 +74,10 @@ class PosController(PortalAccount):
             'pos_session_id': pos_session.id,
             'pos_config_id': pos_session.config_id.id,
             'access_token': pos_session.config_id.access_token,
+<<<<<<< HEAD
+=======
+            'use_lna': use_lna,
+>>>>>>> upstream/18.0
         }
         response = request.render('point_of_sale.index', context)
         response.headers['Cache-Control'] = 'no-store'
@@ -306,7 +314,11 @@ class PosController(PortalAccount):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if request.env.user._is_public() and not pos_order.partner_id.id:
+=======
+        if kwargs:
+>>>>>>> upstream/18.0
 =======
         if kwargs:
 >>>>>>> upstream/18.0
@@ -639,6 +651,10 @@ class PosController(PortalAccount):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if request.env.user._is_public() and not pos_order.partner_id.id:
+>>>>>>> upstream/18.0
 =======
         if request.env.user._is_public() and not pos_order.partner_id.id:
 >>>>>>> upstream/18.0

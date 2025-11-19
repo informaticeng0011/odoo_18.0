@@ -45,6 +45,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                <field name="code">domestic_sales</field>
+>>>>>>> upstream/18.0
 =======
                 <field name="code">domestic_sales</field>
 >>>>>>> upstream/18.0
@@ -269,6 +273,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                <field name="code">vat_relief</field>
+>>>>>>> upstream/18.0
 =======
                 <field name="code">vat_relief</field>
 >>>>>>> upstream/18.0
@@ -391,6 +399,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                <field name="code">payable_refundable_tax</field>
+>>>>>>> upstream/18.0
 =======
                 <field name="code">payable_refundable_tax</field>
 >>>>>>> upstream/18.0
@@ -508,6 +520,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                <field name="code">sales_O_vat_rate</field>
+>>>>>>> upstream/18.0
 =======
                 <field name="code">sales_O_vat_rate</field>
 >>>>>>> upstream/18.0
@@ -630,6 +646,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                 <field name="code">base_goods_eu</field>
 >>>>>>> upstream/18.0
@@ -720,6 +737,25 @@
                         <field name="engine">tax_tags</field>
                         <field name="formula">fi_311</field>
                     </record>
+=======
+                <field name="code">base_goods_eu</field>
+                <field name="expression_ids">
+                    <record id="tax_report_base_triangular_eu_tax_tag" model="account.report.expression">
+                        <field name="label">triangular_tax</field>
+                        <field name="engine">tax_tags</field>
+                        <field name="formula">fi_triangular</field>
+                    </record>
+                    <record id="tax_report_base_sales_goods_eu_tax_tag" model="account.report.expression">
+                        <field name="label">goods_tax</field>
+                        <field name="engine">tax_tags</field>
+                        <field name="formula">fi_311</field>
+                    </record>
+                    <record id="tax_report_base_sales_goods_eu_tag" model="account.report.expression">
+                        <field name="label">balance</field>
+                        <field name="engine">aggregation</field>
+                        <field name="formula">base_goods_eu.goods_tax + base_goods_eu.triangular_tax</field>
+                    </record>
+>>>>>>> upstream/18.0
                 </field>
             </record>
             <record id="tax_report_base_sales_service_eu" model="account.report.line">
@@ -752,6 +788,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                <field name="code">base_services_eu</field>
+>>>>>>> upstream/18.0
 =======
                 <field name="code">base_services_eu</field>
 >>>>>>> upstream/18.0
@@ -874,6 +914,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                <field name="code">purchases_base_goods_eu</field>
+>>>>>>> upstream/18.0
 =======
                 <field name="code">purchases_base_goods_eu</field>
 >>>>>>> upstream/18.0
@@ -996,6 +1040,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                <field name="code">purchases_base_services_eu</field>
+>>>>>>> upstream/18.0
 =======
                 <field name="code">purchases_base_services_eu</field>
 >>>>>>> upstream/18.0
@@ -1118,6 +1166,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                <field name="code">base_goods_no_eu</field>
+>>>>>>> upstream/18.0
 =======
                 <field name="code">base_goods_no_eu</field>
 >>>>>>> upstream/18.0
@@ -1240,6 +1292,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                <field name="code">base_construct</field>
+>>>>>>> upstream/18.0
 =======
                 <field name="code">base_construct</field>
 >>>>>>> upstream/18.0
@@ -1362,6 +1418,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                <field name="code">base_purchase_construct</field>
+>>>>>>> upstream/18.0
 =======
                 <field name="code">base_purchase_construct</field>
 >>>>>>> upstream/18.0

@@ -87,7 +87,10 @@ class TestSwissQRCode(AccountTestInvoicingCommon):
         self.ch_qr_invoice._generate_qr_code()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_qr_code_generation_with_newlines(self):
         """ Check that the generated QR removes newlines from field content, as newlines
         shift the field content causing the submitted QR code to be rejected.
@@ -106,6 +109,9 @@ class TestSwissQRCode(AccountTestInvoicingCommon):
 
         self.assertEqual(''.join(value_list).count('\n'), 0, "Each element of the Swiss QR-code must be contained on one line.")
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_ch_qr_code_detection(self):
         """ Checks Swiss QR-code auto-detection when no specific QR-method

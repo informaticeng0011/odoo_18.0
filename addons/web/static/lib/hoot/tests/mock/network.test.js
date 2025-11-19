@@ -39,8 +39,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { describe, expect, test } from "@odoo/hoot";
 import { mockFetch } from "@odoo/hoot-mock";
+=======
+import { describe, expect, mockFetch, test } from "@odoo/hoot";
+>>>>>>> upstream/18.0
 =======
 import { describe, expect, mockFetch, test } from "@odoo/hoot";
 >>>>>>> upstream/18.0
@@ -182,11 +186,14 @@ describe(parseUrl(import.meta.url), () => {
         await fetch("http://some.url");
         await fetch("/odoo");
 <<<<<<< HEAD
+<<<<<<< HEAD
         await fetch(URL.createObjectURL(new Blob([""])));
 
         expect.verifySteps(["http://some.url", "/odoo"]);
     });
 =======
+=======
+>>>>>>> upstream/18.0
         await fetch("data:text/html,<body></body>");
 
         expect.verifySteps(["http://some.url", "/odoo"]);
@@ -331,5 +338,8 @@ describe(parseUrl(import.meta.url), () => {
         // Clone rejects reader as well
         await expect(responseClone.text()).rejects.toThrow(TypeError);
     });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 });

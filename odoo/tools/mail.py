@@ -67,6 +67,10 @@ safe_attrs = defs.safe_attrs | frozenset(
      'data-class', 'data-mimetype', 'data-original-src', 'data-original-id', 'data-gl-filter', 'data-quality', 'data-resize-width',
      'data-shape', 'data-shape-colors', 'data-file-name', 'data-original-mimetype',
      'data-mimetype-before-conversion',
+<<<<<<< HEAD
+=======
+     'data-bs-toggle',  # support nav-tabs
+>>>>>>> upstream/18.0
      ])
 SANITIZE_TAGS = {
     # allow new semantic HTML5 tags

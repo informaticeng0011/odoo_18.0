@@ -79,6 +79,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'pos_self_order/static/src/backend/qr_order_button/*',
+>>>>>>> upstream/18.0
 =======
             'pos_self_order/static/src/backend/qr_order_button/*',
 >>>>>>> upstream/18.0
@@ -295,6 +299,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'pos_self_order/static/src/backend/qr_order_button/*',
+>>>>>>> upstream/18.0
 =======
             'pos_self_order/static/src/backend/qr_order_button/*',
 >>>>>>> upstream/18.0
@@ -462,6 +470,10 @@
             'web/static/src/core/currency.js',
             'barcodes/static/src/barcode_service.js',
             'point_of_sale/static/src/utils.js',
+<<<<<<< HEAD
+=======
+            'point_of_sale/static/src/app/utils/init_lna.js',
+>>>>>>> upstream/18.0
             'web/static/lib/bootstrap/js/dist/util/index.js',
             'web/static/lib/bootstrap/js/dist/dom/data.js',
             'web/static/lib/bootstrap/js/dist/dom/event-handler.js',

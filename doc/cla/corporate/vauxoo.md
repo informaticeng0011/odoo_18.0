@@ -76,6 +76,10 @@ Christihan Laurel laurel@vauxoo.com https://github.com/CLaurelB
 Andrea Manenti manenti@vauxoo.com https://github.com/maneandrea
 Eduardo Martinez eduardoms@vauxoo.com https://github.com/emtz10
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+Jonathan Osorio Alcalá jonathan@vauxoo.com https://github.com/jonathanosalc
+>>>>>>> upstream/18.0
 =======
 Jonathan Osorio Alcalá jonathan@vauxoo.com https://github.com/jonathanosalc
 >>>>>>> upstream/18.0

@@ -86,6 +86,10 @@ On a simple click, your visitors can subscribe to mailing lists managed in the E
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'website_mass_mailing/static/src/snippets/s_website_form/options.js',
+>>>>>>> upstream/18.0
 =======
             'website_mass_mailing/static/src/snippets/s_website_form/options.js',
 >>>>>>> upstream/18.0

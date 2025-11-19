@@ -149,7 +149,11 @@ const { floor: $floor, random: $random } = Math;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const toValidSeed = (seed) => {
+=======
+function toValidSeed(seed) {
+>>>>>>> upstream/18.0
 =======
 function toValidSeed(seed) {
 >>>>>>> upstream/18.0
@@ -671,7 +675,11 @@ function toValidSeed(seed) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0

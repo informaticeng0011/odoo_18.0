@@ -151,11 +151,14 @@ const { animate, scroll, scrollBy, scrollIntoView, scrollTo } = Element.prototyp
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const forceInstantScroll = (args) =>
     !allowAnimations && args[0] && typeof args[0] === "object"
         ? [{ ...args[0], behavior: "instant" }, ...args.slice(1)]
         : args;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -545,6 +548,9 @@ function forceInstantScroll(args) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

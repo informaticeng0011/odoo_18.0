@@ -51,7 +51,10 @@ SUPPORTED_CURRENCIES = [
 DEFAULT_PAYMENT_METHOD_CODES = {
     # Primary payment methods.
     'card',
+<<<<<<< HEAD
     'ideal',
+=======
+>>>>>>> upstream/18.0
     # Brand payment methods.
     'visa',
     'mastercard',

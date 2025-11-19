@@ -22,7 +22,13 @@ function ePOSPrint(children) {
 export class EpsonPrinter extends BasePrinter {
     setup({ ip }) {
         super.setup(...arguments);
+<<<<<<< HEAD
         this.url = window.location.protocol + "//" + ip;
+=======
+
+        const protocol = odoo.use_lna ? "http:" : window.location.protocol;
+        this.url = protocol + "//" + ip;
+>>>>>>> upstream/18.0
         this.address = this.url + "/cgi-bin/epos/service.cgi?devid=local_printer";
     }
 
@@ -59,10 +65,23 @@ export class EpsonPrinter extends BasePrinter {
      * @override
      */
     async sendPrintingJob(img) {
+<<<<<<< HEAD
         const res = await fetch(this.address, {
             method: "POST",
             body: img,
         });
+=======
+        const params = {
+            method: "POST",
+            body: img,
+        };
+
+        if (odoo.use_lna) {
+            params.targetAddressSpace = "local";
+        }
+
+        const res = await fetch(this.address, params);
+>>>>>>> upstream/18.0
         const body = await res.text();
         const parser = new DOMParser();
         const parsedBody = parser.parseFromString(body, "application/xml");
