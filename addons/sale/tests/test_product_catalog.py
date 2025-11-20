@@ -235,7 +235,10 @@ class TestProductCatalog(HttpCase, SaleCommon):
         )
         self.assertEqual(update_data, product.lst_price / 2)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_remove_product_from_catalog_without_sol(self):
         """Test that removing a product from the catalog right after clicking Add button"""
@@ -243,4 +246,7 @@ class TestProductCatalog(HttpCase, SaleCommon):
         update_data = self.request_update_order_line_info(product=product, quantity=0.0)
 
         self.assertEqual(update_data, product.lst_price)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

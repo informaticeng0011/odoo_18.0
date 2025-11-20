@@ -1,4 +1,8 @@
 # -*- coding: utf-8 -*-
+<<<<<<< HEAD
+=======
+# pylint: skip-file
+>>>>>>> upstream/18.0
 
 from __future__ import print_function
 import base64

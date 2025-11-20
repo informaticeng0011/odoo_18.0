@@ -72,7 +72,11 @@ import { useDebounced } from "@web/core/utils/timing";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 class UseSuggestion {
+=======
+export class UseSuggestion {
+>>>>>>> upstream/18.0
 =======
 export class UseSuggestion {
 >>>>>>> upstream/18.0
@@ -406,7 +410,11 @@ export class UseSuggestion {
         this.clearSearch();
     }
     get thread() {
+<<<<<<< HEAD
         return this.composer.thread || this.composer.message.thread;
+=======
+        return this.composer.thread || this.composer.message?.thread;
+>>>>>>> upstream/18.0
     }
     insert(option) {
         const position = this.composer.selection.start;
@@ -458,6 +466,12 @@ export class UseSuggestion {
     }
 
     async fetchSuggestions() {
+<<<<<<< HEAD
+=======
+        if (!this.thread || status(this.comp) === "destroyed") {
+            return;
+        }
+>>>>>>> upstream/18.0
         let resetFetchingState = true;
         try {
             this.abortController?.abort();
@@ -479,7 +493,11 @@ export class UseSuggestion {
                 this.state.isFetching = false;
             }
         }
+<<<<<<< HEAD
         if (status(this.comp) === "destroyed") {
+=======
+        if (!this.thread || status(this.comp) === "destroyed") {
+>>>>>>> upstream/18.0
             return;
         }
         this.update();

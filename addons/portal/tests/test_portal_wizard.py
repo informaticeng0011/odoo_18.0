@@ -110,9 +110,14 @@ class TestPortalWizard(MailCommon):
         self.assertEqual(portal_user.user_id, self.public_user, 'Must keep the user even if it is archived')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(group_public, portal_user.user_id.groups_id, 'Must add the group public after removing the portal group')
         self.assertFalse(portal_user.user_id.active, 'Must have archived the user')
         self.assertFalse(portal_user.is_portal)
+=======
+        self.assertFalse(portal_user.user_id.active, 'Must have archived the user')
+        self.assertTrue(portal_user.is_portal)
+>>>>>>> upstream/18.0
 =======
         self.assertFalse(portal_user.user_id.active, 'Must have archived the user')
         self.assertTrue(portal_user.is_portal)

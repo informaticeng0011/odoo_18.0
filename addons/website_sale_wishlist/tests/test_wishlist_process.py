@@ -125,7 +125,11 @@ class TestWishlistProcess(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.start_tour("/", 'shop_wishlist')
+=======
+        self.start_tour("/", 'shop_wishlist', timeout=120)
+>>>>>>> upstream/18.0
 =======
         self.start_tour("/", 'shop_wishlist', timeout=120)
 >>>>>>> upstream/18.0

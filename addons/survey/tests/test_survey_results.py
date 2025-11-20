@@ -71,6 +71,11 @@ import json
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.tests import tagged
+
+>>>>>>> upstream/18.0
 =======
 from odoo.tests import tagged
 
@@ -421,6 +426,10 @@ from odoo.addons.website.tools import MockRequest
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+@tagged("is_query_count")
+>>>>>>> upstream/18.0
 =======
 @tagged("is_query_count")
 >>>>>>> upstream/18.0

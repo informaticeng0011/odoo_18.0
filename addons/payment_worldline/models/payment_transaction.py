@@ -303,7 +303,11 @@ class PaymentTransaction(models.Model):
         if status in const.PAYMENT_STATUS_MAPPING['pending']:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if status == 'AUTHORIZATION_REQUESTED':
+=======
+            if status == 'AUTHORIZATION_REQUESTED' and self.operation in ('online_token', 'offline'):
+>>>>>>> upstream/18.0
 =======
             if status == 'AUTHORIZATION_REQUESTED' and self.operation in ('online_token', 'offline'):
 >>>>>>> upstream/18.0

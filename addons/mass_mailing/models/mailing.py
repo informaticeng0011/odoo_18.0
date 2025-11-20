@@ -119,6 +119,11 @@ class MassMailing(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    _unrestricted_rendering = True
+
+>>>>>>> upstream/18.0
 =======
     _unrestricted_rendering = True
 
@@ -870,7 +875,12 @@ class MassMailing(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for mailing in self:
+=======
+        self.warning_message = False
+        for mailing in self.filtered(lambda mailing: mailing.mailing_type == "mail"):
+>>>>>>> upstream/18.0
 =======
         self.warning_message = False
         for mailing in self.filtered(lambda mailing: mailing.mailing_type == "mail"):
@@ -1770,6 +1780,7 @@ class MassMailing(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         failed_mails = self.env['mail.mail'].sudo().search([
             ('mailing_id', 'in', self.ids),
             ('state', '=', 'exception')
@@ -1777,6 +1788,8 @@ class MassMailing(models.Model):
         failed_mails.mapped('mailing_trace_ids').unlink()
         failed_mails.unlink()
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1866,6 +1879,9 @@ class MassMailing(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2432,9 +2448,15 @@ class MassMailing(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             composer._action_send_mail(
                 auto_commit=not getattr(threading.current_thread(), 'testing', False)
             )
+=======
+            auto_commit = not getattr(threading.current_thread(), 'testing', False)
+            composer._action_send_mail(auto_commit=auto_commit)
+
+>>>>>>> upstream/18.0
 =======
             auto_commit = not getattr(threading.current_thread(), 'testing', False)
             composer._action_send_mail(auto_commit=auto_commit)
@@ -2855,7 +2877,10 @@ class MassMailing(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3065,6 +3090,9 @@ class MassMailing(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

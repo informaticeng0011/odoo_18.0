@@ -13,6 +13,10 @@
                         access_token: '<t t-esc="access_token" />',
                         debug: "<t t-esc="debug"/>",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                        use_lna: <t t-esc="'true' if use_lna else 'false'"/>,
+>>>>>>> upstream/18.0
 =======
                         use_lna: <t t-esc="'true' if use_lna else 'false'"/>,
 >>>>>>> upstream/18.0

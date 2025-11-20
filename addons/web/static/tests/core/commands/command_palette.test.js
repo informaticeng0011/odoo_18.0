@@ -100,9 +100,12 @@ import { expect, getFixture, test } from "@odoo/hoot";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { press, queryAll, queryAllTexts, queryOne } from "@odoo/hoot-dom";
 import { Deferred, advanceTime, animationFrame, runAllTimers } from "@odoo/hoot-mock";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -416,6 +419,9 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -785,7 +791,12 @@ test("custom empty message", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains(".o_command_palette_search input").edit("@", { confirm: false });
+=======
+    await click(".o_command_palette_search input");
+    await edit("@");
+>>>>>>> upstream/18.0
 =======
     await click(".o_command_palette_search input");
     await edit("@");
@@ -1295,7 +1306,11 @@ test("custom empty message", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains(".o_command_palette_search input").edit("#", { confirm: false });
+=======
+    await edit("#");
+>>>>>>> upstream/18.0
 =======
     await edit("#");
 >>>>>>> upstream/18.0
@@ -1709,11 +1724,14 @@ test("custom debounce delay", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             debounceDelay: 200,
         },
         "#": {
             debounceDelay: 100,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2018,6 +2036,9 @@ test("custom debounce delay", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2347,6 +2368,7 @@ test("custom debounce delay", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains(".o_command_palette_search input").edit("com", { confirm: false });
     await runAllTimers();
     expect(".o_command_palette_listbox_empty").toHaveText("No result found");
@@ -2362,6 +2384,8 @@ test("custom debounce delay", async () => {
     expect(".o_command").toHaveCount(0);
     await advanceTime(100);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2677,6 +2701,9 @@ test("custom debounce delay", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2986,11 +3013,14 @@ test("concurrency with custom debounce delay", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             debounceDelay: 200,
         },
         "#": {
             debounceDelay: 100,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3295,6 +3325,9 @@ test("concurrency with custom debounce delay", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3632,7 +3665,11 @@ test("concurrency with custom debounce delay", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains(".o_command_palette_search input").edit("@", { confirm: false });
+=======
+    await fill("@");
+>>>>>>> upstream/18.0
 =======
     await fill("@");
 >>>>>>> upstream/18.0
@@ -4041,6 +4078,7 @@ test("concurrency with custom debounce delay", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains(".o_command_palette_search input").edit("#", { confirm: false });
     expect(".o_command_palette .o_namespace").toHaveText("#");
     await advanceTime(100);
@@ -4048,6 +4086,8 @@ test("concurrency with custom debounce delay", async () => {
 
     await advanceTime(100);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4355,6 +4395,9 @@ test("concurrency with custom debounce delay", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4689,7 +4732,12 @@ test("custom placeholder", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains(".o_command_palette_search input").edit("@", { confirm: false });
+=======
+    await click(".o_command_palette_search input");
+    await edit("@");
+>>>>>>> upstream/18.0
 =======
     await click(".o_command_palette_search input");
     await edit("@");
@@ -5298,7 +5346,12 @@ test("multi namespace with provider", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains(".o_command_palette_search input").edit("@", { confirm: false });
+=======
+    await click(".o_command_palette_search input");
+    await edit("@");
+>>>>>>> upstream/18.0
 =======
     await click(".o_command_palette_search input");
     await edit("@");
@@ -5850,7 +5903,12 @@ test("apply a fuzzysearch on the namespace default not on the others", async () 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains(".o_command_palette_search input").edit("c1", { confirm: false });
+=======
+    await click(".o_command_palette_search input");
+    await edit("c1");
+>>>>>>> upstream/18.0
 =======
     await click(".o_command_palette_search input");
     await edit("c1");
@@ -6360,12 +6418,15 @@ test("apply a fuzzysearch on the namespace default not on the others", async () 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains(".o_command_palette_search input").edit("@", { confirm: false });
     await runAllTimers();
     expect(".o_command").toHaveCount(2);
     expect(queryAllTexts(".o_command")).toEqual(["Command3", "Command4"]);
     await contains(".o_command_palette_search input").edit("@c3", { confirm: false });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6671,6 +6732,9 @@ test("apply a fuzzysearch on the namespace default not on the others", async () 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7052,7 +7116,12 @@ test("check the concurrency during a research", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains(".o_command_palette_search input").edit("b", { confirm: false });
+=======
+    await click(".o_command_palette_search input");
+    await edit("b");
+>>>>>>> upstream/18.0
 =======
     await click(".o_command_palette_search input");
     await edit("b");
@@ -7647,7 +7716,12 @@ test("command palette keeps the same top position when its content changes", asy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains(".o_command_palette_search input").edit("z", { confirm: false });
+=======
+    await click(".o_command_palette_search input");
+    await edit("z");
+>>>>>>> upstream/18.0
 =======
     await click(".o_command_palette_search input");
     await edit("z");
@@ -8368,7 +8442,12 @@ test("multi provider with categories", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains(".o_command_palette_search input").edit("@", { confirm: false });
+=======
+    await click(".o_command_palette_search input");
+    await edit("@");
+>>>>>>> upstream/18.0
 =======
     await click(".o_command_palette_search input");
     await edit("@");
@@ -8930,7 +9009,12 @@ test("don't display by categories if there is a search value", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains(".o_command_palette_search input").edit("c", { confirm: false });
+=======
+    await click(".o_command_palette_search input");
+    await edit("c");
+>>>>>>> upstream/18.0
 =======
     await click(".o_command_palette_search input");
     await edit("c");
@@ -9700,7 +9784,12 @@ test("multi level command", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains(".o_command_palette_search input").edit("empty", { confirm: false });
+=======
+    await click(".o_command_palette_search input");
+    await edit("empty");
+>>>>>>> upstream/18.0
 =======
     await click(".o_command_palette_search input");
     await edit("empty");
@@ -10212,7 +10301,11 @@ test("multi level command", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains(".o_command_palette_search input").edit("", { confirm: false });
+=======
+    await edit("");
+>>>>>>> upstream/18.0
 =======
     await edit("");
 >>>>>>> upstream/18.0
@@ -10627,7 +10720,11 @@ test("multi level command", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains(".o_command_palette_search input").edit("empty", { confirm: false });
+=======
+    await edit("empty");
+>>>>>>> upstream/18.0
 =======
     await edit("empty");
 >>>>>>> upstream/18.0
@@ -11183,6 +11280,7 @@ test("bold the searchValue on the commands", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains(".o_command_palette_search input").edit("@test", { confirm: false });
 =======
     await click(".o_command_palette_search input");
@@ -11221,6 +11319,8 @@ test("bold the searchValue on the commands", async () => {
     expect(
         [...queryAll(".o_command")].map((command) => {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11503,6 +11603,9 @@ test("bold the searchValue on the commands", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11840,7 +11943,12 @@ test("remove namespace with backspace", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains(".o_command_palette_search input").edit("@", { confirm: false });
+=======
+    await click(".o_command_palette_search input");
+    await edit("@");
+>>>>>>> upstream/18.0
 =======
     await click(".o_command_palette_search input");
     await edit("@");
@@ -12355,7 +12463,11 @@ test("remove namespace with backspace", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains(".o_command_palette_search input").edit("@NotEmpty", { confirm: false });
+=======
+    await edit("@NotEmpty");
+>>>>>>> upstream/18.0
 =======
     await edit("@NotEmpty");
 >>>>>>> upstream/18.0
@@ -12769,7 +12881,11 @@ test("remove namespace with backspace", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains(".o_command_palette_search input").edit("@", { confirm: false });
+=======
+    await edit("@");
+>>>>>>> upstream/18.0
 =======
     await edit("@");
 >>>>>>> upstream/18.0
@@ -13207,7 +13323,12 @@ test("generate new session id when opened", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains(".o_command_palette_search input").edit("a", { confirm: false });
+=======
+    await click(".o_command_palette_search input");
+    await edit("a");
+>>>>>>> upstream/18.0
 =======
     await click(".o_command_palette_search input");
     await edit("a");
@@ -13757,7 +13878,12 @@ test("checks that href is correctly used", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains(".o_command_palette_search input").edit("@", { confirm: false });
+=======
+    await click(".o_command_palette_search input");
+    await edit("@");
+>>>>>>> upstream/18.0
 =======
     await click(".o_command_palette_search input");
     await edit("@");
@@ -14306,11 +14432,14 @@ test("searchValue must not change without edition", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains(".o_command_palette_search input").edit("abc", { confirm: false });
     expect(".o_command_palette_search input").toHaveValue("abc");
 
     await contains(".o_command_palette_search input").edit("deb", { confirm: false });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14616,6 +14745,9 @@ test("searchValue must not change without edition", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14947,7 +15079,12 @@ test("display spinner while loading results from providers", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains(".o_command_palette_search input").edit("? blabla", { confirm: false });
+=======
+    await click(".o_command_palette_search input");
+    await edit("? blabla");
+>>>>>>> upstream/18.0
 =======
     await click(".o_command_palette_search input");
     await edit("? blabla");

@@ -604,7 +604,10 @@ class TestGroupedExport(XlsxCreatorCase):
             ],
         )
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_groupby_properties_type_field(self):
         """Test that exporting works for record grouped by a property field."""
@@ -633,4 +636,7 @@ class TestGroupedExport(XlsxCreatorCase):
             ['10', "{'date': '2025-11-09'}"],
             ['10', "{'date': '2025-11-12'}"],
         ])
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

@@ -1,4 +1,8 @@
 #!/usr/bin/python
+<<<<<<< HEAD
+=======
+# pylint: skip-file
+>>>>>>> upstream/18.0
 
 from __future__ import print_function
 import serial

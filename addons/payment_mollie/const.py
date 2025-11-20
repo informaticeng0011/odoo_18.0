@@ -52,7 +52,10 @@ DEFAULT_PAYMENT_METHOD_CODES = {
     # Primary payment methods.
     'card',
 <<<<<<< HEAD
+<<<<<<< HEAD
     'ideal',
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     # Brand payment methods.

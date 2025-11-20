@@ -182,7 +182,11 @@ class MigrationManager(object):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 ver
+=======
+                ver: None
+>>>>>>> upstream/18.0
 =======
                 ver: None
 >>>>>>> upstream/18.0

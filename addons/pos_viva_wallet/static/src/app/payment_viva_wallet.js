@@ -30,6 +30,7 @@ export class PaymentVivaWallet extends PaymentInterface {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return this._viva_wallet_cancel();
     }
     pending_viva_wallet_line() {
@@ -56,6 +57,8 @@ export class PaymentVivaWallet extends PaymentInterface {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         return this._viva_wallet_cancel(order, uuid);
     }
 
@@ -73,6 +76,9 @@ export class PaymentVivaWallet extends PaymentInterface {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -97,6 +103,7 @@ export class PaymentVivaWallet extends PaymentInterface {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     _viva_wallet_handle_response(response) {
         var line = this.pending_viva_wallet_line();
         line.set_payment_status("waitingCard");
@@ -105,6 +112,8 @@ export class PaymentVivaWallet extends PaymentInterface {
         }
         return this.waitForPaymentConfirmation();
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -123,6 +132,9 @@ export class PaymentVivaWallet extends PaymentInterface {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -158,9 +170,15 @@ export class PaymentVivaWallet extends PaymentInterface {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         line.sessionId = order.uuid + " - " + uuidv4();
         var data = {
             sessionId: line.sessionId,
+=======
+        line.uiState.vivaSessionId = order.uuid + " - " + uuidv4();
+        var data = {
+            sessionId: line.uiState.vivaSessionId,
+>>>>>>> upstream/18.0
 =======
         line.uiState.vivaSessionId = order.uuid + " - " + uuidv4();
         var data = {
@@ -195,7 +213,11 @@ export class PaymentVivaWallet extends PaymentInterface {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             merchantReference: line.sessionId + "/" + this.pos.session.id,
+=======
+            merchantReference: line.uiState.vivaSessionId + "/" + this.pos.session.id,
+>>>>>>> upstream/18.0
 =======
             merchantReference: line.uiState.vivaSessionId + "/" + this.pos.session.id,
 >>>>>>> upstream/18.0
@@ -221,10 +243,13 @@ export class PaymentVivaWallet extends PaymentInterface {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return this._call_viva_wallet(data, "viva_wallet_send_payment_request").then((data) => {
             return this._viva_wallet_handle_response(data);
         });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -242,6 +267,9 @@ export class PaymentVivaWallet extends PaymentInterface {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -258,6 +286,7 @@ export class PaymentVivaWallet extends PaymentInterface {
          * Override
          */
         super.send_payment_cancel(...arguments);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -284,6 +313,8 @@ export class PaymentVivaWallet extends PaymentInterface {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         const line = order.get_paymentline_by_uuid(uuid);
 
         var data = {
@@ -302,6 +333,9 @@ export class PaymentVivaWallet extends PaymentInterface {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -322,8 +356,12 @@ export class PaymentVivaWallet extends PaymentInterface {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     async handleVivaWalletStatusResponse() {
         var line = this.pending_viva_wallet_line();
+=======
+    async handleVivaWalletStatusResponse(paymentLine) {
+>>>>>>> upstream/18.0
 =======
     async handleVivaWalletStatusResponse(paymentLine) {
 >>>>>>> upstream/18.0
@@ -351,7 +389,11 @@ export class PaymentVivaWallet extends PaymentInterface {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this._handle_odoo_connection_failure();
+=======
+            this._handle_odoo_connection_failure(paymentLine);
+>>>>>>> upstream/18.0
 =======
             this._handle_odoo_connection_failure(paymentLine);
 >>>>>>> upstream/18.0
@@ -377,7 +419,11 @@ export class PaymentVivaWallet extends PaymentInterface {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.handleSuccessResponse(line, notification);
+=======
+            this.handleSuccessResponse(paymentLine, notification);
+>>>>>>> upstream/18.0
 =======
             this.handleSuccessResponse(paymentLine, notification);
 >>>>>>> upstream/18.0
@@ -406,6 +452,7 @@ export class PaymentVivaWallet extends PaymentInterface {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const resolver = this.paymentLineResolvers?.[line.uuid];
         if (resolver) {
             this.paymentLineResolvers[line.uuid] = null;
@@ -413,6 +460,8 @@ export class PaymentVivaWallet extends PaymentInterface {
         } else {
             line.handle_payment_response(isPaymentSuccessful);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -431,6 +480,9 @@ export class PaymentVivaWallet extends PaymentInterface {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -444,6 +496,7 @@ export class PaymentVivaWallet extends PaymentInterface {
     }
 
     isPaymentSuccessful(notification) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -469,6 +522,8 @@ export class PaymentVivaWallet extends PaymentInterface {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         return notification && notification.success;
     }
 
@@ -479,6 +534,9 @@ export class PaymentVivaWallet extends PaymentInterface {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -497,8 +555,13 @@ export class PaymentVivaWallet extends PaymentInterface {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     this.pending_viva_wallet_line()?.sessionId === sessionId &&
                     paymentLine.payment_status === "waitingCard";
+=======
+                    paymentLine.payment_status === "waitingCard" &&
+                    sessionId === paymentLine.uiState.vivaSessionId;
+>>>>>>> upstream/18.0
 =======
                     paymentLine.payment_status === "waitingCard" &&
                     sessionId === paymentLine.uiState.vivaSessionId;
@@ -531,7 +594,12 @@ export class PaymentVivaWallet extends PaymentInterface {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "viva_wallet_get_payment_status"
+=======
+                    "viva_wallet_get_payment_status",
+                    paymentLine
+>>>>>>> upstream/18.0
 =======
                     "viva_wallet_get_payment_status",
                     paymentLine
@@ -564,6 +632,10 @@ export class PaymentVivaWallet extends PaymentInterface {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                        this._show_error(_t("Message from Viva Wallet: %s", result.message));
+>>>>>>> upstream/18.0
 =======
                         this._show_error(_t("Message from Viva Wallet: %s", result.message));
 >>>>>>> upstream/18.0

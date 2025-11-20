@@ -25,9 +25,13 @@ class TestGenericLocalization(TestPointOfSaleHttpCommon):
     def test_generic_localization(self):
         self.main_pos_config.open_ui()
 <<<<<<< HEAD
+<<<<<<< HEAD
         current_session = self.main_pos_config.current_session_id
         self.start_pos_tour("generic_localization_tour", login="accountman")
         self.assertEqual(current_session.state, 'closed')
+=======
+        self.start_pos_tour("generic_localization_tour", login="accountman")
+>>>>>>> upstream/18.0
 =======
         self.start_pos_tour("generic_localization_tour", login="accountman")
 >>>>>>> upstream/18.0

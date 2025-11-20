@@ -6,7 +6,11 @@ import pprint
 from werkzeug import urls
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import _, models
+=======
+from odoo import _, api, models
+>>>>>>> upstream/18.0
 =======
 from odoo import _, api, models
 >>>>>>> upstream/18.0
@@ -24,7 +28,10 @@ class PaymentTransaction(models.Model):
     _inherit = 'payment.transaction'
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     @api.model
     def _compute_reference(self, provider_code, prefix=None, separator='-', **kwargs):
         """Override of `payment` to satisfy Flutterwave requirements for references.
@@ -56,6 +63,9 @@ class PaymentTransaction(models.Model):
             provider_code, prefix=prefix, separator=separator, **kwargs
         )
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def _get_specific_processing_values(self, processing_values):
         """ Override of payment to redirect pending token-flow transactions.

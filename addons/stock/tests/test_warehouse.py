@@ -1009,7 +1009,10 @@ class TestWarehouse(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1348,6 +1351,7 @@ class TestWarehouse(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1524,6 +1528,8 @@ class TestWarehouse(TestStockCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1613,6 +1619,7 @@ class TestWarehouse(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1657,6 +1664,8 @@ class TestWarehouse(TestStockCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_search_qty_to_order_of_0(self):
         """
@@ -1702,4 +1711,7 @@ class TestWarehouse(TestStockCommon):
         ]:
             res = self.env['stock.warehouse.orderpoint'].search([('qty_to_order', op, 0)])
             self.assertEqual(res, expected, "Error with operator %s" % op)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

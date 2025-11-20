@@ -68,6 +68,10 @@ safe_attrs = defs.safe_attrs | frozenset(
      'data-shape', 'data-shape-colors', 'data-file-name', 'data-original-mimetype',
      'data-mimetype-before-conversion',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+     'data-bs-toggle',  # support nav-tabs
+>>>>>>> upstream/18.0
 =======
      'data-bs-toggle',  # support nav-tabs
 >>>>>>> upstream/18.0
