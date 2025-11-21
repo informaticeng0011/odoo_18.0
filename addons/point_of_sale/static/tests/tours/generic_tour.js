@@ -4,6 +4,10 @@ import * as ProductScreen from "@point_of_sale/../tests/tours/utils/product_scre
 import * as PaymentScreen from "@point_of_sale/../tests/tours/utils/payment_screen_util";
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import * as ReceiptScreen from "@point_of_sale/../tests/tours/utils/receipt_screen_util";
+>>>>>>> upstream/18.0
 =======
 import * as ReceiptScreen from "@point_of_sale/../tests/tours/utils/receipt_screen_util";
 >>>>>>> upstream/18.0
@@ -29,6 +33,7 @@ registry.category("web_tour.tours").add("generic_localization_tour", {
             GenericHooks.afterValidateHook(),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ProductScreen.closePos(),
             Dialog.confirm("Close Register"),
             {
@@ -39,6 +44,8 @@ registry.category("web_tour.tours").add("generic_localization_tour", {
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             {
                 timeout: 20000,
                 content: "receipt screen is shown",
@@ -47,6 +54,9 @@ registry.category("web_tour.tours").add("generic_localization_tour", {
             ReceiptScreen.clickNextOrder(),
             ProductScreen.isShown(),
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -75,6 +75,7 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import { isInstanceOf } from "../../hoot-dom/hoot_dom_utils";
 >>>>>>> upstream/18.0
@@ -340,6 +341,8 @@ import { getSyncValue, MockBlob, setSyncValue } from "./sync_values";
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 import { isInstanceOf } from "../../hoot-dom/hoot_dom_utils";
 import { makeNetworkLogger } from "../core/logger";
 import {
@@ -359,6 +362,9 @@ import {
  *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -381,6 +387,7 @@ import {
 
 const {
     AbortController,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -475,6 +482,8 @@ const {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     Blob,
     BroadcastChannel,
     document,
@@ -483,6 +492,9 @@ const {
     Headers,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -525,6 +537,7 @@ const {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -694,6 +707,8 @@ const { parse: $parse, stringify: $stringify } = globalThis.JSON;
 const { parse: $parse, stringify: $stringify } = globalThis.JSON;
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -712,6 +727,9 @@ const { parse: $parse, stringify: $stringify } = globalThis.JSON;
 const { revokeObjectURL: $revokeObjectURL } = URL;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -857,7 +875,11 @@ const { revokeObjectURL: $revokeObjectURL } = URL;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const dispatchClose = (target, eventInit) => {
+=======
+function dispatchClose(target, eventInit) {
+>>>>>>> upstream/18.0
 =======
 function dispatchClose(target, eventInit) {
 >>>>>>> upstream/18.0
@@ -1389,7 +1411,11 @@ function dispatchClose(target, eventInit) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -1920,7 +1946,11 @@ function dispatchClose(target, eventInit) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const dispatchMessage = async (target, data, transfer) => {
+=======
+async function dispatchMessage(target, data, transfer) {
+>>>>>>> upstream/18.0
 =======
 async function dispatchMessage(target, data, transfer) {
 >>>>>>> upstream/18.0
@@ -2332,6 +2362,7 @@ async function dispatchMessage(target, data, transfer) {
     if (dispatched) {
         await tick();
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3748,6 +3779,8 @@ const markClosed = (...instances) => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 }
 
 /**
@@ -3817,6 +3850,9 @@ function isOpen(...instances) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4011,6 +4047,9 @@ function markClosed(...instances) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4408,11 +4447,14 @@ function markClosed(...instances) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const markOpen = (instance) => {
     openNetworkInstances.add(instance);
     return instance;
 };
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4807,6 +4849,7 @@ function markOpen(instance) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5009,6 +5052,8 @@ function markOpen(instance) {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5127,6 +5172,9 @@ function parseJsonRpcParams(stringParams) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5322,7 +5370,11 @@ function parseJsonRpcParams(stringParams) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const parseNetworkDelay = (min, max) => {
+=======
+function parseNetworkDelay(min, max) {
+>>>>>>> upstream/18.0
 =======
 function parseNetworkDelay(min, max) {
 >>>>>>> upstream/18.0
@@ -5859,6 +5911,7 @@ function parseNetworkDelay(min, max) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
 =======
 }
@@ -6245,6 +6298,8 @@ function parseNetworkDelay(min, max) {
 }
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6260,6 +6315,9 @@ function toBytes(value) {
 }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6272,6 +6330,7 @@ const HEADER = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     contentType: "Content-Type",
 };
 const R_EQUAL = /\s*=\s*/;
@@ -6279,6 +6338,8 @@ const R_INTERNAL_URL = /^(blob|data|file):/;
 const R_SEMICOLON = /\s*;\s*/;
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6319,6 +6380,9 @@ const requestResponseMixin = {
 const objectUrls = new Map();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6348,6 +6412,7 @@ export function cleanupNetwork() {
 
     // Network instances
     for (const instance of openNetworkInstances) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6629,6 +6694,9 @@ export function cleanupNetwork() {
 =======
         if (isInstanceOf(instance, AbortController)) {
 >>>>>>> upstream/18.0
+=======
+        if (isInstanceOf(instance, AbortController)) {
+>>>>>>> upstream/18.0
             instance.abort();
         } else if (
             instance instanceof MockBroadcastChannel ||
@@ -6658,7 +6726,10 @@ export function cleanupNetwork() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6671,6 +6742,9 @@ export function cleanupNetwork() {
     objectUrls.clear();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6683,7 +6757,12 @@ export async function mockedFetch(input, init) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (R_INTERNAL_URL.test(input)) {
+=======
+    const strInput = String(input);
+    if (R_INTERNAL_URL.test(strInput)) {
+>>>>>>> upstream/18.0
 =======
     const strInput = String(input);
     if (R_INTERNAL_URL.test(strInput)) {
@@ -6732,6 +6811,7 @@ export async function mockedFetch(input, init) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     init ||= {};
     const method = init.method?.toUpperCase() || (init.body ? "POST" : "GET");
     const { logRequest, logResponse } = makeNetworkLogger(method, input);
@@ -6741,6 +6821,8 @@ export async function mockedFetch(input, init) {
 
     logRequest(() => (typeof init.body === "string" ? JSON.parse(init.body) : init));
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6854,6 +6936,9 @@ export async function mockedFetch(input, init) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6918,6 +7003,7 @@ export async function mockedFetch(input, init) {
         await getNetworkDelay();
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7014,6 +7100,8 @@ export async function mockedFetch(input, init) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     // keep separate from 'error', as it can be null or undefined even though the
     // callback has thrown an error.
     let failed = false;
@@ -7052,6 +7140,9 @@ export async function mockedFetch(input, init) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7118,6 +7209,7 @@ export async function mockedFetch(input, init) {
         return ENDLESS_PROMISE;
     }
     if (failed) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7467,6 +7559,8 @@ export async function mockedFetch(input, init) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         throw error;
     }
 
@@ -7479,7 +7573,11 @@ export async function mockedFetch(input, init) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             const textValue = getSyncValue(result);
+=======
+            const textValue = getSyncValue(result, true);
+>>>>>>> upstream/18.0
 =======
             const textValue = getSyncValue(result, true);
 >>>>>>> upstream/18.0
@@ -7524,6 +7622,9 @@ export async function mockedFetch(input, init) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7587,6 +7688,7 @@ export async function mockedFetch(input, init) {
         return result;
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7930,6 +8032,11 @@ export async function mockedFetch(input, init) {
         // Actual fetch
         logResponse(() => ["(go to network tab for request content)", result]);
 >>>>>>> upstream/18.0
+=======
+    if (isInstanceOf(result, Response)) {
+        // Actual fetch
+        logResponse(() => ["(go to network tab for request content)", result]);
+>>>>>>> upstream/18.0
         return result;
     }
 
@@ -7937,6 +8044,7 @@ export async function mockedFetch(input, init) {
     // Determine the return type based on:
     // - the content type header
     // - or the type of the returned value
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8206,6 +8314,8 @@ export async function mockedFetch(input, init) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 
     if (responseHeaders.get(HEADER.contentType) === MIME_TYPE.json) {
         // JSON response
@@ -8213,8 +8323,11 @@ export async function mockedFetch(input, init) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const response = new MockResponse(strBody, { headers: responseHeaders });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8227,6 +8340,9 @@ export async function mockedFetch(input, init) {
         });
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8236,6 +8352,7 @@ export async function mockedFetch(input, init) {
         return response;
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8327,6 +8444,8 @@ export async function mockedFetch(input, init) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     // With blob URLs: fallback to the actual registered blob object:
     // - this will automatically set the content type & length of the headers
     // - the response body will be the stringified content of the blob
@@ -8348,6 +8467,9 @@ export async function mockedFetch(input, init) {
     return response;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8423,7 +8545,10 @@ export function throttleNetwork(...args) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8455,6 +8580,9 @@ export class MockBlob extends Blob {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8764,7 +8892,10 @@ export class MockRequest extends Request {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8775,6 +8906,9 @@ export class MockRequest extends Request {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8788,7 +8922,11 @@ export class MockRequest extends Request {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         super(input, init);
+=======
+        super(new MockURL(input), init);
+>>>>>>> upstream/18.0
 =======
         super(new MockURL(input), init);
 >>>>>>> upstream/18.0
@@ -8802,6 +8940,7 @@ export class MockRequest extends Request {
         setSyncValue(this, init?.body ?? null);
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8932,6 +9071,8 @@ export class MockRequest extends Request {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     clone() {
         const request = new this.constructor(this.url, this);
         setSyncValue(request, getSyncValue(this, false));
@@ -8950,6 +9091,9 @@ export class MockRequest extends Request {
         return getSyncValue(this, toStringValue);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8962,10 +9106,13 @@ export class MockResponse extends Response {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     /**
      * @param {BodyInit} body
      * @param {ResponseInit} [init]
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8979,6 +9126,9 @@ export class MockResponse extends Response {
      * @param {MockResponseInit} [init]
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8988,6 +9138,7 @@ export class MockResponse extends Response {
     constructor(body, init) {
         super(body, init);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9121,6 +9272,8 @@ export class MockResponse extends Response {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         if (init?.type) {
             $defineProperty(this, "type", {
                 value: init.type,
@@ -9163,6 +9316,9 @@ export class MockResponse extends Response {
         return getSyncValue(this, toStringValue);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9209,7 +9365,10 @@ export class MockURL extends URL {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9229,6 +9388,9 @@ export class MockURL extends URL {
     }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9280,6 +9442,7 @@ export class MockWebSocket extends MockEventTarget {
             markOpen(this);
 
             this._readyState = WebSocket.OPEN;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9401,6 +9564,9 @@ export class MockWebSocket extends MockEventTarget {
 =======
             this._logger.logRequest(() => ["connection open"]);
 >>>>>>> upstream/18.0
+=======
+            this._logger.logRequest(() => ["connection open"]);
+>>>>>>> upstream/18.0
 
             this.dispatchEvent(new Event("open"));
         });
@@ -9412,6 +9578,7 @@ export class MockWebSocket extends MockEventTarget {
             return;
         }
         this._readyState = WebSocket.CLOSING;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9941,6 +10108,9 @@ export class MockWebSocket extends MockEventTarget {
 =======
         tick().then(() => dispatchClose(this, { code, reason }));
 >>>>>>> upstream/18.0
+=======
+        tick().then(() => dispatchClose(this, { code, reason }));
+>>>>>>> upstream/18.0
     }
 
     /** @type {WebSocket["send"]} */
@@ -9978,7 +10148,11 @@ export class MockWebSocket extends MockEventTarget {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this._logger.logRequest(() => data);
+=======
+        this._logger.logRequest(() => [data]);
+>>>>>>> upstream/18.0
 =======
         this._logger.logRequest(() => [data]);
 >>>>>>> upstream/18.0
@@ -10150,7 +10324,10 @@ export class MockXMLHttpRequest extends MockEventTarget {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10161,6 +10338,9 @@ export class MockXMLHttpRequest extends MockEventTarget {
     responseType = "";
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10204,6 +10384,7 @@ export class MockXMLHttpRequest extends MockEventTarget {
                 headers: this._headers,
             });
             this._status = response.status;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10355,12 +10536,17 @@ export class MockXMLHttpRequest extends MockEventTarget {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             this._response = getSyncValue(response, false);
             this.dispatchEvent(new ProgressEvent("load"));
         } catch {
             this.dispatchEvent(new ProgressEvent("error"));
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10459,7 +10645,11 @@ export class ServerWebSocket extends MockEventTarget {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this._logger.logResponse(() => "connection closed");
+=======
+            this._logger.logResponse(() => ["connection closed", ev]);
+>>>>>>> upstream/18.0
 =======
             this._logger.logResponse(() => ["connection closed", ev]);
 >>>>>>> upstream/18.0

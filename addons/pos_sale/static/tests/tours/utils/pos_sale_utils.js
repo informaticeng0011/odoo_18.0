@@ -85,7 +85,10 @@ export function selectNthOrder(n) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -309,6 +312,9 @@ export function settleSaleOrderByPrice(price) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -479,11 +485,14 @@ export function settleNthOrder(n, options = {}) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (loadSN) {
         step.push({
             content: `Choose to auto link the lot number to the order line`,
             trigger: `.modal-content:contains('Do you want to load the SN/Lots linked to the Sales Order?') button:contains('Ok')`,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -550,6 +559,9 @@ export function settleNthOrder(n, options = {}) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -624,6 +636,7 @@ export function checkOrdersListEmpty() {
 }
 
 export function selectedOrderLinesHasLots(productName, lots) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -839,6 +852,8 @@ export function selectedOrderLinesHasLots(productName, lots) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     const getSerialStep = (index, serialNumber) => ({
         content: `check lot${index} is linked`,
         trigger: `.info-list li:contains(${serialNumber})`,
@@ -912,6 +927,7 @@ export function selectedOrderLinesHasLots(productName, lots) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1013,6 +1029,8 @@ export function selectedOrderLinesHasLots(productName, lots) {
     return [...ProductScreen.selectedOrderlineHas(productName), ...lotSteps];
 }
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1086,6 +1104,9 @@ export function checkOrdersListNotEmpty() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

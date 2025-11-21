@@ -1,6 +1,10 @@
 # -*- coding: utf-8 -*-
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# pylint: skip-file
+>>>>>>> upstream/18.0
 =======
 # pylint: skip-file
 >>>>>>> upstream/18.0

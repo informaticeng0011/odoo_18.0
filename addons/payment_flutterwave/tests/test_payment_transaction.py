@@ -4,6 +4,11 @@ from unittest.mock import patch
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from freezegun import freeze_time
+
+>>>>>>> upstream/18.0
 =======
 from freezegun import freeze_time
 
@@ -23,7 +28,10 @@ class TestPaymentTransaction(FlutterwaveCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     @freeze_time('2011-11-02 12:00:21')  # Freeze time for consistent singularization behavior.
@@ -33,6 +41,9 @@ class TestPaymentTransaction(FlutterwaveCommon):
         self.assertEqual(reference, 'tx-20111102120021')
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

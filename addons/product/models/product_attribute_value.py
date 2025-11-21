@@ -80,10 +80,13 @@ class ProductAttributeValue(models.Model):
     @api.depends('default_extra_price')
     def _compute_default_extra_price_changed(self):
 <<<<<<< HEAD
+<<<<<<< HEAD
         for pav in self:
             pav.default_extra_price_changed = (
                 pav.default_extra_price != pav._origin.default_extra_price
 =======
+=======
+>>>>>>> upstream/18.0
         company_domain = self.env['product.template']._check_company_domain(self.env.companies)
         # `sudo` required to know which products we lack access to
         ptavs_by_pav = self.env['product.template.attribute.value'].sudo().search_fetch([
@@ -95,6 +98,9 @@ class ProductAttributeValue(models.Model):
             pav.default_extra_price_changed = (
                 pav.default_extra_price != pav._origin.default_extra_price
                 or any(pav.default_extra_price != ptav.price_extra for ptav in ptavs)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             )
 

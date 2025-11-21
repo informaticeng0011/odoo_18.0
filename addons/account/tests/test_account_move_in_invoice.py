@@ -961,6 +961,11 @@ class TestAccountMoveInInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.other_currency.rounding = 0.001
+
+>>>>>>> upstream/18.0
 =======
         self.other_currency.rounding = 0.001
 
@@ -1913,7 +1918,10 @@ class TestAccountMoveInInvoiceOnchanges(AccountTestInvoicingCommon):
         })
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_in_invoice_switch_type_storno(self):
         # Test creating an account_move with an in_invoice_type and switch it in an in_refund,
         # then switching it back to an in_invoice. When storno accounting is enabled.
@@ -1988,6 +1996,9 @@ class TestAccountMoveInInvoiceOnchanges(AccountTestInvoicingCommon):
             'date': fields.Date.from_string('2019-01-31'),
         })
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_in_invoice_change_period_accrual_1(self):
         move = self.env['account.move'].create({

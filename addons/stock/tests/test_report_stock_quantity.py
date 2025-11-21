@@ -74,6 +74,7 @@ from odoo import fields, tests
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tests import Form
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -125,6 +126,11 @@ from freezegun import freeze_time
 from freezegun import freeze_time
 >>>>>>> upstream/18.0
 =======
+from freezegun import freeze_time
+>>>>>>> upstream/18.0
+=======
+from odoo.fields import Command
+from odoo.tests import Form
 from freezegun import freeze_time
 >>>>>>> upstream/18.0
 =======
@@ -567,6 +573,12 @@ class TestReportStockQuantity(tests.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # freeze time to avoid test errors due to the class being initialized before 00:00:00 and the test run after
+        cls.fake_today = fields.Date.today()
+        cls.startClassPatcher(freeze_time(cls.fake_today))
+>>>>>>> upstream/18.0
 =======
         # freeze time to avoid test errors due to the class being initialized before 00:00:00 and the test run after
         cls.fake_today = fields.Date.today()
@@ -1274,7 +1286,10 @@ class TestReportStockQuantity(tests.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1567,6 +1582,7 @@ class TestReportStockQuantity(tests.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1705,4 +1721,25 @@ class TestReportStockQuantity(tests.TransactionCase):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+    def test_transfer_where_qty_done_differs_from_demand(self):
+        """
+        Verify that available quantities are correctly computed at different past dates
+        when the qty_done of a transfer differs from the demand.
+        """
+        today = self.move1.date
+        self.move2._action_cancel()
+        product = self.product1
+        with freeze_time(today):
+            self.move1.write({'quantity': 40.0, 'picked': True})
+            self.move1._action_done()
+            self.assertRecordValues(product, [{'qty_available': 40.0}])
+        report = self.env['report.stock.quantity']._read_group(
+            [('date', '>=', today - timedelta(days=1)), ('date', '<=', today), ('product_id', '=', product.id), ('state', '=', 'forecast')],
+            ['date:day', 'product_id'],
+            ['product_qty:sum'])
+        forecast_report = [qty for __, __, qty in report]
+        self.assertEqual(forecast_report, [0, 40])
 >>>>>>> upstream/18.0

@@ -130,7 +130,10 @@ class CrmTeam(models.Model):
     dashboard_graph_data = fields.Text(compute='_compute_dashboard_graph')
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     @api.constrains('company_id')
     def _constrains_company_members(self):
         for team in self.filtered('company_id'):
@@ -144,6 +147,9 @@ class CrmTeam(models.Model):
                     users=", ".join(invalid_members.mapped('user_id.name'))
                 ))
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     @api.depends('sequence')  # TDE FIXME: force compute in new mode
     def _compute_is_membership_multi(self):
@@ -241,9 +247,15 @@ class CrmTeam(models.Model):
     def write(self, values):
         res = super(CrmTeam, self).write(values)
 <<<<<<< HEAD
+<<<<<<< HEAD
         # manually launch company sanity check
         if values.get('company_id'):
             self.crm_team_member_ids._check_company(fnames=['crm_team_id'])
+=======
+
+        if values.get('company_id'):  # Force re-check of memberships constraint for this team
+            self.crm_team_member_ids._constrains_membership()
+>>>>>>> upstream/18.0
 =======
 
         if values.get('company_id'):  # Force re-check of memberships constraint for this team

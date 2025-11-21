@@ -4,6 +4,10 @@
 from odoo import exceptions
 from odoo.tests import tagged, users
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.addons.mail.tests.common import mail_new_test_user
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.mail.tests.common import mail_new_test_user
 >>>>>>> upstream/18.0
@@ -169,7 +173,11 @@ class TestMultiCompany(TestSalesMC):
         self.assertEqual(team_c2.member_ids, self.env.user)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         # cannot add someone from another company
+=======
+        # cannot add someone from another company (when user allowed only in c1 and team is in c2)
+>>>>>>> upstream/18.0
 =======
         # cannot add someone from another company (when user allowed only in c1 and team is in c2)
 >>>>>>> upstream/18.0
@@ -183,11 +191,14 @@ class TestMultiCompany(TestSalesMC):
         self.assertEqual(team_c2.member_ids, self.user_sales_salesman)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         # cannot change company as it breaks memberships mc check
         with self.assertRaises(exceptions.UserError):
             team_c2.write({'company_id': self.company_2.id})
 
 =======
+=======
+>>>>>>> upstream/18.0
         # cannot change team company if its users aren't allowed in the new company
         with self.assertRaises(exceptions.UserError):
             team_c2.write({'company_id': self.company_2.id})
@@ -207,6 +218,9 @@ class TestMultiCompany(TestSalesMC):
         team_c2.write({'member_ids': [(4, user_c1_c2.id)]})
         self.assertIn(user_c1_c2, team_c2.member_ids)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     @users('user_sales_manager')
     def test_team_memberships(self):

@@ -53,7 +53,10 @@ DEFAULT_PAYMENT_METHOD_CODES = {
     'card',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     'ideal',
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

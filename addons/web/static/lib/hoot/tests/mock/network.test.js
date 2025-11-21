@@ -41,8 +41,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { describe, expect, test } from "@odoo/hoot";
 import { mockFetch } from "@odoo/hoot-mock";
+=======
+import { describe, expect, mockFetch, test } from "@odoo/hoot";
+>>>>>>> upstream/18.0
 =======
 import { describe, expect, mockFetch, test } from "@odoo/hoot";
 >>>>>>> upstream/18.0
@@ -192,11 +196,14 @@ describe(parseUrl(import.meta.url), () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         await fetch(URL.createObjectURL(new Blob([""])));
 
         expect.verifySteps(["http://some.url", "/odoo"]);
     });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -347,6 +354,9 @@ describe(parseUrl(import.meta.url), () => {
     });
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

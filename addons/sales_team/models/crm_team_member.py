@@ -17,7 +17,11 @@ class CrmTeamMember(models.Model):
         group_expand='_read_group_expand_full',  # Always display all the teams
         default=False,  # TDE: temporary fix to activate depending computed fields
 <<<<<<< HEAD
+<<<<<<< HEAD
         check_company=True, index=True, ondelete="cascade", required=True)
+=======
+        check_company=False, index=True, ondelete="cascade", required=True)
+>>>>>>> upstream/18.0
 =======
         check_company=False, index=True, ondelete="cascade", required=True)
 >>>>>>> upstream/18.0
@@ -82,7 +86,10 @@ class CrmTeamMember(models.Model):
                  ))
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     @api.constrains('crm_team_id', 'user_id')
     def _constrains_company_membership(self):
         for membership in self.filtered(lambda m: m.crm_team_id.company_id):
@@ -93,6 +100,9 @@ class CrmTeamMember(models.Model):
                     team=membership.crm_team_id.name
                 ))
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     @api.depends('crm_team_id', 'is_membership_multi', 'user_id')
     @api.depends_context('default_crm_team_id')

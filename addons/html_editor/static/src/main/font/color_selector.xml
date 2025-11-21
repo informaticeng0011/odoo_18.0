@@ -70,7 +70,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <Dropdown state="dropdown">
+=======
+        <Dropdown state="dropdown" menuRef="menuRef">
+>>>>>>> upstream/18.0
 =======
         <Dropdown state="dropdown" menuRef="menuRef">
 >>>>>>> upstream/18.0
@@ -410,7 +414,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                         <button t-if="color !== this.currentCustomColor.color.toLowerCase()" class="o_color_button btn" t-att-data-color="color" t-attf-style="background-color: {{color}}"/>
+=======
+                                        <button t-if="color !== this.currentCustomColor.color?.toLowerCase()" class="o_color_button btn" t-att-data-color="color" t-attf-style="background-color: {{color}}"/>
+>>>>>>> upstream/18.0
 =======
                                         <button t-if="color !== this.currentCustomColor.color?.toLowerCase()" class="o_color_button btn" t-att-data-color="color" t-attf-style="background-color: {{color}}"/>
 >>>>>>> upstream/18.0
@@ -761,7 +769,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     defaultColor="this.defaultColor"
+=======
+                                    defaultColor="this.currentCustomColor.color"
+>>>>>>> upstream/18.0
 =======
                                     defaultColor="this.currentCustomColor.color"
 >>>>>>> upstream/18.0

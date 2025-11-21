@@ -57,7 +57,10 @@ class Authenticate(http.Controller):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     @http.route(['/mail_plugin/auth/check_version'], type='json', auth="none", cors="*",
@@ -67,6 +70,9 @@ class Authenticate(http.Controller):
         return 1
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -4,6 +4,10 @@ from . import account_journal
 from . import account_move
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from . import res_partner
+>>>>>>> upstream/18.0
 =======
 from . import res_partner
 >>>>>>> upstream/18.0

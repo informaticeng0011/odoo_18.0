@@ -106,7 +106,11 @@ import { HtmlComposerMessageField } from "@mail/views/web/fields/html_composer_m
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { beforeEach, expect, test } from "@odoo/hoot";
+=======
+import { beforeEach, describe, expect, test } from "@odoo/hoot";
+>>>>>>> upstream/18.0
 =======
 import { beforeEach, describe, expect, test } from "@odoo/hoot";
 >>>>>>> upstream/18.0
@@ -526,6 +530,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    waitForNone,
+>>>>>>> upstream/18.0
 =======
     waitForNone,
 >>>>>>> upstream/18.0
@@ -948,8 +956,14 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 } from "@web/../tests/web_test_helpers";
 import { defineMailModels, mailModels } from "../mail_test_helpers";
+=======
+    serverState,
+} from "@web/../tests/web_test_helpers";
+import { defineMailModels, mailModels, openFormView, start } from "../mail_test_helpers";
+>>>>>>> upstream/18.0
 =======
     serverState,
 } from "@web/../tests/web_test_helpers";
@@ -1622,9 +1636,13 @@ test("media dialog: upload", async function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     onRpc("/web/dataset/call_kw/ir.attachment/generate_access_token", () => {
         return ["129a52e1-6bf2-470a-830e-8e368b022e13"];
     });
+=======
+    onRpc("ir.attachment", "generate_access_token", () => ["129a52e1-6bf2-470a-830e-8e368b022e13"]);
+>>>>>>> upstream/18.0
 =======
     onRpc("ir.attachment", "generate_access_token", () => ["129a52e1-6bf2-470a-830e-8e368b022e13"]);
 >>>>>>> upstream/18.0
@@ -2117,7 +2135,10 @@ test("mention a channel", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2476,7 +2497,11 @@ describe("Remove attachments", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         onRpc("/web/dataset/call_kw/ir.attachment/generate_access_token", () => [
+=======
+        onRpc("ir.attachment", "generate_access_token", () => [
+>>>>>>> upstream/18.0
 =======
         onRpc("ir.attachment", "generate_access_token", () => [
 >>>>>>> upstream/18.0
@@ -2887,6 +2912,9 @@ describe("Remove attachments", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
