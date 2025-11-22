@@ -379,6 +379,10 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    @api.model
+>>>>>>> upstream/18.0
 =======
     @api.model
 >>>>>>> upstream/18.0
@@ -499,6 +503,7 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
             if self.l10n_tw_edi_is_b2b:
                 item_price = float_round(twd_excluded_amount / line.quantity, precision_rounding=0.01)
@@ -510,6 +515,8 @@ class AccountMove(models.Model):
                 else:
                     item_price = float_round(twd_included_amount / line.quantity, precision_rounding=0.01)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -566,6 +573,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -619,7 +629,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 item_price = float_round(twd_included_amount / line.quantity, precision_rounding=0.01)
+=======
+                item_price = float_round(twd_included_amount / quantity, precision_rounding=0.01)
+>>>>>>> upstream/18.0
 =======
                 item_price = float_round(twd_included_amount / quantity, precision_rounding=0.01)
 >>>>>>> upstream/18.0
@@ -696,7 +710,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "ItemCount": line.quantity,
+=======
+                    "ItemCount": quantity,
+>>>>>>> upstream/18.0
 =======
                     "ItemCount": quantity,
 >>>>>>> upstream/18.0
@@ -768,7 +786,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "ItemCount": line.quantity,
+=======
+                    "ItemCount": quantity,
+>>>>>>> upstream/18.0
 =======
                     "ItemCount": quantity,
 >>>>>>> upstream/18.0
@@ -866,12 +888,15 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             # Check if the credit note has amount due, we need to add it to the sale amount
             item_list[-1]["ItemAmount"] += self.amount_residual_signed
             item_list[-1]["ItemAmount"] = float_round(item_list[-1]["ItemAmount"], precision_rounding=0.01)
             item_list[-1]["ItemPrice"] = float_round(item_list[-1]["ItemAmount"] / item_list[-1]["ItemCount"], precision_rounding=0.01)
             sale_amount += self.amount_residual_signed
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1011,6 +1036,33 @@ class AccountMove(models.Model):
 
         return json_data
 
+<<<<<<< HEAD
+=======
+    def _l10n_tw_edi_send_create_buyer(self):
+        """
+        Create a buyer before issuing B2B invoices
+        """
+        buyer_json_data = {
+            "MerchantID": self.company_id.sudo().l10n_tw_edi_ecpay_merchant_id,
+            "Action": "Add",
+            "Type": "1",
+            "Identifier": self.partner_id.commercial_partner_id.vat,
+            "CompanyName": self.partner_id.commercial_partner_id.name,
+            "TradingSlang": self.partner_id.commercial_partner_id.vat,
+            "ExchangeMode": "0",
+            "EmailAddress": self.partner_id.commercial_partner_id.email,
+        }
+
+        if self.partner_id.commercial_partner_id.contact_address_inline:
+            buyer_json_data["Address"] = self.partner_id.commercial_partner_id.contact_address_inline
+        if self.partner_id.commercial_partner_id.phone or self.partner_id.commercial_partner_id.mobile:
+            number = self.partner_id.commercial_partner_id.phone or self.partner_id.commercial_partner_id.mobile
+            buyer_json_data["TelephoneNumber"] = self._reformat_phone_number(number)
+
+        return call_ecpay_api("/MaintainMerchantCustomerData", buyer_json_data, self.company_id,
+                              self.l10n_tw_edi_is_b2b)
+
+>>>>>>> upstream/18.0
     def _l10n_tw_edi_send(self, json_content):
         """
         Issuing an e-invoice by calling the Ecpay API and update the invoicing result in Odoo
@@ -1019,6 +1071,17 @@ class AccountMove(models.Model):
         # Ensure to lock the records that will be sent, to avoid risking sending them twice.
         self.env["res.company"]._with_locked_records(self)
 
+<<<<<<< HEAD
+=======
+        if self.l10n_tw_edi_is_b2b:
+            response_data = self._l10n_tw_edi_send_create_buyer()
+            # 1: New buyer successfully created - can continue with invoicing
+            # 6160052: Buyer already exists - can continue with invoicing
+            # Other codes: Indicate error - don't proceed with invoicing
+            if int(response_data.get("RtnCode")) not in (1, 6160052):
+                return response_data.get("RtnMsg").split("\r\n")
+
+>>>>>>> upstream/18.0
         response_data = call_ecpay_api("/Issue", json_content, self.company_id, self.l10n_tw_edi_is_b2b)
         if int(response_data.get("RtnCode")) != 1:
             return response_data.get("RtnMsg").split("\r\n")

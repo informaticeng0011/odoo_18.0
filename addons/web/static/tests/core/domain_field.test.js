@@ -146,6 +146,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    getOperatorOptions,
+>>>>>>> upstream/18.0
 =======
     getOperatorOptions,
 >>>>>>> upstream/18.0
@@ -676,6 +680,10 @@ import { WebClient } from "@web/webclient/webclient";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { registry } from "@web/core/registry";
+>>>>>>> upstream/18.0
 =======
 import { registry } from "@web/core/registry";
 >>>>>>> upstream/18.0
@@ -1205,8 +1213,11 @@ defineModels([Partner, Product, Team, Player, Country, Stage, PartnerType]);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test("The domain editor should not crash the view when given a dynamic filter", async function () {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1608,6 +1619,9 @@ test("The domain editor should not crash the view when given a dynamic filter (a
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1998,6 +2012,11 @@ test("The domain editor should not crash the view when given a dynamic filter (a
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    replaceNotificationService();
+
+>>>>>>> upstream/18.0
 =======
     replaceNotificationService();
 
@@ -2657,7 +2676,10 @@ test("The domain editor should not crash the view when given a dynamic filter (a
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3028,7 +3050,10 @@ test("The domain editor should not crash the view when given a dynamic filter (a
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3375,6 +3400,9 @@ test("The domain editor should not crash the view when given a dynamic filter (a
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3742,6 +3770,9 @@ test("The domain editor should not crash the view when given a dynamic filter (a
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4432,7 +4463,11 @@ test("domain field: manually edit domain with textarea", async function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     serverState.debug = true;
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "1";
 >>>>>>> upstream/18.0
@@ -4954,7 +4989,10 @@ test("domain field: manually edit domain with textarea", async function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: `<search />`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5335,7 +5373,11 @@ test("domain field: manually set an invalid domain with textarea", async functio
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     serverState.debug = true;
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "1";
 >>>>>>> upstream/18.0
@@ -5853,12 +5895,15 @@ test("domain field: manually set an invalid domain with textarea", async functio
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <form>
                     <field name="bar"/>
                     <field name="foo" widget="domain" options="{'model': 'bar'}"/>
                 </form>`,
         search: `<search />`,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6190,6 +6235,9 @@ test("domain field: manually set an invalid domain with textarea", async functio
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6591,7 +6639,11 @@ test("domain field: reload count by clicking on the refresh button", async funct
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     serverState.debug = true;
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "1";
 >>>>>>> upstream/18.0
@@ -7109,12 +7161,15 @@ test("domain field: reload count by clicking on the refresh button", async funct
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <form>
                     <field name="bar"/>
                     <field name="foo" widget="domain" options="{'model': 'bar'}"/>
                 </form>`,
         search: `<search />`,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7446,6 +7501,9 @@ test("domain field: reload count by clicking on the refresh button", async funct
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7861,7 +7919,11 @@ test("domain field: edit domain with dynamic content", async function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     serverState.debug = true;
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "1";
 >>>>>>> upstream/18.0
@@ -8401,6 +8463,7 @@ test("domain field: edit domain with dynamic content", async function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <field name="foo" widget="domain" options="{'model': 'bar'}"/>
 =======
                 <field name="foo" widget="domain" options="{'model': 'bar', 'allow_expressions':True}"/>
@@ -8461,6 +8524,10 @@ test("domain field: edit domain with dynamic content", async function () {
 >>>>>>> upstream/18.0
             </form>`,
         search: `<search />`,
+=======
+                <field name="foo" widget="domain" options="{'model': 'bar', 'allow_expressions':True}"/>
+            </form>`,
+>>>>>>> upstream/18.0
 =======
                 <field name="foo" widget="domain" options="{'model': 'bar', 'allow_expressions':True}"/>
             </form>`,
@@ -9058,7 +9125,11 @@ test("domain field: edit through selector (dynamic content)", async function () 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     serverState.debug = true;
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "1";
 >>>>>>> upstream/18.0
@@ -9470,6 +9541,7 @@ test("domain field: edit through selector (dynamic content)", async function () 
         form: `
             <form>
                 <field name="bar"/>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10099,6 +10171,10 @@ test("domain field: edit through selector (dynamic content)", async function () 
                 <field name="foo" widget="domain" options="{'model': 'bar', 'allow_expressions':True}"/>
             </form>`,
 >>>>>>> upstream/18.0
+=======
+                <field name="foo" widget="domain" options="{'model': 'bar', 'allow_expressions':True}"/>
+            </form>`,
+>>>>>>> upstream/18.0
     };
 
     onRpc(({ method }) => expect.step(method));
@@ -10247,7 +10323,11 @@ test("domain field: edit through selector (dynamic content)", async function () 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await scroll(getFixture(), { top: 10 });
+=======
+    await scroll(getFixture(), { top: 10 }, { scrollable: false });
+>>>>>>> upstream/18.0
 =======
     await scroll(getFixture(), { top: 10 }, { scrollable: false });
 >>>>>>> upstream/18.0
@@ -10850,7 +10930,11 @@ test("invalid value in domain field with 'inDialog' options", async function () 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     serverState.debug = true;
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "1";
 >>>>>>> upstream/18.0
@@ -11402,7 +11486,11 @@ test("edit domain button is available even while loading records count", async f
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     serverState.debug = true;
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "1";
 >>>>>>> upstream/18.0
@@ -11954,7 +12042,11 @@ test("debug input editing sets the field as dirty even without a focus out", asy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     serverState.debug = true;
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "1";
 >>>>>>> upstream/18.0
@@ -12504,7 +12596,11 @@ test("debug input corrections don't need a focus out to be saved", async functio
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     serverState.debug = true;
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "1";
 >>>>>>> upstream/18.0
@@ -13052,7 +13148,11 @@ test("quick check on save if domain has been edited via the debug input", async 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     serverState.debug = true;
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "1";
 >>>>>>> upstream/18.0
@@ -13669,7 +13769,11 @@ test("add condition in empty foldable domain", async function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     serverState.debug = true;
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "1";
 >>>>>>> upstream/18.0
@@ -14287,7 +14391,11 @@ test("folded domain field with withinh operator", async function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <field name="foo" widget="domain" options="{'model': 'partner', 'foldable': true}" />
+=======
+                        <field name="foo" widget="domain" options="{'model': 'partner', 'foldable': true, 'allow_expressions':True}" />
+>>>>>>> upstream/18.0
 =======
                         <field name="foo" widget="domain" options="{'model': 'partner', 'foldable': true, 'allow_expressions':True}" />
 >>>>>>> upstream/18.0
@@ -14810,7 +14918,10 @@ test("folded domain field with withinh operator", async function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -15310,6 +15421,9 @@ test("hide within operators when allow_expressions = False", async function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

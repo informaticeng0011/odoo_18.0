@@ -181,6 +181,10 @@ import { rpc } from "@web/core/network/rpc";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { runAllTimers } from "@odoo/hoot-dom";
+>>>>>>> upstream/18.0
 =======
 import { runAllTimers } from "@odoo/hoot-dom";
 >>>>>>> upstream/18.0
@@ -1303,7 +1307,11 @@ test("sidebar: basic channel rendering", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains(".o-mail-DiscussSidebarChannel img[data-alt='Thread Image']");
+=======
+    await contains(".o-mail-DiscussSidebarChannel img[alt='Thread Image']");
+>>>>>>> upstream/18.0
 =======
     await contains(".o-mail-DiscussSidebarChannel img[alt='Thread Image']");
 >>>>>>> upstream/18.0
@@ -1912,7 +1920,13 @@ test("rendering of inbox message", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains("[title='Reply']");
+=======
+    await click("[title='Expand']");
+    await contains("[title='Reply']");
+    await contains("[title='Translate']");
+>>>>>>> upstream/18.0
 =======
     await click("[title='Expand']");
     await contains("[title='Reply']");
@@ -2357,12 +2371,15 @@ test("Unfollow message", async function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains(".o-mail-Message:eq(2) [title='Expand']", { count: 0 });
     await contains(".o-mail-Message:eq(2)", {
         contains: [[".o-mail-Message-header small", { text: "on Thread not followed" }]],
     });
     await contains(".o-mail-Message:eq(2) [title='Unfollow']", { count: 0 });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2566,6 +2583,9 @@ test("Unfollow message", async function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2705,6 +2725,7 @@ test("Unfollow message", async function () {
     await contains(".o-mail-Message:eq(0)", {
         contains: [[".o-mail-Message-header small", { text: "on Thread followed" }]],
     });
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2912,6 +2933,8 @@ test("Unfollow message", async function () {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     await click(".o-mail-Message:eq(0) [title='Expand']");
     await contains("[title='Unfollow']", { count: 0 });
     await contains(".o-mail-Message:eq(1)", {
@@ -2985,6 +3008,9 @@ test("Unfollow message", async function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4174,8 +4200,12 @@ test("warning on send with shortcut when attempting to post message with still-u
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains(".o-mail-AttachmentCard");
     await contains(".o-mail-AttachmentCard .fa.fa-spinner");
+=======
+    await contains(".o-mail-AttachmentCard.o-isUploading:contains(text.txt) .fa.fa-spinner");
+>>>>>>> upstream/18.0
 =======
     await contains(".o-mail-AttachmentCard.o-isUploading:contains(text.txt) .fa.fa-spinner");
 >>>>>>> upstream/18.0
@@ -4505,6 +4535,7 @@ test("failure on loading more messages should display error and prompt retry but
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         [...Array(60).keys()].map(() => {
             return {
                 body: "coucou",
@@ -4513,6 +4544,8 @@ test("failure on loading more messages should display error and prompt retry but
             };
         })
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4728,6 +4761,9 @@ test("failure on loading more messages should display error and prompt retry but
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4974,6 +5010,7 @@ test("Retry loading more messages on failed load more messages should load more 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         [...Array(90).keys()].map(() => {
             return {
                 body: "coucou",
@@ -4982,6 +5019,8 @@ test("Retry loading more messages on failed load more messages should load more 
             };
         })
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5197,6 +5236,9 @@ test("Retry loading more messages on failed load more messages should load more 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5432,6 +5474,11 @@ test("Retry loading more messages on failed load more messages should load more 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    await scroll(".o-mail-Thread", 0);
+    await contains(".o-mail-Message", { count: 90 });
+>>>>>>> upstream/18.0
 =======
     await scroll(".o-mail-Thread", 0);
     await contains(".o-mail-Message", { count: 90 });
@@ -5804,8 +5851,11 @@ test("composer state: attachments save and restore", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains(".o-mail-Composer .o-mail-AttachmentCard:not(.o-isUploading)");
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6020,6 +6070,9 @@ test("composer state: attachments save and restore", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6249,11 +6302,14 @@ test("composer state: attachments save and restore", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     // Switch back to #general
     await click("button", { text: "General" });
     await contains(".o-mail-Composer .o-mail-AttachmentCard");
     await contains(".o-mail-AttachmentCard", { text: "text.txt" });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6469,6 +6525,9 @@ test("composer state: attachments save and restore", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6845,6 +6904,10 @@ test("Message shows up even if channel data is incomplete", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    await runAllTimers();
+>>>>>>> upstream/18.0
 =======
     await runAllTimers();
 >>>>>>> upstream/18.0

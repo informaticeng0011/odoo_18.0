@@ -73,7 +73,10 @@ import { formatCurrency as webFormatCurrency } from "@web/core/currency";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { attributeFormatter } from "@pos_self_order/app/utils";
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -385,8 +388,11 @@ import { TimeoutPopup } from "@pos_self_order/app/components/timeout_popup/timeo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { constructFullProductName, deduceUrl, random5Chars } from "@point_of_sale/utils";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -867,6 +873,9 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1192,6 +1201,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { initLNA } from "@point_of_sale/app/utils/init_lna";
+>>>>>>> upstream/18.0
 =======
 import { initLNA } from "@point_of_sale/app/utils/init_lna";
 >>>>>>> upstream/18.0
@@ -1325,7 +1338,10 @@ export class SelfOrder extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1338,6 +1354,9 @@ export class SelfOrder extends Reactive {
         }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1554,6 +1573,10 @@ export class SelfOrder extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            price_type: "original",
+>>>>>>> upstream/18.0
 =======
             price_type: "original",
 >>>>>>> upstream/18.0
@@ -2153,7 +2176,12 @@ export class SelfOrder extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 this.models["product.template.attribute.value"].getAllBy("id")
+=======
+                this.models["product.template.attribute.value"].getAllBy("id"),
+                this.currency
+>>>>>>> upstream/18.0
 =======
                 this.models["product.template.attribute.value"].getAllBy("id"),
                 this.currency
@@ -2488,6 +2516,7 @@ export class SelfOrder extends Reactive {
 
         if (lineToMerge) {
             lineToMerge.setDirty();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3125,6 +3154,9 @@ export class SelfOrder extends Reactive {
 =======
             lineToMerge.set_quantity(lineToMerge.qty + newLine.qty);
 >>>>>>> upstream/18.0
+=======
+            lineToMerge.set_quantity(lineToMerge.qty + newLine.qty);
+>>>>>>> upstream/18.0
             newLine.delete();
         } else {
             newLine.setDirty();
@@ -3257,7 +3289,11 @@ export class SelfOrder extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (paymentMethods.length === 0) {
+=======
+        if (paymentMethods.length === 0 || order.amount_total === 0) {
+>>>>>>> upstream/18.0
 =======
         if (paymentMethods.length === 0 || order.amount_total === 0) {
 >>>>>>> upstream/18.0
@@ -3714,6 +3750,10 @@ export class SelfOrder extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        newOrder.set_pricelist(this.config.pricelist_id);
+>>>>>>> upstream/18.0
 =======
         newOrder.set_pricelist(this.config.pricelist_id);
 >>>>>>> upstream/18.0
@@ -4351,8 +4391,11 @@ export class SelfOrder extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     if (!isSpecialProduct(p) && !productTmplIds.has(p.raw.product_tmpl_id)) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4775,6 +4818,9 @@ export class SelfOrder extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5221,6 +5267,12 @@ export class SelfOrder extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+        computeProductPricelistCache(this);
+
+>>>>>>> upstream/18.0
 =======
 
         computeProductPricelistCache(this);
@@ -6283,6 +6335,10 @@ export class SelfOrder extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            const uuid = this.currentOrder.uuid;
+>>>>>>> upstream/18.0
 =======
             const uuid = this.currentOrder.uuid;
 >>>>>>> upstream/18.0
@@ -6632,8 +6688,11 @@ export class SelfOrder extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return this.currentOrder;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6878,6 +6937,9 @@ export class SelfOrder extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7280,10 +7342,13 @@ export class SelfOrder extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     updateOrderFromServer(order) {
         this.currentOrder.updateDataFromServer(order);
     }
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7756,6 +7821,7 @@ export class SelfOrder extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     getSelectedAttributes(line) {
         const attributeValues = line.attribute_value_ids;
         const customAttr = line.custom_attribute_value_ids;
@@ -7770,6 +7836,8 @@ export class SelfOrder extends Reactive {
         const attrsStr = " (" + attrs.map((a) => a.value).join(", ") + ")";
         return line.full_product_name + (attrs.length ? attrsStr : "");
     }
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

@@ -47,7 +47,11 @@ from odoo.exceptions import UserError
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tools import float_round, float_repr, date_utils, SQL
+=======
+from odoo.tools import float_round, float_repr, float_compare, date_utils, SQL
+>>>>>>> upstream/18.0
 =======
 from odoo.tools import float_round, float_repr, float_compare, date_utils, SQL
 >>>>>>> upstream/18.0
@@ -343,7 +347,10 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -564,6 +571,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -782,9 +792,13 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             and (self.partner_id.is_company or self.partner_id.vat) \
             and self.company_id.country_code == 'ES' \
             and self.company_id.currency_id.name == 'EUR' \
+=======
+            and self.country_code == 'ES' \
+>>>>>>> upstream/18.0
 =======
             and self.country_code == 'ES' \
 >>>>>>> upstream/18.0
@@ -1131,10 +1145,13 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _l10n_es_edi_facturae_get_tax_node_from_tax_data(self, values):
         self.ensure_one()
         tax = values['grouping_key']
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1251,6 +1268,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1330,6 +1350,7 @@ class AccountMove(models.Model):
             'tax_record': tax,
             'TaxRate': f'{abs(tax.amount):.3f}',
             'TaxableBase': {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1449,6 +1470,8 @@ class AccountMove(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 'TotalAmount': self.currency_id.round(values[f'{prefix}base_amount_currency']),
                 'EquivalentInEuros': self.company_currency_id.round(values[f'{prefix}base_amount']),
             },
@@ -1492,6 +1515,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1635,7 +1661,10 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         extended_dp = 6 if self.company_id.tax_calculation_rounding_method == 'round_globally' else 2
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1770,7 +1799,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'GrossAmount': line.price_subtotal,
+=======
+            'GrossAmount': float_round(tax_details['raw_total_excluded_currency'], precision_digits=8),
+>>>>>>> upstream/18.0
 =======
             'GrossAmount': float_round(tax_details['raw_total_excluded_currency'], precision_digits=8),
 >>>>>>> upstream/18.0
@@ -1928,6 +1961,7 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             raw_total_cost = tax_details['total_excluded_currency'] / (1 - (line.discount / 100.0))
         xml_values['TotalCost'] = line.currency_id.round(raw_total_cost)
 
@@ -1940,6 +1974,8 @@ class AccountMove(models.Model):
         discount_amount = max(raw_discount_amount, 0.0)
         if discount_amount:
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2061,6 +2097,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2142,6 +2181,7 @@ class AccountMove(models.Model):
                 'DiscountAmount': discount_amount,
             })
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2263,6 +2303,8 @@ class AccountMove(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         if float_compare(discount_amount, 0.0, precision_digits=8) < 0:
             xml_values['Charges'].append({
                 'ChargeReason': '/',
@@ -2306,6 +2348,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2441,6 +2486,7 @@ class AccountMove(models.Model):
         invoice_values = {
             'invoice_record': self,
             'invoice_currency': inv_curr,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2918,6 +2964,10 @@ class AccountMove(models.Model):
             'InvoiceDocumentType': 'FA' if self.l10n_es_is_simplified else 'FC',
             'InvoiceClass': 'OR' if self.move_type in ['out_refund', 'in_refund'] else 'OO',
 >>>>>>> upstream/18.0
+=======
+            'InvoiceDocumentType': 'FA' if self.l10n_es_is_simplified else 'FC',
+            'InvoiceClass': 'OR' if self.move_type in ['out_refund', 'in_refund'] else 'OO',
+>>>>>>> upstream/18.0
             'Corrective': self._l10n_es_edi_facturae_get_corrective_data(),
             'InvoiceIssueData': {
                 'OperationDate': operation_date,
@@ -2950,6 +3000,7 @@ class AccountMove(models.Model):
 
         # Taxes.
         AccountTax = self.env['account.tax']
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3314,6 +3365,8 @@ class AccountMove(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         base_lines, _tax_lines = self._get_rounded_base_and_tax_lines()
 
         def grouping_function_per_tax(base_line, tax_data):
@@ -3357,6 +3410,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3475,6 +3531,7 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             for values in aggregated_values.values():
                 tax = values['grouping_key']
                 if not tax:
@@ -3488,6 +3545,8 @@ class AccountMove(models.Model):
                     invoice_values['TaxOutputs'].append(tax_data)
                     invoice_values['TotalTaxOutputs'] += tax_data['TaxAmount']['TotalAmount']
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3616,6 +3675,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3735,6 +3797,10 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        refund_multiplier = -1 if self.move_type in ('out_refund', 'in_refund') else 1
+>>>>>>> upstream/18.0
 =======
         refund_multiplier = -1 if self.move_type in ('out_refund', 'in_refund') else 1
 >>>>>>> upstream/18.0
@@ -3903,7 +3969,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'refund_multiplier': -1 if self.move_type in ('out_refund', 'in_refund') else 1,
+=======
+            'refund_multiplier': refund_multiplier,
+>>>>>>> upstream/18.0
 =======
             'refund_multiplier': refund_multiplier,
 >>>>>>> upstream/18.0
@@ -4075,6 +4145,10 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> upstream/18.0
 =======
 
 >>>>>>> upstream/18.0
@@ -4542,7 +4616,10 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

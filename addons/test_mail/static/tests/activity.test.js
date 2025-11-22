@@ -108,9 +108,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { ActivityController } from "@mail/views/web/activity/activity_controller";
 import { ActivityModel } from "@mail/views/web/activity/activity_model";
 import { ActivityRenderer } from "@mail/views/web/activity/activity_renderer";
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -453,6 +456,7 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import {
     DEFAULT_MAIL_SEARCH_ID,
     DEFAULT_MAIL_VIEW_ID,
@@ -472,6 +476,8 @@ import { onRpc, patchWithCleanup, serverState, contains as webContains } from "@
 import { keyDown, waitFor } from "@odoo/hoot-dom";
 import { MailActivitySchedule } from "@mail/../tests/mock_server/mock_models/mail_activity_schedule";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -821,6 +827,9 @@ import { RelationalModel } from "@web/model/relational_model/relational_model";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1182,9 +1191,13 @@ function patchActivityDomain(load, params) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const newDomain = Domain.removeDomainLeaves(domain.toList(), [
             "activity_ids.active",
         ]);
+=======
+        const newDomain = Domain.removeDomainLeaves(domain.toList(), ["activity_ids.active"]);
+>>>>>>> upstream/18.0
 =======
         const newDomain = Domain.removeDomainLeaves(domain.toList(), ["activity_ids.active"]);
 >>>>>>> upstream/18.0
@@ -1646,7 +1659,11 @@ beforeEach(async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     })
+=======
+    });
+>>>>>>> upstream/18.0
 =======
     });
 >>>>>>> upstream/18.0
@@ -2557,10 +2574,15 @@ test("activity widget: cancel an activity from the widget", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     onRpc("unlink", ({ args, route }) => {
         expect(args).toEqual([[mailActivityId]]);
         expect(route.includes("mail.activity")).toBe(true);
         expect(route.includes("unlink")).toBe(true);
+=======
+    onRpc("mail.activity", "unlink", ({ args, route }) => {
+        expect(args).toEqual([[mailActivityId]]);
+>>>>>>> upstream/18.0
 =======
     onRpc("mail.activity", "unlink", ({ args, route }) => {
         expect(args).toEqual([[mailActivityId]]);
@@ -3156,10 +3178,14 @@ test("activity view: search more to schedule an activity for a record of a respe
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     MailTestActivity._views = {
         ...MailTestActivity._views,
         "list,false": '<list string="MailTestActivity"><field name="name"/></list>',
     };
+=======
+    MailTestActivity._views.list = '<list string="MailTestActivity"><field name="name"/></list>';
+>>>>>>> upstream/18.0
 =======
     MailTestActivity._views.list = '<list string="MailTestActivity"><field name="name"/></list>';
 >>>>>>> upstream/18.0
@@ -3639,10 +3665,14 @@ test("activity view: Domain should not reset on load", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     MailTestActivity._views = {
         ...MailTestActivity._views,
         "list,false": '<list string="MailTestActivity"><field name="name"/></list>',
     };
+=======
+    MailTestActivity._views.list = '<list string="MailTestActivity"><field name="name"/></list>';
+>>>>>>> upstream/18.0
 =======
     MailTestActivity._views.list = '<list string="MailTestActivity"><field name="name"/></list>';
 >>>>>>> upstream/18.0
@@ -4113,10 +4143,14 @@ test("activity view: 'scheduleActivity' does not add activity_ids condition as s
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     MailTestActivity._views = {
         ...MailTestActivity._views,
         "list,false": '<list string="MailTestActivity"><field name="name"/></list>',
     };
+=======
+    MailTestActivity._views.list = '<list string="MailTestActivity"><field name="name"/></list>';
+>>>>>>> upstream/18.0
 =======
     MailTestActivity._views.list = '<list string="MailTestActivity"><field name="name"/></list>';
 >>>>>>> upstream/18.0
@@ -4586,10 +4620,14 @@ test("activity view: 'onClose' of 'openActivityFormView' does not add activity_i
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     MailTestActivity._views = {
         ...MailTestActivity._views,
         "list,false": '<list string="MailTestActivity"><field name="name"/></list>',
     };
+=======
+    MailTestActivity._views.list = '<list string="MailTestActivity"><field name="name"/></list>';
+>>>>>>> upstream/18.0
 =======
     MailTestActivity._views.list = '<list string="MailTestActivity"><field name="name"/></list>';
 >>>>>>> upstream/18.0
@@ -5056,10 +5094,14 @@ test("activity view: 'onReloadData' does not add activity_ids condition as selec
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     MailTestActivity._views = {
         ...MailTestActivity._views,
         "list,false": '<list string="MailTestActivity"><field name="name"/></list>',
     };
+=======
+    MailTestActivity._views.list = '<list string="MailTestActivity"><field name="name"/></list>';
+>>>>>>> upstream/18.0
 =======
     MailTestActivity._views.list = '<list string="MailTestActivity"><field name="name"/></list>';
 >>>>>>> upstream/18.0
@@ -5590,10 +5632,14 @@ test("Schedule activity dialog uses the same search view as activity view", asyn
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     MailTestActivity._views = {
         ...MailTestActivity._views,
         "list,false": `<list><field name="name"/></list>`,
     };
+=======
+    MailTestActivity._views.list = `<list><field name="name"/></list>`;
+>>>>>>> upstream/18.0
 =======
     MailTestActivity._views.list = `<list><field name="name"/></list>`;
 >>>>>>> upstream/18.0
@@ -6040,6 +6086,7 @@ test("Schedule activity dialog uses the same search view as activity view", asyn
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     });
     await assertSteps([
         `[[${DEFAULT_MAIL_VIEW_ID},"activity"],[${DEFAULT_MAIL_SEARCH_ID},"search"]]`,
@@ -6048,6 +6095,8 @@ test("Schedule activity dialog uses the same search view as activity view", asyn
     await click(".o_activity_view .o_record_selector");
     await assertSteps([`[[false,"list"],[${DEFAULT_MAIL_SEARCH_ID},"search"]]`]);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6382,6 +6431,9 @@ test("Schedule activity dialog uses the same search view as activity view", asyn
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6605,6 +6657,7 @@ test("Schedule activity dialog uses the same search view as activity view", asyn
     await openView({
         res_model: "mail.test.activity",
         views: [[false, "activity"]],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6940,6 +6993,8 @@ test("Schedule activity dialog uses the same search view as activity view", asyn
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         viewId: 15,
         searchViewId: 16,
     });
@@ -7056,6 +7111,9 @@ test("Schedule activity dialog uses the same search view as activity view", asyn
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7536,9 +7594,13 @@ test("test node visibility depends on invisible attribute on the node and in the
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     MailTestActivity._views = {
         ...MailTestActivity._views,
         "activity,1": `
+=======
+    MailTestActivity._views["activity,1"] = `
+>>>>>>> upstream/18.0
 =======
     MailTestActivity._views["activity,1"] = `
 >>>>>>> upstream/18.0
@@ -7988,8 +8050,12 @@ test("test node visibility depends on invisible attribute on the node and in the
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 </activity>`,
     };
+=======
+                </activity>`;
+>>>>>>> upstream/18.0
 =======
                 </activity>`;
 >>>>>>> upstream/18.0
@@ -8336,6 +8402,7 @@ test("test node visibility depends on invisible attribute on the node and in the
 
 test("update activity view after creating multiple activities", async () => {
     registerArchs(archs);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9005,6 +9072,11 @@ test("update activity view after creating multiple activities", async () => {
         '<list string="MailTestActivity"><field name="name"/><field name="activity_ids" widget="list_activity"/></list>';
     MailActivitySchedule._views.form = "<form><field name='summary'/></form>";
 >>>>>>> upstream/18.0
+=======
+    MailTestActivity._views.list =
+        '<list string="MailTestActivity"><field name="name"/><field name="activity_ids" widget="list_activity"/></list>';
+    MailActivitySchedule._views.form = "<form><field name='summary'/></form>";
+>>>>>>> upstream/18.0
 
     const Activity = pyEnv["mail.activity"];
     const activityToCreate = omit(Activity[0], "id");
@@ -9120,7 +9192,11 @@ test("update activity view after creating multiple activities", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     onRpc(({method, model}) => {
+=======
+    onRpc(({ method, model }) => {
+>>>>>>> upstream/18.0
 =======
     onRpc(({ method, model }) => {
 >>>>>>> upstream/18.0
@@ -9581,7 +9657,11 @@ test("update activity view after creating multiple activities", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await click(".modal-footer button.o_form_button_save", {target: modalSchedule});
+=======
+    await click(".modal-footer button.o_form_button_save", { target: modalSchedule });
+>>>>>>> upstream/18.0
 =======
     await click(".modal-footer button.o_form_button_save", { target: modalSchedule });
 >>>>>>> upstream/18.0
@@ -10029,6 +10109,7 @@ test("Activity View: Hide 'New' button in SelectCreateDialog based on action con
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     MailTestActivity._views = {
         ...MailTestActivity._views,
         "list,false": `
@@ -10039,6 +10120,8 @@ test("Activity View: Hide 'New' button in SelectCreateDialog based on action con
         ,
     };
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10371,6 +10454,9 @@ test("Activity View: Hide 'New' button in SelectCreateDialog based on action con
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10709,7 +10795,11 @@ test("Activity View: Hide 'New' button in SelectCreateDialog based on action con
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect('.o_create_button').toHaveCount(0, {
+=======
+    expect(".o_create_button").toHaveCount(0, {
+>>>>>>> upstream/18.0
 =======
     expect(".o_create_button").toHaveCount(0, {
 >>>>>>> upstream/18.0

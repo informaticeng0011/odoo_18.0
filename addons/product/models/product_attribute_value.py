@@ -81,10 +81,13 @@ class ProductAttributeValue(models.Model):
     def _compute_default_extra_price_changed(self):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for pav in self:
             pav.default_extra_price_changed = (
                 pav.default_extra_price != pav._origin.default_extra_price
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         company_domain = self.env['product.template']._check_company_domain(self.env.companies)
@@ -99,6 +102,9 @@ class ProductAttributeValue(models.Model):
                 pav.default_extra_price != pav._origin.default_extra_price
                 or any(pav.default_extra_price != ptav.price_extra for ptav in ptavs)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

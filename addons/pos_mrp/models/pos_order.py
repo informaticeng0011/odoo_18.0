@@ -15,7 +15,11 @@ class PosOrderLine(models.Model):
         #Get a flat list of all bom_line_ids
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         bom_line_ids = [item for x in boms for item in x[0].bom_line_ids.ids]
+=======
+        bom_line_ids = [item.id for x in boms for item in x[0].bom_line_ids if set(item.bom_product_template_attribute_value_ids.ids).issubset(product.product_template_variant_value_ids.ids)]
+>>>>>>> upstream/18.0
 =======
         bom_line_ids = [item.id for x in boms for item in x[0].bom_line_ids if set(item.bom_product_template_attribute_value_ids.ids).issubset(product.product_template_variant_value_ids.ids)]
 >>>>>>> upstream/18.0

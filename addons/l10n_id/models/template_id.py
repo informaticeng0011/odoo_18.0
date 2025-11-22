@@ -34,8 +34,13 @@ class AccountChartTemplate(models.AbstractModel):
                 'account_journal_early_pay_discount_loss_account_id': 'l10n_id_99900003',
                 'account_journal_early_pay_discount_gain_account_id': 'l10n_id_99900004',
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'account_sale_tax_id': 'tax_ST1',
                 'account_purchase_tax_id': 'tax_PT1',
+=======
+                'account_sale_tax_id': 'tax_ST4',
+                'account_purchase_tax_id': 'tax_PT4',
+>>>>>>> upstream/18.0
 =======
                 'account_sale_tax_id': 'tax_ST4',
                 'account_purchase_tax_id': 'tax_PT4',

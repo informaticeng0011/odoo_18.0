@@ -53,7 +53,11 @@ registry
             ...comboConfiguratorTourUtils.saveConfigurator(),
             tourUtils.checkSOLDescriptionContains("Combo product x 3"),
             tourUtils.checkSOLDescriptionContains(
+<<<<<<< HEAD
                 "Product A1", "No variant attribute: B: Some custom value"
+=======
+                "Product A1", "No variant attribute: B: Some custom value", { isReadonly: true }
+>>>>>>> upstream/18.0
             ),
             tourUtils.checkSOLDescriptionContains("Product B2"),
             {

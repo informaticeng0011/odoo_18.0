@@ -276,6 +276,11 @@ def float_repr(value, precision_digits):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    if float_is_zero(value, precision_digits=precision_digits):
+        value = 0.0
+>>>>>>> upstream/18.0
 =======
     if float_is_zero(value, precision_digits=precision_digits):
         value = 0.0

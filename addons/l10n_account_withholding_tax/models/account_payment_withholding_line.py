@@ -104,8 +104,11 @@ class AccountPaymentWithholdingLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             line.type_tax_use = 'sale' if line.payment_id.payment_type == 'inbound' else 'purchase'
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -320,6 +323,9 @@ class AccountPaymentWithholdingLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -587,6 +593,12 @@ class AccountPaymentWithholdingLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+    def _get_comodel_partner(self):
+        return self.payment_id.partner_id
+>>>>>>> upstream/18.0
 =======
 
     def _get_comodel_partner(self):

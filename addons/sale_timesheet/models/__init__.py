@@ -14,3 +14,7 @@ from . import project_update
 from . import res_config_settings
 from . import sale_order_line
 from . import sale_order
+<<<<<<< HEAD
+=======
+from . import account_move_reversal
+>>>>>>> upstream/18.0

@@ -13,7 +13,11 @@
     """,
     "website": "https://www.odoo.com",
     "license": "LGPL-3",
+<<<<<<< HEAD
     "depends": ["l10n_tw"],
+=======
+    "depends": ["l10n_tw", "base_vat"],
+>>>>>>> upstream/18.0
     "data": [
         "security/ir.model.access.csv",
         "views/res_config_setting_view.xml",
@@ -39,6 +43,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    "uninstall_hook": "uninstall_hook",
+>>>>>>> upstream/18.0
 =======
     "uninstall_hook": "uninstall_hook",
 >>>>>>> upstream/18.0

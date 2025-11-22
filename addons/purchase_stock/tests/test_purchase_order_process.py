@@ -77,6 +77,10 @@ class TestPurchaseOrderProcess(PurchaseTestCommon):
                 })],
         })
         purchase_order.button_confirm()
+<<<<<<< HEAD
+=======
+        purchase_order.order_line.flush_recordset()
+>>>>>>> upstream/18.0
         purchase_order.picking_ids.move_ids.flush_recordset()
         delay_reports = self.env['vendor.delay.report']._read_group([('partner_id', '=', partner.id)], ['product_id'], ['on_time_rate:sum'])
         self.assertEqual([rec[1] for rec in delay_reports], [0.0, 0.0])

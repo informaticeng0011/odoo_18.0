@@ -8,7 +8,10 @@ from odoo.addons.portal.controllers import mail
 class PortalChatter(mail.PortalChatter):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def _get_non_empty_message_domain(self):
@@ -16,6 +19,9 @@ class PortalChatter(mail.PortalChatter):
             [super()._get_non_empty_message_domain(), [("rating_value", "!=", False)]]
         )
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

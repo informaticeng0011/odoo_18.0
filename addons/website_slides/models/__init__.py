@@ -129,6 +129,10 @@ from . import gamification_karma_tracking
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from . import ir_binary
+>>>>>>> upstream/18.0
 =======
 from . import ir_binary
 >>>>>>> upstream/18.0

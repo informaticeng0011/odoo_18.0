@@ -121,7 +121,11 @@ class AccountMove(models.Model):
     def _get_sections_aggregate_sum_by_pan(self, section_alert, commercial_partner_id):
         self.ensure_one()
         month_start_date, month_end_date = get_month(self.date)
+<<<<<<< HEAD
         company_fiscalyear_dates = self.company_id.compute_fiscalyear_dates(self.date)
+=======
+        company_fiscalyear_dates = self.company_id.sudo().compute_fiscalyear_dates(self.date)
+>>>>>>> upstream/18.0
         fiscalyear_start_date, fiscalyear_end_date = company_fiscalyear_dates['date_from'], company_fiscalyear_dates['date_to']
         default_domain = [
             ('account_id.l10n_in_tds_tcs_section_id', '=', section_alert.id),
@@ -174,7 +178,11 @@ class AccountMove(models.Model):
         def _group_by_section_alert(invoice_lines):
             group_by_lines = {}
             for line in invoice_lines:
+<<<<<<< HEAD
                 group_key = line.account_id.l10n_in_tds_tcs_section_id
+=======
+                group_key = line.account_id.sudo().l10n_in_tds_tcs_section_id
+>>>>>>> upstream/18.0
                 if group_key and not line.company_currency_id.is_zero(line.price_total):
                     group_by_lines.setdefault(group_key, [])
                     group_by_lines[group_key].append(line)

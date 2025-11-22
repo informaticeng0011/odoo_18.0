@@ -142,7 +142,12 @@ class PosPaymentMethod(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'config_id': pos_session_sudo.config_id.id
+=======
+                'config_id': pos_session_sudo.config_id.id,
+                'session_id': data.get('sessionId'),
+>>>>>>> upstream/18.0
 =======
                 'config_id': pos_session_sudo.config_id.id,
                 'session_id': data.get('sessionId'),

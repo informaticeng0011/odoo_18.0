@@ -139,6 +139,10 @@ TIMEOUT = 50
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+DEFAULT_GC_RETENTION_SECONDS = 60 * 60 * 24  # 24 hours
+>>>>>>> upstream/18.0
 =======
 DEFAULT_GC_RETENTION_SECONDS = 60 * 60 * 24  # 24 hours
 >>>>>>> upstream/18.0
@@ -686,6 +690,7 @@ class ImBus(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         timeout_ago = fields.Datetime.now() - datetime.timedelta(seconds=TIMEOUT*2)
         domain = [('create_date', '<', timeout_ago)]
         records = self.search(domain, limit=models.GC_UNLINK_LIMIT)
@@ -693,6 +698,8 @@ class ImBus(models.Model):
             self.env.ref('base.autovacuum_job')._trigger()
         return records.unlink()
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1054,6 +1061,9 @@ class ImBus(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

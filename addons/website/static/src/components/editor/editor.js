@@ -79,7 +79,12 @@ export class WebsiteEditorComponent extends Component {
         this.websiteService.unblockPreview();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         document.body.classList.add("o_website_navbar_transition_hide");
+=======
+        // setTimeout ensure transition on Firefox
+        setTimeout(() => document.body.classList.add("o_website_navbar_transition_hide"));
+>>>>>>> upstream/18.0
 =======
         // setTimeout ensure transition on Firefox
         setTimeout(() => document.body.classList.add("o_website_navbar_transition_hide"));

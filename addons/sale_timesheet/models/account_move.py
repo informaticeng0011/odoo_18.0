@@ -247,6 +247,7 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _get_range_dates(self):
         # A method that will be overridden in sale_subscription_timesheet
         # to set the start and end dates for the subscription period
@@ -1046,3 +1047,20 @@ class AccountMove(models.Model):
         # to set the start and end dates according to order values
 >>>>>>> upstream/18.0
         return None, None
+=======
+    def _get_range_dates(self, order):
+        # A method that can be overridden
+        # to set the start and end dates according to order values
+        return None, None
+
+    def action_post(self):
+        result = super().action_post()
+        credit_notes = self.filtered(lambda move: move.move_type == 'out_refund' and move.reversed_entry_id)
+        timesheets_sudo = self.env['account.analytic.line'].sudo().search([
+            ('timesheet_invoice_id', 'in', credit_notes.reversed_entry_id.ids),
+            ('so_line', 'in', credit_notes.invoice_line_ids.sale_line_ids.ids),
+            ('project_id', '!=', False),
+        ])
+        timesheets_sudo.write({'timesheet_invoice_id': False})
+        return result
+>>>>>>> upstream/18.0

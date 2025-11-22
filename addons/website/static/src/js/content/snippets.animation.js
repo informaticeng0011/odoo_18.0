@@ -36,7 +36,10 @@ import { uniqueId } from "@web/core/utils/functions";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { escape } from "@web/core/utils/strings";
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -139,6 +142,10 @@ import { scrollTo } from "@web_editor/js/common/scrolling";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { generateVideoIframe } from "@website/js/content/generate_video_iframe";
+>>>>>>> upstream/18.0
 =======
 import { generateVideoIframe } from "@website/js/content/generate_video_iframe";
 >>>>>>> upstream/18.0
@@ -1107,6 +1114,10 @@ registry.mediaVideo = publicWidget.Widget.extend(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    disabledInEditableMode: false,
+>>>>>>> upstream/18.0
 =======
     disabledInEditableMode: false,
 >>>>>>> upstream/18.0
@@ -1234,6 +1245,7 @@ registry.mediaVideo = publicWidget.Widget.extend(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         // The following code is only there to ensure compatibility with
         // videos added before bug fixes or new Odoo versions where the
         // <iframe/> element is properly saved.
@@ -1242,6 +1254,8 @@ registry.mediaVideo = publicWidget.Widget.extend(
         }
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1336,6 +1350,9 @@ registry.mediaVideo = publicWidget.Widget.extend(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1451,7 +1468,10 @@ registry.mediaVideo = publicWidget.Widget.extend(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1540,6 +1560,9 @@ registry.mediaVideo = publicWidget.Widget.extend(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1632,6 +1655,7 @@ registry.mediaVideo = publicWidget.Widget.extend(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     //--------------------------------------------------------------------------
     // Private
@@ -1684,6 +1708,8 @@ registry.mediaVideo = publicWidget.Widget.extend(
         this._manageIframeSrc(this.el, src);
         return iframeEl;
     },
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1951,7 +1977,12 @@ registry.anchorSlide = publicWidget.Widget.extend({
         hash = '#' + $.escapeSelector(hash.substring(1));
         var $anchor = $(hash);
         const scrollValue = $anchor.attr('data-anchor');
+<<<<<<< HEAD
         if (!$anchor.length || !scrollValue) {
+=======
+        // No need to scroll when target is _blank as it should open in new tab
+        if (!$anchor.length || !scrollValue || this.el.target === "_blank") {
+>>>>>>> upstream/18.0
             return;
         }
 
@@ -2150,8 +2181,11 @@ registry.FullScreenHeight = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             $(window).on('resize.FullScreenHeight', debounce(() => this._adaptSize(), 250));
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2546,6 +2580,9 @@ registry.FullScreenHeight = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2965,6 +3002,7 @@ registry.FullScreenHeight = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const windowHeight = $(window).outerHeight();
         if (this.inModal) {
             return windowHeight;
@@ -2976,6 +3014,8 @@ registry.FullScreenHeight = publicWidget.Widget.extend({
         const mainTopPos = firstContentEl.getBoundingClientRect().top + document.documentElement.scrollTop;
         return (windowHeight - mainTopPos);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3403,6 +3443,9 @@ registry.FullScreenHeight = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3837,7 +3880,11 @@ registry.BottomFixedElement = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.__hideBottomFixedElements = debounce(() => this._hideBottomFixedElements(), 100);
+=======
+        this.__hideBottomFixedElements = debounce(() => this._hideBottomFixedElements(), 100, { leading: true, trailing: true });
+>>>>>>> upstream/18.0
 =======
         this.__hideBottomFixedElements = debounce(() => this._hideBottomFixedElements(), 100, { leading: true, trailing: true });
 >>>>>>> upstream/18.0
@@ -4288,7 +4335,11 @@ registry.BottomFixedElement = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if (hiddenButtonEl) {
+=======
+                if (hiddenButtonEl.length) {
+>>>>>>> upstream/18.0
 =======
                 if (hiddenButtonEl.length) {
 >>>>>>> upstream/18.0
@@ -4813,8 +4864,13 @@ registry.WebsiteAnimate = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 const actualScroll = wrapEl.scrollTop + this.windowsHeight;
                 const totalScrollHeight = wrapEl.scrollHeight;
+=======
+                const actualScroll = document.scrollingElement.scrollTop + this.windowsHeight;
+                const totalScrollHeight = document.scrollingElement.scrollHeight;
+>>>>>>> upstream/18.0
 =======
                 const actualScroll = document.scrollingElement.scrollTop + this.windowsHeight;
                 const totalScrollHeight = document.scrollingElement.scrollHeight;

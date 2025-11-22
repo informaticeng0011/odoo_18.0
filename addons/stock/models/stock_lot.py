@@ -5,6 +5,10 @@ import operator as py_operator
 from operator import attrgetter
 from re import findall as regex_findall, split as regex_split
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from collections import defaultdict
+>>>>>>> upstream/18.0
 =======
 from collections import defaultdict
 >>>>>>> upstream/18.0
@@ -150,7 +154,11 @@ class StockLot(models.Model):
 
     def _compute_delivery_ids(self):
 <<<<<<< HEAD
+<<<<<<< HEAD
         delivery_ids_by_lot = self._find_delivery_ids_by_lot()
+=======
+        delivery_ids_by_lot = self._find_delivery_ids_by_lot_iterative()
+>>>>>>> upstream/18.0
 =======
         delivery_ids_by_lot = self._find_delivery_ids_by_lot_iterative()
 >>>>>>> upstream/18.0
@@ -161,7 +169,11 @@ class StockLot(models.Model):
     def _compute_last_delivery_partner_id(self):
         serial_products = self.filtered(lambda l: l.product_id.tracking == 'serial')
 <<<<<<< HEAD
+<<<<<<< HEAD
         delivery_ids_by_lot = serial_products._find_delivery_ids_by_lot()
+=======
+        delivery_ids_by_lot = serial_products._find_delivery_ids_by_lot_iterative()
+>>>>>>> upstream/18.0
 =======
         delivery_ids_by_lot = serial_products._find_delivery_ids_by_lot_iterative()
 >>>>>>> upstream/18.0
@@ -332,7 +344,10 @@ class StockLot(models.Model):
             delivery_by_lot[lot.id] = list(delivery_ids)
         return delivery_by_lot
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def _find_delivery_ids_by_lot_iterative(self):
         """ Retrieve all delivery IDs (outgoing picking) linked to the lots
@@ -399,4 +414,7 @@ class StockLot(models.Model):
                     lots_to_propagate.add(parent_id)
 
         return {lot_id: list(delivery_by_lot[lot_id]) for lot_id in delivery_by_lot}
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

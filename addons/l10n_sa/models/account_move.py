@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 import base64
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -430,12 +431,18 @@ from odoo.tools import float_repr, format_datetime
 from odoo import api, fields, models
 from odoo.tools import float_repr, format_datetime
 >>>>>>> upstream/18.0
+=======
+from datetime import datetime
+from odoo import api, fields, models
+from odoo.tools import float_repr, format_datetime
+>>>>>>> upstream/18.0
 
 
 class AccountMove(models.Model):
     _inherit = 'account.move'
 
     l10n_sa_qr_code_str = fields.Char(string='Zatka QR Code', compute='_compute_qr_code_str')
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -949,6 +956,12 @@ class AccountMove(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+    l10n_sa_confirmation_datetime = fields.Datetime(string='ZATCA Issue Date',
+                                                    readonly=True,
+                                                    copy=False,
+                                                    help="""Date on which the invoice is generated as final document (after securing all internal approvals).""")
+>>>>>>> upstream/18.0
 
     @api.depends('country_code', 'move_type')
     def _compute_show_delivery_date(self):
@@ -988,6 +1001,7 @@ class AccountMove(models.Model):
         res = super()._post(soft)
         for move in self:
             if move.country_code == 'SA' and move.is_sale_document():
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1943,6 +1957,11 @@ class AccountMove(models.Model):
                 if not move.l10n_sa_confirmation_datetime:
                     vals['l10n_sa_confirmation_datetime'] = fields.Datetime.now()
 >>>>>>> upstream/18.0
+=======
+                vals = {}
+                if not move.l10n_sa_confirmation_datetime:
+                    vals['l10n_sa_confirmation_datetime'] = datetime.combine(move.invoice_date, fields.Datetime.now().time())
+>>>>>>> upstream/18.0
                 if not move.delivery_date:
                     vals['delivery_date'] = move.invoice_date
                 move.write(vals)
@@ -2107,6 +2126,7 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -2255,6 +2275,8 @@ class AccountMove(models.Model):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2511,6 +2533,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2684,6 +2709,7 @@ class AccountMove(models.Model):
         for move in self.filtered(lambda m: m.country_code == 'SA'):
             move.l10n_sa_confirmation_datetime = False
 
+<<<<<<< HEAD
     def button_draft(self):
         self._l10n_sa_reset_confirmation_datetime()
         super().button_draft()
@@ -3163,6 +3189,8 @@ class AccountMove(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     def _get_l10n_sa_totals(self):
         self.ensure_one()
         return {
@@ -3240,7 +3268,10 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3456,6 +3487,7 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3596,4 +3628,15 @@ class AccountMove(models.Model):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+    def write(self, vals):
+        result = super().write(vals)
+        invoice_date = vals.get('invoice_date')
+        if not invoice_date:
+            return result
+        for move in self.filtered('l10n_sa_confirmation_datetime'):
+            move.l10n_sa_confirmation_datetime = datetime.combine(fields.Date.from_string(invoice_date), move.l10n_sa_confirmation_datetime.time())
+        return result
 >>>>>>> upstream/18.0

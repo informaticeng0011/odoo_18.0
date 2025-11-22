@@ -103,6 +103,10 @@ class Certificate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        parent_company_id = journal.company_id.parent_id
+>>>>>>> upstream/18.0
 =======
         parent_company_id = journal.company_id.parent_id
 >>>>>>> upstream/18.0
@@ -393,6 +397,7 @@ class Certificate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             (NameOID.ORGANIZATIONAL_UNIT_NAME, (company_id.vat or '')[:10]),
             # Organization Name
             (NameOID.ORGANIZATION_NAME, company_id.name),
@@ -441,6 +446,8 @@ class Certificate(models.Model):
             # Organization Identifier
             (ObjectIdentifier('2.5.4.97'), company_id.vat),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -658,6 +665,9 @@ class Certificate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -886,7 +896,11 @@ class Certificate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     version_info['server_version_info'][0], journal.l10n_sa_serial_number)),
+=======
+                    version_info['server_serie'], journal.l10n_sa_serial_number)),
+>>>>>>> upstream/18.0
 =======
                     version_info['server_serie'], journal.l10n_sa_serial_number)),
 >>>>>>> upstream/18.0

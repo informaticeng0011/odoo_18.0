@@ -22,6 +22,10 @@ from freezegun import freeze_time
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo import Command
+>>>>>>> upstream/18.0
 =======
 from odoo import Command
 >>>>>>> upstream/18.0
@@ -97,12 +101,28 @@ class L10nTWITestEdi(TestAccountMoveSendCommon, HttpCase):
             'contact_address': 'test address',
             'company_type': 'person',
         })
+<<<<<<< HEAD
 
+=======
+        cls.partner_b.write({
+            'phone': '+886 123 456 789',
+            'contact_address': 'test address',
+            'vat': '12345678',
+            'company_type': 'company',
+        })
+>>>>>>> upstream/18.0
         # We can reuse this invoice for the flow tests.
         cls.basic_invoice = cls.init_invoice(
             'out_invoice', partner=cls.partner_a, products=cls.product_a,
         )
         cls.basic_invoice.action_post()
+<<<<<<< HEAD
+=======
+        cls.basic_invoice_b2b = cls.init_invoice(
+            'out_invoice', partner=cls.partner_b, products=cls.product_a,
+        )
+        cls.basic_invoice_b2b.action_post()
+>>>>>>> upstream/18.0
 
     def test_01_can_generate_file(self):
         """
@@ -316,7 +336,10 @@ class L10nTWITestEdi(TestAccountMoveSendCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -403,10 +426,13 @@ class L10nTWITestEdi(TestAccountMoveSendCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -491,6 +517,7 @@ class L10nTWITestEdi(TestAccountMoveSendCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -517,6 +544,62 @@ class L10nTWITestEdi(TestAccountMoveSendCommon, HttpCase):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+    @freeze_time("2025-01-06 15:00:00")
+    def test_10_basic_submission_b2b_partner_created(self):
+        """
+        This tests the following flow for B2B invoices: a buyer is created, then an invoice is successfully sent
+        to the ECpay platform, and then pass validation.
+        """
+        send_and_print = self.create_send_and_print(self.basic_invoice_b2b)
+        with patch(CALL_API_METHOD, new=self._test_10_mock):
+            send_and_print.action_send_and_print()
+
+        # Now that the invoice has been sent successfully, we assert that some info have been saved correctly.
+        self.assertRecordValues(
+            self.basic_invoice_b2b,
+            [{
+                'l10n_tw_edi_ecpay_invoice_id': 'AB11100099',
+                'l10n_tw_edi_invoice_create_date': datetime.strptime('2025-01-06 15:00:00', '%Y-%m-%d %H:%M:%S'),
+                'l10n_tw_edi_state': 'valid',
+            }]
+        )
+
+        self.assertTrue(self.basic_invoice_b2b.l10n_tw_edi_file_id)
+
+    @freeze_time("2025-01-06 15:00:00")
+    def test_11_basic_submission_b2b_partner_exists(self):
+        """
+        This tests the following flow for B2B invoices: the buyer already exists, then an invoice is successfully
+        sent to the ECpay platform, and then pass validation.
+        """
+        send_and_print = self.create_send_and_print(self.basic_invoice_b2b)
+        with patch(CALL_API_METHOD, new=self._test_11_mock):
+            send_and_print.action_send_and_print()
+
+        # Now that the invoice has been sent successfully, we assert that some info have been saved correctly.
+        self.assertRecordValues(
+            self.basic_invoice_b2b,
+            [{
+                'l10n_tw_edi_ecpay_invoice_id': 'AB11100099',
+                'l10n_tw_edi_invoice_create_date': datetime.strptime('2025-01-06 15:00:00', '%Y-%m-%d %H:%M:%S'),
+                'l10n_tw_edi_state': 'valid',
+            }]
+        )
+
+        self.assertTrue(self.basic_invoice_b2b.l10n_tw_edi_file_id)
+
+    @freeze_time("2025-01-06 15:00:00")
+    def test_12_basic_submission_b2b_partner_creation_failed(self):
+        """
+        This tests the following flow for B2B invoices: creating the buyer failed, invoice should not be created.
+        """
+        send_and_print = self.create_send_and_print(self.basic_invoice_b2b)
+        with patch(CALL_API_METHOD, new=self._test_12_mock):
+            with self.assertRaises(UserError):
+                send_and_print.action_send_and_print()
+
 >>>>>>> upstream/18.0
     # -------------------------------------------------------------------------
     # Patched methods
@@ -687,7 +770,10 @@ class L10nTWITestEdi(TestAccountMoveSendCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -764,6 +850,7 @@ class L10nTWITestEdi(TestAccountMoveSendCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -790,4 +877,79 @@ class L10nTWITestEdi(TestAccountMoveSendCommon, HttpCase):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+    def _test_10_mock(self, endpoint, json_data, company_id, is_b2b=False):
+        if endpoint == "/Issue":
+            return {
+                "RtnCode": 1,
+                "RtnMsg": "Success",
+                "InvoiceNumber": "AB11100099",
+                "RandomNumber": "6868"
+            }
+        elif endpoint == "/GetIssue":
+            return {
+                "RtnCode": 1,
+                "RtnMsg": "Success",
+                "RtnData": {
+                    "RelateNumber": "20250106000000020",
+                    "SalesAmount": self.basic_invoice_b2b.amount_total,
+                    "Issue_Status": "1",
+                    "Invalid_Status": "0",
+                },
+            }
+        elif endpoint == "/GetCompanyNameByTaxID":
+            return {
+                "RtnCode": 1,
+                "CompanyName": "Test Company",
+            }
+        elif endpoint == "/MaintainMerchantCustomerData":
+            return {
+                "RtnCode": 1,
+                "RtnMsg": "新增成功",
+            }
+        else:
+            raise UserError('Unexpected endpoint called during a test: %s with params %s.' % (endpoint, json_data))
+
+    def _test_11_mock(self, endpoint, json_data, company_id, is_b2b=False):
+        if endpoint == "/Issue":
+            return {
+                "RtnCode": 1,
+                "RtnMsg": "Success",
+                "InvoiceNumber": "AB11100099",
+                "RandomNumber": "6868"
+            }
+        elif endpoint == "/GetIssue":
+            return {
+                "RtnCode": 1,
+                "RtnMsg": "Success",
+                "RtnData": {
+                    "RelateNumber": "20250106000000020",
+                    "SalesAmount": self.basic_invoice_b2b.amount_total,
+                    "Issue_Status": "1",
+                    "Invalid_Status": "0",
+                },
+            }
+        elif endpoint == "/GetCompanyNameByTaxID":
+            return {
+                "RtnCode": 1,
+                "CompanyName": "Test Company",
+            }
+        elif endpoint == "/MaintainMerchantCustomerData":
+            return {
+                "RtnCode": 6160052,
+                "RtnMsg": "新增成功",
+            }
+        else:
+            raise UserError('Unexpected endpoint called during a test: %s with params %s.' % (endpoint, json_data))
+
+    def _test_12_mock(self, endpoint, json_data, company_id, is_b2b=False):
+        if endpoint == "/MaintainMerchantCustomerData":
+            return {
+                "RtnCode": 6160051,
+                "RtnMsg": "新增成功",
+            }
+        else:
+            raise UserError('Unexpected endpoint called during a test: %s with params %s.' % (endpoint, json_data))
 >>>>>>> upstream/18.0

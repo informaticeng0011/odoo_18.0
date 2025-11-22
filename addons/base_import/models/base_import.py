@@ -567,7 +567,13 @@ class Import(models.TransientModel):
             return ()
 
         encoding = options.get('encoding')
+<<<<<<< HEAD
         if not encoding:
+=======
+        encoding_guessed = False
+        if not encoding:
+            encoding_guessed = True
+>>>>>>> upstream/18.0
             encoding = options['encoding'] = chardet.detect(csv_data)['encoding'].lower()
             # some versions of chardet (e.g. 2.3.0 but not 3.x) will return
             # utf-(16|32)(le|be), which for python means "ignore / don't strip
@@ -577,7 +583,18 @@ class Import(models.TransientModel):
             if bom and csv_data.startswith(bom):
                 encoding = options['encoding'] = encoding[:-2]
 
+<<<<<<< HEAD
         csv_text = csv_data.decode(encoding)
+=======
+        try:
+            csv_text = csv_data.decode(encoding)
+        except UnicodeDecodeError as exc:
+            if encoding_guessed:
+                msg = _("There was an issue decoding the file using encoding “%s”.\nThis encoding was automatically detected.", encoding)
+            else:
+                msg = _("There was an issue decoding the file using encoding “%s”.\nThis encoding was manually selected.", encoding)
+            raise ImportValidationError(msg) from exc
+>>>>>>> upstream/18.0
 
         separator = options.get('separator')
         if not separator:
@@ -1547,7 +1564,11 @@ class Import(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             elif field.type == 'binary' and field.attachment and any(f in name for f in IMAGE_FIELDS) and name in import_fields:
+=======
+            elif field.type == 'binary' and field.attachment and name in import_fields:
+>>>>>>> upstream/18.0
 =======
             elif field.type == 'binary' and field.attachment and name in import_fields:
 >>>>>>> upstream/18.0

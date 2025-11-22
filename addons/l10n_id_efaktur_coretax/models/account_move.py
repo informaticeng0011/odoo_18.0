@@ -94,7 +94,10 @@ from odoo.exceptions import UserError, ValidationError, RedirectWarning
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tools import cleanup_xml_node
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -463,7 +466,10 @@ class AccountMove(models.Model):
                     move.l10n_id_coretax_add_info_08 = f"TD.005{digits[-2:]}"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def _validate_tax_groups(self):
         err_messages = []
         allowed_codes = {'01', '02', '03', '04', '05', '06', '09', '10'}
@@ -524,6 +530,9 @@ class AccountMove(models.Model):
                             )
         return err_messages
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def download_efaktur(self):
         """OVERRIDE l10n_id_efaktur
@@ -573,14 +582,20 @@ class AccountMove(models.Model):
                     err_messages.append(_("Invoice %s doesn't contain the Additional info and Facility Stamp yet (Kode 08)", record.name))
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         if err_messages:
             err_messages = [_('Unable to download E-faktur fot he following reasons(s):')] + err_messages
 =======
+=======
+>>>>>>> upstream/18.0
         # Check tax groups
         err_messages.extend(self._validate_tax_groups())
 
         if err_messages:
             err_messages = [_('Unable to download E-faktur for the following reason(s):')] + err_messages
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             raise ValidationError('\n - '.join(err_messages))
 
@@ -672,7 +687,10 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -833,6 +851,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -999,7 +1020,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "BuyerDocument": partner.l10n_id_buyer_document_type,
+=======
+            "BuyerDocument": l10n_id_buyer_document_type_mapping_to_xml.get(partner.l10n_id_buyer_document_type, partner.l10n_id_buyer_document_type),
+>>>>>>> upstream/18.0
 =======
             "BuyerDocument": l10n_id_buyer_document_type_mapping_to_xml.get(partner.l10n_id_buyer_document_type, partner.l10n_id_buyer_document_type),
 >>>>>>> upstream/18.0
