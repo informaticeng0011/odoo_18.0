@@ -1,5 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* hr_work_entry
 # 
 # Translators:
@@ -370,11 +371,22 @@
 # Ujjawal Pathak, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+# * hr_work_entry
+#
+# Translators:
+# Wil Odoo, 2024
+# Manav Shah, 2025
+# Ujjawal Pathak, 2025
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-25 07:48+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -747,12 +759,28 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: hi\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+=======
+"PO-Revision-Date: 2025-11-20 19:02+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Hindi <https://translate.odoo.com/projects/odoo-18/"
+"hr_work_entry/hi/>\n"
+"Language: hi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #. odoo-python
 #: code:addons/hr_work_entry/models/hr_employee.py:0
 msgid "%s work entries"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s वर्क एंट्रीज़"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #: model_terms:ir.ui.view,arch_db:hr_work_entry.hr_employee_view_form
@@ -761,6 +789,12 @@ msgid ""
 "                            Work Entries\n"
 "                            </span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"o_stat_text\">\n"
+"                            वर्क एंट्रीज़\n"
+"                            </span>"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #: model_terms:ir.ui.view,arch_db:hr_work_entry.hr_work_entry_view_form
@@ -867,7 +901,11 @@ msgid "Archived"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "संग्रहीत किया गया"
+>>>>>>> upstream/18.0
 =======
 msgstr "संग्रहीत किया गया"
 >>>>>>> upstream/18.0
@@ -1136,7 +1174,11 @@ msgstr "संग्रहीत किया गया"
 #. module: hr_work_entry
 #: model:hr.work.entry.type,name:hr_work_entry.work_entry_type_attendance
 msgid "Attendance"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "उपस्थिति"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #: model_terms:ir.ui.view,arch_db:hr_work_entry.hr_work_entry_view_tree
@@ -1154,7 +1196,11 @@ msgstr "निरस्त"
 msgid ""
 "Careful, the Code is used in many references, changing it could lead to "
 "unwanted changes."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सावधान. यह कोड कई जगह इस्तेमाल होता है. बदलने पर गलत बदलाव हो सकते हैं।"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #: model:ir.model.fields,field_description:hr_work_entry.field_hr_work_entry__color
@@ -1245,7 +1291,11 @@ msgid "Color"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कलर"
+>>>>>>> upstream/18.0
 =======
 msgstr "कलर"
 >>>>>>> upstream/18.0
@@ -1510,7 +1560,11 @@ msgstr "संस्था"
 #. module: hr_work_entry
 #: model:ir.model.fields.selection,name:hr_work_entry.selection__hr_work_entry__state__conflict
 msgid "Conflict"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कान्फ्लिक्ट"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #: model_terms:ir.ui.view,arch_db:hr_work_entry.hr_work_entry_view_search
@@ -1520,7 +1574,11 @@ msgstr ""
 #. module: hr_work_entry
 #: model:ir.model.fields,field_description:hr_work_entry.field_hr_work_entry__conflict
 msgid "Conflicts"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कान्फ्लिक्ट"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #: model:ir.model.fields,field_description:hr_work_entry.field_hr_work_entry__country_id
@@ -1619,7 +1677,11 @@ msgid "Country Code"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "देश का कोड"
+>>>>>>> upstream/18.0
 =======
 msgstr "देश का कोड"
 >>>>>>> upstream/18.0
@@ -1987,7 +2049,11 @@ msgid "Created on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इस तारीख को बनाया गया"
+>>>>>>> upstream/18.0
 =======
 msgstr "इस तारीख को बनाया गया"
 >>>>>>> upstream/18.0
@@ -2361,7 +2427,11 @@ msgid "Display Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "डिस्प्ले नाम"
+>>>>>>> upstream/18.0
 =======
 msgstr "डिस्प्ले नाम"
 >>>>>>> upstream/18.0
@@ -2674,12 +2744,20 @@ msgstr "के द्वारा"
 #. module: hr_work_entry
 #: model:ir.model,name:hr_work_entry.model_hr_work_entry
 msgid "HR Work Entry"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एचआर वर्क एंट्री"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #: model:ir.model,name:hr_work_entry.model_hr_work_entry_type
 msgid "HR Work Entry Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एचआर वर्क एंट्री टाइप"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #: model:ir.model.fields,field_description:hr_work_entry.field_hr_employee__has_work_entries
@@ -2782,7 +2860,11 @@ msgid "ID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आईडी"
+>>>>>>> upstream/18.0
 =======
 msgstr "आईडी"
 >>>>>>> upstream/18.0
@@ -3151,7 +3233,11 @@ msgid "Last Updated by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इन्होंने आखिरी बार अपडेट किया"
+>>>>>>> upstream/18.0
 =======
 msgstr "इन्होंने आखिरी बार अपडेट किया"
 >>>>>>> upstream/18.0
@@ -3486,7 +3572,11 @@ msgid "Last Updated on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आखिरी बार अपडेट हुआ"
+>>>>>>> upstream/18.0
 =======
 msgstr "आखिरी बार अपडेट हुआ"
 >>>>>>> upstream/18.0
@@ -3737,7 +3827,11 @@ msgstr "आखिरी बार अपडेट हुआ"
 #. module: hr_work_entry
 #: model:ir.model.fields,field_description:hr_work_entry.field_hr_user_work_entry_employee__user_id
 msgid "Me"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मैं"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #: model:ir.model.fields,field_description:hr_work_entry.field_hr_work_entry__name
@@ -3839,7 +3933,11 @@ msgid "No data to display"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "दिखाने के लिए कोई डेटा मौजूद नहीं है"
+>>>>>>> upstream/18.0
 =======
 msgstr "दिखाने के लिए कोई डेटा मौजूद नहीं है"
 >>>>>>> upstream/18.0
@@ -4128,12 +4226,20 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_work_entry.field_hr_work_entry__code
 #: model:ir.model.fields,field_description:hr_work_entry.field_hr_work_entry_type__code
 msgid "Payroll Code"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पेरोल कोड"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #: model:ir.model,name:hr_work_entry.model_resource_calendar_leaves
 msgid "Resource Time Off Detail"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "संसाधन की छुट्टी की जानकारी"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #: model_terms:ir.ui.view,arch_db:hr_work_entry.hr_work_entry_view_search
@@ -4259,6 +4365,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"यह आईएसओ देश का दो अक्षर वाला कोड है. \n"
+"इसे आप जल्दी कुछ ढूंढने के लिए इस्तेमाल कर सकते हैं"
+>>>>>>> upstream/18.0
 =======
 "यह आईएसओ देश का दो अक्षर वाला कोड है. \n"
 "इसे आप जल्दी कुछ ढूंढने के लिए इस्तेमाल कर सकते हैं"
@@ -4687,7 +4798,11 @@ msgid "To"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "से"
+>>>>>>> upstream/18.0
 =======
 msgstr "से"
 >>>>>>> upstream/18.0
@@ -4932,6 +5047,10 @@ msgid ""
 "Try to add some records, or make sure that there is no active filter in the "
 "search bar."
 msgstr ""
+<<<<<<< HEAD
+=======
+"कुछ रिकॉर्ड जोड़ने की कोशिश करें, या सुनिश्चित करें कि सर्च बार में कोई सक्रिय फ़िल्टर नहीं है।"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #: model_terms:ir.ui.view,arch_db:hr_work_entry.hr_work_entry_view_search
@@ -5014,7 +5133,11 @@ msgid "Undefined"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अभी तक तय नहीं"
+>>>>>>> upstream/18.0
 =======
 msgstr "अभी तक तय नहीं"
 >>>>>>> upstream/18.0
@@ -5324,7 +5447,11 @@ msgid "Validated"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पुष्टि की गई"
+>>>>>>> upstream/18.0
 =======
 msgstr "पुष्टि की गई"
 >>>>>>> upstream/18.0
@@ -5567,7 +5694,11 @@ msgstr ""
 #. module: hr_work_entry
 #: model_terms:ir.ui.view,arch_db:hr_work_entry.hr_work_entry_view_pivot
 msgid "Work Entries"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "वर्क एंट्रीज़"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #: model:ir.model,name:hr_work_entry.model_hr_user_work_entry_employee
@@ -5580,7 +5711,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_work_entry.hr_work_entry_view_calendar
 #: model_terms:ir.ui.view,arch_db:hr_work_entry.hr_work_entry_view_form
 msgid "Work Entry"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "वर्क एंट्री"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #: model_terms:ir.ui.view,arch_db:hr_work_entry.hr_work_entry_view_form
@@ -5594,7 +5729,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_work_entry.hr_work_entry_type_view_form
 #: model_terms:ir.ui.view,arch_db:hr_work_entry.resource_calendar_leaves_view_search_inherit
 msgid "Work Entry Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "वर्क एंट्री टाइप"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #: model_terms:ir.ui.view,arch_db:hr_work_entry.hr_work_entry_type_view_form

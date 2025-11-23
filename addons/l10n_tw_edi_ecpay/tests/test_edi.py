@@ -23,6 +23,10 @@ from freezegun import freeze_time
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo import Command
+>>>>>>> upstream/18.0
 =======
 from odoo import Command
 >>>>>>> upstream/18.0
@@ -102,14 +106,20 @@ class L10nTWITestEdi(TestAccountMoveSendCommon, HttpCase):
             'company_type': 'person',
         })
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
+=======
+>>>>>>> upstream/18.0
         cls.partner_b.write({
             'phone': '+886 123 456 789',
             'contact_address': 'test address',
             'vat': '12345678',
             'company_type': 'company',
         })
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         # We can reuse this invoice for the flow tests.
         cls.basic_invoice = cls.init_invoice(
@@ -117,11 +127,17 @@ class L10nTWITestEdi(TestAccountMoveSendCommon, HttpCase):
         )
         cls.basic_invoice.action_post()
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         cls.basic_invoice_b2b = cls.init_invoice(
             'out_invoice', partner=cls.partner_b, products=cls.product_a,
         )
         cls.basic_invoice_b2b.action_post()
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     def test_01_can_generate_file(self):
@@ -337,7 +353,10 @@ class L10nTWITestEdi(TestAccountMoveSendCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -427,10 +446,13 @@ class L10nTWITestEdi(TestAccountMoveSendCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -518,6 +540,7 @@ class L10nTWITestEdi(TestAccountMoveSendCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -546,6 +569,8 @@ class L10nTWITestEdi(TestAccountMoveSendCommon, HttpCase):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
     @freeze_time("2025-01-06 15:00:00")
     def test_10_basic_submission_b2b_partner_created(self):
         """
@@ -600,6 +625,9 @@ class L10nTWITestEdi(TestAccountMoveSendCommon, HttpCase):
             with self.assertRaises(UserError):
                 send_and_print.action_send_and_print()
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     # -------------------------------------------------------------------------
     # Patched methods
@@ -771,7 +799,10 @@ class L10nTWITestEdi(TestAccountMoveSendCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -851,6 +882,7 @@ class L10nTWITestEdi(TestAccountMoveSendCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -879,6 +911,8 @@ class L10nTWITestEdi(TestAccountMoveSendCommon, HttpCase):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 
     def _test_10_mock(self, endpoint, json_data, company_id, is_b2b=False):
         if endpoint == "/Issue":
@@ -952,4 +986,7 @@ class L10nTWITestEdi(TestAccountMoveSendCommon, HttpCase):
             }
         else:
             raise UserError('Unexpected endpoint called during a test: %s with params %s.' % (endpoint, json_data))
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

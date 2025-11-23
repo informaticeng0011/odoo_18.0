@@ -1,11 +1,18 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* pos_self_order
 #
+=======
+# * pos_self_order
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -239,6 +246,20 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
+=======
+"POT-Creation-Date: 2025-09-27 01:49+0000\n"
+"PO-Revision-Date: 2025-11-21 06:42+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Serbian (Latin script) <https://translate.odoo.com/projects/"
+"odoo-18/pos_self_order/sr_Latn/>\n"
+"Language: sr@latin\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #: model:ir.actions.report,print_report_name:pos_self_order.report_self_order_qr_codes_page
@@ -288,7 +309,11 @@ msgstr ""
 #. module: pos_self_order
 #: model:ir.model.fields.selection,name:pos_self_order.selection__pos_config__status__active
 msgid "Active"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aktivno"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #: model_terms:ir.ui.view,arch_db:pos_self_order.res_config_settings_view_form_menu
@@ -310,14 +335,22 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/pos_self_order/static/src/app/components/product_info_popup/product_info_popup.xml:0
 msgid "Add to Cart"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dodaj u korpu"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #. odoo-javascript
 #: code:addons/pos_self_order/static/src/app/pages/combo_page/combo_page.xml:0
 #: code:addons/pos_self_order/static/src/app/pages/product_page/product_page.xml:0
 msgid "Add to cart"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dodaj u korpu"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #. odoo-javascript
@@ -368,7 +401,11 @@ msgstr ""
 #: code:addons/pos_self_order/static/src/overrides/components/product_info_popup/product_info_popup.xml:0
 #: model_terms:ir.ui.view,arch_db:pos_self_order.res_config_settings_view_form_menu
 msgid "Available"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dostupno"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #: model:ir.model.fields,field_description:pos_self_order.field_pos_config__self_ordering_available_language_ids
@@ -405,14 +442,22 @@ msgstr ""
 #: code:addons/pos_self_order/static/src/app/pages/payment_page/payment_page.xml:0
 #: code:addons/pos_self_order/static/src/app/pages/stand_number_page/stand_number_page.xml:0
 msgid "Back"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nazad"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #. odoo-javascript
 #: code:addons/pos_self_order/static/src/app/components/order_widget/order_widget.js:0
 #: code:addons/pos_self_order/static/src/app/pages/cart_page/cart_page.xml:0
 msgid "Cancel"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Otkaži"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #. odoo-javascript
@@ -463,7 +508,11 @@ msgstr ""
 #: code:addons/pos_self_order/static/src/app/components/out_of_paper_popup/out_of_paper_popup.xml:0
 #: code:addons/pos_self_order/static/src/app/pages/confirmation_page/confirmation_page.xml:0
 msgid "Close"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zatvori"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #: model_terms:ir.ui.view,arch_db:pos_self_order.pos_self_order_menu_item
@@ -484,7 +533,11 @@ msgstr ""
 #. module: pos_self_order
 #: model:ir.model,name:pos_self_order.model_res_config_settings
 msgid "Config Settings"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Podešavanje konfiguracije"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #. odoo-javascript
@@ -496,7 +549,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/pos_self_order/static/src/app/components/timeout_popup/timeout_popup.xml:0
 msgid "Continue"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nastavi"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #. odoo-javascript
@@ -513,18 +570,30 @@ msgstr ""
 #. module: pos_self_order
 #: model:ir.model.fields,field_description:pos_self_order.field_pos_self_order_custom_link__create_uid
 msgid "Created by"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kreirao"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #: model:ir.model.fields,field_description:pos_self_order.field_pos_self_order_custom_link__create_date
 msgid "Created on"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kreirano"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #. odoo-javascript
 #: code:addons/pos_self_order/static/src/app/pages/order_history_page/order_history_page.js:0
 msgid "Current"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Trenutni"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #: model_terms:ir.ui.view,arch_db:pos_self_order.custom_link_tree
@@ -556,7 +625,11 @@ msgstr ""
 #. module: pos_self_order
 #: model_terms:ir.ui.view,arch_db:pos_self_order.res_config_settings_view_form_menu
 msgid "Default"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Podrazumevano"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #: model:ir.model.fields,field_description:pos_self_order.field_pos_config__self_ordering_default_language_id
@@ -589,12 +662,20 @@ msgstr ""
 #: code:addons/pos_self_order/static/src/app/pages/combo_page/combo_page.xml:0
 #: code:addons/pos_self_order/static/src/app/pages/product_page/product_page.xml:0
 msgid "Discard"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poništi"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #: model:ir.model.fields,field_description:pos_self_order.field_pos_self_order_custom_link__display_name
 msgid "Display Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Naziv za prikaz"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #: model_terms:ir.ui.view,arch_db:pos_self_order.res_config_settings_view_form_menu
@@ -632,6 +713,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/pos_self_order/static/src/app/pages/combo_page/combo_page.xml:0
 msgid "Edit"
+<<<<<<< HEAD
 msgstr ""
 
 #. module: pos_self_order
@@ -861,6 +943,13 @@ msgstr ""
 =======
 #: code:addons/pos_self_order/static/src/backend/qr_order_button/qr_order_button.js:0
 >>>>>>> upstream/18.0
+=======
+msgstr "Uredi"
+
+#. module: pos_self_order
+#. odoo-javascript
+#: code:addons/pos_self_order/static/src/backend/qr_order_button/qr_order_button.js:0
+>>>>>>> upstream/18.0
 msgid ""
 "Enable QR menu in the Restaurant settings to get QR codes for free on tables."
 msgstr ""
@@ -881,12 +970,20 @@ msgstr ""
 #. module: pos_self_order
 #: model:ir.model,name:pos_self_order.model_ir_binary
 msgid "File streaming helper model for controllers"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Model pomoćnika za strimovanje datoteka za kontrolere"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #: model:ir.model,name:pos_self_order.model_account_fiscal_position
 msgid "Fiscal Position"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fiskalna pozicija"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #. odoo-javascript
@@ -951,7 +1048,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1067,6 +1167,7 @@ msgid "Free Metal / Wood Stands"
 msgstr ""
 
 #. module: pos_self_order
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1521,11 +1622,23 @@ msgstr ""
 #: code:addons/pos_self_order/static/src/overrides/components/navbar/navbar.xml:0
 #: code:addons/pos_self_order/static/src/overrides/screens/floor_screen/floor_screen.xml:0
 >>>>>>> upstream/18.0
+=======
+#. odoo-python
+#: code:addons/pos_self_order/models/pos_config.py:0
+msgid "Generic"
+msgstr "Generički"
+
+#. module: pos_self_order
+#. odoo-javascript
+#: code:addons/pos_self_order/static/src/overrides/components/navbar/navbar.xml:0
+#: code:addons/pos_self_order/static/src/overrides/screens/floor_screen/floor_screen.xml:0
+>>>>>>> upstream/18.0
 msgid "Get QR Codes"
 msgstr ""
 
 #. module: pos_self_order
 #. odoo-javascript
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1751,6 +1864,9 @@ msgstr ""
 =======
 #: code:addons/pos_self_order/static/src/backend/qr_order_button/qr_order_button.js:0
 >>>>>>> upstream/18.0
+=======
+#: code:addons/pos_self_order/static/src/backend/qr_order_button/qr_order_button.js:0
+>>>>>>> upstream/18.0
 msgid "Get QR codes"
 msgstr ""
 
@@ -1763,7 +1879,11 @@ msgstr ""
 #. module: pos_self_order
 #: model:ir.model,name:pos_self_order.model_ir_http
 msgid "HTTP Routing"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "HTTP rutiranje"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #: model:ir.model.fields,field_description:pos_self_order.field_pos_config__has_paper
@@ -1802,7 +1922,11 @@ msgstr ""
 #. module: pos_self_order
 #: model:ir.model.fields,field_description:pos_self_order.field_pos_self_order_custom_link__id
 msgid "ID"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ID"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #: model:ir.model.fields,help:pos_self_order.field_product_product__self_order_available
@@ -1837,12 +1961,20 @@ msgstr ""
 #. module: pos_self_order
 #: model:ir.model.fields.selection,name:pos_self_order.selection__pos_config__status__inactive
 msgid "Inactive"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Neaktivno"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #: model:ir.model.fields.selection,name:pos_self_order.selection__pos_self_order_custom_link__style__info
 msgid "Info"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Informacija"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #. odoo-javascript
@@ -1864,12 +1996,20 @@ msgstr ""
 #. module: pos_self_order
 #: model:ir.model.fields,field_description:pos_self_order.field_pos_self_order_custom_link__name
 msgid "Label"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Natpis"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #: model_terms:ir.ui.view,arch_db:pos_self_order.res_config_settings_view_form_menu
 msgid "Language"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Jezik"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #: model:ir.model.fields,help:pos_self_order.field_pos_config__self_ordering_available_language_ids
@@ -1880,12 +2020,20 @@ msgstr ""
 #. module: pos_self_order
 #: model:ir.model.fields,field_description:pos_self_order.field_pos_self_order_custom_link__write_uid
 msgid "Last Updated by"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poslednje izmenio/la"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #: model:ir.model.fields,field_description:pos_self_order.field_pos_self_order_custom_link__write_date
 msgid "Last Updated on"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poslednje ažuriranje dana"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #: model_terms:ir.ui.view,arch_db:pos_self_order.res_config_settings_view_form_menu
@@ -1902,7 +2050,11 @@ msgstr ""
 #: code:addons/pos_self_order/static/src/app/pages/confirmation_page/confirmation_page.xml:0
 #: code:addons/pos_self_order/static/src/app/pages/order_history_page/order_history_page.xml:0
 msgid "Loading..."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Učitavam..."
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #: model_terms:ir.ui.view,arch_db:pos_self_order.qr_codes_page
@@ -1944,7 +2096,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/pos_self_order/static/src/app/pages/landing_page/landing_page.xml:0
 msgid "My Orders"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Moji prodajni nalozi"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #. odoo-javascript
@@ -1968,12 +2124,20 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/pos_self_order/static/src/app/pages/combo_page/combo_page.xml:0
 msgid "Next"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sledeće"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #: model_terms:ir.ui.view,arch_db:pos_self_order.qr_codes_page
 msgid "No"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ne"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #. odoo-javascript
@@ -1991,7 +2155,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/pos_self_order/static/src/overrides/components/product_info_popup/product_info_popup.xml:0
 msgid "Not available"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nije dostupno"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #: model_terms:ir.ui.view,arch_db:pos_self_order.product_template_search_view_pos
@@ -2002,7 +2170,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/pos_self_order/static/src/app/pages/confirmation_page/confirmation_page.xml:0
 msgid "Ok"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "U redu"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #. odoo-python
@@ -2019,7 +2191,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/pos_self_order/static/src/app/components/order_widget/order_widget.js:0
 msgid "Order"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nalog"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #. odoo-python
@@ -2044,7 +2220,11 @@ msgstr ""
 #: code:addons/pos_self_order/static/src/app/components/combo_selection/combo_selection.xml:0
 #: code:addons/pos_self_order/static/src/app/components/product_card/product_card.xml:0
 msgid "Out of stock"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nema na stanju"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #. odoo-javascript
@@ -2113,7 +2293,11 @@ msgstr ""
 #. module: pos_self_order
 #: model:ir.model,name:pos_self_order.model_pos_config
 msgid "Point of Sale Configuration"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Podešavanje POS terminala mesta prodaje"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #: model:ir.model,name:pos_self_order.model_pos_order_line
@@ -2148,7 +2332,11 @@ msgstr ""
 #. module: pos_self_order
 #: model:ir.model.fields,field_description:pos_self_order.field_pos_self_order_custom_link__link_html
 msgid "Preview"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pregled"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #: model_terms:ir.ui.view,arch_db:pos_self_order.res_config_settings_view_form_menu
@@ -2168,19 +2356,31 @@ msgstr ""
 #. module: pos_self_order
 #: model:ir.model,name:pos_self_order.model_product_template
 msgid "Product"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Proizvod"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #. odoo-javascript
 #: code:addons/pos_self_order/static/src/app/components/combo_selection/combo_selection.xml:0
 #: code:addons/pos_self_order/static/src/app/components/product_card/product_card.xml:0
 msgid "Product Information"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Proizvod"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #: model:ir.model,name:pos_self_order.model_product_product
 msgid "Product Variant"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Varijante proizvoda"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #. odoo-javascript
@@ -2191,7 +2391,11 @@ msgstr ""
 #: code:addons/pos_self_order/static/src/app/pages/product_list_page/product_list_page.xml:0
 #: code:addons/pos_self_order/static/src/app/pages/product_page/product_page.xml:0
 msgid "Product image"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Slika proizvoda"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #. odoo-javascript
@@ -2203,7 +2407,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/pos_self_order/static/src/app/self_order_service.js:0
 msgid "Product not found"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Proizvod nije pronađen"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #: model:ir.actions.report,name:pos_self_order.report_self_order_qr_codes_page
@@ -2258,7 +2466,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/pos_self_order/static/src/app/pages/payment_page/payment_page.xml:0
 msgid "Retry"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ponovi"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #: model:ir.model.fields.selection,name:pos_self_order.selection__pos_self_order_custom_link__style__secondary
@@ -2268,7 +2480,11 @@ msgstr ""
 #. module: pos_self_order
 #: model:ir.model.fields,field_description:pos_self_order.field_restaurant_table__identifier
 msgid "Security Token"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sigurnosni token"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #. odoo-javascript
@@ -2349,7 +2565,11 @@ msgstr ""
 #. module: pos_self_order
 #: model:ir.model.fields,field_description:pos_self_order.field_pos_self_order_custom_link__sequence
 msgid "Sequence"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Niz"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #: model_terms:ir.ui.view,arch_db:pos_self_order.res_config_settings_view_form_menu
@@ -2381,12 +2601,20 @@ msgstr ""
 #. module: pos_self_order
 #: model:ir.model.fields,field_description:pos_self_order.field_pos_config__status
 msgid "Status"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Status"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #: model:ir.model.fields,field_description:pos_self_order.field_pos_self_order_custom_link__style
 msgid "Style"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stil"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #: model:ir.model.fields.selection,name:pos_self_order.selection__pos_self_order_custom_link__style__success
@@ -2396,7 +2624,11 @@ msgstr ""
 #. module: pos_self_order
 #: model:ir.model.fields.selection,name:pos_self_order.selection__pos_config__self_ordering_service_mode__table
 msgid "Table"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sto"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #: model:ir.model.fields,field_description:pos_self_order.field_pos_order__table_stand_number
@@ -2436,7 +2668,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/pos_self_order/static/src/app/pages/cart_page/cart_page.xml:0
 msgid "Taxes:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Porezi:"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #. odoo-javascript
@@ -2488,19 +2724,31 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/pos_self_order/static/src/app/pages/product_page/product_page.xml:0
 msgid "This combination does not exist."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ova kombinacija ne postoji."
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #. odoo-javascript
 #: code:addons/pos_self_order/static/src/app/pages/cart_page/cart_page.xml:0
 #: code:addons/pos_self_order/static/src/app/pages/order_history_page/order_history_page.xml:0
 msgid "Total:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ukupno:"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #: model:ir.model.fields,field_description:pos_self_order.field_pos_self_order_custom_link__url
 msgid "URL"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "URL"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #: model_terms:ir.ui.view,arch_db:pos_self_order.qr_codes_page
@@ -2511,7 +2759,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/pos_self_order/static/src/app/components/product_card/product_card.xml:0
 msgid "Unavailable"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nedostupno"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #. odoo-javascript
@@ -2528,7 +2780,11 @@ msgstr ""
 #. module: pos_self_order
 #: model:ir.model.fields.selection,name:pos_self_order.selection__pos_self_order_custom_link__style__warning
 msgid "Warning"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Upozorenje"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #. odoo-javascript
@@ -2551,7 +2807,11 @@ msgstr ""
 #. module: pos_self_order
 #: model_terms:ir.ui.view,arch_db:pos_self_order.qr_codes_page
 msgid "Yes"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Da"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #. odoo-python
@@ -2639,7 +2899,11 @@ msgstr ""
 #. module: pos_self_order
 #: model_terms:ir.ui.view,arch_db:pos_self_order.custom_link_tree
 msgid "odoo"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "odoo"
+>>>>>>> upstream/18.0
 
 #. module: pos_self_order
 #. odoo-javascript

@@ -1,5 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* website_mass_mailing
 # 
 # Translators:
@@ -446,11 +447,21 @@
 # Rita Bastos, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+# * website_mass_mailing
+#
+# Translators:
+# Wil Odoo, 2025
+# Rita Bastos, 2025
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-10 13:24+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -811,11 +822,28 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: pt\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+=======
+"PO-Revision-Date: 2025-11-12 12:39+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Portuguese <https://translate.odoo.com/projects/odoo-18/"
+"website_mass_mailing/pt/>\n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % "
+"1000000 == 0) ? 1 : 2);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: website_mass_mailing
 #: model_terms:ir.ui.view,arch_db:website_mass_mailing.newsletter_subscribe_options
 msgid ".o_newsletter_popup"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr ".o_newsletter_popup"
+>>>>>>> upstream/18.0
 
 #. module: website_mass_mailing
 #: model_terms:ir.ui.view,arch_db:website_mass_mailing.newsletter_subscribe_options
@@ -827,12 +855,21 @@ msgstr ""
 #. module: website_mass_mailing
 #: model_terms:ir.ui.view,arch_db:website_mass_mailing.newsletter_subscribe_options
 msgid ".s_newsletter_list"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr ".s_newsletter_list"
+>>>>>>> upstream/18.0
 
 #. module: website_mass_mailing
 #: model_terms:ir.ui.view,arch_db:website_mass_mailing.s_newsletter_subscribe_form
 msgid "<i class=\"fa fa-check-circle-o\" role=\"img\"/> Thanks for registering!"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-check-circle-o\" role=\"img\"/> Agradecemos por seu "
+"cadastro!"
+>>>>>>> upstream/18.0
 
 #. module: website_mass_mailing
 #: model_terms:ir.ui.view,arch_db:website_mass_mailing.s_newsletter_block_form_template
@@ -840,6 +877,11 @@ msgid ""
 "<span class=\"s_website_form_label_content\">Email</span>\n"
 "                                <span class=\"s_website_form_mark\"> *</span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"s_website_form_label_content\">E-mail</span>\n"
+"                                <span class=\"s_website_form_mark\"> *</span>"
+>>>>>>> upstream/18.0
 
 #. module: website_mass_mailing
 #: model_terms:ir.ui.view,arch_db:website_mass_mailing.s_newsletter_block_form_template
@@ -847,6 +889,12 @@ msgid ""
 "<span class=\"s_website_form_label_content\">I agree to receive updates</span>\n"
 "                                <span class=\"s_website_form_mark\"> *</span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"s_website_form_label_content\">Eu concordo em receber "
+"atualizações</span>\n"
+"                                <span class=\"s_website_form_mark\"> *</span>"
+>>>>>>> upstream/18.0
 
 #. module: website_mass_mailing
 #: model_terms:ir.ui.view,arch_db:website_mass_mailing.s_newsletter_block_form_template
@@ -854,6 +902,11 @@ msgid ""
 "<span class=\"s_website_form_label_content\">Name</span>\n"
 "                                <span class=\"s_website_form_mark\"> *</span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"s_website_form_label_content\">Nome</span>\n"
+"                                <span class=\"s_website_form_mark\"> *</span>"
+>>>>>>> upstream/18.0
 
 #. module: website_mass_mailing
 #: model_terms:ir.ui.view,arch_db:website_mass_mailing.s_newsletter_block_form_template
@@ -861,17 +914,30 @@ msgid ""
 "<span class=\"s_website_form_label_content\">Subscribe to</span>\n"
 "                                <span class=\"s_website_form_mark\"> *</span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"s_website_form_label_content\">Inscrever-se a</span>\n"
+"                                <span class=\"s_website_form_mark\"> *</span>"
+>>>>>>> upstream/18.0
 
 #. module: website_mass_mailing
 #: model_terms:ir.ui.view,arch_db:website_mass_mailing.s_newsletter_subscribe_popup
 msgid "Always <b>First</b>."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sempre <b>primeiro</b>."
+>>>>>>> upstream/18.0
 
 #. module: website_mass_mailing
 #: model_terms:ir.ui.view,arch_db:website_mass_mailing.s_newsletter_subscribe_popup
 msgid ""
 "Be the first to find out all the latest news,<br/> products, and trends."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Seja o primeiro a saber as últimas notícias,<br/> produtos e tendências."
+>>>>>>> upstream/18.0
 
 #. module: website_mass_mailing
 #. odoo-javascript
@@ -900,7 +966,11 @@ msgstr ""
 #. module: website_mass_mailing
 #: model_terms:ir.ui.view,arch_db:website_mass_mailing.newsletter_subscribe_options
 msgid "Email Subscription"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Inscrição por e-mail"
+>>>>>>> upstream/18.0
 
 #. module: website_mass_mailing
 #. odoo-javascript
@@ -916,7 +986,11 @@ msgstr ""
 #. module: website_mass_mailing
 #: model_terms:ir.ui.view,arch_db:website_mass_mailing.newsletter_subscribe_options
 msgid "Form Subscription"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Inscrição por formulário"
+>>>>>>> upstream/18.0
 
 #. module: website_mass_mailing
 #: model_terms:ir.ui.view,arch_db:website_mass_mailing.s_newsletter_block_default_template
@@ -924,11 +998,20 @@ msgid ""
 "Get all the latest news, blog posts and product updates from our company, "
 "delivered directly to your inbox."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Receba todas as últimas notícias, publicações do blog e atualizações de "
+"produtos da nossa empresa, diretamente em sua caixa de entrada."
+>>>>>>> upstream/18.0
 
 #. module: website_mass_mailing
 #: model_terms:ir.ui.view,arch_db:website_mass_mailing.s_newsletter_block_form_template
 msgid "John Smith"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "José Santos"
+>>>>>>> upstream/18.0
 
 #. module: website_mass_mailing
 #: model_terms:ir.ui.view,arch_db:website_mass_mailing.s_newsletter_block_form_template
@@ -939,7 +1022,11 @@ msgstr ""
 #. odoo-python
 #: code:addons/website_mass_mailing/controllers/website_form.py:0
 msgid "Mailing List(s) not found!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Lista de distribuição não encontrada!"
+>>>>>>> upstream/18.0
 
 #. module: website_mass_mailing
 #: model_terms:ir.ui.view,arch_db:website_mass_mailing.newsletter_subscribe_options_common
@@ -950,12 +1037,20 @@ msgstr "Boletim Informativo"
 #. module: website_mass_mailing
 #: model_terms:ir.ui.view,arch_db:website_mass_mailing.snippets
 msgid "Newsletter Block"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bloco de newsletter"
+>>>>>>> upstream/18.0
 
 #. module: website_mass_mailing
 #: model_terms:ir.ui.view,arch_db:website_mass_mailing.snippets
 msgid "Newsletter Popup"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Popup de newsletter"
+>>>>>>> upstream/18.0
 
 #. module: website_mass_mailing
 #. odoo-javascript
@@ -964,11 +1059,20 @@ msgid ""
 "No mailing list found, do you want to create a new one? This will save all "
 "your changes, are you sure you want to proceed?"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Nenhuma lista de distribuição encontrada. Deseja criar uma nova? Isso "
+"salvará todas as suas alterações. Tem certeza de que deseja continuar?"
+>>>>>>> upstream/18.0
 
 #. module: website_mass_mailing
 #: model_terms:ir.ui.view,arch_db:website_mass_mailing.newsletter_subscribe_options_common
 msgid "Show reCaptcha Policy"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Exibir política de reCaptcha"
+>>>>>>> upstream/18.0
 
 #. module: website_mass_mailing
 #: model_terms:ir.ui.view,arch_db:website_mass_mailing.s_newsletter_block_form_template
@@ -980,12 +1084,20 @@ msgstr "Subscrever"
 #. odoo-javascript
 #: code:addons/website_mass_mailing/static/src/js/mass_mailing_form_editor.js:0
 msgid "Subscribe to"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Inscrever-se a"
+>>>>>>> upstream/18.0
 
 #. module: website_mass_mailing
 #: model_terms:ir.ui.view,arch_db:website_mass_mailing.s_newsletter_block_default_template
 msgid "Subscribe to our newsletter"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Assine nossa newsletter"
+>>>>>>> upstream/18.0
 
 #. module: website_mass_mailing
 #. odoo-javascript
@@ -1085,7 +1197,11 @@ msgid "Suspicious activity detected by Google reCaptcha."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Atividade suspeita detetada pelo Google reCaptcha."
+>>>>>>> upstream/18.0
 =======
 msgstr "Atividade suspeita detetada pelo Google reCaptcha."
 >>>>>>> upstream/18.0
@@ -1373,12 +1489,21 @@ msgid ""
 "We send one weekly newsletter per list and always try to keep it "
 "interesting. You can unsubscribe at any time."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Enviamos uma newsletter semanal por lista e sempre tentamos mantê-la "
+"interessante. Você pode cancelar sua inscrição a qualquer momento."
+>>>>>>> upstream/18.0
 
 #. module: website_mass_mailing
 #. odoo-python
 #: code:addons/website_mass_mailing/controllers/website_form.py:0
 msgid "You cannot subscribe to the following list anymore : %s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Não é mais possível se inscrever a essa lista: %s"
+>>>>>>> upstream/18.0
 
 #. module: website_mass_mailing
 #: model_terms:ir.ui.view,arch_db:website_mass_mailing.s_newsletter_block_form_template

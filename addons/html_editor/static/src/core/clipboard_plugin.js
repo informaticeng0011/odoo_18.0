@@ -65,6 +65,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { isTextNode, isParagraphRelatedElement } from "../utils/dom_info";
 import { Plugin } from "../plugin";
 import { closestBlock, isBlock } from "../utils/blocks";
@@ -282,6 +283,8 @@ import { unwrapContents, wrapInlinesInBlocks, splitTextNode, setTagName } from "
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 import {
     isTextNode,
     isParagraphRelatedElement,
@@ -342,6 +345,9 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -545,6 +551,11 @@ export const CLIPBOARD_WHITELISTS = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        // Odoo tables
+        "o_table",
+>>>>>>> upstream/18.0
 =======
         // Odoo tables
         "o_table",
@@ -1091,6 +1102,7 @@ export class ClipboardPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         let textIndex = 1;
         for (const textFragment of textFragments) {
             // Replace consecutive spaces by alternating nbsp.
@@ -1103,6 +1115,8 @@ export class ClipboardPlugin extends Plugin {
                 });
             });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1405,6 +1419,9 @@ export class ClipboardPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1779,10 +1796,14 @@ export class ClipboardPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 // TODO specific exception for "PRE" to keep everything inside one PRE.
                 // Consider removing this if PRE is to be used as a paragraph.
                 block.nodeName !== "PRE" &&
                 !block.closest("li")
+=======
+                block.nodeName !== "PRE"
+>>>>>>> upstream/18.0
 =======
                 block.nodeName !== "PRE"
 >>>>>>> upstream/18.0
@@ -2128,9 +2149,12 @@ export class ClipboardPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     if (this.dependencies.baseContainer.isCandidateForBaseContainer(node)) {
                         childrenNodes = childNodes(node);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2379,6 +2403,9 @@ export class ClipboardPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2617,7 +2644,10 @@ export class ClipboardPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2844,6 +2874,7 @@ export class ClipboardPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2895,6 +2926,8 @@ export class ClipboardPlugin extends Plugin {
 >>>>>>> upstream/18.0
             if (node.nodeName === "TD") {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3038,6 +3071,9 @@ export class ClipboardPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3238,7 +3274,10 @@ export class ClipboardPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 // Keep allowed styles on nodes with allowed tags.
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3446,7 +3485,11 @@ export class ClipboardPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     if (["SPAN", "FONT"].includes(node.tagName)) {
+=======
+                    if (["SPAN", "FONT"].includes(node.tagName) && !isIconElement(node)) {
+>>>>>>> upstream/18.0
 =======
                     if (["SPAN", "FONT"].includes(node.tagName) && !isIconElement(node)) {
 >>>>>>> upstream/18.0
@@ -3721,7 +3764,11 @@ export class ClipboardPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (item instanceof Attr) {
+=======
+        if (item.nodeType === Node.ATTRIBUTE_NODE) {
+>>>>>>> upstream/18.0
 =======
         if (item.nodeType === Node.ATTRIBUTE_NODE) {
 >>>>>>> upstream/18.0
@@ -4132,7 +4179,11 @@ function prependOriginToImages(doc, origin) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (src && !src.startsWith("http") && !src.startsWith("//")) {
+=======
+        if (src && !/^(http|\/\/|data:)/.test(src)) {
+>>>>>>> upstream/18.0
 =======
         if (src && !/^(http|\/\/|data:)/.test(src)) {
 >>>>>>> upstream/18.0

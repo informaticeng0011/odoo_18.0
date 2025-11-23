@@ -1,7 +1,12 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* payment_stripe
 # 
+=======
+# * payment_stripe
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Murat Kaplan <muratk@projetgrup.com>, 2024
 # Ediz Duman <neps1192@gmail.com>, 2024
@@ -94,6 +99,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Deniz Guvener_Odoo <degu@odoo.com>, 2025
 >>>>>>> upstream/18.0
@@ -341,11 +347,16 @@
 # Deniz Guvener_Odoo <degu@odoo.com>, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+# Deniz Guvener_Odoo <degu@odoo.com>, 2025
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -682,12 +693,28 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: tr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+=======
+"PO-Revision-Date: 2025-11-21 02:32+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Turkish <https://translate.odoo.com/projects/odoo-18/"
+"payment_stripe/tr/>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: payment_stripe
 #. odoo-javascript
 #: code:addons/payment_stripe/static/src/js/payment_form.js:0
 msgid "Cannot display the payment form"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ödeme formu görüntülenemiyor"
+>>>>>>> upstream/18.0
 
 #. module: payment_stripe
 #: model:ir.model.fields,field_description:payment_stripe.field_payment_provider__code
@@ -746,7 +773,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/payment_stripe/static/src/js/payment_form.js:0
 msgid "Incorrect payment details"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Yanlış ödeme bilgileri"
+>>>>>>> upstream/18.0
 
 #. module: payment_stripe
 #. odoo-python
@@ -758,7 +789,11 @@ msgstr "Referans %s eşleşen bir işlem bulunamadı."
 #. odoo-python
 #: code:addons/payment_stripe/models/payment_provider.py:0
 msgid "Other Payment Providers"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Diğer Ödeme Sağlayıcıları"
+>>>>>>> upstream/18.0
 
 #. module: payment_stripe
 #: model:ir.model,name:payment_stripe.model_payment_provider
@@ -856,7 +891,11 @@ msgid "Payment processing failed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ödeme işleme başarısız oldu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ödeme işleme başarısız oldu"
 >>>>>>> upstream/18.0
@@ -1079,6 +1118,10 @@ msgstr "Ödeme işleme başarısız oldu"
 #: code:addons/payment_stripe/models/payment_provider.py:0
 msgid "Please use live credentials to enable Apple Pay."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Apple Pay'i etkinleştirmek için lütfen canlı kimlik bilgilerini kullanın."
+>>>>>>> upstream/18.0
 
 #. module: payment_stripe
 #: model:ir.model.fields,field_description:payment_stripe.field_payment_provider__stripe_publishable_key
@@ -1126,7 +1169,11 @@ msgstr ""
 #. module: payment_stripe
 #: model:ir.model.fields,field_description:payment_stripe.field_payment_token__stripe_mandate
 msgid "Stripe Mandate"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stripe Mandate"
+>>>>>>> upstream/18.0
 
 #. module: payment_stripe
 #: model:ir.model.fields,field_description:payment_stripe.field_payment_token__stripe_payment_method
@@ -1182,6 +1229,12 @@ msgid ""
 "The refund did not go through. Please log into your Stripe Dashboard to get "
 "more information on that matter, and address any accounting discrepancies."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Para iadesi gerçekleşmedi. Bu konuda daha fazla bilgi almak ve muhasebe "
+"tutarsızlıklarını gidermek için lütfen Stripe Gösterge Paneli'nde oturum "
+"açın."
+>>>>>>> upstream/18.0
 
 #. module: payment_stripe
 #: model:ir.model.fields,help:payment_stripe.field_payment_provider__code
@@ -1308,6 +1361,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Stripe'a kaydınız tamamlanana kadar sağlayıcı durumunu Etkin olarak "
+"ayarlayamazsınız."
+>>>>>>> upstream/18.0
 =======
 "Stripe'a kaydınız tamamlanana kadar sağlayıcı durumunu Etkin olarak "
 "ayarlayamazsınız."
@@ -1643,7 +1701,11 @@ msgstr ""
 msgid ""
 "You cannot set the provider to Test Mode while it is linked with your Stripe"
 " account."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sağlayıcıyı Stripe hesabınıza bağlıyken Test Moduna ayarlayamazsınız."
+>>>>>>> upstream/18.0
 
 #. module: payment_stripe
 #. odoo-python
@@ -1661,4 +1723,8 @@ msgstr "Your order"
 #. odoo-python
 #: code:addons/payment_stripe/models/payment_provider.py:0
 msgid "Your web domain was successfully verified."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Web alan adınız başarıyla doğrulandı."
+>>>>>>> upstream/18.0

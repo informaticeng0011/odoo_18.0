@@ -369,7 +369,10 @@ class TestPurchaseStockReports(TestReportsCommon):
         self.assertEqual(data['qty_total'], 10)
         self.assertEqual(data['on_time_rate'], 60)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_vendor_delay_report_with_duplicate_receipt_without_backorder(self):
         """
@@ -403,4 +406,7 @@ class TestPurchaseStockReports(TestReportsCommon):
         self.assertEqual(data['qty_total'], 10)
         self.assertEqual(data['qty_on_time'], 10)
         self.assertEqual(data['on_time_rate'], 100)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

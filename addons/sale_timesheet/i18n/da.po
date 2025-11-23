@@ -72,6 +72,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* sale_timesheet
 # 
 # Translators:
@@ -110,6 +111,11 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# * sale_timesheet
+#
+# Translators:
 >>>>>>> upstream/18.0
 =======
 # * sale_timesheet
@@ -558,6 +564,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -870,11 +877,17 @@
 # Kira Petersen, 2025
 # "Kira Petersen François (peti)" <peti@odoo.com>, 2025.
 >>>>>>> upstream/18.0
+=======
+# Kira Petersen, 2025
+# "Kira Petersen François (peti)" <peti@odoo.com>, 2025.
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-27 13:04+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1140,6 +1153,10 @@ msgstr ""
 >>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-09-09 16:40+0000\n"
 "Last-Translator: \"Kira Petersen François (peti)\" <peti@odoo.com>\n"
+=======
+"PO-Revision-Date: 2025-11-21 02:36+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Danish <https://translate.odoo.com/projects/odoo-18/"
 "sale_timesheet/da/>\n"
 "Language: da\n"
@@ -1219,6 +1236,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1375,6 +1395,17 @@ msgid ""
 "                </p>\n"
 "            "
 msgstr ""
+<<<<<<< HEAD
+=======
+"\n"
+"                <p class=\"o_view_nocontent_smiling_face\">\n"
+"                    Ingen aktiviteter fundet. Lad os starte en ny!\n"
+"                </p><p>\n"
+"                    Før dagligt timeregnskab efter projekter og fakturér "
+"dine kunder for den registrerede tid.\n"
+"                </p>\n"
+"            "
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #. odoo-python
@@ -1408,11 +1439,20 @@ msgid ""
 "distribution of the sale order item '%(so_line_name)s' linked to the "
 "timesheet."
 msgstr ""
+<<<<<<< HEAD
+=======
+"'%(missing_plan_names)s' analytisk plan(er) kræver en analytisk distribution "
+"af salgsordrelinjen '%(so_line_name)s' knyttet til timesedlen."
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.timesheet_sale_page
 msgid "- Timesheet product"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "- Tidsregistreringsprodukt"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:hr.job,job_details:sale_timesheet.job_engineer
@@ -1495,7 +1535,11 @@ msgid "1 Onsite Interview"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "1 Interview på stedet"
+>>>>>>> upstream/18.0
 =======
 msgstr "1 Interview på stedet"
 >>>>>>> upstream/18.0
@@ -1806,7 +1850,11 @@ msgid "1 Phone Call"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "1 Telefonopkald"
+>>>>>>> upstream/18.0
 =======
 msgstr "1 Telefonopkald"
 >>>>>>> upstream/18.0
@@ -2124,7 +2172,11 @@ msgid "2 open days"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "2 dage åbent hus"
+>>>>>>> upstream/18.0
 =======
 msgstr "2 dage åbent hus"
 >>>>>>> upstream/18.0
@@ -2435,7 +2487,11 @@ msgid "4 Days after Interview"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "4 dage efter interview"
+>>>>>>> upstream/18.0
 =======
 msgstr "4 dage efter interview"
 >>>>>>> upstream/18.0
@@ -2668,12 +2724,20 @@ msgstr "4 dage efter interview"
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.project_project_view_form
 msgid "<b>Daily Cost: </b>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<b>Daglige omkostninger: </b>"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.project_project_view_form
 msgid "<b>Unit Price: </b>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<b>Enhedspris: </b>"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.project_project_view_form
@@ -2684,6 +2748,16 @@ msgid ""
 "                            To bill the same service at a different rate, create separate sales order items.\n"
 "                        </span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-lightbulb-o\"/>\n"
+"                        <span>\n"
+"                            Angiv den sats, medarbejderens tid skal "
+"faktureres til ud fra deres ekspertise, kompetencer og erfaring.\n"
+"                            For at fakturere den samme ydelse til en anden "
+"sats, skal du oprette separate salgsordrelinjer.\n"
+"                        </span>"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:hr.job,website_description:sale_timesheet.job_engineer
@@ -2699,11 +2773,21 @@ msgid ""
 "order associated with this timesheet entry has been cancelled.\" "
 "invisible=\"sale_order_state != 'cancel'\"/>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"fa fa-exclamation-triangle text-warning\" title="
+"\"The sales order associated with this timesheet entry has been cancelled.\" "
+"invisible=\"sale_order_state != 'cancel'\"/>"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.hr_timesheet_line_form_inherit
 msgid "<span class=\"o_stat_text\">Invoice</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Faktura</span>"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.account_invoice_view_form_inherit_sale_timesheet
@@ -2740,32 +2824,56 @@ msgstr "<span class=\"text-muted small\">Tid til at svare</span>"
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.portal_my_task_inherit
 msgid "<strong>Amount Due:</strong>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Skyldige beløb:</strong>"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.portal_my_task_inherit
 msgid "<strong>Invoiced:</strong>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Faktureret:</strong>"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.portal_my_task_inherit
 msgid "<strong>Invoices:</strong>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Fakturaer:</strong>"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.portal_my_task_inherit
 msgid "<strong>Sales Order:</strong>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Salgsordre:</strong>"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.portal_timesheet_table_inherit
 msgid "<strong>Time Remaining on SO: </strong>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Resterende tid i salgsordre:</strong>"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.project_update_default_description
 msgid "<u>Profitability</u>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<u>Rentabilitet</u>"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:hr.job,website_description:sale_timesheet.job_engineer
@@ -2814,7 +2922,11 @@ msgstr "Administrativt arbejde"
 #: model:account.analytic.account,name:sale_timesheet.account_analytic_account_project_support
 #: model:project.project,name:sale_timesheet.project_support
 msgid "After-Sales Services"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kundeservice"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:ir.model.fields,field_description:sale_timesheet.field_project_project__allocated_hours
@@ -2860,6 +2972,24 @@ msgid ""
 "                        outside the box. We expect the candidate to be proactive and have a \"get it done\"\n"
 "                        spirit. To be successful, you will have solid solving problem skills."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Som medarbejder i vores virksomhed vil du <b>samarbejde med hver afdeling\n"
+"                        om at lave og udgive disruptive produkter.</b> Bliv "
+"en del af en virksomhed i vækst,\n"
+"                        der tilbyder fantastiske fordele og mulighed for at "
+"udvikle sig og lære\n"
+"                        af dygtige ledere. Vi leder efter en erfaren og "
+"dygtig\n"
+"                        medarbejder.\n"
+"                        <br><br>\n"
+"                        Denne stilling kræver både <b>kreativitet og hårdt "
+"arbejde</b>, og du skal kunne tænke \n"
+"                        ud af boksen. Vi forventer, at kandidaten er "
+"proaktiv og har gåpåmod.\n"
+"                        For at få stillingen skal du have solide "
+"problemløsningsevner."
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:hr.job,website_description:sale_timesheet.job_engineer
@@ -2879,7 +3009,11 @@ msgstr "Bachelorgrad eller højere"
 #. odoo-python
 #: code:addons/sale_timesheet/models/product_template.py:0
 msgid "Based on Timesheets"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Baseret på tidsregistering"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:ir.model.fields,field_description:sale_timesheet.field_account_analytic_line__allow_billable
@@ -2889,7 +3023,11 @@ msgstr "Fakturerbar"
 #. module: sale_timesheet
 #: model:ir.model.fields,field_description:sale_timesheet.field_timesheets_analysis_report__billable_time
 msgid "Billable Time"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fakturerbar tid"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:ir.model.fields,field_description:sale_timesheet.field_account_analytic_line__timesheet_invoice_type
@@ -2948,6 +3086,7 @@ msgstr "Faktureringstype"
 #. module: sale_timesheet
 #: model:ir.ui.menu,name:sale_timesheet.menu_timesheet_billing_analysis
 msgid "By Billing Type"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3277,6 +3416,9 @@ msgstr "Pr. faktureringstype"
 =======
 msgstr "Pr. faktureringstype"
 >>>>>>> upstream/18.0
+=======
+msgstr "Pr. faktureringstype"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:ir.model.fields,field_description:sale_timesheet.field_project_create_invoice__sale_order_id
@@ -3286,7 +3428,11 @@ msgstr "Vælg salgsordre til fakturering"
 #. module: sale_timesheet
 #: model:ir.model.fields,field_description:sale_timesheet.field_account_analytic_line__commercial_partner_id
 msgid "Commercial Partner"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kommerciel partner"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:ir.model,name:sale_timesheet.model_res_config_settings
@@ -3373,12 +3519,20 @@ msgstr "Kundeforhold"
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.portal_my_timesheets_inherit
 msgid "Days Ordered,"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bestilte dage"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.portal_my_timesheets_inherit
 msgid "Days Remaining)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "resterende dage)"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.project_create_invoice_view_form
@@ -3414,6 +3568,16 @@ msgid ""
 "                    Several activities are often organized all over the year, such as weekly\n"
 "                    sports sessions, team building events, monthly drink, and much more"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Hver medarbejder kan se, hvilken forskel deres arbejde gør.\n"
+"                    Du bidrager direkte til virksomhedens succes.\n"
+"                    <br>\n"
+"                    I løbet af året arrangeres der desuden en række "
+"aktiviteter, såsom\n"
+"                    sportsaktiviteter, teambuilding, månedlige fredagsbarer "
+"og meget mere"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:hr.job,website_description:sale_timesheet.job_engineer
@@ -3425,7 +3589,11 @@ msgstr "Mad &amp; drikke"
 #. module: sale_timesheet
 #: model:product.template,name:sale_timesheet.product_product_elevator_installation_product_template
 msgid "Elevator Installation"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Installation af elevator"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:ir.model,name:sale_timesheet.model_hr_employee
@@ -3477,7 +3645,11 @@ msgstr "Der sørges for frugt, kaffe, og <br>snacks."
 #. module: sale_timesheet
 #: model:product.template,name:sale_timesheet.product_service_deliver_manual_product_template
 msgid "Furniture Delivery (Manual)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Møbellevering (manuel)"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:hr.job,website_description:sale_timesheet.job_engineer
@@ -3496,7 +3668,11 @@ msgstr "Godt hold af kloge mennesker, i en venlig og åben kultur"
 #. module: sale_timesheet
 #: model:hr.job,name:sale_timesheet.job_labour
 msgid "Handyman"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Handyman"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:ir.model.fields,field_description:sale_timesheet.field_project_task__has_multi_sol
@@ -3518,12 +3694,20 @@ msgstr "Timepris"
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.portal_my_timesheets_inherit
 msgid "Hours Ordered,"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Købte timer,"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.portal_my_timesheets_inherit
 msgid "Hours Remaining)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Resterende timer)"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:ir.model.fields,field_description:sale_timesheet.field_project_create_invoice__id
@@ -3534,12 +3718,20 @@ msgstr "ID"
 #. module: sale_timesheet
 #: model:hr.job,name:sale_timesheet.job_interior_designer
 msgid "Interior Designer"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Indretningsarkitekt"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:product.template,name:sale_timesheet.product_product_interior_designing_product_template
 msgid "Interior Designing"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Indretningsarkitekt"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #. odoo-python
@@ -3556,13 +3748,21 @@ msgstr "Faktura"
 #. module: sale_timesheet
 #: model:ir.model.fields,field_description:sale_timesheet.field_res_config_settings__invoice_policy
 msgid "Invoice Policy"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Faktureringspolitik"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #. odoo-python
 #: code:addons/sale_timesheet/models/product_template.py:0
 msgid "Invoice based on timesheets (delivered quantity)."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Faktura baseret på tidsregistrering (leverede mængde)."
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:ir.model.fields,help:sale_timesheet.field_account_analytic_line__timesheet_invoice_id
@@ -3594,7 +3794,11 @@ msgstr "Er projekt kort tomt"
 #. module: sale_timesheet
 #: model:ir.model.fields,field_description:sale_timesheet.field_account_analytic_line__is_so_line_edited
 msgid "Is Sales Order Item Manually Edited"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Redigeres salgsordrelinje manuelt"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:ir.model,name:sale_timesheet.model_account_move
@@ -3705,7 +3909,11 @@ msgstr "Ingen faktura"
 #. module: sale_timesheet
 #: model_terms:ir.actions.act_window,help:sale_timesheet.action_timesheet_from_invoice
 msgid "No activities found"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ingen aktiviteter fundet"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:ir.actions.act_window,help:sale_timesheet.timesheet_action_from_sales_order_item
@@ -3837,7 +4045,11 @@ msgid "Non-billable Time"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ikke fakturerbare timer"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ikke fakturerbare timer"
 >>>>>>> upstream/18.0
@@ -4170,7 +4382,11 @@ msgid "Not Billed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ikke faktureret"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ikke faktureret"
 >>>>>>> upstream/18.0
@@ -4421,17 +4637,29 @@ msgstr "Ikke faktureret"
 #. module: sale_timesheet
 #: model:ir.model.fields,help:sale_timesheet.field_timesheets_analysis_report__timesheet_revenues
 msgid "Number of hours spent multiplied by the unit price per hour/day."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Antal brugte timer ganget med time- eller dagsprisen."
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:ir.model.fields,help:sale_timesheet.field_timesheets_analysis_report__billable_time
 msgid "Number of hours/days linked to a SOL."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Antal timer og dage knyttet til en salgsordrelinje."
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:ir.model.fields,help:sale_timesheet.field_timesheets_analysis_report__non_billable_time
 msgid "Number of hours/days not linked to a SOL."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Antal timer og dage ikke knyttet til en salgsordrelinje."
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:ir.model.fields,help:sale_timesheet.field_sale_advance_payment_inv__date_end_invoice_timesheet
@@ -4492,6 +4720,11 @@ msgid ""
 "Percentage of time delivered compared to the prepaid amount that must be "
 "reached for the upselling opportunity activity to be triggered."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Den procentdel af den leverede tid i forhold til det forudbetalte beløb, som "
+"skal opnås, før aktiviteten giver mulighed for mersalg."
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:hr.job,website_description:sale_timesheet.job_engineer
@@ -4616,11 +4849,20 @@ msgstr "Indtægter"
 msgid ""
 "Review your timesheets by billing type and make sure your time is billable."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Kontrollér dine tidsregistreringer pr. faktureringstype, så de kan "
+"faktureres."
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:product.template,name:sale_timesheet.product_product_roofing_product_template
 msgid "Roofing"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tagdækning"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.timesheet_sale_page
@@ -4674,6 +4916,21 @@ msgid ""
 "If you would like to bill the same service at a different rate, you need to create two separate sales order items as each sales order item can only have a single unit price at a time.\n"
 "You can also define the hourly company cost of your employees for their timesheets on this project specifically. It will bypass the timesheet cost set on the employee."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Salgsordrelinje, der som standard vælges i medarbejderens "
+"tidsregistreringer. Den tilsidesætter salgsordrelinjen, der er angivet på "
+"projektet eller opgaven, men kan efter behov redigeres for hver "
+"tidsregistrering. Med andre ord fastsætter den den sats, som medarbejderens "
+"tid faktureres til, baseret på eksempelvis ekspertise, kompetencer eller "
+"erfaring\n"
+"Hvis du vil fakturere den samme ydelse til en anden sats, skal du oprette to "
+"separate salgsordrelinjer, da hver linje kun kan have én enhedspris ad "
+"gangen.\n"
+"Du kan også angive virksomhedens timeomkostninger for medarbejderne "
+"specifikt for dette projekt i deres tidsregistreringer. Dette vil "
+"tilsidesætte de standardomkostninger, der er angivet for medarbejderen."
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:ir.model.fields,help:sale_timesheet.field_account_analytic_line__so_line
@@ -4754,6 +5011,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Salgsordrer, som den registrerede tid tilknyttes, så den kan faktureres til "
+"din kunde. Fjern salgsordren for at forhindre, at tidsregistreringen kan "
+"faktureres."
+>>>>>>> upstream/18.0
 =======
 "Salgsordrer, som den registrerede tid tilknyttes, så den kan faktureres til "
 "din kunde. Fjern salgsordren for at forhindre, at tidsregistreringen kan "
@@ -5146,12 +5409,20 @@ msgstr "Senior Arkitekt (Faktura på timesedler)"
 #: model:ir.model.fields.selection,name:sale_timesheet.selection__account_analytic_line__timesheet_invoice_type__service_revenues
 #: model:ir.model.fields.selection,name:sale_timesheet.selection__timesheets_analysis_report__timesheet_invoice_type__service_revenues
 msgid "Service Revenues"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Omsætning fra ydelser"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:product.template,name:sale_timesheet.time_product_product_template
 msgid "Service on Timesheets"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ydelse på tidsregistreringer"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:ir.model.fields,help:sale_timesheet.field_project_project__timesheet_product_id
@@ -5161,6 +5432,12 @@ msgid ""
 "task. It can be modified on each task individually by selecting a specific "
 "sales order item."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Ydelser, der som standard anvendes til fakturering af tiden brugt på en "
+"opgave. Dette kan ændres individuelt på hver opgave ved at vælge en specifik "
+"salgsordrelinje."
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:ir.actions.act_window,name:sale_timesheet.product_template_action_default_services
@@ -5171,12 +5448,20 @@ msgstr "Serviceydelser"
 #. module: sale_timesheet
 #: model:hr.job,name:sale_timesheet.job_engineer
 msgid "Site Manager"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Byggepladsleder"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:product.template,name:sale_timesheet.product_product_solar_installation_product_template
 msgid "Solar Panel Installation"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Installation af solcellepaneler"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:hr.job,website_description:sale_timesheet.job_engineer
@@ -5210,7 +5495,11 @@ msgstr "Opgave"
 #. module: sale_timesheet
 #: model:ir.model.fields.selection,name:sale_timesheet.selection__project_project__pricing_type__task_rate
 msgid "Task rate"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Opgavesats"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:ir.model,name:sale_timesheet.model_report_project_task_user
@@ -5259,6 +5548,17 @@ msgid ""
 "senior consultants would deliver the same service (= consultancy), but at a "
 "different rate because of their level of seniority."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Opgavesatsen er ideel, hvis du ønsker at fakturere forskellige kunder for "
+"forskellige ydelser til forskellige satser. Den faste sats er velegnet, hvis "
+"en ydelse altid faktureres til en fast pris pr. arbejdstime eller dag, "
+"uanset hvilken medarbejder der udfører arbejdet. Medarbejderens sats er "
+"bedst, når den samme ydelse leveres af forskellige medarbejdere til "
+"forskellige satser, for eksempel kan junior- og seniorkonsulenter levere "
+"samme ydelse (rådgivning), men fakturere forskelligt baseret på deres "
+"anciennitet."
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:ir.model.fields,help:sale_timesheet.field_project_sale_line_employee_map__cost
@@ -5266,6 +5566,11 @@ msgid ""
 "This cost overrides the employee's default employee hourly wage in "
 "employee's HR Settings"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Disse omkostninger tilsidesætter medarbejderens standardlønomkostninger, som "
+"er angivet i personaleindstillingerne"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:ir.model.fields,field_description:sale_timesheet.field_product_product__service_upsell_threshold
@@ -5276,6 +5581,7 @@ msgstr "Grænse"
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.res_config_settings_view_form
 msgid "Time Billing"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5605,13 +5911,20 @@ msgstr "Fakturering af timesedler"
 =======
 msgstr "Fakturering af timesedler"
 >>>>>>> upstream/18.0
+=======
+msgstr "Fakturering af timesedler"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:ir.model.fields,field_description:sale_timesheet.field_project_task__remaining_hours_so
 #: model:ir.model.fields,field_description:sale_timesheet.field_report_project_task_user__remaining_hours_so
 #: model:ir.model.fields,field_description:sale_timesheet.field_sale_order_line__remaining_hours
 msgid "Time Remaining on SO"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Resterende tid på salgsordre"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.view_hr_timesheet_line_graph_employee_per_date
@@ -5660,7 +5973,11 @@ msgstr "Timeseddelrapport"
 #: model:ir.model.fields.selection,name:sale_timesheet.selection__account_analytic_line__timesheet_invoice_type__timesheet_revenues
 #: model:ir.model.fields.selection,name:sale_timesheet.selection__timesheets_analysis_report__timesheet_invoice_type__timesheet_revenues
 msgid "Timesheet Revenues"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tidsregistreringsomkostninger"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:ir.model.fields,field_description:sale_timesheet.field_account_bank_statement_line__timesheet_total_duration
@@ -5692,25 +6009,41 @@ msgstr "Timesedler (faktureret manuelt)"
 #. odoo-python
 #: code:addons/sale_timesheet/models/project_project.py:0
 msgid "Timesheets (Billed on Milestones)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tidsregistrering (faktureret efter milepæle)"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #. odoo-python
 #: code:addons/sale_timesheet/models/project_project.py:0
 msgid "Timesheets (Billed on Timesheets)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tidsregistrering (faktureret på tidsregistering)"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #. odoo-python
 #: code:addons/sale_timesheet/models/project_project.py:0
 msgid "Timesheets (Fixed Price)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tidsregistreringer (fast pris)"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #. odoo-python
 #: code:addons/sale_timesheet/models/project_project.py:0
 msgid "Timesheets (Non-Billable)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tidsregistreringer (ikke fakturerbar)"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.timesheets_analysis_report_pivot_invoice_type
@@ -5730,7 +6063,11 @@ msgstr "Timesedler Periode"
 #. module: sale_timesheet
 #: model:ir.actions.act_window,name:sale_timesheet.timesheet_action_billing_report
 msgid "Timesheets by Billing Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tidsregistreringer efter faktureringstype"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.timesheet_sale_page
@@ -5752,27 +6089,47 @@ msgstr "Timesedler på projekter (en takst per Salgsordre/Projekt)"
 #. odoo-python
 #: code:addons/sale_timesheet/models/project_project.py:0
 msgid "Timesheets revenues"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tidsregistreringsomsætning"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:ir.model.fields,help:sale_timesheet.field_timesheets_analysis_report__margin
 msgid "Timesheets revenues minus the costs"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tidsregistreringsomsætning minus omkostninger"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.res_config_settings_view_form
 msgid "Timesheets taken into account when invoicing your time"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tidsregistreringer, der tages højde for, når din tid faktureres"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:ir.model.fields,help:sale_timesheet.field_res_config_settings__invoice_policy
 msgid "Timesheets taken when invoicing time spent"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tidsregistrering, der anvendes til fakturering af tidsforbrug"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.project_project_view_form
 msgid "Timesheets without a sales order item are reported as"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tidsregistrering uden salgsordrelinje rapporteres som"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.project_update_default_description
@@ -5859,7 +6216,11 @@ msgid "To Bill"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Til fakturering"
+>>>>>>> upstream/18.0
 =======
 msgstr "Til fakturering"
 >>>>>>> upstream/18.0
@@ -6243,7 +6604,11 @@ msgid "Valid work permit for Belgium"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Gyldig arbejdstilladelse i Belgien"
+=======
+msgstr "Gyldig arbejdstilladelse til Belgien"
+>>>>>>> upstream/18.0
 =======
 msgstr "Gyldig arbejdstilladelse til Belgien"
 >>>>>>> upstream/18.0
@@ -6470,7 +6835,11 @@ msgstr ""
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.portal_invoice_page_inherit
 msgid "View Timesheet"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Se tidsregistrering"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.portal_invoice_page_inherit
@@ -6481,7 +6850,11 @@ msgstr "Vis timesedler"
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.view_product_timesheet_form
 msgid "Warn the salesperson for an upsell when work done exceeds"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Advar sælgeren om mersalg, når det udførte arbejde overstiger"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:hr.job,website_description:sale_timesheet.job_engineer
@@ -6510,6 +6883,11 @@ msgid ""
 "You cannot link a billable project to a sales order item that comes from an "
 "expense or a vendor bill."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Det er ikke muligt at knytte et fakturerbart projekt til en salgsordre, der "
+"kommer fra en udgift eller en leverandørfaktura."
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #. odoo-python
@@ -6518,12 +6896,22 @@ msgid ""
 "You cannot link a billable project to a sales order item that is not a "
 "service."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Det er ikke muligt at knytte et fakturerbart projekt til en salgsordre, der "
+"ikke er en ydelse."
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #. odoo-python
 #: code:addons/sale_timesheet/models/hr_timesheet.py:0
 msgid "You cannot modify timesheets that are already invoiced."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Det er ikke muligt at redigere tidsregistreringer, der allerede er blevet "
+"faktureret."
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #. odoo-python
@@ -6616,7 +7004,11 @@ msgid "billed manually"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Faktureret manuelt"
+>>>>>>> upstream/18.0
 =======
 msgstr "Faktureret manuelt"
 >>>>>>> upstream/18.0
@@ -6868,7 +7260,11 @@ msgstr "Faktureret manuelt"
 #. odoo-python
 #: code:addons/sale_timesheet/models/sale_order_line.py:0
 msgid "days remaining"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "resterende dage"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:ir.model.fields.selection,name:sale_timesheet.selection__project_project__billing_type__not_billable
@@ -6955,7 +7351,11 @@ msgid "not billable"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ikke fakturerbare timer"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ikke fakturerbare timer"
 >>>>>>> upstream/18.0
@@ -7206,7 +7606,11 @@ msgstr "Ikke fakturerbare timer"
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.view_product_timesheet_form
 msgid "of hours sold."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "de solgte timer."
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #. odoo-python

@@ -1,5 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* website_slides
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -290,12 +291,17 @@
 =======
 #
 >>>>>>> upstream/18.0
+=======
+# * website_slides
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Gautam Hingrajiya, 2024
 # Martin Trigaux, 2024
 # Wil Odoo, 2024
 # Ronald Kung, 2025
 # Manav Shah, 2025
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -733,10 +739,16 @@
 # Ujjawal Pathak, 2025
 #
 >>>>>>> upstream/18.0
+=======
+# Ujjawal Pathak, 2025
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1078,10 +1090,18 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 "Last-Translator: Ujjawal Pathak, 2025\n"
 "Language-Team: Hindi (https://app.transifex.com/odoo/teams/41243/hi/)\n"
+=======
+"POT-Creation-Date: 2025-08-15 18:36+0000\n"
+"PO-Revision-Date: 2025-11-21 06:39+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Hindi <https://translate.odoo.com/projects/odoo-18/"
+"website_slides/hi/>\n"
+>>>>>>> upstream/18.0
 "Language: hi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1297,6 +1317,10 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+=======
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__members_engaged_count
@@ -1393,7 +1417,11 @@ msgstr ""
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.mail_notification_channel_invite
 msgid "&amp;nbsp;"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "&amp;nbsp;"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.courses_all
@@ -1530,7 +1558,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        You have been enrolled to a new course: <t t-out=\"object.channel_id.name or ''\">Basics of Gardening</t>.\n"
+=======
+"        You have been enrolled to a new course: <t t-"
+"out=\"object.channel_id.name or ''\">Basics of Gardening</t>.\n"
+>>>>>>> upstream/18.0
 =======
 "        You have been enrolled to a new course: <t t-"
 "out=\"object.channel_id.name or ''\">Basics of Gardening</t>.\n"
@@ -1902,7 +1935,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        You have been invited to check out this course: <t t-out=\"object.channel_id.name or ''\">Basics of Gardening</t>.\n"
+=======
+"        You have been invited to check out this course: <t t-"
+"out=\"object.channel_id.name or ''\">Basics of Gardening</t>.\n"
+>>>>>>> upstream/18.0
 =======
 "        You have been invited to check out this course: <t t-"
 "out=\"object.channel_id.name or ''\">Basics of Gardening</t>.\n"
@@ -2272,6 +2310,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <div style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "                        <p style=\"margin: 0px;\">Hello <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>,</p><br/>\n"
 "                        <p><b>Congratulations!</b></p>\n"
@@ -2281,6 +2320,8 @@ msgid ""
 "                        <div style=\"padding: 16px 8px 16px 8px; text-align: center;\">\n"
 "                            <a href=\"/slides/all\" style=\"background-color: #875a7b; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px;\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2508,6 +2549,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2727,10 +2771,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <t t-if=\"object.channel_id.user_id.signature\" data-o-mail-quote-container=\"1\">\n"
 "                            <br/>\n"
 "                            <t t-out=\"object.channel_id.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2950,6 +2997,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3175,6 +3225,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "                        Hello<br/><br/>\n"
 "                        <t t-out=\"user.name or ''\">Mitchell Admin</t> shared the <strong t-out=\"object.name or ''\">document</strong> with you!\n"
@@ -3191,6 +3242,8 @@ msgid ""
 "                            <br/>\n"
 "                            <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3431,6 +3484,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3656,6 +3712,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "                        Hello<br/><br/>\n"
 "                        <t t-out=\"user.name or ''\">Mitchell Admin</t> shared the <t t-out=\"object.slide_category or ''\">document</t> <strong t-out=\"object.name or ''\">Trees</strong> with you!\n"
@@ -3671,6 +3728,8 @@ msgid ""
 "                            <br/>\n"
 "                            <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3912,6 +3971,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4137,6 +4199,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "                        Hello<br/><br/>\n"
 "                        There is something new in the course <strong t-out=\"object.channel_id.name or ''\">Trees, Wood and Gardens</strong> you are following:<br/><br/>\n"
@@ -4156,6 +4219,8 @@ msgid ""
 "                            <br/>\n"
 "                            <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4399,6 +4464,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4711,7 +4779,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-eye me-2\" aria-label=\"Views\" role=\"img\" title=\"Views\"/>"
+=======
+msgid ""
+"<i class=\"fa fa-eye me-2\" aria-label=\"Views\" role=\"img\" "
+"title=\"Views\"/>"
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "<i class=\"fa fa-eye me-2\" aria-label=\"Views\" role=\"img\" "
@@ -5156,8 +5230,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<i class=\"fa fa-file-image-o me-2\" aria-label=\"Infographic\" role=\"img\""
 " title=\"Infographic\"/>"
+=======
+"<i class=\"fa fa-file-image-o me-2\" aria-label=\"Infographic\" role=\"img\" "
+"title=\"Infographic\"/>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-file-image-o me-2\" aria-label=\"Infographic\" role=\"img\" "
 "title=\"Infographic\"/>"
@@ -5536,7 +5615,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-flag me-2\" aria-label=\"Quiz\" role=\"img\" title=\"Quiz\"/>"
+=======
+msgid ""
+"<i class=\"fa fa-flag me-2\" aria-label=\"Quiz\" role=\"img\" title=\"Quiz\"/"
+">"
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "<i class=\"fa fa-flag me-2\" aria-label=\"Quiz\" role=\"img\" title=\"Quiz\"/"
@@ -6076,7 +6161,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <span class=\"d-none d-md-inline-block ms-2\">Share</span>"
+=======
+"                        <span class=\"d-none d-md-inline-block ms-2\">Share</"
+"span>"
+>>>>>>> upstream/18.0
 =======
 "                        <span class=\"d-none d-md-inline-block ms-2\">Share</"
 "span>"
@@ -6496,8 +6586,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span class=\"badge text-bg-info badge-arrow-right fw-normal "
 "m-1\">New</span>"
+=======
+"<span class=\"badge text-bg-info badge-arrow-right fw-normal m-1\">New</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"badge text-bg-info badge-arrow-right fw-normal m-1\">New</span>"
 >>>>>>> upstream/18.0
@@ -6719,6 +6813,7 @@ msgstr ""
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.course_slides_list_slide
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7081,6 +7176,10 @@ msgid ""
 "<span class=\"badge text-bg-primary badge-hide fw-normal m-1\">Add Quiz</"
 "span>"
 >>>>>>> upstream/18.0
+=======
+"<span class=\"badge text-bg-primary badge-hide fw-normal m-1\">Add Quiz</"
+"span>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: website_slides
@@ -7158,8 +7257,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span class=\"badge text-bg-success fw-normal "
 "m-1\"><span>Preview</span></span>"
+=======
+"<span class=\"badge text-bg-success fw-normal m-1\"><span>Preview</span></"
+"span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"badge text-bg-success fw-normal m-1\"><span>Preview</span></"
 "span>"
@@ -7567,7 +7671,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <span class=\"fa fa-lg fa-globe\" title=\"Values set here are website-specific.\" groups=\"website.group_multi_website\"/>"
+=======
+"                    <span class=\"fa fa-lg fa-globe\" title=\"Values set "
+"here are website-specific.\" groups=\"website.group_multi_website\"/>"
+>>>>>>> upstream/18.0
 =======
 "                    <span class=\"fa fa-lg fa-globe\" title=\"Values set "
 "here are website-specific.\" groups=\"website.group_multi_website\"/>"
@@ -7875,6 +7984,7 @@ msgstr ""
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.course_card_information_arrow
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8386,6 +8496,11 @@ msgid ""
 "<span class=\"o_wslides_arrow badge bg-secondary mt-2 ms-2\">New Content</"
 "span>"
 >>>>>>> upstream/18.0
+=======
+msgid ""
+"<span class=\"o_wslides_arrow badge bg-secondary mt-2 ms-2\">New Content</"
+"span>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: website_slides
@@ -8487,7 +8602,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<span class=\"text-muted fw-bold col-4 col-md-3\">External sources</span>"
+=======
+msgid ""
+"<span class=\"text-muted fw-bold col-4 col-md-3\">External sources</span>"
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "<span class=\"text-muted fw-bold col-4 col-md-3\">External sources</span>"
@@ -8858,8 +8978,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span class=\"text-muted text-truncate mw-100\" "
 "title=\"Invited\">Invited</span>"
+=======
+"<span class=\"text-muted text-truncate mw-100\" title=\"Invited\">Invited</"
+"span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"text-muted text-truncate mw-100\" title=\"Invited\">Invited</"
 "span>"
@@ -9225,8 +9350,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span class=\"text-muted text-truncate mw-100\" "
 "title=\"Ongoing\">Ongoing</span>"
+=======
+"<span class=\"text-muted text-truncate mw-100\" title=\"Ongoing\">Ongoing</"
+"span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"text-muted text-truncate mw-100\" title=\"Ongoing\">Ongoing</"
 "span>"
@@ -9591,7 +9721,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<span class=\"text-muted text-truncate mw-100\" title=\"Total\">Total</span>"
+=======
+msgid ""
+"<span class=\"text-muted text-truncate mw-100\" title=\"Total\">Total</span>"
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "<span class=\"text-muted text-truncate mw-100\" title=\"Total\">Total</span>"
@@ -9967,11 +10102,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span id=\"first\" class=\"me-1 me-sm-2\" title=\"First slide\" aria-label=\"First slide\" role=\"button\"><i class=\"fa fa-step-backward\"/></span>\n"
 "                                        <span id=\"previous\" class=\"mx-1 mx-sm-2\" title=\"Previous slide\" aria-label=\"Previous slide\" role=\"button\"><i class=\"fa fa-arrow-circle-left\"/></span>\n"
 "                                        <span id=\"next\" class=\"mx-1 mx-sm-2\" title=\"Next slide\" aria-label=\"Next slide\" role=\"button\"><i class=\"fa fa-arrow-circle-right\"/></span>\n"
 "                                        <span id=\"last\" class=\"mx-1 mx-sm-2\" title=\"Last slide\" aria-label=\"Last slide\" role=\"button\"><i class=\"fa fa-step-forward\"/></span>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10197,6 +10335,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10417,7 +10558,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span id=\"fullscreen\" class=\"ms-1 ms-sm-2\" title=\"View fullscreen\" aria-label=\"Fullscreen\" role=\"button\">\n"
+=======
+"<span id=\"fullscreen\" class=\"ms-1 ms-sm-2\" title=\"View fullscreen\" "
+"aria-label=\"Fullscreen\" role=\"button\">\n"
+>>>>>>> upstream/18.0
 =======
 "<span id=\"fullscreen\" class=\"ms-1 ms-sm-2\" title=\"View fullscreen\" "
 "aria-label=\"Fullscreen\" role=\"button\">\n"
@@ -10785,12 +10931,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span id=\"zoomout\" class=\"d-inline ms-2 me-2\" title=\"Zoom out\" aria-label=\"Zoom out\" role=\"button\">\n"
 "                                            <i class=\"fa fa-search-minus\"/>\n"
 "                                        </span>\n"
 "                                        <span id=\"zoomin\" class=\"d-inline\" title=\"Zoom in\" aria-label=\"Zoom in\" role=\"button\">\n"
 "                                            <i class=\"fa fa-search-plus\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11013,6 +11162,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11169,6 +11321,7 @@ msgstr ""
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_channel_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11531,12 +11684,20 @@ msgid ""
 "<span name=\"members_completed_count_label\" class=\"o_stat_text\">Finished</"
 "span>"
 >>>>>>> upstream/18.0
+=======
+"<span name=\"members_completed_count_label\" class=\"o_stat_text\">Finished</"
+"span>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_slide_form
 msgid "<span> hours</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span> घंटे</span>"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model_terms:web_tour.tour,rainbow_man_message:website_slides.slides_tour
@@ -11630,6 +11791,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "<span><b>शाबाश!</b> आपने इस पूरे गाइड या प्रक्रिया के सारे कदम सफलतापूर्वक "
 "पूरे कर लिए हैं.</span>"
@@ -11693,6 +11855,10 @@ msgstr ""
 =======
 "<span><b>शाबाश!</b> आपने इस पूरे गाइड या प्रक्रिया के सारे कदम सफलतापूर्वक "
 "पूरे कर लिए हैं.</span>"
+>>>>>>> upstream/18.0
+=======
+"<span><b>शाबाश!</b> आपने इस पूरे गाइड या प्रक्रिया के सारे कदम सफलतापूर्वक पूरे कर लिए "
+"हैं.</span>"
 >>>>>>> upstream/18.0
 =======
 "<span><b>शाबाश!</b> आपने इस पूरे गाइड या प्रक्रिया के सारे कदम सफलतापूर्वक पूरे कर लिए "
@@ -12144,7 +12310,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<strong>Sharing is caring!</strong> Email(s) sent."
+=======
+msgid "<strong>Sharing is caring!</strong> Your email(s) will arrive shortly."
+>>>>>>> upstream/18.0
 =======
 msgid "<strong>Sharing is caring!</strong> Your email(s) will arrive shortly."
 >>>>>>> upstream/18.0
@@ -12522,7 +12692,11 @@ msgstr ""
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.res_config_settings_view_form
 msgid "API Key"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एपीआई कुंजी"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #. odoo-python
@@ -12621,7 +12795,11 @@ msgid "Access Groups"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऐक्सेस ग्रुप्स"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऐक्सेस ग्रुप्स"
 >>>>>>> upstream/18.0
@@ -12906,7 +13084,11 @@ msgstr ""
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_channel_form
 msgid "Access Rights"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऐक्सेस का अधिकार"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_slide_partner_view_tree
@@ -13010,7 +13192,11 @@ msgid "Action Needed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कार्रवाई की ज़रूरत है"
+>>>>>>> upstream/18.0
 =======
 msgstr "कार्रवाई की ज़रूरत है"
 >>>>>>> upstream/18.0
@@ -13384,7 +13570,11 @@ msgid "Activity Exception Decoration"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऐक्टिविटी एक्सेप्शन डेकोरेशन"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऐक्टिविटी एक्सेप्शन डेकोरेशन"
 >>>>>>> upstream/18.0
@@ -13741,7 +13931,11 @@ msgid "Activity State"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऐक्टिविटी स्टेट"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऐक्टिविटी स्टेट"
 >>>>>>> upstream/18.0
@@ -14098,7 +14292,11 @@ msgid "Activity Type Icon"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऐक्टिविटी टाइप आइकॉन"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऐक्टिविटी टाइप आइकॉन"
 >>>>>>> upstream/18.0
@@ -14501,7 +14699,11 @@ msgid "Add a section"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सेक्शन जोड़ें"
+>>>>>>> upstream/18.0
 =======
 msgstr "सेक्शन जोड़ें"
 >>>>>>> upstream/18.0
@@ -14895,7 +15097,11 @@ msgid "Advanced"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एडवांस"
+>>>>>>> upstream/18.0
 =======
 msgstr "एडवांस"
 >>>>>>> upstream/18.0
@@ -15212,7 +15418,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "All questions must have at least one correct answer and one incorrect answer: \n"
+=======
+"All questions must have at least one correct answer and one incorrect "
+"answer: \n"
+>>>>>>> upstream/18.0
 =======
 "All questions must have at least one correct answer and one incorrect "
 "answer: \n"
@@ -15657,7 +15868,11 @@ msgid "Answer"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "जवाब"
+>>>>>>> upstream/18.0
 =======
 msgstr "जवाब"
 >>>>>>> upstream/18.0
@@ -15878,19 +16093,31 @@ msgstr "जवाब"
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_slide_form
 msgid "Answers"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "जवाब"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_gamification_challenge__challenge_category
 msgid "Appears in"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इसमें दिखता है"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #. odoo-javascript
 #: code:addons/website_slides/static/src/js/slides_slide_archive.js:0
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_channel_partner_view_tree
 msgid "Archive"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "संग्रहित करें"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #. odoo-javascript
@@ -15994,7 +16221,11 @@ msgid "Archived"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "संग्रहीत किया गया"
+>>>>>>> upstream/18.0
 =======
 msgstr "संग्रहीत किया गया"
 >>>>>>> upstream/18.0
@@ -16385,7 +16616,11 @@ msgid "Attachment Count"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अटैचमेंट काउंट"
+>>>>>>> upstream/18.0
 =======
 msgstr "अटैचमेंट काउंट"
 >>>>>>> upstream/18.0
@@ -16742,7 +16977,11 @@ msgid "Attachments"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अटैचमेंट"
+>>>>>>> upstream/18.0
 =======
 msgstr "अटैचमेंट"
 >>>>>>> upstream/18.0
@@ -17021,7 +17260,11 @@ msgstr ""
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_slide_partner_view_form
 msgid "Attendee"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्रतिभागी"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel_partner__member_status
@@ -17042,7 +17285,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_slide_partner_view_tree
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_slide_form
 msgid "Attendees"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्रतिभागी"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #. odoo-python
@@ -17058,7 +17305,11 @@ msgstr ""
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__rating_avg
 msgid "Average Rating"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "औसत रेटिंग"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_channel_view_tree_report
@@ -17076,7 +17327,11 @@ msgstr ""
 #: code:addons/website_slides/static/src/js/public/components/slide_upload_dialog/slide_upload_dialog.xml:0
 #: code:addons/website_slides/static/src/js/slides_category_add.js:0
 msgid "Back"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "वापस जाएं"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_fullscreen
@@ -17091,7 +17346,11 @@ msgstr ""
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.slides_home_user_achievements_small
 msgid "Badges"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बैज"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model:slide.channel.tag,name:website_slides.slide_channel_tag_level_basic
@@ -17184,7 +17443,11 @@ msgid "Basic"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बेसिक"
+>>>>>>> upstream/18.0
 =======
 msgstr "बेसिक"
 >>>>>>> upstream/18.0
@@ -17554,7 +17817,11 @@ msgid "Body content is the same as the template"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बॉडी कॉन्टेंट बिलकुल टेंप्लेट की तरह है"
+>>>>>>> upstream/18.0
 =======
 msgstr "बॉडी कॉन्टेंट बिलकुल टेंप्लेट की तरह है"
 >>>>>>> upstream/18.0
@@ -17904,7 +18171,11 @@ msgid "Can Edit Body"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बॉडी में बदलाव किया जा सकता है"
+>>>>>>> upstream/18.0
 =======
 msgstr "बॉडी में बदलाव किया जा सकता है"
 >>>>>>> upstream/18.0
@@ -18229,7 +18500,11 @@ msgstr ""
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__slide_category_ids
 msgid "Categories"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कैटगरी"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide__slide_category
@@ -18241,13 +18516,21 @@ msgstr "वर्ग"
 #. module: website_slides
 #: model:slide.channel.tag,name:website_slides.slide_channel_tag_other_1
 msgid "Certification"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सर्टिफ़िकेशन"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_res_config_settings__module_website_slides_survey
 #: model_terms:ir.ui.view,arch_db:website_slides.courses_all
 msgid "Certifications"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सर्टिफ़िकेशन"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model:gamification.badge,name:website_slides.badge_data_certification
@@ -18264,7 +18547,11 @@ msgstr ""
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide_partner__channel_id
 msgid "Channel"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "चैनल"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model:ir.model,name:website_slides.model_slide_channel_partner
@@ -18305,7 +18592,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel_tag__channel_ids
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_channel_form
 msgid "Channels"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "चैनल"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model:slide.tag,name:website_slides.slide_tag_demo_cheatsheet
@@ -18502,7 +18793,11 @@ msgid "Color"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कलर"
+>>>>>>> upstream/18.0
 =======
 msgstr "कलर"
 >>>>>>> upstream/18.0
@@ -18848,7 +19143,11 @@ msgid "Color Index"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कलर इंडेक्स"
+>>>>>>> upstream/18.0
 =======
 msgstr "कलर इंडेक्स"
 >>>>>>> upstream/18.0
@@ -19123,7 +19422,11 @@ msgstr ""
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_answer__comment
 msgid "Comment"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "टिप्पणी"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_content_detailed
@@ -19225,7 +19528,11 @@ msgid "Communication"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कम्यूनिकेशन "
+>>>>>>> upstream/18.0
 =======
 msgstr "कम्यूनिकेशन "
 >>>>>>> upstream/18.0
@@ -19478,7 +19785,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_channel_partner_view_search
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_slide_partner_view_search
 msgid "Completed"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पूरा हुआ"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #. odoo-python
@@ -19511,7 +19822,11 @@ msgstr ""
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_channel_invite_view_form
 msgid "Compose Email"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ईमेल लिखें"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model:ir.model,name:website_slides.model_res_config_settings
@@ -19601,7 +19916,11 @@ msgid "Config Settings"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कॉन्फ़िगरेशन सेटिंग"
+>>>>>>> upstream/18.0
 =======
 msgstr "कॉन्फ़िगरेशन सेटिंग"
 >>>>>>> upstream/18.0
@@ -19886,6 +20205,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/website_slides/static/src/js/tours/slides_tour.js:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -20248,6 +20568,10 @@ msgid ""
 "Congratulations, you've created your first course.<br/>Click on the title of "
 "this content to see it in fullscreen mode."
 >>>>>>> upstream/18.0
+=======
+"Congratulations, you've created your first course.<br/>Click on the title of "
+"this content to see it in fullscreen mode."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: website_slides
@@ -20299,7 +20623,11 @@ msgstr "हमसे संपर्क करें"
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_slide_partner_view_search
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_channel_form
 msgid "Content"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कॉन्टेंट"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #. odoo-javascript
@@ -20326,7 +20654,11 @@ msgstr ""
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_slide_form
 msgid "Content Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कॉन्टेंट टाइप"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model_terms:ir.actions.act_window,help:website_slides.slide_slide_action
@@ -20404,7 +20736,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <br>and can be of different types (presentations, documents, videos, ...)."
+=======
+"                    <br>and can be of different types (presentations, "
+"documents, videos, ...)."
+>>>>>>> upstream/18.0
 =======
 "                    <br>and can be of different types (presentations, "
 "documents, videos, ...)."
@@ -20791,7 +21128,11 @@ msgid "Contents"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कॉन्टेंट"
+>>>>>>> upstream/18.0
 =======
 msgstr "कॉन्टेंट"
 >>>>>>> upstream/18.0
@@ -21052,7 +21393,11 @@ msgstr "कॉन्टेंट"
 #. odoo-javascript
 #: code:addons/website_slides/static/src/xml/slide_quiz.xml:0
 msgid "Continue"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "जारी रखें"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #. odoo-javascript
@@ -21070,7 +21415,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/website_slides/static/src/js/public/components/slide_share_dialog/slide_share_dialog.js:0
 msgid "Copy Link"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "लिंक कॉपी करें"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model:slide.answer,comment:website_slides.slide_slide_demo_1_4_question_0_0
@@ -21121,7 +21470,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_channel_form
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_slide_search
 msgid "Course"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कोर्स"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model:ir.model.fields.selection,name:website_slides.selection__slide_channel__visibility__members
@@ -21164,7 +21517,11 @@ msgstr ""
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_channel_partner_view_tree
 msgid "Course Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कोर्स का नाम"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model:ir.actions.act_window,name:website_slides.action_slide_channel_pages_list
@@ -21268,7 +21625,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_channel_view_tree_report
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_searchbar_input_snippet_options
 msgid "Courses"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कोर्स"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.snippet_options
@@ -21444,7 +21805,11 @@ msgid "Created on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इस तारीख को बनाया गया"
+>>>>>>> upstream/18.0
 =======
 msgstr "इस तारीख को बनाया गया"
 >>>>>>> upstream/18.0
@@ -21730,6 +22095,10 @@ msgstr ""
 #: model:ir.model.fields,help:website_slides.field_gamification_challenge__challenge_category
 msgid "Define the visibility of the challenge through menus"
 msgstr ""
+<<<<<<< HEAD
+=======
+"यह तय करें कि यह चुनौती (चैलेंज) सिस्टम के मेन्यू में कहां और किसे दिखाई देगी"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model:ir.model.fields,help:website_slides.field_slide_channel__enroll
@@ -21892,7 +22261,11 @@ msgid "Discard"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "खारिज करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "खारिज करें"
 >>>>>>> upstream/18.0
@@ -22154,7 +22527,11 @@ msgstr "खारिज करें"
 #: model_terms:slide.slide,html_content:website_slides.slide_slide_demo_2_1
 #: model_terms:slide.slide,html_content:website_slides.slide_slide_demo_4_0
 msgid "Discover more"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ज़्यादा जानें"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.lesson_card
@@ -22173,7 +22550,11 @@ msgstr ""
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_channel_form
 msgid "Display"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "डिस्प्ले"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_answer__display_name
@@ -22280,7 +22661,11 @@ msgid "Display Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "डिस्प्ले नाम"
+>>>>>>> upstream/18.0
 =======
 msgstr "डिस्प्ले नाम"
 >>>>>>> upstream/18.0
@@ -22672,7 +23057,11 @@ msgid "Document"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "दस्तावेज़"
+>>>>>>> upstream/18.0
 =======
 msgstr "दस्तावेज़"
 >>>>>>> upstream/18.0
@@ -22914,13 +23303,21 @@ msgstr ""
 #. module: website_slides
 #: model:ir.model.fields.selection,name:website_slides.selection__slide_channel__channel_type__documentation
 msgid "Documentation"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "दस्तावेज़"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__nbr_document
 #: model:slide.slide,name:website_slides.slide_category_demo_4_0
 msgid "Documents"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "डॉक्यूमेंट्स"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model:slide.channel.tag,name:website_slides.slide_channel_tag_other_2
@@ -23132,12 +23529,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/website_slides/static/src/js/public/components/slide_share_dialog/email_sharing_input.xml:0
 msgid "Email(s) sent."
 msgstr ""
 
 #. module: website_slides
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -23427,7 +23827,11 @@ msgstr ""
 #. module: website_slides
 #: model:ir.model.fields.selection,name:website_slides.selection__slide_channel__visibility__public
 msgid "Everyone"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सभी"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model:slide.tag,name:website_slides.slide_tag_demo_exercises
@@ -23546,7 +23950,11 @@ msgid "File"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "फ़ाइल"
+>>>>>>> upstream/18.0
 =======
 msgstr "फ़ाइल"
 >>>>>>> upstream/18.0
@@ -23839,7 +24247,11 @@ msgid "File Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "फ़ाइल का नाम"
+>>>>>>> upstream/18.0
 =======
 msgstr "फ़ाइल का नाम"
 >>>>>>> upstream/18.0
@@ -24066,6 +24478,7 @@ msgid "File is too big. File size cannot exceed 25MB"
 msgstr ""
 
 #. module: website_slides
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -24614,6 +25027,13 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+#: model:ir.model,name:website_slides.model_ir_binary
+msgid "File streaming helper model for controllers"
+msgstr "कंट्रोलर के लिए फ़ाइल स्ट्रीमिंग हेल्पर मॉडल"
+
+#. module: website_slides
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:website_slides.course_slides_cards
 msgid "Filter &amp; order"
 msgstr ""
@@ -24637,7 +25057,11 @@ msgstr ""
 #. module: website_slides
 #: model:ir.model.fields.selection,name:website_slides.selection__slide_channel_partner__member_status__completed
 msgid "Finished"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पूरा हुआ"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_slide_form
@@ -24765,7 +25189,11 @@ msgid "Followers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "फ़ॉलोवर"
+>>>>>>> upstream/18.0
 =======
 msgstr "फ़ॉलोवर"
 >>>>>>> upstream/18.0
@@ -25111,7 +25539,11 @@ msgid "Followers (Partners)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "फ़ॉलोवर (पार्टनर)"
+>>>>>>> upstream/18.0
 =======
 msgstr "फ़ॉलोवर (पार्टनर)"
 >>>>>>> upstream/18.0
@@ -25456,7 +25888,11 @@ msgid "Font awesome icon e.g. fa-tasks"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "फॉन्ट के बेहतरीन आइकॉन जैसे, फा-टॉस्क"
+>>>>>>> upstream/18.0
 =======
 msgstr "फॉन्ट के बेहतरीन आइकॉन जैसे, फा-टॉस्क"
 >>>>>>> upstream/18.0
@@ -25727,7 +26163,11 @@ msgstr ""
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_res_config_settings__module_website_slides_forum
 msgid "Forum"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "फ़ोरम"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_slide_form
@@ -25772,7 +26212,11 @@ msgstr ""
 #. module: website_slides
 #: model:ir.model,name:website_slides.model_gamification_challenge
 msgid "Gamification Challenge"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "गेमिफ़िकेशन चैलेंज"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model:slide.channel.tag,name:website_slides.slide_channel_tag_role_gardener
@@ -25937,7 +26381,11 @@ msgid "Group"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ग्रुप"
+>>>>>>> upstream/18.0
 =======
 msgstr "ग्रुप"
 >>>>>>> upstream/18.0
@@ -26272,7 +26720,11 @@ msgid "Group By"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इन्होंने ग्रुप किया"
+>>>>>>> upstream/18.0
 =======
 msgstr "इन्होंने ग्रुप किया"
 >>>>>>> upstream/18.0
@@ -26595,7 +27047,11 @@ msgid "Group Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ग्रुप का नाम"
+>>>>>>> upstream/18.0
 =======
 msgstr "ग्रुप का नाम"
 >>>>>>> upstream/18.0
@@ -26929,7 +27385,11 @@ msgid "Has Message"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मैसेज है"
+>>>>>>> upstream/18.0
 =======
 msgstr "मैसेज है"
 >>>>>>> upstream/18.0
@@ -27186,7 +27646,11 @@ msgstr ""
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.course_nav
 msgid "Home"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "घर"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_slide_demo_0_1
@@ -27364,7 +27828,11 @@ msgid "ID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आईडी"
+>>>>>>> upstream/18.0
 =======
 msgstr "आईडी"
 >>>>>>> upstream/18.0
@@ -27724,7 +28192,11 @@ msgid "Icon"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आइकॉन"
+>>>>>>> upstream/18.0
 =======
 msgstr "आइकॉन"
 >>>>>>> upstream/18.0
@@ -28057,7 +28529,11 @@ msgid "Icon to indicate an exception activity."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एक छोटा निशान जो बताता है कि कुछ अलग या असामान्य हुआ है."
+>>>>>>> upstream/18.0
 =======
 msgstr "एक छोटा निशान जो बताता है कि कुछ अलग या असामान्य हुआ है."
 >>>>>>> upstream/18.0
@@ -28391,7 +28867,11 @@ msgid "If checked, new messages require your attention."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अगर यह बॉक्स चेक है, तो नए मैसेज देखने ज़रूरी हैं."
+>>>>>>> upstream/18.0
 =======
 msgstr "अगर यह बॉक्स चेक है, तो नए मैसेज देखने ज़रूरी हैं."
 >>>>>>> upstream/18.0
@@ -28727,7 +29207,11 @@ msgid "If checked, some messages have a delivery error."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अगर बॉक्स पर टिक है, तो कुछ मैसेज भेजने में गलती हुई है."
+>>>>>>> upstream/18.0
 =======
 msgstr "अगर बॉक्स पर टिक है, तो कुछ मैसेज भेजने में गलती हुई है."
 >>>>>>> upstream/18.0
@@ -29079,7 +29563,11 @@ msgid "Image"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इमेज"
+>>>>>>> upstream/18.0
 =======
 msgstr "इमेज"
 >>>>>>> upstream/18.0
@@ -29301,25 +29789,41 @@ msgstr "इमेज"
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__image_1024
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide__image_1024
 msgid "Image 1024"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इमेज 1024"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__image_128
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide__image_128
 msgid "Image 128"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इमेज 128"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__image_256
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide__image_256
 msgid "Image 256"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इमेज 256"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__image_512
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide__image_512
 msgid "Image 512"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इमेज 512"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide__image_binary_content
@@ -29343,6 +29847,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/website_slides/models/slide_channel.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -29705,12 +30210,17 @@ msgid ""
 "Impossible to send emails. Select a \"Channel Share Template\" for courses %"
 "(course_names)s first"
 >>>>>>> upstream/18.0
+=======
+"Impossible to send emails. Select a \"Channel Share Template\" for courses %"
+"(course_names)s first"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: website_slides
 #. odoo-python
 #: code:addons/website_slides/models/slide_slide.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -30073,6 +30583,10 @@ msgid ""
 "Impossible to send emails. Select a \"Share Template\" for courses %"
 "(course_names)s first"
 >>>>>>> upstream/18.0
+=======
+"Impossible to send emails. Select a \"Share Template\" for courses %"
+"(course_names)s first"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: website_slides
@@ -30126,7 +30640,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/website_slides/static/src/js/public/components/slide_upload_dialog/slide_install_module.xml:0
 msgid "Install"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इंस्टॉल करें"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #. odoo-javascript
@@ -30183,7 +30701,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_channel_view_kanban
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_channel_form
 msgid "Invite"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "न्योता दें"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #. odoo-python
@@ -30287,7 +30809,11 @@ msgid "Is Editor"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एडिटर है"
+>>>>>>> upstream/18.0
 =======
 msgstr "एडिटर है"
 >>>>>>> upstream/18.0
@@ -30626,7 +31152,11 @@ msgid "Is Follower"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "फ़ॉलोवर है"
+>>>>>>> upstream/18.0
 =======
 msgstr "फ़ॉलोवर है"
 >>>>>>> upstream/18.0
@@ -30895,7 +31425,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel_tag_group__is_published
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide__is_published
 msgid "Is Published"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पब्लिश है"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide__is_category
@@ -30980,7 +31514,11 @@ msgstr ""
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_channel_form
 msgid "Karma"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कर्मा"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model:ir.model.fields,help:website_slides.field_slide_channel__karma_slide_comment
@@ -31079,7 +31617,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Knowing which kind of wood to use depending on your application is important. In this course you\n"
+=======
+"Knowing which kind of wood to use depending on your application is "
+"important. In this course you\n"
+>>>>>>> upstream/18.0
 =======
 "Knowing which kind of wood to use depending on your application is "
 "important. In this course you\n"
@@ -31446,8 +31989,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Knowing wood characteristics is a requirement in order to know which kind of"
 " wood to use in a given situation."
+=======
+"Knowing wood characteristics is a requirement in order to know which kind of "
+"wood to use in a given situation."
+>>>>>>> upstream/18.0
 =======
 "Knowing wood characteristics is a requirement in order to know which kind of "
 "wood to use in a given situation."
@@ -31823,7 +32371,11 @@ msgid "Language"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "भाषा"
+>>>>>>> upstream/18.0
 =======
 msgstr "भाषा"
 >>>>>>> upstream/18.0
@@ -32090,7 +32642,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__slide_last_update
 #: model_terms:ir.ui.view,arch_db:website_slides.course_sidebar
 msgid "Last Update"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आखिरी बार अपडेट"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_answer__write_uid
@@ -32188,7 +32744,11 @@ msgid "Last Updated by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इन्होंने आखिरी बार अपडेट किया"
+>>>>>>> upstream/18.0
 =======
 msgstr "इन्होंने आखिरी बार अपडेट किया"
 >>>>>>> upstream/18.0
@@ -32532,7 +33092,11 @@ msgid "Last Updated on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आखिरी बार अपडेट हुआ"
+>>>>>>> upstream/18.0
 =======
 msgstr "आखिरी बार अपडेट हुआ"
 >>>>>>> upstream/18.0
@@ -32794,7 +33358,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_slides.snippet_options
 #: model_terms:ir.ui.view,arch_db:website_slides.toggle_leaderboard
 msgid "Leaderboard"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "लीडरबोर्ड"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model_terms:slide.channel,description:website_slides.slide_channel_demo_1_gard1
@@ -32862,6 +33430,7 @@ msgstr ""
 #: model:ir.model.fields.selection,name:website_slides.selection__slide_slide_resource__resource_type__url
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_slide_form
 msgid "Link"
+<<<<<<< HEAD
 msgstr ""
 
 #. module: website_slides
@@ -33156,6 +33725,13 @@ msgid "Link of the document (we currently only support Google Drive as source)"
 =======
 msgid "Link of the document (we currently only support Google Drive as source)"
 >>>>>>> upstream/18.0
+=======
+msgstr "लिंक"
+
+#. module: website_slides
+#: model:ir.model.fields,help:website_slides.field_slide_slide__document_google_url
+msgid "Link of the document (we currently only support Google Drive as source)"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: website_slides
@@ -33275,7 +33851,11 @@ msgid "Mail Template"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मेल टेंप्लेट"
+>>>>>>> upstream/18.0
 =======
 msgstr "मेल टेंप्लेट"
 >>>>>>> upstream/18.0
@@ -33526,7 +34106,11 @@ msgstr "मेल टेंप्लेट"
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_res_config_settings__module_mass_mailing_slides
 msgid "Mailing"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मेलिंग"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_slide_demo_2_0
@@ -33536,7 +34120,11 @@ msgstr ""
 #. module: website_slides
 #: model:res.groups,name:website_slides.group_website_slides_manager
 msgid "Manager"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मैनेजर"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_content_detailed
@@ -33613,7 +34201,11 @@ msgid "Mark Done"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "'पूरा हो गया' के तौर पर मार्क करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "'पूरा हो गया' के तौर पर मार्क करें"
 >>>>>>> upstream/18.0
@@ -33861,7 +34453,11 @@ msgstr ""
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.course_sidebar
 msgid "Members"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सदस्य"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_content_detailed
@@ -33966,7 +34562,11 @@ msgid "Message Delivery error"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मैसेज डिलीवरी में गड़बड़ी"
+>>>>>>> upstream/18.0
 =======
 msgstr "मैसेज डिलीवरी में गड़बड़ी"
 >>>>>>> upstream/18.0
@@ -34246,7 +34846,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/website_slides/static/src/js/public/components/slide_upload_dialog/slide_upload_category.xml:0
 msgid "Minutes"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मिनट"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #. odoo-python
@@ -34263,7 +34867,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_slides.course_sidebar
 #: model_terms:ir.ui.view,arch_db:website_slides.courses_home
 msgid "More info"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ज़्यादा जानकारी"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model:ir.model.fields.selection,name:website_slides.selection__slide_channel__promote_strategy__most_viewed
@@ -34368,7 +34976,11 @@ msgid "My Activity Deadline"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मेरी गतिविधि की डेडलाइन"
+>>>>>>> upstream/18.0
 =======
 msgstr "मेरी गतिविधि की डेडलाइन"
 >>>>>>> upstream/18.0
@@ -34681,7 +35293,11 @@ msgstr ""
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.course_slides_cards
 msgid "Newest"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सबसे नया"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.courses_home
@@ -34693,7 +35309,11 @@ msgstr ""
 #: code:addons/website_slides/static/src/js/public/components/slide_quiz_finish_dialog/slide_quiz_finish_dialog.xml:0
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_content_detailed
 msgid "Next"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अगला"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__activity_calendar_event_id
@@ -34780,7 +35400,11 @@ msgid "Next Activity Calendar Event"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अगली गतिविधि कैलेंडर इवेंट"
+>>>>>>> upstream/18.0
 =======
 msgstr "अगली गतिविधि कैलेंडर इवेंट"
 >>>>>>> upstream/18.0
@@ -35113,7 +35737,11 @@ msgid "Next Activity Deadline"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अगली गतिविधि की डेडलाइन"
+>>>>>>> upstream/18.0
 =======
 msgstr "अगली गतिविधि की डेडलाइन"
 >>>>>>> upstream/18.0
@@ -35446,7 +36074,11 @@ msgid "Next Activity Summary"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अगली गतिविधी की जानकारी"
+>>>>>>> upstream/18.0
 =======
 msgstr "अगली गतिविधी की जानकारी"
 >>>>>>> upstream/18.0
@@ -35779,7 +36411,11 @@ msgid "Next Activity Type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अगली गतिविधि का प्रकार"
+>>>>>>> upstream/18.0
 =======
 msgstr "अगली गतिविधि का प्रकार"
 >>>>>>> upstream/18.0
@@ -36104,7 +36740,11 @@ msgstr ""
 #. module: website_slides
 #: model_terms:ir.actions.act_window,help:website_slides.slide_slide_action_report
 msgid "No data yet!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अभी तक कोई डेटा नहीं मिला!"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.toggle_leaderboard
@@ -36216,7 +36856,11 @@ msgid "None"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कोई नहीं"
+>>>>>>> upstream/18.0
 =======
 msgstr "कोई नहीं"
 >>>>>>> upstream/18.0
@@ -36485,7 +37129,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/website_slides/static/src/js/public/components/slide_unsubscribe_dialog/slide_unsubscribe_dialog.js:0
 msgid "Notifications"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सूचना"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__message_needaction_counter
@@ -36573,7 +37221,11 @@ msgid "Number of Actions"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कार्रवाई की संख्या"
+>>>>>>> upstream/18.0
 =======
 msgstr "कार्रवाई की संख्या"
 >>>>>>> upstream/18.0
@@ -36943,7 +37595,11 @@ msgid "Number of errors"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "गलतियों की संख्या"
+>>>>>>> upstream/18.0
 =======
 msgstr "गलतियों की संख्या"
 >>>>>>> upstream/18.0
@@ -37277,7 +37933,11 @@ msgid "Number of messages requiring action"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऐसे मैसेज की संख्या जिनपर कार्रवाई करना ज़रूरी है"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऐसे मैसेज की संख्या जिनपर कार्रवाई करना ज़रूरी है"
 >>>>>>> upstream/18.0
@@ -37611,7 +38271,11 @@ msgid "Number of messages with delivery error"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऐसे मैसेज की संख्या जिनमें डिलीवरी की गड़बड़ी है"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऐसे मैसेज की संख्या जिनमें डिलीवरी की गड़बड़ी है"
 >>>>>>> upstream/18.0
@@ -37939,7 +38603,11 @@ msgid "Odoo"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odoo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odoo"
 >>>>>>> upstream/18.0
@@ -38167,7 +38835,11 @@ msgstr ""
 #. module: website_slides
 #: model:res.groups,name:website_slides.group_website_slides_officer
 msgid "Officer"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऑफ़िसर"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #. odoo-javascript
@@ -38202,7 +38874,11 @@ msgstr ""
 #: model:ir.model.fields.selection,name:website_slides.selection__slide_channel_partner__member_status__ongoing
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_channel_partner_view_search
 msgid "Ongoing"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऑनगोइंग"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.user_profile_content
@@ -38300,7 +38976,11 @@ msgid "Open"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ओपेन"
+>>>>>>> upstream/18.0
 =======
 msgstr "ओपेन"
 >>>>>>> upstream/18.0
@@ -38624,7 +39304,11 @@ msgid "Operation not supported"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऑपरेशन काम नहीं करता"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऑपरेशन काम नहीं करता"
 >>>>>>> upstream/18.0
@@ -38919,6 +39603,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "a placeholder expression that provides the appropriate language, e.g. {{ "
 "object.partner_id.lang }}."
 msgstr ""
@@ -38984,6 +39669,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -39204,6 +39891,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -39423,7 +40113,11 @@ msgid "Options"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "विकल्प"
+>>>>>>> upstream/18.0
 =======
 msgstr "विकल्प"
 >>>>>>> upstream/18.0
@@ -39716,7 +40410,11 @@ msgid "PDF"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पीडीएफ"
+>>>>>>> upstream/18.0
 =======
 msgstr "पीडीएफ"
 >>>>>>> upstream/18.0
@@ -39958,7 +40656,11 @@ msgstr ""
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_channel_view_pivot
 msgid "Pivot"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पिवट"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #. odoo-javascript
@@ -39968,12 +40670,17 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_slides.course_join
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_social_email
 msgid "Please"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कृपया"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #. odoo-javascript
 #: code:addons/website_slides/static/src/js/slides_slide_like.js:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -40337,6 +41044,10 @@ msgid ""
 "Please <a href=\"/web/login?redirect=%(url)s\">login</a> or <a href=\"/web/"
 "signup?redirect=%(url)s\">create an account</a> to vote for this lesson"
 >>>>>>> upstream/18.0
+=======
+"Please <a href=\"/web/login?redirect=%(url)s\">login</a> or <a href=\"/web/"
+"signup?redirect=%(url)s\">create an account</a> to vote for this lesson"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: website_slides
@@ -40392,7 +41103,11 @@ msgstr ""
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.mail_notification_channel_invite
 msgid "Powered by"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पॉवर्ड बॉय"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__prerequisite_of_channel_ids
@@ -40407,7 +41122,11 @@ msgstr ""
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__prerequisite_channel_ids
 msgid "Prerequisites"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बुनियादी कोर्स"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_embed__slide_id
@@ -40508,7 +41227,11 @@ msgid "Preview"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्रीव्यू"
+>>>>>>> upstream/18.0
 =======
 msgstr "प्रीव्यू"
 >>>>>>> upstream/18.0
@@ -40759,13 +41482,21 @@ msgstr "प्रीव्यू"
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_content_detailed
 msgid "Previous"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पिछला"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #. odoo-javascript
 #: code:addons/website_slides/static/src/js/public/components/slide_upload_dialog/slide_upload_dialog.xml:0
 msgid "Private"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्राइवेट"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.course_join
@@ -40775,7 +41506,11 @@ msgstr ""
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_channel_partner_view_tree
 msgid "Progress"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्रगति देखने की सुविधा"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #. odoo-javascript
@@ -40785,7 +41520,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_fullscreen
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_main
 msgid "Progress bar"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्रोग्रेस बार"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__promoted_slide_id
@@ -40815,7 +41554,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_channel_form
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_slide_search
 msgid "Published"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्रकाशित"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_channel_form
@@ -40840,7 +41583,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_slides.field_slide_answer__question_id
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_slide_form
 msgid "Question"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सवाल"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_question__question
@@ -40852,7 +41599,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide__question_ids
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_slide_form
 msgid "Questions"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सवाल"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #. odoo-javascript
@@ -40896,7 +41647,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_question_view_tree
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_question_view_tree_report
 msgid "Quizzes"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "क्विज़"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__rating_avg_stars
@@ -40906,37 +41661,65 @@ msgstr ""
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__rating_avg_text
 msgid "Rating Avg Text"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रेटिंग औसत टेक्स्ट"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__rating_last_feedback
 msgid "Rating Last Feedback"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रेटिंग आखिरी फ़ीडबैक"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__rating_last_image
 msgid "Rating Last Image"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आखिरी इमेज की रेटिंग"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__rating_last_value
 msgid "Rating Last Value"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आखिरी वैल्यू की रेटिंग"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__rating_percentage_satisfaction
 msgid "Rating Satisfaction"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रेटिंग संतुष्टि"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__rating_last_text
 msgid "Rating Text"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रेटिंग टेक्स्ट"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__rating_count
 msgid "Rating count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रेटिंग की संख्या"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #. odoo-python
@@ -41031,7 +41814,11 @@ msgid "Ratings"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रेटिंग"
+>>>>>>> upstream/18.0
 =======
 msgstr "रेटिंग"
 >>>>>>> upstream/18.0
@@ -41365,7 +42152,11 @@ msgid "Recipients"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रसीद"
+>>>>>>> upstream/18.0
 =======
 msgstr "रसीद"
 >>>>>>> upstream/18.0
@@ -41697,7 +42488,11 @@ msgid "Rendering Model"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रेंडरिंग मॉडल"
+>>>>>>> upstream/18.0
 =======
 msgstr "रेंडरिंग मॉडल"
 >>>>>>> upstream/18.0
@@ -42030,7 +42825,11 @@ msgid "Reporting"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रिपोर्टिंग"
+>>>>>>> upstream/18.0
 =======
 msgstr "रिपोर्टिंग"
 >>>>>>> upstream/18.0
@@ -42366,7 +43165,11 @@ msgid "Reset"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रीसेट करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "रीसेट करें"
 >>>>>>> upstream/18.0
@@ -42589,7 +43392,11 @@ msgstr "रीसेट करें"
 #: code:addons/website_slides/models/slide_slide_resource.py:0
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide_resource__data
 msgid "Resource"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रिसोर्स"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #. odoo-python
@@ -42666,8 +43473,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Resource %(resource_name)s is a link and should not contain a data file"
+=======
+msgid "Resource %(resource_name)s is a link and should not contain a data file"
+>>>>>>> upstream/18.0
 =======
 msgid "Resource %(resource_name)s is a link and should not contain a data file"
 >>>>>>> upstream/18.0
@@ -42985,7 +43796,11 @@ msgid "Responsible User"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "जिम्मेदार उपयोगकर्ता"
+>>>>>>> upstream/18.0
 =======
 msgstr "जिम्मेदार उपयोगकर्ता"
 >>>>>>> upstream/18.0
@@ -43330,7 +44145,11 @@ msgid "Retry"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "दोबारा कोशिश करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "दोबारा कोशिश करें"
 >>>>>>> upstream/18.0
@@ -43639,6 +44458,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#. odoo-javascript
+#: code:addons/website_slides/static/src/js/portal_rating_composer.js:0
+>>>>>>> upstream/18.0
 =======
 #. odoo-javascript
 #: code:addons/website_slides/static/src/js/portal_rating_composer.js:0
@@ -43935,6 +44759,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_fullscreen
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_channel_form
 msgid "Reviews"
+<<<<<<< HEAD
 msgstr ""
 
 #. module: website_slides
@@ -44356,6 +45181,13 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/website_slides/static/src/js/portal_rating_composer.js:0
 >>>>>>> upstream/18.0
+=======
+msgstr "रिव्यू"
+
+#. module: website_slides
+#. odoo-javascript
+#: code:addons/website_slides/static/src/js/portal_rating_composer.js:0
+>>>>>>> upstream/18.0
 msgid "Reviews (%s)"
 msgstr ""
 
@@ -44450,6 +45282,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -44747,7 +45582,11 @@ msgid "SMS Delivery error"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एसएमएस डिलीवरी में गड़बड़ी"
+>>>>>>> upstream/18.0
 =======
 msgstr "एसएमएस डिलीवरी में गड़बड़ी"
 >>>>>>> upstream/18.0
@@ -45004,7 +45843,11 @@ msgstr ""
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.course_slides_list_sample
 msgid "Sample"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सैंपल"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #. odoo-javascript
@@ -45030,13 +45873,21 @@ msgstr ""
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.rating_rating_view_tree_slide_channel
 msgid "Score"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "स्कोर"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.course_nav
 #: model_terms:ir.ui.view,arch_db:website_slides.course_slides_cards
 msgid "Search"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सर्च"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_slide_search
@@ -45147,7 +45998,11 @@ msgid "Section"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सेक्शन"
+>>>>>>> upstream/18.0
 =======
 msgstr "सेक्शन"
 >>>>>>> upstream/18.0
@@ -45400,7 +46255,11 @@ msgstr "सेक्शन"
 #: model_terms:slide.slide,html_content:website_slides.slide_slide_demo_2_1
 #: model_terms:slide.slide,html_content:website_slides.slide_slide_demo_4_0
 msgid "Section Subtitle"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सेक्शन का सबटाइटल"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #. odoo-javascript
@@ -45493,7 +46352,11 @@ msgid "Security Token"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सिक्योरिटी टोकन"
+>>>>>>> upstream/18.0
 =======
 msgstr "सिक्योरिटी टोकन"
 >>>>>>> upstream/18.0
@@ -45883,7 +46746,11 @@ msgid "Send"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "भेजें"
+>>>>>>> upstream/18.0
 =======
 msgstr "भेजें"
 >>>>>>> upstream/18.0
@@ -46136,7 +47003,11 @@ msgstr "भेजें"
 #: code:addons/website_slides/static/src/js/public/components/slide_share_dialog/email_sharing_input.xml:0
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel_invite__send_email
 msgid "Send Email"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ईमेल भेजें"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model:mail.template,description:website_slides.mail_template_channel_completed
@@ -46272,7 +47143,11 @@ msgid "Share"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "शेयर करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "शेयर करें"
 >>>>>>> upstream/18.0
@@ -46530,7 +47405,11 @@ msgstr ""
 #: code:addons/website_slides/static/src/js/public/components/slide_share_dialog/slide_share_dialog.xml:0
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_share_link
 msgid "Share Link"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "लिंक शेयर करें"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__share_slide_template_id
@@ -46651,7 +47530,11 @@ msgstr ""
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.course_main
 msgid "Sign up"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "साइन अप करें"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model:ir.model.fields.selection,name:website_slides.selection__slide_channel__visibility__connected
@@ -46711,6 +47594,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/website_slides/controllers/main.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -47001,6 +47885,9 @@ msgid ""
 =======
 "Slide with questions must be marked as done when submitting all good answers "
 >>>>>>> upstream/18.0
+=======
+"Slide with questions must be marked as done when submitting all good answers "
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: website_slides
@@ -47008,7 +47895,11 @@ msgstr ""
 #: code:addons/website_slides/static/src/xml/website_slides_fullscreen.xml:0
 #: model:ir.model,name:website_slides.model_slide_slide
 msgid "Slides"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "स्लाइड्स"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model:ir.model.fields.selection,name:website_slides.selection__slide_slide__slide_type__slides
@@ -47034,7 +47925,11 @@ msgstr ""
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide__source_type
 msgid "Source Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सोर्स टाइप"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.course_join
@@ -47057,7 +47952,11 @@ msgstr ""
 #: model_terms:slide.slide,html_content:website_slides.slide_slide_demo_2_1
 #: model_terms:slide.slide,html_content:website_slides.slide_slide_demo_4_0
 msgid "Start with the customer – find out what they want and give it to them."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ग्राहक से शुरू करें – पता लगाएं कि वे क्या चाहते हैं और वह उन्हें दें।"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.courses_home
@@ -47160,7 +48059,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -47408,6 +48310,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -47662,7 +48567,11 @@ msgid "Subject..."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सब्जेक्ट..."
+>>>>>>> upstream/18.0
 =======
 msgstr "सब्जेक्ट..."
 >>>>>>> upstream/18.0
@@ -47939,6 +48848,7 @@ msgstr ""
 #. module: website_slides
 #: model:ir.model.fields,help:website_slides.field_slide_slide__slide_type
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -48301,6 +49211,10 @@ msgid ""
 "Subtype of the slide category, allows more precision on the actual file "
 "type / source type."
 >>>>>>> upstream/18.0
+=======
+"Subtype of the slide category, allows more precision on the actual file "
+"type / source type."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: website_slides
@@ -48314,7 +49228,11 @@ msgstr ""
 #: code:addons/website_slides/static/src/js/public/components/course_tag_add_dialog/course_tag_add_dialog.xml:0
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_tag_form
 msgid "Tag"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "टैग"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #. odoo-javascript
@@ -48407,7 +49325,11 @@ msgid "Tag Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "टैग नाम"
+>>>>>>> upstream/18.0
 =======
 msgstr "टैग नाम"
 >>>>>>> upstream/18.0
@@ -48731,8 +49653,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "kanban or front-end, to distinguish internal tags from public categorization"
 " tags"
+=======
+"kanban or front-end, to distinguish internal tags from public categorization "
+"tags"
+>>>>>>> upstream/18.0
 =======
 "kanban or front-end, to distinguish internal tags from public categorization "
 "tags"
@@ -49178,8 +50105,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The Enroll Policy should be set to 'On Invitation' when visibility is set to"
 " 'Course Attendees'"
+=======
+"The Enroll Policy should be set to 'On Invitation' when visibility is set to "
+"'Course Attendees'"
+>>>>>>> upstream/18.0
 =======
 "The Enroll Policy should be set to 'On Invitation' when visibility is set to "
 "'Course Attendees'"
@@ -49561,8 +50493,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The completion of a channel is a percentage and should be between 0% and "
 "100."
+=======
+"The completion of a channel is a percentage and should be between 0% and 100."
+>>>>>>> upstream/18.0
 =======
 "The completion of a channel is a percentage and should be between 0% and 100."
 >>>>>>> upstream/18.0
@@ -49911,7 +50847,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Then, go into the file permissions and set it as \"Anyone with the link\"."
+=======
+msgid ""
+"Then, go into the file permissions and set it as \"Anyone with the link\"."
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "Then, go into the file permissions and set it as \"Anyone with the link\"."
@@ -50371,8 +51312,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This question must have at least one correct answer and one incorrect "
 "answer."
+=======
+"This question must have at least one correct answer and one incorrect answer."
+>>>>>>> upstream/18.0
 =======
 "This question must have at least one correct answer and one incorrect answer."
 >>>>>>> upstream/18.0
@@ -50692,7 +51637,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            Including regular documents (Google Doc, .docx), Sheets (Google Sheet, .xlsx), PowerPoints, ..."
+=======
+"            Including regular documents (Google Doc, .docx), Sheets (Google "
+"Sheet, .xlsx), PowerPoints, ..."
+>>>>>>> upstream/18.0
 =======
 "            Including regular documents (Google Doc, .docx), Sheets (Google "
 "Sheet, .xlsx), PowerPoints, ..."
@@ -51060,7 +52010,11 @@ msgid "Title"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "टाइटल"
+>>>>>>> upstream/18.0
 =======
 msgstr "टाइटल"
 >>>>>>> upstream/18.0
@@ -51382,7 +52336,11 @@ msgid "Total"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कुल"
+>>>>>>> upstream/18.0
 =======
 msgstr "कुल"
 >>>>>>> upstream/18.0
@@ -51656,12 +52614,20 @@ msgstr ""
 #. module: website_slides
 #: model:ir.model,name:website_slides.model_gamification_karma_tracking
 msgid "Track Karma Changes"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कर्मा बदलावों को ट्रैक करें"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model:ir.model.fields.selection,name:website_slides.selection__slide_channel__channel_type__training
 msgid "Training"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ट्रेनिंग"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_category_demo_2_0
@@ -51767,7 +52733,11 @@ msgid "Type of the exception activity on record."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रिकॉर्ड में जो अलग तरह की गतिविधि हुई है, वह किस तरह की है."
+>>>>>>> upstream/18.0
 =======
 msgstr "रिकॉर्ड में जो अलग तरह की गतिविधि हुई है, वह किस तरह की है."
 >>>>>>> upstream/18.0
@@ -52020,7 +52990,11 @@ msgstr ""
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_channel_partner_view_tree
 msgid "Unarchive"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रिकॉर्ड से हटाएं"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #. odoo-python
@@ -52058,7 +53032,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_slides.course_slides_list_slide
 #: model_terms:ir.ui.view,arch_db:website_slides.lesson_card
 msgid "Unpublished"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अप्रकाशित"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #. odoo-javascript
@@ -52136,7 +53114,11 @@ msgid "Update"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अपडेट"
+>>>>>>> upstream/18.0
 =======
 msgstr "अपडेट"
 >>>>>>> upstream/18.0
@@ -52432,7 +53414,11 @@ msgstr ""
 #: code:addons/website_slides/static/src/js/public/components/slide_upload_dialog/slide_upload_dialog.js:0
 #: model:ir.model.fields.selection,name:website_slides.selection__slide_slide__slide_category__video
 msgid "Video"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "वीडियो"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #. odoo-javascript
@@ -52459,7 +53445,11 @@ msgstr ""
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__nbr_video
 msgid "Videos"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "वीडियो"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.courses_home
@@ -52546,7 +53536,11 @@ msgid "View"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "देखें"
+>>>>>>> upstream/18.0
 =======
 msgstr "देखें"
 >>>>>>> upstream/18.0
@@ -52811,7 +53805,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_channel_view_kanban
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_content_detailed
 msgid "Views"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "डेटा देखने का तरीका"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_aside_card
@@ -52823,7 +53821,11 @@ msgstr ""
 #: code:addons/website_slides/models/slide_slide.py:0
 #: model:ir.model.fields.selection,name:website_slides.selection__slide_slide__video_source_type__vimeo
 msgid "Vimeo"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vimeo"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model:ir.model.fields.selection,name:website_slides.selection__slide_slide__slide_type__vimeo_video
@@ -52835,7 +53837,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel_tag_group__website_published
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide__website_published
 msgid "Visible on current website"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मौजूदा वेबसाइट पर दिखना"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__total_views
@@ -52969,7 +53975,11 @@ msgid "Website"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "वेबसाइट"
+>>>>>>> upstream/18.0
 =======
 msgstr "वेबसाइट"
 >>>>>>> upstream/18.0
@@ -53296,7 +54306,11 @@ msgid "Website Messages"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "वेबसाइट मैसेज"
+>>>>>>> upstream/18.0
 =======
 msgstr "वेबसाइट मैसेज"
 >>>>>>> upstream/18.0
@@ -53540,7 +54554,11 @@ msgstr "वेबसाइट मैसेज"
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel_tag_group__website_url
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide__website_url
 msgid "Website URL"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "वेबसाइट यूआरएल"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model:ir.model.fields,help:website_slides.field_slide_channel__website_message_ids
@@ -53622,7 +54640,11 @@ msgid "Website communication history"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "वेबसाइट कम्यूनिकेशन हिस्ट्री"
+>>>>>>> upstream/18.0
 =======
 msgstr "वेबसाइट कम्यूनिकेशन हिस्ट्री"
 >>>>>>> upstream/18.0
@@ -53856,19 +54878,31 @@ msgstr "वेबसाइट कम्यूनिकेशन हिस्ट�
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__website_meta_description
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide__website_meta_description
 msgid "Website meta description"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "वेबसाइट पर मेटा की जानकारी"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__website_meta_keywords
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide__website_meta_keywords
 msgid "Website meta keywords"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "वेबसाइट पर मेटा कीवर्ड"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__website_meta_title
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide__website_meta_title
 msgid "Website meta title"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "वेबसाइट पर मेटा टाइटल"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__website_meta_og_img
@@ -54078,8 +55112,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You are not allowed to add members to this course. Please contact the course"
 " responsible or an administrator."
+=======
+"You are not allowed to add members to this course. Please contact the course "
+"responsible or an administrator."
+>>>>>>> upstream/18.0
 =======
 "You are not allowed to add members to this course. Please contact the course "
 "responsible or an administrator."
@@ -54549,7 +55588,11 @@ msgstr ""
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.mail_notification_channel_invite
 msgid "Your"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आपका"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model:slide.channel.tag.group,name:website_slides.slide_channel_tag_group_level
@@ -54661,7 +55704,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -54938,6 +55984,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -55211,8 +56260,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Your video could not be found on Vimeo, please check the link and/or privacy"
 " settings"
+=======
+"Your video could not be found on Vimeo, please check the link and/or privacy "
+"settings"
+>>>>>>> upstream/18.0
 =======
 "Your video could not be found on Vimeo, please check the link and/or privacy "
 "settings"
@@ -55717,12 +56771,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/website_slides/static/src/xml/slide_quiz_create.xml:0
 msgid "e.g. \"{{placeholder || \"another animal\"}}\""
 msgstr ""
 
 #. module: website_slides
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -55912,6 +56969,7 @@ msgstr ""
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_slide_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -56274,6 +57332,10 @@ msgid ""
 "e.g. In this video, we'll give you the keys on how Odoo can help you to grow "
 "your business. At the end, we'll propose you a quiz to test your knowledge."
 >>>>>>> upstream/18.0
+=======
+"e.g. In this video, we'll give you the keys on how Odoo can help you to grow "
+"your business. At the end, we'll propose you a quiz to test your knowledge."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: website_slides
@@ -56295,7 +57357,11 @@ msgstr ""
 #: model:ir.ui.menu,name:website_slides.website_slides_menu_root
 #: model_terms:ir.ui.view,arch_db:website_slides.res_config_settings_view_form
 msgid "eLearning"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ई-लर्निंग"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_res_partner__slide_channel_ids
@@ -56361,6 +57427,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/website_slides/static/src/js/public/components/slide_upload_dialog/slide_upload_dialog.xml:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -56578,6 +57645,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "mean? The Vimeo \"Private\" privacy setting means it is a video which can be "
 "viewed only by the users with the link to it.\n"
 "                Your video will never come up in the search results nor on "
@@ -56653,6 +57722,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -56874,8 +57946,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "means? The YouTube \"unlisted\" means it is a video which can be viewed only"
 " by the users with the link to it. Your video will never come up in the "
+=======
+"means? The YouTube \"unlisted\" means it is a video which can be viewed only "
+"by the users with the link to it. Your video will never come up in the "
+>>>>>>> upstream/18.0
 =======
 "means? The YouTube \"unlisted\" means it is a video which can be viewed only "
 "by the users with the link to it. Your video will never come up in the "
@@ -57248,7 +58325,11 @@ msgid "or"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr " "
+>>>>>>> upstream/18.0
 =======
 msgstr " "
 >>>>>>> upstream/18.0
@@ -57494,12 +58575,20 @@ msgstr ""
 #: code:addons/website_slides/static/src/xml/slide_quiz.xml:0
 #: model_terms:ir.ui.view,arch_db:website_slides.course_join
 msgid "sign in"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "साइन इन करें"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.course_join
 msgid "start"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "शुरू करें"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.course_card

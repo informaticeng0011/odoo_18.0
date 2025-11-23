@@ -1,18 +1,28 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* website_event_booth
 # 
+=======
+# * website_event_booth
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Rita Bastos, 2025
 # Wil Odoo, 2025
 # Vasco Rodrigues, 2025
 # Peter Lawrence Romão <peterromao@yahoo.co.uk>, 2025
+<<<<<<< HEAD
 # 
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-19 20:37+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 "Last-Translator: Peter Lawrence Romão <peterromao@yahoo.co.uk>, 2025\n"
 "Language-Team: Portuguese (https://app.transifex.com/odoo/teams/41243/pt/)\n"
@@ -21,6 +31,19 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: pt\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+=======
+"PO-Revision-Date: 2025-11-21 02:38+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Portuguese <https://translate.odoo.com/projects/odoo-18/"
+"website_event_booth/pt/>\n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % "
+"1000000 == 0) ? 1 : 2);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: website_event_booth
 #: model_terms:ir.ui.view,arch_db:website_event_booth.event_booth_registration_details
@@ -28,6 +51,12 @@ msgid ""
 "<i class=\"fa fa-exclamation-triangle me-2\" role=\"img\" aria-label=\"Error\" title=\"Error\"/>\n"
 "                    <span class=\"o_wbooth_registration_error_message\"/>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-exclamation-triangle me-2\" role=\"img\" aria-label="
+"\"Error\" title=\"Error\"/>\n"
+"                    <span class=\"o_wbooth_registration_error_message\"/>"
+>>>>>>> upstream/18.0
 
 #. module: website_event_booth
 #: model_terms:ir.ui.view,arch_db:website_event_booth.event_booth_registration
@@ -35,31 +64,57 @@ msgid ""
 "<i class=\"fa fa-exclamation-triangle\"/>\n"
 "                                        <span>Sorry, several booths are now sold out. Please change your choices before validating again.</span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-exclamation-triangle\"/>\n"
+"                                        <span>Vários estandes já estão "
+"esgotados. Altere suas opções antes de validar novamente.</span>"
+>>>>>>> upstream/18.0
 
 #. module: website_event_booth
 #: model_terms:ir.ui.view,arch_db:website_event_booth.event_booth_registration
 msgid "<i class=\"fa fa-map-o me-1\"/>View Plan"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-map-o me-1\"/>Ver plano"
+>>>>>>> upstream/18.0
 
 #. module: website_event_booth
 #: model_terms:ir.ui.view,arch_db:website_event_booth.event_booth_layout
 msgid "<span class=\"fa fa-gear me-1\"/> Configure Booths"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"fa fa-gear me-1\"/> Configurar estandes"
+>>>>>>> upstream/18.0
 
 #. module: website_event_booth
 #: model_terms:ir.ui.view,arch_db:website_event_booth.event_booth_registration
 msgid "<span class=\"text-nowrap\">Sold Out</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"text-nowrap\">Esgotado</span>"
+>>>>>>> upstream/18.0
 
 #. module: website_event_booth
 #: model_terms:ir.ui.view,arch_db:website_event_booth.event_booth_registration
 msgid "<span>Book my Booth<small>(s)</small></span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Reservar meu(s) estande<small>(s)</small></span>"
+>>>>>>> upstream/18.0
 
 #. module: website_event_booth
 #: model_terms:ir.ui.view,arch_db:website_event_booth.event_booth_registration_details
 msgid "<span>Book my Booths</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Reservar meus estandes</span>"
+>>>>>>> upstream/18.0
 
 #. module: website_event_booth
 #: model_terms:ir.ui.view,arch_db:website_event_booth.event_booth_order_progress
@@ -67,6 +122,11 @@ msgid ""
 "<span>Booth Selection</span><span class=\"fa fa-angle-right d-inline-block "
 "align-middle mx-2 mx-lg-3 opacity-75\"/>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span>Seleção de estande</span><span class="
+"\"fa fa-angle-right d-inline-block align-middle mx-2 mx-lg-3 opacity-75\"/>"
+>>>>>>> upstream/18.0
 
 #. module: website_event_booth
 #: model_terms:ir.ui.view,arch_db:website_event_booth.event_booth_order_progress
@@ -79,6 +139,11 @@ msgid ""
 "<span>Email</span>\n"
 "                            <span> *</span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span>E-mail</span>\n"
+"                            <span> *</span>"
+>>>>>>> upstream/18.0
 
 #. module: website_event_booth
 #: model_terms:ir.ui.view,arch_db:website_event_booth.event_booth_registration_details
@@ -86,33 +151,58 @@ msgid ""
 "<span>Name</span>\n"
 "                            <span> *</span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span>Nome</span>\n"
+"                            <span> *</span>"
+>>>>>>> upstream/18.0
 
 #. module: website_event_booth
 #: model_terms:ir.ui.view,arch_db:website_event_booth.event_type_view_form
 msgid "Booth Menu Item"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Item de menu do estande"
+>>>>>>> upstream/18.0
 
 #. module: website_event_booth
 #: model:ir.model.fields,field_description:website_event_booth.field_event_event__booth_menu
 msgid "Booth Register"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Inscrição do estande"
+>>>>>>> upstream/18.0
 
 #. module: website_event_booth
 #. odoo-javascript
 #: code:addons/website_event_booth/static/src/xml/event_booth_registration_templates.xml:0
 msgid "Booth Registration completed!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Inscrição do estande finalizada!"
+>>>>>>> upstream/18.0
 
 #. module: website_event_booth
 #. odoo-javascript
 #: code:addons/website_event_booth/static/src/js/booth_register.js:0
 msgid "Booth registration failed."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "A inscrição do estande falhou."
+>>>>>>> upstream/18.0
 
 #. module: website_event_booth
 #: model:ir.model.fields,field_description:website_event_booth.field_event_type__booth_menu
 msgid "Booths on Website"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Estandes no site"
+>>>>>>> upstream/18.0
 
 #. module: website_event_booth
 #: model_terms:ir.ui.view,arch_db:website_event_booth.event_booth_layout
@@ -122,7 +212,11 @@ msgstr ""
 #. module: website_event_booth
 #: model_terms:ir.ui.view,arch_db:website_event_booth.event_booth_registration
 msgid "Choose your type of booth"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Escolha o tipo de estande"
+>>>>>>> upstream/18.0
 
 #. module: website_event_booth
 #: model_terms:ir.ui.view,arch_db:website_event_booth.event_booth_registration_details
@@ -135,6 +229,11 @@ msgid ""
 "Contact Details<span class=\"fa fa-angle-right d-inline-block align-middle "
 "mx-2 mx-lg-3 opacity-75\"/>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Informações de contato<span class="
+"\"fa fa-angle-right d-inline-block align-middle mx-2 mx-lg-3 opacity-75\"/>"
+>>>>>>> upstream/18.0
 
 #. module: website_event_booth
 #: model_terms:ir.ui.view,arch_db:website_event_booth.event_booth_registration
@@ -149,17 +248,29 @@ msgstr "Evento"
 #. module: website_event_booth
 #: model:ir.model.fields.selection,name:website_event_booth.selection__website_event_menu__menu_type__booth
 msgid "Event Booth Menus"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Menus de estande de eventos"
+>>>>>>> upstream/18.0
 
 #. module: website_event_booth
 #: model:ir.model.fields,field_description:website_event_booth.field_event_event__booth_menu_ids
 msgid "Event Booths Menus"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Menu de estandes de eventos"
+>>>>>>> upstream/18.0
 
 #. module: website_event_booth
 #: model_terms:ir.ui.view,arch_db:website_event_booth.event_booth_layout
 msgid "Event Finished"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Evento concluído"
+>>>>>>> upstream/18.0
 
 #. module: website_event_booth
 #: model:ir.model,name:website_event_booth.model_event_type
@@ -169,7 +280,11 @@ msgstr "Template de evento"
 #. module: website_event_booth
 #: model:ir.model.fields,field_description:website_event_booth.field_event_event__exhibition_map
 msgid "Exhibition Map"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mapa da exposição"
+>>>>>>> upstream/18.0
 
 #. module: website_event_booth
 #. odoo-python
@@ -177,7 +292,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_event_booth.event_booth_registration
 #: model_terms:ir.ui.view,arch_db:website_event_booth.event_booth_registration_details
 msgid "Get A Booth"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Reserve um estande"
+>>>>>>> upstream/18.0
 
 #. module: website_event_booth
 #: model_terms:ir.ui.view,arch_db:website_event_booth.event_booth_registration_details
@@ -188,12 +307,20 @@ msgstr "Voltar"
 #. odoo-javascript
 #: code:addons/website_event_booth/static/src/js/booth_register.js:0
 msgid "It looks like your email is linked to an existing account."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Parece que seu e-mail está vinculado a uma conta existente."
+>>>>>>> upstream/18.0
 
 #. module: website_event_booth
 #: model_terms:ir.ui.view,arch_db:website_event_booth.event_booth_layout
 msgid "It's no longer possible to book a booth."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Não é mais possível reservar um estande."
+>>>>>>> upstream/18.0
 
 #. module: website_event_booth
 #: model_terms:ir.ui.view,arch_db:website_event_booth.event_booth_layout
@@ -223,34 +350,58 @@ msgstr "Telefone"
 #. module: website_event_booth
 #: model_terms:ir.ui.view,arch_db:website_event_booth.event_booth_registration_details
 msgid "Please Sign In."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Faça login."
+>>>>>>> upstream/18.0
 
 #. module: website_event_booth
 #. odoo-javascript
 #: code:addons/website_event_booth/static/src/js/booth_register.js:0
 msgid "Please fill out the form correctly."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Preencha o formulário corretamente."
+>>>>>>> upstream/18.0
 
 #. module: website_event_booth
 #: model_terms:ir.ui.view,arch_db:website_event_booth.event_booth_layout
 msgid "Registration Not Open."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "As inscrições ainda não estão abertas."
+>>>>>>> upstream/18.0
 
 #. module: website_event_booth
 #: model_terms:ir.ui.view,arch_db:website_event_booth.event_booth_registration
 msgid "Sorry, all the booths are sold out."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sentimos muito, todos os estandes estão esgotados."
+>>>>>>> upstream/18.0
 
 #. module: website_event_booth
 #. odoo-javascript
 #: code:addons/website_event_booth/static/src/js/booth_register.js:0
 msgid "The booth category doesn't exist."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "A categoria de estande não existe."
+>>>>>>> upstream/18.0
 
 #. module: website_event_booth
 #: model_terms:ir.ui.view,arch_db:website_event_booth.event_booth_layout
 msgid "This event is not open to exhibitors registration at this time."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Este evento não está aberto para inscrições de expositores no momento."
+>>>>>>> upstream/18.0
 
 #. module: website_event_booth
 #: model:ir.model,name:website_event_booth.model_website_event_menu
@@ -260,7 +411,11 @@ msgstr "Menu de Evento do Site"
 #. module: website_event_booth
 #: model_terms:ir.ui.view,arch_db:website_event_booth.event_booth_registration
 msgid "if you have any question."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "caso tenha dúvidas."
+>>>>>>> upstream/18.0
 
 #. module: website_event_booth
 #: model_terms:ir.ui.view,arch_db:website_event_booth.event_booth_layout

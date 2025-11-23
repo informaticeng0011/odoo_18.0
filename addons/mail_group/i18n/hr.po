@@ -1,5 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* mail_group
 # 
 # Translators:
@@ -220,6 +221,11 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+# * mail_group
+#
+# Translators:
+>>>>>>> upstream/18.0
 # Vojislav Opačić <vojislav.opacic@gmail.com>, 2024
 # 0ba0ac30481a756f36528ba6f9a4317e_6443a87 <52eefe24349934c364624ef40611b7a3_1010754>, 2024
 # Milan Tribuson <one.mile.code@gmail.com>, 2024
@@ -230,6 +236,7 @@
 # Karolina Tonković <karolina.tonkovic@storm.hr>, 2024
 # Tina Milas, 2024
 # Martin Trigaux, 2024
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -519,11 +526,16 @@
 # Luka Carević <luka@uvid.hr>, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+# Luka Carević <luka@uvid.hr>, 2025
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-16 13:40+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -820,6 +832,19 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: hr\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+=======
+"PO-Revision-Date: 2025-11-18 13:14+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Croatian <https://translate.odoo.com/projects/odoo-18/"
+"mail_group/hr/>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_message_reject_form
@@ -1468,7 +1493,11 @@ msgstr ""
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group__alias_incoming_local
 msgid "Local-part based incoming detection"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Otkrivanje dolazne pošte temeljeno na lokalnom dijelu adrese"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model,name:mail_group.model_mail_group
@@ -1511,7 +1540,11 @@ msgstr ""
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group_message__mail_message_id
 msgid "Mail Message"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "E-mail poruka"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model,name:mail_group.model_mail_group_member
@@ -1798,7 +1831,11 @@ msgid "Normalized Email"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Normalizirani Email"
+=======
+msgstr "Uobičajena email adresa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Uobičajena email adresa"
 >>>>>>> upstream/18.0

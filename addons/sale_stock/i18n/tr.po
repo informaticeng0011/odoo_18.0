@@ -1,5 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* sale_stock
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -290,6 +291,10 @@
 =======
 #
 >>>>>>> upstream/18.0
+=======
+# * sale_stock
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Tiffany Chang, 2024
 # emre oktem, 2024
@@ -307,6 +312,7 @@
 # Ediz Duman <neps1192@gmail.com>, 2024
 # Murat Kaplan <muratk@projetgrup.com>, 2024
 # Melih Melik Sonmez, 2025
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -852,10 +858,15 @@
 # Deniz Guvener_Odoo <degu@odoo.com>, 2025
 #
 >>>>>>> upstream/18.0
+=======
+# Deniz Guvener_Odoo <degu@odoo.com>, 2025
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1267,10 +1278,18 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Deniz Guvener_Odoo <degu@odoo.com>, 2025\n"
 "Language-Team: Turkish (https://app.transifex.com/odoo/teams/41243/tr/)\n"
+=======
+"POT-Creation-Date: 2025-08-22 18:39+0000\n"
+"PO-Revision-Date: 2025-11-21 02:36+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Turkish <https://translate.odoo.com/projects/odoo-18/"
+"sale_stock/tr/>\n"
+>>>>>>> upstream/18.0
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1486,6 +1505,10 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+=======
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: sale_stock
 #: model_terms:ir.ui.view,arch_db:sale_stock.exception_on_picking
@@ -1601,6 +1624,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span class=\"small badge rounded-pill text-bg-success orders_label_text_align\">\n"
 "                                        <i class=\"fa fa-fw fa-truck\"/> Shipped\n"
 "                                    </span>"
@@ -1608,6 +1632,8 @@ msgstr ""
 "<span class=\"small badge rounded-pill text-bg-success orders_label_text_align\">\n"
 "                                        <i class=\"fa fa-fw fa-truck\"/> Gönderildi\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1831,6 +1857,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2052,12 +2081,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    Some deliveries are already done. Returns can be created from the Delivery Orders.\n"
 "                </span>"
 msgstr ""
 "<span invisible=\"not display_delivery_alert\">\n"
 "                   Bazı teslimatlar zaten yapıldı. İadeler Teslimat Siparişlerinden oluşturulabilir.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2278,6 +2310,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2555,7 +2590,11 @@ msgid "A storable product is a product for which you manage stock."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Depolanabilir bir ürün, stoklarını yönettiğiniz bir üründür."
+>>>>>>> upstream/18.0
 =======
 msgstr "Depolanabilir bir ürün, stoklarını yönettiğiniz bir üründür."
 >>>>>>> upstream/18.0
@@ -2986,11 +3025,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "According to product configuration, the delivered quantity can be automatically computed by mechanism:\n"
 "  - Manual: the quantity is set manually on the line\n"
 "  - Analytic From expenses: the quantity is the quantity sum from posted expenses\n"
 "  - Timesheet: the quantity is the sum of hours recorded on tasks linked to this sale line\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3211,6 +3253,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3356,6 +3399,18 @@ msgid ""
 >>>>>>> upstream/18.0
 "  - Stock Moves: the quantity comes from confirmed pickings\n"
 msgstr ""
+=======
+"  - Stock Moves: the quantity comes from confirmed pickings\n"
+msgstr ""
+"Ürün yapılandırmasına göre teslim edilen miktar şu yöntemlerle otomatik "
+"olarak hesaplanabilir:\n"
+"  - Manuel: miktar satırda elle belirlenir\n"
+"  - Giderlerden Analitik: miktar, muhasebeleştirilmiş giderlerin toplamından "
+"alınır\n"
+"  - Çalışma Çizelgesi: miktar, bu satış satırına bağlı görevlerde kaydedilen "
+"saatlerin toplamıdır\n"
+"  - Stok Hareketleri: miktar, onaylanmış sevkiyatlardan alınır\n"
+>>>>>>> upstream/18.0
 
 #. module: sale_stock
 #. odoo-javascript
@@ -3534,8 +3589,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Servis ürünlerinde sipariş hatlarının minimum teslim süresinden hesaplanarak"
 " müşteriye söz verebileceğiniz teslim tarihi. Sevkiyat durumunda, sipariş "
+=======
+"Servis ürünlerinde sipariş hatlarının minimum teslim süresinden hesaplanarak "
+"müşteriye söz verebileceğiniz teslim tarihi. Sevkiyat durumunda, sipariş "
+>>>>>>> upstream/18.0
 =======
 "Servis ürünlerinde sipariş hatlarının minimum teslim süresinden hesaplanarak "
 "müşteriye söz verebileceğiniz teslim tarihi. Sevkiyat durumunda, sipariş "
@@ -3983,8 +4043,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "teslim süresine göre planlanacaktır. Aksi takdirde, en kısasına "
 "dayanacaktır."
+=======
+"teslim süresine göre planlanacaktır. Aksi takdirde, en kısasına dayanacaktır."
+>>>>>>> upstream/18.0
 =======
 "teslim süresine göre planlanacaktır. Aksi takdirde, en kısasına dayanacaktır."
 >>>>>>> upstream/18.0
@@ -4365,9 +4429,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Müşterilere söz verilen tarihler için hata payı. Ürünler, tedarik zincirinde"
 " beklenmedik gecikmelerle başa çıkmak için gerçek vaat edilen tarihten "
 "önceki günlerden daha uzun bir süre önce teslimat için planlanacaktır."
+=======
+"Müşterilere söz verilen tarihler için hata payı. Ürünler, tedarik zincirinde "
+"beklenmedik gecikmelerle başa çıkmak için gerçek vaat edilen tarihten önceki "
+"günlerden daha uzun bir süre önce teslimat için planlanacaktır."
+>>>>>>> upstream/18.0
 =======
 "Müşterilere söz verilen tarihler için hata payı. Ürünler, tedarik zincirinde "
 "beklenmedik gecikmelerle başa çıkmak için gerçek vaat edilen tarihten önceki "
@@ -4807,8 +4877,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "for procurement and delivery that many days earlier than the actual promised"
 " date, to cope with unexpected delays in the supply chain."
+=======
+"for procurement and delivery that many days earlier than the actual promised "
+"date, to cope with unexpected delays in the supply chain."
+>>>>>>> upstream/18.0
 =======
 "for procurement and delivery that many days earlier than the actual promised "
 "date, to cope with unexpected delays in the supply chain."
@@ -5270,7 +5345,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                replenishment propositions, shipping connectors, barcode scanner, etc."
+=======
+"                replenishment propositions, shipping connectors, barcode "
+"scanner, etc."
+>>>>>>> upstream/18.0
 =======
 "                replenishment propositions, shipping connectors, barcode "
 "scanner, etc."
@@ -5795,6 +5875,7 @@ msgstr "Stok Kuralları raporu"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -6157,6 +6238,13 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+#: model:ir.model,name:sale_stock.model_stock_valuation_layer
+msgid "Stock Valuation Layer"
+msgstr "Stok Değerleme Katmanı"
+
+#. module: sale_stock
+>>>>>>> upstream/18.0
 #: model:ir.model,name:sale_stock.model_report_stock_report_stock_rule
 msgid "Stock rule report"
 msgstr "Stok kuralı raporu"
@@ -6172,6 +6260,7 @@ msgstr "Teslimat"
 #: code:addons/sale_stock/models/sale_order.py:0
 msgid ""
 "The delivery address has been changed on the Sales Order<br/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6389,6 +6478,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                        From <strong>\"%(old_address)s\"</strong> to "
 "<strong>\"%(new_address)s\"</strong>,\n"
 "                        You should probably update the partner on this "
@@ -6464,6 +6555,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6685,8 +6779,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The ordered quantity cannot be decreased below the amount already delivered."
 " Instead, create a return in your inventory."
+=======
+"The ordered quantity cannot be decreased below the amount already delivered. "
+"Instead, create a return in your inventory."
+>>>>>>> upstream/18.0
 =======
 "The ordered quantity cannot be decreased below the amount already delivered. "
 "Instead, create a return in your inventory."

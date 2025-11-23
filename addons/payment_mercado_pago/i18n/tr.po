@@ -1,7 +1,12 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* payment_mercado_pago
 # 
+=======
+# * payment_mercado_pago
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Murat Kaplan <muratk@projetgrup.com>, 2024
 # Ediz Duman <neps1192@gmail.com>, 2024
@@ -129,6 +134,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Deniz Guvener_Odoo <degu@odoo.com>, 2025
 >>>>>>> upstream/18.0
@@ -493,11 +499,16 @@
 # Deniz Guvener_Odoo <degu@odoo.com>, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+# Deniz Guvener_Odoo <degu@odoo.com>, 2025
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -990,6 +1001,18 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: tr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+=======
+"PO-Revision-Date: 2025-11-21 02:32+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Turkish <https://translate.odoo.com/projects/odoo-18/"
+"payment_mercado_pago/tr/>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: payment_mercado_pago
 #: model_terms:ir.ui.view,arch_db:payment_mercado_pago.payment_provider_form
@@ -1003,30 +1026,51 @@ msgid ""
 "Call your card issuer to activate your card or use another payment method. "
 "The phone number is on the back of your card."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Kartınızı etkinleştirmek veya başka bir ödeme yöntemi kullanmak için "
+"kartınızı veren kuruluşu arayın. Telefon numarası kartınızın arkasındadır."
+>>>>>>> upstream/18.0
 
 #. module: payment_mercado_pago
 #. odoo-python
 #: code:addons/payment_mercado_pago/const.py:0
 msgid "Check expiration date."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Son kullanma tarihini kontrol edin."
+>>>>>>> upstream/18.0
 
 #. module: payment_mercado_pago
 #. odoo-python
 #: code:addons/payment_mercado_pago/const.py:0
 msgid "Check the card number."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kart numarasını kontrol edin."
+>>>>>>> upstream/18.0
 
 #. module: payment_mercado_pago
 #. odoo-python
 #: code:addons/payment_mercado_pago/const.py:0
 msgid "Check the card security code."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kart güvenlik kodunu kontrol edin."
+>>>>>>> upstream/18.0
 
 #. module: payment_mercado_pago
 #. odoo-python
 #: code:addons/payment_mercado_pago/const.py:0
 msgid "Check the data."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Verileri kontrol edin."
+>>>>>>> upstream/18.0
 
 #. module: payment_mercado_pago
 #: model:ir.model.fields,field_description:payment_mercado_pago.field_payment_provider__code
@@ -1047,7 +1091,11 @@ msgstr "Mercado Pago"
 #. module: payment_mercado_pago
 #: model:ir.model.fields,field_description:payment_mercado_pago.field_payment_provider__mercado_pago_access_token
 msgid "Mercado Pago Access Token"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mercado Pago Erişim Simgesi"
+>>>>>>> upstream/18.0
 
 #. module: payment_mercado_pago
 #. odoo-python
@@ -1070,18 +1118,31 @@ msgstr "Ödeme İşlemi"
 #: code:addons/payment_mercado_pago/const.py:0
 msgid "Payment was not processed, use another card or contact issuer."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Ödeme işleme alınmadı, başka bir kart kullanın veya kartı veren kuruluşla "
+"iletişime geçin."
+>>>>>>> upstream/18.0
 
 #. module: payment_mercado_pago
 #. odoo-python
 #: code:addons/payment_mercado_pago/models/payment_transaction.py:0
 msgid "Received data with invalid status: %s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Geçersiz durumda veri alındı: %s"
+>>>>>>> upstream/18.0
 
 #. module: payment_mercado_pago
 #. odoo-python
 #: code:addons/payment_mercado_pago/models/payment_transaction.py:0
 msgid "Received data with missing payment id."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Eksik ödeme kimliği ile veri alındı."
+>>>>>>> upstream/18.0
 
 #. module: payment_mercado_pago
 #. odoo-python
@@ -1093,7 +1154,11 @@ msgstr "Referansı eksik olan veriler alındı."
 #. odoo-python
 #: code:addons/payment_mercado_pago/models/payment_transaction.py:0
 msgid "Received data with missing status."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Eksik durumdaki veriler alındı."
+>>>>>>> upstream/18.0
 
 #. module: payment_mercado_pago
 #. odoo-python
@@ -1192,6 +1257,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"API ile iletişim başarısız oldu. Yanıt boş. Lütfen erişim jetonunuzu "
+"doğrulayın."
+>>>>>>> upstream/18.0
 =======
 "API ile iletişim başarısız oldu. Yanıt boş. Lütfen erişim jetonunuzu "
 "doğrulayın."
@@ -1530,7 +1600,11 @@ msgstr "Bu ödeme sağlayıcısının teknik kodu."
 #. odoo-python
 #: code:addons/payment_mercado_pago/const.py:0
 msgid "This payment method does not process payments in installments."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bu ödeme yöntemi taksitli ödemeleri işleme koymaz."
+>>>>>>> upstream/18.0
 
 #. module: payment_mercado_pago
 #. odoo-python
@@ -1539,6 +1613,11 @@ msgid ""
 "We are processing your payment. Don't worry, in less than 2 business days, "
 "we will notify you by e-mail if your payment has been credited."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Ödemenizi işleme alıyoruz. Endişelenmeyin, 2 iş gününden daha kısa bir süre "
+"içinde ödemenizin alacak olup olmadığını size e-posta ile bildireceğiz."
+>>>>>>> upstream/18.0
 
 #. module: payment_mercado_pago
 #. odoo-python
@@ -1548,19 +1627,33 @@ msgid ""
 "will notify you by e-mail if your payment has been credited or if we need "
 "more information."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Ödemenizi işleme alıyoruz. Endişelenmeyin, 2 iş gününden kısa bir süre "
+"içinde ödemenizin alacak olup olmadığını veya daha fazla bilgiye ihtiyacımız "
+"olup olmadığını size e-posta ile bildireceğiz."
+>>>>>>> upstream/18.0
 
 #. module: payment_mercado_pago
 #. odoo-python
 #: code:addons/payment_mercado_pago/const.py:0
 msgid ""
 "We were unable to process your payment, please check your card information."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ödemenizi işleme alamadık, lütfen kart bilgilerinizi kontrol edin."
+>>>>>>> upstream/18.0
 
 #. module: payment_mercado_pago
 #. odoo-python
 #: code:addons/payment_mercado_pago/const.py:0
 msgid "We were unable to process your payment, please use another card."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ödemenizi işleme alamadık, lütfen başka bir kart kullanın."
+>>>>>>> upstream/18.0
 
 #. module: payment_mercado_pago
 #. odoo-python
@@ -1690,6 +1783,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Bu değer için zaten bir ödeme yaptınız. Tekrar ödeme yapmanız gerekiyorsa, "
+"başka bir kart veya başka bir ödeme yöntemi kullanın."
+>>>>>>> upstream/18.0
 =======
 "Bu değer için zaten bir ödeme yaptınız. Tekrar ödeme yapmanız gerekiyorsa, "
 "başka bir kart veya başka bir ödeme yöntemi kullanın."
@@ -2182,6 +2280,11 @@ msgid ""
 "You have reached the limit of allowed attempts. Choose another card or other"
 " means of payment."
 msgstr ""
+<<<<<<< HEAD
+=======
+"İzin verilen deneme sınırına ulaştınız. Başka bir kart veya başka bir ödeme "
+"aracı seçin."
+>>>>>>> upstream/18.0
 
 #. module: payment_mercado_pago
 #. odoo-python
@@ -2284,7 +2387,11 @@ msgid "You must authorize the payment with this card."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bu kartla ödemeyi onaylamanız gerekir."
+>>>>>>> upstream/18.0
 =======
 msgstr "Bu kartla ödemeyi onaylamanız gerekir."
 >>>>>>> upstream/18.0
@@ -2581,7 +2688,11 @@ msgstr "Bu kartla ödemeyi onaylamanız gerekir."
 #. odoo-python
 #: code:addons/payment_mercado_pago/const.py:0
 msgid "Your card has not enough funds."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kartınızda yeterli bakiye yok."
+>>>>>>> upstream/18.0
 
 #. module: payment_mercado_pago
 #. odoo-python
@@ -2590,3 +2701,8 @@ msgid ""
 "Your payment has been credited. In your summary you will see the charge as a"
 " statement descriptor."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Ödemeniz alacak kaydedildi. Özetinizde ücreti bir ekstre tanımlayıcısı "
+"olarak göreceksiniz."
+>>>>>>> upstream/18.0

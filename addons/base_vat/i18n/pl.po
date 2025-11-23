@@ -1,16 +1,27 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* base_vat
 # 
 # Translators:
 # Wil Odoo, 2024
 # Marta Wacławek, 2025
 # 
+=======
+# * base_vat
+#
+# Translators:
+# Wil Odoo, 2024
+# Marta Wacławek, 2025
+#
+# "Marta (wacm)" <wacm@odoo.com>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-27 13:03+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Marta Wacławek, 2025\n"
 "Language-Team: Polish (https://app.transifex.com/odoo/teams/41243/pl/)\n"
@@ -19,6 +30,20 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: pl\n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+=======
+"PO-Revision-Date: 2025-11-12 14:22+0000\n"
+"Last-Translator: \"Marta (wacm)\" <wacm@odoo.com>\n"
+"Language-Team: Polish <https://translate.odoo.com/projects/odoo-18/base_vat/"
+"pl/>\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && ("
+"n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && "
+"n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: base_vat
 #. odoo-python
@@ -26,18 +51,30 @@ msgstr ""
 msgid ""
 "10XXXXXXXXY or 20XXXXXXXXY or 15XXXXXXXXY or 16XXXXXXXXY or 17XXXXXXXXY"
 msgstr ""
+<<<<<<< HEAD
+=======
+"10XXXXXXXXY lub 20XXXXXXXXY lub 15XXXXXXXXY lub 16XXXXXXXXY lub 17XXXXXXXXY"
+>>>>>>> upstream/18.0
 
 #. module: base_vat
 #. odoo-python
 #: code:addons/base_vat/models/res_partner.py:0
 msgid "17291716060 (NIN) or 1729171602 (VKN)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "17291716060 (NIN) lub 1729171602 (VKN)"
+>>>>>>> upstream/18.0
 
 #. module: base_vat
 #. odoo-python
 #: code:addons/base_vat/models/res_partner.py:0
 msgid "1792060346001 or 1792060346"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "1792060346001 lub 1792060346"
+>>>>>>> upstream/18.0
 
 #. module: base_vat
 #. odoo-python
@@ -49,31 +86,51 @@ msgstr "3101012009"
 #. odoo-python
 #: code:addons/base_vat/models/res_partner.py:0
 msgid "310175397400003 [Fifteen digits, first and last digits should be \"3\"]"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "310175397400003 [piętnaście cyfr, pierwsza i ostatnia cyfra to „3”]"
+>>>>>>> upstream/18.0
 
 #. module: base_vat
 #. odoo-python
 #: code:addons/base_vat/models/res_partner.py:0
 msgid "49-098-576 or 49098576"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "49-098-576 lub 49098576"
+>>>>>>> upstream/18.0
 
 #. module: base_vat
 #. odoo-python
 #: code:addons/base_vat/models/res_partner.py:0
 msgid "AR200-5536168-2 or 20055361682"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "AR200-5536168-2 lub 20055361682"
+>>>>>>> upstream/18.0
 
 #. module: base_vat
 #. odoo-python
 #: code:addons/base_vat/models/res_partner.py:0
 msgid "CHE-123.456.788 TVA or CHE-123.456.788 MWST or CHE-123.456.788 IVA"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "CHE-123.456.788 TVA lub CHE-123.456.788 MWST lub CHE-123.456.788 IVA"
+>>>>>>> upstream/18.0
 
 #. module: base_vat
 #. odoo-python
 #: code:addons/base_vat/models/res_partner.py:0
 msgid "CO213123432-1 or CO213.123.432-1"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "CO213123432-1 lub CO213.123.432-1"
+>>>>>>> upstream/18.0
 
 #. module: base_vat
 #: model:ir.model,name:base_vat.model_res_company
@@ -92,6 +149,10 @@ msgid ""
 "Connection with the VIES server failed. The VAT number %s could not be "
 "validated."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Nie udało się połączyć z serwerem VIES. Nie można zweryfikować numeru VAT %s."
+>>>>>>> upstream/18.0
 
 #. module: base_vat
 #: model:ir.model,name:base_vat.model_res_partner
@@ -102,19 +163,31 @@ msgstr "Kontakt"
 #. odoo-python
 #: code:addons/base_vat/models/res_partner.py:0
 msgid "DE123456788 or 12/345/67890"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "DE123456788 lub 12/345/67890"
+>>>>>>> upstream/18.0
 
 #. module: base_vat
 #. odoo-python
 #: code:addons/base_vat/models/res_partner.py:0
 msgid "DO1-01-85004-3 or 101850043"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "DO1-01-85004-3 lub 101850043"
+>>>>>>> upstream/18.0
 
 #. module: base_vat
 #: model:ir.model.fields,help:base_vat.field_res_partner__vies_valid
 #: model:ir.model.fields,help:base_vat.field_res_users__vies_valid
 msgid "European VAT numbers are automatically checked on the VIES database."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Europejskie numery VAT są automatycznie sprawdzane w bazie danych VIES."
+>>>>>>> upstream/18.0
 
 #. module: base_vat
 #. odoo-python
@@ -122,6 +195,11 @@ msgstr ""
 msgid ""
 "Example: '219999830019' (format: 12 digits, all numbers, valid check digit)"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Przykład: \"219999830019\" (format: 12 cyfr, same cyfry, prawidłowa cyfra "
+"kontrolna)"
+>>>>>>> upstream/18.0
 
 #. module: base_vat
 #: model:ir.model,name:base_vat.model_account_fiscal_position
@@ -132,13 +210,21 @@ msgstr "Obszar podatkowy"
 #. odoo-python
 #: code:addons/base_vat/models/res_partner.py:0
 msgid "GB123456782 or XI123456782"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "GB123456782 lub XI123456782"
+>>>>>>> upstream/18.0
 
 #. module: base_vat
 #. odoo-python
 #: code:addons/base_vat/models/res_partner.py:0
 msgid "HU12345676 or 12345678-1-11 or 8071592153"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "HU12345676 lub 12345678-1-11 lub 8071592153"
+>>>>>>> upstream/18.0
 
 #. module: base_vat
 #: model_terms:ir.ui.view,arch_db:base_vat.res_config_settings_view_form
@@ -146,24 +232,41 @@ msgid ""
 "If this checkbox is ticked, the default fiscal position that applies will "
 "depend upon the output of the verification by the European VIES Service."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Jeśli to pole wyboru jest zaznaczone, domyślna pozycja podatkowa będzie "
+"zależała od wyniku weryfikacji przeprowadzonej przez europejski system VIES."
+>>>>>>> upstream/18.0
 
 #. module: base_vat
 #: model:ir.model.fields,field_description:base_vat.field_res_partner__vies_valid
 #: model:ir.model.fields,field_description:base_vat.field_res_users__vies_valid
 msgid "Intra-Community Valid"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ważne wewnątrz Wspólnoty"
+>>>>>>> upstream/18.0
 
 #. module: base_vat
 #. odoo-python
 #: code:addons/base_vat/models/res_partner.py:0
 msgid "MXGODE561231GR8 or GODE561231GR8"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "MXGODE561231GR8 lub GODE561231GR8"
+>>>>>>> upstream/18.0
 
 #. module: base_vat
 #: model:ir.model.fields,field_description:base_vat.field_res_partner__perform_vies_validation
 #: model:ir.model.fields,field_description:base_vat.field_res_users__perform_vies_validation
 msgid "Perform Vies Validation"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Przeprowadź walidację Vies"
+>>>>>>> upstream/18.0
 
 #. module: base_vat
 #: model_terms:ir.ui.view,arch_db:base_vat.view_partner_base_vat_form
@@ -187,14 +290,23 @@ msgid ""
 "The %(vat_label)s number [%(wrong_vat)s] for %(record_label)s does not seem to be valid. \n"
 "Note: the expected format is %(expected_format)s"
 msgstr ""
+<<<<<<< HEAD
 "%(vat_label)s liczba [%(wrong_vat)s] dla %(record_label)s nie wydaje się być prawidłowa. \n"
+=======
+"%(vat_label)s liczba [%(wrong_vat)s] dla %(record_label)s nie wydaje się być "
+"prawidłowa. \n"
+>>>>>>> upstream/18.0
 "Uwaga: oczekiwany format to %(expected_format)s"
 
 #. module: base_vat
 #. odoo-python
 #: code:addons/base_vat/models/res_partner.py:0
 msgid "The VAT number %s could not be interpreted by the VIES server."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Numer VAT %s nie mógł zostać zinterpretowany przez serwer VIES."
+>>>>>>> upstream/18.0
 
 #. module: base_vat
 #. odoo-python
@@ -203,6 +315,11 @@ msgid ""
 "The country detected for this foreign VAT number does not match any of the "
 "countries composing the country group set on this fiscal position."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Kraj wykryty w tym obcym numerze VAT nie pasuje do żadnych z krajów, które "
+"tworzą tę grupę krajów skonfigurowaną w tym obszarze podatkowym."
+>>>>>>> upstream/18.0
 
 #. module: base_vat
 #. odoo-python
@@ -211,6 +328,11 @@ msgid ""
 "The country of the foreign VAT number could not be detected. Please assign a"
 " country to the fiscal position or set a country group"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Kraj tego obcego numeru VAT nie został wykryty. Przypisz kraj do obszaru "
+"podatkowego, lub skonfiguruj grupę krajów."
+>>>>>>> upstream/18.0
 
 #. module: base_vat
 #. odoo-python
@@ -219,6 +341,11 @@ msgid ""
 "The request for VAT validation was not processed. VIES service has responded"
 " with the following error: %s"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Wniosek o weryfikację VAT nie został przetworzony. Usługa VIES zwróciła "
+"następujący błąd: %s"
+>>>>>>> upstream/18.0
 
 #. module: base_vat
 #. odoo-python
@@ -241,19 +368,31 @@ msgstr "Weryfikuj numery NIP za pomocą europejskiej usługi VIES"
 #: model:ir.model.fields,field_description:base_vat.field_res_partner__vies_vat_to_check
 #: model:ir.model.fields,field_description:base_vat.field_res_users__vies_vat_to_check
 msgid "Vies Vat To Check"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vies VAT do skontrolowania"
+>>>>>>> upstream/18.0
 
 #. module: base_vat
 #. odoo-python
 #: code:addons/base_vat/models/res_partner.py:0
 msgid "XXXXXXXXX [9 digits] and it should respect the Luhn algorithm checksum"
 msgstr ""
+<<<<<<< HEAD
+=======
+"XXXXXXXXX [9 cyfr] i powinno być zgodne z algorytmem sum kontrolnych Luhna."
+>>>>>>> upstream/18.0
 
 #. module: base_vat
 #. odoo-python
 #: code:addons/base_vat/models/res_partner.py:0
 msgid "either 11 digits for CPF or 14 digits for CNPJ"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "11 cyfr dla CPF lub 14 cyfr dla CNPJ"
+>>>>>>> upstream/18.0
 
 #. module: base_vat
 #. odoo-python

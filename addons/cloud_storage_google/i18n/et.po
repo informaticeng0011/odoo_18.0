@@ -1,16 +1,27 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* cloud_storage_google
 # 
 # Translators:
 # Martin Trigaux, 2024
 # Stevin Lilla, 2024
 # 
+=======
+# * cloud_storage_google
+#
+# Translators:
+# Martin Trigaux, 2024
+# Stevin Lilla, 2024
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2024-09-29 00:00+0000\n"
 "Last-Translator: Stevin Lilla, 2024\n"
 "Language-Team: Estonian (https://app.transifex.com/odoo/teams/41243/et/)\n"
@@ -19,6 +30,18 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: et\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+=======
+"PO-Revision-Date: 2025-11-11 17:27+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Estonian <https://translate.odoo.com/projects/odoo-18/"
+"cloud_storage_google/et/>\n"
+"Language: et\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_google
 #: model:ir.model,name:cloud_storage_google.model_ir_attachment
@@ -28,7 +51,11 @@ msgstr "Manus"
 #. module: cloud_storage_google
 #: model:ir.model.fields,field_description:cloud_storage_google.field_res_config_settings__cloud_storage_provider
 msgid "Cloud Storage Provider for new attachments"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Uute manuste pilvesalvestuse pakkuja"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_google
 #: model:ir.model,name:cloud_storage_google.model_res_config_settings
@@ -38,22 +65,38 @@ msgstr "Seadistused"
 #. module: cloud_storage_google
 #: model:ir.model.fields,field_description:cloud_storage_google.field_res_config_settings__cloud_storage_google_bucket_name
 msgid "Google Bucket Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Google’i konteineri nimi"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_google
 #: model:ir.model.fields.selection,name:cloud_storage_google.selection__res_config_settings__cloud_storage_provider__google
 msgid "Google Cloud Storage"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Google pilvesalvestus"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_google
 #: model:ir.model.fields,field_description:cloud_storage_google.field_res_config_settings__cloud_storage_google_account_info
 msgid "Google Service Account Info"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Google teenuse konto info"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_google
 #: model:ir.model.fields,field_description:cloud_storage_google.field_res_config_settings__cloud_storage_google_service_account_key
 msgid "Google Service Account Key"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Google teenuse konto võti"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_google
 #. odoo-python
@@ -62,6 +105,11 @@ msgid ""
 "Some Google attachments are in use, please migrate cloud storages before "
 "disable the provider"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Mõned Googli manused on kasutuses, palun kolige enda pilvesalvestused enne "
+"kui lülitate pakkuja välja"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_google
 #. odoo-python
@@ -70,6 +118,11 @@ msgid ""
 "The account info is not allowed to download blobs from the bucket.\n"
 "%s"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Konto teavel ei ole lubatud konteinerist blobe alla laadida.\n"
+"%s"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_google
 #. odoo-python
@@ -78,6 +131,11 @@ msgid ""
 "The account info is not allowed to set the bucket's CORS.\n"
 "%s"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Konto teavel ei ole lubatud määrata konteinerile CORS.\n"
+"%s"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_google
 #. odoo-python
@@ -86,3 +144,8 @@ msgid ""
 "The account info is not allowed to upload blobs to the bucket.\n"
 "%s"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Konto teavel ei ole lubatud konteinerist blobe üles laadida.\n"
+"%s"
+>>>>>>> upstream/18.0

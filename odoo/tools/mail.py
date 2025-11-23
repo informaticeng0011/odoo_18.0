@@ -71,6 +71,10 @@ safe_attrs = defs.safe_attrs | frozenset(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+     'data-bs-toggle',  # support nav-tabs
+>>>>>>> upstream/18.0
 =======
      'data-bs-toggle',  # support nav-tabs
 >>>>>>> upstream/18.0

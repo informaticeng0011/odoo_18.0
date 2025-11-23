@@ -1,5 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* barcodes
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -226,10 +227,15 @@
 =======
 #
 >>>>>>> upstream/18.0
+=======
+# * barcodes
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Peter Lawrence Romão <peterromao@yahoo.co.uk>, 2025
 # NumerSpiral HBG, 2025
 # Wil Odoo, 2025
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -455,10 +461,14 @@
 =======
 #
 >>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -639,10 +649,18 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Wil Odoo, 2025\n"
 "Language-Team: Portuguese (https://app.transifex.com/odoo/teams/41243/pt/)\n"
+=======
+"POT-Creation-Date: 2025-09-27 01:48+0000\n"
+"PO-Revision-Date: 2025-11-21 02:25+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Portuguese <https://translate.odoo.com/projects/odoo-18/"
+"barcodes/pt/>\n"
+>>>>>>> upstream/18.0
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % "
 "1000000 == 0 ? 1 : 2;\n"
 <<<<<<< HEAD
@@ -811,16 +829,26 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % "
+"1000000 == 0) ? 1 : 2);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: barcodes
 #. odoo-python
 #: code:addons/barcodes/models/barcode_rule.py:0
 msgid " '*' is not a valid Regex Barcode Pattern. Did you mean '.*'?"
 msgstr ""
+<<<<<<< HEAD
+=======
+" '*' não é um padrão de código de barras Regex válido. Você quis dizer '.*'?"
+>>>>>>> upstream/18.0
 
 #. module: barcodes
 #: model_terms:ir.ui.view,arch_db:barcodes.view_barcode_nomenclature_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -886,6 +914,8 @@ msgstr ""
 "Quando um código de barras é digitalizado, é associado à <i>primeira</i> regra com um padrão de\n"
 "combinação.O padrão de sintaxe é o da expressão regular, e um código de barras é combinado\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1066,6 +1096,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1238,8 +1271,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "A barcode nomenclature defines how the point of sale identify and interprets"
 " barcodes"
+=======
+"A barcode nomenclature defines how the point of sale identify and interprets "
+"barcodes"
+>>>>>>> upstream/18.0
 =======
 "A barcode nomenclature defines how the point of sale identify and interprets "
 "barcodes"
@@ -1544,8 +1582,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Uma identificação interna para a regra de nomenclatura deste código de "
 "barras"
+=======
+"Uma identificação interna para a regra de nomenclatura deste código de barras"
+>>>>>>> upstream/18.0
 =======
 "Uma identificação interna para a regra de nomenclatura deste código de barras"
 >>>>>>> upstream/18.0
@@ -1734,7 +1776,11 @@ msgstr "Código de Barras"
 #. module: barcodes
 #: model:ir.model,name:barcodes.model_barcodes_barcode_events_mixin
 msgid "Barcode Event Mixin"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mixin de evento de código de barras"
+>>>>>>> upstream/18.0
 
 #. module: barcodes
 #: model:ir.model,name:barcodes.model_barcode_nomenclature
@@ -1883,7 +1929,10 @@ msgstr "Id."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2057,6 +2106,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2248,12 +2300,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Patterns can also define how numerical values, such as weight or price, can be\n"
 "                                encoded into the barcode. They are indicated by <code>{NNN}</code> where the N's\n"
 "                                define where the number's digits are encoded. Floats are also supported with the\n"
 "                                decimals indicated with D's, such as <code>{NNNDD}</code>. In these cases,\n"
 "                                the barcode field on the associated records <i>must</i> show these digits as\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2429,6 +2484,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2542,12 +2598,31 @@ msgid ""
 >>>>>>> upstream/18.0
 "                                zeroes."
 msgstr ""
+=======
+"                                zeroes."
+msgstr ""
+"Os padrões também podem definir como os valores numéricos, como peso ou "
+"preço, podem ser\n"
+"                                codificados no código de barras. Eles são "
+"indicados por<code>{NNN}</code> no qual os Ns\n"
+"                              definem onde os dígitos do número são "
+"codificados. Os valores flutuantes também são compatíveis com\n"
+"                                decimais indicados com Ds, por exemplo "
+"<code>{NNNDD}</code>. Nesses casos,\n"
+"                                o campo de código de barras nos registros "
+"associados <i>deve</i> mostrar esses dígitos como\n"
+"                                zeros."
+>>>>>>> upstream/18.0
 
 #. module: barcodes
 #. odoo-javascript
 #: code:addons/barcodes/static/src/components/barcode_scanner.js:0
 msgid "Please, Scan again!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Escaneie novamente."
+>>>>>>> upstream/18.0
 
 #. module: barcodes
 #: model:ir.model.fields,field_description:barcodes.field_barcode_rule__name
@@ -2604,6 +2679,11 @@ msgid ""
 "There is a syntax error in the barcode pattern %(pattern)s: a rule can only "
 "contain one pair of braces."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Há um erro de sintaxe no padrão de código de barras %(pattern)s: uma regra "
+"só pode conter um par de chaves."
+>>>>>>> upstream/18.0
 
 #. module: barcodes
 #. odoo-python
@@ -2698,8 +2778,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "setting determines if a UPC/EAN barcode should be automatically converted in"
 " one way or another when trying to match a rule with the other encoding."
+=======
+"setting determines if a UPC/EAN barcode should be automatically converted in "
+"one way or another when trying to match a rule with the other encoding."
+>>>>>>> upstream/18.0
 =======
 "setting determines if a UPC/EAN barcode should be automatically converted in "
 "one way or another when trying to match a rule with the other encoding."
@@ -3014,12 +3099,15 @@ msgstr "Comando de Código de Barras Desconhecido"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Used to order rules such that rules with a smaller sequence match first"
 msgstr ""
 "Utilizado para ordenar as regras de forma que essas regras com uma sequência"
 " menor correspondam primeiro"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3189,6 +3277,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3361,7 +3452,10 @@ msgstr "Valor do último código de barras lido."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3534,6 +3628,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

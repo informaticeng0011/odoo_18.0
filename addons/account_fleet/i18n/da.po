@@ -1,5 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* account_fleet
 # 
 # Translators:
@@ -700,11 +701,22 @@
 # Sanne Kristensen <sanne@vkdata.dk>, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+# * account_fleet
+#
+# Translators:
+# lhmflexerp <lhm@flexerp.dk>, 2024
+# Martin Trigaux, 2024
+# Sammi Iversen <sammi@vkdata.dk>, 2025
+# Sanne Kristensen <sanne@vkdata.dk>, 2025
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1325,6 +1337,18 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: da\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+=======
+"PO-Revision-Date: 2025-11-21 02:23+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Danish <https://translate.odoo.com/projects/odoo-18/"
+"account_fleet/da/>\n"
+"Language: da\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: account_fleet
 #: model_terms:ir.ui.view,arch_db:account_fleet.fleet_vehicle_log_services_view_form
@@ -1485,6 +1509,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "<span class=\"o_stat_text text-success\" invisible=\"account_move_state != 'posted'\" title=\"Service's Bill\">Serviceregning</span>\n"
 "                            <span class=\"o_stat_text text-warning\" invisible=\"account_move_state == 'posted'\" title=\"Service's Bill\">Serviceregning</span>"
@@ -1768,6 +1793,10 @@ msgstr ""
 =======
 "<span class=\"o_stat_text text-success\" invisible=\"account_move_state != 'posted'\" title=\"Service's Bill\">Serviceregning</span>\n"
 "                            <span class=\"o_stat_text text-warning\" invisible=\"account_move_state == 'posted'\" title=\"Service's Bill\">Serviceregning</span>"
+>>>>>>> upstream/18.0
+=======
+"<span class=\"o_stat_text text-success\" invisible=\"account_move_state != 'posted'\" title=\"Service's Bill\">Servicefaktura\n"
+"                            <span class=\"o_stat_text text-warning\" invisible=\"account_move_state == 'posted'\" title=\"Service's Bill\">Servicefaktura</span>"
 >>>>>>> upstream/18.0
 =======
 "<span class=\"o_stat_text text-success\" invisible=\"account_move_state != 'posted'\" title=\"Service's Bill\">Servicefaktura\n"
@@ -2106,7 +2135,11 @@ msgstr "Kontobevægelse"
 #. module: account_fleet
 #: model:ir.model.fields,field_description:account_fleet.field_fleet_vehicle_log_services__account_move_line_id
 msgid "Account Move Line"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bogføringslinje"
+>>>>>>> upstream/18.0
 
 #. module: account_fleet
 #. odoo-python
@@ -2204,7 +2237,11 @@ msgid "Bills Count"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Antal Regninger"
+=======
+msgstr "Antal fakturaer"
+>>>>>>> upstream/18.0
 =======
 msgstr "Antal fakturaer"
 >>>>>>> upstream/18.0
@@ -2639,6 +2676,7 @@ msgid "Service Vendor Bill: %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Serviceleverandørregning: %s"
@@ -2852,6 +2890,9 @@ msgstr "Serviceleverandørregning: %s"
 >>>>>>> upstream/18.0
 =======
 msgstr "Serviceleverandørregning: %s"
+>>>>>>> upstream/18.0
+=======
+msgstr "Serviceleverandørfaktura: %s"
 >>>>>>> upstream/18.0
 =======
 msgstr "Serviceleverandørfaktura: %s"
@@ -3282,6 +3323,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "Du kan ikke slette logtjenesteposter, fordi en eller flere af dem blev "
 "oprettet med en regning."
@@ -3565,6 +3607,10 @@ msgstr ""
 =======
 "Du kan ikke slette logtjenesteposter, fordi en eller flere af dem blev "
 "oprettet med en regning."
+>>>>>>> upstream/18.0
+=======
+"Du kan ikke slette logtjenesteposter, fordi en eller flere af dem blev "
+"oprettet med en faktura."
 >>>>>>> upstream/18.0
 =======
 "Du kan ikke slette logtjenesteposter, fordi en eller flere af dem blev "
@@ -4055,6 +4101,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Du kan ikke ændre antallet af tjenester, der er knyttet til en "
+"kontoflytningslinje. Gør det i stedet på den tilhørende regnskabspost."
+>>>>>>> upstream/18.0
 =======
 "Du kan ikke ændre antallet af tjenester, der er knyttet til en "
 "kontoflytningslinje. Gør det i stedet på den tilhørende regnskabspost."

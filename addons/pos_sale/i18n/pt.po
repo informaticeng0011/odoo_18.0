@@ -1,5 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* pos_sale
 # 
 # Translators:
@@ -783,11 +784,22 @@
 # Daniel Reis, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+# * pos_sale
+#
+# Translators:
+# Rita Bastos, 2025
+# Peter Lawrence Romão <peterromao@yahoo.co.uk>, 2025
+# Wil Odoo, 2025
+# Daniel Reis, 2025
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1316,28 +1328,57 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: pt\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+=======
+"PO-Revision-Date: 2025-11-21 02:33+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Portuguese <https://translate.odoo.com/projects/odoo-18/"
+"pos_sale/pt/>\n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % "
+"1000000 == 0) ? 1 : 2);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: pos_sale
 #. odoo-javascript
 #: code:addons/pos_sale/static/src/overrides/components/orderline/orderline.xml:0
 msgid "(tax incl.)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "(impostos incl.)"
+>>>>>>> upstream/18.0
 
 #. module: pos_sale
 #: model_terms:ir.ui.view,arch_db:pos_sale.report_invoice_document
 msgid "<span style=\"margin: 0px 5px;\">:</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span style=\"margin: 0px 5px;\">:</span>"
+>>>>>>> upstream/18.0
 
 #. module: pos_sale
 #. odoo-javascript
 #: code:addons/pos_sale/static/src/overrides/models/pos_store.js:0
 msgid "A new order has been created."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Um novo pedido foi criado."
+>>>>>>> upstream/18.0
 
 #. module: pos_sale
 #: model:ir.model.fields,field_description:pos_sale.field_sale_order__amount_unpaid
 msgid "Amount To Pay In POS"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Valor a pagar no PDV"
+>>>>>>> upstream/18.0
 
 #. module: pos_sale
 #: model:ir.model.fields,help:pos_sale.field_sale_order__amount_unpaid
@@ -1348,13 +1389,21 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/pos_sale/static/src/overrides/models/pos_store.js:0
 msgid "Apply a down payment (fixed amount)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aplicar um pagamento de entrada (valor fixo)"
+>>>>>>> upstream/18.0
 
 #. module: pos_sale
 #. odoo-javascript
 #: code:addons/pos_sale/static/src/overrides/models/pos_store.js:0
 msgid "Apply a down payment (percentage)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aplicar um pagamento de entrada (porcentagem)"
+>>>>>>> upstream/18.0
 
 #. module: pos_sale
 #: model:ir.model,name:pos_sale.model_res_config_settings
@@ -1369,7 +1418,11 @@ msgstr "Taxa de Câmbio"
 #. module: pos_sale
 #: model_terms:ir.ui.view,arch_db:pos_sale.message_body
 msgid "Delivered from"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Entregue de"
+>>>>>>> upstream/18.0
 
 #. module: pos_sale
 #: model:ir.model.fields,field_description:pos_sale.field_pos_order_line__qty_delivered
@@ -1495,7 +1548,11 @@ msgid "Delivery Quantity"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Quantidade Entregue"
+>>>>>>> upstream/18.0
 =======
 msgstr "Quantidade Entregue"
 >>>>>>> upstream/18.0
@@ -1864,7 +1921,11 @@ msgstr "Quantidade Entregue"
 #. odoo-javascript
 #: code:addons/pos_sale/static/src/overrides/models/pos_store.js:0
 msgid "Do you want to load the SN/Lots linked to the Sales Order?"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Deseja carregar os NS/lotes vinculados ao pedido de venda?"
+>>>>>>> upstream/18.0
 
 #. module: pos_sale
 #. odoo-javascript
@@ -1875,12 +1936,20 @@ msgstr "Adiantamento"
 #. module: pos_sale
 #: model:product.template,name:pos_sale.default_downpayment_product_product_template
 msgid "Down Payment (POS)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pagamento de entrada (PDV)"
+>>>>>>> upstream/18.0
 
 #. module: pos_sale
 #: model:ir.model.fields,field_description:pos_sale.field_pos_order_line__down_payment_details
 msgid "Down Payment Details"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Informações do pagamento de entrada"
+>>>>>>> upstream/18.0
 
 #. module: pos_sale
 #: model:ir.model.fields,field_description:pos_sale.field_pos_config__down_payment_product_id
@@ -2031,7 +2100,11 @@ msgid "Due balance: %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Saldo devedor: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Saldo devedor: %s"
 >>>>>>> upstream/18.0
@@ -2451,24 +2524,40 @@ msgstr ""
 #. odoo-python
 #: code:addons/pos_sale/models/sale_order.py:0
 msgid "Linked POS Orders"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pedidos de PDV vinculados"
+>>>>>>> upstream/18.0
 
 #. module: pos_sale
 #: model:ir.model.fields,field_description:pos_sale.field_pos_order_line__sale_order_origin_id
 msgid "Linked Sale Order"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pedido de venda vinculado"
+>>>>>>> upstream/18.0
 
 #. module: pos_sale
 #. odoo-python
 #: code:addons/pos_sale/models/pos_order.py:0
 msgid "Linked Sale Orders"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pedidos de venda vinculados"
+>>>>>>> upstream/18.0
 
 #. module: pos_sale
 #. odoo-javascript
 #: code:addons/pos_sale/static/src/overrides/models/pos_store.js:0
 msgid "No down payment product"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nenhum produto de entrada"
+>>>>>>> upstream/18.0
 
 #. module: pos_sale
 #: model:ir.model.fields,field_description:pos_sale.field_crm_team__pos_sessions_open_count
@@ -2484,7 +2573,11 @@ msgstr "Abrir o Caixa"
 #. odoo-javascript
 #: code:addons/pos_sale/static/src/overrides/components/product_info_popup/product_info_popup.xml:0
 msgid "Optional Products:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Produtos opcionais:"
+>>>>>>> upstream/18.0
 
 #. module: pos_sale
 #: model:ir.model.fields,field_description:pos_sale.field_sale_report__order_reference
@@ -2495,12 +2588,20 @@ msgstr "Ordem"
 #: model:ir.model.fields,field_description:pos_sale.field_sale_order__pos_order_line_ids
 #: model:ir.model.fields,field_description:pos_sale.field_sale_order_line__pos_order_line_ids
 msgid "Order lines Transfered to Point of Sale"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Linhas de pedidos transferidas para o ponto de venda"
+>>>>>>> upstream/18.0
 
 #. module: pos_sale
 #: model:ir.model.fields.selection,name:pos_sale.selection__sale_report__order_reference__pos_order
 msgid "POS Order"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pedido do PDV"
+>>>>>>> upstream/18.0
 
 #. module: pos_sale
 #: model:ir.model.fields.selection,name:pos_sale.selection__sale_report__state__paid
@@ -2515,7 +2616,11 @@ msgstr "Configuração do Ponto de Venda"
 #. module: pos_sale
 #: model:ir.model,name:pos_sale.model_pos_order_line
 msgid "Point of Sale Order Lines"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Linhas de pedido de Ponto de Venda"
+>>>>>>> upstream/18.0
 
 #. module: pos_sale
 #: model:ir.model,name:pos_sale.model_pos_order
@@ -2535,7 +2640,11 @@ msgstr "Ponto de Vendas"
 #. module: pos_sale
 #: model:ir.model.fields,field_description:pos_sale.field_sale_order__pos_order_count
 msgid "Pos Order Count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Contagem de pedidos do PDV"
+>>>>>>> upstream/18.0
 
 #. module: pos_sale
 #: model:ir.model.fields.selection,name:pos_sale.selection__sale_report__state__done
@@ -2672,7 +2781,11 @@ msgid "Product Variant"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Categoria do Artigo"
+=======
+msgstr "Variante de Artigo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Variante de Artigo"
 >>>>>>> upstream/18.0
@@ -3186,7 +3299,11 @@ msgid "Quotation/Order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Cotação/Encomenda"
+=======
+msgstr "Orçamento/Encomenda"
+>>>>>>> upstream/18.0
 =======
 msgstr "Orçamento/Encomenda"
 >>>>>>> upstream/18.0
@@ -3573,13 +3690,21 @@ msgstr "Orçamento/Encomenda"
 #. odoo-javascript
 #: code:addons/pos_sale/static/src/overrides/models/pos_store.js:0
 msgid "SN/Lots Loading"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Carregamento de NS/lotes"
+>>>>>>> upstream/18.0
 
 #. module: pos_sale
 #. odoo-javascript
 #: code:addons/pos_sale/static/src/overrides/components/orderline/orderline.xml:0
 msgid "SO"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "PV"
+>>>>>>> upstream/18.0
 
 #. module: pos_sale
 #: model:ir.model.fields,field_description:pos_sale.field_pos_order__sale_order_count
@@ -3618,12 +3743,20 @@ msgstr "Equipa de Vendas"
 #. module: pos_sale
 #: model:ir.model.fields,field_description:pos_sale.field_res_config_settings__pos_crm_team_id
 msgid "Sales Team (PoS)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Equipe de vendas (PDV)"
+>>>>>>> upstream/18.0
 
 #. module: pos_sale
 #: model_terms:ir.ui.view,arch_db:pos_sale.res_config_settings_view_form
 msgid "Sales are reported to the following sales team"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "As vendas são reportadas à seguinte equipe de vendas"
+>>>>>>> upstream/18.0
 
 #. module: pos_sale
 #: model_terms:ir.ui.view,arch_db:pos_sale.crm_team_view_kanban_dashboard
@@ -3644,18 +3777,30 @@ msgstr "Caixas Abertos"
 #. odoo-javascript
 #: code:addons/pos_sale/static/src/overrides/components/control_buttons/control_buttons.xml:0
 msgid "Set Sale Order"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Definir pedido de venda"
+>>>>>>> upstream/18.0
 
 #. module: pos_sale
 #. odoo-javascript
 #: code:addons/pos_sale/static/src/overrides/models/pos_store.js:0
 msgid "Settle the order"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pagar o pedido"
+>>>>>>> upstream/18.0
 
 #. module: pos_sale
 #: model:ir.model.fields,field_description:pos_sale.field_pos_order_line__sale_order_line_id
 msgid "Source Sale Order Line"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Linha de origem de pedido de venda"
+>>>>>>> upstream/18.0
 
 #. module: pos_sale
 #: model:ir.model.fields,field_description:pos_sale.field_sale_report__state
@@ -3667,7 +3812,11 @@ msgstr "Estado"
 msgid ""
 "The rate of the currency to the currency of rate applicable at the date of "
 "the order"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "A taxa da moeda para a moeda da taxa aplicável na data do pedido"
+>>>>>>> upstream/18.0
 
 #. module: pos_sale
 #: model:ir.model.fields,help:pos_sale.field_pos_config__crm_team_id
@@ -3675,17 +3824,30 @@ msgstr ""
 #: model:ir.model.fields,help:pos_sale.field_res_config_settings__pos_crm_team_id
 msgid "This Point of sale's sales will be related to this Sales Team."
 msgstr ""
+<<<<<<< HEAD
+=======
+"As vendas deste ponto de venda estarão relacionadas com esta equipe de "
+"vendas."
+>>>>>>> upstream/18.0
 
 #. module: pos_sale
 #: model_terms:ir.ui.view,arch_db:pos_sale.res_config_settings_view_form
 msgid "This product will be applied when down payment is made"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Este produto será aplicado quando o pagamento de entrada for feito"
+>>>>>>> upstream/18.0
 
 #. module: pos_sale
 #: model:ir.model.fields,help:pos_sale.field_pos_config__down_payment_product_id
 #: model:ir.model.fields,help:pos_sale.field_res_config_settings__pos_down_payment_product_id
 msgid "This product will be used as down payment on a sale order."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Este produto será utilizado como pagamento de entrada em um pedido de venda."
+>>>>>>> upstream/18.0
 
 #. module: pos_sale
 #: model:ir.model,name:pos_sale.model_stock_picking
@@ -3724,4 +3886,8 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/pos_sale/static/src/overrides/components/product_info_popup/product_info_popup.xml:0
 msgid "from"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "de"
+>>>>>>> upstream/18.0

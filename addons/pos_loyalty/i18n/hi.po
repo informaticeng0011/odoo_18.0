@@ -1,7 +1,12 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* pos_loyalty
 # 
+=======
+# * pos_loyalty
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Martin Trigaux, 2024
 # Wil Odoo, 2024
@@ -95,6 +100,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Ujjawal Pathak, 2025
 >>>>>>> upstream/18.0
@@ -360,11 +366,16 @@
 # Ujjawal Pathak, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+# Ujjawal Pathak, 2025
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-07 20:36+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -725,6 +736,18 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: hi\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+=======
+"PO-Revision-Date: 2025-11-15 18:11+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Hindi <https://translate.odoo.com/projects/odoo-18/"
+"pos_loyalty/hi/>\n"
+"Language: hi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.model.fields,help:pos_loyalty.field_pos_order_line__reward_identifier_code
@@ -733,6 +756,13 @@ msgid ""
 "        Technical field used to link multiple reward lines from the same reward together.\n"
 "    "
 msgstr ""
+<<<<<<< HEAD
+=======
+"\n"
+"        यह एक तकनीकी फ़ील्ड है, जिसका इस्तेमाल एक ही इनाम से जुड़ी कई लाइनों को आपस में "
+"जोड़ने के लिए किया जाता है.\n"
+"    "
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
@@ -748,7 +778,11 @@ msgstr ""
 #. module: pos_loyalty
 #: model:loyalty.reward,description:pos_loyalty.15_pc_on_next_order_reward
 msgid "15% on your order"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आपके ऑर्डर पर 15% की छूट"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
@@ -909,7 +943,11 @@ msgid "Balance"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बैलेंस"
+>>>>>>> upstream/18.0
 =======
 msgstr "बैलेंस"
 >>>>>>> upstream/18.0
@@ -1180,7 +1218,11 @@ msgstr "बैलेंस"
 #: code:addons/pos_loyalty/static/src/overrides/components/order_receipt/order_receipt.xml:0
 #: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_rule__promo_barcode
 msgid "Barcode"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बारकोड"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.model,name:pos_loyalty.model_barcode_rule
@@ -1274,7 +1316,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/utils/manage_giftcard_popup/manage_giftcard_popup.xml:0
 msgid "Expiration"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "समय सीमा समाप्ति"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:loyalty.reward,description:pos_loyalty.loyalty_program_reward
@@ -1354,7 +1400,11 @@ msgstr ""
 #: model:ir.model,name:pos_loyalty.model_loyalty_program
 #: model:loyalty.program,name:pos_loyalty.loyalty_program
 msgid "Loyalty Program"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "लॉयल्टी प्रोग्राम"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.model,name:pos_loyalty.model_loyalty_reward
@@ -1415,7 +1465,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_program__pos_ok
 #: model_terms:ir.ui.view,arch_db:pos_loyalty.loyalty_program_view_form_inherit_pos_loyalty
 msgid "Point of Sale"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पॉइंट ऑफ़ सेल"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.model,name:pos_loyalty.model_pos_config
@@ -1440,7 +1494,11 @@ msgstr ""
 #. module: pos_loyalty
 #: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_program__pos_config_ids
 msgid "Point of Sales"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पॉइंट ऑफ़ सेल"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
@@ -1518,7 +1576,11 @@ msgid "Points"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पॉइंट"
+>>>>>>> upstream/18.0
 =======
 msgstr "पॉइंट"
 >>>>>>> upstream/18.0
@@ -1794,7 +1856,11 @@ msgstr ""
 #: code:addons/pos_loyalty/static/src/overrides/components/control_buttons/control_buttons.xml:0
 #: model:ir.model.fields,field_description:pos_loyalty.field_pos_order_line__reward_id
 msgid "Reward"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इनाम"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.model.fields,field_description:pos_loyalty.field_pos_order_line__reward_identifier_code
@@ -2093,7 +2159,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/components/control_buttons/control_buttons.xml:0
 msgid "eWallet"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ई-वॉलेट"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript

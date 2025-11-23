@@ -1,5 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* pos_loyalty
 # 
 # Translators:
@@ -536,11 +537,18 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+# * pos_loyalty
+#
+# Translators:
+# Rita Bastos, 2025
+>>>>>>> upstream/18.0
 # Camille Dantinne <cmd@odoo.com>, 2025
 # Peter Lawrence Romão <peterromao@yahoo.co.uk>, 2025
 # Wil Odoo, 2025
 # Daniel Reis, 2025
 # Maitê Dietze, 2025
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -786,11 +794,15 @@
 =======
 >>>>>>> upstream/18.0
 # 
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-07 20:36+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1319,6 +1331,19 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: pt\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+=======
+"PO-Revision-Date: 2025-11-15 18:11+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Portuguese <https://translate.odoo.com/projects/odoo-18/"
+"pos_loyalty/pt/>\n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % "
+"1000000 == 0) ? 1 : 2);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.model.fields,help:pos_loyalty.field_pos_order_line__reward_identifier_code
@@ -1327,22 +1352,41 @@ msgid ""
 "        Technical field used to link multiple reward lines from the same reward together.\n"
 "    "
 msgstr ""
+<<<<<<< HEAD
+=======
+"\n"
+"        Campo técnico usado para vincular várias linhas de recompensa do "
+"mesmo bônus.\n"
+"    "
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/components/partner_line/partner_line.js:0
 msgid "%s Points"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s pontos"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:loyalty.program,name:pos_loyalty.15_pc_on_next_order
 msgid "15% on next order"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "15% no próximo pedido"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:loyalty.reward,description:pos_loyalty.15_pc_on_next_order_reward
 msgid "15% on your order"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "15% no seu pedido"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
@@ -1430,7 +1474,11 @@ msgid "A better global discount is already applied."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Já foi aplicado um desconto global melhor."
+>>>>>>> upstream/18.0
 =======
 msgstr "Já foi aplicado um desconto global melhor."
 >>>>>>> upstream/18.0
@@ -1682,13 +1730,21 @@ msgstr "Já foi aplicado um desconto global melhor."
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/components/product_screen/order_summary/order_summary.js:0
 msgid "A coupon/loyalty card must have a unique code."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Um cupom/cartão-fidelidade deve ter um código exclusivo."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/models/pos_store.js:0
 msgid "A reward could not be loaded"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Não foi possível carregar uma recompensa"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.model.fields,help:pos_loyalty.field_loyalty_rule__promo_barcode
@@ -1696,23 +1752,40 @@ msgid ""
 "A technical field used as an alternative to the promo code. This is "
 "automatically generated when the promo code is changed."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Um campo técnico usado como alternativa ao código promocional. Isso é gerado "
+"automaticamente quando o código promocional é alterado."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.model.fields,field_description:pos_loyalty.field_res_partner__loyalty_card_count
 #: model:ir.model.fields,field_description:pos_loyalty.field_res_users__loyalty_card_count
 msgid "Active loyalty cards"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cartões-fidelidade ativos"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/utils/manage_giftcard_popup/manage_giftcard_popup.xml:0
 msgid "Add Balance"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Adicionar saldo"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model_terms:ir.ui.view,arch_db:pos_loyalty.loyalty_program_view_form_inherit_pos_loyalty
 msgid "All PoS"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Todos os PDVs"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
@@ -1723,7 +1796,11 @@ msgstr "Valor"
 #. module: pos_loyalty
 #: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_rule__any_product
 msgid "Any Product"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Qualquer produto"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
@@ -1732,12 +1809,21 @@ msgid ""
 "Are you sure you want to remove %s from this order?\n"
 " You will still be able to claim it through the reward button."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Tem certeza de que deseja remover %s deste pedido?\n"
+" Você ainda poderá resgatá-lo através do botão de recompensas."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/components/control_buttons/control_buttons.js:0
 msgid "Available rewards"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Recompensas disponíveis"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
@@ -1777,13 +1863,21 @@ msgstr ""
 #. module: pos_loyalty
 #: model:loyalty.program,portal_point_name:pos_loyalty.15_pc_on_next_order
 msgid "Coupon point(s)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ponto(s) de cupom"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/components/product_screen/order_summary/order_summary.xml:0
 msgid "Current Balance:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Saldo atual:"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
@@ -1795,13 +1889,21 @@ msgstr "Cliente"
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/models/pos_store.js:0
 msgid "Customer needed"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Necessário cliente"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/components/product_screen/order_summary/order_summary.js:0
 msgid "Deactivating reward"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Desativando recompensas"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.ui.menu,name:pos_loyalty.menu_discount_loyalty_type_config
@@ -1889,7 +1991,11 @@ msgid "Discount & Loyalty"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Desconto e fidelidade"
+>>>>>>> upstream/18.0
 =======
 msgstr "Desconto e fidelidade"
 >>>>>>> upstream/18.0
@@ -2148,13 +2254,21 @@ msgstr "Insira o codigo"
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/components/product_screen/order_summary/order_summary.js:0
 msgid "Enter Gift Card Number"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Digite o número do cartão-presente"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/utils/manage_giftcard_popup/manage_giftcard_popup.xml:0
 msgid "Enter amount"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Digite o valor"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
@@ -2166,7 +2280,11 @@ msgstr "Erro"
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/components/payment_screen/payment_screen.js:0
 msgid "Error validating rewards"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Erro ao validar recompensas"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
@@ -2293,7 +2411,11 @@ msgid "Expiration"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Validade"
+>>>>>>> upstream/18.0
 =======
 msgstr "Validade"
 >>>>>>> upstream/18.0
@@ -2661,7 +2783,11 @@ msgstr "Validade"
 #. module: pos_loyalty
 #: model:loyalty.reward,description:pos_loyalty.loyalty_program_reward
 msgid "Free Product - Simple Pen"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Produto grátis - caneta simples"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
@@ -2670,6 +2796,11 @@ msgid ""
 "Gift Card: %s\n"
 "Balance: %s"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Cartão-presente: %s\n"
+"Saldo: %s"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
@@ -2757,7 +2888,11 @@ msgid "Gift card or Discount code"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cartão-presente ou código de desconto"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cartão-presente ou código de desconto"
 >>>>>>> upstream/18.0
@@ -3009,12 +3144,20 @@ msgstr "Cartão-presente ou código de desconto"
 #: model:ir.ui.menu,name:pos_loyalty.menu_gift_ewallet_type_config
 #: model_terms:ir.ui.view,arch_db:pos_loyalty.res_config_view_form_inherit_pos_loyalty
 msgid "Gift cards & eWallet"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cartões-presente e carteira digital"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.model.fields,help:pos_loyalty.field_pos_order_line__points_cost
 msgid "How many point this reward cost on the coupon."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Quantos pontos esta recompensa custou no cupom."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-python
@@ -3103,6 +3246,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Recompensa do programa de cartão-presente inválida. Use 1 moeda por desconto"
+" de pontos."
+>>>>>>> upstream/18.0
 =======
 "Recompensa do programa de cartão-presente inválida. Use 1 moeda por desconto"
 " de pontos."
@@ -3437,33 +3585,58 @@ msgstr ""
 #: code:addons/pos_loyalty/models/pos_config.py:0
 msgid "Invalid gift card program rule. Use 1 point per currency spent."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Regra do programa de cartão-presente inválida. Use 1 ponto por moeda "
+"utilizada."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-python
 #: code:addons/pos_loyalty/models/pos_config.py:0
 msgid "Invalid gift card program. More than one reward."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Programa de cartão-presente inválido. Há mais de uma recompensa."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-python
 #: code:addons/pos_loyalty/models/pos_config.py:0
 msgid "Invalid gift card program. More than one rule."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Programa de cartão-presente inválido. Há mais de uma regra."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.model.fields,field_description:pos_loyalty.field_pos_order_line__is_reward_line
 msgid "Is Reward Line"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "É uma linha de recompensa"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.model,name:pos_loyalty.model_loyalty_mail
 msgid "Loyalty Communication"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Comunicação de fidelidade"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.model,name:pos_loyalty.model_loyalty_card
 msgid "Loyalty Coupon"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cupom de fidelidade"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:loyalty.program,portal_point_name:pos_loyalty.loyalty_program
@@ -3496,40 +3669,68 @@ msgstr "Não"
 #. odoo-python
 #: code:addons/pos_loyalty/models/pos_config.py:0
 msgid "No reward can be claimed with this coupon."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nenhuma recompensa pode ser resgatada com este cupom."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/components/control_buttons/control_buttons.js:0
 msgid "No valid eWallet found"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nenhuma carteira digital encontrada"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-python
 #: code:addons/pos_loyalty/models/pos_order.py:0
 msgid "Onsite %s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "No local %s"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/components/control_buttons/control_buttons.js:0
 msgid "Please select a product for this reward"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Selecione um produto para esta recompensa"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_program__pos_order_count
 msgid "PoS Order Count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Contagem de pedidos do PDV"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_card__source_pos_order_id
 msgid "PoS Order Reference"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Referência do pedido do PDV"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.model.fields,help:pos_loyalty.field_loyalty_card__source_pos_order_id
 msgid "PoS order where this coupon was generated."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pedido do PDV a partir do qual este cupom foi gerado."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_program__pos_ok
@@ -3545,7 +3746,11 @@ msgstr "Configuração do Ponto de Venda"
 #. module: pos_loyalty
 #: model:ir.model,name:pos_loyalty.model_pos_order_line
 msgid "Point of Sale Order Lines"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Linhas de pedido de Ponto de Venda"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.model,name:pos_loyalty.model_pos_order
@@ -3696,7 +3901,11 @@ msgid "Points"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pontos"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pontos"
 >>>>>>> upstream/18.0
@@ -4091,17 +4300,26 @@ msgstr "Pontos"
 #. module: pos_loyalty
 #: model:ir.model.fields,field_description:pos_loyalty.field_pos_order_line__points_cost
 msgid "Points Cost"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Custo de pontos"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_mail__pos_report_print_id
 #: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_program__pos_report_print_id
 msgid "Print Report"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Imprimir relatório"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.model,name:pos_loyalty.model_product_product
 msgid "Product Variant"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4611,24 +4829,39 @@ msgstr "Variante de Artigo"
 =======
 msgstr "Variante de Artigo"
 >>>>>>> upstream/18.0
+=======
+msgstr "Variante de Artigo"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-python
 #: code:addons/pos_loyalty/models/pos_config.py:0
 msgid "Program: %(name)s, Reward Product: `%(reward_product)s`"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Programa: %(name)s, Produto de recompensa: '%(reward_product)s'"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-python
 #: code:addons/pos_loyalty/models/pos_config.py:0
 msgid "Program: %(name)s, Rule Product: `%(rule_product)s`"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Programa: %(name)s, Produto da regra: '%(rule_product)s'"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/components/control_buttons/control_buttons.js:0
 msgid "Refund with eWallet"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Reembolso na carteira digital"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
@@ -4637,6 +4870,11 @@ msgid ""
 "Refunding a top up or reward product for an eWallet or gift card program is "
 "not allowed."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Reembolsar uma recarga ou produto de recompensa para uma carteira digital ou "
+"programa de cartão-presente não é permitido."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
@@ -4647,7 +4885,11 @@ msgstr "Redefinir programas"
 #. module: pos_loyalty
 #: model:ir.model.fields,help:pos_loyalty.field_loyalty_program__pos_config_ids
 msgid "Restrict publishing to those shops."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Restringir publicação a essas lojas."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
@@ -4659,30 +4901,50 @@ msgstr "Recompensa"
 #. module: pos_loyalty
 #: model:ir.model.fields,field_description:pos_loyalty.field_pos_order_line__reward_identifier_code
 msgid "Reward Identifier Code"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Código de identificação da recompensa"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/models/pos_store.js:0
 msgid "Select program"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Selecione o programa"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/components/product_screen/order_summary/order_summary.xml:0
 msgid "Sell physical gift card?"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vender cartões-presente físicos?"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/components/product_screen/order_summary/order_summary.js:0
 msgid "Sell/Manage physical gift card"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vender/gerenciar cartões-presente físicos"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:product.template,name:pos_loyalty.simple_pen_product_template
 msgid "Simple Pen"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Caneta simples"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-python
@@ -4691,6 +4953,11 @@ msgid ""
 "Some coupons are invalid. The applied coupons have been updated. Please "
 "check the order."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Alguns cupons são inválidos. Os cupons aplicados foram atualizados. "
+"Verifique o pedido."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
@@ -4701,42 +4968,70 @@ msgstr ""
 #. module: pos_loyalty
 #: model:ir.model.fields,help:pos_loyalty.field_loyalty_rule__any_product
 msgid "Technical field, whether all product match"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Campo técnico, se todos os produtos correspondem"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/models/pos_store.js:0
 msgid "That coupon code has already been scanned and activated."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Esse código de cupom já foi escaneado e ativado."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/models/pos_store.js:0
 msgid "That promo code program has already been activated."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Esse programa de código promocional já foi ativado."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/models/pos_store.js:0
 msgid "That promo code program is expired."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Esse programa de código promocional expirou."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/models/pos_store.js:0
 msgid "That promo code program is not yet valid."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Esse programa de código promocional ainda não é válido."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/models/pos_store.js:0
 msgid "That promo code program requires a specific pricelist."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Esse programa de código promocional requer uma lista de preços específica."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.model.fields,help:pos_loyalty.field_pos_order_line__coupon_id
 msgid "The coupon used to claim that reward."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "O cupom utilizado para resgatar esta recompensa."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-python
@@ -4745,6 +5040,12 @@ msgid ""
 "The following codes already exist in the database, perhaps they were already sold?\n"
 "%s"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Os códigos a seguir já existem na base de dados, talvez eles já tenham sido "
+"vendidos?\n"
+"%s"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.model.fields,help:pos_loyalty.field_loyalty_mail__pos_report_print_id
@@ -4752,6 +5053,11 @@ msgid ""
 "The report action to be executed when creating a coupon/gift card/loyalty "
 "card in the PoS."
 msgstr ""
+<<<<<<< HEAD
+=======
+"A ação de relatório a ser executada ao criar um cupom/cartão-presente/cartão "
+"de fidelidade no PDV."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
@@ -4760,35 +5066,60 @@ msgid ""
 "The reward \"%s\" contain an error in its domain, your domain must be "
 "compatible with the PoS client"
 msgstr ""
+<<<<<<< HEAD
+=======
+"A recompensa “%s” contém um erro em seu domínio. O domínio deve ser "
+"compatível com o cliente do PDV."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.model.fields,help:pos_loyalty.field_pos_order_line__reward_id
 msgid "The reward associated with this line."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "A recompensa associada a esta linha."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/models/pos_order.js:0
 msgid "The reward could not be applied."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "A recompensa não pôde ser aplicada."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-python
 #: code:addons/pos_loyalty/models/pos_order.py:0
 msgid "There are not enough points for the coupon: %s."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Não há pontos suficientes para o cupom: %s."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/models/pos_order.js:0
 msgid "There are not enough points on the coupon to claim this reward."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Não há pontos suficientes no cupom para resgatar esta recompensa."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/models/pos_order.js:0
 msgid "There are not enough products in the basket to claim this reward."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Não há produtos suficientes no carrinho para resgatar esta recompensa."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-python
@@ -4797,6 +5128,11 @@ msgid ""
 "There is no email template on the gift card program and your pos is set to "
 "print them."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Não existe modelo de e-mail no programa de cartão-presente, e o seu PDV está "
+"configurado para imprimi-los."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-python
@@ -4805,41 +5141,70 @@ msgid ""
 "There is no print report on the gift card program and your pos is set to "
 "print them."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Não há relatório de impressão no programa de cartão-presente e o seu PDV "
+"está configurado para imprimi-los."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.model.fields,help:pos_loyalty.field_loyalty_rule__valid_product_ids
 msgid "These are the products that are valid for this rule."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Esses são os produtos que são válidos para esta regra."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/components/product_screen/order_summary/order_summary.js:0
 msgid "This Gift card has already been sold."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Esse cartão-presente já foi vendido."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-python
 #: code:addons/pos_loyalty/models/pos_config.py:0
 msgid "This coupon is expired (%s)."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Este cupom expirou (%s)."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-python
 #: code:addons/pos_loyalty/models/pos_config.py:0
 msgid "This coupon is invalid (%s)."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Este cupom é inválido (%s)."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-python
 #: code:addons/pos_loyalty/models/pos_config.py:0
 msgid "This coupon is not available with the current pricelist."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Este cupom não está disponível com a lista de preços atual."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-python
 #: code:addons/pos_loyalty/models/pos_config.py:0
 msgid "This coupon is not yet valid (%s)."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Este cupom ainda não é válido (%s)."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
@@ -4848,17 +5213,30 @@ msgid ""
 "This gift card is not linked to any order. Do you really want to apply its "
 "reward?"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Este cartão-presente não está vinculado a pedido algum. Tem certeza de que "
+"deseja aplicar a recompensa deste cartão?"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.model.fields,help:pos_loyalty.field_loyalty_program__pos_report_print_id
 msgid "This is used to print the generated gift cards from PoS."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Isto é utilizado para imprimir os cartões-presente gerados a partir do PDV."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-python
 #: code:addons/pos_loyalty/models/pos_config.py:0
 msgid "This programs requires a code to be applied."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Esse programa requer a aplicação de um código."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-python
@@ -4866,6 +5244,11 @@ msgstr ""
 msgid ""
 "To continue, make the following reward products available in Point of Sale."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Para continuar, disponibilize os seguintes produtos de recompensa no ponto "
+"de venda."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.model.fields,field_description:pos_loyalty.field_barcode_rule__type
@@ -4958,7 +5341,11 @@ msgid "Unknown discount type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tipo de desconto desconhecido"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tipo de desconto desconhecido"
 >>>>>>> upstream/18.0
@@ -5210,24 +5597,40 @@ msgstr "Tipo de desconto desconhecido"
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/models/pos_store.js:0
 msgid "Unpaid gift card"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cartão-presente não pago"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/models/pos_store.js:0
 msgid "Unpaid gift card rejected."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cartão-presente não pago rejeitado."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/components/control_buttons/control_buttons.js:0
 msgid "Use eWallet to pay"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Usar carteira digital para pagar"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_rule__valid_product_ids
 msgid "Valid Product"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Produto válido"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
@@ -5244,7 +5647,11 @@ msgstr "Erro de Validação"
 #. module: pos_loyalty
 #: model:ir.model.fields,help:pos_loyalty.field_pos_order_line__is_reward_line
 msgid "Whether this line is part of a reward or not."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Se esta linha é parte de uma recompensa ou não."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
@@ -5263,6 +5670,11 @@ msgstr "Sim"
 #: code:addons/pos_loyalty/static/src/overrides/components/product_screen/order_summary/order_summary.js:0
 msgid "You cannot set negative quantity or price to gift card or ewallet."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Não é possível definir uma quantidade ou preço negativo no cartão-presente "
+"ou na carteira digital."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
@@ -5275,7 +5687,11 @@ msgstr ""
 #. odoo-python
 #: code:addons/pos_loyalty/models/loyalty_program.py:0
 msgid "You must set '%(mail_template)s' before setting '%(report)s'."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Você deve definir '%(mail_template)s' antes de definir '%(report)s'."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
@@ -5411,7 +5827,11 @@ msgid "eWallet"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Carteira digital"
+>>>>>>> upstream/18.0
 =======
 msgstr "Carteira digital"
 >>>>>>> upstream/18.0
@@ -5807,28 +6227,48 @@ msgstr "Carteira digital"
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/components/control_buttons/control_buttons.xml:0
 msgid "eWallet Pay"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pagamento com carteira digital"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/components/control_buttons/control_buttons.xml:0
 msgid "eWallet Refund"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Reembolso à carteira digital"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/models/pos_store.js:0
 msgid "eWallet requires a customer to be selected"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "É necessário selecionar um cliente para utilizar a carteira digital"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/components/order_receipt/order_receipt.xml:0
 msgid "no expiration"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "sem data de validade"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/models/pos_order.js:0
 msgid "the gift cards"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "os cartões presente"
+>>>>>>> upstream/18.0

@@ -1,5 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* hr_holidays_attendance
 # 
 # Translators:
@@ -346,11 +347,22 @@
 # Ujjawal Pathak, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+# * hr_holidays_attendance
+#
+# Translators:
+# Martin Trigaux, 2024
+# Wil Odoo, 2024
+# Ujjawal Pathak, 2025
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-06 14:58+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -699,38 +711,74 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: hi\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+=======
+"PO-Revision-Date: 2025-11-17 13:54+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Hindi <https://translate.odoo.com/projects/odoo-18/"
+"hr_holidays_attendance/hi/>\n"
+"Language: hi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays_attendance
 #. odoo-python
 #: code:addons/hr_holidays_attendance/models/hr_leave_type.py:0
 msgid "%s hours available"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s घंटे उपलब्ध"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays_attendance
 #: model:ir.model,name:hr_holidays_attendance.model_hr_leave_accrual_level
 msgid "Accrual Plan Level"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अक्रूअल प्लान लेवल"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays_attendance
 #: model:ir.model,name:hr_holidays_attendance.model_hr_attendance
 msgid "Attendance"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "उपस्थिति"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays_attendance
 #: model:ir.model.fields.selection,name:hr_holidays_attendance.selection__hr_leave_accrual_level__frequency_hourly_source__attendance
 msgid "Attendances"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अटेडेंस"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays_attendance
 #. odoo-javascript
 #: code:addons/hr_holidays_attendance/static/src/xml/time_off_calendar.xml:0
 msgid "Available"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "उपलब्ध"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays_attendance
 #: model:ir.model.fields.selection,name:hr_holidays_attendance.selection__hr_leave_accrual_level__frequency_hourly_source__calendar
 msgid "Calendar"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कैलेंडर"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays_attendance
 #. odoo-javascript
@@ -821,7 +869,11 @@ msgid "Days"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "दिन"
+>>>>>>> upstream/18.0
 =======
 msgstr "दिन"
 >>>>>>> upstream/18.0
@@ -1173,7 +1225,11 @@ msgid "Discard"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "खारिज करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "खारिज करें"
 >>>>>>> upstream/18.0
@@ -1435,7 +1491,11 @@ msgstr "खारिज करें"
 #: model:ir.model.fields,field_description:hr_holidays_attendance.field_hr_leave__overtime_id
 #: model:ir.model.fields,field_description:hr_holidays_attendance.field_hr_leave_allocation__overtime_id
 msgid "Extra Hours"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अतिरिक्त घंटे"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays_attendance
 #: model_terms:ir.ui.view,arch_db:hr_holidays_attendance.hr_attendance_holidays_hr_leave_allocation_view_form_inherit
@@ -1452,7 +1512,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/hr_holidays_attendance/static/src/xml/time_off_calendar.xml:0
 msgid "Hours"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "घंटे"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays_attendance
 #: model:ir.model.fields,help:hr_holidays_attendance.field_hr_leave_accrual_level__frequency_hourly_source
@@ -1466,7 +1530,11 @@ msgstr ""
 #: model:ir.actions.act_window,name:hr_holidays_attendance.hr_leave_allocation_overtime_action
 #: model:ir.actions.act_window,name:hr_holidays_attendance.hr_leave_allocation_overtime_manager_action
 msgid "New Allocation Request"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "नया आवंटन अनुरोध"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays_attendance
 #: model:ir.model.fields,help:hr_holidays_attendance.field_hr_leave_type__overtime_deductible
@@ -1502,7 +1570,11 @@ msgstr "सहेज"
 #. module: hr_holidays_attendance
 #: model_terms:ir.ui.view,arch_db:hr_holidays_attendance.hr_leave_accrual_level_view_form
 msgid "Source"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सोर्स"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays_attendance
 #. odoo-python
@@ -1605,7 +1677,11 @@ msgid "Time Off"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "टाइम ऑफ़"
+>>>>>>> upstream/18.0
 =======
 msgstr "टाइम ऑफ़"
 >>>>>>> upstream/18.0
@@ -1826,18 +1902,30 @@ msgstr "टाइम ऑफ़"
 #. module: hr_holidays_attendance
 #: model:ir.model,name:hr_holidays_attendance.model_hr_leave_allocation
 msgid "Time Off Allocation"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "छुट्टी का आवंटन"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays_attendance
 #: model:ir.model,name:hr_holidays_attendance.model_hr_leave_type
 msgid "Time Off Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "छुट्टी का प्रकार"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays_attendance
 #: model:ir.model.fields,field_description:hr_holidays_attendance.field_hr_leave__employee_overtime
 #: model:ir.model.fields,field_description:hr_holidays_attendance.field_hr_leave_allocation__employee_overtime
 msgid "Total Overtime"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कुल ओवरटाइम"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays_attendance
 #: model:ir.model,name:hr_holidays_attendance.model_res_users

@@ -1,18 +1,28 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* website_sale_collect
 # 
+=======
+# * website_sale_collect
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Rita Bastos, 2025
 # Manuela Silva <mmsrs@sky.com>, 2025
 # Peter Lawrence Romão <peterromao@yahoo.co.uk>, 2025
 # Wil Odoo, 2025
+<<<<<<< HEAD
 # 
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-16 13:41+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 "Last-Translator: Wil Odoo, 2025\n"
 "Language-Team: Portuguese (https://app.transifex.com/odoo/teams/41243/pt/)\n"
@@ -21,6 +31,19 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: pt\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+=======
+"PO-Revision-Date: 2025-11-21 06:38+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Portuguese <https://translate.odoo.com/projects/odoo-18/"
+"website_sale_collect/pt/>\n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % "
+"1000000 == 0) ? 1 : 2);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: website_sale_collect
 #: model_terms:payment.provider,pending_msg:website_sale_collect.payment_provider_on_site
@@ -28,11 +51,20 @@ msgid ""
 "<i>Your order has been confirmed.</i><br>Please come to the store to pay for"
 " your products."
 msgstr ""
+<<<<<<< HEAD
+=======
+"<i>Seu pedido foi confirmado.</i><br>Venha até a loja para pagar por seus "
+"produtos."
+>>>>>>> upstream/18.0
 
 #. module: website_sale_collect
 #: model_terms:ir.ui.view,arch_db:website_sale_collect.payment_confirmation_status
 msgid "<span class=\"text-muted\"> (In-store pickup)</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"text-muted\"> (Retirada na loja)</span>"
+>>>>>>> upstream/18.0
 
 #. module: website_sale_collect
 #. odoo-javascript
@@ -55,7 +87,11 @@ msgstr "Definições de Configuração"
 #. module: website_sale_collect
 #: model_terms:ir.ui.view,arch_db:website_sale_collect.res_config_settings_form
 msgid "Configure Pickup Locations"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Configurar locais de retirada"
+>>>>>>> upstream/18.0
 
 #. module: website_sale_collect
 #: model:ir.model.fields,field_description:website_sale_collect.field_payment_provider__custom_mode
@@ -71,7 +107,11 @@ msgstr "Métodos de Entrega"
 #. module: website_sale_collect
 #: model:ir.model.fields,field_description:website_sale_collect.field_website__in_store_dm_id
 msgid "In-store Delivery Method"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Método de entrega na loja"
+>>>>>>> upstream/18.0
 
 #. module: website_sale_collect
 #. odoo-javascript
@@ -95,7 +135,11 @@ msgstr ""
 #. module: website_sale_collect
 #: model:ir.model.fields,field_description:website_sale_collect.field_stock_warehouse__opening_hours
 msgid "Opening Hours"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Horário de funcionamento"
+>>>>>>> upstream/18.0
 
 #. module: website_sale_collect
 #. odoo-javascript
@@ -106,13 +150,21 @@ msgstr "Esgotado"
 #. module: website_sale_collect
 #: model:payment.provider,name:website_sale_collect.payment_provider_on_site
 msgid "Pay on Site"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pagar no local"
+>>>>>>> upstream/18.0
 
 #. module: website_sale_collect
 #: model:ir.model.fields.selection,name:website_sale_collect.selection__payment_provider__custom_mode__on_site
 #: model:payment.method,name:website_sale_collect.payment_method_pay_on_site
 msgid "Pay on site"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pagamento no local"
+>>>>>>> upstream/18.0
 
 #. module: website_sale_collect
 #: model:ir.model,name:website_sale_collect.model_payment_provider
@@ -131,13 +183,21 @@ msgstr "Transação de Pagamento"
 #: model:ir.model.fields.selection,name:website_sale_collect.selection__delivery_carrier__delivery_type__in_store
 #: model:product.template,name:website_sale_collect.product_pick_up_in_store_product_template
 msgid "Pick up in store"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Retirar na loja"
+>>>>>>> upstream/18.0
 
 #. module: website_sale_collect
 #. odoo-python
 #: code:addons/website_sale_collect/controllers/main.py:0
 msgid "Please choose a store to collect your order."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Escolha uma loja para retirar seu pedido."
+>>>>>>> upstream/18.0
 
 #. module: website_sale_collect
 #: model:ir.model,name:website_sale_collect.model_product_template
@@ -167,38 +227,62 @@ msgstr "Métodos de Envio"
 #. module: website_sale_collect
 #: model_terms:ir.ui.view,arch_db:website_sale_collect.unavailable_products_warning
 msgid "Some of the products are not available at"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Alguns dos produtos não estão disponíveis em"
+>>>>>>> upstream/18.0
 
 #. module: website_sale_collect
 #. odoo-python
 #: code:addons/website_sale_collect/controllers/main.py:0
 #: code:addons/website_sale_collect/models/sale_order.py:0
 msgid "Some products are not available in the selected store."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Alguns produtos não estão disponíveis na loja selecionada."
+>>>>>>> upstream/18.0
 
 #. module: website_sale_collect
 #. odoo-python
 #: code:addons/website_sale_collect/controllers/main.py:0
 msgid "Sorry, we are unable to ship your order."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Lamentamos, mas não foi possível enviar seu pedido."
+>>>>>>> upstream/18.0
 
 #. module: website_sale_collect
 #: model:ir.model.fields,field_description:website_sale_collect.field_delivery_carrier__warehouse_ids
 #: model_terms:ir.ui.view,arch_db:website_sale_collect.delivery_carrier_form
 msgid "Stores"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Lojas"
+>>>>>>> upstream/18.0
 
 #. module: website_sale_collect
 #. odoo-python
 #: code:addons/website_sale_collect/models/delivery_carrier.py:0
 msgid "The delivery method and a warehouse must share the same company"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "O método de entrega e o armazém devem compartilhar a mesma empresa"
+>>>>>>> upstream/18.0
 
 #. module: website_sale_collect
 #. odoo-python
 #: code:addons/website_sale_collect/models/delivery_carrier.py:0
 msgid "The delivery method must have at least one warehouse to be published."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "O método de entrega deve ter pelo menos um armazém para ser publicado."
+>>>>>>> upstream/18.0
 
 #. module: website_sale_collect
 #: model:ir.model,name:website_sale_collect.model_stock_warehouse
@@ -217,6 +301,11 @@ msgid ""
 "You can only pay on site when selecting the pick up in store delivery "
 "method."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Você só pode pagar no local quando selecionar o método de entrega Retirar na "
+"loja."
+>>>>>>> upstream/18.0
 
 #. module: website_sale_collect
 #: model_terms:payment.provider,auth_msg:website_sale_collect.payment_provider_on_site
@@ -244,4 +333,8 @@ msgstr "disponível"
 #. odoo-python
 #: code:addons/website_sale_collect/models/payment_provider.py:0
 msgid "no in-store delivery methods available"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "não há métodos de entrega na loja disponíveis"
+>>>>>>> upstream/18.0

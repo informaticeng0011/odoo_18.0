@@ -1,5 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* barcodes_gs1_nomenclature
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -221,6 +222,9 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+# * barcodes_gs1_nomenclature
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
@@ -297,6 +301,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -439,11 +444,15 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -675,11 +684,22 @@ msgstr ""
 "Last-Translator: Tony Ng, 2024\n"
 "Language-Team: Chinese (Taiwan) (https://app.transifex.com/odoo/teams/41243/"
 "zh_TW/)\n"
+=======
+"POT-Creation-Date: 2025-08-08 18:38+0000\n"
+"PO-Revision-Date: 2025-11-21 02:25+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Chinese (Traditional Han script) <https://translate.odoo.com/"
+"projects/odoo-18/barcodes_gs1_nomenclature/zh_Hant/>\n"
+>>>>>>> upstream/18.0
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+<<<<<<< HEAD
+=======
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: barcodes_gs1_nomenclature
 #. odoo-python
@@ -687,6 +707,7 @@ msgstr ""
 msgid ""
 "A GS1 barcode nomenclature pattern was matched. However, the barcode failed "
 "to be converted to a valid date: '%(error_message)'"
+<<<<<<< HEAD
 msgstr ""
 
 #. module: barcodes_gs1_nomenclature
@@ -904,6 +925,11 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+msgstr "條碼符合 GS1 條碼命名格式，但未能轉換為有效日期：%(error_message)"
+
+#. module: barcodes_gs1_nomenclature
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:barcodes_gs1_nomenclature.selection__barcode_rule__gs1_content_type__alpha
 msgid "Alpha-Numeric Name"
 msgstr "字母數字名稱"
@@ -985,7 +1011,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "FNC1的替代性正則表達式分隔符。分隔符不能與任何相關規則模式的開始/結束匹配。"
+=======
+msgstr ""
+"FNC1的替代性正則表達式分隔符。分隔符不能與任何相關規則模式的開始/結束匹配。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "FNC1的替代性正則表達式分隔符。分隔符不能與任何相關規則模式的開始/結束匹配。"
@@ -1491,8 +1522,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "GS1內容類型定義了規則將把條形碼處理成什麼樣的數據。        * 日期：條形碼將被轉換為Odoo日期時間； * "
 "測量：條形碼的值與特定的計量單位有關； * 數字標識符：遵循特定編碼的固定長度的條形碼； * 英數名稱：可變長度的條形碼。"
+=======
+"GS1內容類型定義了規則將把條形碼處理成什麼樣的數據。        * 日期：條形碼將被"
+"轉換為Odoo日期時間； * 測量：條形碼的值與特定的計量單位有關； * 數字標識符："
+"遵循特定編碼的固定長度的條形碼； * 英數名稱：可變長度的條形碼。"
+>>>>>>> upstream/18.0
 =======
 "GS1內容類型定義了規則將把條形碼處理成什麼樣的數據。        * 日期：條形碼將被"
 "轉換為Odoo日期時間； * 測量：條形碼的值與特定的計量單位有關； * 數字標識符："
@@ -1949,12 +1986,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If this rule uses decimal, check it can't get sometime else than a digit as last char for the Application Identifier.\n"
 "Check also the possible matched values can only be digits, otherwise the value can't be casted as a measure."
 msgstr ""
 "條碼規則“%s”模式有問題。\n"
 "如果此規則使用十進制，請檢查它不能在某個時間將數字作為應用程序標識符的最後一個字符。\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2176,6 +2216,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

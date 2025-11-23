@@ -73,7 +73,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import api, models, fields
+=======
+from odoo import api, Command, models, fields
+>>>>>>> upstream/18.0
 =======
 from odoo import api, Command, models, fields
 >>>>>>> upstream/18.0
@@ -395,7 +399,10 @@ class ChatbotScript(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -615,6 +622,9 @@ class ChatbotScript(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

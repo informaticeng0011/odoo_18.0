@@ -1,11 +1,18 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* sms_twilio
 #
+=======
+# * sms_twilio
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 17.0+e\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -295,6 +302,19 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
+=======
+"POT-Creation-Date: 2025-09-12 01:51+0000\n"
+"PO-Revision-Date: 2025-11-21 06:43+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Vietnamese <https://translate.odoo.com/projects/odoo-18/"
+"sms_twilio/vi/>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #. odoo-python
@@ -373,7 +393,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -587,6 +610,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -733,6 +759,7 @@ msgstr ""
 #. module: sms_twilio
 #. odoo-python
 #: code:addons/sms_twilio/tools/sms_api.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1014,12 +1041,19 @@ msgid "A 'To' phone number is required"
 =======
 msgid "A 'To' phone number is required"
 >>>>>>> upstream/18.0
+=======
+msgid "A 'To' phone number is required"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: sms_twilio
 #: model_terms:ir.ui.view,arch_db:sms_twilio.sms_twilio_account_manage_view_form
 msgid "ACabcde12345abcde12345abcde12345ab"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ACabcde12345abcde12345abcde12345ab"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #: model:ir.model.fields,field_description:sms_twilio.field_res_company__sms_twilio_account_sid
@@ -1110,6 +1144,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields.selection,name:sms_twilio.selection__mail_notification__failure_type__twilio_authentication
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields.selection,name:sms_twilio.selection__mail_notification__failure_type__twilio_authentication
 >>>>>>> upstream/18.0
@@ -1327,19 +1365,31 @@ msgstr ""
 #. module: sms_twilio
 #: model:ir.model,name:sms_twilio.model_res_company
 msgid "Companies"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Công ty"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #: model:ir.model.fields,field_description:sms_twilio.field_sms_sms__record_company_id
 #: model:ir.model.fields,field_description:sms_twilio.field_sms_twilio_account_manage__company_id
 #: model:ir.model.fields,field_description:sms_twilio.field_sms_twilio_number__company_id
 msgid "Company"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Công ty"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #: model:ir.model,name:sms_twilio.model_res_config_settings
 msgid "Config Settings"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cài đặt cấu hình"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #: model_terms:ir.ui.view,arch_db:sms_twilio.res_config_settings_view_form
@@ -1349,55 +1399,92 @@ msgstr ""
 #. module: sms_twilio
 #: model:ir.model.fields,field_description:sms_twilio.field_sms_twilio_number__country_id
 msgid "Country"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Quốc gia"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #: model:ir.model.fields,field_description:sms_twilio.field_sms_twilio_number__country_code
 msgid "Country Code"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mã Quốc gia"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #: model:ir.model.fields,field_description:sms_twilio.field_sms_twilio_account_manage__create_uid
 #: model:ir.model.fields,field_description:sms_twilio.field_sms_twilio_number__create_uid
 msgid "Created by"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Được tạo bởi"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #: model:ir.model.fields,field_description:sms_twilio.field_sms_twilio_account_manage__create_date
 #: model:ir.model.fields,field_description:sms_twilio.field_sms_twilio_number__create_date
 msgid "Created on"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Được tạo vào"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #: model_terms:ir.ui.view,arch_db:sms_twilio.sms_twilio_account_manage_view_form
 msgid "Credentials"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Thông tin đăng nhập"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #: model_terms:ir.ui.view,arch_db:sms_twilio.sms_twilio_account_manage_view_form
 msgid "Delete"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Xoá"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #: model_terms:ir.ui.view,arch_db:sms_twilio.sms_twilio_account_manage_view_form
 msgid "Discard"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Huỷ bỏ"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #: model:ir.model.fields,field_description:sms_twilio.field_sms_twilio_account_manage__display_name
 #: model:ir.model.fields,field_description:sms_twilio.field_sms_twilio_number__display_name
 msgid "Display Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tên hiển thị"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #. odoo-python
 #: code:addons/sms_twilio/wizard/sms_twilio_account_manage.py:0
 msgid "Error: %s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Lỗi: %s"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #: model:ir.model.fields,field_description:sms_twilio.field_sms_sms__failure_type
 msgid "Failure Type"
+<<<<<<< HEAD
 msgstr ""
 
 #. module: sms_twilio
@@ -1613,6 +1700,14 @@ msgstr ""
 #: model:ir.model.fields,field_description:sms_twilio.field_mail_notification__failure_type
 msgid "Failure type"
 msgstr ""
+=======
+msgstr "Loại lỗi"
+
+#. module: sms_twilio
+#: model:ir.model.fields,field_description:sms_twilio.field_mail_notification__failure_type
+msgid "Failure type"
+msgstr "Loại thất bại"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #: model:ir.model.fields.selection,name:sms_twilio.selection__mail_notification__failure_type__twilio_from_to
@@ -1621,6 +1716,7 @@ msgid "From / To identic"
 msgstr ""
 
 #. module: sms_twilio
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2115,6 +2211,15 @@ msgstr ""
 =======
 #: model:ir.model.fields.selection,name:sms_twilio.selection__mail_notification__failure_type__twilio_callback
 >>>>>>> upstream/18.0
+=======
+#: model:ir.model.fields,field_description:sms_twilio.field_sms_twilio_account_manage__id
+#: model:ir.model.fields,field_description:sms_twilio.field_sms_twilio_number__id
+msgid "ID"
+msgstr "ID"
+
+#. module: sms_twilio
+#: model:ir.model.fields.selection,name:sms_twilio.selection__mail_notification__failure_type__twilio_callback
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:sms_twilio.selection__sms_sms__failure_type__twilio_callback
 msgid "Incorrect callback URL"
 msgstr ""
@@ -2138,18 +2243,30 @@ msgstr ""
 #: model:ir.model.fields,field_description:sms_twilio.field_sms_twilio_account_manage__write_uid
 #: model:ir.model.fields,field_description:sms_twilio.field_sms_twilio_number__write_uid
 msgid "Last Updated by"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cập nhật lần cuối bởi"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #: model:ir.model.fields,field_description:sms_twilio.field_sms_twilio_account_manage__write_date
 #: model:ir.model.fields,field_description:sms_twilio.field_sms_twilio_number__write_date
 msgid "Last Updated on"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cập nhật lần cuối vào"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #: model:ir.model,name:sms_twilio.model_sms_tracker
 msgid "Link SMS to mailing/sms tracking models"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Liên kết SMS với các mô hình theo dõi thư/sms"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #. odoo-python
@@ -2159,6 +2276,7 @@ msgid "Manage Twilio SMS"
 msgstr ""
 
 #. module: sms_twilio
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2371,6 +2489,11 @@ msgstr ""
 #: model:ir.model,name:sms_twilio.model_mail_notification
 msgid "Message Notifications"
 msgstr ""
+=======
+#: model:ir.model,name:sms_twilio.model_mail_notification
+msgid "Message Notifications"
+msgstr "Thông báo thông điệp"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #: model:ir.model.fields.selection,name:sms_twilio.selection__mail_notification__failure_type__twilio_from_missing
@@ -2448,6 +2571,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2598,12 +2724,20 @@ msgstr ""
 #: model:ir.model.fields,field_description:sms_twilio.field_res_company__sms_twilio_number_ids
 #: model:ir.model.fields,field_description:sms_twilio.field_sms_twilio_account_manage__sms_twilio_number_ids
 msgid "Numbers"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Số"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #: model:ir.model,name:sms_twilio.model_sms_sms
 msgid "Outgoing SMS"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "SMS đi"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #: model_terms:ir.ui.view,arch_db:sms_twilio.sms_twilio_account_manage_view_form
@@ -2636,7 +2770,11 @@ msgstr ""
 #. module: sms_twilio
 #: model:ir.model,name:sms_twilio.model_sms_composer
 msgid "Send SMS Wizard"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Công cụ gửi SMS"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #: model_terms:ir.ui.view,arch_db:sms_twilio.sms_twilio_account_manage_view_form
@@ -2656,7 +2794,11 @@ msgstr ""
 #. module: sms_twilio
 #: model:ir.model.fields,field_description:sms_twilio.field_sms_twilio_number__sequence
 msgid "Sequence"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Trình tự"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #: model:ir.model.fields,field_description:sms_twilio.field_sms_twilio_account_manage__test_number
@@ -2669,6 +2811,11 @@ msgid ""
 "The ISO country code in two chars. \n"
 "You can use this field for quick search."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Mã quốc gia ISO gồm hai ký tự. \n"
+"Bạn có thể sử dụng trường này để tìm kiếm nhanh."
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #. odoo-python
@@ -2749,7 +2896,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "The number you're trying to reach is not correctly formatted."
+=======
+msgid "The number you're trying to reach is not correctly formatted"
+>>>>>>> upstream/18.0
 =======
 msgid "The number you're trying to reach is not correctly formatted"
 >>>>>>> upstream/18.0
@@ -3041,7 +3192,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3255,6 +3409,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3509,7 +3666,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3723,6 +3883,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3869,4 +4032,8 @@ msgstr ""
 #. module: sms_twilio
 #: model_terms:ir.ui.view,arch_db:sms_twilio.sms_twilio_account_manage_view_form
 msgid "abcde12345abcde12345abcde12345ab"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "abcde12345abcde12345abcde12345ab"
+>>>>>>> upstream/18.0

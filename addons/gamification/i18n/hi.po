@@ -1,7 +1,12 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* gamification
 # 
+=======
+# * gamification
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Gautam Hingrajiya, 2024
 # Martin Trigaux, 2024
@@ -98,6 +103,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Ujjawal Pathak, 2025
 >>>>>>> upstream/18.0
@@ -372,11 +378,17 @@
 # Ujjawal Pathak, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+# Ujjawal Pathak, 2025
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-16 13:41+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -749,6 +761,18 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: hi\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+=======
+"PO-Revision-Date: 2025-11-21 02:27+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Hindi <https://translate.odoo.com/projects/odoo-18/"
+"gamification/hi/>\n"
+"Language: hi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:mail.template,body_html:gamification.email_template_goal_reminder
@@ -768,19 +792,31 @@ msgstr ""
 #: model:ir.model.fields,field_description:gamification.field_gamification_challenge__user_count
 #: model:ir.model.fields,field_description:gamification.field_gamification_karma_rank__rank_users_count
 msgid "# Users"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "# उपयोगकर्ता"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #. odoo-python
 #: code:addons/gamification/models/gamification_challenge.py:0
 msgid "%s has joined the challenge"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s प्रतियोगिता में शामिल हो गए हैं"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #. odoo-python
 #: code:addons/gamification/models/gamification_challenge.py:0
 msgid "%s has refused the challenge"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s ने प्रतियोगिता में शामिल होने से मना कर दिया"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:mail.template,body_html:gamification.mail_template_data_new_rank_reached
@@ -852,12 +888,20 @@ msgstr ""
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.challenge_form_view
 msgid "<span class=\"o_stat_text\">Related Goals</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">इससे जुड़े हुए लक्ष्य</span>"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.gamification_karma_rank_view_form
 msgid "<span class=\"o_stat_text\">Users</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">उपयोगकर्ता</span>"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:mail.template,body_html:gamification.email_template_badge_received
@@ -1148,6 +1192,309 @@ msgid ""
 "</table>\n"
 "            "
 msgstr ""
+<<<<<<< HEAD
+=======
+"<table cellspacing=\"0\" cellpadding=\"0\" width=\"100%\" style=\"background-"
+"color: #EEE; border-collapse: collapse;\">\n"
+"<tr>\n"
+"    <td valign=\"top\" align=\"center\">\n"
+"        <t t-set=\"object_ctx\" t-value=\"ctx.get('object')\"/>\n"
+"        <t t-set=\"company\" t-value="
+"\"object_ctx and object_ctx.company_id or user.company_id\"/>\n"
+"        <t t-set=\"challenge_lines\" t-value="
+"\"ctx.get('challenge_lines', [])\"/>\n"
+"        <table cellspacing=\"0\" cellpadding=\"0\" width=\"600\" style="
+"\"margin: 0 auto; width: 570px;\">\n"
+"            <tr><td>\n"
+"                <table cellspacing=\"0\" cellpadding=\"0\" width=\"100%\">\n"
+"                    <tr>\n"
+"                        <div>\n"
+"                            <t t-if=\"object.visibility_mode == 'ranking'\">"
+"\n"
+"                                <td style=\"padding:15px;\">\n"
+"                                    <p style=\"font-size:20px;color:#666666;"
+"\" align=\"center\">लीडरबोर्ड</p>\n"
+"                                </td>\n"
+"                            </t>\n"
+"                        </div>\n"
+"                    </tr>\n"
+"                </table>\n"
+"                <table cellspacing=\"0\" cellpadding=\"0\" width=\"100%\" "
+"bgcolor=\"#fff\" style=\"background-color:#fff;\">\n"
+"                    <tr><td style=\"padding: 15px;\">\n"
+"                        <t t-if=\"object.visibility_mode == 'personal'\">\n"
+"                            <span style=\"color:#666666;font-size:13px;\""
+">चुनौती में आपकी मौजूदा प्रगति यहां दी गई है <strong t-out=\"object.name or ''\""
+"/>.</span>\n"
+"                            <table cellspacing=\"0\" cellpadding=\"0\" width="
+"\"100%\" style=\"margin-top:20px;\">\n"
+"                                <tr>\n"
+"                                    <td align=\"center\">\n"
+"                                        <div>पर्सनल पर्फ़ामेंस</div>\n"
+"                                    </td>\n"
+"                                </tr>\n"
+"                            </table>\n"
+"                            <table cellspacing=\"0\" cellpadding=\"0\" width="
+"\"100%\" style=\"margin-top:30px;color:#666666;\">\n"
+"                                <thead>\n"
+"                                    <tr style="
+"\"color:#9A6C8E; font-size:12px;\">\n"
+"                                        <th align=\"left\" style=\"padding-"
+"bottom: 0px;width:40%;text-align:left;\">लक्ष्य</th>\n"
+"                                        <th style="
+"\"width:20%;text-align:right;\" align=\"left\">टारगेट</th>\n"
+"                                        <th style="
+"\"width:20%;text-align:right;\" align=\"right\">मौजूदा</th>\n"
+"                                        <th style="
+"\"width:20%;text-align:right;\" align=\"right\">पूरा हुआ</th>\n"
+"                                    </tr>\n"
+"                                    <tr>\n"
+"                                        <td colspan=\"5\" style="
+"\"height:1px;background-color:#9A6C8E;\"/>\n"
+"                                    </tr>\n"
+"                                </thead>\n"
+"                                <tbody t-foreach=\"challenge_lines\" t-as="
+"\"line\">\n"
+"                                    <tr style=\"font-weight:bold;\">\n"
+"                                        <td style=\"padding: 20px 0;\" align="
+"\"left\">\n"
+"                                            <t t-out=\"line['name'] or ''\"/>"
+"\n"
+"                                            <t t-if="
+"\"line['suffix'] or line['monetary']\">\n"
+"                                                (<t t-out="
+"\"line['full_suffix'] or ''\"/>)\n"
+"                                            </t>\n"
+"                                        </td>\n"
+"                                        <td style=\"padding: 20px 0;\" align="
+"\"right\"><t t-out=\"&quot;%.2f&quot; % line['target'] or ''\"/>\n"
+"                                            <t t-if=\"line['suffix']\" t-out="
+"\"line['suffix'] or ''\"/>\n"
+"                                        </td>\n"
+"                                        <td style=\"padding: 20px 0;\" align="
+"\"right\"><t t-out=\"&quot;%.2f&quot; % line['current'] or ''\"/>\n"
+"                                            <t t-if=\"line['suffix']\" t-out="
+"\"line['suffix'] or ''\"/>\n"
+"                                        </td>\n"
+"                                        <td style="
+"\"padding: 20px 0;font-size:25px;color:#9A6C8E;\" align=\"right\"><strong><t "
+"t-out=\"int(line['completeness']) or ''\"/>%</strong></td>\n"
+"                                    </tr>\n"
+"                                    <tr>\n"
+"                                        <td colspan=\"5\" style="
+"\"height:1px;background-color:#e3e3e3;\"/>\n"
+"                                    </tr>\n"
+"                                </tbody>\n"
+"                            </table>                   \n"
+"                        </t>\n"
+"                        <t t-else=\"\">\n"
+"                            <span style=\"color:#A8A8A8;font-size:13px;\">\n"
+"                                Challenge: <strong t-out="
+"\"object.name or ''\"/>.\n"
+"                            </span> \n"
+"                            <t t-foreach=\"challenge_lines\" t-as=\"line\">\n"
+"                                <!-- Header + Button table -->\n"
+"                                <table cellspacing=\"0\" cellpadding=\"0\" "
+"width=\"100%\" style=\"margin-top:35px;\">\n"
+"                                    <tr>\n"
+"                                        <td width=\"50%\">\n"
+"                                            <div>लक्ष्य को पाने में सबसे बेहतर प्रदर्"
+"शन करने वाले लोग <strong t-out=\"line['name'] or ''\"/></div>\n"
+"                                        </td>\n"
+"                                    </tr>\n"
+"                                </table>\n"
+"                                <!-- Podium -->\n"
+"                                <t t-if=\"len(line['goals']) == 2\">\n"
+"                                    <table cellspacing=\"0\" cellpadding="
+"\"0\" width=\"100%\" style=\"margin-top:10px;\">\n"
+"                                        <tr><td style=\"padding:0 30px;\">\n"
+"                                            <table cellspacing=\"0\" "
+"cellpadding=\"0\" width=\"100%\" style=\"table-layout: fixed;\">\n"
+"                                                <tr>\n"
+"                                                    <t t-set=\"top_goals\" "
+"t-value=\"line['goals'][:3]\"/>\n"
+"                                                    <t t-foreach="
+"\"top_goals\" t-as=\"goal\">\n"
+"                                                        <td align=\"center\" "
+"style=\"width:32%;\">\n"
+"                                                            <t t-if="
+"\"loop.index == 1\">\n"
+"                                                                <t t-set="
+"\"extra_div\" t-value="
+"\"'&lt;div style=&quot;height:40px;&quot;&gt;&lt;/div&gt;'\"/>\n"
+"                                                                <t t-set="
+"\"heightA\" t-value=\"95\"/>\n"
+"                                                                <t t-set="
+"\"heightB\" t-value=\"75\"/>\n"
+"                                                                <t t-set="
+"\"bgColor\" t-value=\"'#b898b0'\"/>\n"
+"                                                                <t t-set="
+"\"fontSize\" t-value=\"50\"/>\n"
+"                                                                <t t-set="
+"\"podiumPosition\" t-value=\"'2'\"/>\n"
+"                                                            </t>\n"
+"                                                            <t t-elif="
+"\"loop.index == 2\">\n"
+"                                                                <t t-set="
+"\"extra_div\" t-value=\"''\"/>\n"
+"                                                                <t t-set="
+"\"heightA\" t-value=\"55\"/>\n"
+"                                                                <t t-set="
+"\"heightB\" t-value=\"115\"/>\n"
+"                                                                <t t-set="
+"\"bgColor\" t-value=\"'#9A6C8E'\"/>\n"
+"                                                                <t t-set="
+"\"fontSize\" t-value=\"85\"/>\n"
+"                                                                <t t-set="
+"\"podiumPosition\" t-value=\"'1'\"/>\n"
+"                                                            </t>\n"
+"                                                            <t t-elif="
+"\"loop.index == 3\">\n"
+"                                                                <t t-set="
+"\"extra_div\" t-value="
+"\"'&lt;div style=&quot;height:60px;&quot;&gt;&lt;/div&gt;'\"/>\n"
+"                                                                <t t-set="
+"\"heightA\" t-value=\"115\"/>\n"
+"                                                                <t t-set="
+"\"heightB\" t-value=\"55\"/>\n"
+"                                                                <t t-set="
+"\"bgColor\" t-value=\"'#c8afc1'\"/>\n"
+"                                                                <t t-set="
+"\"fontSize\" t-value=\"35\"/>\n"
+"                                                                <t t-set="
+"\"podiumPosition\" t-value=\"'3'\"/>\n"
+"                                                            </t>\n"
+"                                                            <div style="
+"\"margin:0 3px 0 3px;height:220px;\">\n"
+"                                                                <div t-attf-"
+"style=\"height:{{ heightA }}px;\">\n"
+"                                                                    <t t-out="
+"\"extra_div or ''\"/>\n"
+"                                                                    <div "
+"style=\"height:55px;\">\n"
+"                                                                        <img "
+"style=\"margin-bottom:5px;width:50px;height:50px;border-radius:50%;object-"
+"fit:cover;\" t-att-src=\"image_data_uri(object.env['res.users'].browse(goal"
+"['user_id']).partner_id.image_128)\" t-att-alt=\"goal['name']\"/>\n"
+"                                                                    </div>\n"
+"                                                                    <div "
+"align=\"center\" t-attf-style=\"color:{{ bgColor }};height:20px\">\n"
+"                                                                        <t "
+"t-out=\"goal['name'] or ''\"/>\n"
+"                                                                    </div>\n"
+"                                                                </div>\n"
+"                                                                <div t-attf-"
+"style=\"background-color:{{ bgColor }};height:{{ heightB }}px;\">\n"
+"                                                                    "
+"<strong><span t-attf-style=\"color:#fff;font-size:{{ fontSize }}px;\" t-out="
+"\"podiumPosition or ''\"/></strong>\n"
+"                                                                </div>\n"
+"                                                                <div style="
+"\"height:30px;\">\n"
+"                                                                    <t t-out="
+"\"&quot;%.2f&quot; % goal['current'] or ''\"/>\n"
+"                                                                    <t t-if="
+"\"line['suffix'] or line['monetary']\">\n"
+"                                                                        <t "
+"t-out=\"line['full_suffix'] or ''\"/>\n"
+"                                                                    </t>\n"
+"                                                                </div>\n"
+"                                                            </div>\n"
+"                                                        </td>\n"
+"                                                    </t>\n"
+"                                                </tr>\n"
+"                                            </table>\n"
+"                                            </td>\n"
+"                                        </tr>\n"
+"                                    </table>\n"
+"                                </t>\n"
+"                                <!-- data table -->\n"
+"                                <table cellspacing=\"0\" cellpadding=\"0\" "
+"width=\"100%\" style=\"margin-bottom:5px\">\n"
+"                                    <tr>\n"
+"                                        <td>\n"
+"                                            <table cellspacing=\"0\" "
+"cellpadding=\"0\" width=\"100%\" style=\"margin-top:30px;margin-"
+"bottom:5px;color:#666666;\">\n"
+"                                                <thead>\n"
+"                                                    <tr style="
+"\"color:#9A6C8E; font-size:12px;\">\n"
+"                                                        <th style="
+"\"width:15%;text-align:center;\">रैंक</th>\n"
+"                                                        <th style="
+"\"width:25%;text-align:left;\">नाम</th>\n"
+"                                                        <th style="
+"\"width:30%;text-align:right;\">पर्फ़ामेंस \n"
+"                                                            <t t-if="
+"\"line['suffix']\">\n"
+"                                                                (<t t-out="
+"\"line['suffix'] or ''\"/>)\n"
+"                                                            </t>\n"
+"                                                            <t t-elif="
+"\"line['monetary']\">\n"
+"                                                                (<t t-out="
+"\"company.currency_id.symbol or ''\"/>)\n"
+"                                                            </t>\n"
+"                                                        </th>\n"
+"                                                        <th style="
+"\"width:30%;text-align:right;\">पूरा हुआ</th>\n"
+"                                                    </tr>\n"
+"                                                    <tr>\n"
+"                                                        <td colspan=\"5\" "
+"style=\"height:1px;background-color:#9A6C8E;\"/>\n"
+"                                                    </tr>\n"
+"                                                </thead>\n"
+"                                                <tbody t-foreach="
+"\"line['goals']\" t-as=\"goal\">\n"
+"                                                    <tr>\n"
+"                                                        <t t-set="
+"\"tdBgColor\" t-value=\"'#fff'\"/>\n"
+"                                                        <t t-set=\"tdColor\" "
+"t-value=\"'gray'\"/>\n"
+"                                                        <t t-set="
+"\"mutedColor\" t-value=\"'#AAAAAA'\"/>\n"
+"                                                        <t t-set="
+"\"tdPercentageColor\" t-value=\"'#9A6C8E'\"/>\n"
+"                                                        <td width=\"15%\" "
+"align=\"center\" valign=\"middle\" t-attf-style=\"background-color:{{ "
+"tdBgColor }};padding :5px 0;font-size:20px;\"><t t-out=\"goal['rank']+1 or ''"
+"\"/>\n"
+"                                                        </td>\n"
+"                                                        <td width=\"25%\" "
+"align=\"left\" valign=\"middle\" t-attf-style=\"background-color:{{ "
+"tdBgColor }};padding :5px 0;font-size:13px;\"><t t-out=\"goal['name'] or ''\""
+"/></td>\n"
+"                                                        <td width=\"30%\" "
+"align=\"right\" t-attf-style=\"background-color:{{ tdBgColor }};padding:5px 0"
+";line-height:1;\"><t t-out=\"&quot;%.2f&quot; % goal['current'] or ''"
+"\"/><br/><span t-attf-style=\"font-size:13px;color:{{ mutedColor }};"
+"\"> <t t-out=\"&quot;%.2f&quot; % line['target'] or ''\"/></span>\n"
+"                                                        </td>\n"
+"                                                        <td width=\"30%\" t"
+"-attf-style=\"color:{{ tdPercentageColor }};background-color:{{ tdBgColor "
+"}};padding-right:15px;font-size:22px;\" align=\"right\"><strong><t t-out="
+"\"int(goal['completeness']) or ''\"/>%</strong></td>\n"
+"                                                    </tr>\n"
+"                                                    <tr>\n"
+"                                                        <td colspan=\"5\" "
+"style=\"height:1px;background-color:#DADADA;\"/>\n"
+"                                                    </tr>\n"
+"                                                </tbody>\n"
+"                                            </table>\n"
+"                                        </td>\n"
+"                                    </tr>\n"
+"                                </table> \n"
+"                            </t>\n"
+"                        </t>\n"
+"                    </td></tr>\n"
+"                </table>\n"
+"            </td></tr>\n"
+"        </table>\n"
+"    </td>\n"
+"</tr>\n"
+"</table>\n"
+"            "
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.actions.act_window,help:gamification.badge_list_action
@@ -1156,6 +1503,12 @@ msgid ""
 "                It can be deserved automatically when some conditions are met or manually by users.\n"
 "                Some badges are harder than others to get with specific conditions."
 msgstr ""
+<<<<<<< HEAD
+=======
+"बैज एक प्रतीकात्मक टोकन है जो उपयोगकर्ता को इनाम के रूप में दिया जाता है. \n"
+"यह कुछ शर्तें पूरी होने पर अपने-आप या उपयोगकर्ताओं द्वारा मैन्युअल रूप से दिया जा सकता है. \n"
+"कुछ बैज खास शर्तों के साथ दूसरों की तुलना में पाना ज़्यादा मुश्किल होते हैं।"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.actions.act_window,help:gamification.goal_definition_list_action
@@ -1236,6 +1589,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"गोल डेफिनेशन ये बताती है कि हमें क्या करना है. \n"
+"और गोल इंस्टेंस ये बताता है कि वो काम कब तक, कितना और किसके लिए करना है."
+>>>>>>> upstream/18.0
 =======
 "गोल डेफिनेशन ये बताती है कि हमें क्या करना है. \n"
 "और गोल इंस्टेंस ये बताता है कि वो काम कब तक, कितना और किसके लिए करना है."
@@ -1537,6 +1895,11 @@ msgid ""
 "A goal is considered as completed when the current value is compared to the "
 "value to reach"
 msgstr ""
+<<<<<<< HEAD
+=======
+"किसी लक्ष्य को पूरा हुआ तब माना जाता है जब आपने उस लक्ष्य के लिए जो काम किया है, उसकी "
+"तुलना उस काम से की जाती है जो आपको पूरा करना था"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.actions.act_window,help:gamification.goal_list_action
@@ -1544,6 +1907,12 @@ msgid ""
 "A goal is defined by a user and a goal definition.\n"
 "                Goals can be created automatically by using challenges."
 msgstr ""
+<<<<<<< HEAD
+=======
+"किसी लक्ष्य को कोई उपयोगकर्ता परिभाषित करता है और उस लक्ष्य के लिए क्या-क्या करना है, "
+"उसकी परिभाषा भी दी जाती है. \n"
+"आप किसी चुनौती (चैलेंज) की मदद से इन लक्ष्यों को अपने आप भी बना सकते हैं।"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.actions.act_window,help:gamification.gamification_karma_ranks_action
@@ -1551,11 +1920,22 @@ msgid ""
 "A rank correspond to a fixed karma level. The more you have karma, the more your rank is high.\n"
 "                    This is used to quickly know which user is new or old or highly or not active."
 msgstr ""
+<<<<<<< HEAD
+=======
+"किसी उपयोगकर्ता की रैंक उसके कर्मा पॉइंट के आधार पर तय होती है. जितने ज़्यादा कर्मा पॉइंट "
+"होंगे, रैंक उतनी ही ऊंची होगी. \n"
+"इसका इस्तेमाल यह जानने के लिए किया जाता है कि कोई उपयोगकर्ता नया है या पुराना, या वह "
+"कितना सक्रिय है।"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields.selection,name:gamification.selection__gamification_badge__rule_auth__users
 msgid "A selected list of users"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "उपयोगकर्ताओं की चुनी गई सूची"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal_definition__action_id
@@ -1654,7 +2034,11 @@ msgid "Action Needed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कार्रवाई की ज़रूरत है"
+>>>>>>> upstream/18.0
 =======
 msgstr "कार्रवाई की ज़रूरत है"
 >>>>>>> upstream/18.0
@@ -1931,7 +2315,11 @@ msgstr "सक्रिय"
 #: code:addons/gamification/models/res_users.py:0
 #: code:addons/gamification/tests/test_karma_tracking.py:0
 msgid "Add Manually"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मैन्युअल तौर पर जोड़ें"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.challenge_form_view
@@ -2024,7 +2412,11 @@ msgid "Advanced Options"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऐडवांस विकल्प"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऐडवांस विकल्प"
 >>>>>>> upstream/18.0
@@ -2293,12 +2685,20 @@ msgstr "ऐडवांस विकल्प"
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_badge__rule_auth
 msgid "Allowance to Grant"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अधिकार देने की अनुमति"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_challenge__challenge_category
 msgid "Appears in"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इसमें दिखता है"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.badge_form_view
@@ -2392,7 +2792,11 @@ msgid "Archived"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "संग्रहीत किया गया"
+>>>>>>> upstream/18.0
 =======
 msgstr "संग्रहीत किया गया"
 >>>>>>> upstream/18.0
@@ -2661,7 +3065,11 @@ msgstr "संग्रहीत किया गया"
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.challenge_form_view
 msgid "Assign Challenge to"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "चुनौती असाइन करें"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.actions.act_window,help:gamification.challenge_list_action
@@ -2670,6 +3078,13 @@ msgid ""
 "                The challenge can use a period (weekly, monthly...) for automatic creation of goals.\n"
 "                The goals are created for the specified users or member of the group."
 msgstr ""
+<<<<<<< HEAD
+=======
+"चुने गए उपयोगकर्ताओं का मूल्यांकन करने के लिए उन्हें लक्ष्यों की एक सूची असाइन करें. \n"
+"चुनौती लक्ष्यों को अपने-आप बनाने के लिए एक अवधि (साप्ताहिक, मासिक...) का इस्तेमाल कर "
+"सकती है. \n"
+"लक्ष्य खास उपयोगकर्ताओं या समूह के सदस्यों के लिए बनाए जाते हैं।"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_badge__message_attachment_count
@@ -2763,7 +3178,11 @@ msgid "Attachment Count"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अटैचमेंट काउंट"
+>>>>>>> upstream/18.0
 =======
 msgstr "अटैचमेंट काउंट"
 >>>>>>> upstream/18.0
@@ -3032,27 +3451,47 @@ msgstr "अटैचमेंट काउंट"
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_badge__rule_auth_user_ids
 msgid "Authorized Users"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऐसे उपयोगकर्ता जिन्हें अनुमति मिली है"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields.selection,name:gamification.selection__gamification_goal_definition__computation_mode__python
 msgid "Automatic: execute a specific Python code"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऑटोमेटिक: एक खास Python कोड को चलाएं"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields.selection,name:gamification.selection__gamification_goal_definition__computation_mode__count
 msgid "Automatic: number of records"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऑटोमेटिक: रिकॉर्ड की संख्या"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields.selection,name:gamification.selection__gamification_goal_definition__computation_mode__sum
 msgid "Automatic: sum on a field"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऑटोमेटिक: एक फ़ील्ड पर जोड़ करें"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:gamification.karma.rank,name:gamification.rank_bachelor
 msgid "Bachelor"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बैचलर"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_badge__name
@@ -3060,34 +3499,58 @@ msgstr ""
 #: model:ir.model.fields,field_description:gamification.field_gamification_badge_user_wizard__badge_id
 #: model_terms:ir.ui.view,arch_db:gamification.badge_form_view
 msgid "Badge"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बैज"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.badge_form_view
 msgid "Badge Description"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बैज की जानकारी"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_badge_user__level
 msgid "Badge Level"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बैज लेवल"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.badge_list_view
 msgid "Badge List"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बैज लिस्ट"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_badge_user__badge_name
 msgid "Badge Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बैज का नाम"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.actions.act_window,name:gamification.badge_list_action
 #: model:ir.model.fields,field_description:gamification.field_res_users__badge_ids
 #: model:ir.ui.menu,name:gamification.gamification_badge_menu
 msgid "Badges"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बैज"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.challenge_form_view
@@ -3097,37 +3560,67 @@ msgid ""
 "end date of a challenge (if no periodicity is set) or when the challenge is "
 "manually closed."
 msgstr ""
+<<<<<<< HEAD
+=======
+"किसी चैलेंज के पूरा होने पर इनाम के तौर पर बैज दिया जाता है. यह तब हो सकता है जब चैलेंज की"
+" अवधि खत्म हो जाए (जैसे मासिक चैलेंज का महीना पूरा हो जाए), या अगर कोई समय तय नहीं है "
+"तो चैलेंज की अंतिम तारीख पर, या जब चैलेंज को जानबूझकर बंद किया जाए।"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal_definition__batch_mode
 msgid "Batch Mode"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बैच मोड"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:gamification.badge,name:gamification.badge_idea
 msgid "Brilliant"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "शानदार"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields.selection,name:gamification.selection__gamification_badge__level__bronze
 msgid "Bronze"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ब्रॉन्ज़"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_res_users__bronze_badge
 msgid "Bronze badges count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ब्रॉन्ज़ बैज की संख्या"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.badge_kanban_view
 msgid "Can not grant"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "देना संभव नहीं"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #. odoo-python
 #: code:addons/gamification/models/gamification_goal.py:0
 msgid "Can not modify the configuration of a started goal"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "शुरू किए गए लक्ष्य की सेटिंग नहीं बदल सकते"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.view_badge_wizard_grant
@@ -3151,22 +3644,38 @@ msgstr "वर्ग"
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal__challenge_id
 #: model_terms:ir.ui.view,arch_db:gamification.challenge_form_view
 msgid "Challenge"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "चैलेंज"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal__line_id
 msgid "Challenge Line"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "चैलेंज लाइन"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.challenge_line_list_view
 msgid "Challenge Lines"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "चैलेंज लाइन"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_challenge__name
 msgid "Challenge Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "चैलेंज का नाम"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,help:gamification.field_gamification_goal__challenge_id
@@ -3174,6 +3683,11 @@ msgid ""
 "Challenge that generated the goal, assign challenge to users to generate "
 "goals with a value in this field."
 msgstr ""
+<<<<<<< HEAD
+=======
+"जिस चैलेंज से यह लक्ष्य बना है, उसकी जानकारी दी गई है. आप यह चैलेंज उपयोगकर्ताओं को असाइन "
+"करें ताकि वे इस फ़ील्ड में वैल्यू डालकर नए लक्ष्य बना सकें।"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.actions.act_window,name:gamification.challenge_list_action
@@ -3181,22 +3695,39 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:gamification.challenge_list_view
 #: model_terms:ir.ui.view,arch_db:gamification.view_challenge_kanban
 msgid "Challenges"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "चैलेंज"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,help:gamification.field_gamification_badge__rule_max
 msgid "Check to set a monthly limit per person of sending this badge"
 msgstr ""
+<<<<<<< HEAD
+=======
+"यह विकल्प चुनें, ताकि आप यह तय कर सकें कि कोई व्यक्ति एक महीने में यह बैज कितनी बार भेज "
+"सकता है"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.goal_definition_form_view
 msgid "Clickable Goals"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "क्लिक करने योग्य लक्ष्य"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal__closed
 msgid "Closed goal"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बंद किए गए लक्ष्य"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal__color
@@ -3286,7 +3817,11 @@ msgid "Color Index"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कलर इंडेक्स"
+>>>>>>> upstream/18.0
 =======
 msgstr "कलर इंडेक्स"
 >>>>>>> upstream/18.0
@@ -3547,71 +4082,123 @@ msgstr "कलर इंडेक्स"
 #: model:ir.model.fields,field_description:gamification.field_gamification_badge_user__comment
 #: model:ir.model.fields,field_description:gamification.field_gamification_badge_user_wizard__comment
 msgid "Comment"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "टिप्पणी"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:gamification.challenge,name:gamification.challenge_base_discover
 msgid "Complete your Profile"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अपनी प्रोफ़ाइल पूरी करें"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal__completeness
 msgid "Completeness"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पूरा होना"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal__computation_mode
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal_definition__computation_mode
 #: model_terms:ir.ui.view,arch_db:gamification.goal_definition_search_view
 msgid "Computation Mode"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कंप्यूटेशन मोड"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_challenge_line__condition
 msgid "Condition"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "शर्त"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_karma_tracking__consolidated
 #: model_terms:ir.ui.view,arch_db:gamification.gamification_karma_tracking_view_search
 msgid "Consolidated"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एक साथ मिलाया गया"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #. odoo-python
 #: code:addons/gamification/models/gamification_karma_tracking.py:0
 msgid "Consolidation from %(from_date)s to %(end_date)s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(from_date)s से %(end_date)s तक का डेटा एक साथ मिलाएं"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.actions.act_window,name:gamification.action_new_simplified_res_users
 msgid "Create User"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "उपयोगकर्ता बनाएं"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.actions.act_window,help:gamification.badge_list_action
 msgid "Create a new badge"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "नया बैज बनाएं"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.actions.act_window,help:gamification.challenge_list_action
 msgid "Create a new challenge"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "नया चैलेंज बनाएं"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.actions.act_window,help:gamification.goal_list_action
 msgid "Create a new goal"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "नया लक्ष्य बनाएं"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.actions.act_window,help:gamification.goal_definition_list_action
 msgid "Create a new goal definition"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एक नई लक्ष्य परिभाषा बनाएं"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.actions.act_window,help:gamification.gamification_karma_ranks_action
 msgid "Create a new rank"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "नया रैंक बनाएं"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.actions.act_window,help:gamification.action_new_simplified_res_users
@@ -3621,6 +4208,13 @@ msgid ""
 "not connect to the system. You can assign them groups in order to give them "
 "specific access to the applications they need to use in the system."
 msgstr ""
+<<<<<<< HEAD
+=======
+"उन सभी लोगों का रिकॉर्ड बनाएं और मैनेज करें जो इस सिस्टम का इस्तेमाल करेंगे. अगर कोई व्यक्ति"
+" कुछ समय के लिए सिस्टम का उपयोग नहीं करता है, तो आप उसे निष्क्रिय (डिएक्टिवेट) कर सकते "
+"हैं। आप उन्हें अलग-अलग ग्रुप में शामिल कर सकते हैं, ताकि वे सिस्टम में सिर्फ़ उन ऐप्लिकेशन का "
+"इस्तेमाल कर सकें जिनकी उन्हें ज़रूरत है।"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_badge__create_uid
@@ -3733,7 +4327,11 @@ msgid "Created on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इस तारीख को बनाया गया"
+>>>>>>> upstream/18.0
 =======
 msgstr "इस तारीख को बनाया गया"
 >>>>>>> upstream/18.0
@@ -4069,7 +4667,11 @@ msgid "Current"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "करंट"
+>>>>>>> upstream/18.0
 =======
 msgstr "करंट"
 >>>>>>> upstream/18.0
@@ -4302,18 +4904,30 @@ msgstr "करंट"
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal__current
 msgid "Current Value"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मौजूदा वैल्यू"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields.selection,name:gamification.selection__gamification_challenge__period__daily
 #: model:ir.model.fields.selection,name:gamification.selection__gamification_challenge__report_message_frequency__daily
 msgid "Daily"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "हर दिन"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.goal_form_view
 msgid "Data"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "डेटा"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.gamification_karma_tracking_view_tree
@@ -4323,7 +4937,11 @@ msgstr "तिथि"
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal_definition__field_date_id
 msgid "Date Field"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "तारीख वाली फ़ील्ड"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,help:gamification.field_gamification_goal__computation_mode
@@ -4332,37 +4950,66 @@ msgid ""
 "Define how the goals will be computed. The result of the operation will be "
 "stored in the field 'Current'."
 msgstr ""
+<<<<<<< HEAD
+=======
+"तय करें कि लक्ष्यों की गणना कैसे की जाएगी. ऑपरेशन का नतीजा 'मौजूदा' फ़ील्ड में सेव किया "
+"जाएगा।"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,help:gamification.field_gamification_challenge__challenge_category
 msgid "Define the visibility of the challenge through menus"
 msgstr ""
+<<<<<<< HEAD
+=======
+"यह तय करें कि यह चुनौती (चैलेंज) सिस्टम के मेन्यू में कहां और किसे दिखाई देगी"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal__definition_condition
 msgid "Definition Condition"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "शर्त तय करें"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal__definition_description
 msgid "Definition Description"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "परिभाषा की जानकारी"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.challenge_form_view
 msgid "Depending on the Display mode, reports will be individual or shared."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "डिस्प्ले मोड के अनुसार, रिपोर्ट व्यक्तिगत या शेयर की जाएगी।"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.challenge_form_view
 msgid ""
 "Describe the challenge: what is does, who it targets, why it matters..."
 msgstr ""
+<<<<<<< HEAD
+=======
+"चुनौती का विवरण दें: यह क्या करती है, किसे लक्षित करती है, यह क्यों मायने रखती है..।"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.view_badge_wizard_grant
 msgid "Describe what they did and why it matters (will be public)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बताएं कि उन्होंने क्या किया और यह क्यों मायने रखता है (सार्वजनिक रहेगा)"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_badge__description
@@ -4377,7 +5024,11 @@ msgstr "विवरण"
 #: model:ir.model.fields,field_description:gamification.field_gamification_challenge__visibility_mode
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal__definition_display
 msgid "Display Mode"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "डिस्प्ले मोड"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_badge__display_name
@@ -4482,7 +5133,11 @@ msgid "Display Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "डिस्प्ले नाम"
+>>>>>>> upstream/18.0
 =======
 msgstr "डिस्प्ले नाम"
 >>>>>>> upstream/18.0
@@ -4760,17 +5415,29 @@ msgstr "डिस्प्ले नाम"
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal_definition__display_mode
 msgid "Displayed as"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "के तौर पर दिखाया गया है"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal_definition__batch_distinctive_field
 msgid "Distinctive field for batch user"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बैच उपयोगकर्ता के लिए खास फ़ील्ड"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:gamification.karma.rank,name:gamification.rank_doctor
 msgid "Doctor"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "डॉक्टर"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,help:gamification.field_gamification_goal_definition__domain
@@ -4779,6 +5446,12 @@ msgid ""
 "[('state', '=', 'done')]. The expression can contain reference to 'user' "
 "which is a browse record of the current user if not in batch mode."
 msgstr ""
+<<<<<<< HEAD
+=======
+"रिकॉर्ड को फ़िल्टर करने के लिए डोमेन. यह एक सामान्य नियम है, जो उपयोगकर्ता पर निर्भर "
+"नहीं करता, जैसे [('state', '=', 'done')]. इस एक्सप्रेशन में 'user' का संदर्भ हो सकता है"
+", जो बैच मोड में नहीं होने पर वर्तमान उपयोगकर्ता का ब्राउज़ रिकॉर्ड है।"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields.selection,name:gamification.selection__gamification_challenge__state__done
@@ -4797,6 +5470,10 @@ msgstr "मसौदा"
 #: model_terms:gamification.karma.rank,description_motivational:gamification.rank_newbie
 msgid "Earn your first points and join the adventure!"
 msgstr ""
+<<<<<<< HEAD
+=======
+"सबसे पहले अपने शुरुआती पॉइंट पाएं और फिर इस मज़ेदार प्रतियोगिता में हिस्सा लें!"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_challenge__end_date
@@ -4809,21 +5486,37 @@ msgstr "समाप्ति तिथि"
 #: model:ir.model.fields,help:gamification.field_gamification_goal_definition__batch_mode
 msgid "Evaluate the expression in batch instead of once for each user"
 msgstr ""
+<<<<<<< HEAD
+=======
+"हर उपयोगकर्ता के लिए अलग-अलग के बजाय, एक्सप्रेशन का मूल्यांकन एक साथ (बैच में) करें"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal_definition__batch_user_expression
 msgid "Evaluated expression for batch mode"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बैच मोड के लिए मूल्यांकन किया गया एक्सप्रेशन"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields.selection,name:gamification.selection__gamification_badge__rule_auth__everyone
 msgid "Everyone"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सभी"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields.selection,name:gamification.selection__gamification_goal_definition__display_mode__boolean
 msgid "Exclusive (done or not-done)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एक्सक्लूसिव (किया गया या नहीं किया गया)"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields.selection,name:gamification.selection__gamification_goal__state__failed
@@ -4900,7 +5593,11 @@ msgid "Failed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "असफल"
+>>>>>>> upstream/18.0
 =======
 msgstr "असफल"
 >>>>>>> upstream/18.0
@@ -5121,12 +5818,20 @@ msgstr "असफल"
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal_definition__field_id
 msgid "Field to Sum"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "जोड़ने के लिए फ़ील्ड"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal_definition__domain
 msgid "Filter Domain"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "फ़िल्टर डोमेन"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_badge__message_follower_ids
@@ -5214,7 +5919,11 @@ msgid "Followers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "फ़ॉलोवर"
+>>>>>>> upstream/18.0
 =======
 msgstr "फ़ॉलोवर"
 >>>>>>> upstream/18.0
@@ -5548,7 +6257,11 @@ msgid "Followers (Partners)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "फ़ॉलोवर (पार्टनर)"
+>>>>>>> upstream/18.0
 =======
 msgstr "फ़ॉलोवर (पार्टनर)"
 >>>>>>> upstream/18.0
@@ -5799,32 +6512,56 @@ msgstr "फ़ॉलोवर (पार्टनर)"
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_challenge__reward_first_id
 msgid "For 1st user"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पहले उपयोगकर्ता के लिए"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_challenge__reward_second_id
 msgid "For 2nd user"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "दूसरे उपयोगकर्ता के लिए"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_challenge__reward_third_id
 msgid "For 3rd user"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "तीसरे उपयोगकर्ता के लिए"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_challenge__reward_id
 msgid "For Every Succeeding User"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "हर सफल उपयोगकर्ता के लिए"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.goal_definition_form_view
 msgid "Formatting Options"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "फॉर्मैटिंग के विकल्प"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_badge__level
 msgid "Forum Badge Level"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "फ़ोरम बैज लेवल"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.goal_kanban_view
@@ -5834,7 +6571,11 @@ msgstr "के द्वारा"
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal_definition__full_suffix
 msgid "Full Suffix"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पूरा सफ़िक्स"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_karma_tracking__gain
@@ -5921,7 +6662,11 @@ msgid "Gain"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "लाभ"
+>>>>>>> upstream/18.0
 =======
 msgstr "लाभ"
 >>>>>>> upstream/18.0
@@ -6172,83 +6917,147 @@ msgstr "लाभ"
 #. module: gamification
 #: model:ir.model,name:gamification.model_gamification_badge
 msgid "Gamification Badge"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "गेमिफ़िकेशन बैज"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model,name:gamification.model_gamification_challenge
 msgid "Gamification Challenge"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "गेमिफ़िकेशन चैलेंज"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model,name:gamification.model_gamification_goal
 msgid "Gamification Goal"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "गेमिफ़िकेशन गोल"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model,name:gamification.model_gamification_goal_definition
 msgid "Gamification Goal Definition"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "गेमिफ़िकेशन के लक्ष्य की परिभाषा"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model,name:gamification.model_gamification_goal_wizard
 msgid "Gamification Goal Wizard"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "गेमिफ़िकेशन गोल विज़ॉर्ड"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.ui.menu,name:gamification.gamification_menu
 msgid "Gamification Tools"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "गेमिफ़िकेशन टूल्स"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model,name:gamification.model_gamification_badge_user
 msgid "Gamification User Badge"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "गेमिफ़िकेशन बैज यूज़र"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model,name:gamification.model_gamification_badge_user_wizard
 msgid "Gamification User Badge Wizard"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "गेमिफ़िकेशन यूज़र बैज विज़ॉर्ड"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model,name:gamification.model_gamification_challenge_line
 msgid "Gamification generic goal for challenge"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "चैलेंज के लिए गेमिफ़िकेशन का सामान्य लक्ष्य"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:mail.template,name:gamification.email_template_badge_received
 msgid "Gamification: Badge Received"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "गेमिफ़िकेशन: बैज मिला"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:mail.template,name:gamification.simple_report_template
 msgid "Gamification: Challenge Report"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "गेमिफ़िकेशन: चैलेंज रिपोर्ट"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.actions.server,name:gamification.ir_cron_check_challenge_ir_actions_server
 msgid "Gamification: Goal Challenge Check"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "गेमिफ़िकेशन: लक्ष्य चुनौती की जांच"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.actions.server,name:gamification.ir_cron_consolidate_ir_actions_server
 msgid "Gamification: Karma tracking consolidation"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "गेमिफ़िकेशन: कर्मा पॉइंट की ट्रैकिंग को एक साथ मिलाना"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:mail.template,name:gamification.mail_template_data_new_rank_reached
 msgid "Gamification: New Rank Reached"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "गेमिफ़िकेशन: नई रैंक मिली"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:mail.template,name:gamification.email_template_goal_reminder
 msgid "Gamification: Reminder For Goal Update"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "गेमिफ़िकेशन: लक्ष्य अपडेट के लिए रिमाइंडर"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal_wizard__goal_id
 #: model_terms:ir.ui.view,arch_db:gamification.goal_form_view
 msgid "Goal"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "लक्ष्य"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_challenge_line__definition_id
@@ -6256,44 +7065,76 @@ msgstr ""
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal_definition__name
 #: model_terms:ir.ui.view,arch_db:gamification.goal_search_view
 msgid "Goal Definition"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "लक्ष्य की परिभाषा"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.actions.act_window,name:gamification.goal_definition_list_action
 #: model:ir.ui.menu,name:gamification.gamification_definition_menu
 #: model_terms:ir.ui.view,arch_db:gamification.goal_definition_list_view
 msgid "Goal Definitions"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "लक्ष्य की परिभाषाएं"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal_definition__description
 msgid "Goal Description"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "लक्ष्य की जानकारी"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.goal_form_view
 msgid "Goal Failed"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "लक्ष्य हासिल नहीं हुआ"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.goal_list_view
 msgid "Goal List"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "लक्ष्य की सूची"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal_definition__condition
 msgid "Goal Performance"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "लक्ष्य का प्रदर्शन"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.goal_form_view
 msgid "Goal Reached"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "लक्ष्य हासिल हुआ"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.goal_definition_form_view
 msgid "Goal definitions"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "लक्ष्य की परिभाषाएं"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.actions.act_window,name:gamification.goal_list_action
@@ -6301,59 +7142,103 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:gamification.challenge_form_view
 #: model_terms:ir.ui.view,arch_db:gamification.view_challenge_kanban
 msgid "Goals"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "लक्ष्य"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields.selection,name:gamification.selection__gamification_badge__level__gold
 msgid "Gold"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "गोल्ड"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_res_users__gold_badge
 msgid "Gold badges count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "गोल्ड बैज की संख्या"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:gamification.badge,name:gamification.badge_good_job
 msgid "Good Job"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अच्छा काम"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.badge_kanban_view
 msgid "Grant"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ग्रान्ट"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.actions.act_window,name:gamification.action_grant_wizard
 #: model_terms:ir.ui.view,arch_db:gamification.view_badge_wizard_grant
 msgid "Grant Badge"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बैज दें"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.view_badge_wizard_grant
 #: model_terms:ir.ui.view,arch_db:gamification.view_goal_wizard_update_current
 msgid "Grant Badge To"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बैज इन को दें"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.badge_form_view
 msgid "Grant this Badge"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इस बैज को दें"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.gamification_karma_tracking_view_search
 msgid "Granted By"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इन्होंने दिया"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.badge_user_kanban_view
 msgid "Granted by"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इनके ज़रिए अनुमति दी गई"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.badge_form_view
 msgid "Granting"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "दिया जा रहा है"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.challenge_search_view
@@ -6443,7 +7328,11 @@ msgid "Group By"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इन्होंने ग्रुप किया"
+>>>>>>> upstream/18.0
 =======
 msgstr "इन्होंने ग्रुप किया"
 >>>>>>> upstream/18.0
@@ -6694,12 +7583,20 @@ msgstr "इन्होंने ग्रुप किया"
 #. module: gamification
 #: model:ir.model.fields,help:gamification.field_gamification_challenge__report_message_group_id
 msgid "Group that will receive a copy of the report in addition to the user"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "वह समूह जिसे उपयोगकर्ता के अलावा रिपोर्ट की एक कॉपी मिलेगी"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.challenge_search_view
 msgid "HR Challenges"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एचआर चैलेंज"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_badge__has_message
@@ -6787,7 +7684,11 @@ msgid "Has Message"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मैसेज है"
+>>>>>>> upstream/18.0
 =======
 msgstr "मैसेज है"
 >>>>>>> upstream/18.0
@@ -7038,17 +7939,29 @@ msgstr "मैसेज है"
 #. module: gamification
 #: model:gamification.badge,name:gamification.badge_hidden
 msgid "Hidden"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "छिपाया गया"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.goal_definition_form_view
 msgid "How is the goal computed?"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "लक्ष्य की गणना कैसे की जाती है?"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields.selection,name:gamification.selection__gamification_challenge__challenge_category__hr
 msgid "Human Resources / Engagement"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मानव संसाधन / इंगेजमेंट"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_badge__id
@@ -7153,7 +8066,11 @@ msgid "ID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आईडी"
+>>>>>>> upstream/18.0
 =======
 msgstr "आईडी"
 >>>>>>> upstream/18.0
@@ -7431,12 +8348,20 @@ msgstr "आईडी"
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal_definition__res_id_field
 msgid "ID Field of user"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "यूज़र की आईडी फ़ील्ड"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,help:gamification.field_gamification_badge__remaining_sending
 msgid "If a maximum is set"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अगर अधिकतम सीमा तय की गई है"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,help:gamification.field_gamification_badge__message_needaction
@@ -7524,7 +8449,11 @@ msgid "If checked, new messages require your attention."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अगर यह बॉक्स चेक है, तो नए मैसेज देखने ज़रूरी हैं."
+>>>>>>> upstream/18.0
 =======
 msgstr "अगर यह बॉक्स चेक है, तो नए मैसेज देखने ज़रूरी हैं."
 >>>>>>> upstream/18.0
@@ -7858,7 +8787,11 @@ msgid "If checked, some messages have a delivery error."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अगर बॉक्स पर टिक है, तो कुछ मैसेज भेजने में गलती हुई है."
+>>>>>>> upstream/18.0
 =======
 msgstr "अगर बॉक्स पर टिक है, तो कुछ मैसेज भेजने में गलती हुई है."
 >>>>>>> upstream/18.0
@@ -8182,7 +9115,11 @@ msgid "Image"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इमेज"
+>>>>>>> upstream/18.0
 =======
 msgstr "इमेज"
 >>>>>>> upstream/18.0
@@ -8404,25 +9341,41 @@ msgstr "इमेज"
 #: model:ir.model.fields,field_description:gamification.field_gamification_badge__image_1024
 #: model:ir.model.fields,field_description:gamification.field_gamification_karma_rank__image_1024
 msgid "Image 1024"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इमेज 1024"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_badge__image_128
 #: model:ir.model.fields,field_description:gamification.field_gamification_karma_rank__image_128
 msgid "Image 128"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इमेज 128"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_badge__image_256
 #: model:ir.model.fields,field_description:gamification.field_gamification_karma_rank__image_256
 msgid "Image 256"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इमेज 256"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_badge__image_512
 #: model:ir.model.fields,field_description:gamification.field_gamification_karma_rank__image_512
 msgid "Image 512"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इमेज 512"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields.selection,name:gamification.selection__gamification_challenge__state__inprogress
@@ -8435,6 +9388,11 @@ msgid ""
 "In batch mode, the domain is evaluated globally. If enabled, do not use "
 "keyword 'user' in above filter domain."
 msgstr ""
+<<<<<<< HEAD
+=======
+"बैच मोड में डोमेन एक साथ लागू होता है. अगर यह चालू है, तो ऊपर के फ़िल्टर में 'user' कीवर्ड "
+"का उपयोग न करें।"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,help:gamification.field_gamification_goal_definition__batch_distinctive_field
@@ -8442,6 +9400,11 @@ msgid ""
 "In batch mode, this indicates which field distinguishes one user from the "
 "other, e.g. user_id, partner_id..."
 msgstr ""
+<<<<<<< HEAD
+=======
+"बैच मोड में, यह बताता है कि कौनसा फ़ील्ड एक उपयोगकर्ता को दूसरे से अलग करता है, उदाहरण के"
+" लिए user_id, partner_id..।"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,help:gamification.field_gamification_goal__last_update
@@ -8450,6 +9413,12 @@ msgid ""
 "for a while (defined in challenge). Ignored in case of non-manual goal or "
 "goal not linked to a challenge."
 msgstr ""
+<<<<<<< HEAD
+=======
+"मैन्युअल लक्ष्य के मामले में, अगर लक्ष्य कुछ समय से अपडेट नहीं हुआ है (चुनौती में तय किया गया है)"
+", तो रिमाइंडर भेजे जाते हैं. मैन्युअल लक्ष्य न होने या चुनौती से न जुड़े लक्ष्य के मामले में इसे "
+"अनदेखा किया जाता है।"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields.selection,name:gamification.selection__gamification_goal__state__inprogress
@@ -8526,7 +9495,11 @@ msgid "In progress"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्रगति में है"
+>>>>>>> upstream/18.0
 =======
 msgstr "प्रगति में है"
 >>>>>>> upstream/18.0
@@ -8747,17 +9720,29 @@ msgstr "प्रगति में है"
 #. module: gamification
 #: model:ir.model.fields.selection,name:gamification.selection__gamification_challenge__visibility_mode__personal
 msgid "Individual Goals"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "व्यक्तिगत लक्ष्य"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal_definition__model_inherited_ids
 msgid "Inherited models"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऐसे डेटा मॉडल जो किसी दूसरे मूल मॉडल से बनाए गए हैं"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:gamification.goal.definition,name:gamification.definition_base_invite
 msgid "Invite new Users"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "नए उपयोगकर्ताओं को न्योता दें"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_badge__message_is_follower
@@ -8845,7 +9830,11 @@ msgid "Is Follower"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "फ़ॉलोवर है"
+>>>>>>> upstream/18.0
 =======
 msgstr "फ़ॉलोवर है"
 >>>>>>> upstream/18.0
@@ -9097,41 +10086,69 @@ msgstr "फ़ॉलोवर है"
 #: model:ir.model.fields,field_description:gamification.field_res_users__karma
 #: model_terms:ir.ui.view,arch_db:gamification.res_users_view_form
 msgid "Karma"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कर्मा"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_res_users__karma_tracking_ids
 msgid "Karma Changes"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कर्मा में बदलाव"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.gamification_karma_tracking_view_form
 #: model_terms:ir.ui.view,arch_db:gamification.gamification_karma_tracking_view_search
 #: model_terms:ir.ui.view,arch_db:gamification.gamification_karma_tracking_view_tree
 msgid "Karma Owner"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कर्मा के मालिक"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.actions.act_window,name:gamification.gamification_karma_tracking_action
 #: model:ir.ui.menu,name:gamification.gamification_karma_tracking_menu
 msgid "Karma Tracking"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कर्मा ट्रैकिंग"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #. odoo-python
 #: code:addons/gamification/models/res_users.py:0
 msgid "Karma Updates"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कर्मा अपडेट"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_challenge__last_report_date
 msgid "Last Report Date"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रिपोर्ट की आखिरी तारीख"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal__last_update
 msgid "Last Update"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आखिरी बार अपडेट"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_badge__write_uid
@@ -9227,7 +10244,11 @@ msgid "Last Updated by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इन्होंने आखिरी बार अपडेट किया"
+>>>>>>> upstream/18.0
 =======
 msgstr "इन्होंने आखिरी बार अपडेट किया"
 >>>>>>> upstream/18.0
@@ -9569,7 +10590,11 @@ msgid "Last Updated on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आखिरी बार अपडेट हुआ"
+>>>>>>> upstream/18.0
 =======
 msgstr "आखिरी बार अपडेट हुआ"
 >>>>>>> upstream/18.0
@@ -9820,17 +10845,29 @@ msgstr "आखिरी बार अपडेट हुआ"
 #. module: gamification
 #: model:ir.model.fields.selection,name:gamification.selection__gamification_challenge__visibility_mode__ranking
 msgid "Leader Board (Group Ranking)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "लीडर बोर्ड (ग्रुप रैंकिंग)"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_badge__rule_max_number
 msgid "Limitation Number"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "लीमिटेशन नंबर"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.challenge_form_view
 msgid "Line List"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "लाइन लिस्ट"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_challenge__line_ids
@@ -9917,7 +10954,11 @@ msgid "Lines"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "लाइऩें"
+>>>>>>> upstream/18.0
 =======
 msgstr "लाइऩें"
 >>>>>>> upstream/18.0
@@ -10168,7 +11209,11 @@ msgstr "लाइऩें"
 #. module: gamification
 #: model:ir.model.fields,help:gamification.field_gamification_challenge__line_ids
 msgid "List of goals that will be set"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "उन लक्ष्यों की सूची जो सेट किए जाएंगे"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.gamification_karma_tracking_view_search
@@ -10255,7 +11300,11 @@ msgid "Manual"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मैन्युअल"
+>>>>>>> upstream/18.0
 =======
 msgstr "मैन्युअल"
 >>>>>>> upstream/18.0
@@ -10506,7 +11555,11 @@ msgstr "मैन्युअल"
 #. module: gamification
 #: model:gamification.karma.rank,name:gamification.rank_master
 msgid "Master"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मास्टर"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_badge__message_has_error
@@ -10594,7 +11647,11 @@ msgid "Message Delivery error"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मैसेज डिलीवरी में गड़बड़ी"
+>>>>>>> upstream/18.0
 =======
 msgstr "मैसेज डिलीवरी में गड़बड़ी"
 >>>>>>> upstream/18.0
@@ -10943,7 +12000,11 @@ msgid "Model"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मॉडल"
+>>>>>>> upstream/18.0
 =======
 msgstr "मॉडल"
 >>>>>>> upstream/18.0
@@ -11303,7 +12364,11 @@ msgid "Monetary"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मॉनेटरी"
+>>>>>>> upstream/18.0
 =======
 msgstr "मॉनेटरी"
 >>>>>>> upstream/18.0
@@ -11554,7 +12619,11 @@ msgstr "मॉनेटरी"
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal_definition__monetary
 msgid "Monetary Value"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मौद्रिक मूल्य"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields.selection,name:gamification.selection__gamification_challenge__period__monthly
@@ -11642,7 +12711,11 @@ msgid "Monthly"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "महीने के हिसाब से"
+>>>>>>> upstream/18.0
 =======
 msgstr "महीने के हिसाब से"
 >>>>>>> upstream/18.0
@@ -11893,48 +12966,84 @@ msgstr "महीने के हिसाब से"
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_badge__rule_max
 msgid "Monthly Limited Sending"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एक महीने में एक तय और सीमित संख्या में ही भेजने की अनुमति देना"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_badge__stat_this_month
 msgid "Monthly total"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पूरे महीने का कुल योग"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_karma_rank__description_motivational
 #: model_terms:ir.ui.view,arch_db:gamification.gamification_karma_rank_view_form
 msgid "Motivational"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मोटिवेशनल"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,help:gamification.field_gamification_karma_rank__description_motivational
 msgid "Motivational phrase to reach this rank on your profile page"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अपनी प्रोफ़ाइल पर यह रैंक पाने के लिए प्रेरक वाक्य"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.goal_search_view
 msgid "My Goals"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मेरे लक्ष्य"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.gamification_karma_tracking_view_search
 msgid "My Karma"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मेरा कर्मा"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_badge__stat_my_monthly_sending
 msgid "My Monthly Sending Total"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मेरा हर महीने भेजने का कुल योग"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_badge__stat_my_this_month
 msgid "My Monthly Total"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मेरा मासिक कुल योग"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_badge__stat_my
 msgid "My Total"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मेरा कुल योग"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_challenge_line__name
@@ -12026,7 +13135,11 @@ msgid "Never"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कभी नहीं"
+>>>>>>> upstream/18.0
 =======
 msgstr "कभी नहीं"
 >>>>>>> upstream/18.0
@@ -12277,62 +13390,110 @@ msgstr "कभी नहीं"
 #. module: gamification
 #: model:ir.model.fields,help:gamification.field_gamification_challenge__remind_update_delay
 msgid "Never reminded if no value or zero is specified."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अगर कोई वैल्यू या शून्य तय नहीं है, तो याद नहीं दिलाया जाएगा।"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_karma_tracking__new_value
 msgid "New Karma Value"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "नया कर्मा वैल्यू"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:mail.template,subject:gamification.email_template_badge_received
 msgid "New badge {{ object.badge_id.name }} granted"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "नया बैज {{ object.badge_id.name }} दिया गया"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:mail.template,subject:gamification.mail_template_data_new_rank_reached
 msgid "New rank: {{ object.rank_id.name }}"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "नया रैंक: {{ object.rank_id.name }}"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:gamification.karma.rank,name:gamification.rank_newbie
 msgid "Newbie"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "नौसिखिया"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_res_users__next_rank_id
 msgid "Next Rank"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अगला रैंक"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_challenge__next_report_date
 msgid "Next Report Date"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रिपोर्ट की अगली तारीख"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.actions.act_window,help:gamification.gamification_karma_tracking_action
 msgid "No Karma Tracking"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कर्मा पॉइंट ट्रैक नहीं होंगे"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.actions.act_window,help:gamification.goals_from_challenge_act
 msgid "No goal found"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कोई लक्ष्य नहीं मिला"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.badge_form_view
 msgid "No monthly sending limit"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मासिक भेजने की कोई सीमा नहीं"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:gamification.badge,description:gamification.badge_problem_solver
 msgid "No one can solve challenges like you do."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आपके जैसे चैलेंज को कोई हल नहीं कर सकता।"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields.selection,name:gamification.selection__gamification_badge__rule_auth__nobody
 msgid "No one, assigned through challenges"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "चुनौतियों के ज़रिए किसी को असाइन नहीं किया गया है"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #. odoo-python
@@ -12341,27 +13502,47 @@ msgid ""
 "Nobody has succeeded to reach every goal, no badge is rewarded for this "
 "challenge."
 msgstr ""
+<<<<<<< HEAD
+=======
+"किसी ने भी हर लक्ष्य को हासिल नहीं किया, इसलिए इस चैलेंज के लिए कोई बैज नहीं दिया गया।"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #. odoo-python
 #: code:addons/gamification/models/gamification_challenge.py:0
 msgid "Nobody reached the required conditions to receive special badges."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "किसी ने भी खास बैज पाने के लिए ज़रूरी शर्तें पूरी नहीं कीं।"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields.selection,name:gamification.selection__gamification_challenge__period__once
 msgid "Non recurring"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बार-बार नहीं होने वाला"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_challenge__remind_update_delay
 msgid "Non-updated manual goals will be reminded after"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अपडेट न किए गए मैन्युअल लक्ष्यों को इतने समय के बाद याद दिलाया जाएगा"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.challenge_form_view
 msgid "Notification Messages"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "नोटिफ़िकेशन मैसेज"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_badge__message_needaction_counter
@@ -12449,7 +13630,11 @@ msgid "Number of Actions"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कार्रवाई की संख्या"
+>>>>>>> upstream/18.0
 =======
 msgstr "कार्रवाई की संख्या"
 >>>>>>> upstream/18.0
@@ -12783,7 +13968,11 @@ msgid "Number of errors"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "गलतियों की संख्या"
+>>>>>>> upstream/18.0
 =======
 msgstr "गलतियों की संख्या"
 >>>>>>> upstream/18.0
@@ -13117,7 +14306,11 @@ msgid "Number of messages requiring action"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऐसे मैसेज की संख्या जिनपर कार्रवाई करना ज़रूरी है"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऐसे मैसेज की संख्या जिनपर कार्रवाई करना ज़रूरी है"
 >>>>>>> upstream/18.0
@@ -13451,7 +14644,11 @@ msgid "Number of messages with delivery error"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऐसे मैसेज की संख्या जिनमें डिलीवरी की गड़बड़ी है"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऐसे मैसेज की संख्या जिनमें डिलीवरी की गड़बड़ी है"
 >>>>>>> upstream/18.0
@@ -13702,49 +14899,85 @@ msgstr "ऐसे मैसेज की संख्या जिनमें �
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_badge__granted_users_count
 msgid "Number of users"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "उपयोगकर्ताओं की संख्या"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_karma_tracking__old_value
 msgid "Old Karma Value"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कर्मा की पुरानी वैल्यू"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields.selection,name:gamification.selection__gamification_challenge__report_message_frequency__onchange
 msgid "On change"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बदलाव होने पर"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,help:gamification.field_gamification_badge__rule_auth_badge_ids
 msgid "Only the people having these badges can give this badge"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "यह बैज सिर्फ़ वही लोग दे सकते हैं जिनके पास ये बैज हैं"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,help:gamification.field_gamification_badge__rule_auth_user_ids
 msgid "Only these people can give this badge"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सिर्फ़ ये लोग ही यह बैज दे सकते हैं"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.goal_definition_form_view
 msgid "Optimisation"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऑप्टमाइज़ेशन"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_badge__owner_ids
 msgid "Owners"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मालिक"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_challenge__user_ids
 #: model_terms:ir.ui.view,arch_db:gamification.challenge_form_view
 #: model_terms:ir.ui.view,arch_db:gamification.view_challenge_kanban
 msgid "Participants"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्रतिभागी"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields.selection,name:gamification.selection__gamification_badge__rule_auth__having
 msgid "People having some badges"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "जिन लोगों के पास कुछ बैज हैं"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.challenge_search_view
@@ -13831,7 +15064,11 @@ msgid "Period"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "समयावधि"
+>>>>>>> upstream/18.0
 =======
 msgstr "समयावधि"
 >>>>>>> upstream/18.0
@@ -14085,6 +15322,10 @@ msgid ""
 "Period of automatic goal assignment. If none is selected, should be launched"
 " manually."
 msgstr ""
+<<<<<<< HEAD
+=======
+"लक्ष्य अपने-आप असाइन होने की अवधि. अगर कोई अवधि नहीं चुनी जाती है, तो खुद ही शुरू करें।"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_challenge__period
@@ -14161,7 +15402,11 @@ msgid "Periodicity"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "समयावधि"
+>>>>>>> upstream/18.0
 =======
 msgstr "समयावधि"
 >>>>>>> upstream/18.0
@@ -14382,22 +15627,38 @@ msgstr "समयावधि"
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.gamification_karma_tracking_view_tree
 msgid "Previous Total"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पिछला कुल योग"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:gamification.badge,name:gamification.badge_problem_solver
 msgid "Problem Solver"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्रॉब्लम सॉल्वर"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields.selection,name:gamification.selection__gamification_goal_definition__display_mode__progress
 msgid "Progressive (using numerical values)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आगे बढ़ने वाला (संख्या का उपयोग करके)"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal_definition__compute_code
 msgid "Python Code"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Python कोड"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,help:gamification.field_gamification_goal_definition__compute_code
@@ -14405,88 +15666,158 @@ msgid ""
 "Python code to be executed for each user. 'result' should contains the new "
 "current value. Evaluated user can be access through object.user_id."
 msgstr ""
+<<<<<<< HEAD
+=======
+"हर उपयोगकर्ता के लिए चलाए जाने वाले Python कोड. 'परिणाम' में नई वर्तमान वैल्यू होनी "
+"चाहिए. जिस उपयोगकर्ता का मूल्यांकन किया जा रहा है, उस तक object.user_id के ज़रिए "
+"पहुंचा जा सकता है।"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_res_users__rank_id
 #: model_terms:ir.ui.view,arch_db:gamification.gamification_karma_rank_view_form
 msgid "Rank"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रैंक"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_karma_rank__name
 msgid "Rank Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रैंक का नाम"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model,name:gamification.model_gamification_karma_rank
 msgid "Rank based on karma"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कर्मा के आधार पर रैंक"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.actions.act_window,name:gamification.gamification_karma_ranks_action
 #: model:ir.ui.menu,name:gamification.gamification_karma_ranks_menu
 msgid "Ranks"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रैंक्स"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.gamification_karma_ranks_view_tree
 msgid "Ranks List"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रैंक्स लिस्ट"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:gamification.karma.rank,description_motivational:gamification.rank_master
 msgid "Reach the next rank and become a Master!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अगली रैंक हासिल करें और एक मास्टर बनें!"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:gamification.karma.rank,description_motivational:gamification.rank_doctor
 msgid "Reach the next rank and become a powerful user!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अगली रैंक पाएं और पॉवरफ़ुल उपयोगकर्ता बनें!"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:gamification.karma.rank,description_motivational:gamification.rank_bachelor
 msgid "Reach the next rank and gain a very magic wand!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अगली रैंक हासिल करें और एक बहुत जादुई छड़ी पाएं!"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:gamification.karma.rank,description_motivational:gamification.rank_master
 msgid "Reach the next rank and gain a very nice hat!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अगली रैंक हासिल करें और एक बहुत अच्छी टोपी पाएं!"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:gamification.karma.rank,description_motivational:gamification.rank_student
 msgid "Reach the next rank and gain a very nice mug!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अगली रैंक हासिल करें और एक बहुत अच्छा मग पाएं!"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:gamification.karma.rank,description_motivational:gamification.rank_doctor
 msgid "Reach the next rank and gain a very nice unicorn!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अगली रैंक हासिल करें और एक बहुत अच्छा यूनिकॉर्न पाएं!"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:gamification.karma.rank,description_motivational:gamification.rank_bachelor
 msgid "Reach the next rank to improve your status!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अपनी स्थिति को बेहतर बनाने के लिए अगली रैंक हासिल करें!"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:gamification.karma.rank,description_motivational:gamification.rank_student
 msgid "Reach the next rank to show the rest of the world you exist."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "दुनिया को यह दिखाने के लिए अगली रैंक हासिल करें कि आप मौजूद हैं।"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields.selection,name:gamification.selection__gamification_goal__state__reached
 msgid "Reached"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पहुंच गया"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.goal_form_view
 msgid "Reached when current value is"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "जब वर्तमान मूल्य इतना हो जाए तो हासिल किया गया"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields.selection,name:gamification.selection__gamification_goal_definition__computation_mode__manually
 msgid "Recorded manually"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मैन्युअल तौर पर रिकॉर्ड किया गया"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.goal_form_view
@@ -14496,52 +15827,92 @@ msgstr "संदर्भ"
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.challenge_form_view
 msgid "Refresh Challenge"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "चैलेंज रीफ्रेश करें"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.actions.act_window,name:gamification.goals_from_challenge_act
 msgid "Related Goals"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "संबंधित लक्ष्य"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_badge__remaining_sending
 msgid "Remaining Sending Allowed"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "भेजने की बची हुई संख्या"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal__remind_update_delay
 msgid "Remind delay"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "वह समय अवधि जिसके बाद रिमाइंडर भेजा जाएगा"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.challenge_form_view
 msgid "Reminders for Manual Goals"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मैन्युअल लक्ष्यों के लिए रिमाइंडर"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_challenge__report_message_frequency
 msgid "Report Frequency"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रिपोर्ट की फ़्रीक्वेंसी"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_challenge__report_template_id
 msgid "Report Template"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रिपोर्ट टेंप्लेट"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_badge__rule_auth_badge_ids
 msgid "Required Badges"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ज़रूरी बैज"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_karma_rank__karma_min
 msgid "Required Karma"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ज़रूरी कर्मा"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.goal_form_view
 msgid "Reset Completion"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पूरा होने का रिकॉर्ड रीसेट करें"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_challenge__manager_id
@@ -14552,12 +15923,20 @@ msgstr "जिम्मेदार"
 #. odoo-python
 #: code:addons/gamification/models/gamification_challenge.py:0
 msgid "Retrieving progress for personal challenge without user information"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "उपयोगकर्ता की जानकारी के बिना व्यक्तिगत चुनौती की प्रगति पाना"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.challenge_form_view
 msgid "Reward"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इनाम"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #. odoo-python
@@ -14566,31 +15945,56 @@ msgid ""
 "Reward (badge %(badge_name)s) for every succeeding user was sent to "
 "%(users)s."
 msgstr ""
+<<<<<<< HEAD
+=======
+"हर सफल उपयोगकर्ता को दिया जाने वाला इनाम (बैज %(badge_name)s) %(users)s को भेजा "
+"गया।"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_challenge__reward_failure
 msgid "Reward Bests if not Succeeded?"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सफल न होने पर भी, सबसे बेहतर को इनाम दें?"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_challenge__reward_realtime
 msgid "Reward as soon as every goal is reached"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "जैसे ही हर लक्ष्य हासिल हो जाए, इनाम दें"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_badge__challenge_ids
 msgid "Reward of Challenges"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "चैलेंज का इनाम"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_badge__goal_definition_ids
 msgid "Rewarded by"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इन्होंने इनाम दिया"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.badge_form_view
 msgid "Rewards for challenges"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "चैलेंज के लिए इनाम"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.goal_search_view
@@ -14600,42 +16004,74 @@ msgstr "फैलना"
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.challenge_search_view
 msgid "Running Challenges"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "चल रहे चैलेंज"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.goal_form_view
 msgid "Schedule"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "शेड्यूल बनाने की सुविधा"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.gamification_badge_view_search
 msgid "Search Badge"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बैज खोजें"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.challenge_search_view
 msgid "Search Challenges"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "चैलेंज खोजें"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.goal_definition_search_view
 msgid "Search Goal Definitions"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "लक्ष्य की परिभाषाएं खोजें"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.goal_search_view
 msgid "Search Goals"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "लक्ष्यों को खोजें"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.gamification_karma_ranks_view_search
 msgid "Search Ranks"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रैंक खोजें"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.gamification_karma_tracking_view_search
 msgid "Search Trackings"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ट्रैकिंग खोजें"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.badge_form_view
@@ -14716,6 +16152,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"सुरक्षा नियम बताते हैं कि कौन बैज दे सकता है. एडमिन को इन नियमों का पालन "
+"नहीं करना पड़ता."
+>>>>>>> upstream/18.0
 =======
 "सुरक्षा नियम बताते हैं कि कौन बैज दे सकता है. एडमिन को इन नियमों का पालन "
 "नहीं करना पड़ता."
@@ -15012,37 +16453,65 @@ msgstr ""
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.challenge_form_view
 msgid "Send Report"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रिपोर्ट भेजें"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:mail.template,description:gamification.simple_report_template
 msgid "Send a challenge report to all participants"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सभी प्रतिभागियों को चैलेंज रिपोर्ट भेजें"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_challenge__report_message_group_id
 msgid "Send a copy to"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एक कॉपी भेजें"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_badge_user__sender_id
 msgid "Sender"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "भेजने वाला"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:mail.template,description:gamification.email_template_goal_reminder
 msgid "Sent automatically to participant who haven't updated their goal"
 msgstr ""
+<<<<<<< HEAD
+=======
+"उन प्रतिभागियों को अपने-आप भेजा जाता है जिन्होंने अपना लक्ष्य अपडेट नहीं किया है"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:mail.template,description:gamification.email_template_badge_received
 msgid "Sent automatically to the user who received a badge"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "उस उपयोगकर्ता को अपने-आप भेजा जाता है जिसे बैज मिला है"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:mail.template,description:gamification.mail_template_data_new_rank_reached
 msgid "Sent automatically when user reaches a new rank"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "उस उपयोगकर्ता को अपने-आप भेजा जाता है जो नई रैंक पर पहुंच जाता है"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_challenge_line__sequence
@@ -15052,53 +16521,93 @@ msgstr "अनुक्रम"
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.view_goal_wizard_update_current
 msgid "Set the current value you have reached for this goal"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इस लक्ष्य के लिए हासिल की गई मौजूदा वैल्यू सेट करें"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:gamification.goal.definition,name:gamification.definition_base_company_data
 msgid "Set your Company Data"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अपनी कंपनी के लिए डेटा सेट करें"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:gamification.goal.definition,name:gamification.definition_base_company_logo
 msgid "Set your Company Logo"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अपनी कंपनी का लोगो सेट करें"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:gamification.goal.definition,name:gamification.definition_base_timezone
 msgid "Set your Timezone"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अपना टाइमज़ोन सेट करें"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields.selection,name:gamification.selection__gamification_challenge__challenge_category__other
 msgid "Settings / Gamification Tools"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सेटिंग / गेमिफ़िकेशन टूल"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:gamification.challenge,name:gamification.challenge_base_configure
 msgid "Setup your Company"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अपनी कंपनी सेटअप करें"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields.selection,name:gamification.selection__gamification_badge__level__silver
 msgid "Silver"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सिल्वर"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_res_users__silver_badge
 msgid "Silver badges count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सिल्वर बैज की संख्या"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_karma_tracking__origin_ref
 msgid "Source"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सोर्स"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_karma_tracking__origin_ref_model_name
 #: model_terms:ir.ui.view,arch_db:gamification.gamification_karma_tracking_view_search
 msgid "Source Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सोर्स टाइप"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #. odoo-python
@@ -15107,11 +16616,19 @@ msgid ""
 "Special rewards were sent to the top competing users. The ranking for this "
 "challenge is:"
 msgstr ""
+<<<<<<< HEAD
+=======
+"सबसे बेहतर मुकाबला करने वाले उपयोगकर्ताओं को खास इनाम भेजे गए. इस चैलेंज की रैंकिंग है:"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.challenge_form_view
 msgid "Start Challenge"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "चैलेंज शुरू करें"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_challenge__start_date
@@ -15122,7 +16639,11 @@ msgstr "प्रारंभ दिनांक"
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.goal_form_view
 msgid "Start goal"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "लक्ष्य शुरू करें"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_challenge__state
@@ -15135,74 +16656,126 @@ msgstr "स्थिति"
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.badge_form_view
 msgid "Statistics"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आंकड़ें"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:gamification.karma.rank,name:gamification.rank_student
 msgid "Student"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "छात्र"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.challenge_form_view
 msgid "Subscriptions"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सब्सक्रिप्शन"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_challenge_line__definition_full_suffix
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal__definition_suffix
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal_definition__suffix
 msgid "Suffix"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सफ़िक्स"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_challenge__invited_user_ids
 msgid "Suggest to users"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "उपयोगकर्ताओं के लिए सुझाव"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.challenge_form_view
 #: model_terms:ir.ui.view,arch_db:gamification.challenge_line_list_view
 msgid "Target"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "टारगेट"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_challenge_line__target_goal
 msgid "Target Value to Reach"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पहुंचने के लिए टारगेट वैल्यू"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.goal_kanban_view
 msgid "Target: less than"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "टारगेट: इससे कम"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #. odoo-python
 #: code:addons/gamification/tests/test_karma_tracking.py:0
 msgid "Test Reason"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "टेस्ट की वजह"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,help:gamification.field_gamification_goal_definition__action_id
 msgid "The action that will be called to update the goal value."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "वह ऐक्शन जो लक्ष्य की वैल्यू अपडेट करने के लिए कॉल होगी।"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #. odoo-python
 #: code:addons/gamification/models/gamification_challenge.py:0
 msgid "The challenge %s is finished."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "चैलेंज %s खत्म हो चुका है।"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,help:gamification.field_gamification_challenge_line__definition_full_suffix
 #: model:ir.model.fields,help:gamification.field_gamification_goal__definition_suffix
 #: model:ir.model.fields,help:gamification.field_gamification_goal_definition__full_suffix
 msgid "The currency and suffix field"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "करेंसी और सफ़िक्स फ़ील्ड"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,help:gamification.field_gamification_goal_definition__field_date_id
 msgid "The date to use for the time period evaluated"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "समय-सीमा के मूल्यांकन के लिए उपयोग की जाने वाली तारीख"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,help:gamification.field_gamification_challenge__end_date
@@ -15210,6 +16783,11 @@ msgid ""
 "The day a new challenge will be automatically closed. If no periodicity is "
 "set, will use this date as the goal end date."
 msgstr ""
+<<<<<<< HEAD
+=======
+"वह दिन जब एक नई चुनौती अपने-आप बंद हो जाएगी. अगर कोई समयावधि सेट नहीं है, तो इस "
+"तारीख का उपयोग लक्ष्य की खत्म होने की तारीख के रूप में किया जाएगा।"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,help:gamification.field_gamification_challenge__start_date
@@ -15217,6 +16795,11 @@ msgid ""
 "The day a new challenge will be automatically started. If no periodicity is "
 "set, will use this date as the goal start date."
 msgstr ""
+<<<<<<< HEAD
+=======
+"वह दिन जब नई चुनौती अपने-आप शुरू होगी. अगर कोई अवधि सेट नहीं है, तो इस तारीख को लक्ष्"
+"य की शुरुआत की तारीख माना जाएगा।"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #. odoo-python
@@ -15226,6 +16809,12 @@ msgid ""
 "\n"
 "%(error_message)s"
 msgstr ""
+<<<<<<< HEAD
+=======
+"परिभाषा %(definition)s के लिए डोमेन गलत लग रहा है, कृपया इसे जांचें.\n"
+"\n"
+"%(error_message)s"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,help:gamification.field_gamification_goal_definition__res_id_field
@@ -15233,37 +16822,66 @@ msgid ""
 "The field name on the user profile (res.users) containing the value for "
 "res_id for action."
 msgstr ""
+<<<<<<< HEAD
+=======
+"उपयोगकर्ता प्रोफ़ाइल (res.users) पर वह फ़ील्ड नाम, जिसमें कार्रवाई (एक्शन) के लिए "
+"res_id का मान (वैल्यू) है।"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields.selection,name:gamification.selection__gamification_goal_definition__condition__higher
 msgid "The higher the better"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "जितना ज़्यादा, उतना बेहतर"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,help:gamification.field_gamification_badge__owner_ids
 msgid "The list of instances of this badge granted to users"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "उपयोगकर्ताओं को दिए गए इस बैज के उदाहरणों की सूची"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,help:gamification.field_gamification_goal_definition__model_inherited_ids
 msgid "The list of models that extends the current model."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "उन मॉडल की सूची जो मौजूदा मॉडल का विस्तार करते हैं।"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,help:gamification.field_gamification_badge__unique_owner_ids
 msgid "The list of unique users having received this badge."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "यह बैज पाने वाले खास उपयोगकर्ताओं की सूची।"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields.selection,name:gamification.selection__gamification_goal_definition__condition__lower
 msgid "The lower the better"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "जितना कम, उतना बेहतर"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,help:gamification.field_gamification_badge__rule_max_number
 msgid ""
 "The maximum number of time this badge can be sent per month per person."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "यह बैज प्रति माह प्रति व्यक्ति अधिकतम कितनी बार भेजा जा सकता है।"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #. odoo-python
@@ -15273,6 +16891,12 @@ msgid ""
 "\n"
 "%(error)s not found"
 msgstr ""
+<<<<<<< HEAD
+=======
+"परिभाषा %(name)s के लिए मॉडल कॉन्फ़िगरेशन गलत लग रहा है, कृपया इसे जांचें.\n"
+"\n"
+"%(error)s नहीं मिला"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #. odoo-python
@@ -15282,6 +16906,12 @@ msgid ""
 "\n"
 "%(field_name)s not stored"
 msgstr ""
+<<<<<<< HEAD
+=======
+"परिभाषा %(name)s के लिए मॉडल कॉन्फ़िगरेशन गलत लग रहा है, कृपया इसे जांचें\n"
+"\n"
+"%(field_name)s स्टोर नहीं किया गया है"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,help:gamification.field_gamification_goal__remind_update_delay
@@ -15289,54 +16919,95 @@ msgid ""
 "The number of days after which the user assigned to a manual goal will be "
 "reminded. Never reminded if no value is specified."
 msgstr ""
+<<<<<<< HEAD
+=======
+"दिनों की संख्या जिसके बाद मैन्युअल लक्ष्य को असाइन किए गए उपयोगकर्ता को याद दिलाया "
+"जाएगा. अगर कोई वैल्यू तय नहीं है, तो कभी याद नहीं दिलाया जाएगा।"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,help:gamification.field_gamification_badge__stat_my_this_month
 msgid ""
 "The number of time the current user has received this badge this month."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इस महीने वर्तमान उपयोगकर्ता को यह बैज कितनी बार मिला है।"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,help:gamification.field_gamification_badge__stat_my
 msgid "The number of time the current user has received this badge."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "वर्तमान उपयोगकर्ता को यह बैज कितनी बार मिला है।"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,help:gamification.field_gamification_badge__stat_my_monthly_sending
 msgid "The number of time the current user has sent this badge this month."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इस महीने वर्तमान उपयोगकर्ता ने यह बैज कितनी बार भेजा है।"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,help:gamification.field_gamification_badge__granted_users_count
 msgid "The number of time this badge has been received by unique users."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "खास उपयोगकर्ताओं द्वारा यह बैज कितनी बार मिला है।"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,help:gamification.field_gamification_badge__stat_this_month
 msgid "The number of time this badge has been received this month."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इस महीने यह बैज कितनी बार मिला है।"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,help:gamification.field_gamification_badge__granted_count
 msgid "The number of time this badge has been received."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "यह बैज कितनी बार मिला है।"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.constraint,message:gamification.constraint_gamification_karma_rank_karma_min_check
 msgid "The required karma has to be above 0."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ज़रूरी कर्मा 0 से ज़्यादा होना चाहिए।"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,help:gamification.field_gamification_challenge_line__definition_monetary
 #: model:ir.model.fields,help:gamification.field_gamification_goal_definition__monetary
 msgid "The target and current value are defined in the company currency."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "टारगेट और वर्तमान वैल्यू कंपनी की मुद्रा में तय किए जाते हैं।"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,help:gamification.field_gamification_challenge_line__definition_suffix
 #: model:ir.model.fields,help:gamification.field_gamification_goal_definition__suffix
 msgid "The unit of the target and current values"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "टारगेट और वर्तमान वैल्यू की इकाई"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,help:gamification.field_gamification_badge__goal_definition_ids
@@ -15344,6 +17015,10 @@ msgid ""
 "The users that have succeeded these goals will receive automatically the "
 "badge."
 msgstr ""
+<<<<<<< HEAD
+=======
+"जिन उपयोगकर्ताओं ने इन लक्ष्यों को हासिल किया है, उन्हें यह बैज अपने आप मिलेगा।"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,help:gamification.field_gamification_goal_definition__batch_user_expression
@@ -15352,6 +17027,11 @@ msgid ""
 "reference to 'user' which is a browse record of the current user, e.g. "
 "user.id, user.partner_id.id..."
 msgstr ""
+<<<<<<< HEAD
+=======
+"खास फ़ील्ड से तुलना करने के लिए वैल्यू. एक्सप्रेशन में 'user' की जानकारी (जैसे user.id) का "
+"इस्तेमाल किया जा सकता है. उदाहरण के लिए user.id, user.partner_id.id..।"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.actions.act_window,help:gamification.goals_from_challenge_act
@@ -15359,12 +17039,21 @@ msgid ""
 "There is no goal associated to this challenge matching your search.\n"
 "            Make sure that your challenge is active and assigned to at least one user."
 msgstr ""
+<<<<<<< HEAD
+=======
+"इस चैलेंज से जुड़ा कोई लक्ष्य आपकी खोज से नहीं मिला.\n"
+"             पक्का करें कि चुनौती चालू है और कम से कम एक उपयोगकर्ता को दी गई है।"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #. odoo-python
 #: code:addons/gamification/models/gamification_badge.py:0
 msgid "This badge can not be sent by users."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "यह बैज उपयोगकर्ता भेज नहीं सकते।"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.goal_kanban_view
@@ -15448,7 +17137,11 @@ msgid "To"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "से"
+>>>>>>> upstream/18.0
 =======
 msgstr "से"
 >>>>>>> upstream/18.0
@@ -15690,12 +17383,20 @@ msgstr "से"
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal__target_goal
 msgid "To Reach"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पहुंचने के लिए"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal__to_update
 msgid "To update"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अपडेट करने के लिए"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_badge__granted_count
@@ -15780,7 +17481,11 @@ msgid "Total"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कुल"
+>>>>>>> upstream/18.0
 =======
 msgstr "कुल"
 >>>>>>> upstream/18.0
@@ -16022,32 +17727,56 @@ msgstr "कुल"
 #. module: gamification
 #: model:ir.model,name:gamification.model_gamification_karma_tracking
 msgid "Track Karma Changes"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कर्मा बदलावों को ट्रैक करें"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.actions.act_window,help:gamification.gamification_karma_tracking_action
 msgid "Track the sources of the users karma and monitor"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "उपयोगकर्ताओं के कर्मा के सोर्स को ट्रैक करें और उन पर नज़र रखें"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.gamification_karma_tracking_view_form
 msgid "Tracking"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ट्रैकिंग"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_karma_tracking__tracking_date
 msgid "Tracking Date"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ट्रैकिंग की तारीख"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.gamification_karma_tracking_view_tree
 msgid "Trackings"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ट्रैकिंग"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_badge__unique_owner_ids
 msgid "Unique Owners"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "खास मालिक"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_challenge_line__definition_suffix
@@ -16131,7 +17860,11 @@ msgid "Unit"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "यूनिट"
+>>>>>>> upstream/18.0
 =======
 msgstr "यूनिट"
 >>>>>>> upstream/18.0
@@ -16445,7 +18178,11 @@ msgid "Update"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अपडेट"
+>>>>>>> upstream/18.0
 =======
 msgstr "अपडेट"
 >>>>>>> upstream/18.0
@@ -16667,7 +18404,11 @@ msgstr "अपडेट"
 #. odoo-python
 #: code:addons/gamification/models/gamification_goal.py:0
 msgid "Update %s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अपडेट %s"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #. odoo-python
@@ -16685,34 +18426,58 @@ msgstr "उपयोगकर्ता"
 #. odoo-python
 #: code:addons/gamification/models/res_users.py:0
 msgid "User Creation"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "नया उपयोगकर्ता बनाना"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_challenge__user_domain
 msgid "User domain"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "उपयोगकर्ता का डोमेन"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.actions.act_window,name:gamification.action_current_rank_users
 #: model:ir.model.fields,field_description:gamification.field_gamification_karma_rank__user_ids
 msgid "Users"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "उपयोगकर्ता"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields.selection,name:gamification.selection__gamification_challenge__period__weekly
 #: model:ir.model.fields.selection,name:gamification.selection__gamification_challenge__report_message_frequency__weekly
 msgid "Weekly"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "साप्ताहिक"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,help:gamification.field_gamification_badge__rule_auth
 msgid "Who can grant this badge"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "यह बैज कौन दे सकता है"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.view_badge_wizard_grant
 msgid "Who would you like to reward?"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आप किसे इनाम देना चाहेंगे?"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,help:gamification.field_gamification_challenge__reward_realtime
@@ -16720,11 +18485,20 @@ msgid ""
 "With this option enabled, a user can receive a badge only once. The top 3 "
 "badges are still rewarded only at the end of the challenge."
 msgstr ""
+<<<<<<< HEAD
+=======
+"यह विकल्प चालू होने पर, उपयोगकर्ता को बैज सिर्फ़ एक बार मिल सकता है. टॉप 3 बैज चैलेंज के "
+"आखिर में ही दिए जाते हैं।"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:gamification.badge,description:gamification.badge_idea
 msgid "With your brilliant ideas, you are an inspiration to others."
 msgstr ""
+<<<<<<< HEAD
+=======
+"आपके बहुत अच्छे और बेहतरीन विचारों की वजह से, आप दूसरे लोगों को प्रेरित करते हैं।"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields.selection,name:gamification.selection__gamification_challenge__period__yearly
@@ -16806,7 +18580,11 @@ msgid "Yearly"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सालान"
+>>>>>>> upstream/18.0
 =======
 msgstr "सालान"
 >>>>>>> upstream/18.0
@@ -17040,82 +18818,142 @@ msgstr "सालान"
 #. odoo-python
 #: code:addons/gamification/models/gamification_badge.py:0
 msgid "You are not in the user allowed list."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आप उपयोगकर्ता की अनुमति सूची में नहीं हैं।"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #. odoo-python
 #: code:addons/gamification/wizard/grant_badge.py:0
 msgid "You can not grant a badge to yourself."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आप खुद को बैज नहीं दे सकते।"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #. odoo-python
 #: code:addons/gamification/models/gamification_challenge.py:0
 msgid "You can not reset a challenge with unfinished goals."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आप अधूरे लक्ष्यों वाले चैलेंज को रीसेट नहीं कर सकते।"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.badge_form_view
 msgid "You can still grant"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आप अभी भी दे सकते हैं"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:gamification.badge,description:gamification.badge_good_job
 msgid "You did great at your job."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आपने अपना काम बहुत अच्छे से किया।"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #. odoo-python
 #: code:addons/gamification/models/gamification_badge.py:0
 msgid "You do not have the required badges."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आपके पास ज़रूरी बैज नहीं हैं।"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #. odoo-python
 #: code:addons/gamification/models/gamification_badge.py:0
 msgid "You have already sent this badge too many time this month."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आपने इस महीने यह बैज बहुत बार भेज दिया है।"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:gamification.badge,description:gamification.badge_hidden
 msgid "You have found the hidden badge"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आपने छिपा हुआ बैज ढूंढ़ लिया है"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:gamification.karma.rank,description:gamification.rank_doctor
 msgid "You have reached the last rank. Congratulations!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आपने आखिरी रैंक हासिल कर ली है। बधाई हो!"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:gamification.karma.rank,description:gamification.rank_newbie
 msgid "You just began the adventure! Welcome!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आपने अभी-अभी शुरू किया! स्वागत है!"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:gamification.karma.rank,description:gamification.rank_master
 msgid "You know what you are talking about. People learn from you."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आप जानते हैं कि आप किस बारे में बात कर रहे हैं. लोग आपसे सीखते हैं।"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:gamification.karma.rank,description:gamification.rank_bachelor
 msgid "You love learning things. Curiosity is a good way to progress."
 msgstr ""
+<<<<<<< HEAD
+=======
+"आपको चीज़ें सीखना पसंद है. किसी चीज़ को जानने की इच्छा रखना आपको आगे बढ़ाता है।"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:gamification.karma.rank,description:gamification.rank_student
 msgid "You're a young padawan now. May the force be with you!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आप अब एक युवा पाडावन हैं. फ़ोर्स आपके साथ हो!"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.badge_form_view
 msgid "badges this month"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इस महीने के बैज"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.challenge_form_view
 #: model_terms:ir.ui.view,arch_db:gamification.goal_form_view
 msgid "days"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "दिन"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.gamification_karma_rank_view_form
@@ -17123,61 +18961,110 @@ msgid ""
 "e.g. A Master Chief knows quite everything on the forum! You cannot beat "
 "him!"
 msgstr ""
+<<<<<<< HEAD
+=======
+"उदाहरण के लिए: एक मास्टर चीफ़ फ़ोरम के बारे में लगभग सब कुछ जानते हैं! आप उन्हें हरा नहीं "
+"सकते!"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.goal_definition_form_view
 msgid "e.g. Get started"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "जैसे, शुरूआत करें"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.gamification_karma_rank_view_form
 msgid "e.g. Master Chief"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "जैसे, मास्टर चीफ़"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.challenge_form_view
 msgid "e.g. Monthly Sales Objectives"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "उदाहरण के लिए: मासिक सेल्स के लक्ष्य"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.badge_form_view
 msgid "e.g. Problem Solver"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "उदाहरण के लिए: समस्या हल करने वाला"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.gamification_karma_rank_view_form
 msgid "e.g. Reach this rank to gain a free mug!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "उदाहरण के लिए: एक मुफ़्त मग पाने के लिए यह रैंक हासिल करें!"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.goal_definition_form_view
 msgid "e.g. Register to the platform"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "उदाहरण के लिए: प्लैटफ़ॉर्म पर रजिस्टर करें"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.goal_definition_form_view
 msgid "e.g. days"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "उदाहरण के लिए दिन"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.goal_definition_form_view
 msgid "e.g. user.partner_id.id"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "जैसे, user.partner_id.id"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.badge_kanban_view
 msgid "granted,"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "दिया गया,"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.goal_form_view
 msgid "refresh"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रीफ्रेश करें"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.goal_form_view
 msgid "than the target."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "टारगेट से ज़्यादा।"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.badge_user_kanban_view
@@ -17187,4 +19074,8 @@ msgstr ""
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.badge_kanban_view
 msgid "this month"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इस महीने"
+>>>>>>> upstream/18.0

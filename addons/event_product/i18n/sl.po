@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* event_product
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
@@ -393,10 +394,18 @@
 # Aleš Pipan, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+#
+# Translators:
+# Wil Odoo, 2024
+# Aleš Pipan, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
 "PO-Revision-Date: 2024-09-29 00:00+0000\n"
 <<<<<<< HEAD
@@ -794,6 +803,18 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: sl\n"
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);\n"
+=======
+"POT-Creation-Date: 2025-11-14 18:38+0000\n"
+"PO-Revision-Date: 2024-09-29 00:00+0000\n"
+"Last-Translator: Aleš Pipan, 2025\n"
+"Language-Team: Slovenian (https://app.transifex.com/odoo/teams/41243/sl/)\n"
+"Language: sl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
+"n%100==4 ? 2 : 3);\n"
+>>>>>>> upstream/18.0
 
 #. module: event_product
 #: model:ir.model.fields,help:event_product.field_event_event_ticket__description
@@ -931,7 +952,11 @@ msgid "Event Registration - Standard"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Registracija dogodka - standardna"
+>>>>>>> upstream/18.0
 =======
 msgstr "Registracija dogodka - standardna"
 >>>>>>> upstream/18.0
@@ -1324,7 +1349,11 @@ msgid "Event Registration - VIP"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Registracija na dogodek - VIP"
+>>>>>>> upstream/18.0
 =======
 msgstr "Registracija na dogodek - VIP"
 >>>>>>> upstream/18.0
@@ -1717,7 +1746,11 @@ msgid "Event Template Ticket"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Predloga vstopnice za dogodek"
+>>>>>>> upstream/18.0
 =======
 msgstr "Predloga vstopnice za dogodek"
 >>>>>>> upstream/18.0
@@ -2137,7 +2170,11 @@ msgid "Price include"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cena vključuje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cena vključuje"
 >>>>>>> upstream/18.0
@@ -2443,6 +2480,17 @@ msgid "Product Variant"
 msgstr "Različica izdelka"
 
 #. module: event_product
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/event_product/models/product_product.py:0
+msgid ""
+"Products linked to an event ticket must have \"%(tracking)s\" set to \"%"
+"(event)s\"."
+msgstr ""
+
+#. module: event_product
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:event_product.event_event_ticket_view_tree_from_event
 msgid "Sales End"
 msgstr "Konec prodaje"
@@ -2547,7 +2595,11 @@ msgid "Sales Start"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Začetek prodaje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Začetek prodaje"
 >>>>>>> upstream/18.0

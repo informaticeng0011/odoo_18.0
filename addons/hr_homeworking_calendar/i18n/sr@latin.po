@@ -1,12 +1,19 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* hr_homeworking_calendar
 #
+=======
+# * hr_homeworking_calendar
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2024-09-26 08:55+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -14,6 +21,19 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
+=======
+"PO-Revision-Date: 2025-11-21 06:41+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Serbian (Latin script) <https://translate.odoo.com/projects/"
+"odoo-18/hr_homeworking_calendar/sr_Latn/>\n"
+"Language: sr@latin\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: hr_homeworking_calendar
 #. odoo-javascript
@@ -30,7 +50,11 @@ msgstr ""
 #. module: hr_homeworking_calendar
 #: model:ir.model,name:hr_homeworking_calendar.model_hr_employee_base
 msgid "Basic Employee"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Osnovni zaposleni"
+>>>>>>> upstream/18.0
 
 #. module: hr_homeworking_calendar
 #. odoo-javascript
@@ -41,27 +65,47 @@ msgstr ""
 #. module: hr_homeworking_calendar
 #: model:ir.model,name:hr_homeworking_calendar.model_res_partner
 msgid "Contact"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kontakt"
+>>>>>>> upstream/18.0
 
 #. module: hr_homeworking_calendar
 #: model:ir.model.fields,field_description:hr_homeworking_calendar.field_homework_location_wizard__work_location_type
 msgid "Cover Image"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Naslovna slika"
+>>>>>>> upstream/18.0
 
 #. module: hr_homeworking_calendar
 #: model:ir.model.fields,field_description:hr_homeworking_calendar.field_homework_location_wizard__create_uid
 msgid "Created by"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kreirao"
+>>>>>>> upstream/18.0
 
 #. module: hr_homeworking_calendar
 #: model:ir.model.fields,field_description:hr_homeworking_calendar.field_homework_location_wizard__create_date
 msgid "Created on"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kreirano"
+>>>>>>> upstream/18.0
 
 #. module: hr_homeworking_calendar
 #: model:ir.model.fields,field_description:hr_homeworking_calendar.field_homework_location_wizard__date
 msgid "Date"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Datum"
+>>>>>>> upstream/18.0
 
 #. module: hr_homeworking_calendar
 #: model:ir.model.fields,field_description:hr_homeworking_calendar.field_homework_location_wizard__day_week_string
@@ -71,38 +115,66 @@ msgstr ""
 #. module: hr_homeworking_calendar
 #: model:ir.model.fields,field_description:hr_homeworking_calendar.field_homework_location_wizard__display_name
 msgid "Display Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Naziv za prikaz"
+>>>>>>> upstream/18.0
 
 #. module: hr_homeworking_calendar
 #: model:ir.model.fields,field_description:hr_homeworking_calendar.field_homework_location_wizard__employee_id
 msgid "Employee"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zaposleni"
+>>>>>>> upstream/18.0
 
 #. module: hr_homeworking_calendar
 #: model:ir.model.fields,field_description:hr_homeworking_calendar.field_homework_location_wizard__employee_name
 msgid "Employee Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ime zaposlenog"
+>>>>>>> upstream/18.0
 
 #. module: hr_homeworking_calendar
 #: model:ir.model.fields,field_description:hr_homeworking_calendar.field_homework_location_wizard__id
 msgid "ID"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ID"
+>>>>>>> upstream/18.0
 
 #. module: hr_homeworking_calendar
 #: model:ir.model.fields,field_description:hr_homeworking_calendar.field_homework_location_wizard__write_uid
 msgid "Last Updated by"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poslednje izmenio/la"
+>>>>>>> upstream/18.0
 
 #. module: hr_homeworking_calendar
 #: model:ir.model.fields,field_description:hr_homeworking_calendar.field_homework_location_wizard__write_date
 msgid "Last Updated on"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poslednje ažuriranje dana"
+>>>>>>> upstream/18.0
 
 #. module: hr_homeworking_calendar
 #: model:ir.model.fields,field_description:hr_homeworking_calendar.field_homework_location_wizard__work_location_id
 #: model_terms:ir.ui.view,arch_db:hr_homeworking_calendar.homework_location_wizard_view_form
 msgid "Location"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Lokacija"
+>>>>>>> upstream/18.0
 
 #. module: hr_homeworking_calendar
 #: model:ir.model.fields,field_description:hr_homeworking_calendar.field_homework_location_wizard__work_location_name
@@ -112,7 +184,11 @@ msgstr ""
 #. module: hr_homeworking_calendar
 #: model_terms:ir.ui.view,arch_db:hr_homeworking_calendar.homework_location_wizard_view_form
 msgid "Repeat every"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ponovi svakih"
+>>>>>>> upstream/18.0
 
 #. module: hr_homeworking_calendar
 #: model:ir.model,name:hr_homeworking_calendar.model_homework_location_wizard
@@ -130,9 +206,17 @@ msgstr ""
 #. module: hr_homeworking_calendar
 #: model:ir.model.fields,field_description:hr_homeworking_calendar.field_homework_location_wizard__user_can_edit
 msgid "User Can Edit"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Korisnik može uređivati"
+>>>>>>> upstream/18.0
 
 #. module: hr_homeworking_calendar
 #: model:ir.model.fields,field_description:hr_homeworking_calendar.field_homework_location_wizard__weekly
 msgid "Weekly"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sedmično"
+>>>>>>> upstream/18.0

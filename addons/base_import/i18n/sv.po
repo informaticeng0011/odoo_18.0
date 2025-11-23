@@ -1,7 +1,12 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* base_import
 # 
+=======
+# * base_import
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Haojun Zou <apollo_zhj@msn.com>, 2024
 # Robin Calvin, 2024
@@ -15,11 +20,16 @@
 # Kim Asplund <kim.asplund@gmail.com>, 2025
 # Jakob Krabbe <jakob.krabbe@vertel.se>, 2025
 # Chrille Hedberg <hedberg.chrille@gmail.com>, 2025
+<<<<<<< HEAD
 # 
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-10-25 07:48+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Chrille Hedberg <hedberg.chrille@gmail.com>, 2025\n"
@@ -29,12 +39,29 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: sv\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+=======
+"POT-Creation-Date: 2025-11-21 18:37+0000\n"
+"PO-Revision-Date: 2025-11-21 02:26+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Swedish <https://translate.odoo.com/projects/odoo-18/"
+"base_import/sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: base_import
 #. odoo-javascript
 #: code:addons/base_import/static/src/import_data_sidepanel/import_data_sidepanel.js:0
 msgid "%(number)s file(s) selected"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(number)s fil(er) vald(a)"
+>>>>>>> upstream/18.0
 
 #. module: base_import
 #. odoo-python
@@ -82,6 +109,11 @@ msgstr "Avancerad"
 msgid ""
 "After each batch import, this delay is applied to avoid unthrottled calls"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Efter varje batchimport tillämpas denna fördröjning för att undvika "
+"oavbrutna samtal"
+>>>>>>> upstream/18.0
 
 #. module: base_import
 #. odoo-javascript
@@ -94,8 +126,13 @@ msgstr "Tillåt matchning med delfält"
 #: code:addons/base_import/static/src/import_model.js:0
 msgid ""
 "An unknown issue occurred during import (possibly lost connection, data "
+<<<<<<< HEAD
 "limit exceeded or memory limits exceeded). Please retry in case the issue is"
 " transient. If the issue still occurs, try to split the file rather than "
+=======
+"limit exceeded or memory limits exceeded). Please retry in case the issue is "
+"transient. If the issue still occurs, try to split the file rather than "
+>>>>>>> upstream/18.0
 "import it at once."
 msgstr ""
 "Ett okänt fel uppstod vid importen (möjligen att anslutningen tappades, "
@@ -139,7 +176,11 @@ msgstr "Batchgräns"
 #. odoo-javascript
 #: code:addons/base_import/static/src/import_action/import_action.xml:0
 msgid "But, you can also use .csv files"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Men du kan också använda .csv-filer"
+>>>>>>> upstream/18.0
 
 #. module: base_import
 #. odoo-javascript
@@ -152,8 +193,13 @@ msgstr "Avbryt"
 #: code:addons/base_import/static/src/import_model.js:0
 msgid "Click 'Resume' to proceed with the import, resuming at line %s."
 msgstr ""
+<<<<<<< HEAD
 "Klicka på \"Fortsätt\" för att fortsätta med importen, som återupptas på rad"
 " %s."
+=======
+"Klicka på \"Fortsätt\" för att fortsätta med importen, som återupptas på rad "
+"%s."
+>>>>>>> upstream/18.0
 
 #. module: base_import
 #. odoo-python
@@ -165,11 +211,19 @@ msgstr "Kolumn %(column)s innehåller inkorrekt värde (värde: %(value)s)"
 #. odoo-python
 #: code:addons/base_import/models/base_import.py:0
 msgid ""
+<<<<<<< HEAD
 "Column %(column)s contains incorrect values. Error in line %(line)d: "
 "%(error)s"
 msgstr ""
 "Kolumn %(column)s innehåller inkorrekta värden. Fel på rad %(line)d: "
 "%(error)s"
+=======
+"Column %(column)s contains incorrect values. Error in line %(line)d: %"
+"(error)s"
+msgstr ""
+"Kolumn %(column)s innehåller inkorrekta värden. Fel på rad %(line)d: %"
+"(error)s"
+>>>>>>> upstream/18.0
 
 #. module: base_import
 #: model:ir.model.fields,field_description:base_import.field_base_import_mapping__column_name
@@ -192,8 +246,12 @@ msgstr "Kommentarer"
 #. odoo-python
 #: code:addons/base_import/models/base_import.py:0
 msgid ""
+<<<<<<< HEAD
 "Could not retrieve URL: %(url)s [%(field_name)s: L%(line_number)d]: "
 "%(error)s"
+=======
+"Could not retrieve URL: %(url)s [%(field_name)s: L%(line_number)d]: %(error)s"
+>>>>>>> upstream/18.0
 msgstr ""
 "Kunde inte hämta URL %(url)s [%(field_name)s: L%(line_number)d]: %(error)s"
 
@@ -219,7 +277,11 @@ msgstr "Skapad den"
 #. odoo-javascript
 #: code:addons/base_import/static/src/import_data_sidepanel/import_data_sidepanel.xml:0
 msgid "Data to import"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Data att importera"
+>>>>>>> upstream/18.0
 
 #. module: base_import
 #. odoo-python
@@ -249,13 +311,21 @@ msgstr "Avgränsare för decimaler:"
 #. odoo-javascript
 #: code:addons/base_import/static/src/import_model.js:0
 msgid "Defines how many megabytes can be imported in each batch import"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Definierar hur många megabyte som kan importeras i varje batchimport"
+>>>>>>> upstream/18.0
 
 #. module: base_import
 #. odoo-javascript
 #: code:addons/base_import/static/src/import_data_sidepanel/import_data_sidepanel.xml:0
 msgid "Delay after each batch"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fördröjning efter varje batch"
+>>>>>>> upstream/18.0
 
 #. module: base_import
 #: model:ir.model.fields,field_description:base_import.field_base_import_import__display_name
@@ -280,7 +350,11 @@ msgstr "Nedladdningar"
 #. odoo-javascript
 #: code:addons/base_import/static/src/import_action/import_action.xml:0
 msgid "Drop or upload a file to import"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Släpp eller ladda upp en fil att importera"
+>>>>>>> upstream/18.0
 
 #. module: base_import
 #. odoo-javascript
@@ -312,12 +386,21 @@ msgstr "Fel vid import av poster: Textavgränsare ska vara ett enda tecken."
 #: code:addons/base_import/models/base_import.py:0
 msgid ""
 "Error while importing records: all rows should be of the same size, but the "
+<<<<<<< HEAD
 "title row has %(title_row_entries)d entries while the first row has "
 "%(first_row_entries)d. You may need to change the separator character."
 msgstr ""
 "Fel vid import av poster: alla rader ska vara av samma storlek, men "
 "titelraden har %(title_row_entries)d poster medan den första raden har "
 "%(first_row_entries)d. Du kan behöva ändra tecknet för separator."
+=======
+"title row has %(title_row_entries)d entries while the first row has %"
+"(first_row_entries)d. You may need to change the separator character."
+msgstr ""
+"Fel vid import av poster: alla rader ska vara av samma storlek, men "
+"titelraden har %(title_row_entries)d poster medan den första raden har %"
+"(first_row_entries)d. Du kan behöva ändra tecknet för separator."
+>>>>>>> upstream/18.0
 
 #. module: base_import
 #. odoo-javascript
@@ -384,7 +467,11 @@ msgstr "Fil att kontrollera och/eller importera, rå binär (inte base64)"
 #. odoo-javascript
 #: code:addons/base_import/static/src/import_data_sidepanel/import_data_sidepanel.xml:0
 msgid "Files to import"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Filer att importera"
+>>>>>>> upstream/18.0
 
 #. module: base_import
 #. odoo-javascript
@@ -408,11 +495,19 @@ msgstr "Formatering"
 #. odoo-python
 #: code:addons/base_import/models/base_import.py:0
 msgid ""
+<<<<<<< HEAD
 "Found invalid image data, images should be imported as either URLs or "
 "base64-encoded data."
 msgstr ""
 "Hittade ogiltig bild-data. Bilder borde importeras som URL eller "
 "base64-kodad data."
+=======
+"Found invalid image data, images should be imported as either URLs or base64-"
+"encoded data."
+msgstr ""
+"Hittade ogiltig bild-data. Bilder borde importeras som URL eller base64-"
+"kodad data."
+>>>>>>> upstream/18.0
 
 #. module: base_import
 #. odoo-javascript
@@ -448,7 +543,12 @@ msgid ""
 "                    simpler especially when the file has many columns."
 msgstr ""
 "Om filen innehåller\n"
+<<<<<<< HEAD
 "                    kolumnnamn kan Odoo försöka med automatisk detektering av\n"
+=======
+"                    kolumnnamn kan Odoo försöka med automatisk detektering "
+"av\n"
+>>>>>>> upstream/18.0
 "                    fält som motsvarar kolumnen. Detta gör importen enklare\n"
 "                    enklare, särskilt när filen har många kolumner."
 
@@ -521,6 +621,11 @@ msgid ""
 "Invalid cell format at row %(row)s, column %(col)s: %(cell_value)s, with "
 "format: %(cell_format)s, as (%(format_type)s) formats are not supported."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Ogiltigt cellformat på rad %(row)s, kolumn %(col)s: %(cell_value)s, med "
+"format: %(cell_format)s, eftersom (%(format_type)s) format inte stöds."
+>>>>>>> upstream/18.0
 
 #. module: base_import
 #. odoo-python
@@ -544,7 +649,11 @@ msgstr "Senast uppdaterad den"
 #. odoo-javascript
 #: code:addons/base_import/static/src/import_action/import_action.xml:0
 msgid "Load Data File"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ladda datafil"
+>>>>>>> upstream/18.0
 
 #. module: base_import
 #. odoo-javascript
@@ -562,13 +671,21 @@ msgstr "Laddar..."
 #. odoo-javascript
 #: code:addons/base_import/static/src/import_data_sidepanel/import_data_sidepanel.xml:0
 msgid "Max size per batch"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Max storlek per batch"
+>>>>>>> upstream/18.0
 
 #. module: base_import
 #. odoo-javascript
 #: code:addons/base_import/static/src/import_data_sidepanel/import_data_sidepanel.xml:0
 msgid "Mb"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mb"
+>>>>>>> upstream/18.0
 
 #. module: base_import
 #: model:ir.model.fields,field_description:base_import.field_base_import_import__res_model
@@ -597,7 +714,11 @@ msgstr "Ingen separator"
 #. odoo-javascript
 #: code:addons/base_import/static/src/import_data_sidepanel/import_data_sidepanel.js:0
 msgid "No file selected"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ingen fil vald"
+>>>>>>> upstream/18.0
 
 #. module: base_import
 #. odoo-javascript
@@ -615,13 +736,21 @@ msgstr "Odoo-fältet"
 #. odoo-javascript
 #: code:addons/base_import/static/src/import_action/import_action.js:0
 msgid "Please upload a single file."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vänligen ladda upp en enda fil."
+>>>>>>> upstream/18.0
 
 #. module: base_import
 #. odoo-javascript
 #: code:addons/base_import/static/src/import_action/import_action.js:0
 msgid "Please upload an Excel (.xls or .xlsx) or .csv file to import."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ladda upp en Excel (.xls eller .xlsx) eller .csv-fil för import."
+>>>>>>> upstream/18.0
 
 #. module: base_import
 #. odoo-javascript
@@ -797,6 +926,25 @@ msgid "The file will be imported by batches"
 msgstr "Filen kommer att importeras i omgångar"
 
 #. module: base_import
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/base_import/models/base_import.py:0
+msgid ""
+"There was an issue decoding the file using encoding “%s”.\n"
+"This encoding was automatically detected."
+msgstr ""
+
+#. module: base_import
+#. odoo-python
+#: code:addons/base_import/models/base_import.py:0
+msgid ""
+"There was an issue decoding the file using encoding “%s”.\n"
+"This encoding was manually selected."
+msgstr ""
+
+#. module: base_import
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/base_import/static/src/import_model.js:0
 msgid "This column will be concatenated in field"
@@ -829,8 +977,15 @@ msgstr "Spåra historik under import"
 #. module: base_import
 #. odoo-python
 #: code:addons/base_import/models/base_import.py:0
+<<<<<<< HEAD
 msgid "Unable to load \"{extension}\" file: requires Python module \"{modname}\""
 msgstr "Kunde inte ladda \"{extension}\" fil: kräver Python-modulen \"{modname}\""
+=======
+msgid ""
+"Unable to load \"{extension}\" file: requires Python module \"{modname}\""
+msgstr ""
+"Kunde inte ladda \"{extension}\" fil: kräver Python-modulen \"{modname}\""
+>>>>>>> upstream/18.0
 
 #. module: base_import
 #. odoo-python
@@ -838,8 +993,12 @@ msgstr "Kunde inte ladda \"{extension}\" fil: kräver Python-modulen \"{modname}
 msgid ""
 "Unsupported file format \"{}\", import only supports CSV, ODS, XLS and XLSX"
 msgstr ""
+<<<<<<< HEAD
 "Inget stöd för filformatet \"{}\". Importen stöder bar CSV, ODS, XLS och "
 "XLSX"
+=======
+"Inget stöd för filformatet \"{}\". Importen stöder bar CSV, ODS, XLS och XLSX"
+>>>>>>> upstream/18.0
 
 #. module: base_import
 #. odoo-javascript
@@ -851,21 +1010,34 @@ msgstr "Namnlös"
 #. odoo-javascript
 #: code:addons/base_import/static/src/import_action/import_action.xml:0
 msgid "Upload Data File"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ladda upp datafil"
+>>>>>>> upstream/18.0
 
 #. module: base_import
 #. odoo-javascript
 #: code:addons/base_import/static/src/import_data_sidepanel/import_data_sidepanel.xml:0
 msgid "Upload your files"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ladda upp dina filer"
+>>>>>>> upstream/18.0
 
 #. module: base_import
 #. odoo-javascript
 #: code:addons/base_import/static/src/import_model.js:0
 msgid ""
 "Use HH for hours in a 24h system, use II in conjonction with 'p' for a 12h "
+<<<<<<< HEAD
 "system. You can use a custom format in addition to the suggestions provided."
 " Leave empty to let Odoo guess the format (recommended)"
+=======
+"system. You can use a custom format in addition to the suggestions provided. "
+"Leave empty to let Odoo guess the format (recommended)"
+>>>>>>> upstream/18.0
 msgstr ""
 "Använd HH för timmar i ett 24h-system, använd II i kombination med 'p' för "
 "ett 12h-system. Du kan använda ett anpassat format utöver de förslag som "
@@ -875,10 +1047,17 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/base_import/static/src/import_model.js:0
 msgid ""
+<<<<<<< HEAD
 "Use YYYY to represent the year, MM for the month and DD for the day. Include"
 " separators such as a dot, forward slash or dash. You can use a custom "
 "format in addition to the suggestions provided. Leave empty to let Odoo "
 "guess the format (recommended)"
+=======
+"Use YYYY to represent the year, MM for the month and DD for the day. Include "
+"separators such as a dot, forward slash or dash. You can use a custom format "
+"in addition to the suggestions provided. Leave empty to let Odoo guess the "
+"format (recommended)"
+>>>>>>> upstream/18.0
 msgstr ""
 "Använd YYYY för att ange året, MM för månaden och DD för dagen. Inkludera "
 "separatorer som punkt, snedstreck eller bindestreck. Du kan använda ett "

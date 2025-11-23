@@ -1,17 +1,27 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* pos_pine_labs
 # 
+=======
+# * pos_pine_labs
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Manuela Silva <mmsrs@sky.com>, 2025
 # Vasco Rodrigues, 2025
 # Wil Odoo, 2025
+<<<<<<< HEAD
 # 
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-19 20:36+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2025-05-09 09:41+0000\n"
 "Last-Translator: Wil Odoo, 2025\n"
 "Language-Team: Portuguese (https://app.transifex.com/odoo/teams/41243/pt/)\n"
@@ -20,31 +30,64 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: pt\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+=======
+"PO-Revision-Date: 2025-11-21 02:33+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Portuguese <https://translate.odoo.com/projects/odoo-18/"
+"pos_pine_labs/pt/>\n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % "
+"1000000 == 0) ? 1 : 2);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: pos_pine_labs
 #: model:ir.model.fields,help:pos_pine_labs.field_pos_payment_method__pine_labs_client
 msgid "A client id issued directly to the merchant by Pine Labs."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Um ID de cliente emitido diretamente para o comerciante pela Pine Labs."
+>>>>>>> upstream/18.0
 
 #. module: pos_pine_labs
 #: model:ir.model.fields,help:pos_pine_labs.field_pos_payment_method__pine_labs_merchant
 msgid "A merchant id issued directly to the merchant by Pine Labs."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Um ID de comerciante emitido pela Pine Labs diretamente para o comerciante."
+>>>>>>> upstream/18.0
 
 #. module: pos_pine_labs
 #: model:ir.model.fields,help:pos_pine_labs.field_pos_payment_method__pine_labs_security_token
 msgid "A security token issued directly to the merchant by Pine Labs."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Um token de segurança emitido pela Pine Labs diretamente para o comerciante."
+>>>>>>> upstream/18.0
 
 #. module: pos_pine_labs
 #: model:ir.model.fields,help:pos_pine_labs.field_pos_payment_method__pine_labs_store
 msgid "A store id issued directly to the merchant by Pine Labs."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Um ID de loja emitido pela Pine Labs diretamente para o comerciante."
+>>>>>>> upstream/18.0
 
 #. module: pos_pine_labs
 #: model:ir.model.fields,help:pos_pine_labs.field_pos_payment_method__pine_labs_allowed_payment_mode
 msgid "Accepted payment modes by Pine Labs for transactions."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Modos de pagamento aceitos pela Pine Labs para transações."
+>>>>>>> upstream/18.0
 
 #. module: pos_pine_labs
 #: model:ir.model.fields.selection,name:pos_pine_labs.selection__pos_payment_method__pine_labs_allowed_payment_mode__all
@@ -65,23 +108,39 @@ msgstr "Cartão"
 #. module: pos_pine_labs
 #: model:ir.model.fields,field_description:pos_pine_labs.field_pos_payment_method__pine_labs_allowed_payment_mode
 msgid "Pine Labs Allowed Payment Modes"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Modos de pagamento permitidos pela Pine Labs"
+>>>>>>> upstream/18.0
 
 #. module: pos_pine_labs
 #: model:ir.model.fields,field_description:pos_pine_labs.field_pos_payment_method__pine_labs_client
 msgid "Pine Labs Client ID"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pine Labs - ID do cliente"
+>>>>>>> upstream/18.0
 
 #. module: pos_pine_labs
 #. odoo-javascript
 #: code:addons/pos_pine_labs/static/src/app/utils/payment/payment_pine_labs.js:0
 msgid "Pine Labs Error"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pine Labs - Erro"
+>>>>>>> upstream/18.0
 
 #. module: pos_pine_labs
 #: model:ir.model.fields,field_description:pos_pine_labs.field_pos_payment_method__pine_labs_merchant
 msgid "Pine Labs Merchant ID"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pine Labs - ID do comerciante"
+>>>>>>> upstream/18.0
 
 #. module: pos_pine_labs
 #. odoo-python
@@ -89,44 +148,77 @@ msgstr ""
 msgid ""
 "Pine Labs POS transaction cancelled. Retry again for collecting payment."
 msgstr ""
+<<<<<<< HEAD
+=======
+"A transação do Pine Labs POS foi cancelada. Tente novamente para receber o "
+"pagamento."
+>>>>>>> upstream/18.0
 
 #. module: pos_pine_labs
 #: model:ir.model.fields,field_description:pos_pine_labs.field_pos_payment__pine_labs_plutus_transaction_ref
 msgid "Pine Labs PlutusTransactionReferenceID"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pine Labs - PlutusTransactionReferenceID"
+>>>>>>> upstream/18.0
 
 #. module: pos_pine_labs
 #: model:ir.model.fields,field_description:pos_pine_labs.field_pos_payment_method__pine_labs_security_token
 msgid "Pine Labs Security Token"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pine Labs - Token de segurança"
+>>>>>>> upstream/18.0
 
 #. module: pos_pine_labs
 #: model:ir.model.fields,field_description:pos_pine_labs.field_pos_payment_method__pine_labs_store
 msgid "Pine Labs Store ID"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pine Labs - ID da loja"
+>>>>>>> upstream/18.0
 
 #. module: pos_pine_labs
 #: model:ir.model.fields,field_description:pos_pine_labs.field_pos_payment_method__pine_labs_test_mode
 msgid "Pine Labs Test Mode"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pine Labs - Modo de teste"
+>>>>>>> upstream/18.0
 
 #. module: pos_pine_labs
 #. odoo-javascript
 #: code:addons/pos_pine_labs/static/src/app/utils/payment/payment_pine_labs.js:0
 msgid "Pine Labs get payment status request failed"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Falha na solicitação de status de pagamento no Pine Labs"
+>>>>>>> upstream/18.0
 
 #. module: pos_pine_labs
 #. odoo-javascript
 #: code:addons/pos_pine_labs/static/src/app/utils/payment/payment_pine_labs.js:0
 msgid "Pine Labs make payment request failed"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Falha na solicitação de pagamento do Pine Labs"
+>>>>>>> upstream/18.0
 
 #. module: pos_pine_labs
 #. odoo-javascript
 #: code:addons/pos_pine_labs/static/src/app/utils/payment/payment_pine_labs.js:0
 msgid "Pine Labs payment cancellation request failed"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Falha na solicitação de cancelamento de pagamento do Pine Labs"
+>>>>>>> upstream/18.0
 
 #. module: pos_pine_labs
 #: model:ir.model,name:pos_pine_labs.model_pos_payment_method
@@ -142,7 +234,11 @@ msgstr "Pagamentos do Ponto de Vendas"
 #. odoo-javascript
 #: code:addons/pos_pine_labs/static/src/app/utils/payment/payment_pine_labs.js:0
 msgid "Reference number mismatched"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Número de referência não correspondente"
+>>>>>>> upstream/18.0
 
 #. module: pos_pine_labs
 #: model:ir.model.fields,help:pos_pine_labs.field_pos_payment__pine_labs_plutus_transaction_ref
@@ -151,11 +247,21 @@ msgid ""
 "https://developer.pinelabs.com/in/instore/cloud-integration#Example-JSON-"
 "request-for-Void-ICB-on-UPI-transaction"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Necessário durante o processo de solicitação de reembolso: https://"
+"developer.pinelabs.com/in/instore/cloud-integration#Example-JSON-request-for-"
+"Void-ICB-on-UPI-transaction"
+>>>>>>> upstream/18.0
 
 #. module: pos_pine_labs
 #: model:ir.model.fields,help:pos_pine_labs.field_pos_payment_method__pine_labs_test_mode
 msgid "Test Pine Labs transaction process."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Teste o processo de transação do Pine Labs."
+>>>>>>> upstream/18.0
 
 #. module: pos_pine_labs
 #. odoo-python
@@ -164,20 +270,37 @@ msgid ""
 "The expected error code for the Pine Labs POS status request was not "
 "included in the response."
 msgstr ""
+<<<<<<< HEAD
+=======
+"O código de erro esperado para a solicitação de status do Pine Labs POS não "
+"foi incluído na resposta."
+>>>>>>> upstream/18.0
 
 #. module: pos_pine_labs
 #. odoo-python
 #: code:addons/pos_pine_labs/models/pos_payment_method.py:0
 msgid "This Payment Terminal is only valid for INR Currency"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Este terminal de pagamento só é válido para moeda INR"
+>>>>>>> upstream/18.0
 
 #. module: pos_pine_labs
 #. odoo-javascript
 #: code:addons/pos_pine_labs/static/src/app/utils/payment/payment_pine_labs.js:0
 msgid "Transaction failed due to inactivity"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "A transação falhou devido à inatividade"
+>>>>>>> upstream/18.0
 
 #. module: pos_pine_labs
 #: model:ir.model.fields.selection,name:pos_pine_labs.selection__pos_payment_method__pine_labs_allowed_payment_mode__upi
 msgid "Upi"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Upi"
+>>>>>>> upstream/18.0

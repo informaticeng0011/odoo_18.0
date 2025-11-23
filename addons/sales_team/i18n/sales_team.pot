@@ -6,8 +6,13 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-12-16 13:40+0000\n"
 "PO-Revision-Date: 2024-12-16 13:40+0000\n"
+=======
+"POT-Creation-Date: 2025-11-21 18:38+0000\n"
+"PO-Revision-Date: 2025-11-21 18:38+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -578,6 +583,17 @@ msgid "The default company for this user."
 msgstr ""
 
 #. module: sales_team
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/sales_team/models/crm_team.py:0
+msgid ""
+"The following team members are not allowed in company '%(company)s' of the "
+"Sales Team '%(team)s': %(users)s"
+msgstr ""
+
+#. module: sales_team
+>>>>>>> upstream/18.0
 #: model_terms:ir.actions.act_window,help:sales_team.mail_activity_type_action_config_sales
 msgid ""
 "Those represent the different categories of things you have to do (e.g. "
@@ -634,6 +650,17 @@ msgid "User"
 msgstr ""
 
 #. module: sales_team
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/sales_team/models/crm_team_member.py:0
+msgid ""
+"User '%(user)s' is not allowed in the company '%(company)s' of the Sales "
+"Team '%(team)s'."
+msgstr ""
+
+#. module: sales_team
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:sales_team.field_crm_team_member__user_company_ids
 msgid "User Company"
 msgstr ""

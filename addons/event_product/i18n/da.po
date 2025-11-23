@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* event_product
+<<<<<<< HEAD
 # 
 # Translators:
 # lhmflexerp <lhm@flexerp.dk>, 2024
@@ -334,10 +335,19 @@
 # Kira Petersen, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+#
+# Translators:
+# lhmflexerp <lhm@flexerp.dk>, 2024
+# Martin Trigaux, 2024
+# Kira Petersen, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
 "PO-Revision-Date: 2024-09-29 00:00+0000\n"
 <<<<<<< HEAD
@@ -674,6 +684,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: da\n"
+=======
+"POT-Creation-Date: 2025-11-14 18:38+0000\n"
+"PO-Revision-Date: 2024-09-29 00:00+0000\n"
+"Last-Translator: Kira Petersen, 2025\n"
+"Language-Team: Danish (https://app.transifex.com/odoo/teams/41243/da/)\n"
+"Language: da\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+>>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: event_product
@@ -797,7 +817,11 @@ msgid "Event Registration - Standard"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tilmelding til arrangement – standard"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tilmelding til arrangement – standard"
 >>>>>>> upstream/18.0
@@ -1130,7 +1154,11 @@ msgid "Event Registration - VIP"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tilmelding til arrangement – VIP"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tilmelding til arrangement – VIP"
 >>>>>>> upstream/18.0
@@ -1495,7 +1523,11 @@ msgid "Price include"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pris inkl."
+>>>>>>> upstream/18.0
 =======
 msgstr "Pris inkl."
 >>>>>>> upstream/18.0
@@ -1756,6 +1788,17 @@ msgid "Product Variant"
 msgstr "Varevariant"
 
 #. module: event_product
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/event_product/models/product_product.py:0
+msgid ""
+"Products linked to an event ticket must have \"%(tracking)s\" set to \"%"
+"(event)s\"."
+msgstr ""
+
+#. module: event_product
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:event_product.event_event_ticket_view_tree_from_event
 msgid "Sales End"
 msgstr "Salg afsluttet"

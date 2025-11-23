@@ -72,7 +72,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* maintenance
+=======
+# * maintenance
+>>>>>>> upstream/18.0
 =======
 # * maintenance
 >>>>>>> upstream/18.0
@@ -366,6 +370,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>, 2023
 #
 =======
@@ -584,11 +589,16 @@
 =======
 # Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>, 2023, 2025.
 >>>>>>> upstream/18.0
+=======
+# Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>, 2023, 2025.
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0beta\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-03 08:43+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -816,6 +826,10 @@ msgstr ""
 >>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-08-07 08:40+0000\n"
 "Last-Translator: Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>\n"
+=======
+"PO-Revision-Date: 2025-11-21 06:40+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Serbian (Latin script) <https://translate.odoo.com/projects/"
 "odoo-18/maintenance/sr_Latn/>\n"
 "Language: sr@latin\n"
@@ -896,6 +910,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1195,17 +1212,29 @@ msgstr "Bezbednost alias kontakta"
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment_category__alias_domain_id
 msgid "Alias Domain"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Alias domen"
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment_category__alias_domain
 msgid "Alias Domain Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Naziv alias domena"
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment_category__alias_full_name
 msgid "Alias Email"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Alias Email"
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment_category__alias_name
@@ -1215,12 +1244,20 @@ msgstr "Naziv aliasa"
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment_category__alias_status
 msgid "Alias Status"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Status aliasa"
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model:ir.model.fields,help:maintenance.field_maintenance_equipment_category__alias_status
 msgid "Alias status assessed on the last message received."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Status aliasa procenjen na osnovu poslednje primljene poruke."
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment_category__alias_model_id
@@ -1264,7 +1301,11 @@ msgstr "Dodeljeno"
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment__assign_date
 msgid "Assigned Date"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Datum dodeljivanja"
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_request_view_search
@@ -1293,7 +1334,11 @@ msgstr "Otkaži"
 #. module: maintenance
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_request_view_search
 msgid "Cancelled"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Otkazano"
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_request__category_id
@@ -1345,6 +1390,7 @@ msgstr ""
 #. module: maintenance
 #: model:maintenance.equipment.category,name:maintenance.equipment_computer
 msgid "Computers"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1634,11 +1680,18 @@ msgstr "Kompjuteri"
 =======
 msgstr "Kompjuteri"
 >>>>>>> upstream/18.0
+=======
+msgstr "Kompjuteri"
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model:ir.model,name:maintenance.model_res_config_settings
 msgid "Config Settings"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Podešavanje konfiguracije"
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model:ir.ui.menu,name:maintenance.menu_maintenance_configuration
@@ -1736,7 +1789,11 @@ msgstr ""
 #. module: maintenance
 #: model:ir.model.fields.selection,name:maintenance.selection__maintenance_request__repeat_unit__day
 msgid "Days"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "dana"
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment_category__alias_defaults
@@ -1814,12 +1871,20 @@ msgstr "Email cc"
 #. module: maintenance
 #: model:ir.model.fields,help:maintenance.field_maintenance_equipment_category__alias_domain
 msgid "Email domain e.g. 'example.com' in 'odoo@example.com'"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Email domen npr. 'example.com' u 'odoo@example.com'"
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_request__repeat_until
 msgid "End Date"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Završni Datum"
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model:ir.actions.act_window,name:maintenance.hr_equipment_action
@@ -1932,7 +1997,11 @@ msgstr "Font awesome ikonica npr. fa-tasks"
 #. module: maintenance
 #: model:ir.model.fields.selection,name:maintenance.selection__maintenance_request__repeat_type__forever
 msgid "Forever"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zauvek"
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_request_view_search
@@ -2116,7 +2185,11 @@ msgstr ""
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment_category__alias_incoming_local
 msgid "Local-part based incoming detection"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dolazna detekcija zasnovana na lokalnim delovima"
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment__location
@@ -2155,7 +2228,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_view_form
 #: model_terms:ir.ui.view,arch_db:maintenance.res_config_settings_view_form
 msgid "Maintenance"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Održavanje"
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model:ir.ui.menu,name:maintenance.menu_m_request_calendar
@@ -2311,7 +2388,11 @@ msgstr ""
 #. module: maintenance
 #: model:ir.model.fields.selection,name:maintenance.selection__maintenance_request__repeat_unit__month
 msgid "Months"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Meseci"
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment__my_activity_date_deadline
@@ -2378,7 +2459,11 @@ msgstr "Beleška"
 #. module: maintenance
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_request_view_form
 msgid "Notes"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Beleške"
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment__message_needaction_counter
@@ -2424,7 +2509,11 @@ msgstr "Broj grešaka"
 #: model:ir.model.fields,help:maintenance.field_maintenance_equipment_category__message_needaction_counter
 #: model:ir.model.fields,help:maintenance.field_maintenance_request__message_needaction_counter
 msgid "Number of messages requiring action"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Broj poruka koje zahtevaju akciju"
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model:ir.model.fields,help:maintenance.field_maintenance_equipment__message_has_error_counter
@@ -2461,7 +2550,11 @@ msgstr "Vlasnik"
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_request__instruction_pdf
 #: model:ir.model.fields.selection,name:maintenance.selection__maintenance_request__instruction_type__pdf
 msgid "PDF"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "PDF"
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment_category__alias_parent_model_id
@@ -2553,7 +2646,11 @@ msgstr "ID niza zapisa"
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_request__recurring_maintenance
 msgid "Recurrent"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ponavljajući"
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_request_view_form
@@ -2568,7 +2665,11 @@ msgstr "Popravljeno"
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_request__repeat_interval
 msgid "Repeat Every"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ponovi svakih"
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_request__repeat_unit
@@ -2693,7 +2794,11 @@ msgstr ""
 #: model:ir.actions.act_window,name:maintenance.action_maintenance_configuration
 #: model:ir.ui.menu,name:maintenance.menu_maintenance_config
 msgid "Settings"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Podešavanje"
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_request_view_search
@@ -2786,7 +2891,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_request__instruction_text
 #: model:ir.model.fields.selection,name:maintenance.selection__maintenance_request__instruction_type__text
 msgid "Text"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tekst"
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model:ir.model.fields,help:maintenance.field_maintenance_equipment_category__alias_model_id
@@ -2877,7 +2986,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_request__repeat_type
 #: model:ir.model.fields.selection,name:maintenance.selection__maintenance_request__repeat_type__until
 msgid "Until"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sve do"
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_request_view_form
@@ -2913,12 +3026,20 @@ msgstr ""
 #. module: maintenance
 #: model:ir.model.fields.selection,name:maintenance.selection__maintenance_request__repeat_unit__week
 msgid "Weeks"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nedelje"
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model:ir.model.fields.selection,name:maintenance.selection__maintenance_request__repeat_unit__year
 msgid "Years"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Godine"
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #. odoo-python
@@ -2966,7 +3087,11 @@ msgstr ""
 #. module: maintenance
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_category_view_form
 msgid "e.g. mycompany.com"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "npr. mojafirma.com"
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_request_view_graph

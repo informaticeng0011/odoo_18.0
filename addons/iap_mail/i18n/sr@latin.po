@@ -1,12 +1,19 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* iap_mail
 #
+=======
+# * iap_mail
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2024-09-26 08:55+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -14,6 +21,19 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
+=======
+"PO-Revision-Date: 2025-11-11 17:27+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Serbian (Latin script) <https://translate.odoo.com/projects/"
+"odoo-18/iap_mail/sr_Latn/>\n"
+"Language: sr@latin\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: iap_mail
 #: model_terms:ir.ui.view,arch_db:iap_mail.enrich_company
@@ -93,12 +113,20 @@ msgstr ""
 #. module: iap_mail
 #: model:ir.model.fields,field_description:iap_mail.field_iap_account__message_needaction
 msgid "Action Needed"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Potrebna akcija"
+>>>>>>> upstream/18.0
 
 #. module: iap_mail
 #: model:ir.model.fields,field_description:iap_mail.field_iap_account__message_attachment_count
 msgid "Attachment Count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Brojač priloga"
+>>>>>>> upstream/18.0
 
 #. module: iap_mail
 #. odoo-javascript
@@ -109,7 +137,11 @@ msgstr ""
 #. module: iap_mail
 #: model:ir.model.fields,field_description:iap_mail.field_iap_account__company_ids
 msgid "Company"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kompanija"
+>>>>>>> upstream/18.0
 
 #. module: iap_mail
 #: model:ir.model.fields,field_description:iap_mail.field_iap_account__warning_user_ids
@@ -124,17 +156,29 @@ msgstr ""
 #. module: iap_mail
 #: model:ir.model.fields,field_description:iap_mail.field_iap_account__message_follower_ids
 msgid "Followers"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pratioci"
+>>>>>>> upstream/18.0
 
 #. module: iap_mail
 #: model:ir.model.fields,field_description:iap_mail.field_iap_account__message_partner_ids
 msgid "Followers (Partners)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pratioci (Partneri)"
+>>>>>>> upstream/18.0
 
 #. module: iap_mail
 #: model:ir.model.fields,field_description:iap_mail.field_iap_account__has_message
 msgid "Has Message"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ima poruku"
+>>>>>>> upstream/18.0
 
 #. module: iap_mail
 #: model:ir.model,name:iap_mail.model_iap_account
@@ -144,47 +188,83 @@ msgstr ""
 #. module: iap_mail
 #: model:ir.model.fields,help:iap_mail.field_iap_account__message_needaction
 msgid "If checked, new messages require your attention."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ako je označeno, nove poruke zahtevaju vašu pažnju."
+>>>>>>> upstream/18.0
 
 #. module: iap_mail
 #: model:ir.model.fields,help:iap_mail.field_iap_account__message_has_error
 msgid "If checked, some messages have a delivery error."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ako je označeno, neke poruke imaju grešku u isporuci."
+>>>>>>> upstream/18.0
 
 #. module: iap_mail
 #: model:ir.model.fields,field_description:iap_mail.field_iap_account__message_is_follower
 msgid "Is Follower"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Je Pratilac"
+>>>>>>> upstream/18.0
 
 #. module: iap_mail
 #: model:ir.model.fields,field_description:iap_mail.field_iap_account__message_has_error
 msgid "Message Delivery error"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Greška u isporuci poruke"
+>>>>>>> upstream/18.0
 
 #. module: iap_mail
 #: model:ir.model.fields,field_description:iap_mail.field_iap_account__message_ids
 msgid "Messages"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poruke"
+>>>>>>> upstream/18.0
 
 #. module: iap_mail
 #: model:ir.model.fields,field_description:iap_mail.field_iap_account__message_needaction_counter
 msgid "Number of Actions"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Broj akcija"
+>>>>>>> upstream/18.0
 
 #. module: iap_mail
 #: model:ir.model.fields,field_description:iap_mail.field_iap_account__message_has_error_counter
 msgid "Number of errors"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Broj grešaka"
+>>>>>>> upstream/18.0
 
 #. module: iap_mail
 #: model:ir.model.fields,help:iap_mail.field_iap_account__message_needaction_counter
 msgid "Number of messages requiring action"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Broj poruka koje zahtevaju akciju"
+>>>>>>> upstream/18.0
 
 #. module: iap_mail
 #: model:ir.model.fields,help:iap_mail.field_iap_account__message_has_error_counter
 msgid "Number of messages with delivery error"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Broj poruka sa greškom u isporuci"
+>>>>>>> upstream/18.0
 
 #. module: iap_mail
 #: model_terms:ir.ui.view,arch_db:iap_mail.enrich_company

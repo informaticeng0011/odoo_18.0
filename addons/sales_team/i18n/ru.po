@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* sales_team
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
@@ -345,10 +346,18 @@
 # Anastasiia Koroleva, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+#
+# Translators:
+# Wil Odoo, 2024
+# Anastasiia Koroleva, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-12-16 13:40+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
@@ -698,12 +707,34 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: ru\n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+=======
+"POT-Creation-Date: 2025-11-21 18:38+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Anastasiia Koroleva, 2025\n"
+"Language-Team: Russian (https://app.transifex.com/odoo/teams/41243/ru/)\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
+"(n%100>=11 && n%100<=14)? 2 : 3);\n"
+>>>>>>> upstream/18.0
 
 #. module: sales_team
 #: model_terms:ir.ui.view,arch_db:sales_team.crm_team_member_view_kanban
 #: model_terms:ir.ui.view,arch_db:sales_team.crm_team_view_form
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-envelope me-1\" role=\"img\" aria-label=\"Email\" title=\"Email\"/>"
 msgstr "<i class=\"fa fa-envelope me-1\" role=\"img\" aria-label=\"Email\" title=\"Email\"/>"
+=======
+msgid ""
+"<i class=\"fa fa-envelope me-1\" role=\"img\" aria-label=\"Email\" "
+"title=\"Email\"/>"
+msgstr ""
+"<i class=\"fa fa-envelope me-1\" role=\"img\" aria-label=\"Email\" "
+"title=\"Email\"/>"
+>>>>>>> upstream/18.0
 
 #. module: sales_team
 #: model_terms:ir.ui.view,arch_db:sales_team.crm_team_view_kanban_dashboard
@@ -744,11 +775,18 @@ msgstr "Добавление сотрудника штата"
 
 #. module: sales_team
 #: model:ir.model.fields,help:sales_team.field_crm_team__crm_team_member_ids
+<<<<<<< HEAD
 msgid ""
 "Add members to automatically assign their documents to this sales team."
 msgstr ""
 "Добавьте участников, чтобы автоматически назначить их документы в этот отдел"
 " продаж."
+=======
+msgid "Add members to automatically assign their documents to this sales team."
+msgstr ""
+"Добавьте участников, чтобы автоматически назначить их документы в этот отдел "
+"продаж."
+>>>>>>> upstream/18.0
 
 #. module: sales_team
 #. odoo-python
@@ -842,6 +880,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Добавление пользователя %(user_name)s в эту команду приведет к его удалению "
+"из следующих команд: %(team_names)s. Работаете в нескольких командах? "
+"Включите соответствующую опцию в разделе Настройки > Конфигурация."
+>>>>>>> upstream/18.0
 =======
 "Добавление пользователя %(user_name)s в эту команду приведет к его удалению "
 "из следующих команд: %(team_names)s. Работаете в нескольких командах? "
@@ -1359,6 +1403,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "Добавление пользователя %(user_names)s в эту команду приведет к его удалению"
 " из следующих команд: %(team_names)s."
@@ -1698,6 +1743,10 @@ msgstr ""
 =======
 "Добавление пользователя %(user_names)s в эту команду приведет к его удалению"
 " из следующих команд: %(team_names)s."
+>>>>>>> upstream/18.0
+=======
+"Добавление пользователя %(user_names)s в эту команду приведет к его удалению "
+"из следующих команд: %(team_names)s."
 >>>>>>> upstream/18.0
 
 #. module: sales_team
@@ -1862,7 +1911,11 @@ msgid "Created by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Создано"
+=======
+msgstr "Создано:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Создано:"
 >>>>>>> upstream/18.0
@@ -2157,7 +2210,11 @@ msgid "Created on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Создано"
+=======
+msgstr "Дата создания:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дата создания:"
 >>>>>>> upstream/18.0
@@ -2420,8 +2477,12 @@ msgstr "Лучшие Участники"
 
 #. module: sales_team
 #: model:ir.model.fields,help:sales_team.field_crm_team__is_favorite
+<<<<<<< HEAD
 msgid ""
 "Favorite teams to display them in the dashboard and access them easily."
+=======
+msgid "Favorite teams to display them in the dashboard and access them easily."
+>>>>>>> upstream/18.0
 msgstr ""
 "Избранные команды для отображения их в панели управления и получения "
 "быстрого к ним доступа."
@@ -2592,7 +2653,11 @@ msgid "Last Updated by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Последнее обновление"
+=======
+msgstr "Последнее обновление:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Последнее обновление:"
 >>>>>>> upstream/18.0
@@ -2891,7 +2956,11 @@ msgid "Last Updated on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Последнее обновление"
+=======
+msgstr "Дата последнего обновления:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дата последнего обновления:"
 >>>>>>> upstream/18.0
@@ -3119,8 +3188,13 @@ msgid ""
 "invoicing or subscription."
 msgstr ""
 "Основной пользователь отдела продаж. Используется в основном для работы с "
+<<<<<<< HEAD
 "воронкой продаж, а также для выбора отдела продаж при выставлении счетов или"
 " назначения подписки. "
+=======
+"воронкой продаж, а также для выбора отдела продаж при выставлении счетов или "
+"назначения подписки. "
+>>>>>>> upstream/18.0
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team__member_company_ids
@@ -3351,8 +3425,12 @@ msgstr "Члены команды"
 #. module: sales_team
 #: model_terms:ir.actions.act_window,help:sales_team.crm_team_member_action
 msgid "Team Members are salespersons assigned to specific teams."
+<<<<<<< HEAD
 msgstr ""
 "Члены команды - это продавцы, закрепленные за определенными командами."
+=======
+msgstr "Члены команды - это продавцы, закрепленные за определенными командами."
+>>>>>>> upstream/18.0
 
 #. module: sales_team
 #: model:ir.actions.act_window,name:sales_team.crm_team_action_pipeline
@@ -3370,6 +3448,17 @@ msgid "The default company for this user."
 msgstr "Компания по умолчанию для этого пользователя."
 
 #. module: sales_team
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/sales_team/models/crm_team.py:0
+msgid ""
+"The following team members are not allowed in company '%(company)s' of the "
+"Sales Team '%(team)s': %(users)s"
+msgstr ""
+
+#. module: sales_team
+>>>>>>> upstream/18.0
 #: model_terms:ir.actions.act_window,help:sales_team.mail_activity_type_action_config_sales
 msgid ""
 "Those represent the different categories of things you have to do (e.g. "
@@ -3405,11 +3494,17 @@ msgstr "Неопределенная модель графа для команд
 
 #. module: sales_team
 #: model_terms:ir.actions.act_window,help:sales_team.crm_team_action_config
+<<<<<<< HEAD
 msgid ""
 "Use Sales Teams to organize your sales departments and draw up reports."
 msgstr ""
 "Используйте Sales Teams для организации отделов продаж и составления "
 "отчетов."
+=======
+msgid "Use Sales Teams to organize your sales departments and draw up reports."
+msgstr ""
+"Используйте Sales Teams для организации отделов продаж и составления отчетов."
+>>>>>>> upstream/18.0
 
 #. module: sales_team
 #: model_terms:ir.actions.act_window,help:sales_team.crm_team_action_pipeline
@@ -3427,8 +3522,13 @@ msgid ""
 "Use Tags to manage and track your Opportunities (product structure, sales "
 "type, ...)"
 msgstr ""
+<<<<<<< HEAD
 "Используйте теги для управления и отслеживания ваших возможностей (структура"
 " продукта, тип продаж, ...)"
+=======
+"Используйте теги для управления и отслеживания ваших возможностей (структура "
+"продукта, тип продаж, ...)"
+>>>>>>> upstream/18.0
 
 #. module: sales_team
 #: model:ir.model,name:sales_team.model_res_users
@@ -3436,6 +3536,17 @@ msgid "User"
 msgstr "Пользователь"
 
 #. module: sales_team
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/sales_team/models/crm_team_member.py:0
+msgid ""
+"User '%(user)s' is not allowed in the company '%(company)s' of the Sales "
+"Team '%(team)s'."
+msgstr ""
+
+#. module: sales_team
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:sales_team.field_crm_team_member__user_company_ids
 msgid "User Company"
 msgstr "Компания-пользователь"
@@ -3561,6 +3672,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Работаете в нескольких командах? Включите соответствующую опцию в разделе "
+"Настройки > Конфигурация."
+>>>>>>> upstream/18.0
 =======
 "Работаете в нескольких командах? Включите соответствующую опцию в разделе "
 "Настройки > Конфигурация."
@@ -3906,11 +4022,19 @@ msgstr ""
 #. odoo-python
 #: code:addons/sales_team/models/crm_team_member.py:0
 msgid ""
+<<<<<<< HEAD
 "You are trying to create duplicate membership(s). We found that "
 "%(duplicates)s already exist(s)."
 msgstr ""
 "Вы пытаетесь создать дубликат(ы) членства. Мы обнаружили, что %(duplicates)s"
 " уже существует (существуют)."
+=======
+"You are trying to create duplicate membership(s). We found that %"
+"(duplicates)s already exist(s)."
+msgstr ""
+"Вы пытаетесь создать дубликат(ы) членства. Мы обнаружили, что %(duplicates)s "
+"уже существует (существуют)."
+>>>>>>> upstream/18.0
 
 #. module: sales_team
 #: model_terms:ir.ui.view,arch_db:sales_team.crm_team_view_form
@@ -3940,8 +4064,16 @@ msgstr ""
 #. module: sales_team
 #: model:res.groups,comment:sales_team.group_sale_manager
 msgid ""
+<<<<<<< HEAD
 "the user will have an access to the sales configuration as well as statistic"
 " reports."
 msgstr ""
 "пользователь получает доступ к конфигурации продаж, а также к статистическим"
 " отчетам."
+=======
+"the user will have an access to the sales configuration as well as statistic "
+"reports."
+msgstr ""
+"пользователь получает доступ к конфигурации продаж, а также к статистическим "
+"отчетам."
+>>>>>>> upstream/18.0

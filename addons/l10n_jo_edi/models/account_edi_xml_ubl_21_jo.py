@@ -129,6 +129,7 @@ from functools import wraps
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 from lxml import etree
 >>>>>>> upstream/18.0
@@ -302,6 +303,10 @@ from lxml import etree
 >>>>>>> upstream/18.0
 =======
 from lxml import etree
+>>>>>>> upstream/18.0
+=======
+from lxml import etree
+import re
 >>>>>>> upstream/18.0
 =======
 from lxml import etree
@@ -710,6 +715,7 @@ JO_MAX_DP = 9
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 PAYMENT_CODES_MAP = {
     'income': {
         'cash': '011',
@@ -725,6 +731,8 @@ PAYMENT_CODES_MAP = {
     }
 }
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -959,6 +967,7 @@ class AccountEdiXmlUBL21JO(models.AbstractModel):
             return self._round_max_dp(result)
         return wrapper
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1468,6 +1477,10 @@ class AccountEdiXmlUBL21JO(models.AbstractModel):
     def _get_line_amount_before_discount_jod(self, base_line):
         line = base_line['record']
 >>>>>>> upstream/18.0
+=======
+    def _get_line_amount_before_discount_jod(self, base_line):
+        line = base_line['record']
+>>>>>>> upstream/18.0
         if line.discount < 100:
             amount_after_discount = base_line['tax_details']['raw_total_excluded_currency']
             return amount_after_discount / (1 - line.discount / 100)
@@ -1578,6 +1591,9 @@ class AccountEdiXmlUBL21JO(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1814,6 +1830,7 @@ class AccountEdiXmlUBL21JO(models.AbstractModel):
         if not tax_data:
             return 0
         if tax_type == 'fixed':
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2235,6 +2252,9 @@ class AccountEdiXmlUBL21JO(models.AbstractModel):
 =======
             return tax_data['raw_tax_amount_currency']
 >>>>>>> upstream/18.0
+=======
+            return tax_data['raw_tax_amount_currency']
+>>>>>>> upstream/18.0
         else:
             # general tax amount = (taxable amount + special (fixed) tax mount) * tax percent
             return (self._get_line_taxable_amount(base_line) + self._get_line_tax_amount(base_line, 'fixed')) * tax_data['tax'].amount / 100
@@ -2248,6 +2268,7 @@ class AccountEdiXmlUBL21JO(models.AbstractModel):
             return [taxes_vals['base_line']]
 
     def _get_payment_method_code(self, invoice):
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2749,6 +2770,9 @@ class AccountEdiXmlUBL21JO(models.AbstractModel):
 =======
         return invoice._get_invoice_scope_code() + invoice._get_invoice_payment_method_code() + invoice._get_invoice_tax_payer_type_code()
 >>>>>>> upstream/18.0
+=======
+        return invoice._get_invoice_scope_code() + invoice._get_invoice_payment_method_code() + invoice._get_invoice_tax_payer_type_code()
+>>>>>>> upstream/18.0
 
     def _get_line_edi_id(self, line, default_id):
         if not line.is_refund:  # in case it's invoice not credit note
@@ -2856,7 +2880,12 @@ class AccountEdiXmlUBL21JO(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     and line.price_unit == invoice_line.price_unit:
+=======
+                    and line.price_unit == invoice_line.price_unit \
+                    and line.discount == invoice_line.discount:
+>>>>>>> upstream/18.0
 =======
                     and line.price_unit == invoice_line.price_unit \
                     and line.discount == invoice_line.discount:
@@ -3359,6 +3388,7 @@ class AccountEdiXmlUBL21JO(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3463,6 +3493,11 @@ class AccountEdiXmlUBL21JO(models.AbstractModel):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+    def _sanitize_phone(self, raw):
+        return re.sub(r'[^0-9]', '', raw or '')[:15]
 >>>>>>> upstream/18.0
 =======
 
@@ -3966,8 +4001,13 @@ class AccountEdiXmlUBL21JO(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'id_attrs': {'schemeID': 'TN' if not partner.country_code or partner.country_code == 'JO' else 'PN'},
             'id': partner.vat if partner.vat and partner.vat != '/' else '',
+=======
+            'id_attrs': {'schemeID': 'TN' if partner.country_code == 'JO' else 'PN'},
+            'id': partner.vat if partner.vat and partner.vat != '/' else 'NO_VAT',
+>>>>>>> upstream/18.0
 =======
             'id_attrs': {'schemeID': 'TN' if partner.country_code == 'JO' else 'PN'},
             'id': partner.vat if partner.vat and partner.vat != '/' else 'NO_VAT',
@@ -4662,7 +4702,11 @@ class AccountEdiXmlUBL21JO(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'instruction_note': invoice.ref.replace('/', '_') if invoice.ref else '',
+=======
+                'instruction_note': (invoice.ref or '').replace('/', '_'),
+>>>>>>> upstream/18.0
 =======
                 'instruction_note': (invoice.ref or '').replace('/', '_'),
 >>>>>>> upstream/18.0
@@ -5226,7 +5270,11 @@ class AccountEdiXmlUBL21JO(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         description = line.name and line.name.replace('\n', ', ')
+=======
+        description = (line.name or '').replace('\n', ', ')
+>>>>>>> upstream/18.0
 =======
         description = (line.name or '').replace('\n', ', ')
 >>>>>>> upstream/18.0
@@ -5773,11 +5821,14 @@ class AccountEdiXmlUBL21JO(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'tax_amount': tax_details_vals['raw_tax_amount'],
                     'tax_category_vals': tax_details_vals['_tax_category_vals_'],
                 }
                 vals['rounding_amount'] += self._round_max_dp(tax_details_vals['raw_tax_amount'])
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6094,6 +6145,9 @@ class AccountEdiXmlUBL21JO(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6319,6 +6373,7 @@ class AccountEdiXmlUBL21JO(models.AbstractModel):
         return {
             'currency': JO_CURRENCY,
             'currency_dp': self._get_currency_decimal_places(),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6820,6 +6875,9 @@ class AccountEdiXmlUBL21JO(models.AbstractModel):
 =======
             'id': self._get_line_edi_id(line, default_id=line_id + 1),
 >>>>>>> upstream/18.0
+=======
+            'id': self._get_line_edi_id(line, default_id=line_id + 1),
+>>>>>>> upstream/18.0
             'line_quantity': line.quantity,
             'line_quantity_attrs': {'unitCode': self._get_uom_unece_code()},
             'line_extension_amount': self._get_line_taxable_amount(self._extract_base_lines(taxes_vals)[0]),
@@ -6853,6 +6911,7 @@ class AccountEdiXmlUBL21JO(models.AbstractModel):
         if amount is None:
             return None
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7523,6 +7582,10 @@ class AccountEdiXmlUBL21JO(models.AbstractModel):
         rounded_amount = float_repr(self._round_max_dp(amount), JO_MAX_DP).rstrip('0').rstrip('.')
         decimal_places = len(rounded_amount.split('.')[1]) if '.' in rounded_amount else 0
 >>>>>>> upstream/18.0
+=======
+        rounded_amount = float_repr(self._round_max_dp(amount), JO_MAX_DP).rstrip('0').rstrip('.')
+        decimal_places = len(rounded_amount.split('.')[1]) if '.' in rounded_amount else 0
+>>>>>>> upstream/18.0
         if decimal_places < precision_digits:
             rounded_amount = float_repr(float(rounded_amount), precision_digits)
         return rounded_amount
@@ -7572,6 +7635,7 @@ class AccountEdiXmlUBL21JO(models.AbstractModel):
             return {}
 
         return {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8305,6 +8369,11 @@ class AccountEdiXmlUBL21JO(models.AbstractModel):
             'uuid': invoice.reversed_entry_id.l10n_jo_edi_uuid,
             'document_description': self.format_float(abs(invoice.reversed_entry_id.amount_total), self._get_currency_decimal_places()),
 >>>>>>> upstream/18.0
+=======
+            'id': (invoice.reversed_entry_id.name or '').replace('/', '_'),
+            'uuid': invoice.reversed_entry_id.l10n_jo_edi_uuid,
+            'document_description': self.format_float(abs(invoice.reversed_entry_id.amount_total), self._get_currency_decimal_places()),
+>>>>>>> upstream/18.0
         }
 
     def _get_additional_document_reference_list(self, invoice):
@@ -8343,6 +8412,7 @@ class AccountEdiXmlUBL21JO(models.AbstractModel):
             'profile_id': 'reporting:1.0',
             'id': invoice.name.replace('/', '_'),
             'uuid': invoice.l10n_jo_edi_uuid,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8870,6 +8940,10 @@ class AccountEdiXmlUBL21JO(models.AbstractModel):
             'document_currency_code': invoice.currency_id.name,
             'tax_currency_code': invoice.currency_id.name,
 >>>>>>> upstream/18.0
+=======
+            'document_currency_code': invoice.currency_id.name,
+            'tax_currency_code': invoice.currency_id.name,
+>>>>>>> upstream/18.0
             'document_type_code_attrs': {'name': self._get_payment_method_code(invoice)},
             'document_type_code': "381" if is_refund else "388",
             'accounting_customer_party_vals': {
@@ -8947,7 +9021,11 @@ class AccountEdiXmlUBL21JO(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'telephone': '' if is_refund else invoice.partner_id.phone or invoice.partner_id.mobile,
+=======
+                    'telephone': '' if is_refund else self._sanitize_phone(invoice.partner_id.phone or invoice.partner_id.mobile),
+>>>>>>> upstream/18.0
 =======
                     'telephone': '' if is_refund else self._sanitize_phone(invoice.partner_id.phone or invoice.partner_id.mobile),
 >>>>>>> upstream/18.0
@@ -9304,7 +9382,10 @@ class AccountEdiXmlUBL21JO(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9706,6 +9787,9 @@ class AccountEdiXmlUBL21JO(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

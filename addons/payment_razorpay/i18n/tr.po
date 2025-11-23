@@ -1,7 +1,12 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* payment_razorpay
 # 
+=======
+# * payment_razorpay
+#
+>>>>>>> upstream/18.0
 # Translators:
 # abc Def <hdogan1974@gmail.com>, 2024
 # Murat Kaplan <muratk@projetgrup.com>, 2024
@@ -81,6 +86,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Deniz Guvener_Odoo <degu@odoo.com>, 2025
 >>>>>>> upstream/18.0
@@ -298,10 +304,15 @@
 # Deniz Guvener_Odoo <degu@odoo.com>, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+# Deniz Guvener_Odoo <degu@odoo.com>, 2025
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -939,6 +950,19 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: tr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+=======
+"POT-Creation-Date: 2025-05-23 18:40+0000\n"
+"PO-Revision-Date: 2025-11-21 02:32+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Turkish <https://translate.odoo.com/projects/odoo-18/"
+"payment_razorpay/tr/>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: payment_razorpay
 #. odoo-python
@@ -962,17 +986,29 @@ msgstr "API bağlantısı kurulamadı."
 #. module: payment_razorpay
 #: model_terms:ir.ui.view,arch_db:payment_razorpay.payment_provider_form_razorpay
 msgid "Enable recurring payments on Razorpay"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Razorpay'de yinelenen ödemeleri etkinleştirin"
+>>>>>>> upstream/18.0
 
 #. module: payment_razorpay
 #: model_terms:ir.ui.view,arch_db:payment_razorpay.payment_provider_form_razorpay
 msgid "Key Id"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Anahtar Kimlik"
+>>>>>>> upstream/18.0
 
 #. module: payment_razorpay
 #: model_terms:ir.ui.view,arch_db:payment_razorpay.payment_provider_form_razorpay
 msgid "Key Secret"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Anahtar Gizli"
+>>>>>>> upstream/18.0
 
 #. module: payment_razorpay
 #. odoo-python
@@ -1071,7 +1107,11 @@ msgid "Payment processing failed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ödeme işleme başarısız oldu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ödeme işleme başarısız oldu"
 >>>>>>> upstream/18.0
@@ -1297,17 +1337,29 @@ msgstr "Razorpay"
 #. module: payment_razorpay
 #: model:ir.model.fields,field_description:payment_razorpay.field_payment_provider__razorpay_key_id
 msgid "Razorpay Key Id"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Razorpay Anahtar Kimliği"
+>>>>>>> upstream/18.0
 
 #. module: payment_razorpay
 #: model:ir.model.fields,field_description:payment_razorpay.field_payment_provider__razorpay_key_secret
 msgid "Razorpay Key Secret"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Razorpay Anahtar Sırrı"
+>>>>>>> upstream/18.0
 
 #. module: payment_razorpay
 #: model:ir.model.fields,field_description:payment_razorpay.field_payment_provider__razorpay_webhook_secret
 msgid "Razorpay Webhook Secret"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Razorpay Webhook Sırrı"
+>>>>>>> upstream/18.0
 
 #. module: payment_razorpay
 #. odoo-python
@@ -1319,13 +1371,21 @@ msgstr ""
 #. odoo-python
 #: code:addons/payment_razorpay/models/payment_transaction.py:0
 msgid "Received data with invalid status: %s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Geçersiz durumda veri alındı: %s"
+>>>>>>> upstream/18.0
 
 #. module: payment_razorpay
 #. odoo-python
 #: code:addons/payment_razorpay/models/payment_transaction.py:0
 msgid "Received data with missing entity id."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Eksik varlık kimliği ile veri alındı."
+>>>>>>> upstream/18.0
 
 #. module: payment_razorpay
 #. odoo-python
@@ -1337,30 +1397,50 @@ msgstr "Referansı eksik olan veriler alındı."
 #. odoo-python
 #: code:addons/payment_razorpay/models/payment_transaction.py:0
 msgid "Received data with missing status."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Eksik durumdaki veriler alındı."
+>>>>>>> upstream/18.0
 
 #. module: payment_razorpay
 #. odoo-python
 #: code:addons/payment_razorpay/models/payment_transaction.py:0
 msgid "Received incomplete refund data."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Eksik iade verileri alındı."
+>>>>>>> upstream/18.0
 
 #. module: payment_razorpay
 #: model:ir.model.fields,help:payment_razorpay.field_payment_provider__razorpay_key_id
 msgid "The key solely used to identify the account with Razorpay."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Anahtar yalnızca Razorpay'deki hesabı tanımlamak için kullanılır."
+>>>>>>> upstream/18.0
 
 #. module: payment_razorpay
 #. odoo-python
 #: code:addons/payment_razorpay/models/payment_transaction.py:0
 msgid "The phone number is invalid."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Telefon numarası geçersiz."
+>>>>>>> upstream/18.0
 
 #. module: payment_razorpay
 #. odoo-python
 #: code:addons/payment_razorpay/models/payment_transaction.py:0
 msgid "The phone number is missing."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Telefon numarası kayıp."
+>>>>>>> upstream/18.0
 
 #. module: payment_razorpay
 #: model:ir.model.fields,help:payment_razorpay.field_payment_provider__code
@@ -1378,11 +1458,20 @@ msgstr "İşlem bir belirteçle bağlantılı değildir."
 #: code:addons/payment_razorpay/models/payment_transaction.py:0
 msgid "Transactions processed by Razorpay can't be manually voided from Odoo."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Razorpay tarafından işlenen işlemler Odoo'dan manuel olarak geçersiz "
+"kılınamaz."
+>>>>>>> upstream/18.0
 
 #. module: payment_razorpay
 #: model_terms:ir.ui.view,arch_db:payment_razorpay.payment_provider_form_razorpay
 msgid "Webhook Secret"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Webhook Sırrı"
+>>>>>>> upstream/18.0
 
 #. module: payment_razorpay
 #. odoo-python
@@ -1512,6 +1601,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -1752,6 +1842,10 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+"Bu ödeme yöntemiyle %(currency_symbol)s %(max_amount)s adresinden daha "
+"yüksek tutarlarda ödeme yapamazsınız"
 >>>>>>> upstream/18.0
 
 #. module: payment_razorpay
@@ -1881,6 +1975,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

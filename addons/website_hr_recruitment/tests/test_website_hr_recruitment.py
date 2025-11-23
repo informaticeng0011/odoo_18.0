@@ -95,10 +95,13 @@ class TestWebsiteHrRecruitmentForm(odoo.tests.HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         job_guru = self.env['hr.job'].create({
             'name': 'Guru',
             'is_published': True,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -353,6 +356,9 @@ class TestWebsiteHrRecruitmentForm(odoo.tests.HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -608,6 +614,10 @@ class TestWebsiteHrRecruitmentForm(odoo.tests.HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'department_id': department.id,
+>>>>>>> upstream/18.0
 =======
             'department_id': department.id,
 >>>>>>> upstream/18.0

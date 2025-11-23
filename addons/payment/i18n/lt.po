@@ -1,7 +1,12 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* payment
 # 
+=======
+# * payment
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Arminas Grigonis <arminas@versada.lt>, 2024
 # Aurelija Vitkauskiene, 2024
@@ -21,12 +26,17 @@
 # Donatas <donatasvaliulis16@gmail.com>, 2024
 # Jonas Zinkevicius <jozi@odoo.com>, 2024
 # Martin Trigaux, 2024
+<<<<<<< HEAD
 # 
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Martin Trigaux, 2024\n"
 "Language-Team: Lithuanian (https://app.transifex.com/odoo/teams/41243/lt/)\n"
@@ -35,6 +45,20 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: lt\n"
 "Plural-Forms: nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < 11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? 1 : n % 1 != 0 ? 2: 3);\n"
+=======
+"PO-Revision-Date: 2025-11-19 14:30+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Lithuanian <https://translate.odoo.com/projects/odoo-18/"
+"payment/lt/>\n"
+"Language: lt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < "
+"11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? 1 :"
+" n % 1 != 0 ? 2: 3);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_provider_onboarding_wizard___data_fetched
@@ -350,12 +374,20 @@ msgstr ""
 #. module: payment
 #: model:payment.provider,name:payment.payment_provider_aps
 msgid "Amazon Payment Services"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Amazon Payment Services"
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model:payment.method,name:payment.payment_method_amex
 msgid "American Express"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "American Express"
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_link_wizard__amount
@@ -968,7 +1000,11 @@ msgstr "Demo"
 #. module: payment
 #: model:payment.method,name:payment.payment_method_diners
 msgid "Diners Club International"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Diners Club International"
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model:ir.model.fields.selection,name:payment.selection__payment_provider__state__disabled
@@ -979,7 +1015,11 @@ msgstr "Išjungta"
 #. module: payment
 #: model:payment.method,name:payment.payment_method_discover
 msgid "Discover"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Atrasti"
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_capture_wizard__display_name
@@ -1048,7 +1088,11 @@ msgstr ""
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.payment_provider_kanban
 msgid "Enterprise"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Verslininkystė"
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model:ir.model.fields.selection,name:payment.selection__payment_transaction__state__error
@@ -1065,7 +1109,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:payment.field_payment_method__support_express_checkout
 #: model:ir.model.fields,field_description:payment.field_payment_provider__support_express_checkout
 msgid "Express Checkout"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Express Checkout"
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_provider__express_checkout_form_view_id
@@ -1098,7 +1146,11 @@ msgstr ""
 #. module: payment
 #: model:payment.provider,name:payment.payment_provider_flutterwave
 msgid "Flutterwave"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Flutterwave"
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model:payment.method,name:payment.payment_method_frafinance
@@ -1301,7 +1353,11 @@ msgstr ""
 #. module: payment
 #: model:payment.method,name:payment.payment_method_jcb
 msgid "JCB"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "JCB"
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model:payment.method,name:payment.payment_method_jeniuspay
@@ -1443,7 +1499,11 @@ msgstr ""
 #. module: payment
 #: model:payment.method,name:payment.payment_method_maestro
 msgid "Maestro"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Maestro"
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model:payment.method,name:payment.payment_method_magna
@@ -1481,7 +1541,11 @@ msgstr ""
 #. module: payment
 #: model:payment.method,name:payment.payment_method_mastercard
 msgid "MasterCard"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "MasterCard"
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_provider__maximum_amount
@@ -1516,7 +1580,11 @@ msgstr ""
 #. module: payment
 #: model:payment.provider,name:payment.payment_provider_mercado_pago
 msgid "Mercado Pago"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mercado Pago"
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_transaction__state_message
@@ -1552,7 +1620,11 @@ msgstr ""
 #. module: payment
 #: model:payment.provider,name:payment.payment_provider_mollie
 msgid "Mollie"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mollie"
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model:payment.method,name:payment.payment_method_multibanco
@@ -1670,7 +1742,11 @@ msgstr ""
 #. module: payment
 #: model:ir.model,name:payment.model_onboarding_onboarding_step
 msgid "Onboarding Step"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Įvedimo į darbą proceso žingsnis"
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model:onboarding.onboarding.step,step_image_alt:payment.onboarding_onboarding_step_payment_provider
@@ -1992,7 +2068,11 @@ msgstr "Mokėjimo metodai"
 #: model_terms:ir.ui.view,arch_db:payment.availability_report
 #: model_terms:ir.ui.view,arch_db:payment.portal_my_home_payment
 msgid "Payment methods"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Apmokėjimo būdai"
+>>>>>>> upstream/18.0
 
 #. module: payment
 #. odoo-javascript
@@ -2003,7 +2083,11 @@ msgstr ""
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.payment_provider_form
 msgid "Payment provider"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mokėjimo paslaugų teikėjas"
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model:ir.model,name:payment.model_payment_provider_onboarding_wizard
@@ -2013,7 +2097,11 @@ msgstr ""
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.availability_report
 msgid "Payment providers"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mokėjimo paslaugų teikėjai"
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model:ir.actions.server,name:payment.cron_post_process_payment_tx_ir_actions_server
@@ -2169,7 +2257,11 @@ msgstr ""
 #. module: payment
 #: model:payment.provider,name:payment.payment_provider_razorpay
 msgid "Razorpay"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Razorpay"
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.availability_report_records
@@ -2245,7 +2337,11 @@ msgstr ""
 #. module: payment
 #: model:payment.method,name:payment.payment_method_rupay
 msgid "RuPay"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "RuPay"
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model:payment.method,name:payment.payment_method_sepa_direct_debit
@@ -2822,7 +2918,11 @@ msgstr ""
 #. module: payment
 #: model:payment.method,name:payment.payment_method_upi
 msgid "UPI"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "UPI"
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model:payment.method,name:payment.payment_method_ussd
@@ -2832,7 +2932,11 @@ msgstr ""
 #. module: payment
 #: model:payment.method,name:payment.payment_method_unionpay
 msgid "UnionPay"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "UnionPay"
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model:payment.method,name:payment.payment_method_uob
@@ -2869,7 +2973,11 @@ msgstr ""
 #. module: payment
 #: model:payment.method,name:payment.payment_method_visa
 msgid "VISA"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "VISA"
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model:ir.model.fields.selection,name:payment.selection__payment_transaction__operation__validation
@@ -2967,12 +3075,20 @@ msgstr "Mokėjimas bankiniu pavedimu"
 #. module: payment
 #: model:payment.provider,name:payment.payment_provider_worldline
 msgid "Worldline"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Worldline"
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model:payment.provider,name:payment.payment_provider_xendit
 msgid "Xendit"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Xendit"
+>>>>>>> upstream/18.0
 
 #. module: payment
 #. odoo-python
@@ -3081,7 +3197,11 @@ msgstr "Jūsų mokėjimas buvo atšauktas."
 #: model_terms:payment.provider,pending_msg:payment.payment_provider_xendit
 msgid ""
 "Your payment has been successfully processed but is waiting for approval."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Jūsų mokėjimas buvo sėkmingai apdorotas, bet laukia patvirtinimo."
+>>>>>>> upstream/18.0
 
 #. module: payment
 #. odoo-python

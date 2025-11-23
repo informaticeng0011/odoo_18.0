@@ -138,7 +138,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     <strong>Shipping Address</strong>
+=======
+                                    <strong class="d-block mt-3">Shipping Address</strong>
+>>>>>>> upstream/18.0
 =======
                                     <strong class="d-block mt-3">Shipping Address</strong>
 >>>>>>> upstream/18.0
@@ -576,6 +580,7 @@
                             <span t-if="o.name and o.name != '/'" t-field="o.name">INV/2023/0001</span>
                         </t>
                         <div class="oe_structure"></div>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1381,6 +1386,11 @@
                             id="informations" class="row mb-4"
                             t-if="o.invoice_date or (o.invoice_date_due and o.move_type == 'out_invoice' and o.state == 'posted') or o.delivery_date or o.invoice_origin or o.partner_id.ref or o.ref or o.invoice_incoterm_id">
 >>>>>>> upstream/18.0
+=======
+                        <div
+                            id="informations" class="row mb-4"
+                            t-if="o.invoice_date or (o.invoice_date_due and o.move_type == 'out_invoice' and o.state == 'posted') or o.delivery_date or o.invoice_origin or o.partner_id.ref or o.ref or o.invoice_incoterm_id">
+>>>>>>> upstream/18.0
                             <div class="col" t-if="o.invoice_date" name="invoice_date">
                                 <t t-if="o.move_type == 'out_invoice'"><strong>Invoice Date</strong></t>
                                 <t t-elif="o.move_type == 'out_refund'"><strong>Credit Note Date</strong></t>
@@ -1420,6 +1430,7 @@
 
                         <t t-set="display_discount" t-value="any(l.discount for l in o.invoice_line_ids)"/>
                         <div class="oe_structure"></div>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1906,6 +1917,11 @@
                         <table class="o_has_total_table table o_main_table table-borderless mb-0" name="invoice_line_table">
                             <thead t-attf-style="#{has_long_desc and 'display: table-row-group;' or ''}">
 >>>>>>> upstream/18.0
+=======
+                        <t t-set="has_long_desc" t-value="any(line.name and line.name.count('\n') > 30 for line in o.invoice_line_ids if line.name)"/>
+                        <table class="o_has_total_table table o_main_table table-borderless mb-0" name="invoice_line_table">
+                            <thead t-attf-style="#{has_long_desc and 'display: table-row-group;' or ''}">
+>>>>>>> upstream/18.0
                                 <tr>
                                     <th name="th_description" class="text-start"><span>Description</span></th>
                                     <th name="th_quantity" class="text-end"><span>Quantity</span></th>
@@ -1933,6 +1949,7 @@
                                             <td name="account_invoice_line_name">
                                                 <span t-if="line.name" t-field="line.name" t-options="{'widget': 'text'}">Bacon Burger</span>
                                             </td>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2360,6 +2377,10 @@
                                             <td name="td_quantity" class="o_td_quantity text-end">
                                                 <span t-field="line.quantity" class="text-nowrap">3.00</span>
 >>>>>>> upstream/18.0
+=======
+                                            <td name="td_quantity" class="o_td_quantity text-end">
+                                                <span t-field="line.quantity" class="text-nowrap">3.00</span>
+>>>>>>> upstream/18.0
                                                 <span t-field="line.product_uom_id"  groups="uom.group_uom">units</span>
                                             </td>
                                             <td name="td_price_unit" t-attf-class="text-end {{ 'd-none d-md-table-cell' if report_type == 'html' else '' }}">
@@ -2404,6 +2425,7 @@
                                 </t>
                             </tbody>
                         </table>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2997,6 +3019,11 @@
                             <div id="right-elements" t-attf-class="#{'col-5 mt-5' if report_type == 'pdf' else 'col-12 col-md-5'} ms-5 d-inline-block float-end">
                                 <div id="total" class="clearfix row">
 >>>>>>> upstream/18.0
+=======
+                        <div class="overflow-hidden">
+                            <div id="right-elements" t-attf-class="#{'col-5 mt-5' if report_type == 'pdf' else 'col-12 col-md-5'} ms-5 d-inline-block float-end">
+                                <div id="total" class="clearfix row">
+>>>>>>> upstream/18.0
                                     <div class="ms-auto">
                                         <table class="o_total_table table table-borderless avoid-page-break-inside">
 
@@ -3085,8 +3112,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                                                 <i class="oe_form_field text-end oe_payment_label">Paid on <t t-out="payment_vals['date']" t-options='{"widget": "date"}'>2021-09-19</t></i>
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3305,6 +3335,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3483,6 +3516,7 @@
                                     <div class="oe_structure"/>
                                 </t>
                             </div>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3932,6 +3966,9 @@
 =======
                             <div id="payment_term" class="clearfix mt-3">
 >>>>>>> upstream/18.0
+=======
+                            <div id="payment_term" class="clearfix mt-3">
+>>>>>>> upstream/18.0
                                 <div class="justify-text">
                                     <p t-if="not is_html_empty(o.fiscal_position_id.note)" name="note" class="mb-2">
                                         <span t-field="o.fiscal_position_id.note"/>
@@ -4031,6 +4068,7 @@
 
                 <t t-foreach="subtotal['tax_groups']" t-as="tax_group">
                     <tr class="o_taxes">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4481,6 +4519,11 @@
                                 <span t-out="tax_group['group_name']">Tax 15%</span>
 >>>>>>> upstream/18.0
 =======
+                            <td style="max-width: 200px;">
+                                <span t-out="tax_group['group_name']">Tax 15%</span>
+>>>>>>> upstream/18.0
+=======
+                        <t t-if="same_tax_base or tax_group['display_base_amount_currency'] is False">
                             <td style="max-width: 200px;">
                                 <span t-out="tax_group['group_name']">Tax 15%</span>
 >>>>>>> upstream/18.0

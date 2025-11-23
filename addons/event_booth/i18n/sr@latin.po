@@ -1,12 +1,19 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* event_booth
 #
+=======
+# * event_booth
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 17.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-26 21:55+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2023-10-26 21:55+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -14,6 +21,19 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
+=======
+"PO-Revision-Date: 2025-11-21 06:41+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Serbian (Latin script) <https://translate.odoo.com/projects/"
+"odoo-18/event_booth/sr_Latn/>\n"
+"Language: sr@latin\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: event_booth
 #: model_terms:ir.ui.view,arch_db:event_booth.event_booth_booked_template
@@ -105,49 +125,85 @@ msgstr ""
 #. module: event_booth
 #: model:ir.model.fields,field_description:event_booth.field_event_booth__message_needaction
 msgid "Action Needed"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Potrebna akcija"
+>>>>>>> upstream/18.0
 
 #. module: event_booth
 #: model:ir.model.fields,field_description:event_booth.field_event_booth_category__active
 msgid "Active"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aktivno"
+>>>>>>> upstream/18.0
 
 #. module: event_booth
 #: model:ir.model.fields,field_description:event_booth.field_event_booth__activity_ids
 msgid "Activities"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aktivnosti"
+>>>>>>> upstream/18.0
 
 #. module: event_booth
 #: model:ir.model.fields,field_description:event_booth.field_event_booth__activity_exception_decoration
 msgid "Activity Exception Decoration"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dekoracija izuzeć́a aktivnosti"
+>>>>>>> upstream/18.0
 
 #. module: event_booth
 #: model:ir.model.fields,field_description:event_booth.field_event_booth__activity_state
 msgid "Activity State"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stanje aktivnosti"
+>>>>>>> upstream/18.0
 
 #. module: event_booth
 #: model:ir.model.fields,field_description:event_booth.field_event_booth__activity_type_icon
 msgid "Activity Type Icon"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ikonica vrste aktivnosti"
+>>>>>>> upstream/18.0
 
 #. module: event_booth
 #: model_terms:ir.ui.view,arch_db:event_booth.event_booth_category_view_form
 #: model_terms:ir.ui.view,arch_db:event_booth.event_booth_category_view_search
 msgid "Archived"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Arhivirano"
+>>>>>>> upstream/18.0
 
 #. module: event_booth
 #: model:ir.model.fields,field_description:event_booth.field_event_booth__message_attachment_count
 msgid "Attachment Count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Brojač priloga"
+>>>>>>> upstream/18.0
 
 #. module: event_booth
 #: model:ir.model.fields.selection,name:event_booth.selection__event_booth__state__available
 #: model_terms:ir.ui.view,arch_db:event_booth.event_booth_view_search
 msgid "Available"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dostupno"
+>>>>>>> upstream/18.0
 
 #. module: event_booth
 #: model:ir.model.fields,field_description:event_booth.field_event_event__event_booth_count_available
@@ -254,34 +310,54 @@ msgstr ""
 #: model:ir.model.fields,field_description:event_booth.field_event_booth_category__create_uid
 #: model:ir.model.fields,field_description:event_booth.field_event_type_booth__create_uid
 msgid "Created by"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kreirao"
+>>>>>>> upstream/18.0
 
 #. module: event_booth
 #: model:ir.model.fields,field_description:event_booth.field_event_booth__create_date
 #: model:ir.model.fields,field_description:event_booth.field_event_booth_category__create_date
 #: model:ir.model.fields,field_description:event_booth.field_event_type_booth__create_date
 msgid "Created on"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kreirano"
+>>>>>>> upstream/18.0
 
 #. module: event_booth
 #: model:ir.model.fields,field_description:event_booth.field_event_booth_category__description
 #: model_terms:ir.ui.view,arch_db:event_booth.event_booth_category_view_form
 msgid "Description"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Opis"
+>>>>>>> upstream/18.0
 
 #. module: event_booth
 #: model:ir.model.fields,field_description:event_booth.field_event_booth__display_name
 #: model:ir.model.fields,field_description:event_booth.field_event_booth_category__display_name
 #: model:ir.model.fields,field_description:event_booth.field_event_type_booth__display_name
 msgid "Display Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Naziv za prikaz"
+>>>>>>> upstream/18.0
 
 #. module: event_booth
 #: model:ir.model,name:event_booth.model_event_event
 #: model:ir.model.fields,field_description:event_booth.field_event_booth__event_id
 #: model_terms:ir.ui.view,arch_db:event_booth.event_booth_view_search
 msgid "Event"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Događaj"
+>>>>>>> upstream/18.0
 
 #. module: event_booth
 #: model:ir.model,name:event_booth.model_event_booth
@@ -309,12 +385,20 @@ msgstr ""
 #: model:ir.model.fields,field_description:event_booth.field_event_booth__event_type_id
 #: model:ir.model.fields,field_description:event_booth.field_event_type_booth__event_type_id
 msgid "Event Category"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kategorija događaja"
+>>>>>>> upstream/18.0
 
 #. module: event_booth
 #: model:ir.model,name:event_booth.model_event_type
 msgid "Event Template"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Šablon događaja"
+>>>>>>> upstream/18.0
 
 #. module: event_booth
 #: model_terms:ir.ui.view,arch_db:event_booth.event_type_booth_view_form_from_type
@@ -337,17 +421,29 @@ msgstr ""
 #. module: event_booth
 #: model:ir.model.fields,field_description:event_booth.field_event_booth__message_follower_ids
 msgid "Followers"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pratioci"
+>>>>>>> upstream/18.0
 
 #. module: event_booth
 #: model:ir.model.fields,field_description:event_booth.field_event_booth__message_partner_ids
 msgid "Followers (Partners)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pratioci (Partneri)"
+>>>>>>> upstream/18.0
 
 #. module: event_booth
 #: model:ir.model.fields,help:event_booth.field_event_booth__activity_type_icon
 msgid "Font awesome icon e.g. fa-tasks"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Font awesome ikonica npr. fa-tasks"
+>>>>>>> upstream/18.0
 
 #. module: event_booth
 #: model:event.booth,name:event_booth.event_booth_20_event_7
@@ -368,104 +464,180 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:event_booth.event_booth_view_search
 #: model_terms:ir.ui.view,arch_db:event_booth.event_type_booth_view_search
 msgid "Group By"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Grupiši po"
+>>>>>>> upstream/18.0
 
 #. module: event_booth
 #: model:ir.model.fields,field_description:event_booth.field_event_booth__has_message
 msgid "Has Message"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ima poruku"
+>>>>>>> upstream/18.0
 
 #. module: event_booth
 #: model:ir.model.fields,field_description:event_booth.field_event_booth__id
 #: model:ir.model.fields,field_description:event_booth.field_event_booth_category__id
 #: model:ir.model.fields,field_description:event_booth.field_event_type_booth__id
 msgid "ID"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ID"
+>>>>>>> upstream/18.0
 
 #. module: event_booth
 #: model:ir.model.fields,field_description:event_booth.field_event_booth__activity_exception_icon
 msgid "Icon"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ikona"
+>>>>>>> upstream/18.0
 
 #. module: event_booth
 #: model:ir.model.fields,help:event_booth.field_event_booth__activity_exception_icon
 msgid "Icon to indicate an exception activity."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ikonica koja označava aktivnost izuzetka."
+>>>>>>> upstream/18.0
 
 #. module: event_booth
 #: model:ir.model.fields,help:event_booth.field_event_booth__message_needaction
 msgid "If checked, new messages require your attention."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ako je označeno, nove poruke zahtevaju vašu pažnju."
+>>>>>>> upstream/18.0
 
 #. module: event_booth
 #: model:ir.model.fields,help:event_booth.field_event_booth__message_has_error
 #: model:ir.model.fields,help:event_booth.field_event_booth__message_has_sms_error
 msgid "If checked, some messages have a delivery error."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ako je označeno, neke poruke imaju grešku u isporuci."
+>>>>>>> upstream/18.0
 
 #. module: event_booth
 #: model:ir.model.fields,field_description:event_booth.field_event_booth_category__image_1920
 msgid "Image"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Slika"
+>>>>>>> upstream/18.0
 
 #. module: event_booth
 #: model:ir.model.fields,field_description:event_booth.field_event_booth_category__image_1024
 msgid "Image 1024"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Slika 1024"
+>>>>>>> upstream/18.0
 
 #. module: event_booth
 #: model:ir.model.fields,field_description:event_booth.field_event_booth_category__image_128
 msgid "Image 128"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Slika 128"
+>>>>>>> upstream/18.0
 
 #. module: event_booth
 #: model:ir.model.fields,field_description:event_booth.field_event_booth_category__image_256
 msgid "Image 256"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Slika 256"
+>>>>>>> upstream/18.0
 
 #. module: event_booth
 #: model:ir.model.fields,field_description:event_booth.field_event_booth_category__image_512
 msgid "Image 512"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Slika 512"
+>>>>>>> upstream/18.0
 
 #. module: event_booth
 #: model:ir.model.fields,field_description:event_booth.field_event_booth__is_available
 msgid "Is Available"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Je dostupno"
+>>>>>>> upstream/18.0
 
 #. module: event_booth
 #: model:ir.model.fields,field_description:event_booth.field_event_booth__message_is_follower
 msgid "Is Follower"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Je Pratilac"
+>>>>>>> upstream/18.0
 
 #. module: event_booth
 #: model:ir.model.fields,field_description:event_booth.field_event_booth__write_uid
 #: model:ir.model.fields,field_description:event_booth.field_event_booth_category__write_uid
 #: model:ir.model.fields,field_description:event_booth.field_event_type_booth__write_uid
 msgid "Last Updated by"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poslednje izmenio/la"
+>>>>>>> upstream/18.0
 
 #. module: event_booth
 #: model:ir.model.fields,field_description:event_booth.field_event_booth__write_date
 #: model:ir.model.fields,field_description:event_booth.field_event_booth_category__write_date
 #: model:ir.model.fields,field_description:event_booth.field_event_type_booth__write_date
 msgid "Last Updated on"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poslednje ažuriranje dana"
+>>>>>>> upstream/18.0
 
 #. module: event_booth
 #: model:ir.model.fields,field_description:event_booth.field_event_booth__message_has_error
 msgid "Message Delivery error"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Greška u isporuci poruke"
+>>>>>>> upstream/18.0
 
 #. module: event_booth
 #: model:ir.model.fields,field_description:event_booth.field_event_booth__message_ids
 msgid "Messages"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poruke"
+>>>>>>> upstream/18.0
 
 #. module: event_booth
 #: model:ir.model.fields,field_description:event_booth.field_event_booth__my_activity_date_deadline
 msgid "My Activity Deadline"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Rok moje aktivnosti"
+>>>>>>> upstream/18.0
 
 #. module: event_booth
 #: model:ir.model.fields,field_description:event_booth.field_event_booth__name
@@ -475,47 +647,83 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:event_booth.event_booth_view_search
 #: model_terms:ir.ui.view,arch_db:event_booth.event_type_booth_view_form_from_type
 msgid "Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Naziv"
+>>>>>>> upstream/18.0
 
 #. module: event_booth
 #: model:ir.model.fields,field_description:event_booth.field_event_booth__activity_calendar_event_id
 msgid "Next Activity Calendar Event"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sledeća aktivnost događaj u kalendaru"
+>>>>>>> upstream/18.0
 
 #. module: event_booth
 #: model:ir.model.fields,field_description:event_booth.field_event_booth__activity_date_deadline
 msgid "Next Activity Deadline"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Rok za sledeću aktivnosti"
+>>>>>>> upstream/18.0
 
 #. module: event_booth
 #: model:ir.model.fields,field_description:event_booth.field_event_booth__activity_summary
 msgid "Next Activity Summary"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pregled sledeće aktivnosti"
+>>>>>>> upstream/18.0
 
 #. module: event_booth
 #: model:ir.model.fields,field_description:event_booth.field_event_booth__activity_type_id
 msgid "Next Activity Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tip sledeće aktivnosti"
+>>>>>>> upstream/18.0
 
 #. module: event_booth
 #: model:ir.model.fields,field_description:event_booth.field_event_booth__message_needaction_counter
 msgid "Number of Actions"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Broj akcija"
+>>>>>>> upstream/18.0
 
 #. module: event_booth
 #: model:ir.model.fields,field_description:event_booth.field_event_booth__message_has_error_counter
 msgid "Number of errors"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Broj grešaka"
+>>>>>>> upstream/18.0
 
 #. module: event_booth
 #: model:ir.model.fields,help:event_booth.field_event_booth__message_needaction_counter
 msgid "Number of messages requiring action"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Broj poruka koje zahtevaju akciju"
+>>>>>>> upstream/18.0
 
 #. module: event_booth
 #: model:ir.model.fields,help:event_booth.field_event_booth__message_has_error_counter
 msgid "Number of messages with delivery error"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Broj poruka sa greškom u isporuci"
+>>>>>>> upstream/18.0
 
 #. module: event_booth
 #: model:event.booth,name:event_booth.event_booth_10_event_7
@@ -571,7 +779,11 @@ msgstr ""
 #. module: event_booth
 #: model:ir.model.fields,field_description:event_booth.field_event_booth__rating_ids
 msgid "Ratings"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ocene"
+>>>>>>> upstream/18.0
 
 #. module: event_booth
 #: model:ir.model.fields,field_description:event_booth.field_event_booth__partner_id
@@ -598,17 +810,29 @@ msgstr ""
 #. module: event_booth
 #: model:ir.model.fields,field_description:event_booth.field_event_booth__activity_user_id
 msgid "Responsible User"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odgovorni korisnik"
+>>>>>>> upstream/18.0
 
 #. module: event_booth
 #: model:ir.model.fields,field_description:event_booth.field_event_booth__message_has_sms_error
 msgid "SMS Delivery error"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Greška u dostavi SMS-a"
+>>>>>>> upstream/18.0
 
 #. module: event_booth
 #: model:ir.model.fields,field_description:event_booth.field_event_booth_category__sequence
 msgid "Sequence"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Niz"
+>>>>>>> upstream/18.0
 
 #. module: event_booth
 #: model:event.booth,name:event_booth.event_booth_0_event_2
@@ -632,7 +856,11 @@ msgstr ""
 #. module: event_booth
 #: model:ir.model.fields,field_description:event_booth.field_event_booth__state
 msgid "Status"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Status"
+>>>>>>> upstream/18.0
 
 #. module: event_booth
 #: model:ir.model.fields,help:event_booth.field_event_booth__activity_state
@@ -642,6 +870,13 @@ msgid ""
 "Today: Activity date is today\n"
 "Planned: Future activities."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Status na osnovu aktivnosti\n"
+"Isteklo: Datum postavljen kao rok je već prošao\n"
+"Danas: Datum aktivnosti je danas\n"
+"Planirano: Buduće aktivnosti."
+>>>>>>> upstream/18.0
 
 #. module: event_booth
 #: model:ir.model.fields,field_description:event_booth.field_event_event__event_booth_count
@@ -651,13 +886,21 @@ msgstr ""
 #. module: event_booth
 #: model:ir.model.fields,help:event_booth.field_event_booth__activity_exception_decoration
 msgid "Type of the exception activity on record."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zabeležen tip aktivnosti izuzeća."
+>>>>>>> upstream/18.0
 
 #. module: event_booth
 #: model:ir.model.fields.selection,name:event_booth.selection__event_booth__state__unavailable
 #: model_terms:ir.ui.view,arch_db:event_booth.event_booth_view_search
 msgid "Unavailable"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nedostupno"
+>>>>>>> upstream/18.0
 
 #. module: event_booth
 #: model:event.booth.category,name:event_booth.event_booth_category_vip
@@ -672,12 +915,20 @@ msgstr ""
 #. module: event_booth
 #: model:ir.model.fields,field_description:event_booth.field_event_booth__website_message_ids
 msgid "Website Messages"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Website poruke"
+>>>>>>> upstream/18.0
 
 #. module: event_booth
 #: model:ir.model.fields,help:event_booth.field_event_booth__website_message_ids
 msgid "Website communication history"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Istorija website komunikacije"
+>>>>>>> upstream/18.0
 
 #. module: event_booth
 #: model_terms:ir.ui.view,arch_db:event_booth.event_booth_category_view_form

@@ -548,7 +548,10 @@ class TestHttpStatic(TestHttpStaticCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -761,6 +764,7 @@ class TestHttpStatic(TestHttpStaticCommon):
             'name': 'dummy test_http test_static server',
             'smtp_host': 'localhost',
         })
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1071,6 +1075,8 @@ class TestHttpStatic(TestHttpStaticCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         record.smtp_ssl_certificate = b'non base64 value'
         self.assertDownload(
             f'/web/content/ir.mail_server/{record.id}/smtp_ssl_certificate',
@@ -1177,6 +1183,9 @@ class TestHttpStatic(TestHttpStaticCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

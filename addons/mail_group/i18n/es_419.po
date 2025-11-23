@@ -39,6 +39,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* mail_group
 # 
 # Translators:
@@ -293,6 +294,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # * mail_group
 #
 # Translators:
@@ -338,6 +341,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -420,6 +426,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-16 13:40+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -705,6 +712,9 @@ msgstr ""
 =======
 "PO-Revision-Date: 2025-10-29 16:29+0000\n"
 >>>>>>> upstream/18.0
+=======
+"PO-Revision-Date: 2025-11-20 15:37+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: \"Fernanda Alvarez (mfar)\" <mfar@odoo.com>\n"
 "Language-Team: Spanish (Latin America) <https://translate.odoo.com/projects/"
 "odoo-18/mail_group/es_419/>\n"
@@ -753,6 +763,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -919,12 +932,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                Solicitó cancelar su suscripción de la lista de envíos <strong t-out=\"object.name or ''\"/>.\n"
 "                <br/><br/>\n"
 "                Para confirmar, haga clic en el siguiente enlace: <strong t-if=\"ctx.get('token_url')\"><a t-att-href=\"ctx['token_url']\"><t t-out=\"ctx['token_url'] or ''\"/></a></strong>.\n"
 "                <br/><br/>\n"
 "                Si este fue un error o no solicitó esta acción, ignore este mensaje.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1048,6 +1064,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1154,15 +1173,25 @@ msgstr "<i class=\"fa fa-calendar\" role=\"img\" aria-label=\"Fecha\" title=\"Fe
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_groups
 msgid "<i class=\"fa fa-envelope-o me-1\" role=\"img\" aria-label=\"Alias\" title=\"Alias\"/>"
 msgstr ""
+<<<<<<< HEAD
 "<i class=\"fa fa-envelope-o me-1\" role=\"img\" aria-label=\"Seudónimo\" "
 "title=\"Seudónimo\"/>"
+=======
+"<i class=\"fa fa-envelope-o me-1\" role=\"img\" aria-label=\"Alias\" title="
+"\"Alias\"/>"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.group_name
 msgid "<i class=\"fa fa-envelope-o\" role=\"img\" aria-label=\"Alias\" title=\"Alias\"/>"
 msgstr ""
+<<<<<<< HEAD
 "<i class=\"fa fa-envelope-o\" role=\"img\" aria-label=\"Seudónimo\" "
 "title=\"Seudónimo\"/>"
+=======
+"<i class=\"fa fa-envelope-o\" role=\"img\" aria-label=\"Alias\" title="
+"\"Alias\"/>"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_groups
@@ -1266,8 +1295,13 @@ msgid ""
 "A Python dictionary that will be evaluated to provide default values when "
 "creating new records for this alias."
 msgstr ""
+<<<<<<< HEAD
 "Un diccionario de Python que se evaluará con el fin de proporcionar valores "
 "predeterminados cuando se creen nuevos registros para este seudónimo."
+=======
+"Un diccionario de Python que se evaluará con el fin de proporcionar los "
+"valores predeterminados al crear nuevos registros para este alias."
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_message_view_form
@@ -1305,7 +1339,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:mail_group.field_mail_group__alias_id
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_view_list
 msgid "Alias"
+<<<<<<< HEAD
 msgstr "Seudónimo"
+=======
+msgstr "Alias"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group__alias_contact
@@ -1315,12 +1353,20 @@ msgstr "Seudónimo del contacto de seguridad"
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group__alias_domain_id
 msgid "Alias Domain"
+<<<<<<< HEAD
 msgstr "Dominio del seudónimo"
+=======
+msgstr "Dominio del alias"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group__alias_domain
 msgid "Alias Domain Name"
+<<<<<<< HEAD
 msgstr "Nombre del dominio del seudónimo"
+=======
+msgstr "Nombre del dominio del alias"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group__alias_full_name
@@ -1641,7 +1687,11 @@ msgid "Email Alias"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Seudónimo de correo electrónico"
+=======
+msgstr "Alias de correo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Alias de correo"
 >>>>>>> upstream/18.0
@@ -2787,8 +2837,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "El nombre del seudónimo de correo electrónico. Por ejemplo, \"trabajos\" si "
 "desea recibir correos electrónicos en <trabajos@ejemplo.odoo.com>."
+=======
+"El nombre del seudónimo de correo, por ejemplo, \"vacantes\" para recibir "
+"mensajes en <vacantes@ejemplo.odoo.com>."
+>>>>>>> upstream/18.0
 =======
 "El nombre del seudónimo de correo, por ejemplo, \"vacantes\" para recibir "
 "mensajes en <vacantes@ejemplo.odoo.com>."

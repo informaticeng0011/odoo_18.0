@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* event_product
+<<<<<<< HEAD
 # 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -961,11 +962,18 @@
 # Translators:
 # Raz Omer Hussein, 2025
 # 
+>>>>>>> upstream/18.0
+=======
+#
+# Translators:
+# Raz Omer Hussein, 2025
+#
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
 "PO-Revision-Date: 2024-09-29 00:00+0000\n"
 <<<<<<< HEAD
@@ -1613,6 +1621,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: ku\n"
+=======
+"POT-Creation-Date: 2025-11-14 18:38+0000\n"
+"PO-Revision-Date: 2024-09-29 00:00+0000\n"
+"Last-Translator: Raz Omer Hussein, 2025\n"
+"Language-Team: Kurdish (https://app.transifex.com/odoo/teams/41243/ku/)\n"
+"Language: ku\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+>>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: event_product
@@ -1793,7 +1811,11 @@ msgid "Currency"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "دراو"
+>>>>>>> upstream/18.0
 =======
 msgstr "دراو"
 >>>>>>> upstream/18.0
@@ -2417,7 +2439,11 @@ msgid "Description"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "وەسف"
+>>>>>>> upstream/18.0
 =======
 msgstr "وەسف"
 >>>>>>> upstream/18.0
@@ -2999,7 +3025,11 @@ msgid "Price"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "نرخ"
+>>>>>>> upstream/18.0
 =======
 msgstr "نرخ"
 >>>>>>> upstream/18.0
@@ -3530,7 +3560,11 @@ msgid "Product"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "بەرهەم"
+>>>>>>> upstream/18.0
 =======
 msgstr "بەرهەم"
 >>>>>>> upstream/18.0
@@ -4043,6 +4077,7 @@ msgid "Product Variant"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "جۆری بەرهەم"
@@ -4424,6 +4459,17 @@ msgstr "جۆری بەرهەم"
 >>>>>>> upstream/18.0
 =======
 msgstr "جۆری بەرهەم"
+>>>>>>> upstream/18.0
+=======
+msgstr "جۆری بەرهەم"
+
+#. module: event_product
+#. odoo-python
+#: code:addons/event_product/models/product_product.py:0
+msgid ""
+"Products linked to an event ticket must have \"%(tracking)s\" set to \"%"
+"(event)s\"."
+msgstr ""
 >>>>>>> upstream/18.0
 
 #. module: event_product

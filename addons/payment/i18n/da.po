@@ -1,7 +1,12 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* payment
 # 
+=======
+# * payment
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Mads Søndergaard, 2024
 # Sammi Iversen <sammi@vkdata.dk>, 2024
@@ -106,6 +111,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Kira Petersen, 2025
 >>>>>>> upstream/18.0
@@ -398,10 +404,15 @@
 # Kira Petersen, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+# Kira Petersen, 2025
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1157,6 +1168,19 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: da\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+=======
+"POT-Creation-Date: 2025-05-07 20:37+0000\n"
+"PO-Revision-Date: 2025-11-19 14:30+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Danish <https://translate.odoo.com/projects/odoo-18/payment/"
+"da/>\n"
+"Language: da\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_provider_onboarding_wizard___data_fetched
@@ -1413,7 +1437,11 @@ msgid "<strong>Warning</strong> You must be logged in to pay."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Advarsel</strong> Du skal være logget ind for at betale."
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Advarsel</strong> Du skal være logget ind for at betale."
 >>>>>>> upstream/18.0
@@ -1786,12 +1814,20 @@ msgstr ""
 #. module: payment
 #: model:payment.provider,name:payment.payment_provider_aps
 msgid "Amazon Payment Services"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Amazon Payment Services"
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model:payment.method,name:payment.payment_method_amex
 msgid "American Express"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "American Express"
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_link_wizard__amount
@@ -2134,7 +2170,11 @@ msgid "Benefit"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fordel"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fordel"
 >>>>>>> upstream/18.0
@@ -2807,7 +2847,11 @@ msgstr "Demo"
 #. module: payment
 #: model:payment.method,name:payment.payment_method_diners
 msgid "Diners Club International"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Diners Club International"
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model:ir.model.fields.selection,name:payment.selection__payment_provider__state__disabled
@@ -2904,7 +2948,11 @@ msgstr "Fejl: %s"
 #: model:ir.model.fields,field_description:payment.field_payment_method__support_express_checkout
 #: model:ir.model.fields,field_description:payment.field_payment_provider__support_express_checkout
 msgid "Express Checkout"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ekspresbetaling"
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_provider__express_checkout_form_view_id
@@ -2942,7 +2990,11 @@ msgstr ""
 #. module: payment
 #: model:payment.provider,name:payment.payment_provider_flutterwave
 msgid "Flutterwave"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Flutterwave"
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model:payment.method,name:payment.payment_method_frafinance
@@ -3147,7 +3199,11 @@ msgstr ""
 #. module: payment
 #: model:payment.method,name:payment.payment_method_jcb
 msgid "JCB"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "JCB"
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model:payment.method,name:payment.payment_method_jeniuspay
@@ -3294,7 +3350,11 @@ msgstr ""
 #. module: payment
 #: model:payment.method,name:payment.payment_method_maestro
 msgid "Maestro"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Maestro"
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model:payment.method,name:payment.payment_method_magna
@@ -3332,7 +3392,11 @@ msgstr ""
 #. module: payment
 #: model:payment.method,name:payment.payment_method_mastercard
 msgid "MasterCard"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "MasterCard"
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_provider__maximum_amount
@@ -3439,7 +3503,11 @@ msgid "Mercado Pago"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mercado Pago"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mercado Pago"
 >>>>>>> upstream/18.0
@@ -3691,7 +3759,11 @@ msgstr ""
 #. module: payment
 #: model:payment.provider,name:payment.payment_provider_mollie
 msgid "Mollie"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mollie"
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model:payment.method,name:payment.payment_method_multibanco
@@ -3779,7 +3851,11 @@ msgstr ""
 #. module: payment
 #: model:payment.provider,name:payment.payment_provider_nuvei
 msgid "Nuvei"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nuvei"
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model:payment.method,name:payment.payment_method_ovo
@@ -3969,7 +4045,11 @@ msgid "Operation not supported."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Handling ikke understøttet."
+>>>>>>> upstream/18.0
 =======
 msgstr "Handling ikke understøttet."
 >>>>>>> upstream/18.0
@@ -4539,7 +4619,11 @@ msgid "Payment methods"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Betalingsformer"
+>>>>>>> upstream/18.0
 =======
 msgstr "Betalingsformer"
 >>>>>>> upstream/18.0
@@ -4842,7 +4926,11 @@ msgstr ""
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.availability_report
 msgid "Payment providers"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Betalingsudbydere"
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model:ir.actions.server,name:payment.cron_post_process_payment_tx_ir_actions_server
@@ -4934,7 +5022,11 @@ msgid "Paytm"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Paytm"
+>>>>>>> upstream/18.0
 =======
 msgstr "Paytm"
 >>>>>>> upstream/18.0
@@ -5358,7 +5450,11 @@ msgid "Razorpay"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Razorpay"
+>>>>>>> upstream/18.0
 =======
 msgstr "Razorpay"
 >>>>>>> upstream/18.0
@@ -5655,7 +5751,11 @@ msgstr ""
 #. module: payment
 #: model:payment.method,name:payment.payment_method_rupay
 msgid "RuPay"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "RuPay"
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model:payment.method,name:payment.payment_method_sepa_direct_debit
@@ -6311,7 +6411,11 @@ msgid "UPI"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "UPI"
+>>>>>>> upstream/18.0
 =======
 msgstr "UPI"
 >>>>>>> upstream/18.0
@@ -6537,7 +6641,11 @@ msgstr ""
 #. module: payment
 #: model:payment.method,name:payment.payment_method_unionpay
 msgid "UnionPay"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "UnionPay"
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model:payment.method,name:payment.payment_method_uob
@@ -6574,7 +6682,11 @@ msgstr ""
 #. module: payment
 #: model:payment.method,name:payment.payment_method_visa
 msgid "VISA"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "VISA"
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model:ir.model.fields.selection,name:payment.selection__payment_transaction__operation__validation
@@ -6682,7 +6794,11 @@ msgstr "Worldline"
 #. module: payment
 #: model:payment.provider,name:payment.payment_provider_xendit
 msgid "Xendit"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Xendit"
+>>>>>>> upstream/18.0
 
 #. module: payment
 #. odoo-python
@@ -6840,7 +6956,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7258,6 +7377,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

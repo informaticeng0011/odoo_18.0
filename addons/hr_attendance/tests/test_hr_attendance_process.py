@@ -78,7 +78,11 @@ from odoo.tests import new_test_user
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tests.common import tagged, TransactionCase
+=======
+from odoo.tests.common import tagged, TransactionCase, freeze_time
+>>>>>>> upstream/18.0
 =======
 from odoo.tests.common import tagged, TransactionCase, freeze_time
 >>>>>>> upstream/18.0
@@ -401,7 +405,10 @@ class TestHrAttendance(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -655,6 +662,9 @@ class TestHrAttendance(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -891,7 +901,10 @@ class TestHrAttendance(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1134,6 +1147,9 @@ class TestHrAttendance(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

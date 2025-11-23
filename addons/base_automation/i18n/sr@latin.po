@@ -1,16 +1,25 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* base_automation
+=======
+# * base_automation
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Uros Kalajdzic <ukalajdzic@gmail.com>, 2022
 # Martin Trigaux, 2022
 # Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>, 2022
+<<<<<<< HEAD
 #
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.5alpha1\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -246,6 +255,20 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+=======
+"POT-Creation-Date: 2025-09-27 01:48+0000\n"
+"PO-Revision-Date: 2025-11-21 06:40+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Serbian (Latin script) <https://translate.odoo.com/projects/"
+"odoo-18/base_automation/sr_Latn/>\n"
+"Language: sr@latin\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #. odoo-javascript
@@ -336,6 +359,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 msgid ""
 "<span invisible=\"evaluation_type != 'value'\">to</span>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -561,6 +585,9 @@ msgid ""
 =======
 "                                                        <span "
 >>>>>>> upstream/18.0
+=======
+"                                                        <span "
+>>>>>>> upstream/18.0
 "invisible=\"evaluation_type != 'equation'\">as</span>"
 msgstr ""
 
@@ -609,7 +636,11 @@ msgstr "Naziv radnje"
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__action_server_ids
 msgid "Actions"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Radnje"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
@@ -630,7 +661,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/base_automation/static/src/base_automation_actions_one2many_field.js:0
 msgid "Add followers"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dodaj pratioce"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #. odoo-python
@@ -656,6 +691,7 @@ msgstr ""
 #. module: base_automation
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_kanban
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -825,6 +861,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid "Archived"
 msgstr "Arhivirano"
 
@@ -840,7 +878,11 @@ msgstr ""
 #: model:ir.model.fields.selection,name:base_automation.selection__ir_actions_server__usage__base_automation
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 msgid "Automation Rule"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pravilo automatizacije"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__name
@@ -887,7 +929,11 @@ msgstr ""
 #. odoo-python
 #: code:addons/base_automation/models/ir_actions_server.py:0
 msgid "Compute"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izracunaj"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #. odoo-python
@@ -927,7 +973,11 @@ msgstr "Kreirano"
 #. odoo-javascript
 #: code:addons/base_automation/static/src/base_automation_trigger_selection_field.js:0
 msgid "Custom"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prilagođeno"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
@@ -978,7 +1028,11 @@ msgstr ""
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__description
 msgid "Description"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Opis"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #. odoo-javascript
@@ -1013,7 +1067,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/base_automation/static/src/base_automation_actions_one2many_field.js:0
 msgid "Email"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "E-mail"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #. odoo-javascript
@@ -1144,8 +1202,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If present, this condition must be satisfied before the update of the record."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1318,6 +1379,9 @@ msgid "Include Archived"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1464,7 +1528,11 @@ msgstr ""
 #. module: base_automation
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 msgid "Logs"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Logovi"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #. odoo-python
@@ -1493,6 +1561,7 @@ msgstr "Naziv modela"
 #. odoo-python
 #: code:addons/base_automation/models/ir_actions_server.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1775,6 +1844,10 @@ msgid ""
 "Model of action %(action_name)s should match the one from automated rule %"
 "(rule_name)s."
 >>>>>>> upstream/18.0
+=======
+"Model of action %(action_name)s should match the one from automated rule %"
+"(rule_name)s."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: base_automation
@@ -1806,7 +1879,11 @@ msgstr ""
 #. module: base_automation
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 msgid "Notes"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Beleške"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__on_change_field_ids
@@ -1920,6 +1997,7 @@ msgstr ""
 #. module: base_automation
 #. odoo-javascript
 #: code:addons/base_automation/static/src/base_automation_actions_one2many_field.js:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2146,6 +2224,10 @@ msgid "Send SMS"
 msgid "Send SMS"
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+msgid "Send SMS"
+msgstr "Šalji SMS"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #. odoo-python
@@ -2225,7 +2307,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2399,6 +2484,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2514,6 +2600,12 @@ msgstr ""
 #: code:addons/base_automation/static/src/base_automation_actions_one2many_field.js:0
 msgid "Send email"
 msgstr ""
+=======
+#. odoo-javascript
+#: code:addons/base_automation/static/src/base_automation_actions_one2many_field.js:0
+msgid "Send email"
+msgstr "Pošalji email"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #. odoo-python
@@ -2638,8 +2730,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The \"%(trigger_value)s\" %(trigger_label)s can only be used with the "
 "\"%(state_value)s\" action type"
+=======
+"The \"%(trigger_value)s\" %(trigger_label)s can only be used with the \"%"
+"(state_value)s\" action type"
+>>>>>>> upstream/18.0
 =======
 "The \"%(trigger_value)s\" %(trigger_label)s can only be used with the \"%"
 "(state_value)s\" action type"
@@ -2951,7 +3048,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3123,6 +3223,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3320,6 +3423,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__trg_field_ref_display_name
 msgid "Trigger Reference Display Name"
 msgstr ""
@@ -3440,11 +3544,20 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:base_automation.ir_actions_server_view_form_automation
 msgid "Type"
 msgstr ""
+=======
+#: model_terms:ir.ui.view,arch_db:base_automation.ir_actions_server_view_form_automation
+msgid "Type"
+msgstr "Vrsta"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 msgid "URL"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "URL"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
@@ -3455,7 +3568,11 @@ msgstr ""
 #. odoo-python
 #: code:addons/base_automation/models/ir_actions_server.py:0
 msgid "Update"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ažuriraj"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #. odoo-javascript
@@ -3466,7 +3583,11 @@ msgstr ""
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__url
 msgid "Url"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Url"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_ir_actions_server__usage
@@ -3517,7 +3638,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/base_automation/static/src/base_automation_actions_one2many_field.js:0
 msgid "Weeks"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nedelje"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model:ir.model.fields,help:base_automation.field_base_automation__trg_date_calendar_id

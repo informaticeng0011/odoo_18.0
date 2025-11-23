@@ -73,8 +73,12 @@ import { leave, runAllTimers } from "@odoo/hoot-dom";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { withUser } from "@web/../tests/_framework/mock_server/mock_server";
 import { Command, serverState } from "@web/../tests/web_test_helpers";
+=======
+import { Command, serverState, withUser } from "@web/../tests/web_test_helpers";
+>>>>>>> upstream/18.0
 =======
 import { Command, serverState, withUser } from "@web/../tests/web_test_helpers";
 >>>>>>> upstream/18.0
@@ -610,6 +614,7 @@ test("chat bubbles are synced between tabs", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains(".o-mail-ChatBubble", { target: tab1 });
     await contains(".o-mail-ChatBubble", { target: tab2 });
     await runAllTimers(); // Wait for bus service to fully load
@@ -620,6 +625,8 @@ test("chat bubbles are synced between tabs", async () => {
     await click(".o-mail-ChatBubble[name='Marc'] .o-mail-ChatBubble-close", { target: tab1 });
     await contains(".o-mail-ChatBubble[name='Marc']", { target: tab2, count: 0 }); // close sync
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -842,6 +849,9 @@ test("chat bubbles are synced between tabs", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

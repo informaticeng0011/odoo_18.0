@@ -79,7 +79,11 @@ from odoo.addons.sale_timesheet.tests.common import TestCommonSaleTimesheet
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tests import Form, tagged
+=======
+from odoo.tests import Form, tagged, new_test_user
+>>>>>>> upstream/18.0
 =======
 from odoo.tests import Form, tagged, new_test_user
 >>>>>>> upstream/18.0
@@ -379,7 +383,10 @@ class TestSaleTimesheet(TestCommonSaleTimesheet):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -632,6 +639,9 @@ class TestSaleTimesheet(TestCommonSaleTimesheet):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1838,7 +1848,10 @@ class TestSaleTimesheet(TestCommonSaleTimesheet):
         self.assertEqual(timesheet.timesheet_invoice_type, 'billable_time')
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_linked_timesheet_after_invoice_reversal(self):
         """Test that uneditable timesheet entries aren't linked to a reversed invoice form"""
 
@@ -1934,6 +1947,9 @@ class TestSaleTimesheet(TestCommonSaleTimesheet):
         self.assertFalse(timesheet1.timesheet_invoice_id, "Timesheet1 should be cleared after partial refund of its task")
         self.assertEqual(timesheet2.timesheet_invoice_id, invoice2, "Timesheet2 should still be linked to the original invoice")
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 @tagged('-at_install', 'post_install')

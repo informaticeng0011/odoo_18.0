@@ -542,8 +542,13 @@ class TestSaleTimesheetProjectProfitability(TestCommonSaleTimesheet):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         saleorder_revenue = self.env['sale.order']
         saleOrderLine_revenue = self.env['sale.order.line']
+=======
+        saleorder_revenue = self.env['sale.order'].with_context(tracking_disable=True)
+        saleOrderLine_revenue = self.env['sale.order.line'].with_context(tracking_disable=True)
+>>>>>>> upstream/18.0
 =======
         saleorder_revenue = self.env['sale.order'].with_context(tracking_disable=True)
         saleOrderLine_revenue = self.env['sale.order.line'].with_context(tracking_disable=True)
@@ -741,9 +746,15 @@ class TestSaleTimesheetProjectProfitability(TestCommonSaleTimesheet):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'product_id':product_profitability_items.id,
             'product_uom_qty':10,
             'order_id':sale_order_revenue.id,
+=======
+            'product_id': product_profitability_items.id,
+            'product_uom_qty': 10,
+            'order_id': sale_order_revenue.id,
+>>>>>>> upstream/18.0
 =======
             'product_id': product_profitability_items.id,
             'product_uom_qty': 10,
@@ -1005,7 +1016,10 @@ class TestSaleTimesheetProjectProfitability(TestCommonSaleTimesheet):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1124,6 +1138,9 @@ class TestSaleTimesheetProjectProfitability(TestCommonSaleTimesheet):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

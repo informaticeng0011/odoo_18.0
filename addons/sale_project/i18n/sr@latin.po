@@ -1,12 +1,19 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* sale_project
 #
+=======
+# * sale_project
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-06 18:38+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2025-06-06 18:38+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -14,6 +21,19 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
+=======
+"PO-Revision-Date: 2025-11-21 06:41+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Serbian (Latin script) <https://translate.odoo.com/projects/"
+"odoo-18/sale_project/sr_Latn/>\n"
+"Language: sr@latin\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #. odoo-python
@@ -151,12 +171,20 @@ msgstr ""
 #. odoo-python
 #: code:addons/sale_project/models/sale_order_line.py:0
 msgid "Cancelled"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Otkazano"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #: model:ir.model,name:sale_project.model_res_config_settings
 msgid "Config Settings"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Podešavanje konfiguracije"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #. odoo-python
@@ -179,7 +207,11 @@ msgstr ""
 #. odoo-python
 #: code:addons/sale_project/models/project_project.py:0
 msgid "Create a customer invoice"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kreiraj fakturu kupcu"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #. odoo-python
@@ -205,7 +237,11 @@ msgstr ""
 #. odoo-python
 #: code:addons/sale_project/models/project_project.py:0
 msgid "Create a vendor bill"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kreirajte račun dobavljača"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #. odoo-python
@@ -220,6 +256,10 @@ msgid ""
 "Create invoices, register payments and keep track of the discussions with "
 "your customers."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Pravite fakture, registrujte uplate i budite u toku sa svojim klijentima."
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #. odoo-python
@@ -233,7 +273,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale_project.field_product_product__service_tracking
 #: model:ir.model.fields,field_description:sale_project.field_product_template__service_tracking
 msgid "Create on Order"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kreiraj po narudžbini"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #. odoo-python
@@ -247,13 +291,21 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale_project.field_project_project__partner_id
 #: model:ir.model.fields,field_description:sale_project.field_project_task__partner_id
 msgid "Customer"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kupac"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #. odoo-python
 #: code:addons/sale_project/models/project_project.py:0
 msgid "Customer Invoices"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fakture kupca"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #: model_terms:ir.ui.view,arch_db:sale_project.product_template_form_view_invoice_policy_inherit_sale_project
@@ -264,7 +316,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/sale_project/static/src/components/project_right_side_panel/components/project_profitability_section.xml:0
 msgid "Delivered"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Isporuceno"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #: model:product.template,name:sale_project.product_service_create_project_only_product_template
@@ -280,7 +336,11 @@ msgstr ""
 #. odoo-python
 #: code:addons/sale_project/models/sale_order_line.py:0
 msgid "Done"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Završeno"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #. odoo-python
@@ -302,7 +362,11 @@ msgstr ""
 #. odoo-python
 #: code:addons/sale_project/models/sale_order_line.py:0
 msgid "In Progress"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "U radu"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #. odoo-python
@@ -320,7 +384,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/sale_project/static/src/components/project_right_side_panel/components/project_profitability_section.xml:0
 msgid "Invoiced"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fakturisano"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #. odoo-python
@@ -328,22 +396,38 @@ msgstr ""
 #: model:ir.embedded.actions,name:sale_project.project_embedded_action_invoices
 #: model:ir.embedded.actions,name:sale_project.project_embedded_action_invoices_dashboard
 msgid "Invoices"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fakture"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #: model_terms:ir.ui.view,arch_db:sale_project.product_template_form_view_invoice_policy_inherit_sale_project
 msgid "Invoicing Policy"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Politika fakturisanja"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #: model:ir.model,name:sale_project.model_account_move
 msgid "Journal Entry"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sadržaj dnevnika"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #: model:ir.model,name:sale_project.model_account_move_line
 msgid "Journal Item"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stavka izveštaja"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #. odoo-javascript
@@ -447,12 +531,20 @@ msgstr ""
 #. module: sale_project
 #: model:ir.model,name:sale_project.model_product_template
 msgid "Product"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Proizvod"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #: model:ir.model,name:sale_project.model_product_product
 msgid "Product Variant"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Varijante proizvoda"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #: model:ir.model.fields,help:sale_project.field_project_project__reinvoiced_sale_order_id
@@ -470,7 +562,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale_project.field_sale_report__project_id
 #: model:ir.model.fields.selection,name:sale_project.selection__product_template__service_tracking__project_only
 msgid "Project"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Projekat"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #: model:ir.model.fields.selection,name:sale_project.selection__product_template__service_tracking__task_in_project
@@ -480,7 +576,11 @@ msgstr ""
 #. module: sale_project
 #: model:ir.model.fields,field_description:sale_project.field_sale_order__project_account_id
 msgid "Project Account"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Projektni račun"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #: model:ir.model,name:sale_project.model_project_milestone
@@ -508,12 +608,20 @@ msgstr ""
 #: code:addons/sale_project/models/sale_order.py:0
 #: model_terms:ir.ui.view,arch_db:sale_project.view_order_form_inherit_sale_project
 msgid "Projects"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Projekti"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #: model:ir.model.fields,field_description:sale_project.field_project_milestone__product_uom_qty
 msgid "Quantity"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Količina"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #: model:ir.model.fields,field_description:sale_project.field_project_milestone__quantity_percentage
@@ -524,7 +632,11 @@ msgstr ""
 #. module: sale_project
 #: model:ir.model,name:sale_project.model_sale_order_template_line
 msgid "Quotation Template Line"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Linija šablona ponude"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #: model_terms:ir.ui.view,arch_db:sale_project.view_edit_project_inherit_form
@@ -534,7 +646,11 @@ msgstr ""
 #. module: sale_project
 #: model:ir.model,name:sale_project.model_sale_report
 msgid "Sales Analysis Report"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izveštaj Analiza prodaje"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #. odoo-python
@@ -546,7 +662,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale_project.field_report_project_task_user__sale_order_id
 #: model:project.project,name:sale_project.so_template_project
 msgid "Sales Order"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Porudžbenica"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #. odoo-python
@@ -558,7 +678,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sale_project.project_sharing_inherit_project_task_view_form
 #: model_terms:ir.ui.view,arch_db:sale_project.view_sale_project_inherit_form
 msgid "Sales Order Item"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stavka porudžbenice"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #: model:ir.model.fields,help:sale_project.field_project_milestone__sale_line_id
@@ -584,7 +708,11 @@ msgstr ""
 #. module: sale_project
 #: model:ir.model,name:sale_project.model_sale_order_line
 msgid "Sales Order Line"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Linija porudžbenice"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #. odoo-python
@@ -592,7 +720,11 @@ msgstr ""
 #: model:ir.embedded.actions,name:sale_project.project_embedded_action_sales_orders
 #: model:ir.embedded.actions,name:sale_project.project_embedded_action_sales_orders_dashboard
 msgid "Sales Orders"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Porudžbenice"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #: model:ir.model.fields,help:sale_project.field_project_project__sale_line_id
@@ -638,18 +770,30 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/sale_project/static/src/components/project_right_side_panel/components/project_profitability_section.xml:0
 msgid "Sold"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prodato"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #: model:ir.model.fields,field_description:sale_project.field_project_task__sale_order_state
 msgid "Status"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Status"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #: model:ir.model,name:sale_project.model_project_task
 #: model:ir.model.fields.selection,name:sale_project.selection__product_template__service_tracking__task_global_project
 msgid "Task"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zadatak"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #. odoo-python
@@ -665,12 +809,20 @@ msgstr ""
 #. module: sale_project
 #: model:project.project,label_tasks:sale_project.so_template_project
 msgid "Tasks"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zadaci"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #: model:ir.model,name:sale_project.model_report_project_task_user
 msgid "Tasks Analysis"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Analiza zadataka"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #. odoo-python
@@ -726,7 +878,11 @@ msgstr ""
 #. odoo-python
 #: code:addons/sale_project/models/sale_order_line.py:0
 msgid "To Do"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Za Uraditi"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #: model:ir.model.fields,field_description:sale_project.field_project_task__task_to_invoice
@@ -737,14 +893,22 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale_project.field_product_product__service_type
 #: model:ir.model.fields,field_description:sale_project.field_product_template__service_type
 msgid "Track Service"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prati servise"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #. odoo-python
 #: code:addons/sale_project/models/project_project.py:0
 #: model:ir.embedded.actions,name:sale_project.project_embedded_action_vendor_bills
 msgid "Vendor Bills"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Računi dobavljača"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #: model_terms:ir.ui.view,arch_db:sale_project.project_milestone_view_tree

@@ -1,5 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* hr
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -194,11 +195,16 @@
 =======
 #
 >>>>>>> upstream/18.0
+=======
+# * hr
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Gautam Hingrajiya, 2024
 # Martin Trigaux, 2024
 # Wil Odoo, 2024
 # Manav Shah, 2025
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -612,10 +618,16 @@
 # Ujjawal Pathak, 2025
 #
 >>>>>>> upstream/18.0
+=======
+# Ujjawal Pathak, 2025
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -943,10 +955,17 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Ujjawal Pathak, 2025\n"
 "Language-Team: Hindi (https://app.transifex.com/odoo/teams/41243/hi/)\n"
+=======
+"POT-Creation-Date: 2025-10-03 18:38+0000\n"
+"PO-Revision-Date: 2025-11-21 02:28+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Hindi <https://translate.odoo.com/projects/odoo-18/hr/hi/>\n"
+>>>>>>> upstream/18.0
 "Language: hi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1090,12 +1109,20 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+=======
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_res_company__hr_presence_control_email_amount
 #: model:ir.model.fields,field_description:hr.field_res_config_settings__hr_presence_control_email_amount
 msgid "# emails to send"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "# भेजे जाने वाले ईमेल"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-python
@@ -1189,7 +1216,11 @@ msgid "%s (copy)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s (कॉपी)"
+>>>>>>> upstream/18.0
 =======
 msgstr "%s (कॉपी)"
 >>>>>>> upstream/18.0
@@ -1458,7 +1489,11 @@ msgstr "%s (कॉपी)"
 #. module: hr
 #: model:ir.actions.report,print_report_name:hr.hr_employee_print_badge
 msgid "'Badge - %s' % (object.name).replace('/', '')"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "'बैज - %s' % (object.name).replace('/', '')"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,job_details:hr.job_ceo
@@ -1469,7 +1504,11 @@ msgstr ""
 #: model_terms:hr.job,job_details:hr.job_marketing
 #: model_terms:hr.job,job_details:hr.job_trainee
 msgid "1 Onsite Interview"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "1 ऑनसाइट इंटरव्यू"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,job_details:hr.job_ceo
@@ -1480,7 +1519,11 @@ msgstr ""
 #: model_terms:hr.job,job_details:hr.job_marketing
 #: model_terms:hr.job,job_details:hr.job_trainee
 msgid "1 Phone Call"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "1 फ़ोन कॉल"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -1491,7 +1534,11 @@ msgstr ""
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "12 days / year, including <br>6 of your choice."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "साल में 12 दिन, जिसमें से <br>6 आपकी पसंद के होंगे।"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,job_details:hr.job_ceo
@@ -1502,7 +1549,11 @@ msgstr ""
 #: model_terms:hr.job,job_details:hr.job_marketing
 #: model_terms:hr.job,job_details:hr.job_trainee
 msgid "2 open days"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "2 खुले दिन"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,job_details:hr.job_ceo
@@ -1513,7 +1564,11 @@ msgstr ""
 #: model_terms:hr.job,job_details:hr.job_marketing
 #: model_terms:hr.job,job_details:hr.job_trainee
 msgid "4 Days after Interview"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इंटरव्यू के बाद 4 दिन"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-python
@@ -1522,6 +1577,7 @@ msgid ""
 "<b>Congratulations!</b> May I recommend you to setup an <a "
 "href=\"%s\">onboarding plan?</a>"
 msgstr ""
+<<<<<<< HEAD
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.hr_department_view_kanban
@@ -1814,6 +1870,16 @@ msgid ""
 "<i class=\"fa fa-building-o\" role=\"img\" aria-label=\"Company\" "
 "title=\"Company\"/>"
 >>>>>>> upstream/18.0
+=======
+"<b>बधाई हो!</b> क्या मैं आपको एक <a href=\"%s\">ऑनबोर्डिंग प्लान</a> सेट करने की सला"
+"ह दे सकता हूं?"
+
+#. module: hr
+#: model_terms:ir.ui.view,arch_db:hr.hr_department_view_kanban
+msgid ""
+"<i class=\"fa fa-building-o\" role=\"img\" aria-label=\"Company\" "
+"title=\"Company\"/>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr
@@ -1837,17 +1903,29 @@ msgstr ""
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "<small><b>READ</b></small>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<small><b>पढ़ें</b></small>"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_config_settings_view_form
 msgid "<span class=\"flex-shrink-0 ml8 me-2\">IP Addresses</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"flex-shrink-0 ml8 me-2\">आईपी एड्रेस</span>"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_config_settings_view_form
 msgid "<span class=\"flex-shrink-0 ml8 me-2\">Sent Emails</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"flex-shrink-0 ml8 me-2\">भेजे गए ईमेल</span>"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.hr_departure_wizard_view_form
@@ -1855,10 +1933,16 @@ msgid ""
 "<span class=\"o_form_label o_hr_form_label cursor-default\">Close "
 "Activities</span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"o_form_label o_hr_form_label cursor-default\">गतिविधियां बंद "
+"करें</span>"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.hr_departure_wizard_view_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2346,6 +2430,17 @@ msgid ""
 msgid ""
 "<span class=\"o_form_label o_hr_form_label cursor-default\">HR Info</span>"
 >>>>>>> upstream/18.0
+=======
+"<span class=\"o_form_label o_hr_form_label cursor-default\">Detailed Reason</"
+"span>"
+msgstr ""
+"<span class=\"o_form_label o_hr_form_label cursor-default\">पूरा वजह</span>"
+
+#. module: hr
+#: model_terms:ir.ui.view,arch_db:hr.hr_departure_wizard_view_form
+msgid ""
+"<span class=\"o_form_label o_hr_form_label cursor-default\">HR Info</span>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr
@@ -2355,21 +2450,39 @@ msgid ""
 "                                    Not Connected\n"
 "                                </span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"o_stat_text\">\n"
+"                                    कनेक्ट नहीं है\n"
+"                                </span>"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form_profile
 msgid "<span class=\"o_stat_text\">Connected Since</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">तब से कनेक्ट है</span>"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form_smartbutton_inherited
 msgid "<span class=\"o_stat_text\">Contacts</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">संपर्क</span>"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_partner_view_form
 msgid "<span class=\"o_stat_text\">Employee</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">कर्मचारी</span>"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,job_details:hr.job_ceo
@@ -2380,7 +2493,11 @@ msgstr ""
 #: model_terms:hr.job,job_details:hr.job_marketing
 #: model_terms:hr.job,job_details:hr.job_trainee
 msgid "<span class=\"text-muted small\">Days to get an Offer</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"text-muted small\">ऑफ़र मिलने में लगने वाले दिन</span>"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,job_details:hr.job_ceo
@@ -2391,7 +2508,11 @@ msgstr ""
 #: model_terms:hr.job,job_details:hr.job_marketing
 #: model_terms:hr.job,job_details:hr.job_trainee
 msgid "<span class=\"text-muted small\">Process</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"text-muted small\">प्रोसेस</span>"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,job_details:hr.job_ceo
@@ -2402,7 +2523,11 @@ msgstr ""
 #: model_terms:hr.job,job_details:hr.job_marketing
 #: model_terms:hr.job,job_details:hr.job_trainee
 msgid "<span class=\"text-muted small\">Time to Answer</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"text-muted small\">जवाब देने में लगा समय</span>"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.hr_department_view_kanban
@@ -2495,7 +2620,11 @@ msgid "<span>Reporting</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>रिपोर्टिंग</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>रिपोर्टिंग</span>"
 >>>>>>> upstream/18.0
@@ -2852,7 +2981,11 @@ msgid "<span>View</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>देखें</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>देखें</span>"
 >>>>>>> upstream/18.0
@@ -3121,7 +3254,11 @@ msgstr "<span>देखें</span>"
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.view_hr_job_form
 msgid "<span>new Employees</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>नए कर्मचारी</span>"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -3132,12 +3269,20 @@ msgstr ""
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "A full-time position <br>Attractive salary package."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एक फुल-टाइम नौकरी <br>एक अच्छा सैलरी पैकेज भी मिलेगा।"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.constraint,message:hr.constraint_hr_employee_user_uniq
 msgid "A user cannot be linked to multiple employees in the same company."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एक यूज़र को एक ही कंपनी में कई कर्मचारियों से नहीं जोड़ा जा सकता।"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-javascript
@@ -3149,7 +3294,11 @@ msgstr ""
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee_public__hr_icon_display__presence_absent
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee_public__hr_presence_state__absent
 msgid "Absent"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अनुपस्थित"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -3160,7 +3309,11 @@ msgstr ""
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Achieve monthly sales objectives"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "हर महीने की सेल्स के लक्ष्य पूरे करें"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department__message_needaction
@@ -3255,7 +3408,11 @@ msgid "Action Needed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कार्रवाई की ज़रूरत है"
+>>>>>>> upstream/18.0
 =======
 msgstr "कार्रवाई की ज़रूरत है"
 >>>>>>> upstream/18.0
@@ -3526,6 +3683,11 @@ msgstr "कार्रवाई की ज़रूरत है"
 msgid ""
 "Activate Remote Work to let Employees specify where they are working from."
 msgstr ""
+<<<<<<< HEAD
+=======
+"कर्मचारियों को यह बताने की अनुमति देने के लिए कि वे कहां (घर से या दफ़्तर से) काम कर रहे हैं"
+", रिमोट वर्क की सुविधा शुरू करें।"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department__active
@@ -3635,7 +3797,11 @@ msgid "Activity Exception Decoration"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऐक्टिविटी एक्सेप्शन डेकोरेशन"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऐक्टिविटी एक्सेप्शन डेकोरेशन"
 >>>>>>> upstream/18.0
@@ -3905,7 +4071,11 @@ msgstr "ऐक्टिविटी एक्सेप्शन डेकोर�
 #: model:ir.model,name:hr.model_mail_activity_plan
 #: model:ir.ui.menu,name:hr.menu_config_plan_plan
 msgid "Activity Plan"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऐक्टिविटी प्लान"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department__activity_state
@@ -3999,7 +4169,11 @@ msgid "Activity State"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऐक्टिविटी स्टेट"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऐक्टिविटी स्टेट"
 >>>>>>> upstream/18.0
@@ -4357,7 +4531,11 @@ msgid "Activity Type Icon"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऐक्टिविटी टाइप आइकॉन"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऐक्टिविटी टाइप आइकॉन"
 >>>>>>> upstream/18.0
@@ -4626,12 +4804,20 @@ msgstr "ऐक्टिविटी टाइप आइकॉन"
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_tree
 msgid "Activity by"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इनके ज़रिए गतिविधि"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model,name:hr.model_mail_activity_plan_template
 msgid "Activity plan template"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऐक्टिविटी प्लान टेम्प्लेट"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.actions.act_window,help:hr.mail_activity_plan_action
@@ -4639,11 +4825,21 @@ msgid ""
 "Activity plans are used to assign a list of activities in just a few clicks\n"
 "                    (e.g. \"Onboarding\", \"Offboarding\", ...)"
 msgstr ""
+<<<<<<< HEAD
+=======
+"गतिविधि योजनाओं का उपयोग केवल कुछ ही क्लिक में गतिविधियों की एक सूची असाइन करने के लिए "
+"किया जाता है\n"
+"                     (जैसे- \"ऑनबोर्डिंग\", \"ऑफ़बोर्डिंग\",...)"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model,name:hr.model_mail_activity_schedule
 msgid "Activity schedule plan Wizard"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऐक्टिविटी शेड्यूल प्लान विज़ॉर्ड"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.actions.act_window,help:hr.hr_employee_public_action
@@ -4655,7 +4851,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr.field_hr_departure_wizard__departure_description
 #: model:ir.model.fields,field_description:hr.field_hr_employee__departure_description
 msgid "Additional Information"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अतिरिक्त जानकारी"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-python
@@ -4664,12 +4864,21 @@ msgid ""
 "Additional Information: \n"
 " %(description)s"
 msgstr ""
+<<<<<<< HEAD
+=======
+"अतिरिक्त जानकारी: \n"
+" %(description)s"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__additional_note
 #: model:ir.model.fields,field_description:hr.field_res_users__additional_note
 msgid "Additional Note"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अतिरिक्त नोट"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -4680,12 +4889,20 @@ msgstr ""
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Additional languages"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अतिरिक्त भाषाएं"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:hr.department,name:hr.dep_administration
 msgid "Administration"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एडमिनिस्ट्रेशन"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -4696,7 +4913,11 @@ msgstr ""
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Administrative Work"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एडमिन वर्क"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:res.groups,name:hr.group_hr_manager
@@ -4789,7 +5010,11 @@ msgid "Administrator"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एडमिन"
+>>>>>>> upstream/18.0
 =======
 msgstr "एडमिन"
 >>>>>>> upstream/18.0
@@ -5058,12 +5283,20 @@ msgstr "एडमिन"
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_res_config_settings__module_hr_presence
 msgid "Advanced Presence Control"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एडवान्स प्रज़ेंस कंट्रोल"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_config_settings_view_form
 msgid "Advanced presence of employees"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कर्मचारियों की उन्नत उपस्थिति"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_crm_team__alias_contact
@@ -5071,7 +5304,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr.field_mail_group__alias_contact
 #: model:ir.model.fields,field_description:hr.field_maintenance_equipment_category__alias_contact
 msgid "Alias Contact Security"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "उपनाम संपर्क सुरक्षा"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_config_settings_view_form
@@ -5086,7 +5323,11 @@ msgstr ""
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "Application Settings"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऐप्लिकेशन सेटिंग"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.hr_departure_wizard_view_form
@@ -5179,7 +5420,11 @@ msgid "Apply"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अप्लाई करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "अप्लाई करें"
 >>>>>>> upstream/18.0
@@ -5448,19 +5693,31 @@ msgstr "अप्लाई करें"
 #. module: hr
 #: model:hr.contract.type,name:hr.contract_type_apprenticeship
 msgid "Apprenticeship"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अप्रेन्टस्शिप"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.hr_employee_public_view_form
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form_profile
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "Approvers"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अनुमति देने वाले"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.hr_department_view_kanban
 msgid "Archive"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "संग्रहित करें"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee__hr_icon_display__presence_archive
@@ -5566,7 +5823,11 @@ msgid "Archived"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "संग्रहीत किया गया"
+>>>>>>> upstream/18.0
 =======
 msgstr "संग्रहीत किया गया"
 >>>>>>> upstream/18.0
@@ -5889,6 +6150,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "As an employee of our company, you will <b>collaborate with each department to create and deploy\n"
 "                                disruptive products.</b> Come work at a growing company that offers great benefits with opportunities to\n"
 "                                moving forward and learn alongside accomplished leaders. We're seeking an experienced and outstanding member of staff.\n"
@@ -5896,6 +6158,8 @@ msgid ""
 "                                This position is both <b>creative and rigorous</b> by nature you need to think outside the box.\n"
 "                                We expect the candidate to be proactive and have a \"get it done\" spirit. To be successful,\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6049,6 +6313,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6146,11 +6411,32 @@ msgid ""
 >>>>>>> upstream/18.0
 "                                you will have solid solving problem skills."
 msgstr ""
+=======
+"                                you will have solid solving problem skills."
+msgstr ""
+"हमारी कंपनी में एक कर्मचारी के तौर पर, आपको <b>सभी विभागों के साथ मिलकर, बाज़ार बदलने "
+"वाले \n"
+"                                प्रॉडक्ट बनाने और लागू करने हैं.</b> हमारी तेज़ी से "
+"बढ़ती कंपनी में अच्छे लाभ और आगे बढ़ने के मौके हैं, \n"
+"                                जहां आप सफल लीडर से सीखेंगे. हमें अनुभवी और बेहतरीन "
+"कर्मचारी चाहिए.\n"
+"                                <br><br>\n"
+"                                इस जॉब के लिए उम्मीदवार <b>क्रिएटिव और मेहनती</"
+"b> दोनों होना चाहिए. साथ ही, वह अलग हटकर सोचना होगा.\n"
+"                                उम्मीदवार को पहल करने वाला और "
+"\"काम हर हाल में पूरा करने\" वाला होना चाहिए.\n"
+"                                 सफल होने के लिए समस्या हल करने का मज़बूत हुनर होना "
+"ज़रूरी है।"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_mail_activity_plan_template__responsible_type
 msgid "Assignment"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "असाइनमेंट"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department__message_attachment_count
@@ -6245,7 +6531,11 @@ msgid "Attachment Count"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अटैचमेंट काउंट"
+>>>>>>> upstream/18.0
 =======
 msgstr "अटैचमेंट काउंट"
 >>>>>>> upstream/18.0
@@ -6514,27 +6804,47 @@ msgstr "अटैचमेंट काउंट"
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form_profile
 msgid "Attendance"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "उपस्थिति"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "Attendance/Point of Sale"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अटेंडेंस/पॉइंट ऑफ़ सेल"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields.selection,name:hr.selection__mail_alias__alias_contact__employees
 msgid "Authenticated Employees"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "वे कर्मचारी जिनकी पहचान सही है"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.discuss_channel_view_form
 msgid "Auto Subscribe Departments"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऑटो सब्सक्राइब डिपार्टमेंट"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_discuss_channel__subscription_department_ids
 msgid "Automatically subscribe members of those departments to the channel."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "विभागों के सदस्यों को चैनल के लिए अपने-आप सब्सक्राइब करें।"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -6545,57 +6855,97 @@ msgstr ""
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Autonomy"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऑटोनॉमी"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form_profile
 msgid "Available"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "उपलब्ध"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.mail_activity_plan_view_form
 msgid "Available for all Departments"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सभी विभाग के लिए उपलब्ध"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__avatar_1920
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__avatar_1920
 msgid "Avatar"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अवतार"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__avatar_1024
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__avatar_1024
 msgid "Avatar 1024"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अवतार 1024"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__avatar_128
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__avatar_128
 msgid "Avatar 128"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अवतार 128"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__avatar_256
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__avatar_256
 msgid "Avatar 256"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अवतार 256"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__avatar_512
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__avatar_512
 msgid "Avatar 512"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अवतार 512"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form_profile
 msgid "Away"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "दूर"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee__certificate__bachelor
 msgid "Bachelor"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बैचलर"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -6606,13 +6956,21 @@ msgstr ""
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Bachelor Degree or Higher"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बैचलर डिग्री या इससे ज़्यादा"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__barcode
 #: model:ir.model.fields,field_description:hr.field_res_users__barcode
 msgid "Badge ID"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बैज आईडी"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__bank_account_id
@@ -6705,7 +7063,11 @@ msgid "Bank Account"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बैंक खाता"
+>>>>>>> upstream/18.0
 =======
 msgstr "बैंक खाता"
 >>>>>>> upstream/18.0
@@ -7062,7 +7424,11 @@ msgid "Bank Accounts"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बैंक खाता"
+>>>>>>> upstream/18.0
 =======
 msgstr "बैंक खाता"
 >>>>>>> upstream/18.0
@@ -7419,7 +7785,11 @@ msgid "Base"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बेस"
+>>>>>>> upstream/18.0
 =======
 msgstr "बेस"
 >>>>>>> upstream/18.0
@@ -7689,41 +8059,69 @@ msgstr "बेस"
 #: model:ir.model.fields,field_description:hr.field_res_company__hr_presence_control_ip
 #: model:ir.model.fields,field_description:hr.field_res_config_settings__hr_presence_control_ip
 msgid "Based on IP Address"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आईपी पते के आधार पर"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_res_company__hr_presence_control_attendance
 #: model:ir.model.fields,field_description:hr.field_res_config_settings__module_hr_attendance
 msgid "Based on attendances"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "उपस्थिति पर आधारित"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_res_company__hr_presence_control_email
 #: model:ir.model.fields,field_description:hr.field_res_config_settings__hr_presence_control_email
 msgid "Based on number of emails sent"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "भेजे गए ईमेल के आधार पर"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_res_company__hr_presence_control_login
 #: model:ir.model.fields,field_description:hr.field_res_config_settings__hr_presence_control_login
 msgid "Based on user status in system"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सिस्टम में यूज़र स्टेटस के आधार पर"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model,name:hr.model_hr_employee_base
 msgid "Basic Employee"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सामान्य कर्मचारी"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-javascript
 #: code:addons/hr/static/src/components/background_image/background_image.xml:0
 msgid "Binary file"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बाइनरी फ़ाइल"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_res_users__can_edit
 msgid "Can Edit"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बदलाव कर सकते हैं"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.view_users_simple_form
@@ -7737,49 +8135,86 @@ msgid ""
 "Categorize your Employees by type. This field also has an impact on "
 "contracts. Only Employees, Students and Trainee will have contract history."
 msgstr ""
+<<<<<<< HEAD
+=======
+"अपने कर्मचारियों को प्रकार के अनुसार वर्गीकृत करें. इस फ़ील्ड का असर कॉन्ट्रैक्ट पर भी पड़ता है"
+". सिर्फ़ कर्मचारी, छात्र और ट्रेनी के पास ही कॉन्ट्रैक्ट का इतिहास होगा।"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__certificate
 #: model:ir.model.fields,field_description:hr.field_res_users__certificate
 msgid "Certificate Level"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सर्टिफ़िकेट लेवल"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.actions.act_window,name:hr.res_users_action_my
 msgid "Change my Preferences"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मेरी पसंद बदलें"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-javascript
 #: code:addons/hr/static/src/components/employee_chat/employee_chat.xml:0
 msgid "Chat"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "चैट"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:hr.job,name:hr.job_ceo
 msgid "Chief Executive Officer"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "चीफ़ एक्ज़ीक्यूटिव ऑफ़िसर"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:hr.job,name:hr.job_cto
 msgid "Chief Technical Officer"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "चीफ़ टेक्निकल ऑफ़िसर"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department__child_ids
 msgid "Child Departments"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "चाइल्ड डिपार्टमेंट"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.hr_department_view_kanban
 msgid "Child departments"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "चाइल्ड डिपार्टमेंट"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form_profile
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "Citizenship"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "नागरिकता"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form_profile
@@ -7870,7 +8305,11 @@ msgid "City"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "शहर"
+>>>>>>> upstream/18.0
 =======
 msgstr "शहर"
 >>>>>>> upstream/18.0
@@ -8134,13 +8573,21 @@ msgstr "शहर"
 #: model:ir.model.fields,field_description:hr.field_res_users__coach_id
 #: model:ir.model.fields.selection,name:hr.selection__mail_activity_plan_template__responsible_type__coach
 msgid "Coach"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कोच"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-python
 #: code:addons/hr/models/mail_activity_plan_template.py:0
 msgid "Coach of employee %s is not set."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कर्मचारी %s का कोच सेट नहीं है।"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_contract_type__code
@@ -8236,7 +8683,11 @@ msgid "Color"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कलर"
+>>>>>>> upstream/18.0
 =======
 msgstr "कलर"
 >>>>>>> upstream/18.0
@@ -8585,7 +9036,11 @@ msgid "Color Index"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कलर इंडेक्स"
+>>>>>>> upstream/18.0
 =======
 msgstr "कलर इंडेक्स"
 >>>>>>> upstream/18.0
@@ -8934,7 +9389,11 @@ msgid "Companies"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कंपनियां"
+>>>>>>> upstream/18.0
 =======
 msgstr "कंपनियां"
 >>>>>>> upstream/18.0
@@ -9300,7 +9759,11 @@ msgid "Company Country"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कंपनी का देश"
+>>>>>>> upstream/18.0
 =======
 msgstr "कंपनी का देश"
 >>>>>>> upstream/18.0
@@ -9560,17 +10023,29 @@ msgstr "कंपनी का देश"
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.print_employee_badge
 msgid "Company Logo"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कंपनी लोगो"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_res_config_settings__resource_calendar_id
 msgid "Company Working Hours"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कंपनी के काम करने के घंटे"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_res_users__employee_id
 msgid "Company employee"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कंपनी का कर्मचारी"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department__complete_name
@@ -9647,7 +10122,11 @@ msgid "Complete Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पूरा नाम"
+>>>>>>> upstream/18.0
 =======
 msgstr "पूरा नाम"
 >>>>>>> upstream/18.0
@@ -9953,7 +10432,11 @@ msgid "Config Settings"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कॉन्फ़िगरेशन सेटिंग"
+>>>>>>> upstream/18.0
 =======
 msgstr "कॉन्फ़िगरेशन सेटिंग"
 >>>>>>> upstream/18.0
@@ -10219,7 +10702,11 @@ msgstr "कॉन्फ़िगरेशन"
 #. module: hr
 #: model:hr.job,name:hr.job_consultant
 msgid "Consultant"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कंसल्टेंट"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model,name:hr.model_res_partner
@@ -10229,34 +10716,58 @@ msgstr "संपर्क"
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form_profile
 msgid "Contact Information"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "संपर्क जानकारी"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__emergency_contact
 #: model:ir.model.fields,field_description:hr.field_res_users__emergency_contact
 msgid "Contact Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "संपर्क का नाम"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__emergency_phone
 #: model:ir.model.fields,field_description:hr.field_res_users__emergency_phone
 msgid "Contact Phone"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "संपर्क करने के लिए फ़ोन"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model,name:hr.model_hr_contract_type
 msgid "Contract Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कॉन्ट्रैक्ट टाइप"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.hr_contract_type_view_tree
 msgid "Contract Types"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कॉन्ट्रैक्ट टाइप"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee__employee_type__contractor
 msgid "Contractor"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कॉन्ट्रैक्टर"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_contract_type__country_id
@@ -10356,7 +10867,11 @@ msgid "Country Code"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "देश का कोड"
+>>>>>>> upstream/18.0
 =======
 msgstr "देश का कोड"
 >>>>>>> upstream/18.0
@@ -10626,50 +11141,86 @@ msgstr "देश का कोड"
 #: model:ir.model.fields,field_description:hr.field_hr_employee__country_of_birth
 #: model:ir.model.fields,field_description:hr.field_res_users__country_of_birth
 msgid "Country of Birth"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "जन्म का देश"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_work_location__location_type
 msgid "Cover Image"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कवर इमेज"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__create_date
 msgid "Create Date"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "तारीख बनाएं"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.view_users_simple_form_inherit_hr
 msgid "Create Employee"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कर्मचारी बनाएं"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-python
 #: code:addons/hr/models/hr_employee.py:0
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "Create User"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "उपयोगकर्ता बनाएं"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.actions.act_window,help:hr.hr_department_kanban_action
 #: model_terms:ir.actions.act_window,help:hr.hr_department_tree_action
 msgid "Create a new department"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "नया विभाग बनाएं"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.actions.act_window,help:hr.hr_contract_type_action
 msgid "Create a new employment type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "नया रोज़गार प्रकार बनाएं"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.actions.act_window,help:hr.hr_work_location_action
 msgid "Create a new work location"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "काम करने के लिए एक नई जगह बनाएं"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.actions.act_window,help:hr.mail_activity_plan_action
 msgid "Create an Activity Plan"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऐक्टिविटी प्लान बनाएं"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -10680,12 +11231,20 @@ msgstr ""
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Create content that will help our users on a daily basis"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रोज़मर्रा के आधार पर हमारे उपयोगकर्ताओं की मदद करने वाला कॉन्टेंट बनाएं"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form
 msgid "Create employee"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कर्मचारी बनाएं"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_contract_type__create_uid
@@ -10795,7 +11354,11 @@ msgid "Created on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इस तारीख को बनाया गया"
+>>>>>>> upstream/18.0
 =======
 msgstr "इस तारीख को बनाया गया"
 >>>>>>> upstream/18.0
@@ -11143,7 +11706,11 @@ msgid "Currency"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "करेंसी"
+>>>>>>> upstream/18.0
 =======
 msgstr "करेंसी"
 >>>>>>> upstream/18.0
@@ -11412,7 +11979,11 @@ msgstr "करेंसी"
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_job__no_of_employee
 msgid "Current Number of Employees"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कर्मचारियों की मौजूदा संख्या"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -11423,7 +11994,11 @@ msgstr ""
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Customer Relationship"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कस्टमर रिलेशनशिप"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__birthday
@@ -11436,6 +12011,10 @@ msgstr ""
 #: code:addons/hr/models/hr_departure_reason.py:0
 msgid "Default departure reasons cannot be deleted."
 msgstr ""
+<<<<<<< HEAD
+=======
+"नौकरी छोड़ने के जो कारण सिस्टम में पहले से दिए गए हैं, उन्हें मिटाया नहीं जा सकता।"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_config_settings_view_form
@@ -11443,11 +12022,19 @@ msgid ""
 "Define the allowed IP to be displayed as Present. In case of multiple "
 "addresses, separate them by a coma."
 msgstr ""
+<<<<<<< HEAD
+=======
+"'उपस्थित' दिखने के लिए आईपी तय करें. ज़्यादा पते होने पर, कॉमा से अलग करें।"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_config_settings_view_form
 msgid "Define the minimum number of sent emails to be displayed as Present."
 msgstr ""
+<<<<<<< HEAD
+=======
+"तय करें कि किसी व्यक्ति को 'उपस्थित' दिखने के लिए कम से कम कितने ईमेल भेजने होंगे।"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_employee__resource_calendar_id
@@ -11456,6 +12043,11 @@ msgid ""
 "Define the working schedule of the resource. If not set, the resource will "
 "have fully flexible working hours."
 msgstr ""
+<<<<<<< HEAD
+=======
+"इस संसाधन के काम करने का समय तय करें. अगर समय तय नहीं किया गया, तो यह संसाधन किसी भी"
+" समय काम कर सकता है।"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,description:hr.job_ceo
@@ -11508,7 +12100,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Demonstration of different Odoo services for each client and convincing the client about functionality of the application.\n"
+=======
+"Demonstration of different Odoo services for each client and convincing the "
+"client about functionality of the application.\n"
+>>>>>>> upstream/18.0
 =======
 "Demonstration of different Odoo services for each client and convincing the "
 "client about functionality of the application.\n"
@@ -11753,11 +12350,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Coordinating with the sales and support team for adopting different strategies\n"
 "Reviewing progress and identifying opportunities and new areas for development.\n"
 "Building strong relationships with clients / customers for business growth profitability.\n"
 "Keep regular interaction with key clients for better extraction and expansion."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11907,6 +12507,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12003,6 +12604,20 @@ msgid ""
 =======
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+msgstr ""
+"हर ग्राहक को Odoo के अलग-अलग फ़ीचर दिखाकर समझाना और उन्हें यह भरोसा दिलाना कि यह "
+"सॉफ़्टवेयर उनके काम आएगा.\n"
+"नौकरी के लिए आवेदन करने वाले व्यक्ति में बातचीत करने की बेहतरीन योग्यता होनी चाहिए.\n"
+"रिश्ते बनाने और अपनी बात से दूसरों को सहमत करने की योग्यताएं\n"
+"नए ग्राहक बनाने और उनके साथ रिश्ते बनाए रखने में गहरी कुशलता.\n"
+"बाज़ार और ग्राहकों के बारे में ज़रूरी डेटा और जानकारी इकट्ठा करना.\n"
+"नई योजनाओं को लागू करने के लिए सेल्स और सपोर्ट टीम के साथ तालमेल बिठाना\n"
+"काम कितना हुआ, इसकी जांच करना और आगे बढ़ने के नए मौकों तथा सुधार के क्षेत्रों को ढूंढना.\n"
+"बिज़नेस की तरक्की और ज़्यादा मुनाफे के लिए ग्राहकों के साथ मज़बूत रिश्ते बनाना.\n"
+"ज़्यादा काम निकालने और बिज़नेस बढ़ाने के लिए, ज़रूरी ग्राहकों के साथ लगातार बातचीत बनाए "
+"रखें।"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-javascript
@@ -12027,18 +12642,30 @@ msgstr "विभाग"
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_mail_activity_plan__department_assignable
 msgid "Department Assignable"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "विभाग असाइन करने योग्य"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department__name
 msgid "Department Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "विभाग का नाम"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-javascript
 #: code:addons/hr/static/src/components/department_chart/department_chart.xml:0
 msgid "Department Organization"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "विभाग संगठन"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.actions.act_window,name:hr.hr_department_kanban_action
@@ -12118,7 +12745,11 @@ msgid "Departments"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "डिपार्टमेंट"
+>>>>>>> upstream/18.0
 =======
 msgstr "डिपार्टमेंट"
 >>>>>>> upstream/18.0
@@ -12339,47 +12970,79 @@ msgstr "डिपार्टमेंट"
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "Departure"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "नौकरी छोड़कर जाना"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_departure_wizard__departure_date
 #: model:ir.model.fields,field_description:hr.field_hr_employee__departure_date
 msgid "Departure Date"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "जाने की तारीख"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model,name:hr.model_hr_departure_reason
 #: model:ir.model.fields,field_description:hr.field_hr_departure_wizard__departure_reason_id
 #: model:ir.model.fields,field_description:hr.field_hr_employee__departure_reason_id
 msgid "Departure Reason"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "जाने की वजह"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.actions.act_window,name:hr.hr_departure_reason_action
 #: model:ir.ui.menu,name:hr.menu_hr_departure_reason_tree
 msgid "Departure Reasons"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "जाने की वजहें"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model,name:hr.model_hr_departure_wizard
 msgid "Departure Wizard"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "डिपॉर्चर विज़ॉर्ड"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form_profile
 msgid "Dependant"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "डिपेंडेंट"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__child_ids
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__child_ids
 msgid "Direct subordinates"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "वे कर्मचारी जो सीधे आपके नीचे काम करते हैं"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.ui.menu,name:hr.menu_hr_employee
 msgid "Directory"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "डायरेक्टरी"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.hr_departure_wizard_view_form
@@ -12469,7 +13132,11 @@ msgid "Discard"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "खारिज करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "खारिज करें"
 >>>>>>> upstream/18.0
@@ -12735,7 +13402,11 @@ msgstr "खारिज करें"
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Discover our products."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "हमारे प्रॉडक्ट के बारे में जानें।"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model,name:hr.model_discuss_channel
@@ -12812,7 +13483,11 @@ msgid "Discussion Channel"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "डिस्कशन चैनल"
+>>>>>>> upstream/18.0
 =======
 msgstr "डिस्कशन चैनल"
 >>>>>>> upstream/18.0
@@ -13132,7 +13807,11 @@ msgid "Display Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "डिस्प्ले नाम"
+>>>>>>> upstream/18.0
 =======
 msgstr "डिस्प्ले नाम"
 >>>>>>> upstream/18.0
@@ -13418,17 +14097,29 @@ msgstr ""
 #. odoo-python
 #: code:addons/hr/models/hr_employee.py:0
 msgid "Divorced"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "तलाकशुदा"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee__certificate__doctor
 msgid "Doctor"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "डॉक्टर"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__driving_license
 msgid "Driving License"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ड्राइविंग लाइसेंस"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -13488,11 +14179,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            You can make a real contribution to the success of the company.\n"
 "                            <br>\n"
 "                            Several activities are often organized all over the year, such as weekly\n"
 "                            sports sessions, team building events, monthly drink, and much more."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13641,6 +14335,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13737,6 +14432,16 @@ msgid ""
 =======
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+msgstr ""
+"हर कर्मचारी को अपने काम का असर देखने का मौका मिलता है.\n"
+"                            आप कंपनी की सफलता में एक वास्तविक योगदान दे सकते हैं.\n"
+"                            <br>\n"
+"                            पूरे साल कई तरह के कार्यक्रम होते हैं, जैसे हर हफ़्ते खेल-कूद, "
+"टीम को \n"
+"                            एक साथ लाने के लिए कार्यक्रम, महीने में एक बार पार्टी और "
+"अन्य मज़ेदार चीज़ें।"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -13747,13 +14452,21 @@ msgstr ""
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Eat &amp; Drink"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "खाने-पीने की चीज़ें"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form_profile
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "Education"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "शिक्षा"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__email
@@ -13766,13 +14479,21 @@ msgstr "ईमेल"
 #. module: hr
 #: model:ir.model,name:hr.model_mail_alias
 msgid "Email Aliases"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ईमेल उपनाम"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form_profile
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "Emergency"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इमरजेंसी"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-python
@@ -13797,83 +14518,143 @@ msgstr "कर्मचारी"
 #. module: hr
 #: model:ir.model,name:hr.model_hr_employee_category
 msgid "Employee Category"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कर्मचारी की कैटगरी"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_res_users__employee_count
 msgid "Employee Count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कर्मचारियों की संख्या"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_res_config_settings__hr_employee_self_edit
 msgid "Employee Editing"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एम्प्लॉयी एडिटिंग"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.print_employee_badge
 msgid "Employee Image"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कर्मचारी की तस्वीर"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_res_users__private_lang
 msgid "Employee Lang"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कर्मचारी की भाषा"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__name
 #: model_terms:ir.ui.view,arch_db:hr.hr_employee_public_view_form
 msgid "Employee Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कर्मचारी का नाम"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.actions.act_window,name:hr.mail_activity_plan_action
 msgid "Employee Plans"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कर्मचारी के लिए योजनाएं"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_res_company__employee_properties_definition
 msgid "Employee Properties"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कर्मचारी की प्रॉपर्टीज़"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.actions.act_window,name:hr.open_view_categ_form
 #: model:ir.model.fields,field_description:hr.field_res_users__category_ids
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_category_form
 msgid "Employee Tags"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कर्मचारियों के लिए टैग"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-javascript
 #: code:addons/hr/static/src/views/archive_employee_hook.js:0
 msgid "Employee Termination"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "किसी कर्मचारी की नौकरी को खत्म करने की प्रक्रिया"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__employee_type
 #: model:ir.model.fields,field_description:hr.field_res_users__employee_type
 msgid "Employee Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कर्मचारी का प्रकार"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_config_settings_view_form
 msgid "Employee Update Rights"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कर्मचारियों को अपनी जानकारी में अपडेट करने की अनुमति"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_employee__bank_account_id
 #: model:ir.model.fields,help:hr.field_res_users__employee_bank_account_id
 msgid "Employee bank account to pay salaries"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "वेतन देने के लिए कर्मचारी का बैंक खाता"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_res_users__employee_bank_account_id
 msgid "Employee's Bank Account Number"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कर्मचारी के बैंक खाते का नंबर"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_res_users__employee_country_id
 msgid "Employee's Country"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कर्मचारी का देश"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.hr_employee_public_view_kanban
@@ -13881,12 +14662,20 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form_profile
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "Employee's Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कर्मचारी का नाम"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_res_users__employee_resource_calendar_id
 msgid "Employee's Working Hours"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कर्मचारी के काम करने के घंटे"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-python
@@ -13983,7 +14772,11 @@ msgid "Employees"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कर्मचारी"
+>>>>>>> upstream/18.0
 =======
 msgstr "कर्मचारी"
 >>>>>>> upstream/18.0
@@ -14205,11 +14998,16 @@ msgstr "कर्मचारी"
 #: model:ir.model.fields,field_description:hr.field_res_partner__employees_count
 #: model:ir.model.fields,field_description:hr.field_res_users__employees_count
 msgid "Employees Count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कर्मचारियों की संख्या"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_category_list
 msgid "Employees Tags"
+<<<<<<< HEAD
 msgstr ""
 
 #. module: hr
@@ -14508,17 +15306,40 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr.view_job_filter
 msgid "Employment Type"
 msgstr ""
+=======
+msgstr "कर्मचारियों के लिए टैग"
+
+#. module: hr
+#. odoo-python
+#: code:addons/hr/models/hr_employee.py:0
+msgid "Employees profile"
+msgstr "कर्मचारी की प्रोफ़ाइल"
+
+#. module: hr
+#: model:ir.model.fields,field_description:hr.field_hr_job__contract_type_id
+#: model_terms:ir.ui.view,arch_db:hr.view_job_filter
+msgid "Employment Type"
+msgstr "नौकरी किस तरह की है"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.actions.act_window,name:hr.hr_contract_type_action
 #: model:ir.ui.menu,name:hr.menu_view_hr_contract_type
 msgid "Employment Types"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "नौकरी किस तरह की है"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_config_settings_view_form
 msgid "Enrich employee profiles with skills and resumes"
 msgstr ""
+<<<<<<< HEAD
+=======
+"कर्मचारियों की प्रोफ़ाइल में उनकी स्किल और उनके रेज़्यूमे की जानकारी भरें"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -14529,13 +15350,21 @@ msgstr ""
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Expand your knowledge of various business industries"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अलग-अलग तरह के कारोबार की अपनी जानकारी बढ़ाएं"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_job__expected_employees
 msgid ""
 "Expected number of employees for this job position after new recruitment."
 msgstr ""
+<<<<<<< HEAD
+=======
+"नए लोगों को नौकरी पर रखने के बाद इस पद पर कुल कितने कर्मचारी होने की उम्मीद है।"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -14546,12 +15375,20 @@ msgstr ""
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Experience in writing online content"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऑनलाइन कॉन्टेंट लिखने का अनुभव"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:hr.job,name:hr.job_developer
 msgid "Experienced Developer"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अनुभवी डेवलपर"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_employee__share
@@ -14561,27 +15398,47 @@ msgid ""
 "External user with limited access, created only for the purpose of sharing "
 "data."
 msgstr ""
+<<<<<<< HEAD
+=======
+"सीमित ऐक्सेस वाला बाहरी यूज़र, जो सिर्फ़ डेटा शेयर करने के उद्देश्य से बनाया गया है।"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "Family Status"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "फैमिली स्टेटस"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee__gender__female
 msgid "Female"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "महिला"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__study_field
 #: model:ir.model.fields,field_description:hr.field_res_users__study_field
 msgid "Field of Study"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अध्ययन का क्षेत्र"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:hr.departure.reason,name:hr.departure_fired
 msgid "Fired"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "नौकरी से निकाला गया"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department__message_follower_ids
@@ -14670,7 +15527,11 @@ msgid "Followers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "फ़ॉलोवर"
+>>>>>>> upstream/18.0
 =======
 msgstr "फ़ॉलोवर"
 >>>>>>> upstream/18.0
@@ -15005,7 +15866,11 @@ msgid "Followers (Partners)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "फ़ॉलोवर (पार्टनर)"
+>>>>>>> upstream/18.0
 =======
 msgstr "फ़ॉलोवर (पार्टनर)"
 >>>>>>> upstream/18.0
@@ -15339,7 +16204,11 @@ msgid "Font awesome icon e.g. fa-tasks"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "फॉन्ट के बेहतरीन आइकॉन जैसे, फा-टॉस्क"
+>>>>>>> upstream/18.0
 =======
 msgstr "फॉन्ट के बेहतरीन आइकॉन जैसे, फा-टॉस्क"
 >>>>>>> upstream/18.0
@@ -15594,11 +16463,20 @@ msgid ""
 "For %(channels)s, channel_type should be 'channel' to have the department "
 "auto-subscription."
 msgstr ""
+<<<<<<< HEAD
+=======
+"%(channels)s के लिए, विभाग को अपने आप सब्सक्राइब कराने के लिए, channel_type 'चैनल' "
+"होना चाहिए।"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee__employee_type__freelance
 msgid "Freelancer"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "फ्रीलांसर"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -15609,12 +16487,20 @@ msgstr ""
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Fruit, coffee and <br>snacks provided."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "फल, कॉफ़ी और <br>स्नैक्स दिए जाएंगे।"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:hr.contract.type,name:hr.contract_type_full_time
 msgid "Full-Time"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "फ़ुल-टाइम"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_filter
@@ -15701,7 +16587,11 @@ msgid "Future Activities"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "फ्यूचर ऐक्टिविटी"
+>>>>>>> upstream/18.0
 =======
 msgstr "फ्यूचर ऐक्टिविटी"
 >>>>>>> upstream/18.0
@@ -15953,7 +16843,11 @@ msgstr "फ्यूचर ऐक्टिविटी"
 #: model:ir.model.fields,field_description:hr.field_hr_employee__gender
 #: model:ir.model.fields,field_description:hr.field_res_users__gender
 msgid "Gender"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "लिंग"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
@@ -16040,7 +16934,11 @@ msgid "Generate"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "जनरेट करे"
+>>>>>>> upstream/18.0
 =======
 msgstr "जनरेट करे"
 >>>>>>> upstream/18.0
@@ -16292,6 +17190,10 @@ msgstr "जनरेट करे"
 #: model_terms:ir.ui.view,arch_db:hr.hr_departure_wizard_view_form
 msgid "Give more details about the reason of archiving the employee."
 msgstr ""
+<<<<<<< HEAD
+=======
+"इस कर्मचारी को पुराने रिकॉर्ड में क्यों डाला गया, इसकी पूरी जानकारी दें।"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -16302,7 +17204,11 @@ msgstr ""
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Google Adwords experience"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Google Adwords एक्सपीरिएंस"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee__certificate__graduate
@@ -16318,7 +17224,11 @@ msgstr "ग्रेजुएट"
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Great team of smart people, in a friendly and open culture"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "दोस्ताना और खुले माहौल में स्मार्ट लोगों की शानदार टीम"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.hr_employee_public_view_search
@@ -16407,7 +17317,11 @@ msgid "Group By"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इन्होंने ग्रुप किया"
+>>>>>>> upstream/18.0
 =======
 msgstr "इन्होंने ग्रुप किया"
 >>>>>>> upstream/18.0
@@ -16658,28 +17572,48 @@ msgstr "इन्होंने ग्रुप किया"
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_discuss_channel__subscription_department_ids
 msgid "HR Departments"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एचआर डिपार्टमेंट"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.actions.server,name:hr.ir_cron_data_check_work_permit_validity_ir_actions_server
 msgid "HR Employee: check work permit validity"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एचआर कर्मचारी: वर्क परमिट की वैधता जांचें"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-javascript
 #: code:addons/hr/static/src/components/hr_presence_status/hr_presence_status.js:0
 msgid "HR Presence Status"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एचआर उपस्थिति की स्थिति"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form_profile
 msgid "HR Settings"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एचआर सेटिंग"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_manager_department_report__has_department_manager_access
 msgid "Has Department Manager Access"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "विभाग मैनेजर ऐक्सेस रखता है"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department__has_message
@@ -16768,7 +17702,11 @@ msgid "Has Message"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मैसेज है"
+>>>>>>> upstream/18.0
 =======
 msgstr "मैसेज है"
 >>>>>>> upstream/18.0
@@ -17025,7 +17963,11 @@ msgstr "मैसेज है"
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Highly creative and autonomous"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बहुत रचनात्मक और स्वतंत्र"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee__work_location_type__home
@@ -17033,25 +17975,41 @@ msgstr ""
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee_public__work_location_type__home
 #: model:ir.model.fields.selection,name:hr.selection__hr_work_location__location_type__home
 msgid "Home"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "घर"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__distance_home_work
 #: model:ir.model.fields,field_description:hr.field_res_users__distance_home_work
 msgid "Home-Work Distance"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "घर से ऑफ़िस की दूरी"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__km_home_work
 #: model:ir.model.fields,field_description:hr.field_res_users__km_home_work
 msgid "Home-Work Distance in Km"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "किलोमीटर में घर से ऑफ़िस की दूरी"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__distance_home_work_unit
 #: model:ir.model.fields,field_description:hr.field_res_users__distance_home_work_unit
 msgid "Home-Work Distance unit"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "घर से ऑफ़िस की दूरी की इकाई"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__hr_icon_display
@@ -17059,12 +18017,20 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__hr_icon_display
 #: model:ir.model.fields,field_description:hr.field_resource_resource__hr_icon_display
 msgid "Hr Icon Display"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एचआर आइकॉन डिस्प्ले"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model,name:hr.model_hr_manager_department_report
 msgid "Hr Manager Department Report"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एचआर मैनेजर डिपार्टमेंट रिपोर्ट"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__hr_presence_state
@@ -17072,7 +18038,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__hr_presence_state
 #: model:ir.model.fields,field_description:hr.field_res_users__hr_presence_state
 msgid "Hr Presence State"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एचआर प्रज़ेंस स्टेट"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.ui.menu,name:hr.menu_hr_main
@@ -17149,7 +18119,11 @@ msgid "Human Resources"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मानव संसाध"
+>>>>>>> upstream/18.0
 =======
 msgstr "मानव संसाध"
 >>>>>>> upstream/18.0
@@ -17370,7 +18344,11 @@ msgstr "मानव संसाध"
 #. module: hr
 #: model:hr.job,name:hr.job_hrm
 msgid "Human Resources Manager"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ह्यूमन रिसोर्स मैनेजर"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_contract_type__id
@@ -17474,7 +18452,11 @@ msgid "ID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आईडी"
+>>>>>>> upstream/18.0
 =======
 msgstr "आईडी"
 >>>>>>> upstream/18.0
@@ -17752,20 +18734,32 @@ msgstr "आईडी"
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__id_card
 msgid "ID Card Copy"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कार्ड आईडी की कॉपी"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_employee__barcode
 #: model:ir.model.fields,help:hr.field_res_users__barcode
 msgid "ID used for employee identification."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कर्मचारी की पहचान के लिए इस्तेमाल की गई आईडी।"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__im_status
 #: model:ir.model.fields,field_description:hr.field_hr_employee_base__im_status
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__im_status
 msgid "IM Status"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आईएम स्टेटस"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department__activity_exception_icon
@@ -17853,7 +18847,11 @@ msgid "Icon"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आइकॉन"
+>>>>>>> upstream/18.0
 =======
 msgstr "आइकॉन"
 >>>>>>> upstream/18.0
@@ -18187,7 +19185,11 @@ msgid "Icon to indicate an exception activity."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एक छोटा निशान जो बताता है कि कुछ अलग या असामान्य हुआ है."
+>>>>>>> upstream/18.0
 =======
 msgstr "एक छोटा निशान जो बताता है कि कुछ अलग या असामान्य हुआ है."
 >>>>>>> upstream/18.0
@@ -18439,7 +19441,11 @@ msgstr "एक छोटा निशान जो बताता है कि
 #: model:ir.model.fields,field_description:hr.field_hr_employee__identification_id
 #: model:ir.model.fields,field_description:hr.field_res_users__identification_id
 msgid "Identification No"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पहचान संख्या"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_department__message_needaction
@@ -18528,7 +19534,11 @@ msgid "If checked, new messages require your attention."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अगर यह बॉक्स चेक है, तो नए मैसेज देखने ज़रूरी हैं."
+>>>>>>> upstream/18.0
 =======
 msgstr "अगर यह बॉक्स चेक है, तो नए मैसेज देखने ज़रूरी हैं."
 >>>>>>> upstream/18.0
@@ -18866,7 +19876,11 @@ msgid "If checked, some messages have a delivery error."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अगर बॉक्स पर टिक है, तो कुछ मैसेज भेजने में गलती हुई है."
+>>>>>>> upstream/18.0
 =======
 msgstr "अगर बॉक्स पर टिक है, तो कुछ मैसेज भेजने में गलती हुई है."
 >>>>>>> upstream/18.0
@@ -19120,11 +20134,20 @@ msgid ""
 "If the active field is set to False, it will allow you to hide the resource "
 "record without removing it."
 msgstr ""
+<<<<<<< HEAD
+=======
+"अगर सक्रिय फ़ील्ड को 'गलत' पर सेट किया जाता है, तो यह आपको रिसोर्स रिकॉर्ड को हटाए "
+"बिना छिपाने की अनुमति देगा।"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_employee__private_car_plate
 msgid "If you have more than one car, just separate the plates by a space."
 msgstr ""
+<<<<<<< HEAD
+=======
+"अगर आपके पास एक से ज़्यादा कार हैं, तो प्लेटों को सिर्फ़ एक स्पेस से अलग करें।"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__image_1920
@@ -19202,7 +20225,11 @@ msgid "Image"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इमेज"
+>>>>>>> upstream/18.0
 =======
 msgstr "इमेज"
 >>>>>>> upstream/18.0
@@ -19424,48 +20451,80 @@ msgstr "इमेज"
 #: model:ir.model.fields,field_description:hr.field_hr_employee__image_1024
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__image_1024
 msgid "Image 1024"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इमेज 1024"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__image_128
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__image_128
 msgid "Image 128"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इमेज 128"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__image_256
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__image_256
 msgid "Image 256"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इमेज 256"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__image_512
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__image_512
 msgid "Image 512"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इमेज 512"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-python
 #: code:addons/hr/models/hr_employee.py:0
 msgid "Import Template for Employees"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कर्मचारियों के लिए टेम्प्लेट इंपोर्ट करें"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:hr.contract.type,name:hr.contract_type_interim
 msgid "Interim"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अन्तरिम"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:hr.contract.type,name:hr.contract_type_part_time
 msgid "Intern"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इंटर्न"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__is_flexible
 #: model:ir.model.fields,field_description:hr.field_hr_employee_base__is_flexible
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__is_flexible
 msgid "Is Flexible"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "फ़्लेक्सिबल है"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department__message_is_follower
@@ -19554,7 +20613,11 @@ msgid "Is Follower"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "फ़ॉलोवर है"
+>>>>>>> upstream/18.0
 =======
 msgstr "फ़ॉलोवर है"
 >>>>>>> upstream/18.0
@@ -19807,17 +20870,29 @@ msgstr "फ़ॉलोवर है"
 #: model:ir.model.fields,field_description:hr.field_hr_employee_base__is_fully_flexible
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__is_fully_flexible
 msgid "Is Fully Flexible"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पूरी तरह से फ़्लेक्सिबल है"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__is_manager
 msgid "Is Manager"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मैनेजर है"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_res_users__is_system
 msgid "Is System"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सिस्टम है"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.view_hr_job_form
@@ -19828,7 +20903,11 @@ msgstr "कार्य"
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_job__description
 msgid "Job Description"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "नौकरी का विवरण"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model,name:hr.model_hr_job
@@ -19840,13 +20919,21 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_filter
 #: model_terms:ir.ui.view,arch_db:hr.view_job_filter
 msgid "Job Position"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "जॉब पोज़िशन"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.actions.act_window,name:hr.action_hr_job
 #: model:ir.ui.menu,name:hr.menu_view_hr_job
 msgid "Job Positions"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "नौकरी के पद"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.view_hr_job_form
@@ -19862,7 +20949,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr.hr_employee_public_view_form
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "Job Title"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "नौकरी का शीर्षक"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department__jobs_ids
@@ -19945,7 +21036,11 @@ msgid "Lang"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "लैंग"
+>>>>>>> upstream/18.0
 =======
 msgstr "लैंग"
 >>>>>>> upstream/18.0
@@ -20248,7 +21343,11 @@ msgid "Language"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "भाषा"
+>>>>>>> upstream/18.0
 =======
 msgstr "भाषा"
 >>>>>>> upstream/18.0
@@ -20502,7 +21601,11 @@ msgstr "भाषा"
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__last_activity
 #: model:ir.model.fields,field_description:hr.field_res_users__last_activity
 msgid "Last Activity"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आखिरी गतिविधि"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__last_activity_time
@@ -20510,7 +21613,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__last_activity_time
 #: model:ir.model.fields,field_description:hr.field_res_users__last_activity_time
 msgid "Last Activity Time"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आखिरी गतिविधि का समय"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_contract_type__write_uid
@@ -20605,7 +21712,11 @@ msgid "Last Updated by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इन्होंने आखिरी बार अपडेट किया"
+>>>>>>> upstream/18.0
 =======
 msgstr "इन्होंने आखिरी बार अपडेट किया"
 >>>>>>> upstream/18.0
@@ -20946,7 +22057,11 @@ msgid "Last Updated on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आखिरी बार अपडेट हुआ"
+>>>>>>> upstream/18.0
 =======
 msgstr "आखिरी बार अपडेट हुआ"
 >>>>>>> upstream/18.0
@@ -21279,7 +22394,11 @@ msgid "Late Activities"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "लेट एक्टिविटी"
+>>>>>>> upstream/18.0
 =======
 msgstr "लेट एक्टिविटी"
 >>>>>>> upstream/18.0
@@ -21532,7 +22651,11 @@ msgstr "लेट एक्टिविटी"
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_tree
 msgid "Launch Plan"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "लॉन्च प्लान"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -21543,35 +22666,59 @@ msgstr ""
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Lead the entire sales cycle"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सेल्स की पूरी प्रक्रिया को संभालें"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-python
 #: code:addons/hr/models/hr_employee.py:0
 msgid "Legal Cohabitant"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कानूनी तौर पर साथ रहने वाला"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.actions.act_window,help:hr.action_hr_job
 msgid "Let's create a job position."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आइए, एक नया जॉब पोज़िशन बनाएं।"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.hr_employee_public_view_form
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form_profile
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "Location"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "जगह"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_work_location__location_number
 msgid "Location Number"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "लोकेशन नंबर"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:hr.department,name:hr.dep_rd_ltp
 msgid "Long Term Projects"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "लंबी अवधि वाले प्रोजेक्ट"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,description:hr.job_hrm
@@ -21627,8 +22774,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "make a type specimen book. It has survived not only five centuries, but also"
 " the leap into electronic typesetting, remaining essentially unchanged. It "
+=======
+"make a type specimen book. It has survived not only five centuries, but also "
+"the leap into electronic typesetting, remaining essentially unchanged. It "
+>>>>>>> upstream/18.0
 =======
 "make a type specimen book. It has survived not only five centuries, but also "
 "the leap into electronic typesetting, remaining essentially unchanged. It "
@@ -21911,7 +23063,11 @@ msgid "Main Attachment"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मेन अटैचमेंट"
+>>>>>>> upstream/18.0
 =======
 msgstr "मेन अटैचमेंट"
 >>>>>>> upstream/18.0
@@ -22162,7 +23318,11 @@ msgstr "मेन अटैचमेंट"
 #. module: hr
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee__gender__male
 msgid "Male"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पुरूष"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:hr.department,name:hr.dep_management
@@ -22249,7 +23409,11 @@ msgid "Management"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मैनेजमेंट"
+>>>>>>> upstream/18.0
 =======
 msgstr "मैनेजमेंट"
 >>>>>>> upstream/18.0
@@ -22507,41 +23671,69 @@ msgstr "मैनेजमेंट"
 #: model_terms:ir.ui.view,arch_db:hr.hr_employee_public_view_search
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_filter
 msgid "Manager"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मैनेजर"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-python
 #: code:addons/hr/models/mail_activity_plan_template.py:0
 msgid "Manager of employee %s is not set."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कर्मचारी %s का मैनेजर सेट नहीं है।"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__marital
 #: model:ir.model.fields,field_description:hr.field_res_users__marital
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form_profile
 msgid "Marital Status"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "वैवाहिक स्थिति"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:hr.job,name:hr.job_marketing
 msgid "Marketing and Community Manager"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मार्केटिंग और कम्यूनिटी मैनेजर"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-python
 #: code:addons/hr/models/hr_employee.py:0
 msgid "Married"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "विवाहित"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee__certificate__master
 msgid "Master"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मास्टर"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department__master_department_id
 msgid "Master Department"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मास्टर डिपार्टमेंट"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -22552,19 +23744,31 @@ msgstr ""
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Master demos of our software"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "हमारे सॉफ़्टवेयर का मास्टर डेमो"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__member_of_department
 #: model:ir.model.fields,field_description:hr.field_hr_employee_base__member_of_department
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__member_of_department
 msgid "Member of department"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "विभाग के सदस्य"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department__member_ids
 msgid "Members"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सदस्य"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model,name:hr.model_ir_ui_menu
@@ -22645,7 +23849,11 @@ msgid "Menu"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मेन्यू"
+>>>>>>> upstream/18.0
 =======
 msgstr "मेन्यू"
 >>>>>>> upstream/18.0
@@ -22962,7 +24170,11 @@ msgid "Message Delivery error"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मैसेज डिलीवरी में गड़बड़ी"
+>>>>>>> upstream/18.0
 =======
 msgstr "मैसेज डिलीवरी में गड़बड़ी"
 >>>>>>> upstream/18.0
@@ -23226,7 +24438,11 @@ msgstr "संदेश"
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Must Have"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "होना ज़रूरी है"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department__my_activity_date_deadline
@@ -23314,7 +24530,11 @@ msgid "My Activity Deadline"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मेरी गतिविधि की डेडलाइन"
+>>>>>>> upstream/18.0
 =======
 msgstr "मेरी गतिविधि की डेडलाइन"
 >>>>>>> upstream/18.0
@@ -23566,19 +24786,31 @@ msgstr "मेरी गतिविधि की डेडलाइन"
 #: model_terms:ir.ui.view,arch_db:hr.hr_employee_public_view_search
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_filter
 msgid "My Department"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मेरा विभाग"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-javascript
 #: code:addons/hr/static/src/user_menu/my_profile.js:0
 msgid "My Profile"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मेरी प्रोफ़ाइल"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.hr_employee_public_view_search
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_filter
 msgid "My Team"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मेरी टीम"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_contract_type__name
@@ -23590,7 +24822,11 @@ msgstr "नाम"
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__country_id
 msgid "Nationality (Country)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "राष्ट्रीयता (देश)"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -23601,13 +24837,21 @@ msgstr ""
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Negotiate and contract"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "नेगोशिएट और कॉन्ट्रैक्ट"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.hr_employee_view_graph
 #: model_terms:ir.ui.view,arch_db:hr.hr_employee_view_pivot
 msgid "New Employees Over Time"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "समय के साथ नए कर्मचारी"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__newly_hired
@@ -23616,7 +24860,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr.hr_employee_public_view_search
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_filter
 msgid "Newly Hired"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "नए भर्ती किए गए"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department__activity_calendar_event_id
@@ -23704,7 +24952,11 @@ msgid "Next Activity Calendar Event"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अगली गतिविधि कैलेंडर इवेंट"
+>>>>>>> upstream/18.0
 =======
 msgstr "अगली गतिविधि कैलेंडर इवेंट"
 >>>>>>> upstream/18.0
@@ -24038,7 +25290,11 @@ msgid "Next Activity Deadline"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अगली गतिविधि की डेडलाइन"
+>>>>>>> upstream/18.0
 =======
 msgstr "अगली गतिविधि की डेडलाइन"
 >>>>>>> upstream/18.0
@@ -24372,7 +25628,11 @@ msgid "Next Activity Summary"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अगली गतिविधी की जानकारी"
+>>>>>>> upstream/18.0
 =======
 msgstr "अगली गतिविधी की जानकारी"
 >>>>>>> upstream/18.0
@@ -24706,7 +25966,11 @@ msgid "Next Activity Type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अगली गतिविधि का प्रकार"
+>>>>>>> upstream/18.0
 =======
 msgstr "अगली गतिविधि का प्रकार"
 >>>>>>> upstream/18.0
@@ -24963,7 +26227,11 @@ msgstr "अगली गतिविधि का प्रकार"
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Nice to have"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इसका होना अच्छा है"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-javascript
@@ -24975,7 +26243,11 @@ msgstr ""
 #. module: hr
 #: model_terms:ir.actions.act_window,help:hr.open_view_categ_form
 msgid "No Tags found ! Let's create one"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कोई टैग नहीं मिला! चलिए, एक टैग बनाते हैं"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -24986,7 +26258,11 @@ msgstr ""
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "No dumb managers, no stupid tools to use, no rigid working hours"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कोई बेवकूफ़ मैनेजर नहीं, कोई बेकार टूल नहीं, काम के घंटे तय नहीं हैं"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -24999,6 +26275,11 @@ msgstr ""
 msgid ""
 "No waste of time in enterprise processes, real responsibilities and autonomy"
 msgstr ""
+<<<<<<< HEAD
+=======
+"काम की प्रक्रियाओं में समय बर्बाद नहीं होगा. आपको असली ज़िम्मेदारियां मिलेंगी और आप आज़ादी "
+"से काम कर पाएंगे"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form_profile
@@ -25075,7 +26356,11 @@ msgid "Not available"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "उपलब्ध नहीं"
+>>>>>>> upstream/18.0
 =======
 msgstr "उपलब्ध नहीं"
 >>>>>>> upstream/18.0
@@ -25378,7 +26663,11 @@ msgid "Note"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ध्यान दें"
+>>>>>>> upstream/18.0
 =======
 msgstr "ध्यान दें"
 >>>>>>> upstream/18.0
@@ -25718,7 +27007,11 @@ msgid "Number of Actions"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कार्रवाई की संख्या"
+>>>>>>> upstream/18.0
 =======
 msgstr "कार्रवाई की संख्या"
 >>>>>>> upstream/18.0
@@ -25970,17 +27263,29 @@ msgstr "कार्रवाई की संख्या"
 #: model:ir.model.fields,field_description:hr.field_hr_employee__children
 #: model:ir.model.fields,field_description:hr.field_res_users__children
 msgid "Number of Dependent Children"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आश्रित बच्चों की संख्या"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.view_hr_job_tree
 msgid "Number of Employees"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कर्मचारियों की संख्या"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_job__no_of_employee
 msgid "Number of employees currently occupying this job position."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "वर्तमान में इस नौकरी पद पर कार्यरत कर्मचारियों की संख्या।"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department__message_has_error_counter
@@ -26069,7 +27374,11 @@ msgid "Number of errors"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "गलतियों की संख्या"
+>>>>>>> upstream/18.0
 =======
 msgstr "गलतियों की संख्या"
 >>>>>>> upstream/18.0
@@ -26404,7 +27713,11 @@ msgid "Number of messages requiring action"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऐसे मैसेज की संख्या जिनपर कार्रवाई करना ज़रूरी है"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऐसे मैसेज की संख्या जिनपर कार्रवाई करना ज़रूरी है"
 >>>>>>> upstream/18.0
@@ -26739,7 +28052,11 @@ msgid "Number of messages with delivery error"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऐसे मैसेज की संख्या जिनमें डिलीवरी की गड़बड़ी है"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऐसे मैसेज की संख्या जिनमें डिलीवरी की गड़बड़ी है"
 >>>>>>> upstream/18.0
@@ -26990,7 +28307,11 @@ msgstr "ऐसे मैसेज की संख्या जिनमें �
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_job__no_of_recruitment
 msgid "Number of new employees you expect to recruit."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "नए कर्मचारियों की संख्या जिन्हें आप भर्ती करने की उम्मीद करते हैं।"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee__work_location_type__office
@@ -26998,17 +28319,26 @@ msgstr ""
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee_public__work_location_type__office
 #: model:ir.model.fields.selection,name:hr.selection__hr_work_location__location_type__office
 msgid "Office"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऑफ़िस"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:res.groups,name:hr.group_hr_user
 msgid "Officer: Manage all employees"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऑफ़िसर: सभी कर्मचारियों को मैनेज करें"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-python
 #: code:addons/hr/models/mail_activity_plan_template.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -27156,6 +28486,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Oops! It seems there is a problem with your team "
 "structure.                        We found a circular reporting loop and no "
 "one in that loop is linked to a user.                        Please double-"
@@ -27207,6 +28539,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -27303,12 +28636,23 @@ msgid ""
 =======
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+msgstr ""
+"माफ़ करें! लगता है आपकी टीम की संरचना में कोई समस्या है.                        हमें पता"
+" चला है कि आपके कर्मचारी एक-दूसरे को ही रिपोर्ट कर रहे हैं (सर्कुलर रिपोर्टिंग लूप), जिससे "
+"यह पता नहीं चल रहा है कि काम की ज़िम्मेदारी किसके पास है.                        जां"
+"च करें कि सब सही मैनेजर को रिपोर्ट कर रहे हैं।"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-javascript
 #: code:addons/hr/static/src/core/web/thread_actions.js:0
 msgid "Open Profile"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ओपन प्रोफ़ाइल"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-python
@@ -27386,7 +28730,11 @@ msgid "Operation not supported"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऑपरेशन काम नहीं करता"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऑपरेशन काम नहीं करता"
 >>>>>>> upstream/18.0
@@ -27694,7 +29042,11 @@ msgid "Other"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अन्य"
+>>>>>>> upstream/18.0
 =======
 msgstr "अन्य"
 >>>>>>> upstream/18.0
@@ -27951,13 +29303,21 @@ msgstr "अन्य"
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Our Product"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "हमारे प्रॉडक्ट"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-javascript
 #: code:addons/hr/static/src/components/avatar_card_resource/avatar_card_resource_popover.xml:0
 msgid "Out of Working Hours"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "काम के घंटों के बाहर"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee__hr_icon_display__presence_out_of_working_hour
@@ -27967,23 +29327,36 @@ msgstr ""
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee_public__hr_icon_display__presence_out_of_working_hour
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee_public__hr_presence_state__out_of_working_hour
 msgid "Out of Working hours"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "काम के घंटों के बाहर"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__pin
 #: model:ir.model.fields,field_description:hr.field_res_users__pin
 msgid "PIN"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पिन"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "PIN Code"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पिन कोड"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_employee__pin
 #: model:ir.model.fields,help:hr.field_res_users__pin
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -28228,11 +29601,23 @@ msgid ""
 >>>>>>> upstream/18.0
 "application."
 msgstr ""
+=======
+"PIN used to Check In/Out in the Kiosk Mode of the Attendance application (if "
+"enabled in Configuration) and to change the cashier in the Point of Sale "
+"application."
+msgstr ""
+"यह पिन हाज़िरी ऐप्लिकेशन के कियोस्क मोड में चेक-इन/चेक-आउट करने के लिए (अगर सेटिंग में चालू "
+"हो) और पॉइंट ऑफ़ सेल ऐप्लिकेशन में कैशियर बदलने के लिए इस्तेमाल होता है।"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department__parent_id
 msgid "Parent Department"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पैरंट डिपार्टमेंट"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department__parent_path
@@ -28309,7 +29694,11 @@ msgid "Parent Path"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पैरंट पाथ"
+>>>>>>> upstream/18.0
 =======
 msgstr "पैरंट पाथ"
 >>>>>>> upstream/18.0
@@ -28531,7 +29920,11 @@ msgstr "पैरंट पाथ"
 #: model:ir.model.fields,help:hr.field_hr_employee__user_partner_id
 #: model:ir.model.fields,help:hr.field_hr_employee_public__user_partner_id
 msgid "Partner-related data of the user"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "उपयोगकर्ता से संबंधित पार्टनर का डेटा"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -28542,13 +29935,21 @@ msgstr ""
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Passion for software products"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सॉफ़्टवेयर प्रॉडक्ट के लिए जुनून"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__passport_id
 #: model:ir.model.fields,field_description:hr.field_res_users__passport_id
 msgid "Passport No"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पासपोर्ट नंबर"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -28559,7 +29960,11 @@ msgstr ""
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Perfect written English"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एकदम सही अंग्रेज़ी"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -28570,12 +29975,20 @@ msgstr ""
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Perks"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "फ़ायदे"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:hr.contract.type,name:hr.contract_type_permanent
 msgid "Permanent"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "स्थायी"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -28586,13 +29999,21 @@ msgstr ""
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Personal Evolution"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "व्यक्तिगत विकास"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-python
 #: code:addons/hr/models/res_users.py:0
 msgid "Personal information update."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "व्यक्तिगत जानकारी का अपडेट।"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__phone
@@ -28672,7 +30093,11 @@ msgid "Phone"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "फ़ोन"
+>>>>>>> upstream/18.0
 =======
 msgstr "फ़ोन"
 >>>>>>> upstream/18.0
@@ -28894,7 +30319,11 @@ msgstr "फ़ोन"
 #: model:ir.model.fields,field_description:hr.field_hr_employee__place_of_birth
 #: model:ir.model.fields,field_description:hr.field_res_users__place_of_birth
 msgid "Place of Birth"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "जन्म का स्थान"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department__plan_ids
@@ -28971,7 +30400,11 @@ msgid "Plan"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्लान"
+>>>>>>> upstream/18.0
 =======
 msgstr "प्लान"
 >>>>>>> upstream/18.0
@@ -29196,11 +30629,20 @@ msgid ""
 "Plan %(plan_names)s cannot use a department as it is used only for some HR "
 "plans."
 msgstr ""
+<<<<<<< HEAD
+=======
+"योजना %(plan_names)s विभाग का इस्तेमाल नहीं कर सकती, क्योंकि इसका इस्तेमाल सिर्फ़ कुछ "
+"एचआर योजनाओं के लिए होता है।"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_mail_activity_schedule__plan_department_filterable
 msgid "Plan Department Filterable"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "फ़िल्टर करने योग्य प्लान डिपार्टमेंट"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-python
@@ -29209,6 +30651,11 @@ msgid ""
 "Plan activities %(template_names)s cannot use coach, manager or employee "
 "responsible as it is used only for employee plans."
 msgstr ""
+<<<<<<< HEAD
+=======
+"गतिविधि योजना %(template_names)s कोच, मैनेजर या ज़िम्मेदार कर्मचारी का इस्तेमाल नहीं "
+"कर सकती, क्योंकि इसका इस्तेमाल सिर्फ़ कर्मचारियों की योजनाओं के लिए होता है।"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.view_department_form
@@ -29285,7 +30732,11 @@ msgid "Plans"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्लान"
+>>>>>>> upstream/18.0
 =======
 msgstr "प्लान"
 >>>>>>> upstream/18.0
@@ -29506,7 +30957,11 @@ msgstr "प्लान"
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department__plans_count
 msgid "Plans Count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्लान की संख्या"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -29517,7 +30972,11 @@ msgstr ""
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Play any sport with colleagues, <br>the bill is covered."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सहकर्मियों के साथ कोई भी खेल खेलें, <br>बिल हम भरेंगे।"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_crm_team__alias_contact
@@ -29528,6 +30987,7 @@ msgid ""
 "Policy to post a message on the document using the mailgateway.\n"
 "- everyone: everyone can post\n"
 "- partners: only authenticated partners\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -29770,26 +31230,51 @@ msgid ""
 "channels\n"
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+"- followers: only followers of the related document or members of following "
+"channels\n"
+msgstr ""
+"मेलगेटवे का इस्तेमाल करके दस्तावेज़ पर मैसेज पोस्ट करने की नीति..\n"
+"- सभी लोग: कोई भी पोस्ट कर सकता है.\n"
+"- पार्टनर: सिर्फ़ प्रमाणित पार्टनर ही पोस्ट करें.\n"
+"- फ़ॉलोअर्स: सिर्फ़ संबंधित दस्तावेज़ के फ़ॉलोअर्स या फ़ॉलो किए गए चैनल के सदस्य ही पोस्ट करें\n"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_config_settings_view_form
 msgid "Presence Condition"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "उपस्थिति की शर्त"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_config_settings_view_form
 msgid "Presence Display"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्रज़ेंस डिस्प्ले"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_config_settings_view_form
 msgid "Presence of employees"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कर्मचारियों की उपस्थिति"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_config_settings_view_form
 msgid "Presence reporting screen, email and IP address control."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "उपस्थिति रिपोर्टिंग स्क्रीन, ईमेल और आईपी पता कंट्रोल।"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-javascript
@@ -29801,88 +31286,148 @@ msgstr ""
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee_public__hr_icon_display__presence_present
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee_public__hr_presence_state__present
 msgid "Present"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "उपस्थित"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.actions.report,name:hr.hr_employee_print_badge
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "Print Badge"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बैज प्रिंट करें"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form_profile
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "Private Address"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्राइवेट एड्रेस"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__private_car_plate
 msgid "Private Car Plate"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्राइवेट कार प्लेट"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__private_city
 #: model:ir.model.fields,field_description:hr.field_res_users__private_city
 msgid "Private City"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "निजी शहर"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "Private Contact"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्राइवेट कॉन्टैक्ट"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__private_country_id
 #: model:ir.model.fields,field_description:hr.field_res_users__private_country_id
 msgid "Private Country"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "निजी देश"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__private_email
 #: model:ir.model.fields,field_description:hr.field_res_users__private_email
 msgid "Private Email"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्राइवेट ईमेल"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form_profile
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "Private Information"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "निजी जानकारी"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__private_phone
 #: model:ir.model.fields,field_description:hr.field_res_users__private_phone
 msgid "Private Phone"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्राइवेट फ़ोन"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__private_state_id
 #: model:ir.model.fields,field_description:hr.field_res_users__private_state_id
 msgid "Private State"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्राइवेट स्टेट"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__private_street
 #: model:ir.model.fields,field_description:hr.field_res_users__private_street
 msgid "Private Street"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "निजी सड़क"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__private_street2
 #: model:ir.model.fields,field_description:hr.field_res_users__private_street2
 msgid "Private Street2"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "निजी सड़क 2"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__private_zip
 #: model:ir.model.fields,field_description:hr.field_res_users__private_zip
 msgid "Private Zip"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "निजी पिन कोड"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:hr.department,name:hr.dep_ps
 msgid "Professional Services"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्रोफ़ेशनल सर्विस"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__employee_properties
@@ -29963,7 +31508,11 @@ msgid "Properties"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्रॉपर्टीज़"
+>>>>>>> upstream/18.0
 =======
 msgstr "प्रॉपर्टीज़"
 >>>>>>> upstream/18.0
@@ -30196,7 +31745,11 @@ msgstr "प्रॉपर्टीज़"
 #. module: hr
 #: model:ir.model,name:hr.model_hr_employee_public
 msgid "Public Employee"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सार्वजनिक कर्मचारी"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -30207,12 +31760,17 @@ msgstr ""
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Qualify the customer needs"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ग्राहक की ज़रूरतों को समझें"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.actions.act_window,help:hr.hr_employee_public_action
 #: model_terms:ir.actions.act_window,help:hr.open_view_employee_list_my
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -30455,12 +32013,20 @@ msgid ""
 "Quickly find all the information you need for your employees such as contact "
 "data, job position, availability, etc."
 >>>>>>> upstream/18.0
+=======
+"Quickly find all the information you need for your employees such as contact "
+"data, job position, availability, etc."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr
 #: model:hr.department,name:hr.dep_rd_be
 msgid "R&D USA"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रिसर्च और डेवलपमेंट अमेरिका"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department__rating_ids
@@ -30549,7 +32115,11 @@ msgid "Ratings"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रेटिंग"
+>>>>>>> upstream/18.0
 =======
 msgstr "रेटिंग"
 >>>>>>> upstream/18.0
@@ -30801,6 +32371,10 @@ msgstr "रेटिंग"
 #: model_terms:ir.actions.act_window,help:hr.action_hr_job
 msgid "Ready to recruit more efficiently?"
 msgstr ""
+<<<<<<< HEAD
+=======
+"क्या आप कम समय और मेहनत में बेहतर लोगों को नौकरी पर रखने के लिए तैयार हैं?"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -30811,7 +32385,11 @@ msgstr ""
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Real responsibilities and challenges in a fast evolving company"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "तेज़ी से बढ़ती हुई कंपनी में असल ज़िम्मेदारियां और चुनौतियां"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_departure_reason__name
@@ -30834,45 +32412,77 @@ msgstr "भर्ती"
 #: code:addons/hr/models/hr_employee.py:0
 #: model:ir.actions.act_window,name:hr.hr_departure_wizard_action
 msgid "Register Departure"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "नौकरी छोड़ने की जानकारी को रजिस्टर करें"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-python
 #: code:addons/hr/models/hr_employee.py:0
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form_smartbutton_inherited
 msgid "Related Contacts"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "संबंधित संपर्क"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-python
 #: code:addons/hr/models/res_partner.py:0 code:addons/hr/models/res_users.py:0
 msgid "Related Employees"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "संबंधित कर्मचारी"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__related_partners_count
 msgid "Related Partners Count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "जुड़े हुए पार्टनर की संख्या"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "Related User"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "संबंधित उपयोगकर्ता"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_res_users__employee_ids
 msgid "Related employee"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "संबंधित कर्मचारी"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_res_partner__employee_ids
 msgid "Related employees based on their private address"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "निजी पते के आधार पर संबंधित कर्मचारी"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_resource_resource__user_id
 msgid "Related user name for the resource to manage its access."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इस रिसोर्स के ऐक्सेस को मैनेज करने के लिए संबंधित यूज़र का नाम।"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_res_config_settings__module_hr_homeworking
@@ -30965,7 +32575,11 @@ msgid "Reporting"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रिपोर्टिंग"
+>>>>>>> upstream/18.0
 =======
 msgstr "रिपोर्टिंग"
 >>>>>>> upstream/18.0
@@ -31216,7 +32830,11 @@ msgstr "रिपोर्टिंग"
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_job__requirements
 msgid "Requirements"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ज़रूरत"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:hr.department,name:hr.dep_rd
@@ -31293,7 +32911,11 @@ msgid "Research & Development"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रिसर्च और डेवलपमेंट"
+>>>>>>> upstream/18.0
 =======
 msgstr "रिसर्च और डेवलपमेंट"
 >>>>>>> upstream/18.0
@@ -31514,30 +33136,50 @@ msgstr "रिसर्च और डेवलपमेंट"
 #. module: hr
 #: model:hr.departure.reason,name:hr.departure_resigned
 msgid "Resigned"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इस्तीफा दे दिया"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__resource_id
 #: model:ir.model.fields,field_description:hr.field_hr_employee_base__resource_id
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__resource_id
 msgid "Resource"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रिसोर्स"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee_base__resource_calendar_id
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__resource_calendar_id
 msgid "Resource Calendar"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रिसोर्स कैलेंडर"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model,name:hr.model_resource_calendar
 msgid "Resource Working Time"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रिसोर्स वर्किंग टाइम"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model,name:hr.model_resource_resource
 msgid "Resources"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "संसाधन"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -31548,7 +33190,11 @@ msgstr ""
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Responsibilities"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ज़िम्मेदारियां"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department__activity_user_id
@@ -31636,7 +33282,11 @@ msgid "Responsible User"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "जिम्मेदार उपयोगकर्ता"
+>>>>>>> upstream/18.0
 =======
 msgstr "जिम्मेदार उपयोगकर्ता"
 >>>>>>> upstream/18.0
@@ -31887,12 +33537,20 @@ msgstr "जिम्मेदार उपयोगकर्ता"
 #. module: hr
 #: model:hr.departure.reason,name:hr.departure_retired
 msgid "Retired"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सेवानिवृत्त"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__sinid
 msgid "SIN No"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "SIN नंबर"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department__message_has_sms_error
@@ -31981,7 +33639,11 @@ msgid "SMS Delivery error"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एसएमएस डिलीवरी में गड़बड़ी"
+>>>>>>> upstream/18.0
 =======
 msgstr "एसएमएस डिलीवरी में गड़बड़ी"
 >>>>>>> upstream/18.0
@@ -32233,7 +33895,11 @@ msgstr "एसएमएस डिलीवरी में गड़बड़ी
 #: model:ir.model.fields,field_description:hr.field_hr_employee__ssnid
 #: model:ir.model.fields,field_description:hr.field_res_users__ssnid
 msgid "SSN No"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "SSN नंबर"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:hr.department,name:hr.dep_sales
@@ -32320,7 +33986,11 @@ msgid "Sales"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सेल्स"
+>>>>>>> upstream/18.0
 =======
 msgstr "सेल्स"
 >>>>>>> upstream/18.0
@@ -32576,18 +34246,30 @@ msgstr "सहेज"
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "Schedule"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "शेड्यूल बनाने की सुविधा"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__study_school
 #: model:ir.model.fields,field_description:hr.field_res_users__study_school
 msgid "School"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "स्कूल"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:hr.contract.type,name:hr.contract_type_seasonal
 msgid "Seasonal"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मौसमी"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_employee__coach_id
@@ -32598,6 +34280,11 @@ msgid ""
 "Select the \"Employee\" who is the coach of this employee.\n"
 "The \"Coach\" has no specific rights or responsibilities by default."
 msgstr ""
+<<<<<<< HEAD
+=======
+"उस \"कर्मचारी\" को चुनें जो इस कर्मचारी का कोच है. \n"
+"डिफ़ॉल्ट रूप से \"कोच\" के पास कोई विशेष अधिकार या ज़िम्मेदारियां नहीं होती हैं।"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_contract_type__sequence
@@ -32610,6 +34297,10 @@ msgstr "अनुक्रम"
 #: model_terms:ir.ui.view,arch_db:hr.res_config_settings_view_form
 msgid "Set default company schedule to manage your employees working time"
 msgstr ""
+<<<<<<< HEAD
+=======
+"अपने कर्मचारियों के काम करने के समय को मैनेज करने के लिए डिफ़ॉल्ट कंपनी शेड्यूल सेट करें"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.actions.act_window,name:hr.hr_config_settings_action
@@ -32623,7 +34314,11 @@ msgstr "कॉन्फ़िगरेशन"
 #: model:ir.model.fields,field_description:hr.field_hr_employee_base__share
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__share
 msgid "Share User"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "यूज़र शेयर करें"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__show_hr_icon_display
@@ -32631,41 +34326,69 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__show_hr_icon_display
 #: model:ir.model.fields,field_description:hr.field_resource_resource__show_hr_icon_display
 msgid "Show Hr Icon Display"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एचआर आइकॉन डिस्प्ले दिखाएं"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-javascript
 #: code:addons/hr/static/src/components/department_chart/department_chart.xml:0
 msgid "Show employees"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कर्मचारियों को दिखाएं"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-python
 #: code:addons/hr/models/hr_employee.py:0
 msgid "Single"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सिंगल"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_res_config_settings__module_hr_skills
 msgid "Skills Management"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "स्किल मैनेजमेंट"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_employee__sinid
 msgid "Social Insurance Number"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सोशल इंश्योरेंस नंबर"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_employee__ssnid
 #: model:ir.model.fields,help:hr.field_res_users__ssnid
 msgid "Social Security Number"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सोशल सिक्योरिटी नंबर"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-python
 #: code:addons/hr/models/hr_employee_base.py:0
 msgid "Some employee already have a work contact"
 msgstr ""
+<<<<<<< HEAD
+=======
+"कुछ कर्मचारियों की काम से जुड़ी संपर्क जानकारी (ईमेल, फ़ोन) पहले से ही दर्ज है"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -32676,19 +34399,31 @@ msgstr ""
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Sport Activity"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "स्पोर्ट ऐक्टिविटी"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__spouse_birthdate
 #: model:ir.model.fields,field_description:hr.field_res_users__spouse_birthdate
 msgid "Spouse Birthdate"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "जीवनसाथी की जन्मतिथि"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__spouse_complete_name
 #: model:ir.model.fields,field_description:hr.field_res_users__spouse_complete_name
 msgid "Spouse Complete Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पति/पत्नी का पूरा नाम"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_filter
@@ -32798,7 +34533,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -33046,6 +34784,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -33213,7 +34954,11 @@ msgstr ""
 #. module: hr
 #: model:hr.contract.type,name:hr.contract_type_statutaire
 msgid "Statutory"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "वैधानिक"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form_profile
@@ -33301,7 +35046,11 @@ msgid "Street 2..."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "स्ट्रीट 2..."
+>>>>>>> upstream/18.0
 =======
 msgstr "स्ट्रीट 2..."
 >>>>>>> upstream/18.0
@@ -33635,7 +35384,11 @@ msgid "Street..."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "स्ट्रीट..."
+>>>>>>> upstream/18.0
 =======
 msgstr "स्ट्रीट..."
 >>>>>>> upstream/18.0
@@ -33892,7 +35645,11 @@ msgstr "स्ट्रीट..."
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Strong analytical skills"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मज़बूत एनालिटिकल स्किल"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.actions.act_window,help:hr.hr_department_kanban_action
@@ -33901,12 +35658,21 @@ msgid ""
 "Structure Employees per department and have an overview of e.g.\n"
 "                    expenses, timesheets, time off, recruitment, etc."
 msgstr ""
+<<<<<<< HEAD
+=======
+"कर्मचारियों को विभाग के हिसाब से व्यवस्थित करें और उनके खर्चों, काम के समय,\n"
+"                    छुट्टियों और भर्ती जैसी चीज़ों की पूरी जानकारी रखें।"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:hr.contract.type,name:hr.contract_type_student
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee__employee_type__student
 msgid "Student"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "छात्र"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee_category__name
@@ -33993,7 +35759,11 @@ msgid "Tag Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "टैग नाम"
+>>>>>>> upstream/18.0
 =======
 msgstr "टैग नाम"
 >>>>>>> upstream/18.0
@@ -34244,7 +36014,11 @@ msgstr "टैग नाम"
 #. module: hr
 #: model:ir.model.constraint,message:hr.constraint_hr_employee_category_name_uniq
 msgid "Tag name already exists!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "टैग नाम पहले से ही मौजूद है!"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__category_ids
@@ -34257,7 +36031,11 @@ msgstr "टैग"
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_job__no_of_recruitment
 msgid "Target"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "टारगेट"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -34268,22 +36046,38 @@ msgstr ""
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Technical Expertise"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "टेक्निकल एक्सपर्टीज़"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_res_users__create_employee_id
 msgid "Technical field, bind user to this employee on create"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "तकनीकी फ़ील्ड, बनाते समय यूज़र को इस कर्मचारी से जोड़ें"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_res_users__create_employee
 msgid "Technical field, whether to create an employee"
 msgstr ""
+<<<<<<< HEAD
+=======
+"टेक्निकल फ़ील्ड, जिससे यह तय होता है कि नया कर्मचारी रिकॉर्ड बनाना है या नहीं"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:hr.contract.type,name:hr.contract_type_temporary
 msgid "Temporary"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अस्थाई"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-python
@@ -34292,6 +36086,11 @@ msgid ""
 "The Badge ID must be alphanumeric without any accents and no longer than 18 "
 "characters."
 msgstr ""
+<<<<<<< HEAD
+=======
+"बैज की पहचान संख्या में सिर्फ़ अक्षर और अंक होने चाहिए, कोई अतिरिक्त चिह्न नहीं और उसकी "
+"लंबाई 18 से ज़्यादा न हो।"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.constraint,message:hr.constraint_hr_employee_barcode_uniq
@@ -34299,6 +36098,11 @@ msgid ""
 "The Badge ID must be unique, this one is already assigned to another "
 "employee."
 msgstr ""
+<<<<<<< HEAD
+=======
+"बैज की पहचान संख्या किसी और के पास नहीं हो सकती, यह पहले ही एक दूसरे कर्मचारी को दी जा"
+" चुकी है।"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_employee__company_country_code
@@ -34388,6 +36192,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"यह आईएसओ देश का दो अक्षर वाला कोड है. \n"
+"इसे आप जल्दी कुछ ढूंढने के लिए इस्तेमाल कर सकते हैं"
+>>>>>>> upstream/18.0
 =======
 "यह आईएसओ देश का दो अक्षर वाला कोड है. \n"
 "इसे आप जल्दी कुछ ढूंढने के लिए इस्तेमाल कर सकते हैं"
@@ -34768,11 +36577,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The Marketing Manager defines the mid- to long-term marketing strategy for his covered market segments in the World.\n"
 "              He develops and monitors the annual budget in collaboration with Sales.\n"
 "              He defines the products and customers portfolio according to the marketing plan.\n"
 "              This mission requires strong collaboration with Technical Service and Sales."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -34922,6 +36734,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -35023,23 +36838,39 @@ msgstr ""
 #. odoo-python
 #: code:addons/hr/models/hr_employee.py:0
 msgid "The PIN must be a sequence of digits."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पिन नंबर में सिर्फ़ 0 से 9 तक की संख्याएं ही होनी चाहिए।"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "The default working hours are set in configuration."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "डिफ़ॉल्ट कामकाजी घंटे कॉन्फ़िगरेशन में सेट किए गए हैं।"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-python
 #: code:addons/hr/models/mail_activity_plan_template.py:0
 msgid "The employee %s should be linked to a user."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कर्मचारी %s को एक यूज़र से जोड़ा जाना चाहिए।"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.constraint,message:hr.constraint_hr_job_no_of_recruitment_positive
 msgid "The expected number of new employees must be positive."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "नए कर्मचारियों की अपेक्षित संख्या सकारात्मक होनी चाहिए।"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-python
@@ -35048,34 +36879,61 @@ msgid ""
 "The fields “%s”, which you are trying to read, are not available for "
 "employee public profiles."
 msgstr ""
+<<<<<<< HEAD
+=======
+"फ़ील्ड “%s”, जिसे आप पढ़ने की कोशिश कर रहे हैं, वह कर्मचारी की सार्वजनिक प्रोफ़ाइल के लिए "
+"उपलब्ध नहीं है।"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-python
 #: code:addons/hr/models/res_users.py:0
 msgid "The following fields were modified by %s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "नीचे दी गई जानकारी %s नाम के व्यक्ति ने बदली हैं"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-python
 #: code:addons/hr/models/mail_activity_plan_template.py:0
 msgid "The manager of %s should be linked to a user."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s के मैनेजर को एक यूज़र से जोड़ा जाना चाहिए।"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.constraint,message:hr.constraint_hr_job_name_company_uniq
 msgid "The name of the job position must be unique per department in company!"
 msgstr ""
+<<<<<<< HEAD
+=======
+"कंपनी के अंदर, हर विभाग में एक ही नौकरी के नाम का दूसरा पद नहीं हो सकता, नाम अलग "
+"(खास) होना चाहिए!"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-python
 #: code:addons/hr/models/mail_activity_plan_template.py:0
 msgid "The user of %s's coach is not set."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s के कोच का यूज़र सेट नहीं है।"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:res.groups,comment:hr.group_hr_user
 msgid "The user will be able to approve document created by employees."
 msgstr ""
+<<<<<<< HEAD
+=======
+"उपयोगकर्ता के पास यह अधिकार होगा कि वह कर्मचारियों द्वारा तैयार किए गए कागज़ात को पा"
+"स कर सके।"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:res.groups,comment:hr.group_hr_manager
@@ -35155,7 +37013,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "उपयोगकर्ता एचआर की सेटिंग और आंकड़ों वाली रिपोर्ट देख और बदल पाएगा."
+>>>>>>> upstream/18.0
 =======
 msgstr "उपयोगकर्ता एचआर की सेटिंग और आंकड़ों वाली रिपोर्ट देख और बदल पाएगा."
 >>>>>>> upstream/18.0
@@ -35380,18 +37242,30 @@ msgstr "उपयोगकर्ता एचआर की सेटिंग �
 #. odoo-python
 #: code:addons/hr/models/hr_employee.py:0
 msgid "The work permit of %(employee)s expires at %(date)s."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कर्मचारी %(employee)s का वर्क परमिट %(date)s को खत्म हो जाएगा।"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:hr.contract.type,name:hr.contract_type_thesis
 msgid "Thesis"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "थीसिस"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-python
 #: code:addons/hr/models/hr_employee.py:0
 msgid "This employee already has an user."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इस कर्मचारी के पास पहले से ही एक उपयोगकर्ता है।"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_employee__tz
@@ -35401,12 +37275,18 @@ msgid ""
 "This field is used in order to define in which timezone the employee will "
 "work."
 msgstr ""
+<<<<<<< HEAD
+=======
+"इस फ़ील्ड का उपयोग यह तय करने के लिए किया जाता है कि कर्मचारी किस टाइमज़ोन में काम "
+"करेगा।"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-javascript
 #: code:addons/hr/static/src/views/hr_graph_controller.xml:0
 #: code:addons/hr/static/src/views/hr_pivot_controller.xml:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -35649,36 +37529,57 @@ msgid ""
 "This report gives you an overview of your employees based on the measures of "
 "your choice."
 >>>>>>> upstream/18.0
+=======
+"This report gives you an overview of your employees based on the measures of "
+"your choice."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_config_settings_view_form
 msgid "This setting block is utilized to manage the frontend design."
 msgstr ""
+<<<<<<< HEAD
+=======
+"इस सेटिंग ब्लॉक का उपयोग फ़्रंटएंड डिज़ाइन मैनेज करने के लिए किया जाता है।"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-python
 #: code:addons/hr/models/mail_activity_plan_template.py:0
 msgid "Those responsible types are limited to Employee plans."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ये खास तरह की ज़िम्मेदारियां सिर्फ़ कर्मचारियों की योजनाओं के लिए ही इस्तेमाल हो सकती हैं।"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__tz
 #: model:ir.model.fields,field_description:hr.field_hr_employee_base__tz
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__tz
 msgid "Timezone"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "टाइमज़ोन"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:digest.tip,name:hr.digest_tip_hr_0
 #: model_terms:digest.tip,tip_description:hr.digest_tip_hr_0
 msgid "Tip: Where's Bryan?"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सुझाव: ब्रायन कहां है?"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-python
 #: code:addons/hr/models/hr_employee.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -35976,6 +37877,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "To avoid multi company issues (losing the access to your previous contracts, "
 "leaves, ...), you should create another employee in the new company instead."
 msgstr ""
@@ -36029,6 +37932,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -36207,7 +38113,11 @@ msgid "Today Activities"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आज की गतिविधियां"
+>>>>>>> upstream/18.0
 =======
 msgstr "आज की गतिविधियां"
 >>>>>>> upstream/18.0
@@ -36449,13 +38359,21 @@ msgstr "आज की गतिविधियां"
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_job__expected_employees
 msgid "Total Forecasted Employees"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कुल अनुमानित कर्मचारी"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:hr.job,name:hr.job_trainee
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee__employee_type__trainee
 msgid "Trainee"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ट्रेनी"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -36466,7 +38384,11 @@ msgstr ""
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Trainings"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ट्रेनिंग"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_department__activity_exception_decoration
@@ -36551,7 +38473,11 @@ msgid "Type of the exception activity on record."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रिकॉर्ड में जो अलग तरह की गतिविधि हुई है, वह किस तरह की है."
+>>>>>>> upstream/18.0
 =======
 msgstr "रिकॉर्ड में जो अलग तरह की गतिविधि हुई है, वह किस तरह की है."
 >>>>>>> upstream/18.0
@@ -36793,14 +38719,22 @@ msgstr "रिकॉर्ड में जो अलग तरह की गत
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.hr_department_view_kanban
 msgid "Unarchive"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रिकॉर्ड से हटाएं"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee__hr_icon_display__presence_undetermined
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee_base__hr_icon_display__presence_undetermined
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee_public__hr_icon_display__presence_undetermined
 msgid "Undetermined"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "तय नहीं"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.view_department_filter
@@ -36812,7 +38746,11 @@ msgstr "अपठित संदेश"
 #. module: hr
 #: model_terms:ir.actions.act_window,help:hr.open_view_categ_form
 msgid "Use tags to categorize your Employees."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अपने कर्मचारियों को कैटगरी में बांटने के लिए टैग का इस्तेमाल करें।"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model,name:hr.model_res_users
@@ -36827,18 +38765,30 @@ msgstr "उपयोगकर्ता"
 #: model:ir.model.fields,field_description:hr.field_hr_employee__user_partner_id
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__user_partner_id
 msgid "User's partner"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "यूज़र का पार्टनर"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.hr_job_view_kanban
 msgid "Vacancies:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "नौकरियां:"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_res_company__hr_presence_control_ip_list
 #: model:ir.model.fields,field_description:hr.field_res_config_settings__hr_presence_control_ip_list
 msgid "Valid IP addresses"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मान्य आईपी पता"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -36849,19 +38799,31 @@ msgstr ""
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Valid work permit for Belgium"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बेल्जियम के लिए वैध वर्क परमिट"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__visa_expire
 #: model:ir.model.fields,field_description:hr.field_res_users__visa_expire
 msgid "Visa Expiration Date"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "वीज़ा खत्म होने की तारीख"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__visa_no
 #: model:ir.model.fields,field_description:hr.field_res_users__visa_no
 msgid "Visa No"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "वीज़ा नंबर"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-python
@@ -36946,7 +38908,11 @@ msgid "Warning"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "चेतावनी"
+>>>>>>> upstream/18.0
 =======
 msgstr "चेतावनी"
 >>>>>>> upstream/18.0
@@ -37243,7 +39209,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                Someone who can snap out of coding and perform analysis or meet clients to explain the technical possibilities that can meet their needs."
+=======
+"                Someone who can snap out of coding and perform analysis or "
+"meet clients to explain the technical possibilities that can meet their "
+"needs."
+>>>>>>> upstream/18.0
 =======
 "                Someone who can snap out of coding and perform analysis or "
 "meet clients to explain the technical possibilities that can meet their "
@@ -37570,7 +39542,11 @@ msgid "Website Messages"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "वेबसाइट मैसेज"
+>>>>>>> upstream/18.0
 =======
 msgstr "वेबसाइट मैसेज"
 >>>>>>> upstream/18.0
@@ -37890,7 +39866,11 @@ msgid "Website communication history"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "वेबसाइट कम्यूनिकेशन हिस्ट्री"
+>>>>>>> upstream/18.0
 =======
 msgstr "वेबसाइट कम्यूनिकेशन हिस्ट्री"
 >>>>>>> upstream/18.0
@@ -38129,7 +40109,11 @@ msgstr "वेबसाइट कम्यूनिकेशन हिस्ट�
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "What We Offer"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "हम कौनसी सुविधाएं देते हैं"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -38140,7 +40124,11 @@ msgstr ""
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "What's great in the job?"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "यह नौकरी क्यों अच्छी है?"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_employee__member_of_department
@@ -38150,12 +40138,21 @@ msgid ""
 "Whether the employee is a member of the active user's department or one of "
 "it's child department."
 msgstr ""
+<<<<<<< HEAD
+=======
+"यह जांच करना कि वह कर्मचारी, मौजूदा यूज़र के विभाग में है या उस विभाग से जुड़े हुए छोटे "
+"विभागों में से किसी का सदस्य है।"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-python
 #: code:addons/hr/models/hr_employee.py:0
 msgid "Widower"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "विदुर (विडोअर)"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__address_id
@@ -38164,7 +40161,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr.field_hr_work_location__address_id
 #: model:ir.model.fields,field_description:hr.field_res_users__address_id
 msgid "Work Address"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऑफ़िस का पता"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__work_contact_id
@@ -38172,7 +40173,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__work_contact_id
 #: model:ir.model.fields,field_description:hr.field_res_users__work_contact_id
 msgid "Work Contact"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऑफ़िस का संपर्क नंबर"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__work_email
@@ -38181,14 +40186,22 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr.field_res_users__work_email
 #: model:ir.model.fields,field_description:hr.field_resource_resource__work_email
 msgid "Work Email"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऑफ़िस का ईमेल"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.hr_employee_public_view_form
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form_profile
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "Work Information"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "काम से जुड़ी जानकारी"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-javascript
@@ -38202,7 +40215,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr.hr_work_location_form_view
 #: model_terms:ir.ui.view,arch_db:hr.hr_work_location_tree_view
 msgid "Work Location"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऑफ़िस का लोकेशन"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__work_location_name
@@ -38210,7 +40227,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__work_location_name
 #: model:ir.model.fields,field_description:hr.field_res_users__work_location_name
 msgid "Work Location Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऑफ़िस के लोकेशन का नाम"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__work_location_type
@@ -38218,13 +40239,21 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__work_location_type
 #: model:ir.model.fields,field_description:hr.field_res_users__work_location_type
 msgid "Work Location Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऑफ़िस का लोकेशन टाइप"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.actions.act_window,name:hr.hr_work_location_action
 #: model:ir.ui.menu,name:hr.menu_hr_work_location_tree
 msgid "Work Locations"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऑफ़िस के लोकेशन"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__mobile_phone
@@ -38232,35 +40261,59 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__mobile_phone
 #: model:ir.model.fields,field_description:hr.field_res_users__mobile_phone
 msgid "Work Mobile"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "वर्क मोबाइल"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_config_settings_view_form
 msgid "Work Organization"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "वर्क ऑर्गनाइज़ेशन"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__has_work_permit
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form_profile
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "Work Permit"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "वर्क परमिट"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__work_permit_expiration_date
 msgid "Work Permit Expiration Date"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "वर्क परमिट खत्म होने की तारीख"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__permit_no
 #: model:ir.model.fields,field_description:hr.field_res_users__permit_no
 msgid "Work Permit No"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "वर्क परमिट नंबर"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__work_permit_scheduled_activity
 msgid "Work Permit Scheduled Activity"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "वर्क परमिट शेड्यूल की गई ऐक्टिविटी"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__work_phone
@@ -38269,21 +40322,34 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr.field_res_users__work_phone
 #: model:ir.model.fields,field_description:hr.field_resource_resource__work_phone
 msgid "Work Phone"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऑफ़िस का फ़ोन नंबर"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee__employee_type__worker
 msgid "Worker"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "वर्कर"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__resource_calendar_id
 msgid "Working Hours"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "काम के घंटे"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.ui.menu,name:hr.menu_resource_calendar_view
 msgid "Working Schedules"
+<<<<<<< HEAD
 msgstr ""
 
 #. module: hr
@@ -38430,12 +40496,19 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr "वर्किंग शेड्यूल"
+
+#. module: hr
+#. odoo-python
 >>>>>>> upstream/18.0
 #: code:addons/hr/models/hr_employee.py:0
 msgid ""
 "You are not allowed to access \"Employee\" (hr.employee) records.\n"
 "We can redirect you to the public employee list."
 msgstr ""
+<<<<<<< HEAD
 
 #. module: hr
 #. odoo-python
@@ -38580,17 +40653,29 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+"आपको \"कर्मचारी\" (hr.employee) रिकॉर्ड ऐक्सेस करने की अनुमति नहीं है. \n"
+"हम आपको सार्वजनिक कर्मचारी सूची पर रीडायरेक्ट कर सकते हैं।"
+
+#. module: hr
+#. odoo-python
 >>>>>>> upstream/18.0
 #: code:addons/hr/models/res_users.py:0
 msgid ""
 "You are not allowed to create an employee because the user does not have "
 "access rights for %s"
 msgstr ""
+<<<<<<< HEAD
+=======
+"आपको कर्मचारी बनाने की अनुमति नहीं है, क्योंकि यूज़र के पास %s के लिए ऐक्सेस अधिकार नहीं हैं"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-python
 #: code:addons/hr/models/res_users.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -38834,28 +40919,49 @@ msgid ""
 "to update other information."
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+"You are only allowed to update your preferences. Please contact a HR officer "
+"to update other information."
+msgstr ""
+"आपको सिर्फ़ अपनी प्राथमिकताएं अपडेट करने की अनुमति है. अन्य जानकारी अपडेट करने के लिए "
+"कृपया किसी एचआर अधिकारी से संपर्क करें।"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-javascript
 #: code:addons/hr/static/src/store_service_patch.js:0
 msgid "You can only chat with employees that have a dedicated user."
 msgstr ""
+<<<<<<< HEAD
+=======
+"आप केवल उन्हीं कर्मचारियों से बात कर सकते हैं जिनके पास सिस्टम में अपना पूरा यूज़र अकाउंट बना "
+"हुआ है।"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-python
 #: code:addons/hr/models/hr_department.py:0
 msgid "You cannot create recursive departments."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आप ऐसे विभाग नहीं बना सकते जो खुद को ही बार-बार रिपोर्ट करते हों।"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-python
 #: code:addons/hr/models/hr_employee.py:0
 msgid "You do not have access to this document."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आपके पास इस दस्तावेज़ को ऐक्सेस करने का अधिकार नहीं है।"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,description:hr.job_trainee
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -38911,6 +41017,8 @@ msgid ""
 "You join the Implementation Assistance department. This team of 3 people go with Odoo’s clients in the set up of the software. Your role will be\n"
 "to animate webinars in order to show the different functionalities of the software.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -39065,6 +41173,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -39165,6 +41276,7 @@ msgid ""
 "You help the support manager to set up new support services by\n"
 "being involved in the treatment of new cases,\n"
 "contributing to the set up of a new politic,\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -39407,6 +41519,29 @@ msgid ""
 "of how the support given is seen by the customers."
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+"being involved into satisfaction surveys in order to have a better knowledge "
+"of how the support given is seen by the customers."
+msgstr ""
+"आप Odoo के नए वर्शन के लॉन्च के बाद हमारे ट्यूटोरियल टूल और प्री-सेल्स टूल के अपडेट में भाग लेते"
+" हैं. दरअसल, सॉफ़्टवेयर का कोई भी नया संस्करण कार्यक्षमताओं, एर्गोनॉमिक्स और कॉन्फ़िगरेशन के "
+"मामले में महत्वपूर्ण सुधार लाता है.\n"
+"आपको मौजूदा टूल (किताबें, क्लास सपोर्ट, Odoo प्रज़ेंटेशन स्लाइड, व्यावसायिक टूल) से परिचित "
+"होना होगा, \n"
+"ताकि सॉफ़्टवेयर के नए वर्शन के लिए उन्हें उपयुक्त बनाने हेतु उनके अपडेट में भाग लिया जा सके और, "
+"निश्चित रूप से, \n"
+"सॉफ़्टवेयर के नए क्षेत्रों को कवर करने के लिए सुधार सुझाए जा सकें.\n"
+"आप इम्प्लीमेंटेशन असिस्टेंस विभाग में शामिल होंगे. 3 लोगों की यह टीम Odoo के ग्राहकों के साथ "
+"सॉफ़्टवेयर सेट करने में जाती है. \n"
+"आपकी भूमिका सॉफ़्टवेयर की विभिन्न कार्यक्षमताओं को दिखाने के लिए वेबिनार एनिमेट करना "
+"होगा.\n"
+"ग्राहकों की सहायता में शामिल होना और \n"
+"उनके सवालों के जवाब देना.\n"
+"आप नए मामलों को हल करके, \n"
+"नई योजना बनाने और ग्राहक से उनकी \n"
+"संतुष्टि जानने के लिए फीडबैक लेने में हिस्सा लेकर \n"
+"सपोर्ट मैनेजर को नई सेवाएँ शुरू करने में मदद करेंगे।"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,description:hr.job_cto
@@ -39459,10 +41594,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You will take part in the consulting services we provide to our partners and customers: design, analysis, development, testing, project management, support/coaching. You will work autonomously as well as coordinate and supervise small distributed development teams for some projects. Optionally, you will deliver Odoo training sessions to partners and customers (8-10 people/session). You will report to the Head of Professional Services and work closely with all developers and consultants.\n"
 "\n"
 "The job is located in Grand-Rosière (1367), Belgium (between Louvain-La-Neuve and Namur)."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -39614,6 +41752,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -39710,6 +41849,18 @@ msgid ""
 =======
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+msgstr ""
+"आप हमारे पार्टनर और ग्राहकों को प्रदान की जाने वाली कंसल्टिंग सेवाओं में भाग लेंगे: डिज़ाइन, "
+"विश्लेषण, डेवलपमेंट, टेस्टिंग, प्रोजेक्ट मैनेजमेंट, सपोर्ट/कोचिंग. आप अकेले भी काम करेंगे और कुछ "
+"प्रोजेक्ट के लिए दूर-दराज बैठी छोटी डेवलपर टीमों को संभालेंगे और उन पर नज़र रखेंगे. अगर ज़रूरी "
+"हुआ, तो आप पार्टनर और ग्राहकों (8-10 लोगों) को Odoo इस्तेमाल करने की ट्रेनिंग देंगे. आपको "
+"प्रोफ़ेशनल सर्विस के प्रमुख को रिपोर्ट करना होगा और सभी डेवलपरों/सलाहकारों के साथ मिलकर "
+"काम करना होगा.\n"
+"\n"
+"नौकरी करने की जगह बेल्जियम के ग्रैंड-रोसिएर शहर में है, जो दो प्रमुख जगहों (लूवैन-ला-न्यूव और "
+"नामुर) के बीच पड़ता है।"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form_profile
@@ -39791,7 +41942,11 @@ msgid "ZIP"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "जिप"
+>>>>>>> upstream/18.0
 =======
 msgstr "जिप"
 >>>>>>> upstream/18.0
@@ -40025,22 +42180,38 @@ msgstr "जिप"
 #. odoo-python
 #: code:addons/hr/models/mail_alias.py:0
 msgid "addresses linked to registered employees"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "उन कर्मचारियों के घर या काम के पते, जो पहले से सिस्टम में दर्ज हैं"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.view_department_form
 msgid "department"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "डिपार्टमेंट"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "e.g. Building 2, Remote, etc."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "जैसे, बिल्डिंग 2, रिमोट वगैरह।"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.hr_employee_public_view_form
 msgid "e.g. John Doe"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "जैसे, जॉन डो"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
@@ -40122,7 +42293,11 @@ msgid "e.g. Sales Manager"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "जैसे, सेल्स मैनेजर"
+>>>>>>> upstream/18.0
 =======
 msgstr "जैसे, सेल्स मैनेजर"
 >>>>>>> upstream/18.0
@@ -40355,33 +42530,57 @@ msgstr "जैसे, सेल्स मैनेजर"
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.view_hr_job_form
 msgid "e.g. Summarize the position in one or two lines..."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "जैसे, पद का सारांश एक या दो पंक्तियों में करें..।"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "e.g. johndoe@example.com"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "जैसे- johndoe@example.com"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "e.g. myprivateemail@example.com"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "जैसे, myprivateemail@example.com"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee__distance_home_work_unit__kilometers
 msgid "km"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "किमी"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee__distance_home_work_unit__miles
 msgid "mi"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मील"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-python
 #: code:addons/hr/models/models.py:0
 msgid "restricted to employees"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कर्मचारियों को अनुमति नहीं"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__work_permit_name

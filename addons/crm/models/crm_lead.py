@@ -327,7 +327,11 @@ class Lead(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if not lead.stage_id:
+=======
+            if not lead.stage_id or (lead.team_id and lead.stage_id.team_id and lead.team_id != lead.stage_id.team_id):
+>>>>>>> upstream/18.0
 =======
             if not lead.stage_id or (lead.team_id and lead.stage_id.team_id and lead.team_id != lead.stage_id.team_id):
 >>>>>>> upstream/18.0
@@ -1000,7 +1004,11 @@ class Lead(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             vals['date_open'] = now if lead.type == 'opportunity' else False
+=======
+            vals['date_open'] = now if lead.type == 'opportunity' and lead.user_id.active else False
+>>>>>>> upstream/18.0
 =======
             vals['date_open'] = now if lead.type == 'opportunity' and lead.user_id.active else False
 >>>>>>> upstream/18.0
@@ -1764,7 +1772,11 @@ class Lead(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'priority': lambda fname, leads: max(leads.mapped('priority')) if leads else False,
+=======
+            'priority': lambda fname, leads: max(priorities) if (priorities := leads.filtered('priority').mapped('priority')) else False,
+>>>>>>> upstream/18.0
 =======
             'priority': lambda fname, leads: max(priorities) if (priorities := leads.filtered('priority').mapped('priority')) else False,
 >>>>>>> upstream/18.0
@@ -2672,7 +2684,11 @@ class Lead(models.Model):
                 continue  # already containing name + email
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             name_from_email = self.partner_name or self.contact_name
+=======
+            name_from_email = self.contact_name or self.partner_name
+>>>>>>> upstream/18.0
 =======
             name_from_email = self.contact_name or self.partner_name
 >>>>>>> upstream/18.0

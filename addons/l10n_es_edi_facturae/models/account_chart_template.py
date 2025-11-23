@@ -39,6 +39,7 @@ class AccountChartTemplate(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _get_es_facturae_account_tax(self):
         taxes = self._parse_csv('es_common', 'account.tax', module='l10n_es_edi_facturae')
         # only return existing taxes
@@ -49,6 +50,8 @@ class AccountChartTemplate(models.AbstractModel):
         }
         return taxes
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -155,6 +158,9 @@ class AccountChartTemplate(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

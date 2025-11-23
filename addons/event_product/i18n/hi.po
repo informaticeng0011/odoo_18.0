@@ -1,5 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* event_product
 # 
 # Translators:
@@ -358,10 +359,20 @@
 # Ujjawal Pathak, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+# * event_product
+#
+# Translators:
+# Wil Odoo, 2024
+# Jaisal Shah <jaisal13shah@gmail.com>, 2025
+# Ujjawal Pathak, 2025
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
 "PO-Revision-Date: 2024-09-29 00:00+0000\n"
 <<<<<<< HEAD
@@ -723,13 +734,30 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: hi\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+=======
+"POT-Creation-Date: 2025-11-14 18:38+0000\n"
+"PO-Revision-Date: 2025-11-15 18:10+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Hindi <https://translate.odoo.com/projects/odoo-18/"
+"event_product/hi/>\n"
+"Language: hi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: event_product
 #: model:ir.model.fields,help:event_product.field_event_event_ticket__description
 #: model:ir.model.fields,help:event_product.field_event_type_ticket__description
 msgid ""
 "A description of the ticket that you want to communicate to your customers."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "टिकट का ब्यौरा जो आप ग्राहकों को बताना चाहते हैं।"
+>>>>>>> upstream/18.0
 
 #. module: event_product
 #: model:ir.model.fields,field_description:event_product.field_product_product__service_tracking
@@ -830,7 +858,11 @@ msgid "Currency"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "करेंसी"
+>>>>>>> upstream/18.0
 =======
 msgstr "करेंसी"
 >>>>>>> upstream/18.0
@@ -1105,12 +1137,20 @@ msgstr "विवरण"
 #. module: event_product
 #: model:ir.model,name:event_product.model_event_event
 msgid "Event"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इवेंट"
+>>>>>>> upstream/18.0
 
 #. module: event_product
 #: model:ir.model.fields.selection,name:event_product.selection__product_template__service_tracking__event
 msgid "Event Registration"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इवेंट के लिए रजिस्ट्रेशन"
+>>>>>>> upstream/18.0
 
 #. module: event_product
 #: model:product.template,name:event_product.product_product_event_standard_product_template
@@ -1130,7 +1170,11 @@ msgstr ""
 #. module: event_product
 #: model:ir.model,name:event_product.model_event_event_ticket
 msgid "Event Ticket"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इवेंट टिकट"
+>>>>>>> upstream/18.0
 
 #. module: event_product
 #: model:ir.model.fields,field_description:event_product.field_product_product__event_ticket_ids
@@ -1223,7 +1267,11 @@ msgid "Price"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कीम"
+>>>>>>> upstream/18.0
 =======
 msgstr "कीम"
 >>>>>>> upstream/18.0
@@ -1500,6 +1548,17 @@ msgid "Product Variant"
 msgstr "उत्पाद प्रकार"
 
 #. module: event_product
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/event_product/models/product_product.py:0
+msgid ""
+"Products linked to an event ticket must have \"%(tracking)s\" set to \"%"
+"(event)s\"."
+msgstr ""
+
+#. module: event_product
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:event_product.event_event_ticket_view_tree_from_event
 msgid "Sales End"
 msgstr ""

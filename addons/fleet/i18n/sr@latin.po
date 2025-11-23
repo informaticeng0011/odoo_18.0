@@ -72,7 +72,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* fleet
+=======
+# * fleet
+>>>>>>> upstream/18.0
 =======
 # * fleet
 >>>>>>> upstream/18.0
@@ -367,6 +371,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>, 2023
 #
 =======
@@ -585,10 +590,15 @@
 =======
 # Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>, 2023, 2025.
 >>>>>>> upstream/18.0
+=======
+# Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>, 2023, 2025.
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0beta\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -873,6 +883,11 @@ msgstr ""
 >>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-08-26 14:54+0000\n"
 "Last-Translator: Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>\n"
+=======
+"POT-Creation-Date: 2025-09-27 01:48+0000\n"
+"PO-Revision-Date: 2025-11-21 06:40+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Serbian (Latin script) <https://translate.odoo.com/projects/"
 "odoo-18/fleet/sr_Latn/>\n"
 "Language: sr@latin\n"
@@ -953,6 +968,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1159,7 +1177,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1332,6 +1353,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1526,7 +1550,10 @@ msgstr "<span>kW</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1698,6 +1725,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1880,6 +1910,7 @@ msgid "Activity State"
 msgstr "Stanje aktivnosti"
 
 #. module: fleet
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2218,6 +2249,13 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+#: model:ir.model,name:fleet.model_mail_activity_type
+msgid "Activity Type"
+msgstr "Vrsta aktivnosti"
+
+#. module: fleet
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__activity_type_icon
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract__activity_type_icon
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services__activity_type_icon
@@ -2259,7 +2297,11 @@ msgstr ""
 #. module: fleet
 #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_model_brand_view_kanban
 msgid "Archive"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Arhiva"
+>>>>>>> upstream/18.0
 
 #. module: fleet
 #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_log_contract_view_form
@@ -2323,6 +2365,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_model_view_search
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_model_view_search
 >>>>>>> upstream/18.0
@@ -2523,7 +2569,11 @@ msgstr "Brojač priloga"
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_send_mail__attachment_ids
 msgid "Attachments"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prilozi"
+>>>>>>> upstream/18.0
 
 #. module: fleet
 #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_view_kanban
@@ -2533,13 +2583,21 @@ msgstr ""
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_send_mail__author_id
 msgid "Author"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Autor"
+>>>>>>> upstream/18.0
 
 #. module: fleet
 #: model:ir.model.fields.selection,name:fleet.selection__fleet_vehicle__transmission__automatic
 #: model:ir.model.fields.selection,name:fleet.selection__fleet_vehicle_model__transmission__automatic
 msgid "Automatic"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Automatski"
+>>>>>>> upstream/18.0
 
 #. module: fleet
 #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_view_search
@@ -2550,31 +2608,51 @@ msgstr "Dostupno"
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__avatar_1920
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_model__avatar_1920
 msgid "Avatar"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Avatar"
+>>>>>>> upstream/18.0
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__avatar_1024
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_model__avatar_1024
 msgid "Avatar 1024"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Avatar 1024"
+>>>>>>> upstream/18.0
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__avatar_128
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_model__avatar_128
 msgid "Avatar 128"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Avatar 128"
+>>>>>>> upstream/18.0
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__avatar_256
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_model__avatar_256
 msgid "Avatar 256"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Avatar 256"
+>>>>>>> upstream/18.0
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__avatar_512
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_model__avatar_512
 msgid "Avatar 512"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Avatar 512"
+>>>>>>> upstream/18.0
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_7
@@ -2610,7 +2688,11 @@ msgstr ""
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_send_mail__body_has_template_value
 msgid "Body content is the same as the template"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Telo sadržaja je isto kao kod šablona"
+>>>>>>> upstream/18.0
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_11
@@ -2673,7 +2755,11 @@ msgstr ""
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_send_mail__can_edit_body
 msgid "Can Edit Body"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Može da uređuje \"telo\""
+>>>>>>> upstream/18.0
 
 #. module: fleet
 #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_send_mail_view_form
@@ -2833,7 +2919,11 @@ msgstr ""
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_send_mail__body
 msgid "Contents"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sadržaj"
+>>>>>>> upstream/18.0
 
 #. module: fleet
 #: model:ir.model.fields.selection,name:fleet.selection__fleet_service_type__category__contract
@@ -2872,7 +2962,11 @@ msgstr ""
 #. module: fleet
 #: model:mail.activity.type,name:fleet.mail_act_fleet_contract_to_renew
 msgid "Contract to Renew"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ugovor treba obnoviti"
+>>>>>>> upstream/18.0
 
 #. module: fleet
 #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_view_kanban
@@ -3068,7 +3162,11 @@ msgstr ""
 #. module: fleet
 #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_model_brand_view_kanban
 msgid "Delete"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Obriši"
+>>>>>>> upstream/18.0
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_service_2
@@ -3489,7 +3587,10 @@ msgstr "Ima poruku"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3660,6 +3761,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3854,6 +3958,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields.selection,name:fleet.selection__fleet_vehicle__power_unit__horsepower
+#: model:ir.model.fields.selection,name:fleet.selection__fleet_vehicle_model__power_unit__horsepower
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields.selection,name:fleet.selection__fleet_vehicle__power_unit__horsepower
 #: model:ir.model.fields.selection,name:fleet.selection__fleet_vehicle_model__power_unit__horsepower
@@ -4151,31 +4260,51 @@ msgstr ""
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__image_1920
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_model__image_1920
 msgid "Image"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Slika"
+>>>>>>> upstream/18.0
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__image_1024
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_model__image_1024
 msgid "Image 1024"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Slika 1024"
+>>>>>>> upstream/18.0
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__image_128
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_model__image_128
 msgid "Image 128"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Slika 128"
+>>>>>>> upstream/18.0
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__image_256
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_model__image_256
 msgid "Image 256"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Slika 256"
+>>>>>>> upstream/18.0
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__image_512
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_model__image_512
 msgid "Image 512"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Slika 512"
+>>>>>>> upstream/18.0
 
 #. module: fleet
 #: model:ir.model.fields.selection,name:fleet.selection__fleet_vehicle__contract_state__open
@@ -4207,7 +4336,11 @@ msgstr ""
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_send_mail__is_mail_template_editor
 msgid "Is Editor"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Je Urednik"
+>>>>>>> upstream/18.0
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__message_is_follower
@@ -4236,7 +4369,11 @@ msgstr ""
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_send_mail__lang
 msgid "Language"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Jezik"
+>>>>>>> upstream/18.0
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__contract_state
@@ -4310,7 +4447,11 @@ msgstr ""
 #. module: fleet
 #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_send_mail_view_form
 msgid "Load template"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Učitaj šablon"
+>>>>>>> upstream/18.0
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__location
@@ -4335,7 +4476,11 @@ msgstr ""
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_send_mail__template_id
 msgid "Mail Template"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mail šablon"
+>>>>>>> upstream/18.0
 
 #. module: fleet
 #: model:ir.actions.server,name:fleet.action_fleet_vehicle_send_mail
@@ -4590,7 +4735,11 @@ msgstr "Broj grešaka"
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_log_services__message_needaction_counter
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_model__message_needaction_counter
 msgid "Number of messages requiring action"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Broj poruka koje zahtevaju akciju"
+>>>>>>> upstream/18.0
 
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle__message_has_error_counter
@@ -4676,7 +4825,11 @@ msgstr ""
 #. odoo-python
 #: code:addons/fleet/models/fleet_vehicle_model.py:0
 msgid "Operation not supported."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Operacija nije podržana."
+>>>>>>> upstream/18.0
 
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_send_mail__lang
@@ -4686,6 +4839,13 @@ msgid ""
 "a placeholder expression that provides the appropriate language, e.g. "
 "{{ object.partner_id.lang }}."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Opcioni jezik prevoda (ISO kod) za odabir prilikom slanja e-pošte. Ako nije "
+"podešeno, koristiće se engleska verzija. Ovo bi obično trebalo da bude izraz "
+"placeholder-a koji obezbeđuje odgovarajući jezik, npr. {{ "
+"object.partner_id.lang }}."
+>>>>>>> upstream/18.0
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_service_15
@@ -4695,7 +4855,11 @@ msgstr "Opcije"
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__order_date
 msgid "Order Date"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Datum Zahteva"
+>>>>>>> upstream/18.0
 
 #. module: fleet
 #: model:fleet.vehicle.state,name:fleet.fleet_vehicle_state_ordered
@@ -4710,7 +4874,11 @@ msgstr ""
 #. module: fleet
 #: model:ir.model.fields.selection,name:fleet.selection__fleet_vehicle__service_activity__overdue
 msgid "Overdue"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Van valute"
+>>>>>>> upstream/18.0
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_34
@@ -4821,7 +4989,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4993,6 +5164,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5112,7 +5286,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__vehicle_properties
 #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_view_search
 msgid "Properties"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Osobine"
+>>>>>>> upstream/18.0
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__net_car_value
@@ -5130,6 +5308,7 @@ msgid "Radiator Repair"
 msgstr ""
 
 #. module: fleet
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5469,6 +5648,14 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__vehicle_range
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_model__vehicle_range
+msgid "Range"
+msgstr "Raspon"
+
+#. module: fleet
+>>>>>>> upstream/18.0
 #: model_terms:ir.actions.act_window,help:fleet.fleet_vehicle_action
 msgid "Ready to manage your fleet more efficiently?"
 msgstr ""
@@ -5496,17 +5683,29 @@ msgstr ""
 #. module: fleet
 #: model:fleet.vehicle.state,name:fleet.fleet_vehicle_state_registered
 msgid "Registered"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Registrovan/a"
+>>>>>>> upstream/18.0
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__acquisition_date
 msgid "Registration Date"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Datum Registracije"
+>>>>>>> upstream/18.0
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_send_mail__render_model
 msgid "Rendering Model"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Rendering Model"
+>>>>>>> upstream/18.0
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_service_11
@@ -5569,7 +5768,11 @@ msgstr "Odgovorni korisnik"
 #. module: fleet
 #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_model_brand_view_kanban
 msgid "Restore"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Obnovi"
+>>>>>>> upstream/18.0
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_38
@@ -5606,13 +5809,21 @@ msgstr ""
 #. module: fleet
 #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_send_mail_view_form
 msgid "Send"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pošalji"
+>>>>>>> upstream/18.0
 
 #. module: fleet
 #. odoo-python
 #: code:addons/fleet/models/fleet_vehicle.py:0
 msgid "Send Email"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pošalji Email"
+>>>>>>> upstream/18.0
 
 #. module: fleet
 #: model:ir.model,name:fleet.model_fleet_vehicle_send_mail
@@ -5763,7 +5974,11 @@ msgstr ""
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_send_mail__subject
 msgid "Subject"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Predmet"
+>>>>>>> upstream/18.0
 
 #. module: fleet
 #: model_terms:ir.ui.view,arch_db:fleet.fleet_vechicle_costs_report_view_tree
@@ -5783,7 +5998,11 @@ msgstr "Naziv oznake"
 #. module: fleet
 #: model:ir.model.constraint,message:fleet.constraint_fleet_vehicle_tag_name_uniq
 msgid "Tag name already exists!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Naziv oznake već postoji!"
+>>>>>>> upstream/18.0
 
 #. module: fleet
 #: model:ir.actions.act_window,name:fleet.fleet_vehicle_tag_action
@@ -5806,6 +6025,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract__notes
 #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_log_contract_view_form
 msgid "Terms and Conditions"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6095,6 +6315,9 @@ msgstr "Uslovi ponude i plaćanja"
 =======
 msgstr "Uslovi ponude i plaćanja"
 >>>>>>> upstream/18.0
+=======
+msgstr "Uslovi ponude i plaćanja"
+>>>>>>> upstream/18.0
 
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle__country_code
@@ -6102,6 +6325,11 @@ msgid ""
 "The ISO country code in two chars. \n"
 "You can use this field for quick search."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ISO kod zemlje u dva karaktera. \n"
+"Ovo polje možete koristiti za brzu pretragu."
+>>>>>>> upstream/18.0
 
 #. module: fleet
 #. odoo-python
@@ -6166,7 +6394,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6338,6 +6569,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6638,6 +6872,11 @@ msgstr "Jedinica"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/fleet/models/fleet_vehicle_model.py:0
+>>>>>>> upstream/18.0
 =======
 #. odoo-python
 #: code:addons/fleet/models/fleet_vehicle_model.py:0
@@ -6976,7 +7215,11 @@ msgstr "Dobavljač"
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services__inv_ref
 msgid "Vendor Reference"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Oznaka dobavljača"
+>>>>>>> upstream/18.0
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_model__vendors
@@ -7052,7 +7295,11 @@ msgstr ""
 #. module: fleet
 #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_send_mail_view_form
 msgid "Write your message here..."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Napišite svoju poruku ovde..."
+>>>>>>> upstream/18.0
 
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle__model_year
@@ -7062,7 +7309,11 @@ msgstr ""
 #. module: fleet
 #: model:ir.model.fields.selection,name:fleet.selection__fleet_vehicle_log_contract__cost_frequency__yearly
 msgid "Yearly"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Godišnje"
+>>>>>>> upstream/18.0
 
 #. module: fleet
 #: model_terms:ir.actions.act_window,help:fleet.fleet_vehicle_odometer_action
@@ -7154,8 +7405,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_model_brand_view_kanban
 msgid "img"
+=======
+#: model:ir.model.fields.selection,name:fleet.selection__fleet_vehicle__power_unit__power
+#: model:ir.model.fields.selection,name:fleet.selection__fleet_vehicle_model__power_unit__power
+msgid "kW"
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields.selection,name:fleet.selection__fleet_vehicle__power_unit__power
 #: model:ir.model.fields.selection,name:fleet.selection__fleet_vehicle_model__power_unit__power

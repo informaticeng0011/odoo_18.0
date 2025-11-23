@@ -1,5 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* stock_fleet
 # 
 # Translators:
@@ -358,11 +359,21 @@
 # Ujjawal Pathak, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+# * stock_fleet
+#
+# Translators:
+# Wil Odoo, 2024
+# Jaisal Shah <jaisal13shah@gmail.com>, 2025
+# Ujjawal Pathak, 2025
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-25 07:49+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2024-09-29 00:00+0000\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -723,6 +734,18 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: hi\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+=======
+"PO-Revision-Date: 2025-11-21 02:37+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Hindi <https://translate.odoo.com/projects/odoo-18/"
+"stock_fleet/hi/>\n"
+"Language: hi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: stock_fleet
 #. odoo-python
@@ -816,7 +839,11 @@ msgid "%(display_name)s (%(load_capacity)s)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(display_name)s (%(load_capacity)s)"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(display_name)s (%(load_capacity)s)"
 >>>>>>> upstream/18.0
@@ -1123,12 +1150,20 @@ msgstr ""
 #. module: stock_fleet
 #: model_terms:ir.ui.view,arch_db:stock_fleet.stock_picking_type_kanban_inherit_stock_fleet
 msgid "Calendar"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कैलेंडर"
+>>>>>>> upstream/18.0
 
 #. module: stock_fleet
 #: model:ir.model,name:stock_fleet.model_fleet_vehicle_model_category
 msgid "Category of the model"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मॉडल की कैटगरी"
+>>>>>>> upstream/18.0
 
 #. module: stock_fleet
 #: model_terms:ir.ui.view,arch_db:stock_fleet.stock_picking_type_kanban_inherit_stock_fleet
@@ -1144,7 +1179,11 @@ msgstr ""
 #. module: stock_fleet
 #: model:ir.model.fields,field_description:stock_fleet.field_stock_picking_batch__driver_id
 msgid "Driver"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ड्राइवर"
+>>>>>>> upstream/18.0
 
 #. module: stock_fleet
 #: model:ir.model.fields,field_description:stock_fleet.field_stock_picking_batch__end_date
@@ -1154,7 +1193,11 @@ msgstr "समाप्ति तिथि"
 #. module: stock_fleet
 #: model_terms:ir.ui.view,arch_db:stock_fleet.stock_picking_batch_graph
 msgid "Graph View"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ग्राफ़ व्यू"
+>>>>>>> upstream/18.0
 
 #. module: stock_fleet
 #: model:ir.model,name:stock_fleet.model_stock_location
@@ -1174,7 +1217,11 @@ msgstr ""
 #. module: stock_fleet
 #: model:ir.model.fields,field_description:stock_fleet.field_fleet_vehicle_model_category__volume_capacity
 msgid "Max Volume"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ज़्यादा से ज़्यादा वॉल्यूम"
+>>>>>>> upstream/18.0
 
 #. module: stock_fleet
 #: model:ir.model.fields,field_description:stock_fleet.field_stock_picking_batch__vehicle_volume_capacity
@@ -1184,7 +1231,11 @@ msgstr ""
 #. module: stock_fleet
 #: model:ir.model.fields,field_description:stock_fleet.field_fleet_vehicle_model_category__weight_capacity
 msgid "Max Weight"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अधिकतम वजन"
+>>>>>>> upstream/18.0
 
 #. module: stock_fleet
 #: model_terms:ir.ui.view,arch_db:stock_fleet.stock_picking_batch_filter
@@ -1219,12 +1270,20 @@ msgstr ""
 #. module: stock_fleet
 #: model_terms:ir.ui.view,arch_db:stock_fleet.vpicktree
 msgid "Shipping Weight"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "शिपिंग का वज़न"
+>>>>>>> upstream/18.0
 
 #. module: stock_fleet
 #: model_terms:ir.ui.view,arch_db:stock_fleet.stock_picking_type_kanban_inherit_stock_fleet
 msgid "Statistics"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आंकड़ें"
+>>>>>>> upstream/18.0
 
 #. module: stock_fleet
 #: model_terms:ir.ui.view,arch_db:stock_fleet.stock_picking_batch_filter
@@ -1234,7 +1293,11 @@ msgstr ""
 #. module: stock_fleet
 #: model_terms:ir.ui.view,arch_db:stock_fleet.stock_picking_batch_form
 msgid "Third Party Provider"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "तीसरे पक्ष के प्रोवाइडर"
+>>>>>>> upstream/18.0
 
 #. module: stock_fleet
 #: model_terms:ir.ui.view,arch_db:stock_fleet.stock_picking_batch_filter
@@ -1318,7 +1381,11 @@ msgid "Today"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आज"
+>>>>>>> upstream/18.0
 =======
 msgstr "आज"
 >>>>>>> upstream/18.0
@@ -1632,7 +1699,11 @@ msgid "Tomorrow"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कल"
+>>>>>>> upstream/18.0
 =======
 msgstr "कल"
 >>>>>>> upstream/18.0
@@ -1940,7 +2011,11 @@ msgid "Transport"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ट्रांसपोर्"
+>>>>>>> upstream/18.0
 =======
 msgstr "ट्रांसपोर्"
 >>>>>>> upstream/18.0
@@ -2248,7 +2323,11 @@ msgid "Vehicle"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "व्हीकल"
+>>>>>>> upstream/18.0
 =======
 msgstr "व्हीकल"
 >>>>>>> upstream/18.0
@@ -2498,12 +2577,20 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock_fleet.field_fleet_vehicle_model_category__volume_capacity_uom_name
 #: model:ir.model.fields,field_description:stock_fleet.field_stock_picking_batch__volume_uom_name
 msgid "Volume unit of measure label"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "वॉल्यूम की माप यूनिट का लेबल"
+>>>>>>> upstream/18.0
 
 #. module: stock_fleet
 #: model_terms:ir.ui.view,arch_db:stock_fleet.stock_picking_batch_form
 msgid "Weight"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "वज़न"
+>>>>>>> upstream/18.0
 
 #. module: stock_fleet
 #: model:ir.model.fields,field_description:stock_fleet.field_stock_picking_batch__used_weight_percentage
@@ -2514,12 +2601,20 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock_fleet.field_fleet_vehicle_model_category__weight_capacity_uom_name
 #: model:ir.model.fields,field_description:stock_fleet.field_stock_picking_batch__weight_uom_name
 msgid "Weight unit of measure label"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "वज़न की माप यूनिट का लेबल"
+>>>>>>> upstream/18.0
 
 #. module: stock_fleet
 #: model:ir.model.fields,field_description:stock_fleet.field_stock_picking__zip
 msgid "Zip"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पिन"
+>>>>>>> upstream/18.0
 
 #. module: stock_fleet
 #: model_terms:ir.ui.view,arch_db:stock_fleet.stock_picking_batch_form

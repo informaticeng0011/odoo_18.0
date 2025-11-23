@@ -1,11 +1,18 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* mrp_subcontracting
 #
+=======
+# * mrp_subcontracting
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -262,6 +269,20 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
+=======
+"POT-Creation-Date: 2025-10-11 02:17+0000\n"
+"PO-Revision-Date: 2025-11-13 13:05+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Serbian (Latin script) <https://translate.odoo.com/projects/"
+"odoo-18/mrp_subcontracting/sr_Latn/>\n"
+"Language: sr@latin\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: mrp_subcontracting
 #. odoo-python
@@ -284,7 +305,11 @@ msgstr ""
 #. odoo-python
 #: code:addons/mrp_subcontracting/controllers/portal.py:0
 msgid "All"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sve"
+>>>>>>> upstream/18.0
 
 #. module: mrp_subcontracting
 #: model:ir.model,name:mrp_subcontracting.model_report_mrp_report_bom_structure
@@ -294,12 +319,20 @@ msgstr ""
 #. module: mrp_subcontracting
 #: model:ir.model,name:mrp_subcontracting.model_mrp_bom
 msgid "Bill of Material"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Racun Materijala"
+>>>>>>> upstream/18.0
 
 #. module: mrp_subcontracting
 #: model:ir.model.fields,field_description:mrp_subcontracting.field_mrp_bom__type
 msgid "BoM Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tip sastavnice"
+>>>>>>> upstream/18.0
 
 #. module: mrp_subcontracting
 #: model:ir.model.fields,field_description:mrp_subcontracting.field_res_partner__bom_ids
@@ -334,7 +367,11 @@ msgstr ""
 #. module: mrp_subcontracting
 #: model:ir.model,name:mrp_subcontracting.model_res_company
 msgid "Companies"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Preduzeća"
+>>>>>>> upstream/18.0
 
 #. module: mrp_subcontracting
 #: model_terms:ir.ui.view,arch_db:mrp_subcontracting.mrp_subcontracting_move_tree_view
@@ -344,12 +381,20 @@ msgstr ""
 #. module: mrp_subcontracting
 #: model:ir.model,name:mrp_subcontracting.model_res_partner
 msgid "Contact"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kontakt"
+>>>>>>> upstream/18.0
 
 #. module: mrp_subcontracting
 #: model_terms:ir.ui.view,arch_db:mrp_subcontracting.mrp_production_subcontracting_form_view
 msgid "Continue"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nastavi"
+>>>>>>> upstream/18.0
 
 #. module: mrp_subcontracting
 #: model_terms:ir.ui.view,arch_db:mrp_subcontracting.portal_my_productions
@@ -364,7 +409,11 @@ msgstr ""
 #. module: mrp_subcontracting
 #: model_terms:ir.ui.view,arch_db:mrp_subcontracting.subcontracting_portal_production_form_view
 msgid "Description"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Opis"
+>>>>>>> upstream/18.0
 
 #. module: mrp_subcontracting
 #: model:ir.model.fields,field_description:mrp_subcontracting.field_mrp_production__move_line_raw_ids
@@ -375,12 +424,20 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mrp_subcontracting.stock_picking_form_view
 #: model_terms:ir.ui.view,arch_db:mrp_subcontracting.subcontracting_portal_production_form_view
 msgid "Details"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Detalji"
+>>>>>>> upstream/18.0
 
 #. module: mrp_subcontracting
 #: model_terms:ir.ui.view,arch_db:mrp_subcontracting.mrp_production_subcontracting_form_view
 msgid "Discard"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poništi"
+>>>>>>> upstream/18.0
 
 #. module: mrp_subcontracting
 #: model:ir.model.fields,field_description:mrp_subcontracting.field_stock_picking__display_action_record_components
@@ -392,7 +449,11 @@ msgstr ""
 #: code:addons/mrp_subcontracting/controllers/portal.py:0
 #: model_terms:ir.ui.view,arch_db:mrp_subcontracting.subcontracting_portal_production_form_view
 msgid "Done"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Završeno"
+>>>>>>> upstream/18.0
 
 #. module: mrp_subcontracting
 #: model:ir.model.fields.selection,name:mrp_subcontracting.selection__stock_picking__display_action_record_components__facultative
@@ -412,7 +473,11 @@ msgstr ""
 #. module: mrp_subcontracting
 #: model:ir.model.fields.selection,name:mrp_subcontracting.selection__stock_picking__display_action_record_components__hide
 msgid "Hide"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sakrij"
+>>>>>>> upstream/18.0
 
 #. module: mrp_subcontracting
 #. odoo-python
@@ -445,6 +510,7 @@ msgstr ""
 #. module: mrp_subcontracting
 #: model:ir.model.fields,help:mrp_subcontracting.field_mrp_production__bom_product_ids
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -652,6 +718,10 @@ msgid ""
 "List of Products used in the BoM, used to filter the list of products in the "
 "subcontracting portal view"
 >>>>>>> upstream/18.0
+=======
+"List of Products used in the BoM, used to filter the list of products in the "
+"subcontracting portal view"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: mrp_subcontracting
@@ -671,35 +741,59 @@ msgstr ""
 #. module: mrp_subcontracting
 #: model:ir.model.fields.selection,name:mrp_subcontracting.selection__stock_picking__display_action_record_components__mandatory
 msgid "Mandatory"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Obavezno"
+>>>>>>> upstream/18.0
 
 #. module: mrp_subcontracting
 #: model:ir.model,name:mrp_subcontracting.model_mrp_production
 msgid "Manufacturing Order"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Proizvodni nalog"
+>>>>>>> upstream/18.0
 
 #. module: mrp_subcontracting
 #: model_terms:ir.ui.view,arch_db:mrp_subcontracting.portal_my_home_productions
 #: model_terms:ir.ui.view,arch_db:mrp_subcontracting.subcontracting_portal_production_form_view
 msgid "Manufacturing Orders"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nalozi za proizvodnj"
+>>>>>>> upstream/18.0
 
 #. module: mrp_subcontracting
 #: model_terms:ir.ui.view,arch_db:mrp_subcontracting.subcontracting_portal_production_form_view
 msgid "Manufacturing Reference"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Referenca proizvodnje"
+>>>>>>> upstream/18.0
 
 #. module: mrp_subcontracting
 #. odoo-python
 #: code:addons/mrp_subcontracting/controllers/portal.py:0
 msgid "Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Naziv"
+>>>>>>> upstream/18.0
 
 #. module: mrp_subcontracting
 #. odoo-python
 #: code:addons/mrp_subcontracting/controllers/portal.py:0
 msgid "Newest"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Najnovije"
+>>>>>>> upstream/18.0
 
 #. module: mrp_subcontracting
 #. odoo-python
@@ -711,12 +805,20 @@ msgstr ""
 #. odoo-python
 #: code:addons/mrp_subcontracting/models/stock_quant.py:0
 msgid "Operation not supported"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Operacija nije podržana"
+>>>>>>> upstream/18.0
 
 #. module: mrp_subcontracting
 #: model_terms:ir.ui.view,arch_db:mrp_subcontracting.subcontracting_portal_production_form_view
 msgid "Operations"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Operacije"
+>>>>>>> upstream/18.0
 
 #. module: mrp_subcontracting
 #: model:ir.model.fields,field_description:mrp_subcontracting.field_stock_picking__move_line_ids_without_package
@@ -726,7 +828,11 @@ msgstr ""
 #. module: mrp_subcontracting
 #: model_terms:ir.ui.view,arch_db:mrp_subcontracting.portal_my_productions
 msgid "Order"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nalog"
+>>>>>>> upstream/18.0
 
 #. module: mrp_subcontracting
 #. odoo-python
@@ -749,7 +855,11 @@ msgstr ""
 #. module: mrp_subcontracting
 #: model:ir.model,name:mrp_subcontracting.model_product_product
 msgid "Product Variant"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Varijante proizvoda"
+>>>>>>> upstream/18.0
 
 #. module: mrp_subcontracting
 #: model_terms:ir.ui.view,arch_db:mrp_subcontracting.portal_my_home_menu_production
@@ -772,7 +882,11 @@ msgstr ""
 #. odoo-python
 #: code:addons/mrp_subcontracting/controllers/portal.py:0
 msgid "Ready"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Spreman"
+>>>>>>> upstream/18.0
 
 #. module: mrp_subcontracting
 #: model_terms:ir.ui.view,arch_db:mrp_subcontracting.mrp_production_subcontracting_form_view
@@ -828,7 +942,11 @@ msgstr ""
 #. module: mrp_subcontracting
 #: model_terms:ir.ui.view,arch_db:mrp_subcontracting.portal_my_productions
 msgid "Scheduled Date"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Planirani datum"
+>>>>>>> upstream/18.0
 
 #. module: mrp_subcontracting
 #: model:ir.model.fields,field_description:mrp_subcontracting.field_stock_move__show_subcontracting_details_visible
@@ -838,17 +956,29 @@ msgstr ""
 #. module: mrp_subcontracting
 #: model_terms:ir.ui.view,arch_db:mrp_subcontracting.portal_my_productions
 msgid "Source Document"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izvorni Dokument"
+>>>>>>> upstream/18.0
 
 #. module: mrp_subcontracting
 #: model_terms:ir.ui.view,arch_db:mrp_subcontracting.portal_my_productions
 msgid "State"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stanje"
+>>>>>>> upstream/18.0
 
 #. module: mrp_subcontracting
 #: model:ir.model,name:mrp_subcontracting.model_stock_move
 msgid "Stock Move"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Premeštanje zaliha"
+>>>>>>> upstream/18.0
 
 #. module: mrp_subcontracting
 #: model:ir.model.fields,field_description:mrp_subcontracting.field_res_partner__picking_ids
@@ -859,7 +989,11 @@ msgstr ""
 #. module: mrp_subcontracting
 #: model:ir.model,name:mrp_subcontracting.model_stock_rule
 msgid "Stock Rule"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pravilo zalihe"
+>>>>>>> upstream/18.0
 
 #. module: mrp_subcontracting
 #. odoo-python
@@ -958,7 +1092,11 @@ msgstr ""
 #. module: mrp_subcontracting
 #: model:ir.model,name:mrp_subcontracting.model_product_supplierinfo
 msgid "Supplier Pricelist"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cenovnik dobavljača"
+>>>>>>> upstream/18.0
 
 #. module: mrp_subcontracting
 #: model:ir.model.fields,field_description:mrp_subcontracting.field_stock_move__is_subcontract
@@ -982,6 +1120,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/mrp_subcontracting/models/stock_picking.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1189,6 +1328,10 @@ msgid ""
 "There shouldn't be multiple productions to record for the same subcontracted "
 "move."
 >>>>>>> upstream/18.0
+=======
+"There shouldn't be multiple productions to record for the same subcontracted "
+"move."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: mrp_subcontracting
@@ -1206,7 +1349,11 @@ msgstr ""
 #: model:ir.model,name:mrp_subcontracting.model_stock_picking
 #: model:ir.model.fields,field_description:mrp_subcontracting.field_mrp_production__incoming_picking
 msgid "Transfer"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prenos"
+>>>>>>> upstream/18.0
 
 #. module: mrp_subcontracting
 #: model:ir.model.fields,help:mrp_subcontracting.field_mrp_production__subcontractor_id
@@ -1216,7 +1363,11 @@ msgstr ""
 #. module: mrp_subcontracting
 #: model:ir.model,name:mrp_subcontracting.model_stock_warehouse
 msgid "Warehouse"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Magacin"
+>>>>>>> upstream/18.0
 
 #. module: mrp_subcontracting
 #: model:ir.model,name:mrp_subcontracting.model_mrp_consumption_warning
@@ -1276,7 +1427,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1403,6 +1557,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

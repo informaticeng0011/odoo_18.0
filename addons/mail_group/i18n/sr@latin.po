@@ -1,12 +1,19 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* mail_group
 #
+=======
+# * mail_group
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-16 13:40+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2024-12-16 13:40+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -14,6 +21,19 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
+=======
+"PO-Revision-Date: 2025-11-18 13:14+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Serbian (Latin script) <https://translate.odoo.com/projects/"
+"odoo-18/mail_group/sr_Latn/>\n"
+"Language: sr@latin\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_message_reject_form
@@ -78,6 +98,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mail_group.group_name
 msgid "<i class=\"fa fa-envelope-o\" role=\"img\" aria-label=\"Alias\" title=\"Alias\"/>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-envelope-o\" role=\"img\" aria-label=\"Alias\" title="
+"\"Alias\"/>"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_groups
@@ -163,28 +188,49 @@ msgid ""
 "A Python dictionary that will be evaluated to provide default values when "
 "creating new records for this alias."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Python rečnik koji će biti procenjen kako bi se pružila podrazumevana "
+"vrednost prilikom kreiranja novih zapisa za ovaj alias."
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_message_view_form
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_message_view_list
 msgid "Accept"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prihvati"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields.selection,name:mail_group.selection__mail_group_message__moderation_status__accepted
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_message_view_form
 msgid "Accepted"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prihvaćeno"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group_message_reject__action
 msgid "Action"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Radnja"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group__active
 msgid "Active"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aktivno"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_message_view_form
@@ -198,47 +244,83 @@ msgstr ""
 #: model:ir.model.fields,field_description:mail_group.field_mail_group__alias_id
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_view_list
 msgid "Alias"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Alias"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group__alias_contact
 msgid "Alias Contact Security"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bezbednost alias kontakta"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group__alias_domain_id
 msgid "Alias Domain"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Alias domen"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group__alias_domain
 msgid "Alias Domain Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Naziv alias domena"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group__alias_full_name
 msgid "Alias Email"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Alias Email"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group__alias_name
 msgid "Alias Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Naziv aliasa"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group__alias_status
 msgid "Alias Status"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Status aliasa"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,help:mail_group.field_mail_group__alias_status
 msgid "Alias status assessed on the last message received."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Status aliasa procenjen na osnovu poslednje primljene poruke."
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group__alias_model_id
 msgid "Aliased Model"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Model aliasa"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_view_form
@@ -269,7 +351,11 @@ msgstr ""
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_view_search
 msgid "Archived"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Arhivirano"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.group_archive_menu
@@ -279,12 +365,20 @@ msgstr ""
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group_message__attachment_ids
 msgid "Attachments"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prilozi"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group_message__author_id
 msgid "Author"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Autor"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group_message__author_moderation
@@ -301,7 +395,11 @@ msgstr ""
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group__access_group_id
 msgid "Authorized Group"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Autorizovana grupa"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group__moderation_notify
@@ -357,7 +455,11 @@ msgstr ""
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group_message__group_message_child_ids
 msgid "Children"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Podređeni"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_view_form
@@ -378,7 +480,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:mail_group.field_mail_group_message__body
 #: model:ir.model.fields,field_description:mail_group.field_mail_group_message_reject__body
 msgid "Contents"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sadržaj"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.actions.act_window,help:mail_group.mail_group_action
@@ -397,7 +503,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:mail_group.field_mail_group_message_reject__create_uid
 #: model:ir.model.fields,field_description:mail_group.field_mail_group_moderation__create_uid
 msgid "Created by"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kreirao"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group__create_date
@@ -405,7 +515,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:mail_group.field_mail_group_message_reject__create_date
 #: model:ir.model.fields,field_description:mail_group.field_mail_group_moderation__create_date
 msgid "Created on"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kreirano"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,help:mail_group.field_mail_group__is_moderator
@@ -415,22 +529,38 @@ msgstr ""
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group__alias_bounced_content
 msgid "Custom Bounced Message"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prilagođena odbijena poruka"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group__alias_defaults
 msgid "Default Values"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Podrazumevane vrednosti"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group__description
 msgid "Description"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Opis"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_message_reject_form
 msgid "Discard"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poništi"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group__display_name
@@ -439,13 +569,21 @@ msgstr ""
 #: model:ir.model.fields,field_description:mail_group.field_mail_group_message_reject__display_name
 #: model:ir.model.fields,field_description:mail_group.field_mail_group_moderation__display_name
 msgid "Display Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Naziv za prikaz"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group_member__email
 #: model:ir.model.fields,field_description:mail_group.field_mail_group_moderation__email
 msgid "Email"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "E-mail"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #. odoo-python
@@ -457,7 +595,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:mail_group.field_mail_group__alias_email
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_view_form
 msgid "Email Alias"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Email Alias"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group_message_reject__email_from_normalized
@@ -474,12 +616,20 @@ msgstr ""
 #. module: mail_group
 #: model:ir.model.fields,help:mail_group.field_mail_group__alias_domain
 msgid "Email domain e.g. 'example.com' in 'odoo@example.com'"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Email domen npr. 'example.com' u 'odoo@example.com'"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_view_form
 msgid "Emails"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "E‑pošta"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_view_form
@@ -489,7 +639,11 @@ msgstr ""
 #. module: mail_group
 #: model:ir.model.fields.selection,name:mail_group.selection__mail_group__access_mode__public
 msgid "Everyone"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Svi"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.group_message
@@ -500,7 +654,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:mail_group.field_mail_group_message__email_from
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_message_view_form
 msgid "From"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Od"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group_member__mail_group_id
@@ -509,13 +667,21 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_view_kanban
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_groups
 msgid "Group"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Grupa"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_message_view_search
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_view_search
 msgid "Group By"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Grupiši po"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_message_view_form
@@ -525,7 +691,11 @@ msgstr ""
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_view_form
 msgid "Group Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Naziv grupe"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #. odoo-python
@@ -556,7 +726,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:mail_group.field_mail_group_message_reject__id
 #: model:ir.model.fields,field_description:mail_group.field_mail_group_moderation__id
 msgid "ID"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ID"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,help:mail_group.field_mail_group__alias_parent_thread_id
@@ -564,6 +738,11 @@ msgid ""
 "ID of the parent record holding the alias (example: project holding the task"
 " creation alias)"
 msgstr ""
+<<<<<<< HEAD
+=======
+"ID nadređenog zapisa koji sadrži alias (primer: projekat koji sadrži alias "
+"kreiranja zadatka)"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,help:mail_group.field_mail_group__alias_bounced_content
@@ -571,11 +750,20 @@ msgid ""
 "If set, this content will automatically be sent out to unauthorized users "
 "instead of the default message."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Ako je podešeno, ovaj sadržaj će se automatski slati neautorizovanim "
+"korisnicima umesto podrazumevane poruke."
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group__image_128
 msgid "Image"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Slika"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #. odoo-python
@@ -612,13 +800,21 @@ msgstr ""
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group__is_member
 msgid "Is Member"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Je član"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_view_form
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_view_kanban
 msgid "Join"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pridruži se"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group__write_uid
@@ -627,7 +823,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:mail_group.field_mail_group_message_reject__write_uid
 #: model:ir.model.fields,field_description:mail_group.field_mail_group_moderation__write_uid
 msgid "Last Updated by"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poslednje izmenio/la"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group__write_date
@@ -636,13 +836,21 @@ msgstr ""
 #: model:ir.model.fields,field_description:mail_group.field_mail_group_message_reject__write_date
 #: model:ir.model.fields,field_description:mail_group.field_mail_group_moderation__write_date
 msgid "Last Updated on"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poslednje ažuriranje dana"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_view_form
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_view_kanban
 msgid "Leave"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Napusti"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.actions.act_window,help:mail_group.mail_group_member_action
@@ -652,7 +860,11 @@ msgstr ""
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group__alias_incoming_local
 msgid "Local-part based incoming detection"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dolazna detekcija zasnovana na lokalnim delovima"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model,name:mail_group.model_mail_group
@@ -732,7 +944,11 @@ msgstr ""
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_view_kanban
 msgid "Member"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Član"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.actions.act_window,name:mail_group.mail_group_member_action
@@ -741,7 +957,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_view_kanban
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_view_list
 msgid "Members"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Članovi"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group__member_count
@@ -761,7 +981,11 @@ msgstr ""
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group_message_reject__mail_group_message_id
 msgid "Message"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poruka"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.actions.act_window,name:mail_group.mail_group_message_reject_action
@@ -771,7 +995,11 @@ msgstr ""
 #. module: mail_group
 #: model:ir.actions.act_window,name:mail_group.mail_group_message_action
 msgid "Messages"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poruke"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group__mail_group_message_count
@@ -882,7 +1110,11 @@ msgstr ""
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group__name
 msgid "Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Naziv"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_groups
@@ -910,7 +1142,11 @@ msgstr ""
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group_member__email_normalized
 msgid "Normalized Email"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Normalizovan Email"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group_message__email_from_normalized
@@ -958,21 +1194,39 @@ msgid ""
 "attached, even if they did not reply to it. If set, this will disable the "
 "creation of new records completely."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Opcioni ID niza (zapisa) kom će biti dodate kao prilog sve dolazne mail "
+"poruke, čak i ako na njih nisu odgovorili. Ako je podešeno, ovo ć́e u "
+"potpunosti onemogućiti stvaranje novih zapisa."
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group_message__group_message_parent_id
 msgid "Parent"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Roditelj"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group__alias_parent_model_id
 msgid "Parent Model"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Roditeljski Model"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group__alias_parent_thread_id
 msgid "Parent Record Thread ID"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ID niza nadređenog zapisa"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,help:mail_group.field_mail_group__alias_parent_model_id
@@ -981,11 +1235,21 @@ msgid ""
 " necessarily the model given by alias_model_id (example: project "
 "(parent_model) and task (model))"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Nadređeni model koji sadrži alias. Model koji sadrži alias referencu nije "
+"nužno model koji daje alias_model_id (primer: projekat (parent_model) i "
+"zadatak (model))"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group_member__partner_id
 msgid "Partner"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Partner"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group__member_partner_ids
@@ -1027,6 +1291,13 @@ msgid ""
 "- partners: only authenticated partners\n"
 "- followers: only followers of the related document or members of following channels\n"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Politika za objavljivanje poruka na dokumentima koristeći mail server.\n"
+"- svi: svako može da objavljuje\n"
+"- partneri: samo odobreni partneri\n"
+"- pratioci: samo pratioci povezanog dokumenta ili članovi sledećih kanala\n"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_footer
@@ -1036,13 +1307,21 @@ msgstr ""
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group_message__create_date
 msgid "Posted"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Proknjiženo"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group__access_mode
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_view_form
 msgid "Privacy"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Privatnost"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:mail.group,name:mail_group.mail_group_2
@@ -1058,12 +1337,20 @@ msgstr ""
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group__alias_force_thread_id
 msgid "Record Thread ID"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ID niza zapisa"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.group_message
 msgid "Reference"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Referenca"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields.selection,name:mail_group.selection__mail_group_message_reject__action__reject
@@ -1134,7 +1421,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_message_view_form
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_message_view_list
 msgid "Send"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pošalji"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_message_reject_form
@@ -1149,7 +1440,11 @@ msgstr ""
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group_message_reject__send_email
 msgid "Send Email"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pošalji Email"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_view_form
@@ -1181,7 +1476,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:mail_group.field_mail_group_moderation__status
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_moderation_view_search
 msgid "Status"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Status"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_groups
@@ -1192,14 +1491,22 @@ msgstr ""
 #: model:ir.model.fields,field_description:mail_group.field_mail_group_message__subject
 #: model:ir.model.fields,field_description:mail_group.field_mail_group_message_reject__subject
 msgid "Subject"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Predmet"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #. odoo-javascript
 #: code:addons/mail_group/static/src/js/mail_group.js:0
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_groups
 msgid "Subscribe"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prijavi se"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:mail.template,description:mail_group.mail_template_list_subscribe
@@ -1261,6 +1568,12 @@ msgid ""
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Model (poput Odoo dokumenta) kome odgovara ovaj alias. Bilo koja dolazna "
+"email adresa koja ne odgovori na postojeći zapis prouzrokovaće stvaranje "
+"novog zapisa ovog modela (npr. Projektni zadatak)"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,help:mail_group.field_mail_group__alias_name
@@ -1268,6 +1581,11 @@ msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
 "<jobs@example.odoo.com>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Naziv email aliasa, npr. 'poslovi' ako želite da prikupljate email-ove za "
+"<poslovi@example.odoo.com>"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #. odoo-python
@@ -1399,7 +1717,11 @@ msgstr ""
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_view_form
 msgid "e.g. mycompany.com"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "npr. mojafirma.com"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_message_view_search

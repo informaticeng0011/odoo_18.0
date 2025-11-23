@@ -1,5 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* auth_passkey
 # 
 # Translators:
@@ -294,11 +295,21 @@
 # Luka Carević <luka@uvid.hr>, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+# * auth_passkey
+#
+# Translators:
+# Matej Mijoč, 2024
+# Bole <bole@dajmi5.com>, 2024
+# Luka Carević <luka@uvid.hr>, 2025
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-25 08:40+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -595,6 +606,19 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: hr\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+=======
+"PO-Revision-Date: 2025-11-12 12:39+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Croatian <https://translate.odoo.com/projects/odoo-18/"
+"auth_passkey/hr/>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model_terms:ir.ui.view,arch_db:auth_passkey.auth_passkey_login
@@ -604,22 +628,38 @@ msgstr "- ili -"
 #. module: auth_passkey
 #: model_terms:ir.ui.view,arch_db:auth_passkey.res_users_identitycheck_view_form_passkey
 msgid "<strong>Use your passkey to authenticate</strong>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Koristite svoj pristupni ključ za autentikaciju</strong>"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model_terms:ir.ui.view,arch_db:auth_passkey.auth_passkey_users_preferences
 msgid "Add Passkey"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dodaj pristupni ključ"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model:ir.model.fields,field_description:auth_passkey.field_res_users_identitycheck__auth_method
 msgid "Auth Method"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Metoda autentikacije"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model:ir.model.fields,field_description:auth_passkey.field_res_users__auth_passkey_key_ids
 msgid "Auth Passkey Key"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Autorizacijski ključ za pristup"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model_terms:ir.ui.view,arch_db:auth_passkey.auth_passkey_key_create_view_form
@@ -636,17 +676,29 @@ msgstr "Kreiraj"
 #. odoo-python
 #: code:addons/auth_passkey/models/res_users.py:0
 msgid "Create Passkey"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kreiraj pristupni ključ"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model:ir.actions.act_window,name:auth_passkey.action_auth_passkey_key_create
 msgid "Create Passkey Wizard"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Čarobnjak za kreaciju pristupnog ključa"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model:ir.model,name:auth_passkey.model_auth_passkey_key_create
 msgid "Create a Passkey"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kreiraj pristupni ključ"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model:ir.model.fields,field_description:auth_passkey.field_auth_passkey_key__create_uid
@@ -669,12 +721,17 @@ msgstr ""
 #. module: auth_passkey
 #: model:ir.model.fields,field_description:auth_passkey.field_auth_passkey_key__credential_identifier
 msgid "Credential Identifier"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Identifikator vjerodajnice"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model_terms:ir.ui.view,arch_db:auth_passkey.auth_passkey_users_form
 #: model_terms:ir.ui.view,arch_db:auth_passkey.auth_passkey_users_preferences
 msgid "Delete"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -964,6 +1021,9 @@ msgstr "Obriši"
 =======
 msgstr "Obriši"
 >>>>>>> upstream/18.0
+=======
+msgstr "Obriši"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model:ir.model.fields,field_description:auth_passkey.field_auth_passkey_key__display_name
@@ -984,6 +1044,11 @@ msgid ""
 "Incorrect Passkey. Please provide a valid passkey or use a different "
 "authentication method."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Netočan pristupni ključ. Molimo dodajte valjani pristupni ključ ili "
+"upotrijebite drugu metodu autentifikacije."
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model:ir.model.fields,field_description:auth_passkey.field_auth_passkey_key__write_uid
@@ -1001,7 +1066,11 @@ msgstr "Promijenjeno"
 #: model_terms:ir.ui.view,arch_db:auth_passkey.auth_passkey_users_form
 #: model_terms:ir.ui.view,arch_db:auth_passkey.auth_passkey_users_preferences
 msgid "Last used:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zadnje korišten:"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model_terms:ir.ui.view,arch_db:auth_passkey.auth_passkey_login
@@ -1017,19 +1086,31 @@ msgstr "Naziv"
 #. module: auth_passkey
 #: model_terms:ir.ui.view,arch_db:auth_passkey.res_users_identitycheck_view_form_passkey
 msgid "Or choose a different method:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ili izaberite drugu metodu:"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model:ir.model,name:auth_passkey.model_auth_passkey_key
 #: model:ir.model.fields.selection,name:auth_passkey.selection__res_users_identitycheck__auth_method__webauthn
 msgid "Passkey"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pristupni ključ"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model_terms:ir.ui.view,arch_db:auth_passkey.auth_passkey_users_form
 #: model_terms:ir.ui.view,arch_db:auth_passkey.auth_passkey_users_preferences
 msgid "Passkeys"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pristupni ključevi"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model_terms:ir.ui.view,arch_db:auth_passkey.auth_passkey_users_preferences
@@ -1046,18 +1127,30 @@ msgstr "Čarobnjak za provjeru lozinke"
 #. module: auth_passkey
 #: model:ir.model.fields,field_description:auth_passkey.field_auth_passkey_key__public_key
 msgid "Public Key"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Javni ključ"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model_terms:ir.ui.view,arch_db:auth_passkey.auth_passkey_users_preferences
 msgid "Rename"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Preimenuj"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #. odoo-python
 #: code:addons/auth_passkey/models/auth_passkey_key.py:0
 msgid "Rename Passkey"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Preimenuj pristupni ključ"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model_terms:ir.ui.view,arch_db:auth_passkey.auth_passkey_key_rename
@@ -1073,28 +1166,48 @@ msgstr "Sigurnosna kontrola"
 #. module: auth_passkey
 #: model:ir.model.fields,field_description:auth_passkey.field_auth_passkey_key__sign_count
 msgid "Sign Count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Broj potpisa"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model:ir.model.constraint,message:auth_passkey.constraint_auth_passkey_key_unique_identifier
 msgid "The credential identifier should be unique."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Identifikator vjerodajnice treba biti jedinstven."
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #. odoo-python
 #: code:addons/auth_passkey/models/res_users.py:0
 msgid "Unknown passkey"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nepoznat pristupni ključ"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model_terms:ir.ui.view,arch_db:auth_passkey.res_users_identitycheck_view_form_passkey
 msgid "Use Passkey"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Koristi pristupni ključ"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model_terms:ir.ui.view,arch_db:auth_passkey.res_users_identitycheck_view_form_passkey
 msgid "Use password"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Koristi lozinku"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model:ir.model,name:auth_passkey.model_res_users

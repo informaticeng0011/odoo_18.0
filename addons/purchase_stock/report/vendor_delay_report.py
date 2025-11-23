@@ -24,6 +24,7 @@ class VendorDelayReport(models.Model):
         self.env.cr.execute("""
 CREATE OR replace VIEW vendor_delay_report AS(
 <<<<<<< HEAD
+<<<<<<< HEAD
 SELECT m.id                     AS id,
        m.date                   AS date,
        m.purchase_line_id       AS purchase_line_id,
@@ -32,6 +33,8 @@ SELECT m.id                     AS id,
        Min(po.partner_id)       AS partner_id,
        Min(m.product_qty)       AS qty_total,
 =======
+=======
+>>>>>>> upstream/18.0
 SELECT pol.id                   AS id,
        Min(m.date)              AS date,
        pol.id                   AS purchase_line_id,
@@ -39,6 +42,9 @@ SELECT pol.id                   AS id,
        Min(pc.id)               AS category_id,
        pol.partner_id           AS partner_id,
        pol.product_uom_qty      AS qty_total,
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
        Sum(CASE
              WHEN (m.state = 'done' and pol.date_planned::date >= m.date::date) THEN (ml.quantity / ml_uom.factor * pt_uom.factor)
@@ -48,8 +54,11 @@ FROM   stock_move m
        JOIN purchase_order_line pol
          ON pol.id = m.purchase_line_id
 <<<<<<< HEAD
+<<<<<<< HEAD
        JOIN purchase_order po
          ON po.id = pol.order_id
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
        JOIN product_product p
@@ -65,7 +74,11 @@ FROM   stock_move m
        LEFT JOIN uom_uom ml_uom
          ON ml_uom.id = ml.product_uom_id
 <<<<<<< HEAD
+<<<<<<< HEAD
 GROUP  BY m.id
+=======
+GROUP  BY pol.id
+>>>>>>> upstream/18.0
 =======
 GROUP  BY pol.id
 >>>>>>> upstream/18.0

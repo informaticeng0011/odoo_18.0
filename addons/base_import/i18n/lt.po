@@ -1,7 +1,12 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* base_import
 # 
+=======
+# * base_import
+#
+>>>>>>> upstream/18.0
 # Translators:
 # grupoda2 <dmitrijus.ivanovas@gmail.com>, 2024
 # UAB "Draugiški sprendimai" <transifex@draugiskisprendimai.lt>, 2024
@@ -15,11 +20,16 @@
 # Jonas Zinkevicius <jozi@odoo.com>, 2025
 # digitouch UAB <digitouchagencyeur@gmail.com>, 2025
 # Gailius Kazlauskas <gailius@vialaurea.lt>, 2025
+<<<<<<< HEAD
 # 
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-10-25 07:48+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Gailius Kazlauskas <gailius@vialaurea.lt>, 2025\n"
@@ -29,6 +39,21 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: lt\n"
 "Plural-Forms: nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < 11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? 1 : n % 1 != 0 ? 2: 3);\n"
+=======
+"POT-Creation-Date: 2025-11-21 18:37+0000\n"
+"PO-Revision-Date: 2025-11-21 02:25+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Lithuanian <https://translate.odoo.com/projects/odoo-18/"
+"base_import/lt/>\n"
+"Language: lt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < "
+"11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? "
+"1 : n % 1 != 0 ? 2: 3);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: base_import
 #. odoo-javascript
@@ -92,8 +117,13 @@ msgstr ""
 #: code:addons/base_import/static/src/import_model.js:0
 msgid ""
 "An unknown issue occurred during import (possibly lost connection, data "
+<<<<<<< HEAD
 "limit exceeded or memory limits exceeded). Please retry in case the issue is"
 " transient. If the issue still occurs, try to split the file rather than "
+=======
+"limit exceeded or memory limits exceeded). Please retry in case the issue is "
+"transient. If the issue still occurs, try to split the file rather than "
+>>>>>>> upstream/18.0
 "import it at once."
 msgstr ""
 "Importavimo meti įvyko nežinoma klaida (galimai nutrūkęs ryšys, viršytas "
@@ -161,11 +191,19 @@ msgstr "Stulpelyje %(column)s yra neteisingų reikšmių (reikšmė: %(value)s)"
 #. odoo-python
 #: code:addons/base_import/models/base_import.py:0
 msgid ""
+<<<<<<< HEAD
 "Column %(column)s contains incorrect values. Error in line %(line)d: "
 "%(error)s"
 msgstr ""
 "Stulpelyje %(column)s yra neteisingų reikšmių. Klaida eilutėje %(line)d: "
 "%(error)s"
+=======
+"Column %(column)s contains incorrect values. Error in line %(line)d: %"
+"(error)s"
+msgstr ""
+"Stulpelyje %(column)s yra neteisingų reikšmių. Klaida eilutėje %(line)d: %"
+"(error)s"
+>>>>>>> upstream/18.0
 
 #. module: base_import
 #: model:ir.model.fields,field_description:base_import.field_base_import_mapping__column_name
@@ -188,8 +226,12 @@ msgstr "Komentarai"
 #. odoo-python
 #: code:addons/base_import/models/base_import.py:0
 msgid ""
+<<<<<<< HEAD
 "Could not retrieve URL: %(url)s [%(field_name)s: L%(line_number)d]: "
 "%(error)s"
+=======
+"Could not retrieve URL: %(url)s [%(field_name)s: L%(line_number)d]: %(error)s"
+>>>>>>> upstream/18.0
 msgstr ""
 "Nepavyko gauti URL: %(url)s [%(field_name)s: L%(line_number)d]: %(error)s"
 
@@ -308,8 +350,13 @@ msgstr ""
 #: code:addons/base_import/models/base_import.py:0
 msgid ""
 "Error while importing records: all rows should be of the same size, but the "
+<<<<<<< HEAD
 "title row has %(title_row_entries)d entries while the first row has "
 "%(first_row_entries)d. You may need to change the separator character."
+=======
+"title row has %(title_row_entries)d entries while the first row has %"
+"(first_row_entries)d. You may need to change the separator character."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: base_import
@@ -372,8 +419,12 @@ msgstr "Failo dydis viršija nustatytą maksimumą (%s baitai)"
 #: model:ir.model.fields,help:base_import.field_base_import_import__file
 msgid "File to check and/or import, raw binary (not base64)"
 msgstr ""
+<<<<<<< HEAD
 "Failas neapdorotų dvejetainių (ne base64) patikrinimui ir / arba "
 "importavimui"
+=======
+"Failas neapdorotų dvejetainių (ne base64) patikrinimui ir / arba importavimui"
+>>>>>>> upstream/18.0
 
 #. module: base_import
 #. odoo-javascript
@@ -403,15 +454,24 @@ msgstr ""
 #. odoo-python
 #: code:addons/base_import/models/base_import.py:0
 msgid ""
+<<<<<<< HEAD
 "Found invalid image data, images should be imported as either URLs or "
 "base64-encoded data."
+=======
+"Found invalid image data, images should be imported as either URLs or base64-"
+"encoded data."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: base_import
 #. odoo-javascript
 #: code:addons/base_import/static/src/import_data_sidepanel/import_data_sidepanel.xml:0
 msgid "Go to Import FAQ"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Eiti į importavimo DUK"
+>>>>>>> upstream/18.0
 
 #. module: base_import
 #. odoo-javascript
@@ -652,7 +712,11 @@ msgstr "Tęsti"
 #. odoo-javascript
 #: code:addons/base_import/static/src/import_data_content/import_data_content.xml:0
 msgid "Search a field..."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ieškoti lauko..."
+>>>>>>> upstream/18.0
 
 #. module: base_import
 #. odoo-javascript
@@ -781,6 +845,25 @@ msgid "The file will be imported by batches"
 msgstr ""
 
 #. module: base_import
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/base_import/models/base_import.py:0
+msgid ""
+"There was an issue decoding the file using encoding “%s”.\n"
+"This encoding was automatically detected."
+msgstr ""
+
+#. module: base_import
+#. odoo-python
+#: code:addons/base_import/models/base_import.py:0
+msgid ""
+"There was an issue decoding the file using encoding “%s”.\n"
+"This encoding was manually selected."
+msgstr ""
+
+#. module: base_import
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/base_import/static/src/import_model.js:0
 msgid "This column will be concatenated in field"
@@ -813,10 +896,18 @@ msgstr "Importuojant sekti istoriją"
 #. module: base_import
 #. odoo-python
 #: code:addons/base_import/models/base_import.py:0
+<<<<<<< HEAD
 msgid "Unable to load \"{extension}\" file: requires Python module \"{modname}\""
 msgstr ""
 "Nepavyko įkelti \"{extension}\" failo: reikalingas Python modulis "
 "\"{modname}\""
+=======
+msgid ""
+"Unable to load \"{extension}\" file: requires Python module \"{modname}\""
+msgstr ""
+"Nepavyko įkelti \"{extension}\" failo: reikalingas Python modulis \"{modname}"
+"\""
+>>>>>>> upstream/18.0
 
 #. module: base_import
 #. odoo-python
@@ -850,18 +941,30 @@ msgstr ""
 #: code:addons/base_import/static/src/import_model.js:0
 msgid ""
 "Use HH for hours in a 24h system, use II in conjonction with 'p' for a 12h "
+<<<<<<< HEAD
 "system. You can use a custom format in addition to the suggestions provided."
 " Leave empty to let Odoo guess the format (recommended)"
+=======
+"system. You can use a custom format in addition to the suggestions provided. "
+"Leave empty to let Odoo guess the format (recommended)"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: base_import
 #. odoo-javascript
 #: code:addons/base_import/static/src/import_model.js:0
 msgid ""
+<<<<<<< HEAD
 "Use YYYY to represent the year, MM for the month and DD for the day. Include"
 " separators such as a dot, forward slash or dash. You can use a custom "
 "format in addition to the suggestions provided. Leave empty to let Odoo "
 "guess the format (recommended)"
+=======
+"Use YYYY to represent the year, MM for the month and DD for the day. Include "
+"separators such as a dot, forward slash or dash. You can use a custom format "
+"in addition to the suggestions provided. Leave empty to let Odoo guess the "
+"format (recommended)"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: base_import

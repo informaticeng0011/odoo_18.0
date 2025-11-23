@@ -7,6 +7,10 @@ from markupsafe import Markup
 
 from odoo import api, fields, models, Command, _
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.tools import float_compare
+>>>>>>> upstream/18.0
 =======
 from odoo.tools import float_compare
 >>>>>>> upstream/18.0
@@ -145,6 +149,7 @@ class AccountMove(models.Model):
             'name': _("Purchase Matching"),
             'res_model': 'purchase.bill.line.match',
             'domain': [
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -726,6 +731,9 @@ class AccountMove(models.Model):
 =======
                 ('partner_id', 'in', (self.partner_id | self.partner_id.commercial_partner_id).ids),
 >>>>>>> upstream/18.0
+=======
+                ('partner_id', 'in', (self.partner_id | self.partner_id.commercial_partner_id).ids),
+>>>>>>> upstream/18.0
                 ('company_id', 'in', self.env.company.ids),
                 ('account_move_id', 'in', [self.id, False]),
             ],
@@ -862,6 +870,10 @@ class AccountMove(models.Model):
         try:
             start_time = time.time()
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            precision = self.env["decimal.precision"].precision_get("Product Price")
+>>>>>>> upstream/18.0
 =======
             precision = self.env["decimal.precision"].precision_get("Product Price")
 >>>>>>> upstream/18.0
@@ -879,15 +891,21 @@ class AccountMove(models.Model):
                     # When the unit price of the purchase line is lower than the unit price of the invoice line,
                     # we cannot get a match anymore.
 <<<<<<< HEAD
+<<<<<<< HEAD
                     if purchase_line.price_unit < invoice_line.price_unit:
                         break
 
                     if (invoice_line.price_unit == purchase_line.price_unit
 =======
+=======
+>>>>>>> upstream/18.0
                     if float_compare(purchase_line.price_unit, invoice_line.price_unit, precision_digits=precision) < 0:
                         break
 
                     if (float_compare(invoice_line.price_unit, purchase_line.price_unit, precision_digits=precision) == 0
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                             and invoice_line.quantity <= purchase_line.product_qty - purchase_line.qty_invoiced):
                         # The current purchase line is a possible match for the current invoice line.
@@ -1240,7 +1258,10 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1581,6 +1602,9 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

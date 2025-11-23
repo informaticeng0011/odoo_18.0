@@ -72,8 +72,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* cloud_storage
 # 
+=======
+# * cloud_storage
+#
+>>>>>>> upstream/18.0
 =======
 # * cloud_storage
 #
@@ -439,6 +444,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 =======
 # "Noemi Pla Garcia (nopl)" <nopl@odoo.com>, 2025.
@@ -656,10 +662,15 @@
 =======
 # "Noemi Pla Garcia (nopl)" <nopl@odoo.com>, 2025.
 >>>>>>> upstream/18.0
+=======
+# "Noemi Pla Garcia (nopl)" <nopl@odoo.com>, 2025.
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -886,6 +897,11 @@ msgstr ""
 >>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-09-02 22:21+0000\n"
 "Last-Translator: \"Noemi Pla Garcia (nopl)\" <nopl@odoo.com>\n"
+=======
+"POT-Creation-Date: 2025-11-14 18:38+0000\n"
+"PO-Revision-Date: 2025-11-10 09:43+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Catalan <https://translate.odoo.com/projects/odoo-18/"
 "cloud_storage/ca/>\n"
 "Language: ca\n"
@@ -965,6 +981,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1190,7 +1209,11 @@ msgid "Cloud Storage"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Emmagatzematge al núvol"
+>>>>>>> upstream/18.0
 =======
 msgstr "Emmagatzematge al núvol"
 >>>>>>> upstream/18.0
@@ -1483,7 +1506,11 @@ msgid "Cloud Storage Provider for new attachments"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Proveïdor d'emmagatzematge al núvol per als nous arxius adjunts"
+>>>>>>> upstream/18.0
 =======
 msgstr "Proveïdor d'emmagatzematge al núvol per als nous arxius adjunts"
 >>>>>>> upstream/18.0
@@ -1776,7 +1803,11 @@ msgid "Cloud Storage Settings"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ajustos d'emmagatzematge al núvol"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ajustos d'emmagatzematge al núvol"
 >>>>>>> upstream/18.0
@@ -2070,7 +2101,11 @@ msgid "Cloud Storage is not enabled"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "L'emmagatzematge al núvol no està habilitat"
+>>>>>>> upstream/18.0
 =======
 msgstr "L'emmagatzematge al núvol no està habilitat"
 >>>>>>> upstream/18.0
@@ -2365,6 +2400,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"La configuració de l'emmagatzematge al núvol ha canviat. Si us plau, "
+"actualitza la pàgina."
+>>>>>>> upstream/18.0
 =======
 "La configuració de l'emmagatzematge al núvol ha canviat. Si us plau, "
 "actualitza la pàgina."
@@ -2658,7 +2698,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/cloud_storage/static/src/core/common/attachment_upload_service_patch.js:0
 msgid "Cloud storage error"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Error d'emmagatzematge al núvol"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage
 #: model:ir.model,name:cloud_storage.model_res_config_settings
@@ -2666,6 +2710,16 @@ msgid "Config Settings"
 msgstr "Paràmetres de configuració"
 
 #. module: cloud_storage
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/cloud_storage/models/ir_attachment.py:0
+msgid ""
+"Failed to download attachment (%(id)s) from cloud: %(code)s - %(reason)s"
+msgstr ""
+
+#. module: cloud_storage
+>>>>>>> upstream/18.0
 #: model:ir.model,name:cloud_storage.model_ir_http
 msgid "HTTP Routing"
 msgstr "Enrutament HTTP"
@@ -2715,6 +2769,11 @@ msgstr ""
 #: model:ir.model.fields,help:cloud_storage.field_res_config_settings__cloud_storage_min_file_size
 msgid ""
 "webclient can upload files larger than the minimum file size\n"
+<<<<<<< HEAD
 "        (in bytes) as url attachments to the server and then upload the file to\n"
+=======
+"        (in bytes) as url attachments to the server and then upload the file "
+"to\n"
+>>>>>>> upstream/18.0
 "        the cloud storage."
 msgstr ""

@@ -54,7 +54,11 @@ registry
             tourUtils.checkSOLDescriptionContains("Combo product x 3"),
             tourUtils.checkSOLDescriptionContains(
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "Product A1", "No variant attribute: B: Some custom value"
+=======
+                "Product A1", "No variant attribute: B: Some custom value", { isReadonly: true }
+>>>>>>> upstream/18.0
 =======
                 "Product A1", "No variant attribute: B: Some custom value", { isReadonly: true }
 >>>>>>> upstream/18.0

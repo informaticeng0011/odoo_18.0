@@ -1,5 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* base_automation
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -226,11 +227,16 @@
 =======
 #
 >>>>>>> upstream/18.0
+=======
+# * base_automation
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Martin Trigaux, 2024
 # Wil Odoo, 2024
 # Hideki Akiyoshi, 2025
 # Manav Shah, 2025
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -652,10 +658,16 @@
 # Ujjawal Pathak, 2025
 #
 >>>>>>> upstream/18.0
+=======
+# Ujjawal Pathak, 2025
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -975,10 +987,18 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Ujjawal Pathak, 2025\n"
 "Language-Team: Hindi (https://app.transifex.com/odoo/teams/41243/hi/)\n"
+=======
+"POT-Creation-Date: 2025-09-27 01:48+0000\n"
+"PO-Revision-Date: 2025-11-21 02:25+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Hindi <https://translate.odoo.com/projects/odoo-18/"
+"base_automation/hi/>\n"
+>>>>>>> upstream/18.0
 "Language: hi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1146,6 +1166,10 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+=======
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #. odoo-javascript
@@ -1154,6 +1178,11 @@ msgid ""
 "\"\n"
 "                (ID:"
 msgstr ""
+<<<<<<< HEAD
+=======
+"\"\n"
+"                (आईडी:"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #. odoo-javascript
@@ -1245,8 +1274,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<code>model</code>: model of the record on which the action is triggered; is"
 " a void recordset"
+=======
+"<code>model</code>: model of the record on which the action is triggered; is "
+"a void recordset"
+>>>>>>> upstream/18.0
 =======
 "<code>model</code>: model of the record on which the action is triggered; is "
 "a void recordset"
@@ -1572,7 +1606,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                                        <span invisible=\"evaluation_type != 'equation'\">as</span>"
+=======
+"                                                        <span "
+"invisible=\"evaluation_type != 'equation'\">as</span>"
+>>>>>>> upstream/18.0
 =======
 "                                                        <span "
 "invisible=\"evaluation_type != 'equation'\">as</span>"
@@ -1859,9 +1898,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                    <span invisible=\"trigger != 'on_time_updated'\">after last update</span>\n"
 "                                    <span invisible=\"trigger != 'on_time'\">after</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2031,6 +2073,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2222,7 +2267,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<strong><i class=\"fa fa-lock\"/> Keep it secret, keep it safe.</strong>"
+=======
+msgid ""
+"<strong><i class=\"fa fa-lock\"/> Keep it secret, keep it safe.</strong>"
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "<strong><i class=\"fa fa-lock\"/> Keep it secret, keep it safe.</strong>"
@@ -2530,7 +2580,11 @@ msgid "Actions"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऐक्शन"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऐक्शन"
 >>>>>>> upstream/18.0
@@ -2839,7 +2893,11 @@ msgid "Add followers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "फ़ॉलोवर जोड़ें"
+>>>>>>> upstream/18.0
 =======
 msgstr "फ़ॉलोवर जोड़ें"
 >>>>>>> upstream/18.0
@@ -3081,6 +3139,7 @@ msgstr ""
 #. module: base_automation
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_kanban
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3492,6 +3551,10 @@ msgstr "संग्रहीत किया गया"
 msgid "Archived"
 msgstr "संग्रहीत किया गया"
 >>>>>>> upstream/18.0
+=======
+msgid "Archived"
+msgstr "संग्रहीत किया गया"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model_terms:ir.actions.act_window,help:base_automation.base_automation_act
@@ -3529,7 +3592,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/base_automation/static/src/kanban_header_patch.js:0
 msgid "Automations"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऑटोमेशन"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model:ir.model.fields.selection,name:base_automation.selection__base_automation__trigger__on_time
@@ -3624,7 +3691,11 @@ msgid "Compute"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "गणना करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "गणना करें"
 >>>>>>> upstream/18.0
@@ -3864,7 +3935,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/base_automation/static/src/base_automation_actions_one2many_field.js:0
 msgid "Create next activity"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अगली गतिविधि बनाएं"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__create_uid
@@ -3959,7 +4034,11 @@ msgid "Created on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इस तारीख को बनाया गया"
+>>>>>>> upstream/18.0
 =======
 msgstr "इस तारीख को बनाया गया"
 >>>>>>> upstream/18.0
@@ -4220,12 +4299,20 @@ msgstr "इस तारीख को बनाया गया"
 #. odoo-javascript
 #: code:addons/base_automation/static/src/base_automation_trigger_selection_field.js:0
 msgid "Custom"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कस्टम"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 msgid "Date Field"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "तारीख वाली फ़ील्ड"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #. odoo-javascript
@@ -4317,7 +4404,11 @@ msgid "Days"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "दिन"
+>>>>>>> upstream/18.0
 =======
 msgstr "दिन"
 >>>>>>> upstream/18.0
@@ -4680,9 +4771,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                but any data created after this could potentially be corrupted,\n"
 "                as you are effectively disabling a customization that may set\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4852,6 +4946,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5060,7 +5157,11 @@ msgid "Display Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "डिस्प्ले नाम"
+>>>>>>> upstream/18.0
 =======
 msgstr "डिस्प्ले नाम"
 >>>>>>> upstream/18.0
@@ -5377,7 +5478,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/base_automation/static/src/base_automation_trigger_selection_field.js:0
 msgid "External"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एक्सटर्नल"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
@@ -5403,7 +5508,11 @@ msgstr ""
 #. module: base_automation
 #: model:ir.model.fields.selection,name:base_automation.selection__base_automation__trg_date_range_type__hour
 msgid "Hours"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "घंटे"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__id
@@ -5499,7 +5608,11 @@ msgid "ID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आईडी"
+>>>>>>> upstream/18.0
 =======
 msgstr "आईडी"
 >>>>>>> upstream/18.0
@@ -5833,8 +5946,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If present, this condition must be satisfied before executing the automation"
 " rule."
+=======
+"If present, this condition must be satisfied before executing the automation "
+"rule."
+>>>>>>> upstream/18.0
 =======
 "If present, this condition must be satisfied before executing the automation "
 "rule."
@@ -6125,7 +6243,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6296,6 +6417,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6501,7 +6625,11 @@ msgid "Last Updated by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इन्होंने आखिरी बार अपडेट किया"
+>>>>>>> upstream/18.0
 =======
 msgstr "इन्होंने आखिरी बार अपडेट किया"
 >>>>>>> upstream/18.0
@@ -6834,7 +6962,11 @@ msgid "Last Updated on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आखिरी बार अपडेट हुआ"
+>>>>>>> upstream/18.0
 =======
 msgstr "आखिरी बार अपडेट हुआ"
 >>>>>>> upstream/18.0
@@ -7090,7 +7222,11 @@ msgstr ""
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__log_webhook_calls
 msgid "Log Calls"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कॉल लॉग करें"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
@@ -7108,7 +7244,11 @@ msgstr ""
 #. module: base_automation
 #: model:ir.model.fields.selection,name:base_automation.selection__base_automation__trg_date_range_type__minutes
 msgid "Minutes"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मिनट"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__model_id
@@ -7204,7 +7344,11 @@ msgid "Model"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मॉडल"
+>>>>>>> upstream/18.0
 =======
 msgstr "मॉडल"
 >>>>>>> upstream/18.0
@@ -7564,7 +7708,11 @@ msgid "Model Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मॉडल नाम"
+>>>>>>> upstream/18.0
 =======
 msgstr "मॉडल नाम"
 >>>>>>> upstream/18.0
@@ -7872,8 +8020,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Model of action %(action_name)s should match the one from automated rule "
 "%(rule_name)s."
+=======
+"Model of action %(action_name)s should match the one from automated rule %"
+"(rule_name)s."
+>>>>>>> upstream/18.0
 =======
 "Model of action %(action_name)s should match the one from automated rule %"
 "(rule_name)s."
@@ -8186,7 +8339,11 @@ msgid "Months"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "महीने"
+>>>>>>> upstream/18.0
 =======
 msgstr "महीने"
 >>>>>>> upstream/18.0
@@ -8622,7 +8779,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                after a month of inactivity or remind yourself to follow-up on\n"
+=======
+"                after a month of inactivity or remind yourself to follow-up "
+"on\n"
+>>>>>>> upstream/18.0
 =======
 "                after a month of inactivity or remind yourself to follow-up "
 "on\n"
@@ -8909,8 +9071,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Send an email when an object changes state, archive records after a month of"
 " inactivity or remind yourself to follow-up on tasks when a specific tag is "
+=======
+"Send an email when an object changes state, archive records after a month of "
+"inactivity or remind yourself to follow-up on tasks when a specific tag is "
+>>>>>>> upstream/18.0
 =======
 "Send an email when an object changes state, archive records after a month of "
 "inactivity or remind yourself to follow-up on tasks when a specific tag is "
@@ -9142,7 +9309,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/base_automation/static/src/base_automation_actions_one2many_field.js:0
 msgid "Send email"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ईमेल भेजें"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #. odoo-python
@@ -9225,7 +9396,11 @@ msgid "Server Action"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सर्वर ऐक्श"
+>>>>>>> upstream/18.0
 =======
 msgstr "सर्वर ऐक्श"
 >>>>>>> upstream/18.0
@@ -9509,8 +9684,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Some triggers need a reference to another field. This field is used to store"
 " it."
+=======
+"Some triggers need a reference to another field. This field is used to store "
+"it."
+>>>>>>> upstream/18.0
 =======
 "Some triggers need a reference to another field. This field is used to store "
 "it."
@@ -9828,8 +10008,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Target model of actions %(action_names)s are different from rule model."
+=======
+msgid "Target model of actions %(action_names)s are different from rule model."
+>>>>>>> upstream/18.0
 =======
 msgid "Target model of actions %(action_names)s are different from rule model."
 >>>>>>> upstream/18.0
@@ -10060,8 +10244,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The \"%(trigger_value)s\" %(trigger_label)s can only be used with the "
 "\"%(state_value)s\" action type"
+=======
+"The \"%(trigger_value)s\" %(trigger_label)s can only be used with the \"%"
+"(state_value)s\" action type"
+>>>>>>> upstream/18.0
 =======
 "The \"%(trigger_value)s\" %(trigger_label)s can only be used with the \"%"
 "(state_value)s\" action type"
@@ -10404,7 +10593,11 @@ msgid "Trigger"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ट्रिगर"
+>>>>>>> upstream/18.0
 =======
 msgstr "ट्रिगर"
 >>>>>>> upstream/18.0
@@ -10676,7 +10869,11 @@ msgstr "प्रकार"
 #. module: base_automation
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 msgid "URL"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "यूआरएल"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
@@ -10759,7 +10956,11 @@ msgid "Update"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अपडेट"
+>>>>>>> upstream/18.0
 =======
 msgstr "अपडेट"
 >>>>>>> upstream/18.0
@@ -10986,13 +11187,21 @@ msgstr ""
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__url
 msgid "Url"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "यूआरएल"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_ir_actions_server__usage
 #: model:ir.model.fields,field_description:base_automation.field_ir_cron__usage
 msgid "Usage"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इस्तेमाल"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__trg_date_calendar_id
@@ -11093,7 +11302,11 @@ msgid "Warning"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "चेतावनी"
+>>>>>>> upstream/18.0
 =======
 msgstr "चेतावनी"
 >>>>>>> upstream/18.0
@@ -11353,7 +11566,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/base_automation/static/src/base_automation_actions_one2many_field.js:0
 msgid "Weeks"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सप्ताह"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model:ir.model.fields,help:base_automation.field_base_automation__trg_date_calendar_id
@@ -11422,7 +11639,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                If present, will be checked by the scheduler. If empty, will be checked at creation and update."
+=======
+"                If present, will be checked by the scheduler. If empty, will "
+"be checked at creation and update."
+>>>>>>> upstream/18.0
 =======
 "                If present, will be checked by the scheduler. If empty, will "
 "be checked at creation and update."

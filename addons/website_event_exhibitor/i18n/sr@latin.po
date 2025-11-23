@@ -1,12 +1,19 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* website_event_exhibitor
 #
+=======
+# * website_event_exhibitor
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-27 13:05+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2025-01-27 13:05+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -14,6 +21,19 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
+=======
+"PO-Revision-Date: 2025-11-21 06:41+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Serbian (Latin script) <https://translate.odoo.com/projects/"
+"odoo-18/website_event_exhibitor/sr_Latn/>\n"
+"Language: sr@latin\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #. odoo-javascript
@@ -27,7 +47,11 @@ msgstr ""
 #. module: website_event_exhibitor
 #: model_terms:ir.ui.view,arch_db:website_event_exhibitor.exhibitor_card
 msgid "<i class=\"fa fa-ban me-2\"/>Unpublished"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-ban me-2\"/>Neobjavljeno"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model_terms:ir.ui.view,arch_db:website_event_exhibitor.event_sponsor_view_form
@@ -35,6 +59,11 @@ msgid ""
 "<i class=\"fa fa-long-arrow-right mx-2\" aria-label=\"Arrow icon\" "
 "title=\"Arrow\"/>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-long-arrow-right mx-2\" aria-label=\"Arrow icon\" title="
+"\"Strelica\"/>"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model_terms:ir.ui.view,arch_db:website_event_exhibitor.exhibitor_aside
@@ -78,42 +107,74 @@ msgstr ""
 #. module: website_event_exhibitor
 #: model_terms:ir.ui.view,arch_db:website_event_exhibitor.exhibitor_main
 msgid "About"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "O"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model:ir.model.fields,field_description:website_event_exhibitor.field_event_sponsor__message_needaction
 msgid "Action Needed"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Potrebna akcija"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model:ir.model.fields,field_description:website_event_exhibitor.field_event_sponsor__active
 msgid "Active"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aktivno"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model:ir.model.fields,field_description:website_event_exhibitor.field_event_sponsor__activity_ids
 msgid "Activities"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aktivnosti"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model:ir.model.fields,field_description:website_event_exhibitor.field_event_sponsor__activity_exception_decoration
 msgid "Activity Exception Decoration"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dekoracija izuzeć́a aktivnosti"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model:ir.model.fields,field_description:website_event_exhibitor.field_event_sponsor__activity_state
 msgid "Activity State"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stanje aktivnosti"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model:ir.model.fields,field_description:website_event_exhibitor.field_event_sponsor__activity_type_icon
 msgid "Activity Type Icon"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ikonica vrste aktivnosti"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model_terms:ir.ui.view,arch_db:website_event_exhibitor.exhibitors_topbar_country
 msgid "All Countries"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sve zemlje"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model_terms:ir.ui.view,arch_db:website_event_exhibitor.event_exhibitor_main
@@ -129,7 +190,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_event_exhibitor.event_sponsor_view_form
 #: model_terms:ir.ui.view,arch_db:website_event_exhibitor.event_sponsor_view_search
 msgid "Archived"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Arhivirano"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model_terms:event.sponsor,website_description:website_event_exhibitor.event_7_sponsor_0
@@ -141,12 +206,20 @@ msgstr ""
 #: model_terms:event.sponsor,website_description:website_event_exhibitor.event_7_sponsor_9
 #: model_terms:event.sponsor,website_description:website_event_exhibitor.event_sponsor_1
 msgid "As a team, we are happy to contribute to this event."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kao tim, veoma se radujemo da doprinesemo ovom događaju."
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model:ir.model.fields,field_description:website_event_exhibitor.field_event_sponsor__message_attachment_count
 msgid "Attachment Count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Brojač priloga"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model_terms:ir.ui.view,arch_db:website_event_exhibitor.exhibitor_main
@@ -167,7 +240,11 @@ msgstr ""
 #: model:event.sponsor.type,name:website_event_exhibitor.event_sponsor_type1
 #: model:ir.model.fields.selection,name:website_event_exhibitor.selection__event_sponsor_type__display_ribbon_style__bronze
 msgid "Bronze"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bronzani"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model_terms:ir.ui.view,arch_db:website_event_exhibitor.exhibitors_topbar_country
@@ -182,17 +259,29 @@ msgstr ""
 #. module: website_event_exhibitor
 #: model:ir.model.fields,field_description:website_event_exhibitor.field_event_sponsor__can_publish
 msgid "Can Publish"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Može da objavljuje"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model:ir.model.fields,field_description:website_event_exhibitor.field_event_sponsor__chat_room_id
 msgid "Chat Room"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Soba za ćaskanje"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model_terms:ir.ui.view,arch_db:website_event_exhibitor.exhibitors_topbar
 msgid "Close"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zatvori"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #. odoo-javascript
@@ -210,27 +299,47 @@ msgstr ""
 #: model_terms:event.sponsor,website_description:website_event_exhibitor.event_7_sponsor_9
 #: model_terms:event.sponsor,website_description:website_event_exhibitor.event_sponsor_1
 msgid "Come see us live, we hope to meet you!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dođite da nas vidite uživo, nadamo se da ćemo vas upoznati!"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model_terms:ir.ui.view,arch_db:website_event_exhibitor.exhibitor_card
 msgid "Connect"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poveži"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model_terms:ir.ui.view,arch_db:website_event_exhibitor.snippet_options
 msgid "Countries"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zemlje"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model:ir.model.fields,field_description:website_event_exhibitor.field_event_sponsor__country_id
 msgid "Country"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zemlja"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model:ir.model.fields,field_description:website_event_exhibitor.field_event_sponsor__country_flag_url
 msgid "Country Flag"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zastava zemlje"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model_terms:ir.actions.act_window,help:website_event_exhibitor.event_sponsor_action
@@ -247,13 +356,21 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_event_exhibitor.field_event_sponsor__create_uid
 #: model:ir.model.fields,field_description:website_event_exhibitor.field_event_sponsor_type__create_uid
 msgid "Created by"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kreirao"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model:ir.model.fields,field_description:website_event_exhibitor.field_event_sponsor__create_date
 #: model:ir.model.fields,field_description:website_event_exhibitor.field_event_sponsor_type__create_date
 msgid "Created on"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kreirano"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model_terms:event.sponsor,website_description:website_event_exhibitor.event_7_sponsor_1
@@ -289,7 +406,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_event_exhibitor.field_event_sponsor__website_description
 #: model_terms:ir.ui.view,arch_db:website_event_exhibitor.event_sponsor_view_form
 msgid "Description"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Opis"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model_terms:event.sponsor,website_description:website_event_exhibitor.event_7_sponsor_0
@@ -301,13 +422,21 @@ msgstr ""
 #: model_terms:event.sponsor,website_description:website_event_exhibitor.event_7_sponsor_9
 #: model_terms:event.sponsor,website_description:website_event_exhibitor.event_sponsor_1
 msgid "Discover more"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Otkrij više"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model:ir.model.fields,field_description:website_event_exhibitor.field_event_sponsor__display_name
 #: model:ir.model.fields,field_description:website_event_exhibitor.field_event_sponsor_type__display_name
 msgid "Display Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Naziv za prikaz"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model:ir.model.fields,help:website_event_exhibitor.field_event_type__exhibitor_menu
@@ -324,7 +453,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_event_exhibitor.field_event_sponsor__partner_email
 #: model_terms:ir.ui.view,arch_db:website_event_exhibitor.event_sponsor_view_form
 msgid "Email"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "E-mail"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model:ir.model.fields,field_description:website_event_exhibitor.field_event_sponsor__hour_to
@@ -339,12 +472,20 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_event_exhibitor.event_sponsor_view_search
 #: model_terms:ir.ui.view,arch_db:website_event_exhibitor.exhibitor_main
 msgid "Event"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Događaj"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model_terms:ir.ui.view,arch_db:website_event_exhibitor.snippet_options
 msgid "Event Page"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stranica događaja"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model:ir.model,name:website_event_exhibitor.model_event_sponsor
@@ -372,7 +513,11 @@ msgstr ""
 #. module: website_event_exhibitor
 #: model:ir.model,name:website_event_exhibitor.model_event_type
 msgid "Event Template"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Šablon događaja"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model:ir.model.fields.selection,name:website_event_exhibitor.selection__event_sponsor__exhibitor_type__exhibitor
@@ -401,22 +546,38 @@ msgstr ""
 #. module: website_event_exhibitor
 #: model_terms:ir.ui.view,arch_db:website_event_exhibitor.exhibitors_topbar
 msgid "Filters"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Filteri"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model:ir.model.fields,field_description:website_event_exhibitor.field_event_sponsor__message_follower_ids
 msgid "Followers"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pratioci"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model:ir.model.fields,field_description:website_event_exhibitor.field_event_sponsor__message_partner_ids
 msgid "Followers (Partners)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pratioci (Partneri)"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model:ir.model.fields,help:website_event_exhibitor.field_event_sponsor__activity_type_icon
 msgid "Font awesome icon e.g. fa-tasks"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Font awesome ikonica npr. fa-tasks"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model:ir.model.fields.selection,name:website_event_exhibitor.selection__event_sponsor__exhibitor_type__sponsor
@@ -427,12 +588,20 @@ msgstr ""
 #: model:event.sponsor.type,name:website_event_exhibitor.event_sponsor_type3
 #: model:ir.model.fields.selection,name:website_event_exhibitor.selection__event_sponsor_type__display_ribbon_style__gold
 msgid "Gold"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ili"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model_terms:ir.ui.view,arch_db:website_event_exhibitor.event_sponsor_view_search
 msgid "Group By"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Grupiši po"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model_terms:event.sponsor,website_description:website_event_exhibitor.event_7_sponsor_0
@@ -444,54 +613,94 @@ msgstr ""
 #: model_terms:event.sponsor,website_description:website_event_exhibitor.event_7_sponsor_9
 #: model_terms:event.sponsor,website_description:website_event_exhibitor.event_sponsor_1
 msgid "Happy to be Sponsor"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zadovoljstvo je biti sponzor"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model:ir.model.fields,field_description:website_event_exhibitor.field_event_sponsor__has_message
 msgid "Has Message"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ima poruku"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model:ir.model.fields,field_description:website_event_exhibitor.field_event_sponsor__id
 #: model:ir.model.fields,field_description:website_event_exhibitor.field_event_sponsor_type__id
 msgid "ID"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ID"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model:ir.model.fields,field_description:website_event_exhibitor.field_event_sponsor__activity_exception_icon
 msgid "Icon"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ikona"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model:ir.model.fields,help:website_event_exhibitor.field_event_sponsor__activity_exception_icon
 msgid "Icon to indicate an exception activity."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ikonica koja označava aktivnost izuzetka."
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model:ir.model.fields,help:website_event_exhibitor.field_event_sponsor__message_needaction
 msgid "If checked, new messages require your attention."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ako je označeno, nove poruke zahtevaju vašu pažnju."
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model:ir.model.fields,help:website_event_exhibitor.field_event_sponsor__message_has_error
 #: model:ir.model.fields,help:website_event_exhibitor.field_event_sponsor__message_has_sms_error
 msgid "If checked, some messages have a delivery error."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ako je označeno, neke poruke imaju grešku u isporuci."
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model:ir.model.fields,field_description:website_event_exhibitor.field_event_sponsor__image_128
 msgid "Image 128"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Slika 128"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model:ir.model.fields,field_description:website_event_exhibitor.field_event_sponsor__image_256
 msgid "Image 256"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Slika 256"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model:ir.model.fields,field_description:website_event_exhibitor.field_event_sponsor__website_image_url
 msgid "Image URL"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "URL slike"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model:ir.model.fields,help:website_event_exhibitor.field_event_sponsor__event_date_tz
@@ -511,12 +720,20 @@ msgstr ""
 #. module: website_event_exhibitor
 #: model:ir.model.fields,field_description:website_event_exhibitor.field_event_sponsor__message_is_follower
 msgid "Is Follower"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Je Pratilac"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model:ir.model.fields,field_description:website_event_exhibitor.field_event_sponsor__is_published
 msgid "Is Published"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Je objavljeno"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model_terms:event.sponsor,website_description:website_event_exhibitor.event_7_sponsor_2
@@ -564,29 +781,49 @@ msgstr ""
 #. module: website_event_exhibitor
 #: model:ir.model.fields,field_description:website_event_exhibitor.field_event_sponsor__room_lang_id
 msgid "Language"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Jezik"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model:ir.model.fields,field_description:website_event_exhibitor.field_event_sponsor__write_uid
 #: model:ir.model.fields,field_description:website_event_exhibitor.field_event_sponsor_type__write_uid
 msgid "Last Updated by"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poslednje izmenio/la"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model:ir.model.fields,field_description:website_event_exhibitor.field_event_sponsor__write_date
 #: model:ir.model.fields,field_description:website_event_exhibitor.field_event_sponsor_type__write_date
 msgid "Last Updated on"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poslednje ažuriranje dana"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model:ir.model.fields,field_description:website_event_exhibitor.field_event_sponsor__room_last_activity
 msgid "Last activity"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poslednja aktivnost"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model_terms:ir.ui.view,arch_db:website_event_exhibitor.event_sponsor_view_search
 msgid "Level"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nivo"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model_terms:ir.ui.view,arch_db:website_event_exhibitor.event_sponsor_view_kanban
@@ -596,12 +833,20 @@ msgstr ""
 #. module: website_event_exhibitor
 #: model_terms:ir.ui.view,arch_db:website_event_exhibitor.exhibitor_card
 msgid "Live"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Živo"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model:ir.model.fields,field_description:website_event_exhibitor.field_event_sponsor__image_512
 msgid "Logo"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Logotip"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model_terms:event.sponsor,website_description:website_event_exhibitor.event_7_sponsor_1
@@ -614,68 +859,120 @@ msgstr ""
 #. module: website_event_exhibitor
 #: model:ir.model.fields,field_description:website_event_exhibitor.field_event_sponsor__room_max_capacity
 msgid "Max capacity"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Max kapacitet"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model:ir.model.fields,help:website_event_exhibitor.field_event_sponsor__room_max_participant_reached
 msgid "Maximum number of participant reached in the room at the same time"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dostignut je maksimalan broj istovremenih učesnika u sobi"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model:ir.model.fields,field_description:website_event_exhibitor.field_website_event_menu__menu_type
 msgid "Menu Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vrsta menija"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model:ir.model.fields,field_description:website_event_exhibitor.field_event_sponsor__message_has_error
 msgid "Message Delivery error"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Greška u isporuci poruke"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model:ir.model.fields,field_description:website_event_exhibitor.field_event_sponsor__message_ids
 msgid "Messages"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poruke"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model:ir.model.fields,field_description:website_event_exhibitor.field_event_sponsor__partner_mobile
 #: model_terms:ir.ui.view,arch_db:website_event_exhibitor.event_sponsor_view_form
 msgid "Mobile"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mobilni"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model_terms:ir.ui.view,arch_db:website_event_exhibitor.exhibitor_card
 msgid "More info"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Više informacija"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model:ir.model.fields,field_description:website_event_exhibitor.field_event_sponsor__my_activity_date_deadline
 msgid "My Activity Deadline"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Rok moje aktivnosti"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model:ir.model.fields,field_description:website_event_exhibitor.field_event_sponsor__partner_name
 msgid "Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Naziv"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model:ir.model.fields,field_description:website_event_exhibitor.field_event_sponsor__activity_calendar_event_id
 msgid "Next Activity Calendar Event"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sledeća aktivnost događaj u kalendaru"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model:ir.model.fields,field_description:website_event_exhibitor.field_event_sponsor__activity_date_deadline
 msgid "Next Activity Deadline"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Rok za sledeću aktivnosti"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model:ir.model.fields,field_description:website_event_exhibitor.field_event_sponsor__activity_summary
 msgid "Next Activity Summary"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pregled sledeće aktivnosti"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model:ir.model.fields,field_description:website_event_exhibitor.field_event_sponsor__activity_type_id
 msgid "Next Activity Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tip sledeće aktivnosti"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model:ir.model.fields.selection,name:website_event_exhibitor.selection__event_sponsor_type__display_ribbon_style__no_ribbon
@@ -690,28 +987,48 @@ msgstr ""
 #. module: website_event_exhibitor
 #: model:ir.model.fields,field_description:website_event_exhibitor.field_event_sponsor__message_needaction_counter
 msgid "Number of Actions"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Broj akcija"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model:ir.model.fields,field_description:website_event_exhibitor.field_event_sponsor__message_has_error_counter
 msgid "Number of errors"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Broj grešaka"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model:ir.model.fields,help:website_event_exhibitor.field_event_sponsor__message_needaction_counter
 msgid "Number of messages requiring action"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Broj poruka koje zahtevaju akciju"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model:ir.model.fields,help:website_event_exhibitor.field_event_sponsor__message_has_error_counter
 msgid "Number of messages with delivery error"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Broj poruka sa greškom u isporuci"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model_terms:ir.ui.view,arch_db:website_event_exhibitor.event_sponsor_view_form
 #: model_terms:ir.ui.view,arch_db:website_event_exhibitor.event_sponsor_view_search
 msgid "Online"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Online"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model:ir.model.fields.selection,name:website_event_exhibitor.selection__event_sponsor__exhibitor_type__online
@@ -744,13 +1061,21 @@ msgstr ""
 #. module: website_event_exhibitor
 #: model:ir.model.fields,field_description:website_event_exhibitor.field_event_sponsor__room_participant_count
 msgid "Participant count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Brojač učesnika"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model:ir.model.fields,field_description:website_event_exhibitor.field_event_sponsor__partner_id
 #: model_terms:ir.ui.view,arch_db:website_event_exhibitor.event_sponsor_view_form
 msgid "Partner"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Partner"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model:ir.model.fields,field_description:website_event_exhibitor.field_event_sponsor__room_max_participant_reached
@@ -769,13 +1094,21 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_event_exhibitor.field_event_sponsor__partner_phone
 #: model_terms:ir.ui.view,arch_db:website_event_exhibitor.event_sponsor_view_form
 msgid "Phone"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Telefon"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model_terms:ir.ui.view,arch_db:website_event_exhibitor.event_sponsor_view_kanban
 #: model_terms:ir.ui.view,arch_db:website_event_exhibitor.event_sponsor_view_search
 msgid "Published"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Objavljeno"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model_terms:ir.actions.act_window,help:website_event_exhibitor.event_sponsor_type_action
@@ -787,7 +1120,11 @@ msgstr ""
 #. module: website_event_exhibitor
 #: model:ir.model.fields,field_description:website_event_exhibitor.field_event_sponsor__rating_ids
 msgid "Ratings"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ocene"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model_terms:event.sponsor,website_description:website_event_exhibitor.event_7_sponsor_1
@@ -795,12 +1132,20 @@ msgstr ""
 #: model_terms:event.sponsor,website_description:website_event_exhibitor.event_sponsor_0
 #: model_terms:event.sponsor,website_description:website_event_exhibitor.event_sponsor_3
 msgid "Reporting"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izveštavanje"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model:ir.model.fields,field_description:website_event_exhibitor.field_event_sponsor__activity_user_id
 msgid "Responsible User"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odgovorni korisnik"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model:ir.model.fields,field_description:website_event_exhibitor.field_event_sponsor_type__display_ribbon_style
@@ -810,17 +1155,29 @@ msgstr ""
 #. module: website_event_exhibitor
 #: model:ir.model.fields,field_description:website_event_exhibitor.field_event_sponsor__room_is_full
 msgid "Room Is Full"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Soba je puna"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model:ir.model.fields,field_description:website_event_exhibitor.field_event_sponsor__room_name
 msgid "Room Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Naziv sobe"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model:ir.model.fields,field_description:website_event_exhibitor.field_event_sponsor__message_has_sms_error
 msgid "SMS Delivery error"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Greška u dostavi SMS-a"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model_terms:event.sponsor,website_description:website_event_exhibitor.event_7_sponsor_1
@@ -839,7 +1196,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_event_exhibitor.field_event_sponsor__sequence
 #: model:ir.model.fields,field_description:website_event_exhibitor.field_event_sponsor_type__sequence
 msgid "Sequence"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Niz"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model:ir.model.fields,field_description:website_event_exhibitor.field_event_event__exhibitor_menu
@@ -851,7 +1212,11 @@ msgstr ""
 #: model:event.sponsor.type,name:website_event_exhibitor.event_sponsor_type2
 #: model:ir.model.fields.selection,name:website_event_exhibitor.selection__event_sponsor_type__display_ribbon_style__silver
 msgid "Silver"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Srebrni"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model:ir.model.fields,field_description:website_event_exhibitor.field_event_sponsor__subtitle
@@ -949,6 +1314,13 @@ msgid ""
 "Today: Activity date is today\n"
 "Planned: Future activities."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Status na osnovu aktivnosti\n"
+"Isteklo: Datum postavljen kao rok je već prošao\n"
+"Danas: Datum aktivnosti je danas\n"
+"Planirano: Buduće aktivnosti."
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model_terms:event.sponsor,website_description:website_event_exhibitor.event_7_sponsor_1
@@ -961,7 +1333,11 @@ msgstr ""
 #. module: website_event_exhibitor
 #: model:ir.model.fields,help:website_event_exhibitor.field_event_sponsor__website_url
 msgid "The full URL to access the document through the website."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kompletna URL adresa za pristup dokumentima putem website-a."
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model_terms:ir.ui.view,arch_db:website_event_exhibitor.exhibitor_main
@@ -971,27 +1347,47 @@ msgstr ""
 #. module: website_event_exhibitor
 #: model:ir.model.fields,field_description:website_event_exhibitor.field_event_sponsor__event_date_tz
 msgid "Timezone"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vremenska zona"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model_terms:ir.ui.view,arch_db:website_event_exhibitor.snippet_options
 msgid "Top Bar Filter"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Filter u zaglavlju"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model:ir.model.fields,help:website_event_exhibitor.field_event_sponsor__activity_exception_decoration
 msgid "Type of the exception activity on record."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zabeležen tip aktivnosti izuzeća."
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model_terms:ir.ui.view,arch_db:website_event_exhibitor.event_sponsor_thumb_details
 msgid "Unpublished"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Neobjavljeno"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model:ir.model.fields,field_description:website_event_exhibitor.field_event_sponsor__website_published
 msgid "Visible on current website"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vidljivo na trenutno website-u"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model_terms:ir.ui.view,arch_db:website_event_exhibitor.exhibitors_main
@@ -1007,27 +1403,47 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_event_exhibitor.event_sponsor_view_form
 #: model_terms:ir.ui.view,arch_db:website_event_exhibitor.event_sponsor_view_tree
 msgid "Website"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Website"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model:ir.model,name:website_event_exhibitor.model_website_event_menu
 msgid "Website Event Menu"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Website meni događaja"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model:ir.model.fields,field_description:website_event_exhibitor.field_event_sponsor__website_message_ids
 msgid "Website Messages"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Website poruke"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model:ir.model.fields,field_description:website_event_exhibitor.field_event_sponsor__website_url
 msgid "Website URL"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Website URL"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model:ir.model.fields,help:website_event_exhibitor.field_event_sponsor__website_message_ids
 msgid "Website communication history"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Istorija website komunikacije"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model:ir.model.fields,field_description:website_event_exhibitor.field_event_sponsor__is_in_opening_hours
@@ -1039,7 +1455,11 @@ msgstr ""
 #: code:addons/website_event_exhibitor/static/src/components/exhibitor_connect_closed_dialog/exhibitor_connect_closed_dialog.xml:0
 #: model_terms:ir.ui.view,arch_db:website_event_exhibitor.exhibitor_main
 msgid "a few seconds"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "nekoliko sekundi"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #: model_terms:ir.ui.view,arch_db:website_event_exhibitor.event_sponsor_view_form
@@ -1085,17 +1505,30 @@ msgid ""
 "is over.\n"
 "                <br/>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"je završen.\n"
+"                <br/>"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #. odoo-javascript
 #: code:addons/website_event_exhibitor/static/src/components/exhibitor_connect_closed_dialog/exhibitor_connect_closed_dialog.xml:0
 #: model_terms:ir.ui.view,arch_db:website_event_exhibitor.exhibitor_main
 msgid "starts in"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "počinje u"
+>>>>>>> upstream/18.0
 
 #. module: website_event_exhibitor
 #. odoo-javascript
 #: code:addons/website_event_exhibitor/static/src/components/exhibitor_connect_closed_dialog/exhibitor_connect_closed_dialog.xml:0
 #: model_terms:ir.ui.view,arch_db:website_event_exhibitor.exhibitor_main
 msgid "starts on"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "počinje dana"
+>>>>>>> upstream/18.0

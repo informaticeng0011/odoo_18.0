@@ -45,7 +45,10 @@ class ThreadController(http.Controller):
     def mail_thread_partner_from_email(self, emails, additional_values=None):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         additional_values = {
@@ -53,6 +56,9 @@ class ThreadController(http.Controller):
             for email, values in (additional_values if additional_values else {}).items()
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -248,9 +254,12 @@ class ThreadController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         guest.env[message.model].browse([message.res_id])._message_update_content(
             message, body=body, attachment_ids=attachment_ids, partner_ids=partner_ids
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -478,6 +487,9 @@ class ThreadController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

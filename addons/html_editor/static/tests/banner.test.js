@@ -113,6 +113,10 @@ import { unformat } from "./_helpers/format";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { expectElementCount } from "./_helpers/ui_expectations";
+>>>>>>> upstream/18.0
 =======
 import { expectElementCount } from "./_helpers/ui_expectations";
 >>>>>>> upstream/18.0
@@ -558,6 +562,7 @@ test("should insert a banner with focus inside followed by a paragraph", async (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-powerbox").toHaveCount(1);
 
     await insertText(editor, "banner");
@@ -566,6 +571,8 @@ test("should insert a banner with focus inside followed by a paragraph", async (
         message: "shouldn't be possible to add a banner inside a banner",
     });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -887,6 +894,9 @@ test("should insert a banner with focus inside followed by a paragraph", async (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

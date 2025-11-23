@@ -1,7 +1,12 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* data_recycle
 # 
+=======
+# * data_recycle
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Wil Odoo, 2024
 # Ronald Kung, 2025
@@ -97,6 +102,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Ujjawal Pathak, 2025
 >>>>>>> upstream/18.0
@@ -371,11 +377,17 @@
 # Ujjawal Pathak, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+# Ujjawal Pathak, 2025
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -748,6 +760,18 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: hi\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+=======
+"PO-Revision-Date: 2025-11-19 14:30+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Hindi <https://translate.odoo.com/projects/odoo-18/"
+"data_recycle/hi/>\n"
+"Language: hi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: data_recycle
 #: model_terms:ir.ui.view,arch_db:data_recycle.notification
@@ -755,6 +779,11 @@ msgid ""
 "' recycling rule.<br/>\n"
 "You can validate those changes"
 msgstr ""
+<<<<<<< HEAD
+=======
+"यह 'रीसाइक्लिंग नियम' से जुड़ा हुआ है. \n"
+"आप इसमें किए गए बदलावों की जांच करके उन्हें मंज़ूरी दे सकते हैं"
+>>>>>>> upstream/18.0
 
 #. module: data_recycle
 #. odoo-python
@@ -765,7 +794,11 @@ msgstr ""
 #. module: data_recycle
 #: model_terms:ir.ui.view,arch_db:data_recycle.view_data_merge_model_form
 msgid "<span class=\"me-1\">Every</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"me-1\">हर</span>"
+>>>>>>> upstream/18.0
 
 #. module: data_recycle
 #: model:ir.model.fields,field_description:data_recycle.field_data_recycle_model__active
@@ -776,7 +809,11 @@ msgstr "सक्रिय"
 #. module: data_recycle
 #: model:ir.model.fields.selection,name:data_recycle.selection__data_recycle_model__recycle_action__archive
 msgid "Archive"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "संग्रहित करें"
+>>>>>>> upstream/18.0
 
 #. module: data_recycle
 #: model:ir.model.fields.selection,name:data_recycle.selection__data_recycle_model__recycle_mode__automatic
@@ -853,7 +890,11 @@ msgid "Automatic"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऑटोमैटिक"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऑटोमैटिक"
 >>>>>>> upstream/18.0
@@ -1085,7 +1126,11 @@ msgstr "कॉन्फ़िगरेशन"
 #: model_terms:ir.actions.act_window,help:data_recycle.action_data_recycle_record
 #: model_terms:ir.actions.act_window,help:data_recycle.action_data_recycle_record_notification
 msgid "Configure rules to identify records to clean"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रिकॉर्ड को साफ़ करने के लिए, उन्हें पहचानने वाले नियम कॉन्फ़िगर करें"
+>>>>>>> upstream/18.0
 
 #. module: data_recycle
 #: model:ir.model.fields,field_description:data_recycle.field_data_recycle_model__create_uid
@@ -1182,7 +1227,11 @@ msgid "Created on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इस तारीख को बनाया गया"
+>>>>>>> upstream/18.0
 =======
 msgstr "इस तारीख को बनाया गया"
 >>>>>>> upstream/18.0
@@ -1442,7 +1491,11 @@ msgstr "इस तारीख को बनाया गया"
 #. module: data_recycle
 #: model:ir.ui.menu,name:data_recycle.menu_data_cleaning_root
 msgid "Data Cleaning"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "डेटा क्लिनिंग"
+>>>>>>> upstream/18.0
 
 #. module: data_recycle
 #: model:ir.actions.server,name:data_recycle.ir_cron_clean_records_ir_actions_server
@@ -1544,7 +1597,11 @@ msgid "Days"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "दिन"
+>>>>>>> upstream/18.0
 =======
 msgstr "दिन"
 >>>>>>> upstream/18.0
@@ -1904,7 +1961,11 @@ msgid "Discard"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "खारिज करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "खारिज करें"
 >>>>>>> upstream/18.0
@@ -2164,7 +2225,11 @@ msgstr "खारिज करें"
 #. module: data_recycle
 #: model_terms:ir.ui.view,arch_db:data_recycle.view_data_recycle_record_search
 msgid "Discarded"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "खारिज किया गया"
+>>>>>>> upstream/18.0
 
 #. module: data_recycle
 #: model:ir.model.fields,field_description:data_recycle.field_data_recycle_model__display_name
@@ -2261,7 +2326,11 @@ msgid "Display Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "डिस्प्ले नाम"
+>>>>>>> upstream/18.0
 =======
 msgstr "डिस्प्ले नाम"
 >>>>>>> upstream/18.0
@@ -2545,7 +2614,11 @@ msgstr ""
 #. module: data_recycle
 #: model:ir.model.fields,field_description:data_recycle.field_data_recycle_model__domain
 msgid "Filter"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "फ़िल्टर"
+>>>>>>> upstream/18.0
 
 #. module: data_recycle
 #: model:ir.model.fields,field_description:data_recycle.field_data_recycle_model__id
@@ -2642,7 +2715,11 @@ msgid "ID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आईडी"
+>>>>>>> upstream/18.0
 =======
 msgstr "आईडी"
 >>>>>>> upstream/18.0
@@ -2925,7 +3002,11 @@ msgstr ""
 #. module: data_recycle
 #: model:ir.model.fields,field_description:data_recycle.field_data_recycle_model__last_notification
 msgid "Last Notification"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आखिरी सूचना"
+>>>>>>> upstream/18.0
 
 #. module: data_recycle
 #: model:ir.model.fields,field_description:data_recycle.field_data_recycle_model__write_uid
@@ -3013,7 +3094,11 @@ msgid "Last Updated by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इन्होंने आखिरी बार अपडेट किया"
+>>>>>>> upstream/18.0
 =======
 msgstr "इन्होंने आखिरी बार अपडेट किया"
 >>>>>>> upstream/18.0
@@ -3347,7 +3432,11 @@ msgid "Last Updated on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आखिरी बार अपडेट हुआ"
+>>>>>>> upstream/18.0
 =======
 msgstr "आखिरी बार अपडेट हुआ"
 >>>>>>> upstream/18.0
@@ -3685,7 +3774,11 @@ msgid "Manual"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मैन्युअल"
+>>>>>>> upstream/18.0
 =======
 msgstr "मैन्युअल"
 >>>>>>> upstream/18.0
@@ -4028,7 +4121,11 @@ msgid "Model"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मॉडल"
+>>>>>>> upstream/18.0
 =======
 msgstr "मॉडल"
 >>>>>>> upstream/18.0
@@ -4389,7 +4486,11 @@ msgid "Model Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मॉडल नाम"
+>>>>>>> upstream/18.0
 =======
 msgstr "मॉडल नाम"
 >>>>>>> upstream/18.0
@@ -4717,7 +4818,11 @@ msgid "Months"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "महीने"
+>>>>>>> upstream/18.0
 =======
 msgstr "महीने"
 >>>>>>> upstream/18.0
@@ -4956,32 +5061,56 @@ msgstr "नाम"
 #: model_terms:ir.actions.act_window,help:data_recycle.action_data_recycle_record
 #: model_terms:ir.actions.act_window,help:data_recycle.action_data_recycle_record_notification
 msgid "No cleaning suggestions"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सफ़ाई के लिए कोई सुझाव नहीं"
+>>>>>>> upstream/18.0
 
 #. module: data_recycle
 #: model:ir.model.fields,field_description:data_recycle.field_data_recycle_model__notify_frequency
 msgid "Notify"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सूचना दें"
+>>>>>>> upstream/18.0
 
 #. module: data_recycle
 #: model:ir.model.fields,field_description:data_recycle.field_data_recycle_model__notify_frequency_period
 msgid "Notify Frequency Period"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सूचना देने के लिए तय की गई समय-सीमा"
+>>>>>>> upstream/18.0
 
 #. module: data_recycle
 #: model:ir.model.fields,field_description:data_recycle.field_data_recycle_model__notify_user_ids
 msgid "Notify Users"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "उपयोगकर्ताओं को सूचित करें"
+>>>>>>> upstream/18.0
 
 #. module: data_recycle
 #: model:ir.model.fields,field_description:data_recycle.field_data_recycle_record__res_id
 msgid "Record ID"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रिकॉर्ड आईडी"
+>>>>>>> upstream/18.0
 
 #. module: data_recycle
 #: model:ir.model.fields,field_description:data_recycle.field_data_recycle_record__name
 msgid "Record Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रिकॉर्ड का नाम"
+>>>>>>> upstream/18.0
 
 #. module: data_recycle
 #: model_terms:ir.ui.view,arch_db:data_recycle.view_data_merge_model_form
@@ -5069,7 +5198,11 @@ msgid "Records"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रिकॉर्ड करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "रिकॉर्ड करें"
 >>>>>>> upstream/18.0
@@ -5448,7 +5581,11 @@ msgid "Rules"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "नियम"
+>>>>>>> upstream/18.0
 =======
 msgstr "नियम"
 >>>>>>> upstream/18.0
@@ -5745,7 +5882,11 @@ msgid "Run Now"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अभी रन करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "अभी रन करें"
 >>>>>>> upstream/18.0
@@ -5983,7 +6124,11 @@ msgstr ""
 #. module: data_recycle
 #: model:ir.model.constraint,message:data_recycle.constraint_data_recycle_model_check_notif_freq
 msgid "The notification frequency should be greater than 0"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सूचना की फ़्रीक्वेंसी 0 से ज़्यादा होनी चाहिए"
+>>>>>>> upstream/18.0
 
 #. module: data_recycle
 #. odoo-python
@@ -6006,7 +6151,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/data_recycle/static/src/views/data_recycle_list_view.xml:0
 msgid "Unselect"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "चुना हुआ हटाएं"
+>>>>>>> upstream/18.0
 
 #. module: data_recycle
 #. odoo-javascript
@@ -6092,7 +6241,11 @@ msgid "Validate"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पुष्टि करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "पुष्टि करें"
 >>>>>>> upstream/18.0
@@ -6340,7 +6493,11 @@ msgstr ""
 #: model:ir.model.fields.selection,name:data_recycle.selection__data_recycle_model__notify_frequency_period__weeks
 #: model:ir.model.fields.selection,name:data_recycle.selection__data_recycle_model__time_field_delta_unit__weeks
 msgid "Weeks"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सप्ताह"
+>>>>>>> upstream/18.0
 
 #. module: data_recycle
 #: model:ir.model.fields.selection,name:data_recycle.selection__data_recycle_model__time_field_delta_unit__years
@@ -6418,7 +6575,11 @@ msgid "Years"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "साल"
+>>>>>>> upstream/18.0
 =======
 msgstr "साल"
 >>>>>>> upstream/18.0
@@ -6718,7 +6879,11 @@ msgid "here"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "यहां"
+>>>>>>> upstream/18.0
 =======
 msgstr "यहां"
 >>>>>>> upstream/18.0
@@ -6951,4 +7116,8 @@ msgstr "यहां"
 #. module: data_recycle
 #: model_terms:ir.ui.view,arch_db:data_recycle.notification
 msgid "records to clean with the '"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रिकॉर्ड साफ करने के लिए '"
+>>>>>>> upstream/18.0

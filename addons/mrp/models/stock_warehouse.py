@@ -286,11 +286,14 @@ class Orderpoint(models.Model):
     def check_product_is_not_kit(self):
         domain = [
 <<<<<<< HEAD
+<<<<<<< HEAD
             '|', ('product_id', 'in', self.product_id.ids),
                  '&', ('product_id', '=', False),
                       ('product_tmpl_id', 'in', self.product_id.product_tmpl_id.ids),
             ('type', '=', 'phantom'),
 =======
+=======
+>>>>>>> upstream/18.0
             '&',
                 '|', ('product_id', 'in', self.product_id.ids),
                     '&', ('product_id', '=', False),
@@ -299,6 +302,9 @@ class Orderpoint(models.Model):
                 '|',
                     ('company_id', 'in', self.company_id.ids),
                     ('company_id', '=', False),
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         ]
         if self.env['mrp.bom'].search_count(domain, limit=1):
