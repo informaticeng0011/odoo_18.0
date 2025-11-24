@@ -1,8 +1,13 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* pos_adyen
 # 
+=======
+# * pos_adyen
+#
+>>>>>>> upstream/18.0
 =======
 # * pos_adyen
 #
@@ -12,7 +17,11 @@
 # Wil Odoo, 2025
 # Manuela Silva <mmsrs@sky.com>, 2025
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
@@ -21,6 +30,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Manuela Silva <mmsrs@sky.com>, 2025\n"
@@ -31,6 +41,8 @@ msgstr ""
 "Language: pt\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-11-10 14:59+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Portuguese <https://translate.odoo.com/projects/odoo-18/"
@@ -42,13 +54,20 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % "
 "1000000 == 0) ? 1 : 2);\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: pos_adyen
 #: model_terms:ir.ui.view,arch_db:pos_adyen.res_config_settings_view_form
 msgid "Add tip through payment terminal (Adyen)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Adicionar gorjeta através do terminal de pagamento (Adyen)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Adicionar gorjeta através do terminal de pagamento (Adyen)"
 >>>>>>> upstream/18.0
@@ -57,7 +76,11 @@ msgstr "Adicionar gorjeta através do terminal de pagamento (Adyen)"
 #: model:ir.model.fields,field_description:pos_adyen.field_pos_payment_method__adyen_api_key
 msgid "Adyen API key"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Chave de API do Adyen"
+>>>>>>> upstream/18.0
 =======
 msgstr "Chave de API do Adyen"
 >>>>>>> upstream/18.0
@@ -67,7 +90,11 @@ msgstr "Chave de API do Adyen"
 #: code:addons/pos_adyen/static/src/app/payment_adyen.js:0
 msgid "Adyen Error"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Erro do Adyen"
+>>>>>>> upstream/18.0
 =======
 msgstr "Erro do Adyen"
 >>>>>>> upstream/18.0
@@ -76,7 +103,11 @@ msgstr "Erro do Adyen"
 #: model:ir.model.fields,field_description:pos_adyen.field_pos_payment_method__adyen_latest_response
 msgid "Adyen Latest Response"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Resposta mais recente do Adyen"
+>>>>>>> upstream/18.0
 =======
 msgstr "Resposta mais recente do Adyen"
 >>>>>>> upstream/18.0
@@ -85,7 +116,11 @@ msgstr "Resposta mais recente do Adyen"
 #: model:ir.model.fields,field_description:pos_adyen.field_pos_payment_method__adyen_terminal_identifier
 msgid "Adyen Terminal Identifier"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Identificador do terminal Adyen"
+>>>>>>> upstream/18.0
 =======
 msgstr "Identificador do terminal Adyen"
 >>>>>>> upstream/18.0
@@ -94,7 +129,11 @@ msgstr "Identificador do terminal Adyen"
 #: model:ir.model.fields,field_description:pos_adyen.field_pos_payment_method__adyen_test_mode
 msgid "Adyen Test Mode"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Modo de teste do Adyen"
+>>>>>>> upstream/18.0
 =======
 msgstr "Modo de teste do Adyen"
 >>>>>>> upstream/18.0
@@ -104,7 +143,11 @@ msgstr "Modo de teste do Adyen"
 #: code:addons/pos_adyen/static/src/app/payment_adyen.js:0
 msgid "An unexpected error occurred. Message from Adyen: %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Houve um erro inesperado. Mensagem do Adyen: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Houve um erro inesperado. Mensagem do Adyen: %s"
 >>>>>>> upstream/18.0
@@ -113,7 +156,11 @@ msgstr "Houve um erro inesperado. Mensagem do Adyen: %s"
 #: model:ir.model.fields,field_description:pos_adyen.field_pos_config__adyen_ask_customer_for_tip
 msgid "Ask Customers For Tip"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pedir gorjeta aos clientes"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pedir gorjeta aos clientes"
 >>>>>>> upstream/18.0
@@ -123,7 +170,11 @@ msgstr "Pedir gorjeta aos clientes"
 #: code:addons/pos_adyen/static/src/app/payment_adyen.js:0
 msgid "Authentication failed. Please check your Adyen credentials."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "A autenticação falhou. Verifique as suas credenciais do Adyen."
+>>>>>>> upstream/18.0
 =======
 msgstr "A autenticação falhou. Verifique as suas credenciais do Adyen."
 >>>>>>> upstream/18.0
@@ -136,6 +187,11 @@ msgid ""
 "terminal."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"O cancelamento do pagamento falhou. Cancele manualmente no terminal de "
+"pagamento."
+>>>>>>> upstream/18.0
 =======
 "O cancelamento do pagamento falhou. Cancele manualmente no terminal de "
 "pagamento."
@@ -178,7 +234,11 @@ msgstr ""
 #: code:addons/pos_adyen/static/src/app/payment_adyen.js:0
 msgid "Message from Adyen: %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mensagem do Adyen: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mensagem do Adyen: %s"
 >>>>>>> upstream/18.0
@@ -190,6 +250,11 @@ msgid ""
 "Please configure a tip product for POS %s to support tipping with Adyen."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Configure um produto de gorjeta para o PDV %s para permitir gorjetas com "
+"Adyen."
+>>>>>>> upstream/18.0
 =======
 "Configure um produto de gorjeta para o PDV %s para permitir gorjetas com "
 "Adyen."
@@ -209,7 +274,11 @@ msgstr "Métodos de Pagamento do Ponto de Venda"
 #: model:ir.model.fields,field_description:pos_adyen.field_res_config_settings__pos_adyen_ask_customer_for_tip
 msgid "Pos Adyen Ask Customer For Tip"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "PDV Adyen - Pedir gorjeta ao cliente"
+>>>>>>> upstream/18.0
 =======
 msgstr "PDV Adyen - Pedir gorjeta ao cliente"
 >>>>>>> upstream/18.0
@@ -218,7 +287,11 @@ msgstr "PDV Adyen - Pedir gorjeta ao cliente"
 #: model:ir.model.fields,help:pos_adyen.field_pos_payment_method__adyen_test_mode
 msgid "Run transactions in the test environment."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Execute transações no ambiente de testes."
+>>>>>>> upstream/18.0
 =======
 msgstr "Execute transações no ambiente de testes."
 >>>>>>> upstream/18.0
@@ -238,6 +311,11 @@ msgid ""
 "Terminal %(terminal)s is already used on payment method %(payment_method)s."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"O terminal %(terminal)s já está sendo usado na forma de pagamento "
+"%(payment_method)s."
+>>>>>>> upstream/18.0
 =======
 "O terminal %(terminal)s já está sendo usado na forma de pagamento "
 "%(payment_method)s."
@@ -255,6 +333,11 @@ msgid ""
 "to-get-the-api-key/#description"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Utilizado ao conectar-se ao Adyen: https://docs.adyen.com/user-management/"
+"how-to-get-the-api-key/#description"
+>>>>>>> upstream/18.0
 =======
 "Utilizado ao conectar-se ao Adyen: https://docs.adyen.com/user-management/"
 "how-to-get-the-api-key/#description"
@@ -264,7 +347,11 @@ msgstr ""
 #: model:ir.model.fields,help:pos_adyen.field_pos_payment_method__adyen_terminal_identifier
 msgid "[Terminal model]-[Serial number], for example: P400Plus-123456789"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "[Modelo do terminal]-[Número de série], por exemplo: P400Plus-123456789"
+>>>>>>> upstream/18.0
 =======
 msgstr "[Modelo do terminal]-[Número de série], por exemplo: P400Plus-123456789"
 >>>>>>> upstream/18.0

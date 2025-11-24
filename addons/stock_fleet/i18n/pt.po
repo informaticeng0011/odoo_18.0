@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* stock_fleet
 # 
 # Translators:
@@ -8,6 +9,8 @@
 # Wil Odoo, 2025
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 # * stock_fleet
 #
 # Translators:
@@ -15,12 +18,16 @@
 # Wil Odoo, 2025
 #
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-25 07:49+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "PO-Revision-Date: 2024-09-29 00:00+0000\n"
 "Last-Translator: Wil Odoo, 2025\n"
@@ -31,6 +38,8 @@ msgstr ""
 "Language: pt\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-11-21 02:37+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Portuguese <https://translate.odoo.com/projects/odoo-18/"
@@ -42,6 +51,9 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % "
 "1000000 == 0) ? 1 : 2);\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: stock_fleet
@@ -55,7 +67,11 @@ msgstr "%(display_name)s (%(load_capacity)s)"
 #: code:addons/stock_fleet/models/fleet_vehicle_model.py:0
 msgid "%(volume_capacity)s %(volume_uom)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(volume_capacity)s %(volume_uom)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(volume_capacity)s %(volume_uom)s"
 >>>>>>> upstream/18.0
@@ -65,7 +81,11 @@ msgstr "%(volume_capacity)s %(volume_uom)s"
 #: code:addons/stock_fleet/models/fleet_vehicle_model.py:0
 msgid "%(weight_capacity)s %(weight_uom)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(weight_capacity)s %(weight_uom)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(weight_capacity)s %(weight_uom)s"
 >>>>>>> upstream/18.0
@@ -74,7 +94,11 @@ msgstr "%(weight_capacity)s %(weight_uom)s"
 #: model_terms:ir.ui.view,arch_db:stock_fleet.report_picking_batch_inherit
 msgid "<strong>Dock:</strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Doca:</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Doca:</strong>"
 >>>>>>> upstream/18.0
@@ -83,7 +107,11 @@ msgstr "<strong>Doca:</strong>"
 #: model_terms:ir.ui.view,arch_db:stock_fleet.report_picking_batch_inherit
 msgid "<strong>Vehicle Category:</strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Categoria de veículo:</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Categoria de veículo:</strong>"
 >>>>>>> upstream/18.0
@@ -92,7 +120,11 @@ msgstr "<strong>Categoria de veículo:</strong>"
 #: model_terms:ir.ui.view,arch_db:stock_fleet.report_picking_batch_inherit
 msgid "<strong>Vehicle:</strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Veículo:</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Veículo:</strong>"
 >>>>>>> upstream/18.0
@@ -102,7 +134,11 @@ msgstr "<strong>Veículo:</strong>"
 #: model_terms:ir.ui.view,arch_db:stock_fleet.stock_picking_batch_pivot
 msgid "Batch Transfer"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Transferência em lote"
+>>>>>>> upstream/18.0
 =======
 msgstr "Transferência em lote"
 >>>>>>> upstream/18.0
@@ -111,7 +147,11 @@ msgstr "Transferência em lote"
 #: model_terms:ir.ui.view,arch_db:stock_fleet.stock_picking_type_kanban_inherit_stock_fleet
 msgid "Batches by Route"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Lotes por rota"
+>>>>>>> upstream/18.0
 =======
 msgstr "Lotes por rota"
 >>>>>>> upstream/18.0
@@ -125,7 +165,11 @@ msgstr "Calendário"
 #: model:ir.model,name:stock_fleet.model_fleet_vehicle_model_category
 msgid "Category of the model"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Categoria do modelo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Categoria do modelo"
 >>>>>>> upstream/18.0
@@ -134,7 +178,11 @@ msgstr "Categoria do modelo"
 #: model_terms:ir.ui.view,arch_db:stock_fleet.stock_picking_type_kanban_inherit_stock_fleet
 msgid "Dock Dispatching"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Despacho em docas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Despacho em docas"
 >>>>>>> upstream/18.0
@@ -144,7 +192,11 @@ msgstr "Despacho em docas"
 #: model_terms:ir.ui.view,arch_db:stock_fleet.stock_picking_batch_filter
 msgid "Dock Location"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Local da doca"
+>>>>>>> upstream/18.0
 =======
 msgstr "Local da doca"
 >>>>>>> upstream/18.0
@@ -163,7 +215,11 @@ msgstr "Data Final"
 #: model_terms:ir.ui.view,arch_db:stock_fleet.stock_picking_batch_graph
 msgid "Graph View"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Visualização de gráfico"
+>>>>>>> upstream/18.0
 =======
 msgstr "Visualização de gráfico"
 >>>>>>> upstream/18.0
@@ -177,7 +233,11 @@ msgstr "Localizações de Inventário"
 #: model:ir.model.fields,field_description:stock_fleet.field_stock_location__is_a_dock
 msgid "Is a Dock Location"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "É um local de doca"
+>>>>>>> upstream/18.0
 =======
 msgstr "É um local de doca"
 >>>>>>> upstream/18.0
@@ -186,7 +246,11 @@ msgstr "É um local de doca"
 #: model_terms:ir.ui.view,arch_db:stock_fleet.stock_picking_type_kanban_inherit_stock_fleet
 msgid "Manage Batches"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gerenciar lotes"
+>>>>>>> upstream/18.0
 =======
 msgstr "Gerenciar lotes"
 >>>>>>> upstream/18.0
@@ -195,7 +259,11 @@ msgstr "Gerenciar lotes"
 #: model:ir.model.fields,field_description:stock_fleet.field_fleet_vehicle_model_category__volume_capacity
 msgid "Max Volume"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Volume máx."
+>>>>>>> upstream/18.0
 =======
 msgstr "Volume máx."
 >>>>>>> upstream/18.0
@@ -204,7 +272,11 @@ msgstr "Volume máx."
 #: model:ir.model.fields,field_description:stock_fleet.field_stock_picking_batch__vehicle_volume_capacity
 msgid "Max Volume (m³)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Volume máx. (m³)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Volume máx. (m³)"
 >>>>>>> upstream/18.0
@@ -213,7 +285,11 @@ msgstr "Volume máx. (m³)"
 #: model:ir.model.fields,field_description:stock_fleet.field_fleet_vehicle_model_category__weight_capacity
 msgid "Max Weight"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Peso máximo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Peso máximo"
 >>>>>>> upstream/18.0
@@ -222,7 +298,11 @@ msgstr "Peso máximo"
 #: model_terms:ir.ui.view,arch_db:stock_fleet.stock_picking_batch_filter
 msgid "Next 7 Days"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Próximos 7 dias"
+>>>>>>> upstream/18.0
 =======
 msgstr "Próximos 7 dias"
 >>>>>>> upstream/18.0
@@ -236,7 +316,11 @@ msgstr "Tipo de Operação"
 #: model_terms:ir.ui.view,arch_db:stock_fleet.stock_picking_batch_filter
 msgid "Own Fleet"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Frota própria"
+>>>>>>> upstream/18.0
 =======
 msgstr "Frota própria"
 >>>>>>> upstream/18.0
@@ -255,7 +339,11 @@ msgstr "Sequência"
 #: model_terms:ir.ui.view,arch_db:stock_fleet.vpicktree
 msgid "Shipping Volume"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Volume da remessa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Volume da remessa"
 >>>>>>> upstream/18.0
@@ -264,7 +352,11 @@ msgstr "Volume da remessa"
 #: model_terms:ir.ui.view,arch_db:stock_fleet.vpicktree
 msgid "Shipping Weight"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Peso da remessa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Peso da remessa"
 >>>>>>> upstream/18.0
@@ -278,7 +370,11 @@ msgstr "Estatísticas"
 #: model_terms:ir.ui.view,arch_db:stock_fleet.stock_picking_batch_filter
 msgid "Third Party Carrier"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Transportadora terceirizada"
+>>>>>>> upstream/18.0
 =======
 msgstr "Transportadora terceirizada"
 >>>>>>> upstream/18.0
@@ -287,7 +383,11 @@ msgstr "Transportadora terceirizada"
 #: model_terms:ir.ui.view,arch_db:stock_fleet.stock_picking_batch_form
 msgid "Third Party Provider"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Provedor terceiro"
+>>>>>>> upstream/18.0
 =======
 msgstr "Provedor terceiro"
 >>>>>>> upstream/18.0
@@ -306,7 +406,11 @@ msgstr "Amanhã"
 #: model_terms:ir.ui.view,arch_db:stock_fleet.vpicktree
 msgid "Total Shipping Volume"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Volume total da remessa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Volume total da remessa"
 >>>>>>> upstream/18.0
@@ -315,7 +419,11 @@ msgstr "Volume total da remessa"
 #: model_terms:ir.ui.view,arch_db:stock_fleet.vpicktree
 msgid "Total Shipping Weight"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Peso total da remessa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Peso total da remessa"
 >>>>>>> upstream/18.0
@@ -334,7 +442,11 @@ msgstr "Transporte "
 #: model_terms:ir.ui.view,arch_db:stock_fleet.stock_picking_type_kanban_inherit_stock_fleet
 msgid "Transport Management"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gerenciamento de transporte"
+>>>>>>> upstream/18.0
 =======
 msgstr "Gerenciamento de transporte"
 >>>>>>> upstream/18.0
@@ -343,7 +455,11 @@ msgstr "Gerenciamento de transporte"
 #: model:ir.model.fields,field_description:stock_fleet.field_stock_picking_batch__vehicle_weight_capacity
 msgid "Vehcilce Payload Capacity"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Capacidade de carga útil do veículo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Capacidade de carga útil do veículo"
 >>>>>>> upstream/18.0
@@ -359,7 +475,11 @@ msgstr "Veículo"
 #: model_terms:ir.ui.view,arch_db:stock_fleet.stock_picking_batch_filter
 msgid "Vehicle Category"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Categoria do veículo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Categoria do veículo"
 >>>>>>> upstream/18.0
@@ -373,7 +493,11 @@ msgstr "Volume"
 #: model:ir.model.fields,field_description:stock_fleet.field_stock_picking_batch__used_volume_percentage
 msgid "Volume %"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Volume %"
+>>>>>>> upstream/18.0
 =======
 msgstr "Volume %"
 >>>>>>> upstream/18.0
@@ -383,7 +507,11 @@ msgstr "Volume %"
 #: model:ir.model.fields,field_description:stock_fleet.field_stock_picking_batch__volume_uom_name
 msgid "Volume unit of measure label"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Rótulo de unidade de medida de volume"
+>>>>>>> upstream/18.0
 =======
 msgstr "Rótulo de unidade de medida de volume"
 >>>>>>> upstream/18.0
@@ -397,7 +525,11 @@ msgstr "Peso"
 #: model:ir.model.fields,field_description:stock_fleet.field_stock_picking_batch__used_weight_percentage
 msgid "Weight %"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Peso %"
+>>>>>>> upstream/18.0
 =======
 msgstr "Peso %"
 >>>>>>> upstream/18.0
@@ -407,7 +539,11 @@ msgstr "Peso %"
 #: model:ir.model.fields,field_description:stock_fleet.field_stock_picking_batch__weight_uom_name
 msgid "Weight unit of measure label"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Etiqueta da unidade de medida de peso"
+>>>>>>> upstream/18.0
 =======
 msgstr "Etiqueta da unidade de medida de peso"
 >>>>>>> upstream/18.0
@@ -421,7 +557,11 @@ msgstr "Código Postal"
 #: model_terms:ir.ui.view,arch_db:stock_fleet.stock_picking_batch_form
 msgid "semi-truck"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "semirreboque"
+>>>>>>> upstream/18.0
 =======
 msgstr "semirreboque"
 >>>>>>> upstream/18.0

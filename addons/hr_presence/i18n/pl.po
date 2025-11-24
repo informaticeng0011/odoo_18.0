@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* hr_presence
 # 
 # Translators:
@@ -8,6 +9,8 @@
 # Marta Wacławek, 2025
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 # * hr_presence
 #
 # Translators:
@@ -15,12 +18,16 @@
 # Marta Wacławek, 2025
 #
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-16 13:40+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Marta Wacławek, 2025\n"
@@ -31,6 +38,8 @@ msgstr ""
 "Language: pl\n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-11-21 02:28+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Polish <https://translate.odoo.com/projects/odoo-18/"
@@ -43,6 +52,9 @@ msgstr ""
 "n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && "
 "n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_presence
@@ -50,7 +62,11 @@ msgstr ""
 #: code:addons/hr_presence/models/hr_employee.py:0
 msgid "%(name)s has been noted as %(state)s today"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(name)s został/a dzisiaj oznaczony/a jako %(state)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(name)s został/a dzisiaj oznaczony/a jako %(state)s"
 >>>>>>> upstream/18.0
@@ -68,7 +84,10 @@ msgid ""
 "            "
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "<div>\n"
 "                    Dzień dobry <t t-out=\"object.name or ''\">Abigail "
 "Peterson</t>,<br/><br/>\n"
@@ -83,6 +102,9 @@ msgstr ""
 "                    <br/>Z pozdrowieniami,<br/><br/>\n"
 "                </div>\n"
 "            "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_presence
@@ -97,7 +119,11 @@ msgstr "Nieobecny(a)"
 #: model:ir.actions.server,name:hr_presence.action_hr_employee_presence_log
 msgid "Add a log note"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dodaj notatkę"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dodaj notatkę"
 >>>>>>> upstream/18.0
@@ -126,7 +152,11 @@ msgstr "Utwórz Uid"
 #: model:ir.actions.server,name:hr_presence.action_hr_employee_presence_time_off
 msgid "Create a Time Off"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stwórz urlop"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stwórz urlop"
 >>>>>>> upstream/18.0
@@ -161,6 +191,12 @@ msgid ""
 "Thanks"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Dzień dobry, zauważyliśmy, że nie ma Cię w pracy, a żaden wniosek o urlop do "
+"nas nie wpłynął. Jeśli to nasze przeoczenie, serdecznie przepraszamy. "
+"Niezwłocznie kontaktuj się ze swoim menadżerem lub HR. Dziękujemy."
+>>>>>>> upstream/18.0
 =======
 "Dzień dobry, zauważyliśmy, że nie ma Cię w pracy, a żaden wniosek o urlop do "
 "nas nie wpłynął. Jeśli to nasze przeoczenie, serdecznie przepraszamy. "
@@ -197,7 +233,11 @@ msgstr "Ip połączony"
 #: model:ir.model.fields,field_description:hr_presence.field_hr_employee_public__manually_set_presence
 msgid "Manually Set Presence"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Skonfiguruj obecność ręcznie"
+>>>>>>> upstream/18.0
 =======
 msgstr "Skonfiguruj obecność ręcznie"
 >>>>>>> upstream/18.0
@@ -250,7 +290,11 @@ msgstr "Wyślij SMS"
 #: model:ir.actions.server,name:hr_presence.action_hr_employee_presence_sms
 msgid "Send a SMS"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Wyślij SMS"
+>>>>>>> upstream/18.0
 =======
 msgstr "Wyślij SMS"
 >>>>>>> upstream/18.0
@@ -268,7 +312,11 @@ msgstr ""
 #: model:ir.actions.server,name:hr_presence.action_hr_employee_presence_absent
 msgid "Set Absent"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nieobecny"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nieobecny"
 >>>>>>> upstream/18.0
@@ -277,7 +325,11 @@ msgstr "Nieobecny"
 #: model:ir.actions.server,name:hr_presence.action_hr_employee_presence_present
 msgid "Set Present"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Obecny"
+>>>>>>> upstream/18.0
 =======
 msgstr "Obecny"
 >>>>>>> upstream/18.0
@@ -292,7 +344,11 @@ msgstr "Niespodziewana absencja"
 #: code:addons/hr_presence/models/hr_employee.py:0
 msgid "Unplanned Absence"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nieplanowana nieobecność"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nieplanowana nieobecność"
 >>>>>>> upstream/18.0
@@ -311,7 +367,10 @@ msgid ""
 "Thank you for your prompt attention to this matter."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "Zauważyliśmy, że aktualnie nie ma Cię w pracy oraz nie posiadamy żadnego "
 "wniosku o urlop na ten dzień. Jeśli ta nieobecność jest spowodowana "
 "przeoczeniem z naszej strony, serdecznie przepraszamy za wszelkie "
@@ -320,6 +379,9 @@ msgstr ""
 "nieobecność. Jeśli masz jakieś pytania lub potrzebujesz pomocy, nie wahaj "
 "się skontaktować ze swoim menadżerem lub działem HR.\n"
 "Z góry dziękujemy za szybką reakcję."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_presence

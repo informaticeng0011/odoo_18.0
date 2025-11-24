@@ -1,8 +1,13 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* payment
 # 
+=======
+# * payment
+#
+>>>>>>> upstream/18.0
 =======
 # * payment
 #
@@ -29,6 +34,7 @@
 # Ertuğrul Güreş <ertugrulg@projetgrup.com>, 2025
 # Hakan Türkün, 2025
 # Melih Melik Sonmez, 2025
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -567,10 +573,15 @@
 # Deniz Guvener_Odoo <degu@odoo.com>, 2025
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
+=======
+# Deniz Guvener_Odoo <degu@odoo.com>, 2025
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1400,6 +1411,8 @@ msgstr ""
 "Language: tr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-05-07 20:37+0000\n"
 "PO-Revision-Date: 2025-11-21 02:34+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
@@ -1411,6 +1424,9 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: payment
@@ -1422,7 +1438,11 @@ msgstr " Getirilen Veriler"
 #: model_terms:ir.ui.view,arch_db:payment.availability_report_records
 msgid "(ID:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "(ID:"
+>>>>>>> upstream/18.0
 =======
 msgstr "(ID:"
 >>>>>>> upstream/18.0
@@ -1431,7 +1451,11 @@ msgstr "(ID:"
 #: model:payment.method,name:payment.payment_method_7eleven
 msgid "7Eleven"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "7Eleven"
+>>>>>>> upstream/18.0
 =======
 msgstr "7Eleven"
 >>>>>>> upstream/18.0
@@ -1457,7 +1481,10 @@ msgid ""
 "                                and should be tested on a test database first."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "<i class=\"fa fa-exclamation-triangle\"/> Bu özellikler şu şekilde "
 "ayarlanır\n"
 "                                sağlayıcıların davranışları ile "
@@ -1466,6 +1493,9 @@ msgstr ""
 "bir değişiklik hatalara neden olabilir\n"
 "                                ve önce bir test veritabanında test "
 "edilmelidir."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: payment
@@ -1482,11 +1512,17 @@ msgid ""
 " partial amount.\"/>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "<i class=\"fa fa-info-circle oe_inline\" invisible="
 "\"support_partial_capture != 'full_only'\" title=\"Some of the transactions "
 "you intend to capture can only be captured in full. Handle the transactions "
 "individually to capture a partial amount.\"/>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: payment
@@ -1496,6 +1532,11 @@ msgid ""
 "toggle=\"tooltip\" data-bs-placement=\"top\" data-bs-delay=\"0\"/>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-trash\" title=\"Delete payment method\" data-bs-toggle="
+"\"tooltip\" data-bs-placement=\"top\" data-bs-delay=\"0\"/>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-trash\" title=\"Delete payment method\" data-bs-toggle="
 "\"tooltip\" data-bs-placement=\"top\" data-bs-delay=\"0\"/>"
@@ -1568,6 +1609,10 @@ msgstr "<span><i class=\"fa fa-lock\"/> Tarafından emniyete alınmış</span>"
 msgid "<strong><i class=\"fa fa-file-text\"/> Show availability report</strong>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<strong><i class=\"fa fa-file-text\"/> Müsaitlik raporunu göster</strong>"
+>>>>>>> upstream/18.0
 =======
 "<strong><i class=\"fa fa-file-text\"/> Müsaitlik raporunu göster</strong>"
 >>>>>>> upstream/18.0
@@ -1576,7 +1621,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:payment.no_pms_available_warning
 msgid "<strong><i class=\"oi oi-arrow-right\"/> Payment Methods</strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong><i class=\"oi oi-arrow-right\"/> Ödeme Yöntemleri</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong><i class=\"oi oi-arrow-right\"/> Ödeme Yöntemleri</strong>"
 >>>>>>> upstream/18.0
@@ -1585,7 +1634,11 @@ msgstr "<strong><i class=\"oi oi-arrow-right\"/> Ödeme Yöntemleri</strong>"
 #: model_terms:ir.ui.view,arch_db:payment.no_pms_available_warning
 msgid "<strong><i class=\"oi oi-arrow-right\"/> Payment Providers</strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong><i class=\"oi oi-arrow-right\"/> Ödeme Sağlayıcıları</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong><i class=\"oi oi-arrow-right\"/> Ödeme Sağlayıcıları</strong>"
 >>>>>>> upstream/18.0
@@ -1594,7 +1647,11 @@ msgstr "<strong><i class=\"oi oi-arrow-right\"/> Ödeme Sağlayıcıları</stron
 #: model_terms:ir.ui.view,arch_db:payment.no_pms_available_warning
 msgid "<strong>No payment method available</strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Ödeme yöntemi mevcut değil</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Ödeme yöntemi mevcut değil</strong>"
 >>>>>>> upstream/18.0
@@ -1689,7 +1746,11 @@ msgstr ""
 #: model:payment.method,name:payment.payment_method_ach_direct_debit
 msgid "ACH Direct Debit"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ACH Doğrudan Borçlandırma"
+>>>>>>> upstream/18.0
 =======
 msgstr "ACH Doğrudan Borçlandırma"
 >>>>>>> upstream/18.0
@@ -1703,7 +1764,11 @@ msgstr ""
 #: model:payment.method,name:payment.payment_method_abitab
 msgid "Abitab"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Abitab"
+>>>>>>> upstream/18.0
 =======
 msgstr "Abitab"
 >>>>>>> upstream/18.0
@@ -1750,7 +1815,11 @@ msgstr "Adyen"
 #: model:payment.method,name:payment.payment_method_affirm
 msgid "Affirm"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Onaylayın"
+>>>>>>> upstream/18.0
 =======
 msgstr "Onaylayın"
 >>>>>>> upstream/18.0
@@ -1759,7 +1828,11 @@ msgstr "Onaylayın"
 #: model:payment.method,name:payment.payment_method_afterpay_riverty
 msgid "AfterPay"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "AfterPay"
+>>>>>>> upstream/18.0
 =======
 msgstr "AfterPay"
 >>>>>>> upstream/18.0
@@ -1768,7 +1841,11 @@ msgstr "AfterPay"
 #: model:payment.method,name:payment.payment_method_afterpay
 msgid "Afterpay"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Afterpay"
+>>>>>>> upstream/18.0
 =======
 msgstr "Afterpay"
 >>>>>>> upstream/18.0
@@ -1777,7 +1854,11 @@ msgstr "Afterpay"
 #: model:payment.method,name:payment.payment_method_akulaku
 msgid "Akulaku PayLater"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Akulaku PayLater"
+>>>>>>> upstream/18.0
 =======
 msgstr "Akulaku PayLater"
 >>>>>>> upstream/18.0
@@ -1786,7 +1867,11 @@ msgstr "Akulaku PayLater"
 #: model:payment.method,name:payment.payment_method_alipay_hk
 msgid "AliPayHK"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "AliPayHK"
+>>>>>>> upstream/18.0
 =======
 msgstr "AliPayHK"
 >>>>>>> upstream/18.0
@@ -1800,7 +1885,11 @@ msgstr "Alipay"
 #: model:payment.method,name:payment.payment_method_alipay_plus
 msgid "Alipay+"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Alipay+"
+>>>>>>> upstream/18.0
 =======
 msgstr "Alipay+"
 >>>>>>> upstream/18.0
@@ -1819,7 +1908,11 @@ msgstr "Ödeme Yöntemlerini Kaydetmeye İzin Ver"
 #: model:payment.method,name:payment.payment_method_alma
 msgid "Alma"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Alma"
+>>>>>>> upstream/18.0
 =======
 msgstr "Alma"
 >>>>>>> upstream/18.0
@@ -1828,7 +1921,11 @@ msgstr "Alma"
 #: model:ir.model.fields,field_description:payment.field_payment_capture_wizard__captured_amount
 msgid "Already Captured"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Çoktan Yakalandı"
+>>>>>>> upstream/18.0
 =======
 msgstr "Çoktan Yakalandı"
 >>>>>>> upstream/18.0
@@ -1837,7 +1934,11 @@ msgstr "Çoktan Yakalandı"
 #: model:ir.model.fields,field_description:payment.field_payment_capture_wizard__voided_amount
 msgid "Already Voided"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zaten Geçersiz"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zaten Geçersiz"
 >>>>>>> upstream/18.0
@@ -1846,7 +1947,11 @@ msgstr "Zaten Geçersiz"
 #: model:payment.method,name:payment.payment_method_amazon_pay
 msgid "Amazon Pay"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Amazon Pay"
+>>>>>>> upstream/18.0
 =======
 msgstr "Amazon Pay"
 >>>>>>> upstream/18.0
@@ -1860,7 +1965,11 @@ msgstr "Amazon Ödeme Hizmetleri"
 #: model:payment.method,name:payment.payment_method_amex
 msgid "American Express"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "American Express"
+>>>>>>> upstream/18.0
 =======
 msgstr "American Express"
 >>>>>>> upstream/18.0
@@ -1883,7 +1992,11 @@ msgstr "Maksimum Tutar"
 #: model:ir.model.fields,field_description:payment.field_payment_capture_wizard__amount_to_capture
 msgid "Amount To Capture"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Yakalanacak Miktar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Yakalanacak Miktar"
 >>>>>>> upstream/18.0
@@ -1897,7 +2010,11 @@ msgstr "Ödemenizin işlenmesi sırasında bir hata oluştu."
 #: model_terms:ir.ui.view,arch_db:payment.state_header
 msgid "An error occurred while saving your payment method."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ödeme yönteminizi kaydederken bir hata oluştu."
+>>>>>>> upstream/18.0
 =======
 msgstr "Ödeme yönteminizi kaydederken bir hata oluştu."
 >>>>>>> upstream/18.0
@@ -1932,7 +2049,11 @@ msgstr ""
 #: model:payment.method,name:payment.payment_method_argencard
 msgid "Argencard"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Argencard"
+>>>>>>> upstream/18.0
 =======
 msgstr "Argencard"
 >>>>>>> upstream/18.0
@@ -1946,7 +2067,11 @@ msgstr "Asiapay"
 #: model:payment.method,name:payment.payment_method_astropay
 msgid "Astropay TEF"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Astropay TEF"
+>>>>>>> upstream/18.0
 =======
 msgstr "Astropay TEF"
 >>>>>>> upstream/18.0
@@ -1955,7 +2080,11 @@ msgstr "Astropay TEF"
 #: model:payment.method,name:payment.payment_method_atome
 msgid "Atome"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Atome"
+>>>>>>> upstream/18.0
 =======
 msgstr "Atome"
 >>>>>>> upstream/18.0
@@ -1979,7 +2108,11 @@ msgstr "Yetkili"
 #: model:ir.model.fields,field_description:payment.field_payment_capture_wizard__authorized_amount
 msgid "Authorized Amount"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Yetkilendirilmiş Tutar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Yetkilendirilmiş Tutar"
 >>>>>>> upstream/18.0
@@ -1993,7 +2126,11 @@ msgstr "Müsaitlik"
 #: model_terms:ir.ui.view,arch_db:payment.availability_report
 msgid "Availability report"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kullanılabilirlik raporu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kullanılabilirlik raporu"
 >>>>>>> upstream/18.0
@@ -2002,7 +2139,11 @@ msgstr "Kullanılabilirlik raporu"
 #: model_terms:ir.ui.view,arch_db:payment.payment_method_search
 msgid "Available methods"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mevcut yöntemler"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mevcut yöntemler"
 >>>>>>> upstream/18.0
@@ -2011,7 +2152,11 @@ msgstr "Mevcut yöntemler"
 #: model:payment.method,name:payment.payment_method_axis
 msgid "Axis"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aks"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aks"
 >>>>>>> upstream/18.0
@@ -2020,7 +2165,11 @@ msgstr "Aks"
 #: model:payment.method,name:payment.payment_method_bacs_direct_debit
 msgid "BACS Direct Debit"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "BACS Doğrudan Borç"
+>>>>>>> upstream/18.0
 =======
 msgstr "BACS Doğrudan Borç"
 >>>>>>> upstream/18.0
@@ -2034,7 +2183,11 @@ msgstr ""
 #: model:payment.method,name:payment.payment_method_bank_bca
 msgid "BCA"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "BCA"
+>>>>>>> upstream/18.0
 =======
 msgstr "BCA"
 >>>>>>> upstream/18.0
@@ -2043,7 +2196,11 @@ msgstr "BCA"
 #: model:payment.method,name:payment.payment_method_becs_direct_debit
 msgid "BECS Direct Debit"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "BECS Doğrudan Borç"
+>>>>>>> upstream/18.0
 =======
 msgstr "BECS Doğrudan Borç"
 >>>>>>> upstream/18.0
@@ -2052,7 +2209,11 @@ msgstr "BECS Doğrudan Borç"
 #: model:payment.method,name:payment.payment_method_blik
 msgid "BLIK"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "BLIK"
+>>>>>>> upstream/18.0
 =======
 msgstr "BLIK"
 >>>>>>> upstream/18.0
@@ -2066,7 +2227,11 @@ msgstr ""
 #: model:payment.method,name:payment.payment_method_bri
 msgid "BRI"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "BRI"
+>>>>>>> upstream/18.0
 =======
 msgstr "BRI"
 >>>>>>> upstream/18.0
@@ -2075,7 +2240,11 @@ msgstr "BRI"
 #: model:payment.method,name:payment.payment_method_bancnet
 msgid "BancNet"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "BancNet"
+>>>>>>> upstream/18.0
 =======
 msgstr "BancNet"
 >>>>>>> upstream/18.0
@@ -2084,7 +2253,11 @@ msgstr "BancNet"
 #: model:payment.method,name:payment.payment_method_banco_guayaquil
 msgid "Banco Guayaquil"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Banco Guayaquil"
+>>>>>>> upstream/18.0
 =======
 msgstr "Banco Guayaquil"
 >>>>>>> upstream/18.0
@@ -2093,7 +2266,11 @@ msgstr "Banco Guayaquil"
 #: model:payment.method,name:payment.payment_method_banco_pichincha
 msgid "Banco Pichincha"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Banco Pichincha"
+>>>>>>> upstream/18.0
 =======
 msgstr "Banco Pichincha"
 >>>>>>> upstream/18.0
@@ -2102,7 +2279,11 @@ msgstr "Banco Pichincha"
 #: model:payment.method,name:payment.payment_method_banco_de_bogota
 msgid "Banco de Bogota"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Banco de Bogota"
+>>>>>>> upstream/18.0
 =======
 msgstr "Banco de Bogota"
 >>>>>>> upstream/18.0
@@ -2111,7 +2292,11 @@ msgstr "Banco de Bogota"
 #: model:payment.method,name:payment.payment_method_bancolombia
 msgid "Bancolombia"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bancolombia"
+>>>>>>> upstream/18.0
 =======
 msgstr "Bancolombia"
 >>>>>>> upstream/18.0
@@ -2120,7 +2305,11 @@ msgstr "Bancolombia"
 #: model:payment.method,name:payment.payment_method_bancontact
 msgid "Bancontact"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bancontact"
+>>>>>>> upstream/18.0
 =======
 msgstr "Bancontact"
 >>>>>>> upstream/18.0
@@ -2129,7 +2318,11 @@ msgstr "Bancontact"
 #: model:payment.method,name:payment.payment_method_bangkok_bank
 msgid "Bangkok Bank"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bangkok Bankası"
+>>>>>>> upstream/18.0
 =======
 msgstr "Bangkok Bankası"
 >>>>>>> upstream/18.0
@@ -2154,7 +2347,11 @@ msgstr "Banka Adı"
 #: model:payment.method,name:payment.payment_method_bni
 msgid "Bank Negara Indonesia"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bank Negara Endonezya"
+>>>>>>> upstream/18.0
 =======
 msgstr "Bank Negara Endonezya"
 >>>>>>> upstream/18.0
@@ -2163,7 +2360,11 @@ msgstr "Bank Negara Endonezya"
 #: model:payment.method,name:payment.payment_method_bank_permata
 msgid "Bank Permata"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Banka Permata"
+>>>>>>> upstream/18.0
 =======
 msgstr "Banka Permata"
 >>>>>>> upstream/18.0
@@ -2172,7 +2373,11 @@ msgstr "Banka Permata"
 #: model:payment.method,name:payment.payment_method_bsi
 msgid "Bank Syariah Indonesia"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bank Syariah Endonezya"
+>>>>>>> upstream/18.0
 =======
 msgstr "Bank Syariah Endonezya"
 >>>>>>> upstream/18.0
@@ -2186,7 +2391,11 @@ msgstr "Banka Transferi"
 #: model:payment.method,name:payment.payment_method_bank_of_ayudhya
 msgid "Bank of Ayudhya"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ayudhya Bankası"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ayudhya Bankası"
 >>>>>>> upstream/18.0
@@ -2200,7 +2409,11 @@ msgstr ""
 #: model:payment.method,name:payment.payment_method_bank_reference
 msgid "Bank reference"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Banka referansı"
+>>>>>>> upstream/18.0
 =======
 msgstr "Banka referansı"
 >>>>>>> upstream/18.0
@@ -2209,7 +2422,11 @@ msgstr "Banka referansı"
 #: model:payment.method,name:payment.payment_method_belfius
 msgid "Belfius"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Belfius"
+>>>>>>> upstream/18.0
 =======
 msgstr "Belfius"
 >>>>>>> upstream/18.0
@@ -2315,7 +2532,11 @@ msgid "Benefit"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fayda"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fayda"
 >>>>>>> upstream/18.0
@@ -2615,7 +2836,11 @@ msgstr "Fayda"
 #: model:payment.method,name:payment.payment_method_bharatqr
 msgid "BharatQR"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "BharatQR"
+>>>>>>> upstream/18.0
 =======
 msgstr "BharatQR"
 >>>>>>> upstream/18.0
@@ -2624,7 +2849,11 @@ msgstr "BharatQR"
 #: model:payment.method,name:payment.payment_method_billease
 msgid "BillEase"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "BillEase"
+>>>>>>> upstream/18.0
 =======
 msgstr "BillEase"
 >>>>>>> upstream/18.0
@@ -2633,7 +2862,11 @@ msgstr "BillEase"
 #: model:payment.method,name:payment.payment_method_billink
 msgid "Billink"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Billink"
+>>>>>>> upstream/18.0
 =======
 msgstr "Billink"
 >>>>>>> upstream/18.0
@@ -2642,7 +2875,11 @@ msgstr "Billink"
 #: model:payment.method,name:payment.payment_method_bizum
 msgid "Bizum"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bizum"
+>>>>>>> upstream/18.0
 =======
 msgstr "Bizum"
 >>>>>>> upstream/18.0
@@ -2651,7 +2888,11 @@ msgstr "Bizum"
 #: model:payment.method,name:payment.payment_method_boleto
 msgid "Boleto"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Boleto"
+>>>>>>> upstream/18.0
 =======
 msgstr "Boleto"
 >>>>>>> upstream/18.0
@@ -2660,7 +2901,11 @@ msgstr "Boleto"
 #: model:payment.method,name:payment.payment_method_boost
 msgid "Boost"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Güçlendirme"
+>>>>>>> upstream/18.0
 =======
 msgstr "Güçlendirme"
 >>>>>>> upstream/18.0
@@ -2746,7 +2991,11 @@ msgid "Brands"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Markalar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Markalar"
 >>>>>>> upstream/18.0
@@ -2988,7 +3237,11 @@ msgstr "Buckaroo"
 #: model:payment.method,name:payment.payment_method_cimb_niaga
 msgid "CIMB Niaga"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "CIMB Niaga"
+>>>>>>> upstream/18.0
 =======
 msgstr "CIMB Niaga"
 >>>>>>> upstream/18.0
@@ -2997,7 +3250,11 @@ msgstr "CIMB Niaga"
 #: model:payment.method,name:payment.payment_method_cmr
 msgid "CMR"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "CMR"
+>>>>>>> upstream/18.0
 =======
 msgstr "CMR"
 >>>>>>> upstream/18.0
@@ -3006,7 +3263,11 @@ msgstr "CMR"
 #: model:payment.method,name:payment.payment_method_cabal
 msgid "Cabal"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kabal"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kabal"
 >>>>>>> upstream/18.0
@@ -3015,7 +3276,11 @@ msgstr "Kabal"
 #: model:payment.method,name:payment.payment_method_caixa
 msgid "Caixa"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Caixa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Caixa"
 >>>>>>> upstream/18.0
@@ -3034,7 +3299,11 @@ msgstr "İptal Edildi"
 #: model:ir.model.fields,field_description:payment.field_payment_provider__cancel_msg
 msgid "Cancelled Message"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "İptal Edilen Mesaj"
+>>>>>>> upstream/18.0
 =======
 msgstr "İptal Edilen Mesaj"
 >>>>>>> upstream/18.0
@@ -3044,7 +3313,11 @@ msgstr "İptal Edilen Mesaj"
 #: code:addons/payment/static/src/js/payment_form.js:0
 msgid "Cannot delete payment method"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ödeme yöntemi silinemiyor"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ödeme yöntemi silinemiyor"
 >>>>>>> upstream/18.0
@@ -3054,7 +3327,11 @@ msgstr "Ödeme yöntemi silinemiyor"
 #: code:addons/payment/static/src/js/payment_form.js:0
 msgid "Cannot save payment method"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ödeme yöntemi kaydedilemiyor"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ödeme yöntemi kaydedilemiyor"
 >>>>>>> upstream/18.0
@@ -3065,7 +3342,11 @@ msgstr "Ödeme yöntemi kaydedilemiyor"
 #: model_terms:ir.ui.view,arch_db:payment.payment_capture_wizard_view_form
 msgid "Capture"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Yakalama"
+>>>>>>> upstream/18.0
 =======
 msgstr "Yakalama"
 >>>>>>> upstream/18.0
@@ -3100,7 +3381,11 @@ msgstr "Kart"
 #: model:payment.method,name:payment.payment_method_carnet
 msgid "Carnet"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Karne"
+>>>>>>> upstream/18.0
 =======
 msgstr "Karne"
 >>>>>>> upstream/18.0
@@ -3109,7 +3394,11 @@ msgstr "Karne"
 #: model:payment.method,name:payment.payment_method_cartes_bancaires
 msgid "Cartes Bancaires"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Banka Kartları"
+>>>>>>> upstream/18.0
 =======
 msgstr "Banka Kartları"
 >>>>>>> upstream/18.0
@@ -3118,7 +3407,11 @@ msgstr "Banka Kartları"
 #: model:payment.method,name:payment.payment_method_cash_app_pay
 msgid "Cash App Pay"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nakit Uygulama Ödemesi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nakit Uygulama Ödemesi"
 >>>>>>> upstream/18.0
@@ -3127,7 +3420,11 @@ msgstr "Nakit Uygulama Ödemesi"
 #: model:payment.method,name:payment.payment_method_cashalo
 msgid "Cashalo"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cashalo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cashalo"
 >>>>>>> upstream/18.0
@@ -3136,7 +3433,11 @@ msgstr "Cashalo"
 #: model:payment.method,name:payment.payment_method_cebuana
 msgid "Cebuana"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cebuana"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cebuana"
 >>>>>>> upstream/18.0
@@ -3145,7 +3446,11 @@ msgstr "Cebuana"
 #: model:payment.method,name:payment.payment_method_cencosud
 msgid "Cencosud"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cencosud"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cencosud"
 >>>>>>> upstream/18.0
@@ -3159,7 +3464,11 @@ msgstr "Alt İşlemler"
 #: model_terms:ir.ui.view,arch_db:payment.payment_transaction_form
 msgid "Child transactions"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Çocuk işlemleri"
+>>>>>>> upstream/18.0
 =======
 msgstr "Çocuk işlemleri"
 >>>>>>> upstream/18.0
@@ -3174,7 +3483,11 @@ msgstr "Ödeme Metodu Seçin"
 #: model_terms:ir.ui.view,arch_db:payment.form
 msgid "Choose another method <i class=\"oi oi-arrow-down\"/>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Başka bir yöntem seçin <i class=\"oi oi-arrow-down\"/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "Başka bir yöntem seçin <i class=\"oi oi-arrow-down\"/>"
 >>>>>>> upstream/18.0
@@ -3183,7 +3496,11 @@ msgstr "Başka bir yöntem seçin <i class=\"oi oi-arrow-down\"/>"
 #: model:payment.method,name:payment.payment_method_cirrus
 msgid "Cirrus"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cirrus"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cirrus"
 >>>>>>> upstream/18.0
@@ -3198,7 +3515,11 @@ msgstr "Semt/İlçe"
 #: model:payment.method,name:payment.payment_method_clearpay
 msgid "Clearpay"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Clearpay"
+>>>>>>> upstream/18.0
 =======
 msgstr "Clearpay"
 >>>>>>> upstream/18.0
@@ -3219,7 +3540,11 @@ msgstr "Kod"
 #: model:payment.method,name:payment.payment_method_codensa
 msgid "Codensa"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Codensa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Codensa"
 >>>>>>> upstream/18.0
@@ -3271,7 +3596,11 @@ msgstr "Kontak"
 #: model:payment.method,name:payment.payment_method_cordial
 msgid "Cordial"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Samimi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Samimi"
 >>>>>>> upstream/18.0
@@ -3280,7 +3609,11 @@ msgstr "Samimi"
 #: model:payment.method,name:payment.payment_method_cordobesa
 msgid "Cordobesa"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cordobesa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cordobesa"
 >>>>>>> upstream/18.0
@@ -3356,7 +3689,11 @@ msgstr "Kredi ve Banka kartı (via Stripe)"
 #: model:payment.method,name:payment.payment_method_credit
 msgid "Credit Payment"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Alacak Ödemesi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Alacak Ödemesi"
 >>>>>>> upstream/18.0
@@ -3390,7 +3727,11 @@ msgstr "Müşteri"
 #: model:payment.method,name:payment.payment_method_dana
 msgid "Dana"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dana"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dana"
 >>>>>>> upstream/18.0
@@ -3399,7 +3740,11 @@ msgstr "Dana"
 #: model:payment.method,name:payment.payment_method_dankort
 msgid "Dankort"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dankort"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dankort"
 >>>>>>> upstream/18.0
@@ -3408,7 +3753,11 @@ msgstr "Dankort"
 #: model:payment.method,name:payment.payment_method_davivienda
 msgid "Davivienda"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Davivienda"
+>>>>>>> upstream/18.0
 =======
 msgstr "Davivienda"
 >>>>>>> upstream/18.0
@@ -3427,7 +3776,11 @@ msgstr "Demo"
 #: model:payment.method,name:payment.payment_method_diners
 msgid "Diners Club International"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Diners Club International"
+>>>>>>> upstream/18.0
 =======
 msgstr "Diners Club International"
 >>>>>>> upstream/18.0
@@ -3463,7 +3816,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:payment.payment_status
 msgid "Don't hesitate to contact us if you don't receive it."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Elinize ulaşmazsa bizimle iletişime geçmekten çekinmeyin."
+>>>>>>> upstream/18.0
 =======
 msgstr "Elinize ulaşmazsa bizimle iletişime geçmekten çekinmeyin."
 >>>>>>> upstream/18.0
@@ -3482,7 +3839,11 @@ msgstr "Taslak"
 #: model:payment.method,name:payment.payment_method_duitnow
 msgid "DuitNow"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "DuitNow"
+>>>>>>> upstream/18.0
 =======
 msgstr "DuitNow"
 >>>>>>> upstream/18.0
@@ -3491,7 +3852,11 @@ msgstr "DuitNow"
 #: model:payment.method,name:payment.payment_method_emi_india
 msgid "EMI"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "EMI"
+>>>>>>> upstream/18.0
 =======
 msgstr "EMI"
 >>>>>>> upstream/18.0
@@ -3500,7 +3865,11 @@ msgstr "EMI"
 #: model:payment.method,name:payment.payment_method_eps
 msgid "EPS"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "EPS"
+>>>>>>> upstream/18.0
 =======
 msgstr "EPS"
 >>>>>>> upstream/18.0
@@ -3509,7 +3878,11 @@ msgstr "EPS"
 #: model:payment.method,name:payment.payment_method_elo
 msgid "Elo"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Elo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Elo"
 >>>>>>> upstream/18.0
@@ -3548,7 +3921,11 @@ msgstr "Hata: %s"
 #: model:ir.model.fields,field_description:payment.field_payment_provider__support_express_checkout
 msgid "Express Checkout"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hızlı Ödeme"
+>>>>>>> upstream/18.0
 =======
 msgstr "Hızlı Ödeme"
 >>>>>>> upstream/18.0
@@ -3566,6 +3943,12 @@ msgid ""
 "to skip the checkout process."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Hızlı ödeme, müşterilerin gerekli tüm fatura ve kargo bilgilerini sağlayan "
+"bir ödeme yöntemi kullanarak daha hızlı ödeme yapmasına ve böylece ödeme "
+"sürecini atlamasına olanak tanır."
+>>>>>>> upstream/18.0
 =======
 "Hızlı ödeme, müşterilerin gerekli tüm fatura ve kargo bilgilerini sağlayan "
 "bir ödeme yöntemi kullanarak daha hızlı ödeme yapmasına ve böylece ödeme "
@@ -3576,7 +3959,11 @@ msgstr ""
 #: model:payment.method,name:payment.payment_method_fps
 msgid "FPS"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "FPS"
+>>>>>>> upstream/18.0
 =======
 msgstr "FPS"
 >>>>>>> upstream/18.0
@@ -3585,7 +3972,11 @@ msgstr "FPS"
 #: model:payment.method,name:payment.payment_method_fpx
 msgid "FPX"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "FPX"
+>>>>>>> upstream/18.0
 =======
 msgstr "FPX"
 >>>>>>> upstream/18.0
@@ -3594,7 +3985,11 @@ msgstr "FPX"
 #: model:payment.method,name:payment.payment_method_facilito
 msgid "Facilito"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Facilito"
+>>>>>>> upstream/18.0
 =======
 msgstr "Facilito"
 >>>>>>> upstream/18.0
@@ -3603,7 +3998,11 @@ msgstr "Facilito"
 #: model:payment.method,name:payment.payment_method_floa_bank
 msgid "Floa Bank"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Floa Bank"
+>>>>>>> upstream/18.0
 =======
 msgstr "Floa Bank"
 >>>>>>> upstream/18.0
@@ -3623,7 +4022,11 @@ msgstr ""
 #: model:ir.model.fields.selection,name:payment.selection__payment_provider__support_refund__partial
 msgid "Full & Partial"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tam ve Kısmi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tam ve Kısmi"
 >>>>>>> upstream/18.0
@@ -3639,7 +4042,11 @@ msgstr "Yalnızca Tam"
 #: model:payment.method,name:payment.payment_method_gcash
 msgid "GCash"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "GCash"
+>>>>>>> upstream/18.0
 =======
 msgstr "GCash"
 >>>>>>> upstream/18.0
@@ -3658,7 +4065,11 @@ msgstr "Satış Ödeme Linki Oluştur"
 #: model_terms:ir.ui.view,arch_db:payment.payment_link_wizard_view_form
 msgid "Generate and Copy Payment Link"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ödeme Bağlantısını Oluşturun ve Kopyalayın"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ödeme Bağlantısını Oluşturun ve Kopyalayın"
 >>>>>>> upstream/18.0
@@ -3672,7 +4083,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:payment.confirm
 msgid "Go to my Account <i class=\"oi oi-arrow-right ms-2\"/>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hesabıma Git <i class=\"oi oi-arrow-right ms-2\"/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "Hesabıma Git <i class=\"oi oi-arrow-right ms-2\"/>"
 >>>>>>> upstream/18.0
@@ -3681,7 +4096,11 @@ msgstr "Hesabıma Git <i class=\"oi oi-arrow-right ms-2\"/>"
 #: model:payment.method,name:payment.payment_method_gopay
 msgid "GoPay"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "GoPay"
+>>>>>>> upstream/18.0
 =======
 msgstr "GoPay"
 >>>>>>> upstream/18.0
@@ -3695,7 +4114,11 @@ msgstr ""
 #: model:payment.method,name:payment.payment_method_grabpay
 msgid "GrabPay"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "GrabPay"
+>>>>>>> upstream/18.0
 =======
 msgstr "GrabPay"
 >>>>>>> upstream/18.0
@@ -3711,7 +4134,11 @@ msgstr "Grupla"
 #: model:payment.method,name:payment.payment_method_hd
 msgid "HD Bank"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "HD Banka"
+>>>>>>> upstream/18.0
 =======
 msgstr "HD Banka"
 >>>>>>> upstream/18.0
@@ -3725,7 +4152,11 @@ msgstr "HTTP Yönlendirme"
 #: model:ir.model.fields,field_description:payment.field_payment_capture_wizard__has_draft_children
 msgid "Has Draft Children"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Taslak Çocukları Var"
+>>>>>>> upstream/18.0
 =======
 msgstr "Taslak Çocukları Var"
 >>>>>>> upstream/18.0
@@ -3734,7 +4165,11 @@ msgstr "Taslak Çocukları Var"
 #: model:ir.model.fields,field_description:payment.field_payment_capture_wizard__has_remaining_amount
 msgid "Has Remaining Amount"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kalan Tutarı Var"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kalan Tutarı Var"
 >>>>>>> upstream/18.0
@@ -3753,7 +4188,11 @@ msgstr "Yardım Mesajı"
 #: model:payment.method,name:payment.payment_method_hipercard
 msgid "Hipercard"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hipercard"
+>>>>>>> upstream/18.0
 =======
 msgstr "Hipercard"
 >>>>>>> upstream/18.0
@@ -3762,7 +4201,11 @@ msgstr "Hipercard"
 #: model:payment.method,name:payment.payment_method_hoolah
 msgid "Hoolah"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hoolah"
+>>>>>>> upstream/18.0
 =======
 msgstr "Hoolah"
 >>>>>>> upstream/18.0
@@ -3776,7 +4219,11 @@ msgstr ""
 #: model:payment.method,name:payment.payment_method_humm
 msgid "Humm"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Humm"
+>>>>>>> upstream/18.0
 =======
 msgstr "Humm"
 >>>>>>> upstream/18.0
@@ -3841,7 +4288,11 @@ msgstr "Yüklü"
 #: model:ir.model.fields,field_description:payment.field_payment_capture_wizard__is_amount_to_capture_valid
 msgid "Is Amount To Capture Valid"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Yakalanacak Miktar Geçerli mi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Yakalanacak Miktar Geçerli mi"
 >>>>>>> upstream/18.0
@@ -3855,7 +4306,11 @@ msgstr "Son işleniyor mu"
 #: model:ir.model.fields,field_description:payment.field_payment_method__is_primary
 msgid "Is Primary Payment Method"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Birincil Ödeme Yöntemi mi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Birincil Ödeme Yöntemi mi"
 >>>>>>> upstream/18.0
@@ -3875,7 +4330,11 @@ msgstr "Şu anda aşağıdaki belgelerle bağlantılıdır:"
 #: model:payment.method,name:payment.payment_method_jcb
 msgid "JCB"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "JCB"
+>>>>>>> upstream/18.0
 =======
 msgstr "JCB"
 >>>>>>> upstream/18.0
@@ -3884,7 +4343,11 @@ msgstr "JCB"
 #: model:payment.method,name:payment.payment_method_jeniuspay
 msgid "JeniusPay"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "JeniusPay"
+>>>>>>> upstream/18.0
 =======
 msgstr "JeniusPay"
 >>>>>>> upstream/18.0
@@ -3893,7 +4356,11 @@ msgstr "JeniusPay"
 #: model:payment.method,name:payment.payment_method_jkopay
 msgid "Jkopay"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Jkopay"
+>>>>>>> upstream/18.0
 =======
 msgstr "Jkopay"
 >>>>>>> upstream/18.0
@@ -3902,7 +4369,11 @@ msgstr "Jkopay"
 #: model:payment.method,name:payment.payment_method_kbc_cbc
 msgid "KBC/CBC"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "KBC/CBC"
+>>>>>>> upstream/18.0
 =======
 msgstr "KBC/CBC"
 >>>>>>> upstream/18.0
@@ -3911,7 +4382,11 @@ msgstr "KBC/CBC"
 #: model:payment.method,name:payment.payment_method_knet
 msgid "KNET"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "KNET"
+>>>>>>> upstream/18.0
 =======
 msgstr "KNET"
 >>>>>>> upstream/18.0
@@ -3920,7 +4395,11 @@ msgstr "KNET"
 #: model:payment.method,name:payment.payment_method_kakaopay
 msgid "KakaoPay"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "KakaoPay"
+>>>>>>> upstream/18.0
 =======
 msgstr "KakaoPay"
 >>>>>>> upstream/18.0
@@ -3929,7 +4408,11 @@ msgstr "KakaoPay"
 #: model:payment.method,name:payment.payment_method_kasikorn_bank
 msgid "Kasikorn Bank"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kasikorn Bankası"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kasikorn Bankası"
 >>>>>>> upstream/18.0
@@ -3938,7 +4421,11 @@ msgstr "Kasikorn Bankası"
 #: model:payment.method,name:payment.payment_method_klarna
 msgid "Klarna"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Klarna"
+>>>>>>> upstream/18.0
 =======
 msgstr "Klarna"
 >>>>>>> upstream/18.0
@@ -3947,7 +4434,11 @@ msgstr "Klarna"
 #: model:payment.method,name:payment.payment_method_klarna_paynow
 msgid "Klarna - Pay Now"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Klarna - Şimdi Öde"
+>>>>>>> upstream/18.0
 =======
 msgstr "Klarna - Şimdi Öde"
 >>>>>>> upstream/18.0
@@ -3956,7 +4447,11 @@ msgstr "Klarna - Şimdi Öde"
 #: model:payment.method,name:payment.payment_method_klarna_pay_over_time
 msgid "Klarna - Pay over time"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Klarna - Zaman içinde öde"
+>>>>>>> upstream/18.0
 =======
 msgstr "Klarna - Zaman içinde öde"
 >>>>>>> upstream/18.0
@@ -3965,7 +4460,11 @@ msgstr "Klarna - Zaman içinde öde"
 #: model:payment.method,name:payment.payment_method_kredivo
 msgid "Kredivo"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kredivo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kredivo"
 >>>>>>> upstream/18.0
@@ -3974,7 +4473,11 @@ msgstr "Kredivo"
 #: model:payment.method,name:payment.payment_method_krungthai_bank
 msgid "KrungThai Bank"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "KrungThai Bankası"
+>>>>>>> upstream/18.0
 =======
 msgstr "KrungThai Bankası"
 >>>>>>> upstream/18.0
@@ -3983,7 +4486,11 @@ msgstr "KrungThai Bankası"
 #: model:payment.method,name:payment.payment_method_linepay
 msgid "LINE Pay"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "HAT Ödemesi"
+>>>>>>> upstream/18.0
 =======
 msgstr "HAT Ödemesi"
 >>>>>>> upstream/18.0
@@ -4034,7 +4541,11 @@ msgstr "Haydi yapalım şunu"
 #: model:payment.method,name:payment.payment_method_lider
 msgid "Lider"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Lider"
+>>>>>>> upstream/18.0
 =======
 msgstr "Lider"
 >>>>>>> upstream/18.0
@@ -4043,7 +4554,11 @@ msgstr "Lider"
 #: model:payment.method,name:payment.payment_method_linkaja
 msgid "LinkAja"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "LinkAja"
+>>>>>>> upstream/18.0
 =======
 msgstr "LinkAja"
 >>>>>>> upstream/18.0
@@ -4052,7 +4567,11 @@ msgstr "LinkAja"
 #: model:payment.method,name:payment.payment_method_nuvei_local
 msgid "Local Payments"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Yerel Ödemeler"
+>>>>>>> upstream/18.0
 =======
 msgstr "Yerel Ödemeler"
 >>>>>>> upstream/18.0
@@ -4071,7 +4590,11 @@ msgstr ""
 #: model:payment.method,name:payment.payment_method_mpesa
 msgid "M-Pesa"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "M-Pesa"
+>>>>>>> upstream/18.0
 =======
 msgstr "M-Pesa"
 >>>>>>> upstream/18.0
@@ -4080,7 +4603,11 @@ msgstr "M-Pesa"
 #: model:payment.method,name:payment.payment_method_mbway
 msgid "MB WAY"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "MB YOLU"
+>>>>>>> upstream/18.0
 =======
 msgstr "MB YOLU"
 >>>>>>> upstream/18.0
@@ -4089,7 +4616,11 @@ msgstr "MB YOLU"
 #: model:payment.method,name:payment.payment_method_mada
 msgid "Mada"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mada"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mada"
 >>>>>>> upstream/18.0
@@ -4098,7 +4629,11 @@ msgstr "Mada"
 #: model:payment.method,name:payment.payment_method_maestro
 msgid "Maestro"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Maestro"
+>>>>>>> upstream/18.0
 =======
 msgstr "Maestro"
 >>>>>>> upstream/18.0
@@ -4107,7 +4642,11 @@ msgstr "Maestro"
 #: model:payment.method,name:payment.payment_method_magna
 msgid "Magna"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Magna"
+>>>>>>> upstream/18.0
 =======
 msgstr "Magna"
 >>>>>>> upstream/18.0
@@ -4131,7 +4670,11 @@ msgstr "Ödeme yöntemlerinizi yönetin"
 #: model:payment.method,name:payment.payment_method_mandiri
 msgid "Mandiri"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mandiri"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mandiri"
 >>>>>>> upstream/18.0
@@ -4150,7 +4693,11 @@ msgstr "Manuel Yakalama Desteklenir"
 #: model:payment.method,name:payment.payment_method_mastercard
 msgid "MasterCard"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "MasterCard"
+>>>>>>> upstream/18.0
 =======
 msgstr "MasterCard"
 >>>>>>> upstream/18.0
@@ -4164,7 +4711,11 @@ msgstr "En yüksek tutar"
 #: model:ir.model.fields,field_description:payment.field_payment_capture_wizard__available_amount
 msgid "Maximum Capture Allowed"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "İzin Verilen Maksimum Yakalama"
+>>>>>>> upstream/18.0
 =======
 msgstr "İzin Verilen Maksimum Yakalama"
 >>>>>>> upstream/18.0
@@ -4173,7 +4724,11 @@ msgstr "İzin Verilen Maksimum Yakalama"
 #: model:payment.method,name:payment.payment_method_maya
 msgid "Maya"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Maya"
+>>>>>>> upstream/18.0
 =======
 msgstr "Maya"
 >>>>>>> upstream/18.0
@@ -4182,7 +4737,11 @@ msgstr "Maya"
 #: model:payment.method,name:payment.payment_method_maybank
 msgid "Maybank"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Maybank"
+>>>>>>> upstream/18.0
 =======
 msgstr "Maybank"
 >>>>>>> upstream/18.0
@@ -4191,7 +4750,11 @@ msgstr "Maybank"
 #: model:payment.method,name:payment.payment_method_meeza
 msgid "Meeza"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Meeza"
+>>>>>>> upstream/18.0
 =======
 msgstr "Meeza"
 >>>>>>> upstream/18.0
@@ -4200,7 +4763,11 @@ msgstr "Meeza"
 #: model:payment.method,name:payment.payment_method_mercado_livre
 msgid "Mercado Livre"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mercado Livre"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mercado Livre"
 >>>>>>> upstream/18.0
@@ -4230,7 +4797,11 @@ msgstr "Yöntem"
 #: model:payment.method,name:payment.payment_method_momo
 msgid "MoMo"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "MoMo"
+>>>>>>> upstream/18.0
 =======
 msgstr "MoMo"
 >>>>>>> upstream/18.0
@@ -4239,7 +4810,11 @@ msgstr "MoMo"
 #: model:payment.method,name:payment.payment_method_mobile_money
 msgid "Mobile money"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mobil para"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mobil para"
 >>>>>>> upstream/18.0
@@ -4248,7 +4823,11 @@ msgstr "Mobil para"
 #: model:payment.method,name:payment.payment_method_mobile_pay
 msgid "MobilePay"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "MobilePay"
+>>>>>>> upstream/18.0
 =======
 msgstr "MobilePay"
 >>>>>>> upstream/18.0
@@ -4262,7 +4841,11 @@ msgstr "Mollie"
 #: model:payment.method,name:payment.payment_method_multibanco
 msgid "Multibanco"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Multibanco"
+>>>>>>> upstream/18.0
 =======
 msgstr "Multibanco"
 >>>>>>> upstream/18.0
@@ -4271,7 +4854,11 @@ msgstr "Multibanco"
 #: model:payment.method,name:payment.payment_method_mybank
 msgid "MyBank"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "MyBank"
+>>>>>>> upstream/18.0
 =======
 msgstr "MyBank"
 >>>>>>> upstream/18.0
@@ -4280,7 +4867,11 @@ msgstr "MyBank"
 #: model:payment.method,name:payment.payment_method_naps
 msgid "NAPS"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "NAPS"
+>>>>>>> upstream/18.0
 =======
 msgstr "NAPS"
 >>>>>>> upstream/18.0
@@ -4298,7 +4889,11 @@ msgstr "Adı"
 #: model:payment.method,name:payment.payment_method_napas_card
 msgid "Napas Card"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Napas Kart"
+>>>>>>> upstream/18.0
 =======
 msgstr "Napas Kart"
 >>>>>>> upstream/18.0
@@ -4307,7 +4902,11 @@ msgstr "Napas Kart"
 #: model:payment.method,name:payment.payment_method_naranja
 msgid "Naranja"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Naranja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Naranja"
 >>>>>>> upstream/18.0
@@ -4316,7 +4915,11 @@ msgstr "Naranja"
 #: model:payment.method,name:payment.payment_method_nativa
 msgid "Nativa"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nativa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nativa"
 >>>>>>> upstream/18.0
@@ -4330,7 +4933,11 @@ msgstr ""
 #: model:payment.method,name:payment.payment_method_netbanking
 msgid "Netbanking"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Net Bankacılığı"
+>>>>>>> upstream/18.0
 =======
 msgstr "Net Bankacılığı"
 >>>>>>> upstream/18.0
@@ -4359,7 +4966,11 @@ msgstr "Ödeme sağlayıcılarınız için ödeme yöntemi bulunamadı."
 #: model_terms:ir.ui.view,arch_db:payment.no_pms_available_warning
 msgid "No payment providers are configured."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hiçbir ödeme sağlayıcısı yapılandırılmamıştır."
+>>>>>>> upstream/18.0
 =======
 msgstr "Hiçbir ödeme sağlayıcısı yapılandırılmamıştır."
 >>>>>>> upstream/18.0
@@ -4369,7 +4980,11 @@ msgstr "Hiçbir ödeme sağlayıcısı yapılandırılmamıştır."
 #: code:addons/payment/models/payment_token.py:0
 msgid "No token can be assigned to the public partner."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Genel ortağa hiçbir belirteç atanamaz."
+>>>>>>> upstream/18.0
 =======
 msgstr "Genel ortağa hiçbir belirteç atanamaz."
 >>>>>>> upstream/18.0
@@ -4378,7 +4993,11 @@ msgstr "Genel ortağa hiçbir belirteç atanamaz."
 #: model_terms:ir.ui.view,arch_db:payment.no_pms_available_warning
 msgid "None is configured for:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hiçbiri için yapılandırılmamıştır:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Hiçbiri için yapılandırılmamıştır:"
 >>>>>>> upstream/18.0
@@ -4392,7 +5011,11 @@ msgstr "Nuvei"
 #: model:payment.method,name:payment.payment_method_ovo
 msgid "OVO"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "OVO"
+>>>>>>> upstream/18.0
 =======
 msgstr "OVO"
 >>>>>>> upstream/18.0
@@ -4401,7 +5024,11 @@ msgstr "OVO"
 #: model:payment.method,name:payment.payment_method_oca
 msgid "Oca"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Oca"
+>>>>>>> upstream/18.0
 =======
 msgstr "Oca"
 >>>>>>> upstream/18.0
@@ -4410,7 +5037,11 @@ msgstr "Oca"
 #: model:payment.method,name:payment.payment_method_octopus
 msgid "Octopus"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ahtapot"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ahtapot"
 >>>>>>> upstream/18.0
@@ -4429,7 +5060,11 @@ msgstr "Token ile çevrimdışı ödeme"
 #: model:payment.method,name:payment.payment_method_omannet
 msgid "OmanNet"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "OmanNet"
+>>>>>>> upstream/18.0
 =======
 msgstr "OmanNet"
 >>>>>>> upstream/18.0
@@ -4448,7 +5083,11 @@ msgstr "İşe Alım Adım Görüntüsü"
 #: model:payment.method,name:payment.payment_method_online_banking_czech_republic
 msgid "Online Banking Czech Republic"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Online Bankacılık Çek Cumhuriyeti"
+>>>>>>> upstream/18.0
 =======
 msgstr "Online Bankacılık Çek Cumhuriyeti"
 >>>>>>> upstream/18.0
@@ -4457,7 +5096,11 @@ msgstr "Online Bankacılık Çek Cumhuriyeti"
 #: model:payment.method,name:payment.payment_method_online_banking_india
 msgid "Online Banking India"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hindistan Online Bankacılık"
+>>>>>>> upstream/18.0
 =======
 msgstr "Hindistan Online Bankacılık"
 >>>>>>> upstream/18.0
@@ -4466,7 +5109,11 @@ msgstr "Hindistan Online Bankacılık"
 #: model:payment.method,name:payment.payment_method_online_banking_slovakia
 msgid "Online Banking Slovakia"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Slovakya Online Bankacılık"
+>>>>>>> upstream/18.0
 =======
 msgstr "Slovakya Online Bankacılık"
 >>>>>>> upstream/18.0
@@ -4475,7 +5122,11 @@ msgstr "Slovakya Online Bankacılık"
 #: model:payment.method,name:payment.payment_method_online_banking_thailand
 msgid "Online Banking Thailand"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tayland Online Bankacılık"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tayland Online Bankacılık"
 >>>>>>> upstream/18.0
@@ -4522,7 +5173,11 @@ msgstr "Yalnızca onaylanmış işlemler iade edilebilir."
 #: model:payment.method,name:payment.payment_method_open_banking
 msgid "Open banking"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Açık bankacılık"
+>>>>>>> upstream/18.0
 =======
 msgstr "Açık bankacılık"
 >>>>>>> upstream/18.0
@@ -4552,7 +5207,11 @@ msgstr "Diğer ödeme seçenekleri"
 #: model:payment.method,name:payment.payment_method_oxxopay
 msgid "Oxxo Pay"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Oxxo Pay"
+>>>>>>> upstream/18.0
 =======
 msgstr "Oxxo Pay"
 >>>>>>> upstream/18.0
@@ -4561,7 +5220,11 @@ msgstr "Oxxo Pay"
 #: model:payment.method,name:payment.payment_method_p24
 msgid "P24"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "P24"
+>>>>>>> upstream/18.0
 =======
 msgstr "P24"
 >>>>>>> upstream/18.0
@@ -4570,7 +5233,11 @@ msgstr "P24"
 #: model:payment.method,name:payment.payment_method_poli
 msgid "POLi"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "POLi"
+>>>>>>> upstream/18.0
 =======
 msgstr "POLi"
 >>>>>>> upstream/18.0
@@ -4579,7 +5246,11 @@ msgstr "POLi"
 #: model:payment.method,name:payment.payment_method_pps
 msgid "PPS"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "PPS"
+>>>>>>> upstream/18.0
 =======
 msgstr "PPS"
 >>>>>>> upstream/18.0
@@ -4588,7 +5259,11 @@ msgstr "PPS"
 #: model:payment.method,name:payment.payment_method_pse
 msgid "PSE"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "PSE"
+>>>>>>> upstream/18.0
 =======
 msgstr "PSE"
 >>>>>>> upstream/18.0
@@ -4597,7 +5272,11 @@ msgstr "PSE"
 #: model:payment.method,name:payment.payment_method_pace
 msgid "Pace."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pace."
+>>>>>>> upstream/18.0
 =======
 msgstr "Pace."
 >>>>>>> upstream/18.0
@@ -4629,7 +5308,11 @@ msgstr "Ödeme İşlemi"
 #: model:payment.method,name:payment.payment_method_paylater_india
 msgid "Pay Later"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sonra Öde"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sonra Öde"
 >>>>>>> upstream/18.0
@@ -4643,7 +5326,11 @@ msgstr ""
 #: model:payment.method,name:payment.payment_method_paybright
 msgid "PayBright"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "PayBright"
+>>>>>>> upstream/18.0
 =======
 msgstr "PayBright"
 >>>>>>> upstream/18.0
@@ -4652,7 +5339,11 @@ msgstr "PayBright"
 #: model:payment.method,name:payment.payment_method_pay_id
 msgid "PayID"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "PayID"
+>>>>>>> upstream/18.0
 =======
 msgstr "PayID"
 >>>>>>> upstream/18.0
@@ -4661,7 +5352,11 @@ msgstr "PayID"
 #: model:payment.method,name:payment.payment_method_payme
 msgid "PayMe"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "PayMe"
+>>>>>>> upstream/18.0
 =======
 msgstr "PayMe"
 >>>>>>> upstream/18.0
@@ -4670,7 +5365,11 @@ msgstr "PayMe"
 #: model:payment.method,name:payment.payment_method_paynow
 msgid "PayNow"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "PayNow"
+>>>>>>> upstream/18.0
 =======
 msgstr "PayNow"
 >>>>>>> upstream/18.0
@@ -4692,7 +5391,11 @@ msgstr ""
 #: model:payment.method,name:payment.payment_method_paysafecard
 msgid "PaySafeCard"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "PaySafeCard"
+>>>>>>> upstream/18.0
 =======
 msgstr "PaySafeCard"
 >>>>>>> upstream/18.0
@@ -4711,7 +5414,11 @@ msgstr ""
 #: model:ir.model,name:payment.model_payment_capture_wizard
 msgid "Payment Capture Wizard"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ödeme Yakalama Sihirbazı"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ödeme Yakalama Sihirbazı"
 >>>>>>> upstream/18.0
@@ -4761,7 +5468,11 @@ msgstr "Ödeme Yöntemi"
 #: model:ir.model.fields,field_description:payment.field_payment_transaction__payment_method_code
 msgid "Payment Method Code"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ödeme Yöntemi Kodu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ödeme Yöntemi Kodu"
 >>>>>>> upstream/18.0
@@ -4919,7 +5630,11 @@ msgid "Payment processing failed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ödeme işleme başarısız oldu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ödeme işleme başarısız oldu"
 >>>>>>> upstream/18.0
@@ -5154,7 +5869,11 @@ msgstr "Ödeme sağlayıcısı ekleme sihirbazı"
 #: model_terms:ir.ui.view,arch_db:payment.availability_report
 msgid "Payment providers"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ödeme sağlayıcılar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ödeme sağlayıcılar"
 >>>>>>> upstream/18.0
@@ -5287,7 +6006,11 @@ msgid "Payment: Post-process transactions"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ödeme: İşlem Sonrası Süreçler"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ödeme: İşlem Sonrası Süreçler"
 >>>>>>> upstream/18.0
@@ -5811,7 +6534,11 @@ msgid "Paytm"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Paytm"
+>>>>>>> upstream/18.0
 =======
 msgstr "Paytm"
 >>>>>>> upstream/18.0
@@ -6219,7 +6946,11 @@ msgstr "Paytm"
 #: model:payment.method,name:payment.payment_method_paytrail
 msgid "Paytrail"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Paytrail"
+>>>>>>> upstream/18.0
 =======
 msgstr "Paytrail"
 >>>>>>> upstream/18.0
@@ -6243,7 +6974,11 @@ msgstr "Telefon"
 #: model:payment.method,name:payment.payment_method_pix
 msgid "Pix"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pix"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pix"
 >>>>>>> upstream/18.0
@@ -6254,6 +6989,11 @@ msgstr "Pix"
 msgid "Please make sure that %(payment_method)s is supported by %(provider)s."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Lütfen %(payment_method)s adresinin %(provider)s tarafından "
+"desteklendiğinden emin olun."
+>>>>>>> upstream/18.0
 =======
 "Lütfen %(payment_method)s adresinin %(provider)s tarafından "
 "desteklendiğinden emin olun."
@@ -6264,7 +7004,11 @@ msgstr ""
 #: code:addons/payment/wizards/payment_link_wizard.py:0
 msgid "Please set a positive amount."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Lütfen pozitif bir miktar belirleyin."
+>>>>>>> upstream/18.0
 =======
 msgstr "Lütfen pozitif bir miktar belirleyin."
 >>>>>>> upstream/18.0
@@ -6274,7 +7018,11 @@ msgstr "Lütfen pozitif bir miktar belirleyin."
 #: code:addons/payment/wizards/payment_link_wizard.py:0
 msgid "Please set an amount lower than %s."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Lütfen %s adresinden daha düşük bir tutar belirleyin."
+>>>>>>> upstream/18.0
 =======
 msgstr "Lütfen %s adresinden daha düşük bir tutar belirleyin."
 >>>>>>> upstream/18.0
@@ -6283,7 +7031,11 @@ msgstr "Lütfen %s adresinden daha düşük bir tutar belirleyin."
 #: model_terms:ir.ui.view,arch_db:payment.company_mismatch_warning
 msgid "Please switch to company"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Lütfen şirkete geçin"
+>>>>>>> upstream/18.0
 =======
 msgstr "Lütfen şirkete geçin"
 >>>>>>> upstream/18.0
@@ -6424,7 +7176,11 @@ msgid "PostFinance Pay"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "PostFinance Pay"
+>>>>>>> upstream/18.0
 =======
 msgstr "PostFinance Pay"
 >>>>>>> upstream/18.0
@@ -6947,7 +7703,11 @@ msgid "PostePay"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "PostePay"
+>>>>>>> upstream/18.0
 =======
 msgstr "PostePay"
 >>>>>>> upstream/18.0
@@ -7355,7 +8115,11 @@ msgstr "PostePay"
 #: model:payment.method,name:payment.payment_method_presto
 msgid "Presto"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Presto"
+>>>>>>> upstream/18.0
 =======
 msgstr "Presto"
 >>>>>>> upstream/18.0
@@ -7364,7 +8128,11 @@ msgstr "Presto"
 #: model:ir.model.fields,field_description:payment.field_payment_method__primary_payment_method_id
 msgid "Primary Payment Method"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Birincil Ödeme Yöntemi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Birincil Ödeme Yöntemi"
 >>>>>>> upstream/18.0
@@ -7378,7 +8146,11 @@ msgstr "Tarafından işlendi"
 #: model:payment.method,name:payment.payment_method_promptpay
 msgid "Prompt Pay"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hızlı Ödeme"
+>>>>>>> upstream/18.0
 =======
 msgstr "Hızlı Ödeme"
 >>>>>>> upstream/18.0
@@ -7397,7 +8169,11 @@ msgstr "Sağlayıcı"
 #: model:ir.model.fields,field_description:payment.field_payment_transaction__provider_code
 msgid "Provider Code"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sağlayıcı Kodu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sağlayıcı Kodu"
 >>>>>>> upstream/18.0
@@ -7424,7 +8200,11 @@ msgstr "Yayınlandı"
 #: model:payment.method,name:payment.payment_method_qris
 msgid "QRIS"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "QRIS"
+>>>>>>> upstream/18.0
 =======
 msgstr "QRIS"
 >>>>>>> upstream/18.0
@@ -7433,7 +8213,11 @@ msgstr "QRIS"
 #: model:payment.method,name:payment.payment_method_rabbit_line_pay
 msgid "Rabbit LINE Pay"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Rabbit LINE Ödeme"
+>>>>>>> upstream/18.0
 =======
 msgstr "Rabbit LINE Ödeme"
 >>>>>>> upstream/18.0
@@ -7442,7 +8226,11 @@ msgstr "Rabbit LINE Ödeme"
 #: model:payment.method,name:payment.payment_method_ratepay
 msgid "Ratepay"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ratepay"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ratepay"
 >>>>>>> upstream/18.0
@@ -7472,7 +8260,11 @@ msgstr "Form Şablonunu Yeniden Yönlendirme"
 #: model:payment.method,name:payment.payment_method_redpagos
 msgid "Redpagos"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Redpagos"
+>>>>>>> upstream/18.0
 =======
 msgstr "Redpagos"
 >>>>>>> upstream/18.0
@@ -7507,6 +8299,11 @@ msgid ""
 "in Odoo."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Geri Ödeme, müşterilere doğrudan Odoo'daki ödemeden geri ödeme yapılmasına "
+"olanak tanıyan bir özelliktir."
+>>>>>>> upstream/18.0
 =======
 "Geri Ödeme, müşterilere doğrudan Odoo'daki ödemeden geri ödeme yapılmasına "
 "olanak tanıyan bir özelliktir."
@@ -7536,7 +8333,11 @@ msgstr "İlgili Döküman Modeli"
 #: model:payment.method,name:payment.payment_method_revolut_pay
 msgid "Revolut Pay"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Revolut Ödeme"
+>>>>>>> upstream/18.0
 =======
 msgstr "Revolut Ödeme"
 >>>>>>> upstream/18.0
@@ -7545,7 +8346,11 @@ msgstr "Revolut Ödeme"
 #: model:payment.method,name:payment.payment_method_rupay
 msgid "RuPay"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "RuPay"
+>>>>>>> upstream/18.0
 =======
 msgstr "RuPay"
 >>>>>>> upstream/18.0
@@ -7560,7 +8365,11 @@ msgstr "SEPA Doğrudan Ödeme"
 #: model:payment.method,name:payment.payment_method_spei
 msgid "SPEI"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "SPEI"
+>>>>>>> upstream/18.0
 =======
 msgstr "SPEI"
 >>>>>>> upstream/18.0
@@ -7569,7 +8378,11 @@ msgstr "SPEI"
 #: model:payment.method,name:payment.payment_method_samsung_pay
 msgid "Samsung Pay"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Samsung Pay"
+>>>>>>> upstream/18.0
 =======
 msgstr "Samsung Pay"
 >>>>>>> upstream/18.0
@@ -7583,7 +8396,11 @@ msgstr "Kaydet"
 #: model_terms:ir.ui.view,arch_db:payment.state_header
 msgid "Saving your payment method."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ödeme yönteminizi kaydedin."
+>>>>>>> upstream/18.0
 =======
 msgstr "Ödeme yönteminizi kaydedin."
 >>>>>>> upstream/18.0
@@ -7592,7 +8409,11 @@ msgstr "Ödeme yönteminizi kaydedin."
 #: model_terms:ir.ui.view,arch_db:payment.payment_method_form
 msgid "Select countries. Leave empty to allow any."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ülkeleri seçin. Herhangi birine izin vermek için boş bırakın."
+>>>>>>> upstream/18.0
 =======
 msgstr "Ülkeleri seçin. Herhangi birine izin vermek için boş bırakın."
 >>>>>>> upstream/18.0
@@ -7606,7 +8427,11 @@ msgstr "Ülkeleri seçin. Her yerde kullanılabilir yapmak için boş bırakın.
 #: model_terms:ir.ui.view,arch_db:payment.payment_provider_form
 msgid "Select currencies. Leave empty not to restrict any."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Para birimlerini seçin. Hiçbirini kısıtlamamak için boş bırakın."
+>>>>>>> upstream/18.0
 =======
 msgstr "Para birimlerini seçin. Hiçbirini kısıtlamamak için boş bırakın."
 >>>>>>> upstream/18.0
@@ -7615,7 +8440,11 @@ msgstr "Para birimlerini seçin. Hiçbirini kısıtlamamak için boş bırakın.
 #: model_terms:ir.ui.view,arch_db:payment.payment_method_form
 msgid "Select currencies. Leave empty to allow any."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Para birimlerini seçin. Herhangi birine izin vermek için boş bırakın."
+>>>>>>> upstream/18.0
 =======
 msgstr "Para birimlerini seçin. Herhangi birine izin vermek için boş bırakın."
 >>>>>>> upstream/18.0
@@ -7635,7 +8464,11 @@ msgstr "Sıralama"
 #: model:payment.method,name:payment.payment_method_shopback
 msgid "ShopBack"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ShopBack"
+>>>>>>> upstream/18.0
 =======
 msgstr "ShopBack"
 >>>>>>> upstream/18.0
@@ -7644,7 +8477,11 @@ msgstr "ShopBack"
 #: model:payment.method,name:payment.payment_method_shopeepay
 msgid "ShopeePay"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ShopeePay"
+>>>>>>> upstream/18.0
 =======
 msgstr "ShopeePay"
 >>>>>>> upstream/18.0
@@ -7653,7 +8490,11 @@ msgstr "ShopeePay"
 #: model:payment.method,name:payment.payment_method_shopping
 msgid "Shopping Card"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Alışveriş Kartı"
+>>>>>>> upstream/18.0
 =======
 msgstr "Alışveriş Kartı"
 >>>>>>> upstream/18.0
@@ -7662,7 +8503,11 @@ msgstr "Alışveriş Kartı"
 #: model:payment.method,name:payment.payment_method_scb
 msgid "Siam Commerical Bank"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Siam Ticaret Bankası"
+>>>>>>> upstream/18.0
 =======
 msgstr "Siam Ticaret Bankası"
 >>>>>>> upstream/18.0
@@ -7671,7 +8516,11 @@ msgstr "Siam Ticaret Bankası"
 #: model_terms:ir.ui.view,arch_db:payment.state_header
 msgid "Skip <i class=\"oi oi-arrow-right ms-1 small\"/>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Atla <i class=\"oi oi-arrow-right ms-1 small\"/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "Atla <i class=\"oi oi-arrow-right ms-1 small\"/>"
 >>>>>>> upstream/18.0
@@ -7680,7 +8529,11 @@ msgstr "Atla <i class=\"oi oi-arrow-right ms-1 small\"/>"
 #: model:payment.method,name:payment.payment_method_sofort
 msgid "Sofort"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sofort"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sofort"
 >>>>>>> upstream/18.0
@@ -7693,6 +8546,11 @@ msgid ""
 " Handle the transactions individually to capture a partial amount."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Yakalamak istediğiniz işlemlerden bazıları yalnızca tam olarak "
+"yakalanabilir. Kısmi bir tutarı yakalamak için işlemleri ayrı ayrı ele alın."
+>>>>>>> upstream/18.0
 =======
 "Yakalamak istediğiniz işlemlerden bazıları yalnızca tam olarak "
 "yakalanabilir. Kısmi bir tutarı yakalamak için işlemleri ayrı ayrı ele alın."
@@ -7732,7 +8590,11 @@ msgstr "Stripe"
 #: model:ir.model.fields,field_description:payment.field_payment_capture_wizard__support_partial_capture
 msgid "Support Partial Capture"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kısmi Yakalama Desteği"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kısmi Yakalama Desteği"
 >>>>>>> upstream/18.0
@@ -7746,7 +8608,11 @@ msgstr "Desteklenen Ödeme Yöntemleri"
 #: model_terms:ir.ui.view,arch_db:payment.payment_method_form
 msgid "Supported by"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tarafından desteklenmektedir"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tarafından desteklenmektedir"
 >>>>>>> upstream/18.0
@@ -7755,7 +8621,11 @@ msgstr "Tarafından desteklenmektedir"
 #: model_terms:ir.ui.view,arch_db:payment.availability_report_records
 msgid "Supported providers:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Desteklenen sağlayıcılar:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Desteklenen sağlayıcılar:"
 >>>>>>> upstream/18.0
@@ -7764,7 +8634,11 @@ msgstr "Desteklenen sağlayıcılar:"
 #: model:payment.method,name:payment.payment_method_swish
 msgid "Swish"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Swish"
+>>>>>>> upstream/18.0
 =======
 msgstr "Swish"
 >>>>>>> upstream/18.0
@@ -7773,7 +8647,11 @@ msgstr "Swish"
 #: model:payment.method,name:payment.payment_method_tenpay
 msgid "TENPAY"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "TENPAY"
+>>>>>>> upstream/18.0
 =======
 msgstr "TENPAY"
 >>>>>>> upstream/18.0
@@ -7782,7 +8660,11 @@ msgstr "TENPAY"
 #: model:payment.method,name:payment.payment_method_ttb
 msgid "TTB"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "TTB"
+>>>>>>> upstream/18.0
 =======
 msgstr "TTB"
 >>>>>>> upstream/18.0
@@ -7791,7 +8673,11 @@ msgstr "TTB"
 #: model:payment.method,name:payment.payment_method_tmb
 msgid "Tamilnad Mercantile Bank Limited"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tamilnad Mercantile Bank Limited"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tamilnad Mercantile Bank Limited"
 >>>>>>> upstream/18.0
@@ -7800,7 +8686,11 @@ msgstr "Tamilnad Mercantile Bank Limited"
 #: model:payment.method,name:payment.payment_method_tarjeta_mercadopago
 msgid "Tarjeta MercadoPago"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tarjeta MercadoPago"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tarjeta MercadoPago"
 >>>>>>> upstream/18.0
@@ -7809,7 +8699,11 @@ msgstr "Tarjeta MercadoPago"
 #: model:payment.method,name:payment.payment_method_techcom
 msgid "Techcombank"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Techcombank"
+>>>>>>> upstream/18.0
 =======
 msgstr "Techcombank"
 >>>>>>> upstream/18.0
@@ -7818,7 +8712,11 @@ msgstr "Techcombank"
 #: model:payment.method,name:payment.payment_method_tendopay
 msgid "TendoPay"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "TendoPay"
+>>>>>>> upstream/18.0
 =======
 msgstr "TendoPay"
 >>>>>>> upstream/18.0
@@ -7845,7 +8743,11 @@ msgstr "Erişim tokenı geçersiz."
 #: code:addons/payment/wizards/payment_capture_wizard.py:0
 msgid "The amount to capture must be positive and cannot be superior to %s."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Yakalanacak miktar pozitif olmalıdır ve %s adresinden büyük olamaz."
+>>>>>>> upstream/18.0
 =======
 msgstr "Yakalanacak miktar pozitif olmalıdır ve %s adresinden büyük olamaz."
 >>>>>>> upstream/18.0
@@ -7855,7 +8757,11 @@ msgstr "Yakalanacak miktar pozitif olmalıdır ve %s adresinden büyük olamaz."
 #: model:ir.model.fields,help:payment.field_payment_method__image_payment_form
 msgid "The base image used for this payment method; in a 64x64 px format."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bu ödeme yöntemi için kullanılan temel görüntü; 64x64 px formatında."
+>>>>>>> upstream/18.0
 =======
 msgstr "Bu ödeme yöntemi için kullanılan temel görüntü; 64x64 px formatında."
 >>>>>>> upstream/18.0
@@ -7866,7 +8772,11 @@ msgid ""
 "The brands of the payment methods that will be displayed on the payment "
 "form."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ödeme formunda görüntülenecek ödeme yöntemlerinin markaları."
+>>>>>>> upstream/18.0
 =======
 msgstr "Ödeme formunda görüntülenecek ödeme yöntemlerinin markaları."
 >>>>>>> upstream/18.0
@@ -7875,7 +8785,11 @@ msgstr "Ödeme formunda görüntülenecek ödeme yöntemlerinin markaları."
 #: model:ir.model.fields,help:payment.field_payment_transaction__child_transaction_ids
 msgid "The child transactions of the transaction."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "İşlemin alt işlemleri."
+>>>>>>> upstream/18.0
 =======
 msgstr "İşlemin alt işlemleri."
 >>>>>>> upstream/18.0
@@ -7911,6 +8825,11 @@ msgid ""
 "restrict any."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Bu ödeme sağlayıcısı ile kullanılabilen para birimleri. Hiçbirini "
+"kısıtlamamak için boş bırakın."
+>>>>>>> upstream/18.0
 =======
 "Bu ödeme sağlayıcısı ile kullanılabilen para birimleri. Hiçbirini "
 "kısıtlamamak için boş bırakın."
@@ -7927,7 +8846,11 @@ msgstr "Aşağıdaki alanlar doldurulmalıdır: %s"
 #: code:addons/payment/controllers/portal.py:0
 msgid "The following kwargs are not whitelisted: %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aşağıdaki kwarg'lar beyaz listede değildir: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aşağıdaki kwarg'lar beyaz listede değildir: %s"
 >>>>>>> upstream/18.0
@@ -7945,6 +8868,12 @@ msgid ""
 "available to customers."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Bu ödeme yönteminin kullanılabileceği ülkelerin listesi (sağlayıcı izin "
+"veriyorsa). Diğer ülkelerde bu ödeme yöntemi müşteriler tarafından "
+"kullanılamaz."
+>>>>>>> upstream/18.0
 =======
 "Bu ödeme yönteminin kullanılabileceği ülkelerin listesi (sağlayıcı izin "
 "veriyorsa). Diğer ülkelerde bu ödeme yöntemi müşteriler tarafından "
@@ -7959,6 +8888,12 @@ msgid ""
 " is not available to customers."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Bu ödeme yöntemi tarafından desteklenen para birimlerinin listesi (sağlayıcı "
+"izin veriyorsa). Başka bir para birimiyle ödeme yapıldığında, bu ödeme "
+"yöntemi müşteriler tarafından kullanılamaz."
+>>>>>>> upstream/18.0
 =======
 "Bu ödeme yöntemi tarafından desteklenen para birimlerinin listesi (sağlayıcı "
 "izin veriyorsa). Başka bir para birimiyle ödeme yapıldığında, bu ödeme "
@@ -7969,7 +8904,11 @@ msgstr ""
 #: model:ir.model.fields,help:payment.field_payment_method__provider_ids
 msgid "The list of providers supporting this payment method."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bu ödeme yöntemini destekleyen sağlayıcıların listesi."
+>>>>>>> upstream/18.0
 =======
 msgstr "Bu ödeme yöntemini destekleyen sağlayıcıların listesi."
 >>>>>>> upstream/18.0
@@ -7999,7 +8938,11 @@ msgstr "Ödeme onaylanmışsa görüntülenen mesaj"
 msgid ""
 "The message displayed if the order is cancelled during the payment process"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ödeme işlemi sırasında sipariş iptal edilirse görüntülenen mesaj"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ödeme işlemi sırasında sipariş iptal edilirse görüntülenen mesaj"
 >>>>>>> upstream/18.0
@@ -8036,6 +8979,12 @@ msgid ""
 "For example, \"Card\" is the primary payment method of the card brand \"VISA\"."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Geçerli ödeme yönteminin birincil ödeme yöntemi, eğer bu yöntem bir marka "
+"ise.\n"
+"Örneğin, \"Card\", \"VISA\" kart markasının birincil ödeme yöntemidir."
+>>>>>>> upstream/18.0
 =======
 "Geçerli ödeme yönteminin birincil ödeme yöntemi, eğer bu yöntem bir marka "
 "ise.\n"
@@ -8046,7 +8995,11 @@ msgstr ""
 #: model:ir.model.fields,help:payment.field_payment_token__provider_ref
 msgid "The provider reference of the token of the transaction."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "İşlemin token'ının sağlayıcı referansı."
+>>>>>>> upstream/18.0
 =======
 msgstr "İşlemin token'ının sağlayıcı referansı."
 >>>>>>> upstream/18.0
@@ -8060,7 +9013,11 @@ msgstr "İşlemin sağlayıcı referansı"
 #: model:ir.model.fields,field_description:payment.field_payment_method__image_payment_form
 msgid "The resized image displayed on the payment form."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ödeme formunda görüntülenen yeniden boyutlandırılmış görüntü."
+>>>>>>> upstream/18.0
 =======
 msgstr "Ödeme formunda görüntülenen yeniden boyutlandırılmış görüntü."
 >>>>>>> upstream/18.0
@@ -8074,7 +9031,11 @@ msgstr "İşlemden sonra kullanıcının yönlendirildiği yol"
 #: model_terms:ir.ui.view,arch_db:payment.state_header
 msgid "The saving of your payment method has been canceled."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ödeme yönteminizin kaydedilmesi iptal edildi."
+>>>>>>> upstream/18.0
 =======
 msgstr "Ödeme yönteminizin kaydedilmesi iptal edildi."
 >>>>>>> upstream/18.0
@@ -8083,7 +9044,11 @@ msgstr "Ödeme yönteminizin kaydedilmesi iptal edildi."
 #: model:ir.model.fields,help:payment.field_payment_transaction__source_transaction_id
 msgid "The source transaction of the related child transactions"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "İlgili alt işlemlerin kaynak işlemi"
+>>>>>>> upstream/18.0
 =======
 msgstr "İlgili alt işlemlerin kaynak işlemi"
 >>>>>>> upstream/18.0
@@ -8094,7 +9059,11 @@ msgstr "İlgili alt işlemlerin kaynak işlemi"
 #: model:ir.model.fields,help:payment.field_payment_transaction__payment_method_code
 msgid "The technical code of this payment method."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bu ödeme yönteminin teknik kodu."
+>>>>>>> upstream/18.0
 =======
 msgstr "Bu ödeme yönteminin teknik kodu."
 >>>>>>> upstream/18.0
@@ -8171,7 +9140,11 @@ msgstr "Gösterilecek işlem yok"
 #: model_terms:ir.actions.act_window,help:payment.action_payment_token
 msgid "There is no token created yet."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Henüz oluşturulmuş bir belirteç yok."
+>>>>>>> upstream/18.0
 =======
 msgstr "Henüz oluşturulmuş bir belirteç yok."
 >>>>>>> upstream/18.0
@@ -8181,7 +9154,11 @@ msgstr "Henüz oluşturulmuş bir belirteç yok."
 #: code:addons/payment/wizards/payment_link_wizard.py:0
 msgid "There is nothing to be paid."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ödenecek bir şey yok."
+>>>>>>> upstream/18.0
 =======
 msgstr "Ödenecek bir şey yok."
 >>>>>>> upstream/18.0
@@ -8199,6 +9176,11 @@ msgid ""
 "payment method."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Bu eylem aynı zamanda bu ödeme yöntemiyle kaydedilen %s tokenlerini de "
+"arşivleyecektir."
+>>>>>>> upstream/18.0
 =======
 "Bu eylem aynı zamanda bu ödeme yöntemiyle kaydedilen %s tokenlerini de "
 "arşivleyecektir."
@@ -8212,6 +9194,11 @@ msgid ""
 "provider. "
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Bu eylem aynı zamanda bu sağlayıcıya kayıtlı olan %s belirteçlerini de "
+"arşivleyecektir. "
+>>>>>>> upstream/18.0
 =======
 "Bu eylem aynı zamanda bu sağlayıcıya kayıtlı olan %s belirteçlerini de "
 "arşivleyecektir. "
@@ -8256,6 +9243,11 @@ msgid ""
 "provider supporting this method first."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Bu ödeme yönteminin bir suç ortağına ihtiyacı vardır; öncelikle bu yöntemi "
+"destekleyen bir ödeme sağlayıcısını etkinleştirmelisiniz."
+>>>>>>> upstream/18.0
 =======
 "Bu ödeme yönteminin bir suç ortağına ihtiyacı vardır; öncelikle bu yöntemi "
 "destekleyen bir ödeme sağlayıcısını etkinleştirmelisiniz."
@@ -8273,7 +9265,11 @@ msgstr ""
 #: model:payment.method,name:payment.payment_method_tienphong
 msgid "Tienphong"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tienphong"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tienphong"
 >>>>>>> upstream/18.0
@@ -8282,7 +9278,11 @@ msgstr "Tienphong"
 #: model:payment.method,name:payment.payment_method_tinka
 msgid "Tinka"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tinka"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tinka"
 >>>>>>> upstream/18.0
@@ -8297,7 +9297,11 @@ msgstr "Belirteç Satır İçi Form Şablonu"
 #: model:ir.model.fields,field_description:payment.field_payment_provider__support_tokenization
 msgid "Tokenization"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tokenizasyon"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tokenizasyon"
 >>>>>>> upstream/18.0
@@ -8309,6 +9313,12 @@ msgid ""
 "can later be reused without having to enter the payment details again."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Tokenizasyon, ödeme detaylarının daha sonra ödeme detaylarını tekrar girmek "
+"zorunda kalmadan tekrar kullanılabilecek bir token olarak kaydedilmesi "
+"işlemidir."
+>>>>>>> upstream/18.0
 =======
 "Tokenizasyon, ödeme detaylarının daha sonra ödeme detaylarını tekrar girmek "
 "zorunda kalmadan tekrar kullanılabilecek bir token olarak kaydedilmesi "
@@ -8324,7 +9334,11 @@ msgstr ""
 #: model:payment.method,name:payment.payment_method_touch_n_go
 msgid "Touch'n Go"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Touch'n Go"
+>>>>>>> upstream/18.0
 =======
 msgstr "Touch'n Go"
 >>>>>>> upstream/18.0
@@ -8348,7 +9362,11 @@ msgstr ""
 #: model:payment.method,name:payment.payment_method_truemoney
 msgid "TrueMoney"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "TrueMoney"
+>>>>>>> upstream/18.0
 =======
 msgstr "TrueMoney"
 >>>>>>> upstream/18.0
@@ -8357,7 +9375,11 @@ msgstr "TrueMoney"
 #: model:payment.method,name:payment.payment_method_trustly
 msgid "Trustly"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Güvenle"
+>>>>>>> upstream/18.0
 =======
 msgstr "Güvenle"
 >>>>>>> upstream/18.0
@@ -8366,7 +9388,11 @@ msgstr "Güvenle"
 #: model:payment.method,name:payment.payment_method_twint
 msgid "Twint"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Twint"
+>>>>>>> upstream/18.0
 =======
 msgstr "Twint"
 >>>>>>> upstream/18.0
@@ -8508,7 +9534,11 @@ msgid "UPI"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "UPI"
+>>>>>>> upstream/18.0
 =======
 msgstr "UPI"
 >>>>>>> upstream/18.0
@@ -8916,7 +9946,11 @@ msgstr "UPI"
 #: model:payment.method,name:payment.payment_method_ussd
 msgid "USSD"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "USSD"
+>>>>>>> upstream/18.0
 =======
 msgstr "USSD"
 >>>>>>> upstream/18.0
@@ -8925,7 +9959,11 @@ msgstr "USSD"
 #: model:payment.method,name:payment.payment_method_unionpay
 msgid "UnionPay"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "UnionPay"
+>>>>>>> upstream/18.0
 =======
 msgstr "UnionPay"
 >>>>>>> upstream/18.0
@@ -8934,7 +9972,11 @@ msgstr "UnionPay"
 #: model:payment.method,name:payment.payment_method_uob
 msgid "United Overseas Bank"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "United Overseas Bank"
+>>>>>>> upstream/18.0
 =======
 msgstr "United Overseas Bank"
 >>>>>>> upstream/18.0
@@ -8943,7 +9985,11 @@ msgstr "United Overseas Bank"
 #: model:payment.method,name:payment.payment_method_uatp
 msgid "Universal Air Travel Plan"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Evrensel Hava Seyahat Planı"
+>>>>>>> upstream/18.0
 =======
 msgstr "Evrensel Hava Seyahat Planı"
 >>>>>>> upstream/18.0
@@ -8969,7 +10015,11 @@ msgstr "Yükselt"
 #: model:payment.method,name:payment.payment_method_vpay
 msgid "V PAY"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "V ÖDEME"
+>>>>>>> upstream/18.0
 =======
 msgstr "V ÖDEME"
 >>>>>>> upstream/18.0
@@ -8978,7 +10028,11 @@ msgstr "V ÖDEME"
 #: model:payment.method,name:payment.payment_method_visa
 msgid "VISA"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "VISA"
+>>>>>>> upstream/18.0
 =======
 msgstr "VISA"
 >>>>>>> upstream/18.0
@@ -8992,7 +10046,11 @@ msgstr "Ödeme yönteminin doğrulanması"
 #: model:payment.method,name:payment.payment_method_venmo
 msgid "Venmo"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Venmo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Venmo"
 >>>>>>> upstream/18.0
@@ -9001,7 +10059,11 @@ msgstr "Venmo"
 #: model:payment.method,name:payment.payment_method_vietcom
 msgid "Vietcombank"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vietcombank"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vietcombank"
 >>>>>>> upstream/18.0
@@ -9010,7 +10072,11 @@ msgstr "Vietcombank"
 #: model:payment.method,name:payment.payment_method_vipps
 msgid "Vipps"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vipps"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vipps"
 >>>>>>> upstream/18.0
@@ -9019,7 +10085,11 @@ msgstr "Vipps"
 #: model:ir.model.fields,field_description:payment.field_payment_capture_wizard__void_remaining_amount
 msgid "Void Remaining Amount"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Geçersiz Kalan Tutar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Geçersiz Kalan Tutar"
 >>>>>>> upstream/18.0
@@ -9033,7 +10103,11 @@ msgstr "Geçersiz İşlem"
 #: model:payment.method,name:payment.payment_method_wallets_india
 msgid "Wallets India"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cüzdanlar Hindistan"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cüzdanlar Hindistan"
 >>>>>>> upstream/18.0
@@ -9042,7 +10116,11 @@ msgstr "Cüzdanlar Hindistan"
 #: model:payment.method,name:payment.payment_method_walley
 msgid "Walley"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Walley"
+>>>>>>> upstream/18.0
 =======
 msgstr "Walley"
 >>>>>>> upstream/18.0
@@ -9069,7 +10147,11 @@ msgstr "Uyarı!"
 #: model:payment.method,name:payment.payment_method_wechat_pay
 msgid "WeChat Pay"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "WeChat Pay"
+>>>>>>> upstream/18.0
 =======
 msgstr "WeChat Pay"
 >>>>>>> upstream/18.0
@@ -9078,7 +10160,11 @@ msgstr "WeChat Pay"
 #: model:payment.method,name:payment.payment_method_welend
 msgid "WeLend"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "WeLend"
+>>>>>>> upstream/18.0
 =======
 msgstr "WeLend"
 >>>>>>> upstream/18.0
@@ -9087,7 +10173,11 @@ msgstr "WeLend"
 #: model:payment.method,name:payment.payment_method_webpay
 msgid "WebPay"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "WebPay"
+>>>>>>> upstream/18.0
 =======
 msgstr "WebPay"
 >>>>>>> upstream/18.0
@@ -9106,6 +10196,10 @@ msgid ""
 "Whether each of the transactions' provider supports the partial capture."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Her bir işlem sağlayıcısının kısmi yakalamayı destekleyip desteklemediği."
+>>>>>>> upstream/18.0
 =======
 "Her bir işlem sağlayıcısının kısmi yakalamayı destekleyip desteklemediği."
 >>>>>>> upstream/18.0
@@ -9133,7 +10227,11 @@ msgstr "Worldline"
 #: model:payment.provider,name:payment.payment_provider_xendit
 msgid "Xendit"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Xendit"
+>>>>>>> upstream/18.0
 =======
 msgstr "Xendit"
 >>>>>>> upstream/18.0
@@ -9146,6 +10244,11 @@ msgid ""
 "providers."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Etkin olmayan ödeme yöntemlerine veya devre dışı bırakılmış sağlayıcılara "
+"bağlı belirteçleri arşivden çıkaramazsınız."
+>>>>>>> upstream/18.0
 =======
 "Etkin olmayan ödeme yöntemlerine veya devre dışı bırakılmış sağlayıcılara "
 "bağlı belirteçleri arşivden çıkaramazsınız."
@@ -9158,6 +10261,7 @@ msgid ""
 "You cannot change the company of a payment provider with existing "
 "transactions."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: payment
@@ -9994,6 +11098,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Mevcut işlemlerde bir ödeme sağlayıcısının şirketini değiştiremezsiniz."
 
 #. module: payment
@@ -10004,6 +11110,9 @@ msgstr "Varsayılan ödeme yöntemini silemezsiniz."
 
 #. module: payment
 #. odoo-python
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: code:addons/payment/models/payment_provider.py:0
 msgid ""
@@ -10011,6 +11120,11 @@ msgid ""
 "instead."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ödeme sağlayıcısını silemezsiniz %s; bunun yerine devre dışı bırakın veya "
+"kaldırın."
+>>>>>>> upstream/18.0
 =======
 "Ödeme sağlayıcısını silemezsiniz %s; bunun yerine devre dışı bırakın veya "
 "kaldırın."
@@ -10035,6 +11149,11 @@ msgid ""
 "                                    minutes."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Birkaç gün içinde ödemenizi onaylayan bir e-posta alacaksınız.\n"
+"                                    dakikalar."
+>>>>>>> upstream/18.0
 =======
 "Birkaç gün içinde ödemenizi onaylayan bir e-posta alacaksınız.\n"
 "                                    dakikalar."
@@ -10141,7 +11260,11 @@ msgstr "Ödemeniz henüz işleme alınmadı."
 #: model_terms:ir.ui.view,arch_db:payment.payment_status
 msgid "Your payment is on its way!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ödemeniz yolda!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ödemeniz yolda!"
 >>>>>>> upstream/18.0
@@ -10150,7 +11273,11 @@ msgstr "Ödemeniz yolda!"
 #: model_terms:ir.ui.view,arch_db:payment.state_header
 msgid "Your payment method has been saved."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ödeme yönteminiz kaydedildi."
+>>>>>>> upstream/18.0
 =======
 msgstr "Ödeme yönteminiz kaydedildi."
 >>>>>>> upstream/18.0
@@ -10159,7 +11286,11 @@ msgstr "Ödeme yönteminiz kaydedildi."
 #: model_terms:ir.ui.view,arch_db:payment.form
 msgid "Your payment methods"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ödeme yöntemleriniz"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ödeme yöntemleriniz"
 >>>>>>> upstream/18.0
@@ -10184,7 +11315,11 @@ msgstr "PK"
 #: model:payment.method,name:payment.payment_method_cofidis
 msgid "cofidis"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "cofidis"
+>>>>>>> upstream/18.0
 =======
 msgstr "cofidis"
 >>>>>>> upstream/18.0
@@ -10193,7 +11328,11 @@ msgstr "cofidis"
 #: model:payment.method,name:payment.payment_method_enets
 msgid "eNETS"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "eNETS"
+>>>>>>> upstream/18.0
 =======
 msgstr "eNETS"
 >>>>>>> upstream/18.0
@@ -10203,7 +11342,11 @@ msgstr "eNETS"
 #: code:addons/payment/const.py:0
 msgid "express checkout not supported"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ekspres ödeme desteklenmiyor"
+>>>>>>> upstream/18.0
 =======
 msgstr "ekspres ödeme desteklenmiyor"
 >>>>>>> upstream/18.0
@@ -10212,7 +11355,11 @@ msgstr "ekspres ödeme desteklenmiyor"
 #: model:payment.method,name:payment.payment_method_ideal
 msgid "iDEAL"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "iDEAL"
+>>>>>>> upstream/18.0
 =======
 msgstr "iDEAL"
 >>>>>>> upstream/18.0
@@ -10221,7 +11368,11 @@ msgstr "iDEAL"
 #: model:payment.method,name:payment.payment_method_in3
 msgid "in3"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "içinde3"
+>>>>>>> upstream/18.0
 =======
 msgstr "içinde3"
 >>>>>>> upstream/18.0
@@ -10231,7 +11382,11 @@ msgstr "içinde3"
 #: code:addons/payment/const.py:0
 msgid "incompatible country"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "uyumsuz ülke"
+>>>>>>> upstream/18.0
 =======
 msgstr "uyumsuz ülke"
 >>>>>>> upstream/18.0
@@ -10241,7 +11396,11 @@ msgstr "uyumsuz ülke"
 #: code:addons/payment/const.py:0
 msgid "incompatible currency"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "uyumsuz para birimi"
+>>>>>>> upstream/18.0
 =======
 msgstr "uyumsuz para birimi"
 >>>>>>> upstream/18.0
@@ -10251,7 +11410,11 @@ msgstr "uyumsuz para birimi"
 #: code:addons/payment/const.py:0
 msgid "incompatible website"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "uyumsuz web sitesi"
+>>>>>>> upstream/18.0
 =======
 msgstr "uyumsuz web sitesi"
 >>>>>>> upstream/18.0
@@ -10261,7 +11424,11 @@ msgstr "uyumsuz web sitesi"
 #: code:addons/payment/const.py:0
 msgid "manual capture not supported"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "manuel yakalama desteklenmiyor"
+>>>>>>> upstream/18.0
 =======
 msgstr "manuel yakalama desteklenmiyor"
 >>>>>>> upstream/18.0
@@ -10271,7 +11438,11 @@ msgstr "manuel yakalama desteklenmiyor"
 #: code:addons/payment/const.py:0
 msgid "maximum amount exceeded"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "aşılan maksimum miktar"
+>>>>>>> upstream/18.0
 =======
 msgstr "aşılan maksimum miktar"
 >>>>>>> upstream/18.0
@@ -10281,7 +11452,11 @@ msgstr "aşılan maksimum miktar"
 #: code:addons/payment/const.py:0
 msgid "no supported provider available"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "desteklenen sağlayıcı mevcut değil"
+>>>>>>> upstream/18.0
 =======
 msgstr "desteklenen sağlayıcı mevcut değil"
 >>>>>>> upstream/18.0
@@ -10290,7 +11465,11 @@ msgstr "desteklenen sağlayıcı mevcut değil"
 #: model_terms:ir.ui.view,arch_db:payment.payment_provider_search
 msgid "payment method"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ödeme yöntemi"
+>>>>>>> upstream/18.0
 =======
 msgstr "ödeme yöntemi"
 >>>>>>> upstream/18.0
@@ -10308,6 +11487,11 @@ msgid ""
 "                    payment."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"bunu yapmak için\n"
+"                    Ödeme."
+>>>>>>> upstream/18.0
 =======
 "bunu yapmak için\n"
 "                    Ödeme."
@@ -10318,7 +11502,11 @@ msgstr ""
 #: code:addons/payment/const.py:0
 msgid "tokenization not supported"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "tokenization desteklenmiyor"
+>>>>>>> upstream/18.0
 =======
 msgstr "tokenization desteklenmiyor"
 >>>>>>> upstream/18.0
@@ -10328,7 +11516,11 @@ msgstr "tokenization desteklenmiyor"
 #: code:addons/payment/const.py:0
 msgid "tokenization without payment no supported"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ödemesiz tokenizasyon desteklenmiyor"
+>>>>>>> upstream/18.0
 =======
 msgstr "ödemesiz tokenizasyon desteklenmiyor"
 >>>>>>> upstream/18.0

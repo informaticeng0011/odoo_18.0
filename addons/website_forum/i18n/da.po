@@ -1,8 +1,13 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* website_forum
 # 
+=======
+# * website_forum
+#
+>>>>>>> upstream/18.0
 =======
 # * website_forum
 #
@@ -14,6 +19,7 @@
 # Sanne Kristensen <sanne@vkdata.dk>, 2024
 # Martin Trigaux, 2024
 # Mads Søndergaard, 2024
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -432,11 +438,16 @@
 # Kira Petersen, 2025
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
+=======
+# Kira Petersen, 2025
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 <<<<<<< HEAD
@@ -859,6 +870,8 @@ msgstr ""
 "Language: da\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-11-21 06:38+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Danish <https://translate.odoo.com/projects/odoo-18/"
@@ -869,6 +882,9 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: website_forum
@@ -1042,7 +1058,11 @@ msgstr "&amp;nbsp;"
 #: code:addons/website_forum/static/src/xml/website_forum_tags_wrapper.xml:0
 msgid "'Please enter 2 or more characters'"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "'Indtast venligst 2 eller flere tegn'"
+>>>>>>> upstream/18.0
 =======
 msgstr "'Indtast venligst 2 eller flere tegn'"
 >>>>>>> upstream/18.0
@@ -1052,7 +1072,11 @@ msgstr "'Indtast venligst 2 eller flere tegn'"
 #: code:addons/website_forum/static/src/xml/website_forum_tags_wrapper.xml:0
 msgid "'Tags'"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "'Tags'"
+>>>>>>> upstream/18.0
 =======
 msgstr "'Tags'"
 >>>>>>> upstream/18.0
@@ -1399,7 +1423,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_forum.post_display
 msgid "<i class=\"fa fa-reply me-1\"/>Reply"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-reply me-1\"/>Svar"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-reply me-1\"/>Svar"
 >>>>>>> upstream/18.0
@@ -1460,7 +1488,11 @@ msgstr "<i class=\"fa fa-times\"/> Afvis"
 #: model_terms:ir.ui.view,arch_db:website_forum.moderation_queue
 msgid "<i class=\"fa fa-times\"/><span class=\"ms-2\">Offensive</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-times\"/><span class=\"ms-2\">Stødende</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-times\"/><span class=\"ms-2\">Stødende</span>"
 >>>>>>> upstream/18.0
@@ -1479,7 +1511,11 @@ msgstr "<i class=\"fa fa-user\"/> Bruger"
 #: model_terms:ir.ui.view,arch_db:website_forum.user_sidebar_body
 msgid "<i class=\"fa fa-users fa-fw opacity-50\"/> People"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-users fa-fw opacity-50\"/> Personer"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-users fa-fw opacity-50\"/> Personer"
 >>>>>>> upstream/18.0
@@ -1512,7 +1548,11 @@ msgstr "<small class=\"fw-bold\">Stemmer</small>"
 #: model_terms:ir.ui.view,arch_db:website_forum.user_sidebar_body
 msgid "<small>(View all)</small>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<small>(Vis alle)</small>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<small>(Vis alle)</small>"
 >>>>>>> upstream/18.0
@@ -1546,6 +1586,10 @@ msgstr ""
 msgid "<span class=\"flex-grow-1\">What kind of questions can I ask here?</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"flex-grow-1\">Hvilken type spørgsmål kan jeg stille her?</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"flex-grow-1\">Hvilken type spørgsmål kan jeg stille her?</span>"
 >>>>>>> upstream/18.0
@@ -1555,7 +1599,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_forum.default_faq
 msgid "<span class=\"flex-grow-1\">What should I avoid in my answers?</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"flex-grow-1\">Hvad bør jeg undgå i mine svar?</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"flex-grow-1\">Hvad bør jeg undgå i mine svar?</span>"
 >>>>>>> upstream/18.0
@@ -1565,7 +1613,11 @@ msgstr "<span class=\"flex-grow-1\">Hvad bør jeg undgå i mine svar?</span>"
 #: model_terms:ir.ui.view,arch_db:website_forum.default_faq
 msgid "<span class=\"flex-grow-1\">What should I avoid in my questions?</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"flex-grow-1\">Hvad bør jeg undgå i mine svar?</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"flex-grow-1\">Hvad bør jeg undgå i mine svar?</span>"
 >>>>>>> upstream/18.0
@@ -1578,6 +1630,11 @@ msgid ""
 "questions/answers?</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"flex-grow-1\">Hvorfor kan andre personer redigere mine svar/"
+"spørgsmål?</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"flex-grow-1\">Hvorfor kan andre personer redigere mine svar/"
 "spørgsmål?</span>"
@@ -1591,6 +1648,11 @@ msgid ""
 "example.</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"form-text small text-muted d-block\">Overvej at tilføje et "
+"eksempel.</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"form-text small text-muted d-block\">Overvej at tilføje et "
 "eksempel.</span>"
@@ -1604,6 +1666,11 @@ msgid ""
 "it.</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"form-text small text-muted d-block\">Vælg tekst for at "
+"formatere den.</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"form-text small text-muted d-block\">Vælg tekst for at "
 "formatere den.</span>"
@@ -1617,6 +1684,11 @@ msgid ""
 "images.</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"form-text small text-muted d-block\">Brug '/' for at indsætte "
+"billeder.</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"form-text small text-muted d-block\">Brug '/' for at indsætte "
 "billeder.</span>"
@@ -1630,6 +1702,11 @@ msgid ""
 "lightbulb-o\"/> Tip:</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"form-text small text-muted me-1\"><i class="
+"\"fa fa-lightbulb-o\"/> Tip:</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"form-text small text-muted me-1\"><i class="
 "\"fa fa-lightbulb-o\"/> Tip:</span>"
@@ -1783,7 +1860,11 @@ msgstr "Alle"
 #: model_terms:ir.ui.view,arch_db:website_forum.user_sidebar_body
 msgid "All Posts"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Alle bidrag"
+>>>>>>> upstream/18.0
 =======
 msgstr "Alle bidrag"
 >>>>>>> upstream/18.0
@@ -1924,7 +2005,11 @@ msgstr "Arkiveret"
 #: code:addons/website_forum/static/src/js/website_forum.js:0
 msgid "Are you sure you want to delete this comment?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Er du sikker på, du ønsker at slette denne kommentar?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Er du sikker på, du ønsker at slette denne kommentar?"
 >>>>>>> upstream/18.0
@@ -2193,7 +2278,11 @@ msgstr "Klik for at sende dit spørgsmål."
 #: code:addons/website_forum/static/src/js/tours/website_forum.js:0
 msgid "Click to reply."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Klik for at svare."
+>>>>>>> upstream/18.0
 =======
 msgstr "Klik for at svare."
 >>>>>>> upstream/18.0
@@ -2319,7 +2408,11 @@ msgstr "Indhold"
 #: model:ir.model.fields,field_description:website_forum.field_forum_forum__karma_comment_convert_all
 msgid "Convert all comments to answers"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Konvertér alle kommentarer til svar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Konvertér alle kommentarer til svar"
 >>>>>>> upstream/18.0
@@ -2333,7 +2426,11 @@ msgstr "Omdan kommentar til svar"
 #: model:ir.model.fields,field_description:website_forum.field_forum_forum__karma_comment_convert_own
 msgid "Convert own comments to answers"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Konvertér egne kommentarer til svar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Konvertér egne kommentarer til svar"
 >>>>>>> upstream/18.0
@@ -2342,7 +2439,11 @@ msgstr "Konvertér egne kommentarer til svar"
 #: model_terms:ir.ui.view,arch_db:website_forum.post_dropdown
 msgid "Convert to Comment"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Konvertér til kommentar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Konvertér til kommentar"
 >>>>>>> upstream/18.0
@@ -2494,6 +2595,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Opret en konto i dag for at få glæde af eksklusive funktioner, og bliv en "
+"del af vores skønne fællesskab!"
+>>>>>>> upstream/18.0
 =======
 "Opret en konto i dag for at få glæde af eksklusive funktioner, og bliv en "
 "del af vores skønne fællesskab!"
@@ -2921,7 +3027,11 @@ msgstr "Opret nye tags"
 #: code:addons/website_forum/static/src/xml/website_forum_tags_wrapper.xml:0
 msgid "Create option \""
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Opret mulighed \""
+>>>>>>> upstream/18.0
 =======
 msgstr "Opret mulighed \""
 >>>>>>> upstream/18.0
@@ -3004,7 +3114,11 @@ msgstr "Slet"
 #: model:ir.model.fields,field_description:website_forum.field_forum_forum__karma_comment_unlink_all
 msgid "Delete all comments"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Slet alle kommentarer"
+>>>>>>> upstream/18.0
 =======
 msgstr "Slet alle kommentarer"
 >>>>>>> upstream/18.0
@@ -3018,7 +3132,11 @@ msgstr "Slet alle indlæg"
 #: model:ir.model.fields,field_description:website_forum.field_forum_forum__karma_comment_unlink_own
 msgid "Delete own comments"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Slet egne kommentarer"
+>>>>>>> upstream/18.0
 =======
 msgstr "Slet egne kommentarer"
 >>>>>>> upstream/18.0
@@ -3120,7 +3238,11 @@ msgstr "Nedstem"
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "Downvote for posting offensive contents"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nedstemt for at have postet stødende indhold"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nedstemt for at have postet stødende indhold"
 >>>>>>> upstream/18.0
@@ -3191,7 +3313,11 @@ msgstr "Tom kasse"
 #: model_terms:ir.ui.view,arch_db:website_forum.forum_sign_up_cta
 msgid "Enjoying the discussion? Don't just read, join in!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kan du lide at diskutere? Læs ikke bare med, deltag aktivt i debatten!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kan du lide at diskutere? Læs ikke bare med, deltag aktivt i debatten!"
 >>>>>>> upstream/18.0
@@ -3436,7 +3562,11 @@ msgstr "Forum tag"
 #: model:ir.actions.act_window,name:website_forum.forum_tag_action
 msgid "Forum Tags"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Forum-tags"
+>>>>>>> upstream/18.0
 =======
 msgstr "Forum-tags"
 >>>>>>> upstream/18.0
@@ -3852,7 +3982,11 @@ msgstr "Marker som bedste svar"
 #: model_terms:ir.ui.view,arch_db:website_forum.show_flag_validator
 msgid "Mark as Offensive"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Markér som stødende"
+>>>>>>> upstream/18.0
 =======
 msgstr "Markér som stødende"
 >>>>>>> upstream/18.0
@@ -4108,7 +4242,11 @@ msgstr "Stødende indlæg"
 #: model_terms:ir.ui.view,arch_db:website_forum.moderation_queue
 msgid "Offensive Posts"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stødende indlæg"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stødende indlæg"
 >>>>>>> upstream/18.0
@@ -4234,7 +4372,11 @@ msgstr "Skriv dit svar"
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "Post is closed and marked as offensive content"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Indlæg er lukket og markeret som stødende indhold"
+>>>>>>> upstream/18.0
 =======
 msgstr "Indlæg er lukket og markeret som stødende indhold"
 >>>>>>> upstream/18.0
@@ -4472,7 +4614,11 @@ msgstr "Afslå"
 #: model_terms:ir.ui.view,arch_db:website_forum.forum_related_posts
 msgid "Related Posts"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Relaterede indlæg"
+>>>>>>> upstream/18.0
 =======
 msgstr "Relaterede indlæg"
 >>>>>>> upstream/18.0
@@ -4535,7 +4681,11 @@ msgstr "Svar på eget spørgsmål"
 #: model:ir.model.fields,help:website_forum.field_forum_post__website_id
 msgid "Restrict to a specific website."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Begræns til en bestemt hjemmeside."
+>>>>>>> upstream/18.0
 =======
 msgstr "Begræns til en bestemt hjemmeside."
 >>>>>>> upstream/18.0
@@ -5303,7 +5453,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_forum.new_question
 msgid "Write a clear, explicit and concise title"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Skriv en tydelig, præcis og kortfattet titel"
+>>>>>>> upstream/18.0
 =======
 msgstr "Skriv en tydelig, præcis og kortfattet titel"
 >>>>>>> upstream/18.0
@@ -5396,7 +5550,11 @@ msgstr "Du følger dette indlæg"
 #: model_terms:ir.ui.view,arch_db:website_forum.no_results_message
 msgid "You've Completely Caught&amp;nbsp;Up!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Du er helt opdateret!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Du er helt opdateret!"
 >>>>>>> upstream/18.0

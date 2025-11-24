@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* mrp_subcontracting
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -392,6 +393,9 @@
 =======
 # * mrp_subcontracting
 >>>>>>> upstream/18.0
+=======
+# * mrp_subcontracting
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Marta Marouço, 2025
@@ -437,6 +441,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -524,6 +531,7 @@
 # Wil Odoo, 2025
 # Peter Lawrence Romão <peterromao@yahoo.co.uk>, 2025
 # Daniel Reis, 2025
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -949,10 +957,14 @@
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1434,16 +1446,22 @@ msgstr ""
 "Last-Translator: Daniel Reis, 2025\n"
 "Language-Team: Portuguese (https://app.transifex.com/odoo/teams/41243/pt/)\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-10-11 02:17+0000\n"
 "PO-Revision-Date: 2025-11-13 13:04+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Portuguese <https://translate.odoo.com/projects/odoo-18/"
 "mrp_subcontracting/pt/>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % "
 "1000000 == 0 ? 1 : 2;\n"
@@ -1573,6 +1591,11 @@ msgstr ""
 "1000000 == 0) ? 1 : 2);\n"
 "X-Generator: Weblate 5.12.2\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % "
+"1000000 == 0) ? 1 : 2);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: mrp_subcontracting
 #. odoo-python
@@ -1617,7 +1640,11 @@ msgstr "Tipo de BoM"
 #: model:ir.model.fields,field_description:mrp_subcontracting.field_res_users__bom_ids
 msgid "BoMs for which the Partner is one of the subcontractors"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "LMs para as quais o usuário é um dos subcontratados"
+>>>>>>> upstream/18.0
 =======
 msgstr "LMs para as quais o usuário é um dos subcontratados"
 >>>>>>> upstream/18.0
@@ -1626,7 +1653,11 @@ msgstr "LMs para as quais o usuário é um dos subcontratados"
 #: model:ir.model.fields,field_description:mrp_subcontracting.field_mrp_production__bom_product_ids
 msgid "Bom Product"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Produto da LM"
+>>>>>>> upstream/18.0
 =======
 msgstr "Produto da LM"
 >>>>>>> upstream/18.0
@@ -1635,7 +1666,11 @@ msgstr "Produto da LM"
 #: model:ir.model,name:mrp_subcontracting.model_change_production_qty
 msgid "Change Production Qty"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Alterar qtd. de produção"
+>>>>>>> upstream/18.0
 =======
 msgstr "Alterar qtd. de produção"
 >>>>>>> upstream/18.0
@@ -1648,6 +1683,12 @@ msgid ""
 "take these into account automatically."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Marque esta caixa para criar um novo local de subcontratação dedicado para "
+"esta empresa. Observe que as rotas padrões de subcontratação serão adaptadas "
+"para levá-los em consideração automaticamente."
+>>>>>>> upstream/18.0
 =======
 "Marque esta caixa para criar um novo local de subcontratação dedicado para "
 "esta empresa. Observe que as rotas padrões de subcontratação serão adaptadas "
@@ -1660,6 +1701,10 @@ msgid ""
 "Choose a vendor of type subcontractor if you want to subcontract the product"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Escolha um fornecedor do tipo subcontratado se desejar subcontratar o produto"
+>>>>>>> upstream/18.0
 =======
 "Escolha um fornecedor do tipo subcontratado se desejar subcontratar o produto"
 >>>>>>> upstream/18.0
@@ -1688,7 +1733,11 @@ msgstr "Continuar"
 #: model_terms:ir.ui.view,arch_db:mrp_subcontracting.portal_my_productions
 msgid "Deadline Date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prazo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prazo"
 >>>>>>> upstream/18.0
@@ -1697,7 +1746,11 @@ msgstr "Prazo"
 #: model_terms:ir.ui.view,arch_db:mrp_subcontracting.subcontracting_portal_production_form_view
 msgid "Demand"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Demanda"
+>>>>>>> upstream/18.0
 =======
 msgstr "Demanda"
 >>>>>>> upstream/18.0
@@ -1711,7 +1764,11 @@ msgstr "Descrição"
 #: model:ir.model.fields,field_description:mrp_subcontracting.field_mrp_production__move_line_raw_ids
 msgid "Detail Component"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Detalhe do componente"
+>>>>>>> upstream/18.0
 =======
 msgstr "Detalhe do componente"
 >>>>>>> upstream/18.0
@@ -1731,7 +1788,11 @@ msgstr "Descartar"
 #: model:ir.model.fields,field_description:mrp_subcontracting.field_stock_picking__display_action_record_components
 msgid "Display Action Record Components"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Exibir ação de registro de componentes"
+>>>>>>> upstream/18.0
 =======
 msgstr "Exibir ação de registro de componentes"
 >>>>>>> upstream/18.0
@@ -1747,7 +1808,11 @@ msgstr "Concluído"
 #: model:ir.model.fields.selection,name:mrp_subcontracting.selection__stock_picking__display_action_record_components__facultative
 msgid "Facultative"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Facultativo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Facultativo"
 >>>>>>> upstream/18.0
@@ -1761,7 +1826,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp_subcontracting.field_mrp_production__subcontracting_has_been_recorded
 msgid "Has been recorded?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Foi registrado?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Foi registrado?"
 >>>>>>> upstream/18.0
@@ -1783,7 +1852,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mrp_subcontracting.mrp_production_subcontracting_filter
 msgid "Incoming transfer"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Transferência de entrada"
+>>>>>>> upstream/18.0
 =======
 msgstr "Transferência de entrada"
 >>>>>>> upstream/18.0
@@ -1797,7 +1870,11 @@ msgstr "Localizações de Inventário"
 #: model:ir.model.fields,field_description:mrp_subcontracting.field_stock_quant__is_subcontract
 msgid "Is Subcontract"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "É subcontratação"
+>>>>>>> upstream/18.0
 =======
 msgstr "É subcontratação"
 >>>>>>> upstream/18.0
@@ -1806,7 +1883,11 @@ msgstr "É subcontratação"
 #: model:ir.model.fields,field_description:mrp_subcontracting.field_stock_location__is_subcontracting_location
 msgid "Is a Subcontracting Location?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "É um local de subcontratação?"
+>>>>>>> upstream/18.0
 =======
 msgstr "É um local de subcontratação?"
 >>>>>>> upstream/18.0
@@ -1814,6 +1895,7 @@ msgstr "É um local de subcontratação?"
 #. module: mrp_subcontracting
 #: model:ir.model.fields,help:mrp_subcontracting.field_mrp_production__bom_product_ids
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2024,11 +2106,16 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "List of Products used in the BoM, used to filter the list of products in the "
 "subcontracting portal view"
 msgstr ""
 "Lista de produtos usados na LM, usada para filtrar a lista de produtos na "
 "visualização do portal de subcontratação"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mrp_subcontracting
@@ -2036,7 +2123,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp_subcontracting.field_res_users__production_ids
 msgid "MRP Productions for which the Partner is the subcontractor"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Produções para as quais o usuário é o subcontratado"
+>>>>>>> upstream/18.0
 =======
 msgstr "Produções para as quais o usuário é o subcontratado"
 >>>>>>> upstream/18.0
@@ -2049,6 +2140,11 @@ msgid ""
 "subcontractor in order to avoid inconsistencies in your stock."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Certifique-se de validar ou adaptar a separação de reposição relacionada ao "
+"seu subcontratado para evitar inconsistências em seu estoque."
+>>>>>>> upstream/18.0
 =======
 "Certifique-se de validar ou adaptar a separação de reposição relacionada ao "
 "seu subcontratado para evitar inconsistências em seu estoque."
@@ -2092,7 +2188,11 @@ msgstr "Mais Recente"
 #: code:addons/mrp_subcontracting/models/stock_picking.py:0
 msgid "Nothing to record"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nada para registrar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nada para registrar"
 >>>>>>> upstream/18.0
@@ -2112,7 +2212,11 @@ msgstr "Operações"
 #: model:ir.model.fields,field_description:mrp_subcontracting.field_stock_picking__move_line_ids_without_package
 msgid "Operations without package"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Operações sem embalagem"
+>>>>>>> upstream/18.0
 =======
 msgstr "Operações sem embalagem"
 >>>>>>> upstream/18.0
@@ -2130,6 +2234,11 @@ msgid ""
 "current state to 'Done'."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Os usuários do portal não podem criar uma movimentação de estoque com "
+"situação \"Concluído\" ou alterar a situação atual para \"Concluído\"."
+>>>>>>> upstream/18.0
 =======
 "Os usuários do portal não podem criar uma movimentação de estoque com "
 "situação \"Concluído\" ou alterar a situação atual para \"Concluído\"."
@@ -2144,7 +2253,11 @@ msgstr "Movimentos de Artigo (Linha de Movimentos de Armazém)"
 #: model:ir.model,name:mrp_subcontracting.model_stock_replenish_mixin
 msgid "Product Replenish Mixin"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mixin de reposição de produtos"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mixin de reposição de produtos"
 >>>>>>> upstream/18.0
@@ -2170,7 +2283,11 @@ msgstr "Quants"
 #: code:addons/mrp_subcontracting/models/stock_move.py:0
 msgid "Raw Materials for %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Matérias-primas para %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Matérias-primas para %s"
 >>>>>>> upstream/18.0
@@ -2184,6 +2301,7 @@ msgstr "Pronto"
 #. module: mrp_subcontracting
 #: model_terms:ir.ui.view,arch_db:mrp_subcontracting.mrp_production_subcontracting_form_view
 msgid "Record Production"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2697,12 +2815,19 @@ msgstr "Registar Produção"
 =======
 msgstr "Registar Produção"
 >>>>>>> upstream/18.0
+=======
+msgstr "Registar Produção"
+>>>>>>> upstream/18.0
 
 #. module: mrp_subcontracting
 #: model_terms:ir.ui.view,arch_db:mrp_subcontracting.stock_picking_form_view
 msgid "Record components"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Registrar componentes"
+>>>>>>> upstream/18.0
 =======
 msgstr "Registrar componentes"
 >>>>>>> upstream/18.0
@@ -2711,7 +2836,11 @@ msgstr "Registrar componentes"
 #: model_terms:ir.ui.view,arch_db:mrp_subcontracting.subcontracting_portal_production_form_view
 msgid "Register components for subcontracted product"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Registrar componentes para produtos de subcontratação"
+>>>>>>> upstream/18.0
 =======
 msgstr "Registrar componentes para produtos de subcontratação"
 >>>>>>> upstream/18.0
@@ -2721,7 +2850,11 @@ msgstr "Registrar componentes para produtos de subcontratação"
 #: code:addons/mrp_subcontracting/models/stock_warehouse.py:0
 msgid "Replenish on Order (MTO)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Reposição por pedido (sob demanda)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Reposição por pedido (sob demanda)"
 >>>>>>> upstream/18.0
@@ -2732,7 +2865,11 @@ msgstr "Reposição por pedido (sob demanda)"
 #: model:ir.model.fields,field_description:mrp_subcontracting.field_stock_warehouse__subcontracting_route_id
 msgid "Resupply Subcontractor"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Reposição para subcontratação"
+>>>>>>> upstream/18.0
 =======
 msgstr "Reposição para subcontratação"
 >>>>>>> upstream/18.0
@@ -2744,7 +2881,11 @@ msgstr "Reposição para subcontratação"
 #: model:stock.route,name:mrp_subcontracting.route_resupply_subcontractor_mto
 msgid "Resupply Subcontractor on Order"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Reposição sob demanda para subcontratação"
+>>>>>>> upstream/18.0
 =======
 msgstr "Reposição sob demanda para subcontratação"
 >>>>>>> upstream/18.0
@@ -2753,7 +2894,11 @@ msgstr "Reposição sob demanda para subcontratação"
 #: model:ir.model.fields,field_description:mrp_subcontracting.field_stock_warehouse__subcontracting_to_resupply
 msgid "Resupply Subcontractors"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Reposição para subcontratação"
+>>>>>>> upstream/18.0
 =======
 msgstr "Reposição para subcontratação"
 >>>>>>> upstream/18.0
@@ -2777,7 +2922,11 @@ msgstr "Data Agendada"
 #: model:ir.model.fields,field_description:mrp_subcontracting.field_stock_move__show_subcontracting_details_visible
 msgid "Show Subcontracting Details Visible"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mostrar detalhes de subcontratação visíveis"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mostrar detalhes de subcontratação visíveis"
 >>>>>>> upstream/18.0
@@ -2802,7 +2951,11 @@ msgstr "Movimento do Inventário"
 #: model:ir.model.fields,field_description:mrp_subcontracting.field_res_users__picking_ids
 msgid "Stock Pickings for which the Partner is the subcontractor"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Separações de estoque para as quais o usuário é o subcontratado"
+>>>>>>> upstream/18.0
 =======
 msgstr "Separações de estoque para as quais o usuário é o subcontratado"
 >>>>>>> upstream/18.0
@@ -2817,7 +2970,11 @@ msgstr "Regras de Inventariação"
 #: code:addons/mrp_subcontracting/models/stock_move.py:0
 msgid "Subcontract"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Subcontratar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Subcontratar"
 >>>>>>> upstream/18.0
@@ -2826,7 +2983,11 @@ msgstr "Subcontratar"
 #: model:ir.model.fields,field_description:mrp_subcontracting.field_product_supplierinfo__is_subcontractor
 msgid "Subcontracted"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Subcontratado"
+>>>>>>> upstream/18.0
 =======
 msgstr "Subcontratado"
 >>>>>>> upstream/18.0
@@ -2836,7 +2997,11 @@ msgstr "Subcontratado"
 #: code:addons/mrp_subcontracting/models/mrp_production.py:0
 msgid "Subcontracted manufacturing orders cannot be merged."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "As ordens de produção subcontratadas não podem ser mescladas."
+>>>>>>> upstream/18.0
 =======
 msgstr "As ordens de produção subcontratadas não podem ser mescladas."
 >>>>>>> upstream/18.0
@@ -2848,7 +3013,11 @@ msgstr "As ordens de produção subcontratadas não podem ser mescladas."
 #: model_terms:ir.ui.view,arch_db:mrp_subcontracting.stock_picking_form_view
 msgid "Subcontracting"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Subcontratação"
+>>>>>>> upstream/18.0
 =======
 msgstr "Subcontratação"
 >>>>>>> upstream/18.0
@@ -2859,7 +3028,11 @@ msgstr "Subcontratação"
 #: model:ir.model.fields,field_description:mrp_subcontracting.field_res_company__subcontracting_location_id
 msgid "Subcontracting Location"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Local de subcontratação"
+>>>>>>> upstream/18.0
 =======
 msgstr "Local de subcontratação"
 >>>>>>> upstream/18.0
@@ -2868,7 +3041,11 @@ msgstr "Local de subcontratação"
 #: model_terms:ir.ui.view,arch_db:mrp_subcontracting.quant_subcontracting_search_view
 msgid "Subcontracting Locations"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Locais de subcontratação"
+>>>>>>> upstream/18.0
 =======
 msgstr "Locais de subcontratação"
 >>>>>>> upstream/18.0
@@ -2877,7 +3054,11 @@ msgstr "Locais de subcontratação"
 #: model:ir.model.fields,field_description:mrp_subcontracting.field_stock_warehouse__subcontracting_mto_pull_id
 msgid "Subcontracting MTO Rule"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Regra de PSE para subcontratação"
+>>>>>>> upstream/18.0
 =======
 msgstr "Regra de PSE para subcontratação"
 >>>>>>> upstream/18.0
@@ -2886,7 +3067,11 @@ msgstr "Regra de PSE para subcontratação"
 #: model:ir.model.fields,field_description:mrp_subcontracting.field_stock_warehouse__subcontracting_pull_id
 msgid "Subcontracting MTS Rule"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Regra de FPE para subcontratação"
+>>>>>>> upstream/18.0
 =======
 msgstr "Regra de FPE para subcontratação"
 >>>>>>> upstream/18.0
@@ -2895,7 +3080,11 @@ msgstr "Regra de FPE para subcontratação"
 #: model:ir.model.fields,field_description:mrp_subcontracting.field_stock_warehouse__subcontracting_type_id
 msgid "Subcontracting Operation Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tipo de operação de subcontratação"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tipo de operação de subcontratação"
 >>>>>>> upstream/18.0
@@ -2904,7 +3093,11 @@ msgstr "Tipo de operação de subcontratação"
 #: model:ir.actions.act_window,name:mrp_subcontracting.subcontracting_portal_view_production_action
 msgid "Subcontracting Portal"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Portal da subcontratação"
+>>>>>>> upstream/18.0
 =======
 msgstr "Portal da subcontratação"
 >>>>>>> upstream/18.0
@@ -2913,7 +3106,11 @@ msgstr "Portal da subcontratação"
 #: model:ir.model.fields,field_description:mrp_subcontracting.field_stock_warehouse__subcontracting_resupply_type_id
 msgid "Subcontracting Resupply Operation Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tipo de operação de reposição subcontratada"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tipo de operação de reposição subcontratada"
 >>>>>>> upstream/18.0
@@ -2923,7 +3120,11 @@ msgstr "Tipo de operação de reposição subcontratada"
 #: code:addons/mrp_subcontracting/static/src/components/bom_overview_special_line/mrp_bom_overview_special_line.xml:0
 msgid "Subcontracting:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Subcontratação:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Subcontratação:"
 >>>>>>> upstream/18.0
@@ -2933,7 +3134,11 @@ msgstr "Subcontratação:"
 #: code:addons/mrp_subcontracting/report/mrp_report_bom_structure.py:0
 msgid "Subcontracting: %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Subcontratação: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Subcontratação: %s"
 >>>>>>> upstream/18.0
@@ -3072,7 +3277,11 @@ msgid "Subcontractor"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Subcontratatado"
+>>>>>>> upstream/18.0
 =======
 msgstr "Subcontratatado"
 >>>>>>> upstream/18.0
@@ -3463,7 +3672,11 @@ msgstr "Subcontratatado"
 #: model:ir.model.fields,field_description:mrp_subcontracting.field_res_users__property_stock_subcontractor
 msgid "Subcontractor Location"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Local da subcontratação"
+>>>>>>> upstream/18.0
 =======
 msgstr "Local da subcontratação"
 >>>>>>> upstream/18.0
@@ -3473,7 +3686,11 @@ msgstr "Local da subcontratação"
 #: model_terms:ir.ui.view,arch_db:mrp_subcontracting.view_partner_mrp_subcontracting_filter
 msgid "Subcontractors"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Subcontratatados"
+>>>>>>> upstream/18.0
 =======
 msgstr "Subcontratatados"
 >>>>>>> upstream/18.0
@@ -3487,7 +3704,11 @@ msgstr "Lista de Preços de Fornecedor"
 #: model:ir.model.fields,field_description:mrp_subcontracting.field_stock_move__is_subcontract
 msgid "The move is a subcontract receipt"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "A movimentação é um recebimento de subcontratação"
+>>>>>>> upstream/18.0
 =======
 msgstr "A movimentação é um recebimento de subcontratação"
 >>>>>>> upstream/18.0
@@ -3500,6 +3721,11 @@ msgid ""
 "to this contact during a subcontracting process."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"O local do estoque usado como origem e destino ao enviar mercadorias para "
+"esse contato durante um processo de subcontratação."
+>>>>>>> upstream/18.0
 =======
 "O local do estoque usado como origem e destino ao enviar mercadorias para "
 "esse contato durante um processo de subcontratação."
@@ -3509,7 +3735,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mrp_subcontracting.portal_my_productions
 msgid "There are currently no productions for your account."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Não há produções para sua conta no momento."
+>>>>>>> upstream/18.0
 =======
 msgstr "Não há produções para sua conta no momento."
 >>>>>>> upstream/18.0
@@ -3518,6 +3748,7 @@ msgstr "Não há produções para sua conta no momento."
 #. odoo-python
 #: code:addons/mrp_subcontracting/models/stock_picking.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3728,11 +3959,16 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "There shouldn't be multiple productions to record for the same subcontracted "
 "move."
 msgstr ""
 "Não deve haver várias produções a serem registradas para a mesma "
 "movimentação de subcontratado."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mrp_subcontracting
@@ -3740,7 +3976,11 @@ msgstr ""
 #: code:addons/mrp_subcontracting/models/mrp_production.py:0
 msgid "This MO isn't related to a subcontracted move"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Essa OP não está relacionada a uma movimentação de subcontratação"
+>>>>>>> upstream/18.0
 =======
 msgstr "Essa OP não está relacionada a uma movimentação de subcontratação"
 >>>>>>> upstream/18.0
@@ -3749,7 +3989,11 @@ msgstr "Essa OP não está relacionada a uma movimentação de subcontratação"
 #: model_terms:ir.ui.view,arch_db:mrp_subcontracting.mrp_subcontracting_move_form_view
 msgid "Total Consumed"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Total consumido"
+>>>>>>> upstream/18.0
 =======
 msgstr "Total consumido"
 >>>>>>> upstream/18.0
@@ -3765,6 +4009,11 @@ msgstr "Transferência"
 msgid "Used to restrict access to the portal user through Record Rules"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Usado para restringir o acesso ao usuário do portal por meio de regras de "
+"registro"
+>>>>>>> upstream/18.0
 =======
 "Usado para restringir o acesso ao usuário do portal por meio de regras de "
 "registro"
@@ -3782,6 +4031,11 @@ msgid ""
 "used for a MO (related to the bom)"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Assistente em caso de consumo em aviso/estrito e mais componente foi usado "
+"para uma OP (em relação à LM)"
+>>>>>>> upstream/18.0
 =======
 "Assistente em caso de consumo em aviso/estrito e mais componente foi usado "
 "para uma OP (em relação à LM)"
@@ -3795,6 +4049,7 @@ msgid ""
 "subcontracting."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #. module: mrp_subcontracting
 #. odoo-python
@@ -3921,11 +4176,16 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "Não é possível definir uma lista de materiais com operações ou linha de "
 "subproduto como subcontratação."
 
 #. module: mrp_subcontracting
 #. odoo-python
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: code:addons/mrp_subcontracting/models/mrp_unbuild.py:0
 msgid "You can't unbuild a subcontracted Manufacturing Order."
@@ -3933,6 +4193,7 @@ msgstr ""
 
 #. module: mrp_subcontracting
 #. odoo-python
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4063,13 +4324,22 @@ msgstr ""
 msgid "You cannot alter the company's subcontracting location"
 msgstr "Não é possível alterar o local de subcontratação da empresa"
 >>>>>>> upstream/18.0
+=======
+#: code:addons/mrp_subcontracting/models/stock_location.py:0
+msgid "You cannot alter the company's subcontracting location"
+msgstr "Não é possível alterar o local de subcontratação da empresa"
+>>>>>>> upstream/18.0
 
 #. module: mrp_subcontracting
 #. odoo-python
 #: code:addons/mrp_subcontracting/models/mrp_production.py:0
 msgid "You cannot write on fields %s in mrp.production."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Você não pode escrever nos campos %s em mrp.production."
+>>>>>>> upstream/18.0
 =======
 msgstr "Você não pode escrever nos campos %s em mrp.production."
 >>>>>>> upstream/18.0
@@ -4079,7 +4349,11 @@ msgstr "Você não pode escrever nos campos %s em mrp.production."
 #: code:addons/mrp_subcontracting/models/mrp_production.py:0
 msgid "You must enter a serial number for %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Você deve inserir um número de série para %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Você deve inserir um número de série para %s"
 >>>>>>> upstream/18.0
@@ -4089,7 +4363,11 @@ msgstr "Você deve inserir um número de série para %s"
 #: code:addons/mrp_subcontracting/models/mrp_production.py:0
 msgid "You must enter a serial number for each line of %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Você deve inserir um número de série para cada linha de %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Você deve inserir um número de série para cada linha de %s"
 >>>>>>> upstream/18.0
@@ -4102,6 +4380,11 @@ msgid ""
 "components"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Você deve indicar um valor consumido diferente de zero para ao menos um dos "
+"seus componentes"
+>>>>>>> upstream/18.0
 =======
 "Você deve indicar um valor consumido diferente de zero para ao menos um dos "
 "seus componentes"

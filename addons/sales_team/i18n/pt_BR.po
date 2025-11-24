@@ -2,22 +2,29 @@
 # This file contains the translation of the following modules:
 # 	* sales_team
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
 # Maitê Dietze, 2024
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
 # Maitê Dietze, 2024
 #
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-12-16 13:40+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -29,6 +36,8 @@ msgstr ""
 "Language: pt_BR\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-11-21 18:38+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Maitê Dietze, 2024\n"
@@ -40,21 +49,30 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % "
 "1000000 == 0 ? 1 : 2;\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sales_team
 #: model_terms:ir.ui.view,arch_db:sales_team.crm_team_member_view_kanban
 #: model_terms:ir.ui.view,arch_db:sales_team.crm_team_view_form
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-envelope me-1\" role=\"img\" aria-label=\"Email\" title=\"Email\"/>"
 msgstr "<i class=\"fa fa-envelope me-1\" role=\"img\" aria-label=\"Email\" title=\"Email\"/>"
 =======
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "<i class=\"fa fa-envelope me-1\" role=\"img\" aria-label=\"Email\" "
 "title=\"Email\"/>"
 msgstr ""
 "<i class=\"fa fa-envelope me-1\" role=\"img\" aria-label=\"Email\" "
 "title=\"Email\"/>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sales_team
@@ -97,16 +115,22 @@ msgstr "Adicionar um membro à equipe"
 #. module: sales_team
 #: model:ir.model.fields,help:sales_team.field_crm_team__crm_team_member_ids
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Add members to automatically assign their documents to this sales team."
 msgstr ""
 "Adicione membros para atribuir automaticamente seus documentos a essa equipe"
 " de vendas."
 =======
+=======
+>>>>>>> upstream/18.0
 msgid "Add members to automatically assign their documents to this sales team."
 msgstr ""
 "Adicione membros para atribuir automaticamente seus documentos a essa equipe "
 "de vendas."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sales_team
@@ -271,8 +295,12 @@ msgstr "Membros favoritos"
 #. module: sales_team
 #: model:ir.model.fields,help:sales_team.field_crm_team__is_favorite
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Favorite teams to display them in the dashboard and access them easily."
+=======
+msgid "Favorite teams to display them in the dashboard and access them easily."
+>>>>>>> upstream/18.0
 =======
 msgid "Favorite teams to display them in the dashboard and access them easily."
 >>>>>>> upstream/18.0
@@ -321,8 +349,13 @@ msgid ""
 "limited to a single sales team."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Se for verdadeiro, os usuários poderão pertencer a várias equipes de vendas."
 " Caso contrário, a associação é limitada a uma única equipe de vendas."
+=======
+"Se for verdadeiro, os usuários poderão pertencer a várias equipes de vendas. "
+"Caso contrário, a associação é limitada a uma única equipe de vendas."
+>>>>>>> upstream/18.0
 =======
 "Se for verdadeiro, os usuários poderão pertencer a várias equipes de vendas. "
 "Caso contrário, a associação é limitada a uma única equipe de vendas."
@@ -642,7 +675,10 @@ msgstr "A empresa padrão para este usuário."
 
 #. module: sales_team
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/sales_team/models/crm_team.py:0
 msgid ""
@@ -651,6 +687,9 @@ msgid ""
 msgstr ""
 
 #. module: sales_team
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.actions.act_window,help:sales_team.mail_activity_type_action_config_sales
 msgid ""
@@ -671,8 +710,13 @@ msgid ""
 "UX: Give users not to add in the currently chosen team to avoid duplicates"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "UX: permita que os usuários não adicionem à equipe escolhida no momento para"
 " evitar duplicatas"
+=======
+"UX: permita que os usuários não adicionem à equipe escolhida no momento para "
+"evitar duplicatas"
+>>>>>>> upstream/18.0
 =======
 "UX: permita que os usuários não adicionem à equipe escolhida no momento para "
 "evitar duplicatas"
@@ -693,8 +737,12 @@ msgstr "Modelo de gráfico indefinido para a equipe de vendas: %s"
 #. module: sales_team
 #: model_terms:ir.actions.act_window,help:sales_team.crm_team_action_config
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Use Sales Teams to organize your sales departments and draw up reports."
+=======
+msgid "Use Sales Teams to organize your sales departments and draw up reports."
+>>>>>>> upstream/18.0
 =======
 msgid "Use Sales Teams to organize your sales departments and draw up reports."
 >>>>>>> upstream/18.0
@@ -728,7 +776,10 @@ msgstr "Usuário"
 
 #. module: sales_team
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/sales_team/models/crm_team_member.py:0
 msgid ""
@@ -737,6 +788,9 @@ msgid ""
 msgstr ""
 
 #. module: sales_team
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:sales_team.field_crm_team_member__user_company_ids
 msgid "User Company"
@@ -785,17 +839,23 @@ msgstr ""
 #: code:addons/sales_team/models/crm_team_member.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You are trying to create duplicate membership(s). We found that "
 "%(duplicates)s already exist(s)."
 msgstr ""
 "Você está tentando criar associações duplicadas. Descobrimos que "
 "%(duplicates)s já existem."
 =======
+=======
+>>>>>>> upstream/18.0
 "You are trying to create duplicate membership(s). We found that %"
 "(duplicates)s already exist(s)."
 msgstr ""
 "Você está tentando criar associações duplicadas. Descobrimos que %"
 "(duplicates)s já existem."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sales_team
@@ -826,8 +886,13 @@ msgstr "o usuário terá acesso a seus próprios dados no aplicativo de vendas."
 #: model:res.groups,comment:sales_team.group_sale_manager
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "the user will have an access to the sales configuration as well as statistic"
 " reports."
+=======
+"the user will have an access to the sales configuration as well as statistic "
+"reports."
+>>>>>>> upstream/18.0
 =======
 "the user will have an access to the sales configuration as well as statistic "
 "reports."

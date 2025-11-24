@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* barcodes
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -231,6 +232,10 @@
 # * barcodes
 #
 >>>>>>> upstream/18.0
+=======
+# * barcodes
+#
+>>>>>>> upstream/18.0
 # Translators:
 # emre oktem, 2024
 # Güven YILMAZ <guvenyilmaz@outlook.com.tr>, 2024
@@ -244,6 +249,7 @@
 # Ahmet Altinisik <aaltinisik@altinkaya.com.tr>, 2024
 # Tugay Hatıl <tugayh@projetgrup.com>, 2024
 # Cengiz Cokay Global Nonwoven, 2025
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -473,10 +479,14 @@
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -658,16 +668,22 @@ msgstr ""
 "Last-Translator: Cengiz Cokay Global Nonwoven, 2025\n"
 "Language-Team: Turkish (https://app.transifex.com/odoo/teams/41243/tr/)\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-09-27 01:48+0000\n"
 "PO-Revision-Date: 2025-11-21 15:42+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Turkish <https://translate.odoo.com/projects/odoo-18/barcodes/"
 "tr/>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -840,13 +856,21 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Weblate 5.12.2\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: barcodes
 #. odoo-python
 #: code:addons/barcodes/models/barcode_rule.py:0
 msgid " '*' is not a valid Regex Barcode Pattern. Did you mean '.*'?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr " '*' geçerli bir Regex Barkod Kalıbı değildir. '.*' mi demek istediniz?"
+>>>>>>> upstream/18.0
 =======
 msgstr " '*' geçerli bir Regex Barkod Kalıbı değildir. '.*' mi demek istediniz?"
 >>>>>>> upstream/18.0
@@ -854,6 +878,7 @@ msgstr " '*' geçerli bir Regex Barkod Kalıbı değildir. '.*' mi demek istedin
 #. module: barcodes
 #: model_terms:ir.ui.view,arch_db:barcodes.view_barcode_nomenclature_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -919,6 +944,8 @@ msgstr ""
 "<i>Barkod Kural Setleri</i> Barkodların nasıl tanınacağını ve kategorize edileceğini belirlemeye yarar.\n"
 "                                Bir barkod okutulduğunda  <i>önce</i> kural setinde bir kalıpla eşleştirilir. Barkod kalıbının eşleştirmesinde düzenli ifadeler kullanılır.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1101,6 +1128,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1276,8 +1306,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "A barcode nomenclature defines how the point of sale identify and interprets"
 " barcodes"
+=======
+"A barcode nomenclature defines how the point of sale identify and interprets "
+"barcodes"
+>>>>>>> upstream/18.0
 =======
 "A barcode nomenclature defines how the point of sale identify and interprets "
 "barcodes"
@@ -1587,7 +1622,11 @@ msgstr "Barcode Tarandı"
 #: code:addons/barcodes/static/src/barcode_handlers.js:0
 msgid "Barcode: %(barcode)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Barkod: %(barcode)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Barkod: %(barcode)s"
 >>>>>>> upstream/18.0
@@ -1704,7 +1743,10 @@ msgstr "ID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1824,6 +1866,7 @@ msgid ""
 "must be implemented"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #. module: barcodes
 <<<<<<< HEAD
@@ -1993,10 +2036,15 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "barcodes.barcode_events_mixin kullanmak için on_barcode_scanned yöntemi "
 "uygulanmalıdır"
 
 #. module: barcodes
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:barcodes.field_barcode_nomenclature__write_uid
 #: model:ir.model.fields,field_description:barcodes.field_barcode_rule__write_uid
@@ -2079,12 +2127,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Patterns can also define how numerical values, such as weight or price, can be\n"
 "                                encoded into the barcode. They are indicated by <code>{NNN}</code> where the N's\n"
 "                                define where the number's digits are encoded. Floats are also supported with the\n"
 "                                decimals indicated with D's, such as <code>{NNNDD}</code>. In these cases,\n"
 "                                the barcode field on the associated records <i>must</i> show these digits as\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2263,6 +2314,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2377,6 +2429,8 @@ msgid ""
 "                                zeroes."
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "                                zeroes."
 msgstr ""
 "Kalıplar ayrıca ağırlık veya fiyat gibi sayısal değerlerin nasıl\n"
@@ -2388,6 +2442,9 @@ msgstr ""
 "                                ilişkili kayıtlardaki barkod alanı bu "
 "rakamları sıfır \n"
 " olarak <i> göstermelidir </i>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: barcodes
@@ -2433,7 +2490,11 @@ msgstr "Barkod eşleşme kalıbı"
 msgid ""
 "The barcode pattern %(pattern)s does not lead to a valid regular expression."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(pattern)s barkod deseni geçerli bir düzenli ifadeye yol açmaz."
+>>>>>>> upstream/18.0
 =======
 msgstr "%(pattern)s barkod deseni geçerli bir düzenli ifadeye yol açmaz."
 >>>>>>> upstream/18.0
@@ -2512,8 +2573,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "%(pattern)sbarkod modelinde söz dizimi hatası mevcut: bir kural yalnızca bir"
 " çift parantez içerebilir."
+=======
+"%(pattern)sbarkod modelinde söz dizimi hatası mevcut: bir kural yalnızca bir "
+"çift parantez içerebilir."
+>>>>>>> upstream/18.0
 =======
 "%(pattern)sbarkod modelinde söz dizimi hatası mevcut: bir kural yalnızca bir "
 "çift parantez içerebilir."
@@ -2837,8 +2903,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "setting determines if a UPC/EAN barcode should be automatically converted in"
 " one way or another when trying to match a rule with the other encoding."
+=======
+"setting determines if a UPC/EAN barcode should be automatically converted in "
+"one way or another when trying to match a rule with the other encoding."
+>>>>>>> upstream/18.0
 =======
 "setting determines if a UPC/EAN barcode should be automatically converted in "
 "one way or another when trying to match a rule with the other encoding."
@@ -3157,8 +3228,12 @@ msgstr "Bilinmeyen barkod komutu"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Used to order rules such that rules with a smaller sequence match first"
+=======
+msgid "Used to order rules such that rules with a smaller sequence match first"
+>>>>>>> upstream/18.0
 =======
 msgid "Used to order rules such that rules with a smaller sequence match first"
 >>>>>>> upstream/18.0
@@ -3395,7 +3470,10 @@ msgstr "Son taranan barkodun değeri"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3571,6 +3649,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3681,6 +3760,10 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+"Varsayılan barkod isimlendirmesi olduğu için '%(name)s' adresini "
+"silemezsiniz."
 >>>>>>> upstream/18.0
 =======
 "Varsayılan barkod isimlendirmesi olduğu için '%(name)s' adresini "

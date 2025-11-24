@@ -1,8 +1,13 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* website_sale_collect
 # 
+=======
+# * website_sale_collect
+#
+>>>>>>> upstream/18.0
 =======
 # * website_sale_collect
 #
@@ -14,6 +19,7 @@
 # Sammi Iversen <sammi@vkdata.dk>, 2024
 # Sanne Kristensen <sanne@vkdata.dk>, 2024
 # Martin Trigaux, 2024
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -308,11 +314,16 @@
 # Kira Petersen, 2025
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
+=======
+# Kira Petersen, 2025
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-16 13:41+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 <<<<<<< HEAD
@@ -611,6 +622,8 @@ msgstr ""
 "Language: da\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-11-21 06:38+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Danish <https://translate.odoo.com/projects/odoo-18/"
@@ -621,6 +634,9 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: website_sale_collect
@@ -630,6 +646,11 @@ msgid ""
 " your products."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i>Din ordre er bekræftet.</i><br>Du bedes komme til butikken og betale for "
+"dine produkter."
+>>>>>>> upstream/18.0
 =======
 "<i>Din ordre er bekræftet.</i><br>Du bedes komme til butikken og betale for "
 "dine produkter."
@@ -639,7 +660,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_sale_collect.payment_confirmation_status
 msgid "<span class=\"text-muted\"> (In-store pickup)</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"text-muted\"> (Afhentning i butik)</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"text-muted\"> (Afhentning i butik)</span>"
 >>>>>>> upstream/18.0
@@ -666,7 +691,11 @@ msgstr "Konfigurer opsætning"
 #: model_terms:ir.ui.view,arch_db:website_sale_collect.res_config_settings_form
 msgid "Configure Pickup Locations"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Konfigurér afhentningssteder"
+>>>>>>> upstream/18.0
 =======
 msgstr "Konfigurér afhentningssteder"
 >>>>>>> upstream/18.0
@@ -686,7 +715,11 @@ msgstr "Leveringsmetoder"
 #: model:ir.model.fields,field_description:website_sale_collect.field_website__in_store_dm_id
 msgid "In-store Delivery Method"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Leveringsmetode \"I butik\""
+>>>>>>> upstream/18.0
 =======
 msgstr "Leveringsmetode \"I butik\""
 >>>>>>> upstream/18.0
@@ -725,7 +758,11 @@ msgstr "Ikke på lager"
 #: model:payment.provider,name:website_sale_collect.payment_provider_on_site
 msgid "Pay on Site"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Betal i butikken"
+>>>>>>> upstream/18.0
 =======
 msgstr "Betal i butikken"
 >>>>>>> upstream/18.0
@@ -735,7 +772,11 @@ msgstr "Betal i butikken"
 #: model:payment.method,name:website_sale_collect.payment_method_pay_on_site
 msgid "Pay on site"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Betal i butikken"
+>>>>>>> upstream/18.0
 =======
 msgstr "Betal i butikken"
 >>>>>>> upstream/18.0
@@ -758,7 +799,11 @@ msgstr "Betalingstransaktion"
 #: model:product.template,name:website_sale_collect.product_pick_up_in_store_product_template
 msgid "Pick up in store"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Afhentning i butik"
+>>>>>>> upstream/18.0
 =======
 msgstr "Afhentning i butik"
 >>>>>>> upstream/18.0
@@ -768,7 +813,11 @@ msgstr "Afhentning i butik"
 #: code:addons/website_sale_collect/controllers/main.py:0
 msgid "Please choose a store to collect your order."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vælg venligst en butik som afhentningssted for din ordre."
+>>>>>>> upstream/18.0
 =======
 msgstr "Vælg venligst en butik som afhentningssted for din ordre."
 >>>>>>> upstream/18.0
@@ -802,7 +851,11 @@ msgstr "Leveringsmetoder"
 #: model_terms:ir.ui.view,arch_db:website_sale_collect.unavailable_products_warning
 msgid "Some of the products are not available at"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nogle af produkterne er ikke tilgængelige i"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nogle af produkterne er ikke tilgængelige i"
 >>>>>>> upstream/18.0
@@ -813,7 +866,11 @@ msgstr "Nogle af produkterne er ikke tilgængelige i"
 #: code:addons/website_sale_collect/models/sale_order.py:0
 msgid "Some products are not available in the selected store."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nogle produkter er ikke tilgængelige i den valgte butik."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nogle produkter er ikke tilgængelige i den valgte butik."
 >>>>>>> upstream/18.0
@@ -823,7 +880,11 @@ msgstr "Nogle produkter er ikke tilgængelige i den valgte butik."
 #: code:addons/website_sale_collect/controllers/main.py:0
 msgid "Sorry, we are unable to ship your order."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vi kan desværre ikke sende din ordre."
+>>>>>>> upstream/18.0
 =======
 msgstr "Vi kan desværre ikke sende din ordre."
 >>>>>>> upstream/18.0
@@ -905,7 +966,11 @@ msgid "Stores"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Butikker"
+>>>>>>> upstream/18.0
 =======
 msgstr "Butikker"
 >>>>>>> upstream/18.0
@@ -1131,7 +1196,11 @@ msgstr "Butikker"
 #: code:addons/website_sale_collect/models/delivery_carrier.py:0
 msgid "The delivery method and a warehouse must share the same company"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Leveringsmetoden og lageret skal tilhøre samme virksomhed"
+>>>>>>> upstream/18.0
 =======
 msgstr "Leveringsmetoden og lageret skal tilhøre samme virksomhed"
 >>>>>>> upstream/18.0
@@ -1141,7 +1210,11 @@ msgstr "Leveringsmetoden og lageret skal tilhøre samme virksomhed"
 #: code:addons/website_sale_collect/models/delivery_carrier.py:0
 msgid "The delivery method must have at least one warehouse to be published."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Leveringsmetoden skal have mindst ét lager for at blive offentliggjort."
+>>>>>>> upstream/18.0
 =======
 msgstr "Leveringsmetoden skal have mindst ét lager for at blive offentliggjort."
 >>>>>>> upstream/18.0
@@ -1163,7 +1236,11 @@ msgid ""
 "You can only pay on site when selecting the pick up in store delivery "
 "method."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hvis du vælger \"Afhentning i butik\", skal du betale i butikken."
+>>>>>>> upstream/18.0
 =======
 msgstr "Hvis du vælger \"Afhentning i butik\", skal du betale i butikken."
 >>>>>>> upstream/18.0
@@ -1195,7 +1272,11 @@ msgstr "tilrådighed"
 #: code:addons/website_sale_collect/models/payment_provider.py:0
 msgid "no in-store delivery methods available"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ingen \"I butik\"-leveringsmetoder tilgængelige"
+>>>>>>> upstream/18.0
 =======
 msgstr "ingen \"I butik\"-leveringsmetoder tilgængelige"
 >>>>>>> upstream/18.0

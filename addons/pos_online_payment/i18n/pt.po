@@ -1,8 +1,13 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* pos_online_payment
 # 
+=======
+# * pos_online_payment
+#
+>>>>>>> upstream/18.0
 =======
 # * pos_online_payment
 #
@@ -13,7 +18,11 @@
 # Wil Odoo, 2025
 # Vasco Rodrigues, 2025
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
@@ -22,6 +31,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Vasco Rodrigues, 2025\n"
@@ -32,6 +42,8 @@ msgstr ""
 "Language: pt\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-11-18 13:13+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Portuguese <https://translate.odoo.com/projects/odoo-18/"
@@ -43,13 +55,20 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % "
 "1000000 == 0) ? 1 : 2);\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #: model_terms:ir.ui.view,arch_db:pos_online_payment.pay
 msgid "<strong>Error:</strong> The currency is missing or invalid."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Erro:</strong> a moeda está ausente ou é inválida."
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Erro:</strong> a moeda está ausente ou é inválida."
 >>>>>>> upstream/18.0
@@ -59,7 +78,11 @@ msgstr "<strong>Erro:</strong> a moeda está ausente ou é inválida."
 msgid ""
 "<strong>Error:</strong> There was a problem during the payment process."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Erro:</strong> houve um problema ao processar o pagamento."
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Erro:</strong> houve um problema ao processar o pagamento."
 >>>>>>> upstream/18.0
@@ -70,6 +93,10 @@ msgstr "<strong>Erro:</strong> houve um problema ao processar o pagamento."
 msgid "A POS config cannot have more than one online payment method."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Uma configuração de PDV não pode ter mais de um método de pagamento online."
+>>>>>>> upstream/18.0
 =======
 "Uma configuração de PDV não pode ter mais de um método de pagamento online."
 >>>>>>> upstream/18.0
@@ -79,7 +106,11 @@ msgstr ""
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "A payment option must be specified."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Uma opção de pagamento deve ser especificada."
+>>>>>>> upstream/18.0
 =======
 msgstr "Uma opção de pagamento deve ser especificada."
 >>>>>>> upstream/18.0
@@ -91,6 +122,11 @@ msgid ""
 "A validation payment cannot be used for a Point of Sale online payment."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Um pagamento de validação não pode ser usado para um pagamento online de "
+"ponto de venda."
+>>>>>>> upstream/18.0
 =======
 "Um pagamento de validação não pode ser usado para um pagamento online de "
 "ponto de venda."
@@ -100,7 +136,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:pos_online_payment.pos_payment_method_view_form_inherit_pos_online_payment
 msgid "All available providers"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Todos os provedores disponíveis"
+>>>>>>> upstream/18.0
 =======
 msgstr "Todos os provedores disponíveis"
 >>>>>>> upstream/18.0
@@ -114,6 +154,12 @@ msgid ""
 "set, of the POS config."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Todos os provedores de pagamento configurados para um método de pagamento "
+"online devem usar a mesma moeda que o diário de vendas ou a moeda da "
+"empresa, e se essa não estiver definida, da configuração do PDV."
+>>>>>>> upstream/18.0
 =======
 "Todos os provedores de pagamento configurados para um método de pagamento "
 "online devem usar a mesma moeda que o diário de vendas ou a moeda da "
@@ -124,7 +170,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:pos_online_payment.field_pos_payment_method__online_payment_provider_ids
 msgid "Allowed Providers"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Provedores permitidos"
+>>>>>>> upstream/18.0
 =======
 msgstr "Provedores permitidos"
 >>>>>>> upstream/18.0
@@ -144,7 +194,11 @@ msgstr "Valor:"
 #: model_terms:ir.ui.view,arch_db:pos_online_payment.pay
 msgid "Cancel payment"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cancelar pagamento"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cancelar pagamento"
 >>>>>>> upstream/18.0
@@ -155,6 +209,10 @@ msgstr "Cancelar pagamento"
 msgid "Cannot create a POS online payment without an accounting payment."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Não é possível criar um pagamento online de PDV sem um pagamento contábil."
+>>>>>>> upstream/18.0
 =======
 "Não é possível criar um pagamento online de PDV sem um pagamento contábil."
 >>>>>>> upstream/18.0
@@ -167,6 +225,11 @@ msgid ""
 "accounting payment."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Não é possível criar um pagamento de PDV com um método de pagamento não "
+"online e um pagamento contábil online."
+>>>>>>> upstream/18.0
 =======
 "Não é possível criar um pagamento de PDV com um método de pagamento não "
 "online e um pagamento contábil online."
@@ -177,7 +240,11 @@ msgstr ""
 #: code:addons/pos_online_payment/models/pos_payment.py:0
 msgid "Cannot edit a POS online payment essential data."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Não é possível editar dados essenciais de um pagamento online de PDV."
+>>>>>>> upstream/18.0
 =======
 msgstr "Não é possível editar dados essenciais de um pagamento online de PDV."
 >>>>>>> upstream/18.0
@@ -190,6 +257,11 @@ msgid ""
 "pos_config_id=%(pos_config_id)d)"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Não foi possível criar uma forma de pagamento on-line "
+"(company_id=%(company_id)d, pos_config_id=%(pos_config_id)d)"
+>>>>>>> upstream/18.0
 =======
 "Não foi possível criar uma forma de pagamento on-line "
 "(company_id=%(company_id)d, pos_config_id=%(pos_config_id)d)"
@@ -199,7 +271,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:pos_online_payment.field_pos_payment_method__has_an_online_payment_provider
 msgid "Has An Online Payment Provider"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tem um provedor de pagamento online"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tem um provedor de pagamento online"
 >>>>>>> upstream/18.0
@@ -209,7 +285,11 @@ msgstr "Tem um provedor de pagamento online"
 #: code:addons/pos_online_payment/static/src/overrides/pos_overrides/components/payment_screen/payment_screen.js:0
 msgid "Invalid online payment"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pagamento online inválido"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pagamento online inválido"
 >>>>>>> upstream/18.0
@@ -219,7 +299,11 @@ msgstr "Pagamento online inválido"
 #: code:addons/pos_online_payment/static/src/overrides/pos_overrides/components/payment_screen/payment_screen.js:0
 msgid "Invalid online payments"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pagamentos online inválidos"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pagamentos online inválidos"
 >>>>>>> upstream/18.0
@@ -229,7 +313,11 @@ msgstr "Pagamentos online inválidos"
 #: code:addons/pos_online_payment/static/src/overrides/pos_overrides/components/payment_screen/payment_screen.js:0
 msgid "Invoice could not be generated"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "A fatura não pôde ser gerada"
+>>>>>>> upstream/18.0
 =======
 msgstr "A fatura não pôde ser gerada"
 >>>>>>> upstream/18.0
@@ -238,7 +326,11 @@ msgstr "A fatura não pôde ser gerada"
 #: model:ir.model.fields,field_description:pos_online_payment.field_pos_order__next_online_payment_amount
 msgid "Next online payment amount to pay"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Próximo valor de pagamento online a ser pago"
+>>>>>>> upstream/18.0
 =======
 msgstr "Próximo valor de pagamento online a ser pago"
 >>>>>>> upstream/18.0
@@ -259,7 +351,11 @@ msgstr "Pagamento Online"
 #: model:ir.model.fields,field_description:pos_online_payment.field_pos_order__online_payment_method_id
 msgid "Online Payment Method"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Método de pagamento online"
+>>>>>>> upstream/18.0
 =======
 msgstr "Método de pagamento online"
 >>>>>>> upstream/18.0
@@ -268,7 +364,11 @@ msgstr "Método de pagamento online"
 #: model:ir.model.fields,field_description:pos_online_payment.field_pos_payment__online_account_payment_id
 msgid "Online accounting payment"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pagamento contábil online"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pagamento contábil online"
 >>>>>>> upstream/18.0
@@ -278,7 +378,11 @@ msgstr "Pagamento contábil online"
 #: code:addons/pos_online_payment/static/src/overrides/pos_overrides/components/payment_screen/payment_screen.js:0
 msgid "Online payment unavailable"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pagamento online indisponível"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pagamento online indisponível"
 >>>>>>> upstream/18.0
@@ -288,7 +392,11 @@ msgstr "Pagamento online indisponível"
 #: code:addons/pos_online_payment/static/src/overrides/pos_overrides/components/payment_screen/payment_screen.js:0
 msgid "Online payments cannot have a negative amount (%s: %s)."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Os pagamentos online não podem ter um valor negativo (%s: %s)."
+>>>>>>> upstream/18.0
 =======
 msgstr "Os pagamentos online não podem ter um valor negativo (%s: %s)."
 >>>>>>> upstream/18.0
@@ -297,7 +405,11 @@ msgstr "Os pagamentos online não podem ter um valor negativo (%s: %s)."
 #: model_terms:ir.ui.view,arch_db:pos_online_payment.pay_confirmation
 msgid "Order ID"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ID do pedido"
+>>>>>>> upstream/18.0
 =======
 msgstr "ID do pedido"
 >>>>>>> upstream/18.0
@@ -306,7 +418,11 @@ msgstr "ID do pedido"
 #: model_terms:ir.ui.view,arch_db:pos_online_payment.pay
 msgid "Order ID:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ID do pedido:"
+>>>>>>> upstream/18.0
 =======
 msgstr "ID do pedido:"
 >>>>>>> upstream/18.0
@@ -321,7 +437,11 @@ msgstr "Referência da Encomenda"
 #: code:addons/pos_online_payment/static/src/app/online_payment_popup/online_payment_popup.xml:0
 msgid "Order reference:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Referência do pedido:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Referência do pedido:"
 >>>>>>> upstream/18.0
@@ -331,7 +451,11 @@ msgstr "Referência do pedido:"
 #: code:addons/pos_online_payment/static/src/overrides/pos_overrides/components/payment_screen/payment_screen.js:0
 msgid "Order saving issue"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Problema ao salvar o pedido"
+>>>>>>> upstream/18.0
 =======
 msgstr "Problema ao salvar o pedido"
 >>>>>>> upstream/18.0
@@ -346,7 +470,11 @@ msgstr "Problema ao salvar o pedido"
 #: model_terms:ir.ui.view,arch_db:pos_online_payment.view_account_payment_form_inherit_pos_online_payment
 msgid "POS Order"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pedido do PDV"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pedido do PDV"
 >>>>>>> upstream/18.0
@@ -395,7 +523,11 @@ msgstr "Sessão do Ponto de Venda"
 #: model_terms:ir.ui.view,arch_db:pos_online_payment.pay_confirmation
 msgid "Processed by"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Processado por"
+>>>>>>> upstream/18.0
 =======
 msgstr "Processado por"
 >>>>>>> upstream/18.0
@@ -405,7 +537,11 @@ msgstr "Processado por"
 #: code:addons/pos_online_payment/static/src/app/online_payment_popup/online_payment_popup.xml:0
 msgid "QR Code to pay"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Código QR para pagar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Código QR para pagar"
 >>>>>>> upstream/18.0
@@ -415,7 +551,11 @@ msgstr "Código QR para pagar"
 #: code:addons/pos_online_payment/static/src/app/online_payment_popup/online_payment_popup.xml:0
 msgid "Scan the QR code to pay"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Leia o código QR para pagar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Leia o código QR para pagar"
 >>>>>>> upstream/18.0
@@ -425,7 +565,11 @@ msgstr "Leia o código QR para pagar"
 #: code:addons/pos_online_payment/static/src/app/online_payment_popup/online_payment_popup.xml:0
 msgid "Scan to pay"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Digitalizar para pagar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Digitalizar para pagar"
 >>>>>>> upstream/18.0
@@ -435,7 +579,11 @@ msgstr "Digitalizar para pagar"
 #: code:addons/pos_online_payment/static/src/overrides/pos_overrides/components/payment_screen/payment_screen.js:0
 msgid "Server error"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Erro interno do servidor"
+>>>>>>> upstream/18.0
 =======
 msgstr "Erro interno do servidor"
 >>>>>>> upstream/18.0
@@ -445,7 +593,11 @@ msgstr "Erro interno do servidor"
 #: code:addons/pos_online_payment/models/payment_transaction.py:0
 msgid "The POS online payment (tx.id=%d) could not be saved correctly"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "O pagamento online do PDV (tx.id=%d) não pôde ser salvo corretamente"
+>>>>>>> upstream/18.0
 =======
 msgstr "O pagamento online do PDV (tx.id=%d) não pôde ser salvo corretamente"
 >>>>>>> upstream/18.0
@@ -458,6 +610,11 @@ msgid ""
 "online payment method could not be found"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"O pagamento online do PDV (tx.id=%d) não pôde ser salvo corretamente porque "
+"o método de pagamento online não pôde ser encontrado"
+>>>>>>> upstream/18.0
 =======
 "O pagamento online do PDV (tx.id=%d) não pôde ser salvo corretamente porque "
 "o método de pagamento online não pôde ser encontrado"
@@ -468,7 +625,11 @@ msgstr ""
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "The POS session is not opened."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "A sessão do PDV não está aberta."
+>>>>>>> upstream/18.0
 =======
 msgstr "A sessão do PDV não está aberta."
 >>>>>>> upstream/18.0
@@ -477,7 +638,11 @@ msgstr "A sessão do PDV não está aberta."
 #: model:ir.model.fields,help:pos_online_payment.field_payment_transaction__pos_order_id
 msgid "The Point of Sale order linked to the payment transaction"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "O pedido do ponto de venda vinculado à transação de pagamento"
+>>>>>>> upstream/18.0
 =======
 msgstr "O pedido do ponto de venda vinculado à transação de pagamento"
 >>>>>>> upstream/18.0
@@ -486,7 +651,11 @@ msgstr "O pedido do ponto de venda vinculado à transação de pagamento"
 #: model:ir.model.fields,help:pos_online_payment.field_account_payment__pos_order_id
 msgid "The Point of Sale order linked to this payment"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "O pedido do ponto de venda vinculado a esse pagamento"
+>>>>>>> upstream/18.0
 =======
 msgstr "O pedido do ponto de venda vinculado a esse pagamento"
 >>>>>>> upstream/18.0
@@ -496,7 +665,11 @@ msgstr "O pedido do ponto de venda vinculado a esse pagamento"
 #: code:addons/pos_online_payment/static/src/overrides/pos_overrides/components/payment_screen/payment_screen.js:0
 msgid "The QR Code for paying could not be generated."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "O código QR para pagamento não pôde ser gerado."
+>>>>>>> upstream/18.0
 =======
 msgstr "O código QR para pagamento não pôde ser gerado."
 >>>>>>> upstream/18.0
@@ -506,7 +679,11 @@ msgstr "O código QR para pagamento não pôde ser gerado."
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "The amount to pay has changed. Please refresh the page."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "O valor a ser pago foi alterado. Atualize a página."
+>>>>>>> upstream/18.0
 =======
 msgstr "O valor a ser pago foi alterado. Atualize a página."
 >>>>>>> upstream/18.0
@@ -516,7 +693,11 @@ msgstr "O valor a ser pago foi alterado. Atualize a página."
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "The currency is invalid."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "A moeda é inválida."
+>>>>>>> upstream/18.0
 =======
 msgstr "A moeda é inválida."
 >>>>>>> upstream/18.0
@@ -526,7 +707,11 @@ msgstr "A moeda é inválida."
 #: code:addons/pos_online_payment/static/src/overrides/pos_overrides/components/payment_screen/payment_screen.js:0
 msgid "The invoice could not be generated."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "A fatura não pôde ser gerada."
+>>>>>>> upstream/18.0
 =======
 msgstr "A fatura não pôde ser gerada."
 >>>>>>> upstream/18.0
@@ -536,7 +721,11 @@ msgstr "A fatura não pôde ser gerada."
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "The order has been cancelled."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "O pedido foi cancelado."
+>>>>>>> upstream/18.0
 =======
 msgstr "O pedido foi cancelado."
 >>>>>>> upstream/18.0
@@ -546,7 +735,11 @@ msgstr "O pedido foi cancelado."
 #: code:addons/pos_online_payment/static/src/overrides/pos_overrides/components/payment_screen/payment_screen.js:0
 msgid "The order has not been saved correctly on the server."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "O pedido não foi salvo corretamente no servidor."
+>>>>>>> upstream/18.0
 =======
 msgstr "O pedido não foi salvo corretamente no servidor."
 >>>>>>> upstream/18.0
@@ -556,7 +749,11 @@ msgstr "O pedido não foi salvo corretamente no servidor."
 #: code:addons/pos_online_payment/models/pos_session.py:0
 msgid "The partner of the POS online payment (id=%d) could not be found"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "O usuário do pagamento online do PDV (id=%d) não pôde ser encontrado"
+>>>>>>> upstream/18.0
 =======
 msgstr "O usuário do pagamento online do PDV (id=%d) não pôde ser encontrado"
 >>>>>>> upstream/18.0
@@ -566,7 +763,11 @@ msgstr "O usuário do pagamento online do PDV (id=%d) não pôde ser encontrado"
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "The payment provider is invalid."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "O provedor de pagamento é inválido."
+>>>>>>> upstream/18.0
 =======
 msgstr "O provedor de pagamento é inválido."
 >>>>>>> upstream/18.0
@@ -578,6 +779,11 @@ msgid ""
 "The payment should either be direct, with redirection, or made by a token."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"O pagamento deve ser direto, com redirecionamento ou feito através de um "
+"token."
+>>>>>>> upstream/18.0
 =======
 "O pagamento deve ser direto, com redirecionamento ou feito através de um "
 "token."
@@ -588,7 +794,11 @@ msgstr ""
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "The payment token is invalid."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "O token de pagamento é inválido."
+>>>>>>> upstream/18.0
 =======
 msgstr "O token de pagamento é inválido."
 >>>>>>> upstream/18.0
@@ -598,7 +808,11 @@ msgstr "O token de pagamento é inválido."
 #: code:addons/pos_online_payment/models/payment_transaction.py:0
 msgid "The payment transaction (%d) has a negative amount."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "A transação de pagamento (%d) tem um valor negativo."
+>>>>>>> upstream/18.0
 =======
 msgstr "A transação de pagamento (%d) tem um valor negativo."
 >>>>>>> upstream/18.0
@@ -608,7 +822,11 @@ msgstr "A transação de pagamento (%d) tem um valor negativo."
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "The provided order or access token is invalid."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "O pedido fornecido ou o token de acesso é inválido."
+>>>>>>> upstream/18.0
 =======
 msgstr "O pedido fornecido ou o token de acesso é inválido."
 >>>>>>> upstream/18.0
@@ -618,7 +836,11 @@ msgstr "O pedido fornecido ou o token de acesso é inválido."
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "The provided partner_id is different than expected."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "O partner_id fornecido é diferente do esperado."
+>>>>>>> upstream/18.0
 =======
 msgstr "O partner_id fornecido é diferente do esperado."
 >>>>>>> upstream/18.0
@@ -628,7 +850,11 @@ msgstr "O partner_id fornecido é diferente do esperado."
 #: code:addons/pos_online_payment/static/src/overrides/pos_overrides/components/payment_screen/payment_screen.js:0
 msgid "The saved order could not be retrieved."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "O pedido salvo não pôde ser recuperado."
+>>>>>>> upstream/18.0
 =======
 msgstr "O pedido salvo não pôde ser recuperado."
 >>>>>>> upstream/18.0
@@ -641,6 +867,11 @@ msgid ""
 "correspond to the remaining unpaid amount of the order (%s)."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"O valor total dos pagamentos online restantes a serem executados (%s) não "
+"corresponde ao valor restante não pago do pedido (%s)."
+>>>>>>> upstream/18.0
 =======
 "O valor total dos pagamentos online restantes a serem executados (%s) não "
 "corresponde ao valor restante não pago do pedido (%s)."
@@ -651,7 +882,11 @@ msgstr ""
 #: code:addons/pos_online_payment/static/src/overrides/pos_overrides/components/payment_screen/payment_screen.js:0
 msgid "There are online payments that were missing in your view."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Há pagamentos online que estavam faltando em sua visualização."
+>>>>>>> upstream/18.0
 =======
 msgstr "Há pagamentos online que estavam faltando em sua visualização."
 >>>>>>> upstream/18.0
@@ -664,6 +899,11 @@ msgid ""
 "be retrieved."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Há um problema com o servidor. O status do pagamento online do pedido não "
+"pode ser recuperado."
+>>>>>>> upstream/18.0
 =======
 "Há um problema com o servidor. O status do pagamento online do pedido não "
 "pode ser recuperado."
@@ -677,6 +917,12 @@ msgid ""
 "be retrieved. Are you sure there is no online payment for this order ?"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Há um problema com o servidor. O status do pagamento online do pedido não "
+"pode ser recuperado. Tem certeza de que não há pagamento online para esse "
+"pedido?"
+>>>>>>> upstream/18.0
 =======
 "Há um problema com o servidor. O status do pagamento online do pedido não "
 "pode ser recuperado. Tem certeza de que não há pagamento online para esse "
@@ -690,6 +936,11 @@ msgid ""
 "There is no online payment method configured for this Point of Sale order."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Não há um método de pagamento online configurado para esse pedido de ponto "
+"de venda."
+>>>>>>> upstream/18.0
 =======
 "Não há um método de pagamento online configurado para esse pedido de ponto "
 "de venda."
@@ -700,7 +951,11 @@ msgstr ""
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "There is nothing to pay for this order."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Não há nada a pagar por esse pedido."
+>>>>>>> upstream/18.0
 =======
 msgstr "Não há nada a pagar por esse pedido."
 >>>>>>> upstream/18.0
@@ -709,7 +964,11 @@ msgstr "Não há nada a pagar por esse pedido."
 #: model_terms:ir.ui.view,arch_db:pos_online_payment.pay
 msgid "There is nothing to pay."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Não há nada a pagar."
+>>>>>>> upstream/18.0
 =======
 msgstr "Não há nada a pagar."
 >>>>>>> upstream/18.0
@@ -727,6 +986,12 @@ msgid ""
 "published payment provider supporting the currency of that POS config."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Para usar um método de pagamento online em uma configuração de PDV, ele deve "
+"ter pelo menos um provedor de pagamento publicado que ofereça suporte à "
+"moeda dessa configuração de PDV."
+>>>>>>> upstream/18.0
 =======
 "Para usar um método de pagamento online em uma configuração de PDV, ele deve "
 "ter pelo menos um provedor de pagamento publicado que ofereça suporte à "
@@ -738,7 +1003,11 @@ msgstr ""
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "Tokenization is not available for logged out customers."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "A tokenização não está disponível para clientes desconectados."
+>>>>>>> upstream/18.0
 =======
 msgstr "A tokenização não está disponível para clientes desconectados."
 >>>>>>> upstream/18.0
@@ -747,7 +1016,11 @@ msgstr "A tokenização não está disponível para clientes desconectados."
 #: model_terms:ir.ui.view,arch_db:pos_online_payment.pay_confirmation
 msgid "Transaction Reference"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Referência da transação"
+>>>>>>> upstream/18.0
 =======
 msgstr "Referência da transação"
 >>>>>>> upstream/18.0
@@ -756,7 +1029,11 @@ msgstr "Referência da transação"
 #: model_terms:ir.ui.view,arch_db:pos_online_payment.pay_confirmation
 msgid "Try again"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tentar novamente"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tentar novamente"
 >>>>>>> upstream/18.0
@@ -771,7 +1048,11 @@ msgstr "Tipo"
 #: code:addons/pos_online_payment/static/src/overrides/pos_overrides/components/payment_screen/payment_screen.js:0
 msgid "Updated online payments"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pagamentos online atualizados"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pagamentos online atualizados"
 >>>>>>> upstream/18.0
@@ -783,6 +1064,11 @@ msgid ""
 "with online payment providers)"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Use esse método para pagamentos online (pagamentos feitos em uma página da "
+"Web com provedores de pagamento online)"
+>>>>>>> upstream/18.0
 =======
 "Use esse método para pagamentos online (pagamentos feitos em uma página da "
 "Web com provedores de pagamento online)"
@@ -798,7 +1084,11 @@ msgstr "Sim"
 #: model_terms:ir.ui.view,arch_db:pos_online_payment.pos_payment_method_view_form_inherit_pos_online_payment
 msgid "You have not activated any"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Você não ativou"
+>>>>>>> upstream/18.0
 =======
 msgstr "Você não ativou"
 >>>>>>> upstream/18.0
@@ -807,7 +1097,11 @@ msgstr "Você não ativou"
 #: model_terms:ir.ui.view,arch_db:pos_online_payment.pos_payment_method_view_form_inherit_pos_online_payment
 msgid "payment provider"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "um provedor de pagamento"
+>>>>>>> upstream/18.0
 =======
 msgstr "um provedor de pagamento"
 >>>>>>> upstream/18.0
@@ -816,7 +1110,11 @@ msgstr "um provedor de pagamento"
 #: model_terms:ir.ui.view,arch_db:pos_online_payment.pos_payment_method_view_form_inherit_pos_online_payment
 msgid "to allow online payments."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "para permitir pagamentos online."
+>>>>>>> upstream/18.0
 =======
 msgstr "para permitir pagamentos online."
 >>>>>>> upstream/18.0

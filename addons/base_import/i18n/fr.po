@@ -2,7 +2,11 @@
 # This file contains the translation of the following modules:
 # 	* base_import
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -10,6 +14,7 @@
 # Wil Odoo, 2024
 # Martin Trigaux, 2024
 # Jolien De Paepe, 2024
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -581,10 +586,15 @@
 # Manon Rondou, 2025
 #
 >>>>>>> upstream/18.0
+=======
+# Manon Rondou, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-10-25 07:48+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -1160,6 +1170,8 @@ msgstr ""
 "Language: fr\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-11-21 18:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Manon Rondou, 2025\n"
@@ -1170,6 +1182,9 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % "
 "1000000 == 0 ? 1 : 2;\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: base_import
@@ -1239,8 +1254,13 @@ msgstr "Permettre la mise en correspondance avec des sous-champs"
 msgid ""
 "An unknown issue occurred during import (possibly lost connection, data "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "limit exceeded or memory limits exceeded). Please retry in case the issue is"
 " transient. If the issue still occurs, try to split the file rather than "
+=======
+"limit exceeded or memory limits exceeded). Please retry in case the issue is "
+"transient. If the issue still occurs, try to split the file rather than "
+>>>>>>> upstream/18.0
 =======
 "limit exceeded or memory limits exceeded). Please retry in case the issue is "
 "transient. If the issue still occurs, try to split the file rather than "
@@ -1317,17 +1337,23 @@ msgstr ""
 #: code:addons/base_import/models/base_import.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Column %(column)s contains incorrect values. Error in line %(line)d: "
 "%(error)s"
 msgstr ""
 "La colonne %(column)s contient des valeurs incorrectes. Erreur à la ligne "
 "%(line)d : %(error)s"
 =======
+=======
+>>>>>>> upstream/18.0
 "Column %(column)s contains incorrect values. Error in line %(line)d: %"
 "(error)s"
 msgstr ""
 "La colonne %(column)s contient des valeurs incorrectes. Erreur à la ligne %"
 "(line)d : %(error)s"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: base_import
@@ -1352,16 +1378,22 @@ msgstr "Commentaires"
 #: code:addons/base_import/models/base_import.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Could not retrieve URL: %(url)s [%(field_name)s: L%(line_number)d]: "
 "%(error)s"
 msgstr ""
 "Impossible de récupérer l'URL : %(url)s [%(field_name)s: L%(line_number)d]: "
 "%(error)s"
 =======
+=======
+>>>>>>> upstream/18.0
 "Could not retrieve URL: %(url)s [%(field_name)s: L%(line_number)d]: %(error)s"
 msgstr ""
 "Impossible de récupérer l'URL : %(url)s [%(field_name)s: L%(line_number)d]: %"
 "(error)s"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: base_import
@@ -1476,8 +1508,13 @@ msgid ""
 "Error while importing records: Text Delimiter should be a single character."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Erreur lors de l'importation d'enregistrements : Le séparateur de texte doit"
 " être un seul caractère."
+=======
+"Erreur lors de l'importation d'enregistrements : Le séparateur de texte doit "
+"être un seul caractère."
+>>>>>>> upstream/18.0
 =======
 "Erreur lors de l'importation d'enregistrements : Le séparateur de texte doit "
 "être un seul caractère."
@@ -1489,6 +1526,7 @@ msgstr ""
 msgid ""
 "Error while importing records: all rows should be of the same size, but the "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "title row has %(title_row_entries)d entries while the first row has "
 "%(first_row_entries)d. You may need to change the separator character."
 msgstr ""
@@ -1497,6 +1535,8 @@ msgstr ""
 " alors que la première ligne en a %(first_row_entries)d. Vous devez peut-"
 "être modifier le séparateur."
 =======
+=======
+>>>>>>> upstream/18.0
 "title row has %(title_row_entries)d entries while the first row has %"
 "(first_row_entries)d. You may need to change the separator character."
 msgstr ""
@@ -1504,6 +1544,9 @@ msgstr ""
 "avoir la même taille, mais la ligne de titre a %(title_row_entries)d entrées "
 "alors que la première ligne en a %(first_row_entries)d. Vous devez peut-être "
 "modifier le séparateur."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: base_import
@@ -1523,8 +1566,12 @@ msgstr "Tout semble correct."
 #: code:addons/base_import/static/src/import_action/import_action.xml:0
 msgid "Excel files are recommended as formatting is automatic."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Les fichiers Excel sont recommandés, car le formatage est automatique."
+=======
+msgstr "Les fichiers Excel sont recommandés, car le formatage est automatique."
+>>>>>>> upstream/18.0
 =======
 msgstr "Les fichiers Excel sont recommandés, car le formatage est automatique."
 >>>>>>> upstream/18.0
@@ -1602,8 +1649,13 @@ msgstr "Formatage"
 #: code:addons/base_import/models/base_import.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Found invalid image data, images should be imported as either URLs or "
 "base64-encoded data."
+=======
+"Found invalid image data, images should be imported as either URLs or base64-"
+"encoded data."
+>>>>>>> upstream/18.0
 =======
 "Found invalid image data, images should be imported as either URLs or base64-"
 "encoded data."
@@ -1647,16 +1699,22 @@ msgid ""
 msgstr ""
 "Si le fichier contient\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    les noms des colonnes, Odoo peut tenter de détecter automatiquement le\n"
 "                    champ correspondant à la colonne. Ceci rend l'importation\n"
 "                    plus simple, surtout quand le fichier compte de nombreuses colonnes."
 =======
+=======
+>>>>>>> upstream/18.0
 "                    les noms des colonnes, Odoo peut tenter de détecter "
 "automatiquement le\n"
 "                    champ correspondant à la colonne. Ceci rend "
 "l'importation\n"
 "                    plus simple, surtout quand le fichier compte de "
 "nombreuses colonnes."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: base_import
@@ -1677,8 +1735,13 @@ msgid ""
 "Image size excessive, imported images must be smaller than 42 million pixel"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Taille d'image excessive, les images importées doivent être inférieures à 42"
 " millions de pixels"
+=======
+"Taille d'image excessive, les images importées doivent être inférieures à 42 "
+"millions de pixels"
+>>>>>>> upstream/18.0
 =======
 "Taille d'image excessive, les images importées doivent être inférieures à 42 "
 "millions de pixels"
@@ -1694,6 +1757,7 @@ msgstr "Importer"
 #. odoo-javascript
 #: code:addons/base_import/static/src/import_action/import_action.xml:0
 msgid "Import FAQ"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2263,6 +2327,9 @@ msgstr "Q&R sur les imports"
 =======
 msgstr "Q&R sur les imports"
 >>>>>>> upstream/18.0
+=======
+msgstr "Q&R sur les imports"
+>>>>>>> upstream/18.0
 
 #. module: base_import
 #. odoo-javascript
@@ -2302,9 +2369,15 @@ msgid ""
 "format: %(cell_format)s, as (%(format_type)s) formats are not supported."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Format de cellule non valide à la ligne %(row)s, colonne %(col)s: "
 "%(cell_value)s, avec format : %(cell_format)s, car les formats "
 "(%(format_type)s) ne sont pas pris en charge."
+=======
+"Format de cellule non valide à la ligne %(row)s, colonne %(col)s: %"
+"(cell_value)s, avec format : %(cell_format)s, car les formats (%"
+"(format_type)s) ne sont pas pris en charge."
+>>>>>>> upstream/18.0
 =======
 "Format de cellule non valide à la ligne %(row)s, colonne %(col)s: %"
 "(cell_value)s, avec format : %(cell_format)s, car les formats (%"
@@ -2317,8 +2390,12 @@ msgstr ""
 msgid "Invalid cell value at row %(row)s, column %(col)s: %(cell_value)s"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Valeur de cellule invalide à la ligne %(row)s, colonne "
 "%(col)s:%(cell_value)s"
+=======
+"Valeur de cellule invalide à la ligne %(row)s, colonne %(col)s:%(cell_value)s"
+>>>>>>> upstream/18.0
 =======
 "Valeur de cellule invalide à la ligne %(row)s, colonne %(col)s:%(cell_value)s"
 >>>>>>> upstream/18.0
@@ -2594,7 +2671,10 @@ msgstr "Le fichier sera importé par lots"
 
 #. module: base_import
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/base_import/models/base_import.py:0
 msgid ""
@@ -2611,6 +2691,9 @@ msgid ""
 msgstr ""
 
 #. module: base_import
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/base_import/static/src/import_model.js:0
@@ -2645,7 +2728,12 @@ msgstr "Activer l'historique des modifications pendant l'importation"
 #. odoo-python
 #: code:addons/base_import/models/base_import.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Unable to load \"{extension}\" file: requires Python module \"{modname}\""
+=======
+msgid ""
+"Unable to load \"{extension}\" file: requires Python module \"{modname}\""
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "Unable to load \"{extension}\" file: requires Python module \"{modname}\""
@@ -2687,8 +2775,13 @@ msgstr "Télécharger vos fichiers"
 msgid ""
 "Use HH for hours in a 24h system, use II in conjonction with 'p' for a 12h "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "system. You can use a custom format in addition to the suggestions provided."
 " Leave empty to let Odoo guess the format (recommended)"
+=======
+"system. You can use a custom format in addition to the suggestions provided. "
+"Leave empty to let Odoo guess the format (recommended)"
+>>>>>>> upstream/18.0
 =======
 "system. You can use a custom format in addition to the suggestions provided. "
 "Leave empty to let Odoo guess the format (recommended)"
@@ -2704,15 +2797,21 @@ msgstr ""
 #: code:addons/base_import/static/src/import_model.js:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Use YYYY to represent the year, MM for the month and DD for the day. Include"
 " separators such as a dot, forward slash or dash. You can use a custom "
 "format in addition to the suggestions provided. Leave empty to let Odoo "
 "guess the format (recommended)"
 =======
+=======
+>>>>>>> upstream/18.0
 "Use YYYY to represent the year, MM for the month and DD for the day. Include "
 "separators such as a dot, forward slash or dash. You can use a custom format "
 "in addition to the suggestions provided. Leave empty to let Odoo guess the "
 "format (recommended)"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 "Utilisez AAAA pour représenter l'année, MM pour le mois et JJ pour le jour. "

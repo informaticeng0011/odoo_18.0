@@ -1,8 +1,13 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* cloud_storage
 # 
+=======
+# * cloud_storage
+#
+>>>>>>> upstream/18.0
 =======
 # * cloud_storage
 #
@@ -12,7 +17,11 @@
 # Chrille Hedberg <hedberg.chrille@gmail.com>, 2024
 # Jakob Krabbe <jakob.krabbe@vertel.se>, 2024
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
@@ -20,6 +29,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
 "PO-Revision-Date: 2024-09-29 00:00+0000\n"
@@ -31,6 +41,8 @@ msgstr ""
 "Language: sv\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-11-14 18:38+0000\n"
 "PO-Revision-Date: 2025-11-10 09:43+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
@@ -42,6 +54,9 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: cloud_storage
@@ -59,7 +74,11 @@ msgstr "Cloud Storage"
 #: model:ir.model.fields,field_description:cloud_storage.field_res_config_settings__cloud_storage_provider
 msgid "Cloud Storage Provider for new attachments"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Molnlagringsleverantör för nya bilagor"
+>>>>>>> upstream/18.0
 =======
 msgstr "Molnlagringsleverantör för nya bilagor"
 >>>>>>> upstream/18.0
@@ -80,7 +99,11 @@ msgstr "Cloud Storage är inte aktiverat"
 #: code:addons/cloud_storage/controllers/attachment.py:0
 msgid "Cloud storage configuration has been changed. Please refresh the page."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Konfigurationen för molnlagring har ändrats. Vänligen uppdatera sidan."
+>>>>>>> upstream/18.0
 =======
 msgstr "Konfigurationen för molnlagring har ändrats. Vänligen uppdatera sidan."
 >>>>>>> upstream/18.0
@@ -98,7 +121,10 @@ msgstr "Inställningar"
 
 #. module: cloud_storage
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/cloud_storage/models/ir_attachment.py:0
 msgid ""
@@ -106,6 +132,9 @@ msgid ""
 msgstr ""
 
 #. module: cloud_storage
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model,name:cloud_storage.model_ir_http
 msgid "HTTP Routing"
@@ -115,7 +144,11 @@ msgstr "HTTP-routing"
 #: model:ir.model.fields,field_description:cloud_storage.field_res_config_settings__cloud_storage_min_file_size
 msgid "Minimum File Size (bytes)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Minsta filstorlek (bytes)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Minsta filstorlek (bytes)"
 >>>>>>> upstream/18.0
@@ -130,7 +163,11 @@ msgstr ""
 #: code:addons/cloud_storage/models/res_config_settings.py:0
 msgid "Please configure the Cloud Storage before enabling it"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Konfigurera molnlagringen innan du aktiverar den"
+>>>>>>> upstream/18.0
 =======
 msgstr "Konfigurera molnlagringen innan du aktiverar den"
 >>>>>>> upstream/18.0
@@ -139,7 +176,11 @@ msgstr "Konfigurera molnlagringen innan du aktiverar den"
 #: model_terms:ir.ui.view,arch_db:cloud_storage.cloud_storage_config_settings_view_form
 msgid "Select the cloud storage provider to store new attachments."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Välj molnlagringsleverantör för att lagra nya bilagor."
+>>>>>>> upstream/18.0
 =======
 msgstr "Välj molnlagringsleverantör för att lagra nya bilagor."
 >>>>>>> upstream/18.0
@@ -169,10 +210,13 @@ msgstr ""
 msgid ""
 "webclient can upload files larger than the minimum file size\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        (in bytes) as url attachments to the server and then upload the file to\n"
 "        the cloud storage."
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "        (in bytes) as url attachments to the server and then upload the file "
 "to\n"
 "        the cloud storage."
@@ -181,4 +225,7 @@ msgstr ""
 "        (i byte) som url-bilagor till servern och sedan ladda upp filen "
 "till\n"
 "        molnlagringen."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

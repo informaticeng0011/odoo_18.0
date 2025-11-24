@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* iap
 # 
 # Translators:
@@ -8,6 +9,8 @@
 # Marta Wacławek, 2025
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 # * iap
 #
 # Translators:
@@ -16,12 +19,16 @@
 #
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 # "Marta (wacm)" <wacm@odoo.com>, 2025.
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Marta Wacławek, 2025\n"
@@ -32,6 +39,8 @@ msgstr ""
 "Language: pl\n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-11-13 16:25+0000\n"
 "Last-Translator: \"Marta (wacm)\" <wacm@odoo.com>\n"
 "Language-Team: Polish <https://translate.odoo.com/projects/odoo-18/iap/pl/>\n"
@@ -43,6 +52,9 @@ msgstr ""
 "n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && "
 "n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: iap
@@ -134,6 +146,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"oi oi-arrow-right\"/>\n"
+"                                    Kup kredyty"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"oi oi-arrow-right\"/>\n"
 "                                    Kup kredyty"
@@ -483,6 +500,11 @@ msgid ""
 "Account token is your authentication key for this service. Do not share it."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Token konta jest kluczem uwierzytelniającym dla tej usługi. Nie należy go "
+"udostępniać."
+>>>>>>> upstream/18.0
 =======
 "Token konta jest kluczem uwierzytelniającym dla tej usługi. Nie należy go "
 "udostępniać."
@@ -496,6 +518,11 @@ msgid ""
 "error persists."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Wystąpił błąd podczas łączenia się z %s. Skontaktuj się z pomocą techniczną "
+"Odoo, jeśli ten błąd będzie się powtarzał."
+>>>>>>> upstream/18.0
 =======
 "Wystąpił błąd podczas łączenia się z %s. Skontaktuj się z pomocą techniczną "
 "Odoo, jeśli ten błąd będzie się powtarzał."
@@ -561,7 +588,11 @@ msgstr "Nazwa wyświetlana"
 #: model:ir.model.fields,field_description:iap.field_iap_account__warning_user_ids
 msgid "Email Alert Recipients"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odbiorcy powiadomienia email"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odbiorcy powiadomienia email"
 >>>>>>> upstream/18.0
@@ -570,7 +601,11 @@ msgstr "Odbiorcy powiadomienia email"
 #: model:ir.model.fields,field_description:iap.field_iap_account__warning_threshold
 msgid "Email Alert Threshold"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Próg powiadomienia email"
+>>>>>>> upstream/18.0
 =======
 msgstr "Próg powiadomienia email"
 >>>>>>> upstream/18.0
@@ -583,6 +618,12 @@ msgid ""
 " of your opportunities."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Pozyskuj wysokiej jakości leady i okazje: przekształcaj odwiedzających "
+"witrynę w potencjalnych klientów, generuj potencjalnych klientów na "
+"podstawie zestawu kryteriów i wzbogacaj dane firmowe swoich prospektów."
+>>>>>>> upstream/18.0
 =======
 "Pozyskuj wysokiej jakości leady i okazje: przekształcaj odwiedzających "
 "witrynę w potencjalnych klientów, generuj potencjalnych klientów na "
@@ -616,7 +657,11 @@ msgstr "IAP API wzbogacania Leadów"
 #: model:ir.model,name:iap.model_iap_service
 msgid "IAP Service"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Usługa IAP"
+>>>>>>> upstream/18.0
 =======
 msgstr "Usługa IAP"
 >>>>>>> upstream/18.0
@@ -637,7 +682,11 @@ msgstr "Niewystarczające środki na wykonanie tej usługi."
 #: model:ir.model.fields,field_description:iap.field_iap_service__integer_balance
 msgid "Integer Balance"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Saldo liczba całkowita"
+>>>>>>> upstream/18.0
 =======
 msgstr "Saldo liczba całkowita"
 >>>>>>> upstream/18.0
@@ -659,7 +708,11 @@ msgstr "Data ostatniej aktualizacji"
 #: code:addons/iap/static/src/action_buttons_widget/action_buttons_widget.xml:0
 msgid "Manage Service & Buy Credits"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zarządzanie usługami i kupowanie kredytów"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zarządzanie usługami i kupowanie kredytów"
 >>>>>>> upstream/18.0
@@ -683,6 +736,11 @@ msgid ""
 "%s"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Jeden z odbiorców powiadomień e-mail nie ma ustawionego adresu e-mail. "
+"Użytkownicy: %s"
+>>>>>>> upstream/18.0
 =======
 "Jeden z odbiorców powiadomień e-mail nie ma ustawionego adresu e-mail. "
 "Użytkownicy: %s"
@@ -692,7 +750,11 @@ msgstr ""
 #: model:ir.model.constraint,message:iap.constraint_iap_service_unique_technical_name
 msgid "Only one service can exist with a specific technical_name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Może istnieć tylko jedna usługa o określonej nazwie technical_name"
+>>>>>>> upstream/18.0
 =======
 msgstr "Może istnieć tylko jedna usługa o określonej nazwie technical_name"
 >>>>>>> upstream/18.0
@@ -702,7 +764,11 @@ msgstr "Może istnieć tylko jedna usługa o określonej nazwie technical_name"
 #: code:addons/iap/models/iap_account.py:0
 msgid "Please set a positive email alert threshold."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ustaw pozytywny próg powiadomień e-mail."
+>>>>>>> upstream/18.0
 =======
 msgstr "Ustaw pozytywny próg powiadomień e-mail."
 >>>>>>> upstream/18.0
@@ -721,7 +787,11 @@ msgstr "Usługa"
 #: model:ir.model.fields,field_description:iap.field_iap_account__service_locked
 msgid "Service Locked"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Usługa zablokowana"
+>>>>>>> upstream/18.0
 =======
 msgstr "Usługa zablokowana"
 >>>>>>> upstream/18.0
@@ -751,6 +821,11 @@ msgid ""
 "The URL it tried to contact was %s"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Żądanie do usługi przekroczyło limit czasu. Prosimy o kontakt z autorem "
+"aplikacji. Adres URL, z którym próbowano się skontaktować to %s"
+>>>>>>> upstream/18.0
 =======
 "Żądanie do usługi przekroczyło limit czasu. Prosimy o kontakt z autorem "
 "aplikacji. Adres URL, z którym próbowano się skontaktować to %s"

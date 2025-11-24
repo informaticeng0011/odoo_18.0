@@ -1,8 +1,13 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* maintenance
 # 
+=======
+# * maintenance
+#
+>>>>>>> upstream/18.0
 =======
 # * maintenance
 #
@@ -14,6 +19,7 @@
 # Peter Lawrence Romão <peterromao@yahoo.co.uk>, 2025
 # Rita Bastos, 2025
 # Wil Odoo, 2025
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -552,11 +558,16 @@
 # Daniel Reis, 2025
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
+=======
+# Daniel Reis, 2025
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
@@ -1099,6 +1110,8 @@ msgstr ""
 "Language: pt\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-11-21 02:30+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Portuguese <https://translate.odoo.com/projects/odoo-18/"
@@ -1110,6 +1123,9 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % "
 "1000000 == 0) ? 1 : 2);\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: maintenance
@@ -1121,7 +1137,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_request_view_form
 msgid "<span class=\"ml8\">hours</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"ml8\">horas</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"ml8\">horas</span>"
 >>>>>>> upstream/18.0
@@ -1262,7 +1282,11 @@ msgid "<span>Requests</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Solicitações</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>Solicitações</span>"
 >>>>>>> upstream/18.0
@@ -1779,7 +1803,11 @@ msgid "<strong>Equipment:</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Equipamento:</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Equipamento:</strong>"
 >>>>>>> upstream/18.0
@@ -2234,7 +2262,11 @@ msgstr "Tipos de Atividade"
 #: model_terms:ir.actions.act_window,help:maintenance.hr_equipment_action_from_category_form
 msgid "Add a new equipment"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Adicionar novo equipamento"
+>>>>>>> upstream/18.0
 =======
 msgstr "Adicionar novo equipamento"
 >>>>>>> upstream/18.0
@@ -2243,7 +2275,11 @@ msgstr "Adicionar novo equipamento"
 #: model_terms:ir.actions.act_window,help:maintenance.hr_equipment_category_action
 msgid "Add a new equipment category"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Adicionar nova categoria de equipamento"
+>>>>>>> upstream/18.0
 =======
 msgstr "Adicionar nova categoria de equipamento"
 >>>>>>> upstream/18.0
@@ -2257,7 +2293,11 @@ msgstr "Adicionar nova categoria de equipamento"
 #: model_terms:ir.actions.act_window,help:maintenance.maintenance_request_action_reports
 msgid "Add a new maintenance request"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Adicione uma nova solicitação de manutenção"
+>>>>>>> upstream/18.0
 =======
 msgstr "Adicione uma nova solicitação de manutenção"
 >>>>>>> upstream/18.0
@@ -2267,7 +2307,11 @@ msgstr "Adicione uma nova solicitação de manutenção"
 #: model_terms:ir.actions.act_window,help:maintenance.maintenance_dashboard_action
 msgid "Add a new stage in the maintenance request"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Adicione um novo estágio na solicitação de manutenção"
+>>>>>>> upstream/18.0
 =======
 msgstr "Adicione um novo estágio na solicitação de manutenção"
 >>>>>>> upstream/18.0
@@ -2276,7 +2320,11 @@ msgstr "Adicione um novo estágio na solicitação de manutenção"
 #: model_terms:ir.actions.act_window,help:maintenance.maintenance_team_action_settings
 msgid "Add a team in the maintenance request"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Adicione uma equipe na solicitação de manutenção"
+>>>>>>> upstream/18.0
 =======
 msgstr "Adicione uma equipe na solicitação de manutenção"
 >>>>>>> upstream/18.0
@@ -2441,7 +2489,11 @@ msgstr "Empresa"
 #: model:ir.model.fields,help:maintenance.field_maintenance_mixin__estimated_next_failure
 msgid "Computed as Latest Failure Date + MTBF"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Calculado como última data de falha + TMEF"
+>>>>>>> upstream/18.0
 =======
 msgstr "Calculado como última data de falha + TMEF"
 >>>>>>> upstream/18.0
@@ -2511,7 +2563,11 @@ msgstr "Criado em"
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_mixin__maintenance_open_count
 msgid "Current Maintenance"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Manutenção atual"
+>>>>>>> upstream/18.0
 =======
 msgstr "Manutenção atual"
 >>>>>>> upstream/18.0
@@ -2540,7 +2596,11 @@ msgstr "Painel"
 #: model:ir.model.fields,help:maintenance.field_maintenance_request__request_date
 msgid "Date requested for the maintenance to happen"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Data solicitada para que a manutenção aconteça"
+>>>>>>> upstream/18.0
 =======
 msgstr "Data solicitada para que a manutenção aconteça"
 >>>>>>> upstream/18.0
@@ -2552,6 +2612,11 @@ msgid ""
 "from the Request Date. "
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Data em que a equipe de manutenção planeja realizar a manutenção. Não deve "
+"diferir muito da data da solicitação. "
+>>>>>>> upstream/18.0
 =======
 "Data em que a equipe de manutenção planeja realizar a manutenção. Não deve "
 "diferir muito da data da solicitação. "
@@ -2561,7 +2626,11 @@ msgstr ""
 #: model:ir.model.fields,help:maintenance.field_maintenance_request__close_date
 msgid "Date the maintenance was finished. "
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Data em que a manutenção foi concluída. "
+>>>>>>> upstream/18.0
 =======
 msgstr "Data em que a manutenção foi concluída. "
 >>>>>>> upstream/18.0
@@ -2612,7 +2681,11 @@ msgstr "Duração"
 #: model:ir.model.fields,help:maintenance.field_maintenance_request__duration
 msgid "Duration in hours."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Duração em horas."
+>>>>>>> upstream/18.0
 =======
 msgstr "Duração em horas."
 >>>>>>> upstream/18.0
@@ -2694,7 +2767,11 @@ msgstr "Categoria de Equipamento"
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment_category__equipment_count
 msgid "Equipment Count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Contagem de equipamentos"
+>>>>>>> upstream/18.0
 =======
 msgstr "Contagem de equipamentos"
 >>>>>>> upstream/18.0
@@ -2718,7 +2795,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_view_form
 msgid "Estimated Next Failure"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Estimativa da próxima falha"
+>>>>>>> upstream/18.0
 =======
 msgstr "Estimativa da próxima falha"
 >>>>>>> upstream/18.0
@@ -2728,7 +2809,11 @@ msgstr "Estimativa da próxima falha"
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_mixin__estimated_next_failure
 msgid "Estimated time before next failure (in days)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tempo estimado antes da próxima falha (em dias)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tempo estimado antes da próxima falha (em dias)"
 >>>>>>> upstream/18.0
@@ -2738,7 +2823,11 @@ msgstr "Tempo estimado antes da próxima falha (em dias)"
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_mixin__expected_mtbf
 msgid "Expected MTBF"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "TMEF esperado"
+>>>>>>> upstream/18.0
 =======
 msgstr "TMEF esperado"
 >>>>>>> upstream/18.0
@@ -2749,7 +2838,11 @@ msgstr "TMEF esperado"
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_view_form
 msgid "Expected Mean Time Between Failure"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tempo médio esperado entre falhas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tempo médio esperado entre falhas"
 >>>>>>> upstream/18.0
@@ -2770,7 +2863,11 @@ msgstr "Recolhido no Funil de Manutenção"
 msgid ""
 "Follow the process of the request and communicate with the collaborator."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Siga o processo de solicitação e comunique-se com o colaborador."
+>>>>>>> upstream/18.0
 =======
 msgstr "Siga o processo de solicitação e comunique-se com o colaborador."
 >>>>>>> upstream/18.0
@@ -2978,7 +3075,11 @@ msgid "High-priority"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prioridade Alta"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prioridade Alta"
 >>>>>>> upstream/18.0
@@ -3555,7 +3656,11 @@ msgid "Instruction"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Instrução"
+>>>>>>> upstream/18.0
 =======
 msgstr "Instrução"
 >>>>>>> upstream/18.0
@@ -4072,7 +4177,11 @@ msgid "Instructions"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Instruções"
+>>>>>>> upstream/18.0
 =======
 msgstr "Instruções"
 >>>>>>> upstream/18.0
@@ -4462,7 +4571,11 @@ msgstr "Instruções"
 #: model:maintenance.team,name:maintenance.equipment_team_maintenance
 msgid "Internal Maintenance"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Manutenção interna"
+>>>>>>> upstream/18.0
 =======
 msgstr "Manutenção interna"
 >>>>>>> upstream/18.0
@@ -4512,7 +4625,11 @@ msgstr "Atividades em Atraso"
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_view_form
 msgid "Latest Failure"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Última falha"
+>>>>>>> upstream/18.0
 =======
 msgstr "Última falha"
 >>>>>>> upstream/18.0
@@ -4522,7 +4639,11 @@ msgstr "Última falha"
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_mixin__latest_failure_date
 msgid "Latest Failure Date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Data da última falha"
+>>>>>>> upstream/18.0
 =======
 msgstr "Data da última falha"
 >>>>>>> upstream/18.0
@@ -4531,7 +4652,11 @@ msgstr "Data da última falha"
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment_category__alias_incoming_local
 msgid "Local-part based incoming detection"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Detecção de entrada baseada na parte local"
+>>>>>>> upstream/18.0
 =======
 msgstr "Detecção de entrada baseada na parte local"
 >>>>>>> upstream/18.0
@@ -4545,7 +4670,11 @@ msgstr "Localização"
 #: model:ir.ui.menu,name:maintenance.menu_m_reports_losses
 msgid "Losses Analysis"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Análise de perdas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Análise de perdas"
 >>>>>>> upstream/18.0
@@ -4590,7 +4719,11 @@ msgstr "Calendário de Manutenção"
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_mixin__maintenance_count
 msgid "Maintenance Count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Contagem de manutenções"
+>>>>>>> upstream/18.0
 =======
 msgstr "Contagem de manutenções"
 >>>>>>> upstream/18.0
@@ -4604,7 +4737,11 @@ msgstr "Manutenção de Equipamento"
 #: model:ir.model,name:maintenance.model_maintenance_equipment_category
 msgid "Maintenance Equipment Category"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Categoria de equipamentos de manutenção"
+>>>>>>> upstream/18.0
 =======
 msgstr "Categoria de equipamentos de manutenção"
 >>>>>>> upstream/18.0
@@ -4631,7 +4768,11 @@ msgstr "Pedido de Manutenção Criado"
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_request_view_search
 msgid "Maintenance Request Search"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Busca de solicitações de manutenção"
+>>>>>>> upstream/18.0
 =======
 msgstr "Busca de solicitações de manutenção"
 >>>>>>> upstream/18.0
@@ -4640,7 +4781,11 @@ msgstr "Busca de solicitações de manutenção"
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_stage_view_tree
 msgid "Maintenance Request Stage"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Estágio de solicitação de manutenção"
+>>>>>>> upstream/18.0
 =======
 msgstr "Estágio de solicitação de manutenção"
 >>>>>>> upstream/18.0
@@ -4649,7 +4794,11 @@ msgstr "Estágio de solicitação de manutenção"
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_stage_view_search
 msgid "Maintenance Request Stages"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Estágios de solicitações de manutenção"
+>>>>>>> upstream/18.0
 =======
 msgstr "Estágios de solicitações de manutenção"
 >>>>>>> upstream/18.0
@@ -4676,7 +4825,11 @@ msgstr "Pedidos de Manutenção"
 #: model:ir.model,name:maintenance.model_maintenance_stage
 msgid "Maintenance Stage"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Estágio de manutenção"
+>>>>>>> upstream/18.0
 =======
 msgstr "Estágio de manutenção"
 >>>>>>> upstream/18.0
@@ -4685,7 +4838,11 @@ msgstr "Estágio de manutenção"
 #: model:ir.ui.menu,name:maintenance.menu_maintenance_stage_configuration
 msgid "Maintenance Stages"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Estágios de manutenção"
+>>>>>>> upstream/18.0
 =======
 msgstr "Estágios de manutenção"
 >>>>>>> upstream/18.0
@@ -4719,7 +4876,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_view_form
 msgid "Mean Time Between Failure"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tempo médio entre falhas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tempo médio entre falhas"
 >>>>>>> upstream/18.0
@@ -4731,6 +4892,11 @@ msgid ""
 "Mean Time Between Failure, computed based on done corrective maintenances."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Tempo médio entre falhas, calculado com base nas manutenções corretivas "
+"efetuadas."
+>>>>>>> upstream/18.0
 =======
 "Tempo médio entre falhas, calculado com base nas manutenções corretivas "
 "efetuadas."
@@ -4742,7 +4908,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_view_form
 msgid "Mean Time To Repair"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tempo médio de reparo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tempo médio de reparo"
 >>>>>>> upstream/18.0
@@ -4892,7 +5062,11 @@ msgid "Metrology"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Metrologia"
+>>>>>>> upstream/18.0
 =======
 msgstr "Metrologia"
 >>>>>>> upstream/18.0
@@ -5414,7 +5588,11 @@ msgid "Monitors"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Monitores"
+>>>>>>> upstream/18.0
 =======
 msgstr "Monitores"
 >>>>>>> upstream/18.0
@@ -5815,7 +5993,11 @@ msgstr "Prazo da Minha Atividade"
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_view_search
 msgid "My Equipment"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Meu equipamento"
+>>>>>>> upstream/18.0
 =======
 msgstr "Meu equipamento"
 >>>>>>> upstream/18.0
@@ -5824,7 +6006,11 @@ msgstr "Meu equipamento"
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_request_view_search
 msgid "My Maintenances"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Minhas manutenções"
+>>>>>>> upstream/18.0
 =======
 msgstr "Minhas manutenções"
 >>>>>>> upstream/18.0
@@ -5891,7 +6077,11 @@ msgstr "Número de Ações"
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_team__todo_request_count
 msgid "Number of Requests"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Número de solicitações"
+>>>>>>> upstream/18.0
 =======
 msgstr "Número de solicitações"
 >>>>>>> upstream/18.0
@@ -5900,7 +6090,11 @@ msgstr "Número de solicitações"
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_team__todo_request_count_block
 msgid "Number of Requests Blocked"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Número de solicitações bloqueadas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Número de solicitações bloqueadas"
 >>>>>>> upstream/18.0
@@ -5909,7 +6103,11 @@ msgstr "Número de solicitações bloqueadas"
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_team__todo_request_count_date
 msgid "Number of Requests Scheduled"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Número de solicitações agendadas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Número de solicitações agendadas"
 >>>>>>> upstream/18.0
@@ -5918,7 +6116,11 @@ msgstr "Número de solicitações agendadas"
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_team__todo_request_count_unscheduled
 msgid "Number of Requests Unscheduled"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Número de solicitações não programadas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Número de solicitações não programadas"
 >>>>>>> upstream/18.0
@@ -5927,7 +6129,11 @@ msgstr "Número de solicitações não programadas"
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_team__todo_request_count_high_priority
 msgid "Number of Requests in High Priority"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Número de solicitações com alta prioridade"
+>>>>>>> upstream/18.0
 =======
 msgstr "Número de solicitações com alta prioridade"
 >>>>>>> upstream/18.0
@@ -5968,7 +6174,11 @@ msgstr ""
 #: model:ir.ui.menu,name:maintenance.menu_m_reports_oee
 msgid "Overall Equipment Effectiveness (OEE)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Eficácia geral do equipamento (EGE)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Eficácia geral do equipamento (EGE)"
 >>>>>>> upstream/18.0
@@ -6051,6 +6261,7 @@ msgstr "Prioridade"
 #. module: maintenance
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_view_form
 msgid "Product Information"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6564,6 +6775,9 @@ msgstr "Informação do Artigo"
 =======
 msgstr "Informação do Artigo"
 >>>>>>> upstream/18.0
+=======
+msgstr "Informação do Artigo"
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment__equipment_properties
@@ -6584,7 +6798,11 @@ msgstr "Pronto para a próxima etapa"
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_view_kanban
 msgid "Record Colour"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Registrar cor"
+>>>>>>> upstream/18.0
 =======
 msgstr "Registrar cor"
 >>>>>>> upstream/18.0
@@ -6654,7 +6872,11 @@ msgstr "Pedido Concluído"
 #: code:addons/maintenance/models/maintenance.py:0
 msgid "Request planned for %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Solicitação planejada para %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Solicitação planejada para %s"
 >>>>>>> upstream/18.0
@@ -6668,7 +6890,11 @@ msgstr "Pedido por"
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_request_view_kanban
 msgid "Requested by:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Solicitado por:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Solicitado por:"
 >>>>>>> upstream/18.0
@@ -6804,7 +7030,11 @@ msgid "Requests"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Solicitações"
+>>>>>>> upstream/18.0
 =======
 msgstr "Solicitações"
 >>>>>>> upstream/18.0
@@ -7229,7 +7459,11 @@ msgstr "Quebras"
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment__scrap_date
 msgid "Scrap Date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Data de sucateamento"
+>>>>>>> upstream/18.0
 =======
 msgstr "Data de sucateamento"
 >>>>>>> upstream/18.0
@@ -7258,6 +7492,11 @@ msgid ""
 "Set archive to true to hide the maintenance request without deleting it."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Defina o arquivo como verdadeiro para ocultar a solicitação de manutenção "
+"sem excluí-lo."
+>>>>>>> upstream/18.0
 =======
 "Defina o arquivo como verdadeiro para ocultar a solicitação de manutenção "
 "sem excluí-lo."
@@ -7446,7 +7685,11 @@ msgid "Subcontractor"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Subcontratatado"
+>>>>>>> upstream/18.0
 =======
 msgstr "Subcontratatado"
 >>>>>>> upstream/18.0
@@ -7963,7 +8206,11 @@ msgid "Subjects"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Assuntos"
+>>>>>>> upstream/18.0
 =======
 msgstr "Assuntos"
 >>>>>>> upstream/18.0
@@ -8365,7 +8612,11 @@ msgstr "Membros da equipa"
 #: model_terms:ir.ui.view,arch_db:maintenance.maintenance_team_view_form
 msgid "Team Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nome da equipe"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nome da equipe"
 >>>>>>> upstream/18.0
@@ -8509,7 +8760,11 @@ msgid "Technician"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Técnico"
+>>>>>>> upstream/18.0
 =======
 msgstr "Técnico"
 >>>>>>> upstream/18.0
@@ -8925,7 +9180,11 @@ msgstr ""
 #: model:res.groups,comment:maintenance.group_equipment_manager
 msgid "The user will be able to manage equipment."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "O usuário poderá gerenciar o equipamento."
+>>>>>>> upstream/18.0
 =======
 msgstr "O usuário poderá gerenciar o equipamento."
 >>>>>>> upstream/18.0
@@ -8952,7 +9211,11 @@ msgstr "Atividades do Dia"
 #: model_terms:ir.ui.view,arch_db:maintenance.maintenance_team_kanban
 msgid "Top Priorities"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Principais prioridades"
+>>>>>>> upstream/18.0
 =======
 msgstr "Principais prioridades"
 >>>>>>> upstream/18.0
@@ -8965,6 +9228,11 @@ msgid ""
 "                You will be able to manage allocations, issues and maintenance of your equipment."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Rastreie equipamentos e vincule-os a um funcionário ou departamento.\n"
+"Você poderá gerenciar alocações, problemas e manutenção de seus equipamentos."
+>>>>>>> upstream/18.0
 =======
 "Rastreie equipamentos e vincule-os a um funcionário ou departamento.\n"
 "Você poderá gerenciar alocações, problemas e manutenção de seus equipamentos."
@@ -8985,7 +9253,11 @@ msgstr "Não Atribuídos"
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_view_search
 msgid "Under Maintenance"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Em manutenção"
+>>>>>>> upstream/18.0
 =======
 msgstr "Em manutenção"
 >>>>>>> upstream/18.0
@@ -9128,7 +9400,11 @@ msgid "Unscheduled"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Não programado"
+>>>>>>> upstream/18.0
 =======
 msgstr "Não programado"
 >>>>>>> upstream/18.0
@@ -9693,7 +9969,11 @@ msgid "Years"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "aceite"
+>>>>>>> upstream/18.0
 =======
 msgstr "aceite"
 >>>>>>> upstream/18.0
@@ -10247,7 +10527,11 @@ msgid "alias"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "alias"
+>>>>>>> upstream/18.0
 =======
 msgstr "alias"
 >>>>>>> upstream/18.0
@@ -10660,7 +10944,11 @@ msgstr "dias"
 #: model_terms:ir.ui.view,arch_db:maintenance.maintenance_team_view_form
 msgid "e.g. Internal Maintenance"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ex.: Manutenção interna"
+>>>>>>> upstream/18.0
 =======
 msgstr "ex.: Manutenção interna"
 >>>>>>> upstream/18.0
@@ -10669,7 +10957,11 @@ msgstr "ex.: Manutenção interna"
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_view_form
 msgid "e.g. LED Monitor"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ex.: monitor LED"
+>>>>>>> upstream/18.0
 =======
 msgstr "ex.: monitor LED"
 >>>>>>> upstream/18.0
@@ -10678,7 +10970,11 @@ msgstr "ex.: monitor LED"
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_category_view_form
 msgid "e.g. Monitors"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ex.: monitores"
+>>>>>>> upstream/18.0
 =======
 msgstr "ex.: monitores"
 >>>>>>> upstream/18.0
@@ -10687,7 +10983,11 @@ msgstr "ex.: monitores"
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_request_view_form
 msgid "e.g. Screen not working"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ex.: A tela não está funcionando"
+>>>>>>> upstream/18.0
 =======
 msgstr "ex.: A tela não está funcionando"
 >>>>>>> upstream/18.0
@@ -10696,7 +10996,11 @@ msgstr "ex.: A tela não está funcionando"
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_category_view_form
 msgid "e.g. mycompany.com"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ex.: minhaempresa.com"
+>>>>>>> upstream/18.0
 =======
 msgstr "ex.: minhaempresa.com"
 >>>>>>> upstream/18.0
@@ -10707,7 +11011,11 @@ msgstr "ex.: minhaempresa.com"
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_request_view_tree
 msgid "maintenance Request"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Solicitação de manutenção"
+>>>>>>> upstream/18.0
 =======
 msgstr "Solicitação de manutenção"
 >>>>>>> upstream/18.0

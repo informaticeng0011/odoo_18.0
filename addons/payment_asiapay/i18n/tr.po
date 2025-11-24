@@ -1,8 +1,13 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* payment_asiapay
 # 
+=======
+# * payment_asiapay
+#
+>>>>>>> upstream/18.0
 =======
 # * payment_asiapay
 #
@@ -14,7 +19,11 @@
 # Martin Trigaux, 2024
 # Ertuğrul Güreş <ertugrulg@projetgrup.com>, 2024
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
@@ -23,6 +32,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Ertuğrul Güreş <ertugrulg@projetgrup.com>, 2024\n"
@@ -33,6 +43,8 @@ msgstr ""
 "Language: tr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-11-21 02:31+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Turkish <https://translate.odoo.com/projects/odoo-18/"
@@ -43,6 +55,9 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: payment_asiapay
@@ -54,6 +69,11 @@ msgid ""
 "again."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ödemenizin işlenmesi sırasında bir hata oluştu (başarı kodu %(success_code)s;"
+" birincil yanıt kodu %(response_code)s). Lütfen tekrar deneyiniz."
+>>>>>>> upstream/18.0
 =======
 "Ödemenizin işlenmesi sırasında bir hata oluştu (başarı kodu %(success_code)s;"
 " birincil yanıt kodu %(response_code)s). Lütfen tekrar deneyiniz."
@@ -63,7 +83,11 @@ msgstr ""
 #: model:ir.model.fields.selection,name:payment_asiapay.selection__payment_provider__code__asiapay
 msgid "AsiaPay"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "AsiaPay"
+>>>>>>> upstream/18.0
 =======
 msgstr "AsiaPay"
 >>>>>>> upstream/18.0
@@ -72,7 +96,11 @@ msgstr "AsiaPay"
 #: model:ir.model.fields,field_description:payment_asiapay.field_payment_provider__asiapay_merchant_id
 msgid "AsiaPay Merchant ID"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "AsiaPay Satıcı Kimliği"
+>>>>>>> upstream/18.0
 =======
 msgstr "AsiaPay Satıcı Kimliği"
 >>>>>>> upstream/18.0
@@ -81,7 +109,11 @@ msgstr "AsiaPay Satıcı Kimliği"
 #: model:ir.model.fields,field_description:payment_asiapay.field_payment_provider__asiapay_secure_hash_function
 msgid "AsiaPay Secure Hash Function"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "AsiaPay Güvenli Hash Fonksiyonu"
+>>>>>>> upstream/18.0
 =======
 msgstr "AsiaPay Güvenli Hash Fonksiyonu"
 >>>>>>> upstream/18.0
@@ -90,7 +122,11 @@ msgstr "AsiaPay Güvenli Hash Fonksiyonu"
 #: model:ir.model.fields,field_description:payment_asiapay.field_payment_provider__asiapay_secure_hash_secret
 msgid "AsiaPay Secure Hash Secret"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "AsiaPay Secure Hash Secret"
+>>>>>>> upstream/18.0
 =======
 msgstr "AsiaPay Secure Hash Secret"
 >>>>>>> upstream/18.0
@@ -99,7 +135,11 @@ msgstr "AsiaPay Secure Hash Secret"
 #: model:ir.model.fields,field_description:payment_asiapay.field_payment_provider__asiapay_brand
 msgid "Asiapay Brand"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Asiapay Markası"
+>>>>>>> upstream/18.0
 =======
 msgstr "Asiapay Markası"
 >>>>>>> upstream/18.0
@@ -108,7 +148,11 @@ msgstr "Asiapay Markası"
 #: model:ir.model.fields.selection,name:payment_asiapay.selection__payment_provider__asiapay_brand__bimopay
 msgid "BimoPay"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "BimoPay"
+>>>>>>> upstream/18.0
 =======
 msgstr "BimoPay"
 >>>>>>> upstream/18.0
@@ -139,7 +183,11 @@ msgstr "Referans %s eşleşen bir işlem bulunamadı."
 #: code:addons/payment_asiapay/models/payment_provider.py:0
 msgid "Only one currency can be selected by AsiaPay account."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "AsiaPay hesabı tarafından yalnızca bir para birimi seçilebilir."
+>>>>>>> upstream/18.0
 =======
 msgstr "AsiaPay hesabı tarafından yalnızca bir para birimi seçilebilir."
 >>>>>>> upstream/18.0
@@ -148,7 +196,11 @@ msgstr "AsiaPay hesabı tarafından yalnızca bir para birimi seçilebilir."
 #: model:ir.model.fields.selection,name:payment_asiapay.selection__payment_provider__asiapay_brand__paydollar
 msgid "PayDollar"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "PayDollar"
+>>>>>>> upstream/18.0
 =======
 msgstr "PayDollar"
 >>>>>>> upstream/18.0
@@ -167,7 +219,11 @@ msgstr "Ödeme İşlemi"
 #: model:ir.model.fields.selection,name:payment_asiapay.selection__payment_provider__asiapay_brand__pesopay
 msgid "PesoPay"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "PesoPay"
+>>>>>>> upstream/18.0
 =======
 msgstr "PesoPay"
 >>>>>>> upstream/18.0
@@ -183,7 +239,11 @@ msgstr ""
 #: code:addons/payment_asiapay/models/payment_transaction.py:0
 msgid "Received data with missing success code."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Eksik başarı kodu ile veri alındı."
+>>>>>>> upstream/18.0
 =======
 msgstr "Eksik başarı kodu ile veri alındı."
 >>>>>>> upstream/18.0
@@ -192,7 +252,11 @@ msgstr "Eksik başarı kodu ile veri alındı."
 #: model:ir.model.fields.selection,name:payment_asiapay.selection__payment_provider__asiapay_secure_hash_function__sha1
 msgid "SHA1"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "SHA1"
+>>>>>>> upstream/18.0
 =======
 msgstr "SHA1"
 >>>>>>> upstream/18.0
@@ -201,7 +265,11 @@ msgstr "SHA1"
 #: model:ir.model.fields.selection,name:payment_asiapay.selection__payment_provider__asiapay_secure_hash_function__sha256
 msgid "SHA256"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "SHA256"
+>>>>>>> upstream/18.0
 =======
 msgstr "SHA256"
 >>>>>>> upstream/18.0
@@ -210,7 +278,11 @@ msgstr "SHA256"
 #: model:ir.model.fields.selection,name:payment_asiapay.selection__payment_provider__asiapay_secure_hash_function__sha512
 msgid "SHA512"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "SHA512"
+>>>>>>> upstream/18.0
 =======
 msgstr "SHA512"
 >>>>>>> upstream/18.0
@@ -219,7 +291,11 @@ msgstr "SHA512"
 #: model_terms:ir.ui.view,arch_db:payment_asiapay.payment_provider_form
 msgid "Secure Hash Function"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Güvenli Hash Fonksiyonu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Güvenli Hash Fonksiyonu"
 >>>>>>> upstream/18.0
@@ -228,7 +304,11 @@ msgstr "Güvenli Hash Fonksiyonu"
 #: model_terms:ir.ui.view,arch_db:payment_asiapay.payment_provider_form
 msgid "Secure Hash Secret"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Güvenli Hash Sırrı"
+>>>>>>> upstream/18.0
 =======
 msgstr "Güvenli Hash Sırrı"
 >>>>>>> upstream/18.0
@@ -237,7 +317,11 @@ msgstr "Güvenli Hash Sırrı"
 #: model:ir.model.fields.selection,name:payment_asiapay.selection__payment_provider__asiapay_brand__siampay
 msgid "SiamPay"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "SiamPay"
+>>>>>>> upstream/18.0
 =======
 msgstr "SiamPay"
 >>>>>>> upstream/18.0
@@ -246,7 +330,11 @@ msgstr "SiamPay"
 #: model:ir.model.fields,help:payment_asiapay.field_payment_provider__asiapay_merchant_id
 msgid "The Merchant ID solely used to identify your AsiaPay account."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Satıcı Kimliği yalnızca AsiaPay hesabınızı tanımlamak için kullanılır."
+>>>>>>> upstream/18.0
 =======
 msgstr "Satıcı Kimliği yalnızca AsiaPay hesabınızı tanımlamak için kullanılır."
 >>>>>>> upstream/18.0
@@ -255,7 +343,11 @@ msgstr "Satıcı Kimliği yalnızca AsiaPay hesabınızı tanımlamak için kull
 #: model:ir.model.fields,help:payment_asiapay.field_payment_provider__asiapay_brand
 msgid "The brand associated to your AsiaPay account."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "AsiaPay hesabınızla ilişkili marka."
+>>>>>>> upstream/18.0
 =======
 msgstr "AsiaPay hesabınızla ilişkili marka."
 >>>>>>> upstream/18.0
@@ -264,7 +356,11 @@ msgstr "AsiaPay hesabınızla ilişkili marka."
 #: model:ir.model.fields,help:payment_asiapay.field_payment_provider__asiapay_secure_hash_function
 msgid "The secure hash function associated to your AsiaPay account."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "AsiaPay hesabınızla ilişkili güvenli karma işlevi."
+>>>>>>> upstream/18.0
 =======
 msgstr "AsiaPay hesabınızla ilişkili güvenli karma işlevi."
 >>>>>>> upstream/18.0
@@ -279,7 +375,11 @@ msgstr "Bu ödeme sağlayıcısının teknik kodu."
 #: code:addons/payment_asiapay/models/payment_transaction.py:0
 msgid "Unknown success code: %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bilinmeyen başarı kodu: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Bilinmeyen başarı kodu: %s"
 >>>>>>> upstream/18.0

@@ -1,8 +1,13 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* cloud_storage
 # 
+=======
+# * cloud_storage
+#
+>>>>>>> upstream/18.0
 =======
 # * cloud_storage
 #
@@ -13,7 +18,12 @@
 # Martin Trigaux, 2024
 # Anna, 2024
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 =======
 #
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
@@ -22,6 +32,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
 "PO-Revision-Date: 2024-09-29 00:00+0000\n"
@@ -33,6 +44,8 @@ msgstr ""
 "Language: et\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-11-14 18:38+0000\n"
 "PO-Revision-Date: 2025-11-10 09:44+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
@@ -44,6 +57,9 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: cloud_storage
@@ -61,7 +77,11 @@ msgstr "Pilvesalvestus"
 #: model:ir.model.fields,field_description:cloud_storage.field_res_config_settings__cloud_storage_provider
 msgid "Cloud Storage Provider for new attachments"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Uute manuste pilvesalvestuse pakkuja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Uute manuste pilvesalvestuse pakkuja"
 >>>>>>> upstream/18.0
@@ -76,7 +96,11 @@ msgstr ""
 #: code:addons/cloud_storage/models/ir_attachment.py:0
 msgid "Cloud Storage is not enabled"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pilvesalvestus ei ole aktiveeritud"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pilvesalvestus ei ole aktiveeritud"
 >>>>>>> upstream/18.0
@@ -86,7 +110,11 @@ msgstr "Pilvesalvestus ei ole aktiveeritud"
 #: code:addons/cloud_storage/controllers/attachment.py:0
 msgid "Cloud storage configuration has been changed. Please refresh the page."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Muudeti pilvesalvestuse seadistusi. Palun värskendage lehte."
+>>>>>>> upstream/18.0
 =======
 msgstr "Muudeti pilvesalvestuse seadistusi. Palun värskendage lehte."
 >>>>>>> upstream/18.0
@@ -96,7 +124,11 @@ msgstr "Muudeti pilvesalvestuse seadistusi. Palun värskendage lehte."
 #: code:addons/cloud_storage/static/src/core/common/attachment_upload_service_patch.js:0
 msgid "Cloud storage error"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pilvesalvestuse viga"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pilvesalvestuse viga"
 >>>>>>> upstream/18.0
@@ -108,7 +140,10 @@ msgstr "Seadistused"
 
 #. module: cloud_storage
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/cloud_storage/models/ir_attachment.py:0
 msgid ""
@@ -116,6 +151,9 @@ msgid ""
 msgstr ""
 
 #. module: cloud_storage
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model,name:cloud_storage.model_ir_http
 msgid "HTTP Routing"
@@ -125,7 +163,11 @@ msgstr "HTTP Routing"
 #: model:ir.model.fields,field_description:cloud_storage.field_res_config_settings__cloud_storage_min_file_size
 msgid "Minimum File Size (bytes)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Faili minimaalne suurus (baidid)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Faili minimaalne suurus (baidid)"
 >>>>>>> upstream/18.0
@@ -140,7 +182,11 @@ msgstr ""
 #: code:addons/cloud_storage/models/res_config_settings.py:0
 msgid "Please configure the Cloud Storage before enabling it"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Palun seadistage pilvesalvestus enne selle aktiveerimist"
+>>>>>>> upstream/18.0
 =======
 msgstr "Palun seadistage pilvesalvestus enne selle aktiveerimist"
 >>>>>>> upstream/18.0
@@ -149,7 +195,11 @@ msgstr "Palun seadistage pilvesalvestus enne selle aktiveerimist"
 #: model_terms:ir.ui.view,arch_db:cloud_storage.cloud_storage_config_settings_view_form
 msgid "Select the cloud storage provider to store new attachments."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Valige pilvesalvestuse pakkujat, et salvestada uusi manuseid."
+>>>>>>> upstream/18.0
 =======
 msgstr "Valige pilvesalvestuse pakkujat, et salvestada uusi manuseid."
 >>>>>>> upstream/18.0
@@ -164,7 +214,11 @@ msgstr "Tüüp"
 #: code:addons/cloud_storage/static/src/core/common/attachment_upload_service_patch.js:0
 msgid "You are not allowed to upload file to the cloud storage"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Teil ei ole lubatud laadida failid üles pilvesalvestusse"
+>>>>>>> upstream/18.0
 =======
 msgstr "Teil ei ole lubatud laadida failid üles pilvesalvestusse"
 >>>>>>> upstream/18.0
@@ -183,10 +237,13 @@ msgstr ""
 msgid ""
 "webclient can upload files larger than the minimum file size\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        (in bytes) as url attachments to the server and then upload the file to\n"
 "        the cloud storage."
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "        (in bytes) as url attachments to the server and then upload the file "
 "to\n"
 "        the cloud storage."
@@ -196,4 +253,7 @@ msgstr ""
 "                      suuremad kui minimaalne failisuurus (baitides), ja "
 "seejärel üles laadida\n"
 "                      fail pilvesalvestusse."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

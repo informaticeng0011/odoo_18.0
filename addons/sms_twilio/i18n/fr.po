@@ -1,8 +1,14 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* sms_twilio
 #
+=======
+# * sms_twilio
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 =======
 # * sms_twilio
 #
@@ -12,6 +18,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 17.0+e\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -303,6 +310,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-09-12 01:51+0000\n"
 "PO-Revision-Date: 2025-11-21 06:43+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
@@ -314,6 +323,9 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sms_twilio
@@ -394,7 +406,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -541,6 +556,7 @@ msgid "'To' and 'From' numbers cannot be the same"
 msgstr ""
 
 #. module: sms_twilio
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -758,10 +774,16 @@ msgstr ""
 msgid "+1 555-123-4567"
 msgstr "+1 555-123-4567"
 >>>>>>> upstream/18.0
+=======
+#: model_terms:ir.ui.view,arch_db:sms_twilio.sms_twilio_account_manage_view_form
+msgid "+1 555-123-4567"
+msgstr "+1 555-123-4567"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #. odoo-python
 #: code:addons/sms_twilio/tools/sms_api.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1047,13 +1069,20 @@ msgid "A 'To' phone number is required"
 =======
 msgid "A 'To' phone number is required"
 >>>>>>> upstream/18.0
+=======
+msgid "A 'To' phone number is required"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: sms_twilio
 #: model_terms:ir.ui.view,arch_db:sms_twilio.sms_twilio_account_manage_view_form
 msgid "ACabcde12345abcde12345abcde12345ab"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ACabcde12345abcde12345abcde12345ab"
+>>>>>>> upstream/18.0
 =======
 msgstr "ACabcde12345abcde12345abcde12345ab"
 >>>>>>> upstream/18.0
@@ -1063,7 +1092,11 @@ msgstr "ACabcde12345abcde12345abcde12345ab"
 #: model:ir.model.fields,field_description:sms_twilio.field_sms_twilio_account_manage__sms_twilio_account_sid
 msgid "Account SID"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "SID du compte"
+>>>>>>> upstream/18.0
 =======
 msgstr "SID du compte"
 >>>>>>> upstream/18.0
@@ -1079,6 +1112,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:sms_twilio.field_sms_twilio_account_manage__sms_twilio_auth_token
 msgid "Auth Token"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: sms_twilio
@@ -1366,6 +1400,8 @@ msgstr ""
 msgid "Authentication Error\""
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Jeton d’authentification"
 
 #. module: sms_twilio
@@ -1373,13 +1409,20 @@ msgstr "Jeton d’authentification"
 #: model:ir.model.fields.selection,name:sms_twilio.selection__sms_sms__failure_type__twilio_authentication
 msgid "Authentication Error\""
 msgstr "Erreur d’authentification \""
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #: model:ir.model,name:sms_twilio.model_res_company
 msgid "Companies"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sociétés"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sociétés"
 >>>>>>> upstream/18.0
@@ -1390,7 +1433,11 @@ msgstr "Sociétés"
 #: model:ir.model.fields,field_description:sms_twilio.field_sms_twilio_number__company_id
 msgid "Company"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Société"
+>>>>>>> upstream/18.0
 =======
 msgstr "Société"
 >>>>>>> upstream/18.0
@@ -1399,7 +1446,11 @@ msgstr "Société"
 #: model:ir.model,name:sms_twilio.model_res_config_settings
 msgid "Config Settings"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Paramètres de configuration"
+>>>>>>> upstream/18.0
 =======
 msgstr "Paramètres de configuration"
 >>>>>>> upstream/18.0
@@ -1413,7 +1464,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:sms_twilio.field_sms_twilio_number__country_id
 msgid "Country"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pays"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pays"
 >>>>>>> upstream/18.0
@@ -1422,7 +1477,11 @@ msgstr "Pays"
 #: model:ir.model.fields,field_description:sms_twilio.field_sms_twilio_number__country_code
 msgid "Country Code"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Code du pays"
+>>>>>>> upstream/18.0
 =======
 msgstr "Code du pays"
 >>>>>>> upstream/18.0
@@ -1432,7 +1491,11 @@ msgstr "Code du pays"
 #: model:ir.model.fields,field_description:sms_twilio.field_sms_twilio_number__create_uid
 msgid "Created by"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Créé par"
+>>>>>>> upstream/18.0
 =======
 msgstr "Créé par"
 >>>>>>> upstream/18.0
@@ -1442,7 +1505,11 @@ msgstr "Créé par"
 #: model:ir.model.fields,field_description:sms_twilio.field_sms_twilio_number__create_date
 msgid "Created on"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Créé le"
+>>>>>>> upstream/18.0
 =======
 msgstr "Créé le"
 >>>>>>> upstream/18.0
@@ -1451,7 +1518,11 @@ msgstr "Créé le"
 #: model_terms:ir.ui.view,arch_db:sms_twilio.sms_twilio_account_manage_view_form
 msgid "Credentials"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Identifiants"
+>>>>>>> upstream/18.0
 =======
 msgstr "Identifiants"
 >>>>>>> upstream/18.0
@@ -1460,7 +1531,11 @@ msgstr "Identifiants"
 #: model_terms:ir.ui.view,arch_db:sms_twilio.sms_twilio_account_manage_view_form
 msgid "Delete"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Supprimer"
+>>>>>>> upstream/18.0
 =======
 msgstr "Supprimer"
 >>>>>>> upstream/18.0
@@ -1469,7 +1544,11 @@ msgstr "Supprimer"
 #: model_terms:ir.ui.view,arch_db:sms_twilio.sms_twilio_account_manage_view_form
 msgid "Discard"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ignorer"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ignorer"
 >>>>>>> upstream/18.0
@@ -1479,7 +1558,11 @@ msgstr "Ignorer"
 #: model:ir.model.fields,field_description:sms_twilio.field_sms_twilio_number__display_name
 msgid "Display Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nom affiché"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nom affiché"
 >>>>>>> upstream/18.0
@@ -1489,7 +1572,11 @@ msgstr "Nom affiché"
 #: code:addons/sms_twilio/wizard/sms_twilio_account_manage.py:0
 msgid "Error: %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Erreur : %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Erreur : %s"
 >>>>>>> upstream/18.0
@@ -1498,6 +1585,7 @@ msgstr "Erreur : %s"
 #: model:ir.model.fields,field_description:sms_twilio.field_sms_sms__failure_type
 msgid "Failure Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: sms_twilio
@@ -1714,18 +1802,24 @@ msgstr ""
 msgid "Failure type"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Type d'échec"
 
 #. module: sms_twilio
 #: model:ir.model.fields,field_description:sms_twilio.field_mail_notification__failure_type
 msgid "Failure type"
 msgstr "Type d'échec"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #: model:ir.model.fields.selection,name:sms_twilio.selection__mail_notification__failure_type__twilio_from_to
 #: model:ir.model.fields.selection,name:sms_twilio.selection__sms_sms__failure_type__twilio_from_to
 msgid "From / To identic"
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgstr ""
 
@@ -2228,6 +2322,8 @@ msgstr ""
 msgid "Incorrect callback URL"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Expéditeur / destinataire identiques"
 
 #. module: sms_twilio
@@ -2241,6 +2337,9 @@ msgstr "ID"
 #: model:ir.model.fields.selection,name:sms_twilio.selection__sms_sms__failure_type__twilio_callback
 msgid "Incorrect callback URL"
 msgstr "URL de rappel incorrecte"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sms_twilio
@@ -2251,6 +2350,11 @@ msgid ""
 "'AC'."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"SID de compte Twilio invalide : doit contenir uniquement des caractères "
+"alphanumériques après 'AC'."
+>>>>>>> upstream/18.0
 =======
 "SID de compte Twilio invalide : doit contenir uniquement des caractères "
 "alphanumériques après 'AC'."
@@ -2263,6 +2367,11 @@ msgid ""
 "Invalid Twilio Account SID: must start with 'AC' and be 34 characters long."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"SID de compte Twilio invalide : doit commencer par 'AC' et contenir 34 "
+"caractères au total."
+>>>>>>> upstream/18.0
 =======
 "SID de compte Twilio invalide : doit commencer par 'AC' et contenir 34 "
 "caractères au total."
@@ -2273,7 +2382,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:sms_twilio.field_sms_twilio_number__write_uid
 msgid "Last Updated by"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dernière mise à jour par"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dernière mise à jour par"
 >>>>>>> upstream/18.0
@@ -2283,7 +2396,11 @@ msgstr "Dernière mise à jour par"
 #: model:ir.model.fields,field_description:sms_twilio.field_sms_twilio_number__write_date
 msgid "Last Updated on"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dernière mise à jour le"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dernière mise à jour le"
 >>>>>>> upstream/18.0
@@ -2292,7 +2409,11 @@ msgstr "Dernière mise à jour le"
 #: model:ir.model,name:sms_twilio.model_sms_tracker
 msgid "Link SMS to mailing/sms tracking models"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Lier le SMS aux modèles de suivi mailing/sms"
+>>>>>>> upstream/18.0
 =======
 msgstr "Lier le SMS aux modèles de suivi mailing/sms"
 >>>>>>> upstream/18.0
@@ -2303,6 +2424,7 @@ msgstr "Lier le SMS aux modèles de suivi mailing/sms"
 #: code:addons/sms_twilio/wizard/sms_twilio_account_manage.py:0
 msgid "Manage Twilio SMS"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: sms_twilio
@@ -2519,18 +2641,24 @@ msgstr ""
 msgid "Message Notifications"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Gérer les SMS Twilio"
 
 #. module: sms_twilio
 #: model:ir.model,name:sms_twilio.model_mail_notification
 msgid "Message Notifications"
 msgstr "Notifications par message"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #: model:ir.model.fields.selection,name:sms_twilio.selection__mail_notification__failure_type__twilio_from_missing
 #: model:ir.model.fields.selection,name:sms_twilio.selection__sms_sms__failure_type__twilio_from_missing
 msgid "Missing From Number"
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgstr ""
 
@@ -2748,6 +2876,11 @@ msgstr "Numéro d’expéditeur manquant"
 
 #. module: sms_twilio
 >>>>>>> upstream/18.0
+=======
+msgstr "Numéro d’expéditeur manquant"
+
+#. module: sms_twilio
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sms_twilio.sms_twilio_account_manage_view_form
 msgid ""
 "Need help ?\n"
@@ -2760,7 +2893,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:sms_twilio.field_sms_twilio_account_manage__sms_twilio_number_ids
 msgid "Numbers"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nombres"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nombres"
 >>>>>>> upstream/18.0
@@ -2769,7 +2906,11 @@ msgstr "Nombres"
 #: model:ir.model,name:sms_twilio.model_sms_sms
 msgid "Outgoing SMS"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "SMS sortant"
+>>>>>>> upstream/18.0
 =======
 msgstr "SMS sortant"
 >>>>>>> upstream/18.0
@@ -2785,6 +2926,10 @@ msgstr ""
 msgid "Please set the number to which you want to send a test SMS."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Veuillez définir le numéro auquel vous souhaitez envoyer un SMS de test."
+>>>>>>> upstream/18.0
 =======
 "Veuillez définir le numéro auquel vous souhaitez envoyer un SMS de test."
 >>>>>>> upstream/18.0
@@ -2793,7 +2938,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sms_twilio.sms_twilio_account_manage_view_form
 msgid "Reload Numbers from Twilio"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Recharger les numéros depuis Twilio"
+>>>>>>> upstream/18.0
 =======
 msgstr "Recharger les numéros depuis Twilio"
 >>>>>>> upstream/18.0
@@ -2804,7 +2953,11 @@ msgstr "Recharger les numéros depuis Twilio"
 #: model:ir.model.fields,field_description:sms_twilio.field_sms_twilio_account_manage__sms_provider
 msgid "SMS Provider"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prestataire SMS"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prestataire SMS"
 >>>>>>> upstream/18.0
@@ -2813,7 +2966,11 @@ msgstr "Prestataire SMS"
 #: model:ir.model,name:sms_twilio.model_sms_twilio_account_manage
 msgid "SMS Twilio Connection Wizard"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Assistant de connexion SMS Twilio"
+>>>>>>> upstream/18.0
 =======
 msgstr "Assistant de connexion SMS Twilio"
 >>>>>>> upstream/18.0
@@ -2822,7 +2979,11 @@ msgstr "Assistant de connexion SMS Twilio"
 #: model:ir.model,name:sms_twilio.model_sms_composer
 msgid "Send SMS Wizard"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Assistant d'envoi de SMS"
+>>>>>>> upstream/18.0
 =======
 msgstr "Assistant d'envoi de SMS"
 >>>>>>> upstream/18.0
@@ -2831,7 +2992,11 @@ msgstr "Assistant d'envoi de SMS"
 #: model_terms:ir.ui.view,arch_db:sms_twilio.sms_twilio_account_manage_view_form
 msgid "Send test SMS"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Envoyer SMS de test"
+>>>>>>> upstream/18.0
 =======
 msgstr "Envoyer SMS de test"
 >>>>>>> upstream/18.0
@@ -2850,7 +3015,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:sms_twilio.field_sms_twilio_number__sequence
 msgid "Sequence"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Séquence"
+>>>>>>> upstream/18.0
 =======
 msgstr "Séquence"
 >>>>>>> upstream/18.0
@@ -2867,6 +3036,11 @@ msgid ""
 "You can use this field for quick search."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Code de pays ISO en deux caractères. \n"
+"Vous pouvez utiliser ce champ pour une recherche rapide."
+>>>>>>> upstream/18.0
 =======
 "Code de pays ISO en deux caractères. \n"
 "Vous pouvez utiliser ce champ pour une recherche rapide."
@@ -2877,7 +3051,11 @@ msgstr ""
 #: code:addons/sms_twilio/wizard/sms_twilio_account_manage.py:0
 msgid "The SMS has been sent from %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Le SMS a été envoyé depuis %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Le SMS a été envoyé depuis %s"
 >>>>>>> upstream/18.0
@@ -2885,6 +3063,7 @@ msgstr "Le SMS a été envoyé depuis %s"
 #. module: sms_twilio
 #. odoo-python
 #: code:addons/sms_twilio/tools/sms_api.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3170,6 +3349,9 @@ msgid "The number you're trying to reach is not correctly formatted"
 =======
 msgid "The number you're trying to reach is not correctly formatted"
 >>>>>>> upstream/18.0
+=======
+msgid "The number you're trying to reach is not correctly formatted"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: sms_twilio
@@ -3177,7 +3359,11 @@ msgstr ""
 #: code:addons/sms_twilio/wizard/sms_twilio_account_manage.py:0
 msgid "This is a test SMS from Odoo"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ceci est un SMS de test d'Odoo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ceci est un SMS de test d'Odoo"
 >>>>>>> upstream/18.0
@@ -3256,7 +3442,10 @@ msgstr "Ceci est un SMS de test d'Odoo"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3473,6 +3662,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3618,13 +3808,21 @@ msgstr ""
 msgid "Twilio Authentication Error"
 msgstr "Erreur d’authentification Twilio"
 >>>>>>> upstream/18.0
+=======
+msgid "Twilio Authentication Error"
+msgstr "Erreur d’authentification Twilio"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #: model:ir.model,name:sms_twilio.model_sms_twilio_number
 #: model:ir.model.fields,field_description:sms_twilio.field_sms_twilio_number__number
 msgid "Twilio Number"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Numéro Twilio"
+>>>>>>> upstream/18.0
 =======
 msgstr "Numéro Twilio"
 >>>>>>> upstream/18.0
@@ -3639,7 +3837,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sms_twilio.sms_twilio_account_manage_view_form
 msgid "Twilio SMS Manage Connection"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gestion de la connexion SMS Twilio"
+>>>>>>> upstream/18.0
 =======
 msgstr "Gestion de la connexion SMS Twilio"
 >>>>>>> upstream/18.0
@@ -3649,7 +3851,11 @@ msgstr "Gestion de la connexion SMS Twilio"
 #: model:ir.model.fields,field_description:sms_twilio.field_sms_tracker__sms_twilio_sid
 msgid "Twilio SMS SID"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "SID SMS Twilio"
+>>>>>>> upstream/18.0
 =======
 msgstr "SID SMS Twilio"
 >>>>>>> upstream/18.0
@@ -3665,7 +3871,11 @@ msgstr ""
 #: code:addons/sms_twilio/tools/sms_api.py:0
 msgid "Unknown error, please contact Odoo support"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Erreur inconnue, veuillez contacter le support Odoo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Erreur inconnue, veuillez contacter le support Odoo"
 >>>>>>> upstream/18.0
@@ -3748,7 +3958,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3965,6 +4178,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4114,7 +4330,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sms_twilio.sms_twilio_account_manage_view_form
 msgid "abcde12345abcde12345abcde12345ab"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "abcde12345abcde12345abcde12345ab"
+>>>>>>> upstream/18.0
 =======
 msgstr "abcde12345abcde12345abcde12345ab"
 >>>>>>> upstream/18.0

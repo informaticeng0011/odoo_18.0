@@ -1,7 +1,11 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* phone_validation
+=======
+# * phone_validation
+>>>>>>> upstream/18.0
 =======
 # * phone_validation
 >>>>>>> upstream/18.0
@@ -11,7 +15,11 @@
 # Martin Trigaux, 2022
 # Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>, 2022
 <<<<<<< HEAD
+<<<<<<< HEAD
 #
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
@@ -20,6 +28,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 15.5alpha1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-08 06:52+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "PO-Revision-Date: 2022-09-22 05:53+0000\n"
 "Last-Translator: Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>, "
@@ -32,6 +41,8 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-11-21 06:40+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Serbian (Latin script) <https://translate.odoo.com/projects/"
@@ -43,6 +54,9 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: phone_validation
@@ -89,7 +103,11 @@ msgstr "Brojač priloga"
 #: model:ir.model,name:phone_validation.model_base
 msgid "Base"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Osnova"
+>>>>>>> upstream/18.0
 =======
 msgstr "Osnova"
 >>>>>>> upstream/18.0
@@ -172,6 +190,11 @@ msgid ""
 "comparisons."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Polje koje se koristi za čuvanje očišćenog broja telefona. Pomaže u "
+"ubrzavanju pretrage i poređenja."
+>>>>>>> upstream/18.0
 =======
 "Polje koje se koristi za čuvanje očišćenog broja telefona. Pomaže u "
 "ubrzavanju pretrage i poređenja."
@@ -220,6 +243,11 @@ msgid ""
 "mass mailing sms anymore, from any list"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ako je prečišćeni broj telefona na crnoj listi, kontakt neće dobijati "
+"masovne sms poruke više, sa bilo koje liste"
+>>>>>>> upstream/18.0
 =======
 "Ako je prečišćeni broj telefona na crnoj listi, kontakt neće dobijati "
 "masovne sms poruke više, sa bilo koje liste"
@@ -257,6 +285,12 @@ msgid ""
 "mobile and phone field in a model."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Označava da li je prečišćeni broj telefona na crnoj listi u stvari mobilni "
+"broj. Pomaže da se napravi razlika koji broj je na crnoj listi             "
+"kada u modelu postoje oba polja i mobilni i fiksni."
+>>>>>>> upstream/18.0
 =======
 "Označava da li je prečišćeni broj telefona na crnoj listi u stvari mobilni "
 "broj. Pomaže da se napravi razlika koji broj je na crnoj listi             "
@@ -271,6 +305,12 @@ msgid ""
 "mobile and phone field in a model."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Označava da li je prečišćeni broj telefona na crnoj listi u stvari fiksni "
+"broj. Pomaže da se napravi razlika koji broj je na crnoj listi             "
+"kada u modelu postoje oba polja i mobilni i fiksni."
+>>>>>>> upstream/18.0
 =======
 "Označava da li je prečišćeni broj telefona na crnoj listi u stvari fiksni "
 "broj. Pomaže da se napravi razlika koji broj je na crnoj listi             "
@@ -347,7 +387,11 @@ msgstr "Broj grešaka"
 #: model:ir.model.fields,help:phone_validation.field_phone_blacklist__message_needaction_counter
 msgid "Number of messages requiring action"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Broj poruka koje zahtevaju akciju"
+>>>>>>> upstream/18.0
 =======
 msgstr "Broj poruka koje zahtevaju akciju"
 >>>>>>> upstream/18.0
@@ -392,7 +436,11 @@ msgstr "Telefon je na crnoj listi"
 #: model_terms:ir.ui.view,arch_db:phone_validation.phone_blacklist_remove_view_form
 msgid "Phone Number"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Broj telefona"
+>>>>>>> upstream/18.0
 =======
 msgstr "Broj telefona"
 >>>>>>> upstream/18.0
@@ -424,7 +472,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:phone_validation.field_mail_thread_phone__phone_sanitized
 msgid "Sanitized Number"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prečišćen broj"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prečišćen broj"
 >>>>>>> upstream/18.0

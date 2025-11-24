@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* payment_flutterwave
 # 
 # Translators:
@@ -8,18 +9,24 @@
 # Wil Odoo, 2025
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 # * payment_flutterwave
 #
 # Translators:
 # Manuela Silva <mmsrs@sky.com>, 2025
 # Wil Odoo, 2025
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 17.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-26 21:56+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Wil Odoo, 2025\n"
@@ -30,6 +37,8 @@ msgstr ""
 "Language: pt\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-11-21 02:32+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Portuguese <https://translate.odoo.com/projects/odoo-18/"
@@ -41,6 +50,9 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % "
 "1000000 == 0) ? 1 : 2);\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: payment_flutterwave
@@ -51,6 +63,11 @@ msgid ""
 "try again."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ocorreu um erro durante o processamento do seu pagamento (status %s). Tente "
+"novamente."
+>>>>>>> upstream/18.0
 =======
 "Ocorreu um erro durante o processamento do seu pagamento (status %s). Tente "
 "novamente."
@@ -66,7 +83,11 @@ msgstr "Código"
 #: code:addons/payment_flutterwave/models/payment_provider.py:0
 msgid "Could not establish the connection to the API."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Não foi possível estabelecer a conexão com a API."
+>>>>>>> upstream/18.0
 =======
 msgstr "Não foi possível estabelecer a conexão com a API."
 >>>>>>> upstream/18.0
@@ -75,7 +96,11 @@ msgstr "Não foi possível estabelecer a conexão com a API."
 #: model:ir.model.fields.selection,name:payment_flutterwave.selection__payment_provider__code__flutterwave
 msgid "Flutterwave"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Flutterwave"
+>>>>>>> upstream/18.0
 =======
 msgstr "Flutterwave"
 >>>>>>> upstream/18.0
@@ -84,7 +109,11 @@ msgstr "Flutterwave"
 #: model:ir.model.fields,field_description:payment_flutterwave.field_payment_token__flutterwave_customer_email
 msgid "Flutterwave Customer Email"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Flutterwave – E-mail do cliente"
+>>>>>>> upstream/18.0
 =======
 msgstr "Flutterwave – E-mail do cliente"
 >>>>>>> upstream/18.0
@@ -93,7 +122,11 @@ msgstr "Flutterwave – E-mail do cliente"
 #: model:ir.model.fields,field_description:payment_flutterwave.field_payment_provider__flutterwave_public_key
 msgid "Flutterwave Public Key"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Flutterwave – Chave pública"
+>>>>>>> upstream/18.0
 =======
 msgstr "Flutterwave – Chave pública"
 >>>>>>> upstream/18.0
@@ -102,7 +135,11 @@ msgstr "Flutterwave – Chave pública"
 #: model:ir.model.fields,field_description:payment_flutterwave.field_payment_provider__flutterwave_secret_key
 msgid "Flutterwave Secret Key"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Flutterwave – Chave secreta"
+>>>>>>> upstream/18.0
 =======
 msgstr "Flutterwave – Chave secreta"
 >>>>>>> upstream/18.0
@@ -111,7 +148,11 @@ msgstr "Flutterwave – Chave secreta"
 #: model:ir.model.fields,field_description:payment_flutterwave.field_payment_provider__flutterwave_webhook_secret
 msgid "Flutterwave Webhook Secret"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Flutterwave – Webhook secreto"
+>>>>>>> upstream/18.0
 =======
 msgstr "Flutterwave – Webhook secreto"
 >>>>>>> upstream/18.0
@@ -121,7 +162,11 @@ msgstr "Flutterwave – Webhook secreto"
 #: code:addons/payment_flutterwave/models/payment_transaction.py:0
 msgid "No transaction found matching reference %s."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nenhuma transação encontrada com a referência %s."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nenhuma transação encontrada com a referência %s."
 >>>>>>> upstream/18.0
@@ -145,7 +190,11 @@ msgstr "Transação de Pagamento"
 #: model_terms:ir.ui.view,arch_db:payment_flutterwave.payment_provider_form
 msgid "Public Key"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Chave pública"
+>>>>>>> upstream/18.0
 =======
 msgstr "Chave pública"
 >>>>>>> upstream/18.0
@@ -155,7 +204,11 @@ msgstr "Chave pública"
 #: code:addons/payment_flutterwave/models/payment_transaction.py:0
 msgid "Received data with missing reference."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dados recebidos com referência ausente."
+>>>>>>> upstream/18.0
 =======
 msgstr "Dados recebidos com referência ausente."
 >>>>>>> upstream/18.0
@@ -173,6 +226,11 @@ msgid ""
 "information: '%s'"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"A comunicação com a API falhou. O Flutterwave nos forneceu as seguintes "
+"informações '%s'"
+>>>>>>> upstream/18.0
 =======
 "A comunicação com a API falhou. O Flutterwave nos forneceu as seguintes "
 "informações '%s'"
@@ -182,7 +240,11 @@ msgstr ""
 #: model:ir.model.fields,help:payment_flutterwave.field_payment_token__flutterwave_customer_email
 msgid "The email of the customer at the time the token was created."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "O e-mail do cliente no momento em que o token foi criado."
+>>>>>>> upstream/18.0
 =======
 msgstr "O e-mail do cliente no momento em que o token foi criado."
 >>>>>>> upstream/18.0
@@ -192,6 +254,10 @@ msgstr "O e-mail do cliente no momento em que o token foi criado."
 msgid "The key solely used to identify the account with Flutterwave."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"A chave usada exclusivamente para identificar a conta com o Flutterwave."
+>>>>>>> upstream/18.0
 =======
 "A chave usada exclusivamente para identificar a conta com o Flutterwave."
 >>>>>>> upstream/18.0
@@ -200,7 +266,11 @@ msgstr ""
 #: model:ir.model.fields,help:payment_flutterwave.field_payment_provider__code
 msgid "The technical code of this payment provider."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "O código técnico deste provedor de pagamento."
+>>>>>>> upstream/18.0
 =======
 msgstr "O código técnico deste provedor de pagamento."
 >>>>>>> upstream/18.0
@@ -210,7 +280,11 @@ msgstr "O código técnico deste provedor de pagamento."
 #: code:addons/payment_flutterwave/models/payment_transaction.py:0
 msgid "The transaction is not linked to a token."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "A transação não está vinculada a um token."
+>>>>>>> upstream/18.0
 =======
 msgstr "A transação não está vinculada a um token."
 >>>>>>> upstream/18.0
@@ -220,7 +294,11 @@ msgstr "A transação não está vinculada a um token."
 #: code:addons/payment_flutterwave/models/payment_transaction.py:0
 msgid "Unknown payment status: %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Status de pagamento desconhecido: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Status de pagamento desconhecido: %s"
 >>>>>>> upstream/18.0
@@ -229,7 +307,11 @@ msgstr "Status de pagamento desconhecido: %s"
 #: model_terms:ir.ui.view,arch_db:payment_flutterwave.payment_provider_form
 msgid "Webhook Secret"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Segredo do webhook"
+>>>>>>> upstream/18.0
 =======
 msgstr "Segredo do webhook"
 >>>>>>> upstream/18.0

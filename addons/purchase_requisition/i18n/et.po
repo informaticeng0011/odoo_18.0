@@ -34,8 +34,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* purchase_requisition
 # 
+=======
+# * purchase_requisition
+#
+>>>>>>> upstream/18.0
 =======
 # * purchase_requisition
 #
@@ -219,6 +224,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 =======
 # Kristina Pešehodko <kristina@avalah.ee>, 2025.
@@ -323,11 +329,16 @@
 # Kristina Pešehodko <kristina@avalah.ee>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
+=======
+# Kristina Pešehodko <kristina@avalah.ee>, 2025.
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -441,6 +452,10 @@ msgstr ""
 "PO-Revision-Date: 2025-11-21 06:44+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 >>>>>>> upstream/18.0
+=======
+"PO-Revision-Date: 2025-11-21 06:44+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Estonian <https://translate.odoo.com/projects/odoo-18/"
 "purchase_requisition/et/>\n"
 "Language: et\n"
@@ -482,6 +497,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -904,7 +922,11 @@ msgstr "Kuupäev"
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.report_purchaserequisition_document
 msgid "Demo Reference"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Näidise viide"
+>>>>>>> upstream/18.0
 =======
 msgstr "Näidise viide"
 >>>>>>> upstream/18.0
@@ -958,6 +980,11 @@ msgid ""
 "agreements: %s"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Lõppkuupäev peab olema pärast alguskuupäeva. Palun vaata üle lepingute "
+"kuupäevad: %s"
+>>>>>>> upstream/18.0
 =======
 "Lõppkuupäev peab olema pärast alguskuupäeva. Palun vaata üle lepingute "
 "kuupäevad: %s"
@@ -967,7 +994,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.report_purchaserequisition_document
 msgid "Expected on"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Eeldatav saabumine"
+>>>>>>> upstream/18.0
 =======
 msgstr "Eeldatav saabumine"
 >>>>>>> upstream/18.0
@@ -1116,7 +1147,11 @@ msgstr "Vali olemasolevate hinnapäringute hulgast"
 #: model:res.groups,name:purchase_requisition.group_purchase_alternatives
 msgid "Manage Purchase Alternatives"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Halda ostu alternatiive"
+>>>>>>> upstream/18.0
 =======
 msgstr "Halda ostu alternatiive"
 >>>>>>> upstream/18.0
@@ -1305,7 +1340,11 @@ msgstr "Ostulepingud"
 #: model:ir.model.fields,field_description:purchase_requisition.field_res_config_settings__group_purchase_alternatives
 msgid "Purchase Alternatives"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ostu alternatiivid"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ostu alternatiivid"
 >>>>>>> upstream/18.0
@@ -1713,7 +1752,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "staatuses"
+=======
+"staatuses."
+>>>>>>> upstream/18.0
 =======
 "staatuses."
 >>>>>>> upstream/18.0
@@ -1855,8 +1898,12 @@ msgid "You cannot confirm a blanket order with lines missing a price."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Te ei saa kinnitada üldist ostukokkulepet, kui ridadel puuduvad hinnad"
+=======
+msgstr "Te ei saa kinnitada üldist ostukokkulepet, kui ridadel puuduvad hinnad."
+>>>>>>> upstream/18.0
 =======
 msgstr "Te ei saa kinnitada üldist ostukokkulepet, kui ridadel puuduvad hinnad."
 >>>>>>> upstream/18.0
@@ -1998,7 +2045,11 @@ msgid "You cannot confirm a blanket order with lines missing a quantity."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Te ei saa kinnitada üldist ostukokkulepet ilma koguseta"
+=======
+msgstr "Te ei saa kinnitada üldist ostukokkulepet ilma koguseta."
+>>>>>>> upstream/18.0
 =======
 msgstr "Te ei saa kinnitada üldist ostukokkulepet ilma koguseta."
 >>>>>>> upstream/18.0
@@ -2144,7 +2195,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "sisalda ühtegi toote rida"
+=======
+"sisalda ühtegi toote rida."
+>>>>>>> upstream/18.0
 =======
 "sisalda ühtegi toote rida."
 >>>>>>> upstream/18.0
@@ -2256,6 +2311,11 @@ msgid ""
 "blanket order."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ühikuhind ei saa olle negatiivne või 0 juba kinnitatud üldisele "
+"ostukokkuleppele."
+>>>>>>> upstream/18.0
 =======
 "Ühikuhind ei saa olle negatiivne või 0 juba kinnitatud üldisele "
 "ostukokkuleppele."

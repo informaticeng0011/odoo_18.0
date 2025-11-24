@@ -1,8 +1,13 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* website_mass_mailing
 # 
+=======
+# * website_mass_mailing
+#
+>>>>>>> upstream/18.0
 =======
 # * website_mass_mailing
 #
@@ -13,7 +18,11 @@
 # Sanne Kristensen <sanne@vkdata.dk>, 2024
 # lhmflexerp <lhm@flexerp.dk>, 2024
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
@@ -22,6 +31,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-10 13:24+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 "Last-Translator: lhmflexerp <lhm@flexerp.dk>, 2024\n"
@@ -32,6 +42,8 @@ msgstr ""
 "Language: da\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-11-12 12:38+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Danish <https://translate.odoo.com/projects/odoo-18/"
@@ -42,6 +54,9 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: website_mass_mailing
@@ -68,6 +83,10 @@ msgstr ".s_newsletter_list"
 msgid "<i class=\"fa fa-check-circle-o\" role=\"img\"/> Thanks for registering!"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-check-circle-o\" role=\"img\"/> Tak for din tilmelding!"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-check-circle-o\" role=\"img\"/> Tak for din tilmelding!"
 >>>>>>> upstream/18.0
@@ -79,6 +98,11 @@ msgid ""
 "                                <span class=\"s_website_form_mark\"> *</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"s_website_form_label_content\">E-mail</span>\n"
+"                                <span class=\"s_website_form_mark\"> *</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"s_website_form_label_content\">E-mail</span>\n"
 "                                <span class=\"s_website_form_mark\"> *</span>"
@@ -100,6 +124,11 @@ msgid ""
 "                                <span class=\"s_website_form_mark\"> *</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"s_website_form_label_content\">Navn</span>\n"
+"                                <span class=\"s_website_form_mark\"> *</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"s_website_form_label_content\">Navn</span>\n"
 "                                <span class=\"s_website_form_mark\"> *</span>"
@@ -149,7 +178,11 @@ msgstr "Kontakt"
 #: code:addons/website_mass_mailing/static/src/js/website_mass_mailing.editor.js:0
 msgid "Display Thanks Message"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vis takkebesked"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vis takkebesked"
 >>>>>>> upstream/18.0
@@ -169,7 +202,11 @@ msgstr "Fejl"
 #: model_terms:ir.ui.view,arch_db:website_mass_mailing.s_newsletter_block_form_template
 msgid "First Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fornavn"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fornavn"
 >>>>>>> upstream/18.0
@@ -186,6 +223,11 @@ msgid ""
 "delivered directly to your inbox."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Få de seneste nyheder, blogindlæg og produktopdateringer fra vores "
+"virksomhed direkte i din indbakke."
+>>>>>>> upstream/18.0
 =======
 "Få de seneste nyheder, blogindlæg og produktopdateringer fra vores "
 "virksomhed direkte i din indbakke."
@@ -200,7 +242,11 @@ msgstr "John Smith"
 #: model_terms:ir.ui.view,arch_db:website_mass_mailing.s_newsletter_block_form_template
 msgid "Last Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Efternavn"
+>>>>>>> upstream/18.0
 =======
 msgstr "Efternavn"
 >>>>>>> upstream/18.0
@@ -258,7 +304,11 @@ msgstr "Abonnere på"
 #: model_terms:ir.ui.view,arch_db:website_mass_mailing.s_newsletter_block_default_template
 msgid "Subscribe to our newsletter"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tilmeld dig vores nyhedsbrev"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tilmeld dig vores nyhedsbrev"
 >>>>>>> upstream/18.0
@@ -284,7 +334,11 @@ msgstr "Skabelon"
 #: model_terms:ir.ui.view,arch_db:website_mass_mailing.s_newsletter_block_form_template
 msgid "Thank you for subscribing!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tak for din tilmelding!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tak for din tilmelding!"
 >>>>>>> upstream/18.0
@@ -314,7 +368,11 @@ msgstr "Du kan ikke længere abonnere på følgende liste: %s"
 #: model_terms:ir.ui.view,arch_db:website_mass_mailing.s_newsletter_block_form_template
 msgid "You will now be informed about the latest news."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Du vil nu modtage information om de seneste nyheder."
+>>>>>>> upstream/18.0
 =======
 msgstr "Du vil nu modtage information om de seneste nyheder."
 >>>>>>> upstream/18.0
@@ -338,6 +396,11 @@ msgid ""
 "communication, email, modal, alert, dialog, prompt, pop-up, subscription"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"formular, opdateringer, oversigt, bulletin, meddelelser, notifikationer, "
+"kommunikation, e-mail, modal, advarsel, dialog, prompt, pop op, abonnement"
+>>>>>>> upstream/18.0
 =======
 "formular, opdateringer, oversigt, bulletin, meddelelser, notifikationer, "
 "kommunikation, e-mail, modal, advarsel, dialog, prompt, pop op, abonnement"
@@ -348,7 +411,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_mass_mailing.s_newsletter_subscribe_form
 msgid "johnsmith@example.com"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "johnsmith@eksempel.com"
+>>>>>>> upstream/18.0
 =======
 msgstr "johnsmith@eksempel.com"
 >>>>>>> upstream/18.0

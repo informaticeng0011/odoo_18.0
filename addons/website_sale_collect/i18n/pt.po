@@ -1,8 +1,13 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* website_sale_collect
 # 
+=======
+# * website_sale_collect
+#
+>>>>>>> upstream/18.0
 =======
 # * website_sale_collect
 #
@@ -13,7 +18,11 @@
 # Peter Lawrence Romão <peterromao@yahoo.co.uk>, 2025
 # Wil Odoo, 2025
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
@@ -22,6 +31,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-16 13:41+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 "Last-Translator: Wil Odoo, 2025\n"
@@ -32,6 +42,8 @@ msgstr ""
 "Language: pt\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-11-21 06:38+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Portuguese <https://translate.odoo.com/projects/odoo-18/"
@@ -43,6 +55,9 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % "
 "1000000 == 0) ? 1 : 2);\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: website_sale_collect
@@ -52,6 +67,11 @@ msgid ""
 " your products."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i>Seu pedido foi confirmado.</i><br>Venha até a loja para pagar por seus "
+"produtos."
+>>>>>>> upstream/18.0
 =======
 "<i>Seu pedido foi confirmado.</i><br>Venha até a loja para pagar por seus "
 "produtos."
@@ -61,7 +81,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_sale_collect.payment_confirmation_status
 msgid "<span class=\"text-muted\"> (In-store pickup)</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"text-muted\"> (Retirada na loja)</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"text-muted\"> (Retirada na loja)</span>"
 >>>>>>> upstream/18.0
@@ -88,7 +112,11 @@ msgstr "Definições de Configuração"
 #: model_terms:ir.ui.view,arch_db:website_sale_collect.res_config_settings_form
 msgid "Configure Pickup Locations"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Configurar locais de retirada"
+>>>>>>> upstream/18.0
 =======
 msgstr "Configurar locais de retirada"
 >>>>>>> upstream/18.0
@@ -108,7 +136,11 @@ msgstr "Métodos de Entrega"
 #: model:ir.model.fields,field_description:website_sale_collect.field_website__in_store_dm_id
 msgid "In-store Delivery Method"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Método de entrega na loja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Método de entrega na loja"
 >>>>>>> upstream/18.0
@@ -136,7 +168,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_sale_collect.field_stock_warehouse__opening_hours
 msgid "Opening Hours"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Horário de funcionamento"
+>>>>>>> upstream/18.0
 =======
 msgstr "Horário de funcionamento"
 >>>>>>> upstream/18.0
@@ -151,7 +187,11 @@ msgstr "Esgotado"
 #: model:payment.provider,name:website_sale_collect.payment_provider_on_site
 msgid "Pay on Site"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pagar no local"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pagar no local"
 >>>>>>> upstream/18.0
@@ -161,7 +201,11 @@ msgstr "Pagar no local"
 #: model:payment.method,name:website_sale_collect.payment_method_pay_on_site
 msgid "Pay on site"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pagamento no local"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pagamento no local"
 >>>>>>> upstream/18.0
@@ -184,7 +228,11 @@ msgstr "Transação de Pagamento"
 #: model:product.template,name:website_sale_collect.product_pick_up_in_store_product_template
 msgid "Pick up in store"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Retirar na loja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Retirar na loja"
 >>>>>>> upstream/18.0
@@ -194,7 +242,11 @@ msgstr "Retirar na loja"
 #: code:addons/website_sale_collect/controllers/main.py:0
 msgid "Please choose a store to collect your order."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Escolha uma loja para retirar seu pedido."
+>>>>>>> upstream/18.0
 =======
 msgstr "Escolha uma loja para retirar seu pedido."
 >>>>>>> upstream/18.0
@@ -228,7 +280,11 @@ msgstr "Métodos de Envio"
 #: model_terms:ir.ui.view,arch_db:website_sale_collect.unavailable_products_warning
 msgid "Some of the products are not available at"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Alguns dos produtos não estão disponíveis em"
+>>>>>>> upstream/18.0
 =======
 msgstr "Alguns dos produtos não estão disponíveis em"
 >>>>>>> upstream/18.0
@@ -239,7 +295,11 @@ msgstr "Alguns dos produtos não estão disponíveis em"
 #: code:addons/website_sale_collect/models/sale_order.py:0
 msgid "Some products are not available in the selected store."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Alguns produtos não estão disponíveis na loja selecionada."
+>>>>>>> upstream/18.0
 =======
 msgstr "Alguns produtos não estão disponíveis na loja selecionada."
 >>>>>>> upstream/18.0
@@ -249,7 +309,11 @@ msgstr "Alguns produtos não estão disponíveis na loja selecionada."
 #: code:addons/website_sale_collect/controllers/main.py:0
 msgid "Sorry, we are unable to ship your order."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Lamentamos, mas não foi possível enviar seu pedido."
+>>>>>>> upstream/18.0
 =======
 msgstr "Lamentamos, mas não foi possível enviar seu pedido."
 >>>>>>> upstream/18.0
@@ -259,7 +323,11 @@ msgstr "Lamentamos, mas não foi possível enviar seu pedido."
 #: model_terms:ir.ui.view,arch_db:website_sale_collect.delivery_carrier_form
 msgid "Stores"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Lojas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Lojas"
 >>>>>>> upstream/18.0
@@ -269,7 +337,11 @@ msgstr "Lojas"
 #: code:addons/website_sale_collect/models/delivery_carrier.py:0
 msgid "The delivery method and a warehouse must share the same company"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "O método de entrega e o armazém devem compartilhar a mesma empresa"
+>>>>>>> upstream/18.0
 =======
 msgstr "O método de entrega e o armazém devem compartilhar a mesma empresa"
 >>>>>>> upstream/18.0
@@ -279,7 +351,11 @@ msgstr "O método de entrega e o armazém devem compartilhar a mesma empresa"
 #: code:addons/website_sale_collect/models/delivery_carrier.py:0
 msgid "The delivery method must have at least one warehouse to be published."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "O método de entrega deve ter pelo menos um armazém para ser publicado."
+>>>>>>> upstream/18.0
 =======
 msgstr "O método de entrega deve ter pelo menos um armazém para ser publicado."
 >>>>>>> upstream/18.0
@@ -302,6 +378,11 @@ msgid ""
 "method."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Você só pode pagar no local quando selecionar o método de entrega Retirar na "
+"loja."
+>>>>>>> upstream/18.0
 =======
 "Você só pode pagar no local quando selecionar o método de entrega Retirar na "
 "loja."
@@ -334,7 +415,11 @@ msgstr "disponível"
 #: code:addons/website_sale_collect/models/payment_provider.py:0
 msgid "no in-store delivery methods available"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "não há métodos de entrega na loja disponíveis"
+>>>>>>> upstream/18.0
 =======
 msgstr "não há métodos de entrega na loja disponíveis"
 >>>>>>> upstream/18.0

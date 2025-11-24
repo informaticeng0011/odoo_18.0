@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* account_check_printing
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -199,6 +200,10 @@
 # * account_check_printing
 #
 >>>>>>> upstream/18.0
+=======
+# * account_check_printing
+#
+>>>>>>> upstream/18.0
 # Translators:
 # NumerSpiral HBG, 2025
 # Peter Lawrence Romão <peterromao@yahoo.co.uk>, 2025
@@ -207,6 +212,7 @@
 # Arxi, 2025
 # Pilar Vargas, 2025
 # Wil Odoo, 2025
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -793,10 +799,15 @@
 # Daniel Reis, 2025
 # "Pedro Silva (Exo)" <pedrocs@exo.pt>, 2025.
 >>>>>>> upstream/18.0
+=======
+# Daniel Reis, 2025
+# "Pedro Silva (Exo)" <pedrocs@exo.pt>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1295,16 +1306,22 @@ msgstr ""
 "Last-Translator: Daniel Reis, 2025\n"
 "Language-Team: Portuguese (https://app.transifex.com/odoo/teams/41243/pt/)\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-10-03 18:38+0000\n"
 "PO-Revision-Date: 2025-11-15 18:10+0000\n"
 "Last-Translator: \"Pedro Silva (Exo)\" <pedrocs@exo.pt>\n"
 "Language-Team: Portuguese <https://translate.odoo.com/projects/odoo-18/"
 "account_check_printing/pt/>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % "
 "1000000 == 0 ? 1 : 2;\n"
@@ -1455,13 +1472,22 @@ msgstr ""
 "1000000 == 0) ? 1 : 2);\n"
 "X-Generator: Weblate 5.12.2\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % "
+"1000000 == 0) ? 1 : 2);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: account_check_printing
 #. odoo-python
 #: code:addons/account_check_printing/models/account_journal.py:0
 msgid "%(journal)s: Check Number Sequence"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(journal)s: Sequência de Numeração de Cheques"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(journal)s: Sequência de Numeração de Cheques"
 >>>>>>> upstream/18.0
@@ -1603,7 +1629,11 @@ msgid "<span>&amp;nbsp;</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>&amp;nbsp;</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>&amp;nbsp;</span>"
 >>>>>>> upstream/18.0
@@ -2019,6 +2049,11 @@ msgid ""
 "settings."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ajuste as margens das verificações para as adequar às configurações da "
+"impressora."
+>>>>>>> upstream/18.0
 =======
 "Ajuste as margens das verificações para as adequar às configurações da "
 "impressora."
@@ -2028,7 +2063,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_check_printing.field_account_payment__check_amount_in_words
 msgid "Amount in Words"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Montante em Palavras"
+=======
+msgstr "Montante por Extenso"
+>>>>>>> upstream/18.0
 =======
 msgstr "Montante por Extenso"
 >>>>>>> upstream/18.0
@@ -2088,7 +2127,11 @@ msgstr "Margem do Topo do Cheque"
 #: code:addons/account_check_printing/models/account_payment.py:0
 msgid "Check numbers can only consist of digits"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Os valores de verificação só podem consistir em dígitos"
+>>>>>>> upstream/18.0
 =======
 msgstr "Os valores de verificação só podem consistir em dígitos"
 >>>>>>> upstream/18.0
@@ -2169,7 +2212,11 @@ msgstr "Ir para o painel de configuração"
 #: model:ir.model.fields,field_description:account_check_printing.field_print_prenumbered_checks__id
 msgid "ID"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Id."
+=======
+msgstr "ID"
+>>>>>>> upstream/18.0
 =======
 msgstr "ID"
 >>>>>>> upstream/18.0
@@ -2227,8 +2274,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "In order to print multiple checks at once, they must belong to the same bank"
 " journal."
+=======
+"In order to print multiple checks at once, they must belong to the same bank "
+"journal."
+>>>>>>> upstream/18.0
 =======
 "In order to print multiple checks at once, they must belong to the same bank "
 "journal."
@@ -2503,6 +2555,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Payment Providers: Each payment provider has its own Payment Method. Request a transaction on/to a card thanks to a payment token saved by the partner when buying or subscribing online.\n"
 "Check: Pay bills by check and print it from Odoo.\n"
 "Batch Deposit: Collect several customer checks at once generating and submitting a batch deposit to your bank. Module account_batch_payment is necessary.\n"
@@ -2612,6 +2665,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Payment Providers: Each payment provider has its own Payment Method. Request "
 "a transaction on/to a card thanks to a payment token saved by the partner "
 "when buying or subscribing online.\n"
@@ -2624,6 +2679,7 @@ msgstr ""
 "SEPA Direct Debit: Get paid in the SEPA zone thanks to a mandate your "
 "partner will have granted to you. Module account_sepa is necessary.\n"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 "Manual: pagar ou ser pago por qualquer método fora do Odoo.\n"
 "Provedores de pagamento: cada provedor de pagamento tem seu próprio método "
@@ -2781,6 +2837,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "Manual: Pague ou Seja pago por qualquer método fora do Odoo.\n"
 "Provedores de pagamento: Cada provedor de pagamento tem o seu próprio método "
 "de pagamento. Solicite uma transação em/para um cartão graças a um token de "
@@ -2794,6 +2852,9 @@ msgstr ""
 "necessário.\n"
 "Débito Direto SEPA: Seja pago na zona SEPA graças a um mandato que o seu "
 "parceiro lhe terá concedido. O módulo account_sepa é necessário.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: account_check_printing
@@ -2801,7 +2862,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_check_printing.field_res_config_settings__account_check_printing_multi_stub
 msgid "Multi-Pages Check Stub"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Canhoto de Cheque Multi-Páginas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Canhoto de Cheque Multi-Páginas"
 >>>>>>> upstream/18.0
@@ -2818,7 +2883,11 @@ msgstr "Número de Cheque Seguinte"
 #: code:addons/account_check_printing/wizard/print_prenumbered_checks.py:0
 msgid "Next Check Number should only contains numbers."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "O próximo número de cheque deve conter apenas números."
+>>>>>>> upstream/18.0
 =======
 msgstr "O próximo número de cheque deve conter apenas números."
 >>>>>>> upstream/18.0
@@ -2852,7 +2921,11 @@ msgid ""
 msgstr ""
 "Os pagamentos a imprimir como um cheque devem ter selecionado 'Cheque' como "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "método de pagamento e não terem sido já reconciliados."
+=======
+"método de pagamento e não terem sido já reconciliados"
+>>>>>>> upstream/18.0
 =======
 "método de pagamento e não terem sido já reconciliados"
 >>>>>>> upstream/18.0
@@ -2860,6 +2933,7 @@ msgstr ""
 #. module: account_check_printing
 #: model_terms:ir.ui.view,arch_db:account_check_printing.print_pre_numbered_checks_view
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3107,6 +3181,10 @@ msgid ""
 "Please enter the number of the first pre-printed check that you are about to "
 "print on."
 >>>>>>> upstream/18.0
+=======
+"Please enter the number of the first pre-printed check that you are about to "
+"print on."
+>>>>>>> upstream/18.0
 msgstr ""
 "Por favor, insira o número do primeiro cheque pré-impresso que está prestes "
 "a imprimir."
@@ -3131,7 +3209,11 @@ msgstr "Imprimir Cheques"
 #: model:ir.model.fields,field_description:account_check_printing.field_res_config_settings__account_check_printing_date_label
 msgid "Print Date Label"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Imprimir Etiqueta de Data"
+>>>>>>> upstream/18.0
 =======
 msgstr "Imprimir Etiqueta de Data"
 >>>>>>> upstream/18.0
@@ -3159,6 +3241,7 @@ msgstr "Margem Direita"
 #: model:ir.model.fields,help:account_check_printing.field_res_company__account_check_printing_layout
 #: model:ir.model.fields,help:account_check_printing.field_res_config_settings__account_check_printing_layout
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3404,6 +3487,8 @@ msgid ""
 "In order to disable the printing feature, select 'None'."
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "Select the format corresponding to the check paper you will be printing your "
 "checks on.\n"
 "In order to disable the printing feature, select 'None'."
@@ -3411,6 +3496,9 @@ msgstr ""
 "Selecione o formato correspondente ao papel de cheque em que imprimirá os "
 "seus cheques.\n"
 "Para desabilitar o recurso de impressão, selecione 'Nenhum'."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: account_check_printing
@@ -3427,7 +3515,11 @@ msgstr "Número sequencial do próximo cheque impresso."
 #: model:ir.model.fields,field_description:account_check_printing.field_account_payment__show_check_number
 msgid "Show Check Number"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mostrar Número do Cheque"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mostrar Número do Cheque"
 >>>>>>> upstream/18.0
@@ -3440,6 +3532,7 @@ msgid ""
 "Invoicing/Accounting Settings and try again."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #. module: account_check_printing
 #. odoo-python
@@ -3587,11 +3680,16 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "Ocorreu um erro com o Layout do Cheque. Selecione outro layout nas "
 "Configurações de Faturação/Contabilidade e tente novamente."
 
 #. module: account_check_printing
 #. odoo-python
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: code:addons/account_check_printing/models/account_journal.py:0
 msgid ""
@@ -3599,6 +3697,7 @@ msgid ""
 "(max)d. Please enter a smaller number."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #. module: account_check_printing
 #. odoo-python
@@ -3745,11 +3844,16 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "O número de cheque que introduziu (%(num)s) excede o valor máximo permitido "
 "de %(max)d. Por favor, introduza um número mais pequeno."
 
 #. module: account_check_printing
 #. odoo-python
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: code:addons/account_check_printing/models/account_payment.py:0
 msgid ""
@@ -3757,6 +3861,11 @@ msgid ""
 "%s"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Os seguintes números já estão a ser usados:\n"
+"%s"
+>>>>>>> upstream/18.0
 =======
 "Os seguintes números já estão a ser usados:\n"
 "%s"
@@ -3779,6 +3888,7 @@ msgid ""
 "printed check paper already has numbers or if the current numbering is "
 "wrong, you can change it in the journal configuration page."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4026,6 +4136,10 @@ msgstr ""
 "O diário selecionado está configurado para imprimir os números do cheque. Se "
 "os seus cheques pré-impressos já estão numerados ou se a numeração atual "
 >>>>>>> upstream/18.0
+=======
+"O diário selecionado está configurado para imprimir os números do cheque. Se "
+"os seus cheques pré-impressos já estão numerados ou se a numeração atual "
+>>>>>>> upstream/18.0
 "estiver errada, pode alterá-la na página de configuração do diário."
 
 #. module: account_check_printing
@@ -4036,6 +4150,11 @@ msgid ""
 "they don't fit on a single page."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Esta opção permite-lhe imprimir detalhes do cheque em várias páginas, caso "
+"eles não caibam numa única página."
+>>>>>>> upstream/18.0
 =======
 "Esta opção permite-lhe imprimir detalhes do cheque em várias páginas, caso "
 "eles não caibam numa única página."
@@ -4049,6 +4168,12 @@ msgid ""
 "Disable this if your pre-printed check includes the date label."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Esta opção permite-lhe imprimir a etiqueta de data no cheque conforme o CPA."
+"\n"
+"Desabilite isto se o seu cheque pré-impresso incluir a etiqueta de data."
+>>>>>>> upstream/18.0
 =======
 "Esta opção permite-lhe imprimir a etiqueta de data no cheque conforme o CPA."
 "\n"
@@ -4071,7 +4196,11 @@ msgstr "Enviar não selecionados"
 #: model_terms:ir.ui.view,arch_db:account_check_printing.view_account_payment_form_inherited
 msgid "Void Check"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Anular Cheque"
+>>>>>>> upstream/18.0
 =======
 msgstr "Anular Cheque"
 >>>>>>> upstream/18.0
@@ -4084,6 +4213,11 @@ msgid ""
 "Settings, search for 'Checks layout' and set one."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Tem que escolher um layout de cheque. Para isso, vá a Configurações de "
+"Faturação/Contabilidade, procure por 'Layout de cheques' e defina um."
+>>>>>>> upstream/18.0
 =======
 "Tem que escolher um layout de cheque. Para isso, vá a Configurações de "
 "Faturação/Contabilidade, procure por 'Layout de cheques' e defina um."

@@ -1,8 +1,14 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* auth_totp_mail_enforce
 #
+=======
+# * auth_totp_mail_enforce
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 =======
 # * auth_totp_mail_enforce
 #
@@ -14,6 +20,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-16 13:39+0000\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "PO-Revision-Date: 2024-12-16 13:39+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -22,6 +29,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-11-19 14:30+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Serbian (Latin script) <https://translate.odoo.com/projects/"
@@ -33,6 +42,9 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: auth_totp_mail_enforce
@@ -93,7 +105,11 @@ msgstr ""
 #: model:ir.model.fields.selection,name:auth_totp_mail_enforce.selection__res_config_settings__auth_totp_policy__all_required
 msgid "All users"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "svi korisnici"
+>>>>>>> upstream/18.0
 =======
 msgstr "svi korisnici"
 >>>>>>> upstream/18.0
@@ -103,7 +119,11 @@ msgstr "svi korisnici"
 #: code:addons/auth_totp_mail_enforce/models/res_users.py:0
 msgid "Cannot send email: user %s has no email address."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ne mogu poslati email: korisnik %s nema email adresu."
+>>>>>>> upstream/18.0
 =======
 msgstr "Ne mogu poslati email: korisnik %s nema email adresu."
 >>>>>>> upstream/18.0
@@ -117,7 +137,11 @@ msgstr ""
 #: model:ir.model,name:auth_totp_mail_enforce.model_res_config_settings
 msgid "Config Settings"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Podešavanje konfiguracije"
+>>>>>>> upstream/18.0
 =======
 msgstr "Podešavanje konfiguracije"
 >>>>>>> upstream/18.0
@@ -126,7 +150,11 @@ msgstr "Podešavanje konfiguracije"
 #: model:ir.model.fields,field_description:auth_totp_mail_enforce.field_auth_totp_rate_limit_log__create_uid
 msgid "Created by"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kreirao"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kreirao"
 >>>>>>> upstream/18.0
@@ -135,7 +163,11 @@ msgstr "Kreirao"
 #: model:ir.model.fields,field_description:auth_totp_mail_enforce.field_auth_totp_rate_limit_log__create_date
 msgid "Created on"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kreirano"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kreirano"
 >>>>>>> upstream/18.0
@@ -144,7 +176,11 @@ msgstr "Kreirano"
 #: model:ir.model.fields,field_description:auth_totp_mail_enforce.field_auth_totp_rate_limit_log__display_name
 msgid "Display Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Naziv za prikaz"
+>>>>>>> upstream/18.0
 =======
 msgstr "Naziv za prikaz"
 >>>>>>> upstream/18.0
@@ -171,7 +207,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:auth_totp_mail_enforce.field_auth_totp_rate_limit_log__id
 msgid "ID"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ID"
+>>>>>>> upstream/18.0
 =======
 msgstr "ID"
 >>>>>>> upstream/18.0
@@ -185,7 +225,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:auth_totp_mail_enforce.field_auth_totp_rate_limit_log__write_uid
 msgid "Last Updated by"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poslednje izmenio/la"
+>>>>>>> upstream/18.0
 =======
 msgstr "Poslednje izmenio/la"
 >>>>>>> upstream/18.0
@@ -194,7 +238,11 @@ msgstr "Poslednje izmenio/la"
 #: model:ir.model.fields,field_description:auth_totp_mail_enforce.field_auth_totp_rate_limit_log__write_date
 msgid "Last Updated on"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poslednje ažuriranje dana"
+>>>>>>> upstream/18.0
 =======
 msgstr "Poslednje ažuriranje dana"
 >>>>>>> upstream/18.0
@@ -203,7 +251,11 @@ msgstr "Poslednje ažuriranje dana"
 #: model_terms:ir.ui.view,arch_db:auth_totp_mail_enforce.auth_totp_mail_form
 msgid "Learn More"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Saznaj više"
+>>>>>>> upstream/18.0
 =======
 msgstr "Saznaj više"
 >>>>>>> upstream/18.0
@@ -222,7 +274,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:auth_totp_mail_enforce.field_auth_totp_rate_limit_log__scope
 msgid "Scope"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Obim"
+>>>>>>> upstream/18.0
 =======
 msgstr "Obim"
 >>>>>>> upstream/18.0
@@ -231,7 +287,11 @@ msgstr "Obim"
 #: model:ir.model.fields.selection,name:auth_totp_mail_enforce.selection__auth_totp_rate_limit_log__limit_type__send_email
 msgid "Send Email"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pošalji Email"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pošalji Email"
 >>>>>>> upstream/18.0
@@ -256,7 +316,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:auth_totp_mail_enforce.field_auth_totp_rate_limit_log__user_id
 msgid "User"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Korisnik"
+>>>>>>> upstream/18.0
 =======
 msgstr "Korisnik"
 >>>>>>> upstream/18.0

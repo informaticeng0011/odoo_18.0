@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* payment_adyen
 # 
 # Translators:
@@ -8,18 +9,24 @@
 # Wil Odoo, 2025
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 # * payment_adyen
 #
 # Translators:
 # Manuela Silva <mmsrs@sky.com>, 2025
 # Wil Odoo, 2025
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Wil Odoo, 2025\n"
@@ -30,6 +37,8 @@ msgstr ""
 "Language: pt\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-11-21 02:31+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Portuguese <https://translate.odoo.com/projects/odoo-18/"
@@ -41,6 +50,9 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % "
 "1000000 == 0) ? 1 : 2);\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: payment_adyen
@@ -50,11 +62,17 @@ msgid ""
 "                    the Capture Delay to manual on your Adyen account settings."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "<strong>Aviso:</strong> Para capturar o valor manualmente, você também "
 "precisa definir\n"
 "                    o Atraso de captura como manual nas definições da sua "
 "conta Adyen."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: payment_adyen
@@ -74,7 +92,11 @@ msgstr "Chave API"
 #: model:ir.model.fields,field_description:payment_adyen.field_payment_provider__adyen_api_url_prefix
 msgid "API URL Prefix"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prefixo do URL da API"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prefixo do URL da API"
 >>>>>>> upstream/18.0
@@ -83,7 +105,11 @@ msgstr "Prefixo do URL da API"
 #: model:ir.model.fields.selection,name:payment_adyen.selection__payment_provider__code__adyen
 msgid "Adyen"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Adyen"
+>>>>>>> upstream/18.0
 =======
 msgstr "Adyen"
 >>>>>>> upstream/18.0
@@ -95,6 +121,10 @@ msgid ""
 "An error occurred during the processing of your payment. Please try again."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ocorreu um erro durante o processamento do seu pagamento. Tente novamente."
+>>>>>>> upstream/18.0
 =======
 "Ocorreu um erro durante o processamento do seu pagamento. Tente novamente."
 >>>>>>> upstream/18.0
@@ -104,7 +134,11 @@ msgstr ""
 #: code:addons/payment_adyen/static/src/js/payment_form.js:0
 msgid "Cannot display the payment form"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Não é possível exibir o formulário de pagamento"
+>>>>>>> upstream/18.0
 =======
 msgstr "Não é possível exibir o formulário de pagamento"
 >>>>>>> upstream/18.0
@@ -113,7 +147,11 @@ msgstr "Não é possível exibir o formulário de pagamento"
 #: model:ir.model.fields,field_description:payment_adyen.field_payment_provider__adyen_client_key
 msgid "Client Key"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Chave do cliente"
+>>>>>>> upstream/18.0
 =======
 msgstr "Chave do cliente"
 >>>>>>> upstream/18.0
@@ -128,7 +166,11 @@ msgstr "Código"
 #: code:addons/payment_adyen/models/payment_provider.py:0
 msgid "Could not establish the connection to the API."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Não foi possível estabelecer a conexão com a API."
+>>>>>>> upstream/18.0
 =======
 msgstr "Não foi possível estabelecer a conexão com a API."
 >>>>>>> upstream/18.0
@@ -137,7 +179,11 @@ msgstr "Não foi possível estabelecer a conexão com a API."
 #: model:ir.model.fields,field_description:payment_adyen.field_payment_provider__adyen_hmac_key
 msgid "HMAC Key"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Chave HMAC"
+>>>>>>> upstream/18.0
 =======
 msgstr "Chave HMAC"
 >>>>>>> upstream/18.0
@@ -146,7 +192,11 @@ msgstr "Chave HMAC"
 #: model:ir.model.fields,field_description:payment_adyen.field_payment_capture_wizard__has_adyen_tx
 msgid "Has Adyen Tx"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tem transação Adyen"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tem transação Adyen"
 >>>>>>> upstream/18.0
@@ -156,7 +206,11 @@ msgstr "Tem transação Adyen"
 #: code:addons/payment_adyen/static/src/js/payment_form.js:0
 msgid "Incorrect payment details"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Informações de pagamento incorretas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Informações de pagamento incorretas"
 >>>>>>> upstream/18.0
@@ -176,7 +230,11 @@ msgstr "Conta de Comerciante"
 #: code:addons/payment_adyen/models/payment_transaction.py:0
 msgid "No transaction found matching reference %s."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nenhuma transação encontrada com a referência %s."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nenhuma transação encontrada com a referência %s."
 >>>>>>> upstream/18.0
@@ -185,7 +243,11 @@ msgstr "Nenhuma transação encontrada com a referência %s."
 #: model:ir.model,name:payment_adyen.model_payment_capture_wizard
 msgid "Payment Capture Wizard"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Assistente de captura de pagamentos"
+>>>>>>> upstream/18.0
 =======
 msgstr "Assistente de captura de pagamentos"
 >>>>>>> upstream/18.0
@@ -210,7 +272,11 @@ msgstr "Transação de Pagamento"
 #: code:addons/payment_adyen/static/src/js/payment_form.js:0
 msgid "Payment processing failed"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Falha no processamento do pagamento"
+>>>>>>> upstream/18.0
 =======
 msgstr "Falha no processamento do pagamento"
 >>>>>>> upstream/18.0
@@ -220,7 +286,11 @@ msgstr "Falha no processamento do pagamento"
 #: code:addons/payment_adyen/models/payment_transaction.py:0
 msgid "Received data for child transaction with missing transaction values"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dados da transação dependente recebidos sem valores de transação"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dados da transação dependente recebidos sem valores de transação"
 >>>>>>> upstream/18.0
@@ -230,7 +300,11 @@ msgstr "Dados da transação dependente recebidos sem valores de transação"
 #: code:addons/payment_adyen/models/payment_transaction.py:0
 msgid "Received data with invalid payment state: %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dados recebidos com estado de pagamento inválido: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dados recebidos com estado de pagamento inválido: %s"
 >>>>>>> upstream/18.0
@@ -240,7 +314,11 @@ msgstr "Dados recebidos com estado de pagamento inválido: %s"
 #: code:addons/payment_adyen/models/payment_transaction.py:0
 msgid "Received data with missing merchant reference"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dados recebidos sem a referência do comerciante"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dados recebidos sem a referência do comerciante"
 >>>>>>> upstream/18.0
@@ -250,7 +328,11 @@ msgstr "Dados recebidos sem a referência do comerciante"
 #: code:addons/payment_adyen/models/payment_transaction.py:0
 msgid "Received data with missing payment state."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dados recebidos sem estado de pagamento."
+>>>>>>> upstream/18.0
 =======
 msgstr "Dados recebidos sem estado de pagamento."
 >>>>>>> upstream/18.0
@@ -260,7 +342,11 @@ msgstr "Dados recebidos sem estado de pagamento."
 #: code:addons/payment_adyen/controllers/main.py:0
 msgid "Received tampered payment request data."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dados da solicitação de pagamento recebidos alterados."
+>>>>>>> upstream/18.0
 =======
 msgstr "Dados da solicitação de pagamento recebidos alterados."
 >>>>>>> upstream/18.0
@@ -269,7 +355,11 @@ msgstr "Dados da solicitação de pagamento recebidos alterados."
 #: model:ir.model.fields,field_description:payment_adyen.field_payment_token__adyen_shopper_reference
 msgid "Shopper Reference"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Referência do comprador"
+>>>>>>> upstream/18.0
 =======
 msgstr "Referência do comprador"
 >>>>>>> upstream/18.0
@@ -278,7 +368,11 @@ msgstr "Referência do comprador"
 #: model:ir.model.fields,help:payment_adyen.field_payment_provider__adyen_api_key
 msgid "The API key of the webservice user"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "A chave da API do usuário do serviço web"
+>>>>>>> upstream/18.0
 =======
 msgstr "A chave da API do usuário do serviço web"
 >>>>>>> upstream/18.0
@@ -287,7 +381,11 @@ msgstr "A chave da API do usuário do serviço web"
 #: model:ir.model.fields,help:payment_adyen.field_payment_provider__adyen_hmac_key
 msgid "The HMAC key of the webhook"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "A chave HMAC do webhook"
+>>>>>>> upstream/18.0
 =======
 msgstr "A chave HMAC do webhook"
 >>>>>>> upstream/18.0
@@ -300,6 +398,11 @@ msgid ""
 "one requested. Another transaction is created with the correct amount."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"O valor processado pelo Adyen para a transação %s é diferente do valor "
+"solicitado. Outra transação foi criada com o valor correto."
+>>>>>>> upstream/18.0
 =======
 "O valor processado pelo Adyen para a transação %s é diferente do valor "
 "solicitado. Outra transação foi criada com o valor correto."
@@ -309,7 +412,11 @@ msgstr ""
 #: model:ir.model.fields,help:payment_adyen.field_payment_provider__adyen_api_url_prefix
 msgid "The base URL for the API endpoints"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "O URL de base dos endpoints da API"
+>>>>>>> upstream/18.0
 =======
 msgstr "O URL de base dos endpoints da API"
 >>>>>>> upstream/18.0
@@ -319,7 +426,11 @@ msgstr "O URL de base dos endpoints da API"
 #: code:addons/payment_adyen/models/payment_transaction.py:0
 msgid "The capture of the transaction with reference %s failed."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "A captura da transação com referência %s falhou."
+>>>>>>> upstream/18.0
 =======
 msgstr "A captura da transação com referência %s falhou."
 >>>>>>> upstream/18.0
@@ -331,6 +442,11 @@ msgid ""
 "                    processed by Adyen and reflected in Odoo."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"A captura ou anulação da transação pode levar alguns minutos para ser\n"
+"                    processada pelo Adyen e refletida no Odoo."
+>>>>>>> upstream/18.0
 =======
 "A captura ou anulação da transação pode levar alguns minutos para ser\n"
 "                    processada pelo Adyen e refletida no Odoo."
@@ -344,6 +460,11 @@ msgid ""
 " has been requested (%(provider_name)s)."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"A solicitação de captura de %(amount)s da transação com referência a %(ref)s "
+"foi realizada (%(provider_name)s)."
+>>>>>>> upstream/18.0
 =======
 "A solicitação de captura de %(amount)s da transação com referência a %(ref)s "
 "foi realizada (%(provider_name)s)."
@@ -353,7 +474,11 @@ msgstr ""
 #: model:ir.model.fields,help:payment_adyen.field_payment_provider__adyen_client_key
 msgid "The client key of the webservice user"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "A chave do cliente do usuário do serviço web"
+>>>>>>> upstream/18.0
 =======
 msgstr "A chave do cliente do usuário do serviço web"
 >>>>>>> upstream/18.0
@@ -362,7 +487,11 @@ msgstr "A chave do cliente do usuário do serviço web"
 #: model:ir.model.fields,help:payment_adyen.field_payment_provider__adyen_merchant_account
 msgid "The code of the merchant account to use with this provider"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "O código da conta comercial a ser usada com este provedor"
+>>>>>>> upstream/18.0
 =======
 msgstr "O código da conta comercial a ser usada com este provedor"
 >>>>>>> upstream/18.0
@@ -372,7 +501,11 @@ msgstr "O código da conta comercial a ser usada com este provedor"
 #: code:addons/payment_adyen/models/payment_provider.py:0
 msgid "The communication with the API failed. Details: %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "A comunicação com a API falhou. Detalhes: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "A comunicação com a API falhou. Detalhes: %s"
 >>>>>>> upstream/18.0
@@ -381,7 +514,11 @@ msgstr "A comunicação com a API falhou. Detalhes: %s"
 #: model:ir.model.fields,help:payment_adyen.field_payment_provider__code
 msgid "The technical code of this payment provider."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "O código técnico deste provedor de pagamento."
+>>>>>>> upstream/18.0
 =======
 msgstr "O código técnico deste provedor de pagamento."
 >>>>>>> upstream/18.0
@@ -391,7 +528,11 @@ msgstr "O código técnico deste provedor de pagamento."
 #: code:addons/payment_adyen/models/payment_transaction.py:0
 msgid "The transaction is not linked to a token."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "A transação não está vinculada a um token."
+>>>>>>> upstream/18.0
 =======
 msgstr "A transação não está vinculada a um token."
 >>>>>>> upstream/18.0
@@ -400,7 +541,11 @@ msgstr "A transação não está vinculada a um token."
 #: model:ir.model.fields,help:payment_adyen.field_payment_token__adyen_shopper_reference
 msgid "The unique reference of the partner owning this token"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "A referência exclusiva do usuário a quem pertence o token"
+>>>>>>> upstream/18.0
 =======
 msgstr "A referência exclusiva do usuário a quem pertence o token"
 >>>>>>> upstream/18.0
@@ -410,7 +555,11 @@ msgstr "A referência exclusiva do usuário a quem pertence o token"
 #: code:addons/payment_adyen/models/payment_transaction.py:0
 msgid "The void of the transaction with reference %s failed."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "A anulação da transação com referência %s falhou."
+>>>>>>> upstream/18.0
 =======
 msgstr "A anulação da transação com referência %s falhou."
 >>>>>>> upstream/18.0
@@ -420,7 +569,11 @@ msgstr "A anulação da transação com referência %s falhou."
 #: code:addons/payment_adyen/models/payment_transaction.py:0
 msgid "Your payment was refused. Please try again."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Seu pagamento foi recusado. Tente novamente."
+>>>>>>> upstream/18.0
 =======
 msgstr "Seu pagamento foi recusado. Tente novamente."
 >>>>>>> upstream/18.0

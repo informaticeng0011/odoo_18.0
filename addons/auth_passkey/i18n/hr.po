@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* auth_passkey
 # 
 # Translators:
@@ -296,6 +297,8 @@
 >>>>>>> upstream/18.0
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 # * auth_passkey
 #
 # Translators:
@@ -303,12 +306,16 @@
 # Bole <bole@dajmi5.com>, 2024
 # Luka Carević <luka@uvid.hr>, 2025
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-25 08:40+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
@@ -607,6 +614,8 @@ msgstr ""
 "Language: hr\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-11-12 12:39+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Croatian <https://translate.odoo.com/projects/odoo-18/"
@@ -618,6 +627,9 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: auth_passkey
@@ -629,7 +641,11 @@ msgstr "- ili -"
 #: model_terms:ir.ui.view,arch_db:auth_passkey.res_users_identitycheck_view_form_passkey
 msgid "<strong>Use your passkey to authenticate</strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Koristite svoj pristupni ključ za autentikaciju</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Koristite svoj pristupni ključ za autentikaciju</strong>"
 >>>>>>> upstream/18.0
@@ -638,7 +654,11 @@ msgstr "<strong>Koristite svoj pristupni ključ za autentikaciju</strong>"
 #: model_terms:ir.ui.view,arch_db:auth_passkey.auth_passkey_users_preferences
 msgid "Add Passkey"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dodaj pristupni ključ"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dodaj pristupni ključ"
 >>>>>>> upstream/18.0
@@ -647,7 +667,11 @@ msgstr "Dodaj pristupni ključ"
 #: model:ir.model.fields,field_description:auth_passkey.field_res_users_identitycheck__auth_method
 msgid "Auth Method"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Metoda autentikacije"
+>>>>>>> upstream/18.0
 =======
 msgstr "Metoda autentikacije"
 >>>>>>> upstream/18.0
@@ -656,7 +680,11 @@ msgstr "Metoda autentikacije"
 #: model:ir.model.fields,field_description:auth_passkey.field_res_users__auth_passkey_key_ids
 msgid "Auth Passkey Key"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Autorizacijski ključ za pristup"
+>>>>>>> upstream/18.0
 =======
 msgstr "Autorizacijski ključ za pristup"
 >>>>>>> upstream/18.0
@@ -677,7 +705,11 @@ msgstr "Kreiraj"
 #: code:addons/auth_passkey/models/res_users.py:0
 msgid "Create Passkey"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kreiraj pristupni ključ"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kreiraj pristupni ključ"
 >>>>>>> upstream/18.0
@@ -686,7 +718,11 @@ msgstr "Kreiraj pristupni ključ"
 #: model:ir.actions.act_window,name:auth_passkey.action_auth_passkey_key_create
 msgid "Create Passkey Wizard"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Čarobnjak za kreaciju pristupnog ključa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Čarobnjak za kreaciju pristupnog ključa"
 >>>>>>> upstream/18.0
@@ -695,7 +731,11 @@ msgstr "Čarobnjak za kreaciju pristupnog ključa"
 #: model:ir.model,name:auth_passkey.model_auth_passkey_key_create
 msgid "Create a Passkey"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kreiraj pristupni ključ"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kreiraj pristupni ključ"
 >>>>>>> upstream/18.0
@@ -722,7 +762,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:auth_passkey.field_auth_passkey_key__credential_identifier
 msgid "Credential Identifier"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Identifikator vjerodajnice"
+>>>>>>> upstream/18.0
 =======
 msgstr "Identifikator vjerodajnice"
 >>>>>>> upstream/18.0
@@ -731,6 +775,7 @@ msgstr "Identifikator vjerodajnice"
 #: model_terms:ir.ui.view,arch_db:auth_passkey.auth_passkey_users_form
 #: model_terms:ir.ui.view,arch_db:auth_passkey.auth_passkey_users_preferences
 msgid "Delete"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1024,6 +1069,9 @@ msgstr "Obriši"
 =======
 msgstr "Obriši"
 >>>>>>> upstream/18.0
+=======
+msgstr "Obriši"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model:ir.model.fields,field_description:auth_passkey.field_auth_passkey_key__display_name
@@ -1045,6 +1093,11 @@ msgid ""
 "authentication method."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Netočan pristupni ključ. Molimo dodajte valjani pristupni ključ ili "
+"upotrijebite drugu metodu autentifikacije."
+>>>>>>> upstream/18.0
 =======
 "Netočan pristupni ključ. Molimo dodajte valjani pristupni ključ ili "
 "upotrijebite drugu metodu autentifikacije."
@@ -1067,7 +1120,11 @@ msgstr "Promijenjeno"
 #: model_terms:ir.ui.view,arch_db:auth_passkey.auth_passkey_users_preferences
 msgid "Last used:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zadnje korišten:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zadnje korišten:"
 >>>>>>> upstream/18.0
@@ -1087,7 +1144,11 @@ msgstr "Naziv"
 #: model_terms:ir.ui.view,arch_db:auth_passkey.res_users_identitycheck_view_form_passkey
 msgid "Or choose a different method:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ili izaberite drugu metodu:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ili izaberite drugu metodu:"
 >>>>>>> upstream/18.0
@@ -1097,7 +1158,11 @@ msgstr "Ili izaberite drugu metodu:"
 #: model:ir.model.fields.selection,name:auth_passkey.selection__res_users_identitycheck__auth_method__webauthn
 msgid "Passkey"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pristupni ključ"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pristupni ključ"
 >>>>>>> upstream/18.0
@@ -1107,7 +1172,11 @@ msgstr "Pristupni ključ"
 #: model_terms:ir.ui.view,arch_db:auth_passkey.auth_passkey_users_preferences
 msgid "Passkeys"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pristupni ključevi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pristupni ključevi"
 >>>>>>> upstream/18.0
@@ -1128,7 +1197,11 @@ msgstr "Čarobnjak za provjeru lozinke"
 #: model:ir.model.fields,field_description:auth_passkey.field_auth_passkey_key__public_key
 msgid "Public Key"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Javni ključ"
+>>>>>>> upstream/18.0
 =======
 msgstr "Javni ključ"
 >>>>>>> upstream/18.0
@@ -1137,7 +1210,11 @@ msgstr "Javni ključ"
 #: model_terms:ir.ui.view,arch_db:auth_passkey.auth_passkey_users_preferences
 msgid "Rename"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Preimenuj"
+>>>>>>> upstream/18.0
 =======
 msgstr "Preimenuj"
 >>>>>>> upstream/18.0
@@ -1147,7 +1224,11 @@ msgstr "Preimenuj"
 #: code:addons/auth_passkey/models/auth_passkey_key.py:0
 msgid "Rename Passkey"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Preimenuj pristupni ključ"
+>>>>>>> upstream/18.0
 =======
 msgstr "Preimenuj pristupni ključ"
 >>>>>>> upstream/18.0
@@ -1167,7 +1248,11 @@ msgstr "Sigurnosna kontrola"
 #: model:ir.model.fields,field_description:auth_passkey.field_auth_passkey_key__sign_count
 msgid "Sign Count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Broj potpisa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Broj potpisa"
 >>>>>>> upstream/18.0
@@ -1176,7 +1261,11 @@ msgstr "Broj potpisa"
 #: model:ir.model.constraint,message:auth_passkey.constraint_auth_passkey_key_unique_identifier
 msgid "The credential identifier should be unique."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Identifikator vjerodajnice treba biti jedinstven."
+>>>>>>> upstream/18.0
 =======
 msgstr "Identifikator vjerodajnice treba biti jedinstven."
 >>>>>>> upstream/18.0
@@ -1186,7 +1275,11 @@ msgstr "Identifikator vjerodajnice treba biti jedinstven."
 #: code:addons/auth_passkey/models/res_users.py:0
 msgid "Unknown passkey"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nepoznat pristupni ključ"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nepoznat pristupni ključ"
 >>>>>>> upstream/18.0
@@ -1195,7 +1288,11 @@ msgstr "Nepoznat pristupni ključ"
 #: model_terms:ir.ui.view,arch_db:auth_passkey.res_users_identitycheck_view_form_passkey
 msgid "Use Passkey"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Koristi pristupni ključ"
+>>>>>>> upstream/18.0
 =======
 msgstr "Koristi pristupni ključ"
 >>>>>>> upstream/18.0
@@ -1204,7 +1301,11 @@ msgstr "Koristi pristupni ključ"
 #: model_terms:ir.ui.view,arch_db:auth_passkey.res_users_identitycheck_view_form_passkey
 msgid "Use password"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Koristi lozinku"
+>>>>>>> upstream/18.0
 =======
 msgstr "Koristi lozinku"
 >>>>>>> upstream/18.0

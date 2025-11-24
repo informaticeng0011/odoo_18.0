@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* account_payment
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -147,6 +148,10 @@
 # * account_payment
 #
 >>>>>>> upstream/18.0
+=======
+# * account_payment
+#
+>>>>>>> upstream/18.0
 # Translators:
 # NumerSpiral HBG, 2025
 # Arxi, 2025
@@ -236,6 +241,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Maitê Dietze, 2025
 # Pilar Vargas, 2025
 # Wil Odoo, 2025
@@ -608,10 +614,13 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # Pilar Vargas, 2025
 # Wil Odoo, 2025
 # Daniel Reis, 2025
 # Maitê Dietze, 2025
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -896,10 +905,14 @@
 =======
 # "Pedro Silva (Exo)" <pedrocs@exo.pt>, 2025.
 >>>>>>> upstream/18.0
+=======
+# "Pedro Silva (Exo)" <pedrocs@exo.pt>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1411,16 +1424,22 @@ msgstr ""
 "Last-Translator: Maitê Dietze, 2025\n"
 "Language-Team: Portuguese (https://app.transifex.com/odoo/teams/41243/pt/)\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-10-16 18:38+0000\n"
 "PO-Revision-Date: 2025-11-15 18:10+0000\n"
 "Last-Translator: \"Pedro Silva (Exo)\" <pedrocs@exo.pt>\n"
 "Language-Team: Portuguese <https://translate.odoo.com/projects/odoo-18/"
 "account_payment/pt/>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % "
 "1000000 == 0 ? 1 : 2;\n"
@@ -1532,6 +1551,11 @@ msgstr ""
 "1000000 == 0) ? 1 : 2);\n"
 "X-Generator: Weblate 5.12.2\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % "
+"1000000 == 0) ? 1 : 2);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #. odoo-python
@@ -1541,6 +1565,11 @@ msgid ""
 "class=\"text-primary\">%(date)s</strong>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"#%(number)s - Parcela de <strong>%(amount)s</strong> a vencer em <strong "
+"class=\"text-primary\">%(date)s</strong>"
+>>>>>>> upstream/18.0
 =======
 "#%(number)s - Parcela de <strong>%(amount)s</strong> a vencer em <strong "
 "class=\"text-primary\">%(date)s</strong>"
@@ -1681,7 +1710,11 @@ msgid "%s day(s) overdue"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s dia(s) de atraso"
+>>>>>>> upstream/18.0
 =======
 msgstr "%s dia(s) de atraso"
 >>>>>>> upstream/18.0
@@ -2088,8 +2121,13 @@ msgid ""
 "Pay Now</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<i class=\"fa fa-arrow-circle-right\"/><span class=\"d-none d-md-"
 "inline\">Pagar Agora</span>"
+=======
+"<i class=\"fa fa-arrow-circle-right\"/><span class=\"d-none d-md-inline\"> "
+"Pague agora</span>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-arrow-circle-right\"/><span class=\"d-none d-md-inline\"> "
 "Pague agora</span>"
@@ -2099,7 +2137,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_page_inherit_payment
 msgid "<i class=\"fa fa-fw fa-arrow-circle-right\"/> Pay Now"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<i class=\"fa fa-fw fa-arrow-circle-right\"/>Pagar Agora"
+=======
+msgstr "<i class=\"fa fa-fw fa-arrow-circle-right\"/> Pagar Agora"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-fw fa-arrow-circle-right\"/> Pagar Agora"
 >>>>>>> upstream/18.0
@@ -2111,6 +2153,11 @@ msgid ""
 "                <span class=\"d-none d-md-inline\"> Authorized</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-fw fa-check\"/>\n"
+"                <span class=\"d-none d-md-inline\"> Autorizado</span>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-fw fa-check\"/>\n"
 "                <span class=\"d-none d-md-inline\"> Autorizado</span>"
@@ -2123,6 +2170,11 @@ msgid ""
 "                <span class=\"d-none d-md-inline\"> Paid</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-fw fa-check\"/>\n"
+"                <span class=\"d-none d-md-inline\"> Pago</span>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-fw fa-check\"/>\n"
 "                <span class=\"d-none d-md-inline\"> Pago</span>"
@@ -2132,7 +2184,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_page_inherit_payment
 msgid "<i class=\"fa fa-fw fa-check-circle\"/> Paid"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<i class=\"fa fa-fw fa-check-circle\"/>Pago"
+=======
+msgstr "<i class=\"fa fa-fw fa-check-circle\"/> Pago"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-fw fa-check-circle\"/> Pago"
 >>>>>>> upstream/18.0
@@ -2141,7 +2197,11 @@ msgstr "<i class=\"fa fa-fw fa-check-circle\"/> Pago"
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_page_inherit_payment
 msgid "<i class=\"fa fa-fw fa-check-circle\"/> Pending"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<i class=\"fa fa-fw fa-check-circle\"/>Pendente"
+=======
+msgstr "<i class=\"fa fa-fw fa-check-circle\"/> Pendente"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-fw fa-check-circle\"/> Pendente"
 >>>>>>> upstream/18.0
@@ -2150,7 +2210,11 @@ msgstr "<i class=\"fa fa-fw fa-check-circle\"/> Pendente"
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_page_inherit_payment
 msgid "<i class=\"fa fa-fw fa-check-circle\"/> Processing Payment"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-fw fa-check-circle\"/> A Processar Pagamento"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-fw fa-check-circle\"/> A Processar Pagamento"
 >>>>>>> upstream/18.0
@@ -2159,7 +2223,11 @@ msgstr "<i class=\"fa fa-fw fa-check-circle\"/> A Processar Pagamento"
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_my_invoices_payment
 msgid "<span class=\"d-none d-md-inline\"> Pending</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"d-none d-md-inline\"> Pendente</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"d-none d-md-inline\"> Pendente</span>"
 >>>>>>> upstream/18.0
@@ -2168,7 +2236,11 @@ msgstr "<span class=\"d-none d-md-inline\"> Pendente</span>"
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_payment
 msgid "<strong>Full Amount</strong><br/>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Valor Total</strong><br/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Valor Total</strong><br/>"
 >>>>>>> upstream/18.0
@@ -2180,6 +2252,11 @@ msgid ""
 "                                        <br/>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<strong>Parcelamento</strong>\n"
+"<br/>"
+>>>>>>> upstream/18.0
 =======
 "<strong>Parcelamento</strong>\n"
 "<br/>"
@@ -2189,6 +2266,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account_payment.payment_refund_wizard_view_form
 msgid ""
 "<strong>Warning!</strong> There is a refund pending for this payment.\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2298,6 +2376,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                        Wait a moment for it to be processed. If the refund "
 "is still pending in a\n"
 "                        few minutes, please check your payment provider "
@@ -2337,6 +2417,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2408,18 +2489,24 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr ""
 "<strong>Aviso!</strong> Há um reembolso pendente para este pagamento.\n"
 "                        Espere um momento para que este seja processado. Se "
 "o reembolso ainda estiver pendente dentro de\n"
 "                        alguns minutos, verifique a configuração do seu "
 "provedor de pagamento."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: account_payment
 #. odoo-python
 #: code:addons/account_payment/wizards/payment_link_wizard.py:0
 msgid "A discount will be applied if the customer pays before %s included."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2753,10 +2840,14 @@ msgstr "Um desconto será aplicado se o cliente pagar antes de %s, inclusive."
 =======
 msgstr "Um desconto será aplicado se o cliente pagar antes de %s inclusive."
 >>>>>>> upstream/18.0
+=======
+msgstr "Um desconto será aplicado se o cliente pagar antes de %s inclusive."
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_payment
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2937,11 +3028,16 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "A payment has already been made on this invoice, please make sure to not pay "
 "twice."
 msgstr ""
 "Um pagamento já foi feito nesta fatura. Por favor, certifique-se de que não "
 "paga duas vezes."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: account_payment
@@ -2949,7 +3045,11 @@ msgstr ""
 #: code:addons/account_payment/models/account_payment.py:0
 msgid "A payment transaction with reference %s already exists."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Uma transação com referência %s já existe."
+>>>>>>> upstream/18.0
 =======
 msgstr "Uma transação com referência %s já existe."
 >>>>>>> upstream/18.0
@@ -2959,7 +3059,11 @@ msgstr "Uma transação com referência %s já existe."
 #: code:addons/account_payment/models/account_payment.py:0
 msgid "A token is required to create a new payment transaction."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "É necessário um código para criar uma nova transação de pagamento."
+=======
+msgstr "É necessário um token para criar uma nova transação."
+>>>>>>> upstream/18.0
 =======
 msgstr "É necessário um token para criar uma nova transação."
 >>>>>>> upstream/18.0
@@ -2968,7 +3072,11 @@ msgstr "É necessário um token para criar uma nova transação."
 #: model:onboarding.onboarding.step,button_text:account_payment.onboarding_onboarding_step_payment_provider
 msgid "Activate Stripe"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ativar o Stripe"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ativar o Stripe"
 >>>>>>> upstream/18.0
@@ -2983,7 +3091,11 @@ msgstr "Valor"
 #: model:ir.model.fields,field_description:account_payment.field_account_payment__amount_available_for_refund
 msgid "Amount Available For Refund"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Valor disponível para reembolso"
+>>>>>>> upstream/18.0
 =======
 msgstr "Valor disponível para reembolso"
 >>>>>>> upstream/18.0
@@ -2998,7 +3110,11 @@ msgstr "Valor em Dívida"
 #: model:ir.model.fields,field_description:account_payment.field_account_move__amount_paid
 msgid "Amount paid"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Valor pago"
+>>>>>>> upstream/18.0
 =======
 msgstr "Valor pago"
 >>>>>>> upstream/18.0
@@ -3009,6 +3125,7 @@ msgid ""
 "Are you sure you want to void the authorized transaction? This action can't "
 "be undone."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3619,6 +3736,10 @@ msgstr ""
 "Tem a certeza de que quer anular a transação autorizada? Esta ação não pode "
 "ser revertida."
 >>>>>>> upstream/18.0
+=======
+"Tem a certeza de que quer anular a transação autorizada? Esta ação não pode "
+"ser revertida."
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model:ir.model.fields,field_description:account_payment.field_account_bank_statement_line__authorized_transaction_ids
@@ -3746,7 +3867,11 @@ msgid "Authorized Transactions"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Transações Autorizadas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Transações Autorizadas"
 >>>>>>> upstream/18.0
@@ -4239,7 +4364,11 @@ msgid "Capture Transaction"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Capturar Transação"
+>>>>>>> upstream/18.0
 =======
 msgstr "Capturar Transação"
 >>>>>>> upstream/18.0
@@ -4613,6 +4742,7 @@ msgstr "Capturar Transação"
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_payment_paid
 msgid "Close"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Encerrar"
 
 #. module: account_payment
@@ -4731,6 +4861,11 @@ msgstr "Fechar"
 
 #. module: account_payment
 >>>>>>> upstream/18.0
+=======
+msgstr "Fechar"
+
+#. module: account_payment
+>>>>>>> upstream/18.0
 #: model:ir.model,name:account_payment.model_res_config_settings
 msgid "Config Settings"
 msgstr "Definições de Configuração"
@@ -4764,7 +4899,11 @@ msgstr "Nome a Exibir"
 #: model:ir.model.fields,field_description:account_payment.field_payment_link_wizard__display_open_installments
 msgid "Display Open Installments"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Exibir Parcelas Abertas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Exibir Parcelas Abertas"
 >>>>>>> upstream/18.0
@@ -4775,6 +4914,7 @@ msgid ""
 "Done, your online payment has been successfully processed. Thank you for "
 "your order."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4957,10 +5097,15 @@ msgstr ""
 "Feito, seu pagamento online foi processado com êxito. Obrigado pela sua "
 "compra."
 >>>>>>> upstream/18.0
+=======
+"Feito, seu pagamento online foi processado com êxito. Obrigado pela sua "
+"compra."
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model:ir.model.fields,field_description:account_payment.field_payment_link_wizard__epd_info
 msgid "Early Payment Discount Information"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5294,10 +5439,14 @@ msgstr "Informações sobre descontos por pagamentos antecipados"
 =======
 msgstr "Informações sobre Desconto de Pagamento Antecipado"
 >>>>>>> upstream/18.0
+=======
+msgstr "Informações sobre Desconto de Pagamento Antecipado"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_payment
 msgid "Early Payment Discount of"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5631,12 +5780,19 @@ msgstr "Desconto por pagamento antecipado de"
 =======
 msgstr "Desconto de Pagamento Antecipado de"
 >>>>>>> upstream/18.0
+=======
+msgstr "Desconto de Pagamento Antecipado de"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model:onboarding.onboarding.step,description:account_payment.onboarding_onboarding_step_payment_provider
 msgid "Enable credit & debit card payments supported by Stripe."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ativar pagamentos com cartão de crédito e débito suportados pelo Stripe."
+>>>>>>> upstream/18.0
 =======
 "Ativar pagamentos com cartão de crédito e débito suportados pelo Stripe."
 >>>>>>> upstream/18.0
@@ -5645,7 +5801,11 @@ msgstr ""
 #: model:ir.model.fields.selection,name:account_payment.selection__payment_refund_wizard__support_refund__full_only
 msgid "Full Only"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Apenas Completo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Apenas Completo"
 >>>>>>> upstream/18.0
@@ -5654,7 +5814,11 @@ msgstr "Apenas Completo"
 #: model:ir.model,name:account_payment.model_payment_link_wizard
 msgid "Generate Sales Payment Link"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gerar Ligação para Pagamento de Vendas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Gerar Ligação para Pagamento de Vendas"
 >>>>>>> upstream/18.0
@@ -5668,7 +5832,11 @@ msgstr "Gerar Link Para Pagamento"
 #: model:ir.model.fields,field_description:account_payment.field_payment_link_wizard__has_eligible_epd
 msgid "Has Eligible Epd"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tem EPD Elegível"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tem EPD Elegível"
 >>>>>>> upstream/18.0
@@ -5677,7 +5845,11 @@ msgstr "Tem EPD Elegível"
 #: model:ir.model.fields,field_description:account_payment.field_payment_refund_wizard__has_pending_refund
 msgid "Has a pending refund"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tem um reembolso pendente"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tem um reembolso pendente"
 >>>>>>> upstream/18.0
@@ -5686,7 +5858,11 @@ msgstr "Tem um reembolso pendente"
 #: model:ir.model.fields,field_description:account_payment.field_payment_refund_wizard__id
 msgid "ID"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Id."
+=======
+msgstr "ID"
+>>>>>>> upstream/18.0
 =======
 msgstr "ID"
 >>>>>>> upstream/18.0
@@ -5699,6 +5875,11 @@ msgid ""
 "currency."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Impossível pagar todas as faturas vencidas se elas não compartilharem a "
+"mesma moeda."
+>>>>>>> upstream/18.0
 =======
 "Impossível pagar todas as faturas vencidas se elas não compartilharem a "
 "mesma moeda."
@@ -5711,6 +5892,12 @@ msgid ""
 "This mode is advised when setting up the provider."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"No modo de teste, um pagamento simulado é processado por meio de uma "
+"interface de pagamento de teste.\n"
+"Este modo é recomendado quando configura o provedor."
+>>>>>>> upstream/18.0
 =======
 "No modo de teste, um pagamento simulado é processado por meio de uma "
 "interface de pagamento de teste.\n"
@@ -5859,7 +6046,11 @@ msgid "Invoice(s)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fatura(s)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fatura(s)"
 >>>>>>> upstream/18.0
@@ -6274,7 +6465,11 @@ msgstr "Faturas"
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_my_home_overdue_invoice
 msgid "Invoices &amp; Bills"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Faturas"
+=======
+msgstr "Faturas de Venda e Compra"
+>>>>>>> upstream/18.0
 =======
 msgstr "Faturas de Venda e Compra"
 >>>>>>> upstream/18.0
@@ -6283,7 +6478,11 @@ msgstr "Faturas de Venda e Compra"
 #: model:ir.model.fields,field_description:account_payment.field_payment_transaction__invoices_count
 msgid "Invoices Count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Número de Faturas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Número de Faturas"
 >>>>>>> upstream/18.0
@@ -6292,7 +6491,11 @@ msgstr "Número de Faturas"
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_my_home_account_payment
 msgid "Invoices to pay"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Faturas a pagar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Faturas a pagar"
 >>>>>>> upstream/18.0
@@ -6306,7 +6509,11 @@ msgstr "Diário"
 #: model:ir.model,name:account_payment.model_account_move
 msgid "Journal Entry"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Lançamento em Diário"
+=======
+msgstr "Lançamento de Diário"
+>>>>>>> upstream/18.0
 =======
 msgstr "Lançamento de Diário"
 >>>>>>> upstream/18.0
@@ -6325,7 +6532,11 @@ msgstr "Última Atualização em"
 #: model:ir.model.fields,field_description:account_payment.field_payment_refund_wizard__amount_available_for_refund
 msgid "Maximum Refund Allowed"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Reembolso máximo permitido"
+>>>>>>> upstream/18.0
 =======
 msgstr "Reembolso máximo permitido"
 >>>>>>> upstream/18.0
@@ -6334,7 +6545,11 @@ msgstr "Reembolso máximo permitido"
 #: model_terms:ir.ui.view,arch_db:account_payment.payment_link_wizard__form_inherit_account_payment
 msgid "Next Installments"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Próximas Prestações"
+>>>>>>> upstream/18.0
 =======
 msgstr "Próximas Prestações"
 >>>>>>> upstream/18.0
@@ -6346,6 +6561,11 @@ msgid ""
 "available."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Note que apenas estão disponíveis tokens de provedores que permitam capturar "
+"o montante."
+>>>>>>> upstream/18.0
 =======
 "Note que apenas estão disponíveis tokens de provedores que permitam capturar "
 "o montante."
@@ -6358,6 +6578,11 @@ msgid ""
 "of capturing the amount) are not available."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Note que não estão disponíveis os tokens de provedores definidos para "
+"autorizar apenas transações (em vez de capturar o montante)."
+>>>>>>> upstream/18.0
 =======
 "Note que não estão disponíveis os tokens de provedores definidos para "
 "autorizar apenas transações (em vez de capturar o montante)."
@@ -6367,7 +6592,11 @@ msgstr ""
 #: model:onboarding.onboarding.step,step_image_alt:account_payment.onboarding_onboarding_step_payment_provider
 msgid "Onboarding Online Payments"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Integração de Pagamentos Online"
+>>>>>>> upstream/18.0
 =======
 msgstr "Integração de Pagamentos Online"
 >>>>>>> upstream/18.0
@@ -6376,7 +6605,11 @@ msgstr "Integração de Pagamentos Online"
 #: model:ir.model,name:account_payment.model_onboarding_onboarding_step
 msgid "Onboarding Step"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Etapa de integração"
+=======
+msgstr "Etapa de Integração"
+>>>>>>> upstream/18.0
 =======
 msgstr "Etapa de Integração"
 >>>>>>> upstream/18.0
@@ -6385,7 +6618,11 @@ msgstr "Etapa de Integração"
 #: model:onboarding.onboarding.step,title:account_payment.onboarding_onboarding_step_payment_provider
 msgid "Online Payments"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Pagamentos online"
+=======
+msgstr "Pagamentos Online"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pagamentos Online"
 >>>>>>> upstream/18.0
@@ -6395,7 +6632,11 @@ msgstr "Pagamentos Online"
 #: code:addons/account_payment/wizards/payment_link_wizard.py:0
 msgid "Online payment option is not enabled in Configuration."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "A opção de pagamento on-line não está habilitada na Configuração."
+>>>>>>> upstream/18.0
 =======
 msgstr "A opção de pagamento on-line não está habilitada na Configuração."
 >>>>>>> upstream/18.0
@@ -6405,7 +6646,11 @@ msgstr "A opção de pagamento on-line não está habilitada na Configuração."
 #: code:addons/account_payment/controllers/portal.py:0
 msgid "Overdue invoices should share the same company."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Faturas vencidas devem ser da mesma empresa."
+>>>>>>> upstream/18.0
 =======
 msgstr "Faturas vencidas devem ser da mesma empresa."
 >>>>>>> upstream/18.0
@@ -6415,7 +6660,11 @@ msgstr "Faturas vencidas devem ser da mesma empresa."
 #: code:addons/account_payment/controllers/portal.py:0
 msgid "Overdue invoices should share the same currency."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Faturas vencidas devem usar a mesma moeda."
+>>>>>>> upstream/18.0
 =======
 msgstr "Faturas vencidas devem usar a mesma moeda."
 >>>>>>> upstream/18.0
@@ -6425,7 +6674,11 @@ msgstr "Faturas vencidas devem usar a mesma moeda."
 #: code:addons/account_payment/controllers/portal.py:0
 msgid "Overdue invoices should share the same partner."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Faturas vencidas devem partilhar o mesmo parceiro."
+>>>>>>> upstream/18.0
 =======
 msgstr "Faturas vencidas devem partilhar o mesmo parceiro."
 >>>>>>> upstream/18.0
@@ -6573,7 +6826,11 @@ msgid "Pay"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pagar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pagar"
 >>>>>>> upstream/18.0
@@ -6981,7 +7238,11 @@ msgstr "Pagar"
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_payment_paid
 msgid "Pay Invoice"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pagar Fatura"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pagar Fatura"
 >>>>>>> upstream/18.0
@@ -6990,7 +7251,11 @@ msgstr "Pagar Fatura"
 #: model:ir.model.fields,field_description:account_payment.field_res_config_settings__pay_invoices_online
 msgid "Pay Invoices Online"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pagar Faturas Online"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pagar Faturas Online"
 >>>>>>> upstream/18.0
@@ -7005,7 +7270,11 @@ msgstr "Pagar Agora"
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_my_invoices_payment
 msgid "Pay now"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Finalizar Pedido"
+=======
+msgstr "Pagar agora"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pagar agora"
 >>>>>>> upstream/18.0
@@ -7144,7 +7413,11 @@ msgid "Pay overdue"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pagamento em atraso"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pagamento em atraso"
 >>>>>>> upstream/18.0
@@ -7554,7 +7827,11 @@ msgstr "Valor do Pagamento"
 #: model:ir.model.fields,field_description:account_payment.field_payment_provider__journal_id
 msgid "Payment Journal"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Diário do Pagamento"
+=======
+msgstr "Diário de Pagamento"
+>>>>>>> upstream/18.0
 =======
 msgstr "Diário de Pagamento"
 >>>>>>> upstream/18.0
@@ -7571,7 +7848,11 @@ msgstr "Métodos de Pagamento"
 #: model:ir.model.fields,field_description:account_payment.field_account_payment_method_line__payment_provider_id
 msgid "Payment Provider"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Provedor de Pagamentos"
+=======
+msgstr "Provedor de Pagamento"
+>>>>>>> upstream/18.0
 =======
 msgstr "Provedor de Pagamento"
 >>>>>>> upstream/18.0
@@ -7580,7 +7861,11 @@ msgstr "Provedor de Pagamento"
 #: model:ir.ui.menu,name:account_payment.payment_provider_menu
 msgid "Payment Providers"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Prestadores de Pagamentos"
+=======
+msgstr "Provedores de Pagamento"
+>>>>>>> upstream/18.0
 =======
 msgstr "Provedores de Pagamento"
 >>>>>>> upstream/18.0
@@ -7589,7 +7874,11 @@ msgstr "Provedores de Pagamento"
 #: model:ir.model,name:account_payment.model_payment_refund_wizard
 msgid "Payment Refund Wizard"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Assistente de reembolso de pagamento"
+>>>>>>> upstream/18.0
 =======
 msgstr "Assistente de reembolso de pagamento"
 >>>>>>> upstream/18.0
@@ -7598,7 +7887,11 @@ msgstr "Assistente de reembolso de pagamento"
 #: model:ir.ui.menu,name:account_payment.payment_token_menu
 msgid "Payment Tokens"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Códigos de Pagamento"
+=======
+msgstr "Tokens de Pagamento"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tokens de Pagamento"
 >>>>>>> upstream/18.0
@@ -7610,7 +7903,11 @@ msgstr "Tokens de Pagamento"
 #: model_terms:ir.ui.view,arch_db:account_payment.account_invoice_view_form_inherit_payment
 msgid "Payment Transaction"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Transação de Pagamento"
+=======
+msgstr "Transação"
+>>>>>>> upstream/18.0
 =======
 msgstr "Transação"
 >>>>>>> upstream/18.0
@@ -7630,7 +7927,11 @@ msgstr "Pagamentos"
 #: code:addons/account_payment/controllers/payment.py:0
 msgid "Please log in to pay your overdue invoices"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Por favor, faça login para pagar as suas faturas vencidas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Por favor, faça login para pagar as suas faturas vencidas"
 >>>>>>> upstream/18.0
@@ -7655,7 +7956,11 @@ msgstr "Referência"
 #: model_terms:ir.ui.view,arch_db:account_payment.view_account_payment_form_inherit_payment
 msgid "Refund"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Reembolsar"
+=======
+msgstr "Notas de Crédito"
+>>>>>>> upstream/18.0
 =======
 msgstr "Notas de Crédito"
 >>>>>>> upstream/18.0
@@ -7664,7 +7969,11 @@ msgstr "Notas de Crédito"
 #: model:ir.model.fields,field_description:account_payment.field_payment_refund_wizard__amount_to_refund
 msgid "Refund Amount"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Quantia de Reembolso"
+>>>>>>> upstream/18.0
 =======
 msgstr "Quantia de Reembolso"
 >>>>>>> upstream/18.0
@@ -7673,7 +7982,11 @@ msgstr "Quantia de Reembolso"
 #: model:ir.model.fields,field_description:account_payment.field_payment_refund_wizard__refunded_amount
 msgid "Refunded Amount"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Montante reembolsado"
+>>>>>>> upstream/18.0
 =======
 msgstr "Montante reembolsado"
 >>>>>>> upstream/18.0
@@ -7687,7 +8000,11 @@ msgstr "Notas de Crédito"
 #: model:ir.model.fields,field_description:account_payment.field_account_payment__refunds_count
 msgid "Refunds Count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Números de Reembolsos"
+>>>>>>> upstream/18.0
 =======
 msgstr "Números de Reembolsos"
 >>>>>>> upstream/18.0
@@ -7829,7 +8146,11 @@ msgid "SETUP"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "CONFIGURAÇÃO"
+>>>>>>> upstream/18.0
 =======
 msgstr "CONFIGURAÇÃO"
 >>>>>>> upstream/18.0
@@ -8237,7 +8558,11 @@ msgstr "CONFIGURAÇÃO"
 #: model:ir.model.fields,field_description:account_payment.field_account_payment__payment_token_id
 msgid "Saved Payment Token"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Token de Pagamento Guardado"
+>>>>>>> upstream/18.0
 =======
 msgstr "Token de Pagamento Guardado"
 >>>>>>> upstream/18.0
@@ -8246,7 +8571,11 @@ msgstr "Token de Pagamento Guardado"
 #: model:ir.model.fields,field_description:account_payment.field_account_payment_register__payment_token_id
 msgid "Saved payment token"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Token de pagamento guardado"
+>>>>>>> upstream/18.0
 =======
 msgstr "Token de pagamento guardado"
 >>>>>>> upstream/18.0
@@ -8255,7 +8584,11 @@ msgstr "Token de pagamento guardado"
 #: model:ir.model.fields,field_description:account_payment.field_account_payment__source_payment_id
 msgid "Source Payment"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pagamento de origem"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pagamento de origem"
 >>>>>>> upstream/18.0
@@ -8269,7 +8602,11 @@ msgstr "Estado"
 #: model:onboarding.onboarding.step,done_text:account_payment.onboarding_onboarding_step_payment_provider
 msgid "Step Completed!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Etapa concluída!"
+=======
+msgstr "Etapa Concluída!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Etapa Concluída!"
 >>>>>>> upstream/18.0
@@ -8279,7 +8616,11 @@ msgstr "Etapa Concluída!"
 #: model:ir.model.fields,field_description:account_payment.field_account_payment_register__suitable_payment_token_ids
 msgid "Suitable Payment Token"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Token de Pagamento Adequado"
+>>>>>>> upstream/18.0
 =======
 msgstr "Token de Pagamento Adequado"
 >>>>>>> upstream/18.0
@@ -8297,6 +8638,10 @@ msgid ""
 "The amount to be refunded must be positive and cannot be superior to %s."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"O montante a ser reembolsado deve ser positivo e não pode ser superior a %s."
+>>>>>>> upstream/18.0
 =======
 "O montante a ser reembolsado deve ser positivo e não pode ser superior a %s."
 >>>>>>> upstream/18.0
@@ -8305,7 +8650,11 @@ msgstr ""
 #: model:ir.model.fields,help:account_payment.field_payment_provider__journal_id
 msgid "The journal in which the successful transactions are posted."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "O diário no qual são lançadas as transações bem-sucedidas."
+>>>>>>> upstream/18.0
 =======
 msgstr "O diário no qual são lançadas as transações bem-sucedidas."
 >>>>>>> upstream/18.0
@@ -8318,6 +8667,11 @@ msgid ""
 "posted: %(link)s"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"O pagamento relacionado com a transação com referência %(ref)s foi lançado: "
+"%(link)s"
+>>>>>>> upstream/18.0
 =======
 "O pagamento relacionado com a transação com referência %(ref)s foi lançado: "
 "%(link)s"
@@ -8328,7 +8682,11 @@ msgstr ""
 #: code:addons/account_payment/controllers/payment.py:0
 msgid "The provided parameters are invalid."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Os parâmetros fornecidos são inválidos."
+>>>>>>> upstream/18.0
 =======
 msgstr "Os parâmetros fornecidos são inválidos."
 >>>>>>> upstream/18.0
@@ -8337,7 +8695,11 @@ msgstr "Os parâmetros fornecidos são inválidos."
 #: model:ir.model.fields,help:account_payment.field_account_payment__source_payment_id
 msgid "The source payment of related refund payments"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "O pagamento de origem dos reembolsos relacionados"
+>>>>>>> upstream/18.0
 =======
 msgstr "O pagamento de origem dos reembolsos relacionados"
 >>>>>>> upstream/18.0
@@ -8347,7 +8709,11 @@ msgstr "O pagamento de origem dos reembolsos relacionados"
 #: code:addons/account_payment/models/account_move.py:0
 msgid "There are pending transactions for this invoice."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Há transações pendentes para esta fatura."
+>>>>>>> upstream/18.0
 =======
 msgstr "Há transações pendentes para esta fatura."
 >>>>>>> upstream/18.0
@@ -8357,7 +8723,11 @@ msgstr "Há transações pendentes para esta fatura."
 #: code:addons/account_payment/models/account_move.py:0
 msgid "There is no amount to be paid."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Não há valor a pagar."
+>>>>>>> upstream/18.0
 =======
 msgstr "Não há valor a pagar."
 >>>>>>> upstream/18.0
@@ -8374,8 +8744,13 @@ msgid ""
 "validation."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Ocorreu um erro ao processar o seu pagamento: problema com a validação da "
 "Id. do cartão de crédito."
+=======
+"Ocorreu um erro ao processar o seu pagamento: problema com a validação do ID "
+"do cartão de crédito."
+>>>>>>> upstream/18.0
 =======
 "Ocorreu um erro ao processar o seu pagamento: problema com a validação do ID "
 "do cartão de crédito."
@@ -8385,7 +8760,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_error
 msgid "There was an error processing your payment: transaction failed.<br/>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ocorreu um erro ao processar o seu pagamento: transação falhou.<br/>"
+=======
+msgstr "Ocorreu um erro ao processar o seu pagamento: a transação falhou.<br/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ocorreu um erro ao processar o seu pagamento: a transação falhou.<br/>"
 >>>>>>> upstream/18.0
@@ -8395,8 +8774,13 @@ msgstr "Ocorreu um erro ao processar o seu pagamento: a transação falhou.<br/>
 msgid "There was en error processing your payment: invalid credit card ID."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Ocorreu um erro ao processar o seu pagamento: Id. do cartão de crédito "
 "inválida."
+=======
+"Ocorreu um erro ao processar o seu pagamento: ID do cartão de crédito "
+"inválido."
+>>>>>>> upstream/18.0
 =======
 "Ocorreu um erro ao processar o seu pagamento: ID do cartão de crédito "
 "inválido."
@@ -8407,7 +8791,11 @@ msgstr ""
 #: code:addons/account_payment/models/account_move.py:0
 msgid "This invoice cannot be paid online."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Esta fatura não pode ser paga on-line."
+>>>>>>> upstream/18.0
 =======
 msgstr "Esta fatura não pode ser paga on-line."
 >>>>>>> upstream/18.0
@@ -8417,7 +8805,11 @@ msgstr "Esta fatura não pode ser paga on-line."
 #: code:addons/account_payment/models/account_move.py:0
 msgid "This invoice has already been paid."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Esta fatura já foi paga."
+>>>>>>> upstream/18.0
 =======
 msgstr "Esta fatura já foi paga."
 >>>>>>> upstream/18.0
@@ -8427,7 +8819,11 @@ msgstr "Esta fatura já foi paga."
 #: code:addons/account_payment/models/account_move.py:0
 msgid "This invoice isn't posted."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Esta fatura não foi lançada."
+>>>>>>> upstream/18.0
 =======
 msgstr "Esta fatura não foi lançada."
 >>>>>>> upstream/18.0
@@ -8437,7 +8833,11 @@ msgstr "Esta fatura não foi lançada."
 #: code:addons/account_payment/models/account_move.py:0
 msgid "This is not an outgoing invoice."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Esta não é uma fatura a clientes."
+>>>>>>> upstream/18.0
 =======
 msgstr "Esta não é uma fatura a clientes."
 >>>>>>> upstream/18.0
@@ -8447,7 +8847,11 @@ msgstr "Esta não é uma fatura a clientes."
 #: model:ir.model.fields,field_description:account_payment.field_account_move__transaction_count
 msgid "Transaction Count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nº de Transações"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nº de Transações"
 >>>>>>> upstream/18.0
@@ -8595,7 +8999,11 @@ msgid "Unsupported"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Não suportado"
+>>>>>>> upstream/18.0
 =======
 msgstr "Não suportado"
 >>>>>>> upstream/18.0
@@ -9004,7 +9412,11 @@ msgstr "Não suportado"
 #: model:ir.model.fields,field_description:account_payment.field_account_payment_register__use_electronic_payment_method
 msgid "Use Electronic Payment Method"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Usar Método de Pagamento Eletrónico"
+>>>>>>> upstream/18.0
 =======
 msgstr "Usar Método de Pagamento Eletrónico"
 >>>>>>> upstream/18.0
@@ -9013,7 +9425,11 @@ msgstr "Usar Método de Pagamento Eletrónico"
 #: model_terms:ir.ui.view,arch_db:account_payment.account_invoice_view_form_inherit_payment
 msgid "Void Transaction"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Anular Transação"
+>>>>>>> upstream/18.0
 =======
 msgstr "Anular Transação"
 >>>>>>> upstream/18.0
@@ -9022,6 +9438,7 @@ msgstr "Anular Transação"
 #. odoo-python
 #: code:addons/account_payment/models/account_payment_method_line.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9202,6 +9619,8 @@ msgid ""
 "Linked providers(s): %s"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "You can't delete a payment method that is linked to a provider in the "
 "enabled or test state.\n"
 "Linked providers(s): %s"
@@ -9209,6 +9628,9 @@ msgstr ""
 "Não é possível eliminar um meio de pagamento vinculado a um provedor em "
 "estado ativo ou de teste.\n"
 "Provedor(es) vinculado(s): %s"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: account_payment
@@ -9219,6 +9641,11 @@ msgid ""
 "already exist."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Não pode desinstalar este módulo porque já existem pagamentos que usam este "
+"método de pagamento."
+>>>>>>> upstream/18.0
 =======
 "Não pode desinstalar este módulo porque já existem pagamentos que usam este "
 "método de pagamento."
@@ -9232,6 +9659,12 @@ msgid ""
 "Linked providers: %s"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Deve primeiro desativar um provedor de pagamento antes de eliminar o diário."
+"\n"
+"Provedores vinculados: %s"
+>>>>>>> upstream/18.0
 =======
 "Deve primeiro desativar um provedor de pagamento antes de eliminar o diário."
 "\n"
@@ -9243,7 +9676,11 @@ msgstr ""
 #: code:addons/account_payment/static/src/js/portal_my_invoices_payment.js:0
 msgid "due in %s day(s)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "vence em %s day(s)"
+>>>>>>> upstream/18.0
 =======
 msgstr "vence em %s day(s)"
 >>>>>>> upstream/18.0
@@ -9383,7 +9820,11 @@ msgid "due today"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "vence hoje"
+>>>>>>> upstream/18.0
 =======
 msgstr "vence hoje"
 >>>>>>> upstream/18.0
@@ -9782,7 +10223,11 @@ msgstr "vence hoje"
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_payment
 msgid "has been applied."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "foi aplicado(a)."
+>>>>>>> upstream/18.0
 =======
 msgstr "foi aplicado(a)."
 >>>>>>> upstream/18.0
@@ -9924,6 +10369,7 @@ msgid "overdue"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "vencido"
@@ -10396,8 +10842,13 @@ msgstr "vencido"
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "vencida"
 
 #~ msgid "Code"
 #~ msgstr "Código"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

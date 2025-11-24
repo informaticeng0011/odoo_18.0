@@ -1,8 +1,13 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* hr_timesheet
 # 
+=======
+# * hr_timesheet
+#
+>>>>>>> upstream/18.0
 =======
 # * hr_timesheet
 #
@@ -12,7 +17,12 @@
 # Wil Odoo, 2025
 # Marta Wacławek, 2025
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 =======
 #
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
@@ -23,6 +33,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-16 13:39+0000\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Marta Wacławek, 2025\n"
 "Language-Team: Polish (https://app.transifex.com/odoo/teams/41243/pl/)\n"
@@ -32,6 +43,8 @@ msgstr ""
 "Language: pl\n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-11-21 02:29+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Polish <https://translate.odoo.com/projects/odoo-18/"
@@ -44,6 +57,9 @@ msgstr ""
 "n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && "
 "n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_timesheet
@@ -68,7 +84,11 @@ msgstr "%(effective)s / %(allocated)s %(uom_name)s"
 #: code:addons/hr_timesheet/models/project_project.py:0
 msgid "%(effective)s / %(allocated)s %(uom_name)s (%(success_rate)s%%)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(effective)s / %(allocated)s %(uom_name)s (%(success_rate)s%%)"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(effective)s / %(allocated)s %(uom_name)s (%(success_rate)s%%)"
 >>>>>>> upstream/18.0
@@ -78,7 +98,11 @@ msgstr "%(effective)s / %(allocated)s %(uom_name)s (%(success_rate)s%%)"
 #: code:addons/hr_timesheet/models/project_project.py:0
 msgid "%(exceeding_hours)s %(uom_name)s (+%(exceeding_rate)s%%)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(exceeding_hours)s %(uom_name)s (+%(exceeding_rate)s%%)"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(exceeding_hours)s %(uom_name)s (+%(exceeding_rate)s%%)"
 >>>>>>> upstream/18.0
@@ -109,6 +133,11 @@ msgid ""
 "'%(project_name)s' linked to the timesheet."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Plany analityczne '%(missing_plan_names)s' wymagane w projekcie "
+"'%(project_name)s' powiązane z wykazem czasu."
+>>>>>>> upstream/18.0
 =======
 "Plany analityczne '%(missing_plan_names)s' wymagane w projekcie "
 "'%(project_name)s' powiązane z wykazem czasu."
@@ -236,7 +265,11 @@ msgstr "<strong>Pozostało czasu: </strong>"
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.portal_timesheet_table
 msgid "<strong>Time recorded on sub-tasks: </strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Czas zarejestrowany na podzadaniach: </strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Czas zarejestrowany na podzadaniach: </strong>"
 >>>>>>> upstream/18.0
@@ -255,7 +288,11 @@ msgstr "<strong>Całkowita liczba godzin: </strong>"
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.portal_timesheet_table
 msgid "<strong>Total Time Spent: </strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Całkowity spędzony czas: </strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Całkowity spędzony czas: </strong>"
 >>>>>>> upstream/18.0
@@ -335,7 +372,11 @@ msgstr "Archiwizacja pracowników"
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.timesheet_table
 msgid "Audrey Peterson"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Audrey Peterson"
+>>>>>>> upstream/18.0
 =======
 msgstr "Audrey Peterson"
 >>>>>>> upstream/18.0
@@ -344,7 +385,11 @@ msgstr "Audrey Peterson"
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.view_task_tree2_inherited
 msgid "Average of Progress"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Średnia postępu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Średnia postępu"
 >>>>>>> upstream/18.0
@@ -368,7 +413,11 @@ msgstr "wg zadań"
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.timesheet_table
 msgid "Call client and discuss project"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zadzwoń do klienta i omów projekt"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zadzwoń do klienta i omów projekt"
 >>>>>>> upstream/18.0
@@ -437,7 +486,11 @@ msgstr "Dni / Półdniówki"
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.project_sharing_inherit_project_task_view_form
 msgid "Days Remaining"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pozostałe dni"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pozostałe dni"
 >>>>>>> upstream/18.0
@@ -571,7 +624,11 @@ msgstr "Metoda kodowania"
 #: code:addons/hr_timesheet/models/project_project.py:0
 msgid "Extra Time"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dodatkowy czas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dodatkowy czas"
 >>>>>>> upstream/18.0
@@ -603,7 +660,11 @@ msgstr "Godziny / minuty"
 #: model:ir.model.fields,field_description:hr_timesheet.field_report_project_task_user__total_hours_spent
 msgid "Hours By Task (Including Subtasks)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Godziny wg. zadania (Włączając podzadania)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Godziny wg. zadania (Włączając podzadania)"
 >>>>>>> upstream/18.0
@@ -702,7 +763,11 @@ msgstr "Menu"
 #: model:ir.model.fields,field_description:hr_timesheet.field_timesheets_analysis_report__message_partner_ids
 msgid "Message Partner"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Partner informacyjny"
+>>>>>>> upstream/18.0
 =======
 msgstr "Partner informacyjny"
 >>>>>>> upstream/18.0
@@ -741,7 +806,11 @@ msgstr "Najnowsze"
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.portal_my_timesheets
 msgid "No Parent Task"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Brak zadania partnera"
+>>>>>>> upstream/18.0
 =======
 msgstr "Brak zadania partnera"
 >>>>>>> upstream/18.0
@@ -750,7 +819,11 @@ msgstr "Brak zadania partnera"
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.portal_my_timesheets
 msgid "No Task"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Brak zadania"
+>>>>>>> upstream/18.0
 =======
 msgstr "Brak zadania"
 >>>>>>> upstream/18.0
@@ -877,7 +950,11 @@ msgstr "Raportowanie"
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.report_timesheet
 msgid "Research and Development"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Research & Development"
+>>>>>>> upstream/18.0
 =======
 msgstr "Research & Development"
 >>>>>>> upstream/18.0
@@ -886,7 +963,11 @@ msgstr "Research & Development"
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.timesheet_table
 msgid "Research and Development/New Portal System"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Research & Development/Nowy system portalu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Research & Development/Nowy system portalu"
 >>>>>>> upstream/18.0
@@ -896,6 +977,10 @@ msgstr "Research & Development/Nowy system portalu"
 msgid "Review all timesheets related to your projects"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Przejrzyj wszystkie karty ewidencji czasu pracy związane z twoimi projektami."
+>>>>>>> upstream/18.0
 =======
 "Przejrzyj wszystkie karty ewidencji czasu pracy związane z twoimi projektami."
 >>>>>>> upstream/18.0
@@ -917,7 +1002,11 @@ msgstr "Wyszukiwanie wśród pracowników"
 #: code:addons/hr_timesheet/controllers/portal.py:0
 msgid "Search in Parent Task"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Wyszukaj w zadaniu nadrzędnym"
+>>>>>>> upstream/18.0
 =======
 msgstr "Wyszukaj w zadaniu nadrzędnym"
 >>>>>>> upstream/18.0
@@ -973,7 +1062,11 @@ msgstr "Ustawienia"
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.timesheet_report_subtask
 msgid "Sub-Task of '"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Podzadanie zadania '"
+>>>>>>> upstream/18.0
 =======
 msgstr "Podzadanie zadania '"
 >>>>>>> upstream/18.0
@@ -983,7 +1076,11 @@ msgstr "Podzadanie zadania '"
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.view_task_form2_inherited
 msgid "Sub-tasks Time Spent"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Czas spędzony na podzadaniach"
+>>>>>>> upstream/18.0
 =======
 msgstr "Czas spędzony na podzadaniach"
 >>>>>>> upstream/18.0
@@ -1024,6 +1121,11 @@ msgid ""
 " to the same company."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Projekt, zadanie i konto analityczne ewidencji czasu pracy muszą należeć do "
+"tej samej firmy."
+>>>>>>> upstream/18.0
 =======
 "Projekt, zadanie i konto analityczne ewidencji czasu pracy muszą należeć do "
 "tej samej firmy."
@@ -1102,6 +1204,11 @@ msgid ""
 "This task cannot be private because there are some timesheets linked to it."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"To zadanie nie może być prywatne, ponieważ są z nim powiązane niektóre karty "
+"ewidencji czasu pracy."
+>>>>>>> upstream/18.0
 =======
 "To zadanie nie może być prywatne, ponieważ są z nim powiązane niektóre karty "
 "ewidencji czasu pracy."
@@ -1146,7 +1253,11 @@ msgstr "Dni wolne"
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.view_task_form2_inherited
 msgid "Time Remaining"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pozostały czas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pozostały czas"
 >>>>>>> upstream/18.0
@@ -1155,7 +1266,11 @@ msgstr "Pozostały czas"
 #: model:ir.model.fields,field_description:hr_timesheet.field_report_project_task_user__remaining_hours_percentage
 msgid "Time Remaining Percentage"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Procent pozostałego czasu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Procent pozostałego czasu"
 >>>>>>> upstream/18.0
@@ -1164,7 +1279,11 @@ msgstr "Procent pozostałego czasu"
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.view_task_tree2_inherited
 msgid "Time Remaining on SO"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pozostały czas na ZS"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pozostały czas na ZS"
 >>>>>>> upstream/18.0
@@ -1195,7 +1314,11 @@ msgstr "Spędzony czas"
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.view_task_tree2_inherited
 msgid "Time Spent on Sub-Tasks"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Czas spędzony na podzadaniach"
+>>>>>>> upstream/18.0
 =======
 msgstr "Czas spędzony na podzadaniach"
 >>>>>>> upstream/18.0
@@ -1204,7 +1327,11 @@ msgstr "Czas spędzony na podzadaniach"
 #: model:ir.model.fields,field_description:hr_timesheet.field_project_task__subtask_effective_hours
 msgid "Time Spent on Sub-tasks"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Czas spędzony na podzadaniach"
+>>>>>>> upstream/18.0
 =======
 msgstr "Czas spędzony na podzadaniach"
 >>>>>>> upstream/18.0
@@ -1277,7 +1404,11 @@ msgstr "Raport z karty pracy"
 #: model:ir.model.fields,field_description:hr_timesheet.field_project_update__timesheet_time
 msgid "Timesheet Time"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Czas na ewidencji czasu pracy"
+>>>>>>> upstream/18.0
 =======
 msgstr "Czas na ewidencji czasu pracy"
 >>>>>>> upstream/18.0
@@ -1394,6 +1525,11 @@ msgid ""
 "in the plan '%(plan_name)s'."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Arkusze czasu pracy muszą być tworzone przy użyciu co najmniej jednego "
+"aktywnego konta analitycznego zdefiniowanego w planie '%(plan_name)s'."
+>>>>>>> upstream/18.0
 =======
 "Arkusze czasu pracy muszą być tworzone przy użyciu co najmniej jednego "
 "aktywnego konta analitycznego zdefiniowanego w planie '%(plan_name)s'."
@@ -1419,6 +1555,12 @@ msgid ""
 "timesheets feature."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Aby korzystać z funkcji kart czasu pracy, potrzebujesz konta analitycznego "
+"dla swojego projektu. Skonfiguruj je w planie \"%(plan_name)s\" lub wyłącz "
+"funkcję kart czasu pracy."
+>>>>>>> upstream/18.0
 =======
 "Aby korzystać z funkcji kart czasu pracy, potrzebujesz konta analitycznego "
 "dla swojego projektu. Skonfiguruj je w planie \"%(plan_name)s\" lub wyłącz "
@@ -1449,7 +1591,11 @@ msgstr "Łączny przydzielony czas"
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.project_sharing_inherit_project_task_view_form
 msgid "Total Days Spent"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Suma spędzonych dni"
+>>>>>>> upstream/18.0
 =======
 msgstr "Suma spędzonych dni"
 >>>>>>> upstream/18.0
@@ -1461,7 +1607,11 @@ msgstr "Suma spędzonych dni"
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.view_task_tree2_inherited
 msgid "Total Time Spent"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Suma spędzonego czasu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Suma spędzonego czasu"
 >>>>>>> upstream/18.0
@@ -1538,11 +1688,17 @@ msgid ""
 "                    customers if required."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "Możesz rejestrować i śledzić godziny pracy nad każdym projektem każdego\n"
 "                    dnia. Każdy czas poświęcony na projekt stanie się "
 "kosztem i może zostać ponownie zafakturowany\n"
 "                    klientom, jeśli zajdzie taka potrzeba."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_timesheet
@@ -1565,12 +1721,18 @@ msgid ""
 "                            Please switch to another account, or reactivate the current one to timesheet on the project."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "Nie możesz rejestrować czasu pracy na tym projekcie, ponieważ jest powiązany "
 "z nieaktywnym kontem analitycznym.<br/>\n"
 "                            Przejdź do innego konta lub ponownie aktywuj "
 "bieżące konto, aby wprowadzić dane do karty ewidencji czasu pracy w "
 "projekcie."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_timesheet
@@ -1581,11 +1743,17 @@ msgid ""
 " one to timesheet on the project."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "Nie możesz rejestrować kart czasu pracy w tym projekcie, ponieważ jest on "
 "powiązany z nieaktywnym kontem analitycznym.<br/> Zmień to konto lub "
 "ponownie aktywuj bieżące konto, aby rejestrować karty czasu pracy w "
 "projekcie."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_timesheet
@@ -1594,6 +1762,11 @@ msgstr ""
 msgid "You cannot set an archived employee on existing timesheets."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nie możesz ustawić zarchiwizowanego pracownika w istniejących wykazach czasu "
+"pracy."
+>>>>>>> upstream/18.0
 =======
 "Nie możesz ustawić zarchiwizowanego pracownika w istniejących wykazach czasu "
 "pracy."

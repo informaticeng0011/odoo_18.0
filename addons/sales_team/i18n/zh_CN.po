@@ -2,7 +2,11 @@
 # This file contains the translation of the following modules:
 # 	* sales_team
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -11,7 +15,11 @@
 # Raymond Yu <cl_yu@hotmail.com>, 2024
 # 何彬 <vnsoft.he@gmail.com>, 2024
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -19,6 +27,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-12-16 13:40+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -29,6 +38,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: zh_CN\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-11-21 18:38+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: 何彬 <vnsoft.he@gmail.com>, 2024\n"
@@ -38,6 +49,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=1; plural=0;\n"
 
@@ -45,15 +59,21 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sales_team.crm_team_member_view_kanban
 #: model_terms:ir.ui.view,arch_db:sales_team.crm_team_view_form
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-envelope me-1\" role=\"img\" aria-label=\"Email\" title=\"Email\"/>"
 msgstr "<i class=\"fa fa-envelope me-1\" role=\"img\" aria-label=\"Email\" title=\"Email\"/>"
 =======
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "<i class=\"fa fa-envelope me-1\" role=\"img\" aria-label=\"Email\" "
 "title=\"Email\"/>"
 msgstr ""
 "<i class=\"fa fa-envelope me-1\" role=\"img\" aria-label=\"Email\" "
 "title=\"Email\"/>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sales_team
@@ -96,8 +116,12 @@ msgstr "添加团队成员"
 #. module: sales_team
 #: model:ir.model.fields,help:sales_team.field_crm_team__crm_team_member_ids
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Add members to automatically assign their documents to this sales team."
+=======
+msgid "Add members to automatically assign their documents to this sales team."
+>>>>>>> upstream/18.0
 =======
 msgid "Add members to automatically assign their documents to this sales team."
 >>>>>>> upstream/18.0
@@ -110,7 +134,13 @@ msgid ""
 "Adding %(user_name)s in this team will remove them from %(team_names)s. "
 "Working in multiple teams? Activate the option under Configuration>Settings."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "将%(user_name)s加入此团队会把他们从%(team_names)s移除。要在多个团队中工作吗？激活配置>设置下的选项。"
+=======
+msgstr ""
+"将%(user_name)s加入此团队会把他们从%(team_names)s移除。要在多个团队中工作吗？"
+"激活配置>设置下的选项。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "将%(user_name)s加入此团队会把他们从%(team_names)s移除。要在多个团队中工作吗？"
@@ -269,8 +299,12 @@ msgstr "最喜欢的成员"
 #. module: sales_team
 #: model:ir.model.fields,help:sales_team.field_crm_team__is_favorite
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Favorite teams to display them in the dashboard and access them easily."
+=======
+msgid "Favorite teams to display them in the dashboard and access them easily."
+>>>>>>> upstream/18.0
 =======
 msgid "Favorite teams to display them in the dashboard and access them easily."
 >>>>>>> upstream/18.0
@@ -318,7 +352,12 @@ msgid ""
 "If True, users may belong to several sales teams. Otherwise membership is "
 "limited to a single sales team."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "如果是真的，用户可以属于几个销售团队。否则，成员资格只限于一个销售团队。"
+=======
+msgstr ""
+"如果是真的，用户可以属于几个销售团队。否则，成员资格只限于一个销售团队。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "如果是真的，用户可以属于几个销售团队。否则，成员资格只限于一个销售团队。"
@@ -633,7 +672,10 @@ msgstr "这个用户的默认公司。"
 
 #. module: sales_team
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/sales_team/models/crm_team.py:0
 msgid ""
@@ -642,13 +684,21 @@ msgid ""
 msgstr ""
 
 #. module: sales_team
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.actions.act_window,help:sales_team.mail_activity_type_action_config_sales
 msgid ""
 "Those represent the different categories of things you have to do (e.g. "
 "\"Call\" or \"Prepare meeting\")."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "这些代表了您必须做的不同类别的事情（例如 \"打电话 \"或 \"准备会议\"）。"
+=======
+msgstr ""
+"这些代表了您必须做的不同类别的事情（例如 \"打电话 \"或 \"准备会议\"）。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "这些代表了您必须做的不同类别的事情（例如 \"打电话 \"或 \"准备会议\"）。"
@@ -680,8 +730,12 @@ msgstr "销售团队的不确定图模型：%s"
 #. module: sales_team
 #: model_terms:ir.actions.act_window,help:sales_team.crm_team_action_config
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Use Sales Teams to organize your sales departments and draw up reports."
+=======
+msgid "Use Sales Teams to organize your sales departments and draw up reports."
+>>>>>>> upstream/18.0
 =======
 msgid "Use Sales Teams to organize your sales departments and draw up reports."
 >>>>>>> upstream/18.0
@@ -711,7 +765,10 @@ msgstr "用户"
 
 #. module: sales_team
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/sales_team/models/crm_team_member.py:0
 msgid ""
@@ -720,6 +777,9 @@ msgid ""
 msgstr ""
 
 #. module: sales_team
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:sales_team.field_crm_team_member__user_company_ids
 msgid "User Company"
@@ -767,8 +827,13 @@ msgstr "要在多个团队中工作吗？激活 “配置”>“设置 ”下的
 #: code:addons/sales_team/models/crm_team_member.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You are trying to create duplicate membership(s). We found that "
 "%(duplicates)s already exist(s)."
+=======
+"You are trying to create duplicate membership(s). We found that %"
+"(duplicates)s already exist(s)."
+>>>>>>> upstream/18.0
 =======
 "You are trying to create duplicate membership(s). We found that %"
 "(duplicates)s already exist(s)."
@@ -801,8 +866,13 @@ msgstr "在销售应用，用户只能访问自己的数据。"
 #: model:res.groups,comment:sales_team.group_sale_manager
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "the user will have an access to the sales configuration as well as statistic"
 " reports."
+=======
+"the user will have an access to the sales configuration as well as statistic "
+"reports."
+>>>>>>> upstream/18.0
 =======
 "the user will have an access to the sales configuration as well as statistic "
 "reports."

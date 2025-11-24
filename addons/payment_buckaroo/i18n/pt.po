@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* payment_buckaroo
 # 
 # Translators:
@@ -8,18 +9,24 @@
 # Wil Odoo, 2025
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 # * payment_buckaroo
 #
 # Translators:
 # Manuela Silva <mmsrs@sky.com>, 2025
 # Wil Odoo, 2025
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 17.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-26 21:56+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Wil Odoo, 2025\n"
@@ -30,6 +37,8 @@ msgstr ""
 "Language: pt\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-11-21 02:31+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Portuguese <https://translate.odoo.com/projects/odoo-18/"
@@ -41,6 +50,9 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % "
 "1000000 == 0) ? 1 : 2);\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: payment_buckaroo
@@ -51,6 +63,11 @@ msgid ""
 "again."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ocorreu um erro durante o processamento do seu pagamento (código %s). Tente "
+"novamente."
+>>>>>>> upstream/18.0
 =======
 "Ocorreu um erro durante o processamento do seu pagamento (código %s). Tente "
 "novamente."
@@ -60,7 +77,11 @@ msgstr ""
 #: model:ir.model.fields.selection,name:payment_buckaroo.selection__payment_provider__code__buckaroo
 msgid "Buckaroo"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Buckaroo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Buckaroo"
 >>>>>>> upstream/18.0
@@ -69,7 +90,11 @@ msgstr "Buckaroo"
 #: model:ir.model.fields,field_description:payment_buckaroo.field_payment_provider__buckaroo_secret_key
 msgid "Buckaroo Secret Key"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Buckaroo – Chave secreta"
+>>>>>>> upstream/18.0
 =======
 msgstr "Buckaroo – Chave secreta"
 >>>>>>> upstream/18.0
@@ -84,7 +109,11 @@ msgstr "Código"
 #: code:addons/payment_buckaroo/models/payment_transaction.py:0
 msgid "No transaction found matching reference %s."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nenhuma transação encontrada com a referência %s."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nenhuma transação encontrada com a referência %s."
 >>>>>>> upstream/18.0
@@ -104,7 +133,11 @@ msgstr "Transação de Pagamento"
 #: code:addons/payment_buckaroo/models/payment_transaction.py:0
 msgid "Received data with missing transaction keys"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dados recebidos sem chaves de transação"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dados recebidos sem chaves de transação"
 >>>>>>> upstream/18.0
@@ -118,7 +151,11 @@ msgstr "Chave secreta"
 #: model:ir.model.fields,help:payment_buckaroo.field_payment_provider__buckaroo_website_key
 msgid "The key solely used to identify the website with Buckaroo"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "A chave usada exclusivamente para identificar o site com o Buckaroo"
+>>>>>>> upstream/18.0
 =======
 msgstr "A chave usada exclusivamente para identificar o site com o Buckaroo"
 >>>>>>> upstream/18.0
@@ -127,7 +164,11 @@ msgstr "A chave usada exclusivamente para identificar o site com o Buckaroo"
 #: model:ir.model.fields,help:payment_buckaroo.field_payment_provider__code
 msgid "The technical code of this payment provider."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "O código técnico deste provedor de pagamento."
+>>>>>>> upstream/18.0
 =======
 msgstr "O código técnico deste provedor de pagamento."
 >>>>>>> upstream/18.0
@@ -137,7 +178,11 @@ msgstr "O código técnico deste provedor de pagamento."
 #: code:addons/payment_buckaroo/models/payment_transaction.py:0
 msgid "Unknown status code: %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Código de status desconhecido: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Código de status desconhecido: %s"
 >>>>>>> upstream/18.0
@@ -146,7 +191,11 @@ msgstr "Código de status desconhecido: %s"
 #: model:ir.model.fields,field_description:payment_buckaroo.field_payment_provider__buckaroo_website_key
 msgid "Website Key"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Chave do site"
+>>>>>>> upstream/18.0
 =======
 msgstr "Chave do site"
 >>>>>>> upstream/18.0
@@ -156,7 +205,11 @@ msgstr "Chave do site"
 #: code:addons/payment_buckaroo/models/payment_transaction.py:0
 msgid "Your payment was refused (code %s). Please try again."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Seu pagamento foi recusado (código %s). Tente novamente."
+>>>>>>> upstream/18.0
 =======
 msgstr "Seu pagamento foi recusado (código %s). Tente novamente."
 >>>>>>> upstream/18.0

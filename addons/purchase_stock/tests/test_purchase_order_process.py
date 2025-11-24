@@ -79,6 +79,10 @@ class TestPurchaseOrderProcess(PurchaseTestCommon):
         purchase_order.button_confirm()
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        purchase_order.order_line.flush_recordset()
+>>>>>>> upstream/18.0
 =======
         purchase_order.order_line.flush_recordset()
 >>>>>>> upstream/18.0

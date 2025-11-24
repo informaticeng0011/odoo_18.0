@@ -2,22 +2,29 @@
 # This file contains the translation of the following modules:
 # 	* base_import
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
 # Maitê Dietze, 2024
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
 # Maitê Dietze, 2024
 #
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-10-25 07:48+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -29,6 +36,8 @@ msgstr ""
 "Language: pt_BR\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-11-21 18:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Maitê Dietze, 2024\n"
@@ -40,6 +49,9 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % "
 "1000000 == 0 ? 1 : 2;\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: base_import
@@ -109,6 +121,7 @@ msgstr "Permitir a correspondência com subcampos"
 msgid ""
 "An unknown issue occurred during import (possibly lost connection, data "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "limit exceeded or memory limits exceeded). Please retry in case the issue is"
 " transient. If the issue still occurs, try to split the file rather than "
 "import it at once."
@@ -118,6 +131,8 @@ msgstr ""
 "novamente no caso do problema ser transitório. Se o problema continuar "
 "ocorrendo, tente dividir o arquivo ao invés de importá-lo de uma única vez."
 =======
+=======
+>>>>>>> upstream/18.0
 "limit exceeded or memory limits exceeded). Please retry in case the issue is "
 "transient. If the issue still occurs, try to split the file rather than "
 "import it at once."
@@ -126,6 +141,9 @@ msgstr ""
 "perdida, limite de dados ou de memória excedido). Por favor, tente novamente "
 "no caso do problema ser transitório. Se o problema continuar ocorrendo, "
 "tente dividir o arquivo ao invés de importá-lo de uma única vez."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: base_import
@@ -192,17 +210,23 @@ msgstr "A coluna %(column)s contém valores incorretos (valor: %(value)s)"
 #: code:addons/base_import/models/base_import.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Column %(column)s contains incorrect values. Error in line %(line)d: "
 "%(error)s"
 msgstr ""
 "A coluna %(column)s contém valores incorretos. Erro na linha %(line)d: "
 "%(error)s"
 =======
+=======
+>>>>>>> upstream/18.0
 "Column %(column)s contains incorrect values. Error in line %(line)d: %"
 "(error)s"
 msgstr ""
 "A coluna %(column)s contém valores incorretos. Erro na linha %(line)d: %"
 "(error)s"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: base_import
@@ -227,16 +251,22 @@ msgstr "Comentários"
 #: code:addons/base_import/models/base_import.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Could not retrieve URL: %(url)s [%(field_name)s: L%(line_number)d]: "
 "%(error)s"
 msgstr ""
 "Não foi possível recuperar a URL: %(url)s [%(field_name)s: "
 "L%(line_number)d]: %(error)s"
 =======
+=======
+>>>>>>> upstream/18.0
 "Could not retrieve URL: %(url)s [%(field_name)s: L%(line_number)d]: %(error)s"
 msgstr ""
 "Não foi possível recuperar a URL: %(url)s [%(field_name)s: L%"
 "(line_number)d]: %(error)s"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: base_import
@@ -358,6 +388,7 @@ msgstr ""
 msgid ""
 "Error while importing records: all rows should be of the same size, but the "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "title row has %(title_row_entries)d entries while the first row has "
 "%(first_row_entries)d. You may need to change the separator character."
 msgstr ""
@@ -365,12 +396,17 @@ msgstr ""
 " linha do título tem %(title_row_entries)d enquanto a primeira linha tem "
 "%(first_row_entries)d. Talvez seja necessário alterar o caractere separador."
 =======
+=======
+>>>>>>> upstream/18.0
 "title row has %(title_row_entries)d entries while the first row has %"
 "(first_row_entries)d. You may need to change the separator character."
 msgstr ""
 "Erro ao importar registros: todas as linhas devem ter o mesmo tamanho, mas a "
 "linha do título tem %(title_row_entries)d enquanto a primeira linha tem %"
 "(first_row_entries)d. Talvez seja necessário alterar o caractere separador."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: base_import
@@ -390,8 +426,12 @@ msgstr "Tudo parece válido."
 #: code:addons/base_import/static/src/import_action/import_action.xml:0
 msgid "Excel files are recommended as formatting is automatic."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Os arquivos do Excel são recomendados, pois a formatação é automática."
+=======
+msgstr "Os arquivos do Excel são recomendados, pois a formatação é automática."
+>>>>>>> upstream/18.0
 =======
 msgstr "Os arquivos do Excel são recomendados, pois a formatação é automática."
 >>>>>>> upstream/18.0
@@ -456,8 +496,12 @@ msgstr "Finalizando lote atual antes da interrupção..."
 #: code:addons/base_import/static/src/import_data_content/import_data_content.xml:0
 msgid "For CSV files, you may need to select the correct separator."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Para arquivos CSV, pode ser necessário selecionar o separador correto."
+=======
+msgstr "Para arquivos CSV, pode ser necessário selecionar o separador correto."
+>>>>>>> upstream/18.0
 =======
 msgstr "Para arquivos CSV, pode ser necessário selecionar o separador correto."
 >>>>>>> upstream/18.0
@@ -473,17 +517,23 @@ msgstr "Formatação"
 #: code:addons/base_import/models/base_import.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Found invalid image data, images should be imported as either URLs or "
 "base64-encoded data."
 msgstr ""
 "Dados de imagem inválidos foram encontrados. As imagens devem ser importadas"
 " como URLs ou dados codificados em base64."
 =======
+=======
+>>>>>>> upstream/18.0
 "Found invalid image data, images should be imported as either URLs or base64-"
 "encoded data."
 msgstr ""
 "Dados de imagem inválidos foram encontrados. As imagens devem ser importadas "
 "como URLs ou dados codificados em base64."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: base_import
@@ -542,8 +592,13 @@ msgid ""
 "Image size excessive, imported images must be smaller than 42 million pixel"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "O tamanho da imagem excede o limite. As imagens importadas devem ser menores"
 " que 42 milhões de pixels."
+=======
+"O tamanho da imagem excede o limite. As imagens importadas devem ser menores "
+"que 42 milhões de pixels."
+>>>>>>> upstream/18.0
 =======
 "O tamanho da imagem excede o limite. As imagens importadas devem ser menores "
 "que 42 milhões de pixels."
@@ -599,9 +654,15 @@ msgid ""
 "format: %(cell_format)s, as (%(format_type)s) formats are not supported."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Formato de célula inválido na linha %(row)s, colunas %(col)s: "
 "%(cell_value)s, com formatos: %(cell_format)s, pois formatos "
 "(%(format_type)s) não são suportados."
+=======
+"Formato de célula inválido na linha %(row)s, colunas %(col)s: %"
+"(cell_value)s, com formatos: %(cell_format)s, pois formatos (%"
+"(format_type)s) não são suportados."
+>>>>>>> upstream/18.0
 =======
 "Formato de célula inválido na linha %(row)s, colunas %(col)s: %"
 "(cell_value)s, com formatos: %(cell_format)s, pois formatos (%"
@@ -885,7 +946,10 @@ msgstr "O arquivo será importado por lotes"
 
 #. module: base_import
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/base_import/models/base_import.py:0
 msgid ""
@@ -902,6 +966,9 @@ msgid ""
 msgstr ""
 
 #. module: base_import
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/base_import/static/src/import_model.js:0
@@ -936,7 +1003,12 @@ msgstr "Acompanhar histórico durante importação"
 #. odoo-python
 #: code:addons/base_import/models/base_import.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Unable to load \"{extension}\" file: requires Python module \"{modname}\""
+=======
+msgid ""
+"Unable to load \"{extension}\" file: requires Python module \"{modname}\""
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "Unable to load \"{extension}\" file: requires Python module \"{modname}\""
@@ -952,8 +1024,13 @@ msgid ""
 "Unsupported file format \"{}\", import only supports CSV, ODS, XLS and XLSX"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Formato de arquivo \"{}\" não suportado. A importação só é permitida para os"
 " seguintes formatos de arquivo: CSV, ODS, XLS e XLSX"
+=======
+"Formato de arquivo \"{}\" não suportado. A importação só é permitida para os "
+"seguintes formatos de arquivo: CSV, ODS, XLS e XLSX"
+>>>>>>> upstream/18.0
 =======
 "Formato de arquivo \"{}\" não suportado. A importação só é permitida para os "
 "seguintes formatos de arquivo: CSV, ODS, XLS e XLSX"
@@ -983,17 +1060,23 @@ msgstr "Carregue seus arquivos"
 msgid ""
 "Use HH for hours in a 24h system, use II in conjonction with 'p' for a 12h "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "system. You can use a custom format in addition to the suggestions provided."
 " Leave empty to let Odoo guess the format (recommended)"
 msgstr ""
 "Use HH para horas em um sistema de 24 horas, use II em conjunto com 'p' para"
 " um sistema de 12 horas (am/pm). É possível usar um formato personalizado "
 =======
+=======
+>>>>>>> upstream/18.0
 "system. You can use a custom format in addition to the suggestions provided. "
 "Leave empty to let Odoo guess the format (recommended)"
 msgstr ""
 "Use HH para horas em um sistema de 24 horas, use II em conjunto com 'p' para "
 "um sistema de 12 horas (am/pm). É possível usar um formato personalizado "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "além das sugestões fornecidas. Deixe em branco para que o Odoo adivinhe o "
 "formato (recomendado)."
@@ -1002,6 +1085,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/base_import/static/src/import_model.js:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 "Use YYYY to represent the year, MM for the month and DD for the day. Include"
 " separators such as a dot, forward slash or dash. You can use a custom "
@@ -1013,6 +1097,8 @@ msgstr ""
 "personalizado além das sugestões fornecidas. Deixe em branco para que o Odoo"
 " adivinhe o formato (recomendado)."
 =======
+=======
+>>>>>>> upstream/18.0
 "Use YYYY to represent the year, MM for the month and DD for the day. Include "
 "separators such as a dot, forward slash or dash. You can use a custom format "
 "in addition to the suggestions provided. Leave empty to let Odoo guess the "
@@ -1022,6 +1108,9 @@ msgstr ""
 "separadores, como ponto, barra ou traço. Você pode usar um formato "
 "personalizado além das sugestões fornecidas. Deixe em branco para que o Odoo "
 "adivinhe o formato (recomendado)."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: base_import

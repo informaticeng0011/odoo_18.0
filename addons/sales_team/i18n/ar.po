@@ -2,22 +2,29 @@
 # This file contains the translation of the following modules:
 # 	* sales_team
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
 # Malaz Abuidris <msea@odoo.com>, 2025
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
 # Malaz Abuidris <msea@odoo.com>, 2025
 #
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-12-16 13:40+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -29,6 +36,8 @@ msgstr ""
 "Language: ar\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-11-21 18:38+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Malaz Abuidris <msea@odoo.com>, 2025\n"
@@ -39,13 +48,22 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sales_team
 #: model_terms:ir.ui.view,arch_db:sales_team.crm_team_member_view_kanban
 #: model_terms:ir.ui.view,arch_db:sales_team.crm_team_view_form
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-envelope me-1\" role=\"img\" aria-label=\"Email\" title=\"Email\"/>"
+=======
+msgid ""
+"<i class=\"fa fa-envelope me-1\" role=\"img\" aria-label=\"Email\" "
+"title=\"Email\"/>"
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "<i class=\"fa fa-envelope me-1\" role=\"img\" aria-label=\"Email\" "
@@ -95,8 +113,12 @@ msgstr "أضف عضو فريق"
 #. module: sales_team
 #: model:ir.model.fields,help:sales_team.field_crm_team__crm_team_member_ids
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Add members to automatically assign their documents to this sales team."
+=======
+msgid "Add members to automatically assign their documents to this sales team."
+>>>>>>> upstream/18.0
 =======
 msgid "Add members to automatically assign their documents to this sales team."
 >>>>>>> upstream/18.0
@@ -265,8 +287,12 @@ msgstr "الأعضاء المفضلين"
 #. module: sales_team
 #: model:ir.model.fields,help:sales_team.field_crm_team__is_favorite
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Favorite teams to display them in the dashboard and access them easily."
+=======
+msgid "Favorite teams to display them in the dashboard and access them easily."
+>>>>>>> upstream/18.0
 =======
 msgid "Favorite teams to display them in the dashboard and access them easily."
 >>>>>>> upstream/18.0
@@ -315,8 +341,13 @@ msgid ""
 "limited to a single sales team."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "إذا كانت القيمة صحيحة، سيكون بإمكان المستخدمين أن ينتموا إلى عدة فرق مبيعات،"
 " وإلا فستكون العضوية مقتصرة على فريق مبيعات واحد. "
+=======
+"إذا كانت القيمة صحيحة، سيكون بإمكان المستخدمين أن ينتموا إلى عدة فرق مبيعات، "
+"وإلا فستكون العضوية مقتصرة على فريق مبيعات واحد. "
+>>>>>>> upstream/18.0
 =======
 "إذا كانت القيمة صحيحة، سيكون بإمكان المستخدمين أن ينتموا إلى عدة فرق مبيعات، "
 "وإلا فستكون العضوية مقتصرة على فريق مبيعات واحد. "
@@ -634,7 +665,10 @@ msgstr "الشركة الافتراضية لهذا المستخدم. "
 
 #. module: sales_team
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/sales_team/models/crm_team.py:0
 msgid ""
@@ -643,6 +677,9 @@ msgid ""
 msgstr ""
 
 #. module: sales_team
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.actions.act_window,help:sales_team.mail_activity_type_action_config_sales
 msgid ""
@@ -680,8 +717,12 @@ msgstr "نموذج رسم بياني غير محدد لفريق المبيعات
 #. module: sales_team
 #: model_terms:ir.actions.act_window,help:sales_team.crm_team_action_config
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Use Sales Teams to organize your sales departments and draw up reports."
+=======
+msgid "Use Sales Teams to organize your sales departments and draw up reports."
+>>>>>>> upstream/18.0
 =======
 msgid "Use Sales Teams to organize your sales departments and draw up reports."
 >>>>>>> upstream/18.0
@@ -713,7 +754,10 @@ msgstr "المستخدم"
 
 #. module: sales_team
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/sales_team/models/crm_team_member.py:0
 msgid ""
@@ -722,6 +766,9 @@ msgid ""
 msgstr ""
 
 #. module: sales_team
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:sales_team.field_crm_team_member__user_company_ids
 msgid "User Company"
@@ -770,8 +817,13 @@ msgstr ""
 #: code:addons/sales_team/models/crm_team_member.py:0
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You are trying to create duplicate membership(s). We found that "
 "%(duplicates)s already exist(s)."
+=======
+"You are trying to create duplicate membership(s). We found that %"
+"(duplicates)s already exist(s)."
+>>>>>>> upstream/18.0
 =======
 "You are trying to create duplicate membership(s). We found that %"
 "(duplicates)s already exist(s)."
@@ -806,8 +858,13 @@ msgstr "سيملك المستخدم صلاحية الوصول لبياناته �
 #: model:res.groups,comment:sales_team.group_sale_manager
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "the user will have an access to the sales configuration as well as statistic"
 " reports."
+=======
+"the user will have an access to the sales configuration as well as statistic "
+"reports."
+>>>>>>> upstream/18.0
 =======
 "the user will have an access to the sales configuration as well as statistic "
 "reports."

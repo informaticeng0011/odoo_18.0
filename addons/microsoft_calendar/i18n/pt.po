@@ -1,8 +1,13 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* microsoft_calendar
 # 
+=======
+# * microsoft_calendar
+#
+>>>>>>> upstream/18.0
 =======
 # * microsoft_calendar
 #
@@ -11,6 +16,7 @@
 # Rita Bastos, 2025
 # Peter Lawrence Romão <peterromao@yahoo.co.uk>, 2025
 # NumerSpiral HBG, 2025
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -595,10 +601,16 @@
 # Wil Odoo, 2025
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
+=======
+# Marta Marouço, 2025
+# Wil Odoo, 2025
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1300,6 +1312,8 @@ msgstr ""
 "Language: pt\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-07-18 18:39+0000\n"
 "PO-Revision-Date: 2025-11-21 02:31+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
@@ -1312,6 +1326,9 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % "
 "1000000 == 0) ? 1 : 2);\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: microsoft_calendar
@@ -1319,7 +1336,11 @@ msgstr ""
 #: code:addons/microsoft_calendar/models/calendar.py:0
 msgid "%(reminder_type)s - %(duration)s Days"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(reminder_type)s – %(duration)s dias"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(reminder_type)s – %(duration)s dias"
 >>>>>>> upstream/18.0
@@ -1329,7 +1350,11 @@ msgstr "%(reminder_type)s – %(duration)s dias"
 #: code:addons/microsoft_calendar/models/calendar.py:0
 msgid "%(reminder_type)s - %(duration)s Hours"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(reminder_type)s – %(duration)s horas"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(reminder_type)s – %(duration)s horas"
 >>>>>>> upstream/18.0
@@ -1339,7 +1364,11 @@ msgstr "%(reminder_type)s – %(duration)s horas"
 #: code:addons/microsoft_calendar/models/calendar.py:0
 msgid "%(reminder_type)s - %(duration)s Minutes"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(reminder_type)s – %(duration)s minutos"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(reminder_type)s – %(duration)s minutos"
 >>>>>>> upstream/18.0
@@ -1349,7 +1378,11 @@ msgstr "%(reminder_type)s – %(duration)s minutos"
 #: code:addons/microsoft_calendar/models/calendar.py:0
 msgid "%s - At time of event"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s – Na hora do evento"
+>>>>>>> upstream/18.0
 =======
 msgstr "%s – Na hora do evento"
 >>>>>>> upstream/18.0
@@ -1359,7 +1392,11 @@ msgstr "%s – Na hora do evento"
 #: code:addons/microsoft_calendar/models/calendar.py:0
 msgid "(No title)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "(Sem título)"
+>>>>>>> upstream/18.0
 =======
 msgstr "(Sem título)"
 >>>>>>> upstream/18.0
@@ -1379,6 +1416,11 @@ msgid ""
 "use it!"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Um administrador deve configurar a sincronização do Outlook antes que você "
+"possa usá-la."
+>>>>>>> upstream/18.0
 =======
 "Um administrador deve configurar a sincronização do Outlook antes que você "
 "possa usá-la."
@@ -1394,18 +1436,28 @@ msgid ""
 "calendar synchronisation."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "Houve um erro ao gerar o token. Seu código de autorização pode ser inválido "
 "ou pode já ter expirado [%s]. Você deve verificar seu ID e segredo de "
 "cliente no portal do Microsoft Azure ou tentar interromper e reiniciar a "
 "sincronização do calendário."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: microsoft_calendar
 #: model:ir.model,name:microsoft_calendar.model_calendar_attendee
 msgid "Calendar Attendee Information"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Informações do participante no calendário"
+>>>>>>> upstream/18.0
 =======
 msgstr "Informações do participante no calendário"
 >>>>>>> upstream/18.0
@@ -1466,7 +1518,11 @@ msgstr "Criado em"
 #: model:ir.model.fields.selection,name:microsoft_calendar.selection__microsoft_calendar_account_reset__delete_policy__delete_odoo
 msgid "Delete from Odoo"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Excluir do Odoo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Excluir do Odoo"
 >>>>>>> upstream/18.0
@@ -1475,7 +1531,11 @@ msgstr "Excluir do Odoo"
 #: model:ir.model.fields.selection,name:microsoft_calendar.selection__microsoft_calendar_account_reset__delete_policy__delete_both
 msgid "Delete from both"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Excluir de ambos"
+>>>>>>> upstream/18.0
 =======
 msgstr "Excluir de ambos"
 >>>>>>> upstream/18.0
@@ -1484,7 +1544,11 @@ msgstr "Excluir de ambos"
 #: model:ir.model.fields.selection,name:microsoft_calendar.selection__microsoft_calendar_account_reset__delete_policy__delete_microsoft
 msgid "Delete from the current Microsoft Calendar account"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Excluir da conta atual do Calendário Microsoft"
+>>>>>>> upstream/18.0
 =======
 msgstr "Excluir da conta atual do Calendário Microsoft"
 >>>>>>> upstream/18.0
@@ -1508,6 +1572,11 @@ msgid ""
 "directly in Outlook Calendar."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Devido a uma limitação do Calendário do Outlook, as atualizações de "
+"recorrência devem ser feitas diretamente no Calendário do Outlook."
+>>>>>>> upstream/18.0
 =======
 "Devido a uma limitação do Calendário do Outlook, as atualizações de "
 "recorrência devem ser feitas diretamente no Calendário do Outlook."
@@ -1521,11 +1590,17 @@ msgid ""
 "If this recurrence is not shown in Outlook Calendar, you must delete it in Odoo Calendar and recreate it in Outlook Calendar."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "Devido a uma limitação do Calendário do Outlook, as atualizações de "
 "recorrência devem ser feitas diretamente no Calendário do Outlook.\n"
 "Se essa recorrência não for mostrada no Calendário do Outlook, você deverá "
 "excluí-la no Calendário do Odoo e recriá-la no Calendário do Outlook."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: microsoft_calendar
@@ -1536,6 +1611,7 @@ msgid ""
 "directly in Outlook Calendar."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #. module: microsoft_calendar
 <<<<<<< HEAD
@@ -1857,16 +1933,22 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "Devido a uma limitação do Calendário do Outlook, os eventos recorrentes "
 "devem ser criados diretamente no Calendário do Outlook."
 
 #. module: microsoft_calendar
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model,name:microsoft_calendar.model_calendar_alarm_manager
 msgid "Event Alarm Manager"
 msgstr "Gestor de Alarmes do Evento"
 
 #. module: microsoft_calendar
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2206,6 +2288,11 @@ msgstr ""
 msgid "Event Recurrence Rule"
 msgstr "Regra de recorrência de evento"
 >>>>>>> upstream/18.0
+=======
+#: model:ir.model,name:microsoft_calendar.model_calendar_recurrence
+msgid "Event Recurrence Rule"
+msgstr "Regra de recorrência de evento"
+>>>>>>> upstream/18.0
 
 #. module: microsoft_calendar
 #. odoo-python
@@ -2216,13 +2303,19 @@ msgid ""
 "%(invalid_events)s"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "Para uma sincronização correta entre o Odoo e o Outlook Calendar, todos os "
 "participantes devem ter um endereço de e-mail. No entanto, alguns eventos "
 "não respeitam essa condição. Enquanto os eventos estiverem incorretos, os "
 "calendários não serão sincronizados.\n"
 "Atualize os eventos/participantes ou arquive esses eventos%(details)s:\n"
 "%(invalid_events)s"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: microsoft_calendar
@@ -2233,6 +2326,12 @@ msgid ""
 "organizer have its Odoo Calendar synced with Outlook Calendar."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Para ter um organizador diferente em seu evento, é necessário que o "
+"organizador tenha seu Calendário do Odoo sincronizado com o Calendário do "
+"Outlook."
+>>>>>>> upstream/18.0
 =======
 "Para ter um organizador diferente em seu evento, é necessário que o "
 "organizador tenha seu Calendário do Odoo sincronizado com o Calendário do "
@@ -2258,6 +2357,10 @@ msgstr ""
 msgid "Indicates if synchronization with Outlook Calendar is paused or not."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Indica se a sincronização com o Calendário do Outlook está pausada ou não."
+>>>>>>> upstream/18.0
 =======
 "Indica se a sincronização com o Calendário do Outlook está pausada ou não."
 >>>>>>> upstream/18.0
@@ -2270,6 +2373,11 @@ msgid ""
 "event."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"É necessário adicionar o organizador proposto como participante antes de "
+"salvar o evento."
+>>>>>>> upstream/18.0
 =======
 "É necessário adicionar o organizador proposto como participante antes de "
 "salvar o evento."
@@ -2280,7 +2388,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:microsoft_calendar.field_res_users_settings__microsoft_last_sync_date
 msgid "Last Sync Date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Data da última sincronização"
+>>>>>>> upstream/18.0
 =======
 msgstr "Data da última sincronização"
 >>>>>>> upstream/18.0
@@ -2289,7 +2401,11 @@ msgstr "Data da última sincronização"
 #: model_terms:ir.ui.view,arch_db:microsoft_calendar.view_users_form
 msgid "Last Sync Time"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hora da última sincronização"
+>>>>>>> upstream/18.0
 =======
 msgstr "Hora da última sincronização"
 >>>>>>> upstream/18.0
@@ -2309,7 +2425,11 @@ msgstr "Última Atualização em"
 #: model:ir.model.fields,help:microsoft_calendar.field_res_users_settings__microsoft_last_sync_date
 msgid "Last synchronization date with Outlook Calendar"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Data da última sincronização com o Calendário do Outlook"
+>>>>>>> upstream/18.0
 =======
 msgstr "Data da última sincronização com o Calendário do Outlook"
 >>>>>>> upstream/18.0
@@ -2318,7 +2438,11 @@ msgstr "Data da última sincronização com o Calendário do Outlook"
 #: model:ir.model.fields.selection,name:microsoft_calendar.selection__microsoft_calendar_account_reset__delete_policy__dont_delete
 msgid "Leave them untouched"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Não mexer"
+>>>>>>> upstream/18.0
 =======
 msgstr "Não mexer"
 >>>>>>> upstream/18.0
@@ -2328,7 +2452,11 @@ msgstr "Não mexer"
 #: model:ir.model,name:microsoft_calendar.model_microsoft_calendar_account_reset
 msgid "Microsoft Calendar Account Reset"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Redefinir conta do Calendário Microsoft"
+>>>>>>> upstream/18.0
 =======
 msgstr "Redefinir conta do Calendário Microsoft"
 >>>>>>> upstream/18.0
@@ -2337,7 +2465,11 @@ msgstr "Redefinir conta do Calendário Microsoft"
 #: model:ir.model.fields,field_description:microsoft_calendar.field_res_config_settings__cal_microsoft_client_id
 msgid "Microsoft Client_id"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Microsoft Client_id"
+>>>>>>> upstream/18.0
 =======
 msgstr "Microsoft Client_id"
 >>>>>>> upstream/18.0
@@ -2346,7 +2478,11 @@ msgstr "Microsoft Client_id"
 #: model:ir.model.fields,field_description:microsoft_calendar.field_res_config_settings__cal_microsoft_client_secret
 msgid "Microsoft Client_key"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Microsoft Client_key"
+>>>>>>> upstream/18.0
 =======
 msgstr "Microsoft Client_key"
 >>>>>>> upstream/18.0
@@ -2356,7 +2492,11 @@ msgstr "Microsoft Client_key"
 #: model:ir.model.fields,field_description:microsoft_calendar.field_res_users_settings__microsoft_calendar_sync_token
 msgid "Microsoft Next Sync Token"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Token do Microsoft Next Sync"
+>>>>>>> upstream/18.0
 =======
 msgstr "Token do Microsoft Next Sync"
 >>>>>>> upstream/18.0
@@ -2365,7 +2505,11 @@ msgstr "Token do Microsoft Next Sync"
 #: model:ir.model.fields,field_description:microsoft_calendar.field_calendar_event__microsoft_recurrence_master_id
 msgid "Microsoft Recurrence Master Id"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ID mestre da Microsoft para a recorrência"
+>>>>>>> upstream/18.0
 =======
 msgstr "ID mestre da Microsoft para a recorrência"
 >>>>>>> upstream/18.0
@@ -2374,7 +2518,11 @@ msgstr "ID mestre da Microsoft para a recorrência"
 #: model:ir.model.fields,field_description:microsoft_calendar.field_res_config_settings__cal_microsoft_sync_paused
 msgid "Microsoft Synchronization Paused"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pausa na sincronização da Microsoft"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pausa na sincronização da Microsoft"
 >>>>>>> upstream/18.0
@@ -2385,7 +2533,11 @@ msgstr "Pausa na sincronização da Microsoft"
 #: model:ir.model.fields,field_description:microsoft_calendar.field_microsoft_calendar_sync__need_sync_m
 msgid "Need Sync M"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Necessita sincronização M"
+>>>>>>> upstream/18.0
 =======
 msgstr "Necessita sincronização M"
 >>>>>>> upstream/18.0
@@ -2394,7 +2546,11 @@ msgstr "Necessita sincronização M"
 #: model_terms:ir.ui.view,arch_db:microsoft_calendar.view_users_form
 msgid "Next Sync Token"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Token da próxima sincronização"
+>>>>>>> upstream/18.0
 =======
 msgstr "Token da próxima sincronização"
 >>>>>>> upstream/18.0
@@ -2416,7 +2572,11 @@ msgstr "Notificação"
 #: model:ir.model.fields,field_description:microsoft_calendar.field_microsoft_calendar_sync__microsoft_id
 msgid "Organizer event Id"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ID do evento do organizador"
+>>>>>>> upstream/18.0
 =======
 msgstr "ID do evento do organizador"
 >>>>>>> upstream/18.0
@@ -2431,7 +2591,11 @@ msgstr "Outlook"
 #: model_terms:ir.ui.view,arch_db:microsoft_calendar.view_users_form
 msgid "Outlook Calendar"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Calendário Outlook"
+>>>>>>> upstream/18.0
 =======
 msgstr "Calendário Outlook"
 >>>>>>> upstream/18.0
@@ -2441,7 +2605,11 @@ msgstr "Calendário Outlook"
 #: model:ir.model.fields,field_description:microsoft_calendar.field_res_users_settings__microsoft_synchronization_stopped
 msgid "Outlook Synchronization stopped"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sincronização do Outlook interrompida"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sincronização do Outlook interrompida"
 >>>>>>> upstream/18.0
@@ -2455,6 +2623,12 @@ msgid ""
 "the following event."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Limitação do Outlook: em uma recorrência, um evento não pode ser movido para "
+"ou antes do dia do evento anterior e não pode ser movido para ou depois do "
+"dia do evento seguinte."
+>>>>>>> upstream/18.0
 =======
 "Limitação do Outlook: em uma recorrência, um evento não pode ser movido para "
 "ou antes do dia do evento anterior e não pode ser movido para ou depois do "
@@ -2465,7 +2639,11 @@ msgstr ""
 #: model:ir.actions.server,name:microsoft_calendar.ir_cron_sync_all_cals_ir_actions_server
 msgid "Outlook: synchronization"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Outlook: sincronização"
+>>>>>>> upstream/18.0
 =======
 msgstr "Outlook: sincronização"
 >>>>>>> upstream/18.0
@@ -2474,7 +2652,11 @@ msgstr "Outlook: sincronização"
 #: model_terms:ir.ui.view,arch_db:microsoft_calendar.res_config_settings_view_form
 msgid "Pause Synchronization"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pausar sincronização"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pausar sincronização"
 >>>>>>> upstream/18.0
@@ -2488,7 +2670,11 @@ msgstr "Atualizar Código"
 #: model_terms:ir.ui.view,arch_db:microsoft_calendar.view_users_form
 msgid "Reset Account"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Redefinir conta"
+>>>>>>> upstream/18.0
 =======
 msgstr "Redefinir conta"
 >>>>>>> upstream/18.0
@@ -2497,7 +2683,11 @@ msgstr "Redefinir conta"
 #: model_terms:ir.ui.view,arch_db:microsoft_calendar.microsoft_calendar_reset_account_view_form
 msgid "Reset Outlook Calendar Account"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Redefinir conta do Calendário Outlook"
+>>>>>>> upstream/18.0
 =======
 msgstr "Redefinir conta do Calendário Outlook"
 >>>>>>> upstream/18.0
@@ -2506,7 +2696,11 @@ msgstr "Redefinir conta do Calendário Outlook"
 #: model:ir.model,name:microsoft_calendar.model_microsoft_calendar_sync
 msgid "Synchronize a record with Microsoft Calendar"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sincronize um registro com o Calendário Microsoft"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sincronize um registro com o Calendário Microsoft"
 >>>>>>> upstream/18.0
@@ -2515,7 +2709,11 @@ msgstr "Sincronize um registro com o Calendário Microsoft"
 #: model:ir.model.fields.selection,name:microsoft_calendar.selection__microsoft_calendar_account_reset__sync_policy__all
 msgid "Synchronize all existing events"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sincronizar todos os eventos existentes"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sincronizar todos os eventos existentes"
 >>>>>>> upstream/18.0
@@ -2524,7 +2722,11 @@ msgstr "Sincronizar todos os eventos existentes"
 #: model:ir.model.fields.selection,name:microsoft_calendar.selection__microsoft_calendar_account_reset__sync_policy__new
 msgid "Synchronize only new events"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sincronizar apenas novos eventos"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sincronizar apenas novos eventos"
 >>>>>>> upstream/18.0
@@ -2537,6 +2739,11 @@ msgid ""
 " you want to do it now?"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"A sincronização do Outlook precisa ser configurada antes que você possa usá-"
+"la. Deseja fazer isso agora?"
+>>>>>>> upstream/18.0
 =======
 "A sincronização do Outlook precisa ser configurada antes que você possa usá-"
 "la. Deseja fazer isso agora?"
@@ -2546,7 +2753,11 @@ msgstr ""
 #: model:ir.model.fields,help:microsoft_calendar.field_microsoft_calendar_account_reset__delete_policy
 msgid "This will only affect events for which the user is the owner"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Isso afetará apenas os eventos dos quais o usuário é o proprietário"
+>>>>>>> upstream/18.0
 =======
 msgstr "Isso afetará apenas os eventos dos quais o usuário é o proprietário"
 >>>>>>> upstream/18.0
@@ -2562,7 +2773,11 @@ msgstr "Validação do Código"
 #: model:ir.model.fields,field_description:microsoft_calendar.field_microsoft_calendar_sync__ms_universal_event_id
 msgid "Universal event Id"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ID universal do evento"
+>>>>>>> upstream/18.0
 =======
 msgstr "ID universal do evento"
 >>>>>>> upstream/18.0
@@ -2582,7 +2797,11 @@ msgstr "Configurações do Utilizador"
 #: model_terms:ir.ui.view,arch_db:microsoft_calendar.view_users_form
 msgid "User Token"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Token do usuário"
+>>>>>>> upstream/18.0
 =======
 msgstr "Token do usuário"
 >>>>>>> upstream/18.0
@@ -2591,7 +2810,11 @@ msgstr "Token do usuário"
 #: model:ir.model.fields,field_description:microsoft_calendar.field_microsoft_calendar_account_reset__delete_policy
 msgid "User's Existing Events"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Eventos existentes do usuário"
+>>>>>>> upstream/18.0
 =======
 msgstr "Eventos existentes do usuário"
 >>>>>>> upstream/18.0

@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* sale_loyalty
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -199,11 +200,16 @@
 # * sale_loyalty
 #
 >>>>>>> upstream/18.0
+=======
+# * sale_loyalty
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Rita Bastos, 2025
 # NumerSpiral HBG, 2025
 # Wil Odoo, 2025
 # Peter Lawrence Romão <peterromao@yahoo.co.uk>, 2025
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -873,10 +879,16 @@
 # Maitê Dietze, 2025
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
+=======
+# Daniel Reis, 2025
+# Maitê Dietze, 2025
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1375,16 +1387,22 @@ msgstr ""
 "Last-Translator: Maitê Dietze, 2025\n"
 "Language-Team: Portuguese (https://app.transifex.com/odoo/teams/41243/pt/)\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-10-03 18:39+0000\n"
 "PO-Revision-Date: 2025-11-18 13:13+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Portuguese <https://translate.odoo.com/projects/odoo-18/"
 "sale_loyalty/pt/>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % "
 "1000000 == 0 ? 1 : 2;\n"
@@ -1535,13 +1553,22 @@ msgstr ""
 "1000000 == 0) ? 1 : 2);\n"
 "X-Generator: Weblate 5.12.2\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % "
+"1000000 == 0) ? 1 : 2);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty
 #. odoo-python
 #: code:addons/sale_loyalty/models/sale_order.py:0
 msgid " - On products with the following taxes: %(taxes)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr " - Nos produtos com os seguintes impostos: %(taxes)s"
+>>>>>>> upstream/18.0
 =======
 msgstr " - Nos produtos com os seguintes impostos: %(taxes)s"
 >>>>>>> upstream/18.0
@@ -1550,7 +1577,11 @@ msgstr " - Nos produtos com os seguintes impostos: %(taxes)s"
 #: model_terms:ir.ui.view,arch_db:sale_loyalty.sale_purchased_gift_card
 msgid "<span class=\"fa fa-clipboard\"/> Copy"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"fa fa-clipboard\"/> Cópia"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"fa fa-clipboard\"/> Cópia"
 >>>>>>> upstream/18.0
@@ -1559,7 +1590,11 @@ msgstr "<span class=\"fa fa-clipboard\"/> Cópia"
 #: model_terms:ir.ui.view,arch_db:sale_loyalty.sale_order_portal_loyalty_content
 msgid "<strong>Loyalty Card</strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Cartão-fidelidade</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Cartão-fidelidade</strong>"
 >>>>>>> upstream/18.0
@@ -1651,7 +1686,11 @@ msgid "A better global discount is already applied."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Já foi aplicado um desconto global melhor."
+>>>>>>> upstream/18.0
 =======
 msgstr "Já foi aplicado um desconto global melhor."
 >>>>>>> upstream/18.0
@@ -1909,6 +1948,11 @@ msgid ""
 "A minimum of %(amount)s %(currency)s should be purchased to get the reward"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Um mínimo de %(amount)s %(currency)s deve ser comprado para obter a "
+"recompensa"
+>>>>>>> upstream/18.0
 =======
 "Um mínimo de %(amount)s %(currency)s deve ser comprado para obter a "
 "recompensa"
@@ -1924,7 +1968,11 @@ msgstr "Aplicar"
 #: model:ir.actions.act_window,name:sale_loyalty.sale_loyalty_reward_wizard_action
 msgid "Available Rewards"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Recompensas disponíveis"
+>>>>>>> upstream/18.0
 =======
 msgstr "Recompensas disponíveis"
 >>>>>>> upstream/18.0
@@ -1933,7 +1981,11 @@ msgstr "Recompensas disponíveis"
 #: model_terms:ir.ui.view,arch_db:sale_loyalty.sale_loyalty_reward_wizard_view_form
 msgid "Choose a product:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Escolha um produto:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Escolha um produto:"
 >>>>>>> upstream/18.0
@@ -1942,7 +1994,11 @@ msgstr "Escolha um produto:"
 #: model_terms:ir.ui.view,arch_db:sale_loyalty.sale_loyalty_reward_wizard_view_form
 msgid "Choose your reward:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Escolha a sua recompensa:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Escolha a sua recompensa:"
 >>>>>>> upstream/18.0
@@ -1968,7 +2024,11 @@ msgstr "Código do Coupon"
 #: model:ir.model.fields,field_description:sale_loyalty.field_sale_order__coupon_point_ids
 msgid "Coupon Point"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ponto de cupom"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ponto de cupom"
 >>>>>>> upstream/18.0
@@ -1978,7 +2038,11 @@ msgstr "Ponto de cupom"
 #: code:addons/sale_loyalty/wizard/sale_loyalty_reward_wizard.py:0
 msgid "Coupon not found while trying to add the following reward: %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cupom não encontrado ao tentar adicionar a seguinte recompensa: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cupom não encontrado ao tentar adicionar a seguinte recompensa: %s"
 >>>>>>> upstream/18.0
@@ -2108,7 +2172,11 @@ msgid "Coupons & Loyalty"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cupões e Fidelidade"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cupões e Fidelidade"
 >>>>>>> upstream/18.0
@@ -2583,7 +2651,11 @@ msgid "Discount %(desc)s%(tax_str)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Desconto %(desc)s%(tax_str)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Desconto %(desc)s%(tax_str)s"
 >>>>>>> upstream/18.0
@@ -2920,7 +2992,11 @@ msgid "Discount & Loyalty"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Desconto e fidelidade"
+>>>>>>> upstream/18.0
 =======
 msgstr "Desconto e fidelidade"
 >>>>>>> upstream/18.0
@@ -3182,7 +3258,11 @@ msgstr "Nome a Exibir"
 #: model:ir.actions.act_window,name:sale_loyalty.sale_loyalty_coupon_wizard_action
 msgid "Enter Promotion or Coupon Code"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Insira a promoção ou o código do cupom"
+>>>>>>> upstream/18.0
 =======
 msgstr "Insira a promoção ou o código do cupom"
 >>>>>>> upstream/18.0
@@ -3190,6 +3270,7 @@ msgstr "Insira a promoção ou o código do cupom"
 #. module: sale_loyalty
 #: model_terms:ir.ui.view,arch_db:sale_loyalty.used_gift_card
 msgid "Expired Date:"
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgstr ""
 
@@ -3348,19 +3429,28 @@ msgstr ""
 msgid "Gift #"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Data de expiração:"
 
 #. module: sale_loyalty
 #: model_terms:ir.ui.view,arch_db:sale_loyalty.sale_purchased_gift_card
 msgid "Gift #"
 msgstr "Presente nº"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sale_loyalty
 #: model_terms:ir.ui.view,arch_db:sale_loyalty.sale_purchased_gift_card
 msgid "Gift Card Code"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Código do vale-presente"
+>>>>>>> upstream/18.0
 =======
 msgstr "Código do vale-presente"
 >>>>>>> upstream/18.0
@@ -3369,7 +3459,11 @@ msgstr "Código do vale-presente"
 #: model:ir.ui.menu,name:sale_loyalty.menu_gift_ewallet_type_config
 msgid "Gift cards & eWallet"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cartões-presente e carteira digital"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cartões-presente e carteira digital"
 >>>>>>> upstream/18.0
@@ -3378,7 +3472,11 @@ msgstr "Cartões-presente e carteira digital"
 #: model:ir.model,name:sale_loyalty.model_loyalty_history
 msgid "History for Loyalty cards and Ewallets"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Histórico de cartões de fidelidade e e-Wallets"
+>>>>>>> upstream/18.0
 =======
 msgstr "Histórico de cartões de fidelidade e e-Wallets"
 >>>>>>> upstream/18.0
@@ -3387,7 +3485,11 @@ msgstr "Histórico de cartões de fidelidade e e-Wallets"
 #: model:ir.model.fields,help:sale_loyalty.field_sale_order_line__points_cost
 msgid "How much point this reward costs on the loyalty card."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Quantos pontos essa recompensa custa no cartão de fidelidade."
+>>>>>>> upstream/18.0
 =======
 msgstr "Quantos pontos essa recompensa custa no cartão de fidelidade."
 >>>>>>> upstream/18.0
@@ -3404,7 +3506,11 @@ msgstr "Id."
 #: code:addons/sale_loyalty/models/sale_order.py:0
 msgid "Invalid product to claim."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Produto inválido para reivindicação."
+>>>>>>> upstream/18.0
 =======
 msgstr "Produto inválido para reivindicação."
 >>>>>>> upstream/18.0
@@ -3414,7 +3520,11 @@ msgstr "Produto inválido para reivindicação."
 #: code:addons/sale_loyalty/wizard/sale_loyalty_coupon_wizard.py:0
 msgid "Invalid sales order."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pedido de venda inválido."
+>>>>>>> upstream/18.0
 =======
 msgstr "Pedido de venda inválido."
 >>>>>>> upstream/18.0
@@ -3423,7 +3533,11 @@ msgstr "Pedido de venda inválido."
 #: model:ir.model.fields,field_description:sale_loyalty.field_sale_order_line__is_reward_line
 msgid "Is a program reward line"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "É uma linha de recompensa do programa"
+>>>>>>> upstream/18.0
 =======
 msgstr "É uma linha de recompensa do programa"
 >>>>>>> upstream/18.0
@@ -3432,7 +3546,11 @@ msgstr "É uma linha de recompensa do programa"
 #: model_terms:ir.ui.view,arch_db:sale_loyalty.sale_order_portal_loyalty_content
 msgid "Issued"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Emitido"
+>>>>>>> upstream/18.0
 =======
 msgstr "Emitido"
 >>>>>>> upstream/18.0
@@ -3442,7 +3560,11 @@ msgstr "Emitido"
 #: code:addons/sale_loyalty/static/src/views/fields/loyalty_total/loyalty_data_field.xml:0
 msgid "Issued :"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Emitido:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Emitido:"
 >>>>>>> upstream/18.0
@@ -3466,7 +3588,11 @@ msgstr "Última Atualização em"
 #: code:addons/sale_loyalty/static/src/views/fields/loyalty_total/loyalty_data_field.xml:0
 msgid "Loyalty Card :"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cartão-fidelidade:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cartão-fidelidade:"
 >>>>>>> upstream/18.0
@@ -3475,7 +3601,11 @@ msgstr "Cartão-fidelidade:"
 #: model:ir.model,name:sale_loyalty.model_loyalty_card
 msgid "Loyalty Coupon"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cupom de fidelidade"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cupom de fidelidade"
 >>>>>>> upstream/18.0
@@ -3484,7 +3614,11 @@ msgstr "Cupom de fidelidade"
 #: model:ir.model.fields,field_description:sale_loyalty.field_sale_order__loyalty_data
 msgid "Loyalty Data"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dados de fidelidade"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dados de fidelidade"
 >>>>>>> upstream/18.0
@@ -3503,7 +3637,11 @@ msgstr "Prémio de Fidelização"
 #: model:ir.model.fields,field_description:sale_loyalty.field_sale_order__applied_coupon_ids
 msgid "Manually Applied Coupons"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cupons aplicados manualmente"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cupons aplicados manualmente"
 >>>>>>> upstream/18.0
@@ -3512,7 +3650,11 @@ msgstr "Cupons aplicados manualmente"
 #: model:ir.model.fields,field_description:sale_loyalty.field_sale_order__code_enabled_rule_ids
 msgid "Manually Triggered Rules"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Regras acionadas manualmente"
+>>>>>>> upstream/18.0
 =======
 msgstr "Regras acionadas manualmente"
 >>>>>>> upstream/18.0
@@ -3521,7 +3663,11 @@ msgstr "Regras acionadas manualmente"
 #: model:ir.model.fields,field_description:sale_loyalty.field_sale_loyalty_reward_wizard__multi_product_reward
 msgid "Multi Product"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Multiproduto"
+>>>>>>> upstream/18.0
 =======
 msgstr "Multiproduto"
 >>>>>>> upstream/18.0
@@ -3530,6 +3676,7 @@ msgstr "Multiproduto"
 #. odoo-python
 #: code:addons/sale_loyalty/models/sale_order.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3775,11 +3922,16 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "No card found for this loyalty program and no points will be given with this "
 "order."
 msgstr ""
 "Nenhum cartão foi encontrado para esse programa de fidelidade e nenhum ponto "
 "será fornecido com esse pedido."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sale_loyalty
@@ -3787,7 +3939,11 @@ msgstr ""
 #: code:addons/sale_loyalty/wizard/sale_loyalty_reward_wizard.py:0
 msgid "No reward selected."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nenhuma recompensa selecionada."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nenhuma recompensa selecionada."
 >>>>>>> upstream/18.0
@@ -3796,7 +3952,11 @@ msgstr "Nenhuma recompensa selecionada."
 #: model_terms:ir.ui.view,arch_db:sale_loyalty.sale_loyalty_reward_wizard_view_form
 msgid "No rewards available for this customer!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Não há recompensas disponíveis para esse cliente."
+>>>>>>> upstream/18.0
 =======
 msgstr "Não há recompensas disponíveis para esse cliente."
 >>>>>>> upstream/18.0
@@ -3807,6 +3967,11 @@ msgstr "Não há recompensas disponíveis para esse cliente."
 msgid "One or more rewards on the sale order is invalid. Please check them."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Uma ou mais recompensas no pedido de venda são inválidas. Por favor, "
+"verifique-as."
+>>>>>>> upstream/18.0
 =======
 "Uma ou mais recompensas no pedido de venda são inválidas. Por favor, "
 "verifique-as."
@@ -3824,7 +3989,11 @@ msgstr "Ordem"
 #: code:addons/sale_loyalty/models/sale_order.py:0
 msgid "Order %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pedido %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pedido %s"
 >>>>>>> upstream/18.0
@@ -3833,7 +4002,11 @@ msgstr "Pedido %s"
 #: model:ir.model.fields,field_description:sale_loyalty.field_loyalty_program__order_count
 msgid "Order Count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Contagem de pedidos"
+>>>>>>> upstream/18.0
 =======
 msgstr "Contagem de pedidos"
 >>>>>>> upstream/18.0
@@ -3979,7 +4152,11 @@ msgid "Points"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pontos"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pontos"
 >>>>>>> upstream/18.0
@@ -4378,7 +4555,11 @@ msgstr "Pontos"
 #: model:ir.model.fields,field_description:sale_loyalty.field_sale_order_line__points_cost
 msgid "Points Cost"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Custo de pontos"
+>>>>>>> upstream/18.0
 =======
 msgstr "Custo de pontos"
 >>>>>>> upstream/18.0
@@ -4394,7 +4575,11 @@ msgstr "Recompensa"
 #: model:ir.model.fields,field_description:sale_loyalty.field_sale_order__reward_amount
 msgid "Reward Amount"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Valor da recompensa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Valor da recompensa"
 >>>>>>> upstream/18.0
@@ -4403,7 +4588,11 @@ msgstr "Valor da recompensa"
 #: model:ir.model.fields,field_description:sale_loyalty.field_sale_order_line__reward_identifier_code
 msgid "Reward Identifier Code"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Código de identificação da recompensa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Código de identificação da recompensa"
 >>>>>>> upstream/18.0
@@ -4412,7 +4601,11 @@ msgstr "Código de identificação da recompensa"
 #: model:ir.model.fields,field_description:sale_loyalty.field_sale_loyalty_reward_wizard__reward_product_ids
 msgid "Reward Products"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Produto de recompensa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Produto de recompensa"
 >>>>>>> upstream/18.0
@@ -4421,7 +4614,11 @@ msgstr "Produto de recompensa"
 #: model:ir.model,name:sale_loyalty.model_sale_loyalty_coupon_wizard
 msgid "Sale Loyalty - Apply Coupon Wizard"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Assistente de fidelidade de vendas - aplicação de cupom"
+>>>>>>> upstream/18.0
 =======
 msgstr "Assistente de fidelidade de vendas - aplicação de cupom"
 >>>>>>> upstream/18.0
@@ -4430,7 +4627,11 @@ msgstr "Assistente de fidelidade de vendas - aplicação de cupom"
 #: model:ir.model,name:sale_loyalty.model_sale_loyalty_reward_wizard
 msgid "Sale Loyalty - Reward Selection Wizard"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Assistente de fidelidade de vendas - seleção de recompensa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Assistente de fidelidade de vendas - seleção de recompensa"
 >>>>>>> upstream/18.0
@@ -4441,6 +4642,11 @@ msgid ""
 "Sale Order Coupon Points - Keeps track of how a sale order impacts a coupon"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Pontos de cupom de pedido de venda - Mantém o controle de como um pedido de "
+"venda afeta um cupom"
+>>>>>>> upstream/18.0
 =======
 "Pontos de cupom de pedido de venda - Mantém o controle de como um pedido de "
 "venda afeta um cupom"
@@ -4465,7 +4671,11 @@ msgstr "Linhas da Ordem de Venda"
 #: model:ir.model.fields,field_description:sale_loyalty.field_sale_loyalty_reward_wizard__selected_product_id
 msgid "Selected Product"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Produto selecionado"
+>>>>>>> upstream/18.0
 =======
 msgstr "Produto selecionado"
 >>>>>>> upstream/18.0
@@ -4474,7 +4684,11 @@ msgstr "Produto selecionado"
 #: model:ir.model.fields,field_description:sale_loyalty.field_sale_loyalty_reward_wizard__selected_reward_id
 msgid "Selected Reward"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Recompensa selecionada"
+>>>>>>> upstream/18.0
 =======
 msgstr "Recompensa selecionada"
 >>>>>>> upstream/18.0
@@ -4566,7 +4780,11 @@ msgid "TEMPORARY DISCOUNT LINE"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "LINHA DE DESCONTO TEMPORÁRIA"
+>>>>>>> upstream/18.0
 =======
 msgstr "LINHA DE DESCONTO TEMPORÁRIA"
 >>>>>>> upstream/18.0
@@ -4824,6 +5042,11 @@ msgid ""
 "together."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Campo técnico usado para vincular várias linhas de recompensa da mesma "
+"recompensa."
+>>>>>>> upstream/18.0
 =======
 "Campo técnico usado para vincular várias linhas de recompensa da mesma "
 "recompensa."
@@ -4834,7 +5057,11 @@ msgstr ""
 #: code:addons/sale_loyalty/models/sale_order.py:0
 msgid "The coupon can only be claimed on future orders."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "O cupom só pode ser utilizado em pedidos futuros."
+>>>>>>> upstream/18.0
 =======
 msgstr "O cupom só pode ser utilizado em pedidos futuros."
 >>>>>>> upstream/18.0
@@ -4844,7 +5071,11 @@ msgstr "O cupom só pode ser utilizado em pedidos futuros."
 #: code:addons/sale_loyalty/models/sale_order.py:0
 msgid "The coupon does not have enough points for the selected reward."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "O cupom não tem pontos suficientes para a recompensa selecionada."
+>>>>>>> upstream/18.0
 =======
 msgstr "O cupom não tem pontos suficientes para a recompensa selecionada."
 >>>>>>> upstream/18.0
@@ -4853,7 +5084,11 @@ msgstr "O cupom não tem pontos suficientes para a recompensa selecionada."
 #: model:ir.model.constraint,message:sale_loyalty.constraint_sale_order_coupon_points_order_coupon_unique
 msgid "The coupon points entry already exists."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "A entrada de pontos de cupom já existe."
+>>>>>>> upstream/18.0
 =======
 msgstr "A entrada de pontos de cupom já existe."
 >>>>>>> upstream/18.0
@@ -4863,7 +5098,11 @@ msgstr "A entrada de pontos de cupom já existe."
 #: code:addons/sale_loyalty/models/sale_order.py:0
 msgid "The program is not available for this order."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "O programa não está disponível para esse pedido."
+>>>>>>> upstream/18.0
 =======
 msgstr "O programa não está disponível para esse pedido."
 >>>>>>> upstream/18.0
@@ -4872,7 +5111,11 @@ msgstr "O programa não está disponível para esse pedido."
 #: model:ir.model.fields,help:sale_loyalty.field_loyalty_card__order_id
 msgid "The sales order from which coupon is generated"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "O pedido de venda a partir do qual o cupom é gerado"
+>>>>>>> upstream/18.0
 =======
 msgstr "O pedido de venda a partir do qual o cupom é gerado"
 >>>>>>> upstream/18.0
@@ -4964,7 +5207,11 @@ msgid "There is nothing to discount"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Não há nada para descontar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Não há nada para descontar"
 >>>>>>> upstream/18.0
@@ -5219,7 +5466,11 @@ msgstr "Não há nada para descontar"
 #: model:ir.model.fields,help:sale_loyalty.field_sale_loyalty_reward_wizard__reward_product_ids
 msgid "These are the products that can be claimed with this rule."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Esses são os produtos que podem ser reivindicados com essa regra."
+>>>>>>> upstream/18.0
 =======
 msgstr "Esses são os produtos que podem ser reivindicados com essa regra."
 >>>>>>> upstream/18.0
@@ -5229,7 +5480,11 @@ msgstr "Esses são os produtos que podem ser reivindicados com essa regra."
 #: code:addons/sale_loyalty/models/sale_order.py:0
 msgid "This code is expired (%s)."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Esse código expirou (%s)."
+>>>>>>> upstream/18.0
 =======
 msgstr "Esse código expirou (%s)."
 >>>>>>> upstream/18.0
@@ -5239,7 +5494,11 @@ msgstr "Esse código expirou (%s)."
 #: code:addons/sale_loyalty/models/sale_order.py:0
 msgid "This code is invalid (%s)."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Este cupom é inválido (%s)."
+>>>>>>> upstream/18.0
 =======
 msgstr "Este cupom é inválido (%s)."
 >>>>>>> upstream/18.0
@@ -5249,7 +5508,11 @@ msgstr "Este cupom é inválido (%s)."
 #: code:addons/sale_loyalty/models/sale_order.py:0
 msgid "This coupon has already been used."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Esse cupom já foi usado."
+>>>>>>> upstream/18.0
 =======
 msgstr "Esse cupom já foi usado."
 >>>>>>> upstream/18.0
@@ -5259,7 +5522,11 @@ msgstr "Esse cupom já foi usado."
 #: code:addons/sale_loyalty/models/sale_order.py:0
 msgid "This coupon is expired."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Esse cupom expirou."
+>>>>>>> upstream/18.0
 =======
 msgstr "Esse cupom expirou."
 >>>>>>> upstream/18.0
@@ -5354,6 +5621,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Esse desconto (%(discount)s) não é compatível com \"%(other_discount)s\". "
+"Remova-o para poder aplicar este."
+>>>>>>> upstream/18.0
 =======
 "Esse desconto (%(discount)s) não é compatível com \"%(other_discount)s\". "
 "Remova-o para poder aplicar este."
@@ -5692,7 +5964,11 @@ msgstr ""
 #: code:addons/sale_loyalty/models/sale_order.py:0
 msgid "This program cannot be applied with code."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Esse programa não pode ser aplicado com código."
+>>>>>>> upstream/18.0
 =======
 msgstr "Esse programa não pode ser aplicado com código."
 >>>>>>> upstream/18.0
@@ -5702,7 +5978,11 @@ msgstr "Esse programa não pode ser aplicado com código."
 #: code:addons/sale_loyalty/models/sale_order.py:0
 msgid "This program is already applied to this order."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Esse programa já está aplicado a esse pedido."
+>>>>>>> upstream/18.0
 =======
 msgstr "Esse programa já está aplicado a esse pedido."
 >>>>>>> upstream/18.0
@@ -5712,7 +5992,11 @@ msgstr "Esse programa já está aplicado a esse pedido."
 #: code:addons/sale_loyalty/models/sale_order.py:0
 msgid "This program is not available for public users."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Esse programa não está disponível para usuários públicos."
+>>>>>>> upstream/18.0
 =======
 msgstr "Esse programa não está disponível para usuários públicos."
 >>>>>>> upstream/18.0
@@ -5722,7 +6006,11 @@ msgstr "Esse programa não está disponível para usuários públicos."
 #: code:addons/sale_loyalty/models/sale_order.py:0
 msgid "This program requires a code to be applied."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Esse programa exige a aplicação de um código."
+>>>>>>> upstream/18.0
 =======
 msgstr "Esse programa exige a aplicação de um código."
 >>>>>>> upstream/18.0
@@ -5732,7 +6020,11 @@ msgstr "Esse programa exige a aplicação de um código."
 #: code:addons/sale_loyalty/models/sale_order.py:0
 msgid "This promo code is already applied."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Este código promocional já foi aplicado."
+>>>>>>> upstream/18.0
 =======
 msgstr "Este código promocional já foi aplicado."
 >>>>>>> upstream/18.0
@@ -5742,6 +6034,11 @@ msgstr "Este código promocional já foi aplicado."
 msgid "Update current promotional lines and select new rewards if applicable."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Atualize as linhas promocionais atuais e selecione novas recompensas, se "
+"aplicável."
+>>>>>>> upstream/18.0
 =======
 "Atualize as linhas promocionais atuais e selecione novas recompensas, se "
 "aplicável."
@@ -5884,7 +6181,11 @@ msgid "Used"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Usado"
+>>>>>>> upstream/18.0
 =======
 msgstr "Usado"
 >>>>>>> upstream/18.0
@@ -6293,7 +6594,11 @@ msgstr "Usado"
 #: code:addons/sale_loyalty/static/src/views/fields/loyalty_total/loyalty_data_field.xml:0
 msgid "Used :"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Usado:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Usado:"
 >>>>>>> upstream/18.0
@@ -6304,6 +6609,10 @@ msgstr "Usado:"
 msgid "You don't have the required product quantities on your sales order."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Você não tem as quantidades necessárias de produto em seu pedido de venda."
+>>>>>>> upstream/18.0
 =======
 "Você não tem as quantidades necessárias de produto em seu pedido de venda."
 >>>>>>> upstream/18.0
@@ -6315,6 +6624,11 @@ msgid ""
 "You can use it starting right now."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Você encontrará abaixo o código do seu cartão-presente. Um e-mail foi "
+"enviado com ele. Você pode usá-lo a partir de agora."
+>>>>>>> upstream/18.0
 =======
 "Você encontrará abaixo o código do seu cartão-presente. Um e-mail foi "
 "enviado com ele. Você pode usá-lo a partir de agora."

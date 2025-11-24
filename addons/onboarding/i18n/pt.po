@@ -1,8 +1,13 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* onboarding
 # 
+=======
+# * onboarding
+#
+>>>>>>> upstream/18.0
 =======
 # * onboarding
 #
@@ -15,7 +20,11 @@
 # Maitê Dietze, 2025
 # Wil Odoo, 2025
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
@@ -24,6 +33,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:57+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Wil Odoo, 2025\n"
@@ -34,6 +44,8 @@ msgstr ""
 "Language: pt\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-11-17 12:21+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Portuguese <https://translate.odoo.com/projects/odoo-18/"
@@ -45,6 +57,9 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % "
 "1000000 == 0) ? 1 : 2);\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: onboarding
@@ -56,7 +71,11 @@ msgstr ""
 #: model:ir.model.fields,help:onboarding.field_onboarding_onboarding__progress_ids
 msgid "All Onboarding Progress Records (across companies)."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Todos os registros de progresso de integração (em todas as empresas)."
+>>>>>>> upstream/18.0
 =======
 msgstr "Todos os registros de progresso de integração (em todas as empresas)."
 >>>>>>> upstream/18.0
@@ -71,6 +90,11 @@ msgstr "Concluído!"
 msgid "All related Onboarding Progress Step Records (across companies)"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Todos os registros de etapas do progresso de integração relacionados (em "
+"todas as empresas)"
+>>>>>>> upstream/18.0
 =======
 "Todos os registros de etapas do progresso de integração relacionados (em "
 "todas as empresas)"
@@ -80,7 +104,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:onboarding.field_onboarding_onboarding_step__step_image_alt
 msgid "Alt Text for the Step Image"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Texto alternativo para a imagem da etapa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Texto alternativo para a imagem da etapa"
 >>>>>>> upstream/18.0
@@ -93,6 +121,11 @@ msgid ""
 " onboarding panel: %(step_titles)s"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Uma \"Ação de abertura\" é necessária para que as etapas a seguir sejam "
+"vinculadas a um painel de integração: %(step_titles)s"
+>>>>>>> upstream/18.0
 =======
 "Uma \"Ação de abertura\" é necessária para que as etapas a seguir sejam "
 "vinculadas a um painel de integração: %(step_titles)s"
@@ -102,7 +135,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:onboarding.onboarding_container
 msgid "Are you sure you want to hide these configuration steps?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tem certeza de que deseja ocultar essas etapas de configuração?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tem certeza de que deseja ocultar essas etapas de configuração?"
 >>>>>>> upstream/18.0
@@ -111,7 +148,11 @@ msgstr "Tem certeza de que deseja ocultar essas etapas de configuração?"
 #: model:ir.model.fields,field_description:onboarding.field_onboarding_onboarding_step__button_text
 msgid "Button text"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Texto do botão"
+>>>>>>> upstream/18.0
 =======
 msgstr "Texto do botão"
 >>>>>>> upstream/18.0
@@ -130,7 +171,11 @@ msgstr "Encerrar"
 #: model_terms:ir.ui.view,arch_db:onboarding.onboarding_container
 msgid "Close Panel"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fechar painel"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fechar painel"
 >>>>>>> upstream/18.0
@@ -139,7 +184,11 @@ msgstr "Fechar painel"
 #: model_terms:ir.ui.view,arch_db:onboarding.onboarding_container
 msgid "Close the onboarding panel"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fechar o painel de integração"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fechar o painel de integração"
 >>>>>>> upstream/18.0
@@ -148,7 +197,11 @@ msgstr "Fechar o painel de integração"
 #: model:ir.model.fields,field_description:onboarding.field_onboarding_onboarding__panel_close_action_name
 msgid "Closing action"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ação de fechar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ação de fechar"
 >>>>>>> upstream/18.0
@@ -164,7 +217,11 @@ msgstr "Empresa"
 #: model:ir.model.fields,field_description:onboarding.field_onboarding_onboarding_step__current_step_state
 msgid "Completion State"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Status de conclusão"
+>>>>>>> upstream/18.0
 =======
 msgstr "Status de conclusão"
 >>>>>>> upstream/18.0
@@ -210,7 +267,11 @@ msgstr "Concluído"
 #: model:ir.model.fields,field_description:onboarding.field_onboarding_onboarding_step__done_icon
 msgid "Font Awesome Icon when completed"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ícone Font Awesome quando concluído"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ícone Font Awesome quando concluído"
 >>>>>>> upstream/18.0
@@ -219,7 +280,11 @@ msgstr "Ícone Font Awesome quando concluído"
 #: model_terms:ir.ui.view,arch_db:onboarding.onboarding_container
 msgid "Get them out of my sight!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Não quero ver isso!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Não quero ver isso!"
 >>>>>>> upstream/18.0
@@ -228,7 +293,11 @@ msgstr "Não quero ver isso!"
 #: model_terms:ir.ui.view,arch_db:onboarding.onboarding_container
 msgid "Hide Onboarding Tips"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ocultar dicas de integração"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ocultar dicas de integração"
 >>>>>>> upstream/18.0
@@ -245,7 +314,11 @@ msgstr "Id."
 #: model:ir.model.fields,field_description:onboarding.field_onboarding_onboarding_step__is_per_company
 msgid "Is per company"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "É por empresa"
+>>>>>>> upstream/18.0
 =======
 msgstr "É por empresa"
 >>>>>>> upstream/18.0
@@ -285,7 +358,11 @@ msgstr "Vamos lá"
 #: model:ir.model.fields,field_description:onboarding.field_onboarding_onboarding__text_completed
 msgid "Message at completion"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mensagem na conclusão"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mensagem na conclusão"
 >>>>>>> upstream/18.0
@@ -294,7 +371,11 @@ msgstr "Mensagem na conclusão"
 #: model:ir.model.fields,field_description:onboarding.field_onboarding_onboarding__name
 msgid "Name of the onboarding"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nome da integração"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nome da integração"
 >>>>>>> upstream/18.0
@@ -304,6 +385,10 @@ msgstr "Nome da integração"
 msgid "Name of the onboarding model action to execute when closing the panel."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nome da ação do modelo de integração a ser executada ao fechar o painel."
+>>>>>>> upstream/18.0
 =======
 "Nome da ação do modelo de integração a ser executada ao fechar o painel."
 >>>>>>> upstream/18.0
@@ -315,6 +400,11 @@ msgid ""
 "e.g. action_open_onboarding_1_step_1"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nome da ação do modelo da etapa de integração a ser executada ao abrir a "
+"etapa, por exemplo, action_open_onboarding_1_step_1"
+>>>>>>> upstream/18.0
 =======
 "Nome da ação do modelo da etapa de integração a ser executada ao abrir a "
 "etapa, por exemplo, action_open_onboarding_1_step_1"
@@ -325,7 +415,11 @@ msgstr ""
 #: code:addons/onboarding/models/onboarding_onboarding.py:0
 msgid "Nice work! Your configuration is done."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bom trabalho! Sua configuração está concluída."
+>>>>>>> upstream/18.0
 =======
 msgstr "Bom trabalho! Sua configuração está concluída."
 >>>>>>> upstream/18.0
@@ -347,7 +441,11 @@ msgstr "Integração"
 #: model:ir.model.fields,field_description:onboarding.field_onboarding_onboarding__current_progress_id
 msgid "Onboarding Progress"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Progresso da integração"
+>>>>>>> upstream/18.0
 =======
 msgstr "Progresso da integração"
 >>>>>>> upstream/18.0
@@ -356,7 +454,11 @@ msgstr "Progresso da integração"
 #: model:ir.model.fields,field_description:onboarding.field_onboarding_onboarding__progress_ids
 msgid "Onboarding Progress Records"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Registros de progresso de integração"
+>>>>>>> upstream/18.0
 =======
 msgstr "Registros de progresso de integração"
 >>>>>>> upstream/18.0
@@ -365,7 +467,11 @@ msgstr "Registros de progresso de integração"
 #: model:ir.model.fields,field_description:onboarding.field_onboarding_onboarding_step__progress_ids
 msgid "Onboarding Progress Step Records"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Registros de etapas do progresso da integração"
+>>>>>>> upstream/18.0
 =======
 msgstr "Registros de etapas do progresso da integração"
 >>>>>>> upstream/18.0
@@ -374,7 +480,11 @@ msgstr "Registros de etapas do progresso da integração"
 #: model:ir.model,name:onboarding.model_onboarding_progress_step
 msgid "Onboarding Progress Step Tracker"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Monitoramento de etapas do progresso da integração"
+>>>>>>> upstream/18.0
 =======
 msgstr "Monitoramento de etapas do progresso da integração"
 >>>>>>> upstream/18.0
@@ -383,7 +493,11 @@ msgstr "Monitoramento de etapas do progresso da integração"
 #: model:ir.model.fields,help:onboarding.field_onboarding_onboarding_step__current_progress_step_id
 msgid "Onboarding Progress Step for the current context (company)."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Etapa do progresso da integração para o contexto atual (empresa)."
+>>>>>>> upstream/18.0
 =======
 msgstr "Etapa do progresso da integração para o contexto atual (empresa)."
 >>>>>>> upstream/18.0
@@ -392,7 +506,11 @@ msgstr "Etapa do progresso da integração para o contexto atual (empresa)."
 #: model:ir.model,name:onboarding.model_onboarding_progress
 msgid "Onboarding Progress Tracker"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Monitoramento do progresso da integração"
+>>>>>>> upstream/18.0
 =======
 msgstr "Monitoramento do progresso da integração"
 >>>>>>> upstream/18.0
@@ -401,7 +519,11 @@ msgstr "Monitoramento do progresso da integração"
 #: model:ir.model.fields,help:onboarding.field_onboarding_onboarding__current_progress_id
 msgid "Onboarding Progress for the current context (company)."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Progresso da integração para o contexto atual (empresa)."
+>>>>>>> upstream/18.0
 =======
 msgstr "Progresso da integração para o contexto atual (empresa)."
 >>>>>>> upstream/18.0
@@ -416,7 +538,11 @@ msgstr "Etapa de integração"
 #: model:ir.model.fields,field_description:onboarding.field_onboarding_progress_step__step_state
 msgid "Onboarding Step Progress"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Progresso da etapa de integração"
+>>>>>>> upstream/18.0
 =======
 msgstr "Progresso da etapa de integração"
 >>>>>>> upstream/18.0
@@ -426,7 +552,11 @@ msgstr "Progresso da etapa de integração"
 #: model_terms:ir.ui.view,arch_db:onboarding.onboarding_onboarding_step_view_tree
 msgid "Onboarding Steps"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Etapas de integração"
+>>>>>>> upstream/18.0
 =======
 msgstr "Etapas de integração"
 >>>>>>> upstream/18.0
@@ -435,7 +565,11 @@ msgstr "Etapas de integração"
 #: model:ir.model.constraint,message:onboarding.constraint_onboarding_onboarding_route_name_uniq
 msgid "Onboarding alias must be unique."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "O alias de integração deve ser exclusivo."
+>>>>>>> upstream/18.0
 =======
 msgstr "O alias de integração deve ser exclusivo."
 >>>>>>> upstream/18.0
@@ -444,7 +578,11 @@ msgstr "O alias de integração deve ser exclusivo."
 #: model:ir.model.fields,field_description:onboarding.field_onboarding_progress__onboarding_state
 msgid "Onboarding progress"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Progresso da integração"
+>>>>>>> upstream/18.0
 =======
 msgstr "Progresso da integração"
 >>>>>>> upstream/18.0
@@ -453,7 +591,11 @@ msgstr "Progresso da integração"
 #: model:ir.model.fields,field_description:onboarding.field_onboarding_onboarding__step_ids
 msgid "Onboarding steps"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Etapas de integração"
+>>>>>>> upstream/18.0
 =======
 msgstr "Etapas de integração"
 >>>>>>> upstream/18.0
@@ -466,7 +608,11 @@ msgstr "Etapas de integração"
 #: model_terms:ir.ui.view,arch_db:onboarding.onboarding_onboarding_view_tree
 msgid "Onboardings"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Integrações"
+>>>>>>> upstream/18.0
 =======
 msgstr "Integrações"
 >>>>>>> upstream/18.0
@@ -475,7 +621,11 @@ msgstr "Integrações"
 #: model:ir.ui.menu,name:onboarding.menu_onboarding_step
 msgid "Onboardings Steps"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Etapas de integração"
+>>>>>>> upstream/18.0
 =======
 msgstr "Etapas de integração"
 >>>>>>> upstream/18.0
@@ -484,7 +634,11 @@ msgstr "Etapas de integração"
 #: model:ir.model.fields,field_description:onboarding.field_onboarding_onboarding__route_name
 msgid "One word name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nome de uma palavra"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nome de uma palavra"
 >>>>>>> upstream/18.0
@@ -493,7 +647,11 @@ msgstr "Nome de uma palavra"
 #: model:ir.model.fields,field_description:onboarding.field_onboarding_onboarding_step__panel_step_open_action_name
 msgid "Opening action"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ação de abrir"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ação de abrir"
 >>>>>>> upstream/18.0
@@ -502,7 +660,11 @@ msgstr "Ação de abrir"
 #: model:ir.model.fields,field_description:onboarding.field_onboarding_progress__progress_step_ids
 msgid "Progress Steps Trackers"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Monitoramento de etapas de progresso"
+>>>>>>> upstream/18.0
 =======
 msgstr "Monitoramento de etapas de progresso"
 >>>>>>> upstream/18.0
@@ -511,7 +673,11 @@ msgstr "Monitoramento de etapas de progresso"
 #: model:ir.model.fields,field_description:onboarding.field_onboarding_progress_step__progress_ids
 msgid "Related Onboarding Progress Tracker"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Monitoramento do progresso da integração relacionada"
+>>>>>>> upstream/18.0
 =======
 msgstr "Monitoramento do progresso da integração relacionada"
 >>>>>>> upstream/18.0
@@ -520,7 +686,11 @@ msgstr "Monitoramento do progresso da integração relacionada"
 #: model:ir.model.fields,field_description:onboarding.field_onboarding_progress__onboarding_id
 msgid "Related onboarding tracked"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Integração relacionada monitorada"
+>>>>>>> upstream/18.0
 =======
 msgstr "Integração relacionada monitorada"
 >>>>>>> upstream/18.0
@@ -535,7 +705,11 @@ msgstr "Sequência"
 #: model:ir.model.fields,field_description:onboarding.field_onboarding_onboarding__is_per_company
 msgid "Should be done per company?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Deve ser feito por empresa?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Deve ser feito por empresa?"
 >>>>>>> upstream/18.0
@@ -544,7 +718,11 @@ msgstr "Deve ser feito por empresa?"
 #: model:ir.model.fields,help:onboarding.field_onboarding_onboarding_step__step_image_alt
 msgid "Show when impossible to load the image"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mostrar quando não for possível carregar a imagem"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mostrar quando não for possível carregar a imagem"
 >>>>>>> upstream/18.0
@@ -559,7 +737,11 @@ msgstr "Etapa concluída!"
 #: model:ir.model.fields,field_description:onboarding.field_onboarding_onboarding_step__step_image
 msgid "Step Image"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Imagem da etapa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Imagem da etapa"
 >>>>>>> upstream/18.0
@@ -568,7 +750,11 @@ msgstr "Imagem da etapa"
 #: model:ir.model.fields,field_description:onboarding.field_onboarding_onboarding_step__step_image_filename
 msgid "Step Image Filename"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nome do arquivo da imagem da etapa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nome do arquivo da imagem da etapa"
 >>>>>>> upstream/18.0
@@ -577,7 +763,11 @@ msgstr "Nome do arquivo da imagem da etapa"
 #: model:ir.model.fields,field_description:onboarding.field_onboarding_onboarding_step__current_progress_step_id
 msgid "Step Progress"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Progresso da etapa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Progresso da etapa"
 >>>>>>> upstream/18.0
@@ -586,7 +776,11 @@ msgstr "Progresso da etapa"
 #: model_terms:ir.ui.view,arch_db:onboarding.onboarding_onboarding_view_form
 msgid "Steps"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Etapas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Etapas"
 >>>>>>> upstream/18.0
@@ -595,7 +789,11 @@ msgstr "Etapas"
 #: model:ir.model.fields,help:onboarding.field_onboarding_onboarding_step__button_text
 msgid "Text on the panel's button to start this step"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Texto no botão do painel para iniciar essa etapa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Texto no botão do painel para iniciar essa etapa"
 >>>>>>> upstream/18.0
@@ -604,7 +802,11 @@ msgstr "Texto no botão do painel para iniciar essa etapa"
 #: model:ir.model.fields,help:onboarding.field_onboarding_onboarding__text_completed
 msgid "Text shown on onboarding when completed"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Texto exibido na integração quando concluída"
+>>>>>>> upstream/18.0
 =======
 msgstr "Texto exibido na integração quando concluída"
 >>>>>>> upstream/18.0
@@ -613,7 +815,11 @@ msgstr "Texto exibido na integração quando concluída"
 #: model:ir.model.fields,field_description:onboarding.field_onboarding_onboarding_step__done_text
 msgid "Text to show when step is completed"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Texto a ser exibido quando a etapa for concluída"
+>>>>>>> upstream/18.0
 =======
 msgstr "Texto a ser exibido quando a etapa for concluída"
 >>>>>>> upstream/18.0
@@ -628,7 +834,11 @@ msgstr "Título"
 #: model_terms:ir.ui.view,arch_db:onboarding.onboarding_onboarding_view_tree
 msgid "Toggle visibility"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Visibilidade"
+>>>>>>> upstream/18.0
 =======
 msgstr "Visibilidade"
 >>>>>>> upstream/18.0
@@ -638,7 +848,11 @@ msgstr "Visibilidade"
 #: model:ir.model.fields,field_description:onboarding.field_onboarding_progress__is_onboarding_closed
 msgid "Was panel closed?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "O painel estava fechado?"
+>>>>>>> upstream/18.0
 =======
 msgstr "O painel estava fechado?"
 >>>>>>> upstream/18.0
@@ -647,7 +861,11 @@ msgstr "O painel estava fechado?"
 #: model_terms:ir.ui.view,arch_db:onboarding.onboarding_step
 msgid "o_onboarding_confetti"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "o_onboarding_confetti"
+>>>>>>> upstream/18.0
 =======
 msgstr "o_onboarding_confetti"
 >>>>>>> upstream/18.0
@@ -656,7 +874,11 @@ msgstr "o_onboarding_confetti"
 #: model_terms:ir.ui.view,arch_db:onboarding.onboarding_panel
 msgid "onboarding.onboarding.step"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "onboarding.onboarding.step"
+>>>>>>> upstream/18.0
 =======
 msgstr "onboarding.onboarding.step"
 >>>>>>> upstream/18.0

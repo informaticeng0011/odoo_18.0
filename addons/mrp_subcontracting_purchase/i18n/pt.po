@@ -1,8 +1,13 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* mrp_subcontracting_purchase
 # 
+=======
+# * mrp_subcontracting_purchase
+#
+>>>>>>> upstream/18.0
 =======
 # * mrp_subcontracting_purchase
 #
@@ -12,7 +17,11 @@
 # Maitê Dietze, 2025
 # Peter Lawrence Romão <peterromao@yahoo.co.uk>, 2025
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
@@ -21,6 +30,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Peter Lawrence Romão <peterromao@yahoo.co.uk>, 2025\n"
@@ -31,6 +41,8 @@ msgstr ""
 "Language: pt\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-11-17 10:30+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Portuguese <https://translate.odoo.com/projects/odoo-18/"
@@ -42,6 +54,9 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % "
 "1000000 == 0) ? 1 : 2);\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mrp_subcontracting_purchase
@@ -54,7 +69,11 @@ msgstr "+ %d dia(s)"
 #: model_terms:ir.ui.view,arch_db:mrp_subcontracting_purchase.purchase_order_form_mrp_subcontracting_purchase
 msgid "<span class=\"o_stat_text\">Resupply</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Repor</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Repor</span>"
 >>>>>>> upstream/18.0
@@ -63,7 +82,11 @@ msgstr "<span class=\"o_stat_text\">Repor</span>"
 #: model_terms:ir.ui.view,arch_db:mrp_subcontracting_purchase.stock_picking_form_mrp_subcontracting
 msgid "<span class=\"o_stat_text\">Source PO</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">PC de origem</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">PC de origem</span>"
 >>>>>>> upstream/18.0
@@ -77,7 +100,11 @@ msgstr "Relatório de Revisão da BOM"
 #: model:ir.model.fields,field_description:mrp_subcontracting_purchase.field_purchase_order__subcontracting_resupply_picking_count
 msgid "Count of Subcontracting Resupply"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Contagem de reposições por subcontratação"
+>>>>>>> upstream/18.0
 =======
 msgstr "Contagem de reposições por subcontratação"
 >>>>>>> upstream/18.0
@@ -86,7 +113,11 @@ msgstr "Contagem de reposições por subcontratação"
 #: model:ir.model.fields,help:mrp_subcontracting_purchase.field_purchase_order__subcontracting_resupply_picking_count
 msgid "Count of Subcontracting Resupply for component"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Contagem de reposições por subcontratação para componente"
+>>>>>>> upstream/18.0
 =======
 msgstr "Contagem de reposições por subcontratação para componente"
 >>>>>>> upstream/18.0
@@ -96,7 +127,11 @@ msgstr "Contagem de reposições por subcontratação para componente"
 #: code:addons/mrp_subcontracting_purchase/models/stock_rule.py:0
 msgid "Days to Supply Components"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dias para fornecer componentes"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dias para fornecer componentes"
 >>>>>>> upstream/18.0
@@ -116,7 +151,11 @@ msgstr "Prazo de Entrega da Produção"
 #: model:ir.model.fields,field_description:mrp_subcontracting_purchase.field_stock_picking__subcontracting_source_purchase_count
 msgid "Number of subcontracting PO Source"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Número de origens de PC de subcontratação"
+>>>>>>> upstream/18.0
 =======
 msgstr "Número de origens de PC de subcontratação"
 >>>>>>> upstream/18.0
@@ -125,7 +164,11 @@ msgstr "Número de origens de PC de subcontratação"
 #: model:ir.model.fields,help:mrp_subcontracting_purchase.field_stock_picking__subcontracting_source_purchase_count
 msgid "Number of subcontracting Purchase Order Source"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Número de origens de pedido de compra de subcontratação"
+>>>>>>> upstream/18.0
 =======
 msgstr "Número de origens de pedido de compra de subcontratação"
 >>>>>>> upstream/18.0
@@ -140,7 +183,11 @@ msgstr "Notas de encomenda"
 #: code:addons/mrp_subcontracting_purchase/models/stock_picking.py:0
 msgid "Source PO of %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pedido de compra de origem de %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pedido de compra de origem de %s"
 >>>>>>> upstream/18.0

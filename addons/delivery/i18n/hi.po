@@ -1,8 +1,13 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* delivery
 # 
+=======
+# * delivery
+#
+>>>>>>> upstream/18.0
 =======
 # * delivery
 #
@@ -12,6 +17,7 @@
 # Wil Odoo, 2024
 # Jaisal Shah <jaisal13shah@gmail.com>, 2025
 # Manav Shah, 2025
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -382,11 +388,16 @@
 # Ujjawal Pathak, 2025
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
+=======
+# Ujjawal Pathak, 2025
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-27 13:03+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
@@ -761,6 +772,8 @@ msgstr ""
 "Language: hi\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-11-21 02:26+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Hindi <https://translate.odoo.com/projects/odoo-18/delivery/"
@@ -771,6 +784,9 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: delivery
@@ -778,7 +794,11 @@ msgstr ""
 #: code:addons/delivery/wizard/choose_delivery_carrier.py:0
 msgid "%(carrier)s Error"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(carrier)s गड़बड़ी"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(carrier)s गड़बड़ी"
 >>>>>>> upstream/18.0
@@ -791,6 +811,11 @@ msgid ""
 "Free Shipping"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"%s\n"
+"फ्री शिपिंग"
+>>>>>>> upstream/18.0
 =======
 "%s\n"
 "फ्री शिपिंग"
@@ -889,7 +914,11 @@ msgid "%s (copy)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s (कॉपी)"
+>>>>>>> upstream/18.0
 =======
 msgstr "%s (कॉपी)"
 >>>>>>> upstream/18.0
@@ -1162,7 +1191,11 @@ msgstr "%s (कॉपी)"
 #: model_terms:ir.ui.view,arch_db:delivery.choose_delivery_carrier_view_form
 msgid "<i class=\"oi oi-arrow-right me-1\"/>Get rate"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"oi oi-arrow-right me-1\"/>रेट पाएं"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"oi oi-arrow-right me-1\"/>रेट पाएं"
 >>>>>>> upstream/18.0
@@ -1176,6 +1209,12 @@ msgid ""
 "                </p>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<p class=\"o_view_nocontent\">\n"
+"                    Odoo Enterprise को अभी खरीदें और ज़्यादा सेवाएं पाएं.\n"
+"                </p>"
+>>>>>>> upstream/18.0
 =======
 "<p class=\"o_view_nocontent\">\n"
 "                    Odoo Enterprise को अभी खरीदें और ज़्यादा सेवाएं पाएं.\n"
@@ -1189,6 +1228,11 @@ msgid ""
 "                                <span class=\"o_stat_text\">Environment</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"o_stat_text o_warning_text fw-bold\">टेस्ट</span>\n"
+"                                <span class=\"o_stat_text\">एन्वायरमेंट</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"o_stat_text o_warning_text fw-bold\">टेस्ट</span>\n"
 "                                <span class=\"o_stat_text\">एन्वायरमेंट</span>"
@@ -1198,7 +1242,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:delivery.view_delivery_carrier_form
 msgid "<span class=\"o_stat_text text-danger\">No debug</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text text-danger\">कोई डीबग नहीं</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text text-danger\">कोई डीबग नहीं</span>"
 >>>>>>> upstream/18.0
@@ -1207,7 +1255,11 @@ msgstr "<span class=\"o_stat_text text-danger\">कोई डीबग नही
 #: model_terms:ir.ui.view,arch_db:delivery.view_delivery_carrier_form
 msgid "<span class=\"text-success\">Debug requests</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"text-success\">डीबग रिक्वेस्ट</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"text-success\">डीबग रिक्वेस्ट</span>"
 >>>>>>> upstream/18.0
@@ -1219,6 +1271,11 @@ msgid ""
 "                                <span class=\"o_stat_text\">Environment</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"text-success\">प्रॉडक्शन</span>\n"
+"                                <span class=\"o_stat_text\">एन्वायरमेंट</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"text-success\">प्रॉडक्शन</span>\n"
 "                                <span class=\"o_stat_text\">एन्वायरमेंट</span>"
@@ -1228,7 +1285,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:delivery.delivery_report_saleorder_document
 msgid "<strong>Shipping Description</strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>शिपिंग की जानकारी</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>शिपिंग की जानकारी</strong>"
 >>>>>>> upstream/18.0
@@ -1241,6 +1302,11 @@ msgid ""
 "for customers to follow."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ग्राहकों को सेल्स ऑर्डर और कन्फ़र्मेशन ईमेल पर डिलीवरी के बारे में बताने के लिए विवरण. उदा"
+"हरण के तौर पर, ग्राहकों को पालन करने के लिए दिए जाने वाले निर्देश।"
+>>>>>>> upstream/18.0
 =======
 "ग्राहकों को सेल्स ऑर्डर और कन्फ़र्मेशन ईमेल पर डिलीवरी के बारे में बताने के लिए विवरण. उदा"
 "हरण के तौर पर, ग्राहकों को पालन करने के लिए दिए जाने वाले निर्देश।"
@@ -1250,7 +1316,11 @@ msgstr ""
 #: model:ir.model.fields,help:delivery.field_delivery_carrier__integration_level
 msgid "Action while validating Delivery Orders"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "डिलीवरी ऑर्डर की जांच करते समय की जाने वाली कार्रवाई"
+>>>>>>> upstream/18.0
 =======
 msgstr "डिलीवरी ऑर्डर की जांच करते समय की जाने वाली कार्रवाई"
 >>>>>>> upstream/18.0
@@ -1271,7 +1341,11 @@ msgstr "जोड़ना"
 #: code:addons/delivery/wizard/choose_delivery_carrier.py:0
 msgid "Add a shipping method"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "शिपिंग का कोई तरीका जोड़ें"
+>>>>>>> upstream/18.0
 =======
 msgstr "शिपिंग का कोई तरीका जोड़ें"
 >>>>>>> upstream/18.0
@@ -1280,7 +1354,11 @@ msgstr "शिपिंग का कोई तरीका जोड़ें"
 #: model_terms:ir.ui.view,arch_db:delivery.view_order_form_with_carrier
 msgid "Add shipping"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "शिपिंग जोड़ें"
+>>>>>>> upstream/18.0
 =======
 msgstr "शिपिंग जोड़ें"
 >>>>>>> upstream/18.0
@@ -1289,7 +1367,11 @@ msgstr "शिपिंग जोड़ें"
 #: model_terms:ir.ui.view,arch_db:delivery.view_delivery_carrier_form
 msgid "Additional margin"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अतिरिक्त मार्जिन"
+>>>>>>> upstream/18.0
 =======
 msgstr "अतिरिक्त मार्जिन"
 >>>>>>> upstream/18.0
@@ -1306,6 +1388,10 @@ msgid ""
 "company currency"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"फ़्री शिपिंग का फ़ायदा पाने के लिए ऑर्डर की कुल रकम, जिसे कंपनी की मुद्रा में दिखाया गया है"
+>>>>>>> upstream/18.0
 =======
 "फ़्री शिपिंग का फ़ायदा पाने के लिए ऑर्डर की कुल रकम, जिसे कंपनी की मुद्रा में दिखाया गया है"
 >>>>>>> upstream/18.0
@@ -1403,7 +1489,11 @@ msgid "Archived"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "संग्रहीत किया गया"
+>>>>>>> upstream/18.0
 =======
 msgstr "संग्रहीत किया गया"
 >>>>>>> upstream/18.0
@@ -1681,7 +1771,11 @@ msgstr "उपलब्धता"
 #: model:ir.model.fields,field_description:delivery.field_choose_delivery_carrier__available_carrier_ids
 msgid "Available Carriers"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "उपलब्ध कैरियर"
+>>>>>>> upstream/18.0
 =======
 msgstr "उपलब्ध कैरियर"
 >>>>>>> upstream/18.0
@@ -1690,7 +1784,11 @@ msgstr "उपलब्ध कैरियर"
 #: model:ir.model.fields.selection,name:delivery.selection__delivery_carrier__delivery_type__base_on_rule
 msgid "Based on Rules"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "नियमों पर आधारित"
+>>>>>>> upstream/18.0
 =======
 msgstr "नियमों पर आधारित"
 >>>>>>> upstream/18.0
@@ -1699,7 +1797,11 @@ msgstr "नियमों पर आधारित"
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__can_generate_return
 msgid "Can Generate Return"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रिटर्न जनरेट किया जा सकता है"
+>>>>>>> upstream/18.0
 =======
 msgstr "रिटर्न जनरेट किया जा सकता है"
 >>>>>>> upstream/18.0
@@ -1711,7 +1813,11 @@ msgstr "रिटर्न जनरेट किया जा सकता ह�
 #: model_terms:ir.ui.view,arch_db:delivery.view_delivery_carrier_tree
 msgid "Carrier"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कैरियर"
+>>>>>>> upstream/18.0
 =======
 msgstr "कैरियर"
 >>>>>>> upstream/18.0
@@ -1724,6 +1830,10 @@ msgid ""
 "Tags."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"वाहक %s में 'ज़रूरी टैग' और 'शामिल न किए जाने वाले टैग', दोनों में एक ही टैग नहीं हो सकता।"
+>>>>>>> upstream/18.0
 =======
 "वाहक %s में 'ज़रूरी टैग' और 'शामिल न किए जाने वाले टैग', दोनों में एक ही टैग नहीं हो सकता।"
 >>>>>>> upstream/18.0
@@ -1732,7 +1842,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__carrier_description
 msgid "Carrier Description"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कैरियर की जानकारी"
+>>>>>>> upstream/18.0
 =======
 msgstr "कैरियर की जानकारी"
 >>>>>>> upstream/18.0
@@ -1742,7 +1856,11 @@ msgstr "कैरियर की जानकारी"
 #: code:addons/delivery/static/src/js/location_selector/location_selector_dialog/location_selector_dialog.js:0
 msgid "Choose a pick-up point"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पिक-अप पॉइंट चुनें"
+>>>>>>> upstream/18.0
 =======
 msgstr "पिक-अप पॉइंट चुनें"
 >>>>>>> upstream/18.0
@@ -1753,7 +1871,11 @@ msgstr "पिक-अप पॉइंट चुनें"
 #: code:addons/delivery/static/src/js/location_selector/map_container/map_container.js:0
 msgid "Choose this location"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इस जगह को चुनें"
+>>>>>>> upstream/18.0
 =======
 msgstr "इस जगह को चुनें"
 >>>>>>> upstream/18.0
@@ -1774,7 +1896,11 @@ msgstr "संस्था"
 #: model_terms:ir.ui.view,arch_db:delivery.view_delivery_price_rule_form
 msgid "Condition"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "शर्त"
+>>>>>>> upstream/18.0
 =======
 msgstr "शर्त"
 >>>>>>> upstream/18.0
@@ -1788,7 +1914,11 @@ msgstr "संपर्क"
 #: model_terms:ir.ui.view,arch_db:delivery.view_delivery_carrier_form
 msgid "Content"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कॉन्टेंट"
+>>>>>>> upstream/18.0
 =======
 msgstr "कॉन्टेंट"
 >>>>>>> upstream/18.0
@@ -1869,7 +1999,11 @@ msgid "Cost"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कीम"
+>>>>>>> upstream/18.0
 =======
 msgstr "कीम"
 >>>>>>> upstream/18.0
@@ -2094,7 +2228,11 @@ msgstr "कीम"
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__country_ids
 msgid "Countries"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "देश"
+>>>>>>> upstream/18.0
 =======
 msgstr "देश"
 >>>>>>> upstream/18.0
@@ -2199,7 +2337,11 @@ msgid "Created on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इस तारीख को बनाया गया"
+>>>>>>> upstream/18.0
 =======
 msgstr "इस तारीख को बनाया गया"
 >>>>>>> upstream/18.0
@@ -2553,7 +2695,11 @@ msgid "Currency"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "करेंसी"
+>>>>>>> upstream/18.0
 =======
 msgstr "करेंसी"
 >>>>>>> upstream/18.0
@@ -2831,7 +2977,11 @@ msgstr "साथी"
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__debug_logging
 msgid "Debug logging"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "डीबग लॉगिंग"
+>>>>>>> upstream/18.0
 =======
 msgstr "डीबग लॉगिंग"
 >>>>>>> upstream/18.0
@@ -2846,7 +2996,11 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:delivery.action_delivery_carrier_form
 msgid "Define a new delivery method"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एक नया डिलीवरी तरीका तय करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "एक नया डिलीवरी तरीका तय करें"
 >>>>>>> upstream/18.0
@@ -2855,7 +3009,11 @@ msgstr "एक नया डिलीवरी तरीका तय करे�
 #: model_terms:ir.ui.view,arch_db:delivery.view_delivery_carrier_search
 msgid "Delivery Carrier"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "डिलीवरी कैरियर"
+>>>>>>> upstream/18.0
 =======
 msgstr "डिलीवरी कैरियर"
 >>>>>>> upstream/18.0
@@ -2864,7 +3022,11 @@ msgstr "डिलीवरी कैरियर"
 #: model:ir.model,name:delivery.model_choose_delivery_carrier
 msgid "Delivery Carrier Selection Wizard"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "डिलीवरी कैरियर चुनने के लिए विज़ॉर्ड"
+>>>>>>> upstream/18.0
 =======
 msgstr "डिलीवरी कैरियर चुनने के लिए विज़ॉर्ड"
 >>>>>>> upstream/18.0
@@ -2873,7 +3035,11 @@ msgstr "डिलीवरी कैरियर चुनने के लि�
 #: model_terms:ir.ui.view,arch_db:delivery.view_delivery_price_rule_form
 msgid "Delivery Cost"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "डिलीवरी की कीमत"
+>>>>>>> upstream/18.0
 =======
 msgstr "डिलीवरी की कीमत"
 >>>>>>> upstream/18.0
@@ -2883,7 +3049,11 @@ msgstr "डिलीवरी की कीमत"
 #: model:ir.model.fields,field_description:delivery.field_sale_order__delivery_message
 msgid "Delivery Message"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "डिलीवरी मैसेज"
+>>>>>>> upstream/18.0
 =======
 msgstr "डिलीवरी मैसेज"
 >>>>>>> upstream/18.0
@@ -2896,7 +3066,11 @@ msgstr "डिलीवरी मैसेज"
 #: model_terms:ir.ui.view,arch_db:delivery.view_delivery_carrier_form
 msgid "Delivery Method"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "डिलीवरी का तरीका"
+>>>>>>> upstream/18.0
 =======
 msgstr "डिलीवरी का तरीका"
 >>>>>>> upstream/18.0
@@ -2906,7 +3080,11 @@ msgstr "डिलीवरी का तरीका"
 #: model:ir.ui.menu,name:delivery.sale_menu_action_delivery_carrier_form
 msgid "Delivery Methods"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "डिलीवरी का तरीका"
+>>>>>>> upstream/18.0
 =======
 msgstr "डिलीवरी का तरीका"
 >>>>>>> upstream/18.0
@@ -2915,7 +3093,11 @@ msgstr "डिलीवरी का तरीका"
 #: model:ir.model.fields,field_description:delivery.field_choose_delivery_carrier__delivery_price
 msgid "Delivery Price"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "डिलीवरी की कीमत"
+>>>>>>> upstream/18.0
 =======
 msgstr "डिलीवरी की कीमत"
 >>>>>>> upstream/18.0
@@ -2924,7 +3106,11 @@ msgstr "डिलीवरी की कीमत"
 #: model:ir.model,name:delivery.model_delivery_price_rule
 msgid "Delivery Price Rules"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "डिलीवरी की कीमत के नियम"
+>>>>>>> upstream/18.0
 =======
 msgstr "डिलीवरी की कीमत के नियम"
 >>>>>>> upstream/18.0
@@ -2933,7 +3119,11 @@ msgstr "डिलीवरी की कीमत के नियम"
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__product_id
 msgid "Delivery Product"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "डिलीवरी प्रॉडक्ट"
+>>>>>>> upstream/18.0
 =======
 msgstr "डिलीवरी प्रॉडक्ट"
 >>>>>>> upstream/18.0
@@ -2942,7 +3132,11 @@ msgstr "डिलीवरी प्रॉडक्ट"
 #: model:ir.model.fields,field_description:delivery.field_sale_order__delivery_set
 msgid "Delivery Set"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "डिलीवरी सेट"
+>>>>>>> upstream/18.0
 =======
 msgstr "डिलीवरी सेट"
 >>>>>>> upstream/18.0
@@ -2951,7 +3145,11 @@ msgstr "डिलीवरी सेट"
 #: model:ir.model,name:delivery.model_delivery_zip_prefix
 msgid "Delivery Zip Prefix"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "डिलीवरी ज़िप का प्रीफ़िक्स"
+>>>>>>> upstream/18.0
 =======
 msgstr "डिलीवरी ज़िप का प्रीफ़िक्स"
 >>>>>>> upstream/18.0
@@ -2961,7 +3159,11 @@ msgstr "डिलीवरी ज़िप का प्रीफ़िक्स
 #: model:ir.model.fields,field_description:delivery.field_sale_order_line__recompute_delivery_price
 msgid "Delivery cost should be recomputed"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "डिलीवरी की कीमत को फिर से तय करना होगा"
+>>>>>>> upstream/18.0
 =======
 msgstr "डिलीवरी की कीमत को फिर से तय करना होगा"
 >>>>>>> upstream/18.0
@@ -2973,6 +3175,11 @@ msgid ""
 "            which zips it is available to."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"डिलीवरी ज़िप प्रीफ़िक्स, डिलीवरी करने वाले वाहकों को दिए जाते हैं, \n"
+"            ताकि उन पर यह पाबंदी लगाई जा सके कि वे किन ज़िप कोड में सेवा दे सकते हैं।"
+>>>>>>> upstream/18.0
 =======
 "डिलीवरी ज़िप प्रीफ़िक्स, डिलीवरी करने वाले वाहकों को दिए जाते हैं, \n"
 "            ताकि उन पर यह पाबंदी लगाई जा सके कि वे किन ज़िप कोड में सेवा दे सकते हैं।"
@@ -2987,7 +3194,11 @@ msgstr "विवरण"
 #: model_terms:ir.ui.view,arch_db:delivery.view_delivery_carrier_form
 msgid "Destination"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "डेस्टिनेशन"
+>>>>>>> upstream/18.0
 =======
 msgstr "डेस्टिनेशन"
 >>>>>>> upstream/18.0
@@ -2996,7 +3207,11 @@ msgstr "डेस्टिनेशन"
 #: model:ir.model.fields,help:delivery.field_delivery_carrier__sequence
 msgid "Determine the display order"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "दिखाने का क्रम तय करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "दिखाने का क्रम तय करें"
 >>>>>>> upstream/18.0
@@ -3090,7 +3305,11 @@ msgid "Discard"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "खारिज करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "खारिज करें"
 >>>>>>> upstream/18.0
@@ -3448,7 +3667,11 @@ msgid "Display Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "डिस्प्ले नाम"
+>>>>>>> upstream/18.0
 =======
 msgstr "डिस्प्ले नाम"
 >>>>>>> upstream/18.0
@@ -3734,6 +3957,12 @@ msgid ""
 "            to each method."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"हर कैरियर (जैसे, UPS) के डिलीवरी के कई तरीके (जैसे,\n"
+"            UPS Express, UPS Standard)हो सकते हैं और हर तरीके के साथ \n"
+"            कीमत तय करने के नियम भी जुड़े होते हैं।"
+>>>>>>> upstream/18.0
 =======
 "हर कैरियर (जैसे, UPS) के डिलीवरी के कई तरीके (जैसे,\n"
 "            UPS Express, UPS Standard)हो सकते हैं और हर तरीके के साथ \n"
@@ -3817,7 +4046,11 @@ msgid "Environment"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एन्वायरमेंट"
+>>>>>>> upstream/18.0
 =======
 msgstr "एन्वायरमेंट"
 >>>>>>> upstream/18.0
@@ -4046,7 +4279,11 @@ msgstr "एन्वायरमेंट"
 #: code:addons/delivery/models/delivery_carrier.py:0
 msgid "Error: this delivery method is not available for this address."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "गड़बड़ी: यह डिलीवरी तरीका इस पते के लिए उपलब्ध नहीं है।"
+>>>>>>> upstream/18.0
 =======
 msgstr "गड़बड़ी: यह डिलीवरी तरीका इस पते के लिए उपलब्ध नहीं है।"
 >>>>>>> upstream/18.0
@@ -4056,7 +4293,11 @@ msgstr "गड़बड़ी: यह डिलीवरी तरीका इ�
 #: code:addons/delivery/models/delivery_carrier.py:0
 msgid "Error: this delivery method is not available."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "गड़बड़ी: यह डिलीवरी तरीका उपलब्ध नहीं है।"
+>>>>>>> upstream/18.0
 =======
 msgstr "गड़बड़ी: यह डिलीवरी तरीका उपलब्ध नहीं है।"
 >>>>>>> upstream/18.0
@@ -4068,6 +4309,12 @@ msgid ""
 "Real Cost: the customer will be invoiced the real cost of the shipping, the cost of theshipping will be updated on the SO after the delivery."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"अंदाज़न लागत: ग्राहक को शिपिंग की अनुमानित लागत का इनवॉइस भेजा जाएगा.\n"
+"असली लागत: ग्राहक को शिपिंग की असली लागत का इनवॉइस भेजा जाएगा, डिलीवरी के बाद सेल्"
+"स ऑर्डर पर शिपिंग की लागत अपडेट की जाएगी।"
+>>>>>>> upstream/18.0
 =======
 "अंदाज़न लागत: ग्राहक को शिपिंग की अनुमानित लागत का इनवॉइस भेजा जाएगा.\n"
 "असली लागत: ग्राहक को शिपिंग की असली लागत का इनवॉइस भेजा जाएगा, डिलीवरी के बाद सेल्"
@@ -4078,7 +4325,11 @@ msgstr ""
 #: model:ir.model.fields.selection,name:delivery.selection__delivery_carrier__invoice_policy__estimated
 msgid "Estimated cost"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अंदाज़न लागत"
+>>>>>>> upstream/18.0
 =======
 msgstr "अंदाज़न लागत"
 >>>>>>> upstream/18.0
@@ -4087,7 +4338,11 @@ msgstr "अंदाज़न लागत"
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__excluded_tag_ids
 msgid "Excluded Tags"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "शामिल नहीं किए गए टैग्स"
+>>>>>>> upstream/18.0
 =======
 msgstr "शामिल नहीं किए गए टैग्स"
 >>>>>>> upstream/18.0
@@ -4097,6 +4352,10 @@ msgstr "शामिल नहीं किए गए टैग्स"
 msgid "Fill this field if you plan to invoice the shipping based on picking."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"अगर आप पिकिंग के आधार पर शिपिंग का बिल भेजने की योजना बना रहे हैं, तो इस फ़ील्ड को भरें।"
+>>>>>>> upstream/18.0
 =======
 "अगर आप पिकिंग के आधार पर शिपिंग का बिल भेजने की योजना बना रहे हैं, तो इस फ़ील्ड को भरें।"
 >>>>>>> upstream/18.0
@@ -4108,6 +4367,11 @@ msgid ""
 " to the content of the order or its destination."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"इस फ़ॉर्म को भरने से आपको यह सुविधा मिलेगी कि आप ऑर्डर के सामान या उसके पते के आधार पर "
+"शिपिंग का तरीका चुन सकें।"
+>>>>>>> upstream/18.0
 =======
 "इस फ़ॉर्म को भरने से आपको यह सुविधा मिलेगी कि आप ऑर्डर के सामान या उसके पते के आधार पर "
 "शिपिंग का तरीका चुन सकें।"
@@ -4117,7 +4381,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__fixed_margin
 msgid "Fixed Margin"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "तय मार्जिन"
+>>>>>>> upstream/18.0
 =======
 msgstr "तय मार्जिन"
 >>>>>>> upstream/18.0
@@ -4127,7 +4395,11 @@ msgstr "तय मार्जिन"
 #: model:ir.model.fields.selection,name:delivery.selection__delivery_carrier__delivery_type__fixed
 msgid "Fixed Price"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "तय कीमत"
+>>>>>>> upstream/18.0
 =======
 msgstr "तय कीमत"
 >>>>>>> upstream/18.0
@@ -4136,7 +4408,11 @@ msgstr "तय कीमत"
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__free_over
 msgid "Free if order amount is above"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऑर्डर की तय रकम से ज़्यादा होने पर मुफ़्त डिलीवरी"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऑर्डर की तय रकम से ज़्यादा होने पर मुफ़्त डिलीवरी"
 >>>>>>> upstream/18.0
@@ -4145,7 +4421,11 @@ msgstr "ऑर्डर की तय रकम से ज़्यादा ह
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__return_label_on_delivery
 msgid "Generate Return Label"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रिटर्न लेबल जनरेट करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "रिटर्न लेबल जनरेट करें"
 >>>>>>> upstream/18.0
@@ -4154,7 +4434,11 @@ msgstr "रिटर्न लेबल जनरेट करें"
 #: model:ir.model.fields.selection,name:delivery.selection__delivery_carrier__integration_level__rate
 msgid "Get Rate"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रेट पाएं"
+>>>>>>> upstream/18.0
 =======
 msgstr "रेट पाएं"
 >>>>>>> upstream/18.0
@@ -4163,7 +4447,11 @@ msgstr "रेट पाएं"
 #: model:ir.model.fields.selection,name:delivery.selection__delivery_carrier__integration_level__rate_and_ship
 msgid "Get Rate and Create Shipment"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रेट पाएं और शिपमेंट बनाएं"
+>>>>>>> upstream/18.0
 =======
 msgstr "रेट पाएं और शिपमेंट बनाएं"
 >>>>>>> upstream/18.0
@@ -4254,7 +4542,11 @@ msgid "Group By"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इन्होंने ग्रुप किया"
+>>>>>>> upstream/18.0
 =======
 msgstr "इन्होंने ग्रुप किया"
 >>>>>>> upstream/18.0
@@ -4603,7 +4895,11 @@ msgid "ID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आईडी"
+>>>>>>> upstream/18.0
 =======
 msgstr "आईडी"
 >>>>>>> upstream/18.0
@@ -4888,6 +5184,11 @@ msgid ""
 "value, the customer benefits from a free shipping"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"अगर ऑर्डर की कुल रकम (शिपिंग को छोड़कर) इस मूल्य के बराबर या ज़्यादा है, तो ग्राहक को मुफ़्"
+"त शिपिंग का फ़ायदा मिलता है"
+>>>>>>> upstream/18.0
 =======
 "अगर ऑर्डर की कुल रकम (शिपिंग को छोड़कर) इस मूल्य के बराबर या ज़्यादा है, तो ग्राहक को मुफ़्"
 "त शिपिंग का फ़ायदा मिलता है"
@@ -4900,6 +5201,10 @@ msgid ""
 "available."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"अगर ऑर्डर का कुल वॉल्यूम इस वॉल्यूम से ज़्यादा होता है, तो यह तरीका उपलब्ध नहीं होगा।"
+>>>>>>> upstream/18.0
 =======
 "अगर ऑर्डर का कुल वॉल्यूम इस वॉल्यूम से ज़्यादा होता है, तो यह तरीका उपलब्ध नहीं होगा।"
 >>>>>>> upstream/18.0
@@ -4911,6 +5216,10 @@ msgid ""
 "available."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"अगर ऑर्डर का कुल वज़न इस वज़न से ज़्यादा है, तो यह तरीका उपलब्ध नहीं होगा।"
+>>>>>>> upstream/18.0
 =======
 "अगर ऑर्डर का कुल वज़न इस वज़न से ज़्यादा है, तो यह तरीका उपलब्ध नहीं होगा।"
 >>>>>>> upstream/18.0
@@ -4919,7 +5228,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:delivery.view_delivery_carrier_form
 msgid "Install more Providers"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "और प्रोवाइडर इंस्टॉल करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "और प्रोवाइडर इंस्टॉल करें"
 >>>>>>> upstream/18.0
@@ -4928,7 +5241,11 @@ msgstr "और प्रोवाइडर इंस्टॉल करें"
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__shipping_insurance
 msgid "Insurance Percentage"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इंश्योरेंस प्रतिशत"
+>>>>>>> upstream/18.0
 =======
 msgstr "इंश्योरेंस प्रतिशत"
 >>>>>>> upstream/18.0
@@ -4937,7 +5254,11 @@ msgstr "इंश्योरेंस प्रतिशत"
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__integration_level
 msgid "Integration Level"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इंटिग्रेशन लेवल"
+>>>>>>> upstream/18.0
 =======
 msgstr "इंटिग्रेशन लेवल"
 >>>>>>> upstream/18.0
@@ -4946,7 +5267,11 @@ msgstr "इंटिग्रेशन लेवल"
 #: model:ir.model.fields,field_description:delivery.field_choose_delivery_carrier__invoicing_message
 msgid "Invoicing Message"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इनवॉइसिंग मैसेज"
+>>>>>>> upstream/18.0
 =======
 msgstr "इनवॉइसिंग मैसेज"
 >>>>>>> upstream/18.0
@@ -4955,7 +5280,11 @@ msgstr "इनवॉइसिंग मैसेज"
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__invoice_policy
 msgid "Invoicing Policy"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इनवॉइसिंग की नीति"
+>>>>>>> upstream/18.0
 =======
 msgstr "इनवॉइसिंग की नीति"
 >>>>>>> upstream/18.0
@@ -4964,7 +5293,11 @@ msgstr "इनवॉइसिंग की नीति"
 #: model:ir.model.fields,field_description:delivery.field_sale_order_line__is_delivery
 msgid "Is a Delivery"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "डिलीवरी है"
+>>>>>>> upstream/18.0
 =======
 msgstr "डिलीवरी है"
 >>>>>>> upstream/18.0
@@ -5058,7 +5391,11 @@ msgid "Last Updated by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इन्होंने आखिरी बार अपडेट किया"
+>>>>>>> upstream/18.0
 =======
 msgstr "इन्होंने आखिरी बार अपडेट किया"
 >>>>>>> upstream/18.0
@@ -5398,7 +5735,11 @@ msgid "Last Updated on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आखिरी बार अपडेट हुआ"
+>>>>>>> upstream/18.0
 =======
 msgstr "आखिरी बार अपडेट हुआ"
 >>>>>>> upstream/18.0
@@ -5654,7 +5995,11 @@ msgstr "आखिरी बार अपडेट हुआ"
 #: code:addons/delivery/static/src/js/location_selector/location_selector_dialog/location_selector_dialog.js:0
 msgid "List view"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "लिस्ट व्यू"
+>>>>>>> upstream/18.0
 =======
 msgstr "लिस्ट व्यू"
 >>>>>>> upstream/18.0
@@ -5664,7 +6009,11 @@ msgstr "लिस्ट व्यू"
 #: code:addons/delivery/static/src/js/location_selector/location_selector_dialog/location_selector_dialog.js:0
 msgid "Loading..."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "लोडिंग..।"
+>>>>>>> upstream/18.0
 =======
 msgstr "लोडिंग..।"
 >>>>>>> upstream/18.0
@@ -5673,7 +6022,11 @@ msgstr "लोडिंग..।"
 #: model:delivery.carrier,name:delivery.delivery_local_delivery
 msgid "Local Delivery"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "लोकल डिलीवरी"
+>>>>>>> upstream/18.0
 =======
 msgstr "लोकल डिलीवरी"
 >>>>>>> upstream/18.0
@@ -5682,7 +6035,11 @@ msgstr "लोकल डिलीवरी"
 #: model:ir.model.fields,help:delivery.field_delivery_carrier__debug_logging
 msgid "Log requests in order to ease debugging"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आसान डीबगिंग के लिए अनुरोधों को लॉग करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "आसान डीबगिंग के लिए अनुरोधों को लॉग करें"
 >>>>>>> upstream/18.0
@@ -5691,7 +6048,11 @@ msgstr "आसान डीबगिंग के लिए अनुरोध�
 #: model_terms:ir.actions.act_window,help:delivery.action_delivery_zip_prefix_list
 msgid "Manage delivery zip prefixes"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "डिलीवरी ज़िप प्रीफ़िक्स मैनेज करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "डिलीवरी ज़िप प्रीफ़िक्स मैनेज करें"
 >>>>>>> upstream/18.0
@@ -5701,7 +6062,11 @@ msgstr "डिलीवरी ज़िप प्रीफ़िक्स मै
 #: code:addons/delivery/static/src/js/location_selector/location_selector_dialog/location_selector_dialog.js:0
 msgid "Map view"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मैप व्यू"
+>>>>>>> upstream/18.0
 =======
 msgstr "मैप व्यू"
 >>>>>>> upstream/18.0
@@ -5792,7 +6157,11 @@ msgid "Margin"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मार्जिन"
+>>>>>>> upstream/18.0
 =======
 msgstr "मार्जिन"
 >>>>>>> upstream/18.0
@@ -6047,7 +6416,11 @@ msgstr "मार्जिन"
 #: model:ir.model.constraint,message:delivery.constraint_delivery_carrier_margin_not_under_100_percent
 msgid "Margin cannot be lower than -100%"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मार्जिन -100% से कम नहीं हो सकता"
+>>>>>>> upstream/18.0
 =======
 msgstr "मार्जिन -100% से कम नहीं हो सकता"
 >>>>>>> upstream/18.0
@@ -6056,7 +6429,11 @@ msgstr "मार्जिन -100% से कम नहीं हो सकत�
 #: model_terms:ir.ui.view,arch_db:delivery.view_delivery_carrier_form
 msgid "Margin on Rate"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कीमत पर मार्जिन"
+>>>>>>> upstream/18.0
 =======
 msgstr "कीमत पर मार्जिन"
 >>>>>>> upstream/18.0
@@ -6065,7 +6442,11 @@ msgstr "कीमत पर मार्जिन"
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__max_volume
 msgid "Max Volume"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ज़्यादा से ज़्यादा वॉल्यूम"
+>>>>>>> upstream/18.0
 =======
 msgstr "ज़्यादा से ज़्यादा वॉल्यूम"
 >>>>>>> upstream/18.0
@@ -6074,7 +6455,11 @@ msgstr "ज़्यादा से ज़्यादा वॉल्यूम
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__max_weight
 msgid "Max Weight"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अधिकतम वजन"
+>>>>>>> upstream/18.0
 =======
 msgstr "अधिकतम वजन"
 >>>>>>> upstream/18.0
@@ -6083,7 +6468,11 @@ msgstr "अधिकतम वजन"
 #: model:ir.model.fields,field_description:delivery.field_delivery_price_rule__max_value
 msgid "Maximum Value"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अधिकतम वैल्यू"
+>>>>>>> upstream/18.0
 =======
 msgstr "अधिकतम वैल्यू"
 >>>>>>> upstream/18.0
@@ -6092,7 +6481,11 @@ msgstr "अधिकतम वैल्यू"
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__must_have_tag_ids
 msgid "Must Have Tags"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "टैग्स ज़रूर होने चाहिए"
+>>>>>>> upstream/18.0
 =======
 msgstr "टैग्स ज़रूर होने चाहिए"
 >>>>>>> upstream/18.0
@@ -6107,7 +6500,11 @@ msgstr "नाम"
 #: code:addons/delivery/models/delivery_carrier.py:0
 msgid "New Providers"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "नए प्रोवाइडर्स"
+>>>>>>> upstream/18.0
 =======
 msgstr "नए प्रोवाइडर्स"
 >>>>>>> upstream/18.0
@@ -6117,7 +6514,11 @@ msgstr "नए प्रोवाइडर्स"
 #: code:addons/delivery/models/sale_order.py:0
 msgid "No pick-up points are available for this delivery address."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इस डिलीवरी पते के लिए कोई पिक-अप पॉइंट उपलब्ध नहीं है।"
+>>>>>>> upstream/18.0
 =======
 msgstr "इस डिलीवरी पते के लिए कोई पिक-अप पॉइंट उपलब्ध नहीं है।"
 >>>>>>> upstream/18.0
@@ -6127,7 +6528,11 @@ msgstr "इस डिलीवरी पते के लिए कोई पि
 #: code:addons/delivery/static/src/js/location_selector/location_selector_dialog/location_selector_dialog.js:0
 msgid "No result"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कोई नतीजा नहीं"
+>>>>>>> upstream/18.0
 =======
 msgstr "कोई नतीजा नहीं"
 >>>>>>> upstream/18.0
@@ -6137,7 +6542,11 @@ msgstr "कोई नतीजा नहीं"
 #: code:addons/delivery/models/delivery_carrier.py:0
 msgid "Not available for current order"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मौजूदा ऑर्डर के लिए उपलब्ध नहीं"
+>>>>>>> upstream/18.0
 =======
 msgstr "मौजूदा ऑर्डर के लिए उपलब्ध नहीं"
 >>>>>>> upstream/18.0
@@ -6148,7 +6557,11 @@ msgstr "मौजूदा ऑर्डर के लिए उपलब्ध �
 #: code:addons/delivery/static/src/js/location_selector/map_container/map_container.js:0
 msgid "Opening hours"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "खुलने का समय"
+>>>>>>> upstream/18.0
 =======
 msgstr "खुलने का समय"
 >>>>>>> upstream/18.0
@@ -6157,7 +6570,11 @@ msgstr "खुलने का समय"
 #: model:ir.model.fields,field_description:delivery.field_delivery_price_rule__operator
 msgid "Operator"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऑपरेटर"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऑपरेटर"
 >>>>>>> upstream/18.0
@@ -6166,7 +6583,11 @@ msgstr "ऑपरेटर"
 #: model:ir.model.fields,field_description:delivery.field_choose_delivery_carrier__order_id
 msgid "Order"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऑर्डर"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऑर्डर"
 >>>>>>> upstream/18.0
@@ -6175,7 +6596,11 @@ msgstr "ऑर्डर"
 #: model:ir.model.fields,field_description:delivery.field_sale_order__pickup_location_data
 msgid "Pickup Location Data"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पिकअप की जगह का डेटा"
+>>>>>>> upstream/18.0
 =======
 msgstr "पिकअप की जगह का डेटा"
 >>>>>>> upstream/18.0
@@ -6184,7 +6609,11 @@ msgstr "पिकअप की जगह का डेटा"
 #: model_terms:ir.ui.view,arch_db:delivery.view_delivery_carrier_form
 msgid "Please select a country before choosing a state or a zip prefix."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "किसी राज्य या ज़िप प्रीफ़िक्स को चुनने से पहले, कृपया एक देश चुनें।"
+>>>>>>> upstream/18.0
 =======
 msgstr "किसी राज्य या ज़िप प्रीफ़िक्स को चुनने से पहले, कृपया एक देश चुनें।"
 >>>>>>> upstream/18.0
@@ -6193,7 +6622,11 @@ msgstr "किसी राज्य या ज़िप प्रीफ़ि�
 #: model:ir.model.fields,field_description:delivery.field_delivery_zip_prefix__name
 msgid "Prefix"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्रीफ़िक्स"
+>>>>>>> upstream/18.0
 =======
 msgstr "प्रीफ़िक्स"
 >>>>>>> upstream/18.0
@@ -6202,7 +6635,11 @@ msgstr "प्रीफ़िक्स"
 #: model:ir.model.constraint,message:delivery.constraint_delivery_zip_prefix_name_uniq
 msgid "Prefix already exists!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्रीफ़िक्स पहले से ही मौजूद है!"
+>>>>>>> upstream/18.0
 =======
 msgstr "प्रीफ़िक्स पहले से ही मौजूद है!"
 >>>>>>> upstream/18.0
@@ -6216,11 +6653,17 @@ msgid ""
 "will only match '100' and not '1000')"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "ज़िप कोड के प्रीफ़िक्स जिन पर यह कैरियर लागू होता है. ध्यान दें कि अलग-अलग लंबाई के ज़िप को"
 "ड वाले देशों में रेगुलर एक्सप्रेशन का इस्तेमाल किया जा सकता है. जैसे, '100$' को सिर्फ़ '100' के"
 " ज़िप कोड के साथ मैच करने के लिए प्रीफ़िक्स के आखिर में '$' का इस्तेमाल किया जा सकता है. "
 "यह '1000' से मैच नहीं करेगा"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: delivery
@@ -6310,7 +6753,11 @@ msgid "Price"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कीम"
+>>>>>>> upstream/18.0
 =======
 msgstr "कीम"
 >>>>>>> upstream/18.0
@@ -6566,7 +7013,11 @@ msgstr "कीम"
 #: model_terms:ir.ui.view,arch_db:delivery.view_delivery_price_rule_tree
 msgid "Price Rules"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कीमत से जुड़े नियम"
+>>>>>>> upstream/18.0
 =======
 msgstr "कीमत से जुड़े नियम"
 >>>>>>> upstream/18.0
@@ -6647,7 +7098,11 @@ msgid "Pricing"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कीम"
+>>>>>>> upstream/18.0
 =======
 msgstr "कीम"
 >>>>>>> upstream/18.0
@@ -6872,7 +7327,11 @@ msgstr "कीम"
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__price_rule_ids
 msgid "Pricing Rules"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कीमत से जुड़े नियम"
+>>>>>>> upstream/18.0
 =======
 msgstr "कीमत से जुड़े नियम"
 >>>>>>> upstream/18.0
@@ -6886,7 +7345,11 @@ msgstr "उत्पाद श्रेणी"
 #: model:ir.model.fields,field_description:delivery.field_sale_order_line__product_qty
 msgid "Product Qty"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्रॉडक्ट क्वांटिटी"
+>>>>>>> upstream/18.0
 =======
 msgstr "प्रॉडक्ट क्वांटिटी"
 >>>>>>> upstream/18.0
@@ -6897,7 +7360,11 @@ msgstr "प्रॉडक्ट क्वांटिटी"
 #: model_terms:ir.ui.view,arch_db:delivery.view_delivery_carrier_search
 msgid "Provider"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्रोवाइडर"
+>>>>>>> upstream/18.0
 =======
 msgstr "प्रोवाइडर"
 >>>>>>> upstream/18.0
@@ -6912,7 +7379,11 @@ msgstr "मात्रा"
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__get_return_label_from_portal
 msgid "Return Label Accessible from Customer Portal"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ग्राहक पोर्टल से रिटर्न लेबल ऐक्सेस किया जा सकता है"
+>>>>>>> upstream/18.0
 =======
 msgstr "ग्राहक पोर्टल से रिटर्न लेबल ऐक्सेस किया जा सकता है"
 >>>>>>> upstream/18.0
@@ -6921,7 +7392,11 @@ msgstr "ग्राहक पोर्टल से रिटर्न ले�
 #: model:ir.model.fields,field_description:delivery.field_delivery_price_rule__list_base_price
 msgid "Sale Base Price"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सेल बेस प्राइस"
+>>>>>>> upstream/18.0
 =======
 msgstr "सेल बेस प्राइस"
 >>>>>>> upstream/18.0
@@ -6930,7 +7405,11 @@ msgstr "सेल बेस प्राइस"
 #: model:ir.model.fields,field_description:delivery.field_delivery_price_rule__list_price
 msgid "Sale Price"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सेल प्राइस"
+>>>>>>> upstream/18.0
 =======
 msgstr "सेल प्राइस"
 >>>>>>> upstream/18.0
@@ -7030,7 +7509,11 @@ msgid "Sales Order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सेल्स ऑर्डर"
+>>>>>>> upstream/18.0
 =======
 msgstr "सेल्स ऑर्डर"
 >>>>>>> upstream/18.0
@@ -7318,7 +7801,11 @@ msgstr "बिक्री आदेश पंक्ति"
 #: code:addons/delivery/static/src/js/location_selector/location_selector_dialog/location_selector_dialog.xml:0
 msgid "Search"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सर्च"
+>>>>>>> upstream/18.0
 =======
 msgstr "सर्च"
 >>>>>>> upstream/18.0
@@ -7333,7 +7820,11 @@ msgstr "अनुक्रम"
 #: model:ir.model.fields,field_description:delivery.field_sale_order__is_all_service
 msgid "Service Product"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सर्विस प्रॉडक्ट"
+>>>>>>> upstream/18.0
 =======
 msgstr "सर्विस प्रॉडक्ट"
 >>>>>>> upstream/18.0
@@ -7343,6 +7834,10 @@ msgstr "सर्विस प्रॉडक्ट"
 msgid "Set to True if your credentials are certified for production."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"अगर आपके क्रेडेंशियल प्रॉडक्शन के लिए प्रमाणित हैं, तो 'सही' पर सेट करें।"
+>>>>>>> upstream/18.0
 =======
 "अगर आपके क्रेडेंशियल प्रॉडक्शन के लिए प्रमाणित हैं, तो 'सही' पर सेट करें।"
 >>>>>>> upstream/18.0
@@ -7351,7 +7846,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:delivery.field_choose_delivery_carrier__carrier_id
 msgid "Shipping Method"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "शिपिंग का तरीका"
+>>>>>>> upstream/18.0
 =======
 msgstr "शिपिंग का तरीका"
 >>>>>>> upstream/18.0
@@ -7361,7 +7860,11 @@ msgstr "शिपिंग का तरीका"
 #: model_terms:ir.ui.view,arch_db:delivery.res_config_settings_view_form
 msgid "Shipping Methods"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "शिपिंग के तरीके"
+>>>>>>> upstream/18.0
 =======
 msgstr "शिपिंग के तरीके"
 >>>>>>> upstream/18.0
@@ -7370,7 +7873,11 @@ msgstr "शिपिंग के तरीके"
 #: model:ir.model.fields,field_description:delivery.field_sale_order__shipping_weight
 msgid "Shipping Weight"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "शिपिंग का वज़न"
+>>>>>>> upstream/18.0
 =======
 msgstr "शिपिंग का वज़न"
 >>>>>>> upstream/18.0
@@ -7382,6 +7889,11 @@ msgid ""
 "are lost, stolen, and/or damaged in transit."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"शिपिंग इंश्योरेंस एक ऐसी सुविधा है, जिसके तहत अगर आपका भेजा हुआ पार्सल रास्ते में खो जाता है"
+", चोरी हो जाता है या टूट-फूट जाता है, तो आपको उसका मुआवज़ा मिल सकता है।"
+>>>>>>> upstream/18.0
 =======
 "शिपिंग इंश्योरेंस एक ऐसी सुविधा है, जिसके तहत अगर आपका भेजा हुआ पार्सल रास्ते में खो जाता है"
 ", चोरी हो जाता है या टूट-फूट जाता है, तो आपको उसका मुआवज़ा मिल सकता है।"
@@ -7394,6 +7906,11 @@ msgid ""
 "confirmation emails. E.g. Instructions for customers to follow."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"आप अपने सेल्स ऑर्डर और कन्फ़र्मेशन ईमेल में नीचे की ओर शिपिंग के तरीके के बारे में जानकारी दे सकते"
+" हैं. उदाहरण के लिए, ग्राहकों के लिए निर्देश।"
+>>>>>>> upstream/18.0
 =======
 "आप अपने सेल्स ऑर्डर और कन्फ़र्मेशन ईमेल में नीचे की ओर शिपिंग के तरीके के बारे में जानकारी दे सकते"
 " हैं. उदाहरण के लिए, ग्राहकों के लिए निर्देश।"
@@ -7404,7 +7921,11 @@ msgstr ""
 #: model:product.template,name:delivery.product_product_delivery_product_template
 msgid "Standard delivery"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "स्टैंडर्ड डिलीवरी"
+>>>>>>> upstream/18.0
 =======
 msgstr "स्टैंडर्ड डिलीवरी"
 >>>>>>> upstream/18.0
@@ -7413,7 +7934,11 @@ msgstr "स्टैंडर्ड डिलीवरी"
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__state_ids
 msgid "States"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "राज्य"
+>>>>>>> upstream/18.0
 =======
 msgstr "राज्य"
 >>>>>>> upstream/18.0
@@ -7422,7 +7947,11 @@ msgstr "राज्य"
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__supports_shipping_insurance
 msgid "Supports Shipping Insurance"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "शिपिंग इश्योरेंस की सुविधा है"
+>>>>>>> upstream/18.0
 =======
 msgstr "शिपिंग इश्योरेंस की सुविधा है"
 >>>>>>> upstream/18.0
@@ -7440,6 +7969,10 @@ msgid ""
 "these tags."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"यह तरीका उपलब्ध नहीं है, अगर ऑर्डर के किसी भी प्रॉडक्ट पर इनमें से कम से कम एक टैग है।"
+>>>>>>> upstream/18.0
 =======
 "यह तरीका उपलब्ध नहीं है, अगर ऑर्डर के किसी भी प्रॉडक्ट पर इनमें से कम से कम एक टैग है।"
 >>>>>>> upstream/18.0
@@ -7451,6 +7984,10 @@ msgid ""
 " these tags."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"यह तरीका तभी उपलब्ध है, जब ऑर्डर के किसी भी प्रॉडक्ट पर इनमें से कम से कम एक टैग है।"
+>>>>>>> upstream/18.0
 =======
 "यह तरीका तभी उपलब्ध है, जब ऑर्डर के किसी भी प्रॉडक्ट पर इनमें से कम से कम एक टैग है।"
 >>>>>>> upstream/18.0
@@ -7460,7 +7997,11 @@ msgstr ""
 msgid ""
 "The return label can be downloaded by the customer from the customer portal."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ग्राहक, ग्राहक पोर्टल से रिटर्न लेबल डाउनलोड कर सकते हैं।"
+>>>>>>> upstream/18.0
 =======
 msgstr "ग्राहक, ग्राहक पोर्टल से रिटर्न लेबल डाउनलोड कर सकते हैं।"
 >>>>>>> upstream/18.0
@@ -7469,7 +8010,11 @@ msgstr "ग्राहक, ग्राहक पोर्टल से रि�
 #: model:ir.model.fields,help:delivery.field_delivery_carrier__return_label_on_delivery
 msgid "The return label is automatically generated at the delivery."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रिटर्न लेबल डिलीवरी के समय अपने-आप बन जाता है।"
+>>>>>>> upstream/18.0
 =======
 msgstr "रिटर्न लेबल डिलीवरी के समय अपने-आप बन जाता है।"
 >>>>>>> upstream/18.0
@@ -7478,7 +8023,11 @@ msgstr "रिटर्न लेबल डिलीवरी के समय �
 #: model:ir.model.constraint,message:delivery.constraint_delivery_carrier_shipping_insurance_is_percentage
 msgid "The shipping insurance must be a percentage between 0 and 100."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "शिपिंग इंश्योरेंस 0 से 100 के बीच का प्रतिशत होना चाहिए।"
+>>>>>>> upstream/18.0
 =======
 msgstr "शिपिंग इंश्योरेंस 0 से 100 के बीच का प्रतिशत होना चाहिए।"
 >>>>>>> upstream/18.0
@@ -7488,7 +8037,11 @@ msgstr "शिपिंग इंश्योरेंस 0 से 100 के �
 #: code:addons/delivery/models/delivery_carrier.py:0
 msgid "The shipping is free since the order amount exceeds %.2f."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऑर्डर की रकम %.2f से ज़्यादा होने की वजह से, शिपिंग मुफ़्त है।"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऑर्डर की रकम %.2f से ज़्यादा होने की वजह से, शिपिंग मुफ़्त है।"
 >>>>>>> upstream/18.0
@@ -7498,7 +8051,11 @@ msgstr "ऑर्डर की रकम %.2f से ज़्यादा ह�
 #: code:addons/delivery/static/src/js/location_selector/map_container/map_container.js:0
 msgid "There was an error loading the map"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मैप लोड होने में कोई गड़बड़ी हुई"
+>>>>>>> upstream/18.0
 =======
 msgstr "मैप लोड होने में कोई गड़बड़ी हुई"
 >>>>>>> upstream/18.0
@@ -7511,6 +8068,12 @@ msgid ""
 "            quotation) or the invoice (based on the delivery orders)."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ये तरीके आपकी सेटिंग के हिसाब से डिलीवरी की कीमत अपने-आप तय करने की अनुमति देते हैं\n"
+"            सेल्स ऑर्डर (कोटेशन के आधार पर) \n"
+"            या इनवॉइस (डिलीवरी ऑर्डर के आधार पर)।"
+>>>>>>> upstream/18.0
 =======
 "ये तरीके आपकी सेटिंग के हिसाब से डिलीवरी की कीमत अपने-आप तय करने की अनुमति देते हैं\n"
 "            सेल्स ऑर्डर (कोटेशन के आधार पर) \n"
@@ -7521,7 +8084,11 @@ msgstr ""
 #: model:ir.model.fields,help:delivery.field_delivery_carrier__fixed_margin
 msgid "This fixed amount will be added to the shipping price."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एक तय रकम, सामान को भेजने के खर्च में जोड़ दी जाएगी।"
+>>>>>>> upstream/18.0
 =======
 msgstr "एक तय रकम, सामान को भेजने के खर्च में जोड़ दी जाएगी।"
 >>>>>>> upstream/18.0
@@ -7533,6 +8100,11 @@ msgid ""
 "package easily. Use <shipmenttrackingnumber> as a placeholder in your URL."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"यह विकल्प पोर्टल में ग्राहक के लिए उनके पैकेज को आसानी से ट्रैक करने के लिए एक लिंक जोड़ता है"
+". अपने यूआरएल में प्लेसहोल्डर के रूप में <shipmenttrackingnumber> का इस्तेमाल करें।"
+>>>>>>> upstream/18.0
 =======
 "यह विकल्प पोर्टल में ग्राहक के लिए उनके पैकेज को आसानी से ट्रैक करने के लिए एक लिंक जोड़ता है"
 ". अपने यूआरएल में प्लेसहोल्डर के रूप में <shipmenttrackingnumber> का इस्तेमाल करें।"
@@ -7542,7 +8114,11 @@ msgstr ""
 #: model:ir.model.fields,help:delivery.field_delivery_carrier__margin
 msgid "This percentage will be added to the shipping price."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "यह प्रतिशत शिपिंग की कीमत में जोड़ा जाएगा।"
+>>>>>>> upstream/18.0
 =======
 msgstr "यह प्रतिशत शिपिंग की कीमत में जोड़ा जाएगा।"
 >>>>>>> upstream/18.0
@@ -7551,7 +8127,11 @@ msgstr "यह प्रतिशत शिपिंग की कीमत म�
 #: model:ir.model.fields,field_description:delivery.field_choose_delivery_carrier__total_weight
 msgid "Total Order Weight"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कुल ऑर्डर का वज़न"
+>>>>>>> upstream/18.0
 =======
 msgstr "कुल ऑर्डर का वज़न"
 >>>>>>> upstream/18.0
@@ -7560,7 +8140,11 @@ msgstr "कुल ऑर्डर का वज़न"
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__tracking_url
 msgid "Tracking Link"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ट्रैकिंग लिंक"
+>>>>>>> upstream/18.0
 =======
 msgstr "ट्रैकिंग लिंक"
 >>>>>>> upstream/18.0
@@ -7641,7 +8225,11 @@ msgid "Update"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अपडेट"
+>>>>>>> upstream/18.0
 =======
 msgstr "अपडेट"
 >>>>>>> upstream/18.0
@@ -7868,7 +8456,11 @@ msgstr "अपडेट"
 #: model_terms:ir.ui.view,arch_db:delivery.view_order_form_with_carrier
 msgid "Update shipping cost"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "शिपिंग की कीमत अपडेट करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "शिपिंग की कीमत अपडेट करें"
 >>>>>>> upstream/18.0
@@ -7877,7 +8469,11 @@ msgstr "शिपिंग की कीमत अपडेट करें"
 #: model:ir.model.fields,field_description:delivery.field_delivery_price_rule__variable
 msgid "Variable"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "वैरिएबल"
+>>>>>>> upstream/18.0
 =======
 msgstr "वैरिएबल"
 >>>>>>> upstream/18.0
@@ -7886,7 +8482,11 @@ msgstr "वैरिएबल"
 #: model:ir.model.fields,field_description:delivery.field_delivery_price_rule__variable_factor
 msgid "Variable Factor"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "वैरिएबल फ़ैक्टर"
+>>>>>>> upstream/18.0
 =======
 msgstr "वैरिएबल फ़ैक्टर"
 >>>>>>> upstream/18.0
@@ -7901,7 +8501,11 @@ msgstr "आवाज़"
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__volume_uom_name
 msgid "Volume unit of measure label"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "वॉल्यूम की माप यूनिट का लेबल"
+>>>>>>> upstream/18.0
 =======
 msgstr "वॉल्यूम की माप यूनिट का लेबल"
 >>>>>>> upstream/18.0
@@ -7911,7 +8515,11 @@ msgstr "वॉल्यूम की माप यूनिट का लेब�
 #: model:ir.model.fields.selection,name:delivery.selection__delivery_price_rule__variable_factor__weight
 msgid "Weight"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "वज़न"
+>>>>>>> upstream/18.0
 =======
 msgstr "वज़न"
 >>>>>>> upstream/18.0
@@ -7921,7 +8529,11 @@ msgstr "वज़न"
 #: model:ir.model.fields.selection,name:delivery.selection__delivery_price_rule__variable_factor__wv
 msgid "Weight * Volume"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "वज़न * मात्रा"
+>>>>>>> upstream/18.0
 =======
 msgstr "वज़न * मात्रा"
 >>>>>>> upstream/18.0
@@ -7930,7 +8542,11 @@ msgstr "वज़न * मात्रा"
 #: model:ir.model.fields,field_description:delivery.field_choose_delivery_carrier__weight_uom_name
 msgid "Weight Uom Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "वज़न यूओएम का नाम"
+>>>>>>> upstream/18.0
 =======
 msgstr "वज़न यूओएम का नाम"
 >>>>>>> upstream/18.0
@@ -7939,7 +8555,11 @@ msgstr "वज़न यूओएम का नाम"
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__weight_uom_name
 msgid "Weight unit of measure label"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "वज़न की माप यूनिट का लेबल"
+>>>>>>> upstream/18.0
 =======
 msgstr "वज़न की माप यूनिट का लेबल"
 >>>>>>> upstream/18.0
@@ -7954,12 +8574,18 @@ msgid ""
 "\n"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "आप ऐसे ऑर्डर पर शिपिंग लागत को अपडेट नहीं कर सकते हैं जिसका इनवॉइस पहले ही बन चुका है!\n"
 "\n"
 "निम्नलिखित डिलीवरी लाइनें (प्रॉडक्ट, इनवॉइस की गई मात्रा और कीमत) पहले ही प्रोसेस हो "
 "चुकी हैं:\n"
 "\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: delivery
@@ -7970,6 +8596,11 @@ msgid ""
 "delivery carriers products."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"आप डिलीवरी प्रॉडक्ट कैटगरी को हटा नहीं सकते हैं, क्योंकि इसका इस्तेमाल डिलीवरी वाहक "
+"प्रॉडक्ट्स में किया जाता है।"
+>>>>>>> upstream/18.0
 =======
 "आप डिलीवरी प्रॉडक्ट कैटगरी को हटा नहीं सकते हैं, क्योंकि इसका इस्तेमाल डिलीवरी वाहक "
 "प्रॉडक्ट्स में किया जाता है।"
@@ -7980,7 +8611,11 @@ msgstr ""
 #: code:addons/delivery/static/src/js/location_selector/location_selector_dialog/location_selector_dialog.js:0
 msgid "Your postal code"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आपका पोस्टल कोड"
+>>>>>>> upstream/18.0
 =======
 msgstr "आपका पोस्टल कोड"
 >>>>>>> upstream/18.0
@@ -7989,7 +8624,11 @@ msgstr "आपका पोस्टल कोड"
 #: model:ir.actions.act_window,name:delivery.action_delivery_zip_prefix_list
 msgid "Zip Prefix"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ज़िप प्रीफ़िक्स"
+>>>>>>> upstream/18.0
 =======
 msgstr "ज़िप प्रीफ़िक्स"
 >>>>>>> upstream/18.0
@@ -7998,7 +8637,11 @@ msgstr "ज़िप प्रीफ़िक्स"
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__zip_prefix_ids
 msgid "Zip Prefixes"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ज़िप प्रीफ़िक्स"
+>>>>>>> upstream/18.0
 =======
 msgstr "ज़िप प्रीफ़िक्स"
 >>>>>>> upstream/18.0
@@ -8007,7 +8650,11 @@ msgstr "ज़िप प्रीफ़िक्स"
 #: model_terms:ir.ui.view,arch_db:delivery.view_delivery_carrier_form
 msgid "e.g. UPS Express"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "जैसे, UPS Express"
+>>>>>>> upstream/18.0
 =======
 msgstr "जैसे, UPS Express"
 >>>>>>> upstream/18.0
@@ -8016,7 +8663,11 @@ msgstr "जैसे, UPS Express"
 #: model_terms:ir.ui.view,arch_db:delivery.view_delivery_carrier_form
 msgid "i.e. https://ekartlogistics.com/shipmenttrack/<shipmenttrackingnumber>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "यानी, https://ekartlogistics.com/shipmenttrack/<shipmenttrackingnumber>"
+>>>>>>> upstream/18.0
 =======
 msgstr "यानी, https://ekartlogistics.com/shipmenttrack/<shipmenttrackingnumber>"
 >>>>>>> upstream/18.0

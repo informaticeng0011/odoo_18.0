@@ -1,8 +1,13 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* website_event
 # 
+=======
+# * website_event
+#
+>>>>>>> upstream/18.0
 =======
 # * website_event
 #
@@ -25,7 +30,11 @@
 # Jonas Zinkevicius <jozi@odoo.com>, 2024
 # digitouch UAB <digitouchagencyeur@gmail.com>, 2024
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
@@ -34,6 +43,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-16 13:39+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 "Last-Translator: digitouch UAB <digitouchagencyeur@gmail.com>, 2024\n"
@@ -44,6 +54,8 @@ msgstr ""
 "Language: lt\n"
 "Plural-Forms: nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < 11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? 1 : n % 1 != 0 ? 2: 3);\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-11-21 06:37+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Lithuanian <https://translate.odoo.com/projects/odoo-18/"
@@ -56,13 +68,20 @@ msgstr ""
 "11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? 1 :"
 " n % 1 != 0 ? 2: 3);\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: website_event
 #: model:ir.model.fields,field_description:website_event.field_website_visitor__event_registration_count
 msgid "# Registrations"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "# Registracija"
+>>>>>>> upstream/18.0
 =======
 msgstr "# Registracija"
 >>>>>>> upstream/18.0
@@ -76,7 +95,11 @@ msgstr "'. Rezultatai rodomi pagal '"
 #: model_terms:ir.ui.view,arch_db:website_event.modal_ticket_registration
 msgid "(only"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "(tik"
+>>>>>>> upstream/18.0
 =======
 msgstr "(tik"
 >>>>>>> upstream/18.0
@@ -90,7 +113,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_event.registration_complete
 msgid "<b>End</b>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<b>Pabaiga</b>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<b>Pabaiga</b>"
 >>>>>>> upstream/18.0
@@ -104,7 +131,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_event.registration_complete
 msgid "<b>Start</b>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<b>Pradžiat</b>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<b>Pradžiat</b>"
 >>>>>>> upstream/18.0
@@ -126,6 +157,11 @@ msgid ""
 "your events.</em>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<em>Čia parašykite vieno iš jūsų dalyvių citatą. Tai suteikia pasitikėjimo "
+"jūsų renginiais.</em>"
+>>>>>>> upstream/18.0
 =======
 "<em>Čia parašykite vieno iš jūsų dalyvių citatą. Tai suteikia pasitikėjimo "
 "jūsų renginiais.</em>"
@@ -135,7 +171,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_event.modal_ticket_registration
 msgid "<i class=\"fa fa-ban me-2\"/>Sold Out"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-ban me-2\"/>išparduota"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-ban me-2\"/>išparduota"
 >>>>>>> upstream/18.0
@@ -154,7 +194,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_event.events_list
 msgid "<i class=\"fa fa-check me-2\"/>Registered"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-check me-2\"/>Registruotas"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-check me-2\"/>Registruotas"
 >>>>>>> upstream/18.0
@@ -166,6 +210,11 @@ msgid ""
 "title=\"Facebook\"/>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-facebook text-facebook\" aria-label=\"Facebook\" title="
+"\"Facebook\"/>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-facebook text-facebook\" aria-label=\"Facebook\" title="
 "\"Facebook\"/>"
@@ -178,6 +227,11 @@ msgid ""
 "title=\"Configure event tickets\"/><em>Configure Tickets</em>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-gear me-1\" role=\"img\" aria-label=\"Configure\" title="
+"\"Configure event tickets\"/><em>Konfigūruoti renginio bilietus</em>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-gear me-1\" role=\"img\" aria-label=\"Configure\" title="
 "\"Configure event tickets\"/><em>Konfigūruoti renginio bilietus</em>"
@@ -188,6 +242,11 @@ msgstr ""
 msgid "<i class=\"fa fa-github text-github\" aria-label=\"Github\" title=\"Github\"/>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-github text-github\" aria-label=\"Github\" title=\"Github\""
+"/>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-github text-github\" aria-label=\"Github\" title=\"Github\""
 "/>"
@@ -205,6 +264,11 @@ msgid ""
 "title=\"Instagram\"/>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-instagram text-instagram\" aria-label=\"Instagram\" title="
+"\"Instagram\"/>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-instagram text-instagram\" aria-label=\"Instagram\" title="
 "\"Instagram\"/>"
@@ -217,6 +281,11 @@ msgid ""
 "title=\"LinkedIn\"/>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-linkedin text-linkedin\" aria-label=\"LinkedIn\" title="
+"\"LinkedIn\"/>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-linkedin text-linkedin\" aria-label=\"LinkedIn\" title="
 "\"LinkedIn\"/>"
@@ -237,6 +306,11 @@ msgstr ""
 msgid "<i class=\"fa fa-tiktok text-tiktok\" aria-label=\"TikTok\" title=\"TikTok\"/>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-tiktok text-tiktok\" aria-label=\"TikTok\" title=\"TikTok\""
+"/>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-tiktok text-tiktok\" aria-label=\"TikTok\" title=\"TikTok\""
 "/>"
@@ -254,6 +328,11 @@ msgid ""
 "title=\"Youtube\"/>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-youtube-play text-youtube\" aria-label=\"Youtube\" title="
+"\"Youtube\"/>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-youtube-play text-youtube\" aria-label=\"Youtube\" title="
 "\"Youtube\"/>"
@@ -293,6 +372,11 @@ msgid ""
 "o_wevent_badge\">Speaker</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"badge text-bg-secondary text-uppercase o_wevent_badge\""
+">Pranešėjes</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"badge text-bg-secondary text-uppercase o_wevent_badge\""
 ">Pranešėjes</span>"
@@ -302,7 +386,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_event.events_list
 msgid "<span class=\"fa fa-plus me-1\"/> Create an Event"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"fa fa-plus me-1\"/> Sukurti renginį"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"fa fa-plus me-1\"/> Sukurti renginį"
 >>>>>>> upstream/18.0
@@ -314,6 +402,11 @@ msgid ""
 "class=\"o_countdown_metric pe-1\">days</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"o_countdown_remaining o_timer_days pe-1\">0</span><span class="
+"\"o_countdown_metric pe-1\">d.</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"o_countdown_remaining o_timer_days pe-1\">0</span><span class="
 "\"o_countdown_metric pe-1\">d.</span>"
@@ -326,6 +419,11 @@ msgid ""
 "class=\"o_countdown_metric\">:</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"o_countdown_remaining o_timer_hours\">00</span><span class="
+"\"o_countdown_metric\">:</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"o_countdown_remaining o_timer_hours\">00</span><span class="
 "\"o_countdown_metric\">:</span>"
@@ -338,6 +436,11 @@ msgid ""
 "class=\"o_countdown_metric\">:</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"o_countdown_remaining o_timer_minutes\">00</span><span class="
+"\"o_countdown_metric\">:</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"o_countdown_remaining o_timer_minutes\">00</span><span class="
 "\"o_countdown_metric\">:</span>"
@@ -350,6 +453,11 @@ msgid ""
 "class=\"o_countdown_metric\"/>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"o_countdown_remaining o_timer_seconds\">00</span><span class="
+"\"o_countdown_metric\"/>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"o_countdown_remaining o_timer_seconds\">00</span><span class="
 "\"o_countdown_metric\"/>"
@@ -363,12 +471,18 @@ msgid ""
 "                                    </span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "<span itemprop=\"availability\" content=\"http://schema.org/SoldOut\" class"
 "=\"text-danger\">\n"
 "                                        <i class=\"fa fa-ban me-2\"/>"
 "Išparduota\n"
 "                                    </span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: website_event
@@ -421,7 +535,11 @@ msgstr ""
 #: model:event.question.answer,name:website_event.event_0_question_2_answer_2
 msgid "A friend"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Draugas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Draugas"
 >>>>>>> upstream/18.0
@@ -430,7 +548,11 @@ msgstr "Draugas"
 #: model_terms:ir.ui.view,arch_db:website_event.index_sidebar_photos
 msgid "A past event"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Paskutinis renginys"
+>>>>>>> upstream/18.0
 =======
 msgstr "Paskutinis renginys"
 >>>>>>> upstream/18.0
@@ -492,7 +614,11 @@ msgstr "Visi renginiai"
 #: model_terms:ir.ui.view,arch_db:website_event.event_location
 msgid "All countries"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Visos šalys"
+>>>>>>> upstream/18.0
 =======
 msgstr "Visos šalys"
 >>>>>>> upstream/18.0
@@ -501,7 +627,11 @@ msgstr "Visos šalys"
 #: model:event.question,title:website_event.event_0_question_1
 msgid "Allergies"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Alergijos"
+>>>>>>> upstream/18.0
 =======
 msgstr "Alergijos"
 >>>>>>> upstream/18.0
@@ -510,7 +640,11 @@ msgstr "Alergijos"
 #: model:ir.model.fields,help:website_event.field_event_event__website_menu
 msgid "Allows to display and manage event-specific menus on website."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Leidžia rodyti ir valdyti renginiams būdingus meniu svetainėje."
+>>>>>>> upstream/18.0
 =======
 msgstr "Leidžia rodyti ir valdyti renginiams būdingus meniu svetainėje."
 >>>>>>> upstream/18.0
@@ -524,11 +658,17 @@ msgid ""
 "became Odoo, the most installed open-source business software worldwide."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "Būdamas vos 13 metų, Johnas DOE jau pradėjo kurti savo pirmąsias verslo "
 "programas klientams. Įgijęs civilinės inžinerijos specialybę, jis įkūrė "
 "„TinyERP“. Tai buvo pirmasis „OpenERP“ etapas, kuris vėliau tapo „Odoo“ – "
 "dažniausiai pasaulyje diegiama atvirojo kodo verslo programine įranga."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: website_event
@@ -563,7 +703,11 @@ msgstr "Tinklaraščio įrašas"
 #: code:addons/website_event/models/website_snippet_filter.py:0
 msgid "Business Workshops"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Verslo seminarai"
+>>>>>>> upstream/18.0
 =======
 msgstr "Verslo seminarai"
 >>>>>>> upstream/18.0
@@ -584,7 +728,11 @@ msgstr "Atšaukti"
 #: model_terms:ir.ui.view,arch_db:website_event.snippet_options
 msgid "Card design"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kortelės dizainas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kortelės dizainas"
 >>>>>>> upstream/18.0
@@ -601,7 +749,11 @@ msgstr "Uždaryti"
 #: model:event.question.answer,name:website_event.event_0_question_2_answer_1
 msgid "Commercials"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Reklamos"
+>>>>>>> upstream/18.0
 =======
 msgstr "Reklamos"
 >>>>>>> upstream/18.0
@@ -613,7 +765,11 @@ msgstr "Reklamos"
 #: model_terms:ir.ui.view,arch_db:website_event.event_type_view_form
 msgid "Community"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bendrija"
+>>>>>>> upstream/18.0
 =======
 msgstr "Bendrija"
 >>>>>>> upstream/18.0
@@ -624,7 +780,11 @@ msgstr "Bendrija"
 #: model:ir.model.fields.selection,name:website_event.selection__website_event_menu__menu_type__community
 msgid "Community Menu"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bendruomenės meniu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Bendruomenės meniu"
 >>>>>>> upstream/18.0
@@ -639,7 +799,11 @@ msgstr "Įmonė"
 #: code:addons/website_event/models/website_snippet_filter.py:0
 msgid "Conference For Architects"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Architektų konferencija"
+>>>>>>> upstream/18.0
 =======
 msgstr "Architektų konferencija"
 >>>>>>> upstream/18.0
@@ -648,7 +812,11 @@ msgstr "Architektų konferencija"
 #: model_terms:ir.ui.view,arch_db:website_event.registration_configure_tickets_button
 msgid "Configure event tickets"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Renginių bilietų konfigūravimas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Renginių bilietų konfigūravimas"
 >>>>>>> upstream/18.0
@@ -662,7 +830,11 @@ msgstr "Patvirtinti registraciją"
 #: model:event.question.answer,name:website_event.event_7_question_0_answer_0
 msgid "Consumers"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vartotojai"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vartotojai"
 >>>>>>> upstream/18.0
@@ -737,7 +909,11 @@ msgstr "Rodyti priskirtąjį meniu svetainėje"
 #: model:ir.model.fields,help:website_event.field_event_type__community_menu
 msgid "Display community tab on website"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Rodyti bendruomenės skirtuką svetainėje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Rodyti bendruomenės skirtuką svetainėje"
 >>>>>>> upstream/18.0
@@ -757,7 +933,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_event.registration_ticket_access
 msgid "Download All Tickets"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Atsisiųsti visus bilietus"
+>>>>>>> upstream/18.0
 =======
 msgstr "Atsisiųsti visus bilietus"
 >>>>>>> upstream/18.0
@@ -766,7 +946,11 @@ msgstr "Atsisiųsti visus bilietus"
 #: model_terms:ir.ui.view,arch_db:website_event.registration_ticket_access
 msgid "Download Tickets <i class=\"ms-1 fa fa-download\"/>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Atsisiųsti bilietus <i class=\"ms-1 fa fa-download\"/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "Atsisiųsti bilietus <i class=\"ms-1 fa fa-download\"/>"
 >>>>>>> upstream/18.0
@@ -787,7 +971,11 @@ msgstr "Renginys"
 #: model:ir.model.fields,field_description:website_event.field_event_event__community_menu_ids
 msgid "Event Community Menus"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Renginių bendruomenės meniu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Renginių bendruomenės meniu"
 >>>>>>> upstream/18.0
@@ -831,7 +1019,11 @@ msgstr "Renginio pavadinimas"
 #: model_terms:ir.ui.view,arch_db:website_event.snippet_options
 msgid "Event Page"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Renginio puslapis"
+>>>>>>> upstream/18.0
 =======
 msgstr "Renginio puslapis"
 >>>>>>> upstream/18.0
@@ -840,7 +1032,11 @@ msgstr "Renginio puslapis"
 #: model:ir.actions.act_window,name:website_event.action_event_pages_list
 msgid "Event Pages"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Renginio puslapis"
+>>>>>>> upstream/18.0
 =======
 msgstr "Renginio puslapis"
 >>>>>>> upstream/18.0
@@ -880,7 +1076,11 @@ msgstr "Renginio žymos kategorija"
 #: model_terms:ir.ui.view,arch_db:website_event.s_dynamic_snippet_options_template
 msgid "Event Tags"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Renginio žymė"
+>>>>>>> upstream/18.0
 =======
 msgstr "Renginio žymė"
 >>>>>>> upstream/18.0
@@ -927,7 +1127,11 @@ msgstr "Renginiai"
 #: model_terms:ir.ui.view,arch_db:website_event.snippet_options
 msgid "Events Page"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Renginio puslapis"
+>>>>>>> upstream/18.0
 =======
 msgstr "Renginio puslapis"
 >>>>>>> upstream/18.0
@@ -951,7 +1155,11 @@ msgstr "Filtruoti pagal šalį"
 #: model_terms:ir.ui.view,arch_db:website_event.event_time
 msgid "Filter by Date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Filtruoti pagal datą"
+>>>>>>> upstream/18.0
 =======
 msgstr "Filtruoti pagal datą"
 >>>>>>> upstream/18.0
@@ -968,6 +1176,11 @@ msgid ""
 "conversation."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Sužinokite, ką žmonės mato ir sako apie šį renginį, ir prisijunkite prie "
+"pokalbio."
+>>>>>>> upstream/18.0
 =======
 "Sužinokite, ką žmonės mato ir sako apie šį renginį, ir prisijunkite prie "
 "pokalbio."
@@ -978,7 +1191,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_event.snippet_options
 msgid "Follow Us"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sekite mus"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sekite mus"
 >>>>>>> upstream/18.0
@@ -987,7 +1204,11 @@ msgstr "Sekite mus"
 #: model_terms:ir.ui.view,arch_db:website_event.layout
 msgid "Following content will appear on all events."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Toliau pateiktas turinys bus rodomas visuose renginiuose."
+>>>>>>> upstream/18.0
 =======
 msgstr "Toliau pateiktas turinys bus rodomas visuose renginiuose."
 >>>>>>> upstream/18.0
@@ -1034,7 +1255,11 @@ msgstr "Ledo ritulio turnyras"
 #: model:event.question,title:website_event.event_7_question_1
 msgid "How did you hear about us?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "kaip sužinojote apie mus?"
+>>>>>>> upstream/18.0
 =======
 msgstr "kaip sužinojote apie mus?"
 >>>>>>> upstream/18.0
@@ -1046,7 +1271,11 @@ msgstr "kaip sužinojote apie mus?"
 #: model:event.question,title:website_event.event_type_data_sports_question_0
 msgid "How did you learn about this event?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kaip sužinojote apie šį renginį?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kaip sužinojote apie šį renginį?"
 >>>>>>> upstream/18.0
@@ -1117,7 +1346,11 @@ msgstr "Paskelbta"
 #: model_terms:ir.ui.view,arch_db:website_event.s_speaker_bio
 msgid "John DOE"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "John DOE"
+>>>>>>> upstream/18.0
 =======
 msgstr "John DOE"
 >>>>>>> upstream/18.0
@@ -1160,7 +1393,11 @@ msgstr "Vieta"
 #: model:ir.model.fields,field_description:website_event.field_event_event__location_menu
 msgid "Location Menu"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vietos meniu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vietos meniu"
 >>>>>>> upstream/18.0
@@ -1169,7 +1406,11 @@ msgstr "Vietos meniu"
 #: model:ir.model.fields,field_description:website_event.field_event_event__location_menu_ids
 msgid "Location Menus"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vietos meniu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vietos meniu"
 >>>>>>> upstream/18.0
@@ -1187,6 +1428,11 @@ msgid ""
 "<b>visible</b> on your website!"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Atrodo puikiai! Dabar <b>paskelbkime</b> šį puslapį, kad jis taptų "
+"<b>matomas</b> jūsų svetainėje!"
+>>>>>>> upstream/18.0
 =======
 "Atrodo puikiai! Dabar <b>paskelbkime</b> šį puslapį, kad jis taptų "
 "<b>matomas</b> jūsų svetainėje!"
@@ -1196,7 +1442,11 @@ msgstr ""
 #: model:event.question,title:website_event.event_0_question_0
 msgid "Meal Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Maisto tipas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Maisto tipas"
 >>>>>>> upstream/18.0
@@ -1220,7 +1470,11 @@ msgstr "Meniu"
 #: model:event.question.answer,name:website_event.event_0_question_0_answer_0
 msgid "Mixed"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mišrus"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mišrus"
 >>>>>>> upstream/18.0
@@ -1245,7 +1499,11 @@ msgstr "Ateinantys renginiai"
 #: model_terms:ir.actions.act_window,help:website_event.website_event_menu_action
 msgid "No Website Menu Items yet!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kol kas nėra svetainės meniu punktų!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kol kas nėra svetainės meniu punktų!"
 >>>>>>> upstream/18.0
@@ -1254,7 +1512,11 @@ msgstr "Kol kas nėra svetainės meniu punktų!"
 #: model_terms:ir.ui.view,arch_db:website_event.events_list
 msgid "No event matching your search criteria could be found."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pagal jūsų paieškos kriterijus renginių nerasta."
+>>>>>>> upstream/18.0
 =======
 msgstr "Pagal jūsų paieškos kriterijus renginių nerasta."
 >>>>>>> upstream/18.0
@@ -1263,7 +1525,11 @@ msgstr "Pagal jūsų paieškos kriterijus renginių nerasta."
 #: model_terms:ir.ui.view,arch_db:website_event.events_list
 msgid "No events scheduled yet"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nėra suplanuotų renginių"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nėra suplanuotų renginių"
 >>>>>>> upstream/18.0
@@ -1272,7 +1538,11 @@ msgstr "Nėra suplanuotų renginių"
 #: model_terms:ir.actions.act_window,help:website_event.event_registration_action_from_visitor
 msgid "No registration linked to this visitor"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Su šiuo lankytoju nesusieta jokia registracija"
+>>>>>>> upstream/18.0
 =======
 msgstr "Su šiuo lankytoju nesusieta jokia registracija"
 >>>>>>> upstream/18.0
@@ -1281,7 +1551,11 @@ msgstr "Su šiuo lankytoju nesusieta jokia registracija"
 #: model_terms:ir.ui.view,arch_db:website_event.events_list
 msgid "No results found for '"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Rezultatų nerasta pagal '"
+>>>>>>> upstream/18.0
 =======
 msgstr "Rezultatų nerasta pagal '"
 >>>>>>> upstream/18.0
@@ -1295,7 +1569,11 @@ msgstr "Nepaskelbta"
 #: model_terms:ir.ui.view,arch_db:website_event.event_location
 msgid "Online Events"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Internetiniai renginiai"
+>>>>>>> upstream/18.0
 =======
 msgstr "Internetiniai renginiai"
 >>>>>>> upstream/18.0
@@ -1310,7 +1588,11 @@ msgstr ""
 #: code:addons/website_event/models/website_snippet_filter.py:0
 msgid "OpenWood Collection Online Reveal"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "\"OpenWood Collection“ internetinis pristatymas"
+>>>>>>> upstream/18.0
 =======
 msgstr "\"OpenWood Collection“ internetinis pristatymas"
 >>>>>>> upstream/18.0
@@ -1329,7 +1611,11 @@ msgstr "Mūsų mokymai"
 #: model:event.question.answer,name:website_event.event_0_question_2_answer_0
 msgid "Our website"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mūsų svetainė"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mūsų svetainė"
 >>>>>>> upstream/18.0
@@ -1350,7 +1636,11 @@ msgstr "Buvę renginiai"
 #: model:event.question.answer,name:website_event.event_0_question_0_answer_2
 msgid "Pastafarian"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pastafarian"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pastafarian"
 >>>>>>> upstream/18.0
@@ -1381,7 +1671,11 @@ msgstr "Paskelbtas"
 #: model_terms:ir.ui.view,arch_db:website_event.snippet_options
 msgid "Quotes"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pasiūlymai"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pasiūlymai"
 >>>>>>> upstream/18.0
@@ -1392,7 +1686,11 @@ msgstr "Pasiūlymai"
 #: model:event.question.answer,name:website_event.event_type_data_sports_question_0_answer_2
 msgid "Radio Ad"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Radijo reklama"
+>>>>>>> upstream/18.0
 =======
 msgstr "Radijo reklama"
 >>>>>>> upstream/18.0
@@ -1409,7 +1707,11 @@ msgstr "Registruotis"
 #: model:ir.model.fields,field_description:website_event.field_event_event__register_menu
 msgid "Register Menu"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Registracijos meniu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Registracijos meniu"
 >>>>>>> upstream/18.0
@@ -1418,7 +1720,11 @@ msgstr "Registracijos meniu"
 #: model:ir.model.fields,field_description:website_event.field_event_event__register_menu_ids
 msgid "Register Menus"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Registracijos meniu (dgs.)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Registracijos meniu (dgs.)"
 >>>>>>> upstream/18.0
@@ -1427,7 +1733,11 @@ msgstr "Registracijos meniu (dgs.)"
 #: model:ir.model.fields,field_description:website_event.field_website_visitor__event_registered_ids
 msgid "Registered Events"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Užregistruoti renginiai"
+>>>>>>> upstream/18.0
 =======
 msgstr "Užregistruoti renginiai"
 >>>>>>> upstream/18.0
@@ -1450,7 +1760,11 @@ msgstr "Registracija patvirtinta!"
 #: model_terms:ir.ui.view,arch_db:website_event.registration_template
 msgid "Registration failed! These tickets are not available anymore."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Registracija nepavyko! Šie bilietai daugiau nebepasiekiami."
+>>>>>>> upstream/18.0
 =======
 msgstr "Registracija nepavyko! Šie bilietai daugiau nebepasiekiami."
 >>>>>>> upstream/18.0
@@ -1480,7 +1794,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_event.field_event_event__start_remaining
 msgid "Remaining before start"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Liko iki pradžios"
+>>>>>>> upstream/18.0
 =======
 msgstr "Liko iki pradžios"
 >>>>>>> upstream/18.0
@@ -1489,7 +1807,11 @@ msgstr "Liko iki pradžios"
 #: model:ir.model.fields,help:website_event.field_event_event__start_remaining
 msgid "Remaining time before event starts (minutes)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Likęs laikas iki renginio pradžios (minutėmis)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Likęs laikas iki renginio pradžios (minutėmis)"
 >>>>>>> upstream/18.0
@@ -1541,7 +1863,11 @@ msgstr "Pavyzdis"
 #: model_terms:ir.ui.view,arch_db:website_event.events_search_box_input
 msgid "Search an event..."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ieškoti renginio..."
+>>>>>>> upstream/18.0
 =======
 msgstr "Ieškoti renginio..."
 >>>>>>> upstream/18.0
@@ -1551,7 +1877,11 @@ msgstr "Ieškoti renginio..."
 #: model_terms:ir.ui.view,arch_db:website_event.event_registration_view_tree
 msgid "Selected Answers"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pasirinkti atsakymai"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pasirinkti atsakymai"
 >>>>>>> upstream/18.0
@@ -1571,7 +1901,11 @@ msgstr "Dalintis"
 #: model_terms:ir.ui.view,arch_db:website_event.event_tag_category_view_tree
 msgid "Show on Website"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Rodyti svetainėje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Rodyti svetainėje"
 >>>>>>> upstream/18.0
@@ -1585,7 +1919,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_event.snippet_options
 msgid "Sidebar"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Šoninė juosta"
+>>>>>>> upstream/18.0
 =======
 msgstr "Šoninė juosta"
 >>>>>>> upstream/18.0
@@ -1612,7 +1950,11 @@ msgstr "Atsiprašome, pasirinktas renginys jau nebepasiekiamas."
 #: model:ir.model.fields,field_description:website_event.field_event_event__start_today
 msgid "Start Today"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pradėti šiandien"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pradėti šiandien"
 >>>>>>> upstream/18.0
@@ -1621,7 +1963,11 @@ msgstr "Pradėti šiandien"
 #: model_terms:ir.ui.view,arch_db:website_event.event_event_view_form_add
 msgid "Start → End"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pradžia → Pabaiga"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pradžia → Pabaiga"
 >>>>>>> upstream/18.0
@@ -1630,7 +1976,11 @@ msgstr "Pradžia → Pabaiga"
 #: model_terms:ir.ui.view,arch_db:website_event.display_timer_alert_widget
 msgid "Starts <span/>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prasideda:<span/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prasideda:<span/>"
 >>>>>>> upstream/18.0
@@ -1639,7 +1989,11 @@ msgstr "Prasideda:<span/>"
 #: model_terms:ir.ui.view,arch_db:website_event.snippet_options
 msgid "Sub-menu (Specific)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Po meniu (konkretus)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Po meniu (konkretus)"
 >>>>>>> upstream/18.0
@@ -1654,7 +2008,11 @@ msgstr "\"Google reCaptcha\" aptiko įtartina veikla."
 #: model_terms:ir.ui.view,arch_db:website_event.snippet_options
 msgid "Template badge"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Šablono ženklelis"
+>>>>>>> upstream/18.0
 =======
 msgstr "Šablono ženklelis"
 >>>>>>> upstream/18.0
@@ -1671,7 +2029,11 @@ msgstr "Pilna nuoroda dokumento pasiekimui per svetainę."
 #: code:addons/website_event/models/event_event.py:0
 msgid "The website must be from the same company as the event."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Svetainė ir renginys turi priklausyti tai pačiai įmonei."
+>>>>>>> upstream/18.0
 =======
 msgstr "Svetainė ir renginys turi priklausyti tai pačiai įmonei."
 >>>>>>> upstream/18.0
@@ -1693,7 +2055,11 @@ msgstr ""
 #: code:addons/website_event/static/src/js/tours/event_tour.js:0
 msgid "This shortcut will bring you right back to the event form."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ši nuoroda grąžins jus tiesiai į renginio formą."
+>>>>>>> upstream/18.0
 =======
 msgstr "Ši nuoroda grąžins jus tiesiai į renginio formą."
 >>>>>>> upstream/18.0
@@ -1702,7 +2068,11 @@ msgstr "Ši nuoroda grąžins jus tiesiai į renginio formą."
 #: model_terms:ir.actions.act_window,help:website_event.website_event_menu_action
 msgid "This technical menu displays all event sub-menu items."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Šis techninis meniu rodo visus renginio submeniu punktus."
+>>>>>>> upstream/18.0
 =======
 msgstr "Šis techninis meniu rodo visus renginio submeniu punktus."
 >>>>>>> upstream/18.0
@@ -1712,7 +2082,11 @@ msgstr "Šis techninis meniu rodo visus renginio submeniu punktus."
 #: code:addons/website_event/controllers/main.py:0
 msgid "This ticket is not available for sale for this event"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Šis bilietas neparduodamas šiam renginiui"
+>>>>>>> upstream/18.0
 =======
 msgstr "Šis bilietas neparduodamas šiam renginiui"
 >>>>>>> upstream/18.0
@@ -1742,7 +2116,11 @@ msgstr "Viršus"
 #: model_terms:ir.ui.view,arch_db:website_event.snippet_options
 msgid "Top Bar Filter"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Viršutinės juostos filtras"
+>>>>>>> upstream/18.0
 =======
 msgstr "Viršutinės juostos filtras"
 >>>>>>> upstream/18.0
@@ -1770,6 +2148,11 @@ msgstr ""
 msgid "Use this <b>shortcut</b> to easily access your event web page."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Naudokite šią <b>nuorodą</b>, kad lengvai pasiektumėte savo renginio "
+"tinklalapį."
+>>>>>>> upstream/18.0
 =======
 "Naudokite šią <b>nuorodą</b>, kad lengvai pasiektumėte savo renginio "
 "tinklalapį."
@@ -1780,6 +2163,10 @@ msgstr ""
 msgid "Use this paragraph to write a short text about your events or company."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Šioje pastraipoje parašykite trumpą tekstą apie savo renginius ar įmonę."
+>>>>>>> upstream/18.0
 =======
 "Šioje pastraipoje parašykite trumpą tekstą apie savo renginius ar įmonę."
 >>>>>>> upstream/18.0
@@ -1788,7 +2175,11 @@ msgstr ""
 #: model:ir.model.fields,help:website_event.field_website_event_menu__view_id
 msgid "Used when not being an url based menu"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Naudojama, kai meniu nėra URL tipo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Naudojama, kai meniu nėra URL tipo"
 >>>>>>> upstream/18.0
@@ -1803,7 +2194,11 @@ msgstr ""
 #: model:event.question.answer,name:website_event.event_0_question_0_answer_1
 msgid "Vegetarian"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vegetariškas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vegetariškas"
 >>>>>>> upstream/18.0
@@ -1844,7 +2239,11 @@ msgstr "Lankytojas"
 #: model_terms:ir.ui.view,arch_db:website_event.events_list
 msgid "We couldn't find any event matching your search for:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pagal jūsų paiešką renginių nerasta:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pagal jūsų paiešką renginių nerasta:"
 >>>>>>> upstream/18.0
@@ -1853,7 +2252,11 @@ msgstr "Pagal jūsų paiešką renginių nerasta:"
 #: model_terms:ir.ui.view,arch_db:website_event.events_list
 msgid "We couldn't find any event scheduled at this moment."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Šiuo metu nerasta suplanuotų renginių."
+>>>>>>> upstream/18.0
 =======
 msgstr "Šiuo metu nerasta suplanuotų renginių."
 >>>>>>> upstream/18.0
@@ -1878,7 +2281,11 @@ msgstr "Svetainės renginių meniu"
 #: model_terms:ir.ui.view,arch_db:website_event.website_event_menu_view_tree
 msgid "Website Event Menus"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Svetainės renginių meniu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Svetainės renginių meniu"
 >>>>>>> upstream/18.0
@@ -1898,7 +2305,11 @@ msgstr "Svetainės meniu"
 #: model:ir.ui.menu,name:website_event.menu_website_event_menu
 msgid "Website Menus"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Svetainės renginių meniu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Svetainės renginių meniu"
 >>>>>>> upstream/18.0
@@ -1907,7 +2318,11 @@ msgstr "Svetainės renginių meniu"
 #: model:ir.model,name:website_event.model_website_snippet_filter
 msgid "Website Snippet Filter"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Svetainės fragmentų filtras"
+>>>>>>> upstream/18.0
 =======
 msgstr "Svetainės fragmentų filtras"
 >>>>>>> upstream/18.0
@@ -1917,7 +2332,11 @@ msgstr "Svetainės fragmentų filtras"
 #: model_terms:ir.ui.view,arch_db:website_event.event_type_view_form
 msgid "Website Submenu"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Svetainės submeniu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Svetainės submeniu"
 >>>>>>> upstream/18.0
@@ -1963,7 +2382,11 @@ msgstr "Svetainės Opengraph paveikslėlis"
 #: model:event.question,title:website_event.event_5_question_1
 msgid "What's your Hockey level?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Koks jūsų ledo ritulio lygis?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Koks jūsų ledo ritulio lygis?"
 >>>>>>> upstream/18.0
@@ -1972,7 +2395,11 @@ msgstr "Koks jūsų ledo ritulio lygis?"
 #: model:ir.model.fields,help:website_event.field_event_event__is_ongoing
 msgid "Whether event has begun"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ar renginys prasidėjo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ar renginys prasidėjo"
 >>>>>>> upstream/18.0
@@ -1981,7 +2408,11 @@ msgstr "Ar renginys prasidėjo"
 #: model:ir.model.fields,help:website_event.field_event_event__start_today
 msgid "Whether event is going to start today if still not ongoing"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ar renginys prasidės šiandien, jei dar nevyksta"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ar renginys prasidės šiandien, jei dar nevyksta"
 >>>>>>> upstream/18.0
@@ -1990,7 +2421,11 @@ msgstr "Ar renginys prasidės šiandien, jei dar nevyksta"
 #: model:event.question,title:website_event.event_7_question_0
 msgid "Which field are you working in"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kurioje srityje dirbate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kurioje srityje dirbate"
 >>>>>>> upstream/18.0
@@ -2003,6 +2438,11 @@ msgid ""
 "see when registering."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Naudodami redagavimo mygtuką, galite <b>pritaikyti</b> tinklalapį, kurį "
+"lankytojai matys registruodamiesi."
+>>>>>>> upstream/18.0
 =======
 "Naudodami redagavimo mygtuką, galite <b>pritaikyti</b> tinklalapį, kurį "
 "lankytojai matys registruodamiesi."
@@ -2012,7 +2452,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_event.modal_ticket_registration
 msgid "available)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "prieinama)"
+>>>>>>> upstream/18.0
 =======
 msgstr "prieinama)"
 >>>>>>> upstream/18.0
@@ -2021,7 +2465,11 @@ msgstr "prieinama)"
 #: model_terms:ir.ui.view,arch_db:website_event.event_event_view_form_add
 msgid "e.g. \"Conference for Architects\""
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "pvz., „Konferencija architektams“"
+>>>>>>> upstream/18.0
 =======
 msgstr "pvz., „Konferencija architektams“"
 >>>>>>> upstream/18.0

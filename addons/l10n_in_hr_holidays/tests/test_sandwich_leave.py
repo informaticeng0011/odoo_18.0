@@ -86,7 +86,10 @@ class TestSandwichLeave(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -268,7 +271,11 @@ class TestSandwichLeave(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+        self.env = self.env(context=dict(self.env.context, allowed_company_ids=self.indian_company.ids))
+>>>>>>> upstream/18.0
 =======
         self.env = self.env(context=dict(self.env.context, allowed_company_ids=self.indian_company.ids))
 >>>>>>> upstream/18.0
@@ -355,6 +362,7 @@ class TestSandwichLeave(TransactionCase):
             'user_id': self.demo_user.id,
         })
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -634,11 +642,15 @@ class TestSandwichLeave(TransactionCase):
 =======
         self.leave_type_day, self.leave_type_half_day, self.leave_type_hours = self.env['hr.leave.type'].create([{
 >>>>>>> upstream/18.0
+=======
+        self.leave_type_day, self.leave_type_half_day, self.leave_type_hours = self.env['hr.leave.type'].create([{
+>>>>>>> upstream/18.0
             'name': 'Test Leave Type',
             'request_unit': 'day',
             'requires_allocation': 'no',
             'l10n_in_is_sandwich_leave': True,
             'company_id': self.indian_company.id,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1775,6 +1787,8 @@ class TestSandwichLeave(TransactionCase):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         }, {
             'name': 'Test Leave Type 2',
             'request_unit': 'half_day',
@@ -1823,6 +1837,9 @@ class TestSandwichLeave(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1877,6 +1894,7 @@ class TestSandwichLeave(TransactionCase):
         approved_leave = self.env['hr.leave'].create({
             'name': 'Approved Sandwich Leave',
             'employee_id': self.demo_employee.id,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1978,12 +1996,16 @@ class TestSandwichLeave(TransactionCase):
 =======
             'holiday_status_id': self.leave_type_day.id,
 >>>>>>> upstream/18.0
+=======
+            'holiday_status_id': self.leave_type_day.id,
+>>>>>>> upstream/18.0
             'request_date_from': '2025-08-14',
             'request_date_to': '2025-08-18',
             'state': 'confirm',
         })
         approved_leave.action_approve()
         self.assertIsNotNone(approved_leave.with_user(self.demo_user).leave_type_increases_duration)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2290,6 +2312,11 @@ class TestSandwichLeave(TransactionCase):
     def test_long_sandwich_leave(self):
         self.env['resource.calendar.leaves'].create({
 >>>>>>> upstream/18.0
+=======
+
+    def test_long_sandwich_leave(self):
+        self.env['resource.calendar.leaves'].create({
+>>>>>>> upstream/18.0
             'name': "Independence Day",
             'date_from': "2025-08-15",
             'date_to': "2025-08-15",
@@ -2298,6 +2325,7 @@ class TestSandwichLeave(TransactionCase):
         })
         holiday_leave = self.env['hr.leave'].create({
             'name': "Test Leave",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2408,6 +2436,8 @@ class TestSandwichLeave(TransactionCase):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2887,6 +2917,9 @@ class TestSandwichLeave(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

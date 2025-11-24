@@ -1,8 +1,13 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* payment_paypal
 # 
+=======
+# * payment_paypal
+#
+>>>>>>> upstream/18.0
 =======
 # * payment_paypal
 #
@@ -13,7 +18,11 @@
 # Manuela Silva <mmsrs@sky.com>, 2025
 # Wil Odoo, 2025
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
@@ -22,6 +31,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Wil Odoo, 2025\n"
@@ -32,6 +42,8 @@ msgstr ""
 "Language: pt\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-11-21 02:32+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Portuguese <https://translate.odoo.com/projects/odoo-18/"
@@ -43,6 +55,9 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % "
 "1000000 == 0) ? 1 : 2);\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: payment_paypal
@@ -65,7 +80,11 @@ msgstr "Código"
 #: code:addons/payment_paypal/models/payment_provider.py:0
 msgid "Could not establish the connection to the API."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Não foi possível estabelecer a conexão com a API."
+>>>>>>> upstream/18.0
 =======
 msgstr "Não foi possível estabelecer a conexão com a API."
 >>>>>>> upstream/18.0
@@ -85,7 +104,11 @@ msgstr "E-mail"
 #: model_terms:ir.ui.view,arch_db:payment_paypal.payment_provider_form
 msgid "Generate your webhook"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gerar seu webhook"
+>>>>>>> upstream/18.0
 =======
 msgstr "Gerar seu webhook"
 >>>>>>> upstream/18.0
@@ -106,7 +129,11 @@ msgstr ""
 #: code:addons/payment_paypal/models/payment_transaction.py:0
 msgid "Missing value for txn_id (%(txn_id)s) or txn_type (%(txn_type)s)."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Valor ausente para txn_id (%(txn_id)s) ou txn_type (%(txn_type)s)."
+>>>>>>> upstream/18.0
 =======
 msgstr "Valor ausente para txn_id (%(txn_id)s) ou txn_type (%(txn_type)s)."
 >>>>>>> upstream/18.0
@@ -116,7 +143,11 @@ msgstr "Valor ausente para txn_id (%(txn_id)s) ou txn_type (%(txn_type)s)."
 #: code:addons/payment_paypal/models/payment_transaction.py:0
 msgid "No transaction found matching reference %s."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nenhuma transação encontrada com a referência %s."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nenhuma transação encontrada com a referência %s."
 >>>>>>> upstream/18.0
@@ -150,7 +181,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:payment_paypal.field_payment_transaction__paypal_type
 msgid "PayPal Transaction Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tipo de transação do PayPal"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tipo de transação do PayPal"
 >>>>>>> upstream/18.0
@@ -175,7 +210,11 @@ msgstr "Transação de Pagamento"
 #: code:addons/payment_paypal/static/src/js/payment_form.js:0
 msgid "Payment processing failed"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Falha no processamento do pagamento"
+>>>>>>> upstream/18.0
 =======
 msgstr "Falha no processamento do pagamento"
 >>>>>>> upstream/18.0
@@ -185,7 +224,11 @@ msgstr "Falha no processamento do pagamento"
 #: code:addons/payment_paypal/models/payment_transaction.py:0
 msgid "Received data with invalid payment status: %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dados recebidos com status de pagamento inválido: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dados recebidos com status de pagamento inválido: %s"
 >>>>>>> upstream/18.0
@@ -195,7 +238,11 @@ msgstr "Dados recebidos com status de pagamento inválido: %s"
 #: code:addons/payment_paypal/models/payment_provider.py:0
 msgid "The communication with the API failed. Details: %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "A comunicação com a API falhou. Detalhes: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "A comunicação com a API falhou. Detalhes: %s"
 >>>>>>> upstream/18.0
@@ -205,7 +252,11 @@ msgstr "A comunicação com a API falhou. Detalhes: %s"
 #: code:addons/payment_paypal/models/payment_transaction.py:0
 msgid "The customer left the payment page."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "O cliente saiu da página de pagamento."
+>>>>>>> upstream/18.0
 =======
 msgstr "O cliente saiu da página de pagamento."
 >>>>>>> upstream/18.0
@@ -221,6 +272,11 @@ msgid ""
 "The public business email solely used to identify the account with PayPal"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"O e-mail comercial público usado exclusivamente para identificar a conta com "
+"o PayPal"
+>>>>>>> upstream/18.0
 =======
 "O e-mail comercial público usado exclusivamente para identificar a conta com "
 "o PayPal"
@@ -235,7 +291,11 @@ msgstr ""
 #: model:ir.model.fields,help:payment_paypal.field_payment_provider__code
 msgid "The technical code of this payment provider."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "O código técnico deste provedor de pagamento."
+>>>>>>> upstream/18.0
 =======
 msgstr "O código técnico deste provedor de pagamento."
 >>>>>>> upstream/18.0

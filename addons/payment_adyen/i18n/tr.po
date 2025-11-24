@@ -1,8 +1,13 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* payment_adyen
 # 
+=======
+# * payment_adyen
+#
+>>>>>>> upstream/18.0
 =======
 # * payment_adyen
 #
@@ -14,6 +19,7 @@
 # abc Def <hdogan1974@gmail.com>, 2024
 # Martin Trigaux, 2024
 # Ertuğrul Güreş <ertugrulg@projetgrup.com>, 2024
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -308,11 +314,16 @@
 # Deniz Guvener_Odoo <degu@odoo.com>, 2025
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
+=======
+# Deniz Guvener_Odoo <degu@odoo.com>, 2025
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
@@ -611,6 +622,8 @@ msgstr ""
 "Language: tr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-11-21 02:31+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Turkish <https://translate.odoo.com/projects/odoo-18/"
@@ -621,6 +634,9 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: payment_adyen
@@ -630,6 +646,12 @@ msgid ""
 "                    the Capture Delay to manual on your Adyen account settings."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<strong>Uyarı:</strong> Tutarı manuel olarak yakalamak için ayrıca\n"
+"                    Adyen hesap ayarlarınızda Yakalama Gecikmesini manuel "
+"olarak ayarlayın."
+>>>>>>> upstream/18.0
 =======
 "<strong>Uyarı:</strong> Tutarı manuel olarak yakalamak için ayrıca\n"
 "                    Adyen hesap ayarlarınızda Yakalama Gecikmesini manuel "
@@ -653,7 +675,11 @@ msgstr "API Anahtarı"
 #: model:ir.model.fields,field_description:payment_adyen.field_payment_provider__adyen_api_url_prefix
 msgid "API URL Prefix"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "API URL Öneki"
+>>>>>>> upstream/18.0
 =======
 msgstr "API URL Öneki"
 >>>>>>> upstream/18.0
@@ -676,7 +702,11 @@ msgstr ""
 #: code:addons/payment_adyen/static/src/js/payment_form.js:0
 msgid "Cannot display the payment form"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ödeme formu görüntülenemiyor"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ödeme formu görüntülenemiyor"
 >>>>>>> upstream/18.0
@@ -706,7 +736,11 @@ msgstr "HMAC Anahtarı"
 #: model:ir.model.fields,field_description:payment_adyen.field_payment_capture_wizard__has_adyen_tx
 msgid "Has Adyen Tx"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Adyen Tx Var"
+>>>>>>> upstream/18.0
 =======
 msgstr "Adyen Tx Var"
 >>>>>>> upstream/18.0
@@ -716,7 +750,11 @@ msgstr "Adyen Tx Var"
 #: code:addons/payment_adyen/static/src/js/payment_form.js:0
 msgid "Incorrect payment details"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Yanlış ödeme bilgileri"
+>>>>>>> upstream/18.0
 =======
 msgstr "Yanlış ödeme bilgileri"
 >>>>>>> upstream/18.0
@@ -741,7 +779,11 @@ msgstr "Referans %s eşleşen bir işlem bulunamadı."
 #: model:ir.model,name:payment_adyen.model_payment_capture_wizard
 msgid "Payment Capture Wizard"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ödeme Yakalama Sihirbazı"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ödeme Yakalama Sihirbazı"
 >>>>>>> upstream/18.0
@@ -838,7 +880,11 @@ msgid "Payment processing failed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ödeme işleme başarısız oldu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ödeme işleme başarısız oldu"
 >>>>>>> upstream/18.0
@@ -1112,6 +1158,11 @@ msgid ""
 "one requested. Another transaction is created with the correct amount."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Adyen tarafından %s işlemi için işlenen tutar talep edilenden farklıdır. "
+"Doğru tutar ile başka bir işlem oluşturulur."
+>>>>>>> upstream/18.0
 =======
 "Adyen tarafından %s işlemi için işlenen tutar talep edilenden farklıdır. "
 "Doğru tutar ile başka bir işlem oluşturulur."
@@ -1121,7 +1172,11 @@ msgstr ""
 #: model:ir.model.fields,help:payment_adyen.field_payment_provider__adyen_api_url_prefix
 msgid "The base URL for the API endpoints"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "API uç noktaları için temel URL"
+>>>>>>> upstream/18.0
 =======
 msgstr "API uç noktaları için temel URL"
 >>>>>>> upstream/18.0
@@ -1139,6 +1194,11 @@ msgid ""
 "                    processed by Adyen and reflected in Odoo."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"İşlemin yakalanması veya geçersiz kılınması birkaç dakika sürebilir\n"
+"                    Adyen tarafından işlenir ve Odoo'ya yansıtılır."
+>>>>>>> upstream/18.0
 =======
 "İşlemin yakalanması veya geçersiz kılınması birkaç dakika sürebilir\n"
 "                    Adyen tarafından işlenir ve Odoo'ya yansıtılır."
@@ -1161,7 +1221,11 @@ msgstr "Web hizmeti kullanıcısının istemci anahtarı"
 #: model:ir.model.fields,help:payment_adyen.field_payment_provider__adyen_merchant_account
 msgid "The code of the merchant account to use with this provider"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bu sağlayıcı ile kullanılacak satıcı hesabının kodu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Bu sağlayıcı ile kullanılacak satıcı hesabının kodu"
 >>>>>>> upstream/18.0

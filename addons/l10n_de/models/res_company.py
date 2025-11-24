@@ -182,6 +182,10 @@ class ResCompany(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            and self.env['res.country'].browse(vals['account_fiscal_country_id']).code != 'DE'
+>>>>>>> upstream/18.0
 =======
             and self.env['res.country'].browse(vals['account_fiscal_country_id']).code != 'DE'
 >>>>>>> upstream/18.0

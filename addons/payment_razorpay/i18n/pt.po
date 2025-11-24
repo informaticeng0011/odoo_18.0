@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* payment_razorpay
 # 
 # Translators:
@@ -8,18 +9,24 @@
 # Wil Odoo, 2025
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 # * payment_razorpay
 #
 # Translators:
 # Manuela Silva <mmsrs@sky.com>, 2025
 # Wil Odoo, 2025
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Wil Odoo, 2025\n"
@@ -30,6 +37,8 @@ msgstr ""
 "Language: pt\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-11-21 02:32+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Portuguese <https://translate.odoo.com/projects/odoo-18/"
@@ -41,6 +50,9 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % "
 "1000000 == 0) ? 1 : 2);\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: payment_razorpay
@@ -50,6 +62,10 @@ msgid ""
 "An error occurred during the processing of your payment. Please try again."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ocorreu um erro durante o processamento do seu pagamento. Tente novamente."
+>>>>>>> upstream/18.0
 =======
 "Ocorreu um erro durante o processamento do seu pagamento. Tente novamente."
 >>>>>>> upstream/18.0
@@ -64,7 +80,11 @@ msgstr "Código"
 #: code:addons/payment_razorpay/models/payment_provider.py:0
 msgid "Could not establish the connection to the API."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Não foi possível estabelecer a conexão com a API."
+>>>>>>> upstream/18.0
 =======
 msgstr "Não foi possível estabelecer a conexão com a API."
 >>>>>>> upstream/18.0
@@ -73,7 +93,11 @@ msgstr "Não foi possível estabelecer a conexão com a API."
 #: model_terms:ir.ui.view,arch_db:payment_razorpay.payment_provider_form_razorpay
 msgid "Enable recurring payments on Razorpay"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ativar pagamentos recorrentes no Razorpay"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ativar pagamentos recorrentes no Razorpay"
 >>>>>>> upstream/18.0
@@ -82,7 +106,11 @@ msgstr "Ativar pagamentos recorrentes no Razorpay"
 #: model_terms:ir.ui.view,arch_db:payment_razorpay.payment_provider_form_razorpay
 msgid "Key Id"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ID da chave"
+>>>>>>> upstream/18.0
 =======
 msgstr "ID da chave"
 >>>>>>> upstream/18.0
@@ -91,7 +119,11 @@ msgstr "ID da chave"
 #: model_terms:ir.ui.view,arch_db:payment_razorpay.payment_provider_form_razorpay
 msgid "Key Secret"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Segredo da chave"
+>>>>>>> upstream/18.0
 =======
 msgstr "Segredo da chave"
 >>>>>>> upstream/18.0
@@ -101,7 +133,11 @@ msgstr "Segredo da chave"
 #: code:addons/payment_razorpay/models/payment_transaction.py:0
 msgid "No transaction found matching reference %s."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nenhuma transação encontrada com a referência %s."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nenhuma transação encontrada com a referência %s."
 >>>>>>> upstream/18.0
@@ -126,7 +162,11 @@ msgstr "Transação de Pagamento"
 #: code:addons/payment_razorpay/static/src/js/payment_form.js:0
 msgid "Payment processing failed"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Falha no processamento do pagamento"
+>>>>>>> upstream/18.0
 =======
 msgstr "Falha no processamento do pagamento"
 >>>>>>> upstream/18.0
@@ -135,7 +175,11 @@ msgstr "Falha no processamento do pagamento"
 #: model:ir.model.fields.selection,name:payment_razorpay.selection__payment_provider__code__razorpay
 msgid "Razorpay"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Razorpay"
+>>>>>>> upstream/18.0
 =======
 msgstr "Razorpay"
 >>>>>>> upstream/18.0
@@ -144,7 +188,11 @@ msgstr "Razorpay"
 #: model:ir.model.fields,field_description:payment_razorpay.field_payment_provider__razorpay_key_id
 msgid "Razorpay Key Id"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ID da chave do Razorpay"
+>>>>>>> upstream/18.0
 =======
 msgstr "ID da chave do Razorpay"
 >>>>>>> upstream/18.0
@@ -153,7 +201,11 @@ msgstr "ID da chave do Razorpay"
 #: model:ir.model.fields,field_description:payment_razorpay.field_payment_provider__razorpay_key_secret
 msgid "Razorpay Key Secret"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Segredo da chave do Razorpay"
+>>>>>>> upstream/18.0
 =======
 msgstr "Segredo da chave do Razorpay"
 >>>>>>> upstream/18.0
@@ -162,7 +214,11 @@ msgstr "Segredo da chave do Razorpay"
 #: model:ir.model.fields,field_description:payment_razorpay.field_payment_provider__razorpay_webhook_secret
 msgid "Razorpay Webhook Secret"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Segredo do webhook do Razorpay"
+>>>>>>> upstream/18.0
 =======
 msgstr "Segredo do webhook do Razorpay"
 >>>>>>> upstream/18.0
@@ -172,7 +228,11 @@ msgstr "Segredo do webhook do Razorpay"
 #: code:addons/payment_razorpay/models/payment_provider.py:0
 msgid "Razorpay gave us the following information: '%s'"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "O Razorpay nos forneceu as seguintes informações: '%s'"
+>>>>>>> upstream/18.0
 =======
 msgstr "O Razorpay nos forneceu as seguintes informações: '%s'"
 >>>>>>> upstream/18.0
@@ -182,7 +242,11 @@ msgstr "O Razorpay nos forneceu as seguintes informações: '%s'"
 #: code:addons/payment_razorpay/models/payment_transaction.py:0
 msgid "Received data with invalid status: %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dados recebidos com status inválido: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dados recebidos com status inválido: %s"
 >>>>>>> upstream/18.0
@@ -192,7 +256,11 @@ msgstr "Dados recebidos com status inválido: %s"
 #: code:addons/payment_razorpay/models/payment_transaction.py:0
 msgid "Received data with missing entity id."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dados recebidos com ID de entidade ausente."
+>>>>>>> upstream/18.0
 =======
 msgstr "Dados recebidos com ID de entidade ausente."
 >>>>>>> upstream/18.0
@@ -202,7 +270,11 @@ msgstr "Dados recebidos com ID de entidade ausente."
 #: code:addons/payment_razorpay/models/payment_transaction.py:0
 msgid "Received data with missing reference."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dados recebidos com referência ausente."
+>>>>>>> upstream/18.0
 =======
 msgstr "Dados recebidos com referência ausente."
 >>>>>>> upstream/18.0
@@ -212,7 +284,11 @@ msgstr "Dados recebidos com referência ausente."
 #: code:addons/payment_razorpay/models/payment_transaction.py:0
 msgid "Received data with missing status."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dados recebidos com status ausente."
+>>>>>>> upstream/18.0
 =======
 msgstr "Dados recebidos com status ausente."
 >>>>>>> upstream/18.0
@@ -222,7 +298,11 @@ msgstr "Dados recebidos com status ausente."
 #: code:addons/payment_razorpay/models/payment_transaction.py:0
 msgid "Received incomplete refund data."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Recebeu dados de reembolso incompletos."
+>>>>>>> upstream/18.0
 =======
 msgstr "Recebeu dados de reembolso incompletos."
 >>>>>>> upstream/18.0
@@ -231,7 +311,11 @@ msgstr "Recebeu dados de reembolso incompletos."
 #: model:ir.model.fields,help:payment_razorpay.field_payment_provider__razorpay_key_id
 msgid "The key solely used to identify the account with Razorpay."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "A chave usada exclusivamente para identificar a conta no Razorpay."
+>>>>>>> upstream/18.0
 =======
 msgstr "A chave usada exclusivamente para identificar a conta no Razorpay."
 >>>>>>> upstream/18.0
@@ -241,7 +325,11 @@ msgstr "A chave usada exclusivamente para identificar a conta no Razorpay."
 #: code:addons/payment_razorpay/models/payment_transaction.py:0
 msgid "The phone number is invalid."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "O número de telefone é inválido."
+>>>>>>> upstream/18.0
 =======
 msgstr "O número de telefone é inválido."
 >>>>>>> upstream/18.0
@@ -251,7 +339,11 @@ msgstr "O número de telefone é inválido."
 #: code:addons/payment_razorpay/models/payment_transaction.py:0
 msgid "The phone number is missing."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "O número de telefone está faltando."
+>>>>>>> upstream/18.0
 =======
 msgstr "O número de telefone está faltando."
 >>>>>>> upstream/18.0
@@ -260,7 +352,11 @@ msgstr "O número de telefone está faltando."
 #: model:ir.model.fields,help:payment_razorpay.field_payment_provider__code
 msgid "The technical code of this payment provider."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "O código técnico deste provedor de pagamento."
+>>>>>>> upstream/18.0
 =======
 msgstr "O código técnico deste provedor de pagamento."
 >>>>>>> upstream/18.0
@@ -270,7 +366,11 @@ msgstr "O código técnico deste provedor de pagamento."
 #: code:addons/payment_razorpay/models/payment_transaction.py:0
 msgid "The transaction is not linked to a token."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "A transação não está vinculada a um token."
+>>>>>>> upstream/18.0
 =======
 msgstr "A transação não está vinculada a um token."
 >>>>>>> upstream/18.0
@@ -281,6 +381,11 @@ msgstr "A transação não está vinculada a um token."
 msgid "Transactions processed by Razorpay can't be manually voided from Odoo."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"As transações processadas pelo Razorpay não podem ser anuladas manualmente "
+"no Odoo."
+>>>>>>> upstream/18.0
 =======
 "As transações processadas pelo Razorpay não podem ser anuladas manualmente "
 "no Odoo."
@@ -290,7 +395,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:payment_razorpay.payment_provider_form_razorpay
 msgid "Webhook Secret"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Segredo do webhook"
+>>>>>>> upstream/18.0
 =======
 msgstr "Segredo do webhook"
 >>>>>>> upstream/18.0
@@ -303,6 +412,11 @@ msgid ""
 " this payment method"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Você não pode pagar valores superiores a %(currency_symbol)s %(max_amount)s "
+"com essa forma de pagamento"
+>>>>>>> upstream/18.0
 =======
 "Você não pode pagar valores superiores a %(currency_symbol)s %(max_amount)s "
 "com essa forma de pagamento"

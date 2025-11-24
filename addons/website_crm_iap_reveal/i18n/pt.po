@@ -1,8 +1,13 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* website_crm_iap_reveal
 # 
+=======
+# * website_crm_iap_reveal
+#
+>>>>>>> upstream/18.0
 =======
 # * website_crm_iap_reveal
 #
@@ -12,6 +17,7 @@
 # Rita Bastos, 2025
 # Peter Lawrence Romão <peterromao@yahoo.co.uk>, 2025
 # Wil Odoo, 2025
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -550,11 +556,16 @@
 # Daniel Reis, 2025
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
+=======
+# Daniel Reis, 2025
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 17.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-26 21:56+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 <<<<<<< HEAD
@@ -1097,6 +1108,8 @@ msgstr ""
 "Language: pt\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-11-15 18:11+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Portuguese <https://translate.odoo.com/projects/odoo-18/"
@@ -1108,6 +1121,9 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % "
 "1000000 == 0) ? 1 : 2);\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: website_crm_iap_reveal
@@ -1117,6 +1133,11 @@ msgid ""
 " whose company can be identified.<br/>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"É consumido 1 crédito por visitante que corresponda às condições de tráfego "
+"do site e cuja empresa possa ser identificada.<br/>"
+>>>>>>> upstream/18.0
 =======
 "É consumido 1 crédito por visitante que corresponda às condições de tráfego "
 "do site e cuja empresa possa ser identificada.<br/>"
@@ -1126,7 +1147,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_crm_iap_reveal.crm_reveal_rule_form
 msgid "<span class=\"o_stat_text\"> Leads </span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\"> Leads </span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\"> Leads </span>"
 >>>>>>> upstream/18.0
@@ -1150,7 +1175,11 @@ msgstr "Arquivados"
 #: model:ir.model,name:website_crm_iap_reveal.model_crm_reveal_rule
 msgid "CRM Lead Generation Rules"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Regras de geração de leads do CRM"
+>>>>>>> upstream/18.0
 =======
 msgstr "Regras de geração de leads do CRM"
 >>>>>>> upstream/18.0
@@ -1159,7 +1188,11 @@ msgstr "Regras de geração de leads do CRM"
 #: model:ir.model,name:website_crm_iap_reveal.model_crm_reveal_view
 msgid "CRM Reveal View"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Visualização de revelação do CRM"
+>>>>>>> upstream/18.0
 =======
 msgstr "Visualização de revelação do CRM"
 >>>>>>> upstream/18.0
@@ -1168,7 +1201,11 @@ msgstr "Visualização de revelação do CRM"
 #: model:ir.model.fields,help:website_crm_iap_reveal.field_crm_reveal_rule__lead_for
 msgid "Choose whether to track companies only or companies and their contacts"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Escolha se deseja rastrear apenas empresas ou empresas e seus contatos"
+>>>>>>> upstream/18.0
 =======
 msgstr "Escolha se deseja rastrear apenas empresas ou empresas e seus contatos"
 >>>>>>> upstream/18.0
@@ -1182,7 +1219,11 @@ msgstr "Empresas"
 #: model:ir.model.fields.selection,name:website_crm_iap_reveal.selection__crm_reveal_rule__lead_for__people
 msgid "Companies and their Contacts"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Empresas e seus contatos"
+>>>>>>> upstream/18.0
 =======
 msgstr "Empresas e seus contatos"
 >>>>>>> upstream/18.0
@@ -1191,7 +1232,11 @@ msgstr "Empresas e seus contatos"
 #: model:ir.model.fields,field_description:website_crm_iap_reveal.field_crm_reveal_rule__company_size_min
 msgid "Company Size"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tamanho da empresa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tamanho da empresa"
 >>>>>>> upstream/18.0
@@ -1200,7 +1245,11 @@ msgstr "Tamanho da empresa"
 #: model:ir.model.fields,field_description:website_crm_iap_reveal.field_crm_reveal_rule__company_size_max
 msgid "Company Size Max"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tamanho máx. da empresa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tamanho máx. da empresa"
 >>>>>>> upstream/18.0
@@ -1209,7 +1258,11 @@ msgstr "Tamanho máx. da empresa"
 #: model_terms:ir.ui.view,arch_db:website_crm_iap_reveal.crm_reveal_rule_form
 msgid "Contact Filter"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Filtro de contato"
+>>>>>>> upstream/18.0
 =======
 msgstr "Filtro de contato"
 >>>>>>> upstream/18.0
@@ -1228,7 +1281,11 @@ msgstr "Data de Criação"
 #: model_terms:ir.actions.act_window,help:website_crm_iap_reveal.crm_reveal_rule_action
 msgid "Create a conversion rule"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Criar uma regra de conversão"
+>>>>>>> upstream/18.0
 =======
 msgstr "Criar uma regra de conversão"
 >>>>>>> upstream/18.0
@@ -1239,6 +1296,11 @@ msgid ""
 "Create rules to generate B2B leads/opportunities from your website visitors."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Crie regras para gerar leads/oportunidades B2B a partir dos visitantes de "
+"seu site."
+>>>>>>> upstream/18.0
 =======
 "Crie regras para gerar leads/oportunidades B2B a partir dos visitantes de "
 "seu site."
@@ -1259,7 +1321,11 @@ msgstr "Criado em"
 #: model:ir.model.fields,field_description:website_crm_iap_reveal.field_crm_reveal_rule__lead_for
 msgid "Data Tracking"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Rastreamento de dados"
+>>>>>>> upstream/18.0
 =======
 msgstr "Rastreamento de dados"
 >>>>>>> upstream/18.0
@@ -1275,7 +1341,11 @@ msgstr "Nome a Exibir"
 #: code:addons/website_crm_iap_reveal/models/crm_reveal_rule.py:0
 msgid "Enter Valid Regex."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Insira um Regex válido."
+>>>>>>> upstream/18.0
 =======
 msgstr "Insira um Regex válido."
 >>>>>>> upstream/18.0
@@ -1284,7 +1354,11 @@ msgstr "Insira um Regex válido."
 #: model:ir.model.fields,field_description:website_crm_iap_reveal.field_crm_reveal_rule__contact_filter_type
 msgid "Filter On"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Filtro ativado"
+>>>>>>> upstream/18.0
 =======
 msgstr "Filtro ativado"
 >>>>>>> upstream/18.0
@@ -1293,7 +1367,11 @@ msgstr "Filtro ativado"
 #: model:ir.model.fields,help:website_crm_iap_reveal.field_crm_reveal_rule__filter_on_size
 msgid "Filter companies based on their size."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Filtre as empresas com base em seu tamanho."
+>>>>>>> upstream/18.0
 =======
 msgstr "Filtre as empresas com base em seu tamanho."
 >>>>>>> upstream/18.0
@@ -1302,7 +1380,11 @@ msgstr "Filtre as empresas com base em seu tamanho."
 #: model:ir.model.fields,field_description:website_crm_iap_reveal.field_crm_reveal_rule__filter_on_size
 msgid "Filter on Size"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Filtrar por tamanho"
+>>>>>>> upstream/18.0
 =======
 msgstr "Filtrar por tamanho"
 >>>>>>> upstream/18.0
@@ -1316,7 +1398,11 @@ msgstr "De"
 #: model:ir.model.fields,field_description:website_crm_iap_reveal.field_crm_reveal_rule__lead_ids
 msgid "Generated Lead / Opportunity"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gerar lead/oportunidade"
+>>>>>>> upstream/18.0
 =======
 msgstr "Gerar lead/oportunidade"
 >>>>>>> upstream/18.0
@@ -1335,7 +1421,11 @@ msgstr "Alto"
 #: model:ir.model.fields,field_description:website_crm_iap_reveal.field_crm_lead__reveal_iap_credits
 msgid "IAP Credits"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Créditos do IAP"
+>>>>>>> upstream/18.0
 =======
 msgstr "Créditos do IAP"
 >>>>>>> upstream/18.0
@@ -1378,7 +1468,11 @@ msgstr "Prospeto"
 #: model_terms:ir.ui.view,arch_db:website_crm_iap_reveal.crm_reveal_rule_form
 msgid "Lead Data"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dados do lead"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dados do lead"
 >>>>>>> upstream/18.0
@@ -1387,7 +1481,11 @@ msgstr "Dados do lead"
 #: model_terms:ir.ui.view,arch_db:website_crm_iap_reveal.crm_reveal_lead_opportunity_form
 msgid "Lead Generation Information"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Informações de geração de leads"
+>>>>>>> upstream/18.0
 =======
 msgstr "Informações de geração de leads"
 >>>>>>> upstream/18.0
@@ -1403,7 +1501,11 @@ msgstr "Regra de Geração de Leads"
 #: model:ir.ui.menu,name:website_crm_iap_reveal.crm_reveal_view_menu_action
 msgid "Lead Generation Views"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Visualizações da geração de leads"
+>>>>>>> upstream/18.0
 =======
 msgstr "Visualizações da geração de leads"
 >>>>>>> upstream/18.0
@@ -1412,7 +1514,11 @@ msgstr "Visualizações da geração de leads"
 #: model:ir.actions.server,name:website_crm_iap_reveal.ir_cron_crm_reveal_lead_ir_actions_server
 msgid "Lead Generation: Leads/Opportunities Generation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Geração de leads: Geração de leads/oportunidades"
+>>>>>>> upstream/18.0
 =======
 msgstr "Geração de leads: Geração de leads/oportunidades"
 >>>>>>> upstream/18.0
@@ -1427,6 +1533,11 @@ msgstr "Prospecto / Oportunidade"
 msgid "Leave empty to always match. Odoo will not create lead if no match"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Deixe em branco para sempre fazer a correspondência. O Odoo não criará um "
+"lead se não houver correspondência"
+>>>>>>> upstream/18.0
 =======
 "Deixe em branco para sempre fazer a correspondência. O Odoo não criará um "
 "lead se não houver correspondência"
@@ -1444,6 +1555,11 @@ msgid ""
 "data."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Certifique-se se você precisa estar em conformidade com o LGPD para "
+"armazenar dados pessoais."
+>>>>>>> upstream/18.0
 =======
 "Certifique-se se você precisa estar em conformidade com o LGPD para "
 "armazenar dados pessoais."
@@ -1453,7 +1569,11 @@ msgstr ""
 #: model:ir.model.constraint,message:website_crm_iap_reveal.constraint_crm_reveal_rule_limit_extra_contacts
 msgid "Maximum 5 contacts are allowed!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "São permitidos no máximo 5 contatos!"
+>>>>>>> upstream/18.0
 =======
 msgstr "São permitidos no máximo 5 contatos!"
 >>>>>>> upstream/18.0
@@ -1467,7 +1587,11 @@ msgstr "Fonte"
 #: model:ir.model.fields.selection,name:website_crm_iap_reveal.selection__crm_reveal_view__reveal_state__not_found
 msgid "Not Found"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Não encontrado"
+>>>>>>> upstream/18.0
 =======
 msgstr "Não encontrado"
 >>>>>>> upstream/18.0
@@ -1476,7 +1600,11 @@ msgstr "Não encontrado"
 #: model:ir.model.fields,field_description:website_crm_iap_reveal.field_crm_reveal_rule__extra_contacts
 msgid "Number of Contacts"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Número de contatos"
+>>>>>>> upstream/18.0
 =======
 msgstr "Número de contatos"
 >>>>>>> upstream/18.0
@@ -1485,7 +1613,11 @@ msgstr "Número de contatos"
 #: model:ir.model.fields,field_description:website_crm_iap_reveal.field_crm_reveal_rule__lead_count
 msgid "Number of Generated Leads"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Número de leads gerados"
+>>>>>>> upstream/18.0
 =======
 msgstr "Número de leads gerados"
 >>>>>>> upstream/18.0
@@ -1494,7 +1626,11 @@ msgstr "Número de leads gerados"
 #: model:ir.model.fields,field_description:website_crm_iap_reveal.field_crm_reveal_rule__opportunity_count
 msgid "Number of Generated Opportunity"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Número de oportunidades geradas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Número de oportunidades geradas"
 >>>>>>> upstream/18.0
@@ -1506,6 +1642,11 @@ msgid ""
 "leads/opportunities (using GeoIP)."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Somente os visitantes dos seguintes países serão convertidos em leads/"
+"oportunidades (usando GeoIP)."
+>>>>>>> upstream/18.0
 =======
 "Somente os visitantes dos seguintes países serão convertidos em leads/"
 "oportunidades (usando GeoIP)."
@@ -1518,6 +1659,11 @@ msgid ""
 "leads/opportunities."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Somente os visitantes dos seguintes estados serão convertidos em leads/"
+"oportunidades."
+>>>>>>> upstream/18.0
 =======
 "Somente os visitantes dos seguintes estados serão convertidos em leads/"
 "oportunidades."
@@ -1532,7 +1678,11 @@ msgstr "Oportunidade"
 #: model_terms:ir.ui.view,arch_db:website_crm_iap_reveal.crm_reveal_rule_form
 msgid "Opportunity Data"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dados de oportunidade"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dados de oportunidade"
 >>>>>>> upstream/18.0
@@ -1541,7 +1691,11 @@ msgstr "Dados de oportunidade"
 #: model_terms:ir.ui.view,arch_db:website_crm_iap_reveal.crm_reveal_rule_form
 msgid "Opportunity Generation Conditions"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Condições de geração de oportunidades"
+>>>>>>> upstream/18.0
 =======
 msgstr "Condições de geração de oportunidades"
 >>>>>>> upstream/18.0
@@ -1551,7 +1705,11 @@ msgstr "Condições de geração de oportunidades"
 #: code:addons/website_crm_iap_reveal/models/crm_reveal_rule.py:0
 msgid "Opportunity created by Odoo Lead Generation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Oportunidade criada pelo Odoo Lead Generation"
+>>>>>>> upstream/18.0
 =======
 msgstr "Oportunidade criada pelo Odoo Lead Generation"
 >>>>>>> upstream/18.0
@@ -1560,7 +1718,11 @@ msgstr "Oportunidade criada pelo Odoo Lead Generation"
 #: model:ir.model.fields,field_description:website_crm_iap_reveal.field_crm_reveal_rule__other_role_ids
 msgid "Other Roles"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Outras funções"
+>>>>>>> upstream/18.0
 =======
 msgstr "Outras funções"
 >>>>>>> upstream/18.0
@@ -1569,7 +1731,11 @@ msgstr "Outras funções"
 #: model:ir.model.fields,field_description:website_crm_iap_reveal.field_crm_reveal_rule__preferred_role_id
 msgid "Preferred Role"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Função preferida"
+>>>>>>> upstream/18.0
 =======
 msgstr "Função preferida"
 >>>>>>> upstream/18.0
@@ -1587,6 +1753,12 @@ msgid ""
 "with /page"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Regex para rastrear as páginas do site. Deixe em branco para rastrear todo o "
+"site, ou / para direcionar a página inicial. Exemplo: /página* para rastrear "
+"todas as páginas que começam com /página"
+>>>>>>> upstream/18.0
 =======
 "Regex para rastrear as páginas do site. Deixe em branco para rastrear todo o "
 "site, ou / para direcionar a página inicial. Exemplo: /página* para rastrear "
@@ -1597,7 +1769,11 @@ msgstr ""
 #: model:ir.model.fields,help:website_crm_iap_reveal.field_crm_reveal_rule__website_id
 msgid "Restrict Lead generation to this website."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Restringir a geração de leads a este site."
+>>>>>>> upstream/18.0
 =======
 msgstr "Restringir a geração de leads a este site."
 >>>>>>> upstream/18.0
@@ -1631,7 +1807,11 @@ msgstr "Vendedor"
 #: model_terms:ir.ui.view,arch_db:website_crm_iap_reveal.crm_reveal_rule_view_search
 msgid "Search CRM Reveal Rule"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pesquisar regra de revelação do CRM"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pesquisar regra de revelação do CRM"
 >>>>>>> upstream/18.0
@@ -1774,7 +1954,11 @@ msgid "Seniority"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Senioridade"
+>>>>>>> upstream/18.0
 =======
 msgstr "Senioridade"
 >>>>>>> upstream/18.0
@@ -2211,11 +2395,17 @@ msgid ""
 "leads/opportunities. One credit is consumed per tracked contact."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "Esse é o número de contatos a serem rastreados se a função/senioridade deles "
 "corresponder aos seus critérios. Os detalhes desses contatos serão exibidos "
 "no tópico do histórico de leads/oportunidades gerados. Um crédito é "
 "consumido por contato rastreado."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: website_crm_iap_reveal
@@ -2225,6 +2415,11 @@ msgid ""
 "lead/opportunity is generated with this rule"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Isso será anexado ao nome do lead gerado para que você possa identificar se "
+"o lead/oportunidade foi gerado com essa regra"
+>>>>>>> upstream/18.0
 =======
 "Isso será anexado ao nome do lead gerado para que você possa identificar se "
 "o lead/oportunidade foi gerado com essa regra"
@@ -2244,7 +2439,11 @@ msgstr "Tipo"
 #: model:ir.model.fields,field_description:website_crm_iap_reveal.field_crm_reveal_rule__regex_url
 msgid "URL Expression"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Expressão de URL"
+>>>>>>> upstream/18.0
 =======
 msgstr "Expressão de URL"
 >>>>>>> upstream/18.0
@@ -2253,7 +2452,11 @@ msgstr "Expressão de URL"
 #: model_terms:ir.ui.view,arch_db:website_crm_iap_reveal.crm_reveal_rule_form
 msgid "Up to"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Até"
+>>>>>>> upstream/18.0
 =======
 msgstr "Até"
 >>>>>>> upstream/18.0
@@ -2265,6 +2468,11 @@ msgid ""
 "sequence number will be processed first."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Usado para ordenar as regras com o mesmo URL e países. As regras com um "
+"número de sequência menor serão processadas primeiro."
+>>>>>>> upstream/18.0
 =======
 "Usado para ordenar as regras com o mesmo URL e países. As regras com um "
 "número de sequência menor serão processadas primeiro."
@@ -2280,7 +2488,11 @@ msgstr "Muito Elevada"
 #: model:ir.ui.menu,name:website_crm_iap_reveal.crm_reveal_rule_menu_action
 msgid "Visits to Leads Rules"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Regras para visitas a leads"
+>>>>>>> upstream/18.0
 =======
 msgstr "Regras para visitas a leads"
 >>>>>>> upstream/18.0
@@ -2300,6 +2512,10 @@ msgstr "Condições de Tráfego do Site da Web"
 msgid "additional credit(s) are consumed if the company matches this rule."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"créditos adicionais serão consumidos se a empresa corresponder a essa regra."
+>>>>>>> upstream/18.0
 =======
 "créditos adicionais serão consumidos se a empresa corresponder a essa regra."
 >>>>>>> upstream/18.0
@@ -2308,7 +2524,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_crm_iap_reveal.crm_reveal_rule_form
 msgid "e.g. /page"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ex.: /página"
+>>>>>>> upstream/18.0
 =======
 msgstr "ex.: /página"
 >>>>>>> upstream/18.0
@@ -2317,7 +2537,11 @@ msgstr "ex.: /página"
 #: model_terms:ir.ui.view,arch_db:website_crm_iap_reveal.crm_reveal_rule_form
 msgid "e.g. US Visitors"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ex.: Visitantes dos EUA"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ex.: Visitantes dos EUA"
 >>>>>>> upstream/18.0
@@ -2459,7 +2683,11 @@ msgid "employees"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "empregados"
+>>>>>>> upstream/18.0
 =======
 msgstr "empregados"
 >>>>>>> upstream/18.0

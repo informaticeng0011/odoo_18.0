@@ -1,8 +1,13 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* resource
 # 
+=======
+# * resource
+#
+>>>>>>> upstream/18.0
 =======
 # * resource
 #
@@ -14,6 +19,7 @@
 # Maitê Dietze, 2025
 # Wil Odoo, 2025
 # J Ponte, 2025
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -552,10 +558,15 @@
 # Daniel Reis, 2025
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
+=======
+# Daniel Reis, 2025
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1359,6 +1370,8 @@ msgstr ""
 "Language: pt\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-05-14 20:48+0000\n"
 "PO-Revision-Date: 2025-11-10 09:43+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
@@ -1371,6 +1384,9 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % "
 "1000000 == 0) ? 1 : 2);\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: resource
@@ -1384,7 +1400,11 @@ msgstr "%s (cópia)"
 #: model_terms:ir.ui.view,arch_db:resource.resource_calendar_form
 msgid "<span class=\"o_stat_text\">Time Off</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Folga</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Folga</span>"
 >>>>>>> upstream/18.0
@@ -1539,7 +1559,11 @@ msgid "Afternoon"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tarde"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tarde"
 >>>>>>> upstream/18.0
@@ -1961,7 +1985,11 @@ msgstr ""
 #: code:addons/resource/models/resource_calendar.py:0
 msgid "Attendances can't overlap."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "As presenças não podem se sobrepor."
+>>>>>>> upstream/18.0
 =======
 msgstr "As presenças não podem se sobrepor."
 >>>>>>> upstream/18.0
@@ -1975,7 +2003,11 @@ msgstr "Avatar 128"
 #: model:ir.model.fields,field_description:resource.field_resource_calendar__hours_per_day
 msgid "Average Hour per Day"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Média de horas por dia"
+>>>>>>> upstream/18.0
 =======
 msgstr "Média de horas por dia"
 >>>>>>> upstream/18.0
@@ -1986,6 +2018,10 @@ msgid ""
 "Average hours per day a resource is supposed to work with this calendar."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Média de horas por dia que um recurso deve trabalhar com este calendário."
+>>>>>>> upstream/18.0
 =======
 "Média de horas por dia que um recurso deve trabalhar com este calendário."
 >>>>>>> upstream/18.0
@@ -2000,7 +2036,11 @@ msgstr "Quebra"
 #: model:ir.model.fields,field_description:resource.field_resource_calendar_attendance__two_weeks_calendar
 msgid "Calendar in 2 weeks mode"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Calendário no modo 2 semanas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Calendário no modo 2 semanas"
 >>>>>>> upstream/18.0
@@ -2029,7 +2069,11 @@ msgstr "Empresa"
 #: model:ir.model.fields,field_description:resource.field_resource_calendar__full_time_required_hours
 msgid "Company Full Time"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tempo integral da empresa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tempo integral da empresa"
 >>>>>>> upstream/18.0
@@ -2059,7 +2103,11 @@ msgstr "Data"
 #: model:ir.model.fields,field_description:resource.field_resource_calendar_attendance__day_period
 msgid "Day Period"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Período do dia"
+>>>>>>> upstream/18.0
 =======
 msgstr "Período do dia"
 >>>>>>> upstream/18.0
@@ -2074,7 +2122,11 @@ msgstr "Dia da Semana"
 #: model:ir.model.fields,field_description:resource.field_res_users__resource_calendar_id
 msgid "Default Working Hours"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Horas de trabalho padrão"
+>>>>>>> upstream/18.0
 =======
 msgstr "Horas de trabalho padrão"
 >>>>>>> upstream/18.0
@@ -2116,7 +2168,11 @@ msgstr "Tipo de Exibição"
 #: model:ir.model.fields,field_description:resource.field_resource_calendar_attendance__duration_days
 msgid "Duration (days)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Duração (dias)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Duração (dias)"
 >>>>>>> upstream/18.0
@@ -2125,7 +2181,11 @@ msgstr "Duração (dias)"
 #: model:ir.model.fields,field_description:resource.field_resource_calendar_attendance__duration_hours
 msgid "Duration (hours)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Duração (horas)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Duração (horas)"
 >>>>>>> upstream/18.0
@@ -2150,7 +2210,11 @@ msgstr "Data Final"
 #: model:ir.model.fields,field_description:resource.field_resource_calendar__two_weeks_explanation
 msgid "Explanation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Explicação"
+>>>>>>> upstream/18.0
 =======
 msgstr "Explicação"
 >>>>>>> upstream/18.0
@@ -2174,7 +2238,11 @@ msgstr "Primeiro"
 #: code:addons/resource/models/resource_calendar_attendance.py:0
 msgid "First week"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Primeira semana"
+>>>>>>> upstream/18.0
 =======
 msgstr "Primeira semana"
 >>>>>>> upstream/18.0
@@ -2183,7 +2251,11 @@ msgstr "Primeira semana"
 #: model:ir.model.fields,field_description:resource.field_resource_calendar__flexible_hours
 msgid "Flexible Hours"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Horas flexíveis"
+>>>>>>> upstream/18.0
 =======
 msgstr "Horas flexíveis"
 >>>>>>> upstream/18.0
@@ -2198,7 +2270,11 @@ msgstr "Sexta-Feira"
 #: code:addons/resource/models/resource_calendar.py:0
 msgid "Friday Afternoon"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sexta-feira à tarde"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sexta-feira à tarde"
 >>>>>>> upstream/18.0
@@ -2208,7 +2284,11 @@ msgstr "Sexta-feira à tarde"
 #: code:addons/resource/models/resource_calendar.py:0
 msgid "Friday Lunch"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Almoço na sexta"
+>>>>>>> upstream/18.0
 =======
 msgstr "Almoço na sexta"
 >>>>>>> upstream/18.0
@@ -2218,7 +2298,11 @@ msgstr "Almoço na sexta"
 #: code:addons/resource/models/resource_calendar.py:0
 msgid "Friday Morning"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sexta-feira de manhã"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sexta-feira de manhã"
 >>>>>>> upstream/18.0
@@ -2232,7 +2316,11 @@ msgstr ""
 #: model:ir.model.fields,help:resource.field_resource_calendar_attendance__sequence
 msgid "Gives the sequence of this line when displaying the resource calendar."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fornece a sequência desta linha ao exibir o calendário de recursos."
+>>>>>>> upstream/18.0
 =======
 msgstr "Fornece a sequência desta linha ao exibir o calendário de recursos."
 >>>>>>> upstream/18.0
@@ -2241,7 +2329,11 @@ msgstr "Fornece a sequência desta linha ao exibir o calendário de recursos."
 #: model:ir.model.fields,field_description:resource.field_resource_calendar__global_leave_ids
 msgid "Global Time Off"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Folga global"
+>>>>>>> upstream/18.0
 =======
 msgstr "Folga global"
 >>>>>>> upstream/18.0
@@ -2261,7 +2353,11 @@ msgstr "Horas"
 #: model_terms:ir.ui.view,arch_db:resource.resource_calendar_form
 msgid "Hours per Week"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Horas por semana"
+>>>>>>> upstream/18.0
 =======
 msgstr "Horas por semana"
 >>>>>>> upstream/18.0
@@ -2287,6 +2383,11 @@ msgid ""
 "the time off is only for this resource"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Se estiver vazio, é uma folga genérica para a empresa. Se um recurso estiver "
+"definido, o tempo livre é apenas para este recurso"
+>>>>>>> upstream/18.0
 =======
 "Se estiver vazio, é uma folga genérica para a empresa. Se um recurso estiver "
 "definido, o tempo livre é apenas para este recurso"
@@ -2308,6 +2409,11 @@ msgid ""
 "Time without removing it."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Se o campo ativo for definido como falso, isso permitirá que você oculte o "
+"tempo de trabalho sem removê-lo."
+>>>>>>> upstream/18.0
 =======
 "Se o campo ativo for definido como falso, isso permitirá que você oculte o "
 "tempo de trabalho sem removê-lo."
@@ -2320,6 +2426,11 @@ msgid ""
 "In a calendar with 2 weeks mode, all periods need to be in the sections."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Em um calendário com modo de 2 semanas, todos os períodos precisam estar nas "
+"seções."
+>>>>>>> upstream/18.0
 =======
 "Em um calendário com modo de 2 semanas, todos os períodos precisam estar nas "
 "seções."
@@ -2357,7 +2468,11 @@ msgstr "Segunda-Feira"
 #: code:addons/resource/models/resource_calendar.py:0
 msgid "Monday Afternoon"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Segunda-feira à tarde"
+>>>>>>> upstream/18.0
 =======
 msgstr "Segunda-feira à tarde"
 >>>>>>> upstream/18.0
@@ -2367,7 +2482,11 @@ msgstr "Segunda-feira à tarde"
 #: code:addons/resource/models/resource_calendar.py:0
 msgid "Monday Lunch"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Almoço na segunda-feira"
+>>>>>>> upstream/18.0
 =======
 msgstr "Almoço na segunda-feira"
 >>>>>>> upstream/18.0
@@ -2377,7 +2496,11 @@ msgstr "Almoço na segunda-feira"
 #: code:addons/resource/models/resource_calendar.py:0
 msgid "Monday Morning"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Segunda-feira de manhã"
+>>>>>>> upstream/18.0
 =======
 msgstr "Segunda-feira de manhã"
 >>>>>>> upstream/18.0
@@ -2516,7 +2639,11 @@ msgid "Morning"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Manhã"
+>>>>>>> upstream/18.0
 =======
 msgstr "Manhã"
 >>>>>>> upstream/18.0
@@ -2925,6 +3052,11 @@ msgid ""
 "fulltime."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Número de horas a serem trabalhadas no cronograma da empresa para ser "
+"considerado como tempo integral."
+>>>>>>> upstream/18.0
 =======
 "Número de horas a serem trabalhadas no cronograma da empresa para ser "
 "considerado como tempo integral."
@@ -2973,7 +3105,11 @@ msgstr "Recurso"
 #: model:ir.model,name:resource.model_resource_mixin
 msgid "Resource Mixin"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mixin de recursos"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mixin de recursos"
 >>>>>>> upstream/18.0
@@ -2994,7 +3130,11 @@ msgstr "Detalhes de Recurso de Ausência"
 #: model:ir.model,name:resource.model_resource_calendar
 msgid "Resource Working Time"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tempo de trabalho do recurso"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tempo de trabalho do recurso"
 >>>>>>> upstream/18.0
@@ -3045,7 +3185,11 @@ msgstr "Recursos de pesquisa"
 #: model_terms:ir.ui.view,arch_db:resource.view_resource_calendar_leaves_search
 msgid "Search Working Period Time Off"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Buscar folga no período de trabalho"
+>>>>>>> upstream/18.0
 =======
 msgstr "Buscar folga no período de trabalho"
 >>>>>>> upstream/18.0
@@ -3065,7 +3209,11 @@ msgstr "Segundo"
 #: code:addons/resource/models/resource_calendar_attendance.py:0
 msgid "Second week"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Segunda semana"
+>>>>>>> upstream/18.0
 =======
 msgstr "Segunda semana"
 >>>>>>> upstream/18.0
@@ -3090,7 +3238,11 @@ msgstr "Utilizador Partilhado"
 #: code:addons/resource/models/res_company.py:0
 msgid "Standard 40 hours/week"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Padrão 40 horas/semana"
+>>>>>>> upstream/18.0
 =======
 msgstr "Padrão 40 horas/semana"
 >>>>>>> upstream/18.0
@@ -3107,6 +3259,11 @@ msgid ""
 "A specific value of 24:00 is interpreted as 23:59:59.999999."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Horário de início e término do trabalho.\n"
+"Um valor específico de 24:00 é interpretado como 23:59:59.999999."
+>>>>>>> upstream/18.0
 =======
 "Horário de início e término do trabalho.\n"
 "Um valor específico de 24:00 é interpretado como 23:59:59.999999."
@@ -3121,7 +3278,11 @@ msgstr "Data de Início"
 #: model_terms:ir.ui.view,arch_db:resource.view_resource_calendar_leaves_search
 msgid "Starting Date of Time Off"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Data de início da folga"
+>>>>>>> upstream/18.0
 =======
 msgstr "Data de início da folga"
 >>>>>>> upstream/18.0
@@ -3264,6 +3425,7 @@ msgstr "Domingo"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -3919,6 +4081,8 @@ msgstr ""
 msgid "Switch to 1 week calendar"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 msgid "Switch"
 msgstr "Trocar"
 
@@ -3926,13 +4090,20 @@ msgstr "Trocar"
 #: model_terms:ir.ui.view,arch_db:resource.resource_calendar_form
 msgid "Switch to 1 week calendar"
 msgstr "Mudar para o calendário de 1 semana"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: resource
 #: model_terms:ir.ui.view,arch_db:resource.resource_calendar_form
 msgid "Switch to 2 weeks calendar"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mudar para o calendário de 2 semanas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mudar para o calendário de 2 semanas"
 >>>>>>> upstream/18.0
@@ -3955,7 +4126,11 @@ msgstr ""
 #: code:addons/resource/models/resource_calendar_leaves.py:0
 msgid "The start date of the time off must be earlier than the end date."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "A data de início da folga deve ser anterior à data de término."
+>>>>>>> upstream/18.0
 =======
 msgstr "A data de início da folga deve ser anterior à data de término."
 >>>>>>> upstream/18.0
@@ -3968,6 +4143,11 @@ msgid ""
 "work."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Este campo é usado para definir em qual fuso horário os colaboradores "
+"trabalharão."
+>>>>>>> upstream/18.0
 =======
 "Este campo é usado para definir em qual fuso horário os colaboradores "
 "trabalharão."
@@ -3983,12 +4163,18 @@ msgid ""
 "minutes."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "Este campo é usado para calcular a duração esperada de uma ordem de trabalho "
 "neste centro de trabalho. Por exemplo, se uma ordem de trabalho leva uma "
 "hora e o fator de eficiência é 100%, a duração esperada será de uma hora. Se "
 "o fator de eficiência for 200%, entretanto, a duração esperada será de 30 "
 "minutos."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: resource
@@ -4001,7 +4187,11 @@ msgstr "Quinta"
 #: code:addons/resource/models/resource_calendar.py:0
 msgid "Thursday Afternoon"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Quinta-feira à tarde"
+>>>>>>> upstream/18.0
 =======
 msgstr "Quinta-feira à tarde"
 >>>>>>> upstream/18.0
@@ -4011,7 +4201,11 @@ msgstr "Quinta-feira à tarde"
 #: code:addons/resource/models/resource_calendar.py:0
 msgid "Thursday Lunch"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Almoço na quinta-feira"
+>>>>>>> upstream/18.0
 =======
 msgstr "Almoço na quinta-feira"
 >>>>>>> upstream/18.0
@@ -4021,7 +4215,11 @@ msgstr "Almoço na quinta-feira"
 #: code:addons/resource/models/resource_calendar.py:0
 msgid "Thursday Morning"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Quinta-feira de manhã"
+>>>>>>> upstream/18.0
 =======
 msgstr "Quinta-feira de manhã"
 >>>>>>> upstream/18.0
@@ -4037,7 +4235,11 @@ msgstr "Ausência"
 #: model_terms:ir.ui.view,arch_db:resource.resource_calendar_leave_tree
 msgid "Time Off Detail"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Detalhe da folga"
+>>>>>>> upstream/18.0
 =======
 msgstr "Detalhe da folga"
 >>>>>>> upstream/18.0
@@ -4046,7 +4248,11 @@ msgstr "Detalhe da folga"
 #: model:ir.model.fields,field_description:resource.field_resource_calendar_leaves__time_type
 msgid "Time Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tipo de tempo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tipo de tempo"
 >>>>>>> upstream/18.0
@@ -4055,7 +4261,11 @@ msgstr "Tipo de tempo"
 #: model:ir.model.constraint,message:resource.constraint_resource_resource_check_time_efficiency
 msgid "Time efficiency must be strictly positive"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "A eficiência de tempo deve ser estritamente positiva"
+>>>>>>> upstream/18.0
 =======
 msgstr "A eficiência de tempo deve ser estritamente positiva"
 >>>>>>> upstream/18.0
@@ -4082,7 +4292,11 @@ msgstr "Terça-Feira"
 #: code:addons/resource/models/resource_calendar.py:0
 msgid "Tuesday Afternoon"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Terça-feira à tarde"
+>>>>>>> upstream/18.0
 =======
 msgstr "Terça-feira à tarde"
 >>>>>>> upstream/18.0
@@ -4092,7 +4306,11 @@ msgstr "Terça-feira à tarde"
 #: code:addons/resource/models/resource_calendar.py:0
 msgid "Tuesday Lunch"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Almoço na terça-feira"
+>>>>>>> upstream/18.0
 =======
 msgstr "Almoço na terça-feira"
 >>>>>>> upstream/18.0
@@ -4102,7 +4320,11 @@ msgstr "Almoço na terça-feira"
 #: code:addons/resource/models/resource_calendar.py:0
 msgid "Tuesday Morning"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Terça-feira de manhã"
+>>>>>>> upstream/18.0
 =======
 msgstr "Terça-feira de manhã"
 >>>>>>> upstream/18.0
@@ -4130,7 +4352,11 @@ msgstr "Quarta-Feira"
 #: code:addons/resource/models/resource_calendar.py:0
 msgid "Wednesday Afternoon"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Quarta-feira à tarde"
+>>>>>>> upstream/18.0
 =======
 msgstr "Quarta-feira à tarde"
 >>>>>>> upstream/18.0
@@ -4140,7 +4366,11 @@ msgstr "Quarta-feira à tarde"
 #: code:addons/resource/models/resource_calendar.py:0
 msgid "Wednesday Lunch"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Almoço na quarta-feira"
+>>>>>>> upstream/18.0
 =======
 msgstr "Almoço na quarta-feira"
 >>>>>>> upstream/18.0
@@ -4150,7 +4380,11 @@ msgstr "Almoço na quarta-feira"
 #: code:addons/resource/models/resource_calendar.py:0
 msgid "Wednesday Morning"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Quarta-feira de manhã"
+>>>>>>> upstream/18.0
 =======
 msgstr "Quarta-feira de manhã"
 >>>>>>> upstream/18.0
@@ -4159,7 +4393,11 @@ msgstr "Quarta-feira de manhã"
 #: model:ir.model.fields,field_description:resource.field_resource_calendar_attendance__week_type
 msgid "Week Number"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Número da semana"
+>>>>>>> upstream/18.0
 =======
 msgstr "Número da semana"
 >>>>>>> upstream/18.0
@@ -4178,6 +4416,11 @@ msgid ""
 "formation)"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Se isso deve ser calculado como uma folga ou como tempo de trabalho (por "
+"exemplo: formação)"
+>>>>>>> upstream/18.0
 =======
 "Se isso deve ser calculado como uma folga ou como tempo de trabalho (por "
 "exemplo: formação)"
@@ -4211,7 +4454,11 @@ msgstr "Horário de Trabalho"
 #: code:addons/resource/models/resource_calendar.py:0
 msgid "Working Hours of %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Horas de trabalho de %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Horas de trabalho de %s"
 >>>>>>> upstream/18.0
@@ -4239,7 +4486,11 @@ msgstr "Tempo de Trabalho"
 #: code:addons/resource/models/resource_calendar.py:0
 msgid "You can't delete section between weeks."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Não é possível excluir a seção entre as semanas."
+>>>>>>> upstream/18.0
 =======
 msgstr "Não é possível excluir a seção entre as semanas."
 >>>>>>> upstream/18.0
@@ -4249,7 +4500,11 @@ msgstr "Não é possível excluir a seção entre as semanas."
 #: code:addons/resource/models/resource_calendar.py:0
 msgid "first"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "first"
+>>>>>>> upstream/18.0
 =======
 msgstr "first"
 >>>>>>> upstream/18.0
@@ -4259,7 +4514,11 @@ msgstr "first"
 #: code:addons/resource/models/resource_calendar_attendance.py:0
 msgid "other week"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "outra semana"
+>>>>>>> upstream/18.0
 =======
 msgstr "outra semana"
 >>>>>>> upstream/18.0
@@ -4402,7 +4661,11 @@ msgid "second"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "segundo"
+>>>>>>> upstream/18.0
 =======
 msgstr "segundo"
 >>>>>>> upstream/18.0
@@ -4811,7 +5074,11 @@ msgstr "segundo"
 #: code:addons/resource/models/resource_calendar_attendance.py:0
 msgid "this week"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "esta semana"
+>>>>>>> upstream/18.0
 =======
 msgstr "esta semana"
 >>>>>>> upstream/18.0

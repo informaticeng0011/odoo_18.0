@@ -80,7 +80,11 @@ from odoo.addons.sale_timesheet.tests.common import TestCommonSaleTimesheet
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tests import Form, tagged
+=======
+from odoo.tests import Form, tagged, new_test_user
+>>>>>>> upstream/18.0
 =======
 from odoo.tests import Form, tagged, new_test_user
 >>>>>>> upstream/18.0
@@ -384,7 +388,10 @@ class TestSaleTimesheet(TestCommonSaleTimesheet):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -640,6 +647,9 @@ class TestSaleTimesheet(TestCommonSaleTimesheet):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1849,7 +1859,10 @@ class TestSaleTimesheet(TestCommonSaleTimesheet):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_linked_timesheet_after_invoice_reversal(self):
@@ -1948,6 +1961,9 @@ class TestSaleTimesheet(TestCommonSaleTimesheet):
         self.assertEqual(timesheet2.timesheet_invoice_id, invoice2, "Timesheet2 should still be linked to the original invoice")
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

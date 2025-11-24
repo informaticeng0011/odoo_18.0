@@ -1,8 +1,13 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* hr_fleet
 # 
+=======
+# * hr_fleet
+#
+>>>>>>> upstream/18.0
 =======
 # * hr_fleet
 #
@@ -12,6 +17,7 @@
 # Peter Lawrence Romão <peterromao@yahoo.co.uk>, 2025
 # Wil Odoo, 2025
 # J Ponte, 2025
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -485,11 +491,16 @@ msgstr ""
 # Daniel Reis, 2025
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
+=======
+# Daniel Reis, 2025
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-23 18:39+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Daniel Reis, 2025\n"
@@ -861,6 +872,8 @@ msgstr ""
 "Language: pt\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-11-14 13:48+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Portuguese <https://translate.odoo.com/projects/odoo-18/"
@@ -872,6 +885,9 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % "
 "1000000 == 0) ? 1 : 2);\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_fleet
@@ -886,6 +902,11 @@ msgid ""
 "                        <span class=\"o_stat_text\">Employee</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"o_stat_value\">1</span>\n"
+"                        <span class=\"o_stat_text\">Funcionário</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"o_stat_value\">1</span>\n"
 "                        <span class=\"o_stat_text\">Funcionário</span>"
@@ -912,7 +933,11 @@ msgstr "Anexos"
 #: code:addons/hr_fleet/models/employee.py:0
 msgid "Cannot remove address from employees with linked cars."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Não é possível remover endereço de funcionários com carros vinculados."
+>>>>>>> upstream/18.0
 =======
 msgstr "Não é possível remover endereço de funcionários com carros vinculados."
 >>>>>>> upstream/18.0
@@ -1055,7 +1080,11 @@ msgid "Cars"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Carros"
+>>>>>>> upstream/18.0
 =======
 msgstr "Carros"
 >>>>>>> upstream/18.0
@@ -1463,7 +1492,11 @@ msgstr "Carros"
 #: model_terms:ir.ui.view,arch_db:hr_fleet.hr_departure_wizard_view_form
 msgid "Company Car"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Carro da empresa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Carro da empresa"
 >>>>>>> upstream/18.0
@@ -1472,7 +1505,11 @@ msgstr "Carro da empresa"
 #: model_terms:ir.ui.view,arch_db:hr_fleet.fleet_vehicle_assignation_log_employee_view_list
 msgid "Current Driver"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Motorista atual"
+>>>>>>> upstream/18.0
 =======
 msgstr "Motorista atual"
 >>>>>>> upstream/18.0
@@ -1496,7 +1533,11 @@ msgstr "Condutor"
 #: model_terms:ir.ui.view,arch_db:hr_fleet.fleet_vehicle_log_services_view_form_inherit_hr
 msgid "Driver (Employee)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Motorista (funcionário)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Motorista (funcionário)"
 >>>>>>> upstream/18.0
@@ -1517,7 +1558,11 @@ msgstr "Funcionário"
 #: code:addons/hr_fleet/models/mail_activity_plan_template.py:0
 msgid "Employee %s is not linked to a vehicle."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "O funcionário %s não está vinculado a um veículo."
+>>>>>>> upstream/18.0
 =======
 msgstr "O funcionário %s não está vinculado a um veículo."
 >>>>>>> upstream/18.0
@@ -1531,7 +1576,11 @@ msgstr "Nome do Funcionário"
 #: model:ir.model.fields.selection,name:hr_fleet.selection__mail_activity_plan_template__responsible_type__fleet_manager
 msgid "Fleet Manager"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gerente de frota"
+>>>>>>> upstream/18.0
 =======
 msgstr "Gerente de frota"
 >>>>>>> upstream/18.0
@@ -1546,7 +1595,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_fleet.view_employee_form
 msgid "Fleet Mobility Card"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Carta de condução da frota"
+>>>>>>> upstream/18.0
 =======
 msgstr "Carta de condução da frota"
 >>>>>>> upstream/18.0
@@ -1554,6 +1607,7 @@ msgstr "Carta de condução da frota"
 #. module: hr_fleet
 #: model:ir.model.fields,field_description:hr_fleet.field_fleet_vehicle__future_driver_employee_id
 msgid "Future Driver (Employee)"
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgstr ""
 
@@ -1925,6 +1979,11 @@ msgstr "Futuro motorista (funcionário)"
 
 #. module: hr_fleet
 >>>>>>> upstream/18.0
+=======
+msgstr "Futuro motorista (funcionário)"
+
+#. module: hr_fleet
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/hr_fleet/models/employee.py:0
 msgid "History Employee Cars"
@@ -2052,6 +2111,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2327,7 +2389,11 @@ msgstr "Funcionário Público"
 #: code:addons/hr_fleet/models/fleet_vehicle_log_contract.py:0
 msgid "Related Employee"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Funcionário relacionado"
+>>>>>>> upstream/18.0
 =======
 msgstr "Funcionário relacionado"
 >>>>>>> upstream/18.0
@@ -2336,7 +2402,11 @@ msgstr "Funcionário relacionado"
 #: model:ir.model.fields,field_description:hr_fleet.field_hr_departure_wizard__release_campany_car
 msgid "Release Company Car"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Liberar carro da empresa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Liberar carro da empresa"
 >>>>>>> upstream/18.0
@@ -2372,7 +2442,11 @@ msgstr "Veículo"
 #: model:ir.model,name:hr_fleet.model_fleet_vehicle_log_contract
 msgid "Vehicle Contract"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Contrato do veículo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Contrato do veículo"
 >>>>>>> upstream/18.0
@@ -2381,7 +2455,11 @@ msgstr "Contrato do veículo"
 #: model:ir.model.fields,field_description:hr_fleet.field_hr_employee__car_ids
 msgid "Vehicles (private)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Veículos (privado)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Veículos (privado)"
 >>>>>>> upstream/18.0

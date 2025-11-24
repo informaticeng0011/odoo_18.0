@@ -1,8 +1,13 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* pos_event
 # 
+=======
+# * pos_event
+#
+>>>>>>> upstream/18.0
 =======
 # * pos_event
 #
@@ -13,6 +18,7 @@
 # Rita Bastos, 2025
 # Peter Lawrence Romão <peterromao@yahoo.co.uk>, 2025
 # J Ponte, 2025
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -539,11 +545,16 @@
 # Daniel Reis, 2025
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
+=======
+# Daniel Reis, 2025
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "PO-Revision-Date: 2024-09-29 00:00+0000\n"
 <<<<<<< HEAD
@@ -1074,6 +1085,8 @@ msgstr ""
 "Language: pt\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-11-13 16:25+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Portuguese <https://translate.odoo.com/projects/odoo-18/"
@@ -1085,6 +1098,9 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % "
 "1000000 == 0) ? 1 : 2);\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: pos_event
@@ -1098,7 +1114,11 @@ msgstr ""
 #: code:addons/pos_event/static/src/app/popup/event_registration_popup/event_registration_popup.xml:0
 msgid "--- Select ---"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "--- Selecione ---"
+>>>>>>> upstream/18.0
 =======
 msgstr "--- Selecione ---"
 >>>>>>> upstream/18.0
@@ -1108,6 +1128,11 @@ msgstr "--- Selecione ---"
 msgid "<i class=\"fa fa-file-pdf-o me-1\" aria-hidden=\"true\"/>Print Event Badges"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-file-pdf-o me-1\" aria-hidden=\"true\"/>Imprimir crachás de "
+"eventos"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-file-pdf-o me-1\" aria-hidden=\"true\"/>Imprimir crachás de "
 "eventos"
@@ -1118,6 +1143,11 @@ msgstr ""
 msgid "<i class=\"fa fa-file-pdf-o me-1\" aria-hidden=\"true\"/>Print Event Tickets"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-file-pdf-o me-1\" aria-hidden=\"true\"/>Imprimir ingressos "
+"de eventos"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-file-pdf-o me-1\" aria-hidden=\"true\"/>Imprimir ingressos "
 "de eventos"
@@ -1196,7 +1226,11 @@ msgstr "Bilhete do Evento"
 #: code:addons/pos_event/static/src/app/screens/product_screen/order_summary/order_summary.xml:0
 msgid "Event name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nome do evento"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nome do evento"
 >>>>>>> upstream/18.0
@@ -1211,7 +1245,11 @@ msgstr "Eventos"
 #: code:addons/pos_event/static/src/app/screens/product_screen/product_screen.js:0
 msgid "From %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "De %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "De %s"
 >>>>>>> upstream/18.0
@@ -1221,7 +1259,11 @@ msgstr "De %s"
 #: code:addons/pos_event/static/src/app/popup/event_registration_popup/event_registration_popup.xml:0
 msgid "Global questions"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Perguntas globais"
+>>>>>>> upstream/18.0
 =======
 msgstr "Perguntas globais"
 >>>>>>> upstream/18.0
@@ -1230,7 +1272,11 @@ msgstr "Perguntas globais"
 #: model:ir.model.fields,field_description:pos_event.field_event_event__image_1024
 msgid "PoS Image"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Imagem do PDV"
+>>>>>>> upstream/18.0
 =======
 msgstr "Imagem do PDV"
 >>>>>>> upstream/18.0
@@ -1239,7 +1285,11 @@ msgstr "Imagem do PDV"
 #: model:ir.model.fields,field_description:pos_event.field_event_registration__pos_order_id
 msgid "PoS Order"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pedido do PDV"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pedido do PDV"
 >>>>>>> upstream/18.0
@@ -1248,7 +1298,11 @@ msgstr "Pedido do PDV"
 #: model:ir.model.fields,field_description:pos_event.field_event_registration__pos_order_line_id
 msgid "PoS Order Line"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Linha de pedido de PDV"
+>>>>>>> upstream/18.0
 =======
 msgstr "Linha de pedido de PDV"
 >>>>>>> upstream/18.0
@@ -1262,7 +1316,11 @@ msgstr "Configuração do Ponto de Venda"
 #: model:ir.model,name:pos_event.model_pos_order_line
 msgid "Point of Sale Order Lines"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Linhas de pedido de Ponto de Venda"
+>>>>>>> upstream/18.0
 =======
 msgstr "Linhas de pedido de Ponto de Venda"
 >>>>>>> upstream/18.0
@@ -1288,7 +1346,11 @@ msgstr "Imprimir crachá"
 #: code:addons/pos_event/static/src/app/screens/receipt_screen/receipt_screen.xml:0
 msgid "Print Full Page Ticket"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Imprimir ingresso em página inteira"
+>>>>>>> upstream/18.0
 =======
 msgstr "Imprimir ingresso em página inteira"
 >>>>>>> upstream/18.0
@@ -1306,6 +1368,10 @@ msgid ""
 "The selected ticket (%s) is not available. Please select a different ticket."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"O ingresso selecionado (%s) não está disponível. Selecione outro ingresso."
+>>>>>>> upstream/18.0
 =======
 "O ingresso selecionado (%s) não está disponível. Selecione outro ingresso."
 >>>>>>> upstream/18.0
@@ -1321,7 +1387,11 @@ msgstr "Bilhete #"
 #: code:addons/pos_event/static/src/app/models/pos_order_line.js:0
 msgid "Ticket error"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Erro no ingresso"
+>>>>>>> upstream/18.0
 =======
 msgstr "Erro no ingresso"
 >>>>>>> upstream/18.0
@@ -1467,7 +1537,11 @@ msgid "Unlimited"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ilimitado"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ilimitado"
 >>>>>>> upstream/18.0
@@ -1869,6 +1943,11 @@ msgid ""
 "You cannot change quantity for a line linked with an event registration"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Não é possível modificar a quantidade de uma linha vinculada a uma inscrição "
+"em evento"
+>>>>>>> upstream/18.0
 =======
 "Não é possível modificar a quantidade de uma linha vinculada a uma inscrição "
 "em evento"
@@ -1886,7 +1965,11 @@ msgstr "para"
 #: code:addons/pos_event/static/src/app/popup/event_configurator_popup/event_configurator_popup.xml:0
 msgid "left"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "esquerda"
+>>>>>>> upstream/18.0
 =======
 msgstr "esquerda"
 >>>>>>> upstream/18.0

@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* pos_paytm
 # 
 # Translators:
@@ -8,18 +9,24 @@
 # Manuela Silva <mmsrs@sky.com>, 2025
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 # * pos_paytm
 #
 # Translators:
 # Wil Odoo, 2025
 # Manuela Silva <mmsrs@sky.com>, 2025
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Manuela Silva <mmsrs@sky.com>, 2025\n"
@@ -30,6 +37,8 @@ msgstr ""
 "Language: pt\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-11-21 02:33+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Portuguese <https://translate.odoo.com/projects/odoo-18/"
@@ -41,13 +50,20 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % "
 "1000000 == 0) ? 1 : 2);\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: pos_paytm
 #: model:ir.model.fields,field_description:pos_paytm.field_pos_payment_method__accept_payment
 msgid "Accept Payment"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aceitar pagamento"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aceitar pagamento"
 >>>>>>> upstream/18.0
@@ -61,7 +77,11 @@ msgstr "Tudo"
 #: model:ir.model.fields,field_description:pos_paytm.field_pos_payment_method__allowed_payment_modes
 msgid "Allowed Payment Modes"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Modos de pagamento permitidos"
+>>>>>>> upstream/18.0
 =======
 msgstr "Modos de pagamento permitidos"
 >>>>>>> upstream/18.0
@@ -70,7 +90,11 @@ msgstr "Modos de pagamento permitidos"
 #: model:ir.model.fields.selection,name:pos_paytm.selection__pos_payment_method__accept_payment__auto
 msgid "Automatically"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Automaticamente"
+>>>>>>> upstream/18.0
 =======
 msgstr "Automaticamente"
 >>>>>>> upstream/18.0
@@ -87,6 +111,11 @@ msgid ""
 " Manually or Automatically"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Escolha o modo de aceitação de pagamento: \n"
+"manual ou automático"
+>>>>>>> upstream/18.0
 =======
 "Escolha o modo de aceitação de pagamento: \n"
 "manual ou automático"
@@ -99,6 +128,11 @@ msgid ""
 " All/Card or QR"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Escolha permitir modo de pagamento: \n"
+"Todos/Cartão ou QR"
+>>>>>>> upstream/18.0
 =======
 "Escolha permitir modo de pagamento: \n"
 "Todos/Cartão ou QR"
@@ -108,7 +142,11 @@ msgstr ""
 #: model:ir.model.fields,help:pos_paytm.field_pos_payment_method__paytm_mid
 msgid "Go to https://business.paytm.com/ and create the merchant account"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Acesse https://business.paytm.com/ e crie a conta do comerciante"
+>>>>>>> upstream/18.0
 =======
 msgstr "Acesse https://business.paytm.com/ e crie a conta do comerciante"
 >>>>>>> upstream/18.0
@@ -125,6 +163,11 @@ msgid ""
 " ex: B1o6Ivjy8L1@abc9"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Chave comerciante/AES \n"
+"ex: B1o6Ivjy8L1@abc9"
+>>>>>>> upstream/18.0
 =======
 "Chave comerciante/AES \n"
 "ex: B1o6Ivjy8L1@abc9"
@@ -134,7 +177,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:pos_paytm.field_pos_payment_method__channel_id
 msgid "PayTM Channel ID"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "PayTM – ID do canal"
+>>>>>>> upstream/18.0
 =======
 msgstr "PayTM – ID do canal"
 >>>>>>> upstream/18.0
@@ -144,7 +191,11 @@ msgstr "PayTM – ID do canal"
 #: code:addons/pos_paytm/static/src/js/payment_paytm.js:0
 msgid "PayTM Error"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Erro do PayTM"
+>>>>>>> upstream/18.0
 =======
 msgstr "Erro do PayTM"
 >>>>>>> upstream/18.0
@@ -153,7 +204,11 @@ msgstr "Erro do PayTM"
 #: model:ir.model.fields,field_description:pos_paytm.field_pos_payment_method__paytm_merchant_key
 msgid "PayTM Merchant API Key"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "PayTM – Chave da API do comerciante"
+>>>>>>> upstream/18.0
 =======
 msgstr "PayTM – Chave da API do comerciante"
 >>>>>>> upstream/18.0
@@ -162,7 +217,11 @@ msgstr "PayTM – Chave da API do comerciante"
 #: model:ir.model.fields,field_description:pos_paytm.field_pos_payment_method__paytm_mid
 msgid "PayTM Merchant ID"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "PayTM – ID do comerciante"
+>>>>>>> upstream/18.0
 =======
 msgstr "PayTM – ID do comerciante"
 >>>>>>> upstream/18.0
@@ -171,7 +230,11 @@ msgstr "PayTM – ID do comerciante"
 #: model:ir.model.fields,field_description:pos_paytm.field_pos_payment_method__paytm_tid
 msgid "PayTM Terminal ID"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "PayTM – ID do terminal"
+>>>>>>> upstream/18.0
 =======
 msgstr "PayTM – ID do terminal"
 >>>>>>> upstream/18.0
@@ -180,7 +243,11 @@ msgstr "PayTM – ID do terminal"
 #: model:ir.model.fields,field_description:pos_paytm.field_pos_payment_method__paytm_test_mode
 msgid "PayTM Test Mode"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "PayTM – Modo de teste"
+>>>>>>> upstream/18.0
 =======
 msgstr "PayTM – Modo de teste"
 >>>>>>> upstream/18.0
@@ -194,7 +261,11 @@ msgstr "Métodos de Pagamento do Ponto de Venda"
 #: model:ir.model.fields.selection,name:pos_paytm.selection__pos_payment_method__allowed_payment_modes__qr
 msgid "QR"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "QR"
+>>>>>>> upstream/18.0
 =======
 msgstr "QR"
 >>>>>>> upstream/18.0
@@ -204,7 +275,11 @@ msgstr "QR"
 #: code:addons/pos_paytm/static/src/js/payment_paytm.js:0
 msgid "Reference number mismatched"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Número de referência não correspondente"
+>>>>>>> upstream/18.0
 =======
 msgstr "Número de referência não correspondente"
 >>>>>>> upstream/18.0
@@ -214,7 +289,11 @@ msgstr "Número de referência não correspondente"
 #: code:addons/pos_paytm/models/pos_payment_method.py:0
 msgid "Something went wrong with paytm request. Please try later."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ocorreu um erro com a solicitação do PayTM. Tente novamente mais tarde."
+>>>>>>> upstream/18.0
 =======
 msgstr "Ocorreu um erro com a solicitação do PayTM. Tente novamente mais tarde."
 >>>>>>> upstream/18.0
@@ -226,6 +305,11 @@ msgid ""
 " ex: 70000123"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Modelo do terminal ou código de ativação \n"
+"ex: 70000123"
+>>>>>>> upstream/18.0
 =======
 "Modelo do terminal ou código de ativação \n"
 "ex: 70000123"
@@ -236,7 +320,11 @@ msgstr ""
 #: code:addons/pos_paytm/models/pos_payment_method.py:0
 msgid "This Payment Terminal is only valid for INR Currency"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Este terminal de pagamento só é válido para moeda INR"
+>>>>>>> upstream/18.0
 =======
 msgstr "Este terminal de pagamento só é válido para moeda INR"
 >>>>>>> upstream/18.0
@@ -245,7 +333,11 @@ msgstr "Este terminal de pagamento só é válido para moeda INR"
 #: model:ir.model.fields,help:pos_paytm.field_pos_payment_method__paytm_test_mode
 msgid "Turn it on when in Test Mode"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ative quando estiver no modo de teste"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ative quando estiver no modo de teste"
 >>>>>>> upstream/18.0
@@ -256,6 +348,11 @@ msgstr "Ative quando estiver no modo de teste"
 msgid "makePaymentRequest expected resultCode not found in the response"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"O resultCode esperado para a makePaymentRequest não foi encontrado na "
+"resposta"
+>>>>>>> upstream/18.0
 =======
 "O resultCode esperado para a makePaymentRequest não foi encontrado na "
 "resposta"
@@ -267,6 +364,11 @@ msgstr ""
 msgid "paymentFetchRequest expected resultCode not found in the response"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"O resultCode esperado para a paymentFetchRequest não foi encontrado na "
+"resposta"
+>>>>>>> upstream/18.0
 =======
 "O resultCode esperado para a paymentFetchRequest não foi encontrado na "
 "resposta"
@@ -277,7 +379,11 @@ msgstr ""
 #: code:addons/pos_paytm/models/pos_payment_method.py:0
 msgid "paytm transaction failure"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "falha na transação do PayTM"
+>>>>>>> upstream/18.0
 =======
 msgstr "falha na transação do PayTM"
 >>>>>>> upstream/18.0
@@ -287,7 +393,11 @@ msgstr "falha na transação do PayTM"
 #: code:addons/pos_paytm/models/pos_payment_method.py:0
 msgid "paytm transaction request declined"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Solicitação de transação do PayTM recusada"
+>>>>>>> upstream/18.0
 =======
 msgstr "Solicitação de transação do PayTM recusada"
 >>>>>>> upstream/18.0

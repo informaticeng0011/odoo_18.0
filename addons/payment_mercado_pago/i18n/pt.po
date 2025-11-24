@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* payment_mercado_pago
 # 
 # Translators:
@@ -8,18 +9,24 @@
 # Wil Odoo, 2025
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 # * payment_mercado_pago
 #
 # Translators:
 # Manuela Silva <mmsrs@sky.com>, 2025
 # Wil Odoo, 2025
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Wil Odoo, 2025\n"
@@ -30,6 +37,8 @@ msgstr ""
 "Language: pt\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-11-21 02:32+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Portuguese <https://translate.odoo.com/projects/odoo-18/"
@@ -41,6 +50,9 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % "
 "1000000 == 0) ? 1 : 2);\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: payment_mercado_pago
@@ -56,6 +68,11 @@ msgid ""
 "The phone number is on the back of your card."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ligue para o emissor do cartão para ativá-lo ou use outra forma de "
+"pagamento. O número de telefone fica no verso do cartão."
+>>>>>>> upstream/18.0
 =======
 "Ligue para o emissor do cartão para ativá-lo ou use outra forma de "
 "pagamento. O número de telefone fica no verso do cartão."
@@ -66,7 +83,11 @@ msgstr ""
 #: code:addons/payment_mercado_pago/const.py:0
 msgid "Check expiration date."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Verifique a data de expiração."
+>>>>>>> upstream/18.0
 =======
 msgstr "Verifique a data de expiração."
 >>>>>>> upstream/18.0
@@ -76,7 +97,11 @@ msgstr "Verifique a data de expiração."
 #: code:addons/payment_mercado_pago/const.py:0
 msgid "Check the card number."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Verifique o número do cartão."
+>>>>>>> upstream/18.0
 =======
 msgstr "Verifique o número do cartão."
 >>>>>>> upstream/18.0
@@ -86,7 +111,11 @@ msgstr "Verifique o número do cartão."
 #: code:addons/payment_mercado_pago/const.py:0
 msgid "Check the card security code."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Verifique o código de segurança."
+>>>>>>> upstream/18.0
 =======
 msgstr "Verifique o código de segurança."
 >>>>>>> upstream/18.0
@@ -96,7 +125,11 @@ msgstr "Verifique o código de segurança."
 #: code:addons/payment_mercado_pago/const.py:0
 msgid "Check the data."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Verifique os dados."
+>>>>>>> upstream/18.0
 =======
 msgstr "Verifique os dados."
 >>>>>>> upstream/18.0
@@ -111,7 +144,11 @@ msgstr "Código"
 #: code:addons/payment_mercado_pago/models/payment_provider.py:0
 msgid "Could not establish the connection to the API."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Não foi possível estabelecer a conexão com a API."
+>>>>>>> upstream/18.0
 =======
 msgstr "Não foi possível estabelecer a conexão com a API."
 >>>>>>> upstream/18.0
@@ -120,7 +157,11 @@ msgstr "Não foi possível estabelecer a conexão com a API."
 #: model:ir.model.fields.selection,name:payment_mercado_pago.selection__payment_provider__code__mercado_pago
 msgid "Mercado Pago"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mercado Pago"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mercado Pago"
 >>>>>>> upstream/18.0
@@ -129,7 +170,11 @@ msgstr "Mercado Pago"
 #: model:ir.model.fields,field_description:payment_mercado_pago.field_payment_provider__mercado_pago_access_token
 msgid "Mercado Pago Access Token"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Token de acesso ao Mercado Pago"
+>>>>>>> upstream/18.0
 =======
 msgstr "Token de acesso ao Mercado Pago"
 >>>>>>> upstream/18.0
@@ -139,7 +184,11 @@ msgstr "Token de acesso ao Mercado Pago"
 #: code:addons/payment_mercado_pago/models/payment_transaction.py:0
 msgid "No transaction found matching reference %s."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nenhuma transação encontrada com a referência %s."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nenhuma transação encontrada com a referência %s."
 >>>>>>> upstream/18.0
@@ -160,6 +209,11 @@ msgstr "Transação de Pagamento"
 msgid "Payment was not processed, use another card or contact issuer."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"O pagamento não foi processado, use outro cartão ou entre em contato com o "
+"emissor."
+>>>>>>> upstream/18.0
 =======
 "O pagamento não foi processado, use outro cartão ou entre em contato com o "
 "emissor."
@@ -170,7 +224,11 @@ msgstr ""
 #: code:addons/payment_mercado_pago/models/payment_transaction.py:0
 msgid "Received data with invalid status: %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dados recebidos com status inválido: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dados recebidos com status inválido: %s"
 >>>>>>> upstream/18.0
@@ -180,7 +238,11 @@ msgstr "Dados recebidos com status inválido: %s"
 #: code:addons/payment_mercado_pago/models/payment_transaction.py:0
 msgid "Received data with missing payment id."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dados recebidos com ID de pagamento ausente."
+>>>>>>> upstream/18.0
 =======
 msgstr "Dados recebidos com ID de pagamento ausente."
 >>>>>>> upstream/18.0
@@ -190,7 +252,11 @@ msgstr "Dados recebidos com ID de pagamento ausente."
 #: code:addons/payment_mercado_pago/models/payment_transaction.py:0
 msgid "Received data with missing reference."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dados recebidos com referência ausente."
+>>>>>>> upstream/18.0
 =======
 msgstr "Dados recebidos com referência ausente."
 >>>>>>> upstream/18.0
@@ -200,7 +266,11 @@ msgstr "Dados recebidos com referência ausente."
 #: code:addons/payment_mercado_pago/models/payment_transaction.py:0
 msgid "Received data with missing status."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dados recebidos com status ausente."
+>>>>>>> upstream/18.0
 =======
 msgstr "Dados recebidos com status ausente."
 >>>>>>> upstream/18.0
@@ -213,6 +283,11 @@ msgid ""
 "information: '%(error_message)s' (code %(error_code)s)"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"A comunicação com a API falhou. O Mercado Pago nos forneceu as seguintes "
+"informações: '%(error_message)s' (código %(error_code)s)"
+>>>>>>> upstream/18.0
 =======
 "A comunicação com a API falhou. O Mercado Pago nos forneceu as seguintes "
 "informações: '%(error_message)s' (código %(error_code)s)"
@@ -226,6 +301,11 @@ msgid ""
 "your access token."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"A comunicação com a API falhou. A resposta está vazia. Verifique seu token "
+"de acesso."
+>>>>>>> upstream/18.0
 =======
 "A comunicação com a API falhou. A resposta está vazia. Verifique seu token "
 "de acesso."
@@ -235,7 +315,11 @@ msgstr ""
 #: model:ir.model.fields,help:payment_mercado_pago.field_payment_provider__code
 msgid "The technical code of this payment provider."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "O código técnico deste provedor de pagamento."
+>>>>>>> upstream/18.0
 =======
 msgstr "O código técnico deste provedor de pagamento."
 >>>>>>> upstream/18.0
@@ -245,7 +329,11 @@ msgstr "O código técnico deste provedor de pagamento."
 #: code:addons/payment_mercado_pago/const.py:0
 msgid "This payment method does not process payments in installments."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Esta forma de pagamento não processa pagamentos em prestações."
+>>>>>>> upstream/18.0
 =======
 msgstr "Esta forma de pagamento não processa pagamentos em prestações."
 >>>>>>> upstream/18.0
@@ -258,6 +346,11 @@ msgid ""
 "we will notify you by e-mail if your payment has been credited."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Estamos processando seu pagamento. Não se preocupe, em menos de dois dias "
+"úteis, você será notificado por e-mail se seu pagamento tiver sido creditado."
+>>>>>>> upstream/18.0
 =======
 "Estamos processando seu pagamento. Não se preocupe, em menos de dois dias "
 "úteis, você será notificado por e-mail se seu pagamento tiver sido creditado."
@@ -272,6 +365,12 @@ msgid ""
 "more information."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Estamos processando seu pagamento. Não se preocupe, em menos de dois dias "
+"úteis, você será notificado por e-mail se seu pagamento tiver sido creditado "
+"ou se precisamos de mais informações."
+>>>>>>> upstream/18.0
 =======
 "Estamos processando seu pagamento. Não se preocupe, em menos de dois dias "
 "úteis, você será notificado por e-mail se seu pagamento tiver sido creditado "
@@ -285,6 +384,10 @@ msgid ""
 "We were unable to process your payment, please check your card information."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Não foi possível processar seu pagamento. Verifique as informações do cartão."
+>>>>>>> upstream/18.0
 =======
 "Não foi possível processar seu pagamento. Verifique as informações do cartão."
 >>>>>>> upstream/18.0
@@ -294,7 +397,11 @@ msgstr ""
 #: code:addons/payment_mercado_pago/const.py:0
 msgid "We were unable to process your payment, please use another card."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Não foi possível processar seu pagamento. Use outro cartão."
+>>>>>>> upstream/18.0
 =======
 msgstr "Não foi possível processar seu pagamento. Use outro cartão."
 >>>>>>> upstream/18.0
@@ -307,6 +414,11 @@ msgid ""
 "use another card or another payment method."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Você já fez um p-agamento com esse valor. Se você precisa pagar novamente, "
+"use outro cartão ou outra forma de pagamento."
+>>>>>>> upstream/18.0
 =======
 "Você já fez um p-agamento com esse valor. Se você precisa pagar novamente, "
 "use outro cartão ou outra forma de pagamento."
@@ -320,6 +432,11 @@ msgid ""
 " means of payment."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Você atingiu o limite de tentativas permitidas. Escolha outro cartão ou "
+"outro meio de pagamento."
+>>>>>>> upstream/18.0
 =======
 "Você atingiu o limite de tentativas permitidas. Escolha outro cartão ou "
 "outro meio de pagamento."
@@ -330,7 +447,11 @@ msgstr ""
 #: code:addons/payment_mercado_pago/const.py:0
 msgid "You must authorize the payment with this card."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Você deve autorizar o pagamento com este cartão."
+>>>>>>> upstream/18.0
 =======
 msgstr "Você deve autorizar o pagamento com este cartão."
 >>>>>>> upstream/18.0
@@ -340,7 +461,11 @@ msgstr "Você deve autorizar o pagamento com este cartão."
 #: code:addons/payment_mercado_pago/const.py:0
 msgid "Your card has not enough funds."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Seu cartão não tem saldo suficiente."
+>>>>>>> upstream/18.0
 =======
 msgstr "Seu cartão não tem saldo suficiente."
 >>>>>>> upstream/18.0
@@ -353,6 +478,11 @@ msgid ""
 " statement descriptor."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Seu pagamento foi creditado. No resumo, você verá a cobrança na descrição do "
+"extrato."
+>>>>>>> upstream/18.0
 =======
 "Seu pagamento foi creditado. No resumo, você verá a cobrança na descrição do "
 "extrato."

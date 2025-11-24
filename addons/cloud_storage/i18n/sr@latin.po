@@ -1,8 +1,14 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* cloud_storage
 #
+=======
+# * cloud_storage
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 =======
 # * cloud_storage
 #
@@ -13,6 +19,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
 "PO-Revision-Date: 2024-09-26 08:55+0000\n"
 "Last-Translator: \n"
@@ -22,6 +29,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-11-14 18:38+0000\n"
 "PO-Revision-Date: 2025-11-10 09:44+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
@@ -34,13 +43,20 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: cloud_storage
 #: model:ir.model,name:cloud_storage.model_ir_attachment
 msgid "Attachment"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prilog"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prilog"
 >>>>>>> upstream/18.0
@@ -83,7 +99,10 @@ msgstr ""
 #: model:ir.model,name:cloud_storage.model_res_config_settings
 msgid "Config Settings"
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Podešavanje konfiguracije"
 
 #. module: cloud_storage
@@ -91,6 +110,9 @@ msgstr "Podešavanje konfiguracije"
 #: code:addons/cloud_storage/models/ir_attachment.py:0
 msgid ""
 "Failed to download attachment (%(id)s) from cloud: %(code)s - %(reason)s"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -98,7 +120,11 @@ msgstr ""
 #: model:ir.model,name:cloud_storage.model_ir_http
 msgid "HTTP Routing"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "HTTP rutiranje"
+>>>>>>> upstream/18.0
 =======
 msgstr "HTTP rutiranje"
 >>>>>>> upstream/18.0
@@ -128,7 +154,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:cloud_storage.field_ir_attachment__type
 msgid "Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vrsta"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vrsta"
 >>>>>>> upstream/18.0
@@ -146,6 +176,11 @@ msgid ""
 "link to your file."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Možete otpremiti datoteku sa računara ili kopirati/nalepiti web link ka "
+"vašoj datoteci."
+>>>>>>> upstream/18.0
 =======
 "Možete otpremiti datoteku sa računara ili kopirati/nalepiti web link ka "
 "vašoj datoteci."
@@ -156,7 +191,12 @@ msgstr ""
 msgid ""
 "webclient can upload files larger than the minimum file size\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        (in bytes) as url attachments to the server and then upload the file to\n"
+=======
+"        (in bytes) as url attachments to the server and then upload the file "
+"to\n"
+>>>>>>> upstream/18.0
 =======
 "        (in bytes) as url attachments to the server and then upload the file "
 "to\n"

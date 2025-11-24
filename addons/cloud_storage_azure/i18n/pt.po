@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* cloud_storage_azure
 # 
 # Translators:
@@ -8,6 +9,8 @@
 # Wil Odoo, 2025
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 # * cloud_storage_azure
 #
 # Translators:
@@ -15,12 +18,16 @@
 # Wil Odoo, 2025
 #
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "PO-Revision-Date: 2024-09-29 00:00+0000\n"
 "Last-Translator: Wil Odoo, 2025\n"
@@ -31,6 +38,8 @@ msgstr ""
 "Language: pt\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-11-10 12:44+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Portuguese <https://translate.odoo.com/projects/odoo-18/"
@@ -42,6 +51,9 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % "
 "1000000 == 0) ? 1 : 2);\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: cloud_storage_azure
@@ -53,7 +65,11 @@ msgstr "Anexo"
 #: model:ir.model.fields,field_description:cloud_storage_azure.field_res_config_settings__cloud_storage_azure_account_name
 msgid "Azure Account Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nome da conta do Azure"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nome da conta do Azure"
 >>>>>>> upstream/18.0
@@ -62,7 +78,11 @@ msgstr "Nome da conta do Azure"
 #: model:ir.model.fields,field_description:cloud_storage_azure.field_res_config_settings__cloud_storage_azure_client_id
 msgid "Azure Client ID"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ID do cliente do Azure"
+>>>>>>> upstream/18.0
 =======
 msgstr "ID do cliente do Azure"
 >>>>>>> upstream/18.0
@@ -71,7 +91,11 @@ msgstr "ID do cliente do Azure"
 #: model:ir.model.fields,field_description:cloud_storage_azure.field_res_config_settings__cloud_storage_azure_client_secret
 msgid "Azure Client Secret"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Segredo do cliente do Azure"
+>>>>>>> upstream/18.0
 =======
 msgstr "Segredo do cliente do Azure"
 >>>>>>> upstream/18.0
@@ -80,7 +104,11 @@ msgstr "Segredo do cliente do Azure"
 #: model:ir.model.fields.selection,name:cloud_storage_azure.selection__res_config_settings__cloud_storage_provider__azure
 msgid "Azure Cloud Storage"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Armazenamento em nuvem do Azure"
+>>>>>>> upstream/18.0
 =======
 msgstr "Armazenamento em nuvem do Azure"
 >>>>>>> upstream/18.0
@@ -89,7 +117,11 @@ msgstr "Armazenamento em nuvem do Azure"
 #: model:ir.model.fields,field_description:cloud_storage_azure.field_res_config_settings__cloud_storage_azure_container_name
 msgid "Azure Container Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nome do contêiner do Azure"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nome do contêiner do Azure"
 >>>>>>> upstream/18.0
@@ -98,7 +130,11 @@ msgstr "Nome do contêiner do Azure"
 #: model:ir.model.fields,field_description:cloud_storage_azure.field_res_config_settings__cloud_storage_azure_tenant_id
 msgid "Azure Tenant ID"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ID do locatário do Azure"
+>>>>>>> upstream/18.0
 =======
 msgstr "ID do locatário do Azure"
 >>>>>>> upstream/18.0
@@ -107,7 +143,11 @@ msgstr "ID do locatário do Azure"
 #: model:ir.model.fields,field_description:cloud_storage_azure.field_res_config_settings__cloud_storage_provider
 msgid "Cloud Storage Provider for new attachments"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Provedor de armazenamento em nuvem para novos anexos"
+>>>>>>> upstream/18.0
 =======
 msgstr "Provedor de armazenamento em nuvem para novos anexos"
 >>>>>>> upstream/18.0
@@ -121,7 +161,11 @@ msgstr "Definições de Configuração"
 #: model:ir.model.fields,field_description:cloud_storage_azure.field_res_config_settings__cloud_storage_azure_invalidate_user_delegation_key
 msgid "Invalidate Cached Azure User Delegation Key"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Invalidar a chave de delegação de usuário do Azure em cache"
+>>>>>>> upstream/18.0
 =======
 msgstr "Invalidar a chave de delegação de usuário do Azure em cache"
 >>>>>>> upstream/18.0
@@ -134,6 +178,11 @@ msgid ""
 "before disable this module"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Alguns anexos do Azure estão em uso, migre seus armazenamentos em nuvem "
+"antes de desativar este módulo"
+>>>>>>> upstream/18.0
 =======
 "Alguns anexos do Azure estão em uso, migre seus armazenamentos em nuvem "
 "antes de desativar este módulo"
@@ -147,6 +196,11 @@ msgid ""
 "%s"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"A string de conexão não tem permissão para baixar blobs do contêiner.\n"
+"%s"
+>>>>>>> upstream/18.0
 =======
 "A string de conexão não tem permissão para baixar blobs do contêiner.\n"
 "%s"
@@ -160,6 +214,11 @@ msgid ""
 "%s"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"A string de conexão não tem permissão para carregar blobs no contêiner.\n"
+"%s"
+>>>>>>> upstream/18.0
 =======
 "A string de conexão não tem permissão para carregar blobs no contêiner.\n"
 "%s"

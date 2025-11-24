@@ -1,8 +1,13 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* delivery
 # 
+=======
+# * delivery
+#
+>>>>>>> upstream/18.0
 =======
 # * delivery
 #
@@ -13,6 +18,7 @@
 # Maitê Dietze, 2025
 # Wil Odoo, 2025
 # Peter Lawrence Romão <peterromao@yahoo.co.uk>, 2025
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -527,11 +533,16 @@
 # Daniel Reis, 2025
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
+=======
+# Daniel Reis, 2025
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-27 13:03+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
@@ -1050,6 +1061,8 @@ msgstr ""
 "Language: pt\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-11-21 02:27+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Portuguese <https://translate.odoo.com/projects/odoo-18/"
@@ -1061,6 +1074,9 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % "
 "1000000 == 0) ? 1 : 2);\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: delivery
@@ -1068,7 +1084,11 @@ msgstr ""
 #: code:addons/delivery/wizard/choose_delivery_carrier.py:0
 msgid "%(carrier)s Error"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Erro %(carrier)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Erro %(carrier)s"
 >>>>>>> upstream/18.0
@@ -1091,7 +1111,11 @@ msgstr "%s (cópia)"
 #: model_terms:ir.ui.view,arch_db:delivery.choose_delivery_carrier_view_form
 msgid "<i class=\"oi oi-arrow-right me-1\"/>Get rate"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"oi oi-arrow-right me-1\"/>Obter preço"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"oi oi-arrow-right me-1\"/>Obter preço"
 >>>>>>> upstream/18.0
@@ -1105,11 +1129,17 @@ msgid ""
 "                </p>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "<p class=\"o_view_nocontent\">\n"
 "                    Adquira o Odoo Enterprise agora para obter mais "
 "prestadores.\n"
 "                </p>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: delivery
@@ -1119,6 +1149,11 @@ msgid ""
 "                                <span class=\"o_stat_text\">Environment</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"o_stat_text o_warning_text fw-bold\">Ambiente</span>\n"
+"                                <span class=\"o_stat_text\">de teste</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"o_stat_text o_warning_text fw-bold\">Ambiente</span>\n"
 "                                <span class=\"o_stat_text\">de teste</span>"
@@ -1128,7 +1163,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:delivery.view_delivery_carrier_form
 msgid "<span class=\"o_stat_text text-danger\">No debug</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text text-danger\">Sem depuração</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text text-danger\">Sem depuração</span>"
 >>>>>>> upstream/18.0
@@ -1137,7 +1176,11 @@ msgstr "<span class=\"o_stat_text text-danger\">Sem depuração</span>"
 #: model_terms:ir.ui.view,arch_db:delivery.view_delivery_carrier_form
 msgid "<span class=\"text-success\">Debug requests</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"text-success\">Solicitações de depuração</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"text-success\">Solicitações de depuração</span>"
 >>>>>>> upstream/18.0
@@ -1149,6 +1192,12 @@ msgid ""
 "                                <span class=\"o_stat_text\">Environment</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"text-success\">Ambiente</span>\n"
+"                                <span class=\"o_stat_text\">de "
+"produção</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"text-success\">Ambiente</span>\n"
 "                                <span class=\"o_stat_text\">de "
@@ -1168,6 +1217,12 @@ msgid ""
 "for customers to follow."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Uma descrição do método de entrega que você deseja comunicar aos seus "
+"clientes no pedido de venda e no e-mail de confirmação de venda. Por "
+"exemplo, instruções para os clientes."
+>>>>>>> upstream/18.0
 =======
 "Uma descrição do método de entrega que você deseja comunicar aos seus "
 "clientes no pedido de venda e no e-mail de confirmação de venda. Por "
@@ -1178,7 +1233,11 @@ msgstr ""
 #: model:ir.model.fields,help:delivery.field_delivery_carrier__integration_level
 msgid "Action while validating Delivery Orders"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ação ao validar pedidos de entrega"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ação ao validar pedidos de entrega"
 >>>>>>> upstream/18.0
@@ -1209,7 +1268,11 @@ msgstr "Adicionar frete"
 #: model_terms:ir.ui.view,arch_db:delivery.view_delivery_carrier_form
 msgid "Additional margin"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Margem adicional"
+>>>>>>> upstream/18.0
 =======
 msgstr "Margem adicional"
 >>>>>>> upstream/18.0
@@ -1253,7 +1316,11 @@ msgstr "Baseado nas Regras"
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__can_generate_return
 msgid "Can Generate Return"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pode gerar retorno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pode gerar retorno"
 >>>>>>> upstream/18.0
@@ -1278,7 +1345,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__carrier_description
 msgid "Carrier Description"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Descrição da transportadora"
+>>>>>>> upstream/18.0
 =======
 msgstr "Descrição da transportadora"
 >>>>>>> upstream/18.0
@@ -1288,7 +1359,11 @@ msgstr "Descrição da transportadora"
 #: code:addons/delivery/static/src/js/location_selector/location_selector_dialog/location_selector_dialog.js:0
 msgid "Choose a pick-up point"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Escolher um ponto de retirada"
+>>>>>>> upstream/18.0
 =======
 msgstr "Escolher um ponto de retirada"
 >>>>>>> upstream/18.0
@@ -1299,7 +1374,11 @@ msgstr "Escolher um ponto de retirada"
 #: code:addons/delivery/static/src/js/location_selector/map_container/map_container.js:0
 msgid "Choose this location"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Escolher este local"
+>>>>>>> upstream/18.0
 =======
 msgstr "Escolher este local"
 >>>>>>> upstream/18.0
@@ -1373,7 +1452,11 @@ msgstr "Cliente"
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__debug_logging
 msgid "Debug logging"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Registro de depuração"
+>>>>>>> upstream/18.0
 =======
 msgstr "Registro de depuração"
 >>>>>>> upstream/18.0
@@ -1393,7 +1476,11 @@ msgstr "Definir novo método de entrega."
 #: model_terms:ir.ui.view,arch_db:delivery.view_delivery_carrier_search
 msgid "Delivery Carrier"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Transportadora de entrega"
+>>>>>>> upstream/18.0
 =======
 msgstr "Transportadora de entrega"
 >>>>>>> upstream/18.0
@@ -1402,7 +1489,11 @@ msgstr "Transportadora de entrega"
 #: model:ir.model,name:delivery.model_choose_delivery_carrier
 msgid "Delivery Carrier Selection Wizard"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Assistente de seleção de transportadora de entrega"
+>>>>>>> upstream/18.0
 =======
 msgstr "Assistente de seleção de transportadora de entrega"
 >>>>>>> upstream/18.0
@@ -1437,7 +1528,11 @@ msgstr "Métodos de Entrega"
 #: model:ir.model.fields,field_description:delivery.field_choose_delivery_carrier__delivery_price
 msgid "Delivery Price"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Preço de entrega"
+>>>>>>> upstream/18.0
 =======
 msgstr "Preço de entrega"
 >>>>>>> upstream/18.0
@@ -1450,6 +1545,7 @@ msgstr "Regras dos Preços de Entrega"
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__product_id
 msgid "Delivery Product"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1963,12 +2059,19 @@ msgstr "Entregar Artigo"
 =======
 msgstr "Entregar Artigo"
 >>>>>>> upstream/18.0
+=======
+msgstr "Entregar Artigo"
+>>>>>>> upstream/18.0
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_sale_order__delivery_set
 msgid "Delivery Set"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Entrega definida"
+>>>>>>> upstream/18.0
 =======
 msgstr "Entrega definida"
 >>>>>>> upstream/18.0
@@ -1977,7 +2080,11 @@ msgstr "Entrega definida"
 #: model:ir.model,name:delivery.model_delivery_zip_prefix
 msgid "Delivery Zip Prefix"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prefixo do CEP de entrega"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prefixo do CEP de entrega"
 >>>>>>> upstream/18.0
@@ -1987,7 +2094,11 @@ msgstr "Prefixo do CEP de entrega"
 #: model:ir.model.fields,field_description:delivery.field_sale_order_line__recompute_delivery_price
 msgid "Delivery cost should be recomputed"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Custo de entrega deve ser recalculado"
+>>>>>>> upstream/18.0
 =======
 msgstr "Custo de entrega deve ser recalculado"
 >>>>>>> upstream/18.0
@@ -1999,6 +2110,11 @@ msgid ""
 "            which zips it is available to."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Prefixos de CEP são atribuídos às transportadoras para restringir\n"
+"            a disponibilidade para alguns CEPs."
+>>>>>>> upstream/18.0
 =======
 "Prefixos de CEP são atribuídos às transportadoras para restringir\n"
 "            a disponibilidade para alguns CEPs."
@@ -2040,11 +2156,17 @@ msgid ""
 "            to each method."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "Cada transportadora (por exemplo, UPS) pode ter vários métodos de entrega ("
 "por exemplo, \n"
 "UPS Express, UPS Standard) com regras de preços associadas \n"
 "a cada método."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: delivery
@@ -2057,7 +2179,11 @@ msgstr "Ambiente"
 #: code:addons/delivery/models/delivery_carrier.py:0
 msgid "Error: this delivery method is not available for this address."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Erro: este método de entrega não está disponível para este endereço."
+>>>>>>> upstream/18.0
 =======
 msgstr "Erro: este método de entrega não está disponível para este endereço."
 >>>>>>> upstream/18.0
@@ -2075,18 +2201,28 @@ msgid ""
 "Real Cost: the customer will be invoiced the real cost of the shipping, the cost of theshipping will be updated on the SO after the delivery."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "Custo estimado: o cliente receberá uma fatura com o custo estimado do frete."
 "\n"
 "Custo real: o cliente receberá uma fatura com o custo real do frete, o custo "
 "do frete será atualizado no PV após a entrega."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: delivery
 #: model:ir.model.fields.selection,name:delivery.selection__delivery_carrier__invoice_policy__estimated
 msgid "Estimated cost"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Custo estimado"
+>>>>>>> upstream/18.0
 =======
 msgstr "Custo estimado"
 >>>>>>> upstream/18.0
@@ -2113,7 +2249,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__fixed_margin
 msgid "Fixed Margin"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Margem fixa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Margem fixa"
 >>>>>>> upstream/18.0
@@ -2128,7 +2268,11 @@ msgstr "Preço Definido"
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__free_over
 msgid "Free if order amount is above"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Grátis se o valor do pedido for acima de"
+>>>>>>> upstream/18.0
 =======
 msgstr "Grátis se o valor do pedido for acima de"
 >>>>>>> upstream/18.0
@@ -2137,7 +2281,11 @@ msgstr "Grátis se o valor do pedido for acima de"
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__return_label_on_delivery
 msgid "Generate Return Label"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gerar etiqueta de devolução"
+>>>>>>> upstream/18.0
 =======
 msgstr "Gerar etiqueta de devolução"
 >>>>>>> upstream/18.0
@@ -2151,7 +2299,11 @@ msgstr "Receber taxa"
 #: model:ir.model.fields.selection,name:delivery.selection__delivery_carrier__integration_level__rate_and_ship
 msgid "Get Rate and Create Shipment"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Obter taxa e criar remessa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Obter taxa e criar remessa"
 >>>>>>> upstream/18.0
@@ -2176,6 +2328,11 @@ msgid ""
 "value, the customer benefits from a free shipping"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Se o valor total do pedido (sem o envio) for superior ou igual a esse valor, "
+"o cliente terá frete grátis"
+>>>>>>> upstream/18.0
 =======
 "Se o valor total do pedido (sem o envio) for superior ou igual a esse valor, "
 "o cliente terá frete grátis"
@@ -2204,7 +2361,11 @@ msgstr "Instalar mais Provedores"
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__shipping_insurance
 msgid "Insurance Percentage"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Porcentagem do seguro"
+>>>>>>> upstream/18.0
 =======
 msgstr "Porcentagem do seguro"
 >>>>>>> upstream/18.0
@@ -2218,7 +2379,11 @@ msgstr "Nível de Integração"
 #: model:ir.model.fields,field_description:delivery.field_choose_delivery_carrier__invoicing_message
 msgid "Invoicing Message"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mensagem de faturamento"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mensagem de faturamento"
 >>>>>>> upstream/18.0
@@ -2254,7 +2419,11 @@ msgstr "Última Atualização em"
 #: code:addons/delivery/static/src/js/location_selector/location_selector_dialog/location_selector_dialog.js:0
 msgid "List view"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Visualização de lista"
+>>>>>>> upstream/18.0
 =======
 msgstr "Visualização de lista"
 >>>>>>> upstream/18.0
@@ -2269,7 +2438,11 @@ msgstr "A carregar..."
 #: model:delivery.carrier,name:delivery.delivery_local_delivery
 msgid "Local Delivery"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Entrega local"
+>>>>>>> upstream/18.0
 =======
 msgstr "Entrega local"
 >>>>>>> upstream/18.0
@@ -2278,7 +2451,11 @@ msgstr "Entrega local"
 #: model:ir.model.fields,help:delivery.field_delivery_carrier__debug_logging
 msgid "Log requests in order to ease debugging"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Solicitações de registro para facilitar a depuração"
+>>>>>>> upstream/18.0
 =======
 msgstr "Solicitações de registro para facilitar a depuração"
 >>>>>>> upstream/18.0
@@ -2287,7 +2464,11 @@ msgstr "Solicitações de registro para facilitar a depuração"
 #: model_terms:ir.actions.act_window,help:delivery.action_delivery_zip_prefix_list
 msgid "Manage delivery zip prefixes"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gerenciar prefixos de CEP para entrega"
+>>>>>>> upstream/18.0
 =======
 msgstr "Gerenciar prefixos de CEP para entrega"
 >>>>>>> upstream/18.0
@@ -2297,7 +2478,11 @@ msgstr "Gerenciar prefixos de CEP para entrega"
 #: code:addons/delivery/static/src/js/location_selector/location_selector_dialog/location_selector_dialog.js:0
 msgid "Map view"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Visualização de mapa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Visualização de mapa"
 >>>>>>> upstream/18.0
@@ -2311,7 +2496,11 @@ msgstr "Margem"
 #: model:ir.model.constraint,message:delivery.constraint_delivery_carrier_margin_not_under_100_percent
 msgid "Margin cannot be lower than -100%"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "A margem não pode ser menor que -100%"
+>>>>>>> upstream/18.0
 =======
 msgstr "A margem não pode ser menor que -100%"
 >>>>>>> upstream/18.0
@@ -2320,7 +2509,11 @@ msgstr "A margem não pode ser menor que -100%"
 #: model_terms:ir.ui.view,arch_db:delivery.view_delivery_carrier_form
 msgid "Margin on Rate"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Margem sobre o preço"
+>>>>>>> upstream/18.0
 =======
 msgstr "Margem sobre o preço"
 >>>>>>> upstream/18.0
@@ -2329,7 +2522,11 @@ msgstr "Margem sobre o preço"
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__max_volume
 msgid "Max Volume"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Volume máx."
+>>>>>>> upstream/18.0
 =======
 msgstr "Volume máx."
 >>>>>>> upstream/18.0
@@ -2338,7 +2535,11 @@ msgstr "Volume máx."
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__max_weight
 msgid "Max Weight"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Peso máximo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Peso máximo"
 >>>>>>> upstream/18.0
@@ -2363,7 +2564,11 @@ msgstr "Nome"
 #: code:addons/delivery/models/delivery_carrier.py:0
 msgid "New Providers"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Novos prestadores"
+>>>>>>> upstream/18.0
 =======
 msgstr "Novos prestadores"
 >>>>>>> upstream/18.0
@@ -2385,7 +2590,11 @@ msgstr "Nenhum resultado"
 #: code:addons/delivery/models/delivery_carrier.py:0
 msgid "Not available for current order"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Não disponível para o pedido atual"
+>>>>>>> upstream/18.0
 =======
 msgstr "Não disponível para o pedido atual"
 >>>>>>> upstream/18.0
@@ -2396,7 +2605,11 @@ msgstr "Não disponível para o pedido atual"
 #: code:addons/delivery/static/src/js/location_selector/map_container/map_container.js:0
 msgid "Opening hours"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Horário de funcionamento"
+>>>>>>> upstream/18.0
 =======
 msgstr "Horário de funcionamento"
 >>>>>>> upstream/18.0
@@ -2420,7 +2633,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:delivery.view_delivery_carrier_form
 msgid "Please select a country before choosing a state or a zip prefix."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Selecione um país antes de escolher um estado ou um prefixo postal."
+>>>>>>> upstream/18.0
 =======
 msgstr "Selecione um país antes de escolher um estado ou um prefixo postal."
 >>>>>>> upstream/18.0
@@ -2434,7 +2651,11 @@ msgstr "Prefixo"
 #: model:ir.model.constraint,message:delivery.constraint_delivery_zip_prefix_name_uniq
 msgid "Prefix already exists!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "O prefixo já existe."
+>>>>>>> upstream/18.0
 =======
 msgstr "O prefixo já existe."
 >>>>>>> upstream/18.0
@@ -2448,12 +2669,18 @@ msgid ""
 "will only match '100' and not '1000')"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "Prefixos de códigos postais aos quais essa operadora se aplica. Observe que "
 "expressões regulares podem ser usadas para dar suporte a países com "
 "diferentes comprimentos de CEP, ou seja, '$' pode ser adicionado ao final do "
 "prefixo para corresponder ao CEP exato (por exemplo, '100$' corresponderá "
 "apenas a '100' e não a '1000')"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: delivery
@@ -2505,7 +2732,11 @@ msgstr "Quantidade"
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__get_return_label_from_portal
 msgid "Return Label Accessible from Customer Portal"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Etiqueta de devolução acessível no portal do cliente"
+>>>>>>> upstream/18.0
 =======
 msgstr "Etiqueta de devolução acessível no portal do cliente"
 >>>>>>> upstream/18.0
@@ -2546,7 +2777,11 @@ msgstr "Sequência"
 #: model:ir.model.fields,field_description:delivery.field_sale_order__is_all_service
 msgid "Service Product"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Produto de serviço"
+>>>>>>> upstream/18.0
 =======
 msgstr "Produto de serviço"
 >>>>>>> upstream/18.0
@@ -2556,6 +2791,11 @@ msgstr "Produto de serviço"
 msgid "Set to True if your credentials are certified for production."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Defina como \"Verdadeiro\" se suas credenciais forem certificadas para "
+"produção."
+>>>>>>> upstream/18.0
 =======
 "Defina como \"Verdadeiro\" se suas credenciais forem certificadas para "
 "produção."
@@ -2576,7 +2816,11 @@ msgstr "Métodos de Envio"
 #: model:ir.model.fields,field_description:delivery.field_sale_order__shipping_weight
 msgid "Shipping Weight"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Peso da remessa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Peso da remessa"
 >>>>>>> upstream/18.0
@@ -2588,6 +2832,11 @@ msgid ""
 "are lost, stolen, and/or damaged in transit."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"O seguro de envio é um serviço que pode reembolsar remetentes cujos pacotes "
+"foram perdidos, roubados e/ou danificados em trânsito."
+>>>>>>> upstream/18.0
 =======
 "O seguro de envio é um serviço que pode reembolsar remetentes cujos pacotes "
 "foram perdidos, roubados e/ou danificados em trânsito."
@@ -2600,6 +2849,12 @@ msgid ""
 "confirmation emails. E.g. Instructions for customers to follow."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Informações do método de envio a serem incluídas na parte inferior dos "
+"pedidos de venda e seus e-mails de confirmação. Por exemplo, instruções para "
+"os clientes."
+>>>>>>> upstream/18.0
 =======
 "Informações do método de envio a serem incluídas na parte inferior dos "
 "pedidos de venda e seus e-mails de confirmação. Por exemplo, instruções para "
@@ -2611,7 +2866,11 @@ msgstr ""
 #: model:product.template,name:delivery.product_product_delivery_product_template
 msgid "Standard delivery"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Entrega padrão"
+>>>>>>> upstream/18.0
 =======
 msgstr "Entrega padrão"
 >>>>>>> upstream/18.0
@@ -2625,7 +2884,11 @@ msgstr "Estados"
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__supports_shipping_insurance
 msgid "Supports Shipping Insurance"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Permite seguro de envio"
+>>>>>>> upstream/18.0
 =======
 msgstr "Permite seguro de envio"
 >>>>>>> upstream/18.0
@@ -2656,6 +2919,11 @@ msgid ""
 "The return label can be downloaded by the customer from the customer portal."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"A etiqueta de devolução pode ser baixada pelo cliente a partir do portal do "
+"cliente."
+>>>>>>> upstream/18.0
 =======
 "A etiqueta de devolução pode ser baixada pelo cliente a partir do portal do "
 "cliente."
@@ -2665,7 +2933,11 @@ msgstr ""
 #: model:ir.model.fields,help:delivery.field_delivery_carrier__return_label_on_delivery
 msgid "The return label is automatically generated at the delivery."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "A etiqueta de devolução é gerada automaticamente na entrega."
+>>>>>>> upstream/18.0
 =======
 msgstr "A etiqueta de devolução é gerada automaticamente na entrega."
 >>>>>>> upstream/18.0
@@ -2674,7 +2946,11 @@ msgstr "A etiqueta de devolução é gerada automaticamente na entrega."
 #: model:ir.model.constraint,message:delivery.constraint_delivery_carrier_shipping_insurance_is_percentage
 msgid "The shipping insurance must be a percentage between 0 and 100."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "O seguro de envio deve ser uma porcentagem entre 0 e 100."
+>>>>>>> upstream/18.0
 =======
 msgstr "O seguro de envio deve ser uma porcentagem entre 0 e 100."
 >>>>>>> upstream/18.0
@@ -2684,7 +2960,11 @@ msgstr "O seguro de envio deve ser uma porcentagem entre 0 e 100."
 #: code:addons/delivery/models/delivery_carrier.py:0
 msgid "The shipping is free since the order amount exceeds %.2f."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "O frete é grátis desde que o valor do pedido exceda %.2f."
+>>>>>>> upstream/18.0
 =======
 msgstr "O frete é grátis desde que o valor do pedido exceda %.2f."
 >>>>>>> upstream/18.0
@@ -2694,7 +2974,11 @@ msgstr "O frete é grátis desde que o valor do pedido exceda %.2f."
 #: code:addons/delivery/static/src/js/location_selector/map_container/map_container.js:0
 msgid "There was an error loading the map"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ocorreu um erro ao carregar o mapa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ocorreu um erro ao carregar o mapa"
 >>>>>>> upstream/18.0
@@ -2707,6 +2991,12 @@ msgid ""
 "            quotation) or the invoice (based on the delivery orders)."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Esses métodos permitem calcular automaticamente o preço de entrega \n"
+"de acordo com suas configurações; no pedido de venda (com base na \n"
+"cotação) ou na fatura (com base nos pedidos de entrega)."
+>>>>>>> upstream/18.0
 =======
 "Esses métodos permitem calcular automaticamente o preço de entrega \n"
 "de acordo com suas configurações; no pedido de venda (com base na \n"
@@ -2717,7 +3007,11 @@ msgstr ""
 #: model:ir.model.fields,help:delivery.field_delivery_carrier__fixed_margin
 msgid "This fixed amount will be added to the shipping price."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Esse valor fixo será adicionado ao preço de envio."
+>>>>>>> upstream/18.0
 =======
 msgstr "Esse valor fixo será adicionado ao preço de envio."
 >>>>>>> upstream/18.0
@@ -2738,7 +3032,11 @@ msgstr "Esta percentagem será adicionada ao valor do envio."
 #: model:ir.model.fields,field_description:delivery.field_choose_delivery_carrier__total_weight
 msgid "Total Order Weight"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Peso total do pedido"
+>>>>>>> upstream/18.0
 =======
 msgstr "Peso total do pedido"
 >>>>>>> upstream/18.0
@@ -2759,7 +3057,11 @@ msgstr "Atualizar"
 #: model_terms:ir.ui.view,arch_db:delivery.view_order_form_with_carrier
 msgid "Update shipping cost"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Atualizar custo de envio"
+>>>>>>> upstream/18.0
 =======
 msgstr "Atualizar custo de envio"
 >>>>>>> upstream/18.0
@@ -2784,7 +3086,11 @@ msgstr "Volume"
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__volume_uom_name
 msgid "Volume unit of measure label"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Rótulo de unidade de medida de volume"
+>>>>>>> upstream/18.0
 =======
 msgstr "Rótulo de unidade de medida de volume"
 >>>>>>> upstream/18.0
@@ -2805,7 +3111,11 @@ msgstr "Peso * Volume"
 #: model:ir.model.fields,field_description:delivery.field_choose_delivery_carrier__weight_uom_name
 msgid "Weight Uom Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nome da UM de peso"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nome da UM de peso"
 >>>>>>> upstream/18.0
@@ -2814,7 +3124,11 @@ msgstr "Nome da UM de peso"
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__weight_uom_name
 msgid "Weight unit of measure label"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Etiqueta da unidade de medida de peso"
+>>>>>>> upstream/18.0
 =======
 msgstr "Etiqueta da unidade de medida de peso"
 >>>>>>> upstream/18.0
@@ -2829,13 +3143,19 @@ msgid ""
 "\n"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "Não é possível atualizar os custos de envio em um pedido que já foi faturado."
 "\n"
 "\n"
 "As seguintes linhas da entrega (produto, quantidade faturada e preço) já "
 "foram processadas:\n"
 "\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: delivery
@@ -2851,7 +3171,11 @@ msgstr ""
 #: code:addons/delivery/static/src/js/location_selector/location_selector_dialog/location_selector_dialog.js:0
 msgid "Your postal code"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Seu código postal"
+>>>>>>> upstream/18.0
 =======
 msgstr "Seu código postal"
 >>>>>>> upstream/18.0
@@ -2865,7 +3189,11 @@ msgstr "Código postal"
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__zip_prefix_ids
 msgid "Zip Prefixes"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prefixos de CEP"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prefixos de CEP"
 >>>>>>> upstream/18.0

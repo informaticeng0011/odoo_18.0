@@ -105,7 +105,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <div t-if="store.channels.status !== 'fetching' and !hasPreviews" class="d-flex justify-content-center py-4 px-2 text-muted">
+=======
+            <div t-if="store.channels.status !== 'fetching' and !hasPreviews and !store.discuss.searchTerm" class="d-flex justify-content-center py-4 px-2 text-muted">
+>>>>>>> upstream/18.0
 =======
             <div t-if="store.channels.status !== 'fetching' and !hasPreviews and !store.discuss.searchTerm" class="d-flex justify-content-center py-4 px-2 text-muted">
 >>>>>>> upstream/18.0

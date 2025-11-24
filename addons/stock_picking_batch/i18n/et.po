@@ -1,8 +1,13 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* stock_picking_batch
 # 
+=======
+# * stock_picking_batch
+#
+>>>>>>> upstream/18.0
 =======
 # * stock_picking_batch
 #
@@ -18,6 +23,7 @@
 # Patrick-Jordan Kiudorv, 2024
 # Martin Trigaux, 2024
 # Anna, 2024
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -376,11 +382,14 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # Piia Paurson <piia@avalah.ee>, 2024
 # Egon Raamat <egon@avalah.ee>, 2024
 # Eneli Õigus <enelioigus@gmail.com>, 2024
 # JanaAvalah, 2024
 # Leaanika Randmets, 2024
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -859,11 +868,16 @@
 # Stevin Lilla, 2025
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
+=======
+# Stevin Lilla, 2025
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-19 20:37+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 <<<<<<< HEAD
@@ -1346,6 +1360,8 @@ msgstr ""
 "Language: et\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-11-21 06:44+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Estonian <https://translate.odoo.com/projects/odoo-18/"
@@ -1356,6 +1372,9 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
@@ -1367,7 +1386,11 @@ msgstr "2023-08-20"
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_type_kanban_batch
 msgid "<span class=\"col-6\">Waves</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"col-6\">Lainesiirded</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"col-6\">Lainesiirded</span>"
 >>>>>>> upstream/18.0
@@ -1379,6 +1402,11 @@ msgid ""
 "style=\"white-space: nowrap;\">Wave Grouping</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"o_form_label fw-bold\" invisible=\"not auto_batch\" style"
+"=\"white-space: nowrap;\">Lainesiirde rühmitamine</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"o_form_label fw-bold\" invisible=\"not auto_batch\" style"
 "=\"white-space: nowrap;\">Lainesiirde rühmitamine</span>"
@@ -1391,6 +1419,11 @@ msgid ""
 "Grouping</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"o_form_label fw-bold\" invisible=\"not auto_batch\""
+">Koondsiirde rühmitamine</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"o_form_label fw-bold\" invisible=\"not auto_batch\""
 ">Koondsiirde rühmitamine</span>"
@@ -1583,7 +1616,11 @@ msgstr "Koond"
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.view_picking_type_form_inherit
 msgid "Batch & Wave Transfers"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Koond- ja lainesiirded"
+>>>>>>> upstream/18.0
 =======
 msgstr "Koond- ja lainesiirded"
 >>>>>>> upstream/18.0
@@ -1597,7 +1634,11 @@ msgstr "Koond palgalehe nimi"
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_type__batch_properties_definition
 msgid "Batch Properties"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Koondsiirde omadused"
+>>>>>>> upstream/18.0
 =======
 msgstr "Koondsiirde omadused"
 >>>>>>> upstream/18.0
@@ -1645,7 +1686,11 @@ msgstr "Selle siirdega seotud partii"
 #: model_terms:ir.actions.act_window,help:stock_picking_batch.stock_picking_batch_action
 msgid "Batch transfers"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Koondsiirded"
+>>>>>>> upstream/18.0
 =======
 msgstr "Koondsiirded"
 >>>>>>> upstream/18.0
@@ -1682,7 +1727,11 @@ msgstr "Ei saa luua intervall siirdeid"
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_type__wave_category_ids
 msgid "Categories to consider when grouping waves."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Laine siirete rühmitamisel tuleks kaaluda antud kategooriaid."
+>>>>>>> upstream/18.0
 =======
 msgstr "Laine siirete rühmitamisel tuleks kaaluda antud kategooriaid."
 >>>>>>> upstream/18.0
@@ -1709,7 +1758,11 @@ msgstr "Vali prinditava sildi tüüp"
 #: model_terms:ir.actions.act_window,help:stock_picking_batch.stock_picking_batch_action
 msgid "Cluster transfers"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Klastrisiirded"
+>>>>>>> upstream/18.0
 =======
 msgstr "Klastrisiirded"
 >>>>>>> upstream/18.0
@@ -1826,7 +1879,11 @@ msgstr "Rühmitamine"
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_type__batch_group_by_dest_loc
 msgid "Group by Destination Location"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Rühmita sihtkoha järgi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Rühmita sihtkoha järgi"
 >>>>>>> upstream/18.0
@@ -1835,7 +1892,11 @@ msgstr "Rühmita sihtkoha järgi"
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_type__batch_group_by_src_loc
 msgid "Group by Source Location"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Rühmita lähtekoha järgi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Rühmita lähtekoha järgi"
 >>>>>>> upstream/18.0
@@ -1906,6 +1967,7 @@ msgstr "On jälgija"
 #. module: stock_picking_batch
 #: model:ir.ui.menu,name:stock_picking_batch.menu_stock_jobs
 msgid "Jobs"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2383,6 +2445,9 @@ msgstr "Grupi siirded"
 =======
 msgstr "Grupi siirded"
 >>>>>>> upstream/18.0
+=======
+msgstr "Grupi siirded"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.report_picking_batch
@@ -2416,6 +2481,11 @@ msgid ""
 "for large warehouses."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Käivita korjetellimused riiulirea või ala kaupa ja rühmita need uuesti "
+"pakkimistsoonis. Sobib suurematele ladudele."
+>>>>>>> upstream/18.0
 =======
 "Käivita korjetellimused riiulirea või ala kaupa ja rühmita need uuesti "
 "pakkimistsoonis. Sobib suurematele ladudele."
@@ -2440,7 +2510,11 @@ msgstr "Asukoht"
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.report_picking_batch
 msgid "Location From Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Asukoht nimest"
+>>>>>>> upstream/18.0
 =======
 msgstr "Asukoht nimest"
 >>>>>>> upstream/18.0
@@ -2449,7 +2523,11 @@ msgstr "Asukoht nimest"
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.report_picking_batch
 msgid "Location To Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Asukoht, mida nimetatakse"
+>>>>>>> upstream/18.0
 =======
 msgstr "Asukoht, mida nimetatakse"
 >>>>>>> upstream/18.0
@@ -2458,7 +2536,11 @@ msgstr "Asukoht, mida nimetatakse"
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_type__wave_location_ids
 msgid "Locations to consider when grouping waves."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Asukohti, mida tasuks kaaluda laine siirete rühmitamisel."
+>>>>>>> upstream/18.0
 =======
 msgstr "Asukohti, mida tasuks kaaluda laine siirete rühmitamisel."
 >>>>>>> upstream/18.0
@@ -2472,7 +2554,11 @@ msgstr "Partiinumber"
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_type__batch_max_lines
 msgid "Maximum lines"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Maksimaalne ridade arv"
+>>>>>>> upstream/18.0
 =======
 msgstr "Maksimaalne ridade arv"
 >>>>>>> upstream/18.0
@@ -2481,7 +2567,11 @@ msgstr "Maksimaalne ridade arv"
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_type__batch_max_pickings
 msgid "Maximum transfers"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Maksimaalne arv siirdeid"
+>>>>>>> upstream/18.0
 =======
 msgstr "Maksimaalne arv siirdeid"
 >>>>>>> upstream/18.0
@@ -2580,6 +2670,11 @@ msgid ""
 "reduces packing time and is ideal for small products."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Korja mitu tellimust ühe korjeringi jooksul ja valmista tellimused ette "
+"korje käigus. See vähendab pakkimisaega ja sobib väiksemate toodete jaoks."
+>>>>>>> upstream/18.0
 =======
 "Korja mitu tellimust ühe korjeringi jooksul ja valmista tellimused ette "
 "korje käigus. See vähendab pakkimisaega ja sobib väiksemate toodete jaoks."
@@ -2606,7 +2701,11 @@ msgstr "Uue paki loomiseks lisage \"Tehtud\" kogused koondsiirdele."
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_type_kanban_batch
 msgid "Prepare Batch"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Valmista ette koondsiire"
+>>>>>>> upstream/18.0
 =======
 msgstr "Valmista ette koondsiire"
 >>>>>>> upstream/18.0
@@ -2619,7 +2718,11 @@ msgstr "Valmista ette koondsiire"
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_wave_tree
 msgid "Prepare Wave"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Valmista ette laine siire"
+>>>>>>> upstream/18.0
 =======
 msgstr "Valmista ette laine siire"
 >>>>>>> upstream/18.0
@@ -2693,6 +2796,10 @@ msgid ""
 "zone."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Rühmitage mitu tellimust üheks korjeks ja konsolideerige need pakkimisalal."
+>>>>>>> upstream/18.0
 =======
 "Rühmitage mitu tellimust üheks korjeks ja konsolideerige need pakkimisalal."
 >>>>>>> upstream/18.0
@@ -2714,7 +2821,11 @@ msgstr "Vastutav kasutaja"
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.report_picking_batch
 msgid "Result Package ID"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tulempakendi ID"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tulempakendi ID"
 >>>>>>> upstream/18.0
@@ -2752,7 +2863,11 @@ msgstr "Otsi koondsaatelehte"
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.view_picking_type_form_inherit
 msgid "Select locations you want to group"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Valige asukohad, mida soovite rühmitada"
+>>>>>>> upstream/18.0
 =======
 msgstr "Valige asukohad, mida soovite rühmitada"
 >>>>>>> upstream/18.0
@@ -2761,7 +2876,11 @@ msgstr "Valige asukohad, mida soovite rühmitada"
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.view_picking_type_form_inherit
 msgid "Select product categories you want to group"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Valige tootekategooriad, mida soovite rühmitada"
+>>>>>>> upstream/18.0
 =======
 msgstr "Valige tootekategooriad, mida soovite rühmitada"
 >>>>>>> upstream/18.0
@@ -2805,6 +2924,11 @@ msgid ""
 "location."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Poolita siirded määratud asukohtade järgi ja siis rühmita siirded samade "
+"asukohtade järgi."
+>>>>>>> upstream/18.0
 =======
 "Poolita siirded määratud asukohtade järgi ja siis rühmita siirded samade "
 "asukohtade järgi."
@@ -2817,6 +2941,11 @@ msgid ""
 " product category."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Poolita siirded tootekategooriate järgi ja siis rühmita siirded, millel on "
+"samad tootekategooriad."
+>>>>>>> upstream/18.0
 =======
 "Poolita siirded tootekategooriate järgi ja siis rühmita siirded, millel on "
 "samad tootekategooriad."
@@ -2828,6 +2957,11 @@ msgid ""
 "Split transfers by product then group transfers that have the same product."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Poolita siirded toodete järgi ja siis rühmita siirded, millel on samad "
+"tooted."
+>>>>>>> upstream/18.0
 =======
 "Poolita siirded toodete järgi ja siis rühmita siirded, millel on samad "
 "tooted."
@@ -2903,11 +3037,17 @@ msgid ""
 "Incompatibilities: %(incompatible_transfers)s"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "Järgmisi siirdeid ei saanud lisada koondsiirdele %(batch)s. Palun vaadake "
 "üle nende staatused ja operatsioonitüübid.\n"
 "\n"
 "Kokkusobimatused: %(incompatible_transfers)s"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
@@ -2959,7 +3099,11 @@ msgstr "Siirded"
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.report_picking_batch
 msgid "Transfer Display Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Siirdel kuvatav nimi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Siirdel kuvatav nimi"
 >>>>>>> upstream/18.0
@@ -2996,7 +3140,11 @@ msgstr "Kirjel oleva erandtegevuse tüüp."
 #: code:addons/stock_picking_batch/models/stock_picking.py:0
 msgid "Unassigned responsible from %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Määramata vastutaja %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Määramata vastutaja %s"
 >>>>>>> upstream/18.0
@@ -3021,7 +3169,11 @@ msgstr "Ladu"
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_type__wave_location_ids
 msgid "Wave Locations"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Laine siirde asukohad"
+>>>>>>> upstream/18.0
 =======
 msgstr "Laine siirde asukohad"
 >>>>>>> upstream/18.0
@@ -3030,7 +3182,11 @@ msgstr "Laine siirde asukohad"
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_type__wave_category_ids
 msgid "Wave Product Categories"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Laine siirde tootekategooriad"
+>>>>>>> upstream/18.0
 =======
 msgstr "Laine siirde tootekategooriad"
 >>>>>>> upstream/18.0
@@ -3056,7 +3212,11 @@ msgstr "Intervall siirded"
 #: model_terms:ir.actions.act_window,help:stock_picking_batch.stock_picking_batch_action
 msgid "Wave transfers"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Laine siirded"
+>>>>>>> upstream/18.0
 =======
 msgstr "Laine siirded"
 >>>>>>> upstream/18.0
@@ -3112,7 +3272,11 @@ msgstr "an existing wave transfer"
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__estimated_shipping_volume
 msgid "shipping_volume"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "shipping_volume"
+>>>>>>> upstream/18.0
 =======
 msgstr "shipping_volume"
 >>>>>>> upstream/18.0
@@ -3121,7 +3285,11 @@ msgstr "shipping_volume"
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__estimated_shipping_weight
 msgid "shipping_weight"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "shipping_weight"
+>>>>>>> upstream/18.0
 =======
 msgstr "shipping_weight"
 >>>>>>> upstream/18.0

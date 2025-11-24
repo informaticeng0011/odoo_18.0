@@ -111,7 +111,11 @@ async function insertSpace(editor) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const beforeinputEvent = await manuallyDispatchProgrammaticEvent(
+=======
+    const [beforeinputEvent] = await manuallyDispatchProgrammaticEvent(
+>>>>>>> upstream/18.0
 =======
     const [beforeinputEvent] = await manuallyDispatchProgrammaticEvent(
 >>>>>>> upstream/18.0
@@ -538,7 +542,11 @@ async function insertSpace(editor) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const inputEvent = await manuallyDispatchProgrammaticEvent(editor.editable, "input", {
+=======
+    const [inputEvent] = await manuallyDispatchProgrammaticEvent(editor.editable, "input", {
+>>>>>>> upstream/18.0
 =======
     const [inputEvent] = await manuallyDispatchProgrammaticEvent(editor.editable, "input", {
 >>>>>>> upstream/18.0

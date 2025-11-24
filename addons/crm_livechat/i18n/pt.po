@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* crm_livechat
 # 
 # Translators:
@@ -8,6 +9,8 @@
 # Marta Marouço, 2025
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 # * crm_livechat
 #
 # Translators:
@@ -15,12 +18,16 @@
 # Marta Marouço, 2025
 #
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Marta Marouço, 2025\n"
@@ -31,6 +38,8 @@ msgstr ""
 "Language: pt\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-11-17 10:30+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Portuguese <https://translate.odoo.com/projects/odoo-18/"
@@ -42,6 +51,9 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % "
 "1000000 == 0) ? 1 : 2);\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: crm_livechat
@@ -49,7 +61,11 @@ msgstr ""
 #: code:addons/crm_livechat/models/chatbot_script_step.py:0
 msgid "%s's New Lead"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Novo lead de %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Novo lead de %s"
 >>>>>>> upstream/18.0
@@ -63,7 +79,11 @@ msgstr "Script do Chatbot"
 #: model:ir.model,name:crm_livechat.model_chatbot_script_step
 msgid "Chatbot Script Step"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Etapa do script do chatbot"
+>>>>>>> upstream/18.0
 =======
 msgstr "Etapa do script do chatbot"
 >>>>>>> upstream/18.0
@@ -72,7 +92,11 @@ msgstr "Etapa do script do chatbot"
 #: model:ir.model.fields.selection,name:crm_livechat.selection__chatbot_script_step__step_type__create_lead
 msgid "Create Lead"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Criar lead"
+>>>>>>> upstream/18.0
 =======
 msgstr "Criar lead"
 >>>>>>> upstream/18.0
@@ -82,7 +106,11 @@ msgstr "Criar lead"
 #: code:addons/crm_livechat/static/src/core/channel_commands.js:0
 msgid "Create a new lead (/lead lead title)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Criar um novo lead (/lead lead title)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Criar um novo lead (/lead lead title)"
 >>>>>>> upstream/18.0
@@ -100,7 +128,11 @@ msgstr ""
 #: code:addons/crm_livechat/models/discuss_channel.py:0
 msgid "Created a new lead: %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Novo lead criado: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Novo lead criado: %s"
 >>>>>>> upstream/18.0
@@ -114,7 +146,11 @@ msgstr "Canal de Discussão"
 #: model:ir.model.fields,field_description:crm_livechat.field_chatbot_script__lead_count
 msgid "Generated Lead Count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Contagem de leads gerados"
+>>>>>>> upstream/18.0
 =======
 msgstr "Contagem de leads gerados"
 >>>>>>> upstream/18.0
@@ -123,7 +159,11 @@ msgstr "Contagem de leads gerados"
 #: model:chatbot.script.step,message:crm_livechat.chatbot_script_lead_generation_step_welcome
 msgid "Hi there, what brings you to our website today? 👋"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Olá, o que o trouxe até nosso site hoje?👋"
+>>>>>>> upstream/18.0
 =======
 msgstr "Olá, o que o trouxe até nosso site hoje?👋"
 >>>>>>> upstream/18.0
@@ -137,7 +177,11 @@ msgstr "Oh não, parece que nenhum dos nossos operadores está disponível.🙁"
 #: model:chatbot.script,title:crm_livechat.chatbot_script_lead_generation_bot
 msgid "Lead Generation Bot"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bot de geração de leads"
+>>>>>>> upstream/18.0
 =======
 msgstr "Bot de geração de leads"
 >>>>>>> upstream/18.0
@@ -161,7 +205,11 @@ msgstr "Tipo de etapa"
 #: model:chatbot.script.step,message:crm_livechat.chatbot_script_welcome_step_just_looking
 msgid "Thank you, you should hear back from us very soon!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Obrigado, em breve teremos uma resposta!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Obrigado, em breve teremos uma resposta!"
 >>>>>>> upstream/18.0
@@ -173,6 +221,11 @@ msgid ""
 "assign the created lead/opportunity to the defined team"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Usado em combinação com o tipo de etapa “criar_lead” para atribuir "
+"automaticamente o lead/oportunidade criado à equipe definida"
+>>>>>>> upstream/18.0
 =======
 "Usado em combinação com o tipo de etapa “criar_lead” para atribuir "
 "automaticamente o lead/oportunidade criado à equipe definida"

@@ -139,8 +139,11 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self._l10n_es_tbai_post()
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -314,6 +317,9 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -514,6 +520,10 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        return ''
+>>>>>>> upstream/18.0
 =======
         return ''
 >>>>>>> upstream/18.0
@@ -845,7 +855,10 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1068,6 +1081,9 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1220,6 +1236,7 @@ class PosOrder(models.Model):
             'delivery_date': None,
             **self._l10n_es_tbai_get_attachment_values(),
             **self._l10n_es_tbai_get_credit_note_values(),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1609,6 +1626,9 @@ class PosOrder(models.Model):
 =======
             'origin': 'manual',
 >>>>>>> upstream/18.0
+=======
+            'origin': 'manual',
+>>>>>>> upstream/18.0
             'taxes': self.lines.tax_ids,
             'rate': self.currency_rate,
             'base_lines': base_lines,
@@ -1679,6 +1699,10 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'refunded_name': self.refunded_order_id.name,
+>>>>>>> upstream/18.0
 =======
             'refunded_name': self.refunded_order_id.name,
 >>>>>>> upstream/18.0

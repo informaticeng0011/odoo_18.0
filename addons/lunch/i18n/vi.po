@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* lunch
 # 
 # Translators:
@@ -8,6 +9,8 @@
 # Thi Huong Nguyen, 2025
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 # * lunch
 #
 # Translators:
@@ -15,12 +18,16 @@
 # Thi Huong Nguyen, 2025
 #
 # "Thi Huong Nguyen (thng)" <thng@odoo.com>, 2025.
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-19 20:36+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Thi Huong Nguyen, 2025\n"
@@ -31,6 +38,8 @@ msgstr ""
 "Language: vi\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-11-11 05:51+0000\n"
 "Last-Translator: \"Thi Huong Nguyen (thng)\" <thng@odoo.com>\n"
 "Language-Team: Vietnamese <https://translate.odoo.com/projects/odoo-18/lunch/"
@@ -41,6 +50,9 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: lunch
@@ -261,9 +273,12 @@ msgid ""
 "        "
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"padding-top: 16px; background-color: #F1F1F1; font-family:Verdana, Arial,sans-serif; color: #454748; width: 100%; border-collapse:separate;\"><tr><td align=\"center\">\n"
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"padding: 16px; background-color: white; color: #454748; border-collapse:separate;\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"padding-top: "
 "16px; background-color: #F1F1F1; font-family:Verdana, Arial,sans-serif; "
 "color: #454748; width: 100%; border-collapse:separate;\"><tr><td align=\""
@@ -271,11 +286,15 @@ msgstr ""
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style="
 "\"padding: 16px; background-color: white; color: #454748; border-"
 "collapse:separate;\">\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "<tbody>\n"
 "    <!-- HEADER -->\n"
 "    <tr>\n"
 "        <td align=\"center\" style=\"min-width: 590px;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
 "                <tr><td valign=\"middle\">\n"
@@ -286,6 +305,8 @@ msgstr ""
 "                <tr><td colspan=\"2\" style=\"text-align:center;\">\n"
 "                  <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin:16px 0px 16px 0px;\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width="
 "\"590\" style=\"min-width: 590px; background-color: white; padding: 0px 8px "
 "0px 8px; border-collapse:separate;\">\n"
@@ -303,6 +324,9 @@ msgstr ""
 "                  <hr width=\"100%\" style=\"background-"
 "color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
 "size:0px;min-height:1px;line-height:0; margin:16px 0px 16px 0px;\"/>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                </td></tr>\n"
 "            </table>\n"
@@ -312,7 +336,13 @@ msgstr ""
 "    <tr>\n"
 "        <td align=\"center\" style=\"min-width: 590px;\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
+=======
+"            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width="
+"\"590\" style=\"min-width: 590px; background-color: white; padding: 0px 8px "
+"0px 8px; border-collapse:separate;\">\n"
+>>>>>>> upstream/18.0
 =======
 "            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width="
 "\"590\" style=\"min-width: 590px; background-color: white; padding: 0px 8px "
@@ -324,12 +354,15 @@ msgstr ""
 "        <t t-set=\"lines\" t-value=\"ctx.get('lines', [])\"/>\n"
 "        <t t-set=\"order\" t-value=\"ctx.get('order')\"/>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <t t-set=\"currency\" t-value=\"user.env['res.currency'].browse(order.get('currency_id'))\"/>\n"
 "        <p>\n"
 "        Xin chào <t t-out=\"order.get('supplier_name', '')\">Laurie Poiret</t>,\n"
 "        </p><p>\n"
 "        Đây là đơn đặt hàng hôm nay cho <t t-out=\"order.get('company_name', '')\">LunchCompany</t>:\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "        <t t-set=\"currency\" t-value="
 "\"user.env['res.currency'].browse(order.get('currency_id'))\"/>\n"
 "        <p>\n"
@@ -338,6 +371,9 @@ msgstr ""
 "        </p><p>\n"
 "        Đây là đơn đặt hàng hôm nay cho <t t-out="
 "\"order.get('company_name', '')\">LunchCompany</t>:\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "        </p>\n"
 "\n"
@@ -346,7 +382,12 @@ msgstr ""
 "            <p>Vị trí</p>\n"
 "            <t t-foreach=\"site\" t-as=\"site\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                <p><t t-out=\"site['name'] or ''\"/> : <t t-out=\"site['address'] or ''\"/></p>\n"
+=======
+"                <p><t t-out=\"site['name'] or ''\"/> : <t t-out="
+"\"site['address'] or ''\"/></p>\n"
+>>>>>>> upstream/18.0
 =======
 "                <p><t t-out=\"site['name'] or ''\"/> : <t t-out="
 "\"site['address'] or ''\"/></p>\n"
@@ -359,6 +400,7 @@ msgstr ""
 "            <thead>\n"
 "                <tr style=\"background-color:rgb(233,232,233);\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <th style=\"width: 100%; min-width: 96px; font-size: 13px;\"><strong>Sản phẩm</strong></th>\n"
 "                    <th style=\"width: 100%; min-width: 96px; font-size: 13px;\"><strong>Lời nhắn</strong></th>\n"
 "                    <th style=\"width: 100%; min-width: 96px; font-size: 13px;\"><strong>Người</strong></th>\n"
@@ -366,6 +408,8 @@ msgstr ""
 "                    <th style=\"width: 100%; min-width: 96px; font-size: 13px;\" align=\"center\"><strong>SL</strong></th>\n"
 "                    <th style=\"width: 100%; min-width: 96px; font-size: 13px;\" align=\"center\"><strong>Giá</strong></th>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                    <th style="
 "\"width: 100%; min-width: 96px; font-size: 13px;\"><strong>Sản "
 "phẩm</strong></th>\n"
@@ -384,24 +428,34 @@ msgstr ""
 "                    <th style="
 "\"width: 100%; min-width: 96px; font-size: 13px;\" align=\"center\""
 "><strong>Giá</strong></th>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                </tr>\n"
 "            </thead>\n"
 "            <tbody>\n"
 "                <tr t-foreach=\"lines\" t-as=\"line\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <td style=\"width: 100%; font-size: 13px;\" valign=\"top\" t-out=\"line['product'] or ''\">Sushi cá hồi</td>\n"
 "                    <td style=\"width: 100%; font-size: 13px;\" valign=\"top\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                    <td style=\"width: 100%; font-size: 13px;\" valign="
 "\"top\" t-out=\"line['product'] or ''\">Sushi cá hồi</td>\n"
 "                    <td style=\"width: 100%; font-size: 13px;\" valign="
 "\"top\">\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                    <t t-if=\"line['toppings']\">\n"
 "                        <t t-out=\"line['toppings'] or ''\">Nước tương</t>\n"
 "                    </t>\n"
 "                    <t t-if=\"line['note']\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "                        <div style=\"color: rgb(173,181,189);\" t-out=\"line['note'] or ''\">Với wasabi.</div>\n"
 "                    </t>\n"
@@ -411,6 +465,8 @@ msgstr ""
 "                    <td style=\"width: 100%; font-size: 13px;\" valign=\"top\" align=\"right\" t-out=\"line['quantity'] or ''\">10</td>\n"
 "                    <td style=\"width: 100%; font-size: 13px;\" valign=\"top\" align=\"right\" t-out=\"format_amount(line['price'], currency) or ''\">$ 1,00</td>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                        <div style=\"color: rgb(173,181,189);\" t-out="
 "\"line['note'] or ''\">Với wasabi.</div>\n"
 "                    </t>\n"
@@ -424,6 +480,9 @@ msgstr ""
 "                    <td style=\"width: 100%; font-size: 13px;\" valign="
 "\"top\" align=\"right\" t-out="
 "\"format_amount(line['price'], currency) or ''\">$ 1,00</td>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                </tr>\n"
 "                <tr>\n"
@@ -432,9 +491,12 @@ msgstr ""
 "                    <td/>\n"
 "                    <td/>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <td style=\"width: 100%; font-size: 13px; border-top: 1px solid black;\"><strong>Tổng</strong></td>\n"
 "                    <td style=\"width: 100%; font-size: 13px; border-top: 1px solid black;\" align=\"right\"><strong t-out=\"format_amount(order['amount_total'], currency) or ''\">$ 10,00</strong></td>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                    <td style="
 "\"width: 100%; font-size: 13px; border-top: 1px solid black;\""
 "><strong>Tổng</strong></td>\n"
@@ -443,13 +505,21 @@ msgstr ""
 "\"right\"><strong t-out="
 "\"format_amount(order['amount_total'], currency) or ''\">$ "
 "10,00</strong></td>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                </tr>\n"
 "            </tbody>\n"
 "        </table>\n"
 "\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <p>Hãy liên hệ với chúng tôi nếu bạn có bất kỳ thắc mắc nào cần giải đáp.</p>\n"
+=======
+"        <p>Hãy liên hệ với chúng tôi nếu bạn có bất kỳ thắc mắc nào cần giải "
+"đáp.</p>\n"
+>>>>>>> upstream/18.0
 =======
 "        <p>Hãy liên hệ với chúng tôi nếu bạn có bất kỳ thắc mắc nào cần giải "
 "đáp.</p>\n"
@@ -460,7 +530,13 @@ msgstr ""
 "                <tr>\n"
 "                    <td style=\"text-align:center;\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+=======
+"                        <hr width=\"100%\" style=\"background-"
+"color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
+"size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "                        <hr width=\"100%\" style=\"background-"
 "color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
@@ -474,6 +550,7 @@ msgstr ""
 "    <!-- FOOTER -->\n"
 "    <tr>\n"
 "        <td align=\"center\" style=\"min-width: 590px;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: white; font-size: 11px; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
 "                <tr><td valign=\"middle\" align=\"left\">\n"
@@ -489,6 +566,8 @@ msgstr ""
 "                    <t t-if=\"user.company_id.website\">\n"
 "                        <a t-attf-href=\"'%s' % {{ user.company_id.website }}\" style=\"text-decoration:none; color: #454748;\" t-out=\"user.company_id.website or ''\">http://www.example.com</a>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width="
 "\"590\" style=\"min-width: 590px; background-color: white; font-size: 11px; "
 "padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
@@ -514,6 +593,9 @@ msgstr ""
 "\"'%s' % {{ user.company_id.website }}\" style=\"text-decoration:none; color:"
 " #454748;\" t-out=\"user.company_id.website or ''\""
 ">http://www.example.com</a>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                    </t>\n"
 "                </td></tr>\n"
@@ -526,16 +608,22 @@ msgstr ""
 "<!-- POWERED BY -->\n"
 "<tr><td align=\"center\" style=\"min-width: 590px;\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: #F1F1F1; color: #454748; padding: 8px; border-collapse:separate;\">\n"
 "      <tr><td style=\"text-align: center; font-size: 13px;\">\n"
 "        Cung cấp bởi <a target=\"_blank\" href=\"https://www.odoo.com\" style=\"color: #875A7B;\">Odoo</a>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" "
 "style=\"min-width: 590px; background-color: #F1F1F1; color: #454748; padding:"
 " 8px; border-collapse:separate;\">\n"
 "      <tr><td style=\"text-align: center; font-size: 13px;\">\n"
 "        Được hỗ trợ bởi <a target=\"_blank\" href=\"https://www.odoo.com\" "
 "style=\"color: #875A7B;\">Odoo</a>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "      </td></tr>\n"
 "    </table>\n"
@@ -1703,7 +1791,11 @@ msgid "My Activity Deadline"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Hạn chót hoạt động của tôi"
+=======
+msgstr "Thời hạn hoạt động của tôi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Thời hạn hoạt động của tôi"
 >>>>>>> upstream/18.0
@@ -2171,7 +2263,11 @@ msgid "Next Activity Deadline"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Hạn chót cho hoạt động tiếp theo"
+=======
+msgstr "Thời hạn cho hoạt động tiếp theo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Thời hạn cho hoạt động tiếp theo"
 >>>>>>> upstream/18.0

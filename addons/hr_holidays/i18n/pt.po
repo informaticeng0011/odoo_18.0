@@ -15,6 +15,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* hr_holidays
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -567,11 +568,17 @@
 #
 # Translators:
 >>>>>>> upstream/18.0
+=======
+# * hr_holidays
+#
+# Translators:
+>>>>>>> upstream/18.0
 # Rita Bastos, 2025
 # Nuno Silva <nuno.silva@arxi.pt>, 2025
 # NumerSpiral HBG, 2025
 # Peter Lawrence Romão <peterromao@yahoo.co.uk>, 2025
 # Arxi, 2025
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1214,10 +1221,13 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # J Ponte, 2025
 # Daniel Reis, 2025
 # Wil Odoo, 2025
 # Humberto Sousa <humberto.sousa@smartimprove.pt>, 2025.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1262,10 +1272,14 @@
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1870,16 +1884,22 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-11-14 18:37+0000\n"
 "PO-Revision-Date: 2025-11-15 18:11+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Portuguese <https://translate.odoo.com/projects/odoo-18/"
 "hr_holidays/pt/>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2144,13 +2164,22 @@ msgstr ""
 "1000000 == 0) ? 1 : 2);\n"
 "X-Generator: Weblate 5.12.2\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % "
+"1000000 == 0) ? 1 : 2);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #. odoo-python
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid " to %(date_to_utc)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr " até %(date_to_utc)s"
+>>>>>>> upstream/18.0
 =======
 msgstr " até %(date_to_utc)s"
 >>>>>>> upstream/18.0
@@ -2179,7 +2208,11 @@ msgstr "!importante; tamanho da letra: 10px\" &gt;"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.report_holidayssummary
 msgid "!important; font-size: 8px; min-width: 18px\"&gt;"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "!importante; tamanho da fonte: 8px; largura mínima: 18px\"&gt;"
+>>>>>>> upstream/18.0
 =======
 msgstr "!importante; tamanho da fonte: 8px; largura mínima: 18px\"&gt;"
 >>>>>>> upstream/18.0
@@ -2189,7 +2222,11 @@ msgstr "!importante; tamanho da fonte: 8px; largura mínima: 18px\"&gt;"
 #: code:addons/hr_holidays/models/hr_leave_allocation.py:0
 msgid "%(allocation_name)s (from %(date_from)s to %(date_to)s)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(allocation_name)s (de %(date_from)s até %(date_to)s)"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(allocation_name)s (de %(date_from)s até %(date_to)s)"
 >>>>>>> upstream/18.0
@@ -2199,7 +2236,11 @@ msgstr "%(allocation_name)s (de %(date_from)s até %(date_to)s)"
 #: code:addons/hr_holidays/models/hr_leave_allocation.py:0
 msgid "%(allocation_name)s (from %(date_from)s to No Limit)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(allocation_name)s (de %(date_from)s até Ilimitado)"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(allocation_name)s (de %(date_from)s até Ilimitado)"
 >>>>>>> upstream/18.0
@@ -2209,7 +2250,11 @@ msgstr "%(allocation_name)s (de %(date_from)s até Ilimitado)"
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "%(employee)s on Time Off : %(duration)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(employee)s em Folga: %(duration)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(employee)s em Folga: %(duration)s"
 >>>>>>> upstream/18.0
@@ -2225,7 +2270,11 @@ msgstr ""
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "%(holiday_name)s has been refused."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(holiday_name)s foi recusado."
+>>>>>>> upstream/18.0
 =======
 msgstr "%(holiday_name)s foi recusado."
 >>>>>>> upstream/18.0
@@ -2242,7 +2291,11 @@ msgstr ""
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "%(leave_type)s: %(duration)s (%(start)s)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(leave_type)s: %(duration)s (%(start)s)"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(leave_type)s: %(duration)s (%(start)s)"
 >>>>>>> upstream/18.0
@@ -2252,7 +2305,11 @@ msgstr "%(leave_type)s: %(duration)s (%(start)s)"
 #: code:addons/hr_holidays/wizard/hr_leave_allocation_generate_multi_wizard.py:0
 msgid "%(name)s (%(duration)s %(request_unit)s(s))"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(name)s (%(duration)s %(request_unit)s(s))"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(name)s (%(duration)s %(request_unit)s(s))"
 >>>>>>> upstream/18.0
@@ -2262,7 +2319,11 @@ msgstr "%(name)s (%(duration)s %(request_unit)s(s))"
 #: code:addons/hr_holidays/models/hr_leave_allocation.py:0
 msgid "%(name)s (%(duration)s day(s))"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(name)s (%(duration)s dia(s))"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(name)s (%(duration)s dia(s))"
 >>>>>>> upstream/18.0
@@ -2272,7 +2333,11 @@ msgstr "%(name)s (%(duration)s dia(s))"
 #: code:addons/hr_holidays/models/hr_leave_allocation.py:0
 msgid "%(name)s (%(duration)s hour(s))"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(name)s (%(duration)s hora(s))"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(name)s (%(duration)s hora(s))"
 >>>>>>> upstream/18.0
@@ -2282,7 +2347,11 @@ msgstr "%(name)s (%(duration)s hora(s))"
 #: code:addons/hr_holidays/models/hr_leave_type.py:0
 msgid "%(name)s (%(time)g remaining out of %(maximum)g days)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(name)s (%(time)g restante de %(maximum)g dias)"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(name)s (%(time)g restante de %(maximum)g dias)"
 >>>>>>> upstream/18.0
@@ -2292,7 +2361,11 @@ msgstr "%(name)s (%(time)g restante de %(maximum)g dias)"
 #: code:addons/hr_holidays/models/hr_leave_type.py:0
 msgid "%(name)s (%(time)g remaining out of %(maximum)g hours)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(name)s (%(time)g restante de %(maximum)g horas)"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(name)s (%(time)g restante de %(maximum)g horas)"
 >>>>>>> upstream/18.0
@@ -2423,7 +2496,11 @@ msgid "%(name)s: %(duration)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(name)s: %(duration)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(name)s: %(duration)s"
 >>>>>>> upstream/18.0
@@ -2796,7 +2873,11 @@ msgstr "%(name)s: %(duration)s"
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "%(person)s on %(leave_type)s: %(duration)s (%(start)s)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(person)s em %(leave_type)s: %(duration)s (%(start)s)"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(person)s em %(leave_type)s: %(duration)s (%(start)s)"
 >>>>>>> upstream/18.0
@@ -2806,7 +2887,11 @@ msgstr "%(person)s em %(leave_type)s: %(duration)s (%(start)s)"
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "%(person)s: %(duration)s (%(start)s)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(person)s: %(duration)s (%(start)s)"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(person)s: %(duration)s (%(start)s)"
 >>>>>>> upstream/18.0
@@ -2823,7 +2908,11 @@ msgstr "%s (cópia)"
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "%s: Time Off"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s: Folga"
+>>>>>>> upstream/18.0
 =======
 msgstr "%s: Folga"
 >>>>>>> upstream/18.0
@@ -2962,7 +3051,11 @@ msgid "&gt;"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "&gt;"
+>>>>>>> upstream/18.0
 =======
 msgstr "&gt;"
 >>>>>>> upstream/18.0
@@ -3443,11 +3536,17 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "&lt;td class=\"text-center oe_leftfit oe_rightfit\" style=\"background-"
 "color:"
 msgstr ""
 "&lt;td class=\"text-center oe_leftfit oe_rightfit\" style=\"background-"
 "color:"
+=======
+"&lt;td class=\"text-center oe_leftfit oe_rightfit\" style=\"background-color:"
+msgstr ""
+"&lt;td class=\"text-center oe_leftfit oe_rightfit\" style=\"background-color:"
+>>>>>>> upstream/18.0
 =======
 "&lt;td class=\"text-center oe_leftfit oe_rightfit\" style=\"background-color:"
 msgstr ""
@@ -3829,7 +3928,11 @@ msgstr "&lt;th class=\"text-center\" colspan="
 #: code:addons/hr_holidays/static/src/dashboard/time_off_card.xml:0
 msgid "(valid until"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "(válido até"
+>>>>>>> upstream/18.0
 =======
 msgstr "(válido até"
 >>>>>>> upstream/18.0
@@ -3973,7 +4076,11 @@ msgid "00:00"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "00:00"
+>>>>>>> upstream/18.0
 =======
 msgstr "00:00"
 >>>>>>> upstream/18.0
@@ -4382,6 +4489,11 @@ msgid ""
 "'confirm'\"/>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-long-arrow-right mx-2\" aria-label=\"Arrow icon\" title="
+"\"Arrow\" invisible=\"allocation_type == 'accrual' or state != 'confirm'\"/>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-long-arrow-right mx-2\" aria-label=\"Arrow icon\" title="
 "\"Arrow\" invisible=\"allocation_type == 'accrual' or state != 'confirm'\"/>"
@@ -4395,6 +4507,11 @@ msgid ""
 "title=\"Arrow\" invisible=\"allocation_type == 'accrual'\"/>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-long-arrow-right mx-2\" aria-label=\"Arrow icon\" title="
+"\"Arrow\" invisible=\"allocation_type == 'accrual'\"/>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-long-arrow-right mx-2\" aria-label=\"Arrow icon\" title="
 "\"Arrow\" invisible=\"allocation_type == 'accrual'\"/>"
@@ -4404,7 +4521,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_view_activity
 msgid "<i class=\"fa fa-long-arrow-right\" title=\"to\"/>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-long-arrow-right\" title=\"to\"/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-long-arrow-right\" title=\"to\"/>"
 >>>>>>> upstream/18.0
@@ -4424,6 +4545,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_allocation_generate_multi_wizard_view_form
 msgid ""
 "<span class=\"ml8\" invisible=\"request_unit == 'hour'\">Days</span>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4788,18 +4910,24 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "                            <span class=\"ml8\" invisible=\"request_unit != "
 "'hour'\">Hours</span>"
 msgstr ""
 "<span class=\"ml8\" invisible=\"request_unit == 'hour'\">Dias</span>\n"
 "                            <span class=\"ml8\" invisible="
 "\"request_unit != 'hour'\">Horas</span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_allocation_view_form
 msgid ""
 "<span class=\"ml8\" invisible=\"type_request_unit == 'hour'\">Days</span>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5164,12 +5292,17 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "                                <span class=\"ml8\" "
 "invisible=\"type_request_unit != 'hour'\">Hours</span>"
 msgstr ""
 "<span class=\"ml8\" invisible=\"type_request_unit == 'hour'\">Dias</span>\n"
 "                                <span class=\"ml8\" invisible="
 "\"type_request_unit != 'hour'\">Horas</span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_holidays
@@ -5182,6 +5315,12 @@ msgid ""
 "                        </span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"o_stat_text\">\n"
+"                            Volta em\n"
+"                        </span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"o_stat_text\">\n"
 "                            Volta em\n"
@@ -5198,6 +5337,12 @@ msgid ""
 "                        </span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"o_stat_text\">\n"
+"                            Folga\n"
+"                        </span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"o_stat_text\">\n"
 "                            Folga\n"
@@ -5216,7 +5361,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_holidays.edit_holiday_status_form
 msgid "<span class=\"o_stat_text\">Accruals</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Acumulações</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Acumulações</span>"
 >>>>>>> upstream/18.0
@@ -5225,7 +5374,11 @@ msgstr "<span class=\"o_stat_text\">Acumulações</span>"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.edit_holiday_status_form
 msgid "<span class=\"o_stat_text\">Allocations</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Alocações</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Alocações</span>"
 >>>>>>> upstream/18.0
@@ -5234,7 +5387,11 @@ msgstr "<span class=\"o_stat_text\">Alocações</span>"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.edit_holiday_status_form
 msgid "<span class=\"o_stat_text\">Time Off</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Folga</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Folga</span>"
 >>>>>>> upstream/18.0
@@ -5252,6 +5409,7 @@ msgstr "<span class=\"text-muted\">de </span>"
 #. module: hr_holidays
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_view_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5617,6 +5775,8 @@ msgid ""
 "                    ("
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "<span>The employee has a different timezone than yours! Here dates and times "
 "are displayed in the employee's timezone</span>\n"
 "                    ("
@@ -5624,11 +5784,15 @@ msgstr ""
 "<span>O funcionário está em um fuso horário diferente do seu. Aqui, as datas "
 "e horas são exibidas no fuso horário do funcionário</span>\n"
 "("
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_view_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5996,6 +6160,10 @@ msgid ""
 "<span>You can only take this time off in whole days, so if your schedule has "
 "half days, it won't be used efficiently.</span>"
 >>>>>>> upstream/18.0
+=======
+"<span>You can only take this time off in whole days, so if your schedule has "
+"half days, it won't be used efficiently.</span>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_holidays
@@ -6008,7 +6176,11 @@ msgstr "<strong>Departamentos e Funcionários</strong>"
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "A cancelled leave cannot be modified."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Uma licença cancelada não pode ser modificada."
+>>>>>>> upstream/18.0
 =======
 msgstr "Uma licença cancelada não pode ser modificada."
 >>>>>>> upstream/18.0
@@ -6017,6 +6189,7 @@ msgstr "Uma licença cancelada não pode ser modificada."
 #: model_terms:ir.actions.act_window,help:hr_holidays.hr_leave_action_action_approve_department
 #: model_terms:ir.actions.act_window,help:hr_holidays.hr_leave_action_holiday_allocation_id
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6310,16 +6483,22 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "A great way to keep track on employee’s PTOs, sick days, and approval status."
 msgstr ""
 "Uma ótima maneira de acompanhar as folgas remuneradas dos funcionários, "
 "atestados médicos e status de aprovação."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model_terms:ir.actions.act_window,help:hr_holidays.hr_leave_action_my
 #: model_terms:ir.actions.act_window,help:hr_holidays.hr_leave_action_new_request
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6685,11 +6864,16 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "A great way to keep track on your time off requests, sick days, and approval "
 "status."
 msgstr ""
 "Uma ótima maneira de controlar suas solicitações de folga, atestados médicos "
 "e status de aprovação."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_holidays
@@ -6705,7 +6889,11 @@ msgstr "Uma ausência não pode ser duplicada"
 #: model:ir.model.fields,field_description:hr_holidays.field_res_users__show_leaves
 msgid "Able to see Remaining Time Off"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pode ver o tempo restante de folga"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pode ver o tempo restante de folga"
 >>>>>>> upstream/18.0
@@ -6720,7 +6908,11 @@ msgstr "Ausência"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_department__absence_of_today
 msgid "Absence by Today"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ausência de hoje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ausência de hoje"
 >>>>>>> upstream/18.0
@@ -6747,7 +6939,11 @@ msgstr "Funcionários Ausentes"
 #: model:ir.model.fields,field_description:hr_holidays.field_res_users__is_absent
 msgid "Absent Today"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ausente hoje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ausente hoje"
 >>>>>>> upstream/18.0
@@ -6757,7 +6953,11 @@ msgstr "Ausente hoje"
 #: code:addons/hr_holidays/static/src/dashboard/time_off_card.xml:0
 msgid "Accrual (Future):"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Acúmulo (futuro):"
+>>>>>>> upstream/18.0
 =======
 msgstr "Acúmulo (futuro):"
 >>>>>>> upstream/18.0
@@ -6767,7 +6967,11 @@ msgstr "Acúmulo (futuro):"
 #: model:ir.model.fields.selection,name:hr_holidays.selection__hr_leave_allocation_generate_multi_wizard__allocation_type__accrual
 msgid "Accrual Allocation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Alocação de acúmulo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Alocação de acúmulo"
 >>>>>>> upstream/18.0
@@ -6776,7 +6980,11 @@ msgstr "Alocação de acúmulo"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_accrual_level_view_form
 msgid "Accrual Level"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nível de acúmulo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nível de acúmulo"
 >>>>>>> upstream/18.0
@@ -6789,7 +6997,11 @@ msgstr "Nível de acúmulo"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_accrual_plan_view_form
 msgid "Accrual Plan"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Plano de acúmulo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Plano de acúmulo"
 >>>>>>> upstream/18.0
@@ -6798,7 +7010,11 @@ msgstr "Plano de acúmulo"
 #: model:ir.model,name:hr_holidays.model_hr_leave_accrual_level
 msgid "Accrual Plan Level"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nível de plano de acumulação"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nível de plano de acumulação"
 >>>>>>> upstream/18.0
@@ -6808,7 +7024,11 @@ msgstr "Nível de plano de acumulação"
 #: code:addons/hr_holidays/models/hr_leave_accrual_plan.py:0
 msgid "Accrual Plan's Employees"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Funcionários do plano de acúmulo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Funcionários do plano de acúmulo"
 >>>>>>> upstream/18.0
@@ -6824,7 +7044,11 @@ msgstr "Majoração de Dias de Férias"
 #: model:ir.actions.server,name:hr_holidays.hr_leave_allocation_cron_accrual_ir_actions_server
 msgid "Accrual Time Off: Updates the number of time off"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Folga por acúmulo: atualiza o número de folgas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Folga por acúmulo: atualiza o número de folgas"
 >>>>>>> upstream/18.0
@@ -6978,7 +7202,11 @@ msgid "Accruals"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Acréscimos"
+>>>>>>> upstream/18.0
 =======
 msgstr "Acréscimos"
 >>>>>>> upstream/18.0
@@ -7377,7 +7605,11 @@ msgstr "Acréscimos"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_type__accrual_count
 msgid "Accruals count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Total de acumulação"
+>>>>>>> upstream/18.0
 =======
 msgstr "Total de acumulação"
 >>>>>>> upstream/18.0
@@ -7404,7 +7636,11 @@ msgstr "Ativo"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.view_hr_leave_allocation_filter
 msgid "Active Allocations"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Alocações ativas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Alocações ativas"
 >>>>>>> upstream/18.0
@@ -7420,7 +7656,11 @@ msgstr "Funcionários Ativos"
 #: code:addons/hr_holidays/static/src/avatar_card_resource_popover.xml:0
 msgid "Active but on leave"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ativo, mas de licença"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ativo, mas de licença"
 >>>>>>> upstream/18.0
@@ -7518,7 +7758,10 @@ msgstr "Estado da Atividade"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7743,6 +7986,9 @@ msgstr "Tipo de Atividade"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7917,7 +8163,11 @@ msgstr "Adicione um motivo..."
 #: code:addons/hr_holidays/static/src/tours/hr_holidays_tour.js:0
 msgid "Add some description for the people that will validate it"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Adicione uma descrição para as pessoas que validarão isso"
+>>>>>>> upstream/18.0
 =======
 msgstr "Adicione uma descrição para as pessoas que validarão isso"
 >>>>>>> upstream/18.0
@@ -7937,7 +8187,11 @@ msgstr "Administrador"
 #: model:ir.model.fields.selection,name:hr_holidays.selection__hr_leave_accrual_plan__transition_mode__end_of_accrual
 msgid "After this accrual's period"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Após esse período de acúmulo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Após esse período de acúmulo"
 >>>>>>> upstream/18.0
@@ -8076,7 +8330,11 @@ msgid "Afternoon"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tarde"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tarde"
 >>>>>>> upstream/18.0
@@ -8502,7 +8760,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_allocation__duration_display
 msgid "Allocated (Days/Hours)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Alocado (dias/horas)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Alocado (dias/horas)"
 >>>>>>> upstream/18.0
@@ -8520,7 +8782,11 @@ msgstr "Alocação"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.view_holiday_status_normal_tree
 msgid "Allocation Approval"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aprovação de alocação"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aprovação de alocação"
 >>>>>>> upstream/18.0
@@ -8532,7 +8798,11 @@ msgstr "Aprovação de alocação"
 #: model:ir.model.fields,field_description:hr_holidays.field_res_users__allocation_display
 msgid "Allocation Display"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Exibição da alocação"
+>>>>>>> upstream/18.0
 =======
 msgstr "Exibição da alocação"
 >>>>>>> upstream/18.0
@@ -8555,7 +8825,11 @@ msgstr "Subtipo de Notificação de Alocação"
 #: model:ir.model.fields,field_description:hr_holidays.field_res_users__allocation_remaining_display
 msgid "Allocation Remaining Display"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Exibição de alocação restante"
+>>>>>>> upstream/18.0
 =======
 msgstr "Exibição de alocação restante"
 >>>>>>> upstream/18.0
@@ -8585,7 +8859,11 @@ msgstr "Pedidos de Alocação"
 #: model:mail.activity.type,name:hr_holidays.mail_act_leave_allocation_second_approval
 msgid "Allocation Second Approval"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Alocação de segunda aprovação"
+>>>>>>> upstream/18.0
 =======
 msgstr "Alocação de segunda aprovação"
 >>>>>>> upstream/18.0
@@ -8610,7 +8888,11 @@ msgstr ""
 #: code:addons/hr_holidays/models/hr_leave_allocation.py:0
 msgid "Allocation of %(leave_type)s: %(amount).2f %(unit)s to %(target)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Alocação de %(leave_type)s: %(amount).2f %(unit)s até %(target)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Alocação de %(leave_type)s: %(amount).2f %(unit)s até %(target)s"
 >>>>>>> upstream/18.0
@@ -8619,7 +8901,11 @@ msgstr "Alocação de %(leave_type)s: %(amount).2f %(unit)s até %(target)s"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_accrual_level__week_day
 msgid "Allocation on"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Alocação em"
+>>>>>>> upstream/18.0
 =======
 msgstr "Alocação em"
 >>>>>>> upstream/18.0
@@ -8632,6 +8918,11 @@ msgid ""
 "to refuse it."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"A solicitação de alocação deve ser confirmada, de segunda aprovação ou "
+"validada para que possa ser recusada."
+>>>>>>> upstream/18.0
 =======
 "A solicitação de alocação deve ser confirmada, de segunda aprovação ou "
 "validada para que possa ser recusada."
@@ -8640,6 +8931,7 @@ msgstr ""
 #. module: hr_holidays
 #. odoo-python
 #: code:addons/hr_holidays/models/hr_leave_allocation.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9004,18 +9296,27 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "Allocation state must be \"Refused\" in order to be reset to \"To Approve\"."
 msgstr ""
 "O status da alocação deve ser \"Recusado\" para que seja redefinido para "
 "\"A aprovar\"."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_department__allocation_to_approve_count
 msgid "Allocation to Approve"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Alocação a aprovar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Alocação a aprovar"
 >>>>>>> upstream/18.0
@@ -9032,7 +9333,11 @@ msgstr "Alocações"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_type__allows_negative
 msgid "Allow Negative Cap"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Permitir limite negativo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Permitir limite negativo"
 >>>>>>> upstream/18.0
@@ -9053,20 +9358,30 @@ msgid ""
 "- By Employee Tag: all employees of the specific employee group category"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "Permite criar solicitações em lotes:\n"
 "- Por funcionário: para um funcionário específico\n"
 "- Por empresa: todos os funcionários de uma empresa específica\n"
 "- Por departamento: todos os funcionários de um departamento específico\n"
 "- Por marcador de funcionários: todos os funcionários de uma categoria de "
 "grupo de funcionários específica"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_allocation__already_accrued
 msgid "Already Accrued"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Já acumulado"
+>>>>>>> upstream/18.0
 =======
 msgstr "Já acumulado"
 >>>>>>> upstream/18.0
@@ -9117,7 +9432,11 @@ msgstr "Aprovar"
 #: model:ir.actions.server,name:hr_holidays.ir_actions_server_approve_allocations
 msgid "Approve Allocations"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aprovar alocações"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aprovar alocações"
 >>>>>>> upstream/18.0
@@ -9282,7 +9601,11 @@ msgid "Approved:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aprovado:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aprovado:"
 >>>>>>> upstream/18.0
@@ -9697,7 +10020,11 @@ msgstr "Arquivados"
 #: code:addons/hr_holidays/static/src/views/calendar/calendar_controller.js:0
 msgid "Are you sure you want to delete this record?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tem certeza de que deseja excluir este registro?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tem certeza de que deseja excluir este registro?"
 >>>>>>> upstream/18.0
@@ -9837,7 +10164,11 @@ msgid "Arrow"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Flecha"
+>>>>>>> upstream/18.0
 =======
 msgstr "Flecha"
 >>>>>>> upstream/18.0
@@ -10237,7 +10568,11 @@ msgstr "Flecha"
 #: code:addons/hr_holidays/static/src/leave_stats/leave_stats.xml:0
 msgid "Arrow icon"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ícone de flecha"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ícone de flecha"
 >>>>>>> upstream/18.0
@@ -10246,7 +10581,11 @@ msgstr "Ícone de flecha"
 #: model:ir.model.fields.selection,name:hr_holidays.selection__hr_leave_accrual_plan__carryover_date__allocation
 msgid "At the allocation date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Na data da alocação"
+>>>>>>> upstream/18.0
 =======
 msgstr "Na data da alocação"
 >>>>>>> upstream/18.0
@@ -10255,7 +10594,11 @@ msgstr "Na data da alocação"
 #: model:ir.model.fields.selection,name:hr_holidays.selection__hr_leave_accrual_plan__accrued_gain_time__end
 msgid "At the end of the accrual period"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "No final do período de acumulação"
+>>>>>>> upstream/18.0
 =======
 msgstr "No final do período de acumulação"
 >>>>>>> upstream/18.0
@@ -10264,7 +10607,11 @@ msgstr "No final do período de acumulação"
 #: model:ir.model.fields.selection,name:hr_holidays.selection__hr_leave_accrual_plan__accrued_gain_time__start
 msgid "At the start of the accrual period"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "No início do período de acumulação"
+>>>>>>> upstream/18.0
 =======
 msgstr "No início do período de acumulação"
 >>>>>>> upstream/18.0
@@ -10273,7 +10620,11 @@ msgstr "No início do período de acumulação"
 #: model:ir.model.fields.selection,name:hr_holidays.selection__hr_leave_accrual_plan__carryover_date__year_start
 msgid "At the start of the year"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "No início do ano"
+>>>>>>> upstream/18.0
 =======
 msgstr "No início do ano"
 >>>>>>> upstream/18.0
@@ -10282,7 +10633,11 @@ msgstr "No início do ano"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_employee_view_search
 msgid "At work"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "No trabalho"
+>>>>>>> upstream/18.0
 =======
 msgstr "No trabalho"
 >>>>>>> upstream/18.0
@@ -10291,7 +10646,11 @@ msgstr "No trabalho"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave__supported_attachment_ids
 msgid "Attach File"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Anexar arquivo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Anexar arquivo"
 >>>>>>> upstream/18.0
@@ -10318,6 +10677,7 @@ msgstr "Agosto"
 #. odoo-python
 #: code:addons/hr_holidays/wizard/hr_leave_generate_multi_wizard.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10683,6 +11043,8 @@ msgid ""
 "%s"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "Automatic time off spliting during batch generation is not managed for "
 "ovelapping time off declared in hours. Conflicting time off:\n"
 "%s"
@@ -10690,6 +11052,9 @@ msgstr ""
 "A divisão automática de folgas durante a geração de lotes não é gerenciada "
 "para a sobreposição de folgas declaradas em horas. Folga conflitante:\n"
 "%s"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_holidays
@@ -10840,7 +11205,11 @@ msgid "Available:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Disponível:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Disponível:"
 >>>>>>> upstream/18.0
@@ -11247,7 +11616,11 @@ msgstr "Ausente"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.view_employee_form_leave_inherit
 msgid "Back On"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Volta em"
+>>>>>>> upstream/18.0
 =======
 msgstr "Volta em"
 >>>>>>> upstream/18.0
@@ -11268,7 +11641,11 @@ msgstr "Saldo"
 #: code:addons/hr_holidays/static/src/dashboard/time_off_dashboard.xml:0
 msgid "Balance at the"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Saldo em"
+>>>>>>> upstream/18.0
 =======
 msgstr "Saldo em"
 >>>>>>> upstream/18.0
@@ -11474,6 +11851,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: code:addons/hr_holidays/static/src/views/calendar/common/calendar_common_popover.xml:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/hr_holidays/static/src/views/calendar/common/calendar_common_popover.xml:0
 >>>>>>> upstream/18.0
@@ -11836,7 +12217,11 @@ msgstr "Cancelar"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_holidays_cancel_leave_form
 msgid "Cancel Time Off"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cancelar folga"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cancelar folga"
 >>>>>>> upstream/18.0
@@ -11845,7 +12230,11 @@ msgstr "Cancelar folga"
 #: model:ir.model,name:hr_holidays.model_hr_holidays_cancel_leave
 msgid "Cancel Time Off Wizard"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Assistente de cancelamento de folga"
+>>>>>>> upstream/18.0
 =======
 msgstr "Assistente de cancelamento de folga"
 >>>>>>> upstream/18.0
@@ -11869,7 +12258,11 @@ msgstr "Cancelada"
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "Cancelled Time Off"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Folga cancelada"
+>>>>>>> upstream/18.0
 =======
 msgstr "Folga cancelada"
 >>>>>>> upstream/18.0
@@ -12013,7 +12406,11 @@ msgid "Cap:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Limite:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Limite:"
 >>>>>>> upstream/18.0
@@ -12412,7 +12809,11 @@ msgstr "Limite:"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_allocation__carried_over_days_expiration_date
 msgid "Carried over days expiration date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Data de vencimento de dias transferidos"
+>>>>>>> upstream/18.0
 =======
 msgstr "Data de vencimento de dias transferidos"
 >>>>>>> upstream/18.0
@@ -12473,18 +12874,28 @@ msgid ""
 "allocation accordingly."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "A alteração desse cronograma de trabalho faz com que os funcionários "
 "afetados não tenham licenças suficientes alocadas para acomodar suas "
 "licenças já tiradas no futuro. Revise as licenças desse funcionário e ajuste "
 "sua alocação de acordo."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model:ir.model.fields,help:hr_holidays.field_hr_leave_accrual_level__maximum_leave
 msgid "Choose a cap for this accrual."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Escolha um limite para esse acúmulo."
+>>>>>>> upstream/18.0
 =======
 msgstr "Escolha um limite para esse acúmulo."
 >>>>>>> upstream/18.0
@@ -12496,6 +12907,11 @@ msgid ""
 "Time Off Request. If empty, nobody will be notified"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Escolha os gestores de folga que serão notificados para aprovar a alocação "
+"ou a solicitação de folga. Se estiver em branco, ninguém será notificado"
+>>>>>>> upstream/18.0
 =======
 "Escolha os gestores de folga que serão notificados para aprovar a alocação "
 "ou a solicitação de folga. Se estiver em branco, ninguém será notificado"
@@ -12564,7 +12980,11 @@ msgstr "Confirmado"
 #: code:addons/hr_holidays/report/holidays_summary_report.py:0
 msgid "Confirmed and Approved"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Confirmado e aprovado"
+>>>>>>> upstream/18.0
 =======
 msgstr "Confirmado e aprovado"
 >>>>>>> upstream/18.0
@@ -12573,7 +12993,11 @@ msgstr "Confirmado e aprovado"
 #: model_terms:web_tour.tour,rainbow_man_message:hr_holidays.hr_holidays_tour
 msgid "Congrats, we can see that your request has been validated."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Parabéns, podemos ver que sua solicitação foi validada."
+>>>>>>> upstream/18.0
 =======
 msgstr "Parabéns, podemos ver que sua solicitação foi validada."
 >>>>>>> upstream/18.0
@@ -12590,6 +13014,11 @@ msgid ""
 "approbation) with a validity period starting this year."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Contagem de alocações para esse tipo de folga (aprovadas ou aguardando "
+"aprovação) com validade a partir deste ano."
+>>>>>>> upstream/18.0
 =======
 "Contagem de alocações para esse tipo de folga (aprovadas ou aguardando "
 "aprovação) com validade a partir deste ano."
@@ -12599,7 +13028,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_holidays.edit_holiday_status_form
 msgid "Count of plans linked to this time off type."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Contagem de planos vinculados a esse tipo de folga."
+>>>>>>> upstream/18.0
 =======
 msgstr "Contagem de planos vinculados a esse tipo de folga."
 >>>>>>> upstream/18.0
@@ -12611,6 +13044,11 @@ msgid ""
 "approbation) with a start date in the current year."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Contagem de solicitações de folga para esse tipo de folga (aprovadas ou "
+"aguardando aprovação) com uma data de início no ano atual."
+>>>>>>> upstream/18.0
 =======
 "Contagem de solicitações de folga para esse tipo de folga (aprovadas ou "
 "aguardando aprovação) com uma data de início no ano atual."
@@ -12682,7 +13120,11 @@ msgstr "Criado em"
 #: model:ir.model.fields,field_description:hr_holidays.field_res_users__current_leave_state
 msgid "Current Time Off Status"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Status da folga atual"
+>>>>>>> upstream/18.0
 =======
 msgstr "Status da folga atual"
 >>>>>>> upstream/18.0
@@ -12691,7 +13133,11 @@ msgstr "Status da folga atual"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_employee__current_leave_id
 msgid "Current Time Off Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tipo da folga atual"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tipo da folga atual"
 >>>>>>> upstream/18.0
@@ -12701,7 +13147,11 @@ msgstr "Tipo da folga atual"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.view_hr_holidays_filter_report
 msgid "Current Year"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ano Atual"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ano Atual"
 >>>>>>> upstream/18.0
@@ -12710,7 +13160,11 @@ msgstr "Ano Atual"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.view_hr_leave_allocation_filter
 msgid "Currently Valid"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Atualmente válido"
+>>>>>>> upstream/18.0
 =======
 msgstr "Atualmente válido"
 >>>>>>> upstream/18.0
@@ -12740,7 +13194,11 @@ msgstr "Data"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave__request_date_from_period
 msgid "Date Period Start"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Data de início do período"
+>>>>>>> upstream/18.0
 =======
 msgstr "Data de início do período"
 >>>>>>> upstream/18.0
@@ -12749,7 +13207,11 @@ msgstr "Data de início do período"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_allocation__lastcall
 msgid "Date of the last accrual allocation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Data da última alocação de acúmulo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Data da última alocação de acúmulo"
 >>>>>>> upstream/18.0
@@ -12758,7 +13220,11 @@ msgstr "Data da última alocação de acúmulo"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_allocation__nextcall
 msgid "Date of the next accrual allocation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Data da próxima alocação de acúmulo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Data da próxima alocação de acúmulo"
 >>>>>>> upstream/18.0
@@ -12802,6 +13268,7 @@ msgid ""
 "Value must be at least 1."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #. module: hr_holidays
 #. odoo-javascript
@@ -13266,12 +13733,17 @@ msgstr ""
 #: code:addons/hr_holidays/static/src/views/calendar/common/calendar_common_popover.xml:0
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "Defina o nível máximo de dias negativos que esse tipo de folga pode atingir. "
 "O valor deve ser de pelo menos 1."
 
 #. module: hr_holidays
 #. odoo-javascript
 #: code:addons/hr_holidays/static/src/views/calendar/common/calendar_common_popover.xml:0
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: code:addons/hr_holidays/static/src/views/view_dialog/form_view_dialog.xml:0
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_allocation_view_kanban
@@ -13298,7 +13770,11 @@ msgstr "Departamento"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_report_calendar_view_search
 msgid "Department search"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Busca de departamento"
+>>>>>>> upstream/18.0
 =======
 msgstr "Busca de departamento"
 >>>>>>> upstream/18.0
@@ -13327,7 +13803,11 @@ msgstr "Descrição"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_allocation__name_validity
 msgid "Description with validity"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Descrição com validade"
+>>>>>>> upstream/18.0
 =======
 msgstr "Descrição com validade"
 >>>>>>> upstream/18.0
@@ -13374,6 +13854,11 @@ msgid ""
 "your allocation. Please review this leave if you need it to be changed."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Devido a uma alteração nas folgas globais, %s dias extras foram retirados da "
+"sua alocação. Revise essa licença se precisar que ela seja alterada."
+>>>>>>> upstream/18.0
 =======
 "Devido a uma alteração nas folgas globais, %s dias extras foram retirados da "
 "sua alocação. Revise essa licença se precisar que ela seja alterada."
@@ -13388,6 +13873,12 @@ msgid ""
 "this leave."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Devido a uma alteração nas folgas globais, essa licença não tem mais a "
+"quantidade necessária de alocação disponível e foi definida como recusada. "
+"Revise essa licença."
+>>>>>>> upstream/18.0
 =======
 "Devido a uma alteração nas folgas globais, essa licença não tem mais a "
 "quantidade necessária de alocação disponível e foi definida como recusada. "
@@ -13401,6 +13892,10 @@ msgid ""
 "Due to a change in global time offs, you have been granted %s day(s) back."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Devido a uma alteração nas folgas globais, você recebeu %s dia(s) de volta."
+>>>>>>> upstream/18.0
 =======
 "Devido a uma alteração nas folgas globais, você recebeu %s dia(s) de volta."
 >>>>>>> upstream/18.0
@@ -13416,7 +13911,11 @@ msgstr "Duração"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_report_graph
 msgid "Duration (Days)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Duração (dias)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Duração (dias)"
 >>>>>>> upstream/18.0
@@ -13431,7 +13930,11 @@ msgstr "Duração (Horas)"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_allocation__number_of_days_display
 msgid "Duration (days)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Duração (dias)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Duração (dias)"
 >>>>>>> upstream/18.0
@@ -13440,7 +13943,11 @@ msgstr "Duração (dias)"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_allocation__number_of_hours_display
 msgid "Duration (hours)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Duração (horas)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Duração (horas)"
 >>>>>>> upstream/18.0
@@ -13450,6 +13957,10 @@ msgstr "Duração (horas)"
 msgid "Duration in days. Reference field to use when necessary."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Duração em dias. Campo de referência para ser utilizado quando necessário."
+>>>>>>> upstream/18.0
 =======
 "Duração em dias. Campo de referência para ser utilizado quando necessário."
 >>>>>>> upstream/18.0
@@ -13482,7 +13993,11 @@ msgstr "Funcionário"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave__active_employee
 msgid "Employee Active"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Funcionário ativo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Funcionário ativo"
 >>>>>>> upstream/18.0
@@ -13491,7 +14006,11 @@ msgstr "Funcionário ativo"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave__employee_company_id
 msgid "Employee Company"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Empresa do funcionário"
+>>>>>>> upstream/18.0
 =======
 msgstr "Empresa do funcionário"
 >>>>>>> upstream/18.0
@@ -13517,7 +14036,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_view_kanban_approve_department
 msgid "Employee's image"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Imagem do funcionário"
+>>>>>>> upstream/18.0
 =======
 msgstr "Imagem do funcionário"
 >>>>>>> upstream/18.0
@@ -13538,7 +14061,11 @@ msgstr "Funcionários"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_report_calendar_view_search
 msgid "Employees Off Today"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Funcionários de folga hoje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Funcionários de folga hoje"
 >>>>>>> upstream/18.0
@@ -13567,11 +14094,17 @@ msgid ""
 "        Not Allowed: User cannot request an allocation."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "Solicitações de dias extras permitidas: o usuário pode solicitar uma "
 "alocação para si mesmo.\n"
 "\n"
 "Não permitidas: o usuário não pode solicitar uma alocação."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_holidays
@@ -13588,6 +14121,11 @@ msgid ""
 "the type_request_unit"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Campo que permite ver a duração da alocação em dias ou horas, dependendo do "
+"type_request_unit"
+>>>>>>> upstream/18.0
 =======
 "Campo que permite ver a duração da alocação em dias ou horas, dependendo do "
 "type_request_unit"
@@ -13656,6 +14194,7 @@ msgstr "Ícone do Font awesome ex. fa-tasks"
 #: model:ir.model.fields,help:hr_holidays.field_hr_leave_allocation__number_of_hours_display
 msgid ""
 "For an Accrual Allocation, this field contains the theorical amount of time "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14021,12 +14560,17 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "given to the employee, due to a previous start date, on the first run of the "
 "plan. This can be manually edited."
 msgstr ""
 "Para uma alocação de acúmulo, esse campo contém a quantidade teórica de "
 "tempo dada ao funcionário, devido a uma data de início anterior, na primeira "
 "execução do plano. Isso pode ser editado manualmente."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_holidays
@@ -14063,7 +14607,11 @@ msgstr "Atividades Futuras"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_generate_multi_wizard_view_form
 msgid "Generate Time Off"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gerar folgas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Gerar folgas"
 >>>>>>> upstream/18.0
@@ -14073,7 +14621,11 @@ msgstr "Gerar folgas"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_allocation_generate_multi_wizard_view_form
 msgid "Generate time off allocations for multiple employees"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gerar alocações de folgas para vários funcionários"
+>>>>>>> upstream/18.0
 =======
 msgstr "Gerar alocações de folgas para vários funcionários"
 >>>>>>> upstream/18.0
@@ -14083,7 +14635,11 @@ msgstr "Gerar alocações de folgas para vários funcionários"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_generate_multi_wizard_view_form
 msgid "Generate time off for multiple employees"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gerar folgas para vários funcionários"
+>>>>>>> upstream/18.0
 =======
 msgstr "Gerar folgas para vários funcionários"
 >>>>>>> upstream/18.0
@@ -14093,7 +14649,11 @@ msgstr "Gerar folgas para vários funcionários"
 #: code:addons/hr_holidays/wizard/hr_leave_allocation_generate_multi_wizard.py:0
 msgid "Generated Allocations"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Alocações geradas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Alocações geradas"
 >>>>>>> upstream/18.0
@@ -14103,7 +14663,11 @@ msgstr "Alocações geradas"
 #: code:addons/hr_holidays/wizard/hr_leave_generate_multi_wizard.py:0
 msgid "Generated Time Off"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Folgas geradas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Folgas geradas"
 >>>>>>> upstream/18.0
@@ -14113,7 +14677,11 @@ msgstr "Folgas geradas"
 #: code:addons/hr_holidays/static/src/dashboard/time_off_dashboard.xml:0
 msgid "Grant Time"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Conceder tempo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Conceder tempo"
 >>>>>>> upstream/18.0
@@ -14131,7 +14699,11 @@ msgstr "Agrupar Por"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_type__group_days_leave
 msgid "Group Time Off"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Folga de grupo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Folga de grupo"
 >>>>>>> upstream/18.0
@@ -14145,7 +14717,11 @@ msgstr ""
 #: model:ir.model,name:hr_holidays.model_hr_holidays_summary_employee
 msgid "HR Time Off Summary Report By Employee"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Relatório resumido de folgas do RH por funcionário"
+>>>>>>> upstream/18.0
 =======
 msgstr "Relatório resumido de folgas do RH por funcionário"
 >>>>>>> upstream/18.0
@@ -14156,7 +14732,11 @@ msgstr "Relatório resumido de folgas do RH por funcionário"
 #: model:ir.model.fields.selection,name:hr_holidays.selection__hr_leave_type__request_unit__half_day
 msgid "Half Day"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Meio dia"
+>>>>>>> upstream/18.0
 =======
 msgstr "Meio dia"
 >>>>>>> upstream/18.0
@@ -14170,7 +14750,11 @@ msgstr "Tem acesso de gestor de departamento"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave__has_mandatory_day
 msgid "Has Mandatory Day"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tem dia obrigatório"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tem dia obrigatório"
 >>>>>>> upstream/18.0
@@ -14185,7 +14769,11 @@ msgstr "Tem Mensagem"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_type__has_valid_allocation
 msgid "Has Valid Allocation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tem alocação válida"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tem alocação válida"
 >>>>>>> upstream/18.0
@@ -14325,7 +14913,11 @@ msgid "Hatched"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Incubado"
+>>>>>>> upstream/18.0
 =======
 msgstr "Incubado"
 >>>>>>> upstream/18.0
@@ -14724,7 +15316,11 @@ msgstr "Incubado"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_employee_type_report__holiday_status
 msgid "Holiday Status"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Status de férias"
+>>>>>>> upstream/18.0
 =======
 msgstr "Status de férias"
 >>>>>>> upstream/18.0
@@ -14733,7 +15329,11 @@ msgstr "Status de férias"
 #: model:ir.model,name:hr_holidays.model_report_hr_holidays_report_holidayssummary
 msgid "Holidays Summary Report"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Relatório resumido de feriados/férias"
+>>>>>>> upstream/18.0
 =======
 msgstr "Relatório resumido de feriados/férias"
 >>>>>>> upstream/18.0
@@ -14742,7 +15342,11 @@ msgstr "Relatório resumido de feriados/férias"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave__request_hour_from
 msgid "Hour from"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hora de"
+>>>>>>> upstream/18.0
 =======
 msgstr "Hora de"
 >>>>>>> upstream/18.0
@@ -14751,7 +15355,11 @@ msgstr "Hora de"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave__request_hour_to
 msgid "Hour to"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hora até"
+>>>>>>> upstream/18.0
 =======
 msgstr "Hora até"
 >>>>>>> upstream/18.0
@@ -14890,7 +15498,11 @@ msgid "Hourly"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Por hora"
+>>>>>>> upstream/18.0
 =======
 msgstr "Por hora"
 >>>>>>> upstream/18.0
@@ -15469,7 +16081,11 @@ msgid "Idle"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Inativo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Inativo"
 >>>>>>> upstream/18.0
@@ -15892,6 +16508,11 @@ msgid ""
 "in negative."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Se este campo estiver marcado, a solicitação dos usuários pode exceder os "
+"dias alocados e o saldo pode ficar negativo."
+>>>>>>> upstream/18.0
 =======
 "Se este campo estiver marcado, a solicitação dos usuários pode exceder os "
 "dias alocados e o saldo pode ficar negativo."
@@ -15914,6 +16535,11 @@ msgid ""
 "type without removing it."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Se o campo ativo for definido como falso, ele permitirá que você oculte o "
+"tipo de folga sem removê-la."
+>>>>>>> upstream/18.0
 =======
 "Se o campo ativo for definido como falso, ele permitirá que você oculte o "
 "tipo de folga sem removê-la."
@@ -15925,6 +16551,10 @@ msgid ""
 "If you want to change the number of days you should use the 'period' mode"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Se você quer alterar o número de dias, você deve utilizar o modo 'período'"
+>>>>>>> upstream/18.0
 =======
 "Se você quer alterar o número de dias, você deve utilizar o modo 'período'"
 >>>>>>> upstream/18.0
@@ -15939,7 +16569,11 @@ msgstr "Imediatamente"
 #: code:addons/hr_holidays/models/hr_leave_allocation.py:0
 msgid "Incorrect state for new allocation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Status incorreto para nova alocação"
+>>>>>>> upstream/18.0
 =======
 msgstr "Status incorreto para nova alocação"
 >>>>>>> upstream/18.0
@@ -15954,7 +16588,11 @@ msgstr "É Seguidor"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_allocation__is_name_custom
 msgid "Is Name Custom"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "É nome personalizado"
+>>>>>>> upstream/18.0
 =======
 msgstr "É nome personalizado"
 >>>>>>> upstream/18.0
@@ -15963,7 +16601,11 @@ msgstr "É nome personalizado"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_allocation__is_officer
 msgid "Is Officer"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "É administrador"
+>>>>>>> upstream/18.0
 =======
 msgstr "É administrador"
 >>>>>>> upstream/18.0
@@ -15972,7 +16614,11 @@ msgstr "É administrador"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_type__unpaid
 msgid "Is Unpaid"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Não pago"
+>>>>>>> upstream/18.0
 =======
 msgstr "Não pago"
 >>>>>>> upstream/18.0
@@ -16018,7 +16664,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_type__time_type
 msgid "Kind of Time Off"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tipo de folga"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tipo de folga"
 >>>>>>> upstream/18.0
@@ -16066,7 +16716,11 @@ msgstr "Sair"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave__leave_type_increases_duration
 msgid "Leave Type Increases Duration"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "O tipo de licença aumenta a duração"
+>>>>>>> upstream/18.0
 =======
 msgstr "O tipo de licença aumenta a duração"
 >>>>>>> upstream/18.0
@@ -16211,7 +16865,11 @@ msgid "Legend"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Legenda"
+>>>>>>> upstream/18.0
 =======
 msgstr "Legenda"
 >>>>>>> upstream/18.0
@@ -16611,7 +17269,11 @@ msgstr "Legenda"
 #: code:addons/hr_holidays/static/src/tours/hr_holidays_tour.js:0
 msgid "Let's approve it"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vamos aprovar isso"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vamos aprovar isso"
 >>>>>>> upstream/18.0
@@ -16627,7 +17289,11 @@ msgstr ""
 #: code:addons/hr_holidays/static/src/tours/hr_holidays_tour.js:0
 msgid "Let's go validate it"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vamos validar isso"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vamos validar isso"
 >>>>>>> upstream/18.0
@@ -16637,7 +17303,11 @@ msgstr "Vamos validar isso"
 #: code:addons/hr_holidays/static/src/tours/hr_holidays_tour.js:0
 msgid "Let's try to create a Sick Time Off, select it in the list"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vamos tentar criar uma folga por atestado, selecione a opção na lista"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vamos tentar criar uma folga por atestado, selecione a opção na lista"
 >>>>>>> upstream/18.0
@@ -16776,7 +17446,11 @@ msgid "Levels"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Níveis"
+>>>>>>> upstream/18.0
 =======
 msgstr "Níveis"
 >>>>>>> upstream/18.0
@@ -17203,7 +17877,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_mandatory_day_view_search
 msgid "Mandatory Day"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dia obrigatório"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dia obrigatório"
 >>>>>>> upstream/18.0
@@ -17215,7 +17893,11 @@ msgstr "Dia obrigatório"
 #: model:ir.ui.menu,name:hr_holidays.hr_holidays_mandatory_day_menu_configuration
 msgid "Mandatory Days"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dias obrigatórios"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dias obrigatórios"
 >>>>>>> upstream/18.0
@@ -17236,7 +17918,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_allocation__max_leaves
 msgid "Max Leaves"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Máximo de licenças"
+>>>>>>> upstream/18.0
 =======
 msgstr "Máximo de licenças"
 >>>>>>> upstream/18.0
@@ -17245,7 +17931,11 @@ msgstr "Máximo de licenças"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_holiday_status_view_kanban
 msgid "Max Time Off:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Máximo de folgas:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Máximo de folgas:"
 >>>>>>> upstream/18.0
@@ -17259,7 +17949,11 @@ msgstr "Máximo permitido"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_type__max_allowed_negative
 msgid "Maximum Excess Amount"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Valor máximo de excesso"
+>>>>>>> upstream/18.0
 =======
 msgstr "Valor máximo de excesso"
 >>>>>>> upstream/18.0
@@ -17267,6 +17961,7 @@ msgstr "Valor máximo de excesso"
 #. module: hr_holidays
 #: model:ir.model.fields,help:hr_holidays.field_hr_leave_type__virtual_remaining_leaves
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17564,6 +18259,11 @@ msgstr ""
 msgstr ""
 "Máximo de folgas permitidas - Folgas já tiradas - Folgas aguardando aprovação"
 >>>>>>> upstream/18.0
+=======
+"Maximum Time Off Allowed - Time Off Already Taken - Time Off Waiting Approval"
+msgstr ""
+"Máximo de folgas permitidas - Folgas já tiradas - Folgas aguardando aprovação"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_accrual_level__postpone_max_days
@@ -17582,7 +18282,11 @@ msgstr "Maio"
 #: model_terms:ir.actions.act_window,help:hr_holidays.hr_leave_action_holiday_allocation_id
 msgid "Meet the time off dashboard."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Conheça o painel do app Folga."
+>>>>>>> upstream/18.0
 =======
 msgstr "Conheça o painel do app Folga."
 >>>>>>> upstream/18.0
@@ -17785,7 +18489,11 @@ msgid "Morning"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Manhã"
+>>>>>>> upstream/18.0
 =======
 msgstr "Manhã"
 >>>>>>> upstream/18.0
@@ -18187,7 +18895,11 @@ msgstr "Manhã"
 #: model:ir.actions.act_window,name:hr_holidays.action_hr_leave_generate_multi_wizard
 msgid "Multiple Requests"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Múltiplas solicitações"
+>>>>>>> upstream/18.0
 =======
 msgstr "Múltiplas solicitações"
 >>>>>>> upstream/18.0
@@ -18204,7 +18916,11 @@ msgstr "Prazo da Minha Atividade"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.view_hr_leave_allocation_filter
 msgid "My Allocations"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Minhas alocações"
+>>>>>>> upstream/18.0
 =======
 msgstr "Minhas alocações"
 >>>>>>> upstream/18.0
@@ -18233,7 +18949,11 @@ msgstr "A Minha Equipa"
 #: model:ir.ui.menu,name:hr_holidays.menu_hr_holidays_my_leaves
 msgid "My Time"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Minhas horas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Minhas horas"
 >>>>>>> upstream/18.0
@@ -18257,7 +18977,11 @@ msgstr "Nome"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.edit_holiday_status_form
 msgid "Negative Cap"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Limite negativo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Limite negativo"
 >>>>>>> upstream/18.0
@@ -18273,7 +18997,11 @@ msgstr "Novo"
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "New %(leave_type)s Request created by %(user)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nova solicitação de %(leave_type)s criada por %(user)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nova solicitação de %(leave_type)s criada por %(user)s"
 >>>>>>> upstream/18.0
@@ -18289,7 +19017,11 @@ msgstr "Nova Alocação"
 #: code:addons/hr_holidays/static/src/dashboard/time_off_dashboard.xml:0
 msgid "New Allocation Request"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nova solicitação de alocação"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nova solicitação de alocação"
 >>>>>>> upstream/18.0
@@ -18298,6 +19030,7 @@ msgstr "Nova solicitação de alocação"
 #. odoo-python
 #: code:addons/hr_holidays/models/hr_leave_allocation.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18521,6 +19254,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "New Allocation Request created by %(user)s: %(count)s Days of %"
 "(allocation_type)s"
 msgstr ""
@@ -18598,6 +19333,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18811,7 +19549,11 @@ msgstr "Sem dados ainda!"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_allocation_view_form_manager
 msgid "No limit"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sem limite"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sem limite"
 >>>>>>> upstream/18.0
@@ -18833,6 +19575,11 @@ msgid ""
 "simply not be displayed on the leave dashboard."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Alocações invisíveis ainda podem ser selecionadas ao tirar licença, mas não "
+"serão exibidas no painel de licenças."
+>>>>>>> upstream/18.0
 =======
 "Alocações invisíveis ainda podem ser selecionadas ao tirar licença, mas não "
 "serão exibidas no painel de licenças."
@@ -18899,7 +19646,11 @@ msgstr ""
 #: model:ir.model.fields,help:hr_holidays.field_hr_leave__number_of_days
 msgid "Number of days of the time off request. Used in the calculation."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Número de dias da solicitação de folga. Usado no cálculo."
+>>>>>>> upstream/18.0
 =======
 msgstr "Número de dias da solicitação de folga. Usado no cálculo."
 >>>>>>> upstream/18.0
@@ -18914,7 +19665,11 @@ msgstr "Número de erros"
 #: model:ir.model.fields,help:hr_holidays.field_hr_leave__number_of_hours
 msgid "Number of hours of the time off request. Used in the calculation."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Número de horas da solicitação de folga. Usado no cálculo."
+>>>>>>> upstream/18.0
 =======
 msgstr "Número de horas da solicitação de folga. Usado no cálculo."
 >>>>>>> upstream/18.0
@@ -18942,7 +19697,11 @@ msgstr "Outubro"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_report_calendar_view_search
 msgid "Off Today"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "De folga hoje"
+>>>>>>> upstream/18.0
 =======
 msgstr "De folga hoje"
 >>>>>>> upstream/18.0
@@ -18951,7 +19710,11 @@ msgstr "De folga hoje"
 #: model:res.groups,name:hr_holidays.group_hr_holidays_user
 msgid "Officer: Manage all requests"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Administrador: gerenciar todas as solicitações"
+>>>>>>> upstream/18.0
 =======
 msgstr "Administrador: gerenciar todas as solicitações"
 >>>>>>> upstream/18.0
@@ -18962,7 +19725,11 @@ msgstr "Administrador: gerenciar todas as solicitações"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_employee_view_search
 msgid "On Time Off"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "De folga"
+>>>>>>> upstream/18.0
 =======
 msgstr "De folga"
 >>>>>>> upstream/18.0
@@ -18973,7 +19740,11 @@ msgstr "De folga"
 #: model:ir.model.fields.selection,name:hr_holidays.selection__hr_employee_public__hr_icon_display__presence_holiday_absent
 msgid "On leave"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Em licença"
+>>>>>>> upstream/18.0
 =======
 msgstr "Em licença"
 >>>>>>> upstream/18.0
@@ -19070,8 +19841,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Only %s's Time Off Approver, a time off Officer/Responsible or Administrator"
 " can approve or refuse allocation requests."
+=======
+"Only %s's Time Off Approver, a time off Officer/Responsible or Administrator "
+"can approve or refuse allocation requests."
+>>>>>>> upstream/18.0
 =======
 "Only %s's Time Off Approver, a time off Officer/Responsible or Administrator "
 "can approve or refuse allocation requests."
@@ -19460,8 +20236,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Only a Time Off Officer or Manager can approve/refuse its own requests."
+=======
+msgid "Only a Time Off Officer or Manager can approve/refuse its own requests."
+>>>>>>> upstream/18.0
 =======
 msgid "Only a Time Off Officer or Manager can approve/refuse its own requests."
 >>>>>>> upstream/18.0
@@ -19688,7 +20468,11 @@ msgstr ""
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "Only a manager can modify a canceled leave."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Somente gerentes podem modificar uma licença cancelada."
+>>>>>>> upstream/18.0
 =======
 msgstr "Somente gerentes podem modificar uma licença cancelada."
 >>>>>>> upstream/18.0
@@ -19726,7 +20510,11 @@ msgstr "Outro"
 #: code:addons/hr_holidays/static/src/thread_icon.patch.xml:0
 msgid "Out of office"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fora do escritório"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fora do escritório"
 >>>>>>> upstream/18.0
@@ -19745,7 +20533,11 @@ msgstr "Licença remunerada"
 #: model:hr.leave.type,name:hr_holidays.hr_holiday_status_dv
 msgid "Parental Leaves"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Licenças maternidade/paternidade"
+>>>>>>> upstream/18.0
 =======
 msgstr "Licenças maternidade/paternidade"
 >>>>>>> upstream/18.0
@@ -19755,7 +20547,11 @@ msgstr "Licenças maternidade/paternidade"
 #: code:addons/hr_holidays/static/src/dashboard/time_off_dashboard.xml:0
 msgid "Pending Requests"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Solicitações pendentes"
+>>>>>>> upstream/18.0
 =======
 msgstr "Solicitações pendentes"
 >>>>>>> upstream/18.0
@@ -19906,6 +20702,7 @@ msgid "Planned:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Planeado "
@@ -20254,6 +21051,9 @@ msgstr "Planeado "
 >>>>>>> upstream/18.0
 =======
 msgstr "Planeado "
+>>>>>>> upstream/18.0
+=======
+msgstr "Planeado:"
 >>>>>>> upstream/18.0
 =======
 msgstr "Planeado:"
@@ -20307,7 +21107,11 @@ msgstr "Planeado:"
 #: model:ir.model.fields.selection,name:hr_holidays.selection__hr_employee_public__hr_icon_display__presence_holiday_present
 msgid "Present but on leave"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Presente, mas de licença"
+>>>>>>> upstream/18.0
 =======
 msgstr "Presente, mas de licença"
 >>>>>>> upstream/18.0
@@ -20347,6 +21151,10 @@ msgid ""
 "leaves"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Os feriados devem ser contados na duração da licença ao solicitar licenças"
+>>>>>>> upstream/18.0
 =======
 "Os feriados devem ser contados na duração da licença ao solicitar licenças"
 >>>>>>> upstream/18.0
@@ -20414,7 +21222,11 @@ msgstr "Recusado"
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "Refused Time Off"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Folga recusada"
+>>>>>>> upstream/18.0
 =======
 msgstr "Folga recusada"
 >>>>>>> upstream/18.0
@@ -20424,7 +21236,11 @@ msgstr "Folga recusada"
 #: model:ir.model.fields.selection,name:hr_holidays.selection__hr_leave_allocation_generate_multi_wizard__allocation_type__regular
 msgid "Regular Allocation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Alocação regular"
+>>>>>>> upstream/18.0
 =======
 msgstr "Alocação regular"
 >>>>>>> upstream/18.0
@@ -20454,7 +21270,11 @@ msgstr "A Reportar"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.res_users_view_form
 msgid "Request Allocation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Solicitar alocação"
+>>>>>>> upstream/18.0
 =======
 msgstr "Solicitar alocação"
 >>>>>>> upstream/18.0
@@ -20463,7 +21283,11 @@ msgstr "Solicitar alocação"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave__request_date_to
 msgid "Request End Date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Data final da solicitação"
+>>>>>>> upstream/18.0
 =======
 msgstr "Data final da solicitação"
 >>>>>>> upstream/18.0
@@ -20472,7 +21296,11 @@ msgstr "Data final da solicitação"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave__request_date_from
 msgid "Request Start Date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Data de início da solicitação"
+>>>>>>> upstream/18.0
 =======
 msgstr "Data de início da solicitação"
 >>>>>>> upstream/18.0
@@ -20481,7 +21309,11 @@ msgstr "Data de início da solicitação"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.res_users_view_form
 msgid "Request Time off"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Solicitar folga"
+>>>>>>> upstream/18.0
 =======
 msgstr "Solicitar folga"
 >>>>>>> upstream/18.0
@@ -20525,7 +21357,11 @@ msgstr "Detalhes de Recurso de Ausência"
 #: model:ir.model,name:hr_holidays.model_resource_calendar
 msgid "Resource Working Time"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tempo de trabalho do recurso"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tempo de trabalho do recurso"
 >>>>>>> upstream/18.0
@@ -20546,7 +21382,11 @@ msgstr "Regras"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_allocation_view_form
 msgid "Run until"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Executar até"
+>>>>>>> upstream/18.0
 =======
 msgstr "Executar até"
 >>>>>>> upstream/18.0
@@ -20574,7 +21414,11 @@ msgstr "Guardar"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.view_search_hr_holidays_employee_type_report
 msgid "Search Time Off"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Buscar folga"
+>>>>>>> upstream/18.0
 =======
 msgstr "Buscar folga"
 >>>>>>> upstream/18.0
@@ -20583,7 +21427,11 @@ msgstr "Buscar folga"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.view_holidays_status_filter
 msgid "Search Time Off Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Buscar tipo de folga"
+>>>>>>> upstream/18.0
 =======
 msgstr "Buscar tipo de folga"
 >>>>>>> upstream/18.0
@@ -20592,7 +21440,11 @@ msgstr "Buscar tipo de folga"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.view_hr_leave_allocation_filter
 msgid "Search allocations"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Buscar alocações"
+>>>>>>> upstream/18.0
 =======
 msgstr "Buscar alocações"
 >>>>>>> upstream/18.0
@@ -20640,7 +21492,11 @@ msgstr ""
 #: code:addons/hr_holidays/models/hr_leave_allocation.py:0
 msgid "Second approval request for %(allocation_type)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Segunda solicitação de aprovação para %(allocation_type)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Segunda solicitação de aprovação para %(allocation_type)s"
 >>>>>>> upstream/18.0
@@ -20650,7 +21506,11 @@ msgstr "Segunda solicitação de aprovação para %(allocation_type)s"
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "Second approval request for %(leave_type)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Segunda solicitação de aprovação para %(leave_type)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Segunda solicitação de aprovação para %(leave_type)s"
 >>>>>>> upstream/18.0
@@ -20660,7 +21520,11 @@ msgstr "Segunda solicitação de aprovação para %(leave_type)s"
 #: code:addons/hr_holidays/static/src/tours/hr_holidays_tour.js:0
 msgid "Select Time Off"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Selecionar folga"
+>>>>>>> upstream/18.0
 =======
 msgstr "Selecionar folga"
 >>>>>>> upstream/18.0
@@ -20669,7 +21533,11 @@ msgstr "Selecionar folga"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_holidays_summary_employee__holiday_type
 msgid "Select Time Off Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Selecionar tipo de folga"
+>>>>>>> upstream/18.0
 =======
 msgstr "Selecionar tipo de folga"
 >>>>>>> upstream/18.0
@@ -20679,6 +21547,7 @@ msgstr "Selecionar tipo de folga"
 #: model:ir.model.fields,help:hr_holidays.field_hr_leave_type__allocation_validation_type
 msgid ""
 "Select the level of approval needed in case of request by employee\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -20899,6 +21768,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "            #     - No validation needed: The employee's request is "
 "automatically approved.\n"
 "            #     - Approved by Time Off Officer: The employee's request "
@@ -20975,6 +21846,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -21121,6 +21993,8 @@ msgid ""
 "            #       by the Time Off Officer, Employee's Approver or both."
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "            #       by the Time Off Officer, Employee's Approver or both."
 msgstr ""
 "Selecione o nível de aprovação necessária em caso de solicitação pelo "
@@ -21130,6 +22004,9 @@ msgstr ""
 "# - Aprovado pelo Administrador de Folgas: A solicitação do funcionário "
 "precisa ser aprovada manualmente\n"
 "# pelo Administrador de Folgas, pelo Aprovador do Funcionário ou por ambos."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_holidays
@@ -21137,7 +22014,11 @@ msgstr ""
 #: code:addons/hr_holidays/static/src/tours/hr_holidays_tour.js:0
 msgid "Select the request you just created"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Selecione a solicitação que você acabou de criar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Selecione a solicitação que você acabou de criar"
 >>>>>>> upstream/18.0
@@ -21150,6 +22031,7 @@ msgstr "Selecione a solicitação que você acabou de criar"
 #: model:ir.model.fields,help:hr_holidays.field_res_users__leave_manager_id
 msgid ""
 "Select the user responsible for approving \"Time Off\" of this employee.\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -21514,12 +22396,17 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "If empty, the approval is done by an Administrator or Approver (determined "
 "in settings/users)."
 msgstr ""
 "Selecione o usuário responsável por aprovar \"Folga\" deste funcionário.\n"
 "Se vazio, a aprovação é feita por um administrador ou aprovador (determinado "
 "nas definições/usuários)."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_holidays
@@ -21538,7 +22425,11 @@ msgstr "Sequência"
 #: model:ir.model.fields,help:hr_holidays.field_hr_leave_accrual_level__sequence
 msgid "Sequence is generated automatically by start time delta."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "A sequência é gerada automaticamente pelo delta da hora de início."
+>>>>>>> upstream/18.0
 =======
 msgstr "A sequência é gerada automaticamente pelo delta da hora de início."
 >>>>>>> upstream/18.0
@@ -21547,7 +22438,11 @@ msgstr "A sequência é gerada automaticamente pelo delta da hora de início."
 #: model:ir.model.fields,help:hr_holidays.field_hr_leave_accrual_level__postpone_max_days
 msgid "Set a maximum of accruals an allocation keeps at the end of the year."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Defina um máximo de acréscimos que uma alocação mantém no final do ano."
+>>>>>>> upstream/18.0
 =======
 msgstr "Defina um máximo de acréscimos que uma alocação mantém no final do ano."
 >>>>>>> upstream/18.0
@@ -21574,7 +22469,11 @@ msgstr "Mostrar todos os registos cuja data de ação é anterior à atual"
 #: model:mail.message.subtype,name:hr_holidays.mt_leave_sick
 msgid "Sick Time Off"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Folga por atestado médico"
+>>>>>>> upstream/18.0
 =======
 msgstr "Folga por atestado médico"
 >>>>>>> upstream/18.0
@@ -21585,6 +22484,11 @@ msgstr "Folga por atestado médico"
 msgid "Some leaves cannot be linked to any allocation. To see those leaves,"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Algumas licenças não podem ser vinculadas a nenhuma alocação. Para ver essas "
+"licenças,"
+>>>>>>> upstream/18.0
 =======
 "Algumas licenças não podem ser vinculadas a nenhuma alocação. Para ver essas "
 "licenças,"
@@ -21598,6 +22502,11 @@ msgid ""
 "allocation. Delete or cancel them first."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Alguns dos planos de acúmulo que você está tentando excluir estão vinculados "
+"a uma atribuição existente. Exclua-os ou cancele-os primeiro."
+>>>>>>> upstream/18.0
 =======
 "Alguns dos planos de acúmulo que você está tentando excluir estão vinculados "
 "a uma atribuição existente. Exclua-os ou cancele-os primeiro."
@@ -21607,6 +22516,7 @@ msgstr ""
 #: model:ir.model.fields,help:hr_holidays.field_hr_leave_accrual_plan__time_off_type_id
 msgid ""
 "Specify if this accrual plan can only be used with this Time Off Type.\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -21971,6 +22881,8 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "                Leave empty if this accrual plan can be used with any Time "
 "Off Type."
 msgstr ""
@@ -21978,11 +22890,15 @@ msgstr ""
 "folga.\n"
 "Deixe em branco se esse plano de acumulação puder ser usado com qualquer "
 "tipo de folga."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model:ir.model.fields,help:hr_holidays.field_hr_leave_accrual_plan__transition_mode
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -22063,6 +22979,8 @@ msgid ""
 "                'After this accrual's period' will keep the employee on the same accrual level until the ongoing pay period is complete.\n"
 "                After it is complete, the new level will take effect when the next pay period begins."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -22289,6 +23207,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -22626,7 +23547,11 @@ msgid "Striked"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Riscado"
+>>>>>>> upstream/18.0
 =======
 msgstr "Riscado"
 >>>>>>> upstream/18.0
@@ -23026,7 +23951,11 @@ msgstr "Riscado"
 #: code:addons/hr_holidays/static/src/tours/hr_holidays_tour.js:0
 msgid "Submit your request"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Envie sua solicitação"
+>>>>>>> upstream/18.0
 =======
 msgstr "Envie sua solicitação"
 >>>>>>> upstream/18.0
@@ -23045,7 +23974,11 @@ msgstr "Domingo"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave__supported_attachment_ids_count
 msgid "Supported Attachment Ids Count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Contagem de IDs de anexos comprobatórios"
+>>>>>>> upstream/18.0
 =======
 msgstr "Contagem de IDs de anexos comprobatórios"
 >>>>>>> upstream/18.0
@@ -23056,7 +23989,11 @@ msgstr "Contagem de IDs de anexos comprobatórios"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_view_form
 msgid "Supporting Document"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Documento comprobatório"
+>>>>>>> upstream/18.0
 =======
 msgstr "Documento comprobatório"
 >>>>>>> upstream/18.0
@@ -23066,7 +24003,11 @@ msgstr "Documento comprobatório"
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "Supporting Documents"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Documentos comprobatórios"
+>>>>>>> upstream/18.0
 =======
 msgstr "Documentos comprobatórios"
 >>>>>>> upstream/18.0
@@ -23097,6 +24038,7 @@ msgstr ""
 #. module: hr_holidays
 #. odoo-python
 #: code:addons/hr_holidays/models/hr_leave_allocation.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23394,6 +24336,11 @@ msgid "The Start Date of the Validity Period must be anterior to the End Date."
 msgstr ""
 "A data de início do período de validade deve ser anterior à data de término."
 >>>>>>> upstream/18.0
+=======
+msgid "The Start Date of the Validity Period must be anterior to the End Date."
+msgstr ""
+"A data de início do período de validade deve ser anterior à data de término."
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model:ir.model.fields,help:hr_holidays.field_hr_leave_accrual_level__start_count
@@ -23403,6 +24350,12 @@ msgid ""
 "is used."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"O acúmulo começa após um período definido a partir da data de início da "
+"alocação. Esse campo define o número de dias, meses ou anos após os quais o "
+"acúmulo é usado."
+>>>>>>> upstream/18.0
 =======
 "O acúmulo começa após um período definido a partir da data de início da "
 "alocação. Esse campo define o número de dias, meses ou anos após os quais o "
@@ -23417,6 +24370,12 @@ msgid ""
 "of that type have been taken. You should create a new time off type instead."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"O requisito de alocação de um tipo de folga não pode ser alterado depois que "
+"as folgas desse tipo tiverem sido aplicadas. Em vez disso, o usuário deve "
+"criar um novo tipo de folga."
+>>>>>>> upstream/18.0
 =======
 "O requisito de alocação de um tipo de folga não pode ser alterado depois que "
 "as folgas desse tipo tiverem sido aplicadas. Em vez disso, o usuário deve "
@@ -23430,6 +24389,10 @@ msgid ""
 "The color selected here will be used in every screen with the time off type."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"A cor selecionada aqui será usada em todas as telas com o tipo de folga."
+>>>>>>> upstream/18.0
 =======
 "A cor selecionada aqui será usada em todas as telas com o tipo de folga."
 >>>>>>> upstream/18.0
@@ -23446,6 +24409,11 @@ msgid ""
 "Training) will be used in the computation of Accrual's plan rate."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"A distinção entre tempo de trabalho (ex.: presença) e ausência (ex.: "
+"treinamento) será usada no cálculo da taxa do plano de acumulação."
+>>>>>>> upstream/18.0
 =======
 "A distinção entre tempo de trabalho (ex.: presença) e ausência (ex.: "
 "treinamento) será usada no cálculo da taxa do plano de acumulação."
@@ -23455,7 +24423,11 @@ msgstr ""
 #: model:ir.model.constraint,message:hr_holidays.constraint_hr_leave_allocation_duration_check
 msgid "The duration must be greater than 0."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "A duração deve ser maior que 0."
+>>>>>>> upstream/18.0
 =======
 msgstr "A duração deve ser maior que 0."
 >>>>>>> upstream/18.0
@@ -23474,6 +24446,11 @@ msgid ""
 " %s"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"O seguinte funcionário não deveria trabalhar durante este período:\n"
+"%s"
+>>>>>>> upstream/18.0
 =======
 "O seguinte funcionário não deveria trabalhar durante este período:\n"
 "%s"
@@ -23483,6 +24460,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/hr_holidays/static/src/dashboard/time_off_card.xml:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23848,6 +24826,8 @@ msgid ""
 "                It will not be possible to take all of them."
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "The leaves planned in the future are exceeding the maximum value of the "
 "allocation.\n"
 "                It will not be possible to take all of them."
@@ -23855,6 +24835,9 @@ msgstr ""
 "As licenças planejadas para o futuro estão excedendo o valor máximo da "
 "alocação.\n"
 "Não será possível tirar todas elas."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_holidays
@@ -23864,6 +24847,11 @@ msgid ""
 "disable the negative cap instead."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"O valor máximo de excesso deve ser maior que 0. Se você quiser definir 0, "
+"desative o limite negativo."
+>>>>>>> upstream/18.0
 =======
 "O valor máximo de excesso deve ser maior que 0. Se você quiser definir 0, "
 "desative o limite negativo."
@@ -23876,6 +24864,11 @@ msgid ""
 "carried_over_days_expiration_date"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"O número de dias transferidos que expirarão em "
+"carried_over_days_expiration_date"
+>>>>>>> upstream/18.0
 =======
 "O número de dias transferidos que expirarão em "
 "carried_over_days_expiration_date"
@@ -23890,6 +24883,7 @@ msgstr ""
 
 #. module: hr_holidays
 #: model:ir.model.constraint,message:hr_holidays.constraint_hr_leave_date_check3
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -24183,17 +25177,26 @@ msgid "The request start date must be before or equal to the request end date."
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 msgid "The request start date must be before or equal to the request end date."
 msgstr ""
 "A data de início da solicitação deve ser anterior ou igual à data de término "
 "da solicitação."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model:ir.model.constraint,message:hr_holidays.constraint_hr_leave_mandatory_day_date_from_after_day_to
 msgid "The start date must be anterior than the end date."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "A data inicial deve ser anterior à data final."
+>>>>>>> upstream/18.0
 =======
 msgstr "A data inicial deve ser anterior à data final."
 >>>>>>> upstream/18.0
@@ -24202,7 +25205,11 @@ msgstr "A data inicial deve ser anterior à data final."
 #: model:ir.model.constraint,message:hr_holidays.constraint_hr_leave_date_check2
 msgid "The start date must be before or equal to the end date."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "A data de início deve ser anterior ou igual à data de término."
+>>>>>>> upstream/18.0
 =======
 msgstr "A data de início deve ser anterior ou igual à data de término."
 >>>>>>> upstream/18.0
@@ -24215,12 +25222,18 @@ msgid ""
 "The status is 'Approved', when an allocation request is approved by manager."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "Quando uma solicitação de alocação é criada, o status é \"A aprovar\" .\n"
 "Quando uma solicitação de alocação é recusada pelo gerente, o status é "
 "\"Recusado\".\n"
 "Quando uma solicitação de alocação é aprovada pelo gerente, o status é "
 "\"Aprovado\"."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_holidays
@@ -24237,7 +25250,11 @@ msgstr ""
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "The time off has been automatically approved"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "A folga foi aprovada automaticamente"
+>>>>>>> upstream/18.0
 =======
 msgstr "A folga foi aprovada automaticamente"
 >>>>>>> upstream/18.0
@@ -24254,6 +25271,11 @@ msgid ""
 "The type with the smallest sequence is the default value in time off request"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"O tipo com o menor valor de sequência é o valor padrão na solicitação de "
+"folga"
+>>>>>>> upstream/18.0
 =======
 "O tipo com o menor valor de sequência é o valor padrão na solicitação de "
 "folga"
@@ -24267,6 +25289,11 @@ msgid ""
 "the correct company."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Não há funcionário definido na folga. Certifique-se de ter feito login na "
+"empresa certa."
+>>>>>>> upstream/18.0
 =======
 "Não há funcionário definido na folga. Certifique-se de ter feito login na "
 "empresa certa."
@@ -24277,7 +25304,11 @@ msgstr ""
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "There is no valid allocation to cover that request."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Não há uma alocação válida para cobrir essa solicitação."
+>>>>>>> upstream/18.0
 =======
 msgstr "Não há uma alocação válida para cobrir essa solicitação."
 >>>>>>> upstream/18.0
@@ -24290,6 +25321,7 @@ msgid ""
 "to the days allocated to the employee. If you need to change the "
 "configuration of the allocation, delete and create a new one."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 #. module: hr_holidays
@@ -24586,6 +25618,8 @@ msgid "This area is automatically filled by the user who validate the time off"
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "Como essa alocação já foi executada uma vez, qualquer modificação não terá "
 "efeito sobre os dias alocados ao funcionário. Se você precisar alterar a "
 "configuração da alocação, exclua e crie uma nova."
@@ -24594,11 +25628,15 @@ msgstr ""
 #: model:ir.model.fields,help:hr_holidays.field_hr_leave__first_approver_id
 msgid "This area is automatically filled by the user who validate the time off"
 msgstr "Esta área é automaticamente preenchida pelo usuário que valida a folga"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model:ir.model.fields,help:hr_holidays.field_hr_leave__second_approver_id
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -24964,11 +26002,16 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "This area is automatically filled by the user who validate the time off with "
 "second level (If time off type need second validation)"
 msgstr ""
 "Esta área é automaticamente preenchida pelo usuário que valida a folga em "
 "segundo nível (se o tipo de folga precisar de uma segunda validação)"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_holidays
@@ -24977,6 +26020,10 @@ msgid ""
 "This area is automatically filled by the user who validates the allocation"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Esta área é automaticamente preenchida pelo usuário que valida a alocação"
+>>>>>>> upstream/18.0
 =======
 "Esta área é automaticamente preenchida pelo usuário que valida a alocação"
 >>>>>>> upstream/18.0
@@ -24988,6 +26035,11 @@ msgid ""
 "with second level (If time off type need second validation)"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Essa área é preenchida automaticamente pelo usuário que valida a alocação de "
+"segundo nível (se o tipo de folga precisar de uma segunda validação)"
+>>>>>>> upstream/18.0
 =======
 "Essa área é preenchida automaticamente pelo usuário que valida a alocação de "
 "segundo nível (se o tipo de folga precisar de uma segunda validação)"
@@ -24997,7 +26049,11 @@ msgstr ""
 #: model:ir.model.fields,help:hr_holidays.field_hr_leave_accrual_level__accrual_validity_type
 msgid "This field defines the unit of time after which the accrual ends."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Esse campo define a unidade de tempo após a qual o acúmulo termina."
+>>>>>>> upstream/18.0
 =======
 msgstr "Esse campo define a unidade de tempo após a qual o acúmulo termina."
 >>>>>>> upstream/18.0
@@ -25006,7 +26062,11 @@ msgstr "Esse campo define a unidade de tempo após a qual o acúmulo termina."
 #: model:ir.model.fields,help:hr_holidays.field_hr_leave_accrual_level__start_type
 msgid "This field defines the unit of time after which the accrual starts."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Esse campo define a unidade de tempo após a qual o acúmulo começa."
+>>>>>>> upstream/18.0
 =======
 msgstr "Esse campo define a unidade de tempo após a qual o acúmulo começa."
 >>>>>>> upstream/18.0
@@ -25015,7 +26075,11 @@ msgstr "Esse campo define a unidade de tempo após a qual o acúmulo começa."
 #: model:ir.model.fields,help:hr_holidays.field_hr_leave_type__has_valid_allocation
 msgid "This indicates if it is still possible to use this type of leave"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Isto indica se ainda será possível usar este tipo de folga"
+>>>>>>> upstream/18.0
 =======
 msgstr "Isto indica se ainda será possível usar este tipo de folga"
 >>>>>>> upstream/18.0
@@ -25025,7 +26089,11 @@ msgstr "Isto indica se ainda será possível usar este tipo de folga"
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "This modification is not allowed in the current state."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Esta modificação não é permitida no status atual."
+>>>>>>> upstream/18.0
 =======
 msgstr "Esta modificação não é permitida no status atual."
 >>>>>>> upstream/18.0
@@ -25035,7 +26103,11 @@ msgstr "Esta modificação não é permitida no status atual."
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "This time off cannot be cancelled."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Esta folga não pode ser cancelada."
+>>>>>>> upstream/18.0
 =======
 msgstr "Esta folga não pode ser cancelada."
 >>>>>>> upstream/18.0
@@ -25047,6 +26119,11 @@ msgid ""
 "value."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Este valor é fornecido pela soma de todas as solicitações de folga com um "
+"valor negativo."
+>>>>>>> upstream/18.0
 =======
 "Este valor é fornecido pela soma de todas as solicitações de folga com um "
 "valor negativo."
@@ -25059,6 +26136,11 @@ msgid ""
 "value."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Este valor é fornecido pela soma de todas as solicitações de folga com valor "
+"positivo."
+>>>>>>> upstream/18.0
 =======
 "Este valor é fornecido pela soma de todas as solicitações de folga com valor "
 "positivo."
@@ -25123,7 +26205,11 @@ msgstr "Calendário de Ausências"
 #: model:ir.model.fields,field_description:hr_holidays.field_resource_calendar__associated_leaves_count
 msgid "Time Off Count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Contagem de folgas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Contagem de folgas"
 >>>>>>> upstream/18.0
@@ -25149,6 +26235,7 @@ msgstr "Subtipo de Notificação de Ausência"
 #: model_terms:ir.actions.act_window,help:hr_holidays.hr_leave_allocation_action_approve_department
 #: model_terms:ir.actions.act_window,help:hr_holidays.hr_leave_allocation_action_my
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -25369,6 +26456,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Time Off Officers allocate time off days to employees (e.g. paid time off)."
 "<br>\n"
 "                Employees request allocations to Time Off Officers (e.g. "
@@ -25445,6 +26534,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -25619,7 +26711,11 @@ msgstr "Pedidos de Ausência"
 #: model:res.groups,name:hr_holidays.group_hr_holidays_responsible
 msgid "Time Off Responsible"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Responsável por folgas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Responsável por folgas"
 >>>>>>> upstream/18.0
@@ -25628,7 +26724,11 @@ msgstr "Responsável por folgas"
 #: model:mail.activity.type,name:hr_holidays.mail_act_leave_second_approval
 msgid "Time Off Second Approve"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Segundo aprovador de folga"
+>>>>>>> upstream/18.0
 =======
 msgstr "Segundo aprovador de folga"
 >>>>>>> upstream/18.0
@@ -25643,7 +26743,11 @@ msgstr "Segundo aprovador de folga"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.view_hr_holidays_summary_employee
 msgid "Time Off Summary"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Resumo de folga"
+>>>>>>> upstream/18.0
 =======
 msgstr "Resumo de folga"
 >>>>>>> upstream/18.0
@@ -25653,7 +26757,11 @@ msgstr "Resumo de folga"
 #: model:ir.model,name:hr_holidays.model_hr_leave_report
 msgid "Time Off Summary / Report"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Relatório/resumo de folga"
+>>>>>>> upstream/18.0
 =======
 msgstr "Relatório/resumo de folga"
 >>>>>>> upstream/18.0
@@ -25662,7 +26770,11 @@ msgstr "Relatório/resumo de folga"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_holiday_status_view_kanban
 msgid "Time Off Taken:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Folga tirada:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Folga tirada:"
 >>>>>>> upstream/18.0
@@ -25685,7 +26797,11 @@ msgstr "Folga tirada:"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.view_hr_leave_allocation_filter
 msgid "Time Off Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tipo de folga"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tipo de folga"
 >>>>>>> upstream/18.0
@@ -25696,7 +26812,11 @@ msgstr "Tipo de folga"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.view_holidays_status_filter
 msgid "Time Off Types"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tipos de folga"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tipos de folga"
 >>>>>>> upstream/18.0
@@ -25705,7 +26825,11 @@ msgstr "Tipos de folga"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_type__leave_validation_type
 msgid "Time Off Validation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Validação de folgas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Validação de folgas"
 >>>>>>> upstream/18.0
@@ -25714,7 +26838,11 @@ msgstr "Validação de folgas"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.view_hr_leave_allocation_filter
 msgid "Time Off of Your Team Member"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Folga de membro da sua equipe"
+>>>>>>> upstream/18.0
 =======
 msgstr "Folga de membro da sua equipe"
 >>>>>>> upstream/18.0
@@ -25723,7 +26851,11 @@ msgstr "Folga de membro da sua equipe"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_department__leave_to_approve_count
 msgid "Time Off to Approve"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Folgas a aprovar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Folgas a aprovar"
 >>>>>>> upstream/18.0
@@ -25732,7 +26864,11 @@ msgstr "Folgas a aprovar"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.report_holidayssummary
 msgid "Time Off."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Folga."
+>>>>>>> upstream/18.0
 =======
 msgstr "Folga."
 >>>>>>> upstream/18.0
@@ -25741,7 +26877,11 @@ msgstr "Folga."
 #: model:ir.actions.server,name:hr_holidays.hr_leave_cron_cancel_invalid_ir_actions_server
 msgid "Time Off: Cancel invalid leaves"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Folga: cancelar licenças inválidas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Folga: cancelar licenças inválidas"
 >>>>>>> upstream/18.0
@@ -25750,7 +26890,11 @@ msgstr "Folga: cancelar licenças inválidas"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.view_hr_holidays_filter_report
 msgid "Time off"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Folga"
+>>>>>>> upstream/18.0
 =======
 msgstr "Folga"
 >>>>>>> upstream/18.0
@@ -25759,7 +26903,11 @@ msgstr "Folga"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_type__leaves_taken
 msgid "Time off Already Taken"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Folga já tirada"
+>>>>>>> upstream/18.0
 =======
 msgstr "Folga já tirada"
 >>>>>>> upstream/18.0
@@ -25774,7 +26922,11 @@ msgstr "Análise de licença por funcionário e tipo de licença"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_report_pivot
 msgid "Time off Summary"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Resumo de folgas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Resumo de folgas"
 >>>>>>> upstream/18.0
@@ -25783,7 +26935,11 @@ msgstr "Resumo de folgas"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_allocation__leaves_taken
 msgid "Time off Taken"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Folga tirada"
+>>>>>>> upstream/18.0
 =======
 msgstr "Folga tirada"
 >>>>>>> upstream/18.0
@@ -25793,7 +26949,11 @@ msgstr "Folga tirada"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.view_hr_leave_allocation_filter
 msgid "Time off of people you are manager of"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Folga de pessoas das quais você é gerente"
+>>>>>>> upstream/18.0
 =======
 msgstr "Folga de pessoas das quais você é gerente"
 >>>>>>> upstream/18.0
@@ -25817,6 +26977,11 @@ msgstr ""
 msgid "Time off request must be confirmed or validated in order to refuse it."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Solicitações de folgas devem estar confirmadas ou validadas para que possam "
+"ser recusadas."
+>>>>>>> upstream/18.0
 =======
 "Solicitações de folgas devem estar confirmadas ou validadas para que possam "
 "ser recusadas."
@@ -25862,7 +27027,11 @@ msgstr "Por Aprovar"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.view_hr_leave_allocation_filter
 msgid "To Approve or Approved Allocations"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Alocações a aprovar ou aprovadas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Alocações a aprovar ou aprovadas"
 >>>>>>> upstream/18.0
@@ -25893,7 +27062,11 @@ msgstr "Atividades do Dia"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_employee_public__allocations_count
 msgid "Total number of allocations"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Número total de alocações"
+>>>>>>> upstream/18.0
 =======
 msgstr "Número total de alocações"
 >>>>>>> upstream/18.0
@@ -25905,7 +27078,11 @@ msgstr "Número total de alocações"
 #: model:ir.model.fields,field_description:hr_holidays.field_res_users__allocation_count
 msgid "Total number of days allocated."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Número total de dias alocados."
+>>>>>>> upstream/18.0
 =======
 msgstr "Número total de dias alocados."
 >>>>>>> upstream/18.0
@@ -25916,6 +27093,7 @@ msgstr "Número total de dias alocados."
 #: model:ir.model.fields,help:hr_holidays.field_hr_employee_public__remaining_leaves
 msgid ""
 "Total number of paid time off allocated to this employee, change this value "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -26283,13 +27461,21 @@ msgid ""
 "to create allocation/time off request. Total based on all the time off types "
 "without overriding limit."
 >>>>>>> upstream/18.0
+=======
+"to create allocation/time off request. Total based on all the time off types "
+"without overriding limit."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_holidays
 #: model:hr.leave.type,name:hr_holidays.holiday_status_training
 msgid "Training Time Off"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Folga de treinamento"
+>>>>>>> upstream/18.0
 =======
 msgstr "Folga de treinamento"
 >>>>>>> upstream/18.0
@@ -26301,6 +27487,11 @@ msgid ""
 "search bar."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Tente adicionar alguns registros ou certifique-se de que não haja nenhum "
+"filtro ativo na barra de pesquisa."
+>>>>>>> upstream/18.0
 =======
 "Tente adicionar alguns registros ou certifique-se de que não haja nenhum "
 "filtro ativo na barra de pesquisa."
@@ -26315,7 +27506,11 @@ msgstr "Terça-Feira"
 #: model:ir.model.fields.selection,name:hr_holidays.selection__hr_leave_accrual_level__frequency__bimonthly
 msgid "Twice a month"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Duas vezes por mês"
+>>>>>>> upstream/18.0
 =======
 msgstr "Duas vezes por mês"
 >>>>>>> upstream/18.0
@@ -26324,7 +27519,11 @@ msgstr "Duas vezes por mês"
 #: model:ir.model.fields.selection,name:hr_holidays.selection__hr_leave_accrual_level__frequency__biyearly
 msgid "Twice a year"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Duas vezes por ano"
+>>>>>>> upstream/18.0
 =======
 msgstr "Duas vezes por ano"
 >>>>>>> upstream/18.0
@@ -26336,6 +27535,10 @@ msgid ""
 "Two public holidays cannot overlap each other for the same working hours."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Dois feriados não podem sobrepor-se durante o mesmo horário de trabalho."
+>>>>>>> upstream/18.0
 =======
 "Dois feriados não podem sobrepor-se durante o mesmo horário de trabalho."
 >>>>>>> upstream/18.0
@@ -26350,7 +27553,11 @@ msgstr "Tipo"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_allocation__type_request_unit
 msgid "Type Request Unit"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Unidade do tipo de solicitação"
+>>>>>>> upstream/18.0
 =======
 msgstr "Unidade do tipo de solicitação"
 >>>>>>> upstream/18.0
@@ -26495,7 +27702,11 @@ msgid "Tz"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fuso horário"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fuso horário"
 >>>>>>> upstream/18.0
@@ -26894,7 +28105,11 @@ msgstr "Fuso horário"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave__tz_mismatch
 msgid "Tz Mismatch"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Incompatibilidade de fuso horário"
+>>>>>>> upstream/18.0
 =======
 msgstr "Incompatibilidade de fuso horário"
 >>>>>>> upstream/18.0
@@ -27033,7 +28248,11 @@ msgid "Unlimited"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ilimitado"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ilimitado"
 >>>>>>> upstream/18.0
@@ -27448,7 +28667,11 @@ msgstr "Mensagens Não Lidas"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_accrual_level_view_form
 msgid "Up to"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Até"
+>>>>>>> upstream/18.0
 =======
 msgstr "Até"
 >>>>>>> upstream/18.0
@@ -27466,7 +28689,11 @@ msgstr "Utilizador"
 #: code:addons/hr_holidays/static/src/im_status_patch.xml:0
 msgid "User is idle"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "O usuário está inativo"
+>>>>>>> upstream/18.0
 =======
 msgstr "O usuário está inativo"
 >>>>>>> upstream/18.0
@@ -27478,7 +28705,11 @@ msgstr "O usuário está inativo"
 #: code:addons/hr_holidays/static/src/im_status_patch.xml:0
 msgid "User is online"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "O usuário está online"
+>>>>>>> upstream/18.0
 =======
 msgstr "O usuário está online"
 >>>>>>> upstream/18.0
@@ -27490,7 +28721,11 @@ msgstr "O usuário está online"
 #: code:addons/hr_holidays/static/src/im_status_patch.xml:0
 msgid "User is out of office"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "O usuário está fora do escritório"
+>>>>>>> upstream/18.0
 =======
 msgstr "O usuário está fora do escritório"
 >>>>>>> upstream/18.0
@@ -27520,7 +28755,11 @@ msgstr "Validado"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_allocation__validation_type
 msgid "Validation Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tipo de validação"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tipo de validação"
 >>>>>>> upstream/18.0
@@ -27539,7 +28778,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_allocation_view_form_manager
 msgid "Validity Period"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Período de validade"
+>>>>>>> upstream/18.0
 =======
 msgstr "Período de validade"
 >>>>>>> upstream/18.0
@@ -27548,7 +28791,11 @@ msgstr "Período de validade"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_allocation_view_tree
 msgid "Validity Start"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Início da validade"
+>>>>>>> upstream/18.0
 =======
 msgstr "Início da validade"
 >>>>>>> upstream/18.0
@@ -27557,7 +28804,11 @@ msgstr "Início da validade"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_allocation_view_tree
 msgid "Validity Stop"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fim da validade"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fim da validade"
 >>>>>>> upstream/18.0
@@ -27566,7 +28817,11 @@ msgstr "Fim da validade"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_type__virtual_remaining_leaves
 msgid "Virtual Remaining Time Off"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Folga virtual restante"
+>>>>>>> upstream/18.0
 =======
 msgstr "Folga virtual restante"
 >>>>>>> upstream/18.0
@@ -27583,7 +28838,11 @@ msgstr "A Aguardar Aprovação"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.view_hr_leave_allocation_filter
 msgid "Waiting For Me"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aguardando por mim"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aguardando por mim"
 >>>>>>> upstream/18.0
@@ -27599,7 +28858,11 @@ msgstr "A Aguardar Segunda Aprovação"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_report_calendar_view_search
 msgid "Waiting for Approval"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aguardando aprovação"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aguardando aprovação"
 >>>>>>> upstream/18.0
@@ -27642,6 +28905,11 @@ msgid ""
 "plan will never exceed the specified amount."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Com o campo marcado, o saldo de uma alocação que usa esse plano de acúmulo "
+"nunca excederá o valor especificado."
+>>>>>>> upstream/18.0
 =======
 "Com o campo marcado, o saldo de uma alocação que usa esse plano de acúmulo "
 "nunca excederá o valor especificado."
@@ -27654,6 +28922,11 @@ msgid ""
 "at the specified amount"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Com o campo marcado, o valor total acumulado a cada ano será limitado ao "
+"valor especificado"
+>>>>>>> upstream/18.0
 =======
 "Com o campo marcado, o valor total acumulado a cada ano será limitado ao "
 "valor especificado"
@@ -27663,7 +28936,11 @@ msgstr ""
 #: model:ir.model.fields.selection,name:hr_holidays.selection__hr_leave_type__time_type__other
 msgid "Worked Time"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tempo trabalhado"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tempo trabalhado"
 >>>>>>> upstream/18.0
@@ -27835,7 +29112,11 @@ msgid "Years"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "aceite"
+>>>>>>> upstream/18.0
 =======
 msgstr "aceite"
 >>>>>>> upstream/18.0
@@ -28322,7 +29603,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "              No Limit: Time Off requests can be taken without any prior allocation."
+=======
+"              No Limit: Time Off requests can be taken without any prior "
+"allocation."
+>>>>>>> upstream/18.0
 =======
 "              No Limit: Time Off requests can be taken without any prior "
 "allocation."
@@ -28622,7 +29908,11 @@ msgstr ""
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "You are not allowed to request time off on a Mandatory Day"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Não é permitido solicitar uma folga em um dia obrigatório"
+>>>>>>> upstream/18.0
 =======
 msgstr "Não é permitido solicitar uma folga em um dia obrigatório"
 >>>>>>> upstream/18.0
@@ -28630,6 +29920,7 @@ msgstr "Não é permitido solicitar uma folga em um dia obrigatório"
 #. module: hr_holidays
 #: model:ir.model.fields,help:hr_holidays.field_hr_leave_accrual_level__accrual_validity_count
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -28923,17 +30214,26 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "You can define a period of time where the days carried over will be available"
 msgstr ""
 "Você pode definir um período de tempo em que os dias transferidos estarão "
 "disponíveis"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model:ir.model.constraint,message:hr_holidays.constraint_hr_leave_accrual_level_start_count_check
 msgid "You can not start an accrual in the past."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Não é possível iniciar um acúmulo no passado."
+>>>>>>> upstream/18.0
 =======
 msgstr "Não é possível iniciar um acúmulo no passado."
 >>>>>>> upstream/18.0
@@ -28964,6 +30264,11 @@ msgid ""
 "You cannot delete an allocation request which has some validated leaves."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Não é possível excluir uma solicitação de alocação que tenha algumas "
+"licenças validadas."
+>>>>>>> upstream/18.0
 =======
 "Não é possível excluir uma solicitação de alocação que tenha algumas "
 "licenças validadas."
@@ -28974,7 +30279,11 @@ msgstr ""
 #: code:addons/hr_holidays/models/hr_leave_allocation.py:0
 msgid "You cannot delete an allocation request which is in %s state."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Não é possível excluir uma solicitação de alocação com status %s."
+>>>>>>> upstream/18.0
 =======
 msgstr "Não é possível excluir uma solicitação de alocação com status %s."
 >>>>>>> upstream/18.0
@@ -28983,6 +30292,7 @@ msgstr "Não é possível excluir uma solicitação de alocação com status %s.
 #. odoo-python
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -29348,16 +30658,22 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "You cannot first approve a time off for %s, because you are not his time off "
 "manager"
 msgstr ""
 "Não é possível aprovar primeiro uma folga para %s porque você não é gerente "
 "de folga dessa pessoa"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #. odoo-python
 #: code:addons/hr_holidays/models/hr_leave_accrual_plan_level.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -29652,6 +30968,9 @@ msgid "You cannot have a cap on accrued time without setting a maximum amount."
 =======
 msgid "You cannot have a cap on accrued time without setting a maximum amount."
 >>>>>>> upstream/18.0
+=======
+msgid "You cannot have a cap on accrued time without setting a maximum amount."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_holidays
@@ -29661,6 +30980,11 @@ msgid ""
 "amount."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Não é possível ter um limite para o tempo acumulado anualmente sem definir "
+"um valor máximo."
+>>>>>>> upstream/18.0
 =======
 "Não é possível ter um limite para o tempo acumulado anualmente sem definir "
 "um valor máximo."
@@ -29676,17 +31000,24 @@ msgid ""
 "affected by this change."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "Não é possível modificar a configuração \"Feriado público incluído\", pois "
 "uma ou mais licenças para esse tipo de folga estão coincidindo com feriados "
 "públicos, o que significa que o saldo desses funcionários seria afetado por "
 "essa alteração."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #. odoo-python
 #: code:addons/hr_holidays/models/hr_leave_allocation.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -30060,11 +31391,16 @@ msgid ""
 "taken leaves for it. Please refuse or delete those leaves first."
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "You cannot reduce the duration below the duration of leaves already taken by "
 "the employee."
 msgstr ""
 "Você não pode reduzir a duração abaixo da duração das licenças já tiradas "
 "pelo funcionário."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_holidays
@@ -30144,7 +31480,10 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -30369,6 +31708,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -30515,10 +31855,15 @@ msgid ""
 "You don't have the rights to apply second approval on a time off request"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "You don't have the rights to apply second approval on a time off request"
 msgstr ""
 "Você não tem permissões para aplicar uma segunda aprovação em uma "
 "solicitação de folga"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_holidays
@@ -30555,6 +31900,10 @@ msgstr ""
 msgid "You must give a rate greater than 0 in accrual plan levels."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Você deve fornecer uma taxa maior que 0 nos níveis do plano de acumulação."
+>>>>>>> upstream/18.0
 =======
 "Você deve fornecer uma taxa maior que 0 nos níveis do plano de acumulação."
 >>>>>>> upstream/18.0
@@ -30563,6 +31912,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -30856,10 +32206,15 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "You must have manager rights to modify/validate a time off that already begun"
 msgstr ""
 "Você deve ter permissões de gerente para modificar/validar uma folga que já "
 "iniciou"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_holidays
@@ -30868,6 +32223,7 @@ msgstr ""
 msgid ""
 "You've already booked time off which overlaps with this period:\n"
 "%s\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -31234,6 +32590,10 @@ msgid ""
 "Attempting to double-book your time off won't magically make your vacation "
 "2x better!\n"
 >>>>>>> upstream/18.0
+=======
+"Attempting to double-book your time off won't magically make your vacation "
+"2x better!\n"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_holidays
@@ -31241,7 +32601,11 @@ msgstr ""
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "Your %(leave_type)s planned on %(date)s has been accepted"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sua %(leave_type)s planejada em %(date)s foi aceita"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sua %(leave_type)s planejada em %(date)s foi aceita"
 >>>>>>> upstream/18.0
@@ -31251,7 +32615,11 @@ msgstr "Sua %(leave_type)s planejada em %(date)s foi aceita"
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "Your %(leave_type)s planned on %(date)s has been refused"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sua %(leave_type)s planejada em %(date)s foi recusada"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sua %(leave_type)s planejada em %(date)s foi recusada"
 >>>>>>> upstream/18.0
@@ -31261,7 +32629,11 @@ msgstr "Sua %(leave_type)s planejada em %(date)s foi recusada"
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "Your Time Off"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sua folga"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sua folga"
 >>>>>>> upstream/18.0
@@ -31271,7 +32643,11 @@ msgstr "Sua folga"
 #: code:addons/hr_holidays/wizard/hr_holidays_cancel_leave.py:0
 msgid "Your time off has been cancelled."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sua folga foi cancelada."
+>>>>>>> upstream/18.0
 =======
 msgstr "Sua folga foi cancelada."
 >>>>>>> upstream/18.0
@@ -31410,7 +32786,11 @@ msgid "after"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "após"
+>>>>>>> upstream/18.0
 =======
 msgstr "após"
 >>>>>>> upstream/18.0
@@ -31847,7 +33227,11 @@ msgstr "por Tipo"
 #: code:addons/hr_holidays/static/src/dashboard/time_off_card.xml:0
 msgid "can be used before the allocation expires."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "podem ser usados antes que a alocação expire."
+>>>>>>> upstream/18.0
 =======
 msgstr "podem ser usados antes que a alocação expire."
 >>>>>>> upstream/18.0
@@ -31857,7 +33241,11 @@ msgstr "podem ser usados antes que a alocação expire."
 #: code:addons/hr_holidays/static/src/dashboard/time_off_card.xml:0
 msgid "click here"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "clique aqui"
+>>>>>>> upstream/18.0
 =======
 msgstr "clique aqui"
 >>>>>>> upstream/18.0
@@ -32024,7 +33412,11 @@ msgid "days)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "dias)"
+>>>>>>> upstream/18.0
 =======
 msgstr "dias)"
 >>>>>>> upstream/18.0
@@ -32423,7 +33815,11 @@ msgstr "dias)"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_generate_multi_wizard_view_form
 msgid "e.g. Extra recuperation, Company unavailability, ..."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ex.: recuperação extra, indisponibilidade da empresa…"
+>>>>>>> upstream/18.0
 =======
 msgstr "ex.: recuperação extra, indisponibilidade da empresa…"
 >>>>>>> upstream/18.0
@@ -32435,6 +33831,10 @@ msgstr "ex.: recuperação extra, indisponibilidade da empresa…"
 msgid "e.g. Time Off type (From validity start to validity end / no limit)"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ex., Tipo de folga (do início da validade ao fim da validade/sem limite)"
+>>>>>>> upstream/18.0
 =======
 "ex., Tipo de folga (do início da validade ao fim da validade/sem limite)"
 >>>>>>> upstream/18.0
@@ -32580,7 +33980,11 @@ msgid "hour(s)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "hora(s)"
+>>>>>>> upstream/18.0
 =======
 msgstr "hora(s)"
 >>>>>>> upstream/18.0
@@ -33124,7 +34528,11 @@ msgid "initially"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "inicialmente"
+>>>>>>> upstream/18.0
 =======
 msgstr "inicialmente"
 >>>>>>> upstream/18.0
@@ -33530,7 +34938,11 @@ msgstr ""
 #: code:addons/hr_holidays/static/src/dashboard/time_off_card.xml:0
 msgid "new request"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "nova solicitação"
+>>>>>>> upstream/18.0
 =======
 msgstr "nova solicitação"
 >>>>>>> upstream/18.0
@@ -33555,7 +34967,11 @@ msgstr "do"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_accrual_level_view_form
 msgid "of the month"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "do mês"
+>>>>>>> upstream/18.0
 =======
 msgstr "do mês"
 >>>>>>> upstream/18.0
@@ -33571,7 +34987,11 @@ msgstr "de"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_accrual_plan_view_form
 msgid "on the"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "no dia"
+>>>>>>> upstream/18.0
 =======
 msgstr "no dia"
 >>>>>>> upstream/18.0
@@ -33711,7 +35131,11 @@ msgid "refused"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "recusado"
+>>>>>>> upstream/18.0
 =======
 msgstr "recusado"
 >>>>>>> upstream/18.0
@@ -34240,7 +35664,11 @@ msgid "sequence"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "sequência"
+>>>>>>> upstream/18.0
 =======
 msgstr "sequência"
 >>>>>>> upstream/18.0
@@ -34770,7 +36198,11 @@ msgid "taken"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "usado"
+>>>>>>> upstream/18.0
 =======
 msgstr "usado"
 >>>>>>> upstream/18.0
@@ -35170,7 +36602,11 @@ msgstr "usado"
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "the accruated amount is insufficient for that duration."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "o valor acumulado é insuficiente para essa duração."
+>>>>>>> upstream/18.0
 =======
 msgstr "o valor acumulado é insuficiente para essa duração."
 >>>>>>> upstream/18.0
@@ -35195,7 +36631,11 @@ msgstr ""
 #: code:addons/hr_holidays/static/src/dashboard/time_off_card.xml:0
 msgid "valid until"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "válido até"
+>>>>>>> upstream/18.0
 =======
 msgstr "válido até"
 >>>>>>> upstream/18.0
@@ -35334,7 +36774,11 @@ msgid "validate"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "validar"
+>>>>>>> upstream/18.0
 =======
 msgstr "validar"
 >>>>>>> upstream/18.0
@@ -35864,7 +37308,11 @@ msgid "validated"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "validado"
+>>>>>>> upstream/18.0
 =======
 msgstr "validado"
 >>>>>>> upstream/18.0

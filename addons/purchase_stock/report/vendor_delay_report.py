@@ -25,6 +25,7 @@ class VendorDelayReport(models.Model):
 CREATE OR replace VIEW vendor_delay_report AS(
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 SELECT m.id                     AS id,
        m.date                   AS date,
        m.purchase_line_id       AS purchase_line_id,
@@ -35,6 +36,8 @@ SELECT m.id                     AS id,
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 SELECT pol.id                   AS id,
        Min(m.date)              AS date,
        pol.id                   AS purchase_line_id,
@@ -43,6 +46,9 @@ SELECT pol.id                   AS id,
        pol.partner_id           AS partner_id,
        pol.product_uom_qty      AS qty_total,
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -55,8 +61,11 @@ FROM   stock_move m
          ON pol.id = m.purchase_line_id
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
        JOIN purchase_order po
          ON po.id = pol.order_id
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -75,7 +84,11 @@ FROM   stock_move m
          ON ml_uom.id = ml.product_uom_id
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 GROUP  BY m.id
+=======
+GROUP  BY pol.id
+>>>>>>> upstream/18.0
 =======
 GROUP  BY pol.id
 >>>>>>> upstream/18.0
