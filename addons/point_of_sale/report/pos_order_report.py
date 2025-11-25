@@ -121,7 +121,11 @@ class PosOrderReport(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     (array_agg(pm.payment_method_id))[1] AS payment_method_id
+=======
+                    (array_agg(pm.payment_method_id ORDER BY pm.id ASC))[1] AS payment_method_id
+>>>>>>> upstream/18.0
 =======
                     (array_agg(pm.payment_method_id ORDER BY pm.id ASC))[1] AS payment_method_id
 >>>>>>> upstream/18.0

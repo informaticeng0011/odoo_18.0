@@ -48,6 +48,7 @@ import { describe, expect, test } from "@odoo/hoot";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { tick } from "@odoo/hoot-mock";
 import { setupEditor, testEditor } from "../_helpers/editor";
 import { unformat } from "../_helpers/format";
@@ -55,6 +56,8 @@ import { bold, resetSize, setColor } from "../_helpers/user_actions";
 import { getContent } from "../_helpers/selection";
 import { queryAll } from "@odoo/hoot-dom";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -206,6 +209,9 @@ import { nodeSize } from "@html_editor/utils/position";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -339,6 +345,61 @@ describe("custom selection", () => {
         expect(overlayColorTDs[1]).not.toBe("none");
         expect(overlayColorTDs[2]).not.toBe("none");
     });
+<<<<<<< HEAD
+=======
+    test("should not deselect cells while resizing table", async () => {
+        const content = unformat(`
+            <table class="table table-bordered o_table">
+                <tbody>
+                    <tr>
+                        <td>
+                            <p>[<br></p>
+                        </td>
+                        <td><p><br>]</p></td>
+                    </tr>
+                    <tr>
+                        <td><p><br></p></td>
+                        <td><p><br></p></td>
+                    </tr>
+                </tbody>
+            </table>
+        `);
+
+        const { el } = await setupEditor(content);
+        await tick();
+
+        const firstTd = el.querySelector("td");
+        expect(firstTd).toHaveClass("o_selected_td");
+        const initialCellWidth = firstTd.clientWidth;
+
+        const cellRect = firstTd.getBoundingClientRect();
+        const clientX = cellRect.right;
+        const clientY = cellRect.top + cellRect.height / 2;
+
+        // Simulate mousedown at the right border of first cell.
+        await manuallyDispatchProgrammaticEvent(firstTd, "mousedown", {
+            detail: 1,
+            clientX,
+            clientY,
+        });
+
+        // Simulate mousemove to resize cell.
+        manuallyDispatchProgrammaticEvent(firstTd, "mousemove", {
+            detail: 1,
+            clientX: clientX + 100,
+            clientY,
+        });
+        manuallyDispatchProgrammaticEvent(firstTd, "mouseup", {
+            detail: 1,
+            clientX: clientX + 100,
+            clientY,
+        });
+        await animationFrame();
+
+        expect(firstTd.clientWidth).not.toBe(initialCellWidth); // Resize worked
+        expect(firstTd).toHaveClass("o_selected_td");
+    });
+>>>>>>> upstream/18.0
 });
 
 describe("select a full table on cross over", () => {
@@ -711,8 +772,11 @@ describe("select a full table on cross over", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 stepFunction: setColor("aquamarine", "color"),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1181,6 +1245,9 @@ describe("select a full table on cross over", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1735,7 +1802,10 @@ describe("select a full table on cross over", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1897,6 +1967,7 @@ describe("single cell selection", () => {
         await animationFrame();
         expect(firstTd).not.toHaveClass("o_selected_td");
     });
+<<<<<<< HEAD
 });
 
 <<<<<<< HEAD
@@ -2043,6 +2114,54 @@ describe("single cell selection", () => {
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+    test("shift + click should correctly extend selection inside a cell", async () => {
+        const content = unformat(`
+            <table class="table table-bordered o_table">
+                <tbody>
+                    <tr>
+                        <td>
+                            <p>ab[]cde</p>
+                        </td>
+                        <td><p><br></p></td>
+                    </tr>
+                    <tr>
+                        <td><p><br></p></td>
+                        <td><p><br></p></td>
+                    </tr>
+                </tbody>
+            </table>
+        `);
+
+        const { el, editor } = await setupEditor(content);
+        const firstTd = el.querySelector("td");
+        const firstP = firstTd.firstElementChild;
+        const textNode = firstP.firstChild;
+        const targetOffset = 4; // abcd[]e
+
+        // Dispatch mousedown between "d" and "e"
+        const range = document.createRange();
+        range.setStart(textNode, targetOffset);
+        range.setEnd(textNode, targetOffset);
+        const rangeRect = range.getBoundingClientRect();
+
+        await manuallyDispatchProgrammaticEvent(firstP, "mousedown", {
+            detail: 1,
+            clientX: rangeRect.right,
+            clientY: rangeRect.top,
+            shiftKey: true,
+        });
+
+        // Simulate shift + mousedown to extend selection.
+        const selection = editor.document.getSelection();
+        selection.extend(textNode, targetOffset);
+        await tick();
+
+        expect(getContent(firstTd)).toBe("<p>ab[cd]e</p>");
+    });
+});
+
 >>>>>>> upstream/18.0
 describe("select columns on cross over", () => {
     describe("select", () => {

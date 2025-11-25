@@ -152,7 +152,11 @@ export class HootConfigMenu extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     class="appearance-none border border-primary rounded-sm w-4 h-4"
+=======
+                    class="appearance-none border border-primary rounded-xs w-4 h-4"
+>>>>>>> upstream/18.0
 =======
                     class="appearance-none border border-primary rounded-xs w-4 h-4"
 >>>>>>> upstream/18.0
@@ -299,7 +303,11 @@ export class HootConfigMenu extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     class="appearance-none border border-primary rounded-sm w-4 h-4"
+=======
+                    class="appearance-none border border-primary rounded-xs w-4 h-4"
+>>>>>>> upstream/18.0
 =======
                     class="appearance-none border border-primary rounded-xs w-4 h-4"
 >>>>>>> upstream/18.0
@@ -458,7 +466,11 @@ export class HootConfigMenu extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     class="appearance-none border border-primary rounded-sm w-4 h-4"
+=======
+                    class="appearance-none border border-primary rounded-xs w-4 h-4"
+>>>>>>> upstream/18.0
 =======
                     class="appearance-none border border-primary rounded-xs w-4 h-4"
 >>>>>>> upstream/18.0
@@ -623,7 +635,11 @@ export class HootConfigMenu extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     class="appearance-none border border-primary rounded-sm w-4 h-4"
+=======
+                    class="appearance-none border border-primary rounded-xs w-4 h-4"
+>>>>>>> upstream/18.0
 =======
                     class="appearance-none border border-primary rounded-xs w-4 h-4"
 >>>>>>> upstream/18.0
@@ -810,7 +826,11 @@ export class HootConfigMenu extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     class="appearance-none border border-primary rounded-sm w-4 h-4"
+=======
+                    class="appearance-none border border-primary rounded-xs w-4 h-4"
+>>>>>>> upstream/18.0
 =======
                     class="appearance-none border border-primary rounded-xs w-4 h-4"
 >>>>>>> upstream/18.0
@@ -957,7 +977,11 @@ export class HootConfigMenu extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     class="appearance-none border border-primary rounded-sm w-4 h-4"
+=======
+                    class="appearance-none border border-primary rounded-xs w-4 h-4"
+>>>>>>> upstream/18.0
 =======
                     class="appearance-none border border-primary rounded-xs w-4 h-4"
 >>>>>>> upstream/18.0

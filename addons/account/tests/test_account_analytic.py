@@ -87,7 +87,10 @@ class TestAccountAnalyticAccount(AccountTestInvoicingCommon, AnalyticCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -329,6 +332,9 @@ class TestAccountAnalyticAccount(AccountTestInvoicingCommon, AnalyticCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -557,7 +563,10 @@ class TestAccountAnalyticAccount(AccountTestInvoicingCommon, AnalyticCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -782,6 +791,9 @@ class TestAccountAnalyticAccount(AccountTestInvoicingCommon, AnalyticCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1033,10 +1045,13 @@ class TestAccountAnalyticAccount(AccountTestInvoicingCommon, AnalyticCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         def get_analytic_lines():
             return self.env['account.analytic.line'].search([
                 ('move_line_id', 'in', out_invoice.line_ids.ids)
             ]).sorted('amount')
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1278,7 +1293,11 @@ class TestAccountAnalyticAccount(AccountTestInvoicingCommon, AnalyticCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertRecordValues(get_analytic_lines(), [{
+=======
+        self.assertRecordValues(self.get_analytic_lines(out_invoice), [{
+>>>>>>> upstream/18.0
 =======
         self.assertRecordValues(self.get_analytic_lines(out_invoice), [{
 >>>>>>> upstream/18.0
@@ -1591,7 +1610,11 @@ class TestAccountAnalyticAccount(AccountTestInvoicingCommon, AnalyticCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertRecordValues(get_analytic_lines(), [{
+=======
+        self.assertRecordValues(self.get_analytic_lines(out_invoice), [{
+>>>>>>> upstream/18.0
 =======
         self.assertRecordValues(self.get_analytic_lines(out_invoice), [{
 >>>>>>> upstream/18.0
@@ -1897,6 +1920,7 @@ class TestAccountAnalyticAccount(AccountTestInvoicingCommon, AnalyticCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertFalse(get_analytic_lines())
 =======
 =======
@@ -2047,6 +2071,46 @@ class TestAccountAnalyticAccount(AccountTestInvoicingCommon, AnalyticCommon):
 >>>>>>> upstream/18.0
         self.assertFalse(self.get_analytic_lines(out_invoice))
 
+=======
+        self.assertFalse(self.get_analytic_lines(out_invoice))
+
+    def test_analytic_lines_multicurrency(self):
+        '''Ensures analytic lines are created when the aml has a secondary currency set.'''
+        # set up second currency
+        self.env.ref('base.PYG').write({
+            'rounding': 1.0,
+            'active': True,
+            'rate_ids': [Command.create({
+                'company_rate': 100,
+                'name': '2017-01-01',
+            })]
+        })
+
+        out_invoice = self.env['account.move'].create([{
+            'move_type': 'out_invoice',
+            'partner_id': self.partner_a.id,
+            'date': '2017-08-01',
+            'invoice_date': '2017-08-01',
+            'invoice_line_ids': [Command.create({
+                'product_id': self.product_a.id,
+                'price_unit': 2.00,
+                'analytic_distribution': {
+                    self.analytic_account_a.id: 100,
+                },
+                'currency_id': self.env.ref('base.PYG').id,
+            })],
+            'currency_id': self.env.ref('base.PYG').id,
+        }])
+
+        out_invoice.action_post()
+
+        # Will not show up if the wrong currency is used to round the amount.
+        self.assertRecordValues(self.get_analytic_lines(out_invoice), [{
+            'amount': 0.02,
+            self.default_plan._column_name(): self.analytic_account_a.id,
+        }])
+
+>>>>>>> upstream/18.0
     def test_analytic_lines_rounding(self):
         """ Ensures analytic lines rounding errors are spread across all lines, in such a way that summing them gives the right amount.
         For example, when distributing 100% of the the price, the sum of analytic lines should be exactly equal to the price. """
@@ -2206,6 +2270,9 @@ class TestAccountAnalyticAccount(AccountTestInvoicingCommon, AnalyticCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2874,7 +2941,10 @@ class TestAccountAnalyticAccount(AccountTestInvoicingCommon, AnalyticCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3331,6 +3401,7 @@ class TestAccountAnalyticAccount(AccountTestInvoicingCommon, AnalyticCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3387,6 +3458,8 @@ class TestAccountAnalyticAccount(AccountTestInvoicingCommon, AnalyticCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3749,12 +3822,15 @@ class TestAccountAnalyticAccount(AccountTestInvoicingCommon, AnalyticCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4156,6 +4232,7 @@ class TestAccountAnalyticAccount(AccountTestInvoicingCommon, AnalyticCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4222,6 +4299,8 @@ class TestAccountAnalyticAccount(AccountTestInvoicingCommon, AnalyticCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4526,6 +4605,7 @@ class TestAccountAnalyticAccount(AccountTestInvoicingCommon, AnalyticCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4538,6 +4618,8 @@ class TestAccountAnalyticAccount(AccountTestInvoicingCommon, AnalyticCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5021,7 +5103,10 @@ class TestAccountAnalyticAccount(AccountTestInvoicingCommon, AnalyticCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5159,6 +5244,9 @@ class TestAccountAnalyticAccount(AccountTestInvoicingCommon, AnalyticCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5336,6 +5424,9 @@ class TestAccountAnalyticAccount(AccountTestInvoicingCommon, AnalyticCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

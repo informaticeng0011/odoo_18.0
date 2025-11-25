@@ -3,7 +3,11 @@
 # 	* base_import
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -16,7 +20,11 @@
 # Larissa Manderfeld, 2025
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -27,6 +35,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-10-25 07:48+0000\n"
@@ -40,6 +49,8 @@ msgstr ""
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-11-21 18:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Larissa Manderfeld, 2025\n"
@@ -49,6 +60,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -122,8 +136,13 @@ msgid ""
 "An unknown issue occurred during import (possibly lost connection, data "
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "limit exceeded or memory limits exceeded). Please retry in case the issue is"
 " transient. If the issue still occurs, try to split the file rather than "
+=======
+"limit exceeded or memory limits exceeded). Please retry in case the issue is "
+"transient. If the issue still occurs, try to split the file rather than "
+>>>>>>> upstream/18.0
 =======
 "limit exceeded or memory limits exceeded). Please retry in case the issue is "
 "transient. If the issue still occurs, try to split the file rather than "
@@ -192,8 +211,13 @@ msgid "Click 'Resume' to proceed with the import, resuming at line %s."
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Klicken Sie auf „Fortsetzen“, um mit dem Import fortzufahren, und fahren Sie"
 " in der Zeile %s fort."
+=======
+"Klicken Sie auf „Fortsetzen“, um mit dem Import fortzufahren, und fahren Sie "
+"in der Zeile %s fort."
+>>>>>>> upstream/18.0
 =======
 "Klicken Sie auf „Fortsetzen“, um mit dem Import fortzufahren, und fahren Sie "
 "in der Zeile %s fort."
@@ -215,6 +239,7 @@ msgstr "Spalte %(column)s enthält fehlerhafte Werte (Wert: %(value)s)"
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Column %(column)s contains incorrect values. Error in line %(line)d: "
 "%(error)s"
 msgstr ""
@@ -223,12 +248,17 @@ msgstr ""
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Column %(column)s contains incorrect values. Error in line %(line)d: %"
 "(error)s"
 msgstr ""
 "Spalte %(column)s enthält fehlerhafte Werte. Fehler in der Zeile %(line)d: %"
 "(error)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -256,6 +286,7 @@ msgstr "Kommentare"
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Could not retrieve URL: %(url)s [%(field_name)s: L%(line_number)d]: "
 "%(error)s"
 msgstr ""
@@ -264,11 +295,16 @@ msgstr ""
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Could not retrieve URL: %(url)s [%(field_name)s: L%(line_number)d]: %(error)s"
 msgstr ""
 "URL konnte nicht aufgerufen werden: %(url)s [%(field_name)s: L%"
 "(line_number)d]: %(error)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -393,8 +429,13 @@ msgid ""
 "Error while importing records: all rows should be of the same size, but the "
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "title row has %(title_row_entries)d entries while the first row has "
 "%(first_row_entries)d. You may need to change the separator character."
+=======
+"title row has %(title_row_entries)d entries while the first row has %"
+"(first_row_entries)d. You may need to change the separator character."
+>>>>>>> upstream/18.0
 =======
 "title row has %(title_row_entries)d entries while the first row has %"
 "(first_row_entries)d. You may need to change the separator character."
@@ -503,8 +544,13 @@ msgstr "Formatierung"
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Found invalid image data, images should be imported as either URLs or "
 "base64-encoded data."
+=======
+"Found invalid image data, images should be imported as either URLs or base64-"
+"encoded data."
+>>>>>>> upstream/18.0
 =======
 "Found invalid image data, images should be imported as either URLs or base64-"
 "encoded data."
@@ -908,7 +954,10 @@ msgstr "Die Datei wird stapelweise importiert"
 #. module: base_import
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #. odoo-python
@@ -928,6 +977,9 @@ msgstr ""
 
 #. module: base_import
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -965,7 +1017,12 @@ msgstr "Historie während des Imports verfolgen"
 #: code:addons/base_import/models/base_import.py:0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Unable to load \"{extension}\" file: requires Python module \"{modname}\""
+=======
+msgid ""
+"Unable to load \"{extension}\" file: requires Python module \"{modname}\""
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "Unable to load \"{extension}\" file: requires Python module \"{modname}\""
@@ -1012,6 +1069,7 @@ msgid ""
 "Use HH for hours in a 24h system, use II in conjonction with 'p' for a 12h "
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "system. You can use a custom format in addition to the suggestions provided."
 " Leave empty to let Odoo guess the format (recommended)"
 msgstr ""
@@ -1022,6 +1080,8 @@ msgstr ""
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "system. You can use a custom format in addition to the suggestions provided. "
 "Leave empty to let Odoo guess the format (recommended)"
 msgstr ""
@@ -1030,6 +1090,9 @@ msgstr ""
 "Vorschlägen ein eigenes Format verwenden. Leer lassen, damit Odoo das Format "
 "erraten kann (empfohlen)"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1040,6 +1103,7 @@ msgstr ""
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Use YYYY to represent the year, MM for the month and DD for the day. Include"
 " separators such as a dot, forward slash or dash. You can use a custom "
 "format in addition to the suggestions provided. Leave empty to let Odoo "
@@ -1047,11 +1111,16 @@ msgid ""
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Use YYYY to represent the year, MM for the month and DD for the day. Include "
 "separators such as a dot, forward slash or dash. You can use a custom format "
 "in addition to the suggestions provided. Leave empty to let Odoo guess the "
 "format (recommended)"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

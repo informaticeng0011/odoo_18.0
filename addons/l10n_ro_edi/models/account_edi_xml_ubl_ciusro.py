@@ -164,7 +164,11 @@ from odoo import models, _
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+DEFAULT_VAT = '0000000000000'
+>>>>>>> upstream/18.0
 =======
 DEFAULT_VAT = '0000000000000'
 >>>>>>> upstream/18.0
@@ -820,7 +824,10 @@ def get_formatted_sector_ro(city: str):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1308,6 +1315,9 @@ def _has_vat(vat):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1641,6 +1651,11 @@ class AccountEdiXmlUBLRO(models.AbstractModel):
 
     def _get_partner_address_vals(self, partner):
         # EXTENDS 'account_edi_ubl_cii'
+<<<<<<< HEAD
+=======
+        # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
+        # If you change this method, please change the corresponding new helper (at the end of this file).
+>>>>>>> upstream/18.0
         vals = super()._get_partner_address_vals(partner)
 
         if partner.state_id:
@@ -1654,6 +1669,11 @@ class AccountEdiXmlUBLRO(models.AbstractModel):
 
     def _get_invoice_tax_totals_vals_list(self, invoice, taxes_vals):
         # EXTENDS 'account_edi_ubl_cii'
+<<<<<<< HEAD
+=======
+        # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
+        # If you change this method, please change the corresponding new helper (at the end of this file).
+>>>>>>> upstream/18.0
         vals_list = super()._get_invoice_tax_totals_vals_list(invoice, taxes_vals)
 
         if invoice.currency_id.name != 'RON':
@@ -1668,6 +1688,7 @@ class AccountEdiXmlUBLRO(models.AbstractModel):
 
     def _get_partner_party_tax_scheme_vals_list(self, partner, role):
         # EXTENDS 'account_edi_ubl_cii'
+<<<<<<< HEAD
         vals_list = super()._get_partner_party_tax_scheme_vals_list(partner, role)
 
 <<<<<<< HEAD
@@ -2170,6 +2191,12 @@ class AccountEdiXmlUBLRO(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+        # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
+        # If you change this method, please change the corresponding new helper (at the end of this file).
+        vals_list = super()._get_partner_party_tax_scheme_vals_list(partner, role)
+
+>>>>>>> upstream/18.0
         if not _has_vat(partner.vat):
             if (
                 role == 'supplier'
@@ -2343,6 +2370,9 @@ class AccountEdiXmlUBLRO(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2671,6 +2701,11 @@ class AccountEdiXmlUBLRO(models.AbstractModel):
 
     def _export_invoice_vals(self, invoice):
         # EXTENDS 'account_edi_ubl_cii'
+<<<<<<< HEAD
+=======
+        # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
+        # If you change this method, please change the corresponding new helper (at the end of this file).
+>>>>>>> upstream/18.0
         vals = super()._export_invoice_vals(invoice)
 
         vals['vals'].update({
@@ -2840,7 +2875,10 @@ class AccountEdiXmlUBLRO(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3331,6 +3369,9 @@ class AccountEdiXmlUBLRO(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3658,6 +3699,11 @@ class AccountEdiXmlUBLRO(models.AbstractModel):
 
     def _get_document_type_code_vals(self, invoice, invoice_data):
         # EXTENDS 'account_edi_ubl_cii
+<<<<<<< HEAD
+=======
+        # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
+        # If you change this method, please change the corresponding new helper (at the end of this file).
+>>>>>>> upstream/18.0
         vals = super()._get_document_type_code_vals(invoice, invoice_data)
         # [UBL-SR-43] DocumentTypeCode should only show up on a CreditNote XML with the value '50'
         vals['value'] = '50' if invoice.move_type == 'out_refund' else False
@@ -3666,6 +3712,7 @@ class AccountEdiXmlUBLRO(models.AbstractModel):
     def _export_invoice_constraints(self, invoice, vals):
         # EXTENDS 'account_edi_ubl_cii'
         constraints = super()._export_invoice_constraints(invoice, vals)
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4151,6 +4198,13 @@ class AccountEdiXmlUBLRO(models.AbstractModel):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+        constraints.update(self._export_invoice_constraints_ciusro(vals))
+        return constraints
+
+    def _export_invoice_constraints_ciusro(self, vals):
+        constraints = {}
 >>>>>>> upstream/18.0
         # Default VAT is only allowed for the receiver (customer), not the provider (supplier)
         supplier = vals['supplier'].commercial_partner_id
@@ -4324,6 +4378,9 @@ class AccountEdiXmlUBLRO(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4818,12 +4875,15 @@ class AccountEdiXmlUBLRO(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if not partner.commercial_partner_id.vat and not partner.commercial_partner_id.company_registry:
                 constraints[f"ciusro_{partner_type}_tax_identifier_required"] = _(
                     "The following partner doesn't have a VAT nor Company ID: %s. "
                     "At least one of them is required. ",
                     partner.display_name)
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5160,3 +5220,68 @@ class AccountEdiXmlUBLRO(models.AbstractModel):
                     partner.display_name)
 
         return constraints
+<<<<<<< HEAD
+=======
+
+    # -------------------------------------------------------------------------
+    # EXPORT: New (dict_to_xml) helpers
+    # -------------------------------------------------------------------------
+
+    def _add_invoice_header_nodes(self, document_node, vals):
+        # EXTENDS account.edi.xml.ubl_bis3
+        super()._add_invoice_header_nodes(document_node, vals)
+        document_node['cbc:CustomizationID'] = {
+            '_text': 'urn:cen.eu:en16931:2017#compliant#urn:efactura.mfinante.ro:CIUS-RO:1.0.1'
+        }
+        document_node['cbc:TaxCurrencyCode'] = {'_text': 'RON'}
+
+    def _get_address_node(self, vals):
+        address_node = super()._get_address_node(vals)
+        partner = vals['partner']
+
+        if partner.state_id:
+            address_node['cbc:CountrySubentity']['_text'] = partner.country_code + '-' + partner.state_id.code
+
+            # Romania requires the CityName to be in the format of "SECTORX" if the address state is in Bucharest.
+            if partner.state_id.code == 'B' and partner.city:
+                address_node['cbc:CityName']['_text'] = get_formatted_sector_ro(partner.city)
+
+        return address_node
+
+    def _get_party_node(self, vals):
+        party_node = super()._get_party_node(vals)
+        commercial_partner = vals['partner'].commercial_partner_id
+
+        # Use the default VAT if the VAT is not filled or just has a placeholder
+        if not _has_vat(commercial_partner.vat):
+            if vals['role'] == 'supplier' and commercial_partner.company_registry:
+                # Use company_registry (Company ID) as the VAT replacement
+                vat_replacement = commercial_partner.company_registry
+            else:
+                vat_replacement = DEFAULT_VAT
+
+            party_node['cac:PartyTaxScheme'][0]['cbc:CompanyID']['_text'] = vat_replacement
+            party_node['cac:PartyTaxScheme'][0]['cac:TaxScheme']['cbc:ID']['_text'] = (
+                'VAT' if vat_replacement[:2].isalpha() else 'NOT_EU_VAT'
+            )
+            party_node['cac:PartyLegalEntity']['cbc:CompanyID']['_text'] = vat_replacement
+
+        return party_node
+
+    def _add_document_tax_total_nodes(self, document_node, vals):
+        super()._add_document_tax_total_nodes(document_node, vals)
+
+        document_node['cac:TaxTotal'] = [document_node['cac:TaxTotal']]
+
+        company_currency = vals['invoice'].company_id.currency_id
+        if vals['invoice'].currency_id != company_currency:
+            self._add_tax_total_node_in_company_currency(document_node, vals)
+
+            # Remove the tax subtotals from the TaxTotal in company currency
+            document_node['cac:TaxTotal'][1]['cac:TaxSubtotal'] = None
+
+    def _export_invoice_constraints_new(self, invoice, vals):
+        constraints = super()._export_invoice_constraints_new(invoice, vals)
+        constraints.update(self._export_invoice_constraints_ciusro(vals))
+        return constraints
+>>>>>>> upstream/18.0

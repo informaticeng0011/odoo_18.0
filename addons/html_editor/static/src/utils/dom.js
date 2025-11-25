@@ -1,5 +1,9 @@
 import { closestBlock, isBlock } from "./blocks";
+<<<<<<< HEAD
 import { isParagraphRelatedElement, isShrunkBlock, isVisible } from "./dom_info";
+=======
+import { isEmptyTextNode, isParagraphRelatedElement, isShrunkBlock, isVisible } from "./dom_info";
+>>>>>>> upstream/18.0
 import { callbacksForCursorUpdate } from "./selection";
 import { isEmptyBlock, isPhrasingContent } from "../utils/dom_info";
 import { childNodes } from "./dom_traversal";
@@ -269,6 +273,26 @@ export function cleanTextNode(node, char, cursors) {
 }
 
 /**
+<<<<<<< HEAD
+=======
+ * Remove all empty text nodes within the given root element
+ * and update cursors for later selection restore.
+ *
+ * This prevents the editor from keeping unnecessary empty text
+ * nodes that may create extra nodes during split operations.
+ *
+ * @param {HTMLElement} root
+ * @param {Cursors} [cursors]
+ */
+export function removeEmptyTextNodes(root, cursors) {
+    for (const node of childNodes(root).filter((n) => isEmptyTextNode(n))) {
+        cursors?.update(callbacksForCursorUpdate.remove(node));
+        node.remove();
+    }
+}
+
+/**
+>>>>>>> upstream/18.0
  * Splits a text node in two parts.
  * If the split occurs at the beginning or the end, the text node stays
  * untouched and unsplit. If a split actually occurs, the original text node

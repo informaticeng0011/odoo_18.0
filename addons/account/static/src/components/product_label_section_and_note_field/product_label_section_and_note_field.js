@@ -1,6 +1,10 @@
 import { _t } from "@web/core/l10n/translation";
 import { AutoComplete } from "@web/core/autocomplete/autocomplete";
 import { getActiveHotkey } from "@web/core/hotkeys/hotkey_service";
+<<<<<<< HEAD
+=======
+import { useInputField } from "@web/views/fields/input_field_hook";
+>>>>>>> upstream/18.0
 import { Many2XAutocomplete } from "@web/views/fields/relational_utils";
 import { Many2OneField, many2OneField } from "@web/views/fields/many2one/many2one_field";
 import { onMounted, onPatched, onWillUnmount, useEffect, useRef, useState } from "@odoo/owl";
@@ -79,7 +83,11 @@ export class ProductLabelSectionAndNoteListRender extends SectionAndNoteListRend
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         super.getCellTitle(column, record);
+=======
+        return super.getCellTitle(column, record);
+>>>>>>> upstream/18.0
 =======
         return super.getCellTitle(column, record);
 >>>>>>> upstream/18.0
@@ -401,6 +409,7 @@ export class ProductLabelSectionAndNoteListRender extends SectionAndNoteListRend
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -525,6 +534,8 @@ export class ProductLabelSectionAndNoteListRender extends SectionAndNoteListRend
 
     isCellReadonly(column, record) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -750,6 +761,9 @@ export class ProductLabelSectionAndNoteListRender extends SectionAndNoteListRend
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1036,6 +1050,9 @@ export class ProductLabelSectionAndNoteListRender extends SectionAndNoteListRend
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1388,6 +1405,17 @@ export class ProductLabelSectionAndNoteField extends Many2OneField {
         this.productNode = useRef("productNodeRef");
         useProductAndLabelAutoresize(this.productNode, { targetParentName: this.props.name });
 
+<<<<<<< HEAD
+=======
+        if (this.isSectionOrNote) {
+            useInputField({
+                ref: this.labelNode,
+                fieldName: "name",
+                getValue: () => this.label,
+            });
+        }
+
+>>>>>>> upstream/18.0
         useEffect(
             () => {
                 this.columnIsProductAndLabel.value = this.props.record.columnIsProductAndLabel;
@@ -1601,7 +1629,10 @@ export class ProductLabelSectionAndNoteField extends Many2OneField {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2008,6 +2039,9 @@ export class ProductLabelSectionAndNoteField extends Many2OneField {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -158,7 +158,10 @@ class TestExpiringLeaves(HttpCase, TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -584,6 +587,9 @@ class TestExpiringLeaves(HttpCase, TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1168,6 +1174,7 @@ class TestExpiringLeaves(HttpCase, TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         target_date = date(2025, 12, 30)
         allocation_data = self.leave_type.get_allocation_data(logged_in_emp, target_date)
 
@@ -1181,6 +1188,8 @@ class TestExpiringLeaves(HttpCase, TestHrHolidaysCommon):
                          (number_of_accrued_days - leave.number_of_days - carryover_limit) + number_of_accrued_days,
                          "All the remaining days of the allocation will expire")
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1412,6 +1421,9 @@ class TestExpiringLeaves(HttpCase, TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1917,6 +1929,10 @@ class TestExpiringLeaves(HttpCase, TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'full_time_required_hours': 40.0,
+>>>>>>> upstream/18.0
 =======
             'full_time_required_hours': 40.0,
 >>>>>>> upstream/18.0
@@ -2447,7 +2463,11 @@ class TestExpiringLeaves(HttpCase, TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         remaining_days_before_expiration = (allocation._get_carryover_date(target_date) - target_date).days + 1
+=======
+        remaining_days_before_expiration = (allocation._get_carryover_date(target_date) - target_date).days
+>>>>>>> upstream/18.0
 =======
         remaining_days_before_expiration = (allocation._get_carryover_date(target_date) - target_date).days
 >>>>>>> upstream/18.0
@@ -3130,6 +3150,7 @@ class TestExpiringLeaves(HttpCase, TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     
         # Assert the closest allocation duration (number of working days equivalent (8 hours/day) remaining before the allocation expires)
         self.assertEqual(round(allocation_data[logged_in_emp][0][1]['closest_allocation_duration']), working_days_equivalent_needed,
@@ -3137,6 +3158,8 @@ class TestExpiringLeaves(HttpCase, TestHrHolidaysCommon):
         
                          
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3677,6 +3700,9 @@ class TestExpiringLeaves(HttpCase, TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

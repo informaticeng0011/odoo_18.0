@@ -77,7 +77,12 @@ from odoo import models, _
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 SG_TAX_CATEGORIES = {'SR', 'SRCA-S', 'SRCA-C', 'SROVR-RS', 'SROVR-LVG', 'SRLVG', 'ZR', 'ES33', 'ESN33', 'DS', 'OS', 'NG', 'NA'}
+=======
+SG_TAX_CATEGORIES = {'SR', 'SRCA-S', 'SRCA-C', 'SROVR-RS', 'SRRC', 'SROVR-LVG', 'SRLVG', 'ZR', 'ES33', 'ESN33', 'DS', 'OS', 'NG', 'NA'}
+SG_GST_CODES_REQUIRING_ADDRESS = {'SR', 'SRCA-S', 'SRCA-C', 'ZR', 'SRRC', 'SROVR-RS', 'SROVR-LVG', 'SRLVG', 'NA'}
+>>>>>>> upstream/18.0
 =======
 SG_TAX_CATEGORIES = {'SR', 'SRCA-S', 'SRCA-C', 'SROVR-RS', 'SRRC', 'SROVR-LVG', 'SRLVG', 'ZR', 'ES33', 'ESN33', 'DS', 'OS', 'NG', 'NA'}
 SG_GST_CODES_REQUIRING_ADDRESS = {'SR', 'SRCA-S', 'SRCA-C', 'ZR', 'SRRC', 'SROVR-RS', 'SROVR-LVG', 'SRLVG', 'NA'}
@@ -395,6 +400,7 @@ class AccountEdiXmlUBLPINTSG(models.AbstractModel):
         # OVERRIDE account_edi_ubl_cii
         return f"{invoice.name.replace('/', '_')}_pint_sg.xml"
 
+<<<<<<< HEAD
     def _get_partner_party_vals(self, partner, role):
         # EXTENDS account_edi_ubl_cii
         vals = super()._get_partner_party_vals(partner, role)
@@ -590,6 +596,18 @@ class AccountEdiXmlUBLPINTSG(models.AbstractModel):
 =======
         vals.setdefault('party_tax_scheme_vals', [])
 >>>>>>> upstream/18.0
+=======
+    # -------------------------------------------------------------------------
+    # EXPORT: Old helpers
+    # -------------------------------------------------------------------------
+
+    def _get_partner_party_vals(self, partner, role):
+        # EXTENDS account_edi_ubl_cii
+        # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
+        # If you change this method, please change the corresponding new helper (at the end of this file).
+        vals = super()._get_partner_party_vals(partner, role)
+        vals.setdefault('party_tax_scheme_vals', [])
+>>>>>>> upstream/18.0
 
         for party_tax_scheme in vals['party_tax_scheme_vals']:
             party_tax_scheme['tax_scheme_vals'] = {'id': 'GST'}
@@ -598,6 +616,11 @@ class AccountEdiXmlUBLPINTSG(models.AbstractModel):
 
     def _get_invoice_tax_totals_vals_list(self, invoice, taxes_vals):
         # EXTENDS account_edi_ubl_cii
+<<<<<<< HEAD
+=======
+        # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
+        # If you change this method, please change the corresponding new helper (at the end of this file).
+>>>>>>> upstream/18.0
         vals_list = super()._get_invoice_tax_totals_vals_list(invoice, taxes_vals)
         company_currency = invoice.company_id.currency_id
         if invoice.currency_id != company_currency:
@@ -613,6 +636,11 @@ class AccountEdiXmlUBLPINTSG(models.AbstractModel):
 
     def _get_tax_category_list(self, customer, supplier, taxes):
         # EXTENDS account_edi_ubl_cii
+<<<<<<< HEAD
+=======
+        # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
+        # If you change this method, please change the corresponding new helper (at the end of this file).
+>>>>>>> upstream/18.0
         vals_list = super()._get_tax_category_list(customer, supplier, taxes)
         for vals in vals_list:
             vals['tax_scheme_vals'] = {'id': 'GST'}
@@ -620,6 +648,11 @@ class AccountEdiXmlUBLPINTSG(models.AbstractModel):
 
     def _get_additional_document_reference_list(self, invoice):
         # EXTENDS account.edi.xml.ubl_20
+<<<<<<< HEAD
+=======
+        # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
+        # If you change this method, please change the corresponding new helper (at the end of this file).
+>>>>>>> upstream/18.0
         additional_document_reference_list = super()._get_additional_document_reference_list(invoice)
         if invoice.currency_id != invoice.company_id.currency_id:
             amounts_in_accounting_currency = (
@@ -628,6 +661,7 @@ class AccountEdiXmlUBLPINTSG(models.AbstractModel):
             )
             # [BR-53-GST-SG]-If the GST accounting currency code (BT-6-GST) is present, then the Invoice total GST amount (BT-111-GST),
             # Invoice total including GST amount and Invoice Total excluding GST amount in accounting currency shall be provided.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1053,6 +1087,9 @@ class AccountEdiXmlUBLPINTSG(models.AbstractModel):
 =======
             additional_document_reference_list.extend([{
 >>>>>>> upstream/18.0
+=======
+            additional_document_reference_list.extend([{
+>>>>>>> upstream/18.0
                 'id': invoice.company_id.currency_id.name,
                 'document_description': amount,
                 'document_type_code': code,
@@ -1061,6 +1098,11 @@ class AccountEdiXmlUBLPINTSG(models.AbstractModel):
 
     def _export_invoice_vals(self, invoice):
         # EXTENDS account_edi_ubl_cii
+<<<<<<< HEAD
+=======
+        # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
+        # If you change this method, please change the corresponding new helper (at the end of this file).
+>>>>>>> upstream/18.0
         vals = super()._export_invoice_vals(invoice)
 
         vals['vals'].update({
@@ -1159,7 +1201,10 @@ class AccountEdiXmlUBLPINTSG(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1386,6 +1431,7 @@ class AccountEdiXmlUBLPINTSG(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1532,5 +1578,87 @@ class AccountEdiXmlUBLPINTSG(models.AbstractModel):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+        return constraints
+
+    # -------------------------------------------------------------------------
+    # EXPORT: New (dict_to_xml) helpers
+    # -------------------------------------------------------------------------
+
+    def _add_invoice_header_nodes(self, document_node, vals):
+        # EXTENDS account.edi.xml.ubl_bis3
+        super()._add_invoice_header_nodes(document_node, vals)
+        invoice = vals['invoice']
+
+        # see https://docs.peppol.eu/poac/sg/2024-Q2/pint-sg/bis/#_bis_identifiers
+        document_node['cbc:CustomizationID'] = {'_text': self._get_customization_ids()['pint_sg']}
+        document_node['cbc:ProfileID'] = {'_text': 'urn:peppol:bis:billing'}
+        document_node['cbc:UUID'] = {'_text': invoice._l10n_sg_get_uuid()}
+
+        if invoice.currency_id != invoice.company_id.currency_id:
+            # see https://docs.peppol.eu/poac/sg/2024-Q2/pint-sg/bis/#_invoice_totals_in_gst_accounting_currency
+            document_node['cbc:TaxCurrencyCode'] = {
+                '_text': invoice.company_id.currency_id.name
+            }  # accounting currency
+
+            amounts_in_accounting_currency = (
+                ('sgdtotal-excl-gst', invoice.amount_untaxed_signed),
+                ('sgdtotal-incl-gst', invoice.amount_total_signed),
+            )
+            # [BR-53-GST-SG] - If the GST accounting currency code (BT-6-GST) is present, then the Invoice total GST amount (BT-111-GST),
+            # Invoice total including GST amount and Invoice Total excluding GST amount in accounting currency shall be provided.
+
+            document_node['cac:AdditionalDocumentReference'] = [
+                {
+                    'cbc:ID': {'_text': invoice.company_id.currency_id.name},
+                    'cbc:DocumentTypeCode': {'_text': code},
+                    'cbc:DocumentDescription': {'_text': amount},
+                }
+                for code, amount in amounts_in_accounting_currency
+            ]
+
+    def _add_invoice_tax_total_nodes(self, document_node, vals):
+        # EXTENDS account.edi.xml.ubl_bis3
+        super()._add_invoice_tax_total_nodes(document_node, vals)
+        document_node['cac:TaxTotal'] = [document_node['cac:TaxTotal']]
+
+        company_currency = vals['invoice'].company_id.currency_id
+        if vals['invoice'].currency_id != company_currency:
+            self._add_tax_total_node_in_company_currency(document_node, vals)
+
+            # Remove the tax subtotals from the TaxTotal in company currency
+            document_node['cac:TaxTotal'][1]['cac:TaxSubtotal'] = None
+
+    def _get_party_node(self, vals):
+        party_node = super()._get_party_node(vals)
+        party_node['cac:PartyTaxScheme'][0]['cac:TaxScheme']['cbc:ID']['_text'] = 'GST'
+        return party_node
+
+    def _get_tax_category_node(self, vals):
+        # EXTENDS account_edi_ubl_cii
+        tax_category_node = super()._get_tax_category_node(vals)
+        tax_category_node['cac:TaxScheme']['cbc:ID']['_text'] = 'GST'
+        return tax_category_node
+
+    def _export_invoice_constraints_new(self, invoice, vals):
+        # EXTENDS account_edi_ubl_cii
+        constraints = super()._export_invoice_constraints_new(invoice, vals)
+
+        # Tax category must be filled on the line, with a value from SG categories.
+        tax_total_node = vals['document_node']['cac:TaxTotal'][0]
+        for tax_subtotal_node in tax_total_node['cac:TaxSubtotal']:
+            if tax_subtotal_node['cac:TaxCategory']['cbc:ID']['_text'] not in SG_TAX_CATEGORIES:
+                constraints['sg_vat_category_required'] = _("You must set a Singaporean tax category on each taxes of the invoice.")
+
+            # Invoice with GST category code of value 'SR', 'SRCA-S', 'SRCA-C', 'ZR', 'SRRC',
+            # 'SROVR-RS', 'SROVR-LVG', 'SRLVG', 'NA' should contain seller address line and seller
+            # post code
+            if tax_subtotal_node['cac:TaxCategory']['cbc:ID']['_text'] in SG_GST_CODES_REQUIRING_ADDRESS:
+                constraints['sg_seller_street_addr_required'] = \
+                    self._check_required_fields(vals['supplier'], 'street')
+                constraints['sg_seller_post_code_required'] = \
+                    self._check_required_fields(vals['supplier'], 'zip')
+
 >>>>>>> upstream/18.0
         return constraints

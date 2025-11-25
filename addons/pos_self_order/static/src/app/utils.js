@@ -72,6 +72,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 export const attributeFormatter = (attrById, values, customValues = []) => {
     if (!values) {
         return [];
@@ -115,6 +116,8 @@ export const attributeFormatter = (attrById, values, customValues = []) => {
     return Object.values(selectedValue);
 };
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

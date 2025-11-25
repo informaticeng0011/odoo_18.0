@@ -3,7 +3,11 @@
 # 	* base_import
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -17,7 +21,11 @@
 # Odoo哥 <vnsoft.he@gmail.com>, 2024
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 =======
 #
 >>>>>>> upstream/18.0
@@ -28,6 +36,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-10-25 07:48+0000\n"
@@ -41,6 +50,8 @@ msgstr ""
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-11-21 18:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Odoo哥 <vnsoft.he@gmail.com>, 2024\n"
@@ -51,6 +62,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -120,12 +134,15 @@ msgid ""
 "An unknown issue occurred during import (possibly lost connection, data "
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "limit exceeded or memory limits exceeded). Please retry in case the issue is"
 " transient. If the issue still occurs, try to split the file rather than "
 "import it at once."
 msgstr ""
 "导入过程中出现未知问题（可能连接丢失、数据超过限制或内存超过限制）。如果问题是暂时的，请重试。如果问题仍然发生，尝试拆分文件，而不是立即导入它。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "limit exceeded or memory limits exceeded). Please retry in case the issue is "
@@ -135,6 +152,9 @@ msgstr ""
 "导入过程中出现未知问题（可能连接丢失、数据超过限制或内存超过限制）。如果问题"
 "是暂时的，请重试。如果问题仍然发生，尝试拆分文件，而不是立即导入它。"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -202,8 +222,13 @@ msgstr "列%(column)s包含不正确的值（值：%(value)s）"
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Column %(column)s contains incorrect values. Error in line %(line)d: "
 "%(error)s"
+=======
+"Column %(column)s contains incorrect values. Error in line %(line)d: %"
+"(error)s"
+>>>>>>> upstream/18.0
 =======
 "Column %(column)s contains incorrect values. Error in line %(line)d: %"
 "(error)s"
@@ -237,8 +262,12 @@ msgstr "注释"
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Could not retrieve URL: %(url)s [%(field_name)s: L%(line_number)d]: "
 "%(error)s"
+=======
+"Could not retrieve URL: %(url)s [%(field_name)s: L%(line_number)d]: %(error)s"
+>>>>>>> upstream/18.0
 =======
 "Could not retrieve URL: %(url)s [%(field_name)s: L%(line_number)d]: %(error)s"
 >>>>>>> upstream/18.0
@@ -364,6 +393,7 @@ msgid ""
 "Error while importing records: all rows should be of the same size, but the "
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "title row has %(title_row_entries)d entries while the first row has "
 "%(first_row_entries)d. You may need to change the separator character."
 msgstr ""
@@ -372,12 +402,17 @@ msgstr ""
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "title row has %(title_row_entries)d entries while the first row has %"
 "(first_row_entries)d. You may need to change the separator character."
 msgstr ""
 "导入记录时出错：所有行应该大小相同，但标题行有%(title_row_entries)d 条记项，"
 "而第一行有%(first_row_entries)d 条记项。您可能需要更改分隔符。"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -473,8 +508,13 @@ msgstr "格式化"
 msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Found invalid image data, images should be imported as either URLs or "
 "base64-encoded data."
+=======
+"Found invalid image data, images should be imported as either URLs or base64-"
+"encoded data."
+>>>>>>> upstream/18.0
 =======
 "Found invalid image data, images should be imported as either URLs or base64-"
 "encoded data."
@@ -531,7 +571,13 @@ msgid ""
 "and send notifications during the import, but lead to a slower import."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "如果模型使用openchatter，则历史跟踪将在导入期间设置订阅并发送通知，但会导致导入速度变慢。"
+=======
+msgstr ""
+"如果模型使用openchatter，则历史跟踪将在导入期间设置订阅并发送通知，但会导致导"
+"入速度变慢。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "如果模型使用openchatter，则历史跟踪将在导入期间设置订阅并发送通知，但会导致导"
@@ -601,8 +647,13 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "第%(row)s行、第%(col)s列的单元格格式无效：%(cell_value)s，格式为：%(cell_format)s，因为不支持 "
 "%(format_type)s格式。"
+=======
+"第%(row)s行、第%(col)s列的单元格格式无效：%(cell_value)s，格式为：%"
+"(cell_format)s，因为不支持 %(format_type)s格式。"
+>>>>>>> upstream/18.0
 =======
 "第%(row)s行、第%(col)s列的单元格格式无效：%(cell_value)s，格式为：%"
 "(cell_format)s，因为不支持 %(format_type)s格式。"
@@ -889,7 +940,10 @@ msgstr "该文件将被分批导入"
 #. module: base_import
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #. odoo-python
@@ -909,6 +963,9 @@ msgstr ""
 
 #. module: base_import
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -946,7 +1003,12 @@ msgstr "导入时跟踪导入历史"
 #: code:addons/base_import/models/base_import.py:0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Unable to load \"{extension}\" file: requires Python module \"{modname}\""
+=======
+msgid ""
+"Unable to load \"{extension}\" file: requires Python module \"{modname}\""
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "Unable to load \"{extension}\" file: requires Python module \"{modname}\""
@@ -989,11 +1051,14 @@ msgid ""
 "Use HH for hours in a 24h system, use II in conjonction with 'p' for a 12h "
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "system. You can use a custom format in addition to the suggestions provided."
 " Leave empty to let Odoo guess the format (recommended)"
 msgstr ""
 "在 24 小时制中使用 HH 表示小时，在 12 小时制中使用 II 和 \"p\"。您还可以使用自定义格式。留空，把格式交给 Odoo  （推荐使用）"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "system. You can use a custom format in addition to the suggestions provided. "
@@ -1002,6 +1067,9 @@ msgstr ""
 "在 24 小时制中使用 HH 表示小时，在 12 小时制中使用 II 和 \"p\"。您还可以使用"
 "自定义格式。留空，把格式交给 Odoo  （推荐使用）"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1010,6 +1078,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/base_import/static/src/import_model.js:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 "Use YYYY to represent the year, MM for the month and DD for the day. Include"
@@ -1022,6 +1091,8 @@ msgstr ""
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Use YYYY to represent the year, MM for the month and DD for the day. Include "
 "separators such as a dot, forward slash or dash. You can use a custom format "
 "in addition to the suggestions provided. Leave empty to let Odoo guess the "
@@ -1030,6 +1101,9 @@ msgstr ""
 "用 YYYY 表示年，MM 表示月，DD 表示日。包括分隔符，如点、正斜线或破折号。除已"
 "有建议外，您还可以使用自定义格式。留空，把格式交给 Odoo （推荐使用）"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

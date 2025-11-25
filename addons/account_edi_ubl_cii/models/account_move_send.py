@@ -45,6 +45,22 @@ class AccountMoveSend(models.AbstractModel):
                     'action_text': _("View Partner(s)"),
                     'action': not_configured_partners._get_records_action(name=_("Check Partner(s)"))
                 }
+<<<<<<< HEAD
+=======
+
+            if any(
+                    self.env['account.edi.xml.ubl_bis3']._is_customer_behind_chorus_pro(partner)
+                    for partner in peppol_format_moves.partner_id.commercial_partner_id
+                ):
+                chorus_pro = self.env['ir.module.module'].sudo().search([('name', '=', 'l10n_fr_facturx_chorus_pro')], limit=1)
+                if chorus_pro and chorus_pro.state != 'installed':
+                    alerts['account_edi_ubl_cii_chorus_pro_install'] = {
+                        'message': _("Please install the french Chorus pro module to have all the specific rules."),
+                        'level': 'info',
+                        'action': chorus_pro._get_records_action(),
+                        'action_text': _("Install Chorus Pro"),
+                    }
+>>>>>>> upstream/18.0
         return alerts
 
     # -------------------------------------------------------------------------
@@ -55,6 +71,7 @@ class AccountMoveSend(models.AbstractModel):
         # EXTENDS 'account'
         return super()._get_invoice_extra_attachments(move) + move.ubl_cii_xml_id
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -769,6 +786,11 @@ class AccountMoveSend(models.AbstractModel):
         if extra_edis is None:
             extra_edis = {}
 >>>>>>> upstream/18.0
+=======
+    def _get_placeholder_mail_attachments_data(self, move, invoice_edi_format=None, extra_edis=None):
+        if extra_edis is None:
+            extra_edis = {}
+>>>>>>> upstream/18.0
         # EXTENDS 'account'
         results = super()._get_placeholder_mail_attachments_data(move, invoice_edi_format=invoice_edi_format, extra_edis=extra_edis)
         if move._need_ubl_cii_xml(invoice_edi_format):
@@ -934,6 +956,9 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1480,7 +1505,12 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         pdf_values = invoice.invoice_pdf_report_id or invoice_data.get('pdf_attachment_values') or invoice_data['proforma_pdf_attachment_values']
+=======
+        pdf_values = (not self.env.context.get('custom_template_facturx') and invoice.invoice_pdf_report_id) or \
+            invoice_data.get('pdf_attachment_values') or invoice_data['proforma_pdf_attachment_values']
+>>>>>>> upstream/18.0
 =======
         pdf_values = (not self.env.context.get('custom_template_facturx') and invoice.invoice_pdf_report_id) or \
             invoice_data.get('pdf_attachment_values') or invoice_data['proforma_pdf_attachment_values']

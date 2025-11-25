@@ -2,7 +2,11 @@
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* base_import
+=======
+# * base_import
+>>>>>>> upstream/18.0
 =======
 # * base_import
 >>>>>>> upstream/18.0
@@ -16,7 +20,11 @@
 # Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>, 2022
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
@@ -27,6 +35,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.5alpha1\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2023-10-26 21:55+0000\n"
@@ -41,6 +50,8 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-11-21 18:37+0000\n"
@@ -68,6 +79,9 @@ msgstr ""
 msgid "%(property_string)s (%(parent_name)s)"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -108,7 +122,10 @@ msgstr "Napredno"
 #. odoo-javascript
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: code:addons/base_import/static/src/import_model.js:0
@@ -119,6 +136,9 @@ msgstr ""
 #. module: base_import
 #. odoo-javascript
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -174,7 +194,10 @@ msgstr ""
 #: code:addons/base_import/static/src/import_action/import_action.xml:0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 msgid "But, you can also use .csv files"
@@ -184,6 +207,9 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/base_import/static/src/import_action/import_action.xml:0
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -201,7 +227,11 @@ msgstr ""
 #: code:addons/base_import/models/base_import.py:0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Column %s contains incorrect values (value: %s)"
+=======
+msgid "Column %(column)s contains incorrect values (value: %(value)s)"
+>>>>>>> upstream/18.0
 =======
 msgid "Column %(column)s contains incorrect values (value: %(value)s)"
 >>>>>>> upstream/18.0
@@ -215,7 +245,13 @@ msgstr ""
 #: code:addons/base_import/models/base_import.py:0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Column %s contains incorrect values. Error in line %d: %s"
+=======
+msgid ""
+"Column %(column)s contains incorrect values. Error in line %(line)d: %"
+"(error)s"
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "Column %(column)s contains incorrect values. Error in line %(line)d: %"
@@ -273,7 +309,10 @@ msgstr "Kreirano"
 #. module: base_import
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #. odoo-javascript
@@ -283,6 +322,9 @@ msgstr ""
 
 #. module: base_import
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -312,7 +354,10 @@ msgstr ""
 #. module: base_import
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #. odoo-javascript
@@ -328,6 +373,9 @@ msgstr ""
 
 #. module: base_import
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -353,7 +401,10 @@ msgstr "Preuzmi"
 #. odoo-javascript
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: code:addons/base_import/static/src/import_action/import_action.xml:0
@@ -363,6 +414,9 @@ msgstr ""
 #. module: base_import
 #. odoo-javascript
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -375,7 +429,11 @@ msgstr "Kodiranje:"
 #: code:addons/base_import/models/base_import.py:0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Error Parsing Date [%s:L%d]: %s"
+=======
+msgid "Error Parsing Date [%(field)s:L%(line)d]: %(error)s"
+>>>>>>> upstream/18.0
 =======
 msgid "Error Parsing Date [%(field)s:L%(line)d]: %(error)s"
 >>>>>>> upstream/18.0
@@ -389,7 +447,11 @@ msgstr ""
 #: code:addons/base_import/static/src/import_model.js:0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Error at row %s: \"%s\""
+=======
+msgid "Error at row %(row)s: \"%(error)s\""
+>>>>>>> upstream/18.0
 =======
 msgid "Error at row %(row)s: \"%(error)s\""
 >>>>>>> upstream/18.0
@@ -412,8 +474,13 @@ msgid ""
 "Error while importing records: all rows should be of the same size, but the "
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "title row has %d entries while the first row has %d. You may need to change "
 "the separator character."
+=======
+"title row has %(title_row_entries)d entries while the first row has %"
+"(first_row_entries)d. You may need to change the separator character."
+>>>>>>> upstream/18.0
 =======
 "title row has %(title_row_entries)d entries while the first row has %"
 "(first_row_entries)d. You may need to change the separator character."
@@ -489,7 +556,10 @@ msgstr ""
 #. odoo-javascript
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: code:addons/base_import/static/src/import_data_sidepanel/import_data_sidepanel.xml:0
@@ -499,6 +569,9 @@ msgstr ""
 #. module: base_import
 #. odoo-javascript
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -563,7 +636,10 @@ msgstr ""
 #. module: base_import
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #. odoo-javascript
@@ -575,6 +651,9 @@ msgstr ""
 
 #. module: base_import
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -624,6 +703,7 @@ msgstr ""
 #. odoo-javascript
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/base_import/static/src/import_data_sidepanel/import_data_sidepanel.xml:0
 msgid "Imported file"
 msgstr ""
@@ -633,6 +713,8 @@ msgstr ""
 #: code:addons/base_import/static/src/import_action/import_action.js:0
 msgid "Importing"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: code:addons/base_import/static/src/import_action/import_action.js:0
@@ -646,6 +728,9 @@ msgid ""
 "Invalid cell format at row %(row)s, column %(col)s: %(cell_value)s, with "
 "format: %(cell_format)s, as (%(format_type)s) formats are not supported."
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -674,7 +759,11 @@ msgstr "Poslednje ažuriranje dana"
 #: code:addons/base_import/static/src/import_action/import_action.xml:0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Load File"
+=======
+msgid "Load Data File"
+>>>>>>> upstream/18.0
 =======
 msgid "Load Data File"
 >>>>>>> upstream/18.0
@@ -695,7 +784,10 @@ msgstr ""
 msgid "Loading..."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 msgstr "Učitavam..."
@@ -711,6 +803,9 @@ msgstr ""
 #: code:addons/base_import/static/src/import_data_sidepanel/import_data_sidepanel.xml:0
 msgid "Mb"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -743,7 +838,10 @@ msgstr ""
 #. odoo-javascript
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: code:addons/base_import/static/src/import_data_sidepanel/import_data_sidepanel.js:0
@@ -753,6 +851,9 @@ msgstr ""
 #. module: base_import
 #. odoo-javascript
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -770,7 +871,10 @@ msgstr ""
 #. odoo-javascript
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: code:addons/base_import/static/src/import_action/import_action.js:0
@@ -786,6 +890,9 @@ msgstr ""
 #. module: base_import
 #. odoo-javascript
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -803,7 +910,10 @@ msgstr "Pregled"
 #. odoo-javascript
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: code:addons/base_import/static/src/import_data_progress/import_data_progress.xml:0
@@ -813,6 +923,9 @@ msgstr "Traka napretka"
 #. module: base_import
 #. odoo-javascript
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -841,7 +954,11 @@ msgstr "Nastavi"
 #. odoo-javascript
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/base_import/static/src/import_data_content/import_data_content.js:0
+=======
+#: code:addons/base_import/static/src/import_data_content/import_data_content.xml:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/base_import/static/src/import_data_content/import_data_content.xml:0
 >>>>>>> upstream/18.0
@@ -980,7 +1097,10 @@ msgstr ""
 #. module: base_import
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #. odoo-python
@@ -1000,6 +1120,9 @@ msgstr ""
 
 #. module: base_import
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1057,7 +1180,11 @@ msgstr ""
 #: code:addons/base_import/static/src/import_action/import_action.xml:0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Upload File"
+=======
+msgid "Upload Data File"
+>>>>>>> upstream/18.0
 =======
 msgid "Upload Data File"
 >>>>>>> upstream/18.0
@@ -1070,8 +1197,13 @@ msgstr ""
 #. odoo-javascript
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/base_import/static/src/import_action/import_action.xml:0
 msgid "Upload an Excel or CSV file to import"
+=======
+#: code:addons/base_import/static/src/import_data_sidepanel/import_data_sidepanel.xml:0
+msgid "Upload your files"
+>>>>>>> upstream/18.0
 =======
 #: code:addons/base_import/static/src/import_data_sidepanel/import_data_sidepanel.xml:0
 msgid "Upload your files"
@@ -1116,7 +1248,10 @@ msgstr "Korisnik"
 #. odoo-javascript
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: code:addons/base_import/static/src/import_data_sidepanel/import_data_sidepanel.xml:0
@@ -1128,6 +1263,9 @@ msgstr ""
 #. module: base_import
 #. odoo-javascript
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1196,8 +1334,14 @@ msgstr ""
 #: code:addons/base_import/static/src/import_data_progress/import_data_progress.xml:0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "seconds"
 msgstr ""
+=======
+#: code:addons/base_import/static/src/import_data_sidepanel/import_data_sidepanel.xml:0
+msgid "seconds"
+msgstr "sekunde"
+>>>>>>> upstream/18.0
 =======
 #: code:addons/base_import/static/src/import_data_sidepanel/import_data_sidepanel.xml:0
 msgid "seconds"

@@ -7,6 +7,10 @@ import { Powerbox } from "./powerbox";
 import { withSequence } from "@html_editor/utils/resource";
 import { omit, pick } from "@web/core/utils/objects";
 import { baseContainerGlobalSelector } from "@html_editor/utils/base_container";
+<<<<<<< HEAD
+=======
+import { closestBlock } from "@html_editor/utils/blocks";
+>>>>>>> upstream/18.0
 
 /** @typedef { import("@html_editor/core/selection_plugin").EditorSelection } EditorSelection */
 /** @typedef { import("@html_editor/core/user_command_plugin").UserCommand } UserCommand */
@@ -82,7 +86,11 @@ import { baseContainerGlobalSelector } from "@html_editor/utils/base_container";
  */
 function target(selectionData) {
     const node = selectionData.editableSelection.anchorNode;
+<<<<<<< HEAD
     const el = node.nodeType === Node.ELEMENT_NODE ? node : node.parentElement;
+=======
+    const el = closestBlock(node);
+>>>>>>> upstream/18.0
     if (
         selectionData.documentSelectionIsInEditable &&
         el.matches(baseContainerGlobalSelector) &&

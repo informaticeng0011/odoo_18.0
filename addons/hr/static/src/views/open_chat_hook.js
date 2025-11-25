@@ -82,6 +82,7 @@ patch(helpers, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     ],
     buildOpenChatParams(resModel, id) {
         if (["hr.employee", "hr.employee.public"].includes(resModel)) {
@@ -90,6 +91,8 @@ patch(helpers, {
         return super.buildOpenChatParams(...arguments);
     }
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -319,6 +322,9 @@ patch(helpers, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

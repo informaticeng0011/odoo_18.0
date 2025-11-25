@@ -371,7 +371,10 @@ class TestPurchaseStockReports(TestReportsCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -411,6 +414,9 @@ class TestPurchaseStockReports(TestReportsCommon):
         self.assertEqual(data['on_time_rate'], 100)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

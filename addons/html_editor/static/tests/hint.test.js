@@ -9,6 +9,10 @@ import {
     setSelection,
 } from "./_helpers/selection";
 import { insertText } from "./_helpers/user_actions";
+<<<<<<< HEAD
+=======
+import { em, s, strong, u } from "./_helpers/tags";
+>>>>>>> upstream/18.0
 
 test("hints are removed when editor is destroyed", async () => {
     const { el, editor } = await setupEditor("<p>[]</p>", {});
@@ -64,6 +68,52 @@ test("should not display hint in paragraph with media content", async () => {
     expect(getContent(el)).toBe(content);
 });
 
+<<<<<<< HEAD
+=======
+test("should not display hint in paragraph with tab", async () => {
+    const content =
+        '<p><span class="oe-tabs" contenteditable="false" style="width: 40px;">\t</span>\u200b[]</p>';
+    const { el } = await setupEditor(content);
+    // Unchanged, no empty paragraph hint.
+    expect(getContent(el)).toBe(content);
+});
+
+test("should display hint in paragraph with strong (bold)", async () => {
+    const { el } = await setupEditor(`<p>${strong("[]\u200B", "first")}</p>`);
+    // hint should be visible
+    expect(getContent(el)).toBe(
+        `<p placeholder='Type "/" for commands' class="o-we-hint">${strong(
+            "[]\u200B",
+            "first"
+        )}</p>`
+    );
+});
+
+test("should display hint in paragraph with em (italic)", async () => {
+    const { el } = await setupEditor(`<p>${em("[]\u200B", "first")}</p>`);
+    // hint should be visible
+    expect(getContent(el)).toBe(
+        `<p placeholder='Type "/" for commands' class="o-we-hint">${em("[]\u200B", "first")}</p>`
+    );
+});
+
+test("should display hint in paragraph with u (underline)", async () => {
+    const { el } = await setupEditor(`<p>${u("[]\u200B", "first")}</p>`);
+    // hint should be visible
+    expect(getContent(el)).toBe(
+        `<p placeholder='Type "/" for commands' class="o-we-hint">${u("[]\u200B", "first")}</p>`
+    );
+});
+
+test("should display hint in paragraph with s (strikethrough)", async () => {
+    const { el } = await setupEditor(`<p>${s("[]\u200B", "first")}</p>`);
+    // hint should be visible
+    expect(getContent(el)).toBe(
+        `<p placeholder='Type "/" for commands' class="o-we-hint">${s("[]\u200B", "first")}</p>`
+    );
+});
+
+>>>>>>> upstream/18.0
 test("should not lose track of temporary hints on split block", async () => {
     const { el, editor, plugins } = await setupEditor("<p>[]</p>", {});
     expect(getContent(el)).toBe(`<p placeholder='Type "/" for commands' class="o-we-hint">[]</p>`);

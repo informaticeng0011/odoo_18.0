@@ -204,12 +204,15 @@ class ProductTemplate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if record.type == 'service' and record.service_type == 'timesheet' and \
                not (record._origin.service_policy and record.service_policy == record._origin.service_policy):
                 record.uom_id = self.env.ref('uom.product_uom_hour')
             elif record._origin.uom_id:
                 record.uom_id = record._origin.uom_id
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -672,6 +675,9 @@ class ProductTemplate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -60,7 +60,11 @@ class MailPluginController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             partner.write({'parent_id': company})
+=======
+            partner.write({'parent_id': company.id})
+>>>>>>> upstream/18.0
 =======
             partner.write({'parent_id': company.id})
 >>>>>>> upstream/18.0
@@ -470,7 +474,11 @@ class MailPluginController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 _logger.warning('Download of image for new company %s failed, error %s', new_company_info.name, e)
+=======
+                _logger.warning('Download of image for new company %s failed, error %s', new_company_info['name'], e)
+>>>>>>> upstream/18.0
 =======
                 _logger.warning('Download of image for new company %s failed, error %s', new_company_info['name'], e)
 >>>>>>> upstream/18.0

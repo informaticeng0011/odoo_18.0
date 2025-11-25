@@ -4,6 +4,10 @@ from unittest.mock import patch
 
 from werkzeug.exceptions import Forbidden
 
+<<<<<<< HEAD
+=======
+from odoo import release
+>>>>>>> upstream/18.0
 from odoo.exceptions import UserError
 from odoo.tests import tagged
 from odoo.tools import mute_logger
@@ -327,6 +331,66 @@ class AdyenTest(AdyenCommon, PaymentHttpCommon):
                 " 'authorized' until a success notification is sent",
         )
 
+<<<<<<< HEAD
+=======
+    def test_application_info_passed_in_payment_request(self):
+        """Ensure applicationInfo is added correctly to the payment request payload."""
+        tx = self._create_transaction('direct')
+        with (
+            patch('odoo.addons.payment.utils.check_access_token', return_value='dummy_token'),
+            patch(
+                'odoo.addons.payment_adyen.models.payment_provider.PaymentProvider'
+                '._adyen_make_request',
+                return_value=dict(),
+            ) as mock_make_request,
+            patch(
+                'odoo.addons.payment.models.payment_transaction.PaymentTransaction'
+                '._handle_notification_data'
+            ),
+        ):
+            self.make_jsonrpc_request('/payment/adyen/payments', params={
+                'provider_id': tx.provider_id.id,
+                'reference': tx.reference,
+                'converted_amount': 1,
+                'currency_id': tx.currency_id.id,
+                'partner_id': tx.partner_id.id,
+                'payment_method': {'type': 'scheme'},
+                'access_token': 'dummy',
+            })
+        application_info = mock_make_request.call_args.kwargs['payload'].get('applicationInfo')
+        self.assertDictEqual(
+            application_info, {
+                'externalPlatform': {
+                    'name': 'Odoo',
+                    'version': release.version,
+                    'integrator': 'Odoo SA',
+                }
+            },
+        )
+
+    def test_application_info_passed_in_token_payment_request(self):
+        """Ensure applicationInfo is added correctly to the token payment request payload."""
+        tx = self._create_transaction('token', token_id=self._create_token().id)
+        with patch(
+            'odoo.addons.payment_adyen.models.payment_provider.PaymentProvider._adyen_make_request',
+            return_value=dict(),
+        ) as mock_make_request, patch(
+            'odoo.addons.payment.models.payment_transaction.PaymentTransaction'
+            '._handle_notification_data'
+        ):
+            tx._send_payment_request()
+        application_info = mock_make_request.call_args.kwargs['payload'].get('applicationInfo')
+        self.assertDictEqual(
+            application_info, {
+                'externalPlatform': {
+                    'name': 'Odoo',
+                    'version': release.version,
+                    'integrator': 'Odoo SA',
+                }
+            },
+        )
+
+>>>>>>> upstream/18.0
     def test_webhook_notification_confirms_transaction(self):
         tx = self._create_transaction('direct')
         self._webhook_notification_flow(self.webhook_notification_batch_data)

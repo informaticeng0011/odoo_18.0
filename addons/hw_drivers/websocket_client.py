@@ -1,6 +1,9 @@
 import json
 import logging
+<<<<<<< HEAD
 import pprint
+=======
+>>>>>>> upstream/18.0
 import time
 import urllib.parse
 import urllib3
@@ -44,10 +47,17 @@ def on_message(ws, messages):
         Synchronously handle messages received by the websocket.
     """
     messages = json.loads(messages)
+<<<<<<< HEAD
     _logger.debug("websocket received a message: %s", pprint.pformat(messages))
     iot_mac = helpers.get_mac_address()
     for message in messages:
         message_type = message['message']['type']
+=======
+    iot_mac = helpers.get_mac_address()
+    for message in messages:
+        message_type = message['message']['type']
+        _logger.info("Received message of type %s", message_type)
+>>>>>>> upstream/18.0
         if message_type == 'iot_action':
             payload = message['message']['payload']
             if iot_mac in payload['iotDevice']['iotIdentifiers']:
@@ -55,7 +65,11 @@ def on_message(ws, messages):
                     device_identifier = device['identifier']
                     if device_identifier in main.iot_devices:
                         start_operation_time = time.perf_counter()
+<<<<<<< HEAD
                         _logger.debug("device '%s' action started with: %s", device_identifier, pprint.pformat(payload))
+=======
+                        _logger.info("device '%s' action started", device_identifier)
+>>>>>>> upstream/18.0
                         main.iot_devices[device_identifier].action(payload)
                         _logger.info("device '%s' action finished - %.*f", device_identifier, 3, time.perf_counter() - start_operation_time)
             else:
@@ -212,7 +226,11 @@ def on_message(ws, messages):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         elif message_type != 'print_confirmation':  # intended to be ignored
+=======
+        elif message_type not in ['print_confirmation', 'bundle_changed']:  # intended to be ignored
+>>>>>>> upstream/18.0
 =======
         elif message_type not in ['print_confirmation', 'bundle_changed']:  # intended to be ignored
 >>>>>>> upstream/18.0

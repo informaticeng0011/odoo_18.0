@@ -93,7 +93,13 @@ from odoo import _, models, Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tools import html2plaintext, cleanup_xml_node
+=======
+from odoo.tools import html2plaintext, cleanup_xml_node, float_is_zero, float_repr, float_round
+from odoo.addons.account.tools import dict_to_xml
+from odoo.addons.account_edi_ubl_cii.tools import Invoice, CreditNote, DebitNote
+>>>>>>> upstream/18.0
 =======
 from odoo.tools import html2plaintext, cleanup_xml_node, float_is_zero, float_repr, float_round
 from odoo.addons.account.tools import dict_to_xml
@@ -647,7 +653,10 @@ UBL_NAMESPACES = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -957,6 +966,9 @@ class FloatFmt(float):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1161,6 +1173,11 @@ class AccountEdiXmlUBL20(models.AbstractModel):
         }
 
     def _get_country_vals(self, country):
+<<<<<<< HEAD
+=======
+        # Old helper used only for non-BIS3 UBLs, removed in saas-18.4.
+        # If you change this method, please change the corresponding new helper as well (at the end of this file).
+>>>>>>> upstream/18.0
         return {
             'country': country,
 
@@ -1169,6 +1186,7 @@ class AccountEdiXmlUBL20(models.AbstractModel):
         }
 
     def _get_partner_party_identification_vals_list(self, partner):
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1882,6 +1900,17 @@ class AccountEdiXmlUBL20(models.AbstractModel):
         return []
 
     def _get_partner_address_vals(self, partner):
+=======
+        # Old helper used only for non-BIS3 UBLs, removed in saas-18.4.
+        # If you change this method, please change the corresponding new helper as well (at the end of this file).
+        if partner.ref:
+            return [{'id': partner.ref}]
+        return []
+
+    def _get_partner_address_vals(self, partner):
+        # Old helper used only for non-BIS3 UBLs, removed in saas-18.4.
+        # If you change this method, please change the corresponding new helper as well (at the end of this file).
+>>>>>>> upstream/18.0
         return {
             'street_name': partner.street,
             'additional_street_name': partner.street2,
@@ -1893,6 +1922,11 @@ class AccountEdiXmlUBL20(models.AbstractModel):
         }
 
     def _get_partner_party_tax_scheme_vals_list(self, partner, role):
+<<<<<<< HEAD
+=======
+        # Old helper used only for non-BIS3 UBLs, removed in saas-18.4.
+        # If you change this method, please change the corresponding new helper as well (at the end of this file).
+>>>>>>> upstream/18.0
         # [BR-CO-09] if the PartyTaxScheme/TaxScheme/ID == 'VAT', CompanyID must start with a country code prefix.
         # In some countries however, the CompanyID can be with or without country code prefix and still be perfectly
         # valid (RO, HU, non-EU countries).
@@ -1912,6 +1946,11 @@ class AccountEdiXmlUBL20(models.AbstractModel):
         }]
 
     def _get_partner_party_legal_entity_vals_list(self, partner):
+<<<<<<< HEAD
+=======
+        # Old helper used only for non-BIS3 UBLs, removed in saas-18.4.
+        # If you change this method, please change the corresponding new helper as well (at the end of this file).
+>>>>>>> upstream/18.0
         return [{
             'commercial_partner': partner,
             'registration_name': partner.name,
@@ -1920,6 +1959,11 @@ class AccountEdiXmlUBL20(models.AbstractModel):
         }]
 
     def _get_partner_contact_vals(self, partner):
+<<<<<<< HEAD
+=======
+        # Old helper used only for non-BIS3 UBLs, removed in saas-18.4.
+        # If you change this method, please change the corresponding new helper as well (at the end of this file).
+>>>>>>> upstream/18.0
         return {
             'id': partner.id,
             'name': partner.name,
@@ -1927,6 +1971,7 @@ class AccountEdiXmlUBL20(models.AbstractModel):
             'electronic_mail': partner.email,
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2413,6 +2458,11 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 =======
 >>>>>>> upstream/18.0
     def _get_partner_person_vals(self, partner):
+=======
+    def _get_partner_person_vals(self, partner):
+        # Old helper used only for non-BIS3 UBLs, removed in saas-18.4.
+        # If you change this method, please change the corresponding new helper as well (at the end of this file).
+>>>>>>> upstream/18.0
         """
         This is optional and meant to be overridden when required under the form:
         {
@@ -2423,6 +2473,7 @@ class AccountEdiXmlUBL20(models.AbstractModel):
         """
         return {}
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3100,10 +3151,20 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 =======
             'party_name_vals': [{'name': partner.display_name if partner.name else partner.commercial_partner_id.display_name}],
 >>>>>>> upstream/18.0
+=======
+    def _get_partner_party_vals(self, partner, role):
+        # Old helper used only for non-BIS3 UBLs, removed in saas-18.4.
+        # If you change this method, please change the corresponding new helper as well (at the end of this file).
+        return {
+            'partner': partner,
+            'party_identification_vals': self.with_context(ubl_partner_role=role)._get_partner_party_identification_vals_list(partner.commercial_partner_id),
+            'party_name_vals': [{'name': partner.display_name if partner.name else partner.commercial_partner_id.display_name}],
+>>>>>>> upstream/18.0
             'postal_address_vals': self._get_partner_address_vals(partner),
             'party_tax_scheme_vals': self._get_partner_party_tax_scheme_vals_list(partner.commercial_partner_id, role),
             'party_legal_entity_vals': self._get_partner_party_legal_entity_vals_list(partner.commercial_partner_id),
             'contact_vals': self._get_partner_contact_vals(partner),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3755,6 +3816,14 @@ class AccountEdiXmlUBL20(models.AbstractModel):
         }
 
     def _get_invoice_period_vals_list(self, invoice):
+=======
+            'person_vals': self._get_partner_person_vals(partner),
+        }
+
+    def _get_invoice_period_vals_list(self, invoice):
+        # Old helper used only for non-BIS3 UBLs, removed in saas-18.4.
+        # If you change this method, please change the corresponding new helper as well (at the end of this file).
+>>>>>>> upstream/18.0
         """
         For now, we cannot fill this data from an invoice
         This corresponds to the 'delivery or invoice period'. For UBL Bis 3, in the case of intra-community supply,
@@ -3767,6 +3836,11 @@ class AccountEdiXmlUBL20(models.AbstractModel):
         return []
 
     def _get_additional_document_reference_list(self, invoice):
+<<<<<<< HEAD
+=======
+        # Old helper used only for non-BIS3 UBLs, removed in saas-18.4.
+        # If you change this method, please change the corresponding new helper as well (at the end of this file).
+>>>>>>> upstream/18.0
         """
         This is optional and meant to be overridden when required under the form:
         {
@@ -3781,6 +3855,11 @@ class AccountEdiXmlUBL20(models.AbstractModel):
         return []
 
     def _get_delivery_vals_list(self, invoice):
+<<<<<<< HEAD
+=======
+        # Old helper used only for non-BIS3 UBLs, removed in saas-18.4.
+        # If you change this method, please change the corresponding new helper as well (at the end of this file).
+>>>>>>> upstream/18.0
         # the data is optional, except for ubl bis3 (see the override, where we need to set a default delivery address)
         return [{
             'actual_delivery_date': invoice.delivery_date,
@@ -3791,6 +3870,11 @@ class AccountEdiXmlUBL20(models.AbstractModel):
         }]
 
     def _get_bank_address_vals(self, bank):
+<<<<<<< HEAD
+=======
+        # Old helper used only for non-BIS3 UBLs, removed in saas-18.4.
+        # If you change this method, please change the corresponding new helper as well (at the end of this file).
+>>>>>>> upstream/18.0
         return {
             'street_name': bank.street,
             'additional_street_name': bank.street2,
@@ -3802,6 +3886,11 @@ class AccountEdiXmlUBL20(models.AbstractModel):
         }
 
     def _get_financial_institution_vals(self, bank):
+<<<<<<< HEAD
+=======
+        # Old helper used only for non-BIS3 UBLs, removed in saas-18.4.
+        # If you change this method, please change the corresponding new helper as well (at the end of this file).
+>>>>>>> upstream/18.0
         return {
             'bank': bank,
             'id': bank.bic,
@@ -3811,6 +3900,11 @@ class AccountEdiXmlUBL20(models.AbstractModel):
         }
 
     def _get_financial_institution_branch_vals(self, bank):
+<<<<<<< HEAD
+=======
+        # Old helper used only for non-BIS3 UBLs, removed in saas-18.4.
+        # If you change this method, please change the corresponding new helper as well (at the end of this file).
+>>>>>>> upstream/18.0
         return {
             'bank': bank,
             'id': bank.bic,
@@ -3819,6 +3913,11 @@ class AccountEdiXmlUBL20(models.AbstractModel):
         }
 
     def _get_financial_account_vals(self, partner_bank):
+<<<<<<< HEAD
+=======
+        # Old helper used only for non-BIS3 UBLs, removed in saas-18.4.
+        # If you change this method, please change the corresponding new helper as well (at the end of this file).
+>>>>>>> upstream/18.0
         vals = {
             'bank_account': partner_bank,
             'id': partner_bank.acc_number.replace(' ', ''),
@@ -3830,6 +3929,11 @@ class AccountEdiXmlUBL20(models.AbstractModel):
         return vals
 
     def _get_invoice_payment_means_vals_list(self, invoice):
+<<<<<<< HEAD
+=======
+        # Old helper used only for non-BIS3 UBLs, removed in saas-18.4.
+        # If you change this method, please change the corresponding new helper as well (at the end of this file).
+>>>>>>> upstream/18.0
         if invoice.move_type == 'out_invoice':
             if invoice.partner_bank_id:
                 payment_means_code, payment_means_name = (30, 'credit transfer')
@@ -3857,6 +3961,11 @@ class AccountEdiXmlUBL20(models.AbstractModel):
         return [vals]
 
     def _get_invoice_payment_terms_vals_list(self, invoice):
+<<<<<<< HEAD
+=======
+        # Old helper used only for non-BIS3 UBLs, removed in saas-18.4.
+        # If you change this method, please change the corresponding new helper as well (at the end of this file).
+>>>>>>> upstream/18.0
         payment_term = invoice.invoice_payment_term_id
         if payment_term:
             # The payment term's note is automatically embedded in a <p> tag in Odoo
@@ -3865,6 +3974,11 @@ class AccountEdiXmlUBL20(models.AbstractModel):
             return []
 
     def _get_invoice_tax_totals_vals_list(self, invoice, taxes_vals):
+<<<<<<< HEAD
+=======
+        # Old helper used only for non-BIS3 UBLs, removed in saas-18.4.
+        # If you change this method, please change the corresponding new helper as well (at the end of this file).
+>>>>>>> upstream/18.0
         tax_totals_vals = {
             'currency': invoice.currency_id,
             'currency_dp': self._get_currency_decimal_places(invoice.currency_id),
@@ -3927,6 +4041,11 @@ class AccountEdiXmlUBL20(models.AbstractModel):
         return [tax_totals_vals]
 
     def _get_invoice_line_item_vals(self, line, taxes_vals):
+<<<<<<< HEAD
+=======
+        # Old helper used only for non-BIS3 UBLs, removed in saas-18.4.
+        # If you change this method, please change the corresponding new helper as well (at the end of this file).
+>>>>>>> upstream/18.0
         """ Method used to fill the cac:InvoiceLine/cac:Item node.
         It provides information about what the product you are selling.
 
@@ -4021,7 +4140,10 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4245,6 +4367,7 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4395,6 +4518,13 @@ class AccountEdiXmlUBL20(models.AbstractModel):
         }
 
     def _get_document_allowance_charge_vals_list(self, invoice, taxes_vals=None):
+=======
+        }
+
+    def _get_document_allowance_charge_vals_list(self, invoice, taxes_vals=None):
+        # Old helper used only for non-BIS3 UBLs, removed in saas-18.4.
+        # If you change this method, please change the corresponding new helper as well (at the end of this file).
+>>>>>>> upstream/18.0
         """
         https://docs.peppol.eu/poacc/billing/3.0/bis/#_document_level_allowance_or_charge
         Usage for early payment discounts:
@@ -4437,6 +4567,7 @@ class AccountEdiXmlUBL20(models.AbstractModel):
             })
         return vals_list
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4818,6 +4949,11 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 =======
 >>>>>>> upstream/18.0
     def _get_pricing_exchange_rate_vals_list(self, invoice):
+=======
+    def _get_pricing_exchange_rate_vals_list(self, invoice):
+        # Old helper used only for non-BIS3 UBLs, removed in saas-18.4.
+        # If you change this method, please change the corresponding new helper as well (at the end of this file).
+>>>>>>> upstream/18.0
         """ To be overridden if needed to fill the PricingExchangeRate node.
 
         This is used when the currency of the 'Exchange' (e.g.: an invoice) is not the same as the Document currency.
@@ -4831,6 +4967,7 @@ class AccountEdiXmlUBL20(models.AbstractModel):
         """
         return []
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5211,6 +5348,11 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 =======
 >>>>>>> upstream/18.0
     def _get_invoice_line_allowance_vals_list(self, line, tax_values_list=None):
+=======
+    def _get_invoice_line_allowance_vals_list(self, line, tax_values_list=None):
+        # Old helper used only for non-BIS3 UBLs, removed in saas-18.4.
+        # If you change this method, please change the corresponding new helper as well (at the end of this file).
+>>>>>>> upstream/18.0
         """ Method used to fill the cac:{Invoice,CreditNote,DebitNote}Line>cac:AllowanceCharge node.
 
         Allowances are distinguished from charges using the ChargeIndicator node with 'false' as value.
@@ -5264,6 +5406,11 @@ class AccountEdiXmlUBL20(models.AbstractModel):
         return [allowance_vals] + fixed_tax_charge_vals_list
 
     def _get_invoice_line_price_vals(self, line):
+<<<<<<< HEAD
+=======
+        # Old helper used only for non-BIS3 UBLs, removed in saas-18.4.
+        # If you change this method, please change the corresponding new helper as well (at the end of this file).
+>>>>>>> upstream/18.0
         """ Method used to fill the cac:InvoiceLine/cac:Price node.
         It provides information about the price applied for the goods and services invoiced.
 
@@ -5278,6 +5425,7 @@ class AccountEdiXmlUBL20(models.AbstractModel):
         else:
             gross_price_subtotal = net_price_subtotal / (1.0 - (line.discount or 0.0) / 100.0)
         # Price subtotal with discount / quantity:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5575,6 +5723,9 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 =======
         gross_price_unit = gross_price_subtotal / line.quantity if line.quantity and not line.currency_id.is_zero(gross_price_subtotal) else 0.0
 >>>>>>> upstream/18.0
+=======
+        gross_price_unit = gross_price_subtotal / line.quantity if line.quantity and not line.currency_id.is_zero(gross_price_subtotal) else 0.0
+>>>>>>> upstream/18.0
 
         uom = self._get_uom_unece_code(line.product_uom_id)
 
@@ -5593,12 +5744,22 @@ class AccountEdiXmlUBL20(models.AbstractModel):
         }
 
     def _get_invoice_line_tax_totals_vals_list(self, line, taxes_vals):
+<<<<<<< HEAD
+=======
+        # Old helper used only for non-BIS3 UBLs, removed in saas-18.4.
+        # If you change this method, please change the corresponding new helper as well (at the end of this file).
+>>>>>>> upstream/18.0
         """ Method used to fill the cac:TaxTotal node on a line level.
         Uses the same method as the invoice TaxTotal, but can be overridden in other formats.
         """
         return self._get_invoice_tax_totals_vals_list(line.move_id, taxes_vals)
 
     def _get_invoice_line_vals(self, line, line_id, taxes_vals):
+<<<<<<< HEAD
+=======
+        # Old helper used only for non-BIS3 UBLs, removed in saas-18.4.
+        # If you change this method, please change the corresponding new helper as well (at the end of this file).
+>>>>>>> upstream/18.0
         """ Method used to fill the cac:{Invoice,CreditNote,DebitNote}Line node.
         It provides information about the document line.
 
@@ -5633,6 +5794,7 @@ class AccountEdiXmlUBL20(models.AbstractModel):
         }
 
     def _get_invoice_monetary_total_vals(self, invoice, taxes_vals, line_extension_amount, allowance_total_amount, charge_total_amount):
+<<<<<<< HEAD
         """ Method used to fill the cac:{Legal,Requested}MonetaryTotal node"""
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5867,6 +6029,11 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+        # Old helper used only for non-BIS3 UBLs, removed in saas-18.4.
+        # If you change this method, please change the corresponding new helper as well (at the end of this file).
+        """ Method used to fill the cac:{Legal,Requested}MonetaryTotal node"""
+>>>>>>> upstream/18.0
         # We only handle rounding amounts that do not belong to any tax ('add_invoice_line' cash rounding strategy).
         # Rounding amounts belonging to a tax ('biggest_tax' strategy) are included already in the tax amounts.
         rounding_amls = invoice.line_ids.filtered(lambda line: line.display_type == 'rounding' and not line.tax_line_id)
@@ -5948,6 +6115,9 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6186,11 +6356,14 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'tax_inclusive_amount': invoice.amount_total,
             'allowance_total_amount': allowance_total_amount or None,
             'charge_total_amount': charge_total_amount or None,
             'prepaid_amount': invoice.amount_total - invoice.amount_residual,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6427,6 +6600,9 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6586,18 +6762,33 @@ class AccountEdiXmlUBL20(models.AbstractModel):
         }
 
     def _apply_invoice_tax_filter(self, base_line, tax_values):
+<<<<<<< HEAD
+=======
+        # Old helper used only for non-BIS3 UBLs, removed in saas-18.4.
+        # If you change this method, please change the corresponding new helper as well (at the end of this file).
+>>>>>>> upstream/18.0
         """
             To be overridden to apply a specific tax filter
         """
         return True
 
     def _apply_invoice_line_filter(self, invoice_line):
+<<<<<<< HEAD
+=======
+        # Old helper used only for non-BIS3 UBLs, removed in saas-18.4.
+        # If you change this method, please change the corresponding new helper as well (at the end of this file).
+>>>>>>> upstream/18.0
         """
             To be overridden to apply a specific invoice line filter
         """
         return True
 
     def _get_early_payment_discount_grouped_by_tax_rate(self, invoice):
+<<<<<<< HEAD
+=======
+        # Old helper used only for non-BIS3 UBLs, removed in saas-18.4.
+        # If you change this method, please change the corresponding new helper as well (at the end of this file).
+>>>>>>> upstream/18.0
         """
         Get the early payment discounts grouped by the tax rate of the product it is linked to
         :returns {float: float}: mapping tax amounts to early payment discount amounts
@@ -6611,6 +6802,11 @@ class AccountEdiXmlUBL20(models.AbstractModel):
         return tax_to_discount
 
     def _get_tax_grouping_key(self, base_line, tax_data):
+<<<<<<< HEAD
+=======
+        # Old helper used only for non-BIS3 UBLs, removed in saas-18.4.
+        # If you change this method, please change the corresponding new helper as well (at the end of this file).
+>>>>>>> upstream/18.0
         tax = tax_data['tax']
         customer = base_line['record'].move_id.commercial_partner_id
         supplier = base_line['record'].move_id.company_id.partner_id.commercial_partner_id
@@ -6628,6 +6824,11 @@ class AccountEdiXmlUBL20(models.AbstractModel):
         return grouping_key
 
     def _export_invoice_vals(self, invoice):
+<<<<<<< HEAD
+=======
+        # Old helper used only for non-BIS3 UBLs, removed in saas-18.4.
+        # If you change this method, please change the corresponding new helper as well (at the end of this file).
+>>>>>>> upstream/18.0
         # Validate the structure of the taxes
         self._validate_taxes(invoice.invoice_line_ids.tax_ids)
 
@@ -6838,6 +7039,10 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'ExchangeRateType_template': 'account_edi_ubl_cii.ubl_20_ExchangeRateType',
+>>>>>>> upstream/18.0
 =======
             'ExchangeRateType_template': 'account_edi_ubl_cii.ubl_20_ExchangeRateType',
 >>>>>>> upstream/18.0
@@ -7379,6 +7584,10 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                'pricing_exchange_rate_vals_list': self._get_pricing_exchange_rate_vals_list(invoice),
+>>>>>>> upstream/18.0
 =======
                 'pricing_exchange_rate_vals_list': self._get_pricing_exchange_rate_vals_list(invoice),
 >>>>>>> upstream/18.0
@@ -7780,6 +7989,11 @@ class AccountEdiXmlUBL20(models.AbstractModel):
         return vals
 
     def _get_note_vals_list(self, invoice):
+<<<<<<< HEAD
+=======
+        # Old helper used only for non-BIS3 UBLs, removed in saas-18.4.
+        # If you change this method, please change the corresponding new helper as well (at the end of this file).
+>>>>>>> upstream/18.0
         return [{'note': html2plaintext(invoice.narration)}] if invoice.narration else []
 
     def _export_invoice_constraints(self, invoice, vals):
@@ -7804,6 +8018,11 @@ class AccountEdiXmlUBL20(models.AbstractModel):
         return etree.tostring(cleanup_xml_node(xml_content), xml_declaration=True, encoding='UTF-8'), set(errors)
 
     def _get_document_type_code_vals(self, invoice, invoice_data):
+<<<<<<< HEAD
+=======
+        # Old helper used only for non-BIS3 UBLs, removed in saas-18.4.
+        # If you change this method, please change the corresponding new helper as well (at the end of this file).
+>>>>>>> upstream/18.0
         """Returns the values used for the `DocumentTypeCode` node"""
         # To be overriden by custom format if required
         return {'attrs': {}, 'value': None}
@@ -7944,7 +8163,11 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # ==== Document level AllowanceCharge, Prepaid Amounts, Invoice Lines ====
+=======
+        # ==== Document level AllowanceCharge, Prepaid Amounts, Invoice Lines, Payable Rounding Amount ====
+>>>>>>> upstream/18.0
 =======
         # ==== Document level AllowanceCharge, Prepaid Amounts, Invoice Lines, Payable Rounding Amount ====
 >>>>>>> upstream/18.0
@@ -8265,7 +8488,12 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         line_vals = allowance_charges_line_vals + invoice_line_vals
+=======
+        rounding_line_vals, rounding_logs = self._import_rounding_amount(invoice, tree, './{*}LegalMonetaryTotal/{*}PayableRoundingAmount', qty_factor)
+        line_vals = allowance_charges_line_vals + invoice_line_vals + rounding_line_vals
+>>>>>>> upstream/18.0
 =======
         rounding_line_vals, rounding_logs = self._import_rounding_amount(invoice, tree, './{*}LegalMonetaryTotal/{*}PayableRoundingAmount', qty_factor)
         line_vals = allowance_charges_line_vals + invoice_line_vals + rounding_line_vals
@@ -8662,7 +8890,11 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         logs += partner_logs + currency_logs + line_logs + allowance_charges_logs
+=======
+        logs += partner_logs + currency_logs + line_logs + allowance_charges_logs + rounding_logs
+>>>>>>> upstream/18.0
 =======
         logs += partner_logs + currency_logs + line_logs + allowance_charges_logs + rounding_logs
 >>>>>>> upstream/18.0
@@ -8994,7 +9226,10 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9221,6 +9456,9 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9477,9 +9715,12 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # For each tax in our tax total, get the amount as well as the total in the xml.
         for elem in tree.findall('.//{*}TaxTotal/{*}TaxSubtotal'):
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9717,6 +9958,9 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9961,6 +10205,7 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     tax_total = float(amount.text)
                     tax_line = invoice.line_ids.filtered(lambda line: line.tax_line_id in taxes)[:1]
                     if tax_line:
@@ -9969,6 +10214,8 @@ class AccountEdiXmlUBL20(models.AbstractModel):
                         if abs(tax_total - tax_line_amount) <= 0.05:
                             tax_line.amount_currency = tax_total * sign
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10209,6 +10456,9 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10474,7 +10724,10 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10865,7 +11118,12 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         vals['base_lines'] = base_lines
+=======
+        vals['base_lines'] = [base_line for base_line in base_lines if base_line['special_type'] != 'cash_rounding']
+        vals['cash_rounding_base_lines'] = [base_line for base_line in base_lines if base_line['special_type'] == 'cash_rounding']
+>>>>>>> upstream/18.0
 =======
         vals['base_lines'] = [base_line for base_line in base_lines if base_line['special_type'] != 'cash_rounding']
         vals['cash_rounding_base_lines'] = [base_line for base_line in base_lines if base_line['special_type'] == 'cash_rounding']
@@ -11362,7 +11620,10 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11598,6 +11859,9 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12001,7 +12265,10 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12237,12 +12504,15 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             for base_line in vals['cash_rounding_base_lines']:
                 tax_details = base_line['tax_details']
                 vals[f'cash_rounding_base_amount{currency_suffix}'] += tax_details[f'total_excluded{currency_suffix}']
 
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12475,6 +12745,9 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12908,7 +13181,10 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13144,6 +13420,9 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13541,9 +13820,12 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'cac:StandardItemIdentification': {
                 'cbc:ID': {'_text': product.barcode},
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13771,6 +14053,9 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14068,6 +14353,10 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if grouping_key
+>>>>>>> upstream/18.0
 =======
             if grouping_key
 >>>>>>> upstream/18.0
@@ -14421,6 +14710,9 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

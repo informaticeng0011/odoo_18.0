@@ -74,6 +74,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* sale
 # 
 # Translators:
@@ -671,6 +672,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # * sale
 #
 # Translators:
@@ -751,6 +754,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -902,6 +908,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1640,6 +1647,10 @@ msgstr ""
 "POT-Creation-Date: 2025-07-11 18:39+0000\n"
 "PO-Revision-Date: 2025-10-27 22:20+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-07-11 18:39+0000\n"
+"PO-Revision-Date: 2025-10-27 22:20+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: \"Marianna Ciofani (cima)\" <cima@odoo.com>\n"
 "Language-Team: Italian <https://translate.odoo.com/projects/odoo-18/sale/it/>"
 "\n"
@@ -1723,6 +1734,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1953,7 +1967,11 @@ msgid "# Sale Orders"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "# Ordini di vendita"
+=======
+msgstr "N. ordini di vendita"
+>>>>>>> upstream/18.0
 =======
 msgstr "N. ordini di vendita"
 >>>>>>> upstream/18.0
@@ -2281,7 +2299,11 @@ msgid "'PRO-FORMA - %s' % (object.name)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "\"PRO FORMA - %s\" % (object.name)"
+=======
+msgstr "\"PROFORMA - %s\" % (object.name)"
+>>>>>>> upstream/18.0
 =======
 msgstr "\"PROFORMA - %s\" % (object.name)"
 >>>>>>> upstream/18.0
@@ -3240,7 +3262,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <t t-set=\"doc_name\" t-value=\"'quotation' if object.state in ('draft', 'sent') else 'order'\"/>\n"
+=======
+"        <t t-set=\"doc_name\" t-value=\"'preventivo' if object.state in ('draft', 'sent') else 'ordine'\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "        <t t-set=\"doc_name\" t-value=\"'preventivo' if object.state in ('draft', 'sent') else 'ordine'\"/>\n"
 >>>>>>> upstream/18.0
@@ -3817,7 +3843,11 @@ msgid "<i class=\"fa fa-print me-1\"/>View Details"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<i class=\"fa fa-print me-1\"/>Mostra dettagli"
+=======
+msgstr "<i class=\"fa fa-print me-1\"/>Stampa PDF"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-print me-1\"/>Stampa PDF"
 >>>>>>> upstream/18.0
@@ -4368,6 +4398,7 @@ msgstr "<span>Avviso: l'ordine può essere un duplicato di</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -4386,6 +4417,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4748,6 +4781,9 @@ msgstr "<strong class=\"d-block mt-3\">Indirizzo di spedizione</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5131,11 +5167,14 @@ msgstr "<strong>Addetto vendite</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<strong>Shipping Address</strong>"
 msgstr "<strong>Indirizzo di spedizione</strong>"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.report_saleorder_document
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5542,8 +5581,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Seleziona il tipo di formato negli ordini di vendita e forza la quantità ad "
 "essere un multiplo del numero di unità contenute nel formato"
+=======
+"Possibilità di selezionare il tipo di confezione negli ordini di vendita e "
+"di forzare una quantità come multiplo del numero di unità della confezione."
+>>>>>>> upstream/18.0
 =======
 "Possibilità di selezionare il tipo di confezione negli ordini di vendita e "
 "di forzare una quantità come multiplo del numero di unità della confezione."
@@ -5932,7 +5976,11 @@ msgid "Accept & Sign Quotation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Accetta e firma il preventivo"
+=======
+msgstr "Visualizza e firma il preventivo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Visualizza e firma il preventivo"
 >>>>>>> upstream/18.0
@@ -6847,9 +6895,12 @@ msgstr "Struttura documento azienda"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Compute shipping costs and ship with DHL"
 msgstr "Calcolo dei costi di spedizione e invio con DHL"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7078,6 +7129,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7310,9 +7364,12 @@ msgstr "Calcolo dei costi di spedizione e invio con Easypost"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Compute shipping costs and ship with FedEx"
 msgstr "Calcolo dei costi di spedizione e invio con FedEx"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7541,6 +7598,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7783,6 +7843,7 @@ msgstr "Calcolo dei costi di spedizione e invio con Starshipit"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Compute shipping costs and ship with UPS"
 msgstr "Calcolo dei costi di spedizione e invio con UPS"
 
@@ -7791,6 +7852,8 @@ msgstr "Calcolo dei costi di spedizione e invio con UPS"
 msgid "Compute shipping costs and ship with USPS"
 msgstr "Calcolo dei costi di spedizione e invio con USPS"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8028,6 +8091,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8386,7 +8452,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Creazione fatture, registrazione pagamenti e conversazioni con i clienti."
+=======
+"Crea fatture, registra pagamenti e tieni traccia delle comunicazioni con i "
+"clienti."
+>>>>>>> upstream/18.0
 =======
 "Crea fatture, registra pagamenti e tieni traccia delle comunicazioni con i "
 "clienti."
@@ -8811,7 +8882,11 @@ msgid "Credit & Debit card (via Stripe)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Carte di credito e di debito (tramite Stripe)"
+=======
+msgstr "Carta di credito/debito (via Stripe)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Carta di credito/debito (via Stripe)"
 >>>>>>> upstream/18.0
@@ -9127,7 +9202,11 @@ msgid "Custom"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Personalizzata"
+=======
+msgstr "Personalizzato"
+>>>>>>> upstream/18.0
 =======
 msgstr "Personalizzato"
 >>>>>>> upstream/18.0
@@ -9455,7 +9534,11 @@ msgid "Customer Entity"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ente del cliente"
+=======
+msgstr "Entità cliente"
+>>>>>>> upstream/18.0
 =======
 msgstr "Entità cliente"
 >>>>>>> upstream/18.0
@@ -9798,7 +9881,10 @@ msgstr "Clienti"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10026,6 +10112,9 @@ msgstr "Connettore DHL"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10277,7 +10366,11 @@ msgid "Deduct down payments"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Dedurre gli acconti"
+=======
+msgstr "Detrai anticipi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Detrai anticipi"
 >>>>>>> upstream/18.0
@@ -10796,7 +10889,10 @@ msgstr "Distribuzione conto analitico"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11024,6 +11120,9 @@ msgstr "Documentazione"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11300,6 +11399,7 @@ msgid "Email"
 msgstr "E-mail"
 
 #. module: sale
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11727,6 +11827,8 @@ msgstr "Procedura guidata composizione e-mail"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model,name:sale.model_mail_compose_message
 msgid "Email composition wizard"
 msgstr "Procedura composizione e-mail"
@@ -11805,6 +11907,9 @@ msgstr "Procedura composizione e-mail"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12084,6 +12189,7 @@ msgid "Extra line with %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Riga extra con %s"
 
 #. module: sale
@@ -12093,6 +12199,8 @@ msgstr "Riga extra con %s"
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12317,6 +12425,9 @@ msgstr "Riga aggiuntiva con %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12585,7 +12696,11 @@ msgid "Forbidden values on non-accountable sale order line"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Valori vietati nella riga dell'ordine di vendita"
+=======
+msgstr "Valori vietati su una riga ordine di vendita non rendicontabile"
+>>>>>>> upstream/18.0
 =======
 msgstr "Valori vietati su una riga ordine di vendita non rendicontabile"
 >>>>>>> upstream/18.0
@@ -12917,7 +13032,11 @@ msgid "Generate Sales Payment Link"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Generazione link di pagamento vendita"
+=======
+msgstr "Generazione link di pagamento vendite"
+>>>>>>> upstream/18.0
 =======
 msgstr "Generazione link di pagamento vendite"
 >>>>>>> upstream/18.0
@@ -13218,7 +13337,11 @@ msgid "Generate a Payment Link"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Genera un link di pagamento"
+=======
+msgstr "Genera link di pagamento"
+>>>>>>> upstream/18.0
 =======
 msgstr "Genera link di pagamento"
 >>>>>>> upstream/18.0
@@ -13599,7 +13722,11 @@ msgid "Has Pricelist Changed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Listino prezzi cambiato"
+=======
+msgstr "Ha listino prezzi cambiato"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ha listino prezzi cambiato"
 >>>>>>> upstream/18.0
@@ -13979,7 +14106,11 @@ msgid "Import Amazon orders and sync deliveries"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Importazione ordini Amazon e sincronizzazione consegne"
+=======
+msgstr "Importazione ordini Amazon e sincronizzazione delle consegne"
+>>>>>>> upstream/18.0
 =======
 msgstr "Importazione ordini Amazon e sincronizzazione delle consegne"
 >>>>>>> upstream/18.0
@@ -14385,7 +14516,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Entrate da fatturazione per il mese corrente. È l'importo che il canale di "
+=======
+"Ricavo da fatturazione per il mese corrente. È l'importo che il canale di "
+>>>>>>> upstream/18.0
 =======
 "Ricavo da fatturazione per il mese corrente. È l'importo che il canale di "
 >>>>>>> upstream/18.0
@@ -14981,7 +15116,11 @@ msgid "Manually set quantities on order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Quantità impostate manualmente nell'ordine"
+=======
+msgstr "Impostazione manuale quantità ordine"
+>>>>>>> upstream/18.0
 =======
 msgstr "Impostazione manuale quantità ordine"
 >>>>>>> upstream/18.0
@@ -15288,8 +15427,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Fogli ore sul contratto: fattura basata sulle ore registrate nel relativo foglio ore. \n"
 "Creazione lavoro e registrazione ore: crea un lavoro alla conferma dell'ordine di vendita e registra le ore lavorative. "
+=======
+"Fogli ore su contratto: fattura basata sulle ore registrate nel relativo foglio ore.\n"
+"Creazione lavoro e registrazione ore: crea un lavoro alla conferma dell'ordine di vendita registrando le ore lavorative."
+>>>>>>> upstream/18.0
 =======
 "Fogli ore su contratto: fattura basata sulle ore registrate nel relativo foglio ore.\n"
 "Creazione lavoro e registrazione ore: crea un lavoro alla conferma dell'ordine di vendita registrando le ore lavorative."
@@ -15725,7 +15869,13 @@ msgid "Missing required fields on accountable sale order line."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Campi obbligatori mancanti nelle righe dell'ordine di vendita."
+=======
+msgstr ""
+"Campi obbligatori mancanti su una riga rendicontabile dell'ordine di "
+"vendita."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "Campi obbligatori mancanti su una riga rendicontabile dell'ordine di "
@@ -16464,11 +16614,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Lingua di traduzione opzionale (codice ISO) da selezionare quando si invia "
 "un'email. Se non impostato, verrà usata la versione inglese. Di solito "
 "dovrebbe essere un'espressione segnaposto che fornisce la lingua "
 "appropriata, ad esempio {{ object.partner_id.lang }}."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -16692,6 +16845,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17116,7 +17272,11 @@ msgid "Payment Provider"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Fornitore di pagamenti"
+=======
+msgstr "Fornitore di pagamento"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fornitore di pagamento"
 >>>>>>> upstream/18.0
@@ -17506,7 +17666,11 @@ msgid "Payment Providers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Fornitori di pagamenti"
+=======
+msgstr "Fornitori di pagamento"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fornitori di pagamento"
 >>>>>>> upstream/18.0
@@ -18241,7 +18405,11 @@ msgid "Product Packaging"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Imballaggio prodotti"
+=======
+msgstr "Imballaggio prodotto"
+>>>>>>> upstream/18.0
 =======
 msgstr "Imballaggio prodotto"
 >>>>>>> upstream/18.0
@@ -18631,7 +18799,11 @@ msgid "Qty To Deliver"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Quantità da consegnare"
+=======
+msgstr "Q.tà da consegnare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Q.tà da consegnare"
 >>>>>>> upstream/18.0
@@ -19083,7 +19255,11 @@ msgid "Rendering Model"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Rendering Model"
+=======
+msgstr "Modello di visualizzazione"
+>>>>>>> upstream/18.0
 =======
 msgstr "Modello di visualizzazione"
 >>>>>>> upstream/18.0
@@ -19172,6 +19348,7 @@ msgstr "Modello di visualizzazione"
 #. module: sale
 #: model:ir.ui.menu,name:sale.menu_sale_report
 msgid "Reporting"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19805,6 +19982,9 @@ msgstr "Rendicontazione"
 =======
 msgstr "Rendicontazione"
 >>>>>>> upstream/18.0
+=======
+msgstr "Rendicontazione"
+>>>>>>> upstream/18.0
 
 #. module: sale
 #: model:ir.model.fields,help:sale.field_sale_order__require_payment
@@ -19930,7 +20110,11 @@ msgid "Revenues"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Entrate"
+=======
+msgstr "Ricavi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ricavi"
 >>>>>>> upstream/18.0
@@ -20231,7 +20415,11 @@ msgid "Revenues generated by the campaign"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Entrate generate dalla campagna"
+=======
+msgstr "Ricavi generati dalla campagna"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ricavi generati dalla campagna"
 >>>>>>> upstream/18.0
@@ -20696,7 +20884,11 @@ msgid "Sales Order Item"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Articolo ordine di vendita"
+=======
+msgstr "Voce ordine di vendita"
+>>>>>>> upstream/18.0
 =======
 msgstr "Voce ordine di vendita"
 >>>>>>> upstream/18.0
@@ -21162,7 +21354,10 @@ msgstr "Addetti vendite"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -21489,6 +21684,9 @@ msgstr "Messaggio pianificato"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -22099,7 +22297,11 @@ msgid "Sum of Untaxed Total"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Somma del totale non tassato"
+=======
+msgstr "Somma totale imponibile"
+>>>>>>> upstream/18.0
 =======
 msgstr "Somma totale imponibile"
 >>>>>>> upstream/18.0
@@ -22671,7 +22873,11 @@ msgid "The payment communication of this sale order."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "La comunicazione di pagamento per questo ordine di vendita."
+=======
+msgstr "Le informazioni di pagamento per questo ordine di vendita."
+>>>>>>> upstream/18.0
 =======
 msgstr "Le informazioni di pagamento per questo ordine di vendita."
 >>>>>>> upstream/18.0
@@ -23073,7 +23279,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Data di consegna promessa al cliente. Se impostata, il buono di consegna "
+=======
+"Data di consegna promessa al cliente. Se impostata, l'ordine di consegna "
+>>>>>>> upstream/18.0
 =======
 "Data di consegna promessa al cliente. Se impostata, l'ordine di consegna "
 >>>>>>> upstream/18.0
@@ -23426,12 +23636,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "analisi controllano le entrate ordinandole per diversi criteri di gruppo "
 "(addetto vendite, partner, prodotto ecc...). Utilizzare il resoconto per "
 "eseguire analisi su vendite non ancora fatturate. Per analizzare il volume "
 "di affari deve essere utilizzato il resoconto di analisi delle fatture "
 "dell'applicazione di contabilità."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -23656,6 +23869,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -23887,6 +24103,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Questo resoconto esegue analisi sui preventivi. Le analisi controllano le "
 "entrate ordinandole per diversi criteri di gruppo (addetto vendite, partner,"
 " prodotto ecc...). Utilizzare il resoconto per eseguire analisi su vendite "
@@ -23894,6 +24111,8 @@ msgstr ""
 "utilizzato il resoconto di analisi delle fatture dell'applicazione di "
 "contabilità."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -24119,6 +24338,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -24351,7 +24573,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "controllano le entrate ordinandole per diversi criteri di gruppo (addetto "
+=======
+"controllano i ricavi ordinandoli per diversi criteri di gruppo (addetto "
+>>>>>>> upstream/18.0
 =======
 "controllano i ricavi ordinandoli per diversi criteri di gruppo (addetto "
 >>>>>>> upstream/18.0
@@ -24779,6 +25005,7 @@ msgstr "Transazioni"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -24797,6 +25024,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -25096,6 +25325,9 @@ msgstr "Nome prodotto tradotto"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -25395,6 +25627,10 @@ msgstr "Scrivi per cercare un prodotto..."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 >>>>>>> upstream/18.0
@@ -25700,6 +25936,10 @@ msgstr "Connettore UPS"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 >>>>>>> upstream/18.0
@@ -26189,12 +26429,15 @@ msgstr "VIsualizza dettagli"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "View Order"
 msgstr "Mostra ordine"
 
 #. module: sale
 #. odoo-python
 #: code:addons/sale/models/sale_order.py:0
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -26581,7 +26824,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Qui è possibile impostare il tipo di comunicazione che comparirà negli "
+=======
+"Qui è possibile impostare il tipo di informazioni che compariranno negli "
+>>>>>>> upstream/18.0
 =======
 "Qui è possibile impostare il tipo di informazioni che compariranno negli "
 >>>>>>> upstream/18.0
@@ -26902,8 +27149,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Non puoi modificare il tipo di prodotto perché è già utiizzato negli ordini "
 "di vendita."
+=======
+"Impossibile modificare la tipologia di prodotto, è già utilizzata negli "
+"ordini di vendita."
+>>>>>>> upstream/18.0
 =======
 "Impossibile modificare la tipologia di prodotto, è già utilizzata negli "
 "ordini di vendita."
@@ -27392,7 +27644,11 @@ msgid "for the"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "per"
+=======
+msgstr "per un importo di"
+>>>>>>> upstream/18.0
 =======
 msgstr "per un importo di"
 >>>>>>> upstream/18.0
@@ -27704,7 +27960,11 @@ msgid "quote."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "preventivo."
+=======
+msgstr "."
+>>>>>>> upstream/18.0
 =======
 msgstr "."
 >>>>>>> upstream/18.0
@@ -28025,7 +28285,11 @@ msgid "you confirm acceptance on the behalf of"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "confermi di accettare a nome di"
+=======
+msgstr "confermi di accettare il preventivo a nome di"
+>>>>>>> upstream/18.0
 =======
 msgstr "confermi di accettare il preventivo a nome di"
 >>>>>>> upstream/18.0
