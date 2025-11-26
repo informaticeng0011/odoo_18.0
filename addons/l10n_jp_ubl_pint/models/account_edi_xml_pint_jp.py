@@ -21,9 +21,12 @@ class AccountEdiXmlUBLPINTJP(models.AbstractModel):
         return f"{invoice.name.replace('/', '_')}_pint_jp.xml"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _get_partner_address_vals(self, partner):
         # EXTENDS account_edi_ubl_cii
 =======
+=======
+>>>>>>> upstream/18.0
     # -------------------------------------------------------------------------
     # EXPORT: Old helpers
     # -------------------------------------------------------------------------
@@ -32,6 +35,9 @@ class AccountEdiXmlUBLPINTJP(models.AbstractModel):
         # EXTENDS account_edi_ubl_cii
         # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
         # If you change this method, please change the corresponding new helper (at the end of this file).
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         vals = super()._get_partner_address_vals(partner)
         vals.pop('country_subentity_code', None)
@@ -40,6 +46,11 @@ class AccountEdiXmlUBLPINTJP(models.AbstractModel):
     def _get_partner_party_legal_entity_vals_list(self, partner):
         # EXTENDS account_edi_ubl_cii
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
+        # If you change this method, please change the corresponding new helper (at the end of this file).
+>>>>>>> upstream/18.0
 =======
         # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
         # If you change this method, please change the corresponding new helper (at the end of this file).
@@ -52,6 +63,11 @@ class AccountEdiXmlUBLPINTJP(models.AbstractModel):
     def _get_invoice_period_vals_list(self, invoice):
         # EXTENDS
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
+        # If you change this method, please change the corresponding new helper (at the end of this file).
+>>>>>>> upstream/18.0
 =======
         # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
         # If you change this method, please change the corresponding new helper (at the end of this file).
@@ -66,6 +82,12 @@ class AccountEdiXmlUBLPINTJP(models.AbstractModel):
 
     def _get_invoice_tax_totals_vals_list(self, invoice, taxes_vals):
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
+        # If you change this method, please change the corresponding new helper (at the end of this file).
+
+>>>>>>> upstream/18.0
 =======
         # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
         # If you change this method, please change the corresponding new helper (at the end of this file).
@@ -105,6 +127,11 @@ class AccountEdiXmlUBLPINTJP(models.AbstractModel):
     def _export_invoice_vals(self, invoice):
         # EXTENDS account_edi_ubl_cii
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
+        # If you change this method, please change the corresponding new helper (at the end of this file).
+>>>>>>> upstream/18.0
 =======
         # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
         # If you change this method, please change the corresponding new helper (at the end of this file).
@@ -129,7 +156,10 @@ class AccountEdiXmlUBLPINTJP(models.AbstractModel):
                     party_vals['party_vals']['party_tax_scheme_vals'][0]['company_id'] = partner.vat
         return vals
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     # -------------------------------------------------------------------------
     # EXPORT: New (dict_to_xml) helpers
@@ -186,4 +216,7 @@ class AccountEdiXmlUBLPINTJP(models.AbstractModel):
         # optional, if set: scheme_id should be taken from ISO/IEC 6523 list
         party_node['cac:PartyLegalEntity']['cbc:CompanyID'] = None
         return party_node
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

@@ -16,6 +16,10 @@ class TestMyUBLPint(AccountTestInvoicingCommon):
     def setUpClass(cls):
         super().setUpClass()
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        cls.env['ir.config_parameter'].set_param('account_edi_ubl_cii.use_new_dict_to_xml_helpers', 'False')
+>>>>>>> upstream/18.0
 =======
         cls.env['ir.config_parameter'].set_param('account_edi_ubl_cii.use_new_dict_to_xml_helpers', 'False')
 >>>>>>> upstream/18.0
@@ -58,7 +62,10 @@ class TestMyUBLPint(AccountTestInvoicingCommon):
         )
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_invoice_no_taxes_new(self):
         self.env['ir.config_parameter'].set_param('account_edi_ubl_cii.use_new_dict_to_xml_helpers', 'True')
 
@@ -76,6 +83,9 @@ class TestMyUBLPint(AccountTestInvoicingCommon):
             self.get_xml_tree_from_string(expected_xml),
         )
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_invoice_with_sst(self):
         invoice = self.init_invoice('out_invoice', currency=self.other_currency, products=self.product_a)
@@ -103,9 +113,15 @@ class TestMyUBLPint(AccountTestInvoicingCommon):
             self.get_xml_tree_from_string(expected_xml),
         )
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_invoice_with_sst_new(self):
         self.env['ir.config_parameter'].set_param('account_edi_ubl_cii.use_new_dict_to_xml_helpers', 'True')
         self.test_invoice_with_sst()
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

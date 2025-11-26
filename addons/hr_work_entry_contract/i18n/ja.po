@@ -27,6 +27,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* hr_work_entry_contract
 # 
 # Translators:
@@ -402,6 +403,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # * hr_work_entry_contract
 #
 # Translators:
@@ -435,6 +438,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -493,6 +499,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -897,6 +904,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-10-28 19:44+0000\n"
 "Last-Translator: \"Junko Augias (juau)\" <juau@odoo.com>\n"
 "Language-Team: Japanese <https://translate.odoo.com/projects/odoo-18/"
@@ -933,6 +942,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1000,6 +1012,7 @@ msgid ""
 "    "
 msgstr ""
 "\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1322,6 +1335,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "        勤務記録生成元を定義します\n"
 "\n"
 "        勤務スケジュール: 勤務記録は以下の勤務時間から生成されます\n"
@@ -1432,6 +1447,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1766,7 +1784,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "から%(date_end)sへの複数契約を持っています。作業エントリは複数の契約で重複することはできません。 "
+=======
+"から%(date_end)sへの複数契約を持っています。勤務記録は複数の契約で重複することはできません。 "
+>>>>>>> upstream/18.0
 =======
 "から%(date_end)sへの複数契約を持っています。勤務記録は複数の契約で重複することはできません。 "
 >>>>>>> upstream/18.0
@@ -2199,7 +2221,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "title=\"Warning\"/>検証済の作業エントリを再生成することはできません。"
+=======
+"title=\"Warning\"/>検証済の勤務記録を再生成することはできません。"
+>>>>>>> upstream/18.0
 =======
 "title=\"Warning\"/>検証済の勤務記録を再生成することはできません。"
 >>>>>>> upstream/18.0
@@ -2635,7 +2661,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<span class=\"text-muted\">警告: 作業エントリ再生成は、選択された期間のすべての手動変更を削除します。</span>"
+=======
+msgstr "<span class=\"text-muted\">警告: 勤務記録再生成は、選択された期間のすべての手動変更を削除します。</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"text-muted\">警告: 勤務記録再生成は、選択された期間のすべての手動変更を削除します。</span>"
 >>>>>>> upstream/18.0
@@ -3064,7 +3094,11 @@ msgid "Allow the work entry type to be linked with time off types."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "作業エントリのタイプを休暇のタイプとリンクできるようにします。"
+=======
+msgstr "勤務記録のタイプを休暇のタイプとリンクできるようにします。"
+>>>>>>> upstream/18.0
 =======
 msgstr "勤務記録のタイプを休暇のタイプとリンクできるようにします。"
 >>>>>>> upstream/18.0
@@ -3550,7 +3584,11 @@ msgid "Everybody's work entries"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "全員の作業エントリ"
+=======
+msgstr "全員の勤務記録"
+>>>>>>> upstream/18.0
 =======
 msgstr "全員の勤務記録"
 >>>>>>> upstream/18.0
@@ -3994,7 +4032,11 @@ msgid "Generate Missing Work Entries"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "欠落している作業エントリの作成"
+=======
+msgstr "欠落している勤務記録の作成"
+>>>>>>> upstream/18.0
 =======
 msgstr "欠落している勤務記録の作成"
 >>>>>>> upstream/18.0
@@ -4438,6 +4480,7 @@ msgid "HR Work Entry"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "HR作業エントリ"
 =======
 msgstr "HR勤務記録"
@@ -4757,10 +4800,14 @@ msgstr "人事勤務記録"
 =======
 msgstr "人事勤務記録"
 >>>>>>> upstream/18.0
+=======
+msgstr "人事勤務記録"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry_contract
 #: model:ir.model,name:hr_work_entry_contract.model_hr_work_entry_type
 msgid "HR Work Entry Type"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5186,6 +5233,9 @@ msgstr "人事勤務記録タイプ"
 =======
 msgstr "人事勤務記録タイプ"
 >>>>>>> upstream/18.0
+=======
+msgstr "人事勤務記録タイプ"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry_contract
 #: model:hr.work.entry.type,name:hr_work_entry_contract.work_entry_type_home_working
@@ -5312,7 +5362,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "作業エントリを再生成するには、ウィザードに従業員ID、date_from、date_toを指定する必要があります。さらに、date_fromとdate_toで定義された時間間隔には、検証済の作業エントリが含まれていてはいけません。"
+=======
+"勤務記録を再生成するには、ウィザードに従業員ID、date_from、date_toを指定する必要があります。さらに、date_fromとdate_toで定義された時間間隔には、検証済の勤務記録が含まれていてはいけません。"
+>>>>>>> upstream/18.0
 =======
 "勤務記録を再生成するには、ウィザードに従業員ID、date_from、date_toを指定する必要があります。さらに、date_fromとdate_toで定義された時間間隔には、検証済の勤務記録が含まれていてはいけません。"
 >>>>>>> upstream/18.0
@@ -5744,7 +5798,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr " 無効なオプション: 完全フレックスのカレンダの場合、作業エントリ元は'就業時間'にはできません。"
+=======
+msgstr " 無効なオプション: 完全フレックスのカレンダの場合、勤務記録元は'就業時間'にはできません。"
+>>>>>>> upstream/18.0
 =======
 msgstr " 無効なオプション: 完全フレックスのカレンダの場合、勤務記録元は'就業時間'にはできません。"
 >>>>>>> upstream/18.0
@@ -6209,7 +6267,11 @@ msgid "Regenerate Employee Work Entries"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "従業員作業エントリを再生成"
+=======
+msgstr "従業員勤務記録を再生成"
+>>>>>>> upstream/18.0
 =======
 msgstr "従業員勤務記録を再生成"
 >>>>>>> upstream/18.0
@@ -6640,7 +6702,11 @@ msgid "Regenerate Work Entries"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "作業エントリの再生成"
+=======
+msgstr "勤務記録の再生成"
+>>>>>>> upstream/18.0
 =======
 msgstr "勤務記録の再生成"
 >>>>>>> upstream/18.0
@@ -7086,7 +7152,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "申し訳ありませんが、取消済の契約書からの作業エントリは許可されていません。"
+=======
+msgstr "申し訳ありませんが、取消済の契約書からの勤務記録は許可されていません。"
+>>>>>>> upstream/18.0
 =======
 msgstr "申し訳ありませんが、取消済の契約書からの勤務記録は許可されていません。"
 >>>>>>> upstream/18.0
@@ -7521,7 +7591,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "'%(latest_available_date)s'である必要があり、 生成された作業エントリの時間間隔に対応します。"
+=======
+"'%(latest_available_date)s'である必要があり、 生成された勤務記録の時間間隔に対応します。"
+>>>>>>> upstream/18.0
 =======
 "'%(latest_available_date)s'である必要があり、 生成された勤務記録の時間間隔に対応します。"
 >>>>>>> upstream/18.0
@@ -7950,7 +8024,11 @@ msgid "This work entry cannot be validated. The work entry type is undefined."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "この作業エントリは検証することができません。作業エントリタイプが未定義です。"
+=======
+msgstr "この勤務記録は検証することができません。勤務記録タイプが未定義です。"
+>>>>>>> upstream/18.0
 =======
 msgstr "この勤務記録は検証することができません。勤務記録タイプが未定義です。"
 >>>>>>> upstream/18.0
@@ -8399,7 +8477,11 @@ msgid "Work Entries"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "作業エントリ"
+=======
+msgstr "勤務記録"
+>>>>>>> upstream/18.0
 =======
 msgstr "勤務記録"
 >>>>>>> upstream/18.0
@@ -8828,7 +8910,11 @@ msgid "Work Entries Within Interval"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "間隔内の作業エントリ"
+=======
+msgstr "間隔内の勤務記録"
+>>>>>>> upstream/18.0
 =======
 msgstr "間隔内の勤務記録"
 >>>>>>> upstream/18.0
@@ -9257,7 +9343,11 @@ msgid "Work Entry Regeneration"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "作業エントリ再生成"
+=======
+msgstr "勤務記録再生成"
+>>>>>>> upstream/18.0
 =======
 msgstr "勤務記録再生成"
 >>>>>>> upstream/18.0
@@ -9687,7 +9777,11 @@ msgid "Work Entry Source"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "作業エントリ元"
+=======
+msgstr "勤務記録元"
+>>>>>>> upstream/18.0
 =======
 msgstr "勤務記録元"
 >>>>>>> upstream/18.0
@@ -10116,7 +10210,11 @@ msgid "Work Entry Source Calendar Invalid"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "作業エントリ元カレンダが無効です"
+=======
+msgstr "勤務記録元カレンダが無効です"
+>>>>>>> upstream/18.0
 =======
 msgstr "勤務記録元カレンダが無効です"
 >>>>>>> upstream/18.0

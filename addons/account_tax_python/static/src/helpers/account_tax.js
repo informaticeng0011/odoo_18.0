@@ -17,6 +17,10 @@ patch(accountTaxHelpers, {
             price_unit: evaluation_context.price_unit,
             quantity: evaluation_context.quantity,
             product: evaluation_context.product,
+<<<<<<< HEAD
+=======
+            uom: evaluation_context.uom,
+>>>>>>> upstream/18.0
             base: raw_base,
         };
         return evaluateExpr(tax.formula_decoded_info.js_formula, formula_context);
@@ -97,7 +101,11 @@ patch(accountTaxHelpers, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     /** override **/
+=======
+    // EXTENDS 'account'
+>>>>>>> upstream/18.0
 =======
     // EXTENDS 'account'
 >>>>>>> upstream/18.0

@@ -319,9 +319,12 @@ class Import(models.TransientModel):
 
             target_model = Model.env[Model._fields[definition_record].comodel_name]
 <<<<<<< HEAD
+<<<<<<< HEAD
             if not target_model.has_access('read'):  # ignore if you cannot read target_model at all
                 continue
 =======
+=======
+>>>>>>> upstream/18.0
 
             # ignore if you cannot access to the target model or the field definition
             if not target_model.has_access('read'):
@@ -329,6 +332,9 @@ class Import(models.TransientModel):
             if not target_model._fields[definition_record_field].is_accessible(target_model.env):
                 continue
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             # Do not take into account the definition of archived parents,
             # we do not import archived records most of the time.
@@ -581,7 +587,13 @@ class Import(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if not encoding:
+=======
+        encoding_guessed = False
+        if not encoding:
+            encoding_guessed = True
+>>>>>>> upstream/18.0
 =======
         encoding_guessed = False
         if not encoding:
@@ -615,8 +627,11 @@ class Import(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         csv_text = csv_data.decode(encoding)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -634,6 +649,9 @@ class Import(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1614,7 +1632,11 @@ class Import(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             elif field.type == 'binary' and field.attachment and any(f in name for f in IMAGE_FIELDS) and name in import_fields:
+=======
+            elif field.type == 'binary' and field.attachment and name in import_fields:
+>>>>>>> upstream/18.0
 =======
             elif field.type == 'binary' and field.attachment and name in import_fields:
 >>>>>>> upstream/18.0

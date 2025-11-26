@@ -75,6 +75,10 @@ from odoo import models, _
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.tools import float_is_zero
+>>>>>>> upstream/18.0
 =======
 from odoo.tools import float_is_zero
 >>>>>>> upstream/18.0
@@ -320,11 +324,17 @@ class AccountEdiXmlUBLPINTANZ(models.AbstractModel):
     """
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     # -------------------------------------------------------------------------
     # EXPORT: Old helpers
     # -------------------------------------------------------------------------
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def _export_invoice_filename(self, invoice):
         # EXTENDS account_edi_ubl_cii
@@ -333,6 +343,7 @@ class AccountEdiXmlUBLPINTANZ(models.AbstractModel):
     def _get_partner_party_vals(self, partner, role):
         # EXTENDS account.edi.xml.ubl_bis3
 <<<<<<< HEAD
+<<<<<<< HEAD
         vals = super()._get_partner_party_vals(partner, role)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -527,10 +538,15 @@ class AccountEdiXmlUBLPINTANZ(models.AbstractModel):
         vals.setdefault('party_tax_scheme_vals', [])
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
         # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
         # If you change this method, please change the corresponding new helper (at the end of this file).
         vals = super()._get_partner_party_vals(partner, role)
         vals.setdefault('party_tax_scheme_vals', [])
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
         for party_tax_scheme in vals['party_tax_scheme_vals']:
@@ -540,6 +556,11 @@ class AccountEdiXmlUBLPINTANZ(models.AbstractModel):
 
     def _get_invoice_tax_totals_vals_list(self, invoice, taxes_vals):
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
+        # If you change this method, please change the corresponding new helper (at the end of this file).
+>>>>>>> upstream/18.0
 =======
         # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
         # If you change this method, please change the corresponding new helper (at the end of this file).
@@ -563,6 +584,11 @@ class AccountEdiXmlUBLPINTANZ(models.AbstractModel):
         """
         # OVERRIDE account_edi_ubl_cii
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
+        # If you change this method, please change the corresponding new helper (at the end of this file).
+>>>>>>> upstream/18.0
 =======
         # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
         # If you change this method, please change the corresponding new helper (at the end of this file).
@@ -578,6 +604,11 @@ class AccountEdiXmlUBLPINTANZ(models.AbstractModel):
     def _get_tax_category_list(self, customer, supplier, taxes):
         # EXTENDS account_edi_ubl_cii
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
+        # If you change this method, please change the corresponding new helper (at the end of this file).
+>>>>>>> upstream/18.0
 =======
         # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
         # If you change this method, please change the corresponding new helper (at the end of this file).
@@ -595,6 +626,11 @@ class AccountEdiXmlUBLPINTANZ(models.AbstractModel):
     def _get_partner_party_legal_entity_vals_list(self, partner):
         # EXTENDS account.edi.xml.ubl_bis3
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
+        # If you change this method, please change the corresponding new helper (at the end of this file).
+>>>>>>> upstream/18.0
 =======
         # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
         # If you change this method, please change the corresponding new helper (at the end of this file).
@@ -682,6 +718,7 @@ class AccountEdiXmlUBLPINTANZ(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -832,10 +869,15 @@ class AccountEdiXmlUBLPINTANZ(models.AbstractModel):
     def _get_invoice_line_item_vals(self, line, taxes_vals):
         # EXTENDS account.edi.xml.ubl_bis3
 =======
+=======
+>>>>>>> upstream/18.0
     def _get_invoice_line_item_vals(self, line, taxes_vals):
         # EXTENDS account.edi.xml.ubl_bis3
         # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
         # If you change this method, please change the corresponding new helper (at the end of this file).
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         line_item_vals = super()._get_invoice_line_item_vals(line, taxes_vals)
 
@@ -921,6 +963,7 @@ class AccountEdiXmlUBLPINTANZ(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1071,10 +1114,15 @@ class AccountEdiXmlUBLPINTANZ(models.AbstractModel):
     def _export_invoice_vals(self, invoice):
         # EXTENDS account_edi_ubl_cii
 =======
+=======
+>>>>>>> upstream/18.0
     def _export_invoice_vals(self, invoice):
         # EXTENDS account_edi_ubl_cii
         # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
         # If you change this method, please change the corresponding new helper (at the end of this file).
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         vals = super()._export_invoice_vals(invoice)
 
@@ -1090,7 +1138,10 @@ class AccountEdiXmlUBLPINTANZ(models.AbstractModel):
         return vals
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def _export_invoice_constraints_anz_partner(self, vals):
         constraints = {}
         # ALIGNED-IBR-001-AUNZ and ALIGNED-IBR-002-AUNZ
@@ -1102,6 +1153,9 @@ class AccountEdiXmlUBLPINTANZ(models.AbstractModel):
                 constraints[f'nz_{partner_type}_eas_0088'] = _("The Peppol EAS must be set to EAN (0088) if the partner country is New Zealand.")
         return constraints
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def _export_invoice_constraints(self, invoice, vals):
         # EXTENDS account_edi_ubl_cii
@@ -1188,7 +1242,10 @@ class AccountEdiXmlUBLPINTANZ(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1444,6 +1501,7 @@ class AccountEdiXmlUBLPINTANZ(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1599,6 +1657,8 @@ class AccountEdiXmlUBLPINTANZ(models.AbstractModel):
             elif partner.country_code == 'NZ' and partner.peppol_eas != '0088':
                 constraints[f'nz_{partner_type}_eas_0088'] = _("The Peppol EAS must be set to EAN (0088) if the partner country is New Zealand.")
 =======
+=======
+>>>>>>> upstream/18.0
         constraints.update(self._export_invoice_constraints_anz_partner(vals))
 
         return constraints
@@ -1713,6 +1773,9 @@ class AccountEdiXmlUBLPINTANZ(models.AbstractModel):
                            " once in the tax breakdown")
 
         constraints.update(self._export_invoice_constraints_anz_partner(vals))
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
         return constraints

@@ -42,7 +42,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from datetime import date, timedelta
+=======
+from datetime import date, datetime, time, timedelta
+>>>>>>> upstream/18.0
 =======
 from datetime import date, datetime, time, timedelta
 >>>>>>> upstream/18.0
@@ -206,6 +210,7 @@ class TestHolidaysCalendar(HttpCase, TestHrHolidaysCommon):
         self.assertEqual(last_leave.date_from.weekday(), 3, "It should be Thursday")
         self.assertEqual(last_leave.date_from.hour, expected_leave_start, "Wrong start of the day")
         self.assertEqual(last_leave.date_to.hour, expected_leave_end, "Wrong end of the day")
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -722,6 +727,8 @@ class TestHolidaysCalendar(HttpCase, TestHrHolidaysCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 
     def test_timezone_calendar_event_single_day(self):
         """
@@ -821,6 +828,9 @@ class TestHolidaysCalendar(HttpCase, TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

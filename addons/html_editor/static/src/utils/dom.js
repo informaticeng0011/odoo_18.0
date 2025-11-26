@@ -1,6 +1,10 @@
 import { closestBlock, isBlock } from "./blocks";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { isParagraphRelatedElement, isShrunkBlock, isVisible } from "./dom_info";
+=======
+import { isEmptyTextNode, isParagraphRelatedElement, isShrunkBlock, isVisible } from "./dom_info";
+>>>>>>> upstream/18.0
 =======
 import { isEmptyTextNode, isParagraphRelatedElement, isShrunkBlock, isVisible } from "./dom_info";
 >>>>>>> upstream/18.0
@@ -274,7 +278,10 @@ export function cleanTextNode(node, char, cursors) {
 
 /**
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
  * Remove all empty text nodes within the given root element
  * and update cursors for later selection restore.
  *
@@ -292,6 +299,9 @@ export function removeEmptyTextNodes(root, cursors) {
 }
 
 /**
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
  * Splits a text node in two parts.
  * If the split occurs at the beginning or the end, the text node stays

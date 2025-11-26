@@ -127,7 +127,10 @@ export class TestsSharedJsPython extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -343,6 +346,7 @@ export class TestsSharedJsPython extends Component {
                 filter_tax_function = (tax) => !params.excluded_tax_ids.includes(tax.id);
             }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1087,6 +1091,14 @@ export class TestsSharedJsPython extends Component {
 =======
                 filter_tax_function: filter_tax_function,
 >>>>>>> upstream/18.0
+=======
+            const kwargs = {
+                product: params.product,
+                product_uom: params.product_uom,
+                precision_rounding: params.precision_rounding,
+                rounding_method: params.rounding_method,
+                filter_tax_function: filter_tax_function,
+>>>>>>> upstream/18.0
             };
             const results = {
                 results: accountTaxHelpers.get_tax_details(
@@ -1118,7 +1130,12 @@ export class TestsSharedJsPython extends Component {
                     params.price_unit,
                     params.product,
                     params.original_taxes,
+<<<<<<< HEAD
                     params.new_taxes
+=======
+                    params.new_taxes,
+                    { product_uom: params.product_uom}
+>>>>>>> upstream/18.0
                 )
             }
         }
@@ -1207,7 +1224,10 @@ export class TestsSharedJsPython extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1450,6 +1470,9 @@ export class TestsSharedJsPython extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

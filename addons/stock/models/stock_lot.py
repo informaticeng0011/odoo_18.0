@@ -9,6 +9,10 @@ from re import findall as regex_findall, split as regex_split
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from collections import defaultdict
+>>>>>>> upstream/18.0
 =======
 from collections import defaultdict
 >>>>>>> upstream/18.0
@@ -170,7 +174,11 @@ class StockLot(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         delivery_ids_by_lot = self._find_delivery_ids_by_lot()
+=======
+        delivery_ids_by_lot = self._find_delivery_ids_by_lot_iterative()
+>>>>>>> upstream/18.0
 =======
         delivery_ids_by_lot = self._find_delivery_ids_by_lot_iterative()
 >>>>>>> upstream/18.0
@@ -197,7 +205,11 @@ class StockLot(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         delivery_ids_by_lot = serial_products._find_delivery_ids_by_lot()
+=======
+        delivery_ids_by_lot = serial_products._find_delivery_ids_by_lot_iterative()
+>>>>>>> upstream/18.0
 =======
         delivery_ids_by_lot = serial_products._find_delivery_ids_by_lot_iterative()
 >>>>>>> upstream/18.0
@@ -384,7 +396,10 @@ class StockLot(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -463,6 +478,9 @@ class StockLot(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

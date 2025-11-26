@@ -10,6 +10,10 @@ import {
 } from "./_helpers/selection";
 import { insertText } from "./_helpers/user_actions";
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { em, s, strong, u } from "./_helpers/tags";
+>>>>>>> upstream/18.0
 =======
 import { em, s, strong, u } from "./_helpers/tags";
 >>>>>>> upstream/18.0
@@ -69,7 +73,10 @@ test("should not display hint in paragraph with media content", async () => {
 });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 test("should not display hint in paragraph with tab", async () => {
     const content =
         '<p><span class="oe-tabs" contenteditable="false" style="width: 40px;">\t</span>\u200b[]</p>';
@@ -113,6 +120,9 @@ test("should display hint in paragraph with s (strikethrough)", async () => {
     );
 });
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 test("should not lose track of temporary hints on split block", async () => {
     const { el, editor, plugins } = await setupEditor("<p>[]</p>", {});

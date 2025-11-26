@@ -186,7 +186,11 @@ class AccountEdiProxyClientUser(models.Model):
             except UserError as e:
                 _logger.error(
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'Error while receiving the document from Nemhandel Proxy: %s', e.message,
+=======
+                    'Error while receiving the document from Nemhandel Proxy: %s', ', '.join(e.args),
+>>>>>>> upstream/18.0
 =======
                     'Error while receiving the document from Nemhandel Proxy: %s', ', '.join(e.args),
 >>>>>>> upstream/18.0
@@ -346,7 +350,11 @@ class AccountEdiProxyClientUser(models.Model):
                 self._call_nemhandel_proxy(endpoint='/api/nemhandel/1/cancel_nemhandel_registration')
             except UserError as e:
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if e.message != "The user doesn't exist on the proxy":
+=======
+                if e.args and e.args[0] != "The user doesn't exist on the proxy":
+>>>>>>> upstream/18.0
 =======
                 if e.args and e.args[0] != "The user doesn't exist on the proxy":
 >>>>>>> upstream/18.0

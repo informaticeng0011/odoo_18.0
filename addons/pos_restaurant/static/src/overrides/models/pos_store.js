@@ -172,7 +172,11 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     this.mainScreen.component.name !== "PaymentScreen" &&
+=======
+                    !["LoginScreen", "PaymentScreen"].includes(this.mainScreen.component.name) &&
+>>>>>>> upstream/18.0
 =======
                     !["LoginScreen", "PaymentScreen"].includes(this.mainScreen.component.name) &&
 >>>>>>> upstream/18.0
@@ -930,6 +934,7 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.addPendingOrder([order.id]);
         return order;
     },
@@ -937,6 +942,8 @@ patch(PosStore.prototype, {
         if (this.config.module_pos_restaurant && !this.get_order().uiState.booked) {
             this.get_order().setBooked(true);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1435,6 +1442,9 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

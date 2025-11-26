@@ -5,6 +5,10 @@ from unittest.mock import patch
 from werkzeug.exceptions import Forbidden
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo import release
+>>>>>>> upstream/18.0
 =======
 from odoo import release
 >>>>>>> upstream/18.0
@@ -332,7 +336,10 @@ class AdyenTest(AdyenCommon, PaymentHttpCommon):
         )
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_application_info_passed_in_payment_request(self):
         """Ensure applicationInfo is added correctly to the payment request payload."""
         tx = self._create_transaction('direct')
@@ -390,6 +397,9 @@ class AdyenTest(AdyenCommon, PaymentHttpCommon):
             },
         )
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_webhook_notification_confirms_transaction(self):
         tx = self._create_transaction('direct')

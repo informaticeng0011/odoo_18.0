@@ -28,6 +28,11 @@ class AccountEdiXmlUBLANZ(models.AbstractModel):
     def _get_partner_party_tax_scheme_vals_list(self, partner, role):
         # EXTENDS account.edi.xml.ubl_bis3
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
+        # If you change this method, please change the corresponding new helper (at the end of this file).
+>>>>>>> upstream/18.0
 =======
         # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
         # If you change this method, please change the corresponding new helper (at the end of this file).
@@ -43,6 +48,7 @@ class AccountEdiXmlUBLANZ(models.AbstractModel):
     def _get_partner_party_vals(self, partner, role):
         # EXTENDS account.edi.xml.ubl_bis3
 <<<<<<< HEAD
+<<<<<<< HEAD
         vals = super()._get_partner_party_vals(partner, role)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -237,10 +243,15 @@ class AccountEdiXmlUBLANZ(models.AbstractModel):
         vals.setdefault('party_tax_scheme_vals', [])
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
         # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
         # If you change this method, please change the corresponding new helper (at the end of this file).
         vals = super()._get_partner_party_vals(partner, role)
         vals.setdefault('party_tax_scheme_vals', [])
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
         if partner.country_code == 'AU' and partner.vat:
@@ -256,6 +267,11 @@ class AccountEdiXmlUBLANZ(models.AbstractModel):
     def _get_partner_party_legal_entity_vals_list(self, partner):
         # EXTENDS account.edi.xml.ubl_bis3
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
+        # If you change this method, please change the corresponding new helper (at the end of this file).
+>>>>>>> upstream/18.0
 =======
         # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
         # If you change this method, please change the corresponding new helper (at the end of this file).
@@ -278,6 +294,11 @@ class AccountEdiXmlUBLANZ(models.AbstractModel):
     def _get_tax_category_list(self, customer, supplier, taxes):
         # EXTENDS account.edi.xml.ubl_bis3
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
+        # If you change this method, please change the corresponding new helper (at the end of this file).
+>>>>>>> upstream/18.0
 =======
         # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
         # If you change this method, please change the corresponding new helper (at the end of this file).
@@ -290,6 +311,11 @@ class AccountEdiXmlUBLANZ(models.AbstractModel):
     def _export_invoice_vals(self, invoice):
         # EXTENDS account.edi.xml.ubl_21
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
+        # If you change this method, please change the corresponding new helper (at the end of this file).
+>>>>>>> upstream/18.0
 =======
         # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
         # If you change this method, please change the corresponding new helper (at the end of this file).
@@ -302,7 +328,10 @@ class AccountEdiXmlUBLANZ(models.AbstractModel):
 
         return vals
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     # -------------------------------------------------------------------------
     # EXPORT: New (dict_to_xml) helpers
@@ -345,4 +374,7 @@ class AccountEdiXmlUBLANZ(models.AbstractModel):
         tax_category_node = super()._get_tax_category_node(vals)
         tax_category_node['cac:TaxScheme']['cbc:ID']['_text'] = 'GST'
         return tax_category_node
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

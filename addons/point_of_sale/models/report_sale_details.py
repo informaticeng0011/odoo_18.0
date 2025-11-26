@@ -219,10 +219,13 @@ class ReportSaleDetails(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         taxes = {}
         refund_done = {}
         refund_taxes = {}
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -637,6 +640,9 @@ class ReportSaleDetails(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1060,6 +1066,11 @@ class ReportSaleDetails(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        taxes = taxes['taxes']
+        refund_taxes = refund_taxes['taxes']
+>>>>>>> upstream/18.0
 =======
         taxes = taxes['taxes']
         refund_taxes = refund_taxes['taxes']
@@ -1789,7 +1800,11 @@ class ReportSaleDetails(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             payment['money_counted'] = sum(account_payment.mapped('amount'))
+=======
+                            payment['money_counted'] = sum(account_payment.mapped('amount_signed'))
+>>>>>>> upstream/18.0
 =======
                             payment['money_counted'] = sum(account_payment.mapped('amount_signed'))
 >>>>>>> upstream/18.0
@@ -2267,6 +2282,7 @@ class ReportSaleDetails(models.AbstractModel):
             refund_products.append(category_dictionnary)
         refund_products = sorted(refund_products, key=lambda l: str(l['name']))
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3084,6 +3100,10 @@ class ReportSaleDetails(models.AbstractModel):
         products, products_info = self.with_context(config_id=configs[0].id if len(configs) > 0 else False)._get_total_and_qty_per_category(products)
         refund_products, refund_info = self.with_context(config_id=configs[0].id if len(configs) > 0 else False)._get_total_and_qty_per_category(refund_products)
 >>>>>>> upstream/18.0
+=======
+        products, products_info = self.with_context(config_id=configs[0].id if len(configs) > 0 else False)._get_total_and_qty_per_category(products)
+        refund_products, refund_info = self.with_context(config_id=configs[0].id if len(configs) > 0 else False)._get_total_and_qty_per_category(refund_products)
+>>>>>>> upstream/18.0
 
         currency = {
             'symbol': user_currency.symbol,
@@ -3126,11 +3146,14 @@ class ReportSaleDetails(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         for payment in payments:
             if payment.get('id'):
                 payment['name'] = self.env['pos.payment.method'].browse(payment['id']).name + ' ' + self.env['pos.session'].browse(payment['session']).name
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3161,6 +3184,9 @@ class ReportSaleDetails(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3207,6 +3233,11 @@ class ReportSaleDetails(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'payments_per_method': payments_per_method.values(),
+            'show_payment_per_method': not session_ids,
+>>>>>>> upstream/18.0
 =======
             'payments_per_method': payments_per_method.values(),
             'show_payment_per_method': not session_ids,
@@ -3254,6 +3285,7 @@ class ReportSaleDetails(models.AbstractModel):
             line_taxes = line.tax_ids_after_fiscal_position.sudo().compute_all(line.price_unit * (1-(line.discount or 0.0)/100.0), currency, line.qty, product=line.product_id, partner=line.order_id.partner_id or False)
             base_amounts = {}
             for tax in line_taxes['taxes']:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3671,6 +3703,8 @@ class ReportSaleDetails(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 taxes['taxes'].setdefault(tax['id'], {'name': tax['name'], 'tax_amount': 0.0, 'base_amount': 0.0})
                 taxes['taxes'][tax['id']]['tax_amount'] += tax['amount']
                 base_amounts[tax['id']] = tax['base']
@@ -3817,6 +3851,9 @@ class ReportSaleDetails(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4267,10 +4304,16 @@ class ReportSaleDetails(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         total_base_amount = 0
         for tax in taxes.values():
             total_tax_amount += tax['tax_amount']
             total_base_amount += tax['base_amount']
+=======
+        total_base_amount = taxes['base_amount']
+        for tax in taxes['taxes'].values():
+            total_tax_amount += tax['tax_amount']
+>>>>>>> upstream/18.0
 =======
         total_base_amount = taxes['base_amount']
         for tax in taxes['taxes'].values():

@@ -207,6 +207,10 @@ class TestSurveyInvite(common.TestSurveyCommon, MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.assertEqual(invite.subject, self.env["mail.template"].browse(invite_form._env.context['default_template_id']).subject)
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(invite.subject, self.env["mail.template"].browse(invite_form._env.context['default_template_id']).subject)
 >>>>>>> upstream/18.0

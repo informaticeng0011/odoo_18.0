@@ -165,7 +165,12 @@ class BaseTestUi(AccountTestMockOnlineSyncCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 @odoo.tests.tagged('post_install', '-at_install')
+=======
+
+@odoo.tests.tagged('post_install', '-at_install', 'is_tour')
+>>>>>>> upstream/18.0
 =======
 
 @odoo.tests.tagged('post_install', '-at_install', 'is_tour')
@@ -639,7 +644,11 @@ class TestUi(BaseTestUi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 @odoo.tests.tagged('post_install', '-at_install')
+=======
+@odoo.tests.tagged('post_install', '-at_install', 'is_tour')
+>>>>>>> upstream/18.0
 =======
 @odoo.tests.tagged('post_install', '-at_install', 'is_tour')
 >>>>>>> upstream/18.0

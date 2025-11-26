@@ -5,6 +5,7 @@ import base64
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -454,12 +455,18 @@ from datetime import datetime
 from odoo import api, fields, models
 from odoo.tools import float_repr, format_datetime
 >>>>>>> upstream/18.0
+=======
+from datetime import datetime
+from odoo import api, fields, models
+from odoo.tools import float_repr, format_datetime
+>>>>>>> upstream/18.0
 
 
 class AccountMove(models.Model):
     _inherit = 'account.move'
 
     l10n_sa_qr_code_str = fields.Char(string='Zatka QR Code', compute='_compute_qr_code_str')
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -984,6 +991,8 @@ class AccountMove(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     l10n_sa_confirmation_datetime = fields.Datetime(string='ZATCA Issue Date',
                                                     readonly=True,
                                                     copy=False,
@@ -991,6 +1000,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1037,6 +1049,7 @@ class AccountMove(models.Model):
         res = super()._post(soft)
         for move in self:
             if move.country_code == 'SA' and move.is_sale_document():
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2016,6 +2029,11 @@ class AccountMove(models.Model):
                 if not move.l10n_sa_confirmation_datetime:
                     vals['l10n_sa_confirmation_datetime'] = datetime.combine(move.invoice_date, fields.Datetime.now().time())
 >>>>>>> upstream/18.0
+=======
+                vals = {}
+                if not move.l10n_sa_confirmation_datetime:
+                    vals['l10n_sa_confirmation_datetime'] = datetime.combine(move.invoice_date, fields.Datetime.now().time())
+>>>>>>> upstream/18.0
                 if not move.delivery_date:
                     vals['delivery_date'] = move.invoice_date
                 move.write(vals)
@@ -2184,6 +2202,7 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -2332,6 +2351,8 @@ class AccountMove(models.Model):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2600,6 +2621,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2781,6 +2805,7 @@ class AccountMove(models.Model):
         for move in self.filtered(lambda m: m.country_code == 'SA'):
             move.l10n_sa_confirmation_datetime = False
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3272,6 +3297,8 @@ class AccountMove(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     def _get_l10n_sa_totals(self):
         self.ensure_one()
         return {
@@ -3353,7 +3380,10 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3581,6 +3611,7 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3723,6 +3754,8 @@ class AccountMove(models.Model):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3741,6 +3774,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -4,7 +4,11 @@ from odoo import Command
 from odoo.tests import tagged
 from odoo.addons.account.tests.common import AccountTestInvoicingCommon
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.addons.l10n_fr_facturx_chorus_pro.models.account_edi_xml_ubl_bis3 import CHORUS_PRO_PEPPOL_ID
+=======
+from odoo.addons.account_edi_ubl_cii.models.account_edi_xml_ubl_bis3 import CHORUS_PRO_PEPPOL_ID
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.account_edi_ubl_cii.models.account_edi_xml_ubl_bis3 import CHORUS_PRO_PEPPOL_ID
 >>>>>>> upstream/18.0
@@ -54,6 +58,7 @@ class TestChorusProXml(AccountTestInvoicingCommon):
 
         supplier_identification_node = xml_etree.find("{*}AccountingSupplierParty/{*}Party/{*}PartyIdentification/{*}ID")
         self.assertEqual(supplier_identification_node.text, "02546465000024")
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -336,6 +341,8 @@ class TestChorusProXml(AccountTestInvoicingCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         self.assertEqual(supplier_identification_node.attrib, {'schemeID': '0009'})
 
         customer_identification_node = xml_etree.find("{*}AccountingCustomerParty/{*}Party/{*}PartyIdentification/{*}ID")
@@ -418,6 +425,9 @@ class TestChorusProXml(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -662,6 +672,9 @@ class TestChorusProXml(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

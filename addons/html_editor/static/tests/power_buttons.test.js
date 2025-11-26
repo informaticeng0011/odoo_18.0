@@ -117,6 +117,7 @@ import { MAIN_PLUGINS } from "@html_editor/plugin_sets";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import { expectElementCount } from "./_helpers/ui_expectations";
 >>>>>>> upstream/18.0
@@ -445,6 +446,10 @@ import { expectElementCount } from "./_helpers/ui_expectations";
 import { expectElementCount } from "./_helpers/ui_expectations";
 import { em, s, strong, u } from "./_helpers/tags";
 >>>>>>> upstream/18.0
+=======
+import { expectElementCount } from "./_helpers/ui_expectations";
+import { em, s, strong, u } from "./_helpers/tags";
+>>>>>>> upstream/18.0
 
 describe.tags("desktop");
 describe("visibility", () => {
@@ -457,7 +462,10 @@ describe("visibility", () => {
     });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     test("should show power buttons on P tag containing strong (bold)", async () => {
         await setupEditor(`<p>${strong("[]\u200B", "first")}</p>`);
         expect(".o_we_power_buttons").toBeVisible();
@@ -478,6 +486,9 @@ describe("visibility", () => {
         expect(".o_we_power_buttons").toBeVisible();
     });
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     test("should not show power buttons on heading tags", async () => {
         await setupEditor("<h1>[]<br></h1>");
@@ -515,7 +526,10 @@ describe("visibility", () => {
     });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     test("should not show power buttons on block p tag with tab", async () => {
         await setupEditor(
             `<p><span class="oe-tabs" contenteditable="false" style="width: 40px;">\t</span>\u200b[]</p>`
@@ -523,6 +537,9 @@ describe("visibility", () => {
         expect(".o_we_power_buttons").not.toBeVisible();
     });
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     test("should not show power buttons on non empty block P tag", async () => {
         await setupEditor("<p>[]<br><br></p>");
@@ -581,6 +598,7 @@ describe("buttons", () => {
     });
 
     test("should open image selector using power buttons", async () => {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -889,6 +907,8 @@ describe("buttons", () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         onRpc("ir.attachment", "search_read", () => [
             {
                 id: 1,
@@ -997,6 +1017,9 @@ describe("buttons", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1313,7 +1336,11 @@ describe("buttons", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(".o-we-linkpopover").toHaveCount(1);
+=======
+        await expectElementCount(".o-we-linkpopover", 1);
+>>>>>>> upstream/18.0
 =======
         await expectElementCount(".o-we-linkpopover", 1);
 >>>>>>> upstream/18.0
@@ -1756,7 +1783,11 @@ describe("buttons", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(".o-we-powerbox").toHaveCount(1);
+=======
+        await expectElementCount(".o-we-powerbox", 1);
+>>>>>>> upstream/18.0
 =======
         await expectElementCount(".o-we-powerbox", 1);
 >>>>>>> upstream/18.0

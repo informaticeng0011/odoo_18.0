@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 from odoo import models, fields
+=======
+from odoo import models, fields, _
+>>>>>>> upstream/18.0
 
 
 class AccountMoveReversal(models.TransientModel):
@@ -15,3 +19,13 @@ class AccountMoveReversal(models.TransientModel):
         res = super(AccountMoveReversal, self).reverse_moves(is_modify)
         self.new_move_ids.l10n_es_edi_facturae_reason_code = self.l10n_es_edi_facturae_reason_code
         return res
+<<<<<<< HEAD
+=======
+
+    def _get_ref_string(self, move):
+        if move._l10n_es_edi_facturae_get_default_enable():
+            field = self.env['account.move']._fields['l10n_es_edi_facturae_reason_code']
+            reason_descr = dict(field._description_selection(self.env)).get(self.l10n_es_edi_facturae_reason_code)
+            return _('Reversal of: %(move_name)s - %(reason)s', move_name=move.name, reason=reason_descr)
+        return super()._get_ref_string(move)
+>>>>>>> upstream/18.0

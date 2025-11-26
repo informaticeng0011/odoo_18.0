@@ -74,6 +74,10 @@ safe_attrs = defs.safe_attrs | frozenset(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+     'data-bs-toggle',  # support nav-tabs
+>>>>>>> upstream/18.0
 =======
      'data-bs-toggle',  # support nav-tabs
 >>>>>>> upstream/18.0
@@ -332,6 +336,11 @@ def html_normalize(src, filter_callback=None, output_method="html"):
             tag_quote(el)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    doc = html.fromstring(html.tostring(doc, method=output_method))
+
+>>>>>>> upstream/18.0
 =======
     doc = html.fromstring(html.tostring(doc, method=output_method))
 

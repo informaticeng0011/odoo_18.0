@@ -23,6 +23,7 @@ class AccountEdiXmlUBLDE(models.AbstractModel):
     def _export_invoice_vals(self, invoice):
         # EXTENDS account.edi.xml.ubl_bis3
 <<<<<<< HEAD
+<<<<<<< HEAD
         vals = super()._export_invoice_vals(invoice)
         vals['vals']['customization_id'] = self._get_customization_ids()['xrechnung']
 <<<<<<< HEAD
@@ -566,18 +567,28 @@ class AccountEdiXmlUBLDE(models.AbstractModel):
             vals['vals']['buyer_reference'] = 'N/A'
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
         # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
         # If you change this method, please change the corresponding new helper (at the end of this file).
         vals = super()._export_invoice_vals(invoice)
         vals['vals']['customization_id'] = self._get_customization_ids()['xrechnung']
         if not vals['vals'].get('buyer_reference'):
             vals['vals']['buyer_reference'] = 'N/A'
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         return vals
 
     def _export_invoice_constraints(self, invoice, vals):
         # EXTENDS account.edi.xml.ubl_bis3
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
+        # If you change this method, please change the corresponding new helper (at the end of this file).
+>>>>>>> upstream/18.0
 =======
         # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
         # If you change this method, please change the corresponding new helper (at the end of this file).
@@ -594,6 +605,11 @@ class AccountEdiXmlUBLDE(models.AbstractModel):
     def _get_partner_party_vals(self, partner, role):
         # EXTENDS account.edi.xml.ubl_bis3
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
+        # If you change this method, please change the corresponding new helper (at the end of this file).
+>>>>>>> upstream/18.0
 =======
         # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
         # If you change this method, please change the corresponding new helper (at the end of this file).
@@ -608,7 +624,10 @@ class AccountEdiXmlUBLDE(models.AbstractModel):
 
         return vals
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     # -------------------------------------------------------------------------
     # EXPORT: New (dict_to_xml) helpers
@@ -631,4 +650,7 @@ class AccountEdiXmlUBLDE(models.AbstractModel):
                 'schemeID': 'EM'
             }
         return party_node
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

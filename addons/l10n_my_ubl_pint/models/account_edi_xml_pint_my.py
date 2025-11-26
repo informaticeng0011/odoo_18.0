@@ -17,11 +17,17 @@ class AccountEdiXmlUBLPINTMY(models.AbstractModel):
         return f"{invoice.name.replace('/', '_')}_pint_my.xml"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     # -------------------------------------------------------------------------
     # EXPORT: Old helpers
     # -------------------------------------------------------------------------
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def _export_invoice_vals(self, invoice):
         # EXTENDS account_edi_ubl_cii
@@ -60,6 +66,7 @@ class AccountEdiXmlUBLPINTMY(models.AbstractModel):
             # TIN
             gst_tax_scheme = tax_scheme_vals_list[0].copy()
             gst_tax_scheme.update({
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -361,6 +368,9 @@ class AccountEdiXmlUBLPINTMY(models.AbstractModel):
 =======
                 'company_id': partner.vat or 'NA',
 >>>>>>> upstream/18.0
+=======
+                'company_id': partner.vat or 'NA',
+>>>>>>> upstream/18.0
                 'tax_scheme_vals': {'id': 'GST'},
             })
             tax_scheme_vals_list.append(gst_tax_scheme)
@@ -412,7 +422,10 @@ class AccountEdiXmlUBLPINTMY(models.AbstractModel):
 
         return constraints
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     # -------------------------------------------------------------------------
     # EXPORT: New (dict_to_xml) helpers
@@ -517,4 +530,7 @@ class AccountEdiXmlUBLPINTMY(models.AbstractModel):
         constraints.pop('cen_en16931_tax_line', '')
 
         return constraints
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

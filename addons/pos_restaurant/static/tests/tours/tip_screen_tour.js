@@ -28,6 +28,10 @@ registry.category("web_tour.tours").add("PosResTipScreenTour", {
             ProductScreen.clickPayButton(),
             PaymentScreen.clickPaymentMethod("Bank"),
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            PaymentScreen.clickPaymentMethod("Bank"),
+>>>>>>> upstream/18.0
 =======
             PaymentScreen.clickPaymentMethod("Bank"),
 >>>>>>> upstream/18.0

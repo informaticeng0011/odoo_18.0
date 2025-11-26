@@ -39,7 +39,11 @@ registry.category("web_tour.tours").add("test_stock_picking_batch_sm_to_sml_sync
         },
         {
             trigger:
+<<<<<<< HEAD
                 ".modal:contains(open: stock move) .o_list_footer .o_list_number > span:contains(7)",
+=======
+                ".modal:contains(open: stock move) .o_list_footer .o_list_number > span:contains('7')",
+>>>>>>> upstream/18.0
         },
         {
             content: "Click Save",
@@ -76,7 +80,11 @@ registry.category("web_tour.tours").add("test_stock_picking_batch_sm_to_sml_sync
         },
         {
             content: "Click in cell to start edition",
+<<<<<<< HEAD
             trigger: ".modal:contains(open: transfers) .o_data_row > td:contains(47)",
+=======
+            trigger: ".modal:contains(open: transfers) .o_data_row > td:contains(27)",
+>>>>>>> upstream/18.0
             run: "click",
         },
         {

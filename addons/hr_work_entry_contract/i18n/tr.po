@@ -128,6 +128,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Deniz Guvener_Odoo <degu@odoo.com>, 2025
+>>>>>>> upstream/18.0
 =======
 # Deniz Guvener_Odoo <degu@odoo.com>, 2025
 >>>>>>> upstream/18.0
@@ -607,7 +611,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Ertuğrul Güreş <ertugrulg@projetgrup.com>, 2025\n"
+=======
+"Last-Translator: Deniz Guvener_Odoo <degu@odoo.com>, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Deniz Guvener_Odoo <degu@odoo.com>, 2025\n"
 >>>>>>> upstream/18.0
@@ -1099,6 +1107,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "\n"
 "        Puantaj Kayıtları oluşturma kaynağını tanımlar\n"
 "\n"
@@ -1161,6 +1170,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1438,6 +1449,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1634,6 +1648,7 @@ msgid ""
 "%(employee)s has multiple contracts from %(date_start)s to %(date_end)s. A "
 "work entry cannot overlap multiple contracts."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2218,6 +2233,11 @@ msgstr ""
 "sözleşmesi mevcuttur: %(date_start)s - %(date_end)s. Bir iş girişi birden "
 "fazla sözleşmeyle çakışamaz."
 >>>>>>> upstream/18.0
+=======
+"%(employee)s çalışanın şu tarihler aralığında geçerli olan birden fazla "
+"sözleşmesi mevcuttur: %(date_start)s - %(date_end)s. Bir iş girişi birden "
+"fazla sözleşmeyle çakışamaz."
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry_contract
 #: model_terms:ir.ui.view,arch_db:hr_work_entry_contract.hr_work_entry_regeneration_wizard
@@ -2310,8 +2330,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<i j=\"0/\">Doğrulanmış puantaj kayıtlarını yeniden oluşturmanıza izin "
 "verilmez</i>"
+=======
+"<i class=\"fa fa-exclamation-triangle me-1\" title=\"Uyarı\"/>Onaylanmış iş "
+"girişlerinin yeniden oluştuulmasına izin verilmez"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-exclamation-triangle me-1\" title=\"Uyarı\"/>Onaylanmış iş "
 "girişlerinin yeniden oluştuulmasına izin verilmez"
@@ -2749,6 +2774,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"text-muted\">Uyarı: Seçilen dönemdeki tüm manuel "
+"değişiklikler, çalışma girdisi yeniden oluşturulurken silinecektir.</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"text-muted\">Uyarı: Seçilen dönemdeki tüm manuel "
 "değişiklikler, çalışma girdisi yeniden oluşturulurken silinecektir.</span>"
@@ -3270,7 +3300,11 @@ msgid "Fully Flexible"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tam Esnek"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tam Esnek"
 >>>>>>> upstream/18.0
@@ -3621,6 +3655,7 @@ msgid ""
 "interval defined by date_from and date_to must not contain any validated "
 "work entries."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4172,6 +4207,10 @@ msgstr ""
 "Bu günü de kapsayan ayın ücreti zaten onaylanmış. Değişiklik gerekiyorsa "
 "lütfen İK ile iletişime geçin."
 >>>>>>> upstream/18.0
+=======
+"Bu günü de kapsayan ayın ücreti zaten onaylanmış. Değişiklik gerekiyorsa "
+"lütfen İK ile iletişime geçin."
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry_contract
 #. odoo-javascript
@@ -4265,6 +4304,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Geçersiz seçenek: Tam esnek takvimler için çalışma girdisi kaynağı 'Çalışma "
+"Saatleri' olamaz."
+>>>>>>> upstream/18.0
 =======
 "Geçersiz seçenek: Tam esnek takvimler için çalışma girdisi kaynağı 'Çalışma "
 "Saatleri' olamaz."
@@ -4786,6 +4830,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Başlangıç tarihi >= '%(earliest_available_date)s' ve bitiş tarihi <= "
 "'%(latest_available_date)s' olmalıdır, bu da oluşturulan puantaj zaman "
 "aralığına karşılık gelir."
@@ -4812,6 +4857,11 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+"Oluşturulan iş girişlerinin zaman aralığına karşılık gelecek şekilde, "
+"başlangıç tarihi; >= '%(earliest_available_date)s' bitiş tarihi <= "
+"'%(latest_available_date)s' olmalıdır."
 >>>>>>> upstream/18.0
 =======
 "Oluşturulan iş girişlerinin zaman aralığına karşılık gelecek şekilde, "
@@ -5421,7 +5471,11 @@ msgid "Work Entry Source Calendar Invalid"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "İş girişi kaynak takvimi geçersiz"
+>>>>>>> upstream/18.0
 =======
 msgstr "İş girişi kaynak takvimi geçersiz"
 >>>>>>> upstream/18.0

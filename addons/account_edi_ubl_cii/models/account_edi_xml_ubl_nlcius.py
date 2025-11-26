@@ -41,6 +41,11 @@ class AccountEdiXmlUBLNL(models.AbstractModel):
     def _get_tax_category_list(self, customer, supplier, taxes):
         # EXTENDS account.edi.xml.ubl_bis3
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
+        # If you change this method, please change the corresponding new helper (at the end of this file).
+>>>>>>> upstream/18.0
 =======
         # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
         # If you change this method, please change the corresponding new helper (at the end of this file).
@@ -55,6 +60,11 @@ class AccountEdiXmlUBLNL(models.AbstractModel):
     def _get_partner_address_vals(self, partner):
         # EXTENDS account.edi.xml.ubl_bis3
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
+        # If you change this method, please change the corresponding new helper (at the end of this file).
+>>>>>>> upstream/18.0
 =======
         # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
         # If you change this method, please change the corresponding new helper (at the end of this file).
@@ -68,6 +78,11 @@ class AccountEdiXmlUBLNL(models.AbstractModel):
     def _get_invoice_line_allowance_vals_list(self, line, tax_values_list=None):
         # EXTENDS account.edi.xml.ubl_bis3
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
+        # If you change this method, please change the corresponding new helper (at the end of this file).
+>>>>>>> upstream/18.0
 =======
         # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
         # If you change this method, please change the corresponding new helper (at the end of this file).
@@ -153,6 +168,11 @@ class AccountEdiXmlUBLNL(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if vals['allowance_charge_reason_code'] == 95:
+                vals['allowance_charge_reason'] = 'Discount'
+>>>>>>> upstream/18.0
 =======
             if vals['allowance_charge_reason_code'] == 95:
                 vals['allowance_charge_reason'] = 'Discount'
@@ -460,6 +480,11 @@ class AccountEdiXmlUBLNL(models.AbstractModel):
     def _get_invoice_payment_means_vals_list(self, invoice):
         # EXTENDS account.edi.xml.ubl_bis3
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
+        # If you change this method, please change the corresponding new helper (at the end of this file).
+>>>>>>> upstream/18.0
 =======
         # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
         # If you change this method, please change the corresponding new helper (at the end of this file).
@@ -473,6 +498,11 @@ class AccountEdiXmlUBLNL(models.AbstractModel):
     def _export_invoice_vals(self, invoice):
         # EXTENDS account.edi.xml.ubl_bis3
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
+        # If you change this method, please change the corresponding new helper (at the end of this file).
+>>>>>>> upstream/18.0
 =======
         # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
         # If you change this method, please change the corresponding new helper (at the end of this file).
@@ -486,7 +516,10 @@ class AccountEdiXmlUBLNL(models.AbstractModel):
 
         return vals
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     # -------------------------------------------------------------------------
     # EXPORT: New (dict_to_xml) helpers
@@ -534,4 +567,7 @@ class AccountEdiXmlUBLNL(models.AbstractModel):
         # /cbc:TaxExemptionReasonCode) is not recommended
         node['cbc:TaxExemptionReasonCode'] = None
         return node
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

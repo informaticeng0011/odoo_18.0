@@ -146,12 +146,19 @@ class AccountPayment(models.Model):
             # One line per check
             checks_total = sum(payment.l10n_latam_new_check_ids.mapped('amount'))
             liquidity_balance_total = 0.0
+<<<<<<< HEAD
             liquidity_balance = 0.0
+=======
+>>>>>>> upstream/18.0
             for check in payment.l10n_latam_new_check_ids:
                 liquidity_amount_currency = -check.amount
 
                 if check == payment.l10n_latam_new_check_ids[-1]:
+<<<<<<< HEAD
                     liquidity_balance = payment.currency_id.round(payment_liquidity_line.balance - liquidity_balance)
+=======
+                    liquidity_balance = payment.currency_id.round(payment_liquidity_line.balance - liquidity_balance_total)
+>>>>>>> upstream/18.0
                 else:
                     liquidity_balance = payment.currency_id.round(payment_liquidity_line.balance * check.amount / checks_total)
                     liquidity_balance_total += liquidity_balance
@@ -321,7 +328,11 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         ('payment_id.state', '!=', 'draft'),
+=======
+                        ('payment_id.state', 'not in', ['draft', 'canceled']),
+>>>>>>> upstream/18.0
 =======
                         ('payment_id.state', 'not in', ['draft', 'canceled']),
 >>>>>>> upstream/18.0

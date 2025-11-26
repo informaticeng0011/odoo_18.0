@@ -10,6 +10,12 @@
         'point_of_sale._assets_pos': [
             'account_tax_python/static/src/helpers/*.js',
         ],
+<<<<<<< HEAD
+=======
+        'web.assets_tests': [
+            'pos_account_tax_python/static/tests/tours/**/*',
+        ],
+>>>>>>> upstream/18.0
     },
     'auto_install': True,
     'license': 'LGPL-3',

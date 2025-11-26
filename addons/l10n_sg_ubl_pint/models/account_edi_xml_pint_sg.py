@@ -78,7 +78,12 @@ from odoo import models, _
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 SG_TAX_CATEGORIES = {'SR', 'SRCA-S', 'SRCA-C', 'SROVR-RS', 'SROVR-LVG', 'SRLVG', 'ZR', 'ES33', 'ESN33', 'DS', 'OS', 'NG', 'NA'}
+=======
+SG_TAX_CATEGORIES = {'SR', 'SRCA-S', 'SRCA-C', 'SROVR-RS', 'SRRC', 'SROVR-LVG', 'SRLVG', 'ZR', 'ES33', 'ESN33', 'DS', 'OS', 'NG', 'NA'}
+SG_GST_CODES_REQUIRING_ADDRESS = {'SR', 'SRCA-S', 'SRCA-C', 'ZR', 'SRRC', 'SROVR-RS', 'SROVR-LVG', 'SRLVG', 'NA'}
+>>>>>>> upstream/18.0
 =======
 SG_TAX_CATEGORIES = {'SR', 'SRCA-S', 'SRCA-C', 'SROVR-RS', 'SRRC', 'SROVR-LVG', 'SRLVG', 'ZR', 'ES33', 'ESN33', 'DS', 'OS', 'NG', 'NA'}
 SG_GST_CODES_REQUIRING_ADDRESS = {'SR', 'SRCA-S', 'SRCA-C', 'ZR', 'SRRC', 'SROVR-RS', 'SROVR-LVG', 'SRLVG', 'NA'}
@@ -401,6 +406,7 @@ class AccountEdiXmlUBLPINTSG(models.AbstractModel):
         return f"{invoice.name.replace('/', '_')}_pint_sg.xml"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _get_partner_party_vals(self, partner, role):
         # EXTENDS account_edi_ubl_cii
         vals = super()._get_partner_party_vals(partner, role)
@@ -597,6 +603,8 @@ class AccountEdiXmlUBLPINTSG(models.AbstractModel):
         vals.setdefault('party_tax_scheme_vals', [])
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
     # -------------------------------------------------------------------------
     # EXPORT: Old helpers
     # -------------------------------------------------------------------------
@@ -607,6 +615,9 @@ class AccountEdiXmlUBLPINTSG(models.AbstractModel):
         # If you change this method, please change the corresponding new helper (at the end of this file).
         vals = super()._get_partner_party_vals(partner, role)
         vals.setdefault('party_tax_scheme_vals', [])
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
         for party_tax_scheme in vals['party_tax_scheme_vals']:
@@ -617,6 +628,11 @@ class AccountEdiXmlUBLPINTSG(models.AbstractModel):
     def _get_invoice_tax_totals_vals_list(self, invoice, taxes_vals):
         # EXTENDS account_edi_ubl_cii
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
+        # If you change this method, please change the corresponding new helper (at the end of this file).
+>>>>>>> upstream/18.0
 =======
         # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
         # If you change this method, please change the corresponding new helper (at the end of this file).
@@ -637,6 +653,11 @@ class AccountEdiXmlUBLPINTSG(models.AbstractModel):
     def _get_tax_category_list(self, customer, supplier, taxes):
         # EXTENDS account_edi_ubl_cii
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
+        # If you change this method, please change the corresponding new helper (at the end of this file).
+>>>>>>> upstream/18.0
 =======
         # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
         # If you change this method, please change the corresponding new helper (at the end of this file).
@@ -649,6 +670,11 @@ class AccountEdiXmlUBLPINTSG(models.AbstractModel):
     def _get_additional_document_reference_list(self, invoice):
         # EXTENDS account.edi.xml.ubl_20
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
+        # If you change this method, please change the corresponding new helper (at the end of this file).
+>>>>>>> upstream/18.0
 =======
         # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
         # If you change this method, please change the corresponding new helper (at the end of this file).
@@ -661,6 +687,7 @@ class AccountEdiXmlUBLPINTSG(models.AbstractModel):
             )
             # [BR-53-GST-SG]-If the GST accounting currency code (BT-6-GST) is present, then the Invoice total GST amount (BT-111-GST),
             # Invoice total including GST amount and Invoice Total excluding GST amount in accounting currency shall be provided.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1090,6 +1117,9 @@ class AccountEdiXmlUBLPINTSG(models.AbstractModel):
 =======
             additional_document_reference_list.extend([{
 >>>>>>> upstream/18.0
+=======
+            additional_document_reference_list.extend([{
+>>>>>>> upstream/18.0
                 'id': invoice.company_id.currency_id.name,
                 'document_description': amount,
                 'document_type_code': code,
@@ -1099,6 +1129,11 @@ class AccountEdiXmlUBLPINTSG(models.AbstractModel):
     def _export_invoice_vals(self, invoice):
         # EXTENDS account_edi_ubl_cii
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
+        # If you change this method, please change the corresponding new helper (at the end of this file).
+>>>>>>> upstream/18.0
 =======
         # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
         # If you change this method, please change the corresponding new helper (at the end of this file).
@@ -1202,7 +1237,10 @@ class AccountEdiXmlUBLPINTSG(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1432,6 +1470,7 @@ class AccountEdiXmlUBLPINTSG(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1580,6 +1619,8 @@ class AccountEdiXmlUBLPINTSG(models.AbstractModel):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
         return constraints
 
     # -------------------------------------------------------------------------
@@ -1660,5 +1701,8 @@ class AccountEdiXmlUBLPINTSG(models.AbstractModel):
                 constraints['sg_seller_post_code_required'] = \
                     self._check_required_fields(vals['supplier'], 'zip')
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         return constraints
