@@ -170,6 +170,10 @@ export class TipScreen extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> upstream/18.0
 =======
 
 >>>>>>> upstream/18.0
@@ -414,6 +418,7 @@ export class TipScreen extends Component {
         const order = this.currentOrder;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const receipts = [
             order.get_selected_paymentline().ticket,
             order.get_selected_paymentline().cashier_receipt,
@@ -421,11 +426,16 @@ export class TipScreen extends Component {
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         const selectedPaymentLine = order.get_selected_paymentline() || order.payment_ids[0];
         const receipts = [selectedPaymentLine?.ticket, selectedPaymentLine?.cashier_receipt].filter(
             Boolean
         );
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

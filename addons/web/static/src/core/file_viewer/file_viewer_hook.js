@@ -11,6 +11,10 @@ export function createFileViewer() {
      * @param {import("@web/core/file_viewer/file_viewer").FileViewer.props.files} files
      */
     function open(file, files = [file]) {
+<<<<<<< HEAD
+=======
+        close();
+>>>>>>> upstream/18.0
         if (!file.isViewable) {
             return;
         }

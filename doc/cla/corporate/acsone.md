@@ -73,6 +73,7 @@ Laurent Stukkens laurent.stukkens@acsone.eu https://github.com/it-ideas
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 Tobias Zehntner tobias.zehntner@acsone.eu https://github.com/tobiaszehntner
 >>>>>>> upstream/18.0
@@ -84,6 +85,10 @@ Tobias Zehntner tobias.zehntner@acsone.eu https://github.com/tobiaszehntner
 >>>>>>> upstream/18.0
 =======
 Tobias Zehntner tobias.zehntner@acsone.eu https://github.com/tobiaszehntner
+>>>>>>> upstream/18.0
+=======
+Tobias Zehntner tobias.zehntner@acsone.eu https://github.com/tobiaszehntner
+Yannick Payot yannick.payot@acsone.eu https://github.com/yvaucher
 >>>>>>> upstream/18.0
 =======
 Tobias Zehntner tobias.zehntner@acsone.eu https://github.com/tobiaszehntner

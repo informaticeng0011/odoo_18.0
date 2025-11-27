@@ -103,6 +103,10 @@ export class TourInteractive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.isBusy = false;
+>>>>>>> upstream/18.0
 =======
         this.isBusy = false;
 >>>>>>> upstream/18.0
@@ -413,8 +417,11 @@ export class TourInteractive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     start(pointer, onTourEnd) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -644,6 +651,9 @@ export class TourInteractive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -824,7 +834,11 @@ export class TourInteractive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (!tempAction.step.active) {
+=======
+            if (!tempAction.step.active || tempAction.event === "warn") {
+>>>>>>> upstream/18.0
 =======
             if (!tempAction.step.active || tempAction.event === "warn") {
 >>>>>>> upstream/18.0
@@ -1268,6 +1282,7 @@ export class TourInteractive {
                 this.setActionListeners();
             } else if (!tempAnchors.length && this.anchorEls.length) {
                 this.pointer.hide();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2025,6 +2040,8 @@ export class TourInteractive {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 if (
                     !hoot.queryFirst(".o_home_menu", { visible: true }) &&
                     !hoot.queryFirst(".dropdown-item.o_loading", { visible: true }) &&
@@ -2105,6 +2122,9 @@ export class TourInteractive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

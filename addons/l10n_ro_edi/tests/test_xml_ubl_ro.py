@@ -60,9 +60,13 @@ from odoo.tests import tagged
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 @tagged('post_install_l10n', 'post_install', '-at_install')
 class TestUBLRO(TestUBLCommon):
 
+=======
+class TestUBLROCommon(TestUBLCommon):
+>>>>>>> upstream/18.0
 =======
 class TestUBLROCommon(TestUBLCommon):
 >>>>>>> upstream/18.0
@@ -237,6 +241,10 @@ class TestUBLROCommon(TestUBLCommon):
         super().setUpClass()
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        cls.env['ir.config_parameter'].set_param('account_edi_ubl_cii.use_new_dict_to_xml_helpers', 'False')
+>>>>>>> upstream/18.0
 =======
         cls.env['ir.config_parameter'].set_param('account_edi_ubl_cii.use_new_dict_to_xml_helpers', 'False')
 >>>>>>> upstream/18.0
@@ -365,7 +373,10 @@ class TestUBLROCommon(TestUBLCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -539,6 +550,9 @@ class TestUBLRO(TestUBLROCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -662,7 +676,10 @@ class TestUBLRO(TestUBLROCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_export_invoice_new(self):
@@ -670,6 +687,9 @@ class TestUBLRO(TestUBLROCommon):
         self.test_export_invoice()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -754,6 +774,7 @@ class TestUBLRO(TestUBLROCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -902,6 +923,8 @@ class TestUBLRO(TestUBLROCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_export_credit_note_new(self):
@@ -909,6 +932,9 @@ class TestUBLRO(TestUBLROCommon):
         self.test_export_credit_note()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1021,6 +1047,7 @@ class TestUBLRO(TestUBLROCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1169,6 +1196,8 @@ class TestUBLRO(TestUBLROCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_export_credit_note_with_negative_quantity_new(self):
@@ -1176,6 +1205,9 @@ class TestUBLRO(TestUBLROCommon):
         self.test_export_credit_note_with_negative_quantity()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1184,6 +1216,7 @@ class TestUBLRO(TestUBLROCommon):
         attachment = self.get_attachment(invoice)
         self._assert_invoice_attachment(attachment, xpaths=None, expected_file_path='from_odoo/ciusro_out_invoice_different_currency.xml')
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     def test_export_invoice_without_country_code_prefix_in_vat(self):
@@ -1840,6 +1873,8 @@ class TestUBLRO(TestUBLROCommon):
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     def test_export_invoice_different_currency_new(self):
         self.env['ir.config_parameter'].set_param('account_edi_ubl_cii.use_new_dict_to_xml_helpers', 'True')
         self.test_export_invoice_different_currency()
@@ -1848,6 +1883,9 @@ class TestUBLRO(TestUBLROCommon):
         self.company_data['company'].write({'vat': '1234567897'})
         self.partner_a.write({'vat': False})
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1855,6 +1893,7 @@ class TestUBLRO(TestUBLROCommon):
         attachment = self.get_attachment(invoice)
         self._assert_invoice_attachment(attachment, xpaths=None, expected_file_path='from_odoo/ciusro_out_invoice_no_prefix_vat.xml')
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     def test_export_no_vat_but_have_company_registry(self):
@@ -2349,6 +2388,8 @@ class TestUBLRO(TestUBLROCommon):
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     def test_export_invoice_without_country_code_prefix_in_vat_new(self):
         self.env['ir.config_parameter'].set_param('account_edi_ubl_cii.use_new_dict_to_xml_helpers', 'True')
         self.test_export_invoice_without_country_code_prefix_in_vat()
@@ -2356,6 +2397,9 @@ class TestUBLRO(TestUBLROCommon):
     def test_export_no_vat_but_have_company_registry(self):
         self.company_data['company'].write({'vat': False, 'company_registry': 'RO1234567897'})
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2363,6 +2407,7 @@ class TestUBLRO(TestUBLROCommon):
         attachment = self.get_attachment(invoice)
         self._assert_invoice_attachment(attachment, xpaths=None, expected_file_path='from_odoo/ciusro_out_invoice.xml')
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     def test_export_no_vat_but_have_company_registry_without_prefix(self):
@@ -3019,6 +3064,8 @@ class TestUBLRO(TestUBLROCommon):
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     def test_export_no_vat_but_have_company_registry_new(self):
         self.env['ir.config_parameter'].set_param('account_edi_ubl_cii.use_new_dict_to_xml_helpers', 'True')
         self.test_export_no_vat_but_have_company_registry()
@@ -3027,6 +3074,9 @@ class TestUBLRO(TestUBLROCommon):
         self.company_data['company'].write({'vat': False, 'company_registry': '1234567897'})
         self.partner_a.write({'vat': False})
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3034,6 +3084,7 @@ class TestUBLRO(TestUBLROCommon):
         attachment = self.get_attachment(invoice)
         self._assert_invoice_attachment(attachment, xpaths=None, expected_file_path='from_odoo/ciusro_out_invoice_no_prefix_vat.xml')
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     def test_export_no_vat_and_no_company_registry_raises_error(self):
@@ -3528,6 +3579,8 @@ class TestUBLRO(TestUBLROCommon):
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     def test_export_no_vat_but_have_company_registry_without_prefix_new(self):
         self.env['ir.config_parameter'].set_param('account_edi_ubl_cii.use_new_dict_to_xml_helpers', 'True')
         self.test_export_no_vat_but_have_company_registry_without_prefix()
@@ -3535,6 +3588,9 @@ class TestUBLRO(TestUBLROCommon):
     def test_export_no_vat_and_no_company_registry_raises_error(self):
         self.company_data['company'].write({'vat': False, 'company_registry': False})
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3544,7 +3600,10 @@ class TestUBLRO(TestUBLROCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_export_no_vat_and_no_company_registry_raises_error_new(self):
@@ -3552,6 +3611,9 @@ class TestUBLRO(TestUBLROCommon):
         self.test_export_no_vat_and_no_company_registry_raises_error()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3571,7 +3633,10 @@ class TestUBLRO(TestUBLROCommon):
             invoice._generate_and_send(allow_fallback_pdf=False, mail_template_id=self.move_template.id)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -3579,6 +3644,9 @@ class TestUBLRO(TestUBLROCommon):
         self.env['ir.config_parameter'].set_param('account_edi_ubl_cii.use_new_dict_to_xml_helpers', 'True')
         self.test_export_constraints()
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -41,7 +41,11 @@ class AccountAccount(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         result = self._read_group(
+=======
+        result = self.with_context(active_test=False)._read_group(
+>>>>>>> upstream/18.0
 =======
         result = self.with_context(active_test=False)._read_group(
 >>>>>>> upstream/18.0
@@ -216,6 +220,10 @@ class AccountAccount(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        depends_context=('uid',),  # To avoid cache pollution between sudo / non-sudo uses of the field
+>>>>>>> upstream/18.0
 =======
         depends_context=('uid',),  # To avoid cache pollution between sudo / non-sudo uses of the field
 >>>>>>> upstream/18.0
@@ -612,6 +620,7 @@ class AccountAccount(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             # The placeholder_code is defined as the account's code in the first active company to
             # which the account belongs.
             query.add_join(
@@ -636,6 +645,8 @@ class AccountAccount(models.Model):
                 SQL('account_first_company.account_id = %(account_id)s', account_id=SQL.identifier(alias, 'id')),
             )
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1037,6 +1048,9 @@ class AccountAccount(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1387,7 +1401,10 @@ class AccountAccount(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1651,6 +1668,9 @@ class AccountAccount(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2497,7 +2517,11 @@ class AccountAccount(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             elif account.account_type == 'asset_cash':
+=======
+            elif account.account_type in ('asset_cash', 'liability_credit_card', 'off_balance'):
+>>>>>>> upstream/18.0
 =======
             elif account.account_type in ('asset_cash', 'liability_credit_card', 'off_balance'):
 >>>>>>> upstream/18.0
@@ -3191,7 +3215,11 @@ class AccountAccount(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _get_most_frequent_accounts_for_partner(self, company_id, partner_id, move_type, filter_never_user_accounts=False, limit=None):
+=======
+    def _get_most_frequent_accounts_for_partner(self, company_id, partner_id, move_type, filter_never_user_accounts=False, limit=None, journal_id=None):
+>>>>>>> upstream/18.0
 =======
     def _get_most_frequent_accounts_for_partner(self, company_id, partner_id, move_type, filter_never_user_accounts=False, limit=None, journal_id=None):
 >>>>>>> upstream/18.0
@@ -3784,6 +3812,10 @@ class AccountAccount(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        :param journal_id: only return accounts allowed on this journal id
+>>>>>>> upstream/18.0
 =======
         :param journal_id: only return accounts allowed on this journal id
 >>>>>>> upstream/18.0
@@ -4376,6 +4408,11 @@ class AccountAccount(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if journal_id:
+            domain += ['|', ('account_id.allowed_journal_ids', '=', journal_id), ('account_id.allowed_journal_ids', '=', False)]
+>>>>>>> upstream/18.0
 =======
         if journal_id:
             domain += ['|', ('account_id.allowed_journal_ids', '=', journal_id), ('account_id.allowed_journal_ids', '=', False)]
@@ -5135,8 +5172,13 @@ class AccountAccount(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _get_most_frequent_account_for_partner(self, company_id, partner_id, move_type=None):
         most_frequent_account = self._get_most_frequent_accounts_for_partner(company_id, partner_id, move_type, filter_never_user_accounts=True, limit=1)
+=======
+    def _get_most_frequent_account_for_partner(self, company_id, partner_id, move_type=None, journal_id=None):
+        most_frequent_account = self._get_most_frequent_accounts_for_partner(company_id, partner_id, move_type, filter_never_user_accounts=True, limit=1, journal_id=journal_id)
+>>>>>>> upstream/18.0
 =======
     def _get_most_frequent_account_for_partner(self, company_id, partner_id, move_type=None, journal_id=None):
         most_frequent_account = self._get_most_frequent_accounts_for_partner(company_id, partner_id, move_type, filter_never_user_accounts=True, limit=1, journal_id=journal_id)
@@ -5962,6 +6004,10 @@ class AccountAccount(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.env['account.move.line'].invalidate_model(['amount_residual', 'amount_residual_currency', 'reconciled'])
+>>>>>>> upstream/18.0
 =======
         self.env['account.move.line'].invalidate_model(['amount_residual', 'amount_residual_currency', 'reconciled'])
 >>>>>>> upstream/18.0
@@ -6487,7 +6533,10 @@ class AccountAccount(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.env['account.move.line'].invalidate_model(['amount_residual', 'amount_residual_currency', 'reconciled'])
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6893,6 +6942,11 @@ class AccountAccount(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+        self.env['account.move.line'].invalidate_model(['amount_residual', 'amount_residual_currency'])
+>>>>>>> upstream/18.0
 =======
 
         self.env['account.move.line'].invalidate_model(['amount_residual', 'amount_residual_currency'])
@@ -7474,7 +7528,12 @@ class AccountAccount(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     prefix, digits = vals.pop('prefix'), vals.pop('code_digits')
+=======
+                    prefix = vals.pop('prefix') or ''
+                    digits = vals.pop('code_digits')
+>>>>>>> upstream/18.0
 =======
                     prefix = vals.pop('prefix') or ''
                     digits = vals.pop('code_digits')
@@ -7634,6 +7693,7 @@ class AccountAccount(models.Model):
         if vals.get('deprecated') and self.env["account.tax.repartition.line"].search_count([('account_id', 'in', self.ids)], limit=1):
             raise UserError(_("You cannot deprecate an account that is used in a tax distribution."))
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7892,6 +7952,8 @@ class AccountAccount(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         res = super(AccountAccount, self.with_context(defer_account_code_checks=True, prefetch_fields=not any(field in vals for field in ['code', 'account_type']))).write(vals)
 
         if not self.env.context.get('defer_account_code_checks') and {'company_ids', 'code', 'code_mapping_ids'} & vals.keys():
@@ -7974,6 +8036,9 @@ class AccountAccount(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8223,7 +8288,11 @@ class AccountAccount(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if self.env['account.move.line'].search_count([('account_id', 'in', self.ids)], limit=1):
+=======
+        if self.env['account.move.line'].sudo().search_count([('account_id', 'in', self.ids)], limit=1):
+>>>>>>> upstream/18.0
 =======
         if self.env['account.move.line'].sudo().search_count([('account_id', 'in', self.ids)], limit=1):
 >>>>>>> upstream/18.0

@@ -32,7 +32,11 @@ QUnit.module("Payment", {
 });
 
 QUnit.test("copy link immediatly after entering the amount", async (assert) => {
+<<<<<<< HEAD
     assert.expect(2);
+=======
+    assert.expect(3);
+>>>>>>> upstream/18.0
 
     await makeView({
         serverData,
@@ -65,6 +69,14 @@ QUnit.test("copy link immediatly after entering the amount", async (assert) => {
         },
     });
 
+<<<<<<< HEAD
+=======
+    assert.strictEqual(
+        target.querySelector(".o_clipboard_button").textContent,
+        "Generate and Copy Payment Link",
+        "The clipboard button should show the correct label"
+    );
+>>>>>>> upstream/18.0
     // not awaiting the events
     editInput(target, ".o_field_widget[name=amount] input", "13");
 

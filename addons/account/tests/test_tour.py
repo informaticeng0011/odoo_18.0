@@ -89,7 +89,10 @@ class TestUi(AccountTestInvoicingHttpCommon):
         self.start_tour("/odoo", 'account_tax_group', login="admin")
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -98,6 +101,9 @@ class TestUi(AccountTestInvoicingHttpCommon):
         invoice = self.env['account.move'].search([('move_type', '=', 'out_invoice')])
         self.assertEqual(invoice.invoice_line_ids[0].name, 'Section content')
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

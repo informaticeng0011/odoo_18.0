@@ -8,8 +8,11 @@ from odoo.tools.safe_eval import safe_eval
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 REGEX_FORMULA_OBJECT = re.compile(r'((?:product\[\')(?P<field>\w+)(?:\'\]))+')
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 FORMULA_ALLOWED_TOKENS = {
@@ -46,7 +49,10 @@ class AccountTaxPython(models.Model):
                 tax._check_formula()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     @api.model
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def _eval_taxes_computation_prepare_product_fields(self):
@@ -57,7 +63,10 @@ class AccountTaxPython(models.Model):
         return field_names
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def _eval_taxes_computation_prepare_product_uom_fields(self):
         # EXTENDS 'account'
         field_names = super()._eval_taxes_computation_prepare_product_uom_fields()
@@ -65,6 +74,9 @@ class AccountTaxPython(models.Model):
             field_names.update(tax.formula_decoded_info['product_uom_fields'])
         return field_names
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     @api.depends('formula')
     def _compute_formula_decoded_info(self):
@@ -79,8 +91,13 @@ class AccountTaxPython(models.Model):
                 'py_formula': formula,
             }
 <<<<<<< HEAD
+<<<<<<< HEAD
             product_fields = set()
 
+=======
+
+            product_fields = set()
+>>>>>>> upstream/18.0
 =======
 
             product_fields = set()
@@ -93,9 +110,12 @@ class AccountTaxPython(models.Model):
                     product_fields.add(field_name)
                     formula_decoded_info['py_formula'] = formula_decoded_info['py_formula'].replace(f"product.{field_name}", f"product['{field_name}']")
 <<<<<<< HEAD
+<<<<<<< HEAD
 
             formula_decoded_info['product_fields'] = list(product_fields)
 =======
+=======
+>>>>>>> upstream/18.0
             formula_decoded_info['product_fields'] = list(product_fields)
 
             product_uom_fields = set()
@@ -108,6 +128,9 @@ class AccountTaxPython(models.Model):
                     formula_decoded_info['py_formula'] = formula_decoded_info['py_formula'].replace(f"uom.{field_name}", f"uom['{field_name}']")
             formula_decoded_info['product_uom_fields'] = list(product_uom_fields)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             tax.formula_decoded_info = formula_decoded_info
 
@@ -132,13 +155,19 @@ class AccountTaxPython(models.Model):
 
         formula_decoded_info = self.formula_decoded_info
 <<<<<<< HEAD
+<<<<<<< HEAD
         allowed_tokens = FORMULA_ALLOWED_TOKENS.union(f"product['{field_name}']" for field_name in formula_decoded_info['product_fields'])
 =======
+=======
+>>>>>>> upstream/18.0
         allowed_tokens = (
             FORMULA_ALLOWED_TOKENS
             .union(f"product['{field_name}']" for field_name in formula_decoded_info['product_fields'])
             .union(f"uom['{field_name}']" for field_name in formula_decoded_info['product_uom_fields'])
         )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         formula = formula_decoded_info['py_formula']
 
@@ -184,6 +213,10 @@ class AccountTaxPython(models.Model):
             'quantity': evaluation_context['quantity'],
             'product': evaluation_context['product'],
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'uom': evaluation_context['uom'],
+>>>>>>> upstream/18.0
 =======
             'uom': evaluation_context['uom'],
 >>>>>>> upstream/18.0

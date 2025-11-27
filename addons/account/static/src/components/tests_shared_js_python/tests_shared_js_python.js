@@ -128,7 +128,10 @@ export class TestsSharedJsPython extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -452,6 +455,7 @@ export class TestsSharedJsPython extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1092,12 +1096,17 @@ export class TestsSharedJsPython extends Component {
                 filter_tax_function: filter_tax_function,
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
             const kwargs = {
                 product: params.product,
                 product_uom: params.product_uom,
                 precision_rounding: params.precision_rounding,
                 rounding_method: params.rounding_method,
                 filter_tax_function: filter_tax_function,
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             };
             const results = {
@@ -1131,7 +1140,12 @@ export class TestsSharedJsPython extends Component {
                     params.product,
                     params.original_taxes,
 <<<<<<< HEAD
+<<<<<<< HEAD
                     params.new_taxes
+=======
+                    params.new_taxes,
+                    { product_uom: params.product_uom}
+>>>>>>> upstream/18.0
 =======
                     params.new_taxes,
                     { product_uom: params.product_uom}
@@ -1225,7 +1239,10 @@ export class TestsSharedJsPython extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1471,6 +1488,9 @@ export class TestsSharedJsPython extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

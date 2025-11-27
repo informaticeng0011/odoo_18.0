@@ -24,14 +24,20 @@ class PosVivaWalletController(http.Controller):
                 data = request.get_json_data()
                 terminal_id = data.get('EventData', {}).get('TerminalId', '')
 <<<<<<< HEAD
+<<<<<<< HEAD
                 data_webhook = data.get('EventData', {})
                 if terminal_id:
 =======
+=======
+>>>>>>> upstream/18.0
                 event_type = data.get('EventTypeId')
                 data_webhook = data.get('EventData', {})
                 if event_type != 1796:  # Transaction Payment Created
                     _logger.warning('received a message with an unknown event type "%s". See https://developer.viva.com/webhooks-for-payments/#webhook-events.', event_type)
                 elif terminal_id:
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                     payment_method_sudo = request.env['pos.payment.method'].sudo().search([('viva_wallet_terminal_id', '=', terminal_id)], limit=1)
                     payment_method_sudo._retrieve_session_id(data_webhook)

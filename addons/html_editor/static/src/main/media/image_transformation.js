@@ -122,6 +122,10 @@ export class ImageTransformation extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.isCurrentlyTransforming = false;
+>>>>>>> upstream/18.0
 =======
         this.isCurrentlyTransforming = false;
 >>>>>>> upstream/18.0
@@ -486,7 +490,10 @@ export class ImageTransformation extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -815,6 +822,7 @@ export class ImageTransformation extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -867,6 +875,8 @@ export class ImageTransformation extends Component {
         useHotkey("escape", () => this.props.destroy());
         usePositionHook({ el: this.props.editable }, this.document, this.resetHandlers);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1116,6 +1126,9 @@ export class ImageTransformation extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1445,6 +1458,7 @@ export class ImageTransformation extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.props.onChange();
     }
 
@@ -1665,6 +1679,8 @@ export class ImageTransformation extends Component {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     }
 
     mouseUp() {
@@ -1726,6 +1742,9 @@ export class ImageTransformation extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1925,6 +1944,10 @@ export class ImageTransformation extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.isCurrentlyTransforming = true;
+>>>>>>> upstream/18.0
 =======
         this.isCurrentlyTransforming = true;
 >>>>>>> upstream/18.0

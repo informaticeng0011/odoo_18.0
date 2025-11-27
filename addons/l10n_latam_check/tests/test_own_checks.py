@@ -3,7 +3,11 @@
 from odoo.addons.l10n_latam_check.tests.common import L10nLatamCheckTest
 from odoo.tests import Form, tagged
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import fields
+=======
+from odoo import Command, fields
+>>>>>>> upstream/18.0
 =======
 from odoo import Command, fields
 >>>>>>> upstream/18.0
@@ -69,7 +73,10 @@ class TestOwnChecks(L10nLatamCheckTest):
         self.assertEqual(len(payment.l10n_latam_new_check_ids.outstanding_line_id), 0,
                          "Canceled payment checks must not have split move")
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_post_own_check_with_3_lines(self):
         foreign_currency = self.env.ref('base.EUR')
@@ -98,4 +105,7 @@ class TestOwnChecks(L10nLatamCheckTest):
         })
         payment.action_post()
         self.assertEqual(payment.amount, 120)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
