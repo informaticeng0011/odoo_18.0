@@ -23,11 +23,17 @@ const paymentWizardCopyClipboardButtonField = {
     ...copyClipboardButtonField,
     component: PaymentWizardCopyClipboardButtonField,
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     extractProps: (fieldInfo, dynamicInfo) => ({
         ...copyClipboardButtonField.extractProps(fieldInfo, dynamicInfo),
         string: fieldInfo.string,
     }),
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 };
 

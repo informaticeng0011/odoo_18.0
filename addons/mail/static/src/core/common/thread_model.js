@@ -392,6 +392,12 @@ export class Thread extends Record {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    // FIXME: should be in the portal/frontend bundle but live chat can be loaded
+    // before portal resulting in the field not being properly initialized.
+    portal_partner = Record.one("Persona");
+>>>>>>> upstream/18.0
 =======
     // FIXME: should be in the portal/frontend bundle but live chat can be loaded
     // before portal resulting in the field not being properly initialized.
@@ -1230,9 +1236,13 @@ export class Thread extends Record {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         attachments.sort((a1, a2) => {
             return a2.id - a1.id;
         });
+=======
+        attachments.sort((a1, a2) => a2.id - a1.id);
+>>>>>>> upstream/18.0
 =======
         attachments.sort((a1, a2) => a2.id - a1.id);
 >>>>>>> upstream/18.0
@@ -1768,10 +1778,13 @@ export class Thread extends Record {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     get displayName() {
         if (this.channel_type === "chat" && this.correspondent) {
             return this.custom_channel_name || this.correspondent.persona.name;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2196,6 +2209,9 @@ export class Thread extends Record {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2588,7 +2604,11 @@ export class Thread extends Record {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return this.channelMembers.filter(({ persona }) => persona.notEq(this.store.self));
+=======
+        return this.channelMembers.filter(({ persona }) => persona?.notEq(this.store.self));
+>>>>>>> upstream/18.0
 =======
         return this.channelMembers.filter(({ persona }) => persona?.notEq(this.store.self));
 >>>>>>> upstream/18.0
@@ -3084,7 +3104,11 @@ export class Thread extends Record {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 member.persona.notEq(this.store.self)
+=======
+                member.notEq(this.selfMember)
+>>>>>>> upstream/18.0
 =======
                 member.notEq(this.selfMember)
 >>>>>>> upstream/18.0
@@ -3287,6 +3311,10 @@ export class Thread extends Record {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            this.hasLoadingFailed = false;
+>>>>>>> upstream/18.0
 =======
             this.hasLoadingFailed = false;
 >>>>>>> upstream/18.0
@@ -3713,7 +3741,10 @@ export class Thread extends Record {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4059,6 +4090,10 @@ export class Thread extends Record {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+     * @deprecated
+>>>>>>> upstream/18.0
 =======
      * @deprecated
 >>>>>>> upstream/18.0
@@ -4450,6 +4485,9 @@ export class Thread extends Record {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5059,9 +5097,13 @@ export class Thread extends Record {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ((newName && this.channel_type === "channel") ||
                 this.channel_type === "chat" ||
                 this.channel_type === "group")
+=======
+            ((newName && this.channel_type === "channel") || this.isChatChannel)
+>>>>>>> upstream/18.0
 =======
             ((newName && this.channel_type === "channel") || this.isChatChannel)
 >>>>>>> upstream/18.0
@@ -5627,7 +5669,11 @@ export class Thread extends Record {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             } else if (this.channel_type === "chat") {
+=======
+            } else if (this.supportsCustomChannelName) {
+>>>>>>> upstream/18.0
 =======
             } else if (this.supportsCustomChannelName) {
 >>>>>>> upstream/18.0
@@ -6180,7 +6226,11 @@ export class Thread extends Record {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (tmpMsg && tmpMsg.in(this.messages) && message.author.eq(this.store.self)) {
+=======
+        if (tmpMsg && tmpMsg.in(this.messages) && this.effectiveSelf.eq(message.author)) {
+>>>>>>> upstream/18.0
 =======
         if (tmpMsg && tmpMsg.in(this.messages) && this.effectiveSelf.eq(message.author)) {
 >>>>>>> upstream/18.0
@@ -6699,7 +6749,11 @@ export class Thread extends Record {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             tmpData.author = this.store.self;
+=======
+            tmpData.author = this.effectiveSelf;
+>>>>>>> upstream/18.0
 =======
             tmpData.author = this.effectiveSelf;
 >>>>>>> upstream/18.0

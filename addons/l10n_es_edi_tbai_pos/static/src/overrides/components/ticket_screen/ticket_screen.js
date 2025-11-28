@@ -102,7 +102,11 @@ patch(TicketScreen.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         super.addAdditionalRefundInfo(...arguments);
+=======
+        await super.addAdditionalRefundInfo(...arguments);
+>>>>>>> upstream/18.0
 =======
         await super.addAdditionalRefundInfo(...arguments);
 >>>>>>> upstream/18.0

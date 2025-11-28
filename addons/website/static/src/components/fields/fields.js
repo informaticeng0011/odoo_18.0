@@ -6,6 +6,10 @@ import { UrlField, urlField } from "@web/views/fields/url/url_field";
 import {registry} from '@web/core/registry';
 import { _t } from '@web/core/l10n/translation';
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { debounce } from "@web/core/utils/timing";
+>>>>>>> upstream/18.0
 =======
 import { debounce } from "@web/core/utils/timing";
 >>>>>>> upstream/18.0
@@ -36,10 +40,13 @@ class PageUrlField extends UrlField {
             (inputEl) => {
                 if (inputEl) {
 <<<<<<< HEAD
+<<<<<<< HEAD
                     const fireChangeEvent = () => {
                         inputEl.dispatchEvent(new Event("change"));
                     };
 =======
+=======
+>>>>>>> upstream/18.0
                     const originalValue = inputEl.value;
                     let previousValueChanged = false;
                     const fireChangeEvent = debounce(() => {
@@ -54,6 +61,9 @@ class PageUrlField extends UrlField {
                             previousValueChanged = valueChanged;
                         }
                     }, 100);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
                     inputEl.addEventListener("input", fireChangeEvent);

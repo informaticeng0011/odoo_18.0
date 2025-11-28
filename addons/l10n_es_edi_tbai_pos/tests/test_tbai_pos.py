@@ -101,7 +101,11 @@ class TestPosEdi(TestEsEdiTbaiCommonGipuzkoa, TestPointOfSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def pay_pos_order(cls, pos_order):
+=======
+    def pay_pos_order(cls, pos_order, with_error=False):
+>>>>>>> upstream/18.0
 =======
     def pay_pos_order(cls, pos_order, with_error=False):
 >>>>>>> upstream/18.0
@@ -347,7 +351,12 @@ class TestPosEdi(TestEsEdiTbaiCommonGipuzkoa, TestPointOfSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return_value=cls.mock_response_post_invoice_success,
+=======
+            return_value=None if with_error else cls.mock_response_post_invoice_success,
+            side_effect=cls.mock_request_error if with_error else None,
+>>>>>>> upstream/18.0
 =======
             return_value=None if with_error else cls.mock_response_post_invoice_success,
             side_effect=cls.mock_request_error if with_error else None,
@@ -723,7 +732,10 @@ class TestPosEdi(TestEsEdiTbaiCommonGipuzkoa, TestPointOfSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -914,6 +926,9 @@ class TestPosEdi(TestEsEdiTbaiCommonGipuzkoa, TestPointOfSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

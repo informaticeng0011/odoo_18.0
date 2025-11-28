@@ -106,7 +106,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { AccountAnalyticLine } from "@analytic/../tests/mock_server/mock_models/account_analytic_line";
+=======
+import { analyticModels } from "@analytic/../tests/analytic_test_helpers";
+>>>>>>> upstream/18.0
 =======
 import { analyticModels } from "@analytic/../tests/analytic_test_helpers";
 >>>>>>> upstream/18.0
@@ -545,7 +549,10 @@ export const saleTimesheetModels = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     AccountAnalyticLine,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -875,7 +882,11 @@ export function defineSaleTimesheetModels() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     return defineModels({ ...mailModels, ...saleTimesheetModels });
+=======
+    return defineModels({ ...mailModels, ...analyticModels, ...saleTimesheetModels });
+>>>>>>> upstream/18.0
 =======
     return defineModels({ ...mailModels, ...analyticModels, ...saleTimesheetModels });
 >>>>>>> upstream/18.0

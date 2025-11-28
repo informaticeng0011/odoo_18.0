@@ -139,7 +139,11 @@ class ResCompany(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 placeholder = '830503-11-4923'
+=======
+                placeholder = '830503114923'
+>>>>>>> upstream/18.0
 =======
                 placeholder = '830503114923'
 >>>>>>> upstream/18.0
@@ -433,7 +437,11 @@ class ResCompany(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 placeholder = '830805-13-4983'
+=======
+                placeholder = '830805134983'
+>>>>>>> upstream/18.0
 =======
                 placeholder = '830805134983'
 >>>>>>> upstream/18.0
@@ -749,7 +757,10 @@ class ResCompany(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1015,6 +1026,9 @@ class ResCompany(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

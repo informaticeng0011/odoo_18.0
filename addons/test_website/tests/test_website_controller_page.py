@@ -152,7 +152,10 @@ class TestWebsiteControllerPage(HttpCase):
         self.assertEqual(rec_nodes[0].get("href"), f"/model/{self.listing_controller_page.name_slugified}/{slug(self.exposed_records[1])}")
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         response = self.url_open(f"/model/{self.listing_controller_page.name_slugified}/page/2?search={self.exposed_records[0].name}")
         self.assertEqual(response.url.partition('/model/')[2], f"exposed-model?search={self.exposed_records[0].name}&order=create_date+desc")
         tree = html.fromstring(response.content.decode())
@@ -160,6 +163,9 @@ class TestWebsiteControllerPage(HttpCase):
         self.assertEqual(len(rec_nodes), 1)
         self.assertEqual(rec_nodes[0].get("href"), f"/model/{self.listing_controller_page.name_slugified}/{slug(self.exposed_records[0])}")
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_default_layout(self):
         self.assertEqual(self.listing_controller_page.default_layout, 'grid')

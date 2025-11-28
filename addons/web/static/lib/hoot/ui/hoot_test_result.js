@@ -115,6 +115,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { HootCopyButton } from "./hoot_copy_button";
+>>>>>>> upstream/18.0
 =======
 import { HootCopyButton } from "./hoot_copy_button";
 >>>>>>> upstream/18.0
@@ -526,6 +530,10 @@ import { HootTechnicalValue } from "./hoot_technical_value";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+ * @typedef {import("./setup_hoot_ui").StatusFilter} StatusFilter
+>>>>>>> upstream/18.0
 =======
  * @typedef {import("./setup_hoot_ui").StatusFilter} StatusFilter
 >>>>>>> upstream/18.0
@@ -938,7 +946,10 @@ const {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Map,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1250,11 +1261,14 @@ const {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @param {string} label
  * @param {string} owner
  */
 const stackTemplate = (label, owner) => {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1588,6 +1602,9 @@ function stackTemplate(label, owner) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1805,6 +1822,7 @@ function stackTemplate(label, owner) {
             </div>
         </t>
     `;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2284,6 +2302,11 @@ const DOC_URL = `https://www.odoo.com/documentation/18.0/developer/reference/fro
 
 const DOC_URL = `https://www.odoo.com/documentation/18.0/developer/reference/frontend/unit_testing/hoot.html#`;
 >>>>>>> upstream/18.0
+=======
+}
+
+const DOC_URL = `https://www.odoo.com/documentation/18.0/developer/reference/frontend/unit_testing/hoot.html#`;
+>>>>>>> upstream/18.0
 
 const ERROR_TEMPLATE = /* xml */ `
     <div class="text-rose flex items-center gap-1 px-2 truncate">
@@ -2346,9 +2369,12 @@ const EVENT_TEMPLATE = /* xml */ `
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <!-- TODO: add documentation links once they exist -->
         <a href="#" class="hover:text-primary flex gap-1 items-center" t-att-class="{ 'text-cyan': sType === 'assertion' }">
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2463,6 +2489,9 @@ const EVENT_TEMPLATE = /* xml */ `
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2683,6 +2712,7 @@ const EVENT_TEMPLATE = /* xml */ `
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <small class="text-gray flex items-center" t-att-title="timestamp">
         <t t-esc="'@' + timestamp" />
     </small>
@@ -2887,10 +2917,13 @@ const EVENT_TEMPLATE = /* xml */ `
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     <small class="flex items-center text-gray" t-att-title="timestamp">
         <t t-esc="'@' + timestamp" />
     </small>
     <t t-if="event.additionalMessage">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3196,6 +3229,8 @@ const EVENT_TEMPLATE = /* xml */ `
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         <div class="flex items-center ms-4 px-2 gap-1 col-span-2">
             <em class="text-blue truncate" t-esc="event.additionalMessage" />
             <HootCopyButton text="event.additionalMessage" />
@@ -3277,6 +3312,9 @@ const EVENT_TEMPLATE = /* xml */ `
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3574,7 +3612,11 @@ export class HootTestResult extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     static components = { HootLink, HootTechnicalValue };
+=======
+    static components = { HootCopyButton, HootLink, HootTechnicalValue };
+>>>>>>> upstream/18.0
 =======
     static components = { HootCopyButton, HootLink, HootTechnicalValue };
 >>>>>>> upstream/18.0
@@ -4006,12 +4048,15 @@ export class HootTestResult extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <t t-foreach="results" t-as="result" t-key="result_index">
                     <t t-if="results.length > 1">
                         <div class="flex justify-between mx-2 my-1">
                             <span t-attf-class="text-{{ result.pass ? 'emerald' : 'rose' }}">
                                 <t t-esc="ordinal(result_index + 1)" /> run:
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4319,6 +4364,9 @@ export class HootTestResult extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4629,11 +4677,14 @@ export class HootTestResult extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <t t-if="!filteredEvents.get(result).length">
                             <em class="text-gray px-2 py-1">No test event to show</em>
                         </t>
                         <t t-foreach="filteredEvents.get(result)" t-as="event" t-key="event_index">
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4938,6 +4989,9 @@ export class HootTestResult extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5248,10 +5302,13 @@ export class HootTestResult extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <pre
                             class="p-2 m-2 mt-0 rounded bg-white text-black dark:bg-black dark:text-white animate-slide-down overflow-auto"
                         ><code class="language-javascript" t-out="props.test.code" /></pre>
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5486,6 +5543,9 @@ export class HootTestResult extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5683,6 +5743,10 @@ export class HootTestResult extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    DOC_URL = DOC_URL;
+>>>>>>> upstream/18.0
 =======
     DOC_URL = DOC_URL;
 >>>>>>> upstream/18.0
@@ -5904,11 +5968,14 @@ export class HootTestResult extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     setup() {
         subscribeToURLParams("*");
 
         this.config = useState(this.env.runner.config);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6219,6 +6286,9 @@ export class HootTestResult extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6527,6 +6597,7 @@ export class HootTestResult extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         /** @type {ReturnType<typeof this.getFilteredEvents>} */
         this.filteredEvents;
@@ -6534,6 +6605,11 @@ export class HootTestResult extends Component {
         onWillRender(() => {
             this.filteredEvents = this.getFilteredEvents();
         });
+=======
+        this.uiState = useState(ui);
+
+        onWillRender(this.onWillRender.bind(this));
+>>>>>>> upstream/18.0
 =======
         this.uiState = useState(ui);
 
@@ -7173,6 +7249,7 @@ export class HootTestResult extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @returns {[Record<CaseEventType, number>, Map<CaseResult, CaseEvent[]>]}
      */
     getFilteredEvents() {
@@ -7184,6 +7261,8 @@ export class HootTestResult extends Component {
     }
 
     /**
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7493,7 +7572,10 @@ export class HootTestResult extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7799,6 +7881,9 @@ export class HootTestResult extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

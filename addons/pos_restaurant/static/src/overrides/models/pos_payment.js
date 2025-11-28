@@ -8,12 +8,18 @@ patch(PosPayment.prototype, {
             return this.payment_method_id.payment_terminal.canBeAdjusted(this.uuid);
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
         return !this.payment_method_id.is_cash_count;
 =======
+=======
+>>>>>>> upstream/18.0
         return (
             !this.payment_method_id.is_cash_count &&
             this.payment_method_id.payment_method_type != "qr_code"
         );
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     },
 });

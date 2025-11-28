@@ -43,6 +43,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* sale_gelato
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -347,6 +348,9 @@
 =======
 # * sale_gelato
 >>>>>>> upstream/18.0
+=======
+# * sale_gelato
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Patricia Gutiérrez Capetillo <pagc@odoo.com>, 2025
@@ -395,6 +399,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -402,6 +407,9 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# "Fernanda Alvarez (mfar)" <mfar@odoo.com>, 2025.
 >>>>>>> upstream/18.0
 =======
 # "Fernanda Alvarez (mfar)" <mfar@odoo.com>, 2025.
@@ -536,6 +544,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -735,6 +744,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-10-20 11:54+0000\n"
 "PO-Revision-Date: 2025-10-29 16:29+0000\n"
 "Last-Translator: \"Fernanda Alvarez (mfar)\" <mfar@odoo.com>\n"
@@ -768,6 +779,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -829,6 +843,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1096,12 +1111,18 @@ msgstr ""
 " ? 1 : 2);\n"
 "X-Generator: Weblate 5.12.2\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
+" ? 1 : 2);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: sale_gelato
 #: model:mail.template,body_html:sale_gelato.order_status_update
 msgid ""
 "<div style=\"margin: 0px; padding: 0px;\">\n"
 "                <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1246,6 +1267,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                    Hello <t t-out=\"object.partner_id.name or ''\">Brandon "
 "Freeman</t>,<br/><br/>\n"
 "                    <!-- Order in transit body -->\n"
@@ -1255,6 +1278,7 @@ msgid ""
 "                        <t t-if=\"len(ctx['tracking_data']) == 1\">\n"
 "                            <t t-set=\"tracking_url\" t-"
 "value=\"list(ctx['tracking_data'].keys())[0]\"/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1469,11 +1493,16 @@ msgid ""
 "                            Your tracking number is <a t-att-"
 "href=\"tracking_url\" t-out=\"ctx['tracking_data'][tracking_url]\"/>.\n"
 >>>>>>> upstream/18.0
+=======
+"                            Your tracking number is <a t-att-"
+"href=\"tracking_url\" t-out=\"ctx['tracking_data'][tracking_url]\"/>.\n"
+>>>>>>> upstream/18.0
 "                            <br/><br/>\n"
 "                        </t>\n"
 "                        <t t-else=\"\">\n"
 "                            Your tracking numbers are:\n"
 "                            <ul>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1638,6 +1667,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                                <li t-foreach=\"ctx['tracking_data']\" t-"
 "as=\"tracking_url\">\n"
 "                                    <a t-att-href=\"tracking_url\" t-"
@@ -1679,6 +1710,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1806,6 +1840,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        We are glad to inform you that your order has been delivered.\n"
 "                        <br/><br/>\n"
 "                    </t>\n"
@@ -1814,6 +1849,8 @@ msgid ""
 "                        <br/>\n"
 "                        <t t-out=\"object.user_id.name or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1959,6 +1996,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2055,6 +2095,7 @@ msgid ""
 "            </div>\n"
 "        "
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2287,6 +2328,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "<div style=\"margin: 0px; padding: 0px;\">\n"
 "                <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "                    Hola <t t-out=\"object.partner_id.name or ''\">Brandon "
@@ -2345,6 +2388,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2422,6 +2468,7 @@ msgstr ""
 "                            </ul>\n"
 "                        </t>\n"
 "                    </t>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2564,6 +2611,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                    <!-- Cuerpo del mensaje sobre entrega de la orden -->\n"
 "                    <t t-if=\"ctx.get('order_delivered')\">\n"
 "                        Nos alegra informarte que entregamos tu orden.\n"
@@ -2606,6 +2655,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2728,6 +2780,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2858,6 +2913,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2984,12 +3042,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<i title=\"All print images are set\" invisible=\"gelato_missing_images\" class=\"fa fa-check-circle text-success fs-3 me-3\"/>\n"
 "                        <i title=\"Some print images are missing\" invisible=\"not gelato_missing_images\" class=\"fa fa-question-circle text-danger fs-3 me-3\"/>"
 msgstr ""
 "<i title=\"Todas las imágenes para la impresión están listas\" invisible=\"gelato_missing_images\" class=\"fa fa-check-circle text-success fs-3 me-3\"/>\n"
 "                        <i title=\"Faltan algunas imágenes para la impresión\" invisible=\"not gelato_missing_images\" class=\"fa fa-question-circle text-danger fs-3 me-3\"/>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3137,6 +3198,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3331,7 +3395,11 @@ msgid "Could not establish the connection to the Gelato API."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "No fue posible establecer la conexión con el API de Gelato."
+=======
+msgstr "No fue posible establecer la conexión con la API de Gelato."
+>>>>>>> upstream/18.0
 =======
 msgstr "No fue posible establecer la conexión con la API de Gelato."
 >>>>>>> upstream/18.0
@@ -3681,7 +3749,11 @@ msgid "Gelato Print Images"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Imágenes para impresión Gelato"
+=======
+msgstr "Imágenes para impresión de Gelato"
+>>>>>>> upstream/18.0
 =======
 msgstr "Imágenes para impresión de Gelato"
 >>>>>>> upstream/18.0
@@ -4020,7 +4092,11 @@ msgid "Gelato Webhook Secret"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Secreto del Webhook de Gelato"
+=======
+msgstr "Secreto del webhook de Gelato"
+>>>>>>> upstream/18.0
 =======
 msgstr "Secreto del webhook de Gelato"
 >>>>>>> upstream/18.0
@@ -4306,10 +4382,16 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Gelato could not proceed with the fulfillment of order %(order_reference)s: "
 "%(gelato_message)s"
 msgstr ""
 "Gelato no pudo enviar la orden %(order_reference)s: %(gelato_message)s"
+=======
+"Gelato could not proceed with the fulfillment of order %(order_reference)s: %"
+"(gelato_message)s"
+msgstr "Gelato no pudo enviar la orden %(order_reference)s: %(gelato_message)s"
+>>>>>>> upstream/18.0
 =======
 "Gelato could not proceed with the fulfillment of order %(order_reference)s: %"
 "(gelato_message)s"
@@ -4623,7 +4705,11 @@ msgid "Gelato has returned order %(reference)s."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Gelato regresó la orden %(reference)s."
+=======
+msgstr "Gelato devolvió la orden %(reference)s."
+>>>>>>> upstream/18.0
 =======
 msgstr "Gelato devolvió la orden %(reference)s."
 >>>>>>> upstream/18.0
@@ -4940,7 +5026,11 @@ msgid "Gelato: Order status update"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Gelato: actualización del estado de la orden"
+=======
+msgstr "Gelato: Actualización del estado de la orden"
+>>>>>>> upstream/18.0
 =======
 msgstr "Gelato: Actualización del estado de la orden"
 >>>>>>> upstream/18.0
@@ -5274,7 +5364,12 @@ msgid "Missing product variants and images have been successfully created."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Se pudieron crear las variantes e imágenes de producto que faltaban."
+=======
+msgstr ""
+"Las variantes e imágenes de producto que faltaban se crearon con éxito."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "Las variantes e imágenes de producto que faltaban se crearon con éxito."
@@ -5669,7 +5764,12 @@ msgid "Place orders through Gelato's print-on-demand service"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ordene al servicio de impresión bajo demanda de Gelato"
+=======
+msgstr ""
+"Crea tus pedidos a través del servicio de impresión bajo demanda de Gelato"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "Crea tus pedidos a través del servicio de impresión bajo demanda de Gelato"
@@ -6071,6 +6171,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Las imágenes para impresión deben configurarse en productos antes de que "
 "puedan ordenarse."
 =======
@@ -6200,6 +6301,10 @@ msgstr ""
 =======
 "Las imágenes de impresión deben estar configuradas en los productos antes de"
 " que puedan ordenarse."
+>>>>>>> upstream/18.0
+=======
+"Las imágenes de impresión deben estar configuradas en los productos antes de "
+"que puedan ordenarse."
 >>>>>>> upstream/18.0
 =======
 "Las imágenes de impresión deben estar configuradas en los productos antes de "
@@ -6542,7 +6647,11 @@ msgid "Template Reference"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Plantilla de referencia"
+=======
+msgstr "Referencia de la plantilla"
+>>>>>>> upstream/18.0
 =======
 msgstr "Referencia de la plantilla"
 >>>>>>> upstream/18.0
@@ -6860,7 +6969,11 @@ msgid "The delivery method is not available for this order."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "El método de envío no está disponible para esta orden."
+=======
+msgstr "El método de entrega no está disponible para esta orden."
+>>>>>>> upstream/18.0
 =======
 msgstr "El método de entrega no está disponible para esta orden."
 >>>>>>> upstream/18.0
@@ -7184,7 +7297,11 @@ msgid "The order has been successfully passed on Gelato."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Esta orden se transfirió de forma exitosa a Gelato."
+=======
+msgstr "Esta orden se transfirió con éxito a Gelato."
+>>>>>>> upstream/18.0
 =======
 msgstr "Esta orden se transfirió con éxito a Gelato."
 >>>>>>> upstream/18.0
@@ -7477,6 +7594,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -7487,6 +7605,8 @@ msgstr ""
 msgid "Unable to confirm the order %s on Gelato."
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7617,6 +7737,9 @@ msgstr "No pudimos confirmar la orden %s en Gelato."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7750,6 +7873,7 @@ msgid "Unable to delete the order %s on Gelato."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: sale_gelato
@@ -7759,6 +7883,11 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr "No pudimos eliminar la orden %s en Gelato."
+
+#. module: sale_gelato
 >>>>>>> upstream/18.0
 =======
 msgstr "No pudimos eliminar la orden %s en Gelato."
@@ -7984,6 +8113,7 @@ msgstr "Secreto del webhook"
 #: code:addons/sale_gelato/models/sale_order.py:0
 msgid ""
 "You cannot mix Gelato products with non-Gelato products in the same order."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8298,6 +8428,9 @@ msgstr "Una orden no puede incluir productos de Gelato y de otro tipo."
 =======
 msgstr "Una orden no puede incluir productos de Gelato y de otro tipo."
 >>>>>>> upstream/18.0
+=======
+msgstr "Una orden no puede incluir productos de Gelato y de otro tipo."
+>>>>>>> upstream/18.0
 
 #. module: sale_gelato
 #: model:mail.template,subject:sale_gelato.order_status_update
@@ -8341,7 +8474,10 @@ msgstr "{{ object.reference }}"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8542,6 +8678,9 @@ msgstr "{{ object.reference }}"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

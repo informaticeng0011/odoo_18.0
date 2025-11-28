@@ -182,6 +182,10 @@ import { getScrollingElement } from "@web/core/utils/scrolling";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { isBrowserMicrosoftEdge } from "@web/core/browser/feature_detection";
+>>>>>>> upstream/18.0
 =======
 import { isBrowserMicrosoftEdge } from "@web/core/browser/feature_detection";
 >>>>>>> upstream/18.0
@@ -1027,7 +1031,10 @@ export class WebsitePreview extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1488,6 +1495,9 @@ export class WebsitePreview extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2018,6 +2028,10 @@ export class WebsitePreview extends Component {
         this.iframe.el.contentDocument.addEventListener('keyup', ev => {
             this.iframe.el.dispatchEvent(new KeyboardEvent('keyup', ev));
         });
+<<<<<<< HEAD
+=======
+        this.iframefallback.el?.contentDocument.documentElement.replaceChildren();
+>>>>>>> upstream/18.0
     }
 
     /**
@@ -2047,6 +2061,7 @@ export class WebsitePreview extends Component {
         // If the iframe is currently displaying an XML file, the body does not
         // exist, so we do not replace the iframefallback content.
         // The iframefallback is hidden in test mode
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2440,6 +2455,15 @@ export class WebsitePreview extends Component {
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+        const websiteDoc = this.iframe.el?.contentDocument;
+        const fallbackDoc = this.iframefallback.el?.contentDocument;
+        if (!this.websiteContext.edition && websiteDoc && fallbackDoc) {
+            fallbackDoc.documentElement.replaceWith(websiteDoc.documentElement.cloneNode(true));
+            this.iframefallback.el.classList.remove("d-none");
+            getScrollingElement(fallbackDoc).scrollTop = getScrollingElement(websiteDoc).scrollTop;
+            this._cleanIframeFallback();
 >>>>>>> upstream/18.0
         }
     }

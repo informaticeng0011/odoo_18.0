@@ -138,7 +138,11 @@ QUnit.module('partner_autocomplete', {
                 <field name="name" widget="field_partner_autocomplete"/>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <field name="parent_id" widget="res_partner_many2one"/>
+=======
+                <field name="parent_id" widget="res_partner_many2one" placeholder="Company Name..."/>
+>>>>>>> upstream/18.0
 =======
                 <field name="parent_id" widget="res_partner_many2one" placeholder="Company Name..."/>
 >>>>>>> upstream/18.0
@@ -193,7 +197,11 @@ QUnit.module('partner_autocomplete', {
     QUnit.test("Partner autocomplete : Company type = Individual", async function (assert) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         assert.expect(12);
+=======
+        assert.expect(13);
+>>>>>>> upstream/18.0
 =======
         assert.expect(13);
 >>>>>>> upstream/18.0
@@ -212,7 +220,10 @@ QUnit.module('partner_autocomplete', {
         const autocompleteContainer = companyInput.parentElement;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         assert.strictEqual(
@@ -221,6 +232,9 @@ QUnit.module('partner_autocomplete', {
             "The placeholder should be displayed"
         );
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

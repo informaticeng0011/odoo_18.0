@@ -77,6 +77,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* hr_holidays
 # 
 # Translators:
@@ -138,6 +139,8 @@
 >>>>>>> upstream/18.0
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -375,6 +378,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -532,6 +538,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -937,6 +944,10 @@ msgstr ""
 "POT-Creation-Date: 2025-11-14 18:37+0000\n"
 "PO-Revision-Date: 2025-10-20 06:22+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-11-14 18:37+0000\n"
+"PO-Revision-Date: 2025-10-20 06:22+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: \"Anastasiia Koroleva (koan)\" <koan@odoo.com>\n"
 "Language-Team: Russian <https://translate.odoo.com/projects/odoo-18/"
 "hr_holidays/ru/>\n"
@@ -945,6 +956,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1192,6 +1204,11 @@ msgstr ""
 "(n%100>=11 && n%100<=14)? 2 : 3);\n"
 "X-Generator: Weblate 5.12.2\n"
 >>>>>>> upstream/18.0
+=======
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
+"(n%100>=11 && n%100<=14)? 2 : 3);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #. odoo-python
@@ -1278,7 +1295,11 @@ msgid " to %(date_to_utc)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "до %(date_to_utc)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "до %(date_to_utc)s"
 >>>>>>> upstream/18.0
@@ -1645,7 +1666,11 @@ msgid "%(employee)s on Time Off : %(duration)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(employee)s в отпуске : %(duration)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(employee)s в отпуске : %(duration)s"
 >>>>>>> upstream/18.0
@@ -1994,7 +2019,11 @@ msgid "%(leave_type)s: %(duration)s (%(start)s)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(leave_type)s: %(duration)s (%(start)s)"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(leave_type)s: %(duration)s (%(start)s)"
 >>>>>>> upstream/18.0
@@ -2324,7 +2353,11 @@ msgid "%(name)s (%(duration)s %(request_unit)s(s))"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(name)s (%(duration)s %(request_unit)s)"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(name)s (%(duration)s %(request_unit)s)"
 >>>>>>> upstream/18.0
@@ -2666,7 +2699,11 @@ msgid "%(name)s (%(time)g remaining out of %(maximum)g days)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(name)s (%(time)g осталось из %(maximum)g дней)"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(name)s (%(time)g осталось из %(maximum)g дней)"
 >>>>>>> upstream/18.0
@@ -2996,7 +3033,11 @@ msgid "%(name)s (%(time)g remaining out of %(maximum)g hours)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(name)s (%(time)g осталось из %(maximum)g часов)"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(name)s (%(time)g осталось из %(maximum)g часов)"
 >>>>>>> upstream/18.0
@@ -3332,7 +3373,11 @@ msgid "%(person)s on %(leave_type)s: %(duration)s (%(start)s)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(person)s в отпуске %(leave_type)s: %(duration)s (%(start)s)"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(person)s в отпуске %(leave_type)s: %(duration)s (%(start)s)"
 >>>>>>> upstream/18.0
@@ -3662,7 +3707,11 @@ msgid "%(person)s: %(duration)s (%(start)s)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(person)s: %(duration)s (%(start)s)"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(person)s: %(duration)s (%(start)s)"
 >>>>>>> upstream/18.0
@@ -4015,11 +4064,17 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "&lt;td class=\"text-center oe_leftfit oe_rightfit\" style=\"background-"
 "color:"
 msgstr ""
 "&lt;td class=\"text-center oe_leftfit oe_rightfit\" style=\"background-"
 "color:"
+=======
+"&lt;td class=\"text-center oe_leftfit oe_rightfit\" style=\"background-color:"
+msgstr ""
+"&lt;td class=\"text-center oe_leftfit oe_rightfit\" style=\"background-color:"
+>>>>>>> upstream/18.0
 =======
 "&lt;td class=\"text-center oe_leftfit oe_rightfit\" style=\"background-color:"
 msgstr ""
@@ -4506,7 +4561,11 @@ msgid "- Valid for"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "– Действительно до"
+>>>>>>> upstream/18.0
 =======
 msgstr "– Действительно до"
 >>>>>>> upstream/18.0
@@ -4880,6 +4939,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            <span class=\"ml8\" invisible=\"request_unit != 'hour'\">Hours</span>"
 msgstr ""
 <<<<<<< HEAD
@@ -4903,6 +4963,8 @@ msgstr ""
 "                            <span class=\"ml8\" invisible=\"request_unit != 'hour'\">Часы</span>"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5137,6 +5199,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5372,11 +5437,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                <span class=\"ml8\" invisible=\"type_request_unit != 'hour'\">Hours</span>"
 msgstr ""
 "<span class=\"ml8\" invisible=\"type_request_unit == 'hour'\">Дни</span>\n"
 "                                <span class=\"ml8\" invisible=\"type_request_unit != 'hour'\">Часы</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5611,6 +5679,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5855,6 +5926,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"o_stat_text\">\n"
+"                            Вернется\n"
+"                        </span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"o_stat_text\">\n"
 "                            Вернется\n"
@@ -6390,6 +6467,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span>The employee has a different timezone than yours! Here dates and times are displayed in the employee's timezone</span>\n"
 "                    ("
 msgstr ""
@@ -6414,6 +6492,8 @@ msgstr ""
 "                    ("
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6649,6 +6729,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6883,8 +6966,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span>You can only take this time off in whole days, so if your schedule has"
 " half days, it won't be used efficiently.</span>"
+=======
+"<span>You can only take this time off in whole days, so if your schedule has "
+"half days, it won't be used efficiently.</span>"
+>>>>>>> upstream/18.0
 =======
 "<span>You can only take this time off in whole days, so if your schedule has "
 "half days, it won't be used efficiently.</span>"
@@ -7287,7 +7375,11 @@ msgid "A cancelled leave cannot be modified."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Отмененный отпуск нельзя редактировать."
+>>>>>>> upstream/18.0
 =======
 msgstr "Отмененный отпуск нельзя редактировать."
 >>>>>>> upstream/18.0
@@ -7613,8 +7705,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "A great way to keep track on employee’s PTOs, sick days, and approval "
 "status."
+=======
+"A great way to keep track on employee’s PTOs, sick days, and approval status."
+>>>>>>> upstream/18.0
 =======
 "A great way to keep track on employee’s PTOs, sick days, and approval status."
 >>>>>>> upstream/18.0
@@ -7931,8 +8027,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "A great way to keep track on your time off requests, sick days, and approval"
 " status."
+=======
+"A great way to keep track on your time off requests, sick days, and approval "
+"status."
+>>>>>>> upstream/18.0
 =======
 "A great way to keep track on your time off requests, sick days, and approval "
 "status."
@@ -8426,7 +8527,11 @@ msgid "Accrual Validity"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Срок действия начисленных отпусков"
+>>>>>>> upstream/18.0
 =======
 msgstr "Срок действия начисленных отпусков"
 >>>>>>> upstream/18.0
@@ -8755,7 +8860,11 @@ msgid "Accrual Validity Count"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Количество периодов, в течение которых действуют начисленные отпуска"
+>>>>>>> upstream/18.0
 =======
 msgstr "Количество периодов, в течение которых действуют начисленные отпуска"
 >>>>>>> upstream/18.0
@@ -9084,7 +9193,11 @@ msgid "Accrual Validity Type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Тип срока действия начисленных отпусков"
+>>>>>>> upstream/18.0
 =======
 msgstr "Тип срока действия начисленных отпусков"
 >>>>>>> upstream/18.0
@@ -9453,7 +9566,11 @@ msgid "Active but on leave"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Активен, но находится в отпуске"
+>>>>>>> upstream/18.0
 =======
 msgstr "Активен, но находится в отпуске"
 >>>>>>> upstream/18.0
@@ -9751,7 +9868,11 @@ msgid "Activity Exception Decoration"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Оформление исключения активности"
+=======
+msgstr "Оформление задачи-исключения"
+>>>>>>> upstream/18.0
 =======
 msgstr "Оформление задачи-исключения"
 >>>>>>> upstream/18.0
@@ -9967,7 +10088,10 @@ msgstr "Состояние активности"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10204,6 +10328,9 @@ msgstr "Тип активности"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10586,7 +10713,11 @@ msgid "Allocation Second Approval"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Второе согласование распределения"
+>>>>>>> upstream/18.0
 =======
 msgstr "Второе согласование распределения"
 >>>>>>> upstream/18.0
@@ -10926,6 +11057,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "Распределение должно быть сначала подтверждено как «К согласованию», а затем"
 " утверждено при необходимости второго согласования."
@@ -10941,6 +11073,10 @@ msgstr ""
 =======
 "Распределение должно быть сначала подтверждено как «К согласованию», а затем"
 " утверждено при необходимости второго согласования."
+>>>>>>> upstream/18.0
+=======
+"Распределение должно быть сначала подтверждено как «К согласованию», а затем "
+"утверждено при необходимости второго согласования."
 >>>>>>> upstream/18.0
 =======
 "Распределение должно быть сначала подтверждено как «К согласованию», а затем "
@@ -11350,6 +11486,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Запрос на распределение должен быть подтвержден или одобрен для того, чтобы "
+"его отклонить."
+>>>>>>> upstream/18.0
 =======
 "Запрос на распределение должен быть подтвержден или одобрен для того, чтобы "
 "его отклонить."
@@ -11755,6 +11896,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Allocation state must be \"Refused\" in order to be reset to \"To Approve\"."
 msgstr ""
 <<<<<<< HEAD
@@ -11778,6 +11920,8 @@ msgstr ""
 "статусе «Отклонено»."
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12011,6 +12155,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12279,12 +12426,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Позволяет создавать заявки пакетно:\n"
 "- По работнику: для конкретного работнику\n"
 "- По компании: все работники указанной компании\n"
 "- По отделу: все работники указанного отдела\n"
 "- По тегу работнику: все работники определенной категории группы работников"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12530,6 +12680,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12783,8 +12936,12 @@ msgid "An employee already booked time off which overlaps with this period:%s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Сотрудник уже забронировал отгул, который совпадает с этим периодом:%s"
+=======
+msgstr "Сотрудник уже забронировал отгул, который совпадает с этим периодом:%s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Сотрудник уже забронировал отгул, который совпадает с этим периодом:%s"
 >>>>>>> upstream/18.0
@@ -13246,6 +13403,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Automatic time off spliting during batch generation is not managed for ovelapping time off declared in hours. Conflicting time off:\n"
 "%s"
 msgstr ""
@@ -13270,6 +13428,8 @@ msgstr ""
 "%s"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13505,6 +13665,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13751,7 +13914,11 @@ msgid "Available Time Off Days"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Доступные дни отпуска"
+>>>>>>> upstream/18.0
 =======
 msgstr "Доступные дни отпуска"
 >>>>>>> upstream/18.0
@@ -14094,7 +14261,11 @@ msgid "Back On"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Вернется"
+>>>>>>> upstream/18.0
 =======
 msgstr "Вернется"
 >>>>>>> upstream/18.0
@@ -14424,7 +14595,11 @@ msgid "Back on %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Вернется %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Вернется %s"
 >>>>>>> upstream/18.0
@@ -14855,6 +15030,10 @@ msgstr "Может сбросить"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: code:addons/hr_holidays/static/src/views/calendar/common/calendar_common_popover.xml:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/hr_holidays/static/src/views/calendar/common/calendar_common_popover.xml:0
 >>>>>>> upstream/18.0
@@ -15259,7 +15438,11 @@ msgid "Carried over days expiration date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Срок действия перенесенных дней"
+>>>>>>> upstream/18.0
 =======
 msgstr "Срок действия перенесенных дней"
 >>>>>>> upstream/18.0
@@ -15588,7 +15771,11 @@ msgid "Carry Over Validity"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Срок действия переноса"
+>>>>>>> upstream/18.0
 =======
 msgstr "Срок действия переноса"
 >>>>>>> upstream/18.0
@@ -15964,11 +16151,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Изменение этого графика работы приведет к тому, что затронутому сотруднику "
 "(сотрудникам) не хватит выделенных отпусков, чтобы компенсировать уже взятые"
 " отпуска в будущем. Пожалуйста, проверьте отпуска этого сотрудника и "
 "скорректируйте их распределение соответствующим образом."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -16213,6 +16403,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16564,6 +16757,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Количество заявок на отгулы для данного типа отгулов (одобренных или "
 "ожидающих одобрения) с датой начала в текущем году."
 =======
@@ -16581,6 +16775,10 @@ msgstr ""
 =======
 "Количество заявок на отпуск по данному типу отпуска (в статусе «Согласовано»"
 " или «Ожидает согласования»), с датой начала в текущем году."
+>>>>>>> upstream/18.0
+=======
+"Количество заявок на отпуск по данному типу отпуска (в статусе «Согласовано» "
+"или «Ожидает согласования»), с датой начала в текущем году."
 >>>>>>> upstream/18.0
 =======
 "Количество заявок на отпуск по данному типу отпуска (в статусе «Согласовано» "
@@ -16990,7 +17188,11 @@ msgid "Create Allocations"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Создать распределения"
+>>>>>>> upstream/18.0
 =======
 msgstr "Создать распределения"
 >>>>>>> upstream/18.0
@@ -17335,7 +17537,11 @@ msgid "Created by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Создано"
+=======
+msgstr "Создано:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Создано:"
 >>>>>>> upstream/18.0
@@ -17657,7 +17863,11 @@ msgid "Created on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Создано"
+=======
+msgstr "Дата создания:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дата создания:"
 >>>>>>> upstream/18.0
@@ -18083,6 +18293,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: code:addons/hr_holidays/static/src/views/calendar/common/calendar_common_popover.xml:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/hr_holidays/static/src/views/calendar/common/calendar_common_popover.xml:0
 >>>>>>> upstream/18.0
@@ -18526,9 +18740,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "В связи с изменением глобальных отгулов, %s дополнительных дня(ов) были "
 "взяты из вашего отпуска. Пожалуйста, пересмотрите этот отпуск, если вам "
 "нужно его изменить."
+=======
+"В связи с изменениями в глобальных настройках отпусков, из вашего баланса "
+"отпуска было списано следующее количество дополнительных дней: %s. "
+"Пожалуйста, проверьте заявку и при необходимости скорректируйте ее."
+>>>>>>> upstream/18.0
 =======
 "В связи с изменениями в глобальных настройках отпусков, из вашего баланса "
 "отпуска было списано следующее количество дополнительных дней: %s. "
@@ -19024,9 +19244,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "В связи с изменениями в глобальных отгулах этот отпуск больше не имеет "
 "необходимого количества доступных ассигнований и был отменен. Пожалуйста, "
 "пересмотрите этот отпуск."
+=======
+"В связи с изменениями в глобальных настройках отпусков, по данной заявке "
+"недостаточно доступных распределений, и она была переведена в статус "
+"«Отклонено». Пожалуйста, проверьте заявку."
+>>>>>>> upstream/18.0
 =======
 "В связи с изменениями в глобальных настройках отпусков, по данной заявке "
 "недостаточно доступных распределений, и она была переведена в статус "
@@ -19610,7 +19836,11 @@ msgid "Employee's image"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Фотография сотрудника"
+>>>>>>> upstream/18.0
 =======
 msgstr "Фотография сотрудника"
 >>>>>>> upstream/18.0
@@ -19972,7 +20202,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Разрешены запросы на дополнительные дни: Пользователь может запросить выделение для себя.\n"
+=======
+"Разрешены запросы на дополнительные дни: Пользователь может запросить "
+"выделение для себя.\n"
+>>>>>>> upstream/18.0
 =======
 "Разрешены запросы на дополнительные дни: Пользователь может запросить "
 "выделение для себя.\n"
@@ -20442,6 +20677,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "given to the employee, due to a previous start date, on the first run of the"
 " plan. This can be manually edited."
 msgstr ""
@@ -20469,6 +20705,8 @@ msgstr ""
 "Значение можно отредактировать вручную."
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -20703,6 +20941,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -20971,7 +21212,11 @@ msgid "Generate Time Off"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Создать отпуска"
+>>>>>>> upstream/18.0
 =======
 msgstr "Создать отпуска"
 >>>>>>> upstream/18.0
@@ -21301,7 +21546,11 @@ msgid "Generate time off allocations for multiple employees"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Создание распределений отпуска для нескольких сотрудников"
+>>>>>>> upstream/18.0
 =======
 msgstr "Создание распределений отпуска для нескольких сотрудников"
 >>>>>>> upstream/18.0
@@ -21631,7 +21880,11 @@ msgid "Generate time off for multiple employees"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Создать отпуска для нескольких сотрудников"
+>>>>>>> upstream/18.0
 =======
 msgstr "Создать отпуска для нескольких сотрудников"
 >>>>>>> upstream/18.0
@@ -21961,7 +22214,11 @@ msgid "Generated Allocations"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Созданные распределения"
+>>>>>>> upstream/18.0
 =======
 msgstr "Созданные распределения"
 >>>>>>> upstream/18.0
@@ -22291,7 +22548,11 @@ msgid "Generated Time Off"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Созданные отпуска"
+>>>>>>> upstream/18.0
 =======
 msgstr "Созданные отпуска"
 >>>>>>> upstream/18.0
@@ -22666,7 +22927,11 @@ msgid "Has Department Manager Access"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Имеет права руководителя отдела"
+>>>>>>> upstream/18.0
 =======
 msgstr "Имеет права руководителя отдела"
 >>>>>>> upstream/18.0
@@ -23073,7 +23338,11 @@ msgid "Icon to indicate an exception activity."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Значок, обозначающий исключение Дела."
+=======
+msgstr "Иконка, указывающая на задачу-исключение."
+>>>>>>> upstream/18.0
 =======
 msgstr "Иконка, указывающая на задачу-исключение."
 >>>>>>> upstream/18.0
@@ -23310,8 +23579,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Если флажок установлен, период начисления будет рассчитываться по рабочим, а"
 " не календарным дням."
+=======
+"Если флажок установлен, период начисления будет рассчитываться по рабочим, а "
+"не календарным дням."
+>>>>>>> upstream/18.0
 =======
 "Если флажок установлен, период начисления будет рассчитываться по рабочим, а "
 "не календарным дням."
@@ -23758,7 +24032,11 @@ msgid "Is Name Custom"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Пользовательское имя"
+>>>>>>> upstream/18.0
 =======
 msgstr "Пользовательское имя"
 >>>>>>> upstream/18.0
@@ -24145,7 +24423,11 @@ msgid "Last Updated by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Последнее обновление"
+=======
+msgstr "Последнее обновление:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Последнее обновление:"
 >>>>>>> upstream/18.0
@@ -24471,7 +24753,11 @@ msgid "Last Updated on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Последнее обновление"
+=======
+msgstr "Дата последнего обновления:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дата последнего обновления:"
 >>>>>>> upstream/18.0
@@ -24895,7 +25181,11 @@ msgid "Mark as ready to approve"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Отметить как готово к согласованию"
+>>>>>>> upstream/18.0
 =======
 msgstr "Отметить как готово к согласованию"
 >>>>>>> upstream/18.0
@@ -25239,7 +25529,11 @@ msgid "Maximum Excess Amount"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Максимально допустимый перерасход"
+>>>>>>> upstream/18.0
 =======
 msgstr "Максимально допустимый перерасход"
 >>>>>>> upstream/18.0
@@ -25564,8 +25858,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Maximum Time Off Allowed - Time Off Already Taken - Time Off Waiting "
 "Approval"
+=======
+"Maximum Time Off Allowed - Time Off Already Taken - Time Off Waiting Approval"
+>>>>>>> upstream/18.0
 =======
 "Maximum Time Off Allowed - Time Off Already Taken - Time Off Waiting Approval"
 >>>>>>> upstream/18.0
@@ -25935,7 +26233,11 @@ msgid "Milestone cap"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ограничение по этапу"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ограничение по этапу"
 >>>>>>> upstream/18.0
@@ -26299,7 +26601,11 @@ msgid "Multiple Requests"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Множественные заявки"
+>>>>>>> upstream/18.0
 =======
 msgstr "Множественные заявки"
 >>>>>>> upstream/18.0
@@ -26705,7 +27011,11 @@ msgid "New Allocation Request"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Новое распределение"
+=======
+msgstr "Запрос на новое распределение"
+>>>>>>> upstream/18.0
 =======
 msgstr "Запрос на новое распределение"
 >>>>>>> upstream/18.0
@@ -27031,12 +27341,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "New Allocation Request created by %(user)s: %(count)s Days of "
 "%(allocation_type)s"
 msgstr ""
 "Новый запрос на выделение средств, созданный %(user)s: %(count)s Дни из "
 "%(allocation_type)s"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -27270,6 +27583,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -27589,6 +27905,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "Невидимые распределения можно использовать при оформлении отпуска, но они не"
 " будут отображаться на дашборде отпусков."
@@ -27604,6 +27921,10 @@ msgstr ""
 =======
 "Невидимые распределения можно использовать при оформлении отпуска, но они не"
 " будут отображаться на дашборде отпусков."
+>>>>>>> upstream/18.0
+=======
+"Невидимые распределения можно использовать при оформлении отпуска, но они не "
+"будут отображаться на дашборде отпусков."
 >>>>>>> upstream/18.0
 =======
 "Невидимые распределения можно использовать при оформлении отпуска, но они не "
@@ -28126,6 +28447,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Only %s's Time Off Approver, a time off Officer/Responsible or Administrator"
 " can approve or refuse allocation requests."
 msgstr ""
@@ -28154,6 +28476,8 @@ msgstr ""
 "распределение."
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -28388,6 +28712,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -28640,10 +28967,15 @@ msgstr "Только менеджер по отгулам может сбрас�
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Only a Time Off Officer or Manager can approve/refuse its own requests."
 msgstr ""
 "Только сотрудник или менеджер может утверждать/отклонять свои запросы."
+=======
+msgid "Only a Time Off Officer or Manager can approve/refuse its own requests."
+msgstr "Только сотрудник или менеджер может утверждать/отклонять свои запросы."
+>>>>>>> upstream/18.0
 =======
 msgid "Only a Time Off Officer or Manager can approve/refuse its own requests."
 msgstr "Только сотрудник или менеджер может утверждать/отклонять свои запросы."
@@ -29038,7 +29370,11 @@ msgid "Only a manager can modify a canceled leave."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Только менеджер может изменить отмененный отпуск."
+>>>>>>> upstream/18.0
 =======
 msgstr "Только менеджер может изменить отмененный отпуск."
 >>>>>>> upstream/18.0
@@ -29369,6 +29705,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Только администратор модуля Отпуска может согласовывать собственные заявки."
+>>>>>>> upstream/18.0
 =======
 "Только администратор модуля Отпуска может согласовывать собственные заявки."
 >>>>>>> upstream/18.0
@@ -29701,6 +30041,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Только администратор или сотрудник, ответственный за отпуска, может "
+"согласовать или отклонить запрос на распределение."
+>>>>>>> upstream/18.0
 =======
 "Только администратор или сотрудник, ответственный за отпуска, может "
 "согласовать или отклонить запрос на распределение."
@@ -30146,7 +30491,11 @@ msgid "Pending Requests"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ожидающие рассмотрения заявки"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ожидающие рассмотрения заявки"
 >>>>>>> upstream/18.0
@@ -30504,7 +30853,11 @@ msgid "Provide a reason to cancel an approved time off"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Укажите причину отмены согласованного отпуска"
+>>>>>>> upstream/18.0
 =======
 msgstr "Укажите причину отмены согласованного отпуска"
 >>>>>>> upstream/18.0
@@ -30838,7 +31191,11 @@ msgid "Public Holiday Included"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Праздничные дни включены"
+>>>>>>> upstream/18.0
 =======
 msgstr "Праздничные дни включены"
 >>>>>>> upstream/18.0
@@ -31178,6 +31535,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Праздничные дни должны учитываться при расчете продолжительности отпуска"
+>>>>>>> upstream/18.0
 =======
 "Праздничные дни должны учитываться при расчете продолжительности отпуска"
 >>>>>>> upstream/18.0
@@ -31767,6 +32128,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            #     - No validation needed: The employee's request is automatically approved.\n"
 "            #     - Approved by Time Off Officer: The employee's request need to be manually approved\n"
 "            #       by the Time Off Officer, Employee's Approver or both."
@@ -31797,6 +32159,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -32038,6 +32402,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -32206,6 +32573,7 @@ msgstr "Выберите запрос, который вы только что �
 #: model:ir.model.fields,help:hr_holidays.field_res_users__leave_manager_id
 msgid ""
 "Select the user responsible for approving \"Time Off\" of this employee.\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -32460,6 +32828,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "If empty, the approval is done by an Administrator or Approver (determined "
 "in settings/users)."
 msgstr ""
@@ -32543,6 +32913,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -32796,8 +33169,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Установите максимальный размер начислений, которые распределение сохраняет в"
 " конце года."
+=======
+"Установите максимальный размер начислений, которые распределение сохраняет в "
+"конце года."
+>>>>>>> upstream/18.0
 =======
 "Установите максимальный размер начислений, которые распределение сохраняет в "
 "конце года."
@@ -33232,6 +33610,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                Leave empty if this accrual plan can be used with any Time Off Type."
 msgstr ""
 <<<<<<< HEAD
@@ -33257,6 +33636,8 @@ msgstr ""
 "                Оставьте поле пустым, если план может использоваться с любым типом отпуска."
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -33492,6 +33873,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -33649,6 +34033,7 @@ msgstr ""
 #. module: hr_holidays
 #: model:ir.model.fields,help:hr_holidays.field_hr_leave_accrual_plan__transition_mode
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -33919,6 +34304,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Specify what occurs if a level transition takes place in the middle of a pay "
 "period.\n"
 "\n"
@@ -34015,6 +34402,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -34253,7 +34643,11 @@ msgid "Start Accruing"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Начать начисление"
+>>>>>>> upstream/18.0
 =======
 msgstr "Начать начисление"
 >>>>>>> upstream/18.0
@@ -34691,8 +35085,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "The Start Date of the Validity Period must be anterior to the End Date."
+=======
+msgid "The Start Date of the Validity Period must be anterior to the End Date."
+>>>>>>> upstream/18.0
 =======
 msgid "The Start Date of the Validity Period must be anterior to the End Date."
 >>>>>>> upstream/18.0
@@ -34933,6 +35331,7 @@ msgid ""
 "This field defines the number of days, months or years after which accrual "
 "is used."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -35345,6 +35744,10 @@ msgstr ""
 "Расчет начинается по истечении определенного периода с даты начала "
 "распределения. Укажите количество дней, месяцев или лет до начала начислений."
 >>>>>>> upstream/18.0
+=======
+"Расчет начинается по истечении определенного периода с даты начала "
+"распределения. Укажите количество дней, месяцев или лет до начала начислений."
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #. odoo-python
@@ -35434,9 +35837,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Требование по распределению для данного вида отпуска нельзя изменить, если "
 "уже были оформлены отпуска этого вида. Рекомендуется создать новый вид "
 "отпуска."
+=======
+"Требование по наличию начисления для типа отпуска нельзя изменить, если по "
+"этому типу уже оформлены заявки. Необходимо создать новый тип отпуска."
+>>>>>>> upstream/18.0
 =======
 "Требование по наличию начисления для типа отпуска нельзя изменить, если по "
 "этому типу уже оформлены заявки. Необходимо создать новый тип отпуска."
@@ -35875,7 +36283,11 @@ msgid "The employee no longer works in the company"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Сотрудник больше не работает в компании"
+>>>>>>> upstream/18.0
 =======
 msgstr "Сотрудник больше не работает в компании"
 >>>>>>> upstream/18.0
@@ -36211,6 +36623,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The leaves planned in the future are exceeding the maximum value of the allocation.\n"
 "                It will not be possible to take all of them."
 msgstr ""
@@ -36237,6 +36650,8 @@ msgstr ""
 "                Не получится использовать весь запланированный отпуск."
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -36471,6 +36886,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -36712,6 +37130,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Максимально допустимый перерасход должен быть больше 0. Если хотите "
+"установить 0, отключите отрицательный лимит."
+>>>>>>> upstream/18.0
 =======
 "Максимально допустимый перерасход должен быть больше 0. Если хотите "
 "установить 0, отключите отрицательный лимит."
@@ -37124,6 +37547,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Количество перенесенных дней, срок действия которых истечет "
+"carried_over_days_expiration_date"
+>>>>>>> upstream/18.0
 =======
 "Количество перенесенных дней, срок действия которых истечет "
 "carried_over_days_expiration_date"
@@ -37537,8 +37965,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "The request start date must be before or equal to the request end date."
+=======
+msgid "The request start date must be before or equal to the request end date."
+>>>>>>> upstream/18.0
 =======
 msgid "The request start date must be before or equal to the request end date."
 >>>>>>> upstream/18.0
@@ -37871,6 +38303,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Статус «К согласованию» при создании заявки;\n"
+"Статус «Отклонено» при отклонении менеджером;\n"
+"Статус «Согласовано» при утверждении менеджером."
+>>>>>>> upstream/18.0
 =======
 "Статус «К согласованию» при создании заявки;\n"
 "Статус «Отклонено» при отклонении менеджером;\n"
@@ -38366,11 +38804,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Статус установлен на ‘Отправить’, когда создается запрос на отпуск.\n"
 "Статус ‘Подтвердить’, когда запрос на отпуск подтверждается пользователем.\n"
 "Статус ‘Отказаться’, когда запрос на отпуск отклонен менеджером.\n"
 "Статус ‘Утвержден’, когда запрос на отпуск одобрен менеджером."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -38615,6 +39056,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -38868,7 +39312,11 @@ msgid "The time off has been cancelled: %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Отпуск был отменен: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Отпуск был отменен: %s"
 >>>>>>> upstream/18.0
@@ -39226,6 +39674,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Это распределение уже было запущено однажды, любое изменение не будет "
 "действовать на дни, выделенные сотруднику. Если вам нужно изменить "
 "конфигурацию распределения, удалите его и создайте новое."
@@ -39255,6 +39704,8 @@ msgstr ""
 msgid ""
 "This area is automatically filled by the user who validate the time off"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -39490,6 +39941,9 @@ msgid "This area is automatically filled by the user who validate the time off"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -39650,6 +40104,7 @@ msgstr ""
 #. module: hr_holidays
 #: model:ir.model.fields,help:hr_holidays.field_hr_leave__second_approver_id
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -39910,6 +40365,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "This area is automatically filled by the user who validate the time off with "
 "second level (If time off type need second validation)"
 msgstr ""
@@ -39992,6 +40449,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -40241,6 +40701,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Эта область заполняется автоматически пользователем, утвердившим "
+"распределение на втором уровне (если тип отпуска требует второго "
+"согласования)"
+>>>>>>> upstream/18.0
 =======
 "Эта область заполняется автоматически пользователем, утвердившим "
 "распределение на втором уровне (если тип отпуска требует второго "
@@ -40732,6 +41198,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Это поле задает единицу времени, по истечении которой завершится начисление."
+>>>>>>> upstream/18.0
 =======
 "Это поле задает единицу времени, по истечении которой завершится начисление."
 >>>>>>> upstream/18.0
@@ -41078,7 +41548,11 @@ msgid "This time off cannot be cancelled."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Этот отпуск нельзя отменить."
+>>>>>>> upstream/18.0
 =======
 msgstr "Этот отпуск нельзя отменить."
 >>>>>>> upstream/18.0
@@ -41497,6 +41971,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Time Off Officers allocate time off days to employees (e.g. paid time off).<br>\n"
 "                Employees request allocations to Time Off Officers (e.g. recuperation days)."
 msgstr ""
@@ -41523,6 +41998,8 @@ msgstr ""
 "Сотрудники могут создавать запросы на распределение и отправлять их ответственным за отпуска (например, дни для реабилитации)."
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -41760,6 +42237,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -42162,6 +42642,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Статус заявки на отпуск должен быть «Отклонено» или «Отменено», чтобы "
+"вернуть заявку на этап «Подтверждено»."
+>>>>>>> upstream/18.0
 =======
 "Статус заявки на отпуск должен быть «Отклонено» или «Отменено», чтобы "
 "вернуть заявку на этап «Подтверждено»."
@@ -42638,6 +43123,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "to create allocation/time off request. Total based on all the time off types"
 " without overriding limit."
 msgstr ""
@@ -42669,6 +43155,8 @@ msgstr ""
 "количество рассчитывается по всем типам отпусков без превышения лимита."
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -42903,6 +43391,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -43145,8 +43636,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Попробуйте добавить несколько записей или убедитесь, что в строке поиска нет"
 " активного фильтра."
+=======
+"Попробуйте добавить несколько записей или убедитесь, что в строке поиска нет "
+"активного фильтра."
+>>>>>>> upstream/18.0
 =======
 "Попробуйте добавить несколько записей или убедитесь, что в строке поиска нет "
 "активного фильтра."
@@ -43538,7 +44034,11 @@ msgid "Type of the exception activity on record."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Тип Дела для исключения в записи."
+=======
+msgstr "Тип задачи-исключения в записи."
+>>>>>>> upstream/18.0
 =======
 msgstr "Тип задачи-исключения в записи."
 >>>>>>> upstream/18.0
@@ -43849,6 +44349,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Дата окончания срока действия обновлена, так как сотрудник больше не "
+"работает в компании"
+>>>>>>> upstream/18.0
 =======
 "Дата окончания срока действия обновлена, так как сотрудник больше не "
 "работает в компании"
@@ -44332,6 +44837,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Когда наступает срок переноса, в зависимости от настроек плана выберите "
+"действие: сбросить остаток, перенести всё, либо перенести с ограничением."
+>>>>>>> upstream/18.0
 =======
 "Когда наступает срок переноса, в зависимости от настроек плана выберите "
 "действие: сбросить остаток, перенести всё, либо перенести с ограничением."
@@ -44744,6 +45254,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Если флажок установлен, баланс по распределению с этим планом начислений не "
+"превысит указанного лимита."
+>>>>>>> upstream/18.0
 =======
 "Если флажок установлен, баланс по распределению с этим планом начислений не "
 "превысит указанного лимита."
@@ -45156,6 +45671,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Если флажок установлен, сумма начислений за год будет ограничена указанным "
+"пределом."
+>>>>>>> upstream/18.0
 =======
 "Если флажок установлен, сумма начислений за год будет ограничена указанным "
 "пределом."
@@ -45595,7 +46115,11 @@ msgid "Yearly limit to"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Годовой лимит до"
+>>>>>>> upstream/18.0
 =======
 msgstr "Годовой лимит до"
 >>>>>>> upstream/18.0
@@ -45932,12 +46456,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "              No Limit: Time Off requests can be taken without any prior allocation."
 msgstr ""
 "Да: Заявки на отгулы должны иметь действительное распределение.\n"
 "\n"
 "              Без ограничений: заявки на отгулы можно принимать без предварительного распределения."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -46173,6 +46700,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -46412,7 +46942,11 @@ msgid "You are not allowed to request time off on a Mandatory Day"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Вы не можете подать заявку на отпуск в «Обязательный рабочий день»"
+>>>>>>> upstream/18.0
 =======
 msgstr "Вы не можете подать заявку на отпуск в «Обязательный рабочий день»"
 >>>>>>> upstream/18.0
@@ -46737,6 +47271,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You can define a period of time where the days carried over will be "
 "available"
 msgstr ""
@@ -46754,6 +47289,11 @@ msgstr ""
 "Можно задать период, в течение которого перенесенные дни будут доступны"
 >>>>>>> upstream/18.0
 =======
+"Можно задать период, в течение которого перенесенные дни будут доступны"
+>>>>>>> upstream/18.0
+=======
+"You can define a period of time where the days carried over will be available"
+msgstr ""
 "Можно задать период, в течение которого перенесенные дни будут доступны"
 >>>>>>> upstream/18.0
 =======
@@ -47264,8 +47804,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot first approve a time off for %s, because you are not his time off"
 " manager"
+=======
+"You cannot first approve a time off for %s, because you are not his time off "
+"manager"
+>>>>>>> upstream/18.0
 =======
 "You cannot first approve a time off for %s, because you are not his time off "
 "manager"
@@ -47658,12 +48203,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "You cannot have a cap on accrued time without setting a maximum amount."
 msgstr ""
 "Нельзя установить ограничение на начисляемое время без задания максимального"
 " значения."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -47896,6 +48444,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -48137,6 +48688,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Нельзя установить ограничение на годовые начисления без указания "
+"максимальной суммы."
+>>>>>>> upstream/18.0
 =======
 "Нельзя установить ограничение на годовые начисления без указания "
 "максимальной суммы."
@@ -48552,6 +49108,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Нельзя изменить параметр «Праздничные дни включены», так как существуют "
+"отпуска, совпадающие с праздничными днями, и изменение повлияет на баланс "
+"этих сотрудников."
+>>>>>>> upstream/18.0
 =======
 "Нельзя изменить параметр «Праздничные дни включены», так как существуют "
 "отпуска, совпадающие с праздничными днями, и изменение повлияет на баланс "
@@ -48962,6 +49524,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/hr_holidays/models/hr_leave_allocation.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -49349,12 +49912,17 @@ msgid ""
 "You cannot reduce the duration below the duration of leaves already taken by "
 "the employee."
 >>>>>>> upstream/18.0
+=======
+"You cannot reduce the duration below the duration of leaves already taken by "
+"the employee."
+>>>>>>> upstream/18.0
 msgstr ""
 "Нельзя уменьшить продолжительность ниже уже использованных сотрудником дней "
 "отпуска."
 
 #. module: hr_holidays
 #. odoo-python
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -49598,6 +50166,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid ""
 "You do not have any allocation for this time off type.\n"
@@ -49681,6 +50251,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -49936,6 +50509,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Вы должны быть либо согласующим лицом по отпускам для сотрудника %s, либо "
+"администратором, чтобы утвердить это распределение."
+>>>>>>> upstream/18.0
 =======
 "Вы должны быть либо согласующим лицом по отпускам для сотрудника %s, либо "
 "администратором, чтобы утвердить это распределение."
@@ -50366,8 +50944,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You must have manager rights to modify/validate a time off that already "
 "begun"
+=======
+"You must have manager rights to modify/validate a time off that already begun"
+>>>>>>> upstream/18.0
 =======
 "You must have manager rights to modify/validate a time off that already begun"
 >>>>>>> upstream/18.0
@@ -50686,6 +51268,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Attempting to double-book your time off won't magically make your vacation 2x better!\n"
 msgstr ""
 <<<<<<< HEAD
@@ -50716,6 +51299,8 @@ msgstr ""
 "Попытка забронировать один и тот же отпуск дважды не сделает отпуск в два раза приятнее!\n"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -50951,6 +51536,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -51208,7 +51796,11 @@ msgid "Your time off has been cancelled."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ваш отпуск был отменен."
+>>>>>>> upstream/18.0
 =======
 msgstr "Ваш отпуск был отменен."
 >>>>>>> upstream/18.0
@@ -51624,7 +52216,11 @@ msgid "e.g. Extra recuperation, Company unavailability, ..."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "например, дни для реабилитации, нерабочий день в компании и т. д."
+>>>>>>> upstream/18.0
 =======
 msgstr "например, дни для реабилитации, нерабочий день в компании и т. д."
 >>>>>>> upstream/18.0
@@ -51969,7 +52565,11 @@ msgid "hour(s)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "час(ов)"
+>>>>>>> upstream/18.0
 =======
 msgstr "час(ов)"
 >>>>>>> upstream/18.0
@@ -52338,7 +52938,10 @@ msgstr "проверено"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -52359,6 +52962,9 @@ msgstr "проверено"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

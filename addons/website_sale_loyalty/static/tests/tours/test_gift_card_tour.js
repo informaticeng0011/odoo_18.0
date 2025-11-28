@@ -101,7 +101,11 @@ registry.category("web_tour.tours").add('shop_sale_gift_card', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ...tourUtils.addToCart({productName: "TEST - Small Drawer"}),
+=======
+        ...tourUtils.addToCart({ productName: "TEST - Small Drawer", expectUnloadPage: true }),
+>>>>>>> upstream/18.0
 =======
         ...tourUtils.addToCart({ productName: "TEST - Small Drawer", expectUnloadPage: true }),
 >>>>>>> upstream/18.0
@@ -488,6 +492,10 @@ registry.category("web_tour.tours").add('shop_sale_gift_card', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -882,6 +890,10 @@ registry.category("web_tour.tours").add('shop_sale_gift_card', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -1266,8 +1278,14 @@ registry.category("web_tour.tours").add('shop_sale_gift_card', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         },
         ...tourUtils.addToCart({productName: "TEST - Gift Card"}),
+=======
+            expectUnloadPage: true,
+        },
+        ...tourUtils.addToCart({ productName: "TEST - Gift Card", expectUnloadPage: true }),
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
         },

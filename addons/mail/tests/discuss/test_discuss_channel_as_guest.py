@@ -82,7 +82,11 @@ from odoo.addons.base.tests.common import HttpCaseWithUserPortal, HttpCaseWithUs
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 @tagged("post_install", "-at_install")
+=======
+@tagged("post_install", "-at_install", "is_tour")
+>>>>>>> upstream/18.0
 =======
 @tagged("post_install", "-at_install", "is_tour")
 >>>>>>> upstream/18.0
@@ -429,6 +433,11 @@ class TestMailPublicPage(HttpCaseWithUserPortal, HttpCaseWithUserDemo):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # Update the body to a unique value to ensure the second run does not confuse the 2 messages.
+        self.channel._get_last_messages().body = "a-very-unique-body-in-channel"
+>>>>>>> upstream/18.0
 =======
         # Update the body to a unique value to ensure the second run does not confuse the 2 messages.
         self.channel._get_last_messages().body = "a-very-unique-body-in-channel"
@@ -820,6 +829,11 @@ class TestMailPublicPage(HttpCaseWithUserPortal, HttpCaseWithUserDemo):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # Update the body to a unique value to ensure the second run does not confuse the 2 messages.
+        self.channel._get_last_messages().body = "a-very-unique-body-in-group"
+>>>>>>> upstream/18.0
 =======
         # Update the body to a unique value to ensure the second run does not confuse the 2 messages.
         self.channel._get_last_messages().body = "a-very-unique-body-in-group"

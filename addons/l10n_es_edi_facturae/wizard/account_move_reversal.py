@@ -1,6 +1,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import models, fields
+=======
+from odoo import models, fields, _
+>>>>>>> upstream/18.0
 =======
 from odoo import models, fields, _
 >>>>>>> upstream/18.0
@@ -25,7 +29,10 @@ class AccountMoveReversal(models.TransientModel):
         return res
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -36,6 +43,9 @@ class AccountMoveReversal(models.TransientModel):
             return _('Reversal of: %(move_name)s - %(reason)s', move_name=move.name, reason=reason_descr)
         return super()._get_ref_string(move)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
