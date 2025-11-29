@@ -9,8 +9,11 @@ patch(PosPayment.prototype, {
         }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return !this.payment_method_id.is_cash_count;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         return (
@@ -18,6 +21,9 @@ patch(PosPayment.prototype, {
             this.payment_method_id.payment_method_type != "qr_code"
         );
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -34,7 +34,11 @@ QUnit.module("Payment", {
 QUnit.test("copy link immediatly after entering the amount", async (assert) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     assert.expect(2);
+=======
+    assert.expect(3);
+>>>>>>> upstream/18.0
 =======
     assert.expect(3);
 >>>>>>> upstream/18.0
@@ -75,7 +79,10 @@ QUnit.test("copy link immediatly after entering the amount", async (assert) => {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     assert.strictEqual(
@@ -84,6 +91,9 @@ QUnit.test("copy link immediatly after entering the amount", async (assert) => {
         "The clipboard button should show the correct label"
     );
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

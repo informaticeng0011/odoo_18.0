@@ -107,7 +107,11 @@ export async function freezeOdooData(model) {
                 if (pivotId && model.getters.getPivotCoreDefinition(pivotId).type !== "ODOO") {
                     continue;
                 }
+<<<<<<< HEAD
                 cell.content = evaluatedCell.value.toString();
+=======
+                cell.content = toFrozenContent(evaluatedCell);
+>>>>>>> upstream/18.0
                 if (evaluatedCell.format) {
                     sheet.formats[xc] = getItemId(evaluatedCell.format, data.formats);
                 }
@@ -124,7 +128,11 @@ export async function freezeOdooData(model) {
                             });
                             sheet.cells[xc] = {
                                 ...sheet.cells[xc],
+<<<<<<< HEAD
                                 content: evaluatedCell.value.toString(),
+=======
+                                content: toFrozenContent(evaluatedCell),
+>>>>>>> upstream/18.0
                             };
                             if (evaluatedCell.format) {
                                 sheet.formats[xc] = getItemId(evaluatedCell.format, data.formats);
@@ -159,6 +167,17 @@ export async function freezeOdooData(model) {
     return data;
 }
 
+<<<<<<< HEAD
+=======
+function toFrozenContent(evaluatedCell) {
+    const value = evaluatedCell.value;
+    if (value === "") {
+        return '=""';
+    }
+    return value.toString();
+}
+
+>>>>>>> upstream/18.0
 /**
  * @param {OdooSpreadsheetModel} model
  * @returns {object}

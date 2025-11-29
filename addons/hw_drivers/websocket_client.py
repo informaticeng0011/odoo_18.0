@@ -4,7 +4,10 @@ import logging
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import pprint
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -60,11 +63,14 @@ def on_message(ws, messages):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     _logger.debug("websocket received a message: %s", pprint.pformat(messages))
     iot_mac = helpers.get_mac_address()
     for message in messages:
         message_type = message['message']['type']
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -78,6 +84,9 @@ def on_message(ws, messages):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -96,7 +105,11 @@ def on_message(ws, messages):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         _logger.debug("device '%s' action started with: %s", device_identifier, pprint.pformat(payload))
+=======
+                        _logger.info("device '%s' action started", device_identifier)
+>>>>>>> upstream/18.0
 =======
                         _logger.info("device '%s' action started", device_identifier)
 >>>>>>> upstream/18.0
@@ -269,7 +282,11 @@ def on_message(ws, messages):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         elif message_type != 'print_confirmation':  # intended to be ignored
+=======
+        elif message_type not in ['print_confirmation', 'bundle_changed']:  # intended to be ignored
+>>>>>>> upstream/18.0
 =======
         elif message_type not in ['print_confirmation', 'bundle_changed']:  # intended to be ignored
 >>>>>>> upstream/18.0

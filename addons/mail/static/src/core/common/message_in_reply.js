@@ -4,7 +4,12 @@ import { useService } from "@web/core/utils/hooks";
 import { url } from "@web/core/utils/urls";
 
 export class MessageInReply extends Component {
+<<<<<<< HEAD
     static props = ["message", "onClick?"];
+=======
+    static props = ["class?", "message", "onClick?"];
+    static defaultProps = { class: "" };
+>>>>>>> upstream/18.0
     static template = "mail.MessageInReply";
 
     setup() {

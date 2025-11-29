@@ -13,6 +13,10 @@ export function createFileViewer() {
     function open(file, files = [file]) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        close();
+>>>>>>> upstream/18.0
 =======
         close();
 >>>>>>> upstream/18.0

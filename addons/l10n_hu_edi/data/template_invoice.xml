@@ -113,7 +113,10 @@
         <base:simpleAddress>
             <base:countryCode t-out="partner.country_code"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
             <base:region t-if="partner.state_id" t-out="partner.state_id.name"/>
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             <base:postalCode t-out="partner.zip"/>

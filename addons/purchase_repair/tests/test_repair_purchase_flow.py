@@ -62,3 +62,9 @@ class TestRepairPurchaseFlow(TestStockCommon):
         self.assertEqual(purchase.order_line.move_dest_ids.repair_id, repair)
         self.assertEqual(repair.purchase_count, 1)
         self.assertEqual(purchase.repair_count, 1)
+<<<<<<< HEAD
+=======
+        purchase.button_confirm()
+        self.assertEqual(repair.purchase_count, 1)
+        self.assertEqual(purchase.repair_count, 1)
+>>>>>>> upstream/18.0

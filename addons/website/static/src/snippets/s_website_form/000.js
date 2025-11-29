@@ -187,6 +187,7 @@ import wUtils from '@website/js/utils';
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -699,6 +700,8 @@ import wUtils from '@website/js/utils';
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 // We do not initialize the datetime picker in edit mode but want the dates to be formated
                 this.el.querySelectorAll('.s_website_form_input.datetimepicker-input').forEach(el => {
                     const value = el.getAttribute('value');
@@ -713,6 +716,7 @@ import wUtils from '@website/js/utils';
             }
             return this._super(...arguments);
         },
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1282,6 +1286,9 @@ import wUtils from '@website/js/utils';
 =======
         // Todo: remove in master
 >>>>>>> upstream/18.0
+=======
+        // Todo: remove in master
+>>>>>>> upstream/18.0
         /**
          * @private
          */
@@ -1447,6 +1454,9 @@ import wUtils from '@website/js/utils';
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2121,9 +2131,12 @@ import wUtils from '@website/js/utils';
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             // Reset the initial default values.
             for (const [fieldEl, initialValue] of this.initialValues.entries()) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2598,6 +2611,9 @@ import wUtils from '@website/js/utils';
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2951,6 +2967,17 @@ import wUtils from '@website/js/utils';
             }
 
             // Prepare form inputs
+<<<<<<< HEAD
+=======
+            // Set a placeholder name to input fields without
+            // a label to allow FormData to function correctly
+            for (const [i, inputEl] of this.el
+                .querySelectorAll(".s_website_form_input:not([name]), [name=''].s_website_form_input")
+                .entries()) {
+                inputEl.setAttribute("name", "unknown_field_" + (i + 1));
+            };
+
+>>>>>>> upstream/18.0
             this.form_fields = this.$el.serializeArray();
             $.each(this.$el.find('input[type=file]:not([disabled])'), (outer_index, input) => {
                 $.each($(input).prop('files'), function (index, file) {

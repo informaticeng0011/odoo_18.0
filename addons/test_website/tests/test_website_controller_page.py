@@ -153,7 +153,10 @@ class TestWebsiteControllerPage(HttpCase):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         response = self.url_open(f"/model/{self.listing_controller_page.name_slugified}/page/2?search={self.exposed_records[0].name}")
@@ -164,6 +167,9 @@ class TestWebsiteControllerPage(HttpCase):
         self.assertEqual(rec_nodes[0].get("href"), f"/model/{self.listing_controller_page.name_slugified}/{slug(self.exposed_records[0])}")
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

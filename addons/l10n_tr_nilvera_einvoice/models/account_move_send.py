@@ -111,6 +111,7 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if invalid_tr_partners := moves.filtered(
 =======
         if tr_partners_missing_address := moves.filtered(
@@ -291,6 +292,8 @@ class AccountMoveSend(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         moves_to_check = moves.filtered(self._is_tr_nilvera_applicable)
         if tr_companies_missing_required_codes := moves_to_check.company_id.filtered(
             lambda c: c.country_code == 'TR' and not (c.partner_id.category_id.parent_id and self.env["res.partner.category"]._get_l10n_tr_official_mandatory_categories())
@@ -302,6 +305,7 @@ class AccountMoveSend(models.AbstractModel):
                 "level": "danger",
             }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -634,6 +638,8 @@ class AccountMoveSend(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         if tr_invalid_subscription_dates := moves_to_check.filtered(
             lambda move: move._l10n_tr_nilvera_einvoice_check_invalid_subscription_dates()
         ):
@@ -719,6 +725,9 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -878,6 +887,7 @@ class AccountMoveSend(models.AbstractModel):
                 "level": "danger",
             }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1141,6 +1151,8 @@ class AccountMoveSend(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         # Warning alert if partner is missing address data
         if tr_partners_missing_address := self._get_l10n_tr_tax_partner_address_alert(moves, moves_data):
             alerts["partner_data_missing"] = tr_partners_missing_address
@@ -1210,6 +1222,9 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1415,6 +1430,7 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1455,6 +1471,8 @@ class AccountMoveSend(models.AbstractModel):
         return alerts
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1676,6 +1694,9 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1882,7 +1903,11 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 customer_alias = invoice.partner_id.l10n_tr_nilvera_customer_alias_id.name
+=======
+                customer_alias = invoice._get_partner_l10n_tr_nilvera_customer_alias_name()
+>>>>>>> upstream/18.0
 =======
                 customer_alias = invoice._get_partner_l10n_tr_nilvera_customer_alias_name()
 >>>>>>> upstream/18.0

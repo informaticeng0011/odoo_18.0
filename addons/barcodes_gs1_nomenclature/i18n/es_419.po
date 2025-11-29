@@ -78,6 +78,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* barcodes_gs1_nomenclature
 # 
 # Translators:
@@ -101,6 +102,8 @@
 >>>>>>> upstream/18.0
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -339,6 +342,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -498,6 +504,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -756,6 +763,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-08-08 18:38+0000\n"
 "PO-Revision-Date: 2025-08-11 22:21+0000\n"
 "Last-Translator: \"Fernanda Alvarez (mfar)\" <mfar@odoo.com>\n"
@@ -855,6 +864,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1104,8 +1116,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Delimitador automático regex para el FNC1. El separador no debe tener el "
 "mismo inicio o fin de cualquier patrón de reglas relacionado."
+=======
+"Delimitador alternativo en la expresión regular para el FNC1. El separador "
+"no debe coincidir con el inicio o final del patrón de ninguna de las reglas "
+"relacionadas."
+>>>>>>> upstream/18.0
 =======
 "Delimitador alternativo en la expresión regular para el FNC1. El separador "
 "no debe coincidir con el inicio o final del patrón de ninguna de las reglas "
@@ -1731,8 +1749,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "La alternativa de separador FNC1 no es una expresión regular válida: "
 "%(error)s"
+=======
+"La alternativa de separador FNC1 no es una expresión regular válida: %"
+"(error)s"
+>>>>>>> upstream/18.0
 =======
 "La alternativa de separador FNC1 no es una expresión regular válida: %"
 "(error)s"
@@ -2134,11 +2157,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "procesará el código de barras: * Fecha: El código de barras se convertirá en"
 " una fecha y hora de Odoo; * Medida: el valor del código de barras está "
 "relacionado a una UdM específica; * Identificador numérico: código de barras"
 " de un largo fijo que sigue una codificación específica; * Nombre "
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2374,6 +2400,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2618,7 +2647,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "\t- El primero para el identificador de aplicación (usualmente de 2 a 4 dígitos);\n"
+=======
+"\t- El primero para el identificador de aplicación (usualmente de 2 a 4 "
+"dígitos);\n"
+>>>>>>> upstream/18.0
 =======
 "\t- El primero para el identificador de aplicación (usualmente de 2 a 4 "
 "dígitos);\n"
@@ -3016,8 +3050,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "El patrón de regla \"%(rule)s\" no es una expresión regular válida: "
 "%(error)s"
+=======
+"El patrón de regla \"%(rule)s\" no es una expresión regular válida: %(error)s"
+>>>>>>> upstream/18.0
 =======
 "El patrón de regla \"%(rule)s\" no es una expresión regular válida: %(error)s"
 >>>>>>> upstream/18.0
@@ -3336,6 +3374,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If this rule uses decimal, check it can't get sometime else than a digit as last char for the Application Identifier.\n"
 "Check also the possible matched values can only be digits, otherwise the value can't be casted as a measure."
 msgstr ""
@@ -3367,6 +3406,8 @@ msgstr ""
 "También asegúrate de que los valores posibles que puede reconocer sean solo números o no se podrá interpretar como una medida."
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3608,6 +3649,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3853,8 +3897,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Esta nomenclatura usa la especificación GS1, solo se aceptan las reglas de "
 "codificación GS1-128 en este tipo de nomenclatura."
+=======
+"Esta nomenclatura usa la especificación GS1 y solo acepta las reglas de "
+"codificación GS1-128."
+>>>>>>> upstream/18.0
 =======
 "Esta nomenclatura usa la especificación GS1 y solo acepta las reglas de "
 "codificación GS1-128."

@@ -88,11 +88,17 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { makeKwArgs } from "@web/../tests/web_test_helpers";
 import { registry } from "@web/core/registry";
 
 function _mockHierarchyRead({ model, args, kwargs }) {
     kwargs = makeKwArgs(kwargs);
+=======
+import { onRpc } from "@web/../tests/web_test_helpers";
+
+onRpc("hierarchy_read", function hierarchyRead({ model, args, kwargs }) {
+>>>>>>> upstream/18.0
 =======
 import { onRpc } from "@web/../tests/web_test_helpers";
 
@@ -701,9 +707,13 @@ onRpc("hierarchy_read", function hierarchyRead({ model, args, kwargs }) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 
 registry.category("mock_rpc").add("hierarchy_read", _mockHierarchyRead);
+=======
+});
+>>>>>>> upstream/18.0
 =======
 });
 >>>>>>> upstream/18.0

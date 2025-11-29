@@ -10,6 +10,12 @@
                     <div class="o_setting_right_pane border-0">
                         <div invisible="account_peppol_proxy_state not in ('sender', 'receiver', 'smp_registration')">
                             Your Peppol ID <field name="account_peppol_edi_identification" class="oe_inline o_form_label" readonly="1"/> <field name="account_peppol_proxy_state" class="oe_inline o_form_label text-lowercase" readonly="1"/> invoices and credit notes.
+<<<<<<< HEAD
+=======
+                            <span class="ps-2" invisible="account_peppol_edi_mode == 'prod'">
+                                (<field class="oe_inline o_form_label text-uppercase" name="account_peppol_edi_mode" />)
+                            </span>
+>>>>>>> upstream/18.0
                         </div>
                         <div invisible="account_peppol_proxy_state != 'rejected'">
                             You registration has been rejected, the reason has been sent to you via email.
@@ -51,6 +57,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <!-- Optional: field related to registering as a receiver -->
                         <div invisible="account_peppol_proxy_state != 'sender'" groups="base.group_no_one">
                             <p colspan="2" class="mt-4 mb-2">
@@ -59,6 +66,8 @@
                             <field name="account_peppol_migration_key"/>
                         </div>
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -126,6 +135,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                            <!-- Note: Deprecated; the button is permanently invisible. -->
+                            <!-- Disabling services can lead to complicance issues and is not necessary -->
+                            <!-- since all existing services should just work. -->
+>>>>>>> upstream/18.0
 =======
                             <!-- Note: Deprecated; the button is permanently invisible. -->
                             <!-- Disabling services can lead to complicance issues and is not necessary -->
@@ -316,7 +331,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     icon="oi-arrow-right"/>
+=======
+                                    icon="oi-arrow-right"
+                                    invisible="1"/>
+>>>>>>> upstream/18.0
 =======
                                     icon="oi-arrow-right"
                                     invisible="1"/>

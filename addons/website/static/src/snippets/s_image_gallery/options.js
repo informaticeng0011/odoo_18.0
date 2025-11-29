@@ -175,8 +175,17 @@ options.registry.GalleryLayout = options.registry.CarouselHandler.extend({
         // Since there is no versioning for this snippet we use the last version
         // of "website.gallery.slideshow" called "website.s_image_gallery_mirror"
         if (this.$target[0].dataset.vcss === '002') {
+<<<<<<< HEAD
             let carouselEl = this.$target[0].querySelector('.carousel');
             params.colorContrast  = carouselEl && carouselEl.classList.contains('carousel-dark') ? 'carousel-dark' : ' ';
+=======
+            const carouselEl = this.$target[0].querySelector(".carousel");
+            const addImagesEl = this.$target[0].querySelector(".o_add_images");
+            const isCarouselDark = carouselEl
+                ? carouselEl.classList.contains("carousel-dark")
+                : addImagesEl?.hasAttribute("data-carousel-dark");
+            params.colorContrast = isCarouselDark ? "carousel-dark" : " ";
+>>>>>>> upstream/18.0
         }
         let $slideshow = $(renderToElement('website.s_image_gallery_mirror', params));
         const carouselItemEls = $slideshow[0].querySelectorAll(".carousel-item");
@@ -635,7 +644,10 @@ options.registry.GalleryImageList = options.registry.GalleryLayout.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1138,6 +1150,9 @@ options.registry.GalleryImageList = options.registry.GalleryLayout.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1554,6 +1569,12 @@ options.registry.GalleryImageList = options.registry.GalleryLayout.extend({
             style: 'cursor: pointer;',
             text: _t(" Add Images"),
         });
+<<<<<<< HEAD
+=======
+        if (this.$target[0].querySelector(".carousel-dark")) {
+            $text[0].dataset.carouselDark = "";
+        }
+>>>>>>> upstream/18.0
         const $icon = $('<i>', {
             class: ' fa fa-plus-circle',
         });
@@ -1737,7 +1758,11 @@ options.registry.GalleryImageList = options.registry.GalleryLayout.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (name === 'image_removed') {
+=======
+        if (name === 'image_removed' && !this.isBeingRemoved) {
+>>>>>>> upstream/18.0
 =======
         if (name === 'image_removed' && !this.isBeingRemoved) {
 >>>>>>> upstream/18.0

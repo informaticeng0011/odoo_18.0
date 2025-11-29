@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <template id="arabic_english_invoice" inherit_id="l10n_gcc_invoice.arabic_english_invoice">
+<<<<<<< HEAD
         <xpath expr="//div[@name='due_date']" position="after">
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -288,6 +289,29 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+        <xpath expr="//div[hasclass('col-4')]//span[@t-if=&quot;o.move_type == &apos;out_invoice&apos; and o.state == &apos;posted&apos;&quot;]" position="replace">
+            <span t-if="o.move_type == 'out_invoice' and o.state == 'posted'">
+                <t t-if="o._l10n_sa_is_simplified()">
+                    Simplified Tax Invoice
+                </t>
+                <t t-else="">
+                    Tax Invoice
+                </t>
+            </span>
+        </xpath>
+        <xpath expr="//div[hasclass('col-4')][3]//span[@t-if=&quot;o.move_type == &apos;out_invoice&apos; and o.state == &apos;posted&apos;&quot;]" position="replace">
+            <span t-if="o.move_type == 'out_invoice' and o.state == 'posted'">
+                <t t-if="o._l10n_sa_is_simplified()">
+                    فاتورة ضريبية مبسطة
+                </t>
+                <t t-else="">
+                    فاتورة ضريبية
+                </t>
+            </span>
+        </xpath>
+        <xpath expr="//div[@name='due_date']" position="after">
+>>>>>>> upstream/18.0
 
             <div class="row" t-if="o.delivery_date" name="delivery_date">
                 <div class="col-6"></div>
@@ -369,6 +393,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -624,6 +651,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -812,6 +842,7 @@
             </div>
         </xpath>
         <xpath expr="//t[@t-set='address']" position="after">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1351,6 +1382,9 @@
 =======
             <t t-if="o.company_id.country_id.code == 'SA' and o.is_sale_document() and not o._l10n_sa_is_legal()" t-set="custom_header_sa">
 >>>>>>> upstream/18.0
+=======
+            <t t-if="o.company_id.country_id.code == 'SA' and o.is_sale_document() and not o._l10n_sa_is_legal()" t-set="custom_header_sa">
+>>>>>>> upstream/18.0
                 <div class="fw-bold text-center mt-2">
                     <h5>THIS IS NOT A LEGAL DOCUMENT</h5>
                     <h5>هذا المستند ليس مستنداً قانونياً</h5>
@@ -1444,6 +1478,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1765,12 +1802,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <xpath expr="//div[@name='invoice_date']//span" position="before">
             <span t-if="o.l10n_sa_confirmation_datetime" t-field="o.l10n_sa_confirmation_datetime"/>
         </xpath>
         <xpath expr="//div[@name='invoice_date']//span[@t-field='o.invoice_date']" position="attributes">
             <attribute name="t-if">not o.l10n_sa_confirmation_datetime</attribute>
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2051,6 +2091,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2330,6 +2373,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        <xpath expr="//div[hasclass('page')]">
+            <t t-set="additional_footer_text" t-value="o.get_l10n_sa_confirmation_datetime_sa_tz()"/> <!-- This is to show the issue date on the footer of all layouts. -->
+        </xpath>
+>>>>>>> upstream/18.0
 =======
         <xpath expr="//div[hasclass('page')]">
             <t t-set="additional_footer_text" t-value="o.get_l10n_sa_confirmation_datetime_sa_tz()"/> <!-- This is to show the issue date on the footer of all layouts. -->

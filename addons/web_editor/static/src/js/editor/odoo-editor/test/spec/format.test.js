@@ -315,7 +315,10 @@ describe('Format', () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -555,6 +558,9 @@ describe('Format', () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1698,7 +1704,10 @@ describe('Format', () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2059,6 +2068,9 @@ describe('Format', () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2522,7 +2534,10 @@ describe('Format', () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2883,6 +2898,9 @@ describe('Format', () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3149,6 +3167,60 @@ describe('Format', () => {
             });
         });
     });
+<<<<<<< HEAD
+=======
+
+    describe("formatting normalization", () => {
+        it("should unwrap nested identical bold tags", async () => {
+            await repeatWithBoldTags(async (tag) => {
+                await testEditor(BasicEditor, {
+                    contentBefore: `<p>a${tag(`b${tag(`c${tag(`d`)}`)}e`)}f</p>`,
+                    contentAfter: `<p>a${tag("bcde")}f</p>`,
+                });
+            });
+        });
+
+        it("should merge nested strong inside formatting tags", async () => {
+            await testEditor(BasicEditor, {
+                contentBefore: unformat(`
+                    <p>
+                        <strong>
+                            <em>
+                                <u>
+                                    <s>
+                                        text1
+                                        <strong>text2</strong>
+                                        text3
+                                    </s>
+                                </u>
+                            </em>
+                        </strong>
+                    </p>
+                `),
+                contentAfter: unformat(`
+                    <p>
+                        <strong>
+                            <em>
+                                <u>
+                                    <s>
+                                        text1text2text3
+                                    </s>
+                                </u>
+                            </em>
+                        </strong>
+                    </p>
+                `),
+            });
+        });
+
+        it("should merge nested small inside formatting tags", async () => {
+            await testEditor(BasicEditor, {
+                contentBefore: `<p><small><small>text</small></small></p>`,
+                contentAfter: `<p><small>text</small></p>`,
+            });
+        });
+    });
+>>>>>>> upstream/18.0
 });
 
 describe('setTagName', () => {

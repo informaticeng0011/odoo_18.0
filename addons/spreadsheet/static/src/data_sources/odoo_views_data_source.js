@@ -83,7 +83,11 @@ export class OdooViewsDataSource extends LoadableDataSource {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             throw this.loadError;
+=======
+            throw this._loadError;
+>>>>>>> upstream/18.0
 =======
             throw this._loadError;
 >>>>>>> upstream/18.0

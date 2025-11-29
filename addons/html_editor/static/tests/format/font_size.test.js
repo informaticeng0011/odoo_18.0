@@ -80,7 +80,11 @@ import { strong } from "../_helpers/tags";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { setFontSize } from "../_helpers/user_actions";
+=======
+import { setFontSize, tripleClick } from "../_helpers/user_actions";
+>>>>>>> upstream/18.0
 =======
 import { setFontSize, tripleClick } from "../_helpers/user_actions";
 >>>>>>> upstream/18.0
@@ -419,8 +423,11 @@ test("should change the font size of a whole heading after a triple click", asyn
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         stepFunction: setFontSize("36px"),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -656,6 +663,9 @@ test("should change the font size of a whole heading after a triple click", asyn
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -117,6 +117,11 @@ import { testEditor } from "./_helpers/editor";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { unformat } from "./_helpers/format";
+import { BOLD_TAGS } from "./_helpers/tags";
+>>>>>>> upstream/18.0
 =======
 import { unformat } from "./_helpers/format";
 import { BOLD_TAGS } from "./_helpers/tags";
@@ -892,7 +897,10 @@ describe("link normalization", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1141,6 +1149,23 @@ describe("color normalization", () => {
         });
     });
 
+<<<<<<< HEAD
+=======
+    test("should unwrap nested identical <font> tag when parent already has the same class", async () => {
+        await testEditor({
+            contentBefore: unformat(`
+                <p><font class="bg-color-1 text-gradient" style="background-image: linear-gradient(135deg, rgb(214, 255, 127) 0%, rgb(0, 179, 204) 100%);">
+                    parent
+                    <font class="bg-color-1">child</font>
+                </font></p>
+            `),
+            contentAfter: unformat(`
+                <p><font class="bg-color-1 text-gradient" style="background-image: linear-gradient(135deg, rgb(214, 255, 127) 0%, rgb(0, 179, 204) 100%);">parentchild</font></p>
+            `),
+        });
+    });
+
+>>>>>>> upstream/18.0
     test("should unwrap nested identical <font> tags with color (class and style same)", async () => {
         await testEditor({
             contentBefore: unformat(`
@@ -1260,6 +1285,7 @@ describe("formatting normalization", () => {
             `),
         });
     });
+<<<<<<< HEAD
 });
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1609,4 +1635,14 @@ describe("formatting normalization", () => {
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+    test("should merge nested small inside formatting tags", async () => {
+        await testEditor({
+            contentBefore: `<p><small><small>text</small></small></p>`,
+            contentAfter: `<p><small>text</small></p>`,
+        });
+    });
+});
 >>>>>>> upstream/18.0

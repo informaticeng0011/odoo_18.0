@@ -137,6 +137,10 @@ from odoo import http
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.addons.base.tests.test_mimetypes import PNG
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.base.tests.test_mimetypes import PNG
 >>>>>>> upstream/18.0
@@ -987,7 +991,10 @@ class TestAccess(common.SlidesCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1493,6 +1500,9 @@ class TestAccessHttp(common.SlidesCase, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

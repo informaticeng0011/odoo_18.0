@@ -404,7 +404,12 @@ export function isVisible(node) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             isProtecting(node))
+=======
+            isProtecting(node) ||
+            isEmbeddedComponent(node))
+>>>>>>> upstream/18.0
 =======
             isProtecting(node) ||
             isEmbeddedComponent(node))
@@ -1103,6 +1108,11 @@ export const ICON_SELECTOR = iconTags
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+export const EDITABLE_MEDIA_CLASS = "o_editable_media";
+
+>>>>>>> upstream/18.0
 =======
 export const EDITABLE_MEDIA_CLASS = "o_editable_media";
 
@@ -1687,7 +1697,10 @@ export function containsAnyNonPhrasingContent(element) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2121,6 +2134,9 @@ export function isEmbeddedComponent(node) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2542,9 +2558,13 @@ export function isUnprotecting(node) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 // TODO add: this list should contain PRE, but the spec currently is to
 // paste flow content inside the PRE, so it is removed temporarily.
 export const paragraphRelatedElements = ["P", "H1", "H2", "H3", "H4", "H5", "H6"];
+=======
+export const paragraphRelatedElements = ["P", "H1", "H2", "H3", "H4", "H5", "H6", "PRE"];
+>>>>>>> upstream/18.0
 =======
 export const paragraphRelatedElements = ["P", "H1", "H2", "H3", "H4", "H5", "H6", "PRE"];
 >>>>>>> upstream/18.0
@@ -2908,7 +2928,11 @@ const allowedContent = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     PRE: flowContent, // HTML spec: phrasing content
+=======
+    PRE: phrasingContent,
+>>>>>>> upstream/18.0
 =======
     PRE: phrasingContent,
 >>>>>>> upstream/18.0
@@ -3498,6 +3522,7 @@ export function isContentEditableAncestor(node) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -3730,6 +3755,30 @@ export function isContentEditableAncestor(node) {
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+/**
+ * Checks if all classes in node are present in node2 (subset check)
+ */
+function hasClassesSubset(node, node2) {
+    const getNodeClasses = (n) => (n || "").trim().split(/\s+/).filter(Boolean);
+    const [nodeClasses, node2Classes] = [node, node2].map(getNodeClasses);
+    return nodeClasses.every((cls) => node2Classes.includes(cls));
+}
+
+/**
+ * Checks if all styles in node are present in node2 (subset check)
+ */
+function hasStylesSubset(node, node2) {
+    const getNodeStyles = (n) =>
+        (n || "")
+            .split(";")
+            .map((s) => s.trim())
+            .filter(Boolean);
+    const [nodeStyles, node2Styles] = [node, node2].map(getNodeStyles);
+    return nodeStyles.every((style) => node2Styles.includes(style));
+}
 >>>>>>> upstream/18.0
 
 /**
@@ -3739,8 +3788,13 @@ export function isContentEditableAncestor(node) {
  * - It is an Element node with a parent.
  * - There is a closest element with the same tag name.
  * - All of the node's attributes are present in that closest element:
+<<<<<<< HEAD
  *   - All classes exist in the closest element's class list.
  *   - All inline styles are present in the closest element's style attribute.
+=======
+ *   - All classes exist in the closest element's class list (subset check).
+ *   - All inline styles are present in the closest element's style attribute (subset check).
+>>>>>>> upstream/18.0
  *   - All other attributes must have identical values.
  *
  * @param {Node} node - The DOM node to evaluate.
@@ -3768,13 +3822,18 @@ export function isRedundantElement(node) {
 
         if (attrName === "class") {
             // All classes on the node must exist in closest element.
+<<<<<<< HEAD
             const nodeClasses = nodeAttrVal.trim().split(/\s+/);
             const closestElClasses = closestElAttrVal.trim().split(/\s+/);
             if (!nodeClasses.every((cls) => closestElClasses.includes(cls))) {
+=======
+            if (!hasClassesSubset(nodeAttrVal, closestElAttrVal)) {
+>>>>>>> upstream/18.0
                 return false;
             }
         } else if (attrName === "style") {
             // All inline styles on the node must exist in closest element.
+<<<<<<< HEAD
             const nodeStyles = nodeAttrVal
                 .split(";")
                 .map((style) => style.trim())
@@ -3784,6 +3843,9 @@ export function isRedundantElement(node) {
                 .map((style) => style.trim())
                 .filter(Boolean);
             if (!nodeStyles.every((style) => closestElStyles.includes(style))) {
+=======
+            if (!hasStylesSubset(nodeAttrVal, closestElAttrVal)) {
+>>>>>>> upstream/18.0
                 return false;
             }
         } else {
@@ -3912,6 +3974,9 @@ export function isRedundantElement(node) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

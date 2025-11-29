@@ -84,6 +84,10 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.fetch(["country_code"])
+>>>>>>> upstream/18.0
 =======
         self.fetch(["country_code"])
 >>>>>>> upstream/18.0
