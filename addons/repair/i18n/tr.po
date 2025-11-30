@@ -21,8 +21,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* repair
 # 
+=======
+# * repair
+#
+>>>>>>> upstream/18.0
 =======
 # * repair
 #
@@ -131,6 +136,7 @@
 # Ediz Duman <neps1192@gmail.com>, 2024
 # Murat Kaplan <muratk@projetgrup.com>, 2024
 # İlknur Gözütok, 2024
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -630,11 +636,16 @@
 # Deniz Guvener_Odoo <degu@odoo.com>, 2025
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
+=======
+# Deniz Guvener_Odoo <degu@odoo.com>, 2025
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-16 13:39+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1098,6 +1109,9 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-11-08 16:52+0000\n"
+=======
+"PO-Revision-Date: 2025-11-25 09:48+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Turkish <https://translate.odoo.com/projects/odoo-18/repair/"
 "tr/>\n"
@@ -1127,6 +1141,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1173,23 +1190,39 @@ msgstr ""
 #. odoo-python
 #: code:addons/repair/models/stock_warehouse.py:0
 msgid "%(name)s Sequence repair"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(name)s Dizi onarımı"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #. odoo-python
 #: code:addons/repair/models/repair.py:0
 msgid "%(product)s: Insufficient Quantity To Repair"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(product)s: Onarım İçin Yeterli Miktar Yok"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.actions.report,print_report_name:repair.action_report_repair_order
 msgid "('Repair Order - %s' % (object.name))"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "('Onarım Siparişi - %s' % (nesne.adı))"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.report_repairorder
 msgid "(<i>Recycle</i>)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "(<i>Geri Dönüşüm</i>)"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.report_repairorder
@@ -1205,6 +1238,15 @@ msgid ""
 "* The 'Repaired' status is set when repairing is completed.\n"
 "* The 'Cancelled' status is used when user cancel repair order."
 msgstr ""
+<<<<<<< HEAD
+=======
+"* 'Yeni' durumu, kullanıcı yeni ve onaylanmamış bir onarım siparişini "
+"kodlarken kullanılır.\n"
+"* 'Onaylandı' durumu, kullanıcı onarım emrini onayladığında kullanılır.\n"
+"* 'Onarım Altında' durumu onarım devam ederken kullanılır.\n"
+"* Onarım tamamlandığında 'Onarıldı' durumu ayarlanır.\n"
+"* 'İptal Edildi' durumu, kullanıcı onarım emrini iptal ettiğinde kullanılır."
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.report_repairorder
@@ -1214,7 +1256,11 @@ msgstr "<i>(Ekle)</i>"
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.stock_repair_type_kanban
 msgid "<span class=\"col-6\">Confirmed</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"col-6\">Onaylandı</span>"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.stock_repair_type_kanban
@@ -1224,27 +1270,47 @@ msgstr "<span class=\"col-6\">Gecikenler</span>"
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.stock_repair_type_kanban
 msgid "<span class=\"col-6\">Under Repair</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"col-6\">Onarım Altında</span>"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.stock_production_lot_view_form
 msgid "<span class=\"o_stat_text\">Done:</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Tamamlandı:</span>"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.stock_production_lot_view_form
 msgid "<span class=\"o_stat_text\">Repair Parts:</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Onarım Parçaları:</span>"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form
 msgid "<span class=\"o_stat_text\">Sale Order</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Satış Siparişi</span>"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.stock_production_lot_view_form
 msgid "<span class=\"o_stat_text\">To Do:</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Yapılacaklar:</span>"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.stock_repair_type_kanban
@@ -1254,22 +1320,38 @@ msgstr "<span>Siparişler</span>"
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.report_repairorder
 msgid "<span>Repair Order #</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Onarım Siparişi #</span>"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.report_repairorder
 msgid "<strong>Customer:</strong>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Müşteri:</strong>"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.report_repairorder
 msgid "<strong>Lot/Serial:</strong>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Lot/Seri:</strong>"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.report_repairorder
 msgid "<strong>Product:</strong>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Ürün:</strong>"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.report_repairorder
@@ -1335,7 +1417,11 @@ msgid "Activity view"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Faaliyet görünümü"
+>>>>>>> upstream/18.0
 =======
 msgstr "Faaliyet görünümü"
 >>>>>>> upstream/18.0
@@ -1418,7 +1504,11 @@ msgstr "İç not ekle."
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__location_dest_id
 msgid "Added Parts Destination Location"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Eklenen Parçalar Hedef Konum"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields.selection,name:repair.selection__repair_order__search_date_category__after
@@ -1434,12 +1524,20 @@ msgstr "Tümü"
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__is_parts_available
 msgid "All Parts are available"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tüm Parçalar Mevcuttur"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__allowed_lot_ids
 msgid "Allowed Lot"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "İzin Verilen Lot"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__reserve_visible
@@ -1454,7 +1552,11 @@ msgstr "Rezerve Üretimi Kaldırmaya İzin Ver"
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__is_parts_late
 msgid "Any Part is late"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Herhangi Bir Parça Geç Kaldı"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__message_attachment_count
@@ -1472,7 +1574,11 @@ msgstr "Uygun"
 #. odoo-javascript
 #: code:addons/repair/static/src/components/product_catalog/kanban_controller.js:0
 msgid "Back to Repair"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Onarıma Geri Dön"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields.selection,name:repair.selection__repair_order__search_date_category__before
@@ -1540,13 +1646,21 @@ msgstr "Firma"
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.repair_view_picking_type_form
 msgid "Component Destination Location"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bileşen Hedef Konumu"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__location_id
 #: model_terms:ir.ui.view,arch_db:repair.repair_view_picking_type_form
 msgid "Component Source Location"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bileşen Kaynak Konumu"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__parts_availability
@@ -1584,7 +1698,11 @@ msgstr ""
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form
 msgid "Create Quotation"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Teklif Oluştur"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #. odoo-python
@@ -1655,7 +1773,11 @@ msgid "Date Category"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tarih Kategorisi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tarih Kategorisi"
 >>>>>>> upstream/18.0
@@ -1795,6 +1917,11 @@ msgid ""
 "For some of the parts, there is a difference between the initial demand and "
 "the actual quantity that was used. Are you sure you want to confirm ?"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Bazı parçalar için, ilk talep ile kullanılan gerçek miktar arasında bir fark "
+"vardır. Onaylamak istediğinizden emin misiniz?"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form
@@ -1824,7 +1951,11 @@ msgstr "Mesaj Var"
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__has_uncomplete_moves
 msgid "Has Uncomplete Moves"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tamamlanmamış Hareketleri Var"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__id
@@ -1884,12 +2015,20 @@ msgstr ""
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_stock_lot__in_repair_count
 msgid "In repair count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Onarımda Olan Sayısı"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.product_view_search_catalog
 msgid "In the Repair Order"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Onarım Siparişinde"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__internal_notes
@@ -1919,7 +2058,11 @@ msgstr ""
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.report_repairorder
 msgid "Jane Smith"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Jane Smith"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.report_repairorder
@@ -1945,7 +2088,11 @@ msgid "John Doe"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "John Doe"
+>>>>>>> upstream/18.0
 =======
 msgstr "John Doe"
 >>>>>>> upstream/18.0
@@ -2013,7 +2160,11 @@ msgstr "John Doe"
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.report_repairorder
 msgid "L12345"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "L12345"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.report_repairorder
@@ -2158,7 +2309,11 @@ msgid "Laptop"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dizüstü bilgisayar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dizüstü bilgisayar"
 >>>>>>> upstream/18.0
@@ -2611,6 +2766,11 @@ msgid ""
 "Latest parts availability status for this RO. If green, then the RO's "
 "readiness status is ready."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Bu RO için en son parça kullanılabilirlik durumu. Yeşilse, RO'nun hazır olma "
+"durumu hazırdır."
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_stock_warn_insufficient_qty_repair__location_id
@@ -2707,22 +2867,38 @@ msgstr "Aksiyon Sayısı"
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_stock_picking_type__count_repair_late
 msgid "Number of Late Repair Orders"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gecikmiş Onarım Siparişi Sayısı"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_stock_picking_type__count_repair_confirmed
 msgid "Number of Repair Orders Confirmed"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Onaylanan Onarım Siparişi Sayısı"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_stock_picking_type__count_repair_under_repair
 msgid "Number of Repair Orders Under Repair"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Onarımı Devam Eden Onarım Siparişi Sayısı"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_stock_picking_type__count_repair_ready
 msgid "Number of Repair Orders to Process"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "İşlenecek Onarım Siparişi Sayısı"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__message_has_error_counter
@@ -2786,7 +2962,11 @@ msgstr "Parçalar"
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__parts_availability_state
 msgid "Parts Availability State"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Parça Uygunluk Durumu"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.report_repairorder
@@ -2796,7 +2976,11 @@ msgstr "Beklemede"
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__picking_product_ids
 msgid "Picking Product"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ürün Toplama"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model,name:repair.model_stock_picking_type
@@ -2824,23 +3008,39 @@ msgstr "Ürün"
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.report_repairorder
 msgid "Product A"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ürün A"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.report_repairorder
 msgid "Product B"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ürün B"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_product_product__product_catalog_product_is_in_repair
 msgid "Product Catalog Product Is In Repair"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ürün Kataloğu Ürünü Onarımda"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__product_location_dest_id
 #: model:ir.model.fields,field_description:repair.field_stock_picking_type__default_product_location_dest_id
 msgid "Product Destination Location"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ürün Varış Yeri"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form
@@ -2861,7 +3061,11 @@ msgstr "Ürün Miktarı"
 #: model:ir.model.fields,field_description:repair.field_repair_order__product_location_src_id
 #: model:ir.model.fields,field_description:repair.field_stock_picking_type__default_product_location_src_id
 msgid "Product Source Location"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ürün Kaynak Konumu"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__tracking
@@ -2918,7 +3122,11 @@ msgstr "Miktar"
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.report_repairorder
 msgid "RO123456"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "RO123456"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__rating_ids
@@ -2934,17 +3142,29 @@ msgstr "Hazır"
 #. module: repair
 #: model:ir.model.fields.selection,name:repair.selection__stock_move__repair_line_type__recycle
 msgid "Recycle"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Geri Dönüşüm"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_stock_picking_type__default_recycle_location_dest_id
 msgid "Recycle Destination Location"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Geri Dönüşüm Hedef Konumu"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__recycle_location_id
 msgid "Recycled Parts Destination Location"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Geri Dönüştürülen Parçaların Varış Yeri"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields.selection,name:repair.selection__stock_move__repair_line_type__remove
@@ -2954,12 +3174,20 @@ msgstr "Kaldır"
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_stock_picking_type__default_remove_location_dest_id
 msgid "Remove Destination Location"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hedef Konumu Kaldır"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__parts_location_id
 msgid "Removed Parts Destination Location"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sökülen Parçalar Varış Yeri"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_stock_move__repair_id
@@ -2973,7 +3201,11 @@ msgstr "Onarım"
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_stock_warehouse__repair_mto_pull_id
 msgid "Repair MTO Rule"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Onarım MTO Kuralı"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.report_repairorder
@@ -2984,7 +3216,11 @@ msgstr "Onarım Notları"
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_stock_warehouse__repair_type_id
 msgid "Repair Operation Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Onarım İşlem Türü"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.actions.report,name:repair.action_report_repair_order
@@ -2998,7 +3234,11 @@ msgstr "Onarım Siparişi"
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_sale_order__repair_count
 msgid "Repair Order(s)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Onarım Sipariş(ler)i"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #. odoo-python
@@ -3030,7 +3270,11 @@ msgstr ""
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_stock_picking_type__repair_properties_definition
 msgid "Repair Properties"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Onarım Özellikleri"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__name
@@ -3040,7 +3284,11 @@ msgstr "Onarım Referansı"
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__repair_request
 msgid "Repair Request"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Onarım Talebi"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:product.template,name:repair.product_service_order_repair_product_template
@@ -3068,7 +3316,11 @@ msgstr "%snin onarım siparişleri"
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_stock_lot__repair_part_count
 msgid "Repair part count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Onarım parça sayısı"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields.selection,name:repair.selection__repair_order__state__done
@@ -3079,7 +3331,11 @@ msgstr "Onarıldı"
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_stock_lot__repaired_count
 msgid "Repaired count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Onarılan sayısı"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #. odoo-python
@@ -3160,17 +3416,29 @@ msgstr "Satış Sipariş Satırı"
 #. module: repair
 #: model:ir.model.fields,help:repair.field_repair_order__repair_request
 msgid "Sale Order Line Description."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Satış Siparişi Satırı Açıklaması."
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,help:repair.field_repair_order__sale_order_line_id
 msgid "Sale Order Line from which the Repair Order comes from."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Onarım Siparişinin geldiği Satış Siparişi Satırı."
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,help:repair.field_repair_order__sale_order_id
 msgid "Sale Order from which the Repair Order comes from."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Onarım Siparişinin geldiği Satış Siparişi."
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model,name:repair.model_sale_order
@@ -3196,7 +3464,11 @@ msgstr "Onarım Siparişlerini Ara"
 #. odoo-python
 #: code:addons/repair/models/repair.py:0
 msgid "Serial number is required for product to repair : %s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ürünün onarılabilmesi için seri numarası gereklidir: %s"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form
@@ -3296,7 +3568,11 @@ msgid "The day after tomorrow"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Yarından sonraki gün"
+>>>>>>> upstream/18.0
 =======
 msgstr "Yarından sonraki gün"
 >>>>>>> upstream/18.0
@@ -3373,7 +3649,11 @@ msgstr ""
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.report_repairorder
 msgid "This is a repair note."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bu bir onarım notudur."
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,help:repair.field_stock_picking_type__default_product_location_dest_id
@@ -3381,6 +3661,11 @@ msgid ""
 "This is the default destination location for the product to be repaired in "
 "repair orders with this operation type."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Bu, bu işlem türüne sahip onarım siparişlerinde onarılacak ürün için "
+"varsayılan hedef konumdur."
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,help:repair.field_stock_picking_type__default_recycle_location_dest_id
@@ -3388,6 +3673,11 @@ msgid ""
 "This is the default recycle destination location when you create a repair "
 "order with this operation type."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Bu işlem türüyle bir onarım emri oluşturduğunuzda varsayılan geri dönüşüm "
+"hedefi konumu budur."
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,help:repair.field_stock_picking_type__default_remove_location_dest_id
@@ -3395,6 +3685,11 @@ msgid ""
 "This is the default remove destination location when you create a repair "
 "order with this operation type."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Bu işlem türüyle bir onarım emri oluşturduğunuzda varsayılan kaldırma hedefi "
+"konumu budur."
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,help:repair.field_stock_picking_type__default_product_location_src_id
@@ -3402,12 +3697,21 @@ msgid ""
 "This is the default source location for the product to be repaired in repair"
 " orders with this operation type."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Bu işlem türüne sahip onarım siparişlerinde onarılacak ürün için varsayılan "
+"kaynak konumudur."
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,help:repair.field_repair_order__location_id
 msgid ""
 "This is the location where the components of product to repair is located."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bu, onarılacak ürün bileşenlerinin bulunduğu konumdur."
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,help:repair.field_repair_order__product_location_src_id
@@ -3418,18 +3722,30 @@ msgstr "Bu konum, onarılacak ürünün bulunduğu konumdur."
 #: model:ir.model.fields,help:repair.field_repair_order__parts_location_id
 #: model:ir.model.fields,help:repair.field_repair_order__recycle_location_id
 msgid "This is the location where the repair parts are located."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Burası onarım parçalarının bulunduğu yerdir."
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,help:repair.field_repair_order__location_dest_id
 #: model:ir.model.fields,help:repair.field_repair_order__product_location_dest_id
 msgid "This is the location where the repaired product is located."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bu, onarılan ürünün bulunduğu konumdur."
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.stock_repair_type_kanban
 msgid "To Repair"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Onarılacak"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields.selection,name:repair.selection__repair_order__search_date_category__today
@@ -3570,7 +3886,11 @@ msgid "Under Warranty"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Garanti Kapsamında"
+>>>>>>> upstream/18.0
 =======
 msgstr "Garanti Kapsamında"
 >>>>>>> upstream/18.0
@@ -3878,7 +4198,11 @@ msgstr "Negatif miktar giremezsiniz."
 #. odoo-python
 #: code:addons/repair/models/repair.py:0
 msgid "You cannot cancel a Repair Order that's already been completed"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zaten tamamlanmış olan bir Onarım Siparişini iptal edemezsiniz"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #. odoo-python
@@ -3888,6 +4212,12 @@ msgid ""
 "Concerned repair order(s):\n"
 "%(ref_str)s"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Bir satış siparişine bağlı onarım emri için teklif oluşturamazsınız.\n"
+"İlgili onarım sipariş(ler)i:\n"
+"%(ref_str)s"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #. odoo-python
@@ -3897,6 +4227,13 @@ msgid ""
 "Concerned repair order(s):\n"
 "%(ref_str)s"
 msgstr ""
+<<<<<<< HEAD
+=======
+"İlişkili bir fiyat teklifi oluşturmak için bir onarım siparişi için bir "
+"müşteri tanımlamanız gerekir.\n"
+"İlgili onarım sipariş(ler)i:\n"
+"%(ref_str)s"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.stock_warn_insufficient_qty_repair_form_view

@@ -7,8 +7,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* google_calendar
 # 
+=======
+# * google_calendar
+#
+>>>>>>> upstream/18.0
 =======
 # * google_calendar
 #
@@ -175,6 +180,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Wil Odoo, 2025
 >>>>>>> upstream/18.0
@@ -536,10 +542,15 @@
 # Wil Odoo, 2025
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
+=======
+# Wil Odoo, 2025
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1261,6 +1272,10 @@ msgstr ""
 >>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-07-18 18:38+0000\n"
 "PO-Revision-Date: 2025-11-21 02:27+0000\n"
+=======
+"POT-Creation-Date: 2025-07-18 18:38+0000\n"
+"PO-Revision-Date: 2025-11-25 09:48+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Turkish <https://translate.odoo.com/projects/odoo-18/"
 "google_calendar/tr/>\n"
@@ -1276,6 +1291,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1346,6 +1364,13 @@ msgid ""
 "secret on the Google APIs plateform or try to stop and restart your calendar"
 " synchronization."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Token oluşturulurken bir hata meydana geldi. Yetkilendirme kodunuz geçersiz "
+"olabilir veya süresi dolmuş olabilir [%s]. Google API’ler platformunda "
+"Müşteri Kimliğinizi (Client ID) ve gizli anahtarınızı (secret) kontrol edin "
+"ya da takvim senkronizasyonunu durdurup yeniden başlatmayı deneyin."
+>>>>>>> upstream/18.0
 
 #. module: google_calendar
 #: model:ir.model,name:google_calendar.model_calendar_attendee
@@ -1575,7 +1600,10 @@ msgstr "E-Posta"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1905,6 +1933,9 @@ msgstr "Etkinlik Alarmı Yöneticisi"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2195,7 +2226,11 @@ msgid "Google Meet"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Google Meet"
+>>>>>>> upstream/18.0
 =======
 msgstr "Google Meet"
 >>>>>>> upstream/18.0
@@ -2228,7 +2263,11 @@ msgid "Google Synchronization Paused"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Google Senkronizasyonu Duraklatıldı"
+>>>>>>> upstream/18.0
 =======
 msgstr "Google Senkronizasyonu Duraklatıldı"
 >>>>>>> upstream/18.0
@@ -2266,7 +2305,11 @@ msgstr "Google şu açıklamayı yaptı: %s"
 #. module: google_calendar
 #: model:ir.model.fields,field_description:google_calendar.field_calendar_event__guests_readonly
 msgid "Guests Event Modification Permission"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Misafir Etkinlik Değişiklik İzni"
+>>>>>>> upstream/18.0
 
 #. module: google_calendar
 #: model:ir.model.fields,field_description:google_calendar.field_google_calendar_account_reset__id
@@ -2286,12 +2329,20 @@ msgstr ""
 #: model:ir.model.fields,help:google_calendar.field_res_config_settings__cal_sync_paused
 msgid "Indicates if synchronization with Google Calendar is paused or not."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Google Takvim ile senkronizasyonun duraklatılıp duraklatılmadığını gösterir."
+>>>>>>> upstream/18.0
 
 #. module: google_calendar
 #. odoo-python
 #: code:addons/google_calendar/models/google_sync.py:0
 msgid "It will not be synced as long at it is not updated."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Güncellenmediği sürece senkronize edilmeyecektir."
+>>>>>>> upstream/18.0
 
 #. module: google_calendar
 #: model:ir.model.fields,help:google_calendar.field_res_users__google_calendar_cal_id
@@ -2345,7 +2396,11 @@ msgstr "Bildirimler"
 #. module: google_calendar
 #: model_terms:ir.ui.view,arch_db:google_calendar.res_config_settings_view_form
 msgid "Pause Synchronization"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Senkronizasyonu Duraklat"
+>>>>>>> upstream/18.0
 
 #. module: google_calendar
 #: model:ir.model.fields,field_description:google_calendar.field_res_users__google_calendar_rtoken
@@ -2395,12 +2450,21 @@ msgid ""
 "The following event can only be updated by the organizer according to the "
 "event permissions set on Google Calendar."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Aşağıdaki etkinlik, Google Takvim'de ayarlanan etkinlik izinlerine göre "
+"yalnızca düzenleyen tarafından güncellenebilir."
+>>>>>>> upstream/18.0
 
 #. module: google_calendar
 #. odoo-python
 #: code:addons/google_calendar/models/google_sync.py:0
 msgid "The following event could not be synced with Google Calendar."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aşağıdaki etkinlik Google Takvim ile senkronize edilemedi."
+>>>>>>> upstream/18.0
 
 #. module: google_calendar
 #: model:ir.model.fields,help:google_calendar.field_google_calendar_account_reset__delete_policy

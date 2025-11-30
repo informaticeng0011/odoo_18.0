@@ -108,7 +108,11 @@ export async function freezeOdooData(model) {
                     continue;
                 }
 <<<<<<< HEAD
+<<<<<<< HEAD
                 cell.content = evaluatedCell.value.toString();
+=======
+                cell.content = toFrozenContent(evaluatedCell);
+>>>>>>> upstream/18.0
 =======
                 cell.content = toFrozenContent(evaluatedCell);
 >>>>>>> upstream/18.0
@@ -129,7 +133,11 @@ export async function freezeOdooData(model) {
                             sheet.cells[xc] = {
                                 ...sheet.cells[xc],
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 content: evaluatedCell.value.toString(),
+=======
+                                content: toFrozenContent(evaluatedCell),
+>>>>>>> upstream/18.0
 =======
                                 content: toFrozenContent(evaluatedCell),
 >>>>>>> upstream/18.0
@@ -168,7 +176,10 @@ export async function freezeOdooData(model) {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 function toFrozenContent(evaluatedCell) {
     const value = evaluatedCell.value;
     if (value === "") {
@@ -177,6 +188,9 @@ function toFrozenContent(evaluatedCell) {
     return value.toString();
 }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 /**
  * @param {OdooSpreadsheetModel} model

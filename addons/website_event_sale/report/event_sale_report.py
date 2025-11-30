@@ -11,9 +11,12 @@ class EventSaleReport(models.Model):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _select_clause(self, *select):
         return super()._select_clause('event_event.is_published as is_published', *select)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def _select_additional_fields(self):
@@ -21,6 +24,9 @@ class EventSaleReport(models.Model):
         res['is_published'] = 'event_event.is_published'
         return res
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

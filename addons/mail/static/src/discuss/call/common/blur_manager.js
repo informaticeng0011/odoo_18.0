@@ -3,6 +3,11 @@ import { closeStream } from "@mail/utils/common/misc";
 import { browser } from "@web/core/browser/browser";
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+const FPS = 30; // Frames per second for the blurred background stream
+
+>>>>>>> upstream/18.0
 =======
 const FPS = 30; // Frames per second for the blurred background stream
 
@@ -42,6 +47,10 @@ export class BlurManager {
     stream;
     video = document.createElement("video");
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    worker;
+>>>>>>> upstream/18.0
 =======
     worker;
 >>>>>>> upstream/18.0
@@ -67,7 +76,10 @@ export class BlurManager {
             resolveStreamPromise,
         });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         try {
             this.worker = new Worker("/mail/static/src/discuss/call/common/tick_worker.js");
             this.worker.onmessage = (e) => this._handleWorkerMessage(e);
@@ -78,6 +90,9 @@ export class BlurManager {
         } catch {
             this.worker = null;
         }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         this.video.srcObject = stream;
         this.video.load();
@@ -98,6 +113,10 @@ export class BlurManager {
         closeStream(this.canvasStream);
         this.canvasStream = null;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this._terminateWorker();
+>>>>>>> upstream/18.0
 =======
         this._terminateWorker();
 >>>>>>> upstream/18.0
@@ -109,7 +128,10 @@ export class BlurManager {
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     /**
      * @private
      * @param {MessageEvent} e
@@ -132,6 +154,9 @@ export class BlurManager {
         this.worker = null;
     }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     _drawWithCompositing(image, compositeOperation) {
         this.canvas.getContext("2d").globalCompositeOperation = compositeOperation;
@@ -144,13 +169,19 @@ export class BlurManager {
     _onVideoPlay() {
         this.isVideoDataLoaded = true;
 <<<<<<< HEAD
+<<<<<<< HEAD
         this._requestFrame();
 =======
+=======
+>>>>>>> upstream/18.0
         if (this.worker) {
             this.worker.postMessage({ command: "start", fps: FPS });
         } else {
             this._requestFrame();
         }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     }
 
@@ -169,7 +200,10 @@ export class BlurManager {
         }
         await this.selfieSegmentation.send({ image: this.video });
 <<<<<<< HEAD
+<<<<<<< HEAD
         browser.setTimeout(() => this._requestFrame(), Math.floor(1000 / 30)); // 30 fps
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     }
@@ -190,11 +224,17 @@ export class BlurManager {
         this._drawWithCompositing(this.canvasBlur, "destination-over");
         this.canvas.getContext("2d").restore();
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         if (this.resolveStreamPromise) {
             this.resolveStreamPromise(this.canvasStream);
             this.resolveStreamPromise = null;
         }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     }
 
@@ -203,10 +243,13 @@ export class BlurManager {
      */
     _requestFrame() {
 <<<<<<< HEAD
+<<<<<<< HEAD
         browser.requestAnimationFrame(async () => {
             await this._onFrame();
             this.resolveStreamPromise(this.canvasStream);
 =======
+=======
+>>>>>>> upstream/18.0
         if (!this.isVideoDataLoaded) {
             return;
         }
@@ -215,6 +258,9 @@ export class BlurManager {
             if (!this.worker) {
                 browser.setTimeout(() => this._requestFrame(), Math.floor(1000 / FPS));
             }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         });
     }

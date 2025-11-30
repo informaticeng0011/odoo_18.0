@@ -21,6 +21,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* product
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -129,6 +130,10 @@
 #
 >>>>>>> upstream/18.0
 =======
+#
+>>>>>>> upstream/18.0
+=======
+# * product
 #
 >>>>>>> upstream/18.0
 =======
@@ -363,6 +368,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Ediz Duman <neps1192@gmail.com>, 2025
 # Tugay Hatıl <tugayh@projetgrup.com>, 2025
 # Melih Melik Sonmez, 2025
@@ -427,6 +433,8 @@
 # Ediz Duman <neps1192@gmail.com>, 2025
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -749,6 +757,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1100,10 +1109,15 @@
 # Deniz Guvener_Odoo <degu@odoo.com>, 2025
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
+=======
+# Deniz Guvener_Odoo <degu@odoo.com>, 2025
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1824,10 +1838,18 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-10-11 02:17+0000\n"
+"PO-Revision-Date: 2025-11-25 09:48+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Turkish <https://translate.odoo.com/projects/odoo-18/product/"
+"tr/>\n"
+>>>>>>> upstream/18.0
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1929,6 +1951,10 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+=======
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 =======
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Weblate 5.12.2\n"
@@ -2100,9 +2126,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "%(base)s with a %(discount)s %% %(discount_type)s and %(surcharge)s extra fee\n"
 "Example: %(amount)s * %(discount_charge)s + %(price_surcharge)s → %(total_amount)s"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2248,6 +2277,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2344,11 +2374,19 @@ msgid ""
 =======
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+msgstr ""
+"%(base)s %(discount)s %% %(discount_type)s ve %(surcharge)s ekstra ücret "
+"ile\n"
+"Örnek: %(amount)s * %(discount_charge)s + %(price_surcharge)s → "
+"%(total_amount)s"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2592,12 +2630,23 @@ msgid ""
 "(start_date)s)"
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+"%(item_name)s: end date (%(end_date)s) should be after start date (%"
+"(start_date)s)"
+msgstr ""
+"%(item_name)s: bitiş tarihi (%(end_date)s) başlangıç tarihinden "
+"(%(start_date)s) sonra olmalıdır"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid "%(percentage)s %% %(discount_type)s on %(base)s %(extra)s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(percentage)s %% %(discount_type)s üzerinde %(base)s %(extra)s"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -2654,6 +2703,7 @@ msgstr "- %(amount)s iade"
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_product.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2799,6 +2849,8 @@ msgstr "- Barkod \"%(barcode)s\" halihazırda ürün(ler)e atanmış: %(product_
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "- Barcode \"%(barcode)s\" already assigned to product(s): %(product_list)s"
 msgstr ""
@@ -2850,6 +2902,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2997,9 +3052,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "- Instantly: All possible variants are created as soon as the attribute and its values are added to a product.\n"
 "        - Dynamically: Each variant is created only when its corresponding attributes and values are added to a sales order.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3145,6 +3203,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3243,6 +3302,17 @@ msgid ""
 "        - Never: Variants are never created for the attribute.\n"
 "        Note: this cannot be changed once the attribute is used on a product."
 msgstr ""
+=======
+"        - Never: Variants are never created for the attribute.\n"
+"        Note: this cannot be changed once the attribute is used on a product."
+msgstr ""
+"- Anında: Tüm olası varyantlar, özellik ve değerleri bir ürüne eklenir "
+"eklenmez oluşturulur.\n"
+"        - Dinamik olarak: Her varyant yalnızca ilgili öznitelikler ve "
+"değerler bir satış siparişine eklendiğinde oluşturulur.\n"
+"        - Hiçbir zaman: Öznitelik için hiçbir zaman varyasyon oluşturulmaz.\n"
+"        Not: Öznitelik bir üründe kullanıldıktan sonra bu değiştirilemez."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:product.attribute.value,name:product.product_attribute_value_5
@@ -3302,7 +3372,11 @@ msgstr "4 x 7 fiyat ile"
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_item_form_view
 msgid "<b>Tip: want to round at 9.99?</b>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<b>İpucu: 9,99'da yuvarlamak mı istiyorsunuz?</b>"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_item_form_view
@@ -3315,6 +3389,7 @@ msgstr ""
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_view_kanban
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3460,6 +3535,8 @@ msgstr "<i class=\"fa fa-money\" role=\"img\" aria-label=\"Currency\" title=\"Cu
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "<i class=\"fa fa-money\" role=\"img\" aria-label=\"Currency\" "
 "title=\"Currency\"/>"
@@ -3513,6 +3590,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3663,6 +3743,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                        <span class=\"o_stat_text\" invisible=\"pricelist_item_count != 1\">\n"
 "                                            Rule\n"
 "                                        </span>"
@@ -4191,6 +4272,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                                        <span class=\"o_stat_text\" "
 "invisible=\"pricelist_item_count != 1\">\n"
 "                                            Rule\n"
@@ -4250,6 +4333,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4400,6 +4486,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                    <span class=\"o_stat_text\" invisible=\"pricelist_item_count != 1\">\n"
 "                                        Pricelist\n"
 "                                    </span>"
@@ -4928,6 +5015,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                                    <span class=\"o_stat_text\" "
 "invisible=\"pricelist_item_count != 1\">\n"
 "                                        Pricelist\n"
@@ -4987,6 +5076,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5180,9 +5272,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        mecvut varyantların silinmesine ve yeniden oluşturulmasına neden olur,\n"
 "                        muhtemel özelleştirmelerinizi kaybetmemek için dikkatli olun."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5328,6 +5423,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5505,8 +5603,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "A description of the Product that you want to communicate to your customers."
 " This description will be copied to every Sales Order, Delivery Order and "
+=======
+"A description of the Product that you want to communicate to your customers. "
+"This description will be copied to every Sales Order, Delivery Order and "
+>>>>>>> upstream/18.0
 =======
 "A description of the Product that you want to communicate to your customers. "
 "This description will be copied to every Sales Order, Delivery Order and "
@@ -5762,12 +5865,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "A price is a set of sales prices or rules to compute the price of sales order lines based on products, product categories, dates and ordered quantities.\n"
 "            This is the perfect tool to handle several pricings, seasonal discounts, etc."
 msgstr ""
 "Fiyat, ürünlere, ürün kategorilerine, tarihlere ve sipariş edilen miktarlara dayalı olarak satış siparişi satırlarının fiyatını hesaplamak için bir dizi satış fiyatı veya kuralıdır.\n"
 "Bu, çeşitli fiyatlandırmaları, sezonluk indirimleri vb. işlemek için mükemmel bir araçtır."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5928,6 +6034,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6022,6 +6129,10 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+"Temel olarak \"Diğer Fiyat Listesi\" olan bir fiyat listesi öğesi, bir "
+"base_pricelist_id'ye sahip olmalıdır."
 >>>>>>> upstream/18.0
 
 #. module: product
@@ -6247,7 +6358,11 @@ msgid "Add Products to pricelist report"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ürünleri fiyat listesine raporuna ek"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ürünleri fiyat listesine raporuna ek"
 >>>>>>> upstream/18.0
@@ -6619,22 +6734,39 @@ msgid ""
 "Add products using the \"Add Products\" button at the top right to\n"
 "                                include them in the report."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Sağ üstteki \"Ürün Ekle\" düğmesini kullanarak ürün eklemek için\n"
+"                                bunları rapora dahil edin."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_attribute_value.py:0
 msgid "Add to all products"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tüm ürünlere ekle"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields.selection,name:product.selection__update_product_attribute_value__mode__add
 msgid "Add to existing products"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mevcut ürünlere ekleme"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_attribute_view_form
 msgid "Add to products"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ürünlere ekle"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_document_search
@@ -6795,10 +6927,15 @@ msgstr "Bu Etiketi Kullanan Tüm Ürün Çeşitleri"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #. odoo-python
 #: code:addons/product/models/product_pricelist_item.py:0
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.xml:0
+=======
+#. odoo-python
+#: code:addons/product/models/product_pricelist_item.py:0
+>>>>>>> upstream/18.0
 =======
 #. odoo-python
 #: code:addons/product/models/product_pricelist_item.py:0
@@ -7490,7 +7627,11 @@ msgid "All products"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tüm Ürünler"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tüm Ürünler"
 >>>>>>> upstream/18.0
@@ -7972,7 +8113,11 @@ msgid "All variants"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tüm Varyantlar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tüm Varyantlar"
 >>>>>>> upstream/18.0
@@ -8335,7 +8480,11 @@ msgstr "Tüm Varyantlar"
 #: model:ir.model.fields,help:product.field_product_attribute_value__is_custom
 #: model:ir.model.fields,help:product.field_product_template_attribute_value__is_custom
 msgid "Allow customers to set their own value"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Müşterilerin kendi değerlerini belirlemelerine izin verin"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:product.attribute.value,name:product.product_attribute_value_2
@@ -8355,7 +8504,11 @@ msgstr "Şuna Uygula"
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_item_form_view
 msgid "Apply To"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Başvurmak İçin"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_view
@@ -8761,7 +8914,11 @@ msgid "Combo Choice"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kombo Seç"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kombo Seç"
 >>>>>>> upstream/18.0
@@ -9142,7 +9299,11 @@ msgstr "Kombo Fiyatı"
 #. odoo-python
 #: code:addons/product/models/product_template.py:0
 msgid "Combo products can't have attributes."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Birleşik ürünler niteliklere sahip olamaz."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -9151,6 +9312,11 @@ msgid ""
 "Combos allow to choose one product amongst a selection of choices per "
 "category."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Kombinler, kategori başına çeşitli seçenekler arasından bir ürün seçmeye "
+"olanak tanır."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model,name:product.model_res_company
@@ -9427,7 +9593,11 @@ msgstr "Varsayılan Ekstra Fiyat"
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_attribute_value__default_extra_price_changed
 msgid "Default Extra Price Changed"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Varsayılan Ekstra Fiyat Değişti"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_packaging__product_uom_id
@@ -9536,7 +9706,11 @@ msgstr "İndirimli Fiyat"
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_pricelist_item__display_applied_on
 msgid "Display Applied On"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ekran Açık Uygulandı"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_attribute__display_name
@@ -9679,7 +9853,11 @@ msgstr "Ergonomik"
 #. odoo-javascript
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.js:0
 msgid "Error exporting file. Please try again."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dosya dışa aktarılırken hata oluştu. Lütfen tekrar deneyin."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_template_attribute_value__exclude_for
@@ -9769,8 +9947,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Extra price for the variant with this attribute value on sale price. eg. 200"
 " price extra, 1000 + 200 = 1200."
+=======
+"Extra price for the variant with this attribute value on sale price. eg. 200 "
+"price extra, 1000 + 200 = 1200."
+>>>>>>> upstream/18.0
 =======
 "Extra price for the variant with this attribute value on sale price. eg. 200 "
 "price extra, 1000 + 200 = 1200."
@@ -10084,7 +10267,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "For the rule to apply, bought/sold quantity must be greater than or equal to the minimum quantity specified in this field.\n"
+=======
+"For the rule to apply, bought/sold quantity must be greater than or equal to "
+"the minimum quantity specified in this field.\n"
+>>>>>>> upstream/18.0
 =======
 "For the rule to apply, bought/sold quantity must be greater than or equal to "
 "the minimum quantity specified in this field.\n"
@@ -10413,7 +10601,11 @@ msgid "Free text"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Serbest metin"
+>>>>>>> upstream/18.0
 =======
 msgstr "Serbest metin"
 >>>>>>> upstream/18.0
@@ -10739,7 +10931,11 @@ msgstr "Serbest metin"
 #. module: product
 #: model:product.template,name:product.product_product_furniture_product_template
 msgid "Furniture Assembly"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mobilya Montajı"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_template_search_view
@@ -10899,7 +11095,11 @@ msgstr "Ayarlanmazsa, satıcı fiyatı bu ürünün tüm varyantlarına uygulan�
 #: model:ir.model.fields,help:product.field_product_attribute__active
 msgid ""
 "If unchecked, it will allow you to hide the attribute without removing it."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "İşaretlenmezse, özelliği kaldırmadan gizlemenize izin verir."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_pricelist__active
@@ -10954,8 +11154,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "İşareti kaldırırsanız, fiyat listesini kaldırmadan gizlemenizi "
 "sağlayacaktır."
+=======
+"İşareti kaldırırsanız, fiyat listesini kaldırmadan gizlemenizi sağlayacaktır."
+>>>>>>> upstream/18.0
 =======
 "İşareti kaldırırsanız, fiyat listesini kaldırmadan gizlemenizi sağlayacaktır."
 >>>>>>> upstream/18.0
@@ -11428,8 +11632,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Make this attribute value not compatible with other values of the product or"
 " some attribute values of optional and accessory products."
+=======
+"Make this attribute value not compatible with other values of the product or "
+"some attribute values of optional and accessory products."
+>>>>>>> upstream/18.0
 =======
 "Make this attribute value not compatible with other values of the product or "
 "some attribute values of optional and accessory products."
@@ -11645,7 +11854,11 @@ msgstr "Kar Marjı"
 #: model:ir.model.fields,field_description:product.field_product_pricelist_item__price_markup
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_item_form_view
 msgid "Markup"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "İşaretleme"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_item_form_view
@@ -11686,7 +11899,11 @@ msgstr "Mime Türü"
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_item_form_view
 msgid "Min Qty"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Min Miktar"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_item_form_view
@@ -11823,7 +12040,11 @@ msgid "Multi-checkbox"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Çoklu-onaykutusu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Çoklu-onaykutusu"
 >>>>>>> upstream/18.0
@@ -12232,7 +12453,11 @@ msgstr "Hiçbir ürün bulunamadı."
 #. odoo-javascript
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.xml:0
 msgid "No products found in the report"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Raporda ürün bulunamadı"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.actions.act_window,help:product.product_supplierinfo_type_action
@@ -12313,7 +12538,11 @@ msgstr "Siyah Ofis Koltuğu"
 #. module: product
 #: model:product.template,name:product.office_combo_product_template
 msgid "Office Combo"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ofis Kombo"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:product.template,name:product.product_order_01_product_template
@@ -12377,8 +12606,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "On the product %(product)s you cannot associate the value %(value)s with the"
 " attribute %(attribute)s because they do not match."
+=======
+"On the product %(product)s you cannot associate the value %(value)s with the "
+"attribute %(attribute)s because they do not match."
+>>>>>>> upstream/18.0
 =======
 "On the product %(product)s you cannot associate the value %(value)s with the "
 "attribute %(attribute)s because they do not match."
@@ -12627,12 +12861,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "On the product %(product)s you cannot transform the attribute "
 "%(attribute_src)s into the attribute %(attribute_dest)s."
 msgstr ""
 " %(product)s ürününde%(attribute_src)s "
 "özelliğini%(attribute_dest)sözelliğine dönüştüremezsiniz."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12779,6 +13016,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12879,7 +13119,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/product/static/src/js/product_document_kanban/upload_button/upload_button.js:0
 msgid "Oops! '%(fileName)s' didn’t upload since its format isn’t allowed."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Oops! '%(fileName)s' biçimi izin verilmediği için yüklenmedi."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_document__original_id
@@ -12901,7 +13145,11 @@ msgstr "Diğer Fiyat Listesi"
 #. module: product
 #: model:product.template,name:product.product_template_dining_table
 msgid "Outdoor dining table"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dış mekan yemek masası"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.report_packagingbarcode
@@ -12970,7 +13218,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.js:0
 msgid "Please select some products first."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Lütfen önce bazı ürünleri seçin."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -13091,7 +13343,11 @@ msgstr "Fiyat Listesi Raporu"
 #. odoo-python
 #: code:addons/product/models/product_pricelist.py:0
 msgid "Pricelist Report Preview"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fiyat Listesi Raporu Önizlemesi"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model,name:product.model_product_pricelist_item
@@ -13242,7 +13498,11 @@ msgid "Product Combo"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ürün Kombinasyonu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ürün Kombinasyonu"
 >>>>>>> upstream/18.0
@@ -13331,7 +13591,11 @@ msgid "Product Combo Item"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ürün Kombinasyon Öğesi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ürün Kombinasyon Öğesi"
 >>>>>>> upstream/18.0
@@ -13700,7 +13964,11 @@ msgstr "Miktar"
 #. odoo-python
 #: code:addons/product/controllers/pricelist_report.py:0
 msgid "Quantity (%s UoM)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Miktar (%s UoM)"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-javascript
@@ -13732,6 +14000,7 @@ msgstr "Referans"
 #. module: product
 #: model_terms:ir.actions.act_window,help:product.product_supplierinfo_type_action
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13880,6 +14149,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Register the prices requested by your vendors for each product, based on the "
 "quantity and the period."
 msgstr ""
@@ -13932,6 +14203,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14090,7 +14364,11 @@ msgstr "Restoran Giderleri"
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_item_form_view
 msgid "Round off to"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Şuna yuvarlayın"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_label_layout__rows
@@ -14170,6 +14448,13 @@ msgid ""
 "Rounding is applied after the discount and before the surcharge.\n"
 "To have prices that end in 9.99, round off to 10.00 and set an extra at -0.01"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Fiyatı bu değerin katı olacak şekilde ayarlar.\n"
+"Yuvarlama, indirimden sonra ve ek ücretten önce uygulanır.\n"
+"Sonu 9,99 ile biten fiyatlara sahip olmak için, 10,00'a yuvarlayın ve -"
+"0,01'de bir ekstra ayarlayın"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-javascript
@@ -14264,7 +14549,11 @@ msgid "Show Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "İsmi Göster"
+>>>>>>> upstream/18.0
 =======
 msgstr "İsmi Göster"
 >>>>>>> upstream/18.0
@@ -14547,7 +14836,11 @@ msgstr "Boyut"
 #: model:ir.model.fields,field_description:product.field_res_partner__specific_property_product_pricelist
 #: model:ir.model.fields,field_description:product.field_res_users__specific_property_product_pricelist
 msgid "Specific Property Product Pricelist"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Özel Mülk Ürün Fiyat Listesi"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_pricelist_item__categ_id
@@ -14612,8 +14905,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Bu kural yalnızca bir ürüne uygulanıyorsa bir ürün belirleyin. Aksi takdirde"
 " boş bırakın."
+=======
+"Bu kural yalnızca bir ürüne uygulanıyorsa bir ürün belirleyin. Aksi takdirde "
+"boş bırakın."
+>>>>>>> upstream/18.0
 =======
 "Bu kural yalnızca bir ürüne uygulanıyorsa bir ürün belirleyin. Aksi takdirde "
 "boş bırakın."
@@ -14911,7 +15209,11 @@ msgstr "Etiketler, belirli bir tema için ürün aramada kullanılır."
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_attribute__template_value_ids
 msgid "Template Values"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Şablon Değerleri"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -14923,7 +15225,11 @@ msgstr "İç Referans '%s' zaten mevcut."
 #. odoo-python
 #: code:addons/product/models/product_product.py:0
 msgid "The Reference '%s' already exists."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "'%s' referansı zaten mevcut."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -14977,8 +15283,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The attribute %(attribute)s must have at least one value for the product "
 "%(product)s."
+=======
+"The attribute %(attribute)s must have at least one value for the product %"
+"(product)s."
+>>>>>>> upstream/18.0
 =======
 "The attribute %(attribute)s must have at least one value for the product %"
 "(product)s."
@@ -15237,8 +15548,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Varsayılan Ölçü Birimi ve satın alınan Ölçü Birimi aynı kategoride "
 "olmalıdır."
+=======
+"Varsayılan Ölçü Birimi ve satın alınan Ölçü Birimi aynı kategoride olmalıdır."
+>>>>>>> upstream/18.0
 =======
 "Varsayılan Ölçü Birimi ve satın alınan Ölçü Birimi aynı kategoride olmalıdır."
 >>>>>>> upstream/18.0
@@ -15391,6 +15706,12 @@ msgid ""
 "since the 5 boxes are loose, you can move and place them in the way that "
 "suits you and your things best."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Masa düzenleyici, her türlü küçük eşyayı saklamak için mükemmeldir ve 5 kutu "
+"gevşek olduğundan, bunları size ve eşyalarınıza en uygun şekilde taşıyabilir "
+"ve yerleştirebilirsiniz."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_attribute__display_type
@@ -15424,6 +15745,7 @@ msgstr "Minimum kenar boşluğu maksimum kenar boşluğundan düşük olmalıdı
 msgid ""
 "The minimum price among the products in this combo. This value will be used "
 "to prorate the price of this combo with respect to the other combos in a "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15667,6 +15989,15 @@ msgid ""
 "in a combo, it will always be the same price."
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+"combo product. This heuristic ensures that whatever product the user chooses "
+"in a combo, it will always be the same price."
+msgstr ""
+"Bu komboda yer alan ürünler arasındaki minimum fiyat. Bu değer, bir combo "
+"üründeki diğer combo'lara göre bu combo'nun fiyatını orantılamak için "
+"kullanılacaktır. Bu sezgisel yöntem, kullanıcının bir combo'da seçtiği ürün "
+"ne olursa olsun, her zaman aynı fiyatta olmasını sağlar."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_category__product_count
@@ -15727,8 +16058,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The number of variants to generate is above allowed limit. You should either"
 " not generate variants for each combination or generate them on demand from "
+=======
+"The number of variants to generate is above allowed limit. You should either "
+"not generate variants for each combination or generate them on demand from "
+>>>>>>> upstream/18.0
 =======
 "The number of variants to generate is above allowed limit. You should either "
 "not generate variants for each combination or generate them on demand from "
@@ -16009,12 +16345,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The sale price is managed from the product template. Click on the 'Configure"
 " Variants' button to set the extra attribute prices."
 msgstr ""
 "Satış fiyat ürün şablonundan yönetilir. Ekstra nitelik fiyatlarını ayarlamak"
 " için 'Varyantları Yapılandır' düğmesine tıklayın."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -16161,6 +16500,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16293,6 +16635,7 @@ msgid ""
 "to no possible variant. Please archive or delete your product directly if "
 "intended."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16534,6 +16877,10 @@ msgstr ""
 "Ürün niteliklerinin, değerlerinin ve hariç tutulanların bu yapılandırması, "
 "olası bir varyasyona yol açmaz.\n"
 >>>>>>> upstream/18.0
+=======
+"Ürün niteliklerinin, değerlerinin ve hariç tutulanların bu yapılandırması, "
+"olası bir varyasyona yol açmaz.\n"
+>>>>>>> upstream/18.0
 "Lütfen istenirse ürününüzü doğrudan arşivleyin veya silin."
 
 #. module: product
@@ -16567,11 +16914,17 @@ msgstr ""
 msgid ""
 "This product is part of a combo, so its type can't be changed to \"combo\"."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Bu ürün bir kombo ürünün parçasıdır, bu nedenle türü \"kombo\" olarak "
+"değiştirilemez."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/uom_uom.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16720,6 +17073,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "This rounding precision is higher than the Decimal Accuracy (%(digits)s "
 "digits).\n"
 "This may cause inconsistencies in computations.\n"
@@ -16774,6 +17129,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16982,23 +17340,39 @@ msgstr "UoM Kategorisi"
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_attribute_view_form
 msgid "Update extra prices"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ekstra fiyatları güncelleyin"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model,name:product.model_update_product_attribute_value
 msgid "Update product attribute value"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ürün öznitelik değerini güncelleme"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_attribute_value.py:0
 msgid "Update product extra prices"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ürün ekstra fiyatlarını güncelleme"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields.selection,name:product.selection__update_product_attribute_value__mode__update_extra_price
 msgid "Update the extra price on existing products"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mevcut ürünlerdeki ekstra fiyatı güncelleyin"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-javascript
@@ -17028,6 +17402,11 @@ msgid ""
 "Use the discount rules and activate the discount settings in order to show "
 "discount to customer."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Müşteriye indirim göstermek için indirim kurallarını kullanın ve indirim "
+"ayarlarını etkinleştirin."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -17082,6 +17461,7 @@ msgstr "Değer Sayısı"
 #: model:ir.model.fields,help:product.field_product_template__standard_price
 msgid ""
 "Value of the product (automatically computed in AVCO).\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17230,6 +17610,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "        Used to value the product when the purchase cost is not known (e.g. "
 "inventory adjustment).\n"
 "        Used to compute margins on sale orders."
@@ -17284,6 +17666,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17511,7 +17896,11 @@ msgid "Variant Creation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Varyant Oluşturma"
+>>>>>>> upstream/18.0
 =======
 msgstr "Varyant Oluşturma"
 >>>>>>> upstream/18.0
@@ -17878,7 +18267,11 @@ msgstr "Tedarikçi Varyantı"
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__additional_product_tag_ids
 msgid "Variant Tags"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Varyant Etiketleri"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__product_template_variant_value_ids
@@ -17960,7 +18353,11 @@ msgid "Visible to all"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Herkes tarafından görülebilir"
+>>>>>>> upstream/18.0
 =======
 msgstr "Herkes tarafından görülebilir"
 >>>>>>> upstream/18.0
@@ -18022,6 +18419,7 @@ msgstr "Uyarılar"
 #. module: product
 #: model_terms:product.template,website_description:product.product_product_4_product_template
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18264,6 +18662,10 @@ msgid ""
 "We pay special attention to detail, which is why our desks are of a superior "
 "quality."
 >>>>>>> upstream/18.0
+=======
+"We pay special attention to detail, which is why our desks are of a superior "
+"quality."
+>>>>>>> upstream/18.0
 msgstr ""
 "Detaylara özel itina gösteririz, bu yüzden masalarımız üstün kalitelidir."
 
@@ -18307,12 +18709,21 @@ msgid ""
 "You are about to add the value \"%(attribute_value)s\" to %(product_count)s "
 "products."
 msgstr ""
+<<<<<<< HEAD
+=======
+"%(product_count)s ürünlerine \"%(attribute_value)s\" değerini eklemek "
+"üzeresiniz."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
 #: code:addons/product/wizard/update_product_attribute_value.py:0
 msgid "You are about to update the extra price of %s products."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s ürünlerinin ekstra fiyatını güncellemek üzeresiniz."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -18379,7 +18790,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Please increase the rounding of those units of measure, or the digits of this Decimal Accuracy."
+=======
+"Please increase the rounding of those units of measure, or the digits of "
+"this Decimal Accuracy."
+>>>>>>> upstream/18.0
 =======
 "Please increase the rounding of those units of measure, or the digits of "
 "this Decimal Accuracy."
@@ -18624,7 +19040,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Lütfen bu ölçü birimlerinin yuvarlamasını veya bu Ondalık Doğruluğun basamaklarını artırın."
+=======
+"Lütfen bu ölçü birimlerinin yuvarlamasını veya bu Ondalık Doğruluğun "
+"basamaklarını artırın."
+>>>>>>> upstream/18.0
 =======
 "Lütfen bu ölçü birimlerinin yuvarlamasını veya bu Ondalık Doğruluğun "
 "basamaklarını artırın."
@@ -18827,7 +19248,11 @@ msgstr "Negatif bir indirim ayarlayarak kar marjı uygulayabilirsiniz."
 #. module: product
 #: model:ir.model.fields,help:product.field_product_pricelist_item__price_markup
 msgid "You can apply a mark-up on the cost"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Maliyet üzerine bir zam uygulayabilirsiniz"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.actions.act_window,help:product.product_pricelist_action2
@@ -18867,7 +19292,11 @@ msgstr "Bu ürünü katalogda düzenleyemezsiniz."
 #: code:addons/product/models/product_attribute.py:0
 msgid ""
 "You cannot archive this attribute as there are still products linked to it"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bu özniteliği arşivleyemezsiniz çünkü hala ona bağlı ürünler vardır"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -18882,6 +19311,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/product/models/product_attribute.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19029,6 +19459,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "You cannot change the Variants Creation Mode of the attribute %(attribute)s "
 "because it is used on the following products:\n"
 "%(products)s"
@@ -19082,6 +19514,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -19231,12 +19666,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot change the attribute of the value %(value)s because it is used on"
 " the following products: %(products)s"
 msgstr ""
 "%(value)s değerinin özelliğini değiştiremezsiniz çünkü bu değer şu ürünlerde"
 " kullanılıyor:  %(products)s"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -19383,6 +19821,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -19483,6 +19924,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/product/models/product_template_attribute_value.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19725,6 +20167,10 @@ msgid ""
 "You cannot change the product of the value %(value)s set on product %"
 "(product)s."
 >>>>>>> upstream/18.0
+=======
+"You cannot change the product of the value %(value)s set on product %"
+"(product)s."
+>>>>>>> upstream/18.0
 msgstr ""
 " %(value)s ürününde ayarlanan %(product)sdeğerinin çarpımını "
 "değiştiremezsiniz."
@@ -19733,6 +20179,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/product/models/product_template_attribute_value.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19975,6 +20422,10 @@ msgid ""
 "You cannot change the value of the value %(value)s set on product %"
 "(product)s."
 >>>>>>> upstream/18.0
+=======
+"You cannot change the value of the value %(value)s set on product %"
+"(product)s."
+>>>>>>> upstream/18.0
 msgstr ""
 " %(value)s ürününde ayarlanan %(product)sdeğerinin çarpımını "
 "değiştiremezsiniz."
@@ -20004,6 +20455,13 @@ msgid ""
 "They are used within pricelist(s):\n"
 "%(other_pricelists)s"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Fiyat listelerini silemezsiniz:\n"
+"(%(pricelists)s)\n"
+"Fiyat listeleri içinde kullanılırlar:\n"
+"%(other_pricelists)s"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -20063,7 +20521,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot delete the attribute %(attribute)s because it is used on the following products:\n"
+=======
+"You cannot delete the attribute %(attribute)s because it is used on the "
+"following products:\n"
+>>>>>>> upstream/18.0
 =======
 "You cannot delete the attribute %(attribute)s because it is used on the "
 "following products:\n"
@@ -20313,6 +20776,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot delete the value %(value)s because it is used on the following products:\n"
 =======
 "You cannot delete the value %(value)s because it is used on the following "
@@ -20508,6 +20972,14 @@ msgid ""
 >>>>>>> upstream/18.0
 "%(products)s\n"
 msgstr ""
+=======
+"You cannot delete the value %(value)s because it is used on the following "
+"products:\n"
+"%(products)s\n"
+msgstr ""
+"Aşağıdaki ürünlerde kullanıldığı için %(value)s değerini silemezsiniz:\n"
+"%(products)s\n"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -20569,8 +21041,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot move the attribute %(attribute)s from the product %(product_src)s"
 " to the product %(product_dest)s."
+=======
+"You cannot move the attribute %(attribute)s from the product %(product_src)s "
+"to the product %(product_dest)s."
+>>>>>>> upstream/18.0
 =======
 "You cannot move the attribute %(attribute)s from the product %(product_src)s "
 "to the product %(product_dest)s."
@@ -20830,11 +21307,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            whether it's a storable product, a consumable or a service."
 msgstr ""
 "Sattığınız veya satın aldığınız her şey için bir ürün tanımlamanız gerekir,\n"
 "                           depolanabilir bir ürün, bir sarf malzemesi veya bir hizmet olup olmadığı."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -20982,6 +21462,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -21134,7 +21617,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "               ister depolanabilir bir ürün, ister sarf malzemesi veya hizmet olsun."
+=======
+"               ister depolanabilir bir ürün, ister sarf malzemesi veya "
+"hizmet olsun."
+>>>>>>> upstream/18.0
 =======
 "               ister depolanabilir bir ürün, ister sarf malzemesi veya "
 "hizmet olsun."
@@ -21381,9 +21869,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                The product form contains information to simplify the sale process:\n"
 "                price, notes in the quotation, accounting data, procurement methods, etc."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -21529,6 +22020,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -21681,6 +22175,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You must define a product for everything you sell, whether it's a physical product,\n"
 "                a consumable or a service you offer to customers.\n"
 "                The product form contains information to simplify the sale process:\n"
@@ -21688,6 +22183,8 @@ msgid ""
 msgstr ""
 "Bir sarf malzemesi, müşterilere sunduğunuz bir hizmet veya fiziksel bir ürün olsun, \n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -21839,6 +22336,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -21954,7 +22454,11 @@ msgstr "Pozitif bir miktar belirlemeniz gerekir."
 #. odoo-javascript
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.xml:0
 msgid "csv"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "csv"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_supplierinfo_form_view
@@ -21971,12 +22475,20 @@ msgstr "indirim"
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_product_view_form_normalized
 msgid "e.g. 1234567890"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "örneğin 1234567890"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_combo_view_form
 msgid "e.g. Burger Choice"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "örneğin Burger Choice"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_product_view_form_normalized
@@ -21997,7 +22509,11 @@ msgstr "Örn. Odoo Kurumsal Abonelik"
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_template_form_view
 msgid "e.g. Starter - Meal - Desert"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "örn. başlangıç - yemek - tatlı"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_view
@@ -22008,7 +22524,11 @@ msgstr "Örn. Dolar Perakendeceliği"
 #. odoo-python
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid "markup"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "işaretleme"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_document_form
@@ -22019,7 +22539,11 @@ msgstr ":"
 #. odoo-javascript
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.xml:0
 msgid "pdf"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "pdf"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_item_form_view
@@ -22157,7 +22681,11 @@ msgid "product cost"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ürün maliyeti"
+>>>>>>> upstream/18.0
 =======
 msgstr "ürün maliyeti"
 >>>>>>> upstream/18.0
@@ -22519,14 +23047,22 @@ msgstr "ürün maliyeti"
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_item_form_view
 msgid "round off to 10.00 and set an extra at -0.01"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "10.00'a yuvarlayın ve -0.01'de fazladan bir değer ayarlayın"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_pricelist_item.py:0
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_item_form_view
 msgid "sales price"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "satış fiyatı"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.view_partner_property_form
@@ -22547,4 +23083,8 @@ msgstr "den"
 #. odoo-javascript
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.xml:0
 msgid "xlsx"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "xlsx"
+>>>>>>> upstream/18.0

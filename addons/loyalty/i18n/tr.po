@@ -7,8 +7,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* loyalty
 # 
+=======
+# * loyalty
+#
+>>>>>>> upstream/18.0
 =======
 # * loyalty
 #
@@ -161,6 +166,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Ediz Duman <neps1192@gmail.com>, 2024
 # Halil, 2024
 <<<<<<< HEAD
@@ -803,6 +809,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # Halil, 2024
 # Ediz Duman <neps1192@gmail.com>, 2024
 # Deniz Guvener_Odoo <degu@odoo.com>, 2025
@@ -813,6 +821,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -830,6 +841,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1653,6 +1665,10 @@ msgstr ""
 >>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-07-18 18:39+0000\n"
 "PO-Revision-Date: 2025-11-14 13:48+0000\n"
+=======
+"POT-Creation-Date: 2025-07-18 18:39+0000\n"
+"PO-Revision-Date: 2025-11-25 09:48+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Turkish <https://translate.odoo.com/projects/odoo-18/loyalty/"
 "tr/>\n"
@@ -1668,6 +1684,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1738,7 +1757,11 @@ msgstr "%g %% "
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_reward.py:0
 msgid "%s on "
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s üzerinde "
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
@@ -1771,7 +1794,11 @@ msgstr "(vergi hariç)"
 #. odoo-javascript
 #: code:addons/loyalty/static/src/js/portal/loyalty_card_dialog/loyalty_card_dialog.xml:0
 msgid "-> View History"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "-> Geçmişi Görüntüle"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:loyalty.program,name:loyalty.10_percent_coupon
@@ -1927,7 +1954,11 @@ msgid "1000"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "1000"
+>>>>>>> upstream/18.0
 =======
 msgstr "1000"
 >>>>>>> upstream/18.0
@@ -2437,7 +2468,11 @@ msgid "2023-08-20"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "20-08-2023"
+>>>>>>> upstream/18.0
 =======
 msgstr "20-08-2023"
 >>>>>>> upstream/18.0
@@ -2714,6 +2749,7 @@ msgid ""
 msgstr ""
 "<div style=\"background: #ffffff\">\n"
 "                <div style=\"margin:0px; font-size:24px; font-family:arial, 'helvetica neue', helvetica, sans-serif; line-height:36px; color:#333333; text-align: center\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3119,12 +3155,16 @@ msgstr ""
 =======
 "                    İşte hediye çekiniz!\n"
 >>>>>>> upstream/18.0
+=======
+"                    İşte hediye çekiniz!\n"
+>>>>>>> upstream/18.0
 "                </div>\n"
 "                <div style=\"padding-top:20px; padding-bottom:20px\">\n"
 "                    <img src=\"/loyalty/static/img/gift_card.png\" style=\"display:block; border:0; outline:none; text-decoration:none; margin:auto;\" width=\"300\"/>\n"
 "                </div>\n"
 "                <div style=\"padding:0; margin:0px; padding-top:35px; padding-bottom:35px; text-align:center;\">\n"
 "                    <h3 style=\"margin:0px; line-height:48px; font-family:arial, 'helvetica neue', helvetica, sans-serif; font-size:40px; font-style:normal; font-weight:normal; color:#333333; text-align:center\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3432,6 +3472,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                        <strong t-out=\"format_amount(object.points, object.currency_id) or ''\">$ 150.00</strong></h3>\n"
 "                </div>\n"
 "                <div style=\"padding:0; margin:0px; padding-top:35px; padding-bottom:35px; background-color:#efefef; text-align:center;\">\n"
@@ -3537,6 +3579,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3742,6 +3787,7 @@ msgstr ""
 "                    <p style=\"margin:0px; font-size:25px;font-family:arial, 'helvetica neue', helvetica, sans-serif; line-height:38px; color:#A9A9A9\" t-out=\"object.code or ''\">4f10-15d6-41b7-b04c-7b3e</p>\n"
 "                </div>\n"
 "                <div t-if=\"object.expiration_date\" style=\"padding:0; margin:0px; padding-top:10px; padding-bottom:10px; text-align:center;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4049,6 +4095,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                    <h3 style=\"margin:0px; line-height:17px; font-family:arial, 'helvetica neue', helvetica, sans-serif; font-size:14px; font-style:normal; font-weight:normal; color:#A9A9A9; text-align:center\">Çekin son geçerlilik tarihi: <t t-out=\"format_date(object.expiration_date) or ''\">05/05/2021</t></h3>\n"
 "                </div>\n"
 "                <div style=\"padding:20px; margin:0px; text-align:center;\">\n"
@@ -4154,6 +4202,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4535,7 +4586,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4932,6 +4986,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5209,11 +5266,20 @@ msgid ""
 "<span colspan=\"2\" invisible=\"program_type != 'coupons'\">Grant the amount"
 " of coupon points defined as the coupon value</span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span colspan=\"2\" invisible=\"program_type != 'coupons'\">Kupon değeri "
+"olarak tanımlanan kupon puanı miktarını verin</span>"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_reward_view_form
 msgid "<span invisible=\"not clear_wallet\"> (or more)</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span invisible=\"not clear_wallet\"> (veya daha fazlası)</span>"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_generate_wizard_view_form
@@ -5225,11 +5291,24 @@ msgid ""
 "                            Generate \n"
 "                        </span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span invisible=\"not will_send_mail\">\n"
+"                            Oluştur ve Gönder \n"
+"                       </span>\n"
+"                        <span invisible=\"will_send_mail\">\n"
+"                            Oluşturmak \n"
+"                       </span>"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.portal_loyalty_history_breadcrumbs
 msgid "<span>History</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Tarih</span>"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_report
@@ -5329,13 +5408,21 @@ msgstr "Bir programın en az bir ödülü olmalıdır."
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_buttons
 msgid "A reward is waiting for you"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bir ödül sizi bekliyor"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_reward.py:0
 msgid "A reward product can't be of type \"combo\"."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bir ödül ürünü \"combo\" türünde olamaz."
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
@@ -5426,7 +5513,11 @@ msgid "ABCDE12345"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ABCDE12345"
+>>>>>>> upstream/18.0
 =======
 msgstr "ABCDE12345"
 >>>>>>> upstream/18.0
@@ -5815,7 +5906,11 @@ msgid "Active loyalty cards"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aktif sadakat kartları"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aktif sadakat kartları"
 >>>>>>> upstream/18.0
@@ -6240,7 +6335,11 @@ msgstr "Arasında"
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_rule_view_kanban
 msgid "Among:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aralarında:"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields.selection,name:loyalty.selection__loyalty_generate_wizard__mode__anonymous
@@ -6255,7 +6354,11 @@ msgstr "Uygulama"
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_reward_view_kanban
 msgid "Applied to:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Uygulandı:"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_program__applies_on
@@ -6288,7 +6391,11 @@ msgstr "Otomatik"
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_program.py:0
 msgid "Automatic promo: 10% off on orders higher than $50"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Otomatik promosyon: 10% off 50$ üzeri siparişlerde"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_program__available_on
@@ -6311,7 +6418,11 @@ msgstr "Barkod"
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_program.py:0
 msgid "Buy 10 products to get 10$ off on the 11th one"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "10 ürün satın alın, 11. üründe 10$ indirim kazanın"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
@@ -6502,7 +6613,11 @@ msgstr ""
 #. module: loyalty
 #: model_terms:ir.actions.act_window,help:loyalty.loyalty_program_discount_loyalty_action
 msgid "Create one from scratch, or use a templates below:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sıfırdan bir tane oluşturun veya aşağıdaki şablonları kullanın:"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-javascript
@@ -6656,7 +6771,11 @@ msgid "DEMO_CODE"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "DEMO_KODU"
+>>>>>>> upstream/18.0
 =======
 msgstr "DEMO_KODU"
 >>>>>>> upstream/18.0
@@ -6977,7 +7096,11 @@ msgid "DEMO_TEXT"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "DEMO_METNİ"
+>>>>>>> upstream/18.0
 =======
 msgstr "DEMO_METNİ"
 >>>>>>> upstream/18.0
@@ -7311,7 +7434,11 @@ msgstr "İndirim nokta(lar)ı"
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_reward_view_form
 msgid "Discount product"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "İndirimli ürün"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_reward__discount_product_category_id
@@ -7389,7 +7516,11 @@ msgstr "Bitiş tarihi"
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_card_update_balance_form
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_generate_wizard_view_form
 msgid "Example: Gift for customer"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Örnek: Müşteri için hediye"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_card__expiration_date
@@ -7400,13 +7531,21 @@ msgstr "Son Kullanma Tarihi"
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_card.py:0
 msgid "Expiration date cannot be set on a loyalty card."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bir sadakat kartında son kullanma tarihi belirlenemez."
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_program.py:0
 msgid "Fidelity Card"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sadakat Kartı"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
@@ -7418,7 +7557,11 @@ msgstr "Sadakat Kartları"
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_program.py:0
 msgid "Fill in your eWallet, to pay future orders"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gelecekteki siparişleri ödemek için e-Cüzdanınızı doldurun"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_card__message_follower_ids
@@ -7438,7 +7581,11 @@ msgstr "İçin"
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_generate_wizard_view_form
 msgid "For all customers"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tüm müşteriler için"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
@@ -7509,7 +7656,11 @@ msgstr "Hediye Kartları Oluşturma"
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_program.py:0
 msgid "Generate and share unique coupons with your customers"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Benzersiz kuponlar oluşturun ve müşterilerinizle paylaşın"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_program_view_form
@@ -7517,6 +7668,7 @@ msgid "Generate eWallet"
 msgstr "e-Cüzdan oluşturun"
 
 #. module: loyalty
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7938,6 +8090,12 @@ msgstr ""
 #: code:addons/loyalty/models/loyalty_program.py:0
 msgid "Get 10% off on some products, with a code"
 msgstr ""
+=======
+#. odoo-python
+#: code:addons/loyalty/models/loyalty_program.py:0
+msgid "Get 10% off on some products, with a code"
+msgstr "Bir kod ile bazı ürünlerde 10% indirim alın"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_program_gift_ewallet_view_form
@@ -7992,7 +8150,11 @@ msgstr ""
 #. odoo-python
 #: code:addons/loyalty/wizard/loyalty_generate_wizard.py:0
 msgid "Gift For Customer"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Müşteri İçin Hediye"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.actions.act_window,name:loyalty.loyalty_program_gift_ewallet_action
@@ -8003,7 +8165,11 @@ msgstr "Hediye kartları & e-Cüzdan"
 #. odoo-python
 #: code:addons/loyalty/wizard/loyalty_card_update_balance.py:0
 msgid "Gift for customer"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Müşteri için hediye"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_generate_wizard__points_granted
@@ -8044,12 +8210,20 @@ msgstr "Geçmiş"
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_card_view_form
 msgid "History Lines"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tarih Çizgileri"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model,name:loyalty.model_loyalty_history
 msgid "History for Loyalty cards and Ewallets"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sadakat kartları ve E-cüzdanlar için tarihçe"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_card__id
@@ -8122,7 +8296,11 @@ msgstr "Ödeme Programı"
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_history__issued
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_card_history_template
 msgid "Issued"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Yayınlandı"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_program__coupon_count_display
@@ -8140,7 +8318,11 @@ msgid "John Doe"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "John Doe"
+>>>>>>> upstream/18.0
 =======
 msgstr "John Doe"
 >>>>>>> upstream/18.0
@@ -8167,7 +8349,11 @@ msgstr "John Doe"
 #. odoo-javascript
 #: code:addons/loyalty/static/src/js/portal/loyalty_card_dialog/loyalty_card_dialog.xml:0
 msgid "Last Transactions"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Son İşlemler"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_card__write_uid
@@ -8212,7 +8398,11 @@ msgstr "Logo"
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_program.py:0
 msgid "Loyalty Card"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sadakat Kartı"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
@@ -8250,7 +8440,11 @@ msgstr "Sadakat Kuralları"
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_card_history_template
 msgid "Loyalty Transaction"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sadakat İşlemi"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
@@ -8312,19 +8506,31 @@ msgstr "Çoklu Ürün"
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_card_update_balance__new_balance
 msgid "New Balance"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Yeni Bakiye"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
 #: code:addons/loyalty/wizard/loyalty_card_update_balance.py:0
 msgid "New Balance should be positive and different then old balance."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Yeni bakiye olumlu ve eski dengeden farklı olmalıdır."
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_program.py:0
 msgid "Next Order Coupon"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sonraki Sipariş Kuponu"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
@@ -8383,7 +8589,11 @@ msgstr "Sipariş"
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_history__order_model
 msgid "Order Model"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sipariş Modeli"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_card__partner_id
@@ -8512,6 +8722,10 @@ msgstr "Portal Görünür"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model,name:loyalty.model_product_pricelist
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model,name:loyalty.model_product_pricelist
 >>>>>>> upstream/18.0
@@ -8887,7 +9101,11 @@ msgstr "Ödül Puanı Modu"
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_reward__reward_product_domain
 msgid "Reward Product Domain"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ödül Ürün Alanı"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_reward__reward_product_qty
@@ -8939,7 +9157,11 @@ msgstr "Seçilmiş Müşteriler"
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_program.py:0
 msgid "Sell Gift Cards, that allows to purchase products"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ürün satın alınmasını sağlayan hediye kartları satın"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_card_view_tree
@@ -8950,7 +9172,11 @@ msgstr "Gönder"
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_program.py:0
 msgid "Send a coupon after an order, valid for next purchase"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Siparişten sonra bir sonraki satın alma için geçerli bir kupon gönderin"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:mail.template,description:loyalty.mail_template_gift_card
@@ -9023,7 +9249,11 @@ msgid "Taxes to add on the discount line."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "İndirim satırına eklenecek vergiler."
+>>>>>>> upstream/18.0
 =======
 msgstr "İndirim satırına eklenecek vergiler."
 >>>>>>> upstream/18.0
@@ -9059,7 +9289,11 @@ msgstr "İndirim kesinlikle olumlu olmalıdır."
 #. module: loyalty
 #: model:ir.model.fields,help:loyalty.field_loyalty_program__date_to
 msgid "The end date is included in the validity period of this program"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bitiş tarihi bu programın geçerlilik süresine dahildir"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
@@ -9089,7 +9323,11 @@ msgstr "Ödül ürün miktarı kesinlikle pozitif olmalıdır."
 #. module: loyalty
 #: model:ir.model.fields,help:loyalty.field_loyalty_program__date_from
 msgid "The start date is included in the validity period of this program"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Başlangıç tarihi bu programın geçerlilik süresine dahildir"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
@@ -9097,13 +9335,22 @@ msgstr ""
 msgid ""
 "The validity period's start date must be anterior or equal to its end date."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Geçerlilik süresinin başlangıç tarihi bitiş tarihinden önce veya bitiş "
+"tarihine eşit olmalıdır."
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-javascript
 #: code:addons/loyalty/static/src/js/portal/loyalty_card_dialog/loyalty_card_dialog.xml:0
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_card_history_template
 msgid "There are currently no transaction lines for this card."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Şu anda bu kart için herhangi bir işlem hattı bulunmamaktadır."
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.actions.act_window,help:loyalty.loyalty_card_action
@@ -9203,7 +9450,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9365,6 +9615,7 @@ msgid ""
 "This pricelist may not be archived. It is being used for active promotion "
 "programs: %s"
 msgstr ""
+<<<<<<< HEAD
 
 #. module: loyalty
 #. odoo-python
@@ -9603,6 +9854,13 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"Bu fiyat listesi arşivlenmeyebilir. Aktif promosyon programları için "
+"kullanılmaktadır: %s"
+
+#. module: loyalty
+#. odoo-python
+>>>>>>> upstream/18.0
 #: code:addons/loyalty/models/product_product.py:0
 msgid ""
 "This product may not be archived. It is being used for an active promotion "
@@ -9614,7 +9872,11 @@ msgstr ""
 #. module: loyalty
 #: model:ir.model.fields,help:loyalty.field_loyalty_program__pricelist_ids
 msgid "This program is specific to this pricelist set."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bu program, bu fiyat listesi setine özeldir."
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:product.template,name:loyalty.ewallet_product_50_product_template
@@ -9761,7 +10023,10 @@ msgstr "Tetikleyici"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10149,6 +10414,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10408,11 +10674,21 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_card_update_balance_form
 msgid "Update Balance"
 msgstr ""
+=======
+#: code:addons/loyalty/models/loyalty_card.py:0
+#: model_terms:ir.ui.view,arch_db:loyalty.loyalty_card_update_balance_form
+msgid "Update Balance"
+msgstr "Bakiye Güncelleme"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model,name:loyalty.model_loyalty_card_update_balance
 msgid "Update Loyalty Card Points"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sadakat Kartı Puanlarını Güncelleme"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_card__use_count
@@ -10457,7 +10733,11 @@ msgstr "Geçerlilik Bitişi"
 #. odoo-javascript
 #: code:addons/loyalty/static/src/js/portal/loyalty_card_dialog/loyalty_card_dialog.xml:0
 msgid "Valid until"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Şu tarihe kadar geçerlidir"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_card__website_message_ids
@@ -10516,7 +10796,11 @@ msgstr "İleti Gönder"
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_program.py:0
 msgid "Win points with each purchase, and claim gifts"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Her alışverişte puan kazanın ve hediye talep edin"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields.selection,name:loyalty.selection__loyalty_rule__mode__with_code
@@ -10526,7 +10810,11 @@ msgstr "Promosyon koduyla"
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_card_update_balance_form
 msgid "You are about to change the balance of the card"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kartın bakiyesini değiştirmek üzeresiniz"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
@@ -10542,6 +10830,11 @@ msgid ""
 "You cannot delete %(name)s as it is used in 'Coupons & Loyalty'. Please "
 "archive it instead."
 msgstr ""
+<<<<<<< HEAD
+=======
+"'Kuponlar ve Sadakat' bölümünde kullanıldığı için %(name)s adresini "
+"silemezsiniz. Lütfen bunun yerine arşivleyin."
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
@@ -10550,6 +10843,11 @@ msgid ""
 "You're about to generate %(program_type)s with a value of %(value)s for "
 "%(customer_number)i customers"
 msgstr ""
+<<<<<<< HEAD
+=======
+"%(customer_number)i müşterileri için %(value)s değerinde %(program_type)s "
+"oluşturmak üzeresiniz"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:mail.template,subject:loyalty.mail_template_gift_card
@@ -10619,12 +10917,20 @@ msgstr "satın alınan ürünler"
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_report
 msgid "loyalty Reward"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "sadakat ödülü"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_reward_view_kanban
 msgid "on the cheapest product"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "en ucuz üründe"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_report
@@ -10634,7 +10940,11 @@ msgstr "sonraki siparişinizde"
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_reward_view_kanban
 msgid "on your order"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "siparişiniz üzerine"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
@@ -10668,12 +10978,20 @@ msgstr "Geçirdi"
 #. module: loyalty
 #: model:ir.model.fields.selection,name:loyalty.selection__loyalty_rule__minimum_amount_tax_mode__excl
 msgid "tax excluded"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "vergi hariç"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields.selection,name:loyalty.selection__loyalty_rule__minimum_amount_tax_mode__incl
 msgid "tax included"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "vergi̇ dahi̇l"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
@@ -10684,7 +11002,11 @@ msgstr "en ucuz ürün"
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_rule_view_kanban
 msgid "the value of the coupon"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "kuponun değeri"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_program_view_form
@@ -10697,6 +11019,7 @@ msgid "usages"
 msgstr "Kullanım"
 
 #. module: loyalty
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11431,10 +11754,18 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+#: model_terms:ir.ui.view,arch_db:loyalty.loyalty_program_view_form
+msgid "used)"
+msgstr "kullanılmış)"
+
+#. module: loyalty
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_reward.py:0
 msgid "your order"
 msgstr "siparişiniz"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11578,6 +11909,8 @@ msgstr "siparişiniz"
 #: code:addons/loyalty/static/src/xml/loyalty_templates.xml:0
 msgid "{{loyalty_el_title}}"
 msgstr ""
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

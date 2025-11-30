@@ -1,7 +1,12 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* transifex
 # 
+=======
+# * transifex
+#
+>>>>>>> upstream/18.0
 # Translators:
 # emre oktem, 2024
 # Ediz Duman <neps1192@gmail.com>, 2024
@@ -9,12 +14,17 @@
 # abc Def <hdogan1974@gmail.com>, 2024
 # Martin Trigaux, 2024
 # Murat Kaplan <muratk@projetgrup.com>, 2024
+<<<<<<< HEAD
 # 
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 17.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-26 21:56+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 "Last-Translator: Murat Kaplan <muratk@projetgrup.com>, 2024\n"
 "Language-Team: Turkish (https://app.transifex.com/odoo/teams/41243/tr/)\n"
@@ -23,6 +33,18 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: tr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+=======
+"PO-Revision-Date: 2025-11-25 09:49+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Turkish <https://translate.odoo.com/projects/odoo-18/"
+"transifex/tr/>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: transifex
 #: model:ir.model,name:transifex.model_base
@@ -37,7 +59,11 @@ msgstr "Kod"
 #. module: transifex
 #: model:ir.model,name:transifex.model_transifex_code_translation
 msgid "Code Translation"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kod Çevirisi"
+>>>>>>> upstream/18.0
 
 #. module: transifex
 #. odoo-javascript
@@ -80,7 +106,11 @@ msgstr "Bu terimin ait olduğu modül"
 #. module: transifex
 #: model_terms:ir.ui.view,arch_db:transifex.transifex_code_translation_view_search
 msgid "Not Translated"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tercüme Edilmedi"
+>>>>>>> upstream/18.0
 
 #. module: transifex
 #: model:ir.model.fields,help:transifex.field_transifex_code_translation__transifex_url
@@ -96,7 +126,11 @@ msgstr "Yeninden Yükle"
 #. module: transifex
 #: model_terms:ir.ui.view,arch_db:transifex.transifex_code_translation_view_search
 msgid "Search Code Translations"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Arama Kodu Çevirileri"
+>>>>>>> upstream/18.0
 
 #. module: transifex
 #: model_terms:ir.ui.view,arch_db:transifex.transifex_code_translation_tree_view
@@ -106,18 +140,30 @@ msgstr "Transifex"
 #. module: transifex
 #: model_terms:ir.ui.view,arch_db:transifex.transifex_code_translation_tree_view
 msgid "Transifex Code Translation"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Transifex Kod Çevirisi"
+>>>>>>> upstream/18.0
 
 #. module: transifex
 #: model:ir.actions.server,name:transifex.action_code_translations
 #: model:ir.ui.menu,name:transifex.menu_transifex_code_translations
 msgid "Transifex Code Translations"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Transifex Kod Çevirileri"
+>>>>>>> upstream/18.0
 
 #. module: transifex
 #: model:ir.model,name:transifex.model_transifex_translation
 msgid "Transifex Translation"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Transifex Çevirisi"
+>>>>>>> upstream/18.0
 
 #. module: transifex
 #: model:ir.model.fields,field_description:transifex.field_transifex_code_translation__transifex_url
@@ -127,7 +173,11 @@ msgstr "Transifex URL"
 #. module: transifex
 #: model:ir.actions.server,name:transifex.transifex_code_translation_reload_ir_actions_server
 msgid "Transifex: Reload code translations"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Transifex: Kod çevirilerini yeniden yükle"
+>>>>>>> upstream/18.0
 
 #. module: transifex
 #: model:ir.model.fields,field_description:transifex.field_transifex_code_translation__value

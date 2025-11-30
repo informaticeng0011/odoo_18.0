@@ -1,12 +1,19 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* onboarding
 #
+=======
+# * onboarding
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:57+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2024-09-26 08:57+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -14,6 +21,19 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
+=======
+"PO-Revision-Date: 2025-11-25 09:50+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Bosnian <https://translate.odoo.com/projects/odoo-18/"
+"onboarding/bs/>\n"
+"Language: bs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: onboarding
 #: model_terms:ir.ui.view,arch_db:onboarding.onboarding_step
@@ -61,12 +81,20 @@ msgstr ""
 #. module: onboarding
 #: model_terms:ir.ui.view,arch_db:onboarding.onboarding_container
 msgid "Cancel"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Otkaži"
+>>>>>>> upstream/18.0
 
 #. module: onboarding
 #: model_terms:ir.ui.view,arch_db:onboarding.onboarding_container
 msgid "Close"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zatvori"
+>>>>>>> upstream/18.0
 
 #. module: onboarding
 #: model_terms:ir.ui.view,arch_db:onboarding.onboarding_container
@@ -87,7 +115,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:onboarding.field_onboarding_progress__company_id
 #: model:ir.model.fields,field_description:onboarding.field_onboarding_progress_step__company_id
 msgid "Company"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kompanija"
+>>>>>>> upstream/18.0
 
 #. module: onboarding
 #: model:ir.model.fields,field_description:onboarding.field_onboarding_onboarding__current_onboarding_state
@@ -101,7 +133,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:onboarding.field_onboarding_progress__create_uid
 #: model:ir.model.fields,field_description:onboarding.field_onboarding_progress_step__create_uid
 msgid "Created by"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kreirao"
+>>>>>>> upstream/18.0
 
 #. module: onboarding
 #: model:ir.model.fields,field_description:onboarding.field_onboarding_onboarding__create_date
@@ -109,12 +145,20 @@ msgstr ""
 #: model:ir.model.fields,field_description:onboarding.field_onboarding_progress__create_date
 #: model:ir.model.fields,field_description:onboarding.field_onboarding_progress_step__create_date
 msgid "Created on"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kreirano"
+>>>>>>> upstream/18.0
 
 #. module: onboarding
 #: model:ir.model.fields,field_description:onboarding.field_onboarding_onboarding_step__description
 msgid "Description"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Opis"
+>>>>>>> upstream/18.0
 
 #. module: onboarding
 #: model:ir.model.fields,field_description:onboarding.field_onboarding_onboarding__display_name
@@ -122,7 +166,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:onboarding.field_onboarding_progress__display_name
 #: model:ir.model.fields,field_description:onboarding.field_onboarding_progress_step__display_name
 msgid "Display Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prikazani naziv"
+>>>>>>> upstream/18.0
 
 #. module: onboarding
 #: model:ir.model.fields.selection,name:onboarding.selection__onboarding_onboarding__current_onboarding_state__done
@@ -130,7 +178,11 @@ msgstr ""
 #: model:ir.model.fields.selection,name:onboarding.selection__onboarding_progress__onboarding_state__done
 #: model:ir.model.fields.selection,name:onboarding.selection__onboarding_progress_step__step_state__done
 msgid "Done"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gotovo"
+>>>>>>> upstream/18.0
 
 #. module: onboarding
 #: model:ir.model.fields,field_description:onboarding.field_onboarding_onboarding_step__done_icon
@@ -153,7 +205,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:onboarding.field_onboarding_progress__id
 #: model:ir.model.fields,field_description:onboarding.field_onboarding_progress_step__id
 msgid "ID"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ID"
+>>>>>>> upstream/18.0
 
 #. module: onboarding
 #: model:ir.model.fields,field_description:onboarding.field_onboarding_onboarding_step__is_per_company
@@ -174,7 +230,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:onboarding.field_onboarding_progress__write_uid
 #: model:ir.model.fields,field_description:onboarding.field_onboarding_progress_step__write_uid
 msgid "Last Updated by"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zadnji ažurirao"
+>>>>>>> upstream/18.0
 
 #. module: onboarding
 #: model:ir.model.fields,field_description:onboarding.field_onboarding_onboarding__write_date
@@ -182,7 +242,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:onboarding.field_onboarding_progress__write_date
 #: model:ir.model.fields,field_description:onboarding.field_onboarding_progress_step__write_date
 msgid "Last Updated on"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zadnje ažurirano"
+>>>>>>> upstream/18.0
 
 #. module: onboarding
 #. odoo-python
@@ -342,7 +406,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:onboarding.field_onboarding_onboarding__sequence
 #: model:ir.model.fields,field_description:onboarding.field_onboarding_onboarding_step__sequence
 msgid "Sequence"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sekvenca"
+>>>>>>> upstream/18.0
 
 #. module: onboarding
 #: model:ir.model.fields,field_description:onboarding.field_onboarding_onboarding__is_per_company
@@ -398,7 +466,11 @@ msgstr ""
 #. module: onboarding
 #: model:ir.model.fields,field_description:onboarding.field_onboarding_onboarding_step__title
 msgid "Title"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Naslov"
+>>>>>>> upstream/18.0
 
 #. module: onboarding
 #: model_terms:ir.ui.view,arch_db:onboarding.onboarding_onboarding_view_form

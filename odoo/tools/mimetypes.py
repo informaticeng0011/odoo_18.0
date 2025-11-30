@@ -94,6 +94,10 @@ _logger = logging.getLogger(__name__)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+_logger_guess_mimetype = _logger.getChild('guess_mimetype')
+>>>>>>> upstream/18.0
 =======
 _logger_guess_mimetype = _logger.getChild('guess_mimetype')
 >>>>>>> upstream/18.0
@@ -469,7 +473,10 @@ def _check_open_container_format(data):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -711,6 +718,9 @@ _olecf_mimetypes = ('application/x-ole-storage', 'application/CDFV2')
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1033,7 +1043,11 @@ def _odoo_guess_mimetype(bin_data, default='application/octet-stream'):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         _logger.getChild('guess_mimetype').warn(
+=======
+                        _logger_guess_mimetype.warning(
+>>>>>>> upstream/18.0
 =======
                         _logger_guess_mimetype.warning(
 >>>>>>> upstream/18.0
@@ -1387,7 +1401,10 @@ if magic:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1635,6 +1652,9 @@ if magic:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1909,6 +1929,11 @@ def neuter_mimetype(mimetype, user):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+_extension_pattern = re.compile(r'\w+')
+>>>>>>> upstream/18.0
 =======
 
 _extension_pattern = re.compile(r'\w+')
@@ -2444,7 +2469,11 @@ def get_extension(filename):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if not dot or not ext.isalnum():
+=======
+    if not dot or not _extension_pattern.fullmatch(ext):
+>>>>>>> upstream/18.0
 =======
     if not dot or not _extension_pattern.fullmatch(ext):
 >>>>>>> upstream/18.0
@@ -2871,8 +2900,11 @@ def fix_filename_extension(filename, mimetype):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if mimetypes.guess_type(filename)[0] == mimetype:
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3116,6 +3148,9 @@ def fix_filename_extension(filename, mimetype):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

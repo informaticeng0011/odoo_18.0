@@ -33,6 +33,11 @@ const NOT_A_NUMBER = /[^\d]/g;
 export const UNMERGEABLE_SELECTORS = [];
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+const FORMATTABLE_TAGS = ["SPAN", "FONT", "B", "STRONG", "I", "EM", "U", "S", "SMALL"];
+
+>>>>>>> upstream/18.0
 =======
 const FORMATTABLE_TAGS = ["SPAN", "FONT", "B", "STRONG", "I", "EM", "U", "S", "SMALL"];
 
@@ -210,7 +215,10 @@ function sanitizeNode(node, root) {
         moveNodes(...startPos(node), node.previousSibling);
         restoreCursor && restoreCursor();
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     } else if (FORMATTABLE_TAGS.includes(node.nodeName) && isRedundantElement(node)) {
         getDeepRange(root, { select: true });
         const restoreCursor =
@@ -219,6 +227,9 @@ function sanitizeNode(node, root) {
         unwrapContents(node);
         restoreCursor && restoreCursor();
         node = parent; // The node has been removed, update the reference.
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     } else if (node.nodeType === Node.COMMENT_NODE) {
         // Remove comment nodes to avoid issues with mso comments.
@@ -340,11 +351,14 @@ function sanitizeNode(node, root) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const paragraph = document.createElement('p');
         paragraph.replaceChildren(...node.childNodes);
         node.replaceWith(paragraph);
         node = paragraph; // The node has been removed, update the reference.
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -594,6 +608,9 @@ function sanitizeNode(node, root) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -894,7 +911,10 @@ export function sanitize(nodeToSanitize, root = nodeToSanitize) {
     return nodeToSanitize;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 /**
  * Checks if all classes in node are present in node2 (subset check)
@@ -972,4 +992,7 @@ export function isRedundantElement(node) {
 
     return true;
 }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

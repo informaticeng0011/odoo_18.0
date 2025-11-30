@@ -176,15 +176,21 @@ options.registry.GalleryLayout = options.registry.CarouselHandler.extend({
         // of "website.gallery.slideshow" called "website.s_image_gallery_mirror"
         if (this.$target[0].dataset.vcss === '002') {
 <<<<<<< HEAD
+<<<<<<< HEAD
             let carouselEl = this.$target[0].querySelector('.carousel');
             params.colorContrast  = carouselEl && carouselEl.classList.contains('carousel-dark') ? 'carousel-dark' : ' ';
 =======
+=======
+>>>>>>> upstream/18.0
             const carouselEl = this.$target[0].querySelector(".carousel");
             const addImagesEl = this.$target[0].querySelector(".o_add_images");
             const isCarouselDark = carouselEl
                 ? carouselEl.classList.contains("carousel-dark")
                 : addImagesEl?.hasAttribute("data-carousel-dark");
             params.colorContrast = isCarouselDark ? "carousel-dark" : " ";
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         }
         let $slideshow = $(renderToElement('website.s_image_gallery_mirror', params));
@@ -645,7 +651,10 @@ options.registry.GalleryImageList = options.registry.GalleryLayout.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1151,6 +1160,9 @@ options.registry.GalleryImageList = options.registry.GalleryLayout.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1570,6 +1582,12 @@ options.registry.GalleryImageList = options.registry.GalleryLayout.extend({
             text: _t(" Add Images"),
         });
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if (this.$target[0].querySelector(".carousel-dark")) {
+            $text[0].dataset.carouselDark = "";
+        }
+>>>>>>> upstream/18.0
 =======
         if (this.$target[0].querySelector(".carousel-dark")) {
             $text[0].dataset.carouselDark = "";
@@ -1759,7 +1777,11 @@ options.registry.GalleryImageList = options.registry.GalleryLayout.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (name === 'image_removed') {
+=======
+        if (name === 'image_removed' && !this.isBeingRemoved) {
+>>>>>>> upstream/18.0
 =======
         if (name === 'image_removed' && !this.isBeingRemoved) {
 >>>>>>> upstream/18.0

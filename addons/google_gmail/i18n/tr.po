@@ -1,7 +1,12 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* google_gmail
 # 
+=======
+# * google_gmail
+#
+>>>>>>> upstream/18.0
 # Translators:
 # emre oktem, 2024
 # Ertuğrul Güreş <ertugrulg@projetgrup.com>, 2024
@@ -11,12 +16,17 @@
 # Halil, 2024
 # Murat Kaplan <muratk@projetgrup.com>, 2024
 # Martin Trigaux, 2024
+<<<<<<< HEAD
 # 
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Martin Trigaux, 2024\n"
 "Language-Team: Turkish (https://app.transifex.com/odoo/teams/41243/tr/)\n"
@@ -25,6 +35,18 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: tr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+=======
+"PO-Revision-Date: 2025-11-25 09:48+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Turkish <https://translate.odoo.com/projects/odoo-18/"
+"google_gmail/tr/>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: google_gmail
 #: model_terms:ir.ui.view,arch_db:google_gmail.fetchmail_server_view_form
@@ -39,6 +61,11 @@ msgid ""
 "<i class=\"oi oi-arrow-right\"/>\n"
 "                        Connect your Gmail account"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<i class=\"oi oi-arrow-right\"/>\n"
+"                        Gmail hesabınızı bağlayın"
+>>>>>>> upstream/18.0
 
 #. module: google_gmail
 #: model_terms:ir.ui.view,arch_db:google_gmail.fetchmail_server_view_form
@@ -47,6 +74,13 @@ msgid ""
 "                        Gmail Token Valid\n"
 "                    </span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span invisible=\"server_type != 'gmail' or not google_gmail_refresh_token\" "
+"class=\"badge text-bg-success\">\n"
+"                        Gmail Token Geçerli\n"
+"                   </span>"
+>>>>>>> upstream/18.0
 
 #. module: google_gmail
 #: model_terms:ir.ui.view,arch_db:google_gmail.ir_mail_server_view_form
@@ -55,6 +89,14 @@ msgid ""
 "                        Gmail Token Valid\n"
 "                    </span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span invisible="
+"\"smtp_authentication != 'gmail' or not google_gmail_refresh_token\" class="
+"\"badge text-bg-success\">\n"
+"                        Gmail Token Geçerli\n"
+"                   </span>"
+>>>>>>> upstream/18.0
 
 #. module: google_gmail
 #: model:ir.model.fields,field_description:google_gmail.field_fetchmail_server__google_gmail_access_token
@@ -162,6 +204,11 @@ msgid ""
 "Incorrect Connection Security for Gmail mail server “%s”. Please set it to "
 "\"TLS (STARTTLS)\"."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Gmail posta sunucusu “%s” için Bağlantı Güvenliği hatalı. Lütfen "
+"\"TLS (STARTTLS)\" olarak ayarlayın."
+>>>>>>> upstream/18.0
 
 #. module: google_gmail
 #: model:ir.model,name:google_gmail.model_ir_mail_server
@@ -188,6 +235,12 @@ msgid ""
 "address). This should be the same account as the one used for the Gmail "
 "OAuthentication Token."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Lütfen \"Kullanıcı Adı\" alanını Gmail kullanıcı adınızla (e-posta adresiniz)"
+" doldurun. Bu, Gmail OAuthentication Token için kullanılan hesapla aynı "
+"olmalıdır."
+>>>>>>> upstream/18.0
 
 #. module: google_gmail
 #. odoo-python
@@ -196,6 +249,11 @@ msgid ""
 "Please leave the password field empty for Gmail mail server “%s”. The OAuth "
 "process does not require it"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Lütfen Gmail posta sunucusu \"%s\" için şifre alanını boş bırakın. OAuth "
+"süreci bunu gerektirmez"
+>>>>>>> upstream/18.0
 
 #. module: google_gmail
 #: model_terms:ir.ui.view,arch_db:google_gmail.ir_mail_server_view_form

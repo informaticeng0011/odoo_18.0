@@ -79,8 +79,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* pos_viva_wallet
 # 
+=======
+# * pos_viva_wallet
+#
+>>>>>>> upstream/18.0
 =======
 # * pos_viva_wallet
 #
@@ -481,7 +486,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+# "Noemi Pla Garcia (nopl)" <nopl@odoo.com>, 2025.
+>>>>>>> upstream/18.0
 =======
 # "Noemi Pla Garcia (nopl)" <nopl@odoo.com>, 2025.
 >>>>>>> upstream/18.0
@@ -723,6 +732,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-01-27 13:03+0000\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1042,6 +1052,10 @@ msgstr ""
 =======
 "PO-Revision-Date: 2025-09-16 22:21+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-11-28 18:36+0000\n"
+"PO-Revision-Date: 2025-09-16 22:21+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: \"Noemi Pla Garcia (nopl)\" <nopl@odoo.com>\n"
 "Language-Team: Catalan <https://translate.odoo.com/projects/odoo-18/"
 "pos_viva_wallet/ca/>\n"
@@ -1129,6 +1143,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1376,6 +1393,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"No és possible crear el mètode de pagament. Comprova la informació de "
+"pagament i actualitza-la."
+>>>>>>> upstream/18.0
 =======
 "No és possible crear el mètode de pagament. Comprova la informació de "
 "pagament i actualitza-la."
@@ -1777,6 +1799,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"No és possible actualitzar el mètode de pagament. Si us plau, comprova la "
+"informació i actualitza-la."
+>>>>>>> upstream/18.0
 =======
 "No és possible actualitzar el mètode de pagament. Si us plau, comprova la "
 "informació i actualitza-la."
@@ -2181,7 +2208,11 @@ msgid "Client secret"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Contrasenya de client"
+>>>>>>> upstream/18.0
 =======
 msgstr "Contrasenya de client"
 >>>>>>> upstream/18.0
@@ -2409,8 +2440,13 @@ msgid ""
 "Could not connect to the Odoo server, please check your internet connection "
 "and try again."
 msgstr ""
+<<<<<<< HEAD
 "No s'ha pogut connectar amb el servidor Odoo, comproveu la vostra connexió a"
 " Internet i torneu-ho a provar."
+=======
+"No s'ha pogut connectar amb el servidor Odoo, comproveu la vostra connexió a "
+"Internet i torneu-ho a provar."
+>>>>>>> upstream/18.0
 
 #. module: pos_viva_wallet
 #. odoo-python
@@ -2506,7 +2542,11 @@ msgid "Message from Viva Wallet: %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Missatge de Viva Wallet: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Missatge de Viva Wallet: %s"
 >>>>>>> upstream/18.0
@@ -2754,12 +2794,15 @@ msgstr ""
 #. module: pos_viva_wallet
 #. odoo-python
 #: code:addons/pos_viva_wallet/models/pos_payment_method.py:0
+<<<<<<< HEAD
 msgid "Only 'group_pos_user' are allowed to get latest transaction status"
 msgstr ""
 
 #. module: pos_viva_wallet
 #. odoo-python
 #: code:addons/pos_viva_wallet/models/pos_payment_method.py:0
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "Only 'group_pos_user' are allowed to get the payment status from Viva Wallet"
 msgstr ""
@@ -2767,8 +2810,12 @@ msgstr ""
 #. module: pos_viva_wallet
 #. odoo-python
 #: code:addons/pos_viva_wallet/models/pos_payment_method.py:0
+<<<<<<< HEAD
 msgid ""
 "Only 'group_pos_user' are allowed to send a Viva Wallet payment request"
+=======
+msgid "Only 'group_pos_user' are allowed to send a Viva Wallet payment request"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: pos_viva_wallet
@@ -2815,17 +2862,28 @@ msgstr ""
 #: model:ir.model.fields,help:pos_viva_wallet.field_pos_payment_method__viva_wallet_api_key
 #: model:ir.model.fields,help:pos_viva_wallet.field_pos_payment_method__viva_wallet_merchant_id
 msgid ""
+<<<<<<< HEAD
 "Used when connecting to Viva Wallet: "
 "https://developer.vivawallet.com/getting-started/find-your-account-"
 "credentials/merchant-id-and-api-key/"
+=======
+"Used when connecting to Viva Wallet: https://developer.vivawallet.com/"
+"getting-started/find-your-account-credentials/merchant-id-and-api-key/"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: pos_viva_wallet
 #: model:ir.model.fields,help:pos_viva_wallet.field_pos_payment_method__viva_wallet_client_id
 msgid ""
+<<<<<<< HEAD
 "Used when connecting to Viva Wallet: "
 "https://developer.vivawallet.com/getting-started/find-your-account-"
 "credentials/pos-apis-credentials/#find-your-pos-apis-credentials"
+=======
+"Used when connecting to Viva Wallet: https://developer.vivawallet.com/"
+"getting-started/find-your-account-credentials/pos-apis-credentials/#find-"
+"your-pos-apis-credentials"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: pos_viva_wallet

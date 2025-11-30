@@ -63,6 +63,12 @@ class TestRepairPurchaseFlow(TestStockCommon):
         self.assertEqual(repair.purchase_count, 1)
         self.assertEqual(purchase.repair_count, 1)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        purchase.button_confirm()
+        self.assertEqual(repair.purchase_count, 1)
+        self.assertEqual(purchase.repair_count, 1)
+>>>>>>> upstream/18.0
 =======
         purchase.button_confirm()
         self.assertEqual(repair.purchase_count, 1)

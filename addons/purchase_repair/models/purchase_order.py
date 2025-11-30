@@ -11,12 +11,15 @@ class PurchaseOrder(models.Model):
     def _compute_repair_count(self):
         for purchase in self:
 <<<<<<< HEAD
+<<<<<<< HEAD
             purchase.repair_count = len(purchase.order_line.move_dest_ids.repair_id)
 
     def action_view_repair_orders(self):
         self.ensure_one()
         repair_ids = self.order_line.move_dest_ids.repair_id
 =======
+=======
+>>>>>>> upstream/18.0
             purchase.repair_count = len(purchase._get_linked_repair_orders())
 
     def _get_linked_repair_orders(self):
@@ -28,6 +31,9 @@ class PurchaseOrder(models.Model):
     def action_view_repair_orders(self):
         self.ensure_one()
         repair_ids = self._get_linked_repair_orders()
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         action = {
             'type': 'ir.actions.act_window',

@@ -1,12 +1,19 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* auth_passkey
 #
+=======
+# * auth_passkey
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-25 08:40+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 08:40+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -14,6 +21,19 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
+=======
+"PO-Revision-Date: 2025-11-25 09:49+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Bosnian <https://translate.odoo.com/projects/odoo-18/"
+"auth_passkey/bs/>\n"
+"Language: bs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model_terms:ir.ui.view,arch_db:auth_passkey.auth_passkey_login
@@ -44,12 +64,20 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:auth_passkey.auth_passkey_key_create_view_form
 #: model_terms:ir.ui.view,arch_db:auth_passkey.auth_passkey_key_rename
 msgid "Cancel"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Otkaži"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model_terms:ir.ui.view,arch_db:auth_passkey.auth_passkey_key_create_view_form
 msgid "Create"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kreiraj"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #. odoo-python
@@ -71,13 +99,21 @@ msgstr ""
 #: model:ir.model.fields,field_description:auth_passkey.field_auth_passkey_key__create_uid
 #: model:ir.model.fields,field_description:auth_passkey.field_auth_passkey_key_create__create_uid
 msgid "Created by"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kreirao"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model:ir.model.fields,field_description:auth_passkey.field_auth_passkey_key__create_date
 #: model:ir.model.fields,field_description:auth_passkey.field_auth_passkey_key_create__create_date
 msgid "Created on"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kreirano"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model_terms:ir.ui.view,arch_db:auth_passkey.auth_passkey_users_form
@@ -94,19 +130,31 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:auth_passkey.auth_passkey_users_form
 #: model_terms:ir.ui.view,arch_db:auth_passkey.auth_passkey_users_preferences
 msgid "Delete"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Obriši"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model:ir.model.fields,field_description:auth_passkey.field_auth_passkey_key__display_name
 #: model:ir.model.fields,field_description:auth_passkey.field_auth_passkey_key_create__display_name
 msgid "Display Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prikazani naziv"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model:ir.model.fields,field_description:auth_passkey.field_auth_passkey_key__id
 #: model:ir.model.fields,field_description:auth_passkey.field_auth_passkey_key_create__id
 msgid "ID"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ID"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #. odoo-python
@@ -120,13 +168,21 @@ msgstr ""
 #: model:ir.model.fields,field_description:auth_passkey.field_auth_passkey_key__write_uid
 #: model:ir.model.fields,field_description:auth_passkey.field_auth_passkey_key_create__write_uid
 msgid "Last Updated by"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zadnji ažurirao"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model:ir.model.fields,field_description:auth_passkey.field_auth_passkey_key__write_date
 #: model:ir.model.fields,field_description:auth_passkey.field_auth_passkey_key_create__write_date
 msgid "Last Updated on"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zadnje ažurirano"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model_terms:ir.ui.view,arch_db:auth_passkey.auth_passkey_users_form
@@ -143,7 +199,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:auth_passkey.field_auth_passkey_key__name
 #: model:ir.model.fields,field_description:auth_passkey.field_auth_passkey_key_create__name
 msgid "Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Naziv:"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model_terms:ir.ui.view,arch_db:auth_passkey.res_users_identitycheck_view_form_passkey
@@ -193,7 +253,11 @@ msgstr ""
 #. module: auth_passkey
 #: model_terms:ir.ui.view,arch_db:auth_passkey.auth_passkey_key_rename
 msgid "Save"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sačuvaj"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #. odoo-python
@@ -230,4 +294,8 @@ msgstr ""
 #. module: auth_passkey
 #: model:ir.model,name:auth_passkey.model_res_users
 msgid "User"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Korisnik"
+>>>>>>> upstream/18.0

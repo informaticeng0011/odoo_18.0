@@ -52,7 +52,11 @@ class EventSaleReport(models.Model):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _query(self, with_=None, select=None, join=None, group_by=None):
+=======
+    def _query(self, with_=None, select=None, join=None, group_by=None, where=None):
+>>>>>>> upstream/18.0
 =======
     def _query(self, with_=None, select=None, join=None, group_by=None, where=None):
 >>>>>>> upstream/18.0
@@ -65,6 +69,10 @@ class EventSaleReport(models.Model):
             self._from_clause(*(join or [])),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            self._where_clause(*(where or [])),
+>>>>>>> upstream/18.0
 =======
             self._where_clause(*(where or [])),
 >>>>>>> upstream/18.0
@@ -82,9 +90,15 @@ WITH
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _select_clause(self, *select):
         # Extra clauses formatted as `cte1.column1 AS new_column1`, `table1.column2 AS new_column2`...
         return """
+=======
+    def _select_clause(self):
+        # Extra clauses formatted as `cte1.column1 AS new_column1`, `table1.column2 AS new_column2`...
+        select_query = """
+>>>>>>> upstream/18.0
 =======
     def _select_clause(self):
         # Extra clauses formatted as `cte1.column1 AS new_column1`, `table1.column2 AS new_column2`...
@@ -138,8 +152,11 @@ SELECT
             / sale_order_line.product_uom_qty
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     END AS sale_price_untaxed""" + (',\n    ' + ',\n    '.join(select) if select else '')
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     END AS sale_price_untaxed"""
@@ -148,6 +165,9 @@ SELECT
             select_query += ",\n    " + ",\n    ".join(f"{v} AS {k}" for k, v in additional_fields.items())
         return select_query
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -169,7 +189,10 @@ GROUP BY
     """ + ',\n    '.join(group_by) if group_by else ''
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -181,6 +204,9 @@ WHERE """ + ',\n    '.join(where) if where else ''
         # To be overridden in other modules
         return {}
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

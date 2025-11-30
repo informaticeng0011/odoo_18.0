@@ -1,7 +1,12 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* account
 # 
+=======
+# * account
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Dávid Kováč, 2024
 # Jakub Krkoška, 2024
@@ -90,6 +95,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Wil Odoo, 2025
 # Tomáš Píšek, 2025
 <<<<<<< HEAD
@@ -633,10 +639,13 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # Tomáš Píšek, 2025
 # Marta Wacławek, 2025
 # Thomas Becquevort, 2025
 # Wil Odoo, 2025
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -955,10 +964,15 @@
 # Chris Podivinsky, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+# Chris Podivinsky, 2025
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2180,12 +2194,33 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-11-28 18:36+0000\n"
+"PO-Revision-Date: 2025-11-29 18:00+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Slovak <https://translate.odoo.com/projects/odoo-18/account/"
+"sk/>\n"
+"Language: sk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && n "
+">= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);\n"
+"X-Generator: Weblate 5.14.3\n"
+
+#. module: account
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:account.field_account_journal__type
 msgid ""
 "\n"
 "        Select 'Sale' for customer invoices journals.\n"
 "        Select 'Purchase' for vendor bills journals.\n"
+<<<<<<< HEAD
 "        Select 'Cash', 'Bank' or 'Credit Card' for journals that are used in customer or vendor payments.\n"
+=======
+"        Select 'Cash', 'Bank' or 'Credit Card' for journals that are used in "
+"customer or vendor payments.\n"
+>>>>>>> upstream/18.0
 "        Select 'General' for miscellaneous operations journals.\n"
 "        "
 msgstr ""
@@ -2272,8 +2307,13 @@ msgstr "%(amount)s splatné dňa %(date)s"
 #. odoo-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
+<<<<<<< HEAD
 "%(attachment_name)s (detached by %(user)s on "
 "%(date)s)%(attachment_extension)s"
+=======
+"%(attachment_name)s (detached by %(user)s on %(date)s)%"
+"(attachment_extension)s"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -2287,7 +2327,12 @@ msgstr ""
 #: code:addons/account/models/account_bank_statement_line.py:0
 msgid ""
 "%(move)s reached an invalid state regarding its related statement line.\n"
+<<<<<<< HEAD
 "To be consistent, the journal entry must always have exactly one suspense line."
+=======
+"To be consistent, the journal entry must always have exactly one suspense "
+"line."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -2300,21 +2345,37 @@ msgstr "%(name)s splátka #%(number)s"
 #. odoo-python
 #: code:addons/account/wizard/accrued_orders.py:0
 msgid ""
+<<<<<<< HEAD
 "%(order)s - %(order_line)s; %(quantity_billed)s Billed, "
 "%(quantity_received)s Received at %(unit_price)s each"
 msgstr ""
 "%(order)s - %(order_line)s; %(quantity_billed)s Fakturované, "
 "%(quantity_received)s Prijaté každý %(unit_price)s"
+=======
+"%(order)s - %(order_line)s; %(quantity_billed)s Billed, %"
+"(quantity_received)s Received at %(unit_price)s each"
+msgstr ""
+"%(order)s - %(order_line)s; %(quantity_billed)s Fakturované, %"
+"(quantity_received)s Prijaté každý %(unit_price)s"
+>>>>>>> upstream/18.0
 
 #. module: account
 #. odoo-python
 #: code:addons/account/wizard/accrued_orders.py:0
 msgid ""
+<<<<<<< HEAD
 "%(order)s - %(order_line)s; %(quantity_invoiced)s Invoiced, "
 "%(quantity_delivered)s Delivered at %(unit_price)s each"
 msgstr ""
 "%(order)s - %(order_line)s; %(quantity_invoiced)s Fakturované, "
 "%(quantity_delivered)s Dodané každý %(unit_price)s"
+=======
+"%(order)s - %(order_line)s; %(quantity_invoiced)s Invoiced, %"
+"(quantity_delivered)s Delivered at %(unit_price)s each"
+msgstr ""
+"%(order)s - %(order_line)s; %(quantity_invoiced)s Fakturované, %"
+"(quantity_delivered)s Dodané každý %(unit_price)s"
+>>>>>>> upstream/18.0
 
 #. module: account
 #. odoo-python
@@ -2336,6 +2397,7 @@ msgstr "%(tag)s (%(country_code)s)"
 
 #. module: account
 #. odoo-python
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3074,6 +3136,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: code:addons/account/models/account_move.py:0
 msgid "%(tax_name)s (rounding)"
 msgstr "%(tax_name)s (zaokrúhlene)"
@@ -3192,6 +3256,7 @@ msgid ""
 msgstr ""
 
 #. module: account
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3473,6 +3538,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 msgid ""
 ". The journal entries need to be computed by Odoo before being posted in "
@@ -3547,7 +3614,11 @@ msgstr "15 dní"
 #: model:account.tax,name:account.1_purchase_tax_template
 #: model:account.tax,name:account.1_sale_tax_template
 msgid "15%"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "15%"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_statement
@@ -3713,6 +3784,7 @@ msgid ""
 msgstr ""
 
 #. module: account
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4270,6 +4342,19 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
+=======
+#: model_terms:ir.ui.view,arch_db:account.view_partner_property_form
+msgid ""
+"<br/>\n"
+"                        <span>Please make sure that this is a wanted "
+"behavior.</span>"
+msgstr ""
+
+#. module: account
+#: model_terms:ir.ui.view,arch_db:account.report_invoice_document
+#: model_terms:ir.ui.view,arch_db:account.report_invoice_document_preview
+#: model_terms:ir.ui.view,arch_db:account.report_invoice_wizard_preview_inherit_account
+>>>>>>> upstream/18.0
 msgid "<br/> on this account:"
 msgstr "<br/>na tento účet:"
 
@@ -4280,7 +4365,12 @@ msgid ""
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "        Dear\n"
 "        <t t-if=\"object.partner_id.parent_id\">\n"
+<<<<<<< HEAD
 "            <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t> (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>),\n"
+=======
+"            <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t> "
+"(<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>),\n"
+>>>>>>> upstream/18.0
 "        </t>\n"
 "        <t t-else=\"\">\n"
 "            <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>,\n"
@@ -4288,12 +4378,18 @@ msgid ""
 "        <br/><br/>\n"
 "        Here is your\n"
 "        <t t-if=\"object.name\">\n"
+<<<<<<< HEAD
 "            credit note <span style=\"font-weight:bold;\" t-out=\"object.name or ''\">RINV/2021/05/0001</span>\n"
+=======
+"            credit note <span style=\"font-weight:bold;\" t-"
+"out=\"object.name or ''\">RINV/2021/05/0001</span>\n"
+>>>>>>> upstream/18.0
 "        </t>\n"
 "        <t t-else=\"\">\n"
 "            credit note\n"
 "        </t>\n"
 "        <t t-if=\"object.invoice_origin\">\n"
+<<<<<<< HEAD
 "            (with reference: <t t-out=\"object.invoice_origin or ''\">SUB003</t>)\n"
 "        </t>\n"
 "        amounting in <span style=\"font-weight:bold;\" t-out=\"format_amount(object.amount_total, object.currency_id) or ''\">$ 143,750.00</span>\n"
@@ -4303,6 +4399,22 @@ msgid ""
 "        <t t-if=\"not is_html_empty(object.invoice_user_id.signature)\" data-o-mail-quote-container=\"1\">\n"
 "            <br/><br/>\n"
 "            <t t-out=\"object.invoice_user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+=======
+"            (with reference: <t t-out=\"object.invoice_origin or "
+"''\">SUB003</t>)\n"
+"        </t>\n"
+"        amounting in <span style=\"font-weight:bold;\" t-"
+"out=\"format_amount(object.amount_total, object.currency_id) or ''\">$ "
+"143,750.00</span>\n"
+"        from <t t-out=\"object.company_id.name or ''\">YourCompany</t>.\n"
+"        <br/><br/>\n"
+"        Do not hesitate to contact us if you have any questions.\n"
+"        <t t-if=\"not is_html_empty(object.invoice_user_id.signature)\" data-"
+"o-mail-quote-container=\"1\">\n"
+"            <br/><br/>\n"
+"            <t t-out=\"object.invoice_user_id.signature or ''\" data-o-mail-"
+"quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+>>>>>>> upstream/18.0
 "        </t>\n"
 "    </p>\n"
 "</div>\n"
@@ -4316,7 +4428,12 @@ msgid ""
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "        Dear\n"
 "        <t t-if=\"object.partner_id.parent_id\">\n"
+<<<<<<< HEAD
 "            <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t> (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>),\n"
+=======
+"            <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t> "
+"(<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>),\n"
+>>>>>>> upstream/18.0
 "        </t>\n"
 "        <t t-else=\"\">\n"
 "            <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>,\n"
@@ -4324,15 +4441,29 @@ msgid ""
 "        <br/><br/>\n"
 "        Here is your\n"
 "        <t t-if=\"object.name\">\n"
+<<<<<<< HEAD
 "            invoice <span style=\"font-weight:bold;\" t-out=\"object.name or ''\">INV/2021/05/0005</span>\n"
+=======
+"            invoice <span style=\"font-weight:bold;\" t-out=\"object.name or "
+"''\">INV/2021/05/0005</span>\n"
+>>>>>>> upstream/18.0
 "        </t>\n"
 "        <t t-else=\"\">\n"
 "            invoice\n"
 "        </t>\n"
 "        <t t-if=\"object.invoice_origin\">\n"
+<<<<<<< HEAD
 "            (with reference: <t t-out=\"object.invoice_origin or ''\">SUB003</t>)\n"
 "        </t>\n"
 "        amounting in <span style=\"font-weight:bold;\" t-out=\"format_amount(object.amount_total, object.currency_id) or ''\">$ 143,750.00</span>\n"
+=======
+"            (with reference: <t t-out=\"object.invoice_origin or "
+"''\">SUB003</t>)\n"
+"        </t>\n"
+"        amounting in <span style=\"font-weight:bold;\" t-"
+"out=\"format_amount(object.amount_total, object.currency_id) or ''\">$ "
+"143,750.00</span>\n"
+>>>>>>> upstream/18.0
 "        from <t t-out=\"object.company_id.name or ''\">YourCompany</t>.\n"
 "        <t t-if=\"object.payment_state in ('paid', 'in_payment')\">\n"
 "            This invoice is already paid.\n"
@@ -4341,13 +4472,22 @@ msgid ""
 "            Please remit payment at your earliest convenience.\n"
 "            <t t-if=\"object.payment_reference\">\n"
 "                <br/><br/>\n"
+<<<<<<< HEAD
 "                Please use the following communication for your payment: <strong t-out=\"object.payment_reference or ''\">INV/2021/05/0005</strong>\n"
 "                <t t-if=\"object.partner_bank_id\">\n"
 "                    on the account <strong t-out=\"object.partner_bank_id.acc_number\"/>\n"
+=======
+"                Please use the following communication for your payment: "
+"<strong t-out=\"object.payment_reference or ''\">INV/2021/05/0005</strong>\n"
+"                <t t-if=\"object.partner_bank_id\">\n"
+"                    on the account <strong t-"
+"out=\"object.partner_bank_id.acc_number\"/>\n"
+>>>>>>> upstream/18.0
 "                </t>\n"
 "                .\n"
 "            </t>\n"
 "        </t>\n"
+<<<<<<< HEAD
 "        <t t-if=\"hasattr(object, 'timesheet_count') and object.timesheet_count\">\n"
 "            <br/><br/>\n"
 "            PS: you can review your timesheets <a t-att-href=\"'/my/timesheets?search_in=invoice&amp;search=%s' % object.name\">from the portal.</a>\n"
@@ -4357,6 +4497,22 @@ msgid ""
 "        <t t-if=\"not is_html_empty(object.invoice_user_id.signature)\" data-o-mail-quote-container=\"1\">\n"
 "            <br/><br/>\n"
 "            <t t-out=\"object.invoice_user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+=======
+"        <t t-if=\"hasattr(object, 'timesheet_count') and "
+"object.timesheet_count\">\n"
+"            <br/><br/>\n"
+"            PS: you can review your timesheets <a t-att-href=\"'/my/"
+"timesheets?search_in=invoice&amp;search=%s' % object.name\">from the portal."
+"</a>\n"
+"        </t>\n"
+"        <br/><br/>\n"
+"        Do not hesitate to contact us if you have any questions.\n"
+"        <t t-if=\"not is_html_empty(object.invoice_user_id.signature)\" data-"
+"o-mail-quote-container=\"1\">\n"
+"            <br/><br/>\n"
+"            <t t-out=\"object.invoice_user_id.signature or ''\" data-o-mail-"
+"quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+>>>>>>> upstream/18.0
 "        </t>\n"
 "    </p>\n"
 "</div>\n"
@@ -4368,17 +4524,37 @@ msgstr ""
 msgid ""
 "<div style=\"margin: 0px; padding: 0px;\">\n"
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
+<<<<<<< HEAD
 "        Dear <t t-out=\"object.partner_id.name or ''\">Azure Interior</t><br/><br/>\n"
 "        Thank you for your payment.\n"
 "        Here is your payment receipt <span style=\"font-weight:bold;\" t-out=\"(object.name or '').replace('/','-') or ''\">BNK1-2021-05-0002</span> amounting\n"
 "        to <span style=\"font-weight:bold;\" t-out=\"format_amount(object.amount, object.currency_id) or ''\">$ 10.00</span> from <t t-out=\"object.company_id.name or ''\">YourCompany</t>.\n"
+=======
+"        Dear <t t-out=\"object.partner_id.name or ''\">Azure Interior</t><br/"
+"><br/>\n"
+"        Thank you for your payment.\n"
+"        Here is your payment receipt <span style=\"font-weight:bold;\" t-"
+"out=\"(object.name or '').replace('/','-') or ''\">BNK1-2021-05-0002</span> "
+"amounting\n"
+"        to <span style=\"font-weight:bold;\" t-"
+"out=\"format_amount(object.amount, object.currency_id) or ''\">$ 10.00</"
+"span> from <t t-out=\"object.company_id.name or ''\">YourCompany</t>.\n"
+>>>>>>> upstream/18.0
 "        <br/><br/>\n"
 "        Do not hesitate to contact us if you have any questions.\n"
 "        <br/><br/>\n"
 "        Best regards,\n"
+<<<<<<< HEAD
 "        <t t-if=\"not is_html_empty(user.signature)\" data-o-mail-quote-container=\"1\">\n"
 "            <br/><br/>\n"
 "            <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+=======
+"        <t t-if=\"not is_html_empty(user.signature)\" data-o-mail-quote-"
+"container=\"1\">\n"
+"            <br/><br/>\n"
+"            <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br "
+"data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+>>>>>>> upstream/18.0
 "        </t>\n"
 "    </p>\n"
 "</div>\n"
@@ -4391,18 +4567,37 @@ msgstr "<em>Návrh faktúry</em>"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_move_kanban
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-clock-o fw-bold\" aria-label=\"Date\" role=\"img\" title=\"Date\"/>"
+=======
+msgid ""
+"<i class=\"fa fa-clock-o fw-bold\" aria-label=\"Date\" role=\"img\" "
+"title=\"Date\"/>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_payment_kanban
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-clock-o fw-bold\" role=\"img\" aria-label=\"Date\" title=\"Date\"/>"
+=======
+msgid ""
+"<i class=\"fa fa-clock-o fw-bold\" role=\"img\" aria-label=\"Date\" "
+"title=\"Date\"/>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_move_line_view_kanban
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-clock-o\" aria-label=\"Date\" role=\"img\" title=\"Date\"/>"
 msgstr "<i class=\"fa fa-clock-o\" aria-label=\"Date\" role=\"img\" title=\"Date\"/>"
+=======
+msgid ""
+"<i class=\"fa fa-clock-o\" aria-label=\"Date\" role=\"img\" title=\"Date\"/>"
+msgstr ""
+"<i class=\"fa fa-clock-o\" aria-label=\"Date\" role=\"img\" title=\"Date\"/>"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.portal_invoice_page
@@ -4412,43 +4607,93 @@ msgstr "<i class=\"fa fa-download\"/> Stiahnuť dáta"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.portal_my_invoices
 msgid ""
+<<<<<<< HEAD
 "<i class=\"fa fa-fw fa-check\" aria-label=\"Paid\" title=\"Paid\" role=\"img\"/>\n"
 "                                    <span class=\"d-none d-md-inline\"> Paid</span>"
 msgstr ""
 "<i class=\"fa fa-fw fa-check\" aria-label=\"Paid\" title=\"Paid\" role=\"img\"/>\n"
 "                                    <span class=\"d-none d-md-inline\"> Zaplatené</span>"
+=======
+"<i class=\"fa fa-fw fa-check\" aria-label=\"Paid\" title=\"Paid\" "
+"role=\"img\"/>\n"
+"                                    <span class=\"d-none d-md-inline\"> "
+"Paid</span>"
+msgstr ""
+"<i class=\"fa fa-fw fa-check\" aria-label=\"Paid\" title=\"Paid\" "
+"role=\"img\"/>\n"
+"                                    <span class=\"d-none d-md-inline\"> "
+"Zaplatené</span>"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.portal_my_invoices
 msgid ""
+<<<<<<< HEAD
 "<i class=\"fa fa-fw fa-check\" aria-label=\"Reversed\" title=\"Reversed\" role=\"img\"/>\n"
 "                                    <span class=\"d-none d-md-inline\"> Reversed</span>"
 msgstr ""
 "<i class=\"fa fa-fw fa-check\" aria-label=\"Reversed\" title=\"Rezervované\" role=\"img\"/>\n"
 "                                    <span class=\"d-none d-md-inline\"> Rezervované</span>"
+=======
+"<i class=\"fa fa-fw fa-check\" aria-label=\"Reversed\" title=\"Reversed\" "
+"role=\"img\"/>\n"
+"                                    <span class=\"d-none d-md-inline\"> "
+"Reversed</span>"
+msgstr ""
+"<i class=\"fa fa-fw fa-check\" aria-label=\"Reversed\" title=\"Rezervované\" "
+"role=\"img\"/>\n"
+"                                    <span class=\"d-none d-md-inline\"> "
+"Rezervované</span>"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.portal_my_invoices
 msgid ""
+<<<<<<< HEAD
 "<i class=\"fa fa-fw fa-check\" aria-label=\"processing_payment\" title=\"Processing Payment\" role=\"img\"/>\n"
 "                                    <span class=\"d-none d-md-inline\"> Processing Payment</span>"
+=======
+"<i class=\"fa fa-fw fa-check\" aria-label=\"processing_payment\" "
+"title=\"Processing Payment\" role=\"img\"/>\n"
+"                                    <span class=\"d-none d-md-inline\"> "
+"Processing Payment</span>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.portal_my_invoices
 msgid ""
+<<<<<<< HEAD
 "<i class=\"fa fa-fw fa-clock-o\" aria-label=\"Opened\" title=\"Opened\" role=\"img\"/>\n"
 "                                    <span class=\"d-none d-md-inline\"> Waiting for Payment</span>"
 msgstr ""
 "<i class=\"fa fa-fw fa-clock-o\" aria-label=\"Opened\" title=\"Otvorené\" role=\"img\"/>\n"
 "                                    <span class=\"d-none d-md-inline\"> Čaká na platbu</span>"
+=======
+"<i class=\"fa fa-fw fa-clock-o\" aria-label=\"Opened\" title=\"Opened\" "
+"role=\"img\"/>\n"
+"                                    <span class=\"d-none d-md-inline\"> "
+"Waiting for Payment</span>"
+msgstr ""
+"<i class=\"fa fa-fw fa-clock-o\" aria-label=\"Opened\" title=\"Otvorené\" "
+"role=\"img\"/>\n"
+"                                    <span class=\"d-none d-md-inline\"> Čaká "
+"na platbu</span>"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.autopost_bills_wizard
 msgid ""
 "<i class=\"fa fa-lightbulb-o\" role=\"img\"/>\n"
+<<<<<<< HEAD
 "                        Don't worry, you can always change this setting later on the vendor's form.\n"
 "                        You also have the option to disable the feature for all vendors in the accounting settings."
+=======
+"                        Don't worry, you can always change this setting "
+"later on the vendor's form.\n"
+"                        You also have the option to disable the feature for "
+"all vendors in the accounting settings."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -4473,14 +4718,21 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account.portal_my_details_fields
 msgid ""
 "<small class=\"form-text text-muted\">\n"
+<<<<<<< HEAD
 "                    You can choose how you want us to send your invoices, and with which electronic format.\n"
 "                </small>"
+=======
+"                        You can choose how you want us to send your "
+"invoices, and with which electronic format.\n"
+"                    </small>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.portal_my_invoices
 msgid ""
 "<span class=\"badge rounded-pill text-bg-warning\">\n"
+<<<<<<< HEAD
 "                                    <i class=\"fa fa-fw fa-remove\" aria-label=\"Cancelled\" title=\"Cancelled\" role=\"img\"/>\n"
 "                                    <span class=\"d-none d-md-inline\"> Cancelled</span>\n"
 "                                </span>"
@@ -4488,12 +4740,26 @@ msgstr ""
 "<span class=\"badge rounded-pill text-bg-warning\">\n"
 "                                    <i class=\"fa fa-fw fa-remove\" aria-label=\"Cancelled\" title=\"Cancelled\" role=\"img\"/>\n"
 "                                    <span class=\"d-none d-md-inline\"> Zrušené</span>\n"
+=======
+"                                    <i class=\"fa fa-fw fa-remove\" aria-"
+"label=\"Cancelled\" title=\"Cancelled\" role=\"img\"/>\n"
+"                                    <span class=\"d-none d-md-inline\"> "
+"Cancelled</span>\n"
+"                                </span>"
+msgstr ""
+"<span class=\"badge rounded-pill text-bg-warning\">\n"
+"                                    <i class=\"fa fa-fw fa-remove\" aria-"
+"label=\"Cancelled\" title=\"Cancelled\" role=\"img\"/>\n"
+"                                    <span class=\"d-none d-md-inline\"> "
+"Zrušené</span>\n"
+>>>>>>> upstream/18.0
 "                                </span>"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_partner_bank_form_inherit_account
 msgid ""
 "<span class=\"d-flex gap-2 w-100\">\n"
+<<<<<<< HEAD
 "                            <span invisible=\"allow_out_payment\" class=\"text-muted\">Untrusted</span>\n"
 "                            <span invisible=\"not allow_out_payment\" class=\"text-success\">Trusted</span>\n"
 "                        </span>"
@@ -4501,6 +4767,19 @@ msgstr ""
 "<span class=\"d-flex gap-2 w-100\">\n"
 "                            <span invisible=\"allow_out_payment\" class=\"text-muted\">Nedôveryhodný</span>\n"
 "                            <span invisible=\"not allow_out_payment\" class=\"text-success\">Dôveryhodný</span>\n"
+=======
+"                            <span invisible=\"allow_out_payment\" "
+"class=\"text-muted\">Untrusted</span>\n"
+"                            <span invisible=\"not allow_out_payment\" "
+"class=\"text-success\">Trusted</span>\n"
+"                        </span>"
+msgstr ""
+"<span class=\"d-flex gap-2 w-100\">\n"
+"                            <span invisible=\"allow_out_payment\" "
+"class=\"text-muted\">Nedôveryhodný</span>\n"
+"                            <span invisible=\"not allow_out_payment\" "
+"class=\"text-success\">Dôveryhodný</span>\n"
+>>>>>>> upstream/18.0
 "                        </span>"
 
 #. module: account
@@ -4513,6 +4792,7 @@ msgstr ""
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4767,6 +5047,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "<span class=\"o_form_label mx-3 oe_edit_only text-center\" style=\"width: "
 "6ch;\" invisible=\"state != 'draft' or invoice_payment_term_id\">or</span>"
 msgstr ""
@@ -4851,6 +5133,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5026,9 +5311,16 @@ msgstr ""
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_reconcile_model_form
 msgid ""
+<<<<<<< HEAD
 "<span class=\"o_form_label\" invisible=\"match_amount != "
 "'between'\">and</span>"
 msgstr "<span class=\"o_form_label\" invisible=\"match_amount != 'between'\">a</span>"
+=======
+"<span class=\"o_form_label\" invisible=\"match_amount != 'between'\">and</"
+"span>"
+msgstr ""
+"<span class=\"o_form_label\" invisible=\"match_amount != 'between'\">a</span>"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_lock_exception_form
@@ -5124,29 +5416,53 @@ msgstr ""
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.bill_preview
 msgid ""
+<<<<<<< HEAD
 "<span class=\"text-nowrap\">$ <span "
 "class=\"oe_currency_value\">11,750.00</span></span>"
 msgstr ""
 "<span class=\"text-nowrap\">$ <span "
 "class=\"oe_currency_value\">11,750.00</span></span>"
+=======
+"<span class=\"text-nowrap\">$ <span class=\"oe_currency_value\">11,750.00</"
+"span></span>"
+msgstr ""
+"<span class=\"text-nowrap\">$ <span class=\"oe_currency_value\">11,750.00</"
+"span></span>"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.bill_preview
 msgid ""
+<<<<<<< HEAD
 "<span class=\"text-nowrap\">$ <span "
 "class=\"oe_currency_value\">19,250.00</span></span>"
 msgstr ""
 "<span class=\"text-nowrap\">$ <span "
 "class=\"oe_currency_value\">19,250.00</span></span>"
+=======
+"<span class=\"text-nowrap\">$ <span class=\"oe_currency_value\">19,250.00</"
+"span></span>"
+msgstr ""
+"<span class=\"text-nowrap\">$ <span class=\"oe_currency_value\">19,250.00</"
+"span></span>"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.bill_preview
 msgid ""
+<<<<<<< HEAD
 "<span class=\"text-nowrap\">$ <span "
 "class=\"oe_currency_value\">7,500.00</span></span>"
 msgstr ""
 "<span class=\"text-nowrap\">€ <span "
 "class=\"oe_currency_value\">7,500.00</span></span>"
+=======
+"<span class=\"text-nowrap\">$ <span class=\"oe_currency_value\">7,500.00</"
+"span></span>"
+msgstr ""
+"<span class=\"text-nowrap\">€ <span class=\"oe_currency_value\">7,500.00</"
+"span></span>"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.bill_preview
@@ -5188,7 +5504,12 @@ msgstr "<span invisible=\"not early_discount\"> dní</span>"
 #: model_terms:ir.ui.view,arch_db:account.view_account_payment_form
 msgid ""
 "<span invisible=\"reconciled_invoices_type != 'invoice'\"> Invoice</span>\n"
+<<<<<<< HEAD
 "                                        <span invisible=\"reconciled_invoices_type == 'invoice'\"> Credit Note</span>"
+=======
+"                                        <span "
+"invisible=\"reconciled_invoices_type == 'invoice'\"> Credit Note</span>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -5309,11 +5630,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 msgid "<span> = </span>"
 msgstr ""
 
 #. module: account
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5586,7 +5910,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<span>1 </span>"
+=======
+msgid "<span>1</span>"
+>>>>>>> upstream/18.0
 =======
 msgid "<span>1</span>"
 >>>>>>> upstream/18.0
@@ -5920,7 +6248,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6163,6 +6494,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6370,6 +6704,7 @@ msgid "<span>New</span>"
 msgstr "<span>Nové</span>"
 
 #. module: account
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6926,6 +7261,15 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+#: model_terms:ir.ui.view,arch_db:account.view_partner_property_form
+msgid ""
+"<span>One or more Bank Accounts set on this partner are also used by others:"
+"</span>"
+msgstr ""
+
+#. module: account
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
 msgid "<span>Operations</span>"
 msgstr "<span>Operácie</span>"
@@ -7050,7 +7394,10 @@ msgstr "<span>Dane</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7329,6 +7676,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7677,7 +8027,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8064,6 +8417,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8512,11 +8868,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<strong>Shipping Address</strong>"
 msgstr ""
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8789,11 +9148,25 @@ msgstr "<strong>Medzisúčet</strong>"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_currency_form_inherit
 msgid ""
+<<<<<<< HEAD
 "<strong>This currency has already been used to generate accounting entries.</strong> <br/>\n"
 "                        Changing its rounding factor now will not change the rounding made on previous entries; possibly causing an inconsistency with the new ones."
 msgstr ""
 "<strong>Táto mena už bola použitá na generovanie účtovných zápisov.</strong> <br/>\n"
 "                        Ak teraz zmeníte svoj faktor zaokrúhľovania, nezmení sa to zaokrúhlenie vykonané na predchádzajúcich záznamoch; prípadne spôsobiť nesúlad s novými."
+=======
+"<strong>This currency has already been used to generate accounting entries.</"
+"strong> <br/>\n"
+"                        Changing its rounding factor now will not change the "
+"rounding made on previous entries; possibly causing an inconsistency with "
+"the new ones."
+msgstr ""
+"<strong>Táto mena už bola použitá na generovanie účtovných zápisov.</strong> "
+"<br/>\n"
+"                        Ak teraz zmeníte svoj faktor zaokrúhľovania, nezmení "
+"sa to zaokrúhlenie vykonané na predchádzajúcich záznamoch; prípadne spôsobiť "
+"nesúlad s novými."
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.bill_preview
@@ -8953,7 +9326,10 @@ msgstr "<strong>Typ: </strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9393,6 +9769,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9691,7 +10070,12 @@ msgstr "@Od: %(email)s"
 #: model_terms:ir.actions.act_window,help:account.action_view_bank_statement_tree
 msgid ""
 "A Cash Register allows you to manage cash entries in your cash\n"
+<<<<<<< HEAD
 "                journals. This feature provides an easy way to follow up cash\n"
+=======
+"                journals. This feature provides an easy way to follow up "
+"cash\n"
+>>>>>>> upstream/18.0
 "                payments on a daily basis."
 msgstr ""
 
@@ -9716,6 +10100,7 @@ msgid "A bank account can belong to only one journal."
 msgstr "Bankový účet môže patriť iba jednej účtovnej knihe."
 
 #. module: account
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10595,6 +10980,21 @@ msgstr ""
 msgid ""
 "A bank statement is a summary of all financial transactions\n"
 "                occurring over a given period of time on a bank account. You\n"
+=======
+#. odoo-python
+#: code:addons/account/models/res_partner_bank.py:0
+msgid ""
+"A bank account with Account Number %(number)s already exists for Partner %"
+"(partner)s, but is archived. Please unarchive it instead."
+msgstr ""
+
+#. module: account
+#: model_terms:ir.actions.act_window,help:account.action_bank_statement_tree
+msgid ""
+"A bank statement is a summary of all financial transactions\n"
+"                occurring over a given period of time on a bank account. "
+"You\n"
+>>>>>>> upstream/18.0
 "                should receive this periodically from your bank."
 msgstr ""
 
@@ -10602,7 +11002,12 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:account.action_credit_statement_tree
 msgid ""
 "A credit statement is a summary of all financial transactions\n"
+<<<<<<< HEAD
 "                occurring over a given period of time on a credit account. You\n"
+=======
+"                occurring over a given period of time on a credit account. "
+"You\n"
+>>>>>>> upstream/18.0
 "                should receive this periodically from your bank."
 msgstr ""
 
@@ -10618,7 +11023,12 @@ msgid ""
 "A journal entry consists of several journal items, each of\n"
 "                which is either a debit or a credit transaction."
 msgstr ""
+<<<<<<< HEAD
 "Položka účtovnej knihy sa skladá z niekoľkých položiek účtovnej knihy, z ktorej\n"
+=======
+"Položka účtovnej knihy sa skladá z niekoľkých položiek účtovnej knihy, z "
+"ktorej\n"
+>>>>>>> upstream/18.0
 "každá je buď debetná alebo kreditná transakcia."
 
 #. module: account
@@ -10660,14 +11070,22 @@ msgid ""
 "A payment tolerance defined as a percentage should always be between 0 and "
 "100"
 msgstr ""
+<<<<<<< HEAD
 "Hodnota platby definovaná ako percento by mala byť vždy v rozsahu od 0 do "
 "100"
+=======
+"Hodnota platby definovaná ako percento by mala byť vždy v rozsahu od 0 do 100"
+>>>>>>> upstream/18.0
 
 #. module: account
 #. odoo-python
 #: code:addons/account/models/account_reconcile_model.py:0
+<<<<<<< HEAD
 msgid ""
 "A payment tolerance defined as an amount should always be higher than 0"
+=======
+msgid "A payment tolerance defined as an amount should always be higher than 0"
+>>>>>>> upstream/18.0
 msgstr "Hodnota platby definovaná ako suma by mala byť vždy vyššia ako 0"
 
 #. module: account
@@ -10811,8 +11229,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/account/models/account_account.py:0
 msgid ""
+<<<<<<< HEAD
 "Account %s cannot be unmerged as it already belongs to a single company. The"
 " unmerge operation only splits an account based on its companies."
+=======
+"Account %s cannot be unmerged as it already belongs to a single company. The "
+"unmerge operation only splits an account based on its companies."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -11057,8 +11480,13 @@ msgstr "Typ účtu"
 #: model:ir.model.fields,help:account.field_account_move_line__account_type
 msgid ""
 "Account Type is used for information purpose, to generate country-specific "
+<<<<<<< HEAD
 "legal reports, and set the rules to close a fiscal year and generate opening"
 " entries."
+=======
+"legal reports, and set the rules to close a fiscal year and generate opening "
+"entries."
+>>>>>>> upstream/18.0
 msgstr ""
 "Typ účtu je používaný na informačné účely, na generovanie právneho výkazu "
 "pre jednotlivé krajiny, a pre nastavenie pravidiel pre uzavretie fiškálneho "
@@ -11078,15 +11506,24 @@ msgstr "Kódy účtov prvé 2 číslice"
 #. odoo-python
 #: code:addons/account/models/account_account.py:0
 msgid ""
+<<<<<<< HEAD
 "Account codes must be unique. You can't create accounts with these duplicate"
 " codes: %s"
+=======
+"Account codes must be unique. You can't create accounts with these duplicate "
+"codes: %s"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
 #: model:ir.model.fields,help:account.field_res_config_settings__account_journal_early_pay_discount_loss_account_id
 msgid ""
+<<<<<<< HEAD
 "Account for the difference amount after the expense discount has been "
 "granted"
+=======
+"Account for the difference amount after the expense discount has been granted"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -11187,8 +11624,13 @@ msgid ""
 "put on the regular tax account."
 msgstr ""
 "Účet použitý na prevod čiastky dane pri daniach platených v hotovosti. Bude "
+<<<<<<< HEAD
 "obsahovať sumu dane, pokiaľ nebude odsúhlasená pôvodná faktúra; pri párovaní"
 " sa táto suma na tomto účte zrušila a pripísala na bežný daňový účet."
+=======
+"obsahovať sumu dane, pokiaľ nebude odsúhlasená pôvodná faktúra; pri párovaní "
+"sa táto suma na tomto účte zrušila a pripísala na bežný daňový účet."
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_search
@@ -11198,8 +11640,13 @@ msgstr "Účet so záznamami"
 #. module: account
 #: model:ir.actions.server,name:account.ir_cron_auto_post_draft_entry_ir_actions_server
 msgid ""
+<<<<<<< HEAD
 "Account: Post draft entries with auto_post enabled and accounting date up to"
 " today"
+=======
+"Account: Post draft entries with auto_post enabled and accounting date up to "
+"today"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -11325,8 +11772,13 @@ msgstr "Akruálne pohyby"
 #. odoo-python
 #: code:addons/account/wizard/accrued_orders.py:0
 msgid ""
+<<<<<<< HEAD
 "Accrual entry created on %(date)s: %(accrual_entry)s.                    And"
 " its reverse entry: %(reverse_entry)s."
+=======
+"Accrual entry created on %(date)s: %(accrual_entry)s.                And its "
+"reverse entry: %(reverse_entry)s."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -11479,8 +11931,13 @@ msgstr "Pridať poznámku"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid ""
+<<<<<<< HEAD
 "Add a QR-code to your invoices so that your customers can pay instantly with"
 " their mobile banking application."
+=======
+"Add a QR-code to your invoices so that your customers can pay instantly with "
+"their mobile banking application."
+>>>>>>> upstream/18.0
 msgstr ""
 "Pridajte k svojim faktúram QR kód, aby vaši zákazníci mohli okamžite platiť "
 "pomocou svojej aplikácie pre mobilné bankovníctvo."
@@ -11549,8 +12006,12 @@ msgstr "Pridať kontakty pre notifikáciu..."
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
+<<<<<<< HEAD
 msgid ""
 "Add your terms & conditions at the bottom of invoices/orders/quotations"
+=======
+msgid "Add your terms & conditions at the bottom of invoices/orders/quotations"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -11584,8 +12045,12 @@ msgstr ""
 #. module: account
 #. odoo-python
 #: code:addons/account/wizard/account_automatic_entry_wizard.py:0
+<<<<<<< HEAD
 msgid ""
 "Adjusting Entry {link} {percent}%% of {amount} recognized on {new_date}"
+=======
+msgid "Adjusting Entry {link} {percent}%% of {amount} recognized on {new_date}"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -11791,8 +12256,13 @@ msgid ""
 "Always positive amount concerned by this matching expressed in the credit "
 "line foreign currency."
 msgstr ""
+<<<<<<< HEAD
 "Vždy kladná suma, ktorej sa toto párovanie týka, vyjadrená v úverovom limite"
 " v cudzej mene."
+=======
+"Vždy kladná suma, ktorej sa toto párovanie týka, vyjadrená v úverovom limite "
+"v cudzej mene."
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_partial_reconcile__debit_amount_currency
@@ -11800,8 +12270,13 @@ msgid ""
 "Always positive amount concerned by this matching expressed in the debit "
 "line foreign currency."
 msgstr ""
+<<<<<<< HEAD
 "Vždy kladná suma, ktorej sa toto párovanie týka, vyjadrená v debetnom riadku"
 " v cudzej mene."
+=======
+"Vždy kladná suma, ktorej sa toto párovanie týka, vyjadrená v debetnom riadku "
+"v cudzej mene."
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_setup_bank_manual_config__aba_routing
@@ -11931,9 +12406,17 @@ msgstr ""
 msgid ""
 "An account is part of a ledger allowing your company\n"
 "                to register all kinds of debit and credit transactions.\n"
+<<<<<<< HEAD
 "                Companies present their annual accounts in two main parts: the\n"
 "                balance sheet and the income statement (profit and loss\n"
 "                account). The annual accounts of a company are required by law\n"
+=======
+"                Companies present their annual accounts in two main parts: "
+"the\n"
+"                balance sheet and the income statement (profit and loss\n"
+"                account). The annual accounts of a company are required by "
+"law\n"
+>>>>>>> upstream/18.0
 "                to disclose a certain amount of information."
 msgstr ""
 "Účet je súčasťou hlavnej účtovnej knihy a umožnuje vašej spoločnosti\n"
@@ -11946,6 +12429,7 @@ msgstr ""
 #. module: account
 #. odoo-python
 #: code:addons/account/models/account_move.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12231,6 +12715,11 @@ msgstr ""
 msgid ""
 "An error occurred when computing the inalterability. A gap has been detected"
 " in the sequence."
+=======
+msgid ""
+"An error occurred when computing the inalterability. A gap has been detected "
+"in the sequence."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -12374,8 +12863,12 @@ msgstr ""
 #. odoo-python
 #: code:addons/account/models/account_move_line.py:0
 msgid ""
+<<<<<<< HEAD
 "Any journal item on a receivable account must have a due date and vice "
 "versa."
+=======
+"Any journal item on a receivable account must have a due date and vice versa."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -12795,6 +13288,7 @@ msgstr "Bankový účet"
 #. module: account
 #. odoo-python
 #: code:addons/account/models/res_partner_bank.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13376,6 +13870,9 @@ msgid "Bank Account %(link)s with number %(number)s archived"
 =======
 msgid "Bank Account %(link)s with number %(number)s archived"
 >>>>>>> upstream/18.0
+=======
+msgid "Bank Account %(link)s with number %(number)s archived"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -13411,8 +13908,13 @@ msgid ""
 "Partner bank account number."
 msgstr ""
 "Číslo bankového účtu, na ktoré bude faktúra bude uhradená. Firemný bankový "
+<<<<<<< HEAD
 "účet, ak sa jedná o zákaznícku faktúru alebo dobropis dodávateľa, inak číslo"
 " bankového účtu partnera."
+=======
+"účet, ak sa jedná o zákaznícku faktúru alebo dobropis dodávateľa, inak číslo "
+"bankového účtu partnera."
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.actions.act_window,name:account.action_account_supplier_accounts
@@ -13509,7 +14011,12 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,help:account.field_res_config_settings__account_journal_suspense_account_id
 msgid ""
+<<<<<<< HEAD
 "Bank Transactions are posted immediately after import or synchronization. Their counterparty is the bank suspense account.\n"
+=======
+"Bank Transactions are posted immediately after import or synchronization. "
+"Their counterparty is the bank suspense account.\n"
+>>>>>>> upstream/18.0
 "Reconciliation replaces the latter by the definitive account(s)."
 msgstr ""
 
@@ -13606,7 +14113,12 @@ msgstr "Na základe faktúry"
 #: model:ir.model.fields,help:account.field_account_tax__tax_exigibility
 msgid ""
 "Based on Invoice: the tax is due as soon as the invoice is validated.\n"
+<<<<<<< HEAD
 "Based on Payment: the tax is due as soon as the payment of the invoice is received."
+=======
+"Based on Payment: the tax is due as soon as the payment of the invoice is "
+"received."
+>>>>>>> upstream/18.0
 msgstr ""
 "Podľa faktúry: daň je splatná pri validácii faktúry.\n"
 "Podľa platby: daň je splatná prijatím úhrady."
@@ -13638,6 +14150,25 @@ msgid "Batch Payments"
 msgstr "Hromadné platby"
 
 #. module: account
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/account/wizard/account_move_send_batch_wizard.py:0
+msgid ""
+"Batch invoice sending is unavailable. Please, activate the cron to enable "
+"batch sending of invoices."
+msgstr ""
+
+#. module: account
+#. odoo-python
+#: code:addons/account/wizard/account_move_send_batch_wizard.py:0
+msgid ""
+"Batch invoice sending is unavailable. Please, contact your system "
+"administrator to activate the cron to enable batch sending of invoices."
+msgstr ""
+
+#. module: account
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/account/static/src/components/account_resequence/account_resequence.xml:0
 msgid "Before"
@@ -13943,7 +14474,12 @@ msgid ""
 "Cannot find a chart of accounts for this company, You should configure it. \n"
 "Please go to Account Configuration."
 msgstr ""
+<<<<<<< HEAD
 "Nemožno nájsť účtovné osnovy pre túto spoločnosť, mali by ste ju konfigurovať.\n"
+=======
+"Nemožno nájsť účtovné osnovy pre túto spoločnosť, mali by ste ju "
+"konfigurovať.\n"
+>>>>>>> upstream/18.0
 "Prosím, choďte na konfiguráciu účtu."
 
 #. module: account
@@ -14113,7 +14649,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14552,6 +15091,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15071,8 +15613,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/account/controllers/portal.py:0
 msgid ""
+<<<<<<< HEAD
 "Changing your company name is not allowed once invoices have been issued for"
 " your account. Please contact us directly for this operation."
+=======
+"Changing your company name is not allowed once invoices have been issued for "
+"your account. Please contact us directly for this operation."
+>>>>>>> upstream/18.0
 msgstr ""
 "Po vystavení faktúry k vášmu účtu nie je povolená zmena názvu spoločnosti. "
 "Pre túto operáciu nás prosím kontaktujte."
@@ -15084,8 +15631,13 @@ msgid ""
 "Changing your name is not allowed once invoices have been issued for your "
 "account. Please contact us directly for this operation."
 msgstr ""
+<<<<<<< HEAD
 "Po vystavení faktúry k vášmu účtu nie je povolená zmena vášho mena. Pre túto"
 " operáciu nás prosím kontaktujte."
+=======
+"Po vystavení faktúry k vášmu účtu nie je povolená zmena vášho mena. Pre túto "
+"operáciu nás prosím kontaktujte."
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_company__chart_template
@@ -15152,11 +15704,19 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal__refund_sequence
 msgid ""
+<<<<<<< HEAD
 "Check this box if you don't want to share the same sequence for invoices and"
 " credit notes made from this journal"
 msgstr ""
 "Zaškrtnite toto políčko, ak nechcete zdieľať rovnakú sekvenciu pre faktúry a"
 " dobropisy spravené z tejto účtovnej knihy."
+=======
+"Check this box if you don't want to share the same sequence for invoices and "
+"credit notes made from this journal"
+msgstr ""
+"Zaškrtnite toto políčko, ak nechcete zdieľať rovnakú sekvenciu pre faktúry a "
+"dobropisy spravené z tejto účtovnej knihy."
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal__payment_sequence
@@ -15248,6 +15808,10 @@ msgstr "Zatvoriť"
 #: model:ir.model.fields,field_description:account.field_account_payment__payment_method_code
 #: model:ir.model.fields,field_description:account.field_account_payment_method__code
 #: model:ir.model.fields,field_description:account.field_account_payment_method_line__code
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:account.field_account_payment_register__payment_method_code
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:account.field_account_report_line__code
 #: model_terms:ir.ui.view,arch_db:account.view_account_form
 #: model_terms:ir.ui.view,arch_db:account.view_account_list
@@ -15291,8 +15855,13 @@ msgid ""
 "Collect information and produce statistics on the trade in goods in Europe "
 "with intrastat"
 msgstr ""
+<<<<<<< HEAD
 "Zhromažďovať informácie a vytvárať štatistiky o obchode s tovarom v Európe s"
 " Intrastatom"
+=======
+"Zhromažďovať informácie a vytvárať štatistiky o obchode s tovarom v Európe s "
+"Intrastatom"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_account_tag__color
@@ -15321,6 +15890,7 @@ msgid "Commercial Entity"
 msgstr "Komerčný subjekt"
 
 #. module: account
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15556,6 +16126,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -16020,6 +16592,9 @@ msgstr "Krajina obchodného partnera"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16587,8 +17162,13 @@ msgid ""
 "Conversion between Units of Measure can only occur if they belong to the "
 "same category. The conversion will be made based on the ratios."
 msgstr ""
+<<<<<<< HEAD
 "Ku konverzii medzi mernými jednotkami môže dôjsť len v prípade, že patria do"
 " rovnakej kategórie. Konverzia bude spravená na základe pomerov."
+=======
+"Ku konverzii medzi mernými jednotkami môže dôjsť len v prípade, že patria do "
+"rovnakej kategórie. Konverzia bude spravená na základe pomerov."
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_amounts_to_settle
@@ -16831,6 +17411,11 @@ msgstr "Vytvorte automatické záznamy"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/account/models/chart_template.py:0
+>>>>>>> upstream/18.0
 =======
 #. odoo-python
 #: code:addons/account/models/chart_template.py:0
@@ -17401,8 +17986,15 @@ msgstr "Vytvoriť dobropis dodávateľa"
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_account_journal_group_list
 msgid ""
+<<<<<<< HEAD
 "Create as many ledger groups as needed to maintain separate ledgers for local GAAP, IFRS, or fiscal\n"
 "                    adjustments, ensuring compliance with diverse regulations."
+=======
+"Create as many ledger groups as needed to maintain separate ledgers for "
+"local GAAP, IFRS, or fiscal\n"
+"                    adjustments, ensuring compliance with diverse "
+"regulations."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -18301,6 +18893,15 @@ msgid "Default taxes used when selling the product"
 msgstr ""
 
 #. module: account
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/account/models/account_move.py:0
+msgid "Default value for 'company_id' for %(record)s is not an integer"
+msgstr ""
+
+#. module: account
+>>>>>>> upstream/18.0
 #: model:account.account,name:account.1_deferred_revenue
 msgid "Deferred Revenue"
 msgstr "Výnosy budúcich období"
@@ -18345,8 +18946,12 @@ msgstr ""
 #: model:ir.model.fields,help:account.field_account_bank_statement_line__invoice_cash_rounding_id
 #: model:ir.model.fields,help:account.field_account_move__invoice_cash_rounding_id
 msgid ""
+<<<<<<< HEAD
 "Defines the smallest coinage of the currency that can be used to pay by "
 "cash."
+=======
+"Defines the smallest coinage of the currency that can be used to pay by cash."
+>>>>>>> upstream/18.0
 msgstr ""
 "Definuje najmenšiu mincu v mene ktorá môže byť použitá na platbu v "
 "hotovosti. "
@@ -18428,8 +19033,12 @@ msgstr "Popis"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_payment_term_form
+<<<<<<< HEAD
 msgid ""
 "Description on invoice (e.g. Payment terms: 30 days after invoice date)"
+=======
+msgid "Description on invoice (e.g. Payment terms: 30 days after invoice date)"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -19079,7 +19688,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -19361,6 +19973,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -20026,7 +20641,10 @@ msgstr "Vylúčené účtovné denníky"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -20270,6 +20888,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -20549,8 +21170,13 @@ msgid ""
 "Factor to apply on the account move lines generated from this distribution "
 "line, in percents"
 msgstr ""
+<<<<<<< HEAD
 "Faktor, ktorý sa má v percentách uplatniť na linky presunu účtu vygenerované"
 " z tejto distribučnej linky"
+=======
+"Faktor, ktorý sa má v percentách uplatniť na linky presunu účtu vygenerované "
+"z tejto distribučnej linky"
+>>>>>>> upstream/18.0
 
 #. module: account
 #. odoo-python
@@ -20887,7 +21513,11 @@ msgid "Follow, download or pay your invoices"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sledujte, stiahnite si alebo zaplaťte svoje faktúry"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sledujte, stiahnite si alebo zaplaťte svoje faktúry"
 >>>>>>> upstream/18.0
@@ -21431,6 +22061,15 @@ msgid "Global Lock Date"
 msgstr ""
 
 #. module: account
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/account/wizard/account_move_send_batch_wizard.py:0
+msgid "Go to cron configuration"
+msgstr ""
+
+#. module: account
+>>>>>>> upstream/18.0
 #: model_terms:ir.actions.act_window,help:account.action_account_audit_trail_report
 msgid "Go to the accounting settings"
 msgstr ""
@@ -21509,8 +22148,13 @@ msgstr "Zoskupte platby do jednej dávky, aby ste uľahčili proces párovania"
 #. odoo-python
 #: code:addons/account/models/account_report.py:0
 msgid ""
+<<<<<<< HEAD
 "Groupby feature isn't supported by aggregation engine. Please remove the "
 "groupby value on '%s'"
+=======
+"Groupby feature isn't supported by '%(engine)s' engine. Please remove the "
+"groupby value on '%(report_line)s'"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -21616,7 +22260,12 @@ msgstr ""
 msgid ""
 "Hi,\n"
 "    <br/><br/>\n"
+<<<<<<< HEAD
 "    Your email has been discarded. the e-mail address you have used only accepts new invoices:"
+=======
+"    Your email has been discarded. the e-mail address you have used only "
+"accepts new invoices:"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -21670,11 +22319,14 @@ msgid "How total tax amount is computed in orders and invoices"
 msgstr "Ako je počítaná celková suma dane na objednávkach a faktúrach"
 
 #. module: account
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document_preview
 msgid "IBAN: BE76 4294 6878 9995"
 msgstr ""
 
 #. module: account
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:account.field_account_account__id
 #: model:ir.model.fields,field_description:account.field_account_account_tag__id
 #: model:ir.model.fields,field_description:account.field_account_accrued_orders_wizard__id
@@ -21849,8 +22501,13 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,help:account.field_account_tax__is_base_affected
 msgid ""
+<<<<<<< HEAD
 "If set, taxes with a lower sequence might affect this one, provided they try"
 " to do it."
+=======
+"If set, taxes with a lower sequence might affect this one, provided they try "
+"to do it."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -21870,8 +22527,15 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,help:account.field_account_account__non_trade
 msgid ""
+<<<<<<< HEAD
 "If set, this account will belong to Non Trade Receivable/Payable in reports and filters.\n"
 "If not, this account will belong to Trade Receivable/Payable in reports and filters."
+=======
+"If set, this account will belong to Non Trade Receivable/Payable in reports "
+"and filters.\n"
+"If not, this account will belong to Trade Receivable/Payable in reports and "
+"filters."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -21896,8 +22560,13 @@ msgstr ""
 #: model:ir.model.fields,help:account.field_account_move__checked
 msgid ""
 "If this checkbox is not ticked, it means that the user was not sure of all "
+<<<<<<< HEAD
 "the related information at the time of the creation of the move and that the"
 " move needs to be checked again."
+=======
+"the related information at the time of the creation of the move and that the "
+"move needs to be checked again."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -21916,8 +22585,13 @@ msgid ""
 "If you check this box, you will be able to collect payments using SEPA "
 "Direct Debit mandates."
 msgstr ""
+<<<<<<< HEAD
 "Ak je začiarknuté toto políčko, budete môcť prijímať platby pomocou príkazov"
 " SEPA inkasa."
+=======
+"Ak je začiarknuté toto políčko, budete môcť prijímať platby pomocou príkazov "
+"SEPA inkasa."
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
@@ -22137,11 +22811,19 @@ msgstr "Prichádzajúce platby"
 #. odoo-python
 #: code:addons/account/wizard/setup_wizards.py:0
 msgid ""
+<<<<<<< HEAD
 "Incorrect fiscal year date: day is out of range for month. Month: %(month)s;"
 " Day: %(day)s"
 msgstr ""
 "Nesprávny dátum fiškálneho roka: deň je mimo rozsahu pre mesiac. Mesiac: "
 "%(month)s; Day: %(day)s"
+=======
+"Incorrect fiscal year date: day is out of range for month. Month: %(month)s; "
+"Day: %(day)s"
+msgstr ""
+"Nesprávny dátum fiškálneho roka: deň je mimo rozsahu pre mesiac. Mesiac: %"
+"(month)s; Day: %(day)s"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_bank_statement_line__invoice_incoterm_id
@@ -22174,8 +22856,13 @@ msgstr "Incoterms"
 #: model:ir.model.fields,help:account.field_account_incoterms__name
 msgid ""
 "Incoterms are series of sales terms. They are used to divide transaction "
+<<<<<<< HEAD
 "costs and responsibilities between buyer and seller and reflect state-of-"
 "the-art transportation practices."
+=======
+"costs and responsibilities between buyer and seller and reflect state-of-the-"
+"art transportation practices."
+>>>>>>> upstream/18.0
 msgstr ""
 "Incoterms sú série predajných podmienok. Používajú sa na rozdelenie "
 "transakčných nákladov a zodpovednosti medzi kupujúcim a predávajúcim a "
@@ -22301,8 +22988,12 @@ msgstr ""
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_report_line__domain_formula
+<<<<<<< HEAD
 msgid ""
 "Internal field to shorten expression_ids creation for the domain engine"
+=======
+msgid "Internal field to shorten expression_ids creation for the domain engine"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -22349,8 +23040,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/account/models/partner.py:0
 msgid ""
+<<<<<<< HEAD
 "Invalid \"Zip Range\", You have to configure both \"From\" and \"To\" values"
 " for the zip range and \"To\" should be greater than \"From\"."
+=======
+"Invalid \"Zip Range\", You have to configure both \"From\" and \"To\" values "
+"for the zip range and \"To\" should be greater than \"From\"."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -22577,8 +23273,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/account/models/account_tax.py:0
 msgid ""
+<<<<<<< HEAD
 "Invoice and credit note repartition should have at least one tax repartition"
 " line."
+=======
+"Invoice and credit note repartition should have at least one tax repartition "
+"line."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -23127,8 +23828,13 @@ msgstr "Položky denníka, kde nie je nastavené zodpovedajúce číslo"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_move_line_filter
 msgid ""
+<<<<<<< HEAD
 "Journal items where the account allows reconciliation no matter the residual"
 " amount"
+=======
+"Journal items where the account allows reconciliation no matter the residual "
+"amount"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -23145,8 +23851,12 @@ msgstr "Denník sa predvolene používa na presunutie obdobia záznamu"
 #. module: account
 #: model:ir.model.fields,help:account.field_res_company__account_opening_journal_id
 msgid ""
+<<<<<<< HEAD
 "Journal where the opening entry of this company's accounting has been "
 "posted."
+=======
+"Journal where the opening entry of this company's accounting has been posted."
+>>>>>>> upstream/18.0
 msgstr ""
 "Účtovná kniha, do ktorej bol zaúčtovaný vstupný zápis účtovníctva tejto "
 "spoločnosti."
@@ -23191,6 +23901,14 @@ msgid "June"
 msgstr "Jún"
 
 #. module: account
+<<<<<<< HEAD
+=======
+#: model:ir.model,name:account.model_kpi_provider
+msgid "KPI Provider"
+msgstr ""
+
+#. module: account
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:account.field_account_journal__kanban_dashboard
 msgid "Kanban Dashboard"
 msgstr "Riadiaci panel kanban"
@@ -23221,19 +23939,33 @@ msgstr "Nechať otvorené"
 msgid ""
 "Keep this field empty to use the default value from the product category."
 msgstr ""
+<<<<<<< HEAD
 "Ak chcete použiť predvolenú hodnotu z kategórie produktu, nechajte toto pole"
 " prázdne."
+=======
+"Ak chcete použiť predvolenú hodnotu z kategórie produktu, nechajte toto pole "
+"prázdne."
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.fields,help:account.field_product_product__property_account_expense_id
 #: model:ir.model.fields,help:account.field_product_template__property_account_expense_id
 msgid ""
+<<<<<<< HEAD
 "Keep this field empty to use the default value from the product category. If"
 " anglo-saxon accounting with automated valuation method is configured, the "
 "expense account on the product category will be used."
 msgstr ""
 "Ak chcete použiť predvolenú hodnotu z kategórie produktu, nechajte toto pole"
 " prázdne. Ak je nakonfigurované anglosaské účtovníctvo s automatizovanou "
+=======
+"Keep this field empty to use the default value from the product category. If "
+"anglo-saxon accounting with automated valuation method is configured, the "
+"expense account on the product category will be used."
+msgstr ""
+"Ak chcete použiť predvolenú hodnotu z kategórie produktu, nechajte toto pole "
+"prázdne. Ak je nakonfigurované anglosaské účtovníctvo s automatizovanou "
+>>>>>>> upstream/18.0
 "metódou oceňovania, použije sa výdajový účet v kategórii produktov."
 
 #. module: account
@@ -23409,8 +24141,13 @@ msgstr "Posledný rok"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_move_line__discount_date
 msgid ""
+<<<<<<< HEAD
 "Last date at which the discounted amount must be paid in order for the Early"
 " Payment Discount to be granted"
+=======
+"Last date at which the discounted amount must be paid in order for the Early "
+"Payment Discount to be granted"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -23689,8 +24426,12 @@ msgstr ""
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_account_audit_trail_report
+<<<<<<< HEAD
 msgid ""
 "Make sure you first activate the audit trail in the accounting settings"
+=======
+msgid "Make sure you first activate the audit trail in the accounting settings"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -23715,9 +24456,20 @@ msgstr ""
 #: model:ir.model.fields,help:account.field_account_journal__inbound_payment_method_line_ids
 msgid ""
 "Manual: Get paid by any method outside of Odoo.\n"
+<<<<<<< HEAD
 "Payment Providers: Each payment provider has its own Payment Method. Request a transaction on/to a card thanks to a payment token saved by the partner when buying or subscribing online.\n"
 "Batch Deposit: Collect several customer checks at once generating and submitting a batch deposit to your bank. Module account_batch_payment is necessary.\n"
 "SEPA Direct Debit: Get paid in the SEPA zone thanks to a mandate your partner will have granted to you. Module account_sepa is necessary.\n"
+=======
+"Payment Providers: Each payment provider has its own Payment Method. Request "
+"a transaction on/to a card thanks to a payment token saved by the partner "
+"when buying or subscribing online.\n"
+"Batch Deposit: Collect several customer checks at once generating and "
+"submitting a batch deposit to your bank. Module account_batch_payment is "
+"necessary.\n"
+"SEPA Direct Debit: Get paid in the SEPA zone thanks to a mandate your "
+"partner will have granted to you. Module account_sepa is necessary.\n"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -23725,7 +24477,12 @@ msgstr ""
 msgid ""
 "Manual: Pay by any method outside of Odoo.\n"
 "Check: Pay bills by check and print it from Odoo.\n"
+<<<<<<< HEAD
 "SEPA Credit Transfer: Pay in the SEPA zone by submitting a SEPA Credit Transfer file to your bank. Module account_sepa is necessary.\n"
+=======
+"SEPA Credit Transfer: Pay in the SEPA zone by submitting a SEPA Credit "
+"Transfer file to your bank. Module account_sepa is necessary.\n"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -23733,11 +24490,25 @@ msgstr ""
 #: model:ir.model.fields,help:account.field_account_payment_register__payment_method_line_id
 msgid ""
 "Manual: Pay or Get paid by any method outside of Odoo.\n"
+<<<<<<< HEAD
 "Payment Providers: Each payment provider has its own Payment Method. Request a transaction on/to a card thanks to a payment token saved by the partner when buying or subscribing online.\n"
 "Check: Pay bills by check and print it from Odoo.\n"
 "Batch Deposit: Collect several customer checks at once generating and submitting a batch deposit to your bank. Module account_batch_payment is necessary.\n"
 "SEPA Credit Transfer: Pay in the SEPA zone by submitting a SEPA Credit Transfer file to your bank. Module account_sepa is necessary.\n"
 "SEPA Direct Debit: Get paid in the SEPA zone thanks to a mandate your partner will have granted to you. Module account_sepa is necessary.\n"
+=======
+"Payment Providers: Each payment provider has its own Payment Method. Request "
+"a transaction on/to a card thanks to a payment token saved by the partner "
+"when buying or subscribing online.\n"
+"Check: Pay bills by check and print it from Odoo.\n"
+"Batch Deposit: Collect several customer checks at once generating and "
+"submitting a batch deposit to your bank. Module account_batch_payment is "
+"necessary.\n"
+"SEPA Credit Transfer: Pay in the SEPA zone by submitting a SEPA Credit "
+"Transfer file to your bank. Module account_sepa is necessary.\n"
+"SEPA Direct Debit: Get paid in the SEPA zone thanks to a mandate your "
+"partner will have granted to you. Module account_sepa is necessary.\n"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -23863,8 +24634,13 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,help:account.field_account_move_line__matching_number
 msgid ""
+<<<<<<< HEAD
 "Matching number for this line, 'P' if it is only partially reconcile, or the"
 " name of the full reconcile if it exists."
+=======
+"Matching number for this line, 'P' if it is only partially reconcile, or the "
+"name of the full reconcile if it exists."
+>>>>>>> upstream/18.0
 msgstr ""
 "Zhodné číslo pre tento riadok, „P“, ak je zosúladený iba čiastočne, alebo "
 "názov úplného zosúladenia, ak existuje."
@@ -24857,11 +25633,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account.view_partner_property_form
 msgid "One or more Bank Accounts set on this partner are also used by other"
 msgstr ""
 
 #. module: account
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -25060,7 +25839,11 @@ msgstr ""
 #. module: account
 #: model:ir.ui.menu,name:account.root_payment_menu
 msgid "Online Payments"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Online platby"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_report__only_tax_exigible
@@ -25722,7 +26505,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account.view_partner_property_form
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -26014,7 +26800,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -26294,6 +27083,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -26493,8 +27285,12 @@ msgstr "Platba"
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Pay your bills in one-click using Euro SEPA Service"
 msgstr ""
+<<<<<<< HEAD
 "Plaťte prijaté faktúry dodávateľom jedným kliknutím pomocou Euro SEPA "
 "Service"
+=======
+"Plaťte prijaté faktúry dodávateľom jedným kliknutím pomocou Euro SEPA Service"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_account__account_type__liability_payable
@@ -26659,7 +27455,11 @@ msgid "Payable"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Pohľadávka"
+=======
+msgstr "Záväzky"
+>>>>>>> upstream/18.0
 =======
 msgstr "Záväzky"
 >>>>>>> upstream/18.0
@@ -27293,7 +28093,11 @@ msgid "Payable Limit"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Limit pohľadávok"
+=======
+msgstr "Limit záväzkov"
+>>>>>>> upstream/18.0
 =======
 msgstr "Limit záväzkov"
 >>>>>>> upstream/18.0
@@ -27926,7 +28730,11 @@ msgid "Payable and receivable"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Záväzky a pohľadávky"
+>>>>>>> upstream/18.0
 =======
 msgstr "Záväzky a pohľadávky"
 >>>>>>> upstream/18.0
@@ -28693,6 +29501,15 @@ msgid ""
 msgstr ""
 
 #. module: account
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,help:account.field_account_bank_statement_line__reconciled_payment_ids
+#: model:ir.model.fields,help:account.field_account_move__reconciled_payment_ids
+msgid "Payments that have been reconciled with this invoice."
+msgstr ""
+
+#. module: account
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:account.selection__account_payment_term_line__value__percent
 msgid "Percent"
 msgstr "Percento"
@@ -28838,7 +29655,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -29082,6 +29902,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -29277,10 +30100,15 @@ msgstr "Nastavte prísne kladnú hodnotu zaokrúhľovania."
 #. module: account
 #. odoo-python
 #: code:addons/account/models/account_reconcile_model.py:0
+<<<<<<< HEAD
 msgid ""
 "Please set at least one of the match texts to create a partner mapping."
 msgstr ""
 "Nastavením aspoň jedného z textov zhody vytvoríte mapovanie partnerov."
+=======
+msgid "Please set at least one of the match texts to create a partner mapping."
+msgstr "Nastavením aspoň jedného z textov zhody vytvoríte mapovanie partnerov."
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.bill_preview
@@ -29831,6 +30659,15 @@ msgid "Reconciled Invoices Type"
 msgstr ""
 
 #. module: account
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:account.field_account_bank_statement_line__reconciled_payment_ids
+#: model:ir.model.fields,field_description:account.field_account_move__reconciled_payment_ids
+msgid "Reconciled Payments"
+msgstr ""
+
+#. module: account
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:account.field_account_payment__reconciled_statement_line_ids
 msgid "Reconciled Statement Lines"
 msgstr ""
@@ -29897,6 +30734,7 @@ msgstr "Referencia"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_payment__payment_reference
 msgid ""
+<<<<<<< HEAD
 "Reference of the document used to issue this payment. Eg. check number, file"
 " name, etc."
 msgstr ""
@@ -30143,6 +30981,15 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"Reference of the document used to issue this payment. Eg. check number, file "
+"name, etc."
+msgstr ""
+"Odkaz na doklad, použitých na vydanie tejto platby. Napr.. číslo šeku, názov "
+"súboru atď."
+
+#. module: account
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 msgid "Refresh currency rate to the invoice date"
 msgstr ""
@@ -30227,6 +31074,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -30462,8 +31312,13 @@ msgstr "Opäť načítať"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid ""
+<<<<<<< HEAD
 "Reload accounting data (taxes, accounts, ...) if you notice inconsistencies."
 " This action is irreversible."
+=======
+"Reload accounting data (taxes, accounts, ...) if you notice inconsistencies. "
+"This action is irreversible."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -30795,7 +31650,10 @@ msgstr "Obrátené"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -31037,6 +31895,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -31470,7 +32331,11 @@ msgstr "Naskenujte ma pomocou svojej bankovej aplikácie."
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document_preview
+=======
+#: model_terms:ir.ui.view,arch_db:account.report_invoice_qr_code_preview
+>>>>>>> upstream/18.0
 msgid "Scan this QR Code with<br/>your banking application"
 msgstr ""
 
@@ -31540,8 +32405,12 @@ msgstr ""
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_reconcile_model__match_text_location_label
+<<<<<<< HEAD
 msgid ""
 "Search in the Statement's Label to find the Invoice/Payment's reference"
+=======
+msgid "Search in the Statement's Label to find the Invoice/Payment's reference"
+>>>>>>> upstream/18.0
 msgstr "Vyhľadajte odkaz na faktúre / platbe na štítku výpisu"
 
 #. module: account
@@ -31675,8 +32544,13 @@ msgid ""
 "Select this if the taxes should use cash basis, which will create an entry "
 "for such taxes on a given account during reconciliation."
 msgstr ""
+<<<<<<< HEAD
 "Zvoľte, ak sa má pre daň používať hotovostný základ, ktorý vytvorí vstup pre"
 " túto daň na danom účte počas párovania"
+=======
+"Zvoľte, ak sa má pre daň používať hotovostný základ, ktorý vytvorí vstup pre "
+"túto daň na danom účte počas párovania"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_journal__selected_payment_method_codes
@@ -31739,8 +32613,12 @@ msgstr ""
 msgid ""
 "Send invoices to your customers in no time with the <b>Invoicing app</b>."
 msgstr ""
+<<<<<<< HEAD
 "Pošlite faktúry svojim zákazníkom prostredníctvom "
 "aplikácie<b>Fakturácia</b>."
+=======
+"Pošlite faktúry svojim zákazníkom prostredníctvom aplikácie<b>Fakturácia</b>."
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal__alias_id
@@ -31976,8 +32854,13 @@ msgstr "Nastavte dáta spoločnosti pre hlavičku/pätu dokumentov."
 #. module: account
 #: model:ir.model.fields,help:account.field_account_report_line__action_id
 msgid ""
+<<<<<<< HEAD
 "Setting this field will turn the line into a link, executing the action when"
 " clicked."
+=======
+"Setting this field will turn the line into a link, executing the action when "
+"clicked."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -32006,8 +32889,13 @@ msgstr "Krátky kód"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal__code
 msgid ""
+<<<<<<< HEAD
 "Shorter name used for display. The journal entries of this journal will also"
 " be named using this prefix by default."
+=======
+"Shorter name used for display. The journal entries of this journal will also "
+"be named using this prefix by default."
+>>>>>>> upstream/18.0
 msgstr ""
 "Kratší názov použitý na zobrazenie. Interné účtovné doklady tohto denníka "
 "budú tiež predvolene pomenované pomocou tejto predpony."
@@ -32140,8 +33028,13 @@ msgid ""
 "Some journal items already exist in this journal but with other accounts "
 "than the allowed ones."
 msgstr ""
+<<<<<<< HEAD
 "Niektoré položky denníka už v tomto denníku existujú, ale majú iné účty, ako"
 " sú povolené."
+=======
+"Niektoré položky denníka už v tomto denníku existujú, ale majú iné účty, ako "
+"sú povolené."
+>>>>>>> upstream/18.0
 
 #. module: account
 #. odoo-python
@@ -32191,8 +33084,13 @@ msgstr "Zdrojový email"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_accrued_orders_wizard__amount
 msgid ""
+<<<<<<< HEAD
 "Specify an arbitrary value that will be accrued on a         default account"
 " for the entire order, regardless of the products on the different lines."
+=======
+"Specify an arbitrary value that will be accrued on a         default account "
+"for the entire order, regardless of the products on the different lines."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -32456,8 +33354,13 @@ msgstr "Tagy"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_move_line__tax_tag_ids
 msgid ""
+<<<<<<< HEAD
 "Tags assigned to this line by the tax creating it, if any. It determines its"
 " impact on financial reports."
+=======
+"Tags assigned to this line by the tax creating it, if any. It determines its "
+"impact on financial reports."
+>>>>>>> upstream/18.0
 msgstr ""
 "Značky priradené k tomuto riadku daňou, ktorá ho vytvára, ak existuje. "
 "Určuje jeho vplyv na finančné reporty."
@@ -32798,8 +33701,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/account/models/account_move_line.py:0
 msgid ""
+<<<<<<< HEAD
 "Taxes exigible on payment and on invoice cannot be mixed on the same journal"
 " item if they share some tag."
+=======
+"Taxes exigible on payment and on invoice cannot be mixed on the same journal "
+"item if they share some tag."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -32818,8 +33726,13 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,help:account.field_res_company__account_enabled_tax_country_ids
 msgid ""
+<<<<<<< HEAD
 "Technical field containing the countries for which this company is using "
 "tax-related features(hence the ones for which l10n modules need to show tax-"
+=======
+"Technical field containing the countries for which this company is using tax-"
+"related features(hence the ones for which l10n modules need to show tax-"
+>>>>>>> upstream/18.0
 "related fields)."
 msgstr ""
 
@@ -32865,10 +33778,21 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal__sequence_override_regex
 msgid ""
+<<<<<<< HEAD
 "Technical field used to enforce complex sequence composition that the system would normally misunderstand.\n"
 "This is a regex that can include all the following capture groups: prefix1, year, prefix2, month, prefix3, seq, suffix.\n"
 "The prefix* groups are the separators between the year, month and the actual increasing sequence number (seq).\n"
 "e.g: ^(?P<prefix1>.*?)(?P<year>\\d{4})(?P<prefix2>\\D*?)(?P<month>\\d{2})(?P<prefix3>\\D+?)(?P<seq>\\d+)(?P<suffix>\\D*?)$"
+=======
+"Technical field used to enforce complex sequence composition that the system "
+"would normally misunderstand.\n"
+"This is a regex that can include all the following capture groups: prefix1, "
+"year, prefix2, month, prefix3, seq, suffix.\n"
+"The prefix* groups are the separators between the year, month and the actual "
+"increasing sequence number (seq).\n"
+"e.g: ^(?P<prefix1>.*?)(?P<year>\\d{4})(?P<prefix2>\\D*?)(?P<month>\\d{2})(?"
+"P<prefix3>\\D+?)(?P<seq>\\d+)(?P<suffix>\\D*?)$"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -32935,8 +33859,15 @@ msgstr "To je dátum úvodného záznamu."
 #. odoo-python
 #: code:addons/account/models/sequence_mixin.py:0
 msgid ""
+<<<<<<< HEAD
 "The %(date_field)s (%(date)s) you've entered isn't aligned with the existing sequence number (%(sequence)s). Clear the sequence number to proceed.\n"
 "To maintain date-based sequences, select entries and use the resequence option from the actions menu, available in developer mode."
+=======
+"The %(date_field)s (%(date)s) you've entered isn't aligned with the existing "
+"sequence number (%(sequence)s). Clear the sequence number to proceed.\n"
+"To maintain date-based sequences, select entries and use the resequence "
+"option from the actions menu, available in developer mode."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -32971,8 +33902,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/account/models/account_payment_term.py:0
 msgid ""
+<<<<<<< HEAD
 "The Early Payment Discount functionality can only be used with payment terms"
 " using a single 100% line. "
+=======
+"The Early Payment Discount functionality can only be used with payment terms "
+"using a single 100% line. "
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -33035,8 +33971,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/account/models/account_move_line.py:0
 msgid ""
+<<<<<<< HEAD
 "The Unit of Measure (UoM) '%(uom)s' you have selected for product "
 "'%(product)s', is incompatible with its category : %(category)s."
+=======
+"The Unit of Measure (UoM) '%(uom)s' you have selected for product '%"
+"(product)s', is incompatible with its category : %(category)s."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -33058,8 +33999,13 @@ msgid ""
 "The account is already in use in a 'sale' or 'purchase' journal. This means "
 "that the account's type couldn't be 'receivable' or 'payable'."
 msgstr ""
+<<<<<<< HEAD
 "Účet sa už používa v denníku „predaj“ alebo „nákup“. To znamená, že typ účtu"
 " nemôže byť „pohľadávka“ alebo „záväzok“."
+=======
+"Účet sa už používa v denníku „predaj“ alebo „nákup“. To znamená, že typ účtu "
+"nemôže byť „pohľadávka“ alebo „záväzok“."
+>>>>>>> upstream/18.0
 
 #. module: account
 #. odoo-python
@@ -33068,8 +34014,13 @@ msgid ""
 "The account selected on your journal entry forces to provide a secondary "
 "currency. You should remove the secondary currency on the account."
 msgstr ""
+<<<<<<< HEAD
 "Účet vybraný vo vašom denníku núti poskytovať sekundárnu menu. Mali by ste z"
 " účtu odstrániť sekundárnu menu."
+=======
+"Účet vybraný vo vašom denníku núti poskytovať sekundárnu menu. Mali by ste z "
+"účtu odstrániť sekundárnu menu."
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_setup_bank_manual_config__journal_id
@@ -33089,16 +34040,26 @@ msgstr ""
 #: model:ir.model.fields,help:account.field_account_bank_statement_line__amount_currency
 #: model:ir.model.fields,help:account.field_account_move_line__amount_currency
 msgid ""
+<<<<<<< HEAD
 "The amount expressed in an optional other currency if it is a multi-currency"
 " entry."
+=======
+"The amount expressed in an optional other currency if it is a multi-currency "
+"entry."
+>>>>>>> upstream/18.0
 msgstr ""
 "Množstvo vyjadrené vo voliteľné inej mene, pokiaľ ide o multi-menový záznam."
 
 #. module: account
 #: model:ir.model.constraint,message:account.constraint_account_move_line_check_amount_currency_balance_sign
 msgid ""
+<<<<<<< HEAD
 "The amount expressed in the secondary currency must be positive when account"
 " is debited and negative when account is credited. If the currency is the "
+=======
+"The amount expressed in the secondary currency must be positive when account "
+"is debited and negative when account is credited. If the currency is the "
+>>>>>>> upstream/18.0
 "same as the one from the company, this amount must strictly be equal to the "
 "balance."
 msgstr ""
@@ -33110,7 +34071,12 @@ msgstr ""
 #. odoo-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
+<<<<<<< HEAD
 "The amount for %(partner_name)s appears unusual. Based on your historical data, the expected amount is %(mean)s (± %(wiggle)s).\n"
+=======
+"The amount for %(partner_name)s appears unusual. Based on your historical "
+"data, the expected amount is %(mean)s (± %(wiggle)s).\n"
+>>>>>>> upstream/18.0
 "Please verify if this amount is accurate."
 msgstr ""
 
@@ -33127,8 +34093,13 @@ msgid ""
 "The application scope of taxes in a group must be either the same as the "
 "group or left empty."
 msgstr ""
+<<<<<<< HEAD
 "Rozsah pôsobnosti daní v skupine musí byť rovnaký ako skupina alebo musí byť"
 " prázdny."
+=======
+"Rozsah pôsobnosti daní v skupine musí byť rovnaký ako skupina alebo musí byť "
+"prázdny."
+>>>>>>> upstream/18.0
 
 #. module: account
 #. odoo-python
@@ -33147,7 +34118,13 @@ msgstr "Bankový výpis používaný pre bankové párovanie"
 #. odoo-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
+<<<<<<< HEAD
 "The billing frequency for %(partner_name)s appears unusual. Based on your historical data, the expected next invoice date is not before %(expected_date)s (every %(mean)s (± %(wiggle)s) days).\n"
+=======
+"The billing frequency for %(partner_name)s appears unusual. Based on your "
+"historical data, the expected next invoice date is not before %"
+"(expected_date)s (every %(mean)s (± %(wiggle)s) days).\n"
+>>>>>>> upstream/18.0
 "Please verify if this date is accurate."
 msgstr ""
 
@@ -33312,7 +34289,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -33683,6 +34663,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -33934,8 +34917,13 @@ msgstr "Spoločnosť, ktorej táto distribučná linka patrí."
 #. odoo-python
 #: code:addons/account/models/partner.py:0
 msgid ""
+<<<<<<< HEAD
 "The country code of the foreign VAT number does not match any country in the"
 " group."
+=======
+"The country code of the foreign VAT number does not match any country in the "
+"group."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -33952,8 +34940,13 @@ msgstr "Krajina, pre ktorú platí táto daň."
 #. odoo-python
 #: code:addons/account/models/account_report.py:0
 msgid ""
+<<<<<<< HEAD
 "The country set on the foreign VAT fiscal position must match the one set on"
 " the report."
+=======
+"The country set on the foreign VAT fiscal position must match the one set on "
+"the report."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -33964,6 +34957,15 @@ msgid "The country to use the tax reports from for this company"
 msgstr "Krajina, z ktorej sa majú pre túto spoločnosť použiť daňové priznanie"
 
 #. module: account
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/account/models/account_move.py:0
+msgid "The currency rate must be strictly positive."
+msgstr "Kurz meny musí byť prísne kladný."
+
+#. module: account
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:account.field_account_journal__currency_id
 msgid "The currency used to enter statement"
 msgstr "Mena ktorá slúži pre zadanie výpisu"
@@ -33977,8 +34979,13 @@ msgstr "Aktuálne najvyššie číslo je"
 #. odoo-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
+<<<<<<< HEAD
 "The current total is %(current_total)s but the expected total is "
 "%(expected_total)s. In order to post the invoice/bill, you can adjust its "
+=======
+"The current total is %(current_total)s but the expected total is %"
+"(expected_total)s. In order to post the invoice/bill, you can adjust its "
+>>>>>>> upstream/18.0
 "lines or the expected Total (tax inc.)."
 msgstr ""
 
@@ -34013,8 +35020,13 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,help:account.field_account_lock_exception__sale_lock_date
 msgid ""
+<<<<<<< HEAD
 "The date the Sale Lock Date is set to by this exception. If the lock date is"
 " not changed it is set to the maximal date."
+=======
+"The date the Sale Lock Date is set to by this exception. If the lock date is "
+"not changed it is set to the maximal date."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -34215,7 +35227,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -34497,6 +35512,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -34685,8 +35703,13 @@ msgid ""
 "The following error prevented '%s' QR-code to be generated though it was "
 "detected as eligible: "
 msgstr ""
+<<<<<<< HEAD
 "Nasledujúcej chybe bolo zabránené '%s' QR kód, ktorý sa má vygenerovať, hoci"
 " bol zistený ako vhodný:"
+=======
+"Nasledujúcej chybe bolo zabránené '%s' QR kód, ktorý sa má vygenerovať, hoci "
+"bol zistený ako vhodný:"
+>>>>>>> upstream/18.0
 
 #. module: account
 #. odoo-python
@@ -34705,8 +35728,13 @@ msgstr "Cudzia mena musí byť iná ako denníková: %s"
 #. odoo-python
 #: code:addons/account/models/account_account.py:0
 msgid ""
+<<<<<<< HEAD
 "The foreign currency set on the journal '%(journal)s' and the account "
 "'%(account)s' must be the same."
+=======
+"The foreign currency set on the journal '%(journal)s' and the account '%"
+"(account)s' must be the same."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -34718,10 +35746,19 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account.report_hash_integrity
 msgid ""
 "The hash chain is compliant: it is not possible to alter the\n"
+<<<<<<< HEAD
 "                                            data without breaking the hash chain for subsequent parts."
 msgstr ""
 "Reťaz hash je v súlade: nie je možné meniť\n"
 "                                            údaje bez prerušenia reťazca hash pre nasledujúce časti."
+=======
+"                                            data without breaking the hash "
+"chain for subsequent parts."
+msgstr ""
+"Reťaz hash je v súlade: nie je možné meniť\n"
+"                                            údaje bez prerušenia reťazca "
+"hash pre nasledujúce časti."
+>>>>>>> upstream/18.0
 
 #. module: account
 #. odoo-python
@@ -34752,11 +35789,23 @@ msgstr ""
 #. odoo-python
 #: code:addons/account/models/account_bank_statement_line.py:0
 msgid ""
+<<<<<<< HEAD
 "The journal entry %s reached an invalid state regarding its related statement line.\n"
 "To be consistent, the journal entry must always have exactly one journal item involving the bank/cash account."
 msgstr ""
 "Záznam v denníku %s dosiahol neplatný stav, pokiaľ ide o súvisiaci riadok výpisu.\n"
 "Kvôli konzistentnosti musí mať záznam v denníku vždy presne jednu položku denníka, ktorá sa týka bankového alebo hotovostného účtu."
+=======
+"The journal entry %s reached an invalid state regarding its related "
+"statement line.\n"
+"To be consistent, the journal entry must always have exactly one journal "
+"item involving the bank/cash account."
+msgstr ""
+"Záznam v denníku %s dosiahol neplatný stav, pokiaľ ide o súvisiaci riadok "
+"výpisu.\n"
+"Kvôli konzistentnosti musí mať záznam v denníku vždy presne jednu položku "
+"denníka, ktorá sa týka bankového alebo hotovostného účtu."
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.fields,help:account.field_res_company__account_opening_move_id
@@ -34792,8 +35841,12 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,help:account.field_account_financial_year_op__fiscalyear_last_day
 #: model:ir.model.fields,help:account.field_account_financial_year_op__fiscalyear_last_month
+<<<<<<< HEAD
 msgid ""
 "The last day of the month will be used if the chosen day doesn't exist."
+=======
+msgid "The last day of the month will be used if the chosen day doesn't exist."
+>>>>>>> upstream/18.0
 msgstr "Ak zvolený deň neexistuje, použije sa posledný deň v mesiaci."
 
 #. module: account
@@ -34805,7 +35858,12 @@ msgstr "Dĺžka predvoľby počiatočného a koncového kódu musí byť rovnak�
 #: model:ir.model.fields,help:account.field_account_reconcile_model__partner_mapping_line_ids
 msgid ""
 "The mapping uses regular expressions.\n"
+<<<<<<< HEAD
 "- To Match the text at the beginning of the line (in label or notes), simply fill in your text.\n"
+=======
+"- To Match the text at the beginning of the line (in label or notes), simply "
+"fill in your text.\n"
+>>>>>>> upstream/18.0
 "- To Match the text anywhere (in label or notes), put your text between .*\n"
 "  e.g: .*N°48748 abc123.*"
 msgstr ""
@@ -34830,9 +35888,15 @@ msgstr ""
 #. odoo-python
 #: code:addons/account/models/account_move_line.py:0
 msgid ""
+<<<<<<< HEAD
 "The operation is refused as it would impact an already issued tax statement."
 " Please change the journal entry date or the following lock dates to "
 "proceed: %(lock_date_info)s."
+=======
+"The operation is refused as it would impact an already issued tax statement. "
+"Please change the journal entry date or the following lock dates to proceed: "
+"%(lock_date_info)s."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -34853,9 +35917,15 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,help:account.field_account_tax_repartition_line__sequence
 msgid ""
+<<<<<<< HEAD
 "The order in which distribution lines are displayed and matched. For refunds"
 " to work properly, invoice distribution lines should be arranged in the same"
 " order as the credit note distribution lines they correspond to."
+=======
+"The order in which distribution lines are displayed and matched. For refunds "
+"to work properly, invoice distribution lines should be arranged in the same "
+"order as the credit note distribution lines they correspond to."
+>>>>>>> upstream/18.0
 msgstr ""
 "Poradie, v ktorom sú distribučné linky zobrazené a priradené. Aby prijaté "
 "dobropisy správne fungovali, mali by byť distribučné linky faktúr "
@@ -34908,24 +35978,42 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,help:account.field_account_reconcile_model__match_partner_category_ids
 msgid ""
+<<<<<<< HEAD
 "The reconciliation model will only be applied to the selected "
 "customer/vendor categories."
 msgstr ""
 "Model párovania bude aplikovaný len na vybrané kategórie "
 "zákazníkov/dodávateľov."
+=======
+"The reconciliation model will only be applied to the selected customer/"
+"vendor categories."
+msgstr ""
+"Model párovania bude aplikovaný len na vybrané kategórie zákazníkov/"
+"dodávateľov."
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_reconcile_model__match_partner_ids
 msgid ""
+<<<<<<< HEAD
 "The reconciliation model will only be applied to the selected "
 "customers/vendors."
+=======
+"The reconciliation model will only be applied to the selected customers/"
+"vendors."
+>>>>>>> upstream/18.0
 msgstr ""
 "Model párovania bude aplikovaný len na vybraných zákazníkov/dodávateľov."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_reconcile_model__match_nature
 msgid ""
+<<<<<<< HEAD
 "The reconciliation model will only be applied to the selected transaction type:\n"
+=======
+"The reconciliation model will only be applied to the selected transaction "
+"type:\n"
+>>>>>>> upstream/18.0
 "        * Amount Received: Only applied when receiving an amount.\n"
 "        * Amount Paid: Only applied when paying an amount.\n"
 "        * Amount Paid/Received: Applied in both cases."
@@ -34955,12 +36043,22 @@ msgstr ""
 #: model:ir.model.fields,help:account.field_account_reconcile_model__match_label
 msgid ""
 "The reconciliation model will only be applied when the label:\n"
+<<<<<<< HEAD
 "        * Contains: The proposition label must contains this string (case insensitive).\n"
+=======
+"        * Contains: The proposition label must contains this string (case "
+"insensitive).\n"
+>>>>>>> upstream/18.0
 "        * Not Contains: Negation of \"Contains\".\n"
 "        * Match Regex: Define your own regular expression."
 msgstr ""
 "Model párovania sa použije iba v prípade štítku:\n"
+<<<<<<< HEAD
 "        * Obsahuje: Štítok návrhu musí obsahovať tento reťazec (nerozlišujú sa malé a veľké písmená).\n"
+=======
+"        * Obsahuje: Štítok návrhu musí obsahovať tento reťazec (nerozlišujú "
+"sa malé a veľké písmená).\n"
+>>>>>>> upstream/18.0
 "        * Neobsahuje: Negácia „Obsahuje“.\n"
 "        * Match Regex: Definujte svoj vlastný regulárny výraz."
 
@@ -34968,12 +36066,22 @@ msgstr ""
 #: model:ir.model.fields,help:account.field_account_reconcile_model__match_note
 msgid ""
 "The reconciliation model will only be applied when the note:\n"
+<<<<<<< HEAD
 "        * Contains: The proposition note must contains this string (case insensitive).\n"
+=======
+"        * Contains: The proposition note must contains this string (case "
+"insensitive).\n"
+>>>>>>> upstream/18.0
 "        * Not Contains: Negation of \"Contains\".\n"
 "        * Match Regex: Define your own regular expression."
 msgstr ""
 "Model párovania sa použije iba vtedy, keď je na vedomie:\n"
+<<<<<<< HEAD
 "        * Obsahuje: Propozícia musí obsahovať tento reťazec (nerozlišujú sa malé a veľké písmená).\n"
+=======
+"        * Obsahuje: Propozícia musí obsahovať tento reťazec (nerozlišujú sa "
+"malé a veľké písmená).\n"
+>>>>>>> upstream/18.0
 "        * Neobsahuje: Negácia „Obsahuje“.\n"
 "        * Match Regex: Definujte svoj vlastný regulárny výraz."
 
@@ -34981,12 +36089,22 @@ msgstr ""
 #: model:ir.model.fields,help:account.field_account_reconcile_model__match_transaction_type
 msgid ""
 "The reconciliation model will only be applied when the transaction type:\n"
+<<<<<<< HEAD
 "        * Contains: The proposition transaction type must contains this string (case insensitive).\n"
+=======
+"        * Contains: The proposition transaction type must contains this "
+"string (case insensitive).\n"
+>>>>>>> upstream/18.0
 "        * Not Contains: Negation of \"Contains\".\n"
 "        * Match Regex: Define your own regular expression."
 msgstr ""
 "Model párovania sa použije iba v prípade typu transakcie:\n"
+<<<<<<< HEAD
 "        * Obsahuje: Typ transakcie ponuky musí obsahovať tento reťazec (nerozlišujú sa malé a veľké písmená).\n"
+=======
+"        * Obsahuje: Typ transakcie ponuky musí obsahovať tento reťazec "
+"(nerozlišujú sa malé a veľké písmená).\n"
+>>>>>>> upstream/18.0
 "        * Neobsahuje: Negácia „Obsahuje“.\n"
 "        * Match Regex: Definujte svoj vlastný regulárny výraz."
 
@@ -35014,8 +36132,13 @@ msgid ""
 "The register payment wizard should only be called on account.move or "
 "account.move.line records."
 msgstr ""
+<<<<<<< HEAD
 "Sprievodcu platbami v registri je možné vyvolať iba v záznamoch account.move"
 " alebo account.move.line."
+=======
+"Sprievodcu platbami v registri je možné vyvolať iba v záznamoch account.move "
+"alebo account.move.line."
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_report__root_report_id
@@ -35064,26 +36187,47 @@ msgstr ""
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_automatic_entry_wizard_form
 msgid ""
+<<<<<<< HEAD
 "The selected destination account is set to use a specific currency. Every entry transferred to it will be converted into this currency, causing\n"
 "                        the loss of any pre-existing foreign currency amount."
 msgstr ""
 "Vybraný cieľový účet je nastavený na používanie konkrétnej meny. Každý záznam, ktorý sa naň prevedie, sa prepočíta na túto menu\n"
 "                        čím sa stratí akákoľvek predtým existujúca suma v cudzej mene."
+=======
+"The selected destination account is set to use a specific currency. Every "
+"entry transferred to it will be converted into this currency, causing\n"
+"                        the loss of any pre-existing foreign currency amount."
+msgstr ""
+"Vybraný cieľový účet je nastavený na používanie konkrétnej meny. Každý "
+"záznam, ktorý sa naň prevedie, sa prepočíta na túto menu\n"
+"                        čím sa stratí akákoľvek predtým existujúca suma v "
+"cudzej mene."
+>>>>>>> upstream/18.0
 
 #. module: account
 #. odoo-python
 #: code:addons/account/models/account_payment.py:0
 msgid ""
+<<<<<<< HEAD
 "The selected payment method is not available for this payment, please select"
 " the payment method again."
+=======
+"The selected payment method is not available for this payment, please select "
+"the payment method again."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
 #. odoo-python
 #: code:addons/account/models/account_move_send.py:0
 msgid ""
+<<<<<<< HEAD
 "The sending of invoices is not set up properly, make sure the report used is"
 " set for invoices."
+=======
+"The sending of invoices is not set up properly, make sure the report used is "
+"set for invoices."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -35105,7 +36249,12 @@ msgstr "Formát sekvencie sa zmenil."
 #. odoo-python
 #: code:addons/account/models/sequence_mixin.py:0
 msgid ""
+<<<<<<< HEAD
 "The sequence regex should at least contain the seq grouping keys. For instance:\n"
+=======
+"The sequence regex should at least contain the seq grouping keys. For "
+"instance:\n"
+>>>>>>> upstream/18.0
 "^(?P<prefix1>.*?)(?P<seq>\\d*)(?P<suffix>\\D*?)$"
 msgstr ""
 
@@ -35160,8 +36309,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/account/wizard/account_resequence.py:0
 msgid ""
+<<<<<<< HEAD
 "The sequences of this journal are different for Invoices and Refunds but you"
 " selected some of both types."
+=======
+"The sequences of this journal are different for Invoices and Refunds but you "
+"selected some of both types."
+>>>>>>> upstream/18.0
 msgstr ""
 "Sekvencie tohto denníka sú odlišné pre faktúry a vrátenie platby, vybrali "
 "ste však niektoré z oboch typov."
@@ -35281,8 +36435,13 @@ msgstr ""
 #: code:addons/account/wizard/account_secure_entries_wizard.py:0
 msgid ""
 "There are still unreconciled bank statement lines before the selected date. "
+<<<<<<< HEAD
 "The entries from journal prefixes containing them will not be secured: "
 "%(prefix_info)s"
+=======
+"The entries from journal prefixes containing them will not be secured: %"
+"(prefix_info)s"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -35292,8 +36451,13 @@ msgid ""
 "There are still unreconciled bank statement lines in the period you want to "
 "lock.You should either reconcile or delete them."
 msgstr ""
+<<<<<<< HEAD
 "V období, ktoré chcete uzamknúť, stále existujú nevyrovnané riadky bankových"
 " výpisov. Mali by ste ich buď zosúladiť, alebo vymazať."
+=======
+"V období, ktoré chcete uzamknúť, stále existujú nevyrovnané riadky bankových "
+"výpisov. Mali by ste ich buď zosúladiť, alebo vymazať."
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_accrued_orders_wizard
@@ -35367,8 +36531,13 @@ msgstr "Tento rok"
 #. odoo-python
 #: code:addons/account/models/account_account.py:0
 msgid ""
+<<<<<<< HEAD
 "This account is configured in %(journal_names)s journal(s) (ids "
 "%(journal_ids)s) as payment debit or credit account. This means that this "
+=======
+"This account is configured in %(journal_names)s journal(s) (ids %"
+"(journal_ids)s) as payment debit or credit account. This means that this "
+>>>>>>> upstream/18.0
 "account's type should be reconcilable."
 msgstr ""
 
@@ -35412,9 +36581,15 @@ msgstr "Táto akcia nie je pre tento dokument k dispozícii."
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid ""
+<<<<<<< HEAD
 "This allows accountants to manage analytic and crossovered budgets. Once the"
 " master budgets and the budgets are defined, the project managers can set "
 "the planned amount on each analytic account."
+=======
+"This allows accountants to manage analytic and crossovered budgets. Once the "
+"master budgets and the budgets are defined, the project managers can set the "
+"planned amount on each analytic account."
+>>>>>>> upstream/18.0
 msgstr ""
 "To umožňuje účtovníkom spravovať analytické a krížené rozpočty. Po "
 "definovaní hlavných rozpočtov a čiastkových rozpočtov môžu projektoví "
@@ -35423,7 +36598,12 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,help:account.field_res_config_settings__module_account_batch_payment
 msgid ""
+<<<<<<< HEAD
 "This allows you grouping payments into a single batch and eases the reconciliation process.\n"
+=======
+"This allows you grouping payments into a single batch and eases the "
+"reconciliation process.\n"
+>>>>>>> upstream/18.0
 "-This installs the account_batch_payment module."
 msgstr ""
 "Umožní zoskupenie platieb do jednej dávky pre uľahčenie procesu párovania.\n"
@@ -35469,8 +36649,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
+<<<<<<< HEAD
 "This entry contains one or more taxes that are incompatible with your fiscal"
 " country. Check company fiscal country in the settings and tax country in "
+=======
+"This entry contains one or more taxes that are incompatible with your fiscal "
+"country. Check company fiscal country in the settings and tax country in "
+>>>>>>> upstream/18.0
 "taxes configuration."
 msgstr ""
 
@@ -35478,8 +36663,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
+<<<<<<< HEAD
 "This entry contains taxes that are not compatible with your fiscal position."
 " Check the country set in fiscal position and in your tax configuration."
+=======
+"This entry contains taxes that are not compatible with your fiscal position. "
+"Check the country set in fiscal position and in your tax configuration."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -35634,7 +36824,12 @@ msgstr ""
 #: code:addons/account/models/product.py:0
 msgid ""
 "This product is already being used in posted Journal Entries.\n"
+<<<<<<< HEAD
 "If you want to change its Unit of Measure, please archive this product and create a new one."
+=======
+"If you want to change its Unit of Measure, please archive this product and "
+"create a new one."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -35657,7 +36852,11 @@ msgstr ""
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
+<<<<<<< HEAD
 msgid "This setting cannot be changed after an invoice is created."
+=======
+msgid "This setting locks once a journal entry is created."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -35676,8 +36875,13 @@ msgstr ""
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_validate_account_move
 msgid ""
+<<<<<<< HEAD
 "This wizard will validate all journal entries selected. Once journal entries"
 " are validated, you can not update them anymore."
+=======
+"This wizard will validate all journal entries selected. Once journal entries "
+"are validated, you can not update them anymore."
+>>>>>>> upstream/18.0
 msgstr ""
 "Tento sprievodca potvrdí všetky interné účtovné doklady. Keď sú všetky "
 "interné účtovné doklady potvrdené, už ich nemôžete aktualizovať."
@@ -35688,7 +36892,12 @@ msgid ""
 "Those can be used to quickly create a journal items when reconciling\n"
 "                a bank statement or an account."
 msgstr ""
+<<<<<<< HEAD
 "Tie môžu byť použité pre rýchle vytvorenie položiek účtovnej knihy pri zlaďovaní\n"
+=======
+"Tie môžu byť použité pre rýchle vytvorenie položiek účtovnej knihy pri "
+"zlaďovaní\n"
+>>>>>>> upstream/18.0
 "bankového výpisu alebo účtu."
 
 #. module: account
@@ -35742,8 +36951,12 @@ msgstr "K overeniu"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.email_template_mail_gateway_failed
 msgid ""
+<<<<<<< HEAD
 "To add information to a previously sent invoice, reply to your \"sent\" "
 "email"
+=======
+"To add information to a previously sent invoice, reply to your \"sent\" email"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -35755,7 +36968,12 @@ msgstr ""
 #. odoo-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
+<<<<<<< HEAD
 "To keep the audit trail, you can not delete journal entries once they have been posted.\n"
+=======
+"To keep the audit trail, you can not delete journal entries once they have "
+"been posted.\n"
+>>>>>>> upstream/18.0
 "Instead, you can cancel the journal entry."
 msgstr ""
 
@@ -35769,8 +36987,13 @@ msgstr ""
 #: code:addons/account/models/account_payment.py:0
 msgid ""
 "To record payments with %(method_name)s, the recipient bank account must be "
+<<<<<<< HEAD
 "manually validated. You should go on the partner bank account of %(partner)s"
 " in order to validate it."
+=======
+"manually validated. You should go on the partner bank account of %(partner)s "
+"in order to validate it."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -35778,8 +37001,13 @@ msgstr ""
 #: code:addons/account/wizard/account_payment_register.py:0
 msgid ""
 "To record payments with %(payment_method)s, the recipient bank account must "
+<<<<<<< HEAD
 "be manually validated. You should go on the partner bank account in order to"
 " validate it."
+=======
+"be manually validated. You should go on the partner bank account in order to "
+"validate it."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -35890,18 +37118,29 @@ msgstr "Celkom podpísaný"
 #. odoo-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
+<<<<<<< HEAD
 "Total amount due (including sales orders and this document): "
 "%(total_credit)s"
 msgstr ""
 "Celková splatná suma (vrátane predajných objednávok a tohto "
 "dokumentu):%(total_credit)s"
+=======
+"Total amount due (including sales orders and this document): %(total_credit)s"
+msgstr ""
+"Celková splatná suma (vrátane predajných objednávok a tohto dokumentu):%"
+"(total_credit)s"
+>>>>>>> upstream/18.0
 
 #. module: account
 #. odoo-python
 #: code:addons/account/models/account_move.py:0
 msgid "Total amount due (including sales orders): %(total_credit)s"
+<<<<<<< HEAD
 msgstr ""
 "Celková splatná suma (vrátane predajných objednávok): %(total_credit)s"
+=======
+msgstr "Celková splatná suma (vrátane predajných objednávok): %(total_credit)s"
+>>>>>>> upstream/18.0
 
 #. module: account
 #. odoo-python
@@ -36041,8 +37280,13 @@ msgstr "Prevod na %s"
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid ""
 "Trigger alerts when creating Invoices and Sales Orders for Partners with a "
+<<<<<<< HEAD
 "Total Receivable amount exceeding a limit."
 "                                      Set a value greater than 0.0 to "
+=======
+"Total Receivable amount exceeding a "
+"limit.                                      Set a value greater than 0.0 to "
+>>>>>>> upstream/18.0
 "activate a credit limit check"
 msgstr ""
 
@@ -36418,8 +37662,13 @@ msgstr ""
 #. module: account
 #: model_terms:digest.tip,tip_description:account.digest_tip_account_0
 msgid ""
+<<<<<<< HEAD
 "Use the “<i>Send by Post</i>” option to post invoices automatically. For the"
 " cost of a local stamp, we do all the manual work: your invoice will be "
+=======
+"Use the “<i>Send by Post</i>” option to post invoices automatically. For the "
+"cost of a local stamp, we do all the manual work: your invoice will be "
+>>>>>>> upstream/18.0
 "printed in the right country, put in an envelop and sent by snail mail. Use "
 "this feature from the list view to post hundreds of invoices in bulk."
 msgstr ""
@@ -36433,7 +37682,12 @@ msgstr ""
 #: model:ir.model.fields,help:account.field_account_move__quick_edit_total_amount
 msgid ""
 "Use this field to encode the total amount of the invoice.\n"
+<<<<<<< HEAD
 "Odoo will automatically create one invoice line with default values to match it."
+=======
+"Odoo will automatically create one invoice line with default values to match "
+"it."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -36449,16 +37703,26 @@ msgid ""
 "should be reset to zero at each new fiscal year (like expenses, revenue..) "
 "should not have this option set."
 msgstr ""
+<<<<<<< HEAD
 "Používa sa vo výkazoch aby sme vedeli, či máme zvážiť položky účtovnej knihy"
 " od začiatku času alebo iba z fiškálneho roku. Typy účtov, ktoré by mali byť"
 " znovu nastavený na nulu pri každom novom fiškálnom roku (rovnako ako "
+=======
+"Používa sa vo výkazoch aby sme vedeli, či máme zvážiť položky účtovnej knihy "
+"od začiatku času alebo iba z fiškálneho roku. Typy účtov, ktoré by mali byť "
+"znovu nastavený na nulu pri každom novom fiškálnom roku (rovnako ako "
+>>>>>>> upstream/18.0
 "výdavky, príjmy ..), by nemali mať túto možnosť nastavenú."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal__sequence
 msgid "Used to order Journals in the dashboard view"
+<<<<<<< HEAD
 msgstr ""
 "Používa sa na poradie účtovných denníkov v zobrazení riadiaceho panelu"
+=======
+msgstr "Používa sa na poradie účtovných denníkov v zobrazení riadiaceho panelu"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal__loss_account_id
@@ -36472,8 +37736,13 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal__profit_account_id
 msgid ""
+<<<<<<< HEAD
 "Used to register a profit when the ending balance of a cash register differs"
 " from what the system computes"
+=======
+"Used to register a profit when the ending balance of a cash register differs "
+"from what the system computes"
+>>>>>>> upstream/18.0
 msgstr ""
 "Používa sa na registráciu zisku, keď sa konečný zostatok pokladne líši od "
 "toho čo vypočíta systém"
@@ -36593,16 +37862,30 @@ msgstr "Hodnota"
 msgid ""
 "Value for the amount of the writeoff line\n"
 "    * Percentage: Percentage of the balance, between 0 and 100.\n"
+<<<<<<< HEAD
 "    * Fixed: The fixed value of the writeoff. The amount will count as a debit if it is negative, as a credit if it is positive.\n"
 "    * From Label: There is no need for regex delimiter, only the regex is needed. For instance if you want to extract the amount from\n"
+=======
+"    * Fixed: The fixed value of the writeoff. The amount will count as a "
+"debit if it is negative, as a credit if it is positive.\n"
+"    * From Label: There is no need for regex delimiter, only the regex is "
+"needed. For instance if you want to extract the amount from\n"
+>>>>>>> upstream/18.0
 "R:9672938 10/07 AX 9415126318 T:5L:NA BRT: 3358,07 C:\n"
 "You could enter\n"
 "BRT: ([\\d,]+)"
 msgstr ""
 "Hodnota pre riadok s výškou odpisu\n"
 "    * Percento: Percento zostatku, od 0 do 100.\n"
+<<<<<<< HEAD
 "    * Fixná: Pevná hodnota odpisu. Suma sa započíta ako debet, ak je záporná, ako kredit, ak je kladná.\n"
 "    * Zo štítku: Nie je potrebný oddeľovač regexu, potrebný je len regex. Napríklad ak chcete získať sumu z\n"
+=======
+"    * Fixná: Pevná hodnota odpisu. Suma sa započíta ako debet, ak je "
+"záporná, ako kredit, ak je kladná.\n"
+"    * Zo štítku: Nie je potrebný oddeľovač regexu, potrebný je len regex. "
+"Napríklad ak chcete získať sumu z\n"
+>>>>>>> upstream/18.0
 "R:9672938 10/07 AX 9415126318 T:5L:NA BRT: 3358,07 C:\n"
 "Mohli by ste zadať\n"
 "BRT: ([\\d,]+)"
@@ -36791,11 +38074,22 @@ msgstr ""
 #. odoo-python
 #: code:addons/account/models/company.py:0
 msgid ""
+<<<<<<< HEAD
 "We cannot find a chart of accounts for this company, you should configure it. \n"
 "Please go to Account Configuration and select or install a fiscal localization."
 msgstr ""
 "Nemožno nájsť účtovnú osnovu pre túto spoločnosť, najprv ju skonfigurujte.\n"
 "Chodte prosím na konfiguráciu účtov a vyberte alebo nainštalujte fiškálnu lokalizáciu."
+=======
+"We cannot find a chart of accounts for this company, you should configure "
+"it. \n"
+"Please go to Account Configuration and select or install a fiscal "
+"localization."
+msgstr ""
+"Nemožno nájsť účtovnú osnovu pre túto spoločnosť, najprv ju skonfigurujte.\n"
+"Chodte prosím na konfiguráciu účtov a vyberte alebo nainštalujte fiškálnu "
+"lokalizáciu."
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_company_form_view_onboarding
@@ -36840,8 +38134,12 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,help:account.field_account_report_line__print_on_new_page
 msgid ""
+<<<<<<< HEAD
 "When checked this line and everything after it will be printed on a new "
 "page."
+=======
+"When checked this line and everything after it will be printed on a new page."
+>>>>>>> upstream/18.0
 msgstr ""
 "Po začiarknutí tento riadok a všetko po ňom bude vytlačené na novej stránke."
 
@@ -36853,8 +38151,12 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,help:account.field_account_report_expression__blank_if_zero
 msgid ""
+<<<<<<< HEAD
 "When checked, 0 values will not show when displaying this expression's "
 "value."
+=======
+"When checked, 0 values will not show when displaying this expression's value."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -36933,8 +38235,12 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/account/static/src/js/tours/account.js:0
 msgid "Write here <b>your own email address</b> to test the flow."
+<<<<<<< HEAD
 msgstr ""
 "Píšte sem <b>svoju vlastnú emailovú adresu</b>na otestovanie prietoku."
+=======
+msgstr "Píšte sem <b>svoju vlastnú emailovú adresu</b>na otestovanie prietoku."
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_payment_register__writeoff_is_exchange_account
@@ -37092,7 +38398,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -37530,6 +38839,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -37878,8 +39190,12 @@ msgstr ""
 #. odoo-python
 #: code:addons/account/wizard/account_automatic_entry_wizard.py:0
 msgid ""
+<<<<<<< HEAD
 "You can only change the period/account for items that are not yet "
 "reconciled."
+=======
+"You can only change the period/account for items that are not yet reconciled."
+>>>>>>> upstream/18.0
 msgstr ""
 "Obdobie / účet môžete zmeniť iba pre položky, ktoré ešte nie sú zosúladené."
 
@@ -37910,8 +39226,12 @@ msgstr "Registrovať platbu môžete iba za zaúčtované interné účtovné do
 #. module: account
 #. odoo-python
 #: code:addons/account/models/account_move.py:0
+<<<<<<< HEAD
 msgid ""
 "You can only request a cancellation for invoice sent to the government."
+=======
+msgid "You can only request a cancellation for invoice sent to the government."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -37950,8 +39270,13 @@ msgid ""
 "You can't change the company of your journal since there are some journal "
 "entries linked to it."
 msgstr ""
+<<<<<<< HEAD
 "Spoločnosť svojho denníka nemôžete zmeniť, pretože sú s ním spojené niektoré"
 " interné účtovné doklady."
+=======
+"Spoločnosť svojho denníka nemôžete zmeniť, pretože sú s ním spojené niektoré "
+"interné účtovné doklady."
+>>>>>>> upstream/18.0
 
 #. module: account
 #. odoo-python
@@ -37960,8 +39285,13 @@ msgid ""
 "You can't change the company of your tax since there are some journal items "
 "linked to it."
 msgstr ""
+<<<<<<< HEAD
 "Spoločnosť, v ktorej sa nachádza vaša daň, nemôžete zmeniť, pretože sú s ňou"
 " spojené niektoré položky denníka."
+=======
+"Spoločnosť, v ktorej sa nachádza vaša daň, nemôžete zmeniť, pretože sú s ňou "
+"spojené niektoré položky denníka."
+>>>>>>> upstream/18.0
 
 #. module: account
 #. odoo-python
@@ -37985,6 +39315,7 @@ msgstr ""
 #. module: account
 #. odoo-python
 #: code:addons/account/wizard/account_payment_register.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -38592,13 +39923,22 @@ msgid ""
 "You can't create payments for entries belonging to different branches "
 "without access to parent company."
 >>>>>>> upstream/18.0
+=======
+msgid ""
+"You can't create payments for entries belonging to different branches "
+"without access to parent company."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
 #. odoo-python
 #: code:addons/account/wizard/account_payment_register.py:0
+<<<<<<< HEAD
 msgid ""
 "You can't create payments for entries belonging to different companies."
+=======
+msgid "You can't create payments for entries belonging to different companies."
+>>>>>>> upstream/18.0
 msgstr "Nemôžete vytvárať platby za záznamy patriace rôznym spoločnostiam."
 
 #. module: account
@@ -38625,16 +39965,26 @@ msgstr ""
 #. odoo-python
 #: code:addons/account/models/account_journal.py:0
 msgid ""
+<<<<<<< HEAD
 "You can't have two payment method lines of the same payment type "
 "(%(payment_type)s) and with the same name (%(name)s) on a single journal."
+=======
+"You can't have two payment method lines of the same payment type (%"
+"(payment_type)s) and with the same name (%(name)s) on a single journal."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
 #. odoo-python
 #: code:addons/account/wizard/account_payment_register.py:0
 msgid ""
+<<<<<<< HEAD
 "You can't open the register payment wizard without at least one "
 "receivable/payable line."
+=======
+"You can't open the register payment wizard without at least one receivable/"
+"payable line."
+>>>>>>> upstream/18.0
 msgstr ""
 "Sprievodcu registráciou platieb nemôžete otvoriť bez aspoň jedného riadku "
 "pohľadávok / záväzkov."
@@ -38643,16 +39993,26 @@ msgstr ""
 #. odoo-python
 #: code:addons/account/models/account_bank_statement_line.py:0
 msgid ""
+<<<<<<< HEAD
 "You can't provide a foreign currency without specifying an amount in 'Amount"
 " in Currency' field."
+=======
+"You can't provide a foreign currency without specifying an amount in 'Amount "
+"in Currency' field."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
 #. odoo-python
 #: code:addons/account/models/account_bank_statement_line.py:0
 msgid ""
+<<<<<<< HEAD
 "You can't provide an amount in foreign currency without specifying a foreign"
 " currency."
+=======
+"You can't provide an amount in foreign currency without specifying a foreign "
+"currency."
+>>>>>>> upstream/18.0
 msgstr "Sumu v cudzej mene nemôžete uviesť bez uvedenia cudzej meny."
 
 #. module: account
@@ -38662,8 +40022,13 @@ msgid ""
 "You can't register a payment because there is nothing left to pay on the "
 "selected journal items."
 msgstr ""
+<<<<<<< HEAD
 "Nemôžete zaregistrovať platbu, pretože vo vybraných položkách denníka už nie"
 " je čo platiť."
+=======
+"Nemôžete zaregistrovať platbu, pretože vo vybraných položkách denníka už nie "
+"je čo platiť."
+>>>>>>> upstream/18.0
 
 #. module: account
 #. odoo-python
@@ -38685,8 +40050,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/account/models/account_account.py:0
 msgid ""
+<<<<<<< HEAD
 "You can't unlink this company from this account since there are some journal"
 " items linked to it."
+=======
+"You can't unlink this company from this account since there are some journal "
+"items linked to it."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -38710,8 +40080,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/account/models/account_account.py:0
 msgid ""
+<<<<<<< HEAD
 "You cannot change the type of an account set as Bank Account on a journal to"
 " Receivable or Payable."
+=======
+"You cannot change the type of an account set as Bank Account on a journal to "
+"Receivable or Payable."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -38786,8 +40161,12 @@ msgstr ""
 #. odoo-python
 #: code:addons/account/models/mail_template.py:0
 msgid ""
+<<<<<<< HEAD
 "You cannot delete this mail template, it is used in the invoice sending "
 "flow."
+=======
+"You cannot delete this mail template, it is used in the invoice sending flow."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -38818,10 +40197,19 @@ msgstr ""
 #. odoo-python
 #: code:addons/account/models/account_move_line.py:0
 msgid ""
+<<<<<<< HEAD
 "You cannot do this modification on a reconciled journal entry. You can just change some non legal fields or you must unreconcile first.\n"
 "Journal Entry (id): %(entry)s (%(id)s)"
 msgstr ""
 "Túto zmenu nemôžete vykonať na zosúladenom denníku. Môžete len zmeniť niektoré nelegálne polia, alebo musíte byť najskôr zosúladení.\n"
+=======
+"You cannot do this modification on a reconciled journal entry. You can just "
+"change some non legal fields or you must unreconcile first.\n"
+"Journal Entry (id): %(entry)s (%(id)s)"
+msgstr ""
+"Túto zmenu nemôžete vykonať na zosúladenom denníku. Môžete len zmeniť "
+"niektoré nelegálne polia, alebo musíte byť najskôr zosúladení.\n"
+>>>>>>> upstream/18.0
 "Zápis do denníka (id): %(entry)s (%(id)s)"
 
 #. module: account
@@ -38864,8 +40252,13 @@ msgid ""
 "You cannot have a receivable/payable account that is not reconcilable. "
 "(account code: %s)"
 msgstr ""
+<<<<<<< HEAD
 "Nemôžete mať účet pohľadávok / záväzkov, ktorý nie je rekoncilovateľný. (kód"
 " účtu: %s)"
+=======
+"Nemôžete mať účet pohľadávok / záväzkov, ktorý nie je rekoncilovateľný. (kód "
+"účtu: %s)"
+>>>>>>> upstream/18.0
 
 #. module: account
 #. odoo-python
@@ -39138,7 +40531,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -39510,6 +40906,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -39799,11 +41198,19 @@ msgstr ""
 #. odoo-python
 #: code:addons/account/models/account_move_line.py:0
 msgid ""
+<<<<<<< HEAD
 "You cannot use this account (%s) in this journal, check the section "
 "'Control-Access' under tab 'Advanced Settings' on the related journal."
 msgstr ""
 "Tento účet nemôžete použiť (%s) v tomto denníku skontrolujte sekciu "
 "„Control-Access“ na karte „Pokročilé nastavenia“ v príslušnom denníku."
+=======
+"You cannot use this account (%s) in this journal, check the section 'Control-"
+"Access' under tab 'Advanced Settings' on the related journal."
+msgstr ""
+"Tento účet nemôžete použiť (%s) v tomto denníku skontrolujte sekciu „Control-"
+"Access“ na karte „Pokročilé nastavenia“ v príslušnom denníku."
+>>>>>>> upstream/18.0
 
 #. module: account
 #. odoo-python
@@ -39812,8 +41219,13 @@ msgid ""
 "You cannot use this wizard on journal entries belonging to different "
 "companies."
 msgstr ""
+<<<<<<< HEAD
 "Tento sprievodca sa nedá použiť na interné účtovné doklady patriacich rôznym"
 " spoločnostiam."
+=======
+"Tento sprievodca sa nedá použiť na interné účtovné doklady patriacich rôznym "
+"spoločnostiam."
+>>>>>>> upstream/18.0
 
 #. module: account
 #. odoo-python
@@ -39835,6 +41247,7 @@ msgstr ""
 
 #. module: account
 #. odoo-python
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -39990,6 +41403,8 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -40401,7 +41816,11 @@ msgid "Your Invoices"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vaše faktúry"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vaše faktúry"
 >>>>>>> upstream/18.0
@@ -40757,8 +42176,13 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account.account_default_terms_and_conditions
 msgid ""
 "cannot under any circumstances, be required by the client to appear as a "
+<<<<<<< HEAD
 "third party in the context of any claim for damages filed against the client"
 " by an end consumer."
+=======
+"third party in the context of any claim for damages filed against the client "
+"by an end consumer."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -40963,7 +42387,10 @@ msgstr "tu"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -41206,6 +42633,9 @@ msgstr "v"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -41403,7 +42833,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account.view_partner_bank_form_inherit_account
 msgid ""
 "is a money transfer service and not a bank.\n"
+<<<<<<< HEAD
 "                            Double check if the account can be trusted by calling the vendor.<br/>"
+=======
+"                            Double check if the account can be trusted by "
+"calling the vendor.<br/>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -41434,8 +42869,13 @@ msgstr ""
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_default_terms_and_conditions
 msgid ""
+<<<<<<< HEAD
 "must be notified of any claim by means of a letter sent by recorded delivery"
 " to its registered office within 8 days of the delivery of the goods or the "
+=======
+"must be notified of any claim by means of a letter sent by recorded delivery "
+"to its registered office within 8 days of the delivery of the goods or the "
+>>>>>>> upstream/18.0
 "provision of the services."
 msgstr ""
 
@@ -41608,6 +43048,10 @@ msgstr ""
 #. module: account
 #: model:mail.template,subject:account.mail_template_data_payment_receipt
 msgid ""
+<<<<<<< HEAD
 "{{ object.company_id.name }} Payment Receipt (Ref {{ object.name or 'n/a' "
 "}})"
+=======
+"{{ object.company_id.name }} Payment Receipt (Ref {{ object.name or 'n/a' }})"
+>>>>>>> upstream/18.0
 msgstr ""

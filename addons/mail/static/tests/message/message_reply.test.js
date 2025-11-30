@@ -97,7 +97,10 @@ test("reply shows correct author avatar", async () => {
     );
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 test("reply with only attachment shows parent message context", async () => {
     const pyEnv = await startServer();
@@ -126,4 +129,7 @@ test("reply with only attachment shows parent message context", async () => {
         text: "Original message content",
     });
 });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

@@ -139,6 +139,10 @@ export const signatureField = {
     fieldDependencies: [{ name: "write_date", type: "datetime" }],
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    supportedTypes: ["binary"],
+>>>>>>> upstream/18.0
 =======
     supportedTypes: ["binary"],
 >>>>>>> upstream/18.0

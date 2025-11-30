@@ -1,7 +1,12 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* gamification
 # 
+=======
+# * gamification
+#
+>>>>>>> upstream/18.0
 # Translators:
 # emre oktem, 2024
 # Tiffany Chang, 2024
@@ -159,6 +164,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Deniz Guvener, 2025
 >>>>>>> upstream/18.0
@@ -553,11 +559,16 @@
 # Deniz Guvener_Odoo <degu@odoo.com>, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+# Deniz Guvener_Odoo <degu@odoo.com>, 2025
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-16 13:41+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1090,6 +1101,18 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: tr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+=======
+"PO-Revision-Date: 2025-11-25 09:48+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Turkish <https://translate.odoo.com/projects/odoo-18/"
+"gamification/tr/>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:mail.template,body_html:gamification.email_template_goal_reminder
@@ -1197,7 +1220,11 @@ msgstr ""
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.challenge_form_view
 msgid "<span class=\"o_stat_text\">Related Goals</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">İlgili Hedefler</span>"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.gamification_karma_rank_view_form
@@ -1506,6 +1533,7 @@ msgstr ""
 "                        <div>\n"
 "                            <t t-if=\"object.visibility_mode == 'ranking'\">\n"
 "                                <td style=\"padding:15px;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2031,6 +2059,9 @@ msgstr ""
 =======
 "                                    <p style=\"font-size:20px;color:#666666;\" align=\"center\">Lider Panosu</p>\n"
 >>>>>>> upstream/18.0
+=======
+"                                    <p style=\"font-size:20px;color:#666666;\" align=\"center\">Lider Panosu</p>\n"
+>>>>>>> upstream/18.0
 "                                </td>\n"
 "                            </t>\n"
 "                        </div>\n"
@@ -2170,7 +2201,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            <span style=\"color:#666666;font-size:13px;\">İşte meydan okumadaki mevcut ilerlemeniz <strong t-out=\"object.name or ''\"/>.</span>\n"
+=======
+"                            <span style=\"color:#666666;font-size:13px;\">İşte mücadeledeki mevcut ilerlemeniz: <strong t-out=\"object.name or ''\"/>.</span>\n"
+>>>>>>> upstream/18.0
 =======
 "                            <span style=\"color:#666666;font-size:13px;\">İşte mücadeledeki mevcut ilerlemeniz: <strong t-out=\"object.name or ''\"/>.</span>\n"
 >>>>>>> upstream/18.0
@@ -2705,11 +2740,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                        <th align=\"left\" style=\"padding-bottom: 0px;width:40%;text-align:left;\">Hedefler</th>\n"
 "                                        <th style=\"width:20%;text-align:right;\" align=\"left\">Hedef</th>\n"
 "                                        <th style=\"width:20%;text-align:right;\" align=\"right\">Akım</th>\n"
 "                                        <th style=\"width:20%;text-align:right;\" align=\"right\">Bütünlük</th>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3104,6 +3142,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3525,6 +3566,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                Meydan okuma: <strong t-out=\"object.name or ''\"/>.\n"
 "                            </span> \n"
 "                            <t t-foreach=\"challenge_lines\" t-as=\"line\">\n"
@@ -3534,6 +3576,8 @@ msgstr ""
 "                                        <td width=\"50%\">\n"
 "                                            <div>Hedef için En Başarılılar <strong t-out=\"line['name'] or ''\"/></div>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3932,6 +3976,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4388,7 +4435,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                <!-- data table -->\n"
+=======
+"                                <!-- veri tablosu -->\n"
+>>>>>>> upstream/18.0
 =======
 "                                <!-- veri tablosu -->\n"
 >>>>>>> upstream/18.0
@@ -4919,8 +4970,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                                        <th style=\"width:15%;text-align:center;\">Derece</th>\n"
 "                                                        <th style=\"width:25%;text-align:left;\">Adı</th>\n"
+=======
+"                                                        <th style=\"width:15%;text-align:center;\">Sıra</th>\n"
+"                                                        <th style=\"width:25%;text-align:left;\">İsim</th>\n"
+>>>>>>> upstream/18.0
 =======
 "                                                        <th style=\"width:15%;text-align:center;\">Sıra</th>\n"
 "                                                        <th style=\"width:25%;text-align:left;\">İsim</th>\n"
@@ -5584,7 +5640,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                                        <th style=\"width:30%;text-align:right;\">Bütünlük</th>\n"
+=======
+"                                                        <th style=\"width:30%;text-align:right;\">Tamamlanma oranı</th>\n"
+>>>>>>> upstream/18.0
 =======
 "                                                        <th style=\"width:30%;text-align:right;\">Tamamlanma oranı</th>\n"
 >>>>>>> upstream/18.0
@@ -6123,7 +6183,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                                        <td width=\"30%\" align=\"right\" t-attf-style=\"background-color:{{ tdBgColor }};padding:5px 0;line-height:1;\"><t t-out=\"&quot;%.2f&quot; % goal['current'] or ''\"/><br/><span t-attf-style=\"font-size:13px;color:{{ mutedColor }};\">on <t t-out=\"&quot;%.2f&quot; % line['target'] or ''\"/></span>\n"
+=======
+"                                                        <td width=\"30%\" align=\"right\" t-attf-style=\"background-color:{{ tdBgColor }};padding:5px 0;line-height:1;\"><t t-out=\"&quot;%.2f&quot; % goal['current'] or ''\"/><br/><span t-attf-style=\"font-size:13px;color:{{ mutedColor }};\">üzerinden <t t-out=\"&quot;%.2f&quot; % line['target'] or ''\"/></span>\n"
+>>>>>>> upstream/18.0
 =======
 "                                                        <td width=\"30%\" align=\"right\" t-attf-style=\"background-color:{{ tdBgColor }};padding:5px 0;line-height:1;\"><t t-out=\"&quot;%.2f&quot; % goal['current'] or ''\"/><br/><span t-attf-style=\"font-size:13px;color:{{ mutedColor }};\">üzerinden <t t-out=\"&quot;%.2f&quot; % line['target'] or ''\"/></span>\n"
 >>>>>>> upstream/18.0
@@ -6615,7 +6679,11 @@ msgstr "Etkin"
 #: code:addons/gamification/models/res_users.py:0
 #: code:addons/gamification/tests/test_karma_tracking.py:0
 msgid "Add Manually"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Manuel Olarak Ekle"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.challenge_form_view
@@ -6877,7 +6945,11 @@ msgstr "Konsolide"
 #. odoo-python
 #: code:addons/gamification/models/gamification_karma_tracking.py:0
 msgid "Consolidation from %(from_date)s to %(end_date)s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(from_date)s tarihinden %(end_date)s tarihine kadar konsolidasyon"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.actions.act_window,name:gamification.action_new_simplified_res_users
@@ -7093,7 +7165,11 @@ msgstr "Taslak"
 #. module: gamification
 #: model_terms:gamification.karma.rank,description_motivational:gamification.rank_newbie
 msgid "Earn your first points and join the adventure!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "İlk puanlarınızı kazanın ve maceraya katılın!"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_challenge__end_date
@@ -7369,7 +7445,11 @@ msgstr "Bu Rozeti Ver"
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.gamification_karma_tracking_view_search
 msgid "Granted By"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tarafından Verildi"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.badge_user_kanban_view
@@ -7562,19 +7642,31 @@ msgstr "Karma Changes"
 #: model_terms:ir.ui.view,arch_db:gamification.gamification_karma_tracking_view_search
 #: model_terms:ir.ui.view,arch_db:gamification.gamification_karma_tracking_view_tree
 msgid "Karma Owner"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Karma Sahibi"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.actions.act_window,name:gamification.gamification_karma_tracking_action
 #: model:ir.ui.menu,name:gamification.gamification_karma_tracking_menu
 msgid "Karma Tracking"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Karma Takibi"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #. odoo-python
 #: code:addons/gamification/models/res_users.py:0
 msgid "Karma Updates"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Karma Güncellemeleri"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_challenge__last_report_date
@@ -7712,7 +7804,11 @@ msgstr "Hedeflerim"
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.gamification_karma_tracking_view_search
 msgid "My Karma"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Benim Karmam"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_badge__stat_my_monthly_sending
@@ -7779,7 +7875,11 @@ msgstr "Sonraki Rapor Tarihi"
 #. module: gamification
 #: model_terms:ir.actions.act_window,help:gamification.gamification_karma_tracking_action
 msgid "No Karma Tracking"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Karma Takibi Yok"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.actions.act_window,help:gamification.goals_from_challenge_act
@@ -7808,6 +7908,11 @@ msgid ""
 "Nobody has succeeded to reach every goal, no badge is rewarded for this "
 "challenge."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Hiç kimse tüm hedeflere ulaşmayı başaramadı, bu meydan okuma için hiçbir "
+"rozet verilmedi."
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #. odoo-python
@@ -7923,7 +8028,11 @@ msgstr "Dönemsellik"
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.gamification_karma_tracking_view_tree
 msgid "Previous Total"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Önceki Toplam"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:gamification.badge,name:gamification.badge_problem_solver
@@ -7979,42 +8088,74 @@ msgstr "Ranks List"
 #. module: gamification
 #: model_terms:gamification.karma.rank,description_motivational:gamification.rank_master
 msgid "Reach the next rank and become a Master!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bir sonraki rütbeye ulaşın ve Usta olun!"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:gamification.karma.rank,description_motivational:gamification.rank_doctor
 msgid "Reach the next rank and become a powerful user!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bir sonraki rütbeye ulaşın ve güçlü bir kullanıcı olun!"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:gamification.karma.rank,description_motivational:gamification.rank_bachelor
 msgid "Reach the next rank and gain a very magic wand!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bir sonraki rütbeye ulaşın ve çok sihirli bir asa kazanın!"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:gamification.karma.rank,description_motivational:gamification.rank_master
 msgid "Reach the next rank and gain a very nice hat!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bir sonraki rütbeye ulaşın ve çok güzel bir şapka kazanın!"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:gamification.karma.rank,description_motivational:gamification.rank_student
 msgid "Reach the next rank and gain a very nice mug!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bir sonraki rütbeye ulaşın ve çok güzel bir kupa kazanın!"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:gamification.karma.rank,description_motivational:gamification.rank_doctor
 msgid "Reach the next rank and gain a very nice unicorn!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bir sonraki rütbeye ulaşın ve çok güzel bir tek boynuzlu at kazanın!"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:gamification.karma.rank,description_motivational:gamification.rank_bachelor
 msgid "Reach the next rank to improve your status!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Statünüzü yükseltmek için bir sonraki rütbeye ulaşın!"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:gamification.karma.rank,description_motivational:gamification.rank_student
 msgid "Reach the next rank to show the rest of the world you exist."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Dünyanın geri kalanına var olduğunuzu göstermek için bir üst rütbeye ulaşın."
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields.selection,name:gamification.selection__gamification_goal__state__reached
@@ -8109,6 +8250,11 @@ msgid ""
 "Reward (badge %(badge_name)s) for every succeeding user was sent to "
 "%(users)s."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Başarılı olan her kullanıcı için ödül (rozet %(badge_name)s) %(users)s "
+"adresine gönderildi."
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_challenge__reward_failure
@@ -8287,6 +8433,11 @@ msgid ""
 "Special rewards were sent to the top competing users. The ranking for this "
 "challenge is:"
 msgstr ""
+<<<<<<< HEAD
+=======
+"En iyi yarışan kullanıcılara özel ödüller gönderildi. Bu yarışma için "
+"sıralama şu şekildedir:"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.challenge_form_view
@@ -8359,7 +8510,11 @@ msgstr "Hedef: daha az"
 #. odoo-python
 #: code:addons/gamification/tests/test_karma_tracking.py:0
 msgid "Test Reason"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Test Nedeni"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,help:gamification.field_gamification_goal_definition__action_id
@@ -8597,7 +8752,11 @@ msgstr "Karma Değişikliklerini İzleyin"
 #. module: gamification
 #: model_terms:ir.actions.act_window,help:gamification.gamification_karma_tracking_action
 msgid "Track the sources of the users karma and monitor"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kullanıcı karmasının kaynaklarını takip edin ve izleyin"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.gamification_karma_tracking_view_form
@@ -8651,7 +8810,11 @@ msgstr "Kullanıcı"
 #. odoo-python
 #: code:addons/gamification/models/res_users.py:0
 msgid "User Creation"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kullanıcı Oluşturma"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_challenge__user_domain
@@ -8812,7 +8975,11 @@ msgstr "örn. Sorun Çözücü"
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.gamification_karma_rank_view_form
 msgid "e.g. Reach this rank to gain a free mug!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Örn. Ücretsiz bir kupa kazanmak için bu rütbeye ulaşın!"
+>>>>>>> upstream/18.0
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.goal_definition_form_view

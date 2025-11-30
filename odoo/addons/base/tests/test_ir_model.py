@@ -430,7 +430,10 @@ class TestIrModel(TransactionCase):
                          "The currency field in monetary should have x_good_currency as name")
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_invalid_field_domain(self):
         """Ensure assigning an invalid domain raises ValidationError."""
         field_ripeness_id = self.env['ir.model.fields']._get('x_bananas', 'x_ripeness_id')
@@ -446,6 +449,9 @@ class TestIrModel(TransactionCase):
         self.assertIn('An error occurred while evaluating the domain', str(error.exception))
         self.assertEqual(field_ripeness_id.domain, valid_domain)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 @tagged('-at_install', 'post_install')
 class TestIrModelEdition(TransactionCase):
@@ -717,7 +723,10 @@ class TestIrModelFieldsTranslation(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1201,6 +1210,9 @@ class TestIrModelInherit(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

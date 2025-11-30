@@ -120,7 +120,11 @@ from datetime import timedelta
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import http, fields
+=======
+from odoo import http, fields, _
+>>>>>>> upstream/18.0
 =======
 from odoo import http, fields, _
 >>>>>>> upstream/18.0
@@ -601,6 +605,11 @@ from werkzeug.exceptions import NotFound, BadRequest, Unauthorized
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.exceptions import MissingError
+from odoo.tools import consteq
+>>>>>>> upstream/18.0
 =======
 from odoo.exceptions import MissingError
 from odoo.tools import consteq
@@ -1203,6 +1212,12 @@ class PosSelfOrderController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if amount_total == 0:
+            order_ids._process_saved_order(False)
+
+>>>>>>> upstream/18.0
 =======
         if amount_total == 0:
             order_ids._process_saved_order(False)
@@ -1774,7 +1789,10 @@ class PosSelfOrderController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2142,6 +2160,9 @@ class PosSelfOrderController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2551,6 +2572,7 @@ class PosSelfOrderController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         domain = ['&', '&',
             ('table_id', '=', table.id),
@@ -2562,6 +2584,8 @@ class PosSelfOrderController(http.Controller):
             domain = expression.OR([domain, [
                 '&',
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3073,6 +3097,9 @@ class PosSelfOrderController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

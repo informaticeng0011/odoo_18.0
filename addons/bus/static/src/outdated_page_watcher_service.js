@@ -166,7 +166,10 @@ import { browser } from "@web/core/browser/browser";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { deserializeDateTime } from "@web/core/l10n/dates";
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -517,6 +520,7 @@ export class OutdatedPageWatcherService {
      */
     setup(env, { bus_service, multi_tab, notification }) {
         this.notification = notification;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1095,6 +1099,8 @@ export class OutdatedPageWatcherService {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         this.multi_tab = multi_tab;
         this.lastNotificationId = multi_tab.getSharedValue("last_notification_id");
         /** @deprecated */
@@ -1247,6 +1253,9 @@ export class OutdatedPageWatcherService {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1550,6 +1559,7 @@ export class OutdatedPageWatcherService {
             },
             { once: true }
         );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2098,6 +2108,8 @@ export class OutdatedPageWatcherService {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         bus_service.addEventListener("disconnect", () => {
             this.lastNotificationId = multi_tab.getSharedValue("last_notification_id");
             this.lastDisconnectDt = DateTime.now();
@@ -2249,6 +2261,9 @@ export class OutdatedPageWatcherService {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2711,6 +2726,9 @@ export class OutdatedPageWatcherService {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3033,6 +3051,7 @@ export class OutdatedPageWatcherService {
         });
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3789,6 +3808,10 @@ export class OutdatedPageWatcherService {
     async checkHasMissedNotifications() {
         if (!this.multi_tab.isOnMainTab() || !this.lastNotificationId) {
 >>>>>>> upstream/18.0
+=======
+    async checkHasMissedNotifications() {
+        if (!this.multi_tab.isOnMainTab() || !this.lastNotificationId) {
+>>>>>>> upstream/18.0
             return;
         }
         const hasMissedNotifications = await rpc(
@@ -3960,6 +3983,9 @@ export class OutdatedPageWatcherService {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

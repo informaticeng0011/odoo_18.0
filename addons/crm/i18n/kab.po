@@ -4,19 +4,34 @@
 #
 # Translators:
 # Martin Trigaux <mat@odoo.com>, 2017
+<<<<<<< HEAD
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-16 13:48+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2017-11-16 08:08+0000\n"
 "Last-Translator: Martin Trigaux <mat@odoo.com>, 2017\n"
 "Language-Team: Kabyle (https://www.transifex.com/odoo/teams/41243/kab/)\n"
+=======
+"PO-Revision-Date: 2025-11-25 09:50+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Kabyle <https://translate.odoo.com/projects/odoo-18/crm/kab/>"
+"\n"
+>>>>>>> upstream/18.0
 "Language: kab\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+<<<<<<< HEAD
+=======
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_team__lead_all_assigned_month_count
@@ -82,7 +97,11 @@ msgstr ""
 #. odoo-python
 #: code:addons/crm/models/res_config_settings.py:0
 msgid "%s and %s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s u %s"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #. odoo-python
@@ -306,7 +325,11 @@ msgstr ""
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_team__alias_defaults
 msgid "A Python dictionary that will be evaluated to provide default values when creating new records for this alias."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "D amawal n Python ara yili"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_3
@@ -321,7 +344,11 @@ msgstr ""
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__message_needaction
 msgid "Action Needed"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tigawt taḍullit"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_activity_report__active
@@ -330,7 +357,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:crm.field_crm_recurring_plan__active
 #: model_terms:ir.ui.view,arch_db:crm.crm_opportunity_report_view_search
 msgid "Active"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Urmid"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead2opportunity_partner_mass__lead_tomerge_ids
@@ -343,7 +374,11 @@ msgstr ""
 #: model:ir.ui.menu,name:crm.crm_activity_report_menu
 #: model_terms:ir.ui.view,arch_db:crm.crm_team_view_kanban_dashboard
 msgid "Activities"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Irmuden"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_activity_report_view_graph
@@ -361,7 +396,11 @@ msgstr ""
 #: model:ir.model,name:crm.model_mail_activity
 #: model_terms:ir.ui.view,arch_db:crm.crm_activity_report_view_search
 msgid "Activity"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Armud"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_activity_report__body
@@ -371,28 +410,48 @@ msgstr ""
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__activity_exception_decoration
 msgid "Activity Exception Decoration"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Abreqqes n tsureft n urmud"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__activity_state
 msgid "Activity State"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Addad n urmud"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_activity_report__mail_activity_type_id
 #: model_terms:ir.ui.view,arch_db:crm.crm_activity_report_view_search
 msgid "Activity Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tawsit n urmud"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__activity_type_icon
 msgid "Activity Type Icon"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tigniṭ n tewsit n urmud"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.ui.menu,name:crm.crm_team_menu_config_activity_types
 msgid "Activity Types"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tiwsatin n urmud"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_case_tree_view_oppor
@@ -428,7 +487,11 @@ msgstr ""
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
 msgid "Address"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tansa"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_merge_summary
@@ -439,37 +502,65 @@ msgstr ""
 #: model:ir.model.fields,field_description:crm.field_crm_team__alias_id
 #: model_terms:ir.ui.view,arch_db:crm.crm_team_view_tree
 msgid "Alias"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Taselqebt"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_team__alias_contact
 msgid "Alias Contact Security"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Taɣellist n unermis n tzaẓlut\""
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_team__alias_name
 msgid "Alias Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Isem n Tzaẓlut"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_team__alias_status
 msgid "Alias Status"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Addad n Tzaẓlut"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_team__alias_domain
 msgid "Alias domain"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Isem n Taɤult"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_team__alias_status
 msgid "Alias status assessed on the last message received."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Addad n tzaẓlut yettwaskazal ɣef yizen aneggaru yettwarmsen."
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_team__alias_model_id
 msgid "Aliased Model"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Amudem s tzaẓlut"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #. odoo-javascript
@@ -496,7 +587,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "Archived"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Yettwaɣbeṛ"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #. odoo-python
@@ -576,7 +671,11 @@ msgstr ""
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__message_attachment_count
 msgid "Attachment Count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Asiḍen n Tsawit"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_team__assignment_auto_enabled
@@ -664,7 +763,11 @@ msgstr ""
 #. module: crm
 #: model:ir.model,name:crm.model_calendar_event
 msgid "Calendar Event"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tadyant n Tasawast"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:mail.activity.type,name:crm.mail_activity_demo_call_demo
@@ -677,7 +780,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "Campaign"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Amzizzel"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_merge_summary
@@ -696,7 +803,11 @@ msgstr "Sefsex"
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lost_reason_view_tree
 msgid "Channel"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Abadu"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_team__use_leads
@@ -715,7 +826,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "City"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aɣrem"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_activity_report__tag_ids
@@ -753,7 +868,11 @@ msgstr ""
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__color
 msgid "Color Index"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ini"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_activity_report__company_id
@@ -768,7 +887,11 @@ msgstr "Takebbwanit"
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__partner_name
 msgid "Company Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Isem n tkebbwanit"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_merge_summary
@@ -789,12 +912,20 @@ msgstr ""
 #. module: crm
 #: model:ir.model,name:crm.model_res_config_settings
 msgid "Config Settings"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sefrek aɣewwaṛ"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.ui.menu,name:crm.crm_menu_config
 msgid "Configuration"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tawila"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.sales_team_form_view_in_crm
@@ -815,7 +946,11 @@ msgstr ""
 #. module: crm
 #: model:ir.model,name:crm.model_res_partner
 msgid "Contact"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Anermis"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_merge_summary
@@ -921,7 +1056,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "Country"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tamurt"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_res_config_settings__module_website_crm_iap_reveal
@@ -1042,7 +1181,11 @@ msgstr "Tanfalit"
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_team__alias_bounced_content
 msgid "Custom Bounced Message"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izen n uṛaǧu yettwagen"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #. odoo-python
@@ -1061,7 +1204,11 @@ msgstr "Amsaɣ"
 #. odoo-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "Customer Email"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Imayl n umsaɣ"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.ui.menu,name:crm.res_partner_menu_customer
@@ -1077,7 +1224,11 @@ msgstr ""
 #. module: crm
 #: model:ir.model.fields.selection,name:crm.selection__res_config_settings__crm_auto_assignment_interval_type__days
 msgid "Days"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ussan"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__day_open
@@ -1098,7 +1249,11 @@ msgstr ""
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_team__alias_defaults
 msgid "Default Values"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Azalen imezwura"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
@@ -1108,12 +1263,20 @@ msgstr ""
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_case_kanban_view_leads
 msgid "Delete"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kkes"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lost_reason__name
 msgid "Description"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aglam"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_0
@@ -1138,7 +1301,11 @@ msgstr ""
 #. module: crm
 #: model:ir.model,name:crm.model_digest_digest
 msgid "Digest"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Agzul"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_activity_report__display_name
@@ -1154,13 +1321,21 @@ msgstr ""
 #: model:ir.model.fields,field_description:crm.field_crm_recurring_plan__display_name
 #: model:ir.model.fields,field_description:crm.field_crm_stage__display_name
 msgid "Display Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Isem n Ubeqqeḍ"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #. odoo-python
 #: code:addons/crm/models/digest.py:0
 msgid "Do not have access, skip this data for user's digest email"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ur tesɛiḍ ara addaf, zgar isefka-agi i tirawt n ugzul n useqdac"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model.fields.selection,name:crm.selection__crm_lead2opportunity_partner__action__nothing
@@ -1172,7 +1347,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:crm.crm_team_member_view_form
 #: model_terms:ir.ui.view,arch_db:crm.sales_team_form_view_in_crm
 msgid "Domain"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Taɣult"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #. odoo-javascript
@@ -1194,7 +1373,11 @@ msgstr ""
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_case_kanban_view_leads
 msgid "Edit"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ẓreg"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__email_from
@@ -1202,7 +1385,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
 #: model_terms:ir.ui.view,arch_db:crm.quick_create_opportunity_form
 msgid "Email"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Imayl"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.sales_team_form_view_in_crm
@@ -1464,7 +1651,11 @@ msgstr ""
 #. module: crm
 #: model:ir.model.fields.selection,name:crm.selection__res_config_settings__crm_auto_assignment_interval_type__hours
 msgid "Hours"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Asragen"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_activity_report__id
@@ -1576,7 +1767,11 @@ msgstr ""
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
 msgid "Internal Notes"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Iwenniten igensanen"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_res_config_settings__crm_auto_assignment_interval_type
@@ -1612,7 +1807,11 @@ msgstr ""
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__function
 msgid "Job Position"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tadekkwant n Umahil"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_merge_summary
@@ -1642,7 +1841,11 @@ msgstr ""
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__lang_id
 msgid "Language"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tutlayt"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_merge_summary
@@ -1662,7 +1865,11 @@ msgstr ""
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__date_last_stage_update
 msgid "Last Stage Update"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aleqqem n umecwaṛ aneggaru"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead2opportunity_partner__write_uid
@@ -1797,7 +2004,11 @@ msgstr ""
 #. module: crm
 #: model:ir.model,name:crm.model_crm_lead
 msgid "Lead/Opportunity"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tafuɣalt / Tagwniţ"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:mail.message.subtype,description:crm.mt_lead_create
@@ -1821,7 +2032,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:crm.sales_team_form_view_in_crm
 #: model_terms:ir.ui.view,arch_db:crm.utm_campaign_view_kanban
 msgid "Leads"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ildunen"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_team_member__lead_month_count
@@ -1850,7 +2065,11 @@ msgstr ""
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lost_reason__leads_count
 msgid "Leads Count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Asiḍen n yildunen"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_case_calendar_view_leads
@@ -2183,7 +2402,11 @@ msgstr ""
 #. module: crm
 #: model:crm.stage,name:crm.stage_lead1
 msgid "New"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Amaynut"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.actions.act_window,name:crm.crm_lead_action_open_lead_form
@@ -2245,7 +2468,11 @@ msgstr ""
 #. odoo-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "No"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ala"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #. odoo-python
@@ -2329,7 +2556,11 @@ msgstr ""
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__description
 msgid "Notes"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Iwenniten"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_merge_summary
@@ -2463,7 +2694,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:crm.crm_team_view_kanban_dashboard
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "Opportunity"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tagwniţ"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:mail.message.subtype,name:crm.mt_lead_create
@@ -2549,12 +2784,20 @@ msgstr ""
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_team__alias_user_id
 msgid "Owner"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bab"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_team__alias_parent_model_id
 msgid "Parent Model"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Taneɣruft n umaraw"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_team__alias_parent_thread_id
@@ -2585,7 +2828,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:crm.field_crm_lead__phone
 #: model_terms:ir.ui.view,arch_db:crm.quick_create_opportunity_form
 msgid "Phone"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tiliɣri"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__phone_sanitized_blacklisted
@@ -2689,7 +2936,11 @@ msgstr ""
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__priority
 msgid "Priority"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tazwart"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_merge_summary
@@ -2863,7 +3114,11 @@ msgstr ""
 #. module: crm
 #: model:ir.ui.menu,name:crm.crm_menu_sales
 msgid "Sales"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aznuzu"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model,name:crm.model_crm_team
@@ -2881,7 +3136,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "Sales Team"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tarbaɛt n uzenzi"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model,name:crm.model_crm_team_member
@@ -2896,7 +3155,11 @@ msgstr ""
 #. module: crm
 #: model:ir.ui.menu,name:crm.crm_team_config
 msgid "Sales Teams"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tirebbaɛ n uzenzi"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_activity_report__user_id
@@ -2979,7 +3242,11 @@ msgstr ""
 #: model:ir.actions.act_window,name:crm.crm_config_settings_action
 #: model:ir.ui.menu,name:crm.crm_config_settings_menu
 msgid "Settings"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tawila"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:res.groups,name:crm.group_use_lead
@@ -3035,7 +3302,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "Source"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aɣbalu"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_merge_summary
@@ -3057,12 +3328,20 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:crm.crm_stage_form
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "Stage"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Amecwaṛ"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:mail.message.subtype,name:crm.mt_lead_stage
 msgid "Stage Changed"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Amecwar iţusnifel"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_stage__name
@@ -3077,7 +3356,11 @@ msgstr ""
 #. module: crm
 #: model:mail.message.subtype,description:crm.mt_lead_stage
 msgid "Stage changed"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Amecwar iţusnifel"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_merge_summary
@@ -3108,7 +3391,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:crm.field_crm_lead__state_id
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
 msgid "State"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aɣir(Wilaya)"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_lead__activity_state
@@ -3122,7 +3409,11 @@ msgstr ""
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__street
 msgid "Street"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Abrid"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
@@ -3159,14 +3450,22 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "Tag"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tabzimt"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_activity_report__tag_ids
 #: model:ir.model.fields,field_description:crm.field_crm_lead__tag_ids
 #: model:ir.ui.menu,name:crm.menu_crm_lead_categ
 msgid "Tags"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tibzimin"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_merge_summary
@@ -3340,7 +3639,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:crm.field_crm_lead__title
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
 msgid "Title"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tineɣremt"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #. odoo-python
@@ -3385,7 +3688,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:crm.field_crm_lead__type
 #: model_terms:ir.ui.view,arch_db:crm.crm_activity_report_view_search
 msgid "Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tawsit"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_activity_report__lead_type
@@ -3400,7 +3707,11 @@ msgstr ""
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_merge_summary
 msgid "Type:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tawsit:"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model,name:crm.model_utm_campaign
@@ -3512,7 +3823,11 @@ msgstr ""
 #. module: crm
 #: model:ir.model,name:crm.model_res_users
 msgid "User"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aseqdac"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__user_company_ids
@@ -3522,7 +3837,11 @@ msgstr ""
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead_scoring_frequency__value
 msgid "Value"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Azal"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead_scoring_frequency__variable
@@ -3547,17 +3866,29 @@ msgstr ""
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__website
 msgid "Website"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Asmel Web"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__website_message_ids
 msgid "Website Messages"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Iznan n n usmel  Web"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_lead__website_message_ids
 msgid "Website communication history"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Amazray n Taywalt n usmel  Web"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_lead__website
@@ -3619,7 +3950,11 @@ msgstr ""
 #. odoo-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "Yes"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ih"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #. odoo-javascript

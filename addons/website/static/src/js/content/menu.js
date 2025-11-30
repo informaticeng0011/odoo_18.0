@@ -10,10 +10,13 @@ import { compensateScrollbar } from "@web/core/utils/scrolling";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 // The header height may vary with sections hidden on scroll (see the class
 // `o_header_hide_on_scroll`). To avoid scroll jumps, we cache the value.
 let headerHeight;
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -197,7 +200,10 @@ const BaseAnimatedHeader = animations.Animation.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         headerHeight ||= this.el.getBoundingClientRect().height;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -215,7 +221,11 @@ const BaseAnimatedHeader = animations.Animation.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.$main.css('padding-top', this.fixedHeader ? headerHeight : '');
+=======
+        this.$main.css('padding-top', this.fixedHeader ? this.el.getBoundingClientRect().height : '');
+>>>>>>> upstream/18.0
 =======
         this.$main.css('padding-top', this.fixedHeader ? this.el.getBoundingClientRect().height : '');
 >>>>>>> upstream/18.0
@@ -257,7 +267,11 @@ const BaseAnimatedHeader = animations.Animation.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const heightDiff = headerHeight - endHeaderHeight;
+=======
+        const heightDiff = this.el.getBoundingClientRect().height - endHeaderHeight;
+>>>>>>> upstream/18.0
 =======
         const heightDiff = this.el.getBoundingClientRect().height - endHeaderHeight;
 >>>>>>> upstream/18.0
@@ -354,7 +368,10 @@ publicWidget.registry.StandardAffixedHeader = BaseAnimatedHeader.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         headerHeight ||= this.el.getBoundingClientRect().height;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -399,7 +416,11 @@ publicWidget.registry.StandardAffixedHeader = BaseAnimatedHeader.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const mainPosScrolled = (scroll > headerHeight + this.topGap);
+=======
+        const mainPosScrolled = (scroll > this.el.getBoundingClientRect().height + this.topGap);
+>>>>>>> upstream/18.0
 =======
         const mainPosScrolled = (scroll > this.el.getBoundingClientRect().height + this.topGap);
 >>>>>>> upstream/18.0
@@ -545,7 +566,10 @@ publicWidget.registry.FixedHeader = BaseAnimatedHeader.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     headerHeight = this.el.getBoundingClientRect().height;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

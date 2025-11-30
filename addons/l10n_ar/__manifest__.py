@@ -108,6 +108,10 @@ Master Data:
         'demo/res_partner_demo.xml',
         'demo/product_product_demo.xml',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        'demo/account_tax_demo.xml',
+>>>>>>> upstream/18.0
 =======
         'demo/account_tax_demo.xml',
 >>>>>>> upstream/18.0

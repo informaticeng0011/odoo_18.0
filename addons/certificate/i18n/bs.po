@@ -1,12 +1,19 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* certificate
 #
+=======
+# * certificate
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-16 13:39+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2024-12-16 13:39+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -14,6 +21,19 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
+=======
+"PO-Revision-Date: 2025-11-25 09:49+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Bosnian <https://translate.odoo.com/projects/odoo-18/"
+"certificate/bs/>\n"
+"Language: bs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #. odoo-python
@@ -25,7 +45,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:certificate.field_certificate_certificate__active
 #: model:ir.model.fields,field_description:certificate.field_certificate_key__active
 msgid "Active"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aktivan"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model_terms:ir.ui.view,arch_db:certificate.res_config_settings_view_form
@@ -41,7 +65,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:certificate.certificate_certificate_view_search
 #: model_terms:ir.ui.view,arch_db:certificate.certificate_key_view_search
 msgid "Archived"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Arhivirano"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model_terms:ir.ui.view,arch_db:certificate.certificate_certificate_view_search
@@ -95,12 +123,20 @@ msgstr ""
 #: model:ir.model.fields,field_description:certificate.field_certificate_certificate__company_id
 #: model:ir.model.fields,field_description:certificate.field_certificate_key__company_id
 msgid "Company"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kompanija"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,field_description:certificate.field_certificate_certificate__country_code
 msgid "Country Code"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Šifra države"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model_terms:ir.actions.act_window,help:certificate.certificate_certificate_action_view_list
@@ -116,13 +152,21 @@ msgstr ""
 #: model:ir.model.fields,field_description:certificate.field_certificate_certificate__create_uid
 #: model:ir.model.fields,field_description:certificate.field_certificate_key__create_uid
 msgid "Created by"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kreirao"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,field_description:certificate.field_certificate_certificate__create_date
 #: model:ir.model.fields,field_description:certificate.field_certificate_key__create_date
 msgid "Created on"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kreirano"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model,name:certificate.model_certificate_key
@@ -138,7 +182,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:certificate.field_certificate_certificate__display_name
 #: model:ir.model.fields,field_description:certificate.field_certificate_key__display_name
 msgid "Display Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prikazani naziv"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,field_description:certificate.field_certificate_certificate__date_end
@@ -149,7 +197,11 @@ msgstr ""
 #: model:ir.model.fields.selection,name:certificate.selection__certificate_certificate__scope__general
 #: model_terms:ir.ui.view,arch_db:certificate.certificate_certificate_view_search
 msgid "General"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Opšte"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model_terms:ir.ui.view,arch_db:certificate.certificate_certificate_view_search
@@ -160,7 +212,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:certificate.field_certificate_certificate__id
 #: model:ir.model.fields,field_description:certificate.field_certificate_key__id
 msgid "ID"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ID"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model_terms:ir.ui.view,arch_db:certificate.certificate_certificate_view_search
@@ -171,7 +227,11 @@ msgstr ""
 #. module: certificate
 #: model_terms:ir.ui.view,arch_db:certificate.certificate_key_view_list
 msgid "Key"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ključ"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,field_description:certificate.field_certificate_key__pem_key
@@ -193,13 +253,21 @@ msgstr ""
 #: model:ir.model.fields,field_description:certificate.field_certificate_certificate__write_uid
 #: model:ir.model.fields,field_description:certificate.field_certificate_key__write_uid
 msgid "Last Updated by"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zadnji ažurirao"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,field_description:certificate.field_certificate_certificate__write_date
 #: model:ir.model.fields,field_description:certificate.field_certificate_key__write_date
 msgid "Last Updated on"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zadnje ažurirano"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,field_description:certificate.field_certificate_certificate__loading_error
@@ -227,7 +295,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:certificate.field_certificate_certificate__name
 #: model:ir.model.fields,field_description:certificate.field_certificate_key__name
 msgid "Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Naziv:"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #. odoo-python
@@ -264,7 +336,11 @@ msgstr ""
 #. module: certificate
 #: model_terms:ir.ui.view,arch_db:certificate.certificate_key_view_search
 msgid "Private"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Privatni"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,field_description:certificate.field_certificate_certificate__private_key_id
@@ -279,7 +355,11 @@ msgstr ""
 #. module: certificate
 #: model_terms:ir.ui.view,arch_db:certificate.certificate_key_view_search
 msgid "Public"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Javni"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,field_description:certificate.field_certificate_certificate__public_key_id
@@ -445,7 +525,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:certificate.certificate_certificate_view_form
 #: model_terms:ir.ui.view,arch_db:certificate.certificate_certificate_view_list
 msgid "Validity"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Validnost"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model_terms:ir.ui.view,arch_db:certificate.certificate_certificate_view_form

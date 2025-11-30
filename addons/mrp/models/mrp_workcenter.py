@@ -19,6 +19,10 @@ from babel.dates import format_date
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from collections import defaultdict
+>>>>>>> upstream/18.0
 =======
 from collections import defaultdict
 >>>>>>> upstream/18.0
@@ -310,12 +314,15 @@ class MrpWorkcenter(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for order in self:
             if order.productive_time:
                 order.oee = round(order.productive_time * 100.0 / (order.productive_time + order.blocked_time), 2)
             else:
                 order.oee = 0.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -383,6 +390,9 @@ class MrpWorkcenter(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -579,7 +589,11 @@ class MrpWorkcenter(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         remaining = duration
+=======
+        remaining = duration = max(duration, 1 / 60)
+>>>>>>> upstream/18.0
 =======
         remaining = duration = max(duration, 1 / 60)
 >>>>>>> upstream/18.0
@@ -1073,6 +1087,11 @@ class MrpWorkcenterProductivity(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if not self.date_end:
+            return
+>>>>>>> upstream/18.0
 =======
         if not self.date_end:
             return

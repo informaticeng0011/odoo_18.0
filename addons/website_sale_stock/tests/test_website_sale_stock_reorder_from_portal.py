@@ -28,6 +28,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # -*- coding: utf-8 -*-
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
@@ -36,6 +37,8 @@ from odoo.tests import tagged
 from odoo.tests.common import HttpCase
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -130,6 +133,9 @@ from odoo.addons.base.tests.common import HttpCaseWithUserPortal
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -193,6 +199,7 @@ from odoo.addons.website_sale_stock.tests.common import WebsiteSaleStockCommon
 
 
 @tagged('post_install', '-at_install')
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -287,6 +294,8 @@ class TestWebsiteSaleStockReorderFromPortal(HttpCase, WebsiteSaleStockCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 class TestWebsiteSaleStockReorderFromPortal(HttpCaseWithUserPortal, WebsiteSaleStockCommon):
 
     @classmethod
@@ -323,6 +332,9 @@ class TestWebsiteSaleStockReorderFromPortal(HttpCaseWithUserPortal, WebsiteSaleS
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -418,9 +430,14 @@ class TestWebsiteSaleStockReorderFromPortal(HttpCaseWithUserPortal, WebsiteSaleS
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         user_admin = cls.env.ref('base.user_admin')
         order = cls.env['sale.order'].create({
             'partner_id': user_admin.partner_id.id,
+=======
+        cls.order = cls.env['sale.order'].create({
+            'partner_id': cls.partner_portal.id,
+>>>>>>> upstream/18.0
 =======
         cls.order = cls.env['sale.order'].create({
             'partner_id': cls.partner_portal.id,
@@ -587,7 +604,11 @@ class TestWebsiteSaleStockReorderFromPortal(HttpCaseWithUserPortal, WebsiteSaleS
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         order.message_subscribe(user_admin.partner_id.ids)
+=======
+        cls.order.message_subscribe(cls.partner_portal.ids)
+>>>>>>> upstream/18.0
 =======
         cls.order.message_subscribe(cls.partner_portal.ids)
 >>>>>>> upstream/18.0
@@ -713,8 +734,11 @@ class TestWebsiteSaleStockReorderFromPortal(HttpCaseWithUserPortal, WebsiteSaleS
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.start_tour("/", 'website_sale_stock_reorder_from_portal', login='admin')
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -835,6 +859,9 @@ class TestWebsiteSaleStockReorderFromPortal(HttpCaseWithUserPortal, WebsiteSaleS
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -124,6 +124,10 @@ import logging
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from collections import defaultdict
+>>>>>>> upstream/18.0
 =======
 from collections import defaultdict
 >>>>>>> upstream/18.0
@@ -661,6 +665,12 @@ class pos_config(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    def _config_sequence_implementation(self):
+        return 'no_gap' if self.env.company._is_accounting_unalterable() else super()._config_sequence_implementation()
+
+>>>>>>> upstream/18.0
 =======
     def _config_sequence_implementation(self):
         return 'no_gap' if self.env.company._is_accounting_unalterable() else super()._config_sequence_implementation()
@@ -1589,6 +1599,7 @@ class pos_order(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for order in self:
             prev_order = self.search([('state', 'in', ['paid', 'done', 'invoiced']),
                                                 ('company_id', '=', order.company_id.id),
@@ -1600,6 +1611,8 @@ class pos_order(models.Model):
             elif prev_order:
                 order.previous_order_id = prev_order
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1889,7 +1902,13 @@ class pos_order(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             prev_seq = [o.l10n_fr_secure_sequence_number - 1 for o in orders]
+=======
+            # Since sequence number can't be zero, we don't consider
+            # it as a posible previous sequence number
+            prev_seq = [o.l10n_fr_secure_sequence_number - 1 for o in orders if o.l10n_fr_secure_sequence_number > 1]
+>>>>>>> upstream/18.0
 =======
             # Since sequence number can't be zero, we don't consider
             # it as a posible previous sequence number
@@ -2244,6 +2263,9 @@ class pos_order(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2587,6 +2609,7 @@ class pos_order(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         def _getattrstring(obj, field_str):
             field_value = obj[field_str]
             if obj._fields[field_str].type == 'many2one':
@@ -2596,6 +2619,8 @@ class pos_order(models.Model):
             return str(field_value)
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2886,6 +2911,9 @@ class pos_order(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3130,12 +3158,15 @@ class pos_order(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
             for line in order.lines:
                 for field in LINE_FIELDS:
                     k = 'line_%d_%s' % (line.id, field)
                     values[k] = _getattrstring(line, field)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3382,6 +3413,9 @@ class pos_order(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

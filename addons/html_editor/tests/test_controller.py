@@ -45,6 +45,11 @@ from odoo.tools.json import scriptsafe as json_safe
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from unittest.mock import patch
+from odoo.addons.mail.tools import link_preview
+>>>>>>> upstream/18.0
 =======
 from unittest.mock import patch
 from odoo.addons.mail.tools import link_preview
@@ -382,7 +387,10 @@ class TestController(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -510,6 +518,9 @@ class TestController(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -628,7 +639,11 @@ class TestController(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "preview_url": f"/odoo/users/{self.portal_user.id}",
+=======
+                    "preview_url": _get_full_url(f"/odoo/users/{self.portal_user.id}"),
+>>>>>>> upstream/18.0
 =======
                     "preview_url": _get_full_url(f"/odoo/users/{self.portal_user.id}"),
 >>>>>>> upstream/18.0
@@ -793,7 +808,11 @@ class TestController(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "preview_url": "/odoo/actionInvalid/1",
+=======
+                    "preview_url": _get_full_url("/odoo/actionInvalid/1"),
+>>>>>>> upstream/18.0
 =======
                     "preview_url": _get_full_url("/odoo/actionInvalid/1"),
 >>>>>>> upstream/18.0
@@ -958,7 +977,11 @@ class TestController(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "preview_url": "/odoo/users/9999",
+=======
+                    "preview_url": _get_full_url("/odoo/users/9999"),
+>>>>>>> upstream/18.0
 =======
                     "preview_url": _get_full_url("/odoo/users/9999"),
 >>>>>>> upstream/18.0
@@ -1119,6 +1142,7 @@ class TestController(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         response_not_record = self.url_open(
             '/html_editor/link_preview_internal',
             data=json_safe.dumps({
@@ -1131,6 +1155,8 @@ class TestController(HttpCase):
         self.assertEqual(200, response_not_record.status_code)
         self.assertTrue('other_error_msg' in response_not_record.text)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1296,6 +1322,9 @@ class TestController(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1415,7 +1444,11 @@ class TestController(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "preview_url": f"/odoo/res.users/{self.portal_user.id}",
+=======
+                    "preview_url": _get_full_url(f"/odoo/res.users/{self.portal_user.id}"),
+>>>>>>> upstream/18.0
 =======
                     "preview_url": _get_full_url(f"/odoo/res.users/{self.portal_user.id}"),
 >>>>>>> upstream/18.0
@@ -1581,7 +1614,11 @@ class TestController(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "preview_url": "/odoo/mail.thread/1",
+=======
+                    "preview_url": _get_full_url("/odoo/mail.thread/1"),
+>>>>>>> upstream/18.0
 =======
                     "preview_url": _get_full_url("/odoo/mail.thread/1"),
 >>>>>>> upstream/18.0

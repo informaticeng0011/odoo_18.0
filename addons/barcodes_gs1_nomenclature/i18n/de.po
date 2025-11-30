@@ -79,6 +79,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* barcodes_gs1_nomenclature
 # 
 # Translators:
@@ -86,6 +87,8 @@
 # Larissa Manderfeld, 2025
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -327,6 +330,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -488,6 +494,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -734,6 +741,9 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-08-08 18:38+0000\n"
+=======
+"POT-Creation-Date: 2025-11-28 18:36+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-08-11 22:21+0000\n"
 "Last-Translator: \"Larissa Manderfeld (lman)\" <lman@odoo.com>\n"
 "Language-Team: German <https://translate.odoo.com/projects/odoo-18/"
@@ -750,6 +760,7 @@ msgstr ""
 #: code:addons/barcodes_gs1_nomenclature/models/barcode_nomenclature.py:0
 msgid ""
 "A GS1 barcode nomenclature pattern was matched. However, the barcode failed "
+<<<<<<< HEAD
 "to be converted to a valid date: '%(error_message)'"
 msgstr ""
 "Es wurde ein GS1-Barcode-Nomenklaturmuster gefunden. Der Barcode konnte "
@@ -988,6 +999,10 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+"to be converted to a valid date: '%(error_message)s'"
+msgstr ""
 >>>>>>> upstream/18.0
 
 #. module: barcodes_gs1_nomenclature
@@ -1230,8 +1245,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Der GS1-Inhaltstyp legt fest, als welche Art von Daten die Regel den Barcode"
 " verarbeiten wird: * Datum: der Barcode wird in eine Odoo-Datumszeit "
+=======
+"Der GS1-Inhaltstyp legt fest, als welche Art von Daten die Regel den Barcode "
+"verarbeiten wird: * Datum: der Barcode wird in eine Odoo-Datumszeit "
+>>>>>>> upstream/18.0
 =======
 "Der GS1-Inhaltstyp legt fest, als welche Art von Daten die Regel den Barcode "
 "verarbeiten wird: * Datum: der Barcode wird in eine Odoo-Datumszeit "
@@ -1655,6 +1675,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If this rule uses decimal, check it can't get sometime else than a digit as last char for the Application Identifier.\n"
 "Check also the possible matched values can only be digits, otherwise the value can't be casted as a measure."
 msgstr ""
@@ -1662,6 +1683,8 @@ msgstr ""
 "Wenn diese Regel Dezimalzahlen verwendet, stellen Sie sicher, dass nur Ziffern für den Application Identifier enthalten sind.\n"
 "Stellen Sie sicher, dass mögliche übereinstimmende Werte nur Ziffern enthalten, da der Wert sonst nicht als Kennzahl zugeordnet werden kann."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1906,6 +1929,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2071,6 +2097,7 @@ msgid ""
 "This Nomenclature use the GS1 specification, only GS1-128 encoding rules is "
 "accepted is this kind of nomenclature."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2468,6 +2495,10 @@ msgstr ""
 "Diese Nomenklatur verwendet die GS1-Spezifikation, nur die GS1-128-"
 "Kodierungsregeln werden für diese Art von Nomenklatur akzeptiert."
 >>>>>>> upstream/18.0
+=======
+"Diese Nomenklatur verwendet die GS1-Spezifikation, nur die GS1-128-"
+"Kodierungsregeln werden für diese Art von Nomenklatur akzeptiert."
+>>>>>>> upstream/18.0
 
 #. module: barcodes_gs1_nomenclature
 #. odoo-javascript
@@ -2493,3 +2524,13 @@ msgstr ""
 #: model:ir.model.fields,field_description:barcodes_gs1_nomenclature.field_barcode_rule__type
 msgid "Type"
 msgstr "Typ"
+<<<<<<< HEAD
+=======
+
+#~ msgid ""
+#~ "A GS1 barcode nomenclature pattern was matched. However, the barcode "
+#~ "failed to be converted to a valid date: '%(error_message)'"
+#~ msgstr ""
+#~ "Es wurde ein GS1-Barcode-Nomenklaturmuster gefunden. Der Barcode konnte "
+#~ "jedoch nicht in ein gültiges Datum konvertiert werden: ‚%(error_message)‘"
+>>>>>>> upstream/18.0

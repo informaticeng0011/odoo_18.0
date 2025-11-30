@@ -105,6 +105,10 @@
     <!-- Invoice to ADHOC with multiple taxes and perceptions -->
     <record id="demo_sup_invoice_8" model="account.move" context="{'allowed_company_ids': [ref('base.company_ri')]}">
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        <field name="ref">demo_sup_invoice_8: Invoice to ADHOC with multiple taxes and perceptions</field>
+>>>>>>> upstream/18.0
 =======
         <field name="ref">demo_sup_invoice_8: Invoice to ADHOC with multiple taxes and perceptions</field>
 >>>>>>> upstream/18.0
@@ -118,7 +122,10 @@
             (0, 0, {'product_id': ref('product_product_telefonia'), 'price_unit': 250.0, 'quantity': 1}),
             (0, 0, {'product_id': ref('product.product_product_25'), 'price_unit': 3245.0, 'quantity': 2}),
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
             (0, 0, {'product_id': ref('product.product_product_2'), 'price_unit': 124.3, 'quantity': 3, 'name': 'Support Services 8',
             'tax_ids': [(6, 0, [
                 ref(f'account.{ref('base.company_ri')}_ri_tax_vat_0_compras'),
@@ -137,6 +144,9 @@
                 ref('account.%s_base_tax_otros_tributos' % ref('base.company_ri'))
             ])]
            }),
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         ]"/>
     </record>
@@ -163,7 +173,10 @@
         ]"/>
     </record>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     <record id="demo_sup_invoice_11" model="account.move" context="{'allowed_company_ids': [ref('base.company_ri')]}">
         <field name="ref">demo_sup_invoice_11: Invoice with other taxes</field>
         <field name="l10n_latam_document_type_id" ref="l10n_ar.dc_b_f"/>
@@ -210,6 +223,9 @@
            }),
         ]"/>
     </record>
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     <!-- Liquido Producto document type -->
@@ -320,13 +336,19 @@
         <field name="l10n_latam_document_number">0001-00000001</field>
     </record>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
      <record id="demo_sup_invoice_11" model="account.move">
         <field name="l10n_latam_document_number">0001-00000456</field>
     </record>
     <record id="demo_sup_invoice_12" model="account.move">
         <field name="l10n_latam_document_number">0001-00000789</field>
     </record>
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     <record id="demo_despacho_1" model="account.move">
         <field name="l10n_latam_document_number">16052IC04000605L</field>

@@ -27,13 +27,19 @@ class TestBarcodeGS1Nomenclature(TransactionCase):
         self.assertEqual(date.year, 2020)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         # GS1 barcode with invalid date
         date_gs1 = "410551"
         # The value should fail the GS1 date conversion logic and must raise a ValidationError.
         with self.assertRaises(ValidationError):
             barcode_nomenclature.gs1_date_to_date(date_gs1)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_gs1_extanded_barcode_1(self):
         barcode_nomenclature = self.env['barcode.nomenclature'].browse(self.ref('barcodes_gs1_nomenclature.default_gs1_nomenclature'))

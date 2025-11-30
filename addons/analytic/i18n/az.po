@@ -39,8 +39,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* analytic
 # 
+=======
+# * analytic
+#
+>>>>>>> upstream/18.0
 =======
 # * analytic
 #
@@ -241,6 +246,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 =======
 # ERPGo Odoo <erpgo.odoo@gmail.com>, 2025.
@@ -359,10 +365,15 @@
 =======
 # ERPGo Odoo <erpgo.odoo@gmail.com>, 2025.
 >>>>>>> upstream/18.0
+=======
+# ERPGo Odoo <erpgo.odoo@gmail.com>, 2025.
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-04-07 20:36+0000\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -528,6 +539,11 @@ msgstr ""
 "PO-Revision-Date: 2025-11-07 15:26+0000\n"
 >>>>>>> upstream/18.0
 "Last-Translator: ERPGo Odoo <erpgo.odoo@gmail.com>\n"
+=======
+"POT-Creation-Date: 2025-11-28 18:36+0000\n"
+"PO-Revision-Date: 2025-11-29 18:00+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Azerbaijani <https://translate.odoo.com/projects/odoo-18/"
 "analytic/az/>\n"
 "Language: az\n"
@@ -535,6 +551,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+<<<<<<< HEAD
 "X-Generator: Weblate 5.12.2\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -651,11 +668,15 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #. odoo-python
 #: code:addons/analytic/models/analytic_account.py:0
 msgid "%s (copy)"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -757,6 +778,15 @@ msgstr "%s (kopya)"
 =======
 msgstr "%s (kopya)"
 >>>>>>> upstream/18.0
+=======
+msgstr "%s (kopya)"
+
+#. module: analytic
+#. odoo-python
+#: code:addons/analytic/models/analytic_line.py:0
+msgid "%s analytic lines created"
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model_terms:ir.ui.view,arch_db:analytic.account_analytic_plan_form_view
@@ -828,7 +858,11 @@ msgid "Action Needed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Gərəkli Əməliyyat"
+=======
+msgstr "Əməliyyat Lazımdır"
+>>>>>>> upstream/18.0
 =======
 msgstr "Əməliyyat Lazımdır"
 >>>>>>> upstream/18.0
@@ -1023,6 +1057,10 @@ msgstr "Analitik Hesabların Sayı"
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_distribution_model__analytic_distribution
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:analytic.field_account_analytic_line__analytic_distribution
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:analytic.field_analytic_mixin__analytic_distribution
 msgid "Analytic Distribution"
 msgstr "Analitik bölüşdürmə"
@@ -1094,6 +1132,10 @@ msgstr "Analitik Planlar"
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_distribution_model__analytic_precision
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:analytic.field_account_analytic_line__analytic_precision
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:analytic.field_analytic_mixin__analytic_precision
 msgid "Analytic Precision"
 msgstr "Analitik Dəqiqlik"
@@ -1142,7 +1184,11 @@ msgid "Archived"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Arxivləndi"
+=======
+msgstr "Arxivlənmiş"
+>>>>>>> upstream/18.0
 =======
 msgstr "Arxivlənmiş"
 >>>>>>> upstream/18.0
@@ -1340,7 +1386,12 @@ msgid ""
 "Costs will be created automatically when you register supplier\n"
 "                invoices, expenses or timesheets."
 msgstr ""
+<<<<<<< HEAD
 "Təchizatçıya aid fakturaları, xərcləri və iş cədvəlini qeydiyyatdan keçirdikdə xərclər avtomatik olaraq yaradılacaqdır\n"
+=======
+"Təchizatçıya aid fakturaları, xərcləri və iş cədvəlini qeydiyyatdan "
+"keçirdikdə xərclər avtomatik olaraq yaradılacaqdır\n"
+>>>>>>> upstream/18.0
 "                ."
 
 #. module: analytic
@@ -1388,7 +1439,11 @@ msgid "Created by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tərəfindən yaradılıb"
+=======
+msgstr "Yaradan"
+>>>>>>> upstream/18.0
 =======
 msgstr "Yaradan"
 >>>>>>> upstream/18.0
@@ -1549,6 +1604,7 @@ msgid "Created on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tarixdə yaradıldı"
 =======
 msgstr "Yaradılan tarix"
@@ -1600,6 +1656,9 @@ msgstr "Yaradılan tarix"
 >>>>>>> upstream/18.0
 =======
 msgstr "Yaradılan tarix"
+>>>>>>> upstream/18.0
+=======
+msgstr "Yaradılma tarixi"
 >>>>>>> upstream/18.0
 =======
 msgstr "Yaradılma tarixi"
@@ -1781,7 +1840,11 @@ msgid "Display Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Göstəriləcək Ad"
+=======
+msgstr "Görünən Adı"
+>>>>>>> upstream/18.0
 =======
 msgstr "Görünən Adı"
 >>>>>>> upstream/18.0
@@ -1914,6 +1977,15 @@ msgid "Domain"
 msgstr "Domen"
 
 #. module: analytic
+<<<<<<< HEAD
+=======
+#. odoo-javascript
+#: code:addons/analytic/static/src/components/analytic_distribution/analytic_distribution.xml:0
+msgid "Don't update"
+msgstr "Yeniləməyin"
+
+#. module: analytic
+>>>>>>> upstream/18.0
 #: model:account.analytic.account,name:analytic.analytic_rd_finance
 msgid "Finance"
 msgstr "Maliyyə"
@@ -2005,7 +2077,11 @@ msgid "If checked, new messages require your attention."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "İşarələnibsə, yeni mesajlara baxmalısınız."
+=======
+msgstr "Əgər işarələnibsə, yeni mesajlar sizin diqqətinizi tələb edəcək."
+>>>>>>> upstream/18.0
 =======
 msgstr "Əgər işarələnibsə, yeni mesajlar sizin diqqətinizi tələb edəcək."
 >>>>>>> upstream/18.0
@@ -2162,7 +2238,11 @@ msgid "If checked, some messages have a delivery error."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "İşarələnibsə, bəzi mesajların çatdırılmasında xəta var."
+=======
+msgstr "Əgər işarələnibsə, bəzi mesajların çatdırılmasında xəta var."
+>>>>>>> upstream/18.0
 =======
 msgstr "Əgər işarələnibsə, bəzi mesajların çatdırılmasında xəta var."
 >>>>>>> upstream/18.0
@@ -2283,12 +2363,24 @@ msgstr "Əgər işarələnibsə, bəzi mesajların çatdırılmasında xəta var
 #: model_terms:ir.actions.act_window,help:analytic.account_analytic_line_action_entries
 msgid ""
 "In Odoo, sales orders and projects are implemented using\n"
+<<<<<<< HEAD
 "                analytic accounts. You can track costs and revenues to analyse\n"
 "                your margins easily."
 msgstr ""
 "Odoo-da satış sifarişləri və layihələr analitik hesablardan istifadə olunaraq\n"
 "                reallaşdırılır. Asanlıqla marjanızı\n"
 "                analiz etmək üçün siz xərcləri və gəlirləri izləyə bilərsiniz."
+=======
+"                analytic accounts. You can track costs and revenues to "
+"analyse\n"
+"                your margins easily."
+msgstr ""
+"Odoo-da satış sifarişləri və layihələr analitik hesablardan istifadə "
+"olunaraq\n"
+"                reallaşdırılır. Asanlıqla marjanızı\n"
+"                analiz etmək üçün siz xərcləri və gəlirləri izləyə "
+"bilərsiniz."
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:account.analytic.plan,name:analytic.analytic_plan_internal
@@ -2342,6 +2434,7 @@ msgstr "Tələb olunur"
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_account__message_has_error
 msgid "Message Delivery error"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2495,6 +2588,9 @@ msgstr "Mesaj Çatdırılma xətası"
 =======
 msgstr "Mesaj Çatdırılma xətası"
 >>>>>>> upstream/18.0
+=======
+msgstr "Mesaj Çatdırılma xətası"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_account__message_ids
@@ -2512,6 +2608,15 @@ msgid "Miscellaneous"
 msgstr "Müxtəlif"
 
 #. module: analytic
+<<<<<<< HEAD
+=======
+#. odoo-javascript
+#: code:addons/analytic/static/src/components/analytic_distribution/analytic_distribution.js:0
+msgid "Multi edit"
+msgstr ""
+
+#. module: analytic
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_plan__name
 #: model_terms:ir.ui.view,arch_db:analytic.view_account_analytic_account_list
 msgid "Name"
@@ -2585,7 +2690,11 @@ msgid "Number of Actions"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Hərəkətlərin sayı"
+=======
+msgstr "Əməliyyatların sayı"
+>>>>>>> upstream/18.0
 =======
 msgstr "Əməliyyatların sayı"
 >>>>>>> upstream/18.0
@@ -2842,7 +2951,11 @@ msgid "Reference"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Rəy"
+=======
+msgstr "İstinad"
+>>>>>>> upstream/18.0
 =======
 msgstr "İstinad"
 >>>>>>> upstream/18.0
@@ -2944,12 +3057,27 @@ msgstr "Tədqiqat və İnkişaf"
 #: model_terms:ir.actions.act_window,help:analytic.account_analytic_line_action_entries
 msgid ""
 "Revenues will be created automatically when you create customer\n"
+<<<<<<< HEAD
 "                invoices. Customer invoices can be created based on sales orders\n"
 "                (fixed price invoices), on timesheets (based on the work done) or\n"
 "                on expenses (e.g. reinvoicing of travel costs)."
 msgstr ""
 "\"Müştərinin hesab -fakturalarını tərtib etdiyiniz zaman gəlirlər avtomatik olaraq əldə ediləcək\n"
 "                . Müştəri hesab-fakturaları satış sifarişlərinə (sabit qiymət hesab-fakturaları), iş vaxtının uçot tabelinə(görülən işlərə əsasən) və ya xərclərə (məs: səyahət xərclərinin yenidən fakturaya daxil edilməsi) əsasən hazırlana bilər.\n"
+=======
+"                invoices. Customer invoices can be created based on sales "
+"orders\n"
+"                (fixed price invoices), on timesheets (based on the work "
+"done) or\n"
+"                on expenses (e.g. reinvoicing of travel costs)."
+msgstr ""
+"\"Müştərinin hesab -fakturalarını tərtib etdiyiniz zaman gəlirlər avtomatik "
+"olaraq əldə ediləcək\n"
+"                . Müştəri hesab-fakturaları satış sifarişlərinə (sabit "
+"qiymət hesab-fakturaları), iş vaxtının uçot tabelinə(görülən işlərə əsasən) "
+"və ya xərclərə (məs: səyahət xərclərinin yenidən fakturaya daxil edilməsi) "
+"əsasən hazırlana bilər.\n"
+>>>>>>> upstream/18.0
 "                əsasən hazırlana\n"
 "                bilər.\""
 
@@ -3036,6 +3164,22 @@ msgid "Subplans"
 msgstr "Alt planlar"
 
 #. module: analytic
+<<<<<<< HEAD
+=======
+#: model:ir.model,name:analytic.model_ir_config_parameter
+msgid "System Parameter"
+msgstr "Sistem Parametri"
+
+#. module: analytic
+#. odoo-python
+#: code:addons/analytic/models/ir_config_parameter.py:0
+msgid ""
+"The value for %s must be the ID to a valid analytic plan that is not a "
+"subplan"
+msgstr ""
+
+#. module: analytic
+>>>>>>> upstream/18.0
 #: model:account.analytic.account,name:analytic.analytic_absences
 msgid "Time Off"
 msgstr "Məzuniyyət"
@@ -3054,6 +3198,7 @@ msgstr "Mövcud deyil"
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_line__product_uom_id
 msgid "Unit of Measure"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3211,6 +3356,9 @@ msgstr "Ölçü Vahidi"
 =======
 msgstr "Ölçü Vahidi"
 >>>>>>> upstream/18.0
+=======
+msgstr "Ölçü Vahidi"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_line__product_uom_category_id
@@ -3218,6 +3366,15 @@ msgid "UoM Category"
 msgstr "Ölçü vahidi kateqoriyası"
 
 #. module: analytic
+<<<<<<< HEAD
+=======
+#. odoo-javascript
+#: code:addons/analytic/static/src/components/analytic_distribution/analytic_distribution.xml:0
+msgid "Update"
+msgstr "Yeniləyin"
+
+#. module: analytic
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_line__user_id
 msgid "User"
 msgstr "İstifadəçi"
@@ -3226,8 +3383,13 @@ msgstr "İstifadəçi"
 #. odoo-python
 #: code:addons/analytic/models/analytic_account.py:0
 msgid ""
+<<<<<<< HEAD
 "Whoa there! Making this change would wipe out your current data. Let's avoid"
 " that, shall we?"
+=======
+"Whoa there! Making this change would wipe out your current data. Let's avoid "
+"that, shall we?"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: analytic
