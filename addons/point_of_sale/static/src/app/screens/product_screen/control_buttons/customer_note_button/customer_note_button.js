@@ -46,7 +46,11 @@ export class OrderlineNoteButton extends Component {
         if (saved_quantity > 0 && quantity_with_note > 0) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             await this.pos.addLineToCurrentOrder({
+=======
+            const newLine = await this.pos.addLineToCurrentOrder({
+>>>>>>> upstream/18.0
 =======
             const newLine = await this.pos.addLineToCurrentOrder({
 >>>>>>> upstream/18.0
@@ -59,8 +63,11 @@ export class OrderlineNoteButton extends Component {
             });
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             selectedOrderline.qty = saved_quantity;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             newLine.combo_line_ids.forEach((child) => {
@@ -71,6 +78,9 @@ export class OrderlineNoteButton extends Component {
                 child.qty = saved_quantity;
             });
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

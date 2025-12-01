@@ -4,6 +4,11 @@ import { browser } from "@web/core/browser/browser";
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+const FPS = 30; // Frames per second for the blurred background stream
+
+>>>>>>> upstream/18.0
 =======
 const FPS = 30; // Frames per second for the blurred background stream
 
@@ -48,6 +53,10 @@ export class BlurManager {
     video = document.createElement("video");
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    worker;
+>>>>>>> upstream/18.0
 =======
     worker;
 >>>>>>> upstream/18.0
@@ -77,7 +86,10 @@ export class BlurManager {
         });
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         try {
@@ -91,6 +103,9 @@ export class BlurManager {
             this.worker = null;
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -114,6 +129,10 @@ export class BlurManager {
         this.canvasStream = null;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this._terminateWorker();
+>>>>>>> upstream/18.0
 =======
         this._terminateWorker();
 >>>>>>> upstream/18.0
@@ -129,7 +148,10 @@ export class BlurManager {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     /**
@@ -155,6 +177,9 @@ export class BlurManager {
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -170,8 +195,11 @@ export class BlurManager {
         this.isVideoDataLoaded = true;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this._requestFrame();
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         if (this.worker) {
@@ -180,6 +208,9 @@ export class BlurManager {
             this._requestFrame();
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -201,7 +232,10 @@ export class BlurManager {
         await this.selfieSegmentation.send({ image: this.video });
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         browser.setTimeout(() => this._requestFrame(), Math.floor(1000 / 30)); // 30 fps
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -225,7 +259,10 @@ export class BlurManager {
         this.canvas.getContext("2d").restore();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         if (this.resolveStreamPromise) {
@@ -233,6 +270,9 @@ export class BlurManager {
             this.resolveStreamPromise = null;
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -244,10 +284,13 @@ export class BlurManager {
     _requestFrame() {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         browser.requestAnimationFrame(async () => {
             await this._onFrame();
             this.resolveStreamPromise(this.canvasStream);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         if (!this.isVideoDataLoaded) {
@@ -259,6 +302,9 @@ export class BlurManager {
                 browser.setTimeout(() => this._requestFrame(), Math.floor(1000 / FPS));
             }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

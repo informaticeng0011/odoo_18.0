@@ -2,22 +2,29 @@
 # This file contains the translation of the following modules:
 # 	* pos_viva_wallet
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
 # Larissa Manderfeld, 2025
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
 # Larissa Manderfeld, 2025
 #
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2025-01-27 13:03+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -28,6 +35,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: de\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-11-28 18:36+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Larissa Manderfeld, 2025\n"
@@ -36,6 +45,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -84,8 +96,13 @@ msgid ""
 "and try again."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Verbindung zum Odoo-Server konnte nicht hergestellt werden, bitte prüfen Sie"
 " Ihre Internetverbindung und versuchen Sie es erneut."
+=======
+"Verbindung zum Odoo-Server konnte nicht hergestellt werden, bitte prüfen Sie "
+"Ihre Internetverbindung und versuchen Sie es erneut."
+>>>>>>> upstream/18.0
 =======
 "Verbindung zum Odoo-Server konnte nicht hergestellt werden, bitte prüfen Sie "
 "Ihre Internetverbindung und versuchen Sie es erneut."
@@ -120,6 +137,7 @@ msgstr "Nur 'group_pos_user' dürfen Zahlungen von Viva Wallet stornieren"
 #. odoo-python
 #: code:addons/pos_viva_wallet/models/pos_payment_method.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Only 'group_pos_user' are allowed to get latest transaction status"
 msgstr "Nur 'group_pos_user' darf den aktuellen Transaktionsstatus abrufen"
 
@@ -135,15 +153,25 @@ msgid ""
 "Only 'group_pos_user' are allowed to get the payment status from Viva Wallet"
 msgstr "Nur 'group_pos_user' dürfen den Zahlungsstatus von Viva Wallet abrufen"
 >>>>>>> upstream/18.0
+=======
+msgid ""
+"Only 'group_pos_user' are allowed to get the payment status from Viva Wallet"
+msgstr "Nur 'group_pos_user' dürfen den Zahlungsstatus von Viva Wallet abrufen"
+>>>>>>> upstream/18.0
 
 #. module: pos_viva_wallet
 #. odoo-python
 #: code:addons/pos_viva_wallet/models/pos_payment_method.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Only 'group_pos_user' are allowed to send a Viva Wallet payment request"
 msgstr ""
 "Nur 'group_pos_user' dürfen Zahlungsanfragen von Viva Wallet versenden"
+=======
+msgid "Only 'group_pos_user' are allowed to send a Viva Wallet payment request"
+msgstr "Nur 'group_pos_user' dürfen Zahlungsanfragen von Viva Wallet versenden"
+>>>>>>> upstream/18.0
 =======
 msgid "Only 'group_pos_user' are allowed to send a Viva Wallet payment request"
 msgstr "Nur 'group_pos_user' dürfen Zahlungsanfragen von Viva Wallet versenden"
@@ -193,8 +221,13 @@ msgid ""
 "ID and Client Secret are correct"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Inhabertoken von Viva Wallet konnte nicht abgerufen werden: Bitte überprüfen"
 " Sie, ob die Client-ID und das Client-Geheimnis korrekt sind."
+=======
+"Inhabertoken von Viva Wallet konnte nicht abgerufen werden: Bitte überprüfen "
+"Sie, ob die Client-ID und das Client-Geheimnis korrekt sind."
+>>>>>>> upstream/18.0
 =======
 "Inhabertoken von Viva Wallet konnte nicht abgerufen werden: Bitte überprüfen "
 "Sie, ob die Client-ID und das Client-Geheimnis korrekt sind."
@@ -205,6 +238,7 @@ msgstr ""
 #: model:ir.model.fields,help:pos_viva_wallet.field_pos_payment_method__viva_wallet_merchant_id
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Used when connecting to Viva Wallet: "
 "https://developer.vivawallet.com/getting-started/find-your-account-"
 "credentials/merchant-id-and-api-key/"
@@ -213,17 +247,23 @@ msgstr ""
 "https://developer.vivawallet.com/getting-started/find-your-account-"
 "credentials/merchant-id-and-api-key/"
 =======
+=======
+>>>>>>> upstream/18.0
 "Used when connecting to Viva Wallet: https://developer.vivawallet.com/"
 "getting-started/find-your-account-credentials/merchant-id-and-api-key/"
 msgstr ""
 "Wird bei der Verbindung mit Viva Wallet verwendet: https://"
 "developer.vivawallet.com/getting-started/find-your-account-credentials/"
 "merchant-id-and-api-key/"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: pos_viva_wallet
 #: model:ir.model.fields,help:pos_viva_wallet.field_pos_payment_method__viva_wallet_client_id
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 "Used when connecting to Viva Wallet: "
 "https://developer.vivawallet.com/getting-started/find-your-account-"
@@ -233,6 +273,8 @@ msgstr ""
 "https://developer.vivawallet.com/getting-started/find-your-account-"
 "credentials/pos-apis-credentials/#find-your-pos-apis-credentials"
 =======
+=======
+>>>>>>> upstream/18.0
 "Used when connecting to Viva Wallet: https://developer.vivawallet.com/"
 "getting-started/find-your-account-credentials/pos-apis-credentials/#find-"
 "your-pos-apis-credentials"
@@ -240,6 +282,9 @@ msgstr ""
 "Wird bei der Verbindung mit Viva Wallet verwendet: https://"
 "developer.vivawallet.com/getting-started/find-your-account-credentials/pos-"
 "apis-credentials/#find-your-pos-apis-credentials"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: pos_viva_wallet
@@ -296,6 +341,12 @@ msgid "received a message for a terminal not registered in Odoo: %s"
 msgstr ""
 "hat eine Nachricht für ein nicht in Odoo registriertes Terminal erhalten: %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+#~ msgid "Only 'group_pos_user' are allowed to get latest transaction status"
+#~ msgstr "Nur 'group_pos_user' darf den aktuellen Transaktionsstatus abrufen"
+>>>>>>> upstream/18.0
 =======
 
 #~ msgid "Only 'group_pos_user' are allowed to get latest transaction status"

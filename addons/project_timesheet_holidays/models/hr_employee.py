@@ -182,6 +182,11 @@ class Employee(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if vals.get('active'):
+            inactive_emp = self.filtered(lambda e: not e.active)
+>>>>>>> upstream/18.0
 =======
         if vals.get('active'):
             inactive_emp = self.filtered(lambda e: not e.active)
@@ -992,8 +997,13 @@ class Employee(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 inactive_emp = self_company.filtered(lambda e: not e.active)
                 inactive_emp._create_future_public_holidays_timesheets(self)
+=======
+                inactive_emp = inactive_emp.with_env(self_company.env)
+                inactive_emp._create_future_public_holidays_timesheets(inactive_emp)
+>>>>>>> upstream/18.0
 =======
                 inactive_emp = inactive_emp.with_env(self_company.env)
                 inactive_emp._create_future_public_holidays_timesheets(inactive_emp)
@@ -1805,7 +1815,11 @@ class Employee(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self_company._create_future_public_holidays_timesheets(self)
+=======
+            self_company._create_future_public_holidays_timesheets(self_company)
+>>>>>>> upstream/18.0
 =======
             self_company._create_future_public_holidays_timesheets(self_company)
 >>>>>>> upstream/18.0

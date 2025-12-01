@@ -28,7 +28,10 @@ class TestBarcodeGS1Nomenclature(TransactionCase):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         # GS1 barcode with invalid date
@@ -38,6 +41,9 @@ class TestBarcodeGS1Nomenclature(TransactionCase):
             barcode_nomenclature.gs1_date_to_date(date_gs1)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

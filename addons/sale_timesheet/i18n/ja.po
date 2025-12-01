@@ -80,8 +80,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* sale_timesheet
 # 
+=======
+# * sale_timesheet
+#
+>>>>>>> upstream/18.0
 =======
 # * sale_timesheet
 #
@@ -486,6 +491,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 =======
 # "Junko Augias (juau)" <juau@odoo.com>, 2025.
@@ -728,10 +734,15 @@
 # "Junko Augias (juau)" <juau@odoo.com>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
+=======
+# "Junko Augias (juau)" <juau@odoo.com>, 2025.
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2025-01-27 13:04+0000\n"
 <<<<<<< HEAD
@@ -985,6 +996,11 @@ msgstr ""
 "PO-Revision-Date: 2025-11-29 18:00+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-11-28 18:37+0000\n"
+"PO-Revision-Date: 2025-11-29 18:00+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Japanese <https://translate.odoo.com/projects/odoo-18/"
 "sale_timesheet/ja/>\n"
 "Language: ja\n"
@@ -992,6 +1008,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "X-Generator: Weblate 5.12.2\n"
 <<<<<<< HEAD
@@ -1232,6 +1249,9 @@ msgstr ""
 =======
 "X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #. odoo-python
@@ -1242,7 +1262,12 @@ msgid ""
 "                    No activities found. Let's start a new one!\n"
 "                </p><p>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    Track your working hours by projects every day and invoice this time to your customers.\n"
+=======
+"                    Track your working hours by projects every day and "
+"invoice this time to your customers.\n"
+>>>>>>> upstream/18.0
 =======
 "                    Track your working hours by projects every day and "
 "invoice this time to your customers.\n"
@@ -1255,7 +1280,12 @@ msgstr ""
 "                    活動が見つかりません。作成しましょう！\n"
 "                </p><p>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    毎日のプロジェクトごとに作業時間を記録し、その作業時間を顧客に請求できます。\n"
+=======
+"                    毎日のプロジェクトごとに作業時間を記録し、その作業時間を"
+"顧客に請求できます。\n"
+>>>>>>> upstream/18.0
 =======
 "                    毎日のプロジェクトごとに作業時間を記録し、その作業時間を"
 "顧客に請求できます。\n"
@@ -1273,13 +1303,19 @@ msgid ""
 "                    Record timesheets\n"
 "                </p><p>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    You can register and track your workings hours by project every\n"
 "                    day. Every time spent on a project will become a cost and can be re-invoiced to\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                    You can register and track your workings hours by "
 "project every\n"
 "                    day. Every time spent on a project will become a cost "
 "and can be re-invoiced to\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                    customers if required.\n"
 "                </p>\n"
@@ -1290,7 +1326,12 @@ msgstr ""
 "                    タイムシートを記録する\n"
 "                </p><p>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    毎日、プロジェクトごとに労働時間を登録し、追跡することができます。\n"
+=======
+"                    毎日、プロジェクトごとに労働時間を登録し、追跡することが"
+"できます。\n"
+>>>>>>> upstream/18.0
 =======
 "                    毎日、プロジェクトごとに労働時間を登録し、追跡することが"
 "できます。\n"
@@ -1308,6 +1349,7 @@ msgid ""
 "distribution of the sale order item '%(so_line_name)s' linked to the "
 "timesheet."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1695,6 +1737,10 @@ msgstr ""
 "'%(missing_plan_names)s' 分析プラン、タイムシートにリンクした販売オーダ項目 "
 "'%(so_line_name)s' の分析分配上で必要。"
 >>>>>>> upstream/18.0
+=======
+"'%(missing_plan_names)s' 分析プラン、タイムシートにリンクした販売オーダ項目 "
+"'%(so_line_name)s' の分析分配上で必要。"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.timesheet_sale_page
@@ -1752,26 +1798,38 @@ msgid ""
 "<i class=\"fa fa-lightbulb-o\"/>\n"
 "                        <span>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            Define the rate at which an employee's time is billed based on their expertise, skills, or experience.\n"
 "                            To bill the same service at a different rate, create separate sales order items.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                            Define the rate at which an employee's time is "
 "billed based on their expertise, skills, or experience.\n"
 "                            To bill the same service at a different rate, "
 "create separate sales order items.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                        </span>"
 msgstr ""
 "<i class=\"fa fa-lightbulb-o\"/>\n"
 "                        <span>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            従業員の専門知識、スキル、または経験に基づいて、従業員の時間を請求するレートを定義します。\n"
 "                            同じサービスを異なる料金で請求するには、別々の販売オーダ項目を作成します。\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                            従業員の専門知識、スキル、または経験に基づいて、"
 "従業員の時間を請求するレートを定義します。\n"
 "                            同じサービスを異なる料金で請求するには、別々の販"
 "売オーダ項目を作成します。\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                        </span>"
 
@@ -1871,6 +1929,7 @@ msgstr "フルタイム雇用 <br>高待遇"
 #: model:ir.model.fields,help:sale_timesheet.field_sale_order_line__qty_delivered_method
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "According to product configuration, the delivered quantity can be automatically computed by mechanism:\n"
 "  - Manual: the quantity is set manually on the line\n"
 "  - Analytic From expenses: the quantity is the quantity sum from posted expenses\n"
@@ -1885,6 +1944,8 @@ msgstr ""
 
 #. module: sale_timesheet
 =======
+=======
+>>>>>>> upstream/18.0
 "According to product configuration, the delivered quantity can be "
 "automatically computed by mechanism:\n"
 "  - Manual: the quantity is set manually on the line\n"
@@ -1908,6 +1969,9 @@ msgid "Account Move Reversal"
 msgstr "会計反対仕訳"
 
 #. module: sale_timesheet
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:hr.job,website_description:sale_timesheet.job_engineer
 #: model_terms:hr.job,website_description:sale_timesheet.job_interior_designer
@@ -1951,7 +2015,13 @@ msgid ""
 "An employee cannot be selected more than once in the mapping. Please remove "
 "duplicate(s) and try again."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "マッピングで従業員を複数回選択することはできません。重複を削除してから、もう一度やり直して下さい。"
+=======
+msgstr ""
+"マッピングで従業員を複数回選択することはできません。重複を削除してから、もう"
+"一度やり直して下さい。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "マッピングで従業員を複数回選択することはできません。重複を削除してから、もう"
@@ -1975,6 +2045,7 @@ msgstr "分析行"
 msgid ""
 "As an employee of our company, you will <b>collaborate with each department\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        to create and deploy disruptive products.</b> Come work at a growing company\n"
 "                        that offers great benefits with opportunities to moving forward and learn\n"
 "                        alongside accomplished leaders. We're seeking an experienced and outstanding\n"
@@ -1990,6 +2061,8 @@ msgstr ""
 "                            <br><br>\n"
 "                         この職位では<b>創造性と厳密さ</b>の両方が必要で、枠にとらわれない発想が求められます。積極的に行動し、「やり遂げる」精神を持った応募者の方を\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                        to create and deploy disruptive products.</b> Come "
 "work at a growing company\n"
 "                        that offers great benefits with opportunities to "
@@ -2014,6 +2087,9 @@ msgstr ""
 "                         この職位では<b>創造性と厳密さ</b>の両方が必要で、枠"
 "にとらわれない発想が求められます。積極的に行動し、「やり遂げる」精神を持った"
 "応募者の方を\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "　　　　　　お待ちしています。\n"
 "                        また、優れた問題解決能力をお持ちの方を採用致します。"
@@ -2149,7 +2225,11 @@ msgid "Billed at a Fixed Price"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "固定金額による請求"
+=======
+msgstr "固定価格で請求"
+>>>>>>> upstream/18.0
 =======
 msgstr "固定価格で請求"
 >>>>>>> upstream/18.0
@@ -2475,7 +2555,11 @@ msgid "Billed at a Fixed price"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "固定金額による請求"
+=======
+msgstr "固定価格で請求"
+>>>>>>> upstream/18.0
 =======
 msgstr "固定価格で請求"
 >>>>>>> upstream/18.0
@@ -2879,6 +2963,7 @@ msgstr "ドラフト請求書"
 msgid ""
 "Each employee has a chance to see the impact of his work.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    You can make a real contribution to the success of the company.\n"
 "                    <br>\n"
 "                    Several activities are often organized all over the year, such as weekly\n"
@@ -2886,6 +2971,8 @@ msgid ""
 msgstr ""
 "全ての従業員に自分の仕事が与えるインパクトを目の当たりにするチャンスがあります。\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                    You can make a real contribution to the success of the "
 "company.\n"
 "                    <br>\n"
@@ -2896,6 +2983,9 @@ msgstr ""
 msgstr ""
 "全ての従業員に自分の仕事が与えるインパクトを目の当たりにするチャンスがありま"
 "す。\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                    会社の成功に本当の意味で貢献できるのです。\n"
 "                    <br>\n"
@@ -3127,6 +3217,7 @@ msgstr "全セールスサイクルの指導"
 #: model:ir.model.fields,help:sale_timesheet.field_product_template__service_type
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Manually set quantities on order: Invoice based on the manually entered quantity, without creating an analytic account.\n"
 "Timesheets on contract: Invoice based on the tracked hours on the related timesheet.\n"
 "Create a task and track hours: Create a task on the sales order validation and track the work hours."
@@ -3135,6 +3226,8 @@ msgstr ""
 "契約上のタイムシート:関連するタイムシートの追跡対象時間に基づく請求書。\n"
 "タスクを作成して時間を追跡する:販売オーダの検証でタスクを作成し、労働時間を追跡します。"
 =======
+=======
+>>>>>>> upstream/18.0
 "Manually set quantities on order: Invoice based on the manually entered "
 "quantity, without creating an analytic account.\n"
 "Timesheets on contract: Invoice based on the tracked hours on the related "
@@ -3147,6 +3240,9 @@ msgstr ""
 "契約上のタイムシート:関連するタイムシートの追跡対象時間に基づく請求書。\n"
 "タスクを作成して時間を追跡する:販売オーダの検証でタスクを作成し、労働時間を追"
 "跡します。"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sale_timesheet
@@ -3224,6 +3320,7 @@ msgstr "まだデータはありません！"
 #: model_terms:hr.job,website_description:sale_timesheet.job_interior_designer
 #: model_terms:hr.job,website_description:sale_timesheet.job_labour
 msgid "No dumb managers, no stupid tools to use, no rigid working hours"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3705,6 +3802,9 @@ msgstr "自由でフラットな職場環境、使いやすいツール、柔軟
 =======
 msgstr "自由でフラットな職場環境、使いやすいツール、柔軟な勤務時間"
 >>>>>>> upstream/18.0
+=======
+msgstr "自由でフラットな職場環境、使いやすいツール、柔軟な勤務時間"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:hr.job,website_description:sale_timesheet.job_engineer
@@ -3766,7 +3866,13 @@ msgid ""
 "distinction."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "この期間からまだ請求されていない(該当する場合は検証済の)タイムシートのみが請求されます。期間が指定されていない場合、まだ請求書が発行されていない(該当する場合は検証済の)全てのタイムシートが区別なく請求されます。"
+=======
+"この期間からまだ請求されていない(該当する場合は検証済の)タイムシートのみが請"
+"求されます。期間が指定されていない場合、まだ請求書が発行されていない(該当する"
+"場合は検証済の)全てのタイムシートが区別なく請求されます。"
+>>>>>>> upstream/18.0
 =======
 "この期間からまだ請求されていない(該当する場合は検証済の)タイムシートのみが請"
 "求されます。期間が指定されていない場合、まだ請求書が発行されていない(該当する"
@@ -3817,7 +3923,13 @@ msgid ""
 "Percentage of time delivered compared to the prepaid amount that must be "
 "reached for the upselling opportunity activity to be triggered."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "アップセリング案件の活動がトリガされるために到達しなければならない前払金額と比較した配信時間のパーセンテージ。"
+=======
+msgstr ""
+"アップセリング案件の活動がトリガされるために到達しなければならない前払金額と"
+"比較した配信時間のパーセンテージ。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "アップセリング案件の活動がトリガされるために到達しなければならない前払金額と"
@@ -3946,7 +4058,13 @@ msgstr "収益"
 msgid ""
 "Review your timesheets by billing type and make sure your time is billable."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "請求タイプ別にタイムシートをレビューし、タイムシートが請求可能であることを確認してください。"
+=======
+msgstr ""
+"請求タイプ別にタイムシートをレビューし、タイムシートが請求可能であることを確"
+"認してください。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "請求タイプ別にタイムシートをレビューし、タイムシートが請求可能であることを確"
@@ -4007,6 +4125,7 @@ msgstr "販売オーダ"
 #: model:ir.model.fields,help:sale_timesheet.field_project_project__sale_line_employee_ids
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Sales order item that will be selected by default on the timesheets of the corresponding employee. It bypasses the sales order item defined on the project and the task, and can be modified on each timesheet entry if necessary. In other words, it defines the rate at which an employee's time is billed based on their expertise, skills or experience, for instance.\n"
 "If you would like to bill the same service at a different rate, you need to create two separate sales order items as each sales order item can only have a single unit price at a time.\n"
 "You can also define the hourly company cost of your employees for their timesheets on this project specifically. It will bypass the timesheet cost set on the employee."
@@ -4015,6 +4134,8 @@ msgstr ""
 "同じサービスを異なるレートで請求したい場合、各販売オーダ項目は一度に単一の単価しか持つことができないため、2つの別々の販売オーダ項目を作成する必要があります。\n"
 "また、このプロジェクトでは、従業員のタイムシートの会社原価を時間単位で定義することができます。これは、従業員に設定されたタイムシート原価をバイパスします。"
 =======
+=======
+>>>>>>> upstream/18.0
 "Sales order item that will be selected by default on the timesheets of the "
 "corresponding employee. It bypasses the sales order item defined on the "
 "project and the task, and can be modified on each timesheet entry if "
@@ -4038,6 +4159,9 @@ msgstr ""
 "また、このプロジェクトでは、従業員のタイムシートの会社原価を時間単位で定義す"
 "ることができます。これは、従業員に設定されたタイムシート原価をバイパスしま"
 "す。"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sale_timesheet
@@ -4047,7 +4171,13 @@ msgid ""
 "invoiced to your customer. Remove the sales order item for the timesheet "
 "entry to be non-billable."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "顧客に請求するために、使用した時間を追加する販売オーダ項目。タイムシートエントリーを請求不可にするには、販売オーダ項目を削除して下さい。"
+=======
+msgstr ""
+"顧客に請求するために、使用した時間を追加する販売オーダ項目。タイムシートエン"
+"トリーを請求不可にするには、販売オーダ項目を削除して下さい。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "顧客に請求するために、使用した時間を追加する販売オーダ項目。タイムシートエン"
@@ -4101,7 +4231,12 @@ msgid ""
 "sales order item."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "タスクにかかった時間を請求する際にデフォルトで使用されるサービス。特定の販売オーダ項目を選択することで、各タスクを個別に変更することができます。"
+=======
+"タスクにかかった時間を請求する際にデフォルトで使用されるサービス。特定の販売"
+"オーダ項目を選択することで、各タスクを個別に変更することができます。"
+>>>>>>> upstream/18.0
 =======
 "タスクにかかった時間を請求する際にデフォルトで使用されるサービス。特定の販売"
 "オーダ項目を選択することで、各タスクを個別に変更することができます。"
@@ -4177,7 +4312,12 @@ msgid ""
 "The %s product is required by the Timesheets app and cannot be archived nor "
 "deleted."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "プロダクト %sはタイムシートアプリで必須であり、アーカイブや削除はできません。"
+=======
+msgstr ""
+"プロダクト %sはタイムシートアプリで必須であり、アーカイブや削除はできません。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "プロダクト %sはタイムシートアプリで必須であり、アーカイブや削除はできません。"
@@ -4190,7 +4330,13 @@ msgid ""
 "The %s product is required by the Timesheets app and cannot be linked to a "
 "company."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "%s プロダクトはタイムシートアプリに必要であり、会社にリンクすることはできません。"
+=======
+msgstr ""
+"%s プロダクトはタイムシートアプリに必要であり、会社にリンクすることはできませ"
+"ん。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "%s プロダクトはタイムシートアプリに必要であり、会社にリンクすることはできませ"
@@ -4202,7 +4348,12 @@ msgstr ""
 #: code:addons/sale_timesheet/wizard/project_create_invoice.py:0
 msgid "The selected Sales Order should contain something to invoice."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "選択された販売オーダには請求書を発行するものが含まれていなければなりません。"
+=======
+msgstr ""
+"選択された販売オーダには請求書を発行するものが含まれていなければなりません。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "選択された販売オーダには請求書を発行するものが含まれていなければなりません。"
@@ -4215,6 +4366,7 @@ msgid ""
 "The task rate is perfect if you would like to bill different services to "
 "different customers at different rates. The fixed rate is perfect if you "
 "bill a service at a fixed rate per hour or day worked regardless of the "
+<<<<<<< HEAD
 <<<<<<< HEAD
 "employee who performed it. The employee rate is preferable if your employees"
 " deliver the same service at a different rate. For instance, junior and "
@@ -4851,6 +5003,8 @@ msgstr ""
 "タスクレートは、異なる顧客に異なるレートで異なるサービスを請求したい場合に最適です。固定レートは、サービスを提供した従業員に関係なく、1時間または1日あたりの固定レートで請求する場合に最適です。従業員レートは、従業員が同じサービスを異なる料金で提供する場合に適しています。例えば、ジュニアコンサルタントとシニアコンサルタントは、同じサービス(＝コンサルタント業務)を提供しますが、職位レベルの違いにより、異なる料金で提供します。"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "employee who performed it. The employee rate is preferable if your employees "
 "deliver the same service at a different rate. For instance, junior and "
 "senior consultants would deliver the same service (= consultancy), but at a "
@@ -4862,6 +5016,9 @@ msgstr ""
 "を異なる料金で提供する場合に適しています。例えば、ジュニアコンサルタントとシ"
 "ニアコンサルタントは、同じサービス(＝コンサルタント業務)を提供しますが、職位"
 "レベルの違いにより、異なる料金で提供します。"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sale_timesheet
@@ -4870,7 +5027,12 @@ msgid ""
 "This cost overrides the employee's default employee hourly wage in "
 "employee's HR Settings"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "この原価は、従業員の人事設定にある従業員のデフォルト時給を上書きします。"
+=======
+msgstr ""
+"この原価は、従業員の人事設定にある従業員のデフォルト時給を上書きします。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "この原価は、従業員の人事設定にある従業員のデフォルト時給を上書きします。"
@@ -5077,7 +5239,13 @@ msgid ""
 "Total amount to invoice on the sales order, including all items (services, "
 "storables, expenses, ...)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "全ての項目(サービス、保管可能品、経費、...)を含む、販売オーダで請求する合計金額"
+=======
+msgstr ""
+"全ての項目(サービス、保管可能品、経費、...)を含む、販売オーダで請求する合計金"
+"額"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "全ての項目(サービス、保管可能品、経費、...)を含む、販売オーダで請求する合計金"
@@ -5104,14 +5272,20 @@ msgstr "サービス追跡"
 #: model_terms:ir.actions.act_window,help:sale_timesheet.timesheet_action_from_sales_order_item
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Track your working hours by projects every day and invoice this time to your"
 " customers."
 msgstr "プロジェクトごとに毎日、作業時間を記録し、その時間を顧客に請求しましょう。"
 =======
+=======
+>>>>>>> upstream/18.0
 "Track your working hours by projects every day and invoice this time to your "
 "customers."
 msgstr ""
 "プロジェクトごとに毎日、作業時間を記録し、その時間を顧客に請求しましょう。"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sale_timesheet
@@ -5182,7 +5356,13 @@ msgid ""
 "You cannot link a billable project to a sales order item that comes from an "
 "expense or a vendor bill."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "請求可能なプロジェクトを、経費や仕入先請求に由来する販売オーダ項目にリンクすることはできません。"
+=======
+msgstr ""
+"請求可能なプロジェクトを、経費や仕入先請求に由来する販売オーダ項目にリンクす"
+"ることはできません。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "請求可能なプロジェクトを、経費や仕入先請求に由来する販売オーダ項目にリンクす"
@@ -5196,7 +5376,13 @@ msgid ""
 "You cannot link a billable project to a sales order item that is not a "
 "service."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "請求可能なプロジェクトを、サービスではない販売オーダ項目にリンクすることはできません。"
+=======
+msgstr ""
+"請求可能なプロジェクトを、サービスではない販売オーダ項目にリンクすることはで"
+"きません。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "請求可能なプロジェクトを、サービスではない販売オーダ項目にリンクすることはで"

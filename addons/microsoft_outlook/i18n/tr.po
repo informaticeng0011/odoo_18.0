@@ -1,8 +1,13 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* microsoft_outlook
 # 
+=======
+# * microsoft_outlook
+#
+>>>>>>> upstream/18.0
 =======
 # * microsoft_outlook
 #
@@ -16,7 +21,11 @@
 # Murat Kaplan <muratk@projetgrup.com>, 2024
 # Halil, 2024
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
@@ -25,6 +34,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Halil, 2024\n"
@@ -35,6 +45,8 @@ msgstr ""
 "Language: tr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-11-25 09:48+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Turkish <https://translate.odoo.com/projects/odoo-18/"
@@ -45,6 +57,9 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: microsoft_outlook
@@ -61,6 +76,11 @@ msgid ""
 "                        Connect your Outlook account"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"oi oi-arrow-right\"/>\n"
+"                        Outlook hesabınızı bağlayın"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"oi oi-arrow-right\"/>\n"
 "                        Outlook hesabınızı bağlayın"
@@ -74,12 +94,18 @@ msgid ""
 "                    </span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "<span invisible="
 "\"server_type != 'outlook' or not microsoft_outlook_refresh_token\" class="
 "\"badge text-bg-success\">\n"
 "                        Outlook Tokeni Geçerli\n"
 "                   </span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: microsoft_outlook
@@ -90,12 +116,18 @@ msgid ""
 "                    </span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "<span invisible="
 "\"smtp_authentication != 'outlook' or not microsoft_outlook_refresh_token\" "
 "class=\"badge text-bg-success\">\n"
 "                        Outlook Tokeni Geçerli\n"
 "                   </span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: microsoft_outlook
@@ -169,6 +201,11 @@ msgid ""
 " \"TLS (STARTTLS)\"."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Outlook posta sunucusu için Bağlantı Güvenliği Hatalı \"%s\". Lütfen "
+"\"TLS (STARTTLS)\" olarak ayarlayın."
+>>>>>>> upstream/18.0
 =======
 "Outlook posta sunucusu için Bağlantı Güvenliği Hatalı \"%s\". Lütfen "
 "\"TLS (STARTTLS)\" olarak ayarlayın."
@@ -255,6 +292,12 @@ msgid ""
 "the Outlook OAuthentication Token."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Lütfen \"Kullanıcı Adı\" alanını Outlook/Office365 kullanıcı adınızla (e-"
+"posta adresiniz) doldurun. Bu, Outlook OAuthentication Token için kullanılan "
+"hesapla aynı olmalıdır."
+>>>>>>> upstream/18.0
 =======
 "Lütfen \"Kullanıcı Adı\" alanını Outlook/Office365 kullanıcı adınızla (e-"
 "posta adresiniz) doldurun. Bu, Outlook OAuthentication Token için kullanılan "
@@ -269,6 +312,11 @@ msgid ""
 "OAuth process does not require it"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Outlook posta sunucusu \"%s\" için lütfen parola alanını boş bırakın. OAuth "
+"süreci bunu gerektirmez"
+>>>>>>> upstream/18.0
 =======
 "Outlook posta sunucusu \"%s\" için lütfen parola alanını boş bırakın. OAuth "
 "süreci bunu gerektirmez"
@@ -284,7 +332,11 @@ msgstr "İncele"
 #: code:addons/microsoft_outlook/models/fetchmail_server.py:0
 msgid "SSL is required for server “%s”."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "\"%s\" sunucusu için SSL gereklidir."
+>>>>>>> upstream/18.0
 =======
 msgstr "\"%s\" sunucusu için SSL gereklidir."
 >>>>>>> upstream/18.0

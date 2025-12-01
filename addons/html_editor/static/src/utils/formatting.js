@@ -81,7 +81,12 @@ import { isBold, isDirectionSwitched, isItalic, isStrikeThrough, isUnderline } f
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { closestElement } from "./dom_traversal";
+=======
+import { closestElement, closestPath, findNode } from "./dom_traversal";
+import { isBlock } from "./blocks";
+>>>>>>> upstream/18.0
 =======
 import { closestElement, closestPath, findNode } from "./dom_traversal";
 import { isBlock } from "./blocks";
@@ -562,7 +567,12 @@ export const formatsSpecs = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         isFormatted: (node) => closestElement(node)?.style["font-size"],
+=======
+        isFormatted: (node) =>
+            !!findNode(closestPath(node), (el) => el.style?.["font-size"], isBlock),
+>>>>>>> upstream/18.0
 =======
         isFormatted: (node) =>
             !!findNode(closestPath(node), (el) => el.style?.["font-size"], isBlock),
@@ -938,6 +948,7 @@ export const formatsSpecs = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         isFormatted: (node) =>
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1233,6 +1244,8 @@ export const formatsSpecs = {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         isFormatted: (node, props) =>
             !!findNode(
                 closestPath(node),
@@ -1288,6 +1301,9 @@ export const formatsSpecs = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1433,11 +1449,14 @@ export const formatsSpecs = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         removeStyle: (node) => removeClass(node, ...FONT_SIZE_CLASSES, ...TEXT_STYLE_CLASSES),
     },
     switchDirection: {
         isFormatted: isDirectionSwitched,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1583,6 +1602,9 @@ export const formatsSpecs = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

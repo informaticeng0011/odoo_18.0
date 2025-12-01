@@ -447,8 +447,13 @@ describe("RPC calls", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect("profession" in result[0]).toBe(true);
         expect("age" in result[0]).toBe(false);
+=======
+        expect(result[0]).toInclude("profession");
+        expect(result[0]).not.toInclude("age");
+>>>>>>> upstream/18.0
 =======
         expect(result[0]).toInclude("profession");
         expect(result[0]).not.toInclude("age");
@@ -980,8 +985,13 @@ describe("RPC calls", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect("profession" in result[0]).toBe(true);
         expect("age" in result[0]).toBe(true);
+=======
+        expect(result[0]).toInclude("profession");
+        expect(result[0]).toInclude("age");
+>>>>>>> upstream/18.0
 =======
         expect(result[0]).toInclude("profession");
         expect(result[0]).toInclude("age");

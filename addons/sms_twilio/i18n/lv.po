@@ -1,8 +1,14 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* sms_twilio
 #
+=======
+# * sms_twilio
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 =======
 # * sms_twilio
 #
@@ -12,6 +18,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 17.0+e\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -331,6 +338,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-09-12 01:51+0000\n"
 "PO-Revision-Date: 2025-11-25 11:12+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
@@ -344,6 +353,9 @@ msgstr ""
 "(n % 10 == 0 || n % 100 >= 11 && n % 100 <= 19) ? 0 : "
 "((n % 10 == 1 && n % 100 != 11) ? 1 : 2);\n"
 "X-Generator: Weblate 5.14.3\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sms_twilio
@@ -431,7 +443,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -669,6 +684,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -909,7 +927,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "A 'To' phone number is required."
+=======
+msgid "A 'To' phone number is required"
+>>>>>>> upstream/18.0
 =======
 msgid "A 'To' phone number is required"
 >>>>>>> upstream/18.0
@@ -1248,6 +1270,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields.selection,name:sms_twilio.selection__mail_notification__failure_type__twilio_authentication
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields.selection,name:sms_twilio.selection__mail_notification__failure_type__twilio_authentication
 >>>>>>> upstream/18.0
@@ -1490,7 +1516,11 @@ msgstr ""
 #: model:ir.model,name:sms_twilio.model_res_company
 msgid "Companies"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Uzņēmumi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Uzņēmumi"
 >>>>>>> upstream/18.0
@@ -1501,7 +1531,11 @@ msgstr "Uzņēmumi"
 #: model:ir.model.fields,field_description:sms_twilio.field_sms_twilio_number__company_id
 msgid "Company"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Uzņēmums"
+>>>>>>> upstream/18.0
 =======
 msgstr "Uzņēmums"
 >>>>>>> upstream/18.0
@@ -1510,7 +1544,11 @@ msgstr "Uzņēmums"
 #: model:ir.model,name:sms_twilio.model_res_config_settings
 msgid "Config Settings"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Konfigurācijas uzstādījumi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Konfigurācijas uzstādījumi"
 >>>>>>> upstream/18.0
@@ -1524,7 +1562,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:sms_twilio.field_sms_twilio_number__country_id
 msgid "Country"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Valsts"
+>>>>>>> upstream/18.0
 =======
 msgstr "Valsts"
 >>>>>>> upstream/18.0
@@ -1533,7 +1575,11 @@ msgstr "Valsts"
 #: model:ir.model.fields,field_description:sms_twilio.field_sms_twilio_number__country_code
 msgid "Country Code"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Valsts kods"
+>>>>>>> upstream/18.0
 =======
 msgstr "Valsts kods"
 >>>>>>> upstream/18.0
@@ -1543,7 +1589,11 @@ msgstr "Valsts kods"
 #: model:ir.model.fields,field_description:sms_twilio.field_sms_twilio_number__create_uid
 msgid "Created by"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izveidoja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Izveidoja"
 >>>>>>> upstream/18.0
@@ -1553,7 +1603,11 @@ msgstr "Izveidoja"
 #: model:ir.model.fields,field_description:sms_twilio.field_sms_twilio_number__create_date
 msgid "Created on"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izveidots"
+>>>>>>> upstream/18.0
 =======
 msgstr "Izveidots"
 >>>>>>> upstream/18.0
@@ -1567,7 +1621,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sms_twilio.sms_twilio_account_manage_view_form
 msgid "Delete"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izdzēst"
+>>>>>>> upstream/18.0
 =======
 msgstr "Izdzēst"
 >>>>>>> upstream/18.0
@@ -1576,7 +1634,11 @@ msgstr "Izdzēst"
 #: model_terms:ir.ui.view,arch_db:sms_twilio.sms_twilio_account_manage_view_form
 msgid "Discard"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Atmest"
+>>>>>>> upstream/18.0
 =======
 msgstr "Atmest"
 >>>>>>> upstream/18.0
@@ -1586,7 +1648,11 @@ msgstr "Atmest"
 #: model:ir.model.fields,field_description:sms_twilio.field_sms_twilio_number__display_name
 msgid "Display Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nosaukums"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nosaukums"
 >>>>>>> upstream/18.0
@@ -1596,7 +1662,11 @@ msgstr "Nosaukums"
 #: code:addons/sms_twilio/wizard/sms_twilio_account_manage.py:0
 msgid "Error: %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kļūda: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kļūda: %s"
 >>>>>>> upstream/18.0
@@ -1605,6 +1675,7 @@ msgstr "Kļūda: %s"
 #: model:ir.model.fields,field_description:sms_twilio.field_sms_sms__failure_type
 msgid "Failure Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: sms_twilio
@@ -1842,12 +1913,17 @@ msgstr ""
 msgid "Failure type"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Neveiksmes veids"
 
 #. module: sms_twilio
 #: model:ir.model.fields,field_description:sms_twilio.field_mail_notification__failure_type
 msgid "Failure type"
 msgstr "Neveiksmes veids"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sms_twilio
@@ -1934,6 +2010,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2402,6 +2479,8 @@ msgstr ""
 #: model:ir.model.fields.selection,name:sms_twilio.selection__mail_notification__failure_type__twilio_callback
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:sms_twilio.field_sms_twilio_account_manage__id
 #: model:ir.model.fields,field_description:sms_twilio.field_sms_twilio_number__id
 msgid "ID"
@@ -2409,6 +2488,9 @@ msgstr "ID"
 
 #. module: sms_twilio
 #: model:ir.model.fields.selection,name:sms_twilio.selection__mail_notification__failure_type__twilio_callback
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:sms_twilio.selection__sms_sms__failure_type__twilio_callback
 msgid "Incorrect callback URL"
@@ -2434,7 +2516,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:sms_twilio.field_sms_twilio_number__write_uid
 msgid "Last Updated by"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pēdējo reizi atjaunoja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pēdējo reizi atjaunoja"
 >>>>>>> upstream/18.0
@@ -2444,7 +2530,11 @@ msgstr "Pēdējo reizi atjaunoja"
 #: model:ir.model.fields,field_description:sms_twilio.field_sms_twilio_number__write_date
 msgid "Last Updated on"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pēdējās izmaiņas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pēdējās izmaiņas"
 >>>>>>> upstream/18.0
@@ -2462,6 +2552,7 @@ msgid "Manage Twilio SMS"
 msgstr ""
 
 #. module: sms_twilio
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2701,6 +2792,11 @@ msgstr ""
 msgid "Message Notifications"
 msgstr "Message Notifications"
 >>>>>>> upstream/18.0
+=======
+#: model:ir.model,name:sms_twilio.model_mail_notification
+msgid "Message Notifications"
+msgstr "Message Notifications"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #: model:ir.model.fields.selection,name:sms_twilio.selection__mail_notification__failure_type__twilio_from_missing
@@ -2786,6 +2882,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3011,7 +3110,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:sms_twilio.field_sms_twilio_number__sequence
 msgid "Sequence"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sekvence"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sekvence"
 >>>>>>> upstream/18.0
@@ -3028,6 +3131,11 @@ msgid ""
 "You can use this field for quick search."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Valsts ISO kods divās rakstzīmēs.\n"
+"Jūs varat izmantot šo lauku ātrākai meklēšanai."
+>>>>>>> upstream/18.0
 =======
 "Valsts ISO kods divās rakstzīmēs.\n"
 "Jūs varat izmantot šo lauku ātrākai meklēšanai."
@@ -3120,7 +3228,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "The number you're trying to reach is not correctly formatted."
+=======
+msgid "The number you're trying to reach is not correctly formatted"
+>>>>>>> upstream/18.0
 =======
 msgid "The number you're trying to reach is not correctly formatted"
 >>>>>>> upstream/18.0
@@ -3444,7 +3556,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3682,6 +3797,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3960,7 +4078,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4198,6 +4319,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

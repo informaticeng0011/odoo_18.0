@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* barcodes_gs1_nomenclature
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -253,6 +254,9 @@
 =======
 # * barcodes_gs1_nomenclature
 >>>>>>> upstream/18.0
+=======
+# * barcodes_gs1_nomenclature
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
@@ -265,6 +269,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -479,6 +484,9 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
@@ -508,6 +516,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -761,6 +770,9 @@ msgstr ""
 =======
 "POT-Creation-Date: 2025-11-28 18:36+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-11-28 18:36+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-11-21 02:24+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Arabic <https://translate.odoo.com/projects/odoo-18/"
@@ -772,6 +784,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -792,6 +807,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -833,12 +849,17 @@ msgstr ""
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
 "X-Generator: Weblate 5.12.2\n"
 >>>>>>> upstream/18.0
+=======
+"&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: barcodes_gs1_nomenclature
 #. odoo-python
 #: code:addons/barcodes_gs1_nomenclature/models/barcode_nomenclature.py:0
 msgid ""
 "A GS1 barcode nomenclature pattern was matched. However, the barcode failed "
+<<<<<<< HEAD
 <<<<<<< HEAD
 "to be converted to a valid date: '%(error_message)'"
 msgstr ""
@@ -1095,6 +1116,10 @@ msgstr ""
 "to be converted to a valid date: '%(error_message)s'"
 msgstr ""
 >>>>>>> upstream/18.0
+=======
+"to be converted to a valid date: '%(error_message)s'"
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: barcodes_gs1_nomenclature
 #: model:ir.model.fields.selection,name:barcodes_gs1_nomenclature.selection__barcode_rule__gs1_content_type__alpha
@@ -1339,8 +1364,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "المعرف الرقمي: باركود ذو طول ثابت يتبع ترميزاً محدداً;        *اسم يحتوي على"
 " أحرف وأرقام: باركود ذو أطوال متفاوتة. "
+=======
+"المعرف الرقمي: باركود ذو طول ثابت يتبع ترميزاً محدداً;        *اسم يحتوي على "
+"أحرف وأرقام: باركود ذو أطوال متفاوتة. "
+>>>>>>> upstream/18.0
 =======
 "المعرف الرقمي: باركود ذو طول ثابت يتبع ترميزاً محدداً;        *اسم يحتوي على "
 "أحرف وأرقام: باركود ذو أطوال متفاوتة. "
@@ -1765,6 +1795,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If this rule uses decimal, check it can't get sometime else than a digit as last char for the Application Identifier.\n"
 "Check also the possible matched values can only be digits, otherwise the value can't be casted as a measure."
 msgstr ""
@@ -1772,6 +1803,8 @@ msgstr ""
 "إذا كانت هذه القائمة تستخدم الفواصل العشرية، تحقق من أن الخانة الأخيرة تتكون من رقم وليس أي شيء آخر لمعرّف التطبيق.\n"
 "تأكد أيضاً من كون القيم المتطابقة المحتملة أرقاماً فقط، وإلا فلن تتم صياغة القيمة كوحدة قياس. "
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2019,6 +2052,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2206,6 +2242,7 @@ msgstr "لا يمكن تحليل هذا الباركود جزئياً أو كل�
 msgid ""
 "This rule will apply only if the barcode is encoded with the specified "
 "encoding"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2528,13 +2565,19 @@ msgstr "ستُطبق هذه القاعدة فقط إذا كان الباركود
 =======
 msgstr "ستُطبق هذه القاعدة فقط إذا كان الباركود مُشفرًا بطريقة التشفير المحددة"
 >>>>>>> upstream/18.0
+=======
+msgstr "ستُطبق هذه القاعدة فقط إذا كان الباركود مُشفرًا بطريقة التشفير المحددة"
+>>>>>>> upstream/18.0
 
 #. module: barcodes_gs1_nomenclature
 #: model:ir.model.fields,field_description:barcodes_gs1_nomenclature.field_barcode_rule__type
 msgid "Type"
 msgstr "النوع"
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 #~ msgid ""
 #~ "A GS1 barcode nomenclature pattern was matched. However, the barcode "
@@ -2542,4 +2585,7 @@ msgstr "النوع"
 #~ msgstr ""
 #~ "تمت مطابقة نمط تسمية الباركود GS1. ومع ذلك، فشل تحويل الباركود إلى تاريخ "
 #~ "صالح: ’%(error_message)‘"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

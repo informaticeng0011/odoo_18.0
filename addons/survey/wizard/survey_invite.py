@@ -235,6 +235,7 @@ class SurveyInvite(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for invite in self:
             if invite.subject:
                 continue
@@ -265,6 +266,11 @@ class SurveyInvite(models.TransientModel):
 >>>>>>> upstream/18.0
 =======
         for invite in self.filtered(lambda inv: not inv.subject):
+            if invite.template_id and invite.template_id.subject:
+                invite.subject = invite.template_id.subject
+>>>>>>> upstream/18.0
+=======
+        for invite in self:
             if invite.template_id and invite.template_id.subject:
                 invite.subject = invite.template_id.subject
 >>>>>>> upstream/18.0

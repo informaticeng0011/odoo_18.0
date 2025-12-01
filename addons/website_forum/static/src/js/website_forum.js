@@ -128,12 +128,18 @@ class WebsiteForumTagsWrapper extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const choice = {
             label: string.trim(),
             value: `_${string.trim()}`,
         };
         this.state.choices.push(choice);
         this.onSelect([...this.state.value, choice.value]);
+=======
+        const choices = string.split(",").map((c) => ({ label: c.trim(), value: `_${c.trim()}` }));
+        this.state.choices.push(...choices);
+        this.onSelect([...this.state.value, ...choices.map((c) => c.value)]);
+>>>>>>> upstream/18.0
 =======
         const choices = string.split(",").map((c) => ({ label: c.trim(), value: `_${c.trim()}` }));
         this.state.choices.push(...choices);

@@ -177,9 +177,12 @@ options.registry.GalleryLayout = options.registry.CarouselHandler.extend({
         if (this.$target[0].dataset.vcss === '002') {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             let carouselEl = this.$target[0].querySelector('.carousel');
             params.colorContrast  = carouselEl && carouselEl.classList.contains('carousel-dark') ? 'carousel-dark' : ' ';
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             const carouselEl = this.$target[0].querySelector(".carousel");
@@ -189,6 +192,9 @@ options.registry.GalleryLayout = options.registry.CarouselHandler.extend({
                 : addImagesEl?.hasAttribute("data-carousel-dark");
             params.colorContrast = isCarouselDark ? "carousel-dark" : " ";
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -652,7 +658,10 @@ options.registry.GalleryImageList = options.registry.GalleryLayout.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1161,6 +1170,9 @@ options.registry.GalleryImageList = options.registry.GalleryLayout.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1583,6 +1595,12 @@ options.registry.GalleryImageList = options.registry.GalleryLayout.extend({
         });
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if (this.$target[0].querySelector(".carousel-dark")) {
+            $text[0].dataset.carouselDark = "";
+        }
+>>>>>>> upstream/18.0
 =======
         if (this.$target[0].querySelector(".carousel-dark")) {
             $text[0].dataset.carouselDark = "";
@@ -1778,7 +1796,11 @@ options.registry.GalleryImageList = options.registry.GalleryLayout.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (name === 'image_removed') {
+=======
+        if (name === 'image_removed' && !this.isBeingRemoved) {
+>>>>>>> upstream/18.0
 =======
         if (name === 'image_removed' && !this.isBeingRemoved) {
 >>>>>>> upstream/18.0

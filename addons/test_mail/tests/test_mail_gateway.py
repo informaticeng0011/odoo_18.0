@@ -1337,9 +1337,12 @@ class TestMailgateway(MailGatewayCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertNotIn(self.partner_1, test_channel.channel_partner_ids)
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1524,6 +1527,9 @@ class TestMailgateway(MailGatewayCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2151,7 +2157,11 @@ class TestMailgateway(MailGatewayCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for encoding in ['', 'UTF-8', 'UTF-16LE', 'UTF-32BE']:
+=======
+        for encoding in ['', 'UTF-8', 'UTF-16LE', 'UTF-32BE', 'cp-850']:
+>>>>>>> upstream/18.0
 =======
         for encoding in ['', 'UTF-8', 'UTF-16LE', 'UTF-32BE', 'cp-850']:
 >>>>>>> upstream/18.0
@@ -2225,7 +2235,11 @@ class TestMailgateway(MailGatewayCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if encoding not in ['', 'UTF-8']:
+=======
+            if encoding not in ['', 'UTF-8', 'cp-850']:
+>>>>>>> upstream/18.0
 =======
             if encoding not in ['', 'UTF-8', 'cp-850']:
 >>>>>>> upstream/18.0
@@ -2632,6 +2646,10 @@ class TestMailGatewayLoops(MailGatewayCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                'message_type': 'email'
+>>>>>>> upstream/18.0
 =======
                 'message_type': 'email'
 >>>>>>> upstream/18.0

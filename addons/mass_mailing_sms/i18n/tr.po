@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* mass_mailing_sms
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -330,6 +331,10 @@
 # * mass_mailing_sms
 #
 >>>>>>> upstream/18.0
+=======
+# * mass_mailing_sms
+#
+>>>>>>> upstream/18.0
 # Translators:
 # emre oktem, 2024
 # Buket Şeker <buket_skr@hotmail.com>, 2024
@@ -350,6 +355,7 @@
 # Murat Kaplan <muratk@projetgrup.com>, 2024
 # Ozlem Cikrikci <ozlemc@eskayazilim.com.tr>, 2024
 # Tugay Hatıl <tugayh@projetgrup.com>, 2025
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -959,10 +965,15 @@
 # Deniz Guvener_Odoo <degu@odoo.com>, 2025
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
+=======
+# Deniz Guvener_Odoo <degu@odoo.com>, 2025
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1618,11 +1629,16 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-09-12 01:50+0000\n"
 "PO-Revision-Date: 2025-11-25 09:48+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Turkish <https://translate.odoo.com/projects/odoo-18/"
 "mass_mailing_sms/tr/>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Language: tr\n"
 "MIME-Version: 1.0\n"
@@ -1707,6 +1723,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1851,6 +1868,10 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+=======
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 =======
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Weblate 5.12.2\n"
@@ -1889,7 +1910,11 @@ msgstr ""
 #: code:addons/mass_mailing_sms/static/src/components/sms_widget/fields_sms_widget.js:0
 msgid " (including link trackers and opt-out link)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr " (bağlantı izleyiciler ve devre dışı bırakma bağlantısı dahil)"
+>>>>>>> upstream/18.0
 =======
 msgstr " (bağlantı izleyiciler ve devre dışı bırakma bağlantısı dahil)"
 >>>>>>> upstream/18.0
@@ -1899,7 +1924,11 @@ msgstr " (bağlantı izleyiciler ve devre dışı bırakma bağlantısı dahil)"
 #: code:addons/mass_mailing_sms/static/src/components/sms_widget/fields_sms_widget.js:0
 msgid " (including link trackers)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr " (bağlantı izleyiciler dahil)"
+>>>>>>> upstream/18.0
 =======
 msgstr " (bağlantı izleyiciler dahil)"
 >>>>>>> upstream/18.0
@@ -1909,7 +1938,11 @@ msgstr " (bağlantı izleyiciler dahil)"
 #: code:addons/mass_mailing_sms/static/src/components/sms_widget/fields_sms_widget.js:0
 msgid " (including opt-out link)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr " (abonelikten çıkma bağlantısı dahil)"
+>>>>>>> upstream/18.0
 =======
 msgstr " (abonelikten çıkma bağlantısı dahil)"
 >>>>>>> upstream/18.0
@@ -1938,11 +1971,17 @@ msgid ""
 "                    </span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "<br/>\n"
 "                    <span class=\"text-muted\">\n"
 "                        <i class=\"fa fa-phone\"/> Kontaklar\n"
 "                   </span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
@@ -1952,6 +1991,11 @@ msgid ""
 "Text Message have been cancelled and will not be sent.</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span name=\"canceled_text_sms\" invisible=\"mailing_type != 'sms'\">SMS "
+"iptal edilmiştir ve gönderilmeyecektir.</span>"
+>>>>>>> upstream/18.0
 =======
 "<span name=\"canceled_text_sms\" invisible=\"mailing_type != 'sms'\">SMS "
 "iptal edilmiştir ve gönderilmeyecektir.</span>"
@@ -1964,6 +2008,11 @@ msgid ""
 "Messages could not be delivered.</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span name=\"failed_text_sms\" invisible=\"mailing_type != 'sms'\">SMS "
+"teslim edilemedi.</span>"
+>>>>>>> upstream/18.0
 =======
 "<span name=\"failed_text_sms\" invisible=\"mailing_type != 'sms'\">SMS "
 "teslim edilemedi.</span>"
@@ -1976,6 +2025,11 @@ msgid ""
 "SMS marketing is scheduled for </span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span name=\"next_departure_text\" invisible=\"mailing_type != 'sms'\">Bu "
+"pazarlama SMS'i şu tarihler için planlanmıştır </span>"
+>>>>>>> upstream/18.0
 =======
 "<span name=\"next_departure_text\" invisible=\"mailing_type != 'sms'\">Bu "
 "pazarlama SMS'i şu tarihler için planlanmıştır </span>"
@@ -1984,6 +2038,7 @@ msgstr ""
 #. module: mass_mailing_sms
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_mailing_view_form_sms
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2384,11 +2439,16 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "<span name=\"process_text_sms\" invisible=\"mailing_type != 'sms'\">SMS Text "
 "Messages are being processed.</span>"
 msgstr ""
 "<span name=\"process_text_sms\" invisible=\"mailing_type != 'sms'\">SMS'ler "
 "işleniyor.</span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
@@ -2398,6 +2458,11 @@ msgid ""
 "Text Messages are in queue and will be sent soon.</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span name=\"scheduled_text_sms\" invisible=\"mailing_type != 'sms'\">SMS şu "
+"an sırada ve yakında gönderilecektir.</span>"
+>>>>>>> upstream/18.0
 =======
 "<span name=\"scheduled_text_sms\" invisible=\"mailing_type != 'sms'\">SMS şu "
 "an sırada ve yakında gönderilecektir.</span>"
@@ -2410,6 +2475,11 @@ msgid ""
 "Messages have been sent.</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span name=\"sent_sms\" invisible=\"mailing_type != 'sms'\">SMS'ler "
+"gönderildi.</span>"
+>>>>>>> upstream/18.0
 =======
 "<span name=\"sent_sms\" invisible=\"mailing_type != 'sms'\">SMS'ler "
 "gönderildi.</span>"
@@ -2429,6 +2499,7 @@ msgstr "<span>Geçerli SMS Alıcıları</span>"
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_mailing_view_form_sms
 msgid ""
 "<strong>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2673,6 +2744,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                            It appears you don't have enough IAP credits. "
 "Click here to buy credits.\n"
 "                        </strong>"
@@ -2759,6 +2832,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3004,12 +3080,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            It appears your SMS account is not registered. Click here to set up your account.\n"
 "                        </strong>"
 msgstr ""
 "<strong>\n"
 "                            It appears your SMS account is not registered. Click here to set up your account.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3254,6 +3333,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3419,7 +3501,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_trace_view_form_sms
 msgid "<strong>This SMS could not be delivered.</strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Bu SMS teslim edilemedi.</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Bu SMS teslim edilemedi.</strong>"
 >>>>>>> upstream/18.0
@@ -3536,6 +3622,7 @@ msgstr "Aksiyon Gerekiyor"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -3904,6 +3991,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/mass_mailing_sms/wizard/mailing_sms_test.py:0
 msgid "An error occurred."
@@ -3917,6 +4006,9 @@ msgstr "Bir hata oluştu."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4015,6 +4107,7 @@ msgstr "Ek Sayısı"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -4403,11 +4496,16 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:mass_mailing_sms.selection__mailing_trace__failure_type__twilio_authentication
 msgid "Authentication Error\""
 msgstr "Kimlik Doğrulama Hatası\""
 
 #. module: mass_mailing_sms
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_mailing_view_tree_sms
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.utm_campaign_view_form
@@ -4513,7 +4611,11 @@ msgstr "Ayarlar"
 #: model:ir.model.fields.selection,name:mass_mailing_sms.selection__mailing_trace__failure_type__sms_country_not_supported
 msgid "Country Not Supported"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ülke Desteklenmiyor"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ülke Desteklenmiyor"
 >>>>>>> upstream/18.0
@@ -4522,7 +4624,11 @@ msgstr "Ülke Desteklenmiyor"
 #: model:ir.model.fields.selection,name:mass_mailing_sms.selection__mailing_trace__failure_type__sms_registration_needed
 msgid "Country-specific Registration Required"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ülkeye Özel Kayıt Gerekli"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ülkeye Özel Kayıt Gerekli"
 >>>>>>> upstream/18.0
@@ -4711,6 +4817,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -5099,11 +5206,16 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:mass_mailing_sms.selection__mailing_trace__failure_type__twilio_from_to
 msgid "From / To identic"
 msgstr "Kimden / Kime özdeş"
 
 #. module: mass_mailing_sms
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_mailing_contact__has_message
 msgid "Has Message"
@@ -5213,8 +5325,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If the sanitized phone number is on the blacklist, the contact won't receive"
 " mass mailing sms anymore, from any list"
+=======
+"If the sanitized phone number is on the blacklist, the contact won't receive "
+"mass mailing sms anymore, from any list"
+>>>>>>> upstream/18.0
 =======
 "If the sanitized phone number is on the blacklist, the contact won't receive "
 "mass mailing sms anymore, from any list"
@@ -5622,8 +5739,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Immediately send the SMS Mailing instead of queuing up. Use at your own "
 "risk."
+=======
+"Immediately send the SMS Mailing instead of queuing up. Use at your own risk."
+>>>>>>> upstream/18.0
 =======
 "Immediately send the SMS Mailing instead of queuing up. Use at your own risk."
 >>>>>>> upstream/18.0
@@ -5953,6 +6074,7 @@ msgstr "Devre dışı bırakma bağlantısını dahil et"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -6341,11 +6463,16 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:mass_mailing_sms.selection__mailing_trace__failure_type__twilio_callback
 msgid "Incorrect callback URL"
 msgstr "Yanlış geri arama URL'si"
 
 #. module: mass_mailing_sms
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,help:mass_mailing_sms.field_mailing_contact__mobile_blacklisted
 msgid ""
@@ -6435,8 +6562,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "telefon alanı olduğunda hangi numaranın kara listeye alındığını ayırt etmeye"
 " yardımcı olur."
+=======
+"telefon alanı olduğunda hangi numaranın kara listeye alındığını ayırt etmeye "
+"yardımcı olur."
+>>>>>>> upstream/18.0
 =======
 "telefon alanı olduğunda hangi numaranın kara listeye alındığını ayırt etmeye "
 "yardımcı olur."
@@ -6847,8 +6979,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "telefon alanı olduğunda hangi numaranın kara listeye alındığını ayırt etmeye"
 " yardımcı olur."
+=======
+"telefon alanı olduğunda hangi numaranın kara listeye alındığını ayırt etmeye "
+"yardımcı olur."
+>>>>>>> upstream/18.0
 =======
 "telefon alanı olduğunda hangi numaranın kara listeye alındığını ayırt etmeye "
 "yardımcı olur."
@@ -7189,7 +7326,11 @@ msgstr "Yetersiz kredi"
 #: model:ir.model.fields.selection,name:mass_mailing_sms.selection__mailing_trace__failure_type__sms_invalid_destination
 msgid "Invalid Destination"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Geçersiz Hedef"
+>>>>>>> upstream/18.0
 =======
 msgstr "Geçersiz Hedef"
 >>>>>>> upstream/18.0
@@ -7219,7 +7360,11 @@ msgstr "Son Güncelleme"
 #: model:ir.model,name:mass_mailing_sms.model_sms_tracker
 msgid "Link SMS to mailing/sms tracking models"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "SMS'i postalama/sms izleme modellerine bağlayın"
+>>>>>>> upstream/18.0
 =======
 msgstr "SMS'i postalama/sms izleme modellerine bağlayın"
 >>>>>>> upstream/18.0
@@ -7268,7 +7413,11 @@ msgstr "Posta İstatistikleri"
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_sms_tracker__mailing_trace_id
 msgid "Mailing Trace"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "E-posta Takibi"
+>>>>>>> upstream/18.0
 =======
 msgstr "E-posta Takibi"
 >>>>>>> upstream/18.0
@@ -7397,6 +7546,7 @@ msgstr "Mesajlar"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -7785,11 +7935,16 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:mass_mailing_sms.selection__mailing_trace__failure_type__twilio_from_missing
 msgid "Missing From Number"
 msgstr "Numaradan Eksik"
 
 #. module: mass_mailing_sms
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:mass_mailing_sms.selection__mailing_trace__failure_type__sms_number_missing
 msgid "Missing Number"
@@ -7813,6 +7968,7 @@ msgstr "Henüz veri yok!"
 #. module: mass_mailing_sms
 #: model_terms:ir.actions.act_window,help:mass_mailing_sms.mailing_list_action_sms
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8213,11 +8369,16 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "No need to import mailing lists, you can send SMS to contacts saved in other "
 "Odoo apps."
 msgstr ""
 "E-posta listelerini içe aktarmanıza gerek yok, diğer Odoo uygulamalarında "
 "kayıtlı kişilere SMS gönderebilirsiniz."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
@@ -8275,6 +8436,7 @@ msgstr "Numara(lar)"
 #. module: mass_mailing_sms
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_mailing_view_form_sms
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8675,11 +8837,16 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "Once you send these text messages, they'll be making a grand entrance in all "
 "pockets, creating quite the bzzzzz!"
 msgstr ""
 "Bu kısa mesajları gönderdiğinizde, tüm telefonlara büyük bir giriş "
 "yapacaklar ve oldukça etki yaratacaklar!"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
@@ -8832,7 +8999,11 @@ msgstr "SMS İzlemeleri"
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_mailing_trace__sms_tracker_ids
 msgid "SMS Trackers"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "SMS Takip Cihazları"
+>>>>>>> upstream/18.0
 =======
 msgstr "SMS Takip Cihazları"
 >>>>>>> upstream/18.0
@@ -8979,7 +9150,11 @@ msgid "STOP SMS: %(unsubscribe_url)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Daha fazla SMS almamak için: %(unsubscribe_url)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Daha fazla SMS almamak için: %(unsubscribe_url)s"
 >>>>>>> upstream/18.0
@@ -9412,7 +9587,11 @@ msgstr "SMS Gönderme Sihirbazı"
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_sms_test_view_form
 msgid "Send Test"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Test Gönder"
+>>>>>>> upstream/18.0
 =======
 msgstr "Test Gönder"
 >>>>>>> upstream/18.0
@@ -9425,6 +9604,7 @@ msgstr "Örnek SMS Gönder"
 #. module: mass_mailing_sms
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_sms_test_view_form
 msgid "Send a sample SMS for testing purpose to the numbers below."
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgstr ""
 
@@ -10200,6 +10380,11 @@ msgstr "Test amacıyla aşağıdaki numaralara örnek bir SMS gönderin."
 
 #. module: mass_mailing_sms
 >>>>>>> upstream/18.0
+=======
+msgstr "Test amacıyla aşağıdaki numaralara örnek bir SMS gönderin."
+
+#. module: mass_mailing_sms
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_mailing_view_form_sms
 msgid "Send to all"
 msgstr "Tümüne gönder"
@@ -10212,6 +10397,9 @@ msgstr "Tümüne gönder"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10336,7 +10524,11 @@ msgstr "SMS Postalarını Test Edin"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Test SMS could not be sent to %(destination)s: %(state)s"
+=======
+msgid "Test SMS could not be sent to %(destination)s: %(failure_reason)s"
+>>>>>>> upstream/18.0
 =======
 msgid "Test SMS could not be sent to %(destination)s: %(failure_reason)s"
 >>>>>>> upstream/18.0
@@ -10691,8 +10883,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Bu telefon numarası SMS Pazarlama için kara listeye alınmıştır. Kara listeyi"
 " kaldırmak için tıklayın."
+=======
+"Bu telefon numarası SMS Pazarlama için kara listeye alınmıştır. Kara listeyi "
+"kaldırmak için tıklayın."
+>>>>>>> upstream/18.0
 =======
 "Bu telefon numarası SMS Pazarlama için kara listeye alınmıştır. Kara listeyi "
 "kaldırmak için tıklayın."
@@ -11177,12 +11374,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Write an appealing SMS Text Message, define recipients and track its "
 "results."
 msgstr ""
 "Çekici bir SMS Metin Mesajı yazın, alıcıları tanımlayın ve sonuçlarını takip"
 " edin."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11424,6 +11624,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

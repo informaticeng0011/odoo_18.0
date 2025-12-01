@@ -7,6 +7,10 @@
 # Boško Stojaković <bluesoft83@gmail.com>, 2018
 # Bole <bole@dajmi5.com>, 2018
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
@@ -16,21 +20,33 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-16 13:48+0000\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "PO-Revision-Date: 2018-09-21 13:18+0000\n"
 "Last-Translator: Bole <bole@dajmi5.com>, 2018\n"
 "Language-Team: Bosnian (https://www.transifex.com/odoo/teams/41243/bs/)\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-11-25 09:51+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Bosnian <https://translate.odoo.com/projects/odoo-18/repair/"
 "bs/>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Language: bs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+=======
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 =======
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
@@ -148,7 +164,11 @@ msgstr "<strong>Proizvodi za popravku:</strong>"
 #: model_terms:ir.ui.view,arch_db:repair.report_repairorder
 msgid "<strong>Shipping address:</strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Adresa isporuke:</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Adresa isporuke:</strong>"
 >>>>>>> upstream/18.0
@@ -255,7 +275,11 @@ msgstr "Otkazan"
 #: model:ir.model.fields,field_description:repair.field_repair_order__product_uom_category_id
 msgid "Category"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kategorija"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kategorija"
 >>>>>>> upstream/18.0
@@ -269,7 +293,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:repair.field_repair_tags__color
 msgid "Color Index"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Indeks boje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Indeks boje"
 >>>>>>> upstream/18.0
@@ -286,7 +314,11 @@ msgstr "Kompanija"
 #: model:ir.ui.menu,name:repair.repair_menu_config
 msgid "Configuration"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Konfiguracija"
+>>>>>>> upstream/18.0
 =======
 msgstr "Konfiguracija"
 >>>>>>> upstream/18.0
@@ -310,6 +342,11 @@ msgstr "Potvrđeno"
 msgid "Conversion between Units of Measure can only occur if they belong to the same category. The conversion will be made based on the ratios."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Konverzija između jedinica mjera može samo da se pojavi ako pripadaju istoj "
+"kategoriji. Konverzija se izvršava na osnovu omjera."
+>>>>>>> upstream/18.0
 =======
 "Konverzija između jedinica mjera može samo da se pojavi ako pripadaju istoj "
 "kategoriji. Konverzija se izvršava na osnovu omjera."
@@ -375,7 +412,11 @@ msgstr "Kreirano"
 #: model:ir.model.fields,field_description:repair.field_repair_order__currency_id
 msgid "Currency"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Valuta"
+>>>>>>> upstream/18.0
 =======
 msgstr "Valuta"
 >>>>>>> upstream/18.0
@@ -518,7 +559,11 @@ msgstr "ID"
 #: model:ir.model.fields,field_description:repair.field_repair_order__activity_exception_icon
 msgid "Icon"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Znak"
+>>>>>>> upstream/18.0
 =======
 msgstr "Znak"
 >>>>>>> upstream/18.0
@@ -571,7 +616,11 @@ msgstr "Interno kretanje"
 #: model:ir.actions.act_window,name:repair.action_repair_move_lines
 msgid "Inventory Moves"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kretanja zalihe"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kretanja zalihe"
 >>>>>>> upstream/18.0
@@ -596,7 +645,11 @@ msgstr "Metoda fakturisanja"
 #: model:ir.model.fields,field_description:repair.field_repair_order__invoice_state
 msgid "Invoice State"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Status fakture"
+>>>>>>> upstream/18.0
 =======
 msgstr "Status fakture"
 >>>>>>> upstream/18.0
@@ -639,7 +692,11 @@ msgstr "Je pratilac"
 #: model:ir.model,name:repair.model_account_move
 msgid "Journal Entry"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dnevnički zapis"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dnevnički zapis"
 >>>>>>> upstream/18.0
@@ -648,7 +705,11 @@ msgstr "Dnevnički zapis"
 #: model:ir.model,name:repair.model_account_move_line
 msgid "Journal Item"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stavka dnevnika"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stavka dnevnika"
 >>>>>>> upstream/18.0
@@ -752,7 +813,11 @@ msgstr ""
 #: model:ir.model.fields.selection,name:repair.selection__repair_order__priority__0
 msgid "Normal"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Normalan"
+>>>>>>> upstream/18.0
 =======
 msgstr "Normalan"
 >>>>>>> upstream/18.0
@@ -810,7 +875,11 @@ msgstr "Dijelovi"
 #: model:ir.model,name:repair.model_stock_picking_type
 msgid "Picking Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tip prikupljanja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tip prikupljanja"
 >>>>>>> upstream/18.0
@@ -839,7 +908,11 @@ msgstr "Štampaj predračun"
 #: model:ir.model.fields,field_description:repair.field_repair_order__priority
 msgid "Priority"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prioritet"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prioritet"
 >>>>>>> upstream/18.0
@@ -879,7 +952,11 @@ msgstr "Jedinica mjere proizvoda"
 #: model:ir.model,name:repair.model_product_product
 msgid "Product Variant"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Varijante proizvoda"
+>>>>>>> upstream/18.0
 =======
 msgstr "Varijante proizvoda"
 >>>>>>> upstream/18.0
@@ -1111,7 +1188,11 @@ msgstr "Nalozi za popravak"
 #: model:ir.ui.menu,name:repair.repair_menu_reporting
 msgid "Reporting"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izvještavanje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Izvještavanje"
 >>>>>>> upstream/18.0
@@ -1120,7 +1201,11 @@ msgstr "Izvještavanje"
 #: model:ir.model.fields,field_description:repair.field_repair_order__user_id
 msgid "Responsible"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odgovoran"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odgovoran"
 >>>>>>> upstream/18.0
@@ -1134,7 +1219,11 @@ msgstr "Odgovorni korisnik"
 #: model:ir.model.fields,field_description:repair.field_repair_order__picking_id
 msgid "Return"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Povrati"
+>>>>>>> upstream/18.0
 =======
 msgstr "Povrati"
 >>>>>>> upstream/18.0
@@ -1154,7 +1243,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form_filter
 msgid "Returned"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vraćeno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vraćeno"
 >>>>>>> upstream/18.0
@@ -1168,7 +1261,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:repair.field_repair_order__sale_order_id
 msgid "Sale Order"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prodajni nalog"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prodajni nalog"
 >>>>>>> upstream/18.0
@@ -1182,7 +1279,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:repair.field_repair_order__schedule_date
 msgid "Scheduled Date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zakazani datum"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zakazani datum"
 >>>>>>> upstream/18.0
@@ -1264,7 +1365,11 @@ msgstr "Podukupno"
 #: model:ir.model.fields,field_description:repair.field_repair_tags__name
 msgid "Tag Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ime oznake"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ime oznake"
 >>>>>>> upstream/18.0
@@ -1281,7 +1386,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_tag_tree
 msgid "Tags"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Oznake"
+>>>>>>> upstream/18.0
 =======
 msgstr "Oznake"
 >>>>>>> upstream/18.0
@@ -1296,7 +1405,11 @@ msgstr "Porez"
 #: model:ir.model.fields,field_description:repair.field_repair_order__tax_calculation_rounding_method
 msgid "Tax calculation rounding method"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Metoda zaokruživanja poreza"
+>>>>>>> upstream/18.0
 =======
 msgstr "Metoda zaokruživanja poreza"
 >>>>>>> upstream/18.0
@@ -1371,7 +1484,11 @@ msgstr "Izvještaj praćenja"
 #: model:ir.model,name:repair.model_stock_picking
 msgid "Transfer"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prenos"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prenos"
 >>>>>>> upstream/18.0
@@ -1424,7 +1541,11 @@ msgstr "Neoporezovan iznos"
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form
 msgid "UoM"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "JM"
+>>>>>>> upstream/18.0
 =======
 msgstr "JM"
 >>>>>>> upstream/18.0
@@ -1433,7 +1554,11 @@ msgstr "JM"
 #: model:ir.model.fields.selection,name:repair.selection__repair_order__priority__1
 msgid "Urgent"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hitno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Hitno"
 >>>>>>> upstream/18.0
