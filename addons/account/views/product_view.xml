@@ -64,8 +64,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <field name="taxes_id" widget="many2many_tags"/>
                     <field name="supplier_taxes_id" widget="many2many_tags"/>
+=======
+                    <field name="taxes_id" widget="many2many_tags" context="{'append_fields': ['company_id']}"/>
+                    <field name="supplier_taxes_id" widget="many2many_tags" context="{'append_fields': ['company_id']}"/>
+>>>>>>> upstream/18.0
 =======
                     <field name="taxes_id" widget="many2many_tags" context="{'append_fields': ['company_id']}"/>
                     <field name="supplier_taxes_id" widget="many2many_tags" context="{'append_fields': ['company_id']}"/>
@@ -460,7 +465,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -887,6 +895,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1252,6 +1263,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                                'append_fields': ['company_id'],
+>>>>>>> upstream/18.0
 =======
                                 'append_fields': ['company_id'],
 >>>>>>> upstream/18.0
@@ -1482,6 +1497,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                            'append_fields': ['company_id'],
+>>>>>>> upstream/18.0
 =======
                             'append_fields': ['company_id'],
 >>>>>>> upstream/18.0

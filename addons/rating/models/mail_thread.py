@@ -132,7 +132,11 @@ class MailThread(models.AbstractModel):
                 subtype_id = self._rating_apply_get_default_subtype_id()
             else:
                 subtype_id = False
+<<<<<<< HEAD
             feedback = tools.plaintext2html(feedback or '')
+=======
+            feedback = tools.plaintext2html(feedback or '', with_paragraph=False)
+>>>>>>> upstream/18.0
 
             scheduled_datetime = (
                 fields.Datetime.now() + datetime.timedelta(hours=2)
@@ -271,7 +275,10 @@ class MailThread(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -525,6 +532,9 @@ class MailThread(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

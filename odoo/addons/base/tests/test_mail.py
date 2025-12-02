@@ -396,6 +396,7 @@ class TestHtmlTools(BaseCase):
 
     def test_plaintext2html(self):
         cases = [
+<<<<<<< HEAD
             ("First \nSecond \nThird\n \nParagraph\n\r--\nSignature paragraph", 'div',
              "<div><p>First <br/>Second <br/>Third</p><p>Paragraph</p><p>--<br/>Signature paragraph</p></div>"),
             ("First<p>It should be escaped</p>\nSignature", False,
@@ -403,6 +404,17 @@ class TestHtmlTools(BaseCase):
         ]
         for content, container_tag, expected in cases:
             html = plaintext2html(content, container_tag)
+=======
+            ("First \nSecond \nThird\n \nParagraph\n\r--\nSignature paragraph", 'div', True,
+             "<div><p>First <br/>Second <br/>Third</p><p>Paragraph</p><p>--<br/>Signature paragraph</p></div>"),
+            ("First<p>It should be escaped</p>\nSignature", False, True,
+             "<p>First&lt;p&gt;It should be escaped&lt;/p&gt;<br/>Signature</p>"),
+            ("First \nSecond \nThird", False, False,
+             "First <br/>Second <br/>Third"),
+        ]
+        for content, container_tag, with_paragraph, expected in cases:
+            html = plaintext2html(content, container_tag, with_paragraph)
+>>>>>>> upstream/18.0
             self.assertEqual(html, expected, 'plaintext2html is broken')
 
     def test_html_html_to_inner_content(self):

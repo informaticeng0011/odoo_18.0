@@ -37,7 +37,10 @@ from ..websocket import (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     TimeoutReason,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -126,6 +129,7 @@ class TestWebsocketCaryall(WebsocketCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.assertEqual(timeout_manager._awaited_opcode, Opcode.PONG)
             frozen_time.tick(delta=timedelta(seconds=TimeoutManager.TIMEOUT / 2))
             self.assertFalse(timeout_manager.has_timed_out())
@@ -133,6 +137,8 @@ class TestWebsocketCaryall(WebsocketCase):
             self.assertTrue(timeout_manager.has_timed_out())
             self.assertEqual(timeout_manager.timeout_reason, TimeoutReason.NO_RESPONSE)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -176,6 +182,9 @@ class TestWebsocketCaryall(WebsocketCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -222,6 +231,7 @@ class TestWebsocketCaryall(WebsocketCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.assertEqual(timeout_manager._awaited_opcode, Opcode.CLOSE)
             frozen_time.tick(delta=timedelta(seconds=TimeoutManager.TIMEOUT / 2))
             self.assertFalse(timeout_manager.has_timed_out())
@@ -229,6 +239,8 @@ class TestWebsocketCaryall(WebsocketCase):
             self.assertTrue(timeout_manager.has_timed_out())
             self.assertEqual(timeout_manager.timeout_reason, TimeoutReason.NO_RESPONSE)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -281,6 +293,9 @@ class TestWebsocketCaryall(WebsocketCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -313,6 +328,7 @@ class TestWebsocketCaryall(WebsocketCase):
         with freeze_time('2022-08-19') as frozen_time:
             timeout_manager = TimeoutManager()
             frozen_time.tick(delta=timedelta(seconds=timeout_manager._keep_alive_timeout / 2))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -372,6 +388,8 @@ class TestWebsocketCaryall(WebsocketCase):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             self.assertFalse(timeout_manager.has_keep_alive_timed_out())
             frozen_time.tick(delta=timedelta(seconds=timeout_manager._keep_alive_timeout / 2 + 1))
             self.assertTrue(timeout_manager.has_keep_alive_timed_out())
@@ -403,6 +421,9 @@ class TestWebsocketCaryall(WebsocketCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -640,7 +661,10 @@ class TestWebsocketCaryall(WebsocketCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -713,6 +737,9 @@ class TestWebsocketCaryall(WebsocketCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

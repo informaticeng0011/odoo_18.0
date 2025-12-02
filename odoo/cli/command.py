@@ -1,5 +1,6 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 import logging
+<<<<<<< HEAD
 import os
 import sys
 from pathlib import Path
@@ -10,6 +11,19 @@ from odoo.modules import get_modules, get_module_path, initialize_sys_path
 commands = {}
 class Command:
     name = None
+=======
+import sys
+import traceback
+from pathlib import Path
+
+import odoo
+from odoo.modules import get_module_path, get_modules, initialize_sys_path
+
+commands = {}
+class Command:  # noqa: E302
+    name = None
+
+>>>>>>> upstream/18.0
     def __init_subclass__(cls):
         cls.name = cls.name or cls.__name__.lower()
         commands[cls.name] = cls
@@ -23,19 +37,36 @@ Available commands:
 
 Use '{odoo_bin} <command> --help' for individual command help."""
 
+<<<<<<< HEAD
 class Help(Command):
     """ Display the list of available commands """
     def run(self, args):
         padding = max([len(cmd) for cmd in commands]) + 2
+=======
+
+class Help(Command):
+    """ Display the list of available commands """
+    def run(self, args):
+        padding = max(len(cmd) for cmd in commands) + 2
+>>>>>>> upstream/18.0
         command_list = "\n    ".join([
             "    {}{}".format(name.ljust(padding), (command.__doc__ or "").strip())
             for name, command in sorted(commands.items())
         ])
+<<<<<<< HEAD
         print(ODOO_HELP.format(  # pylint: disable=bad-builtin
             odoo_bin=Path(sys.argv[0]).name,
             command_list=command_list
         ))
 
+=======
+        print(ODOO_HELP.format(  # noqa: T201
+            odoo_bin=Path(sys.argv[0]).name,
+            command_list=command_list,
+        ))
+
+
+>>>>>>> upstream/18.0
 def main():
     args = sys.argv[1:]
 
@@ -56,7 +87,17 @@ def main():
         initialize_sys_path()
         for module in get_modules():
             if (Path(get_module_path(module)) / 'cli').is_dir():
+<<<<<<< HEAD
                 __import__('odoo.addons.' + module)
+=======
+                try:
+                    __import__('odoo.addons.' + module)
+                except Exception:  # noqa: BLE001
+                    print("Failed to scan module", module, file=sys.stderr)  # noqa: T201
+                    if module == 'hw_drivers':
+                        print("maybe a git clean -df addons/ can fix the problem", file=sys.stderr)  # noqa: T201
+                    traceback.print_exc()
+>>>>>>> upstream/18.0
         logging.disable(logging.NOTSET)
         command = args[0]
         args = args[1:]
@@ -144,6 +185,10 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        odoo.cli.COMMAND = command
+>>>>>>> upstream/18.0
 =======
         odoo.cli.COMMAND = command
 >>>>>>> upstream/18.0

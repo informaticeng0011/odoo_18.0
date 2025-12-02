@@ -94,6 +94,7 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ('facturx', "Factur-X (CII)"),
             ('ubl_bis3', "BIS Billing 3.0"),
             ('xrechnung', "XRechnung CIUS"),
@@ -261,10 +262,13 @@ class ResPartner(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             ('facturx', "France (FacturX)"),
             ('ubl_bis3', "EU Standard (Peppol Bis 3.0)"),
             ('xrechnung', "Germany (XRechnung)"),
             ('nlcius', "Netherlands (NLCIUS)"),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -576,6 +580,10 @@ class ResPartner(models.Model):
             ('ubl_a_nz', "Australia (BIS Billing 3.0 A-NZ)"),
             ('ubl_sg', "Singapore (BIS Billing 3.0 SG)"),
 >>>>>>> upstream/18.0
+=======
+            ('ubl_a_nz', "Australia (BIS Billing 3.0 A-NZ)"),
+            ('ubl_sg', "Singapore (BIS Billing 3.0 SG)"),
+>>>>>>> upstream/18.0
         ],
     )
     is_ubl_format = fields.Boolean(compute='_compute_is_ubl_format')
@@ -701,6 +709,11 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            ('0225', "France FRCTC Electronic Address"),
+            ('0240', "France Register of legal persons"),
+>>>>>>> upstream/18.0
 =======
             ('0225', "France FRCTC Electronic Address"),
             ('0240', "France Register of legal persons"),
@@ -1116,6 +1129,10 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            ('0218', "Latvia Unified registration number"),
+>>>>>>> upstream/18.0
 =======
             ('0218', "Latvia Unified registration number"),
 >>>>>>> upstream/18.0
@@ -1467,6 +1484,10 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            ('0235', "UAE Tax Identification Number (TIN)"),
+>>>>>>> upstream/18.0
 =======
             ('0235', "UAE Tax Identification Number (TIN)"),
 >>>>>>> upstream/18.0
@@ -1848,7 +1869,10 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2211,6 +2235,7 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2290,6 +2315,11 @@ class ResPartner(models.Model):
 >>>>>>> upstream/18.0
         ]
     )
+=======
+        ]
+    )
+    available_peppol_eas = fields.Json(compute='_compute_available_peppol_eas')
+>>>>>>> upstream/18.0
 =======
         ]
     )
@@ -2776,6 +2806,25 @@ class ResPartner(models.Model):
         for partner in self:
             partner.is_peppol_edi_format = partner.invoice_edi_format in self._get_peppol_formats()
 
+<<<<<<< HEAD
+=======
+    def _get_peppol_endpoint_value(self, country_code, field):
+        self.ensure_one()
+        value = field in self._fields and self[field]
+
+        if (
+            country_code == 'BE'
+            and field == 'company_registry'
+            and not value
+            and self.vat
+        ):
+            value = self.vat
+            if value.isalnum():
+                value = value.removeprefix(country_code)
+
+        return value
+
+>>>>>>> upstream/18.0
     @api.depends(lambda self: self._peppol_eas_endpoint_depends() + ['peppol_eas'])
     def _compute_peppol_endpoint(self):
         """ If the EAS changes and a valid endpoint is available, set it. Otherwise, keep the existing value."""
@@ -2784,11 +2833,17 @@ class ResPartner(models.Model):
             country_code = partner._deduce_country_code()
             if country_code in EAS_MAPPING:
                 field = EAS_MAPPING[country_code].get(partner.peppol_eas)
+<<<<<<< HEAD
                 if field \
                         and field in partner._fields \
                         and partner[field] \
                         and not partner._build_error_peppol_endpoint(partner.peppol_eas, partner[field]):
                     partner.peppol_endpoint = partner[field]
+=======
+                value = partner._get_peppol_endpoint_value(country_code, field)
+                if field and value and not partner._build_error_peppol_endpoint(partner.peppol_eas, value):
+                    partner.peppol_endpoint = value
+>>>>>>> upstream/18.0
 
     @api.depends(lambda self: self._peppol_eas_endpoint_depends())
     def _compute_peppol_eas(self):
@@ -2805,8 +2860,14 @@ class ResPartner(models.Model):
                     new_eas = next(iter(EAS_MAPPING[country_code].keys()))
                     # Iterate on the possible EAS until a valid one is found
                     for eas, field in eas_to_field.items():
+<<<<<<< HEAD
                         if field and field in partner._fields and partner[field]:
                             if not partner._build_error_peppol_endpoint(eas, partner[field]):
+=======
+                        if field and field in partner._fields:
+                            value = partner._get_peppol_endpoint_value(country_code, field)
+                            if value and not partner._build_error_peppol_endpoint(eas, value):
+>>>>>>> upstream/18.0
                                 new_eas = eas
                                 break
                     partner.peppol_eas = new_eas
@@ -2892,7 +2953,10 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3139,6 +3203,9 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

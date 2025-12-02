@@ -95,7 +95,11 @@ class Partner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     invoice_edi_format = fields.Selection(selection_add=[('es_facturae', 'Facturae')])
+=======
+    invoice_edi_format = fields.Selection(selection_add=[('es_facturae', 'Spain (FacturaE)')])
+>>>>>>> upstream/18.0
 =======
     invoice_edi_format = fields.Selection(selection_add=[('es_facturae', 'Spain (FacturaE)')])
 >>>>>>> upstream/18.0
@@ -479,7 +483,10 @@ class Partner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -731,6 +738,9 @@ class Partner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

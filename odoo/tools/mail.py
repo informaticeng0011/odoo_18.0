@@ -80,6 +80,10 @@ safe_attrs = defs.safe_attrs | frozenset(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+     'data-bs-toggle',  # support nav-tabs
+>>>>>>> upstream/18.0
 =======
      'data-bs-toggle',  # support nav-tabs
 >>>>>>> upstream/18.0
@@ -362,6 +366,11 @@ def html_normalize(src, filter_callback=None, output_method="html"):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    doc = html.fromstring(html.tostring(doc, method=output_method))
+
+>>>>>>> upstream/18.0
 =======
     doc = html.fromstring(html.tostring(doc, method=output_method))
 
@@ -605,18 +614,32 @@ def html2plaintext(html, body_id=None, encoding='utf-8', include_references=True
 
     return html.strip()
 
+<<<<<<< HEAD
 def plaintext2html(text, container_tag=None):
+=======
+
+def plaintext2html(text, container_tag=None, with_paragraph=True):
+>>>>>>> upstream/18.0
     r"""Convert plaintext into html. Content of the text is escaped to manage
     html entities, using :func:`~odoo.tools.misc.html_escape`.
 
     - all ``\n``, ``\r`` are replaced by ``<br/>``
+<<<<<<< HEAD
     - enclose content into ``<p>``
     - convert url into clickable link
     - 2 or more consecutive ``<br/>`` are considered as paragraph breaks
+=======
+    - convert url into clickable link
+>>>>>>> upstream/18.0
 
     :param str text: plaintext to convert
     :param str container_tag: container of the html; by default the content is
         embedded into a ``<div>``
+<<<<<<< HEAD
+=======
+    :param with_paragraph: whether or not considering 2 or more consecutive ``<br/>``
+        as paragraph breaks and enclosing content in ``<p>``
+>>>>>>> upstream/18.0
     :rtype: markupsafe.Markup
     """
     assert isinstance(text, str)
@@ -629,6 +652,7 @@ def plaintext2html(text, container_tag=None):
     text = html_keep_url(text)
 
     # 3-4: form paragraphs
+<<<<<<< HEAD
     idx = 0
     final = '<p>'
     br_tags = re.compile(r'(([<]\s*[bB][rR]\s*/?[>]\s*){2,})')
@@ -636,6 +660,17 @@ def plaintext2html(text, container_tag=None):
         final += text[idx:item.start()] + '</p><p>'
         idx = item.end()
     final += text[idx:] + '</p>'
+=======
+    final = text
+    if with_paragraph:
+        idx = 0
+        final = '<p>'
+        br_tags = re.compile(r'(([<]\s*[bB][rR]\s*/?[>]\s*){2,})')
+        for item in re.finditer(br_tags, text):
+            final += text[idx:item.start()] + '</p><p>'
+            idx = item.end()
+        final += text[idx:] + '</p>'
+>>>>>>> upstream/18.0
 
     # 5. container
     if container_tag: # FIXME: validate that container_tag is just a simple tag?

@@ -75,7 +75,10 @@ from odoo.addons.account.tests.common import AccountTestInvoicingCommon
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.addons.l10n_sa_edi.tests.common import TestSaEdiCommon
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -235,6 +238,7 @@ from odoo.addons.account_edi.tests.common import AccountEdiTestCommon
 
 
 @tagged('post_install', '-at_install', 'post_install_l10n')
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -472,6 +476,8 @@ class TestGenericSA(TestGenericLocalization, TestSaEdiCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 class TestGenericSA(TestGenericLocalization):
     @classmethod
     @AccountTestInvoicingCommon.setup_country('sa')
@@ -556,6 +562,9 @@ class TestGenericSA(TestGenericLocalization):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -795,6 +804,7 @@ class TestGenericSA(TestGenericLocalization):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'l10n_sa_edi_building_number': '1234',
         })
 
@@ -803,6 +813,10 @@ class TestGenericSA(TestGenericLocalization):
             self.skipTest("l10n_sa_edi is not installed")
         super().test_generic_localization()
 
+=======
+        })
+
+>>>>>>> upstream/18.0
 =======
         })
 

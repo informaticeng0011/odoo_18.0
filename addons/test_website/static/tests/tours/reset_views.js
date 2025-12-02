@@ -95,7 +95,11 @@ registerWebsitePreviewTour(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             trigger: ":iframe p:contains(/^Test Page View$/)",
+=======
+            trigger: ":iframe p:text(Test Page View)",
+>>>>>>> upstream/18.0
 =======
             trigger: ":iframe p:text(Test Page View)",
 >>>>>>> upstream/18.0

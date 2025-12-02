@@ -111,6 +111,10 @@ from . import test_load_scenario
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from . import test_hr_attendance_kiosk
+>>>>>>> upstream/18.0
 =======
 from . import test_hr_attendance_kiosk
 >>>>>>> upstream/18.0
