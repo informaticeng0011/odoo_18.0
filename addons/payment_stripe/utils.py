@@ -68,6 +68,7 @@ def format_shipping_address(shipping_partner):
     :rtype: dict
     """
     return {
+<<<<<<< HEAD
         'shipping[address][city]': shipping_partner.city,
         'shipping[address][country]': shipping_partner.country_id.code,
         'shipping[address][line1]': shipping_partner.street,
@@ -75,4 +76,13 @@ def format_shipping_address(shipping_partner):
         'shipping[address][postal_code]': shipping_partner.zip,
         'shipping[address][state]': shipping_partner.state_id.name,
         'shipping[name]': shipping_partner.name or shipping_partner.parent_id.name,
+=======
+        'shipping[address][city]': shipping_partner.city or '',
+        'shipping[address][country]': shipping_partner.country_id.code or '',
+        'shipping[address][line1]': shipping_partner.street or '',
+        'shipping[address][line2]': shipping_partner.street2 or '',
+        'shipping[address][postal_code]': shipping_partner.zip or '',
+        'shipping[address][state]': shipping_partner.state_id.name or '',
+        'shipping[name]': shipping_partner.name or shipping_partner.parent_id.name or '',
+>>>>>>> upstream/18.0
     }

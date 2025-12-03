@@ -576,8 +576,14 @@ def get_iso_codes(lang: str) -> str:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if lang.split('_')[0] == lang.split('_')[1].lower():
             lang = lang.split('_')[0]
+=======
+        lang_items = lang.split('_')
+        if lang_items[0] == lang_items[1].lower():
+            lang = lang_items[0]
+>>>>>>> upstream/18.0
 =======
         lang_items = lang.split('_')
         if lang_items[0] == lang_items[1].lower():
@@ -1510,6 +1516,10 @@ class lower_logging(logging.Handler):
             record.levelname = f'_{record.levelname}'
             record.levelno = self.to_level
             self.had_error_log = True
+<<<<<<< HEAD
+=======
+            record.msg = record.msg.replace('Traceback (most recent call last):', '_Traceback_ (most recent call last):')
+>>>>>>> upstream/18.0
             record.args = tuple(arg.replace('Traceback (most recent call last):', '_Traceback_ (most recent call last):') if isinstance(arg, str) else arg for arg in record.args)
 
         if logging.getLogger(record.name).isEnabledFor(record.levelno):
@@ -2560,7 +2570,11 @@ def get_diff(data_from, data_to, custom_style=False, dark_color_scheme=False):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'diff_header': 'bg-600 text-center align-top px-2',
+=======
+            'diff_header': 'bg-600 text-light text-center align-top px-2',
+>>>>>>> upstream/18.0
 =======
             'diff_header': 'bg-600 text-light text-center align-top px-2',
 >>>>>>> upstream/18.0

@@ -351,6 +351,10 @@ const PopupWidget = publicWidget.Widget.extend(ObservingCookieWidgetMixin, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            this.el.querySelector(".modal").scrollTop = 0;
+>>>>>>> upstream/18.0
 =======
             this.el.querySelector(".modal").scrollTop = 0;
 >>>>>>> upstream/18.0
@@ -1028,7 +1032,11 @@ publicWidget.registry.cookies_bar = PopupWidget.extend({
      */
     _onAcceptClick(ev) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         const isFullConsent = ev.target.id === "cookies-consent-all";
+=======
+        const isFullConsent = ev.currentTarget.id === "cookies-consent-all";
+>>>>>>> upstream/18.0
 =======
         const isFullConsent = ev.currentTarget.id === "cookies-consent-all";
 >>>>>>> upstream/18.0

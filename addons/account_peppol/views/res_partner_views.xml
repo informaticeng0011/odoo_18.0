@@ -39,7 +39,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <field name="inherit_id" ref="base.view_partner_form"/>
+=======
+            <field name="inherit_id" ref="account_edi_ubl_cii.view_partner_property_form"/>
+>>>>>>> upstream/18.0
 =======
             <field name="inherit_id" ref="account_edi_ubl_cii.view_partner_property_form"/>
 >>>>>>> upstream/18.0
@@ -218,12 +222,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <div class="alert alert-warning mb-0"
                          colspan="2"
                          role="alert"
                          invisible="country_code != 'BE' or not peppol_endpoint or peppol_eas in (False, '0208')">
                          The recommended identification method for Belgium is your Company Registry Number.
                     </div>
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -348,12 +355,17 @@
                 <xpath expr="//field[@name='peppol_endpoint']" position="after">
                     <field name="peppol_verification_state" invisible="1" force_save="1"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <label for="peppol_verification_state"
                            groups="base.group_no_one"
                            invisible="not peppol_endpoint"/>
                     <div class="row"
                          groups="base.group_no_one"
                          invisible="not peppol_endpoint">
+=======
+                    <label for="peppol_verification_state" invisible="not peppol_endpoint"/>
+                    <div class="row" invisible="not peppol_endpoint">
+>>>>>>> upstream/18.0
 =======
                     <label for="peppol_verification_state" invisible="not peppol_endpoint"/>
                     <div class="row" invisible="not peppol_endpoint">

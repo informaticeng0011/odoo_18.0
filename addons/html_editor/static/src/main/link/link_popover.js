@@ -39,6 +39,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { session } from "@web/session";
+>>>>>>> upstream/18.0
 =======
 import { session } from "@web/session";
 >>>>>>> upstream/18.0
@@ -308,6 +312,10 @@ export class LinkPopover extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        LinkPopoverState: Object,
+>>>>>>> upstream/18.0
 =======
         LinkPopoverState: Object,
 >>>>>>> upstream/18.0
@@ -856,7 +864,11 @@ export class LinkPopover extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             editing: this.props.linkEl.href ? false : true,
+=======
+            editing: this.props.LinkPopoverState.editing,
+>>>>>>> upstream/18.0
 =======
             editing: this.props.LinkPopoverState.editing,
 >>>>>>> upstream/18.0
@@ -1363,6 +1375,10 @@ export class LinkPopover extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            showLabel: !this.props.linkEl.childElementCount,
+>>>>>>> upstream/18.0
 =======
             showLabel: !this.props.linkEl.childElementCount,
 >>>>>>> upstream/18.0
@@ -1813,6 +1829,7 @@ export class LinkPopover extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.loadAsyncLinkPreview();
 =======
 >>>>>>> upstream/18.0
@@ -1830,6 +1847,8 @@ export class LinkPopover extends Component {
 >>>>>>> upstream/18.0
         this.props.onApply(this.state.url, this.state.label, this.state.classes);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2178,6 +2197,9 @@ export class LinkPopover extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2554,8 +2576,11 @@ export class LinkPopover extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         } else if (window.location.hostname !== url.hostname) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2680,6 +2705,9 @@ export class LinkPopover extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2963,6 +2991,10 @@ export class LinkPopover extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.state.attachmentId = attachment.id;
+>>>>>>> upstream/18.0
 =======
         this.state.attachmentId = attachment.id;
 >>>>>>> upstream/18.0

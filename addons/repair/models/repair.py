@@ -264,7 +264,10 @@ class Repair(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         default=False,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -906,7 +909,11 @@ class Repair(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             repair.has_uncomplete_moves = any(float_compare(move.quantity, move.product_uom_qty, precision_rounding=move.product_uom.rounding) < 0 for move in repair.move_ids)
+=======
+            repair.has_uncomplete_moves = any(move.product_uom and float_compare(move.quantity, move.product_uom_qty, precision_rounding=move.product_uom.rounding) < 0 for move in repair.move_ids)
+>>>>>>> upstream/18.0
 =======
             repair.has_uncomplete_moves = any(move.product_uom and float_compare(move.quantity, move.product_uom_qty, precision_rounding=move.product_uom.rounding) < 0 for move in repair.move_ids)
 >>>>>>> upstream/18.0
@@ -1367,6 +1374,11 @@ class Repair(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if 'lot_id' not in res and 'lot_id' in fields_list and 'default_repair_lot_id' in self.env.context:
+            res['lot_id'] = self.env.context.get('default_repair_lot_id')
+>>>>>>> upstream/18.0
 =======
         if 'lot_id' not in res and 'lot_id' in fields_list and 'default_repair_lot_id' in self.env.context:
             res['lot_id'] = self.env.context.get('default_repair_lot_id')
@@ -2542,6 +2554,12 @@ class Repair(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    def _get_product_catalog_domain(self):
+        return expression.AND([super()._get_product_catalog_domain(), [('type', '=', 'consu')]])
+
+>>>>>>> upstream/18.0
 =======
     def _get_product_catalog_domain(self):
         return expression.AND([super()._get_product_catalog_domain(), [('type', '=', 'consu')]])

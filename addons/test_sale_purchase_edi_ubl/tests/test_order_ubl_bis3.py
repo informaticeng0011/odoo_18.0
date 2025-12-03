@@ -59,6 +59,10 @@ class TestOrderEdiUbl(TestAccountEdiUblCii):
                 'product_qty': 10.0,
                 'taxes_id': self.purchase_tax.ids,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                'discount': 10.0,
+>>>>>>> upstream/18.0
 =======
                 'discount': 10.0,
 >>>>>>> upstream/18.0
@@ -69,6 +73,10 @@ class TestOrderEdiUbl(TestAccountEdiUblCii):
                 'product_qty': 50.0,
                 'taxes_id': self.purchase_tax.ids,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                'discount': 0.0,
+>>>>>>> upstream/18.0
 =======
                 'discount': 0.0,
 >>>>>>> upstream/18.0
@@ -92,6 +100,10 @@ class TestOrderEdiUbl(TestAccountEdiUblCii):
             line_product = self.env['product.product'].browse(line['product_id'])
             line['product_uom_qty'] = line['product_qty']
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            line['discount'] = 0.0
+>>>>>>> upstream/18.0
 =======
             line['discount'] = 0.0
 >>>>>>> upstream/18.0

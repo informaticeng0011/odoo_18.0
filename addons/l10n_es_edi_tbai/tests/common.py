@@ -169,7 +169,11 @@ class TestEsEdiTbaiCommon(TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         cls.frozen_today = datetime(year=2022, month=1, day=1, hour=0, minute=0, second=0, tzinfo=timezone('utc'))
+=======
+        cls.frozen_today = datetime(year=2025, month=1, day=1, hour=0, minute=0, second=0, tzinfo=timezone('utc'))
+>>>>>>> upstream/18.0
 =======
         cls.frozen_today = datetime(year=2025, month=1, day=1, hour=0, minute=0, second=0, tzinfo=timezone('utc'))
 >>>>>>> upstream/18.0
@@ -750,6 +754,7 @@ class TestEsEdiTbaiCommon(TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             cert_name = 'bizkaia_111111.p12'
             cert_password = '111111'
         elif agency == 'gipuzkoa':
@@ -1219,6 +1224,8 @@ class TestEsEdiTbaiCommon(TestAccountMoveSendCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             cert_name = 'Bizkaia-IZDesa2025.p12'
             cert_password = 'IZDesa2025'
         elif agency == 'gipuzkoa':
@@ -1318,6 +1325,9 @@ class TestEsEdiTbaiCommon(TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1687,8 +1697,13 @@ class TestEsEdiTbaiCommon(TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'invoice_date': '2022-01-01',
             'date': '2022-01-01',
+=======
+            'invoice_date': '2025-01-01',
+            'date': '2025-01-01',
+>>>>>>> upstream/18.0
 =======
             'invoice_date': '2025-01-01',
             'date': '2025-01-01',
@@ -2451,7 +2466,11 @@ class TestEsEdiTbaiCommon(TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'invoice_date': date(2022, 1, 1),
+=======
+                'invoice_date': date(2025, 1, 1),
+>>>>>>> upstream/18.0
 =======
                 'invoice_date': date(2025, 1, 1),
 >>>>>>> upstream/18.0

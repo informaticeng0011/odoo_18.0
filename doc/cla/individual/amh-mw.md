@@ -131,6 +131,10 @@ Signed,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+Adam Heinz adam.heinz@metricwise.com https://github.com/amh-mw
+>>>>>>> upstream/18.0
 =======
 Adam Heinz adam.heinz@metricwise.com https://github.com/amh-mw
 >>>>>>> upstream/18.0

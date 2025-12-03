@@ -142,6 +142,10 @@ export const signatureField = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    supportedTypes: ["binary"],
+>>>>>>> upstream/18.0
 =======
     supportedTypes: ["binary"],
 >>>>>>> upstream/18.0

@@ -73,6 +73,11 @@ class SaleEdiCommon(models.AbstractModel):
             if not line_values['product_uom']:
                 line_values.pop('product_uom')  # if no uom, pop it so it's inferred from the product_id
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if line_values.get('discount'):  # Exclude discounts
+                line_values.pop('discount')
+>>>>>>> upstream/18.0
 =======
             if line_values.get('discount'):  # Exclude discounts
                 line_values.pop('discount')

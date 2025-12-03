@@ -84,6 +84,7 @@ import time
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 from odoo.tools import make_index_name, SQL
 >>>>>>> upstream/18.0
@@ -187,6 +188,10 @@ from odoo.tools import make_index_name, SQL
 from odoo.tools import make_index_name, SQL
 >>>>>>> upstream/18.0
 =======
+from odoo.tools import make_index_name, SQL
+>>>>>>> upstream/18.0
+=======
+from odoo.modules.loading import force_demo
 from odoo.tools import make_index_name, SQL
 >>>>>>> upstream/18.0
 =======
@@ -446,7 +451,12 @@ def test_all_l10n(env):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     assert env.ref('base.module_account').demo, "Need the demo to test with data"
+=======
+    if not env.ref('base.module_account').demo:
+        force_demo(env)
+>>>>>>> upstream/18.0
 =======
     if not env.ref('base.module_account').demo:
         force_demo(env)
@@ -738,7 +748,10 @@ def test_all_l10n(env):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1003,6 +1016,9 @@ def test_all_l10n(env):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1272,7 +1288,11 @@ def test_all_l10n(env):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     logger.runbot('ANALYZE took %s seconds', time.time() - start)  # not sure this one is usefull
+=======
+    logger.runbot('ANALYZE took %s seconds', time.time() - start)  # not sure this one is useful
+>>>>>>> upstream/18.0
 =======
     logger.runbot('ANALYZE took %s seconds', time.time() - start)  # not sure this one is useful
 >>>>>>> upstream/18.0
@@ -1611,6 +1631,12 @@ def test_all_l10n(env):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+    env.cr.execute(SQL("DROP INDEX %s", SQL(", ").join(map(SQL.identifier, idxs))))
+    env.cr.commit()
+>>>>>>> upstream/18.0
 =======
 
     env.cr.execute(SQL("DROP INDEX %s", SQL(", ").join(map(SQL.identifier, idxs))))

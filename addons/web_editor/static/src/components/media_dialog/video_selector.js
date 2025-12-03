@@ -52,7 +52,11 @@ export class VideoSelector extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         media: {type: Object, optional: true},
+=======
+        media: {validate: (n) => n.nodeType === Node.ELEMENT_NODE, optional: true},
+>>>>>>> upstream/18.0
 =======
         media: {validate: (n) => n.nodeType === Node.ELEMENT_NODE, optional: true},
 >>>>>>> upstream/18.0
@@ -138,7 +142,10 @@ export class VideoSelector extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             youku: 'youku',
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -241,7 +248,11 @@ export class VideoSelector extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 platforms: [this.PLATFORMS.youtube, this.PLATFORMS.dailymotion, this.PLATFORMS.vimeo],
+=======
+                platforms: [this.PLATFORMS.youtube, this.PLATFORMS.vimeo],
+>>>>>>> upstream/18.0
 =======
                 platforms: [this.PLATFORMS.youtube, this.PLATFORMS.vimeo],
 >>>>>>> upstream/18.0
@@ -379,7 +390,11 @@ export class VideoSelector extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 platforms: [this.PLATFORMS.youtube, this.PLATFORMS.dailymotion, this.PLATFORMS.vimeo],
+=======
+                platforms: [this.PLATFORMS.youtube, this.PLATFORMS.vimeo],
+>>>>>>> upstream/18.0
 =======
                 platforms: [this.PLATFORMS.youtube, this.PLATFORMS.vimeo],
 >>>>>>> upstream/18.0
@@ -516,6 +531,7 @@ export class VideoSelector extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             hide_dm_logo: {
                 label: _t("Hide Dailymotion logo"),
                 platforms: [this.PLATFORMS.dailymotion],
@@ -526,6 +542,8 @@ export class VideoSelector extends Component {
                 platforms: [this.PLATFORMS.dailymotion],
                 urlParameter: 'sharing-enable=0',
             },
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -607,12 +625,16 @@ export class VideoSelector extends Component {
                 const src = this.props.media.dataset.oeExpression || this.props.media.dataset.src || (this.props.media.tagName === 'IFRAME' && this.props.media.getAttribute('src')) || '';
                 if (src) {
                     this.state.urlInput = src;
+<<<<<<< HEAD
                     await this.updateVideo();
 
                     this.state.options = this.state.options.map((option) => {
                         const { urlParameter } = this.OPTIONS[option.id];
                         return { ...option, value: src.indexOf(urlParameter) >= 0 };
                     });
+=======
+                    await this.syncOptionsWithUrl();
+>>>>>>> upstream/18.0
                 }
             }
         });
@@ -621,7 +643,11 @@ export class VideoSelector extends Component {
 
         useAutofocus();
 
+<<<<<<< HEAD
         this.onChangeUrl = debounce((ev) => this.updateVideo(ev.target.value), 500);
+=======
+        this.onChangeUrl = debounce(async (ev) => await this.syncOptionsWithUrl(), 500);
+>>>>>>> upstream/18.0
     }
 
     get shownOptions() {
@@ -639,6 +665,10 @@ export class VideoSelector extends Component {
             return option;
         });
         await this.updateVideo();
+<<<<<<< HEAD
+=======
+        this.state.urlInput = this.state.src;
+>>>>>>> upstream/18.0
     }
 
     async onClickSuggestion(src) {
@@ -868,6 +898,7 @@ export class VideoSelector extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             const { thumbnail_url: thumbnailSrc } = await this.http.get(`https://vimeo.com/api/oembed.json?url=http%3A//vimeo.com/${encodeURIComponent(videoId)}`);
             this.state.vimeoPreviews.push({
                 id: videoId,
@@ -875,6 +906,8 @@ export class VideoSelector extends Component {
                 src: `https://player.vimeo.com/video/${encodeURIComponent(videoId)}`
             });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1227,6 +1260,7 @@ export class VideoSelector extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1458,4 +1492,23 @@ export class VideoSelector extends Component {
 >>>>>>> upstream/18.0
         }));
     }
+=======
+        }));
+    }
+
+    /**
+     * Utility method to make options and urlInput state consistent with state
+     * of component.
+     */
+    async syncOptionsWithUrl() {
+        await this.updateVideo();
+        this.state.options = this.state.options.map((option) => {
+            const { urlParameter } = this.OPTIONS[option.id];
+            return { ...option, value: this.state.urlInput.includes(urlParameter) };
+        });
+        // Ensure 'this.state.urlInput' and 'this.state.src' are consistent
+        // when the media dialog is closed without changing any options.
+        await this.updateVideo();
+    }
+>>>>>>> upstream/18.0
 }

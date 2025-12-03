@@ -173,8 +173,14 @@ from odoo.tools.misc import format_date
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tools import frozendict, mute_logger, date_utils, SQL
 
+=======
+from odoo.tools import frozendict, date_utils, SQL
+
+import logging
+>>>>>>> upstream/18.0
 =======
 from odoo.tools import frozendict, date_utils, SQL
 
@@ -1193,6 +1199,11 @@ from psycopg2 import errors as pgerrors
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+_logger = logging.getLogger(__name__)
+
+>>>>>>> upstream/18.0
 =======
 _logger = logging.getLogger(__name__)
 
@@ -2088,7 +2099,10 @@ class SequenceMixin(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2643,6 +2657,9 @@ class SequenceMixin(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3385,7 +3402,10 @@ class SequenceMixin(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3960,6 +3980,9 @@ class SequenceMixin(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4362,6 +4385,12 @@ class SequenceMixin(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        sequence = self._locked_increment(format_string, format_values)
+        self.with_context(clear_sequence_mixin_cache=False)[self._sequence_field] = sequence
+
+>>>>>>> upstream/18.0
 =======
         sequence = self._locked_increment(format_string, format_values)
         self.with_context(clear_sequence_mixin_cache=False)[self._sequence_field] = sequence
@@ -4635,6 +4664,7 @@ class SequenceMixin(models.AbstractModel):
                     continue
                 for field in registry.field_inverses[inverse_field[0]] if inverse_field else [None]:
                     self.env.add_to_compute(triggered_field, self[field.name] if field else self)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5395,6 +5425,8 @@ class SequenceMixin(models.AbstractModel):
 
         sequence = self._locked_increment(format_string, format_values)
         self.with_context(clear_sequence_mixin_cache=False)[self._sequence_field] = sequence
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

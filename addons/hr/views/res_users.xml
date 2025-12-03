@@ -260,7 +260,12 @@
                     <field name="employee_id" invisible="1"/>
                     <button string="Create employee"
                             type="object" name="action_create_employee"
+<<<<<<< HEAD
                             invisible="not id or share or employee_id"/>
+=======
+                            invisible="not id or share or employee_id"
+                            groups="hr.group_hr_user"/>
+>>>>>>> upstream/18.0
                             <!-- share is not correctly recomputed because it depends on fields of reified view => invisible before saving (id=False) -->
                 </xpath>
                 <xpath expr="//div[@name='button_box']" position="inside">

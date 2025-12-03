@@ -41,11 +41,17 @@ class StockMove(models.Model):
         super()._action_assign(force_qty=force_qty)
         self.move_line_ids._auto_wave()
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def _get_batch_moves(self):
         moves = super()._get_batch_moves()
         if self.picking_id.batch_id:
             moves |= self.picking_id.batch_id.move_ids
         return moves
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

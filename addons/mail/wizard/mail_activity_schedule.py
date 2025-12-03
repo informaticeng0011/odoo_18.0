@@ -5,7 +5,11 @@ from markupsafe import Markup
 
 from odoo import api, fields, models, _
 from odoo.addons.mail.tools.parser import parse_res_ids
+<<<<<<< HEAD
 from odoo.exceptions import ValidationError
+=======
+from odoo.exceptions import AccessError, UserError, ValidationError
+>>>>>>> upstream/18.0
 from odoo.tools import html2plaintext
 from odoo.tools.misc import clean_context, format_date
 from odoo.osv import expression
@@ -242,6 +246,7 @@ class MailActivitySchedule(models.TransientModel):
             record.message_post(body=body)
 
         if len(applied_on) == 1:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -802,6 +807,9 @@ class MailActivitySchedule(models.TransientModel):
 =======
             return {'type': 'ir.actions.client', 'tag': 'soft_reload'}
 >>>>>>> upstream/18.0
+=======
+            return {'type': 'ir.actions.client', 'tag': 'soft_reload'}
+>>>>>>> upstream/18.0
 
         return {
             'type': 'ir.actions.act_window',
@@ -902,3 +910,21 @@ class MailActivitySchedule(models.TransientModel):
                 summary_line += f" ({format_date(self.env, template._get_date_deadline(self.plan_date))})"
             summaries.append(Markup('<li>%s</li>') % summary_line)
         return Markup('<ul>%s</ul>') % Markup().join(summaries) if summaries else ''
+<<<<<<< HEAD
+=======
+
+    @api.onchange('activity_user_id', 'activity_type_id')
+    def _onchange_activity_user_id(self):
+        if self.activity_category != "upload_file":
+            return
+        activity_user = self.activity_user_id
+        model = self.res_model
+        if model and activity_user:
+            try:
+                model = self.with_user(activity_user).env[model]
+                model.check_access(model._mail_post_access)
+            except AccessError:
+                raise UserError(_("Selected user '%(user)s' cannot upload documents on model '%(model)s'",
+                                    model=model,
+                                    user=activity_user.display_name))
+>>>>>>> upstream/18.0

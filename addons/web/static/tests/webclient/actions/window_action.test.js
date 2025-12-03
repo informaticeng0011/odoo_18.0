@@ -189,7 +189,11 @@ class Partner extends models.Model {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "form,false": `
+=======
+        "form,3": /* xml */ `
+>>>>>>> upstream/18.0
 =======
         "form,3": /* xml */ `
 >>>>>>> upstream/18.0
@@ -683,8 +687,14 @@ class Partner extends models.Model {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             </form>`,
         "form,74": `
+=======
+            </form>
+        `,
+        "form,74": /* xml */ `
+>>>>>>> upstream/18.0
 =======
             </form>
         `,
@@ -1420,8 +1430,14 @@ class Partner extends models.Model {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             </form>`,
         "kanban,1": `
+=======
+            </form>
+        `,
+        "kanban,1": /* xml */ `
+>>>>>>> upstream/18.0
 =======
             </form>
         `,
@@ -2154,6 +2170,7 @@ class Partner extends models.Model {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             </kanban>`,
         list: `<list><field name="foo"/></list>`,
         pivot: `<pivot/>`,
@@ -2162,6 +2179,8 @@ class Partner extends models.Model {
             <search>
                 <filter name="m2o" help="M2O" domain="[('m2o', '=', 1)]"/>
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2537,6 +2556,9 @@ class Partner extends models.Model {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2914,7 +2936,10 @@ class Pony extends models.Model {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: `<search/>`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3380,9 +3405,13 @@ test("click on open form view button when there is no form in the action", async
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Pony._views[
         "list,false"
     ] = `<list editable="top" open_form_view="1"><field name="name"/></list>`;
+=======
+    Pony._views["list"] = `<list editable="top" open_form_view="1"><field name="name"/></list>`;
+>>>>>>> upstream/18.0
 =======
     Pony._views["list"] = `<list editable="top" open_form_view="1"><field name="name"/></list>`;
 >>>>>>> upstream/18.0
@@ -4021,7 +4050,11 @@ test("orderedBy in context is not propagated when executing another action", asy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views["form,false"] = `
+=======
+    Partner._views["form"] = `
+>>>>>>> upstream/18.0
 =======
     Partner._views["form"] = `
 >>>>>>> upstream/18.0
@@ -4647,7 +4680,11 @@ test("pager is updated when switching between views", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views["list,false"] = `<list limit="3"><field name="foo"/></list>`;
+=======
+    Partner._views["list"] = `<list limit="3"><field name="foo"/></list>`;
+>>>>>>> upstream/18.0
 =======
     Partner._views["list"] = `<list limit="3"><field name="foo"/></list>`;
 >>>>>>> upstream/18.0
@@ -5181,7 +5218,11 @@ test("Props are updated and kept when switching/restoring views", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views["form,false"] = /* xml */ `
+=======
+    Partner._views["form"] = /* xml */ `
+>>>>>>> upstream/18.0
 =======
     Partner._views["form"] = /* xml */ `
 >>>>>>> upstream/18.0
@@ -5646,6 +5687,7 @@ test("Props are updated and kept when switching/restoring views", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     onRpc("get_formview_action", ({ args, model }) => {
         return {
             res_id: args[0][0],
@@ -5655,6 +5697,8 @@ test("Props are updated and kept when switching/restoring views", async () => {
         };
     });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5940,6 +5984,9 @@ test("Props are updated and kept when switching/restoring views", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6523,6 +6570,7 @@ test("execute_action of type object are handled", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     onRpc("partner", "object", async function ({ args, kwargs }) {
 =======
     onRpc("partner", "object", function ({ args, kwargs }) {
@@ -6570,6 +6618,8 @@ test("execute_action of type object are handled", async () => {
                     some_key: 2,
                 },
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6853,6 +6903,9 @@ test("execute_action of type object are handled", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7197,7 +7250,11 @@ test("execute_action of type object: disable buttons (2)", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views["form,false"] = `
+=======
+    Partner._views["form"] = `
+>>>>>>> upstream/18.0
 =======
     Partner._views["form"] = `
 >>>>>>> upstream/18.0
@@ -7735,7 +7792,11 @@ test("view button: block ui attribute", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views["form,false"] = `
+=======
+    Partner._views["form"] = `
+>>>>>>> upstream/18.0
 =======
     Partner._views["form"] = `
 >>>>>>> upstream/18.0
@@ -8276,7 +8337,11 @@ test("execute_action of type object raises error in modal: re-enables buttons", 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views["form,false"] = `
+=======
+    Partner._views["form"] = `
+>>>>>>> upstream/18.0
 =======
     Partner._views["form"] = `
 >>>>>>> upstream/18.0
@@ -8907,6 +8972,7 @@ test("action with html help returned by a call_button", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     onRpc("/web/dataset/call_button/*", () => {
         return {
             res_model: "partner",
@@ -8917,6 +8983,8 @@ test("action with html help returned by a call_button", async () => {
         };
     });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9203,6 +9271,9 @@ test("action with html help returned by a call_button", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9575,7 +9646,10 @@ test("restore previous view state when switching back", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views["graph,false"] = "<graph/>";
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10013,7 +10087,11 @@ test("can interact with search view", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views["search,false"] = `
+=======
+    Partner._views["search"] = `
+>>>>>>> upstream/18.0
 =======
     Partner._views["search"] = `
 >>>>>>> upstream/18.0
@@ -10521,7 +10599,11 @@ test("can open a many2one external window", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views["search,false"] = `
+=======
+    Partner._views["search"] = `
+>>>>>>> upstream/18.0
 =======
     Partner._views["search"] = `
 >>>>>>> upstream/18.0
@@ -11011,7 +11093,11 @@ test("can open a many2one external window", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views["form,false"] = `
+=======
+    Partner._views["form"] = `
+>>>>>>> upstream/18.0
 =======
     Partner._views["form"] = `
 >>>>>>> upstream/18.0
@@ -11475,6 +11561,7 @@ test("can open a many2one external window", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     onRpc("get_formview_action", () => {
         return {
             name: "Partner",
@@ -11485,6 +11572,8 @@ test("can open a many2one external window", async () => {
         };
     });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11771,6 +11860,9 @@ test("can open a many2one external window", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12227,7 +12319,11 @@ test("honor group_by specified in actions context", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views["search,false"] = `
+=======
+    Partner._views["search"] = `
+>>>>>>> upstream/18.0
 =======
     Partner._views["search"] = `
 >>>>>>> upstream/18.0
@@ -13057,7 +13153,11 @@ test("execute action from dirty, new record, and come back", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views["form,false"] = `
+=======
+    Partner._views["form"] = `
+>>>>>>> upstream/18.0
 =======
     Partner._views["form"] = `
 >>>>>>> upstream/18.0
@@ -13521,6 +13621,7 @@ test("execute action from dirty, new record, and come back", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     onRpc("get_formview_action", () => {
         return {
             res_id: 1,
@@ -13530,6 +13631,8 @@ test("execute action from dirty, new record, and come back", async () => {
         };
     });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13815,6 +13918,9 @@ test("execute action from dirty, new record, and come back", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14191,6 +14297,7 @@ test("go back to action with form view as main view, and res_id", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     onRpc("get_formview_action", () => {
         return {
             res_id: 3,
@@ -14200,6 +14307,8 @@ test("go back to action with form view as main view, and res_id", async () => {
         };
     });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14485,6 +14594,9 @@ test("go back to action with form view as main view, and res_id", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14798,9 +14910,13 @@ test("action with res_id, load another res_id, do new action, restore previous",
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     onRpc("get_formview_action", () => {
         return { ...action, res_id: 3 };
     });
+=======
+    onRpc("get_formview_action", () => ({ ...action, res_id: 3 }));
+>>>>>>> upstream/18.0
 =======
     onRpc("get_formview_action", () => ({ ...action, res_id: 3 }));
 >>>>>>> upstream/18.0
@@ -15388,6 +15504,7 @@ test("executing a window action with onchange warning does not hide it", async (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views["form,false"] = `<form><field name="foo"/></form>`;
 =======
     Partner._views["form"] = `<form><field name="foo"/></form>`;
@@ -15482,6 +15599,8 @@ test("executing a window action with onchange warning does not hide it", async (
         };
     });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -15771,6 +15890,9 @@ test("executing a window action with onchange warning does not hide it", async (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16076,6 +16198,10 @@ test("executing a window action with onchange warning does not hide it", async (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    await waitFor(".modal.o_technical_modal");
+>>>>>>> upstream/18.0
 =======
     await waitFor(".modal.o_technical_modal");
 >>>>>>> upstream/18.0
@@ -16588,7 +16714,11 @@ test("do not restore after action button clicked on desktop", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views["form,false"] = `
+=======
+    Partner._views["form"] = `
+>>>>>>> upstream/18.0
 =======
     Partner._views["form"] = `
 >>>>>>> upstream/18.0
@@ -17076,7 +17206,11 @@ test("do not restore after action button clicked on desktop", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o_form_buttons_view .o_form_button_save").not.toBeVisible();
+=======
+    expect(".o_form_buttons_view .o_form_button_save").not.toHaveCount();
+>>>>>>> upstream/18.0
 =======
     expect(".o_form_buttons_view .o_form_button_save").not.toHaveCount();
 >>>>>>> upstream/18.0
@@ -17520,7 +17654,11 @@ test("do not restore after action button clicked on mobile", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views["form,false"] = `
+=======
+    Partner._views["form"] = `
+>>>>>>> upstream/18.0
 =======
     Partner._views["form"] = `
 >>>>>>> upstream/18.0
@@ -18009,7 +18147,11 @@ test("do not restore after action button clicked on mobile", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o_form_buttons_view .o_form_button_save").not.toBeVisible();
+=======
+    expect(".o_form_buttons_view .o_form_button_save").not.toHaveCount();
+>>>>>>> upstream/18.0
 =======
     expect(".o_form_buttons_view .o_form_button_save").not.toHaveCount();
 >>>>>>> upstream/18.0
@@ -18721,7 +18863,11 @@ test("action group_by of type string", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views["pivot,false"] = `<pivot/>`;
+=======
+    Partner._views["pivot,3"] = /* xml */ `<pivot />`;
+>>>>>>> upstream/18.0
 =======
     Partner._views["pivot,3"] = /* xml */ `<pivot />`;
 >>>>>>> upstream/18.0
@@ -19254,7 +19400,10 @@ test("load a tree", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: `<search/>`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -19647,6 +19796,7 @@ test("sample server: populate groups", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: `<search/>`,
 =======
 >>>>>>> upstream/18.0
@@ -19725,6 +19875,8 @@ test("sample server: populate groups", async () => {
         };
     });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -20024,6 +20176,9 @@ test("sample server: populate groups", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -20355,7 +20510,11 @@ test("click on breadcrumb of a deleted record", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views["form,false"] = `
+=======
+    Partner._views["form"] = `
+>>>>>>> upstream/18.0
 =======
     Partner._views["form"] = `
 >>>>>>> upstream/18.0
