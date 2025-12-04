@@ -50,7 +50,10 @@ class TestRetry(TestRetryCommon):
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 @tagged('test_retry', 'test_retry_success')
 class TestRetryTraceback(TestRetryCommon):
     """ Check some tests behaviour when ODOO_TEST_FAILURE_RETRIES is set"""
@@ -73,6 +76,9 @@ class TestRetryTracebackArg(TestRetryCommon):
         self.assertEqual(tests_run_count, self.count)
 
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 @tagged('-standard', 'test_retry', 'test_retry_failures')
 class TestRetryFailures(TestRetryCommon):

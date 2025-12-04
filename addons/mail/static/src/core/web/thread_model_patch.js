@@ -54,6 +54,21 @@ patch(Thread.prototype, {
         if (this.model === "discuss.channel" && !this.selfMember) {
             this.store.env.services["bus_service"].addChannel(this.busChannel);
         }
+<<<<<<< HEAD
+=======
+        if (this.model === "mail.box") {
+            if (this.store.discuss.isActive) {
+                this.setAsDiscussThread();
+            } else {
+                this.store.env.services.action.doAction({
+                    context: { active_id: `mail.box_${this.id}` },
+                    tag: "mail.action_discuss",
+                    type: "ir.actions.client",
+                });
+            }
+            return;
+        }
+>>>>>>> upstream/18.0
         if (!this.store.discuss.isActive && !this.store.env.services.ui.isSmall) {
             this.openChatWindow(options);
             return;

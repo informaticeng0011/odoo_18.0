@@ -34,8 +34,18 @@ export class MessagingMenu extends Component {
         useExternalListener(window, "keydown", this.onKeydown, true);
     }
 
+<<<<<<< HEAD
     onClickThread(isMarkAsRead, thread) {
         if (!isMarkAsRead) {
+=======
+    onClickThread(isMarkAsRead, thread, message) {
+        if (!isMarkAsRead) {
+            if (message?.needaction && message.message_type === "user_notification") {
+                this.store.inbox.highlightMessage = message;
+                this.openDiscussion(this.store.inbox);
+                return;
+            }
+>>>>>>> upstream/18.0
             this.openDiscussion(thread);
             return;
         }

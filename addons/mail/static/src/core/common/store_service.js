@@ -574,8 +574,11 @@ export class Store extends BaseStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     onStarted() {}
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -886,6 +889,7 @@ export class Store extends BaseStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if (isTabFocused && thread?.isDisplayed) {
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1051,6 +1055,8 @@ export class Store extends BaseStore {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 // Prevent duplicate inbox push notifications since they're already handled by
                 // `mail.message/inbox` bus notifications, and the `modelsHandleByPush` heuristic
                 // in `out_of_focus_service.js` isn't reliable enough to detect these cases.
@@ -1100,6 +1106,9 @@ export class Store extends BaseStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1321,6 +1330,9 @@ export class Store extends BaseStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2017,7 +2029,11 @@ export const storeService = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         store.insert(session.storeData);
+=======
+        store.insert(session.storeData, { html: true });
+>>>>>>> upstream/18.0
 =======
         store.insert(session.storeData, { html: true });
 >>>>>>> upstream/18.0

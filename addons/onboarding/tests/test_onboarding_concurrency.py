@@ -12,7 +12,11 @@ from odoo.tests.common import get_db_name, tagged, BaseCase
 from odoo.tools import mute_logger
 
 
+<<<<<<< HEAD
 @tagged('-standard', '-at_install', 'post_install', 'database_breaking')
+=======
+@tagged('-standard', '-at_install', 'post_install')
+>>>>>>> upstream/18.0
 class TestOnboardingConcurrency(BaseCase):
 
     @classmethod

@@ -42,7 +42,10 @@ class StockMove(models.Model):
         self.move_line_ids._auto_wave()
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -52,6 +55,9 @@ class StockMove(models.Model):
             moves |= self.picking_id.batch_id.move_ids
         return moves
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

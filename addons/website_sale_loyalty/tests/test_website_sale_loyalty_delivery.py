@@ -140,9 +140,12 @@ from odoo.addons.base.tests.common import DISABLED_MAIL_CONTEXT
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.addons.website.tools import MockRequest
 from odoo.addons.website_sale.tests.common import WebsiteSaleCommon
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -552,6 +555,9 @@ from odoo.addons.website_sale_loyalty.controllers.main import WebsiteSale
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1147,7 +1153,10 @@ class TestWebsiteSaleDelivery(HttpCase, WebsiteSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1579,6 +1588,9 @@ class TestWebsiteSaleDelivery(HttpCase, WebsiteSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

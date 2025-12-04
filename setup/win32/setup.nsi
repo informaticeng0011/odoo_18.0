@@ -389,6 +389,10 @@ SectionEnd
 !insertmacro MUI_FUNCTION_DESCRIPTION_END
 
 Section "Uninstall"
+<<<<<<< HEAD
+=======
+    SetRegView 64
+>>>>>>> upstream/18.0
     # Check if the server is installed
     !insertmacro IfKeyExists "HKLM" "${UNINSTALL_REGISTRY_KEY_SERVER}" "UninstallString"
     Pop $R0
@@ -565,7 +569,13 @@ Section "Uninstall"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Rmdir /R "$INSTDIR\$1"
+=======
+    StrCmp $1 "" nginx_dir_not_found
+    Rmdir /R "$INSTDIR\$1"
+    nginx_dir_not_found:
+>>>>>>> upstream/18.0
 =======
     StrCmp $1 "" nginx_dir_not_found
     Rmdir /R "$INSTDIR\$1"

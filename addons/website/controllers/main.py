@@ -5,6 +5,10 @@ import os
 import logging
 import re
 import requests
+<<<<<<< HEAD
+=======
+import urllib.parse
+>>>>>>> upstream/18.0
 import werkzeug.urls
 import werkzeug.utils
 import werkzeug.wrappers
@@ -66,9 +70,15 @@ class QueryURL:
                     paths[key] = "%s" % value
             elif value:
                 if isinstance(value, (list, set)):
+<<<<<<< HEAD
                     fragments.append(werkzeug.urls.url_encode([(key, item) for item in value]))
                 else:
                     fragments.append(werkzeug.urls.url_encode([(key, value)]))
+=======
+                    fragments.append(urllib.parse.urlencode([(key, item) for item in value]))
+                else:
+                    fragments.append(urllib.parse.urlencode([(key, value)]))
+>>>>>>> upstream/18.0
         for key in path_args:
             value = paths.get(key)
             if value is not None:
@@ -250,6 +260,10 @@ class Website(Home):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        mode_debug = kw.get('debug', 0)
+>>>>>>> upstream/18.0
 =======
         mode_debug = kw.get('debug', 0)
 >>>>>>> upstream/18.0
@@ -586,7 +600,11 @@ class Website(Home):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             path = request.website.get_client_action_url(path, mode_edit)
+=======
+            path = request.website.get_client_action_url(path, mode_edit, mode_debug)
+>>>>>>> upstream/18.0
 =======
             path = request.website.get_client_action_url(path, mode_edit, mode_debug)
 >>>>>>> upstream/18.0
@@ -990,8 +1008,11 @@ class Website(Home):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return request.render('website.robots', {'url_root': request.httprequest.url_root}, mimetype='text/plain')
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1292,6 +1313,9 @@ class Website(Home):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2138,7 +2162,11 @@ class Website(Home):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return []
+=======
+            return json.dumps([])
+>>>>>>> upstream/18.0
 =======
             return json.dumps([])
 >>>>>>> upstream/18.0

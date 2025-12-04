@@ -6,7 +6,11 @@ from markupsafe import Markup
 from odoo import api, fields, models, _
 from odoo.addons.mail.tools.parser import parse_res_ids
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.exceptions import ValidationError
+=======
+from odoo.exceptions import AccessError, UserError, ValidationError
+>>>>>>> upstream/18.0
 =======
 from odoo.exceptions import AccessError, UserError, ValidationError
 >>>>>>> upstream/18.0
@@ -246,6 +250,7 @@ class MailActivitySchedule(models.TransientModel):
             record.message_post(body=body)
 
         if len(applied_on) == 1:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -810,6 +815,9 @@ class MailActivitySchedule(models.TransientModel):
 =======
             return {'type': 'ir.actions.client', 'tag': 'soft_reload'}
 >>>>>>> upstream/18.0
+=======
+            return {'type': 'ir.actions.client', 'tag': 'soft_reload'}
+>>>>>>> upstream/18.0
 
         return {
             'type': 'ir.actions.act_window',
@@ -911,7 +919,10 @@ class MailActivitySchedule(models.TransientModel):
             summaries.append(Markup('<li>%s</li>') % summary_line)
         return Markup('<ul>%s</ul>') % Markup().join(summaries) if summaries else ''
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     @api.onchange('activity_user_id', 'activity_type_id')
     def _onchange_activity_user_id(self):
@@ -927,4 +938,7 @@ class MailActivitySchedule(models.TransientModel):
                 raise UserError(_("Selected user '%(user)s' cannot upload documents on model '%(model)s'",
                                     model=model,
                                     user=activity_user.display_name))
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

@@ -121,8 +121,13 @@ import { execCommand } from "../_helpers/userCommands";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import { expectElementCount } from "../_helpers/ui_expectations";
+>>>>>>> upstream/18.0
+=======
+import { expectElementCount } from "../_helpers/ui_expectations";
+import { unformat } from "../_helpers/format";
 >>>>>>> upstream/18.0
 =======
 import { expectElementCount } from "../_helpers/ui_expectations";
@@ -1357,7 +1362,10 @@ test("should remove font-size style from multiple sized selected text", async ()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1734,6 +1742,7 @@ test("should remove font size and color styles", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1753,6 +1762,8 @@ describe("Toolbar", () => {
         await expectElementCount(".o-we-toolbar", 1);
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2108,6 +2119,7 @@ test("should remove backgroundColor from selected cells using removeFormat (2)",
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 describe("Toolbar", () => {
     async function removeFormatClick() {
         await expectElementCount(".o-we-toolbar", 1);
@@ -2209,6 +2221,8 @@ describe("Toolbar", () => {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2548,6 +2562,9 @@ describe("Toolbar", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2835,7 +2852,11 @@ describe("Toolbar", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(".o-we-toolbar").toHaveCount(1); // toolbar still open
+=======
+        await expectElementCount(".o-we-toolbar", 1);
+>>>>>>> upstream/18.0
 =======
         await expectElementCount(".o-we-toolbar", 1);
 >>>>>>> upstream/18.0
@@ -3351,8 +3372,12 @@ describe("Toolbar", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         await waitFor(".o-we-toolbar");
         expect(".o-we-toolbar").toHaveCount(1); // toolbar open
+=======
+        await expectElementCount(".o-we-toolbar", 1);
+>>>>>>> upstream/18.0
 =======
         await expectElementCount(".o-we-toolbar", 1);
 >>>>>>> upstream/18.0
@@ -3826,7 +3851,11 @@ describe("Toolbar", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(".o-we-toolbar").toHaveCount(1); // toolbar still open
+=======
+        await expectElementCount(".o-we-toolbar", 1);
+>>>>>>> upstream/18.0
 =======
         await expectElementCount(".o-we-toolbar", 1);
 >>>>>>> upstream/18.0
@@ -4303,8 +4332,12 @@ describe("Toolbar", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         await waitFor(".o-we-toolbar");
         expect(".o-we-toolbar").toHaveCount(1); // toolbar open
+=======
+        await expectElementCount(".o-we-toolbar", 1);
+>>>>>>> upstream/18.0
 =======
         await expectElementCount(".o-we-toolbar", 1);
 >>>>>>> upstream/18.0
@@ -4778,7 +4811,11 @@ describe("Toolbar", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(".o-we-toolbar").toHaveCount(1); // toolbar still open
+=======
+        await expectElementCount(".o-we-toolbar", 1);
+>>>>>>> upstream/18.0
 =======
         await expectElementCount(".o-we-toolbar", 1);
 >>>>>>> upstream/18.0
@@ -5251,7 +5288,10 @@ describe("Toolbar", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5542,6 +5582,9 @@ describe("removeFormat must not remove non-style classes", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -7,8 +7,14 @@ from freezegun import freeze_time
 
 from odoo import Command, fields
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.addons.mail.tests.test_mail_activity import ActivityScheduleCase
 from odoo.exceptions import ValidationError
+=======
+from odoo.addons.mail.tests.common import mail_new_test_user
+from odoo.addons.mail.tests.test_mail_activity import ActivityScheduleCase
+from odoo.exceptions import UserError, ValidationError
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.mail.tests.common import mail_new_test_user
 from odoo.addons.mail.tests.test_mail_activity import ActivityScheduleCase
@@ -187,7 +193,10 @@ class TestActivitySchedule(ActivityScheduleCase):
         self.assertEqual(len(self.test_records[4].activity_ids), 0)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     @users('admin')
     def test_activity_schedule_rights_upload(self):
         user = mail_new_test_user(
@@ -203,6 +212,9 @@ class TestActivitySchedule(ActivityScheduleCase):
             form.activity_user_id = user
         form.save()
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     @users('employee')
     def test_plan_mode(self):

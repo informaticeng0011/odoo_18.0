@@ -357,6 +357,7 @@ test("Chat is added to discuss on other tab that the one that joined", async () 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await click(".o-mail-DiscussSidebarCategory-chat .o-mail-DiscussSidebarCategory-add", {
         target: env1,
     });
@@ -366,6 +367,8 @@ test("Chat is added to discuss on other tab that the one that joined", async () 
     await contains(".o-mail-DiscussSidebarChannel", { target: env1, text: "Jerry Golay" });
     await contains(".o-mail-DiscussSidebarChannel", { target: env2, text: "Jerry Golay" });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -620,6 +623,9 @@ test("Chat is added to discuss on other tab that the one that joined", async () 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

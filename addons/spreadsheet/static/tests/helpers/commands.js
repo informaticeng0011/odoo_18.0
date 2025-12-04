@@ -139,6 +139,25 @@ export function addColumns(
     });
 }
 
+<<<<<<< HEAD
+=======
+export function addRows(
+    model,
+    position,
+    row,
+    quantity,
+    sheetId = model.getters.getActiveSheetId()
+) {
+    return model.dispatch("ADD_COLUMNS_ROWS", {
+        sheetId,
+        dimension: "ROW",
+        position,
+        base: row,
+        quantity,
+    });
+}
+
+>>>>>>> upstream/18.0
 /**
  * Delete columns
  * @param {OdooSpreadsheetModel} model

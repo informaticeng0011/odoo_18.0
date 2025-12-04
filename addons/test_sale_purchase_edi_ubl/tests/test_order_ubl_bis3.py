@@ -60,6 +60,10 @@ class TestOrderEdiUbl(TestAccountEdiUblCii):
                 'taxes_id': self.purchase_tax.ids,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                'discount': 10.0,
+>>>>>>> upstream/18.0
 =======
                 'discount': 10.0,
 >>>>>>> upstream/18.0
@@ -74,6 +78,10 @@ class TestOrderEdiUbl(TestAccountEdiUblCii):
                 'taxes_id': self.purchase_tax.ids,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                'discount': 0.0,
+>>>>>>> upstream/18.0
 =======
                 'discount': 0.0,
 >>>>>>> upstream/18.0
@@ -101,6 +109,10 @@ class TestOrderEdiUbl(TestAccountEdiUblCii):
             line['product_uom_qty'] = line['product_qty']
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            line['discount'] = 0.0
+>>>>>>> upstream/18.0
 =======
             line['discount'] = 0.0
 >>>>>>> upstream/18.0

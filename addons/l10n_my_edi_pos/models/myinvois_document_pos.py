@@ -145,7 +145,11 @@ class MyInvoisDocumentPoS(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for consolidated_invoice in self.filtered('pos_order_ids'):
+=======
+        for consolidated_invoice in self:
+>>>>>>> upstream/18.0
 =======
         for consolidated_invoice in self:
 >>>>>>> upstream/18.0

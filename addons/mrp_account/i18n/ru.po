@@ -48,6 +48,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* mrp_account
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -635,6 +636,9 @@
 =======
 # * mrp_account
 >>>>>>> upstream/18.0
+=======
+# * mrp_account
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Olga Gutorova, 2024
@@ -725,6 +729,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -793,6 +798,9 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# "Anastasiia Koroleva (koan)" <koan@odoo.com>, 2025.
 >>>>>>> upstream/18.0
 =======
 # "Anastasiia Koroleva (koan)" <koan@odoo.com>, 2025.
@@ -942,6 +950,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1651,6 +1660,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-09-12 01:51+0000\n"
 "PO-Revision-Date: 2025-10-22 09:09+0000\n"
 "Last-Translator: \"Anastasiia Koroleva (koan)\" <koan@odoo.com>\n"
@@ -1697,6 +1708,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1785,6 +1799,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2178,6 +2193,11 @@ msgstr ""
 "n%100>=11 && n%100<=14)? 2 : 3);\n"
 "X-Generator: Weblate 5.12.2\n"
 >>>>>>> upstream/18.0
+=======
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || ("
+"n%100>=11 && n%100<=14)? 2 : 3);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: mrp_account
 #: model_terms:ir.ui.view,arch_db:mrp_account.report_wip
@@ -2193,6 +2213,7 @@ msgstr "$5000"
 #. odoo-python
 #: code:addons/mrp_account/models/mrp_production.py:0
 msgid "%s - Labour"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2598,6 +2619,11 @@ msgstr "%s – трудозатраты"
 
 #. module: mrp_account
 >>>>>>> upstream/18.0
+=======
+msgstr "%s – трудозатраты"
+
+#. module: mrp_account
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:mrp_account.report_wip
 msgid "2023-08-15"
 msgstr "2023-08-15"
@@ -2698,7 +2724,11 @@ msgid "A single line cannot be both credit and debit."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Одна строка не может быть одновременно дебетом и кредитом."
+>>>>>>> upstream/18.0
 =======
 msgstr "Одна строка не может быть одновременно дебетом и кредитом."
 >>>>>>> upstream/18.0
@@ -2935,7 +2965,11 @@ msgid "Account Move Line"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Проводка бухгалтерии"
+>>>>>>> upstream/18.0
 =======
 msgstr "Проводка бухгалтерии"
 >>>>>>> upstream/18.0
@@ -3238,6 +3272,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Проводка создается при публикации движения по незавершенному производству"
+>>>>>>> upstream/18.0
 =======
 "Проводка создается при публикации движения по незавершенному производству"
 >>>>>>> upstream/18.0
@@ -3547,7 +3585,11 @@ msgid "Created by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Создано"
+=======
+msgstr "Создано:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Создано:"
 >>>>>>> upstream/18.0
@@ -3885,7 +3927,11 @@ msgid "Created on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Создано"
+=======
+msgstr "Дата создания:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дата создания:"
 >>>>>>> upstream/18.0
@@ -4306,7 +4352,11 @@ msgid "Last Updated by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Последнее обновление"
+=======
+msgstr "Последнее обновление:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Последнее обновление:"
 >>>>>>> upstream/18.0
@@ -4648,7 +4698,11 @@ msgid "Last Updated on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Последнее обновление"
+=======
+msgstr "Дата последнего обновления:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дата последнего обновления:"
 >>>>>>> upstream/18.0
@@ -4959,7 +5013,11 @@ msgid "Manual Entry"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ручная запись"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ручная запись"
 >>>>>>> upstream/18.0
@@ -5178,7 +5236,11 @@ msgid "Manufacturing WIP - %(orders_list)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Незавершенное производство – %(orders_list)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Незавершенное производство – %(orders_list)s"
 >>>>>>> upstream/18.0
@@ -5337,6 +5399,7 @@ msgstr "Линия счетов Mo Analytic"
 #. module: mrp_account
 #. odoo-python
 #: code:addons/mrp_account/wizard/mrp_wip_accounting.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5720,6 +5783,10 @@ msgstr "Убедитесь, что общая сумма кредита равн
 msgid "Please make sure the total credit amount equals the total debit amount."
 msgstr "Убедитесь, что общая сумма кредита равна общей сумме дебета."
 >>>>>>> upstream/18.0
+=======
+msgid "Please make sure the total credit amount equals the total debit amount."
+msgstr "Убедитесь, что общая сумма кредита равна общей сумме дебета."
+>>>>>>> upstream/18.0
 
 #. module: mrp_account
 #: model_terms:ir.ui.view,arch_db:mrp_account.view_wip_accounting_form
@@ -5772,7 +5839,11 @@ msgid "Post Manufacturing WIP"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Провести НЗП по производству"
+>>>>>>> upstream/18.0
 =======
 msgstr "Провести НЗП по производству"
 >>>>>>> upstream/18.0
@@ -5969,7 +6040,11 @@ msgid "Post WIP"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Провести НЗП"
+>>>>>>> upstream/18.0
 =======
 msgstr "Провести НЗП"
 >>>>>>> upstream/18.0
@@ -6166,7 +6241,11 @@ msgid "Post WIP Accounting Entry"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Провести бухгалтерскую проводку по НЗП"
+>>>>>>> upstream/18.0
 =======
 msgstr "Провести бухгалтерскую проводку по НЗП"
 >>>>>>> upstream/18.0
@@ -6399,7 +6478,11 @@ msgid "Relevant WIP MOs"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Соответствующие производственные заказы для этой проводки по НЗП"
+>>>>>>> upstream/18.0
 =======
 msgstr "Соответствующие производственные заказы для этой проводки по НЗП"
 >>>>>>> upstream/18.0
@@ -6602,7 +6685,11 @@ msgid "Reversal date must be after the posting date."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Дата сторнирования должна быть позже даты проведения."
+>>>>>>> upstream/18.0
 =======
 msgstr "Дата сторнирования должна быть позже даты проведения."
 >>>>>>> upstream/18.0
@@ -6765,6 +6852,7 @@ msgid "Stock Move"
 msgstr "Движение запасов"
 
 #. module: mrp_account
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7412,6 +7500,8 @@ msgstr "Уровень оценки запасов"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:mrp_account.field_account_bank_statement_line__wip_production_ids
 #: model:ir.model.fields,help:mrp_account.field_account_move__wip_production_ids
 msgid ""
@@ -7466,6 +7556,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Производственные заказы, на основании которых была создана эта проводка по "
+"НЗП. Ожидается, что они будут указаны в момент создания проводки."
+>>>>>>> upstream/18.0
 =======
 "Производственные заказы, на основании которых была создана эта проводка по "
 "НЗП. Ожидается, что они будут указаны в момент создания проводки."
@@ -7662,6 +7757,7 @@ msgstr ""
 #. module: mrp_account
 #: model:ir.model.fields,help:mrp_account.field_mrp_workcenter__expense_account_id
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8019,6 +8115,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "The expense is accounted for when the manufacturing order is marked as done. "
 "If not set, it is the expense account of the final product that will be used "
 "instead."
@@ -8073,6 +8171,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8255,12 +8356,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This account will be used as a valuation counterpart for both components and final products for manufacturing orders.\n"
 "                If there are any workcenter/employee costs, this value will remain on the account once the production is completed."
 msgstr ""
 "Этот счет будет использоваться в качестве аналога оценки как компонентов, так и готовой продукции для производственных заказов.\n"
 "                Если есть какие-либо затраты на рабочий центр/работников, это значение останется на счете после завершения производства."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8516,6 +8620,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8749,7 +8856,11 @@ msgid "WIP - Component Value"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "НЗП – стоимость комплектующих"
+>>>>>>> upstream/18.0
 =======
 msgstr "НЗП – стоимость комплектующих"
 >>>>>>> upstream/18.0
@@ -8947,7 +9058,11 @@ msgid "WIP - Overhead"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "НЗП – накладные расходы"
+>>>>>>> upstream/18.0
 =======
 msgstr "НЗП – накладные расходы"
 >>>>>>> upstream/18.0
@@ -9145,7 +9260,11 @@ msgid "WIP MOs of %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Производственные заказы НЗП: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Производственные заказы НЗП: %s"
 >>>>>>> upstream/18.0
@@ -9347,7 +9466,11 @@ msgid "WIP accounting lines"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Бухгалтерские проводки НЗП"
+>>>>>>> upstream/18.0
 =======
 msgstr "Бухгалтерские проводки НЗП"
 >>>>>>> upstream/18.0
@@ -9544,6 +9667,7 @@ msgid "WIP accounting wizard"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Инструмент для проводок по НЗП"
@@ -9562,6 +9686,9 @@ msgstr "Инструмент для проводок по НЗП"
 >>>>>>> upstream/18.0
 =======
 msgstr "Инструмент для проводок по НЗП"
+>>>>>>> upstream/18.0
+=======
+msgstr "Мастер проводок по НЗП"
 >>>>>>> upstream/18.0
 =======
 msgstr "Мастер проводок по НЗП"
@@ -9745,6 +9872,7 @@ msgid "Wizard to post Manufacturing WIP account move"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9769,6 +9897,9 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 "Инструмент для проведения бухгалтерской проводки по производственному НЗП"
+>>>>>>> upstream/18.0
+=======
+msgstr "Мастер проведения бухгалтерской проводки по производственному НЗП"
 >>>>>>> upstream/18.0
 =======
 msgstr "Мастер проведения бухгалтерской проводки по производственному НЗП"
@@ -10022,6 +10153,12 @@ msgstr "[WC] %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+#~ msgid "Stock Valuation Layer"
+#~ msgstr "Уровень оценки запасов"
+>>>>>>> upstream/18.0
 =======
 
 #~ msgid "Stock Valuation Layer"

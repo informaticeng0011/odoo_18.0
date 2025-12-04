@@ -11,6 +11,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* sms
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -345,6 +346,10 @@
 # * sms
 #
 >>>>>>> upstream/18.0
+=======
+# * sms
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Donatas <donatasvaliulis16@gmail.com>, 2024
 # Silvija Butko <silvija.butko@gmail.com>, 2024
@@ -367,6 +372,7 @@
 # Aleksandr Jadov <a.jadov@tata.lt>, 2024
 # digitouch UAB <digitouchagencyeur@gmail.com>, 2024
 # Wil Odoo, 2025
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -700,10 +706,14 @@
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -964,6 +974,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-09-05 18:40+0000\n"
 "PO-Revision-Date: 2025-11-21 02:37+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
@@ -979,6 +991,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1005,6 +1020,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1287,6 +1303,11 @@ msgstr ""
 " n % 1 != 0 ? 2: 3);\n"
 "X-Generator: Weblate 5.12.2\n"
 >>>>>>> upstream/18.0
+=======
+"11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? 1 :"
+" n % 1 != 0 ? 2: 3);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: sms
 #: model:ir.model.fields,field_description:sms.field_sms_composer__recipient_invalid_count
@@ -1444,7 +1465,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                <span class=\"o_stat_text\">Context Action</span>"
+=======
+"                                <span class=\"o_stat_text\">Context Action</"
+"span>"
+>>>>>>> upstream/18.0
 =======
 "                                <span class=\"o_stat_text\">Context Action</"
 "span>"
@@ -1871,7 +1897,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                <span class=\"o_stat_text\">Context Action</span>"
+=======
+"                                <span class=\"o_stat_text\">Context Action</"
+"span>"
+>>>>>>> upstream/18.0
 =======
 "                                <span class=\"o_stat_text\">Context Action</"
 "span>"
@@ -2291,7 +2322,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<span class=\"text-warning\" invisible=\"not no_record\">No records</span>"
+=======
+msgid ""
+"<span class=\"text-warning\" invisible=\"not no_record\">No records</span>"
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "<span class=\"text-warning\" invisible=\"not no_record\">No records</span>"
@@ -2713,6 +2749,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                The message will be sent as an SMS to the recipients of the template\n"
 "                                and will not appear in the messaging history.\n"
 "                            </span>\n"
@@ -2724,6 +2761,8 @@ msgid ""
 "                                The SMS will be sent as an SMS to the recipients of the\n"
 "                                template and it will also be posted as an internal note\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2985,6 +3024,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3408,6 +3450,7 @@ msgstr "Uždaryti"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -3791,6 +3834,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model,name:sms.model_res_company
 msgid "Companies"
 msgstr "Įmonės"
@@ -3806,6 +3851,9 @@ msgstr "Įmonės"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4103,8 +4151,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "File from where the template originates. Used to reset broken template."
+=======
+msgid "File from where the template originates. Used to reset broken template."
+>>>>>>> upstream/18.0
 =======
 msgid "File from where the template originates. Used to reset broken template."
 >>>>>>> upstream/18.0
@@ -4539,8 +4591,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If the sanitized phone number is on the blacklist, the contact won't receive"
 " mass mailing sms anymore, from any list"
+=======
+"If the sanitized phone number is on the blacklist, the contact won't receive "
+"mass mailing sms anymore, from any list"
+>>>>>>> upstream/18.0
 =======
 "If the sanitized phone number is on the blacklist, the contact won't receive "
 "mass mailing sms anymore, from any list"
@@ -5199,8 +5256,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Number of recipients that will receive the SMS if sent in mass mode, without"
 " applying the Active Domain value"
+=======
+"Number of recipients that will receive the SMS if sent in mass mode, without "
+"applying the Active Domain value"
+>>>>>>> upstream/18.0
 =======
 "Number of recipients that will receive the SMS if sent in mass mode, without "
 "applying the Active Domain value"
@@ -5628,8 +5690,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "a placeholder expression that provides the appropriate language, e.g. {{ "
 "object.partner_id.lang }}."
+=======
+"a placeholder expression that provides the appropriate language, e.g. "
+"{{ object.partner_id.lang }}."
+>>>>>>> upstream/18.0
 =======
 "a placeholder expression that provides the appropriate language, e.g. "
 "{{ object.partner_id.lang }}."
@@ -6021,7 +6088,11 @@ msgid "Proceed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tęsti"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tęsti"
 >>>>>>> upstream/18.0
@@ -6633,7 +6704,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Sending SMS can only be done on a mail.thread or a transient model"
+=======
+msgid "Sending SMS can only be done on a not transient mail.thread model"
+>>>>>>> upstream/18.0
 =======
 msgid "Sending SMS can only be done on a not transient mail.thread model"
 >>>>>>> upstream/18.0
@@ -7429,12 +7504,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "- 'Send SMS': send SMS, log them on documents (SMS)- 'Add/Remove Followers': add or remove followers to a record (Discuss)\n"
 "- 'Create Record': create a new record with new values\n"
 "- 'Execute Code': a block of Python code that will be executed\n"
 "- 'Send Webhook Notification': send a POST request to an external system, also known as a Webhook\n"
 "- 'Execute Existing Actions': define an action that triggers several other server actions\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7689,6 +7767,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7979,7 +8060,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "'auto_comment': generated by automated notification mechanism e.g. acknowledgment\n"
+=======
+"'auto_comment': generated by automated notification mechanism e.g. "
+"acknowledgment\n"
+>>>>>>> upstream/18.0
 =======
 "'auto_comment': generated by automated notification mechanism e.g. "
 "acknowledgment\n"
@@ -8504,9 +8590,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Your sender name must be between 3 and 11 characters long and only contain alphanumeric characters.\n"
 "                        It must fit your company name, and you aren't allowed to modify it once you registered one, choose it carefully."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8757,6 +8846,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

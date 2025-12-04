@@ -120,7 +120,11 @@ export class SearchBar extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 : useAutofocus({ mobile: this.props.toggler !== undefined }); // only force the focus on touch devices when the toggler is present on small devices
+=======
+                : useAutofocus({ mobile: this.ui.isSmall }); // only force the focus on touch devices on small screens
+>>>>>>> upstream/18.0
 =======
                 : useAutofocus({ mobile: this.ui.isSmall }); // only force the focus on touch devices on small screens
 >>>>>>> upstream/18.0

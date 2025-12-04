@@ -322,7 +322,10 @@ class TestProductConfiguratorData(HttpCaseWithUserDemo, ProductVariantsCommon, S
         self.assertNotIn(archived_ptav.id, selected_values)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_multiple_attribute_lines_same_attribute(self):
         """
         Test that product configurator works correctly when multiple attribute
@@ -378,6 +381,9 @@ class TestProductConfiguratorData(HttpCaseWithUserDemo, ProductVariantsCommon, S
         # Count occurrences of 'Size' - should be 2 since we have two lines with the same attribute
         self.assertEqual(attribute_names.count('Size'), 2)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 @tagged('post_install', '-at_install')

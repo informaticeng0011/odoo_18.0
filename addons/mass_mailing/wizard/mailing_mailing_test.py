@@ -81,8 +81,13 @@ class TestMassMailing(models.TransientModel):
                 'auto_delete': False,  # they are manually deleted after notifying the document
                 'mail_server_id': mailing.mail_server_id.id,
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'model': 'res.users',
                 'res_id': self.env.user.id,
+=======
+                'model': record._name,
+                'res_id': record.id,
+>>>>>>> upstream/18.0
 =======
                 'model': record._name,
                 'res_id': record.id,

@@ -149,7 +149,11 @@ class ResConfigSettings(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         'Google Search Console',
+=======
+        'Google Search Console Key',
+>>>>>>> upstream/18.0
 =======
         'Google Search Console Key',
 >>>>>>> upstream/18.0
@@ -524,7 +528,11 @@ class ResConfigSettings(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "Console Google Search",
+=======
+        "Google Search Console",
+>>>>>>> upstream/18.0
 =======
         "Google Search Console",
 >>>>>>> upstream/18.0
@@ -957,6 +965,10 @@ class ResConfigSettings(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'name': _('Add Website'),
+>>>>>>> upstream/18.0
 =======
             'name': _('Add Website'),
 >>>>>>> upstream/18.0

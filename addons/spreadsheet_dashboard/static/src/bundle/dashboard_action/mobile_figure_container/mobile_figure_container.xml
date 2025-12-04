@@ -153,6 +153,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             t-attf-style="min-height: #{figure.height}px;"
 =======
             t-attf-style="min-height: #{figure.height}px; direction: ltr;"
@@ -641,10 +642,15 @@
         >
             <t t-component="getFigureComponent(figure)" figure="figure" onFigureDeleted="() => {}"/>
 =======
+=======
+>>>>>>> upstream/18.0
             t-on-click="() => this.onClick(figure.id)"
             t-attf-style="min-height: #{figure.height}px; direction: ltr;"
         >
             <t t-component="getFigureComponent(figure)" figure="figure"/>
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         </div>
     </t>
