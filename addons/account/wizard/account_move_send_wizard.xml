@@ -7,6 +7,10 @@
         <field name="arch" type="xml">
             <form>
                 <field name="move_id" invisible="1"/>
+<<<<<<< HEAD
+=======
+                <field name="attachments_not_supported" invisible="1"/>
+>>>>>>> upstream/18.0
 
                 <!-- Warnings -->
                 <div class="m-0" id="alerts" invisible="not alerts">
@@ -49,6 +53,7 @@
                            widget="html_mail"/>
                     <group>
                         <group>
+<<<<<<< HEAD
                             <field name="mail_attachments_widget"
                                    widget="mail_attachments"
                                    string="Attach a file"
@@ -56,6 +61,8 @@
                                    colspan="2"/>
                         </group>
                         <group>
+=======
+>>>>>>> upstream/18.0
                             <field name="mail_template_id"
                                    options="{'no_create': True, 'no_edit': True}"
                                    context="{'default_model': 'account.move'}"/>
@@ -63,6 +70,16 @@
                     </group>
                 </div>
 
+<<<<<<< HEAD
+=======
+                <field name="mail_attachments_widget"
+                       widget="mail_attachments"
+                       string="Attach a file"
+                       nolabel="1"
+                       colspan="2"
+                       invisible="not display_attachments_widget"/>
+
+>>>>>>> upstream/18.0
                 <footer>
                     <button string="Send"
                             data-hotkey="q"

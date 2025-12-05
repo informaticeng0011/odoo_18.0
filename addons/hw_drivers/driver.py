@@ -1,11 +1,20 @@
 # -*- coding: utf-8 -*-
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
+<<<<<<< HEAD
+=======
+import logging
+>>>>>>> upstream/18.0
 from threading import Thread, Event
 
 from odoo.addons.hw_drivers.main import drivers, iot_devices
 from odoo.tools.lru import LRU
 
+<<<<<<< HEAD
+=======
+_logger = logging.getLogger(__name__)
+
+>>>>>>> upstream/18.0
 
 class DriverMetaClass(type):
     priority = -1
@@ -50,8 +59,12 @@ class Driver(Thread, metaclass=DriverMetaClass):
     def action(self, data):
         """Helper function that calls a specific action method on the device.
 
+<<<<<<< HEAD
         :param data: the `_actions` key mapped to the action method we want to call
         :type data: string
+=======
+        :param dict data: the `_actions` key mapped to the action method we want to call
+>>>>>>> upstream/18.0
         """
         self._actions[data.get('action', '')](data)
 
@@ -59,6 +72,7 @@ class Driver(Thread, metaclass=DriverMetaClass):
         self._stopped.set()
         del iot_devices[self.device_identifier]
 
+<<<<<<< HEAD
     def _check_idempotency(self, iot_idempotent_id, session_id):
         """
         Some IoT requests for the same action might be received several times.
@@ -70,6 +84,28 @@ class Driver(Thread, metaclass=DriverMetaClass):
         """
         cache = self._iot_idempotent_ids_cache
         if iot_idempotent_id in cache:
+=======
+    def _check_idempotency(self, iot_idempotent_id=None, session_id="unknown", **_kwargs):
+        """Some IoT requests for the same action might be received several times.
+        To avoid duplicating the resulting actions, we check if the action was "recently" executed.
+        If this is the case, we will simply ignore the action
+
+        :param str iot_idempotent_id: the idempotent ID received from the controller
+        :param session_id: the session ID of the current request
+        :param dict _kwargs: only here to allow providing the whole websocket/longpolling received dict
+        :return: the `session_id` of the same `iot_idempotent_id` if any. False otherwise,
+        which means that it is the first time that the IoT box received the request with this ID
+        """
+        if not iot_idempotent_id:
+            return False
+
+        cache = self._iot_idempotent_ids_cache
+        if iot_idempotent_id in cache:
+            _logger.debug(
+                "Ignored request from '%s' as iot_idempotent_id '%s' already received",
+                iot_idempotent_id, cache[iot_idempotent_id]
+            )
+>>>>>>> upstream/18.0
             return cache[iot_idempotent_id]
         cache[iot_idempotent_id] = session_id
         return False

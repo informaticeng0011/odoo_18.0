@@ -85,6 +85,10 @@ from odoo import api, fields, models
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.osv import expression
+>>>>>>> upstream/18.0
 =======
 from odoo.osv import expression
 >>>>>>> upstream/18.0
@@ -425,6 +429,10 @@ class EfakturProductCode(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    _rec_name = "code"
+>>>>>>> upstream/18.0
 =======
     _rec_name = "code"
 >>>>>>> upstream/18.0
@@ -769,7 +777,10 @@ class EfakturProductCode(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1038,6 +1049,9 @@ class EfakturProductCode(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

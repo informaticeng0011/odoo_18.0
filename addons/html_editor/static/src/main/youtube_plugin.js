@@ -52,9 +52,12 @@ export class YoutubePlugin extends Plugin {
     async getYoutubeVideoElement(url) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const { embed_url: src } = await rpc("/html_editor/video_url/data", {
             video_url: url,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         const parsedUrl = new URL(url);
@@ -70,6 +73,9 @@ export class YoutubePlugin extends Plugin {
             hide_controls,
             hide_fullscreen,
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

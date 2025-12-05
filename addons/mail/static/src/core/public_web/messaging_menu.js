@@ -35,9 +35,12 @@ export class MessagingMenu extends Component {
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     onClickThread(isMarkAsRead, thread) {
         if (!isMarkAsRead) {
 =======
+=======
+>>>>>>> upstream/18.0
     onClickThread(isMarkAsRead, thread, message) {
         if (!isMarkAsRead) {
             if (message?.needaction && message.message_type === "user_notification") {
@@ -45,6 +48,9 @@ export class MessagingMenu extends Component {
                 this.openDiscussion(this.store.inbox);
                 return;
             }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             this.openDiscussion(thread);
             return;

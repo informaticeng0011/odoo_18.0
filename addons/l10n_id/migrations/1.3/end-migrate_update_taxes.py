@@ -3,7 +3,11 @@ from odoo import api, SUPERUSER_ID
 
 
 def migrate(cr, version):
+<<<<<<< HEAD
     env = api.Environment(cr, SUPERUSER_ID, {})
+=======
+    env = api.Environment(cr, SUPERUSER_ID, {"lang": "en_US"})
+>>>>>>> upstream/18.0
 
     ChartTemplate = env["account.chart.template"]
     companies = env["res.company"].search([("chart_template", "=", "id")], order="parent_path")

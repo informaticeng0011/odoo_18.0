@@ -140,7 +140,11 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             card_id = id_mapping.get(int(coupon['card_id'], False)) or int(coupon['card_id'])
+=======
+            card_id = id_mapping.get(int(coupon['card_id']), False) or int(coupon['card_id'])
+>>>>>>> upstream/18.0
 =======
             card_id = id_mapping.get(int(coupon['card_id']), False) or int(coupon['card_id'])
 >>>>>>> upstream/18.0
@@ -505,6 +509,10 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self._remove_duplicate_coupon_data(coupon_data)
+>>>>>>> upstream/18.0
 =======
         self._remove_duplicate_coupon_data(coupon_data)
 >>>>>>> upstream/18.0
@@ -834,6 +842,12 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        for coupon in coupons_to_create.values():
+            if "gift_code" in coupon:
+                coupon["code"] = coupon.get("gift_code")
+>>>>>>> upstream/18.0
 =======
         for coupon in coupons_to_create.values():
             if "gift_code" in coupon:
@@ -1332,7 +1346,10 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1602,6 +1619,9 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1884,9 +1904,14 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 partner_coupons = self.env['loyalty.card'].search(
                     [('partner_id', '=', partner_id), ('program_type', '=', 'loyalty')])
                 existing_coupon_for_program = partner_coupons.filtered(lambda c: c.program_id.id == coupon_vals['program_id'])
+=======
+                existing_coupon_for_program = self.env['loyalty.card'].search(
+                    [('partner_id', '=', partner_id), ('program_type', 'in', ['loyalty', 'ewallet']), ('program_id', '=', coupon_vals['program_id'])])
+>>>>>>> upstream/18.0
 =======
                 existing_coupon_for_program = self.env['loyalty.card'].search(
                     [('partner_id', '=', partner_id), ('program_type', 'in', ['loyalty', 'ewallet']), ('program_id', '=', coupon_vals['program_id'])])
@@ -2313,7 +2338,10 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2577,6 +2605,9 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

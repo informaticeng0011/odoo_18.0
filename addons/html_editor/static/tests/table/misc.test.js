@@ -122,6 +122,10 @@ import { execCommand } from "../_helpers/userCommands";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { expectElementCount } from "../_helpers/ui_expectations";
+>>>>>>> upstream/18.0
 =======
 import { expectElementCount } from "../_helpers/ui_expectations";
 >>>>>>> upstream/18.0
@@ -626,7 +630,11 @@ test("can color cells", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-toolbar").toHaveCount(1); // toolbar still open
+=======
+    await expectElementCount(".o-we-toolbar", 1);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-toolbar", 1);
 >>>>>>> upstream/18.0
@@ -1072,9 +1080,15 @@ test("can color cells", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(cells[0]).toHaveStyle({ "background-color": "rgb(107, 173, 222)" });
     expect(cells[1]).toHaveStyle({ "background-color": "rgb(107, 173, 222)" });
     expect(cells[2]).not.toHaveStyle({ "background-color": "rgb(107, 173, 222)" });
+=======
+    expect(cells[0]).toHaveStyle({ "background-color": "rgba(107, 173, 222, 0.6)" });
+    expect(cells[1]).toHaveStyle({ "background-color": "rgba(107, 173, 222, 0.6)" });
+    expect(cells[2]).not.toHaveStyle({ "background-color": "rgba(107, 173, 222, 0.6)" });
+>>>>>>> upstream/18.0
 =======
     expect(cells[0]).toHaveStyle({ "background-color": "rgba(107, 173, 222, 0.6)" });
     expect(cells[1]).toHaveStyle({ "background-color": "rgba(107, 173, 222, 0.6)" });

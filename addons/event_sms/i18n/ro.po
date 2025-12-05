@@ -93,6 +93,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Larisa_nexterp, 2025
+>>>>>>> upstream/18.0
 =======
 # Larisa_nexterp, 2025
 >>>>>>> upstream/18.0
@@ -452,7 +456,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Wil Odoo, 2024\n"
+=======
+"Last-Translator: Larisa_nexterp, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Larisa_nexterp, 2025\n"
 >>>>>>> upstream/18.0
@@ -815,7 +823,11 @@ msgid "Event Automated Mailing"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Mail Automat Evenimente"
+=======
+msgstr "Trimitere automată de emailuri pentru evenimente"
+>>>>>>> upstream/18.0
 =======
 msgstr "Trimitere automată de emailuri pentru evenimente"
 >>>>>>> upstream/18.0
@@ -1182,7 +1194,11 @@ msgid "Mail Scheduling on Event Category"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Programare mail pe categorie de eveniment"
+=======
+msgstr "Programare email pe categorie de eveniment"
+>>>>>>> upstream/18.0
 =======
 msgstr "Programare email pe categorie de eveniment"
 >>>>>>> upstream/18.0
@@ -1542,6 +1558,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ești pregătit pentru \"{{ object.event_id.name }}\" {{ object.event_date_range }}?\n"
+"{{ 'Începe la %s' % format_time(time=object.event_begin_date, tz=object.event_id.date_tz, time_format='short', lang_code=object.partner_id.lang) + (', la %s' % object.event_id.address_inline if object.event_id.address_inline else '') + '.\\nNe vedem acolo!' if object.event_id.address_inline or 'website_published' not in object.event_id._fields else 'Alătură-te pe %s/event/%i!' % (object.get_base_url(), object.event_id.id) }}"
+>>>>>>> upstream/18.0
 =======
 "Ești pregătit pentru \"{{ object.event_id.name }}\" {{ object.event_date_range }}?\n"
 "{{ 'Începe la %s' % format_time(time=object.event_begin_date, tz=object.event_id.date_tz, time_format='short', lang_code=object.partner_id.lang) + (', la %s' % object.event_id.address_inline if object.event_id.address_inline else '') + '.\\nNe vedem acolo!' if object.event_id.address_inline or 'website_published' not in object.event_id._fields else 'Alătură-te pe %s/event/%i!' % (object.get_base_url(), object.event_id.id) }}"
@@ -1986,7 +2007,11 @@ msgid "Registration Mail Scheduler"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Planificator Mail de Înregistrare"
+=======
+msgstr "Planificator email de înregistrare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Planificator email de înregistrare"
 >>>>>>> upstream/18.0
@@ -2376,7 +2401,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "evenimentul {{ object.event_id.name }} ."
+=======
+"evenimentul {{ object.event_id.name }}."
+>>>>>>> upstream/18.0
 =======
 "evenimentul {{ object.event_id.name }}."
 >>>>>>> upstream/18.0

@@ -55,7 +55,10 @@ patch(Thread.prototype, {
             this.store.env.services["bus_service"].addChannel(this.busChannel);
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         if (this.model === "mail.box") {
             if (this.store.discuss.isActive) {
                 this.setAsDiscussThread();
@@ -68,6 +71,9 @@ patch(Thread.prototype, {
             }
             return;
         }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         if (!this.store.discuss.isActive && !this.store.env.services.ui.isSmall) {
             this.openChatWindow(options);

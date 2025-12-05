@@ -26,6 +26,7 @@ class IrDefault(models.Model):
     json_value = fields.Char('Default Value (JSON format)', required=True)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     @api.constrains('json_value')
     def _check_json_format(self):
         for record in self:
@@ -34,6 +35,8 @@ class IrDefault(models.Model):
             except json.JSONDecodeError:
                 raise ValidationError(_('Invalid JSON format in Default Value field.'))
 =======
+=======
+>>>>>>> upstream/18.0
     @api.constrains('json_value', 'field_id')
     def _check_json_format(self):
         for record in self:
@@ -48,6 +51,9 @@ class IrDefault(models.Model):
             except Exception:  # noqa: BLE001
                 raise ValidationError(_("Invalid value in Default Value field. Expected type '%(field_type)s' for '%(model_name)s.%(field_name)s'.",
                                         field_type=record.field_id.ttype, model_name=model_name, field_name=record.field_id.name))
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     @api.model_create_multi
@@ -142,7 +148,11 @@ class IrDefault(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ])
+=======
+        ], limit=1)
+>>>>>>> upstream/18.0
 =======
         ], limit=1)
 >>>>>>> upstream/18.0

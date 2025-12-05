@@ -51,7 +51,10 @@ class TestRetry(TestRetryCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 @tagged('test_retry', 'test_retry_success')
@@ -77,6 +80,9 @@ class TestRetryTracebackArg(TestRetryCommon):
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

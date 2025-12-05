@@ -19,6 +19,10 @@ import { insertText } from "./_helpers/user_actions";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { em, s, strong, u } from "./_helpers/tags";
+>>>>>>> upstream/18.0
 =======
 import { em, s, strong, u } from "./_helpers/tags";
 >>>>>>> upstream/18.0
@@ -114,7 +118,10 @@ test("should not display hint in paragraph with media content", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -185,6 +192,9 @@ test("should display hint in paragraph with s (strikethrough)", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

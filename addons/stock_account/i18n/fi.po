@@ -84,8 +84,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* stock_account
 # 
+=======
+# * stock_account
+#
+>>>>>>> upstream/18.0
 =======
 # * stock_account
 #
@@ -523,7 +528,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+# "Jessica Tuulia Sade Jäkärä (jtsj)" <jtsj@odoo.com>, 2025.
+>>>>>>> upstream/18.0
 =======
 # "Jessica Tuulia Sade Jäkärä (jtsj)" <jtsj@odoo.com>, 2025.
 >>>>>>> upstream/18.0
@@ -780,6 +789,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1371,6 +1381,11 @@ msgstr ""
 "PO-Revision-Date: 2025-11-21 07:48+0000\n"
 "Last-Translator: Ossi Mantylahti <ossi.mantylahti@obs-solutions.fi>\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-10-24 18:36+0000\n"
+"PO-Revision-Date: 2025-11-21 07:48+0000\n"
+"Last-Translator: Ossi Mantylahti <ossi.mantylahti@obs-solutions.fi>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Finnish <https://translate.odoo.com/projects/odoo-18/"
 "stock_account/fi/>\n"
 "Language: fi\n"
@@ -1462,6 +1477,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1665,6 +1683,7 @@ msgstr ""
 #: code:addons/stock_account/models/stock_valuation_layer.py:0
 msgid "%(user)s changed cost from %(previous)s to %(new_price)s - %(record)s"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2087,11 +2106,16 @@ msgstr ""
 "%(user)s muutti kustannukset vanhasta arvosta %(previous)s uuteen arvoon %"
 "(new_price)s - %(record)s"
 >>>>>>> upstream/18.0
+=======
+"%(user)s muutti kustannukset vanhasta arvosta %(previous)s uuteen arvoon %"
+"(new_price)s - %(record)s"
+>>>>>>> upstream/18.0
 
 #. module: stock_account
 #. odoo-python
 #: code:addons/stock_account/wizard/stock_valuation_layer_revaluation.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2347,6 +2371,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "%(user)s changed stock valuation from  %(previous)s to %(new_value)s - %"
 "(product)s\n"
 "%(reason)s"
@@ -2436,6 +2462,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2693,11 +2722,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            <small class=\"mx-2 fst-italic\">Use a negative added value to record a decrease in the product value</small>"
 msgstr ""
 ")\n"
 "                           <small class=\"mx-2 fst-italic\">Käytä negatiivista lisäarvoa kirjataksesi tuotteen arvon alenemisen</small>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2953,6 +2985,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3298,8 +3333,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Affect landed costs on reception operations and split them among products to"
 " update their cost price."
+=======
+"Affect landed costs on reception operations and split them among products to "
+"update their cost price."
+>>>>>>> upstream/18.0
 =======
 "Affect landed costs on reception operations and split them among products to "
 "update their cost price."
@@ -3779,8 +3819,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Cannot find a stock input account for the product %s. You must define one on"
 " the product category, or on the location, before processing this operation."
+=======
+"Cannot find a stock input account for the product %s. You must define one on "
+"the product category, or on the location, before processing this operation."
+>>>>>>> upstream/18.0
 =======
 "Cannot find a stock input account for the product %s. You must define one on "
 "the product category, or on the location, before processing this operation."
@@ -4286,12 +4331,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Costing method change for product category %(category)s: from %(old_method)s"
 " to %(new_method)s."
 msgstr ""
 "Kustannuslaskentamenetelmän muutos tuoteryhmässä %(category)s: "
 "%(old_method)s-stä %(new_method)s-een."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4546,6 +4594,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4806,12 +4857,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Counterpart journal items for all incoming stock moves will be posted in this account, unless there is a specific valuation account\n"
 "                set on the source location. This is the default value for all products in this category. It can also directly be set on each product."
 msgstr ""
 "Kaikkien saapuvien varastosiirtojen vastapuolen päiväkirjamerkinnät kirjataan tälle tilille, ellei ole olemassa erityistä arvostustiliä\n"
 "                määritetty lähtöpaikassa. Tämä on oletusarvo kaikille tämän luokan tuotteille. Se voidaan määrittää myös suoraan kullekin tuotteelle."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5070,6 +5124,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5404,6 +5461,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Due to a change of product category (from %(old_category)s to "
 "%(new_category)s), the costing method has changed for product %(product)s: "
 "from %(old_method)s to %(new_method)s."
@@ -5412,6 +5470,8 @@ msgstr ""
 "kustannuslaskentamenetelmä on muuttunut tuotteen %(product)s osalta: "
 "%(old_method)s:sta %(new_method)s:ksi."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5668,6 +5728,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5996,7 +6059,11 @@ msgid "Journal Item"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Päiväkirjatapahtuma"
+=======
+msgstr "Päiväkirjamerkintä"
+>>>>>>> upstream/18.0
 =======
 msgstr "Päiväkirjamerkintä"
 >>>>>>> upstream/18.0
@@ -6418,6 +6485,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Manual: The accounting entries to value the inventory are not posted automatically.\n"
 "        Automated: An accounting entry is automatically created to value the inventory when a product enters or leaves the company.\n"
 "        "
@@ -6425,6 +6493,8 @@ msgstr ""
 "Käsikirja: Kirjanpitokirjauksia, joilla inventaario arvostetaan, ei kirjata automaattisesti.\n"
 "        Automaattinen: Kirjanpitokirjaus luodaan automaattisesti varaston arvon määrittämiseksi, kun tuote saapuu tai poistuu yrityksestä.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6684,6 +6754,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6974,11 +7047,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Product %(product)s has quantity in valued location %(location)s without any lot.\n"
 "Please assign lots to all your quantities before enabling lot valuation."
 msgstr ""
 "Tuotetta %(product)s on jonkin verran arvotetussa sijainnissa  %(location)s ilman sille määritettyä sarjaa.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7234,6 +7310,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7522,8 +7601,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Tuotteen arvoa muutettu manuaalisesti (arvosta %(original_price)s arvoon "
 "%(new_price)s)"
+=======
+"Tuotteen arvoa muutettu manuaalisesti (arvosta %(original_price)s arvoon %"
+"(new_price)s)"
+>>>>>>> upstream/18.0
 =======
 "Tuotteen arvoa muutettu manuaalisesti (arvosta %(original_price)s arvoon %"
 "(new_price)s)"
@@ -7975,7 +8059,10 @@ msgstr "Palauta poimintalinja"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8099,6 +8186,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8289,6 +8379,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Standard Price: The products are valued at their standard cost defined on the product.\n"
 "        Average Cost (AVCO): The products are valued at weighted average cost.\n"
 "        First In First Out (FIFO): The products are valued supposing those that enter the company first will also leave it first.\n"
@@ -8298,6 +8389,8 @@ msgstr ""
 "        Keskimääräiset kustannukset (AVCO): Tuotteet arvostetaan painotettuun keskihintaan.\n"
 "        First In First Out (FIFO): Tuotteet arvostetaan olettaen, että tuotteet, jotka tulevat yritykseen ensimmäisenä, myös poistuvat sieltä ensimmäisenä.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8562,6 +8655,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8909,8 +9005,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Kaksikirjaiminen ISO-maaatunnus. \n"
 "Voit hakea tämän kentän avulla nopeasti."
+=======
+"Kaksikirjaiminen ISO-maatunnus. \n"
+"Voit käyttää tätä kenttää pikahakuun."
+>>>>>>> upstream/18.0
 =======
 "Kaksikirjaiminen ISO-maatunnus. \n"
 "Voit käyttää tätä kenttää pikahakuun."
@@ -9375,8 +9476,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Siirtorivit eivät ole johdonmukaisessa tilassa: ne tekevät yritysten välisen"
 " siirron yhdessä vaiheessa, vaikka niiden pitäisi kulkea yritysten välisen "
+=======
+"Siirtorivit eivät ole johdonmukaisessa tilassa: ne tekevät yritysten välisen "
+"siirron yhdessä vaiheessa, vaikka niiden pitäisi kulkea yritysten välisen "
+>>>>>>> upstream/18.0
 =======
 "Siirtorivit eivät ole johdonmukaisessa tilassa: ne tekevät yritysten välisen "
 "siirron yhdessä vaiheessa, vaikka niiden pitäisi kulkea yritysten välisen "
@@ -9827,8 +9933,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Muuton varastoarvostus perustuu lähtö- ja määräpaikan tyyppiin. Koska siirto"
 " on jo käsitelty, et voi muuttaa sijainteja siten, että alkuperäisen "
+=======
+"Muuton varastoarvostus perustuu lähtö- ja määräpaikan tyyppiin. Koska siirto "
+"on jo käsitelty, et voi muuttaa sijainteja siten, että alkuperäisen "
+>>>>>>> upstream/18.0
 =======
 "Muuton varastoarvostus perustuu lähtö- ja määräpaikan tyyppiin. Koska siirto "
 "on jo käsitelty, et voi muuttaa sijainteja siten, että alkuperäisen "
@@ -10259,8 +10370,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Maahantuontikustannusten arvoa voidaan käyttää määrätyn siirron "
 "korjaamiseen."
+=======
+"Maahantuontikustannusten arvoa voidaan käyttää määrätyn siirron korjaamiseen."
+>>>>>>> upstream/18.0
 =======
 "Maahantuontikustannusten arvoa voidaan käyttää määrätyn siirron korjaamiseen."
 >>>>>>> upstream/18.0
@@ -10612,8 +10727,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This operation might lead in a loss of data. Valuation will be identical for"
 " all lots/SN. Do you want to proceed ? "
+=======
+"This operation might lead in a loss of data. Valuation will be identical for "
+"all lots/SN. Do you want to proceed ? "
+>>>>>>> upstream/18.0
 =======
 "This operation might lead in a loss of data. Valuation will be identical for "
 "all lots/SN. Do you want to proceed ? "
@@ -11042,8 +11162,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This product is valuated by lot/serial number. Changing the cost will update"
 " the cost of every lot/serial number in stock."
+=======
+"This product is valuated by lot/serial number. Changing the cost will update "
+"the cost of every lot/serial number in stock."
+>>>>>>> upstream/18.0
 =======
 "This product is valuated by lot/serial number. Changing the cost will update "
 "the cost of every lot/serial number in stock."
@@ -11469,7 +11594,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11642,6 +11770,7 @@ msgid ""
 "This product is valuated by lot: an explicit Lot/Serial number is required "
 "when adding quantity"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11895,6 +12024,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Tämä tuote arvotetaan erän perusteella: sarja- tai eränumero tarvitaan, kun "
 "tuotteen määrää lisätään"
 
@@ -11910,6 +12041,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12052,8 +12186,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Trigger a decrease of the delivered/received quantity in the associated Sale"
 " Order/Purchase Order"
+=======
+"Trigger a decrease of the delivered/received quantity in the associated Sale "
+"Order/Purchase Order"
+>>>>>>> upstream/18.0
 =======
 "Trigger a decrease of the delivered/received quantity in the associated Sale "
 "Order/Purchase Order"
@@ -12581,12 +12720,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Valuation method change for product category %(category)s: from "
 "%(old_method)s to %(new_method)s."
 msgstr ""
 "Arviointimenetelmän muutos tuoteryhmässä %(category)s: %(old_method)s-stä "
 "%(new_method)s-een."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12841,6 +12983,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13119,12 +13264,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Used to value the product when the purchase cost is not known (e.g. inventory adjustment).\n"
 "        Used to compute margins on sale orders."
 msgstr ""
 "Erän arvo (lasketaan automaattisesti AVCO:ssa).\n"
 "        Käytetään tuotteen arvon määrittämiseen, kun ostohintaa ei tiedetä (esim. varaston oikaisu).\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13381,6 +13529,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13652,6 +13803,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "When doing automated inventory valuation, counterpart journal items for all outgoing stock moves will be posted in this account,\n"
 "                unless there is a specific valuation account set on the destination location. This is the default value for all products in this category.\n"
 "                It can also directly be set on each product."
@@ -13659,6 +13811,8 @@ msgstr ""
 "Automaattista varaston arvonmääritystä tehtäessä kaikkien lähtevien varastosiirtojen vastinpäiväkirjaerät kirjataan tälle tilille,\n"
 "                ellei määränpään sijaintipaikalle ole määritetty erityistä arvonmääritystiliä. Tämä on oletusarvo kaikille tämän luokan tuotteille.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13919,6 +14073,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14255,6 +14412,10 @@ msgstr "Ohjattu malli tuotteen varastovaraston uudelleenarviointiin"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: code:addons/stock_account/models/stock_lot.py:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/stock_account/models/stock_lot.py:0
 >>>>>>> upstream/18.0
@@ -14816,8 +14977,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Erän/sarjanumeron perusteella arvostetun tuotteen tuoteryhmää ei voi "
 "muuttaa."
+=======
+"Erän/sarjanumeron perusteella arvostetun tuotteen tuoteryhmää ei voi muuttaa."
+>>>>>>> upstream/18.0
 =======
 "Erän/sarjanumeron perusteella arvostetun tuotteen tuoteryhmää ei voi muuttaa."
 >>>>>>> upstream/18.0
@@ -15166,8 +15331,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Tuotetta, jonka varasto on tyhjä tai negatiivinen, ei voi arvostaa "
 "uudelleen."
+=======
+"Tuotetta, jonka varasto on tyhjä tai negatiivinen, ei voi arvostaa uudelleen."
+>>>>>>> upstream/18.0
 =======
 "Tuotetta, jonka varasto on tyhjä tai negatiivinen, ei voi arvostaa uudelleen."
 >>>>>>> upstream/18.0
@@ -15528,8 +15697,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You don't have any input valuation account defined on your product category."
 " You must define one before processing this operation."
+=======
+"You don't have any input valuation account defined on your product category. "
+"You must define one before processing this operation."
+>>>>>>> upstream/18.0
 =======
 "You don't have any input valuation account defined on your product category. "
 "You must define one before processing this operation."
@@ -15968,8 +16142,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You don't have any stock input account defined on your product category. You"
 " must define one before processing this operation."
+=======
+"You don't have any stock input account defined on your product category. You "
+"must define one before processing this operation."
+>>>>>>> upstream/18.0
 =======
 "You don't have any stock input account defined on your product category. You "
 "must define one before processing this operation."
@@ -16410,8 +16589,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You don't have any stock valuation account defined on your product category."
 " You must define one before processing this operation."
+=======
+"You don't have any stock valuation account defined on your product category. "
+"You must define one before processing this operation."
+>>>>>>> upstream/18.0
 =======
 "You don't have any stock valuation account defined on your product category. "
 "You must define one before processing this operation."

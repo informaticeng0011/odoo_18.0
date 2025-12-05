@@ -179,6 +179,7 @@ paymentExpressCheckoutForm.include({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             const availableCarriers = await rpc(
                 this.paymentContext['shippingAddressUpdateRoute'],
                 {partial_delivery_address: expressDeliveryAddress},
@@ -186,6 +187,8 @@ paymentExpressCheckoutForm.include({
             if (availableCarriers.length > 0) {
                 const id = parseInt(availableCarriers[0].id);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -555,6 +558,9 @@ paymentExpressCheckoutForm.include({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

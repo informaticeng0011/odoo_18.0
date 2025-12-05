@@ -140,7 +140,10 @@ export function addColumns(
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 export function addRows(
     model,
     position,
@@ -157,6 +160,9 @@ export function addRows(
     });
 }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 /**
  * Delete columns

@@ -136,6 +136,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'purchase/static/src/scss/purchase_portal.scss',
+>>>>>>> upstream/18.0
 =======
             'purchase/static/src/scss/purchase_portal.scss',
 >>>>>>> upstream/18.0

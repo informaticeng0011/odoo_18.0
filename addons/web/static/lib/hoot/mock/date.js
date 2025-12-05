@@ -174,12 +174,15 @@ const { DateTimeFormat, Locale } = Intl;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const computeTimeZoneOffset = (baseDate) => {
     const utcDate = new Date(baseDate.toLocaleString(DEFAULT_LOCALE, { timeZone: "UTC" }));
     const tzDate = new Date(baseDate.toLocaleString(DEFAULT_LOCALE, { timeZone: timeZoneName }));
     return (utcDate - tzDate) / 60_000; // in minutes
 };
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -617,6 +620,9 @@ function computeTimeZoneOffset(baseDate) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -910,6 +916,7 @@ function computeTimeZoneOffset(baseDate) {
 /**
  * @param {number} id
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1350,6 +1357,8 @@ const getTimeStampDiff = () => (isTimeFrozen() ? 0 : $now() - dateTimeStamp);
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 function getDateParams() {
     return [...dateParams.slice(0, -1), dateParams.at(-1) + getTimeStampDiff() + getTimeOffset()];
 }
@@ -1501,6 +1510,9 @@ function getTimeStampDiff() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1939,7 +1951,11 @@ function getTimeStampDiff() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const parseDateParams = (dateSpecs) => {
+=======
+function parseDateParams(dateSpecs) {
+>>>>>>> upstream/18.0
 =======
 function parseDateParams(dateSpecs) {
 >>>>>>> upstream/18.0
@@ -2532,7 +2548,11 @@ function parseDateParams(dateSpecs) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -3117,7 +3137,11 @@ function parseDateParams(dateSpecs) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const setDateParams = (newDateParams) => {
+=======
+function setDateParams(newDateParams) {
+>>>>>>> upstream/18.0
 =======
 function setDateParams(newDateParams) {
 >>>>>>> upstream/18.0
@@ -3702,7 +3726,11 @@ function setDateParams(newDateParams) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -4287,7 +4315,11 @@ function setDateParams(newDateParams) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const setTimeZone = (tz) => {
+=======
+function setTimeZone(tz) {
+>>>>>>> upstream/18.0
 =======
 function setTimeZone(tz) {
 >>>>>>> upstream/18.0
@@ -4889,7 +4921,11 @@ function setTimeZone(tz) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -5418,7 +5454,10 @@ class MockDateTimeFormat extends DateTimeFormat {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5673,6 +5712,9 @@ class MockDateTimeFormat extends DateTimeFormat {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5942,7 +5984,11 @@ export function cleanupDate() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @param  {string | number | null} [tz]
+=======
+ * @param {string | number | null} [tz]
+>>>>>>> upstream/18.0
 =======
  * @param {string | number | null} [tz]
 >>>>>>> upstream/18.0
