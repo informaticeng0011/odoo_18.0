@@ -56,7 +56,10 @@ patch(Thread.prototype, {
         }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         if (this.model === "mail.box") {
@@ -72,6 +75,9 @@ patch(Thread.prototype, {
             return;
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

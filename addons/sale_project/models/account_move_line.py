@@ -183,7 +183,11 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 for key in line.analytic_distribution
+=======
+                for key in line.analytic_distribution or []
+>>>>>>> upstream/18.0
 =======
                 for key in line.analytic_distribution or []
 >>>>>>> upstream/18.0

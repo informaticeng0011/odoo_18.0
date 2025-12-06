@@ -20,7 +20,11 @@
                     muted="thread.mute_until_dt ? 2 : !thread.isUnread ? 1 : 0"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     onClick="(isMarkAsRead) => this.onClickThread(isMarkAsRead, thread)"
+=======
+                    onClick="(isMarkAsRead) => this.onClickThread(isMarkAsRead, thread, message)"
+>>>>>>> upstream/18.0
 =======
                     onClick="(isMarkAsRead) => this.onClickThread(isMarkAsRead, thread, message)"
 >>>>>>> upstream/18.0

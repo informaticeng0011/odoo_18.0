@@ -6,7 +6,11 @@ class ResPartner(models.Model):
     _inherit = ['res.partner']
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     @api.constrains('company_registry')
+=======
+    @api.constrains('company_registry', 'country_id')
+>>>>>>> upstream/18.0
 =======
     @api.constrains('company_registry', 'country_id')
 >>>>>>> upstream/18.0

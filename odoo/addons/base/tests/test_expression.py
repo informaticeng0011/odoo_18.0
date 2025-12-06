@@ -1086,8 +1086,11 @@ class TestExpression(SavepointCaseWithUserDemo, TransactionExpressionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         with self.assertRaisesRegex(ValueError, r"^stray % in format '%'$"):
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1344,6 +1347,9 @@ class TestExpression(SavepointCaseWithUserDemo, TransactionExpressionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

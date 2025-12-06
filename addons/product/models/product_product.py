@@ -10,6 +10,10 @@ from odoo.osv import expression
 from odoo.tools import float_compare, format_list, groupby
 from odoo.tools.image import is_image_size_above
 from odoo.tools.misc import unique
+<<<<<<< HEAD
+=======
+from odoo.tools.sql import SQL
+>>>>>>> upstream/18.0
 
 
 class ProductProduct(models.Model):
@@ -157,8 +161,14 @@ class ProductProduct(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for record in self:
             record.write_date = max(record.write_date or self.env.cr.now(), record.product_tmpl_id.write_date)
+=======
+        now = self.env.cr.now()
+        for record in self:
+            record.write_date = max(record.write_date or now, record.product_tmpl_id.write_date or now)
+>>>>>>> upstream/18.0
 =======
         now = self.env.cr.now()
         for record in self:
@@ -598,6 +608,7 @@ class ProductProduct(models.Model):
     @api.model
     def _search_display_name(self, operator, value):
         is_positive = operator not in expression.NEGATIVE_TERM_OPERATORS
+<<<<<<< HEAD
         combine = expression.OR if is_positive else expression.AND
         domains = [
             [('name', operator, value)],
@@ -608,6 +619,18 @@ class ProductProduct(models.Model):
             domains.append([('barcode', 'in', barcode_values)])
         if operator == '=' and isinstance(value, str) and (m := re.search(r'(\[(.*?)\])', value)):
             domains.append([('default_code', '=', m.group(2))])
+=======
+        template_domains = [[('name', operator, value)]]
+        product_domains = [[('default_code', operator, value)]]
+
+        if operator in ('=', 'in') or (operator.endswith('like') and is_positive):
+            barcode_values = [value] if operator != 'in' else value
+            product_domains.append([('barcode', 'in', barcode_values)])
+        if operator == '=' and isinstance(value, str) and (m := re.search(r'(\[(.*?)\])', value)):
+            product_domains.append([('default_code', '=', m.group(2))])
+
+        supplier_domain = []
+>>>>>>> upstream/18.0
         if partner_id := self.env.context.get('partner_id'):
             supplier_domain = [
                 ('partner_id', '=', partner_id),
@@ -615,8 +638,45 @@ class ProductProduct(models.Model):
                 ('product_code', operator, value),
                 ('product_name', operator, value),
             ]
+<<<<<<< HEAD
             domains.append([('product_tmpl_id.seller_ids', 'any', supplier_domain)])
         return combine(domains)
+=======
+
+        # AND clauses properly hit indexes so no need for custom sql in this case.
+        if operator in expression.NEGATIVE_TERM_OPERATORS:
+            domains = template_domains + product_domains
+            if supplier_domain:
+                domains.append([('product_tmpl_id.seller_ids', 'any', supplier_domain)])
+            return expression.AND(domains)
+
+        # Disable active_test to simplify subqueries
+        self_no_active_test = self.with_context(active_test=False)
+        queries = [
+            self_no_active_test._search([
+                ('product_tmpl_id', 'in', self_no_active_test.env['product.template']._search(expression.OR(template_domains)))
+            ]),
+            self_no_active_test._search(expression.OR(product_domains)),
+        ]
+        if supplier_domain:
+            queries.append(
+                self_no_active_test._search([
+                    (
+                        'product_tmpl_id',
+                        'in',
+                        self_no_active_test.env['product.supplierinfo']._search(supplier_domain).subselect('product_tmpl_id'),
+                    )
+                ])
+            )
+        query = SQL(
+            """(%s)""",
+            SQL("UNION ALL").join(
+                [SQL("(%s)", query.select()) for query in queries]
+            )
+        )
+
+        return [('id', 'in', query)]
+>>>>>>> upstream/18.0
 
     @api.model
     def name_search(self, name='', args=None, operator='ilike', limit=100):
@@ -778,7 +838,12 @@ class ProductProduct(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     products |= self.search_fetch(expression.AND([domain, [('id', 'not in', products.ids)], [('name', operator, name)]]), ['display_name'], limit=limit_rest)
+=======
+                    products_query = self._search(expression.AND([domain, [('default_code', operator, name)]]), limit=limit)
+                    products |= self.search_fetch(expression.AND([domain, [('id', 'not in', products_query)], [('name', operator, name)]]), ['display_name'], limit=limit_rest)
+>>>>>>> upstream/18.0
 =======
                     products_query = self._search(expression.AND([domain, [('default_code', operator, name)]]), limit=limit)
                     products |= self.search_fetch(expression.AND([domain, [('id', 'not in', products_query)], [('name', operator, name)]]), ['display_name'], limit=limit_rest)
@@ -1560,8 +1625,11 @@ class ProductProduct(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'price_discounted': record.currency_id._convert(record.price_discounted, record.env.company.currency_id, record.env.company, date or fields.Date.context_today(self))
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1881,6 +1949,9 @@ class ProductProduct(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

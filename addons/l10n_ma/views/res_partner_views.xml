@@ -6,6 +6,12 @@
         <field name="inherit_id" ref="account.view_partner_property_form"/>
         <field name="arch" type="xml">
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            <xpath expr="//field[@name='company_registry']" position="attributes">
+                <attribute name="invisible" add="country_code == 'MA'" separator=" or "/>
+            </xpath>
+>>>>>>> upstream/18.0
 =======
             <xpath expr="//field[@name='company_registry']" position="attributes">
                 <attribute name="invisible" add="country_code == 'MA'" separator=" or "/>

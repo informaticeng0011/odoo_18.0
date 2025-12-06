@@ -172,6 +172,10 @@ export class Composer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.root = useRef("root");
+>>>>>>> upstream/18.0
 =======
         this.root = useRef("root");
 >>>>>>> upstream/18.0
@@ -510,8 +514,11 @@ export class Composer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     this.ref.el.style.height = this.fakeTextarea.el.scrollHeight + "px";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -815,6 +822,9 @@ export class Composer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1196,6 +1206,10 @@ export class Composer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        ev.preventDefault();
+>>>>>>> upstream/18.0
 =======
         ev.preventDefault();
 >>>>>>> upstream/18.0
@@ -1850,7 +1864,11 @@ export class Composer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if (this.isMobileOS) {
+=======
+                if (this.isMobileOS || ev.isComposing) {
+>>>>>>> upstream/18.0
 =======
                 if (this.isMobileOS || ev.isComposing) {
 >>>>>>> upstream/18.0
@@ -2310,7 +2328,11 @@ export class Composer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.props.composer.emailAddSignature ? markup(this.store.self.signature) : ""
+=======
+            this.props.composer.emailAddSignature ? this.thread.effectiveSelf.signature : ""
+>>>>>>> upstream/18.0
 =======
             this.props.composer.emailAddSignature ? this.thread.effectiveSelf.signature : ""
 >>>>>>> upstream/18.0
@@ -2851,6 +2873,7 @@ export class Composer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const attachments = this.props.composer.attachments;
         if (attachments.some(({ uploading }) => uploading)) {
             this.env.services.notification.add(_t("Please wait while the file is uploading."), {
@@ -2862,6 +2885,8 @@ export class Composer extends Component {
             (this.message && this.message.attachment_ids.length > 0)
         ) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3041,6 +3066,9 @@ export class Composer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3231,7 +3259,10 @@ export class Composer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3414,6 +3445,9 @@ export class Composer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3649,7 +3683,11 @@ export class Composer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (composer.text || composer.message.attachment_ids.length > 0) {
+=======
+        if (!this.askDeleteFromEdit) {
+>>>>>>> upstream/18.0
 =======
         if (!this.askDeleteFromEdit) {
 >>>>>>> upstream/18.0
@@ -3893,12 +3931,15 @@ export class Composer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.env.services.dialog.add(MessageConfirmDialog, {
                 message: composer.message,
                 onConfirm: () => this.message.remove(),
                 prompt: _t("Are you sure you want to delete this message?"),
             });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4044,7 +4085,13 @@ export class Composer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     onConfirm: () => this.message.remove(),
+=======
+                    onConfirm: this.message.remove({
+                        removeFromThread: this.shouldHideFromMessageListOnDelete,
+                    }),
+>>>>>>> upstream/18.0
 =======
                     onConfirm: this.message.remove({
                         removeFromThread: this.shouldHideFromMessageListOnDelete,
@@ -4232,6 +4279,9 @@ export class Composer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4412,7 +4462,10 @@ export class Composer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4592,6 +4645,9 @@ export class Composer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4792,7 +4848,10 @@ export class Composer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4869,6 +4928,9 @@ export class Composer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

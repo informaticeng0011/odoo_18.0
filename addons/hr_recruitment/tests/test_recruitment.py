@@ -1,6 +1,10 @@
 # -*- coding: utf-8 -*-
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
+<<<<<<< HEAD
+=======
+from odoo.fields import Date
+>>>>>>> upstream/18.0
 from odoo.tests import tagged, TransactionCase
 
 @tagged('recruitment')
@@ -230,7 +234,10 @@ class TestRecruitment(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -326,6 +333,7 @@ class TestRecruitment(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -382,4 +390,46 @@ class TestRecruitment(TransactionCase):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+    def test_job_overdue_activities(self):
+        job = self.env["hr.job"].create({
+            "name": "Test Job",
+        })
+        stage = self.env['hr.recruitment.stage'].create({
+            'name': 'New',
+            'sequence': 0,
+            'hired_stage': False,
+        })
+        candidate = self.env['hr.candidate'].create({
+            'partner_name': 'Test Candidate',
+            'company_id': self.env.user.company_id.id
+        })
+        applicant = self.env["hr.applicant"].create({
+            'candidate_id': candidate.id,
+            "job_id": job.id,
+            "stage_id": stage.id,
+        })
+        self.assertEqual(job.activities_today, 0)
+        persistent_activity_type = self.env["mail.activity.type"].create({
+            "name": "Persistent Activity",
+            "keep_done": True,
+        })
+        activity = self.env["mail.activity"].create({
+            "activity_type_id": persistent_activity_type.id,
+            "date_deadline": Date.today(),
+            "res_id": applicant.id,
+            "res_model_id": self.env["ir.model"]._get_id("hr.applicant"),
+            "user_id": self.env.user.id,
+        })
+        job._compute_activities()
+        self.assertEqual(job.activities_today, 1)
+
+        activity.action_feedback()
+        self.assertFalse(activity.active)
+        self.env.cr.flush()
+
+        job._compute_activities()
+        self.assertEqual(job.activities_today, 0)
 >>>>>>> upstream/18.0

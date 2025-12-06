@@ -104,6 +104,10 @@ const GROUPED_STYLES = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        "border-top-color", "border-right-color", "border-bottom-color", "border-left-color",
+>>>>>>> upstream/18.0
 =======
         "border-top-color", "border-right-color", "border-bottom-color", "border-left-color",
 >>>>>>> upstream/18.0
@@ -551,7 +555,11 @@ function bootstrapToTable(editable) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const containers = editable.querySelectorAll('.container, .container-fluid, .o_fake_table');
+=======
+    const containers = editable.querySelectorAll('.container, .container-fluid, .o_fake_table, .o_text_columns');
+>>>>>>> upstream/18.0
 =======
     const containers = editable.querySelectorAll('.container, .container-fluid, .o_fake_table, .o_text_columns');
 >>>>>>> upstream/18.0
@@ -1086,7 +1094,11 @@ function bootstrapToTable(editable) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             const colSize = Math.max(1, Math.round((12 - colTotalSize) / flexColumns.length));
+=======
+            const colSize = Math.max(1, Math.floor((12 - (colTotalSize)) / flexColumns.length));
+>>>>>>> upstream/18.0
 =======
             const colSize = Math.max(1, Math.floor((12 - (colTotalSize)) / flexColumns.length));
 >>>>>>> upstream/18.0
@@ -1894,7 +1906,10 @@ export async function toInline($editable, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2075,6 +2090,9 @@ export async function toInline($editable, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3256,8 +3274,11 @@ function _hideForOutlook(node, onlyHideTag = false) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         node.setAttribute('style', `${node.getAttribute('style') || ''} mso-hide: all;`.trim());
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3470,6 +3491,9 @@ function _hideForOutlook(node, onlyHideTag = false) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3797,8 +3821,11 @@ function correctBorderAttributes(style) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     return style;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4010,6 +4037,9 @@ function correctBorderAttributes(style) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

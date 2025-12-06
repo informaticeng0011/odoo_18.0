@@ -37,7 +37,10 @@
         <!-- Remove the mimetype on the second line. -->
         <xpath expr="//div[hasclass('caption', 'small')]" position="replace"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         <!-- Set float left to add an icon on the right. -->
         <xpath expr="//div[@name='attachment']" position="attributes">
             <attribute name="t-attf-class"
@@ -50,6 +53,9 @@
                 <i class="fa fa-fw o_button_icon fa-warning" t-att-data-tooltip="file.tooltip"></i>
             </div>
         </xpath>
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     </t>
 

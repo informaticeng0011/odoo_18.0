@@ -8,6 +8,10 @@
             <form>
                 <field name="move_id" invisible="1"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                <field name="attachments_not_supported" invisible="1"/>
+>>>>>>> upstream/18.0
 =======
                 <field name="attachments_not_supported" invisible="1"/>
 >>>>>>> upstream/18.0
@@ -54,6 +58,7 @@
                     <group>
                         <group>
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <field name="mail_attachments_widget"
                                    widget="mail_attachments"
                                    string="Attach a file"
@@ -61,6 +66,8 @@
                                    colspan="2"/>
                         </group>
                         <group>
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                             <field name="mail_template_id"
@@ -71,7 +78,10 @@
                 </div>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
                 <field name="mail_attachments_widget"
                        widget="mail_attachments"
                        string="Attach a file"
@@ -79,6 +89,9 @@
                        colspan="2"
                        invisible="not display_attachments_widget"/>
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 <footer>
                     <button string="Send"

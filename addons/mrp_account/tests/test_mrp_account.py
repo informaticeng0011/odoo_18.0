@@ -3,6 +3,10 @@
 
 from datetime import timedelta
 
+<<<<<<< HEAD
+=======
+from odoo.addons.mail.tests.common import MailCase
+>>>>>>> upstream/18.0
 from odoo.addons.mrp.tests.common import TestMrpCommon
 from odoo.addons.stock_account.tests.test_account_move import TestAccountMoveStockCommon
 from odoo.tests import Form, tagged
@@ -10,7 +14,11 @@ from odoo.tests.common import new_test_user
 from odoo import fields, Command
 
 
+<<<<<<< HEAD
 class TestMrpAccount(TestMrpCommon):
+=======
+class TestMrpAccount(TestMrpCommon, MailCase):
+>>>>>>> upstream/18.0
 
     @classmethod
     def setUpClass(cls):
@@ -286,8 +294,12 @@ class TestMrpAccount(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         """ Unbuild orders, when supplied with a specific MO record, should restrict their SVL
         consumption to layers linked to moves originating from that MO record.
+=======
+        """ Valuation of unbuild orders for products valuated via FIFO should adhere to FIFO
+>>>>>>> upstream/18.0
 =======
         """ Valuation of unbuild orders for products valuated via FIFO should adhere to FIFO
 >>>>>>> upstream/18.0
@@ -695,11 +707,14 @@ class TestMrpAccount(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 {'remaining_qty': 1.0, 'value': 1.0, 'quantity': 1.0},
                 {'remaining_qty': 0.0, 'value': 2.0, 'quantity': 1.0},
                 # Unbuild SVL value is derived from MO_2, as precised on the unbuild form
                 {'remaining_qty': 0.0, 'value': -2.0, 'quantity': -1.0},
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -956,6 +971,9 @@ class TestMrpAccount(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1227,6 +1245,7 @@ class TestMrpAccount(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 {'remaining_qty': 0.0, 'value': 1.0, 'quantity': 1.0},
                 {'remaining_qty': 0.0, 'value': 2.0, 'quantity': 1.0},
                 {'remaining_qty': 0.0, 'value': -2.0, 'quantity': -1.0},
@@ -1236,6 +1255,8 @@ class TestMrpAccount(TestMrpCommon):
         )
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1494,6 +1515,7 @@ class TestMrpAccount(TestMrpCommon):
             0.01, 0.01
         ])
 
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1747,6 +1769,47 @@ class TestMrpAccount(TestMrpCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+    def test_parent_after_child_done(self):
+        """
+        Test the parent mo & workorder states after child has been marked as done
+        """
+        workcenter = self.env['mrp.workcenter'].search([], limit=1)
+        parent, child = self.env['product.product'].create([{
+            'name': n,
+            'is_storable': True,
+        } for n in ['parent', 'child']])
+        self.env['mrp.bom'].create([{
+            'product_tmpl_id': parent.product_tmpl_id.id,
+            'product_qty': 1,
+            'type': 'normal',
+            'bom_line_ids': [
+                (0, 0, {'product_id': child.id, 'product_qty': 1}),
+            ],
+            'operation_ids': [
+                (0, 0, {'name': 'op', 'workcenter_id': workcenter.id}),
+            ]
+        }])
+        self.env['mrp.bom'].create([{
+            'product_tmpl_id': child.product_tmpl_id.id,
+            'product_qty': 1,
+            'type': 'normal',
+        }])
+        parent_mo = self.env['mrp.production'].create({'product_id': parent.id})
+        parent_mo.action_confirm()  # state: confirmed,  reservation_state: confirmed, workorder_ids.state: waiting
+        self.assertEqual(parent_mo.reservation_state, 'confirmed')
+        self.assertEqual(parent_mo.workorder_ids.state, 'waiting')
+        child_mo = self.env['mrp.production'].create({'product_id': child.id})
+        child_mo.action_confirm()
+        self.assertEqual(child_mo.reservation_state, 'assigned')
+        # flush_tracking & with_context needed to be in the same situation as in the user interface
+        self.flush_tracking()
+        child_mo.with_context({'tracking_disable': False, 'mail_notrack': False}).button_mark_done()
+        self.assertEqual(parent_mo.reservation_state, 'assigned')
+        self.assertEqual(parent_mo.workorder_ids.state, 'ready')
+
+
 >>>>>>> upstream/18.0
 @tagged("post_install", "-at_install")
 class TestMrpAccountMove(TestAccountMoveStockCommon):
@@ -2167,7 +2230,11 @@ class TestMrpAccountMove(TestAccountMoveStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(workorder._cal_cost(), 0.005)  # 2 seconds at $10/h
+=======
+        self.assertEqual(workorder._cal_cost(), (2 / 3600) * 10)  # 2 seconds at $10/h
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(workorder._cal_cost(), (2 / 3600) * 10)  # 2 seconds at $10/h
 >>>>>>> upstream/18.0
@@ -2720,7 +2787,11 @@ class TestMrpAccountMove(TestAccountMoveStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(workorder._cal_cost(), 0.01)  # 2 seconds at $20/h
+=======
+        self.assertEqual(workorder._cal_cost(), (2 / 3600) * 20)  # 2 seconds at $20/h
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(workorder._cal_cost(), (2 / 3600) * 20)  # 2 seconds at $20/h
 >>>>>>> upstream/18.0

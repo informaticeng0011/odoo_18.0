@@ -145,10 +145,17 @@ export class MassMailingWysiwyg extends Wysiwyg {
      * @override
      */
     async _insertSnippetMenu() {
+<<<<<<< HEAD
         const res = await super._insertSnippetMenu();
         // Hide the snippetsMenu at first, other code will handle
         // if it should be shown or not.
         this.state.snippetsMenuFolded = true;
+=======
+        // Hide the snippetsMenu at first, other code will handle
+        // if it should be shown or not.
+        this.state.snippetsMenuFolded = true;
+        const res = await super._insertSnippetMenu();
+>>>>>>> upstream/18.0
         return res;
     }
     /**
@@ -287,7 +294,12 @@ export class MassMailingWysiwyg extends Wysiwyg {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const finalOptions = { ...options, autoActivateContentEditable: false, allowCommandVideo: false };
+=======
+        const direction = options.document.body.matches(".o_rtl") ? "rtl" : "ltr" ;
+        const finalOptions = { ...options, autoActivateContentEditable: false, allowCommandVideo: false, direction: direction };
+>>>>>>> upstream/18.0
 =======
         const direction = options.document.body.matches(".o_rtl") ? "rtl" : "ltr" ;
         const finalOptions = { ...options, autoActivateContentEditable: false, allowCommandVideo: false, direction: direction };

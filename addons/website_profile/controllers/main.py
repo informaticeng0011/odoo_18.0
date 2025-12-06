@@ -372,6 +372,10 @@ class WebsiteProfile(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        request.session['validation_email_sent'] = False
+>>>>>>> upstream/18.0
 =======
         request.session['validation_email_sent'] = False
 >>>>>>> upstream/18.0

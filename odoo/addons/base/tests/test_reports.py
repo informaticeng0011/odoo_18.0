@@ -556,7 +556,10 @@ class TestReportsRendering(TestReportsRenderingCommon):
         self.assertEqual(pages_contents, expected_pages_contents)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_report_specific_paperformat_args(self):
         """
             Verify that the values defined in `specific_paperformat_args` take
@@ -597,6 +600,9 @@ class TestReportsRendering(TestReportsRenderingCommon):
             '--orientation', 'landscape',
         ])
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 @odoo.tests.tagged('post_install', '-at_install', '-standard', 'pdf_rendering')

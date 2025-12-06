@@ -147,6 +147,7 @@ import { describe, expect, test } from "@odoo/hoot";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { isIterable, isRegExpFilter } from "@web/../lib/hoot-dom/hoot_dom_utils";
 =======
 import { isIterable } from "@web/../lib/hoot-dom/hoot_dom_utils";
@@ -559,6 +560,8 @@ import {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 import { queryOne } from "@odoo/hoot-dom";
 import { isInstanceOf, isIterable } from "@web/../lib/hoot-dom/hoot_dom_utils";
 import {
@@ -618,6 +621,9 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -736,6 +742,7 @@ import {
     levenshtein,
     lookup,
     match,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1351,10 +1358,15 @@ import { parseUrl } from "./local_helpers";
     parseQuery,
     S_CIRCULAR,
 >>>>>>> upstream/18.0
+=======
+    parseQuery,
+    S_CIRCULAR,
+>>>>>>> upstream/18.0
     title,
     toExplicitString,
 } from "../hoot_utils";
 import { mountForTest, parseUrl } from "./local_helpers";
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1613,6 +1625,8 @@ describe(parseUrl(import.meta.url), () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 
 const recursive = {};
 recursive.self = recursive;
@@ -1687,6 +1701,9 @@ describe(parseUrl(import.meta.url), () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1971,7 +1988,11 @@ describe(parseUrl(import.meta.url), () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 message: (_, r) => [a, r`==`, b],
+=======
+                message: [a, `==`, b],
+>>>>>>> upstream/18.0
 =======
                 message: [a, `==`, b],
 >>>>>>> upstream/18.0
@@ -2412,7 +2433,11 @@ describe(parseUrl(import.meta.url), () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 message: (_, r) => [a, r`!=`, b],
+=======
+                message: [a, `!=`, b],
+>>>>>>> upstream/18.0
 =======
                 message: [a, `!=`, b],
 >>>>>>> upstream/18.0
@@ -2853,11 +2878,14 @@ describe(parseUrl(import.meta.url), () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 message: (_, r) => [a, r`!=`, b],
             });
             expect(deepEqual(a, b, { ignoreOrder: true })).toBe(true, {
                 message: (_, r) => [a, r`==`, b, r`(unordered))`],
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3186,6 +3214,9 @@ describe(parseUrl(import.meta.url), () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3562,6 +3593,10 @@ describe(parseUrl(import.meta.url), () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                [Symbol("s")]: "value",
+>>>>>>> upstream/18.0
 =======
                 [Symbol("s")]: "value",
 >>>>>>> upstream/18.0
@@ -3956,6 +3991,10 @@ describe(parseUrl(import.meta.url), () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  Symbol(s): "value",
+>>>>>>> upstream/18.0
 =======
   Symbol(s): "value",
 >>>>>>> upstream/18.0
@@ -4371,7 +4410,10 @@ describe(parseUrl(import.meta.url), () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4660,6 +4702,9 @@ describe(parseUrl(import.meta.url), () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4838,6 +4883,7 @@ describe(parseUrl(import.meta.url), () => {
         expect(isIterable({})).toBe(false);
     });
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5284,6 +5330,8 @@ describe(parseUrl(import.meta.url), () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     test("levenshtein", () => {
         expect(levenshtein("abc", "abc")).toBe(0);
         expect(levenshtein("abc", "àbc ")).toBe(2);
@@ -5291,6 +5339,7 @@ describe(parseUrl(import.meta.url), () => {
         expect(levenshtein("abc", "adc")).toBe(1);
     });
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5732,6 +5781,8 @@ describe(parseUrl(import.meta.url), () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     test("parseQuery & lookup", () => {
         /**
          * @param {string} query
@@ -5857,7 +5908,11 @@ describe(parseUrl(import.meta.url), () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         { message: (_, r) => [r`query`, query, r`should match`, expected] }
+=======
+                        { message: `query ${query} should match ${expected}` }
+>>>>>>> upstream/18.0
 =======
                         { message: `query ${query} should match ${expected}` }
 >>>>>>> upstream/18.0
@@ -6383,6 +6438,9 @@ describe(parseUrl(import.meta.url), () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

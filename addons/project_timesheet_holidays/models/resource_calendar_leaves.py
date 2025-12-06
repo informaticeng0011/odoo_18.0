@@ -102,7 +102,13 @@ class ResourceCalendarLeaves(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             calendars += self.env['resource.calendar'].search([('company_id', 'in', leaves_wo_calendar.company_id.ids)])
+=======
+            calendars += self.env['resource.calendar'].search([
+                ('company_id', 'in', leaves_wo_calendar.company_id.ids + [False]),
+            ])
+>>>>>>> upstream/18.0
 =======
             calendars += self.env['resource.calendar'].search([
                 ('company_id', 'in', leaves_wo_calendar.company_id.ids + [False]),
@@ -663,7 +669,11 @@ class ResourceCalendarLeaves(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if calendars_dict[calendar_id].company_id != company:
+=======
+                if (calendar_company := calendars_dict[calendar_id].company_id) and calendar_company != company:
+>>>>>>> upstream/18.0
 =======
                 if (calendar_company := calendars_dict[calendar_id].company_id) and calendar_company != company:
 >>>>>>> upstream/18.0
@@ -1168,7 +1178,10 @@ class ResourceCalendarLeaves(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1435,6 +1448,9 @@ class ResourceCalendarLeaves(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1698,6 +1714,10 @@ class ResourceCalendarLeaves(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        overlapping_leaves = self.env['hr.leave']
+>>>>>>> upstream/18.0
 =======
         overlapping_leaves = self.env['hr.leave']
 >>>>>>> upstream/18.0
@@ -2044,10 +2064,13 @@ class ResourceCalendarLeaves(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         result = super(ResourceCalendarLeaves, self).write(vals)
         global_time_off_updated and global_time_off_updated.sudo()._generate_timesheeets()
         return result
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2319,6 +2342,9 @@ class ResourceCalendarLeaves(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

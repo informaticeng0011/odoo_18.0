@@ -23,8 +23,11 @@ export class MailAttachments extends Component {
 
     getValue(){
 <<<<<<< HEAD
+<<<<<<< HEAD
         return this.props.record.data[this.props.name] || [];
 =======
+=======
+>>>>>>> upstream/18.0
         const attachments = this.props.record.data[this.props.name] || [];
         const attachmentsNotSupported = this.props.record.data.attachments_not_supported || {};
         for (const attachment of attachments) {
@@ -33,6 +36,9 @@ export class MailAttachments extends Component {
             }
         }
         return attachments;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     }
 
@@ -45,12 +51,18 @@ export class MailAttachments extends Component {
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     get iconsSupported() {
         // Technical getter to display icons in view
         return this.getValue().some(attachment => !!attachment.tooltip);
     }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     onFileUploaded(files) {
         let extraFiles = [];
