@@ -118,6 +118,10 @@ registry.category("web_tour.tours").add('shop_sale_loyalty', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -554,6 +558,10 @@ registry.category("web_tour.tours").add('shop_sale_loyalty', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -1004,8 +1012,14 @@ registry.category("web_tour.tours").add('shop_sale_loyalty', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         },
             ...tourUtils.addToCart({productName: "Taxed Product"}),
+=======
+            expectUnloadPage: true,
+        },
+        ...tourUtils.addToCart({ productName: "Taxed Product", expectUnloadPage: true }),
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
         },
@@ -1665,6 +1679,10 @@ registry.category("web_tour.tours").add('shop_sale_loyalty', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0

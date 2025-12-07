@@ -427,7 +427,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <field name="update_path" widget="DynamicModelFieldSelectorChar" class="oe_inline" options="{'model': 'model_name'}"/>
+=======
+                            <field name="update_path" widget="DynamicModelFieldSelectorChar" class="oe_inline" options="{'model': 'model_name'}" required="state == 'object_write'"/>
+>>>>>>> upstream/18.0
 =======
                             <field name="update_path" widget="DynamicModelFieldSelectorChar" class="oe_inline" options="{'model': 'model_name'}" required="state == 'object_write'"/>
 >>>>>>> upstream/18.0

@@ -8,6 +8,7 @@
             <xpath expr="//field[@name='company_registry']" position="attributes">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <attribute name="nolabel">1</attribute>
             </xpath>
             <field name="company_registry" position="before">
@@ -17,12 +18,17 @@
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 <attribute name="invisible" add="country_code == 'MA'" separator=" or "/>
             </xpath>
             <xpath expr="//field[@name='company_registry']" position="after">
                 <field name="company_registry" string="ICE" invisible="country_code != 'MA'"/>
             </xpath>
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

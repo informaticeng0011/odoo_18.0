@@ -78,7 +78,10 @@ _always_safe_chars = (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "$!'()*+,;"  # RFC3986 sub-delims set, not including query string delimiters &=
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

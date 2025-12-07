@@ -165,6 +165,7 @@ import { expect, test } from "@odoo/hoot";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { setupEditor, testEditor } from "../_helpers/editor";
 import { getContent, setSelection } from "../_helpers/selection";
 import { s, span } from "../_helpers/tags";
@@ -702,6 +703,11 @@ import { tick } from "@odoo/hoot-mock";
 import { press } from "@odoo/hoot-dom";
 import { patchWithCleanup } from "@web/../tests/web_test_helpers";
 >>>>>>> upstream/18.0
+=======
+import { tick } from "@odoo/hoot-mock";
+import { press } from "@odoo/hoot-dom";
+import { patchWithCleanup } from "@web/../tests/web_test_helpers";
+>>>>>>> upstream/18.0
 import { setupEditor, testEditor } from "../_helpers/editor";
 import { getContent, setSelection } from "../_helpers/selection";
 import { s, span } from "../_helpers/tags";
@@ -710,6 +716,7 @@ import {
     strikeThrough,
     tripleClick,
     simulateArrowKeyPress,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1072,6 +1079,10 @@ import {
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+    undo,
+} from "../_helpers/user_actions";
 >>>>>>> upstream/18.0
 =======
     undo,
@@ -1527,8 +1538,11 @@ test("should make a whole heading strikeThrough after a triple click", async () 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         stepFunction: strikeThrough,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1788,6 +1802,9 @@ test("should make a whole heading strikeThrough after a triple click", async () 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2235,8 +2252,12 @@ test("should make a few characters strikeThrough inside table (strikeThrough)", 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             </table>`
         ),
+=======
+            </table>`),
+>>>>>>> upstream/18.0
 =======
             </table>`),
 >>>>>>> upstream/18.0
@@ -2921,11 +2942,14 @@ test("should make a few characters strikeThrough inside table (strikeThrough)", 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             </table>`
         ),
     });
 });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3436,6 +3460,7 @@ test("should remove empty strikeThrough when changing selection", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3634,6 +3659,8 @@ test("should remove empty strikeThrough when changing selection", async () => {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3850,6 +3877,9 @@ test("should not add history step for strikethrough on collapsed selection", asy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

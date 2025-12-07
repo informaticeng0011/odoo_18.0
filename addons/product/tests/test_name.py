@@ -2,7 +2,12 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tests import tagged, TransactionCase
+=======
+from odoo.fields import Command
+from odoo.tests import TransactionCase, tagged
+>>>>>>> upstream/18.0
 =======
 from odoo.fields import Command
 from odoo.tests import TransactionCase, tagged
@@ -62,7 +67,10 @@ class TestName(TransactionCase):
         self.assertIn(template_dyn.id, res_ids)
         self.assertIn(product.product_tmpl_id.id, res_ids)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_product_product_name_search(self):
         attribute = self.env['product.attribute'].create({
@@ -87,4 +95,7 @@ class TestName(TransactionCase):
             ('display_name', '=', 'HOHO'),
         ])
         self.assertEqual(variant1, product_search)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

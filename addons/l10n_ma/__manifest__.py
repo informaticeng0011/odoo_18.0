@@ -20,9 +20,14 @@ This module has been built with the help of Caudigef.
         'data/account_tax_report_data.xml',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "views/res_partner_views.xml",
         "views/res_company_views.xml",
         'views/report_invoice.xml',
+=======
+        'views/res_partner_views.xml',
+        'views/res_company_views.xml',
+>>>>>>> upstream/18.0
 =======
         'views/res_partner_views.xml',
         'views/res_company_views.xml',

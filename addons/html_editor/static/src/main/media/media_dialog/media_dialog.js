@@ -262,10 +262,15 @@ export class MediaDialog extends Component {
                                 // Regex
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 for (const className of element.classList) {
                                     if (className.match(candidateName)) {
                                         return false;
                                     }
+=======
+                                if (candidateName.match(name)) {
+                                    return false;
+>>>>>>> upstream/18.0
 =======
                                 if (candidateName.match(name)) {
                                     return false;

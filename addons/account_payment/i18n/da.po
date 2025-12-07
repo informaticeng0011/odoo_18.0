@@ -1,5 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* account_payment
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -198,6 +199,10 @@
 =======
 #
 >>>>>>> upstream/18.0
+=======
+# * account_payment
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Sammi Iversen <sammi@vkdata.dk>, 2024
 # Jesper Carstensen <info@danodoo.dk>, 2024
@@ -205,6 +210,7 @@
 # Martin Trigaux, 2024
 # Mads Søndergaard, 2024
 # Sanne Kristensen <sanne@vkdata.dk>, 2025
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -402,10 +408,14 @@
 =======
 #
 >>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -564,10 +574,18 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Sanne Kristensen <sanne@vkdata.dk>, 2025\n"
 "Language-Team: Danish (https://app.transifex.com/odoo/teams/41243/da/)\n"
+=======
+"POT-Creation-Date: 2025-10-16 18:38+0000\n"
+"PO-Revision-Date: 2025-12-02 17:05+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Danish <https://translate.odoo.com/projects/odoo-18/"
+"account_payment/da/>\n"
+>>>>>>> upstream/18.0
 "Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -714,6 +732,10 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+=======
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #. odoo-python
@@ -722,12 +744,21 @@ msgid ""
 "#%(number)s - Installment of <strong>%(amount)s</strong> due on <strong "
 "class=\"text-primary\">%(date)s</strong>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"#%(number)s - Rater af <strong>%(amount)s</strong> forfalder den <strong "
+"class=\"text-primary\">%(date)s</strong>"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #. odoo-javascript
 #: code:addons/account_payment/static/src/js/portal_my_invoices_payment.js:0
 msgid "%s day(s) overdue"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s dag(e) forfalden"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_success
@@ -754,6 +785,11 @@ msgid ""
 "<i class=\"fa fa-fw fa-check\"/>\n"
 "                <span class=\"d-none d-md-inline\"> Authorized</span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-fw fa-check\"/>\n"
+"                <span class=\"d-none d-md-inline\"> Autoriseret</span>"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_my_invoices_payment
@@ -777,17 +813,29 @@ msgstr "<i class=\"fa fa-fw fa-check-circle\"/> Afventer"
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_page_inherit_payment
 msgid "<i class=\"fa fa-fw fa-check-circle\"/> Processing Payment"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-fw fa-check-circle\"/> Behandler betaling"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_my_invoices_payment
 msgid "<span class=\"d-none d-md-inline\"> Pending</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"d-none d-md-inline\"> Afventer</span>"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_payment
 msgid "<strong>Full Amount</strong><br/>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Fulde beløb</strong><br/>"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_payment
@@ -795,11 +843,17 @@ msgid ""
 "<strong>Installment</strong>\n"
 "                                        <br/>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<strong>Rate</strong>\n"
+"                                        <br/>"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.payment_refund_wizard_view_form
 msgid ""
 "<strong>Warning!</strong> There is a refund pending for this payment.\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -948,6 +1002,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                        Wait a moment for it to be processed. If the refund "
 "is still pending in a\n"
 "                        few minutes, please check your payment provider "
@@ -1000,6 +1056,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1098,16 +1155,29 @@ msgid ""
 =======
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+msgstr ""
+"<strong>Advarsel!</strong> Der er en refusion for denne betaling.\n"
+"                        Vent, indtil den er gennemført. Hvis refusionen "
+"stadig ikke er registreret efter et\n"
+"                        par minutter, bør du kontrollere konfigurationen af "
+"din betalingsudbyder."
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #. odoo-python
 #: code:addons/account_payment/wizards/payment_link_wizard.py:0
 msgid "A discount will be applied if the customer pays before %s included."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Der gives rabat, hvis kunden betaler inden %s."
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_payment
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1356,6 +1426,13 @@ msgid ""
 "twice."
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+"A payment has already been made on this invoice, please make sure to not pay "
+"twice."
+msgstr ""
+"Der er allerede registreret en betaling for denne faktura. Sørg for ikke at "
+"betale to gange."
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #. odoo-python
@@ -1383,7 +1460,11 @@ msgstr "Beløb"
 #. module: account_payment
 #: model:ir.model.fields,field_description:account_payment.field_account_payment__amount_available_for_refund
 msgid "Amount Available For Refund"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Beløb tilgængelig til refusion"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model:ir.model.fields,field_description:account_payment.field_payment_link_wizard__invoice_amount_due
@@ -1394,7 +1475,11 @@ msgstr "Forfaldent beløb"
 #: model:ir.model.fields,field_description:account_payment.field_account_bank_statement_line__amount_paid
 #: model:ir.model.fields,field_description:account_payment.field_account_move__amount_paid
 msgid "Amount paid"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Betalt beløb"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.account_invoice_view_form_inherit_payment
@@ -1424,6 +1509,7 @@ msgid "Close"
 msgstr "Luk"
 
 #. module: account_payment
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1576,6 +1662,8 @@ msgstr "Kode"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model,name:account_payment.model_res_config_settings
 msgid "Config Settings"
 msgstr "Konfigurer opsætning"
@@ -1608,7 +1696,11 @@ msgstr "Vis navn"
 #. module: account_payment
 #: model:ir.model.fields,field_description:account_payment.field_payment_link_wizard__display_open_installments
 msgid "Display Open Installments"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vis åbne rater"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_success
@@ -1621,7 +1713,11 @@ msgstr ""
 #. module: account_payment
 #: model:ir.model.fields,field_description:account_payment.field_payment_link_wizard__epd_info
 msgid "Early Payment Discount Information"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Oplysninger om rabat ved tidlig betaling"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_payment
@@ -1636,7 +1732,11 @@ msgstr "Aktiver kredit- og betalingskortbetalinger understøttet af Stripe."
 #. module: account_payment
 #: model:ir.model.fields.selection,name:account_payment.selection__payment_refund_wizard__support_refund__full_only
 msgid "Full Only"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kun fuldstændig"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model:ir.model,name:account_payment.model_payment_link_wizard
@@ -1651,12 +1751,20 @@ msgstr "Generer et betalingslink"
 #. module: account_payment
 #: model:ir.model.fields,field_description:account_payment.field_payment_link_wizard__has_eligible_epd
 msgid "Has Eligible Epd"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Er berettiget til EPD"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model:ir.model.fields,field_description:account_payment.field_payment_refund_wizard__has_pending_refund
 msgid "Has a pending refund"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Har en ventende refusion"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model:ir.model.fields,field_description:account_payment.field_payment_refund_wizard__id
@@ -1670,6 +1778,11 @@ msgid ""
 "Impossible to pay all the overdue invoices if they don't share the same "
 "currency."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Det er ikke muligt at betale alle forfaldne regninger, hvis de ikke er i "
+"samme valuta."
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model:ir.model.fields,help:account_payment.field_account_payment_method_line__payment_provider_state
@@ -1677,6 +1790,11 @@ msgid ""
 "In test mode, a fake payment is processed through a test payment interface.\n"
 "This mode is advised when setting up the provider."
 msgstr ""
+<<<<<<< HEAD
+=======
+"I testtilstand simuleres betalingen via en testbetalingsgrænseflade.\n"
+"Denne tilstand anbefales til opsætning af udbyderen."
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.res_config_settings_view_form
@@ -1703,12 +1821,20 @@ msgstr "Faktura & Regninger"
 #. module: account_payment
 #: model:ir.model.fields,field_description:account_payment.field_payment_transaction__invoices_count
 msgid "Invoices Count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Antal fakturaer"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_my_home_account_payment
 msgid "Invoices to pay"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fakturaer, der skal betales"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model:ir.model,name:account_payment.model_account_journal
@@ -1733,12 +1859,20 @@ msgstr "Sidst opdateret den"
 #. module: account_payment
 #: model:ir.model.fields,field_description:account_payment.field_payment_refund_wizard__amount_available_for_refund
 msgid "Maximum Refund Allowed"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Højeste tilladte refusionsbeløb"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.payment_link_wizard__form_inherit_account_payment
 msgid "Next Installments"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Næste rater"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model:ir.model.fields,help:account_payment.field_account_payment__payment_token_id
@@ -1746,6 +1880,11 @@ msgid ""
 "Note that only tokens from providers allowing to capture the amount are "
 "available."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Bemærk, at tokens kun er tilgængelige fra udbydere, som tillader "
+"registrering af beløbet."
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model:ir.model.fields,help:account_payment.field_account_payment_register__payment_token_id
@@ -1753,6 +1892,11 @@ msgid ""
 "Note that tokens from providers set to only authorize transactions (instead "
 "of capturing the amount) are not available."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Bemærk, at tokens fra betalingsudbydere, der kun er beregnet til godkendelse "
+"af transaktioner (og ikke til registrering af beløbet), ikke er tilgængelige."
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model:onboarding.onboarding.step,step_image_alt:account_payment.onboarding_onboarding_step_payment_provider
@@ -1773,25 +1917,41 @@ msgstr "Online betalinger"
 #. odoo-python
 #: code:addons/account_payment/wizards/payment_link_wizard.py:0
 msgid "Online payment option is not enabled in Configuration."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Onlinebetaling er ikke aktiveret i konfigurationen."
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #. odoo-python
 #: code:addons/account_payment/controllers/portal.py:0
 msgid "Overdue invoices should share the same company."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Forfaldne fakturaer skal tilhøre samme virksomhed."
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #. odoo-python
 #: code:addons/account_payment/controllers/portal.py:0
 msgid "Overdue invoices should share the same currency."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Forfaldne fakturaer skal have samme valuta."
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #. odoo-python
 #: code:addons/account_payment/controllers/portal.py:0
 msgid "Overdue invoices should share the same partner."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Forfaldne fakturaer skal have samme partner."
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model:ir.model.fields.selection,name:account_payment.selection__payment_refund_wizard__support_refund__partial
@@ -1807,7 +1967,11 @@ msgstr "Betal"
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_payment_paid
 msgid "Pay Invoice"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Betal faktura"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model:ir.model.fields,field_description:account_payment.field_res_config_settings__pay_invoices_online
@@ -1828,7 +1992,11 @@ msgstr "Betal nu"
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_my_home_overdue_invoice
 msgid "Pay overdue"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Betal forfaldne fakturaer"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model:ir.model.fields,field_description:account_payment.field_payment_refund_wizard__payment_id
@@ -1867,7 +2035,11 @@ msgstr "Betalingsudbydere"
 #. module: account_payment
 #: model:ir.model,name:account_payment.model_payment_refund_wizard
 msgid "Payment Refund Wizard"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Assistent til betalingsrefusioner"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model:ir.ui.menu,name:account_payment.payment_token_menu
@@ -1896,7 +2068,11 @@ msgstr "Betalinger"
 #. odoo-python
 #: code:addons/account_payment/controllers/payment.py:0
 msgid "Please log in to pay your overdue invoices"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Log venligst ind for at betale dine forfaldne fakturaer"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #. odoo-python
@@ -1922,12 +2098,20 @@ msgstr "Kreditnota"
 #. module: account_payment
 #: model:ir.model.fields,field_description:account_payment.field_payment_refund_wizard__amount_to_refund
 msgid "Refund Amount"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Refundér beløb"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model:ir.model.fields,field_description:account_payment.field_payment_refund_wizard__refunded_amount
 msgid "Refunded Amount"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Refunderede beløb"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.view_account_payment_form_inherit_payment
@@ -1937,17 +2121,29 @@ msgstr "Krediteringer"
 #. module: account_payment
 #: model:ir.model.fields,field_description:account_payment.field_account_payment__refunds_count
 msgid "Refunds Count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Antal refusioner"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.view_account_journal_form
 msgid "SETUP"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "OPSÆTNING"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model:ir.model.fields,field_description:account_payment.field_account_payment__payment_token_id
 msgid "Saved Payment Token"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gemte betalingstoken"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model:ir.model.fields,field_description:account_payment.field_account_payment_register__payment_token_id
@@ -1957,7 +2153,11 @@ msgstr "Gemt betalingstoken"
 #. module: account_payment
 #: model:ir.model.fields,field_description:account_payment.field_account_payment__source_payment_id
 msgid "Source Payment"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Oprindelige betaling"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model:ir.model.fields,field_description:account_payment.field_account_payment_method_line__payment_provider_state
@@ -1973,7 +2173,11 @@ msgstr "Trin gennemført!"
 #: model:ir.model.fields,field_description:account_payment.field_account_payment__suitable_payment_token_ids
 #: model:ir.model.fields,field_description:account_payment.field_account_payment_register__suitable_payment_token_ids
 msgid "Suitable Payment Token"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Egnet betalingstoken"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #. odoo-python
@@ -1986,12 +2190,20 @@ msgstr "Adgangs tokenen er ugyldig."
 #: code:addons/account_payment/wizards/payment_refund_wizard.py:0
 msgid ""
 "The amount to be refunded must be positive and cannot be superior to %s."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Refusionsbeløbet skal være positivt og må ikke overstige %s."
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model:ir.model.fields,help:account_payment.field_payment_provider__journal_id
 msgid "The journal in which the successful transactions are posted."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Den journal, hvor de gennemførte transaktioner bogføres."
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #. odoo-python
@@ -2000,6 +2212,11 @@ msgid ""
 "The payment related to the transaction with reference %(ref)s has been "
 "posted: %(link)s"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Betalingen for transaktionen med referencenummer %(ref)s er blevet bogført: %"
+"(link)s"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #. odoo-python
@@ -2010,19 +2227,31 @@ msgstr "De angivne parametre er ugyldige."
 #. module: account_payment
 #: model:ir.model.fields,help:account_payment.field_account_payment__source_payment_id
 msgid "The source payment of related refund payments"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Den oprindelige betaling af den tilsvarende refusion"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #. odoo-python
 #: code:addons/account_payment/models/account_move.py:0
 msgid "There are pending transactions for this invoice."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Der er udestående transaktioner for denne faktura."
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #. odoo-python
 #: code:addons/account_payment/models/account_move.py:0
 msgid "There is no amount to be paid."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Der skal ikke betales noget beløb."
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_error
@@ -2057,31 +2286,51 @@ msgstr ""
 #. odoo-python
 #: code:addons/account_payment/models/account_move.py:0
 msgid "This invoice cannot be paid online."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Denne faktura kan ikke betales online."
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #. odoo-python
 #: code:addons/account_payment/models/account_move.py:0
 msgid "This invoice has already been paid."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Denne faktura er allerede blevet betalt."
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #. odoo-python
 #: code:addons/account_payment/models/account_move.py:0
 msgid "This invoice isn't posted."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Denne faktura er ikke bogført."
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #. odoo-python
 #: code:addons/account_payment/models/account_move.py:0
 msgid "This is not an outgoing invoice."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dette er ikke en udgående faktura."
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model:ir.model.fields,field_description:account_payment.field_account_bank_statement_line__transaction_count
 #: model:ir.model.fields,field_description:account_payment.field_account_move__transaction_count
 msgid "Transaction Count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Antal transaktioner"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model:ir.model.fields,field_description:account_payment.field_account_bank_statement_line__transaction_ids
@@ -2092,13 +2341,21 @@ msgstr "Transaktioner"
 #. module: account_payment
 #: model:ir.model.fields.selection,name:account_payment.selection__payment_refund_wizard__support_refund__none
 msgid "Unsupported"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ikke understøttet"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model:ir.model.fields,field_description:account_payment.field_account_payment__use_electronic_payment_method
 #: model:ir.model.fields,field_description:account_payment.field_account_payment_register__use_electronic_payment_method
 msgid "Use Electronic Payment Method"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Brug elektronisk betalingsform"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.account_invoice_view_form_inherit_payment
@@ -2109,6 +2366,7 @@ msgstr "Ugyldig transaktion"
 #. odoo-python
 #: code:addons/account_payment/models/account_payment_method_line.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2357,6 +2615,15 @@ msgid ""
 >>>>>>> upstream/18.0
 "Linked providers(s): %s"
 msgstr ""
+=======
+"You can't delete a payment method that is linked to a provider in the "
+"enabled or test state.\n"
+"Linked providers(s): %s"
+msgstr ""
+"Det er ikke muligt at slette en betalingsmetode, der er knyttet til en "
+"udbyder i aktiveret eller teststatus.\n"
+"Tilknyttede udbyder(e): %s"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #. odoo-python
@@ -2365,6 +2632,11 @@ msgid ""
 "You cannot uninstall this module as payments using this payment method "
 "already exist."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Det er ikke muligt at afinstallere dette modul, da der allerede findes "
+"betalinger via denne betalingsform."
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #. odoo-python
@@ -2373,18 +2645,32 @@ msgid ""
 "You must first deactivate a payment provider before deleting its journal.\n"
 "Linked providers: %s"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Du skal først deaktivere en betalingsudbyder, før du kan slette dens "
+"journaler.\n"
+"Tilknyttede udbydere: %s"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #. odoo-javascript
 #: code:addons/account_payment/static/src/js/portal_my_invoices_payment.js:0
 msgid "due in %s day(s)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "forfalder om %s dag(e)"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #. odoo-javascript
 #: code:addons/account_payment/static/src/js/portal_my_invoices_payment.js:0
 msgid "due today"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "forfalder i dag"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_payment
@@ -2394,6 +2680,7 @@ msgstr "er blevet påført."
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_my_invoices_payment
 msgid "overdue"
+<<<<<<< HEAD
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2685,6 +2972,12 @@ msgstr ""
 #~ msgstr "Kode"
 >>>>>>> upstream/18.0
 =======
+
+#~ msgid "Code"
+#~ msgstr "Kode"
+>>>>>>> upstream/18.0
+=======
+msgstr "forfalden"
 
 #~ msgid "Code"
 #~ msgstr "Kode"

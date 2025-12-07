@@ -90,7 +90,11 @@ import { deserializeDate, deserializeDateTime } from "@web/core/l10n/dates";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { IS_DELETING_SYM, Markup, isCommand, isMany } from "./misc";
+=======
+import { IS_DELETED_SYM, IS_DELETING_SYM, Markup, isCommand, isMany } from "./misc";
+>>>>>>> upstream/18.0
 =======
 import { IS_DELETED_SYM, IS_DELETING_SYM, Markup, isCommand, isMany } from "./misc";
 >>>>>>> upstream/18.0
@@ -554,6 +558,7 @@ export class StoreInternal extends RecordInternal {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                 record._[IS_DELETED_SYM] = true;
                 delete record.Model.records[record.localId];
@@ -820,6 +825,10 @@ export class StoreInternal extends RecordInternal {
 >>>>>>> upstream/18.0
 =======
                 record._[IS_DELETED_SYM] = true;
+                delete record.Model.records[record.localId];
+>>>>>>> upstream/18.0
+=======
+                record._proxy[IS_DELETED_SYM] = true;
                 delete record.Model.records[record.localId];
 >>>>>>> upstream/18.0
 =======
@@ -980,8 +989,11 @@ export class StoreInternal extends RecordInternal {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for (const [fieldName, value] of Object.entries(vals)) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1040,6 +1052,9 @@ export class StoreInternal extends RecordInternal {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

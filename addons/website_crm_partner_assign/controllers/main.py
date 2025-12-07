@@ -457,7 +457,12 @@ class WebsiteCrmPartnerAssign(WebsitePartnerPage, GoogleMap):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'main_object': partner,
+=======
+                    # See REVIEW_CAN_PUBLISH_UNSUDO
+                    'main_object': partner.with_context(can_publish_unsudo_main_object=True),
+>>>>>>> upstream/18.0
 =======
                     # See REVIEW_CAN_PUBLISH_UNSUDO
                     'main_object': partner.with_context(can_publish_unsudo_main_object=True),

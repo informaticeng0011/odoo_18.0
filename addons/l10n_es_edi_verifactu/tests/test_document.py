@@ -45,6 +45,7 @@ from unittest import mock
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import _
 from odoo.exceptions import UserError
 =======
@@ -219,6 +220,10 @@ from odoo.exceptions import UserError, RedirectWarning
 from odoo import _, Command
 from odoo.exceptions import UserError, RedirectWarning, AccessError
 >>>>>>> upstream/18.0
+=======
+from odoo import _, Command
+from odoo.exceptions import UserError, RedirectWarning, AccessError
+>>>>>>> upstream/18.0
 from odoo.tests import tagged
 from odoo.tools import zeep
 from .common import TestL10nEsEdiVerifactuCommon
@@ -318,7 +323,10 @@ class TestL10nEsEdiVerifactuDocument(TestL10nEsEdiVerifactuCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -527,6 +535,9 @@ class TestL10nEsEdiVerifactuDocument(TestL10nEsEdiVerifactuCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1049,7 +1060,10 @@ class TestL10nEsEdiVerifactuDocument(TestL10nEsEdiVerifactuCommon):
         # So the cron has to be retriggered
         self.assertEqual(cron_trigger_result_dict['at'], datetime.datetime(2024, 12, 5, 0, 1, 0))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_verifactu_document_reading_access_right(self):
         move = self.env['account.move'].create({})
@@ -1060,4 +1074,7 @@ class TestL10nEsEdiVerifactuDocument(TestL10nEsEdiVerifactuCommon):
             self.user.groups_id = self.env.ref(group)
             # Should not raise an error for accounting users
             move.with_user(self.user).read(['l10n_es_edi_verifactu_document_ids'])
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

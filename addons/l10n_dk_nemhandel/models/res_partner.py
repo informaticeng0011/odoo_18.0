@@ -182,6 +182,12 @@ class ResPartner(models.Model):
     def _check_document_type_support(self, participant_info, ubl_cii_format):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if self._deduce_country_code() != 'DK':
+            return super()._check_document_type_support(participant_info, ubl_cii_format)
+
+>>>>>>> upstream/18.0
 =======
         if self._deduce_country_code() != 'DK':
             return super()._check_document_type_support(participant_info, ubl_cii_format)

@@ -86,6 +86,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* barcodes_gs1_nomenclature
 # 
 # Translators:
@@ -93,6 +94,8 @@
 # Larissa Manderfeld, 2025
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -355,6 +358,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -530,6 +536,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -805,6 +812,10 @@ msgstr ""
 "POT-Creation-Date: 2025-11-28 18:36+0000\n"
 >>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-08-11 22:21+0000\n"
+=======
+"POT-Creation-Date: 2025-11-28 18:36+0000\n"
+"PO-Revision-Date: 2025-12-01 12:44+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: \"Larissa Manderfeld (lman)\" <lman@odoo.com>\n"
 "Language-Team: German <https://translate.odoo.com/projects/odoo-18/"
 "barcodes_gs1_nomenclature/de/>\n"
@@ -813,13 +824,18 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+<<<<<<< HEAD
 "X-Generator: Weblate 5.12.2\n"
+=======
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: barcodes_gs1_nomenclature
 #. odoo-python
 #: code:addons/barcodes_gs1_nomenclature/models/barcode_nomenclature.py:0
 msgid ""
 "A GS1 barcode nomenclature pattern was matched. However, the barcode failed "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1094,6 +1110,12 @@ msgstr ""
 "to be converted to a valid date: '%(error_message)s'"
 msgstr ""
 >>>>>>> upstream/18.0
+=======
+"to be converted to a valid date: '%(error_message)s'"
+msgstr ""
+"Ein GS1-Barcode-Nomenklaturmuster wurde gefunden. Der Barcode konnte jedoch "
+"nicht in ein gültiges Datum umgewandelt werden: „%(error_message)s “."
+>>>>>>> upstream/18.0
 
 #. module: barcodes_gs1_nomenclature
 #: model:ir.model.fields.selection,name:barcodes_gs1_nomenclature.selection__barcode_rule__gs1_content_type__alpha
@@ -1342,8 +1364,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Der GS1-Inhaltstyp legt fest, als welche Art von Daten die Regel den Barcode"
 " verarbeiten wird: * Datum: der Barcode wird in eine Odoo-Datumszeit "
+=======
+"Der GS1-Inhaltstyp legt fest, als welche Art von Daten die Regel den Barcode "
+"verarbeiten wird: * Datum: der Barcode wird in eine Odoo-Datumszeit "
+>>>>>>> upstream/18.0
 =======
 "Der GS1-Inhaltstyp legt fest, als welche Art von Daten die Regel den Barcode "
 "verarbeiten wird: * Datum: der Barcode wird in eine Odoo-Datumszeit "
@@ -1802,6 +1829,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If this rule uses decimal, check it can't get sometime else than a digit as last char for the Application Identifier.\n"
 "Check also the possible matched values can only be digits, otherwise the value can't be casted as a measure."
 msgstr ""
@@ -1809,6 +1837,8 @@ msgstr ""
 "Wenn diese Regel Dezimalzahlen verwendet, stellen Sie sicher, dass nur Ziffern für den Application Identifier enthalten sind.\n"
 "Stellen Sie sicher, dass mögliche übereinstimmende Werte nur Ziffern enthalten, da der Wert sonst nicht als Kennzahl zugeordnet werden kann."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2074,6 +2104,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2253,6 +2286,7 @@ msgid ""
 "This Nomenclature use the GS1 specification, only GS1-128 encoding rules is "
 "accepted is this kind of nomenclature."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2685,6 +2719,10 @@ msgstr ""
 "Diese Nomenklatur verwendet die GS1-Spezifikation, nur die GS1-128-"
 "Kodierungsregeln werden für diese Art von Nomenklatur akzeptiert."
 >>>>>>> upstream/18.0
+=======
+"Diese Nomenklatur verwendet die GS1-Spezifikation, nur die GS1-128-"
+"Kodierungsregeln werden für diese Art von Nomenklatur akzeptiert."
+>>>>>>> upstream/18.0
 
 #. module: barcodes_gs1_nomenclature
 #. odoo-javascript
@@ -2717,7 +2755,10 @@ msgstr "Typ"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2743,6 +2784,9 @@ msgstr "Typ"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

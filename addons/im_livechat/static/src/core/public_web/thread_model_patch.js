@@ -200,7 +200,11 @@ patch(Thread.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (this.channel_type !== "livechat" || !this.correspondent) {
+=======
+        if (this.channel_type !== "livechat" || !this.correspondent || this.custom_channel_name) {
+>>>>>>> upstream/18.0
 =======
         if (this.channel_type !== "livechat" || !this.correspondent || this.custom_channel_name) {
 >>>>>>> upstream/18.0
@@ -749,7 +753,10 @@ patch(Thread.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1009,6 +1016,9 @@ patch(Thread.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

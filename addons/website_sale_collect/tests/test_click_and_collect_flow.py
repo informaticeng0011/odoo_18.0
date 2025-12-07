@@ -76,7 +76,11 @@ class TestClickAndCollectFlow(HttpCase, ClickAndCollectCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def test_buy_with_click_and_collect_as_public_user(self):
+=======
+    def test_click_and_collect_widget_as_public_user(self):
+>>>>>>> upstream/18.0
 =======
     def test_click_and_collect_widget_as_public_user(self):
 >>>>>>> upstream/18.0
@@ -360,7 +364,11 @@ class TestClickAndCollectFlow(HttpCase, ClickAndCollectCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.start_tour('/', 'website_sale_collect_buy_product')
+=======
+        self.start_tour('/', 'website_sale_collect_widget')
+>>>>>>> upstream/18.0
 =======
         self.start_tour('/', 'website_sale_collect_widget')
 >>>>>>> upstream/18.0

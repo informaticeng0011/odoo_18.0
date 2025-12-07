@@ -423,6 +423,10 @@ class TestPosCashRounding(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.skipTest('To re-introduce when feature is ready')
+>>>>>>> upstream/18.0
 =======
         self.skipTest('To re-introduce when feature is ready')
 >>>>>>> upstream/18.0
@@ -1149,6 +1153,10 @@ class TestPosCashRounding(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.skipTest('To re-introduce when feature is ready')
+>>>>>>> upstream/18.0
 =======
         self.skipTest('To re-introduce when feature is ready')
 >>>>>>> upstream/18.0
@@ -1875,6 +1883,10 @@ class TestPosCashRounding(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.skipTest('To re-introduce when feature is ready')
+>>>>>>> upstream/18.0
 =======
         self.skipTest('To re-introduce when feature is ready')
 >>>>>>> upstream/18.0
@@ -2601,6 +2613,10 @@ class TestPosCashRounding(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.skipTest('To re-introduce when feature is ready')
+>>>>>>> upstream/18.0
 =======
         self.skipTest('To re-introduce when feature is ready')
 >>>>>>> upstream/18.0
@@ -3365,7 +3381,10 @@ class TestPosCashRounding(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3923,6 +3942,9 @@ class TestPosCashRounding(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

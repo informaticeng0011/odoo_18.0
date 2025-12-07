@@ -115,6 +115,10 @@ registry.category("web_tour.tours").add("a_shop_custom_attribute_value", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -562,6 +566,10 @@ configuratorTourUtils.assertPriceTotal("1,528.50"),
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
     expectUnloadPage: true,
 >>>>>>> upstream/18.0

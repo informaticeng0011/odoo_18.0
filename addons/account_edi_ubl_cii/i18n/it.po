@@ -86,6 +86,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* account_edi_ubl_cii
 # 
 # Translators:
@@ -593,6 +594,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # * account_edi_ubl_cii
 #
 # Translators:
@@ -685,6 +688,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -855,11 +859,15 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1593,6 +1601,11 @@ msgstr ""
 "PO-Revision-Date: 2025-11-03 21:50+0000\n"
 >>>>>>> upstream/18.0
 "Last-Translator: \"Marianna Ciofani (cima)\" <cima@odoo.com>\n"
+=======
+"POT-Creation-Date: 2025-12-05 18:36+0000\n"
+"PO-Revision-Date: 2025-12-06 17:08+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Italian <https://translate.odoo.com/projects/odoo-18/"
 "account_edi_ubl_cii/it/>\n"
 "Language: it\n"
@@ -1634,6 +1647,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
 " ? 1 : 2);\n"
 "X-Generator: Weblate 5.12.2\n"
@@ -1962,12 +1976,18 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == "
 "0) ? 1 : 2);\n"
 "X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
+" ? 1 : 2);\n"
+"X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #. odoo-python
 #: code:addons/account_edi_ubl_cii/models/account_edi_xml_ubl_bis3.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2490,6 +2510,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "%s should have a KVK or OIN number set in Company ID field or as Peppol e-"
 "address (EAS code 0106 or 0190)."
 msgstr ""
@@ -2580,6 +2602,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2844,11 +2869,14 @@ msgstr "1.0"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account_edi_ubl_cii.account_invoice_facturx_export_22
 msgid "42"
 msgstr "42"
 
 #. module: account_edi_ubl_cii
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3114,7 +3142,10 @@ msgstr "È stato individuato un pagamento di %s."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3379,6 +3410,9 @@ msgstr "È stato individuato un importo arrotondato di %s."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3677,6 +3711,7 @@ msgstr "A-NZ BIS Billing 3.0"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -3725,6 +3760,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4060,6 +4097,9 @@ msgstr "Scambio AS2"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4286,6 +4326,14 @@ msgid "Account Move Send"
 msgstr "Movimento contabile inviato"
 
 #. module: account_edi_ubl_cii
+<<<<<<< HEAD
+=======
+#: model:ir.model,name:account_edi_ubl_cii.model_account_move_send_wizard
+msgid "Account Move Send Wizard"
+msgstr "Procedura guidata invio movimento contabile"
+
+#. module: account_edi_ubl_cii
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__9923
 msgid "Albania VAT"
 msgstr "IVA Albania"
@@ -4305,6 +4353,7 @@ msgstr "Articolo 226 punti da 11 a 15 Direttiva 2006/112/EN"
 #. odoo-python
 #: code:addons/account_edi_ubl_cii/models/account_edi_common.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4737,6 +4786,10 @@ msgid ""
 "At least one of the following fields %(field_list)s is required on %"
 "(record)s."
 >>>>>>> upstream/18.0
+=======
+"At least one of the following fields %(field_list)s is required on %"
+"(record)s."
+>>>>>>> upstream/18.0
 msgstr ""
 "Almeno uno dei seguenti campi %(field_list)s è richiesto per %(record)s."
 
@@ -4747,6 +4800,7 @@ msgid "Attachment"
 msgstr "Allegato"
 
 #. module: account_edi_ubl_cii
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4795,6 +4849,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4896,6 +4952,9 @@ msgstr "Australia (Fatturazione BIS 3.0 A-NZ)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4966,6 +5025,7 @@ msgid "Australia ABN"
 msgstr "ABN Australia"
 
 #. module: account_edi_ubl_cii
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5379,6 +5439,8 @@ msgstr "Fatturazione BIS 3.0 A-NZ Australia"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__9914
 msgid "Austria UID"
 msgstr "UID Austria"
@@ -5389,6 +5451,7 @@ msgid "Austria VOKZ"
 msgstr "VOKZ Austria"
 
 #. module: account_edi_ubl_cii
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5659,6 +5722,8 @@ msgstr "BIS Billing 3.0 SG"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:account_edi_ubl_cii.field_res_partner__available_peppol_eas
 #: model:ir.model.fields,field_description:account_edi_ubl_cii.field_res_users__available_peppol_eas
 msgid "Available Peppol Eas"
@@ -5748,6 +5813,9 @@ msgstr "Endpoint PEPPOL disponibili"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6047,11 +6115,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "             List available at https://docs.peppol.eu/poacc/billing/3.0/codelist/eas/"
 msgstr ""
 "Codice utilizzato per identificare l'endpoint di BIS Billing 3.0 e i suoi derivati.\n"
 "             Elenco disponibile in https://docs.peppol.eu/poacc/billing/3.0/codelist/eas/"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6314,6 +6385,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6526,6 +6600,7 @@ msgid ""
 "Could not retrieve a partner corresponding to '%s'. A new partner was "
 "created."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6958,6 +7033,10 @@ msgstr ""
 "Impossibile recuperare un partner corrispondente a \"%s\". È stato creato un "
 "nuovo partner."
 >>>>>>> upstream/18.0
+=======
+"Impossibile recuperare un partner corrispondente a \"%s\". È stato creato un "
+"nuovo partner."
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #. odoo-python
@@ -7049,8 +7128,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Could not retrieve currency: %s. Did you enable the multicurrency option and"
 " activate the currency?"
+=======
+"Could not retrieve currency: %s. Did you enable the multicurrency option and "
+"activate the currency?"
+>>>>>>> upstream/18.0
 =======
 "Could not retrieve currency: %s. Did you enable the multicurrency option and "
 "activate the currency?"
@@ -7497,8 +7581,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Impossibile recuperare l'imposta: %(tax_percentage)s %% per la riga "
 "'%(line)s'."
+=======
+"Impossibile recuperare l'imposta: %(tax_percentage)s %% per la riga '%"
+"(line)s'."
+>>>>>>> upstream/18.0
 =======
 "Impossibile recuperare l'imposta: %(tax_percentage)s %% per la riga '%"
 "(line)s'."
@@ -7933,8 +8022,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Could not retrieve the tax: %s for the document level allowance/charge."
+=======
+msgid "Could not retrieve the tax: %s for the document level allowance/charge."
+>>>>>>> upstream/18.0
 =======
 msgid "Could not retrieve the tax: %s for the document level allowance/charge."
 >>>>>>> upstream/18.0
@@ -8339,7 +8432,10 @@ msgstr "EN 16931"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8600,6 +8696,9 @@ msgstr "Standard UE (Peppol Bis 3.0)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8789,6 +8888,7 @@ msgid "Each invoice line should have at least one tax."
 msgstr "Ogni riga della fattura deve avere almeno un'imposta."
 
 #. module: account_edi_ubl_cii
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9177,6 +9277,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__em
 msgid "Electronic mail"
 msgstr "Electronic mail"
@@ -9292,6 +9394,9 @@ msgstr "Electronic mail"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9632,6 +9737,7 @@ msgstr "IVA Estonia"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -9639,6 +9745,10 @@ msgstr "IVA Estonia"
 >>>>>>> upstream/18.0
 msgid "Exempt from tax"
 msgstr ""
+=======
+msgid "Exempt from tax"
+msgstr "Esente tasse"
+>>>>>>> upstream/18.0
 =======
 msgid "Exempt from tax"
 msgstr "Esente tasse"
@@ -10125,6 +10235,9 @@ msgstr "Esente tasse"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10412,6 +10525,7 @@ msgstr "Esportazione al di fuori dell'UE"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__invoice_edi_format__facturx
 msgid "Factur-X (CII)"
 msgstr "Factur-X (CII)"
@@ -10589,11 +10703,14 @@ msgstr "Factur-X (CII)"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model,name:account_edi_ubl_cii.model_account_edi_xml_cii
 msgid "Factur-x/XRechnung CII 2.2.0"
 msgstr "Factur-x/Fattura CII 2.2.0"
 
 #. module: account_edi_ubl_cii
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10982,6 +11099,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__au
 msgid "File Transfer Protocol"
 msgstr "Protocollo trasferimento file"
@@ -11097,6 +11216,9 @@ msgstr "Protocollo trasferimento file"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11444,6 +11566,7 @@ msgid "Format used to import the invoice: %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "FOrmato utilizzato per importare la fattura: %s"
 =======
 msgstr "Formato utilizzato per importare la fattura: %s"
@@ -11458,6 +11581,8 @@ msgstr "Formato utilizzato per importare la fattura: %s"
 msgstr "Formato utilizzato per importare la fattura: %s"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11729,6 +11854,9 @@ msgstr "Registro delle persone giuridiche Francia"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12008,7 +12136,10 @@ msgstr "Chiavi identificative GS1"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12269,6 +12400,9 @@ msgstr "Germania (XRechnung)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12478,6 +12612,7 @@ msgstr "Indirizzo di Posta Elettronica Certificata"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -12515,6 +12650,14 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+#: code:addons/account_edi_ubl_cii/models/account_move_send.py:0
+msgid "Install Chorus Pro"
+msgstr "Installa Chorus Pro"
+
+#. module: account_edi_ubl_cii
+#. odoo-python
 >>>>>>> upstream/18.0
 #: code:addons/account_edi_ubl_cii/models/account_edi_common.py:0
 msgid "Intra-Community supply"
@@ -12659,7 +12802,10 @@ msgstr "Kennziffer des Unternehmensregisters"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12920,6 +13066,9 @@ msgstr "Numero di registrazione unificato lettone"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13233,8 +13382,13 @@ msgstr "IVA Montenegro"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "NLCIUS"
 msgstr "NLCIUS"
+=======
+msgid "Netherlands (NLCIUS)"
+msgstr "Paesi Bassi (NLCIUS)"
+>>>>>>> upstream/18.0
 =======
 msgid "Netherlands (NLCIUS)"
 msgstr "Paesi Bassi (NLCIUS)"
@@ -13730,6 +13884,7 @@ msgstr "Nr. org. Norvegia"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -13778,6 +13933,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14113,6 +14270,9 @@ msgstr "O.F.T.P. (Protocollo di trasferimento file ODETTE)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14502,7 +14662,10 @@ msgstr "Endpoint Peppol"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14961,6 +15124,9 @@ msgstr "ID Peppol"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15293,7 +15459,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -15311,6 +15480,7 @@ msgstr ""
 msgid ""
 "Please install the french Chorus pro module to have all the specific rules."
 msgstr ""
+<<<<<<< HEAD
 
 #. module: account_edi_ubl_cii
 <<<<<<< HEAD
@@ -15331,6 +15501,12 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+"Installa il modulo francese di Chorus Pro per avere tutte le regole "
+"specifiche."
+
+#. module: account_edi_ubl_cii
 >>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__9945
 msgid "Poland VAT"
@@ -15494,7 +15670,10 @@ msgstr "IVA Portogallo"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -15953,6 +16132,9 @@ msgstr "Azione resoconto"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16348,7 +16530,10 @@ msgstr "IVA Romania"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -16613,6 +16798,9 @@ msgstr "Arrotondamento"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16821,6 +17009,7 @@ msgid "Serbia VAT"
 msgstr "IVA Serbia"
 
 #. module: account_edi_ubl_cii
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17241,6 +17430,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__invoice_edi_format__ubl_sg
 msgid "Singapore (BIS Billing 3.0 SG)"
 msgstr "Singapore (Fatturazione BIS 3.0 SG)"
@@ -17278,6 +17469,9 @@ msgstr "Singapore (Fatturazione BIS 3.0 SG)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17524,7 +17718,11 @@ msgid "The currency '%s' is not active."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "La valuta '%s' non è attiva."
+=======
+msgstr "La valuta \"%s\" non è attiva."
+>>>>>>> upstream/18.0
 =======
 msgstr "La valuta \"%s\" non è attiva."
 >>>>>>> upstream/18.0
@@ -17885,8 +18083,12 @@ msgstr "Il campo %(field)s è richiesto per %(record)s."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "The field 'Sanitized Account Number' is required on the Recipient Bank."
+=======
+msgid "The field 'Sanitized Account Number' is required on the Recipient Bank."
+>>>>>>> upstream/18.0
 =======
 msgid "The field 'Sanitized Account Number' is required on the Recipient Bank."
 >>>>>>> upstream/18.0
@@ -18252,7 +18454,10 @@ msgstr "IVA Turchia"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -18513,6 +18718,9 @@ msgstr "Numero fiscale UAE (TIN)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18730,6 +18938,15 @@ msgid "United Kingdom VAT"
 msgstr "IVA Regno Unito"
 
 #. module: account_edi_ubl_cii
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/account_edi_ubl_cii/wizard/account_move_send_wizard.py:0
+msgid "Unspported file type via %s"
+msgstr ""
+
+#. module: account_edi_ubl_cii
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__9953
 msgid "Vatican VAT"
 msgstr "IVA Vaticano"
@@ -18751,6 +18968,7 @@ msgstr ""
 "l'aliquota fiscale di ogni riga della fattura deve essere superiore a 0."
 
 #. module: account_edi_ubl_cii
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18919,6 +19137,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -19254,6 +19474,9 @@ msgstr "X.400 indirizzo per testo e-mail"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -19567,6 +19790,7 @@ msgstr "UBL XML"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__invoice_edi_format__xrechnung
 msgid "XRechnung CIUS"
 msgstr "XRechnung CIUS"
@@ -19744,10 +19968,13 @@ msgstr "XRechnung CIUS"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/account_edi_ubl_cii/models/account_edi_xml_cii_facturx.py:0
 msgid ""
 "You should include at least one tax per invoice line. [BR-CO-04]-Each "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -20180,17 +20407,24 @@ msgid ""
 "Invoice line (BG-25) shall be categorized with an Invoiced item VAT category "
 "code (BT-151)."
 >>>>>>> upstream/18.0
+=======
+"Invoice line (BG-25) shall be categorized with an Invoiced item VAT category "
+"code (BT-151)."
+>>>>>>> upstream/18.0
 msgstr ""
 "Devi includere almeno un'imposta per ogni riga della fattura. [BR-CO-04]- "
 "Ogni riga di fattura (BG-25) deve essere classificata con un codice di "
 "categoria IVA dell'articolo fatturato (BT-151)."
 
 #. module: account_edi_ubl_cii
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account_edi_ubl_cii.view_partner_property_form
 msgid "Your endpoint"
 msgstr "Il tuo endpoint"
 
 #. module: account_edi_ubl_cii
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:account_edi_ubl_cii.field_res_partner__invoice_edi_format
 #: model:ir.model.fields,field_description:account_edi_ubl_cii.field_res_users__invoice_edi_format
 msgid "eInvoice format"
@@ -20296,6 +20530,7 @@ msgstr "urn:factur-x:pdfa:CrossIndustryDocument:invoice:1p0#"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -20465,6 +20700,11 @@ msgstr "urn:factur-x:pdfa:CrossIndustryDocument:invoice:1p0#"
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+#~ msgid "Your endpoint"
+#~ msgstr "Il tuo endpoint"
 >>>>>>> upstream/18.0
 
 #~ msgid "Australia BIS Billing 3.0 A-NZ"
@@ -20506,6 +20746,9 @@ msgstr "urn:factur-x:pdfa:CrossIndustryDocument:invoice:1p0#"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -20678,6 +20921,9 @@ msgstr "urn:factur-x:pdfa:CrossIndustryDocument:invoice:1p0#"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

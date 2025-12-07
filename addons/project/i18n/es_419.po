@@ -86,6 +86,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* project
 # 
 # Translators:
@@ -594,6 +595,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # * project
 #
 # Translators:
@@ -686,6 +689,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -861,6 +867,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1667,6 +1674,10 @@ msgstr ""
 "POT-Creation-Date: 2025-06-27 18:38+0000\n"
 "PO-Revision-Date: 2025-11-20 00:42+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-06-27 18:38+0000\n"
+"PO-Revision-Date: 2025-12-03 17:27+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: \"Fernanda Alvarez (mfar)\" <mfar@odoo.com>\n"
 "Language-Team: Spanish (Latin America) <https://translate.odoo.com/projects/"
 "odoo-18/project/es_419/>\n"
@@ -1676,6 +1687,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
 " ? 1 : 2);\n"
+<<<<<<< HEAD
 "X-Generator: Weblate 5.12.2\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1933,6 +1945,9 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: project
 #. odoo-python
@@ -2175,7 +2190,10 @@ msgstr "Número de calificaciones"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:project.field_project_milestone__task_count
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2782,7 +2800,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                    <img alt=\"Satisfied\" src=\"/rating/static/src/img/rating_5.png\" title=\"Satisfied\"/>\n"
+=======
+"                                    <img alt=\"Satisfecho\" src=\"/rating/static/src/img/rating_5.png\" title=\"Satisfecho\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "                                    <img alt=\"Satisfecho\" src=\"/rating/static/src/img/rating_5.png\" title=\"Satisfecho\"/>\n"
 >>>>>>> upstream/18.0
@@ -3395,7 +3417,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                    <img alt=\"Okay\" src=\"/rating/static/src/img/rating_3.png\" title=\"Okay\"/>\n"
+=======
+"                                    <img alt=\"Regular\" src=\"/rating/static/src/img/rating_3.png\" title=\"Regular\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "                                    <img alt=\"Regular\" src=\"/rating/static/src/img/rating_3.png\" title=\"Regular\"/>\n"
 >>>>>>> upstream/18.0
@@ -4008,7 +4034,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                    <img alt=\"Dissatisfied\" src=\"/rating/static/src/img/rating_1.png\" title=\"Dissatisfied\"/>\n"
+=======
+"                                    <img alt=\"Insatisfecho\" src=\"/rating/static/src/img/rating_1.png\" title=\"Insatisfecho\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "                                    <img alt=\"Insatisfecho\" src=\"/rating/static/src/img/rating_1.png\" title=\"Insatisfecho\"/>\n"
 >>>>>>> upstream/18.0
@@ -4630,11 +4660,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                <br/><span style=\"margin: 0; font-size: 12px; opacity: 0.5; color: #454748;\">Recibirá esta encuesta de satisfacción  <b t-out=\"object.project_id.rating_status_period or ''\">de forma semanal</b> siempre que la tarea esté en la etapa <b t-out=\"object.stage_id.name or ''\">En progreso</b>.</span>\n"
 "            </t>\n"
 "        </td></tr>\n"
 "        <tr><td><br/>Saludos cordiales,</td></tr>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5092,6 +5125,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5554,8 +5590,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span class=\"fa fa-envelope-o me-2\" aria-label=\"Seudónimo del dominio\" "
 "title=\"Seudónimo del dominio\"/>"
+=======
+"<span class=\"fa fa-envelope-o me-2\" aria-label=\"Alias del dominio\" title="
+"\"Alias del dominio\"/>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"fa fa-envelope-o me-2\" aria-label=\"Alias del dominio\" title="
 "\"Alias del dominio\"/>"
@@ -5731,8 +5772,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Un diccionario de Python que se evaluará con el fin de proporcionar valores "
 "predeterminados cuando se creen nuevos registros para este seudónimo."
+=======
+"Un diccionario de Python que se evaluará con el fin de proporcionar los "
+"valores predeterminados al crear nuevos registros para este alias."
+>>>>>>> upstream/18.0
 =======
 "Un diccionario de Python que se evaluará con el fin de proporcionar los "
 "valores predeterminados al crear nuevos registros para este alias."
@@ -5958,6 +6004,7 @@ msgstr "Agregue detalles sobre esta tarea..."
 #. module: project
 #: model:ir.model.fields,help:project.field_project_share_wizard__note
 msgid "Add extra content to display in the email"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6304,6 +6351,9 @@ msgstr "Agrega contenido adicional para que aparezca en el correo electrónico"
 =======
 msgstr "Agrega contenido adicional para que aparezca en el correo electrónico"
 >>>>>>> upstream/18.0
+=======
+msgstr "Agrega contenido adicional para que aparezca en el correo electrónico"
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model_terms:digest.tip,tip_description:project.digest_tip_project_3
@@ -6334,12 +6384,20 @@ msgstr "Agile Scrum"
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project__alias_id
 msgid "Alias"
+<<<<<<< HEAD
 msgstr "Seudónimo"
+=======
+msgstr "Alias"
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project__alias_contact
 msgid "Alias Contact Security"
+<<<<<<< HEAD
 msgstr "Seudónimo del contacto de seguridad"
+=======
+msgstr "Seguridad del contacto del alias"
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project__alias_domain_id
@@ -6358,7 +6416,11 @@ msgid "Alias Domain"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Dominio del seudónimo"
+=======
+msgstr "Dominio del alias"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dominio del alias"
 >>>>>>> upstream/18.0
@@ -6419,7 +6481,11 @@ msgid "Alias Domain Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nombre del dominio del seudónimo"
+=======
+msgstr "Nombre del dominio del alias"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nombre del dominio del alias"
 >>>>>>> upstream/18.0
@@ -6466,27 +6532,47 @@ msgstr "Nombre del dominio del alias"
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project__alias_full_name
 msgid "Alias Email"
+<<<<<<< HEAD
 msgstr "Correo electrónico del seudónimo"
+=======
+msgstr "Correo electrónico del alias"
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project__alias_name
 msgid "Alias Name"
+<<<<<<< HEAD
 msgstr "Nombre del seudónimo"
+=======
+msgstr "Nombre del alias"
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project__alias_status
 msgid "Alias Status"
+<<<<<<< HEAD
 msgstr "Estado del seudónimo"
+=======
+msgstr "Estado del alias"
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project__alias_status
 msgid "Alias status assessed on the last message received."
+<<<<<<< HEAD
 msgstr "Estado del seudónimo evaluado en el último mensaje recibido."
+=======
+msgstr "Estado del alias evaluado en el último mensaje recibido."
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project__alias_model_id
 msgid "Aliased Model"
+<<<<<<< HEAD
 msgstr "Modelo con seudónimo"
+=======
+msgstr "Modelo con alias"
+>>>>>>> upstream/18.0
 
 #. module: project
 #. odoo-python
@@ -6755,7 +6841,11 @@ msgid "Assignees"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Asignados"
+=======
+msgstr "Personas asignadas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Personas asignadas"
 >>>>>>> upstream/18.0
@@ -7590,7 +7680,11 @@ msgid "Create tasks by sending an email to"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Cree tareas al enviar un correo electrónico a"
+=======
+msgstr "Crea tareas al enviar un correo a"
+>>>>>>> upstream/18.0
 =======
 msgstr "Crea tareas al enviar un correo a"
 >>>>>>> upstream/18.0
@@ -8351,7 +8445,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "No tiene acceso, omita esta información para el correo electrónico de "
+=======
+"No tienes acceso, omite esta información para el correo electrónico de "
+>>>>>>> upstream/18.0
 =======
 "No tienes acceso, omite esta información para el correo electrónico de "
 >>>>>>> upstream/18.0
@@ -8777,7 +8875,11 @@ msgid "Email Alias"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Seudónimo del correo electrónico"
+=======
+msgstr "Alias de correo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Alias de correo"
 >>>>>>> upstream/18.0
@@ -9404,8 +9506,13 @@ msgid ""
 "ID of the parent record holding the alias (example: project holding the task"
 " creation alias)"
 msgstr ""
+<<<<<<< HEAD
 "ID del registro principal que tiene el seudónimo (ejemplo: el proyecto que "
 "contiene el seudónimo para la creación de tareas)"
+=======
+"ID del registro principal que tiene el alias "
+"(por ejemplo, el proyecto que contiene el alias para la creación de tareas)"
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project__activity_exception_icon
@@ -9523,8 +9630,12 @@ msgid "If checked, new messages require your attention."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Si se encuentra seleccionado, hay nuevos mensajes que requieren su atención."
+=======
+msgstr "Si está seleccionado, hay nuevos mensajes que requieren tu atención."
+>>>>>>> upstream/18.0
 =======
 msgstr "Si está seleccionado, hay nuevos mensajes que requieren tu atención."
 >>>>>>> upstream/18.0
@@ -9896,7 +10007,11 @@ msgid "If checked, some messages have a delivery error."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Si se encuentra seleccionado, algunos mensajes tienen error de envío."
+=======
+msgstr "Si está seleccionado, algunos mensajes tienen error de envío."
+>>>>>>> upstream/18.0
 =======
 msgstr "Si está seleccionado, algunos mensajes tienen error de envío."
 >>>>>>> upstream/18.0
@@ -11730,7 +11845,11 @@ msgid "Read"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Leer"
+=======
+msgstr "Lectura"
+>>>>>>> upstream/18.0
 =======
 msgstr "Lectura"
 >>>>>>> upstream/18.0
@@ -12079,8 +12198,12 @@ msgid "Read: collaborators can view tasks but cannot edit them."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Lectura: los colaboradores pueden ver las tareas, pero no pueden editarlas."
+=======
+msgstr "Lectura: Los colaboradores pueden ver las tareas, pero no editarlas."
+>>>>>>> upstream/18.0
 =======
 msgstr "Lectura: Los colaboradores pueden ver las tareas, pero no editarlas."
 >>>>>>> upstream/18.0
@@ -12492,7 +12615,11 @@ msgid "Related Document Model"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Modelo del documento relacionado"
+=======
+msgstr "Modelo de documento relacionado"
+>>>>>>> upstream/18.0
 =======
 msgstr "Modelo de documento relacionado"
 >>>>>>> upstream/18.0
@@ -13558,10 +13685,17 @@ msgid ""
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
 msgstr ""
+<<<<<<< HEAD
 "El modelo (tipo de documento de Odoo) al que corresponde este seudónimo. "
 "Cualquier correo entrante que no sea respuesta a un registro existente "
 "creará un nuevo registro de este modelo (por ejemplo, una tarea de "
 "proyecto)."
+=======
+"El modelo (tipo de documento de Odoo) al que corresponde este alias. "
+"Cualquier correo entrante que no sea respuesta a un registro existente "
+"creará un nuevo registro de este modelo "
+"(por ejemplo, una tarea en el proyecto)."
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project__alias_name
@@ -13569,6 +13703,7 @@ msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
 "<jobs@example.odoo.com>"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14005,6 +14140,10 @@ msgstr ""
 =======
 "El nombre del seudónimo de correo, por ejemplo, \"vacantes\" para recibir "
 "mensajes en <vacantes@ejemplo.odoo.com>."
+>>>>>>> upstream/18.0
+=======
+"El nombre del alias del correo, por ejemplo, \"vacantes\" para recibir los "
+"mensajes de <vacantes@ejemplo.odoo.com>."
 >>>>>>> upstream/18.0
 
 #. module: project
@@ -14963,7 +15102,11 @@ msgid "You have been assigned to the"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Le asignaron al"
+=======
+msgstr "Le asignaron:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Le asignaron:"
 >>>>>>> upstream/18.0
@@ -15449,7 +15592,11 @@ msgid "You have been invited to follow %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Se le invitó a seguir %s"
+=======
+msgstr "Le invitaron a seguir %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Le invitaron a seguir %s"
 >>>>>>> upstream/18.0
@@ -15852,7 +15999,11 @@ msgstr "Sus gerentes seleccionan que comentarios aceptar"
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.edit_project
 msgid "alias"
+<<<<<<< HEAD
 msgstr "seudónimo"
+=======
+msgstr "alias"
+>>>>>>> upstream/18.0
 
 #. module: project
 #. odoo-javascript
@@ -16171,12 +16322,15 @@ msgstr "estado para marcar la tarea como completada."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/project/static/src/project_sharing/components/chatter/chatter_composer.xml:0
 msgid "state.message"
 msgstr "state.message"
 
 #. module: project
 #. odoo-javascript
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
