@@ -186,7 +186,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <field name="timesheet_ids" mode="list,kanban" readonly="not analytic_account_active" context="{'default_project_id': project_id, 'default_name': ''}">
+=======
+                    <field name="timesheet_ids" mode="list,kanban" readonly="not analytic_account_active" context="{'default_project_id': project_id, 'default_name': '', 'form_view_ref': 'hr_timesheet.timesheet_view_form_user'}">
+>>>>>>> upstream/18.0
 =======
                     <field name="timesheet_ids" mode="list,kanban" readonly="not analytic_account_active" context="{'default_project_id': project_id, 'default_name': '', 'form_view_ref': 'hr_timesheet.timesheet_view_form_user'}">
 >>>>>>> upstream/18.0
@@ -796,7 +800,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                         <field name="name" class="col-6 text-muted"/>
+=======
+                                        <field name="name" class="col-6 text-muted" required="0" readonly="readonly_timesheet"/>
+>>>>>>> upstream/18.0
 =======
                                         <field name="name" class="col-6 text-muted" required="0" readonly="readonly_timesheet"/>
 >>>>>>> upstream/18.0
@@ -1359,7 +1367,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <field name="allocated_hours" widget="timesheet_uom_no_toggle" sum="Total Allocated Time" invisible="allocated_hours == 0" optional="hide" groups="hr_timesheet.group_hr_timesheet_user" column_invisible="not context.get('allow_timesheets', True)"/>
+=======
+                    <field name="allocated_hours" widget="timesheet_uom_no_toggle" sum="Total Allocated Time" optional="hide" groups="hr_timesheet.group_hr_timesheet_user" column_invisible="not context.get('allow_timesheets', True)"/>
+>>>>>>> upstream/18.0
 =======
                     <field name="allocated_hours" widget="timesheet_uom_no_toggle" sum="Total Allocated Time" optional="hide" groups="hr_timesheet.group_hr_timesheet_user" column_invisible="not context.get('allow_timesheets', True)"/>
 >>>>>>> upstream/18.0

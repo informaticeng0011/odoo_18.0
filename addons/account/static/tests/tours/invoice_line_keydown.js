@@ -14,6 +14,7 @@ registry.category('web_tour.tours').add('section_saved_on_tab_keydown_tour', {
             trigger: 'div.o_field_widget.o_field_res_partner_many2one[name="partner_id"] div input',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             run: 'edit Deco Addict',
         },
         {
@@ -22,12 +23,17 @@ registry.category('web_tour.tours').add('section_saved_on_tab_keydown_tour', {
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             run: 'edit Partner A',
         },
         {
             content: "Valid customer",
             trigger: '.ui-menu-item a:contains("Partner A")',
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

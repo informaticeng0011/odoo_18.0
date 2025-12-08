@@ -122,7 +122,10 @@ from odoo import http
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.http import request
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -491,7 +494,11 @@ class CrmController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 return MailController._redirect_to_messaging()
+=======
+                return MailController._redirect_to_generic_fallback('crm.lead', res_id)
+>>>>>>> upstream/18.0
 =======
                 return MailController._redirect_to_generic_fallback('crm.lead', res_id)
 >>>>>>> upstream/18.0
@@ -974,7 +981,11 @@ class CrmController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 return MailController._redirect_to_messaging()
+=======
+                return MailController._redirect_to_generic_fallback('crm.lead', res_id)
+>>>>>>> upstream/18.0
 =======
                 return MailController._redirect_to_generic_fallback('crm.lead', res_id)
 >>>>>>> upstream/18.0
@@ -1457,7 +1468,11 @@ class CrmController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 return MailController._redirect_to_messaging()
+=======
+                return MailController._redirect_to_generic_fallback('crm.lead', res_id)
+>>>>>>> upstream/18.0
 =======
                 return MailController._redirect_to_generic_fallback('crm.lead', res_id)
 >>>>>>> upstream/18.0

@@ -78,7 +78,11 @@ registerWebsitePreviewTour("test_01_admin_shop_tour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     trigger: ":iframe .product_price .o_dirty .oe_currency_value:not(:contains(/^1.00$/))",
+=======
+    trigger: ":iframe .product_price .o_dirty .oe_currency_value:not(:text(1.00))",
+>>>>>>> upstream/18.0
 =======
     trigger: ":iframe .product_price .o_dirty .oe_currency_value:not(:text(1.00))",
 >>>>>>> upstream/18.0

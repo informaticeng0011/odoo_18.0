@@ -15,6 +15,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* crm_livechat
 # 
 # Translators:
@@ -521,6 +522,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # * crm_livechat
 #
 # Translators:
@@ -528,6 +531,7 @@
 # Marta Wacławek, 2025
 #
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -572,11 +576,15 @@
 =======
 # "Marta (wacm)" <wacm@odoo.com>, 2025.
 >>>>>>> upstream/18.0
+=======
+# "Marta (wacm)" <wacm@odoo.com>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1105,12 +1113,17 @@ msgstr ""
 "PO-Revision-Date: 2025-12-05 11:49+0000\n"
 "Last-Translator: \"Marta (wacm)\" <wacm@odoo.com>\n"
 >>>>>>> upstream/18.0
+=======
+"PO-Revision-Date: 2025-12-05 11:49+0000\n"
+"Last-Translator: \"Marta (wacm)\" <wacm@odoo.com>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Czech <https://translate.odoo.com/projects/odoo-18/"
 "crm_livechat/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n "
 "<= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
@@ -1160,13 +1173,22 @@ msgstr ""
 "(n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
 "X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : "
+"(n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: crm_livechat
 #. odoo-python
 #: code:addons/crm_livechat/models/chatbot_script_step.py:0
 msgid "%s's New Lead"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nové prospekty od %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nové prospekty od %s"
 >>>>>>> upstream/18.0
@@ -1175,7 +1197,11 @@ msgstr "Nové prospekty od %s"
 #: model:ir.model,name:crm_livechat.model_chatbot_script
 msgid "Chatbot Script"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Chatbot skript"
+=======
+msgstr "Skript chatbota"
+>>>>>>> upstream/18.0
 =======
 msgstr "Skript chatbota"
 >>>>>>> upstream/18.0
@@ -1184,7 +1210,11 @@ msgstr "Skript chatbota"
 #: model:ir.model,name:crm_livechat.model_chatbot_script_step
 msgid "Chatbot Script Step"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Chatbot krok skriptu"
+=======
+msgstr "Krok skriptu chatbota"
+>>>>>>> upstream/18.0
 =======
 msgstr "Krok skriptu chatbota"
 >>>>>>> upstream/18.0
@@ -1192,6 +1222,7 @@ msgstr "Krok skriptu chatbota"
 #. module: crm_livechat
 #: model:ir.model.fields.selection,name:crm_livechat.selection__chatbot_script_step__step_type__create_lead
 msgid "Create Lead"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1253,14 +1284,21 @@ msgstr "Vytvářejte leady"
 =======
 msgstr "Vytvořit lead"
 >>>>>>> upstream/18.0
+=======
+msgstr "Vytvořit lead"
+>>>>>>> upstream/18.0
 
 #. module: crm_livechat
 #. odoo-javascript
 #: code:addons/crm_livechat/static/src/core/channel_commands.js:0
 msgid "Create a new lead (/lead lead title)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Vytvořit nový potenciální zákazník (/potenciální zákazník název případu)"
+=======
+msgstr "Vytvořit nový lead (/lead titul leadu)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vytvořit nový lead (/lead titul leadu)"
 >>>>>>> upstream/18.0
@@ -1273,6 +1311,11 @@ msgid ""
 "title%(i_end)s%(pre_end)s"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Vytvořit nový prospekt:%(pre_start)s %(lead_command)s%(i_start)stitul "
+"prospektu%(i_end)s%(pre_end)s"
+>>>>>>> upstream/18.0
 =======
 "Vytvořit nový prospekt:%(pre_start)s %(lead_command)s%(i_start)stitul "
 "prospektu%(i_end)s%(pre_end)s"
@@ -1283,7 +1326,11 @@ msgstr ""
 #: code:addons/crm_livechat/models/discuss_channel.py:0
 msgid "Created a new lead: %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vytvořeno nový prospekt: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vytvořeno nový prospekt: %s"
 >>>>>>> upstream/18.0
@@ -1292,7 +1339,11 @@ msgstr "Vytvořeno nový prospekt: %s"
 #: model:ir.model,name:crm_livechat.model_discuss_channel
 msgid "Discussion Channel"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Diskuzní kanál"
+=======
+msgstr "Diskusní kanál"
+>>>>>>> upstream/18.0
 =======
 msgstr "Diskusní kanál"
 >>>>>>> upstream/18.0
@@ -1301,7 +1352,11 @@ msgstr "Diskusní kanál"
 #: model:ir.model.fields,field_description:crm_livechat.field_chatbot_script__lead_count
 msgid "Generated Lead Count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Počet generovaných prospektů"
+>>>>>>> upstream/18.0
 =======
 msgstr "Počet generovaných prospektů"
 >>>>>>> upstream/18.0
@@ -1310,7 +1365,11 @@ msgstr "Počet generovaných prospektů"
 #: model:chatbot.script.step,message:crm_livechat.chatbot_script_lead_generation_step_welcome
 msgid "Hi there, what brings you to our website today? 👋"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hezký den, co vás dnes přivádí na naše webové stránky? 👋"
+>>>>>>> upstream/18.0
 =======
 msgstr "Hezký den, co vás dnes přivádí na naše webové stránky? 👋"
 >>>>>>> upstream/18.0
@@ -1318,6 +1377,7 @@ msgstr "Hezký den, co vás dnes přivádí na naše webové stránky? 👋"
 #. module: crm_livechat
 #: model:chatbot.script.step,message:crm_livechat.chatbot_script_lead_generation_step_noone_available
 msgid "Hu-ho, it looks like none of our operators are available 🙁"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1851,12 +1911,19 @@ msgstr "Jejda, vypadá to, že žádný z naších operátorů není k dispozici
 =======
 msgstr "Jejda, vypadá to, že žádný z našich operátorů není k dispozici 🙁"
 >>>>>>> upstream/18.0
+=======
+msgstr "Jejda, vypadá to, že žádný z našich operátorů není k dispozici 🙁"
+>>>>>>> upstream/18.0
 
 #. module: crm_livechat
 #: model:chatbot.script,title:crm_livechat.chatbot_script_lead_generation_bot
 msgid "Lead Generation Bot"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bot pro generování prospektů"
+>>>>>>> upstream/18.0
 =======
 msgstr "Bot pro generování prospektů"
 >>>>>>> upstream/18.0
@@ -1870,7 +1937,11 @@ msgstr "Prospekty"
 #: model:ir.model.fields,field_description:crm_livechat.field_chatbot_script_step__crm_team_id
 msgid "Sales Team"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Obchodní tým"
+=======
+msgstr "Prodejní tým"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prodejní tým"
 >>>>>>> upstream/18.0
@@ -1884,7 +1955,11 @@ msgstr "Typ kroku"
 #: model:chatbot.script.step,message:crm_livechat.chatbot_script_welcome_step_just_looking
 msgid "Thank you, you should hear back from us very soon!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Děkujeme, brzy se vám ozveme!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Děkujeme, brzy se vám ozveme!"
 >>>>>>> upstream/18.0
@@ -1896,6 +1971,11 @@ msgid ""
 "assign the created lead/opportunity to the defined team"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Používá se v kombinaci s typem kroku „create_lead“ za účelem automatického "
+"přiřazení vytvořeného prospektu/příležitosti k definovanému týmu."
+>>>>>>> upstream/18.0
 =======
 "Používá se v kombinaci s typem kroku „create_lead“ za účelem automatického "
 "přiřazení vytvořeného prospektu/příležitosti k definovanému týmu."
@@ -2039,6 +2119,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "Mohli byste zanechat svou emailovou adresy, abychom vás mohli kontaktovat "
 "zpět?"
@@ -2566,6 +2647,10 @@ msgstr ""
 =======
 "Mohli byste zanechat svou emailovou adresy, abychom vás mohli kontaktovat "
 "zpět?"
+>>>>>>> upstream/18.0
+=======
+"Mohl byste nám zanechat svou e-mailovou adresu, abychom vás mohli "
+"kontaktovat?"
 >>>>>>> upstream/18.0
 =======
 "Mohl byste nám zanechat svou e-mailovou adresu, abychom vás mohli "

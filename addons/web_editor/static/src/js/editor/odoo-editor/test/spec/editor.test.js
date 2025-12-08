@@ -114,7 +114,10 @@ async function twoDeleteForward(editor) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -377,6 +380,9 @@ const pressEnter = editor => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1846,7 +1852,10 @@ X[]
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2112,6 +2121,9 @@ X[]
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2848,7 +2860,10 @@ X[]
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3118,6 +3133,9 @@ X[]
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3576,7 +3594,11 @@ X[]
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 it('should not break unbreakables', async () => {
+=======
+                it('should not break unbreakables (1)', async () => {
+>>>>>>> upstream/18.0
 =======
                 it('should not break unbreakables (1)', async () => {
 >>>>>>> upstream/18.0
@@ -3980,6 +4002,11 @@ X[]
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                });
+                it("should not break unbreakables (2)", async () => {
+>>>>>>> upstream/18.0
 =======
                 });
                 it("should not break unbreakables (2)", async () => {
@@ -4482,6 +4509,11 @@ X[]
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                });
+                it("should not break unbreakables (3)", async () => {
+>>>>>>> upstream/18.0
 =======
                 });
                 it("should not break unbreakables (3)", async () => {
@@ -4984,6 +5016,11 @@ X[]
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                });
+                it("should not break unbreakables (4)", async () => {
+>>>>>>> upstream/18.0
 =======
                 });
                 it("should not break unbreakables (4)", async () => {
@@ -5485,6 +5522,11 @@ X[]
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                });
+                it("should not break unbreakables (5)", async () => {
+>>>>>>> upstream/18.0
 =======
                 });
                 it("should not break unbreakables (5)", async () => {
@@ -5986,6 +6028,11 @@ X[]
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                });
+                it("should not break unbreakables (6)", async () => {
+>>>>>>> upstream/18.0
 =======
                 });
                 it("should not break unbreakables (6)", async () => {
@@ -6495,6 +6542,11 @@ X[]
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                });
+                it("should not break unbreakables (7)", async () => {
+>>>>>>> upstream/18.0
 =======
                 });
                 it("should not break unbreakables (7)", async () => {
@@ -7004,6 +7056,11 @@ X[]
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                });
+                it("should not break unbreakables (8)", async () => {
+>>>>>>> upstream/18.0
 =======
                 });
                 it("should not break unbreakables (8)", async () => {
@@ -9491,7 +9548,10 @@ X[]
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9785,6 +9845,9 @@ X[]
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11981,8 +12044,11 @@ X[]
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             stepFunction: async editor => editor.execCommand('applyColor', 'aquamarine', 'color'),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12490,6 +12556,9 @@ X[]
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

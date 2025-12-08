@@ -166,7 +166,11 @@ class MrpProduction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 labour_amounts[account] += wo._cal_cost()
+=======
+                labour_amounts[account] += wo.company_id.currency_id.round(wo._cal_cost())
+>>>>>>> upstream/18.0
 =======
                 labour_amounts[account] += wo.company_id.currency_id.round(wo._cal_cost())
 >>>>>>> upstream/18.0
@@ -457,7 +461,11 @@ class MrpProduction(models.Model):
         res = super()._post_inventory(cancel_backorder=cancel_backorder)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.filtered(lambda mo: mo.state == 'done')._post_labour()
+=======
+        self.filtered(lambda mo: not mo.reservation_state and mo.state == 'done')._post_labour()
+>>>>>>> upstream/18.0
 =======
         self.filtered(lambda mo: not mo.reservation_state and mo.state == 'done')._post_labour()
 >>>>>>> upstream/18.0

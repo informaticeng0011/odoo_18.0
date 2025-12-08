@@ -93,6 +93,7 @@ class ResConfigSettings(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     is_newsletter_enabled = fields.Boolean()
     newsletter_id = fields.Many2one(related='website_id.newsletter_id', readonly=False)
 
@@ -110,6 +111,8 @@ class ResConfigSettings(models.TransientModel):
         if newsletter_view.active != self.is_newsletter_enabled:
             newsletter_view.active = self.is_newsletter_enabled
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -396,6 +399,9 @@ class ResConfigSettings(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

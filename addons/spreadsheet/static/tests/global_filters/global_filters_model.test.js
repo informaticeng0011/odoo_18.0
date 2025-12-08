@@ -132,9 +132,15 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   defineSpreadsheetModels,
   getBasicPivotArch,
   getBasicServerData,
+=======
+    defineSpreadsheetModels,
+    getBasicPivotArch,
+    getBasicServerData,
+>>>>>>> upstream/18.0
 =======
     defineSpreadsheetModels,
     getBasicPivotArch,
@@ -2870,11 +2876,14 @@ test("getFiltersMatchingPivot return correctly matching filter according to cell
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     serverData.models.partner.records = [{
       id: 10000,
       product_id: false,
     }];
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3259,6 +3268,9 @@ test("getFiltersMatchingPivot return correctly matching filter according to cell
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3647,6 +3659,10 @@ test("getFiltersMatchingPivot return correctly matching filter according to cell
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    <field name="date" interval="quarter" type="col"/>
+>>>>>>> upstream/18.0
 =======
                     <field name="date" interval="quarter" type="col"/>
 >>>>>>> upstream/18.0
@@ -4184,11 +4200,14 @@ test("getFiltersMatchingPivot return correctly matching filter according to cell
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const relationalFiltersWithNoneValue = getFiltersMatchingPivot(model, '=PIVOT.HEADER(1,"#product_id",1)');
     expect(relationalFiltersWithNoneValue).toEqual([{ filterId: "42", value: undefined }]);
     const dateFilters1 = getFiltersMatchingPivot(model, '=PIVOT.HEADER(1,"date:month","08/2016")');
     expect(dateFilters1).toEqual([{ filterId: "43", value: { yearOffset: -6, period: "august" } }]);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4578,6 +4597,9 @@ test("getFiltersMatchingPivot return correctly matching filter according to cell
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5442,11 +5464,14 @@ test("Updating a non-odoo pivot should not crash on global filter", async () => 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         A1: "Customer",   B1: "Price", C1: `=PIVOT(1)`,
         A2: "Alice",      B2: "10",
         A3: "",           B3: "20",
         A4: "Olaf",       B4: "30",
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5834,6 +5859,9 @@ test("Updating a non-odoo pivot should not crash on global filter", async () => 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -312,6 +312,7 @@ class SaleProductConfiguratorController(Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -367,6 +368,8 @@ class SaleProductConfiguratorController(Controller):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         ptals = product_template.attribute_line_ids
         attrs_map = {
             attr_data['id']: attr_data
@@ -378,6 +381,9 @@ class SaleProductConfiguratorController(Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -403,6 +409,7 @@ class SaleProductConfiguratorController(Controller):
             quantity=quantity,
             attribute_lines=[dict(
                 id=ptal.id,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -476,6 +483,8 @@ class SaleProductConfiguratorController(Controller):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 attribute=dict(**attrs_map[ptal.attribute_id.id]),
                 attribute_values=[
                     dict(
@@ -484,6 +493,9 @@ class SaleProductConfiguratorController(Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

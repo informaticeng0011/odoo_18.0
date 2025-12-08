@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* delivery
 # 
 # Translators:
@@ -8,6 +9,8 @@
 # Marta Wacławek, 2025
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 # * delivery
 #
 # Translators:
@@ -15,12 +18,16 @@
 # Marta Wacławek, 2025
 #
 # "Marta (wacm)" <wacm@odoo.com>, 2025.
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-27 13:03+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Marta Wacławek, 2025\n"
@@ -31,6 +38,8 @@ msgstr ""
 "Language: cs\n"
 "Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-12-05 16:26+0000\n"
 "Last-Translator: \"Marta (wacm)\" <wacm@odoo.com>\n"
 "Language-Team: Czech <https://translate.odoo.com/projects/odoo-18/delivery/"
@@ -42,6 +51,9 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : "
 "(n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
 "X-Generator: Weblate 5.14.3\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: delivery
@@ -49,7 +61,11 @@ msgstr ""
 #: code:addons/delivery/wizard/choose_delivery_carrier.py:0
 msgid "%(carrier)s Error"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Chyba %(carrier)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Chyba %(carrier)s"
 >>>>>>> upstream/18.0
@@ -62,6 +78,11 @@ msgid ""
 "Free Shipping"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"%s\n"
+"Doprava zdarma"
+>>>>>>> upstream/18.0
 =======
 "%s\n"
 "Doprava zdarma"
@@ -77,7 +98,11 @@ msgstr "%s (kopie)"
 #: model_terms:ir.ui.view,arch_db:delivery.choose_delivery_carrier_view_form
 msgid "<i class=\"oi oi-arrow-right me-1\"/>Get rate"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"oi oi-arrow-right me-1\"/>Zjistit sazbu"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"oi oi-arrow-right me-1\"/>Zjistit sazbu"
 >>>>>>> upstream/18.0
@@ -91,11 +116,17 @@ msgid ""
 "                </p>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "<p class=\"o_view_nocontent\">\n"
 "                    Kupte si Odoo Enterprise teď a získejte více "
 "poskytovatelů.\n"
 "               </p>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: delivery
@@ -105,6 +136,11 @@ msgid ""
 "                                <span class=\"o_stat_text\">Environment</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"o_stat_text o_warning_text fw-bold\">Testovací </span>\n"
+"                                <span class=\"o_stat_text\">prostředí</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"o_stat_text o_warning_text fw-bold\">Testovací </span>\n"
 "                                <span class=\"o_stat_text\">prostředí</span>"
@@ -127,6 +163,11 @@ msgid ""
 "                                <span class=\"o_stat_text\">Environment</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"text-success\">Produkční</span>\n"
+"                                <span class=\"o_stat_text\">prostředí</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"text-success\">Produkční</span>\n"
 "                                <span class=\"o_stat_text\">prostředí</span>"
@@ -136,7 +177,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:delivery.delivery_report_saleorder_document
 msgid "<strong>Shipping Description</strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Popis dopravy</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Popis dopravy</strong>"
 >>>>>>> upstream/18.0
@@ -150,8 +195,13 @@ msgid ""
 msgstr ""
 "Popis způsobu doručení, který chcete sdělit svým zákazníkům v e-mailu s "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "objednávkou prodeje a potvrzením prodeje.Např. pokyny, kterými se mají "
 "zákazníci řídit. "
+=======
+"objednávkou prodeje a potvrzením prodeje. Např. pokyny, kterými se mají "
+"zákazníci řídit."
+>>>>>>> upstream/18.0
 =======
 "objednávkou prodeje a potvrzením prodeje. Např. pokyny, kterými se mají "
 "zákazníci řídit."
@@ -161,7 +211,11 @@ msgstr ""
 #: model:ir.model.fields,help:delivery.field_delivery_carrier__integration_level
 msgid "Action while validating Delivery Orders"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Akce při ověřování dodacích objednávek"
+=======
+msgstr "Akce při ověřování dodacích listů"
+>>>>>>> upstream/18.0
 =======
 msgstr "Akce při ověřování dodacích listů"
 >>>>>>> upstream/18.0
@@ -205,7 +259,12 @@ msgid ""
 "company currency"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Cena objednávky, nad kterou je doprava zdarma vyjádřena v měně společnosti"
+=======
+"Částka objednávky, při které máte nárok na dopravu zdarma, vyjádřená v měně "
+"společnosti"
+>>>>>>> upstream/18.0
 =======
 "Částka objednávky, při které máte nárok na dopravu zdarma, vyjádřená v měně "
 "společnosti"
@@ -253,6 +312,11 @@ msgid ""
 "Tags."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Dopravce %s nemůže mít stejnou značku v sekcích „Povinné značky“ i „"
+"Vyloučené značky“."
+>>>>>>> upstream/18.0
 =======
 "Dopravce %s nemůže mít stejnou značku v sekcích „Povinné značky“ i „"
 "Vyloučené značky“."
@@ -412,7 +476,11 @@ msgid "Choose a pick-up point"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vyberte výdejní místo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vyberte výdejní místo"
 >>>>>>> upstream/18.0
@@ -999,7 +1067,11 @@ msgid "Choose this location"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vyberte toto místo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vyberte toto místo"
 >>>>>>> upstream/18.0
@@ -1480,7 +1552,11 @@ msgstr "Země"
 #: model:ir.model.fields,field_description:delivery.field_delivery_zip_prefix__create_uid
 msgid "Created by"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Vytvořeno uživatelem"
+=======
+msgstr "Vytvořeno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vytvořeno"
 >>>>>>> upstream/18.0
@@ -1509,7 +1585,11 @@ msgstr "Zákazník"
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__debug_logging
 msgid "Debug logging"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Debug logování"
+=======
+msgstr "Záznamy pro ladění"
+>>>>>>> upstream/18.0
 =======
 msgstr "Záznamy pro ladění"
 >>>>>>> upstream/18.0
@@ -1524,7 +1604,11 @@ msgstr "Výchozí způsob doručení používaný v prodejních objednávkách."
 #: model_terms:ir.actions.act_window,help:delivery.action_delivery_carrier_form
 msgid "Define a new delivery method"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Definovat novou metodu doručení"
+=======
+msgstr "Definujte nový způsob doručení"
+>>>>>>> upstream/18.0
 =======
 msgstr "Definujte nový způsob doručení"
 >>>>>>> upstream/18.0
@@ -1533,7 +1617,11 @@ msgstr "Definujte nový způsob doručení"
 #: model_terms:ir.ui.view,arch_db:delivery.view_delivery_carrier_search
 msgid "Delivery Carrier"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Přepravce zásilek"
+=======
+msgstr "Dopravce"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dopravce"
 >>>>>>> upstream/18.0
@@ -1562,7 +1650,11 @@ msgstr "Zpráva o dodání"
 #: model_terms:ir.ui.view,arch_db:delivery.view_delivery_carrier_form
 msgid "Delivery Method"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Způsob dodání"
+=======
+msgstr "Způsob doručení"
+>>>>>>> upstream/18.0
 =======
 msgstr "Způsob doručení"
 >>>>>>> upstream/18.0
@@ -1572,7 +1664,11 @@ msgstr "Způsob doručení"
 #: model:ir.ui.menu,name:delivery.sale_menu_action_delivery_carrier_form
 msgid "Delivery Methods"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Způsoby dodání"
+=======
+msgstr "Způsoby doručení"
+>>>>>>> upstream/18.0
 =======
 msgstr "Způsoby doručení"
 >>>>>>> upstream/18.0
@@ -1581,7 +1677,11 @@ msgstr "Způsoby doručení"
 #: model:ir.model.fields,field_description:delivery.field_choose_delivery_carrier__delivery_price
 msgid "Delivery Price"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Cena dodání"
+=======
+msgstr "Cena za doručení"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cena za doručení"
 >>>>>>> upstream/18.0
@@ -1600,7 +1700,11 @@ msgstr "Dodání výrobku"
 #: model:ir.model.fields,field_description:delivery.field_sale_order__delivery_set
 msgid "Delivery Set"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dodací sada"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dodací sada"
 >>>>>>> upstream/18.0
@@ -1609,7 +1713,11 @@ msgstr "Dodací sada"
 #: model:ir.model,name:delivery.model_delivery_zip_prefix
 msgid "Delivery Zip Prefix"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Dodací PSČ"
+=======
+msgstr "Předpona PSČ pro doručení"
+>>>>>>> upstream/18.0
 =======
 msgstr "Předpona PSČ pro doručení"
 >>>>>>> upstream/18.0
@@ -1619,7 +1727,11 @@ msgstr "Předpona PSČ pro doručení"
 #: model:ir.model.fields,field_description:delivery.field_sale_order_line__recompute_delivery_price
 msgid "Delivery cost should be recomputed"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Náklady na dopravu by měly být přepočítány."
+>>>>>>> upstream/18.0
 =======
 msgstr "Náklady na dopravu by měly být přepočítány."
 >>>>>>> upstream/18.0
@@ -1631,6 +1743,11 @@ msgid ""
 "            which zips it is available to."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Předpony PSČ pro doručení jsou přiřazeny přepravcům, aby omezily\n"
+"            PSČ, pro které je doručení dostupné."
+>>>>>>> upstream/18.0
 =======
 "Předpony PSČ pro doručení jsou přiřazeny přepravcům, aby omezily\n"
 "            PSČ, pro které je doručení dostupné."
@@ -1672,11 +1789,17 @@ msgid ""
 "            to each method."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "Každý dopravce (např. UPS) může mít několik způsobů doručení (např.\n"
 "            UPS Express, UPS Standard) s řadou cenových pravidel "
 "připojených\n"
 "            ke každému způsobu."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: delivery
@@ -1695,7 +1818,11 @@ msgstr "Chyba: tato metoda doručení není k dispozici pro tuto adresu."
 #: code:addons/delivery/models/delivery_carrier.py:0
 msgid "Error: this delivery method is not available."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Chyba: tento způsob doručení není k dispozici."
+>>>>>>> upstream/18.0
 =======
 msgstr "Chyba: tento způsob doručení není k dispozici."
 >>>>>>> upstream/18.0
@@ -1707,13 +1834,19 @@ msgid ""
 "Real Cost: the customer will be invoiced the real cost of the shipping, the cost of theshipping will be updated on the SO after the delivery."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Odhadované náklady: zákazníkovi budou fakturovány odhadované náklady na dopravu.\n"
 "Skutečné náklady: zákazníkovi budou fakturovány skutečné náklady na dopravu, náklady na dopravu budou aktualizovány na SO po doručení."
 =======
+=======
+>>>>>>> upstream/18.0
 "Odhadované náklady: zákazníkovi budou fakturovány odhadované náklady na "
 "dopravu.\n"
 "Skutečné náklady: zákazníkovi budou fakturovány skutečné náklady na dopravu, "
 "náklady na dopravu budou aktualizovány na SO po doručení."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: delivery
@@ -1740,6 +1873,11 @@ msgid ""
 " to the content of the order or its destination."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Vyplněním tohoto formuláře můžete zvolit způsob dopravy podle obsahu "
+"objednávky nebo místa určení."
+>>>>>>> upstream/18.0
 =======
 "Vyplněním tohoto formuláře můžete zvolit způsob dopravy podle obsahu "
 "objednávky nebo místa určení."
@@ -1749,7 +1887,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__fixed_margin
 msgid "Fixed Margin"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pevná marže"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pevná marže"
 >>>>>>> upstream/18.0
@@ -1764,7 +1906,11 @@ msgstr "Pevná cena"
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__free_over
 msgid "Free if order amount is above"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Zdarma, pokud je objednávka vyšší"
+=======
+msgstr "Zdarma při objednávce nad"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zdarma při objednávce nad"
 >>>>>>> upstream/18.0
@@ -1773,7 +1919,11 @@ msgstr "Zdarma při objednávce nad"
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__return_label_on_delivery
 msgid "Generate Return Label"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vytvořit zpáteční štítek"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vytvořit zpáteční štítek"
 >>>>>>> upstream/18.0
@@ -1808,8 +1958,13 @@ msgid ""
 "value, the customer benefits from a free shipping"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Pokud je celková částka objednávky (bez dopravy) vyšší nebo rovna této "
 "hodnotě, zákazník má benefit z bezplatné dopravy"
+=======
+"Pokud celková částka objednávky (bez dopravy) přesahuje nebo se rovná této "
+"hodnotě, zákazník má nárok na dopravu zdarma."
+>>>>>>> upstream/18.0
 =======
 "Pokud celková částka objednávky (bez dopravy) přesahuje nebo se rovná této "
 "hodnotě, zákazník má nárok na dopravu zdarma."
@@ -1822,6 +1977,11 @@ msgid ""
 "available."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Pokud celkový objem objednávky překročí tento objem, metoda nebude k "
+"dispozici."
+>>>>>>> upstream/18.0
 =======
 "Pokud celkový objem objednávky překročí tento objem, metoda nebude k "
 "dispozici."
@@ -1834,6 +1994,11 @@ msgid ""
 "available."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Pokud celková hmotnost objednávky překročí tuto hmotnost, nebude tato metoda "
+"k dispozici."
+>>>>>>> upstream/18.0
 =======
 "Pokud celková hmotnost objednávky překročí tuto hmotnost, nebude tato metoda "
 "k dispozici."
@@ -1848,7 +2013,11 @@ msgstr "Instalovat více poskytovatelů"
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__shipping_insurance
 msgid "Insurance Percentage"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Procento pojištění"
+>>>>>>> upstream/18.0
 =======
 msgstr "Procento pojištění"
 >>>>>>> upstream/18.0
@@ -1862,7 +2031,11 @@ msgstr "Úroveň integrace"
 #: model:ir.model.fields,field_description:delivery.field_choose_delivery_carrier__invoicing_message
 msgid "Invoicing Message"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fakturační zpráva"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fakturační zpráva"
 >>>>>>> upstream/18.0
@@ -1871,7 +2044,11 @@ msgstr "Fakturační zpráva"
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__invoice_policy
 msgid "Invoicing Policy"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Fakturační zvyklosti"
+=======
+msgstr "Zásady fakturace"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zásady fakturace"
 >>>>>>> upstream/18.0
@@ -1888,7 +2065,11 @@ msgstr "Je dodávka"
 #: model:ir.model.fields,field_description:delivery.field_delivery_zip_prefix__write_uid
 msgid "Last Updated by"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Naposledy upraveno uživatelem"
+=======
+msgstr "Naposledy aktualizováno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Naposledy aktualizováno"
 >>>>>>> upstream/18.0
@@ -1900,7 +2081,11 @@ msgstr "Naposledy aktualizováno"
 #: model:ir.model.fields,field_description:delivery.field_delivery_zip_prefix__write_date
 msgid "Last Updated on"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Naposledy upraveno dne"
+=======
+msgstr "Poslední aktualizace dne"
+>>>>>>> upstream/18.0
 =======
 msgstr "Poslední aktualizace dne"
 >>>>>>> upstream/18.0
@@ -1921,7 +2106,11 @@ msgstr "Načítání..."
 #: model:delivery.carrier,name:delivery.delivery_local_delivery
 msgid "Local Delivery"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Místní doručení"
+>>>>>>> upstream/18.0
 =======
 msgstr "Místní doručení"
 >>>>>>> upstream/18.0
@@ -1930,7 +2119,11 @@ msgstr "Místní doručení"
 #: model:ir.model.fields,help:delivery.field_delivery_carrier__debug_logging
 msgid "Log requests in order to ease debugging"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Zaznamenávejte požadavku pro jednodušší debugování"
+=======
+msgstr "Zaznamenávejte požadavky pro jednodušší ladění"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zaznamenávejte požadavky pro jednodušší ladění"
 >>>>>>> upstream/18.0
@@ -1939,7 +2132,11 @@ msgstr "Zaznamenávejte požadavky pro jednodušší ladění"
 #: model_terms:ir.actions.act_window,help:delivery.action_delivery_zip_prefix_list
 msgid "Manage delivery zip prefixes"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Správa předpon PSČ pro doručení"
+>>>>>>> upstream/18.0
 =======
 msgstr "Správa předpon PSČ pro doručení"
 >>>>>>> upstream/18.0
@@ -2093,7 +2290,11 @@ msgid "Map view"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mapové zobrazení"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mapové zobrazení"
 >>>>>>> upstream/18.0
@@ -2544,7 +2745,11 @@ msgstr "Marže nemůže být nižší než -100%"
 #: model_terms:ir.ui.view,arch_db:delivery.view_delivery_carrier_form
 msgid "Margin on Rate"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Marže na sazbě"
+>>>>>>> upstream/18.0
 =======
 msgstr "Marže na sazbě"
 >>>>>>> upstream/18.0
@@ -2553,7 +2758,11 @@ msgstr "Marže na sazbě"
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__max_volume
 msgid "Max Volume"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Maximální hlasitost"
+>>>>>>> upstream/18.0
 =======
 msgstr "Maximální hlasitost"
 >>>>>>> upstream/18.0
@@ -2572,7 +2781,11 @@ msgstr "Maximální hodnota"
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__must_have_tag_ids
 msgid "Must Have Tags"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nezbytné tagy"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nezbytné tagy"
 >>>>>>> upstream/18.0
@@ -2587,7 +2800,11 @@ msgstr "Název"
 #: code:addons/delivery/models/delivery_carrier.py:0
 msgid "New Providers"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Noví poskytovatelé"
+>>>>>>> upstream/18.0
 =======
 msgstr "Noví poskytovatelé"
 >>>>>>> upstream/18.0
@@ -2597,7 +2814,11 @@ msgstr "Noví poskytovatelé"
 #: code:addons/delivery/models/sale_order.py:0
 msgid "No pick-up points are available for this delivery address."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pro tuto dodací adresu nejsou k dispozici žádné výdejní místa."
+>>>>>>> upstream/18.0
 =======
 msgstr "Pro tuto dodací adresu nejsou k dispozici žádné výdejní místa."
 >>>>>>> upstream/18.0
@@ -2751,7 +2972,11 @@ msgid "No result"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Žádné výsledky"
+>>>>>>> upstream/18.0
 =======
 msgstr "Žádné výsledky"
 >>>>>>> upstream/18.0
@@ -3193,7 +3418,11 @@ msgstr "Žádné výsledky"
 #: code:addons/delivery/models/delivery_carrier.py:0
 msgid "Not available for current order"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Není k dispozici pro aktuální objednávku"
+>>>>>>> upstream/18.0
 =======
 msgstr "Není k dispozici pro aktuální objednávku"
 >>>>>>> upstream/18.0
@@ -3348,7 +3577,11 @@ msgid "Opening hours"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Otevírací doba"
+>>>>>>> upstream/18.0
 =======
 msgstr "Otevírací doba"
 >>>>>>> upstream/18.0
@@ -3799,7 +4032,11 @@ msgstr "Objednávka"
 #: model:ir.model.fields,field_description:delivery.field_sale_order__pickup_location_data
 msgid "Pickup Location Data"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Údaje o místě vyzvednutí"
+>>>>>>> upstream/18.0
 =======
 msgstr "Údaje o místě vyzvednutí"
 >>>>>>> upstream/18.0
@@ -3808,7 +4045,11 @@ msgstr "Údaje o místě vyzvednutí"
 #: model_terms:ir.ui.view,arch_db:delivery.view_delivery_carrier_form
 msgid "Please select a country before choosing a state or a zip prefix."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Před výběrem státu nebo předčíslí PSČ vyberte zemi."
+>>>>>>> upstream/18.0
 =======
 msgstr "Před výběrem státu nebo předčíslí PSČ vyberte zemi."
 >>>>>>> upstream/18.0
@@ -3822,7 +4063,11 @@ msgstr "Předčíslí"
 #: model:ir.model.constraint,message:delivery.constraint_delivery_zip_prefix_name_uniq
 msgid "Prefix already exists!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Předpona již existuje!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Předpona již existuje!"
 >>>>>>> upstream/18.0
@@ -3836,12 +4081,18 @@ msgid ""
 "will only match '100' and not '1000')"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "Předpony poštovních směrovacích čísel, které tento dopravce používá. "
 "Upozorňujeme, že pro podporu zemí s různou délkou poštovních směrovacích "
 "čísel lze použít regulární výrazy, tj. na konec předpony lze přidat znak „$“"
 ", aby se shodoval s přesným poštovním směrovacím číslem "
 "(např. „100$“ se bude shodovat pouze s „100“, nikoli s „1000“)."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: delivery
@@ -3893,7 +4144,11 @@ msgstr "Množství"
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__get_return_label_from_portal
 msgid "Return Label Accessible from Customer Portal"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Štítek pro vracení zboží přístupný z portálu zákazníka"
+>>>>>>> upstream/18.0
 =======
 msgstr "Štítek pro vracení zboží přístupný z portálu zákazníka"
 >>>>>>> upstream/18.0
@@ -3934,7 +4189,11 @@ msgstr "Sekvence"
 #: model:ir.model.fields,field_description:delivery.field_sale_order__is_all_service
 msgid "Service Product"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Servisní produkt"
+>>>>>>> upstream/18.0
 =======
 msgstr "Servisní produkt"
 >>>>>>> upstream/18.0
@@ -3944,8 +4203,13 @@ msgstr "Servisní produkt"
 msgid "Set to True if your credentials are certified for production."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Pokud jsou vaše přihlašovací údaje certifikovány pro výrobu, nastavte na "
 "true."
+=======
+"Nastavte na hodnotu True, pokud jsou vaše přihlašovací údaje certifikovány "
+"pro produkční prostředí."
+>>>>>>> upstream/18.0
 =======
 "Nastavte na hodnotu True, pokud jsou vaše přihlašovací údaje certifikovány "
 "pro produkční prostředí."
@@ -3974,8 +4238,13 @@ msgid ""
 "are lost, stolen, and/or damaged in transit."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Pojištění přepravy je služba, která může odesílatelům uhradit ztrátu, krádež"
 " a/nebo poškození zásilky během přepravy."
+=======
+"Pojištění přepravy je služba, která může odesílatelům uhradit ztrátu, krádež "
+"a/nebo poškození zásilky během přepravy."
+>>>>>>> upstream/18.0
 =======
 "Pojištění přepravy je služba, která může odesílatelům uhradit ztrátu, krádež "
 "a/nebo poškození zásilky během přepravy."
@@ -3996,7 +4265,11 @@ msgstr ""
 #: model:product.template,name:delivery.product_product_delivery_product_template
 msgid "Standard delivery"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Standardní doručení"
+>>>>>>> upstream/18.0
 =======
 msgstr "Standardní doručení"
 >>>>>>> upstream/18.0
@@ -4010,7 +4283,11 @@ msgstr "Státy"
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__supports_shipping_insurance
 msgid "Supports Shipping Insurance"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Podporuje pojištění přepravy"
+>>>>>>> upstream/18.0
 =======
 msgstr "Podporuje pojištění přepravy"
 >>>>>>> upstream/18.0
@@ -4028,6 +4305,11 @@ msgid ""
 "these tags."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Metoda NENÍ k dispozici, pokud alespoň jeden produkt v objednávce má "
+"některou z těchto značek."
+>>>>>>> upstream/18.0
 =======
 "Metoda NENÍ k dispozici, pokud alespoň jeden produkt v objednávce má "
 "některou z těchto značek."
@@ -4040,6 +4322,11 @@ msgid ""
 " these tags."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Tato metoda je k dispozici pouze v případě, že alespoň jeden produkt v "
+"objednávce má jednu z těchto značek."
+>>>>>>> upstream/18.0
 =======
 "Tato metoda je k dispozici pouze v případě, že alespoň jeden produkt v "
 "objednávce má jednu z těchto značek."
@@ -4050,7 +4337,12 @@ msgstr ""
 msgid ""
 "The return label can be downloaded by the customer from the customer portal."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Zpětný štítek si může zákazník stáhnout ze zákaznického portálu."
+=======
+msgstr ""
+"Zákazník si může štítek pro vrácení zboží stáhnout z portálu pro zákazníky."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "Zákazník si může štítek pro vrácení zboží stáhnout z portálu pro zákazníky."
@@ -4060,7 +4352,11 @@ msgstr ""
 #: model:ir.model.fields,help:delivery.field_delivery_carrier__return_label_on_delivery
 msgid "The return label is automatically generated at the delivery."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vratná etiketa se generuje automaticky při doručení."
+>>>>>>> upstream/18.0
 =======
 msgstr "Vratná etiketa se generuje automaticky při doručení."
 >>>>>>> upstream/18.0
@@ -4069,7 +4365,11 @@ msgstr "Vratná etiketa se generuje automaticky při doručení."
 #: model:ir.model.constraint,message:delivery.constraint_delivery_carrier_shipping_insurance_is_percentage
 msgid "The shipping insurance must be a percentage between 0 and 100."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pojištění přepravy musí být vyjádřeno v procentech mezi 0 a 100."
+>>>>>>> upstream/18.0
 =======
 msgstr "Pojištění přepravy musí být vyjádřeno v procentech mezi 0 a 100."
 >>>>>>> upstream/18.0
@@ -4079,7 +4379,11 @@ msgstr "Pojištění přepravy musí být vyjádřeno v procentech mezi 0 a 100.
 #: code:addons/delivery/models/delivery_carrier.py:0
 msgid "The shipping is free since the order amount exceeds %.2f."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Doprava je zdarma, protože hodnota objednávky přesahuje %.2f."
+>>>>>>> upstream/18.0
 =======
 msgstr "Doprava je zdarma, protože hodnota objednávky přesahuje %.2f."
 >>>>>>> upstream/18.0
@@ -4233,7 +4537,11 @@ msgid "There was an error loading the map"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pří načítání mapy došlo k chybě"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pří načítání mapy došlo k chybě"
 >>>>>>> upstream/18.0
@@ -4678,6 +4986,12 @@ msgid ""
 "            quotation) or the invoice (based on the delivery orders)."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Tyto metody umožňují automaticky vypočítat cenu dodávky\n"
+"podle vašich nastavení; na prodejní objednávce (na základě nabídky) nebo na "
+"faktuře (na základě dodacích listů)."
+>>>>>>> upstream/18.0
 =======
 "Tyto metody umožňují automaticky vypočítat cenu dodávky\n"
 "podle vašich nastavení; na prodejní objednávce (na základě nabídky) nebo na "
@@ -4688,7 +5002,11 @@ msgstr ""
 #: model:ir.model.fields,help:delivery.field_delivery_carrier__fixed_margin
 msgid "This fixed amount will be added to the shipping price."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tato pevná částka bude připočítána k ceně dopravy."
+>>>>>>> upstream/18.0
 =======
 msgstr "Tato pevná částka bude připočítána k ceně dopravy."
 >>>>>>> upstream/18.0
@@ -4700,6 +5018,12 @@ msgid ""
 "package easily. Use <shipmenttrackingnumber> as a placeholder in your URL."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Tato možnost přidá do portálu odkaz, pomocí kterého může zákazník snadno "
+"sledovat svou zásilku. Jako zástupný symbol v URL použijte "
+"<shipmenttrackingnumber>."
+>>>>>>> upstream/18.0
 =======
 "Tato možnost přidá do portálu odkaz, pomocí kterého může zákazník snadno "
 "sledovat svou zásilku. Jako zástupný symbol v URL použijte "
@@ -4715,7 +5039,11 @@ msgstr "Toto procento bude připočteno k přepravní ceně."
 #: model:ir.model.fields,field_description:delivery.field_choose_delivery_carrier__total_weight
 msgid "Total Order Weight"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Celková hmotnost objednávky"
+>>>>>>> upstream/18.0
 =======
 msgstr "Celková hmotnost objednávky"
 >>>>>>> upstream/18.0
@@ -4724,7 +5052,11 @@ msgstr "Celková hmotnost objednávky"
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__tracking_url
 msgid "Tracking Link"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sledovací odkaz"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sledovací odkaz"
 >>>>>>> upstream/18.0
@@ -4745,7 +5077,11 @@ msgstr "Aktualizovat přepravní náklady"
 #: model:ir.model.fields,field_description:delivery.field_delivery_price_rule__variable
 msgid "Variable"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Proměnné"
+=======
+msgstr "Proměnná"
+>>>>>>> upstream/18.0
 =======
 msgstr "Proměnná"
 >>>>>>> upstream/18.0
@@ -4782,7 +5118,11 @@ msgstr "Hmotnost * Objem"
 #: model:ir.model.fields,field_description:delivery.field_choose_delivery_carrier__weight_uom_name
 msgid "Weight Uom Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Název jednotky hmotnosti"
+>>>>>>> upstream/18.0
 =======
 msgstr "Název jednotky hmotnosti"
 >>>>>>> upstream/18.0
@@ -4802,13 +5142,19 @@ msgid ""
 "\n"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "Náklady na dopravu nelze aktualizovat u objednávky, která již byla "
 "fakturována!\n"
 "\n"
 "Následující řádky dodávky (produkt, fakturované množství a cena) již byly "
 "zpracovány:\n"
 "\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: delivery
@@ -4819,6 +5165,11 @@ msgid ""
 "delivery carriers products."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Kategorie produktů „dodávky“ nelze smazat, protože se používá u produktů "
+"přepravců."
+>>>>>>> upstream/18.0
 =======
 "Kategorie produktů „dodávky“ nelze smazat, protože se používá u produktů "
 "přepravců."
@@ -4973,7 +5324,11 @@ msgid "Your postal code"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vaše PSČ"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vaše PSČ"
 >>>>>>> upstream/18.0
@@ -5414,7 +5769,11 @@ msgstr "Vaše PSČ"
 #: model:ir.actions.act_window,name:delivery.action_delivery_zip_prefix_list
 msgid "Zip Prefix"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "PSČ"
+=======
+msgstr "Předpona PSČ"
+>>>>>>> upstream/18.0
 =======
 msgstr "Předpona PSČ"
 >>>>>>> upstream/18.0
@@ -5423,7 +5782,11 @@ msgstr "Předpona PSČ"
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__zip_prefix_ids
 msgid "Zip Prefixes"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Předpony směrovacích čísel"
+=======
+msgstr "Předpony PSČ"
+>>>>>>> upstream/18.0
 =======
 msgstr "Předpony PSČ"
 >>>>>>> upstream/18.0
@@ -5437,7 +5800,11 @@ msgstr "např. UPS Express"
 #: model_terms:ir.ui.view,arch_db:delivery.view_delivery_carrier_form
 msgid "i.e. https://ekartlogistics.com/shipmenttrack/<shipmenttrackingnumber>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "tj. https://ekartlogistics.com/shipmenttrack/<shipmenttrackingnumber>"
+>>>>>>> upstream/18.0
 =======
 msgstr "tj. https://ekartlogistics.com/shipmenttrack/<shipmenttrackingnumber>"
 >>>>>>> upstream/18.0

@@ -22,6 +22,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        'web.assets_tests': [
+            'pos_account_tax_python/static/tests/tours/**/*',
+        ],
+>>>>>>> upstream/18.0
 =======
         'web.assets_tests': [
             'pos_account_tax_python/static/tests/tours/**/*',

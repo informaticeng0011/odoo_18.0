@@ -29,12 +29,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* google_gmail
 # 
 # Translators:
 # Wil Odoo, 2024
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -125,6 +128,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -187,6 +193,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -283,6 +290,9 @@ msgstr ""
 =======
 "PO-Revision-Date: 2025-12-02 17:05+0000\n"
 >>>>>>> upstream/18.0
+=======
+"PO-Revision-Date: 2025-12-02 17:05+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: \"Marta (wacm)\" <wacm@odoo.com>\n"
 "Language-Team: Polish <https://translate.odoo.com/projects/odoo-18/"
 "google_gmail/pl/>\n"
@@ -290,6 +300,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && ("
 "n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && "
@@ -378,10 +389,15 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && "
 "(n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || "
 "(n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 "X-Generator: Weblate 5.14.3\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: google_gmail
@@ -389,7 +405,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:google_gmail.ir_mail_server_view_form
 msgid "<i class=\"fa fa-cog\" title=\"Edit Settings\"/>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<i class=\"fa fa-cog\" title=\"Edit Settings\"/>"
+=======
+msgstr "<i class=\"fa fa-cog\" title=\"Edytuj ustawienia\"/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-cog\" title=\"Edytuj ustawienia\"/>"
 >>>>>>> upstream/18.0
@@ -430,6 +450,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"oi oi-arrow-right\"/>\n"
+"                        Połącz swoje konto Gmail"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"oi oi-arrow-right\"/>\n"
 "                        Połącz swoje konto Gmail"
@@ -583,7 +608,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -672,6 +700,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -766,7 +797,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -856,6 +890,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -927,7 +964,11 @@ msgstr "Token dostępu"
 #: model:ir.model.fields,field_description:google_gmail.field_ir_mail_server__google_gmail_access_token_expiration
 msgid "Access Token Expiration Timestamp"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Timestamp zakończenia tokena dostępu"
+=======
+msgstr "Data wygaśnięcia tokena dostępu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Data wygaśnięcia tokena dostępu"
 >>>>>>> upstream/18.0
@@ -937,7 +978,11 @@ msgstr "Data wygaśnięcia tokena dostępu"
 #: code:addons/google_gmail/controllers/main.py:0
 msgid "An error occur during the authentication process."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Wystąpił błąd podczas procesu autentykacji."
+=======
+msgstr "Wystąpił błąd podczas procesu uwierzytelniania."
+>>>>>>> upstream/18.0
 =======
 msgstr "Wystąpił błąd podczas procesu uwierzytelniania."
 >>>>>>> upstream/18.0
@@ -974,7 +1019,12 @@ msgid ""
 msgstr ""
 "Połącz konto Gmail za pomocą autentykacji OAuth.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Zostaniesz przekierowany do strony logowania Gmail gdzie udzielisz odpowiednie uprawnienia."
+=======
+"Zostaniesz przekierowany do strony logowania Gmail gdzie udzielisz "
+"odpowiednie uprawnienia."
+>>>>>>> upstream/18.0
 =======
 "Zostaniesz przekierowany do strony logowania Gmail gdzie udzielisz "
 "odpowiednie uprawnienia."
@@ -988,8 +1038,14 @@ msgid ""
 "By default, only a user with a matching email address will be able to use this server. To extend its use, you should set a \"mail.default.from\" system parameter."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Połącz konto Gmail za pomocą autentykacji OAuth. \n"
 "Domyślnie, jedynie użytkownik z odpowiednim adresem email może używać tego serwera. Aby to zmienić, powinieneś ustawić parametr \"mail.default.form\"."
+=======
+"Połącz konto Gmail za pomocą uwierzytelniania OAuth. \n"
+"Domyślnie, jedynie użytkownik z odpowiednim adresem email może używać tego "
+"serwera. Aby to zmienić, powinieneś ustawić parametr \"mail.default.form\"."
+>>>>>>> upstream/18.0
 =======
 "Połącz konto Gmail za pomocą uwierzytelniania OAuth. \n"
 "Domyślnie, jedynie użytkownik z odpowiednim adresem email może używać tego "
@@ -1011,7 +1067,11 @@ msgstr "Sekret klienta Gmail"
 #: model:ir.model.fields.selection,name:google_gmail.selection__ir_mail_server__smtp_authentication__gmail
 msgid "Gmail OAuth Authentication"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Gmail Autentykacja OAuth"
+=======
+msgstr "Gmail uwierzytelnianie OAuth"
+>>>>>>> upstream/18.0
 =======
 msgstr "Gmail uwierzytelnianie OAuth"
 >>>>>>> upstream/18.0
@@ -1048,7 +1108,11 @@ msgid "Google Gmail Mixin"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Google Gmail Mixin"
+=======
+msgstr "Mixin Google Gmail"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mixin Google Gmail"
 >>>>>>> upstream/18.0
@@ -1188,6 +1252,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nieprawidłowe zabezpieczenia połączenia dla serwera pocztowego Gmail \"%s\". "
+"Ustaw opcję „TLS (STARTTLS)”."
+>>>>>>> upstream/18.0
 =======
 "Nieprawidłowe zabezpieczenia połączenia dla serwera pocztowego Gmail \"%s\". "
 "Ustaw opcję „TLS (STARTTLS)”."
@@ -1343,7 +1412,11 @@ msgid "Only the administrator can link a Gmail mail server."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tylko administrator może linkować serwer poczty Gmail"
+=======
+msgstr "Tylko administrator może linkować serwer poczty Gmail."
+>>>>>>> upstream/18.0
 =======
 msgstr "Tylko administrator może linkować serwer poczty Gmail."
 >>>>>>> upstream/18.0
@@ -1475,6 +1548,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"W polu \"Nazwa użytkownika\" wpisz swoją nazwę użytkownika Gmail (adres "
+"e-mail). Powinno to być to samo konto, które zostało użyte do uzyskania "
+"tokenu uwierzytelniającego Gmail OAuthentication."
+>>>>>>> upstream/18.0
 =======
 "W polu \"Nazwa użytkownika\" wpisz swoją nazwę użytkownika Gmail (adres "
 "e-mail). Powinno to być to samo konto, które zostało użyte do uzyskania "
@@ -1657,6 +1736,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Pozostaw pole hasła puste dla serwera pocztowego Gmail \"%s\". Proces OAuth "
+"nie wymaga podania hasła."
+>>>>>>> upstream/18.0
 =======
 "Pozostaw pole hasła puste dla serwera pocztowego Gmail \"%s\". Proces OAuth "
 "nie wymaga podania hasła."
@@ -1778,7 +1862,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:google_gmail.ir_mail_server_view_form
 msgid "Read More"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Czytaj Więcej"
+=======
+msgstr "Czytaj dalej"
+>>>>>>> upstream/18.0
 =======
 msgstr "Czytaj dalej"
 >>>>>>> upstream/18.0
@@ -1789,7 +1877,11 @@ msgstr "Czytaj dalej"
 #: model:ir.model.fields,field_description:google_gmail.field_ir_mail_server__google_gmail_refresh_token
 msgid "Refresh Token"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Token odświeżania"
+=======
+msgstr "Odśwież token"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odśwież token"
 >>>>>>> upstream/18.0
@@ -1802,6 +1894,7 @@ msgstr "Sekret"
 #. module: google_gmail
 #: model_terms:ir.ui.view,arch_db:google_gmail.res_config_settings_view_form
 msgid "Secret of your Google app"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1919,6 +2012,9 @@ msgstr "Hasło Twojej aplikacji Google."
 =======
 msgstr "Hasło Twojej aplikacji Google."
 >>>>>>> upstream/18.0
+=======
+msgstr "Hasło Twojej aplikacji Google."
+>>>>>>> upstream/18.0
 
 #. module: google_gmail
 #: model:ir.model.fields,field_description:google_gmail.field_fetchmail_server__server_type
@@ -1948,7 +2044,11 @@ msgstr "Adres do generowania kodu autoryzacji w Google"
 #: model:ir.model.fields,field_description:google_gmail.field_ir_mail_server__google_gmail_uri
 msgid "URI"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Adres URI"
+=======
+msgstr "URI"
+>>>>>>> upstream/18.0
 =======
 msgstr "URI"
 >>>>>>> upstream/18.0

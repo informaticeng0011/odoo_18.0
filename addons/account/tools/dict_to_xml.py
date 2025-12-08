@@ -1,4 +1,8 @@
 from lxml import etree
+<<<<<<< HEAD
+=======
+from odoo.tools.xml_utils import remove_control_characters
+>>>>>>> upstream/18.0
 
 
 def dict_to_xml(node, *, nsmap={}, template=None, render_empty_nodes=False, tag=None, path=None):
@@ -66,7 +70,11 @@ def dict_to_xml(node, *, nsmap={}, template=None, render_empty_nodes=False, tag=
     # Add text content if present
     text = node.get('_text')
     if text is not None and text is not False:
+<<<<<<< HEAD
         element.text = str(text)
+=======
+        element.text = remove_control_characters(str(text).encode()).decode()
+>>>>>>> upstream/18.0
 
     # Add child nodes
     for child_tag, child in node.items():

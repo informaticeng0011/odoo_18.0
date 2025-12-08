@@ -130,7 +130,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <div class="popover-body p-2 table-responsive">
+=======
+            <div class="popover-body p-2 table-responsive" style="max-width: 100vw;">
+>>>>>>> upstream/18.0
 =======
             <div class="popover-body p-2 table-responsive" style="max-width: 100vw;">
 >>>>>>> upstream/18.0
@@ -539,8 +543,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <span t-out="plan.name"/> (<span t-att-class="totals[plan.id].class" t-out="totals[plan.id].formattedValue"/>)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -806,6 +813,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1075,10 +1085,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <td t-foreach="Object.keys(data.record.fields).filter((f) => f.startsWith('x_plan'))" t-as="field" t-key="field">
                                     <Field id="field" name="field" record="data.record" domain="data.record.fields[field].domain" canOpen="false" canCreate="false" canCreateEdit="false" canQuickCreate="false"/>
                                 </td>
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1350,6 +1363,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
