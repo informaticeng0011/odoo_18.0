@@ -39,6 +39,7 @@ class DriverController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             iot_idempotent_id = data.get("iot_idempotent_id")
             if iot_idempotent_id:
                 idempotent_session = iot_device._check_idempotency(iot_idempotent_id, session_id)
@@ -46,6 +47,11 @@ class DriverController(http.Controller):
                     _logger.info("Ignored request from %s as iot_idempotent_id %s already received from session %s",
                                  session_id, iot_idempotent_id, idempotent_session)
                     return False
+=======
+            if iot_device._check_idempotency(**data, session_id=session_id):
+                return False
+
+>>>>>>> upstream/18.0
 =======
             if iot_device._check_idempotency(**data, session_id=session_id):
                 return False

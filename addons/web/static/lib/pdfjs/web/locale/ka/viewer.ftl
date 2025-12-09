@@ -51,12 +51,15 @@ pdfjs-download-button-label = ჩამოტვირთვა
 pdfjs-bookmark-button =
     .title = მიმდინარე გვერდი (ბმული ამ გვერდისთვის)
 pdfjs-bookmark-button-label = მიმდინარე გვერდი
+<<<<<<< HEAD
 # Used in Firefox for Android.
 pdfjs-open-in-app-button =
     .title = გახსნა პროგრამით
 # Used in Firefox for Android.
 # Length of the translation matters since we are in a mobile context, with limited screen estate.
 pdfjs-open-in-app-button-label = გახსნა პროგრამით
+=======
+>>>>>>> upstream/18.0
 
 ##  Secondary toolbar and context menu
 
@@ -301,8 +304,11 @@ pdfjs-editor-ink-button-label = ხაზვა
 pdfjs-editor-stamp-button =
     .title = სურათების დართვა ან ჩასწორება
 pdfjs-editor-stamp-button-label = სურათების დართვა ან ჩასწორება
+<<<<<<< HEAD
 pdfjs-editor-remove-button =
     .title = მოცილება
+=======
+>>>>>>> upstream/18.0
 pdfjs-editor-highlight-button =
     .title = მონიშვნა
 pdfjs-editor-highlight-button-label = მონიშვნა
@@ -366,6 +372,25 @@ pdfjs-editor-resizer-label-bottom-right = ქვევით მარჯვნ�
 pdfjs-editor-resizer-label-bottom-middle = ქვევით შუაში — ზომაცვლა
 pdfjs-editor-resizer-label-bottom-left = ზვევით მარცხნივ — ზომაცვლა
 pdfjs-editor-resizer-label-middle-left = შუაში მარცხნივ — ზომაცვლა
+<<<<<<< HEAD
+=======
+pdfjs-editor-resizer-top-left =
+    .aria-label = ზევით მარცხნივ — ზომაცვლა
+pdfjs-editor-resizer-top-middle =
+    .aria-label = ზევით შუაში — ზომაცვლა
+pdfjs-editor-resizer-top-right =
+    .aria-label = ზევით მარჯვნივ — ზომაცვლა
+pdfjs-editor-resizer-middle-right =
+    .aria-label = შუაში მარჯვნივ — ზომაცვლა
+pdfjs-editor-resizer-bottom-right =
+    .aria-label = ქვევით მარჯვნივ — ზომაცვლა
+pdfjs-editor-resizer-bottom-middle =
+    .aria-label = ქვევით შუაში — ზომაცვლა
+pdfjs-editor-resizer-bottom-left =
+    .aria-label = ზვევით მარცხნივ — ზომაცვლა
+pdfjs-editor-resizer-middle-left =
+    .aria-label = შუაში მარცხნივ — ზომაცვლა
+>>>>>>> upstream/18.0
 
 ## Color picker
 
@@ -385,3 +410,17 @@ pdfjs-editor-colorpicker-pink =
     .title = ვარდისფერი
 pdfjs-editor-colorpicker-red =
     .title = წითელი
+<<<<<<< HEAD
+=======
+
+## Show all highlights
+## This is a toggle button to show/hide all the highlights.
+
+
+## New alt-text dialog
+## Group note for entire feature: Alternative text (alt text) helps when people can't see the image. This feature includes a tool to create alt text automatically using an AI model that works locally on the user's device to preserve privacy.
+
+
+## Image alt-text settings
+
+>>>>>>> upstream/18.0

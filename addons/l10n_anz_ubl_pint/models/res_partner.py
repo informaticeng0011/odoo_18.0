@@ -93,7 +93,11 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     invoice_edi_format = fields.Selection(selection_add=[('pint_anz', "PINT Australia & New Zealand")])
+=======
+    invoice_edi_format = fields.Selection(selection_add=[('pint_anz', "Australia (Peppol Pint AU)")])
+>>>>>>> upstream/18.0
 =======
     invoice_edi_format = fields.Selection(selection_add=[('pint_anz', "Australia (Peppol Pint AU)")])
 >>>>>>> upstream/18.0

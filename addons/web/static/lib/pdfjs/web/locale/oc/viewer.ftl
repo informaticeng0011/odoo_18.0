@@ -51,12 +51,15 @@ pdfjs-download-button-label = Telecargar
 pdfjs-bookmark-button =
     .title = Pagina actuala (mostrar l’adreça de la pagina actuala)
 pdfjs-bookmark-button-label = Pagina actuala
+<<<<<<< HEAD
 # Used in Firefox for Android.
 pdfjs-open-in-app-button =
     .title = Dobrir amb l’aplicacion
 # Used in Firefox for Android.
 # Length of the translation matters since we are in a mobile context, with limited screen estate.
 pdfjs-open-in-app-button-label = Dobrir amb l’aplicacion
+=======
+>>>>>>> upstream/18.0
 
 ##  Secondary toolbar and context menu
 
@@ -286,13 +289,33 @@ pdfjs-editor-ink-button-label = Dessenhar
 pdfjs-editor-stamp-button =
     .title = Apondre o modificar d’imatges
 pdfjs-editor-stamp-button-label = Apondre o modificar d’imatges
+<<<<<<< HEAD
 
 ## Remove button for the various kind of editor.
 
+=======
+pdfjs-editor-highlight-button =
+    .title = Subrelinhar
+pdfjs-editor-highlight-button-label = Subrelinhar
+pdfjs-highlight-floating-button1 =
+    .title = Subrelinhar
+    .aria-label = Subrelinhar
+pdfjs-highlight-floating-button-label = Subrelinhar
+
+## Remove button for the various kind of editor.
+
+pdfjs-editor-remove-ink-button =
+    .title = Levar lo dessenh
+>>>>>>> upstream/18.0
 pdfjs-editor-remove-freetext-button =
     .title = Suprimir lo tèxte
 pdfjs-editor-remove-stamp-button =
     .title = Suprimir l’imatge
+<<<<<<< HEAD
+=======
+pdfjs-editor-remove-highlight-button =
+    .title = Levar lo suslinhatge
+>>>>>>> upstream/18.0
 
 ##
 
@@ -335,6 +358,11 @@ pdfjs-editor-alt-text-save-button = Enregistrar
 pdfjs-editor-highlight-colorpicker-label = Color de suslinhatge
 pdfjs-editor-colorpicker-button =
     .title = Cambiar de color
+<<<<<<< HEAD
+=======
+pdfjs-editor-colorpicker-dropdown =
+    .aria-label = Causida de colors
+>>>>>>> upstream/18.0
 pdfjs-editor-colorpicker-yellow =
     .title = Jaune
 pdfjs-editor-colorpicker-green =

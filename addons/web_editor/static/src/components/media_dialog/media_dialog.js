@@ -261,6 +261,14 @@ export class MediaDialog extends Component {
     }
 
     selectMedia(media, tabId, multiSelect) {
+<<<<<<< HEAD
+=======
+        if (media && !Object.keys(media).length) {
+            // Clear media selection when an empty object is passed
+            this.selectedMedia[tabId] = [];
+            return;
+        }
+>>>>>>> upstream/18.0
         if (multiSelect) {
             const isMediaSelected = this.selectedMedia[tabId].map(({ id }) => id).includes(media.id);
             if (!isMediaSelected) {

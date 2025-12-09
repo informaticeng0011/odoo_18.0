@@ -105,6 +105,17 @@ pdfjs-document-properties-button-label = 文書のプロパティ...
 pdfjs-document-properties-file-name = ファイル名:
 pdfjs-document-properties-file-size = ファイルサイズ:
 # Variables:
+<<<<<<< HEAD
+=======
+#   $kb (Number) - the PDF file size in kilobytes
+#   $b (Number) - the PDF file size in bytes
+pdfjs-document-properties-size-kb = { NUMBER($kb, maximumSignificantDigits: 3) } KB ({ $b } バイト)
+# Variables:
+#   $mb (Number) - the PDF file size in megabytes
+#   $b (Number) - the PDF file size in bytes
+pdfjs-document-properties-size-mb = { NUMBER($mb, maximumSignificantDigits: 3) } MB ({ $b } バイト)
+# Variables:
+>>>>>>> upstream/18.0
 #   $size_kb (Number) - the PDF file size in kilobytes
 #   $size_b (Number) - the PDF file size in bytes
 pdfjs-document-properties-kb = { $size_kb } KB ({ $size_b } バイト)
@@ -119,6 +130,12 @@ pdfjs-document-properties-keywords = キーワード:
 pdfjs-document-properties-creation-date = 作成日:
 pdfjs-document-properties-modification-date = 更新日:
 # Variables:
+<<<<<<< HEAD
+=======
+#   $dateObj (Date) - the creation/modification date and time of the PDF file
+pdfjs-document-properties-date-time-string = { DATETIME($dateObj, dateStyle: "short", timeStyle: "medium") }
+# Variables:
+>>>>>>> upstream/18.0
 #   $date (Date) - the creation/modification date of the PDF file
 #   $time (Time) - the creation/modification time of the PDF file
 pdfjs-document-properties-date-string = { $date }, { $time }
@@ -223,6 +240,7 @@ pdfjs-find-reached-bottom = 文書末尾に到達したので先頭から続け�
 # Variables:
 #   $current (Number) - the index of the currently active find result
 #   $total (Number) - the total number of matches in the document
+<<<<<<< HEAD
 pdfjs-find-match-count =
     { $total ->
         [one] { $total } 件中 { $current } 件目
@@ -235,6 +253,12 @@ pdfjs-find-match-count-limit =
         [one] { $limit } 件以上一致
        *[other] { $limit } 件以上一致
     }
+=======
+pdfjs-find-match-count = { $total } 件中 { $current } 件目
+# Variables:
+#   $limit (Number) - the maximum number of matches
+pdfjs-find-match-count-limit = { $limit } 件以上一致
+>>>>>>> upstream/18.0
 pdfjs-find-not-found = 見つかりませんでした
 
 ## Predefined zoom values
@@ -275,11 +299,21 @@ pdfjs-annotation-date-string = { $date }, { $time }
 # Some common types are e.g.: "Check", "Text", "Comment", "Note"
 pdfjs-text-annotation-type =
     .alt = [{ $type } 注釈]
+<<<<<<< HEAD
+=======
+# Variables:
+#   $dateObj (Date) - the modification date and time of the annotation
+pdfjs-annotation-date-time-string = { DATETIME($dateObj, dateStyle: "short", timeStyle: "medium") }
+>>>>>>> upstream/18.0
 
 ## Password
 
 pdfjs-password-label = この PDF ファイルを開くためのパスワードを入力してください。
+<<<<<<< HEAD
 pdfjs-password-invalid = 無効なパスワードです。もう一度やり直してください。
+=======
+pdfjs-password-invalid = パスワードが正しくありません。もう一度試してください。
+>>>>>>> upstream/18.0
 pdfjs-password-ok-button = OK
 pdfjs-password-cancel-button = キャンセル
 pdfjs-web-fonts-disabled = ウェブフォントが無効になっています: 埋め込まれた PDF のフォントを使用できません。
@@ -298,8 +332,11 @@ pdfjs-editor-stamp-button-label = 画像を追加または編集
 pdfjs-editor-highlight-button =
     .title = 強調します
 pdfjs-editor-highlight-button-label = 強調
+<<<<<<< HEAD
 pdfjs-highlight-floating-button =
     .title = 強調
+=======
+>>>>>>> upstream/18.0
 pdfjs-highlight-floating-button1 =
     .title = 強調
     .aria-label = 強調します
@@ -368,6 +405,25 @@ pdfjs-editor-resizer-label-bottom-right = 右下隅 — サイズ変更
 pdfjs-editor-resizer-label-bottom-middle = 下中央 — サイズ変更
 pdfjs-editor-resizer-label-bottom-left = 左下隅 — サイズ変更
 pdfjs-editor-resizer-label-middle-left = 左中央 — サイズ変更
+<<<<<<< HEAD
+=======
+pdfjs-editor-resizer-top-left =
+    .aria-label = 左上隅 — サイズ変更
+pdfjs-editor-resizer-top-middle =
+    .aria-label = 上中央 — サイズ変更
+pdfjs-editor-resizer-top-right =
+    .aria-label = 右上隅 — サイズ変更
+pdfjs-editor-resizer-middle-right =
+    .aria-label = 右中央 — サイズ変更
+pdfjs-editor-resizer-bottom-right =
+    .aria-label = 右下隅 — サイズ変更
+pdfjs-editor-resizer-bottom-middle =
+    .aria-label = 下中央 — サイズ変更
+pdfjs-editor-resizer-bottom-left =
+    .aria-label = 左下隅 — サイズ変更
+pdfjs-editor-resizer-middle-left =
+    .aria-label = 左中央 — サイズ変更
+>>>>>>> upstream/18.0
 
 ## Color picker
 
@@ -392,5 +448,67 @@ pdfjs-editor-colorpicker-red =
 ## This is a toggle button to show/hide all the highlights.
 
 pdfjs-editor-highlight-show-all-button-label = すべて表示
+<<<<<<< HEAD
 pdfjs-editor-highlight-show-all-button =
     .title = 強調の表示を切り替えます
+=======
+# (^m^) en-US: .title = Show all
+pdfjs-editor-highlight-show-all-button =
+    .title = 強調の表示を切り替えます
+
+## New alt-text dialog
+## Group note for entire feature: Alternative text (alt text) helps when people can't see the image. This feature includes a tool to create alt text automatically using an AI model that works locally on the user's device to preserve privacy.
+
+# Modal header positioned above a text box where users can edit the alt text.
+pdfjs-editor-new-alt-text-dialog-edit-label = 代替テキストを編集 (画像の説明)
+# Modal header positioned above a text box where users can add the alt text.
+pdfjs-editor-new-alt-text-dialog-add-label = 代替テキストを追加 (画像の説明)
+pdfjs-editor-new-alt-text-textarea =
+    .placeholder = ここに説明を記入してください...
+# This text refers to the alt text box above this description. It offers a definition of alt text.
+pdfjs-editor-new-alt-text-description = 画像が読み込まれない場合や見えない人のための短い説明です。
+pdfjs-editor-new-alt-text-disclaimer1 = この代替テキストは自動的に生成されたため正確でない可能性があります。
+pdfjs-editor-new-alt-text-disclaimer-learn-more-url = 詳細情報
+pdfjs-editor-new-alt-text-create-automatically-button-label = 代替テキストを自動生成
+pdfjs-editor-new-alt-text-not-now-button = 後で
+pdfjs-editor-new-alt-text-error-title = 代替テキストを自動生成できませんでした
+pdfjs-editor-new-alt-text-error-description = ご自分で代替テキストを書くか後でもう一度試してください。
+pdfjs-editor-new-alt-text-error-close-button = 閉じる
+# Variables:
+#   $totalSize (Number) - the total size (in MB) of the AI model.
+#   $downloadedSize (Number) - the downloaded size (in MB) of the AI model.
+#   $percent (Number) - the percentage of the downloaded size.
+pdfjs-editor-new-alt-text-ai-model-downloading-progress = 代替テキスト AI モデルをダウンロードしています ({ $downloadedSize } / { $totalSize } MB)
+    .aria-valuetext = 代替テキスト AI モデルをダウンロードしています ({ $downloadedSize } / { $totalSize } MB)
+# This is a button that users can click to edit the alt text they have already added.
+pdfjs-editor-new-alt-text-added-button-label = 代替テキストを追加しました
+# This is a button that users can click to open the alt text editor and add alt text when it is not present.
+pdfjs-editor-new-alt-text-missing-button-label = 代替テキストがありません
+# This is a button that opens up the alt text modal where users should review the alt text that was automatically generated.
+pdfjs-editor-new-alt-text-to-review-button-label = 代替テキストをレビュー
+# "Created automatically" is a prefix that will be added to the beginning of any alt text that has been automatically generated. After the colon, the user will see/hear the actual alt text description. If the alt text has been edited by a human, this prefix will not appear.
+# Variables:
+#   $generatedAltText (String) - the generated alt-text.
+pdfjs-editor-new-alt-text-generated-alt-text-with-disclaimer = 自動生成されました: { $generatedAltText }
+
+## Image alt-text settings
+
+pdfjs-image-alt-text-settings-button =
+    .title = 画像の代替テキスト設定
+pdfjs-image-alt-text-settings-button-label = 画像の代替テキスト設定
+pdfjs-editor-alt-text-settings-dialog-label = 画像の代替テキスト設定
+pdfjs-editor-alt-text-settings-automatic-title = 自動代替テキスト
+pdfjs-editor-alt-text-settings-create-model-button-label = 代替テキストを自動生成
+pdfjs-editor-alt-text-settings-create-model-description = 画像が読み込まれない場合や見えない人のために説明を提案します。
+# Variables:
+#   $totalSize (Number) - the total size (in MB) of the AI model.
+pdfjs-editor-alt-text-settings-download-model-label = 代替テキスト AI モデル ({ $totalSize } MB)
+pdfjs-editor-alt-text-settings-ai-model-description = ローカルの端末上で実行されるためデータは非公開になります。代替テキストの自動生成に必要です。
+pdfjs-editor-alt-text-settings-delete-model-button = 削除
+pdfjs-editor-alt-text-settings-download-model-button = ダウンロード
+pdfjs-editor-alt-text-settings-downloading-model-button = ダウンロード中...
+pdfjs-editor-alt-text-settings-editor-title = 代替テキストエディター
+pdfjs-editor-alt-text-settings-show-dialog-button-label = 画像の追加時に代替テキストエディターを表示する
+pdfjs-editor-alt-text-settings-show-dialog-description = すべての画像に代替テキストを追加する助けになります。
+pdfjs-editor-alt-text-settings-close-button = 閉じる
+>>>>>>> upstream/18.0

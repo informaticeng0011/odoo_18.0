@@ -45,12 +45,15 @@ pdfjs-save-button-label = ບັນທຶກ
 pdfjs-bookmark-button =
     .title = ໜ້າປັດຈຸບັນ (ເບິ່ງ URL ຈາກໜ້າປັດຈຸບັນ)
 pdfjs-bookmark-button-label = ຫນ້າ​ປັດ​ຈຸ​ບັນ
+<<<<<<< HEAD
 # Used in Firefox for Android.
 pdfjs-open-in-app-button =
     .title = ເປີດໃນ App
 # Used in Firefox for Android.
 # Length of the translation matters since we are in a mobile context, with limited screen estate.
 pdfjs-open-in-app-button-label = ເປີດໃນ App
+=======
+>>>>>>> upstream/18.0
 
 ##  Secondary toolbar and context menu
 
@@ -277,6 +280,15 @@ pdfjs-editor-free-text-button-label = ຂໍ້ຄວາມ
 pdfjs-editor-ink-button =
     .title = ແຕ້ມ
 pdfjs-editor-ink-button-label = ແຕ້ມ
+<<<<<<< HEAD
+=======
+
+## Remove button for the various kind of editor.
+
+
+##
+
+>>>>>>> upstream/18.0
 # Editor Parameters
 pdfjs-editor-free-text-color-input = ສີ
 pdfjs-editor-free-text-size-input = ຂະຫນາດ
@@ -297,3 +309,20 @@ pdfjs-ink-canvas =
 ## Editor resizers
 ## This is used in an aria label to help to understand the role of the resizer.
 
+<<<<<<< HEAD
+=======
+
+## Color picker
+
+
+## Show all highlights
+## This is a toggle button to show/hide all the highlights.
+
+
+## New alt-text dialog
+## Group note for entire feature: Alternative text (alt text) helps when people can't see the image. This feature includes a tool to create alt text automatically using an AI model that works locally on the user's device to preserve privacy.
+
+
+## Image alt-text settings
+
+>>>>>>> upstream/18.0

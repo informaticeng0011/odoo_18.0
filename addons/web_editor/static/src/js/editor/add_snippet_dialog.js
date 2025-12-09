@@ -9,6 +9,10 @@ import {
     Component,
     onMounted,
 } from "@odoo/owl";
+<<<<<<< HEAD
+=======
+import { cookie } from "@web/core/browser/cookie";
+>>>>>>> upstream/18.0
 import { localization } from "@web/core/l10n/localization";
 
 export class RenameCustomSnippetDialog extends Component {
@@ -74,6 +78,10 @@ export class AddSnippetDialog extends Component {
             }
             this.iframeDocument.documentElement.classList.add("o_add_snippets_preview");
             this.iframeDocument.body.style.setProperty("direction", localization.direction);
+<<<<<<< HEAD
+=======
+            this.insertColorScheme();
+>>>>>>> upstream/18.0
             await this.insertStyle().then(() => {
                 this.iframeRef.el.classList.add("show");
             });
@@ -227,7 +235,11 @@ export class AddSnippetDialog extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return this.iframeRef.el.contentDocument;
+=======
+        return this.iframeRef.el?.contentDocument;
+>>>>>>> upstream/18.0
 =======
         return this.iframeRef.el?.contentDocument;
 >>>>>>> upstream/18.0
@@ -941,6 +953,24 @@ export class AddSnippetDialog extends Component {
         await Promise.all(linkPromises);
     }
 
+<<<<<<< HEAD
+=======
+    /**
+     * Retrieves the color-scheme cookie and injects it into the iframe's
+     * <head> and add a custom class. This is necessary to allow the dark mode
+     * to be handled correctly across browsers.
+     */
+    insertColorScheme() {
+        const colorScheme = cookie.get("color_scheme") || "light";
+        const metaElement = document.createElement("meta");
+        const iframeDocument = this.iframeRef.el.contentDocument;
+        metaElement.setAttribute("name", "color-scheme");
+        metaElement.content = colorScheme;
+        iframeDocument.head.appendChild(metaElement);
+        iframeDocument.body.parentElement.classList.add("o_add_snippets_preview--" + colorScheme);
+    }
+
+>>>>>>> upstream/18.0
     _onSnippetPreviewClick(ev) {
         let selectedSnippetEl = ev.currentTarget.querySelector("[data-name]");
         const snippetKey = parseInt(ev.currentTarget.dataset.snippetKey);

@@ -122,6 +122,10 @@ from odoo.exceptions import UserError
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> upstream/18.0
 =======
 
 >>>>>>> upstream/18.0
@@ -625,6 +629,7 @@ class ResConfigSettings(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     company_parent_id = fields.Many2one(related='company_id.parent_id', readonly=True)
 >>>>>>> upstream/18.0
@@ -693,6 +698,10 @@ class ResConfigSettings(models.TransientModel):
 >>>>>>> upstream/18.0
 =======
     company_parent_id = fields.Many2one(related='company_id.parent_id', readonly=True)
+>>>>>>> upstream/18.0
+=======
+    company_parent_id = fields.Many2one(related='company_id.parent_id', readonly=True)  # TODO: remove in master
+    use_root_proxy_user = fields.Boolean(compute='_compute_use_root_proxy_user')
 >>>>>>> upstream/18.0
 =======
     company_parent_id = fields.Many2one(related='company_id.parent_id', readonly=True)  # TODO: remove in master
@@ -1331,10 +1340,14 @@ class ResConfigSettings(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             edi_user = self.env['account_edi_proxy_client.user'].search([
                 ('company_id', '=', config.company_id.id),
                 ('proxy_type', '=', 'l10n_it_edi'),
             ], limit=1)
+=======
+            edi_user = config.company_id.l10n_it_edi_proxy_user_id
+>>>>>>> upstream/18.0
 =======
             edi_user = config.company_id.l10n_it_edi_proxy_user_id
 >>>>>>> upstream/18.0
@@ -1913,11 +1926,15 @@ class ResConfigSettings(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             proxy_user = config.company_id.account_edi_proxy_client_ids.search([
                 ('company_id', '=', config.company_id.id),
                 ('proxy_type', '=', 'l10n_it_edi'),
             ], limit=1)
 
+=======
+            proxy_user = config.company_id.l10n_it_edi_proxy_user_id
+>>>>>>> upstream/18.0
 =======
             proxy_user = config.company_id.l10n_it_edi_proxy_user_id
 >>>>>>> upstream/18.0
@@ -2495,6 +2512,7 @@ class ResConfigSettings(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
             proxy_user = self.env['account_edi_proxy_client.user'].search([
                 ('company_id', '=', config.company_id.id),
@@ -2532,6 +2550,8 @@ class ResConfigSettings(models.TransientModel):
                     ]).sudo().unlink()
                     self._create_proxy_user(config.company_id, edi_mode)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2971,6 +2991,7 @@ class ResConfigSettings(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3017,6 +3038,8 @@ class ResConfigSettings(models.TransientModel):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3378,6 +3401,9 @@ class ResConfigSettings(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

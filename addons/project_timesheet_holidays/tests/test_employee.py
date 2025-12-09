@@ -33,11 +33,38 @@ class TestEmployee(TransactionCase):
             2) Check the timesheets representing the time off of this new employee
                is correctly generated
         """
+<<<<<<< HEAD
+=======
+        existing_employee = self.env['hr.employee'].create({
+            'name': 'Test Employee',
+            'company_id': self.company.id,
+            'resource_calendar_id': self.company.resource_calendar_id.id,
+        })
+        resource_leave = self.env['resource.calendar.leaves'].with_company(self.company).create({
+            'name': 'Future resource specific leave without a calendar',
+            'date_from': '2020-01-02 00:00:00',
+            'date_to': '2020-01-02 23:59:59',
+            'calendar_id': False,
+            'resource_id': existing_employee.resource_id.id,
+            'company_id': self.company.id,
+        })
+
+>>>>>>> upstream/18.0
         employee = self.env['hr.employee'].create({
             'name': 'Test Employee',
             'company_id': self.company.id,
             'resource_calendar_id': self.company.resource_calendar_id.id,
         })
+<<<<<<< HEAD
+=======
+        # Check resource-specific leave does not create a timesheet
+        resource_timesheet = self.env['account.analytic.line'].search([
+            ('employee_id', '=', employee.id),
+            ('global_leave_id', '=', resource_leave.id),
+        ])
+        self.assertFalse(resource_timesheet, 'No timesheet should be created for resource-specific leaves')
+
+>>>>>>> upstream/18.0
         timesheet = self.env['account.analytic.line'].search([
             ('employee_id', '=', employee.id),
             ('global_leave_id', '=', self.global_leave.id),
@@ -272,7 +299,10 @@ class TestEmployee(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -785,6 +815,9 @@ class TestEmployee(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

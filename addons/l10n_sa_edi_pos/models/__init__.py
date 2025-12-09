@@ -89,6 +89,10 @@ from . import account_move
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from . import pos_order
+>>>>>>> upstream/18.0
 =======
 from . import pos_order
 >>>>>>> upstream/18.0

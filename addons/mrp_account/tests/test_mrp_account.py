@@ -6,6 +6,10 @@ from datetime import timedelta
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.addons.mail.tests.common import MailCase
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.mail.tests.common import MailCase
 >>>>>>> upstream/18.0
@@ -25,7 +29,11 @@ from odoo import fields, Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 class TestMrpAccount(TestMrpCommon):
+=======
+class TestMrpAccount(TestMrpCommon, MailCase):
+>>>>>>> upstream/18.0
 =======
 class TestMrpAccount(TestMrpCommon, MailCase):
 >>>>>>> upstream/18.0
@@ -313,8 +321,12 @@ class TestMrpAccount(TestMrpCommon, MailCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         """ Unbuild orders, when supplied with a specific MO record, should restrict their SVL
         consumption to layers linked to moves originating from that MO record.
+=======
+        """ Valuation of unbuild orders for products valuated via FIFO should adhere to FIFO
+>>>>>>> upstream/18.0
 =======
         """ Valuation of unbuild orders for products valuated via FIFO should adhere to FIFO
 >>>>>>> upstream/18.0
@@ -734,11 +746,14 @@ class TestMrpAccount(TestMrpCommon, MailCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 {'remaining_qty': 1.0, 'value': 1.0, 'quantity': 1.0},
                 {'remaining_qty': 0.0, 'value': 2.0, 'quantity': 1.0},
                 # Unbuild SVL value is derived from MO_2, as precised on the unbuild form
                 {'remaining_qty': 0.0, 'value': -2.0, 'quantity': -1.0},
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1004,6 +1019,9 @@ class TestMrpAccount(TestMrpCommon, MailCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1284,6 +1302,7 @@ class TestMrpAccount(TestMrpCommon, MailCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 {'remaining_qty': 0.0, 'value': 1.0, 'quantity': 1.0},
                 {'remaining_qty': 0.0, 'value': 2.0, 'quantity': 1.0},
                 {'remaining_qty': 0.0, 'value': -2.0, 'quantity': -1.0},
@@ -1293,6 +1312,8 @@ class TestMrpAccount(TestMrpCommon, MailCase):
         )
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1560,6 +1581,7 @@ class TestMrpAccount(TestMrpCommon, MailCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1815,6 +1837,8 @@ class TestMrpAccount(TestMrpCommon, MailCase):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1860,6 +1884,9 @@ class TestMrpAccount(TestMrpCommon, MailCase):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2287,7 +2314,11 @@ class TestMrpAccountMove(TestAccountMoveStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(workorder._cal_cost(), 0.005)  # 2 seconds at $10/h
+=======
+        self.assertEqual(workorder._cal_cost(), (2 / 3600) * 10)  # 2 seconds at $10/h
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(workorder._cal_cost(), (2 / 3600) * 10)  # 2 seconds at $10/h
 >>>>>>> upstream/18.0
@@ -2852,7 +2883,11 @@ class TestMrpAccountMove(TestAccountMoveStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(workorder._cal_cost(), 0.01)  # 2 seconds at $20/h
+=======
+        self.assertEqual(workorder._cal_cost(), (2 / 3600) * 20)  # 2 seconds at $20/h
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(workorder._cal_cost(), (2 / 3600) * 20)  # 2 seconds at $20/h
 >>>>>>> upstream/18.0

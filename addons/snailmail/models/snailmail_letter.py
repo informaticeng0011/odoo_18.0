@@ -129,13 +129,31 @@ class SnailmailLetter(models.Model):
             self.attachment_id.check('read')
         return res
 
+<<<<<<< HEAD
+=======
+    def _generate_report_pdf(self, report):
+        obj = self.env[self.model].browse(self.res_id)
+        if report.print_report_name:
+            report_name = safe_eval(report.print_report_name, {'object': obj})
+        elif report.attachment:
+            report_name = safe_eval(report.attachment, {'object': obj})
+        else:
+            report_name = 'Document'
+        filename = "%s.%s" % (report_name, "pdf")
+        pdf_bin = self.env['ir.actions.report'].with_context(snailmail_layout=not self.cover, lang='en_US')._render_qweb_pdf(report, self.res_id)[0]
+        return filename, pdf_bin
+
+>>>>>>> upstream/18.0
     def _fetch_attachment(self):
         """
         This method will check if we have any existent attachement matching the model
         and res_ids and create them if not found.
         """
         self.ensure_one()
+<<<<<<< HEAD
         obj = self.env[self.model].browse(self.res_id)
+=======
+>>>>>>> upstream/18.0
         if not self.attachment_id:
             report = self.report_template
             if not report:
@@ -145,6 +163,7 @@ class SnailmailLetter(models.Model):
                     return False
                 else:
                     self.write({'report_template': report.id})
+<<<<<<< HEAD
             if report.print_report_name:
                 report_name = safe_eval(report.print_report_name, {'object': obj})
             elif report.attachment:
@@ -152,6 +171,8 @@ class SnailmailLetter(models.Model):
             else:
                 report_name = 'Document'
             filename = "%s.%s" % (report_name, "pdf")
+=======
+>>>>>>> upstream/18.0
             paperformat = report.get_paperformat()
             if (paperformat.format == 'custom' and paperformat.page_width != 210 and paperformat.page_height != 297) or paperformat.format != 'A4':
                 raise UserError(_("Please use an A4 Paper format."))
@@ -162,8 +183,14 @@ class SnailmailLetter(models.Model):
                 for layout in ('bubble', 'wave', 'folder')
             }:
                 self.company_id.external_report_layout_id = self.env.ref('web.external_layout_standard')
+<<<<<<< HEAD
             pdf_bin, unused_filetype = self.env['ir.actions.report'].with_context(snailmail_layout=not self.cover, lang='en_US')._render_qweb_pdf(report, self.res_id)
             self.company_id.external_report_layout_id = prev
+=======
+            filename, pdf_bin = self._generate_report_pdf(report)
+            self.company_id.external_report_layout_id = prev
+
+>>>>>>> upstream/18.0
             pdf_bin = self._overwrite_margins(pdf_bin)
             if self.cover:
                 pdf_bin = self._append_cover_page(pdf_bin)

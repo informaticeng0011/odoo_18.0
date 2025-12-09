@@ -88,7 +88,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import api, models
+=======
+from odoo import models
+>>>>>>> upstream/18.0
 =======
 from odoo import models
 >>>>>>> upstream/18.0
@@ -446,6 +450,7 @@ class Expense(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @api.depends('sale_order_id')
     def _compute_analytic_distribution(self):
         super()._compute_analytic_distribution()
@@ -454,6 +459,8 @@ class Expense(models.Model):
                 if not self.sale_order_id:
                     continue
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -719,6 +726,9 @@ class Expense(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

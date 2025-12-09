@@ -170,7 +170,12 @@ class StockLandedCost(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 remaining_qty = sum(line.move_id._get_stock_valuation_layer_ids().mapped('remaining_qty'))
+=======
+                line_svls = line.move_id._get_stock_valuation_layer_ids()
+                remaining_qty = sum(line_svls.mapped('remaining_qty'))
+>>>>>>> upstream/18.0
 =======
                 line_svls = line.move_id._get_stock_valuation_layer_ids()
                 remaining_qty = sum(line_svls.mapped('remaining_qty'))
@@ -369,6 +374,7 @@ class StockLandedCost(models.Model):
                     vals_list = []
                     if line.move_id.product_id.lot_valuated:
                         for lot_id, sml in line.move_id.move_line_ids.grouped('lot_id').items():
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -860,6 +866,8 @@ class StockLandedCost(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                             lot_remaining_qty = sum(line_svls.filtered(lambda l: l.lot_id == lot_id).mapped('remaining_qty'))
                             if float_is_zero(lot_remaining_qty, precision_rounding=lot_id.product_id.uom_id.rounding):
                                 continue
@@ -912,6 +920,9 @@ class StockLandedCost(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

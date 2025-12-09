@@ -39,12 +39,15 @@ pdfjs-open-file-button-label = खोलें
 pdfjs-print-button =
     .title = छापें
 pdfjs-print-button-label = छापें
+<<<<<<< HEAD
 # Used in Firefox for Android.
 pdfjs-open-in-app-button =
     .title = ऐप में खोलें
 # Used in Firefox for Android.
 # Length of the translation matters since we are in a mobile context, with limited screen estate.
 pdfjs-open-in-app-button-label = ऐप में खोलें
+=======
+>>>>>>> upstream/18.0
 
 ##  Secondary toolbar and context menu
 
@@ -242,6 +245,15 @@ pdfjs-web-fonts-disabled = वेब फॉन्ट्स निष्क्र
 
 ## Editing
 
+<<<<<<< HEAD
+=======
+
+## Remove button for the various kind of editor.
+
+
+##
+
+>>>>>>> upstream/18.0
 # Editor Parameters
 pdfjs-editor-free-text-color-input = रंग
 
@@ -251,3 +263,20 @@ pdfjs-editor-free-text-color-input = रंग
 ## Editor resizers
 ## This is used in an aria label to help to understand the role of the resizer.
 
+<<<<<<< HEAD
+=======
+
+## Color picker
+
+
+## Show all highlights
+## This is a toggle button to show/hide all the highlights.
+
+
+## New alt-text dialog
+## Group note for entire feature: Alternative text (alt text) helps when people can't see the image. This feature includes a tool to create alt text automatically using an AI model that works locally on the user's device to preserve privacy.
+
+
+## Image alt-text settings
+
+>>>>>>> upstream/18.0

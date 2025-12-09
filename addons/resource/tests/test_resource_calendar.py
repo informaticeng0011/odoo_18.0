@@ -1,7 +1,13 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 import pytz
 from datetime import datetime
+<<<<<<< HEAD
 
+=======
+from freezegun import freeze_time
+
+from odoo import Command
+>>>>>>> upstream/18.0
 from odoo.tests.common import TransactionCase
 
 
@@ -119,7 +125,10 @@ class TestResourceCalendar(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -367,6 +376,7 @@ class TestResourceCalendar(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -517,4 +527,34 @@ class TestResourceCalendar(TransactionCase):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+    @freeze_time("2019-5-28 08:00:00")
+    def test_working_time_holiday_multicompany(self):
+        """
+        This test checks that there is no issue computing the "working time to assign" even if a holiday has been set
+        for this moment, but on another company.
+        """
+        company_0, company_1 = self.env['res.company'].create([{
+            "name": "Test company 0",
+        },
+            {
+                "name": "Test company 1",
+            }])
+
+        self.env['resource.calendar.leaves'].create([{
+            'name': "Public Holiday for company 0",
+            'calendar_id': company_1.resource_calendar_ids.id,
+            'company_id': company_1.id,
+            'date_from': datetime(2019, 5, 27, 0, 0, 0),
+            'date_to': datetime(2019, 5, 29, 23, 0, 0),
+            'resource_id': False,
+            'time_type': "leave",
+        }])
+        company_1.resource_calendar_ids.write({"leave_ids": [Command.clear()]})
+        duration = company_0.resource_calendar_ids.get_work_duration_data(datetime(2019, 5, 27, 11, 0, 0),
+                                                                          datetime(2019, 5, 28, 11, 0, 0),
+                                                                          compute_leaves=True)
+        self.assertEqual(duration, {'days': 1.0, 'hours': 8.0})
 >>>>>>> upstream/18.0
