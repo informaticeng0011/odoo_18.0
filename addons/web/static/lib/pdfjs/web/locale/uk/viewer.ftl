@@ -106,10 +106,13 @@ pdfjs-document-properties-file-name = Назва файлу:
 pdfjs-document-properties-file-size = Розмір файлу:
 # Variables:
 <<<<<<< HEAD
+<<<<<<< HEAD
 #   $size_kb (Number) - the PDF file size in kilobytes
 #   $size_b (Number) - the PDF file size in bytes
 pdfjs-document-properties-kb = { $size_kb } КБ ({ $size_b } байтів)
 =======
+=======
+>>>>>>> upstream/18.0
 #   $kb (Number) - the PDF file size in kilobytes
 #   $b (Number) - the PDF file size in bytes
 pdfjs-document-properties-size-kb = { NUMBER($kb, maximumSignificantDigits: 3) } кБ ({ $b } байтів)
@@ -121,6 +124,9 @@ pdfjs-document-properties-size-mb = { NUMBER($mb, maximumSignificantDigits: 3) }
 #   $size_kb (Number) - the PDF file size in kilobytes
 #   $size_b (Number) - the PDF file size in bytes
 pdfjs-document-properties-kb = { $size_kb } кБ ({ $size_b } байтів)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 # Variables:
 #   $size_mb (Number) - the PDF file size in megabytes
@@ -134,6 +140,12 @@ pdfjs-document-properties-creation-date = Дата створення:
 pdfjs-document-properties-modification-date = Дата зміни:
 # Variables:
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#   $dateObj (Date) - the creation/modification date and time of the PDF file
+pdfjs-document-properties-date-time-string = { DATETIME($dateObj, dateStyle: "short", timeStyle: "medium") }
+# Variables:
+>>>>>>> upstream/18.0
 =======
 #   $dateObj (Date) - the creation/modification date and time of the PDF file
 pdfjs-document-properties-date-time-string = { DATETIME($dateObj, dateStyle: "short", timeStyle: "medium") }
@@ -298,6 +310,12 @@ pdfjs-annotation-date-string = { $date }, { $time }
 pdfjs-text-annotation-type =
     .alt = [{ $type }-анотація]
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Variables:
+#   $dateObj (Date) - the modification date and time of the annotation
+pdfjs-annotation-date-time-string = { DATETIME($dateObj, dateStyle: "short", timeStyle: "medium") }
+>>>>>>> upstream/18.0
 =======
 # Variables:
 #   $dateObj (Date) - the modification date and time of the annotation
@@ -327,8 +345,11 @@ pdfjs-editor-highlight-button =
     .title = Підсвітити
 pdfjs-editor-highlight-button-label = Підсвітити
 <<<<<<< HEAD
+<<<<<<< HEAD
 pdfjs-highlight-floating-button =
     .title = Підсвітити
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 pdfjs-highlight-floating-button1 =
@@ -400,7 +421,10 @@ pdfjs-editor-resizer-label-bottom-middle = Внизу посередині – �
 pdfjs-editor-resizer-label-bottom-left = Нижній лівий кут – зміна розміру
 pdfjs-editor-resizer-label-middle-left = Ліворуч посередині – зміна розміру
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 pdfjs-editor-resizer-top-left =
     .aria-label = Верхній лівий кут – зміна розміру
 pdfjs-editor-resizer-top-middle =
@@ -417,6 +441,9 @@ pdfjs-editor-resizer-bottom-left =
     .aria-label = Нижній лівий кут – зміна розміру
 pdfjs-editor-resizer-middle-left =
     .aria-label = Ліворуч посередині – зміна розміру
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 ## Color picker
@@ -445,7 +472,10 @@ pdfjs-editor-highlight-show-all-button-label = Показати все
 pdfjs-editor-highlight-show-all-button =
     .title = Показати все
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 ## New alt-text dialog
 ## Group note for entire feature: Alternative text (alt text) helps when people can't see the image. This feature includes a tool to create alt text automatically using an AI model that works locally on the user's device to preserve privacy.
@@ -503,4 +533,7 @@ pdfjs-editor-alt-text-settings-editor-title = Редактор альтерна�
 pdfjs-editor-alt-text-settings-show-dialog-button-label = Показувати редактор альтернативного тексту під час додавання зображення
 pdfjs-editor-alt-text-settings-show-dialog-description = Допомагає переконатися, що всі ваші зображення мають альтернативний текст.
 pdfjs-editor-alt-text-settings-close-button = Закрити
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

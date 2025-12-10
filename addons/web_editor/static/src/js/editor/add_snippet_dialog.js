@@ -10,6 +10,10 @@ import {
     onMounted,
 } from "@odoo/owl";
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { cookie } from "@web/core/browser/cookie";
+>>>>>>> upstream/18.0
 =======
 import { cookie } from "@web/core/browser/cookie";
 >>>>>>> upstream/18.0
@@ -79,6 +83,10 @@ export class AddSnippetDialog extends Component {
             this.iframeDocument.documentElement.classList.add("o_add_snippets_preview");
             this.iframeDocument.body.style.setProperty("direction", localization.direction);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            this.insertColorScheme();
+>>>>>>> upstream/18.0
 =======
             this.insertColorScheme();
 >>>>>>> upstream/18.0
@@ -236,7 +244,11 @@ export class AddSnippetDialog extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return this.iframeRef.el.contentDocument;
+=======
+        return this.iframeRef.el?.contentDocument;
+>>>>>>> upstream/18.0
 =======
         return this.iframeRef.el?.contentDocument;
 >>>>>>> upstream/18.0
@@ -954,7 +966,10 @@ export class AddSnippetDialog extends Component {
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     /**
      * Retrieves the color-scheme cookie and injects it into the iframe's
      * <head> and add a custom class. This is necessary to allow the dark mode
@@ -970,6 +985,9 @@ export class AddSnippetDialog extends Component {
         iframeDocument.body.parentElement.classList.add("o_add_snippets_preview--" + colorScheme);
     }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     _onSnippetPreviewClick(ev) {
         let selectedSnippetEl = ev.currentTarget.querySelector("[data-name]");

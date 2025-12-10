@@ -46,12 +46,15 @@ pdfjs-download-button =
 pdfjs-download-button-label = බාගන්න
 pdfjs-bookmark-button-label = පවතින පිටුව
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Used in Firefox for Android.
 pdfjs-open-in-app-button =
     .title = යෙදුමෙහි අරින්න
 # Used in Firefox for Android.
 # Length of the translation matters since we are in a mobile context, with limited screen estate.
 pdfjs-open-in-app-button-label = යෙදුමෙහි අරින්න
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -240,13 +243,19 @@ pdfjs-editor-ink-button =
     .title = අඳින්න
 pdfjs-editor-ink-button-label = අඳින්න
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 ## Remove button for the various kind of editor.
 
 
 ##
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 # Editor Parameters
 pdfjs-editor-free-text-color-input = වර්ණය
@@ -264,7 +273,10 @@ pdfjs-free-text-default-content = ලිවීීම අරඹන්න…
 ## This is used in an aria label to help to understand the role of the resizer.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 ## Color picker
 
@@ -279,4 +291,7 @@ pdfjs-free-text-default-content = ලිවීීම අරඹන්න…
 
 ## Image alt-text settings
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

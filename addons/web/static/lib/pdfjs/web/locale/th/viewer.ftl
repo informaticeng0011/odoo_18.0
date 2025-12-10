@@ -52,12 +52,15 @@ pdfjs-bookmark-button =
     .title = หน้าปัจจุบัน (ดู URL จากหน้าปัจจุบัน)
 pdfjs-bookmark-button-label = หน้าปัจจุบัน
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Used in Firefox for Android.
 pdfjs-open-in-app-button =
     .title = เปิดในแอป
 # Used in Firefox for Android.
 # Length of the translation matters since we are in a mobile context, with limited screen estate.
 pdfjs-open-in-app-button-label = เปิดในแอป
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -115,7 +118,10 @@ pdfjs-document-properties-file-name = ชื่อไฟล์:
 pdfjs-document-properties-file-size = ขนาดไฟล์:
 # Variables:
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #   $kb (Number) - the PDF file size in kilobytes
 #   $b (Number) - the PDF file size in bytes
 pdfjs-document-properties-size-kb = { NUMBER($kb, maximumSignificantDigits: 3) } KB ({ $b } ไบต์)
@@ -124,6 +130,9 @@ pdfjs-document-properties-size-kb = { NUMBER($kb, maximumSignificantDigits: 3) }
 #   $b (Number) - the PDF file size in bytes
 pdfjs-document-properties-size-mb = { NUMBER($mb, maximumSignificantDigits: 3) } MB ({ $b } ไบต์)
 # Variables:
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #   $size_kb (Number) - the PDF file size in kilobytes
 #   $size_b (Number) - the PDF file size in bytes
@@ -140,6 +149,12 @@ pdfjs-document-properties-creation-date = วันที่สร้าง:
 pdfjs-document-properties-modification-date = วันที่แก้ไข:
 # Variables:
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#   $dateObj (Date) - the creation/modification date and time of the PDF file
+pdfjs-document-properties-date-time-string = { DATETIME($dateObj, dateStyle: "short", timeStyle: "medium") }
+# Variables:
+>>>>>>> upstream/18.0
 =======
 #   $dateObj (Date) - the creation/modification date and time of the PDF file
 pdfjs-document-properties-date-time-string = { DATETIME($dateObj, dateStyle: "short", timeStyle: "medium") }
@@ -294,6 +309,12 @@ pdfjs-annotation-date-string = { $date }, { $time }
 pdfjs-text-annotation-type =
     .alt = [คำอธิบายประกอบ { $type }]
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Variables:
+#   $dateObj (Date) - the modification date and time of the annotation
+pdfjs-annotation-date-time-string = { DATETIME($dateObj, dateStyle: "short", timeStyle: "medium") }
+>>>>>>> upstream/18.0
 =======
 # Variables:
 #   $dateObj (Date) - the modification date and time of the annotation
@@ -323,8 +344,11 @@ pdfjs-editor-highlight-button =
     .title = เน้น
 pdfjs-editor-highlight-button-label = เน้น
 <<<<<<< HEAD
+<<<<<<< HEAD
 pdfjs-highlight-floating-button =
     .title = เน้นสี
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 pdfjs-highlight-floating-button1 =
@@ -396,7 +420,10 @@ pdfjs-editor-resizer-label-bottom-middle = ตรงกลางด้านล�
 pdfjs-editor-resizer-label-bottom-left = มุมซ้ายล่าง — ปรับขนาด
 pdfjs-editor-resizer-label-middle-left = ตรงกลางด้านซ้าย — ปรับขนาด
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 pdfjs-editor-resizer-top-left =
     .aria-label = มุมซ้ายบน — ปรับขนาด
 pdfjs-editor-resizer-top-middle =
@@ -413,6 +440,9 @@ pdfjs-editor-resizer-bottom-left =
     .aria-label = มุมซ้ายล่าง — ปรับขนาด
 pdfjs-editor-resizer-middle-left =
     .aria-label = ตรงกลางด้านซ้าย — ปรับขนาด
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 ## Color picker
@@ -441,7 +471,10 @@ pdfjs-editor-highlight-show-all-button-label = แสดงทั้งหมด
 pdfjs-editor-highlight-show-all-button =
     .title = แสดงทั้งหมด
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 ## New alt-text dialog
 ## Group note for entire feature: Alternative text (alt text) helps when people can't see the image. This feature includes a tool to create alt text automatically using an AI model that works locally on the user's device to preserve privacy.
@@ -499,4 +532,7 @@ pdfjs-editor-alt-text-settings-editor-title = ตัวแก้ไขข้อ�
 pdfjs-editor-alt-text-settings-show-dialog-button-label = แสดงตัวแก้ไขข้อความทดแทนทันทีเมื่อเพิ่มภาพ
 pdfjs-editor-alt-text-settings-show-dialog-description = ช่วยให้คุณแน่ใจว่าภาพทั้งหมดของคุณมีข้อความทดแทน
 pdfjs-editor-alt-text-settings-close-button = ปิด
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

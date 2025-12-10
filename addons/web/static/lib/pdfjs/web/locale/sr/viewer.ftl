@@ -46,12 +46,15 @@ pdfjs-bookmark-button =
     .title = Тренутна страница (погледајте URL са тренутне странице)
 pdfjs-bookmark-button-label = Тренутна страница
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Used in Firefox for Android.
 pdfjs-open-in-app-button =
     .title = Отвори у апликацији
 # Used in Firefox for Android.
 # Length of the translation matters since we are in a mobile context, with limited screen estate.
 pdfjs-open-in-app-button-label = Отвори у апликацији
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -281,13 +284,19 @@ pdfjs-editor-ink-button =
     .title = Цртај
 pdfjs-editor-ink-button-label = Цртај
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 ## Remove button for the various kind of editor.
 
 
 ##
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 # Editor Parameters
 pdfjs-editor-free-text-color-input = Боја
@@ -310,7 +319,10 @@ pdfjs-ink-canvas =
 ## This is used in an aria label to help to understand the role of the resizer.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 ## Color picker
 
@@ -325,4 +337,7 @@ pdfjs-ink-canvas =
 
 ## Image alt-text settings
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

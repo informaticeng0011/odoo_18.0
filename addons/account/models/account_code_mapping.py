@@ -1,5 +1,10 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import fields, models, api
+=======
+from odoo import fields, models, api, _
+from odoo.exceptions import UserError
+>>>>>>> upstream/18.0
 =======
 from odoo import fields, models, api, _
 from odoo.exceptions import UserError
@@ -58,12 +63,18 @@ class AccountCodeMapping(models.Model):
                     for company in self.env.user.with_context(active_test=True).company_ids.sorted(lambda c: (c.sequence, c.name))
                 ]).filtered_domain(remaining_domain)._as_query()
 <<<<<<< HEAD
+<<<<<<< HEAD
         raise NotImplementedError
 =======
+=======
+>>>>>>> upstream/18.0
         raise UserError(_(
             "Account Code Mapping cannot be accessed directly. "
             "It is designed to be used only through the Chart of Accounts."
         ))
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     def _compute_account_id(self):

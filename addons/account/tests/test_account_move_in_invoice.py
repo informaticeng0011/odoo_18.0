@@ -980,6 +980,11 @@ class TestAccountMoveInInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.other_currency.rounding = 0.001
+
+>>>>>>> upstream/18.0
 =======
         self.other_currency.rounding = 0.001
 
@@ -2027,7 +2032,10 @@ class TestAccountMoveInInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2159,6 +2167,9 @@ class TestAccountMoveInInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2851,6 +2862,7 @@ class TestAccountMoveInInvoiceOnchanges(AccountTestInvoicingCommon):
                          "Changing to a journal with a set currency should change invoice currency")
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     def test_onchange_payment_reference(self):
         """
         Ensure payment reference propagation from move to payment term
@@ -2864,6 +2876,8 @@ class TestAccountMoveInInvoiceOnchanges(AccountTestInvoicingCommon):
             move_form.payment_reference = False
         self.assertEqual(payment_term_line.name, False, 'Payment term line was not changed')
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_taxes_onchange_product_uom_and_price_unit(self):
@@ -3051,7 +3065,10 @@ class TestAccountMoveInInvoiceOnchanges(AccountTestInvoicingCommon):
         self.assertEqual(payment_term_line.name, 'XYZ', 'Manual name of payment term line should be kept')
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_recompute_of_line_name(self):
         """
         Ensure name of the line is recomputed when Customer Reference is modified
@@ -3065,6 +3082,9 @@ class TestAccountMoveInInvoiceOnchanges(AccountTestInvoicingCommon):
         invoice.ref = "ABCDEF"
         self.assertEqual(line.name, f'ABCDEF - {invoice.payment_reference}')
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_duplicate_invoice_with_separate_discount_acccount(self):
         """When a separate discount account, make sure that discount lines don't have a tax_id set

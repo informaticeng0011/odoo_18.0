@@ -106,7 +106,10 @@ pdfjs-document-properties-file-name = Num da la datoteca:
 pdfjs-document-properties-file-size = Grondezza da la datoteca:
 # Variables:
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #   $kb (Number) - the PDF file size in kilobytes
 #   $b (Number) - the PDF file size in bytes
 pdfjs-document-properties-size-kb = { NUMBER($kb, maximumSignificantDigits: 3) } KB ({ $b } bytes)
@@ -115,6 +118,9 @@ pdfjs-document-properties-size-kb = { NUMBER($kb, maximumSignificantDigits: 3) }
 #   $b (Number) - the PDF file size in bytes
 pdfjs-document-properties-size-mb = { NUMBER($mb, maximumSignificantDigits: 3) } MB ({ $b } bytes)
 # Variables:
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #   $size_kb (Number) - the PDF file size in kilobytes
 #   $size_b (Number) - the PDF file size in bytes
@@ -131,6 +137,12 @@ pdfjs-document-properties-creation-date = Data da creaziun:
 pdfjs-document-properties-modification-date = Data da modificaziun:
 # Variables:
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#   $dateObj (Date) - the creation/modification date and time of the PDF file
+pdfjs-document-properties-date-time-string = { DATETIME($dateObj, dateStyle: "short", timeStyle: "medium") }
+# Variables:
+>>>>>>> upstream/18.0
 =======
 #   $dateObj (Date) - the creation/modification date and time of the PDF file
 pdfjs-document-properties-date-time-string = { DATETIME($dateObj, dateStyle: "short", timeStyle: "medium") }
@@ -293,6 +305,12 @@ pdfjs-annotation-date-string = { $date }, { $time }
 pdfjs-text-annotation-type =
     .alt = [Annotaziun da { $type }]
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Variables:
+#   $dateObj (Date) - the modification date and time of the annotation
+pdfjs-annotation-date-time-string = { DATETIME($dateObj, dateStyle: "short", timeStyle: "medium") }
+>>>>>>> upstream/18.0
 =======
 # Variables:
 #   $dateObj (Date) - the modification date and time of the annotation
@@ -322,8 +340,11 @@ pdfjs-editor-highlight-button =
     .title = Marcar
 pdfjs-editor-highlight-button-label = Marcar
 <<<<<<< HEAD
+<<<<<<< HEAD
 pdfjs-highlight-floating-button =
     .title = Relevar
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 pdfjs-highlight-floating-button1 =
@@ -395,7 +416,10 @@ pdfjs-editor-resizer-label-bottom-middle = Sutvart amez — redimensiunar
 pdfjs-editor-resizer-label-bottom-left = Chantun sut a sanestra — redimensiunar
 pdfjs-editor-resizer-label-middle-left = Vart sanestra amez — redimensiunar
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 pdfjs-editor-resizer-top-left =
     .aria-label = Chantun sura a sanestra — redimensiunar
 pdfjs-editor-resizer-top-middle =
@@ -412,6 +436,9 @@ pdfjs-editor-resizer-bottom-left =
     .aria-label = Chantun sut a sanestra — redimensiunar
 pdfjs-editor-resizer-middle-left =
     .aria-label = Vart sanestra amez — redimensiunar
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 ## Color picker
@@ -440,7 +467,10 @@ pdfjs-editor-highlight-show-all-button-label = Mussar tut
 pdfjs-editor-highlight-show-all-button =
     .title = Mussar tut
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 ## New alt-text dialog
 ## Group note for entire feature: Alternative text (alt text) helps when people can't see the image. This feature includes a tool to create alt text automatically using an AI model that works locally on the user's device to preserve privacy.
@@ -498,4 +528,7 @@ pdfjs-editor-alt-text-settings-editor-title = Editur per text alternativ
 pdfjs-editor-alt-text-settings-show-dialog-button-label = Mussar l’editur per text alternativ directamain cun agiuntar in maletg
 pdfjs-editor-alt-text-settings-show-dialog-description = Ta gida a garantir che tut tes maletgs hajan in text alternativ.
 pdfjs-editor-alt-text-settings-close-button = Serrar
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

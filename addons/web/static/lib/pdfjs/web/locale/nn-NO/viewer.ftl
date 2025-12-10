@@ -52,12 +52,15 @@ pdfjs-bookmark-button =
     .title = Gjeldande side (sjå URL frå gjeldande side)
 pdfjs-bookmark-button-label = Gjeldande side
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Used in Firefox for Android.
 pdfjs-open-in-app-button =
     .title = Opne i app
 # Used in Firefox for Android.
 # Length of the translation matters since we are in a mobile context, with limited screen estate.
 pdfjs-open-in-app-button-label = Opne i app
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -115,7 +118,10 @@ pdfjs-document-properties-file-name = Filnamn:
 pdfjs-document-properties-file-size = Filstorleik:
 # Variables:
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #   $kb (Number) - the PDF file size in kilobytes
 #   $b (Number) - the PDF file size in bytes
 pdfjs-document-properties-size-kb = { NUMBER($kb, maximumSignificantDigits: 3) } kB ({ $b } byte)
@@ -124,6 +130,9 @@ pdfjs-document-properties-size-kb = { NUMBER($kb, maximumSignificantDigits: 3) }
 #   $b (Number) - the PDF file size in bytes
 pdfjs-document-properties-size-mb = { NUMBER($mb, maximumSignificantDigits: 3) } MB ({ $b } byte)
 # Variables:
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #   $size_kb (Number) - the PDF file size in kilobytes
 #   $size_b (Number) - the PDF file size in bytes
@@ -140,6 +149,12 @@ pdfjs-document-properties-creation-date = Dato oppretta:
 pdfjs-document-properties-modification-date = Dato endra:
 # Variables:
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#   $dateObj (Date) - the creation/modification date and time of the PDF file
+pdfjs-document-properties-date-time-string = { DATETIME($dateObj, dateStyle: "short", timeStyle: "medium") }
+# Variables:
+>>>>>>> upstream/18.0
 =======
 #   $dateObj (Date) - the creation/modification date and time of the PDF file
 pdfjs-document-properties-date-time-string = { DATETIME($dateObj, dateStyle: "short", timeStyle: "medium") }
@@ -156,8 +171,13 @@ pdfjs-document-properties-page-size = Sidestørrelse:
 pdfjs-document-properties-page-size-unit-inches = in
 pdfjs-document-properties-page-size-unit-millimeters = mm
 <<<<<<< HEAD
+<<<<<<< HEAD
 pdfjs-document-properties-page-size-orientation-portrait = ståande
 pdfjs-document-properties-page-size-orientation-landscape = liggande
+=======
+pdfjs-document-properties-page-size-orientation-portrait = ståande (portrait)
+pdfjs-document-properties-page-size-orientation-landscape = liggande (landscape)
+>>>>>>> upstream/18.0
 =======
 pdfjs-document-properties-page-size-orientation-portrait = ståande (portrait)
 pdfjs-document-properties-page-size-orientation-landscape = liggande (landscape)
@@ -307,6 +327,12 @@ pdfjs-annotation-date-string = { $date } { $time }
 pdfjs-text-annotation-type =
     .alt = [{ $type } annotasjon]
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Variables:
+#   $dateObj (Date) - the modification date and time of the annotation
+pdfjs-annotation-date-time-string = { DATETIME($dateObj, dateStyle: "short", timeStyle: "medium") }
+>>>>>>> upstream/18.0
 =======
 # Variables:
 #   $dateObj (Date) - the modification date and time of the annotation
@@ -333,10 +359,13 @@ pdfjs-editor-stamp-button =
     .title = Legg til eller rediger bilde
 pdfjs-editor-stamp-button-label = Legg til eller rediger bilde
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 ## Remove button for the various kind of editor.
 
 =======
+=======
+>>>>>>> upstream/18.0
 pdfjs-editor-highlight-button =
     .title = Markere
 pdfjs-editor-highlight-button-label = Markere
@@ -355,6 +384,9 @@ pdfjs-editor-remove-stamp-button =
     .title = Fjern bildet
 pdfjs-editor-remove-highlight-button =
     .title = Fjern utheving
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 ##
@@ -369,11 +401,17 @@ pdfjs-editor-stamp-add-image-button =
     .title = Legg til bilde
 pdfjs-editor-stamp-add-image-button-label = Legg til bilde
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 # This refers to the thickness of the line used for free highlighting (not bound to text)
 pdfjs-editor-free-highlight-thickness-input = Tjukkleik
 pdfjs-editor-free-highlight-thickness-title =
     .title = Endre tjukn når du markerer andre element enn tekst
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 pdfjs-free-text =
     .aria-label = Tekstredigering
@@ -405,10 +443,13 @@ pdfjs-editor-alt-text-textarea =
 ## This is used in an aria label to help to understand the role of the resizer.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 ## Color picker
 
 =======
+=======
+>>>>>>> upstream/18.0
 pdfjs-editor-resizer-label-top-left = Øvste venstre hjørne – endre størrelse
 pdfjs-editor-resizer-label-top-middle = Øvst i midten — endre størrelse
 pdfjs-editor-resizer-label-top-right = Øvste høgre hjørne – endre størrelse
@@ -442,6 +483,9 @@ pdfjs-editor-colorpicker-button =
     .title = Endre farge
 pdfjs-editor-colorpicker-dropdown =
     .aria-label = Fargeval
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 pdfjs-editor-colorpicker-yellow =
     .title = Gul
@@ -454,7 +498,10 @@ pdfjs-editor-colorpicker-pink =
 pdfjs-editor-colorpicker-red =
     .title = Raud
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 ## Show all highlights
 ## This is a toggle button to show/hide all the highlights.
@@ -519,4 +566,7 @@ pdfjs-editor-alt-text-settings-editor-title = Alternativ tekst-redigerar
 pdfjs-editor-alt-text-settings-show-dialog-button-label = Vis alternativ tekst-redigerar direkte når du legg til eit bilde
 pdfjs-editor-alt-text-settings-show-dialog-description = Hjelper deg med å sørgje for at alle bilda dine har alternativ tekst.
 pdfjs-editor-alt-text-settings-close-button = Lat att
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

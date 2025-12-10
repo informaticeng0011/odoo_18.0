@@ -2,6 +2,10 @@
 
 import { on } from "@odoo/hoot-dom";
 import { MockEventTarget } from "../hoot_utils";
+<<<<<<< HEAD
+=======
+import { ensureTest } from "../main_runner";
+>>>>>>> upstream/18.0
 
 //-----------------------------------------------------------------------------
 // Global
@@ -22,6 +26,7 @@ const { animate, scroll, scrollBy, scrollIntoView, scrollTo } = Element.prototyp
 // Internal
 //-----------------------------------------------------------------------------
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -475,6 +480,8 @@ const forceInstantScroll = (args) =>
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 function forceInstantScroll(args) {
     return !allowAnimations && args[0] && typeof args[0] === "object"
         ? [{ ...args[0], behavior: "instant" }, ...args.slice(1)]
@@ -629,6 +636,9 @@ function forceInstantScroll(args) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -996,6 +1006,10 @@ export function cleanupAnimations() {
  * @param {boolean} [enable=false]
  */
 export function disableAnimations(enable = false) {
+<<<<<<< HEAD
+=======
+    ensureTest("disableAnimations");
+>>>>>>> upstream/18.0
     allowAnimations = enable;
 }
 
@@ -1006,6 +1020,10 @@ export function disableAnimations(enable = false) {
  * @param {boolean} [enable=true]
  */
 export function enableTransitions(enable = true) {
+<<<<<<< HEAD
+=======
+    ensureTest("enableTransitions");
+>>>>>>> upstream/18.0
     allowTransitions = enable;
     animationChangeBus.dispatchEvent(new CustomEvent("toggle-transitions"));
 }

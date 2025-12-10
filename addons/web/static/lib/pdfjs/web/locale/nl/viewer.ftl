@@ -52,12 +52,15 @@ pdfjs-bookmark-button =
     .title = Huidige pagina (URL van huidige pagina bekijken)
 pdfjs-bookmark-button-label = Huidige pagina
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Used in Firefox for Android.
 pdfjs-open-in-app-button =
     .title = Openen in app
 # Used in Firefox for Android.
 # Length of the translation matters since we are in a mobile context, with limited screen estate.
 pdfjs-open-in-app-button-label = Openen in app
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -115,7 +118,10 @@ pdfjs-document-properties-file-name = Bestandsnaam:
 pdfjs-document-properties-file-size = Bestandsgrootte:
 # Variables:
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #   $kb (Number) - the PDF file size in kilobytes
 #   $b (Number) - the PDF file size in bytes
 pdfjs-document-properties-size-kb = { NUMBER($kb, maximumSignificantDigits: 3) } KB ({ $b } bytes)
@@ -124,6 +130,9 @@ pdfjs-document-properties-size-kb = { NUMBER($kb, maximumSignificantDigits: 3) }
 #   $b (Number) - the PDF file size in bytes
 pdfjs-document-properties-size-mb = { NUMBER($mb, maximumSignificantDigits: 3) } MB ({ $b } bytes)
 # Variables:
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #   $size_kb (Number) - the PDF file size in kilobytes
 #   $size_b (Number) - the PDF file size in bytes
@@ -140,6 +149,12 @@ pdfjs-document-properties-creation-date = Aanmaakdatum:
 pdfjs-document-properties-modification-date = Wijzigingsdatum:
 # Variables:
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#   $dateObj (Date) - the creation/modification date and time of the PDF file
+pdfjs-document-properties-date-time-string = { DATETIME($dateObj, dateStyle: "short", timeStyle: "medium") }
+# Variables:
+>>>>>>> upstream/18.0
 =======
 #   $dateObj (Date) - the creation/modification date and time of the PDF file
 pdfjs-document-properties-date-time-string = { DATETIME($dateObj, dateStyle: "short", timeStyle: "medium") }
@@ -302,6 +317,12 @@ pdfjs-annotation-date-string = { $date }, { $time }
 pdfjs-text-annotation-type =
     .alt = [{ $type }-aantekening]
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Variables:
+#   $dateObj (Date) - the modification date and time of the annotation
+pdfjs-annotation-date-time-string = { DATETIME($dateObj, dateStyle: "short", timeStyle: "medium") }
+>>>>>>> upstream/18.0
 =======
 # Variables:
 #   $dateObj (Date) - the modification date and time of the annotation
@@ -331,8 +352,11 @@ pdfjs-editor-highlight-button =
     .title = Markeren
 pdfjs-editor-highlight-button-label = Markeren
 <<<<<<< HEAD
+<<<<<<< HEAD
 pdfjs-highlight-floating-button =
     .title = Markeren
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 pdfjs-highlight-floating-button1 =
@@ -404,7 +428,10 @@ pdfjs-editor-resizer-label-bottom-middle = Midden onder – formaat wijzigen
 pdfjs-editor-resizer-label-bottom-left = Linkerbenedenhoek – formaat wijzigen
 pdfjs-editor-resizer-label-middle-left = Links midden – formaat wijzigen
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 pdfjs-editor-resizer-top-left =
     .aria-label = Linkerbovenhoek – formaat wijzigen
 pdfjs-editor-resizer-top-middle =
@@ -421,6 +448,9 @@ pdfjs-editor-resizer-bottom-left =
     .aria-label = Linkerbenedenhoek – formaat wijzigen
 pdfjs-editor-resizer-middle-left =
     .aria-label = Links midden – formaat wijzigen
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 ## Color picker
@@ -449,7 +479,10 @@ pdfjs-editor-highlight-show-all-button-label = Alles tonen
 pdfjs-editor-highlight-show-all-button =
     .title = Alles tonen
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 ## New alt-text dialog
 ## Group note for entire feature: Alternative text (alt text) helps when people can't see the image. This feature includes a tool to create alt text automatically using an AI model that works locally on the user's device to preserve privacy.
@@ -507,4 +540,7 @@ pdfjs-editor-alt-text-settings-editor-title = Alternatieve-tekstbewerker
 pdfjs-editor-alt-text-settings-show-dialog-button-label = Alternatieve-tekstbewerker meteen tonen bij toevoegen van een afbeelding
 pdfjs-editor-alt-text-settings-show-dialog-description = Helpt u ervoor te zorgen dat al uw afbeeldingen alternatieve tekst hebben.
 pdfjs-editor-alt-text-settings-close-button = Sluiten
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

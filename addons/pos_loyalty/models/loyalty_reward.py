@@ -62,7 +62,11 @@ class LoyaltyReward(models.Model):
 
             if field and field.type == 'many2one' and operator in ('ilike', 'not ilike'):
                 comodel = self.env[field.comodel_name]
+<<<<<<< HEAD
                 matching_ids = list(comodel._search([('display_name', operator, value)]))
+=======
+                matching_ids = list(comodel._search([('display_name', 'ilike', value)]))
+>>>>>>> upstream/18.0
 
                 new_operator = 'in' if operator == 'ilike' else 'not in'
                 domain[index] = [field_name, new_operator, matching_ids]

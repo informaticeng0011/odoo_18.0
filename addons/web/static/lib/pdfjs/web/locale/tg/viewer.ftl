@@ -106,7 +106,10 @@ pdfjs-document-properties-file-name = Номи файл:
 pdfjs-document-properties-file-size = Андозаи файл:
 # Variables:
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #   $kb (Number) - the PDF file size in kilobytes
 #   $b (Number) - the PDF file size in bytes
 pdfjs-document-properties-size-kb = { NUMBER($kb, maximumSignificantDigits: 3) } КБ ({ $b } байт)
@@ -115,6 +118,9 @@ pdfjs-document-properties-size-kb = { NUMBER($kb, maximumSignificantDigits: 3) }
 #   $b (Number) - the PDF file size in bytes
 pdfjs-document-properties-size-mb = { NUMBER($mb, maximumSignificantDigits: 3) } МБ ({ $b } байт)
 # Variables:
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #   $size_kb (Number) - the PDF file size in kilobytes
 #   $size_b (Number) - the PDF file size in bytes
@@ -131,6 +137,12 @@ pdfjs-document-properties-creation-date = Санаи эҷод:
 pdfjs-document-properties-modification-date = Санаи тағйирот:
 # Variables:
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#   $dateObj (Date) - the creation/modification date and time of the PDF file
+pdfjs-document-properties-date-time-string = { DATETIME($dateObj, dateStyle: "short", timeStyle: "medium") }
+# Variables:
+>>>>>>> upstream/18.0
 =======
 #   $dateObj (Date) - the creation/modification date and time of the PDF file
 pdfjs-document-properties-date-time-string = { DATETIME($dateObj, dateStyle: "short", timeStyle: "medium") }
@@ -293,6 +305,12 @@ pdfjs-annotation-date-string = { $date }, { $time }
 pdfjs-text-annotation-type =
     .alt = [Ҳошиянависӣ - { $type }]
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Variables:
+#   $dateObj (Date) - the modification date and time of the annotation
+pdfjs-annotation-date-time-string = { DATETIME($dateObj, dateStyle: "short", timeStyle: "medium") }
+>>>>>>> upstream/18.0
 =======
 # Variables:
 #   $dateObj (Date) - the modification date and time of the annotation
@@ -322,8 +340,11 @@ pdfjs-editor-highlight-button =
     .title = Ҷудокунӣ
 pdfjs-editor-highlight-button-label = Ҷудокунӣ
 <<<<<<< HEAD
+<<<<<<< HEAD
 pdfjs-highlight-floating-button =
     .title = Ҷудокунӣ
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 pdfjs-highlight-floating-button1 =
@@ -369,8 +390,13 @@ pdfjs-ink-canvas =
 
 # Alternative text (alt text) helps when people can't see the image.
 <<<<<<< HEAD
+<<<<<<< HEAD
 pdfjs-editor-alt-text-button-label = Матни ивазкунанда
 pdfjs-editor-alt-text-edit-button-label = Таҳрир кардани матни ивазкунанда
+=======
+pdfjs-editor-alt-text-button-label = Матни иловагӣ
+pdfjs-editor-alt-text-edit-button-label = Таҳрир кардани матни иловагӣ
+>>>>>>> upstream/18.0
 =======
 pdfjs-editor-alt-text-button-label = Матни иловагӣ
 pdfjs-editor-alt-text-edit-button-label = Таҳрир кардани матни иловагӣ
@@ -400,7 +426,10 @@ pdfjs-editor-resizer-label-bottom-middle = Канори миёнаи поён �
 pdfjs-editor-resizer-label-bottom-left = Кунҷи чапи поён — тағйир додани андоза
 pdfjs-editor-resizer-label-middle-left = Канори миёнаи чап — тағйир додани андоза
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 pdfjs-editor-resizer-top-left =
     .aria-label = Кунҷи чапи боло — тағйир додани андоза
 pdfjs-editor-resizer-top-middle =
@@ -417,6 +446,9 @@ pdfjs-editor-resizer-bottom-left =
     .aria-label = Кунҷи чапи поён — тағйир додани андоза
 pdfjs-editor-resizer-middle-left =
     .aria-label = Канори миёнаи чап — тағйир додани андоза
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 ## Color picker
@@ -445,7 +477,10 @@ pdfjs-editor-highlight-show-all-button-label = Ҳамаро намоиш дод�
 pdfjs-editor-highlight-show-all-button =
     .title = Ҳамаро намоиш додан
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 ## New alt-text dialog
 ## Group note for entire feature: Alternative text (alt text) helps when people can't see the image. This feature includes a tool to create alt text automatically using an AI model that works locally on the user's device to preserve privacy.
@@ -486,4 +521,7 @@ pdfjs-editor-alt-text-settings-download-model-button = Боргирӣ карда
 pdfjs-editor-alt-text-settings-downloading-model-button = Дар ҳоли боргирӣ…
 pdfjs-editor-alt-text-settings-editor-title = Муҳаррири матни иловагӣ
 pdfjs-editor-alt-text-settings-close-button = Пӯшидан
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

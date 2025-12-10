@@ -43,6 +43,7 @@ pdfjs-save-button =
     .title = Guardar
 pdfjs-save-button-label = Guardar
 <<<<<<< HEAD
+<<<<<<< HEAD
 pdfjs-bookmark-button =
     .title = Página actual (Ver URL de la página actual)
 pdfjs-bookmark-button-label = Página actual
@@ -53,6 +54,8 @@ pdfjs-open-in-app-button =
 # Length of the translation matters since we are in a mobile context, with limited screen estate.
 pdfjs-open-in-app-button-label = Abrir en la aplicación
 =======
+=======
+>>>>>>> upstream/18.0
 # Used in Firefox for Android as a tooltip for the download button (“download” is a verb).
 pdfjs-download-button =
     .title = Descargar
@@ -62,6 +65,9 @@ pdfjs-download-button-label = Descargar
 pdfjs-bookmark-button =
     .title = Página actual (Ver URL de la página actual)
 pdfjs-bookmark-button-label = Página actual
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 ##  Secondary toolbar and context menu
@@ -233,7 +239,10 @@ pdfjs-find-entire-word-checkbox-label = Palabras completas
 pdfjs-find-reached-top = Se alcanzó el inicio del documento, se buscará al final
 pdfjs-find-reached-bottom = Se alcanzó el final del documento, se buscará al inicio
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 # Variables:
 #   $current (Number) - the index of the currently active find result
 #   $total (Number) - the total number of matches in the document
@@ -249,6 +258,9 @@ pdfjs-find-match-count-limit =
         [one] Más de { $limit } coincidencia
        *[other] Más de { $limit } coincidencias
     }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 pdfjs-find-not-found = No se encontró la frase
 
@@ -308,7 +320,10 @@ pdfjs-editor-ink-button =
     .title = Dibujar
 pdfjs-editor-ink-button-label = Dibujar
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 pdfjs-editor-stamp-button =
     .title = Agregar o editar imágenes
 pdfjs-editor-stamp-button-label = Agregar o editar imágenes
@@ -333,6 +348,9 @@ pdfjs-editor-remove-highlight-button =
 
 ##
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 # Editor Parameters
 pdfjs-editor-free-text-color-input = Color
@@ -341,7 +359,10 @@ pdfjs-editor-ink-color-input = Color
 pdfjs-editor-ink-thickness-input = Grossor
 pdfjs-editor-ink-opacity-input = Opacidad
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 pdfjs-editor-stamp-add-image-button =
     .title = Agregar imagen
 pdfjs-editor-stamp-add-image-button-label = Agregar imagen
@@ -349,6 +370,9 @@ pdfjs-editor-stamp-add-image-button-label = Agregar imagen
 pdfjs-editor-free-highlight-thickness-input = Espesor
 pdfjs-editor-free-highlight-thickness-title =
     .title = Cambiar el grosor al resaltar elementos que no sean texto
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 pdfjs-free-text =
     .aria-label = Editor de texto
@@ -361,7 +385,10 @@ pdfjs-ink-canvas =
 ## Alt-text dialog
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 # Alternative text (alt text) helps when people can't see the image.
 pdfjs-editor-alt-text-button-label = Texto alternativo
 pdfjs-editor-alt-text-edit-button-label = Editar texto alternativo
@@ -377,13 +404,19 @@ pdfjs-editor-alt-text-decorative-tooltip = Marcado como decorativo
 # .placeholder: This is a placeholder for the alt text input area
 pdfjs-editor-alt-text-textarea =
     .placeholder = Por ejemplo: “Un joven se sienta a la mesa a comer”
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 ## Editor resizers
 ## This is used in an aria label to help to understand the role of the resizer.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 pdfjs-editor-resizer-label-top-left = Esquina superior izquierda: cambiar el tamaño
 pdfjs-editor-resizer-label-top-middle = Arriba en el medio: cambiar el tamaño
 pdfjs-editor-resizer-label-top-right = Esquina superior derecha: cambiar el tamaño
@@ -425,4 +458,7 @@ pdfjs-editor-highlight-show-all-button =
 
 ## Image alt-text settings
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

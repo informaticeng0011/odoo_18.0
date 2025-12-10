@@ -60,6 +60,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { describe, expect, test } from "@odoo/hoot";
 import { mockFetch } from "@odoo/hoot-mock";
 =======
@@ -244,6 +245,20 @@ import { describe, expect, mockFetch, test } from "@odoo/hoot";
 >>>>>>> upstream/18.0
 import { parseUrl } from "../local_helpers";
 
+=======
+import { after, describe, expect, mockFetch, test } from "@odoo/hoot";
+import { parseUrl } from "../local_helpers";
+
+/**
+ * @param {Blob | MediaSource} obj
+ */
+function createObjectURL(obj) {
+    const url = URL.createObjectURL(obj);
+    after(() => URL.revokeObjectURL(url));
+    return url;
+}
+
+>>>>>>> upstream/18.0
 describe(parseUrl(import.meta.url), () => {
     test("setup network values", async () => {
         expect(document.cookie).toBe("");
@@ -260,6 +275,7 @@ describe(parseUrl(import.meta.url), () => {
         expect(document.title).toBe("");
     });
 
+<<<<<<< HEAD
     test("fetch should not mock internal URLs", async () => {
         mockFetch(expect.step);
 
@@ -337,6 +353,34 @@ describe(parseUrl(import.meta.url), () => {
         await fetch("data:text/html,<body></body>");
 
         expect.verifySteps(["http://some.url", "/odoo"]);
+=======
+    test("fetch with internal URLs works without mocking fetch", async () => {
+        const blob = new Blob([JSON.stringify({ name: "coucou" })], {
+            type: "application/json",
+        });
+        const blobUrl = createObjectURL(blob);
+        const blobResponse = await fetch(blobUrl).then((res) => res.json());
+        const dataResponse = await fetch("data:text/html,<body></body>").then((res) => res.text());
+
+        expect(blobResponse).toEqual({ name: "coucou" });
+        expect(dataResponse).toBe("<body></body>");
+
+        await expect(fetch("http://some.url")).rejects.toThrow(/fetch is not mocked/);
+    });
+
+    test("fetch with internal URLs should return default value", async () => {
+        mockFetch(expect.step);
+
+        const external = await fetch("http://some.url").then((res) => res.text());
+        const internal = await fetch("/odoo").then((res) => res.text());
+        const data = await fetch("data:text/html,<body></body>").then((res) => res.text());
+
+        expect(external).toBe("null");
+        expect(internal).toBe("null");
+        expect(data).toBe("<body></body>");
+
+        expect.verifySteps(["http://some.url", "/odoo", "data:text/html,<body></body>"]);
+>>>>>>> upstream/18.0
     });
 
     test("fetch JSON with blob URLs", async () => {
@@ -345,8 +389,12 @@ describe(parseUrl(import.meta.url), () => {
         const blob = new Blob([JSON.stringify({ name: "coucou" })], {
             type: "application/json",
         });
+<<<<<<< HEAD
         const blobUrl = URL.createObjectURL(blob);
 
+=======
+        const blobUrl = createObjectURL(blob);
+>>>>>>> upstream/18.0
         const response = await fetch(blobUrl);
         const json = await response.json();
 
@@ -364,7 +412,11 @@ describe(parseUrl(import.meta.url), () => {
         const blob = new Blob([JSON.stringify({ name: "coucou" })], {
             type: "application/json",
         });
+<<<<<<< HEAD
         const blobUrl = URL.createObjectURL(blob);
+=======
+        const blobUrl = createObjectURL(blob);
+>>>>>>> upstream/18.0
         const response = await fetch(blobUrl);
 
         expect(response.headers).toEqual(new Headers([["Content-Type", "text/plain"]]));
@@ -499,6 +551,9 @@ describe(parseUrl(import.meta.url), () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

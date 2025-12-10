@@ -106,7 +106,10 @@ pdfjs-document-properties-file-name = Ime datoteke:
 pdfjs-document-properties-file-size = Velikost datoteke:
 # Variables:
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #   $kb (Number) - the PDF file size in kilobytes
 #   $b (Number) - the PDF file size in bytes
 pdfjs-document-properties-size-kb = { NUMBER($kb, maximumSignificantDigits: 3) } KB ({ $b } bajtov)
@@ -115,6 +118,9 @@ pdfjs-document-properties-size-kb = { NUMBER($kb, maximumSignificantDigits: 3) }
 #   $b (Number) - the PDF file size in bytes
 pdfjs-document-properties-size-mb = { NUMBER($mb, maximumSignificantDigits: 3) } MB ({ $b } bajtov)
 # Variables:
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #   $size_kb (Number) - the PDF file size in kilobytes
 #   $size_b (Number) - the PDF file size in bytes
@@ -131,6 +137,12 @@ pdfjs-document-properties-creation-date = Datum nastanka:
 pdfjs-document-properties-modification-date = Datum spremembe:
 # Variables:
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#   $dateObj (Date) - the creation/modification date and time of the PDF file
+pdfjs-document-properties-date-time-string = { DATETIME($dateObj, dateStyle: "short", timeStyle: "medium") }
+# Variables:
+>>>>>>> upstream/18.0
 =======
 #   $dateObj (Date) - the creation/modification date and time of the PDF file
 pdfjs-document-properties-date-time-string = { DATETIME($dateObj, dateStyle: "short", timeStyle: "medium") }
@@ -297,6 +309,12 @@ pdfjs-annotation-date-string = { $date }, { $time }
 pdfjs-text-annotation-type =
     .alt = [Opomba vrste { $type }]
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Variables:
+#   $dateObj (Date) - the modification date and time of the annotation
+pdfjs-annotation-date-time-string = { DATETIME($dateObj, dateStyle: "short", timeStyle: "medium") }
+>>>>>>> upstream/18.0
 =======
 # Variables:
 #   $dateObj (Date) - the modification date and time of the annotation
@@ -326,11 +344,17 @@ pdfjs-editor-highlight-button =
     .title = Označevalnik
 pdfjs-editor-highlight-button-label = Označevalnik
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 pdfjs-highlight-floating-button1 =
     .title = Označi
     .aria-label = Označi
 pdfjs-highlight-floating-button-label = Označi
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 ## Remove button for the various kind of editor.
@@ -397,7 +421,10 @@ pdfjs-editor-resizer-label-bottom-middle = Spodaj na sredini – spremeni veliko
 pdfjs-editor-resizer-label-bottom-left = Spodnji levi kot – spremeni velikost
 pdfjs-editor-resizer-label-middle-left = Levo na sredini – spremeni velikost
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 pdfjs-editor-resizer-top-left =
     .aria-label = Zgornji levi kot – spremeni velikost
 pdfjs-editor-resizer-top-middle =
@@ -414,6 +441,9 @@ pdfjs-editor-resizer-bottom-left =
     .aria-label = Spodnji levi kot – spremeni velikost
 pdfjs-editor-resizer-middle-left =
     .aria-label = Levo na sredini – spremeni velikost
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 ## Color picker
@@ -442,7 +472,10 @@ pdfjs-editor-highlight-show-all-button-label = Prikaži vse
 pdfjs-editor-highlight-show-all-button =
     .title = Prikaži vse
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 ## New alt-text dialog
 ## Group note for entire feature: Alternative text (alt text) helps when people can't see the image. This feature includes a tool to create alt text automatically using an AI model that works locally on the user's device to preserve privacy.
@@ -500,4 +533,7 @@ pdfjs-editor-alt-text-settings-editor-title = Urejevalnik nadomestnega besedila
 pdfjs-editor-alt-text-settings-show-dialog-button-label = Ob dodajanju slike takoj prikaži urejevalnik nadomestnega besedila
 pdfjs-editor-alt-text-settings-show-dialog-description = Pomaga vam zagotoviti, da imajo vse vaše slike nadomestno besedilo.
 pdfjs-editor-alt-text-settings-close-button = Zapri
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

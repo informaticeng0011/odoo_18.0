@@ -52,12 +52,15 @@ pdfjs-bookmark-button =
     .title = Текуща страница (преглед на адреса на страницата)
 pdfjs-bookmark-button-label = Текуща страница
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Used in Firefox for Android.
 pdfjs-open-in-app-button =
     .title = Отваряне в приложение
 # Used in Firefox for Android.
 # Length of the translation matters since we are in a mobile context, with limited screen estate.
 pdfjs-open-in-app-button-label = Отваряне в приложение
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -115,7 +118,10 @@ pdfjs-document-properties-file-name = Име на файл:
 pdfjs-document-properties-file-size = Големина на файл:
 # Variables:
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #   $kb (Number) - the PDF file size in kilobytes
 #   $b (Number) - the PDF file size in bytes
 pdfjs-document-properties-size-kb = { NUMBER($kb, maximumSignificantDigits: 3) } КБ ({ $b } байта)
@@ -124,6 +130,9 @@ pdfjs-document-properties-size-kb = { NUMBER($kb, maximumSignificantDigits: 3) }
 #   $b (Number) - the PDF file size in bytes
 pdfjs-document-properties-size-mb = { NUMBER($mb, maximumSignificantDigits: 3) } МБ ({ $b } байта)
 # Variables:
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #   $size_kb (Number) - the PDF file size in kilobytes
 #   $size_b (Number) - the PDF file size in bytes
@@ -140,6 +149,12 @@ pdfjs-document-properties-creation-date = Дата на създаване:
 pdfjs-document-properties-modification-date = Дата на промяна:
 # Variables:
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#   $dateObj (Date) - the creation/modification date and time of the PDF file
+pdfjs-document-properties-date-time-string = { DATETIME($dateObj, dateStyle: "short", timeStyle: "medium") }
+# Variables:
+>>>>>>> upstream/18.0
 =======
 #   $dateObj (Date) - the creation/modification date and time of the PDF file
 pdfjs-document-properties-date-time-string = { DATETIME($dateObj, dateStyle: "short", timeStyle: "medium") }
@@ -302,6 +317,12 @@ pdfjs-annotation-date-string = { $date }, { $time }
 pdfjs-text-annotation-type =
     .alt = [Анотация { $type }]
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Variables:
+#   $dateObj (Date) - the modification date and time of the annotation
+pdfjs-annotation-date-time-string = { DATETIME($dateObj, dateStyle: "short", timeStyle: "medium") }
+>>>>>>> upstream/18.0
 =======
 # Variables:
 #   $dateObj (Date) - the modification date and time of the annotation
@@ -328,8 +349,11 @@ pdfjs-editor-stamp-button =
     .title = Добавяне или променяне на изображения
 pdfjs-editor-stamp-button-label = Добавяне или променяне на изображения
 <<<<<<< HEAD
+<<<<<<< HEAD
 pdfjs-editor-remove-button =
     .title = Премахване
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -393,7 +417,10 @@ pdfjs-editor-resizer-label-bottom-middle = Долу в средата — пре
 pdfjs-editor-resizer-label-bottom-left = Долен ляв ъгъл — преоразмеряване
 pdfjs-editor-resizer-label-middle-left = Ляво в средата — преоразмеряване
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 pdfjs-editor-resizer-top-left =
     .aria-label = Горен ляв ъгъл — преоразмеряване
 pdfjs-editor-resizer-top-middle =
@@ -410,6 +437,9 @@ pdfjs-editor-resizer-bottom-left =
     .aria-label = Долен ляв ъгъл — преоразмеряване
 pdfjs-editor-resizer-middle-left =
     .aria-label = Ляво в средата — преоразмеряване
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 ## Color picker
@@ -431,7 +461,10 @@ pdfjs-editor-colorpicker-pink =
 pdfjs-editor-colorpicker-red =
     .title = Червено
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 ## Show all highlights
 ## This is a toggle button to show/hide all the highlights.
@@ -443,4 +476,7 @@ pdfjs-editor-colorpicker-red =
 
 ## Image alt-text settings
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

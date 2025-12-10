@@ -105,13 +105,19 @@ pdfjs-document-properties-button-label = Proprietà del documento…
 pdfjs-document-properties-file-name = Nome file:
 pdfjs-document-properties-file-size = Dimensione file:
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #   $kb (Number) - the PDF file size in kilobytes
 #   $b (Number) - the PDF file size in bytes
 pdfjs-document-properties-size-kb = { NUMBER($kb, maximumSignificantDigits: 3) } KB ({ $b } byte)
 #   $mb (Number) - the PDF file size in megabytes
 #   $b (Number) - the PDF file size in bytes
 pdfjs-document-properties-size-mb = { NUMBER($mb, maximumSignificantDigits: 3) } MB ({ $b } byte)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 # Variables:
 #   $size_kb (Number) - the PDF file size in kilobytes
@@ -128,6 +134,10 @@ pdfjs-document-properties-keywords = Parole chiave:
 pdfjs-document-properties-creation-date = Data creazione:
 pdfjs-document-properties-modification-date = Data modifica:
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+pdfjs-document-properties-date-time-string = { DATETIME($dateObj, dateStyle: "short", timeStyle: "medium") }
+>>>>>>> upstream/18.0
 =======
 pdfjs-document-properties-date-time-string = { DATETIME($dateObj, dateStyle: "short", timeStyle: "medium") }
 >>>>>>> upstream/18.0
@@ -234,7 +244,10 @@ pdfjs-find-entire-word-checkbox-label = Parole intere
 pdfjs-find-reached-top = Raggiunto l’inizio della pagina, continua dalla fine
 pdfjs-find-reached-bottom = Raggiunta la fine della pagina, continua dall’inizio
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 # Variables:
@@ -246,7 +259,10 @@ pdfjs-find-match-count =
        *[other] { $current } di { $total } corrispondenze
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 # Variables:
@@ -257,7 +273,10 @@ pdfjs-find-match-count-limit =
        *[other] Più di { $limit } corrispondenze
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 pdfjs-find-not-found = Testo non trovato
@@ -301,6 +320,10 @@ pdfjs-annotation-date-string = { $date }, { $time }
 pdfjs-text-annotation-type =
     .alt = [Annotazione: { $type }]
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+pdfjs-annotation-date-time-string = { DATETIME($dateObj, dateStyle: "short", timeStyle: "medium") }
+>>>>>>> upstream/18.0
 =======
 pdfjs-annotation-date-time-string = { DATETIME($dateObj, dateStyle: "short", timeStyle: "medium") }
 >>>>>>> upstream/18.0
@@ -359,7 +382,10 @@ pdfjs-editor-free-highlight-thickness-input = Spessore
 pdfjs-editor-free-highlight-thickness-title =
     .title = Modifica lo spessore della selezione per elementi non testuali
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 pdfjs-free-text =
@@ -400,7 +426,10 @@ pdfjs-editor-resizer-label-bottom-middle = Lato inferiore nel mezzo — ridimens
 pdfjs-editor-resizer-label-bottom-left = Angolo in basso a sinistra — ridimensiona
 pdfjs-editor-resizer-label-middle-left = Lato sinistro nel mezzo — ridimensiona
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 pdfjs-editor-resizer-top-left =
     .aria-label = Angolo in alto a sinistra — ridimensiona
 pdfjs-editor-resizer-top-middle =
@@ -417,6 +446,9 @@ pdfjs-editor-resizer-bottom-left =
     .aria-label = Angolo in basso a sinistra — ridimensiona
 pdfjs-editor-resizer-middle-left =
     .aria-label = Lato sinistro nel mezzo — ridimensiona
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 ## Color picker
@@ -424,7 +456,10 @@ pdfjs-editor-resizer-middle-left =
 # This means "Color used to highlight text"
 pdfjs-editor-highlight-colorpicker-label = Colore evidenziatore
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 pdfjs-editor-colorpicker-button =
@@ -449,7 +484,10 @@ pdfjs-editor-highlight-show-all-button-label = Mostra tutto
 pdfjs-editor-highlight-show-all-button =
     .title = Mostra tutto
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 ## New alt-text dialog
 ## Group note for entire feature: Alternative text (alt text) helps when people can't see the image. This feature includes a tool to create alt text automatically using an AI model that works locally on the user's device to preserve privacy.
@@ -507,4 +545,7 @@ pdfjs-editor-alt-text-settings-editor-title = Modifica testo alternativo
 pdfjs-editor-alt-text-settings-show-dialog-button-label = Mostra l’editor del testo alternativo non appena si aggiunge un’immagine
 pdfjs-editor-alt-text-settings-show-dialog-description = Ti aiuta ad assicurarti che tutte le tue immagini abbiano il testo alternativo.
 pdfjs-editor-alt-text-settings-close-button = Chiudi
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

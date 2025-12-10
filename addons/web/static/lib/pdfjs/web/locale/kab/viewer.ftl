@@ -52,12 +52,15 @@ pdfjs-bookmark-button =
     .title = Asebter amiran (Sken-d tansa URL seg usebter amiran)
 pdfjs-bookmark-button-label = Asebter amiran
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Used in Firefox for Android.
 pdfjs-open-in-app-button =
     .title = Ldi deg usnas
 # Used in Firefox for Android.
 # Length of the translation matters since we are in a mobile context, with limited screen estate.
 pdfjs-open-in-app-button-label = Ldi deg usnas
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -115,7 +118,10 @@ pdfjs-document-properties-file-name = Isem n ufaylu:
 pdfjs-document-properties-file-size = Teɣzi n ufaylu:
 # Variables:
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #   $kb (Number) - the PDF file size in kilobytes
 #   $b (Number) - the PDF file size in bytes
 pdfjs-document-properties-size-kb = { NUMBER($kb, maximumSignificantDigits: 3) } KB ({ $b } yibiten)
@@ -124,6 +130,9 @@ pdfjs-document-properties-size-kb = { NUMBER($kb, maximumSignificantDigits: 3) }
 #   $b (Number) - the PDF file size in bytes
 pdfjs-document-properties-size-mb = { NUMBER($mb, maximumSignificantDigits: 3) } MB ({ $b } yibiten)
 # Variables:
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #   $size_kb (Number) - the PDF file size in kilobytes
 #   $size_b (Number) - the PDF file size in bytes
@@ -140,6 +149,12 @@ pdfjs-document-properties-creation-date = Azemz n tmerna:
 pdfjs-document-properties-modification-date = Azemz n usnifel:
 # Variables:
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#   $dateObj (Date) - the creation/modification date and time of the PDF file
+pdfjs-document-properties-date-time-string = { DATETIME($dateObj, dateStyle: "short", timeStyle: "medium") }
+# Variables:
+>>>>>>> upstream/18.0
 =======
 #   $dateObj (Date) - the creation/modification date and time of the PDF file
 pdfjs-document-properties-date-time-string = { DATETIME($dateObj, dateStyle: "short", timeStyle: "medium") }
@@ -302,6 +317,12 @@ pdfjs-annotation-date-string = { $date }, { $time }
 pdfjs-text-annotation-type =
     .alt = [Tabzimt { $type }]
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Variables:
+#   $dateObj (Date) - the modification date and time of the annotation
+pdfjs-annotation-date-time-string = { DATETIME($dateObj, dateStyle: "short", timeStyle: "medium") }
+>>>>>>> upstream/18.0
 =======
 # Variables:
 #   $dateObj (Date) - the modification date and time of the annotation
@@ -328,9 +349,12 @@ pdfjs-editor-stamp-button =
     .title = Rnu neɣ ẓreg tugniwin
 pdfjs-editor-stamp-button-label = Rnu neɣ ẓreg tugniwin
 <<<<<<< HEAD
+<<<<<<< HEAD
 pdfjs-editor-remove-button =
     .title = Kkes
 =======
+=======
+>>>>>>> upstream/18.0
 pdfjs-editor-highlight-button =
     .title = Derrer
 pdfjs-editor-highlight-button-label = Derrer
@@ -352,6 +376,9 @@ pdfjs-editor-remove-highlight-button =
 
 ##
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 # Editor Parameters
 pdfjs-editor-free-text-color-input = Initen
@@ -363,11 +390,17 @@ pdfjs-editor-stamp-add-image-button =
     .title = Rnu tawlaft
 pdfjs-editor-stamp-add-image-button-label = Rnu tawlaft
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 # This refers to the thickness of the line used for free highlighting (not bound to text)
 pdfjs-editor-free-highlight-thickness-input = Tuzert
 pdfjs-editor-free-highlight-thickness-title =
     .title = Beddel tuzert mi ara d-tesbeggneḍ iferdisen niḍen ur nelli d aḍris
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 pdfjs-free-text =
     .aria-label = Amaẓrag n uḍris
@@ -393,7 +426,10 @@ pdfjs-editor-alt-text-decorative-tooltip = Yettwacreḍ d adlag
 ## This is used in an aria label to help to understand the role of the resizer.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 pdfjs-editor-resizer-label-top-left = Tiɣmert n ufella n zelmeḍ — semsawi teɣzi
 pdfjs-editor-resizer-label-top-middle = Talemmat n ufella — semsawi teɣzi
 pdfjs-editor-resizer-label-top-right = Tiɣmert n ufella n yeffus — semsawi teɣzi
@@ -464,4 +500,7 @@ pdfjs-editor-alt-text-settings-delete-model-button = Kkes
 pdfjs-editor-alt-text-settings-download-model-button = Sader
 pdfjs-editor-alt-text-settings-downloading-model-button = Asader…
 pdfjs-editor-alt-text-settings-close-button = Mdel
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

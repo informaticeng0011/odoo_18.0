@@ -52,12 +52,15 @@ pdfjs-bookmark-button =
     .title = Aktualna strona (URL z aktualneje strony pokazać)
 pdfjs-bookmark-button-label = Aktualna strona
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Used in Firefox for Android.
 pdfjs-open-in-app-button =
     .title = W nałoženju wočinić
 # Used in Firefox for Android.
 # Length of the translation matters since we are in a mobile context, with limited screen estate.
 pdfjs-open-in-app-button-label = W nałoženju wočinić
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -115,7 +118,10 @@ pdfjs-document-properties-file-name = Mjeno dataje:
 pdfjs-document-properties-file-size = Wulkosć dataje:
 # Variables:
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #   $kb (Number) - the PDF file size in kilobytes
 #   $b (Number) - the PDF file size in bytes
 pdfjs-document-properties-size-kb = { NUMBER($kb, maximumSignificantDigits: 3) } KB ({ $b } bajtow)
@@ -124,6 +130,9 @@ pdfjs-document-properties-size-kb = { NUMBER($kb, maximumSignificantDigits: 3) }
 #   $b (Number) - the PDF file size in bytes
 pdfjs-document-properties-size-mb = { NUMBER($mb, maximumSignificantDigits: 3) } MB ({ $b } bajtow)
 # Variables:
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #   $size_kb (Number) - the PDF file size in kilobytes
 #   $size_b (Number) - the PDF file size in bytes
@@ -140,6 +149,12 @@ pdfjs-document-properties-creation-date = Datum wutworjenja:
 pdfjs-document-properties-modification-date = Datum změny:
 # Variables:
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#   $dateObj (Date) - the creation/modification date and time of the PDF file
+pdfjs-document-properties-date-time-string = { DATETIME($dateObj, dateStyle: "short", timeStyle: "medium") }
+# Variables:
+>>>>>>> upstream/18.0
 =======
 #   $dateObj (Date) - the creation/modification date and time of the PDF file
 pdfjs-document-properties-date-time-string = { DATETIME($dateObj, dateStyle: "short", timeStyle: "medium") }
@@ -306,6 +321,12 @@ pdfjs-annotation-date-string = { $date }, { $time }
 pdfjs-text-annotation-type =
     .alt = [Typ přispomnjenki: { $type }]
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Variables:
+#   $dateObj (Date) - the modification date and time of the annotation
+pdfjs-annotation-date-time-string = { DATETIME($dateObj, dateStyle: "short", timeStyle: "medium") }
+>>>>>>> upstream/18.0
 =======
 # Variables:
 #   $dateObj (Date) - the modification date and time of the annotation
@@ -335,8 +356,11 @@ pdfjs-editor-highlight-button =
     .title = Wuzběhnyć
 pdfjs-editor-highlight-button-label = Wuzběhnyć
 <<<<<<< HEAD
+<<<<<<< HEAD
 pdfjs-highlight-floating-button =
     .title = Wuzběhnyć
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 pdfjs-highlight-floating-button1 =
@@ -408,7 +432,10 @@ pdfjs-editor-resizer-label-bottom-middle = Deleka wosrjedź – wulkosć změni�
 pdfjs-editor-resizer-label-bottom-left = Deleka nalěwo – wulkosć změnić
 pdfjs-editor-resizer-label-middle-left = Wosrjedź nalěwo – wulkosć změnić
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 pdfjs-editor-resizer-top-left =
     .aria-label = Horjeka nalěwo – wulkosć změnić
 pdfjs-editor-resizer-top-middle =
@@ -425,6 +452,9 @@ pdfjs-editor-resizer-bottom-left =
     .aria-label = Deleka nalěwo – wulkosć změnić
 pdfjs-editor-resizer-middle-left =
     .aria-label = Wosrjedź nalěwo – wulkosć změnić
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 ## Color picker
@@ -453,7 +483,10 @@ pdfjs-editor-highlight-show-all-button-label = Wšě pokazać
 pdfjs-editor-highlight-show-all-button =
     .title = Wšě pokazać
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 ## New alt-text dialog
 ## Group note for entire feature: Alternative text (alt text) helps when people can't see the image. This feature includes a tool to create alt text automatically using an AI model that works locally on the user's device to preserve privacy.
@@ -511,4 +544,7 @@ pdfjs-editor-alt-text-settings-editor-title = Editor za alternatiwny tekst
 pdfjs-editor-alt-text-settings-show-dialog-button-label = Editor alternatiwneho teksta hnydom pokazać, hdyž so wobraz přidawa
 pdfjs-editor-alt-text-settings-show-dialog-description = Pomha, wam wšěm swojim wobrazam alternatiwny tekst přidać.
 pdfjs-editor-alt-text-settings-close-button = Začinić
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

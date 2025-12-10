@@ -8,6 +8,7 @@ import logging
 import mimetypes
 import os
 <<<<<<< HEAD
+<<<<<<< HEAD
 import psycopg2
 import re
 import uuid
@@ -374,6 +375,8 @@ from odoo.tools.mimetypes import guess_mimetype, fix_filename_extension, _olecf_
 >>>>>>> upstream/18.0
 from odoo.osv import expression
 =======
+=======
+>>>>>>> upstream/18.0
 import re
 import uuid
 from collections import defaultdict
@@ -392,6 +395,9 @@ from odoo.tools.mimetypes import (
     fix_filename_extension,
     guess_mimetype,
 )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 _logger = logging.getLogger(__name__)
@@ -767,8 +773,11 @@ class IrAttachment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         quality = int(ICP('base.image_autoresize_quality', 80))
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -911,6 +920,9 @@ class IrAttachment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1343,7 +1355,10 @@ class IrAttachment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1764,6 +1779,9 @@ class IrAttachment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2254,6 +2272,7 @@ class IrAttachment(models.Model):
             filename = file.filename
         elif mimetype == 'GUESS':
 <<<<<<< HEAD
+<<<<<<< HEAD
             head = file.read(1024)
             file.seek(-len(head), 1)  # rewind
             mimetype = guess_mimetype(head)
@@ -2699,12 +2718,17 @@ class IrAttachment(models.Model):
                 mimetype = mimetypes.guess_type(filename)[0]
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
             head = file.read(MIMETYPE_HEAD_SIZE)
             file.seek(-len(head), 1)  # rewind
             mimetype = guess_mimetype(head)
             filename = fix_filename_extension(file.filename, mimetype)
             if mimetype in ('application/zip', *_olecf_mimetypes):
                 mimetype = mimetypes.guess_type(filename)[0]
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         elif all(mimetype.partition('/')):
             filename = fix_filename_extension(file.filename, mimetype)
@@ -2850,7 +2874,10 @@ class IrAttachment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3104,6 +3131,7 @@ class IrAttachment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3222,6 +3250,8 @@ class IrAttachment(models.Model):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3300,6 +3330,9 @@ class IrAttachment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

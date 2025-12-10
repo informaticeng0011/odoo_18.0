@@ -321,11 +321,14 @@ class ResUsers(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 message = _('A reset password link was send by email')
             else:
                 _logger.info("Signup email sent for user <%s> to <%s>", user.login, user.email)
                 message = _('A signup link was send by email')
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -594,6 +597,9 @@ class ResUsers(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -812,7 +818,11 @@ class ResUsers(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.env['ir.cron']._commit_progress(deactivate=True)
+=======
+            self.env['ir.cron']._notify_progress(deactivate=True)
+>>>>>>> upstream/18.0
 =======
             self.env['ir.cron']._notify_progress(deactivate=True)
 >>>>>>> upstream/18.0
@@ -1000,6 +1010,21 @@ class ResUsers(models.Model):
                     users_with_email.partner_id.with_context(create_user=True).signup_cancel()
         return users
 
+<<<<<<< HEAD
+=======
+    def write(self, vals):
+        if 'active' in vals and not vals['active']:
+            self.partner_id.signup_cancel()
+        return super().write(vals)
+
+    @api.ondelete(at_uninstall=False)
+    def _ondelete_signup_cancel(self):
+        # Cancel pending partner signup when the user is deleted.
+        for user in self:
+            if user.partner_id:
+                user.partner_id.signup_cancel()
+
+>>>>>>> upstream/18.0
     def copy(self, default=None):
         if not default or not default.get('email'):
             # avoid sending email to the user we are duplicating

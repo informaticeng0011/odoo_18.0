@@ -980,7 +980,10 @@ class TestInvoiceTaxes(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1452,6 +1455,7 @@ class TestInvoiceTaxes(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1624,6 +1628,8 @@ class TestInvoiceTaxes(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1813,6 +1819,7 @@ class TestInvoiceTaxes(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1923,4 +1930,30 @@ class TestInvoiceTaxes(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+    def test_multiple_onchange_product_and_price(self):
+        """
+        This test checks that the totals are computed correctly when an onchange is executed
+        with "price_unit" before "product_id" in the values.
+        This test covers a UI issue where the totals were not updated when the price was changed,
+        then the product and finally the price again.
+        The issue was only occuring between the change of value and the next save.
+        That's why the test is using the onchange method directly instead of using a Form.
+        """
+        invoice = self.init_invoice('out_invoice', products=self.product_a)
+        self.assertEqual(invoice.tax_totals['base_amount'], 1000.0)
+        self.assertEqual(invoice.tax_totals['total_amount'], 1150.0)
+        # The onchange is executed directly to simulate the following flow:
+        # 1) unit price is changed to any value
+        # 2) product is changed to "Product B"
+        # 3) unit price is changed to 2000.0
+        results = invoice.onchange(
+            {'invoice_line_ids': [Command.update(invoice.invoice_line_ids[0].id, {'price_unit': 2000.0, 'product_id': self.product_b.id})]},
+            ['invoice_line_ids'],
+            {"invoice_line_ids": {}, 'tax_totals': {}}
+        )
+        self.assertEqual(results['value']['tax_totals']['base_amount'], 2000.0)
+        self.assertEqual(results['value']['tax_totals']['total_amount'], 2600.0)
 >>>>>>> upstream/18.0

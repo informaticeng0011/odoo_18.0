@@ -307,8 +307,11 @@ pdfjs-editor-highlight-button =
     .title = أبرِز
 pdfjs-editor-highlight-button-label = أبرِز
 <<<<<<< HEAD
+<<<<<<< HEAD
 pdfjs-highlight-floating-button =
     .title = أبرِز
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 pdfjs-highlight-floating-button1 =
@@ -380,7 +383,10 @@ pdfjs-editor-resizer-label-bottom-middle = أسفل الوسط - غيّر الح
 pdfjs-editor-resizer-label-bottom-left = الزاوية اليُسرى السُفلية - غيّر الحجم
 pdfjs-editor-resizer-label-middle-left = مُنتصف اليسار - غيّر الحجم
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 pdfjs-editor-resizer-top-left =
     .aria-label = الزاوية اليُسرى العُليا — غيّر الحجم
 pdfjs-editor-resizer-top-middle =
@@ -397,6 +403,9 @@ pdfjs-editor-resizer-bottom-left =
     .aria-label = الزاوية اليُسرى السُفلية - غيّر الحجم
 pdfjs-editor-resizer-middle-left =
     .aria-label = مُنتصف اليسار - غيّر الحجم
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 ## Color picker
@@ -425,7 +434,10 @@ pdfjs-editor-highlight-show-all-button-label = أظهِر الكل
 pdfjs-editor-highlight-show-all-button =
     .title = أظهِر الكل
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 ## New alt-text dialog
 ## Group note for entire feature: Alternative text (alt text) helps when people can't see the image. This feature includes a tool to create alt text automatically using an AI model that works locally on the user's device to preserve privacy.
@@ -433,4 +445,7 @@ pdfjs-editor-highlight-show-all-button =
 
 ## Image alt-text settings
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

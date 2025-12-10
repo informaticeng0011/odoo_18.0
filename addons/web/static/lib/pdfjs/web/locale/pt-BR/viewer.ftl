@@ -106,7 +106,10 @@ pdfjs-document-properties-file-name = Nome do arquivo:
 pdfjs-document-properties-file-size = Tamanho do arquivo:
 # Variables:
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #   $kb (Number) - the PDF file size in kilobytes
 #   $b (Number) - the PDF file size in bytes
 pdfjs-document-properties-size-kb = { NUMBER($kb, maximumSignificantDigits: 3) } KB ({ $b } bytes)
@@ -115,6 +118,9 @@ pdfjs-document-properties-size-kb = { NUMBER($kb, maximumSignificantDigits: 3) }
 #   $b (Number) - the PDF file size in bytes
 pdfjs-document-properties-size-mb = { NUMBER($mb, maximumSignificantDigits: 3) } MB ({ $b } bytes)
 # Variables:
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #   $size_kb (Number) - the PDF file size in kilobytes
 #   $size_b (Number) - the PDF file size in bytes
@@ -131,6 +137,12 @@ pdfjs-document-properties-creation-date = Data da criação:
 pdfjs-document-properties-modification-date = Data da modificação:
 # Variables:
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#   $dateObj (Date) - the creation/modification date and time of the PDF file
+pdfjs-document-properties-date-time-string = { DATETIME($dateObj, dateStyle: "short", timeStyle: "medium") }
+# Variables:
+>>>>>>> upstream/18.0
 =======
 #   $dateObj (Date) - the creation/modification date and time of the PDF file
 pdfjs-document-properties-date-time-string = { DATETIME($dateObj, dateStyle: "short", timeStyle: "medium") }
@@ -188,8 +200,13 @@ pdfjs-toggle-sidebar-button =
     .title = Exibir/ocultar painel lateral
 pdfjs-toggle-sidebar-notification-button =
 <<<<<<< HEAD
+<<<<<<< HEAD
     .title = Exibir/ocultar painel (documento contém estrutura/anexos/camadas)
 pdfjs-toggle-sidebar-button-label = Exibir/ocultar painel
+=======
+    .title = Exibir/ocultar painel lateral (documento contém estrutura/anexos/camadas)
+pdfjs-toggle-sidebar-button-label = Exibir/ocultar painel lateral
+>>>>>>> upstream/18.0
 =======
     .title = Exibir/ocultar painel lateral (documento contém estrutura/anexos/camadas)
 pdfjs-toggle-sidebar-button-label = Exibir/ocultar painel lateral
@@ -298,6 +315,12 @@ pdfjs-annotation-date-string = { $date }, { $time }
 pdfjs-text-annotation-type =
     .alt = [Anotação { $type }]
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Variables:
+#   $dateObj (Date) - the modification date and time of the annotation
+pdfjs-annotation-date-time-string = { DATETIME($dateObj, dateStyle: "short", timeStyle: "medium") }
+>>>>>>> upstream/18.0
 =======
 # Variables:
 #   $dateObj (Date) - the modification date and time of the annotation
@@ -327,8 +350,11 @@ pdfjs-editor-highlight-button =
     .title = Destaque
 pdfjs-editor-highlight-button-label = Destaque
 <<<<<<< HEAD
+<<<<<<< HEAD
 pdfjs-highlight-floating-button =
     .title = Destaque
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 pdfjs-highlight-floating-button1 =
@@ -400,7 +426,10 @@ pdfjs-editor-resizer-label-bottom-middle = No centro da base — redimensionar
 pdfjs-editor-resizer-label-bottom-left = Canto inferior esquerdo — redimensionar
 pdfjs-editor-resizer-label-middle-left = No meio à esquerda — redimensionar
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 pdfjs-editor-resizer-top-left =
     .aria-label = Canto superior esquerdo — redimensionar
 pdfjs-editor-resizer-top-middle =
@@ -417,6 +446,9 @@ pdfjs-editor-resizer-bottom-left =
     .aria-label = Canto inferior esquerdo — redimensionar
 pdfjs-editor-resizer-middle-left =
     .aria-label = No meio à esquerda — redimensionar
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 ## Color picker
@@ -445,7 +477,10 @@ pdfjs-editor-highlight-show-all-button-label = Mostrar todos
 pdfjs-editor-highlight-show-all-button =
     .title = Mostrar todos
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 ## New alt-text dialog
 ## Group note for entire feature: Alternative text (alt text) helps when people can't see the image. This feature includes a tool to create alt text automatically using an AI model that works locally on the user's device to preserve privacy.
@@ -503,4 +538,7 @@ pdfjs-editor-alt-text-settings-editor-title = Editor de texto alternativo
 pdfjs-editor-alt-text-settings-show-dialog-button-label = Mostrar o editor de texto alternativo imediatamente ao adicionar uma imagem
 pdfjs-editor-alt-text-settings-show-dialog-description = Ajuda a assegurar que todas as suas imagens tenham texto alternativo.
 pdfjs-editor-alt-text-settings-close-button = Fechar
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

@@ -34,7 +34,10 @@ class TestEmployee(TransactionCase):
                is correctly generated
         """
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         existing_employee = self.env['hr.employee'].create({
             'name': 'Test Employee',
             'company_id': self.company.id,
@@ -49,6 +52,9 @@ class TestEmployee(TransactionCase):
             'company_id': self.company.id,
         })
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         employee = self.env['hr.employee'].create({
             'name': 'Test Employee',
@@ -56,7 +62,10 @@ class TestEmployee(TransactionCase):
             'resource_calendar_id': self.company.resource_calendar_id.id,
         })
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         # Check resource-specific leave does not create a timesheet
         resource_timesheet = self.env['account.analytic.line'].search([
             ('employee_id', '=', employee.id),
@@ -64,6 +73,9 @@ class TestEmployee(TransactionCase):
         ])
         self.assertFalse(resource_timesheet, 'No timesheet should be created for resource-specific leaves')
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         timesheet = self.env['account.analytic.line'].search([
             ('employee_id', '=', employee.id),
@@ -300,7 +312,10 @@ class TestEmployee(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -816,6 +831,9 @@ class TestEmployee(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

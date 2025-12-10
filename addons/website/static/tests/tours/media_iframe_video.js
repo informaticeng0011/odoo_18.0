@@ -36,7 +36,10 @@ registerWebsitePreviewTour("website_media_iframe_video", {
         },
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
             content: "Enter text in video link input to enable add button",
             trigger: "#o_video_text",
             run: "edit https://youtu.be/nbso3NVz3p8",
@@ -76,6 +79,9 @@ registerWebsitePreviewTour("website_media_iframe_video", {
             },
         },
         {
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             content: "Enter video link",
             trigger: "#o_video_text",
@@ -108,7 +114,10 @@ registerWebsitePreviewTour("website_media_iframe_video", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -212,6 +221,9 @@ registerWebsitePreviewTour(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

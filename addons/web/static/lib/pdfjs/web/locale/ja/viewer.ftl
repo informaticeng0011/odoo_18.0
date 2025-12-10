@@ -106,7 +106,10 @@ pdfjs-document-properties-file-name = ファイル名:
 pdfjs-document-properties-file-size = ファイルサイズ:
 # Variables:
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #   $kb (Number) - the PDF file size in kilobytes
 #   $b (Number) - the PDF file size in bytes
 pdfjs-document-properties-size-kb = { NUMBER($kb, maximumSignificantDigits: 3) } KB ({ $b } バイト)
@@ -115,6 +118,9 @@ pdfjs-document-properties-size-kb = { NUMBER($kb, maximumSignificantDigits: 3) }
 #   $b (Number) - the PDF file size in bytes
 pdfjs-document-properties-size-mb = { NUMBER($mb, maximumSignificantDigits: 3) } MB ({ $b } バイト)
 # Variables:
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #   $size_kb (Number) - the PDF file size in kilobytes
 #   $size_b (Number) - the PDF file size in bytes
@@ -131,6 +137,12 @@ pdfjs-document-properties-creation-date = 作成日:
 pdfjs-document-properties-modification-date = 更新日:
 # Variables:
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#   $dateObj (Date) - the creation/modification date and time of the PDF file
+pdfjs-document-properties-date-time-string = { DATETIME($dateObj, dateStyle: "short", timeStyle: "medium") }
+# Variables:
+>>>>>>> upstream/18.0
 =======
 #   $dateObj (Date) - the creation/modification date and time of the PDF file
 pdfjs-document-properties-date-time-string = { DATETIME($dateObj, dateStyle: "short", timeStyle: "medium") }
@@ -241,6 +253,7 @@ pdfjs-find-reached-bottom = 文書末尾に到達したので先頭から続け�
 #   $current (Number) - the index of the currently active find result
 #   $total (Number) - the total number of matches in the document
 <<<<<<< HEAD
+<<<<<<< HEAD
 pdfjs-find-match-count =
     { $total ->
         [one] { $total } 件中 { $current } 件目
@@ -254,10 +267,15 @@ pdfjs-find-match-count-limit =
        *[other] { $limit } 件以上一致
     }
 =======
+=======
+>>>>>>> upstream/18.0
 pdfjs-find-match-count = { $total } 件中 { $current } 件目
 # Variables:
 #   $limit (Number) - the maximum number of matches
 pdfjs-find-match-count-limit = { $limit } 件以上一致
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 pdfjs-find-not-found = 見つかりませんでした
 
@@ -300,6 +318,12 @@ pdfjs-annotation-date-string = { $date }, { $time }
 pdfjs-text-annotation-type =
     .alt = [{ $type } 注釈]
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Variables:
+#   $dateObj (Date) - the modification date and time of the annotation
+pdfjs-annotation-date-time-string = { DATETIME($dateObj, dateStyle: "short", timeStyle: "medium") }
+>>>>>>> upstream/18.0
 =======
 # Variables:
 #   $dateObj (Date) - the modification date and time of the annotation
@@ -310,7 +334,11 @@ pdfjs-annotation-date-time-string = { DATETIME($dateObj, dateStyle: "short", tim
 
 pdfjs-password-label = この PDF ファイルを開くためのパスワードを入力してください。
 <<<<<<< HEAD
+<<<<<<< HEAD
 pdfjs-password-invalid = 無効なパスワードです。もう一度やり直してください。
+=======
+pdfjs-password-invalid = パスワードが正しくありません。もう一度試してください。
+>>>>>>> upstream/18.0
 =======
 pdfjs-password-invalid = パスワードが正しくありません。もう一度試してください。
 >>>>>>> upstream/18.0
@@ -333,8 +361,11 @@ pdfjs-editor-highlight-button =
     .title = 強調します
 pdfjs-editor-highlight-button-label = 強調
 <<<<<<< HEAD
+<<<<<<< HEAD
 pdfjs-highlight-floating-button =
     .title = 強調
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 pdfjs-highlight-floating-button1 =
@@ -406,7 +437,10 @@ pdfjs-editor-resizer-label-bottom-middle = 下中央 — サイズ変更
 pdfjs-editor-resizer-label-bottom-left = 左下隅 — サイズ変更
 pdfjs-editor-resizer-label-middle-left = 左中央 — サイズ変更
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 pdfjs-editor-resizer-top-left =
     .aria-label = 左上隅 — サイズ変更
 pdfjs-editor-resizer-top-middle =
@@ -423,6 +457,9 @@ pdfjs-editor-resizer-bottom-left =
     .aria-label = 左下隅 — サイズ変更
 pdfjs-editor-resizer-middle-left =
     .aria-label = 左中央 — サイズ変更
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 ## Color picker
@@ -449,9 +486,12 @@ pdfjs-editor-colorpicker-red =
 
 pdfjs-editor-highlight-show-all-button-label = すべて表示
 <<<<<<< HEAD
+<<<<<<< HEAD
 pdfjs-editor-highlight-show-all-button =
     .title = 強調の表示を切り替えます
 =======
+=======
+>>>>>>> upstream/18.0
 # (^m^) en-US: .title = Show all
 pdfjs-editor-highlight-show-all-button =
     .title = 強調の表示を切り替えます
@@ -511,4 +551,7 @@ pdfjs-editor-alt-text-settings-editor-title = 代替テキストエディター
 pdfjs-editor-alt-text-settings-show-dialog-button-label = 画像の追加時に代替テキストエディターを表示する
 pdfjs-editor-alt-text-settings-show-dialog-description = すべての画像に代替テキストを追加する助けになります。
 pdfjs-editor-alt-text-settings-close-button = 閉じる
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

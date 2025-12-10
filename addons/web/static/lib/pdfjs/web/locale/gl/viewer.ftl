@@ -52,12 +52,15 @@ pdfjs-bookmark-button =
     .title = Páxina actual (ver o URL da páxina actual)
 pdfjs-bookmark-button-label = Páxina actual
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Used in Firefox for Android.
 pdfjs-open-in-app-button =
     .title = Abrir cunha aplicación
 # Used in Firefox for Android.
 # Length of the translation matters since we are in a mobile context, with limited screen estate.
 pdfjs-open-in-app-button-label = Abrir cunha aplicación
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -363,10 +366,13 @@ pdfjs-editor-resizer-label-bottom-middle = Abaixo medio: cambia o tamaño
 pdfjs-editor-resizer-label-bottom-left = Esquina inferior esquerda: cambia o tamaño
 pdfjs-editor-resizer-label-middle-left = Medio esquerdo: cambia o tamaño
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 ## Color picker
 
 =======
+=======
+>>>>>>> upstream/18.0
 pdfjs-editor-resizer-top-left =
     .aria-label = Esquina superior esquerda: cambia o tamaño
 pdfjs-editor-resizer-top-middle =
@@ -397,4 +403,7 @@ pdfjs-editor-resizer-middle-left =
 
 ## Image alt-text settings
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

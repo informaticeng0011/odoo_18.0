@@ -52,12 +52,15 @@ pdfjs-bookmark-button =
     .title = Pàgina atuale (ammustra s’URL de sa pàgina atuale)
 pdfjs-bookmark-button-label = Pàgina atuale
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Used in Firefox for Android.
 pdfjs-open-in-app-button =
     .title = Aberi in un’aplicatzione
 # Used in Firefox for Android.
 # Length of the translation matters since we are in a mobile context, with limited screen estate.
 pdfjs-open-in-app-button-label = Aberi in un’aplicatzione
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -270,7 +273,10 @@ pdfjs-editor-stamp-button =
     .title = Agiunghe o modìfica immàgines
 pdfjs-editor-stamp-button-label = Agiunghe o modìfica immàgines
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 pdfjs-editor-highlight-button =
     .title = Evidèntzia
 pdfjs-editor-highlight-button-label = Evidèntzia
@@ -292,6 +298,9 @@ pdfjs-editor-remove-highlight-button =
 
 ##
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 # Editor Parameters
 pdfjs-editor-free-text-color-input = Colore
@@ -302,6 +311,11 @@ pdfjs-editor-stamp-add-image-button =
     .title = Agiunghe un’immàgine
 pdfjs-editor-stamp-add-image-button-label = Agiunghe un’immàgine
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# This refers to the thickness of the line used for free highlighting (not bound to text)
+pdfjs-editor-free-highlight-thickness-input = Grussària
+>>>>>>> upstream/18.0
 =======
 # This refers to the thickness of the line used for free highlighting (not bound to text)
 pdfjs-editor-free-highlight-thickness-input = Grussària
@@ -317,7 +331,10 @@ pdfjs-ink-canvas =
 ## Alt-text dialog
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 # Alternative text (alt text) helps when people can't see the image.
 pdfjs-editor-alt-text-button-label = Testu alternativu
 pdfjs-editor-alt-text-edit-button-label = Modifica su testu alternativu
@@ -326,13 +343,19 @@ pdfjs-editor-alt-text-dialog-description = Su testu alternativu (“alt text”)
 pdfjs-editor-alt-text-add-description-label = Agiunghe una descritzione
 pdfjs-editor-alt-text-cancel-button = Annulla
 pdfjs-editor-alt-text-save-button = Sarva
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 ## Editor resizers
 ## This is used in an aria label to help to understand the role of the resizer.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 ## Color picker
 
@@ -385,4 +408,7 @@ pdfjs-editor-alt-text-settings-editor-title = Editore de testu alternativu
 pdfjs-editor-alt-text-settings-show-dialog-button-label = Mustra deretu s’editore de testu alternativu cando siat agiunta un’immàgine
 pdfjs-editor-alt-text-settings-show-dialog-description = T’agiudat a assegurare chi totu is immàgines tuas tèngiant unu testu alternativu.
 pdfjs-editor-alt-text-settings-close-button = Serra
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

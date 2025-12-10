@@ -3,7 +3,11 @@
  * JavaScript code in this page
  *
 <<<<<<< HEAD
+<<<<<<< HEAD
  * Copyright 2023 Mozilla Foundation
+=======
+ * Copyright 2024 Mozilla Foundation
+>>>>>>> upstream/18.0
 =======
  * Copyright 2024 Mozilla Foundation
 >>>>>>> upstream/18.0
@@ -58,7 +62,10 @@ __webpack_require__.d(__webpack_exports__, {
   AnnotationLayer: () => (/* reexport */ AnnotationLayer),
   AnnotationMode: () => (/* reexport */ AnnotationMode),
 <<<<<<< HEAD
+<<<<<<< HEAD
   CMapCompressionType: () => (/* reexport */ CMapCompressionType),
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
   ColorPicker: () => (/* reexport */ ColorPicker),
@@ -71,7 +78,11 @@ __webpack_require__.d(__webpack_exports__, {
   MissingPDFException: () => (/* reexport */ MissingPDFException),
   OPS: () => (/* reexport */ OPS),
 <<<<<<< HEAD
+<<<<<<< HEAD
   Outliner: () => (/* reexport */ Outliner),
+=======
+  OutputScale: () => (/* reexport */ OutputScale),
+>>>>>>> upstream/18.0
 =======
   OutputScale: () => (/* reexport */ OutputScale),
 >>>>>>> upstream/18.0
@@ -99,6 +110,7 @@ __webpack_require__.d(__webpack_exports__, {
   noContextMenu: () => (/* reexport */ noContextMenu),
   normalizeUnicode: () => (/* reexport */ normalizeUnicode),
 <<<<<<< HEAD
+<<<<<<< HEAD
   renderTextLayer: () => (/* reexport */ renderTextLayer),
   setLayerDimensions: () => (/* reexport */ setLayerDimensions),
   shadow: () => (/* reexport */ shadow),
@@ -108,12 +120,17 @@ __webpack_require__.d(__webpack_exports__, {
 
 ;// CONCATENATED MODULE: ./src/shared/util.js
 =======
+=======
+>>>>>>> upstream/18.0
   setLayerDimensions: () => (/* reexport */ setLayerDimensions),
   shadow: () => (/* reexport */ shadow),
   version: () => (/* reexport */ version)
 });
 
 ;// ./src/shared/util.js
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 const isNodeJS = typeof process === "object" && process + "" === "[object process]" && !process.versions.nw && !(process.versions.electron && process.type && process.type !== "browser");
 const IDENTITY_MATRIX = [1, 0, 0, 1, 0, 0];
@@ -131,6 +148,10 @@ const RenderingIntentFlag = {
   ANNOTATIONS_STORAGE: 0x20,
   ANNOTATIONS_DISABLE: 0x40,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  IS_EDITING: 0x80,
+>>>>>>> upstream/18.0
 =======
   IS_EDITING: 0x80,
 >>>>>>> upstream/18.0
@@ -298,10 +319,13 @@ const VerbosityLevel = {
   INFOS: 5
 };
 <<<<<<< HEAD
+<<<<<<< HEAD
 const CMapCompressionType = {
   NONE: 0,
   BINARY: 1
 };
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 const OPS = {
@@ -393,7 +417,13 @@ const OPS = {
   paintImageMaskXObjectRepeat: 89,
   paintSolidColorImageMask: 90,
 <<<<<<< HEAD
+<<<<<<< HEAD
   constructPath: 91
+=======
+  constructPath: 91,
+  setStrokeTransparent: 92,
+  setFillTransparent: 93
+>>>>>>> upstream/18.0
 =======
   constructPath: 91,
   setStrokeTransparent: 92,
@@ -480,9 +510,12 @@ function shadow(obj, prop, value, nonSerializable = false) {
 const BaseException = function BaseExceptionClosure() {
   function BaseException(message, name) {
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (this.constructor === BaseException) {
       unreachable("Cannot initialize BaseException.");
     }
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     this.message = message;
@@ -578,8 +611,13 @@ function isLittleEndian() {
   return view32[0] === 1;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 // Odoo: don't support scripting
 function isEvalSupported() {
+=======
+function isEvalSupported() {
+  // Odoo: don't support scripting
+>>>>>>> upstream/18.0
 =======
 function isEvalSupported() {
   // Odoo: don't support scripting
@@ -600,12 +638,15 @@ class util_FeatureTest {
     if (typeof navigator !== "undefined" && typeof navigator?.platform === "string") {
       return shadow(this, "platform", {
 <<<<<<< HEAD
+<<<<<<< HEAD
         isMac: navigator.platform.includes("Mac")
       });
     }
     return shadow(this, "platform", {
       isMac: false
 =======
+=======
+>>>>>>> upstream/18.0
         isMac: navigator.platform.includes("Mac"),
         isWindows: navigator.platform.includes("Win"),
         isFirefox: typeof navigator?.userAgent === "string" && navigator.userAgent.includes("Firefox")
@@ -615,6 +656,9 @@ class util_FeatureTest {
       isMac: false,
       isWindows: false,
       isFirefox: false
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     });
   }
@@ -879,6 +923,7 @@ const FontRenderOps = {
   TRANSLATE: 8
 };
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 ;// CONCATENATED MODULE: ./src/display/base_factory.js
 
@@ -1035,6 +1080,8 @@ class BaseSVGFactory {
 ;// CONCATENATED MODULE: ./src/display/display_utils.js
 
 =======
+=======
+>>>>>>> upstream/18.0
 function toHexUtil(arr) {
   if (Uint8Array.prototype.toHex) {
     return arr.toHex();
@@ -1055,6 +1102,9 @@ function fromBase64Util(str) {
 }
 
 ;// ./src/display/display_utils.js
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 const SVG_NS = "http://www.w3.org/2000/svg";
@@ -1063,6 +1113,7 @@ class PixelsPerInch {
   static PDF = 72.0;
   static PDF_TO_CSS_UNITS = this.CSS / this.PDF;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 class DOMFilterFactory extends BaseFilterFactory {
   #_cache;
@@ -1381,6 +1432,8 @@ class DOMCanvasFactory extends BaseCanvasFactory {
 }
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 async function fetchData(url, type = "text") {
   if (isValidFetchUrl(url, document.baseURI)) {
     const response = await fetch(url);
@@ -1422,6 +1475,7 @@ async function fetchData(url, type = "text") {
   });
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 class DOMCMapReaderFactory extends BaseCMapReaderFactory {
   _fetchData(url, compressionType) {
     return fetchData(url, this.isCompressed ? "arraybuffer" : "text").then(data => ({
@@ -1440,6 +1494,8 @@ class DOMSVGFactory extends BaseSVGFactory {
     return document.createElementNS(SVG_NS, type);
   }
 }
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 class PageViewport {
@@ -1649,8 +1705,13 @@ function deprecated(details) {
   console.log("Deprecated API usage: " + details);
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 let pdfDateStringRegex;
 class PDFDateString {
+=======
+class PDFDateString {
+  static #regex;
+>>>>>>> upstream/18.0
 =======
 class PDFDateString {
   static #regex;
@@ -1660,8 +1721,13 @@ class PDFDateString {
       return null;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
     pdfDateStringRegex ||= new RegExp("^D:" + "(\\d{4})" + "(\\d{2})?" + "(\\d{2})?" + "(\\d{2})?" + "(\\d{2})?" + "(\\d{2})?" + "([Z|+|-])?" + "(\\d{2})?" + "'?" + "(\\d{2})?" + "'?");
     const matches = pdfDateStringRegex.exec(input);
+=======
+    this.#regex ||= new RegExp("^D:" + "(\\d{4})" + "(\\d{2})?" + "(\\d{2})?" + "(\\d{2})?" + "(\\d{2})?" + "(\\d{2})?" + "([Z|+|-])?" + "(\\d{2})?" + "'?" + "(\\d{2})?" + "'?");
+    const matches = this.#regex.exec(input);
+>>>>>>> upstream/18.0
 =======
     this.#regex ||= new RegExp("^D:" + "(\\d{4})" + "(\\d{2})?" + "(\\d{2})?" + "(\\d{2})?" + "(\\d{2})?" + "(\\d{2})?" + "([Z|+|-])?" + "(\\d{2})?" + "'?" + "(\\d{2})?" + "'?");
     const matches = this.#regex.exec(input);
@@ -1770,8 +1836,13 @@ function setLayerDimensions(div, viewport, mustFlip = false, mustRotate = true) 
     const w = `var(--scale-factor) * ${pageWidth}px`,
       h = `var(--scale-factor) * ${pageHeight}px`;
 <<<<<<< HEAD
+<<<<<<< HEAD
     const widthStr = useRound ? `round(${w}, 1px)` : `calc(${w})`,
       heightStr = useRound ? `round(${h}, 1px)` : `calc(${h})`;
+=======
+    const widthStr = useRound ? `round(down, ${w}, var(--scale-round-x, 1px))` : `calc(${w})`,
+      heightStr = useRound ? `round(down, ${h}, var(--scale-round-y, 1px))` : `calc(${h})`;
+>>>>>>> upstream/18.0
 =======
     const widthStr = useRound ? `round(down, ${w}, var(--scale-round-x, 1px))` : `calc(${w})`,
       heightStr = useRound ? `round(down, ${h}, var(--scale-round-y, 1px))` : `calc(${h})`;
@@ -1789,9 +1860,12 @@ function setLayerDimensions(div, viewport, mustFlip = false, mustRotate = true) 
   }
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 ;// CONCATENATED MODULE: ./src/display/editor/toolbar.js
 =======
+=======
+>>>>>>> upstream/18.0
 class OutputScale {
   constructor() {
     const pixelRatio = window.devicePixelRatio || 1;
@@ -1807,6 +1881,9 @@ class OutputScale {
 }
 
 ;// ./src/display/editor/toolbar.js
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 class EditorToolbar {
@@ -1814,6 +1891,7 @@ class EditorToolbar {
   #colorPicker = null;
   #editor;
   #buttons = null;
+<<<<<<< HEAD
 <<<<<<< HEAD
   constructor(editor) {
     this.#editor = editor;
@@ -1825,6 +1903,8 @@ class EditorToolbar {
     editToolbar.addEventListener("contextmenu", noContextMenu);
     editToolbar.addEventListener("pointerdown", EditorToolbar.#pointerDown);
 =======
+=======
+>>>>>>> upstream/18.0
   #altText = null;
   static #l10nRemove = null;
   constructor(editor) {
@@ -1847,6 +1927,9 @@ class EditorToolbar {
     editToolbar.addEventListener("pointerdown", EditorToolbar.#pointerDown, {
       signal
     });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     const buttons = this.#buttons = document.createElement("div");
     buttons.className = "buttons";
@@ -1864,6 +1947,12 @@ class EditorToolbar {
     return editToolbar;
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  get div() {
+    return this.#toolbar;
+  }
+>>>>>>> upstream/18.0
 =======
   get div() {
     return this.#toolbar;
@@ -1884,6 +1973,7 @@ class EditorToolbar {
   }
   #addListenersToElement(element) {
 <<<<<<< HEAD
+<<<<<<< HEAD
     element.addEventListener("focusin", this.#focusIn.bind(this), {
       capture: true
     });
@@ -1892,6 +1982,8 @@ class EditorToolbar {
     });
     element.addEventListener("contextmenu", noContextMenu);
 =======
+=======
+>>>>>>> upstream/18.0
     const signal = this.#editor._uiManager._signal;
     element.addEventListener("focusin", this.#focusIn.bind(this), {
       capture: true,
@@ -1904,6 +1996,9 @@ class EditorToolbar {
     element.addEventListener("contextmenu", noContextMenu, {
       signal
     });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
   }
   hide() {
@@ -1912,6 +2007,7 @@ class EditorToolbar {
   }
   show() {
     this.#toolbar.classList.remove("hidden");
+<<<<<<< HEAD
 <<<<<<< HEAD
   }
   #addDeleteButton() {
@@ -1923,6 +2019,8 @@ class EditorToolbar {
     button.addEventListener("click", e => {
       this.#editor._uiManager.delete();
 =======
+=======
+>>>>>>> upstream/18.0
     this.#altText?.shown();
   }
   #addDeleteButton() {
@@ -1939,6 +2037,9 @@ class EditorToolbar {
       _uiManager.delete();
     }, {
       signal: _uiManager._signal
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     });
     this.#buttons.append(button);
@@ -1949,15 +2050,21 @@ class EditorToolbar {
     return divider;
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
   addAltTextButton(button) {
     this.#addListenersToElement(button);
     this.#buttons.prepend(button, this.#divider);
 =======
+=======
+>>>>>>> upstream/18.0
   async addAltText(altText) {
     const button = await altText.render();
     this.#addListenersToElement(button);
     this.#buttons.prepend(button, this.#divider);
     this.#altText = altText;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
   }
   addColorPicker(colorPicker) {
@@ -1984,7 +2091,13 @@ class HighlightToolbar {
     editToolbar.className = "editToolbar";
     editToolbar.setAttribute("role", "toolbar");
 <<<<<<< HEAD
+<<<<<<< HEAD
     editToolbar.addEventListener("contextmenu", noContextMenu);
+=======
+    editToolbar.addEventListener("contextmenu", noContextMenu, {
+      signal: this.#uiManager._signal
+    });
+>>>>>>> upstream/18.0
 =======
     editToolbar.addEventListener("contextmenu", noContextMenu, {
       signal: this.#uiManager._signal
@@ -2042,10 +2155,13 @@ class HighlightToolbar {
     span.className = "visuallyHidden";
     span.setAttribute("data-l10n-id", "pdfjs-highlight-floating-button-label");
 <<<<<<< HEAD
+<<<<<<< HEAD
     button.addEventListener("contextmenu", noContextMenu);
     button.addEventListener("click", () => {
       this.#uiManager.highlightSelection("floating_button");
 =======
+=======
+>>>>>>> upstream/18.0
     const signal = this.#uiManager._signal;
     button.addEventListener("contextmenu", noContextMenu, {
       signal
@@ -2054,6 +2170,9 @@ class HighlightToolbar {
       this.#uiManager.highlightSelection("floating_button");
     }, {
       signal
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     });
     this.#buttons.append(button);
@@ -2061,7 +2180,11 @@ class HighlightToolbar {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./src/display/editor/tools.js
+=======
+;// ./src/display/editor/tools.js
+>>>>>>> upstream/18.0
 =======
 ;// ./src/display/editor/tools.js
 >>>>>>> upstream/18.0
@@ -2090,7 +2213,13 @@ class ImageManager {
     const svg = `data:image/svg+xml;charset=UTF-8,<svg viewBox="0 0 1 1" width="1" height="1" xmlns="http://www.w3.org/2000/svg"><rect width="1" height="1" style="fill:red;"/></svg>`;
     const canvas = new OffscreenCanvas(1, 3);
 <<<<<<< HEAD
+<<<<<<< HEAD
     const ctx = canvas.getContext("2d");
+=======
+    const ctx = canvas.getContext("2d", {
+      willReadFrequently: true
+    });
+>>>>>>> upstream/18.0
 =======
     const ctx = canvas.getContext("2d", {
       willReadFrequently: true
@@ -2126,13 +2255,19 @@ class ImageManager {
         data.url = rawData;
         image = await fetchData(rawData, "blob");
 <<<<<<< HEAD
+<<<<<<< HEAD
       } else {
         image = data.file = rawData;
 =======
+=======
+>>>>>>> upstream/18.0
       } else if (rawData instanceof File) {
         image = data.file = rawData;
       } else if (rawData instanceof Blob) {
         image = rawData;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
       }
       if (image.type === "image/svg+xml") {
@@ -2180,11 +2315,17 @@ class ImageManager {
     return this.#get(url, url);
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
   async getFromBlob(id, blobPromise) {
     const blob = await blobPromise;
     return this.#get(id, blob);
   }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
   async getFromId(id) {
     this.#cache ||= new Map();
@@ -2200,9 +2341,12 @@ class ImageManager {
       return this.getFromFile(data.file);
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
     return this.getFromUrl(data.url);
   }
 =======
+=======
+>>>>>>> upstream/18.0
     if (data.blobPromise) {
       const {
         blobPromise
@@ -2232,6 +2376,9 @@ class ImageManager {
     this.#cache.set(data.id, data);
     return data;
   }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
   getSvgUrl(id) {
     const data = this.#cache.get(id);
@@ -2251,7 +2398,10 @@ class ImageManager {
       return;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     const {
       bitmap
     } = data;
@@ -2262,6 +2412,9 @@ class ImageManager {
       data.blobPromise = canvas.convertToBlob();
     }
     bitmap.close?.();
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     data.bitmap = null;
   }
@@ -2461,6 +2614,10 @@ class ColorManager {
 }
 class AnnotationEditorUIManager {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  #abortController = new AbortController();
+>>>>>>> upstream/18.0
 =======
   #abortController = new AbortController();
 >>>>>>> upstream/18.0
@@ -2472,6 +2629,10 @@ class AnnotationEditorUIManager {
   #changedExistingAnnotations = null;
   #commandManager = new CommandManager();
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  #copyPasteAC = null;
+>>>>>>> upstream/18.0
 =======
   #copyPasteAC = null;
 >>>>>>> upstream/18.0
@@ -2482,14 +2643,20 @@ class AnnotationEditorUIManager {
   #editorsToRescale = new Set();
   #enableHighlightFloatingButton = false;
 <<<<<<< HEAD
+<<<<<<< HEAD
   #filterFactory = null;
   #focusMainContainerTimeoutId = null;
 =======
+=======
+>>>>>>> upstream/18.0
   #enableUpdatedAddImage = false;
   #enableNewAltTextWhenAddingImage = false;
   #filterFactory = null;
   #focusMainContainerTimeoutId = null;
   #focusManagerAC = null;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
   #highlightColors = null;
   #highlightWhenShiftUp = false;
@@ -2498,6 +2665,10 @@ class AnnotationEditorUIManager {
   #isEnabled = false;
   #isWaiting = false;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  #keyboardManagerAC = null;
+>>>>>>> upstream/18.0
 =======
   #keyboardManagerAC = null;
 >>>>>>> upstream/18.0
@@ -2509,6 +2680,7 @@ class AnnotationEditorUIManager {
   #selectedTextNode = null;
   #pageColors = null;
   #showAllStates = null;
+<<<<<<< HEAD
 <<<<<<< HEAD
   #boundBlur = this.blur.bind(this);
   #boundFocus = this.focus.bind(this);
@@ -2524,6 +2696,8 @@ class AnnotationEditorUIManager {
   #boundOnRotationChanging = this.onRotationChanging.bind(this);
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
   #previousStates = {
     isEditing: false,
     isEmpty: true,
@@ -2537,6 +2711,10 @@ class AnnotationEditorUIManager {
   #container = null;
   #viewer = null;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  #updateModeCapability = null;
+>>>>>>> upstream/18.0
 =======
   #updateModeCapability = null;
 >>>>>>> upstream/18.0
@@ -2601,7 +2779,12 @@ class AnnotationEditorUIManager {
     }]]));
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
   constructor(container, viewer, altTextManager, eventBus, pdfDocument, pageColors, highlightColors, enableHighlightFloatingButton, mlManager) {
+=======
+  constructor(container, viewer, altTextManager, eventBus, pdfDocument, pageColors, highlightColors, enableHighlightFloatingButton, enableUpdatedAddImage, enableNewAltTextWhenAddingImage, mlManager) {
+    const signal = this._signal = this.#abortController.signal;
+>>>>>>> upstream/18.0
 =======
   constructor(container, viewer, altTextManager, eventBus, pdfDocument, pageColors, highlightColors, enableHighlightFloatingButton, enableUpdatedAddImage, enableNewAltTextWhenAddingImage, mlManager) {
     const signal = this._signal = this.#abortController.signal;
@@ -2611,12 +2794,15 @@ class AnnotationEditorUIManager {
     this.#altTextManager = altTextManager;
     this._eventBus = eventBus;
 <<<<<<< HEAD
+<<<<<<< HEAD
     this._eventBus._on("editingaction", this.#boundOnEditingAction);
     this._eventBus._on("pagechanging", this.#boundOnPageChanging);
     this._eventBus._on("scalechanging", this.#boundOnScaleChanging);
     this._eventBus._on("rotationchanging", this.#boundOnRotationChanging);
     this.#addSelectionListener();
 =======
+=======
+>>>>>>> upstream/18.0
     eventBus._on("editingaction", this.onEditingAction.bind(this), {
       signal
     });
@@ -2637,6 +2823,9 @@ class AnnotationEditorUIManager {
     });
     this.#addSelectionListener();
     this.#addDragAndDropListeners();
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     this.#addKeyboardManager();
     this.#annotationStorage = pdfDocument.annotationStorage;
@@ -2645,6 +2834,11 @@ class AnnotationEditorUIManager {
     this.#highlightColors = highlightColors || null;
     this.#enableHighlightFloatingButton = enableHighlightFloatingButton;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    this.#enableUpdatedAddImage = enableUpdatedAddImage;
+    this.#enableNewAltTextWhenAddingImage = enableNewAltTextWhenAddingImage;
+>>>>>>> upstream/18.0
 =======
     this.#enableUpdatedAddImage = enableUpdatedAddImage;
     this.#enableNewAltTextWhenAddingImage = enableNewAltTextWhenAddingImage;
@@ -2658,6 +2852,7 @@ class AnnotationEditorUIManager {
   }
   destroy() {
 <<<<<<< HEAD
+<<<<<<< HEAD
     this.#removeKeyboardManager();
     this.#removeFocusManager();
     this._eventBus._off("editingaction", this.#boundOnEditingAction);
@@ -2665,11 +2860,16 @@ class AnnotationEditorUIManager {
     this._eventBus._off("scalechanging", this.#boundOnScaleChanging);
     this._eventBus._off("rotationchanging", this.#boundOnRotationChanging);
 =======
+=======
+>>>>>>> upstream/18.0
     this.#updateModeCapability?.resolve();
     this.#updateModeCapability = null;
     this.#abortController?.abort();
     this.#abortController = null;
     this._signal = null;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     for (const layer of this.#allLayers.values()) {
       layer.destroy();
@@ -2692,6 +2892,7 @@ class AnnotationEditorUIManager {
       this.#translationTimeoutId = null;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
     this.#removeSelectionListener();
   }
   async mlGuess(data) {
@@ -2700,6 +2901,8 @@ class AnnotationEditorUIManager {
   get hasMLManager() {
     return !!this.#mlManager;
 =======
+=======
+>>>>>>> upstream/18.0
   }
   combinedSignal(ac) {
     return AbortSignal.any([this._signal, ac.signal]);
@@ -2712,6 +2915,9 @@ class AnnotationEditorUIManager {
   }
   get useNewAltTextWhenAddingImage() {
     return this.#enableNewAltTextWhenAddingImage;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
   }
   get hcmFilter() {
@@ -2730,9 +2936,12 @@ class AnnotationEditorUIManager {
     this.#mainHighlightColorPicker = colorPicker;
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
   editAltText(editor) {
     this.#altTextManager?.editAltText(this, editor);
 =======
+=======
+>>>>>>> upstream/18.0
   editAltText(editor, firstTime = false) {
     this.#altTextManager?.editAltText(this, editor, firstTime);
   }
@@ -2762,6 +2971,9 @@ class AnnotationEditorUIManager {
         this.#enableNewAltTextWhenAddingImage = value;
         break;
     }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
   }
   onPageChanging({
@@ -2816,7 +3028,10 @@ class AnnotationEditorUIManager {
     return anchorNode.nodeType === Node.TEXT_NODE ? anchorNode.parentElement : anchorNode;
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
   #getLayerForTextLayer(textLayer) {
     const {
       currentLayer
@@ -2831,6 +3046,9 @@ class AnnotationEditorUIManager {
     }
     return null;
   }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
   highlightSelection(methodOfCreation = "") {
     const selection = document.getSelection();
@@ -2851,6 +3069,7 @@ class AnnotationEditorUIManager {
       return;
     }
     selection.empty();
+<<<<<<< HEAD
 <<<<<<< HEAD
     if (this.#mode === AnnotationEditorType.NONE) {
       this._eventBus.dispatch("showannotationeditorui", {
@@ -2877,6 +3096,8 @@ class AnnotationEditorUIManager {
       }
     }
 =======
+=======
+>>>>>>> upstream/18.0
     const layer = this.#getLayerForTextLayer(textLayer);
     const isNoneMode = this.#mode === AnnotationEditorType.NONE;
     const callback = () => {
@@ -2901,6 +3122,9 @@ class AnnotationEditorUIManager {
       return;
     }
     callback();
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
   }
   #displayHighlightToolbar() {
@@ -2966,19 +3190,30 @@ class AnnotationEditorUIManager {
     this.#highlightWhenShiftUp = this.isShiftKeyDown;
     if (!this.isShiftKeyDown) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
       const activeLayer = this.#mode === AnnotationEditorType.HIGHLIGHT ? this.#getLayerForTextLayer(textLayer) : null;
       activeLayer?.toggleDrawing();
       const ac = new AbortController();
       const signal = this.combinedSignal(ac);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
       const pointerup = e => {
         if (e.type === "pointerup" && e.button !== 0) {
           return;
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
         window.removeEventListener("pointerup", pointerup);
         window.removeEventListener("blur", pointerup);
+=======
+        ac.abort();
+        activeLayer?.toggleDrawing(true);
+>>>>>>> upstream/18.0
 =======
         ac.abort();
         activeLayer?.toggleDrawing(true);
@@ -2988,15 +3223,21 @@ class AnnotationEditorUIManager {
         }
       };
 <<<<<<< HEAD
+<<<<<<< HEAD
       window.addEventListener("pointerup", pointerup);
       window.addEventListener("blur", pointerup);
 =======
+=======
+>>>>>>> upstream/18.0
       window.addEventListener("pointerup", pointerup, {
         signal
       });
       window.addEventListener("blur", pointerup, {
         signal
       });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     }
   }
@@ -3008,6 +3249,7 @@ class AnnotationEditorUIManager {
     }
   }
   #addSelectionListener() {
+<<<<<<< HEAD
 <<<<<<< HEAD
     document.addEventListener("selectionchange", this.#boundSelectionChange);
   }
@@ -3022,6 +3264,8 @@ class AnnotationEditorUIManager {
     window.removeEventListener("focus", this.#boundFocus);
     window.removeEventListener("blur", this.#boundBlur);
 =======
+=======
+>>>>>>> upstream/18.0
     document.addEventListener("selectionchange", this.#selectionChange.bind(this), {
       signal: this._signal
     });
@@ -3042,6 +3286,9 @@ class AnnotationEditorUIManager {
   #removeFocusManager() {
     this.#focusManagerAC?.abort();
     this.#focusManagerAC = null;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
   }
   blur() {
@@ -3074,7 +3321,12 @@ class AnnotationEditorUIManager {
       lastEditor._focusEventsAllowed = true;
     }, {
 <<<<<<< HEAD
+<<<<<<< HEAD
       once: true
+=======
+      once: true,
+      signal: this._signal
+>>>>>>> upstream/18.0
 =======
       once: true,
       signal: this._signal
@@ -3083,6 +3335,7 @@ class AnnotationEditorUIManager {
     lastActiveElement.focus();
   }
   #addKeyboardManager() {
+<<<<<<< HEAD
 <<<<<<< HEAD
     window.addEventListener("keydown", this.#boundKeydown);
     window.addEventListener("keyup", this.#boundKeyup);
@@ -3101,6 +3354,8 @@ class AnnotationEditorUIManager {
     document.removeEventListener("cut", this.#boundCut);
     document.removeEventListener("paste", this.#boundPaste);
 =======
+=======
+>>>>>>> upstream/18.0
     if (this.#keyboardManagerAC) {
       return;
     }
@@ -3145,6 +3400,9 @@ class AnnotationEditorUIManager {
     document.addEventListener("drop", this.drop.bind(this), {
       signal
     });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
   }
   addEditListeners() {
@@ -3156,7 +3414,10 @@ class AnnotationEditorUIManager {
     this.#removeCopyPasteListeners();
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
   dragOver(event) {
     for (const {
       type
@@ -3181,6 +3442,9 @@ class AnnotationEditorUIManager {
       }
     }
   }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
   copy(event) {
     event.preventDefault();
@@ -3205,7 +3469,11 @@ class AnnotationEditorUIManager {
     this.delete();
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
   paste(event) {
+=======
+  async paste(event) {
+>>>>>>> upstream/18.0
 =======
   async paste(event) {
 >>>>>>> upstream/18.0
@@ -3240,7 +3508,11 @@ class AnnotationEditorUIManager {
       const newEditors = [];
       for (const editor of data) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         const deserializedEditor = layer.deserialize(editor);
+=======
+        const deserializedEditor = await layer.deserialize(editor);
+>>>>>>> upstream/18.0
 =======
         const deserializedEditor = await layer.deserialize(editor);
 >>>>>>> upstream/18.0
@@ -3372,11 +3644,14 @@ class AnnotationEditorUIManager {
     this.#allLayers.delete(layer.pageIndex);
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
   updateMode(mode, editId = null, isFromKeyboard = false) {
     if (this.#mode === mode) {
       return;
     }
 =======
+=======
+>>>>>>> upstream/18.0
   async updateMode(mode, editId = null, isFromKeyboard = false) {
     if (this.#mode === mode) {
       return;
@@ -3388,27 +3663,37 @@ class AnnotationEditorUIManager {
       }
     }
     this.#updateModeCapability = Promise.withResolvers();
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     this.#mode = mode;
     if (mode === AnnotationEditorType.NONE) {
       this.setEditingState(false);
       this.#disableAll();
 <<<<<<< HEAD
+<<<<<<< HEAD
       return;
     }
     this.setEditingState(true);
     this.#enableAll();
 =======
+=======
+>>>>>>> upstream/18.0
       this.#updateModeCapability.resolve();
       return;
     }
     this.setEditingState(true);
     await this.#enableAll();
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     this.unselectAll();
     for (const layer of this.#allLayers.values()) {
       layer.updateMode(mode);
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
     if (!editId && isFromKeyboard) {
       this.addNewEditorFromKeyboard();
@@ -3416,11 +3701,16 @@ class AnnotationEditorUIManager {
     }
     if (!editId) {
 =======
+=======
+>>>>>>> upstream/18.0
     if (!editId) {
       if (isFromKeyboard) {
         this.addNewEditorFromKeyboard();
       }
       this.#updateModeCapability.resolve();
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
       return;
     }
@@ -3429,15 +3719,21 @@ class AnnotationEditorUIManager {
         this.setSelected(editor);
         editor.enterInEditMode();
 <<<<<<< HEAD
+<<<<<<< HEAD
         break;
       }
     }
 =======
+=======
+>>>>>>> upstream/18.0
       } else {
         editor.unselect();
       }
     }
     this.#updateModeCapability.resolve();
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
   }
   addNewEditorFromKeyboard() {
@@ -3513,6 +3809,7 @@ class AnnotationEditorUIManager {
     }
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
   #enableAll() {
     if (!this.#isEnabled) {
       this.#isEnabled = true;
@@ -3520,6 +3817,8 @@ class AnnotationEditorUIManager {
         layer.enable();
       }
 =======
+=======
+>>>>>>> upstream/18.0
   async #enableAll() {
     if (!this.#isEnabled) {
       this.#isEnabled = true;
@@ -3528,6 +3827,9 @@ class AnnotationEditorUIManager {
         promises.push(layer.enable());
       }
       await Promise.all(promises);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
       for (const editor of this.#allEditors.values()) {
         editor.enable();
@@ -4020,6 +4322,7 @@ class AnnotationEditorUIManager {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./src/display/editor/alt_text.js
 
 class AltText {
@@ -4037,6 +4340,8 @@ class AltText {
   static initialize(l10nPromise) {
     AltText._l10nPromise ||= l10nPromise;
 =======
+=======
+>>>>>>> upstream/18.0
 ;// ./src/display/editor/alt_text.js
 
 class AltText {
@@ -4068,11 +4373,15 @@ class AltText {
   }
   static initialize(l10n) {
     AltText._l10n ??= l10n;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
   }
   async render() {
     const altText = this.#altTextButton = document.createElement("button");
     altText.className = "altText";
+<<<<<<< HEAD
 <<<<<<< HEAD
     const msg = await AltText._l10nPromise.get("pdfjs-editor-alt-text-button-label");
     altText.textContent = msg;
@@ -4087,6 +4396,8 @@ class AltText {
     altText.addEventListener("click", onClick, {
       capture: true
 =======
+=======
+>>>>>>> upstream/18.0
     altText.tabIndex = "0";
     const label = this.#altTextButtonLabel = document.createElement("span");
     altText.append(label);
@@ -4120,6 +4431,9 @@ class AltText {
     altText.addEventListener("click", onClick, {
       capture: true,
       signal
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     });
     altText.addEventListener("keydown", event => {
@@ -4128,6 +4442,11 @@ class AltText {
         onClick(event);
       }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    }, {
+      signal
+>>>>>>> upstream/18.0
 =======
     }, {
       signal
@@ -4137,6 +4456,12 @@ class AltText {
     return altText;
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  get #label() {
+    return this.#altText && "added" || this.#altText === null && this.guessedText && "review" || "missing";
+  }
+>>>>>>> upstream/18.0
 =======
   get #label() {
     return this.#altText && "added" || this.#altText === null && this.guessedText && "review" || "missing";
@@ -4153,9 +4478,12 @@ class AltText {
   }
   isEmpty() {
 <<<<<<< HEAD
+<<<<<<< HEAD
     return !this.#altText && !this.#altTextDecorative;
   }
 =======
+=======
+>>>>>>> upstream/18.0
     if (this.#useNewAltTextFlow) {
       return this.#altText === null;
     }
@@ -4205,6 +4533,9 @@ class AltText {
       textWithDisclaimer: this.#textWithDisclaimer
     };
   }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
   get data() {
     return {
@@ -4215,6 +4546,7 @@ class AltText {
   set data({
     altText,
 <<<<<<< HEAD
+<<<<<<< HEAD
     decorative
   }) {
     if (this.#altText === altText && this.#altTextDecorative === decorative) {
@@ -4223,6 +4555,8 @@ class AltText {
     this.#altText = altText;
     this.#altTextDecorative = decorative;
 =======
+=======
+>>>>>>> upstream/18.0
     decorative,
     guessedText,
     textWithDisclaimer,
@@ -4239,6 +4573,9 @@ class AltText {
       this.#altText = altText;
       this.#altTextDecorative = decorative;
     }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     this.#setState();
   }
@@ -4253,11 +4590,14 @@ class AltText {
     this.#altTextButton.disabled = !enabled;
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
   destroy() {
     this.#altTextButton?.remove();
     this.#altTextButton = null;
     this.#altTextTooltip = null;
 =======
+=======
+>>>>>>> upstream/18.0
   shown() {
     this.#editor._reportTelemetry({
       action: "pdfjs.image.alt_text.image_status_label_displayed",
@@ -4273,6 +4613,9 @@ class AltText {
     this.#altTextTooltip = null;
     this.#badge?.remove();
     this.#badge = null;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
   }
   async #setState() {
@@ -4280,6 +4623,7 @@ class AltText {
     if (!button) {
       return;
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
     if (!this.#altText && !this.#altTextDecorative) {
       button.classList.remove("done");
@@ -4291,6 +4635,8 @@ class AltText {
       button.setAttribute("aria-label", msg);
     });
 =======
+=======
+>>>>>>> upstream/18.0
     if (this.#useNewAltTextFlow) {
       button.classList.toggle("done", !!this.#altText);
       button.setAttribute("data-l10n-id", AltText.#l10nNewButton[this.#label]);
@@ -4308,6 +4654,9 @@ class AltText {
       button.classList.add("done");
       button.setAttribute("data-l10n-id", "pdfjs-editor-alt-text-edit-button");
     }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     let tooltip = this.#altTextTooltip;
     if (!tooltip) {
@@ -4315,10 +4664,13 @@ class AltText {
       tooltip.className = "tooltip";
       tooltip.setAttribute("role", "tooltip");
 <<<<<<< HEAD
+<<<<<<< HEAD
       const id = tooltip.id = `alt-text-tooltip-${this.#editor.id}`;
       button.setAttribute("aria-describedby", id);
       const DELAY_TO_SHOW_TOOLTIP = 100;
 =======
+=======
+>>>>>>> upstream/18.0
       tooltip.id = `alt-text-tooltip-${this.#editor.id}`;
       const DELAY_TO_SHOW_TOOLTIP = 100;
       const signal = this.#editor._uiManager._signal;
@@ -4328,6 +4680,9 @@ class AltText {
       }, {
         once: true
       });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
       button.addEventListener("mouseenter", () => {
         this.#altTextTooltipTimeout = setTimeout(() => {
@@ -4338,6 +4693,11 @@ class AltText {
           });
         }, DELAY_TO_SHOW_TOOLTIP);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      }, {
+        signal
+>>>>>>> upstream/18.0
 =======
       }, {
         signal
@@ -4350,10 +4710,13 @@ class AltText {
         }
         this.#altTextTooltip?.classList.remove("show");
 <<<<<<< HEAD
+<<<<<<< HEAD
       });
     }
     tooltip.innerText = this.#altTextDecorative ? await AltText._l10nPromise.get("pdfjs-editor-alt-text-decorative-tooltip") : this.#altText;
 =======
+=======
+>>>>>>> upstream/18.0
       }, {
         signal
       });
@@ -4364,6 +4727,9 @@ class AltText {
       tooltip.removeAttribute("data-l10n-id");
       tooltip.textContent = this.#altText;
     }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     if (!tooltip.parentNode) {
       button.append(tooltip);
@@ -4374,7 +4740,11 @@ class AltText {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./src/display/editor/editor.js
+=======
+;// ./src/display/editor/editor.js
+>>>>>>> upstream/18.0
 =======
 ;// ./src/display/editor/editor.js
 >>>>>>> upstream/18.0
@@ -4385,6 +4755,10 @@ class AltText {
 
 class AnnotationEditor {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  #accessibilityData = null;
+>>>>>>> upstream/18.0
 =======
   #accessibilityData = null;
 >>>>>>> upstream/18.0
@@ -4395,9 +4769,13 @@ class AnnotationEditor {
   #resizersDiv = null;
   #savedDimensions = null;
 <<<<<<< HEAD
+<<<<<<< HEAD
   #boundFocusin = this.focusin.bind(this);
   #boundFocusout = this.focusout.bind(this);
   #editToolbar = null;
+=======
+  #focusAC = null;
+>>>>>>> upstream/18.0
 =======
   #focusAC = null;
 >>>>>>> upstream/18.0
@@ -4412,12 +4790,15 @@ class AnnotationEditor {
   #prevDragY = 0;
   #telemetryTimeouts = null;
 <<<<<<< HEAD
+<<<<<<< HEAD
   _initialOptions = Object.create(null);
   _isVisible = true;
   _uiManager = null;
   _focusEventsAllowed = true;
   _l10nPromise = null;
 =======
+=======
+>>>>>>> upstream/18.0
   _editToolbar = null;
   _initialOptions = Object.create(null);
   _initialData = null;
@@ -4426,6 +4807,9 @@ class AnnotationEditor {
   _focusEventsAllowed = true;
   static _l10n = null;
   static _l10nResizer = null;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
   #isDraggable = false;
   #zIndex = AnnotationEditor._zIndex++;
@@ -4457,9 +4841,12 @@ class AnnotationEditor {
   }
   constructor(parameters) {
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (this.constructor === AnnotationEditor) {
       unreachable("Cannot initialize AnnotationEditor.");
     }
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     this.parent = parameters.parent;
@@ -4509,6 +4896,7 @@ class AnnotationEditor {
     fakeEditor._uiManager.addToAnnotationStorage(fakeEditor);
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
   static initialize(l10n, _uiManager, options) {
     AnnotationEditor._l10nPromise ||= new Map(["pdfjs-editor-alt-text-button-label", "pdfjs-editor-alt-text-edit-button-label", "pdfjs-editor-alt-text-decorative-tooltip", "pdfjs-editor-resizer-label-topLeft", "pdfjs-editor-resizer-label-topMiddle", "pdfjs-editor-resizer-label-topRight", "pdfjs-editor-resizer-label-middleRight", "pdfjs-editor-resizer-label-bottomRight", "pdfjs-editor-resizer-label-bottomMiddle", "pdfjs-editor-resizer-label-bottomLeft", "pdfjs-editor-resizer-label-middleLeft"].map(str => [str, l10n.get(str.replaceAll(/([A-Z])/g, c => `-${c.toLowerCase()}`))]));
     if (options?.strings) {
@@ -4517,6 +4905,8 @@ class AnnotationEditor {
       }
     }
 =======
+=======
+>>>>>>> upstream/18.0
   static initialize(l10n, _uiManager) {
     AnnotationEditor._l10n ??= l10n;
     AnnotationEditor._l10nResizer ||= Object.freeze({
@@ -4529,6 +4919,9 @@ class AnnotationEditor {
       bottomLeft: "pdfjs-editor-resizer-bottom-left",
       middleLeft: "pdfjs-editor-resizer-middle-left"
     });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     if (AnnotationEditor._borderLineWidth !== -1) {
       return;
@@ -4808,9 +5201,13 @@ class AnnotationEditor {
       pageDimensions: [pageWidth, pageHeight]
     } = this;
 <<<<<<< HEAD
+<<<<<<< HEAD
     const scaledWidth = pageWidth * parentScale;
     const scaledHeight = pageHeight * parentScale;
     return util_FeatureTest.isCSSRoundSupported ? [Math.round(scaledWidth), Math.round(scaledHeight)] : [scaledWidth, scaledHeight];
+=======
+    return [pageWidth * parentScale, pageHeight * parentScale];
+>>>>>>> upstream/18.0
 =======
     return [pageWidth * parentScale, pageHeight * parentScale];
 >>>>>>> upstream/18.0
@@ -4854,6 +5251,10 @@ class AnnotationEditor {
     this.#resizersDiv.classList.add("resizers");
     const classes = this._willKeepAspectRatio ? ["topLeft", "topRight", "bottomRight", "bottomLeft"] : ["topLeft", "topMiddle", "topRight", "middleRight", "bottomRight", "bottomMiddle", "bottomLeft", "middleLeft"];
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    const signal = this._uiManager._signal;
+>>>>>>> upstream/18.0
 =======
     const signal = this._uiManager._signal;
 >>>>>>> upstream/18.0
@@ -4863,15 +5264,21 @@ class AnnotationEditor {
       div.classList.add("resizer", name);
       div.setAttribute("data-resizer-name", name);
 <<<<<<< HEAD
+<<<<<<< HEAD
       div.addEventListener("pointerdown", this.#resizerPointerdown.bind(this, name));
       div.addEventListener("contextmenu", noContextMenu);
 =======
+=======
+>>>>>>> upstream/18.0
       div.addEventListener("pointerdown", this.#resizerPointerdown.bind(this, name), {
         signal
       });
       div.addEventListener("contextmenu", noContextMenu, {
         signal
       });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
       div.tabIndex = -1;
     }
@@ -4887,6 +5294,7 @@ class AnnotationEditor {
     }
     this.#altText?.toggle(false);
 <<<<<<< HEAD
+<<<<<<< HEAD
     const boundResizerPointermove = this.#resizerPointermove.bind(this, name);
     const savedDraggable = this._isDraggable;
     this._isDraggable = false;
@@ -4898,6 +5306,8 @@ class AnnotationEditor {
     window.addEventListener("pointermove", boundResizerPointermove, pointerMoveOptions);
     window.addEventListener("contextmenu", noContextMenu);
 =======
+=======
+>>>>>>> upstream/18.0
     const savedDraggable = this._isDraggable;
     this._isDraggable = false;
     const ac = new AbortController();
@@ -4911,6 +5321,9 @@ class AnnotationEditor {
     window.addEventListener("contextmenu", noContextMenu, {
       signal
     });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     const savedX = this.x;
     const savedY = this.y;
@@ -4921,6 +5334,7 @@ class AnnotationEditor {
     this.div.style.cursor = this.parent.div.style.cursor = window.getComputedStyle(event.target).cursor;
     const pointerUpCallback = () => {
 <<<<<<< HEAD
+<<<<<<< HEAD
       this.parent.togglePointerEvents(true);
       this.#altText?.toggle(true);
       this._isDraggable = savedDraggable;
@@ -4929,25 +5343,36 @@ class AnnotationEditor {
       window.removeEventListener("pointermove", boundResizerPointermove, pointerMoveOptions);
       window.removeEventListener("contextmenu", noContextMenu);
 =======
+=======
+>>>>>>> upstream/18.0
       ac.abort();
       this.parent.togglePointerEvents(true);
       this.#altText?.toggle(true);
       this._isDraggable = savedDraggable;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
       this.parent.div.style.cursor = savedParentCursor;
       this.div.style.cursor = savedCursor;
       this.#addResizeToUndoStack(savedX, savedY, savedWidth, savedHeight);
     };
 <<<<<<< HEAD
+<<<<<<< HEAD
     window.addEventListener("pointerup", pointerUpCallback);
     window.addEventListener("blur", pointerUpCallback);
 =======
+=======
+>>>>>>> upstream/18.0
     window.addEventListener("pointerup", pointerUpCallback, {
       signal
     });
     window.addEventListener("blur", pointerUpCallback, {
       signal
     });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
   }
   #addResizeToUndoStack(savedX, savedY, savedWidth, savedHeight) {
@@ -5071,6 +5496,7 @@ class AnnotationEditor {
   }
   async addEditToolbar() {
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (this.#editToolbar || this.#isInEditMode) {
       return this.#editToolbar;
     }
@@ -5090,6 +5516,8 @@ class AnnotationEditor {
     this.#altText?.destroy();
   }
 =======
+=======
+>>>>>>> upstream/18.0
     if (this._editToolbar || this.#isInEditMode) {
       return this._editToolbar;
     }
@@ -5116,6 +5544,9 @@ class AnnotationEditor {
       this.div.append(container);
     }
   }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
   getClientDimensions() {
     return this.div.getBoundingClientRect();
@@ -5125,15 +5556,21 @@ class AnnotationEditor {
       return;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
     AltText.initialize(AnnotationEditor._l10nPromise);
     this.#altText = new AltText(this);
 =======
+=======
+>>>>>>> upstream/18.0
     AltText.initialize(AnnotationEditor._l10n);
     this.#altText = new AltText(this);
     if (this.#accessibilityData) {
       this.#altText.data = this.#accessibilityData;
       this.#accessibilityData = null;
     }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     await this.addEditToolbar();
   }
@@ -5147,9 +5584,12 @@ class AnnotationEditor {
     this.#altText.data = data;
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
   hasAltText() {
     return !this.#altText?.isEmpty();
 =======
+=======
+>>>>>>> upstream/18.0
   get guessedAltText() {
     return this.#altText?.guessedText;
   }
@@ -5164,6 +5604,9 @@ class AnnotationEditor {
   }
   hasAltTextData() {
     return this.#altText?.hasData() ?? false;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
   }
   render() {
@@ -5177,8 +5620,12 @@ class AnnotationEditor {
     }
     this.setInForeground();
 <<<<<<< HEAD
+<<<<<<< HEAD
     this.div.addEventListener("focusin", this.#boundFocusin);
     this.div.addEventListener("focusout", this.#boundFocusout);
+=======
+    this.#addFocusListeners();
+>>>>>>> upstream/18.0
 =======
     this.#addFocusListeners();
 >>>>>>> upstream/18.0
@@ -5208,6 +5655,12 @@ class AnnotationEditor {
     this.#selectOnPointerEvent(event);
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  get isSelected() {
+    return this._uiManager.isSelected(this);
+  }
+>>>>>>> upstream/18.0
 =======
   get isSelected() {
     return this._uiManager.isSelected(this);
@@ -5225,6 +5678,7 @@ class AnnotationEditor {
   }
   #setUpDragSession(event) {
 <<<<<<< HEAD
+<<<<<<< HEAD
     const isSelected = this._uiManager.isSelected(this);
     this._uiManager.setUpDragSession();
     let pointerMoveOptions, pointerMoveCallback;
@@ -5238,6 +5692,8 @@ class AnnotationEditor {
       this.#prevDragY = event.clientY;
       pointerMoveCallback = e => {
 =======
+=======
+>>>>>>> upstream/18.0
     const {
       isSelected
     } = this;
@@ -5249,6 +5705,9 @@ class AnnotationEditor {
       this.#prevDragX = event.clientX;
       this.#prevDragY = event.clientY;
       const pointerMoveCallback = e => {
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         const {
           clientX: x,
@@ -5260,6 +5719,7 @@ class AnnotationEditor {
         this._uiManager.dragSelectedEditors(tx, ty);
       };
 <<<<<<< HEAD
+<<<<<<< HEAD
       window.addEventListener("pointermove", pointerMoveCallback, pointerMoveOptions);
     }
     const pointerUpCallback = () => {
@@ -5269,6 +5729,8 @@ class AnnotationEditor {
         this.div.classList.remove("moving");
         window.removeEventListener("pointermove", pointerMoveCallback, pointerMoveOptions);
 =======
+=======
+>>>>>>> upstream/18.0
       window.addEventListener("pointermove", pointerMoveCallback, {
         passive: true,
         capture: true,
@@ -5279,6 +5741,9 @@ class AnnotationEditor {
       ac.abort();
       if (isSelected) {
         this.div.classList.remove("moving");
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
       }
       this.#hasBeenClicked = false;
@@ -5287,15 +5752,21 @@ class AnnotationEditor {
       }
     };
 <<<<<<< HEAD
+<<<<<<< HEAD
     window.addEventListener("pointerup", pointerUpCallback);
     window.addEventListener("blur", pointerUpCallback);
 =======
+=======
+>>>>>>> upstream/18.0
     window.addEventListener("pointerup", pointerUpCallback, {
       signal
     });
     window.addEventListener("blur", pointerUpCallback, {
       signal
     });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
   }
   moveInDOM() {
@@ -5373,6 +5844,7 @@ class AnnotationEditor {
     return this.div && !this.isAttachedToDOM;
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
   rebuild() {
     this.div?.addEventListener("focusin", this.#boundFocusin);
     this.div?.addEventListener("focusout", this.#boundFocusout);
@@ -5383,6 +5855,8 @@ class AnnotationEditor {
   }
   static deserialize(data, parent, uiManager) {
 =======
+=======
+>>>>>>> upstream/18.0
   #addFocusListeners() {
     if (this.#focusAC || !this.div) {
       return;
@@ -5412,6 +5886,9 @@ class AnnotationEditor {
     unreachable("An editor must be serializable");
   }
   static async deserialize(data, parent, uiManager) {
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     const editor = new this.prototype.constructor({
       parent,
@@ -5420,6 +5897,10 @@ class AnnotationEditor {
     });
     editor.rotation = data.rotation;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    editor.#accessibilityData = data.accessibilityData;
+>>>>>>> upstream/18.0
 =======
     editor.#accessibilityData = data.accessibilityData;
 >>>>>>> upstream/18.0
@@ -5436,8 +5917,13 @@ class AnnotationEditor {
   }
   remove() {
 <<<<<<< HEAD
+<<<<<<< HEAD
     this.div.removeEventListener("focusin", this.#boundFocusin);
     this.div.removeEventListener("focusout", this.#boundFocusout);
+=======
+    this.#focusAC?.abort();
+    this.#focusAC = null;
+>>>>>>> upstream/18.0
 =======
     this.#focusAC?.abort();
     this.#focusAC = null;
@@ -5494,6 +5980,7 @@ class AnnotationEditor {
       const boundResizerKeydown = this.#resizerKeydown.bind(this);
       const boundResizerBlur = this.#resizerBlur.bind(this);
 <<<<<<< HEAD
+<<<<<<< HEAD
       for (const div of this.#allResizerDivs) {
         const name = div.getAttribute("data-resizer-name");
         div.setAttribute("role", "spinbutton");
@@ -5502,6 +5989,8 @@ class AnnotationEditor {
         div.addEventListener("focus", this.#resizerFocus.bind(this, name));
         AnnotationEditor._l10nPromise.get(`pdfjs-editor-resizer-label-${name}`).then(msg => div.setAttribute("aria-label", msg));
 =======
+=======
+>>>>>>> upstream/18.0
       const signal = this._uiManager._signal;
       for (const div of this.#allResizerDivs) {
         const name = div.getAttribute("data-resizer-name");
@@ -5516,6 +6005,9 @@ class AnnotationEditor {
           signal
         });
         div.setAttribute("data-l10n-id", AnnotationEditor._l10nResizer[name]);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
       }
     }
@@ -5543,7 +6035,11 @@ class AnnotationEditor {
         const div = this.#allResizerDivs[i++];
         const name = div.getAttribute("data-resizer-name");
 <<<<<<< HEAD
+<<<<<<< HEAD
         AnnotationEditor._l10nPromise.get(`pdfjs-editor-resizer-label-${name}`).then(msg => child.setAttribute("aria-label", msg));
+=======
+        child.setAttribute("data-l10n-id", AnnotationEditor._l10nResizer[name]);
+>>>>>>> upstream/18.0
 =======
         child.setAttribute("data-l10n-id", AnnotationEditor._l10nResizer[name]);
 >>>>>>> upstream/18.0
@@ -5607,22 +6103,33 @@ class AnnotationEditor {
     this.makeResizable();
     this.div?.classList.add("selectedEditor");
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (!this.#editToolbar) {
       this.addEditToolbar().then(() => {
         if (this.div?.classList.contains("selectedEditor")) {
           this.#editToolbar?.show();
 =======
+=======
+>>>>>>> upstream/18.0
     if (!this._editToolbar) {
       this.addEditToolbar().then(() => {
         if (this.div?.classList.contains("selectedEditor")) {
           this._editToolbar?.show();
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         }
       });
       return;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
     this.#editToolbar?.show();
+=======
+    this._editToolbar?.show();
+    this.#altText?.toggleAltTextBadge(false);
+>>>>>>> upstream/18.0
 =======
     this._editToolbar?.show();
     this.#altText?.toggleAltTextBadge(false);
@@ -5637,7 +6144,12 @@ class AnnotationEditor {
       });
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
     this.#editToolbar?.hide();
+=======
+    this._editToolbar?.hide();
+    this.#altText?.toggleAltTextBadge(true);
+>>>>>>> upstream/18.0
 =======
     this._editToolbar?.hide();
     this.#altText?.toggleAltTextBadge(true);
@@ -5755,7 +6267,11 @@ class AnnotationEditor {
       firstChild
     } = annotation.container;
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (firstChild.nodeName === "DIV" && firstChild.classList.contains("annotationContent")) {
+=======
+    if (firstChild?.nodeName === "DIV" && firstChild.classList.contains("annotationContent")) {
+>>>>>>> upstream/18.0
 =======
     if (firstChild?.nodeName === "DIV" && firstChild.classList.contains("annotationContent")) {
 >>>>>>> upstream/18.0
@@ -5771,6 +6287,7 @@ class FakeEditor extends AnnotationEditor {
   }
   serialize() {
 <<<<<<< HEAD
+<<<<<<< HEAD
     return {
       id: this.annotationElementId,
       deleted: true,
@@ -5781,11 +6298,16 @@ class FakeEditor extends AnnotationEditor {
 
 ;// CONCATENATED MODULE: ./src/shared/murmurhash3.js
 =======
+=======
+>>>>>>> upstream/18.0
     return this.serializeDeleted();
   }
 }
 
 ;// ./src/shared/murmurhash3.js
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 const SEED = 0xc3d2e1f0;
 const MASK_HIGH = 0xffff0000;
@@ -5880,7 +6402,11 @@ class MurmurHash3_64 {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./src/display/annotation_storage.js
+=======
+;// ./src/display/annotation_storage.js
+>>>>>>> upstream/18.0
 =======
 ;// ./src/display/annotation_storage.js
 >>>>>>> upstream/18.0
@@ -5895,6 +6421,10 @@ const SerializableEmpty = Object.freeze({
 class AnnotationStorage {
   #modified = false;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  #modifiedIds = null;
+>>>>>>> upstream/18.0
 =======
   #modifiedIds = null;
 >>>>>>> upstream/18.0
@@ -6050,7 +6580,10 @@ class AnnotationStorage {
     return stats;
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
   resetModifiedIds() {
     this.#modifiedIds = null;
   }
@@ -6070,6 +6603,9 @@ class AnnotationStorage {
       hash: ids.join(",")
     };
   }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 }
 class PrintAnnotationStorage extends AnnotationStorage {
@@ -6097,10 +6633,13 @@ class PrintAnnotationStorage extends AnnotationStorage {
     return this.#serializable;
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 
 ;// CONCATENATED MODULE: ./src/display/font_loader.js
 =======
+=======
+>>>>>>> upstream/18.0
   get modifiedIds() {
     return shadow(this, "modifiedIds", {
       ids: new Set(),
@@ -6110,6 +6649,9 @@ class PrintAnnotationStorage extends AnnotationStorage {
 }
 
 ;// ./src/display/font_loader.js
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 class FontLoader {
@@ -6352,8 +6894,12 @@ class FontFaceObject {
       return null;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
     const data = bytesToString(this.data);
     const url = `url(data:${this.mimetype};base64,${btoa(data)});`;
+=======
+    const url = `url(data:${this.mimetype};base64,${toBase64Util(this.data)});`;
+>>>>>>> upstream/18.0
 =======
     const url = `url(data:${this.mimetype};base64,${toBase64Util(this.data)});`;
 >>>>>>> upstream/18.0
@@ -6451,8 +6997,11 @@ class FontFaceObject {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./src/display/node_utils.js
 =======
+=======
+>>>>>>> upstream/18.0
 ;// ./src/display/canvas_factory.js
 
 class BaseCanvasFactory {
@@ -6930,6 +7479,9 @@ class DOMStandardFontDataFactory extends BaseStandardFontDataFactory {
 
 
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 
@@ -6938,15 +7490,21 @@ if (isNodeJS) {
   var packageMap = null;
   const loadPackages = async () => {
 <<<<<<< HEAD
+<<<<<<< HEAD
     const fs = await import( /*webpackIgnore: true*/"fs"),
       http = await import( /*webpackIgnore: true*/"http"),
       https = await import( /*webpackIgnore: true*/"https"),
       url = await import( /*webpackIgnore: true*/"url");
 =======
+=======
+>>>>>>> upstream/18.0
     const fs = await import(/*webpackIgnore: true*/"fs"),
       http = await import(/*webpackIgnore: true*/"http"),
       https = await import(/*webpackIgnore: true*/"https"),
       url = await import(/*webpackIgnore: true*/"url");
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     let canvas, path2d;
     return new Map(Object.entries({
@@ -6976,16 +7534,22 @@ class NodePackages {
   }
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 const node_utils_fetchData = function (url) {
   const fs = NodePackages.get("fs");
   return fs.promises.readFile(url).then(data => new Uint8Array(data));
 };
 =======
+=======
+>>>>>>> upstream/18.0
 async function node_utils_fetchData(url) {
   const fs = NodePackages.get("fs");
   const data = await fs.promises.readFile(url);
   return new Uint8Array(data);
 }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 class NodeFilterFactory extends BaseFilterFactory {}
 class NodeCanvasFactory extends BaseCanvasFactory {
@@ -6995,6 +7559,7 @@ class NodeCanvasFactory extends BaseCanvasFactory {
   }
 }
 class NodeCMapReaderFactory extends BaseCMapReaderFactory {
+<<<<<<< HEAD
 <<<<<<< HEAD
   _fetchData(url, compressionType) {
     return node_utils_fetchData(url).then(data => ({
@@ -7006,19 +7571,28 @@ class NodeCMapReaderFactory extends BaseCMapReaderFactory {
 class NodeStandardFontDataFactory extends BaseStandardFontDataFactory {
   _fetchData(url) {
 =======
+=======
+>>>>>>> upstream/18.0
   async _fetch(url) {
     return node_utils_fetchData(url);
   }
 }
 class NodeStandardFontDataFactory extends BaseStandardFontDataFactory {
   async _fetch(url) {
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     return node_utils_fetchData(url);
   }
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./src/display/pattern_helper.js
+=======
+;// ./src/display/pattern_helper.js
+>>>>>>> upstream/18.0
 =======
 ;// ./src/display/pattern_helper.js
 >>>>>>> upstream/18.0
@@ -7041,11 +7615,14 @@ function applyBoundingBox(ctx, bbox) {
 }
 class BaseShadingPattern {
 <<<<<<< HEAD
+<<<<<<< HEAD
   constructor() {
     if (this.constructor === BaseShadingPattern) {
       unreachable("Cannot initialize BaseShadingPattern.");
     }
   }
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
   getPattern() {
@@ -7083,7 +7660,11 @@ class RadialAxialShadingPattern extends BaseShadingPattern {
       const width = Math.ceil(ownerBBox[2] - ownerBBox[0]) || 1;
       const height = Math.ceil(ownerBBox[3] - ownerBBox[1]) || 1;
 <<<<<<< HEAD
+<<<<<<< HEAD
       const tmpCanvas = owner.cachedCanvases.getCanvas("pattern", width, height, true);
+=======
+      const tmpCanvas = owner.cachedCanvases.getCanvas("pattern", width, height);
+>>>>>>> upstream/18.0
 =======
       const tmpCanvas = owner.cachedCanvases.getCanvas("pattern", width, height);
 >>>>>>> upstream/18.0
@@ -7272,7 +7853,11 @@ class MeshShadingPattern extends BaseShadingPattern {
     const paddedWidth = width + BORDER_SIZE * 2;
     const paddedHeight = height + BORDER_SIZE * 2;
 <<<<<<< HEAD
+<<<<<<< HEAD
     const tmpCanvas = cachedCanvases.getCanvas("mesh", paddedWidth, paddedHeight, false);
+=======
+    const tmpCanvas = cachedCanvases.getCanvas("mesh", paddedWidth, paddedHeight);
+>>>>>>> upstream/18.0
 =======
     const tmpCanvas = cachedCanvases.getCanvas("mesh", paddedWidth, paddedHeight);
 >>>>>>> upstream/18.0
@@ -7361,6 +7946,7 @@ class TilingPattern {
   }
   createPatternCanvas(owner) {
 <<<<<<< HEAD
+<<<<<<< HEAD
     const operatorList = this.operatorList;
     const bbox = this.bbox;
     const xstep = this.xstep;
@@ -7370,6 +7956,8 @@ class TilingPattern {
     const color = this.color;
     const canvasGraphicsFactory = this.canvasGraphicsFactory;
 =======
+=======
+>>>>>>> upstream/18.0
     const {
       bbox,
       operatorList,
@@ -7384,12 +7972,16 @@ class TilingPattern {
     } = this;
     xstep = Math.abs(xstep);
     ystep = Math.abs(ystep);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     info("TilingType: " + tilingType);
     const x0 = bbox[0],
       y0 = bbox[1],
       x1 = bbox[2],
       y1 = bbox[3];
+<<<<<<< HEAD
 <<<<<<< HEAD
     const matrixScale = Util.singularValueDecompose2dScale(this.matrix);
     const curMatrixScale = Util.singularValueDecompose2dScale(this.baseTransform);
@@ -7398,6 +7990,8 @@ class TilingPattern {
     const dimy = this.getSizeAndScale(ystep, this.ctx.canvas.height, combinedScale[1]);
     const tmpCanvas = owner.cachedCanvases.getCanvas("pattern", dimx.size, dimy.size, true);
 =======
+=======
+>>>>>>> upstream/18.0
     const width = x1 - x0;
     const height = y1 - y0;
     const matrixScale = Util.singularValueDecompose2dScale(this.matrix);
@@ -7425,11 +8019,15 @@ class TilingPattern {
     const dimx = this.getSizeAndScale(canvasWidth, this.ctx.canvas.width, combinedScaleX);
     const dimy = this.getSizeAndScale(canvasHeight, this.ctx.canvas.height, combinedScaleY);
     const tmpCanvas = owner.cachedCanvases.getCanvas("pattern", dimx.size, dimy.size);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     const tmpCtx = tmpCanvas.context;
     const graphics = canvasGraphicsFactory.createCanvasGraphics(tmpCtx);
     graphics.groupLevel = owner.groupLevel;
     this.setFillAndStrokeStyleToContext(graphics, paintType, color);
+<<<<<<< HEAD
 <<<<<<< HEAD
     let adjustedX0 = x0;
     let adjustedY0 = y0;
@@ -7451,6 +8049,8 @@ class TilingPattern {
     graphics.executeOperatorList(operatorList);
     graphics.endDrawing();
 =======
+=======
+>>>>>>> upstream/18.0
     tmpCtx.translate(-dimx.scale * x0, -dimy.scale * y0);
     graphics.transform(dimx.scale, 0, 0, dimy.scale, 0, 0);
     tmpCtx.save();
@@ -7488,11 +8088,15 @@ class TilingPattern {
         offsetY: y0
       };
     }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     return {
       canvas: tmpCanvas.canvas,
       scaleX: dimx.scale,
       scaleY: dimy.scale,
+<<<<<<< HEAD
 <<<<<<< HEAD
       offsetX: adjustedX0,
       offsetY: adjustedY0
@@ -7501,11 +8105,16 @@ class TilingPattern {
   getSizeAndScale(step, realOutputSize, scale) {
     step = Math.abs(step);
 =======
+=======
+>>>>>>> upstream/18.0
       offsetX: x0,
       offsetY: y0
     };
   }
   getSizeAndScale(step, realOutputSize, scale) {
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     const maxSize = Math.max(TilingPattern.MAX_PATTERN_SIZE, realOutputSize);
     let size = Math.ceil(step * scale);
@@ -7568,7 +8177,11 @@ class TilingPattern {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./src/shared/image_utils.js
+=======
+;// ./src/shared/image_utils.js
+>>>>>>> upstream/18.0
 =======
 ;// ./src/shared/image_utils.js
 >>>>>>> upstream/18.0
@@ -7679,7 +8292,11 @@ function grayToRGBA(src, dest) {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./src/display/canvas.js
+=======
+;// ./src/display/canvas.js
+>>>>>>> upstream/18.0
 =======
 ;// ./src/display/canvas.js
 >>>>>>> upstream/18.0
@@ -8381,6 +8998,10 @@ class CanvasGraphics {
       this.restore();
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    this.current.activeSMask = null;
+>>>>>>> upstream/18.0
 =======
     this.current.activeSMask = null;
 >>>>>>> upstream/18.0
@@ -8422,8 +9043,13 @@ class CanvasGraphics {
   }
   _scaleImage(img, inverseTransform) {
 <<<<<<< HEAD
+<<<<<<< HEAD
     const width = img.width;
     const height = img.height;
+=======
+    const width = img.width ?? img.displayWidth;
+    const height = img.height ?? img.displayHeight;
+>>>>>>> upstream/18.0
 =======
     const width = img.width ?? img.displayWidth;
     const height = img.height ?? img.displayHeight;
@@ -8679,6 +9305,10 @@ class CanvasGraphics {
     let maskY = layerOffsetY - maskOffsetY;
     if (backdrop) {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      const backdropRGB = Util.makeHexColor(...backdrop);
+>>>>>>> upstream/18.0
 =======
       const backdropRGB = Util.makeHexColor(...backdrop);
 >>>>>>> upstream/18.0
@@ -8686,6 +9316,7 @@ class CanvasGraphics {
         const canvas = this.cachedCanvases.getCanvas("maskExtension", width, height);
         const ctx = canvas.context;
         ctx.drawImage(maskCanvas, -maskX, -maskY);
+<<<<<<< HEAD
 <<<<<<< HEAD
         if (backdrop.some(c => c !== 0)) {
           ctx.globalCompositeOperation = "destination-atop";
@@ -8697,6 +9328,8 @@ class CanvasGraphics {
         maskX = maskY = 0;
       } else if (backdrop.some(c => c !== 0)) {
 =======
+=======
+>>>>>>> upstream/18.0
         ctx.globalCompositeOperation = "destination-atop";
         ctx.fillStyle = backdropRGB;
         ctx.fillRect(0, 0, width, height);
@@ -8704,6 +9337,9 @@ class CanvasGraphics {
         maskCanvas = canvas.canvas;
         maskX = maskY = 0;
       } else {
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         maskCtx.save();
         maskCtx.globalAlpha = 1;
@@ -8713,7 +9349,11 @@ class CanvasGraphics {
         maskCtx.clip(clip);
         maskCtx.globalCompositeOperation = "destination-atop";
 <<<<<<< HEAD
+<<<<<<< HEAD
         maskCtx.fillStyle = Util.makeHexColor(...backdrop);
+=======
+        maskCtx.fillStyle = backdropRGB;
+>>>>>>> upstream/18.0
 =======
         maskCtx.fillStyle = backdropRGB;
 >>>>>>> upstream/18.0
@@ -9314,6 +9954,7 @@ class CanvasGraphics {
   }
   setStrokeRGBColor(r, g, b) {
 <<<<<<< HEAD
+<<<<<<< HEAD
     const color = Util.makeHexColor(r, g, b);
     this.ctx.strokeStyle = color;
     this.current.strokeColor = color;
@@ -9323,6 +9964,8 @@ class CanvasGraphics {
     this.ctx.fillStyle = color;
     this.current.fillColor = color;
 =======
+=======
+>>>>>>> upstream/18.0
     this.ctx.strokeStyle = this.current.strokeColor = Util.makeHexColor(r, g, b);
   }
   setStrokeTransparent() {
@@ -9334,6 +9977,9 @@ class CanvasGraphics {
   }
   setFillTransparent() {
     this.ctx.fillStyle = this.current.fillColor = "transparent";
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     this.current.patternFill = false;
   }
@@ -9528,14 +10174,20 @@ class CanvasGraphics {
       } else {
         resetCtxToDefault(this.ctx);
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.ctx.rect(rect[0], rect[1], width, height);
         this.ctx.clip();
         this.endPath();
 =======
+=======
+>>>>>>> upstream/18.0
         this.endPath();
         this.ctx.rect(rect[0], rect[1], width, height);
         this.ctx.clip();
         this.ctx.beginPath();
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
       }
     }
@@ -9906,7 +10558,11 @@ for (const op in OPS) {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./src/display/worker_options.js
+=======
+;// ./src/display/worker_options.js
+>>>>>>> upstream/18.0
 =======
 ;// ./src/display/worker_options.js
 >>>>>>> upstream/18.0
@@ -9934,7 +10590,11 @@ class GlobalWorkerOptions {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./src/shared/message_handler.js
+=======
+;// ./src/shared/message_handler.js
+>>>>>>> upstream/18.0
 =======
 ;// ./src/shared/message_handler.js
 >>>>>>> upstream/18.0
@@ -9976,6 +10636,10 @@ function wrapReason(reason) {
 }
 class MessageHandler {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  #messageAC = new AbortController();
+>>>>>>> upstream/18.0
 =======
   #messageAC = new AbortController();
 >>>>>>> upstream/18.0
@@ -9989,6 +10653,7 @@ class MessageHandler {
     this.streamControllers = Object.create(null);
     this.callbackCapabilities = Object.create(null);
     this.actionHandler = Object.create(null);
+<<<<<<< HEAD
 <<<<<<< HEAD
     this._onComObjOnMessage = event => {
       const data = event.data;
@@ -10051,6 +10716,8 @@ class MessageHandler {
     };
     comObj.addEventListener("message", this._onComObjOnMessage);
 =======
+=======
+>>>>>>> upstream/18.0
     comObj.addEventListener("message", this.#onMessage.bind(this), {
       signal: this.#messageAC.signal
     });
@@ -10115,6 +10782,9 @@ class MessageHandler {
       return;
     }
     action(data.data);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
   }
   on(actionName, handler) {
@@ -10408,18 +11078,24 @@ class MessageHandler {
   }
   destroy() {
 <<<<<<< HEAD
+<<<<<<< HEAD
     this.comObj.removeEventListener("message", this._onComObjOnMessage);
   }
 }
 
 ;// CONCATENATED MODULE: ./src/display/metadata.js
 =======
+=======
+>>>>>>> upstream/18.0
     this.#messageAC?.abort();
     this.#messageAC = null;
   }
 }
 
 ;// ./src/display/metadata.js
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 class Metadata {
@@ -10447,7 +11123,11 @@ class Metadata {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./src/display/optional_content_config.js
+=======
+;// ./src/display/optional_content_config.js
+>>>>>>> upstream/18.0
 =======
 ;// ./src/display/optional_content_config.js
 >>>>>>> upstream/18.0
@@ -10463,7 +11143,12 @@ class OptionalContentGroup {
     name,
     intent,
 <<<<<<< HEAD
+<<<<<<< HEAD
     usage
+=======
+    usage,
+    rbGroups
+>>>>>>> upstream/18.0
 =======
     usage,
     rbGroups
@@ -10475,6 +11160,10 @@ class OptionalContentGroup {
     this.intent = intent;
     this.usage = usage;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    this.rbGroups = rbGroups;
+>>>>>>> upstream/18.0
 =======
     this.rbGroups = rbGroups;
 >>>>>>> upstream/18.0
@@ -10642,7 +11331,11 @@ class OptionalContentConfig {
     return true;
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
   setVisibility(id, visible = true) {
+=======
+  setVisibility(id, visible = true, preserveRB = true) {
+>>>>>>> upstream/18.0
 =======
   setVisibility(id, visible = true, preserveRB = true) {
 >>>>>>> upstream/18.0
@@ -10652,7 +11345,10 @@ class OptionalContentConfig {
       return;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     if (preserveRB && visible && group.rbGroups.length) {
       for (const rbGroup of group.rbGroups) {
         for (const otherId of rbGroup) {
@@ -10662,6 +11358,9 @@ class OptionalContentConfig {
         }
       }
     }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     group._setVisible(INTERNAL, !!visible, true);
     this.#cachedGetHash = null;
@@ -10686,6 +11385,7 @@ class OptionalContentConfig {
       switch (operator) {
         case "ON":
 <<<<<<< HEAD
+<<<<<<< HEAD
           group._setVisible(INTERNAL, true);
           break;
         case "OFF":
@@ -10694,6 +11394,8 @@ class OptionalContentConfig {
         case "Toggle":
           group._setVisible(INTERNAL, !group.visible);
 =======
+=======
+>>>>>>> upstream/18.0
           this.setVisibility(elem, true, preserveRB);
           break;
         case "OFF":
@@ -10701,6 +11403,9 @@ class OptionalContentConfig {
           break;
         case "Toggle":
           this.setVisibility(elem, !group.visible, preserveRB);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
           break;
       }
@@ -10738,7 +11443,11 @@ class OptionalContentConfig {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./src/display/transport_stream.js
+=======
+;// ./src/display/transport_stream.js
+>>>>>>> upstream/18.0
 =======
 ;// ./src/display/transport_stream.js
 >>>>>>> upstream/18.0
@@ -11010,7 +11719,11 @@ class PDFDataTransportStreamRangeReader {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./src/display/content_disposition.js
+=======
+;// ./src/display/content_disposition.js
+>>>>>>> upstream/18.0
 =======
 ;// ./src/display/content_disposition.js
 >>>>>>> upstream/18.0
@@ -11145,6 +11858,7 @@ function getFilenameFromContentDispositionHeader(contentDisposition) {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./src/display/network_utils.js
 
 
@@ -11152,6 +11866,8 @@ function getFilenameFromContentDispositionHeader(contentDisposition) {
 function validateRangeRequestCapabilities({
   getResponseHeader,
 =======
+=======
+>>>>>>> upstream/18.0
 ;// ./src/display/network_utils.js
 
 
@@ -11171,6 +11887,9 @@ function createHeaders(isHttp, httpHeaders) {
 }
 function validateRangeRequestCapabilities({
   responseHeaders,
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
   isHttp,
   rangeChunkSize,
@@ -11181,7 +11900,11 @@ function validateRangeRequestCapabilities({
     suggestedLength: undefined
   };
 <<<<<<< HEAD
+<<<<<<< HEAD
   const length = parseInt(getResponseHeader("Content-Length"), 10);
+=======
+  const length = parseInt(responseHeaders.get("Content-Length"), 10);
+>>>>>>> upstream/18.0
 =======
   const length = parseInt(responseHeaders.get("Content-Length"), 10);
 >>>>>>> upstream/18.0
@@ -11196,15 +11919,21 @@ function validateRangeRequestCapabilities({
     return returnValues;
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
   if (getResponseHeader("Accept-Ranges") !== "bytes") {
     return returnValues;
   }
   const contentEncoding = getResponseHeader("Content-Encoding") || "identity";
 =======
+=======
+>>>>>>> upstream/18.0
   if (responseHeaders.get("Accept-Ranges") !== "bytes") {
     return returnValues;
   }
   const contentEncoding = responseHeaders.get("Content-Encoding") || "identity";
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
   if (contentEncoding !== "identity") {
     return returnValues;
@@ -11213,8 +11942,13 @@ function validateRangeRequestCapabilities({
   return returnValues;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 function extractFilenameFromHeader(getResponseHeader) {
   const contentDisposition = getResponseHeader("Content-Disposition");
+=======
+function extractFilenameFromHeader(responseHeaders) {
+  const contentDisposition = responseHeaders.get("Content-Disposition");
+>>>>>>> upstream/18.0
 =======
 function extractFilenameFromHeader(responseHeaders) {
   const contentDisposition = responseHeaders.get("Content-Disposition");
@@ -11243,7 +11977,11 @@ function validateResponseStatus(status) {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./src/display/fetch_stream.js
+=======
+;// ./src/display/fetch_stream.js
+>>>>>>> upstream/18.0
 =======
 ;// ./src/display/fetch_stream.js
 >>>>>>> upstream/18.0
@@ -11260,6 +11998,7 @@ function createFetchOptions(headers, withCredentials, abortController) {
   };
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 function createHeaders(httpHeaders) {
   const headers = new Headers();
   for (const property in httpHeaders) {
@@ -11271,6 +12010,8 @@ function createHeaders(httpHeaders) {
   }
   return headers;
 }
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 function getArrayBuffer(val) {
@@ -11288,7 +12029,11 @@ class PDFFetchStream {
     this.source = source;
     this.isHttp = /^https?:/i.test(source.url);
 <<<<<<< HEAD
+<<<<<<< HEAD
     this.httpHeaders = this.isHttp && source.httpHeaders || {};
+=======
+    this.headers = createHeaders(this.isHttp, source.httpHeaders);
+>>>>>>> upstream/18.0
 =======
     this.headers = createHeaders(this.isHttp, source.httpHeaders);
 >>>>>>> upstream/18.0
@@ -11337,9 +12082,15 @@ class PDFFetchStreamReader {
     this._isStreamingSupported = !source.disableStream;
     this._isRangeSupported = !source.disableRange;
 <<<<<<< HEAD
+<<<<<<< HEAD
     this._headers = createHeaders(this._stream.httpHeaders);
     const url = source.url;
     fetch(url, createFetchOptions(this._headers, this._withCredentials, this._abortController)).then(response => {
+=======
+    const headers = new Headers(stream.headers);
+    const url = source.url;
+    fetch(url, createFetchOptions(headers, this._withCredentials, this._abortController)).then(response => {
+>>>>>>> upstream/18.0
 =======
     const headers = new Headers(stream.headers);
     const url = source.url;
@@ -11351,7 +12102,11 @@ class PDFFetchStreamReader {
       this._reader = response.body.getReader();
       this._headersCapability.resolve();
 <<<<<<< HEAD
+<<<<<<< HEAD
       const getResponseHeader = name => response.headers.get(name);
+=======
+      const responseHeaders = response.headers;
+>>>>>>> upstream/18.0
 =======
       const responseHeaders = response.headers;
 >>>>>>> upstream/18.0
@@ -11360,8 +12115,13 @@ class PDFFetchStreamReader {
         suggestedLength
       } = validateRangeRequestCapabilities({
 <<<<<<< HEAD
+<<<<<<< HEAD
         getResponseHeader,
         isHttp: this._stream.isHttp,
+=======
+        responseHeaders,
+        isHttp: stream.isHttp,
+>>>>>>> upstream/18.0
 =======
         responseHeaders,
         isHttp: stream.isHttp,
@@ -11372,7 +12132,11 @@ class PDFFetchStreamReader {
       this._isRangeSupported = allowRangeRequests;
       this._contentLength = suggestedLength || this._contentLength;
 <<<<<<< HEAD
+<<<<<<< HEAD
       this._filename = extractFilenameFromHeader(getResponseHeader);
+=======
+      this._filename = extractFilenameFromHeader(responseHeaders);
+>>>>>>> upstream/18.0
 =======
       this._filename = extractFilenameFromHeader(responseHeaders);
 >>>>>>> upstream/18.0
@@ -11435,15 +12199,21 @@ class PDFFetchStreamRangeReader {
     this._isStreamingSupported = !source.disableStream;
     this._abortController = new AbortController();
 <<<<<<< HEAD
+<<<<<<< HEAD
     this._headers = createHeaders(this._stream.httpHeaders);
     this._headers.append("Range", `bytes=${begin}-${end - 1}`);
     const url = source.url;
     fetch(url, createFetchOptions(this._headers, this._withCredentials, this._abortController)).then(response => {
 =======
+=======
+>>>>>>> upstream/18.0
     const headers = new Headers(stream.headers);
     headers.append("Range", `bytes=${begin}-${end - 1}`);
     const url = source.url;
     fetch(url, createFetchOptions(headers, this._withCredentials, this._abortController)).then(response => {
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
       if (!validateResponseStatus(response.status)) {
         throw createResponseStatusError(response.status, url);
@@ -11484,7 +12254,11 @@ class PDFFetchStreamRangeReader {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./src/display/network.js
+=======
+;// ./src/display/network.js
+>>>>>>> upstream/18.0
 =======
 ;// ./src/display/network.js
 >>>>>>> upstream/18.0
@@ -11501,12 +12275,15 @@ function network_getArrayBuffer(xhr) {
 }
 class NetworkManager {
 <<<<<<< HEAD
+<<<<<<< HEAD
   constructor(url, args = {}) {
     this.url = url;
     this.isHttp = /^https?:/i.test(url);
     this.httpHeaders = this.isHttp && args.httpHeaders || Object.create(null);
     this.withCredentials = args.withCredentials || false;
 =======
+=======
+>>>>>>> upstream/18.0
   constructor({
     url,
     httpHeaders,
@@ -11516,6 +12293,9 @@ class NetworkManager {
     this.isHttp = /^https?:/i.test(url);
     this.headers = createHeaders(this.isHttp, httpHeaders);
     this.withCredentials = withCredentials || false;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     this.currXhrId = 0;
     this.pendingRequests = Object.create(null);
@@ -11542,12 +12322,17 @@ class NetworkManager {
     xhr.open("GET", this.url);
     xhr.withCredentials = this.withCredentials;
 <<<<<<< HEAD
+<<<<<<< HEAD
     for (const property in this.httpHeaders) {
       const value = this.httpHeaders[property];
       if (value === undefined) {
         continue;
       }
       xhr.setRequestHeader(property, value);
+=======
+    for (const [key, val] of this.headers) {
+      xhr.setRequestHeader(key, val);
+>>>>>>> upstream/18.0
 =======
     for (const [key, val] of this.headers) {
       xhr.setRequestHeader(key, val);
@@ -11641,10 +12426,14 @@ class PDFNetworkStream {
   constructor(source) {
     this._source = source;
 <<<<<<< HEAD
+<<<<<<< HEAD
     this._manager = new NetworkManager(source.url, {
       httpHeaders: source.httpHeaders,
       withCredentials: source.withCredentials
     });
+=======
+    this._manager = new NetworkManager(source);
+>>>>>>> upstream/18.0
 =======
     this._manager = new NetworkManager(source);
 >>>>>>> upstream/18.0
@@ -11688,7 +12477,11 @@ class PDFNetworkStreamFullRequestReader {
     this._url = source.url;
     this._fullRequestId = manager.requestFull(args);
 <<<<<<< HEAD
+<<<<<<< HEAD
     this._headersReceivedCapability = Promise.withResolvers();
+=======
+    this._headersCapability = Promise.withResolvers();
+>>>>>>> upstream/18.0
 =======
     this._headersCapability = Promise.withResolvers();
 >>>>>>> upstream/18.0
@@ -11711,19 +12504,29 @@ class PDFNetworkStreamFullRequestReader {
     const fullRequestXhrId = this._fullRequestId;
     const fullRequestXhr = this._manager.getRequestXhr(fullRequestXhrId);
 <<<<<<< HEAD
+<<<<<<< HEAD
     const getResponseHeader = name => fullRequestXhr.getResponseHeader(name);
 =======
+=======
+>>>>>>> upstream/18.0
     const responseHeaders = new Headers(fullRequestXhr.getAllResponseHeaders().trim().split(/[\r\n]+/).map(x => {
       const [key, ...val] = x.split(": ");
       return [key, val.join(": ")];
     }));
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     const {
       allowRangeRequests,
       suggestedLength
     } = validateRangeRequestCapabilities({
 <<<<<<< HEAD
+<<<<<<< HEAD
       getResponseHeader,
+=======
+      responseHeaders,
+>>>>>>> upstream/18.0
 =======
       responseHeaders,
 >>>>>>> upstream/18.0
@@ -11736,17 +12539,23 @@ class PDFNetworkStreamFullRequestReader {
     }
     this._contentLength = suggestedLength || this._contentLength;
 <<<<<<< HEAD
+<<<<<<< HEAD
     this._filename = extractFilenameFromHeader(getResponseHeader);
     if (this._isRangeSupported) {
       this._manager.abortRequest(fullRequestXhrId);
     }
     this._headersReceivedCapability.resolve();
 =======
+=======
+>>>>>>> upstream/18.0
     this._filename = extractFilenameFromHeader(responseHeaders);
     if (this._isRangeSupported) {
       this._manager.abortRequest(fullRequestXhrId);
     }
     this._headersCapability.resolve();
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
   }
   _onDone(data) {
@@ -11776,7 +12585,11 @@ class PDFNetworkStreamFullRequestReader {
   _onError(status) {
     this._storedError = createResponseStatusError(status, this._url);
 <<<<<<< HEAD
+<<<<<<< HEAD
     this._headersReceivedCapability.reject(this._storedError);
+=======
+    this._headersCapability.reject(this._storedError);
+>>>>>>> upstream/18.0
 =======
     this._headersCapability.reject(this._storedError);
 >>>>>>> upstream/18.0
@@ -11806,7 +12619,11 @@ class PDFNetworkStreamFullRequestReader {
   }
   get headersReady() {
 <<<<<<< HEAD
+<<<<<<< HEAD
     return this._headersReceivedCapability.promise;
+=======
+    return this._headersCapability.promise;
+>>>>>>> upstream/18.0
 =======
     return this._headersCapability.promise;
 >>>>>>> upstream/18.0
@@ -11835,7 +12652,11 @@ class PDFNetworkStreamFullRequestReader {
   cancel(reason) {
     this._done = true;
 <<<<<<< HEAD
+<<<<<<< HEAD
     this._headersReceivedCapability.reject(reason);
+=======
+    this._headersCapability.reject(reason);
+>>>>>>> upstream/18.0
 =======
     this._headersCapability.reject(reason);
 >>>>>>> upstream/18.0
@@ -11950,6 +12771,7 @@ class PDFNetworkStreamRangeRequestReader {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./src/display/node_stream.js
 
 
@@ -11969,6 +12791,8 @@ function parseUrl(sourceUrl) {
   }
   return parsedUrl;
 =======
+=======
+>>>>>>> upstream/18.0
 ;// ./src/display/node_stream.js
 
 
@@ -11992,21 +12816,30 @@ function createRequest(url, headers, callback) {
   return https.request(url, {
     headers
   }, callback);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 }
 class PDFNodeStream {
   constructor(source) {
     this.source = source;
 <<<<<<< HEAD
+<<<<<<< HEAD
     this.url = parseUrl(source.url);
     this.isHttp = this.url.protocol === "http:" || this.url.protocol === "https:";
     this.isFsUrl = this.url.protocol === "file:";
     this.httpHeaders = this.isHttp && source.httpHeaders || {};
 =======
+=======
+>>>>>>> upstream/18.0
     this.url = parseUrlOrPath(source.url);
     this.isHttp = this.url.protocol === "http:" || this.url.protocol === "https:";
     this.isFsUrl = this.url.protocol === "file:";
     this.headers = createHeaders(this.isHttp, source.httpHeaders);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     this._fullRequestReader = null;
     this._rangeRequestReaders = [];
@@ -12200,6 +13033,7 @@ class BaseRangeReader {
   }
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 function createRequestOptions(parsedUrl, headers) {
   return {
     protocol: parsedUrl.protocol,
@@ -12215,10 +13049,15 @@ class PDFNodeStreamFullReader extends BaseFullReader {
   constructor(stream) {
     super(stream);
 =======
+=======
+>>>>>>> upstream/18.0
 class PDFNodeStreamFullReader extends BaseFullReader {
   constructor(stream) {
     super(stream);
     const headers = Object.fromEntries(stream.headers);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     const handleResponse = response => {
       if (response.statusCode === 404) {
@@ -12230,7 +13069,11 @@ class PDFNodeStreamFullReader extends BaseFullReader {
       this._headersCapability.resolve();
       this._setReadableStream(response);
 <<<<<<< HEAD
+<<<<<<< HEAD
       const getResponseHeader = name => this._readableStream.headers[name.toLowerCase()];
+=======
+      const responseHeaders = new Headers(this._readableStream.headers);
+>>>>>>> upstream/18.0
 =======
       const responseHeaders = new Headers(this._readableStream.headers);
 >>>>>>> upstream/18.0
@@ -12239,7 +13082,11 @@ class PDFNodeStreamFullReader extends BaseFullReader {
         suggestedLength
       } = validateRangeRequestCapabilities({
 <<<<<<< HEAD
+<<<<<<< HEAD
         getResponseHeader,
+=======
+        responseHeaders,
+>>>>>>> upstream/18.0
 =======
         responseHeaders,
 >>>>>>> upstream/18.0
@@ -12249,6 +13096,7 @@ class PDFNodeStreamFullReader extends BaseFullReader {
       });
       this._isRangeSupported = allowRangeRequests;
       this._contentLength = suggestedLength || this._contentLength;
+<<<<<<< HEAD
 <<<<<<< HEAD
       this._filename = extractFilenameFromHeader(getResponseHeader);
     };
@@ -12265,6 +13113,11 @@ class PDFNodeStreamFullReader extends BaseFullReader {
     };
     this._request = createRequest(this._url, headers, handleResponse);
 >>>>>>> upstream/18.0
+=======
+      this._filename = extractFilenameFromHeader(responseHeaders);
+    };
+    this._request = createRequest(this._url, headers, handleResponse);
+>>>>>>> upstream/18.0
     this._request.on("error", reason => {
       this._storedError = reason;
       this._headersCapability.reject(reason);
@@ -12275,6 +13128,7 @@ class PDFNodeStreamFullReader extends BaseFullReader {
 class PDFNodeStreamRangeReader extends BaseRangeReader {
   constructor(stream, start, end) {
     super(stream);
+<<<<<<< HEAD
 <<<<<<< HEAD
     this._httpHeaders = {};
     for (const property in stream.httpHeaders) {
@@ -12289,6 +13143,10 @@ class PDFNodeStreamRangeReader extends BaseRangeReader {
     const headers = Object.fromEntries(stream.headers);
     headers.Range = `bytes=${start}-${end - 1}`;
 >>>>>>> upstream/18.0
+=======
+    const headers = Object.fromEntries(stream.headers);
+    headers.Range = `bytes=${start}-${end - 1}`;
+>>>>>>> upstream/18.0
     const handleResponse = response => {
       if (response.statusCode === 404) {
         const error = new MissingPDFException(`Missing PDF "${this._url}".`);
@@ -12297,6 +13155,7 @@ class PDFNodeStreamRangeReader extends BaseRangeReader {
       }
       this._setReadableStream(response);
     };
+<<<<<<< HEAD
 <<<<<<< HEAD
     this._request = null;
     if (this._url.protocol === "http:") {
@@ -12309,6 +13168,9 @@ class PDFNodeStreamRangeReader extends BaseRangeReader {
 =======
     this._request = createRequest(this._url, headers, handleResponse);
 >>>>>>> upstream/18.0
+=======
+    this._request = createRequest(this._url, headers, handleResponse);
+>>>>>>> upstream/18.0
     this._request.on("error", reason => {
       this._storedError = reason;
     });
@@ -12318,6 +13180,7 @@ class PDFNodeStreamRangeReader extends BaseRangeReader {
 class PDFNodeStreamFsFullReader extends BaseFullReader {
   constructor(stream) {
     super(stream);
+<<<<<<< HEAD
 <<<<<<< HEAD
     let path = decodeURIComponent(this._url.path);
     if (fileUriRegex.test(this._url.href)) {
@@ -12332,6 +13195,8 @@ class PDFNodeStreamFsFullReader extends BaseFullReader {
       if (error.code === "ENOENT") {
         error = new MissingPDFException(`Missing PDF "${path}".`);
 =======
+=======
+>>>>>>> upstream/18.0
     const fs = NodePackages.get("fs");
     fs.promises.lstat(this._url).then(stat => {
       this._contentLength = stat.size;
@@ -12340,6 +13205,9 @@ class PDFNodeStreamFsFullReader extends BaseFullReader {
     }, error => {
       if (error.code === "ENOENT") {
         error = new MissingPDFException(`Missing PDF "${this._url}".`);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
       }
       this._storedError = error;
@@ -12351,12 +13219,17 @@ class PDFNodeStreamFsRangeReader extends BaseRangeReader {
   constructor(stream, start, end) {
     super(stream);
 <<<<<<< HEAD
+<<<<<<< HEAD
     let path = decodeURIComponent(this._url.path);
     if (fileUriRegex.test(this._url.href)) {
       path = path.replace(/^\//, "");
     }
     const fs = NodePackages.get("fs");
     this._setReadableStream(fs.createReadStream(path, {
+=======
+    const fs = NodePackages.get("fs");
+    this._setReadableStream(fs.createReadStream(this._url, {
+>>>>>>> upstream/18.0
 =======
     const fs = NodePackages.get("fs");
     this._setReadableStream(fs.createReadStream(this._url, {
@@ -12368,7 +13241,11 @@ class PDFNodeStreamFsRangeReader extends BaseRangeReader {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./src/display/text_layer.js
+=======
+;// ./src/display/text_layer.js
+>>>>>>> upstream/18.0
 =======
 ;// ./src/display/text_layer.js
 >>>>>>> upstream/18.0
@@ -12399,6 +13276,11 @@ class TextLayer {
   static #ascentCache = new Map();
   static #canvasContexts = new Map();
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  static #canvasCtxFonts = new WeakMap();
+  static #minFontSize = null;
+>>>>>>> upstream/18.0
 =======
   static #canvasCtxFonts = new WeakMap();
   static #minFontSize = null;
@@ -12426,8 +13308,11 @@ class TextLayer {
     this.#rotation = viewport.rotation;
     this.#layoutTextParams = {
 <<<<<<< HEAD
+<<<<<<< HEAD
       prevFontSize: null,
       prevFontFamily: null,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
       div: null,
@@ -12444,6 +13329,7 @@ class TextLayer {
     this.#pageWidth = pageWidth;
     this.#pageHeight = pageHeight;
 <<<<<<< HEAD
+<<<<<<< HEAD
     setLayerDimensions(container, viewport);
     this.#capability.promise.catch(() => {}).then(() => {
       TextLayer.#pendingTextLayers.delete(this);
@@ -12451,6 +13337,8 @@ class TextLayer {
       this.#styleCache = null;
     });
 =======
+=======
+>>>>>>> upstream/18.0
     TextLayer.#ensureMinFontSizeComputed();
     setLayerDimensions(container, viewport);
     this.#capability.promise.finally(() => {
@@ -12465,6 +13353,9 @@ class TextLayer {
       isFirefox
     } = util_FeatureTest.platform;
     return shadow(this, "fontFamilyMap", new Map([["sans-serif", `${isWindows && isFirefox ? "Calibri, " : ""}sans-serif`], ["monospace", `${isWindows && isFirefox ? "Lucida Console, " : ""}monospace`]]));
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
   }
   render() {
@@ -12506,8 +13397,11 @@ class TextLayer {
       this.#scale = scale;
       const params = {
 <<<<<<< HEAD
+<<<<<<< HEAD
         prevFontSize: null,
         prevFontFamily: null,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         div: null,
@@ -12538,7 +13432,11 @@ class TextLayer {
       return;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
     this.#layoutTextParams.ctx ||= TextLayer.#getCtx(this.#lang);
+=======
+    this.#layoutTextParams.ctx ??= TextLayer.#getCtx(this.#lang);
+>>>>>>> upstream/18.0
 =======
     this.#layoutTextParams.ctx ??= TextLayer.#getCtx(this.#lang);
 >>>>>>> upstream/18.0
@@ -12585,7 +13483,12 @@ class TextLayer {
       angle += Math.PI / 2;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
     const fontFamily = this.#fontInspectorEnabled && style.fontSubstitution || style.fontFamily;
+=======
+    let fontFamily = this.#fontInspectorEnabled && style.fontSubstitution || style.fontFamily;
+    fontFamily = TextLayer.fontFamilyMap.get(fontFamily) || fontFamily;
+>>>>>>> upstream/18.0
 =======
     let fontFamily = this.#fontInspectorEnabled && style.fontSubstitution || style.fontFamily;
     fontFamily = TextLayer.fontFamilyMap.get(fontFamily) || fontFamily;
@@ -12610,7 +13513,11 @@ class TextLayer {
       divStyle.top = `${scaleFactorStr}${top.toFixed(2)}px)`;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
     divStyle.fontSize = `${scaleFactorStr}${fontHeight.toFixed(2)}px)`;
+=======
+    divStyle.fontSize = `${scaleFactorStr}${(TextLayer.#minFontSize * fontHeight).toFixed(2)}px)`;
+>>>>>>> upstream/18.0
 =======
     divStyle.fontSize = `${scaleFactorStr}${(TextLayer.#minFontSize * fontHeight).toFixed(2)}px)`;
 >>>>>>> upstream/18.0
@@ -12656,9 +13563,13 @@ class TextLayer {
       div,
       properties,
 <<<<<<< HEAD
+<<<<<<< HEAD
       ctx,
       prevFontSize,
       prevFontFamily
+=======
+      ctx
+>>>>>>> upstream/18.0
 =======
       ctx
 >>>>>>> upstream/18.0
@@ -12668,6 +13579,12 @@ class TextLayer {
     } = div;
     let transform = "";
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    if (TextLayer.#minFontSize > 1) {
+      transform = `scale(${1 / TextLayer.#minFontSize})`;
+    }
+>>>>>>> upstream/18.0
 =======
     if (TextLayer.#minFontSize > 1) {
       transform = `scale(${1 / TextLayer.#minFontSize})`;
@@ -12682,6 +13599,7 @@ class TextLayer {
         fontSize
       } = properties;
 <<<<<<< HEAD
+<<<<<<< HEAD
       if (prevFontSize !== fontSize || prevFontFamily !== fontFamily) {
         ctx.font = `${fontSize * this.#scale}px ${fontFamily}`;
         params.prevFontSize = fontSize;
@@ -12690,12 +13608,19 @@ class TextLayer {
 =======
       TextLayer.#ensureCtxFont(ctx, fontSize * this.#scale, fontFamily);
 >>>>>>> upstream/18.0
+=======
+      TextLayer.#ensureCtxFont(ctx, fontSize * this.#scale, fontFamily);
+>>>>>>> upstream/18.0
       const {
         width
       } = ctx.measureText(div.textContent);
       if (width > 0) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         transform = `scaleX(${canvasWidth * this.#scale / width})`;
+=======
+        transform = `scaleX(${canvasWidth * this.#scale / width}) ${transform}`;
+>>>>>>> upstream/18.0
 =======
         transform = `scaleX(${canvasWidth * this.#scale / width}) ${transform}`;
 >>>>>>> upstream/18.0
@@ -12722,8 +13647,13 @@ class TextLayer {
   }
   static #getCtx(lang = null) {
 <<<<<<< HEAD
+<<<<<<< HEAD
     let canvasContext = this.#canvasContexts.get(lang ||= "");
     if (!canvasContext) {
+=======
+    let ctx = this.#canvasContexts.get(lang ||= "");
+    if (!ctx) {
+>>>>>>> upstream/18.0
 =======
     let ctx = this.#canvasContexts.get(lang ||= "");
     if (!ctx) {
@@ -12733,6 +13663,7 @@ class TextLayer {
       canvas.lang = lang;
       document.body.append(canvas);
 <<<<<<< HEAD
+<<<<<<< HEAD
       canvasContext = canvas.getContext("2d", {
         alpha: false
       });
@@ -12740,6 +13671,8 @@ class TextLayer {
     }
     return canvasContext;
 =======
+=======
+>>>>>>> upstream/18.0
       ctx = canvas.getContext("2d", {
         alpha: false,
         willReadFrequently: true
@@ -12774,6 +13707,9 @@ class TextLayer {
     document.body.append(div);
     this.#minFontSize = div.getBoundingClientRect().height;
     div.remove();
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
   }
   static #getAscent(fontFamily, lang) {
@@ -12783,9 +13719,14 @@ class TextLayer {
     }
     const ctx = this.#getCtx(lang);
 <<<<<<< HEAD
+<<<<<<< HEAD
     const savedFont = ctx.font;
     ctx.canvas.width = ctx.canvas.height = DEFAULT_FONT_SIZE;
     ctx.font = `${DEFAULT_FONT_SIZE}px ${fontFamily}`;
+=======
+    ctx.canvas.width = ctx.canvas.height = DEFAULT_FONT_SIZE;
+    this.#ensureCtxFont(ctx, DEFAULT_FONT_SIZE, fontFamily);
+>>>>>>> upstream/18.0
 =======
     ctx.canvas.width = ctx.canvas.height = DEFAULT_FONT_SIZE;
     this.#ensureCtxFont(ctx, DEFAULT_FONT_SIZE, fontFamily);
@@ -12798,7 +13739,10 @@ class TextLayer {
       this.#ascentCache.set(fontFamily, ratio);
       ctx.canvas.width = ctx.canvas.height = 0;
 <<<<<<< HEAD
+<<<<<<< HEAD
       ctx.font = savedFont;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
       return ratio;
@@ -12826,7 +13770,10 @@ class TextLayer {
     }
     ctx.canvas.width = ctx.canvas.height = 0;
 <<<<<<< HEAD
+<<<<<<< HEAD
     ctx.font = savedFont;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     const ratio = ascent ? ascent / (ascent + descent) : DEFAULT_FONT_ASCENT;
@@ -12834,6 +13781,7 @@ class TextLayer {
     return ratio;
   }
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 function renderTextLayer() {
   deprecated("`renderTextLayer`, please use `TextLayer` instead.");
@@ -12868,6 +13816,10 @@ function updateTextLayer() {
 }
 
 ;// CONCATENATED MODULE: ./src/display/xfa_text.js
+=======
+
+;// ./src/display/xfa_text.js
+>>>>>>> upstream/18.0
 =======
 
 ;// ./src/display/xfa_text.js
@@ -12915,13 +13867,19 @@ class XfaText {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./src/display/api.js
 =======
+=======
+>>>>>>> upstream/18.0
 ;// ./src/display/api.js
 
 
 
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 
@@ -12947,7 +13905,11 @@ const DefaultCMapReaderFactory = isNodeJS ? NodeCMapReaderFactory : DOMCMapReade
 const DefaultFilterFactory = isNodeJS ? NodeFilterFactory : DOMFilterFactory;
 const DefaultStandardFontDataFactory = isNodeJS ? NodeStandardFontDataFactory : DOMStandardFontDataFactory;
 <<<<<<< HEAD
+<<<<<<< HEAD
 function getDocument(src) {
+=======
+function getDocument(src = {}) {
+>>>>>>> upstream/18.0
 =======
 function getDocument(src = {}) {
 >>>>>>> upstream/18.0
@@ -12961,12 +13923,15 @@ function getDocument(src = {}) {
     };
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
   if (typeof src !== "object") {
     throw new Error("Invalid parameter in getDocument, need parameter object.");
   }
   if (!src.url && !src.data && !src.range) {
     throw new Error("Invalid parameter object: need either .data, .range or .url");
   }
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
   const task = new PDFDocumentLoadingTask();
@@ -12993,6 +13958,10 @@ function getDocument(src = {}) {
   const isEvalSupported = src.isEvalSupported !== false;
   const isOffscreenCanvasSupported = typeof src.isOffscreenCanvasSupported === "boolean" ? src.isOffscreenCanvasSupported : !isNodeJS;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  const isChrome = typeof src.isChrome === "boolean" ? src.isChrome : !util_FeatureTest.platform.isFirefox && typeof window !== "undefined" && !!window?.chrome;
+>>>>>>> upstream/18.0
 =======
   const isChrome = typeof src.isChrome === "boolean" ? src.isChrome : !util_FeatureTest.platform.isFirefox && typeof window !== "undefined" && !!window?.chrome;
 >>>>>>> upstream/18.0
@@ -13005,6 +13974,7 @@ function getDocument(src = {}) {
   const disableStream = src.disableStream === true;
   const disableAutoFetch = src.disableAutoFetch === true;
   const pdfBug = src.pdfBug === true;
+<<<<<<< HEAD
 <<<<<<< HEAD
   const length = rangeTransport ? rangeTransport.length : src.length ?? NaN;
   const useSystemFonts = typeof src.useSystemFonts === "boolean" ? src.useSystemFonts : !isNodeJS && !disableFontFace;
@@ -13032,6 +14002,8 @@ function getDocument(src = {}) {
     });
   }
 =======
+=======
+>>>>>>> upstream/18.0
   const CanvasFactory = src.CanvasFactory || DefaultCanvasFactory;
   const FilterFactory = src.FilterFactory || DefaultFilterFactory;
   const enableHWA = src.enableHWA === true;
@@ -13063,6 +14035,9 @@ function getDocument(src = {}) {
       baseUrl: standardFontDataUrl
     })
   };
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
   if (!worker) {
     const workerParams = {
@@ -13075,7 +14050,11 @@ function getDocument(src = {}) {
   const docParams = {
     docId,
 <<<<<<< HEAD
+<<<<<<< HEAD
     apiVersion: "4.3.136",
+=======
+    apiVersion: "4.8.69",
+>>>>>>> upstream/18.0
 =======
     apiVersion: "4.8.69",
 >>>>>>> upstream/18.0
@@ -13093,6 +14072,10 @@ function getDocument(src = {}) {
       isEvalSupported,
       isOffscreenCanvasSupported,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      isChrome,
+>>>>>>> upstream/18.0
 =======
       isChrome,
 >>>>>>> upstream/18.0
@@ -13130,6 +14113,7 @@ function getDocument(src = {}) {
       });
     } else if (!data) {
 <<<<<<< HEAD
+<<<<<<< HEAD
       const createPDFNetworkStream = params => {
         if (isNodeJS) {
           const isFetchSupported = function () {
@@ -13141,6 +14125,8 @@ function getDocument(src = {}) {
       };
       networkStream = createPDFNetworkStream({
 =======
+=======
+>>>>>>> upstream/18.0
       if (!url) {
         throw new Error("getDocument - no `url` parameter provided.");
       }
@@ -13152,6 +14138,9 @@ function getDocument(src = {}) {
         NetworkStream = isValidFetchUrl(url) ? PDFFetchStream : PDFNetworkStream;
       }
       networkStream = new NetworkStream({
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         url,
         length,
@@ -13309,6 +14298,12 @@ class PDFDocumentProxy {
     return this._transport.annotationStorage;
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  get canvasFactory() {
+    return this._transport.canvasFactory;
+  }
+>>>>>>> upstream/18.0
 =======
   get canvasFactory() {
     return this._transport.canvasFactory;
@@ -13493,16 +14488,22 @@ class PDFPageProxy {
     annotationCanvasMap = null,
     pageColors = null,
 <<<<<<< HEAD
+<<<<<<< HEAD
     printAnnotationStorage = null
   }) {
     this._stats?.time("Overall");
     const intentArgs = this._transport.getRenderingIntent(intent, annotationMode, printAnnotationStorage);
 =======
+=======
+>>>>>>> upstream/18.0
     printAnnotationStorage = null,
     isEditing = false
   }) {
     this._stats?.time("Overall");
     const intentArgs = this._transport.getRenderingIntent(intent, annotationMode, printAnnotationStorage, isEditing);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     const {
       renderingIntent,
@@ -13597,7 +14598,12 @@ class PDFPageProxy {
     intent = "display",
     annotationMode = AnnotationMode.ENABLE,
 <<<<<<< HEAD
+<<<<<<< HEAD
     printAnnotationStorage = null
+=======
+    printAnnotationStorage = null,
+    isEditing = false
+>>>>>>> upstream/18.0
 =======
     printAnnotationStorage = null,
     isEditing = false
@@ -13610,7 +14616,11 @@ class PDFPageProxy {
       }
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
     const intentArgs = this._transport.getRenderingIntent(intent, annotationMode, printAnnotationStorage, true);
+=======
+    const intentArgs = this._transport.getRenderingIntent(intent, annotationMode, printAnnotationStorage, isEditing, true);
+>>>>>>> upstream/18.0
 =======
     const intentArgs = this._transport.getRenderingIntent(intent, annotationMode, printAnnotationStorage, isEditing, true);
 >>>>>>> upstream/18.0
@@ -13772,7 +14782,12 @@ class PDFPageProxy {
     renderingIntent,
     cacheKey,
 <<<<<<< HEAD
+<<<<<<< HEAD
     annotationStorageSerializable
+=======
+    annotationStorageSerializable,
+    modifiedIds
+>>>>>>> upstream/18.0
 =======
     annotationStorageSerializable,
     modifiedIds
@@ -13787,7 +14802,12 @@ class PDFPageProxy {
       intent: renderingIntent,
       cacheKey,
 <<<<<<< HEAD
+<<<<<<< HEAD
       annotationStorage: map
+=======
+      annotationStorage: map,
+      modifiedIds
+>>>>>>> upstream/18.0
 =======
       annotationStorage: map,
       modifiedIds
@@ -13884,7 +14904,11 @@ class PDFPageProxy {
 }
 class LoopbackPort {
 <<<<<<< HEAD
+<<<<<<< HEAD
   #listeners = new Set();
+=======
+  #listeners = new Map();
+>>>>>>> upstream/18.0
 =======
   #listeners = new Map();
 >>>>>>> upstream/18.0
@@ -13897,7 +14921,11 @@ class LoopbackPort {
     };
     this.#deferred.then(() => {
 <<<<<<< HEAD
+<<<<<<< HEAD
       for (const listener of this.#listeners) {
+=======
+      for (const [listener] of this.#listeners) {
+>>>>>>> upstream/18.0
 =======
       for (const [listener] of this.#listeners) {
 >>>>>>> upstream/18.0
@@ -13905,6 +14933,7 @@ class LoopbackPort {
       }
     });
   }
+<<<<<<< HEAD
 <<<<<<< HEAD
   addEventListener(name, listener) {
     this.#listeners.add(listener);
@@ -13948,6 +14977,8 @@ const PDFWorkerUtil = {
 class PDFWorker {
   static #workerPorts;
 =======
+=======
+>>>>>>> upstream/18.0
   addEventListener(name, listener, options = null) {
     let rmAbort = null;
     if (options?.signal instanceof AbortSignal) {
@@ -14005,6 +15036,9 @@ class PDFWorker {
       }));
     };
   }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
   constructor({
     name = null,
@@ -14035,13 +15069,19 @@ class PDFWorker {
     return this._readyCapability.promise;
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
   #resolve() {
     this._readyCapability.resolve();
     this._messageHandler.send("configure", {
       verbosity: this.verbosity
     });
   }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
   get port() {
     return this._port;
@@ -14053,6 +15093,7 @@ class PDFWorker {
     this._port = port;
     this._messageHandler = new MessageHandler("main", "worker", port);
     this._messageHandler.on("ready", function () {});
+<<<<<<< HEAD
 <<<<<<< HEAD
     this._readyCapability.resolve();
     this._messageHandler.send("configure", {
@@ -14130,6 +15171,8 @@ class PDFWorker {
         info("The worker has been disabled.");
       }
 =======
+=======
+>>>>>>> upstream/18.0
     this.#resolve();
   }
   _initialize() {
@@ -14197,15 +15240,24 @@ class PDFWorker {
       return;
     } catch {
       info("The worker has been disabled.");
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     }
     this._setupFakeWorker();
   }
   _setupFakeWorker() {
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (!PDFWorkerUtil.isWorkerDisabled) {
       warn("Setting up fake worker.");
       PDFWorkerUtil.isWorkerDisabled = true;
+=======
+    if (!PDFWorker.#isWorkerDisabled) {
+      warn("Setting up fake worker.");
+      PDFWorker.#isWorkerDisabled = true;
+>>>>>>> upstream/18.0
 =======
     if (!PDFWorker.#isWorkerDisabled) {
       warn("Setting up fake worker.");
@@ -14220,6 +15272,7 @@ class PDFWorker {
       const port = new LoopbackPort();
       this._port = port;
 <<<<<<< HEAD
+<<<<<<< HEAD
       const id = `fake${PDFWorkerUtil.fakeWorkerId++}`;
       const workerHandler = new MessageHandler(id + "_worker", id, port);
       WorkerMessageHandler.setup(workerHandler, port);
@@ -14230,11 +15283,16 @@ class PDFWorker {
         verbosity: this.verbosity
       });
 =======
+=======
+>>>>>>> upstream/18.0
       const id = `fake${PDFWorker.#fakeWorkerId++}`;
       const workerHandler = new MessageHandler(id + "_worker", id, port);
       WorkerMessageHandler.setup(workerHandler, port);
       this._messageHandler = new MessageHandler(id, id + "_worker", port);
       this.#resolve();
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     }).catch(reason => {
       this._readyCapability.reject(new Error(`Setting up fake worker failed: "${reason.message}".`));
@@ -14285,7 +15343,11 @@ class PDFWorker {
         return this.#mainThreadWorkerMessageHandler;
       }
 <<<<<<< HEAD
+<<<<<<< HEAD
       const worker = await import( /*webpackIgnore: true*/this.workerSrc);
+=======
+      const worker = await import(/*webpackIgnore: true*/this.workerSrc);
+>>>>>>> upstream/18.0
 =======
       const worker = await import(/*webpackIgnore: true*/this.workerSrc);
 >>>>>>> upstream/18.0
@@ -14335,7 +15397,11 @@ class WorkerTransport {
     return shadow(this, "annotationStorage", new AnnotationStorage());
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
   getRenderingIntent(intent, annotationMode = AnnotationMode.ENABLE, printAnnotationStorage = null, isOpList = false) {
+=======
+  getRenderingIntent(intent, annotationMode = AnnotationMode.ENABLE, printAnnotationStorage = null, isEditing = false, isOpList = false) {
+>>>>>>> upstream/18.0
 =======
   getRenderingIntent(intent, annotationMode = AnnotationMode.ENABLE, printAnnotationStorage = null, isEditing = false, isOpList = false) {
 >>>>>>> upstream/18.0
@@ -14354,6 +15420,10 @@ class WorkerTransport {
         warn(`getRenderingIntent - invalid intent: ${intent}`);
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    const annotationStorage = renderingIntent & RenderingIntentFlag.PRINT && printAnnotationStorage instanceof PrintAnnotationStorage ? printAnnotationStorage : this.annotationStorage;
+>>>>>>> upstream/18.0
 =======
     const annotationStorage = renderingIntent & RenderingIntentFlag.PRINT && printAnnotationStorage instanceof PrintAnnotationStorage ? printAnnotationStorage : this.annotationStorage;
 >>>>>>> upstream/18.0
@@ -14369,7 +15439,10 @@ class WorkerTransport {
       case AnnotationMode.ENABLE_STORAGE:
         renderingIntent += RenderingIntentFlag.ANNOTATIONS_STORAGE;
 <<<<<<< HEAD
+<<<<<<< HEAD
         const annotationStorage = renderingIntent & RenderingIntentFlag.PRINT && printAnnotationStorage instanceof PrintAnnotationStorage ? printAnnotationStorage : this.annotationStorage;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         annotationStorageSerializable = annotationStorage.serializable;
@@ -14377,6 +15450,7 @@ class WorkerTransport {
       default:
         warn(`getRenderingIntent - invalid annotationMode: ${annotationMode}`);
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
     if (isOpList) {
       renderingIntent += RenderingIntentFlag.OPLIST;
@@ -14386,6 +15460,8 @@ class WorkerTransport {
       cacheKey: `${renderingIntent}_${annotationStorageSerializable.hash}`,
       annotationStorageSerializable
 =======
+=======
+>>>>>>> upstream/18.0
     if (isEditing) {
       renderingIntent += RenderingIntentFlag.IS_EDITING;
     }
@@ -14402,6 +15478,9 @@ class WorkerTransport {
       cacheKey: cacheKeyBuf.join("_"),
       annotationStorageSerializable,
       modifiedIds
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     };
   }
@@ -14479,6 +15558,7 @@ class WorkerTransport {
       };
     });
 <<<<<<< HEAD
+<<<<<<< HEAD
     messageHandler.on("ReaderHeadersReady", data => {
       const headersCapability = Promise.withResolvers();
       const fullReader = this._fullReader;
@@ -14502,6 +15582,8 @@ class WorkerTransport {
       }, headersCapability.reject);
       return headersCapability.promise;
 =======
+=======
+>>>>>>> upstream/18.0
     messageHandler.on("ReaderHeadersReady", async data => {
       await this._fullReader.headersReady;
       const {
@@ -14525,6 +15607,9 @@ class WorkerTransport {
         isRangeSupported,
         contentLength
       };
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     });
     messageHandler.on("GetRangeReader", (data, sink) => {
@@ -14724,6 +15809,7 @@ class WorkerTransport {
       });
     });
 <<<<<<< HEAD
+<<<<<<< HEAD
     messageHandler.on("FetchBuiltInCMap", data => {
       if (this.destroyed) {
         return Promise.reject(new Error("Worker was destroyed."));
@@ -14740,6 +15826,8 @@ class WorkerTransport {
       if (!this.standardFontDataFactory) {
         return Promise.reject(new Error("StandardFontDataFactory not initialized, see the `useWorkerFetch` parameter."));
 =======
+=======
+>>>>>>> upstream/18.0
     messageHandler.on("FetchBuiltInCMap", async data => {
       if (this.destroyed) {
         throw new Error("Worker was destroyed.");
@@ -14755,6 +15843,9 @@ class WorkerTransport {
       }
       if (!this.standardFontDataFactory) {
         throw new Error("StandardFontDataFactory not initialized, see the `useWorkerFetch` parameter.");
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
       }
       return this.standardFontDataFactory.fetch(data);
@@ -15003,6 +16094,10 @@ class RenderTask {
 }
 class InternalRenderTask {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  #rAF = null;
+>>>>>>> upstream/18.0
 =======
   #rAF = null;
 >>>>>>> upstream/18.0
@@ -15091,11 +16186,17 @@ class InternalRenderTask {
     this.cancelled = true;
     this.gfx?.endDrawing();
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     if (this.#rAF) {
       window.cancelAnimationFrame(this.#rAF);
       this.#rAF = null;
     }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     InternalRenderTask.#canvasInUse.delete(this._canvas);
     this.callback(error || new RenderingCancelledException(`Rendering cancelled, page ${this._pageIndex + 1}`, extraDelay));
@@ -15125,7 +16226,12 @@ class InternalRenderTask {
   _scheduleNext() {
     if (this._useRequestAnimationFrame) {
 <<<<<<< HEAD
+<<<<<<< HEAD
       window.requestAnimationFrame(() => {
+=======
+      this.#rAF = window.requestAnimationFrame(() => {
+        this.#rAF = null;
+>>>>>>> upstream/18.0
 =======
       this.#rAF = window.requestAnimationFrame(() => {
         this.#rAF = null;
@@ -15152,15 +16258,21 @@ class InternalRenderTask {
   }
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 const version = "4.3.136";
 const build = "0cec64437";
 
 ;// CONCATENATED MODULE: ./src/shared/scripting_utils.js
 =======
+=======
+>>>>>>> upstream/18.0
 const version = "4.8.69";
 const build = "3634dab10";
 
 ;// ./src/shared/scripting_utils.js
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 function makeColorComp(n) {
   return Math.floor(Math.max(0, Math.min(1, n)) * 255).toString(16).padStart(2, "0");
@@ -15221,8 +16333,11 @@ class ColorConverters {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./src/display/xfa_layer.js
 =======
+=======
+>>>>>>> upstream/18.0
 ;// ./src/display/svg_factory.js
 
 
@@ -15258,6 +16373,9 @@ class DOMSVGFactory extends BaseSVGFactory {
 }
 
 ;// ./src/display/xfa_layer.js
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 class XfaLayer {
@@ -15470,7 +16588,12 @@ class XfaLayer {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./src/display/annotation_layer.js
+=======
+;// ./src/display/annotation_layer.js
+
+>>>>>>> upstream/18.0
 =======
 ;// ./src/display/annotation_layer.js
 
@@ -15587,6 +16710,12 @@ class AnnotationElement {
     return !!(titleObj?.str || contentsObj?.str || richText?.str);
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  get _isEditable() {
+    return this.data.isEditable;
+  }
+>>>>>>> upstream/18.0
 =======
   get _isEditable() {
     return this.data.isEditable;
@@ -15670,9 +16799,12 @@ class AnnotationElement {
     } = container;
     style.zIndex = this.parent.zIndex++;
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (data.popupRef) {
       container.setAttribute("aria-haspopup", "dialog");
     }
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     if (data.alternativeText) {
@@ -15895,6 +17027,7 @@ class AnnotationElement {
       return;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
     const [rectBlX, rectBlY, rectTrX, rectTrY] = this.data.rect;
     if (quadPoints.length === 1) {
       const [, {
@@ -15904,6 +17037,11 @@ class AnnotationElement {
         x: blX,
         y: blY
       }] = quadPoints[0];
+=======
+    const [rectBlX, rectBlY, rectTrX, rectTrY] = this.data.rect.map(x => Math.fround(x));
+    if (quadPoints.length === 8) {
+      const [trX, trY, blX, blY] = quadPoints.subarray(2, 6);
+>>>>>>> upstream/18.0
 =======
     const [rectBlX, rectBlY, rectTrX, rectTrY] = this.data.rect.map(x => Math.fround(x));
     if (quadPoints.length === 8) {
@@ -15943,6 +17081,7 @@ class AnnotationElement {
     clipPath.setAttribute("clipPathUnits", "objectBoundingBox");
     defs.append(clipPath);
 <<<<<<< HEAD
+<<<<<<< HEAD
     for (const [, {
       x: trX,
       y: trY
@@ -15951,11 +17090,16 @@ class AnnotationElement {
       y: blY
     }] of quadPoints) {
 =======
+=======
+>>>>>>> upstream/18.0
     for (let i = 2, ii = quadPoints.length; i < ii; i += 8) {
       const trX = quadPoints[i];
       const trY = quadPoints[i + 1];
       const blX = quadPoints[i + 2];
       const blY = quadPoints[i + 3];
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
       const rect = svgFactory.createElement("rect");
       const x = (blX - rectBlX) / width;
@@ -15979,10 +17123,15 @@ class AnnotationElement {
   _createPopup() {
     const {
 <<<<<<< HEAD
+<<<<<<< HEAD
       container,
       data
     } = this;
     container.setAttribute("aria-haspopup", "dialog");
+=======
+      data
+    } = this;
+>>>>>>> upstream/18.0
 =======
       data
     } = this;
@@ -16083,9 +17232,12 @@ class AnnotationElement {
     }
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
   get _isEditable() {
     return false;
   }
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
   _editOnDoubleClick() {
@@ -17213,6 +18365,10 @@ class PopupAnnotationElement extends AnnotationElement {
     for (const element of this.elements) {
       element.popup = popup;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      element.container.ariaHasPopup = "dialog";
+>>>>>>> upstream/18.0
 =======
       element.container.ariaHasPopup = "dialog";
 >>>>>>> upstream/18.0
@@ -17309,10 +18465,16 @@ class PopupElement {
       const modificationDate = document.createElement("span");
       modificationDate.classList.add("popupDate");
 <<<<<<< HEAD
+<<<<<<< HEAD
       modificationDate.setAttribute("data-l10n-id", "pdfjs-annotation-date-string");
       modificationDate.setAttribute("data-l10n-args", JSON.stringify({
         date: this.#dateObj.toLocaleDateString(),
         time: this.#dateObj.toLocaleTimeString()
+=======
+      modificationDate.setAttribute("data-l10n-id", "pdfjs-annotation-date-time-string");
+      modificationDate.setAttribute("data-l10n-args", JSON.stringify({
+        dateObj: this.#dateObj.valueOf()
+>>>>>>> upstream/18.0
 =======
       modificationDate.setAttribute("data-l10n-id", "pdfjs-annotation-date-time-string");
       modificationDate.setAttribute("data-l10n-args", JSON.stringify({
@@ -17556,9 +18718,12 @@ class FreeTextAnnotationElement extends AnnotationElement {
     return this.container;
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
   get _isEditable() {
     return this.data.hasOwnCanvas;
   }
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 }
@@ -17691,6 +18856,7 @@ class PolylineAnnotationElement extends AnnotationElement {
   render() {
     this.container.classList.add(this.containerClassName);
 <<<<<<< HEAD
+<<<<<<< HEAD
     const data = this.data;
     const {
       width,
@@ -17703,6 +18869,8 @@ class PolylineAnnotationElement extends AnnotationElement {
       const y = data.rect[3] - coordinate.y;
       points.push(x + "," + y);
 =======
+=======
+>>>>>>> upstream/18.0
     const {
       data: {
         rect,
@@ -17724,13 +18892,20 @@ class PolylineAnnotationElement extends AnnotationElement {
       const x = vertices[i] - rect[0];
       const y = rect[3] - vertices[i + 1];
       points.push(`${x},${y}`);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     }
     points = points.join(" ");
     const polyline = this.#polyline = this.svgFactory.createElement(this.svgElementName);
     polyline.setAttribute("points", points);
 <<<<<<< HEAD
+<<<<<<< HEAD
     polyline.setAttribute("stroke-width", data.borderStyle.width || 1);
+=======
+    polyline.setAttribute("stroke-width", borderStyle.width || 1);
+>>>>>>> upstream/18.0
 =======
     polyline.setAttribute("stroke-width", borderStyle.width || 1);
 >>>>>>> upstream/18.0
@@ -17739,7 +18914,11 @@ class PolylineAnnotationElement extends AnnotationElement {
     svg.append(polyline);
     this.container.append(svg);
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (!data.popupRef && this.hasPopupData) {
+=======
+    if (!popupRef && this.hasPopupData) {
+>>>>>>> upstream/18.0
 =======
     if (!popupRef && this.hasPopupData) {
 >>>>>>> upstream/18.0
@@ -17786,6 +18965,7 @@ class InkAnnotationElement extends AnnotationElement {
     this.containerClassName = "inkAnnotation";
     this.svgElementName = "svg:polyline";
 <<<<<<< HEAD
+<<<<<<< HEAD
     this.annotationEditorType = AnnotationEditorType.INK;
   }
   render() {
@@ -17802,6 +18982,8 @@ class InkAnnotationElement extends AnnotationElement {
         const x = coordinate.x - data.rect[0];
         const y = data.rect[3] - coordinate.y;
 =======
+=======
+>>>>>>> upstream/18.0
     this.annotationEditorType = this.data.it === "InkHighlight" ? AnnotationEditorType.HIGHLIGHT : AnnotationEditorType.INK;
   }
   render() {
@@ -17824,6 +19006,9 @@ class InkAnnotationElement extends AnnotationElement {
       for (let i = 0, ii = inkList.length; i < ii; i += 2) {
         const x = inkList[i] - rect[0];
         const y = rect[3] - inkList[i + 1];
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         points.push(`${x},${y}`);
       }
@@ -17831,6 +19016,7 @@ class InkAnnotationElement extends AnnotationElement {
       const polyline = this.svgFactory.createElement(this.svgElementName);
       this.#polylines.push(polyline);
       polyline.setAttribute("points", points);
+<<<<<<< HEAD
 <<<<<<< HEAD
       polyline.setAttribute("stroke-width", data.borderStyle.width || 1);
       polyline.setAttribute("stroke", "transparent");
@@ -17842,6 +19028,8 @@ class InkAnnotationElement extends AnnotationElement {
     }
     this.container.append(svg);
 =======
+=======
+>>>>>>> upstream/18.0
       polyline.setAttribute("stroke-width", borderStyle.width || 1);
       polyline.setAttribute("stroke", "transparent");
       polyline.setAttribute("fill", "transparent");
@@ -17852,6 +19040,9 @@ class InkAnnotationElement extends AnnotationElement {
     }
     this.container.append(svg);
     this._editOnDoubleClick();
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     return this.container;
   }
@@ -17870,6 +19061,10 @@ class HighlightAnnotationElement extends AnnotationElement {
       createQuadrilaterals: true
     });
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    this.annotationEditorType = AnnotationEditorType.HIGHLIGHT;
+>>>>>>> upstream/18.0
 =======
     this.annotationEditorType = AnnotationEditorType.HIGHLIGHT;
 >>>>>>> upstream/18.0
@@ -17880,6 +19075,10 @@ class HighlightAnnotationElement extends AnnotationElement {
     }
     this.container.classList.add("highlightAnnotation");
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    this._editOnDoubleClick();
+>>>>>>> upstream/18.0
 =======
     this._editOnDoubleClick();
 >>>>>>> upstream/18.0
@@ -17941,6 +19140,7 @@ class StampAnnotationElement extends AnnotationElement {
       ignoreBorder: true
     });
 <<<<<<< HEAD
+<<<<<<< HEAD
   }
   render() {
     this.container.classList.add("stampAnnotation");
@@ -17948,6 +19148,8 @@ class StampAnnotationElement extends AnnotationElement {
       this._createPopup();
     }
 =======
+=======
+>>>>>>> upstream/18.0
     this.annotationEditorType = AnnotationEditorType.STAMP;
   }
   render() {
@@ -17957,6 +19159,9 @@ class StampAnnotationElement extends AnnotationElement {
       this._createPopup();
     }
     this._editOnDoubleClick();
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     return this.container;
   }
@@ -18026,6 +19231,10 @@ class AnnotationLayer {
   #annotationCanvasMap = null;
   #editableAnnotations = new Map();
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  #structTreeLayer = null;
+>>>>>>> upstream/18.0
 =======
   #structTreeLayer = null;
 >>>>>>> upstream/18.0
@@ -18036,7 +19245,12 @@ class AnnotationLayer {
     annotationEditorUIManager,
     page,
 <<<<<<< HEAD
+<<<<<<< HEAD
     viewport
+=======
+    viewport,
+    structTreeLayer
+>>>>>>> upstream/18.0
 =======
     viewport,
     structTreeLayer
@@ -18046,6 +19260,10 @@ class AnnotationLayer {
     this.#accessibilityManager = accessibilityManager;
     this.#annotationCanvasMap = annotationCanvasMap;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    this.#structTreeLayer = structTreeLayer || null;
+>>>>>>> upstream/18.0
 =======
     this.#structTreeLayer = structTreeLayer || null;
 >>>>>>> upstream/18.0
@@ -18055,10 +19273,13 @@ class AnnotationLayer {
     this._annotationEditorUIManager = annotationEditorUIManager;
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
   #appendElement(element, id) {
     const contentElement = element.firstChild || element;
     contentElement.id = `${AnnotationPrefix}${id}`;
 =======
+=======
+>>>>>>> upstream/18.0
   hasEditableAnnotations() {
     return this.#editableAnnotations.size > 0;
   }
@@ -18071,6 +19292,9 @@ class AnnotationLayer {
         contentElement.setAttribute(key, value);
       }
     }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     this.div.append(element);
     this.#accessibilityManager?.moveElementInDOM(this.div, element, contentElement, false);
@@ -18135,8 +19359,13 @@ class AnnotationLayer {
         rendered.style.visibility = "hidden";
       }
 <<<<<<< HEAD
+<<<<<<< HEAD
       this.#appendElement(rendered, data.id);
       if (element.annotationEditorType > 0) {
+=======
+      await this.#appendElement(rendered, data.id);
+      if (element._isEditable) {
+>>>>>>> upstream/18.0
 =======
       await this.#appendElement(rendered, data.id);
       if (element._isEditable) {
@@ -18193,7 +19422,11 @@ class AnnotationLayer {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./src/display/editor/freetext.js
+=======
+;// ./src/display/editor/freetext.js
+>>>>>>> upstream/18.0
 =======
 ;// ./src/display/editor/freetext.js
 >>>>>>> upstream/18.0
@@ -18203,6 +19436,7 @@ class AnnotationLayer {
 
 const EOL_PATTERN = /\r\n?|\n/g;
 class FreeTextEditor extends AnnotationEditor {
+<<<<<<< HEAD
 <<<<<<< HEAD
   #boundEditorDivBlur = this.editorDivBlur.bind(this);
   #boundEditorDivFocus = this.editorDivFocus.bind(this);
@@ -18215,11 +19449,16 @@ class FreeTextEditor extends AnnotationEditor {
   #fontSize;
   #initialData = null;
 =======
+=======
+>>>>>>> upstream/18.0
   #color;
   #content = "";
   #editorDivId = `${this.id}-editor`;
   #editModeAC = null;
   #fontSize;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
   static _freeTextDefaultContent = "";
   static _internalPadding = 0;
@@ -18270,9 +19509,13 @@ class FreeTextEditor extends AnnotationEditor {
   }
   static initialize(l10n, uiManager) {
 <<<<<<< HEAD
+<<<<<<< HEAD
     AnnotationEditor.initialize(l10n, uiManager, {
       strings: ["pdfjs-free-text-default-content"]
     });
+=======
+    AnnotationEditor.initialize(l10n, uiManager);
+>>>>>>> upstream/18.0
 =======
     AnnotationEditor.initialize(l10n, uiManager);
 >>>>>>> upstream/18.0
@@ -18369,12 +19612,15 @@ class FreeTextEditor extends AnnotationEditor {
     this._isDraggable = false;
     this.div.removeAttribute("aria-activedescendant");
 <<<<<<< HEAD
+<<<<<<< HEAD
     this.editorDiv.addEventListener("keydown", this.#boundEditorDivKeydown);
     this.editorDiv.addEventListener("focus", this.#boundEditorDivFocus);
     this.editorDiv.addEventListener("blur", this.#boundEditorDivBlur);
     this.editorDiv.addEventListener("input", this.#boundEditorDivInput);
     this.editorDiv.addEventListener("paste", this.#boundEditorDivPaste);
 =======
+=======
+>>>>>>> upstream/18.0
     this.#editModeAC = new AbortController();
     const signal = this._uiManager.combinedSignal(this.#editModeAC);
     this.editorDiv.addEventListener("keydown", this.editorDivKeydown.bind(this), {
@@ -18392,6 +19638,9 @@ class FreeTextEditor extends AnnotationEditor {
     this.editorDiv.addEventListener("paste", this.editorDivPaste.bind(this), {
       signal
     });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
   }
   disableEditMode() {
@@ -18405,11 +19654,16 @@ class FreeTextEditor extends AnnotationEditor {
     this.div.setAttribute("aria-activedescendant", this.#editorDivId);
     this._isDraggable = true;
 <<<<<<< HEAD
+<<<<<<< HEAD
     this.editorDiv.removeEventListener("keydown", this.#boundEditorDivKeydown);
     this.editorDiv.removeEventListener("focus", this.#boundEditorDivFocus);
     this.editorDiv.removeEventListener("blur", this.#boundEditorDivBlur);
     this.editorDiv.removeEventListener("input", this.#boundEditorDivInput);
     this.editorDiv.removeEventListener("paste", this.#boundEditorDivPaste);
+=======
+    this.#editModeAC?.abort();
+    this.#editModeAC = null;
+>>>>>>> upstream/18.0
 =======
     this.#editModeAC?.abort();
     this.#editModeAC = null;
@@ -18455,9 +19709,12 @@ class FreeTextEditor extends AnnotationEditor {
     const buffer = [];
     this.editorDiv.normalize();
 <<<<<<< HEAD
+<<<<<<< HEAD
     for (const child of this.editorDiv.childNodes) {
       buffer.push(FreeTextEditor.#getNodeContent(child));
 =======
+=======
+>>>>>>> upstream/18.0
     let prevChild = null;
     for (const child of this.editorDiv.childNodes) {
       if (prevChild?.nodeType === Node.TEXT_NODE && child.nodeName === "BR") {
@@ -18465,6 +19722,9 @@ class FreeTextEditor extends AnnotationEditor {
       }
       buffer.push(FreeTextEditor.#getNodeContent(child));
       prevChild = child;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     }
     return buffer.join("\n");
@@ -18580,9 +19840,15 @@ class FreeTextEditor extends AnnotationEditor {
     this.editorDiv.className = "internal";
     this.editorDiv.setAttribute("id", this.#editorDivId);
 <<<<<<< HEAD
+<<<<<<< HEAD
     this.editorDiv.setAttribute("data-l10n-id", "pdfjs-free-text");
     this.enableEditing();
     AnnotationEditor._l10nPromise.get("pdfjs-free-text-default-content").then(msg => this.editorDiv?.setAttribute("default-content", msg));
+=======
+    this.editorDiv.setAttribute("data-l10n-id", "pdfjs-free-text2");
+    this.editorDiv.setAttribute("data-l10n-attrs", "default-content");
+    this.enableEditing();
+>>>>>>> upstream/18.0
 =======
     this.editorDiv.setAttribute("data-l10n-id", "pdfjs-free-text2");
     this.editorDiv.setAttribute("data-l10n-attrs", "default-content");
@@ -18605,7 +19871,11 @@ class FreeTextEditor extends AnnotationEditor {
         const {
           position
 <<<<<<< HEAD
+<<<<<<< HEAD
         } = this.#initialData;
+=======
+        } = this._initialData;
+>>>>>>> upstream/18.0
 =======
         } = this._initialData;
 >>>>>>> upstream/18.0
@@ -18748,7 +20018,11 @@ class FreeTextEditor extends AnnotationEditor {
     return this.editorDiv;
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
   static deserialize(data, parent, uiManager) {
+=======
+  static async deserialize(data, parent, uiManager) {
+>>>>>>> upstream/18.0
 =======
   static async deserialize(data, parent, uiManager) {
 >>>>>>> upstream/18.0
@@ -18763,7 +20037,12 @@ class FreeTextEditor extends AnnotationEditor {
           rect,
           rotation,
 <<<<<<< HEAD
+<<<<<<< HEAD
           id
+=======
+          id,
+          popupRef
+>>>>>>> upstream/18.0
 =======
           id,
           popupRef
@@ -18791,23 +20070,33 @@ class FreeTextEditor extends AnnotationEditor {
         rotation,
         id,
 <<<<<<< HEAD
+<<<<<<< HEAD
         deleted: false
       };
     }
     const editor = super.deserialize(data, parent, uiManager);
 =======
+=======
+>>>>>>> upstream/18.0
         deleted: false,
         popupRef
       };
     }
     const editor = await super.deserialize(data, parent, uiManager);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     editor.#fontSize = data.fontSize;
     editor.#color = Util.makeHexColor(...data.color);
     editor.#content = FreeTextEditor.#deserializeContent(data.value);
     editor.annotationElementId = data.id || null;
 <<<<<<< HEAD
+<<<<<<< HEAD
     editor.#initialData = initialData;
+=======
+    editor._initialData = initialData;
+>>>>>>> upstream/18.0
 =======
     editor._initialData = initialData;
 >>>>>>> upstream/18.0
@@ -18819,11 +20108,15 @@ class FreeTextEditor extends AnnotationEditor {
     }
     if (this.deleted) {
 <<<<<<< HEAD
+<<<<<<< HEAD
       return {
         pageIndex: this.pageIndex,
         id: this.annotationElementId,
         deleted: true
       };
+=======
+      return this.serializeDeleted();
+>>>>>>> upstream/18.0
 =======
       return this.serializeDeleted();
 >>>>>>> upstream/18.0
@@ -18857,7 +20150,11 @@ class FreeTextEditor extends AnnotationEditor {
       color,
       pageIndex
 <<<<<<< HEAD
+<<<<<<< HEAD
     } = this.#initialData;
+=======
+    } = this._initialData;
+>>>>>>> upstream/18.0
 =======
     } = this._initialData;
 >>>>>>> upstream/18.0
@@ -18893,10 +20190,13 @@ class FreeTextEditor extends AnnotationEditor {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./src/display/editor/outliner.js
 
 class Outliner {
 =======
+=======
+>>>>>>> upstream/18.0
 ;// ./src/display/editor/drawers/outline.js
 
 class Outline {
@@ -19310,6 +20610,9 @@ class FreeDrawOutline extends Outline {
 
 
 class HighlightOutliner {
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
   #box;
   #verticalEdges = [];
@@ -19499,6 +20802,7 @@ class HighlightOutliner {
   }
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 class Outline {
   toSVGPath() {
     throw new Error("Abstract method `toSVGPath` must be implemented.");
@@ -19513,6 +20817,8 @@ class Outline {
     return this instanceof FreeHighlightOutline;
   }
 }
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 class HighlightOutline extends Outline {
@@ -19560,6 +20866,7 @@ class HighlightOutline extends Outline {
   get box() {
     return this.#box;
   }
+<<<<<<< HEAD
 <<<<<<< HEAD
 }
 class FreeOutliner {
@@ -19914,6 +21221,8 @@ class FreeHighlightOutline extends Outline {
 
 ;// CONCATENATED MODULE: ./src/display/editor/color_picker.js
 =======
+=======
+>>>>>>> upstream/18.0
   get classNamesForDrawing() {
     return ["highlight"];
   }
@@ -19942,14 +21251,20 @@ class FreeHighlightOutline extends FreeDrawOutline {
 }
 
 ;// ./src/display/editor/color_picker.js
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 
 
 class ColorPicker {
 <<<<<<< HEAD
+<<<<<<< HEAD
   #boundKeyDown = this.#keyDown.bind(this);
   #boundPointerDown = this.#pointerDown.bind(this);
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
   #button = null;
@@ -19961,13 +21276,19 @@ class ColorPicker {
   #editor = null;
   #eventBus;
 <<<<<<< HEAD
+<<<<<<< HEAD
   #uiManager = null;
   #type;
 =======
+=======
+>>>>>>> upstream/18.0
   #openDropdownAC = null;
   #uiManager = null;
   #type;
   static #l10nColor = null;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
   static get _keyboardManager() {
     return shadow(this, "_keyboardManager", new KeyboardManager([[["Escape", "mac+Escape"], ColorPicker.prototype._hideDropdownFromKeyboard], [[" ", "mac+ "], ColorPicker.prototype._colorSelectFromKeyboard], [["ArrowDown", "ArrowRight", "mac+ArrowDown", "mac+ArrowRight"], ColorPicker.prototype._moveToNext], [["ArrowUp", "ArrowLeft", "mac+ArrowUp", "mac+ArrowLeft"], ColorPicker.prototype._moveToPrevious], [["Home", "mac+Home"], ColorPicker.prototype._moveToBeginning], [["End", "mac+End"], ColorPicker.prototype._moveToEnd]]));
@@ -19988,7 +21309,10 @@ class ColorPicker {
     this.#eventBus = this.#uiManager._eventBus;
     this.#defaultColor = editor?.color || this.#uiManager?.highlightColors.values().next().value || "#FFFF98";
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     ColorPicker.#l10nColor ||= Object.freeze({
       blue: "pdfjs-editor-colorpicker-blue",
       green: "pdfjs-editor-colorpicker-green",
@@ -19996,6 +21320,9 @@ class ColorPicker {
       red: "pdfjs-editor-colorpicker-red",
       yellow: "pdfjs-editor-colorpicker-yellow"
     });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
   }
   renderButton() {
@@ -20005,9 +21332,12 @@ class ColorPicker {
     button.setAttribute("data-l10n-id", "pdfjs-editor-colorpicker-button");
     button.setAttribute("aria-haspopup", true);
 <<<<<<< HEAD
+<<<<<<< HEAD
     button.addEventListener("click", this.#openDropdown.bind(this));
     button.addEventListener("keydown", this.#boundKeyDown);
 =======
+=======
+>>>>>>> upstream/18.0
     const signal = this.#uiManager._signal;
     button.addEventListener("click", this.#openDropdown.bind(this), {
       signal
@@ -20015,6 +21345,9 @@ class ColorPicker {
     button.addEventListener("keydown", this.#keyDown.bind(this), {
       signal
     });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     const swatch = this.#buttonSwatch = document.createElement("span");
     swatch.className = "swatch";
@@ -20032,12 +21365,18 @@ class ColorPicker {
   #getDropdownRoot() {
     const div = document.createElement("div");
 <<<<<<< HEAD
+<<<<<<< HEAD
     div.addEventListener("contextmenu", noContextMenu);
 =======
+=======
+>>>>>>> upstream/18.0
     const signal = this.#uiManager._signal;
     div.addEventListener("contextmenu", noContextMenu, {
       signal
     });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     div.className = "dropdown";
     div.role = "listbox";
@@ -20051,7 +21390,11 @@ class ColorPicker {
       button.setAttribute("data-color", color);
       button.title = name;
 <<<<<<< HEAD
+<<<<<<< HEAD
       button.setAttribute("data-l10n-id", `pdfjs-editor-colorpicker-${name}`);
+=======
+      button.setAttribute("data-l10n-id", ColorPicker.#l10nColor[name]);
+>>>>>>> upstream/18.0
 =======
       button.setAttribute("data-l10n-id", ColorPicker.#l10nColor[name]);
 >>>>>>> upstream/18.0
@@ -20061,11 +21404,14 @@ class ColorPicker {
       swatch.style.backgroundColor = color;
       button.setAttribute("aria-selected", color === this.#defaultColor);
 <<<<<<< HEAD
+<<<<<<< HEAD
       button.addEventListener("click", this.#colorSelect.bind(this, color));
       div.append(button);
     }
     div.addEventListener("keydown", this.#boundKeyDown);
 =======
+=======
+>>>>>>> upstream/18.0
       button.addEventListener("click", this.#colorSelect.bind(this, color), {
         signal
       });
@@ -20074,6 +21420,9 @@ class ColorPicker {
     div.addEventListener("keydown", this.#keyDown.bind(this), {
       signal
     });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     return div;
   }
@@ -20143,14 +21492,20 @@ class ColorPicker {
     }
     this.#dropdownWasFromKeyboard = event.detail === 0;
 <<<<<<< HEAD
+<<<<<<< HEAD
     window.addEventListener("pointerdown", this.#boundPointerDown);
 =======
+=======
+>>>>>>> upstream/18.0
     if (!this.#openDropdownAC) {
       this.#openDropdownAC = new AbortController();
       window.addEventListener("pointerdown", this.#pointerDown.bind(this), {
         signal: this.#uiManager.combinedSignal(this.#openDropdownAC)
       });
     }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     if (this.#dropdown) {
       this.#dropdown.classList.remove("hidden");
@@ -20168,7 +21523,12 @@ class ColorPicker {
   hideDropdown() {
     this.#dropdown?.classList.add("hidden");
 <<<<<<< HEAD
+<<<<<<< HEAD
     window.removeEventListener("pointerdown", this.#boundPointerDown);
+=======
+    this.#openDropdownAC?.abort();
+    this.#openDropdownAC = null;
+>>>>>>> upstream/18.0
 =======
     this.#openDropdownAC?.abort();
     this.#openDropdownAC = null;
@@ -20213,7 +21573,12 @@ class ColorPicker {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./src/display/editor/highlight.js
+=======
+;// ./src/display/editor/highlight.js
+
+>>>>>>> upstream/18.0
 =======
 ;// ./src/display/editor/highlight.js
 
@@ -20238,7 +21603,10 @@ class HighlightEditor extends AnnotationEditor {
   #id = null;
   #isFreeHighlight = false;
 <<<<<<< HEAD
+<<<<<<< HEAD
   #boundKeydown = this.#keydown.bind(this);
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
   #lastPoint = null;
@@ -20251,7 +21619,10 @@ class HighlightEditor extends AnnotationEditor {
   static _defaultOpacity = 1;
   static _defaultThickness = 12;
 <<<<<<< HEAD
+<<<<<<< HEAD
   static _l10nPromise;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
   static _type = "highlight";
@@ -20288,7 +21659,11 @@ class HighlightEditor extends AnnotationEditor {
       this.#createFreeOutlines(params);
       this.#addToDrawLayer();
 <<<<<<< HEAD
+<<<<<<< HEAD
     } else {
+=======
+    } else if (this.#boxes) {
+>>>>>>> upstream/18.0
 =======
     } else if (this.#boxes) {
 >>>>>>> upstream/18.0
@@ -20323,7 +21698,11 @@ class HighlightEditor extends AnnotationEditor {
   }
   #createOutlines() {
 <<<<<<< HEAD
+<<<<<<< HEAD
     const outliner = new Outliner(this.#boxes, 0.001);
+=======
+    const outliner = new HighlightOutliner(this.#boxes, 0.001);
+>>>>>>> upstream/18.0
 =======
     const outliner = new HighlightOutliner(this.#boxes, 0.001);
 >>>>>>> upstream/18.0
@@ -20335,7 +21714,11 @@ class HighlightEditor extends AnnotationEditor {
       height: this.height
     } = this.#highlightOutlines.box);
 <<<<<<< HEAD
+<<<<<<< HEAD
     const outlinerForOutline = new Outliner(this.#boxes, 0.0025, 0.001, this._uiManager.direction === "ltr");
+=======
+    const outlinerForOutline = new HighlightOutliner(this.#boxes, 0.0025, 0.001, this._uiManager.direction === "ltr");
+>>>>>>> upstream/18.0
 =======
     const outlinerForOutline = new HighlightOutliner(this.#boxes, 0.0025, 0.001, this._uiManager.direction === "ltr");
 >>>>>>> upstream/18.0
@@ -20358,7 +21741,11 @@ class HighlightEditor extends AnnotationEditor {
       this.#clipPathId = clipPathId;
       this.parent.drawLayer.finalizeLine(highlightId, highlightOutlines);
 <<<<<<< HEAD
+<<<<<<< HEAD
       this.#outlineId = this.parent.drawLayer.highlightOutline(this.#focusOutlines);
+=======
+      this.#outlineId = this.parent.drawLayer.drawOutline(this.#focusOutlines);
+>>>>>>> upstream/18.0
 =======
       this.#outlineId = this.parent.drawLayer.drawOutline(this.#focusOutlines);
 >>>>>>> upstream/18.0
@@ -20448,6 +21835,7 @@ class HighlightEditor extends AnnotationEditor {
   }
   #updateColor(color) {
 <<<<<<< HEAD
+<<<<<<< HEAD
     const setColor = col => {
       this.color = col;
       this.parent?.drawLayer.changeColor(this.#id, col);
@@ -20458,6 +21846,8 @@ class HighlightEditor extends AnnotationEditor {
       cmd: setColor.bind(this, color),
       undo: setColor.bind(this, savedColor),
 =======
+=======
+>>>>>>> upstream/18.0
     const setColorAndOpacity = (col, opa) => {
       this.color = col;
       this.parent?.drawLayer.changeColor(this.#id, col);
@@ -20470,6 +21860,9 @@ class HighlightEditor extends AnnotationEditor {
     this.addCommands({
       cmd: setColorAndOpacity.bind(this, color, HighlightEditor._defaultOpacity),
       undo: setColorAndOpacity.bind(this, savedColor, savedOpacity),
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
       post: this._uiManager.updateUI.bind(this._uiManager, this),
       mustExec: true,
@@ -20534,7 +21927,13 @@ class HighlightEditor extends AnnotationEditor {
   }
   onceAdded() {
 <<<<<<< HEAD
+<<<<<<< HEAD
     this.parent.addUndoableEditor(this);
+=======
+    if (!this.annotationElementId) {
+      this.parent.addUndoableEditor(this);
+    }
+>>>>>>> upstream/18.0
 =======
     if (!this.annotationElementId) {
       this.parent.addUndoableEditor(this);
@@ -20604,8 +22003,13 @@ class HighlightEditor extends AnnotationEditor {
       id: this.#id,
       clipPathId: this.#clipPathId
 <<<<<<< HEAD
+<<<<<<< HEAD
     } = parent.drawLayer.highlight(this.#highlightOutlines, this.color, this.#opacity));
     this.#outlineId = parent.drawLayer.highlightOutline(this.#focusOutlines);
+=======
+    } = parent.drawLayer.draw(this.#highlightOutlines, this.color, this.#opacity));
+    this.#outlineId = parent.drawLayer.drawOutline(this.#focusOutlines);
+>>>>>>> upstream/18.0
 =======
     } = parent.drawLayer.draw(this.#highlightOutlines, this.color, this.#opacity));
     this.#outlineId = parent.drawLayer.drawOutline(this.#focusOutlines);
@@ -20679,7 +22083,13 @@ class HighlightEditor extends AnnotationEditor {
       div.classList.add("free");
     } else {
 <<<<<<< HEAD
+<<<<<<< HEAD
       this.div.addEventListener("keydown", this.#boundKeydown);
+=======
+      this.div.addEventListener("keydown", this.#keydown.bind(this), {
+        signal: this._uiManager._signal
+      });
+>>>>>>> upstream/18.0
 =======
       this.div.addEventListener("keydown", this.#keydown.bind(this), {
         signal: this._uiManager._signal
@@ -20699,11 +22109,14 @@ class HighlightEditor extends AnnotationEditor {
   }
   pointerover() {
 <<<<<<< HEAD
+<<<<<<< HEAD
     this.parent.drawLayer.addClass(this.#outlineId, "hovered");
   }
   pointerleave() {
     this.parent.drawLayer.removeClass(this.#outlineId, "hovered");
 =======
+=======
+>>>>>>> upstream/18.0
     if (!this.isSelected) {
       this.parent.drawLayer.addClass(this.#outlineId, "hovered");
     }
@@ -20712,6 +22125,9 @@ class HighlightEditor extends AnnotationEditor {
     if (!this.isSelected) {
       this.parent.drawLayer.removeClass(this.#outlineId, "hovered");
     }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
   }
   #keydown(event) {
@@ -20778,8 +22194,14 @@ class HighlightEditor extends AnnotationEditor {
     }
     const [pageWidth, pageHeight] = this.pageDimensions;
 <<<<<<< HEAD
+<<<<<<< HEAD
     const boxes = this.#boxes;
     const quadPoints = new Array(boxes.length * 8);
+=======
+    const [pageX, pageY] = this.pageTranslation;
+    const boxes = this.#boxes;
+    const quadPoints = new Float32Array(boxes.length * 8);
+>>>>>>> upstream/18.0
 =======
     const [pageX, pageY] = this.pageTranslation;
     const boxes = this.#boxes;
@@ -20793,8 +22215,13 @@ class HighlightEditor extends AnnotationEditor {
       height
     } of boxes) {
 <<<<<<< HEAD
+<<<<<<< HEAD
       const sx = x * pageWidth;
       const sy = (1 - y - height) * pageHeight;
+=======
+      const sx = x * pageWidth + pageX;
+      const sy = (1 - y - height) * pageHeight + pageY;
+>>>>>>> upstream/18.0
 =======
       const sx = x * pageWidth + pageX;
       const sy = (1 - y - height) * pageHeight + pageY;
@@ -20822,6 +22249,7 @@ class HighlightEditor extends AnnotationEditor {
       height: parentHeight
     } = textLayer.getBoundingClientRect();
 <<<<<<< HEAD
+<<<<<<< HEAD
     const pointerMove = e => {
       this.#highlightMove(parent, e);
     };
@@ -20833,11 +22261,16 @@ class HighlightEditor extends AnnotationEditor {
     const ac = new AbortController();
     const signal = parent.combinedSignal(ac);
 >>>>>>> upstream/18.0
+=======
+    const ac = new AbortController();
+    const signal = parent.combinedSignal(ac);
+>>>>>>> upstream/18.0
     const pointerDown = e => {
       e.preventDefault();
       e.stopPropagation();
     };
     const pointerUpCallback = e => {
+<<<<<<< HEAD
 <<<<<<< HEAD
       textLayer.removeEventListener("pointermove", pointerMove);
       window.removeEventListener("blur", pointerUpCallback);
@@ -20853,6 +22286,8 @@ class HighlightEditor extends AnnotationEditor {
     textLayer.addEventListener("pointermove", pointerMove);
     this._freeHighlight = new FreeOutliner({
 =======
+=======
+>>>>>>> upstream/18.0
       ac.abort();
       this.#endHighlight(parent, e);
     };
@@ -20874,6 +22309,9 @@ class HighlightEditor extends AnnotationEditor {
       signal
     });
     this._freeHighlight = new FreeHighlightOutliner({
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
       x,
       y
@@ -20882,7 +22320,11 @@ class HighlightEditor extends AnnotationEditor {
       id: this._freeHighlightId,
       clipPathId: this._freeHighlightClipId
 <<<<<<< HEAD
+<<<<<<< HEAD
     } = parent.drawLayer.highlight(this._freeHighlight, this._defaultColor, this._defaultOpacity, true));
+=======
+    } = parent.drawLayer.draw(this._freeHighlight, this._defaultColor, this._defaultOpacity, true));
+>>>>>>> upstream/18.0
 =======
     } = parent.drawLayer.draw(this._freeHighlight, this._defaultColor, this._defaultOpacity, true));
 >>>>>>> upstream/18.0
@@ -20902,7 +22344,11 @@ class HighlightEditor extends AnnotationEditor {
       });
     } else {
 <<<<<<< HEAD
+<<<<<<< HEAD
       parent.drawLayer.removeFreeHighlight(this._freeHighlightId);
+=======
+      parent.drawLayer.remove(this._freeHighlightId);
+>>>>>>> upstream/18.0
 =======
       parent.drawLayer.remove(this._freeHighlightId);
 >>>>>>> upstream/18.0
@@ -20911,6 +22357,7 @@ class HighlightEditor extends AnnotationEditor {
     this._freeHighlight = null;
     this._freeHighlightClipId = "";
   }
+<<<<<<< HEAD
 <<<<<<< HEAD
   static deserialize(data, parent, uiManager) {
     const editor = super.deserialize(data, parent, uiManager);
@@ -20935,6 +22382,8 @@ class HighlightEditor extends AnnotationEditor {
     }
     editor.#createOutlines();
 =======
+=======
+>>>>>>> upstream/18.0
   static async deserialize(data, parent, uiManager) {
     let initialData = null;
     if (data instanceof HighlightAnnotationElement) {
@@ -21053,6 +22502,9 @@ class HighlightEditor extends AnnotationEditor {
       });
       editor.#addToDrawLayer();
     }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     return editor;
   }
@@ -21061,16 +22513,22 @@ class HighlightEditor extends AnnotationEditor {
       return null;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
     const rect = this.getRect(0, 0);
     const color = AnnotationEditor._colorManager.convert(this.color);
     return {
 =======
+=======
+>>>>>>> upstream/18.0
     if (this.deleted) {
       return this.serializeDeleted();
     }
     const rect = this.getRect(0, 0);
     const color = AnnotationEditor._colorManager.convert(this.color);
     const serialized = {
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
       annotationType: AnnotationEditorType.HIGHLIGHT,
       color,
@@ -21084,7 +22542,10 @@ class HighlightEditor extends AnnotationEditor {
       structTreeParentId: this._structTreeParentId
     };
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     if (this.annotationElementId && !this.#hasElementChanged(serialized)) {
       return null;
     }
@@ -21102,6 +22563,9 @@ class HighlightEditor extends AnnotationEditor {
       rect: this.getRect(0, 0)
     });
     return null;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
   }
   static canCreateNewEmptyEditor() {
@@ -21110,7 +22574,11 @@ class HighlightEditor extends AnnotationEditor {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./src/display/editor/ink.js
+=======
+;// ./src/display/editor/ink.js
+>>>>>>> upstream/18.0
 =======
 ;// ./src/display/editor/ink.js
 >>>>>>> upstream/18.0
@@ -21123,6 +22591,7 @@ class InkEditor extends AnnotationEditor {
   #baseHeight = 0;
   #baseWidth = 0;
 <<<<<<< HEAD
+<<<<<<< HEAD
   #boundCanvasPointermove = this.canvasPointermove.bind(this);
   #boundCanvasPointerleave = this.canvasPointerleave.bind(this);
   #boundCanvasPointerup = this.canvasPointerup.bind(this);
@@ -21134,6 +22603,8 @@ class InkEditor extends AnnotationEditor {
   #isCanvasInitialized = false;
   #observer = null;
 =======
+=======
+>>>>>>> upstream/18.0
   #canvasContextMenuTimeoutId = null;
   #currentPath2D = new Path2D();
   #disableEditing = false;
@@ -21142,6 +22613,9 @@ class InkEditor extends AnnotationEditor {
   #isCanvasInitialized = false;
   #observer = null;
   #pointerdownAC = null;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
   #realWidth = 0;
   #realHeight = 0;
@@ -21286,7 +22760,11 @@ class InkEditor extends AnnotationEditor {
       this.#canvasContextMenuTimeoutId = null;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
     this.#observer.disconnect();
+=======
+    this.#observer?.disconnect();
+>>>>>>> upstream/18.0
 =======
     this.#observer?.disconnect();
 >>>>>>> upstream/18.0
@@ -21314,7 +22792,11 @@ class InkEditor extends AnnotationEditor {
     super.enableEditMode();
     this._isDraggable = false;
 <<<<<<< HEAD
+<<<<<<< HEAD
     this.canvas.addEventListener("pointerdown", this.#boundCanvasPointerdown);
+=======
+    this.#addPointerdownListener();
+>>>>>>> upstream/18.0
 =======
     this.#addPointerdownListener();
 >>>>>>> upstream/18.0
@@ -21327,7 +22809,11 @@ class InkEditor extends AnnotationEditor {
     this._isDraggable = !this.isEmpty();
     this.div.classList.remove("editing");
 <<<<<<< HEAD
+<<<<<<< HEAD
     this.canvas.removeEventListener("pointerdown", this.#boundCanvasPointerdown);
+=======
+    this.#removePointerdownListener();
+>>>>>>> upstream/18.0
 =======
     this.#removePointerdownListener();
 >>>>>>> upstream/18.0
@@ -21371,12 +22857,15 @@ class InkEditor extends AnnotationEditor {
   }
   #startDrawing(x, y) {
 <<<<<<< HEAD
+<<<<<<< HEAD
     this.canvas.addEventListener("contextmenu", noContextMenu);
     this.canvas.addEventListener("pointerleave", this.#boundCanvasPointerleave);
     this.canvas.addEventListener("pointermove", this.#boundCanvasPointermove);
     this.canvas.addEventListener("pointerup", this.#boundCanvasPointerup);
     this.canvas.removeEventListener("pointerdown", this.#boundCanvasPointerdown);
 =======
+=======
+>>>>>>> upstream/18.0
     this.canvas.addEventListener("contextmenu", noContextMenu, {
       signal: this._uiManager._signal
     });
@@ -21392,6 +22881,9 @@ class InkEditor extends AnnotationEditor {
     this.canvas.addEventListener("pointerup", this.canvasPointerup.bind(this), {
       signal
     });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     this.isEditing = true;
     if (!this.#isCanvasInitialized) {
@@ -21581,7 +23073,10 @@ class InkEditor extends AnnotationEditor {
     this.enableEditMode();
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
   #addPointerdownListener() {
     if (this.#pointerdownAC) {
       return;
@@ -21596,6 +23091,9 @@ class InkEditor extends AnnotationEditor {
     this.pointerdownAC?.abort();
     this.pointerdownAC = null;
   }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
   canvasPointerdown(event) {
     if (event.button !== 0 || !this.isInEditMode() || this.#disableEditing) {
@@ -21623,10 +23121,16 @@ class InkEditor extends AnnotationEditor {
   }
   #endDrawing(event) {
 <<<<<<< HEAD
+<<<<<<< HEAD
     this.canvas.removeEventListener("pointerleave", this.#boundCanvasPointerleave);
     this.canvas.removeEventListener("pointermove", this.#boundCanvasPointermove);
     this.canvas.removeEventListener("pointerup", this.#boundCanvasPointerup);
     this.canvas.addEventListener("pointerdown", this.#boundCanvasPointerdown);
+=======
+    this.#drawingAC?.abort();
+    this.#drawingAC = null;
+    this.#addPointerdownListener();
+>>>>>>> upstream/18.0
 =======
     this.#drawingAC?.abort();
     this.#drawingAC = null;
@@ -21660,13 +23164,19 @@ class InkEditor extends AnnotationEditor {
     });
     this.#observer.observe(this.div);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     this._uiManager._signal.addEventListener("abort", () => {
       this.#observer?.disconnect();
       this.#observer = null;
     }, {
       once: true
     });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
   }
   get isResizable() {
@@ -21914,17 +23424,23 @@ class InkEditor extends AnnotationEditor {
     this.translate(prevTranslationX - this.translationX - unscaledPadding, prevTranslationY - this.translationY - unscaledPadding);
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
   static deserialize(data, parent, uiManager) {
     if (data instanceof InkAnnotationElement) {
       return null;
     }
     const editor = super.deserialize(data, parent, uiManager);
 =======
+=======
+>>>>>>> upstream/18.0
   static async deserialize(data, parent, uiManager) {
     if (data instanceof InkAnnotationElement) {
       return null;
     }
     const editor = await super.deserialize(data, parent, uiManager);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     editor.thickness = data.thickness;
     editor.color = Util.makeHexColor(...data.color);
@@ -21991,7 +23507,11 @@ class InkEditor extends AnnotationEditor {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./src/display/editor/stamp.js
+=======
+;// ./src/display/editor/stamp.js
+>>>>>>> upstream/18.0
 =======
 ;// ./src/display/editor/stamp.js
 >>>>>>> upstream/18.0
@@ -22040,7 +23560,10 @@ class StampEditor extends AnnotationEditor {
     });
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
   altTextFinish() {
     if (this._uiManager.useNewAltTextFlow) {
       this.div.hidden = false;
@@ -22060,6 +23583,9 @@ class StampEditor extends AnnotationEditor {
       hasNoAltText: hasAltTextStats.get(false) ?? 0
     };
   }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
   #getBitmapFetched(data, fromId = false) {
     if (!data) {
@@ -22080,10 +23606,13 @@ class StampEditor extends AnnotationEditor {
     this.#bitmapPromise = null;
     this._uiManager.enableWaiting(false);
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (this.#canvas) {
       this.div.focus();
     }
 =======
+=======
+>>>>>>> upstream/18.0
     if (!this.#canvas) {
       return;
     }
@@ -22154,6 +23683,9 @@ class StampEditor extends AnnotationEditor {
       };
     }
     return altText;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
   }
   #getBitmap() {
@@ -22180,6 +23712,10 @@ class StampEditor extends AnnotationEditor {
     input.type = "file";
     input.accept = StampEditor.supportedTypesStr;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    const signal = this._uiManager._signal;
+>>>>>>> upstream/18.0
 =======
     const signal = this._uiManager._signal;
 >>>>>>> upstream/18.0
@@ -22191,10 +23727,13 @@ class StampEditor extends AnnotationEditor {
           this._uiManager.enableWaiting(true);
           const data = await this._uiManager.imageManager.getFromFile(input.files[0]);
 <<<<<<< HEAD
+<<<<<<< HEAD
           this.#getBitmapFetched(data);
         }
         resolve();
 =======
+=======
+>>>>>>> upstream/18.0
           this._reportTelemetry({
             action: "pdfjs.image.image_selected",
             data: {
@@ -22206,12 +23745,20 @@ class StampEditor extends AnnotationEditor {
         resolve();
       }, {
         signal
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
       });
       input.addEventListener("cancel", () => {
         this.remove();
         resolve();
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      }, {
+        signal
+>>>>>>> upstream/18.0
 =======
       }, {
         signal
@@ -22275,6 +23822,10 @@ class StampEditor extends AnnotationEditor {
     super.render();
     this.div.hidden = true;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    this.div.setAttribute("role", "figure");
+>>>>>>> upstream/18.0
 =======
     this.div.setAttribute("role", "figure");
 >>>>>>> upstream/18.0
@@ -22285,7 +23836,11 @@ class StampEditor extends AnnotationEditor {
       this.#getBitmap();
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (this.width) {
+=======
+    if (this.width && !this.annotationElementId) {
+>>>>>>> upstream/18.0
 =======
     if (this.width && !this.annotationElementId) {
 >>>>>>> upstream/18.0
@@ -22317,14 +23872,20 @@ class StampEditor extends AnnotationEditor {
     this._uiManager.enableWaiting(false);
     const canvas = this.#canvas = document.createElement("canvas");
 <<<<<<< HEAD
+<<<<<<< HEAD
     div.append(canvas);
     div.hidden = false;
 =======
+=======
+>>>>>>> upstream/18.0
     canvas.setAttribute("role", "img");
     this.addContainer(canvas);
     if (!this._uiManager.useNewAltTextWhenAddingImage || !this._uiManager.useNewAltTextFlow || this.annotationElementId) {
       div.hidden = false;
     }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     this.#drawBitmap(width, height);
     this.#createObserver();
@@ -22340,7 +23901,10 @@ class StampEditor extends AnnotationEditor {
     }
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
   copyCanvas(maxDataDimension, maxPreviewDimension, createImageData = false) {
     if (!maxDataDimension) {
       maxDataDimension = 224;
@@ -22425,13 +23989,19 @@ class StampEditor extends AnnotationEditor {
       imageData
     };
   }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
   #setDimensions(width, height) {
     const [parentWidth, parentHeight] = this.parentDimensions;
     this.width = width / parentWidth;
     this.height = height / parentHeight;
 <<<<<<< HEAD
+<<<<<<< HEAD
     this.setDims(width, height);
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     if (this._initialOptions?.isCentered) {
@@ -22475,6 +24045,7 @@ class StampEditor extends AnnotationEditor {
   }
   #drawBitmap(width, height) {
 <<<<<<< HEAD
+<<<<<<< HEAD
     width = Math.ceil(width);
     height = Math.ceil(height);
     const canvas = this.#canvas;
@@ -22510,6 +24081,8 @@ class StampEditor extends AnnotationEditor {
     ctx.filter = this._uiManager.hcmFilter;
     ctx.drawImage(bitmap, 0, 0, bitmap.width, bitmap.height, 0, 0, width, height);
 =======
+=======
+>>>>>>> upstream/18.0
     const outputScale = new OutputScale();
     const scaledWidth = Math.ceil(width * outputScale.sx);
     const scaledHeight = Math.ceil(height * outputScale.sy);
@@ -22523,6 +24096,9 @@ class StampEditor extends AnnotationEditor {
     const ctx = canvas.getContext("2d");
     ctx.filter = this._uiManager.hcmFilter;
     ctx.drawImage(bitmap, 0, 0, bitmap.width, bitmap.height, 0, 0, scaledWidth, scaledHeight);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
   }
   getImageForAltText() {
@@ -22558,6 +24134,12 @@ class StampEditor extends AnnotationEditor {
   }
   #createObserver() {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    if (!this._uiManager._signal) {
+      return;
+    }
+>>>>>>> upstream/18.0
 =======
     if (!this._uiManager._signal) {
       return;
@@ -22571,6 +24153,7 @@ class StampEditor extends AnnotationEditor {
     });
     this.#observer.observe(this.div);
 <<<<<<< HEAD
+<<<<<<< HEAD
   }
   static deserialize(data, parent, uiManager) {
     if (data instanceof StampAnnotationElement) {
@@ -22580,6 +24163,8 @@ class StampEditor extends AnnotationEditor {
     const {
       rect,
 =======
+=======
+>>>>>>> upstream/18.0
     this._uiManager._signal.addEventListener("abort", () => {
       this.#observer?.disconnect();
       this.#observer = null;
@@ -22631,6 +24216,9 @@ class StampEditor extends AnnotationEditor {
     const {
       rect,
       bitmap,
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
       bitmapUrl,
       bitmapId,
@@ -22640,6 +24228,12 @@ class StampEditor extends AnnotationEditor {
     if (bitmapId && uiManager.imageManager.isValidId(bitmapId)) {
       editor.#bitmapId = bitmapId;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      if (bitmap) {
+        editor.#bitmap = bitmap;
+      }
+>>>>>>> upstream/18.0
 =======
       if (bitmap) {
         editor.#bitmap = bitmap;
@@ -22653,16 +24247,22 @@ class StampEditor extends AnnotationEditor {
     editor.width = (rect[2] - rect[0]) / parentWidth;
     editor.height = (rect[3] - rect[1]) / parentHeight;
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (accessibilityData) {
       editor.altTextData = accessibilityData;
     }
 =======
+=======
+>>>>>>> upstream/18.0
     editor.annotationElementId = data.id || null;
     if (accessibilityData) {
       editor.altTextData = accessibilityData;
     }
     editor._initialData = initialData;
     editor.#hasBeenAddedInUndoStack = !!initialData;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     return editor;
   }
@@ -22671,6 +24271,12 @@ class StampEditor extends AnnotationEditor {
       return null;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    if (this.deleted) {
+      return this.serializeDeleted();
+    }
+>>>>>>> upstream/18.0
 =======
     if (this.deleted) {
       return this.serializeDeleted();
@@ -22688,7 +24294,11 @@ class StampEditor extends AnnotationEditor {
     if (isForCopying) {
       serialized.bitmapUrl = this.#serializeBitmap(true);
 <<<<<<< HEAD
+<<<<<<< HEAD
       serialized.accessibilityData = this.altTextData;
+=======
+      serialized.accessibilityData = this.serializeAltText(true);
+>>>>>>> upstream/18.0
 =======
       serialized.accessibilityData = this.serializeAltText(true);
 >>>>>>> upstream/18.0
@@ -22698,7 +24308,11 @@ class StampEditor extends AnnotationEditor {
       decorative,
       altText
 <<<<<<< HEAD
+<<<<<<< HEAD
     } = this.altTextData;
+=======
+    } = this.serializeAltText(false);
+>>>>>>> upstream/18.0
 =======
     } = this.serializeAltText(false);
 >>>>>>> upstream/18.0
@@ -22709,7 +24323,10 @@ class StampEditor extends AnnotationEditor {
       };
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     if (this.annotationElementId) {
       const changes = this.#hasElementChanged(serialized);
       if (changes.isSame) {
@@ -22722,6 +24339,9 @@ class StampEditor extends AnnotationEditor {
       }
     }
     serialized.id = this.annotationElementId;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     if (context === null) {
       return serialized;
@@ -22745,10 +24365,13 @@ class StampEditor extends AnnotationEditor {
     return serialized;
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 
 ;// CONCATENATED MODULE: ./src/display/editor/annotation_editor_layer.js
 =======
+=======
+>>>>>>> upstream/18.0
   #hasElementChanged(serialized) {
     const {
       rect,
@@ -22774,6 +24397,9 @@ class StampEditor extends AnnotationEditor {
 }
 
 ;// ./src/display/editor/annotation_editor_layer.js
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 
@@ -22787,9 +24413,13 @@ class AnnotationEditorLayer {
   #allowClick = false;
   #annotationLayer = null;
 <<<<<<< HEAD
+<<<<<<< HEAD
   #boundPointerup = null;
   #boundPointerdown = null;
   #boundTextLayerPointerDown = null;
+=======
+  #clickAC = null;
+>>>>>>> upstream/18.0
 =======
   #clickAC = null;
 >>>>>>> upstream/18.0
@@ -22800,6 +24430,10 @@ class AnnotationEditorLayer {
   #isDisabling = false;
   #textLayer = null;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  #textSelectionAC = null;
+>>>>>>> upstream/18.0
 =======
   #textSelectionAC = null;
 >>>>>>> upstream/18.0
@@ -22811,6 +24445,10 @@ class AnnotationEditorLayer {
     pageIndex,
     div,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    structTreeLayer,
+>>>>>>> upstream/18.0
 =======
     structTreeLayer,
 >>>>>>> upstream/18.0
@@ -22838,6 +24476,10 @@ class AnnotationEditorLayer {
     this.#textLayer = textLayer;
     this.drawLayer = drawLayer;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    this._structTree = structTreeLayer;
+>>>>>>> upstream/18.0
 =======
     this._structTree = structTreeLayer;
 >>>>>>> upstream/18.0
@@ -22914,6 +24556,12 @@ class AnnotationEditorLayer {
     this.#uiManager.addCommands(params);
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  toggleDrawing(enabled = false) {
+    this.div.classList.toggle("drawing", !enabled);
+  }
+>>>>>>> upstream/18.0
 =======
   toggleDrawing(enabled = false) {
     this.div.classList.toggle("drawing", !enabled);
@@ -22926,7 +24574,11 @@ class AnnotationEditorLayer {
     this.#annotationLayer?.div.classList.toggle("disabled", !enabled);
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
   enable() {
+=======
+  async enable() {
+>>>>>>> upstream/18.0
 =======
   async enable() {
 >>>>>>> upstream/18.0
@@ -22954,7 +24606,11 @@ class AnnotationEditorLayer {
         continue;
       }
 <<<<<<< HEAD
+<<<<<<< HEAD
       const editor = this.deserialize(editable);
+=======
+      const editor = await this.deserialize(editable);
+>>>>>>> upstream/18.0
 =======
       const editor = await this.deserialize(editable);
 >>>>>>> upstream/18.0
@@ -23005,8 +24661,14 @@ class AnnotationEditorLayer {
         if (editor) {
           this.#uiManager.addChangedExistingAnnotation(editor);
 <<<<<<< HEAD
+<<<<<<< HEAD
           editor.renderAnnotationElement(editable);
           editor.show(false);
+=======
+          if (editor.renderAnnotationElement(editable)) {
+            editor.show(false);
+          }
+>>>>>>> upstream/18.0
 =======
           if (editor.renderAnnotationElement(editable)) {
             editor.show(false);
@@ -23043,16 +24705,22 @@ class AnnotationEditorLayer {
   enableTextSelection() {
     this.div.tabIndex = -1;
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (this.#textLayer?.div && !this.#boundTextLayerPointerDown) {
       this.#boundTextLayerPointerDown = this.#textLayerPointerDown.bind(this);
       this.#textLayer.div.addEventListener("pointerdown", this.#boundTextLayerPointerDown);
 =======
+=======
+>>>>>>> upstream/18.0
     if (this.#textLayer?.div && !this.#textSelectionAC) {
       this.#textSelectionAC = new AbortController();
       const signal = this.#uiManager.combinedSignal(this.#textSelectionAC);
       this.#textLayer.div.addEventListener("pointerdown", this.#textLayerPointerDown.bind(this), {
         signal
       });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
       this.#textLayer.div.classList.add("highlighting");
     }
@@ -23060,9 +24728,15 @@ class AnnotationEditorLayer {
   disableTextSelection() {
     this.div.tabIndex = 0;
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (this.#textLayer?.div && this.#boundTextLayerPointerDown) {
       this.#textLayer.div.removeEventListener("pointerdown", this.#boundTextLayerPointerDown);
       this.#boundTextLayerPointerDown = null;
+=======
+    if (this.#textLayer?.div && this.#textSelectionAC) {
+      this.#textSelectionAC.abort();
+      this.#textSelectionAC = null;
+>>>>>>> upstream/18.0
 =======
     if (this.#textLayer?.div && this.#textSelectionAC) {
       this.#textSelectionAC.abort();
@@ -23074,12 +24748,18 @@ class AnnotationEditorLayer {
   #textLayerPointerDown(event) {
     this.#uiManager.unselectAll();
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (event.target === this.#textLayer.div) {
 =======
+=======
+>>>>>>> upstream/18.0
     const {
       target
     } = event;
     if (target === this.#textLayer.div || (target.getAttribute("role") === "img" || target.classList.contains("endOfContent")) && this.#textLayer.div.contains(target)) {
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
       const {
         isMac
@@ -23090,12 +24770,15 @@ class AnnotationEditorLayer {
       this.#uiManager.showAllEditors("highlight", true, true);
       this.#textLayer.div.classList.add("free");
 <<<<<<< HEAD
+<<<<<<< HEAD
       HighlightEditor.startHighlighting(this, this.#uiManager.direction === "ltr", event);
       this.#textLayer.div.addEventListener("pointerup", () => {
         this.#textLayer.div.classList.remove("free");
       }, {
         once: true
 =======
+=======
+>>>>>>> upstream/18.0
       this.toggleDrawing();
       HighlightEditor.startHighlighting(this, this.#uiManager.direction === "ltr", {
         target: this.#textLayer.div,
@@ -23108,12 +24791,16 @@ class AnnotationEditorLayer {
       }, {
         once: true,
         signal: this.#uiManager._signal
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
       });
       event.preventDefault();
     }
   }
   enableClick() {
+<<<<<<< HEAD
 <<<<<<< HEAD
     if (this.#boundPointerdown) {
       return;
@@ -23132,6 +24819,8 @@ class AnnotationEditorLayer {
     this.#boundPointerdown = null;
     this.#boundPointerup = null;
 =======
+=======
+>>>>>>> upstream/18.0
     if (this.#clickAC) {
       return;
     }
@@ -23147,6 +24836,9 @@ class AnnotationEditorLayer {
   disableClick() {
     this.#clickAC?.abort();
     this.#clickAC = null;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
   }
   attach(editor) {
@@ -23224,7 +24916,12 @@ class AnnotationEditorLayer {
             editor._focusEventsAllowed = true;
           }, {
 <<<<<<< HEAD
+<<<<<<< HEAD
             once: true
+=======
+            once: true,
+            signal: this.#uiManager._signal
+>>>>>>> upstream/18.0
 =======
             once: true,
             signal: this.#uiManager._signal
@@ -23265,6 +24962,12 @@ class AnnotationEditorLayer {
     return AnnotationEditorLayer.#editorTypes.get(this.#uiManager.getMode());
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  combinedSignal(ac) {
+    return this.#uiManager.combinedSignal(ac);
+  }
+>>>>>>> upstream/18.0
 =======
   combinedSignal(ac) {
     return this.#uiManager.combinedSignal(ac);
@@ -23299,8 +25002,13 @@ class AnnotationEditorLayer {
     }
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
   deserialize(data) {
     return AnnotationEditorLayer.#editorTypes.get(data.annotationType ?? data.annotationEditorType)?.deserialize(data, this, this.#uiManager) || null;
+=======
+  async deserialize(data) {
+    return (await AnnotationEditorLayer.#editorTypes.get(data.annotationType ?? data.annotationEditorType)?.deserialize(data, this, this.#uiManager)) || null;
+>>>>>>> upstream/18.0
 =======
   async deserialize(data) {
     return (await AnnotationEditorLayer.#editorTypes.get(data.annotationType ?? data.annotationEditorType)?.deserialize(data, this, this.#uiManager)) || null;
@@ -23351,9 +25059,12 @@ class AnnotationEditorLayer {
     this.#uiManager.toggleSelected(editor);
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
   isSelected(editor) {
     return this.#uiManager.isSelected(editor);
   }
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
   unselect(editor) {
@@ -23482,7 +25193,11 @@ class AnnotationEditorLayer {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;// CONCATENATED MODULE: ./src/display/draw_layer.js
+=======
+;// ./src/display/draw_layer.js
+>>>>>>> upstream/18.0
 =======
 ;// ./src/display/draw_layer.js
 >>>>>>> upstream/18.0
@@ -23550,6 +25265,7 @@ class DrawLayer {
     return clipPathId;
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
   highlight(outlines, color, opacity, isPathUpdatable = false) {
     const id = this.#id++;
     const root = this.#createSVG(outlines.box);
@@ -23558,10 +25274,15 @@ class DrawLayer {
       root.classList.add("free");
     }
 =======
+=======
+>>>>>>> upstream/18.0
   draw(outlines, color, opacity, isPathUpdatable = false) {
     const id = this.#id++;
     const root = this.#createSVG(outlines.box);
     root.classList.add(...outlines.classNamesForDrawing);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     const defs = DrawLayer._svgFactory.createElement("defs");
     root.append(defs);
@@ -23586,15 +25307,21 @@ class DrawLayer {
     };
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
   highlightOutline(outlines) {
     const id = this.#id++;
     const root = this.#createSVG(outlines.box);
     root.classList.add("highlightOutline");
 =======
+=======
+>>>>>>> upstream/18.0
   drawOutline(outlines) {
     const id = this.#id++;
     const root = this.#createSVG(outlines.box);
     root.classList.add(...outlines.classNamesForOutlining);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     const defs = DrawLayer._svgFactory.createElement("defs");
     root.append(defs);
@@ -23606,8 +25333,12 @@ class DrawLayer {
     path.setAttribute("vector-effect", "non-scaling-stroke");
     let maskId;
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (outlines.free) {
       root.classList.add("free");
+=======
+    if (outlines.mustRemoveSelfIntersections) {
+>>>>>>> upstream/18.0
 =======
     if (outlines.mustRemoveSelfIntersections) {
 >>>>>>> upstream/18.0
@@ -23655,10 +25386,13 @@ class DrawLayer {
     path.setAttribute("d", line.toSVGPath());
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
   removeFreeHighlight(id) {
     this.remove(id);
     this.#toUpdate.delete(id);
   }
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
   updatePath(id, line) {
@@ -23686,13 +25420,19 @@ class DrawLayer {
     this.#mapping.get(id).classList.remove(className);
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
   remove(id) {
 =======
+=======
+>>>>>>> upstream/18.0
   getSVGRoot(id) {
     return this.#mapping.get(id);
   }
   remove(id) {
     this.#toUpdate.delete(id);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     if (this.#parent === null) {
       return;
@@ -23707,16 +25447,22 @@ class DrawLayer {
     }
     this.#mapping.clear();
 <<<<<<< HEAD
+<<<<<<< HEAD
   }
 }
 
 ;// CONCATENATED MODULE: ./src/pdf.js
 =======
+=======
+>>>>>>> upstream/18.0
     this.#toUpdate.clear();
   }
 }
 
 ;// ./src/pdf.js
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 
@@ -23731,8 +25477,14 @@ class DrawLayer {
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 const pdfjsVersion = "4.3.136";
 const pdfjsBuild = "0cec64437";
+=======
+
+const pdfjsVersion = "4.8.69";
+const pdfjsBuild = "3634dab10";
+>>>>>>> upstream/18.0
 =======
 
 const pdfjsVersion = "4.8.69";
@@ -23747,7 +25499,10 @@ var __webpack_exports__AnnotationEditorUIManager = __webpack_exports__.Annotatio
 var __webpack_exports__AnnotationLayer = __webpack_exports__.AnnotationLayer;
 var __webpack_exports__AnnotationMode = __webpack_exports__.AnnotationMode;
 <<<<<<< HEAD
+<<<<<<< HEAD
 var __webpack_exports__CMapCompressionType = __webpack_exports__.CMapCompressionType;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 var __webpack_exports__ColorPicker = __webpack_exports__.ColorPicker;
@@ -23760,7 +25515,11 @@ var __webpack_exports__InvalidPDFException = __webpack_exports__.InvalidPDFExcep
 var __webpack_exports__MissingPDFException = __webpack_exports__.MissingPDFException;
 var __webpack_exports__OPS = __webpack_exports__.OPS;
 <<<<<<< HEAD
+<<<<<<< HEAD
 var __webpack_exports__Outliner = __webpack_exports__.Outliner;
+=======
+var __webpack_exports__OutputScale = __webpack_exports__.OutputScale;
+>>>>>>> upstream/18.0
 =======
 var __webpack_exports__OutputScale = __webpack_exports__.OutputScale;
 >>>>>>> upstream/18.0
@@ -23788,6 +25547,7 @@ var __webpack_exports__isPdfFile = __webpack_exports__.isPdfFile;
 var __webpack_exports__noContextMenu = __webpack_exports__.noContextMenu;
 var __webpack_exports__normalizeUnicode = __webpack_exports__.normalizeUnicode;
 <<<<<<< HEAD
+<<<<<<< HEAD
 var __webpack_exports__renderTextLayer = __webpack_exports__.renderTextLayer;
 var __webpack_exports__setLayerDimensions = __webpack_exports__.setLayerDimensions;
 var __webpack_exports__shadow = __webpack_exports__.shadow;
@@ -23797,10 +25557,16 @@ export { __webpack_exports__AbortException as AbortException, __webpack_exports_
 
 //# sourceMappingURL=pdf.js.map
 =======
+=======
+>>>>>>> upstream/18.0
 var __webpack_exports__setLayerDimensions = __webpack_exports__.setLayerDimensions;
 var __webpack_exports__shadow = __webpack_exports__.shadow;
 var __webpack_exports__version = __webpack_exports__.version;
 export { __webpack_exports__AbortException as AbortException, __webpack_exports__AnnotationEditorLayer as AnnotationEditorLayer, __webpack_exports__AnnotationEditorParamsType as AnnotationEditorParamsType, __webpack_exports__AnnotationEditorType as AnnotationEditorType, __webpack_exports__AnnotationEditorUIManager as AnnotationEditorUIManager, __webpack_exports__AnnotationLayer as AnnotationLayer, __webpack_exports__AnnotationMode as AnnotationMode, __webpack_exports__ColorPicker as ColorPicker, __webpack_exports__DOMSVGFactory as DOMSVGFactory, __webpack_exports__DrawLayer as DrawLayer, __webpack_exports__FeatureTest as FeatureTest, __webpack_exports__GlobalWorkerOptions as GlobalWorkerOptions, __webpack_exports__ImageKind as ImageKind, __webpack_exports__InvalidPDFException as InvalidPDFException, __webpack_exports__MissingPDFException as MissingPDFException, __webpack_exports__OPS as OPS, __webpack_exports__OutputScale as OutputScale, __webpack_exports__PDFDataRangeTransport as PDFDataRangeTransport, __webpack_exports__PDFDateString as PDFDateString, __webpack_exports__PDFWorker as PDFWorker, __webpack_exports__PasswordResponses as PasswordResponses, __webpack_exports__PermissionFlag as PermissionFlag, __webpack_exports__PixelsPerInch as PixelsPerInch, __webpack_exports__RenderingCancelledException as RenderingCancelledException, __webpack_exports__TextLayer as TextLayer, __webpack_exports__UnexpectedResponseException as UnexpectedResponseException, __webpack_exports__Util as Util, __webpack_exports__VerbosityLevel as VerbosityLevel, __webpack_exports__XfaLayer as XfaLayer, __webpack_exports__build as build, __webpack_exports__createValidAbsoluteUrl as createValidAbsoluteUrl, __webpack_exports__fetchData as fetchData, __webpack_exports__getDocument as getDocument, __webpack_exports__getFilenameFromUrl as getFilenameFromUrl, __webpack_exports__getPdfFilenameFromUrl as getPdfFilenameFromUrl, __webpack_exports__getXfaPageViewport as getXfaPageViewport, __webpack_exports__isDataScheme as isDataScheme, __webpack_exports__isPdfFile as isPdfFile, __webpack_exports__noContextMenu as noContextMenu, __webpack_exports__normalizeUnicode as normalizeUnicode, __webpack_exports__setLayerDimensions as setLayerDimensions, __webpack_exports__shadow as shadow, __webpack_exports__version as version };
 
+<<<<<<< HEAD
+//# sourceMappingURL=pdf.mjs.map
+>>>>>>> upstream/18.0
+=======
 //# sourceMappingURL=pdf.mjs.map
 >>>>>>> upstream/18.0

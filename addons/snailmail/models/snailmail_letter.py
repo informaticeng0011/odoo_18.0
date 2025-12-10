@@ -130,7 +130,10 @@ class SnailmailLetter(models.Model):
         return res
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def _generate_report_pdf(self, report):
         obj = self.env[self.model].browse(self.res_id)
         if report.print_report_name:
@@ -143,6 +146,9 @@ class SnailmailLetter(models.Model):
         pdf_bin = self.env['ir.actions.report'].with_context(snailmail_layout=not self.cover, lang='en_US')._render_qweb_pdf(report, self.res_id)[0]
         return filename, pdf_bin
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def _fetch_attachment(self):
         """
@@ -151,7 +157,10 @@ class SnailmailLetter(models.Model):
         """
         self.ensure_one()
 <<<<<<< HEAD
+<<<<<<< HEAD
         obj = self.env[self.model].browse(self.res_id)
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         if not self.attachment_id:
@@ -164,6 +173,7 @@ class SnailmailLetter(models.Model):
                 else:
                     self.write({'report_template': report.id})
 <<<<<<< HEAD
+<<<<<<< HEAD
             if report.print_report_name:
                 report_name = safe_eval(report.print_report_name, {'object': obj})
             elif report.attachment:
@@ -171,6 +181,8 @@ class SnailmailLetter(models.Model):
             else:
                 report_name = 'Document'
             filename = "%s.%s" % (report_name, "pdf")
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             paperformat = report.get_paperformat()
@@ -184,8 +196,14 @@ class SnailmailLetter(models.Model):
             }:
                 self.company_id.external_report_layout_id = self.env.ref('web.external_layout_standard')
 <<<<<<< HEAD
+<<<<<<< HEAD
             pdf_bin, unused_filetype = self.env['ir.actions.report'].with_context(snailmail_layout=not self.cover, lang='en_US')._render_qweb_pdf(report, self.res_id)
             self.company_id.external_report_layout_id = prev
+=======
+            filename, pdf_bin = self._generate_report_pdf(report)
+            self.company_id.external_report_layout_id = prev
+
+>>>>>>> upstream/18.0
 =======
             filename, pdf_bin = self._generate_report_pdf(report)
             self.company_id.external_report_layout_id = prev

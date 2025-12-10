@@ -106,7 +106,10 @@ pdfjs-document-properties-file-name = 文件名:
 pdfjs-document-properties-file-size = 文件大小:
 # Variables:
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #   $kb (Number) - the PDF file size in kilobytes
 #   $b (Number) - the PDF file size in bytes
 pdfjs-document-properties-size-kb = { NUMBER($kb, maximumSignificantDigits: 3) } KB（{ $b } 字节）
@@ -115,6 +118,9 @@ pdfjs-document-properties-size-kb = { NUMBER($kb, maximumSignificantDigits: 3) }
 #   $b (Number) - the PDF file size in bytes
 pdfjs-document-properties-size-mb = { NUMBER($mb, maximumSignificantDigits: 3) } MB（{ $b } 字节）
 # Variables:
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #   $size_kb (Number) - the PDF file size in kilobytes
 #   $size_b (Number) - the PDF file size in bytes
@@ -131,6 +137,12 @@ pdfjs-document-properties-creation-date = 创建日期:
 pdfjs-document-properties-modification-date = 修改日期:
 # Variables:
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#   $dateObj (Date) - the creation/modification date and time of the PDF file
+pdfjs-document-properties-date-time-string = { DATETIME($dateObj, dateStyle: "short", timeStyle: "medium") }
+# Variables:
+>>>>>>> upstream/18.0
 =======
 #   $dateObj (Date) - the creation/modification date and time of the PDF file
 pdfjs-document-properties-date-time-string = { DATETIME($dateObj, dateStyle: "short", timeStyle: "medium") }
@@ -285,6 +297,12 @@ pdfjs-annotation-date-string = { $date }，{ $time }
 pdfjs-text-annotation-type =
     .alt = [{ $type } 注释]
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Variables:
+#   $dateObj (Date) - the modification date and time of the annotation
+pdfjs-annotation-date-time-string = { DATETIME($dateObj, dateStyle: "short", timeStyle: "medium") }
+>>>>>>> upstream/18.0
 =======
 # Variables:
 #   $dateObj (Date) - the modification date and time of the annotation
@@ -314,8 +332,11 @@ pdfjs-editor-highlight-button =
     .title = 高亮
 pdfjs-editor-highlight-button-label = 高亮
 <<<<<<< HEAD
+<<<<<<< HEAD
 pdfjs-highlight-floating-button =
     .title = 高亮
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 pdfjs-highlight-floating-button1 =
@@ -387,7 +408,10 @@ pdfjs-editor-resizer-label-bottom-middle = 调整大小 - 底部中间
 pdfjs-editor-resizer-label-bottom-left = 调整尺寸 - 左下角
 pdfjs-editor-resizer-label-middle-left = 调整尺寸 - 左侧中间
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 pdfjs-editor-resizer-top-left =
     .aria-label = 调整尺寸 - 左上角
 pdfjs-editor-resizer-top-middle =
@@ -404,6 +428,9 @@ pdfjs-editor-resizer-bottom-left =
     .aria-label = 调整尺寸 - 左下角
 pdfjs-editor-resizer-middle-left =
     .aria-label = 调整尺寸 - 左侧中间
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 ## Color picker
@@ -432,7 +459,10 @@ pdfjs-editor-highlight-show-all-button-label = 显示全部
 pdfjs-editor-highlight-show-all-button =
     .title = 显示全部
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 ## New alt-text dialog
 ## Group note for entire feature: Alternative text (alt text) helps when people can't see the image. This feature includes a tool to create alt text automatically using an AI model that works locally on the user's device to preserve privacy.
@@ -490,4 +520,7 @@ pdfjs-editor-alt-text-settings-editor-title = 替换文字编辑器
 pdfjs-editor-alt-text-settings-show-dialog-button-label = 添加图像后立即显示替换文字编辑器
 pdfjs-editor-alt-text-settings-show-dialog-description = 帮助确保所有图像均拥有替换文字。
 pdfjs-editor-alt-text-settings-close-button = 关闭
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

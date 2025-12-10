@@ -52,12 +52,15 @@ pdfjs-bookmark-button =
     .title = მიმდინარე გვერდი (ბმული ამ გვერდისთვის)
 pdfjs-bookmark-button-label = მიმდინარე გვერდი
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Used in Firefox for Android.
 pdfjs-open-in-app-button =
     .title = გახსნა პროგრამით
 # Used in Firefox for Android.
 # Length of the translation matters since we are in a mobile context, with limited screen estate.
 pdfjs-open-in-app-button-label = გახსნა პროგრამით
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -305,8 +308,11 @@ pdfjs-editor-stamp-button =
     .title = სურათების დართვა ან ჩასწორება
 pdfjs-editor-stamp-button-label = სურათების დართვა ან ჩასწორება
 <<<<<<< HEAD
+<<<<<<< HEAD
 pdfjs-editor-remove-button =
     .title = მოცილება
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 pdfjs-editor-highlight-button =
@@ -373,7 +379,10 @@ pdfjs-editor-resizer-label-bottom-middle = ქვევით შუაში �
 pdfjs-editor-resizer-label-bottom-left = ზვევით მარცხნივ — ზომაცვლა
 pdfjs-editor-resizer-label-middle-left = შუაში მარცხნივ — ზომაცვლა
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 pdfjs-editor-resizer-top-left =
     .aria-label = ზევით მარცხნივ — ზომაცვლა
 pdfjs-editor-resizer-top-middle =
@@ -390,6 +399,9 @@ pdfjs-editor-resizer-bottom-left =
     .aria-label = ზვევით მარცხნივ — ზომაცვლა
 pdfjs-editor-resizer-middle-left =
     .aria-label = შუაში მარცხნივ — ზომაცვლა
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 ## Color picker
@@ -411,7 +423,10 @@ pdfjs-editor-colorpicker-pink =
 pdfjs-editor-colorpicker-red =
     .title = წითელი
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 ## Show all highlights
 ## This is a toggle button to show/hide all the highlights.
@@ -423,4 +438,7 @@ pdfjs-editor-colorpicker-red =
 
 ## Image alt-text settings
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

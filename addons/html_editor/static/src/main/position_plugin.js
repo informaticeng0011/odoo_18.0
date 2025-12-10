@@ -4,8 +4,13 @@ import { throttleForAnimation } from "@web/core/utils/timing";
 import { couldBeScrollableX, couldBeScrollableY } from "@web/core/utils/scrolling";
 
 /**
+<<<<<<< HEAD
  * This plugins provides a way to create a "local" overlays so that their
  * visibility is relative to the overflow of their ancestors.
+=======
+ * This plugin broadcasts layout/geometry changes to other plugins when
+ * scrolling, resizing, or history changes occur.
+>>>>>>> upstream/18.0
  */
 export class PositionPlugin extends Plugin {
     static id = "position";

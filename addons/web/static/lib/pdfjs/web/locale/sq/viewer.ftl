@@ -97,7 +97,10 @@ pdfjs-document-properties-file-name = Emër kartele:
 pdfjs-document-properties-file-size = Madhësi kartele:
 # Variables:
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #   $kb (Number) - the PDF file size in kilobytes
 #   $b (Number) - the PDF file size in bytes
 pdfjs-document-properties-size-kb = { NUMBER($kb, maximumSignificantDigits: 3) } KB ({ $b } bajte)
@@ -106,6 +109,9 @@ pdfjs-document-properties-size-kb = { NUMBER($kb, maximumSignificantDigits: 3) }
 #   $b (Number) - the PDF file size in bytes
 pdfjs-document-properties-size-mb = { NUMBER($mb, maximumSignificantDigits: 3) } MB ({ $b } bajte)
 # Variables:
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #   $size_kb (Number) - the PDF file size in kilobytes
 #   $size_b (Number) - the PDF file size in bytes
@@ -301,8 +307,11 @@ pdfjs-editor-highlight-button =
     .title = Theksim
 pdfjs-editor-highlight-button-label = Theksoje
 <<<<<<< HEAD
+<<<<<<< HEAD
 pdfjs-highlight-floating-button =
     .title = Theksim
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 pdfjs-highlight-floating-button1 =
@@ -374,7 +383,10 @@ pdfjs-editor-resizer-label-bottom-middle = Mesi i pjesës poshtë — ripërmaso
 pdfjs-editor-resizer-label-bottom-left = Cepi i poshtëm — ripërmasojeni
 pdfjs-editor-resizer-label-middle-left = Majtas në mes — ripërmasojeni
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 pdfjs-editor-resizer-top-left =
     .aria-label = Cepi i sipërm majtas — ripërmasojeni
 pdfjs-editor-resizer-top-middle =
@@ -391,6 +403,9 @@ pdfjs-editor-resizer-bottom-left =
     .aria-label = Cepi i poshtëm — ripërmasojeni
 pdfjs-editor-resizer-middle-left =
     .aria-label = Majtas në mes — ripërmasojeni
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 ## Color picker
@@ -419,7 +434,10 @@ pdfjs-editor-highlight-show-all-button-label = Shfaqi krejt
 pdfjs-editor-highlight-show-all-button =
     .title = Shfaqi krejt
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 ## New alt-text dialog
 ## Group note for entire feature: Alternative text (alt text) helps when people can't see the image. This feature includes a tool to create alt text automatically using an AI model that works locally on the user's device to preserve privacy.
@@ -477,4 +495,7 @@ pdfjs-editor-alt-text-settings-editor-title = Përpunues teksti alternativ
 pdfjs-editor-alt-text-settings-show-dialog-button-label = Shfaq menjëherë përpunues teksti alternativ, kur shtohet një figurë
 pdfjs-editor-alt-text-settings-show-dialog-description = Ju ndihmon të siguroheni se krejt figurat tuaja kanë tekst alternativ.
 pdfjs-editor-alt-text-settings-close-button = Mbylle
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

@@ -115,6 +115,10 @@ class TestConfigManager(TransactionCase):
             'dev_mode': [],
             'shell_interface': None,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'skip_auto_install': False,
+>>>>>>> upstream/18.0
 =======
             'skip_auto_install': False,
 >>>>>>> upstream/18.0
@@ -240,6 +244,10 @@ class TestConfigManager(TransactionCase):
             'dev_mode': [],  # blacklist for save, ignored from the config file
             'shell_interface': 'ipython',  # blacklist for save, read from the config file
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'skip_auto_install': False,
+>>>>>>> upstream/18.0
 =======
             'skip_auto_install': False,
 >>>>>>> upstream/18.0
@@ -364,6 +372,10 @@ class TestConfigManager(TransactionCase):
             'save': None,
             'shell_interface': None,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'skip_auto_install': False,
+>>>>>>> upstream/18.0
 =======
             'skip_auto_install': False,
 >>>>>>> upstream/18.0
@@ -519,6 +531,10 @@ class TestConfigManager(TransactionCase):
             'dev_mode': ['xml', 'reload'],
             'shell_interface': 'ipython',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'skip_auto_install': False,
+>>>>>>> upstream/18.0
 =======
             'skip_auto_install': False,
 >>>>>>> upstream/18.0
