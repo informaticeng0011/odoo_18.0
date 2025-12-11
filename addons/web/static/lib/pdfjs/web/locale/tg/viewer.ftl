@@ -107,7 +107,10 @@ pdfjs-document-properties-file-size = Андозаи файл:
 # Variables:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #   $kb (Number) - the PDF file size in kilobytes
@@ -119,6 +122,9 @@ pdfjs-document-properties-size-kb = { NUMBER($kb, maximumSignificantDigits: 3) }
 pdfjs-document-properties-size-mb = { NUMBER($mb, maximumSignificantDigits: 3) } МБ ({ $b } байт)
 # Variables:
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -138,6 +144,12 @@ pdfjs-document-properties-modification-date = Санаи тағйирот:
 # Variables:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#   $dateObj (Date) - the creation/modification date and time of the PDF file
+pdfjs-document-properties-date-time-string = { DATETIME($dateObj, dateStyle: "short", timeStyle: "medium") }
+# Variables:
+>>>>>>> upstream/18.0
 =======
 #   $dateObj (Date) - the creation/modification date and time of the PDF file
 pdfjs-document-properties-date-time-string = { DATETIME($dateObj, dateStyle: "short", timeStyle: "medium") }
@@ -306,6 +318,12 @@ pdfjs-text-annotation-type =
     .alt = [Ҳошиянависӣ - { $type }]
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Variables:
+#   $dateObj (Date) - the modification date and time of the annotation
+pdfjs-annotation-date-time-string = { DATETIME($dateObj, dateStyle: "short", timeStyle: "medium") }
+>>>>>>> upstream/18.0
 =======
 # Variables:
 #   $dateObj (Date) - the modification date and time of the annotation
@@ -341,8 +359,11 @@ pdfjs-editor-highlight-button =
 pdfjs-editor-highlight-button-label = Ҷудокунӣ
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 pdfjs-highlight-floating-button =
     .title = Ҷудокунӣ
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -391,8 +412,13 @@ pdfjs-ink-canvas =
 # Alternative text (alt text) helps when people can't see the image.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 pdfjs-editor-alt-text-button-label = Матни ивазкунанда
 pdfjs-editor-alt-text-edit-button-label = Таҳрир кардани матни ивазкунанда
+=======
+pdfjs-editor-alt-text-button-label = Матни иловагӣ
+pdfjs-editor-alt-text-edit-button-label = Таҳрир кардани матни иловагӣ
+>>>>>>> upstream/18.0
 =======
 pdfjs-editor-alt-text-button-label = Матни иловагӣ
 pdfjs-editor-alt-text-edit-button-label = Таҳрир кардани матни иловагӣ
@@ -427,7 +453,10 @@ pdfjs-editor-resizer-label-bottom-left = Кунҷи чапи поён — тағ
 pdfjs-editor-resizer-label-middle-left = Канори миёнаи чап — тағйир додани андоза
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 pdfjs-editor-resizer-top-left =
@@ -447,6 +476,9 @@ pdfjs-editor-resizer-bottom-left =
 pdfjs-editor-resizer-middle-left =
     .aria-label = Канори миёнаи чап — тағйир додани андоза
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -478,7 +510,10 @@ pdfjs-editor-highlight-show-all-button =
     .title = Ҳамаро намоиш додан
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -522,6 +557,9 @@ pdfjs-editor-alt-text-settings-downloading-model-button = Дар ҳоли бор
 pdfjs-editor-alt-text-settings-editor-title = Муҳаррири матни иловагӣ
 pdfjs-editor-alt-text-settings-close-button = Пӯшидан
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

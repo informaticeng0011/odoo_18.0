@@ -256,8 +256,14 @@ export const getOrderChanges = (order, skipped = false, orderPreparationCategori
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         (sittingMode !== "dine in" && !order.takeaway) ||
         (sittingMode !== "takeaway" && order.takeaway)
+=======
+        Object.keys(order.last_order_preparation_change.lines).length &&
+        ((sittingMode !== "dine in" && !order.takeaway) ||
+            (sittingMode !== "takeaway" && order.takeaway))
+>>>>>>> upstream/18.0
 =======
         Object.keys(order.last_order_preparation_change.lines).length &&
         ((sittingMode !== "dine in" && !order.takeaway) ||

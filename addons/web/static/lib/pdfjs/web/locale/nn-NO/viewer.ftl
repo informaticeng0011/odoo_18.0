@@ -53,12 +53,15 @@ pdfjs-bookmark-button =
 pdfjs-bookmark-button-label = Gjeldande side
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Used in Firefox for Android.
 pdfjs-open-in-app-button =
     .title = Opne i app
 # Used in Firefox for Android.
 # Length of the translation matters since we are in a mobile context, with limited screen estate.
 pdfjs-open-in-app-button-label = Opne i app
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -119,7 +122,10 @@ pdfjs-document-properties-file-size = Filstorleik:
 # Variables:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #   $kb (Number) - the PDF file size in kilobytes
@@ -131,6 +137,9 @@ pdfjs-document-properties-size-kb = { NUMBER($kb, maximumSignificantDigits: 3) }
 pdfjs-document-properties-size-mb = { NUMBER($mb, maximumSignificantDigits: 3) } MB ({ $b } byte)
 # Variables:
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -150,6 +159,12 @@ pdfjs-document-properties-modification-date = Dato endra:
 # Variables:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#   $dateObj (Date) - the creation/modification date and time of the PDF file
+pdfjs-document-properties-date-time-string = { DATETIME($dateObj, dateStyle: "short", timeStyle: "medium") }
+# Variables:
+>>>>>>> upstream/18.0
 =======
 #   $dateObj (Date) - the creation/modification date and time of the PDF file
 pdfjs-document-properties-date-time-string = { DATETIME($dateObj, dateStyle: "short", timeStyle: "medium") }
@@ -172,8 +187,13 @@ pdfjs-document-properties-page-size-unit-inches = in
 pdfjs-document-properties-page-size-unit-millimeters = mm
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 pdfjs-document-properties-page-size-orientation-portrait = ståande
 pdfjs-document-properties-page-size-orientation-landscape = liggande
+=======
+pdfjs-document-properties-page-size-orientation-portrait = ståande (portrait)
+pdfjs-document-properties-page-size-orientation-landscape = liggande (landscape)
+>>>>>>> upstream/18.0
 =======
 pdfjs-document-properties-page-size-orientation-portrait = ståande (portrait)
 pdfjs-document-properties-page-size-orientation-landscape = liggande (landscape)
@@ -328,6 +348,12 @@ pdfjs-text-annotation-type =
     .alt = [{ $type } annotasjon]
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Variables:
+#   $dateObj (Date) - the modification date and time of the annotation
+pdfjs-annotation-date-time-string = { DATETIME($dateObj, dateStyle: "short", timeStyle: "medium") }
+>>>>>>> upstream/18.0
 =======
 # Variables:
 #   $dateObj (Date) - the modification date and time of the annotation
@@ -360,10 +386,13 @@ pdfjs-editor-stamp-button =
 pdfjs-editor-stamp-button-label = Legg til eller rediger bilde
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 ## Remove button for the various kind of editor.
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 pdfjs-editor-highlight-button =
@@ -385,6 +414,9 @@ pdfjs-editor-remove-stamp-button =
 pdfjs-editor-remove-highlight-button =
     .title = Fjern utheving
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -402,7 +434,10 @@ pdfjs-editor-stamp-add-image-button =
 pdfjs-editor-stamp-add-image-button-label = Legg til bilde
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 # This refers to the thickness of the line used for free highlighting (not bound to text)
@@ -410,6 +445,9 @@ pdfjs-editor-free-highlight-thickness-input = Tjukkleik
 pdfjs-editor-free-highlight-thickness-title =
     .title = Endre tjukn når du markerer andre element enn tekst
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -444,10 +482,13 @@ pdfjs-editor-alt-text-textarea =
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 ## Color picker
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 pdfjs-editor-resizer-label-top-left = Øvste venstre hjørne – endre størrelse
@@ -484,6 +525,9 @@ pdfjs-editor-colorpicker-button =
 pdfjs-editor-colorpicker-dropdown =
     .aria-label = Fargeval
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -499,7 +543,10 @@ pdfjs-editor-colorpicker-red =
     .title = Raud
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -567,6 +614,9 @@ pdfjs-editor-alt-text-settings-show-dialog-button-label = Vis alternativ tekst-r
 pdfjs-editor-alt-text-settings-show-dialog-description = Hjelper deg med å sørgje for at alle bilda dine har alternativ tekst.
 pdfjs-editor-alt-text-settings-close-button = Lat att
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

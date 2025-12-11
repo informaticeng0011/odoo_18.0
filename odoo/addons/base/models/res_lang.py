@@ -160,7 +160,10 @@ class Lang(models.Model):
         return lang
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def _activate_and_install_lang(self, code):
         """ Activate languages and update their translations
         :param code: code of the language to activate
@@ -171,6 +174,9 @@ class Lang(models.Model):
             lang.toggle_active()
         return lang
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def _create_lang(self, lang, lang_name=None):
         """ Create the given language and make it active. """

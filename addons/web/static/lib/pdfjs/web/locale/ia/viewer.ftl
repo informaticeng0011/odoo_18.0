@@ -107,7 +107,10 @@ pdfjs-document-properties-file-size = Dimension de file:
 # Variables:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #   $kb (Number) - the PDF file size in kilobytes
@@ -119,6 +122,9 @@ pdfjs-document-properties-size-kb = { NUMBER($kb, maximumSignificantDigits: 3) }
 pdfjs-document-properties-size-mb = { NUMBER($mb, maximumSignificantDigits: 3) } MB ({ $b } bytes)
 # Variables:
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -138,6 +144,12 @@ pdfjs-document-properties-modification-date = Data de modification:
 # Variables:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#   $dateObj (Date) - the creation/modification date and time of the PDF file
+pdfjs-document-properties-date-time-string = { DATETIME($dateObj, dateStyle: "short", timeStyle: "medium") }
+# Variables:
+>>>>>>> upstream/18.0
 =======
 #   $dateObj (Date) - the creation/modification date and time of the PDF file
 pdfjs-document-properties-date-time-string = { DATETIME($dateObj, dateStyle: "short", timeStyle: "medium") }
@@ -306,6 +318,12 @@ pdfjs-text-annotation-type =
     .alt = [{ $type } Annotation]
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Variables:
+#   $dateObj (Date) - the modification date and time of the annotation
+pdfjs-annotation-date-time-string = { DATETIME($dateObj, dateStyle: "short", timeStyle: "medium") }
+>>>>>>> upstream/18.0
 =======
 # Variables:
 #   $dateObj (Date) - the modification date and time of the annotation
@@ -409,7 +427,10 @@ pdfjs-editor-resizer-label-bottom-left = Angulo inferior sinistre — redimensio
 pdfjs-editor-resizer-label-middle-left = Medio sinistre — redimensionar
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 pdfjs-editor-resizer-top-left =
@@ -429,6 +450,9 @@ pdfjs-editor-resizer-bottom-left =
 pdfjs-editor-resizer-middle-left =
     .aria-label = Medio sinistre — redimensionar
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -460,7 +484,10 @@ pdfjs-editor-highlight-show-all-button =
     .title = Monstrar toto
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -521,6 +548,9 @@ pdfjs-editor-alt-text-settings-show-dialog-button-label = Monstrar le redactor d
 pdfjs-editor-alt-text-settings-show-dialog-description = Te adjuta a verifica que tote tu imagines ha un texto alternative.
 pdfjs-editor-alt-text-settings-close-button = Clauder
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

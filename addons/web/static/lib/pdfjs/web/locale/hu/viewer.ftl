@@ -107,7 +107,10 @@ pdfjs-document-properties-file-size = Fájlméret:
 # Variables:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #   $kb (Number) - the PDF file size in kilobytes
@@ -119,6 +122,9 @@ pdfjs-document-properties-size-kb = { NUMBER($kb, maximumSignificantDigits: 3) }
 pdfjs-document-properties-size-mb = { NUMBER($mb, maximumSignificantDigits: 3) } MB ({ $b } bájt)
 # Variables:
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -138,6 +144,12 @@ pdfjs-document-properties-modification-date = Módosítás dátuma:
 # Variables:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#   $dateObj (Date) - the creation/modification date and time of the PDF file
+pdfjs-document-properties-date-time-string = { DATETIME($dateObj, dateStyle: "short", timeStyle: "medium") }
+# Variables:
+>>>>>>> upstream/18.0
 =======
 #   $dateObj (Date) - the creation/modification date and time of the PDF file
 pdfjs-document-properties-date-time-string = { DATETIME($dateObj, dateStyle: "short", timeStyle: "medium") }
@@ -306,6 +318,12 @@ pdfjs-text-annotation-type =
     .alt = [{ $type } megjegyzés]
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Variables:
+#   $dateObj (Date) - the modification date and time of the annotation
+pdfjs-annotation-date-time-string = { DATETIME($dateObj, dateStyle: "short", timeStyle: "medium") }
+>>>>>>> upstream/18.0
 =======
 # Variables:
 #   $dateObj (Date) - the modification date and time of the annotation
@@ -341,8 +359,11 @@ pdfjs-editor-highlight-button =
 pdfjs-editor-highlight-button-label = Kiemelés
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 pdfjs-highlight-floating-button =
     .title = Kiemelés
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -417,7 +438,10 @@ pdfjs-editor-resizer-label-bottom-left = Bal alsó sarok – átméretezés
 pdfjs-editor-resizer-label-middle-left = Balra középen – átméretezés
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 pdfjs-editor-resizer-top-left =
@@ -437,6 +461,9 @@ pdfjs-editor-resizer-bottom-left =
 pdfjs-editor-resizer-middle-left =
     .aria-label = Balra középen – átméretezés
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -468,7 +495,10 @@ pdfjs-editor-highlight-show-all-button =
     .title = Összes megjelenítése
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -529,6 +559,9 @@ pdfjs-editor-alt-text-settings-show-dialog-button-label = Az alternatív szöveg
 pdfjs-editor-alt-text-settings-show-dialog-description = Segít elérni, hogy az összes képén legyen alternatív szöveg.
 pdfjs-editor-alt-text-settings-close-button = Bezárás
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

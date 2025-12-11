@@ -61,6 +61,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { describe, expect, test } from "@odoo/hoot";
 import { mockFetch } from "@odoo/hoot-mock";
 =======
@@ -246,6 +247,8 @@ import { describe, expect, mockFetch, test } from "@odoo/hoot";
 import { parseUrl } from "../local_helpers";
 
 =======
+=======
+>>>>>>> upstream/18.0
 import { after, describe, expect, mockFetch, test } from "@odoo/hoot";
 import { parseUrl } from "../local_helpers";
 
@@ -258,6 +261,9 @@ function createObjectURL(obj) {
     return url;
 }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 describe(parseUrl(import.meta.url), () => {
     test("setup network values", async () => {
@@ -275,6 +281,7 @@ describe(parseUrl(import.meta.url), () => {
         expect(document.title).toBe("");
     });
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     test("fetch should not mock internal URLs", async () => {
         mockFetch(expect.step);
@@ -354,6 +361,8 @@ describe(parseUrl(import.meta.url), () => {
 
         expect.verifySteps(["http://some.url", "/odoo"]);
 =======
+=======
+>>>>>>> upstream/18.0
     test("fetch with internal URLs works without mocking fetch", async () => {
         const blob = new Blob([JSON.stringify({ name: "coucou" })], {
             type: "application/json",
@@ -380,6 +389,9 @@ describe(parseUrl(import.meta.url), () => {
         expect(data).toBe("<body></body>");
 
         expect.verifySteps(["http://some.url", "/odoo", "data:text/html,<body></body>"]);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     });
 
@@ -390,8 +402,12 @@ describe(parseUrl(import.meta.url), () => {
             type: "application/json",
         });
 <<<<<<< HEAD
+<<<<<<< HEAD
         const blobUrl = URL.createObjectURL(blob);
 
+=======
+        const blobUrl = createObjectURL(blob);
+>>>>>>> upstream/18.0
 =======
         const blobUrl = createObjectURL(blob);
 >>>>>>> upstream/18.0
@@ -413,7 +429,11 @@ describe(parseUrl(import.meta.url), () => {
             type: "application/json",
         });
 <<<<<<< HEAD
+<<<<<<< HEAD
         const blobUrl = URL.createObjectURL(blob);
+=======
+        const blobUrl = createObjectURL(blob);
+>>>>>>> upstream/18.0
 =======
         const blobUrl = createObjectURL(blob);
 >>>>>>> upstream/18.0
@@ -552,6 +572,9 @@ describe(parseUrl(import.meta.url), () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

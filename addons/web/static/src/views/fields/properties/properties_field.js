@@ -174,7 +174,10 @@ import { useBus, useService } from "@web/core/utils/hooks";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { pick } from "@web/core/utils/objects";
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -887,8 +890,14 @@ export class PropertiesField extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const propertiesValues = this.props.record.data[this.props.name] || [];
         return propertiesValues.filter((definition) => !definition.definition_deleted);
+=======
+        return (this.props.record.data[this.props.name] || [])
+            .filter((definition) => !definition.definition_deleted)
+            .map((definition) => ({ ...definition }));
+>>>>>>> upstream/18.0
 =======
         return (this.props.record.data[this.props.name] || [])
             .filter((definition) => !definition.definition_deleted)
@@ -2230,6 +2239,7 @@ export class PropertiesField extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             // remove all other keys
             propertyDefinition = pick(
                 propertyDefinition,
@@ -2239,6 +2249,8 @@ export class PropertiesField extends Component {
                 "type"
             );
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2745,6 +2757,9 @@ export class PropertiesField extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

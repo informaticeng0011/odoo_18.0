@@ -106,7 +106,10 @@ pdfjs-document-properties-file-name = Nome file:
 pdfjs-document-properties-file-size = Dimensione file:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #   $kb (Number) - the PDF file size in kilobytes
@@ -116,6 +119,9 @@ pdfjs-document-properties-size-kb = { NUMBER($kb, maximumSignificantDigits: 3) }
 #   $b (Number) - the PDF file size in bytes
 pdfjs-document-properties-size-mb = { NUMBER($mb, maximumSignificantDigits: 3) } MB ({ $b } byte)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -135,6 +141,10 @@ pdfjs-document-properties-creation-date = Data creazione:
 pdfjs-document-properties-modification-date = Data modifica:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+pdfjs-document-properties-date-time-string = { DATETIME($dateObj, dateStyle: "short", timeStyle: "medium") }
+>>>>>>> upstream/18.0
 =======
 pdfjs-document-properties-date-time-string = { DATETIME($dateObj, dateStyle: "short", timeStyle: "medium") }
 >>>>>>> upstream/18.0
@@ -245,7 +255,10 @@ pdfjs-find-reached-top = Raggiunto l’inizio della pagina, continua dalla fine
 pdfjs-find-reached-bottom = Raggiunta la fine della pagina, continua dall’inizio
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -260,7 +273,10 @@ pdfjs-find-match-count =
     }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -274,7 +290,10 @@ pdfjs-find-match-count-limit =
     }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -321,6 +340,10 @@ pdfjs-text-annotation-type =
     .alt = [Annotazione: { $type }]
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+pdfjs-annotation-date-time-string = { DATETIME($dateObj, dateStyle: "short", timeStyle: "medium") }
+>>>>>>> upstream/18.0
 =======
 pdfjs-annotation-date-time-string = { DATETIME($dateObj, dateStyle: "short", timeStyle: "medium") }
 >>>>>>> upstream/18.0
@@ -383,7 +406,10 @@ pdfjs-editor-free-highlight-thickness-title =
     .title = Modifica lo spessore della selezione per elementi non testuali
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -427,7 +453,10 @@ pdfjs-editor-resizer-label-bottom-left = Angolo in basso a sinistra — ridimens
 pdfjs-editor-resizer-label-middle-left = Lato sinistro nel mezzo — ridimensiona
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 pdfjs-editor-resizer-top-left =
@@ -447,6 +476,9 @@ pdfjs-editor-resizer-bottom-left =
 pdfjs-editor-resizer-middle-left =
     .aria-label = Lato sinistro nel mezzo — ridimensiona
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -457,7 +489,10 @@ pdfjs-editor-resizer-middle-left =
 pdfjs-editor-highlight-colorpicker-label = Colore evidenziatore
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -485,7 +520,10 @@ pdfjs-editor-highlight-show-all-button =
     .title = Mostra tutto
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -546,6 +584,9 @@ pdfjs-editor-alt-text-settings-show-dialog-button-label = Mostra l’editor del 
 pdfjs-editor-alt-text-settings-show-dialog-description = Ti aiuta ad assicurarti che tutte le tue immagini abbiano il testo alternativo.
 pdfjs-editor-alt-text-settings-close-button = Chiudi
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

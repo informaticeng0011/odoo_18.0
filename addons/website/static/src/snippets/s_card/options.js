@@ -124,7 +124,11 @@ options.registry.CardImageOptions = options.Class.extend({
      * @override
      */
     _computeWidgetVisibility(widgetName, params) {
+<<<<<<< HEAD
         const hasCoverImage = !!this.$target[0].querySelector(".o_card_img_wrapper");
+=======
+        const hasCoverImage = !!this.$target[0].querySelector(":scope > .o_card_img_wrapper");
+>>>>>>> upstream/18.0
         const useRatio = !!this.$target[0].querySelector(".o_card_img_wrapper.ratio");
         const hasNonSquareRatio = this._getImageToWrapperRatio() !== 1;
         const hasShape = !!this.$target[0].querySelector(".o_card_img[data-shape]");

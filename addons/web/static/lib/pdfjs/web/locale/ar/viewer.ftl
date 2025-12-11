@@ -308,8 +308,11 @@ pdfjs-editor-highlight-button =
 pdfjs-editor-highlight-button-label = أبرِز
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 pdfjs-highlight-floating-button =
     .title = أبرِز
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -384,7 +387,10 @@ pdfjs-editor-resizer-label-bottom-left = الزاوية اليُسرى السُ�
 pdfjs-editor-resizer-label-middle-left = مُنتصف اليسار - غيّر الحجم
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 pdfjs-editor-resizer-top-left =
@@ -404,6 +410,9 @@ pdfjs-editor-resizer-bottom-left =
 pdfjs-editor-resizer-middle-left =
     .aria-label = مُنتصف اليسار - غيّر الحجم
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -435,7 +444,10 @@ pdfjs-editor-highlight-show-all-button =
     .title = أظهِر الكل
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -446,6 +458,9 @@ pdfjs-editor-highlight-show-all-button =
 ## Image alt-text settings
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

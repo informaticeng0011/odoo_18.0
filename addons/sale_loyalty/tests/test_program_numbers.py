@@ -679,7 +679,10 @@ class TestSaleCouponProgramNumbers(TestSaleCouponNumbersCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -955,6 +958,9 @@ class TestSaleCouponProgramNumbers(TestSaleCouponNumbersCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1820,7 +1826,10 @@ class TestSaleCouponProgramNumbers(TestSaleCouponNumbersCommon):
         self.assertEqual(order.order_line.filtered(lambda x: x.is_reward_line).price_unit, -5, 'The discount unit price should still be -5 after the quantity was manually changed')
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_program_multi_product_max_discount(self):
         order = self.empty_order
         coupon_program = self.env['loyalty.program'].create({
@@ -1857,6 +1866,9 @@ class TestSaleCouponProgramNumbers(TestSaleCouponNumbersCommon):
             order.amount_total, 610.0, "The price must be 610.0 since the max discount is 30"
         )
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_specific_discount_product_group(self):
         # Tests the following:
@@ -2489,7 +2501,10 @@ class TestSaleCouponProgramNumbers(TestSaleCouponNumbersCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2793,6 +2808,9 @@ class TestSaleCouponProgramNumbers(TestSaleCouponNumbersCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -14,11 +14,14 @@ class TestDiscussSubChannels(HttpCase):
     def test_01_gc_unpin_outdated_sub_channels(self):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         parent = self.env["discuss.channel"].create({"name": "General"})
         parent._create_sub_channel()
         sub_channel = parent.sub_channel_ids[0]
         sub_channel.add_members(partner_ids=[self.env.user.partner_id.id])
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         bob = new_test_user(self.env, "bob_user", groups="base.group_user")
@@ -27,6 +30,9 @@ class TestDiscussSubChannels(HttpCase):
         sub_channel = parent.sub_channel_ids[0]
         sub_channel._add_members(users=self.env.user | bob)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -36,6 +42,7 @@ class TestDiscussSubChannels(HttpCase):
         # Last interrest of the member is older than 2 days, no activity on the
         # channel: should be unpinned.
         two_days_later_dt = datetime.now() + timedelta(days=3)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         with freeze_time(two_days_later_dt):
@@ -49,6 +56,8 @@ class TestDiscussSubChannels(HttpCase):
             self.env["discuss.channel.member"]._gc_unpin_outdated_sub_channels()
             self.assertTrue(self_member.is_pinned)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         with freeze_time(two_days_later_dt) as frozen_time:
@@ -75,14 +84,20 @@ class TestDiscussSubChannels(HttpCase):
             self.env["discuss.channel.member"]._gc_unpin_outdated_sub_channels()
             self.assertFalse(self_member.is_pinned)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
         # Ensure regular channels are not impacted.
         channel = self.env["discuss.channel"].create({"name": "General"})
         channel.channel_pin(pinned=True)
         with freeze_time(two_days_later_dt):
             self.env["discuss.channel.member"]._gc_unpin_outdated_sub_channels()
             self.assertTrue(channel.channel_member_ids.filtered("is_self").is_pinned)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     def test_02_sub_channel_members_sync_with_parent(self):

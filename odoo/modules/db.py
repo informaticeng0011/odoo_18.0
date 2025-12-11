@@ -80,8 +80,11 @@ def initialize(cr):
     # Install recursively all auto-installing modules
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     while True:
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     from odoo.tools import config  # noqa: PLC0415
@@ -89,6 +92,9 @@ def initialize(cr):
         if config.get('skip_auto_install'):
             break
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

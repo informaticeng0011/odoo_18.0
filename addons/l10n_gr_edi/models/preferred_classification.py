@@ -653,6 +653,7 @@ CLASSIFICATION_CATEGORY_SELECTION = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     ('category1_1', 'category1_1 - Commodity Sale Income (+)/(-)'),
     ('category1_2', 'category1_2 - Product Sale Income (+)/(-)'),
     ('category1_3', 'category1_3 - Provision of Services Income (+)/(-)'),
@@ -682,6 +683,8 @@ CLASSIFICATION_CATEGORY_SELECTION = [
     ('category2_14', 'category2_14 - Stock at Period End (+)/(-)'),
     ('category2_95', 'category2_95 - Other Expense-related Information (+)/(-)'),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -977,6 +980,9 @@ CLASSIFICATION_CATEGORY_SELECTION = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1514,6 +1520,7 @@ class PreferredClassification(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         string='MyDATA Invoice Type',
     )
     l10n_gr_edi_cls_category = fields.Selection(
@@ -1524,6 +1531,8 @@ class PreferredClassification(models.Model):
         selection=CLASSIFICATION_TYPE_SELECTION,
         string='MyDATA Type',
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1800,6 +1809,9 @@ class PreferredClassification(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -981,7 +981,10 @@ class TestInvoiceTaxes(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1456,6 +1459,7 @@ class TestInvoiceTaxes(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1628,6 +1632,8 @@ class TestInvoiceTaxes(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1820,6 +1826,7 @@ class TestInvoiceTaxes(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1932,6 +1939,8 @@ class TestInvoiceTaxes(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_multiple_onchange_product_and_price(self):
         """
@@ -1956,4 +1965,7 @@ class TestInvoiceTaxes(AccountTestInvoicingCommon):
         )
         self.assertEqual(results['value']['tax_totals']['base_amount'], 2000.0)
         self.assertEqual(results['value']['tax_totals']['total_amount'], 2600.0)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

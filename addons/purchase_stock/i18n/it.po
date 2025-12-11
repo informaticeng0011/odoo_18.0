@@ -58,6 +58,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* purchase_stock
 <<<<<<< HEAD
 # 
@@ -364,6 +365,9 @@
 =======
 # * purchase_stock
 >>>>>>> upstream/18.0
+=======
+# * purchase_stock
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2025
@@ -427,7 +431,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #
+>>>>>>> upstream/18.0
+=======
+# "Marianna Ciofani (cima)" <cima@odoo.com>, 2025.
 >>>>>>> upstream/18.0
 =======
 # "Marianna Ciofani (cima)" <cima@odoo.com>, 2025.
@@ -607,6 +615,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1177,6 +1186,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-10-11 02:16+0000\n"
 "PO-Revision-Date: 2025-10-13 22:20+0000\n"
 "Last-Translator: \"Marianna Ciofani (cima)\" <cima@odoo.com>\n"
@@ -1239,6 +1250,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1416,8 +1430,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? "
 "1 : 2;\n"
+>>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
+" ? 1 : 2);\n"
+"X-Generator: Weblate 5.12.2\n"
 >>>>>>> upstream/18.0
 =======
 "Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
@@ -1781,6 +1801,7 @@ msgstr "+ %d giorno/i"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #. odoo-python
 #: code:addons/purchase_stock/models/stock_rule.py:0
@@ -1790,6 +1811,8 @@ msgstr ""
 #. module: purchase_stock
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1967,6 +1990,9 @@ msgstr "+ %s giorno(i)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2157,11 +2183,14 @@ msgstr "<span class=\"o_stat_value\">%</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<span invisible=\"on_time_rate &gt;= 0\">No On-time Delivery Data</span>"
 msgstr ""
 "<span invisible=\"on_time_rate &gt;= 0\">Nessun dato su consegne "
 "puntuali</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2341,6 +2370,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2471,6 +2503,7 @@ msgstr "<span>Previsto: </span>"
 
 #. module: purchase_stock
 #: model_terms:ir.ui.view,arch_db:purchase_stock.report_purchaseorder_document
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3164,10 +3197,15 @@ msgstr "<strong class=\"d-block mt-3\">Indirizzo di spedizione:</strong>"
 msgid "<strong class=\"d-block mt-3\">Shipping address:</strong>"
 msgstr "<strong class=\"d-block mt-3\">Indirizzo di spedizione:</strong>"
 >>>>>>> upstream/18.0
+=======
+msgid "<strong class=\"d-block mt-3\">Shipping address:</strong>"
+msgstr "<strong class=\"d-block mt-3\">Indirizzo di spedizione:</strong>"
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #: model_terms:ir.ui.view,arch_db:purchase_stock.report_purchasequotation_document
 msgid "<strong class=\"d-block mt-3\">Shipping address</strong>"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3720,10 +3758,14 @@ msgstr "<strong class=\"d-block mt-3\">Indirizzo di spedizione</strong>"
 =======
 msgstr "<strong class=\"d-block mt-3\">Indirizzo di spedizione</strong>"
 >>>>>>> upstream/18.0
+=======
+msgstr "<strong class=\"d-block mt-3\">Indirizzo di spedizione</strong>"
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #: model_terms:ir.ui.view,arch_db:purchase_stock.report_purchaseorder_document
 #: model_terms:ir.ui.view,arch_db:purchase_stock.report_purchasequotation_document
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4421,6 +4463,10 @@ msgstr "<strong>Termine di resa:</strong>"
 msgid "<strong>Incoterm:</strong>"
 msgstr "<strong>Termine di resa:</strong>"
 >>>>>>> upstream/18.0
+=======
+msgid "<strong>Incoterm:</strong>"
+msgstr "<strong>Termine di resa:</strong>"
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #: model:ir.model.fields,help:purchase_stock.field_purchase_order_line__is_storable
@@ -4430,6 +4476,7 @@ msgstr "Un prodotto stoccabile è un prodotto di cui si gestiscono le scorte."
 #. module: purchase_stock
 #: model:ir.model.fields,help:purchase_stock.field_purchase_order_line__qty_received_method
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4611,6 +4658,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "According to product configuration, the received quantity can be "
 "automatically computed by mechanism:\n"
 "  - Manual: the quantity is set manually on the line\n"
@@ -4676,6 +4725,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4913,7 +4965,11 @@ msgid "Buy to Resupply"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Rifornire su acquisto"
+=======
+msgstr "Rifornimento su acquisto"
+>>>>>>> upstream/18.0
 =======
 msgstr "Rifornimento su acquisto"
 >>>>>>> upstream/18.0
@@ -5299,7 +5355,11 @@ msgid "Corresponding receipt not found."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ricevuta corrispondente non trovata."
+=======
+msgstr "Ricezione corrispondente non trovata."
+>>>>>>> upstream/18.0
 =======
 msgstr "Ricezione corrispondente non trovata."
 >>>>>>> upstream/18.0
@@ -5709,7 +5769,11 @@ msgid "Deliver To"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Consegna a"
+=======
+msgstr "Consegna"
+>>>>>>> upstream/18.0
 =======
 msgstr "Consegna"
 >>>>>>> upstream/18.0
@@ -6080,7 +6144,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "prodotto: se verrà comprato, fabbricato, rifornito su ordine ecc."
+=======
+"prodotto: se verrà comprato, fabbricato, rifornito su ordine ecc..."
+>>>>>>> upstream/18.0
 =======
 "prodotto: se verrà comprato, fabbricato, rifornito su ordine ecc..."
 >>>>>>> upstream/18.0
@@ -6460,7 +6528,11 @@ msgid "Dropship Address"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Indirizzo dropshipping"
+=======
+msgstr "Indirizzo per dropshipping"
+>>>>>>> upstream/18.0
 =======
 msgstr "Indirizzo per dropshipping"
 >>>>>>> upstream/18.0
@@ -6888,7 +6960,11 @@ msgid "Incoming Shipment count"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Conteggio spedizioni in entrata"
+=======
+msgstr "Numero spedizioni in entrata"
+>>>>>>> upstream/18.0
 =======
 msgstr "Numero spedizioni in entrata"
 >>>>>>> upstream/18.0
@@ -7268,7 +7344,11 @@ msgid "Is the Sale Module Installed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Il modulo Vendite è installato"
+=======
+msgstr "È installato il modulo vendite"
+>>>>>>> upstream/18.0
 =======
 msgstr "È installato il modulo vendite"
 >>>>>>> upstream/18.0
@@ -7643,8 +7723,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Orders for reordering products,they will be scheduled that many days earlier"
 " to cope with unexpected vendor delays."
+=======
+"Orders for reordering products,they will be scheduled that many days earlier "
+"to cope with unexpected vendor delays."
+>>>>>>> upstream/18.0
 =======
 "Orders for reordering products,they will be scheduled that many days earlier "
 "to cope with unexpected vendor delays."
@@ -7889,6 +7974,7 @@ msgstr ""
 #. module: purchase_stock
 #: model:ir.model,name:purchase_stock.model_stock_warehouse_orderpoint
 msgid "Minimum Inventory Rule"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8250,6 +8336,9 @@ msgstr "Regola di inventario minimo"
 =======
 msgstr "Regola di inventario minimo"
 >>>>>>> upstream/18.0
+=======
+msgstr "Regola di inventario minimo"
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #: model_terms:ir.ui.view,arch_db:purchase_stock.res_config_settings_view_form_stock
@@ -8262,6 +8351,7 @@ msgid "Next transfer(s) impacted:"
 msgstr "Trasferimenti successivi coinvolti:"
 
 #. module: purchase_stock
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8444,6 +8534,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/purchase_stock/models/stock_rule.py:0
 msgid "No Vendor Found"
@@ -8507,6 +8599,9 @@ msgstr "Nessun fornitore trovato"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8699,8 +8794,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Odoo is not able to generate the anglo saxon entries. The total valuation of"
 " %s is zero."
+=======
+"Odoo is not able to generate the anglo saxon entries. The total valuation of "
+"%s is zero."
+>>>>>>> upstream/18.0
 =======
 "Odoo is not able to generate the anglo saxon entries. The total valuation of "
 "%s is zero."
@@ -9039,6 +9139,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Over the past x days; the number of products received on time divided by the"
 " number of ordered products.x is either the System Parameter "
 "purchase_stock.on_time_delivery_days or the default 365"
@@ -9046,6 +9147,8 @@ msgstr ""
 "Negli ultimi x giorni, il numero di prodotti ricevuti in tempo diviso per il"
 " numero di prodotti ordinati. x rappresenta il parametro di sistema "
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9226,6 +9329,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9438,7 +9544,11 @@ msgid "PO Lines"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Righe ordine di acquisto"
+=======
+msgstr "Righe OdA"
+>>>>>>> upstream/18.0
 =======
 msgstr "Righe OdA"
 >>>>>>> upstream/18.0
@@ -9895,7 +10005,11 @@ msgid "Purchase Report"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Resoconto di acquisto"
+=======
+msgstr "Resoconto acquisti"
+>>>>>>> upstream/18.0
 =======
 msgstr "Resoconto acquisti"
 >>>>>>> upstream/18.0
@@ -10189,6 +10303,7 @@ msgid ""
 "Put an address if you want to deliver directly from the vendor to the "
 "customer. Otherwise, keep empty to deliver to your own company."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10641,6 +10756,10 @@ msgstr ""
 "Inserire un indirizzo per spedire direttamente dal fornitore al cliente. "
 "Altrimenti lasciare vuoto per spedire alla propria azienda."
 >>>>>>> upstream/18.0
+=======
+"Inserire un indirizzo per spedire direttamente dal fornitore al cliente. "
+"Altrimenti lasciare vuoto per spedire alla propria azienda."
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #: model_terms:ir.ui.view,arch_db:purchase_stock.purchase_order_view_form_inherit
@@ -10655,6 +10774,7 @@ msgstr "Stato ricezione"
 #. module: purchase_stock
 #: model_terms:ir.ui.view,arch_db:purchase_stock.purchase_order_view_form_inherit
 msgid "Receive Products"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11280,6 +11400,9 @@ msgstr "Ricezione prodotti"
 =======
 msgstr "Ricezione prodotti"
 >>>>>>> upstream/18.0
+=======
+msgstr "Ricezione prodotti"
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #. odoo-javascript
@@ -11428,7 +11551,12 @@ msgid "Schedule request for quotations earlier to avoid delays"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Pianifica in anticipo le richieste di preventivo per evitare ritardi"
+=======
+msgstr ""
+"Programmazione anticipata di richieste di preventivo per evitare ritardi"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "Programmazione anticipata di richieste di preventivo per evitare ritardi"
@@ -11899,7 +12027,11 @@ msgid "Show supplier column"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Mostra la colonna dei fornitori"
+=======
+msgstr "Mostra colonna fornitore"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mostra colonna fornitore"
 >>>>>>> upstream/18.0
@@ -12313,6 +12445,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "location (%(location)s) of reordering rule (%(reordering_rule)s) for product"
 " %(product)s. Change the operation type or cancel the request for quotation."
 msgstr ""
@@ -12320,6 +12453,8 @@ msgstr ""
 "all'ubicazione (%(location)s) della regola di riordino (%(reordering_rule)s)"
 " per il prodotto %(product)s. Modifica il tipo di operazione o annulla la "
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12500,6 +12635,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12682,6 +12820,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "There is no matching vendor price to generate the purchase order for product"
 " %s (no vendor defined, minimum quantity not reached, dates not valid, ...)."
 " Go on the product form and complete the list of vendors."
@@ -12689,6 +12828,8 @@ msgstr ""
 "Nessun prezzo fornitore corrispondente per generare l'ordine di acquisto del"
 " prodotto %s (nessun fornitore specificato, quantità minima non raggiunta, "
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12869,6 +13010,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13056,8 +13200,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Conto utilizzato, nella valutazione automatica del magazzino, per registrare"
 " la differenza di prezzo tra un ordine di acquisto e la relativa fattura "
+=======
+"Conto utilizzato, nella valutazione automatica del magazzino, per registrare "
+"la differenza di prezzo tra un ordine di acquisto e la relativa fattura "
+>>>>>>> upstream/18.0
 =======
 "Conto utilizzato, nella valutazione automatica del magazzino, per registrare "
 "la differenza di prezzo tra un ordine di acquisto e la relativa fattura "
@@ -13361,8 +13510,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Conto utilizzato per valutare la differenza di prezzo tra prezzo di acquisto"
 " e costo contabile."
+=======
+"Conto utilizzato per valutare la differenza di prezzo tra prezzo di acquisto "
+"e costo contabile."
+>>>>>>> upstream/18.0
 =======
 "Conto utilizzato per valutare la differenza di prezzo tra prezzo di acquisto "
 "e costo contabile."
@@ -13662,6 +13816,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This adds a dropshipping route to apply on products in order to request your"
 " vendors to deliver to your customers. A product to dropship will generate a"
 " purchase request for quotation once the sales order confirmed. This is a "
@@ -13882,6 +14037,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "This adds a dropshipping route to apply on products in order to request your "
 "vendors to deliver to your customers. A product to dropship will generate a "
 "purchase request for quotation once the sales order confirmed. This is a on-"
@@ -13947,6 +14104,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14157,6 +14317,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14349,6 +14512,7 @@ msgid ""
 "Those dates couldn’t be modified accordingly on the receipt %s which had "
 "already been validated."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14801,6 +14965,10 @@ msgstr ""
 "Impossibile modificare le date in conformità con la ricezione %s che risulta "
 "già confermata."
 >>>>>>> upstream/18.0
+=======
+"Impossibile modificare le date in conformità con la ricezione %s che risulta "
+"già confermata."
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #. odoo-python
@@ -14896,7 +15064,11 @@ msgid "Those dates have been updated accordingly on the receipt %s."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Queste date sono state aggiornate conformemente sulla ricevuta %s."
+=======
+msgstr "Le date sono state aggiornate in conformità con la ricezione %s."
+>>>>>>> upstream/18.0
 =======
 msgstr "Le date sono state aggiornate in conformità con la ricezione %s."
 >>>>>>> upstream/18.0
@@ -15301,7 +15473,11 @@ msgid "Vendor Delay Report"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Resoconto ritardo venditore"
+=======
+msgstr "Resoconto ritardo fornitore"
+>>>>>>> upstream/18.0
 =======
 msgstr "Resoconto ritardo fornitore"
 >>>>>>> upstream/18.0
@@ -15671,6 +15847,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "created to fulfill the need.<br/>Note: This rule will be used in combination"
 " with the rules<br/>of the reception route(s)"
 msgstr ""
@@ -15678,6 +15855,8 @@ msgstr ""
 "richiesta di preventivo per soddisfare l'esigenza.<br/>Nota: la regola viene"
 " utilizzata in combinazione<br/>con quelle dei percorsi di ricezione"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -15858,6 +16037,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16042,7 +16224,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Impossibile ridurre la quantità ordinata al di sotto della quantità ricevuta.\n"
+=======
+"Impossibile ridurre la quantità ordinata al di sotto della quantità "
+"ricevuta.\n"
+>>>>>>> upstream/18.0
 =======
 "Impossibile ridurre la quantità ordinata al di sotto della quantità "
 "ricevuta.\n"

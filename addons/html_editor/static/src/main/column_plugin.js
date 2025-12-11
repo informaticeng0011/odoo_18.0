@@ -105,7 +105,11 @@ import { closestElement } from "@html_editor/utils/dom_traversal";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const REGEX_BOOTSTRAP_COLUMN = /(?:^| )col(-[a-zA-Z]+)?(-\d+)?(?:$| )/;
+=======
+const REGEX_BOOTSTRAP_COLUMN = /(?:^| )col(-[a-zA-Z]+)?(-\d+)?(?= |$)/;
+>>>>>>> upstream/18.0
 =======
 const REGEX_BOOTSTRAP_COLUMN = /(?:^| )col(-[a-zA-Z]+)?(-\d+)?(?= |$)/;
 >>>>>>> upstream/18.0
@@ -534,7 +538,11 @@ export class ColumnPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     static dependencies = ["baseContainer", "selection", "history"];
+=======
+    static dependencies = ["baseContainer", "selection", "history", "dom"];
+>>>>>>> upstream/18.0
 =======
     static dependencies = ["baseContainer", "selection", "history", "dom"];
 >>>>>>> upstream/18.0
@@ -1033,7 +1041,11 @@ export class ColumnPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         container.classList.add("o_text_columns");
+=======
+        container.classList.add("o_text_columns", "o-contenteditable-false");
+>>>>>>> upstream/18.0
 =======
         container.classList.add("o_text_columns", "o-contenteditable-false");
 >>>>>>> upstream/18.0
@@ -1447,12 +1459,15 @@ export class ColumnPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             column.classList.add(`col-${columnSize}`);
             row.append(column);
             columns.push(column);
         }
         block.before(container);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1762,6 +1777,9 @@ export class ColumnPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2070,11 +2088,15 @@ export class ColumnPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (addParagraphAfter) {
             const baseContainer = this.dependencies.baseContainer.createBaseContainer();
             baseContainer.append(this.document.createElement("br"));
             container.after(baseContainer);
         }
+=======
+        this.dependencies.dom.insert(container);
+>>>>>>> upstream/18.0
 =======
         this.dependencies.dom.insert(container);
 >>>>>>> upstream/18.0
@@ -2500,7 +2522,11 @@ export class ColumnPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 column.classList.add(`col-${columnSize}`);
+=======
+                column.classList.add(`col-${columnSize}`, "o-contenteditable-true");
+>>>>>>> upstream/18.0
 =======
                 column.classList.add(`col-${columnSize}`, "o-contenteditable-true");
 >>>>>>> upstream/18.0

@@ -107,7 +107,10 @@ pdfjs-document-properties-file-size = ਫਾਈਲ ਦਾ ਆਕਾਰ:
 # Variables:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #   $kb (Number) - the PDF file size in kilobytes
@@ -119,6 +122,9 @@ pdfjs-document-properties-size-kb = { NUMBER($kb, maximumSignificantDigits: 3) }
 pdfjs-document-properties-size-mb = { NUMBER($mb, maximumSignificantDigits: 3) } MB ({ $b } ਬਾਈਟ)
 # Variables:
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -138,6 +144,12 @@ pdfjs-document-properties-modification-date = ਸੋਧ ਦੀ ਮਿਤੀ:
 # Variables:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#   $dateObj (Date) - the creation/modification date and time of the PDF file
+pdfjs-document-properties-date-time-string = { DATETIME($dateObj, dateStyle: "short", timeStyle: "medium") }
+# Variables:
+>>>>>>> upstream/18.0
 =======
 #   $dateObj (Date) - the creation/modification date and time of the PDF file
 pdfjs-document-properties-date-time-string = { DATETIME($dateObj, dateStyle: "short", timeStyle: "medium") }
@@ -306,6 +318,12 @@ pdfjs-text-annotation-type =
     .alt = [{ $type } ਵਿਆਖਿਆ]
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Variables:
+#   $dateObj (Date) - the modification date and time of the annotation
+pdfjs-annotation-date-time-string = { DATETIME($dateObj, dateStyle: "short", timeStyle: "medium") }
+>>>>>>> upstream/18.0
 =======
 # Variables:
 #   $dateObj (Date) - the modification date and time of the annotation
@@ -341,8 +359,11 @@ pdfjs-editor-highlight-button =
 pdfjs-editor-highlight-button-label = ਹਾਈਲਾਈਟ
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 pdfjs-highlight-floating-button =
     .title = ਹਾਈਲਾਈਟ
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -417,7 +438,10 @@ pdfjs-editor-resizer-label-bottom-left = ਹੇਠਾਂ ਖੱਬਾ ਕੋਨ�
 pdfjs-editor-resizer-label-middle-left = ਮੱਧ ਖੱਬਾ — ਮੁੜ-ਆਕਾਰ ਕਰੋ
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 pdfjs-editor-resizer-top-left =
@@ -437,6 +461,9 @@ pdfjs-editor-resizer-bottom-left =
 pdfjs-editor-resizer-middle-left =
     .aria-label = ਮੱਧ ਖੱਬਾ — ਮੁੜ-ਆਕਾਰ ਕਰੋ
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -468,7 +495,10 @@ pdfjs-editor-highlight-show-all-button =
     .title = ਸਭ ਵੇਖੋ
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -529,6 +559,9 @@ pdfjs-editor-alt-text-settings-show-dialog-button-label = ਜਦੋਂ ਵਿੱ
 pdfjs-editor-alt-text-settings-show-dialog-description = ਤੁਹਾਡੀ ਮਦਦ ਕਰਦਾ ਹੈ ਕਿ ਤੁਹਾਡੇ ਸਾਰੇ ਚਿੱਤਰਾਂ ਲਈ ਬਦਲਵੀਂ ਲਿਖਤ ਮੌਜੂਦ ਹੋਵੇ।
 pdfjs-editor-alt-text-settings-close-button = ਬੰਦ ਕਰੋ
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

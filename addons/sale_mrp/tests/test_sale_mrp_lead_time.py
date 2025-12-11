@@ -93,7 +93,11 @@ from datetime import timedelta
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import fields
+=======
+from odoo import fields, Command
+>>>>>>> upstream/18.0
 =======
 from odoo import fields, Command
 >>>>>>> upstream/18.0
@@ -629,7 +633,10 @@ class TestSaleMrpLeadTime(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -896,7 +903,10 @@ class TestSaleMrpLeadTime(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1081,6 +1091,9 @@ class TestSaleMrpLeadTime(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1304,6 +1317,9 @@ class TestSaleMrpLeadTime(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

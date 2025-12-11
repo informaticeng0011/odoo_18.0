@@ -44,6 +44,7 @@ pdfjs-save-button =
 pdfjs-save-button-label = Guardar
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 pdfjs-bookmark-button =
     .title = Página actual (Ver URL de la página actual)
 pdfjs-bookmark-button-label = Página actual
@@ -56,6 +57,8 @@ pdfjs-open-in-app-button-label = Abrir en la aplicación
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # Used in Firefox for Android as a tooltip for the download button (“download” is a verb).
 pdfjs-download-button =
     .title = Descargar
@@ -66,6 +69,9 @@ pdfjs-bookmark-button =
     .title = Página actual (Ver URL de la página actual)
 pdfjs-bookmark-button-label = Página actual
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -240,7 +246,10 @@ pdfjs-find-reached-top = Se alcanzó el inicio del documento, se buscará al fin
 pdfjs-find-reached-bottom = Se alcanzó el final del documento, se buscará al inicio
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 # Variables:
@@ -259,6 +268,9 @@ pdfjs-find-match-count-limit =
        *[other] Más de { $limit } coincidencias
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -321,7 +333,10 @@ pdfjs-editor-ink-button =
 pdfjs-editor-ink-button-label = Dibujar
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 pdfjs-editor-stamp-button =
@@ -349,6 +364,9 @@ pdfjs-editor-remove-highlight-button =
 ##
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -360,7 +378,10 @@ pdfjs-editor-ink-thickness-input = Grossor
 pdfjs-editor-ink-opacity-input = Opacidad
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 pdfjs-editor-stamp-add-image-button =
@@ -371,6 +392,9 @@ pdfjs-editor-free-highlight-thickness-input = Espesor
 pdfjs-editor-free-highlight-thickness-title =
     .title = Cambiar el grosor al resaltar elementos que no sean texto
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -386,7 +410,10 @@ pdfjs-ink-canvas =
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 # Alternative text (alt text) helps when people can't see the image.
@@ -405,6 +432,9 @@ pdfjs-editor-alt-text-decorative-tooltip = Marcado como decorativo
 pdfjs-editor-alt-text-textarea =
     .placeholder = Por ejemplo: “Un joven se sienta a la mesa a comer”
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -414,7 +444,10 @@ pdfjs-editor-alt-text-textarea =
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 pdfjs-editor-resizer-label-top-left = Esquina superior izquierda: cambiar el tamaño
@@ -459,6 +492,9 @@ pdfjs-editor-highlight-show-all-button =
 ## Image alt-text settings
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

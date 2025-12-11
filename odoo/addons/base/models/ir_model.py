@@ -165,6 +165,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import inspect
+>>>>>>> upstream/18.0
 =======
 import inspect
 >>>>>>> upstream/18.0
@@ -1017,6 +1021,14 @@ class IrModel(models.Model):
         if crons:
             crons.unlink()
 
+<<<<<<< HEAD
+=======
+        # delete related ir_model_data
+        model_data = self.env['ir.model.data'].search([('model', 'in', self.mapped('model'))])
+        if model_data:
+            model_data.unlink()
+
+>>>>>>> upstream/18.0
         self._drop_table()
         res = super(IrModel, self).unlink()
 
@@ -1322,8 +1334,11 @@ class IrModelFields(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             safe_eval(field.domain or '[]')
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1363,6 +1378,9 @@ class IrModelFields(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1827,12 +1845,15 @@ class IrModelFields(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if vals.get('ttype') == 'one2many' and not self.search_count([
                     ('ttype', '=', 'many2one'),
                     ('model', '=', vals['relation']),
                     ('name', '=', vals['relation_field']),
                 ]):
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2008,6 +2029,9 @@ class IrModelFields(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2653,7 +2677,11 @@ class ModelInherit(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         module_mapping = defaultdict(list)
+=======
+        module_mapping = defaultdict(OrderedSet)
+>>>>>>> upstream/18.0
 =======
         module_mapping = defaultdict(OrderedSet)
 >>>>>>> upstream/18.0
@@ -3330,11 +3358,14 @@ class ModelInherit(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 ]
 
                 for item in items:
                     module_mapping[item].append(cls._module)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3837,6 +3868,9 @@ class ModelInherit(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5344,7 +5378,11 @@ class IrModelData(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         field_ = Field(_base_fields=[field, Field(prefetch=False)])
+=======
+                        field_ = Field(_base_fields=(field, Field(prefetch=False)))
+>>>>>>> upstream/18.0
 =======
                         field_ = Field(_base_fields=(field, Field(prefetch=False)))
 >>>>>>> upstream/18.0
@@ -5842,7 +5880,16 @@ class IrModelData(models.Model):
 
         # remove non-model records first, grouped by batches of the same model
         for model, items in itertools.groupby(unique(records_items), itemgetter(0)):
+<<<<<<< HEAD
             delete(self.env[model].browse(item[1] for item in items))
+=======
+            ids = [item[1] for item in items]
+            # we cannot guarantee that the ir.model.data points to an existing model
+            if model in self.env:
+                delete(self.env[model].browse(ids))
+            else:
+                _logger.info("Orphan ir.model.data records %s refer to unavailable model '%s'", ids, model)
+>>>>>>> upstream/18.0
 
         # Remove copied views. This must happen after removing all records from
         # the modules to remove, otherwise ondelete='restrict' may prevent the

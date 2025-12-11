@@ -49,7 +49,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from datetime import datetime
+=======
+from datetime import date, datetime
+>>>>>>> upstream/18.0
 =======
 from datetime import date, datetime
 >>>>>>> upstream/18.0
@@ -666,6 +670,7 @@ class TestWorkEntry(TestWorkEntryBase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -1077,6 +1082,8 @@ class TestWorkEntry(TestWorkEntryBase):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 
     def test_work_entry_duration(self):
         """ Test the duration of a work entry is rounded to the nearest minute and correctly calculated """
@@ -1223,6 +1230,7 @@ class TestWorkEntry(TestWorkEntryBase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1355,6 +1363,8 @@ class TestWorkEntry(TestWorkEntryBase):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1661,6 +1671,9 @@ class TestWorkEntry(TestWorkEntryBase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

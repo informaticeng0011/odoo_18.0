@@ -107,7 +107,10 @@ pdfjs-document-properties-file-size = Tamanho do arquivo:
 # Variables:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #   $kb (Number) - the PDF file size in kilobytes
@@ -119,6 +122,9 @@ pdfjs-document-properties-size-kb = { NUMBER($kb, maximumSignificantDigits: 3) }
 pdfjs-document-properties-size-mb = { NUMBER($mb, maximumSignificantDigits: 3) } MB ({ $b } bytes)
 # Variables:
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -138,6 +144,12 @@ pdfjs-document-properties-modification-date = Data da modificação:
 # Variables:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#   $dateObj (Date) - the creation/modification date and time of the PDF file
+pdfjs-document-properties-date-time-string = { DATETIME($dateObj, dateStyle: "short", timeStyle: "medium") }
+# Variables:
+>>>>>>> upstream/18.0
 =======
 #   $dateObj (Date) - the creation/modification date and time of the PDF file
 pdfjs-document-properties-date-time-string = { DATETIME($dateObj, dateStyle: "short", timeStyle: "medium") }
@@ -201,8 +213,13 @@ pdfjs-toggle-sidebar-button =
 pdfjs-toggle-sidebar-notification-button =
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     .title = Exibir/ocultar painel (documento contém estrutura/anexos/camadas)
 pdfjs-toggle-sidebar-button-label = Exibir/ocultar painel
+=======
+    .title = Exibir/ocultar painel lateral (documento contém estrutura/anexos/camadas)
+pdfjs-toggle-sidebar-button-label = Exibir/ocultar painel lateral
+>>>>>>> upstream/18.0
 =======
     .title = Exibir/ocultar painel lateral (documento contém estrutura/anexos/camadas)
 pdfjs-toggle-sidebar-button-label = Exibir/ocultar painel lateral
@@ -316,6 +333,12 @@ pdfjs-text-annotation-type =
     .alt = [Anotação { $type }]
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Variables:
+#   $dateObj (Date) - the modification date and time of the annotation
+pdfjs-annotation-date-time-string = { DATETIME($dateObj, dateStyle: "short", timeStyle: "medium") }
+>>>>>>> upstream/18.0
 =======
 # Variables:
 #   $dateObj (Date) - the modification date and time of the annotation
@@ -351,8 +374,11 @@ pdfjs-editor-highlight-button =
 pdfjs-editor-highlight-button-label = Destaque
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 pdfjs-highlight-floating-button =
     .title = Destaque
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -427,7 +453,10 @@ pdfjs-editor-resizer-label-bottom-left = Canto inferior esquerdo — redimension
 pdfjs-editor-resizer-label-middle-left = No meio à esquerda — redimensionar
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 pdfjs-editor-resizer-top-left =
@@ -447,6 +476,9 @@ pdfjs-editor-resizer-bottom-left =
 pdfjs-editor-resizer-middle-left =
     .aria-label = No meio à esquerda — redimensionar
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -478,7 +510,10 @@ pdfjs-editor-highlight-show-all-button =
     .title = Mostrar todos
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -539,6 +574,9 @@ pdfjs-editor-alt-text-settings-show-dialog-button-label = Mostrar o editor de te
 pdfjs-editor-alt-text-settings-show-dialog-description = Ajuda a assegurar que todas as suas imagens tenham texto alternativo.
 pdfjs-editor-alt-text-settings-close-button = Fechar
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -98,7 +98,10 @@ pdfjs-document-properties-file-size = Madhësi kartele:
 # Variables:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #   $kb (Number) - the PDF file size in kilobytes
@@ -110,6 +113,9 @@ pdfjs-document-properties-size-kb = { NUMBER($kb, maximumSignificantDigits: 3) }
 pdfjs-document-properties-size-mb = { NUMBER($mb, maximumSignificantDigits: 3) } MB ({ $b } bajte)
 # Variables:
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -308,8 +314,11 @@ pdfjs-editor-highlight-button =
 pdfjs-editor-highlight-button-label = Theksoje
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 pdfjs-highlight-floating-button =
     .title = Theksim
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -384,7 +393,10 @@ pdfjs-editor-resizer-label-bottom-left = Cepi i poshtëm — ripërmasojeni
 pdfjs-editor-resizer-label-middle-left = Majtas në mes — ripërmasojeni
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 pdfjs-editor-resizer-top-left =
@@ -404,6 +416,9 @@ pdfjs-editor-resizer-bottom-left =
 pdfjs-editor-resizer-middle-left =
     .aria-label = Majtas në mes — ripërmasojeni
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -435,7 +450,10 @@ pdfjs-editor-highlight-show-all-button =
     .title = Shfaqi krejt
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -496,6 +514,9 @@ pdfjs-editor-alt-text-settings-show-dialog-button-label = Shfaq menjëherë për
 pdfjs-editor-alt-text-settings-show-dialog-description = Ju ndihmon të siguroheni se krejt figurat tuaja kanë tekst alternativ.
 pdfjs-editor-alt-text-settings-close-button = Mbylle
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

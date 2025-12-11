@@ -56,7 +56,11 @@ export class OrderlineNoteButton extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             await this.pos.addLineToCurrentOrder({
+=======
+            const newLine = await this.pos.addLineToCurrentOrder({
+>>>>>>> upstream/18.0
 =======
             const newLine = await this.pos.addLineToCurrentOrder({
 >>>>>>> upstream/18.0
@@ -109,8 +113,11 @@ export class OrderlineNoteButton extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             selectedOrderline.qty = saved_quantity;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -151,6 +158,9 @@ export class OrderlineNoteButton extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

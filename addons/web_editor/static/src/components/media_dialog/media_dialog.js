@@ -263,7 +263,10 @@ export class MediaDialog extends Component {
     selectMedia(media, tabId, multiSelect) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         if (media && !Object.keys(media).length) {
@@ -272,6 +275,9 @@ export class MediaDialog extends Component {
             return;
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -5,6 +5,7 @@ import datetime
 from collections import namedtuple
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import fields
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -175,6 +176,10 @@ from odoo.tests import tagged, Form
 from odoo import fields, Command
 from odoo.tests import tagged, Form
 >>>>>>> upstream/18.0
+=======
+from odoo import fields, Command
+from odoo.tests import tagged, Form
+>>>>>>> upstream/18.0
 from odoo.exceptions import ValidationError
 from odoo.addons.l10n_it_edi.tests.common import TestItEdi
 
@@ -190,6 +195,7 @@ class TestWithholdingAndPensionFundTaxes(TestItEdi):
             return cls.env['account.chart.template'].with_company(cls.company).ref(ref_name)
 
         cls.withholding_sale_tax = find_tax_by_ref('20vwc')
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1406,6 +1412,8 @@ class TestWithholdingAndPensionFundTaxes(TestItEdi):
         cls.inps_purchase_tax = find_tax_by_ref('4ainps')
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
         cls.withholding_purchase_tax = find_tax_by_ref('20awc')
         cls.withholding_sale_tax_23_base50 = find_tax_by_ref('23vwo')
         cls.withholding_sale_tax_23_base20 = find_tax_by_ref('23vwn')
@@ -1416,6 +1424,9 @@ class TestWithholdingAndPensionFundTaxes(TestItEdi):
         cls.enasarco_purchase_tax = find_tax_by_ref('enasarcoa')
         cls.inps_tax = find_tax_by_ref('4vinps')
         cls.inps_purchase_tax = find_tax_by_ref('4ainps')
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
         cls.zero_tax = cls.env['account.tax'].with_company(cls.company).create({
@@ -1453,8 +1464,11 @@ class TestWithholdingAndPensionFundTaxes(TestItEdi):
             'tax_ids': [(6, 0, [
                 cls.enasarco_sale_tax.id,
 <<<<<<< HEAD
+<<<<<<< HEAD
                 cls.withholding_sale_tax_23.id,
 =======
+=======
+>>>>>>> upstream/18.0
                 cls.withholding_sale_tax_23_base50.id,
                 cls.company.account_sale_tax_id.id,
             ])]
@@ -1474,6 +1488,9 @@ class TestWithholdingAndPensionFundTaxes(TestItEdi):
             'quantity': 1,
             'tax_ids': [Command.set([
                 cls.withholding_sale_tax_23_base20.id,
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 cls.company.account_sale_tax_id.id,
             ])]
@@ -1548,7 +1565,10 @@ class TestWithholdingAndPensionFundTaxes(TestItEdi):
         })
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         cls.withholding_sale_tax_23_base50_invoice = cls.env['account.move'].with_company(cls.company).create({
             'move_type': 'out_invoice',
             'company_id': cls.company.id,
@@ -1579,12 +1599,20 @@ class TestWithholdingAndPensionFundTaxes(TestItEdi):
             ]
         })
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         cls.withholding_tax_invoice._post()
         cls.pension_fund_tax_invoice._post()
         cls.enasarco_tax_invoice._post()
         cls.inps_tax_invoice._post()
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        cls.withholding_sale_tax_23_base50_invoice._post()
+        cls.withholding_sale_tax_23_base20_invoice._post()
+>>>>>>> upstream/18.0
 =======
         cls.withholding_sale_tax_23_base50_invoice._post()
         cls.withholding_sale_tax_23_base20_invoice._post()
@@ -1655,7 +1683,10 @@ class TestWithholdingAndPensionFundTaxes(TestItEdi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1808,6 +1839,9 @@ class TestWithholdingAndPensionFundTaxes(TestItEdi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2115,7 +2149,11 @@ class TestWithholdingAndPensionFundTaxes(TestItEdi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def test_pension_fund_taxes_import(self):
+=======
+    def test_pension_fund_taxes_import_assosoftware_tag(self):
+>>>>>>> upstream/18.0
 =======
     def test_pension_fund_taxes_import_assosoftware_tag(self):
 >>>>>>> upstream/18.0
@@ -2734,6 +2772,7 @@ class TestWithholdingAndPensionFundTaxes(TestItEdi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         invoice_data = self.get_real_client_invoice_data()
         for line in invoice.line_ids.filtered(lambda x: x.name in [data[0] for data in invoice_data.lines]):
@@ -2742,6 +2781,8 @@ class TestWithholdingAndPensionFundTaxes(TestItEdi):
             vat_taxes = line.tax_ids - withholding_taxes - pension_fund_taxes
             self.assertEqual([1, 1, 1], [len(x) for x in (vat_taxes, withholding_taxes, pension_fund_taxes)])
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3218,6 +3259,9 @@ class TestWithholdingAndPensionFundTaxes(TestItEdi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3639,6 +3683,7 @@ class TestWithholdingAndPensionFundTaxes(TestItEdi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.assertEqual(self.withholding_purchase_tax_23, line.tax_ids.filtered(lambda x: x.l10n_it_withholding_reason == 'ZO'))
 =======
             self.assertEqual(self.withholding_purchase_tax_23 | enasarco_imported_tax, line.tax_ids.filtered(lambda x: x.l10n_it_withholding_reason == 'ZO'))
@@ -3870,6 +3915,9 @@ class TestWithholdingAndPensionFundTaxes(TestItEdi):
 >>>>>>> upstream/18.0
 =======
             self.assertEqual(self.withholding_purchase_tax_23 | enasarco_imported_tax, line.tax_ids.filtered(lambda x: x.l10n_it_withholding_reason == 'ZO'))
+>>>>>>> upstream/18.0
+=======
+            self.assertEqual(self.withholding_purchase_tax_23_base50 | enasarco_imported_tax, line.tax_ids.filtered(lambda x: x.l10n_it_withholding_reason == 'ZO'))
 >>>>>>> upstream/18.0
 =======
             self.assertEqual(self.withholding_purchase_tax_23_base50 | enasarco_imported_tax, line.tax_ids.filtered(lambda x: x.l10n_it_withholding_reason == 'ZO'))
@@ -3996,6 +4044,7 @@ class TestWithholdingAndPensionFundTaxes(TestItEdi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.assertEqual(self.withholding_purchase_tax_23, line.tax_ids.filtered(lambda x: x.l10n_it_withholding_reason == 'ZO'))
 =======
             self.assertEqual(self.withholding_purchase_tax_23 | enasarco_imported_tax, line.tax_ids.filtered(lambda x: x.l10n_it_withholding_reason == 'ZO'))
@@ -4231,6 +4280,9 @@ class TestWithholdingAndPensionFundTaxes(TestItEdi):
 =======
             self.assertEqual(self.withholding_purchase_tax_23_base50 | enasarco_imported_tax, line.tax_ids.filtered(lambda x: x.l10n_it_withholding_reason == 'ZO'))
 >>>>>>> upstream/18.0
+=======
+            self.assertEqual(self.withholding_purchase_tax_23_base50 | enasarco_imported_tax, line.tax_ids.filtered(lambda x: x.l10n_it_withholding_reason == 'ZO'))
+>>>>>>> upstream/18.0
 
     def test_inps_tax_export(self):
         """
@@ -4249,7 +4301,10 @@ class TestWithholdingAndPensionFundTaxes(TestItEdi):
         """
         self._assert_export_invoice(self.inps_tax_invoice, 'inps_tax_invoice.xml')
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     ####################################################
     # RA 23% WITHHOLDING TAX
@@ -4324,4 +4379,7 @@ class TestWithholdingAndPensionFundTaxes(TestItEdi):
             withholding_tax = line.tax_ids.filtered(lambda x: x.l10n_it_withholding_type)
             self.assertEqual(self.withholding_purchase_tax_23_base20, withholding_tax)
             self.assertEqual(-4.6, withholding_tax.amount)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

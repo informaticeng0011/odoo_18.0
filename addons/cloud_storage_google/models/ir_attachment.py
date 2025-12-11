@@ -62,7 +62,11 @@ class IrAttachment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         match = self._cloud_storage_google_url_pattern.match(self.url)
+=======
+        match = self._cloud_storage_google_url_pattern.fullmatch(self.url or '')
+>>>>>>> upstream/18.0
 =======
         match = self._cloud_storage_google_url_pattern.fullmatch(self.url or '')
 >>>>>>> upstream/18.0

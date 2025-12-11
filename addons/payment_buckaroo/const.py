@@ -183,6 +183,12 @@ DEFAULT_PAYMENT_METHOD_CODES = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# https://docs.buckaroo.io/docs/payment-methods
+# For each payment method check "Requests" tab and get "Services.ServiceList.Name"
+# in "Example request"
+>>>>>>> upstream/18.0
 =======
 # https://docs.buckaroo.io/docs/payment-methods
 # For each payment method check "Requests" tab and get "Services.ServiceList.Name"
@@ -1207,12 +1213,15 @@ PAYMENT_METHODS_MAPPING = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     'billink': 'Billink',
     'in3': 'Capayable',
     'kbc': 'KBCPaymentButton',
     'bank_reference': 'PayByBank',
     'p24': 'Przelewy24',
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1733,6 +1742,9 @@ PAYMENT_METHODS_MAPPING = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2247,7 +2259,11 @@ PAYMENT_METHODS_MAPPING = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     'klarna': 'klarnakp',
+=======
+    'klarna': 'klarna',
+>>>>>>> upstream/18.0
 =======
     'klarna': 'klarna',
 >>>>>>> upstream/18.0

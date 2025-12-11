@@ -53,12 +53,15 @@ pdfjs-bookmark-button =
 pdfjs-bookmark-button-label = Asebter amiran
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Used in Firefox for Android.
 pdfjs-open-in-app-button =
     .title = Ldi deg usnas
 # Used in Firefox for Android.
 # Length of the translation matters since we are in a mobile context, with limited screen estate.
 pdfjs-open-in-app-button-label = Ldi deg usnas
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -119,7 +122,10 @@ pdfjs-document-properties-file-size = Teɣzi n ufaylu:
 # Variables:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #   $kb (Number) - the PDF file size in kilobytes
@@ -131,6 +137,9 @@ pdfjs-document-properties-size-kb = { NUMBER($kb, maximumSignificantDigits: 3) }
 pdfjs-document-properties-size-mb = { NUMBER($mb, maximumSignificantDigits: 3) } MB ({ $b } yibiten)
 # Variables:
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -150,6 +159,12 @@ pdfjs-document-properties-modification-date = Azemz n usnifel:
 # Variables:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#   $dateObj (Date) - the creation/modification date and time of the PDF file
+pdfjs-document-properties-date-time-string = { DATETIME($dateObj, dateStyle: "short", timeStyle: "medium") }
+# Variables:
+>>>>>>> upstream/18.0
 =======
 #   $dateObj (Date) - the creation/modification date and time of the PDF file
 pdfjs-document-properties-date-time-string = { DATETIME($dateObj, dateStyle: "short", timeStyle: "medium") }
@@ -318,6 +333,12 @@ pdfjs-text-annotation-type =
     .alt = [Tabzimt { $type }]
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Variables:
+#   $dateObj (Date) - the modification date and time of the annotation
+pdfjs-annotation-date-time-string = { DATETIME($dateObj, dateStyle: "short", timeStyle: "medium") }
+>>>>>>> upstream/18.0
 =======
 # Variables:
 #   $dateObj (Date) - the modification date and time of the annotation
@@ -350,9 +371,12 @@ pdfjs-editor-stamp-button =
 pdfjs-editor-stamp-button-label = Rnu neɣ ẓreg tugniwin
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 pdfjs-editor-remove-button =
     .title = Kkes
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 pdfjs-editor-highlight-button =
@@ -377,6 +401,9 @@ pdfjs-editor-remove-highlight-button =
 ##
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -391,7 +418,10 @@ pdfjs-editor-stamp-add-image-button =
 pdfjs-editor-stamp-add-image-button-label = Rnu tawlaft
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 # This refers to the thickness of the line used for free highlighting (not bound to text)
@@ -399,6 +429,9 @@ pdfjs-editor-free-highlight-thickness-input = Tuzert
 pdfjs-editor-free-highlight-thickness-title =
     .title = Beddel tuzert mi ara d-tesbeggneḍ iferdisen niḍen ur nelli d aḍris
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -427,7 +460,10 @@ pdfjs-editor-alt-text-decorative-tooltip = Yettwacreḍ d adlag
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 pdfjs-editor-resizer-label-top-left = Tiɣmert n ufella n zelmeḍ — semsawi teɣzi
@@ -501,6 +537,9 @@ pdfjs-editor-alt-text-settings-download-model-button = Sader
 pdfjs-editor-alt-text-settings-downloading-model-button = Asader…
 pdfjs-editor-alt-text-settings-close-button = Mdel
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

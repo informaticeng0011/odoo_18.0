@@ -116,6 +116,10 @@ class TestConfigManager(TransactionCase):
             'shell_interface': None,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'skip_auto_install': False,
+>>>>>>> upstream/18.0
 =======
             'skip_auto_install': False,
 >>>>>>> upstream/18.0
@@ -245,6 +249,10 @@ class TestConfigManager(TransactionCase):
             'shell_interface': 'ipython',  # blacklist for save, read from the config file
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'skip_auto_install': False,
+>>>>>>> upstream/18.0
 =======
             'skip_auto_install': False,
 >>>>>>> upstream/18.0
@@ -373,6 +381,10 @@ class TestConfigManager(TransactionCase):
             'shell_interface': None,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'skip_auto_install': False,
+>>>>>>> upstream/18.0
 =======
             'skip_auto_install': False,
 >>>>>>> upstream/18.0
@@ -532,6 +544,10 @@ class TestConfigManager(TransactionCase):
             'shell_interface': 'ipython',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'skip_auto_install': False,
+>>>>>>> upstream/18.0
 =======
             'skip_auto_install': False,
 >>>>>>> upstream/18.0

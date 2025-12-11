@@ -120,7 +120,21 @@ class MrpBatchProduct(models.TransientModel):
 
         if mark_done:
             return productions.with_context(from_wizard=True).button_mark_done()
+<<<<<<< HEAD
         return
+=======
+
+        print_actions = productions._autoprint_mass_generated_lots()
+        if print_actions:
+            return {
+                'type': 'ir.actions.client',
+                'tag': 'do_multi_print',
+                'context': {},
+                'params': {
+                    'reports': print_actions,
+                }
+            }
+>>>>>>> upstream/18.0
 
     def _process_components(self, production, components_line):
         lot_names = []

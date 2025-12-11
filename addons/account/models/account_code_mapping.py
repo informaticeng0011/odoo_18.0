@@ -1,6 +1,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import fields, models, api
+=======
+from odoo import fields, models, api, _
+from odoo.exceptions import UserError
+>>>>>>> upstream/18.0
 =======
 from odoo import fields, models, api, _
 from odoo.exceptions import UserError
@@ -64,8 +69,11 @@ class AccountCodeMapping(models.Model):
                 ]).filtered_domain(remaining_domain)._as_query()
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         raise NotImplementedError
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         raise UserError(_(
@@ -73,6 +81,9 @@ class AccountCodeMapping(models.Model):
             "It is designed to be used only through the Chart of Accounts."
         ))
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
