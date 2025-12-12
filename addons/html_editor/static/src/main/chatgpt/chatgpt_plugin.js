@@ -162,7 +162,11 @@ export class ChatGPTPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             .getTraversedNodes()
+=======
+            .getTargetedNodes()
+>>>>>>> upstream/18.0
 =======
             .getTargetedNodes()
 >>>>>>> upstream/18.0

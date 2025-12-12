@@ -64,7 +64,11 @@ class LoyaltyReward(models.Model):
                 comodel = self.env[field.comodel_name]
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 matching_ids = list(comodel._search([('display_name', operator, value)]))
+=======
+                matching_ids = list(comodel._search([('display_name', 'ilike', value)]))
+>>>>>>> upstream/18.0
 =======
                 matching_ids = list(comodel._search([('display_name', 'ilike', value)]))
 >>>>>>> upstream/18.0

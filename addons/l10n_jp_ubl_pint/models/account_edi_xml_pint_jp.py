@@ -37,9 +37,12 @@ class AccountEdiXmlUBLPINTJP(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _get_partner_address_vals(self, partner):
         # EXTENDS account_edi_ubl_cii
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -96,6 +99,9 @@ class AccountEdiXmlUBLPINTJP(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -152,6 +158,11 @@ class AccountEdiXmlUBLPINTJP(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
+        # If you change this method, please change the corresponding new helper (at the end of this file).
+>>>>>>> upstream/18.0
 =======
         # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
         # If you change this method, please change the corresponding new helper (at the end of this file).
@@ -244,6 +255,11 @@ class AccountEdiXmlUBLPINTJP(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
+        # If you change this method, please change the corresponding new helper (at the end of this file).
+>>>>>>> upstream/18.0
 =======
         # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
         # If you change this method, please change the corresponding new helper (at the end of this file).
@@ -338,6 +354,12 @@ class AccountEdiXmlUBLPINTJP(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
+        # If you change this method, please change the corresponding new helper (at the end of this file).
+
+>>>>>>> upstream/18.0
 =======
         # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
         # If you change this method, please change the corresponding new helper (at the end of this file).
@@ -473,6 +495,11 @@ class AccountEdiXmlUBLPINTJP(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
+        # If you change this method, please change the corresponding new helper (at the end of this file).
+>>>>>>> upstream/18.0
 =======
         # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
         # If you change this method, please change the corresponding new helper (at the end of this file).
@@ -577,7 +604,10 @@ class AccountEdiXmlUBLPINTJP(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -615,6 +645,51 @@ class AccountEdiXmlUBLPINTJP(models.AbstractModel):
     # EXPORT: New (dict_to_xml) helpers
     # -------------------------------------------------------------------------
 
+<<<<<<< HEAD
+=======
+    def _ubl_default_tax_subtotal_grouping_key(self, tax_grouping_key, vals):
+        # EXTENDS account.edi.xml.ubl_bis3
+        tax_subtotal_grouping_key = super()._ubl_default_tax_subtotal_grouping_key(tax_grouping_key, vals)
+
+        # If there is a TaxTotal section in company currency,
+        # its TaxSubtotals nodes should contain a 'Percent' node.
+        currency = vals['currency_id']
+        company = vals['company']
+        if (
+            currency != company.currency_id
+            and tax_subtotal_grouping_key['currency'] == company.currency_id
+        ):
+            tax_subtotal_grouping_key['percent'] = tax_grouping_key['percent']
+
+        return tax_subtotal_grouping_key
+
+    def _ubl_get_tax_subtotal_node(self, vals, tax_subtotal):
+        # EXTENDS account.edi.xml.ubl_bis3
+        tax_subtotal_node = super()._ubl_get_tax_subtotal_node(vals, tax_subtotal)
+
+        # If there is a TaxTotal section in company currency,
+        # its TaxSubtotals nodes should contain a 'Percent' node.
+        currency = vals['currency_id']
+        company = vals['company']
+        if (
+            currency != company.currency_id
+            and tax_subtotal['currency'] == company.currency_id
+        ):
+            tax_subtotal_node['cbc:Percent'] = {'_text': tax_subtotal['percent']}
+
+        return tax_subtotal_node
+
+    def _add_invoice_tax_total_nodes(self, document_node, vals):
+        # EXTENDS account.edi.xml.ubl_bis3
+        document_node['cac:TaxTotal'] = [
+            self._ubl_get_tax_total_node(vals, tax_total)
+            for tax_total in vals['_ubl_values']['tax_totals_currency'].values()
+        ] + [
+            self._ubl_get_tax_total_node(vals, tax_total)
+            for tax_total in vals['_ubl_values']['tax_totals'].values()
+        ]
+
+>>>>>>> upstream/18.0
     def _add_invoice_header_nodes(self, document_node, vals):
         invoice = vals['invoice']
         super()._add_invoice_header_nodes(document_node, vals)
@@ -623,16 +698,20 @@ class AccountEdiXmlUBLPINTJP(models.AbstractModel):
         document_node['cbc:CustomizationID'] = {'_text': self._get_customization_ids()['pint_jp']}
         document_node['cbc:ProfileID'] = {'_text': 'urn:peppol:bis:billing'}
 
+<<<<<<< HEAD
         if invoice.currency_id != invoice.company_id.currency_id:
             # see https://docs.peppol.eu/poac/jp/pint-jp/bis/#_tax_in_accounting_currency
             document_node['cbc:TaxCurrencyCode'] = {'_text': invoice.company_id.currency_id.name}  # accounting currency
 
+=======
+>>>>>>> upstream/18.0
         # [aligned-ibrp-052] An Invoice MUST have an invoice period (ibg-14) or an Invoice line period (ibg-26).
         document_node['cac:InvoicePeriod'] = {
             'cbc:StartDate': {'_text': invoice.invoice_date},
             'cbc:EndDate': {'_text': invoice.invoice_date},
         }
 
+<<<<<<< HEAD
     def _add_invoice_tax_total_nodes(self, document_node, vals):
         super()._add_invoice_tax_total_nodes(document_node, vals)
 
@@ -656,6 +735,8 @@ class AccountEdiXmlUBLPINTJP(models.AbstractModel):
             tax_subtotal_node['cbc:Percent'] = tax_subtotal_node['cac:TaxCategory']['cbc:Percent']
         return tax_subtotal_node
 
+=======
+>>>>>>> upstream/18.0
     def _get_address_node(self, vals):
         address_node = super()._get_address_node(vals)
         address_node['cbc:CountrySubentityCode'] = None
@@ -682,6 +763,9 @@ class AccountEdiXmlUBLPINTJP(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

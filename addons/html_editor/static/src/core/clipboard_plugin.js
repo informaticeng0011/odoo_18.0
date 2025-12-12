@@ -84,6 +84,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { isTextNode, isParagraphRelatedElement } from "../utils/dom_info";
 import { Plugin } from "../plugin";
 import { closestBlock, isBlock } from "../utils/blocks";
@@ -339,6 +340,8 @@ import { unwrapContents, wrapInlinesInBlocks, splitTextNode, setTagName } from "
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 import {
     isTextNode,
     isParagraphRelatedElement,
@@ -347,6 +350,10 @@ import {
 } from "../utils/dom_info";
 import { Plugin } from "../plugin";
 import { closestBlock, isBlock } from "../utils/blocks";
+<<<<<<< HEAD
+=======
+import { fillClipboardData } from "../utils/clipboard";
+>>>>>>> upstream/18.0
 import {
     unwrapContents,
     wrapInlinesInBlocks,
@@ -418,6 +425,9 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -678,6 +688,11 @@ export const CLIPBOARD_WHITELISTS = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        // Odoo tables
+        "o_table",
+>>>>>>> upstream/18.0
 =======
         // Odoo tables
         "o_table",
@@ -1085,6 +1100,7 @@ export class ClipboardPlugin extends Plugin {
                 }
             }
         }
+<<<<<<< HEAD
         const dataHtmlElement = this.document.createElement("data");
         dataHtmlElement.append(clonedContents);
         prependOriginToImages(dataHtmlElement, window.location.origin);
@@ -1093,6 +1109,9 @@ export class ClipboardPlugin extends Plugin {
         ev.clipboardData.setData("text/plain", odooText);
         ev.clipboardData.setData("text/html", odooHtml);
         ev.clipboardData.setData("application/vnd.odoo.odoo-editor", odooHtml);
+=======
+        fillClipboardData(ev, selection.textContent(), clonedContents);
+>>>>>>> upstream/18.0
         if (commonAncestor && commonAncestor.nodeType === Node.ELEMENT_NODE) {
             this.dispatchTo("normalize_handlers", commonAncestor);
         }
@@ -1319,6 +1338,7 @@ export class ClipboardPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         let textIndex = 1;
         for (const textFragment of textFragments) {
             // Replace consecutive spaces by alternating nbsp.
@@ -1331,6 +1351,8 @@ export class ClipboardPlugin extends Plugin {
                 });
             });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1690,6 +1712,9 @@ export class ClipboardPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2121,10 +2146,14 @@ export class ClipboardPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 // TODO specific exception for "PRE" to keep everything inside one PRE.
                 // Consider removing this if PRE is to be used as a paragraph.
                 block.nodeName !== "PRE" &&
                 !block.closest("li")
+=======
+                block.nodeName !== "PRE"
+>>>>>>> upstream/18.0
 =======
                 block.nodeName !== "PRE"
 >>>>>>> upstream/18.0
@@ -2546,9 +2575,12 @@ export class ClipboardPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     if (this.dependencies.baseContainer.isCandidateForBaseContainer(node)) {
                         childrenNodes = childNodes(node);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2854,6 +2886,9 @@ export class ClipboardPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3149,7 +3184,10 @@ export class ClipboardPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3433,6 +3471,7 @@ export class ClipboardPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3484,6 +3523,8 @@ export class ClipboardPlugin extends Plugin {
 >>>>>>> upstream/18.0
             if (node.nodeName === "TD") {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3684,6 +3725,9 @@ export class ClipboardPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3941,7 +3985,10 @@ export class ClipboardPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 // Keep allowed styles on nodes with allowed tags.
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4206,7 +4253,11 @@ export class ClipboardPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     if (["SPAN", "FONT"].includes(node.tagName)) {
+=======
+                    if (["SPAN", "FONT"].includes(node.tagName) && !isIconElement(node)) {
+>>>>>>> upstream/18.0
 =======
                     if (["SPAN", "FONT"].includes(node.tagName) && !isIconElement(node)) {
 >>>>>>> upstream/18.0
@@ -4557,7 +4608,11 @@ export class ClipboardPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (item instanceof Attr) {
+=======
+        if (item.nodeType === Node.ATTRIBUTE_NODE) {
+>>>>>>> upstream/18.0
 =======
         if (item.nodeType === Node.ATTRIBUTE_NODE) {
 >>>>>>> upstream/18.0
@@ -4925,6 +4980,7 @@ export function isHtmlContentSupported(node) {
         '[data-oe-model]:not([data-oe-field="arch"]):not([data-oe-type="html"]),[data-oe-translation-id]'
     );
 }
+<<<<<<< HEAD
 
 /**
  * Add origin to relative img src.
@@ -5382,3 +5438,5 @@ function prependOriginToImages(doc, origin) {
         }
     });
 }
+=======
+>>>>>>> upstream/18.0

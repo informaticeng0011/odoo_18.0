@@ -89,7 +89,15 @@ class PaymentProvider(models.Model):
         :raise ValidationError: If an HTTP error occurs.
         """
         url = self._paypal_get_api_url() + endpoint
+<<<<<<< HEAD
         headers = {'Content-Type': 'application/json'}  # PayPal always wants JSON content-type.
+=======
+        headers = {
+            'Content-Type': 'application/json',  # PayPal always wants JSON content-type.
+            # PayPal requires a reference specific to Odoo to be able to track Odoo customers.
+            'PayPal-Partner-Attribution-Id': 'OdooInc_SP_EC',
+        }
+>>>>>>> upstream/18.0
         if idempotency_key:
             headers['PayPal-Request-Id'] = idempotency_key
         if not is_refresh_token_request:

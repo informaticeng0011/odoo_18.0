@@ -57,6 +57,11 @@ class AccountEdiXmlUBLNL(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
+        # If you change this method, please change the corresponding new helper (at the end of this file).
+>>>>>>> upstream/18.0
 =======
         # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
         # If you change this method, please change the corresponding new helper (at the end of this file).
@@ -151,6 +156,11 @@ class AccountEdiXmlUBLNL(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
+        # If you change this method, please change the corresponding new helper (at the end of this file).
+>>>>>>> upstream/18.0
 =======
         # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
         # If you change this method, please change the corresponding new helper (at the end of this file).
@@ -244,6 +254,11 @@ class AccountEdiXmlUBLNL(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
+        # If you change this method, please change the corresponding new helper (at the end of this file).
+>>>>>>> upstream/18.0
 =======
         # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
         # If you change this method, please change the corresponding new helper (at the end of this file).
@@ -409,6 +424,11 @@ class AccountEdiXmlUBLNL(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if vals['allowance_charge_reason_code'] == 95:
+                vals['allowance_charge_reason'] = 'Discount'
+>>>>>>> upstream/18.0
 =======
             if vals['allowance_charge_reason_code'] == 95:
                 vals['allowance_charge_reason'] = 'Discount'
@@ -796,6 +816,11 @@ class AccountEdiXmlUBLNL(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
+        # If you change this method, please change the corresponding new helper (at the end of this file).
+>>>>>>> upstream/18.0
 =======
         # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
         # If you change this method, please change the corresponding new helper (at the end of this file).
@@ -889,6 +914,11 @@ class AccountEdiXmlUBLNL(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
+        # If you change this method, please change the corresponding new helper (at the end of this file).
+>>>>>>> upstream/18.0
 =======
         # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
         # If you change this method, please change the corresponding new helper (at the end of this file).
@@ -982,7 +1012,10 @@ class AccountEdiXmlUBLNL(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1020,6 +1053,34 @@ class AccountEdiXmlUBLNL(models.AbstractModel):
     # EXPORT: New (dict_to_xml) helpers
     # -------------------------------------------------------------------------
 
+<<<<<<< HEAD
+=======
+    def _ubl_default_tax_category_grouping_key(self, base_line, tax_data, vals, currency):
+        # EXTENDS account.edi.xml.ubl_bis3
+        grouping_key = super()._ubl_default_tax_category_grouping_key(base_line, tax_data, vals, currency)
+        grouping_key['tax_exemption_reason_code'] = None
+        return grouping_key
+
+    def _ubl_add_values_tax_currency_code(self, vals):
+        # OVERRIDE account.edi.xml.ubl_bis3
+        self._ubl_add_values_tax_currency_code_empty(vals)
+
+    def _add_invoice_tax_total_nodes(self, document_node, vals):
+        # OVERRIDE
+        document_node['cac:TaxTotal'] = [
+            self._ubl_get_tax_total_node(vals, tax_total)
+            for tax_total in vals['_ubl_values']['tax_totals_currency'].values()
+        ]
+
+    def _ubl_get_line_allowance_charge_discount_node(self, vals, discount_values):
+        # EXTENDS account.edi.xml.ubl_bis3
+        discount_node = super()._ubl_get_line_allowance_charge_discount_node(vals, discount_values)
+        discount_node['cbc:AllowanceChargeReasonCode'] = None
+        discount_node['cbc:MultiplierFactorNumeric'] = None
+        discount_node['cbc:BaseAmount'] = None
+        return discount_node
+
+>>>>>>> upstream/18.0
     def _add_invoice_header_nodes(self, document_node, vals):
         # EXTENDS account.edi.xml.ubl_bis3
         super()._add_invoice_header_nodes(document_node, vals)
@@ -1042,6 +1103,7 @@ class AccountEdiXmlUBLNL(models.AbstractModel):
         # /cbc:CountrySubentity) is not recommended
         address_node['cbc:CountrySubentity'] = None
         return address_node
+<<<<<<< HEAD
 
     def _get_line_discount_allowance_charge_node(self, vals):
         # EXTENDS account.edi.xml.ubl_bis3
@@ -1078,6 +1140,8 @@ class AccountEdiXmlUBLNL(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

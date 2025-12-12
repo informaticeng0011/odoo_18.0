@@ -10,6 +10,7 @@ class LoyaltyRule(models.Model):
     website_id = fields.Many2one(related='program_id.website_id', store=True)
 
     # NOTE: is this sufficient?
+<<<<<<< HEAD
     @api.constrains('code', 'website_id')
     def _constrains_code(self):
         #Programs with the same code are allowed to coexist as long
@@ -20,6 +21,20 @@ class LoyaltyRule(models.Model):
             [('website_id', 'in', [False] + [w.id for w in self.website_id]),
             ('mode', '=', 'with_code'), ('code', 'in', mapped_codes),
             ('id', 'not in', with_code.ids)],
+=======
+    @api.constrains('code', 'website_id', 'active')
+    def _constrains_code(self):
+        #Programs with the same code are allowed to coexist as long
+        # as they are not both accessible from a website.
+        with_code = self.filtered(lambda r: r.mode == 'with_code' and r.active)
+        mapped_codes = with_code.mapped('code')
+        read_result = self.env['loyalty.rule'].search_read(
+            [('website_id', 'in', [False] + [w.id for w in self.website_id]),
+            ('mode', '=', 'with_code'),
+            ('code', 'in', mapped_codes),
+            ('id', 'not in', with_code.ids),
+            ('active', '=', True)],
+>>>>>>> upstream/18.0
             fields=['code', 'website_id']) + [{'code': p.code, 'website_id': p.website_id} for p in with_code]
         existing_codes = set()
         for res in read_result:
@@ -30,5 +45,11 @@ class LoyaltyRule(models.Model):
                     raise ValidationError(_('The promo code must be unique.'))
                 existing_codes.add(val)
         # Prevent coupons and programs from sharing a code
+<<<<<<< HEAD
         if self.env['loyalty.card'].search_count([('code', 'in', mapped_codes)]):
+=======
+        if self.env['loyalty.card'].search_count([
+            ('code', 'in', mapped_codes), ('active', '=', True)
+        ]):
+>>>>>>> upstream/18.0
             raise ValidationError(_('A coupon with the same code was found.'))

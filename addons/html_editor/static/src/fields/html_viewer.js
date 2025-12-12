@@ -11,9 +11,17 @@ import {
 } from "@odoo/owl";
 import { getBundle } from "@web/core/assets";
 import { memoize } from "@web/core/utils/functions";
+<<<<<<< HEAD
 import { fixInvalidHTML, instanceofMarkup } from "@html_editor/utils/sanitize";
 import { HtmlUpgradeManager } from "@html_editor/html_migrations/html_upgrade_manager";
 import { TableOfContentManager } from "@html_editor/others/embedded_components/core/table_of_content/table_of_content_manager";
+=======
+import { fillClipboardData } from "@html_editor/utils/clipboard";
+import { fixInvalidHTML, instanceofMarkup } from "@html_editor/utils/sanitize";
+import { HtmlUpgradeManager } from "@html_editor/html_migrations/html_upgrade_manager";
+import { TableOfContentManager } from "@html_editor/others/embedded_components/core/table_of_content/table_of_content_manager";
+import { getDeepestPosition } from "@html_editor/utils/dom_info";
+>>>>>>> upstream/18.0
 
 export class HtmlViewer extends Component {
     static template = "html_editor.HtmlViewer";
@@ -25,6 +33,10 @@ export class HtmlViewer extends Component {
     };
 
     setup() {
+<<<<<<< HEAD
+=======
+        this._cleanups = [];
+>>>>>>> upstream/18.0
         this.htmlUpgradeManager = new HtmlUpgradeManager();
         this.iframeRef = useRef("iframe");
 
@@ -96,6 +108,17 @@ export class HtmlViewer extends Component {
         }
     }
 
+<<<<<<< HEAD
+=======
+    addDomListener(target, eventName, fn, capture = false) {
+        const handler = (ev) => {
+            fn?.call(this, ev);
+        };
+        target.addEventListener(eventName, handler, capture);
+        this._cleanups.push(() => target.removeEventListener(eventName, handler, capture));
+    }
+
+>>>>>>> upstream/18.0
     get showIframe() {
         return this.props.config.hasFullHtml || this.props.config.cssAssetId;
     }
@@ -125,6 +148,32 @@ export class HtmlViewer extends Component {
     processReadonlyContent(container) {
         this.retargetLinks(container);
         this.applyAccessibilityAttributes(container);
+<<<<<<< HEAD
+=======
+        this.addDomListener(container, "copy", this.onCopy);
+    }
+
+    /**
+     * @param {ClipboardEvent} ev
+     */
+    onCopy(ev) {
+        ev.preventDefault();
+        const selection = ev.target.ownerDocument.defaultView.getSelection();
+        const [deepAnchorNode, deepAnchorOffset] = getDeepestPosition(
+            selection.anchorNode,
+            selection.anchorOffset
+        );
+        const [deepFocusNode, deepFocusOffset] = getDeepestPosition(
+            selection.focusNode,
+            selection.focusOffset
+        );
+
+        const range = new Range();
+        range.setStart(deepAnchorNode, deepAnchorOffset);
+        range.setEnd(deepFocusNode, deepFocusOffset);
+        const clonedContents = range.cloneContents();
+        fillClipboardData(ev, selection.toString(), clonedContents);
+>>>>>>> upstream/18.0
     }
 
     /**
@@ -207,6 +256,12 @@ export class HtmlViewer extends Component {
     }
 
     destroyComponents() {
+<<<<<<< HEAD
+=======
+        for (const cleanup of this._cleanups) {
+            cleanup();
+        }
+>>>>>>> upstream/18.0
         for (const info of [...this.components]) {
             this.destroyComponent(info);
         }

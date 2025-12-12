@@ -76,17 +76,23 @@ class UserAgentParser(object):
 
     def __init__(self):
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.platforms = [(b, re.compile(a, re.I)) for a, b in self.platforms]
         self.browsers = [
             (b, re.compile(self._browser_version_re % a, re.I))
             for a, b in self.browsers
         ]
 =======
+=======
+>>>>>>> upstream/18.0
         self.platforms = tuple((b, re.compile(a, re.I)) for a, b in self.platforms)
         self.browsers = tuple(
             (b, re.compile(self._browser_version_re % a, re.I))
             for a, b in self.browsers
         )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     def __call__(self, user_agent):

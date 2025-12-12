@@ -13,7 +13,11 @@
                     <field name="allocated_hours" widget="timesheet_uom" type="measure"/>
                     <field name="effective_hours" widget="timesheet_uom" type="measure"/>
                     <field name="overtime" widget="timesheet_uom"/>
+<<<<<<< HEAD
                     <field name="total_hours_spent" widget="timesheet_uom"/>
+=======
+                    <field name="total_hours_spent" widget="timesheet_uom" invisible="1"/>
+>>>>>>> upstream/18.0
                     <field name="remaining_hours" widget="timesheet_uom" type="measure"/>
                     <field name="remaining_hours_percentage" invisible="1"/>
                 </xpath>
@@ -29,7 +33,11 @@
                     <field name="allocated_hours" widget="timesheet_uom" type="measure"/>
                     <field name="effective_hours" widget="timesheet_uom"/>
                     <field name="subtask_effective_hours" widget="timesheet_uom"/>
+<<<<<<< HEAD
                     <field name="total_hours_spent" widget="timesheet_uom" type="measure"/>
+=======
+                    <field name="total_hours_spent" widget="timesheet_uom" type="measure" invisible="1"/>
+>>>>>>> upstream/18.0
                     <field name="remaining_hours" widget="timesheet_uom" type="measure"/>
                     <field name="overtime" widget="timesheet_uom" type="measure"/>
                     <field name="remaining_hours_percentage" invisible="1"/>

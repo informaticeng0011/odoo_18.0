@@ -109,6 +109,11 @@ import * as TicketScreen from "@point_of_sale/../tests/tours/utils/ticket_screen
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import * as ReceiptScreen from "@point_of_sale/../tests/tours/utils/receipt_screen_util";
+import * as PaymentScreen from "@point_of_sale/../tests/tours/utils/payment_screen_util";
+>>>>>>> upstream/18.0
 =======
 import * as ReceiptScreen from "@point_of_sale/../tests/tours/utils/receipt_screen_util";
 import * as PaymentScreen from "@point_of_sale/../tests/tours/utils/payment_screen_util";
@@ -622,8 +627,11 @@ registry.category("web_tour.tours").add("PosHrTour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             NumberPopup.enterValue("81"),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -815,6 +823,9 @@ registry.category("web_tour.tours").add("PosHrTour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1229,11 +1240,14 @@ registry.category("web_tour.tours").add("CashierCannotClose", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 trigger: negate(`span.dropdown-item:contains("Close Register")`),
             },
         ].flat(),
 });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1766,6 +1780,7 @@ registry.category("web_tour.tours").add("test_basic_user_can_change_price", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1896,6 +1911,8 @@ registry.category("web_tour.tours").add("test_basic_user_can_change_price", {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2236,6 +2253,7 @@ registry.category("web_tour.tours").add("test_cashier_changed_in_receipt", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2328,6 +2346,8 @@ registry.category("web_tour.tours").add("test_cashier_changed_in_receipt", {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2585,6 +2605,7 @@ registry.category("web_tour.tours").add("pos_hr_go_backend_opened_registered", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2707,4 +2728,57 @@ registry.category("web_tour.tours").add("pos_hr_go_backend_opened_registered", {
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+registry
+    .category("web_tour.tours")
+    .add("pos_hr_go_backend_opened_registered_different_user_logged", {
+        steps: () =>
+            [
+                Chrome.clickBtn("Unlock Register"),
+                PosHr.clickLoginButton(),
+
+                // Employee, connected user
+                SelectionPopup.has("Pos Employee1", { run: "click" }),
+                PosHr.enterPin("2580"),
+                Chrome.existMenuOption("Backend"),
+
+                // Manager that opened the session, not connected user
+                PosHr.clickCashierName(),
+                SelectionPopup.has("Test Manager 1", { run: "click" }),
+                PosHr.enterPin("5651"),
+                Chrome.notExistMenuOption("Backend"),
+            ].flat(),
+    });
+
+registry.category("web_tour.tours").add("test_maximum_closing_difference", {
+    steps: () =>
+        [
+            Chrome.clickBtn("Open Register"),
+            PosHr.clickLoginButton(),
+            SelectionPopup.has("Mitchell Admin", { run: "click" }),
+            ProductScreen.enterOpeningAmount("10"),
+            Chrome.clickBtn("Open Register"),
+
+            PosHr.clickCashierName(),
+            SelectionPopup.has("Test Manager 2", { run: "click" }),
+            PosHr.enterPin("5652"),
+            Chrome.clickMenuOption("Close Register"),
+            Chrome.clickBtn("Close Register"),
+            {
+                trigger: negate(`button:contains("Proceed anyway")`),
+            },
+            Chrome.clickBtn("Ok"),
+            Chrome.clickBtn("Discard"),
+
+            PosHr.clickCashierName(),
+            SelectionPopup.has("Mitchell Admin", { run: "click" }),
+            Chrome.clickMenuOption("Close Register"),
+            Chrome.clickBtn("Close Register"),
+            Chrome.hasBtn("Proceed anyway"),
+            Chrome.clickBtn("Proceed anyway"),
+            PosHr.loginScreenIsShown(),
+        ].flat(),
+});
 >>>>>>> upstream/18.0

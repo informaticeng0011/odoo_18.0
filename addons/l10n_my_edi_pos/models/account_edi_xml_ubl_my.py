@@ -96,6 +96,10 @@ class AccountEdiXmlUBLMyInvoisMY(models.AbstractModel):
         self._add_consolidated_invoice_base_lines_vals(vals)
         self._add_document_currency_vals(vals)
         self._add_document_tax_grouping_function_vals(vals)
+<<<<<<< HEAD
+=======
+        self._setup_base_lines(vals)
+>>>>>>> upstream/18.0
         self._add_consolidated_invoice_monetary_total_vals(vals)
 
         document_node = {}
@@ -133,8 +137,14 @@ class AccountEdiXmlUBLMyInvoisMY(models.AbstractModel):
             'customer': general_public_customer,
             'partner_shipping': None,
 
+<<<<<<< HEAD
             'currency_id': consolidated_invoice.currency_id,
             'company_currency_id': consolidated_invoice.company_id.currency_id,
+=======
+            'company': consolidated_invoice.company_id,
+            'currency_id': consolidated_invoice.currency_id,
+            'company_currency_id': consolidated_invoice.company_currency_id,
+>>>>>>> upstream/18.0
 
             'use_company_currency': False,
             'fixed_taxes_as_allowance_charges': True,
@@ -310,6 +320,7 @@ class AccountEdiXmlUBLMyInvoisMY(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         # We aggregate multiple PoS orders into an UBL InvoiceLine.
         # So any cash rounding will just be part of the line's amount.
@@ -782,6 +793,10 @@ class AccountEdiXmlUBLMyInvoisMY(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
         # We aggregate multiple PoS orders into an UBL InvoiceLine.
+        # So any cash rounding will just be part of the line's amount.
+        vals['cash_rounding_base_lines'] = []
+>>>>>>> upstream/18.0
+=======
         # So any cash rounding will just be part of the line's amount.
         vals['cash_rounding_base_lines'] = []
 >>>>>>> upstream/18.0

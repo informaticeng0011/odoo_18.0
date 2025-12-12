@@ -11,6 +11,10 @@ from odoo import fields
 from odoo.addons.project import _check_exists_collaborators_for_project_sharing
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.tools.sql import SQL
+>>>>>>> upstream/18.0
 =======
 from odoo.tools.sql import SQL
 >>>>>>> upstream/18.0
@@ -57,7 +61,10 @@ def _uninstall_hook(env):
     env['ir.model.data'].search([('name', 'ilike', 'internal_project_default_stage')]).unlink()
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -81,6 +88,9 @@ def _pre_init_hook(env):
        ADD COLUMN IF NOT EXISTS manager_id     INT4
     """))
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

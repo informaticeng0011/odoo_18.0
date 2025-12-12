@@ -45,7 +45,13 @@ export class EpsonPrinter extends BasePrinter {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.url = window.location.protocol + "//" + ip;
+=======
+
+        const protocol = odoo.use_lna ? "http:" : window.location.protocol;
+        this.url = protocol + "//" + ip;
+>>>>>>> upstream/18.0
 =======
 
         const protocol = odoo.use_lna ? "http:" : window.location.protocol;
@@ -220,11 +226,14 @@ export class EpsonPrinter extends BasePrinter {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const res = await fetch(this.address, {
             method: "POST",
             body: img,
         });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -301,6 +310,9 @@ export class EpsonPrinter extends BasePrinter {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

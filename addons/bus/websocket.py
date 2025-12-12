@@ -200,7 +200,10 @@ VALID_CLOSE_CODES = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 CLEAN_CLOSE_CODES = {CloseCode.CLEAN, CloseCode.GOING_AWAY, CloseCode.RESTART}
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -316,11 +319,14 @@ class Websocket:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     # Proxies usually close a connection after 1 minute of inactivity.
     # Therefore, a PING frame have to be sent if no frame is either sent
     # or received within CONNECTION_TIMEOUT - 15 seconds.
     CONNECTION_TIMEOUT = 60
     INACTIVITY_TIMEOUT = CONNECTION_TIMEOUT - 15
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -467,6 +473,7 @@ class Websocket:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     selector_key[0].fileobj for selector_key in
                     self.__selector.select(self.INACTIVITY_TIMEOUT)
                 }
@@ -479,6 +486,8 @@ class Websocket:
                     continue
                 if not readables:
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -561,6 +570,9 @@ class Websocket:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -867,8 +879,14 @@ class Websocket:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if frame.code not in CLEAN_CLOSE_CODES or self._close_received:
             return self._terminate()
+=======
+        if frame.code is CloseCode.ABNORMAL_CLOSURE or self._close_received:
+            self._terminate()
+            return
+>>>>>>> upstream/18.0
 =======
         if frame.code is CloseCode.ABNORMAL_CLOSURE or self._close_received:
             self._terminate()
@@ -1095,8 +1113,11 @@ class Websocket:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.disconnect(code, reason)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1170,6 +1191,9 @@ class Websocket:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1324,6 +1348,7 @@ class Websocket:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 class TimeoutReason(IntEnum):
     KEEP_ALIVE = 0
     NO_RESPONSE = 1
@@ -1337,6 +1362,8 @@ class TimeoutManager:
     the connection is considered to have timed out. To determine if the
     connection has timed out, use the `has_timed_out` method.
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1411,6 +1438,9 @@ class TimeoutManager:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1487,6 +1517,7 @@ class TimeoutManager:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     def __init__(self):
         super().__init__()
@@ -1494,6 +1525,8 @@ class TimeoutManager:
         # Time in which the connection was opened.
         self._opened_at = time.time()
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1576,6 +1609,9 @@ class TimeoutManager:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1628,6 +1664,7 @@ class TimeoutManager:
         self._keep_alive_timeout = (
             self.KEEP_ALIVE_TIMEOUT + random.uniform(0, self.KEEP_ALIVE_TIMEOUT / 2)
         )
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1708,6 +1745,8 @@ class TimeoutManager:
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         self._keep_alive_expiration_time = time.time() + self._keep_alive_timeout
         self._next_ping_time = time.time() + self.INACTIVITY_TIMEOUT
 
@@ -1737,6 +1776,9 @@ class TimeoutManager:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1790,6 +1832,7 @@ class TimeoutManager:
         Acknowledge a frame was sent. If this frame is a PING/CLOSE
         frame, start waiting for an answer.
         """
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1885,6 +1928,8 @@ class TimeoutManager:
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         now = time.time()
         self._next_ping_time = now + self.INACTIVITY_TIMEOUT
         if frame.opcode in (Opcode.PING, Opcode.CLOSE):
@@ -1932,6 +1977,9 @@ class TimeoutManager:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2089,6 +2137,7 @@ class WebsocketConnectionHandler:
     # Latest version of the websocket worker. This version should be incremented
     # every time `websocket_worker.js` is modified to force the browser to fetch
     # the new worker bundle.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2774,6 +2823,9 @@ class WebsocketConnectionHandler:
 =======
     _VERSION = "18.0-7"
 >>>>>>> upstream/18.0
+=======
+    _VERSION = "18.0-7"
+>>>>>>> upstream/18.0
 
     @classmethod
     def websocket_allowed(cls, request):
@@ -2960,6 +3012,12 @@ class WebsocketConnectionHandler:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if message == b'\x00':
+                # Ignore internal sentinel message used to detect dead/idle connections.
+                continue
+>>>>>>> upstream/18.0
 =======
             if message == b'\x00':
                 # Ignore internal sentinel message used to detect dead/idle connections.

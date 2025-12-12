@@ -29,6 +29,7 @@ export class MailAttachments extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return this.props.record.data[this.props.name] || [];
 =======
 =======
@@ -44,6 +45,13 @@ export class MailAttachments extends Component {
 =======
 >>>>>>> upstream/18.0
         const attachments = this.props.record.data[this.props.name] || [];
+=======
+        return this.props.record.data[this.props.name] || [];
+    }
+
+    getRenderedValue() {
+        const attachments = JSON.parse(JSON.stringify(this.getValue()));
+>>>>>>> upstream/18.0
         const attachmentsNotSupported = this.props.record.data.attachments_not_supported || {};
         for (const attachment of attachments) {
             if (attachment.id && attachment.id in attachmentsNotSupported) {
@@ -57,6 +65,9 @@ export class MailAttachments extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -80,6 +91,7 @@ export class MailAttachments extends Component {
         return file.name.replace(/^.*\./, "");
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -123,6 +135,13 @@ export class MailAttachments extends Component {
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+    get iconsSupported() {
+        // Technical getter to display icons in view
+        return this.getRenderedValue().some(attachment => !!attachment.tooltip);
+    }
+
 >>>>>>> upstream/18.0
     onFileUploaded(files) {
         let extraFiles = [];

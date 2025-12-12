@@ -2,11 +2,14 @@ import logging
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import werkzeug.http
 from datetime import datetime
 from mimetypes import guess_extension
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -18,6 +21,9 @@ import werkzeug.http
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -27,6 +33,7 @@ from odoo import models
 from odoo.exceptions import MissingError, UserError
 from odoo.http import Stream, request
 from odoo.tools import file_open, replace_exceptions
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -40,12 +47,17 @@ from odoo.tools.misc import verify_limited_field_access_token
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 from odoo.tools.image import image_guess_size_from_field_name, image_process
 from odoo.tools.mimetypes import MIMETYPE_HEAD_SIZE, get_extension, guess_mimetype
 from odoo.tools.misc import verify_limited_field_access_token
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -173,11 +185,14 @@ class IrBinary(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     head = stream.data[:1024]
                 else:
                     with open(stream.path, 'rb') as file:
                         head = file.read(1024)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -188,6 +203,9 @@ class IrBinary(models.AbstractModel):
                         head = file.read(MIMETYPE_HEAD_SIZE)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -65,6 +65,10 @@ from . import test_alert
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from . import test_order
+>>>>>>> upstream/18.0
 =======
 from . import test_order
 >>>>>>> upstream/18.0

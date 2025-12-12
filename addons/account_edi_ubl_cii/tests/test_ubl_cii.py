@@ -160,6 +160,7 @@ from lxml import etree
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import Command
 =======
 from odoo import fields, Command
@@ -826,6 +827,17 @@ from odoo.tools.safe_eval import datetime
 
 @tagged('post_install', '-at_install')
 class TestAccountEdiUblCii(AccountTestInvoicingCommon):
+=======
+from odoo import fields, Command
+from odoo.addons.account_edi_ubl_cii.tests.common import TestUblCiiCommon
+from odoo.tests import tagged
+from odoo.tools import file_open
+from odoo.tools.safe_eval import datetime
+
+
+@tagged('post_install', '-at_install')
+class TestAccountEdiUblCii(TestUblCiiCommon):
+>>>>>>> upstream/18.0
 
     @classmethod
     def setUpClass(cls):
@@ -938,7 +950,10 @@ class TestAccountEdiUblCii(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1127,6 +1142,7 @@ class TestAccountEdiUblCii(AccountTestInvoicingCommon):
             'xsi': "http://www.w3.org/2001/XMLSchema-instance",
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1966,6 +1982,9 @@ class TestAccountEdiUblCii(AccountTestInvoicingCommon):
 =======
     def test_export_import_product(self):
 >>>>>>> upstream/18.0
+=======
+    def test_export_import_product(self):
+>>>>>>> upstream/18.0
         products = self.env['product.product'].create([{
             'name': 'XYZ',
             'default_code': '1234',
@@ -2137,6 +2156,9 @@ class TestAccountEdiUblCii(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2624,8 +2646,11 @@ class TestAccountEdiUblCii(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             }
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3111,6 +3136,9 @@ class TestAccountEdiUblCii(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3522,8 +3550,11 @@ class TestAccountEdiUblCii(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         company.partner_id.with_company(company).invoice_edi_format = 'facturx'
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3803,6 +3834,7 @@ class TestAccountEdiUblCii(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         invoice = self.env['account.move'].create({
             'company_id': company.id,
             'partner_id': company.partner_id.id,
@@ -3830,6 +3862,8 @@ class TestAccountEdiUblCii(AccountTestInvoicingCommon):
         new_invoice = invoice.journal_id._create_document_from_attachment(facturx_attachment.ids)
         self.assertRecordValues(new_invoice.invoice_line_ids, line_vals)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4146,6 +4180,9 @@ class TestAccountEdiUblCii(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4365,7 +4402,11 @@ class TestAccountEdiUblCii(AccountTestInvoicingCommon):
             })
 
         # Import the document for the first time
+<<<<<<< HEAD
         bill = self.import_attachment(xml_attachment, self.company_data["default_journal_purchase"])
+=======
+        bill = self._import_as_attachment_on(attachment=xml_attachment)
+>>>>>>> upstream/18.0
 
         # Ensure the first tax is retrieved as there isn't any prediction that could be leverage
         self.assertEqual(bill.invoice_line_ids.tax_ids, new_tax_1)
@@ -4375,7 +4416,11 @@ class TestAccountEdiUblCii(AccountTestInvoicingCommon):
         bill.action_post()
 
         # Import the bill again and ensure the prediction did his work
+<<<<<<< HEAD
         bill = self.import_attachment(xml_attachment, self.company_data["default_journal_purchase"])
+=======
+        bill = self._import_as_attachment_on(attachment=xml_attachment)
+>>>>>>> upstream/18.0
         self.assertEqual(bill.invoice_line_ids.tax_ids, new_tax_2)
 
     def test_peppol_eas_endpoint_compute(self):
@@ -4413,6 +4458,7 @@ class TestAccountEdiUblCii(AccountTestInvoicingCommon):
 
     def test_import_partner_peppol_fields(self):
         """ Check that the peppol fields are used to retrieve the partner when importing a Bis 3 xml. """
+<<<<<<< HEAD
         partner = self.env['res.partner'].create({
             'name': "My Belgian Partner",
             'vat': "BE0477472701",
@@ -4422,6 +4468,10 @@ class TestAccountEdiUblCii(AccountTestInvoicingCommon):
         })
         invoice = self.env['account.move'].create({
             'partner_id': partner.id,
+=======
+        invoice = self.env['account.move'].create({
+            'partner_id': self.partner_be.id,
+>>>>>>> upstream/18.0
             'move_type': 'out_invoice',
             'invoice_line_ids': [Command.create({'product_id': self.product_a.id})]
         })
@@ -4437,14 +4487,23 @@ class TestAccountEdiUblCii(AccountTestInvoicingCommon):
             'email': "mypartner@email.com",
         })
         # Change the fields of the partner, keep the peppol fields
+<<<<<<< HEAD
         partner.update({
+=======
+        self.partner_be.update({
+>>>>>>> upstream/18.0
             'name': "Turlututu",
             'email': False,
             'vat': False,
         })
         # The partner should be retrieved based on the peppol fields
+<<<<<<< HEAD
         imported_invoice = self.import_attachment(xml_attachment, self.company_data["default_journal_sale"])
         self.assertEqual(imported_invoice.partner_id, partner)
+=======
+        imported_invoice = self._import_as_attachment_on(attachment=xml_attachment, journal=self.company_data["default_journal_sale"])
+        self.assertEqual(imported_invoice.partner_id, self.partner_be)
+>>>>>>> upstream/18.0
 
     def test_actual_delivery_date_in_cii_xml(self):
 
@@ -4461,6 +4520,7 @@ class TestAccountEdiUblCii(AccountTestInvoicingCommon):
             'name': 'test_invoice.xml',
         })
         xml_tree = etree.fromstring(xml_attachment.raw)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5214,6 +5274,11 @@ class TestAccountEdiUblCii(AccountTestInvoicingCommon):
         self.assertEqual(actual_delivery_date.text, '20241231')
 
 >>>>>>> upstream/18.0
+=======
+        actual_delivery_date = xml_tree.find('.//ram:ActualDeliverySupplyChainEvent/ram:OccurrenceDateTime/udt:DateTimeString', self.namespaces)
+        self.assertEqual(actual_delivery_date.text, '20241231')
+
+>>>>>>> upstream/18.0
     def test_billing_date_in_cii_xml(self):
         invoice = self.env['account.move'].create({
             'partner_id': self.partner_a.id,
@@ -5230,6 +5295,7 @@ class TestAccountEdiUblCii(AccountTestInvoicingCommon):
             'name': 'test_invoice.xml',
         })
         xml_tree = etree.fromstring(xml_attachment.raw)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5714,6 +5780,8 @@ class TestAccountEdiUblCii(AccountTestInvoicingCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         start_date = xml_tree.find('.//ram:ApplicableHeaderTradeSettlement/ram:BillingSpecifiedPeriod/ram:StartDateTime/udt:DateTimeString', self.namespaces)
         end_date = xml_tree.find('.//ram:ApplicableHeaderTradeSettlement/ram:BillingSpecifiedPeriod/ram:EndDateTime/udt:DateTimeString', self.namespaces)
         self.assertEqual(start_date.text, '20241201')
@@ -5883,6 +5951,9 @@ class TestAccountEdiUblCii(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6076,7 +6147,11 @@ class TestAccountEdiUblCii(AccountTestInvoicingCommon):
                 'raw': file.read(),
             })
 
+<<<<<<< HEAD
         bill = self.import_attachment(xml_attachment, self.company_data["default_journal_purchase"])
+=======
+        bill = self._import_as_attachment_on(attachment=xml_attachment)
+>>>>>>> upstream/18.0
 
         self.assertRecordValues(bill.partner_id, [{
             'name': "ALD Automotive LU",
@@ -6235,7 +6310,10 @@ class TestAccountEdiUblCii(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6651,12 +6729,15 @@ class TestAccountEdiUblCii(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'invoice_line_ids': [Command.create({
                 'product_id': self.product_a.id,
                 'quantity': 3,
                 'price_unit': 11.34,
             })],
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7020,6 +7101,9 @@ class TestAccountEdiUblCii(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7260,6 +7344,7 @@ class TestAccountEdiUblCii(AccountTestInvoicingCommon):
             'raw': self.env['account.edi.xml.cii']._export_invoice(invoice)[0],
             'name': 'test_invoice.xml',
         })
+<<<<<<< HEAD
         imported_invoice = self.import_attachment(xml_attachment, self.company_data["default_journal_sale"])
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7754,6 +7839,9 @@ class TestAccountEdiUblCii(AccountTestInvoicingCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+        imported_invoice = self._import_as_attachment_on(attachment=xml_attachment, journal=self.company_data["default_journal_sale"])
+>>>>>>> upstream/18.0
         for line in imported_invoice.invoice_line_ids:
             self.assertFalse(line.discount, "A discount on the imported lines signals a rounding error in the discount computation")
 
@@ -7835,6 +7923,7 @@ class TestAccountEdiUblCii(AccountTestInvoicingCommon):
             'invoice_line_ids': [Command.create({'product_id': self.product_a.id})],
         })
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8057,6 +8146,8 @@ class TestAccountEdiUblCii(AccountTestInvoicingCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         invoice.partner_id.commercial_partner_id.invoice_edi_format = 'ubl_bis3'
         invoice.action_post()
         invoice.invoice_date_due = fields.Date.from_string('2024-12-31')
@@ -8133,6 +8224,9 @@ class TestAccountEdiUblCii(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8391,6 +8485,7 @@ class TestAccountEdiUblCii(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8544,6 +8639,8 @@ class TestAccountEdiUblCii(AccountTestInvoicingCommon):
 >>>>>>> upstream/18.0
 =======
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8594,6 +8691,9 @@ class TestAccountEdiUblCii(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8703,6 +8803,9 @@ class TestAccountEdiUblCii(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

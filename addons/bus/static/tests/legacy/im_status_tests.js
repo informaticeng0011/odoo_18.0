@@ -151,7 +151,10 @@ QUnit.test("update presence when user status changes to away", async () => {
     await assertSteps(["update_presence"]);
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 QUnit.test("new tab update presence when user comes back from away", async () => {
     // Tabs notify presence with a debounced update, and the status service skips
@@ -183,4 +186,7 @@ QUnit.test("new tab update presence when user comes back from away", async () =>
     browser.localStorage.setItem("presence.lastPresence", Date.now()); // Simulate user presence.
     await assertSteps(["update_presence", "update_presence"]);
 });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

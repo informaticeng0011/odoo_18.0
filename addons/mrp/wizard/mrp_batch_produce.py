@@ -121,8 +121,11 @@ class MrpBatchProduct(models.TransientModel):
         if mark_done:
             return productions.with_context(from_wizard=True).button_mark_done()
 <<<<<<< HEAD
+<<<<<<< HEAD
         return
 =======
+=======
+>>>>>>> upstream/18.0
 
         print_actions = productions._autoprint_mass_generated_lots()
         if print_actions:
@@ -134,6 +137,9 @@ class MrpBatchProduct(models.TransientModel):
                     'reports': print_actions,
                 }
             }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     def _process_components(self, production, components_line):

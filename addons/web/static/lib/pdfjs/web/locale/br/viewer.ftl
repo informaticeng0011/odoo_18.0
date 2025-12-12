@@ -52,12 +52,15 @@ pdfjs-bookmark-button-label = Pajenn a-vremañ
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Used in Firefox for Android.
 pdfjs-open-in-app-button =
     .title = Digeriñ en arload
 # Used in Firefox for Android.
 # Length of the translation matters since we are in a mobile context, with limited screen estate.
 pdfjs-open-in-app-button-label = Digeriñ en arload
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -226,6 +229,10 @@ pdfjs-find-match-case-checkbox-label = Teurel evezh ouzh ar pennlizherennoù
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+pdfjs-find-match-diacritics-checkbox-label = Doujañ d’an tiredoù
+>>>>>>> upstream/18.0
 =======
 pdfjs-find-match-diacritics-checkbox-label = Doujañ d’an tiredoù
 >>>>>>> upstream/18.0
@@ -316,6 +323,11 @@ pdfjs-editor-stamp-add-image-button-label = Ouzhpennañ ur skeudenn
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# This refers to the thickness of the line used for free highlighting (not bound to text)
+pdfjs-editor-free-highlight-thickness-input = Tevded
+>>>>>>> upstream/18.0
 =======
 # This refers to the thickness of the line used for free highlighting (not bound to text)
 pdfjs-editor-free-highlight-thickness-input = Tevded
@@ -350,7 +362,10 @@ pdfjs-editor-alt-text-save-button = Enrollañ
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -387,6 +402,9 @@ pdfjs-editor-alt-text-settings-downloading-model-button = O pellgargañ…
 pdfjs-editor-alt-text-settings-close-button = Serriñ
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

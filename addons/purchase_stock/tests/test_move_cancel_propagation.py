@@ -223,6 +223,10 @@ class TestMoveCancelPropagation(PurchaseTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.assertEqual(self.move.procure_method, 'make_to_stock')
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(self.move.procure_method, 'make_to_stock')
 >>>>>>> upstream/18.0
@@ -666,6 +670,10 @@ class TestMoveCancelPropagation(PurchaseTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.assertEqual(self.move.procure_method, 'make_to_stock')
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(self.move.procure_method, 'make_to_stock')
 >>>>>>> upstream/18.0

@@ -150,8 +150,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { after, beforeEach } from "@odoo/hoot";
 import { mockWorker } from "@odoo/hoot-mock";
+=======
+import { after } from "@odoo/hoot";
+import { Deferred, mockWorker } from "@odoo/hoot-mock";
+>>>>>>> upstream/18.0
 =======
 import { after } from "@odoo/hoot";
 import { Deferred, mockWorker } from "@odoo/hoot-mock";
@@ -921,6 +926,7 @@ import { patch } from "@web/core/utils/patch";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const getWebSocketCallbacks = () => {
     if (!wsCallbacks) {
         wsCallbacks = new Map();
@@ -932,6 +938,8 @@ const getWebSocketCallbacks = () => {
     return wsCallbacks;
 };
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1422,6 +1430,9 @@ function setupWebSocketWorker() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1911,6 +1922,7 @@ export function onWebsocketEvent(eventName, callback) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 beforeEach(
     () => {
         currentWebSocketWorker = new WebsocketWorker();
@@ -1926,6 +1938,8 @@ beforeEach(
     { global: true }
 );
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2388,6 +2402,9 @@ patch(MockServer.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

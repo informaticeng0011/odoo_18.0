@@ -65,7 +65,11 @@
                             </div>
                         </td>
                     </t>
+<<<<<<< HEAD
                     <t t-else="">
+=======
+                    <t t-elif="commercial_partner != invoice_partner or commercial_partner != delivery_partner">
+>>>>>>> upstream/18.0
                         <t t-if="doc.partner_invoice_id == doc.partner_shipping_id">
                             <td class="shipping_address">
                                 <span class="fw-bold">Invoicing and Shipping Address:</span>

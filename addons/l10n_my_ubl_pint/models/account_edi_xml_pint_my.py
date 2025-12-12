@@ -33,7 +33,10 @@ class AccountEdiXmlUBLPINTMY(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -86,6 +89,9 @@ class AccountEdiXmlUBLPINTMY(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -156,6 +162,7 @@ class AccountEdiXmlUBLPINTMY(models.AbstractModel):
             # TIN
             gst_tax_scheme = tax_scheme_vals_list[0].copy()
             gst_tax_scheme.update({
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -521,6 +528,9 @@ class AccountEdiXmlUBLPINTMY(models.AbstractModel):
 =======
                 'company_id': partner.vat or 'NA',
 >>>>>>> upstream/18.0
+=======
+                'company_id': partner.vat or 'NA',
+>>>>>>> upstream/18.0
                 'tax_scheme_vals': {'id': 'GST'},
             })
             tax_scheme_vals_list.append(gst_tax_scheme)
@@ -588,7 +598,10 @@ class AccountEdiXmlUBLPINTMY(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -626,16 +639,30 @@ class AccountEdiXmlUBLPINTMY(models.AbstractModel):
     # EXPORT: New (dict_to_xml) helpers
     # -------------------------------------------------------------------------
 
+<<<<<<< HEAD
     def _get_tax_category_code(self, customer, supplier, tax):
         """
         In malaysia, only the following codes can be used: T, E, O
         https://docs.peppol.eu/poac/my/pint-my/bis/#_tax_category_code
         """
         # OVERRIDE account_edi_ubl_cii
+=======
+    def _ubl_default_tax_category_grouping_key(self, base_line, tax_data, vals, currency):
+        # EXTENDS account.edi.xml.ubl_bis3
+
+        # In malaysia, tax on good is paid at the manufacturer level. It is thus common to invoice without taxes,
+        # unless invoicing for a service.
+        if not tax_data:
+            return
+
+        grouping_key = super()._ubl_default_tax_category_grouping_key(base_line, tax_data, vals, currency)
+
+>>>>>>> upstream/18.0
         # If a business is not registered for SST and/or TTx, the business is not allowed to charge sales tax,
         # service tax or tourism tax in the e-Invoice.
         # In this case, the tax category code should be 'O' (Outside scope of tax).
         # For now, we do not properly support Tourism tax (TTx) due to a lack of clarity on the subject.
+<<<<<<< HEAD
         if not supplier.sst_registration_number:
             return 'O'
         elif tax.amount != 0:
@@ -658,6 +685,17 @@ class AccountEdiXmlUBLPINTMY(models.AbstractModel):
             return tax_grouping_function(base_line, tax_data)
 
         vals['tax_grouping_function'] = modified_tax_grouping_function
+=======
+        supplier = vals['supplier']
+        if not supplier.sst_registration_number:
+            grouping_key['tax_category_code'] = 'O'
+        elif tax_data['tax'].amount != 0:
+            grouping_key['tax_category_code'] = 'T'
+        else:
+            grouping_key['tax_category_code'] = 'E'
+
+        return grouping_key
+>>>>>>> upstream/18.0
 
     def _add_invoice_header_nodes(self, document_node, vals):
         # EXTENDS account.edi.xml.ubl_bis3
@@ -665,11 +703,14 @@ class AccountEdiXmlUBLPINTMY(models.AbstractModel):
         document_node['cbc:CustomizationID'] = {'_text': self._get_customization_ids()['pint_my']}
         document_node['cbc:ProfileID'] = {'_text': 'urn:peppol:bis:billing'}
 
+<<<<<<< HEAD
         invoice = vals['invoice']
         if invoice.currency_id != invoice.company_id.currency_id:
             # see https://docs.peppol.eu/poac/my/pint-my/bis/#_tax_in_accounting_currency
             document_node['cbc:TaxCurrencyCode'] = {'_text': invoice.company_id.currency_id.name}
 
+=======
+>>>>>>> upstream/18.0
     def _get_party_node(self, vals):
         party_node = super()._get_party_node(vals)
         commercial_partner = vals['partner'].commercial_partner_id
@@ -690,6 +731,7 @@ class AccountEdiXmlUBLPINTMY(models.AbstractModel):
 
         return party_node
 
+<<<<<<< HEAD
     def _add_invoice_tax_total_nodes(self, document_node, vals):
         # EXTENDS account.edi.xml.ubl_bis3
         super()._add_invoice_tax_total_nodes(document_node, vals)
@@ -704,11 +746,14 @@ class AccountEdiXmlUBLPINTMY(models.AbstractModel):
         # Remove the tax subtotals from the TaxTotal in company currency
         document_node['cac:TaxTotal'][-1]['cac:TaxSubtotal'] = []
 
+=======
+>>>>>>> upstream/18.0
     def _export_invoice_constraints_new(self, invoice, vals):
         # EXTENDS account_edi_ubl_cii
         constraints = super()._export_invoice_constraints_new(invoice, vals)
 
         # A tax category "Outside of tax cope" can only have an amount of 0.
+<<<<<<< HEAD
         tax_total_node = vals['document_node']['cac:TaxTotal'][0]
         for tax_subtotal_node in tax_total_node['cac:TaxSubtotal']:
             tax_category_node = tax_subtotal_node['cac:TaxCategory']
@@ -718,6 +763,17 @@ class AccountEdiXmlUBLPINTMY(models.AbstractModel):
                     "Otherwise, you are not allowed to charge sales or services taxes in the e-Invoice."
                 )
                 break
+=======
+        for tax_total_node in vals['document_node']['cac:TaxTotal']:
+            for tax_subtotal_node in tax_total_node['cac:TaxSubtotal']:
+                for tax_category_node in tax_subtotal_node['cac:TaxCategory']:
+                    if tax_category_node['cbc:ID'] == 'O' and tax_subtotal_node['cbc:Percent'] != 0:
+                        constraints['peppol_my_sst_registration'] = _(
+                            "If your business is registered for SST, please provide your registration number in your company details.\n"
+                            "Otherwise, you are not allowed to charge sales or services taxes in the e-Invoice."
+                        )
+                        break
+>>>>>>> upstream/18.0
 
         # In malaysia, tax on good is paid at the manufacturer level. It is thus common to invoice without taxes,
         # unless invoicing for a service.
@@ -741,6 +797,9 @@ class AccountEdiXmlUBLPINTMY(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

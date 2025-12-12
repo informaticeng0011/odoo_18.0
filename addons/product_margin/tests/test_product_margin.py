@@ -85,9 +85,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from unittest.mock import patch
 
 from odoo import Command
+=======
+
+from unittest.mock import patch
+from odoo import Command, fields
+>>>>>>> upstream/18.0
 =======
 
 from unittest.mock import patch
@@ -725,7 +731,11 @@ class TestProductMargin(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'invoice_date': '2025-01-01',
+=======
+            'invoice_date': fields.Date.today(),
+>>>>>>> upstream/18.0
 =======
             'invoice_date': fields.Date.today(),
 >>>>>>> upstream/18.0

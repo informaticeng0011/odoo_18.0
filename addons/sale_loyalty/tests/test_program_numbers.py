@@ -680,7 +680,10 @@ class TestSaleCouponProgramNumbers(TestSaleCouponNumbersCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -959,6 +962,9 @@ class TestSaleCouponProgramNumbers(TestSaleCouponNumbersCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1827,7 +1833,10 @@ class TestSaleCouponProgramNumbers(TestSaleCouponNumbersCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_program_multi_product_max_discount(self):
@@ -1867,6 +1876,9 @@ class TestSaleCouponProgramNumbers(TestSaleCouponNumbersCommon):
         )
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2502,7 +2514,10 @@ class TestSaleCouponProgramNumbers(TestSaleCouponNumbersCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2809,6 +2824,9 @@ class TestSaleCouponProgramNumbers(TestSaleCouponNumbersCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

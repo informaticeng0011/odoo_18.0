@@ -94,7 +94,11 @@ from odoo.tools import frozendict, groupby, html2plaintext, is_html_empty, split
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tools.float_utils import float_repr, float_round, float_compare
+=======
+from odoo.tools.float_utils import float_is_zero, float_repr, float_round, float_compare
+>>>>>>> upstream/18.0
 =======
 from odoo.tools.float_utils import float_is_zero, float_repr, float_round, float_compare
 >>>>>>> upstream/18.0
@@ -431,6 +435,7 @@ class AccountTaxGroup(models.Model):
         for group in self:
             group.country_id = group.company_id.account_fiscal_country_id or group.company_id.country_id
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1643,6 +1648,8 @@ class AccountTaxGroup(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     @api.model
     def _check_misconfigured_tax_groups(self, company, countries):
         """ Searches the tax groups used on the taxes from company in countries that don't have
@@ -2141,7 +2148,11 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if float_compare(total_pos_factor, 1.0, precision_digits=2):
+=======
+            if total_pos_factor and float_compare(total_pos_factor, 1.0, precision_digits=2):
+>>>>>>> upstream/18.0
 =======
             if total_pos_factor and float_compare(total_pos_factor, 1.0, precision_digits=2):
 >>>>>>> upstream/18.0
@@ -2395,7 +2406,10 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2734,6 +2748,9 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3065,10 +3082,13 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @api.depends_context('append_type_to_tax_name')
     def _compute_display_name(self):
         type_tax_use = dict(self._fields['type_tax_use']._description_selection(self.env))
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3262,6 +3282,9 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3457,7 +3480,11 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if len(self.env.companies) > 1 and self.env.context.get('params', {}).get('model') == 'product.template':
+=======
+                if 'company_id' in fields_to_include and len(self.env.companies) > 1:
+>>>>>>> upstream/18.0
 =======
                 if 'company_id' in fields_to_include and len(self.env.companies) > 1:
 >>>>>>> upstream/18.0
@@ -3776,6 +3803,11 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        [!] Only added python-side.
+
+>>>>>>> upstream/18.0
 =======
         [!] Only added python-side.
 
@@ -4244,6 +4276,11 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        [!] Only added python-side.
+
+>>>>>>> upstream/18.0
 =======
         [!] Only added python-side.
 
@@ -4729,6 +4766,11 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        [!] Only added python-side.
+
+>>>>>>> upstream/18.0
 =======
         [!] Only added python-side.
 
@@ -5201,6 +5243,11 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        [!] Only added python-side.
+
+>>>>>>> upstream/18.0
 =======
         [!] Only added python-side.
 
@@ -5697,6 +5744,7 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _batch_for_taxes_computation(self, special_mode=False):
 =======
 =======
@@ -5940,6 +5988,8 @@ class AccountTax(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     def _eval_taxes_computation_prepare_product_uom_fields(self):
         """ Get the fields to create the evaluation context from the product uom for the taxes computation.
 
@@ -6037,6 +6087,9 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6218,6 +6271,9 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6588,7 +6644,12 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         :param special_mode: The special mode of the taxes computation: False, 'total_excluded' or 'total_included'.
+=======
+        :param special_mode:        The special mode of the taxes computation: False, 'total_excluded' or 'total_included'.
+        :param filter_tax_function: Optional function to filter out some taxes from the computation.
+>>>>>>> upstream/18.0
 =======
         :param special_mode:        The special mode of the taxes computation: False, 'total_excluded' or 'total_included'.
         :param filter_tax_function: Optional function to filter out some taxes from the computation.
@@ -7207,6 +7268,7 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         def sort_key(tax):
             return tax.sequence, tax.id
 
@@ -7227,6 +7289,8 @@ class AccountTax(models.Model):
                 results['sorted_taxes'] |= tax
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7600,6 +7664,9 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7813,6 +7880,7 @@ class AccountTax(models.Model):
         batch = self.env['account.tax']
         is_base_affected = False
         for tax in reversed(results['sorted_taxes']):
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8088,6 +8156,8 @@ class AccountTax(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             if batch:
                 same_batch = (
                     tax.amount_type == batch[0].amount_type
@@ -8171,6 +8241,9 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8301,6 +8374,7 @@ class AccountTax(models.Model):
                         or not tax.include_base_amount
                     )
                 )
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8587,10 +8661,13 @@ class AccountTax(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 if not same_batch:
                     for batch_tax in batch:
                         results['batch_per_tax'][batch_tax.id] = batch
                     batch = self.env['account.tax']
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8758,6 +8835,10 @@ class AccountTax(models.Model):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+            is_base_affected = tax.is_base_affected
 >>>>>>> upstream/18.0
 =======
 
@@ -9184,7 +9265,12 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return evaluation_context['quantity'] * self.amount
+=======
+            sign = -1 if evaluation_context['price_unit'] < 0.0 else 1
+            return sign * evaluation_context['quantity'] * self.amount
+>>>>>>> upstream/18.0
 =======
             sign = -1 if evaluation_context['price_unit'] < 0.0 else 1
             return sign * evaluation_context['quantity'] * self.amount
@@ -9457,6 +9543,7 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         special_mode=False,
         manual_tax_amounts=None,
 <<<<<<< HEAD
@@ -9884,6 +9971,8 @@ class AccountTax(models.Model):
         filter_tax_function=None,
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9933,6 +10022,9 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9991,6 +10083,10 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        :param product_uom:         The product uom of the line.
+>>>>>>> upstream/18.0
 =======
         :param product_uom:         The product uom of the line.
 >>>>>>> upstream/18.0
@@ -10171,6 +10267,10 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        :param filter_tax_function: Optional function to filter out some taxes from the computation.
+>>>>>>> upstream/18.0
 =======
         :param filter_tax_function: Optional function to filter out some taxes from the computation.
 >>>>>>> upstream/18.0
@@ -10629,7 +10729,13 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if special_mode == 'total_included':
+=======
+            if tax.has_negative_factor:
+                price_include = False
+            elif special_mode == 'total_included':
+>>>>>>> upstream/18.0
 =======
             if tax.has_negative_factor:
                 price_include = False
@@ -10933,6 +11039,7 @@ class AccountTax(models.Model):
                 'extra_base_for_base': 0.0,
             }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11545,6 +11652,10 @@ class AccountTax(models.Model):
         # Flatten the taxes, order them and filter them if necessary.
         batching_results = self._batch_for_taxes_computation(special_mode=special_mode, filter_tax_function=filter_tax_function)
 >>>>>>> upstream/18.0
+=======
+        # Flatten the taxes, order them and filter them if necessary.
+        batching_results = self._batch_for_taxes_computation(special_mode=special_mode, filter_tax_function=filter_tax_function)
+>>>>>>> upstream/18.0
         sorted_taxes = batching_results['sorted_taxes']
         taxes_data = {}
         reverse_charge_taxes_data = {}
@@ -11582,6 +11693,10 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'uom': sorted_taxes._eval_taxes_computation_turn_to_product_uom_values(product_uom=product_uom),
+>>>>>>> upstream/18.0
 =======
             'uom': sorted_taxes._eval_taxes_computation_turn_to_product_uom_values(product_uom=product_uom),
 >>>>>>> upstream/18.0
@@ -11659,12 +11774,17 @@ class AccountTax(models.Model):
 
         # Mark the base to be computed in the descending order. The order doesn't matter for no special mode or 'total_excluded' but
         # it must be in the reverse order when special_mode is 'total_included'.
+<<<<<<< HEAD
+=======
+        subsequent_taxes = self.env['account.tax']
+>>>>>>> upstream/18.0
         for tax in reversed(sorted_taxes):
             tax_data = taxes_data[tax.id]
             if 'tax_amount' not in tax_data:
                 continue
 
             # Base amount.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12399,6 +12519,11 @@ class AccountTax(models.Model):
             if manual_tax_amounts and 'base_amount_currency' in manual_tax_amounts.get(tax_id_str, {}):
                 base = manual_tax_amounts[tax_id_str]['base_amount_currency']
 >>>>>>> upstream/18.0
+=======
+            tax_id_str = str(tax.id)
+            if manual_tax_amounts and 'base_amount_currency' in manual_tax_amounts.get(tax_id_str, {}):
+                base = manual_tax_amounts[tax_id_str]['base_amount_currency']
+>>>>>>> upstream/18.0
             else:
                 total_tax_amount = sum(taxes_data[other_tax.id]['tax_amount'] for other_tax in tax_data['batch'])
                 total_tax_amount += sum(
@@ -12411,10 +12536,25 @@ class AccountTax(models.Model):
                     base -= total_tax_amount
             tax_data['base'] = base
 
+<<<<<<< HEAD
+=======
+            # Subsequent taxes.
+            tax_data['taxes'] = self.env['account.tax']
+            if tax.include_base_amount:
+                tax_data['taxes'] |= subsequent_taxes
+
+>>>>>>> upstream/18.0
             # Reverse charge.
             if tax.has_negative_factor:
                 reverse_charge_tax_data = reverse_charge_taxes_data[tax.id]
                 reverse_charge_tax_data['base'] = base
+<<<<<<< HEAD
+=======
+                reverse_charge_tax_data['taxes'] = tax_data['taxes']
+
+            if tax.is_base_affected:
+                subsequent_taxes |= tax
+>>>>>>> upstream/18.0
 
         taxes_data_list = []
         for tax_data in taxes_data.values():
@@ -12437,6 +12577,7 @@ class AccountTax(models.Model):
             'taxes_data': [
                 {
                     'tax': tax_data['tax'],
+<<<<<<< HEAD
                     'group': batching_results['group_per_tax'].get(tax_data['tax'].id) or self.env['account.tax'],
                     'batch': batching_results['batch_per_tax'][tax_data['tax'].id],
                     'tax_amount': tax_data['tax_amount'],
@@ -12668,6 +12809,13 @@ class AccountTax(models.Model):
 =======
                     'price_include': tax_data['price_include'],
 >>>>>>> upstream/18.0
+=======
+                    'taxes': tax_data['taxes'],
+                    'group': batching_results['group_per_tax'].get(tax_data['tax'].id) or self.env['account.tax'],
+                    'batch': batching_results['batch_per_tax'][tax_data['tax'].id],
+                    'tax_amount': tax_data['tax_amount'],
+                    'price_include': tax_data['price_include'],
+>>>>>>> upstream/18.0
                     'base_amount': tax_data['base'],
                     'is_reverse_charge': tax_data.get('is_reverse_charge', False),
                 }
@@ -12696,7 +12844,11 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _adapt_price_unit_to_another_taxes(self, price_unit, product, original_taxes, new_taxes):
+=======
+    def _adapt_price_unit_to_another_taxes(self, price_unit, product, original_taxes, new_taxes, product_uom=None):
+>>>>>>> upstream/18.0
 =======
     def _adapt_price_unit_to_another_taxes(self, price_unit, product, original_taxes, new_taxes, product_uom=None):
 >>>>>>> upstream/18.0
@@ -12780,6 +12932,10 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        :param product_uom:     The product uom.
+>>>>>>> upstream/18.0
 =======
         :param product_uom:     The product uom.
 >>>>>>> upstream/18.0
@@ -12855,6 +13011,10 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            product_uom=product_uom,
+>>>>>>> upstream/18.0
 =======
             product_uom=product_uom,
 >>>>>>> upstream/18.0
@@ -12928,6 +13088,10 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            product_uom=product_uom,
+>>>>>>> upstream/18.0
 =======
             product_uom=product_uom,
 >>>>>>> upstream/18.0
@@ -12986,6 +13150,7 @@ class AccountTax(models.Model):
     # -------------------------------------------------------------------------
 
     @api.model
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13475,6 +13640,9 @@ class AccountTax(models.Model):
 =======
     def _get_base_line_field_value_from_record(self, record, field, extra_values, fallback, from_base_line=False):
 >>>>>>> upstream/18.0
+=======
+    def _get_base_line_field_value_from_record(self, record, field, extra_values, fallback, from_base_line=False):
+>>>>>>> upstream/18.0
         """ Helper to extract a default value for a record or something looking like a record.
 
         Suppose field is 'product_id' and fallback is 'self.env['product.product']'
@@ -13573,6 +13741,12 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        [!] Mirror of the same method in account_tax.js.
+        PLZ KEEP BOTH METHODS CONSISTENT WITH EACH OTHERS.
+
+>>>>>>> upstream/18.0
 =======
         [!] Mirror of the same method in account_tax.js.
         PLZ KEEP BOTH METHODS CONSISTENT WITH EACH OTHERS.
@@ -14154,6 +14328,11 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        :param from_base_line:  Indicate if the value has to be retrieved automatically from the base_line and not the record.
+                                False by default.
+>>>>>>> upstream/18.0
 =======
         :param from_base_line:  Indicate if the value has to be retrieved automatically from the base_line and not the record.
                                 False by default.
@@ -14769,7 +14948,11 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         elif isinstance(record, models.Model) and field in record._fields:
+=======
+        elif isinstance(record, models.Model) and field in record._fields and not from_base_line:
+>>>>>>> upstream/18.0
 =======
         elif isinstance(record, models.Model) and field in record._fields and not from_base_line:
 >>>>>>> upstream/18.0
@@ -15246,6 +15429,12 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        [!] Mirror of the same method in account_tax.js.
+        PLZ KEEP BOTH METHODS CONSISTENT WITH EACH OTHERS.
+
+>>>>>>> upstream/18.0
 =======
         [!] Mirror of the same method in account_tax.js.
         PLZ KEEP BOTH METHODS CONSISTENT WITH EACH OTHERS.
@@ -15827,8 +16016,13 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         def load(field, fallback):
             return self._get_base_line_field_value_from_record(record, field, kwargs, fallback)
+=======
+        def load(field, fallback, from_base_line=False):
+            return self._get_base_line_field_value_from_record(record, field, kwargs, fallback, from_base_line=from_base_line)
+>>>>>>> upstream/18.0
 =======
         def load(field, fallback, from_base_line=False):
             return self._get_base_line_field_value_from_record(record, field, kwargs, fallback, from_base_line=from_base_line)
@@ -16325,7 +16519,11 @@ class AccountTax(models.Model):
             or self.env['res.currency']
         )
 
+<<<<<<< HEAD
         return {
+=======
+        base_line = {
+>>>>>>> upstream/18.0
             **kwargs,
             'record': record,
             'id': load('id', 0),
@@ -16465,7 +16663,11 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'special_mode': kwargs.get('special_mode', False),
+=======
+            'special_mode': load('special_mode', False, from_base_line=True),
+>>>>>>> upstream/18.0
 =======
             'special_mode': load('special_mode', False, from_base_line=True),
 >>>>>>> upstream/18.0
@@ -16959,7 +17161,11 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'special_type': kwargs.get('special_type', False),
+=======
+            'special_type': load('special_type', False, from_base_line=True),
+>>>>>>> upstream/18.0
 =======
             'special_type': load('special_type', False, from_base_line=True),
 >>>>>>> upstream/18.0
@@ -17455,6 +17661,7 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'manual_tax_amounts': kwargs.get('manual_tax_amounts', None),
 =======
 =======
@@ -17813,6 +18020,10 @@ class AccountTax(models.Model):
             'manual_total_excluded_currency': load('manual_total_excluded_currency', None, from_base_line=True),
             'manual_total_excluded': load('manual_total_excluded', None, from_base_line=True),
 >>>>>>> upstream/18.0
+=======
+            'manual_total_excluded_currency': load('manual_total_excluded_currency', None, from_base_line=True),
+            'manual_total_excluded': load('manual_total_excluded', None, from_base_line=True),
+>>>>>>> upstream/18.0
             'manual_tax_amounts': load('manual_tax_amounts', None, from_base_line=True),
 
             # Add a function allowing to filter out some taxes during the evaluation. Those taxes can't be removed from the base_line
@@ -17939,6 +18150,9 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18200,6 +18414,17 @@ class AccountTax(models.Model):
             'analytic_distribution': load('analytic_distribution', None),
         }
 
+<<<<<<< HEAD
+=======
+        # Propagate custom values.
+        if record and isinstance(record, dict):
+            for k, v in record.items():
+                if k.startswith('_') and k not in base_line:
+                    base_line[k] = v
+
+        return base_line
+
+>>>>>>> upstream/18.0
     @api.model
     def _prepare_tax_line_for_taxes_computation(self, record, **kwargs):
         """ Convert any representation of an accounting tax line ('record') into a python
@@ -18303,6 +18528,11 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        [!] Only added python-side.
+
+>>>>>>> upstream/18.0
 =======
         [!] Only added python-side.
 
@@ -18808,6 +19038,12 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        [!] Mirror of the same method in account_tax.js.
+        PLZ KEEP BOTH METHODS CONSISTENT WITH EACH OTHERS.
+
+>>>>>>> upstream/18.0
 =======
         [!] Mirror of the same method in account_tax.js.
         PLZ KEEP BOTH METHODS CONSISTENT WITH EACH OTHERS.
@@ -19389,6 +19625,10 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        rounding_method = rounding_method or company.tax_calculation_rounding_method
+>>>>>>> upstream/18.0
 =======
         rounding_method = rounding_method or company.tax_calculation_rounding_method
 >>>>>>> upstream/18.0
@@ -19760,6 +20000,7 @@ class AccountTax(models.Model):
             price_unit=price_unit_after_discount,
             quantity=base_line['quantity'],
             precision_rounding=base_line['currency_id'].rounding,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -20449,6 +20690,8 @@ class AccountTax(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             rounding_method=rounding_method,
             product=base_line['product_id'],
             product_uom=base_line['product_uom_id'],
@@ -20470,6 +20713,9 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -20632,7 +20878,11 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if company.tax_calculation_rounding_method == 'round_per_line':
+=======
+        if rounding_method == 'round_per_line':
+>>>>>>> upstream/18.0
 =======
         if rounding_method == 'round_per_line':
 >>>>>>> upstream/18.0
@@ -21126,7 +21376,11 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if company.tax_calculation_rounding_method == 'round_per_line':
+=======
+            if rounding_method == 'round_per_line':
+>>>>>>> upstream/18.0
 =======
             if rounding_method == 'round_per_line':
 >>>>>>> upstream/18.0
@@ -21598,6 +21852,12 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        [!] Mirror of the same method in account_tax.js.
+        PLZ KEEP BOTH METHODS CONSISTENT WITH EACH OTHERS.
+
+>>>>>>> upstream/18.0
 =======
         [!] Mirror of the same method in account_tax.js.
         PLZ KEEP BOTH METHODS CONSISTENT WITH EACH OTHERS.
@@ -22151,6 +22411,7 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -22334,6 +22595,23 @@ class AccountTax(models.Model):
 >>>>>>> upstream/18.0
     def _distribute_delta_amount_smoothly(self, precision_digits, delta_amount, target_factors):
         """ Distribute 'delta_amount' accross the factors passed as parameter.
+=======
+    def _normalize_target_factors(self, target_factors):
+        """ Normalize the factors passed as parameter to have a distribution having a sum of 1.
+
+        :param target_factors:      A list of dictionary containing at least 'factor' being the weight
+                                    defining how much delta will be allocated to this factor.
+        :return:                    A list of tuple <index, normalized_factor> for each 'target_factors' passed as parameter.
+        """
+        factors = [(i, abs(target_factor['factor'])) for i, target_factor in enumerate(target_factors)]
+        factors.sort(key=lambda x: x[1], reverse=True)
+        sum_of_factors = sum(x[1] for x in factors)
+        return [(i, factor / sum_of_factors if sum_of_factors else 0.0) for i, factor in factors]
+
+    @api.model
+    def _distribute_delta_amount_smoothly(self, precision_digits, delta_amount, target_factors):
+        """ Distribute 'delta_amount' across the factors passed as parameter.
+>>>>>>> upstream/18.0
 
         For example, if 'delta_amount' = 0.03 and precision_digits is 3 and target factors is a list of 3 factors:
         a) {'factor': 0.4}
@@ -22362,6 +22640,7 @@ class AccountTax(models.Model):
         sign = -1 if delta_amount < 0.0 else 1
         nb_of_errors = round(abs(delta_amount / precision_rounding))
         remaining_errors = nb_of_errors
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -22935,10 +23214,17 @@ class AccountTax(models.Model):
 =======
         for i, factor in factors:
 >>>>>>> upstream/18.0
+=======
+
+        # Distribute using the factor first.
+        factors = self._normalize_target_factors(target_factors)
+        for i, factor in factors:
+>>>>>>> upstream/18.0
             if not remaining_errors:
                 break
 
             nb_of_amount_to_distribute = min(
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23168,11 +23454,15 @@ class AccountTax(models.Model):
 =======
                 math.ceil(factor / sum_of_factors * nb_of_errors),
 >>>>>>> upstream/18.0
+=======
+                round(factor * nb_of_errors),
+>>>>>>> upstream/18.0
                 remaining_errors,
             )
             remaining_errors -= nb_of_amount_to_distribute
             amount_to_distribute = sign * nb_of_amount_to_distribute * precision_rounding
             amounts_to_distribute[i] += amount_to_distribute
+<<<<<<< HEAD
         return amounts_to_distribute
 
     @api.model
@@ -23445,6 +23735,18 @@ class AccountTax(models.Model):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+        # Distribute the remaining cents across the factors.
+        # There are sorted by the biggest first.
+        # Since the factors are normalized, the residual number of cents can't be higher than the number of factors.
+        for i in range(remaining_errors):
+            amounts_to_distribute[factors[i][0]] += sign * precision_rounding
+
+        return amounts_to_distribute
+
+    @api.model
 >>>>>>> upstream/18.0
     def _round_tax_details_tax_amounts(self, base_lines, company, mode='mixed'):
         """ Dispatch the delta in term of tax amounts across the tax details when dealing with the 'round_globally' method.
@@ -23781,6 +24083,9 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -24034,6 +24339,12 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        [!] Mirror of the same method in account_tax.js.
+        PLZ KEEP BOTH METHODS CONSISTENT WITH EACH OTHERS.
+
+>>>>>>> upstream/18.0
 =======
         [!] Mirror of the same method in account_tax.js.
         PLZ KEEP BOTH METHODS CONSISTENT WITH EACH OTHERS.
@@ -24495,6 +24806,7 @@ class AccountTax(models.Model):
                                     method. If specified, the tax amounts will be computed based on those existing tax lines.
                                     It's used to keep the manual tax amounts set by the user.
         """
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -34161,6 +34473,8 @@ class AccountTax(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         # Raw rounding.
         for base_line in base_lines:
             tax_details = base_line['tax_details']
@@ -34240,6 +34554,11 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    if suffix == '_currency' and rate:
+                        tax_details['total_excluded'] = company.currency_id.round(tax_details[total_field] / rate)
+>>>>>>> upstream/18.0
 =======
                     if suffix == '_currency' and rate:
                         tax_details['total_excluded'] = company.currency_id.round(tax_details[total_field] / rate)
@@ -34542,6 +34861,9 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -34752,6 +35074,11 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        [!] Only added python-side.
+
+>>>>>>> upstream/18.0
 =======
         [!] Only added python-side.
 
@@ -35223,6 +35550,11 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        [!] Only added python-side.
+
+>>>>>>> upstream/18.0
 =======
         [!] Only added python-side.
 
@@ -35709,6 +36041,11 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        [!] Only added python-side.
+
+>>>>>>> upstream/18.0
 =======
         [!] Only added python-side.
 
@@ -36193,6 +36530,11 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        [!] Only added python-side.
+
+>>>>>>> upstream/18.0
 =======
         [!] Only added python-side.
 
@@ -36717,11 +37059,14 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if product:
             countries = {tax_data['tax'].country_id for tax_data in taxes_data}
             countries.add(False)
             base_line['tax_tag_ids'] |= product.sudo().account_tag_ids
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -37157,6 +37502,9 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -37474,7 +37822,11 @@ class AccountTax(models.Model):
                 tax_rep_data = {
                     'tax_rep': tax_rep,
                     'tax_amount_currency': currency.round(tax_amount_currency * tax_rep.factor * tax_rep_sign),
+<<<<<<< HEAD
                     'tax_amount': currency.round(tax_data['tax_amount'] * tax_rep.factor * tax_rep_sign),
+=======
+                    'tax_amount': company_currency.round(tax_data['tax_amount'] * tax_rep.factor * tax_rep_sign),
+>>>>>>> upstream/18.0
                     'account': tax_rep._get_aml_target_tax_account(force_caba_exigibility=include_caba_tags) or base_line['account_id'],
                 }
                 total_tax_rep_amounts['tax_amount_currency'] += tax_rep_data['tax_amount_currency']
@@ -37486,6 +37838,7 @@ class AccountTax(models.Model):
                 tax_reps_data,
                 key=lambda tax_rep: (-abs(tax_rep['tax_amount_currency']), -abs(tax_rep['tax_amount'])),
             )
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -37777,6 +38130,8 @@ class AccountTax(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             for delta_suffix, delta_currency in (
                 ('_currency', currency),
                 ('', company_currency),
@@ -37789,6 +38144,7 @@ class AccountTax(models.Model):
                 delta_amount = tax_amount - total_tax_rep_amounts[field]
                 target_factors = [
                     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -38018,6 +38374,9 @@ class AccountTax(models.Model):
 =======
                         'factor': tax_rep_data[field],
 >>>>>>> upstream/18.0
+=======
+                        'factor': tax_rep_data[field],
+>>>>>>> upstream/18.0
                         'tax_rep_data': tax_rep_data,
                     }
                     for tax_rep_data in sorted_tax_reps_data
@@ -38029,6 +38388,7 @@ class AccountTax(models.Model):
                 )
                 for target_factor, amount_to_distribute in zip(target_factors, amounts_to_distribute):
                     target_factor['tax_rep_data'][field] += amount_to_distribute
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -38302,6 +38662,9 @@ class AccountTax(models.Model):
 >>>>>>> upstream/18.0
 
         subsequent_taxes = self.env['account.tax']
+=======
+
+>>>>>>> upstream/18.0
         subsequent_tags_per_tax = defaultdict(lambda: self.env['account.account.tag'])
         for tax_data in reversed(taxes_data):
             tax = tax_data['tax']
@@ -38310,6 +38673,7 @@ class AccountTax(models.Model):
                 tax_rep = tax_rep_data['tax_rep']
 
                 # Compute subsequent taxes/tags.
+<<<<<<< HEAD
                 tax_rep_data['taxes'] = self.env['account.tax']
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -38804,10 +39168,14 @@ class AccountTax(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+                tax_rep_data['taxes'] = tax_data['taxes']
+>>>>>>> upstream/18.0
                 tax_rep_data['tax_tags'] = product_tags
                 if include_caba_tags or tax.tax_exigibility == 'on_invoice':
                     tax_rep_data['tax_tags'] |= tax_rep.tag_ids
                 if tax.include_base_amount:
+<<<<<<< HEAD
                     tax_rep_data['taxes'] |= subsequent_taxes - tax
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -39182,6 +39550,8 @@ class AccountTax(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                     for other_tax, tags in subsequent_tags_per_tax.items():
                         if tax != other_tax:
                             tax_rep_data['tax_tags'] |= tags
@@ -39196,7 +39566,10 @@ class AccountTax(models.Model):
                 )
 
             if tax.is_base_affected:
+<<<<<<< HEAD
                 subsequent_taxes |= tax
+=======
+>>>>>>> upstream/18.0
                 if include_caba_tags or tax.tax_exigibility == 'on_invoice':
                     subsequent_tags_per_tax[tax] |= tax[repartition_lines_field].filtered(lambda x: x.repartition_type == 'base').tag_ids
 
@@ -39295,6 +39668,11 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        [!] Only added python-side.
+
+>>>>>>> upstream/18.0
 =======
         [!] Only added python-side.
 
@@ -39795,6 +40173,7 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         In case the base_line has no tax, the detail is added under the 'None' grouping key.
         It's needed when you need to add some tax details plus the total base amount at the same time.
         So when iterating on the result of this method, take care of the 'None' grouping key.
@@ -39883,6 +40262,8 @@ class AccountTax(models.Model):
         Don't forget to call '_add_tax_details_in_base_lines' and '_round_base_lines_tax_details' before calling this method.
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -40160,6 +40541,9 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -40348,6 +40732,7 @@ class AccountTax(models.Model):
         :return: A mapping <grouping_key, amounts> where:
             grouping_key                is the grouping_key returned by the 'grouping_function' or 'None'.
             amounts                     is a dictionary containing:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -41272,6 +41657,8 @@ class AccountTax(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 base_amount_currency:           The base amount of this grouping key expressed in foreign currency.
                 base_amount:                    The base amount of this grouping key expressed in local currency.
                 raw_base_amount_currency:       The base amount of this grouping key expressed in foreign currency before any rounding.
@@ -41381,6 +41768,11 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                        excluded_target_amount = base_line[excluded_manual_field]
+                    elif not suffix and base_line['manual_total_excluded_currency'] is not None:
+>>>>>>> upstream/18.0
 =======
                         excluded_target_amount = base_line[excluded_manual_field]
                     elif not suffix and base_line['manual_total_excluded_currency'] is not None:
@@ -41668,6 +42060,11 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                            values[tax_base_target_field] = current_manual_tax_amounts[tax_base_rounded_field]
+                        elif not suffix and 'base_amount_currency' in current_manual_tax_amounts:
+>>>>>>> upstream/18.0
 =======
                             values[tax_base_target_field] = current_manual_tax_amounts[tax_base_rounded_field]
                         elif not suffix and 'base_amount_currency' in current_manual_tax_amounts:
@@ -41951,6 +42348,7 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     tax_tax_rounded_field = f'tax_amount{suffix}'
                     tax_tax_raw_field = f'raw_{tax_tax_rounded_field}'
                     tax_tax_target_field = f'target_{tax_tax_rounded_field}'
@@ -41977,6 +42375,8 @@ class AccountTax(models.Model):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -42163,6 +42563,9 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -42370,6 +42773,12 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        [!] Mirror of the same method in account_tax.js.
+        PLZ KEEP BOTH METHODS CONSISTENT WITH EACH OTHERS.
+
+>>>>>>> upstream/18.0
 =======
         [!] Mirror of the same method in account_tax.js.
         PLZ KEEP BOTH METHODS CONSISTENT WITH EACH OTHERS.
@@ -42932,6 +43341,12 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        [!] Mirror of the same method in account_tax.js.
+        PLZ KEEP BOTH METHODS CONSISTENT WITH EACH OTHERS.
+
+>>>>>>> upstream/18.0
 =======
         [!] Mirror of the same method in account_tax.js.
         PLZ KEEP BOTH METHODS CONSISTENT WITH EACH OTHERS.
@@ -43463,6 +43878,7 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         default_float_fields = {
             'base_amount_currency',
             'base_amount',
@@ -43476,6 +43892,8 @@ class AccountTax(models.Model):
             'total_excluded',
         }
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -43650,6 +44068,9 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -43824,7 +44245,10 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -44003,7 +44427,10 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -44221,6 +44648,12 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        [!] Mirror of the same method in account_tax.js.
+        PLZ KEEP BOTH METHODS CONSISTENT WITH EACH OTHERS.
+
+>>>>>>> upstream/18.0
 =======
         [!] Mirror of the same method in account_tax.js.
         PLZ KEEP BOTH METHODS CONSISTENT WITH EACH OTHERS.
@@ -44856,7 +45289,11 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return True
+=======
+            return True if tax_data else None
+>>>>>>> upstream/18.0
 =======
             return True if tax_data else None
 >>>>>>> upstream/18.0
@@ -45351,7 +45788,11 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return tax_data['tax'].tax_group_id
+=======
+            return tax_data['tax'].tax_group_id if tax_data else None
+>>>>>>> upstream/18.0
 =======
             return tax_data['tax'].tax_group_id if tax_data else None
 >>>>>>> upstream/18.0
@@ -45783,6 +46224,7 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             display_base_amount = values['base_amount']
             display_base_amount_currency = values['base_amount_currency']
 =======
@@ -45834,6 +46276,8 @@ class AccountTax(models.Model):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -45982,6 +46426,9 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -46153,6 +46600,7 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -46170,6 +46618,10 @@ class AccountTax(models.Model):
 >>>>>>> upstream/18.0
 
             if display_base_amount_currency is not None:
+=======
+
+            if display_base_amount_currency is not False:
+>>>>>>> upstream/18.0
 =======
 
             if display_base_amount_currency is not False:
@@ -46450,6 +46902,7 @@ class AccountTax(models.Model):
                         max_tax_group['tax_amount_currency'] += cash_rounding_base_amount_currency
                         max_tax_group['tax_amount'] += cash_rounding_base_amount
                         max_subtotal['tax_amount_currency'] += cash_rounding_base_amount_currency
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -47007,6 +47460,9 @@ class AccountTax(models.Model):
 =======
                         max_subtotal['tax_amount'] += cash_rounding_base_amount
 >>>>>>> upstream/18.0
+=======
+                        max_subtotal['tax_amount'] += cash_rounding_base_amount
+>>>>>>> upstream/18.0
                         tax_totals_summary['tax_amount_currency'] += cash_rounding_base_amount_currency
                         tax_totals_summary['tax_amount'] += cash_rounding_base_amount
                     else:
@@ -47129,6 +47585,11 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        [!] Only added python-side.
+
+>>>>>>> upstream/18.0
 =======
         [!] Only added python-side.
 
@@ -47636,6 +48097,11 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        [!] Only added python-side.
+
+>>>>>>> upstream/18.0
 =======
         [!] Only added python-side.
 
@@ -48160,7 +48626,11 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     tax_line['name'] = tax.name
+=======
+                    tax_line['name'] = base_line.get('manual_tax_line_name', tax.name)
+>>>>>>> upstream/18.0
 =======
                     tax_line['name'] = base_line.get('manual_tax_line_name', tax.name)
 >>>>>>> upstream/18.0
@@ -48554,10 +49024,871 @@ class AccountTax(models.Model):
         }
 
     # -------------------------------------------------------------------------
+<<<<<<< HEAD
+=======
+    # ADVANCED LINES MANIPULATION HELPERS
+    # -------------------------------------------------------------------------
+
+    @api.model
+    def _merge_tax_details(self, tax_details_1, tax_details_2):
+        """ Helper merging 2 tax details together coming from base lines.
+
+        [!] Only added python-side.
+
+        :param tax_details_1: First tax details.
+        :param tax_details_2: Second tax details.
+        :return: A new tax details combining the 2 passed as parameter.
+        """
+        results = {
+            f'{prefix}{field}{suffix}': tax_details_1[f'{prefix}{field}{suffix}'] + tax_details_2[f'{prefix}{field}{suffix}']
+            for prefix in ('raw_', '')
+            for field in ('total_excluded', 'total_included')
+            for suffix in ('_currency', '')
+        }
+        for suffix in ('_currency', ''):
+            field = f'delta_total_excluded{suffix}'
+            results[field] = tax_details_1[field] + tax_details_2[field]
+
+        agg_taxes_data = {}
+        for tax_details in (tax_details_1, tax_details_2):
+            for tax_data in tax_details['taxes_data']:
+                tax = tax_data['tax']
+                if tax in agg_taxes_data:
+                    agg_tax_data = agg_taxes_data[tax]
+                    for prefix in ('raw_', ''):
+                        for suffix in ('_currency', ''):
+                            for field in ('base_amount', 'tax_amount'):
+                                field_with_prefix = f'{prefix}{field}{suffix}'
+                                agg_tax_data[field_with_prefix] += tax_data[field_with_prefix]
+                else:
+                    agg_taxes_data[tax] = dict(tax_data)
+        results['taxes_data'] = list(agg_taxes_data.values())
+
+        # In case there is some taxes that are in tax_details_1 but not on tax_details_2,
+        # we have to shift manually the base amount. It happens with fixed taxes in which the base
+        # is meaningless but still used in the computations.
+        taxes_data_in_2 = {tax_data['tax'] for tax_data in tax_details_2['taxes_data']}
+        not_discountable_taxes_data = {
+            tax_data['tax']
+            for tax_data in tax_details_1['taxes_data']
+            if tax_data['tax'] not in taxes_data_in_2
+        }
+        for tax_data in results['taxes_data']:
+            if tax_data['tax'] in not_discountable_taxes_data:
+                for suffix in ('_currency', ''):
+                    for prefix in ('raw_', ''):
+                        tax_data[f'{prefix}base_amount{suffix}'] += tax_details_2[f'{prefix}total_excluded{suffix}']
+                    tax_data[f'base_amount{suffix}'] += tax_details_2[f'delta_total_excluded{suffix}']
+
+        return results
+
+    @api.model
+    def _split_tax_data(self, base_line, tax_data, company, target_factors):
+        """ Split a 'tax_data' in pieces according the factors passed as parameter.
+        This method makes sure no amount is lost or gained during the process.
+
+        [!] Only added python-side.
+
+        :param base_line:       A base line.
+        :param tax_data:        The 'tax_data' to split.
+        :param company:         The company owning the base lines.
+        :param target_factors:  A list of dictionary containing at least 'factor' being the weight
+                                defining how much delta will be allocated to this factor.
+        :return                 A list of 'tax_data' having the same size as 'target_factors'.
+        """
+        currency = base_line['currency_id']
+
+        factors = self._normalize_target_factors(target_factors)
+
+        new_taxes_data = []
+
+        # Distribution of raw amounts.
+        for _index, factor in factors:
+            new_taxes_data.append({
+                **tax_data,
+                'raw_tax_amount_currency': factor * tax_data['raw_tax_amount_currency'],
+                'raw_tax_amount': factor * tax_data['raw_tax_amount'],
+                'raw_base_amount_currency': factor * tax_data['raw_base_amount_currency'],
+                'raw_base_amount': factor * tax_data['raw_base_amount'],
+            })
+
+        # Distribution of rounded amounts.
+        new_target_factors = [
+            {
+                'factor': target_factor['factor'],
+                'tax_data': new_tax_data,
+            }
+            for new_tax_data, target_factor in zip(new_taxes_data, target_factors)
+        ]
+
+        for delta_currency_indicator, delta_currency in (
+            ('_currency', currency),
+            ('', company.currency_id),
+        ):
+            for prefix in ('tax', 'base'):
+                field = f'{prefix}_amount{delta_currency_indicator}'
+                amounts_to_distribute = self._distribute_delta_amount_smoothly(
+                    precision_digits=delta_currency.decimal_places,
+                    delta_amount=tax_data[field],
+                    target_factors=new_target_factors,
+                )
+                for target_factor, amount_to_distribute in zip(new_target_factors, amounts_to_distribute):
+                    new_tax_data = target_factor['tax_data']
+                    new_tax_data[field] = amount_to_distribute
+        return new_taxes_data
+
+    @api.model
+    def _split_tax_details(self, base_line, company, target_factors):
+        """ Split the 'tax_details' in pieces according the factors passed as parameter.
+        This method makes sure no amount is lost or gained during the process.
+
+        [!] Only added python-side.
+
+        :param base_line:       A base line.
+        :param company:         The company owning the base lines.
+        :param target_factors:  A list of dictionary containing at least 'factor' being the weight
+                                defining how much delta will be allocated to this factor.
+        :return                 A list of 'tax_details' having the same size as 'target_factors'.
+        """
+        currency = base_line['currency_id']
+        tax_details = base_line['tax_details']
+
+        factors = self._normalize_target_factors(target_factors)
+
+        new_tax_details_list = []
+
+        # Distribution of raw amounts.
+        for _index, factor in factors:
+            new_tax_details_list.append({
+                'raw_total_excluded_currency': factor * tax_details['raw_total_excluded_currency'],
+                'raw_total_excluded': factor * tax_details['raw_total_excluded'],
+                'raw_total_included_currency': factor * tax_details['raw_total_included_currency'],
+                'raw_total_included': factor * tax_details['raw_total_included'],
+                'delta_total_excluded_currency': 0.0,
+                'delta_total_excluded': 0.0,
+                'taxes_data': [],
+            })
+
+        # Manage 'taxes_data'.
+        for tax_data in tax_details['taxes_data']:
+            new_taxes_data = self._split_tax_data(base_line, tax_data, company, target_factors)
+            for new_tax_details, new_tax_data in zip(new_tax_details_list, new_taxes_data):
+                new_tax_details['taxes_data'].append(new_tax_data)
+
+        # Distribution of rounded amounts.
+        for delta_currency_indicator, delta_currency in (
+            ('_currency', currency),
+            ('', company.currency_id),
+        ):
+            new_target_factors = [
+                {
+                    'factor': new_tax_details[f'raw_total_excluded{delta_currency_indicator}'],
+                    'tax_details': new_tax_details,
+                }
+                for new_tax_details in new_tax_details_list
+            ]
+            field = f'total_excluded{delta_currency_indicator}'
+            delta_amount = tax_details[field]
+            amounts_to_distribute = self._distribute_delta_amount_smoothly(
+                precision_digits=delta_currency.decimal_places,
+                delta_amount=delta_amount,
+                target_factors=new_target_factors,
+            )
+            for target_factor, amount_to_distribute in zip(new_target_factors, amounts_to_distribute):
+                new_tax_details = target_factor['tax_details']
+                new_tax_details[field] = amount_to_distribute
+
+        # Manage 'total_included'.
+        for new_tax_details in new_tax_details_list:
+            for delta_currency_indicator in ('_currency', ''):
+                new_tax_details[f'total_included{delta_currency_indicator}'] = (
+                    new_tax_details[f'total_excluded{delta_currency_indicator}']
+                    + sum(
+                        new_tax_data[f'tax_amount{delta_currency_indicator}']
+                        for new_tax_data in new_tax_details['taxes_data']
+                    )
+                )
+        return new_tax_details_list
+
+    @api.model
+    def _split_base_line(self, base_line, company, target_factors, populate_function=None):
+        """ Split a base lines into multiple ones. When computing taxes, the results should be
+        exactly the same with a single base_line or after the split.
+
+        [!] Only added python-side.
+
+        :param base_line:           A base line.
+        :param company:             The company owning the base line.
+        :param target_factors:      A list of dictionary containing at least 'factor' being the weight
+                                    defining how much delta will be allocated to this factor.
+        :param populate_function:   An optional method to change the parameter of '_prepare_base_line_for_taxes_computation'
+                                    when creating the new base lines from the one passed as parameter. This method takes
+                                    the same parameter as '_prepare_base_line_for_taxes_computation'.
+        :return:                    A list of base lines.
+        """
+        factors = self._normalize_target_factors(target_factors)
+
+        # Split 'tax_details'.
+        new_tax_details_list = self._split_tax_details(base_line, company, target_factors)
+
+        # Split 'base_line'.
+        new_base_lines = []
+        for (_index, factor), new_tax_details, target_factor in zip(factors, new_tax_details_list, target_factors):
+            kwargs = {
+                'price_unit': factor * base_line['price_unit'],
+                'tax_details': new_tax_details,
+            }
+            if populate_function:
+                populate_function(base_line, target_factor, kwargs)
+            new_base_line = self._prepare_base_line_for_taxes_computation(base_line, **kwargs)
+            new_base_lines.append(new_base_line)
+        return new_base_lines
+
+    @api.model
+    def _reduce_base_lines_with_grouping_function(self, base_lines, grouping_function=None, aggregate_function=None, computation_key=None):
+        """ Create the new base lines that will get the discount.
+        Since they no longer contain fixed taxes, we can remove the quantity and aggregate them depending on
+        the grouping_function passed as parameter.
+
+        [!] Only added python-side.
+
+        :param base_lines:          The base lines to be aggregated.
+        :param grouping_function:   An optional function taking a base line as parameter and returning a grouping key
+                                    being the way the base lines will be aggregated all together.
+                                    By default, the base lines will be aggregated by taxes.
+        :param aggregate_function:  An optional function taking the 2 base lines as parameter to be aggregated together.
+        :param computation_key:     The computation_key to be set on the aggregated base_lines.
+        :return:                    The base lines aggregated.
+        """
+        aggregated_base_lines = {}
+        base_line_map = {}
+        for base_line in base_lines:
+            price_unit_after_discount = base_line['price_unit'] * (1 - (base_line['discount'] / 100.0))
+            new_base_line = self._prepare_base_line_for_taxes_computation(
+                base_line,
+                price_unit=base_line['quantity'] * price_unit_after_discount,
+                quantity=1.0,
+                discount=0.0,
+            )
+            grouping_key = {'tax_ids': new_base_line['tax_ids']}
+            if grouping_function:
+                grouping_key.update(grouping_function(new_base_line))
+            grouping_key = frozendict(grouping_key)
+
+            if base_line['analytic_distribution']:
+                for account_id, distribution in base_line['analytic_distribution'].items():
+                    aggregated_base_lines.setdefault(account_id, []).append(distribution)
+
+            target_base_line = base_line_map.get(grouping_key)
+            if target_base_line:
+                target_base_line['price_unit'] += new_base_line['price_unit']
+                target_base_line['tax_details'] = self._merge_tax_details(
+                    tax_details_1=target_base_line['tax_details'],
+                    tax_details_2=base_line['tax_details'],
+                )
+                if aggregate_function:
+                    aggregate_function(target_base_line, base_line)
+            else:
+                target_base_line = self._prepare_base_line_for_taxes_computation(
+                    new_base_line,
+                    **grouping_key,
+                    computation_key=computation_key,
+                    tax_details={
+                        **base_line['tax_details'],
+                        'taxes_data': [dict(tax_data) for tax_data in base_line['tax_details']['taxes_data']],
+                    },
+                )
+                base_line_map[grouping_key] = target_base_line
+                if aggregate_function:
+                    aggregate_function(target_base_line, base_line)
+            aggregated_base_lines.setdefault(grouping_key, []).append(base_line)
+
+        # Remove zero lines.
+        base_line_map = {
+            grouping_key: base_line
+            for grouping_key, base_line in base_line_map.items()
+            if not base_line['currency_id'].is_zero(base_line['price_unit'])
+        }
+
+        # Compute the analytic distribution for the new base line.
+        # To do so, we have to aggregate the analytic distribution of each line that has been aggregated.
+        # We need to take care about the negative lines but also of the negative distribution.
+        # Suppose:
+        # - line1 of 1000 having an analytic distribution of 100%
+        # - line2 of -100 having an analytic distribution of 50%
+        # After the aggregation, the result will be an analytic distribution of
+        # ((1000 * 1) + (-100 * 0.5)) / (1000 - 100) = 1.055555556
+        for grouping_key, base_line in base_line_map.items():
+            total_factor = 0.0
+            analytic_distribution_to_aggregate = defaultdict(float)
+            for aggregated_base_line in aggregated_base_lines[grouping_key]:
+                amount = aggregated_base_line['tax_details']['raw_total_excluded_currency']
+                total_factor += amount
+                for account_id, distribution in (aggregated_base_line['analytic_distribution'] or {}).items():
+                    analytic_distribution_to_aggregate[account_id] += distribution * amount / 100.0
+            analytic_distribution = {}
+            for account_id, amount in analytic_distribution_to_aggregate.items():
+                analytic_distribution[account_id] = amount * 100 / total_factor
+            base_line['analytic_distribution'] = analytic_distribution
+
+        return list(base_line_map.values())
+
+    @api.model
+    def _partition_base_lines_taxes(self, base_lines, partition_function):
+        """ Partition the taxes of base lines passed as parameter.
+
+        [!] Only added python-side.
+
+        :param base_lines:              The base lines.
+        :param partition_function:      A function taking <base_line, tax_data> as parameter and returning
+                                        True if the tax has to be kept or not.
+        :return:                        A tuple <base_lines_partition_taxes, has_taxes_to_exclude> where
+            * base_lines_partition_taxes:   A list of tuple <base_line, taxes_to_keep, taxes_to_exclude>
+            * has_taxes_to_exclude:         A boolean indicating if at least one tax to exclude has been found.
+        """
+        has_taxes_to_exclude = False
+        base_lines_partition_taxes = []
+        for base_line in base_lines:
+            tax_details = base_line['tax_details']
+            taxes_data = tax_details['taxes_data']
+            taxes_to_keep = self.env['account.tax']
+            taxes_to_exclude = self.env['account.tax']
+            for tax_data in taxes_data:
+                if partition_function(base_line, tax_data):
+                    taxes_to_keep += tax_data['tax']
+                else:
+                    taxes_to_exclude += tax_data['tax']
+            if taxes_to_exclude:
+                has_taxes_to_exclude = True
+            base_lines_partition_taxes.append((base_line, taxes_to_keep, taxes_to_exclude))
+        return base_lines_partition_taxes, has_taxes_to_exclude
+
+    # -------------------------------------------------------------------------
+    # DISPATCHING OF LINES
+    # -------------------------------------------------------------------------
+
+    @api.model
+    def _dispatch_taxes_into_new_base_lines(self, base_lines, company, exclude_function):
+        """ Extract taxes from base lines and turn them into sub-base lines.
+
+        [!] Only added python-side.
+
+        :param base_lines:          A list of base lines generated using the '_prepare_base_line_for_taxes_computation' method.
+        :param company:             The company of the base lines.
+        :param exclude_function:    A function taking a base line and a tax_data as parameter and returning
+                                    a boolean indicating if the tax_data has to be exclude or not.
+        :return:                    The new base lines with some extra data that have been removed.
+                                    The newly created base lines will be under the 'removed_taxes_data_base_lines' key.
+        """
+        def partition_function(base_line, tax_data):
+            return not exclude_function(base_line, tax_data)
+
+        base_lines_partition_taxes = self._partition_base_lines_taxes(base_lines, partition_function)[0]
+        new_base_lines_list = [[] for _base_line in base_lines]
+        to_process = [
+            (index, base_line, taxes_to_exclude)
+            for index, (base_line, taxes_to_keep, taxes_to_exclude) in enumerate(base_lines_partition_taxes)
+        ]
+        while to_process:
+            index, base_line, taxes_to_exclude = to_process[0]
+            to_process = to_process[1:]
+
+            tax_details = base_line['tax_details']
+            taxes_data = tax_details['taxes_data']
+
+            # Get the index of the next 'tax_data' to exclude.
+            next_split_index = None
+            for i, tax_data in enumerate(taxes_data):
+                if tax_data['tax'] in taxes_to_exclude:
+                    next_split_index = i
+                    break
+
+            if next_split_index is None:
+                new_base_lines_list[index].append(dict(base_line))
+                continue
+
+            common_taxes_data = taxes_data[:next_split_index]
+            tax_data_to_remove = taxes_data[next_split_index]
+            remaining_taxes_data = taxes_data[next_split_index + 1:]
+
+            # Split 'tax_details'.
+            first_tax_details = {
+                k: tax_details[k]
+                for k in (
+                    'raw_total_excluded_currency',
+                    'raw_total_excluded',
+                    'total_excluded_currency',
+                    'total_excluded',
+                    'delta_total_excluded_currency',
+                    'delta_total_excluded',
+                )
+            }
+            first_tax_details['taxes_data'] = common_taxes_data
+            first_tax_details['raw_total_included_currency'] = (
+                first_tax_details['raw_total_excluded_currency']
+                + sum(common_tax_data['raw_tax_amount_currency'] for common_tax_data in common_taxes_data)
+            )
+            first_tax_details['total_included_currency'] = (
+                first_tax_details['total_excluded_currency']
+                + first_tax_details['delta_total_excluded_currency']
+                + sum(common_tax_data['tax_amount_currency'] for common_tax_data in common_taxes_data)
+            )
+            first_tax_details['raw_total_included'] = (
+                first_tax_details['raw_total_excluded']
+                + sum(common_tax_data['raw_tax_amount'] for common_tax_data in common_taxes_data)
+            )
+            first_tax_details['total_included'] = (
+                first_tax_details['total_excluded']
+                + first_tax_details['delta_total_excluded']
+                + sum(common_tax_data['tax_amount'] for common_tax_data in common_taxes_data)
+            )
+            second_tax_details = {
+                'raw_total_excluded_currency': tax_data_to_remove['raw_tax_amount_currency'],
+                'raw_total_excluded': tax_data_to_remove['raw_tax_amount'],
+                'total_excluded_currency': tax_data_to_remove['tax_amount_currency'],
+                'total_excluded': tax_data_to_remove['tax_amount'],
+                'delta_total_excluded_currency': 0.0,
+                'delta_total_excluded': 0.0,
+                'raw_total_included_currency': tax_data_to_remove['raw_tax_amount_currency'],
+                'raw_total_included': tax_data_to_remove['raw_tax_amount'],
+                'total_included_currency': tax_data_to_remove['tax_amount_currency'],
+                'total_included': tax_data_to_remove['tax_amount'],
+                'taxes_data': [],
+            }
+
+            target_factors = [
+                {
+                    'factor': first_tax_details['raw_total_excluded_currency'],
+                    'tax_details': first_tax_details,
+                },
+                {
+                    'factor': second_tax_details['raw_total_excluded_currency'],
+                    'tax_details': second_tax_details,
+                },
+            ]
+            for remaining_tax_data in remaining_taxes_data:
+                if remaining_tax_data['tax'] in tax_data_to_remove['taxes']:
+                    new_remaining_taxes_data = self._split_tax_data(base_line, remaining_tax_data, company, target_factors)
+
+                    first_tax_data = new_remaining_taxes_data[0]
+
+                    second_tax_details['taxes_data'].append(new_remaining_taxes_data[1])
+                    second_tax_details['raw_total_included_currency'] += new_remaining_taxes_data[1]['raw_tax_amount_currency']
+                    second_tax_details['raw_total_included'] += new_remaining_taxes_data[1]['raw_tax_amount']
+                    second_tax_details['total_included_currency'] += new_remaining_taxes_data[1]['tax_amount_currency']
+                    second_tax_details['total_included'] += new_remaining_taxes_data[1]['tax_amount']
+                else:
+                    first_tax_data = remaining_tax_data
+
+                first_tax_details['taxes_data'].append(first_tax_data)
+                first_tax_details['raw_total_included_currency'] += first_tax_data['raw_tax_amount_currency']
+                first_tax_details['raw_total_included'] += first_tax_data['raw_tax_amount']
+                first_tax_details['total_included_currency'] += first_tax_data['tax_amount_currency']
+                first_tax_details['total_included'] += first_tax_data['tax_amount']
+
+            # Split 'base_line'.
+            first_taxes = self.env['account.tax']
+            for tax_data in first_tax_details['taxes_data']:
+                first_taxes += tax_data['tax']
+            first_base_line = self._prepare_base_line_for_taxes_computation(
+                base_line,
+                tax_ids=first_taxes,
+                tax_details=first_tax_details,
+            )
+
+            second_taxes = self.env['account.tax']
+            for tax_data in second_tax_details['taxes_data']:
+                second_taxes += tax_data['tax']
+            second_base_line = self._prepare_base_line_for_taxes_computation(
+                base_line,
+                tax_ids=second_taxes,
+                price_unit=(
+                    second_tax_details['raw_total_excluded_currency']
+                    + sum(
+                        sub_tax_data['raw_tax_amount_currency']
+                        for sub_tax_data in second_tax_details['taxes_data']
+                        if sub_tax_data['tax'].price_include
+                    )
+                ) / (base_line['quantity'] or 1.0),
+                tax_details=second_tax_details,
+                _removed_tax_data=tax_data_to_remove,
+            )
+            to_process = [
+                (index, first_base_line, taxes_to_exclude),
+                (index, second_base_line, taxes_to_exclude),
+            ] + to_process
+
+        final_base_lines = []
+        for new_base_lines in new_base_lines_list:
+            new_base_lines[0]['removed_taxes_data_base_lines'] = new_base_lines[1:]
+            final_base_lines.append(new_base_lines[0])
+        return final_base_lines
+
+    @api.model
+    def _turn_removed_taxes_into_new_base_lines(self, base_lines, company, grouping_function=None, aggregate_function=None):
+        """ Merge the sub 'removed_taxes_data_base_lines' generated by '_dispatch_taxes_into_new_base_lines'
+        into the parent line.
+
+        [!] Only added python-side.
+
+        :param base_lines:          A list of base lines generated using the '_prepare_base_line_for_taxes_computation' method.
+        :param company:             The company owning the base lines.
+        :param grouping_function:   An optional function taking a base line as parameter and returning a grouping key
+                                    being the way the base lines will be aggregated all together.
+                                    By default, the base lines will be aggregated by taxes.
+        :param aggregate_function:  An optional function taking the 2 base lines as parameter to be aggregated together.
+        """
+        extra_base_lines = []
+        for base_line in base_lines:
+            extra_base_lines += base_line['removed_taxes_data_base_lines']
+        return self._reduce_base_lines_with_grouping_function(
+            base_lines=extra_base_lines,
+            grouping_function=grouping_function,
+            aggregate_function=aggregate_function,
+        )
+
+    # -------------------------------------------------------------------------
+    # EDI HELPERS
+    # -------------------------------------------------------------------------
+
+    @api.model
+    def _get_delta_amount_to_reach_target(
+        self,
+        target_amount,
+        target_currency,
+        raw_current_amount,
+        raw_current_amount_precision_digits,
+    ):
+        """ Get the minimum missing amount having 'raw_current_amount_precision_digits' as precision
+        to be added to 'raw_current_amount' to give 'target_amount' after rounding using 'target_currency'.
+
+        :param target_amount:                       The amount to reach after rounding the raw amount using 'target_currency'.
+        :param target_currency:                     The currency used to round 'target_amount'.
+        :param raw_current_amount:                  The raw amount that needs to reach 'target_amount'.
+        :param raw_current_amount_precision_digits: The precision of the delta returned by this method.
+        :return:
+            Suppose 'raw_current_amount' is expressed with 'raw_current_amount_precision_digits'.
+            Then, the delta returned by this method will be expressed with 'raw_current_amount_precision_digits'
+            such as target_currency.round(raw_current_amount + delta) == target_amount
+        """
+        target_amount_sign = -1 if target_amount < 0.0 else 1
+        raw_current_amount_rounding = math.pow(10, -raw_current_amount_precision_digits)
+        tolerance_bounds = (
+            float_round(
+                abs(target_amount) + (target_currency.rounding / 2) - raw_current_amount_rounding,
+                precision_digits=raw_current_amount_precision_digits,
+            ),
+            float_round(
+                abs(target_amount) - (target_currency.rounding / 2),
+                precision_digits=raw_current_amount_precision_digits,
+            ),
+        )
+
+        signed_raw_current_amount = target_amount_sign * raw_current_amount
+        if signed_raw_current_amount > tolerance_bounds[0]:
+            delta_raw_amount = tolerance_bounds[0] - signed_raw_current_amount
+        elif signed_raw_current_amount < tolerance_bounds[1]:
+            delta_raw_amount = tolerance_bounds[1] - signed_raw_current_amount
+        else:
+            return 0.0
+
+        return target_amount_sign * delta_raw_amount
+
+    @api.model
+    def _round_raw_total_excluded(
+        self,
+        base_lines,
+        company,
+        precision_digits=6,
+        apply_strict_tolerance=False,
+        in_foreign_currency=True,
+    ):
+        """ Round 'raw_total_excluded[_currency]' according 'precision_digits'.
+
+        :param base_lines:              A list of python dictionaries created using the '_prepare_base_line_for_taxes_computation' method.
+        :param company:                 The company owning the base lines.
+        :param precision_digits:        The precision to be used to round.
+        :param apply_strict_tolerance:  A flag ensuring a strict equality between rounded and raw amounts such as
+                                            ROUND(SUM(raw_total_excluded FOREACH base_line), precision_digits)
+                                            and SUM(total_excluded FOREACH base_line)
+                                        If specified, the difference will be spread into the raw amounts to satisfy the equality.
+        :param in_foreign_currency:     True if to be applied on amounts expressed in foreign currency,
+                                        False for amounts expressed in company currency.
+        """
+        if not base_lines:
+            return
+
+        suffix_currency = base_lines[0]['currency_id'] if in_foreign_currency else company.currency_id
+        suffix = '_currency' if in_foreign_currency else ''
+        raw_field = f'raw_total_excluded{suffix}'
+
+        for base_line in base_lines:
+            tax_details = base_line['tax_details']
+            tax_details[raw_field] = float_round(tax_details[raw_field], precision_digits=precision_digits)
+
+        # Tolerance.
+        if not apply_strict_tolerance:
+            return
+
+        def grouping_function(base_line, tax_data):
+            return True
+
+        base_lines_aggregated_values = self._aggregate_base_lines_tax_details(base_lines, grouping_function)
+        values_per_grouping_key = self._aggregate_base_lines_aggregated_values(base_lines_aggregated_values)
+        expected_total_excluded = sum(
+            values[f'total_excluded{suffix}']
+            for values in values_per_grouping_key.values()
+        )
+        current_raw_total_excluded = sum(
+            base_line['tax_details'][raw_field]
+            for base_line in base_lines
+        )
+
+        delta_raw_amount = self._get_delta_amount_to_reach_target(
+            target_amount=expected_total_excluded,
+            target_currency=suffix_currency,
+            raw_current_amount=current_raw_total_excluded,
+            raw_current_amount_precision_digits=precision_digits,
+        )
+        target_factors = [
+            {
+                'factor': base_line['tax_details'][raw_field],
+                'base_line': base_line,
+            }
+            for base_line in base_lines
+        ]
+        amounts_to_distribute = self._distribute_delta_amount_smoothly(
+            precision_digits=precision_digits,
+            delta_amount=delta_raw_amount,
+            target_factors=target_factors,
+        )
+        for target_factor, amount_to_distribute in zip(target_factors, amounts_to_distribute):
+            base_line = target_factor['base_line']
+            base_line['tax_details'][raw_field] += amount_to_distribute
+
+    @api.model
+    def _add_and_round_raw_gross_total_excluded_and_discount(
+        self,
+        base_lines,
+        company,
+        precision_digits=6,
+        apply_strict_tolerance=False,
+        in_foreign_currency=True,
+        account_discount_base_lines=False,
+    ):
+        """ Compute and add 'raw_gross_total_excluded[_currency]' / 'raw_gross_price_unit[_currency]' / 'raw_discount_amount[_currency]'
+        to the tax details according 'precision_digits' / 'in_foreign_currency'.
+
+        :param base_lines:                  A list of python dictionaries created using the '_prepare_base_line_for_taxes_computation' method.
+        :param company:                     The company owning the base lines.
+        :param precision_digits:            The precision to be used to round.
+        :param apply_strict_tolerance:      A flag ensuring a strict equality between rounded and raw amounts such as
+                                                ROUND(SUM(raw_total_excluded + raw_discount_amount FOREACH base_line), precision_digits)
+                                                and SUM(total_excluded FOREACH base_line) + ROUND(SUM(raw_discount_amount FOREACH base_line))
+                                            If specified, the difference will be spread into the 'raw_gross_total_excluded' to satisfy the
+                                            equality.
+        :param in_foreign_currency:         True if to be applied on amounts expressed in foreign currency,
+                                            False for amounts expressed in company currency.
+        :param account_discount_base_lines: Account the distributed global discount in 'discount_base_lines'
+                                            using '_dispatch_global_discount_lines' in 'raw_discount_amount'.
+        """
+        if not base_lines:
+            return
+
+        suffix_currency = base_lines[0]['currency_id'] if in_foreign_currency else company.currency_id
+        suffix = '_currency' if in_foreign_currency else ''
+        raw_field = f'raw_total_excluded{suffix}'
+
+        for base_line in base_lines:
+            tax_details = base_line['tax_details']
+            raw_total_excluded = tax_details[raw_field]
+
+            discount_factor = 1 - (base_line['discount'] / 100.0)
+            if discount_factor:
+                raw_gross_total_excluded = raw_total_excluded / discount_factor
+            elif suffix == '_currency':
+                raw_gross_total_excluded = base_line['price_unit'] * base_line['quantity']
+            elif base_line['rate']:
+                raw_gross_total_excluded = base_line['price_unit'] * base_line['quantity'] / base_line['rate']
+            else:
+                raw_gross_total_excluded = 0.0
+            if account_discount_base_lines:
+                raw_gross_total_excluded -= sum(
+                    discount_base_line['tax_details'][raw_field]
+                    for discount_base_line in base_line.get('discount_base_lines', [])
+                )
+            tax_details[f'raw_gross_total_excluded{suffix}'] = float_round(raw_gross_total_excluded, precision_digits=precision_digits)
+
+            # Same as before but per unit.
+            if float_is_zero(raw_gross_total_excluded, precision_digits=precision_digits):
+                raw_gross_price_unit = base_line['price_unit']
+                if not suffix:
+                    if base_line['rate']:
+                        raw_gross_price_unit /= base_line['rate']
+                    else:
+                        raw_gross_price_unit = 0.0
+            else:
+                raw_gross_price_unit = raw_gross_total_excluded / base_line['quantity']
+            tax_details[f'raw_gross_price_unit{suffix}'] = float_round(raw_gross_price_unit, precision_digits=precision_digits)
+
+            # Compute the amount of the discount due to the 'discount' value set on 'base_line'.
+            raw_discount_amount = raw_gross_total_excluded - raw_total_excluded
+            tax_details[f'raw_discount_amount{suffix}'] = float_round(raw_discount_amount, precision_digits=precision_digits)
+
+        # Tolerance.
+        if not apply_strict_tolerance:
+            return
+
+        def grouping_function(base_line, tax_data):
+            return True
+
+        base_lines_aggregated_values = self._aggregate_base_lines_tax_details(base_lines, grouping_function)
+        values_per_grouping_key = self._aggregate_base_lines_aggregated_values(base_lines_aggregated_values)
+        expected_total_excluded = sum(
+            values[f'total_excluded{suffix}']
+            for values in values_per_grouping_key.values()
+        )
+        raw_total_discount_amount = sum(
+            base_line['tax_details'][f'raw_discount_amount{suffix}']
+            for values in values_per_grouping_key.values()
+            for base_line, _taxes_data in values['base_line_x_taxes_data']
+        )
+        raw_total_gross_amount = sum(
+            base_line['tax_details'][f'raw_gross_total_excluded{suffix}']
+            for values in values_per_grouping_key.values()
+            for base_line, _taxes_data in values['base_line_x_taxes_data']
+        )
+        total_discount_amount = suffix_currency.round(raw_total_discount_amount)
+        expected_total_gross_amount = expected_total_excluded + total_discount_amount
+
+        delta_raw_amount = self._get_delta_amount_to_reach_target(
+            target_amount=expected_total_gross_amount,
+            target_currency=suffix_currency,
+            raw_current_amount=raw_total_gross_amount,
+            raw_current_amount_precision_digits=precision_digits,
+        )
+        target_factors = [
+            {
+                'factor': base_line['tax_details'][f'raw_total_excluded{suffix}'],
+                'base_line': base_line,
+            }
+            for values in values_per_grouping_key.values()
+            for base_line, _taxes_data in values['base_line_x_taxes_data']
+        ]
+        amounts_to_distribute = self._distribute_delta_amount_smoothly(
+            precision_digits=precision_digits,
+            delta_amount=delta_raw_amount,
+            target_factors=target_factors,
+        )
+        for target_factor, amount_to_distribute in zip(target_factors, amounts_to_distribute):
+            base_line = target_factor['base_line']
+            base_line['tax_details'][f'raw_gross_total_excluded{suffix}'] += amount_to_distribute
+
+    @api.model
+    def _round_raw_tax_amounts(
+        self,
+        base_lines_aggregated_values,
+        company,
+        precision_digits=6,
+        apply_strict_tolerance=False,
+        in_foreign_currency=True,
+    ):
+        """ Round 'raw_tax_amount[_currency]'/'raw_base_amount[_currency]' according 'precision_digits' / 'in_foreign_currency'.
+
+        :param base_lines_aggregated_values:    The result of '_aggregate_base_lines_tax_details'.
+        :param company:                         The company owning the base lines.
+        :param precision_digits:                The precision to be used to round.
+        :param apply_strict_tolerance:          A flag ensuring a strict equality between rounded and raw amounts such as
+                                                    ROUND(SUM(raw_tax_amount FOREACH base_line), precision_digits)
+                                                    and SUM(tax_amount FOREACH base_line)
+                                                If specified, the difference will be spread into the raw amounts to satisfy the equality.
+                                                Regarding the base amounts, we keep a consistency between the tax rate between
+                                                each raw_base_amount and raw_tax_amount but also globally with rounded amounts.
+        :param in_foreign_currency:             True if to be applied on amounts expressed in foreign currency,
+                                                False for amounts expressed in company currency.
+        """
+        if not base_lines_aggregated_values:
+            return
+
+        suffix_currency = base_lines_aggregated_values[0][0]['currency_id'] if in_foreign_currency else company.currency_id
+        suffix = '_currency' if in_foreign_currency else ''
+
+        for _base_line, aggregated_values in base_lines_aggregated_values:
+            for values in aggregated_values.values():
+                values[f'raw_tax_amount{suffix}'] = float_round(values[f'raw_tax_amount{suffix}'], precision_digits=precision_digits)
+                values[f'raw_base_amount{suffix}'] = float_round(values[f'raw_base_amount{suffix}'], precision_digits=precision_digits)
+
+        # Tolerance.
+        if not apply_strict_tolerance:
+            return
+
+        tax_field = f'tax_amount{suffix}'
+        raw_tax_field = f'raw_{tax_field}'
+        base_field = f'base_amount{suffix}'
+        raw_base_field = f'raw_{base_field}'
+        values_per_grouping_key = self._aggregate_base_lines_aggregated_values(base_lines_aggregated_values)
+        for grouping_key, values in values_per_grouping_key.items():
+            tax_rate = (values[raw_tax_field] / values[raw_base_field]) if values[raw_base_field] else 0.0
+
+            target_factors = [
+                {
+                    'factor': aggregated_values[grouping_key][raw_tax_field],
+                    'aggregated_values': aggregated_values[grouping_key],
+                }
+                for base_line, aggregated_values in base_lines_aggregated_values
+                if grouping_key in aggregated_values
+            ]
+
+            # Tax amount.
+            expected_tax_amount = values[tax_field]
+            current_raw_tax_amount = values[raw_tax_field]
+            delta_raw_amount = self._get_delta_amount_to_reach_target(
+                target_amount=expected_tax_amount,
+                target_currency=suffix_currency,
+                raw_current_amount=current_raw_tax_amount,
+                raw_current_amount_precision_digits=precision_digits,
+            )
+            amounts_to_distribute = self._distribute_delta_amount_smoothly(
+                precision_digits=precision_digits,
+                delta_amount=delta_raw_amount,
+                target_factors=target_factors,
+            )
+            for target_factor, amount_to_distribute in zip(target_factors, amounts_to_distribute):
+                aggregated_values = target_factor['aggregated_values']
+                aggregated_values[raw_tax_field] += amount_to_distribute
+                values[raw_tax_field] += amount_to_distribute
+                if amount_to_distribute and tax_rate:
+                    new_raw_base_amount = aggregated_values[raw_tax_field] / tax_rate
+                    rounded_new_raw_base_amount = float_round(new_raw_base_amount, precision_digits=precision_digits)
+                    values[raw_base_field] += rounded_new_raw_base_amount - aggregated_values[raw_base_field]
+                    aggregated_values[raw_base_field] = rounded_new_raw_base_amount
+
+            # Base amount.
+            if tax_rate:
+                current_tax_raw_base_amount = (current_raw_tax_amount + delta_raw_amount) / tax_rate
+                delta_raw_amount = self._get_delta_amount_to_reach_target(
+                    target_amount=current_tax_raw_base_amount,
+                    target_currency=suffix_currency,
+                    raw_current_amount=values[raw_base_field],
+                    raw_current_amount_precision_digits=precision_digits,
+                )
+                amounts_to_distribute = self._distribute_delta_amount_smoothly(
+                    precision_digits=precision_digits,
+                    delta_amount=delta_raw_amount,
+                    target_factors=target_factors,
+                )
+                for target_factor, amount_to_distribute in zip(target_factors, amounts_to_distribute):
+                    aggregated_values = target_factor['aggregated_values']
+                    aggregated_values[raw_base_field] += amount_to_distribute
+                    values[raw_base_field] += amount_to_distribute
+
+    # -------------------------------------------------------------------------
+>>>>>>> upstream/18.0
     # END HELPERS IN BOTH PYTHON/JAVASCRIPT (account_tax.js)
     # -------------------------------------------------------------------------
 
     def flatten_taxes_hierarchy(self):
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -48693,6 +50024,9 @@ class AccountTax(models.Model):
             else:
                 all_taxes += tax
         return all_taxes
+=======
+        return self._flatten_taxes_and_sort_them()[0]
+>>>>>>> upstream/18.0
 =======
         return self._flatten_taxes_and_sort_them()[0]
 >>>>>>> upstream/18.0
@@ -49445,6 +50779,10 @@ class AccountTaxRepartitionLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        digits=(16, 12),
+>>>>>>> upstream/18.0
 =======
         digits=(16, 12),
 >>>>>>> upstream/18.0

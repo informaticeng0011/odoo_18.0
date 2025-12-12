@@ -102,7 +102,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import tools, fields
+=======
+from odoo import tools, fields, Command
+>>>>>>> upstream/18.0
 =======
 from odoo import tools, fields, Command
 >>>>>>> upstream/18.0
@@ -535,10 +539,13 @@ class L10nHuEdiTestInvoiceXml(L10nHuEdiTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def test_invoice_and_credit_note(self):
         with freeze_time('2024-02-01'):
             invoice = self.create_invoice_simple()
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -871,6 +878,9 @@ class L10nHuEdiTestInvoiceXml(L10nHuEdiTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1196,6 +1206,10 @@ class L10nHuEdiTestInvoiceXml(L10nHuEdiTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            credit_note.partner_bank_id = self.bank_partner
+>>>>>>> upstream/18.0
 =======
             credit_note.partner_bank_id = self.bank_partner
 >>>>>>> upstream/18.0
@@ -1682,6 +1696,10 @@ class L10nHuEdiTestInvoiceXml(L10nHuEdiTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            invoice.partner_bank_id = self.bank_company
+>>>>>>> upstream/18.0
 =======
             invoice.partner_bank_id = self.bank_company
 >>>>>>> upstream/18.0

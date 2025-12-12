@@ -2,6 +2,7 @@
 
 from odoo import Command
 from odoo.tests import HttpCase, tagged
+<<<<<<< HEAD
 
 from odoo.addons.base.tests.common import DISABLED_MAIL_CONTEXT
 <<<<<<< HEAD
@@ -437,6 +438,11 @@ from odoo.addons.website_sale.tests.common import WebsiteSaleCommon
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+from odoo.exceptions import ValidationError
+
+from odoo.addons.base.tests.common import DISABLED_MAIL_CONTEXT
+>>>>>>> upstream/18.0
 from odoo.addons.payment import utils as payment_utils
 from odoo.addons.website.tools import MockRequest
 from odoo.addons.website_sale.tests.common import WebsiteSaleCommon
@@ -584,6 +590,9 @@ from odoo.addons.website_sale_loyalty.controllers.main import WebsiteSale
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -894,6 +903,11 @@ class TestWebsiteSaleDelivery(HttpCase, WebsiteSaleCommon):
         cls.partner_admin = cls.env.ref('base.partner_admin')
         cls.partner_admin.write(cls.dummy_partner_address_values)
 
+<<<<<<< HEAD
+=======
+        cls.website2 = cls.env['website'].create({'name': 'website 2'})
+
+>>>>>>> upstream/18.0
         cls.env['product.product'].create({
             'name': "Plumbus",
             'list_price': 100.0,
@@ -996,6 +1010,20 @@ class TestWebsiteSaleDelivery(HttpCase, WebsiteSaleCommon):
             'product_id': delivery_product2.id,
         }])
 
+<<<<<<< HEAD
+=======
+    def create_program_with_code(self, code, website_id):
+        return self.env['loyalty.program'].create({
+            'name': "Discount delivery",
+            'program_type': 'promo_code',
+            'website_id': website_id.id,
+            'rule_ids': [Command.create({
+                'code': code,
+                'minimum_amount': 0,
+            })],
+        })
+
+>>>>>>> upstream/18.0
     def test_shop_sale_gift_card_keep_delivery(self):
         # Get admin user and set his preferred shipping method to normal delivery
         # This test also tests that we can indeed pay delivery fees with gift cards/ewallet
@@ -1203,7 +1231,10 @@ class TestWebsiteSaleDelivery(HttpCase, WebsiteSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1659,6 +1690,7 @@ class TestWebsiteSaleDelivery(HttpCase, WebsiteSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1945,4 +1977,36 @@ class TestWebsiteSaleDelivery(HttpCase, WebsiteSaleCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+    def test_prevent_unarchive_when_conflicting_active_program_exists_on_same_website(self):
+        """Unarchiving a program should fail if another active program already has the same
+           rule code on the same website."""
+        program = self.create_program_with_code("FREE", self.website)
+        program.action_archive()
+        self.create_program_with_code("FREE", self.website)
+
+        with self.assertRaises(ValidationError):
+            program.action_unarchive()
+
+    def test_unarchive_when_conflicting_active_program_exists_on_different_website(self):
+        """Unarchiving a program should succeed when another active program already has the
+           same rule code on a different website."""
+        program = self.create_program_with_code("FREE", self.website)
+        program.action_archive()
+
+        self.create_program_with_code("FREE", self.website2)
+        program.action_unarchive()
+
+    def test_prevent_unarchive_when_batch_contains_duplicate_codes_on_same_website(self):
+        """Unarchiving multiple programs at once should fail if they share the same rule code
+           on the same website."""
+        program1 = self.create_program_with_code("FREE", self.website)
+        program1.action_archive()
+        program2 = self.create_program_with_code("FREE", self.website)
+        program2.action_archive()
+
+        with self.assertRaises(ValidationError):
+            (program1 + program2).action_unarchive()
 >>>>>>> upstream/18.0
