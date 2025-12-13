@@ -73,7 +73,11 @@ paymentForm.include({
             const enabledButton = this.paypalData[paymentOptionId]['enabledButton']
             const disabledButton = this.paypalData[paymentOptionId]['disabledButton']
 <<<<<<< HEAD
+<<<<<<< HEAD
             await loadJS(paypalSDKURL);
+=======
+            await this._paypalLoadSDK(paypalSDKURL);
+>>>>>>> upstream/18.0
 =======
             await this._paypalLoadSDK(paypalSDKURL);
 >>>>>>> upstream/18.0
@@ -94,7 +98,11 @@ paymentForm.include({
                 client_id}&components=buttons&currency=${currency_code}&intent=capture`
             this.paypalData[paymentOptionId]['sdkURL'] = paypalSDKURL;
 <<<<<<< HEAD
+<<<<<<< HEAD
             await loadJS(paypalSDKURL);
+=======
+            await this._paypalLoadSDK(paypalSDKURL);
+>>>>>>> upstream/18.0
 =======
             await this._paypalLoadSDK(paypalSDKURL);
 >>>>>>> upstream/18.0
@@ -144,7 +152,10 @@ paymentForm.include({
     },
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     /**
      * Load the JS from the PayPal SDK URL and set an identifier dedicated to Odoo, for PayPal to be 
      * able to recognize which transactions are originating from Odoo.
@@ -161,6 +172,9 @@ paymentForm.include({
         });
     },
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     // #=== PAYMENT FLOW ===#
 

@@ -15,6 +15,10 @@ Activates:
     "depends": [
         "account",
     ],
+<<<<<<< HEAD
+=======
+    "auto_install": ["account"],
+>>>>>>> upstream/18.0
     "data": ["data/res.country.state.csv"],
     "demo": ["demo/demo_company.xml"],
     "license": "LGPL-3",

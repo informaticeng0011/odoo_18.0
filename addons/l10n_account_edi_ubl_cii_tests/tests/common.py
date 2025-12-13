@@ -18,7 +18,11 @@ class TestUBLCommon(AccountTestInvoicingCommon):
         super().setUpClass()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         cls.other_currency = cls.setup_other_currency('USD', rounding=0.001)
+=======
+        cls.other_currency = cls.setup_other_currency('USD')
+>>>>>>> upstream/18.0
 =======
         cls.other_currency = cls.setup_other_currency('USD')
 >>>>>>> upstream/18.0

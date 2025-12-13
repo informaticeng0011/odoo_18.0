@@ -87,6 +87,7 @@ class LoyaltyRule(models.Model):
                 raise ValidationError(_('Split per unit is not allowed for Loyalty and eWallet programs.'))
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     @api.constrains('code')
     def _constrains_code(self):
         mapped_codes = self.filtered('code').mapped('code')
@@ -98,6 +99,8 @@ class LoyaltyRule(models.Model):
         # Prevent coupons and programs from sharing a code
         if self.env['loyalty.card'].search_count([('code', 'in', mapped_codes)]):
 =======
+=======
+>>>>>>> upstream/18.0
     @api.constrains('code', 'active')
     def _constrains_code(self):
         mapped_codes = self.filtered(lambda r: r.code and r.active).mapped('code')
@@ -114,6 +117,9 @@ class LoyaltyRule(models.Model):
         if self.env['loyalty.card'].search_count([
             ('code', 'in', mapped_codes), ('active', '=', True)
         ]):
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             raise ValidationError(_('A coupon with the same code was found.'))
 

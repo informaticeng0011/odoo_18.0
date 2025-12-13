@@ -175,6 +175,7 @@ publicWidget.registry.websiteProfile = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         'click .send_validation_email': '_onSendValidationEmailClick',
 =======
         'click .send_validation_email': 'async _onSendValidationEmailClick',
@@ -748,6 +749,10 @@ publicWidget.registry.websiteProfile = publicWidget.Widget.extend({
         'click .send_validation_email': 'async _onSendValidationEmailClick',
         'close.bs.alert div:has(button.validated_email_close)': '_onCloseValidatedEmailClick',
 >>>>>>> upstream/18.0
+=======
+        'click .send_validation_email': 'async _onSendValidationEmailClick',
+        'close.bs.alert div:has(button.validated_email_close)': '_onCloseValidatedEmailClick',
+>>>>>>> upstream/18.0
     },
 
     //--------------------------------------------------------------------------
@@ -920,6 +925,10 @@ publicWidget.registry.websiteProfile = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> upstream/18.0
 =======
 
 >>>>>>> upstream/18.0
@@ -1595,7 +1604,11 @@ publicWidget.registry.websiteProfile = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         rpc('/profile/send_validation_email', {
+=======
+        return rpc('/profile/send_validation_email', {
+>>>>>>> upstream/18.0
 =======
         return rpc('/profile/send_validation_email', {
 >>>>>>> upstream/18.0
@@ -2268,6 +2281,10 @@ publicWidget.registry.websiteProfile = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                return new Promise(() => {});
+>>>>>>> upstream/18.0
 =======
                 return new Promise(() => {});
 >>>>>>> upstream/18.0

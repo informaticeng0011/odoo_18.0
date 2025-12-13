@@ -383,7 +383,10 @@ export class WebsiteSnippetsMenu extends weSnippetEditor.SnippetsMenu {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -731,6 +734,7 @@ export class WebsiteSnippetsMenu extends weSnippetEditor.SnippetsMenu {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -949,6 +953,8 @@ export class WebsiteSnippetsMenu extends weSnippetEditor.SnippetsMenu {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         // TODO remove in master: fixes the selector for the "Ratio" setting in
@@ -960,6 +966,9 @@ export class WebsiteSnippetsMenu extends weSnippetEditor.SnippetsMenu {
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1379,7 +1388,10 @@ export class WebsiteSnippetsMenu extends weSnippetEditor.SnippetsMenu {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1825,6 +1837,9 @@ export class WebsiteSnippetsMenu extends weSnippetEditor.SnippetsMenu {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

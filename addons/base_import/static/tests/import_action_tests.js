@@ -374,6 +374,10 @@ QUnit.module("Base Import Tests", (hooks) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        const secondTemplateURL = "/mySecondTemplateURL.xlsx";
+>>>>>>> upstream/18.0
 =======
         const secondTemplateURL = "/mySecondTemplateURL.xlsx";
 >>>>>>> upstream/18.0
@@ -620,7 +624,10 @@ QUnit.module("Base Import Tests", (hooks) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -796,6 +803,9 @@ QUnit.module("Base Import Tests", (hooks) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -986,6 +996,7 @@ QUnit.module("Base Import Tests", (hooks) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             target.querySelector(".o_nocontent_help .btn-outline-primary").textContent,
             " Some Import Template"
         );
@@ -994,6 +1005,8 @@ QUnit.module("Base Import Tests", (hooks) => {
             window.location.origin + templateURL,
             "button has the right download url"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1186,6 +1199,9 @@ QUnit.module("Base Import Tests", (hooks) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1555,7 +1571,10 @@ QUnit.module("Base Import Tests", (hooks) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1647,6 +1666,9 @@ QUnit.module("Base Import Tests", (hooks) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1722,7 +1744,10 @@ QUnit.module("Base Import Tests", (hooks) => {
     });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     QUnit.test("batched import doesn't exit when a failure occurs", async function (assert) {
         serverData.actions[2] = {
             id: 2,
@@ -1820,6 +1845,9 @@ QUnit.module("Base Import Tests", (hooks) => {
         assert.verifySteps([]); // This makes sure that we don't exit the import action
     });
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     QUnit.test(
         "Import view: execute import with option 'use first row as headers'",
@@ -2478,7 +2506,10 @@ QUnit.module("Base Import Tests", (hooks) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2663,6 +2694,9 @@ QUnit.module("Base Import Tests", (hooks) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2853,7 +2887,12 @@ QUnit.module("Base Import Tests", (hooks) => {
 
         patchWithCleanup(ImportAction.prototype, {
 <<<<<<< HEAD
+<<<<<<< HEAD
             get isBatched() { // Make sure the UI displays the batched import options
+=======
+            get isBatched() {
+                // Make sure the UI displays the batched import options
+>>>>>>> upstream/18.0
 =======
             get isBatched() {
                 // Make sure the UI displays the batched import options

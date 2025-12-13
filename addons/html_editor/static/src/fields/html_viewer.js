@@ -12,15 +12,21 @@ import {
 import { getBundle } from "@web/core/assets";
 import { memoize } from "@web/core/utils/functions";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { fixInvalidHTML, instanceofMarkup } from "@html_editor/utils/sanitize";
 import { HtmlUpgradeManager } from "@html_editor/html_migrations/html_upgrade_manager";
 import { TableOfContentManager } from "@html_editor/others/embedded_components/core/table_of_content/table_of_content_manager";
 =======
+=======
+>>>>>>> upstream/18.0
 import { fillClipboardData } from "@html_editor/utils/clipboard";
 import { fixInvalidHTML, instanceofMarkup } from "@html_editor/utils/sanitize";
 import { HtmlUpgradeManager } from "@html_editor/html_migrations/html_upgrade_manager";
 import { TableOfContentManager } from "@html_editor/others/embedded_components/core/table_of_content/table_of_content_manager";
 import { getDeepestPosition } from "@html_editor/utils/dom_info";
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 export class HtmlViewer extends Component {
@@ -34,6 +40,10 @@ export class HtmlViewer extends Component {
 
     setup() {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this._cleanups = [];
+>>>>>>> upstream/18.0
 =======
         this._cleanups = [];
 >>>>>>> upstream/18.0
@@ -109,7 +119,10 @@ export class HtmlViewer extends Component {
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     addDomListener(target, eventName, fn, capture = false) {
         const handler = (ev) => {
             fn?.call(this, ev);
@@ -118,6 +131,9 @@ export class HtmlViewer extends Component {
         this._cleanups.push(() => target.removeEventListener(eventName, handler, capture));
     }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     get showIframe() {
         return this.props.config.hasFullHtml || this.props.config.cssAssetId;
@@ -149,7 +165,10 @@ export class HtmlViewer extends Component {
         this.retargetLinks(container);
         this.applyAccessibilityAttributes(container);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         this.addDomListener(container, "copy", this.onCopy);
     }
 
@@ -173,6 +192,9 @@ export class HtmlViewer extends Component {
         range.setEnd(deepFocusNode, deepFocusOffset);
         const clonedContents = range.cloneContents();
         fillClipboardData(ev, selection.toString(), clonedContents);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     }
 
@@ -257,6 +279,12 @@ export class HtmlViewer extends Component {
 
     destroyComponents() {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        for (const cleanup of this._cleanups) {
+            cleanup();
+        }
+>>>>>>> upstream/18.0
 =======
         for (const cleanup of this._cleanups) {
             cleanup();

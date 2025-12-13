@@ -40,6 +40,7 @@ class AccountEdiXmlUBLDE(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         vals = super()._export_invoice_vals(invoice)
         vals['vals']['customization_id'] = self._get_customization_ids()['xrechnung']
 <<<<<<< HEAD
@@ -583,6 +584,8 @@ class AccountEdiXmlUBLDE(models.AbstractModel):
             vals['vals']['buyer_reference'] = 'N/A'
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -640,6 +643,9 @@ class AccountEdiXmlUBLDE(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -697,6 +703,11 @@ class AccountEdiXmlUBLDE(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
+        # If you change this method, please change the corresponding new helper (at the end of this file).
+>>>>>>> upstream/18.0
 =======
         # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
         # If you change this method, please change the corresponding new helper (at the end of this file).
@@ -798,6 +809,11 @@ class AccountEdiXmlUBLDE(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
+        # If you change this method, please change the corresponding new helper (at the end of this file).
+>>>>>>> upstream/18.0
 =======
         # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
         # If you change this method, please change the corresponding new helper (at the end of this file).
@@ -897,7 +913,10 @@ class AccountEdiXmlUBLDE(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -938,7 +957,10 @@ class AccountEdiXmlUBLDE(models.AbstractModel):
     # -------------------------------------------------------------------------
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def _ubl_add_values_tax_currency_code(self, vals):
         # OVERRIDE account.edi.xml.ubl_bis3
         self._ubl_add_values_tax_currency_code_empty(vals)
@@ -950,6 +972,9 @@ class AccountEdiXmlUBLDE(models.AbstractModel):
             for tax_total in vals['_ubl_values']['tax_totals_currency'].values()
         ]
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def _add_invoice_header_nodes(self, document_node, vals):
         # EXTENDS account.edi.xml.ubl_bis3
@@ -985,6 +1010,7 @@ class AccountEdiXmlUBLDE(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1019,6 +1045,8 @@ class AccountEdiXmlUBLDE(models.AbstractModel):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 
     def _ubl_get_line_allowance_charge_discount_node(self, vals, discount_values):
         # EXTENDS account.edi.xml.ubl_bis3
@@ -1027,4 +1055,7 @@ class AccountEdiXmlUBLDE(models.AbstractModel):
         discount_node['cbc:MultiplierFactorNumeric'] = None
         discount_node['cbc:BaseAmount'] = None
         return discount_node
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

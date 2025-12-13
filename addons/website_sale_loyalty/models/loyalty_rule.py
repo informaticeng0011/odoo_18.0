@@ -11,6 +11,7 @@ class LoyaltyRule(models.Model):
 
     # NOTE: is this sufficient?
 <<<<<<< HEAD
+<<<<<<< HEAD
     @api.constrains('code', 'website_id')
     def _constrains_code(self):
         #Programs with the same code are allowed to coexist as long
@@ -22,6 +23,8 @@ class LoyaltyRule(models.Model):
             ('mode', '=', 'with_code'), ('code', 'in', mapped_codes),
             ('id', 'not in', with_code.ids)],
 =======
+=======
+>>>>>>> upstream/18.0
     @api.constrains('code', 'website_id', 'active')
     def _constrains_code(self):
         #Programs with the same code are allowed to coexist as long
@@ -34,6 +37,9 @@ class LoyaltyRule(models.Model):
             ('code', 'in', mapped_codes),
             ('id', 'not in', with_code.ids),
             ('active', '=', True)],
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             fields=['code', 'website_id']) + [{'code': p.code, 'website_id': p.website_id} for p in with_code]
         existing_codes = set()
@@ -46,7 +52,13 @@ class LoyaltyRule(models.Model):
                 existing_codes.add(val)
         # Prevent coupons and programs from sharing a code
 <<<<<<< HEAD
+<<<<<<< HEAD
         if self.env['loyalty.card'].search_count([('code', 'in', mapped_codes)]):
+=======
+        if self.env['loyalty.card'].search_count([
+            ('code', 'in', mapped_codes), ('active', '=', True)
+        ]):
+>>>>>>> upstream/18.0
 =======
         if self.env['loyalty.card'].search_count([
             ('code', 'in', mapped_codes), ('active', '=', True)

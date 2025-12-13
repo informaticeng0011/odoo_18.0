@@ -138,6 +138,11 @@ from odoo import fields
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.fields import Command
+from odoo.tests import Form
+>>>>>>> upstream/18.0
 =======
 from odoo.fields import Command
 from odoo.tests import Form
@@ -1294,7 +1299,11 @@ class TestReplenishWizard(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(last_po_id.order_line.price_unit, 60)
+=======
+        self.assertEqual(last_po_id.order_line.price_unit, 0)
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(last_po_id.order_line.price_unit, 0)
 >>>>>>> upstream/18.0
@@ -2007,7 +2016,10 @@ class TestReplenishWizard(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2418,8 +2430,11 @@ class TestReplenishWizard(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2844,6 +2859,9 @@ class TestReplenishWizard(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

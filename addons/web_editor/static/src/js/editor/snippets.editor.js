@@ -196,6 +196,10 @@ var SnippetEditor = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.isRtl = this.options.direction === "rtl";
+>>>>>>> upstream/18.0
 =======
         this.isRtl = this.options.direction === "rtl";
 >>>>>>> upstream/18.0
@@ -1392,7 +1396,11 @@ var SnippetEditor = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 this.mousePositionXOnElement = args.x - targetRect.x;
+=======
+                this.mousePositionXOnElement = (args.x - targetRect.x) * (this.isRtl ? -1 : 1);
+>>>>>>> upstream/18.0
 =======
                 this.mousePositionXOnElement = (args.x - targetRect.x) * (this.isRtl ? -1 : 1);
 >>>>>>> upstream/18.0
@@ -2254,7 +2262,11 @@ var SnippetEditor = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             const left = parseFloat(style.left);
+=======
+            const left = parseFloat(this.isRtl ? style.right : style.left);
+>>>>>>> upstream/18.0
 =======
             const left = parseFloat(this.isRtl ? style.right : style.left);
 >>>>>>> upstream/18.0
@@ -2934,7 +2946,10 @@ var SnippetEditor = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3462,6 +3477,9 @@ var SnippetEditor = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3981,11 +3999,14 @@ var SnippetEditor = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         // Computing the rowEl position.
         const rowElTop = rowEl.getBoundingClientRect().top;
         const rowElLeft = rowEl.getBoundingClientRect().left;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4264,6 +4285,9 @@ var SnippetEditor = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4548,8 +4572,11 @@ var SnippetEditor = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         let left = x - rowElLeft - this.mousePositionXOnElement;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4831,6 +4858,9 @@ var SnippetEditor = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5112,8 +5142,11 @@ var SnippetEditor = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         columnEl.style.left = left + 'px';
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5392,6 +5425,9 @@ var SnippetEditor = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5848,7 +5884,11 @@ class SnippetsMenu extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             const { snippetSelector, block } = detail;
+=======
+            const { snippetSelector } = detail;
+>>>>>>> upstream/18.0
 =======
             const { snippetSelector } = detail;
 >>>>>>> upstream/18.0
@@ -5993,11 +6033,14 @@ class SnippetsMenu extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if (snippet && block) {
                     const clonedBody = snippet.baseBody.cloneNode(true);
                     clonedBody.classList.remove(".oe_snippet_body");
                     block.after(clonedBody);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6104,6 +6147,9 @@ class SnippetsMenu extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7183,6 +7229,12 @@ class SnippetsMenu extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                if (editorToEnable && editorToEnable.$target[0] && !editorToEnable.$target[0].closest("body")) {
+                    return null;
+                }
+>>>>>>> upstream/18.0
 =======
                 if (editorToEnable && editorToEnable.$target[0] && !editorToEnable.$target[0].closest("body")) {
                     return null;
@@ -8014,7 +8066,10 @@ class SnippetsMenu extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8188,6 +8243,9 @@ class SnippetsMenu extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

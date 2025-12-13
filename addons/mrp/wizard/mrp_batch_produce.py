@@ -122,8 +122,11 @@ class MrpBatchProduct(models.TransientModel):
             return productions.with_context(from_wizard=True).button_mark_done()
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -138,6 +141,9 @@ class MrpBatchProduct(models.TransientModel):
                 }
             }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

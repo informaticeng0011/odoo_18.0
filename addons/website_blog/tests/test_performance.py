@@ -5,6 +5,11 @@ from odoo.addons.website.tests.test_performance import UtilPerf
 import random
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import datetime
+from freezegun import freeze_time
+>>>>>>> upstream/18.0
 =======
 import datetime
 from freezegun import freeze_time
@@ -45,6 +50,7 @@ class TestBlogPerformance(UtilPerf):
         } for blog in blogs])
 
     def test_10_perf_sql_blog_standard_data(self):
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -411,6 +417,8 @@ class TestBlogPerformance(UtilPerf):
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         # some blog post are published at the same time the test is run meaning that they are not published.
         # We ave multiple possibilities when _get_url_hot_query is called:
         # - all call to /blog are executed before the publication date: 9 total queries (8)
@@ -420,6 +428,9 @@ class TestBlogPerformance(UtilPerf):
         with freeze_time(datetime.datetime.now() + datetime.timedelta(seconds=2)):
             self.assertLessEqual(self._get_url_hot_query('/blog'), 10)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

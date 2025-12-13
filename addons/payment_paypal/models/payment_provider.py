@@ -90,13 +90,19 @@ class PaymentProvider(models.Model):
         """
         url = self._paypal_get_api_url() + endpoint
 <<<<<<< HEAD
+<<<<<<< HEAD
         headers = {'Content-Type': 'application/json'}  # PayPal always wants JSON content-type.
 =======
+=======
+>>>>>>> upstream/18.0
         headers = {
             'Content-Type': 'application/json',  # PayPal always wants JSON content-type.
             # PayPal requires a reference specific to Odoo to be able to track Odoo customers.
             'PayPal-Partner-Attribution-Id': 'OdooInc_SP_EC',
         }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         if idempotency_key:
             headers['PayPal-Request-Id'] = idempotency_key

@@ -94,7 +94,11 @@ from psycopg2 import IntegrityError
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.exceptions import ValidationError
+=======
+from odoo.exceptions import UserError, ValidationError
+>>>>>>> upstream/18.0
 =======
 from odoo.exceptions import UserError, ValidationError
 >>>>>>> upstream/18.0
@@ -396,7 +400,10 @@ class TestLoyalty(TransactionCase):
         })
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def create_program_with_code(self, code):
         return self.env['loyalty.program'].create({
             'name': "Discount delivery",
@@ -407,6 +414,9 @@ class TestLoyalty(TransactionCase):
             })],
         })
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_loyalty_program_default_values(self):
         # Test that the default values are correctly set when creating a new program
@@ -644,7 +654,10 @@ class TestLoyalty(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -927,6 +940,9 @@ class TestLoyalty(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1241,7 +1257,10 @@ class TestLoyalty(TransactionCase):
             "Reward description for reward with tag should be 'Free Product - [Test Product, Test Product 2]'"
         )
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_prevent_unarchive_when_conflicting_active_program_exists(self):
         """Unarchiving a program should fail if another active program already has the same rule
@@ -1264,4 +1283,7 @@ class TestLoyalty(TransactionCase):
         # attempt to unarchive both programs together
         with self.assertRaises(ValidationError):
             (program1 + program2).action_unarchive()
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

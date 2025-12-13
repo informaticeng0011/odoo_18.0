@@ -19,6 +19,10 @@ Activates:
     'depends': [
         'account',
     ],
+<<<<<<< HEAD
+=======
+    'auto_install': ['account'],
+>>>>>>> upstream/18.0
     'data': [
         'data/tax_report_full.xml',
         'data/tax_report_simplified.xml',

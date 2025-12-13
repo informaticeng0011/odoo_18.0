@@ -17,6 +17,10 @@ This is the basic Zambian localization necessary to run Odoo in ZM:
     "depends": [
         "account",
     ],
+<<<<<<< HEAD
+=======
+    "auto_install": ["account"],
+>>>>>>> upstream/18.0
     "data": [
         "data/account_tax_report_data.xml",
         "views/report_invoice.xml",

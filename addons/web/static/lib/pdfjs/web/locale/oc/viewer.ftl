@@ -55,12 +55,15 @@ pdfjs-bookmark-button-label = Pagina actuala
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Used in Firefox for Android.
 pdfjs-open-in-app-button =
     .title = Dobrir amb l’aplicacion
 # Used in Firefox for Android.
 # Length of the translation matters since we are in a mobile context, with limited screen estate.
 pdfjs-open-in-app-button-label = Dobrir amb l’aplicacion
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -302,10 +305,13 @@ pdfjs-editor-stamp-button-label = Apondre o modificar d’imatges
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 ## Remove button for the various kind of editor.
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -327,6 +333,9 @@ pdfjs-editor-remove-ink-button =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -342,6 +351,11 @@ pdfjs-editor-remove-stamp-button =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+pdfjs-editor-remove-highlight-button =
+    .title = Levar lo suslinhatge
+>>>>>>> upstream/18.0
 =======
 pdfjs-editor-remove-highlight-button =
     .title = Levar lo suslinhatge
@@ -404,6 +418,11 @@ pdfjs-editor-colorpicker-button =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+pdfjs-editor-colorpicker-dropdown =
+    .aria-label = Causida de colors
+>>>>>>> upstream/18.0
 =======
 pdfjs-editor-colorpicker-dropdown =
     .aria-label = Causida de colors

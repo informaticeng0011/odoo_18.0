@@ -60,7 +60,11 @@ from odoo.addons.test_mail_sms.tests.common import TestSMSRecipients
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tests import tagged
+=======
+from odoo.tests import tagged, users
+>>>>>>> upstream/18.0
 =======
 from odoo.tests import tagged, users
 >>>>>>> upstream/18.0
@@ -391,10 +395,13 @@ class TestSMSActions(TestSMSActionsCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def test_sms_set_outgoing(self):
         self._reset_bus()
         (self.sms_p1 + self.sms_p2).action_set_outgoing()
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -564,6 +571,9 @@ class TestSMSActions(TestSMSActionsCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

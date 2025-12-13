@@ -165,13 +165,19 @@ export class ClosePosPopup extends Component {
     }
     hasUserAuthority() {
 <<<<<<< HEAD
+<<<<<<< HEAD
         return (
             this.props.is_manager ||
 =======
+=======
+>>>>>>> upstream/18.0
         return this.props.is_manager || this.allowedDifference();
     }
     allowedDifference() {
         return (
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             this.props.amount_authorized_diff == null ||
             this.getMaxDifference() <= this.props.amount_authorized_diff
@@ -250,6 +256,7 @@ export class ClosePosPopup extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                 targetAddressSpace: "local",
 >>>>>>> upstream/18.0
@@ -267,6 +274,8 @@ export class ClosePosPopup extends Component {
 >>>>>>> upstream/18.0
 =======
                 targetAddressSpace: "local",
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -517,6 +517,10 @@ _SAFE_QWEB_OPCODES = _EXPR_OPCODES.union(to_opcodes([
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    'EXTENDED_ARG',
+>>>>>>> upstream/18.0
 =======
     'EXTENDED_ARG',
 >>>>>>> upstream/18.0
@@ -879,7 +883,10 @@ T_CALL_SLOT = '0'
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -986,6 +993,9 @@ MALICIOUS_SCHEMES = re.compile(r'javascript:(?!( ?)((window\.)?)history\.back\(\
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1969,7 +1979,11 @@ class IrQWeb(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             attrib = self._post_processing_att(el.tag, el.attrib)
+=======
+            attrib = self._post_processing_att(el.tag, {**el.attrib, '__is_static_node': True})
+>>>>>>> upstream/18.0
 =======
             attrib = self._post_processing_att(el.tag, {**el.attrib, '__is_static_node': True})
 >>>>>>> upstream/18.0
@@ -2139,7 +2153,11 @@ class IrQWeb(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             attrib = self._post_processing_att(el.tag, attrib)
+=======
+            attrib = self._post_processing_att(el.tag, {**attrib, '__is_static_node': True})
+>>>>>>> upstream/18.0
 =======
             attrib = self._post_processing_att(el.tag, {**attrib, '__is_static_node': True})
 >>>>>>> upstream/18.0
@@ -2695,7 +2713,11 @@ class IrQWeb(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for item in el:
+=======
+        for item in list(el):
+>>>>>>> upstream/18.0
 =======
         for item in list(el):
 >>>>>>> upstream/18.0
@@ -3682,6 +3704,11 @@ class IrQWeb(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if not atts.pop('__is_static_node', False) and (href := atts.get('href')) and MALICIOUS_SCHEMES(str(href)):
+            atts['href'] = ""
+>>>>>>> upstream/18.0
 =======
         if not atts.pop('__is_static_node', False) and (href := atts.get('href')) and MALICIOUS_SCHEMES(str(href)):
             atts['href'] = ""

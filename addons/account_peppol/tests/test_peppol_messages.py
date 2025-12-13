@@ -47,11 +47,14 @@ from contextlib import contextmanager
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from requests import Session, PreparedRequest, Response
 from unittest.mock import patch
 
 from odoo.addons.account.tests.test_account_move_send import TestAccountMoveSendCommon
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -192,6 +195,7 @@ from requests import PreparedRequest, Response, Session
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -282,6 +286,9 @@ from requests import PreparedRequest, Response, Session
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+from odoo import Command
 >>>>>>> upstream/18.0
 from odoo.exceptions import UserError
 from odoo.tests.common import tagged, freeze_time
@@ -333,6 +340,10 @@ from odoo.tools.misc import file_open
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.addons.account.tests.test_account_move_send import TestAccountMoveSendCommon
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.account.tests.test_account_move_send import TestAccountMoveSendCommon
 >>>>>>> upstream/18.0
@@ -605,6 +616,7 @@ class TestPeppolMessage(TestAccountMoveSendCommon):
     def _request_handler(cls, s: Session, r: PreparedRequest, /, **kw):
         response = Response()
         response.status_code = 200
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1119,6 +1131,8 @@ class TestPeppolMessage(TestAccountMoveSendCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         url = r.path_url.lower()
         if r.path_url.startswith('/api/peppol/1/lookup'):
             peppol_identifier = parse.parse_qs(r.path_url.rsplit('?')[1])['peppol_identifier'][0].lower()
@@ -1219,6 +1233,9 @@ class TestPeppolMessage(TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1333,7 +1350,10 @@ class TestPeppolMessage(TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1364,6 +1384,9 @@ class TestPeppolMessage(TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1567,7 +1590,10 @@ class TestPeppolMessage(TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2110,6 +2136,9 @@ class TestPeppolMessage(TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2481,7 +2510,11 @@ class TestPeppolMessage(TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(self._get_mail_message(move).preview, 'The document has been sent to the Peppol Access Point for processing')
+=======
+        self.assertEqual(self._get_mail_message(move).preview, 'The invoice has been sent to the Peppol Access Point. The following attachments were sent with the XML:')
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(self._get_mail_message(move).preview, 'The invoice has been sent to the Peppol Access Point. The following attachments were sent with the XML:')
 >>>>>>> upstream/18.0
@@ -2687,6 +2720,7 @@ class TestPeppolMessage(TestAccountMoveSendCommon):
             'invoice_sending_method': 'peppol',
         }])
         # but not valid for company 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3232,6 +3266,8 @@ class TestPeppolMessage(TestAccountMoveSendCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         new_partner.with_company(company_2).invoice_edi_format = 'nlcius'
         self.assertRecordValues(new_partner.with_company(company_2), [{
             'peppol_verification_state': 'not_valid_format',
@@ -3417,6 +3453,9 @@ class TestPeppolMessage(TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3966,11 +4005,14 @@ class TestPeppolMessage(TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # the cron is ran asynchronously and should be agnostic from the current self.env.company
         self.env.ref('account.ir_cron_account_move_send').with_company(company_2).method_direct_trigger()
         # only move 1 & 2 should be processed, move_3 is related to an invalid partner (with regard to company_2) thus should fail to send
         self.assertEqual((move_1 + move_2 + move_3).mapped('peppol_move_state'), ['processing', 'processing', 'skipped'])
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4512,6 +4554,9 @@ class TestPeppolMessage(TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5062,7 +5107,10 @@ class TestPeppolMessage(TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5659,6 +5707,7 @@ class TestPeppolMessage(TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5835,6 +5884,8 @@ class TestPeppolMessage(TestAccountMoveSendCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6120,6 +6171,7 @@ class TestPeppolMessage(TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6302,4 +6354,55 @@ class TestPeppolMessage(TestAccountMoveSendCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+    def test_automatic_invoicing_auto_update_partner_peppol_status(self):
+        self.ensure_installed('sale')
+        tax = self.percent_tax(21.0)
+        product = self._create_product(lst_price=100.0, taxes_id=tax)
+        partner = self.env['res.partner'].create({
+            'name': 'partner_be',
+            'street': "Rue des Bourlottes 9",
+            'zip': "1367",
+            'city': "Ramillies",
+            'vat': 'BE0477472701',
+            'company_registry': '0477472701',
+            'invoice_sending_method': 'peppol',
+            'invoice_edi_format': 'ubl_bis3',
+            'company_id': self.env.company.id,
+            'country_id': self.env.ref('base.be').id,
+        })
+        self.env.user.groups_id |= self.env.ref('sales_team.group_sale_salesman')
+
+        self.env['ir.config_parameter'].sudo().set_param('sale.automatic_invoice', True)
+        so = self._create_sale_order_one_line(product_id=product, partner_id=partner)
+
+        payment_method = self.env.ref('payment.payment_method_unknown')
+
+        dummy_provider = self.env['payment.provider'].create({
+            'name': "Dummy Provider",
+            'code': 'none',
+            'state': 'test',
+            'is_published': True,
+            'payment_method_ids': [Command.set(payment_method.ids)],
+            'allow_tokenization': True,
+        })
+        self._create_dummy_payment_method_for_provider(
+            provider=dummy_provider,
+            journal=self.company_data['default_journal_bank'],
+        )
+        transaction = self.env['payment.transaction'].create({
+            'payment_method_id': payment_method.id,
+            'amount': so.amount_total,
+            'state': 'done',
+            'provider_id': dummy_provider.id,
+            'currency_id': so.currency_id.id,
+            'reference': so.name,
+            'partner_id': partner.id,
+            'sale_order_ids': [Command.set(so.ids)],
+        })
+        transaction.sudo()._post_process()
+
+        self.assertRecordValues(partner, [{'peppol_verification_state': 'valid'}])
 >>>>>>> upstream/18.0

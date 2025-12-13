@@ -16,6 +16,10 @@ This is the base module to manage the accounting chart for the Republic of Mauri
     "depends": [
         "account",
     ],
+<<<<<<< HEAD
+=======
+    "auto_install": ["account"],
+>>>>>>> upstream/18.0
     "data": [
         "data/tax_report-mu.xml",
         "views/report_invoice.xml",

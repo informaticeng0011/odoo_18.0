@@ -137,6 +137,7 @@ from odoo.addons.account.tests.common import AccountTestInvoicingCommon
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tests import tagged
 =======
 from odoo import Command
@@ -159,6 +160,8 @@ from odoo.tests import tagged
 
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -559,6 +562,9 @@ from odoo.tests import tagged
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -871,6 +877,7 @@ class TestAccountPartner(AccountTestInvoicingCommon):
 
         self.assertEqual(self.partner_a.supplier_rank, 1)
         self.assertEqual(self.partner_a.customer_rank, 1)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1684,6 +1691,11 @@ class TestAccountPartner(AccountTestInvoicingCommon):
     def test_manually_write_partner_id(self):
         move = self.env['account.move'].create({
 >>>>>>> upstream/18.0
+=======
+
+    def test_manually_write_partner_id(self):
+        move = self.env['account.move'].create({
+>>>>>>> upstream/18.0
             'move_type': 'out_invoice',
             'invoice_date': '2025-04-29',
             'partner_id': self.partner_a.id,
@@ -1692,6 +1704,7 @@ class TestAccountPartner(AccountTestInvoicingCommon):
                 'price_unit': 500.0,
                 'tax_ids': [],
             })],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1835,6 +1848,8 @@ class TestAccountPartner(AccountTestInvoicingCommon):
 
         self.partner_a['parent_id'] = self.partner_b.id
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2245,6 +2260,9 @@ class TestAccountPartner(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2653,6 +2671,7 @@ class TestAccountPartner(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2661,6 +2680,8 @@ class TestAccountPartner(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3074,6 +3095,7 @@ class TestAccountPartner(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3156,6 +3178,8 @@ class TestAccountPartner(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3445,6 +3469,7 @@ class TestAccountPartner(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3487,6 +3512,8 @@ class TestAccountPartner(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3720,6 +3747,9 @@ class TestAccountPartner(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
