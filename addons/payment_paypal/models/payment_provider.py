@@ -91,8 +91,11 @@ class PaymentProvider(models.Model):
         url = self._paypal_get_api_url() + endpoint
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         headers = {'Content-Type': 'application/json'}  # PayPal always wants JSON content-type.
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         headers = {
@@ -101,6 +104,9 @@ class PaymentProvider(models.Model):
             'PayPal-Partner-Attribution-Id': 'OdooInc_SP_EC',
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

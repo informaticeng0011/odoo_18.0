@@ -58,6 +58,10 @@ class AccountEdiUBL(models.AbstractModel):
         if tax_data and (
             tax_data['tax'].amount_type != 'percent'
             or self._ubl_is_recycling_contribution_tax(tax_data)
+<<<<<<< HEAD
+=======
+            or self._ubl_is_excise_tax(tax_data)
+>>>>>>> upstream/18.0
         ):
             return
         elif tax_data:

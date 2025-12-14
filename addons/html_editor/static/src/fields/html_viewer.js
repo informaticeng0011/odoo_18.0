@@ -13,10 +13,13 @@ import { getBundle } from "@web/core/assets";
 import { memoize } from "@web/core/utils/functions";
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { fixInvalidHTML, instanceofMarkup } from "@html_editor/utils/sanitize";
 import { HtmlUpgradeManager } from "@html_editor/html_migrations/html_upgrade_manager";
 import { TableOfContentManager } from "@html_editor/others/embedded_components/core/table_of_content/table_of_content_manager";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 import { fillClipboardData } from "@html_editor/utils/clipboard";
@@ -25,6 +28,9 @@ import { HtmlUpgradeManager } from "@html_editor/html_migrations/html_upgrade_ma
 import { TableOfContentManager } from "@html_editor/others/embedded_components/core/table_of_content/table_of_content_manager";
 import { getDeepestPosition } from "@html_editor/utils/dom_info";
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -41,6 +47,10 @@ export class HtmlViewer extends Component {
     setup() {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this._cleanups = [];
+>>>>>>> upstream/18.0
 =======
         this._cleanups = [];
 >>>>>>> upstream/18.0
@@ -120,7 +130,10 @@ export class HtmlViewer extends Component {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     addDomListener(target, eventName, fn, capture = false) {
@@ -132,6 +145,9 @@ export class HtmlViewer extends Component {
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -166,7 +182,10 @@ export class HtmlViewer extends Component {
         this.applyAccessibilityAttributes(container);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         this.addDomListener(container, "copy", this.onCopy);
@@ -193,6 +212,9 @@ export class HtmlViewer extends Component {
         const clonedContents = range.cloneContents();
         fillClipboardData(ev, selection.toString(), clonedContents);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -280,6 +302,12 @@ export class HtmlViewer extends Component {
     destroyComponents() {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        for (const cleanup of this._cleanups) {
+            cleanup();
+        }
+>>>>>>> upstream/18.0
 =======
         for (const cleanup of this._cleanups) {
             cleanup();

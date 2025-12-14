@@ -172,6 +172,7 @@ import { describe, expect, test } from "@odoo/hoot";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import { tick } from "@odoo/hoot-mock";
 >>>>>>> upstream/18.0
@@ -468,6 +469,10 @@ import { tick } from "@odoo/hoot-mock";
 >>>>>>> upstream/18.0
 =======
 import { tick } from "@odoo/hoot-mock";
+>>>>>>> upstream/18.0
+=======
+import { tick } from "@odoo/hoot-mock";
+import { press } from "@odoo/hoot-dom";
 >>>>>>> upstream/18.0
 =======
 import { tick } from "@odoo/hoot-mock";
@@ -769,6 +774,7 @@ import { patchWithCleanup } from "@web/../tests/web_test_helpers";
 import { setupEditor, testEditor } from "../_helpers/editor";
 import { getContent } from "../_helpers/selection";
 import { em, s, span, u } from "../_helpers/tags";
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1288,12 +1294,15 @@ import { insertText, italic, tripleClick, underline } from "../_helpers/user_act
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 import {
     insertText,
     italic,
     simulateArrowKeyPress,
     tripleClick,
     underline,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1663,6 +1672,10 @@ import {
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+    undo,
+} from "../_helpers/user_actions";
 >>>>>>> upstream/18.0
 =======
     undo,
@@ -2098,8 +2111,11 @@ test("should make a whole heading underline after a triple click", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         stepFunction: underline,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2380,6 +2396,9 @@ test("should make a whole heading underline after a triple click", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2821,8 +2840,12 @@ test("should make a few characters underline inside table (underline)", async ()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             </table>`
         ),
+=======
+            </table>`),
+>>>>>>> upstream/18.0
 =======
             </table>`),
 >>>>>>> upstream/18.0
@@ -3535,8 +3558,12 @@ test("should make a few characters underline inside table (underline)", async ()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             </table>`
         ),
+=======
+            </table>`),
+>>>>>>> upstream/18.0
 =======
             </table>`),
 >>>>>>> upstream/18.0
@@ -4409,7 +4436,10 @@ describe("with italic", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4938,6 +4968,7 @@ describe("with italic", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5136,6 +5167,8 @@ describe("with italic", () => {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5373,6 +5406,9 @@ test("should not add history step for underline on collapsed selection", async (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

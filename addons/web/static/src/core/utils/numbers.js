@@ -304,12 +304,15 @@ export function formatFloat(value, options = {}) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (options.humanReadable) {
         return humanNumber(value, options);
     }
     const grouping = options.grouping || l10n.grouping;
     const thousandsSep = "thousandsSep" in options ? options.thousandsSep : l10n.thousandsSep;
     const decimalPoint = "decimalPoint" in options ? options.decimalPoint : l10n.decimalPoint;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -595,7 +598,10 @@ export function formatFloat(value, options = {}) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -881,6 +887,9 @@ export function formatFloat(value, options = {}) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

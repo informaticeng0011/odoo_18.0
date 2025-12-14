@@ -74,7 +74,11 @@ paymentForm.include({
             const disabledButton = this.paypalData[paymentOptionId]['disabledButton']
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             await loadJS(paypalSDKURL);
+=======
+            await this._paypalLoadSDK(paypalSDKURL);
+>>>>>>> upstream/18.0
 =======
             await this._paypalLoadSDK(paypalSDKURL);
 >>>>>>> upstream/18.0
@@ -99,7 +103,11 @@ paymentForm.include({
             this.paypalData[paymentOptionId]['sdkURL'] = paypalSDKURL;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             await loadJS(paypalSDKURL);
+=======
+            await this._paypalLoadSDK(paypalSDKURL);
+>>>>>>> upstream/18.0
 =======
             await this._paypalLoadSDK(paypalSDKURL);
 >>>>>>> upstream/18.0
@@ -153,7 +161,10 @@ paymentForm.include({
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     /**
@@ -173,6 +184,9 @@ paymentForm.include({
     },
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -192,8 +192,13 @@ patch(ProductScreen.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     } else if (question.question_type === "company") {
                         userData.company = answer;
+=======
+                    } else if (question.question_type === "company_name") {
+                        userData.company_name = answer;
+>>>>>>> upstream/18.0
 =======
                     } else if (question.question_type === "company_name") {
                         userData.company_name = answer;

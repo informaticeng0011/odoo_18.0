@@ -131,6 +131,11 @@ class TestWebsiteSaleAutoInvoice(WebsiteSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.cart.carrier_id = self.free_delivery
+
+>>>>>>> upstream/18.0
 =======
         self.cart.carrier_id = self.free_delivery
 

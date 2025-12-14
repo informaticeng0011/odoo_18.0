@@ -21,12 +21,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* auth_passkey
 # 
 # Translators:
 # Martin Trigaux, 2024
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -93,6 +96,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -139,6 +145,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-25 08:40+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -210,6 +217,9 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-11-12 12:37+0000\n"
+=======
+"PO-Revision-Date: 2025-12-12 21:59+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Danish <https://translate.odoo.com/projects/odoo-18/"
 "auth_passkey/da/>\n"
@@ -218,6 +228,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+<<<<<<< HEAD
 "X-Generator: Weblate 5.12.2\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -280,6 +291,9 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model_terms:ir.ui.view,arch_db:auth_passkey.auth_passkey_login
@@ -289,22 +303,38 @@ msgstr "- eller -"
 #. module: auth_passkey
 #: model_terms:ir.ui.view,arch_db:auth_passkey.res_users_identitycheck_view_form_passkey
 msgid "<strong>Use your passkey to authenticate</strong>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Brug din adgangsnøgle til autentificering</strong>"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model_terms:ir.ui.view,arch_db:auth_passkey.auth_passkey_users_preferences
 msgid "Add Passkey"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tilføj adgangsnøgle"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model:ir.model.fields,field_description:auth_passkey.field_res_users_identitycheck__auth_method
 msgid "Auth Method"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Autentificeringsmetode"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model:ir.model.fields,field_description:auth_passkey.field_res_users__auth_passkey_key_ids
 msgid "Auth Passkey Key"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Adgangsnøgle til autentificering"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model_terms:ir.ui.view,arch_db:auth_passkey.auth_passkey_key_create_view_form
@@ -321,17 +351,29 @@ msgstr "Opret"
 #. odoo-python
 #: code:addons/auth_passkey/models/res_users.py:0
 msgid "Create Passkey"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Opret adgangsnøgle"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model:ir.actions.act_window,name:auth_passkey.action_auth_passkey_key_create
 msgid "Create Passkey Wizard"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Assistent til oprettelse af adgangsnøgle"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model:ir.model,name:auth_passkey.model_auth_passkey_key_create
 msgid "Create a Passkey"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Opret en adgangsnøgle"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model:ir.model.fields,field_description:auth_passkey.field_auth_passkey_key__create_uid
@@ -349,12 +391,20 @@ msgstr "Oprettet den"
 #: model_terms:ir.ui.view,arch_db:auth_passkey.auth_passkey_users_form
 #: model_terms:ir.ui.view,arch_db:auth_passkey.auth_passkey_users_preferences
 msgid "Created:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Oprettet:"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model:ir.model.fields,field_description:auth_passkey.field_auth_passkey_key__credential_identifier
 msgid "Credential Identifier"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Legitimationsoplysning"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model_terms:ir.ui.view,arch_db:auth_passkey.auth_passkey_users_form
@@ -381,6 +431,11 @@ msgid ""
 "Incorrect Passkey. Please provide a valid passkey or use a different "
 "authentication method."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Forkert adgangsnøgle. Indtast en gyldig adgangsnøgle, eller vælg en anden "
+"autentificeringsmetode."
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model:ir.model.fields,field_description:auth_passkey.field_auth_passkey_key__write_uid
@@ -398,7 +453,11 @@ msgstr "Sidst opdateret den"
 #: model_terms:ir.ui.view,arch_db:auth_passkey.auth_passkey_users_form
 #: model_terms:ir.ui.view,arch_db:auth_passkey.auth_passkey_users_preferences
 msgid "Last used:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sidst anvendt:"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model_terms:ir.ui.view,arch_db:auth_passkey.auth_passkey_login
@@ -414,13 +473,21 @@ msgstr "Navn"
 #. module: auth_passkey
 #: model_terms:ir.ui.view,arch_db:auth_passkey.res_users_identitycheck_view_form_passkey
 msgid "Or choose a different method:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Eller vælg en anden metode:"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model:ir.model,name:auth_passkey.model_auth_passkey_key
 #: model:ir.model.fields.selection,name:auth_passkey.selection__res_users_identitycheck__auth_method__webauthn
 msgid "Passkey"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Adgangsnøgle"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model_terms:ir.ui.view,arch_db:auth_passkey.auth_passkey_users_form
@@ -447,7 +514,11 @@ msgid "Passkeys"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Passkeys"
+>>>>>>> upstream/18.0
 =======
 msgstr "Passkeys"
 >>>>>>> upstream/18.0
@@ -518,6 +589,11 @@ msgid ""
 "Passkeys are a replacement for your username and password, offering a more "
 "secure way of logging in."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Adgangsnøgler erstatter brugernavn og adgangskode og giver en mere sikker "
+"måde at logge ind på."
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model:ir.model,name:auth_passkey.model_res_users_identitycheck
@@ -538,7 +614,11 @@ msgstr "Omdøb"
 #. odoo-python
 #: code:addons/auth_passkey/models/auth_passkey_key.py:0
 msgid "Rename Passkey"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Omdøb adgangsnøgle"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model_terms:ir.ui.view,arch_db:auth_passkey.auth_passkey_key_rename
@@ -554,28 +634,48 @@ msgstr "Sikkerhedskontrol"
 #. module: auth_passkey
 #: model:ir.model.fields,field_description:auth_passkey.field_auth_passkey_key__sign_count
 msgid "Sign Count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Antal underskrifter"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model:ir.model.constraint,message:auth_passkey.constraint_auth_passkey_key_unique_identifier
 msgid "The credential identifier should be unique."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Legitimationsoplysningerne skal være unikke."
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #. odoo-python
 #: code:addons/auth_passkey/models/res_users.py:0
 msgid "Unknown passkey"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ukendt adgangsnøgle"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model_terms:ir.ui.view,arch_db:auth_passkey.res_users_identitycheck_view_form_passkey
 msgid "Use Passkey"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Brug adgangsnøgle"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model_terms:ir.ui.view,arch_db:auth_passkey.res_users_identitycheck_view_form_passkey
 msgid "Use password"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Brug adgangskode"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model:ir.model,name:auth_passkey.model_res_users

@@ -12,13 +12,19 @@ Nigerian localization.
     'countries': ['ng'],
     'category': 'Accounting/Localizations/Account Charts',
 <<<<<<< HEAD
+<<<<<<< HEAD
     'depends': ['base_vat'],
 =======
+=======
+>>>>>>> upstream/18.0
     'depends': [
         'account',
         'base_vat',
     ],
     'auto_install': ['account'],
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     'data': [
         'data/tax_report.xml',

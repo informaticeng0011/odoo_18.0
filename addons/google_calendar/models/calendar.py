@@ -180,6 +180,7 @@ class Meeting(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # Check if event modification attempt by attendee is valid to avoid duplicate events creation.
         for event in self:
             # Edge case: when restarting the synchronization, guests can write 'need_sync=True' on events.
@@ -188,6 +189,8 @@ class Meeting(models.Model):
                 raise ValidationError(_("The following event can only be updated by the organizer "
                                         "according to the event permissions set on Google Calendar."))
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -440,6 +443,9 @@ class Meeting(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -946,6 +952,7 @@ class Meeting(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if self.allday:
             # For all-day events, 'dateTime' must be set to None to indicate that it's an all-day event.
             # Otherwise, if both 'date' and 'dateTime' are set, Google may not recognize it as an all-day event.
@@ -957,6 +964,8 @@ class Meeting(models.Model):
             start = {'dateTime': pytz.utc.localize(self.start).isoformat(), 'date': None}
             end = {'dateTime': pytz.utc.localize(self.stop).isoformat(), 'date': None}
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1467,6 +1476,9 @@ class Meeting(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2027,7 +2039,10 @@ class Meeting(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2429,6 +2444,9 @@ class Meeting(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

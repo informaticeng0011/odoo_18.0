@@ -17,6 +17,10 @@ This is the base module to manage the accounting chart for the Republic of Mauri
         "account",
     ],
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    "auto_install": ["account"],
+>>>>>>> upstream/18.0
 =======
     "auto_install": ["account"],
 >>>>>>> upstream/18.0

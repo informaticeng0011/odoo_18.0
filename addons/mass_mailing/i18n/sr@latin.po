@@ -93,6 +93,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* mass_mailing
 #
 # Translators:
@@ -101,6 +102,8 @@
 # Martin Trigaux, 2023
 #
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -383,6 +386,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -525,6 +529,9 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
@@ -593,6 +600,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-06-03 08:43+0000\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -925,6 +933,11 @@ msgstr ""
 "PO-Revision-Date: 2025-11-21 06:40+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-12 18:36+0000\n"
+"PO-Revision-Date: 2025-11-21 06:40+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Serbian (Latin script) <https://translate.odoo.com/projects/"
 "odoo-18/mass_mailing/sr_Latn/>\n"
 "Language: sr@latin\n"
@@ -1026,6 +1039,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1219,12 +1235,15 @@ msgid " %(subject)s (final)"
 msgstr ""
 
 #. module: mass_mailing
+<<<<<<< HEAD
 #. odoo-python
 #: code:addons/mass_mailing/wizard/mailing_contact_import.py:0
 msgid " %i duplicates have been ignored."
 msgstr ""
 
 #. module: mass_mailing
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:mass_mailing.mailing_contact_import_view_form
 msgid ""
 "\"Damien Roberts\" <d.roberts@example.com>\n"
@@ -1281,12 +1300,15 @@ msgstr ""
 
 #. module: mass_mailing
 #. odoo-python
+<<<<<<< HEAD
 #: code:addons/mass_mailing/wizard/mailing_contact_import.py:0
 msgid "%i Contacts have been imported."
 msgstr ""
 
 #. module: mass_mailing
 #. odoo-python
+=======
+>>>>>>> upstream/18.0
 #: code:addons/mass_mailing/models/mailing_list.py:0
 msgid "%s (copy)"
 msgstr "%s (kopija)"
@@ -1544,6 +1566,14 @@ msgid "<i class=\"fa fa-fw fa-thumbs-up\"/> Thumbs"
 msgstr ""
 
 #. module: mass_mailing
+<<<<<<< HEAD
+=======
+#: model_terms:ir.actions.act_window,help:mass_mailing.mailing_subscription_action_report_optout
+msgid "<i class=\"oi oi-arrow-right\"></i> Configure Opt-out Reasons"
+msgstr ""
+
+#. module: mass_mailing
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_blockquote
 msgid ""
 "<i>Write a quote here from one of your customers. Quotes are a great way to "
@@ -1554,8 +1584,13 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_form
 msgid ""
 "<small class=\"oe_edit_only text-muted mb-2\" style=\"font-size:74%\" "
+<<<<<<< HEAD
 "invisible=\"reply_to_mode == 'update' or mailing_model_name in ['mailing."
 "contact', 'res.partner', 'mailing.list']\">\n"
+=======
+"invisible=\"reply_to_mode == 'update' or mailing_model_name in "
+"['mailing.contact', 'res.partner', 'mailing.list']\">\n"
+>>>>>>> upstream/18.0
 "                                                    To track replies, this "
 "address must belong to this database.\n"
 "                                                </small>"
@@ -1573,8 +1608,12 @@ msgstr ""
 msgid ""
 "<span class=\"fa fa-hourglass-o me-2 small my-auto\" aria-label=\"Scheduled "
 "date\"/>\n"
+<<<<<<< HEAD
 "                                            <span class=\"align-self-"
 "baseline\">Next Batch</span>"
+=======
+"                                        <span>Next Batch</span>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: mass_mailing
@@ -2066,6 +2105,14 @@ msgid "Allow A/B Testing"
 msgstr ""
 
 #. module: mass_mailing
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:mass_mailing.mailing_subscription_optout_view_tree
+msgid "Allow Feedback"
+msgstr ""
+
+#. module: mass_mailing
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:mass_mailing.res_config_settings_view_form
 msgid "Allow recipients to blacklist themselves"
 msgstr ""
@@ -2171,6 +2218,23 @@ msgid "Archived"
 msgstr "Arhivirano"
 
 #. module: mass_mailing
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/mass_mailing/controllers/main.py:0
+msgid "Are you sure you want to unsubscribe from our mailing list?"
+msgstr ""
+
+#. module: mass_mailing
+#. odoo-python
+#: code:addons/mass_mailing/controllers/main.py:0
+msgid ""
+"Are you sure you want to unsubscribe from the mailing list \"%"
+"(unsubscribed_lists)s\"?"
+msgstr ""
+
+#. module: mass_mailing
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:mass_mailing.field_mailing_subscription_optout__is_feedback
 msgid "Ask For Feedback"
 msgstr ""
@@ -2207,7 +2271,11 @@ msgid "Attach a file"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Priloži datoteku"
+>>>>>>> upstream/18.0
 =======
 msgstr "Priloži datoteku"
 >>>>>>> upstream/18.0
@@ -2343,7 +2411,11 @@ msgid "Background Color"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pozadinska boja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pozadinska boja"
 >>>>>>> upstream/18.0
@@ -2474,8 +2546,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/mass_mailing/controllers/main.py:0
 msgid ""
+<<<<<<< HEAD
 "Blocklist removal request from portal of mailing %(mailing_link)s (document "
 "%(record_link)s)"
+=======
+"Blocklist removal request from portal of mailing %(mailing_link)s (document %"
+"(record_link)s)"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: mass_mailing
@@ -2488,8 +2565,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/mass_mailing/controllers/main.py:0
 msgid ""
+<<<<<<< HEAD
 "Blocklist request from portal of mailing %(mailing_link)s (document "
 "%(record_link)s)"
+=======
+"Blocklist request from portal of mailing %(mailing_link)s (document %"
+"(record_link)s)"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: mass_mailing
@@ -2572,7 +2654,11 @@ msgid "Bounce"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odbijeno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odbijeno"
 >>>>>>> upstream/18.0
@@ -2770,7 +2856,11 @@ msgid "Cancelled"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Otkazano"
+>>>>>>> upstream/18.0
 =======
 msgstr "Otkazano"
 >>>>>>> upstream/18.0
@@ -2916,12 +3006,15 @@ msgstr ""
 
 #. module: mass_mailing
 #. odoo-javascript
+<<<<<<< HEAD
 #: code:addons/mass_mailing/static/src/xml/mass_mailing.xml:0
 msgid "Click on the ⭐ next to the subject to save this mailing as a"
 msgstr ""
 
 #. module: mass_mailing
 #. odoo-javascript
+=======
+>>>>>>> upstream/18.0
 #: code:addons/mass_mailing/static/src/js/tours/mass_mailing_tour.js:0
 msgid "Click on this button to add this mailing to your templates."
 msgstr ""
@@ -2976,7 +3069,11 @@ msgid "Close"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zatvori"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zatvori"
 >>>>>>> upstream/18.0
@@ -3072,6 +3169,14 @@ msgid "Come Back"
 msgstr ""
 
 #. module: mass_mailing
+<<<<<<< HEAD
+=======
+#: model_terms:ir.actions.act_window,help:mass_mailing.mailing_subscription_action_report_optout
+msgid "Come back later to discover why contacts unsubscribe.<br>"
+msgstr ""
+
+#. module: mass_mailing
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/mass_mailing/models/mailing.py:0
 msgid ""
@@ -3117,8 +3222,12 @@ msgid "Configure Outgoing Mail Servers"
 msgstr ""
 
 #. module: mass_mailing
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/mass_mailing/static/src/js/tours/mass_mailing_tour.js:0
+=======
+#: model_terms:web_tour.tour,rainbow_man_message:mass_mailing.mass_mailing_tour
+>>>>>>> upstream/18.0
 msgid "Congratulations, I love your first mailing. :)"
 msgstr ""
 
@@ -3167,6 +3276,25 @@ msgid "Contacts"
 msgstr "Kontakti"
 
 #. module: mass_mailing
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/mass_mailing/wizard/mailing_contact_import.py:0
+msgid ""
+"Contacts successfully imported. Number of contacts imported: %"
+"(imported_count)s"
+msgstr ""
+
+#. module: mass_mailing
+#. odoo-python
+#: code:addons/mass_mailing/wizard/mailing_contact_import.py:0
+msgid ""
+"Contacts successfully imported. Number of contacts imported: %"
+"(imported_count)s. Number of duplicates ignored: %(duplicate_count)s"
+msgstr ""
+
+#. module: mass_mailing
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:mass_mailing.snippet_options
 msgid "Content Background"
 msgstr ""
@@ -3208,7 +3336,11 @@ msgid "Counter of the number of bounced emails for this contact"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Brojač odbijenih email-ova za ovaj kontakt"
+>>>>>>> upstream/18.0
 =======
 msgstr "Brojač odbijenih email-ova za ovaj kontakt"
 >>>>>>> upstream/18.0
@@ -3927,7 +4059,11 @@ msgid "Fullscreen"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ceo ekran"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ceo ekran"
 >>>>>>> upstream/18.0
@@ -4001,7 +4137,11 @@ msgstr "Nameštaj"
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_image_text
 msgid ""
 "Get your inside sales (CRM) fully integrated with online sales (eCommerce), "
+<<<<<<< HEAD
 "in-store sales (Point of Sale) and marketplaces like eBay and Amazon."
+=======
+"in-store sales (Point of Sale) and marketplaces like Amazon."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: mass_mailing
@@ -4023,6 +4163,7 @@ msgstr "Grupiši po"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.mailing_trace_report_view_search
 msgid "Group By..."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4396,6 +4537,9 @@ msgstr "Grupiši po..."
 =======
 msgstr "Grupiši po..."
 >>>>>>> upstream/18.0
+=======
+msgstr "Grupiši po..."
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing
 #: model:ir.model,name:mass_mailing.model_ir_http
@@ -4421,7 +4565,11 @@ msgid "HTTP Routing"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "HTTP rutiranje"
+>>>>>>> upstream/18.0
 =======
 msgstr "HTTP rutiranje"
 >>>>>>> upstream/18.0
@@ -4645,6 +4793,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ako je email adresa na crnoj listi, kontakt neće dobijati masovne email-ove "
+"više, sa bilo koje liste"
+>>>>>>> upstream/18.0
 =======
 "Ako je email adresa na crnoj listi, kontakt neće dobijati masovne email-ove "
 "više, sa bilo koje liste"
@@ -4771,7 +4924,11 @@ msgid "Images"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Slike"
+>>>>>>> upstream/18.0
 =======
 msgstr "Slike"
 >>>>>>> upstream/18.0
@@ -4862,7 +5019,11 @@ msgid "Import"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Uvoz"
+>>>>>>> upstream/18.0
 =======
 msgstr "Uvoz"
 >>>>>>> upstream/18.0
@@ -5281,7 +5442,14 @@ msgid "Mailing Campaigns"
 msgstr ""
 
 #. module: mass_mailing
+<<<<<<< HEAD
 #: model:ir.model,name:mass_mailing.model_mailing_contact
+=======
+#. odoo-python
+#: code:addons/mass_mailing/models/mailing_subscription.py:0
+#: model:ir.model,name:mass_mailing.model_mailing_contact
+#: model_terms:ir.ui.view,arch_db:mass_mailing.mailing_subscription_view_tree
+>>>>>>> upstream/18.0
 msgid "Mailing Contact"
 msgstr ""
 
@@ -5291,6 +5459,15 @@ msgid "Mailing Contact Import"
 msgstr ""
 
 #. module: mass_mailing
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/mass_mailing/models/mailing_subscription.py:0
+msgid "Mailing Contacts"
+msgstr ""
+
+#. module: mass_mailing
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:mass_mailing.field_ir_model__is_mailing_enabled
 msgid "Mailing Enabled"
 msgstr ""
@@ -5339,6 +5516,11 @@ msgid "Mailing List Subscription"
 msgstr ""
 
 #. module: mass_mailing
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:mass_mailing.mailing_subscription_view_graph
+#: model_terms:ir.ui.view,arch_db:mass_mailing.mailing_subscription_view_pivot
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:mass_mailing.mailing_subscription_view_search
 #: model_terms:ir.ui.view,arch_db:mass_mailing.mailing_subscription_view_tree
 msgid "Mailing List Subscriptions"
@@ -5457,6 +5639,15 @@ msgid "Manage Mass Mailing Campaigns"
 msgstr ""
 
 #. module: mass_mailing
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/mass_mailing/controllers/main.py:0
+msgid "Manage Subscriptions"
+msgstr ""
+
+#. module: mass_mailing
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:mass_mailing.res_config_settings_view_form
 msgid "Manage mass mailing campaigns"
 msgstr ""
@@ -5589,7 +5780,11 @@ msgid "Merge"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Spoji"
+>>>>>>> upstream/18.0
 =======
 msgstr "Spoji"
 >>>>>>> upstream/18.0
@@ -5759,7 +5954,11 @@ msgid "Models"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Modeli"
+>>>>>>> upstream/18.0
 =======
 msgstr "Modeli"
 >>>>>>> upstream/18.0
@@ -6050,7 +6249,11 @@ msgid "Normalized Email"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Normalizovan Email"
+>>>>>>> upstream/18.0
 =======
 msgstr "Normalizovan Email"
 >>>>>>> upstream/18.0
@@ -6128,6 +6331,14 @@ msgid "Not subscribed"
 msgstr ""
 
 #. module: mass_mailing
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:mass_mailing.mailing_view_generic
+msgid "Nothing to see yet!"
+msgstr ""
+
+#. module: mass_mailing
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:mass_mailing.field_mailing_contact__message_needaction_counter
 #: model:ir.model.fields,field_description:mass_mailing.field_mailing_mailing__message_needaction_counter
 msgid "Number of Actions"
@@ -6209,7 +6420,11 @@ msgid "Number of messages requiring action"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Broj poruka koje zahtevaju akciju"
+>>>>>>> upstream/18.0
 =======
 msgstr "Broj poruka koje zahtevaju akciju"
 >>>>>>> upstream/18.0
@@ -6366,6 +6581,15 @@ msgid ""
 msgstr ""
 
 #. module: mass_mailing
+<<<<<<< HEAD
+=======
+#: model:ir.actions.act_window,name:mass_mailing.mailing_subscription_action_report_optout
+#: model:ir.ui.menu,name:mass_mailing.mailing_menu_report_subscribe_reason
+msgid "Opt-Out Report"
+msgstr ""
+
+#. module: mass_mailing
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:mass_mailing.mailing_list_view_tree
 msgid "Opt-out (%)"
 msgstr ""
@@ -6395,6 +6619,7 @@ msgid ""
 msgstr ""
 "Opcioni jezik prevoda (ISO kod) za odabir prilikom slanja e-pošte. Ako nije "
 "podešeno, koristiće se engleska verzija. Ovo bi obično trebalo da bude izraz "
+<<<<<<< HEAD
 "placeholder-a koji obezbeđuje odgovarajući jezik, npr. {{ object.partner_id."
 "lang }}."
 
@@ -6408,6 +6633,10 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mass_mailing.mailing_subscription_view_search
 msgid "Optout Reason"
 msgstr ""
+=======
+"placeholder-a koji obezbeđuje odgovarajući jezik, npr. "
+"{{ object.partner_id.lang }}."
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing
 #: model:ir.actions.act_window,name:mass_mailing.mailing_subscription_optout_action
@@ -6439,7 +6668,11 @@ msgid "Other"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ostalo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ostalo"
 >>>>>>> upstream/18.0
@@ -6554,7 +6787,11 @@ msgid "Pending"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "U toku"
+>>>>>>> upstream/18.0
 =======
 msgstr "U toku"
 >>>>>>> upstream/18.0
@@ -6775,7 +7012,11 @@ msgid "Ratings"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ocene"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ocene"
 >>>>>>> upstream/18.0
@@ -6853,6 +7094,7 @@ msgid "Ready for take-off!"
 msgstr ""
 
 #. module: mass_mailing
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:mass_mailing.field_mailing_subscription__opt_out_reason_id
 #: model:ir.model.fields,field_description:mass_mailing.field_mailing_subscription_optout__name
 #: model_terms:ir.ui.view,arch_db:mass_mailing.mail_blacklist_view_search
@@ -6940,6 +7182,19 @@ msgstr "Razlog"
 msgstr "Razlog"
 >>>>>>> upstream/18.0
 =======
+msgstr "Razlog"
+>>>>>>> upstream/18.0
+=======
+#: model_terms:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_form
+msgid "Ready to unleash emails?"
+msgstr ""
+
+#. module: mass_mailing
+#: model:ir.model.fields,field_description:mass_mailing.field_mailing_subscription__opt_out_reason_id
+#: model:ir.model.fields,field_description:mass_mailing.field_mailing_subscription_optout__name
+#: model_terms:ir.ui.view,arch_db:mass_mailing.mail_blacklist_view_search
+#: model_terms:ir.ui.view,arch_db:mass_mailing.mailing_subscription_view_search
+msgid "Reason"
 msgstr "Razlog"
 >>>>>>> upstream/18.0
 
@@ -7304,6 +7559,14 @@ msgid "Send a sample mailing for testing purpose to the address below."
 msgstr ""
 
 #. module: mass_mailing
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:mass_mailing.mailing_view_generic
+msgid "Send a test version of your mailing to preview its design"
+msgstr ""
+
+#. module: mass_mailing
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:mass_mailing.selection__mailing_mailing__schedule_type__now
 msgid "Send now"
 msgstr "Pošalji odmah"
@@ -7320,6 +7583,14 @@ msgid "Send test"
 msgstr ""
 
 #. module: mass_mailing
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_form
+msgid "Send to all"
+msgstr ""
+
+#. module: mass_mailing
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:mass_mailing.selection__mailing_mailing__state__sending
 msgid "Sending"
 msgstr "Šalje"
@@ -7412,7 +7683,11 @@ msgid "Sequence"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Niz"
+>>>>>>> upstream/18.0
 =======
 msgstr "Niz"
 >>>>>>> upstream/18.0
@@ -7612,7 +7887,10 @@ msgstr ""
 
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mailing_mailing__subject
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_form
+=======
+>>>>>>> upstream/18.0
 msgid "Subject"
 msgstr "Predmet"
 
@@ -7626,6 +7904,10 @@ msgstr ""
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.mailing_contact_view_form
 #: model_terms:ir.ui.view,arch_db:mass_mailing.mailing_subscription_view_form
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:mass_mailing.mailing_subscription_view_search
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:mass_mailing.mailing_subscription_view_tree
 msgid "Subscription Date"
 msgstr ""
@@ -7637,6 +7919,7 @@ msgid "Subscription Information"
 msgstr ""
 
 #. module: mass_mailing
+<<<<<<< HEAD
 #: model:ir.actions.act_window,name:mass_mailing.mailing_subscription_action_report_optout
 msgid "Subscriptions"
 <<<<<<< HEAD
@@ -7726,11 +8009,22 @@ msgstr "Pretplate"
 >>>>>>> upstream/18.0
 
 #. module: mass_mailing
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:mass_mailing.unsubscribe_form
 msgid "Successfully Unsubscribed"
 msgstr ""
 
 #. module: mass_mailing
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/mass_mailing/controllers/main.py:0
+msgid "Successfully unsubscribed!"
+msgstr ""
+
+#. module: mass_mailing
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:mass_mailing.field_mailing_contact__tag_ids
 msgid "Tags"
 msgstr "Oznake"
@@ -7950,6 +8244,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ova email adresa je na crnoj listi za masovne poruke. Kliknite da biste je "
+"uklonili sa crne liste."
+>>>>>>> upstream/18.0
 =======
 "Ova email adresa je na crnoj listi za masovne poruke. Kliknite da biste je "
 "uklonili sa crne liste."
@@ -8062,6 +8361,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ovo polje se koristi za pretragu po email adresi jer primarno polje za email "
+"može da sadrži više od isključivo email adrese."
+>>>>>>> upstream/18.0
 =======
 "Ovo polje se koristi za pretragu po email adresi jer primarno polje za email "
 "može da sadrži više od isključivo email adrese."
@@ -8246,6 +8550,7 @@ msgid "Top"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Vrh"
@@ -8313,6 +8618,13 @@ msgstr "Vrh"
 
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mailing_mailing__total
+=======
+msgstr "Vrh"
+
+#. module: mass_mailing
+#: model:ir.model.fields,field_description:mass_mailing.field_mailing_mailing__total
+#: model_terms:ir.ui.view,arch_db:mass_mailing.mailing_subscription_view_tree
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_tree
 msgid "Total"
 msgstr "Ukupno"
@@ -8391,6 +8703,11 @@ msgid "Unknown error"
 msgstr "Nepoznata greška"
 
 #. module: mass_mailing
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/mass_mailing/controllers/main.py:0
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_footer_social
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_footer_social_left
 #: model_terms:ir.ui.view,arch_db:mass_mailing.theme_basic_template
@@ -8399,6 +8716,10 @@ msgstr ""
 
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mailing_subscription__opt_out_datetime
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:mass_mailing.mailing_subscription_view_search
+>>>>>>> upstream/18.0
 msgid "Unsubscription Date"
 msgstr ""
 
@@ -8839,12 +9160,15 @@ msgid "schedule a mailing"
 msgstr ""
 
 #. module: mass_mailing
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/mass_mailing/static/src/xml/mass_mailing.xml:0
 msgid "template"
 msgstr ""
 
 #. module: mass_mailing
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:mass_mailing.ab_testing_description
 msgid "the"
 msgstr ""
@@ -8879,6 +9203,12 @@ msgstr ""
 msgid "⌙ Inactive"
 msgstr ""
 
+<<<<<<< HEAD
+=======
+#~ msgid "Subscriptions"
+#~ msgstr "Pretplate"
+
+>>>>>>> upstream/18.0
 #~ msgid "Chat"
 #~ msgstr "Chat"
 

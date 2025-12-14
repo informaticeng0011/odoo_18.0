@@ -13,6 +13,7 @@ class AccountPaymentCommon(PaymentCommon, AccountTestInvoicingCommon):
     def setUpClass(cls):
         super().setUpClass()
 <<<<<<< HEAD
+<<<<<<< HEAD
         with cls.mocked_get_payment_method_information(cls):
             cls.dummy_provider_method = cls.env['account.payment.method'].sudo().create({
                 'name': 'Dummy method',
@@ -21,10 +22,15 @@ class AccountPaymentCommon(PaymentCommon, AccountTestInvoicingCommon):
             })
             cls.dummy_provider.journal_id = cls.company_data['default_journal_bank']
 =======
+=======
+>>>>>>> upstream/18.0
         cls.dummy_provider_method = cls._create_dummy_payment_method_for_provider(
             provider=cls.dummy_provider,
             journal=cls.company_data['default_journal_bank'],
         )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
         cls.account = cls.outbound_payment_method_line.payment_account_id
@@ -55,6 +61,7 @@ class AccountPaymentCommon(PaymentCommon, AccountTestInvoicingCommon):
         self.enable_post_process_patcher = False
         super().setUp()
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     #=== Utils ===#
 
@@ -69,5 +76,7 @@ class AccountPaymentCommon(PaymentCommon, AccountTestInvoicingCommon):
 
         with patch.object(self.env.registry['account.payment.method'], '_get_payment_method_information', _get_payment_method_information):
             yield
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

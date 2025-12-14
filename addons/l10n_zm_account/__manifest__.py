@@ -18,6 +18,10 @@ This is the basic Zambian localization necessary to run Odoo in ZM:
         "account",
     ],
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    "auto_install": ["account"],
+>>>>>>> upstream/18.0
 =======
     "auto_install": ["account"],
 >>>>>>> upstream/18.0

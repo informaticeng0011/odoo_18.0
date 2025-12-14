@@ -26,7 +26,11 @@
                 <p
                     class="form-control"
 <<<<<<< HEAD
+<<<<<<< HEAD
                     t-out="partner.l10n_latam_identification_type_id.name"
+=======
+                    t-out="partner_sudo.l10n_latam_identification_type_id.name"
+>>>>>>> upstream/18.0
 =======
                     t-out="partner_sudo.l10n_latam_identification_type_id.name"
 >>>>>>> upstream/18.0
@@ -37,7 +41,11 @@
                     name="l10n_latam_identification_type_id"
                     class="form-control"
 <<<<<<< HEAD
+<<<<<<< HEAD
                     t-att-value="partner.l10n_latam_identification_type_id.id"
+=======
+                    t-att-value="partner_sudo.l10n_latam_identification_type_id.id"
+>>>>>>> upstream/18.0
 =======
                     t-att-value="partner_sudo.l10n_latam_identification_type_id.id"
 >>>>>>> upstream/18.0
@@ -51,7 +59,11 @@
     <template id="address" inherit_id="website_sale.address">
         <div id="div_vat" position="before">
 <<<<<<< HEAD
+<<<<<<< HEAD
             <t t-if="address_type == 'billing' and res_company.country_id.code == 'UY'">
+=======
+            <t t-if="(use_delivery_as_billing and address_type == 'delivery' or address_type == 'billing') and res_company.country_id.code == 'UY'">
+>>>>>>> upstream/18.0
 =======
             <t t-if="(use_delivery_as_billing and address_type == 'delivery' or address_type == 'billing') and res_company.country_id.code == 'UY'">
 >>>>>>> upstream/18.0
