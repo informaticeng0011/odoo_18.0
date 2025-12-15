@@ -105,7 +105,11 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         res['gr_edi'] = {'label': _("MyDATA"), 'is_applicable': self._is_gr_edi_applicable}
+=======
+        res['gr_edi'] = {'label': _("myDATA"), 'is_applicable': self._is_gr_edi_applicable}
+>>>>>>> upstream/18.0
 =======
         res['gr_edi'] = {'label': _("myDATA"), 'is_applicable': self._is_gr_edi_applicable}
 >>>>>>> upstream/18.0
@@ -497,7 +501,11 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'message': _("The following invoice(s) are not ready to be sent to MyDATA: \n%s",
+=======
+                'message': _("The following invoice(s) are not ready to be sent to myDATA: \n%s",
+>>>>>>> upstream/18.0
 =======
                 'message': _("The following invoice(s) are not ready to be sent to myDATA: \n%s",
 >>>>>>> upstream/18.0
@@ -899,9 +907,15 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if invoice in invoices and invoice.l10n_gr_edi_state == 'invoice_error':
                 invoice_data['error'] = {
                     'error_title': _("Error when sending invoice to MyDATA"),
+=======
+            if invoice in invoices and invoice.l10n_gr_edi_state != 'invoice_sent':
+                invoice_data['error'] = {
+                    'error_title': _("Error when sending invoice to myDATA"),
+>>>>>>> upstream/18.0
 =======
             if invoice in invoices and invoice.l10n_gr_edi_state != 'invoice_sent':
                 invoice_data['error'] = {

@@ -13,7 +13,11 @@ def migrate(cr, version):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     env = api.Environment(cr, SUPERUSER_ID, {})
+=======
+    env = api.Environment(cr, SUPERUSER_ID, {"lang": "en_US"})
+>>>>>>> upstream/18.0
 =======
     env = api.Environment(cr, SUPERUSER_ID, {"lang": "en_US"})
 >>>>>>> upstream/18.0

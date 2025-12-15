@@ -14,7 +14,10 @@ class AccountFiscalPosition(models.Model):
         return ['id', 'name', 'display_name', 'tax_map']
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -23,6 +26,9 @@ class AccountFiscalPosition(models.Model):
         configs.default_fiscal_position_id = False
         return super().action_archive()
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

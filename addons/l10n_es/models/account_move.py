@@ -190,6 +190,7 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @api.depends('partner_id')
     def _compute_l10n_es_is_simplified(self):
         simplified_partner = self.env.ref('l10n_es.partner_simplified', raise_if_not_found=False)
@@ -294,6 +295,8 @@ class AccountMove(models.Model):
 >>>>>>> upstream/18.0
     @api.depends('partner_id', 'amount_total_signed')
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -697,6 +700,7 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -724,6 +728,8 @@ class AccountMove(models.Model):
         simplified_partner = self.env.ref('l10n_es.partner_simplified', raise_if_not_found=False)
         for move in self:
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1091,6 +1097,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1461,6 +1470,7 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     and move.currency_id.compare_amounts(abs(move.amount_total_signed), move.company_id.l10n_es_simplified_invoice_limit) <= 0
                     and move.commercial_partner_id.country_id in self.env.ref('base.europe').country_ids
                 )
@@ -1641,6 +1651,11 @@ class AccountMove(models.Model):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+                    and currency_id.compare_amounts(abs(move.amount_total_signed), move.company_id.l10n_es_simplified_invoice_limit) <= 0
+                    and move.commercial_partner_id.country_id in self.env.ref('base.europe').country_ids
+                )
 >>>>>>> upstream/18.0
 =======
                     and currency_id.compare_amounts(abs(move.amount_total_signed), move.company_id.l10n_es_simplified_invoice_limit) <= 0

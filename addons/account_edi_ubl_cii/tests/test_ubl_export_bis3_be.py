@@ -201,7 +201,10 @@ class TestUblExportBis3BE(TestUblBis3Common, TestUblCiiBECommon):
         self._assert_invoice_ubl_file(invoice, 'test_invoice_fixed_tax_emptying_turned_as_extra_invoice_lines')
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_invoice_custom_tax_emptying_turned_as_extra_invoice_lines(self):
         """ Ensure the emptying taxes (a.k.a 'vidange') are turned into extra invoice lines inside the xml. """
         tax_emptying = self.python_tax("quantity * 0.10", name="Vidange")
@@ -228,6 +231,9 @@ class TestUblExportBis3BE(TestUblBis3Common, TestUblCiiBECommon):
         self._generate_invoice_ubl_file(invoice)
         self._assert_invoice_ubl_file(invoice, 'test_invoice_custom_tax_emptying_turned_as_extra_invoice_lines')
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_invoice_manual_tax_amount(self):
         tax_12 = self.percent_tax(12.0)
@@ -391,6 +397,29 @@ class TestUblExportBis3BE(TestUblBis3Common, TestUblCiiBECommon):
         self._generate_invoice_ubl_file(invoice)
         self._assert_invoice_ubl_file(invoice, 'test_invoice_sent_to_luxembourg_dig')
 
+<<<<<<< HEAD
+=======
+    def test_export_gln(self):
+        """ GLN was added in a fixup module account_add_gln. """
+        # TODO master: clean that skiptest, when the module account_add_gln is merged with account
+        if 'global_location_number' not in self.partner_be._fields:
+            self.skipTest("Fixup module with GLN not installed.")
+        self.partner_be.global_location_number = "222222222222"
+        tax_21 = self.percent_tax(21.0)
+        product = self._create_product(
+            lst_price=100.0,
+            taxes_id=tax_21,
+        )
+        invoice = self._create_invoice_one_line(
+            product_id=product,
+            partner_id=self.partner_be,
+            post=True,
+        )
+
+        self._generate_invoice_ubl_file(invoice)
+        self._assert_invoice_ubl_file(invoice, 'test_invoice_with_gln')
+
+>>>>>>> upstream/18.0
     def test_invoice_send_and_print_additional_documents(self):
         """ Ensure an additional document is added to the UBL under AdditionalDocumentReference. """
         self.ensure_installed('test_mimetypes')

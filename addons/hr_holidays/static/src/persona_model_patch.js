@@ -177,6 +177,7 @@ patch(Persona.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     updateImStatus(newStatus) {
         if (newStatus == "online" && this.out_of_office_date_end) {
             this.im_status = "leave_online";
@@ -189,6 +190,8 @@ patch(Persona.prototype, {
         }
     },
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

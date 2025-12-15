@@ -171,6 +171,10 @@ class PaymentProvider(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                'payment_account_id': self._get_payment_method_outstanding_account_id(default_payment_method)
+>>>>>>> upstream/18.0
 =======
                 'payment_account_id': self._get_payment_method_outstanding_account_id(default_payment_method)
 >>>>>>> upstream/18.0
@@ -519,6 +523,7 @@ class PaymentProvider(models.Model):
                 create_values['payment_account_id'] = pay_method_line_same_code.payment_account_id.id
             self.env['account.payment.method.line'].create(create_values)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1044,6 +1049,10 @@ class PaymentProvider(models.Model):
     def _get_payment_method_outstanding_account_id(self, payment_method_id):
         if self.code == 'custom':
 >>>>>>> upstream/18.0
+=======
+    def _get_payment_method_outstanding_account_id(self, payment_method_id):
+        if self.code == 'custom':
+>>>>>>> upstream/18.0
             return False
         account_ref = 'account_journal_payment_debit_account_id' if payment_method_id.payment_type == 'inbound' else 'account_journal_payment_credit_account_id'
         chart_template = self.with_context(allowed_company_ids=self.company_id.root_id.ids).env['account.chart.template']
@@ -1164,6 +1173,9 @@ class PaymentProvider(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

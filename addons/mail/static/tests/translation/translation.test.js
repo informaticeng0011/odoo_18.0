@@ -88,6 +88,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { describe, test } from "@odoo/hoot";
 =======
 import { test } from "@odoo/hoot";
@@ -151,6 +152,10 @@ import { mockUserAgent } from "@odoo/hoot-mock";
 >>>>>>> upstream/18.0
 =======
 import { test } from "@odoo/hoot";
+import { mockUserAgent } from "@odoo/hoot-mock";
+>>>>>>> upstream/18.0
+=======
+import { expect, test } from "@odoo/hoot";
 import { mockUserAgent } from "@odoo/hoot-mock";
 >>>>>>> upstream/18.0
 =======
@@ -552,9 +557,15 @@ import { serverState } from "@web/../tests/web_test_helpers";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 describe.current.tags("desktop");
 defineMailModels();
 
+=======
+defineMailModels();
+
+test.tags("desktop");
+>>>>>>> upstream/18.0
 =======
 defineMailModels();
 
@@ -1126,6 +1137,10 @@ test("Toggle display of original/translated version of chatter message", async (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+test.tags("desktop");
+>>>>>>> upstream/18.0
 =======
 test.tags("desktop");
 >>>>>>> upstream/18.0
@@ -1521,6 +1536,7 @@ test("translation of email message", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -1553,6 +1569,8 @@ test("translation of email message", async () => {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1809,6 +1827,9 @@ test("Do not show translate action if message body is empty", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1993,7 +2014,11 @@ test("Toggle message translation on mobile", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     mockUserAgent("Chrome/0.0.0 Android (OdooMobile; Linux; Android 13; Odoo TestSuite)");
+=======
+    mockUserAgent("android");
+>>>>>>> upstream/18.0
 =======
     mockUserAgent("android");
 >>>>>>> upstream/18.0
@@ -2160,6 +2185,9 @@ test("Toggle message translation on mobile", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

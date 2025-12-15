@@ -5,6 +5,7 @@ from odoo.tests import HttpCase, tagged
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 from odoo.addons.base.tests.common import DISABLED_MAIL_CONTEXT
 <<<<<<< HEAD
@@ -439,6 +440,11 @@ from odoo.addons.website_sale.tests.common import WebsiteSaleCommon
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+from odoo.exceptions import ValidationError
+
+from odoo.addons.base.tests.common import DISABLED_MAIL_CONTEXT
 >>>>>>> upstream/18.0
 =======
 from odoo.exceptions import ValidationError
@@ -605,6 +611,9 @@ from odoo.addons.website_sale_loyalty.controllers.main import WebsiteSale
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -924,6 +933,11 @@ class TestWebsiteSaleDelivery(HttpCase, WebsiteSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        cls.website2 = cls.env['website'].create({'name': 'website 2'})
+
+>>>>>>> upstream/18.0
 =======
         cls.website2 = cls.env['website'].create({'name': 'website 2'})
 
@@ -1041,7 +1055,10 @@ class TestWebsiteSaleDelivery(HttpCase, WebsiteSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1059,6 +1076,9 @@ class TestWebsiteSaleDelivery(HttpCase, WebsiteSaleCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1274,7 +1294,10 @@ class TestWebsiteSaleDelivery(HttpCase, WebsiteSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1739,6 +1762,7 @@ class TestWebsiteSaleDelivery(HttpCase, WebsiteSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2027,6 +2051,8 @@ class TestWebsiteSaleDelivery(HttpCase, WebsiteSaleCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2063,6 +2089,9 @@ class TestWebsiteSaleDelivery(HttpCase, WebsiteSaleCommon):
             (program1 + program2).action_unarchive()
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

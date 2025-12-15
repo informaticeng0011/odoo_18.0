@@ -158,6 +158,10 @@ Delivery = {
     'cbc:ID': {},
     'cbc:ActualDeliveryDate': {},
     'cac:DeliveryLocation': {
+<<<<<<< HEAD
+=======
+        'cbc:ID': {},
+>>>>>>> upstream/18.0
         'cac:Address': Address,
     },
     'cac:DeliveryParty': Party,
@@ -352,6 +356,10 @@ MonetaryTotal = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    'cbc:PayableRoundingAmount': {},
+>>>>>>> upstream/18.0
 =======
     'cbc:PayableRoundingAmount': {},
 >>>>>>> upstream/18.0

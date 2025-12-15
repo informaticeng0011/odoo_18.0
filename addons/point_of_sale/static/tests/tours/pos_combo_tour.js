@@ -4,6 +4,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+/* global posmodel */
+
+>>>>>>> upstream/18.0
 =======
 /* global posmodel */
 
@@ -339,7 +344,10 @@ registry.category("web_tour.tours").add("ProductComboChangeFP", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -853,6 +861,7 @@ registry.category("web_tour.tours").add("ProductComboChangePricelist", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1167,6 +1176,8 @@ registry.category("web_tour.tours").add("ProductComboChangePricelist", {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1261,6 +1272,9 @@ registry.category("web_tour.tours").add("test_combo_disallowLineQuantityChange_2
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

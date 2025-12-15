@@ -13,8 +13,11 @@ Nigerian localization.
     'category': 'Accounting/Localizations/Account Charts',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     'depends': ['base_vat'],
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     'depends': [
@@ -23,6 +26,9 @@ Nigerian localization.
     ],
     'auto_install': ['account'],
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

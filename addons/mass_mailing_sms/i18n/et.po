@@ -1,8 +1,13 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* mass_mailing_sms
 # 
+=======
+# * mass_mailing_sms
+#
+>>>>>>> upstream/18.0
 =======
 # * mass_mailing_sms
 #
@@ -23,7 +28,11 @@
 # JanaAvalah, 2025
 # Birgit Vijar, 2025
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
@@ -31,6 +40,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2024-12-16 13:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -42,6 +52,8 @@ msgstr ""
 "Language: et\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-12 18:36+0000\n"
 "PO-Revision-Date: 2025-12-13 16:38+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
@@ -53,6 +65,9 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.14.3\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
@@ -122,8 +137,13 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_mailing_view_form_sms
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span name=\"process_text_sms\" invisible=\"mailing_type != 'sms'\">SMS Text"
 " Messages are being processed.</span>"
+=======
+"<span name=\"process_text_sms\" invisible=\"mailing_type != 'sms'\">SMS Text "
+"Messages are being processed.</span>"
+>>>>>>> upstream/18.0
 =======
 "<span name=\"process_text_sms\" invisible=\"mailing_type != 'sms'\">SMS Text "
 "Messages are being processed.</span>"
@@ -159,12 +179,15 @@ msgstr "<span>Kehtivad SMS´i saajad</span>"
 msgid ""
 "<strong>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            It appears you don't have enough IAP credits. Click here to buy credits.\n"
 "                        </strong>"
 msgstr ""
 "<strong>\n"
 "                            Teil ei ole piisavalt IAP krediiti. Krediidi ostmiseks klikake siia.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                            It appears you don't have enough IAP credits. "
 "Click here to buy credits.\n"
 "                        </strong>"
@@ -172,6 +195,9 @@ msgstr ""
 "<strong>\n"
 "                            Teil ei ole piisavalt IAP krediiti. Krediidi "
 "ostmiseks klikake siia.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                        </strong>"
 
@@ -180,12 +206,15 @@ msgstr ""
 msgid ""
 "<strong>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            It appears your SMS account is not registered. Click here to set up your account.\n"
 "                        </strong>"
 msgstr ""
 "<strong>\n"
 "                            Teie SMS konto ei ole registreeritud. Konto loomiseks klikake siia.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                            It appears your SMS account is not registered. "
 "Click here to set up your account.\n"
 "                        </strong>"
@@ -193,6 +222,9 @@ msgstr ""
 "<strong>\n"
 "                            Teie SMS konto ei ole registreeritud. Konto "
 "loomiseks klikake siia.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                        </strong>"
 
@@ -236,13 +268,19 @@ msgstr "Vajalik toiming"
 
 #. module: mass_mailing_sms
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/mass_mailing_sms/wizard/mailing_sms_test.py:0
 msgid "An error occurred."
 msgstr "Ilmnes viga"
 
 #. module: mass_mailing_sms
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_mailing_contact__message_attachment_count
 msgid "Attachment Count"
@@ -250,12 +288,18 @@ msgstr "Manuste arv"
 
 #. module: mass_mailing_sms
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:mass_mailing_sms.selection__mailing_trace__failure_type__twilio_authentication
 msgid "Authentication Error\""
 msgstr ""
 
 #. module: mass_mailing_sms
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_mailing_view_tree_sms
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.utm_campaign_view_form
@@ -282,8 +326,13 @@ msgid ""
 "model: %(model)s)"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "SMS Marketingi kaudu mustast nimekirjast tellimuse tühistamine (mailing ID: "
 "%(mailing_id)s - model: %(model)s)"
+=======
+"SMS Marketingi kaudu mustast nimekirjast tellimuse tühistamine (mailing ID: %"
+"(mailing_id)s - model: %(model)s)"
+>>>>>>> upstream/18.0
 =======
 "SMS Marketingi kaudu mustast nimekirjast tellimuse tühistamine (mailing ID: %"
 "(mailing_id)s - model: %(model)s)"
@@ -477,12 +526,18 @@ msgstr ""
 
 #. module: mass_mailing_sms
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:mass_mailing_sms.selection__mailing_trace__failure_type__twilio_from_to
 msgid "From / To identic"
 msgstr ""
 
 #. module: mass_mailing_sms
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_mailing_contact__has_message
 msgid "Has Message"
@@ -513,8 +568,13 @@ msgstr "Kui valitud, on mõningate sõnumitel saatmiserror"
 #: model:ir.model.fields,help:mass_mailing_sms.field_mailing_contact__phone_sanitized_blacklisted
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If the sanitized phone number is on the blacklist, the contact won't receive"
 " mass mailing sms anymore, from any list"
+=======
+"If the sanitized phone number is on the blacklist, the contact won't receive "
+"mass mailing sms anymore, from any list"
+>>>>>>> upstream/18.0
 =======
 "If the sanitized phone number is on the blacklist, the contact won't receive "
 "mass mailing sms anymore, from any list"
@@ -527,8 +587,12 @@ msgstr ""
 #: model:ir.model.fields,help:mass_mailing_sms.field_mailing_mailing__sms_force_send
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Immediately send the SMS Mailing instead of queuing up. Use at your own "
 "risk."
+=======
+"Immediately send the SMS Mailing instead of queuing up. Use at your own risk."
+>>>>>>> upstream/18.0
 =======
 "Immediately send the SMS Mailing instead of queuing up. Use at your own risk."
 >>>>>>> upstream/18.0
@@ -542,12 +606,18 @@ msgstr "Sisaldab loobumislinki"
 
 #. module: mass_mailing_sms
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:mass_mailing_sms.selection__mailing_trace__failure_type__twilio_callback
 msgid "Incorrect callback URL"
 msgstr ""
 
 #. module: mass_mailing_sms
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,help:mass_mailing_sms.field_mailing_contact__mobile_blacklisted
 msgid ""
@@ -673,8 +743,12 @@ msgid ""
 "contact directory."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "E-kirja kontaktid lubavad Teil eraldada turunduse sihtrühma oma "
 "kontaktidest."
+=======
+"E-kirja kontaktid lubavad Teil eraldada turunduse sihtrühma oma kontaktidest."
+>>>>>>> upstream/18.0
 =======
 "E-kirja kontaktid lubavad Teil eraldada turunduse sihtrühma oma kontaktidest."
 >>>>>>> upstream/18.0
@@ -712,12 +786,18 @@ msgstr "Sõnum"
 
 #. module: mass_mailing_sms
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:mass_mailing_sms.selection__mailing_trace__failure_type__twilio_from_missing
 msgid "Missing From Number"
 msgstr ""
 
 #. module: mass_mailing_sms
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:mass_mailing_sms.selection__mailing_trace__failure_type__sms_number_missing
 msgid "Missing Number"
@@ -742,8 +822,13 @@ msgstr "Andmed puuduvad!"
 #: model_terms:ir.actions.act_window,help:mass_mailing_sms.mailing_list_action_sms
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "No need to import mailing lists, you can send SMS to contacts saved in other"
 " Odoo apps."
+=======
+"No need to import mailing lists, you can send SMS to contacts saved in other "
+"Odoo apps."
+>>>>>>> upstream/18.0
 =======
 "No need to import mailing lists, you can send SMS to contacts saved in other "
 "Odoo apps."
@@ -806,8 +891,13 @@ msgstr "Number(id)"
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_mailing_view_form_sms
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Once you send these text messages, they'll be making a grand entrance in all"
 " pockets, creating quite the bzzzzz!"
+=======
+"Once you send these text messages, they'll be making a grand entrance in all "
+"pockets, creating quite the bzzzzz!"
+>>>>>>> upstream/18.0
 =======
 "Once you send these text messages, they'll be making a grand entrance in all "
 "pockets, creating quite the bzzzzz!"
@@ -862,12 +952,18 @@ msgstr "Hinnangud"
 
 #. module: mass_mailing_sms
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_mailing_view_form_sms
 msgid "Ready to unleash your text messages?"
 msgstr ""
 
 #. module: mass_mailing_sms
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_mailing_view_tree_sms
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.utm_campaign_view_form
@@ -1033,12 +1129,18 @@ msgstr ""
 
 #. module: mass_mailing_sms
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_mailing_view_form_sms
 msgid "Send to all"
 msgstr ""
 
 #. module: mass_mailing_sms
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:mass_mailing_sms.selection__mailing_trace__failure_type__sms_server
 msgid "Server Error"
@@ -1070,8 +1172,13 @@ msgstr "Test SMS´i saatmine"
 #. odoo-python
 #: code:addons/mass_mailing_sms/wizard/mailing_sms_test.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Test SMS could not be sent to %(destination)s: %(state)s"
 msgstr "Test SMS-i ei õnnestunud saata  %(destination)s: %(state)s"
+=======
+msgid "Test SMS could not be sent to %(destination)s: %(failure_reason)s"
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgid "Test SMS could not be sent to %(destination)s: %(failure_reason)s"
 msgstr ""
@@ -1091,8 +1198,13 @@ msgid ""
 "flows, such as the SMS Marketing."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "UTM-keskkonda \"%s\" ei saa kustutada, kuna seda kasutatakse mõnes põhilises"
 " funktsionaalses töövoos, näiteks SMS-turunduses."
+=======
+"UTM-keskkonda \"%s\" ei saa kustutada, kuna seda kasutatakse mõnes põhilises "
+"funktsionaalses töövoos, näiteks SMS-turunduses."
+>>>>>>> upstream/18.0
 =======
 "UTM-keskkonda \"%s\" ei saa kustutada, kuna seda kasutatakse mõnes põhilises "
 "funktsionaalses töövoos, näiteks SMS-turunduses."
@@ -1115,8 +1227,13 @@ msgid ""
 "This phone number is blacklisted for SMS Marketing. Click to unblacklist."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "See telefoninumber on SMS turunduse jaoks mustas nimekirjas. Klikake, et see"
 " nimekirjast eemaldada."
+=======
+"See telefoninumber on SMS turunduse jaoks mustas nimekirjas. Klikake, et see "
+"nimekirjast eemaldada."
+>>>>>>> upstream/18.0
 =======
 "See telefoninumber on SMS turunduse jaoks mustas nimekirjas. Klikake, et see "
 "nimekirjast eemaldada."
@@ -1206,8 +1323,12 @@ msgstr "Võitja valimine"
 #: model_terms:ir.actions.act_window,help:mass_mailing_sms.mailing_mailing_action_sms
 msgid ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Write an appealing SMS Text Message, define recipients and track its "
 "results."
+=======
+"Write an appealing SMS Text Message, define recipients and track its results."
+>>>>>>> upstream/18.0
 =======
 "Write an appealing SMS Text Message, define recipients and track its results."
 >>>>>>> upstream/18.0
@@ -1235,6 +1356,12 @@ msgstr "on edukalt musta nimekirja kantud"
 msgid "has been successfully removed from"
 msgstr "on edukalt eemaldatud"
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+#~ msgid "Test SMS could not be sent to %(destination)s: %(state)s"
+#~ msgstr "Test SMS-i ei õnnestunud saata  %(destination)s: %(state)s"
+>>>>>>> upstream/18.0
 =======
 
 #~ msgid "Test SMS could not be sent to %(destination)s: %(state)s"

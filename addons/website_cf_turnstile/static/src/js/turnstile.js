@@ -198,6 +198,10 @@ export const turnStile = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                expiredCallback: "turnstileExpired",
+>>>>>>> upstream/18.0
 =======
                 expiredCallback: "turnstileExpired",
 >>>>>>> upstream/18.0
@@ -938,6 +942,7 @@ export const turnStile = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             // `this` is bound to the turnstile widget calling the callback
             globalThis.turnstileSuccess = function () {
                 const turnstileContainer = this.wrapper.parentElement;
@@ -948,6 +953,8 @@ export const turnStile = {
                 button.classList.remove("disabled");
                 spinner.remove();
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1505,6 +1512,9 @@ export const turnStile = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1935,7 +1945,10 @@ export const turnStile = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2059,6 +2072,9 @@ export const turnStile = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2177,6 +2193,10 @@ export const turnStile = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.cleanSpinner();
+>>>>>>> upstream/18.0
 =======
         this.cleanSpinner();
 >>>>>>> upstream/18.0
@@ -2366,6 +2386,7 @@ export const turnStile = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const spinner = this._createSpinner();
         spinner.classList.add("me-1");
         button.disabled = true;
@@ -2376,6 +2397,8 @@ export const turnStile = {
     addSpinner(button) {
         const spinner = this._createSpinner();
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2496,6 +2519,9 @@ export const turnStile = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2613,7 +2639,11 @@ export const turnStile = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         button.prepend(spinner);
+=======
+        button.prepend(this.spinnerEl);
+>>>>>>> upstream/18.0
 =======
         button.prepend(this.spinnerEl);
 >>>>>>> upstream/18.0
@@ -2850,6 +2880,12 @@ publicWidget.registry.s_website_form.include({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if (this.$target[0].classList.contains('s_website_form_no_recaptcha')) {
+            return res;
+        }
+>>>>>>> upstream/18.0
 =======
         if (this.$target[0].classList.contains('s_website_form_no_recaptcha')) {
             return res;
