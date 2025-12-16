@@ -28,6 +28,10 @@ import { baseContainerGlobalSelector } from "@html_editor/utils/base_container";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { closestBlock } from "@html_editor/utils/blocks";
+>>>>>>> upstream/18.0
 =======
 import { closestBlock } from "@html_editor/utils/blocks";
 >>>>>>> upstream/18.0
@@ -187,7 +191,11 @@ function target(selectionData) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const el = node.nodeType === Node.ELEMENT_NODE ? node : node.parentElement;
+=======
+    const el = closestBlock(node);
+>>>>>>> upstream/18.0
 =======
     const el = closestBlock(node);
 >>>>>>> upstream/18.0

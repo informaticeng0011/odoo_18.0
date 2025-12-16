@@ -8,11 +8,20 @@
     .o_record_autocomplete_with_caret {
         display: flex;
         min-width: 100%;
+<<<<<<< HEAD
+=======
+        position: relative;
+>>>>>>> upstream/18.0
 
         &:hover, &:focus-within {
             &::after {
                 @include o-caret-down;
                 align-self: center;
+<<<<<<< HEAD
+=======
+                position: absolute;
+                right: .5rem;
+>>>>>>> upstream/18.0
             }
         }
     }

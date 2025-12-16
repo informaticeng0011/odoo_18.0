@@ -74,6 +74,10 @@ import pprint
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import psutil
+>>>>>>> upstream/18.0
 =======
 import psutil
 >>>>>>> upstream/18.0
@@ -435,6 +439,10 @@ from contextlib import contextmanager, ExitStack
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from copy import deepcopy
+>>>>>>> upstream/18.0
 =======
 from copy import deepcopy
 >>>>>>> upstream/18.0
@@ -1180,7 +1188,11 @@ from odoo.service import security
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.sql_db import BaseCursor, Cursor
+=======
+from odoo.sql_db import BaseCursor, Cursor, TestCursor
+>>>>>>> upstream/18.0
 =======
 from odoo.sql_db import BaseCursor, Cursor, TestCursor
 >>>>>>> upstream/18.0
@@ -1820,9 +1832,13 @@ _logger = logging.getLogger(__name__)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 if config['test_enable'] or config['test_file']:
     _logger.info("Importing test framework", stack_info=_logger.isEnabledFor(logging.DEBUG))
 else:
+=======
+if odoo.cli.COMMAND in ('server', 'start') and not (config['test_enable'] or config['test_file']):
+>>>>>>> upstream/18.0
 =======
 if odoo.cli.COMMAND in ('server', 'start') and not (config['test_enable'] or config['test_file']):
 >>>>>>> upstream/18.0
@@ -2208,6 +2224,11 @@ if odoo.cli.COMMAND in ('server', 'start') and not (config['test_enable'] or con
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+else:
+    _logger.info("Importing test framework", stack_info=_logger.isEnabledFor(logging.DEBUG))
+>>>>>>> upstream/18.0
 =======
 else:
     _logger.info("Importing test framework", stack_info=_logger.isEnabledFor(logging.DEBUG))
@@ -2883,6 +2904,12 @@ class BaseCase(case.TestCase, metaclass=MetaCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if methodName != 'runTest':
+            self.test_tags = self.test_tags | set(self.get_method_additional_tags(getattr(self, methodName)))
+
+>>>>>>> upstream/18.0
 =======
         if methodName != 'runTest':
             self.test_tags = self.test_tags | set(self.get_method_additional_tags(getattr(self, methodName)))
@@ -3542,7 +3569,10 @@ class BaseCase(case.TestCase, metaclass=MetaCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4078,6 +4108,9 @@ class BaseCase(case.TestCase, metaclass=MetaCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4526,7 +4559,10 @@ class BaseCase(case.TestCase, metaclass=MetaCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4698,6 +4734,9 @@ class BaseCase(case.TestCase, metaclass=MetaCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5395,6 +5434,7 @@ class BaseCase(case.TestCase, metaclass=MetaCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         def reset_http_key():
             self.http_request_key = None
@@ -5408,6 +5448,8 @@ class BaseCase(case.TestCase, metaclass=MetaCase):
         request = odoo.http.request
         if not request:
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5956,6 +5998,9 @@ class BaseCase(case.TestCase, metaclass=MetaCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6496,7 +6541,10 @@ class BaseCase(case.TestCase, metaclass=MetaCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7035,6 +7083,9 @@ class BaseCase(case.TestCase, metaclass=MetaCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7397,6 +7448,7 @@ class BaseCase(case.TestCase, metaclass=MetaCase):
         http_request_required_key = self.http_request_key
         if http_request_key != http_request_required_key:
             expected = http_request_required_key
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8110,6 +8162,9 @@ class BaseCase(case.TestCase, metaclass=MetaCase):
 =======
             _logger.runbot(
 >>>>>>> upstream/18.0
+=======
+            _logger.runbot(
+>>>>>>> upstream/18.0
                 'Request with path %s has been ignored during test as it '
                 'it does not contain the test_cursor cookie or it is expired.'
                 ' (required "%s", got "%s")',
@@ -8214,7 +8269,10 @@ class BaseCase(case.TestCase, metaclass=MetaCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8507,6 +8565,9 @@ class BaseCase(case.TestCase, metaclass=MetaCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8998,7 +9059,12 @@ class TransactionCase(BaseCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             _logger.info('Simulating signal changes during tests')
+=======
+            if cls.registry.registry_invalidated or cls.registry.cache_invalidated:
+                _logger.info('Simulating signal changes during tests')
+>>>>>>> upstream/18.0
 =======
             if cls.registry.registry_invalidated or cls.registry.cache_invalidated:
                 _logger.info('Simulating signal changes during tests')
@@ -9871,7 +9937,10 @@ class TransactionCase(BaseCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10390,6 +10459,9 @@ class TransactionCase(BaseCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10779,6 +10851,7 @@ class TransactionCase(BaseCase):
             cb._funcs = funcs
             cb.data = data
         for callback in [cr.precommit, cr.postcommit, cr.prerollback, cr.postrollback]:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11508,6 +11581,9 @@ class TransactionCase(BaseCase):
 =======
             self.addCleanup(_reset, callback, deque(callback._funcs), deepcopy(callback.data))
 >>>>>>> upstream/18.0
+=======
+            self.addCleanup(_reset, callback, deque(callback._funcs), deepcopy(callback.data))
+>>>>>>> upstream/18.0
 
         # flush everything in setUpClass before introducing a savepoint
         self.env.flush_all()
@@ -11636,7 +11712,10 @@ def save_test_file(test_name, content, prefix, extension='png', logger=_logger, 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11801,6 +11880,9 @@ else:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12120,6 +12202,10 @@ class ChromeBrowser:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'Fetch.requestPaused': self._handle_request_paused,
+>>>>>>> upstream/18.0
 =======
             'Fetch.requestPaused': self._handle_request_paused,
 >>>>>>> upstream/18.0
@@ -12821,6 +12907,10 @@ class ChromeBrowser:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self._websocket_request('Fetch.enable')
+>>>>>>> upstream/18.0
 =======
         self._websocket_request('Fetch.enable')
 >>>>>>> upstream/18.0
@@ -13368,6 +13458,7 @@ class ChromeBrowser:
 
     def stop(self):
         if hasattr(self, 'ws'):
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14039,6 +14130,8 @@ class ChromeBrowser:
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             try:
                 self._websocket_send('Page.stopScreencast')
                 if screencasts_frames_dir := self.screencasts_frames_dir:
@@ -14121,6 +14214,9 @@ class ChromeBrowser:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14421,6 +14517,7 @@ class ChromeBrowser:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             self.chrome.wait(15)
 >>>>>>> upstream/18.0
@@ -14779,6 +14876,8 @@ class ChromeBrowser:
             self.chrome.wait(15)
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14958,6 +15057,9 @@ class ChromeBrowser:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15138,6 +15240,7 @@ class ChromeBrowser:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return _find_executable()
 
     def _chrome_without_limit(self, cmd):
@@ -15157,6 +15260,8 @@ class ChromeBrowser:
     def _spawn_chrome(self, cmd):
         proc = self._chrome_without_limit(cmd)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -15322,6 +15427,9 @@ class ChromeBrowser:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15483,7 +15591,10 @@ class ChromeBrowser:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -15650,6 +15761,9 @@ class ChromeBrowser:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15783,6 +15897,10 @@ class ChromeBrowser:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            '--mute-audio': '',
+>>>>>>> upstream/18.0
 =======
             '--mute-audio': '',
 >>>>>>> upstream/18.0
@@ -15940,6 +16058,7 @@ class ChromeBrowser:
                 self._logger.debug('\n<- %s', msg)
             except websocket.WebSocketTimeoutException:
                 continue
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16800,6 +16919,11 @@ class ChromeBrowser:
                 if not self._result.done():
                     del self.ws
 >>>>>>> upstream/18.0
+=======
+            except websocket.WebSocketConnectionClosedException as e:
+                if not self._result.done():
+                    del self.ws
+>>>>>>> upstream/18.0
                     self._result.set_exception(e)
                     for f in self._responses.values():
                         f.cancel()
@@ -16901,6 +17025,9 @@ class ChromeBrowser:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17211,8 +17338,13 @@ class ChromeBrowser:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if self.ws is None:
             return
+=======
+        if not hasattr(self, 'ws'):
+            return None
+>>>>>>> upstream/18.0
 =======
         if not hasattr(self, 'ws'):
             return None
@@ -17675,8 +17807,13 @@ class ChromeBrowser:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if self.ws is None:
             return
+=======
+        if not hasattr(self, 'ws'):
+            return None
+>>>>>>> upstream/18.0
 =======
         if not hasattr(self, 'ws'):
             return None
@@ -18221,6 +18358,7 @@ class ChromeBrowser:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -18571,6 +18709,8 @@ class ChromeBrowser:
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     def _handle_request_paused(self, **params):
         url = params['request']['url']
         if url.startswith(f'http://{HOST}'):
@@ -18583,6 +18723,7 @@ class ChromeBrowser:
             self._websocket_send(cmd, params={'requestId': params['requestId'], **response})
         except websocket.WebSocketConnectionClosedException:
             pass
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19440,6 +19581,8 @@ class ChromeBrowser:
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         except (BrokenPipeError, ConnectionResetError, OSError):
             # this can happen if the browser is closed. Just ignore it.
             _logger.info("Websocket error while handling request %s", params['request']['url'])
@@ -19456,6 +19599,9 @@ class ChromeBrowser:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -19656,6 +19802,11 @@ class ChromeBrowser:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if self._result.done() and 'failed to fetch' in message.casefold():
+            log_type = 'dir'
+>>>>>>> upstream/18.0
 =======
         if self._result.done() and 'failed to fetch' in message.casefold():
             log_type = 'dir'
@@ -20346,6 +20497,7 @@ which leads to stray network requests and inconsistencies."""
             message += '\n' + stack
 
         if self._result.done():
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -21278,6 +21430,11 @@ which leads to stray network requests and inconsistencies."""
                 self._logger.getChild('browser').error(
                     "Exception received after termination: %s", message)
 >>>>>>> upstream/18.0
+=======
+            if 'failed to fetch' not in message.casefold():
+                self._logger.getChild('browser').error(
+                    "Exception received after termination: %s", message)
+>>>>>>> upstream/18.0
             return
 
         self.take_screenshot()
@@ -21430,7 +21587,12 @@ which leads to stray network requests and inconsistencies."""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         f.add_done_callback(handler)
+=======
+        if f:
+            f.add_done_callback(handler)
+>>>>>>> upstream/18.0
 =======
         if f:
             f.add_done_callback(handler)
@@ -21978,7 +22140,11 @@ which leads to stray network requests and inconsistencies."""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 subprocess.run([ffmpeg_path, '-f', 'concat', '-safe', '0', '-i', concat_script_path, '-pix_fmt', 'yuv420p', '-g', '0', outfile], check=True)
+=======
+                subprocess.run([ffmpeg_path, '-f', 'concat', '-safe', '0', '-i', concat_script_path, '-vf', 'pad=ceil(iw/2)*2:ceil(ih/2)*2', '-pix_fmt', 'yuv420p', '-g', '0', outfile], check=True)
+>>>>>>> upstream/18.0
 =======
                 subprocess.run([ffmpeg_path, '-f', 'concat', '-safe', '0', '-i', concat_script_path, '-vf', 'pad=ceil(iw/2)*2:ceil(ih/2)*2', '-pix_fmt', 'yuv420p', '-g', '0', outfile], check=True)
 >>>>>>> upstream/18.0
@@ -22830,8 +22996,11 @@ class Transport(xmlrpclib.Transport):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return super().request(*args, **kwargs)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -23371,6 +23540,9 @@ class Transport(xmlrpclib.Transport):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -23957,6 +24129,12 @@ class HttpCase(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # some test like test_webhook_send_and_receive may have a request that timeout, is not waited and causes errors in following tests.
+        # this shouldn't be possible in master thanks to the global lock but lets wait for remaining requests in all cases in stable.
+        self.addCleanup(self._wait_remaining_requests)
+>>>>>>> upstream/18.0
 =======
         # some test like test_webhook_send_and_receive may have a request that timeout, is not waited and causes errors in following tests.
         # this shouldn't be possible in master thanks to the global lock but lets wait for remaining requests in all cases in stable.
@@ -25139,7 +25317,10 @@ class HttpCase(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -25682,6 +25863,9 @@ class HttpCase(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -26220,7 +26404,11 @@ class HttpCase(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         :param error_checker: function to filter failures out. 
+=======
+        :param error_checker: function to filter failures out.
+>>>>>>> upstream/18.0
 =======
         :param error_checker: function to filter failures out.
 >>>>>>> upstream/18.0
@@ -26953,7 +27141,11 @@ class HttpCase(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         :param bool debug: automatically open a fullscreen Chrome window with opened devtools and a debugger breakpoint set at the start of the tour. 
+=======
+        :param bool debug: automatically open a fullscreen Chrome window with opened devtools and a debugger breakpoint set at the start of the tour.
+>>>>>>> upstream/18.0
 =======
         :param bool debug: automatically open a fullscreen Chrome window with opened devtools and a debugger breakpoint set at the start of the tour.
 >>>>>>> upstream/18.0
@@ -27698,6 +27890,10 @@ class HttpCase(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            self.http_request_strict_check = True
+>>>>>>> upstream/18.0
 =======
             self.http_request_strict_check = True
 >>>>>>> upstream/18.0
@@ -28417,7 +28613,10 @@ class HttpCase(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -28711,6 +28910,9 @@ class HttpCase(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -99,7 +99,11 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     invoice_edi_format = fields.Selection(selection_add=[('oioubl_201', "OIOUBL 2.01")])
+=======
+    invoice_edi_format = fields.Selection(selection_add=[('oioubl_201', "Denmark (Oioubl)")])
+>>>>>>> upstream/18.0
 =======
     invoice_edi_format = fields.Selection(selection_add=[('oioubl_201', "Denmark (Oioubl)")])
 >>>>>>> upstream/18.0

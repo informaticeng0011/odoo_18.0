@@ -95,6 +95,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* barcodes_gs1_nomenclature
 # 
 # Translators:
@@ -102,6 +103,8 @@
 # Larissa Manderfeld, 2024
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -391,6 +394,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -584,6 +590,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -894,6 +901,9 @@ msgstr ""
 =======
 "POT-Creation-Date: 2025-11-28 18:36+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-11-28 18:36+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-08-12 22:21+0000\n"
 "Last-Translator: \"Larissa Manderfeld (lman)\" <lman@odoo.com>\n"
 "Language-Team: Spanish <https://translate.odoo.com/projects/odoo-18/"
@@ -902,6 +912,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -984,6 +995,10 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == "
 "0) ? 1 : 2);\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == "
+"0) ? 1 : 2);\n"
+>>>>>>> upstream/18.0
 "X-Generator: Weblate 5.12.2\n"
 
 #. module: barcodes_gs1_nomenclature
@@ -991,6 +1006,7 @@ msgstr ""
 #: code:addons/barcodes_gs1_nomenclature/models/barcode_nomenclature.py:0
 msgid ""
 "A GS1 barcode nomenclature pattern was matched. However, the barcode failed "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1310,6 +1326,10 @@ msgstr ""
 "to be converted to a valid date: '%(error_message)s'"
 msgstr ""
 >>>>>>> upstream/18.0
+=======
+"to be converted to a valid date: '%(error_message)s'"
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: barcodes_gs1_nomenclature
 #: model:ir.model.fields.selection,name:barcodes_gs1_nomenclature.selection__barcode_rule__gs1_content_type__alpha
@@ -1556,8 +1576,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "La alternativa de separador FNC1 no es una expresión regular válida: "
 "%(error)s"
+=======
+"La alternativa de separador FNC1 no es una expresión regular válida: %"
+"(error)s"
+>>>>>>> upstream/18.0
 =======
 "La alternativa de separador FNC1 no es una expresión regular válida: %"
 "(error)s"
@@ -2045,8 +2070,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "convertirá en una fecha y hora de Odoo;        * Medida: el valor del código"
 " de barras está relacionado a una UdM específica;        * Identificador "
+=======
+"convertirá en una fecha y hora de Odoo;        * Medida: el valor del código "
+"de barras está relacionado a una UdM específica;        * Identificador "
+>>>>>>> upstream/18.0
 =======
 "convertirá en una fecha y hora de Odoo;        * Medida: el valor del código "
 "de barras está relacionado a una UdM específica;        * Identificador "
@@ -2535,7 +2565,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "\t- Un primer grupo para el identificador de aplicación (usualmente de 2 a 4 dígitos);\n"
+=======
+"\t- Un primer grupo para el identificador de aplicación (usualmente de 2 a 4 "
+"dígitos);\n"
+>>>>>>> upstream/18.0
 =======
 "\t- Un primer grupo para el identificador de aplicación (usualmente de 2 a 4 "
 "dígitos);\n"
@@ -3018,8 +3053,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "El patrón de regla \"%(rule)s\" no es una expresión regular válida: "
 "%(error)s"
+=======
+"El patrón de regla \"%(rule)s\" no es una expresión regular válida: %(error)s"
+>>>>>>> upstream/18.0
 =======
 "El patrón de regla \"%(rule)s\" no es una expresión regular válida: %(error)s"
 >>>>>>> upstream/18.0
@@ -3406,6 +3445,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If this rule uses decimal, check it can't get sometime else than a digit as last char for the Application Identifier.\n"
 "Check also the possible matched values can only be digits, otherwise the value can't be casted as a measure."
 msgstr ""
@@ -3413,6 +3453,8 @@ msgstr ""
 "Si esta regla usa un decimal, verifique si no puede obtener algo más aparte de un dígito como último carácter para el identificador de aplicación.\n"
 "Compruebe también si los valores emparejados posibles solo pueden ser dígitos, de lo contrario no puede usar el valor como medida."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3705,6 +3747,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3902,6 +3947,7 @@ msgid ""
 "This Nomenclature use the GS1 specification, only GS1-128 encoding rules is "
 "accepted is this kind of nomenclature."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4379,6 +4425,10 @@ msgstr ""
 "Esta nomenclatura usa la especificación GS1, solo las reglas de codificación "
 "GS1-128 se aceptan en este tipo de nomenclatura."
 >>>>>>> upstream/18.0
+=======
+"Esta nomenclatura usa la especificación GS1, solo las reglas de codificación "
+"GS1-128 se aceptan en este tipo de nomenclatura."
+>>>>>>> upstream/18.0
 
 #. module: barcodes_gs1_nomenclature
 #. odoo-javascript
@@ -4424,7 +4474,10 @@ msgstr "Tipo"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4478,6 +4531,9 @@ msgstr "Tipo"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

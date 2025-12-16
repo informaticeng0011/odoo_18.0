@@ -95,6 +95,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* project_timesheet_holidays
 # 
 # Translators:
@@ -102,6 +103,8 @@
 # Fernanda Alvarez, 2025
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -391,6 +394,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -411,6 +415,9 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# "Fernanda Alvarez (mfar)" <mfar@odoo.com>, 2025.
 >>>>>>> upstream/18.0
 =======
 # "Fernanda Alvarez (mfar)" <mfar@odoo.com>, 2025.
@@ -669,6 +676,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-10 13:24+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1131,6 +1139,10 @@ msgstr ""
 "PO-Revision-Date: 2025-11-11 17:25+0000\n"
 "Last-Translator: \"Patricia Gutiérrez (pagc)\" <pagc@odoo.com>\n"
 >>>>>>> upstream/18.0
+=======
+"PO-Revision-Date: 2025-11-11 17:25+0000\n"
+"Last-Translator: \"Patricia Gutiérrez (pagc)\" <pagc@odoo.com>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Spanish (Latin America) <https://translate.odoo.com/projects/"
 "odoo-18/project_timesheet_holidays/es_419/>\n"
 "Language: es_419\n"
@@ -1234,6 +1246,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1526,9 +1541,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Para crear una hoja de horas para el tiempo personal %s debe configurar el "
 "proyecto interno y la tarea. Deje los campos anteriores vacíos si no desea "
 "crearla."
+=======
+"Es necesario que selecciones el proyecto interno y la tarea para generar una "
+"hoja de horas para el tiempo personal %s. Deja esos campos vacíos si no "
+"quieres crearla."
+>>>>>>> upstream/18.0
 =======
 "Es necesario que selecciones el proyecto interno y la tarea para generar una "
 "hoja de horas para el tiempo personal %s. Deja esos campos vacíos si no "
@@ -2056,9 +2077,13 @@ msgid "Generate timesheets when validating time off requests of this type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Genere hojas de horas al validar solicitudes con este tipo de tiempo "
 "personal."
+=======
+msgstr "Genera hojas de horas al validar solicitudes con este tipo de permiso."
+>>>>>>> upstream/18.0
 =======
 msgstr "Genera hojas de horas al validar solicitudes con este tipo de permiso."
 >>>>>>> upstream/18.0
@@ -2362,7 +2387,11 @@ msgid "Project"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Proyecto"
+=======
+msgstr "Proyectos"
+>>>>>>> upstream/18.0
 =======
 msgstr "Proyectos"
 >>>>>>> upstream/18.0
@@ -2436,6 +2465,7 @@ msgstr "Proyectos"
 #. module: project_timesheet_holidays
 #: model:ir.model,name:project_timesheet_holidays.model_resource_calendar_leaves
 msgid "Resource Time Off Detail"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3001,6 +3031,9 @@ msgstr "Detalle de la pausa del recurso"
 =======
 msgstr "Detalle de la pausa del recurso"
 >>>>>>> upstream/18.0
+=======
+msgstr "Detalle de la pausa del recurso"
+>>>>>>> upstream/18.0
 
 #. module: project_timesheet_holidays
 #: model:ir.model,name:project_timesheet_holidays.model_project_task
@@ -3038,6 +3071,7 @@ msgstr ""
 #: code:addons/project_timesheet_holidays/models/res_company.py:0
 #: model:ir.model,name:project_timesheet_holidays.model_hr_leave
 msgid "Time Off"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3131,6 +3165,9 @@ msgstr "Vacaciones"
 =======
 msgstr "Vacaciones"
 >>>>>>> upstream/18.0
+=======
+msgstr "Vacaciones"
+>>>>>>> upstream/18.0
 
 #. module: project_timesheet_holidays
 #. odoo-python
@@ -3148,6 +3185,7 @@ msgstr "Tarea de tiempo personal"
 #. module: project_timesheet_holidays
 #: model:ir.model,name:project_timesheet_holidays.model_hr_leave_type
 msgid "Time Off Type"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3529,6 +3567,9 @@ msgstr "Tipo de permiso"
 =======
 msgstr "Tipo de permiso"
 >>>>>>> upstream/18.0
+=======
+msgstr "Tipo de permiso"
+>>>>>>> upstream/18.0
 
 #. module: project_timesheet_holidays
 #: model:ir.model.fields,field_description:project_timesheet_holidays.field_project_task__leave_types_count
@@ -3561,7 +3602,11 @@ msgid "Timesheets"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Hojas de horas"
+=======
+msgstr "Registro de horas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Registro de horas"
 >>>>>>> upstream/18.0
@@ -3691,8 +3736,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "No puede crear hojas de horas para una tarea vinculada a un tipo de tiempo "
 "personal. Use la aplicación Tiempo personal para solicitar uno nuevo."
+=======
+"No puedes crear hojas de horas para una tarea vinculada a un tipo de tiempo "
+"personal. Usa la aplicación Vacaciones para solicitar un nuevo permiso."
+>>>>>>> upstream/18.0
 =======
 "No puedes crear hojas de horas para una tarea vinculada a un tipo de tiempo "
 "personal. Usa la aplicación Vacaciones para solicitar un nuevo permiso."
@@ -3939,8 +3989,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "No puede eliminar hojas de horas vinculadas a solicitudes de tiempo "
 "personal. Cancele la solicitud desde la aplicación Tiempo personal."
+=======
+"No puedes eliminar hojas de horas que están vinculadas a solicitudes de "
+"tiempo personal. Cancela la solicitud desde la aplicación Vacaciones."
+>>>>>>> upstream/18.0
 =======
 "No puedes eliminar hojas de horas que están vinculadas a solicitudes de "
 "tiempo personal. Cancela la solicitud desde la aplicación Vacaciones."
@@ -4179,8 +4234,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "No puede modificar las hojas de horas vinculadas a solicitudes de tiempo "
 "personal. Use la aplicación Tiempo personal para modificar sus solicitudes."
+=======
+"No puedes modificar las hojas de horas vinculadas a solicitudes de tiempo "
+"personal. Usa la aplicación Vacaciones para modificar tus solicitudes."
+>>>>>>> upstream/18.0
 =======
 "No puedes modificar las hojas de horas vinculadas a solicitudes de tiempo "
 "personal. Usa la aplicación Vacaciones para modificar tus solicitudes."

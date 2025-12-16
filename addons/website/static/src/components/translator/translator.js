@@ -159,8 +159,11 @@ export class SelectTranslateDialog extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         node: String,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -452,6 +455,9 @@ export class SelectTranslateDialog extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -899,9 +905,15 @@ export class WebsiteTranslator extends WebsiteEditorComponent {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         styleEl.sheet.insertRule(`[data-oe-translation-state].o_dirty {background: ${translatedColor} !important;}`);
         styleEl.sheet.insertRule(`[data-oe-translation-state="translated"] {background: ${translatedColor} !important;}`);
         styleEl.sheet.insertRule(`[data-oe-translation-state] {background: ${toTranslateColor} !important;}`);
+=======
+        styleEl.sheet.insertRule(`[data-oe-translation-state].o_dirty { background-color: ${translatedColor} !important; }`);
+        styleEl.sheet.insertRule(`[data-oe-translation-state="translated"] { background-color: ${translatedColor} !important; }`);
+        styleEl.sheet.insertRule(`[data-oe-translation-state] { background-color: ${toTranslateColor} !important; }`);
+>>>>>>> upstream/18.0
 =======
         styleEl.sheet.insertRule(`[data-oe-translation-state].o_dirty { background-color: ${translatedColor} !important; }`);
         styleEl.sheet.insertRule(`[data-oe-translation-state="translated"] { background-color: ${translatedColor} !important; }`);
@@ -1320,8 +1332,11 @@ export class WebsiteTranslator extends WebsiteEditorComponent {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 translationEl.addEventListener('click', showNotification);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1609,6 +1624,9 @@ export class WebsiteTranslator extends WebsiteEditorComponent {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

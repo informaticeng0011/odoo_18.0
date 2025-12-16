@@ -75,6 +75,10 @@ from odoo.addons.base.tests.common import HttpCaseWithUserDemo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.exceptions import AccessError
+>>>>>>> upstream/18.0
 =======
 from odoo.exceptions import AccessError
 >>>>>>> upstream/18.0
@@ -561,12 +565,16 @@ class TestCalendar(SavepointCaseWithUserDemo):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         meeting_act_type = self.env['mail.activity.type'].search([('category', '=', 'meeting')], limit=1)
         if not meeting_act_type:
             meeting_act_type = self.env['mail.activity.type'].create({
                 'name': 'Meeting Test',
                 'category': 'meeting',
             })
+=======
+        meeting_act_type = self.env.ref('mail.mail_activity_data_meeting')
+>>>>>>> upstream/18.0
 =======
         meeting_act_type = self.env.ref('mail.mail_activity_data_meeting')
 >>>>>>> upstream/18.0
@@ -977,8 +985,13 @@ class TestCalendar(SavepointCaseWithUserDemo):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         activity_id = self.env['mail.activity'].create({
             'summary': 'Meeting with partner',
+=======
+        activity_1 = self.env['mail.activity'].create({
+            'summary': 'Meeting 1 with partner',
+>>>>>>> upstream/18.0
 =======
         activity_1 = self.env['mail.activity'].create({
             'summary': 'Meeting 1 with partner',
@@ -1489,8 +1502,13 @@ class TestCalendar(SavepointCaseWithUserDemo):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         calendar_action = activity_id.with_context(default_res_model='res.partner', default_res_id=test_record.id).action_create_calendar_event()
         event_1 = self.env['calendar.event'].with_context(calendar_action['context']).create({
+=======
+        # default usage in successive create
+        event_1_1 = self.env['calendar.event'].with_context(default_activity_ids=[(6, 0, activity_1.ids)]).create({
+>>>>>>> upstream/18.0
 =======
         # default usage in successive create
         event_1_1 = self.env['calendar.event'].with_context(default_activity_ids=[(6, 0, activity_1.ids)]).create({
@@ -2000,6 +2018,7 @@ class TestCalendar(SavepointCaseWithUserDemo):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         self.assertEqual(event_1.activity_ids, activity_id)
 
@@ -2017,6 +2036,8 @@ class TestCalendar(SavepointCaseWithUserDemo):
         self.assertEqual(event_2.activity_ids.activity_type_id, activity_id.activity_type_id, "Event 2's activity should be the same activity type as the first activity")
         self.assertEqual(test_record.activity_ids, activity_id | event_2.activity_ids, "Resource record should now have both activities")
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2363,6 +2384,9 @@ class TestCalendar(SavepointCaseWithUserDemo):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2962,7 +2986,10 @@ class TestCalendar(SavepointCaseWithUserDemo):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3316,6 +3343,9 @@ class TestCalendar(SavepointCaseWithUserDemo):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3618,7 +3648,10 @@ class TestCalendar(SavepointCaseWithUserDemo):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3942,6 +3975,7 @@ class TestCalendar(SavepointCaseWithUserDemo):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3994,6 +4028,8 @@ class TestCalendar(SavepointCaseWithUserDemo):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4213,6 +4249,9 @@ class TestCalendar(SavepointCaseWithUserDemo):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4541,7 +4580,10 @@ class TestCalendarTours(HttpCaseWithUserDemo):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4847,6 +4889,9 @@ class TestCalendarTours(HttpCaseWithUserDemo):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

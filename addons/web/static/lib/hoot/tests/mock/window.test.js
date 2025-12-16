@@ -156,6 +156,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { describe, expect, test } from "@odoo/hoot";
 import { queryOne } from "@odoo/hoot-dom";
 import { watchListeners } from "@odoo/hoot-mock";
@@ -478,6 +479,8 @@ import { watchListeners } from "@odoo/hoot-mock";
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 import { after, describe, expect, test, watchListeners } from "@odoo/hoot";
 import { queryOne } from "@odoo/hoot-dom";
 import { EventBus } from "@odoo/owl";
@@ -547,6 +550,9 @@ import { mountForTest, parseUrl } from "../local_helpers";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -848,6 +854,9 @@ describe(parseUrl(import.meta.url), () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1185,6 +1194,7 @@ describe(parseUrl(import.meta.url), () => {
         expect(document.elementsFromPoint(9, 9)).toEqual([document.body, document.documentElement]);
     });
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1679,6 +1689,8 @@ describe(parseUrl(import.meta.url), () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     // ! WARNING: the following 2 tests need to be run sequentially to work, as they
     // ! attempt to test the in-between-tests event listeners cleanup.
     test("event listeners are properly removed: setup", async () => {
@@ -1852,6 +1864,9 @@ describe(parseUrl(import.meta.url), () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

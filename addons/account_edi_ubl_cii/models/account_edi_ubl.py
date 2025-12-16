@@ -60,6 +60,10 @@ class AccountEdiUBL(models.AbstractModel):
             or self._ubl_is_recycling_contribution_tax(tax_data)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            or self._ubl_is_excise_tax(tax_data)
+>>>>>>> upstream/18.0
 =======
             or self._ubl_is_excise_tax(tax_data)
 >>>>>>> upstream/18.0

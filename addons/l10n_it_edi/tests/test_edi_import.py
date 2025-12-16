@@ -57,11 +57,30 @@ class TestItEdiImport(TestItEdi):
         """ Test a sample e-invoice file from
         https://www.fatturapa.gov.it/export/documenti/fatturapa/v1.2/IT01234567890_FPR01.xml
         """
+<<<<<<< HEAD
+=======
+
+        # Added to ensures that a 0.00 unit price from XML is preserved.
+        applied_xml = """
+            <xpath expr="//FatturaElettronicaBody/DatiBeniServizi/DettaglioLinee" position="after">
+                <DettaglioLinee>
+                    <NumeroLinea>2</NumeroLinea>
+                    <Descrizione>[TEST] Test Product</Descrizione>
+                    <Quantita>1.00</Quantita>
+                    <PrezzoUnitario>0.00</PrezzoUnitario>
+                    <PrezzoTotale>0.00</PrezzoTotale>
+                    <AliquotaIVA>22.00</AliquotaIVA>
+                </DettaglioLinee>
+            </xpath>
+        """
+
+>>>>>>> upstream/18.0
         self._assert_import_invoice('IT01234567890_FPR01.xml', [{
             'move_type': 'in_invoice',
             'invoice_date': fields.Date.from_string('2014-12-18'),
             'amount_untaxed': 5.0,
             'amount_tax': 1.1,
+<<<<<<< HEAD
             'invoice_line_ids': [{
                 'quantity': 5.0,
                 'price_unit': 1.0,
@@ -493,6 +512,22 @@ class TestItEdiImport(TestItEdi):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+            'invoice_line_ids': [
+                {
+                    'quantity': 5.0,
+                    'price_unit': 1.0,
+                    'debit': 5.0,
+                },
+                {
+                    'quantity': 1.0,
+                    'price_unit': 0.0,
+                    'debit': 0.0,
+                },
+            ],
+        }], applied_xml)
+
 >>>>>>> upstream/18.0
     def test_receive_vendor_bill_sconto_maggiorazione(self):
         """ Test a sample e-invoice file with
@@ -609,6 +644,7 @@ class TestItEdiImport(TestItEdi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             }],
         }])
 
@@ -752,6 +788,8 @@ class TestItEdiImport(TestItEdi):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1043,6 +1081,9 @@ class TestItEdiImport(TestItEdi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1278,7 +1319,10 @@ class TestItEdiImport(TestItEdi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1414,6 +1458,9 @@ class TestItEdiImport(TestItEdi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1566,7 +1613,11 @@ class TestItEdiImport(TestItEdi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'amount_untaxed': 57.54,
+=======
+                'amount_untaxed': 39.54,
+>>>>>>> upstream/18.0
 =======
                 'amount_untaxed': 39.54,
 >>>>>>> upstream/18.0
@@ -1907,7 +1958,11 @@ class TestItEdiImport(TestItEdi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'amount_untaxed': 3.0,
+=======
+            'amount_untaxed': 5.0,
+>>>>>>> upstream/18.0
 =======
             'amount_untaxed': 5.0,
 >>>>>>> upstream/18.0
@@ -2123,11 +2178,14 @@ class TestItEdiImport(TestItEdi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 {
                     'quantity': 1.0,
                     'name': 'SCONTO',
                     'price_unit': -2,
                 }
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2296,7 +2354,10 @@ class TestItEdiImport(TestItEdi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2398,6 +2459,9 @@ class TestItEdiImport(TestItEdi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2547,7 +2611,10 @@ class TestItEdiImport(TestItEdi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2852,6 +2919,9 @@ class TestItEdiImport(TestItEdi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

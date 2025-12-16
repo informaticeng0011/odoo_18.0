@@ -303,6 +303,7 @@ class HrWorkEntry(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             if calendar.flexible_hours:
                 continue
@@ -744,6 +745,8 @@ class HrWorkEntry(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             if not calendar or calendar.flexible_hours:
                 continue
             datetime_start = min(entries.mapped('date_start'))
@@ -805,6 +808,9 @@ class HrWorkEntry(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

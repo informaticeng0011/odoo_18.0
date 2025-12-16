@@ -170,7 +170,11 @@ WebsiteSale.include({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const { combos, ...remainingData } = await rpc(
+=======
+        const { combos, show_quantity, ...remainingData } = await rpc(
+>>>>>>> upstream/18.0
 =======
         const { combos, show_quantity, ...remainingData } = await rpc(
 >>>>>>> upstream/18.0
@@ -792,7 +796,11 @@ WebsiteSale.include({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return this._openComboConfigurator(combos, remainingData);
+=======
+            return this._openComboConfigurator(combos, remainingData, show_quantity);
+>>>>>>> upstream/18.0
 =======
             return this._openComboConfigurator(combos, remainingData, show_quantity);
 >>>>>>> upstream/18.0
@@ -1398,7 +1406,11 @@ WebsiteSale.include({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return this._openProductConfigurator(isOnProductPage);
+=======
+            return this._openProductConfigurator(isOnProductPage, show_quantity);
+>>>>>>> upstream/18.0
 =======
             return this._openProductConfigurator(isOnProductPage, show_quantity);
 >>>>>>> upstream/18.0
@@ -1999,8 +2011,14 @@ WebsiteSale.include({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      */
     _openProductConfigurator(isOnProductPage) {
+=======
+     * @param showQuantity Whether the quantity selector is shown.
+     */
+    _openProductConfigurator(isOnProductPage, showQuantity) {
+>>>>>>> upstream/18.0
 =======
      * @param showQuantity Whether the quantity selector is shown.
      */
@@ -2904,7 +2922,11 @@ WebsiteSale.include({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 showQuantity: Boolean(document.querySelector('.js_add_cart_json')),
+=======
+                showQuantity: showQuantity,
+>>>>>>> upstream/18.0
 =======
                 showQuantity: showQuantity,
 >>>>>>> upstream/18.0
@@ -3518,8 +3540,14 @@ WebsiteSale.include({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      */
     _openComboConfigurator(combos, remainingData) {
+=======
+     * @param showQuantity Whether the quantity selector is shown.
+     */
+    _openComboConfigurator(combos, remainingData, showQuantity) {
+>>>>>>> upstream/18.0
 =======
      * @param showQuantity Whether the quantity selector is shown.
      */
@@ -4415,7 +4443,11 @@ WebsiteSale.include({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 showQuantity: Boolean(document.querySelector('.js_add_cart_json')),
+=======
+                showQuantity: showQuantity,
+>>>>>>> upstream/18.0
 =======
                 showQuantity: showQuantity,
 >>>>>>> upstream/18.0
