@@ -48,10 +48,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from datetime import datetime, timedelta
 
 from odoo import models, fields
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -197,6 +200,9 @@ from odoo import api, fields, models
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -299,6 +305,7 @@ class HolidaysRequest(models.Model):
 
     l10n_in_contains_sandwich_leaves = fields.Boolean()
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -699,6 +706,8 @@ class HolidaysRequest(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     def _l10n_in_is_working(self, on_date, public_holiday_dates, resource_calendar):
         return on_date not in public_holiday_dates and resource_calendar._works_on_date(on_date)
 
@@ -882,6 +891,9 @@ class HolidaysRequest(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -981,6 +993,7 @@ class HolidaysRequest(models.Model):
 
     def _get_durations(self, check_leave_type=True, resource_calendar=None):
         result = super()._get_durations(check_leave_type, resource_calendar)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1464,6 +1477,8 @@ class HolidaysRequest(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 
         indian_leaves, leaves_dates_by_employee, public_holidays_date_by_company = self._l10n_in_prepare_sandwich_context()
         if not indian_leaves:
@@ -1586,6 +1601,9 @@ class HolidaysRequest(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

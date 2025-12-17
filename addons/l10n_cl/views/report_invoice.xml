@@ -159,7 +159,11 @@
         <xpath expr="//span[@t-field='line.price_unit']" position="attributes">
             <attribute name="t-field"></attribute>
             <attribute name="t-out">line_amounts['price_item_document']</attribute>
+<<<<<<< HEAD
             <attribute name="t-options">{"widget": "float", "precision": 2}</attribute>
+=======
+            <attribute name="t-options">{"widget": "float", "precision": line_amounts['main_currency'].decimal_places}</attribute>
+>>>>>>> upstream/18.0
         </xpath>
 
         <xpath expr="//th[@name='th_discount']" position="after">
@@ -425,7 +429,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <td>VAT <t t-esc="subtotal_amounts['vat_percent']"/></td>
+=======
+                    <td>VAT <t t-esc="subtotal_amounts['vat_percent']"/>%</td>
+>>>>>>> upstream/18.0
 =======
                     <td>VAT <t t-esc="subtotal_amounts['vat_percent']"/>%</td>
 >>>>>>> upstream/18.0

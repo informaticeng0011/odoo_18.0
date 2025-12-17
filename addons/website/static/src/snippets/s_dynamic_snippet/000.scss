@@ -1,8 +1,11 @@
 .s_dynamic {
 <<<<<<< HEAD
+<<<<<<< HEAD
     &.o_dynamic_snippet_empty:not(.o_check_scroll_position) {
         display: none !important;
 =======
+=======
+>>>>>>> upstream/18.0
     #wrap &:not(.o_check_scroll_position) {
         // Compatibility code: The `o_dynamic_empty` class was originally used to control
         // the visibility of dynamic snippets. It was later renamed (starting from 18.0)
@@ -18,6 +21,9 @@
                 display: none !important;
             }
         }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     }
     [data-url] {

@@ -468,7 +468,11 @@ class EventMailScheduler(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 self.mail_count_done = total_sent
+=======
+                scheduler.mail_count_done = total_sent
+>>>>>>> upstream/18.0
 =======
                 scheduler.mail_count_done = total_sent
 >>>>>>> upstream/18.0
@@ -1211,8 +1215,13 @@ class EventMailScheduler(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 self.mail_count_done = total_sent
                 self.mail_done = total_sent >= self.event_id.seats_taken
+=======
+                scheduler.mail_count_done = total_sent
+                scheduler.mail_done = total_sent >= self.event_id.seats_taken
+>>>>>>> upstream/18.0
 =======
                 scheduler.mail_count_done = total_sent
                 scheduler.mail_done = total_sent >= self.event_id.seats_taken
@@ -2153,9 +2162,14 @@ You receive this email because you are:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             '|',
             ('mail_done', '=', False),
             '&', ('interval_type', '=', 'after_sub'), ('event_id.date_end', '>', self.env.cr.now()),
+=======
+            ('mail_done', '=', False),
+            '|', ('interval_type', '!=', 'after_sub'), ('event_id.date_end', '>', self.env.cr.now()),
+>>>>>>> upstream/18.0
 =======
             ('mail_done', '=', False),
             '|', ('interval_type', '!=', 'after_sub'), ('event_id.date_end', '>', self.env.cr.now()),

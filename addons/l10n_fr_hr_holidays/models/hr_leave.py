@@ -5,6 +5,11 @@ from dateutil.relativedelta import relativedelta
 from odoo import fields, models, api, _
 from odoo.exceptions import UserError
 
+<<<<<<< HEAD
+=======
+import pytz
+
+>>>>>>> upstream/18.0
 class HrLeave(models.Model):
     _inherit = 'hr.leave'
 
@@ -52,6 +57,7 @@ class HrLeave(models.Model):
                 period = ['morning'] if self.request_date_from_period == 'am' else ['afternoon']
             else:
                 period = ['morning', 'afternoon']
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -321,6 +327,9 @@ class HrLeave(models.Model):
 =======
             attendance_ids = self.company_id.resource_calendar_id.attendance_ids | self.resource_calendar_id.attendance_ids
 >>>>>>> upstream/18.0
+=======
+            attendance_ids = self.company_id.resource_calendar_id.attendance_ids | self.resource_calendar_id.attendance_ids
+>>>>>>> upstream/18.0
             date_from, date_to = adjust_date_range(date_from, date_to, period, attendance_ids, self.employee_id)
 
         if self.request_unit_half and self.request_date_from_period == 'am':
@@ -383,6 +392,7 @@ class HrLeave(models.Model):
             fr_leaves = self.filtered(lambda leave: leave._l10n_fr_leave_applies())
             duration_by_leave_id = super(HrLeave, self - fr_leaves)._get_durations(resource_calendar=resource_calendar)
             fr_leaves_by_company = fr_leaves.grouped('company_id')
+<<<<<<< HEAD
             for company, leaves in fr_leaves_by_company.items():
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -673,6 +683,29 @@ class HrLeave(models.Model):
 =======
 >>>>>>> upstream/18.0
                 company_cal = company.resource_calendar_id
+=======
+            if fr_leaves:
+                public_holidays = self.env['resource.calendar.leaves'].search([
+                    ('resource_id', '=', False),
+                    ('company_id', 'in', fr_leaves.company_id.ids + [False]),
+                    ('date_from', '<', max(fr_leaves.mapped('date_to')) + relativedelta(days=1)),
+                    ('date_to', '>', min(fr_leaves.mapped('date_from')) - relativedelta(days=1)),
+                ])
+            for company, leaves in fr_leaves_by_company.items():
+                company_cal = company.resource_calendar_id
+                holidays_days_list = []
+                public_holidays_filtered = public_holidays.filtered_domain([
+                    ('calendar_id', 'in', [False, company_cal.id]),
+                    ('company_id', '=', company.id)
+                ])
+                for holiday in public_holidays_filtered:
+                    tz = pytz.timezone(holiday.write_uid.tz)
+                    current = holiday.date_from.replace(tzinfo=pytz.utc).astimezone(tz).date()
+                    holiday_date_to = holiday.date_to.replace(tzinfo=pytz.utc).astimezone(tz).date()
+                    while current <= holiday_date_to:
+                        holidays_days_list.append(current)
+                        current += relativedelta(days=1)
+>>>>>>> upstream/18.0
                 for leave in leaves:
                     if leave.request_unit_half:
                         duration_by_leave_id.update(leave._get_durations(resource_calendar=company_cal))
@@ -690,6 +723,12 @@ class HrLeave(models.Model):
                     end_date = extended_date_end.date()
                     legal_days = 0.0
                     while current <= end_date:
+<<<<<<< HEAD
+=======
+                        if current in holidays_days_list:
+                            current += relativedelta(days=1)
+                            continue
+>>>>>>> upstream/18.0
                         if company_cal._works_on_date(current):
                             legal_days += 1.0
                         current += relativedelta(days=1)
@@ -793,6 +832,9 @@ class HrLeave(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -26,8 +26,13 @@ class TableExporter(http.Controller):
         header_plain = workbook.add_format({'pattern': 1, 'bg_color': '#AAAAAA'})
         bold = workbook.add_format({'bold': True})
 
+<<<<<<< HEAD
         measure_count = jdata['measure_count']
         origin_count = jdata['origin_count']
+=======
+        measure_count = min(jdata['measure_count'], 100000)
+        origin_count = min(jdata['origin_count'], 100000)
+>>>>>>> upstream/18.0
 
         # Step 1: writing col group headers
         col_group_headers = jdata['col_group_headers']
@@ -46,11 +51,20 @@ class TableExporter(http.Controller):
                     if cell['height'] > 1:
                         carry.append({'x': x, 'height': cell['height'] - 1})
                     x = x + measure_count * (2 * origin_count - 1)
+<<<<<<< HEAD
                 for j in range(header['width']):
                     worksheet.write(y, x + j, header['title'] if j == 0 else '', header_plain)
                 if header['height'] > 1:
                     carry.append({'x': x, 'height': header['height'] - 1})
                 x = x + header['width']
+=======
+                width = min(header['width'], 100000)
+                for j in range(width):
+                    worksheet.write(y, x + j, header['title'] if j == 0 else '', header_plain)
+                if header['height'] > 1:
+                    carry.append({'x': x, 'height': header['height'] - 1})
+                x = x + width
+>>>>>>> upstream/18.0
             while (carry and carry[0]['x'] == x):
                 cell = carry.popleft()
                 for j in range(measure_count * (2 * origin_count - 1)):
@@ -233,7 +247,11 @@ class TableExporter(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             worksheet.write(y, x, row['indent'] * '     ' + row['title'], header_plain)
+=======
+            worksheet.write(y, x, f"{row['indent'] * '     '}{row['title']}", header_plain)
+>>>>>>> upstream/18.0
 =======
             worksheet.write(y, x, f"{row['indent'] * '     '}{row['title']}", header_plain)
 >>>>>>> upstream/18.0

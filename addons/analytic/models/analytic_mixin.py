@@ -96,11 +96,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import models, fields, api, _
 from odoo.tools import SQL, Query, unique
 from odoo.tools.float_utils import float_round, float_compare
 from odoo.exceptions import UserError, ValidationError
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -393,6 +396,9 @@ from odoo.tools.float_utils import float_compare, float_round
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -626,6 +632,19 @@ class AnalyticMixin(models.AbstractModel):
             self._field_to_sql(table or self._table, 'analytic_distribution'),
         )
 
+<<<<<<< HEAD
+=======
+    @api.model
+    def _get_analytic_account_ids_from_distributions(self, distributions):
+        if not distributions:
+            return []
+
+        if isinstance(distributions, (list, tuple, set)):
+            return {int(_id) for distribution in distributions for key in (distribution or {}) for _id in key.split(',')}
+        else:
+            return {int(_id) for key in (distributions or {}) for _id in key.split(',')}
+
+>>>>>>> upstream/18.0
     @api.depends('analytic_distribution')
     def _compute_distribution_analytic_account_ids(self):
         all_ids = {int(_id) for rec in self for key in (rec.analytic_distribution or {}) for _id in key.split(',')}
@@ -855,9 +874,12 @@ class AnalyticMixin(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 account_id: float_round(distribution, decimal_precision) for account_id, distribution in vals['analytic_distribution'].items()}
         return vals
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1217,6 +1239,9 @@ class AnalyticMixin(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

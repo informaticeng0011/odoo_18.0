@@ -61,6 +61,10 @@ class AccountEdiUBL(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            or self._ubl_is_excise_tax(tax_data)
+>>>>>>> upstream/18.0
 =======
             or self._ubl_is_excise_tax(tax_data)
 >>>>>>> upstream/18.0

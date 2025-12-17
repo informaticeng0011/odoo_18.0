@@ -177,13 +177,19 @@ const DynamicSnippet = publicWidget.Widget.extend({
     _render: function () {
         if (this.data.length > 0 || this.editableMode) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.$el.removeClass('o_dynamic_snippet_empty');
 =======
+=======
+>>>>>>> upstream/18.0
             // Compatibility code: A dynamic snippet may end up with the
             // `o_dynamic_empty` class or `o_dynamic_snippet_empty` or both.
             // Remark: the `s_dynamic_empty` class was introduced by mistake
             // and does not have any associated CSS.
             this.$el.removeClass('o_dynamic_snippet_empty o_dynamic_empty');
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             this._prepareContent();
         } else {

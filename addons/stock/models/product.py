@@ -126,6 +126,7 @@ class Product(models.Model):
         products = self.with_context(prefetch_fields=False).filtered(lambda p: p.type != 'service').with_context(prefetch_fields=True)
         res = products._compute_quantities_dict(self._context.get('lot_id'), self._context.get('owner_id'), self._context.get('package_id'), self._context.get('from_date'), self._context.get('to_date'))
 <<<<<<< HEAD
+<<<<<<< HEAD
         for product in products:
             product.update(res[product.id])
         # Services need to be set with 0.0 for all quantities
@@ -136,6 +137,8 @@ class Product(models.Model):
         services.virtual_available = 0.0
         services.free_qty = 0.0
 =======
+=======
+>>>>>>> upstream/18.0
         # Set qty fields to 0 for all products as services have 0 quantities. Also skips calling __setitem__ on products with 0 quantites in res.
         self.qty_available = 0.0
         self.incoming_qty = 0.0
@@ -144,6 +147,9 @@ class Product(models.Model):
         self.free_qty = 0.0
         for product in products:
             product.update({key: val for key, val in res[product.id].items() if val})
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     def _compute_quantities_dict(self, lot_id, owner_id, package_id, from_date=False, to_date=False):
@@ -185,6 +191,11 @@ class Product(models.Model):
         moves_out_res = {product.id: product_qty for product, product_qty in Move._read_group(domain_move_out_todo, ['product_id'], ['product_qty:sum'])}
         quants_res = {product.id: (quantity, reserved_quantity) for product, quantity, reserved_quantity in Quant._read_group(domain_quant, ['product_id'], ['quantity:sum', 'reserved_quantity:sum'])}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        moves_in_res_past = defaultdict(float)
+        moves_out_res_past = defaultdict(float)
+>>>>>>> upstream/18.0
 =======
         moves_in_res_past = defaultdict(float)
         moves_out_res_past = defaultdict(float)
@@ -196,11 +207,17 @@ class Product(models.Model):
 
             groupby = ['product_id', 'product_uom']
 <<<<<<< HEAD
+<<<<<<< HEAD
             moves_in_res_past = defaultdict(float)
             for product, uom, quantity in Move._read_group(domain_move_in_done, groupby, ['quantity:sum']):
                 moves_in_res_past[product.id] += uom._compute_quantity(quantity, product.uom_id)
 
             moves_out_res_past = defaultdict(float)
+=======
+            for product, uom, quantity in Move._read_group(domain_move_in_done, groupby, ['quantity:sum']):
+                moves_in_res_past[product.id] += uom._compute_quantity(quantity, product.uom_id)
+
+>>>>>>> upstream/18.0
 =======
             for product, uom, quantity in Move._read_group(domain_move_in_done, groupby, ['quantity:sum']):
                 moves_in_res_past[product.id] += uom._compute_quantity(quantity, product.uom_id)
@@ -214,8 +231,11 @@ class Product(models.Model):
             origin_product_id = product._origin.id
             product_id = product.id
 <<<<<<< HEAD
+<<<<<<< HEAD
             if not origin_product_id:
 =======
+=======
+>>>>>>> upstream/18.0
             if not origin_product_id or (
                 origin_product_id not in quants_res
                 and origin_product_id not in moves_in_res
@@ -223,6 +243,9 @@ class Product(models.Model):
                 and origin_product_id not in moves_in_res_past
                 and origin_product_id not in moves_out_res_past
             ):
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 res[product_id] = dict.fromkeys(
                     ['qty_available', 'free_qty', 'incoming_qty', 'outgoing_qty', 'virtual_available'],
@@ -348,6 +371,7 @@ class Product(models.Model):
         if self.env.context.get('strict'):
             loc_domain = [('location_id', 'in', locations.ids)]
             dest_loc_domain = [('location_dest_id', 'in', locations.ids)]
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -719,6 +743,9 @@ class Product(models.Model):
 =======
             dest_loc_domain_out = [('location_dest_id', 'not in', locations.ids)]
 >>>>>>> upstream/18.0
+=======
+            dest_loc_domain_out = [('location_dest_id', 'not in', locations.ids)]
+>>>>>>> upstream/18.0
         elif locations:
             paths_domain = expression.OR([[('parent_path', '=like', loc.parent_path + '%')] for loc in locations])
             loc_domain = [('location_id', 'any', paths_domain)]
@@ -835,6 +862,9 @@ class Product(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1127,7 +1157,11 @@ class Product(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             loc_domain + ['!'] + dest_loc_domain,
+=======
+            loc_domain + dest_loc_domain_out,
+>>>>>>> upstream/18.0
 =======
             loc_domain + dest_loc_domain_out,
 >>>>>>> upstream/18.0
@@ -1797,7 +1831,10 @@ class Product(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2091,6 +2128,9 @@ class Product(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2778,6 +2818,11 @@ class ProductTemplate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if not self.env.user._get_default_warehouse_id():
+            self.env['stock.warehouse']._warehouse_redirect_warning()
+>>>>>>> upstream/18.0
 =======
         if not self.env.user._get_default_warehouse_id():
             self.env['stock.warehouse']._warehouse_redirect_warning()

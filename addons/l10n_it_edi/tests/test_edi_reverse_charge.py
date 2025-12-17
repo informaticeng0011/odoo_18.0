@@ -315,6 +315,7 @@ class TestItEdiReverseCharge(TestItEdi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             'date': '2022-04-01',
 >>>>>>> upstream/18.0
@@ -477,6 +478,8 @@ class TestItEdiReverseCharge(TestItEdi):
             'partner_id': self.french_partner.id,
             'partner_bank_id': self.test_bank.id,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -766,6 +769,9 @@ class TestItEdiReverseCharge(TestItEdi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1124,6 +1130,7 @@ class TestItEdiReverseCharge(TestItEdi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             'date': '2022-04-01',
 >>>>>>> upstream/18.0
@@ -1284,6 +1291,11 @@ class TestItEdiReverseCharge(TestItEdi):
             'date': '2022-04-01',
 >>>>>>> upstream/18.0
             'move_type': 'in_refund',
+=======
+            'date': '2022-04-01',
+            'move_type': 'in_refund',
+            'ref': 'BILL/2022/04/0001',
+>>>>>>> upstream/18.0
 =======
             'date': '2022-04-01',
             'move_type': 'in_refund',
@@ -1939,6 +1951,7 @@ class TestItEdiReverseCharge(TestItEdi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             'date': '2022-04-01',
 >>>>>>> upstream/18.0
@@ -2097,6 +2110,10 @@ class TestItEdiReverseCharge(TestItEdi):
 >>>>>>> upstream/18.0
 =======
             'date': '2022-04-01',
+>>>>>>> upstream/18.0
+=======
+            'date': '2022-04-01',
+            'ref': 'BILL/2022/04/0001',
 >>>>>>> upstream/18.0
 =======
             'date': '2022-04-01',
@@ -2655,6 +2672,10 @@ class TestItEdiReverseCharge(TestItEdi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'date': '2022-04-01',
+>>>>>>> upstream/18.0
 =======
             'date': '2022-04-01',
 >>>>>>> upstream/18.0

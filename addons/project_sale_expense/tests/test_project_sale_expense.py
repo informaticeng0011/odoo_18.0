@@ -96,6 +96,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo import Command
+
+>>>>>>> upstream/18.0
 =======
 from odoo import Command
 
@@ -610,12 +615,15 @@ class TestSaleExpense(TestExpenseCommon, TestSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         project = self.env['project.project'].create({'name': 'SO Project'})
         project.account_id = self.analytic_account_1
         so_values = {
             'partner_id': self.partner_a.id,
             'order_line': [(0, 0, {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -814,12 +822,31 @@ class TestSaleExpense(TestExpenseCommon, TestSaleCommon):
         # Set the expense policy to 'sales_price' to make the 'sale_order_id' field visible on the form view
         self.product_c.expense_policy = 'sales_price'
 
+<<<<<<< HEAD
         project = self.env['project.project'].create({'name': 'SO Project'})
         project.account_id = self.analytic_account_1
+=======
+        self.analytic_plan_2 = self.env['account.analytic.plan'].create({'name': 'Other Plan Test'})
+        self.analytic_account_3 = self.env['account.analytic.account'].create({
+            'name': 'analytic_account_3',
+            'plan_id': self.analytic_plan_2.id,
+        })
+
+        # Project Will use another analytic plan than the product
+        project = self.env['project.project'].create({'name': 'SO Project'})
+        project.account_id = self.analytic_account_3
+
+        # Set an analytic distribution using account_1 on the product that will be used on the expense
+        self.env['account.analytic.distribution.model'].create([{
+            'product_id': self.product_c.id,
+            'analytic_distribution': {str(self.analytic_account_1.id): 100}
+        }])
+>>>>>>> upstream/18.0
 
         so_values = {
             'partner_id': self.partner_a.id,
             'order_line': [Command.create({
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1596,10 +1623,23 @@ class TestSaleExpense(TestExpenseCommon, TestSaleCommon):
         so1 = self.env['sale.order'].create(so_values)
 
 >>>>>>> upstream/18.0
+=======
+                'name': self.product_c.name,
+                'product_id': self.product_c.id,
+                'product_uom_qty': 2,
+                'product_uom': self.product_c.uom_id.id,
+                'price_unit': self.product_c.list_price,
+            })],
+            'project_id': project.id,
+        }
+        so1 = self.env['sale.order'].create(so_values)
+
+>>>>>>> upstream/18.0
         expense = self.env['hr.expense'].create({
             'name': 'Expense Test',
             'employee_id': self.expense_employee.id,
             'sale_order_id': so1.id,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2473,11 +2513,26 @@ class TestSaleExpense(TestExpenseCommon, TestSaleCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+            'product_id': self.product_c.id,
+        })
+
+        self.assertEqual(
+            expense.analytic_distribution,
+            {str(self.analytic_account_1.id): 100, str(self.analytic_account_3.id): 100},
+            "The analytic distribution of the expense should be set to the account of the project and the one from the sale order.",
+        )
+
+        # Check that it default to the one from the sale order if the project has no analytic distribution
+        project.account_id = False
+        so2 = self.env['sale.order'].create(so_values)
+>>>>>>> upstream/18.0
 
         # We use the form to trigger the onchange on sale_order_id, which adds the 'analytic_distribution' field to the fields to recompute
         with Form(expense) as exp_form:
             exp_form.sale_order_id = so2
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3055,6 +3110,24 @@ class TestSaleExpense(TestExpenseCommon, TestSaleCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+        self.assertEqual(
+            expense.analytic_distribution,
+            {str(self.analytic_account_1.id): 100},
+            "The analytic distribution of the expense should be the one from the sale order only",
+        )
+
+        # The analytic_account_2 has the same plan as the one from the sale order
+        project.account_id = self.analytic_account_2
+        so3 = self.env['sale.order'].create(so_values)
+        with Form(expense) as exp_form:
+            exp_form.sale_order_id = so3
+        self.assertEqual(
+            expense.analytic_distribution,
+            {str(self.analytic_account_2.id): 100},
+            "The analytic distribution of the expense should keep only the one from the project when the so and project share the same plan",
+        )
+>>>>>>> upstream/18.0
 
     def test_change_product_expense_policy_analytic_distribution(self):
         """ Test that analytic distribution is not recomputed when changing the expense policy of the expense product """
@@ -3197,6 +3270,9 @@ class TestSaleExpense(TestExpenseCommon, TestSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

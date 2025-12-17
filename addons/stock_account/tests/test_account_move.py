@@ -524,7 +524,10 @@ class TestAccountMove(TestAccountMoveStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1036,6 +1039,7 @@ class TestAccountMove(TestAccountMoveStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1358,6 +1362,8 @@ class TestAccountMove(TestAccountMoveStockCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_invoice_with_journal_item_without_label(self):
         """Test posting an invoice whose invoice lines have no label.
@@ -1379,4 +1385,7 @@ class TestAccountMove(TestAccountMoveStockCommon):
         self.assertFalse(move.invoice_line_ids.name)
         # ensure the invoice is posted successfully
         self.assertEqual(move.state, 'posted')
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

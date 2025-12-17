@@ -74,7 +74,10 @@ export class ActivityMenu extends Component {
         const views = this.availableViews(group);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         this.executeActivityAction(group, domain, views, context);
     }
 
@@ -84,6 +87,9 @@ export class ActivityMenu extends Component {
      * without needing to duplicate the domain and filter preparation logic in `openActivityGroup`.
      */
     executeActivityAction(group, domain, views, context) {
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         this.action.doAction(
             {

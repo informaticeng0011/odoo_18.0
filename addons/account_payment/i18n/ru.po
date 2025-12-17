@@ -61,6 +61,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* account_payment
 # 
 # Translators:
@@ -332,6 +333,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # * account_payment
 #
 # Translators:
@@ -401,6 +404,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -526,6 +532,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1032,6 +1039,11 @@ msgstr ""
 "PO-Revision-Date: 2025-10-22 07:19+0000\n"
 "Last-Translator: \"Anastasiia Koroleva (koan)\" <koan@odoo.com>\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-10-16 18:38+0000\n"
+"PO-Revision-Date: 2025-10-22 07:19+0000\n"
+"Last-Translator: \"Anastasiia Koroleva (koan)\" <koan@odoo.com>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Russian <https://translate.odoo.com/projects/odoo-18/"
 "account_payment/ru/>\n"
 "Language: ru\n"
@@ -1039,6 +1051,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1123,6 +1136,11 @@ msgstr ""
 =======
 "n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
 "(n%100>=11 && n%100<=14)? 2 : 3);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
+=======
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || ("
+"n%100>=11 && n%100<=14)? 2 : 3);\n"
 "X-Generator: Weblate 5.12.2\n"
 >>>>>>> upstream/18.0
 =======
@@ -1504,6 +1522,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "#%(number)s – Платеж по рассрочке на сумму <strong>%(amount)s</strong>, срок"
 " оплаты – <strong class=\"text-primary\">%(date)s</strong>"
@@ -1643,6 +1662,10 @@ msgstr ""
 =======
 "#%(number)s – Платеж по рассрочке на сумму <strong>%(amount)s</strong>, срок"
 " оплаты – <strong class=\"text-primary\">%(date)s</strong>"
+>>>>>>> upstream/18.0
+=======
+"#%(number)s – Взнос по рассрочке на сумму <strong>%(amount)s</strong>, срок "
+"оплаты – <strong class=\"text-primary\">%(date)s</strong>"
 >>>>>>> upstream/18.0
 =======
 "#%(number)s – Взнос по рассрочке на сумму <strong>%(amount)s</strong>, срок "
@@ -1989,7 +2012,11 @@ msgid "%s day(s) overdue"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Просрочка: %s дн."
+>>>>>>> upstream/18.0
 =======
 msgstr "Просрочка: %s дн."
 >>>>>>> upstream/18.0
@@ -2343,7 +2370,11 @@ msgid "<b>Communication: </b>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<b>Метка:</b>"
+=======
+msgstr "<b>Назначение:</b>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<b>Назначение:</b>"
 >>>>>>> upstream/18.0
@@ -2610,7 +2641,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                <span class=\"d-none d-md-inline\"> Уполномоченный</span>"
+=======
+"                <span class=\"d-none d-md-inline\"> Авторизовано</span>"
+>>>>>>> upstream/18.0
 =======
 "                <span class=\"d-none d-md-inline\"> Авторизовано</span>"
 >>>>>>> upstream/18.0
@@ -2863,7 +2898,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                <span class=\"d-none d-md-inline\"> Оплачивается</span>"
+=======
+"                <span class=\"d-none d-md-inline\"> Оплачено</span>"
+>>>>>>> upstream/18.0
 =======
 "                <span class=\"d-none d-md-inline\"> Оплачено</span>"
 >>>>>>> upstream/18.0
@@ -3112,7 +3151,11 @@ msgid "<i class=\"fa fa-fw fa-check-circle\"/> Paid"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<i class=\"fa fa-fw fa-check-circle\"/> Оплачивается"
+=======
+msgstr "<i class=\"fa fa-fw fa-check-circle\"/> Оплачено"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-fw fa-check-circle\"/> Оплачено"
 >>>>>>> upstream/18.0
@@ -3401,7 +3444,11 @@ msgid "<i class=\"fa fa-fw fa-check-circle\"/> Processing Payment"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-fw fa-check-circle\"/> Обработка платежа"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-fw fa-check-circle\"/> Обработка платежа"
 >>>>>>> upstream/18.0
@@ -3795,7 +3842,11 @@ msgid "<strong>Full Amount</strong><br/>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Полная сумма</strong><br/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Полная сумма</strong><br/>"
 >>>>>>> upstream/18.0
@@ -4187,6 +4238,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<strong>Рассрочка</strong>\n"
+"                                        <br/>"
+>>>>>>> upstream/18.0
 =======
 "<strong>Рассрочка</strong>\n"
 "                                        <br/>"
@@ -4635,6 +4691,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        Wait a moment for it to be processed. If the refund is still pending in a\n"
 "                        few minutes, please check your payment provider configuration."
 msgstr ""
@@ -4647,6 +4704,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4827,6 +4886,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5008,6 +5070,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5230,6 +5295,7 @@ msgid "A discount will be applied if the customer pays before %s included."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Скидка будет применена, если клиент оплатит до %sвключительно."
@@ -5519,10 +5585,14 @@ msgstr "Скидка будет применена, если клиент опл
 =======
 msgstr "Скидка будет применена, если клиент оплатит до %s включительно."
 >>>>>>> upstream/18.0
+=======
+msgstr "Скидка будет применена, если клиент оплатит до %s включительно."
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_payment
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5887,6 +5957,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "A payment has already been made on this invoice, please make sure to not pay "
 "twice."
 msgstr ""
@@ -5950,6 +6022,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6133,7 +6208,11 @@ msgid "A payment transaction with reference %s already exists."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Платежная операция с ссылкой %s уже существует."
+=======
+msgstr "Платежная транзакция со ссылкой %s уже существует."
+>>>>>>> upstream/18.0
 =======
 msgstr "Платежная транзакция со ссылкой %s уже существует."
 >>>>>>> upstream/18.0
@@ -6410,7 +6489,11 @@ msgid "Amount paid"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Уплаченные суммы"
+=======
+msgstr "Уплаченная сумма"
+>>>>>>> upstream/18.0
 =======
 msgstr "Уплаченная сумма"
 >>>>>>> upstream/18.0
@@ -6669,7 +6752,11 @@ msgid "Authorized Transactions"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Разрешенные операции"
+=======
+msgstr "Авторизованные транзакции"
+>>>>>>> upstream/18.0
 =======
 msgstr "Авторизованные транзакции"
 >>>>>>> upstream/18.0
@@ -6918,7 +7005,11 @@ msgid "Capture Transaction"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Захват транзакции"
+=======
+msgstr "Списание средств"
+>>>>>>> upstream/18.0
 =======
 msgstr "Списание средств"
 >>>>>>> upstream/18.0
@@ -7170,11 +7261,14 @@ msgstr "Закрыть"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:account_payment.field_account_payment_register__payment_method_code
 msgid "Code"
 msgstr "Код"
 
 #. module: account_payment
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7396,7 +7490,11 @@ msgid "Created by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Создано"
+=======
+msgstr "Создано:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Создано:"
 >>>>>>> upstream/18.0
@@ -7785,7 +7883,11 @@ msgid "Created on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Создано"
+=======
+msgstr "Дата создания:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дата создания:"
 >>>>>>> upstream/18.0
@@ -8144,7 +8246,11 @@ msgid "Discount Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Дата скидки"
+=======
+msgstr "Срок оплаты со скидкой"
+>>>>>>> upstream/18.0
 =======
 msgstr "Срок оплаты со скидкой"
 >>>>>>> upstream/18.0
@@ -8433,6 +8539,7 @@ msgid "Display Open Installments"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Показать незакрытую рассрочку"
@@ -8538,6 +8645,9 @@ msgstr "Показать незакрытую рассрочку"
 >>>>>>> upstream/18.0
 =======
 msgstr "Показать незакрытую рассрочку"
+>>>>>>> upstream/18.0
+=======
+msgstr "Показать неоплаченные взносы"
 >>>>>>> upstream/18.0
 =======
 msgstr "Показать неоплаченные взносы"
@@ -8829,7 +8939,11 @@ msgid "Early Payment Discount Information"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Информация о скидке за досрочную оплату"
+>>>>>>> upstream/18.0
 =======
 msgstr "Информация о скидке за досрочную оплату"
 >>>>>>> upstream/18.0
@@ -9194,7 +9308,11 @@ msgid "Full Only"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Только полный"
+=======
+msgstr "Только полный возврат"
+>>>>>>> upstream/18.0
 =======
 msgstr "Только полный возврат"
 >>>>>>> upstream/18.0
@@ -9443,7 +9561,11 @@ msgid "Generate Sales Payment Link"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ссылка для оплаты продаж"
+=======
+msgstr "Создание ссылки на оплату"
+>>>>>>> upstream/18.0
 =======
 msgstr "Создание ссылки на оплату"
 >>>>>>> upstream/18.0
@@ -9636,6 +9758,7 @@ msgstr "Создать ссылку для оплаты"
 #. module: account_payment
 #: model:ir.model.fields,field_description:account_payment.field_payment_link_wizard__has_eligible_epd
 msgid "Has Eligible Epd"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10021,6 +10144,9 @@ msgstr "Возможна скидка за досрочную оплату"
 =======
 msgstr "Возможна скидка за досрочную оплату"
 >>>>>>> upstream/18.0
+=======
+msgstr "Возможна скидка за досрочную оплату"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model:ir.model.fields,field_description:account_payment.field_payment_refund_wizard__has_pending_refund
@@ -10086,7 +10212,11 @@ msgid "Has a pending refund"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Имеет задолженность по возврату денег"
+=======
+msgstr "Ожидается возврат"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ожидается возврат"
 >>>>>>> upstream/18.0
@@ -10378,7 +10508,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Невозможно оплатить все просроченные счета, если у них разная валюта."
+>>>>>>> upstream/18.0
 =======
 msgstr "Невозможно оплатить все просроченные счета, если у них разная валюта."
 >>>>>>> upstream/18.0
@@ -10735,7 +10869,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "В тестовом режиме через тестовый платежный интерфейс обрабатывается фальшивый платеж.\n"
+=======
+"В тестовом режиме через тестовый платежный интерфейс обрабатывается тестовый "
+"платеж.\n"
+>>>>>>> upstream/18.0
 =======
 "В тестовом режиме через тестовый платежный интерфейс обрабатывается тестовый "
 "платеж.\n"
@@ -11046,7 +11185,11 @@ msgid "Invoice Online Payment"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Invoice Online Payment"
+=======
+msgstr "Онлайн-оплата счетов"
+>>>>>>> upstream/18.0
 =======
 msgstr "Онлайн-оплата счетов"
 >>>>>>> upstream/18.0
@@ -11307,7 +11450,11 @@ msgid "Invoices &amp; Bills"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Счета и счета-фактуры"
+=======
+msgstr "Счета"
+>>>>>>> upstream/18.0
 =======
 msgstr "Счета"
 >>>>>>> upstream/18.0
@@ -11556,7 +11703,11 @@ msgid "Invoices Count"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Счета-фактуры"
+=======
+msgstr "Количество счетов"
+>>>>>>> upstream/18.0
 =======
 msgstr "Количество счетов"
 >>>>>>> upstream/18.0
@@ -11840,7 +11991,11 @@ msgid "Invoices to pay"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Счета к оплате"
+>>>>>>> upstream/18.0
 =======
 msgstr "Счета к оплате"
 >>>>>>> upstream/18.0
@@ -12240,7 +12395,11 @@ msgid "Last Updated by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Последнее обновление"
+=======
+msgstr "Последнее обновление:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Последнее обновление:"
 >>>>>>> upstream/18.0
@@ -12633,7 +12792,11 @@ msgid "Last Updated on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Последнее обновление"
+=======
+msgstr "Дата последнего обновления:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дата последнего обновления:"
 >>>>>>> upstream/18.0
@@ -12990,7 +13153,11 @@ msgid "Maximum Refund Allowed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Максимально допустимое возмещение"
+=======
+msgstr "Максимально допустимый возврат"
+>>>>>>> upstream/18.0
 =======
 msgstr "Максимально допустимый возврат"
 >>>>>>> upstream/18.0
@@ -13274,7 +13441,11 @@ msgid "Next Installments"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Следующие платежи по рассрочке"
+>>>>>>> upstream/18.0
 =======
 msgstr "Следующие платежи по рассрочке"
 >>>>>>> upstream/18.0
@@ -13632,7 +13803,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "перевести сумму."
+=======
+"списать сумму."
+>>>>>>> upstream/18.0
 =======
 "списать сумму."
 >>>>>>> upstream/18.0
@@ -13884,8 +14059,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Обратите внимание, что токены провайдеров, настроенные только на авторизацию"
 " транзакций (вместо фиксации суммы), недоступны."
+=======
+"Обратите внимание, что токены провайдеров, настроенные только на авторизацию "
+"транзакций (вместо списания суммы), недоступны."
+>>>>>>> upstream/18.0
 =======
 "Обратите внимание, что токены провайдеров, настроенные только на авторизацию "
 "транзакций (вместо списания суммы), недоступны."
@@ -14195,7 +14375,11 @@ msgid "Onboarding Online Payments"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ввод онлайн-платежей"
+=======
+msgstr "Настройка онлайн-платежей"
+>>>>>>> upstream/18.0
 =======
 msgstr "Настройка онлайн-платежей"
 >>>>>>> upstream/18.0
@@ -14489,6 +14673,7 @@ msgstr "Онлайн-платежи"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #: code:addons/account_payment/wizards/payment_link_wizard.py:0
 msgid "Online payment option is not enabled in Configuration."
@@ -14501,6 +14686,8 @@ msgstr ""
 msgid "Overdue invoices should share the same company."
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14795,6 +14982,9 @@ msgstr "Все просроченные счета должны относить
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15087,7 +15277,11 @@ msgid "Overdue invoices should share the same currency."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Все просроченные счета должны быть в одной валюте."
+>>>>>>> upstream/18.0
 =======
 msgstr "Все просроченные счета должны быть в одной валюте."
 >>>>>>> upstream/18.0
@@ -15477,7 +15671,11 @@ msgid "Overdue invoices should share the same partner."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Все просроченные счета должны относиться к одному партнеру."
+>>>>>>> upstream/18.0
 =======
 msgstr "Все просроченные счета должны относиться к одному партнеру."
 >>>>>>> upstream/18.0
@@ -15831,7 +16029,11 @@ msgid "Partial"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Частичный"
+=======
+msgstr "Частичный возврат"
+>>>>>>> upstream/18.0
 =======
 msgstr "Частичный возврат"
 >>>>>>> upstream/18.0
@@ -16121,7 +16323,11 @@ msgid "Pay Invoice"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Оплатить счет"
+>>>>>>> upstream/18.0
 =======
 msgstr "Оплатить счет"
 >>>>>>> upstream/18.0
@@ -16475,7 +16681,11 @@ msgid "Pay Invoices Online"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Оплачивайте счета-фактуры онлайн"
+=======
+msgstr "Онлайн-оплата счетов"
+>>>>>>> upstream/18.0
 =======
 msgstr "Онлайн-оплата счетов"
 >>>>>>> upstream/18.0
@@ -16770,7 +16980,11 @@ msgid "Pay overdue"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Оплатить просроченный счет"
+>>>>>>> upstream/18.0
 =======
 msgstr "Оплатить просроченный счет"
 >>>>>>> upstream/18.0
@@ -17125,7 +17339,11 @@ msgid "Payment"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Оплата"
+=======
+msgstr "Платеж"
+>>>>>>> upstream/18.0
 =======
 msgstr "Платеж"
 >>>>>>> upstream/18.0
@@ -17392,7 +17610,11 @@ msgid "Payment Provider"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Поставщик платежей"
+=======
+msgstr "Платежный провайдер"
+>>>>>>> upstream/18.0
 =======
 msgstr "Платежный провайдер"
 >>>>>>> upstream/18.0
@@ -17641,9 +17863,13 @@ msgid "Payment Providers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Выберите поставщиков платежных услуг и включите способы оплаты при "
 "оформлении заказа"
+=======
+msgstr "Платежные провайдеры"
+>>>>>>> upstream/18.0
 =======
 msgstr "Платежные провайдеры"
 >>>>>>> upstream/18.0
@@ -17897,7 +18123,11 @@ msgid "Payment Tokens"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Токен оплаты"
+=======
+msgstr "Токены оплаты"
+>>>>>>> upstream/18.0
 =======
 msgstr "Токены оплаты"
 >>>>>>> upstream/18.0
@@ -18149,7 +18379,11 @@ msgid "Payment Transaction"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Платеж"
+=======
+msgstr "Платежная транзакция"
+>>>>>>> upstream/18.0
 =======
 msgstr "Платежная транзакция"
 >>>>>>> upstream/18.0
@@ -18398,7 +18632,11 @@ msgid "Payment Transactions"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Платежные операции"
+=======
+msgstr "Платежные транзакции"
+>>>>>>> upstream/18.0
 =======
 msgstr "Платежные транзакции"
 >>>>>>> upstream/18.0
@@ -18688,7 +18926,11 @@ msgid "Please log in to pay your overdue invoices"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Пожалуйста, войдите в систему, чтобы оплатить просроченные счета"
+>>>>>>> upstream/18.0
 =======
 msgstr "Пожалуйста, войдите в систему, чтобы оплатить просроченные счета"
 >>>>>>> upstream/18.0
@@ -19049,7 +19291,11 @@ msgid "Reference"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Справка"
+=======
+msgstr "Номер ссылки"
+>>>>>>> upstream/18.0
 =======
 msgstr "Номер ссылки"
 >>>>>>> upstream/18.0
@@ -19312,7 +19558,11 @@ msgid "Refunded Amount"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Сумма возмещения"
+=======
+msgstr "Возвращенная сумма"
+>>>>>>> upstream/18.0
 =======
 msgstr "Возвращенная сумма"
 >>>>>>> upstream/18.0
@@ -19566,7 +19816,11 @@ msgid "Refunds Count"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Подсчет возвратов"
+=======
+msgstr "Количество возвратов"
+>>>>>>> upstream/18.0
 =======
 msgstr "Количество возвратов"
 >>>>>>> upstream/18.0
@@ -19815,7 +20069,11 @@ msgid "SETUP"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "УСТАНОВКА"
+=======
+msgstr "НАСТРОЙКА"
+>>>>>>> upstream/18.0
 =======
 msgstr "НАСТРОЙКА"
 >>>>>>> upstream/18.0
@@ -20074,7 +20332,11 @@ msgid "Source Payment"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Оплата за источник"
+=======
+msgstr "Исходный платеж"
+>>>>>>> upstream/18.0
 =======
 msgstr "Исходный платеж"
 >>>>>>> upstream/18.0
@@ -20323,7 +20585,11 @@ msgid "State"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Область"
+=======
+msgstr "Состояние"
+>>>>>>> upstream/18.0
 =======
 msgstr "Состояние"
 >>>>>>> upstream/18.0
@@ -20584,7 +20850,11 @@ msgid "The access token is invalid."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Маркер доступа недействителен."
+=======
+msgstr "Токен доступа недействителен."
+>>>>>>> upstream/18.0
 =======
 msgstr "Токен доступа недействителен."
 >>>>>>> upstream/18.0
@@ -20835,8 +21105,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Возвращаемая сумма должна быть положительной и не может быть больше %s."
+=======
+msgstr "Возвращаемая сумма должна быть положительной и не может превышать %s."
+>>>>>>> upstream/18.0
 =======
 msgstr "Возвращаемая сумма должна быть положительной и не может превышать %s."
 >>>>>>> upstream/18.0
@@ -21085,7 +21359,11 @@ msgid "The journal in which the successful transactions are posted."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Журнал, в котором публикуются успешные операции."
+=======
+msgstr "Журнал, в котором проводятся успешные транзакции."
+>>>>>>> upstream/18.0
 =======
 msgstr "Журнал, в котором проводятся успешные транзакции."
 >>>>>>> upstream/18.0
@@ -21288,6 +21566,7 @@ msgstr "Указанные параметры недопустимы."
 #. module: account_payment
 #: model:ir.model.fields,help:account_payment.field_account_payment__source_payment_id
 msgid "The source payment of related refund payments"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -21690,6 +21969,8 @@ msgstr "По данному счету имеются незавершенные
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr "Исходный платеж для связанных возвратов"
 
 #. module: account_payment
@@ -21757,6 +22038,9 @@ msgstr "По данному счету имеются транзакции в о
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -21883,6 +22167,7 @@ msgstr "По данному счету имеются транзакции в о
 #. odoo-python
 #: code:addons/account_payment/models/account_move.py:0
 msgid "There is no amount to be paid."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -22282,6 +22567,8 @@ msgstr "Произошла ошибка при обработке вашего �
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr "Нет суммы к оплате."
 
 #. module: account_payment
@@ -22348,6 +22635,9 @@ msgstr "Произошла ошибка при обработке вашего �
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -22493,6 +22783,7 @@ msgstr ""
 "карты."
 
 #. module: account_payment
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -22787,6 +23078,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/account_payment/models/account_move.py:0
 msgid "This invoice cannot be paid online."
@@ -22886,6 +23179,9 @@ msgstr "Этот счет нельзя оплатить онлайн."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -23081,6 +23377,7 @@ msgstr "Этот счет нельзя оплатить онлайн."
 #. module: account_payment
 #. odoo-python
 #: code:addons/account_payment/models/account_move.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23189,6 +23486,8 @@ msgstr ""
 msgid "This invoice isn't posted."
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -23482,6 +23781,9 @@ msgstr "Этот счет не проведен."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -23774,6 +24076,7 @@ msgid "This is not an outgoing invoice."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: account_payment
@@ -23783,6 +24086,8 @@ msgstr ""
 msgid "Transaction Count"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -24075,6 +24380,9 @@ msgstr "Количество транзакций"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -24372,7 +24680,11 @@ msgid "Unsupported"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Не поддерживается"
+>>>>>>> upstream/18.0
 =======
 msgstr "Не поддерживается"
 >>>>>>> upstream/18.0
@@ -24727,7 +25039,11 @@ msgid "Use Electronic Payment Method"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Используйте электронный способ оплаты"
+=======
+msgstr "Использовать электронный способ оплаты"
+>>>>>>> upstream/18.0
 =======
 msgstr "Использовать электронный способ оплаты"
 >>>>>>> upstream/18.0
@@ -24976,7 +25292,11 @@ msgid "Void Transaction"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Пустая транзакция"
+=======
+msgstr "Аннулировать транзакцию"
+>>>>>>> upstream/18.0
 =======
 msgstr "Аннулировать транзакцию"
 >>>>>>> upstream/18.0
@@ -25224,6 +25544,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You can't delete a payment method that is linked to a provider in the enabled or test state.\n"
 "Linked providers(s): %s"
 msgstr ""
@@ -25242,6 +25563,8 @@ msgstr ""
 "Связанные провайдеры: %s"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -25423,6 +25746,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -25617,7 +25943,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Перед удалением журнала необходимо сначала деактивировать провайдера платежей.\n"
+=======
+"Перед удалением журнала необходимо сначала деактивировать провайдера "
+"платежей.\n"
+>>>>>>> upstream/18.0
 =======
 "Перед удалением журнала необходимо сначала деактивировать провайдера "
 "платежей.\n"
@@ -25956,6 +26287,7 @@ msgid "due in %s day(s)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "ожидается в течение %s дн."
@@ -26061,6 +26393,9 @@ msgstr "ожидается в течение %s дн."
 >>>>>>> upstream/18.0
 =======
 msgstr "ожидается в течение %s дн."
+>>>>>>> upstream/18.0
+=======
+msgstr "к оплате через %s дн."
 >>>>>>> upstream/18.0
 =======
 msgstr "к оплате через %s дн."
@@ -26346,6 +26681,7 @@ msgid "due today"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "ожидается сегодня"
@@ -26451,6 +26787,9 @@ msgstr "ожидается сегодня"
 >>>>>>> upstream/18.0
 =======
 msgstr "ожидается сегодня"
+>>>>>>> upstream/18.0
+=======
+msgstr "срок оплаты сегодня"
 >>>>>>> upstream/18.0
 =======
 msgstr "срок оплаты сегодня"
@@ -26740,6 +27079,7 @@ msgid "overdue"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "просрочен"
@@ -26969,6 +27309,8 @@ msgstr "просрочен"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr "просрочен"
 
 #~ msgid "Code"
@@ -27031,6 +27373,9 @@ msgstr "просрочен"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

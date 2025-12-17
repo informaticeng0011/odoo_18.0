@@ -96,6 +96,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import contextlib
+>>>>>>> upstream/18.0
 =======
 import contextlib
 >>>>>>> upstream/18.0
@@ -487,7 +491,11 @@ from odoo import _, api, fields, models, modules, tools
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.exceptions import AccessError
+=======
+from odoo.exceptions import AccessError, MissingError
+>>>>>>> upstream/18.0
 =======
 from odoo.exceptions import AccessError, MissingError
 >>>>>>> upstream/18.0
@@ -1361,6 +1369,13 @@ class Message(models.Model):
     def create(self, values_list):
         tracking_values_list = []
         for values in values_list:
+<<<<<<< HEAD
+=======
+            if not (self.env.user.has_group('base.group_user') or self.env.su):
+                values.pop('author_id', None)
+                values.pop('email_from', None)
+                self = self.with_context({k: v for k, v in self.env.context.items() if k not in ['default_author_id', 'default_email_from']})  # noqa: PLW0642
+>>>>>>> upstream/18.0
             if 'email_from' not in values:  # needed to compute reply_to
                 _author_id, email_from = self.env['mail.thread']._message_compute_author(values.get('author_id'), email_from=None, raise_on_email=False)
                 values['email_from'] = email_from
@@ -1471,6 +1486,12 @@ class Message(models.Model):
         return super().fetch(field_names)
 
     def write(self, vals):
+<<<<<<< HEAD
+=======
+        if not (self.env.user.has_group('base.group_user') or self.env.su):
+            vals.pop('author_id', None)
+            vals.pop('email_from', None)
+>>>>>>> upstream/18.0
         record_changed = 'model' in vals or 'res_id' in vals
         if record_changed and not self.env.is_system():
             raise AccessError(_("Only administrators can modify 'model' and 'res_id' fields."))
@@ -1819,7 +1840,11 @@ class Message(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             scheduled_dt_by_msg_id = {msg.id: msg_vals.get("scheduled_date") for msg in self}
+=======
+            scheduled_dt_by_msg_id = {msg.id: msg_vals.get("scheduled_date", False) for msg in self}
+>>>>>>> upstream/18.0
 =======
             scheduled_dt_by_msg_id = {msg.id: msg_vals.get("scheduled_date", False) for msg in self}
 >>>>>>> upstream/18.0
@@ -2236,9 +2261,12 @@ class Message(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 # sudo: mail.thread - if mentionned in a non accessible thread, name is allowed
                 thread_data["name"] = record.sudo().display_name
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2529,6 +2557,9 @@ class Message(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2830,6 +2861,7 @@ class Message(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if record:
                 # sudo: if mentionned in a non accessible thread, user should be able to see the name
                 record_name = record.sudo().display_name
@@ -2841,6 +2873,8 @@ class Message(models.Model):
                 record_name = False
                 default_subject = False
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3137,6 +3171,9 @@ class Message(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3551,7 +3588,10 @@ class Message(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             domain = expression.AND([domain, [("message_type", "not in", ["user_notification", "notification"])]])
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4032,6 +4072,7 @@ class Message(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return self.filtered(
             lambda msg:
                 (not msg.body or tools.is_html_empty(msg.body)) and
@@ -4039,6 +4080,8 @@ class Message(models.Model):
                 not msg.attachment_ids and
                 not msg.tracking_value_ids
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4333,6 +4376,9 @@ class Message(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

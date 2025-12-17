@@ -111,7 +111,10 @@ CII_NAMESPACES = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -403,6 +406,9 @@ PAYMENT_MEAN_CODES = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -931,6 +937,7 @@ class AccountEdiXmlCII(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         template_values['billing_start'] = invoice.invoice_date
         template_values['billing_end'] = invoice.invoice_date_due
@@ -1265,6 +1272,8 @@ class AccountEdiXmlCII(models.AbstractModel):
         template_values['billing_start'] = invoice.invoice_date
         template_values['billing_end'] = invoice.invoice_date_due
 
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1559,7 +1568,10 @@ class AccountEdiXmlCII(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1860,6 +1872,9 @@ class AccountEdiXmlCII(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2156,12 +2171,15 @@ class AccountEdiXmlCII(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             # [BR - IC - 11] - In an Invoice with a VAT breakdown (BG-23) where the VAT category code (BT-118) is
             # "Intra-community supply" the Actual delivery date (BT-72) or the Invoicing period (BG-14) shall not be blank.
             if tax_detail_vals.get('tax_category_code') == 'K' and not template_values['scheduled_delivery_time']:
                 date_range = self._get_invoicing_period(invoice)
                 template_values['billing_start'] = min(date_range)
                 template_values['billing_end'] = max(date_range)
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2382,6 +2400,7 @@ class AccountEdiXmlCII(models.AbstractModel):
         template_values['tax_basis_total_amount'] = tax_details['base_amount_currency']
         template_values['tax_total_amount'] = tax_details['tax_amount_currency']
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2737,6 +2756,9 @@ class AccountEdiXmlCII(models.AbstractModel):
 =======
         if self.env['account.payment']._fields.get('sdd_mandate_id') and invoice.reconciled_payment_ids.sdd_mandate_id:
 >>>>>>> upstream/18.0
+=======
+        if self.env['account.payment']._fields.get('sdd_mandate_id') and invoice.reconciled_payment_ids.sdd_mandate_id:
+>>>>>>> upstream/18.0
             template_values['payment_means_code'] = PAYMENT_MEAN_CODES['SEPA direct debit']
         else:
             template_values['payment_means_code'] = PAYMENT_MEAN_CODES['Payment to bank account']
@@ -2836,6 +2858,9 @@ class AccountEdiXmlCII(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3216,7 +3241,10 @@ class AccountEdiXmlCII(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3509,6 +3537,9 @@ class AccountEdiXmlCII(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3905,6 +3936,10 @@ class AccountEdiXmlCII(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        return None, None
+>>>>>>> upstream/18.0
 =======
         return None, None
 >>>>>>> upstream/18.0

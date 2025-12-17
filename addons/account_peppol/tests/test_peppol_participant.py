@@ -50,9 +50,12 @@ from contextlib import contextmanager
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from requests import Session, PreparedRequest, Response
 from psycopg2 import IntegrityError
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -204,6 +207,9 @@ from requests import PreparedRequest, Response, Session
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -354,6 +360,7 @@ class TestPeppolParticipant(TransactionCase):
     def _request_handler(cls, s: Session, r: PreparedRequest, /, **kw):
         response = Response()
         response.status_code = 200
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -644,6 +651,8 @@ class TestPeppolParticipant(TransactionCase):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         url = r.path_url.lower()
         # mock SMP participant lookup: 200 if pid in SMP_OK_IDS, else 404
         if r.path_url.startswith('/api/peppol/1/lookup'):
@@ -718,6 +727,9 @@ class TestPeppolParticipant(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -916,7 +928,11 @@ class TestPeppolParticipant(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'peppol_endpoint': '0000000000',
+=======
+            'peppol_endpoint': 'BE0239843188',
+>>>>>>> upstream/18.0
 =======
             'peppol_endpoint': 'BE0239843188',
 >>>>>>> upstream/18.0
@@ -1325,7 +1341,10 @@ class TestPeppolParticipant(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1891,6 +1910,9 @@ class TestPeppolParticipant(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2340,8 +2362,12 @@ class TestPeppolParticipant(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         vals = self._get_participant_vals()
         vals['peppol_eas'] = '0208'
+=======
+        vals = {**self._get_participant_vals(), 'peppol_eas': '0208', 'peppol_endpoint': '0239843188'}
+>>>>>>> upstream/18.0
 =======
         vals = {**self._get_participant_vals(), 'peppol_eas': '0208', 'peppol_endpoint': '0239843188'}
 >>>>>>> upstream/18.0
