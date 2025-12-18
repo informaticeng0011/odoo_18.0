@@ -141,7 +141,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                         <field name="amount_currency"/>
+=======
+                                        <field name="display_type" invisible="1"/>
+                                        <field name="amount_currency" readonly="display_type != 'tax' or parent_state != 'draft'"/>
+>>>>>>> upstream/18.0
 =======
                                         <field name="display_type" invisible="1"/>
                                         <field name="amount_currency" readonly="display_type != 'tax' or parent_state != 'draft'"/>
@@ -696,7 +701,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                            options="{'product_field': 'product_id', 'account_field': 'account_id', 'force_applicability': 'optional'}"
+=======
+                           options="{'product_field': 'product_id', 'account_field': 'account_id', 'force_applicability': 'optional', 'multi_edit': true}"
+>>>>>>> upstream/18.0
 =======
                            options="{'product_field': 'product_id', 'account_field': 'account_id', 'force_applicability': 'optional', 'multi_edit': true}"
 >>>>>>> upstream/18.0
@@ -1332,7 +1341,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             domain="[('account_id.reconcile', '=', True), '|', ('matching_number', '=', False), ('matching_number', '=like', 'P%')]"
+=======
+                            domain="[('balance', '!=', 0), ('account_id.reconcile', '=', True), '|', ('matching_number', '=', False), ('matching_number', '=like', 'P%')]"
+>>>>>>> upstream/18.0
 =======
                             domain="[('balance', '!=', 0), ('account_id.reconcile', '=', True), '|', ('matching_number', '=', False), ('matching_number', '=like', 'P%')]"
 >>>>>>> upstream/18.0
@@ -2124,7 +2137,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <field name="name" decoration-danger="made_sequence_gap and state == 'posted'" widget="char_with_placeholder_field" placeholder="/"/>
+=======
+                    <field name="name" decoration-danger="made_sequence_gap and state == 'posted'" widget="char_with_placeholder_field" placeholder="/" readonly="state != 'draft'"/>
+>>>>>>> upstream/18.0
 =======
                     <field name="name" decoration-danger="made_sequence_gap and state == 'posted'" widget="char_with_placeholder_field" placeholder="/" readonly="state != 'draft'"/>
 >>>>>>> upstream/18.0
@@ -2879,7 +2896,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     invisible="not matched_payment_ids">
+=======
+                                    invisible="not payment_count">
+>>>>>>> upstream/18.0
 =======
                                     invisible="not payment_count">
 >>>>>>> upstream/18.0
@@ -3245,6 +3266,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                        <field name="expected_currency_rate" invisible="1"/>
+>>>>>>> upstream/18.0
 =======
                         <field name="expected_currency_rate" invisible="1"/>
 >>>>>>> upstream/18.0
@@ -3747,6 +3772,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                                           default_focus="1"
+>>>>>>> upstream/18.0
 =======
                                            default_focus="1"
 >>>>>>> upstream/18.0
@@ -4347,8 +4376,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <field name="ref" nolabel="1" invisible="move_type not in ('in_invoice', 'in_receipt', 'in_refund')" />
                                 <field name="ref" invisible="move_type in ('in_invoice', 'in_receipt', 'in_refund', 'out_invoice', 'out_refund')"/>
+=======
+                                <field name="ref" default_focus="1" nolabel="1" invisible="move_type not in ('in_invoice', 'in_receipt', 'in_refund')"/>
+                                <field name="ref" default_focus="1" invisible="move_type in ('in_invoice', 'in_receipt', 'in_refund', 'out_invoice', 'out_refund')"/>
+>>>>>>> upstream/18.0
 =======
                                 <field name="ref" default_focus="1" nolabel="1" invisible="move_type not in ('in_invoice', 'in_receipt', 'in_refund')"/>
                                 <field name="ref" default_focus="1" invisible="move_type in ('in_invoice', 'in_receipt', 'in_refund', 'out_invoice', 'out_refund')"/>
@@ -5140,7 +5174,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                        readonly="is_move_sent"/>
+=======
+                                       readonly="is_move_sent and state != 'draft'"/>
+>>>>>>> upstream/18.0
 =======
                                        readonly="is_move_sent and state != 'draft'"/>
 >>>>>>> upstream/18.0
@@ -5790,8 +5828,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     <span class="o_form_label mx-3 oe_edit_only"
                                           invisible="state != 'draft' or invoice_payment_term_id"> or </span>
+=======
+                                    <span class="o_form_label mx-3 oe_edit_only text-center" style="width: 6ch;"
+                                          invisible="state != 'draft' or invoice_payment_term_id">or</span>
+>>>>>>> upstream/18.0
 =======
                                     <span class="o_form_label mx-3 oe_edit_only text-center" style="width: 6ch;"
                                           invisible="state != 'draft' or invoice_payment_term_id">or</span>
@@ -6322,6 +6365,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
                                     <span class="o_form_label mx-3 oe_edit_only"
                                           groups="account.group_account_readonly"
@@ -6349,6 +6393,8 @@
                                             <span> </span>
                                             <field name="currency_id" readonly="True" options="{'no_open': True}"/>
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6690,6 +6736,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7052,8 +7101,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                                 <field name="tax_ids" widget="many2many_tags"/>
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7077,6 +7129,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7118,6 +7173,7 @@
                                             <field name="invoice_payments_widget" colspan="2" nolabel="1" widget="payment"/>
                                             <field name="amount_residual" class="oe_subtotal_footer_separator" invisible="state == 'draft'"/>
                                         </group>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7613,6 +7669,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                                         <group
                                             class="oe_subtotal_footer px-4"
                                             invisible="state != 'posted' or not invoice_has_outstanding"
@@ -7731,6 +7789,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8268,7 +8329,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                                readonly="is_move_sent"/>
+=======
+                                               readonly="is_move_sent and state != 'draft'"/>
+>>>>>>> upstream/18.0
 =======
                                                readonly="is_move_sent and state != 'draft'"/>
 >>>>>>> upstream/18.0
@@ -9014,7 +9079,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <filter name="open" string="To pay" domain="[('state', '=', 'posted'), ('payment_state', 'in', ('not_paid', 'partial'))]"/>
+=======
+                    <filter name="open" string="To pay" domain="[('state', '=', 'posted'), ('payment_state', 'in', ('not_paid', 'partial')), ('move_type', '!=', 'entry')]"/>
+>>>>>>> upstream/18.0
 =======
                     <filter name="open" string="To pay" domain="[('state', '=', 'posted'), ('payment_state', 'in', ('not_paid', 'partial')), ('move_type', '!=', 'entry')]"/>
 >>>>>>> upstream/18.0
@@ -9081,7 +9150,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         ('payment_state', 'in', ('not_paid', 'partial'))
+=======
+                        ('payment_state', 'in', ('not_paid', 'partial')),
+                        ('move_type', '!=', 'entry')
+>>>>>>> upstream/18.0
 =======
                         ('payment_state', 'in', ('not_paid', 'partial')),
                         ('move_type', '!=', 'entry')

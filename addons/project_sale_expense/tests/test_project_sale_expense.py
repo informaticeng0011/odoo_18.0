@@ -97,6 +97,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo import Command
+
+>>>>>>> upstream/18.0
 =======
 from odoo import Command
 
@@ -616,12 +621,15 @@ class TestSaleExpense(TestExpenseCommon, TestSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         project = self.env['project.project'].create({'name': 'SO Project'})
         project.account_id = self.analytic_account_1
         so_values = {
             'partner_id': self.partner_a.id,
             'order_line': [(0, 0, {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -823,9 +831,12 @@ class TestSaleExpense(TestExpenseCommon, TestSaleCommon):
         self.product_c.expense_policy = 'sales_price'
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         project = self.env['project.project'].create({'name': 'SO Project'})
         project.account_id = self.analytic_account_1
 =======
+=======
+>>>>>>> upstream/18.0
         self.analytic_plan_2 = self.env['account.analytic.plan'].create({'name': 'Other Plan Test'})
         self.analytic_account_3 = self.env['account.analytic.account'].create({
             'name': 'analytic_account_3',
@@ -841,11 +852,15 @@ class TestSaleExpense(TestExpenseCommon, TestSaleCommon):
             'product_id': self.product_c.id,
             'analytic_distribution': {str(self.analytic_account_1.id): 100}
         }])
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
         so_values = {
             'partner_id': self.partner_a.id,
             'order_line': [Command.create({
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1624,6 +1639,8 @@ class TestSaleExpense(TestExpenseCommon, TestSaleCommon):
 
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
                 'name': self.product_c.name,
                 'product_id': self.product_c.id,
                 'product_uom_qty': 2,
@@ -1634,11 +1651,15 @@ class TestSaleExpense(TestExpenseCommon, TestSaleCommon):
         }
         so1 = self.env['sale.order'].create(so_values)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         expense = self.env['hr.expense'].create({
             'name': 'Expense Test',
             'employee_id': self.expense_employee.id,
             'sale_order_id': so1.id,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2514,6 +2535,8 @@ class TestSaleExpense(TestExpenseCommon, TestSaleCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
             'product_id': self.product_c.id,
         })
 
@@ -2526,12 +2549,16 @@ class TestSaleExpense(TestExpenseCommon, TestSaleCommon):
         # Check that it default to the one from the sale order if the project has no analytic distribution
         project.account_id = False
         so2 = self.env['sale.order'].create(so_values)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
         # We use the form to trigger the onchange on sale_order_id, which adds the 'analytic_distribution' field to the fields to recompute
         with Form(expense) as exp_form:
             exp_form.sale_order_id = so2
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3111,6 +3138,8 @@ class TestSaleExpense(TestExpenseCommon, TestSaleCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
         self.assertEqual(
             expense.analytic_distribution,
             {str(self.analytic_account_1.id): 100},
@@ -3127,6 +3156,9 @@ class TestSaleExpense(TestExpenseCommon, TestSaleCommon):
             {str(self.analytic_account_2.id): 100},
             "The analytic distribution of the expense should keep only the one from the project when the so and project share the same plan",
         )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     def test_change_product_expense_policy_analytic_distribution(self):
@@ -3271,6 +3303,9 @@ class TestSaleExpense(TestExpenseCommon, TestSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

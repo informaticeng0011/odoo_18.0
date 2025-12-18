@@ -27,8 +27,13 @@ class TableExporter(http.Controller):
         bold = workbook.add_format({'bold': True})
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         measure_count = jdata['measure_count']
         origin_count = jdata['origin_count']
+=======
+        measure_count = min(jdata['measure_count'], 100000)
+        origin_count = min(jdata['origin_count'], 100000)
+>>>>>>> upstream/18.0
 =======
         measure_count = min(jdata['measure_count'], 100000)
         origin_count = min(jdata['origin_count'], 100000)
@@ -52,18 +57,24 @@ class TableExporter(http.Controller):
                         carry.append({'x': x, 'height': cell['height'] - 1})
                     x = x + measure_count * (2 * origin_count - 1)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 for j in range(header['width']):
                     worksheet.write(y, x + j, header['title'] if j == 0 else '', header_plain)
                 if header['height'] > 1:
                     carry.append({'x': x, 'height': header['height'] - 1})
                 x = x + header['width']
 =======
+=======
+>>>>>>> upstream/18.0
                 width = min(header['width'], 100000)
                 for j in range(width):
                     worksheet.write(y, x + j, header['title'] if j == 0 else '', header_plain)
                 if header['height'] > 1:
                     carry.append({'x': x, 'height': header['height'] - 1})
                 x = x + width
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             while (carry and carry[0]['x'] == x):
                 cell = carry.popleft()
@@ -248,7 +259,11 @@ class TableExporter(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             worksheet.write(y, x, row['indent'] * '     ' + row['title'], header_plain)
+=======
+            worksheet.write(y, x, f"{row['indent'] * '     '}{row['title']}", header_plain)
+>>>>>>> upstream/18.0
 =======
             worksheet.write(y, x, f"{row['indent'] * '     '}{row['title']}", header_plain)
 >>>>>>> upstream/18.0

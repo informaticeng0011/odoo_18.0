@@ -137,6 +137,10 @@ from datetime import datetime, timedelta, time
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from freezegun import freeze_time
+>>>>>>> upstream/18.0
 =======
 from freezegun import freeze_time
 >>>>>>> upstream/18.0
@@ -681,6 +685,10 @@ from odoo.addons.mrp.tests.common import TestMrpCommon
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.tests import Form
+>>>>>>> upstream/18.0
 =======
 from odoo.tests import Form
 >>>>>>> upstream/18.0
@@ -1233,7 +1241,10 @@ class TestOee(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1518,6 +1529,7 @@ class TestOee(TestMrpCommon):
             workcenter_productivity.save()
             self.assertEqual(workcenter_productivity.duration, 1440.0)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1956,6 +1968,9 @@ class TestOee(TestMrpCommon):
 =======
     def test_workcenter_oee(self):
 >>>>>>> upstream/18.0
+=======
+    def test_workcenter_oee(self):
+>>>>>>> upstream/18.0
         """  Test case workcenter oee. """
         day = datetime.date(datetime.today())
         self.workcenter_1.resource_calendar_id.leave_ids.unlink()
@@ -1995,6 +2010,7 @@ class TestOee(TestMrpCommon):
         end_time = time_to_string_utc_datetime(time(10, 53, 22))
         self.create_productivity_line(self.env.ref('mrp.block_reason4'), start_time, end_time)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2107,6 +2123,8 @@ class TestOee(TestMrpCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         # Blocked time : ( Process Defect (1.33 min) + Reduced Speed (3.0 min) + Material Availability (1.52 min)) = 5.85 min
         blocked_time = 1.33 + 3.0 + 1.52
         # Productive time : Productive time duration (13 min)
@@ -2151,6 +2169,9 @@ class TestOee(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

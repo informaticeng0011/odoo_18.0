@@ -295,12 +295,15 @@ class StockMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for package, smls in groupby(self, lambda sml: sml.result_package_id):
             smls = self.env['stock.move.line'].concat(*smls)
             excluded_smls = set(smls.ids)
             if package.package_type_id:
                 best_loc = smls.move_id.location_dest_id.with_context(exclude_sml_ids=excluded_smls, products=smls.product_id)._get_putaway_strategy(self.env['product.product'], package=package)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -424,6 +427,9 @@ class StockMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -549,7 +555,11 @@ class StockMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     sml.location_dest_id = sml.move_id.location_dest_id.with_context(exclude_sml_ids=excluded_smls)._get_putaway_strategy(sml.product_id, quantity=sml.quantity)
+=======
+                    sml.location_dest_id = sml.move_id.location_dest_id.with_context(exclude_sml_ids=excluded_smls, locations=locations)._get_putaway_strategy(sml.product_id, quantity=sml.quantity)
+>>>>>>> upstream/18.0
 =======
                     sml.location_dest_id = sml.move_id.location_dest_id.with_context(exclude_sml_ids=excluded_smls, locations=locations)._get_putaway_strategy(sml.product_id, quantity=sml.quantity)
 >>>>>>> upstream/18.0
@@ -719,7 +729,11 @@ class StockMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     putaway_loc_id = sml.move_id.location_dest_id.with_context(exclude_sml_ids=excluded_smls)._get_putaway_strategy(
+=======
+                    putaway_loc_id = sml.move_id.location_dest_id.with_context(exclude_sml_ids=excluded_smls, locations=locations)._get_putaway_strategy(
+>>>>>>> upstream/18.0
 =======
                     putaway_loc_id = sml.move_id.location_dest_id.with_context(exclude_sml_ids=excluded_smls, locations=locations)._get_putaway_strategy(
 >>>>>>> upstream/18.0
@@ -1245,7 +1259,10 @@ class StockMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1538,6 +1555,9 @@ class StockMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1767,6 +1787,7 @@ class StockMoveLine(models.Model):
                 if ml.product_id.tracking == 'none':
                     continue
                 picking_type_id = ml.move_id.picking_type_id
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2280,6 +2301,9 @@ class StockMoveLine(models.Model):
 =======
                 if not ml._exclude_requiring_lot():
 >>>>>>> upstream/18.0
+=======
+                if not ml._exclude_requiring_lot():
+>>>>>>> upstream/18.0
                     ml_ids_tracked_without_lot.add(ml.id)
                     continue
                 if not picking_type_id or ml.lot_id or (not picking_type_id.use_create_lots and not picking_type_id.use_existing_lots):
@@ -2441,7 +2465,11 @@ class StockMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 ml._free_reservation(
+=======
+                ml.with_context(quants_cache=None)._free_reservation(
+>>>>>>> upstream/18.0
 =======
                 ml.with_context(quants_cache=None)._free_reservation(
 >>>>>>> upstream/18.0

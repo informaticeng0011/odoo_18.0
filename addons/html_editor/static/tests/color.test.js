@@ -13,11 +13,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { test } from "@odoo/hoot";
 import { testEditor } from "./_helpers/editor";
 import { unformat } from "./_helpers/format";
 import { setColor } from "./_helpers/user_actions";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -65,6 +68,9 @@ import { animationFrame } from "@odoo/hoot-mock";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -273,8 +279,13 @@ test("should not merge line on background color change", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             '<p><strong><font style="background-color: rgb(255, 0, 0);">[abcd</font></strong><br>' +
             '<strong><font style="background-color: rgb(255, 0, 0);">efghi]</font></strong></p>',
+=======
+            '<p><font style="background-color: rgb(255, 0, 0);"><strong>[abcd</strong></font><br>' +
+            '<font style="background-color: rgb(255, 0, 0);"><strong>efghi]</strong></font></p>',
+>>>>>>> upstream/18.0
 =======
             '<p><font style="background-color: rgb(255, 0, 0);"><strong>[abcd</strong></font><br>' +
             '<font style="background-color: rgb(255, 0, 0);"><strong>efghi]</strong></font></p>',
@@ -768,8 +779,13 @@ test("should not merge line on color change", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             '<p><strong><font style="color: rgb(255, 0, 0);">[abcd</font></strong><br>' +
             '<strong><font style="color: rgb(255, 0, 0);">efghi]</font></strong></p>',
+=======
+            '<p><font style="color: rgb(255, 0, 0);"><strong>[abcd</strong></font><br>' +
+            '<font style="color: rgb(255, 0, 0);"><strong>efghi]</strong></font></p>',
+>>>>>>> upstream/18.0
 =======
             '<p><font style="color: rgb(255, 0, 0);"><strong>[abcd</strong></font><br>' +
             '<font style="color: rgb(255, 0, 0);"><strong>efghi]</strong></font></p>',
@@ -1537,7 +1553,10 @@ test("should apply text color whithout interrupting gradient background color on
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1835,6 +1854,9 @@ test("should apply text color whithout interrupting gradient background color on
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2134,7 +2156,10 @@ test("should apply background color whithout interrupting gradient text color on
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2432,6 +2457,9 @@ test("should apply background color whithout interrupting gradient text color on
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2904,7 +2932,10 @@ test("should break a gradient and apply gradient background color to a slice of 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3458,6 +3489,7 @@ test("should apply gradient text color on selected text", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3620,6 +3652,8 @@ test("should apply gradient text color on selected text", async () => {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3973,6 +4007,7 @@ test("should be able to remove color of an icon", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4038,6 +4073,8 @@ test("should be able to remove color of an icon", async () => {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4248,6 +4285,9 @@ test("doesn't change the color of the whole section when there's an icon next to
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4466,6 +4506,7 @@ test("should remove remove color from `td`", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4579,6 +4620,8 @@ test("should remove remove color from `td`", async () => {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4666,6 +4709,9 @@ test("Should properly apply color when selection on feff", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4727,7 +4773,11 @@ test("should be able to remove color applied by 'text-*' classes (1)", async () 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test.todo("should be able to remove color applied by 'text-*' classes (2)", async () => {
+=======
+test("should be able to remove color applied by 'text-*' classes (2)", async () => {
+>>>>>>> upstream/18.0
 =======
 test("should be able to remove color applied by 'text-*' classes (2)", async () => {
 >>>>>>> upstream/18.0
@@ -4853,6 +4903,9 @@ test("should be able to remove color applied by 'text-*' classes (2)", async () 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

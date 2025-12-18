@@ -3,8 +3,11 @@
 from odoo import api, fields, models
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import odoo.addons.payment_stripe as stripe  # prevent circular import error with payment_stripe
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 try:
@@ -12,6 +15,9 @@ try:
 except ModuleNotFoundError:
     stripe = None
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -27,10 +33,13 @@ class ResCountry(models.Model):
         for country in self:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             country.is_stripe_supported_country = stripe.const.COUNTRY_MAPPING.get(
                 country.code, country.code
             ) in stripe.const.SUPPORTED_COUNTRIES
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             country.is_stripe_supported_country = (
@@ -40,6 +49,9 @@ class ResCountry(models.Model):
                 ) in stripe.const.SUPPORTED_COUNTRIES
             )
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

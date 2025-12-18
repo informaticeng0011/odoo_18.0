@@ -136,6 +136,11 @@ import { testEditor } from "./_helpers/editor";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { unformat } from "./_helpers/format";
+import { BOLD_TAGS } from "./_helpers/tags";
+>>>>>>> upstream/18.0
 =======
 import { unformat } from "./_helpers/format";
 import { BOLD_TAGS } from "./_helpers/tags";
@@ -1006,7 +1011,10 @@ describe("link normalization", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1312,7 +1320,10 @@ describe("color normalization", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1381,6 +1392,9 @@ describe("color normalization", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1556,6 +1570,7 @@ describe("formatting normalization", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 });
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1907,6 +1922,8 @@ describe("formatting normalization", () => {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1969,6 +1986,9 @@ describe("formatting normalization", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

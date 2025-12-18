@@ -97,7 +97,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import api, models
+=======
+from odoo import models
+>>>>>>> upstream/18.0
 =======
 from odoo import models
 >>>>>>> upstream/18.0
@@ -394,6 +398,7 @@ from odoo import models
 class Expense(models.Model):
     _inherit = "hr.expense"
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -981,6 +986,8 @@ class Expense(models.Model):
 >>>>>>> upstream/18.0
                 expense.analytic_distribution = expense.sale_order_id.project_id._get_analytic_distribution()
 =======
+=======
+>>>>>>> upstream/18.0
     def _compute_analytic_distribution(self):
         super()._compute_analytic_distribution()
         if not self.env.context.get('project_id'):
@@ -1010,4 +1017,7 @@ class Expense(models.Model):
                     else:
                         # If not we keep the most prioritized one -> project
                         expense.analytic_distribution = expense.sale_order_id.project_id._get_analytic_distribution() or expense.analytic_distribution or {}
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

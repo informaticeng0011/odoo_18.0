@@ -75,7 +75,10 @@ export class ActivityMenu extends Component {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         this.executeActivityAction(group, domain, views, context);
@@ -88,6 +91,9 @@ export class ActivityMenu extends Component {
      */
     executeActivityAction(group, domain, views, context) {
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

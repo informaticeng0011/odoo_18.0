@@ -158,6 +158,7 @@ class ProductReplenish(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             res['supplier_id'] = False
             if orderpoint:
                 res['supplier_id'] = orderpoint.supplier_id.id
@@ -166,6 +167,8 @@ class ProductReplenish(models.TransientModel):
         return res
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -590,6 +593,9 @@ class ProductReplenish(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1064,8 +1070,14 @@ class ProductReplenish(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if not product_tmpl_id.seller_ids:
             domain = AND([domain, [('id', '!=', self.env.ref('purchase_stock.route_warehouse0_buy', raise_if_not_found=False).id)]])
+=======
+        buy_route = self.env.ref('purchase_stock.route_warehouse0_buy', raise_if_not_found=False)
+        if buy_route and not product_tmpl_id.seller_ids:
+            domain = AND([domain, [('id', '!=', buy_route.id)]])
+>>>>>>> upstream/18.0
 =======
         buy_route = self.env.ref('purchase_stock.route_warehouse0_buy', raise_if_not_found=False)
         if buy_route and not product_tmpl_id.seller_ids:

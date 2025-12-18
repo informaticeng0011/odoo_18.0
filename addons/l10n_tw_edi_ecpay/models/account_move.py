@@ -405,6 +405,10 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    @api.model
+>>>>>>> upstream/18.0
 =======
     @api.model
 >>>>>>> upstream/18.0
@@ -629,6 +633,7 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
             if self.l10n_tw_edi_is_b2b:
                 item_price = float_round(twd_excluded_amount / line.quantity, precision_rounding=0.01)
@@ -640,6 +645,8 @@ class AccountMove(models.Model):
                 else:
                     item_price = float_round(twd_included_amount / line.quantity, precision_rounding=0.01)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -774,6 +781,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -905,7 +915,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 item_price = float_round(twd_included_amount / line.quantity, precision_rounding=0.01)
+=======
+                item_price = float_round(twd_included_amount / quantity, precision_rounding=0.01)
+>>>>>>> upstream/18.0
 =======
                 item_price = float_round(twd_included_amount / quantity, precision_rounding=0.01)
 >>>>>>> upstream/18.0
@@ -1086,7 +1100,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "ItemCount": line.quantity,
+=======
+                    "ItemCount": quantity,
+>>>>>>> upstream/18.0
 =======
                     "ItemCount": quantity,
 >>>>>>> upstream/18.0
@@ -1262,7 +1280,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "ItemCount": line.quantity,
+=======
+                    "ItemCount": quantity,
+>>>>>>> upstream/18.0
 =======
                     "ItemCount": quantity,
 >>>>>>> upstream/18.0
@@ -1464,12 +1486,15 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             # Check if the credit note has amount due, we need to add it to the sale amount
             item_list[-1]["ItemAmount"] += self.amount_residual_signed
             item_list[-1]["ItemAmount"] = float_round(item_list[-1]["ItemAmount"], precision_rounding=0.01)
             item_list[-1]["ItemPrice"] = float_round(item_list[-1]["ItemAmount"] / item_list[-1]["ItemCount"], precision_rounding=0.01)
             sale_amount += self.amount_residual_signed
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1687,7 +1712,10 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1787,6 +1815,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1872,7 +1903,10 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1956,6 +1990,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

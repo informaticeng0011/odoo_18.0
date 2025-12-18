@@ -97,8 +97,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* portal
 # 
+=======
+# * portal
+#
+>>>>>>> upstream/18.0
 =======
 # * portal
 #
@@ -650,8 +655,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Jarmo Kortetjärvi <jarmo.kortetjarvi@gmail.com>, 2024
 # Antti Oksman <antti.oksman@web-veistamo.fi>, 2024
+=======
+# Antti Oksman <antti.oksman@web-veistamo.fi>, 2024
+# Jarmo Kortetjärvi <jarmo.kortetjarvi@gmail.com>, 2024
+>>>>>>> upstream/18.0
 =======
 # Antti Oksman <antti.oksman@web-veistamo.fi>, 2024
 # Jarmo Kortetjärvi <jarmo.kortetjarvi@gmail.com>, 2024
@@ -1384,6 +1394,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Jessica Jakara, 2025
 >>>>>>> upstream/18.0
@@ -1523,6 +1534,11 @@
 # Jessica Jakara, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+# Jessica Jakara, 2025
+# "Jessica Tuulia Sade Jäkärä (jtsj)" <jtsj@odoo.com>, 2025.
+# Jarmo Kortetjärvi <jarmo.kortetjarvi@futural.fi>, 2025.
+>>>>>>> upstream/18.0
 =======
 # Jessica Jakara, 2025
 # "Jessica Tuulia Sade Jäkärä (jtsj)" <jtsj@odoo.com>, 2025.
@@ -2167,6 +2183,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-02-10 13:25+0000\n"
 =======
 "POT-Creation-Date: 2025-05-14 20:48+0000\n"
@@ -2635,6 +2652,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-05-23 18:40+0000\n"
 "PO-Revision-Date: 2025-08-21 14:30+0000\n"
 "Last-Translator: \"Jessica Tuulia Sade Jäkärä (jtsj)\" <jtsj@odoo.com>\n"
@@ -2742,6 +2761,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3227,6 +3249,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<t t-set=\"user_name\" t-value=\"object.user_id.name or object.partner_id.name or ''\"/>\n"
+"            <t t-set=\"company_name\" t-value=\"object.user_id.company_id.name or object.partner_id.company_id.name or ''\"/>\n"
+"            <t t-set=\"signup_url\" t-value=\"object.user_id.partner_id and object.user_id.partner_id._get_signup_url() or object.partner_id and object.partner_id._get_signup_url()\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "<t t-set=\"user_name\" t-value=\"object.user_id.name or object.partner_id.name or ''\"/>\n"
 "            <t t-set=\"company_name\" t-value=\"object.user_id.company_id.name or object.partner_id.company_id.name or ''\"/>\n"
@@ -4118,6 +4146,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <span style=\"font-size: 20px; font-weight: bold;\" t-out=\"object.user_id.name or ''\">Marc Demo</span>\n"
 =======
 "                    <span style=\"font-size: 20px; font-weight: bold;\" t-out=\"object.user_id.name or object.partner_id.name or ''\">Marc Demo</span>\n"
@@ -4136,6 +4165,9 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 "                    <span style=\"font-size: 20px; font-weight: bold;\" t-out=\"object.user_id.name or object.partner_id.name or ''\">Marc Demo</span>\n"
+>>>>>>> upstream/18.0
+=======
+"                    <span style=\"font-size: 20px; font-weight: bold;\" t-out=\"user_name\">Marc Demo</span>\n"
 >>>>>>> upstream/18.0
 =======
 "                    <span style=\"font-size: 20px; font-weight: bold;\" t-out=\"user_name\">Marc Demo</span>\n"
@@ -4742,6 +4774,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        Dear <t t-out=\"object.user_id.name or ''\">Marc Demo</t>,<br/> <br/>\n"
 "                        Welcome to <t t-out=\"object.user_id.company_id.name\">YourCompany</t>'s Portal!<br/><br/>\n"
 "                        An account has been created for you with the following login: <t t-out=\"object.user_id.login\">demo</t><br/><br/>\n"
@@ -4782,6 +4815,8 @@ msgid ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5223,6 +5258,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5677,7 +5715,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <t t-out=\"object.user_id.company_id.name or ''\">YourCompany</t>\n"
+=======
+"                    <t t-out=\"company_name\">YourCompany</t>\n"
+>>>>>>> upstream/18.0
 =======
 "                    <t t-out=\"company_name\">YourCompany</t>\n"
 >>>>>>> upstream/18.0
@@ -6295,6 +6337,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<t t-set=\"user_name\" t-value=\"object.user_id.name or object.partner_id.name or ''\"/>\n"
+"            <t t-set=\"company_name\" t-value=\"object.user_id.company_id.name or object.partner_id.company_id.name or ''\"/>\n"
+"            <t t-set=\"signup_url\" t-value=\"object.user_id.partner_id and object.user_id.partner_id._get_signup_url() or object.partner_id and object.partner_id._get_signup_url()\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "<t t-set=\"user_name\" t-value=\"object.user_id.name or object.partner_id.name or ''\"/>\n"
 "            <t t-set=\"company_name\" t-value=\"object.user_id.company_id.name or object.partner_id.company_id.name or ''\"/>\n"
@@ -7162,7 +7210,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <span style=\"font-size: 20px; font-weight: bold;\" t-out=\"object.user_id.name or ''\">Marc Demo</span>\n"
+=======
+"                    <span style=\"font-size: 20px; font-weight: bold;\" t-out=\"user_name\">Marc Demo</span>\n"
+>>>>>>> upstream/18.0
 =======
 "                    <span style=\"font-size: 20px; font-weight: bold;\" t-out=\"user_name\">Marc Demo</span>\n"
 >>>>>>> upstream/18.0
@@ -7750,6 +7802,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        Hyvä <t t-out=\"object.user_id.name or ''\">Marc Demo</t>,<br/> <br/>\n"
 "                        Tervetuloa <t t-out=\"object.user_id.company_id.name\">YourCompany</t>'s Portaliin!<br/><br/>\n"
 "                        Sinulle on luotu tili seuraavilla tunnuksilla: <t t-out=\"object.user_id.login\">Demo</t><br/><br/>\n"
@@ -7761,6 +7814,8 @@ msgstr ""
 "                        </div>\n"
 "                       <t t-out=\"object.wizard_id.welcome_message or ''\">Tervetuloa yrityksemme portaaliin.</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8197,6 +8252,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8638,7 +8696,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <t t-out=\"object.user_id.company_id.name or ''\">Yrityksesi</t>\n"
+=======
+"                    <t t-out=\"company_name\">YourCompany</t>\n"
+>>>>>>> upstream/18.0
 =======
 "                    <t t-out=\"company_name\">YourCompany</t>\n"
 >>>>>>> upstream/18.0
@@ -9231,7 +9293,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Voimana <a target=\"_blank\" href=\"https://www.odoo.com?utm_source=db&amp;utm_medium=portalinvite\" style=\"color: #875A7B;\">Odoo</a>\n"
+=======
+"        Palvelun tarjoaa <a target=\"_blank\" href=\"https://www.odoo.com?utm_source=db&amp;utm_medium=portalinvite\" style=\"color: #875A7B;\">Odoo</a>\n"
+>>>>>>> upstream/18.0
 =======
 "        Palvelun tarjoaa <a target=\"_blank\" href=\"https://www.odoo.com?utm_source=db&amp;utm_medium=portalinvite\" style=\"color: #875A7B;\">Odoo</a>\n"
 >>>>>>> upstream/18.0
@@ -9809,6 +9875,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10725,12 +10794,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/portal/static/src/xml/portal_security.xml:0
 msgid "Key Description"
 msgstr "Avaimen kuvaus"
 
 #. module: portal
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11301,7 +11373,11 @@ msgid "Portal Sharing"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Jako portaalissa"
+=======
+msgstr "Jakaminen portaalissa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Jakaminen portaalissa"
 >>>>>>> upstream/18.0
@@ -11842,7 +11918,10 @@ msgstr "Tietoturva"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/portal/static/src/xml/portal_security.xml:0
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12588,7 +12667,11 @@ msgid "Write a message…"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Kirjoita viesti.."
+=======
+msgstr "Kirjoita viesti…"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kirjoita viesti…"
 >>>>>>> upstream/18.0
@@ -12982,7 +13065,11 @@ msgid "Write down your key"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Kirjoita ylös avain"
+=======
+msgstr "Kirjoita avain muistiin"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kirjoita avain muistiin"
 >>>>>>> upstream/18.0
@@ -13451,9 +13538,12 @@ msgstr "Sinun tulee ensin myöntää kumppanille portaalin käyttöoikeus \"%s\"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Your account at {{ object.user_id.company_id.name }}"
 msgstr "Tilisi {{ object.user_id.company_id.name }}"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13893,10 +13983,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+"Tilisi osoitteessa {{ object.user_id.company_id.name or "
+"object.partner_id.company_id.name }}"
 >>>>>>> upstream/18.0
 =======
 "Tilisi osoitteessa {{ object.user_id.company_id.name or "

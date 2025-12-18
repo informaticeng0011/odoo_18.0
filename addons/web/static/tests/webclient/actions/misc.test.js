@@ -182,7 +182,11 @@ class Partner extends models.Model {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "form,false": `
+=======
+        form: `
+>>>>>>> upstream/18.0
 =======
         form: `
 >>>>>>> upstream/18.0
@@ -744,9 +748,14 @@ class Partner extends models.Model {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "list,false": `<list><field name="display_name"/></list>`,
         "list,2": `<list limit="3"><field name="display_name"/></list>`,
         "search,false": `<search/>`,
+=======
+        list: `<list><field name="display_name"/></list>`,
+        "list,2": `<list limit="3"><field name="display_name"/></list>`,
+>>>>>>> upstream/18.0
 =======
         list: `<list><field name="display_name"/></list>`,
         "list,2": `<list limit="3"><field name="display_name"/></list>`,
@@ -1439,9 +1448,14 @@ class Pony extends models.Model {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "list,false": '<list><field name="name"/></list>',
         "form,false": `<form><field name="name"/></form>`,
         "search,false": `<search/>`,
+=======
+        list: '<list><field name="name"/></list>',
+        form: `<form><field name="name"/></form>`,
+>>>>>>> upstream/18.0
 =======
         list: '<list><field name="name"/></list>',
         form: `<form><field name="name"/></form>`,
@@ -2387,7 +2401,12 @@ test("action cache: additionalContext is used on the key", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test.tags("desktop")('action with "no_breadcrumbs" set to true', async () => {
+=======
+test.tags("desktop");
+test('action with "no_breadcrumbs" set to true', async () => {
+>>>>>>> upstream/18.0
 =======
 test.tags("desktop");
 test('action with "no_breadcrumbs" set to true', async () => {
@@ -3161,8 +3180,11 @@ test('action with "no_breadcrumbs" set to true', async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             views: [[1, "kanban"], [false, "list"]],
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3572,6 +3594,9 @@ test('action with "no_breadcrumbs" set to true', async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4146,7 +4171,11 @@ test('executing an action with target != "new" closes all dialogs', async () => 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views["form,false"] = `
+=======
+    Partner._views["form"] = `
+>>>>>>> upstream/18.0
 =======
     Partner._views["form"] = `
 >>>>>>> upstream/18.0
@@ -4711,7 +4740,11 @@ test('executing an action with target "new" does not close dialogs', async () =>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views["form,false"] = `
+=======
+    Partner._views["form"] = `
+>>>>>>> upstream/18.0
 =======
     Partner._views["form"] = `
 >>>>>>> upstream/18.0
@@ -5276,8 +5309,11 @@ test("search defaults are removed from context when switching view", async () =>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views["pivot,false"] = `<pivot/>`;
     Partner._views["list,false"] = `<list/>`;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

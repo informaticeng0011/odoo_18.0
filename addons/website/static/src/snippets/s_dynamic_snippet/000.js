@@ -178,8 +178,11 @@ const DynamicSnippet = publicWidget.Widget.extend({
         if (this.data.length > 0 || this.editableMode) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.$el.removeClass('o_dynamic_snippet_empty');
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             // Compatibility code: A dynamic snippet may end up with the
@@ -188,6 +191,9 @@ const DynamicSnippet = publicWidget.Widget.extend({
             // and does not have any associated CSS.
             this.$el.removeClass('o_dynamic_snippet_empty o_dynamic_empty');
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
