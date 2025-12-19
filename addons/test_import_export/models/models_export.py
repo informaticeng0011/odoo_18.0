@@ -47,6 +47,12 @@ class ExportAggregator(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    parent_id = fields.Many2one('export.aggregator', string='Parent')
+    definition_properties = fields.PropertiesDefinition('Definitions')
+    properties = fields.Properties('Properties', definition='parent_id.definition_properties')
+>>>>>>> upstream/18.0
 =======
     parent_id = fields.Many2one('export.aggregator', string='Parent')
     definition_properties = fields.PropertiesDefinition('Definitions')

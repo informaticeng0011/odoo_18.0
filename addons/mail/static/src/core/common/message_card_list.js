@@ -35,6 +35,10 @@ export class MessageCardList extends Component {
 
     setup() {
         super.setup();
+<<<<<<< HEAD
+=======
+        this.store = useState(useService("mail.store"));
+>>>>>>> upstream/18.0
         this.ui = useState(useService("ui"));
         useSubEnv({ messageCard: true });
         useVisible("load-more", (isVisible) => {

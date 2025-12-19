@@ -81,6 +81,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import uuid
 from freezegun import freeze_time
 from unittest.mock import patch
@@ -91,6 +92,8 @@ from odoo.addons.l10n_it_edi.tests.common import TestItEdi
 
 import logging
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -343,6 +346,9 @@ import logging
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -598,6 +604,10 @@ class TestItEdiImportNdd(TestItEdi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        td01 = self.env.ref('l10n_it_edi_ndd.l10n_it_document_type_01')
+>>>>>>> upstream/18.0
 =======
         td01 = self.env.ref('l10n_it_edi_ndd.l10n_it_document_type_01')
 >>>>>>> upstream/18.0
@@ -941,6 +951,10 @@ class TestItEdiImportNdd(TestItEdi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'l10n_it_document_type': td01.id,
+>>>>>>> upstream/18.0
 =======
             'l10n_it_document_type': td01.id,
 >>>>>>> upstream/18.0

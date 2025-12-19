@@ -411,7 +411,10 @@ class Ewaybill(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -874,6 +877,9 @@ class Ewaybill(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1268,7 +1274,10 @@ class Ewaybill(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1566,6 +1575,9 @@ class Ewaybill(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1910,7 +1922,11 @@ class Ewaybill(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if self.transporter_id and not self.transporter_id.vat:
+=======
+        if self.transporter_id and not self.transporter_id.vat and (self.mode != "1" or not self.vehicle_no):
+>>>>>>> upstream/18.0
 =======
         if self.transporter_id and not self.transporter_id.vat and (self.mode != "1" or not self.vehicle_no):
 >>>>>>> upstream/18.0
@@ -2519,7 +2535,11 @@ class Ewaybill(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if "404" in ewaybill_error.error_codes:
+=======
+        if "access_error" in ewaybill_error.error_codes:
+>>>>>>> upstream/18.0
 =======
         if "access_error" in ewaybill_error.error_codes:
 >>>>>>> upstream/18.0
@@ -2821,6 +2841,7 @@ class Ewaybill(models.Model):
         cancel_json = {
             "ewbNo": int(self.name),
             "cancelRsnCode": int(self.cancel_reason),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3290,10 +3311,14 @@ class Ewaybill(models.Model):
 =======
             "cancelRmrk": self.cancel_remarks,
 >>>>>>> upstream/18.0
+=======
+            "cancelRmrk": self.cancel_remarks,
+>>>>>>> upstream/18.0
         }
         ewb_api = EWayBillApi(self.company_id)
         self._lock_ewaybill()
         try:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3648,6 +3673,8 @@ class Ewaybill(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             response = ewb_api._ewaybill_cancel(cancel_json)
         except EWayBillError as error:
             self._handle_error(error)
@@ -3769,6 +3796,9 @@ class Ewaybill(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4099,6 +4129,7 @@ class Ewaybill(models.Model):
         AccountEDI = self.env['account.edi.format']
         product = line.product_id
         line_details = {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4806,6 +4837,8 @@ class Ewaybill(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             "productName": product.name[:100],
             "hsnCode": AccountEDI._l10n_in_edi_extract_digits(product.l10n_in_hsn_code),
             "productDesc": line.description_picking[:100] if line.description_picking else "",
@@ -4851,6 +4884,9 @@ class Ewaybill(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -31,9 +31,12 @@
 
     > .o_view_controller {
         padding: 0 6px 6px 6px;
+<<<<<<< HEAD
         .o_graph_renderer canvas {
             height: 300px;
         }
+=======
+>>>>>>> upstream/18.0
         .o_content {
             max-height: 80vh;
             overflow: auto;
@@ -41,6 +44,17 @@
                 min-width: 1200px;
             }
         }
+<<<<<<< HEAD
+=======
+        // graph view
+        .o_graph_renderer canvas {
+            height: 300px;
+        }
+        // calendar view
+        .o_calendar_wrapper {
+            height: 400px;
+        }
+>>>>>>> upstream/18.0
     }
 
     .o_column_quick_create, .o_control_panel {

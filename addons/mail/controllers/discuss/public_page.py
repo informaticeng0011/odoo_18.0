@@ -149,7 +149,12 @@ class PublicPageController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def discuss_channel(self, channel_id):
+=======
+    def discuss_channel(self, channel_id, *, highlight_message_id=None):
+        # highlight_message_id is used JS side by parsing the query string
+>>>>>>> upstream/18.0
 =======
     def discuss_channel(self, channel_id, *, highlight_message_id=None):
         # highlight_message_id is used JS side by parsing the query string

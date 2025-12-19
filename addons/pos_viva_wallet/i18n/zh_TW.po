@@ -98,6 +98,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* pos_viva_wallet
 # 
 # Translators:
@@ -105,6 +106,8 @@
 # Tony Ng, 2025
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -403,6 +406,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -602,6 +608,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -923,6 +930,9 @@ msgstr ""
 =======
 "POT-Creation-Date: 2025-11-28 18:36+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-11-28 18:36+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-08-14 13:55+0000\n"
 "Last-Translator: \"Tony Ng (ngto)\" <ngto@odoo.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://translate.odoo.com/"
@@ -1030,6 +1040,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1312,12 +1325,15 @@ msgstr "只限 group_pos_user 可取消 Viva Wallet 付款"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Only 'group_pos_user' are allowed to get latest transaction status"
 msgstr "只限 group_pos_user 可獲取最新交易狀態"
 
 #. module: pos_viva_wallet
 #. odoo-python
 #: code:addons/pos_viva_wallet/models/pos_payment_method.py:0
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1382,8 +1398,12 @@ msgstr "只限 group_pos_user 可從 Viva Wallet 取得付款狀態"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Only 'group_pos_user' are allowed to send a Viva Wallet payment request"
+=======
+msgid "Only 'group_pos_user' are allowed to send a Viva Wallet payment request"
+>>>>>>> upstream/18.0
 =======
 msgid "Only 'group_pos_user' are allowed to send a Viva Wallet payment request"
 >>>>>>> upstream/18.0
@@ -1500,7 +1520,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "未能取得 Viva Wallet 持有人權杖。請檢查客戶端識別碼、客戶端秘密密鑰是否正確。"
+=======
+msgstr ""
+"未能取得 Viva Wallet 持有人權杖。請檢查客戶端識別碼、客戶端秘密密鑰是否正確。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "未能取得 Viva Wallet 持有人權杖。請檢查客戶端識別碼、客戶端秘密密鑰是否正確。"
@@ -1601,6 +1626,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Used when connecting to Viva Wallet: "
 "https://developer.vivawallet.com/getting-started/find-your-account-"
 "credentials/merchant-id-and-api-key/"
@@ -1608,6 +1634,8 @@ msgstr ""
 "連線至 Viva Wallet 時使用： https://developer.vivawallet.com/getting-started/find-"
 "your-account-credentials/merchant-id-and-api-key/"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1667,6 +1695,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1708,6 +1739,7 @@ msgstr ""
 #. module: pos_viva_wallet
 #: model:ir.model.fields,help:pos_viva_wallet.field_pos_payment_method__viva_wallet_client_id
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1770,6 +1802,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Used when connecting to Viva Wallet: https://developer.vivawallet.com/"
 "getting-started/find-your-account-credentials/pos-apis-credentials/#find-"
 "your-pos-apis-credentials"
@@ -1794,6 +1828,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1972,7 +2009,11 @@ msgid "received a message for a pos payment provider not registered."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "收到一個有關未註冊pos付款服務商的訊息。"
+=======
+msgstr "收到一個有關未註冊 POS 付款服務商的訊息。"
+>>>>>>> upstream/18.0
 =======
 msgstr "收到一個有關未註冊 POS 付款服務商的訊息。"
 >>>>>>> upstream/18.0
@@ -2370,6 +2411,7 @@ msgid "received a message for a terminal not registered in Odoo: %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "收到一個有關未在 Odoo 中註冊的終端機的訊息:%s"
 =======
 msgstr "收到一個有關未在 Odoo 中註冊的終端機的訊息：%s"
@@ -2645,6 +2687,8 @@ msgstr "收到一個有關未在 Odoo 中註冊的終端機的訊息：%s"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr "收到一個有關未在 Odoo 中註冊的終端機的訊息：%s"
 
 #~ msgid "Only 'group_pos_user' are allowed to get latest transaction status"
@@ -2667,6 +2711,9 @@ msgstr "收到一個有關未在 Odoo 中註冊的終端機的訊息：%s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

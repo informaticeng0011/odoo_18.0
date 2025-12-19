@@ -36,6 +36,10 @@ class AccountMoveLine(models.Model):
             res['product_uom_qty'] = self.expense_id.quantity
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            res['analytic_distribution'] = self.analytic_distribution
+>>>>>>> upstream/18.0
 =======
             res['analytic_distribution'] = self.analytic_distribution
 >>>>>>> upstream/18.0

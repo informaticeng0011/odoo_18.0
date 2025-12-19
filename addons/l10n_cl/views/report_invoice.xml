@@ -161,7 +161,11 @@
             <attribute name="t-out">line_amounts['price_item_document']</attribute>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <attribute name="t-options">{"widget": "float", "precision": 2}</attribute>
+=======
+            <attribute name="t-options">{"widget": "float", "precision": line_amounts['main_currency'].decimal_places}</attribute>
+>>>>>>> upstream/18.0
 =======
             <attribute name="t-options">{"widget": "float", "precision": line_amounts['main_currency'].decimal_places}</attribute>
 >>>>>>> upstream/18.0
@@ -435,7 +439,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <td>VAT <t t-esc="subtotal_amounts['vat_percent']"/></td>
+=======
+                    <td>VAT <t t-esc="subtotal_amounts['vat_percent']"/>%</td>
+>>>>>>> upstream/18.0
 =======
                     <td>VAT <t t-esc="subtotal_amounts['vat_percent']"/>%</td>
 >>>>>>> upstream/18.0

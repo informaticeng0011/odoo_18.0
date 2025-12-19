@@ -269,6 +269,11 @@ class WebsiteMembership(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                # See REVIEW_CAN_PUBLISH_UNSUDO
+                values['main_object'] = values['main_object'].with_context(can_publish_unsudo_main_object=True)
+>>>>>>> upstream/18.0
 =======
                 # See REVIEW_CAN_PUBLISH_UNSUDO
                 values['main_object'] = values['main_object'].with_context(can_publish_unsudo_main_object=True)

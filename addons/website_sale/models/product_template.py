@@ -181,13 +181,19 @@ class ProductTemplate(models.Model):
         # Clear empty ecommerce description content to avoid side-effects on product pages
         # when there is no content to display anyway.
 <<<<<<< HEAD
+<<<<<<< HEAD
         if vals.get('description_ecommerce') and is_html_empty(vals['description_ecommerce']):
 =======
+=======
+>>>>>>> upstream/18.0
         if (
             (description_ecommerce := vals.get('description_ecommerce'))
             and is_html_empty(description_ecommerce)
             and 'media_iframe_video' not in description_ecommerce  # don't remove "empty" video div
         ):
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             vals['description_ecommerce'] = ''
         return super().write(vals)
@@ -843,8 +849,11 @@ class ProductTemplate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             domains.append([('product_variant_ids.all_product_tag_ids', 'in', tags)])
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1081,6 +1090,9 @@ class ProductTemplate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1500,7 +1512,10 @@ class ProductTemplate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1758,7 +1773,11 @@ class ProductTemplate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if force_website or self.website_published:
+=======
+        if force_website or (self.website_published and self.env.user.share):
+>>>>>>> upstream/18.0
 =======
         if force_website or (self.website_published and self.env.user.share):
 >>>>>>> upstream/18.0
@@ -2028,6 +2047,9 @@ class ProductTemplate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

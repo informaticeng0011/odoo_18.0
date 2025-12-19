@@ -298,6 +298,10 @@ class MailTestActivity(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    company_id = fields.Many2one('res.company')
+>>>>>>> upstream/18.0
 =======
     company_id = fields.Many2one('res.company')
 >>>>>>> upstream/18.0

@@ -134,6 +134,7 @@ import { addStep, deleteBackward, deleteForward, redo, undo } from "./_helpers/u
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { makeMockEnv } from "@web/../tests/_framework/env_test_helpers";
 import { patchWithCleanup } from "@web/../tests/web_test_helpers";
 import { Deferred } from "@web/core/utils/concurrency";
@@ -470,6 +471,8 @@ import { expectElementCount } from "./_helpers/ui_expectations";
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 import { makeMockEnv, patchWithCleanup } from "@web/../tests/web_test_helpers";
 import { Deferred } from "@web/core/utils/concurrency";
 import { Plugin } from "@html_editor/plugin";
@@ -572,6 +575,9 @@ import { expectElementCount } from "./_helpers/ui_expectations";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1271,9 +1277,15 @@ describe("Mount and Destroy embedded components", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             [...fixture.querySelectorAll("[data-embedded]")].filter((elem) => {
                 return !elem.closest(".odoo-editor-editable");
             })
+=======
+            [...fixture.querySelectorAll("[data-embedded]")].filter(
+                (elem) => !elem.closest(".odoo-editor-editable")
+            )
+>>>>>>> upstream/18.0
 =======
             [...fixture.querySelectorAll("[data-embedded]")].filter(
                 (elem) => !elem.closest(".odoo-editor-editable")
@@ -1888,9 +1900,15 @@ describe("Mount and Destroy embedded components", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             [...fixture.querySelectorAll("[data-embedded]")].filter((elem) => {
                 return !elem.closest(".odoo-editor-editable");
             })
+=======
+            [...fixture.querySelectorAll("[data-embedded]")].filter(
+                (elem) => !elem.closest(".odoo-editor-editable")
+            )
+>>>>>>> upstream/18.0
 =======
             [...fixture.querySelectorAll("[data-embedded]")].filter(
                 (elem) => !elem.closest(".odoo-editor-editable")
@@ -2507,9 +2525,15 @@ describe("Mount and Destroy embedded components", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             [...fixture.querySelectorAll("[data-embedded]")].filter((elem) => {
                 return !elem.closest(".odoo-editor-editable");
             })
+=======
+            [...fixture.querySelectorAll("[data-embedded]")].filter(
+                (elem) => !elem.closest(".odoo-editor-editable")
+            )
+>>>>>>> upstream/18.0
 =======
             [...fixture.querySelectorAll("[data-embedded]")].filter(
                 (elem) => !elem.closest(".odoo-editor-editable")
@@ -3516,7 +3540,11 @@ describe("In-editor manipulations", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(".o-we-toolbar").toHaveCount(1);
+=======
+        await expectElementCount(".o-we-toolbar", 1);
+>>>>>>> upstream/18.0
 =======
         await expectElementCount(".o-we-toolbar", 1);
 >>>>>>> upstream/18.0
@@ -4056,7 +4084,11 @@ describe("In-editor manipulations", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(".o-we-toolbar").toHaveCount(0);
+=======
+        await expectElementCount(".o-we-toolbar", 0);
+>>>>>>> upstream/18.0
 =======
         await expectElementCount(".o-we-toolbar", 0);
 >>>>>>> upstream/18.0
@@ -4676,7 +4708,10 @@ describe("In-editor manipulations", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5176,6 +5211,9 @@ describe("In-editor manipulations", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

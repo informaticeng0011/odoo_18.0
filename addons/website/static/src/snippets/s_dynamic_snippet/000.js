@@ -179,8 +179,11 @@ const DynamicSnippet = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.$el.removeClass('o_dynamic_snippet_empty');
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -192,6 +195,9 @@ const DynamicSnippet = publicWidget.Widget.extend({
             this.$el.removeClass('o_dynamic_snippet_empty o_dynamic_empty');
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

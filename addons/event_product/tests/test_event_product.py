@@ -28,7 +28,11 @@ from odoo.exceptions import ValidationError
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tests import tagged
+=======
+from odoo.tests import Form, tagged
+>>>>>>> upstream/18.0
 =======
 from odoo.tests import Form, tagged
 >>>>>>> upstream/18.0
@@ -165,7 +169,12 @@ class TestEventProduct(TestEventProductCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.event_product.type = 'consu'
+=======
+            with Form(self.event_product) as product_form:
+                product_form.type = 'consu'
+>>>>>>> upstream/18.0
 =======
             with Form(self.event_product) as product_form:
                 product_form.type = 'consu'

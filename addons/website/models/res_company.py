@@ -162,6 +162,7 @@ class Company(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     def _get_public_user(self):
         self.ensure_one()
@@ -178,6 +179,8 @@ class Company(models.Model):
                 'company_id': self.id,
                 'company_ids': [(6, 0, [self.id])],
             })
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

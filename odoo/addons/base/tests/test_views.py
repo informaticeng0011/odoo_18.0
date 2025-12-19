@@ -21,7 +21,11 @@ from psycopg2.extras import Json
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.exceptions import AccessError, ValidationError
+=======
+from odoo.exceptions import AccessError, UserError, ValidationError
+>>>>>>> upstream/18.0
 =======
 from odoo.exceptions import AccessError, UserError, ValidationError
 >>>>>>> upstream/18.0
@@ -1717,7 +1721,10 @@ class TestTemplating(ViewCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2045,6 +2052,9 @@ class TestTemplating(ViewCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2656,7 +2666,10 @@ class TestViews(ViewCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2957,6 +2970,7 @@ class TestViews(ViewCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3139,6 +3153,8 @@ class TestViews(ViewCase):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3176,6 +3192,9 @@ class TestViews(ViewCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4949,7 +4968,10 @@ class TestViewTranslations(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5465,6 +5487,9 @@ class TestViewTranslations(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6708,7 +6733,11 @@ class TestRenderAllViews(TransactionCaseWithUserDemo):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 @common.tagged('post_install', '-at_install')
+=======
+@common.tagged('post_install', '-at_install', 'post_install_l10n')
+>>>>>>> upstream/18.0
 =======
 @common.tagged('post_install', '-at_install', 'post_install_l10n')
 >>>>>>> upstream/18.0
@@ -7007,6 +7036,7 @@ class TestInvisibleField(TransactionCaseWithUserDemo):
     def test_uncommented_invisible_field(self):
         # NEVER add new name in this list ! The new addons must add comment for all always invisible field.
         only_log_modules = (
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7609,6 +7639,8 @@ class TestInvisibleField(TransactionCaseWithUserDemo):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             'account',
             'account_3way_match',
             'account_accountant',
@@ -7710,7 +7742,10 @@ class TestInvisibleField(TransactionCaseWithUserDemo):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'auth_signup',
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7939,7 +7974,10 @@ class TestInvisibleField(TransactionCaseWithUserDemo):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'documents_project_sale',
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8182,7 +8220,10 @@ class TestInvisibleField(TransactionCaseWithUserDemo):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'iap',
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8381,7 +8422,10 @@ class TestInvisibleField(TransactionCaseWithUserDemo):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'l10n_ae_hr_payroll_account',
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8592,7 +8636,10 @@ class TestInvisibleField(TransactionCaseWithUserDemo):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'l10n_ch_hr_payroll_elm_transmission_account',
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8805,11 +8852,17 @@ class TestInvisibleField(TransactionCaseWithUserDemo):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'l10n_fr_fec_import',
             'l10n_fr_hr_holidays',
             'l10n_fr_hr_payroll',
             'l10n_fr_intrastat',
             'l10n_fr_intrastat_services',
+=======
+            'l10n_fr_hr_holidays',
+            'l10n_fr_hr_payroll',
+            'l10n_fr_intrastat',
+>>>>>>> upstream/18.0
 =======
             'l10n_fr_hr_holidays',
             'l10n_fr_hr_payroll',
@@ -9197,7 +9250,10 @@ class TestInvisibleField(TransactionCaseWithUserDemo):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'l10n_in_hr_payroll_account',
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9414,8 +9470,11 @@ class TestInvisibleField(TransactionCaseWithUserDemo):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'l10n_mx_hr_payroll',
             'l10n_mx_hr_payroll_account',
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9618,12 +9677,18 @@ class TestInvisibleField(TransactionCaseWithUserDemo):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'l10n_pe_edi_pos',
             'l10n_pe_edi_stock',
             'l10n_pe_pos',
             'l10n_pe_reports',
             'l10n_pe_reports_stock',
             'l10n_pe_website_sale',
+=======
+            'l10n_pe_edi_stock',
+            'l10n_pe_reports',
+            'l10n_pe_reports_stock',
+>>>>>>> upstream/18.0
 =======
             'l10n_pe_edi_stock',
             'l10n_pe_reports',
@@ -10116,7 +10181,10 @@ class TestInvisibleField(TransactionCaseWithUserDemo):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'snailmail_account',
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10307,6 +10375,7 @@ class TestInvisibleField(TransactionCaseWithUserDemo):
             'whatsapp',
             'whatsapp_payment',
             'worksheet',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10794,6 +10863,11 @@ class TestInvisibleField(TransactionCaseWithUserDemo):
 
         modules_without_error = set(self.env['ir.module.module'].search([('state', '=', 'installed'), ('name', 'in', only_log_modules)]).mapped('name'))
 >>>>>>> upstream/18.0
+=======
+        )
+
+        modules_without_error = set(self.env['ir.module.module'].search([('state', '=', 'installed'), ('name', 'in', only_log_modules)]).mapped('name'))
+>>>>>>> upstream/18.0
         module_log_views = defaultdict(list)
         module_error_views = defaultdict(lambda: defaultdict(list)) 
         uncommented_regexp = r'''(<field [^>]*invisible=['"](True|1)['"][^>]*>)[\s\t\n ]*(.*)'''
@@ -10900,8 +10974,13 @@ class TestInvisibleField(TransactionCaseWithUserDemo):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             for field, _val, comment in re.findall(uncommented_regexp, view.arch_db):
                 if (not comment or not comment.startswith('<!--')):
+=======
+            for field, _val, suffix in re.findall(uncommented_regexp, view.arch_db):
+                if not suffix.startswith('<!--'):
+>>>>>>> upstream/18.0
 =======
             for field, _val, suffix in re.findall(uncommented_regexp, view.arch_db):
                 if not suffix.startswith('<!--'):
@@ -11408,7 +11487,11 @@ class TestInvisibleField(TransactionCaseWithUserDemo):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             _logger.info('%s\n%s', msg, msg_info)
+=======
+            _logger.runbot('%s\n%s', msg, msg_info)
+>>>>>>> upstream/18.0
 =======
             _logger.runbot('%s\n%s', msg, msg_info)
 >>>>>>> upstream/18.0
@@ -11811,8 +11894,13 @@ class TestInvisibleField(TransactionCaseWithUserDemo):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     error_lines.extend([f"{' ' * 3}View: {view}\n{' ' * 6}Fields:"])
                     error_lines.extend(["\n".join(f"{' ' * 9}{field}" for field in fields)])
+=======
+                    error_lines.append(f"{' ' * 3}View: {view}\n{' ' * 6}Fields:")
+                    error_lines.append("\n".join(f"{' ' * 9}{field}" for field in fields))
+>>>>>>> upstream/18.0
 =======
                     error_lines.append(f"{' ' * 3}View: {view}\n{' ' * 6}Fields:")
                     error_lines.append("\n".join(f"{' ' * 9}{field}" for field in fields))

@@ -146,12 +146,18 @@ class WebsiteForumTagsWrapper extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const choice = {
             label: string.trim(),
             value: `_${string.trim()}`,
         };
         this.state.choices.push(choice);
         this.onSelect([...this.state.value, choice.value]);
+=======
+        const choices = string.split(",").map((c) => ({ label: c.trim(), value: `_${c.trim()}` }));
+        this.state.choices.push(...choices);
+        this.onSelect([...this.state.value, ...choices.map((c) => c.value)]);
+>>>>>>> upstream/18.0
 =======
         const choices = string.split(",").map((c) => ({ label: c.trim(), value: `_${c.trim()}` }));
         this.state.choices.push(...choices);
@@ -722,6 +728,10 @@ publicWidget.registry.websiteForum = publicWidget.Widget.extend({
                     showHeading3: false,
                     showLink: hasFullEdit,
                     showImageEdit: hasFullEdit,
+<<<<<<< HEAD
+=======
+                    showImageWidth: false,
+>>>>>>> upstream/18.0
                 },
                 recordInfo: {
                     context: self._getContext(),
@@ -735,6 +745,10 @@ publicWidget.registry.websiteForum = publicWidget.Widget.extend({
                 value: $textarea.get(0).getAttribute("content"),
                 resizable: true,
                 userGeneratedContent: true,
+<<<<<<< HEAD
+=======
+                disableTransform: true,
+>>>>>>> upstream/18.0
                 height: 350,
             };
             options.allowCommandLink = hasFullEdit;

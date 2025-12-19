@@ -90,6 +90,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 }" t-attf-class="{{ props.className }}">
             <div class="o-mail-Composer-sidebarMain flex-shrink-0" t-if="showComposerAvatar">
 <<<<<<< HEAD
@@ -737,6 +738,11 @@
             <div class="o-mail-Composer-sidebarMain flex-shrink-0" t-if="showComposerAvatar">
                 <img class="o-mail-Composer-avatar o_avatar rounded" t-att-src="(thread?.effectiveSelf or message.effectiveSelf).avatarUrl" alt="Avatar of user"/>
 >>>>>>> upstream/18.0
+=======
+                }" t-attf-class="{{ props.className }}" t-ref="root">
+            <div class="o-mail-Composer-sidebarMain flex-shrink-0" t-if="showComposerAvatar">
+                <img class="o-mail-Composer-avatar o_avatar rounded" t-att-src="(thread?.effectiveSelf or message.effectiveSelf).avatarUrl" alt="Avatar of user"/>
+>>>>>>> upstream/18.0
             </div>
             <div class="o-mail-Composer-coreHeader text-truncate small p-2" t-if="props.composer.thread and props.messageToReplyTo?.thread?.eq(props.composer.thread)">
                 <span class="cursor-pointer" t-on-click="() => env.messageHighlight?.highlightMessage(props.messageToReplyTo.message, props.composer.thread)">
@@ -757,6 +763,7 @@
                 >
                     <div class="position-relative flex-grow-1">
                         <t t-set="inputClasses" t-value="'o-mail-Composer-inputStyle form-control border-0 rounded-3'"/>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1507,6 +1514,11 @@
                             t-att-class="{ 'o-mobile': isMobileOS }"
                             t-attf-class="{{ inputClasses }}"
 >>>>>>> upstream/18.0
+=======
+                        <textarea class="o-mail-Composer-input o-mail-Composer-bg shadow-none overflow-auto text-body"
+                            t-att-class="{ 'o-mobile': isMobileOS }"
+                            t-attf-class="{{ inputClasses }}"
+>>>>>>> upstream/18.0
                             t-ref="textarea"
                             t-on-keydown="onKeydown"
                             t-on-focusin="onFocusin"
@@ -1562,7 +1574,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             t-att-class="inputClasses"
+=======
+                            t-att-class="{ 'o-mobile': isMobileOS }"
+                            t-attf-class="{{ inputClasses }}"
+>>>>>>> upstream/18.0
 =======
                             t-att-class="{ 'o-mobile': isMobileOS }"
                             t-attf-class="{{ inputClasses }}"

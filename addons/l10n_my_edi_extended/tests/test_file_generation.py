@@ -2,14 +2,20 @@
 from freezegun import freeze_time
 from lxml import etree
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 from odoo.addons.account.tests.common import AccountTestInvoicingCommon
 from odoo.addons.l10n_my_edi.tests.test_file_generation import NS_MAP
 =======
+=======
+>>>>>>> upstream/18.0
 from odoo.addons.account.tests.common import AccountTestInvoicingCommon
 from odoo.addons.l10n_my_edi.tests.test_file_generation import NS_MAP
 
 from odoo import Command
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 from odoo.tests import Form, tagged
 
@@ -154,7 +160,10 @@ class L10nMyEDITestFileGeneration(AccountTestInvoicingCommon):
         )
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_10_downpayment(self):
         """Test that a downpayment line will have their classification code correctly set to 022 (other)"""
         self.ensure_installed('sale')
@@ -195,6 +204,9 @@ class L10nMyEDITestFileGeneration(AccountTestInvoicingCommon):
             attributes={"listID": "CLASS"},
         )
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def _assert_node_values(self, root, node_path, text, attributes=None):
         node = root.xpath(node_path, namespaces=NS_MAP)

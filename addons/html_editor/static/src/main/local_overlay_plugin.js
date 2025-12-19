@@ -35,11 +35,17 @@ export class LocalOverlayPlugin extends Plugin {
         return container;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     destroy() {
         this.localOverlayContainer?.replaceChildren();
         super.destroy();
     }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 }

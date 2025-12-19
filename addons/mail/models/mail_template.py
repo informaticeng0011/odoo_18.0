@@ -236,7 +236,11 @@ class MailTemplate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         templates_with_xmlid = self.env['ir.model.data']._search([
+=======
+        templates_with_xmlid = self.env['ir.model.data'].sudo()._search([
+>>>>>>> upstream/18.0
 =======
         templates_with_xmlid = self.env['ir.model.data'].sudo()._search([
 >>>>>>> upstream/18.0
@@ -657,8 +661,11 @@ class MailTemplate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return [dict(vals, name=self.env._("%s (copy)", template.name)) for template, vals in zip(self, vals_list)]
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -813,6 +820,9 @@ class MailTemplate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
