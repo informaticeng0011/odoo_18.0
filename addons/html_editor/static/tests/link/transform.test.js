@@ -137,7 +137,11 @@ async function insertSpace(editor) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const beforeinputEvent = await manuallyDispatchProgrammaticEvent(
+=======
+    const [beforeinputEvent] = await manuallyDispatchProgrammaticEvent(
+>>>>>>> upstream/18.0
 =======
     const [beforeinputEvent] = await manuallyDispatchProgrammaticEvent(
 >>>>>>> upstream/18.0
@@ -668,7 +672,11 @@ async function insertSpace(editor) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const inputEvent = await manuallyDispatchProgrammaticEvent(editor.editable, "input", {
+=======
+    const [inputEvent] = await manuallyDispatchProgrammaticEvent(editor.editable, "input", {
+>>>>>>> upstream/18.0
 =======
     const [inputEvent] = await manuallyDispatchProgrammaticEvent(editor.editable, "input", {
 >>>>>>> upstream/18.0
@@ -1051,7 +1059,11 @@ async function insertSpace(editor) {
 /**
  * Automatic link creation when pressing Space, Enter or Shift+Enter after an url
  */
+<<<<<<< HEAD
 test("should transform url after space", async () => {
+=======
+test("should transform url after space (1)", async () => {
+>>>>>>> upstream/18.0
     await testEditor({
         contentBefore: "<p>a http://test.com b http://test.com[] c http://test.com d</p>",
         stepFunction: async (editor) => {
@@ -1060,6 +1072,11 @@ test("should transform url after space", async () => {
         contentAfter:
             '<p>a http://test.com b <a href="http://test.com">http://test.com</a>&nbsp;[] c http://test.com d</p>',
     });
+<<<<<<< HEAD
+=======
+});
+test("should transform url after space (2)", async () => {
+>>>>>>> upstream/18.0
     await testEditor({
         contentBefore: "<p>http://test.com[]</p>",
         stepFunction: async (editor) => {
@@ -1076,7 +1093,11 @@ test("should transform url after space", async () => {
     });
 });
 
+<<<<<<< HEAD
 test("should transform url followed by punctuation characters after space", async () => {
+=======
+test("should transform url followed by punctuation characters after space (1)", async () => {
+>>>>>>> upstream/18.0
     await testEditor({
         contentBefore: "<p>http://test.com.[]</p>",
         stepFunction: async (editor) => {
@@ -1084,21 +1105,41 @@ test("should transform url followed by punctuation characters after space", asyn
         },
         contentAfter: '<p><a href="http://test.com">http://test.com</a>.&nbsp;[]</p>',
     });
+<<<<<<< HEAD
+=======
+});
+test("should transform url followed by punctuation characters after space (2)", async () => {
+>>>>>>> upstream/18.0
     await testEditor({
         contentBefore: "<p>test.com...[]</p>",
         stepFunction: (editor) => insertSpace(editor),
         contentAfter: '<p><a href="http://test.com">test.com</a>...&nbsp;[]</p>',
     });
+<<<<<<< HEAD
+=======
+});
+test("should transform url followed by punctuation characters after space (3)", async () => {
+>>>>>>> upstream/18.0
     await testEditor({
         contentBefore: "<p>test.com,[]</p>",
         stepFunction: (editor) => insertSpace(editor),
         contentAfter: '<p><a href="http://test.com">test.com</a>,&nbsp;[]</p>',
     });
+<<<<<<< HEAD
+=======
+});
+test("should transform url followed by punctuation characters after space (4)", async () => {
+>>>>>>> upstream/18.0
     await testEditor({
         contentBefore: "<p>test.com,hello[]</p>",
         stepFunction: (editor) => insertSpace(editor),
         contentAfter: '<p><a href="http://test.com">test.com</a>,hello&nbsp;[]</p>',
     });
+<<<<<<< HEAD
+=======
+});
+test("should transform url followed by punctuation characters after space (5)", async () => {
+>>>>>>> upstream/18.0
     await testEditor({
         contentBefore: "<p>http://test.com[]</p>",
         stepFunction: async (editor) => {

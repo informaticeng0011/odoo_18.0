@@ -32,8 +32,11 @@ class AccountMoveLine(models.Model):
             if not line.move_id.l10n_my_edi_external_uuid:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 line.l10n_my_edi_classification_code = line.product_id.product_tmpl_id.l10n_my_edi_classification_code or line.l10n_my_edi_classification_code
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                 # There is no product in case of downpayments, so we need to manually set the class code
@@ -42,6 +45,9 @@ class AccountMoveLine(models.Model):
                 else:
                     line.l10n_my_edi_classification_code = line.product_id.product_tmpl_id.l10n_my_edi_classification_code or line.l10n_my_edi_classification_code
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

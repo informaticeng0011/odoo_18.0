@@ -30,7 +30,11 @@ describe("range collapsed", () => {
 });
 
 describe("range not collapsed", () => {
+<<<<<<< HEAD
     test("should cut a selection as text/plain, text/html and application/vnd.odoo.odoo-editor", async () => {
+=======
+    test("should cut a selection as text/plain, text/html and application/vnd.odoo.odoo-editor (1)", async () => {
+>>>>>>> upstream/18.0
         await testEditor({
             contentBefore: "<p>a[bcd]e</p>",
             stepFunction: async (editor) => {
@@ -43,6 +47,12 @@ describe("range not collapsed", () => {
             },
             contentAfter: "<p>a[]e</p>",
         });
+<<<<<<< HEAD
+=======
+    });
+
+    test("should cut a selection as text/plain, text/html and application/vnd.odoo.odoo-editor (2)", async () => {
+>>>>>>> upstream/18.0
         await testEditor({
             contentBefore: "<p>[abc<br>efg]</p>",
             stepFunction: async (editor) => {

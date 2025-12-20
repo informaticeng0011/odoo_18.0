@@ -250,6 +250,10 @@ PAYMENT_METHODS_MAPPING = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    'alipay': 'ALIPAY',
+>>>>>>> upstream/18.0
 =======
     'alipay': 'ALIPAY',
 >>>>>>> upstream/18.0
@@ -1000,6 +1004,10 @@ PAYMENT_METHODS_MAPPING = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    'octopus': 'OCTOPUS',
+>>>>>>> upstream/18.0
 =======
     'octopus': 'OCTOPUS',
 >>>>>>> upstream/18.0

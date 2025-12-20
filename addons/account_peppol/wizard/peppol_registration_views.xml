@@ -208,6 +208,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                                        placeholder="Peppol ID"
 >>>>>>> upstream/18.0
@@ -836,6 +837,13 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+                                       placeholder="Peppol ID"
+                                       nolabel="1"
+                                       widget="peppol_non_focusable_selection"
+                                       class="o_field_peppol_eas_selection"/>
+                                <field name="peppol_endpoint" nolabel="1"/>
 >>>>>>> upstream/18.0
                                 <field name="contact_email" string="Email"/>
                                 <field name="phone_number" required="edi_mode not in ('demo', 'test')" string="Phone"/>

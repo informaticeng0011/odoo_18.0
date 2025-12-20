@@ -86,9 +86,12 @@ export class PropertyValue extends Component {
                 // maybe the record display name has changed
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 await record.load();
                 const recordData = m2oTupleFromData(record.data);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                 const records = await this.orm.read(
@@ -101,6 +104,9 @@ export class PropertyValue extends Component {
                 );
                 const recordData = m2oTupleFromData(records[0]);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

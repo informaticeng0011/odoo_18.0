@@ -138,6 +138,7 @@ import { testEditor } from "./_helpers/editor";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import { unformat } from "./_helpers/format";
 import { BOLD_TAGS } from "./_helpers/tags";
@@ -689,6 +690,9 @@ import { BOLD_TAGS } from "./_helpers/tags";
 =======
 import { unformat } from "./_helpers/format";
 import { BOLD_TAGS } from "./_helpers/tags";
+>>>>>>> upstream/18.0
+=======
+import { unformat } from "./_helpers/format";
 >>>>>>> upstream/18.0
 
 /**
@@ -747,15 +751,31 @@ describe("No orphan inline elements compatibility mode", () => {
         });
     });
 
+<<<<<<< HEAD
     test("should not transform <br> inside <p>", async () => {
+=======
+    test("should not transform <br> inside <p> (1)", async () => {
+>>>>>>> upstream/18.0
         await testEditor({
             contentBefore: "<p>ab<br>c</p>",
             contentAfter: "<p>ab<br>c</p>",
         });
+<<<<<<< HEAD
+=======
+    });
+
+    test("should not transform <br> inside <p> (2)", async () => {
+>>>>>>> upstream/18.0
         await testEditor({
             contentBefore: "<p>ab<br>c</p><p>d<br></p>",
             contentAfter: "<p>ab<br>c</p><p>d<br></p>",
         });
+<<<<<<< HEAD
+=======
+    });
+
+    test("should not transform <br> inside <p> (3)", async () => {
+>>>>>>> upstream/18.0
         await testEditor({
             contentBefore: "xx<p>ab<br>c</p>d<br>yy",
             contentAfter: "<div>xx</div><p>ab<br>c</p><div>d</div><div>yy</div>",
@@ -1018,7 +1038,10 @@ describe("link normalization", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1330,7 +1353,10 @@ describe("color normalization", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1405,6 +1431,9 @@ describe("color normalization", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1524,6 +1553,7 @@ describe("color normalization", () => {
 });
 
 describe("formatting normalization", () => {
+<<<<<<< HEAD
     test("should unwrap nested identical bold tags", async () => {
         for (const tag of BOLD_TAGS) {
             await testEditor({
@@ -1531,6 +1561,27 @@ describe("formatting normalization", () => {
                 contentAfter: `<p>a${tag("bcde")}f</p>`,
             });
         }
+=======
+    test("should unwrap nested identical bold tags (1)", async () => {
+        await testEditor({
+            contentBefore: "<p>a<strong>b<strong>c<strong>d</strong></strong>e</strong>f</p>",
+            contentAfter: "<p>a<strong>bcde</strong>f</p>",
+        });
+    });
+
+    test("should unwrap nested identical bold tags (2)", async () => {
+        await testEditor({
+            contentBefore: `<p>a<span style="font-weight: bolder;">b<span style="font-weight: bolder;">c<span style="font-weight: bolder;">d</span></span>e</span>f</p>`,
+            contentAfter: `<p>a<span style="font-weight: bolder;">bcde</span>f</p>`,
+        });
+    });
+
+    test("should unwrap nested identical bold tags (3)", async () => {
+        await testEditor({
+            contentBefore: "<p>a<b>b<b>c<b>d</b></b>e</b>f</p>",
+            contentAfter: "<p>a<b>bcde</b>f</p>",
+        });
+>>>>>>> upstream/18.0
     });
 
     test("should merge nested strong inside formatting tags", async () => {
@@ -1565,6 +1616,7 @@ describe("formatting normalization", () => {
             `),
         });
     });
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1937,6 +1989,8 @@ describe("formatting normalization", () => {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2005,6 +2059,9 @@ describe("formatting normalization", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

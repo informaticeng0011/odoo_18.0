@@ -51,6 +51,7 @@ CREATE OR replace VIEW vendor_delay_report AS(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 SELECT m.id                     AS id,
        m.date                   AS date,
        m.purchase_line_id       AS purchase_line_id,
@@ -59,6 +60,8 @@ SELECT m.id                     AS id,
        Min(po.partner_id)       AS partner_id,
        Min(m.product_qty)       AS qty_total,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -147,6 +150,9 @@ SELECT pol.id                   AS id,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -237,8 +243,11 @@ FROM   stock_move m
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
        JOIN purchase_order po
          ON po.id = pol.order_id
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -335,7 +344,11 @@ FROM   stock_move m
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 GROUP  BY m.id
+=======
+GROUP  BY pol.id
+>>>>>>> upstream/18.0
 =======
 GROUP  BY pol.id
 >>>>>>> upstream/18.0

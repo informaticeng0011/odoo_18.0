@@ -78,6 +78,10 @@ export class Thread extends Component {
         });
         this.lastJumpPresent = this.props.jumpPresent;
         this.orm = useService("orm");
+<<<<<<< HEAD
+=======
+        this.ui = useService("ui");
+>>>>>>> upstream/18.0
         /** @type {ReturnType<import('@mail/utils/common/hooks').useMessageHighlight>|null} */
         this.messageHighlight = this.env.messageHighlight
             ? useState(this.env.messageHighlight)
@@ -546,6 +550,12 @@ export class Thread extends Component {
         this.props.thread.scrollTop = "bottom";
         this.state.showJumpPresent = false;
         this.scrollingToHighlight = false;
+<<<<<<< HEAD
+=======
+        if (!this.ui.isSmall) {
+            this.props.thread.composer.autofocus++;
+        }
+>>>>>>> upstream/18.0
     }
 
     async onClickUnreadMessagesBanner() {
@@ -770,6 +780,12 @@ export class Thread extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if (msg.is_note) {
+            return false;
+        }
+>>>>>>> upstream/18.0
 =======
         if (msg.is_note) {
             return false;

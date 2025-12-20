@@ -6,6 +6,10 @@ import logging
 from base64 import b64decode
 import io
 import win32print
+<<<<<<< HEAD
+=======
+import pywintypes
+>>>>>>> upstream/18.0
 import ghostscript
 
 from odoo.addons.hw_drivers.controllers.proxy import proxy_drivers
@@ -118,6 +122,10 @@ from odoo.addons.hw_drivers.websocket_client import send_to_controller
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.addons.hw_drivers.iot_handlers.interfaces.PrinterInterface_W import win32print_lock
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.hw_drivers.iot_handlers.interfaces.PrinterInterface_W import win32print_lock
 >>>>>>> upstream/18.0
@@ -519,6 +527,7 @@ class PrinterDriver(Driver):
         event_manager.device_changed(self)
 
     def print_raw(self, data):
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1120,6 +1129,29 @@ class PrinterDriver(Driver):
             win32print.WritePrinter(self.printer_handle, data)
             win32print.EndPagePrinter(self.printer_handle)
             win32print.EndDocPrinter(self.printer_handle)
+=======
+        job_id = False
+        page_started = False
+        try:
+            with win32print_lock:
+                job_id = win32print.StartDocPrinter(self.printer_handle, 1, ('', None, "RAW"))
+                win32print.StartPagePrinter(self.printer_handle)
+                page_started = True
+                win32print.WritePrinter(self.printer_handle, data)
+                win32print.EndPagePrinter(self.printer_handle)
+                win32print.EndDocPrinter(self.printer_handle)
+        except pywintypes.error as error:
+            _logger.error("Error while printing raw data to printer %s: %s", self.device_name, error)
+            if job_id or page_started:
+                try:
+                    with win32print_lock:
+                        if page_started:
+                            win32print.EndPagePrinter(self.printer_handle)
+                        if job_id:
+                            win32print.EndDocPrinter(self.printer_handle)
+                except pywintypes.error as err:
+                    _logger.error("Error while finalizing print job to printer %s after failure: %s", self.device_name, err)
+>>>>>>> upstream/18.0
 
     def print_report(self, data):
         with win32print_lock:
@@ -1128,6 +1160,7 @@ class PrinterDriver(Driver):
             printer = self.device_name
 
             args = [
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1262,6 +1295,9 @@ class PrinterDriver(Driver):
 >>>>>>> upstream/18.0
 =======
                 "-dPrinted", "-dBATCH", "-dNOPAUSE", "-dNOPROMPT", "-dPDFFitPage",
+>>>>>>> upstream/18.0
+=======
+                "-dPrinted", "-dBATCH", "-dNOPAUSE", "-dNOPROMPT",
 >>>>>>> upstream/18.0
 =======
                 "-dPrinted", "-dBATCH", "-dNOPAUSE", "-dNOPROMPT",
@@ -1473,6 +1509,9 @@ class PrinterDriver(Driver):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

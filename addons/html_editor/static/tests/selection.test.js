@@ -138,11 +138,14 @@ import { describe, expect, test } from "@odoo/hoot";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { press, queryFirst, queryOne } from "@odoo/hoot-dom";
 import { animationFrame, tick } from "@odoo/hoot-mock";
 import { Component, xml } from "@odoo/owl";
 import { patchWithCleanup } from "@web/../tests/web_test_helpers";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -429,6 +432,7 @@ import {
     mountView,
     patchWithCleanup,
 } from "@web/../tests/web_test_helpers";
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1008,11 +1012,14 @@ import { getContent, setSelection } from "./_helpers/selection";
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 import { useAutofocus } from "@web/core/utils/hooks";
 import { Plugin } from "../src/plugin";
 import { MAIN_PLUGINS } from "../src/plugin_sets";
 import { setupEditor, testEditor } from "./_helpers/editor";
 import { getContent, setSelection } from "./_helpers/selection";
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1309,6 +1316,10 @@ import { getContent, setSelection } from "./_helpers/selection";
 =======
 >>>>>>> upstream/18.0
 import { insertText, tripleClick } from "./_helpers/user_actions";
+=======
+import { insertText, tripleClick } from "./_helpers/user_actions";
+import { callbacksForCursorUpdate } from "@html_editor/utils/selection";
+>>>>>>> upstream/18.0
 
 test("getEditableSelection should work, even if getSelection returns null", async () => {
     const { editor } = await setupEditor("<p>a[b]</p>");
@@ -1489,7 +1500,10 @@ test("correct selection after triple click with bold", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1874,6 +1888,9 @@ test("correct selection after triple click in multi-line block (2)", async () =>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2450,6 +2467,7 @@ test("preserveSelection's restore should always set the selection, even if it's 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -2530,6 +2548,8 @@ test("preserveSelection's restore should always set the selection, even if it's 
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4038,6 +4058,9 @@ describe("selection setters", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4432,6 +4455,7 @@ test("should not autoscroll if selection is partially visible in viewport", asyn
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4708,4 +4732,95 @@ test("should not autoscroll if selection is partially visible in viewport", asyn
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+describe("Preserve selection", () => {
+    const isSameCursor = (cursor1, cursor2) => {
+        return (
+            cursor1.anchor.node === cursor2.anchor.node &&
+            cursor1.anchor.offset === cursor2.anchor.offset &&
+            cursor1.focus.node === cursor2.focus.node &&
+            cursor1.focus.offset === cursor2.focus.offset
+        );
+    };
+
+    test("Should properly sync cursors (1)", async () => {
+        const { editor, el } = await setupEditor(
+            `<p><span class="a">a</span><span class="b">b</span></p>`
+        );
+        const [span1, span2] = el.querySelectorAll("span");
+        setSelection({
+            anchorNode: span1,
+            anchorOffset: 0,
+            focusNode: span2,
+            focusOffset: 0,
+        });
+        const c1 = editor.shared.selection.preserveSelection();
+        const c2 = editor.shared.selection.preserveSelection();
+        c1.update(callbacksForCursorUpdate.remove(span1));
+        c2.update(callbacksForCursorUpdate.remove(span1));
+        span1.remove();
+        c1.restore();
+        c2.restore();
+        expect(isSameCursor(c1, c2)).toBe(true);
+    });
+
+    test("Should properly sync cursors (2)", async () => {
+        const { editor, el } = await setupEditor(
+            `<p><span class="a">a</span><span class="b">b</span></p>`
+        );
+        const [span1, span2] = el.querySelectorAll("span");
+        setSelection({
+            anchorNode: span1,
+            anchorOffset: 0,
+            focusNode: span2,
+            focusOffset: 0,
+        });
+        const c1 = editor.shared.selection.preserveSelection();
+        const c2 = editor.shared.selection.preserveSelection();
+        c1.update(callbacksForCursorUpdate.remove(span1));
+        span1.remove();
+        c1.restore();
+        expect(isSameCursor(c1, c2)).toBe(true);
+    });
+
+    test("Should properly sync cursors (3)", async () => {
+        const { editor, el } = await setupEditor(
+            `<p><span class="a">a</span><span class="b">b</span></p>`
+        );
+        const [span1, span2] = el.querySelectorAll("span");
+        setSelection({
+            anchorNode: span1,
+            anchorOffset: 0,
+            focusNode: span2,
+            focusOffset: 0,
+        });
+        const c1 = editor.shared.selection.preserveSelection();
+        const c2 = editor.shared.selection.preserveSelection();
+        c1.update(callbacksForCursorUpdate.remove(span1));
+        span1.remove();
+        c2.restore();
+        expect(isSameCursor(c1, c2)).toBe(true);
+    });
+
+    test("Should properly sync cursors (4)", async () => {
+        const { editor, el } = await setupEditor(
+            `<p><span class="a">a</span><span class="b">b</span></p>`
+        );
+        const [span1, span2] = el.querySelectorAll("span");
+        setSelection({
+            anchorNode: span1,
+            anchorOffset: 0,
+            focusNode: span2,
+            focusOffset: 0,
+        });
+        const c1 = editor.shared.selection.preserveSelection();
+        const c2 = editor.shared.selection.preserveSelection();
+        c2.update(callbacksForCursorUpdate.remove(span1));
+        span1.remove();
+        c1.restore();
+        expect(isSameCursor(c1, c2)).toBe(true);
+    });
+});
 >>>>>>> upstream/18.0

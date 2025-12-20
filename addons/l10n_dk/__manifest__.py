@@ -20,8 +20,13 @@ This is the module to manage the **accounting chart for Denmark**. Cover both on
 
 - Dansk moms
 <<<<<<< HEAD
+<<<<<<< HEAD
         - 25% moms
         - Resturationsmoms 6,25%
+=======
+        - 25 % moms
+        - Restaurationsmoms 6,25 %
+>>>>>>> upstream/18.0
 =======
         - 25 % moms
         - Restaurationsmoms 6,25 %
@@ -32,21 +37,28 @@ This is the module to manage the **accounting chart for Denmark**. Cover both on
         - EU (Virksomhed)
         - EU (Privat)
 <<<<<<< HEAD
+<<<<<<< HEAD
         - 3.lande
 
 - Finans raporter
         - Resulttopgørelse
 =======
+=======
+>>>>>>> upstream/18.0
         - Tredjelande
 
 - Finansrapporter
         - Resultatopgørelse
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         - Balance
         - Momsafregning
             - Afregning
             - Rubrik A, B og C
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 - **Anglo-Saxon regnskabsmetode**
 
@@ -65,6 +77,8 @@ Produkt setup:
 
 **Købskonto:**      2010 Direkte omkostninger vare, m/moms
 =======
+=======
+>>>>>>> upstream/18.0
 - **Anglo-saksisk regnskabsmetode**
 
 .
@@ -81,12 +95,16 @@ Produktopsætning:
 **Købsmoms:**       Købsmoms 25 %
 
 **Købskonto:**      2.010 Direkte vareomkostninger inkl. moms
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 .
 
 **Ydelse**
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 **Salgsmoms:**      Salgmoms 25%, ydelser
 
@@ -96,6 +114,8 @@ Produktopsætning:
 
 **Købskonto:**      2011 Direkte omkostninger ydelser, m/moms
 =======
+=======
+>>>>>>> upstream/18.0
 **Salgsmoms:**      Salgsmoms 25 %, ydelser
 
 **Salgskonto:**     1.011 Salg af ydelser inkl. moms
@@ -103,12 +123,16 @@ Produktopsætning:
 **Købsmoms:**       Købsmoms 25 %, ydelser
 
 **Købskonto:**      2.011 Direkte omkostninger ydelser inkl. moms
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 .
 
 **Vare med omvendt betalingspligt**
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 **Salgsmoms:**      Salg omvendt betalingspligt
 
@@ -118,6 +142,8 @@ Produktopsætning:
 
 **Købskonto:**      2012 Direkte omkostninger vare, u/moms
 =======
+=======
+>>>>>>> upstream/18.0
 **Salgsmoms:**      Salg med omvendt betalingspligt
 
 **Salgskonto:**     1.012 Salg af varer ekskl. moms
@@ -125,6 +151,9 @@ Produktopsætning:
 **Købsmoms:**       Køb med omvendt betalingspligt
 
 **Købskonto:**      2.012 Direkte vareomkostninger ekskl. moms
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 
@@ -133,12 +162,18 @@ Produktopsætning:
 **Restauration**
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Købsmoms:**       Restaurationsmoms 6,25%, købsmoms
 
 **Købskonto:**      4010 Restaurationsbesøg
 
 .
 
+=======
+**Købsmoms:**       Restaurationsmoms 6,25 %, købsmoms
+
+**Købskonto:**      4010 Restaurationsbesøg
+>>>>>>> upstream/18.0
 =======
 **Købsmoms:**       Restaurationsmoms 6,25 %, købsmoms
 

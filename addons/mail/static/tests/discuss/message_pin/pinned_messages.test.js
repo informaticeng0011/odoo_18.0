@@ -8,7 +8,11 @@ import {
     startServer,
 } from "@mail/../tests/mail_test_helpers";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { describe, test } from "@odoo/hoot";
+=======
+import { describe, test, expect } from "@odoo/hoot";
+>>>>>>> upstream/18.0
 =======
 import { describe, test, expect } from "@odoo/hoot";
 >>>>>>> upstream/18.0
@@ -18,7 +22,10 @@ describe.current.tags("desktop");
 defineMailModels();
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 async function assertPinnedPanelUnpinCount(expectedCount) {
     await contains("[title='Unpin']", { count: expectedCount });
     await click(".o-mail-Discuss-header button[title='Pinned Messages']");
@@ -28,6 +35,9 @@ async function assertPinnedPanelUnpinCount(expectedCount) {
     expect(".o-discuss-PinnedMessagesPanel button[title='Unpin']").toHaveCount(expectedCount);
 }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 test("Pin message", async () => {
     const pyEnv = await startServer();
@@ -160,7 +170,10 @@ test("Jump to message from notification", async () => {
     await contains(".o-mail-Thread", { count: 0, scroll: "bottom" });
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 test("Guest user cannot see unpin button", async () => {
     const pyEnv = await startServer();
@@ -195,4 +208,7 @@ test("Internal user can see unpin button", async () => {
     await click(".o-mail-Message [title='Expand']");
     await assertPinnedPanelUnpinCount(1);
 });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

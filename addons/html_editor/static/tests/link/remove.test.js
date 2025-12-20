@@ -178,10 +178,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { describe, test } from "@odoo/hoot";
 import { testEditor } from "../_helpers/editor";
 import { unlinkFromPopover, unlinkByCommand, unlinkFromToolbar } from "../_helpers/user_actions";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -723,6 +726,7 @@ import { getContent, setSelection } from "../_helpers/selection";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1085,11 +1089,22 @@ import { getContent, setSelection } from "../_helpers/selection";
 
 describe("range collapsed, remove by popover unlink button", () => {
     test("should remove the link if collapsed range at the end of a link", async () => {
+=======
+
+describe("range collapsed, remove by popover unlink button", () => {
+    test("should remove the link if collapsed range at the end of a link (1)", async () => {
+>>>>>>> upstream/18.0
         await testEditor({
             contentBefore: '<p>a<a href="exist">bcd[]</a>e</p>',
             stepFunction: unlinkFromPopover,
             contentAfter: "<p>abcd[]e</p>",
         });
+<<<<<<< HEAD
+=======
+    });
+
+    test("should remove the link if collapsed range at the end of a link (2)", async () => {
+>>>>>>> upstream/18.0
         // With fontawesome at the start of the link.
         await testEditor({
             contentBefore:
@@ -1097,6 +1112,12 @@ describe("range collapsed, remove by popover unlink button", () => {
             stepFunction: unlinkFromPopover,
             contentAfter: '<p>a<span class="fa fa-music"></span>bcd[]e</p>',
         });
+<<<<<<< HEAD
+=======
+    });
+
+    test("should remove the link if collapsed range at the end of a link (3)", async () => {
+>>>>>>> upstream/18.0
         // With fontawesome at the middle of the link.
         await testEditor({
             contentBefore:
@@ -1104,6 +1125,12 @@ describe("range collapsed, remove by popover unlink button", () => {
             stepFunction: unlinkFromPopover,
             contentAfter: '<p>abc<span class="fa fa-music"></span>d[]e</p>',
         });
+<<<<<<< HEAD
+=======
+    });
+
+    test("should remove the link if collapsed range at the end of a link (4)", async () => {
+>>>>>>> upstream/18.0
         // With fontawesome at the end of the link.
         await testEditor({
             contentBefore:
@@ -1113,12 +1140,22 @@ describe("range collapsed, remove by popover unlink button", () => {
         });
     });
 
+<<<<<<< HEAD
     test("should remove the link if collapsed range in the middle a link", async () => {
+=======
+    test("should remove the link if collapsed range in the middle a link (1)", async () => {
+>>>>>>> upstream/18.0
         await testEditor({
             contentBefore: '<p>a<a href="exist">b[]cd</a>e</p>',
             stepFunction: unlinkFromPopover,
             contentAfter: "<p>ab[]cde</p>",
         });
+<<<<<<< HEAD
+=======
+    });
+
+    test("should remove the link if collapsed range in the middle a link (2)", async () => {
+>>>>>>> upstream/18.0
         // With fontawesome at the start of the link.
         await testEditor({
             contentBefore:
@@ -1126,6 +1163,12 @@ describe("range collapsed, remove by popover unlink button", () => {
             stepFunction: unlinkFromPopover,
             contentAfter: '<p>a<span class="fa fa-music"></span>b[]cde</p>',
         });
+<<<<<<< HEAD
+=======
+    });
+
+    test("should remove the link if collapsed range in the middle a link (3)", async () => {
+>>>>>>> upstream/18.0
         // With fontawesome at the middle of the link.
         await testEditor({
             contentBefore:
@@ -1133,6 +1176,12 @@ describe("range collapsed, remove by popover unlink button", () => {
             stepFunction: unlinkFromPopover,
             contentAfter: '<p>ab[]c<span class="fa fa-music"></span>de</p>',
         });
+<<<<<<< HEAD
+=======
+    });
+
+    test("should remove the link if collapsed range in the middle a link (4)", async () => {
+>>>>>>> upstream/18.0
         // With fontawesome at the end of the link.
         await testEditor({
             contentBefore:
@@ -1142,19 +1191,36 @@ describe("range collapsed, remove by popover unlink button", () => {
         });
     });
 
+<<<<<<< HEAD
     test("should remove the link if collapsed range at the start of a link", async () => {
+=======
+    test("should remove the link if collapsed range at the start of a link (1)", async () => {
+>>>>>>> upstream/18.0
         await testEditor({
             contentBefore: '<p>a<a href="exist">[]bcd</a>e</p>',
             stepFunction: unlinkFromPopover,
             contentAfter: "<p>a[]bcde</p>",
         });
         // With fontawesome at the start of the link.
+<<<<<<< HEAD
+=======
+    });
+
+    test("should remove the link if collapsed range at the start of a link (2)", async () => {
+        // With fontawesome at the start of the link.
+>>>>>>> upstream/18.0
         await testEditor({
             contentBefore:
                 '<p>a<a href="exist"><span class="fa fa-music" contenteditable="false">\u200B</span>[]bcd</a>e</p>',
             stepFunction: unlinkFromPopover,
             contentAfter: '<p>a<span class="fa fa-music"></span>[]bcde</p>',
         });
+<<<<<<< HEAD
+=======
+    });
+
+    test("should remove the link if collapsed range at the start of a link (3)", async () => {
+>>>>>>> upstream/18.0
         // With fontawesome at the middle of the link.
         await testEditor({
             contentBefore:
@@ -1162,6 +1228,12 @@ describe("range collapsed, remove by popover unlink button", () => {
             stepFunction: unlinkFromPopover,
             contentAfter: '<p>a[]bc<span class="fa fa-music"></span>de</p>',
         });
+<<<<<<< HEAD
+=======
+    });
+
+    test("should remove the link if collapsed range at the start of a link (4)", async () => {
+>>>>>>> upstream/18.0
         // With fontawesome at the end of the link.
         await testEditor({
             contentBefore:
@@ -1171,7 +1243,11 @@ describe("range collapsed, remove by popover unlink button", () => {
         });
     });
 
+<<<<<<< HEAD
     test("should remove only the current link if collapsed range in the middle of a link", async () => {
+=======
+    test("should remove only the current link if collapsed range in the middle of a link (1)", async () => {
+>>>>>>> upstream/18.0
         await testEditor({
             contentBefore:
                 '<p><a href="exist">a</a>b<a href="exist">c[]d</a>e<a href="exist">f</a></p>',
@@ -1179,6 +1255,13 @@ describe("range collapsed, remove by popover unlink button", () => {
             contentAfter: '<p><a href="exist">a</a>bc[]de<a href="exist">f</a></p>',
         });
         // With fontawesome at the start of the link.
+<<<<<<< HEAD
+=======
+    });
+
+    test("should remove only the current link if collapsed range in the middle of a link (2)", async () => {
+        // With fontawesome at the start of the link.
+>>>>>>> upstream/18.0
         await testEditor({
             contentBefore:
                 '<p><a href="exist">a</a>b<a href="exist"><span class="fa fa-music" contenteditable="false">\u200B</span>c[]d</a>e<a href="exist">f</a></p>',
@@ -1186,6 +1269,12 @@ describe("range collapsed, remove by popover unlink button", () => {
             contentAfter:
                 '<p><a href="exist">a</a>b<span class="fa fa-music"></span>c[]de<a href="exist">f</a></p>',
         });
+<<<<<<< HEAD
+=======
+    });
+
+    test("should remove only the current link if collapsed range in the middle of a link (3)", async () => {
+>>>>>>> upstream/18.0
         // With fontawesome at the middle of the link.
         await testEditor({
             contentBefore:
@@ -1194,6 +1283,12 @@ describe("range collapsed, remove by popover unlink button", () => {
             contentAfter:
                 '<p><a href="exist">a</a>bc<span class="fa fa-music"></span>d[]ef<a href="exist">g</a></p>',
         });
+<<<<<<< HEAD
+=======
+    });
+
+    test("should remove only the current link if collapsed range in the middle of a link (4)", async () => {
+>>>>>>> upstream/18.0
         // With fontawesome at the end of the link.
         await testEditor({
             contentBefore:
@@ -1395,7 +1490,10 @@ describe("range not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1965,6 +2063,7 @@ describe("range not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2327,12 +2426,18 @@ describe("range not collapsed", () => {
     });
     describe("remove by command", () => {
         test("should remove the link in the selected range at the end of a link", async () => {
+=======
+    });
+    describe("remove by command", () => {
+        test("should remove the link in the selected range at the end of a link (1)", async () => {
+>>>>>>> upstream/18.0
             // FORWARD
             await testEditor({
                 contentBefore: '<p>a<a href="exist">bc[d]</a>e</p>',
                 stepFunction: async (editor) => {
                     await unlinkByCommand(editor);
                 },
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3055,6 +3160,14 @@ describe("range not collapsed", () => {
 >>>>>>> upstream/18.0
                 contentAfter: '<p>a<a href="exist">bc</a>[d]e</p>',
             });
+=======
+                contentAfterEdit: '<p>a\ufeff<a href="exist">\ufeffbc\ufeff</a>\ufeff[d]e</p>',
+                contentAfter: '<p>a<a href="exist">bc</a>[d]e</p>',
+            });
+        });
+
+        test("should remove the link in the selected range at the end of a link (2)", async () => {
+>>>>>>> upstream/18.0
             // BACKWARD
             await testEditor({
                 contentBefore: '<p>a<a href="exist">bc]d[</a>e</p>',
@@ -3241,6 +3354,10 @@ describe("range not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                contentAfterEdit: '<p>a\ufeff<a href="exist">\ufeffbc\ufeff</a>\ufeff]d[e</p>',
+>>>>>>> upstream/18.0
 =======
                 contentAfterEdit: '<p>a\ufeff<a href="exist">\ufeffbc\ufeff</a>\ufeff]d[e</p>',
 >>>>>>> upstream/18.0
@@ -3785,7 +3902,11 @@ describe("range not collapsed", () => {
             });
         });
 
+<<<<<<< HEAD
         test("should remove the link in the selected range in the middle of a link", async () => {
+=======
+        test("should remove the link in the selected range in the middle of a link (1)", async () => {
+>>>>>>> upstream/18.0
             // FORWARD
             await testEditor({
                 contentBefore: '<p>a<a href="exist">b[c]d</a>e</p>',
@@ -3794,6 +3915,12 @@ describe("range not collapsed", () => {
                 },
                 contentAfter: '<p>a<a href="exist">b</a>[c]<a href="exist">d</a>e</p>',
             });
+<<<<<<< HEAD
+=======
+        });
+
+        test("should remove the link in the selected range in the middle of a link (2)", async () => {
+>>>>>>> upstream/18.0
             // BACKWARD
             await testEditor({
                 contentBefore: '<p>a<a href="exist">b]c[d</a>e</p>',
@@ -3804,13 +3931,18 @@ describe("range not collapsed", () => {
             });
         });
 
+<<<<<<< HEAD
         test("should remove the link in the selected range at the start of a link", async () => {
+=======
+        test("should remove the link in the selected range at the start of a link (1)", async () => {
+>>>>>>> upstream/18.0
             // FORWARD
             await testEditor({
                 contentBefore: '<p>a<a href="exist">[b]cd</a>e</p>',
                 stepFunction: async (editor) => {
                     await unlinkByCommand(editor);
                 },
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4533,6 +4665,14 @@ describe("range not collapsed", () => {
 >>>>>>> upstream/18.0
                 contentAfter: '<p>a[b]<a href="exist">cd</a>e</p>',
             });
+=======
+                contentAfterEdit: '<p>a[b]\ufeff<a href="exist">\ufeffcd\ufeff</a>\ufeffe</p>',
+                contentAfter: '<p>a[b]<a href="exist">cd</a>e</p>',
+            });
+        });
+
+        test("should remove the link in the selected range at the start of a link (2)", async () => {
+>>>>>>> upstream/18.0
             // BACKWARD
             await testEditor({
                 contentBefore: '<p>a<a href="exist">]b[cd</a>e</p>',
@@ -4719,6 +4859,10 @@ describe("range not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                contentAfterEdit: '<p>a]b[\ufeff<a href="exist">\ufeffcd\ufeff</a>\ufeffe</p>',
+>>>>>>> upstream/18.0
 =======
                 contentAfterEdit: '<p>a]b[\ufeff<a href="exist">\ufeffcd\ufeff</a>\ufeffe</p>',
 >>>>>>> upstream/18.0
@@ -5263,7 +5407,11 @@ describe("range not collapsed", () => {
             });
         });
 
+<<<<<<< HEAD
         test("should remove the link in the selected range overlapping the end of a link", async () => {
+=======
+        test("should remove the link in the selected range overlapping the end of a link (1)", async () => {
+>>>>>>> upstream/18.0
             // FORWARD
             await testEditor({
                 contentBefore: '<p>a<a href="exist">bc[d</a>e]f</p>',
@@ -5272,6 +5420,12 @@ describe("range not collapsed", () => {
                 },
                 contentAfter: '<p>a<a href="exist">bc</a>[de]f</p>',
             });
+<<<<<<< HEAD
+=======
+        });
+
+        test("should remove the link in the selected range overlapping the end of a link (2)", async () => {
+>>>>>>> upstream/18.0
             // BACKWARD
             await testEditor({
                 contentBefore: '<p>a<a href="exist">bc]d</a>e[f</p>',
@@ -5282,7 +5436,11 @@ describe("range not collapsed", () => {
             });
         });
 
+<<<<<<< HEAD
         test("should remove the link in the selected range overlapping the start of a link", async () => {
+=======
+        test("should remove the link in the selected range overlapping the start of a link (1)", async () => {
+>>>>>>> upstream/18.0
             // FORWARD
             await testEditor({
                 contentBefore: '<p>a[b<a href="exist">c]de</a>f</p>',
@@ -5291,6 +5449,12 @@ describe("range not collapsed", () => {
                 },
                 contentAfter: '<p>a[bc]<a href="exist">de</a>f</p>',
             });
+<<<<<<< HEAD
+=======
+        });
+
+        test("should remove the link in the selected range overlapping the start of a link (2)", async () => {
+>>>>>>> upstream/18.0
             // BACKWARD
             await testEditor({
                 contentBefore: '<p>a]b<a href="exist">c[de</a>f</p>',
@@ -5492,7 +5656,10 @@ describe("range not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6063,6 +6230,9 @@ describe("range not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

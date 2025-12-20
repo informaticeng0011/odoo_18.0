@@ -122,6 +122,7 @@ import { describe, expect, test } from "@odoo/hoot";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { testEditor, setupEditor } from "../_helpers/editor";
 import { unformat } from "../_helpers/format";
 import { tick } from "@odoo/hoot-mock";
@@ -129,6 +130,8 @@ import { deleteForward, insertText, tripleClick } from "../_helpers/user_actions
 import { getContent } from "../_helpers/selection";
 import { microTick } from "@odoo/hoot-dom";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -499,6 +502,9 @@ import { deleteForward, insertText, splitTripleClick } from "../_helpers/user_ac
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -800,12 +806,22 @@ describe("Selection collapsed", () => {
             });
         });
 
+<<<<<<< HEAD
         test("should delete the last character in a paragraph", async () => {
+=======
+        test("should delete the last character in a paragraph (1)", async () => {
+>>>>>>> upstream/18.0
             await testEditor({
                 contentBefore: "<p>ab[]c</p>",
                 stepFunction: deleteForward,
                 contentAfter: "<p>ab[]</p>",
             });
+<<<<<<< HEAD
+=======
+        });
+
+        test("should delete the last character in a paragraph (2)", async () => {
+>>>>>>> upstream/18.0
             await testEditor({
                 contentBefore: "<p>ab []c</p>",
                 stepFunction: deleteForward,
@@ -855,17 +871,33 @@ describe("Selection collapsed", () => {
             });
         });
 
+<<<<<<< HEAD
         test("should ignore ZWS", async () => {
+=======
+        test("should ignore ZWS (1)", async () => {
+>>>>>>> upstream/18.0
             await testEditor({
                 contentBefore: "<p>ab[]\u200Bc</p>",
                 stepFunction: deleteForward,
                 contentAfter: "<p>ab[]</p>",
             });
+<<<<<<< HEAD
+=======
+        });
+
+        test("should ignore ZWS (2)", async () => {
+>>>>>>> upstream/18.0
             await testEditor({
                 contentBefore: "<p>de[]\u200B</p>",
                 stepFunction: deleteForward,
                 contentAfter: "<p>de[]</p>",
             });
+<<<<<<< HEAD
+=======
+        });
+
+        test("should ignore ZWS (3)", async () => {
+>>>>>>> upstream/18.0
             await testEditor({
                 contentBefore: "<p>[]\u200Bf</p>",
                 stepFunction: deleteForward,
@@ -885,7 +917,11 @@ describe("Selection collapsed", () => {
             });
         });
 
+<<<<<<< HEAD
         test("ZWS: should delete element content but keep cursor in", async () => {
+=======
+        test("ZWS: should delete element content but keep cursor in (1)", async () => {
+>>>>>>> upstream/18.0
             await testEditor({
                 contentBefore: '<p>ab<span class="style">[]cd</span>ef</p>',
                 stepFunction: async (editor) => {
@@ -896,6 +932,12 @@ describe("Selection collapsed", () => {
                     '<p>ab<span class="style" data-oe-zws-empty-inline="">[]\u200B</span>ef</p>',
                 contentAfter: '<p>ab<span class="style">[]\u200B</span>ef</p>',
             });
+<<<<<<< HEAD
+=======
+        });
+
+        test("ZWS: should delete element content but keep cursor in (2)", async () => {
+>>>>>>> upstream/18.0
             await testEditor({
                 contentBefore: '<p>ab<span class="style">[]cd</span>ef</p>',
                 stepFunction: async (editor) => {
@@ -907,7 +949,11 @@ describe("Selection collapsed", () => {
             });
         });
 
+<<<<<<< HEAD
         test("should ignore ZWS and merge", async () => {
+=======
+        test("should ignore ZWS and merge (1)", async () => {
+>>>>>>> upstream/18.0
             await testEditor({
                 contentBefore:
                     '<p><span class="removeme" data-oe-zws-empty-inline="">[]\u200B</span><b>ab</b></p>',
@@ -919,6 +965,12 @@ describe("Selection collapsed", () => {
                 },
                 contentAfter: "<p><b>x[]b</b></p>",
             });
+<<<<<<< HEAD
+=======
+        });
+
+        test("should ignore ZWS and merge (2)", async () => {
+>>>>>>> upstream/18.0
             await testEditor({
                 contentBefore:
                     '<p><span class="removeme" data-oe-zws-empty-inline="">[]\u200B</span><span class="a">cd</span></p>',
@@ -928,6 +980,12 @@ describe("Selection collapsed", () => {
                 },
                 contentAfter: '<p><span class="a">x[]d</span></p>',
             });
+<<<<<<< HEAD
+=======
+        });
+
+        test("should ignore ZWS and merge (3)", async () => {
+>>>>>>> upstream/18.0
             await testEditor({
                 contentBefore:
                     '<p><span class="removeme" data-oe-zws-empty-inline="">[]\u200B</span><br><b>ef</b></p>',
@@ -1063,6 +1121,7 @@ describe("Selection collapsed", () => {
                 contentAfter: `<p>[]&nbsp;def</p>`,
             });
         });
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1460,6 +1519,9 @@ describe("Selection collapsed", () => {
 =======
         test("should merge p elements inside contenteditable=true inside contenteditable=false", async () => {
 >>>>>>> upstream/18.0
+=======
+        test("should merge p elements inside contenteditable=true inside contenteditable=false", async () => {
+>>>>>>> upstream/18.0
             await testEditor({
                 contentBefore: `<div contenteditable="false"><div contenteditable="true"><p>abc[]</p><p>def</p></div></div>`,
                 stepFunction: deleteForward,
@@ -1520,12 +1582,22 @@ describe("Selection collapsed", () => {
                 });
             });
 
+<<<<<<< HEAD
             test("should merge the two <p>", async () => {
+=======
+            test("should merge the two <p> (1)", async () => {
+>>>>>>> upstream/18.0
                 await testEditor({
                     contentBefore: "<p>abc[]</p> <p>def</p>",
                     stepFunction: deleteForward,
                     contentAfter: "<p>abc[]def</p>",
                 });
+<<<<<<< HEAD
+=======
+            });
+
+            test("should merge the two <p> (2)", async () => {
+>>>>>>> upstream/18.0
                 await testEditor({
                     contentBefore:
                         '<p>abc[]</p><p>def</p><p style="margin-bottom: 0px;"> orphan node</p>',
@@ -1606,12 +1678,22 @@ describe("Selection collapsed", () => {
 
     describe("Line breaks", () => {
         describe("Single", () => {
+<<<<<<< HEAD
             test("should delete a leading line break", async () => {
+=======
+            test("should delete a leading line break (1)", async () => {
+>>>>>>> upstream/18.0
                 await testEditor({
                     contentBefore: "<p>[]<br>abc</p>",
                     stepFunction: deleteForward,
                     contentAfter: "<p>[]abc</p>",
                 });
+<<<<<<< HEAD
+=======
+            });
+
+            test("should delete a leading line break (2)", async () => {
+>>>>>>> upstream/18.0
                 await testEditor({
                     contentBefore: "<p>[]<br> abc</p>",
                     stepFunction: deleteForward,
@@ -1621,17 +1703,33 @@ describe("Selection collapsed", () => {
                 });
             });
 
+<<<<<<< HEAD
             test("should delete a line break within a paragraph", async () => {
+=======
+            test("should delete a line break within a paragraph (1)", async () => {
+>>>>>>> upstream/18.0
                 await testEditor({
                     contentBefore: "<p>ab[]<br>cd</p>",
                     stepFunction: deleteForward,
                     contentAfter: "<p>ab[]cd</p>",
                 });
+<<<<<<< HEAD
+=======
+            });
+
+            test("should delete a line break within a paragraph (2)", async () => {
+>>>>>>> upstream/18.0
                 await testEditor({
                     contentBefore: "<p>ab []<br>cd</p>",
                     stepFunction: deleteForward,
                     contentAfter: "<p>ab []cd</p>",
                 });
+<<<<<<< HEAD
+=======
+            });
+
+            test("should delete a line break within a paragraph (3)", async () => {
+>>>>>>> upstream/18.0
                 await testEditor({
                     contentBefore: "<p>ab[]<br> cd</p>",
                     stepFunction: deleteForward,
@@ -1641,12 +1739,22 @@ describe("Selection collapsed", () => {
                 });
             });
 
+<<<<<<< HEAD
             test("should delete a trailing line break", async () => {
+=======
+            test("should delete a trailing line break (1)", async () => {
+>>>>>>> upstream/18.0
                 await testEditor({
                     contentBefore: "<p>abc[]<br><br></p>",
                     stepFunction: deleteForward,
                     contentAfter: "<p>abc[]</p>",
                 });
+<<<<<<< HEAD
+=======
+            });
+
+            test("should delete a trailing line break (2)", async () => {
+>>>>>>> upstream/18.0
                 await testEditor({
                     contentBefore: "<p>abc []<br><br></p>",
                     stepFunction: deleteForward,
@@ -1675,13 +1783,23 @@ describe("Selection collapsed", () => {
         });
 
         describe("Consecutive", () => {
+<<<<<<< HEAD
             test("should merge a paragraph into a paragraph with 4 <br>", async () => {
+=======
+            test("should merge a paragraph into a paragraph with 4 <br> (1)", async () => {
+>>>>>>> upstream/18.0
                 // 1
                 await testEditor({
                     contentBefore: "<p>ab</p><p><br><br><br><br>[]</p><p>cd</p>",
                     stepFunction: deleteForward,
                     contentAfter: "<p>ab</p><p><br><br><br>[]cd</p>",
                 });
+<<<<<<< HEAD
+=======
+            });
+
+            test("should merge a paragraph into a paragraph with 4 <br> (2)", async () => {
+>>>>>>> upstream/18.0
                 // 2-1
                 await testEditor({
                     contentBefore: "<p>ab</p><p><br><br><br>[]<br></p><p>cd</p>",
@@ -1937,12 +2055,22 @@ describe("Selection collapsed", () => {
     });
 
     describe("Formats", () => {
+<<<<<<< HEAD
         test("should delete a character after a format node", async () => {
+=======
+        test("should delete a character after a format node (1)", async () => {
+>>>>>>> upstream/18.0
             await testEditor({
                 contentBefore: "<p><b>abc[]</b>def</p>",
                 stepFunction: deleteForward,
                 contentAfter: "<p><b>abc[]</b>ef</p>",
             });
+<<<<<<< HEAD
+=======
+        });
+
+        test("should delete a character after a format node (2)", async () => {
+>>>>>>> upstream/18.0
             await testEditor({
                 contentBefore: "<p><b>abc</b>[]def</p>",
                 stepFunction: deleteForward,
@@ -1978,12 +2106,22 @@ describe("Selection collapsed", () => {
             });
         });
 
+<<<<<<< HEAD
         test("should merge a text following a paragraph (keeping the text)", async () => {
+=======
+        test("should merge a text following a paragraph (keeping the text) (1)", async () => {
+>>>>>>> upstream/18.0
             await testEditor({
                 contentBefore: '<p>ab[]</p><p style="margin-bottom: 0px;">cd</p>',
                 stepFunction: deleteForward,
                 contentAfter: "<p>ab[]cd</p>",
             });
+<<<<<<< HEAD
+=======
+        });
+
+        test("should merge a text following a paragraph (keeping the text) (2)", async () => {
+>>>>>>> upstream/18.0
             await testEditor({
                 contentBefore: '<p>ab[]</p><p style="margin-bottom: 0px;">cd</p><p>ef</p>',
                 stepFunction: deleteForward,
@@ -2295,13 +2433,23 @@ describe("Selection not collapsed", () => {
         });
     });
 
+<<<<<<< HEAD
     test("should delete across two paragraphs", async () => {
+=======
+    test("should delete across two paragraphs (1)", async () => {
+>>>>>>> upstream/18.0
         // Forward selection
         await testEditor({
             contentBefore: "<p>ab[cd</p><p>ef]gh</p>",
             stepFunction: deleteForward,
             contentAfter: "<p>ab[]gh</p>",
         });
+<<<<<<< HEAD
+=======
+    });
+
+    test("should delete across two paragraphs (2)", async () => {
+>>>>>>> upstream/18.0
         // Backward selection
         await testEditor({
             contentBefore: "<p>ab]cd</p><p>ef[gh</p>",
@@ -2310,13 +2458,23 @@ describe("Selection not collapsed", () => {
         });
     });
 
+<<<<<<< HEAD
     test("should delete all the text in a paragraph", async () => {
+=======
+    test("should delete all the text in a paragraph (1)", async () => {
+>>>>>>> upstream/18.0
         // Forward selection
         await testEditor({
             contentBefore: "<p>[abc]</p>",
             stepFunction: deleteForward,
             contentAfter: "<p>[]<br></p>",
         });
+<<<<<<< HEAD
+=======
+    });
+
+    test("should delete all the text in a paragraph (2)", async () => {
+>>>>>>> upstream/18.0
         // Backward selection
         await testEditor({
             contentBefore: "<p>]abc[</p>",
@@ -2325,24 +2483,48 @@ describe("Selection not collapsed", () => {
         });
     });
 
+<<<<<<< HEAD
     test("should delete a complex selection accross format nodes and multiple paragraphs", async () => {
+=======
+    test("should delete a complex selection accross format nodes and multiple paragraphs (1)", async () => {
+>>>>>>> upstream/18.0
         // Forward selection
         await testEditor({
             contentBefore: "<p><b>ab[cd</b></p><p><b>ef<br>gh</b>ij<i>kl]</i>mn</p>",
             stepFunction: deleteForward,
             contentAfter: "<p><b>ab[]</b>mn</p>",
         });
+<<<<<<< HEAD
+=======
+    });
+
+    test("should delete a complex selection accross format nodes and multiple paragraphs (2)", async () => {
+        // Forward selection
+>>>>>>> upstream/18.0
         await testEditor({
             contentBefore: "<p><b>ab[cd</b></p><p><b>ef<br>gh</b>ij<i>k]l</i>mn</p>",
             stepFunction: deleteForward,
             contentAfter: "<p><b>ab[]</b><i>l</i>mn</p>",
         });
+<<<<<<< HEAD
+=======
+    });
+
+    test("should delete a complex selection accross format nodes and multiple paragraphs (3)", async () => {
+>>>>>>> upstream/18.0
         // Backward selection
         await testEditor({
             contentBefore: "<p><b>ab]cd</b></p><p><b>ef<br>gh</b>ij<i>kl[</i>mn</p>",
             stepFunction: deleteForward,
             contentAfter: "<p><b>ab[]</b>mn</p>",
         });
+<<<<<<< HEAD
+=======
+    });
+
+    test("should delete a complex selection accross format nodes and multiple paragraphs (4)", async () => {
+        // Backward selection
+>>>>>>> upstream/18.0
         await testEditor({
             contentBefore: "<p><b>ab]cd</b></p><p><b>ef<br>gh</b>ij<i>k[l</i>mn</p>",
             stepFunction: deleteForward,
@@ -2366,13 +2548,23 @@ describe("Selection not collapsed", () => {
         });
     });
 
+<<<<<<< HEAD
     test("should delete a selection accross a heading1 and a paragraph", async () => {
+=======
+    test("should delete a selection accross a heading1 and a paragraph (1)", async () => {
+>>>>>>> upstream/18.0
         // Forward selection
         await testEditor({
             contentBefore: "<h1>ab [cd</h1><p>ef]gh</p>",
             stepFunction: deleteForward,
             contentAfter: "<h1>ab []gh</h1>",
         });
+<<<<<<< HEAD
+=======
+    });
+
+    test("should delete a selection accross a heading1 and a paragraph (2)", async () => {
+>>>>>>> upstream/18.0
         // Backward selection
         await testEditor({
             contentBefore: "<h1>ab ]cd</h1><p>ef[gh</p>",
@@ -2381,24 +2573,48 @@ describe("Selection not collapsed", () => {
         });
     });
 
+<<<<<<< HEAD
     test("should delete a selection from the beginning of a heading1 with a format to the middle of a paragraph + start of editable", async () => {
+=======
+    test("should delete a selection from the beginning of a heading1 with a format to the middle of a paragraph + start of editable (1)", async () => {
+>>>>>>> upstream/18.0
         //Forward selection
         await testEditor({
             contentBefore: "<h1><b>[abcd</b></h1><p>ef]gh1</p>",
             stepFunction: deleteForward,
             contentAfter: "<p>[]gh1</p>",
         });
+<<<<<<< HEAD
+=======
+    });
+
+    test("should delete a selection from the beginning of a heading1 with a format to the middle of a paragraph + start of editable (2)", async () => {
+        //Forward selection
+>>>>>>> upstream/18.0
         await testEditor({
             contentBefore: "<h1>[<b>abcd</b></h1><p>ef]gh2</p>",
             stepFunction: deleteForward,
             contentAfter: "<p>[]gh2</p>",
         });
+<<<<<<< HEAD
+=======
+    });
+
+    test("should delete a selection from the beginning of a heading1 with a format to the middle of a paragraph + start of editable (3)", async () => {
+>>>>>>> upstream/18.0
         // Backward selection
         await testEditor({
             contentBefore: "<h1><b>]abcd</b></h1><p>ef[gh3</p>",
             stepFunction: deleteForward,
             contentAfter: "<p>[]gh3</p>",
         });
+<<<<<<< HEAD
+=======
+    });
+
+    test("should delete a selection from the beginning of a heading1 with a format to the middle of a paragraph + start of editable (4)", async () => {
+        // Backward selection
+>>>>>>> upstream/18.0
         await testEditor({
             contentBefore: "<h1>]<b>abcd</b></h1><p>ef[gh4</p>",
             stepFunction: deleteForward,
@@ -2406,12 +2622,22 @@ describe("Selection not collapsed", () => {
         });
     });
 
+<<<<<<< HEAD
     test("should delete a selection from the beginning of a heading1 with a format to the middle of a paragraph + content", async () => {
+=======
+    test("should delete a selection from the beginning of a heading1 with a format to the middle of a paragraph + content (1)", async () => {
+>>>>>>> upstream/18.0
         await testEditor({
             contentBefore: "<p>content</p><h1><b>[abcd</b></h1><p>ef]gh1</p>",
             stepFunction: deleteForward,
             contentAfter: "<p>content</p><p>[]gh1</p>",
         });
+<<<<<<< HEAD
+=======
+    });
+
+    test("should delete a selection from the beginning of a heading1 with a format to the middle of a paragraph + content (2)", async () => {
+>>>>>>> upstream/18.0
         await testEditor({
             contentBefore: "<p>content</p><h1>[<b>abcd</b></h1><p>ef]gh2</p>",
             stepFunction: deleteForward,
@@ -2419,24 +2645,48 @@ describe("Selection not collapsed", () => {
         });
     });
 
+<<<<<<< HEAD
     test("should delete a selection from the beginning of a heading1 to the end of a paragraph", async () => {
+=======
+    test("should delete a selection from the beginning of a heading1 to the end of a paragraph (1)", async () => {
+>>>>>>> upstream/18.0
         //Forward selection
         await testEditor({
             contentBefore: "<h1>[abcd</h1><p>ef]</p><h2>1</h2>",
             stepFunction: deleteForward,
             contentAfter: "<h1>[]<br></h1><h2>1</h2>",
         });
+<<<<<<< HEAD
+=======
+    });
+
+    test("should delete a selection from the beginning of a heading1 to the end of a paragraph (2)", async () => {
+        //Forward selection
+>>>>>>> upstream/18.0
         await testEditor({
             contentBefore: "<h1>[abcd</h1><p>ef]</p><h2>2</h2>",
             stepFunction: deleteForward,
             contentAfter: "<h1>[]<br></h1><h2>2</h2>",
         });
+<<<<<<< HEAD
+=======
+    });
+
+    test("should delete a selection from the beginning of a heading1 to the end of a paragraph (3)", async () => {
+>>>>>>> upstream/18.0
         // Backward selection
         await testEditor({
             contentBefore: "<h1>]abcd</h1><p>ef[</p><h2>3</h2>",
             stepFunction: deleteForward,
             contentAfter: "<h1>[]<br></h1><h2>3</h2>",
         });
+<<<<<<< HEAD
+=======
+    });
+
+    test("should delete a selection from the beginning of a heading1 to the end of a paragraph (4)", async () => {
+        // Backward selection
+>>>>>>> upstream/18.0
         await testEditor({
             contentBefore: "<h1>]abcd</h1><p>ef[</p><h2>4</h2>",
             stepFunction: deleteForward,
@@ -2444,7 +2694,11 @@ describe("Selection not collapsed", () => {
         });
     });
 
+<<<<<<< HEAD
     test("should delete a selection from the beginning of a heading1 with a format to the end of a paragraph", async () => {
+=======
+    test("should delete a selection from the beginning of a heading1 with a format to the end of a paragraph (1)", async () => {
+>>>>>>> upstream/18.0
         //Forward selection
         await testEditor({
             contentBefore: "<h1><u>[abcd</u></h1><p>ef]</p><h2>1</h2>",
@@ -2453,6 +2707,13 @@ describe("Selection not collapsed", () => {
                 '<h1 placeholder="Heading 1" class="o-we-hint"><u data-oe-zws-empty-inline="">[]\u200B</u><br></h1><h2>1</h2>',
             contentAfter: "<h1>[]<br></h1><h2>1</h2>",
         });
+<<<<<<< HEAD
+=======
+    });
+
+    test("should delete a selection from the beginning of a heading1 with a format to the end of a paragraph (2)", async () => {
+        //Forward selection
+>>>>>>> upstream/18.0
         await testEditor({
             contentBefore: "<h1>[<u>abcd</u></h1><p>ef]</p><h2>2</h2>",
             stepFunction: deleteForward,
@@ -2460,6 +2721,12 @@ describe("Selection not collapsed", () => {
                 '<h1 placeholder="Heading 1" class="o-we-hint"><u data-oe-zws-empty-inline="">[]\u200B</u><br></h1><h2>2</h2>',
             contentAfter: "<h1>[]<br></h1><h2>2</h2>",
         });
+<<<<<<< HEAD
+=======
+    });
+
+    test("should delete a selection from the beginning of a heading1 with a format to the end of a paragraph (3)", async () => {
+>>>>>>> upstream/18.0
         // Backward selection
         await testEditor({
             contentBefore: "<h1><u>]abcd</u></h1><p>ef[</p><h2>3</h2>",
@@ -2468,6 +2735,13 @@ describe("Selection not collapsed", () => {
                 '<h1 placeholder="Heading 1" class="o-we-hint"><u data-oe-zws-empty-inline="">[]\u200B</u><br></h1><h2>3</h2>',
             contentAfter: "<h1>[]<br></h1><h2>3</h2>",
         });
+<<<<<<< HEAD
+=======
+    });
+
+    test("should delete a selection from the beginning of a heading1 with a format to the end of a paragraph (4)", async () => {
+        // Backward selection
+>>>>>>> upstream/18.0
         await testEditor({
             contentBefore: "<h1>]<u>abcd</u></h1><p>ef[</p><h2>4</h2>",
             stepFunction: deleteForward,
@@ -2479,6 +2753,7 @@ describe("Selection not collapsed", () => {
 
     test("should delete a heading (triple click delete) (1)", async () => {
         const { editor, el } = await setupEditor("<h1>abc</h1><p>def</p>", {});
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2852,6 +3127,8 @@ describe("Selection not collapsed", () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         const release = await splitTripleClick(el.querySelector("h1"));
         // Chrome puts the cursor at the start of next sibling
         expect(getContent(el)).toBe("<h1>[abc</h1><p>]def</p>");
@@ -2978,6 +3255,9 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3355,12 +3635,15 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         tripleClick(el.querySelector("h1"));
         await microTick();
         // Chrome puts the cursor at the start of next sibling
         expect(getContent(el)).toBe("<h1>[abc</h1><p>]<br></p><p>def</p>");
         await tick();
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3731,6 +4014,9 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4137,8 +4423,13 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <tr><td>cd</td><td>[]<br></td><td>gh</td></tr>
                         <tr><td>ij</td><td><br></td><td>mn</td></tr>
+=======
+                        <tr><td>cd</td><td><p>[]<br></p></td><td>gh</td></tr>
+                        <tr><td>ij</td><td><p><br></p></td><td>mn</td></tr>
+>>>>>>> upstream/18.0
 =======
                         <tr><td>cd</td><td><p>[]<br></p></td><td>gh</td></tr>
                         <tr><td>ij</td><td><p><br></p></td><td>mn</td></tr>

@@ -43,7 +43,11 @@ from odoo.exceptions import ValidationError
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tools import LazyTranslate
+=======
+from odoo.tools import LazyTranslate, street_split
+>>>>>>> upstream/18.0
 =======
 from odoo.tools import LazyTranslate, street_split
 >>>>>>> upstream/18.0
@@ -270,8 +274,13 @@ class ResPartnerBank(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         creditor_addr_1, creditor_addr_2 = self._get_partner_address_lines(self.partner_id)
         debtor_addr_1, debtor_addr_2 = self._get_partner_address_lines(debtor_partner)
+=======
+        cred_street, cred_street_number, cred_zip, cred_city = self._get_partner_address_lines(self.partner_id)
+        debt_street, debt_street_number, debt_zip, debt_city = self._get_partner_address_lines(debtor_partner)
+>>>>>>> upstream/18.0
 =======
         cred_street, cred_street_number, cred_zip, cred_city = self._get_partner_address_lines(self.partner_id)
         debt_street, debt_street_number, debt_zip, debt_city = self._get_partner_address_lines(debtor_partner)
@@ -462,7 +471,11 @@ class ResPartnerBank(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return [
+=======
+        result = [
+>>>>>>> upstream/18.0
 =======
         result = [
 >>>>>>> upstream/18.0
@@ -598,6 +611,7 @@ class ResPartnerBank(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'K',                                                  # Creditor Address Type
             (self.acc_holder_name or self.partner_id.name)[:70],  # Creditor Name
             creditor_addr_1,                                      # Creditor Address Line 1
@@ -605,6 +619,8 @@ class ResPartnerBank(models.Model):
             '',                                                   # Creditor Postal Code (empty, since we're using combined addres elements)
             '',                                                   # Creditor Town (empty, since we're using combined addres elements)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -713,6 +729,9 @@ class ResPartnerBank(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -827,6 +846,7 @@ class ResPartnerBank(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'K',                                                  # Ultimate Debtor Address Type
             debtor_partner.commercial_partner_id.name[:70],       # Ultimate Debtor Name
             debtor_addr_1,                                        # Ultimate Debtor Address Line 1
@@ -835,6 +855,8 @@ class ResPartnerBank(models.Model):
             '',                                                   # Ultimate Debtor Postal City (not to be provided for address type K)
             debtor_partner.country_id.code,                       # Ultimate Debtor Postal Country
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -944,6 +966,9 @@ class ResPartnerBank(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1051,6 +1076,12 @@ class ResPartnerBank(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # newlines shift field content to a different line, causing the QR code to be rejected
+        return [line.replace('\n', ' ') for line in result]
+
+>>>>>>> upstream/18.0
 =======
         # newlines shift field content to a different line, causing the QR code to be rejected
         return [line.replace('\n', ' ') for line in result]
@@ -1266,6 +1297,7 @@ class ResPartnerBank(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         """ Returns a tuple of two elements containing the address lines to use
         for this partner. Line 1 contains the street and number, line 2 contains
         zip and city. Those two lines are limited to 70 characters
@@ -1275,6 +1307,8 @@ class ResPartnerBank(models.Model):
         line_2 = partner.zip + ' ' + partner.city
         return line_1[:70], line_2[:70]
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1399,6 +1433,9 @@ class ResPartnerBank(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

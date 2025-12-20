@@ -88,7 +88,11 @@ describe("Range collapsed", () => {
             });
         });
 
+<<<<<<< HEAD
         test("should turn a unordered list into a checklist between 2 checklists inside a checklist", async () => {
+=======
+        test("should turn a unordered list into a checklist between 2 checklists inside a checklist (1)", async () => {
+>>>>>>> upstream/18.0
             await testEditor({
                 contentBefore: unformat(`
                     <ul class="o_checklist">
@@ -134,6 +138,12 @@ describe("Range collapsed", () => {
                         </li>
                     </ul>`),
             });
+<<<<<<< HEAD
+=======
+        });
+
+        test("should turn a unordered list into a checklist between 2 checklists inside a checklist (2)", async () => {
+>>>>>>> upstream/18.0
             await testEditor({
                 contentBefore: unformat(`
                     <ul class="o_checklist">
@@ -532,6 +542,7 @@ describe("Range collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -783,11 +794,21 @@ describe("Range collapsed", () => {
 >>>>>>> upstream/18.0
 
         test("should convert list item with line breaks into a single paragraph", async () => {
+=======
+
+        test("should convert list item with line breaks into a single paragraph (1)", async () => {
+>>>>>>> upstream/18.0
             await testEditor({
                 contentBefore: '<ul class="o_checklist"><li>ab<br>cd<br>ef[]</li></ul>',
                 stepFunction: toggleCheckList,
                 contentAfter: "<p>ab<br>cd<br>ef[]</p>",
             });
+<<<<<<< HEAD
+=======
+        });
+
+        test("should convert list item with line breaks into a single paragraph (2)", async () => {
+>>>>>>> upstream/18.0
             await testEditor({
                 contentBefore:
                     '<ul class="o_checklist"><li>ab<br><b>cd</b><br><i>ef[]</i></li></ul>',
@@ -919,6 +940,9 @@ describe("Range collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1206,7 +1230,11 @@ describe("Range not collapsed", () => {
             });
         });
 
+<<<<<<< HEAD
         test("should turn a paragraph and a checklist item into two list items", async () => {
+=======
+        test("should turn a paragraph and a checklist item into two list items (1)", async () => {
+>>>>>>> upstream/18.0
             await testEditor({
                 contentBefore:
                     '<p>a[b</p><ul class="o_checklist"><li class="o_checked">c]d</li><li>ef</li></ul>',
@@ -1214,6 +1242,12 @@ describe("Range not collapsed", () => {
                 contentAfter:
                     '<ul class="o_checklist"><li>a[b</li><li class="o_checked">c]d</li><li>ef</li></ul>',
             });
+<<<<<<< HEAD
+=======
+        });
+
+        test("should turn a paragraph and a checklist item into two list items (2)", async () => {
+>>>>>>> upstream/18.0
             await testEditor({
                 contentBefore:
                     '<p>a[b</p><ul class="o_checklist"><li class="o_checked">c]d</li><li class="o_checked">ef</li></ul>',

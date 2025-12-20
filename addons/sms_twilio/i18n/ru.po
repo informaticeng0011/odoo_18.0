@@ -104,6 +104,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-09-05 18:40+0000\n"
 =======
 "POT-Creation-Date: 2025-09-12 01:51+0000\n"
@@ -470,6 +471,10 @@ msgstr ""
 "POT-Creation-Date: 2025-09-12 01:51+0000\n"
 "PO-Revision-Date: 2025-10-22 09:09+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-09-12 01:51+0000\n"
+"PO-Revision-Date: 2025-10-22 09:09+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: \"Anastasiia Koroleva (koan)\" <koan@odoo.com>\n"
 "Language-Team: Russian <https://translate.odoo.com/projects/odoo-18/"
 "sms_twilio/ru/>\n"
@@ -488,6 +493,7 @@ msgid "%(failure_type)s: %(failure_reason)s"
 msgstr "%(failure_type)s: %(failure_reason)s"
 
 #. module: sms_twilio
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -853,6 +859,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/sms_twilio/tools/sms_api.py:0
 msgid "'To' and 'From' numbers cannot be the same"
@@ -931,6 +939,9 @@ msgstr "Номера отправителя и получателя не мог�
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1083,6 +1094,7 @@ msgstr "+1 555-123-4567"
 #. module: sms_twilio
 #. odoo-python
 #: code:addons/sms_twilio/tools/sms_api.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1570,6 +1582,10 @@ msgstr "Необходимо указать номер получателя"
 msgid "A 'To' phone number is required"
 msgstr "Необходимо указать номер получателя"
 >>>>>>> upstream/18.0
+=======
+msgid "A 'To' phone number is required"
+msgstr "Необходимо указать номер получателя"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #: model_terms:ir.ui.view,arch_db:sms_twilio.sms_twilio_account_manage_view_form
@@ -1595,6 +1611,7 @@ msgid "Auth Token"
 msgstr "Токен аутентификации"
 
 #. module: sms_twilio
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1925,6 +1942,8 @@ msgstr "Ошибка аутентификации»"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:sms_twilio.selection__mail_notification__failure_type__twilio_authentication
 #: model:ir.model.fields.selection,name:sms_twilio.selection__sms_sms__failure_type__twilio_authentication
 msgid "Authentication Error\""
@@ -1988,6 +2007,9 @@ msgstr "Ошибка аутентификации «"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2282,6 +2304,7 @@ msgstr "Тип сбоя"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -2332,6 +2355,11 @@ msgstr "Тип сбоя"
 #: model:ir.model.fields,field_description:sms_twilio.field_mail_notification__failure_type
 msgid "Failure type"
 msgstr ""
+=======
+#: model:ir.model.fields,field_description:sms_twilio.field_mail_notification__failure_type
+msgid "Failure type"
+msgstr "Тип ошибки"
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:sms_twilio.field_mail_notification__failure_type
 msgid "Failure type"
@@ -2775,6 +2803,7 @@ msgid "From / To identic"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: sms_twilio
@@ -2847,6 +2876,11 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr "Номера отправителя и получателя совпадают"
+
+#. module: sms_twilio
 >>>>>>> upstream/18.0
 =======
 msgstr "Номера отправителя и получателя совпадают"
@@ -3316,6 +3350,10 @@ msgstr "ID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields.selection,name:sms_twilio.selection__mail_notification__failure_type__twilio_callback
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields.selection,name:sms_twilio.selection__mail_notification__failure_type__twilio_callback
 >>>>>>> upstream/18.0
@@ -3752,6 +3790,7 @@ msgstr "Управлять СМС Twilio"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -3802,6 +3841,11 @@ msgstr "Управлять СМС Twilio"
 #: model:ir.model,name:sms_twilio.model_mail_notification
 msgid "Message Notifications"
 msgstr ""
+=======
+#: model:ir.model,name:sms_twilio.model_mail_notification
+msgid "Message Notifications"
+msgstr "Уведомления о сообщениях"
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model,name:sms_twilio.model_mail_notification
 msgid "Message Notifications"
@@ -4245,6 +4289,7 @@ msgid "Missing From Number"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: sms_twilio
@@ -4317,6 +4362,11 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr "Не указан номер отправителя"
+
+#. module: sms_twilio
 >>>>>>> upstream/18.0
 =======
 msgstr "Не указан номер отправителя"
@@ -4787,8 +4837,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            <i class=\"fa fa-external-link\" aria-hidden="
 "\"true\"/>"
+=======
+"                            <i class=\"fa fa-external-link\" aria-"
+"hidden=\"true\"/>"
+>>>>>>> upstream/18.0
 =======
 "                            <i class=\"fa fa-external-link\" aria-"
 "hidden=\"true\"/>"
@@ -5295,7 +5350,12 @@ msgid "Please set the number to which you want to send a test SMS."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Пожалуйста, укажите номер, на который вы хотите отправить тестовое СМС."
+=======
+msgstr ""
+"Пожалуйста, укажите номер, на который вы хотите отправить тестовое СМС."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "Пожалуйста, укажите номер, на который вы хотите отправить тестовое СМС."
@@ -5758,7 +5818,11 @@ msgid "SMS Twilio Connection Wizard"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Инструмент для подключения СМС Twilio"
+=======
+msgstr "Мастер подключения СМС Twilio"
+>>>>>>> upstream/18.0
 =======
 msgstr "Мастер подключения СМС Twilio"
 >>>>>>> upstream/18.0
@@ -5995,7 +6059,11 @@ msgid "Send SMS Wizard"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Инструмент для отправки СМС"
+=======
+msgstr "Мастер отправки СМС"
+>>>>>>> upstream/18.0
 =======
 msgstr "Мастер отправки СМС"
 >>>>>>> upstream/18.0
@@ -6214,6 +6282,7 @@ msgstr "СМС было отправлено с %s"
 #. module: sms_twilio
 #. odoo-python
 #: code:addons/sms_twilio/tools/sms_api.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6775,6 +6844,11 @@ msgid "The number you're trying to reach is not correctly formatted"
 msgstr ""
 "Номер, на который вы пытаетесь отправить сообщение, отформатирован неверно"
 >>>>>>> upstream/18.0
+=======
+msgid "The number you're trying to reach is not correctly formatted"
+msgstr ""
+"Номер, на который вы пытаетесь отправить сообщение, отформатирован неверно"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #. odoo-python
@@ -6785,6 +6859,7 @@ msgstr "Это тестовое СМС из Odoo"
 #. module: sms_twilio
 #. odoo-python
 #: code:addons/sms_twilio/tools/sms_api.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7223,6 +7298,10 @@ msgstr "Ограничение тестового аккаунта"
 msgid "Trial Account Limitation"
 msgstr "Ограничение тестового аккаунта"
 >>>>>>> upstream/18.0
+=======
+msgid "Trial Account Limitation"
+msgstr "Ограничение тестового аккаунта"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #. odoo-python
@@ -7323,6 +7402,9 @@ msgstr "Ограничение тестового аккаунта"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7660,6 +7742,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -7928,6 +8011,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/sms_twilio/tools/sms_api.py:0
 msgid "Unverified recipient on Trial Account"
@@ -8006,6 +8091,9 @@ msgstr "Неподтвержденный получатель в тестово�
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8256,7 +8344,10 @@ msgstr "abcde12345abcde12345abcde12345ab"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8553,6 +8644,9 @@ msgstr "abcde12345abcde12345abcde12345ab"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

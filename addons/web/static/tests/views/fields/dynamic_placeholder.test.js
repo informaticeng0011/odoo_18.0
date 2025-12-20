@@ -130,8 +130,14 @@ import { expect, test } from "@odoo/hoot";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { press } from "@odoo/hoot-dom";
 import { animationFrame } from "@odoo/hoot-mock";
+=======
+import { Deferred, press, waitFor, waitUntil } from "@odoo/hoot-dom";
+import { animationFrame } from "@odoo/hoot-mock";
+import { onWillStart } from "@odoo/owl";
+>>>>>>> upstream/18.0
 =======
 import { Deferred, press, waitFor, waitUntil } from "@odoo/hoot-dom";
 import { animationFrame } from "@odoo/hoot-mock";
@@ -925,7 +931,13 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 } from "@web/../tests/web_test_helpers";
+=======
+    patchWithCleanup,
+} from "@web/../tests/web_test_helpers";
+import { DynamicPlaceholderPopover } from "@web/views/fields/dynamic_placeholder_popover";
+>>>>>>> upstream/18.0
 =======
     patchWithCleanup,
 } from "@web/../tests/web_test_helpers";
@@ -1798,7 +1810,10 @@ test("dynamic placeholder close when clicking on the cross", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2219,6 +2234,9 @@ test("correctly cache model qweb variables and don't prevent opening of other po
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

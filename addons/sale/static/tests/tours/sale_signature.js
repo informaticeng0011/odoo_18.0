@@ -111,6 +111,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { waitUntil } from "@odoo/hoot-dom";
+>>>>>>> upstream/18.0
 =======
 import { waitUntil } from "@odoo/hoot-dom";
 >>>>>>> upstream/18.0
@@ -453,6 +457,7 @@ registry.category("web_tour.tours").add('sale_signature', {
     steps: () => [
     {
         content: "open the test SO",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1003,6 +1008,11 @@ registry.category("web_tour.tours").add('sale_signature', {
         run: "click",
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
+=======
+        trigger: 'a:text(test SO)',
+        run: "click",
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
     },
     {
         content: "click sign",
@@ -1128,7 +1138,10 @@ registry.category("web_tour.tours").add('sale_signature', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1471,6 +1484,9 @@ registry.category("web_tour.tours").add('sale_signature', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1821,6 +1837,10 @@ registry.category("web_tour.tours").add('sale_signature', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -2295,6 +2315,10 @@ registry.category("web_tour.tours").add('sale_signature', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0

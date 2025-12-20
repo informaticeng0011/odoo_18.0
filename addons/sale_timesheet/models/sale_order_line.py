@@ -59,7 +59,11 @@ class SaleOrderLine(models.Model):
                 qty_left = line.product_uom_qty - line.qty_delivered
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 remaining_hours = line.product_uom._compute_quantity(qty_left, uom_hour)
+=======
+                remaining_hours = line.product_uom._compute_quantity(qty_left, uom_hour, round=False)
+>>>>>>> upstream/18.0
 =======
                 remaining_hours = line.product_uom._compute_quantity(qty_left, uom_hour, round=False)
 >>>>>>> upstream/18.0
