@@ -30,6 +30,10 @@ from werkzeug.exceptions import Forbidden
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo import release
+>>>>>>> upstream/18.0
 =======
 from odoo import release
 >>>>>>> upstream/18.0
@@ -457,7 +461,10 @@ class AdyenTest(AdyenCommon, PaymentHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -590,6 +597,9 @@ class AdyenTest(AdyenCommon, PaymentHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

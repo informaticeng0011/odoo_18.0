@@ -83,6 +83,10 @@ from datetime import datetime
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from unittest.mock import patch
+>>>>>>> upstream/18.0
 =======
 from unittest.mock import patch
 >>>>>>> upstream/18.0
@@ -407,6 +411,7 @@ from odoo.addons.point_of_sale.tests.common_setup_methods import setup_product_c
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 from odoo.exceptions import UserError
 >>>>>>> upstream/18.0
@@ -445,6 +450,9 @@ from odoo.exceptions import UserError
 >>>>>>> upstream/18.0
 =======
 from odoo.exceptions import UserError
+>>>>>>> upstream/18.0
+=======
+from odoo.exceptions import UserError, ValidationError
 >>>>>>> upstream/18.0
 =======
 from odoo.exceptions import UserError, ValidationError
@@ -834,6 +842,11 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        order._compute_prices()
+
+>>>>>>> upstream/18.0
 =======
         order._compute_prices()
 
@@ -1335,6 +1348,10 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    'price_unit': 134.38,
+>>>>>>> upstream/18.0
 =======
                     'price_unit': 134.38,
 >>>>>>> upstream/18.0
@@ -1958,7 +1975,10 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2234,6 +2254,9 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2845,6 +2868,7 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -2892,6 +2916,8 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3054,6 +3080,7 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3141,6 +3168,8 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
         current_session.action_pos_session_closing_control()
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3214,6 +3243,9 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4258,6 +4290,10 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'standard_price': 100,
+>>>>>>> upstream/18.0
 =======
             'standard_price': 100,
 >>>>>>> upstream/18.0
@@ -4889,6 +4925,10 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'standard_price': 100,
+>>>>>>> upstream/18.0
 =======
             'standard_price': 100,
 >>>>>>> upstream/18.0
@@ -5517,6 +5557,7 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         order = self.PosOrder.create({
             'company_id': self.env.company.id,
             'session_id': self.pos_config.current_session_id.id,
@@ -5559,6 +5600,8 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
         self.pos_config.current_session_id.action_pos_session_closing_control()
         order.picking_ids._action_done()
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6066,6 +6109,9 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6693,6 +6739,10 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'country_id': self.env.company.country_id.id,
+>>>>>>> upstream/18.0
 =======
             'country_id': self.env.company.country_id.id,
 >>>>>>> upstream/18.0
@@ -7573,7 +7623,10 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8144,6 +8197,7 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8182,6 +8236,8 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8630,8 +8686,11 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'standard_price': 10
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9019,6 +9078,9 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9414,7 +9476,10 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9803,6 +9868,9 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10212,7 +10280,10 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10601,6 +10672,9 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11022,6 +11096,7 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11130,6 +11205,8 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11761,6 +11838,7 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11844,6 +11922,10 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+        with self.assertRaises(UserError):
+            self.env['pos.order'].search([('tracking_number', 'ilike', '1234')])
 >>>>>>> upstream/18.0
 =======
         with self.assertRaises(UserError):
@@ -12199,6 +12281,7 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12213,6 +12296,8 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12453,6 +12538,10 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'country_id': self.env.company.country_id.id,
+>>>>>>> upstream/18.0
 =======
             'country_id': self.env.company.country_id.id,
 >>>>>>> upstream/18.0
@@ -12803,10 +12892,13 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13061,6 +13153,7 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13087,6 +13180,8 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13316,6 +13411,7 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13394,6 +13490,8 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13523,6 +13621,9 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

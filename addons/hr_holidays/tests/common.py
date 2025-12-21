@@ -2,8 +2,14 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.addons.mail.tests.common import mail_new_test_user
 from odoo.tests import common
+=======
+from odoo import fields
+from odoo.addons.mail.tests.common import mail_new_test_user
+from odoo.tests import common, Form
+>>>>>>> upstream/18.0
 =======
 from odoo import fields
 from odoo.addons.mail.tests.common import mail_new_test_user
@@ -68,7 +74,10 @@ class TestHrHolidaysCommon(common.TransactionCase):
         cls.rd_dept.write({'manager_id': cls.employee_hruser_id})
         cls.hours_per_day = cls.employee_emp.resource_id.calendar_id.hours_per_day or 8
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def assert_virtual_leaves_equal(self, leave_type, value, employee, date=None, digits=None):
         allocation_data = leave_type.get_allocation_data(employee, date)
@@ -95,4 +104,7 @@ class TestHrHolidaysCommon(common.TransactionCase):
             if date_to:
                 form.date_to = date_to
         return form.record
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

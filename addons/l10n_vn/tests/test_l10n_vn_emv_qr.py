@@ -147,7 +147,10 @@ class TestL10nVNEmvQrCode(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -459,6 +462,9 @@ class TestL10nVNEmvQrCode(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -768,7 +774,11 @@ class TestL10nVNEmvQrCode(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # Without company partner city should fail
+=======
+        # Without company partner city or state should fail
+>>>>>>> upstream/18.0
 =======
         # Without company partner city or state should fail
 >>>>>>> upstream/18.0
@@ -1174,7 +1184,10 @@ class TestL10nVNEmvQrCode(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1476,6 +1489,9 @@ class TestL10nVNEmvQrCode(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1859,7 +1875,11 @@ class TestL10nVNEmvQrCode(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(emv_qr_vals, '00020101021238590010A0000007270129000697042201156607040600001290208QRIBFTTA52040000530370454031005802VN5914company_1_data6007Vietnam62170813INV/TEST/00016304600B')
+=======
+        self.assertEqual(emv_qr_vals, '00020101021238590010A0000007270129000697042201156607040600001290208QRIBFTTA52040000530370454031005802VN5914company_1_data6007Vietnam62150811INVTEST000163042656')
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(emv_qr_vals, '00020101021238590010A0000007270129000697042201156607040600001290208QRIBFTTA52040000530370454031005802VN5914company_1_data6007Vietnam62150811INVTEST000163042656')
 >>>>>>> upstream/18.0
@@ -2540,6 +2560,7 @@ class TestL10nVNEmvQrCode(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(emv_qr_vals, '00020101021238590010A0000007270129000697042201156607040600001290208QRIBFTTA52040000530370454031005802VN5914aAeEoOiIuUyYdD6007Vietnam62170813INV/TEST/000263041AA5')
 =======
         self.assertEqual(emv_qr_vals, '00020101021238590010A0000007270129000697042201156607040600001290208QRIBFTTA52040000530370454031005802VN5914aAeEoOiIuUyYdD6007Vietnam62150811INVTEST00026304E1C2')
@@ -2935,6 +2956,8 @@ class TestL10nVNEmvQrCode(AccountTestInvoicingCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         self.assertEqual(emv_qr_vals, '00020101021238590010A0000007270129000697042201156607040600001290208QRIBFTTA52040000530370454031005802VN5914aAeEoOiIuUyYdD6007Vietnam62150811INVTEST00026304E1C2')
 
     def test_create_payment_with_no_proxy_in_client(self):
@@ -3044,6 +3067,9 @@ class TestL10nVNEmvQrCode(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

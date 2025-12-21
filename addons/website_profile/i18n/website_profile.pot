@@ -6,8 +6,13 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-12-16 13:41+0000\n"
 "PO-Revision-Date: 2024-12-16 13:41+0000\n"
+=======
+"POT-Creation-Date: 2025-12-19 18:38+0000\n"
+"PO-Revision-Date: 2025-12-19 18:38+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -324,6 +329,17 @@ msgid "Can Publish"
 msgstr ""
 
 #. module: website_profile
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/website_profile/controllers/main.py:0
+msgid ""
+"Changing the country is not allowed once document(s) have been issued for "
+"your account. Please contact us directly for this operation."
+msgstr ""
+
+#. module: website_profile
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:website_profile.user_profile_edit_content
 msgid "Clear"
 msgstr ""

@@ -37,6 +37,10 @@ export class MessageCardList extends Component {
         super.setup();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.store = useState(useService("mail.store"));
+>>>>>>> upstream/18.0
 =======
         this.store = useState(useService("mail.store"));
 >>>>>>> upstream/18.0

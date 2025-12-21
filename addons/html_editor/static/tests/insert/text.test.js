@@ -60,7 +60,11 @@ describe("collapsed selection", () => {
 
 describe("not collapsed selection", () => {
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should insert a character in a fully selected font in a heading, preserving its style", async () => {
+=======
+    test("should insert a character in a fully selected font in a heading, preserving its style (1)", async () => {
+>>>>>>> upstream/18.0
 =======
     test("should insert a character in a fully selected font in a heading, preserving its style (1)", async () => {
 >>>>>>> upstream/18.0
@@ -71,6 +75,12 @@ describe("not collapsed selection", () => {
             contentAfter: '<h1><font style="background-color: red;">g[]</font><br></h1><p>def</p>',
         });
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should insert a character in a fully selected font in a heading, preserving its style (2)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 

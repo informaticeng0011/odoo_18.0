@@ -450,7 +450,11 @@ describe("forward", () => {
 describe("list", () => {
     describe("selection collapsed", () => {
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should not outdent while nested within a list item if the list is unbreakable", async () => {
+=======
+        test("should not outdent while nested within a list item if the list is unbreakable (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should not outdent while nested within a list item if the list is unbreakable (1)", async () => {
 >>>>>>> upstream/18.0
@@ -461,6 +465,11 @@ describe("list", () => {
                 contentAfter: '<p>abc</p><ol class="oe_unbreakable"><li>[]def</li></ol>',
             });
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+        test("should not outdent while nested within a list item if the list is unbreakable (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
         test("should not outdent while nested within a list item if the list is unbreakable (2)", async () => {
@@ -474,6 +483,11 @@ describe("list", () => {
                     '<ol class="oe_unbreakable"><li><div><div>[]abc</div></div></li><li>def</li></ol>',
             });
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+        test("should not outdent while nested within a list item if the list is unbreakable (3)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
         test("should not outdent while nested within a list item if the list is unbreakable (3)", async () => {
@@ -487,6 +501,11 @@ describe("list", () => {
                     '<ol class="oe_unbreakable"><li><div>abc</div></li><li><div><div>[]def</div></div></li><li>ghi</li></ol>',
             });
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+        test("should not outdent while nested within a list item if the list is unbreakable (4)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
         test("should not outdent while nested within a list item if the list is unbreakable (4)", async () => {
@@ -500,6 +519,11 @@ describe("list", () => {
                     '<ol class="oe_unbreakable"><li>abc</li><li><div><div>[]def</div></div></li></ol>',
             });
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+        test("should not outdent while nested within a list item if the list is unbreakable (5)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
         test("should not outdent while nested within a list item if the list is unbreakable (5)", async () => {

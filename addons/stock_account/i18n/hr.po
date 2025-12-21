@@ -14,6 +14,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* stock_account
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -240,11 +241,16 @@
 # * stock_account
 #
 >>>>>>> upstream/18.0
+=======
+# * stock_account
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Davor Bojkić <davor.bojkic@storm.hr>, 2024
 # Vladimir Olujić <olujic.vladimir@storm.hr>, 2024
 # Karolina Tonković <karolina.tonkovic@storm.hr>, 2024
 # Mario Jureša <mario.juresa@uvid.hr>, 2024
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -576,10 +582,13 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # Martin Trigaux, 2024
 # Tina Milas, 2024
 # Vladimir Vrgoč, 2024
 # Bole <bole@dajmi5.com>, 2025
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1325,10 +1334,15 @@ msgstr ""
 # Luka Carević <luka@uvid.hr>, 2025
 # Ana Matulin <ana@uvid.hr>, 2025.
 >>>>>>> upstream/18.0
+=======
+# Luka Carević <luka@uvid.hr>, 2025
+# Ana Matulin <ana@uvid.hr>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1661,6 +1675,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-10-24 18:36+0000\n"
 "PO-Revision-Date: 2025-12-09 08:21+0000\n"
 "Last-Translator: Ana Matulin <ana@uvid.hr>\n"
@@ -1672,6 +1688,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1746,6 +1765,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1828,6 +1848,9 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
 =======
 "X-Generator: Weblate 5.14.3\n"
@@ -1903,6 +1926,7 @@ msgstr ""
 #: code:addons/stock_account/models/stock_valuation_layer.py:0
 msgid "%(user)s changed cost from %(previous)s to %(new_price)s - %(record)s"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2185,6 +2209,10 @@ msgstr ""
 "%(user)s je promijenio nabavnu cijenu %(previous)s na %(new_price)s - %"
 "(record)s"
 >>>>>>> upstream/18.0
+=======
+"%(user)s je promijenio nabavnu cijenu %(previous)s na %(new_price)s - %"
+"(record)s"
+>>>>>>> upstream/18.0
 
 #. module: stock_account
 #. odoo-python
@@ -2246,7 +2274,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "%(user)s changed stock valuation from  %(previous)s to %(new_value)s - %(product)s\n"
+=======
+"%(user)s changed stock valuation from  %(previous)s to %(new_value)s - %"
+"(product)s\n"
+>>>>>>> upstream/18.0
 =======
 "%(user)s changed stock valuation from  %(previous)s to %(new_value)s - %"
 "(product)s\n"
@@ -2534,7 +2567,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            <small class=\"mx-2 fst-italic\">Use a negative added value to record a decrease in the product value</small>"
+=======
+"                            <small class=\"mx-2 fst-italic\">Use a negative "
+"added value to record a decrease in the product value</small>"
+>>>>>>> upstream/18.0
 =======
 "                            <small class=\"mx-2 fst-italic\">Use a negative "
 "added value to record a decrease in the product value</small>"
@@ -2910,8 +2948,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Affect landed costs on reception operations and split them among products to"
 " update their cost price."
+=======
+"Affect landed costs on reception operations and split them among products to "
+"update their cost price."
+>>>>>>> upstream/18.0
 =======
 "Affect landed costs on reception operations and split them among products to "
 "update their cost price."
@@ -3246,7 +3289,11 @@ msgid "Analytic Account Line"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stavka analitičkog računa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stavka analitičkog računa"
 >>>>>>> upstream/18.0
@@ -3649,8 +3696,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Cannot find a stock input account for the product %s. You must define one on"
 " the product category, or on the location, before processing this operation."
+=======
+"Cannot find a stock input account for the product %s. You must define one on "
+"the product category, or on the location, before processing this operation."
+>>>>>>> upstream/18.0
 =======
 "Cannot find a stock input account for the product %s. You must define one on "
 "the product category, or on the location, before processing this operation."
@@ -4008,8 +4060,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Costing method change for product category %(category)s: from %(old_method)s"
 " to %(new_method)s."
+=======
+"Costing method change for product category %(category)s: from %(old_method)s "
+"to %(new_method)s."
+>>>>>>> upstream/18.0
 =======
 "Costing method change for product category %(category)s: from %(old_method)s "
 "to %(new_method)s."
@@ -4300,9 +4357,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Counterpart journal items for all incoming stock moves will be posted in this account, unless there is a specific valuation account\n"
 "                set on the source location. This is the default value for all products in this category. It can also directly be set on each product."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4472,6 +4532,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4757,7 +4820,11 @@ msgid "Display Lots & Serial Numbers on Invoices"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prikaži lot & serijski broj na računima"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prikaži lot & serijski broj na računima"
 >>>>>>> upstream/18.0
@@ -5208,7 +5275,11 @@ msgid "Display Serial & Lot Number on Invoices"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prikaži lot & serijski broj na računima"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prikaži lot & serijski broj na računima"
 >>>>>>> upstream/18.0
@@ -5600,8 +5671,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Due to a change of product category (from %(old_category)s to "
 "%(new_category)s), the costing method has changed for product %(product)s: "
+=======
+"Due to a change of product category (from %(old_category)s to %"
+"(new_category)s), the costing method has changed for product %(product)s: "
+>>>>>>> upstream/18.0
 =======
 "Due to a change of product category (from %(old_category)s to %"
 "(new_category)s), the costing method has changed for product %(product)s: "
@@ -5942,7 +6018,11 @@ msgid "Has Remaining Qty"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Preostala količina postoji"
+>>>>>>> upstream/18.0
 =======
 msgstr "Preostala količina postoji"
 >>>>>>> upstream/18.0
@@ -6442,9 +6522,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Manual: The accounting entries to value the inventory are not posted automatically.\n"
 "        Automated: An accounting entry is automatically created to value the inventory when a product enters or leaves the company.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6614,6 +6697,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6821,7 +6907,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Product %(product)s has quantity in valued location %(location)s without any lot.\n"
+=======
+"Product %(product)s has quantity in valued location %(location)s without any "
+"lot.\n"
+>>>>>>> upstream/18.0
 =======
 "Product %(product)s has quantity in valued location %(location)s without any "
 "lot.\n"
@@ -7188,7 +7279,11 @@ msgid "Production WIP Account"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Proizvodni WIP račun"
+>>>>>>> upstream/18.0
 =======
 msgstr "Proizvodni WIP račun"
 >>>>>>> upstream/18.0
@@ -7615,7 +7710,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7787,6 +7885,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7980,10 +8081,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Standard Price: The products are valued at their standard cost defined on the product.\n"
 "        Average Cost (AVCO): The products are valued at weighted average cost.\n"
 "        First In First Out (FIFO): The products are valued supposing those that enter the company first will also leave it first.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8155,6 +8259,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8255,6 +8360,8 @@ msgid ""
 "        "
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8284,6 +8391,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8401,7 +8511,11 @@ msgid "Stock Accounting Automatic"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Automatsko knjiženje zaliha"
+>>>>>>> upstream/18.0
 =======
 msgstr "Automatsko knjiženje zaliha"
 >>>>>>> upstream/18.0
@@ -8972,6 +9086,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nema slojeva vrednovanja. Slojevi vrednovanja se stvaraju kada postoje "
+"pomaci proizvoda koji utječu na vrednovanje zaliha."
+>>>>>>> upstream/18.0
 =======
 "Nema slojeva vrednovanja. Slojevi vrednovanja se stvaraju kada postoje "
 "pomaci proizvoda koji utječu na vrednovanje zaliha."
@@ -9433,8 +9552,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This operation might lead in a loss of data. Valuation will be identical for"
 " all lots/SN. Do you want to proceed ? "
+=======
+"This operation might lead in a loss of data. Valuation will be identical for "
+"all lots/SN. Do you want to proceed ? "
+>>>>>>> upstream/18.0
 =======
 "This operation might lead in a loss of data. Valuation will be identical for "
 "all lots/SN. Do you want to proceed ? "
@@ -9665,6 +9789,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/stock_account/models/product.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9968,6 +10093,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "This product is valuated by lot/serial number. Changing the cost will update "
 "the cost of every lot/serial number in stock."
 msgstr ""
@@ -10028,6 +10155,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10246,6 +10376,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10536,8 +10669,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Trigger a decrease of the delivered/received quantity in the associated Sale"
 " Order/Purchase Order"
+=======
+"Trigger a decrease of the delivered/received quantity in the associated Sale "
+"Order/Purchase Order"
+>>>>>>> upstream/18.0
 =======
 "Trigger a decrease of the delivered/received quantity in the associated Sale "
 "Order/Purchase Order"
@@ -10813,7 +10951,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10837,6 +10978,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10867,7 +11011,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10891,6 +11038,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11033,7 +11183,11 @@ msgid "Valuation at Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Procjena na datum"
+>>>>>>> upstream/18.0
 =======
 msgstr "Procjena na datum"
 >>>>>>> upstream/18.0
@@ -11439,7 +11593,11 @@ msgid "Valuation by Lot/Serial number"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Procjena prema lotu/SN"
+>>>>>>> upstream/18.0
 =======
 msgstr "Procjena prema lotu/SN"
 >>>>>>> upstream/18.0
@@ -11801,8 +11959,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Valuation method change for product category %(category)s: from "
 "%(old_method)s to %(new_method)s."
+=======
+"Valuation method change for product category %(category)s: from %"
+"(old_method)s to %(new_method)s."
+>>>>>>> upstream/18.0
 =======
 "Valuation method change for product category %(category)s: from %"
 "(old_method)s to %(new_method)s."
@@ -12111,6 +12274,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Used to value the product when the purchase cost is not known (e.g. inventory adjustment).\n"
 =======
 "        Used to value the product when the purchase cost is not known (e.g. "
@@ -12309,6 +12473,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "        Used to value the product when the purchase cost is not known (e.g. "
 "inventory adjustment).\n"
 "        Used to compute margins on sale orders."
@@ -12330,6 +12496,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12430,9 +12599,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "When doing automated inventory valuation, counterpart journal items for all outgoing stock moves will be posted in this account,\n"
 "                unless there is a specific valuation account set on the destination location. This is the default value for all products in this category.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12603,6 +12775,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12897,6 +13072,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: code:addons/stock_account/models/stock_lot.py:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/stock_account/models/stock_lot.py:0
 >>>>>>> upstream/18.0
@@ -13509,8 +13688,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You don't have any input valuation account defined on your product category."
 " You must define one before processing this operation."
+=======
+"You don't have any input valuation account defined on your product category. "
+"You must define one before processing this operation."
+>>>>>>> upstream/18.0
 =======
 "You don't have any input valuation account defined on your product category. "
 "You must define one before processing this operation."
@@ -13805,8 +13989,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You don't have any stock input account defined on your product category. You"
 " must define one before processing this operation."
+=======
+"You don't have any stock input account defined on your product category. You "
+"must define one before processing this operation."
+>>>>>>> upstream/18.0
 =======
 "You don't have any stock input account defined on your product category. You "
 "must define one before processing this operation."
@@ -14103,8 +14292,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You don't have any stock valuation account defined on your product category."
 " You must define one before processing this operation."
+=======
+"You don't have any stock valuation account defined on your product category. "
+"You must define one before processing this operation."
+>>>>>>> upstream/18.0
 =======
 "You don't have any stock valuation account defined on your product category. "
 "You must define one before processing this operation."

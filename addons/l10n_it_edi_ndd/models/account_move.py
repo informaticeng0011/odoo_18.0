@@ -161,6 +161,10 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        copy=False,
+>>>>>>> upstream/18.0
 =======
         copy=False,
 >>>>>>> upstream/18.0
@@ -734,11 +738,14 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _l10n_it_edi_get_values(self, pdf_values=None):
         # EXTENDS 'l10n_it_edi'
         res = super()._l10n_it_edi_get_values(pdf_values)
         res['document_type'] = self.l10n_it_document_type.code
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1047,6 +1054,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1256,6 +1266,7 @@ class AccountMove(models.Model):
             But when reversing the move, the document type of the original move is copied and so it isn't recomputed.
         """
         # EXTENDS account
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1732,6 +1743,8 @@ class AccountMove(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         default_values_list = default_values_list or [{}] * len(self)
         for default_values in default_values_list:
             default_values.update({'l10n_it_document_type': False})
@@ -1893,6 +1906,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2300,6 +2316,7 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         #l10n_it_payment_method
         if payment_method := get_text(data['xml_tree'], '//DatiPagamento/DettaglioPagamento/ModalitaPagamento'):
@@ -2307,6 +2324,8 @@ class AccountMove(models.Model):
                 self.l10n_it_payment_method = payment_method
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2570,6 +2589,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

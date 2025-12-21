@@ -1,6 +1,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { Component } from "@odoo/owl";
+=======
+import { Component, useEffect, useRef } from "@odoo/owl";
+>>>>>>> upstream/18.0
 =======
 import { Component, useEffect, useRef } from "@odoo/owl";
 >>>>>>> upstream/18.0
@@ -19,7 +23,10 @@ export class KanbanDropdownMenuWrapper extends Component {
         this.dropdownControl = useDropdownCloser();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         this.rootRef = useRef("rootRef");
@@ -28,6 +35,9 @@ export class KanbanDropdownMenuWrapper extends Component {
             dropdownEls.forEach((el) => el.classList.add("o-navigable"));
         });
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

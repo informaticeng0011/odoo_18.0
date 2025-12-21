@@ -396,6 +396,7 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             rec.l10n_latam_document_type_id = document_types and document_types[0].id
 =======
             if rec.l10n_latam_document_type_id not in document_types:
@@ -1006,6 +1007,8 @@ class AccountMove(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             if rec.debit_origin_id:
                 document_types = document_types.filtered(lambda x: x.internal_type == 'debit_note')
             if rec.l10n_latam_document_type_id not in document_types:
@@ -1042,6 +1045,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -27,7 +27,11 @@ describe("Selection collapsed", () => {
         });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should insert a <br> at the beggining of a paragraph", async () => {
+=======
+        test("should insert a <br> at the beggining of a paragraph (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should insert a <br> at the beggining of a paragraph (1)", async () => {
 >>>>>>> upstream/18.0
@@ -37,6 +41,12 @@ describe("Selection collapsed", () => {
                 contentAfter: "<p><br>[]abc</p>",
             });
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should insert a <br> at the beggining of a paragraph (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -51,7 +61,11 @@ describe("Selection collapsed", () => {
         });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should insert a <br> within text", async () => {
+=======
+        test("should insert a <br> within text (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should insert a <br> within text (1)", async () => {
 >>>>>>> upstream/18.0
@@ -61,6 +75,12 @@ describe("Selection collapsed", () => {
                 contentAfter: "<p>ab<br>[]cd</p>",
             });
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should insert a <br> within text (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -74,6 +94,12 @@ describe("Selection collapsed", () => {
                 contentAfter: "<p>ab&nbsp;<br>[]cd</p>",
             });
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should insert a <br> within text (3)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -171,7 +197,11 @@ describe("Selection collapsed", () => {
 
     describe("Format", () => {
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should insert a <br> before a format node", async () => {
+=======
+        test("should insert a <br> before a format node (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should insert a <br> before a format node (1)", async () => {
 >>>>>>> upstream/18.0
@@ -181,6 +211,12 @@ describe("Selection collapsed", () => {
                 contentAfter: "<p>abc<br><b>[]def</b></p>",
             });
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should insert a <br> before a format node (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -194,6 +230,12 @@ describe("Selection collapsed", () => {
                 contentAfter: "<p>abc<b><br>[]def</b></p>",
             });
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should insert a <br> before a format node (3)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -207,6 +249,12 @@ describe("Selection collapsed", () => {
                 contentAfter: "<p>abc&nbsp;<b><br>[]def</b></p>",
             });
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should insert a <br> before a format node (4)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -222,7 +270,11 @@ describe("Selection collapsed", () => {
         });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should insert a <br> after a format node", async () => {
+=======
+        test("should insert a <br> after a format node (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should insert a <br> after a format node (1)", async () => {
 >>>>>>> upstream/18.0
@@ -233,6 +285,12 @@ describe("Selection collapsed", () => {
                 contentAfter: "<p><b>abc</b><br>[]def</p>",
             });
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should insert a <br> after a format node (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -246,6 +304,12 @@ describe("Selection collapsed", () => {
                 contentAfter: "<p><b>abc<br>[]</b>def</p>",
             });
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should insert a <br> after a format node (3)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -262,6 +326,12 @@ describe("Selection collapsed", () => {
                 contentAfter: "<p><b>abc<br>[]</b>&nbsp;def</p>",
             });
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should insert a <br> after a format node (4)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -277,7 +347,11 @@ describe("Selection collapsed", () => {
         });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should insert a <br> at the beginning of a format node", async () => {
+=======
+        test("should insert a <br> at the beginning of a format node (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should insert a <br> at the beginning of a format node (1)", async () => {
 >>>>>>> upstream/18.0
@@ -288,6 +362,12 @@ describe("Selection collapsed", () => {
                 contentAfter: "<p><br><b>[]abc</b></p>",
             });
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should insert a <br> at the beginning of a format node (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -300,6 +380,12 @@ describe("Selection collapsed", () => {
                 contentAfter: "<p><b><br>[]abc</b></p>",
             });
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should insert a <br> at the beginning of a format node (3)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -314,7 +400,11 @@ describe("Selection collapsed", () => {
         });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should insert a <br> within a format node", async () => {
+=======
+        test("should insert a <br> within a format node (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should insert a <br> within a format node (1)", async () => {
 >>>>>>> upstream/18.0
@@ -324,6 +414,12 @@ describe("Selection collapsed", () => {
                 contentAfter: "<p><b>ab<br>[]cd</b></p>",
             });
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should insert a <br> within a format node (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -337,6 +433,12 @@ describe("Selection collapsed", () => {
                 contentAfter: "<p><b>ab&nbsp;<br>[]cd</b></p>",
             });
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should insert a <br> within a format node (3)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -352,7 +454,11 @@ describe("Selection collapsed", () => {
         });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should insert a line break (2 <br>) at the end of a format node", async () => {
+=======
+        test("should insert a line break (2 <br>) at the end of a format node (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should insert a line break (2 <br>) at the end of a format node (1)", async () => {
 >>>>>>> upstream/18.0
@@ -365,6 +471,12 @@ describe("Selection collapsed", () => {
                 contentAfter: "<p><b>abc</b><br>[]<br></p>",
             });
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should insert a line break (2 <br>) at the end of a format node (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -379,6 +491,12 @@ describe("Selection collapsed", () => {
                 contentAfter: "<p><b>abc<br>[]<br></b></p>",
             });
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should insert a line break (2 <br>) at the end of a format node (3)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -418,7 +536,11 @@ describe("Selection collapsed", () => {
 
 describe("Selection not collapsed", () => {
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should delete the first half of a paragraph, then insert a <br>", async () => {
+=======
+    test("should delete the first half of a paragraph, then insert a <br> (1)", async () => {
+>>>>>>> upstream/18.0
 =======
     test("should delete the first half of a paragraph, then insert a <br> (1)", async () => {
 >>>>>>> upstream/18.0
@@ -429,6 +551,12 @@ describe("Selection not collapsed", () => {
             contentAfter: "<p><br>[]cd</p>",
         });
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should delete the first half of a paragraph, then insert a <br> (2)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -443,7 +571,11 @@ describe("Selection not collapsed", () => {
     });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should delete part of a paragraph, then insert a <br>", async () => {
+=======
+    test("should delete part of a paragraph, then insert a <br> (1)", async () => {
+>>>>>>> upstream/18.0
 =======
     test("should delete part of a paragraph, then insert a <br> (1)", async () => {
 >>>>>>> upstream/18.0
@@ -454,6 +586,12 @@ describe("Selection not collapsed", () => {
             contentAfter: "<p>a<br>[]d</p>",
         });
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should delete part of a paragraph, then insert a <br> (2)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -468,7 +606,11 @@ describe("Selection not collapsed", () => {
     });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should delete the last half of a paragraph, then insert a line break (2 <br>)", async () => {
+=======
+    test("should delete the last half of a paragraph, then insert a line break (2 <br>) (1)", async () => {
+>>>>>>> upstream/18.0
 =======
     test("should delete the last half of a paragraph, then insert a line break (2 <br>) (1)", async () => {
 >>>>>>> upstream/18.0
@@ -481,6 +623,12 @@ describe("Selection not collapsed", () => {
             contentAfter: "<p>ab<br>[]<br></p>",
         });
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should delete the last half of a paragraph, then insert a line break (2 <br>) (2)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -497,7 +645,11 @@ describe("Selection not collapsed", () => {
     });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should delete all contents of a paragraph, then insert a line break", async () => {
+=======
+    test("should delete all contents of a paragraph, then insert a line break (1)", async () => {
+>>>>>>> upstream/18.0
 =======
     test("should delete all contents of a paragraph, then insert a line break (1)", async () => {
 >>>>>>> upstream/18.0
@@ -508,6 +660,12 @@ describe("Selection not collapsed", () => {
             contentAfter: "<p><br>[]<br></p>",
         });
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should delete all contents of a paragraph, then insert a line break (2)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 

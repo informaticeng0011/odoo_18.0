@@ -103,7 +103,12 @@ Babel==2.9.1 ; python_version < '3.11'  # min version = 2.6.0 (Focal with securi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Babel==2.10.3 ; python_version >= '3.11'
+=======
+Babel==2.10.3 ; python_version >= '3.11' and python_version < '3.13'
+Babel==2.17.0 ; python_version >= '3.13'
+>>>>>>> upstream/18.0
 =======
 Babel==2.10.3 ; python_version >= '3.11' and python_version < '3.13'
 Babel==2.17.0 ; python_version >= '3.13'
@@ -615,6 +620,7 @@ freezegun==1.1.0 ; python_version < '3.11'  # (Jammy)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 freezegun==1.2.1 ; python_version >= '3.11'
 geoip2==2.9.0
 gevent==21.8.0 ; sys_platform != 'win32' and python_version == '3.10'  # (Jammy)
@@ -624,6 +630,8 @@ greenlet==1.1.2 ; sys_platform != 'win32' and python_version == '3.10'  # (Jammy
 greenlet==2.0.2 ; sys_platform != 'win32' and python_version > '3.10' and python_version < '3.12'
 greenlet==3.0.3 ; sys_platform != 'win32' and python_version >= '3.12'  # (Noble)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -932,6 +940,9 @@ greenlet==3.1.1 ; sys_platform != 'win32' and python_version >= '3.13'  # (Trixi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1252,7 +1263,12 @@ Pillow==9.4.0 ; python_version > '3.10' and python_version < '3.12'
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Pillow==10.2.0 ; python_version >= '3.12'  # (Noble) Mostly to have a wheel package
+=======
+Pillow==10.2.0 ; python_version >= '3.12' and python_version < '3.13'  # (Noble) Mostly to have a wheel package
+Pillow==11.1.0 ; python_version >= '3.13'  # (Noble) Mostly to have a wheel package
+>>>>>>> upstream/18.0
 =======
 Pillow==10.2.0 ; python_version >= '3.12' and python_version < '3.13'  # (Noble) Mostly to have a wheel package
 Pillow==11.1.0 ; python_version >= '3.13'  # (Noble) Mostly to have a wheel package
@@ -1759,6 +1775,7 @@ psycopg2==2.9.5 ; python_version == '3.11'
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 psycopg2==2.9.9 ; python_version >= '3.12' # (Noble) Mostly to have a wheel package
 =======
 psycopg2==2.9.9 ; python_version >= '3.12' and python_version < '3.13' # (Noble)
@@ -2063,6 +2080,8 @@ PyPDF2==2.12.1 ; python_version > '3.10'
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 psycopg2==2.9.9 ; python_version >= '3.12' and python_version < '3.13' # (Noble)
 psycopg2==2.9.10 ; python_version >= '3.13' # (Trixie)
 pyopenssl==21.0.0 ; python_version < '3.12'
@@ -2119,6 +2138,9 @@ PyPDF==5.4.0 ; python_version >= '3.13' # (Trixie)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2350,7 +2372,12 @@ zeep==4.1.0 ; python_version < '3.11'  # (jammy)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 zeep==4.2.1 ; python_version >= '3.11'
+=======
+zeep==4.2.1 ; python_version >= '3.11' and python_version < '3.13'
+zeep==4.3.1 ; python_version >= '3.13'
+>>>>>>> upstream/18.0
 =======
 zeep==4.2.1 ; python_version >= '3.11' and python_version < '3.13'
 zeep==4.3.1 ; python_version >= '3.13'

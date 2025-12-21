@@ -1,5 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* sale_management
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -25,6 +26,9 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+# * sale_management
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
@@ -35,6 +39,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -47,11 +52,15 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -84,10 +93,18 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Wil Odoo, 2024\n"
 "Language-Team: Indonesian (https://app.transifex.com/odoo/teams/41243/id/)\n"
+=======
+"POT-Creation-Date: 2025-12-12 18:36+0000\n"
+"PO-Revision-Date: 2025-12-20 18:01+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Indonesian <https://translate.odoo.com/projects/odoo-18/"
+"sale_management/id/>\n"
+>>>>>>> upstream/18.0
 "Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -108,6 +125,10 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=1; plural=0;\n"
+=======
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: sale_management
 #: model_terms:ir.ui.view,arch_db:sale_management.report_saleorder_document_inherit_sale_management
@@ -620,8 +641,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Kerepotan menggunakan katalog produk yang kompleks? Coba Konfigurator Produk"
 " untuk membantu sales mengonfigurasi produk dengan beragam opsi: warna, "
+=======
+"Kerepotan menggunakan katalog produk yang kompleks? Coba Konfigurator Produk "
+"untuk membantu sales mengonfigurasi produk dengan beragam opsi: warna, "
+>>>>>>> upstream/18.0
 =======
 "Kerepotan menggunakan katalog produk yang kompleks? Coba Konfigurator Produk "
 "untuk membantu sales mengonfigurasi produk dengan beragam opsi: warna, "
@@ -744,6 +770,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                Send these quotes by email and let your customers sign online.\n"
 "                Use cross-selling and discounts to push and boost your sales."
 msgstr ""
@@ -751,6 +778,8 @@ msgstr ""
 "                Kirim quote ini melalui email dan biarkan pelanggan Anda tanda tangan online.\n"
 "                Lakukan cross-selling dan berikan diskon untuk mendorong sales Anda."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -779,6 +808,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -820,6 +852,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Your quotation contains products from company %(product_company)s whereas your quotation belongs to company %(quote_company)s. \n"
 " Please change the company of your quotation or remove the products from other companies (%(bad_products)s)."
 msgstr ""
@@ -833,6 +866,8 @@ msgid "Your template cannot contain products from multiple companies."
 msgstr ""
 "Templat Anda tidak boleh memiliki produk dari lebih dari satu perusahaan."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -860,6 +895,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -878,6 +916,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/sale_management/models/sale_order_template.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -903,12 +942,22 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Your template belongs to company %(template_company)s but contains products "
 "from company (%(product_company)s) that are not accessible to %"
 "(template_company)s.\n"
 "Please change the company of your template or remove the products from other "
 "companies."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Templat Anda milik perusaahan %(template_company)s tapi memiliki produk dari "
+"perusahaan (%(product_company)s) yang tidak dapat diakses %(template_company)"
+"s.\n"
+"Silakan ubah perusahaan dari templat Anda atau hapus produk dari perusahaan "
+"lain."
+>>>>>>> upstream/18.0
 
 #. module: sale_management
 #. odoo-python
@@ -920,6 +969,14 @@ msgid ""
 "Please change the company of your template or remove the products from other "
 "companies."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Templat Anda milik perusahaan %(template_company)s tapi memiliki produk dari "
+"perusahaan lain (%(product_company)s) yang tidak dapat diakses %"
+"(template_company)s.\n"
+"Silakan ubah perusahaan dari templat Anda atau hapus produk dari perusahaan "
+"lain."
+>>>>>>> upstream/18.0
 
 #. module: sale_management
 #. odoo-python
@@ -935,6 +992,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -947,6 +1005,10 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+"Templat Anda tidak memiliki produk dari perusahaan tertentu bila dibagi "
+"antara perusahaan. Silakan batasi akses templat, atau hapus produk tersebut."
 >>>>>>> upstream/18.0
 
 #. module: sale_management
@@ -965,7 +1027,10 @@ msgstr "contoh Paket Konsultansi Standar"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -999,6 +1064,9 @@ msgstr "contoh Paket Konsultansi Standar"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

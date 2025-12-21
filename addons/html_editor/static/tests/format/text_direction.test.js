@@ -138,6 +138,10 @@ import { getContent } from "../_helpers/selection";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { expectElementCount } from "../_helpers/ui_expectations";
+>>>>>>> upstream/18.0
 =======
 import { expectElementCount } from "../_helpers/ui_expectations";
 >>>>>>> upstream/18.0
@@ -566,7 +570,11 @@ test("should not switch direction of non-editable elements", async () => {
 });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 test("should properly switch the direction of the single level list (ltr).", async () => {
+=======
+test("should properly switch the direction of the single level list (ltr). (1)", async () => {
+>>>>>>> upstream/18.0
 =======
 test("should properly switch the direction of the single level list (ltr). (1)", async () => {
 >>>>>>> upstream/18.0
@@ -576,6 +584,12 @@ test("should properly switch the direction of the single level list (ltr). (1)",
         contentAfter: `<ul dir="rtl"><li>a</li><li>b[]</li><li>c</li></ul>`,
     });
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+});
+
+test("should properly switch the direction of the single level list (ltr). (2)", async () => {
+>>>>>>> upstream/18.0
 =======
 });
 
@@ -587,6 +601,12 @@ test("should properly switch the direction of the single level list (ltr). (2)",
         contentAfter: `<ol dir="rtl"><li>a</li><li>b[]</li><li>c</li></ol>`,
     });
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+});
+
+test("should properly switch the direction of the single level list (ltr). (3)", async () => {
+>>>>>>> upstream/18.0
 =======
 });
 
@@ -600,7 +620,11 @@ test("should properly switch the direction of the single level list (ltr). (3)",
 });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 test("should properly switch the direction of nested list (ltr).", async () => {
+=======
+test("should properly switch the direction of nested list (ltr). (1)", async () => {
+>>>>>>> upstream/18.0
 =======
 test("should properly switch the direction of nested list (ltr). (1)", async () => {
 >>>>>>> upstream/18.0
@@ -610,6 +634,12 @@ test("should properly switch the direction of nested list (ltr). (1)", async () 
         contentAfter: `<ul dir="rtl"><li>a[]</li><li class="oe-nested"><ul dir="rtl"><li>b</li><li>c</li></ul></li><li>d</li></ul>`,
     });
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+});
+
+test("should properly switch the direction of nested list (ltr). (2)", async () => {
+>>>>>>> upstream/18.0
 =======
 });
 
@@ -621,6 +651,12 @@ test("should properly switch the direction of nested list (ltr). (2)", async () 
         contentAfter: `<ol dir="rtl"><li>a[]</li><li class="oe-nested"><ol dir="rtl"><li>b</li><li>c</li></ol></li><li>d</li></ol>`,
     });
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+});
+
+test("should properly switch the direction of nested list (ltr). (3)", async () => {
+>>>>>>> upstream/18.0
 =======
 });
 
@@ -632,6 +668,12 @@ test("should properly switch the direction of nested list (ltr). (3)", async () 
         contentAfter: `<ul class="o_checklist" dir="rtl"><li>a[]</li><li class="oe-nested"><ul class="o_checklist" dir="rtl"><li>b</li><li>c</li></ul></li><li>d</li></ul>`,
     });
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+});
+
+test("should properly switch the direction of nested list (ltr). (4)", async () => {
+>>>>>>> upstream/18.0
 =======
 });
 
@@ -645,7 +687,11 @@ test("should properly switch the direction of nested list (ltr). (4)", async () 
 });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 test("should properly switch the direction of the single level list (rtl).", async () => {
+=======
+test("should properly switch the direction of the single level list (rtl). (1)", async () => {
+>>>>>>> upstream/18.0
 =======
 test("should properly switch the direction of the single level list (rtl). (1)", async () => {
 >>>>>>> upstream/18.0
@@ -655,6 +701,11 @@ test("should properly switch the direction of the single level list (rtl). (1)",
         contentAfter: `<ul><li>a</li><li>b[]</li><li>c</li></ul>`,
     });
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+});
+test("should properly switch the direction of the single level list (rtl). (2)", async () => {
+>>>>>>> upstream/18.0
 =======
 });
 test("should properly switch the direction of the single level list (rtl). (2)", async () => {
@@ -665,6 +716,11 @@ test("should properly switch the direction of the single level list (rtl). (2)",
         contentAfter: `<ol><li>a</li><li>b[]</li><li>c</li></ol>`,
     });
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+});
+test("should properly switch the direction of the single level list (rtl). (3)", async () => {
+>>>>>>> upstream/18.0
 =======
 });
 test("should properly switch the direction of the single level list (rtl). (3)", async () => {
@@ -677,7 +733,11 @@ test("should properly switch the direction of the single level list (rtl). (3)",
 });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 test("should properly switch the direction of nested list (rtl).", async () => {
+=======
+test("should properly switch the direction of nested list (rtl). (1)", async () => {
+>>>>>>> upstream/18.0
 =======
 test("should properly switch the direction of nested list (rtl). (1)", async () => {
 >>>>>>> upstream/18.0
@@ -687,6 +747,12 @@ test("should properly switch the direction of nested list (rtl). (1)", async () 
         contentAfter: `<ul><li>a[]</li><li class="oe-nested"><ul><li>b</li><li>c</li></ul></li><li>d</li></ul>`,
     });
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+});
+
+test("should properly switch the direction of nested list (rtl). (2)", async () => {
+>>>>>>> upstream/18.0
 =======
 });
 
@@ -698,6 +764,12 @@ test("should properly switch the direction of nested list (rtl). (2)", async () 
         contentAfter: `<ol><li>a[]</li><li class="oe-nested"><ol><li>b</li><li>c</li></ol></li><li>d</li></ol>`,
     });
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+});
+
+test("should properly switch the direction of nested list (rtl). (3)", async () => {
+>>>>>>> upstream/18.0
 =======
 });
 
@@ -709,6 +781,12 @@ test("should properly switch the direction of nested list (rtl). (3)", async () 
         contentAfter: `<ul class="o_checklist"><li>a[]</li><li class="oe-nested"><ul class="o_checklist"><li>b</li><li>c</li></ul></li><li>d</li></ul>`,
     });
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+});
+
+test("should properly switch the direction of nested list (rtl). (4)", async () => {
+>>>>>>> upstream/18.0
 =======
 });
 
@@ -860,7 +938,11 @@ test("should switch the direction from the powerbox", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-powerbox").toHaveCount(1);
+=======
+    await expectElementCount(".o-we-powerbox", 1);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-powerbox", 1);
 >>>>>>> upstream/18.0
@@ -1402,7 +1484,11 @@ test("should switch the direction from the powerbox", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-powerbox").toHaveCount(1);
+=======
+    await expectElementCount(".o-we-powerbox", 1);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-powerbox", 1);
 >>>>>>> upstream/18.0

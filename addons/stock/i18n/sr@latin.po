@@ -100,7 +100,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* stock
+=======
+# * stock
+>>>>>>> upstream/18.0
 =======
 # * stock
 >>>>>>> upstream/18.0
@@ -407,6 +411,7 @@
 # Bojan Borovnjak <bojan.borovnjak@modoolar.com>, 2022
 # Uros Kalajdzic <ukalajdzic@gmail.com>, 2022
 # Martin Trigaux, 2022
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -837,10 +842,15 @@
 # Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>, 2023, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
+=======
+# Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>, 2023, 2025.
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1294,6 +1304,11 @@ msgstr ""
 "PO-Revision-Date: 2025-11-21 06:40+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-09-27 01:48+0000\n"
+"PO-Revision-Date: 2025-11-21 06:40+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Serbian (Latin script) <https://translate.odoo.com/projects/"
 "odoo-18/stock/sr_Latn/>\n"
 "Language: sr@latin\n"
@@ -1402,6 +1417,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1758,12 +1776,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-python
 #: code:addons/stock/models/product.py:0
 msgid " They are always available."
 msgstr ""
 
 #. module: stock
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2072,12 +2093,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-python
 #: code:addons/stock/models/product.py:0
 msgid " You manage the inventory level."
 msgstr ""
 
 #. module: stock
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2391,7 +2415,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2737,6 +2764,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3043,11 +3073,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/stock/models/stock_move.py:0
 msgid ""
 "%(product_name)s --> Product UoM is %(product_uom)s "
 "(%(product_uom_category)s) - Move UoM is %(move_uom)s (%(move_uom_category)s)"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3361,6 +3394,9 @@ msgid "%(warehouse)s Sequence %(code)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3769,6 +3805,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+".\n"
+"            Možda će biti potrebne ručne radnje."
+>>>>>>> upstream/18.0
 =======
 ".\n"
 "            Možda će biti potrebne ručne radnje."
@@ -3965,7 +4006,11 @@ msgid "3.00"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "3,00"
+>>>>>>> upstream/18.0
 =======
 msgstr "3,00"
 >>>>>>> upstream/18.0
@@ -4183,6 +4228,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:stock.report_inventory
 msgid "98"
 msgstr ""
@@ -4194,6 +4240,8 @@ msgid ": Insufficient Quantity To Scrap"
 msgstr ""
 
 #. module: stock
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4520,7 +4568,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "to bring products in this location."
+=======
+"to bring the missing quantity in this location."
+>>>>>>> upstream/18.0
 =======
 "to bring the missing quantity in this location."
 >>>>>>> upstream/18.0
@@ -4937,6 +4989,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<br><br>\n"
 "        We are glad to inform you that your order has been shipped.\n"
 "        <t t-if=\"hasattr(object, 'carrier_tracking_ref') and object."
@@ -4952,6 +5005,8 @@ msgid ""
 "                        <br><a t-att-href=\"line[1]\" target=\"_blank\" t-"
 "out=\"line[0] or ''\"></a>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5263,6 +5318,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5466,6 +5524,7 @@ msgid ""
 "                </t>\n"
 "                <t t-else=\"\">\n"
 "                    <a t-attf-href=\"{{ object.carrier_tracking_url }}\" "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5779,6 +5838,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "target=\"_blank\" t-out=\"object.carrier_tracking_ref or ''\"/>.\n"
 "                </t>\n"
 "            </t>\n"
@@ -5894,6 +5955,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6264,6 +6328,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:stock.view_partner_stock_warnings_form
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:stock.view_partner_stock_warnings_form
 >>>>>>> upstream/18.0
@@ -6685,7 +6753,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6988,6 +7059,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7333,12 +7407,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<span><strong>Customer Address:</strong></span>"
 msgstr ""
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.report_delivery_document
 #: model_terms:ir.ui.view,arch_db:stock.report_picking
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7643,6 +7720,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:stock.report_delivery_document
 msgid "<span><strong>Vendor Address:</strong></span>"
 msgstr ""
@@ -7664,6 +7742,8 @@ msgid "<span><strong>Warehouse:</strong></span>"
 msgstr ""
 
 #. module: stock
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7989,7 +8069,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8292,6 +8375,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8604,6 +8690,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:stock.report_inventory
 msgid "<strong>Available Quantity</strong>"
 msgstr ""
@@ -8611,6 +8698,11 @@ msgstr ""
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.report_inventory
 msgid "<strong>Counted Quantity</strong>"
+=======
+#: model_terms:ir.ui.view,arch_db:stock.report_delivery_document
+#: model_terms:ir.ui.view,arch_db:stock.report_picking
+msgid "<strong>Customer Address</strong>"
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:stock.report_delivery_document
 #: model_terms:ir.ui.view,arch_db:stock.report_picking
@@ -9237,12 +9329,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:stock.report_inventory
 msgid "<strong>Location</strong>"
 msgstr ""
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.report_inventory
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9558,6 +9653,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:stock.report_inventory
 msgid "<strong>On hand Quantity</strong>"
 msgstr ""
@@ -9566,6 +9662,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:stock.report_delivery_document
 #: model_terms:ir.ui.view,arch_db:stock.report_picking
 msgid "<strong>Order:</strong>"
+=======
+#: model_terms:ir.ui.view,arch_db:stock.report_delivery_document
+#: model_terms:ir.ui.view,arch_db:stock.report_picking
+msgid "<strong>Order</strong>"
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:stock.report_delivery_document
 #: model_terms:ir.ui.view,arch_db:stock.report_picking
@@ -10184,11 +10285,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:stock.report_inventory
 msgid "<strong>Package</strong>"
 msgstr ""
 
 #. module: stock
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10495,7 +10599,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:stock.report_inventory
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10713,6 +10820,7 @@ msgstr ""
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.report_picking
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11114,6 +11222,9 @@ msgid "<strong>Scheduled Date</strong>"
 =======
 msgid "<strong>Scheduled Date</strong>"
 >>>>>>> upstream/18.0
+=======
+msgid "<strong>Scheduled Date</strong>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock
@@ -11218,7 +11329,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<strong>Shipping Date:</strong>"
+=======
+msgid "<strong>Shipping Date</strong>"
+>>>>>>> upstream/18.0
 =======
 msgid "<strong>Shipping Date</strong>"
 >>>>>>> upstream/18.0
@@ -11628,7 +11743,11 @@ msgstr "<strong>Potpis</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<strong>Status:</strong>"
+=======
+msgid "<strong>Status</strong>"
+>>>>>>> upstream/18.0
 =======
 msgid "<strong>Status</strong>"
 >>>>>>> upstream/18.0
@@ -12047,7 +12166,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12357,6 +12479,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12681,7 +12806,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12986,6 +13114,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13424,8 +13555,11 @@ msgstr "Dodatne informacije"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:stock.field_stock_warehouse__partner_id
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13727,6 +13861,9 @@ msgstr "Dodatne informacije"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14057,6 +14194,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #: model:ir.model.fields.selection,name:stock.selection__stock_picking__search_date_category__after
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_internal_search
@@ -14402,6 +14540,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:stock.selection__stock_picking__search_date_category__after
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_internal_search
 msgid "After"
@@ -14433,6 +14573,9 @@ msgstr "Posle"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14525,6 +14668,7 @@ msgid "All Categories"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: stock
@@ -14742,6 +14886,11 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr "Sve kategorije"
+
+#. module: stock
 >>>>>>> upstream/18.0
 =======
 msgstr "Sve kategorije"
@@ -14987,6 +15136,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15133,6 +15283,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:stock.stock_putaway_list
 msgid "All Products"
 msgstr ""
+=======
+#: model_terms:ir.ui.view,arch_db:stock.stock_putaway_list
+msgid "All Products"
+msgstr "Svi proizvodi"
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:stock.stock_putaway_list
 msgid "All Products"
@@ -15461,7 +15616,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -15764,6 +15922,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15910,6 +16069,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:stock.view_stock_rule_form
 msgid "Applicability"
 msgstr ""
+=======
+#: model_terms:ir.ui.view,arch_db:stock.view_stock_rule_form
+msgid "Applicability"
+msgstr "Primjenjuje se na"
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:stock.view_stock_rule_form
 msgid "Applicability"
@@ -16218,8 +16382,11 @@ msgstr "Arhivirano"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields.selection,name:stock.selection__stock_picking__move_type__direct
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -16524,6 +16691,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16968,6 +17138,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:stock.report_inventory
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:stock.report_inventory
 >>>>>>> upstream/18.0
@@ -17452,7 +17626,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Batch Transfers"
+=======
+msgid "Batch, Wave & Cluster Transfers"
+>>>>>>> upstream/18.0
 =======
 msgid "Batch, Wave & Cluster Transfers"
 >>>>>>> upstream/18.0
@@ -17858,6 +18036,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields.selection,name:stock.selection__stock_picking__search_date_category__before
+#: model_terms:ir.ui.view,arch_db:stock.view_picking_internal_search
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields.selection,name:stock.selection__stock_picking__search_date_category__before
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_internal_search
@@ -18390,7 +18573,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -18693,6 +18879,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -19055,7 +19244,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:stock.view_procurement_compute_wizard
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -19431,11 +19623,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:stock.field_stock_return_picking__move_dest_exists
 msgid "Chained Move Exists"
 msgstr ""
 
 #. module: stock
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -19743,7 +19938,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -20049,6 +20247,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -20373,8 +20574,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Character(s) used to separate data contained within an aggregate barcode (i."
 "e. a barcode containing multiple barcode encodings)"
+=======
+"Character(s) used to separate data contained within an aggregate barcode "
+"(i.e. a barcode containing multiple barcode encodings)"
+>>>>>>> upstream/18.0
 =======
 "Character(s) used to separate data contained within an aggregate barcode "
 "(i.e. a barcode containing multiple barcode encodings)"
@@ -20900,11 +21106,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,help:stock.field_stock_location__return_location
 msgid "Check this box to allow using this location as a return location."
 msgstr ""
 
 #. module: stock
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -21187,7 +21396,11 @@ msgid "Clear"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Očisti"
+>>>>>>> upstream/18.0
 =======
 msgstr "Očisti"
 >>>>>>> upstream/18.0
@@ -21387,6 +21600,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:stock.field_stock_scrap_reason_tag__color
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:stock.field_stock_scrap_reason_tag__color
 >>>>>>> upstream/18.0
@@ -21835,7 +22052,10 @@ msgstr "Izračunajte troškove transporta i dostave DHL-om"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -22141,6 +22361,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -22450,7 +22673,10 @@ msgstr "Izračunajte troškove transporta i dostave FedEx-om"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -22756,6 +22982,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -23075,7 +23304,10 @@ msgstr "Izračunajte troškove transporta i dostave UPS-om"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -23381,6 +23613,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -23685,7 +23920,10 @@ msgstr "Izračunajte troškove transporta i dostave USPS-om"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -23991,6 +24229,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -24311,7 +24552,11 @@ msgid "Contents"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sadržaj"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sadržaj"
 >>>>>>> upstream/18.0
@@ -24436,7 +24681,11 @@ msgid "Control panel buttons"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dugmad kontrolnog panela"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dugmad kontrolnog panela"
 >>>>>>> upstream/18.0
@@ -24686,6 +24935,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:stock.report_inventory
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:stock.report_inventory
 >>>>>>> upstream/18.0
@@ -25200,8 +25453,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:stock.field_stock_scheduler_compute__create_uid
 #: model:ir.model.fields,field_description:stock.field_stock_scrap__create_uid
+=======
+#: model:ir.model.fields,field_description:stock.field_stock_scrap__create_uid
+#: model:ir.model.fields,field_description:stock.field_stock_scrap_reason_tag__create_uid
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:stock.field_stock_scrap__create_uid
 #: model:ir.model.fields,field_description:stock.field_stock_scrap_reason_tag__create_uid
@@ -25748,8 +26006,13 @@ msgstr "Kreirao"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:stock.field_stock_scheduler_compute__create_date
 #: model:ir.model.fields,field_description:stock.field_stock_scrap__create_date
+=======
+#: model:ir.model.fields,field_description:stock.field_stock_scrap__create_date
+#: model:ir.model.fields,field_description:stock.field_stock_scrap_reason_tag__create_date
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:stock.field_stock_scrap__create_date
 #: model:ir.model.fields,field_description:stock.field_stock_scrap_reason_tag__create_date
@@ -26212,6 +26475,7 @@ msgid "Creation date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: stock
@@ -26429,6 +26693,11 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr "Datum kreiranja"
+
+#. module: stock
 >>>>>>> upstream/18.0
 =======
 msgstr "Datum kreiranja"
@@ -26676,6 +26945,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -27046,9 +27318,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:stock.report_delivery_document
 #: model_terms:ir.ui.view,arch_db:stock.report_lot_label
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -27357,6 +27632,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -27701,7 +27979,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -28004,6 +28285,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -28320,7 +28604,10 @@ msgstr "Datum"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -28623,6 +28910,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -28984,7 +29274,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -29288,6 +29581,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -29629,11 +29925,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:stock.field_stock_picking_type__default_location_dest_id
 msgid "Default Destination Location"
 msgstr ""
 
 #. module: stock
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -29949,11 +30248,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:stock.field_stock_picking_type__default_location_src_id
 msgid "Default Source Location"
 msgstr ""
 
 #. module: stock
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -30264,11 +30566,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:stock.field_stock_picking_type__default_location_return_id
 msgid "Default returns location"
 msgstr ""
 
 #. module: stock
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -30643,7 +30948,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Deliver goods directly (1 step)"
+=======
+msgid "Deliver (1 step)"
+>>>>>>> upstream/18.0
 =======
 msgid "Deliver (1 step)"
 >>>>>>> upstream/18.0
@@ -31065,6 +31374,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-python
 #: code:addons/stock/models/product.py:0
 msgid "Delivered Qty"
@@ -31355,6 +31665,11 @@ msgstr "Isporuceno"
 msgid "Delivered"
 msgstr "Isporuceno"
 >>>>>>> upstream/18.0
+=======
+#: model_terms:ir.ui.view,arch_db:stock.report_delivery_document
+msgid "Delivered"
+msgstr "Isporuceno"
+>>>>>>> upstream/18.0
 
 #. module: stock
 #. odoo-python
@@ -31460,6 +31775,9 @@ msgstr "Isporučena Kol"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -31781,7 +32099,10 @@ msgstr "Adresa Dostave"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -32085,6 +32406,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -32391,7 +32715,10 @@ msgstr "Načini isporuke"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:stock.picking.type,name:stock.chi_picking_type_out
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -32713,7 +33040,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -33016,6 +33346,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -33352,7 +33685,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Demo Name"
+=======
+msgid "Demo Lot/SN"
+>>>>>>> upstream/18.0
 =======
 msgid "Demo Lot/SN"
 >>>>>>> upstream/18.0
@@ -33856,9 +34193,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:stock.field_stock_move__location_final_id
 #: model:ir.model.fields,field_description:stock.field_stock_move_line__picking_location_dest_id
 #: model:ir.model.fields,field_description:stock.field_stock_picking__location_dest_id
+=======
+#: model:ir.model.fields,field_description:stock.field_stock_move_line__picking_location_dest_id
+#: model:ir.model.fields,field_description:stock.field_stock_picking__location_dest_id
+#: model:ir.model.fields,field_description:stock.field_stock_picking_type__default_location_dest_id
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:stock.field_stock_move_line__picking_location_dest_id
 #: model:ir.model.fields,field_description:stock.field_stock_picking__location_dest_id
@@ -34556,7 +34899,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -34859,6 +35205,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -35192,6 +35541,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:stock.field_stock_lot_report__display_name
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:stock.field_stock_lot_report__display_name
 >>>>>>> upstream/18.0
@@ -35613,8 +35966,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:stock.field_stock_scheduler_compute__display_name
 #: model:ir.model.fields,field_description:stock.field_stock_scrap__display_name
+=======
+#: model:ir.model.fields,field_description:stock.field_stock_scrap__display_name
+#: model:ir.model.fields,field_description:stock.field_stock_scrap_reason_tag__display_name
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:stock.field_stock_scrap__display_name
 #: model:ir.model.fields,field_description:stock.field_stock_scrap_reason_tag__display_name
@@ -36148,6 +36506,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 >>>>>>> upstream/18.0
@@ -36422,6 +36781,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_type_form
 msgid "Documentation"
@@ -36453,6 +36814,9 @@ msgstr "Dokumentacija"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -36738,7 +37102,11 @@ msgid "Favorite User"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Omiljeni korisnik"
+>>>>>>> upstream/18.0
 =======
 msgstr "Omiljeni korisnik"
 >>>>>>> upstream/18.0
@@ -36855,7 +37223,11 @@ msgid "Favorites"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Omiljeni"
+>>>>>>> upstream/18.0
 =======
 msgstr "Omiljeni"
 >>>>>>> upstream/18.0
@@ -37048,6 +37420,10 @@ msgstr "Februar"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 >>>>>>> upstream/18.0
@@ -37463,7 +37839,10 @@ msgstr "Filteri"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -37766,6 +38145,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -38184,7 +38566,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -38488,6 +38873,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -38857,7 +39245,11 @@ msgid "General"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Opšte"
+>>>>>>> upstream/18.0
 =======
 msgstr "Opšte"
 >>>>>>> upstream/18.0
@@ -38975,7 +39367,11 @@ msgid "Generate"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Generiši"
+>>>>>>> upstream/18.0
 =======
 msgstr "Generiši"
 >>>>>>> upstream/18.0
@@ -39180,7 +39576,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -39483,6 +39882,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -39799,7 +40201,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,help:stock.field_stock_location__sequence
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -40106,12 +40511,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/stock/models/stock_rule.py:0
 msgid "Global Visibility Days"
 msgstr ""
 
 #. module: stock
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -40415,6 +40823,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -40735,11 +41146,14 @@ msgstr "Grupisano po..."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,help:stock.field_res_config_settings__group_stock_picking_wave
 msgid "Group your move operations in wave transfer to process them together"
 msgstr ""
 
 #. module: stock
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -41068,7 +41482,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -41371,6 +41788,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -41712,11 +42132,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:stock.field_stock_picking__hide_picking_type
 msgid "Hide Picking Type"
 msgstr ""
 
 #. module: stock
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -42031,7 +42454,10 @@ msgstr "Istorija"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -42335,6 +42761,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -42653,6 +43082,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:stock.field_stock_lot_report__id
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:stock.field_stock_lot_report__id
 >>>>>>> upstream/18.0
@@ -43074,8 +43507,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:stock.field_stock_scheduler_compute__id
 #: model:ir.model.fields,field_description:stock.field_stock_scrap__id
+=======
+#: model:ir.model.fields,field_description:stock.field_stock_scrap__id
+#: model:ir.model.fields,field_description:stock.field_stock_scrap_reason_tag__id
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:stock.field_stock_scrap__id
 #: model:ir.model.fields,field_description:stock.field_stock_scrap_reason_tag__id
@@ -43804,12 +44242,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-python
 #: code:addons/stock/models/stock_quant.py:0
 msgid "Import"
 msgstr ""
 
 #. module: stock
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -44158,7 +44599,11 @@ msgid "Install"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Instaliraj"
+>>>>>>> upstream/18.0
 =======
 msgstr "Instaliraj"
 >>>>>>> upstream/18.0
@@ -44315,7 +44760,11 @@ msgid "Internal Transfer"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Unutrašnji transfer"
+>>>>>>> upstream/18.0
 =======
 msgstr "Unutrašnji transfer"
 >>>>>>> upstream/18.0
@@ -44586,7 +45035,10 @@ msgstr "Popis"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:stock.view_stock_quant_tree_editable
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -44921,7 +45373,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Inventory Frequency (Days)"
+=======
+#: model_terms:ir.ui.view,arch_db:stock.view_location_form
+msgid "Inventory Frequency"
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:stock.view_location_form
 msgid "Inventory Frequency"
@@ -45523,11 +45980,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:stock.field_stock_location__return_location
 msgid "Is a Return Location?"
 msgstr ""
 
 #. module: stock
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -45865,7 +46325,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -46168,6 +46631,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -46497,7 +46963,11 @@ msgid "Last 30 Days"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poslednjih 30 dana"
+>>>>>>> upstream/18.0
 =======
 msgstr "Poslednjih 30 dana"
 >>>>>>> upstream/18.0
@@ -46594,6 +47064,7 @@ msgid "Last Delivery Partner"
 msgstr ""
 
 #. module: stock
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -46900,6 +47371,8 @@ msgid "Last In First Out (LIFO)"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:product.removal,name:stock.removal_lifo
 msgid "Last In First Out (LIFO)"
 msgstr ""
@@ -47006,6 +47479,9 @@ msgid "Last Inventory"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -47342,8 +47818,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:stock.field_stock_scheduler_compute__write_uid
 #: model:ir.model.fields,field_description:stock.field_stock_scrap__write_uid
+=======
+#: model:ir.model.fields,field_description:stock.field_stock_scrap__write_uid
+#: model:ir.model.fields,field_description:stock.field_stock_scrap_reason_tag__write_uid
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:stock.field_stock_scrap__write_uid
 #: model:ir.model.fields,field_description:stock.field_stock_scrap_reason_tag__write_uid
@@ -47890,8 +48371,13 @@ msgstr "Poslednje izmenio/la"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:stock.field_stock_scheduler_compute__write_date
 #: model:ir.model.fields,field_description:stock.field_stock_scrap__write_date
+=======
+#: model:ir.model.fields,field_description:stock.field_stock_scrap__write_date
+#: model:ir.model.fields,field_description:stock.field_stock_scrap_reason_tag__write_date
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:stock.field_stock_scrap__write_date
 #: model:ir.model.fields,field_description:stock.field_stock_scrap_reason_tag__write_date
@@ -48513,7 +48999,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -48816,6 +49305,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -49131,6 +49623,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:stock.report_inventory
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:stock.report_inventory
 >>>>>>> upstream/18.0
@@ -49609,7 +50105,10 @@ msgstr "Partija"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -49913,6 +50412,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -50245,6 +50747,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:stock.field_stock_lot_report__lot_id
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:stock.field_stock_lot_report__lot_id
 >>>>>>> upstream/18.0
@@ -50663,6 +51169,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:stock.report_inventory
+#: model_terms:ir.ui.view,arch_db:stock.search_customer_lot_filter
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:stock.report_inventory
 #: model_terms:ir.ui.view,arch_db:stock.search_customer_lot_filter
@@ -51206,7 +51717,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -51510,6 +52024,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -51820,8 +52337,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.actions.act_window,name:stock.action_production_lot_form
 #: model:ir.ui.menu,name:stock.menu_action_production_lot_form
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -52356,7 +52876,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -52659,6 +53182,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -53040,6 +53566,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:stock.field_stock_scrap_reason_tag__name
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:stock.field_stock_scrap_reason_tag__name
 >>>>>>> upstream/18.0
@@ -53484,7 +54014,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -53787,6 +54320,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -54090,6 +54626,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:stock.stock_picking_type_kanban
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:stock.stock_picking_type_kanban
 >>>>>>> upstream/18.0
@@ -54497,7 +55037,11 @@ msgstr "Novo"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "New Move:"
+=======
+msgid "New Move: %(product)s"
+>>>>>>> upstream/18.0
 =======
 msgid "New Move: %(product)s"
 >>>>>>> upstream/18.0
@@ -54907,7 +55451,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:stock.stock_picking_type_kanban
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -55237,8 +55784,11 @@ msgstr "Tip sledeće aktivnosti"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Next Expected Inventory"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -55543,6 +56093,9 @@ msgid "Next Transfers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -55785,7 +56338,11 @@ msgid "No"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ne"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ne"
 >>>>>>> upstream/18.0
@@ -56001,6 +56558,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -56418,6 +56976,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.actions.act_window,help:stock.action_lot_report
 msgid "No data yet!"
 msgstr "Još uvek nema podataka!"
@@ -56450,6 +57010,9 @@ msgstr "Još uvek nema podataka!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -56627,7 +57190,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -56931,6 +57497,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -57292,7 +57861,11 @@ msgid "Number of messages requiring action"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Broj poruka koje zahtevaju akciju"
+>>>>>>> upstream/18.0
 =======
 msgstr "Broj poruka koje zahtevaju akciju"
 >>>>>>> upstream/18.0
@@ -57444,7 +58017,11 @@ msgid "Office Chair"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kancelarijska stolica"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kancelarijska stolica"
 >>>>>>> upstream/18.0
@@ -57652,7 +58229,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -57955,6 +58535,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -58206,7 +58789,11 @@ msgid "Open"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Otvori"
+>>>>>>> upstream/18.0
 =======
 msgstr "Otvori"
 >>>>>>> upstream/18.0
@@ -58468,7 +59055,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -58773,6 +59363,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -59134,7 +59727,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -59437,6 +60033,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -59757,11 +60356,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:stock.field_stock_return_picking__original_location_id
 msgid "Original Location"
 msgstr ""
 
 #. module: stock
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -60059,6 +60661,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/stock/models/product.py:0
 msgid "P&L Qty"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -60460,6 +61063,9 @@ msgstr "P&L Kol"
 =======
 msgstr "P&L Kol"
 >>>>>>> upstream/18.0
+=======
+msgstr "P&L Kol"
+>>>>>>> upstream/18.0
 
 #. module: stock
 #: model:ir.model.fields.selection,name:stock.selection__stock_picking_type__package_label_to_print__pdf
@@ -60492,7 +61098,11 @@ msgid "PDF"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "PDF"
+>>>>>>> upstream/18.0
 =======
 msgstr "PDF"
 >>>>>>> upstream/18.0
@@ -60705,11 +61315,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields.selection,name:stock.selection__stock_warehouse__delivery_steps__pick_pack_ship
 msgid "Pack goods, send goods in output and then deliver (3 steps)"
 msgstr ""
 
 #. module: stock
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -61016,6 +61629,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:stock.report_inventory
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:stock.report_inventory
 >>>>>>> upstream/18.0
@@ -61611,6 +62228,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:stock.view_procurement_compute_wizard
 msgid "Parameters"
 msgstr "Parametri"
@@ -61618,6 +62236,9 @@ msgstr "Parametri"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_location__location_id
 #: model:ir.model.fields,field_description:stock.field_stock_return_picking__parent_location_id
+=======
+#: model:ir.model.fields,field_description:stock.field_stock_location__location_id
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:stock.field_stock_location__location_id
 >>>>>>> upstream/18.0
@@ -62028,7 +62649,10 @@ msgstr "Nadređena Putanja"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -62331,6 +62955,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -62477,6 +63102,11 @@ msgstr ""
 #: model:ir.model.fields.selection,name:stock.selection__procurement_group__move_type__direct
 msgid "Partial"
 msgstr ""
+=======
+#: model:ir.model.fields.selection,name:stock.selection__procurement_group__move_type__direct
+msgid "Partial"
+msgstr "Delimično"
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields.selection,name:stock.selection__procurement_group__move_type__direct
 msgid "Partial"
@@ -62730,6 +63360,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:stock.field_stock_lot_report__partner_id
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:stock.field_stock_lot_report__partner_id
 >>>>>>> upstream/18.0
@@ -63162,7 +63796,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -63470,6 +64107,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -63776,6 +64416,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:stock.field_stock_lot_report__picking_id
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:stock.field_stock_lot_report__picking_id
 >>>>>>> upstream/18.0
@@ -64226,7 +64870,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -64530,6 +65177,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -64859,11 +65509,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:stock.stock_picking_type_kanban
 msgid "Prepare Wave"
 msgstr ""
 
 #. module: stock
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -65172,8 +65825,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Press the CREATE button to define quantity for each product in your stock or "
 "import them from a spreadsheet throughout Favorites"
+=======
+"Press the \"New\" button to define the quantity for a product in your stock "
+"or import quantities from a spreadsheet via the Actions menu"
+>>>>>>> upstream/18.0
 =======
 "Press the \"New\" button to define the quantity for a product in your stock "
 "or import quantities from a spreadsheet via the Actions menu"
@@ -65697,7 +66355,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:stock.field_stock_picking_type__print_label
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -66047,6 +66708,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 msgid "Process operations in wave transfers"
 msgstr ""
@@ -66057,6 +66719,8 @@ msgid "Process transfers in batch per worker"
 msgstr ""
 
 #. module: stock
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -66376,6 +67040,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.ui.menu,name:stock.menu_procurement_compute
+>>>>>>> upstream/18.0
 =======
 #: model:ir.ui.menu,name:stock.menu_procurement_compute
 >>>>>>> upstream/18.0
@@ -66788,7 +67456,11 @@ msgid "Produced Qty"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Proizvedena kol."
+=======
+msgstr "Proizvedena Kol"
+>>>>>>> upstream/18.0
 =======
 msgstr "Proizvedena Kol"
 >>>>>>> upstream/18.0
@@ -67199,6 +67871,10 @@ msgstr "Proizvedena Kol"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:stock.field_stock_lot_report__product_id
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:stock.field_stock_lot_report__product_id
 >>>>>>> upstream/18.0
@@ -67616,9 +68292,12 @@ msgstr "Proizvedena Kol"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:stock.report_package_barcode
 #: model_terms:ir.ui.view,arch_db:stock.report_stock_body_print
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -67921,6 +68600,9 @@ msgstr "Proizvedena Kol"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -68417,7 +69099,11 @@ msgid "Properties"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Osobine"
+>>>>>>> upstream/18.0
 =======
 msgstr "Osobine"
 >>>>>>> upstream/18.0
@@ -68619,7 +69305,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -68922,6 +69611,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -69350,6 +70042,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:stock.field_stock_lot_report__quantity
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:stock.field_stock_lot_report__quantity
 >>>>>>> upstream/18.0
@@ -69826,7 +70522,11 @@ msgid "Quantity:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Količina:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Količina:"
 >>>>>>> upstream/18.0
@@ -69945,6 +70645,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock.field_stock_picking__rating_ids
 #: model:ir.model.fields,field_description:stock.field_stock_scrap__rating_ids
 msgid "Ratings"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -70334,6 +71035,11 @@ msgstr "Ocene"
 
 #. module: stock
 >>>>>>> upstream/18.0
+=======
+msgstr "Ocene"
+
+#. module: stock
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:stock.selection__stock_picking__state__assigned
 #: model_terms:ir.ui.view,arch_db:stock.stock_picking_type_kanban
 #: model_terms:ir.ui.view,arch_db:stock.view_move_search
@@ -70382,7 +71088,11 @@ msgid "Reason"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Razlog"
+>>>>>>> upstream/18.0
 =======
 msgstr "Razlog"
 >>>>>>> upstream/18.0
@@ -70590,7 +71300,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:stock.picking.type,name:stock.chi_picking_type_in
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -70903,6 +71616,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Receive goods directly (1 step)"
 msgstr ""
 
@@ -70914,6 +71628,9 @@ msgstr ""
 #. module: stock
 #: model:ir.model.fields.selection,name:stock.selection__stock_warehouse__reception_steps__three_steps
 msgid "Receive goods in input, then quality and then stock (3 steps)"
+=======
+msgid "Receive and Store (1 step)"
+>>>>>>> upstream/18.0
 =======
 msgid "Receive and Store (1 step)"
 >>>>>>> upstream/18.0
@@ -71335,11 +72052,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-python
 #: code:addons/stock/models/product.py:0
 msgid "Received Qty"
 msgstr "Primljena kol."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -71651,6 +72371,9 @@ msgstr "Primljena Kol"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -72240,11 +72963,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_type_form
 msgid "Reserve before scheduled date"
 msgstr ""
 
 #. module: stock
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -72596,6 +73322,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.actions.act_window,name:stock.act_stock_return_picking
+>>>>>>> upstream/18.0
 =======
 #: model:ir.actions.act_window,name:stock.act_stock_return_picking
 >>>>>>> upstream/18.0
@@ -73002,8 +73732,13 @@ msgstr "Vrati"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:stock.field_stock_return_picking__location_id
 msgid "Return Location"
+=======
+#: model_terms:ir.ui.view,arch_db:stock.view_stock_return_picking_form
+msgid "Return All"
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:stock.view_stock_return_picking_form
 msgid "Return All"
@@ -73577,11 +74312,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.actions.act_window,name:stock.act_stock_return_picking
 msgid "Reverse Transfer"
 msgstr ""
 
 #. module: stock
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -73947,8 +74685,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Rule %(rule)s belongs to %(rule_company)s while the route belongs to "
 "%(route_company)s."
+=======
+"Rule %(rule)s belongs to %(rule_company)s while the route belongs to %"
+"(route_company)s."
+>>>>>>> upstream/18.0
 =======
 "Rule %(rule)s belongs to %(rule_company)s while the route belongs to %"
 "(route_company)s."
@@ -74482,6 +75225,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.actions.act_window,name:stock.action_procurement_compute
 #: model:ir.ui.menu,name:stock.menu_procurement_compute
 #: model_terms:ir.ui.view,arch_db:stock.view_procurement_compute_wizard
@@ -74499,6 +75243,8 @@ msgid "Run the scheduler"
 msgstr ""
 
 #. module: stock
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -74900,7 +75646,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -75208,6 +75957,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -75577,9 +76329,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Izbor opcije \"Upozorenje\" ce obavestiti korisnika poruko, Izbor "
 "\"Blokiranje poruke\" ce generisati gresku sa porukom i blokirati tok. "
 "Poruka mora da bude napisana u sledecem polju"
+=======
+"Izbor opcije \"Upozorenje\" će obavestiti korisnika porukom, Izbor "
+"\"Blokiranje poruke\" će generisati grešku sa porukom i blokirati tok. "
+"Poruka mora da bude napisana u sledećem polju."
+>>>>>>> upstream/18.0
 =======
 "Izbor opcije \"Upozorenje\" će obavestiti korisnika porukom, Izbor "
 "\"Blokiranje poruke\" će generisati grešku sa porukom i blokirati tok. "
@@ -76209,11 +76967,14 @@ msgstr "Pošalji email"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields.selection,name:stock.selection__stock_warehouse__delivery_steps__pick_ship
 msgid "Send goods in output and then deliver (2 steps)"
 msgstr ""
 
 #. module: stock
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -76535,9 +77296,12 @@ msgstr "Septembar"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-python
 #: code:addons/stock/models/stock_picking.py:0
 #: model:ir.model.fields,field_description:stock.field_stock_location__sequence
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -76843,6 +77607,10 @@ msgstr "Septembar"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:stock.field_stock_scrap_reason_tag__sequence
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:stock.field_stock_scrap_reason_tag__sequence
 >>>>>>> upstream/18.0
@@ -77250,7 +78018,10 @@ msgstr "Niz"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -77554,6 +78325,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -77758,6 +78532,7 @@ msgid "Sequence Prefix"
 msgstr ""
 
 #. module: stock
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -78106,6 +78881,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:stock.field_stock_move__lot_ids
 msgid "Serial Numbers"
 msgstr ""
@@ -78214,8 +78991,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Serial number (%(serial_number)s) already exists in location(s): "
 "%(location_list)s. Please correct the serial number encoded."
+=======
+"Serial number (%(serial_number)s) already exists in location(s): %"
+"(location_list)s. Please correct the serial number encoded."
+>>>>>>> upstream/18.0
 =======
 "Serial number (%(serial_number)s) already exists in location(s): %"
 "(location_list)s. Please correct the serial number encoded."
@@ -78818,7 +79600,10 @@ msgstr "Police (Y)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -79121,6 +79906,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -79436,6 +80224,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:stock.field_stock_picking_type__move_type
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:stock.field_stock_picking_type__move_type
 >>>>>>> upstream/18.0
@@ -79840,7 +80632,10 @@ msgstr "Opcije transporta"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -80143,6 +80938,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -80504,7 +81302,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -80807,6 +81608,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -81088,7 +81892,11 @@ msgid "Sign"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Potpiši"
+>>>>>>> upstream/18.0
 =======
 msgstr "Potpiši"
 >>>>>>> upstream/18.0
@@ -81349,6 +82157,10 @@ msgstr "Izvorni Dokument"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:stock.field_stock_picking_type__default_location_src_id
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:stock.field_stock_picking_type__default_location_src_id
 >>>>>>> upstream/18.0
@@ -81714,7 +82526,11 @@ msgid "Split"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Podeli"
+>>>>>>> upstream/18.0
 =======
 msgstr "Podeli"
 >>>>>>> upstream/18.0
@@ -82179,7 +82995,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -82484,6 +83303,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -82823,6 +83645,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -83240,6 +84063,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.constraint,message:stock.constraint_stock_scrap_reason_tag_name_uniq
 msgid "Tag name already exists!"
 msgstr "Naziv oznake već postoji!"
@@ -83272,6 +84097,9 @@ msgstr "Naziv oznake već postoji!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -83492,10 +84320,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "The Serial Number (%(serial_number)s) is already used in location(s): "
 "%(location_list)s.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -83810,6 +84641,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -84144,6 +84978,10 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"%(error_lines)s"
+>>>>>>> upstream/18.0
 =======
 "%(error_lines)s"
 >>>>>>> upstream/18.0
@@ -84554,6 +85392,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields.selection,name:stock.selection__stock_picking__search_date_category__day_2
+#: model_terms:ir.ui.view,arch_db:stock.view_picking_internal_search
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields.selection,name:stock.selection__stock_picking__search_date_category__day_2
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_internal_search
@@ -85110,7 +85953,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -85415,6 +86261,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -85728,8 +86577,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "operation is part of a chain of operations targeting the destination "
 "location."
+=======
+"operation is part of a chain of operations targeting the final location."
+>>>>>>> upstream/18.0
 =======
 "operation is part of a chain of operations targeting the final location."
 >>>>>>> upstream/18.0
@@ -86266,6 +87119,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:stock.view_procurement_compute_wizard
 msgid ""
 "The stock will be reserved for operations waiting for availability and the "
@@ -86273,6 +87127,8 @@ msgid ""
 msgstr ""
 
 #. module: stock
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -86537,6 +87393,7 @@ msgstr ""
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_type__default_location_dest_id
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -87147,6 +88004,11 @@ msgid ""
 "created. However, it is possible to change it afterwards or that the routes "
 "use another one by default."
 >>>>>>> upstream/18.0
+=======
+"This is the default destination location when this operation is manually "
+"created. However, it is possible to change it afterwards or that the routes "
+"use another one by default."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock
@@ -87252,9 +88114,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This is the default source location when you create a picking manually with "
 "this operation type. It is possible however to change it or that the routes "
 "put another location."
+=======
+"This is the default source location when this operation is manually created. "
+"However, it is possible to change it afterwards or that the routes use "
+"another one by default."
+>>>>>>> upstream/18.0
 =======
 "This is the default source location when this operation is manually created. "
 "However, it is possible to change it afterwards or that the routes use "
@@ -88024,7 +88892,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -88334,6 +89205,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -88673,6 +89547,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.actions.act_window,name:stock.action_picking_tree_graph
+>>>>>>> upstream/18.0
 =======
 #: model:ir.actions.act_window,name:stock.action_picking_tree_graph
 >>>>>>> upstream/18.0
@@ -89086,6 +89964,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#. odoo-javascript
+#: code:addons/stock/static/src/stock_forecasted/forecasted_details.xml:0
+>>>>>>> upstream/18.0
 =======
 #. odoo-javascript
 #: code:addons/stock/static/src/stock_forecasted/forecasted_details.xml:0
@@ -89603,7 +90486,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -89907,6 +90793,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -90234,6 +91123,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields.selection,name:stock.selection__stock_picking__search_date_category__today
+#: model_terms:ir.ui.view,arch_db:stock.view_picking_internal_search
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields.selection,name:stock.selection__stock_picking__search_date_category__today
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_internal_search
@@ -90745,6 +91639,7 @@ msgstr "Današnje aktivnosti"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #: model:ir.model.fields.selection,name:stock.selection__stock_picking__search_date_category__day_1
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_internal_search
@@ -91307,6 +92202,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:stock.selection__stock_picking__search_date_category__day_1
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_internal_search
 msgid "Tomorrow"
@@ -91340,6 +92237,9 @@ msgstr "Sutra"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -91499,6 +92399,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -91844,7 +92747,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -92160,6 +93066,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -92546,6 +93455,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/stock/models/stock_picking.py:0
+>>>>>>> upstream/18.0
 =======
 #. odoo-python
 #: code:addons/stock/models/stock_picking.py:0
@@ -93091,7 +94005,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -93394,6 +94311,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -93741,6 +94661,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:stock.field_stock_return_picking__picking_type_code
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:stock.field_stock_return_picking__picking_type_code
 >>>>>>> upstream/18.0
@@ -94153,6 +95077,10 @@ msgstr "Zabeležen tip aktivnosti izuzeća."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 >>>>>>> upstream/18.0
@@ -94558,6 +95486,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 >>>>>>> upstream/18.0
@@ -94870,6 +95802,7 @@ msgstr ""
 #. module: stock
 #. odoo-python
 #: code:addons/stock/models/stock_move.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -95471,6 +96404,11 @@ msgid ""
 "Unavailable Serial numbers. Please correct the serial numbers encoded: %"
 "(serial_numbers_to_locations)s"
 >>>>>>> upstream/18.0
+=======
+msgid ""
+"Unavailable Serial numbers. Please correct the serial numbers encoded: %"
+"(serial_numbers_to_locations)s"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock
@@ -95558,7 +96496,11 @@ msgid "Units"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kom"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kom"
 >>>>>>> upstream/18.0
@@ -95771,7 +96713,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -96076,6 +97021,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -96388,7 +97336,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -96691,6 +97642,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -97015,7 +97969,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -97318,6 +98275,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -97639,7 +98599,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -97948,6 +98911,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -98277,11 +99243,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:res.groups,name:stock.group_stock_picking_wave
 msgid "Use wave pickings"
 msgstr ""
 
 #. module: stock
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -98598,6 +99567,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model,name:stock.model_res_users
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model,name:stock.model_res_users
 >>>>>>> upstream/18.0
@@ -99076,7 +100049,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -99385,6 +100361,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -99866,7 +100845,10 @@ msgstr "Upozorenje!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -100170,6 +101152,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -100480,11 +101465,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:stock.field_res_config_settings__group_stock_picking_wave
 msgid "Wave Transfers"
 msgstr ""
 
 #. module: stock
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -100804,7 +101792,10 @@ msgstr "Težina"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -101107,6 +102098,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -101439,6 +102433,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields.selection,name:stock.selection__stock_picking_type__move_type__one
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields.selection,name:stock.selection__stock_picking_type__move_type__one
 >>>>>>> upstream/18.0
@@ -101769,6 +102767,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/stock/models/stock_rule.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -102371,6 +103370,11 @@ msgid ""
 "b> are created from <b>%(source_location)s</b> to fulfill the need. %"
 "(suffix)s"
 >>>>>>> upstream/18.0
+=======
+"When products are needed in <b>%(destination)s</b>, <br> <b>%(operation)s</"
+"b> are created from <b>%(source_location)s</b> to fulfill the need. %"
+"(suffix)s"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock
@@ -102477,7 +103481,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "When products arrive in <b>%(source_location)s</b>, <br/> <b>%(operation)s</"
+=======
+"When products arrive in <b>%(source_location)s</b>, <br> <b>%(operation)s</"
+>>>>>>> upstream/18.0
 =======
 "When products arrive in <b>%(source_location)s</b>, <br> <b>%(operation)s</"
 >>>>>>> upstream/18.0
@@ -102884,8 +103892,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "When set to True the destination location of the stock.move will be the rule."
 "Otherwise, it takes it from the picking type."
+=======
+"When set to True the destination location of the stock.move will be the "
+"rule.Otherwise, it takes it from the picking type."
+>>>>>>> upstream/18.0
 =======
 "When set to True the destination location of the stock.move will be the "
 "rule.Otherwise, it takes it from the picking type."
@@ -103476,6 +104489,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #: model:ir.model.fields.selection,name:stock.selection__stock_picking__search_date_category__yesterday
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_internal_search
@@ -103821,6 +104835,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:stock.selection__stock_picking__search_date_category__yesterday
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_internal_search
 msgid "Yesterday"
@@ -103852,6 +104868,9 @@ msgstr "Juče"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -104099,7 +105118,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -104403,6 +105425,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -104750,7 +105775,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -105056,6 +106084,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -105371,8 +106402,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot archive location %(location)s because it is used by warehouse "
 "%(warehouse)s"
+=======
+"You cannot archive location %(location)s because it is used by warehouse %"
+"(warehouse)s"
+>>>>>>> upstream/18.0
 =======
 "You cannot archive location %(location)s because it is used by warehouse %"
 "(warehouse)s"
@@ -105934,7 +106970,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -106247,6 +107286,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -106612,8 +107654,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot validate a transfer if no quantities are reserved. To force the "
 "transfer, encode quantities."
+=======
+"You cannot validate a transfer if no quantities are reserved, or if only non-"
+"reserved moves are picked.To force the transfer, encode quantities."
+>>>>>>> upstream/18.0
 =======
 "You cannot validate a transfer if no quantities are reserved, or if only non-"
 "reserved moves are picked.To force the transfer, encode quantities."
@@ -107061,12 +108108,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-python
 #: code:addons/stock/wizard/stock_picking_return.py:0
 msgid "You have manually created product lines, please delete them to proceed."
 msgstr ""
 
 #. module: stock
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -107425,8 +108475,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You need to supply a Lot/Serial Number for product: \n"
 " - "
+=======
+"You need to supply a Lot/Serial Number for product:\n"
+"%(products)s"
+>>>>>>> upstream/18.0
 =======
 "You need to supply a Lot/Serial Number for product:\n"
 "%(products)s"
@@ -108042,6 +109097,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#. odoo-javascript
+#: code:addons/stock/static/src/views/search/stock_orderpoint_search_panel.xml:0
+>>>>>>> upstream/18.0
 =======
 #. odoo-javascript
 #: code:addons/stock/static/src/views/search/stock_orderpoint_search_panel.xml:0
@@ -108577,7 +109637,11 @@ msgid "is"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "je"
+>>>>>>> upstream/18.0
 =======
 msgstr "je"
 >>>>>>> upstream/18.0
@@ -108674,6 +109738,7 @@ msgid "lifo"
 msgstr ""
 
 #. module: stock
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -108979,6 +110044,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/stock/static/src/widgets/json_widget.xml:0
 msgid "minimum of"
@@ -109037,7 +110104,11 @@ msgid "reserved"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "rezervisano"
+>>>>>>> upstream/18.0
 =======
 msgstr "rezervisano"
 >>>>>>> upstream/18.0
@@ -109230,7 +110301,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -109533,6 +110607,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -109881,6 +110958,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#~ msgid "Parameters"
+#~ msgstr "Parametri"
+
+>>>>>>> upstream/18.0
 =======
 #~ msgid "Parameters"
 #~ msgstr "Parametri"

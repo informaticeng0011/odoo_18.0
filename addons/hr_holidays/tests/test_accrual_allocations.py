@@ -32,7 +32,10 @@ class TestAccrualAllocations(TestHrHolidaysCommon):
             'request_unit': 'hour',
         })
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         accrual_plan1_levels_fields = {
             'added_value_type': 'day',
             'frequency': 'monthly',
@@ -75,6 +78,9 @@ class TestAccrualAllocations(TestHrHolidaysCommon):
             'allocation_validation_type': 'no_validation',
             'request_unit': 'day',
         })
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     def setAllocationCreateDate(self, allocation_id, date):
@@ -1829,7 +1835,11 @@ class TestAccrualAllocations(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'carryover_day': 20,
+=======
+            'carryover_day': 31,
+>>>>>>> upstream/18.0
 =======
             'carryover_day': 31,
 >>>>>>> upstream/18.0
@@ -2407,7 +2417,11 @@ class TestAccrualAllocations(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         with freeze_time("2023-04-20"):
+=======
+        with freeze_time("2023-04-30"):
+>>>>>>> upstream/18.0
 =======
         with freeze_time("2023-04-30"):
 >>>>>>> upstream/18.0
@@ -2979,12 +2993,15 @@ class TestAccrualAllocations(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'date_from': '2023-04-20',
             })
             allocation.action_validate()
 
         with freeze_time("2024-04-20"):
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3410,6 +3427,9 @@ class TestAccrualAllocations(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5988,7 +6008,10 @@ class TestAccrualAllocations(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6665,6 +6688,7 @@ class TestAccrualAllocations(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6829,6 +6853,8 @@ class TestAccrualAllocations(TestHrHolidaysCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7222,6 +7248,7 @@ class TestAccrualAllocations(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7350,6 +7377,8 @@ class TestAccrualAllocations(TestHrHolidaysCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7477,6 +7506,7 @@ class TestAccrualAllocations(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7547,6 +7577,8 @@ class TestAccrualAllocations(TestHrHolidaysCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_accrual_plan_start_carryover_expiring_3_months(self):
         """ Assert that days expires correctly for a monthly accrual plan granting days
@@ -7621,4 +7653,7 @@ class TestAccrualAllocations(TestHrHolidaysCommon):
                 allocation._update_accrual()
                 self.assert_virtual_leaves_equal(self.leave_type_day, remaining_leaves, self.employee_emp, test_date, digits=3)
                 self.assertAlmostEqual(allocation.expiring_carryover_days, expiring_days, 2, msg=f'Incorrect number of expiring days for {test_date}')
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

@@ -21,8 +21,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* hr_contract
 # 
+=======
+# * hr_contract
+#
+>>>>>>> upstream/18.0
 =======
 # * hr_contract
 #
@@ -147,7 +152,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -195,6 +203,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -266,6 +275,9 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-11-25 09:49+0000\n"
+=======
+"PO-Revision-Date: 2025-12-16 13:08+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: Lodoikhuu <baskhuujacara@gmail.com>\n"
 "Language-Team: Mongolian <https://translate.odoo.com/projects/odoo-18/"
 "hr_contract/mn/>\n"
@@ -274,6 +286,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+<<<<<<< HEAD
 "X-Generator: Weblate 5.12.2\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -336,6 +349,9 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: hr_contract
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract_history__contract_count
@@ -356,7 +372,11 @@ msgstr "%s-н гэрээний түүх"
 #. module: hr_contract
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_view_form
 msgid "/ month"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "/ сар"
+>>>>>>> upstream/18.0
 
 #. module: hr_contract
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_hr_employee_view_form3
@@ -365,6 +385,13 @@ msgid ""
 "                                    In Contract Since\n"
 "                                </span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"o_stat_text text-danger\" invisible=\"not contract_warning\" "
+"title=\"Өнөөдрийг хүртэл гэрээтэй\">\n"
+"                                    Гэрээ эхэлсэн огноо\n"
+"                                </span>"
+>>>>>>> upstream/18.0
 
 #. module: hr_contract
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_hr_employee_view_form3
@@ -372,6 +399,11 @@ msgid ""
 "<span class=\"o_stat_text text-success\" invisible=\"contract_warning\" "
 "title=\"In Contract Since\"> In Contract Since</span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"o_stat_text text-success\" invisible=\"contract_warning\" "
+"title=\"Гэрээний эхлэх огноо\"> Гэрээний эхлэх огноо</span>"
+>>>>>>> upstream/18.0
 
 #. module: hr_contract
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_hr_employee_view_form3
@@ -383,6 +415,16 @@ msgid ""
 "                                    Contracts\n"
 "                                </span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span invisible=\"contracts_count != 1\" class=\"o_stat_text text-danger\">\n"
+"                                    Гэрээ\n"
+"                                </span>\n"
+"                                <span invisible=\"contracts_count == 1\" "
+"class=\"o_stat_text text-danger\">\n"
+"                                    Гэрээнүүд\n"
+"                                </span>"
+>>>>>>> upstream/18.0
 
 #. module: hr_contract
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_view_form
@@ -394,6 +436,16 @@ msgid ""
 "                                        Contract\n"
 "                                    </span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span invisible=\"contracts_count == 1\" class=\"o_stat_text\">\n"
+"                                        Гэрээнүүд\n"
+"                                    </span>\n"
+"                                    <span invisible="
+"\"contracts_count &gt; 1\" class=\"o_stat_text\">\n"
+"                                        Гэрээ\n"
+"                                    </span>"
+>>>>>>> upstream/18.0
 
 #. module: hr_contract
 #: model_terms:ir.ui.view,arch_db:hr_contract.res_config_settings_view_form
@@ -407,6 +459,11 @@ msgid ""
 "According to Employee's Working Permit Expiration Date, this contract has "
 "been put in red on the %s. Please advise and correct."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Ажилтны ажиллах зөвшөөрлийн хугацааний дагуу, уг гэрээг %s өдрөөс улаанаах "
+"тэмдэглэсэн болно. Шалгаж зөв болгоно уу."
+>>>>>>> upstream/18.0
 
 #. module: hr_contract
 #. odoo-python
@@ -415,6 +472,11 @@ msgid ""
 "According to the contract's end date, this contract has been put in red on "
 "the %s. Please advise and correct."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Гэрээний дуусах огнооны дагуу энэ гэрээг %s өдрөөс улаанаар тэмдэглэж "
+"эхэлсэн. Шалгаж зөв болгоно уу."
+>>>>>>> upstream/18.0
 
 #. module: hr_contract
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract__message_needaction
@@ -461,7 +523,11 @@ msgstr "Ажилбарын төрлийн зураг"
 #. module: hr_contract
 #: model:ir.model,name:hr_contract.model_mail_activity_schedule
 msgid "Activity schedule plan Wizard"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ажилбар төлөвлөлтийн цонх"
+>>>>>>> upstream/18.0
 
 #. module: hr_contract
 #: model:res.groups,name:hr_contract.group_hr_contract_manager
@@ -476,6 +542,13 @@ msgid ""
 "\n"
 "Employee: %(employee_name)s"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Ажилтан нэг хугацаанд нэг л идэвхитэй гэрээтэй байх ёстой. "
+"(Ноорог болон цуцлагдсан гэрээг оролцуулахгүйгээр).\n"
+"\n"
+"Ажилтан: %(employee_name)s"
+>>>>>>> upstream/18.0
 
 #. module: hr_contract
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_view_form
@@ -523,7 +596,11 @@ msgid "Calendar Mismatch"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Тохиромжгүй календар"
+>>>>>>> upstream/18.0
 =======
 msgstr "Тохиромжгүй календар"
 >>>>>>> upstream/18.0
@@ -616,6 +693,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Тохиромжгүй календар: Гэрээний ажлын хуваарь нь ажилтаны мэдээлэл дээрх "
+"ажлын хуваарьтай тохирохгүй байна. Энэ нь тохиромжгүй үр дүнд хүргэх "
+"боломжтой."
+>>>>>>> upstream/18.0
 =======
 "Тохиромжгүй календар: Гэрээний ажлын хуваарь нь ажилтаны мэдээлэл дээрх "
 "ажлын хуваарьтай тохирохгүй байна. Энэ нь тохиромжгүй үр дүнд хүргэх "
@@ -789,24 +872,40 @@ msgstr "Гэрээний дуусах огноо"
 #. module: hr_contract
 #: model_terms:ir.ui.view,arch_db:hr_contract.res_config_settings_view_form
 msgid "Contract Expiration Notice Period"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Гэрээний хүчинтэй хугацааны мэдэгдэл"
+>>>>>>> upstream/18.0
 
 #. module: hr_contract
 #: model:ir.model.fields,field_description:hr_contract.field_res_company__contract_expiration_notice_period
 #: model:ir.model.fields,field_description:hr_contract.field_res_config_settings__contract_expiration_notice_period
 msgid "Contract Expiry Notice Period"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Гэрээний хүчинтэй хугацааны мэдэгдэл"
+>>>>>>> upstream/18.0
 
 #. module: hr_contract
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_history_view_form
 msgid "Contract History"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Гэрээний түүх"
+>>>>>>> upstream/18.0
 
 #. module: hr_contract
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract_history__name
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_history_view_form
 msgid "Contract Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Гэрээний нэр"
+>>>>>>> upstream/18.0
 
 #. module: hr_contract
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract__name
@@ -828,7 +927,11 @@ msgstr "Гэрээний төрөл"
 #. module: hr_contract
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract__contract_wage
 msgid "Contract Wage"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Гэрээний цалин"
+>>>>>>> upstream/18.0
 
 #. module: hr_contract
 #: model:ir.model.fields,field_description:hr_contract.field_hr_employee__contract_warning
@@ -879,12 +982,20 @@ msgstr "Хянах гэрээнүүд"
 #. module: hr_contract
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_view_search
 msgid "Contracts to review"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Хянаж шалгах гэрээнүүд"
+>>>>>>> upstream/18.0
 
 #. module: hr_contract
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract_history__under_contract_state
 msgid "Contractual Status"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Гэрээний төлөв"
+>>>>>>> upstream/18.0
 
 #. module: hr_contract
 #: model:ir.model.fields,field_description:hr_contract.field_hr_payroll_structure_type__country_id
@@ -945,7 +1056,11 @@ msgstr "Ажилчдын одоогийн гэрээ"
 #. module: hr_contract
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_history_view_search
 msgid "Currently Under Contract"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Хүчин төгөлдөр гэрээнүүд"
+>>>>>>> upstream/18.0
 
 #. module: hr_contract
 #: model:ir.model.fields,field_description:hr_contract.field_hr_payroll_structure_type__default_resource_calendar_id
@@ -974,7 +1089,11 @@ msgstr "Ажлаас чөлөөлөлт"
 #: code:addons/hr_contract/wizard/hr_departure_wizard.py:0
 msgid ""
 "Departure date can't be earlier than the start date of current contract."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Явсан огноо нь одоогийн гэрээний эхлэх огнооноос өмнө байж болохгүй."
+>>>>>>> upstream/18.0
 
 #. module: hr_contract
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_view_form
@@ -1014,7 +1133,11 @@ msgstr "Ажилтны хаяг"
 #. module: hr_contract
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_history_view_form
 msgid "Employee Information"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ажилтны мэдээлэл"
+>>>>>>> upstream/18.0
 
 #. module: hr_contract
 #: model:res.groups,name:hr_contract.group_hr_contract_employee_manager
@@ -1097,7 +1220,11 @@ msgstr "Эхлэх"
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_view_form
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_hr_employee_view_form2
 msgid "Fully Flexible"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Бүрэн уян хатан"
+>>>>>>> upstream/18.0
 
 #. module: hr_contract
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_view_search
@@ -1129,7 +1256,11 @@ msgstr "Мессежтэй"
 #. module: hr_contract
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract_history__date_hired
 msgid "Hire Date"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ажилд орсон огноо"
+>>>>>>> upstream/18.0
 
 #. module: hr_contract
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract__id
@@ -1171,7 +1302,11 @@ msgstr ""
 #. module: hr_contract
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract_history__is_under_contract
 msgid "Is Currently Under Contract"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Одоогоор хүчинтэй гэрээтэй эсэх"
+>>>>>>> upstream/18.0
 
 #. module: hr_contract
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract__message_is_follower
@@ -1211,7 +1346,11 @@ msgstr "Хоцорсон ажилбар"
 #. module: hr_contract
 #: model:ir.model.fields,field_description:hr_contract.field_hr_employee__legal_name
 msgid "Legal Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Албан ёсны нэр"
+>>>>>>> upstream/18.0
 
 #. module: hr_contract
 #: model:ir.model,name:hr_contract.model_ir_ui_menu
@@ -1231,7 +1370,11 @@ msgstr "Зурвасууд"
 #. module: hr_contract
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_history_view_form
 msgid "Monthly Wage"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Сарын цалин"
+>>>>>>> upstream/18.0
 
 #. module: hr_contract
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract__my_activity_date_deadline
@@ -1277,13 +1420,21 @@ msgstr "Харуулах өгөгдөл алга"
 #. module: hr_contract
 #: model:ir.model.fields.selection,name:hr_contract.selection__hr_contract_history__under_contract_state__blocked
 msgid "Not Under Contract"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Хүчинтэй гэрээгүй"
+>>>>>>> upstream/18.0
 
 #. module: hr_contract
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract__notes
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_view_form
 msgid "Notes"
+<<<<<<< HEAD
 msgstr "Тэмдэглэлүүд"
+=======
+msgstr "Тэмдэглэл"
+>>>>>>> upstream/18.0
 
 #. module: hr_contract
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract__message_needaction_counter
@@ -1296,6 +1447,11 @@ msgid ""
 "Number of days prior to the contract end date that a contract expiration "
 "warning is triggered."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Гэрээний дуусах огнооноос хэд хоногийн өмнө гэрээ дуусах тухай анхааруулга "
+"илгээх."
+>>>>>>> upstream/18.0
 
 #. module: hr_contract
 #: model_terms:ir.ui.view,arch_db:hr_contract.res_config_settings_view_form
@@ -1303,6 +1459,11 @@ msgid ""
 "Number of days prior to the work permit expiration date that a warning is "
 "triggered."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Ажлын зөвшөөрлийн хугацаа дуусахаас хэд хоногийн өмнө ажлын зөвшөөрлийн "
+"сануулга илгээх."
+>>>>>>> upstream/18.0
 
 #. module: hr_contract
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract__message_has_error_counter
@@ -1327,7 +1488,11 @@ msgstr "Явагдаж буй"
 #. module: hr_contract
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_history_view_form
 msgid "Open Contract"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Гэрээг нээх"
+>>>>>>> upstream/18.0
 
 #. module: hr_contract
 #: model:ir.model.fields,help:hr_contract.field_hr_contract__hr_responsible_id
@@ -1353,7 +1518,11 @@ msgstr "Бэлэн"
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_history_view_list
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_history_view_search
 msgid "Reference Working Time"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ажлын цагийн жишиг"
+>>>>>>> upstream/18.0
 
 #. module: hr_contract
 #: model:ir.model,name:hr_contract.model_resource_calendar_leaves
@@ -1415,7 +1584,11 @@ msgstr "Гэрээг хайх"
 #. module: hr_contract
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_history_view_search
 msgid "Search Reference Contracts"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Гэрээний түүх хайх"
+>>>>>>> upstream/18.0
 
 #. module: hr_contract
 #: model:ir.model.fields,field_description:hr_contract.field_hr_departure_wizard__set_date_end
@@ -1431,6 +1604,10 @@ msgstr "Одоогийн гэрээний дуусах огноог тохиру
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_view_search
 msgid "Show all records which have a next action date before today"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Дараагийн үйлдлийн огноо нь өнөөдрөөс өмнө байгаа бүх бичлэгийг харуулах"
+>>>>>>> upstream/18.0
 
 #. module: hr_contract
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract__date_start
@@ -1481,18 +1658,30 @@ msgstr ""
 #. odoo-python
 #: code:addons/hr_contract/models/hr_contract.py:0
 msgid "The contract of %s is about to expire."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s-ын гэрээний хугацаа дуусах дөхсөн байна."
+>>>>>>> upstream/18.0
 
 #. module: hr_contract
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_hr_employee_view_form2
 msgid "The default working hours are set in configuration."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ажиллах цагийн анхны утга тохиргооны хэсэгт тодорхойлогдоно."
+>>>>>>> upstream/18.0
 
 #. module: hr_contract
 #. odoo-python
 #: code:addons/hr_contract/models/hr_contract.py:0
 msgid "The work permit of %s is about to expire."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s-ын ажлын зөвшөөрлийн хугацаа дуусах дөхсөн байна."
+>>>>>>> upstream/18.0
 
 #. module: hr_contract
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_view_kanban
@@ -1512,17 +1701,29 @@ msgstr "Өнөөдрийн ажилбар"
 #. module: hr_contract
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_view_form
 msgid "Type in notes about this contract..."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Энэхүү гэрээтэй холбоотой тэмдэглэлийг хөтлөнө үү..."
+>>>>>>> upstream/18.0
 
 #. module: hr_contract
 #: model:ir.model.fields,help:hr_contract.field_hr_contract__activity_exception_decoration
 msgid "Type of the exception activity on record."
+<<<<<<< HEAD
 msgstr "Бичлэг дээрх асуудал бүхий ажилбарын төрөл"
+=======
+msgstr "Бичлэг дээрх асуудал бүхий ажилбарын төрөл."
+>>>>>>> upstream/18.0
 
 #. module: hr_contract
 #: model:ir.model.fields.selection,name:hr_contract.selection__hr_contract_history__under_contract_state__done
 msgid "Under Contract"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Хүчин төгөлдөр гэрээтэй"
+>>>>>>> upstream/18.0
 
 #. module: hr_contract
 #: model:ir.model,name:hr_contract.model_res_users
@@ -1558,13 +1759,21 @@ msgstr "Вебсайтын харилцааны түүх"
 #. module: hr_contract
 #: model_terms:ir.ui.view,arch_db:hr_contract.res_config_settings_view_form
 msgid "Work Permit Expiration Notice Period"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ажиллах зөвшөөрлийн дуусах хугацааны мэдэгдлийн мөчлөг"
+>>>>>>> upstream/18.0
 
 #. module: hr_contract
 #: model:ir.model.fields,field_description:hr_contract.field_res_company__work_permit_expiration_notice_period
 #: model:ir.model.fields,field_description:hr_contract.field_res_config_settings__work_permit_expiration_notice_period
 msgid "Work Permit Expiry Notice Period"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ажиллах зөвшөөрлийн дуусах хугацааны мэдэгдлийн мөчлөг"
+>>>>>>> upstream/18.0
 
 #. module: hr_contract
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract__permit_no
@@ -1582,4 +1791,8 @@ msgstr "Ажлын цагийн хуваарь"
 #. odoo-python
 #: code:addons/hr_contract/models/hr_employee.py:0
 msgid "You cannot delete an employee with a running contract."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Явагдаж буй төлөвтэй гэрээтэй ажилтныг устгах боломжгүй."
+>>>>>>> upstream/18.0

@@ -9,7 +9,11 @@ import {
 } from "@mail/../tests/mail_test_helpers";
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { describe, test } from "@odoo/hoot";
+=======
+import { describe, test, expect } from "@odoo/hoot";
+>>>>>>> upstream/18.0
 =======
 import { describe, test, expect } from "@odoo/hoot";
 >>>>>>> upstream/18.0
@@ -23,7 +27,10 @@ defineMailModels();
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 async function assertPinnedPanelUnpinCount(expectedCount) {
@@ -36,6 +43,9 @@ async function assertPinnedPanelUnpinCount(expectedCount) {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -171,7 +181,10 @@ test("Jump to message from notification", async () => {
 });
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -209,6 +222,9 @@ test("Internal user can see unpin button", async () => {
     await assertPinnedPanelUnpinCount(1);
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

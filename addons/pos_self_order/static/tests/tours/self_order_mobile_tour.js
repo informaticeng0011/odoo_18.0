@@ -161,7 +161,10 @@ registry.category("web_tour.tours").add("self_mobile_each_table_takeaway_in", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -583,6 +586,7 @@ registry.category("web_tour.tours").add("self_mobile_each_table_takeaway_in", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -627,6 +631,8 @@ registry.category("web_tour.tours").add("self_mobile_each_table_takeaway_in", {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -985,6 +991,9 @@ registry.category("web_tour.tours").add("self_mobile_each_table_takeaway_in", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1554,7 +1563,10 @@ registry.category("web_tour.tours").add("SelfOrderOrderNumberTour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1899,6 +1911,7 @@ registry.category("web_tour.tours").add("self_order_mobile_0_price_order", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2019,6 +2032,8 @@ registry.category("web_tour.tours").add("self_order_mobile_0_price_order", {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2175,6 +2190,9 @@ registry.category("web_tour.tours").add("self_order_mobile_no_access_token", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

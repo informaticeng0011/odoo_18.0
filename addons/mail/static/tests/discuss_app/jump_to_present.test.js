@@ -261,7 +261,10 @@ test("show jump to present banner after scrolling up 10 messages", async () => {
     await contains("[title='Jump to Present']");
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 test("focus composer after jump to present", async () => {
     const pyEnv = await startServer();
@@ -283,4 +286,7 @@ test("focus composer after jump to present", async () => {
     await click("[title='Jump to Present']");
     await contains(".o-mail-Composer.o-focused");
 });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

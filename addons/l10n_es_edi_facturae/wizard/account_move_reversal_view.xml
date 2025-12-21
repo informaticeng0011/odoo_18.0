@@ -128,6 +128,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <field name="country_code" column_invisible="True"/>
 =======
                     <field name="country_code" column_invisible="True"/> <!-- TODO: to be removed in master -->
@@ -185,6 +186,9 @@
 >>>>>>> upstream/18.0
 =======
                     <field name="country_code" column_invisible="True"/> <!-- TODO: to be removed in master -->
+>>>>>>> upstream/18.0
+=======
+                    <field name="country_code" column_invisible="True"/>
 >>>>>>> upstream/18.0
 =======
                     <field name="country_code" column_invisible="True"/>
@@ -620,6 +624,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <field name="country_code" invisible="1"/>
 =======
                     <field name="country_code" invisible="1"/> <!-- TODO: to be removed in master -->
@@ -908,6 +913,11 @@
 >>>>>>> upstream/18.0
                     <field name="l10n_es_edi_facturae_reason_code" string="Reason" invisible="country_code != 'ES'"/>
                     <field name="reason" string="Reason" invisible="move_type == 'entry' and country_code == 'ES'"/>
+=======
+                    <field name="country_code" invisible="1"/>
+                    <field name="l10n_es_edi_facturae_reason_code" string="Reason" invisible="country_code != 'ES'"/>
+                    <field name="reason" string="Reason" invisible="country_code == 'ES'"/>
+>>>>>>> upstream/18.0
 =======
                     <field name="country_code" invisible="1"/>
                     <field name="l10n_es_edi_facturae_reason_code" string="Reason" invisible="country_code != 'ES'"/>

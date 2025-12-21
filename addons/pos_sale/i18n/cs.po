@@ -1,5 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* pos_sale
 # 
 # Translators:
@@ -650,11 +651,22 @@
 # Marta Wacławek, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+# * pos_sale
+#
+# Translators:
+# Wil Odoo, 2024
+# Aleš Fiala <f.ales1@seznam.cz>, 2024
+# Marta Wacławek, 2025
+# Jakub Vera <jakub@origamis.cz>, 2025.
+# "Marta (wacm)" <wacm@odoo.com>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1307,6 +1319,19 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: cs\n"
 "Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
+=======
+"PO-Revision-Date: 2025-12-17 11:09+0000\n"
+"Last-Translator: \"Marta (wacm)\" <wacm@odoo.com>\n"
+"Language-Team: Czech <https://translate.odoo.com/projects/odoo-18/pos_sale/"
+"cs/>\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : "
+"(n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: pos_sale
 #. odoo-javascript
@@ -1328,24 +1353,41 @@ msgstr "Nová objednávka byla vytvořena."
 #. module: pos_sale
 #: model:ir.model.fields,field_description:pos_sale.field_sale_order__amount_unpaid
 msgid "Amount To Pay In POS"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Částka k zaplacení v PoS"
+>>>>>>> upstream/18.0
 
 #. module: pos_sale
 #: model:ir.model.fields,help:pos_sale.field_sale_order__amount_unpaid
 msgid "Amount left to pay in POS to avoid double payment or double invoicing."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Částka zbývající k zaplacení v POS, aby se zabránilo dvojímu zaplacení nebo "
+"dvojímu fakturování."
+>>>>>>> upstream/18.0
 
 #. module: pos_sale
 #. odoo-javascript
 #: code:addons/pos_sale/static/src/overrides/models/pos_store.js:0
 msgid "Apply a down payment (fixed amount)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zaplatit zálohu (fixní částkou)"
+>>>>>>> upstream/18.0
 
 #. module: pos_sale
 #. odoo-javascript
 #: code:addons/pos_sale/static/src/overrides/models/pos_store.js:0
 msgid "Apply a down payment (percentage)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zaplatit zálohu (v procentech)"
+>>>>>>> upstream/18.0
 
 #. module: pos_sale
 #: model:ir.model,name:pos_sale.model_res_config_settings
@@ -1394,7 +1436,11 @@ msgstr "Podrobnosti zálohy"
 #: model:ir.model.fields,field_description:pos_sale.field_res_config_settings__pos_down_payment_product_id
 #: model_terms:ir.ui.view,arch_db:pos_sale.res_config_settings_view_form
 msgid "Down Payment Product"
+<<<<<<< HEAD
 msgstr "Produkt záloha "
+=======
+msgstr "Produkt záloha"
+>>>>>>> upstream/18.0
 
 #. module: pos_sale
 #. odoo-python
@@ -1403,6 +1449,11 @@ msgid ""
 "Down payment (ref: %(order_reference)s on \n"
 " %(date)s)"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Záloha (ref. č.: %(order_reference)s dne \n"
+" %(date)s)"
+>>>>>>> upstream/18.0
 
 #. module: pos_sale
 #. odoo-javascript
@@ -1569,7 +1620,11 @@ msgid "Due balance: %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zůstatek k úhradě: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zůstatek k úhradě: %s"
 >>>>>>> upstream/18.0
@@ -2077,6 +2132,11 @@ msgid ""
 "It seems that you didn't configure a down payment product in your point of "
 "sale. You can go to your point of sale configuration to choose one."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Zdá se, že jste ve svém prodejním místě nenastavili produkt pro zálohu. "
+"Můžete přejít do nastavení prodejního místa a vybrat si jeden."
+>>>>>>> upstream/18.0
 
 #. module: pos_sale
 #. odoo-python
@@ -2115,7 +2175,11 @@ msgstr "Otevřené relace"
 #. odoo-javascript
 #: code:addons/pos_sale/static/src/overrides/components/product_info_popup/product_info_popup.xml:0
 msgid "Optional Products:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Volitelné produkty:"
+>>>>>>> upstream/18.0
 
 #. module: pos_sale
 #: model:ir.model.fields,field_description:pos_sale.field_sale_report__order_reference
@@ -2131,7 +2195,11 @@ msgstr "Položky objednávky přesunuté do prodejního místa"
 #. module: pos_sale
 #: model:ir.model.fields.selection,name:pos_sale.selection__sale_report__order_reference__pos_order
 msgid "POS Order"
+<<<<<<< HEAD
 msgstr "Objednávka prod. místa"
+=======
+msgstr "Objednávka POS"
+>>>>>>> upstream/18.0
 
 #. module: pos_sale
 #: model:ir.model.fields.selection,name:pos_sale.selection__sale_report__state__paid
@@ -2290,7 +2358,11 @@ msgstr "Kurz měny k měně sazby použitelné ke dni objednávky"
 #: model:ir.model.fields,help:pos_sale.field_res_config_settings__pos_crm_team_id
 msgid "This Point of sale's sales will be related to this Sales Team."
 msgstr ""
+<<<<<<< HEAD
 "Toto prodejní místo bude přímo souviset s tímto obchodním týmem prodavačů"
+=======
+"Toto prodejní místo bude přímo souviset s tímto obchodním týmem prodavačů."
+>>>>>>> upstream/18.0
 
 #. module: pos_sale
 #: model_terms:ir.ui.view,arch_db:pos_sale.res_config_settings_view_form
@@ -2314,6 +2386,11 @@ msgid ""
 "Transferred<br/>\n"
 "                                from Sale"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Převedeno<br/>\n"
+"                                z Prodeje"
+>>>>>>> upstream/18.0
 
 #. module: pos_sale
 #: model_terms:ir.ui.view,arch_db:pos_sale.view_order_form_inherit_pos_sale
@@ -2321,6 +2398,11 @@ msgid ""
 "Transferred<br/>\n"
 "                                to POS"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Převedeno<br/>\n"
+"                            do POS"
+>>>>>>> upstream/18.0
 
 #. module: pos_sale
 #. odoo-javascript
