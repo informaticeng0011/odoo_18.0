@@ -103,6 +103,7 @@ import base64
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import pytz
 from datetime import date, datetime
@@ -388,6 +389,8 @@ from odoo import _, api, fields, models, exceptions
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 import pytz
 from datetime import date, datetime
 
@@ -457,6 +460,9 @@ from odoo import _, api, exceptions, fields, models, modules
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -773,7 +779,11 @@ class CardCampaign(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     body_html = fields.Html(related='card_template_id.body', render_engine="qweb")
+=======
+    body_html = fields.Html(related='card_template_id.body', render_engine="qweb", readonly=False)
+>>>>>>> upstream/18.0
 =======
     body_html = fields.Html(related='card_template_id.body', render_engine="qweb", readonly=False)
 >>>>>>> upstream/18.0
@@ -1477,7 +1487,11 @@ class CardCampaign(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     reward_message = fields.Html(string='Thanks to You Message')
+=======
+    reward_message = fields.Html(string='Thank You Message')
+>>>>>>> upstream/18.0
 =======
     reward_message = fields.Html(string='Thank You Message')
 >>>>>>> upstream/18.0
@@ -2240,7 +2254,11 @@ class CardCampaign(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.env['card.card'].search([('campaign_id', 'in', self.ids)]).requires_sync = True
+=======
+            self.env['card.card'].with_context(active_test=False).search([('campaign_id', 'in', self.ids)]).requires_sync = True
+>>>>>>> upstream/18.0
 =======
             self.env['card.card'].with_context(active_test=False).search([('campaign_id', 'in', self.ids)]).requires_sync = True
 >>>>>>> upstream/18.0
@@ -2496,6 +2514,7 @@ class CardCampaign(models.Model):
 
     def action_preview(self):
         self.ensure_one()
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2913,6 +2932,9 @@ class CardCampaign(models.Model):
 =======
         card = self._fetch_or_create_preview_card()
 >>>>>>> upstream/18.0
+=======
+        card = self._fetch_or_create_preview_card()
+>>>>>>> upstream/18.0
         return {'type': 'ir.actions.act_url', 'url': card._get_path('preview'), 'target': 'new'}
 
     def action_share(self):
@@ -3026,8 +3048,11 @@ class CardCampaign(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'default_body_arch': f"""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3364,6 +3389,9 @@ class CardCampaign(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3674,11 +3702,14 @@ class CardCampaign(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <p class="o_default_snippet_text">Hello everyone</p>
         <p class="o_default_snippet_text">Here's the link to advertise your participation.
         <br> Your help with this promotion would be greatly appreciated!`</p>
         <p class="o_default_snippet_text">Many thanks</p>
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3983,6 +4014,9 @@ class CardCampaign(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4293,8 +4327,13 @@ class CardCampaign(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <a href="/cards/{self.id}/preview" style="padding-left: 3px !important; padding-right: 3px !important">
                         <img src="/web/image/card.campaign/{self.id}/image_preview" alt="Card Preview" class="img-fluid" style="width: 540px;"/>
+=======
+                    <a href="/cards/{preview_card.id or 0}/preview" style="padding-left: 3px !important; padding-right: 3px !important">
+                        <img src="/web/image/card.campaign/{self.id or 0}/image_preview" alt="{_("Card Preview")}" class="img-fluid" style="width: 540px;"/>
+>>>>>>> upstream/18.0
 =======
                     <a href="/cards/{preview_card.id or 0}/preview" style="padding-left: 3px !important; padding-right: 3px !important">
                         <img src="/web/image/card.campaign/{self.id or 0}/image_preview" alt="{_("Card Preview")}" class="img-fluid" style="width: 540px;"/>
@@ -4808,11 +4847,15 @@ class CardCampaign(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 """,
             },
             'views': [[False, 'form']],
             'target': 'new',
         }
+=======
+"""
+>>>>>>> upstream/18.0
 =======
 """
 >>>>>>> upstream/18.0
@@ -5195,7 +5238,10 @@ class CardCampaign(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5400,6 +5446,9 @@ class CardCampaign(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5594,6 +5643,7 @@ class CardCampaign(models.Model):
         """Helper to get the right value for dynamic fields."""
         self.ensure_one()
         result = {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6541,6 +6591,10 @@ class CardCampaign(models.Model):
             'image1': images[0] if (images := self.content_image1_path and self.content_image1_path in record and record.mapped(self.content_image1_path)) else False,
             'image2': images[0] if (images := self.content_image2_path and self.content_image2_path in record and record.mapped(self.content_image2_path)) else False,
 >>>>>>> upstream/18.0
+=======
+            'image1': images[0] if (images := self.content_image1_path and self.content_image1_path in record and record.mapped(self.content_image1_path)) else False,
+            'image2': images[0] if (images := self.content_image2_path and self.content_image2_path in record and record.mapped(self.content_image2_path)) else False,
+>>>>>>> upstream/18.0
         }
         campaign_text_element_fields = (
             ('header', 'content_header', 'content_header_dyn', 'content_header_path'),
@@ -6552,6 +6606,7 @@ class CardCampaign(models.Model):
         for el, text_field, dyn_field, path_field in campaign_text_element_fields:
             if not self[dyn_field]:
                 result[el] = self[text_field]
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6869,6 +6924,8 @@ class CardCampaign(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             elif not (field_path := self[path_field]):
                 result[el] = record
             else:
@@ -6983,6 +7040,9 @@ class CardCampaign(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7293,6 +7353,9 @@ class CardCampaign(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

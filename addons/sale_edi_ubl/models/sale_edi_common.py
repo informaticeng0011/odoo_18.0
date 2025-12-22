@@ -92,6 +92,11 @@ class SaleEdiCommon(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if line_values.get('discount'):  # Exclude discounts
+                line_values.pop('discount')
+>>>>>>> upstream/18.0
 =======
             if line_values.get('discount'):  # Exclude discounts
                 line_values.pop('discount')

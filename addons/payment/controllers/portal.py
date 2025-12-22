@@ -468,7 +468,11 @@ class PaymentPortal(portal.CustomerPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if flow == 'token':
+=======
+        if flow == 'token' and not request.env.context.get('delay_payment_request'):
+>>>>>>> upstream/18.0
 =======
         if flow == 'token' and not request.env.context.get('delay_payment_request'):
 >>>>>>> upstream/18.0

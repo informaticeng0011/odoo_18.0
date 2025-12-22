@@ -1,8 +1,13 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* auth_totp_mail
 # 
+=======
+# * auth_totp_mail
+#
+>>>>>>> upstream/18.0
 =======
 # * auth_totp_mail
 #
@@ -13,7 +18,11 @@
 # Martin Trigaux, 2024
 # Sammi Iversen <sammi@vkdata.dk>, 2025
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
@@ -22,6 +31,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-16 13:39+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Sammi Iversen <sammi@vkdata.dk>, 2025\n"
@@ -32,6 +42,8 @@ msgstr ""
 "Language: da\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-12-18 16:57+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Danish <https://translate.odoo.com/projects/odoo-18/"
@@ -42,6 +54,9 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.14.3\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: auth_totp_mail
@@ -83,6 +98,10 @@ msgid ""
 "A trusted device has just been removed from your account: %(device_names)s"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"En pålidelig enhed er netop blevet fjernet fra din konto: %(device_names)s"
+>>>>>>> upstream/18.0
 =======
 "En pålidelig enhed er netop blevet fjernet fra din konto: %(device_names)s"
 >>>>>>> upstream/18.0
@@ -138,7 +157,11 @@ msgstr "Åben 2-trins godkendelses konfiguration"
 #: code:addons/auth_totp_mail/models/res_users.py:0
 msgid "Security Update: 2FA Activated"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sikkerhedsopdatering: 2FA aktiveret"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sikkerhedsopdatering: 2FA aktiveret"
 >>>>>>> upstream/18.0
@@ -148,7 +171,11 @@ msgstr "Sikkerhedsopdatering: 2FA aktiveret"
 #: code:addons/auth_totp_mail/models/res_users.py:0
 msgid "Security Update: 2FA Deactivated"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sikkerhedsopdatering: 2FA deaktiveret"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sikkerhedsopdatering: 2FA deaktiveret"
 >>>>>>> upstream/18.0
@@ -164,7 +191,11 @@ msgstr ""
 #: code:addons/auth_totp_mail/models/auth_totp_device.py:0
 msgid "Security Update: Device Removed"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sikkerhedsopdatering: Enhed fjernet"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sikkerhedsopdatering: Enhed fjernet"
 >>>>>>> upstream/18.0
@@ -173,7 +204,11 @@ msgstr "Sikkerhedsopdatering: Enhed fjernet"
 #: model:mail.template,name:auth_totp_mail.mail_template_totp_invite
 msgid "Settings: 2Fa Invitation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Indstillinger: 2FA-invitation"
+>>>>>>> upstream/18.0
 =======
 msgstr "Indstillinger: 2FA-invitation"
 >>>>>>> upstream/18.0

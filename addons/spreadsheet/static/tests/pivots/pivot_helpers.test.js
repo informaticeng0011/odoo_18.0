@@ -73,6 +73,7 @@ describe.current.tags("headless");
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 describe("pivot_helpers", () => {
     test("Basic formula extractor", async function () {
         const formula = `=PIVOT.VALUE("1", "test") + ODOO.LIST("2", "hello", "bla")`;
@@ -124,6 +125,8 @@ describe("pivot_helpers", () => {
         expect(getFirstPivotFunction(tokenize("bla"))).toBe(undefined);
     });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -334,6 +337,9 @@ test("getFirstPivotFunction does not crash when given crap", async function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

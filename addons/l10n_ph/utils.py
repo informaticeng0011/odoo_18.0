@@ -38,6 +38,7 @@ import re
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import xlwt
 import xlsxwriter
 
@@ -45,6 +46,8 @@ from odoo.tools.misc import format_date
 
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -160,6 +163,9 @@ from odoo.tools.misc import format_date
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -242,6 +248,7 @@ COLUMN_HEADER_MAP = {
     "firstName": "first_name",
     "middleName": "middle_name",
     "address": "address",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -748,6 +755,10 @@ COLUMN_HEADER_MAP = {
     "zip_code": "zip",
     "nature": "tax_description",
 >>>>>>> upstream/18.0
+=======
+    "zip_code": "zip",
+    "nature": "tax_description",
+>>>>>>> upstream/18.0
     "ATC": "atc",
     "income_payment": "price_subtotal",
     "ewt_rate": "amount",
@@ -778,6 +789,7 @@ def _export_bir_2307(sheet_title, moves, file_format='xlsx'):
 
     worksheet.write_row(0, 0, list(COLUMN_HEADER_MAP.keys()))
     worksheet_row = 1
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1120,6 +1132,9 @@ def _export_bir_2307(sheet_title, moves, file_format='xlsx'):
 =======
     for move in moves.sorted(lambda m: (m.invoice_date or m.date, m.name)):
 >>>>>>> upstream/18.0
+=======
+    for move in moves.sorted(lambda m: (m.invoice_date or m.date, m.name)):
+>>>>>>> upstream/18.0
         partner = move.commercial_partner_id
         partner_address_info = [partner.street, partner.street2, partner.city, partner.state_id.name, partner.country_id.name]
         first_name = middle_name = last_name = ''
@@ -1127,6 +1142,7 @@ def _export_bir_2307(sheet_title, moves, file_format='xlsx'):
             first_name = partner.first_name or ''
             middle_name = partner.middle_name or ''
             last_name = partner.last_name or ''
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1627,6 +1643,8 @@ def _export_bir_2307(sheet_title, moves, file_format='xlsx'):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         values = {
             'invoice_date': format_date(move.env, move.invoice_date or move.date, date_format="MM/dd/yyyy"),
             'vat': re.sub(r'-', '', partner.vat)[:9] if partner.vat else '',
@@ -1667,6 +1685,9 @@ def _export_bir_2307(sheet_title, moves, file_format='xlsx'):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1746,6 +1767,7 @@ def _export_bir_2307(sheet_title, moves, file_format='xlsx'):
             'last_name': last_name,
             'address': ', '.join([val for val in partner_address_info if val]),
             'zip': partner.zip or '',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2123,11 +2145,16 @@ def _export_bir_2307(sheet_title, moves, file_format='xlsx'):
         }
         aggregated_taxes = _prepare_invoice_aggregated_taxes(move)
 >>>>>>> upstream/18.0
+=======
+        }
+        aggregated_taxes = _prepare_invoice_aggregated_taxes(move)
+>>>>>>> upstream/18.0
         for invoice_line, tax_details_for_line in aggregated_taxes['tax_details_per_record'].items():
             for tax, tax_detail in tax_details_for_line['tax_details'].items():
                 if not tax.l10n_ph_atc:
                     continue
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2534,6 +2561,9 @@ def _export_bir_2307(sheet_title, moves, file_format='xlsx'):
 =======
                 values['tax_description'] = tax.description or ''
 >>>>>>> upstream/18.0
+=======
+                values['tax_description'] = tax.description or ''
+>>>>>>> upstream/18.0
                 values['atc'] = tax.l10n_ph_atc
                 values['price_subtotal'] = tax_detail['base_amount']
                 values['amount'] = abs(tax.amount)
@@ -2585,7 +2615,10 @@ def _export_bir_2307(sheet_title, moves, file_format='xlsx'):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2772,6 +2805,9 @@ def _prepare_invoice_aggregated_taxes(move):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

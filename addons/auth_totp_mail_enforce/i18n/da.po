@@ -1,8 +1,13 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* auth_totp_mail_enforce
 # 
+=======
+# * auth_totp_mail_enforce
+#
+>>>>>>> upstream/18.0
 =======
 # * auth_totp_mail_enforce
 #
@@ -12,7 +17,11 @@
 # lhmflexerp <lhm@flexerp.dk>, 2024
 # Martin Trigaux, 2024
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
@@ -21,6 +30,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-16 13:39+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Martin Trigaux, 2024\n"
@@ -31,6 +41,8 @@ msgstr ""
 "Language: da\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-12-19 16:13+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Danish <https://translate.odoo.com/projects/odoo-18/"
@@ -41,6 +53,9 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.14.3\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: auth_totp_mail_enforce
@@ -99,6 +114,12 @@ msgid ""
 "                To login, enter below the six-digit authentication code just sent via email to"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-envelope-o\"/>\n"
+"                For at logge ind skal du nedenfor indtaste den sekscifrede "
+"godkendelseskode, som netop er sendt via e-mail til"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-envelope-o\"/>\n"
 "                For at logge ind skal du nedenfor indtaste den sekscifrede "
@@ -120,7 +141,11 @@ msgstr "Kan ikke sende email: bruger %s har ikke nogen email adresse."
 #: model:ir.model.fields.selection,name:auth_totp_mail_enforce.selection__auth_totp_rate_limit_log__limit_type__code_check
 msgid "Code Checking"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kontrollerer kode"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kontrollerer kode"
 >>>>>>> upstream/18.0
@@ -149,7 +174,11 @@ msgstr "Vis navn"
 #: model:ir.model.fields.selection,name:auth_totp_mail_enforce.selection__res_config_settings__auth_totp_policy__employee_required
 msgid "Employees only"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kun medarbejdere"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kun medarbejdere"
 >>>>>>> upstream/18.0
@@ -162,6 +191,11 @@ msgid ""
 "authentication method."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Krav om totrinsbekræftelse via e-mail for medarbejdere eller alle brugere "
+"(inklusive portalbrugere), hvis de ikke har en anden aktiveret metode."
+>>>>>>> upstream/18.0
 =======
 "Krav om totrinsbekræftelse via e-mail for medarbejdere eller alle brugere "
 "(inklusive portalbrugere), hvis de ikke har en anden aktiveret metode."
@@ -171,7 +205,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:auth_totp_mail_enforce.field_res_config_settings__auth_totp_enforce
 msgid "Enforce two-factor authentication"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Påkræv aktivering af totrinsbekræftelse"
+>>>>>>> upstream/18.0
 =======
 msgstr "Påkræv aktivering af totrinsbekræftelse"
 >>>>>>> upstream/18.0
@@ -205,7 +243,11 @@ msgstr "Lær mere"
 #: model:ir.model.fields,field_description:auth_totp_mail_enforce.field_auth_totp_rate_limit_log__limit_type
 msgid "Limit Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Begrænsningstype"
+>>>>>>> upstream/18.0
 =======
 msgstr "Begrænsningstype"
 >>>>>>> upstream/18.0
@@ -214,7 +256,11 @@ msgstr "Begrænsningstype"
 #: model_terms:ir.ui.view,arch_db:auth_totp_mail_enforce.auth_totp_mail_form
 msgid "Re-send email"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gensend e-mail"
+>>>>>>> upstream/18.0
 =======
 msgstr "Gensend e-mail"
 >>>>>>> upstream/18.0
@@ -233,7 +279,11 @@ msgstr "Send e-mail"
 #: model:mail.template,name:auth_totp_mail_enforce.mail_template_totp_mail_code
 msgid "Settings: 2Fa New Login"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Indstillinger for 2FA: Nyt login"
+>>>>>>> upstream/18.0
 =======
 msgstr "Indstillinger for 2FA: Nyt login"
 >>>>>>> upstream/18.0
@@ -242,7 +292,11 @@ msgstr "Indstillinger for 2FA: Nyt login"
 #: model:ir.model,name:auth_totp_mail_enforce.model_auth_totp_rate_limit_log
 msgid "TOTP rate limit logs"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Protokoller til kvotebegrænsning af TOTP"
+>>>>>>> upstream/18.0
 =======
 msgstr "Protokoller til kvotebegrænsning af TOTP"
 >>>>>>> upstream/18.0
@@ -251,7 +305,11 @@ msgstr "Protokoller til kvotebegrænsning af TOTP"
 #: model:ir.model.fields,field_description:auth_totp_mail_enforce.field_res_config_settings__auth_totp_policy
 msgid "Two-factor authentication enforcing policy"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Retningslinjer for krav om totrinsbekræftelse"
+>>>>>>> upstream/18.0
 =======
 msgstr "Retningslinjer for krav om totrinsbekræftelse"
 >>>>>>> upstream/18.0
@@ -275,6 +333,12 @@ msgid ""
 "                <br/>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Vi anbefaler på det kraftigste, at du aktiverer totrinsbekræftelse via en "
+"bekræftelsesapp for at beskytte din konto.\n"
+"                <br/>"
+>>>>>>> upstream/18.0
 =======
 "Vi anbefaler på det kraftigste, at du aktiverer totrinsbekræftelse via en "
 "bekræftelsesapp for at beskytte din konto.\n"

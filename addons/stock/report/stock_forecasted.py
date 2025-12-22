@@ -44,7 +44,11 @@ from odoo.osv.expression import AND
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tools import float_is_zero, format_date, float_round, float_compare
+=======
+from odoo.tools import float_is_zero, format_date, float_round, float_compare, OrderedSet
+>>>>>>> upstream/18.0
 =======
 from odoo.tools import float_is_zero, format_date, float_round, float_compare, OrderedSet
 >>>>>>> upstream/18.0
@@ -373,8 +377,13 @@ class StockForecasted(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         out_domain += [('state', 'not in', ['draft', 'cancel', 'done'])]
         in_domain += [('state', 'not in', ['draft', 'cancel', 'done'])]
+=======
+        out_domain += [('state', 'in', ['waiting', 'confirmed', 'partially_available', 'assigned'])]
+        in_domain += [('state', 'in', ['waiting', 'confirmed', 'partially_available', 'assigned'])]
+>>>>>>> upstream/18.0
 =======
         out_domain += [('state', 'in', ['waiting', 'confirmed', 'partially_available', 'assigned'])]
         in_domain += [('state', 'in', ['waiting', 'confirmed', 'partially_available', 'assigned'])]
@@ -1241,6 +1250,10 @@ class StockForecasted(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        res['user_can_edit_pickings'] = self.env.user.has_group('stock.group_stock_user')
+>>>>>>> upstream/18.0
 =======
         res['user_can_edit_pickings'] = self.env.user.has_group('stock.group_stock_user')
 >>>>>>> upstream/18.0
@@ -1782,7 +1795,11 @@ class StockForecasted(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             document_in = move_in._get_source_document()
+=======
+            document_in = move_in.sudo()._get_source_document()
+>>>>>>> upstream/18.0
 =======
             document_in = move_in.sudo()._get_source_document()
 >>>>>>> upstream/18.0
@@ -2306,7 +2323,11 @@ class StockForecasted(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             document_out = move_out._get_source_document()
+=======
+            document_out = move_out.sudo()._get_source_document()
+>>>>>>> upstream/18.0
 =======
             document_out = move_out.sudo()._get_source_document()
 >>>>>>> upstream/18.0
@@ -2808,6 +2829,7 @@ class StockForecasted(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         def _reconcile_out_with_ins(lines, out, ins, demand, product_rounding, only_matching_move_dest=True, read=True):
             index_to_remove = []
             for index, in_ in enumerate(ins):
@@ -2827,6 +2849,8 @@ class StockForecasted(models.AbstractModel):
             for index in reversed(index_to_remove):
                 del ins[index]
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2960,6 +2984,9 @@ class StockForecasted(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3118,6 +3145,7 @@ class StockForecasted(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ins_per_product = defaultdict(list)
         for in_ in ins:
             ins_per_product[in_.product_id.id].append({
@@ -3126,6 +3154,8 @@ class StockForecasted(models.AbstractModel):
                 'move_dests': in_._rollup_move_dests()
             })
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3249,6 +3279,9 @@ class StockForecasted(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3432,8 +3465,13 @@ class StockForecasted(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if not float_is_zero(demand_out, precision_rounding=product_rounding):
                     demand_out = _reconcile_out_with_ins(lines, out, ins_per_product[product.id], demand_out, product_rounding, only_matching_move_dest=True, read=read)
+=======
+                demand_out = _reconcile_out_with_ins(lines, out, dest_ids_to_in_ids[out.id], demand_out, product_rounding, in_id_to_in_data, ins_per_product, dest_ids_to_in_ids, read=read)
+
+>>>>>>> upstream/18.0
 =======
                 demand_out = _reconcile_out_with_ins(lines, out, dest_ids_to_in_ids[out.id], demand_out, product_rounding, in_id_to_in_data, ins_per_product, dest_ids_to_in_ids, read=read)
 
@@ -3629,7 +3667,11 @@ class StockForecasted(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 demand = _reconcile_out_with_ins(lines, out, ins_per_product[product.id], demand, product_rounding, only_matching_move_dest=False, read=read)
+=======
+                demand = _reconcile_out_with_ins(lines, out, ins_per_product[product.id], demand, product_rounding, in_id_to_in_data, ins_per_product, dest_ids_to_in_ids, read=read)
+>>>>>>> upstream/18.0
 =======
                 demand = _reconcile_out_with_ins(lines, out, ins_per_product[product.id], demand, product_rounding, in_id_to_in_data, ins_per_product, dest_ids_to_in_ids, read=read)
 >>>>>>> upstream/18.0
@@ -3793,11 +3835,14 @@ class StockForecasted(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             for in_ in ins_per_product[product.id]:
                 if float_is_zero(in_['qty'], precision_rounding=product_rounding):
                     continue
                 lines.append(self._prepare_report_line(in_['qty'], move_in=in_['move'], read=read))
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3914,6 +3959,9 @@ class StockForecasted(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

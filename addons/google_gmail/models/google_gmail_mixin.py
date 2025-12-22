@@ -158,7 +158,10 @@ from odoo.exceptions import AccessError, UserError
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -603,6 +606,9 @@ GMAIL_TOKEN_VALIDITY_THRESHOLD = GMAIL_TOKEN_REQUEST_TIMEOUT + 5
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1158,7 +1164,11 @@ class GoogleGmailMixin(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             timeout=5,
+=======
+            timeout=GMAIL_TOKEN_REQUEST_TIMEOUT,
+>>>>>>> upstream/18.0
 =======
             timeout=GMAIL_TOKEN_REQUEST_TIMEOUT,
 >>>>>>> upstream/18.0
@@ -1766,7 +1776,11 @@ class GoogleGmailMixin(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
            or self.google_gmail_access_token_expiration < now_timestamp:
+=======
+           or self.google_gmail_access_token_expiration - GMAIL_TOKEN_VALIDITY_THRESHOLD < now_timestamp:
+>>>>>>> upstream/18.0
 =======
            or self.google_gmail_access_token_expiration - GMAIL_TOKEN_VALIDITY_THRESHOLD < now_timestamp:
 >>>>>>> upstream/18.0

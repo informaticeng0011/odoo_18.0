@@ -157,6 +157,11 @@ export class ImageCrop extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            delete this.media.dataset.isManualCrop;
+            this.media.classList.remove("o_we_image_cropped");
+>>>>>>> upstream/18.0
 =======
             delete this.media.dataset.isManualCrop;
             this.media.classList.remove("o_we_image_cropped");
@@ -594,8 +599,12 @@ export class ImageCrop extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const cropped = this.aspectRatio !== "0/0";
         this.media.classList.toggle('o_we_image_cropped', cropped);
+=======
+        this.media.classList.add("o_we_image_cropped");
+>>>>>>> upstream/18.0
 =======
         this.media.classList.add("o_we_image_cropped");
 >>>>>>> upstream/18.0
@@ -915,9 +924,12 @@ export class ImageCrop extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             case 'apply':
                 return this._save();
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1099,6 +1111,9 @@ export class ImageCrop extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

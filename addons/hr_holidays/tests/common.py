@@ -3,8 +3,14 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.addons.mail.tests.common import mail_new_test_user
 from odoo.tests import common
+=======
+from odoo import fields
+from odoo.addons.mail.tests.common import mail_new_test_user
+from odoo.tests import common, Form
+>>>>>>> upstream/18.0
 =======
 from odoo import fields
 from odoo.addons.mail.tests.common import mail_new_test_user
@@ -75,7 +81,10 @@ class TestHrHolidaysCommon(common.TransactionCase):
         cls.hours_per_day = cls.employee_emp.resource_id.calendar_id.hours_per_day or 8
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -105,6 +114,9 @@ class TestHrHolidaysCommon(common.TransactionCase):
                 form.date_to = date_to
         return form.record
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

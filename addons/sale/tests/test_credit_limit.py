@@ -521,7 +521,10 @@ class TestSaleOrderCreditLimit(TestSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -970,9 +973,12 @@ class TestSaleOrderCreditLimit(TestSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         })
         self.partner_a.commercial_partner_id = company_a
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1366,6 +1372,9 @@ class TestSaleOrderCreditLimit(TestSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1627,6 +1636,7 @@ class TestSaleOrderCreditLimit(TestSaleCommon):
         order = self.empty_order
         order.order_line = [Command.create({
             'product_id': self.company_data['product_order_no'].id,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2107,6 +2117,8 @@ class TestSaleOrderCreditLimit(TestSaleCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             'price_unit': 600.0,
             'tax_id': False,
         })]
@@ -2253,6 +2265,9 @@ class TestSaleOrderCreditLimit(TestSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

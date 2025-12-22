@@ -20,7 +20,11 @@ def migrate(cr, version):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     env = api.Environment(cr, SUPERUSER_ID, {})
+=======
+    env = api.Environment(cr, SUPERUSER_ID, {"lang": "en_US"})
+>>>>>>> upstream/18.0
 =======
     env = api.Environment(cr, SUPERUSER_ID, {"lang": "en_US"})
 >>>>>>> upstream/18.0
@@ -78,7 +82,11 @@ def migrate(cr, version):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     new_tax_groups = ["l10n_id_tax_group_stlg"]
+=======
+    new_tax_groups = ["l10n_id_tax_group_stlg", "l10n_id_tax_group_non_luxury_goods", "l10n_id_tax_group_luxury_goods", "l10n_id_tax_group_0"]
+>>>>>>> upstream/18.0
 =======
     new_tax_groups = ["l10n_id_tax_group_stlg", "l10n_id_tax_group_non_luxury_goods", "l10n_id_tax_group_luxury_goods", "l10n_id_tax_group_0"]
 >>>>>>> upstream/18.0
@@ -107,12 +115,15 @@ def migrate(cr, version):
     for company in companies:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # =============================
         # Load new tax data
         if tax_group_data:
             ChartTemplate.with_company(company)._load_data({
                 "account.tax.group": tax_group_data,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         new_tax_group_data = {}
@@ -125,6 +136,9 @@ def migrate(cr, version):
             ChartTemplate.with_company(company)._load_data({
                 "account.tax.group": new_tax_group_data,
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
