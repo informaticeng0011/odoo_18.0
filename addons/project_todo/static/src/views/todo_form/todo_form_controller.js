@@ -24,7 +24,11 @@ export class TodoFormController extends FormControllerWithHTMLExpander {
             menuItems.action?.filter((action) => actionToKeep.includes(action.key)) || [];
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (this.projectAccess) {
+=======
+        if (this.projectAccess && !this.model.root.data.project_id) {
+>>>>>>> upstream/18.0
 =======
         if (this.projectAccess && !this.model.root.data.project_id) {
 >>>>>>> upstream/18.0

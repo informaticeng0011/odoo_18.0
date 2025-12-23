@@ -395,7 +395,11 @@ describe('Paste', () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     contentAfter: '<p>123a</p><table class="table table-bordered"><thead><tr><th>h</th></tr></thead><tbody><tr><td>b</td></tr></tbody></table><p>d[]</p>',
+=======
+                    contentAfter: '<p>123a</p><table class="table table-bordered"><tbody><tr><td>h</td></tr><tr><td>b</td></tr></tbody></table><p>d[]</p>',
+>>>>>>> upstream/18.0
 =======
                     contentAfter: '<p>123a</p><table class="table table-bordered"><tbody><tr><td>h</td></tr><tr><td>b</td></tr></tbody></table><p>d[]</p>',
 >>>>>>> upstream/18.0
@@ -1702,7 +1706,10 @@ describe('Paste', () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2089,6 +2096,9 @@ describe('Paste', () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

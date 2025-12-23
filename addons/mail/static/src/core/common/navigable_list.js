@@ -193,6 +193,12 @@ export class NavigableList extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if (!option) {
+            return;
+        }
+>>>>>>> upstream/18.0
 =======
         if (!option) {
             return;
@@ -972,9 +978,13 @@ export class NavigableList extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     onOptionMouseEnter(index) {
         this.state.activeIndex = index;
     }
+=======
+    onOptionMouseEnter(index) {}
+>>>>>>> upstream/18.0
 =======
     onOptionMouseEnter(index) {}
 >>>>>>> upstream/18.0

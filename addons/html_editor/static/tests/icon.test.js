@@ -101,7 +101,11 @@ import { expect, test } from "@odoo/hoot";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { click, waitFor } from "@odoo/hoot-dom";
+=======
+import { click, tick, waitFor } from "@odoo/hoot-dom";
+>>>>>>> upstream/18.0
 =======
 import { click, tick, waitFor } from "@odoo/hoot-dom";
 >>>>>>> upstream/18.0
@@ -548,6 +552,10 @@ import { undo } from "./_helpers/user_actions";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { expectElementCount } from "./_helpers/ui_expectations";
+>>>>>>> upstream/18.0
 =======
 import { expectElementCount } from "./_helpers/ui_expectations";
 >>>>>>> upstream/18.0
@@ -1219,7 +1227,11 @@ test("Can set icon color", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await setupEditor(`<p><span class="fa fa-glass">[]</span></p>`);
+=======
+    const { el } = await setupEditor(`<p><span class="fa fa-glass">[]</span></p>`);
+>>>>>>> upstream/18.0
 =======
     const { el } = await setupEditor(`<p><span class="fa fa-glass">[]</span></p>`);
 >>>>>>> upstream/18.0
@@ -1669,6 +1681,7 @@ test("Can set icon color", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-toolbar").toHaveCount(1); // toolbar still open
 =======
     await expectElementCount(".o-we-toolbar", 1);
@@ -1977,6 +1990,8 @@ test("Can set icon color", async () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     await expectElementCount(".o-we-toolbar", 1);
     expect(".o_font_color_selector").toHaveCount(0); // selector closed
     expect(getContent(el)).toBe(
@@ -2083,6 +2098,9 @@ test("Can set icon color", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2415,7 +2433,10 @@ test("Can undo to 1x size after applying 2x size", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2726,12 +2747,15 @@ test("Should be able to undo after adding spin effect to an icon", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".btn-group[name='icon_spin'] button").toHaveClass("active");
     undo(editor);
     await animationFrame();
     expect("span.fa-glass.fa-spin").toHaveCount(0);
     expect(".btn-group[name='icon_spin']").not.toHaveClass("active");
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2983,6 +3007,9 @@ test("Should be able to undo after adding spin effect to an icon", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3267,6 +3294,9 @@ test("Icon should be fully selected if the selection covers the ZWS inside the s
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

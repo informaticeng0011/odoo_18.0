@@ -135,7 +135,10 @@ registry.category("web_tour.tours").add("GS1BarcodeScanningTour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -340,6 +343,9 @@ registry.category("web_tour.tours").add("GS1BarcodeScanningTour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -487,7 +493,10 @@ registry.category("web_tour.tours").add("GS1BarcodeScanningTour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -500,6 +509,9 @@ registry.category("web_tour.tours").add("GS1BarcodeScanningTour", {
             ProductScreen.selectedOrderlineHas("Product 1", 27 + 5 * 10),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

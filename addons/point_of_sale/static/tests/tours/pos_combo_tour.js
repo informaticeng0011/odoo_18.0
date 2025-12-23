@@ -12,6 +12,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+/* global posmodel */
+
+>>>>>>> upstream/18.0
 =======
 /* global posmodel */
 
@@ -387,7 +392,10 @@ registry.category("web_tour.tours").add("ProductComboChangeFP", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -925,6 +933,7 @@ registry.category("web_tour.tours").add("ProductComboChangePricelist", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1239,6 +1248,8 @@ registry.category("web_tour.tours").add("ProductComboChangePricelist", {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1357,6 +1368,7 @@ registry.category("web_tour.tours").add("test_combo_disallowLineQuantityChange_2
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1383,4 +1395,31 @@ registry.category("web_tour.tours").add("test_combo_disallowLineQuantityChange_2
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+registry.category("web_tour.tours").add("test_combo_item_image_display", {
+    steps: () =>
+        [
+            Chrome.startPoS(),
+            Dialog.confirm("Open Register"),
+            ProductScreen.clickDisplayedProduct("Office Combo"),
+            combo.checkImgAndSelect("Combo Product 2", true),
+            combo.checkImgAndSelect("Combo Product 4", true),
+            combo.checkImgAndSelect("Combo Product 6", true),
+            Dialog.confirm(),
+        ].flat(),
+});
+
+registry.category("web_tour.tours").add("test_combo_item_image_not_display", {
+    steps: () =>
+        [
+            Chrome.startPoS(),
+            ProductScreen.clickDisplayedProduct("Office Combo"),
+            combo.checkImgAndSelect("Combo Product 2", false),
+            combo.checkImgAndSelect("Combo Product 4", false),
+            combo.checkImgAndSelect("Combo Product 6", false),
+            Dialog.confirm(),
+        ].flat(),
+});
 >>>>>>> upstream/18.0

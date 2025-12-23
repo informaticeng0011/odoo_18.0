@@ -106,6 +106,12 @@ class ProductProduct(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+            # Identify special loyalty products (e.g., gift cards, e-wallets) to be displayed in the POS
+            data['pos.session']['data'][0]['_pos_special_display_products_ids'] = trigger_products.ids
+>>>>>>> upstream/18.0
 =======
 
             # Identify special loyalty products (e.g., gift cards, e-wallets) to be displayed in the POS

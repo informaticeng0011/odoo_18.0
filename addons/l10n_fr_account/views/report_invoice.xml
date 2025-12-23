@@ -122,8 +122,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <div t-attf-class="#{'col-auto col-3 mw-100' if report_type != 'html' else 'col'} mb-2" name="customer_address">
                     <strong>Customer Address:</strong>
+=======
+                <div name="customer_address" class="col">
+                    <strong>Customer Address</strong>
+>>>>>>> upstream/18.0
 =======
                 <div name="customer_address" class="col">
                     <strong>Customer Address</strong>
@@ -646,8 +651,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <div t-if="has_service or has_consu" t-attf-class="#{'col-auto col-3 mw-100' if report_type != 'html' else 'col'} mb-2" name="operation_type">
                     <strong>Operation Type:</strong>
+=======
+                <div t-if="has_service or has_consu" name="operation_type" class="col">
+                    <strong>Operation Type</strong>
+>>>>>>> upstream/18.0
 =======
                 <div t-if="has_service or has_consu" name="operation_type" class="col">
                     <strong>Operation Type</strong>

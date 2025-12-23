@@ -19,6 +19,7 @@ from datetime import timedelta
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import fields, models, _
 from odoo.addons.account.models.company import PEPPOL_LIST
 from odoo.addons.account_edi_proxy_client.models.account_edi_proxy_user import AccountEdiProxyError
@@ -67,11 +68,15 @@ from odoo import _, api, fields, models
 =======
 from odoo import _, api, fields, models
 >>>>>>> upstream/18.0
+=======
+from odoo import _, api, fields, models
+>>>>>>> upstream/18.0
 
 from odoo.addons.account.models.company import PEPPOL_LIST
 from odoo.addons.account_edi_proxy_client.models.account_edi_proxy_user import AccountEdiProxyError
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -112,6 +117,8 @@ class AccountMoveSend(models.AbstractModel):
     _inherit = 'account.move.send'
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -144,6 +151,9 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -229,6 +239,7 @@ class AccountMoveSend(models.AbstractModel):
     # SENDING METHODS
     # -------------------------------------------------------------------------
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1066,6 +1077,8 @@ class AccountMoveSend(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     def _get_default_invoice_edi_format(self, move, **kwargs) -> str:
         # EXTENDS 'account' - default on bis3 if Peppol is set but no format on the partner
         invoice_edi_format = super()._get_default_invoice_edi_format(move, **kwargs)
@@ -1174,6 +1187,9 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1403,6 +1419,7 @@ class AccountMoveSend(models.AbstractModel):
         else:
             return super()._is_applicable_to_company(method, company)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1977,6 +1994,8 @@ class AccountMoveSend(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     def _is_applicable_to_move(self, method, move, **move_data):
         # EXTENDS 'account'
         if method == 'peppol':
@@ -2171,6 +2190,9 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2748,12 +2770,15 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return super()._is_applicable_to_move(method, move)
 
     def _hook_if_errors(self, moves_data, allow_raising=True):
         # EXTENDS 'account'
         # to update `peppol_move_state` as `skipped` to show users that something went wrong
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3326,6 +3351,9 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3711,6 +3739,7 @@ class AccountMoveSend(models.AbstractModel):
             if 'peppol' in move_data['sending_methods'] and move_data.get('blocking_error'):
                 moves_failed_file_generation |= move
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4472,6 +4501,9 @@ class AccountMoveSend(models.AbstractModel):
 =======
         moves_failed_file_generation.peppol_move_state = 'error'
 >>>>>>> upstream/18.0
+=======
+        moves_failed_file_generation.peppol_move_state = 'error'
+>>>>>>> upstream/18.0
 
         return super()._hook_if_errors(moves_data, allow_raising=allow_raising)
 
@@ -4482,6 +4514,7 @@ class AccountMoveSend(models.AbstractModel):
         params = {'documents': []}
         invoices_data_peppol = {}
         for invoice, invoice_data in invoices_data.items():
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5444,6 +5477,10 @@ class AccountMoveSend(models.AbstractModel):
             partner = invoice.partner_id.commercial_partner_id.with_company(invoice.company_id)
             if 'peppol' in invoice_data['sending_methods']:
 >>>>>>> upstream/18.0
+=======
+            partner = invoice.partner_id.commercial_partner_id.with_company(invoice.company_id)
+            if 'peppol' in invoice_data['sending_methods']:
+>>>>>>> upstream/18.0
                 if not partner.peppol_eas or not partner.peppol_endpoint:
                     invoice.peppol_move_state = 'error'
                     invoice_data['error'] = _('The partner is missing Peppol EAS and/or Endpoint identifier.')
@@ -5644,7 +5681,10 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6230,6 +6270,7 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6574,6 +6615,8 @@ class AccountMoveSend(models.AbstractModel):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6629,6 +6672,9 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6714,6 +6760,7 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 invoices = self.env['account.move']
                 for message, (invoice, invoice_data) in zip(response['messages'], invoices_data_peppol.items()):
                     invoice.peppol_message_uuid = message['message_uuid']
@@ -6722,6 +6769,8 @@ class AccountMoveSend(models.AbstractModel):
                 log_message = _('The document has been sent to the Peppol Access Point for processing')
                 invoices._message_log_batch(bodies={invoice.id: log_message for invoice in invoices})
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6773,7 +6822,11 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         invoice_data['mail_attachments_widget'],
+=======
+                        invoice_data.get('mail_attachments_widget', []),
+>>>>>>> upstream/18.0
 =======
                         invoice_data.get('mail_attachments_widget', []),
 >>>>>>> upstream/18.0
@@ -6844,6 +6897,9 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

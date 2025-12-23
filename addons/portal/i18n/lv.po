@@ -2,8 +2,13 @@
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* portal
 # 
+=======
+# * portal
+#
+>>>>>>> upstream/18.0
 =======
 # * portal
 #
@@ -176,6 +181,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Will Sensors, 2025
 # Armīns Jeltajevs <armins.jeltajevs@gmail.com>, 2025
 =======
@@ -809,10 +815,16 @@
 # Will Sensors, 2025
 # Aleksejs Ivanovs <ai@myacc.pro>, 2025.
 >>>>>>> upstream/18.0
+=======
+# Armīns Jeltajevs <armins.jeltajevs@gmail.com>, 2025
+# Will Sensors, 2025
+# Aleksejs Ivanovs <ai@myacc.pro>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1769,6 +1781,8 @@ msgstr ""
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-05-23 18:40+0000\n"
 "PO-Revision-Date: 2025-12-18 10:48+0000\n"
 "Last-Translator: Aleksejs Ivanovs <ai@myacc.pro>\n"
@@ -1781,6 +1795,9 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2;\n"
 "X-Generator: Weblate 5.14.3\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1818,6 +1835,12 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class="
+"\"fa fa-fw fa-id-card-o me-1 small text-primary text-primary-emphasis\"/> "
+"Mans konts"
+>>>>>>> upstream/18.0
 =======
 "<i class="
 "\"fa fa-fw fa-id-card-o me-1 small text-primary text-primary-emphasis\"/> "
@@ -1837,6 +1860,12 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class="
+"\"fa fa-fw fa-sign-out me-1 small text-primary text-primary-emphasis\"/> "
+"Iziet"
+>>>>>>> upstream/18.0
 =======
 "<i class="
 "\"fa fa-fw fa-sign-out me-1 small text-primary text-primary-emphasis\"/> "
@@ -1856,6 +1885,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-fw fa-th me-1 small text-primary text-primary-emphasis\"/> "
+"Lietotnes"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-fw fa-th me-1 small text-primary text-primary-emphasis\"/> "
 "Lietotnes"
@@ -2109,6 +2143,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<t t-set=\"user_name\" t-value=\"object.user_id.name or object.partner_id.name or ''\"/>\n"
+"            <t t-set=\"company_name\" t-value=\"object.user_id.company_id.name or object.partner_id.company_id.name or ''\"/>\n"
+"            <t t-set=\"signup_url\" t-value=\"object.user_id.partner_id and object.user_id.partner_id._get_signup_url() or object.partner_id and object.partner_id._get_signup_url()\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "<t t-set=\"user_name\" t-value=\"object.user_id.name or object.partner_id.name or ''\"/>\n"
 "            <t t-set=\"company_name\" t-value=\"object.user_id.company_id.name or object.partner_id.company_id.name or ''\"/>\n"
@@ -3030,6 +3070,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <span style=\"font-size: 20px; font-weight: bold;\" t-out=\"object.user_id.name or ''\">Marc Demo</span>\n"
 =======
 "                    <span style=\"font-size: 20px; font-weight: bold;\" t-out=\"object.user_id.name or object.partner_id.name or ''\">Marc Demo</span>\n"
@@ -3048,6 +3089,9 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 "                    <span style=\"font-size: 20px; font-weight: bold;\" t-out=\"object.user_id.name or object.partner_id.name or ''\">Marc Demo</span>\n"
+>>>>>>> upstream/18.0
+=======
+"                    <span style=\"font-size: 20px; font-weight: bold;\" t-out=\"user_name\">Marc Demo</span>\n"
 >>>>>>> upstream/18.0
 =======
 "                    <span style=\"font-size: 20px; font-weight: bold;\" t-out=\"user_name\">Marc Demo</span>\n"
@@ -3674,6 +3718,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        Dear <t t-out=\"object.user_id.name or ''\">Marc Demo</t>,<br/> <br/>\n"
 "                        Welcome to <t t-out=\"object.user_id.company_id.name\">YourCompany</t>'s Portal!<br/><br/>\n"
 "                        An account has been created for you with the following login: <t t-out=\"object.user_id.login\">demo</t><br/><br/>\n"
@@ -3714,6 +3759,8 @@ msgid ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4170,6 +4217,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4639,7 +4689,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <t t-out=\"object.user_id.company_id.name or ''\">YourCompany</t>\n"
+=======
+"                    <t t-out=\"company_name\">YourCompany</t>\n"
+>>>>>>> upstream/18.0
 =======
 "                    <t t-out=\"company_name\">YourCompany</t>\n"
 >>>>>>> upstream/18.0
@@ -5277,9 +5331,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"padding-top: 16px; background-color: #F1F1F1; font-family:Verdana, Arial,sans-serif; color: #454748; width: 100%; border-collapse:separate;\"><tr><td align=\"center\">\n"
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"padding: 16px; background-color: white; color: #454748; border-collapse:separate;\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "<t t-set=\"user_name\" t-value="
@@ -5298,6 +5355,9 @@ msgstr ""
 "\"padding: 16px; background-color: white; color: #454748; border-"
 "collapse:separate;\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5305,6 +5365,7 @@ msgstr ""
 "    <!-- HEADER -->\n"
 "    <tr>\n"
 "        <td align=\"center\" style=\"min-width: 590px;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 "            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
@@ -5317,6 +5378,8 @@ msgstr ""
 "                <tr><td colspan=\"2\" style=\"text-align:center;\">\n"
 "                  <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin:16px 0px 16px 0px;\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width="
@@ -5338,6 +5401,9 @@ msgstr ""
 "(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-"
 "height:1px;line-height:0; margin:16px 0px 16px 0px;\"/>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5348,6 +5414,7 @@ msgstr ""
 "    <!-- CONTENT -->\n"
 "    <tr>\n"
 "        <td align=\"center\" style=\"min-width: 590px;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 "            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
@@ -5368,6 +5435,8 @@ msgstr ""
 "                <tr><td style=\"text-align:center;\">\n"
 "                  <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width="
@@ -5400,6 +5469,9 @@ msgstr ""
 "(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-"
 "height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5410,6 +5482,7 @@ msgstr ""
 "    <!-- FOOTER -->\n"
 "    <tr>\n"
 "        <td align=\"center\" style=\"min-width: 590px;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 "            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: white; font-size: 11px; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
@@ -5424,6 +5497,8 @@ msgstr ""
 "                    <t t-if=\"object.user_id.company_id.website\">\n"
 "                        | <a t-attf-href=\"'%s' % {{ object.user_id.company_id.website }}\" style=\"text-decoration:none; color: #454748;\" t-out=\"object.user_id.company_id.website or ''\">http://www.example.com</a>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width="
@@ -5448,6 +5523,9 @@ msgstr ""
 "decoration:none; color: #454748;\" t-out=\"object.user_id.company_id.website "
 "or ''\">http://www.example.com</a>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5463,10 +5541,13 @@ msgstr ""
 "<tr><td align=\"center\" style=\"min-width: 590px;\">\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: #F1F1F1; color: #454748; padding: 8px; border-collapse:separate;\">\n"
 "      <tr><td style=\"text-align: center; font-size: 13px;\">\n"
 "        Nodrošina <a target=\"_blank\" href=\"https://www.odoo.com?utm_source=db&amp;utm_medium=portalinvite\" style=\"color: #875A7B;\">Odoo</a>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" "
@@ -5477,6 +5558,9 @@ msgstr ""
 "\"https://www.odoo.com?utm_source=db&amp;utm_medium=portalinvite\" style="
 "\"color: #875A7B;\">Odoo</a>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5487,6 +5571,9 @@ msgstr ""
 "            "
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5919,7 +6006,11 @@ msgstr ""
 msgid "Check failed"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pārbaude neizdevās"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pārbaude neizdevās"
 >>>>>>> upstream/18.0
@@ -6081,7 +6172,10 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "Atspējot savu kontu, liedzot turpmāku pieteikšanos.<br/>\n"
@@ -6091,6 +6185,9 @@ msgstr ""
 "                                            Šo darbību nevar atsaukt.\n"
 "                                        </b>"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6158,7 +6255,11 @@ msgstr "Aizmirsāt paroli?"
 msgid "Give a duration for the key's validity"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Norādiet atslēgas derīguma termiņu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Norādiet atslēgas derīguma termiņu"
 >>>>>>> upstream/18.0
@@ -6247,7 +6348,11 @@ msgstr "Nederīgs e-pasts. Lūdzu, ievadiet derīgu e-pasta adresi."
 msgid "Invalid report type: %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nederīgs pārskata veids: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nederīgs pārskata veids: %s"
 >>>>>>> upstream/18.0
@@ -6265,7 +6370,11 @@ msgstr "Ielūguma ziņojums"
 msgid "Invitation email to contacts to create a user account"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ielūguma e-pasts kontaktiem lietotāja konta izveidei"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ielūguma e-pasts kontaktiem lietotāja konta izveidei"
 >>>>>>> upstream/18.0
@@ -6296,6 +6405,7 @@ msgid ""
 "It is very important that this description be clear\n"
 "                and complete,"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 
@@ -6783,11 +6893,16 @@ msgstr "Atslēgas apraksts"
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Ir ļoti svarīgi, lai šis apraksts būtu skaidrs\n"
 "                un pilnīgs,"
 
 #. module: portal
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6839,6 +6954,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Modelis %(model_name)s neatbalsta tokena parakstu, jo tam nav lauka %"
+"(field_name)s."
+>>>>>>> upstream/18.0
 =======
 "Modelis %(model_name)s neatbalsta tokena parakstu, jo tam nav lauka %"
 "(field_name)s."
@@ -6854,7 +6974,11 @@ msgstr ""
 msgid "Multi company reports are not supported."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vairāku uzņēmumu pārskati netiek atbalstīti."
+>>>>>>> upstream/18.0
 =======
 msgstr "Vairāku uzņēmumu pārskati netiek atbalstīti."
 >>>>>>> upstream/18.0
@@ -6968,7 +7092,11 @@ msgstr "Portāla pieejas URL"
 msgid "Portal Mixin"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Portāla miksins"
+>>>>>>> upstream/18.0
 =======
 msgstr "Portāla miksins"
 >>>>>>> upstream/18.0
@@ -6981,7 +7109,11 @@ msgstr "Portāla miksins"
 msgid "Portal Sharing"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Portāla koplietošana"
+>>>>>>> upstream/18.0
 =======
 msgstr "Portāla koplietošana"
 >>>>>>> upstream/18.0
@@ -7018,6 +7150,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Pievienojiet manu e-pastu un tālruņa numuru melnajam sarakstam, lai mani "
+"vairs netraucētu"
+>>>>>>> upstream/18.0
 =======
 "Pievienojiet manu e-pastu un tālruņa numuru melnajam sarakstam, lai mani "
 "vairs netraucētu"
@@ -7032,7 +7169,11 @@ msgstr ""
 msgid "Qweb"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Qweb"
+>>>>>>> upstream/18.0
 =======
 msgstr "Qweb"
 >>>>>>> upstream/18.0
@@ -7070,7 +7211,11 @@ msgstr "Saistītā dokumenta modelis"
 msgid "Revoke Access"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Atsaukt piekļuvi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Atsaukt piekļuvi"
 >>>>>>> upstream/18.0
@@ -7083,7 +7228,11 @@ msgstr "Atsaukt piekļuvi"
 msgid "Revoke All Sessions"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Atcelt visas sesijas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Atcelt visas sesijas"
 >>>>>>> upstream/18.0
@@ -7274,7 +7423,10 @@ msgstr "Drošība"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/portal/static/src/xml/portal_security.xml:0
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7612,7 +7764,10 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "Izvēlieties, kuri kontakti jāpievieno portālam, no zemāk esošā saraksta.\n"
@@ -7621,6 +7776,9 @@ msgstr ""
 "                        Ja nepieciešams, varat labot kontakta e-pasta adresi "
 "tieši sarakstā."
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7643,7 +7801,11 @@ msgstr "Sūtīt ziņojumu"
 msgid "Share Document"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kopīgot dokumentu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kopīgot dokumentu"
 >>>>>>> upstream/18.0
@@ -7666,7 +7828,11 @@ msgstr "Piereģistrēties"
 msgid "Skip to Content"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pāriet pie satura"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pāriet pie satura"
 >>>>>>> upstream/18.0
@@ -7710,7 +7876,11 @@ msgstr "Iela"
 msgid "Street 2"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Iela 2"
+>>>>>>> upstream/18.0
 =======
 msgstr "Iela 2"
 >>>>>>> upstream/18.0
@@ -7738,7 +7908,11 @@ msgid ""
 "The attachment %s cannot be removed because it is not in a pending state."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pielikumu %s nevar dzēst, jo tas nav gaidīšanas stāvoklī."
+>>>>>>> upstream/18.0
 =======
 msgstr "Pielikumu %s nevar dzēst, jo tas nav gaidīšanas stāvoklī."
 >>>>>>> upstream/18.0
@@ -7765,7 +7939,11 @@ msgstr "Kontaktam \"%s\" nav derīga e-pasta adrese."
 msgid "The contact \"%s\" has the same email as an existing user"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kontaktam “%s” ir tāda pati e-pasta adrese kā esošam lietotājam"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kontaktam “%s” ir tāda pati e-pasta adrese kā esošam lietotājam"
 >>>>>>> upstream/18.0
@@ -7779,7 +7957,11 @@ msgstr "Kontaktam “%s” ir tāda pati e-pasta adrese kā esošam lietotājam"
 msgid "The key cannot be retrieved later and provides"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Atslēgu vēlāk nevarēs atjaunot, un tā nodrošina"
+>>>>>>> upstream/18.0
 =======
 msgstr "Atslēgu vēlāk nevarēs atjaunot, un tā nodrošina"
 >>>>>>> upstream/18.0
@@ -7793,7 +7975,11 @@ msgstr "Atslēgu vēlāk nevarēs atjaunot, un tā nodrošina"
 msgid "The key will be deleted once this period has elapsed."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Atslēga tiks dzēsta, tiklīdz šis periods būs beidzies."
+>>>>>>> upstream/18.0
 =======
 msgstr "Atslēga tiks dzēsta, tiklīdz šis periods būs beidzies."
 >>>>>>> upstream/18.0
@@ -7820,7 +8006,11 @@ msgstr "Jūsu norādītā vecā parole ir nederīga, Jūsu parole netika nomain�
 msgid "The partner \"%s\" already has the portal access."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Partnerim “%s” jau ir portāla piekļuve."
+>>>>>>> upstream/18.0
 =======
 msgstr "Partnerim “%s” jau ir portāla piekļuve."
 >>>>>>> upstream/18.0
@@ -7834,7 +8024,11 @@ msgstr "Partnerim “%s” jau ir portāla piekļuve."
 msgid "The partner \"%s\" has no portal access or is internal."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Partnerim “%s” nav portāla piekļuves vai tas ir iekšējais lietotājs."
+>>>>>>> upstream/18.0
 =======
 msgstr "Partnerim “%s” nav portāla piekļuves vai tas ir iekšējais lietotājs."
 >>>>>>> upstream/18.0
@@ -7851,6 +8045,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Veidne “Portāls: jauns lietotājs” netika atrasta e-pasta nosūtīšanai portāla "
+"lietotājam."
+>>>>>>> upstream/18.0
 =======
 "Veidne “Portāls: jauns lietotājs” netika atrasta e-pasta nosūtīšanai portāla "
 "lietotājam."
@@ -7879,6 +8078,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Šis partneris ir saistīts ar iekšējo lietotāju un tam jau ir piekļuve "
+"portālam."
+>>>>>>> upstream/18.0
 =======
 "Šis partneris ir saistīts ar iekšējo lietotāju un tam jau ir piekļuve "
 "portālam."
@@ -7895,6 +8099,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Šis teksts tiek iekļauts e-pasta ziņojuma beigās, kas tiek nosūtīts "
+"jaunajiem portāla lietotājiem."
+>>>>>>> upstream/18.0
 =======
 "Šis teksts tiek iekļauts e-pasta ziņojuma beigās, kas tiek nosūtīts "
 "jaunajiem portāla lietotājiem."
@@ -7910,6 +8119,11 @@ msgid "This text is included in the email sent to new users of the portal."
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Šis teksts tiek iekļauts e-pasta ziņojumā, kas tiek nosūtīts jaunajiem "
+"portāla lietotājiem."
+>>>>>>> upstream/18.0
 =======
 "Šis teksts tiek iekļauts e-pasta ziņojumā, kas tiek nosūtīts jaunajiem "
 "portāla lietotājiem."
@@ -7924,7 +8138,11 @@ msgstr ""
 msgid "Toggle filters"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pārslēgt filtrus"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pārslēgt filtrus"
 >>>>>>> upstream/18.0
@@ -8058,7 +8276,11 @@ msgstr "Rakstīt ziņojumu..."
 msgid "Write a message…"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Rakstīt ziņu..."
+=======
+msgstr "Rakstīt ziņu…"
+>>>>>>> upstream/18.0
 =======
 msgstr "Rakstīt ziņu…"
 >>>>>>> upstream/18.0
@@ -8072,7 +8294,11 @@ msgstr "Rakstīt ziņu…"
 msgid "Write down your key"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pierakstiet savu atslēgu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pierakstiet savu atslēgu"
 >>>>>>> upstream/18.0
@@ -8106,6 +8332,7 @@ msgstr "Jums ir jāievada \""
 #. odoo-python
 #: code:addons/portal/wizard/portal_wizard.py:0
 msgid "You should first grant the portal access to the partner \"%s\"."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 msgstr ""
@@ -8563,11 +8790,16 @@ msgstr "Jūsu konts {{ object.user_id.company_id.name }}"
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr "Vispirms jums jāpiešķir portāla piekļuve partnerim “%s”."
 
 #. module: portal
 #: model:mail.template,subject:portal.mail_template_data_portal_welcome
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8725,6 +8957,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9021,6 +9254,10 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+"Jūsu konts uzņēmumā {{ object.user_id.company_id.name or "
+"object.partner_id.company_id.name }}"
 >>>>>>> upstream/18.0
 =======
 "Jūsu konts uzņēmumā {{ object.user_id.company_id.name or "
@@ -9061,6 +9298,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"tā būs vienīgā iespēja\n"
+"                identificēt atslēgu pēc tās izveidošanas"
+>>>>>>> upstream/18.0
 =======
 "tā būs vienīgā iespēja\n"
 "                identificēt atslēgu pēc tās izveidošanas"

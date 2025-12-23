@@ -177,6 +177,10 @@ class Delivery(WebsiteSale):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'compute_price_after_delivery': order.carrier_id.invoice_policy == 'real',
+>>>>>>> upstream/18.0
 =======
             'compute_price_after_delivery': order.carrier_id.invoice_policy == 'real',
 >>>>>>> upstream/18.0
@@ -637,6 +641,10 @@ class Delivery(WebsiteSale):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            rate['compute_price_after_delivery'] = delivery_method.invoice_policy == 'real'
+>>>>>>> upstream/18.0
 =======
             rate['compute_price_after_delivery'] = delivery_method.invoice_policy == 'real'
 >>>>>>> upstream/18.0
@@ -1121,7 +1129,11 @@ class Delivery(WebsiteSale):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         elif order_sudo.partner_shipping_id.name.endswith(order_sudo.name):
+=======
+        elif order_sudo.name in order_sudo.partner_shipping_id.name:
+>>>>>>> upstream/18.0
 =======
         elif order_sudo.name in order_sudo.partner_shipping_id.name:
 >>>>>>> upstream/18.0
@@ -1453,6 +1465,7 @@ class Delivery(WebsiteSale):
                 order_sudo=order_sudo,
             )
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2075,10 +2088,14 @@ class Delivery(WebsiteSale):
 =======
         sorted_delivery_methods = sorted([{
 >>>>>>> upstream/18.0
+=======
+        sorted_delivery_methods = sorted([{
+>>>>>>> upstream/18.0
             'id': dm.id,
             'name': dm.name,
             'description': dm.website_description,
             'minorAmount': payment_utils.to_minor_currency_units(price, order_sudo.currency_id),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2852,6 +2869,11 @@ class Delivery(WebsiteSale):
         ], key=lambda dm: dm['minorAmount'])
 
 >>>>>>> upstream/18.0
+=======
+        } for dm, price in self._get_delivery_methods_express_checkout(order_sudo).items()
+        ], key=lambda dm: dm['minorAmount'])
+
+>>>>>>> upstream/18.0
         # Preselect the cheapest method imitating the behavior of the express checkout form.
         if (
             sorted_delivery_methods
@@ -2866,6 +2888,7 @@ class Delivery(WebsiteSale):
         # Return the list of delivery methods available for the sales order.
         return {'delivery_methods': sorted_delivery_methods}
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3127,6 +3150,10 @@ class Delivery(WebsiteSale):
 >>>>>>> upstream/18.0
     @staticmethod
     def _get_delivery_methods_express_checkout(order_sudo):
+=======
+    @classmethod
+    def _get_delivery_methods_express_checkout(cls, order_sudo):
+>>>>>>> upstream/18.0
 =======
     @classmethod
     def _get_delivery_methods_express_checkout(cls, order_sudo):
