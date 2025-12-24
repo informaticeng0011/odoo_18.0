@@ -33,7 +33,10 @@ export function isConfirmationButtonDisabled() {
     };
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 export function checkImgAndSelect(productName, checkImg = false) {
     const productArticleSelector = productTrigger(productName);
@@ -46,4 +49,7 @@ export function checkImgAndSelect(productName, checkImg = false) {
         run: "click",
     };
 }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

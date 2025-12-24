@@ -109,7 +109,11 @@ class Warehouse(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     pos_type_id = fields.Many2one('stock.picking.type', string="Point of Sale Operation Type")
+=======
+    pos_type_id = fields.Many2one('stock.picking.type', string="Point of Sale Operation Type", copy=False)
+>>>>>>> upstream/18.0
 =======
     pos_type_id = fields.Many2one('stock.picking.type', string="Point of Sale Operation Type", copy=False)
 >>>>>>> upstream/18.0

@@ -181,6 +181,10 @@ class AccountChartTemplate(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'property_cash_basis_base_account_id': 'cuenta801_01_99',
+>>>>>>> upstream/18.0
 =======
             'property_cash_basis_base_account_id': 'cuenta801_01_99',
 >>>>>>> upstream/18.0
@@ -848,8 +852,13 @@ class AccountChartTemplate(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'account_journal_early_pay_discount_loss_account_id': 'cuenta9993',
                 'account_journal_early_pay_discount_gain_account_id': 'cuenta9994',
+=======
+                'account_journal_early_pay_discount_loss_account_id': 'cuenta402_01',
+                'account_journal_early_pay_discount_gain_account_id': 'cuenta503_01',
+>>>>>>> upstream/18.0
 =======
                 'account_journal_early_pay_discount_loss_account_id': 'cuenta402_01',
                 'account_journal_early_pay_discount_gain_account_id': 'cuenta503_01',
@@ -1669,7 +1678,10 @@ class AccountChartTemplate(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'account_cash_basis_base_account_id': 'cuenta801_01_99',
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2173,7 +2185,10 @@ class AccountChartTemplate(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2675,6 +2690,9 @@ class AccountChartTemplate(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

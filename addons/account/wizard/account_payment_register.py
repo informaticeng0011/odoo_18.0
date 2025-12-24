@@ -18,6 +18,10 @@ from odoo.tools import frozendict, SQL
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.tools.misc import clean_context
+>>>>>>> upstream/18.0
 =======
 from odoo.tools.misc import clean_context
 >>>>>>> upstream/18.0
@@ -248,6 +252,10 @@ class AccountPaymentRegister(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    payment_method_code = fields.Char(related='payment_method_line_id.code')
+>>>>>>> upstream/18.0
 =======
     payment_method_code = fields.Char(related='payment_method_line_id.code')
 >>>>>>> upstream/18.0
@@ -615,7 +623,10 @@ class AccountPaymentRegister(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -926,6 +937,9 @@ class AccountPaymentRegister(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1370,7 +1384,11 @@ class AccountPaymentRegister(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         company = min(lines.company_id, key=lambda c: len(c.parent_ids))
+=======
+        company = min(lines.company_id, key=lambda c: len(c.sudo().parent_ids)) if not self._from_sibling_companies(lines) else lines.company_id.root_id
+>>>>>>> upstream/18.0
 =======
         company = min(lines.company_id, key=lambda c: len(c.sudo().parent_ids)) if not self._from_sibling_companies(lines) else lines.company_id.root_id
 >>>>>>> upstream/18.0
@@ -1924,7 +1942,10 @@ class AccountPaymentRegister(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2328,6 +2349,9 @@ class AccountPaymentRegister(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2762,7 +2786,11 @@ class AccountPaymentRegister(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @api.depends('payment_method_line_id', 'line_ids', 'group_payment')
+=======
+    @api.depends('payment_method_line_id', 'line_ids', 'group_payment', 'partner_bank_id')
+>>>>>>> upstream/18.0
 =======
     @api.depends('payment_method_line_id', 'line_ids', 'group_payment', 'partner_bank_id')
 >>>>>>> upstream/18.0
@@ -3114,7 +3142,12 @@ class AccountPaymentRegister(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 batch_account = wizard._get_batch_account(batch)
+=======
+                # Use the currently selected partner_bank_id if in edit mode, otherwise use batch account
+                batch_account = wizard.partner_bank_id or wizard._get_batch_account(batch)
+>>>>>>> upstream/18.0
 =======
                 # Use the currently selected partner_bank_id if in edit mode, otherwise use batch account
                 batch_account = wizard.partner_bank_id or wizard._get_batch_account(batch)
@@ -3617,9 +3650,12 @@ class AccountPaymentRegister(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 wizard.update({
                     'company_id': min(wizard.batches, key=lambda batch: len(batch['lines'].company_id.parent_ids))['lines'].company_id.id,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4023,6 +4059,9 @@ class AccountPaymentRegister(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4503,7 +4542,11 @@ class AccountPaymentRegister(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if unpaid_matched_payments := wizard.line_ids.move_id.matched_payment_ids.filtered(lambda p: p.state == 'in_process'):
+=======
+            if unpaid_matched_payments := wizard.line_ids.move_id.reconciled_payment_ids.filtered(lambda p: p.state == 'in_process'):
+>>>>>>> upstream/18.0
 =======
             if unpaid_matched_payments := wizard.line_ids.move_id.reconciled_payment_ids.filtered(lambda p: p.state == 'in_process'):
 >>>>>>> upstream/18.0
@@ -5244,8 +5287,13 @@ class AccountPaymentRegister(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if len(lines.company_id.filtered(lambda c: c.root_id not in lines.company_id)) > 1:
                 raise UserError(_("You can't create payments for entries belonging to different branches."))
+=======
+            if self._from_sibling_companies(lines) and lines.company_id.root_id not in self.env.user.company_ids:
+                raise UserError(_("You can't create payments for entries belonging to different branches without access to parent company."))
+>>>>>>> upstream/18.0
 =======
             if self._from_sibling_companies(lines) and lines.company_id.root_id not in self.env.user.company_ids:
                 raise UserError(_("You can't create payments for entries belonging to different branches without access to parent company."))
@@ -6088,7 +6136,11 @@ class AccountPaymentRegister(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         payments.action_post()
+=======
+        payments.with_context(skip_sale_auto_invoice_send=True).action_post()
+>>>>>>> upstream/18.0
 =======
         payments.with_context(skip_sale_auto_invoice_send=True).action_post()
 >>>>>>> upstream/18.0
@@ -6626,11 +6678,14 @@ class AccountPaymentRegister(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         payments = self._init_payments(to_process, edit_mode=edit_mode)
         self._post_payments(to_process, edit_mode=edit_mode)
         self._reconcile_payments(to_process, edit_mode=edit_mode)
         return payments
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6906,6 +6961,7 @@ class AccountPaymentRegister(models.TransientModel):
 
         wizard = self.sudo() if from_sibling_companies else self
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7309,6 +7365,8 @@ class AccountPaymentRegister(models.TransientModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         # Prevent default_ context keys to interfere with account.payment context (eg: ``default_partner_bank_id``
         # transfered from ``account.payment.register`` wizard to ``account.payment`` creation.
         payments = wizard.with_context(clean_context(self.env.context))._init_payments(to_process, edit_mode=edit_mode)
@@ -7327,6 +7385,9 @@ class AccountPaymentRegister(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

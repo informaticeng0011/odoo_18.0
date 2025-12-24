@@ -494,6 +494,10 @@ async function _clickEverywhere(xmlId, light, currentState) {
     const startTime = performance.now();
     try {
         if (xmlId) {
+<<<<<<< HEAD
+=======
+            state.xmlId = xmlId;
+>>>>>>> upstream/18.0
             state.app = xmlId;
             await testApp();
         } else {

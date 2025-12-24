@@ -109,8 +109,14 @@ import { onEmployeeSubRedirect } from './hooks';
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { Component, onWillStart, onWillRender, useState } from "@odoo/owl";
 import { standardFieldProps } from "@web/views/fields/standard_field_props";
+=======
+import { Component, useState } from "@odoo/owl";
+import { standardFieldProps } from "@web/views/fields/standard_field_props";
+import { useRecordObserver } from "@web/model/relational_model/utils";
+>>>>>>> upstream/18.0
 =======
 import { Component, useState } from "@odoo/owl";
 import { standardFieldProps } from "@web/views/fields/standard_field_props";
@@ -769,6 +775,7 @@ export class HrOrgChart extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this._onEmployeeSubRedirect = onEmployeeSubRedirect();
 
         onWillStart(this.handleComponentUpdate.bind(this));
@@ -788,6 +795,8 @@ export class HrOrgChart extends Component {
         this.lastRecord = this.props.record;
         await this.fetchEmployeeData(this.state.employee_id, forceReload);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1115,6 +1124,9 @@ export class HrOrgChart extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1439,10 +1451,13 @@ export class HrOrgChart extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     context: user.context,
                 }
             );
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1755,6 +1770,9 @@ export class HrOrgChart extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2094,8 +2112,13 @@ export class HrOrgChart extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         await this.fetchEmployeeData(managerId);
         this.state.employee_id = managerId;
+=======
+        this.max_level = 100; // Set a high level to fetch all managers
+        await this.fetchEmployeeData(this.state.employee_id, true);
+>>>>>>> upstream/18.0
 =======
         this.max_level = 100; // Set a high level to fetch all managers
         await this.fetchEmployeeData(this.state.employee_id, true);

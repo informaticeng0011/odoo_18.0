@@ -46,7 +46,11 @@ export class ProductPage extends Component {
         return !(
             this.selfOrder.editedLine &&
             this.selfOrder.editedLine.uuid &&
+<<<<<<< HEAD
             order.lastChangesSent[this.selfOrder.editedLine.uuid]
+=======
+            order.uiState.lineChanges[this.selfOrder.editedLine.uuid]
+>>>>>>> upstream/18.0
         );
     }
 

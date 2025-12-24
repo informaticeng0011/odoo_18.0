@@ -584,7 +584,10 @@ class MailMail(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -901,6 +904,9 @@ class MailMail(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1273,7 +1279,12 @@ class MailMail(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         mail_values = self.read(['id', 'email_from', 'mail_server_id', 'record_alias_domain_id'])
+=======
+        mail_values = self.with_context(prefetch_fields=False).read(['id', 'email_from', 'mail_server_id', 'record_alias_domain_id'], load='')
+        self.env['ir.mail_server'].browse(values['mail_server_id'] for values in mail_values if values['mail_server_id']).mapped('display_name')
+>>>>>>> upstream/18.0
 =======
         mail_values = self.with_context(prefetch_fields=False).read(['id', 'email_from', 'mail_server_id', 'record_alias_domain_id'], load='')
         self.env['ir.mail_server'].browse(values['mail_server_id'] for values in mail_values if values['mail_server_id']).mapped('display_name')
@@ -1796,8 +1807,13 @@ class MailMail(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             mail_server_id = values['mail_server_id'][0] if values['mail_server_id'] else False
             alias_domain_id = values['record_alias_domain_id'][0] if values['record_alias_domain_id'] else False
+=======
+            mail_server_id = values['mail_server_id'] if values['mail_server_id'] else False
+            alias_domain_id = values['record_alias_domain_id'] if values['record_alias_domain_id'] else False
+>>>>>>> upstream/18.0
 =======
             mail_server_id = values['mail_server_id'] if values['mail_server_id'] else False
             alias_domain_id = values['record_alias_domain_id'] if values['record_alias_domain_id'] else False
@@ -2456,8 +2472,11 @@ class MailMail(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     smtp_session.quit()
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2908,6 +2927,9 @@ class MailMail(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3488,6 +3510,7 @@ class MailMail(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             "Mail with ID %r and Message-Id %r from %r to (redacted) %r successfully sent",
                             mail.id,
                             mail.message_id,
@@ -3495,6 +3518,8 @@ class MailMail(models.Model):
                             tools.mail.email_anonymize(tools.email_normalize(msg['to']))
                         )
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4001,6 +4026,9 @@ class MailMail(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4496,6 +4524,10 @@ class MailMail(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            mail.invalidate_recordset(['body_html'])
+>>>>>>> upstream/18.0
 =======
             mail.invalidate_recordset(['body_html'])
 >>>>>>> upstream/18.0

@@ -103,8 +103,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* base_import
 # 
+=======
+# * base_import
+#
+>>>>>>> upstream/18.0
 =======
 # * base_import
 #
@@ -625,10 +630,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Anastasiia Koroleva, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+# Anastasiia Koroleva, 2025
+# "Anastasiia Koroleva (koan)" <koan@odoo.com>, 2025.
+>>>>>>> upstream/18.0
 =======
 # Anastasiia Koroleva, 2025
 # "Anastasiia Koroleva (koan)" <koan@odoo.com>, 2025.
@@ -1076,6 +1086,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-10-25 07:48+0000\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1397,6 +1408,9 @@ msgstr ""
 =======
 "POT-Creation-Date: 2025-11-21 18:37+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-11-21 18:37+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-08-15 16:52+0000\n"
 "Last-Translator: \"Anastasiia Koroleva (koan)\" <koan@odoo.com>\n"
 "Language-Team: Russian <https://translate.odoo.com/projects/odoo-18/"
@@ -1406,6 +1420,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1809,6 +1824,11 @@ msgstr ""
 "(n%100>=11 && n%100<=14)? 2 : 3);\n"
 "X-Generator: Weblate 5.12.2\n"
 >>>>>>> upstream/18.0
+=======
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
+"(n%100>=11 && n%100<=14)? 2 : 3);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: base_import
 #. odoo-javascript
@@ -1917,7 +1937,11 @@ msgid "%(number)s file(s) selected"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "количество выбранных файлов: %(number)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "количество выбранных файлов: %(number)s"
 >>>>>>> upstream/18.0
@@ -2377,6 +2401,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"После каждой пакетной загрузки данных применяется эта задержка, чтобы "
+"избежать слишком частых вызовов"
+>>>>>>> upstream/18.0
 =======
 "После каждой пакетной загрузки данных применяется эта задержка, чтобы "
 "избежать слишком частых вызовов"
@@ -2832,8 +2861,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "limit exceeded or memory limits exceeded). Please retry in case the issue is"
 " transient. If the issue still occurs, try to split the file rather than "
+=======
+"limit exceeded or memory limits exceeded). Please retry in case the issue is "
+"transient. If the issue still occurs, try to split the file rather than "
+>>>>>>> upstream/18.0
 =======
 "limit exceeded or memory limits exceeded). Please retry in case the issue is "
 "transient. If the issue still occurs, try to split the file rather than "
@@ -3105,7 +3139,11 @@ msgid "But, you can also use .csv files"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Но можно также использовать файлы .csv"
+>>>>>>> upstream/18.0
 =======
 msgstr "Но можно также использовать файлы .csv"
 >>>>>>> upstream/18.0
@@ -3471,12 +3509,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Column %(column)s contains incorrect values. Error in line %(line)d: "
 "%(error)s"
 msgstr ""
 "Столбец %(column)s содержит неверные значения. Ошибка в строке %(line)d: "
 "%(error)s"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3572,6 +3613,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3686,12 +3730,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Could not retrieve URL: %(url)s [%(field_name)s: L%(line_number)d]: "
 "%(error)s"
 msgstr ""
 "Не удалось получить URL: %(url)s [%(field_name)s: L%(line_number)d]: "
 "%(error)s"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3786,6 +3833,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3961,7 +4011,11 @@ msgid "Created by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Создано"
+=======
+msgstr "Создано:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Создано:"
 >>>>>>> upstream/18.0
@@ -4379,7 +4433,11 @@ msgid "Created on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Создано"
+=======
+msgstr "Дата создания:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дата создания:"
 >>>>>>> upstream/18.0
@@ -4797,7 +4855,11 @@ msgid "Data to import"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Данные для импорта"
+>>>>>>> upstream/18.0
 =======
 msgstr "Данные для импорта"
 >>>>>>> upstream/18.0
@@ -5240,6 +5302,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Определяет, сколько мегабайт можно импортировать за одну пакетную загрузку"
+>>>>>>> upstream/18.0
 =======
 "Определяет, сколько мегабайт можно импортировать за одну пакетную загрузку"
 >>>>>>> upstream/18.0
@@ -5657,7 +5723,11 @@ msgid "Delay after each batch"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Задержка после каждой пакетной загрузки"
+>>>>>>> upstream/18.0
 =======
 msgstr "Задержка после каждой пакетной загрузки"
 >>>>>>> upstream/18.0
@@ -6094,7 +6164,11 @@ msgid "Drop or upload a file to import"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Перетащите или загрузите файл для импорта"
+>>>>>>> upstream/18.0
 =======
 msgstr "Перетащите или загрузите файл для импорта"
 >>>>>>> upstream/18.0
@@ -6468,6 +6542,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "title row has %(title_row_entries)d entries while the first row has "
 "%(first_row_entries)d. You may need to change the separator character."
 msgstr ""
@@ -6475,6 +6550,8 @@ msgstr ""
 " заглавной строке содержится %(title_row_entries)d записей, а в первой - "
 "%(first_row_entries)d. Возможно, необходимо изменить символ-разделитель."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6571,6 +6648,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6804,7 +6884,11 @@ msgid "Files to import"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Файлы для импорта"
+>>>>>>> upstream/18.0
 =======
 msgstr "Файлы для импорта"
 >>>>>>> upstream/18.0
@@ -7168,8 +7252,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Found invalid image data, images should be imported as either URLs or "
 "base64-encoded data."
+=======
+"Found invalid image data, images should be imported as either URLs or base64-"
+"encoded data."
+>>>>>>> upstream/18.0
 =======
 "Found invalid image data, images should be imported as either URLs or base64-"
 "encoded data."
@@ -7363,7 +7452,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    имена столбцов, Odoo может попробовать автоматически определить\n"
+=======
+"                    имена столбцов, Odoo может попробовать автоматически "
+"определить\n"
+>>>>>>> upstream/18.0
 =======
 "                    имена столбцов, Odoo может попробовать автоматически "
 "определить\n"
@@ -7529,8 +7623,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Если у данной модели есть комментарии, будут настроены подписки и отправлены"
 " уведомления, но это может сильно замедлить импорт."
+=======
+"Если у данной модели есть комментарии, будут настроены подписки и отправлены "
+"уведомления, но это может сильно замедлить импорт."
+>>>>>>> upstream/18.0
 =======
 "Если у данной модели есть комментарии, будут настроены подписки и отправлены "
 "уведомления, но это может сильно замедлить импорт."
@@ -7817,6 +7916,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "Недопустимый формат ячейки в строке %(row)s, столбце %(col)s: %(cell_value)"
 "s, с форматом: %(cell_format)s, так как формат (%(format_type)s) не "
@@ -8176,6 +8276,11 @@ msgstr ""
 "Недопустимый формат ячейки в строке %(row)s, столбце %(col)s: %(cell_value)"
 "s, с форматом: %(cell_format)s, так как формат (%(format_type)s) не "
 "поддерживается."
+>>>>>>> upstream/18.0
+=======
+"Недопустимый формат ячейки в строке %(row)s, столбце %(col)s: %"
+"(cell_value)s, с форматом: %(cell_format)s, так как формат (%(format_type)s) "
+"не поддерживается."
 >>>>>>> upstream/18.0
 =======
 "Недопустимый формат ячейки в строке %(row)s, столбце %(col)s: %"
@@ -8369,8 +8474,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Недействительное значение ячейки в строке %(row)s, столбец %(col)s: "
 "%(cell_value)s"
+=======
+"Недействительное значение ячейки в строке %(row)s, столбец %(col)s: %"
+"(cell_value)s"
+>>>>>>> upstream/18.0
 =======
 "Недействительное значение ячейки в строке %(row)s, столбец %(col)s: %"
 "(cell_value)s"
@@ -8604,7 +8714,11 @@ msgid "Last Updated by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Последнее обновление"
+=======
+msgstr "Последнее обновление:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Последнее обновление:"
 >>>>>>> upstream/18.0
@@ -9026,7 +9140,11 @@ msgid "Last Updated on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Последнее обновление"
+=======
+msgstr "Дата последнего обновления:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дата последнего обновления:"
 >>>>>>> upstream/18.0
@@ -9447,7 +9565,11 @@ msgid "Load Data File"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Загрузить файл с данными"
+>>>>>>> upstream/18.0
 =======
 msgstr "Загрузить файл с данными"
 >>>>>>> upstream/18.0
@@ -9877,7 +9999,11 @@ msgid "Max size per batch"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Максимальный размер на одну пакетную загрузку"
+>>>>>>> upstream/18.0
 =======
 msgstr "Максимальный размер на одну пакетную загрузку"
 >>>>>>> upstream/18.0
@@ -10324,7 +10450,11 @@ msgid "No file selected"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Файл не выбран"
+>>>>>>> upstream/18.0
 =======
 msgstr "Файл не выбран"
 >>>>>>> upstream/18.0
@@ -10754,7 +10884,11 @@ msgid "Please upload a single file."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Пожалуйста, загрузите один файл."
+>>>>>>> upstream/18.0
 =======
 msgstr "Пожалуйста, загрузите один файл."
 >>>>>>> upstream/18.0
@@ -11172,6 +11306,7 @@ msgid "Please upload an Excel (.xls or .xlsx) or .csv file to import."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Пожалуйста, загрузите файл Excel (.xls или .xlsx) или .csv для импорта."
@@ -11388,6 +11523,10 @@ msgstr "Пожалуйста, загрузите файл Excel (.xls или .xl
 >>>>>>> upstream/18.0
 =======
 msgstr "Пожалуйста, загрузите файл Excel (.xls или .xlsx) или .csv для импорта."
+>>>>>>> upstream/18.0
+=======
+msgstr ""
+"Пожалуйста, загрузите файл Excel (.xls или .xlsx) или .csv для импорта."
 >>>>>>> upstream/18.0
 =======
 msgstr ""
@@ -11719,7 +11858,10 @@ msgstr "Файл будет импортироваться партиями"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11826,6 +11968,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11950,7 +12095,12 @@ msgstr "Отслеживание истории при импорте"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Unable to load \"{extension}\" file: requires Python module \"{modname}\""
+=======
+msgid ""
+"Unable to load \"{extension}\" file: requires Python module \"{modname}\""
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "Unable to load \"{extension}\" file: requires Python module \"{modname}\""
@@ -12201,7 +12351,11 @@ msgid "Upload Data File"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Загрузить файл с данными"
+>>>>>>> upstream/18.0
 =======
 msgstr "Загрузить файл с данными"
 >>>>>>> upstream/18.0
@@ -12619,7 +12773,11 @@ msgid "Upload your files"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Загрузите ваши файлы"
+>>>>>>> upstream/18.0
 =======
 msgstr "Загрузите ваши файлы"
 >>>>>>> upstream/18.0
@@ -12966,8 +13124,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "system. You can use a custom format in addition to the suggestions provided."
 " Leave empty to let Odoo guess the format (recommended)"
+=======
+"system. You can use a custom format in addition to the suggestions provided. "
+"Leave empty to let Odoo guess the format (recommended)"
+>>>>>>> upstream/18.0
 =======
 "system. You can use a custom format in addition to the suggestions provided. "
 "Leave empty to let Odoo guess the format (recommended)"
@@ -13133,11 +13296,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Use YYYY to represent the year, MM for the month and DD for the day. Include"
 " separators such as a dot, forward slash or dash. You can use a custom "
 "format in addition to the suggestions provided. Leave empty to let Odoo "
 "guess the format (recommended)"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13232,6 +13398,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13372,8 +13541,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Вы можете протестировать или перезагрузить файл перед возобновлением "
 "импорта."
+=======
+"Вы можете протестировать или перезагрузить файл перед возобновлением импорта."
+>>>>>>> upstream/18.0
 =======
 "Вы можете протестировать или перезагрузить файл перед возобновлением импорта."
 >>>>>>> upstream/18.0

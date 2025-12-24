@@ -323,7 +323,10 @@ class TestPartnerLeadPortal(TestCrmCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -546,7 +549,10 @@ class TestPartnerLeadPortal(TestCrmCommon):
         })
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         update_values = {
             'expected_revenue': 9999.0,
             'probability': 50.0,
@@ -559,6 +565,9 @@ class TestPartnerLeadPortal(TestCrmCommon):
         opportunity.with_user(self.user_portal).update_lead_portal(update_values)
         self.assertEqual(opportunity.expected_revenue, 9999.0, "Portal user should be able to update revenue or other details via portal method")
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         email_2 = 'test_partner_updated@test.com'
         opportunity.with_user(self.user_portal).update_contact_details_from_portal({
@@ -671,6 +680,9 @@ class TestPartnerLeadPortal(TestCrmCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

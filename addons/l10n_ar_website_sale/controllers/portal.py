@@ -1,15 +1,21 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.addons.portal.controllers.portal import CustomerPortal
 from odoo.http import request
 
 =======
+=======
+>>>>>>> upstream/18.0
 from odoo.exceptions import ValidationError
 from odoo.http import request
 
 from odoo.addons.portal.controllers.portal import CustomerPortal
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 class L10nARCustomerPortal(CustomerPortal):
@@ -34,6 +40,10 @@ class L10nARCustomerPortal(CustomerPortal):
             partner = request.env.user.partner_id
             portal_layout_values.update({
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                'can_edit_vat': partner.can_edit_vat(),
+>>>>>>> upstream/18.0
 =======
                 'can_edit_vat': partner.can_edit_vat(),
 >>>>>>> upstream/18.0
@@ -54,11 +64,14 @@ class L10nARCustomerPortal(CustomerPortal):
         # sanitize identification values to make sure it's correctly written on the partner
         if self._is_argentine_company():
 <<<<<<< HEAD
+<<<<<<< HEAD
             for identification_field in ('l10n_latam_identification_type_id', 'l10n_ar_afip_responsibility_type_id'):
                 if data.get(identification_field):
                     data[identification_field] = int(data[identification_field])
 
 =======
+=======
+>>>>>>> upstream/18.0
             identification_fields = [
                 'l10n_latam_identification_type_id',
                 'l10n_ar_afip_responsibility_type_id',
@@ -80,5 +93,8 @@ class L10nARCustomerPortal(CustomerPortal):
             except ValidationError as exception:
                 error['vat'] = 'error'
                 error_message.extend(exception.args)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         return error, error_message

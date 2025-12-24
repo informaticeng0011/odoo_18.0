@@ -2,13 +2,22 @@
 <templates id="template" xml:space="preserve">
     <t t-name="point_of_sale.CustomerFacingQR">
         <Dialog
+<<<<<<< HEAD
+=======
+            size="'md'"
+>>>>>>> upstream/18.0
             footer="false"
             header="false"
             bodyClass="'w-100 h-100 d-flex flex-column justify-content-center align-items-center'"
         >
             <div class="text-center">
                 <p t-out="title"/>
+<<<<<<< HEAD
                 <img class="pos-customer_payment_qr_code my-1" t-att-src="props.qrCode" alt="QR Code"/>
+=======
+                <img class="pos-customer_payment_qr_code my-1" t-att-src="props.qrCode" alt="QR Code"
+                    style="width: 200px; height: 200px;"/>
+>>>>>>> upstream/18.0
             </div>
             <div class="text-center">
                 <div>
