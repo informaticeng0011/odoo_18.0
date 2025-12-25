@@ -55,6 +55,7 @@ class L10nARWebsiteSale(WebsiteSale):
         if address_type == 'billing' and request.website.sudo().company_id.country_id.code == 'AR':
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if missing_fields and any(
                 fname in missing_fields
                 for fname in [
@@ -62,6 +63,8 @@ class L10nARWebsiteSale(WebsiteSale):
                 ]
             ):
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             fnames = {'l10n_latam_identification_type_id', 'l10n_ar_afip_responsibility_type_id'}
@@ -79,6 +82,9 @@ class L10nARWebsiteSale(WebsiteSale):
                         'Please go to "My Account" to add your Identification and/or AFIP Resposibility Types.',
                     ))
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

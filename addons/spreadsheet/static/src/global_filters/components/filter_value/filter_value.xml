@@ -91,7 +91,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <i t-if="getters.isGlobalFilterActive(filter.id)"
+=======
+            <i t-if="isValid and getters.isGlobalFilterActive(filter.id)"
+>>>>>>> upstream/18.0
 =======
             <i t-if="isValid and getters.isGlobalFilterActive(filter.id)"
 >>>>>>> upstream/18.0

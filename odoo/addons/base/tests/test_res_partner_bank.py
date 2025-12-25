@@ -114,6 +114,10 @@ class TestResPartnerBank(SavepointCaseWithUserDemo):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.assertEqual(partner_bank.sanitized_acc_number, sanitized_acc_number)
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(partner_bank.sanitized_acc_number, sanitized_acc_number)
 >>>>>>> upstream/18.0
@@ -464,7 +468,10 @@ class TestResPartnerBank(SavepointCaseWithUserDemo):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -715,6 +722,9 @@ class TestResPartnerBank(SavepointCaseWithUserDemo):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

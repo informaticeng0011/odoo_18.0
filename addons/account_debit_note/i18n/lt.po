@@ -32,6 +32,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* account_debit_note
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -450,6 +451,10 @@
 # * account_debit_note
 #
 >>>>>>> upstream/18.0
+=======
+# * account_debit_note
+#
+>>>>>>> upstream/18.0
 # Translators:
 # digitouch UAB <digitouchagencyeur@gmail.com>, 2024
 # Rolandas <info@paninfo.lt>, 2024
@@ -459,6 +464,7 @@
 # Audrius Palenskis <audrius.palenskis@gmail.com>, 2024
 # Martin Trigaux, 2024
 # Ramunė ViaLaurea <ramune.vialaurea@gmail.com>, 2024
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -876,10 +882,14 @@
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1203,6 +1213,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-09-05 18:39+0000\n"
 "PO-Revision-Date: 2025-11-21 02:23+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
@@ -1239,6 +1251,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1307,6 +1322,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1715,6 +1731,11 @@ msgstr ""
 " n % 1 != 0 ? 2: 3);\n"
 "X-Generator: Weblate 5.12.2\n"
 >>>>>>> upstream/18.0
+=======
+"11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? 1 :"
+" n % 1 != 0 ? 2: 3);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: account_debit_note
 #: model_terms:ir.ui.view,arch_db:account_debit_note.view_move_form_debit
@@ -1838,8 +1859,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Check this box if you don't want to share the same sequence for invoices and"
 " debit notes made from this journal"
+=======
+"Check this box if you don't want to share the same sequence for invoices and "
+"debit notes made from this journal"
+>>>>>>> upstream/18.0
 =======
 "Check this box if you don't want to share the same sequence for invoices and "
 "debit notes made from this journal"
@@ -2365,6 +2391,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Jei reikia taisyti visas eilutes, galite jas nukopijuoti – taip bus "
+"patogiau. Ši funkcija neveikia kuriant debetines sąskaitas iš kreditinių. "
+>>>>>>> upstream/18.0
 =======
 "Jei reikia taisyti visas eilutes, galite jas nukopijuoti – taip bus "
 "patogiau. Ši funkcija neveikia kuriant debetines sąskaitas iš kreditinių. "
@@ -2667,7 +2698,11 @@ msgstr "Debetinė sąskaita sukurta iš šios sąskaitos faktūros"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/account_debit_note/wizard/account_debit_note.py:0
+=======
+#: code:addons/account_debit_note/models/account_move.py:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/account_debit_note/models/account_move.py:0
 >>>>>>> upstream/18.0
@@ -3113,8 +3148,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You can't make a debit note for an invoice that is already linked to a debit"
 " note."
+=======
+"You can't make a debit note for an invoice that is already linked to a debit "
+"note."
+>>>>>>> upstream/18.0
 =======
 "You can't make a debit note for an invoice that is already linked to a debit "
 "note."

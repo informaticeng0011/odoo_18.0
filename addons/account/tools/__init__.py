@@ -123,6 +123,10 @@ from .structured_reference import *
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from .dict_to_xml import dict_to_xml
+>>>>>>> upstream/18.0
 =======
 from .dict_to_xml import dict_to_xml
 >>>>>>> upstream/18.0

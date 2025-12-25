@@ -142,10 +142,13 @@ class TestExpensesAccessRights(TestExpenseCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'price_unit': 1,
             })
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -390,6 +393,18 @@ class TestExpensesAccessRights(TestExpenseCommon, HttpCase):
         with self.assertRaises(UserError):
             expense.with_user(self.expense_user_employee).state = 'approved'
 
+<<<<<<< HEAD
+=======
+        # The expense employee should always be able to modify his draft expense sheet.
+        # In some cases, the expense state can be reset to draft on modification
+        # In such case the UserError should not block the modification
+        expense.with_user(self.expense_user_employee).write({
+            'state': 'draft',
+            'name': 'modified expense_1',
+        })
+        self.assertEqual(expense.name, 'modified expense_1')
+
+>>>>>>> upstream/18.0
         # Employee can report & submit their expense
         expense_sheet = self.env['hr.expense.sheet'].with_user(self.expense_user_employee).create({
             'name': 'expense sheet for employee',
@@ -518,6 +533,9 @@ class TestExpensesAccessRights(TestExpenseCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -878,7 +896,11 @@ class TestExpensesAccessRights(TestExpenseCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'price_unit': 1000.0,
+=======
+                'quantity': 1000.0,
+>>>>>>> upstream/18.0
 =======
                 'quantity': 1000.0,
 >>>>>>> upstream/18.0
@@ -1357,7 +1379,11 @@ class TestExpensesAccessRights(TestExpenseCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'price_unit': 1000.0,
+=======
+                'quantity': 1000.0,
+>>>>>>> upstream/18.0
 =======
                 'quantity': 1000.0,
 >>>>>>> upstream/18.0
@@ -1829,7 +1855,10 @@ class TestExpensesAccessRights(TestExpenseCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2179,6 +2208,9 @@ class TestExpensesAccessRights(TestExpenseCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2544,8 +2576,11 @@ class TestExpensesAccessRights(TestExpenseCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # An expense manager is not able to post the journal entry.
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2896,6 +2931,9 @@ class TestExpensesAccessRights(TestExpenseCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3299,7 +3337,11 @@ class TestExpensesAccessRights(TestExpenseCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'price_unit': 1000.0,
+=======
+                    'quantity': 1000.0,
+>>>>>>> upstream/18.0
 =======
                     'quantity': 1000.0,
 >>>>>>> upstream/18.0

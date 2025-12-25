@@ -678,6 +678,11 @@ class TestMailMail(MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            self.addCleanup(setattr, self.send_email_mocked, 'side_effect', _send_current)
+
+>>>>>>> upstream/18.0
 =======
             self.addCleanup(setattr, self.send_email_mocked, 'side_effect', _send_current)
 
@@ -860,9 +865,13 @@ class TestMailMail(MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 def _send_email(*args, **kwargs):
                     raise error
                 self.send_email_mocked.side_effect = _send_email
+=======
+                self.send_email_mocked.side_effect = error
+>>>>>>> upstream/18.0
 =======
                 self.send_email_mocked.side_effect = error
 >>>>>>> upstream/18.0
@@ -1018,9 +1027,13 @@ class TestMailMail(MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 def _send_email(*args, **kwargs):
                     raise error
                 self.send_email_mocked.side_effect = _send_email
+=======
+                self.send_email_mocked.side_effect = error
+>>>>>>> upstream/18.0
 =======
                 self.send_email_mocked.side_effect = error
 >>>>>>> upstream/18.0
@@ -1171,8 +1184,11 @@ class TestMailMail(MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.send_email_mocked.side_effect = _send_current
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

@@ -149,7 +149,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     t-on-click="() => this.onClickOrder(order)" t-on-dblclick="() => order.uiState.locked ? ()=>{} : this._setOrder(order)" >
+=======
+                                    t-on-click="() => this.onClickOrder(order)" t-on-dblclick="() => order.finalized ? ()=>{} : this._setOrder(order)" >
+>>>>>>> upstream/18.0
 =======
                                     t-on-click="() => this.onClickOrder(order)" t-on-dblclick="() => order.finalized ? ()=>{} : this._setOrder(order)" >
 >>>>>>> upstream/18.0
@@ -599,7 +603,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     t-on-click="() => this.onClickOrder(order)" t-on-dblclick="() =>  order.uiState.locked ? ()=>{} : this._setOrder(order)" >
+=======
+                                    t-on-click="() => this.onClickOrder(order)" t-on-dblclick="() =>  order.finalized ? ()=>{} : this._setOrder(order)" >
+>>>>>>> upstream/18.0
 =======
                                     t-on-click="() => this.onClickOrder(order)" t-on-dblclick="() =>  order.finalized ? ()=>{} : this._setOrder(order)" >
 >>>>>>> upstream/18.0
@@ -969,7 +977,11 @@
                                     <span> Refunded</span>
                                 </li>
                                 <li t-if="!pos.isProductQtyZero(toRefundDetail?.qty)" class="info to-refund-highlight refund-note mt-1 fw-bold text-primary">
+<<<<<<< HEAD
                                     <t t-set="_destinationOrderUid" t-value="toRefundDetail.destination_order_uuid"/>
+=======
+                                    <t t-set="_destinationOrderUid" t-value="toRefundDetail.destination_order?.uuid"/>
+>>>>>>> upstream/18.0
                                     <t t-set="refundQty" t-value="env.utils.formatProductQty(toRefundDetail.qty)"/>
                                     <t t-if="_destinationOrderUid">
                                         Refunding <t t-esc="refundQty" /> in

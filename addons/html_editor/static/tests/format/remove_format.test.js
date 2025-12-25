@@ -142,8 +142,13 @@ import { execCommand } from "../_helpers/userCommands";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import { expectElementCount } from "../_helpers/ui_expectations";
+>>>>>>> upstream/18.0
+=======
+import { expectElementCount } from "../_helpers/ui_expectations";
+import { unformat } from "../_helpers/format";
 >>>>>>> upstream/18.0
 =======
 import { expectElementCount } from "../_helpers/ui_expectations";
@@ -1192,7 +1197,11 @@ test("should remove all the colors for the text separated by Shift+Enter when us
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test("should remove all the colors for the text separated by Enter when using removeFormat button", async () => {
+=======
+test("should remove all the colors for the text separated by Enter when using removeFormat button (1)", async () => {
+>>>>>>> upstream/18.0
 =======
 test("should remove all the colors for the text separated by Enter when using removeFormat button (1)", async () => {
 >>>>>>> upstream/18.0
@@ -1218,6 +1227,11 @@ test("should remove all the colors for the text separated by Enter when using re
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+});
+test("should remove all the colors for the text separated by Enter when using removeFormat button (2)", async () => {
+>>>>>>> upstream/18.0
 =======
 });
 test("should remove all the colors for the text separated by Enter when using removeFormat button (2)", async () => {
@@ -1385,6 +1399,7 @@ test("should remove font-size style from multiple sized selected text", async ()
     });
 });
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1819,6 +1834,9 @@ test("should remove font size and color styles (1)", async () => {
 =======
 test("should remove font size and color styles (1)", async () => {
 >>>>>>> upstream/18.0
+=======
+test("should remove font size and color styles (1)", async () => {
+>>>>>>> upstream/18.0
     await testEditor({
         contentBefore: `<p><span class="display-1-fs"><font class="text-gradient" style="background-image: linear-gradient(135deg, rgb(214, 255, 127) 0%, rgb(0, 179, 204) 100%);">[abcdefg]</font></span></p>`,
         stepFunction: (editor) => execCommand(editor, "removeFormat"),
@@ -1829,6 +1847,12 @@ test("should remove font size and color styles (1)", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+});
+
+test("should remove font size and color styles (2)", async () => {
+>>>>>>> upstream/18.0
 =======
 });
 
@@ -1861,6 +1885,7 @@ test("should remove font size and color styles (2)", async () => {
     });
 });
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2294,6 +2319,8 @@ describe("Toolbar", () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 test("should remove backgroundColor from selected cells using removeFormat", async () => {
     const defaultTextColor = "color: rgb(1, 10, 100);";
     const styleContent = `* {${defaultTextColor}}`;
@@ -2336,6 +2363,7 @@ test("should remove backgroundColor from selected cells using removeFormat (2)",
     });
 });
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2541,6 +2569,8 @@ describe("Toolbar", () => {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2943,6 +2973,9 @@ describe("Toolbar", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3293,7 +3326,11 @@ describe("Toolbar", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(".o-we-toolbar").toHaveCount(1); // toolbar still open
+=======
+        await expectElementCount(".o-we-toolbar", 1);
+>>>>>>> upstream/18.0
 =======
         await expectElementCount(".o-we-toolbar", 1);
 >>>>>>> upstream/18.0
@@ -3893,8 +3930,12 @@ describe("Toolbar", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         await waitFor(".o-we-toolbar");
         expect(".o-we-toolbar").toHaveCount(1); // toolbar open
+=======
+        await expectElementCount(".o-we-toolbar", 1);
+>>>>>>> upstream/18.0
 =======
         await expectElementCount(".o-we-toolbar", 1);
 >>>>>>> upstream/18.0
@@ -4452,7 +4493,11 @@ describe("Toolbar", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(".o-we-toolbar").toHaveCount(1); // toolbar still open
+=======
+        await expectElementCount(".o-we-toolbar", 1);
+>>>>>>> upstream/18.0
 =======
         await expectElementCount(".o-we-toolbar", 1);
 >>>>>>> upstream/18.0
@@ -5013,8 +5058,12 @@ describe("Toolbar", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         await waitFor(".o-we-toolbar");
         expect(".o-we-toolbar").toHaveCount(1); // toolbar open
+=======
+        await expectElementCount(".o-we-toolbar", 1);
+>>>>>>> upstream/18.0
 =======
         await expectElementCount(".o-we-toolbar", 1);
 >>>>>>> upstream/18.0
@@ -5572,7 +5621,11 @@ describe("Toolbar", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(".o-we-toolbar").toHaveCount(1); // toolbar still open
+=======
+        await expectElementCount(".o-we-toolbar", 1);
+>>>>>>> upstream/18.0
 =======
         await expectElementCount(".o-we-toolbar", 1);
 >>>>>>> upstream/18.0
@@ -6129,6 +6182,7 @@ describe("Toolbar", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -6354,6 +6408,11 @@ describe("removeFormat must not remove non-style classes", () => {
 describe("removeFormat must not remove non-style classes", () => {
     test("does not remove non-color classes (1)", async () => {
 >>>>>>> upstream/18.0
+=======
+
+describe("removeFormat must not remove non-style classes", () => {
+    test("does not remove non-color classes (1)", async () => {
+>>>>>>> upstream/18.0
         await testEditor({
             contentBefore: '<p><font class="text-wrap">[test]</font></p>',
             stepFunction: (editor) => execCommand(editor, "removeFormat"),
@@ -6364,6 +6423,11 @@ describe("removeFormat must not remove non-style classes", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+    test("does not remove non-color classes (2)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
     test("does not remove non-color classes (2)", async () => {
@@ -6394,6 +6458,11 @@ describe("removeFormat must not remove non-style classes", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+    test("does not remove non-color classes (3)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
     test("does not remove non-color classes (3)", async () => {
@@ -6426,6 +6495,7 @@ describe("removeFormat must not remove non-style classes", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("removes all supported color classes", async () => {
         const classes = [
             "text-primary",
@@ -6443,6 +6513,8 @@ describe("removeFormat must not remove non-style classes", () => {
         ];
         for (const cls of classes) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6471,6 +6543,9 @@ describe("removeFormat must not remove non-style classes", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6485,6 +6560,7 @@ describe("removeFormat must not remove non-style classes", () => {
                 stepFunction: (editor) => execCommand(editor, "removeFormat"),
                 contentAfter: "<p>[test]</p>",
             });
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6787,6 +6863,11 @@ describe("removeFormat must not remove non-style classes", () => {
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+        });
+    }
+});
 >>>>>>> upstream/18.0
 =======
         });

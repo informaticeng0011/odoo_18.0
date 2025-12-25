@@ -18,7 +18,13 @@ registry.category("web_tour.tours").add("test_sync_from_ui_one_by_one", {
                     // Create 5 orders that will be synced one by one
                     for (let i = 0; i < 5; i++) {
 <<<<<<< HEAD
+<<<<<<< HEAD
                         const product = posmodel.models["product.product"].getFirst();
+=======
+                        const product = posmodel.models["product.product"].find(
+                            (el) => el.attribute_line_ids.length == 0
+                        );
+>>>>>>> upstream/18.0
 =======
                         const product = posmodel.models["product.product"].find(
                             (el) => el.attribute_line_ids.length == 0

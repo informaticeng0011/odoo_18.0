@@ -159,6 +159,11 @@ _logger = logging.getLogger(__name__)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+MAX_FIXPOINT_ITERATIONS = 10
+
+>>>>>>> upstream/18.0
 =======
 MAX_FIXPOINT_ITERATIONS = 10
 
@@ -1463,6 +1468,7 @@ class Environment(Mapping):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for field in list(self.fields_to_compute()):
             self[field.model_name]._recompute_field(field)
 
@@ -1472,6 +1478,8 @@ class Environment(Mapping):
         for model_name in OrderedSet(field.model_name for field in self.cache.get_dirty_fields()):
             self[model_name].flush_model()
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1802,6 +1810,9 @@ class Environment(Mapping):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2408,6 +2419,11 @@ class Cache:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                if not (field.compute or field.store and record._origin):
+                    return cache_value.get(lang, cache_value.get('en_US'))
+>>>>>>> upstream/18.0
 =======
                 if not (field.compute or field.store and record._origin):
                     return cache_value.get(lang, cache_value.get('en_US'))
@@ -2954,6 +2970,11 @@ class Cache:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if not (field.compute or field.store and record._origin):
+                cache_value.setdefault('en_US', value)
+>>>>>>> upstream/18.0
 =======
             if not (field.compute or field.store and record._origin):
                 cache_value.setdefault('en_US', value)
@@ -3506,6 +3527,7 @@ class Cache:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             lang = records.env.lang or 'en_US'
             field_cache = self._get_field_cache(records, field)
             cache_values = []
@@ -3516,6 +3538,8 @@ class Cache:
                     cache_value = field_cache.get(id_) or {}
                     cache_value[lang] = value
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3836,6 +3860,9 @@ class Cache:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4280,7 +4307,11 @@ class Cache:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             lang = records.env.lang or 'en_US'
+=======
+            lang = (records.env.lang or 'en_US') if field.translate is True else records.env._lang
+>>>>>>> upstream/18.0
 =======
             lang = (records.env.lang or 'en_US') if field.translate is True else records.env._lang
 >>>>>>> upstream/18.0

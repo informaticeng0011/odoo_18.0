@@ -180,6 +180,7 @@ class ResPartner(models.Model):
         return edi_identification == participant_identifier and service_href.startswith(smp_nemhandel_url)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _check_document_type_support(self, participant_info, ubl_cii_format):
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -301,6 +302,8 @@ class ResPartner(models.Model):
         document_type = self.env['account.edi.xml.ubl_21']._get_customization_ids()[ubl_cii_format]
         return any(document_type in parse.unquote_plus(service.attrib.get('href', '')) for service in service_references)
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def _update_nemhandel_state_per_company(self, vals=None):

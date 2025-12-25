@@ -155,8 +155,11 @@ class BarcodeNomenclature(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             date = datetime.datetime.strptime(str(year) + gs1_date[2:], '%Y%m%d')
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -367,6 +370,7 @@ class BarcodeNomenclature(models.Model):
                 date = datetime.datetime.strptime(str(year) + gs1_date[2:], '%Y%m%d')
             except ValueError as e:
                 raise ValidationError(_(
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -627,6 +631,11 @@ class BarcodeNomenclature(models.Model):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+                    "A GS1 barcode nomenclature pattern was matched. However, the barcode failed to be converted to a valid date: '%(error_message)s'",
+                    error_message=e
+                ))
 >>>>>>> upstream/18.0
 =======
                     "A GS1 barcode nomenclature pattern was matched. However, the barcode failed to be converted to a valid date: '%(error_message)s'",

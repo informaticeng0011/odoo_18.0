@@ -109,6 +109,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-09-05 18:40+0000\n"
 =======
 "POT-Creation-Date: 2025-09-12 01:51+0000\n"
@@ -517,6 +518,10 @@ msgstr ""
 "POT-Creation-Date: 2025-09-12 01:51+0000\n"
 "PO-Revision-Date: 2025-10-17 14:13+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-09-12 01:51+0000\n"
+"PO-Revision-Date: 2025-10-17 14:13+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: \"Fernanda Alvarez (mfar)\" <mfar@odoo.com>\n"
 "Language-Team: Spanish (Latin America) <https://translate.odoo.com/projects/"
 "odoo-18/sms_twilio/es_419/>\n"
@@ -534,6 +539,7 @@ msgid "%(failure_type)s: %(failure_reason)s"
 msgstr "%(failure_type)s: %(failure_reason)s"
 
 #. module: sms_twilio
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -947,6 +953,8 @@ msgstr "Los números \"A\" y \"Para\" no pueden ser iguales"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/sms_twilio/tools/sms_api.py:0
 msgid "'To' and 'From' numbers cannot be the same"
@@ -1020,6 +1028,9 @@ msgstr "Los números \"Para\" y \"De\" no pueden ser iguales"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1264,6 +1275,7 @@ msgstr "+1 555-123-4567"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "A 'To' phone number is required."
 msgstr "El teléfono \"Para\" es necesario."
 =======
@@ -1273,6 +1285,10 @@ msgstr ""
 =======
 msgid "A 'To' phone number is required"
 msgstr ""
+>>>>>>> upstream/18.0
+=======
+msgid "A 'To' phone number is required"
+msgstr "Es necesario especificar un número en \"Para\""
 >>>>>>> upstream/18.0
 =======
 msgid "A 'To' phone number is required"
@@ -1801,6 +1817,10 @@ msgstr "Token de autenticación"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields.selection,name:sms_twilio.selection__mail_notification__failure_type__twilio_authentication
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields.selection,name:sms_twilio.selection__mail_notification__failure_type__twilio_authentication
 >>>>>>> upstream/18.0
@@ -2290,7 +2310,10 @@ msgstr "Tipo de error"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2601,12 +2624,18 @@ msgid "From / To identic"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: sms_twilio
 <<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr "Los números \"De\" y \"Para\" son idénticos"
+
+#. module: sms_twilio
 >>>>>>> upstream/18.0
 =======
 msgstr "Los números \"De\" y \"Para\" son idénticos"
@@ -3216,6 +3245,10 @@ msgstr "ID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields.selection,name:sms_twilio.selection__mail_notification__failure_type__twilio_callback
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields.selection,name:sms_twilio.selection__mail_notification__failure_type__twilio_callback
 >>>>>>> upstream/18.0
@@ -3672,7 +3705,10 @@ msgstr "Gestionar Twilio SMS"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3983,12 +4019,18 @@ msgid "Missing From Number"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: sms_twilio
 <<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr "Falta el número \"De\""
+
+#. module: sms_twilio
 >>>>>>> upstream/18.0
 =======
 msgstr "Falta el número \"De\""
@@ -4599,8 +4641,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            <i class=\"fa fa-external-link\" aria-hidden="
 "\"true\"/>"
+=======
+"                            <i class=\"fa fa-external-link\" aria-"
+"hidden=\"true\"/>"
+>>>>>>> upstream/18.0
 =======
 "                            <i class=\"fa fa-external-link\" aria-"
 "hidden=\"true\"/>"
@@ -5199,6 +5246,7 @@ msgstr "El SMS fue enviado desde %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "The number you're trying to reach is not correctly formatted."
 msgstr "El número que intentas contactar no tiene el formato correcto."
 =======
@@ -5208,6 +5256,10 @@ msgstr ""
 =======
 msgid "The number you're trying to reach is not correctly formatted"
 msgstr ""
+>>>>>>> upstream/18.0
+=======
+msgid "The number you're trying to reach is not correctly formatted"
+msgstr "El número que intentas contactar no tiene el formato correcto."
 >>>>>>> upstream/18.0
 =======
 msgid "The number you're trying to reach is not correctly formatted"
@@ -5721,11 +5773,16 @@ msgstr "Este es un SMS de prueba de Odoo"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
 msgid "Trial Account Limitation"
 msgstr ""
+=======
+msgid "Trial Account Limitation"
+msgstr "Limitación de cuentas de prueba"
+>>>>>>> upstream/18.0
 =======
 msgid "Trial Account Limitation"
 msgstr "Limitación de cuentas de prueba"
@@ -6231,6 +6288,9 @@ msgstr "Limitación de cuentas de prueba"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6583,6 +6643,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -6597,6 +6658,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6900,6 +6963,9 @@ msgstr "Destinatario sin verificar en la cuenta de prueba"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7210,7 +7276,10 @@ msgstr "abcde12345abcde12345abcde12345ab"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7520,6 +7589,9 @@ msgstr "abcde12345abcde12345abcde12345ab"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7841,6 +7913,7 @@ msgstr "abcde12345abcde12345abcde12345ab"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #~ msgid "Failure type"
 #~ msgstr "Tipo de error"
 
@@ -7850,6 +7923,11 @@ msgstr "abcde12345abcde12345abcde12345ab"
 #~ msgid "Message Notifications"
 #~ msgstr "Notificaciones de mensajes"
 
+=======
+#~ msgid "Manage Twilio Connection"
+#~ msgstr "Gestionar conexión con Twilio"
+
+>>>>>>> upstream/18.0
 =======
 #~ msgid "Manage Twilio Connection"
 #~ msgstr "Gestionar conexión con Twilio"

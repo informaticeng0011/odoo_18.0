@@ -124,6 +124,7 @@ class MrpProduction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @api.depends('procurement_group_id.mrp_production_ids.move_dest_ids.group_id.sale_id')
     def _compute_sale_order_count(self):
         for production in self:
@@ -133,6 +134,8 @@ class MrpProduction(models.Model):
         self.ensure_one()
         sale_order_ids = self.procurement_group_id.mrp_production_ids.move_dest_ids.group_id.sale_id.ids + self.sale_line_id.order_id.ids
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -477,6 +480,9 @@ class MrpProduction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

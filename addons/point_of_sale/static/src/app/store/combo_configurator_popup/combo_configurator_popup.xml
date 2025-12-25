@@ -182,7 +182,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <Dialog title="props.product.display_name" contentClass="'combo-configurator-popup'">
+=======
+        <Dialog t-if="this.hasMultipleChoices()" title="props.product.display_name" contentClass="'combo-configurator-popup'">
+>>>>>>> upstream/18.0
 =======
         <Dialog t-if="this.hasMultipleChoices()" title="props.product.display_name" contentClass="'combo-configurator-popup'">
 >>>>>>> upstream/18.0
@@ -911,6 +915,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <t t-if="shouldShowCombo(combo)">
                     <h3 class="me-auto mb-3" t-esc="combo.name"/>
                     <div class="product-list d-grid gap-1">
@@ -1295,6 +1300,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 <h3 class="me-auto mb-3" t-esc="combo.name"/>
                 <div class="product-list d-grid gap-1">
                     <div t-foreach="combo.combo_item_ids" t-as="combo_item" t-key="combo_item.id" class="m-2" t-att-class="{'ptav-not-available' : isArchived(combo_item)}">
@@ -1313,7 +1320,12 @@
                                 comboExtraPrice="formattedComboPrice(combo_item)"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 imageUrl="product.getImageUrl()"
+=======
+                                color="product.color || product.pos_categ_ids?.at(-1)?.color"
+                                imageUrl="pos.config.show_product_images and product.getImageUrl()"
+>>>>>>> upstream/18.0
 =======
                                 color="product.color || product.pos_categ_ids?.at(-1)?.color"
                                 imageUrl="pos.config.show_product_images and product.getImageUrl()"
@@ -1506,6 +1518,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

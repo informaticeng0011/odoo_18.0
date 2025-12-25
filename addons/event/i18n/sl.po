@@ -25,6 +25,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* event
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -651,6 +652,9 @@
 =======
 # * event
 >>>>>>> upstream/18.0
+=======
+# * event
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Katja Deržič, 2024
@@ -751,6 +755,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -889,6 +894,9 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# Jan Zorko <jan.zorko@implex.si>, 2025.
 >>>>>>> upstream/18.0
 =======
 # Jan Zorko <jan.zorko@implex.si>, 2025.
@@ -969,6 +977,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1664,6 +1673,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-11-14 18:38+0000\n"
 "PO-Revision-Date: 2025-11-27 16:49+0000\n"
 "Last-Translator: Jan Zorko <jan.zorko@implex.si>\n"
@@ -1693,6 +1704,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1746,6 +1760,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2106,6 +2121,11 @@ msgstr ""
 "n%100==4 ? 2 : 3;\n"
 "X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
+"n%100==4 ? 2 : 3;\n"
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_res_partner__event_count
@@ -2263,7 +2283,11 @@ msgid "%(event_name)s - Registration #%(registration_id)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(event_name)s - Registracija #%(registration_id)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(event_name)s - Registracija #%(registration_id)s"
 >>>>>>> upstream/18.0
@@ -2785,7 +2809,11 @@ msgid "%(event_name)s - Registration for %(attendee_name)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(event_name)s - Registracija za %(attendee_name)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(event_name)s - Registracija za %(attendee_name)s"
 >>>>>>> upstream/18.0
@@ -3307,7 +3335,11 @@ msgid "%(start_date)s to %(end_date)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(start_date)s do %(end_date)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(start_date)s do %(end_date)s"
 >>>>>>> upstream/18.0
@@ -3852,7 +3884,11 @@ msgid "'Attendee List - %s' % (object.name)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "'Seznam udeležencev - %s' % (object.name)"
+>>>>>>> upstream/18.0
 =======
 msgstr "'Seznam udeležencev - %s' % (object.name)"
 >>>>>>> upstream/18.0
@@ -4373,7 +4409,11 @@ msgid "'Attendee List'"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "'Seznam udeležencev'"
+>>>>>>> upstream/18.0
 =======
 msgstr "'Seznam udeležencev'"
 >>>>>>> upstream/18.0
@@ -4897,6 +4937,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"'Značka - %s - %s' % ((object.event_id.name or 'Event').replace('/',''), "
+"(object.name or '').replace('/',''))"
+>>>>>>> upstream/18.0
 =======
 "'Značka - %s - %s' % ((object.event_id.name or 'Event').replace('/',''), "
 "(object.name or '').replace('/',''))"
@@ -5546,7 +5591,11 @@ msgid "'Badge - %s' % (object.name or 'Event').replace('/','')"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "'Značka - %s' % (object.name or 'Event').replace('/','')"
+>>>>>>> upstream/18.0
 =======
 msgstr "'Značka - %s' % (object.name or 'Event').replace('/','')"
 >>>>>>> upstream/18.0
@@ -6070,6 +6119,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"'Vstopnica na celo stran - %s - %s' % ((object.event_id.name or "
+"'Event').replace('/',''), (object.name or '').replace('/',''))"
+>>>>>>> upstream/18.0
 =======
 "'Vstopnica na celo stran - %s - %s' % ((object.event_id.name or "
 "'Event').replace('/',''), (object.name or '').replace('/',''))"
@@ -6720,6 +6774,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"'Vstopnica na celo stran - %s' % (object.name or 'Event').replace('/','')"
+>>>>>>> upstream/18.0
 =======
 "'Vstopnica na celo stran - %s' % (object.name or 'Event').replace('/','')"
 >>>>>>> upstream/18.0
@@ -7240,7 +7298,11 @@ msgid "+123456789"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "+123456789"
+>>>>>>> upstream/18.0
 =======
 msgstr "+123456789"
 >>>>>>> upstream/18.0
@@ -7777,7 +7839,11 @@ msgid "10-14"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "10-14"
+>>>>>>> upstream/18.0
 =======
 msgstr "10-14"
 >>>>>>> upstream/18.0
@@ -8298,7 +8364,11 @@ msgid "1000 Brussels"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "1000 Bruselj"
+>>>>>>> upstream/18.0
 =======
 msgstr "1000 Bruselj"
 >>>>>>> upstream/18.0
@@ -8819,7 +8889,11 @@ msgid "15-18"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "15-18"
+>>>>>>> upstream/18.0
 =======
 msgstr "15-18"
 >>>>>>> upstream/18.0
@@ -9340,7 +9414,11 @@ msgid "18+"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "18+"
+>>>>>>> upstream/18.0
 =======
 msgstr "18+"
 >>>>>>> upstream/18.0
@@ -9861,7 +9939,11 @@ msgid "4 per sheet"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "4 na stran"
+>>>>>>> upstream/18.0
 =======
 msgstr "4 na stran"
 >>>>>>> upstream/18.0
@@ -10382,7 +10464,11 @@ msgid "5-10"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "5-10"
+>>>>>>> upstream/18.0
 =======
 msgstr "5-10"
 >>>>>>> upstream/18.0
@@ -10908,7 +10994,11 @@ msgid "96x82mm (Badge Printer)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "96x82mm (Tiskalnik značk)"
+>>>>>>> upstream/18.0
 =======
 msgstr "96x82mm (Tiskalnik značk)"
 >>>>>>> upstream/18.0
@@ -11407,8 +11497,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<b>Tehnične sobe</b> - Ena namenjena naprednim razvijalcem Odoo, ena za nove"
 " razvijalce."
+=======
+"<b>Tehnične sobe</b> - Ena namenjena naprednim razvijalcem Odoo, ena za nove "
+"razvijalce."
+>>>>>>> upstream/18.0
 =======
 "<b>Tehnične sobe</b> - Ena namenjena naprednim razvijalcem Odoo, ena za nove "
 "razvijalce."
@@ -11793,6 +11888,7 @@ msgstr ""
 #. module: event
 #: model_terms:event.event,description:event.event_0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12250,6 +12346,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "<b>The Design Fair is preceded by 2 days of Training Sessions for experts!</"
 "b><br> We propose 3 different training sessions, 2 days each."
 msgstr ""
@@ -12349,6 +12447,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12675,6 +12776,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<b>Dopoldanska plenarna zasedanja bodo krajša</b> in popoldne bomo namenili "
+"več časa za tematska srečanja, konference, delavnice in seminarske vaje."
+>>>>>>> upstream/18.0
 =======
 "<b>Dopoldanska plenarna zasedanja bodo krajša</b> in popoldne bomo namenili "
 "več časa za tematska srečanja, konference, delavnice in seminarske vaje."
@@ -13195,6 +13301,7 @@ msgstr ""
 #. module: event
 #: model_terms:event.event,description:event.event_0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13586,6 +13693,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "<b>The whole event is open to all public!</b> <br>We ask a participation fee "
 "of 49.50€ for the costs for the 3 days (coffee breaks, catering, drinks and "
 "a surprising concert and beer party).<br> For those who don't want to "
@@ -13686,6 +13795,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14008,6 +14120,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14398,7 +14513,11 @@ msgid "<b>Workshop Room</b> - Mainly for developers."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<b>Delavnica</b> - Predvsem za razvijalce."
+>>>>>>> upstream/18.0
 =======
 msgstr "<b>Delavnica</b> - Predvsem za razvijalce."
 >>>>>>> upstream/18.0
@@ -14922,6 +15041,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<br/>\n"
+"                                            <span class=\"me-1\">iz</span>"
+>>>>>>> upstream/18.0
 =======
 "<br/>\n"
 "                                            <span class=\"me-1\">iz</span>"
@@ -15574,6 +15698,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<br/>\n"
+"                                            <span class=\"me-1\">do</span>"
+>>>>>>> upstream/18.0
 =======
 "<br/>\n"
 "                                            <span class=\"me-1\">do</span>"
@@ -16095,6 +16224,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
 msgid ""
 "<br/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16551,6 +16681,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                                        <span class=\"text-muted\">Air your "
 "tracks online through a Youtube integration</span>"
 msgstr ""
@@ -16651,6 +16783,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16845,6 +16980,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
 msgid ""
 "<br/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17301,6 +17437,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                                        <span class=\"text-muted\">Share a "
 "quiz to your attendees once a track is over</span>"
 msgstr ""
@@ -17401,6 +17539,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17600,6 +17741,7 @@ msgid ""
 "community module, a case study, methodology feedback, technical, etc. Each "
 "presentation must be in English.</em>"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18090,6 +18232,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "<em>Če želite imeti predstavitev, prosimo, da čim prej pošljete svoj predlog "
 "teme v odobritev g. Famkeju Jenssensu na naslov ngh (a) yourcompany (pika) "
 "com. Predstavitve naj bodo na primer predstavitev modula skupnosti, študija "
@@ -18189,6 +18333,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18511,7 +18658,11 @@ msgid "<i class=\"fa fa-building\" title=\"Attendee Company\"/>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-building\" title=\"Attendee Company\"/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-building\" title=\"Attendee Company\"/>"
 >>>>>>> upstream/18.0
@@ -19005,8 +19156,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<i class=\"fa fa-check fa-3x\" role=\"img\" aria-label=\"Reset To Registered"
 " Button\" title=\"Reset To Registered\"/>"
+=======
+"<i class=\"fa fa-check fa-3x\" role=\"img\" aria-label=\"Reset To Registered "
+"Button\" title=\"Reset To Registered\"/>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-check fa-3x\" role=\"img\" aria-label=\"Reset To Registered "
 "Button\" title=\"Reset To Registered\"/>"
@@ -19521,7 +19677,11 @@ msgid "<i class=\"fa fa-group mt-1 me-2 text-center\" title=\"Attendees\"/>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-group mt-1 me-2 text-center\" title=\"Attendees\"/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-group mt-1 me-2 text-center\" title=\"Attendees\"/>"
 >>>>>>> upstream/18.0
@@ -20025,6 +20185,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-map-marker mt-1 me-2 text-center ps-1\" title=\"Location\"/>"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -20352,6 +20513,8 @@ msgstr "<i class=\"fa fa-map-marker mt-1 me-2 text-center ps-1\" title=\"Locatio
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "<i class=\"fa fa-map-marker mt-1 me-2 text-center ps-1\" title=\"Location\"/>"
 msgstr ""
@@ -20450,6 +20613,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -20772,7 +20938,11 @@ msgid "<i class=\"fa fa-ticket\" title=\"Ticket type\"/>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-ticket\" title=\"Ticket type\"/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-ticket\" title=\"Ticket type\"/>"
 >>>>>>> upstream/18.0
@@ -21293,7 +21463,11 @@ msgid "<i class=\"oi oi-arrow-right me-2\" title=\"End date\"/>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"oi oi-arrow-right me-2\" title=\"End date\"/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"oi oi-arrow-right me-2\" title=\"End date\"/>"
 >>>>>>> upstream/18.0
@@ -21780,6 +21954,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span class=\"badge text-bg-secondary o_wevent_badge float-"
 "end\">SPEAKER</span>"
 msgstr ""
@@ -22142,6 +22317,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "<span class=\"badge text-bg-secondary o_wevent_badge float-end\">SPEAKER</"
 "span>"
 msgstr ""
@@ -22241,6 +22418,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -22563,7 +22743,11 @@ msgid "<span class=\"me-1\">to</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"me-1\">do</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"me-1\">do</span>"
 >>>>>>> upstream/18.0
@@ -23085,6 +23269,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "<span class=\"o_event_badge_font_faded\">Moj nadomestni znak za "
 "podjetje</span>"
@@ -23220,6 +23405,10 @@ msgstr ""
 =======
 "<span class=\"o_event_badge_font_faded\">Moj nadomestni znak za "
 "podjetje</span>"
+>>>>>>> upstream/18.0
+=======
+"<span class=\"o_event_badge_font_faded\">Moj nadomestni znak za podjetje</"
+"span>"
 >>>>>>> upstream/18.0
 =======
 "<span class=\"o_event_badge_font_faded\">Moj nadomestni znak za podjetje</"
@@ -23738,6 +23927,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"o_stat_text\">\n"
+"                                    Registracija\n"
+"                                </span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"o_stat_text\">\n"
 "                                    Registracija\n"
@@ -24517,7 +24712,11 @@ msgid "<span>John Doe</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Janez Novak</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>Janez Novak</span>"
 >>>>>>> upstream/18.0
@@ -25004,6 +25203,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"padding-top: 16px; background-color: #F1F1F1; font-family:Verdana, Arial,sans-serif; color: #454748; width: 100%; border-collapse:separate;\"><tr><td align=\"center\">\n"
 "<t t-set=\"date_begin\" t-value=\"format_datetime(object.event_id.date_begin, tz='UTC', dt_format=&quot;yyyyMMdd'T'HHmmss'Z'&quot;)\"/>\n"
 "<t t-set=\"date_end\" t-value=\"format_datetime(object.event_id.date_end, tz='UTC', dt_format=&quot;yyyyMMdd'T'HHmmss'Z'&quot;)\"/>\n"
@@ -25013,6 +25213,8 @@ msgid ""
 "<t t-set=\"registration_ids\" t-value=\"object.ids if not is_sale else object._get_event_registration_ids_from_order()\"/>\n"
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"padding: 16px; background-color: white; color: #454748; border-collapse:separate;\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -25313,6 +25515,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -25601,10 +25806,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <table width=\"590\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
 "                <tr><td valign=\"middle\">\n"
 "                    <span style=\"font-size: 10px;\">Your registration</span><br/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -25893,6 +26101,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -26181,6 +26392,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <a t-attf-href=\"/event/{{ object.event_id.id }}/my_tickets?badge_mode=1&amp;registration_ids={{ registration_ids }}&amp;tickets_hash={{ object.event_id._get_tickets_access_hash(registration_ids) }}\" target=\"_blank\" style=\"padding: 8px 12px; font-size: 12px; color: #FFFFFF; text-decoration: none !important; font-weight: 400; background-color: #875A7B; border: 0px solid #875A7B; border-radius:3px\">\n"
 "                        Download Badges\n"
 "                    </a>\n"
@@ -26191,6 +26403,8 @@ msgid ""
 "                <tr><td colspan=\"2\" style=\"text-align:center;\">\n"
 "                  <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin:16px 0px 16px 0px;\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -26491,6 +26705,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -26782,6 +26999,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <table width=\"590\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
 "                <tr><td valign=\"top\" style=\"font-size: 14px;\">\n"
 "                    <div>\n"
@@ -26793,6 +27011,8 @@ msgid ""
 "                        <t t-else=\"\">\n"
 "                            <strong t-out=\"object.event_id.name or ''\">OpenWood Collection Online Reveal</strong>.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -27091,6 +27311,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -27285,6 +27508,7 @@ msgid ""
 "                    <div>\n"
 "                        <br/>\n"
 "                        <strong>Add this event to your calendar</strong>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -27576,6 +27800,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                        <a t-attf-href=\"https://www.google.com/calendar/"
 "render?action=TEMPLATE&amp;text={{ object.event_id.name }}"
 "&amp;dates={{ date_begin }}/{{ date_end }}&amp;location={{ location }}"
@@ -27659,6 +27885,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -27933,6 +28162,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -28225,11 +28457,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            <t t-out=\"event_organizer.name or ''\">YourCompany</t>\n"
 "                        </t>\n"
 "                        <t t-else=\"\">\n"
 "                            The <t t-out=\"object.event_id.name or ''\">OpenWood Collection Online Reveal</t> Team\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -28518,6 +28753,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -28807,7 +29045,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                  <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+=======
+"                  <hr width=\"100%\" style=\"background-"
+"color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
+"size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "                  <hr width=\"100%\" style=\"background-"
 "color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
@@ -29385,7 +29629,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <table width=\"590\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
+=======
+"            <table width=\"590\" border=\"0\" cellpadding=\"0\" "
+"cellspacing=\"0\" style=\"min-width: 590px; background-color: white; "
+"padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
+>>>>>>> upstream/18.0
 =======
 "            <table width=\"590\" border=\"0\" cellpadding=\"0\" "
 "cellspacing=\"0\" style=\"min-width: 590px; background-color: white; "
@@ -29960,6 +30210,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                <img src=\"/web_editor/font_to_img/61555/rgb(81,81,102)/34\" style=\"padding:4px;max-width:inherit;\" height=\"34\" alt=\"\"/>\n"
 "                            </td>\n"
 "                            <td style=\"padding: 0px 10px 0px 10px;width:50%;line-height:20px;vertical-align:top;\">\n"
@@ -30012,6 +30263,8 @@ msgid ""
 "                                        <div t-out=\"object.event_id.address_id.country_id.name\">Argentina</div>\n"
 "                                        <t t-set=\"location\" t-valuef=\"{{location}}, {{object.event_id.address_id.country_id.name}}\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -30387,6 +30640,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -30679,7 +30935,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+=======
+"                        <hr width=\"100%\" style=\"background-"
+"color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
+"size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "                        <hr width=\"100%\" style=\"background-"
 "color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
@@ -31257,6 +31519,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            <span style=\"font-weight:300;margin:10px 0px\">Questions about this event?</span>\n"
 "                            <div>Please contact the organizer:</div>\n"
 "                            <ul>\n"
@@ -31267,6 +31530,8 @@ msgid ""
 "                                <t t-if=\"event_organizer.phone\">\n"
 "                                    <li>Phone: <t t-out=\"event_organizer.phone\">+1 650-123-4567</t></li>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -31563,6 +31828,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -31855,7 +32123,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+=======
+"                        <hr width=\"100%\" style=\"background-"
+"color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
+"size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "                        <hr width=\"100%\" style=\"background-"
 "color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
@@ -32433,7 +32707,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            <strong>Get the best mobile experience.</strong>\n"
+=======
+"                            <strong>Get the best mobile experience.</"
+"strong>\n"
+>>>>>>> upstream/18.0
 =======
 "                            <strong>Get the best mobile experience.</"
 "strong>\n"
@@ -32916,7 +33195,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+=======
+"                        <hr width=\"100%\" style=\"background-"
+"color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
+"size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "                        <hr width=\"100%\" style=\"background-"
 "color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
@@ -33495,11 +33780,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                <i class=\"fa fa-map-marker\"/>\n"
 "                                <a t-attf-href=\"https://maps.google.com/maps?q={{ location }}\" target=\"new\">\n"
 "                                    <img t-if=\"event_address.static_map_url and event_address.static_map_url_is_valid\" t-att-src=\"event_address.static_map_url\" style=\"vertical-align:bottom; width: 100%;\" alt=\"Google Maps\"/>\n"
 "                                    <t t-else=\"\">See location on Google Maps</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -33792,6 +34080,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -34090,6 +34381,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <table width=\"590\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"min-width: 590px; background-color: #F1F1F1; color: #454748; padding: 8px; border-collapse:separate;\">\n"
 "        <tr><td style=\"text-align: center; font-size: 14px;\">\n"
 "            Sent by <a target=\"_blank\" t-attf-href=\"{{ object.company_id.website }}\" style=\"color: #875A7B;\" t-out=\"object.company_id.name or ''\">YourCompany</a>\n"
@@ -34097,6 +34389,8 @@ msgid ""
 "                <br/>\n"
 "                Discover <a href=\"/event\" style=\"color:#875A7B;\">all our events</a>.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -34390,6 +34684,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -34686,6 +34983,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"padding-top: 16px; background-color: #F1F1F1; font-family:Verdana, Arial,sans-serif; color: #454748; width: 100%; border-collapse:separate;\"><tr><td align=\"center\">\n"
 "<t t-set=\"date_begin\" t-value=\"format_datetime(object.event_id.date_begin, tz='UTC', dt_format=&quot;yyyyMMdd'T'HHmmss'Z'&quot;)\"/>\n"
 "<t t-set=\"date_end\" t-value=\"format_datetime(object.event_id.date_end, tz='UTC', dt_format=&quot;yyyyMMdd'T'HHmmss'Z'&quot;)\"/>\n"
@@ -34696,6 +34994,8 @@ msgid ""
 "<t t-set=\"registration_ids\" t-value=\"object.ids if not is_sale else object._get_event_registration_ids_from_order()\"/>\n"
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"padding: 16px; background-color: white; color: #454748; border-collapse:separate;\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -34998,6 +35298,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -35286,6 +35589,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <table width=\"590\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
 "                <tr><td valign=\"middle\">\n"
 "                    <span style=\"font-size: 10px;\">Your registration</span><br/>\n"
@@ -35293,6 +35597,8 @@ msgid ""
 "                    <div style=\"margin-bottom: 5px;margin-top: 18px;\">\n"
 "                        <a t-attf-href=\"/event/{{ object.event_id.id }}/my_tickets?registration_ids={{ registration_ids }}&amp;tickets_hash={{ object.event_id._get_tickets_access_hash(registration_ids) }}&amp;responsive_html=1\" target=\"_blank\" style=\"padding: 8px 12px; font-size: 12px; color: #FFFFFF; text-decoration: none !important; font-weight: 400; background-color: #875A7B; border: 0px solid #875A7B; border-radius:3px\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -35591,6 +35897,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -35786,6 +36095,7 @@ msgid ""
 "                </td><td valign=\"middle\" align=\"right\">\n"
 "                    <t t-if=\"object.barcode\">\n"
 "                        <div style=\"margin-bottom: 5px;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -36081,6 +36391,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                            <img t-attf-src=\"/report/barcode/QR/"
 "{{object.barcode}}?&amp;width=100&amp;height=100&amp;quiet=0\" width=\"100\" "
 "height=\"100\" alt=\"QR Code\" t-att-style=\"'height: 100px !important;'\"/"
@@ -36172,6 +36484,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -36454,6 +36769,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -36745,6 +37063,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <table width=\"590\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
 "                <tr><td valign=\"top\" style=\"font-size: 14px;\">\n"
 "                    <div>\n"
@@ -36758,6 +37077,8 @@ msgid ""
 "                        </t>\n"
 "                        is starting <strong t-out=\"object.event_date_range or ''\">today</strong>.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -37059,6 +37380,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -37252,6 +37576,7 @@ msgid ""
 "                    <div>\n"
 "                        <br/>\n"
 "                        <strong>Add this event to your calendar</strong>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -37543,6 +37868,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                        <a t-attf-href=\"https://www.google.com/calendar/"
 "render?action=TEMPLATE&amp;text={{ object.event_id.name }}"
 "&amp;dates={{ date_begin }}/{{ date_end }}&amp;location={{ location }}"
@@ -37626,6 +37953,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -37900,6 +38230,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -38188,6 +38521,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        We confirm your registration and hope to meet you there,<br/>\n"
 "                        <span style=\"color: #454748;\">\n"
 "                        -- <br/>\n"
@@ -38197,6 +38531,8 @@ msgid ""
 "                        <t t-else=\"\">\n"
 "                            The <t t-out=\"object.event_id.name or ''\">OpenWood Collection Online Reveal</t> Team\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -38490,6 +38826,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -38779,7 +39118,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                  <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+=======
+"                  <hr width=\"100%\" style=\"background-"
+"color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
+"size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "                  <hr width=\"100%\" style=\"background-"
 "color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
@@ -39357,7 +39702,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <table width=\"590\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
+=======
+"            <table width=\"590\" border=\"0\" cellpadding=\"0\" "
+"cellspacing=\"0\" style=\"min-width: 590px; background-color: white; "
+"padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
+>>>>>>> upstream/18.0
 =======
 "            <table width=\"590\" border=\"0\" cellpadding=\"0\" "
 "cellspacing=\"0\" style=\"min-width: 590px; background-color: white; "
@@ -39932,6 +40283,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                <img src=\"/web_editor/font_to_img/61555/rgb(81,81,102)/34\" style=\"padding:4px;max-width:inherit;\" height=\"34\" alt=\"\"/>\n"
 "                            </td>\n"
 "                            <td style=\"padding: 0px 10px 0px 10px;width:50%;line-height:20px;vertical-align:top;\">\n"
@@ -39984,6 +40336,8 @@ msgid ""
 "                                        <div t-out=\"object.event_id.address_id.country_id.name or ''\">Argentina</div>\n"
 "                                        <t t-set=\"location\" t-value=\"'%s, %s' % (location, object.event_id.address_id.country_id.name)\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -40360,6 +40714,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -40652,7 +41009,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+=======
+"                        <hr width=\"100%\" style=\"background-"
+"color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
+"size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "                        <hr width=\"100%\" style=\"background-"
 "color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
@@ -41230,6 +41593,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            <span style=\"font-weight:300;margin:10px 0px\">Questions about this event?</span>\n"
 "                            <div>Please contact the organizer:</div>\n"
 "                            <ul>\n"
@@ -41240,6 +41604,8 @@ msgid ""
 "                                <t t-if=\"event_organizer.phone\">\n"
 "                                    <li>Phone: <t t-out=\"event_organizer.phone or ''\"/></li>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -41536,6 +41902,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -41827,8 +42196,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <hr t-if=\"is_online or event_address\" width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -42115,6 +42487,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -42410,8 +42785,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <hr t-if=\"is_online and event_address\" width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -42698,6 +43076,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -42986,6 +43367,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <table t-if=\"event_address and location\" style=\"width:100%;\"><tr><td>\n"
 "                        <div>\n"
 "                            <i class=\"fa fa-map-marker\"/>\n"
@@ -42993,6 +43375,8 @@ msgid ""
 "                                <img t-if=\"event_address.static_map_url and event_address.static_map_url_is_valid\" t-attf-src=\"{{ event_address.static_map_url }}\" style=\"vertical-align:bottom; width: 100%;\" alt=\"Google Maps\"/>\n"
 "                                <span t-else=\"\">See location on Google Maps</span>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -43288,6 +43672,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -43584,6 +43971,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "    <table t-if=\"object.company_id\" width=\"590\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"min-width: 590px; background-color: #F1F1F1; color: #454748; padding: 8px; border-collapse:separate;\">\n"
 "      <tr><td style=\"text-align: center; font-size: 14px;\">\n"
 "        Sent by <a target=\"_blank\" t-attf-href=\"{{ object.company_id.website }}\" style=\"color: #875A7B;\" t-out=\"object.company_id.name or ''\">YourCompany</a>\n"
@@ -43591,6 +43979,8 @@ msgid ""
 "            <br/>\n"
 "            Discover <a href=\"/event\" style=\"color:#875A7B;\">all our events</a>.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -43885,6 +44275,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -44180,6 +44573,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"padding-top: 16px; background-color: #F1F1F1; font-family:Verdana, Arial,sans-serif; color: #454748; width: 100%; border-collapse:separate;\"><tr><td align=\"center\">\n"
 "<t t-set=\"date_begin\" t-value=\"format_datetime(object.event_id.date_begin, tz='UTC', dt_format=&quot;yyyyMMdd'T'HHmmss'Z'&quot;)\"/>\n"
 "<t t-set=\"date_end\" t-value=\"format_datetime(object.event_id.date_end, tz='UTC', dt_format=&quot;yyyyMMdd'T'HHmmss'Z'&quot;)\"/>\n"
@@ -44190,6 +44584,8 @@ msgid ""
 "<t t-set=\"registration_ids\" t-value=\"object.ids if not is_sale else object._get_event_registration_ids_from_order()\"/>\n"
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"padding: 16px; background-color: white; color: #454748; border-collapse:separate;\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -44492,6 +44888,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -44780,10 +45179,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <table width=\"590\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
 "                <tr><td valign=\"middle\">\n"
 "                    <span style=\"font-size: 10px;\">Your registration</span><br/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -45072,6 +45474,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -45360,8 +45765,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <a t-attf-href=\"/event/{{ object.event_id.id }}/my_tickets?registration_ids={{ registration_ids }}&amp;tickets_hash={{ object.event_id._get_tickets_access_hash(registration_ids) }}&amp;responsive_html=1\" target=\"_blank\" style=\"padding: 8px 12px; font-size: 12px; color: #FFFFFF; text-decoration: none !important; font-weight: 400; background-color: #875A7B; border: 0px solid #875A7B; border-radius:3px\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -45651,6 +46059,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -45846,6 +46257,7 @@ msgid ""
 "                </td><td valign=\"middle\" align=\"right\">\n"
 "                    <t t-if=\"object.barcode\"> \n"
 "                        <div style=\"margin-bottom: 5px;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -46141,6 +46553,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                            <img t-attf-src=\"/report/barcode/QR/"
 "{{object.barcode}}?&amp;width=100&amp;height=100&amp;quiet=0\" width=\"100\" "
 "height=\"100\" alt=\"QR Code\" t-att-style=\"'height: 100px !important;'\"/"
@@ -46232,6 +46646,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -46514,6 +46931,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -46805,6 +47225,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <table width=\"590\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
 "                <tr><td valign=\"top\" style=\"font-size: 14px;\">\n"
 "                    <div>\n"
@@ -46819,6 +47240,8 @@ msgid ""
 "                        <t t-if=\"object.partner_id and object.partner_id.name and object.partner_id.name != object.name\">\n"
 "                            This ticket was registered by <t t-out=\"object.partner_id.name\"/>.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -47123,6 +47546,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -47411,6 +47837,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        The order for this ticket has reference <t t-out=\"object.sale_order_id.name\"/>\n"
 "                        and was placed on <t t-out=\"object.sale_order_id.date_order.date()\"/>\n"
 "                        <t t-if=\"object.sale_order_line_id.price_unit\"> for an amount of\n"
@@ -47604,10 +48031,13 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                        The order for this ticket has reference <t t-"
 "out=\"object.sale_order_id.name\"/>\n"
 "                        and was placed on <t t-"
 "out=\"object.sale_order_id.date_order.date()\"/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -47895,6 +48325,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                        <t t-if=\"object.sale_order_line_id.price_total\"> "
 "for an amount of\n"
 "                            <t t-"
@@ -47931,6 +48363,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -47999,6 +48434,7 @@ msgid ""
 "                    <div>\n"
 "                        <br/>\n"
 "                        <strong>Add this event to your calendar</strong>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -48290,6 +48726,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                        <a t-attf-href=\"https://www.google.com/calendar/"
 "render?action=TEMPLATE&amp;text={{ object.event_id.name }}"
 "&amp;dates={{ date_begin }}/{{ date_end }}&amp;location={{ location }}"
@@ -48373,6 +48811,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -48647,6 +49088,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -48939,11 +49383,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            <t t-out=\"event_organizer.name\">YourCompany</t>\n"
 "                        </t>\n"
 "                        <t t-else=\"\">\n"
 "                            The <t t-out=\"object.event_id.name or ''\">OpenWood Collection Online Reveal</t> Team\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -49232,6 +49679,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -49521,7 +49971,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                  <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+=======
+"                  <hr width=\"100%\" style=\"background-"
+"color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
+"size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "                  <hr width=\"100%\" style=\"background-"
 "color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
@@ -50099,7 +50555,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <table width=\"590\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
+=======
+"            <table width=\"590\" border=\"0\" cellpadding=\"0\" "
+"cellspacing=\"0\" style=\"min-width: 590px; background-color: white; "
+"padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
+>>>>>>> upstream/18.0
 =======
 "            <table width=\"590\" border=\"0\" cellpadding=\"0\" "
 "cellspacing=\"0\" style=\"min-width: 590px; background-color: white; "
@@ -50674,6 +51136,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                <img src=\"/web_editor/font_to_img/61555/rgb(81,81,102)/34\" style=\"padding:4px;max-width:inherit;\" height=\"34\" alt=\"\"/>\n"
 "                            </td>\n"
 "                            <td style=\"padding: 0px 10px 0px 10px;width:50%;line-height:20px;vertical-align:top;\">\n"
@@ -50726,6 +51189,8 @@ msgid ""
 "                                        <div t-out=\"object.event_id.address_id.country_id.name\">Argentina</div>\n"
 "                                        <t t-set=\"location\" t-valuef=\"{{location}}, {{object.event_id.address_id.country_id.name}}\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -51101,6 +51566,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -51393,7 +51861,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+=======
+"                        <hr width=\"100%\" style=\"background-"
+"color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
+"size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "                        <hr width=\"100%\" style=\"background-"
 "color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
@@ -51971,6 +52445,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            <span style=\"font-weight:300;margin:10px 0px\">Questions about this event?</span>\n"
 "                            <div>Please contact the organizer:</div>\n"
 "                            <ul>\n"
@@ -51981,6 +52456,8 @@ msgid ""
 "                                <t t-if=\"event_organizer.phone\">\n"
 "                                    <li>Phone: <t t-out=\"event_organizer.phone\">+1 650-123-4567</t></li>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -52277,6 +52754,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -52569,7 +53049,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+=======
+"                        <hr width=\"100%\" style=\"background-"
+"color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
+"size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "                        <hr width=\"100%\" style=\"background-"
 "color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
@@ -53147,7 +53633,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            <strong>Get the best mobile experience.</strong>\n"
+=======
+"                            <strong>Get the best mobile experience.</"
+"strong>\n"
+>>>>>>> upstream/18.0
 =======
 "                            <strong>Get the best mobile experience.</"
 "strong>\n"
@@ -53630,7 +54121,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+=======
+"                        <hr width=\"100%\" style=\"background-"
+"color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
+"size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "                        <hr width=\"100%\" style=\"background-"
 "color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
@@ -54209,11 +54706,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                <i class=\"fa fa-map-marker\"/>\n"
 "                                <a t-attf-href=\"https://maps.google.com/maps?q={{ location }}\" target=\"new\">\n"
 "                                    <img t-if=\"event_address.static_map_url and event_address.static_map_url_is_valid\" t-att-src=\"event_address.static_map_url\" style=\"vertical-align:bottom; width: 100%;\" alt=\"Google Maps\"/>\n"
 "                                    <t t-else=\"\">See location on Google Maps</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -54506,6 +55006,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -54804,6 +55307,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <table width=\"590\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"min-width: 590px; background-color: #F1F1F1; color: #454748; padding: 8px; border-collapse:separate;\">\n"
 "        <tr><td style=\"text-align: center; font-size: 14px;\">\n"
 "            Sent by <a target=\"_blank\" t-attf-href=\"{{ object.company_id.website }}\" style=\"color: #875A7B;\" t-out=\"object.company_id.name or ''\">YourCompany</a>\n"
@@ -54811,6 +55315,8 @@ msgid ""
 "                <br/>\n"
 "                Discover <a href=\"/event\" style=\"color:#875A7B;\">all our events</a>.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -55104,6 +55610,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -55441,7 +55950,11 @@ msgid "A4 foldable"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "A4 zložljivo"
+>>>>>>> upstream/18.0
 =======
 msgstr "A4 zložljivo"
 >>>>>>> upstream/18.0
@@ -55979,8 +56492,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Add a navigation menu to your event web pages with schedule, tracks, a track"
 " proposal form, etc."
+=======
+"Add a navigation menu to your event web pages with schedule, tracks, a track "
+"proposal form, etc."
+>>>>>>> upstream/18.0
 =======
 "Add a navigation menu to your event web pages with schedule, tracks, a track "
 "proposal form, etc."
@@ -56514,7 +57032,11 @@ msgid "Advanced Sponsors"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Napredni sponzorji"
+>>>>>>> upstream/18.0
 =======
 msgstr "Napredni sponzorji"
 >>>>>>> upstream/18.0
@@ -57055,6 +57577,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "Vsa komunikacijska e-poštna sporočila, poslana udeležencem, bodo prevedena v"
 " ta jezik."
@@ -57190,6 +57713,10 @@ msgstr ""
 =======
 "Vsa komunikacijska e-poštna sporočila, poslana udeležencem, bodo prevedena v"
 " ta jezik."
+>>>>>>> upstream/18.0
+=======
+"Vsa komunikacijska e-poštna sporočila, poslana udeležencem, bodo prevedena v "
+"ta jezik."
 >>>>>>> upstream/18.0
 =======
 "Vsa komunikacijska e-poštna sporočila, poslana udeležencem, bodo prevedena v "
@@ -57675,6 +58202,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "And this time, we go fully ONLINE! Meet us in our live streams from the comfort of your house.<br>\n"
 "        Special discount codes will be handed out during the various streams, make sure to be there on time."
 msgstr ""
@@ -58037,6 +58565,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "And this time, we go fully ONLINE! Meet us in our live streams from the "
 "comfort of your house.<br>\n"
 "        Special discount codes will be handed out during the various "
@@ -58140,6 +58670,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -58512,7 +59045,11 @@ msgid "Answer Breakdown"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Razčlenitev odgovorov"
+>>>>>>> upstream/18.0
 =======
 msgstr "Razčlenitev odgovorov"
 >>>>>>> upstream/18.0
@@ -59171,6 +59708,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Približno sto balonov bo hkrati vzletelo in nebo spremenilo v čudovito "
+"barvno platno."
+>>>>>>> upstream/18.0
 =======
 "Približno sto balonov bo hkrati vzletelo in nebo spremenilo v čudovito "
 "barvno platno."
@@ -59827,7 +60369,11 @@ msgid "Ask once per order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vprašajte enkrat na naročilo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vprašajte enkrat na naročilo"
 >>>>>>> upstream/18.0
@@ -60353,6 +60899,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -60713,6 +61260,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Pri komaj 13 letih je Janez Novak že začel razvijati svoje prve poslovne "
 "aplikacije za stranke. Po obvladovanju gradbeništva je ustanovil TinyERP. To "
 "je bila prva faza OpenERP, ki je kasneje postal Odoo, najpogosteje nameščena "
@@ -60811,6 +61360,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -61163,7 +61715,11 @@ msgid "Attendee Answers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odgovori udeležencev"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odgovori udeležencev"
 >>>>>>> upstream/18.0
@@ -61685,7 +62241,11 @@ msgid "Attendee List"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Seznam udeležencev"
+>>>>>>> upstream/18.0
 =======
 msgstr "Seznam udeležencev"
 >>>>>>> upstream/18.0
@@ -62211,7 +62771,11 @@ msgid "Attendee Selection Answers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odgovori za izbor udeležencev"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odgovori za izbor udeležencev"
 >>>>>>> upstream/18.0
@@ -62732,7 +63296,11 @@ msgid "Attendee list"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Seznam udeležencev"
+>>>>>>> upstream/18.0
 =======
 msgstr "Seznam udeležencev"
 >>>>>>> upstream/18.0
@@ -63267,7 +63835,11 @@ msgid "Auto-Print"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Samodejno tiskanje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Samodejno tiskanje"
 >>>>>>> upstream/18.0
@@ -63804,7 +64376,11 @@ msgid "Badge (96x82mm)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Značka (96x82mm)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Značka (96x82mm)"
 >>>>>>> upstream/18.0
@@ -64325,7 +64901,11 @@ msgid "Badge Background"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ozadje značke"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ozadje značke"
 >>>>>>> upstream/18.0
@@ -64846,7 +65426,11 @@ msgid "Badge Dimension"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dimenzija značke"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dimenzija značke"
 >>>>>>> upstream/18.0
@@ -65367,7 +65951,11 @@ msgid "Badge Example"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Primer značke"
+>>>>>>> upstream/18.0
 =======
 msgstr "Primer značke"
 >>>>>>> upstream/18.0
@@ -65860,6 +66448,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Bands like Bar Fighters, Led Slippers and Link Floyd will offer you the show"
 " of the century during our three day event."
 msgstr ""
@@ -66222,6 +66811,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Bands like Bar Fighters, Led Slippers and Link Floyd will offer you the show "
 "of the century during our three day event."
 msgstr ""
@@ -66321,6 +66912,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -66649,7 +67243,11 @@ msgid "Barcode Interface"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vmesnik za črtno kodo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vmesnik za črtno kodo"
 >>>>>>> upstream/18.0
@@ -67175,7 +67773,11 @@ msgid "Barcode should be unique"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Črtna koda mora biti edinstvena"
+>>>>>>> upstream/18.0
 =======
 msgstr "Črtna koda mora biti edinstvena"
 >>>>>>> upstream/18.0
@@ -67717,6 +68319,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Bloem v lesno industrijo prinaša poštenost in resnost, hkrati pa strankam "
+"pomaga pri delu z drevesi, cvetjem in gobami."
+>>>>>>> upstream/18.0
 =======
 "Bloem v lesno industrijo prinaša poštenost in resnost, hkrati pa strankam "
 "pomaga pri delu z drevesi, cvetjem in gobami."
@@ -68378,7 +68985,11 @@ msgid "Booth Management"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Upravljanje stojnic"
+>>>>>>> upstream/18.0
 =======
 msgstr "Upravljanje stojnic"
 >>>>>>> upstream/18.0
@@ -68865,6 +69476,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Bring your outdoor field hockey season to the next level by taking the field"
 " at this 9th annual Field Hockey tournament."
 msgstr ""
@@ -69227,6 +69839,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Bring your outdoor field hockey season to the next level by taking the field "
 "at this 9th annual Field Hockey tournament."
 msgstr ""
@@ -69326,6 +69940,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -69648,7 +70265,11 @@ msgid "Business workshops"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poslovne delavnice"
+>>>>>>> upstream/18.0
 =======
 msgstr "Poslovne delavnice"
 >>>>>>> upstream/18.0
@@ -70192,7 +70813,11 @@ msgid "Cancelled registration"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Preklicana registracija"
+>>>>>>> upstream/18.0
 =======
 msgstr "Preklicana registracija"
 >>>>>>> upstream/18.0
@@ -70718,7 +71343,11 @@ msgid "Category Sequence"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zaporedje kategorij"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zaporedje kategorij"
 >>>>>>> upstream/18.0
@@ -71242,6 +71871,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Zbornica si pridržuje pravico do odpovedi, preimenovanja ali spremembe "
+"lokacije dogodka ali spremembe datumov njegove izvedbe."
+>>>>>>> upstream/18.0
 =======
 "Zbornica si pridržuje pravico do odpovedi, preimenovanja ali spremembe "
 "lokacije dogodka ali spremembe datumov njegove izvedbe."
@@ -71894,6 +72528,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Izberite predlogo za samodejno izpolnjevanje polj za vstopnice, sporočila, "
+"opise in druga polja."
+>>>>>>> upstream/18.0
 =======
 "Izberite predlogo za samodejno izpolnjevanje polj za vstopnice, sporočila, "
 "opise in druga polja."
@@ -72553,7 +73192,11 @@ msgid "Come back once you have registrations to overview answers."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vrnite se, ko boste imeli prijave, da pregledate odgovore."
+>>>>>>> upstream/18.0
 =======
 msgstr "Vrnite se, ko boste imeli prijave, da pregledate odgovore."
 >>>>>>> upstream/18.0
@@ -73103,7 +73746,11 @@ msgid "Come see us live, we hope to meet you!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pridite nas videti v živo, upamo, da se srečamo!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pridite nas videti v živo, upamo, da se srečamo!"
 >>>>>>> upstream/18.0
@@ -73716,7 +74363,11 @@ msgid "Community Chat Rooms"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Klepetalnice skupnosti"
+>>>>>>> upstream/18.0
 =======
 msgstr "Klepetalnice skupnosti"
 >>>>>>> upstream/18.0
@@ -74243,8 +74894,12 @@ msgid "Conferences, workshops and trainings will be organized in 6 rooms:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Konference, delavnice in usposabljanja bodo organizirani v 6-ih sobah:"
+=======
+msgstr "Konference, delavnice in usposabljanja bodo organizirani v 6-ih sobah:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Konference, delavnice in usposabljanja bodo organizirani v 6-ih sobah:"
 >>>>>>> upstream/18.0
@@ -74684,7 +75339,11 @@ msgid "Confirm attendance?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Potrditi udeležbo?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Potrditi udeležbo?"
 >>>>>>> upstream/18.0
@@ -75221,7 +75880,11 @@ msgid "Create Booths and manage their reservations"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ustvarite kabine in upravljajte njihove rezervacije"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ustvarite kabine in upravljajte njihove rezervacije"
 >>>>>>> upstream/18.0
@@ -75747,7 +76410,11 @@ msgid "Create an Event Stage"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ustvarite oder dogodka"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ustvarite oder dogodka"
 >>>>>>> upstream/18.0
@@ -76268,7 +76935,11 @@ msgid "Create an Event Tag Category"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ustvari kategorijo oznak dogodka"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ustvari kategorijo oznak dogodka"
 >>>>>>> upstream/18.0
@@ -76830,7 +77501,11 @@ msgid "Culture"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kultura"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kultura"
 >>>>>>> upstream/18.0
@@ -77419,7 +78094,11 @@ msgid "Date Range"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Datumsko obdobje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Datumsko obdobje"
 >>>>>>> upstream/18.0
@@ -78101,6 +78780,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Določite število razpoložljivih vstopnic. Če imate preveč registracij, "
+"vstopnic ne boste mogli več prodajati. Nastavite 0, da prezrete to pravilo, "
+"ki je nastavljeno kot neomejeno."
+>>>>>>> upstream/18.0
 =======
 "Določite število razpoložljivih vstopnic. Če imate preveč registracij, "
 "vstopnic ne boste mogli več prodajati. Nastavite 0, da prezrete to pravilo, "
@@ -78886,7 +79571,11 @@ msgid "Design Fair Los Angeles"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sejem oblikovanja v Los Angelesu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sejem oblikovanja v Los Angelesu"
 >>>>>>> upstream/18.0
@@ -79407,7 +80096,11 @@ msgid "Discover how to grow a sustainable business with our experts."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odkrijte, kako z našimi strokovnjaki razviti trajnostno podjetje."
+>>>>>>> upstream/18.0
 =======
 msgstr "Odkrijte, kako z našimi strokovnjaki razviti trajnostno podjetje."
 >>>>>>> upstream/18.0
@@ -79935,7 +80628,11 @@ msgid "Discussion Rooms"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Diskusijske sobe"
+>>>>>>> upstream/18.0
 =======
 msgstr "Diskusijske sobe"
 >>>>>>> upstream/18.0
@@ -80474,7 +81171,11 @@ msgid "Display Sponsors and Exhibitors on your event pages"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prikažite sponzorje in razstavljavce na straneh vaših dogodkov"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prikažite sponzorje in razstavljavce na straneh vaših dogodkov"
 >>>>>>> upstream/18.0
@@ -80995,7 +81696,11 @@ msgid "Display Timezone"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prikaz časovnega pasu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prikaz časovnega pasu"
 >>>>>>> upstream/18.0
@@ -81529,6 +82234,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Na tej konferenci vam bo naša ekipa podala podroben pregled naših poslovnih "
+"aplikacij. Spoznali boste vse prednosti njihove uporabe."
+>>>>>>> upstream/18.0
 =======
 "Na tej konferenci vam bo naša ekipa podala podroben pregled naših poslovnih "
 "aplikacij. Spoznali boste vse prednosti njihove uporabe."
@@ -82197,7 +82907,11 @@ msgid "Enable barcode scanning"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Omogoči skeniranje črtnih kod"
+>>>>>>> upstream/18.0
 =======
 msgstr "Omogoči skeniranje črtnih kod"
 >>>>>>> upstream/18.0
@@ -82718,7 +83432,11 @@ msgid "Enable or Disable Event Barcode functionality."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Omogočanje ali onemogočanje funkcionalnosti črtne kode dogodkov."
+>>>>>>> upstream/18.0
 =======
 msgstr "Omogočanje ali onemogočanje funkcionalnosti črtne kode dogodkov."
 >>>>>>> upstream/18.0
@@ -83254,7 +83972,11 @@ msgid "Ended"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Končano"
+>>>>>>> upstream/18.0
 =======
 msgstr "Končano"
 >>>>>>> upstream/18.0
@@ -83776,6 +84498,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Izboljšajte svoje arhitekturno podjetje in izboljšajte strokovne spretnosti."
+>>>>>>> upstream/18.0
 =======
 "Izboljšajte svoje arhitekturno podjetje in izboljšajte strokovne spretnosti."
 >>>>>>> upstream/18.0
@@ -84312,7 +85038,11 @@ msgid "Event Automated Mailing"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Samodejno pošiljanje dogodkov"
+>>>>>>> upstream/18.0
 =======
 msgstr "Samodejno pošiljanje dogodkov"
 >>>>>>> upstream/18.0
@@ -84842,7 +85572,11 @@ msgid "Event Category Tag"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Oznaka kategorije dogodka"
+>>>>>>> upstream/18.0
 =======
 msgstr "Oznaka kategorije dogodka"
 >>>>>>> upstream/18.0
@@ -85368,7 +86102,11 @@ msgid "Event Gamification"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gamifikacija dogodkov"
+>>>>>>> upstream/18.0
 =======
 msgstr "Gamifikacija dogodkov"
 >>>>>>> upstream/18.0
@@ -85905,7 +86643,11 @@ msgid "Event Mail Template Reference"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Referenčna predloga za e-pošto z dogodki"
+>>>>>>> upstream/18.0
 =======
 msgstr "Referenčna predloga za e-pošto z dogodki"
 >>>>>>> upstream/18.0
@@ -86442,7 +87184,11 @@ msgid "Event Question"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vprašanje o dogodku"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vprašanje o dogodku"
 >>>>>>> upstream/18.0
@@ -86963,7 +87709,11 @@ msgid "Event Question Answer"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odgovor na vprašanje o dogodku"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odgovor na vprašanje o dogodku"
 >>>>>>> upstream/18.0
@@ -87492,7 +88242,11 @@ msgid "Event Registration Answer"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odgovor na prijavo na dogodek"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odgovor na prijavo na dogodek"
 >>>>>>> upstream/18.0
@@ -88014,7 +88768,11 @@ msgid "Event Registrations"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prijave na dogodke"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prijave na dogodke"
 >>>>>>> upstream/18.0
@@ -88535,7 +89293,11 @@ msgid "Event Responsible"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odgovorni za dogodek"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odgovorni za dogodek"
 >>>>>>> upstream/18.0
@@ -89074,7 +89836,11 @@ msgid "Event Stage"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Oder dogodka"
+>>>>>>> upstream/18.0
 =======
 msgstr "Oder dogodka"
 >>>>>>> upstream/18.0
@@ -89596,7 +90362,11 @@ msgid "Event Stages"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odri dogodka"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odri dogodka"
 >>>>>>> upstream/18.0
@@ -90149,7 +90919,11 @@ msgid "Event Template Ticket"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Predloga vstopnice za dogodek"
+>>>>>>> upstream/18.0
 =======
 msgstr "Predloga vstopnice za dogodek"
 >>>>>>> upstream/18.0
@@ -90670,7 +91444,11 @@ msgid "Event Template Tickets"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Predloga za vstopnice za dogodke"
+>>>>>>> upstream/18.0
 =======
 msgstr "Predloga za vstopnice za dogodke"
 >>>>>>> upstream/18.0
@@ -91193,7 +91971,11 @@ msgid "Event Templates"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Predloge dogodkov"
+>>>>>>> upstream/18.0
 =======
 msgstr "Predloge dogodkov"
 >>>>>>> upstream/18.0
@@ -91586,6 +92368,7 @@ msgstr "Predloge dogodkov"
 #: model_terms:ir.actions.act_window,help:event.action_event_type
 msgid ""
 "Event Templates combine configurations you use often and are\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -92077,6 +92860,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                usually based on the types of events you organize (e.g. "
 "\"Workshop\",\n"
 "                \"Roadshow\", \"Online Webinar\", etc)."
@@ -92179,6 +92964,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -92513,7 +93301,11 @@ msgid "Event registrations"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prijave na dogodke"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prijave na dogodke"
 >>>>>>> upstream/18.0
@@ -93037,6 +93829,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Faze dogodka se uporabljajo za sledenje napredka dogodka od njegovega "
+"začetka do konca."
+>>>>>>> upstream/18.0
 =======
 "Faze dogodka se uporabljajo za sledenje napredka dogodka od njegovega "
 "začetka do konca."
@@ -93696,7 +94493,11 @@ msgid "Event: Registration Badge"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dogodek: Registracijska značka"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dogodek: Registracijska značka"
 >>>>>>> upstream/18.0
@@ -94217,7 +95018,11 @@ msgid "Event: Registration Confirmation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dogodek: Potrditev registracije"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dogodek: Potrditev registracije"
 >>>>>>> upstream/18.0
@@ -94761,7 +95566,11 @@ msgid "Events Stage"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Oder dogodkov"
+>>>>>>> upstream/18.0
 =======
 msgstr "Oder dogodkov"
 >>>>>>> upstream/18.0
@@ -95285,6 +96094,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Dogodki bodo samodejno premaknjeni na to stopnjo, ko bodo končani. Dogodek, "
+"premaknjen na to stopnjo, bo samodejno označen z zeleno barvo."
+>>>>>>> upstream/18.0
 =======
 "Dogodki bodo samodejno premaknjeni na to stopnjo, ko bodo končani. Dogodek, "
 "premaknjen na to stopnjo, bo samodejno označen z zeleno barvo."
@@ -95902,6 +96716,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Every year we invite our community, partners and end-users to come and meet us! It's the ideal event to get together and present new features, roadmap of future versions, achievements of the software, workshops, training sessions, etc...\n"
 "            This event is also an opportunity to showcase our partners' case studies, methodology or developments. Be there and see directly from the source the features of the new version!"
 msgstr ""
@@ -96264,6 +97079,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Every year we invite our community, partners and end-users to come and meet "
 "us! It's the ideal event to get together and present new features, roadmap "
 "of future versions, achievements of the software, workshops, training "
@@ -96373,6 +97190,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -96700,7 +97520,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -97089,6 +97912,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -97484,7 +98310,11 @@ msgid "Experience live music, local food and beverages."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Doživite živo glasbo, lokalno hrano in pijačo."
+>>>>>>> upstream/18.0
 =======
 msgstr "Doživite živo glasbo, lokalno hrano in pijačo."
 >>>>>>> upstream/18.0
@@ -98008,6 +98838,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Končani dogodki. Odoo jih bo samodejno premaknil na to stopnjo, ko bo minil "
+"njihov končni datum."
+>>>>>>> upstream/18.0
 =======
 "Končani dogodki. Odoo jih bo samodejno premaknil na to stopnjo, ko bo minil "
 "njihov končni datum."
@@ -98699,7 +99534,11 @@ msgid "For only 10, you gain access to catering. Yum yum."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Za samo 10 dobite dostop do cateringa. Njami njami."
+>>>>>>> upstream/18.0
 =======
 msgstr "Za samo 10 dobite dostop do cateringa. Njami njami."
 >>>>>>> upstream/18.0
@@ -99188,8 +100027,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Spodbujanje interakcij med udeleženci z ustvarjanjem virtualnih konferenčnih"
 " sob"
+=======
+"Spodbujanje interakcij med udeleženci z ustvarjanjem virtualnih konferenčnih "
+"sob"
+>>>>>>> upstream/18.0
 =======
 "Spodbujanje interakcij med udeleženci z ustvarjanjem virtualnih konferenčnih "
 "sob"
@@ -99708,7 +100552,11 @@ msgid "Free entrance, no food!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vstop prost, hrane ni!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vstop prost, hrane ni!"
 >>>>>>> upstream/18.0
@@ -100229,7 +101077,11 @@ msgid "Freshly created"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sveže ustvarjeno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sveže ustvarjeno"
 >>>>>>> upstream/18.0
@@ -100717,6 +101569,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "From this dashboard you can report, analyze and detect trends regarding your"
 " event registrations."
 msgstr ""
@@ -101079,6 +101932,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "From this dashboard you can report, analyze and detect trends regarding your "
 "event registrations."
 msgstr ""
@@ -101178,6 +102033,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -101505,7 +102363,11 @@ msgid "Full Page Ticket Example"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Primer celostranske vstopnice"
+>>>>>>> upstream/18.0
 =======
 msgstr "Primer celostranske vstopnice"
 >>>>>>> upstream/18.0
@@ -102026,7 +102888,11 @@ msgid "Functional flow of the main applications;"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Funkcionalni potek glavnih aplikacij;"
+>>>>>>> upstream/18.0
 =======
 msgstr "Funkcionalni potek glavnih aplikacij;"
 >>>>>>> upstream/18.0
@@ -102553,7 +103419,11 @@ msgid "General Admission"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Splošna vstopnina"
+>>>>>>> upstream/18.0
 =======
 msgstr "Splošna vstopnina"
 >>>>>>> upstream/18.0
@@ -103074,7 +103944,11 @@ msgid "General Questions"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Splošna vprašanja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Splošna vprašanja"
 >>>>>>> upstream/18.0
@@ -103595,7 +104469,11 @@ msgid "Get Inspired • Stay Connected • Have Fun"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poiščite navdih • Ostanite povezani • Zabavajte se"
+>>>>>>> upstream/18.0
 =======
 msgstr "Poiščite navdih • Ostanite povezani • Zabavajte se"
 >>>>>>> upstream/18.0
@@ -104116,7 +104994,11 @@ msgid "Global communication Status"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Status globalne komunikacije"
+>>>>>>> upstream/18.0
 =======
 msgstr "Status globalne komunikacije"
 >>>>>>> upstream/18.0
@@ -104642,7 +105524,11 @@ msgid "Google Maps API key"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ključ API-ja za Google Zemljevide"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ključ API-ja za Google Zemljevide"
 >>>>>>> upstream/18.0
@@ -105163,7 +106049,11 @@ msgid "Google Maps API secret"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Skrivnost API-ja za Google Zemljevide"
+>>>>>>> upstream/18.0
 =======
 msgstr "Skrivnost API-ja za Google Zemljevide"
 >>>>>>> upstream/18.0
@@ -105684,7 +106574,11 @@ msgid "Google Maps static API"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Statični API za Google Zemljevide"
+>>>>>>> upstream/18.0
 =======
 msgstr "Statični API za Google Zemljevide"
 >>>>>>> upstream/18.0
@@ -106205,7 +107099,11 @@ msgid "Great Reno Ballon Race"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Velika dirka balonov v Renu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Velika dirka balonov v Renu"
 >>>>>>> upstream/18.0
@@ -106726,7 +107624,11 @@ msgid "Great! Now all you have to do is wait for your attendees to show up!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odlično! Zdaj morate le še počakati, da se vaši udeleženci pojavijo!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odlično! Zdaj morate le še počakati, da se vaši udeleženci pojavijo!"
 >>>>>>> upstream/18.0
@@ -107264,7 +108166,11 @@ msgid "Guest #"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gost #"
+>>>>>>> upstream/18.0
 =======
 msgstr "Gost #"
 >>>>>>> upstream/18.0
@@ -107811,7 +108717,11 @@ msgid "Happy to be Sponsor"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vesel sem, da sem sponzor"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vesel sem, da sem sponzor"
 >>>>>>> upstream/18.0
@@ -108410,7 +109320,11 @@ msgid "Having attended this conference, participants should be able to:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Po udeležbi na tej konferenci bi morali biti udeleženci sposobni:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Po udeležbi na tej konferenci bi morali biti udeleženci sposobni:"
 >>>>>>> upstream/18.0
@@ -108931,7 +109845,11 @@ msgid "Here it is, the 12th edition of our Live Musical Festival!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tukaj je, 12. izdaja našega festivala glasbe v živo!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tukaj je, 12. izdaja našega festivala glasbe v živo!"
 >>>>>>> upstream/18.0
@@ -109452,7 +110370,11 @@ msgid "Hockey Tournament"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hokejski turnir"
+>>>>>>> upstream/18.0
 =======
 msgstr "Hokejski turnir"
 >>>>>>> upstream/18.0
@@ -110030,7 +110952,11 @@ msgid "Icon Selection"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izbira ikone"
+>>>>>>> upstream/18.0
 =======
 msgstr "Izbira ikone"
 >>>>>>> upstream/18.0
@@ -110561,6 +111487,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Če je vrednost Resnična, bo to vprašanje zastavljeno samo enkrat in njegova "
+"vrednost bo posredovana vsem udeležencem. Če ni, bo zastavljeno vsem "
+"udeležencem rezervacije."
+>>>>>>> upstream/18.0
 =======
 "Če je vrednost Resnična, bo to vprašanje zastavljeno samo enkrat in njegova "
 "vrednost bo posredovana vsem udeležencem. Če ni, bo zastavljeno vsem "
@@ -111355,6 +112287,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "Če se uporablja prodaja vstopnic, vsebuje najzgodnejši datum začetka prodaje"
 " vstopnic."
@@ -111490,6 +112423,10 @@ msgstr ""
 =======
 "Če se uporablja prodaja vstopnic, vsebuje najzgodnejši datum začetka prodaje"
 " vstopnic."
+>>>>>>> upstream/18.0
+=======
+"Če se uporablja prodaja vstopnic, vsebuje najzgodnejši datum začetka prodaje "
+"vstopnic."
 >>>>>>> upstream/18.0
 =======
 "Če se uporablja prodaja vstopnic, vsebuje najzgodnejši datum začetka prodaje "
@@ -112004,7 +112941,11 @@ msgid "If you don't have this ticket, you will <b>not</b> be allowed entry!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Če te vstopnice nimate, vam vstop <b>ni</b> dovoljen!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Če te vstopnice nimate, vam vstop <b>ni</b> dovoljen!"
 >>>>>>> upstream/18.0
@@ -112491,6 +113432,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If you don't know anything about Hockey, this is a great introduction to this wonderful sport as you will will be able to see some training process and also have some time\n"
 "                to chat with experienced players and trainers once the tournament is over!"
 msgstr ""
@@ -112853,6 +113795,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "If you don't know anything about Hockey, this is a great introduction to "
 "this wonderful sport as you will will be able to see some training process "
 "and also have some time\n"
@@ -112957,6 +113901,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -113305,6 +114252,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Označuje časovni pas, v katerem bodo datumi/uri dogodkov prikazani na "
+"spletni strani."
+>>>>>>> upstream/18.0
 =======
 "Označuje časovni pas, v katerem bodo datumi/uri dogodkov prikazani na "
 "spletni strani."
@@ -113954,7 +114906,11 @@ msgid "Insert dynamic Google Maps in your email templates"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "V predloge e-poštnih sporočil vstavite dinamične Google Zemljevide"
+>>>>>>> upstream/18.0
 =======
 msgstr "V predloge e-poštnih sporočil vstavite dinamične Google Zemljevide"
 >>>>>>> upstream/18.0
@@ -114487,7 +115443,11 @@ msgid "Introduction, CRM, Sales Management"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Uvod, CRM, Upravljanje prodaje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Uvod, CRM, Upravljanje prodaje"
 >>>>>>> upstream/18.0
@@ -115009,7 +115969,11 @@ msgid "Invalid event / ticket choice"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Neveljavna izbira dogodka/vstopnice"
+>>>>>>> upstream/18.0
 =======
 msgstr "Neveljavna izbira dogodka/vstopnice"
 >>>>>>> upstream/18.0
@@ -115531,7 +116495,11 @@ msgid "Invalid ticket"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Neveljavna vozovnica"
+>>>>>>> upstream/18.0
 =======
 msgstr "Neveljavna vozovnica"
 >>>>>>> upstream/18.0
@@ -116093,7 +117061,11 @@ msgid "John Doe"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Janez Novak"
+>>>>>>> upstream/18.0
 =======
 msgstr "Janez Novak"
 >>>>>>> upstream/18.0
@@ -116614,7 +117586,11 @@ msgid "Join us for the greatest ballon race of all times!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pridružite se nam na največji balonski dirki vseh časov!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pridružite se nam na največji balonski dirki vseh časov!"
 >>>>>>> upstream/18.0
@@ -117162,7 +118138,11 @@ msgid "Kanban State Label"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Oznaka stanja Kanban"
+>>>>>>> upstream/18.0
 =======
 msgstr "Oznaka stanja Kanban"
 >>>>>>> upstream/18.0
@@ -117703,7 +118683,11 @@ msgid "Last Attendee"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zadnji udeleženec"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zadnji udeleženec"
 >>>>>>> upstream/18.0
@@ -118280,7 +119264,11 @@ msgid "Limit Registrations"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Omeji registracije"
+>>>>>>> upstream/18.0
 =======
 msgstr "Omeji registracije"
 >>>>>>> upstream/18.0
@@ -118806,7 +119794,11 @@ msgid "Live Broadcast"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prenos v živo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prenos v živo"
 >>>>>>> upstream/18.0
@@ -119327,7 +120319,11 @@ msgid "Live Mode"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Način v živo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Način v živo"
 >>>>>>> upstream/18.0
@@ -119848,7 +120844,11 @@ msgid "Live Music Festival"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Festival žive glasbe"
+>>>>>>> upstream/18.0
 =======
 msgstr "Festival žive glasbe"
 >>>>>>> upstream/18.0
@@ -120408,7 +121408,11 @@ msgid "Manage & publish a schedule with tracks"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Upravljanje in objavljanje urnika s skladbami"
+>>>>>>> upstream/18.0
 =======
 msgstr "Upravljanje in objavljanje urnika s skladbami"
 >>>>>>> upstream/18.0
@@ -120966,7 +121970,11 @@ msgid "Mandatory"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Obvezno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Obvezno"
 >>>>>>> upstream/18.0
@@ -121650,7 +122658,11 @@ msgid "Marc Demo"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Marc Demo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Marc Demo"
 >>>>>>> upstream/18.0
@@ -122321,7 +123333,11 @@ msgid "Mark as Attending"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Označi kot udeleženca"
+>>>>>>> upstream/18.0
 =======
 msgstr "Označi kot udeleženca"
 >>>>>>> upstream/18.0
@@ -122859,7 +123875,11 @@ msgid "Maximum Registrations"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Največje število registracij"
+>>>>>>> upstream/18.0
 =======
 msgstr "Največje število registracij"
 >>>>>>> upstream/18.0
@@ -123502,7 +124522,11 @@ msgid "No Answers yet!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Še ni odgovorov!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Še ni odgovorov!"
 >>>>>>> upstream/18.0
@@ -124131,7 +125155,11 @@ msgid "No Attendees expected yet!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Udeleženci še niso pričakovali!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Udeleženci še niso pričakovali!"
 >>>>>>> upstream/18.0
@@ -124702,7 +125730,11 @@ msgid "Number of Registrations"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Število registracij"
+>>>>>>> upstream/18.0
 =======
 msgstr "Število registracij"
 >>>>>>> upstream/18.0
@@ -125223,7 +126255,11 @@ msgid "Number of Taken Seats"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Število zasedenih sedežev"
+>>>>>>> upstream/18.0
 =======
 msgstr "Število zasedenih sedežev"
 >>>>>>> upstream/18.0
@@ -125767,7 +126803,11 @@ msgid "Odoo Community Days"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dnevi skupnosti Odoo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dnevi skupnosti Odoo"
 >>>>>>> upstream/18.0
@@ -126294,7 +127334,11 @@ msgid "Once per Order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Enkrat na naročilo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Enkrat na naročilo"
 >>>>>>> upstream/18.0
@@ -126826,7 +127870,11 @@ msgid "Online Event"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Spletni dogodek"
+>>>>>>> upstream/18.0
 =======
 msgstr "Spletni dogodek"
 >>>>>>> upstream/18.0
@@ -127347,7 +128395,11 @@ msgid "Online Exhibitors"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Spletni razstavljavci"
+>>>>>>> upstream/18.0
 =======
 msgstr "Spletni razstavljavci"
 >>>>>>> upstream/18.0
@@ -127873,7 +128925,11 @@ msgid "Online if not set"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Na spletu, če ni nastavljeno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Na spletu, če ni nastavljeno"
 >>>>>>> upstream/18.0
@@ -128396,6 +129452,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Odpri izbirnik datumskega obdobja.<br/>Izberite začetni in končni datum za "
+"vaš dogodek."
+>>>>>>> upstream/18.0
 =======
 "Odpri izbirnik datumskega obdobja.<br/>Izberite začetni in končni datum za "
 "vaš dogodek."
@@ -129011,6 +130072,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "OpenElec Applications reserves the right to cancel, re-name or re-locate the"
 " event or change the dates on which it is held."
 msgstr ""
@@ -129373,6 +130435,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "OpenElec Applications reserves the right to cancel, re-name or re-locate the "
 "event or change the dates on which it is held."
 msgstr ""
@@ -129472,6 +130536,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -129794,7 +130861,11 @@ msgid "OpenWood Collection Online Reveal"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Spletna predstavitev zbirke OpenWood"
+>>>>>>> upstream/18.0
 =======
 msgstr "Spletna predstavitev zbirke OpenWood"
 >>>>>>> upstream/18.0
@@ -130340,6 +131411,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Preglasi privzeto vrednost, prikazano za blokirano stanje za izbiro kanbana."
+>>>>>>> upstream/18.0
 =======
 "Preglasi privzeto vrednost, prikazano za blokirano stanje za izbiro kanbana."
 >>>>>>> upstream/18.0
@@ -130732,6 +131807,7 @@ msgstr ""
 #: model:ir.model.fields,help:event.field_event_event__legend_done
 #: model:ir.model.fields,help:event.field_event_stage__legend_done
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -131441,6 +132517,11 @@ msgstr ""
 msgstr ""
 "Preglasi privzeto vrednost, prikazano za stanje »končano« za izbiro kanbana."
 >>>>>>> upstream/18.0
+=======
+"Override the default value displayed for the done state for kanban selection."
+msgstr ""
+"Preglasi privzeto vrednost, prikazano za stanje »končano« za izbiro kanbana."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,help:event.field_event_event__legend_normal
@@ -131578,6 +132659,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Preglasi privzeto vrednost, prikazano za normalno stanje za izbiro kanbana."
+>>>>>>> upstream/18.0
 =======
 "Preglasi privzeto vrednost, prikazano za normalno stanje za izbiro kanbana."
 >>>>>>> upstream/18.0
@@ -132116,7 +133201,11 @@ msgid "Phone number"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Telefonska številka"
+>>>>>>> upstream/18.0
 =======
 msgstr "Telefonska številka"
 >>>>>>> upstream/18.0
@@ -132644,7 +133733,11 @@ msgid "Please enter a valid base64 secret"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vnesite veljaven skrivni kod base64"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vnesite veljaven skrivni kod base64"
 >>>>>>> upstream/18.0
@@ -133196,7 +134289,11 @@ msgid "Please, Scan again!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prosim, skenirajte še enkrat!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prosim, skenirajte še enkrat!"
 >>>>>>> upstream/18.0
@@ -133807,7 +134904,11 @@ msgid "Point of Sale (POS), Introduction to report customization."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prodajno mesto (POS), uvod v prilagajanje poročil."
+>>>>>>> upstream/18.0
 =======
 msgstr "Prodajno mesto (POS), uvod v prilagajanje poročil."
 >>>>>>> upstream/18.0
@@ -134350,7 +135451,11 @@ msgid "Purchase, Sales &amp; Purchase management, Financial accounting."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nabava, prodaja in upravljanje nabave, finančno računovodstvo."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nabava, prodaja in upravljanje nabave, finančno računovodstvo."
 >>>>>>> upstream/18.0
@@ -134924,7 +136029,11 @@ msgid "QR Code"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "QR Koda"
+>>>>>>> upstream/18.0
 =======
 msgstr "QR Koda"
 >>>>>>> upstream/18.0
@@ -135604,7 +136713,11 @@ msgid "Question Type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vrsta vprašanja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vrsta vprašanja"
 >>>>>>> upstream/18.0
@@ -136126,7 +137239,11 @@ msgid "Question cannot be linked to both an Event and an Event Type."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vprašanja ni mogoče povezati z dogodkom in vrsto dogodka hkrati."
+>>>>>>> upstream/18.0
 =======
 msgstr "Vprašanja ni mogoče povezati z dogodkom in vrsto dogodka hkrati."
 >>>>>>> upstream/18.0
@@ -136656,7 +137773,11 @@ msgid "Quiz on Tracks"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kviz o tirnicah"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kviz o tirnicah"
 >>>>>>> upstream/18.0
@@ -137196,6 +138317,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ste pripravljeni <b>organizirati dogodke</b> v nekaj minutah? Pa začnimo!"
+>>>>>>> upstream/18.0
 =======
 "Ste pripravljeni <b>organizirati dogodke</b> v nekaj minutah? Pa začnimo!"
 >>>>>>> upstream/18.0
@@ -137752,7 +138877,11 @@ msgid "Registration Desk"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Registracijska miza"
+>>>>>>> upstream/18.0
 =======
 msgstr "Registracijska miza"
 >>>>>>> upstream/18.0
@@ -138273,7 +139402,11 @@ msgid "Registration End"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Konec registracije"
+>>>>>>> upstream/18.0
 =======
 msgstr "Konec registracije"
 >>>>>>> upstream/18.0
@@ -138794,7 +139927,11 @@ msgid "Registration ID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ID registracije"
+>>>>>>> upstream/18.0
 =======
 msgstr "ID registracije"
 >>>>>>> upstream/18.0
@@ -139325,7 +140462,11 @@ msgid "Registration Properties"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Lastnosti registracije"
+>>>>>>> upstream/18.0
 =======
 msgstr "Lastnosti registracije"
 >>>>>>> upstream/18.0
@@ -139846,7 +140987,11 @@ msgid "Registration Start"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Začetek registracije"
+>>>>>>> upstream/18.0
 =======
 msgstr "Začetek registracije"
 >>>>>>> upstream/18.0
@@ -140368,7 +141513,11 @@ msgid "Registration for %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Registracija za %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Registracija za %s"
 >>>>>>> upstream/18.0
@@ -140889,7 +142038,11 @@ msgid "Registration mail"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Registracijska pošta"
+>>>>>>> upstream/18.0
 =======
 msgstr "Registracijska pošta"
 >>>>>>> upstream/18.0
@@ -141410,7 +142563,11 @@ msgid "Registration open"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Registracija odprta"
+>>>>>>> upstream/18.0
 =======
 msgstr "Registracija odprta"
 >>>>>>> upstream/18.0
@@ -141931,7 +143088,11 @@ msgid "Registration statistics"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Statistika registracij"
+>>>>>>> upstream/18.0
 =======
 msgstr "Statistika registracij"
 >>>>>>> upstream/18.0
@@ -142462,7 +143623,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -142851,6 +144015,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -143241,7 +144408,11 @@ msgid "Registrations started"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prijave so se začele"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prijave so se začele"
 >>>>>>> upstream/18.0
@@ -143795,7 +144966,11 @@ msgid "Responsive Html Full Page Ticket"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odziven HTML celostranski obrazec za vstopnice"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odziven HTML celostranski obrazec za vstopnice"
 >>>>>>> upstream/18.0
@@ -144316,7 +145491,11 @@ msgid "Rue de la Paix 123"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Rue de la Paix 123"
+>>>>>>> upstream/18.0
 =======
 msgstr "Rue de la Paix 123"
 >>>>>>> upstream/18.0
@@ -144849,7 +146028,11 @@ msgid "Scan or Tap"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Skeniraj ali tapni"
+>>>>>>> upstream/18.0
 =======
 msgstr "Skeniraj ali tapni"
 >>>>>>> upstream/18.0
@@ -145399,7 +146582,11 @@ msgid "Scheduler Emails"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "E-poštna sporočila razporejevalnika"
+>>>>>>> upstream/18.0
 =======
 msgstr "E-poštna sporočila razporejevalnika"
 >>>>>>> upstream/18.0
@@ -145920,7 +147107,11 @@ msgid "Seasoned Hockey Fans and curious people, this tournament is for you!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izkušeni ljubitelji hokeja in radovedneži, ta turnir je za vas!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Izkušeni ljubitelji hokeja in radovedneži, ta turnir je za vas!"
 >>>>>>> upstream/18.0
@@ -146474,7 +147665,11 @@ msgid "Secret"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Skrivnost"
+>>>>>>> upstream/18.0
 =======
 msgstr "Skrivnost"
 >>>>>>> upstream/18.0
@@ -147095,7 +148290,11 @@ msgid "Select Attendee"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izberite udeleženca"
+>>>>>>> upstream/18.0
 =======
 msgstr "Izberite udeleženca"
 >>>>>>> upstream/18.0
@@ -147617,7 +148816,11 @@ msgid "Select printer..."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izberite tiskalnik ..."
+>>>>>>> upstream/18.0
 =======
 msgstr "Izberite tiskalnik ..."
 >>>>>>> upstream/18.0
@@ -148138,7 +149341,11 @@ msgid "Selected answer"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izbrani odgovor"
+>>>>>>> upstream/18.0
 =======
 msgstr "Izbrani odgovor"
 >>>>>>> upstream/18.0
@@ -148669,7 +149876,11 @@ msgid "Sell tickets with Point of Sale"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prodaja vstopnic prek prodajnega mesta"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prodaja vstopnic prek prodajnega mesta"
 >>>>>>> upstream/18.0
@@ -149110,8 +150321,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 " Če je v dogodku določen opomnik, se le ta samodejno pošlje udeležencem"
+=======
+msgstr "Če je v dogodku določen opomnik, se le ta samodejno pošlje udeležencem"
+>>>>>>> upstream/18.0
 =======
 msgstr "Če je v dogodku določen opomnik, se le ta samodejno pošlje udeležencem"
 >>>>>>> upstream/18.0
@@ -149320,7 +150535,11 @@ msgid "Sent automatically to someone after they registered to an event"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Samodejno poslano nekomu po prijavi na dogodek"
+>>>>>>> upstream/18.0
 =======
 msgstr "Samodejno poslano nekomu po prijavi na dogodek"
 >>>>>>> upstream/18.0
@@ -149841,7 +151060,11 @@ msgid "Sent to attendees after registering to an event"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poslano udeležencem po prijavi na dogodek"
+>>>>>>> upstream/18.0
 =======
 msgstr "Poslano udeležencem po prijavi na dogodek"
 >>>>>>> upstream/18.0
@@ -150383,6 +151606,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Pohištvo Shangai Pterocarpus v lesno industrijo prinaša poštenost in "
+"resnost, hkrati pa strankam pomaga pri delu z drevesi, cvetjem in glivami."
+>>>>>>> upstream/18.0
 =======
 "Pohištvo Shangai Pterocarpus v lesno industrijo prinaša poštenost in "
 "resnost, hkrati pa strankam pomaga pri delu z drevesi, cvetjem in glivami."
@@ -151051,7 +152279,11 @@ msgid "Specific Questions"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Specifična vprašanja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Specifična vprašanja"
 >>>>>>> upstream/18.0
@@ -151584,7 +152816,11 @@ msgid "Stage Description and Tooltips"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Opis stopnje in opisi orodij"
+>>>>>>> upstream/18.0
 =======
 msgstr "Opis stopnje in opisi orodij"
 >>>>>>> upstream/18.0
@@ -152134,7 +153370,11 @@ msgid "Start sale date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Datum začetka prodaje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Datum začetka prodaje"
 >>>>>>> upstream/18.0
@@ -152656,7 +153896,11 @@ msgid "Static Map Url"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "URL statičnega zemljevida"
+>>>>>>> upstream/18.0
 =======
 msgstr "URL statičnega zemljevida"
 >>>>>>> upstream/18.0
@@ -153178,7 +154422,11 @@ msgid "Static Map Url Is Valid"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "URL statičnega zemljevida je veljaven"
+>>>>>>> upstream/18.0
 =======
 msgstr "URL statičnega zemljevida je veljaven"
 >>>>>>> upstream/18.0
@@ -153725,7 +154973,11 @@ msgid "Successfully registered!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Uspešno registrirano!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Uspešno registrirano!"
 >>>>>>> upstream/18.0
@@ -154254,6 +155506,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Barva oznake. Če ni barve, se ne prikaže v kanbanu ali vmesniku, da se "
+"ločijo interne oznake od javnih oznak za kategorizacijo."
+>>>>>>> upstream/18.0
 =======
 "Barva oznake. Če ni barve, se ne prikaže v kanbanu ali vmesniku, da se "
 "ločijo interne oznake od javnih oznak za kategorizacijo."
@@ -154911,7 +156168,11 @@ msgid "Taken"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Posneto"
+>>>>>>> upstream/18.0
 =======
 msgstr "Posneto"
 >>>>>>> upstream/18.0
@@ -155432,7 +156693,11 @@ msgid "Taken Seats"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zasedeni sedeži"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zasedeni sedeži"
 >>>>>>> upstream/18.0
@@ -155975,7 +157240,11 @@ msgid "Text Input"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vnos besedila"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vnos besedila"
 >>>>>>> upstream/18.0
@@ -156470,8 +157739,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The Great Rano Balloon Race  je največji brezplačni dogodek z baloni na vroč"
 " zrak na svetu."
+=======
+"The Great Rano Balloon Race  je največji brezplačni dogodek z baloni na vroč "
+"zrak na svetu."
+>>>>>>> upstream/18.0
 =======
 "The Great Rano Balloon Race  je največji brezplačni dogodek z baloni na vroč "
 "zrak na svetu."
@@ -156997,6 +158271,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Najboljši aeronavti sveta se bodo zbrali na tem dogodku, da bi vam ponudili "
+"najbolj spektakularen šov."
+>>>>>>> upstream/18.0
 =======
 "Najboljši aeronavti sveta se bodo zbrali na tem dogodku, da bi vam ponudili "
 "najbolj spektakularen šov."
@@ -157647,7 +158926,11 @@ msgid "The closing date cannot be earlier than the beginning date."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Končni datum ne more biti pred začetnim datumom."
+>>>>>>> upstream/18.0
 =======
 msgstr "Končni datum ne more biti pred začetnim datumom."
 >>>>>>> upstream/18.0
@@ -158181,6 +159464,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Dogodek je razprodan, če na njem ni več na voljo nobenih sedežev. Če se "
+"uporabi prodaja vstopnic in so vse vstopnice razprodane, bo dogodek "
+"razprodan."
+>>>>>>> upstream/18.0
 =======
 "Dogodek je razprodan, če na njem ni več na voljo nobenih sedežev. Če se "
 "uporabi prodaja vstopnic in so vse vstopnice razprodane, bo dogodek "
@@ -158961,7 +160250,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Najboljše pohištvo OpenWood prihaja v vaš dom v povsem novi kolekciji"
+>>>>>>> upstream/18.0
 =======
 msgstr "Najboljše pohištvo OpenWood prihaja v vaš dom v povsem novi kolekciji"
 >>>>>>> upstream/18.0
@@ -159354,6 +160647,7 @@ msgstr "Najboljše pohištvo OpenWood prihaja v vaš dom v povsem novi kolekciji
 #. odoo-python
 #: code:addons/event/models/event_ticket.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -159811,6 +161105,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "The following tickets cannot be deleted while they have one or more "
 "registrations linked to them:\n"
 "- %s"
@@ -159912,6 +161208,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -160234,7 +161533,11 @@ msgid "The safety of our attendees and our aeronauts comes first!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Varnost naših udeležencev in naših letalcev je na prvem mestu!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Varnost naših udeležencev in naših letalcev je na prvem mestu!"
 >>>>>>> upstream/18.0
@@ -160722,6 +162025,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The stop date cannot be earlier than the start date. Please check ticket "
 "%(ticket_name)s"
 msgstr ""
@@ -161084,6 +162388,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "The stop date cannot be earlier than the start date. Please check ticket %"
 "(ticket_name)s"
 msgstr ""
@@ -161183,6 +162489,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -161512,7 +162821,11 @@ msgid "There must be a suggested value or a text value."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Obstajati mora predlagana vrednost ali besedilna vrednost."
+>>>>>>> upstream/18.0
 =======
 msgstr "Obstajati mora predlagana vrednost ali besedilna vrednost."
 >>>>>>> upstream/18.0
@@ -162037,6 +163350,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ta dogodek je tudi priložnost za predstavitev študij primerov, metodologije "
+"ali razvoja naših partnerjev. Bodite tam in si neposredno od vira oglejte "
+"funkcije različice 12!"
+>>>>>>> upstream/18.0
 =======
 "Ta dogodek je tudi priložnost za predstavitev študij primerov, metodologije "
 "ali razvoja naših partnerjev. Bodite tam in si neposredno od vira oglejte "
@@ -162781,6 +164100,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This event is fully online and FREE, if you have paid for tickets, you should get a refund.<br>\n"
 "        It will require a good Internet connection to get the best video quality."
 msgstr ""
@@ -163143,6 +164463,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "This event is fully online and FREE, if you have paid for tickets, you "
 "should get a refund.<br>\n"
 "        It will require a good Internet connection to get the best video "
@@ -163245,6 +164567,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -163582,6 +164907,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"To je idealen kraj za preživljanje lepega dne z družino, zagotavljamo vam, "
+"da boste odšli z lepimi in trajnimi spomini!"
+>>>>>>> upstream/18.0
 =======
 "To je idealen kraj za preživljanje lepega dne z družino, zagotavljamo vam, "
 "da boste odšli z lepimi in trajnimi spomini!"
@@ -164200,8 +165530,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "To je odličen kraj za prijetno druženje s prijatelji ob poslušanju nekaterih"
 " najbolj kultnih rock skladb vseh časov!"
+=======
+"To je odličen kraj za prijetno druženje s prijatelji ob poslušanju nekaterih "
+"najbolj kultnih rock skladb vseh časov!"
+>>>>>>> upstream/18.0
 =======
 "To je odličen kraj za prijetno druženje s prijatelji ob poslušanju nekaterih "
 "najbolj kultnih rock skladb vseh časov!"
@@ -164721,7 +166056,11 @@ msgid "This step is done. Click to block or set in progress."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ta korak je končan. Kliknite za blokiranje ali nastavitev v teku."
+>>>>>>> upstream/18.0
 =======
 msgstr "Ta korak je končan. Kliknite za blokiranje ali nastavitev v teku."
 >>>>>>> upstream/18.0
@@ -165243,7 +166582,11 @@ msgid "This ticket is for another event!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ta vstopnica je za drug dogodek!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ta vstopnica je za drug dogodek!"
 >>>>>>> upstream/18.0
@@ -165765,7 +167108,11 @@ msgid "This ticket is not for an ongoing event"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ta vstopnica ni za dogodek, ki je v teku"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ta vstopnica ni za dogodek, ki je v teku"
 >>>>>>> upstream/18.0
@@ -166297,7 +167644,11 @@ msgid "Ticket Instructions"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Navodila za vstopnice"
+>>>>>>> upstream/18.0
 =======
 msgstr "Navodila za vstopnice"
 >>>>>>> upstream/18.0
@@ -166828,7 +168179,11 @@ msgid "Ticket already scanned!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vstopnica je že skenirana!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vstopnica je že skenirana!"
 >>>>>>> upstream/18.0
@@ -167349,7 +168704,11 @@ msgid "Ticket type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vrsta vozovnice"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vrsta vozovnice"
 >>>>>>> upstream/18.0
@@ -167874,6 +169233,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Vrste vstopnic vam omogočajo razlikovanje udeležencev.  <b>Ustvarimo</b> "
+"novo."
+>>>>>>> upstream/18.0
 =======
 "Vrste vstopnic vam omogočajo razlikovanje udeležencev.  <b>Ustvarimo</b> "
 "novo."
@@ -168499,8 +169863,12 @@ msgid "Tickets can be printed or scanned directly from your phone."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Vstopnice lahko natisnete ali optično preberete neposredno s telefona."
+=======
+msgstr "Vstopnice lahko natisnete ali optično preberete neposredno s telefona."
+>>>>>>> upstream/18.0
 =======
 msgstr "Vstopnice lahko natisnete ali optično preberete neposredno s telefona."
 >>>>>>> upstream/18.0
@@ -168919,7 +170287,11 @@ msgid "Tickets with PoS"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vstopnice s PoS"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vstopnice s PoS"
 >>>>>>> upstream/18.0
@@ -169440,7 +170812,11 @@ msgid "Tickets with Sale"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vstopnice s prodajo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vstopnice s prodajo"
 >>>>>>> upstream/18.0
@@ -169983,7 +171359,11 @@ msgid "Total Attendees"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Skupno število udeležencev"
+>>>>>>> upstream/18.0
 =======
 msgstr "Skupno število udeležencev"
 >>>>>>> upstream/18.0
@@ -170509,7 +171889,11 @@ msgid "Tracks and Agenda"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Skladbe in dnevni red"
+>>>>>>> upstream/18.0
 =======
 msgstr "Skladbe in dnevni red"
 >>>>>>> upstream/18.0
@@ -171038,6 +172422,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Trgovci z drevesi v lesno industrijo prinašajo poštenost in resnost, hkrati "
+"pa strankam pomagajo pri delu z drevesi, cvetjem in gobami."
+>>>>>>> upstream/18.0
 =======
 "Trgovci z drevesi v lesno industrijo prinašajo poštenost in resnost, hkrati "
 "pa strankam pomagajo pri delu z drevesi, cvetjem in gobami."
@@ -171682,7 +173071,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Unconfirmed: registrations in a pending state waiting for an action (specific case, notably with sale status)\n"
+=======
+"Unconfirmed: registrations in a pending state waiting for an action "
+"(specific case, notably with sale status)\n"
+>>>>>>> upstream/18.0
 =======
 "Unconfirmed: registrations in a pending state waiting for an action "
 "(specific case, notably with sale status)\n"
@@ -172196,6 +173590,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -172556,6 +173951,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Nepotrjeno: registracije v stanju čakanja na ukrepanje (poseben primer, "
 "zlasti s statusom prodaje).\n"
 "Registrirano: registracije, ki jih stranka šteje za zasedene.\n"
@@ -172655,6 +174052,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -172980,6 +174380,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"V tem tehničnem meniju boste našli vso načrtovano komunikacijo v zvezi z "
+"vašimi dogodki."
+>>>>>>> upstream/18.0
 =======
 "V tem tehničnem meniju boste našli vso načrtovano komunikacijo v zvezi z "
 "vašimi dogodki."
@@ -173629,7 +175034,11 @@ msgid "Understand the various modules;"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Razumeti različne module;"
+>>>>>>> upstream/18.0
 =======
 msgstr "Razumeti različne module;"
 >>>>>>> upstream/18.0
@@ -174172,7 +175581,11 @@ msgid "Use Barcode"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Uporabite črtno kodo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Uporabite črtno kodo"
 >>>>>>> upstream/18.0
@@ -174693,7 +176106,11 @@ msgid "Use Event Barcode"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Uporabi črtno kodo dogodka"
+>>>>>>> upstream/18.0
 =======
 msgstr "Uporabi črtno kodo dogodka"
 >>>>>>> upstream/18.0
@@ -175222,7 +176639,11 @@ msgid "Use the <b>breadcrumbs</b> to go back to your kanban overview."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Za vrnitev na pregled kanbana uporabite <b>drobtinice.</b>"
+>>>>>>> upstream/18.0
 =======
 msgstr "Za vrnitev na pregled kanbana uporabite <b>drobtinice.</b>"
 >>>>>>> upstream/18.0
@@ -175743,7 +177164,11 @@ msgid "Used Seats"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Rabljeni sedeži"
+>>>>>>> upstream/18.0
 =======
 msgstr "Rabljeni sedeži"
 >>>>>>> upstream/18.0
@@ -176278,7 +177703,11 @@ msgid "Value should be True or False (not %s)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vrednost mora biti Pravilna ali Napačna (ne %s)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vrednost mora biti Pravilna ali Napačna (ne %s)"
 >>>>>>> upstream/18.0
@@ -176800,7 +178229,11 @@ msgid "Venue"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prizorišče"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prizorišče"
 >>>>>>> upstream/18.0
@@ -177321,7 +178754,11 @@ msgid "Venue (formatted for one line uses)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prizorišče (formatirano za uporabo v eni vrstici)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prizorišče (formatirano za uporabo v eni vrstici)"
 >>>>>>> upstream/18.0
@@ -177853,6 +179290,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Počakajte, da se udeleženci registrirajo na vaš dogodek, ali pa ustvarite "
+"registracije ročno."
+>>>>>>> upstream/18.0
 =======
 "Počakajte, da se udeleženci registrirajo na vaš dogodek, ali pa ustvarite "
 "registracije ročno."
@@ -178502,7 +179944,11 @@ msgid "Warehouse management, Manufacturing (MRP) &amp; Sales, Import/Export."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Upravljanje skladišč, proizvodnja (MRP) &amp; Prodaja, uvoz/izvoz."
+>>>>>>> upstream/18.0
 =======
 msgstr "Upravljanje skladišč, proizvodnja (MRP) &amp; Prodaja, uvoz/izvoz."
 >>>>>>> upstream/18.0
@@ -178997,8 +180443,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "We reserve the right to cancel, re-name or re-locate the event or change the"
 " dates on which it is held in case the weather fails us."
+=======
+"We reserve the right to cancel, re-name or re-locate the event or change the "
+"dates on which it is held in case the weather fails us."
+>>>>>>> upstream/18.0
 =======
 "We reserve the right to cancel, re-name or re-locate the event or change the "
 "dates on which it is held in case the weather fails us."
@@ -179548,6 +180999,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "Kdaj je dogodek načrtovan (izraženo v vašem lokalnem časovnem pasu v pogledu"
 " obrazca)."
@@ -179683,6 +181135,10 @@ msgstr ""
 =======
 "Kdaj je dogodek načrtovan (izraženo v vašem lokalnem časovnem pasu v pogledu"
 " obrazca)."
+>>>>>>> upstream/18.0
+=======
+"Kdaj je dogodek načrtovan (izraženo v vašem lokalnem časovnem pasu v pogledu "
+"obrazca)."
 >>>>>>> upstream/18.0
 =======
 "Kdaj je dogodek načrtovan (izraženo v vašem lokalnem časovnem pasu v pogledu "
@@ -180212,7 +181668,11 @@ msgid "You are truly among the best."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Resnično si med najboljšimi."
+>>>>>>> upstream/18.0
 =======
 msgstr "Resnično si med najboljšimi."
 >>>>>>> upstream/18.0
@@ -180699,8 +182159,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You can also add a description to help your coworkers understand the meaning"
 " and purpose of the stage."
+=======
+"You can also add a description to help your coworkers understand the meaning "
+"and purpose of the stage."
+>>>>>>> upstream/18.0
 =======
 "You can also add a description to help your coworkers understand the meaning "
 "and purpose of the stage."
@@ -181220,6 +182685,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Tukaj lahko določite oznake, ki bodo namesto tega prikazane za državo\n"
+"                            privzetih oznak v pogledu kanban."
+>>>>>>> upstream/18.0
 =======
 "Tukaj lahko določite oznake, ki bodo namesto tega prikazane za državo\n"
 "                            privzetih oznak v pogledu kanban."
@@ -181872,6 +183342,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Vrste vprašanja, na katero že obstajajo odgovori, ne morete spremeniti!"
+>>>>>>> upstream/18.0
 =======
 "Vrste vprašanja, na katero že obstajajo odgovori, ne morete spremeniti!"
 >>>>>>> upstream/18.0
@@ -182395,6 +183869,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Vprašanja, na katerega so udeleženci že odgovorili, ne morete izbrisati."
+>>>>>>> upstream/18.0
 =======
 "Vprašanja, na katerega so udeleženci že odgovorili, ne morete izbrisati."
 >>>>>>> upstream/18.0
@@ -182917,7 +184395,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odgovora, ki so ga udeleženci že izbrali, ne morete izbrisati."
+>>>>>>> upstream/18.0
 =======
 msgstr "Odgovora, ki so ga udeleženci že izbrali, ne morete izbrisati."
 >>>>>>> upstream/18.0
@@ -183443,7 +184925,11 @@ msgid "Your registration at {{ object.event_id.name }}"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vaša registracija na {{ object.event_id.name }}"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vaša registracija na {{ object.event_id.name }}"
 >>>>>>> upstream/18.0
@@ -183964,7 +185450,11 @@ msgid "e.g. \"12-16 years old\""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "npr. \"12–16 let\""
+>>>>>>> upstream/18.0
 =======
 msgstr "npr. \"12–16 let\""
 >>>>>>> upstream/18.0
@@ -184485,7 +185975,11 @@ msgid "e.g. \"Age Category\""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "npr. »Starostna kategorija«"
+>>>>>>> upstream/18.0
 =======
 msgstr "npr. »Starostna kategorija«"
 >>>>>>> upstream/18.0
@@ -185006,7 +186500,11 @@ msgid "e.g. \"Azure Interior\""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "npr. »Azurna notranjost«"
+>>>>>>> upstream/18.0
 =======
 msgstr "npr. »Azurna notranjost«"
 >>>>>>> upstream/18.0
@@ -185528,7 +187026,11 @@ msgid "e.g. \"Do you have any diet restrictions?\""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "npr. \"Ali imate kakšne prehranske omejitve?\""
+>>>>>>> upstream/18.0
 =======
 msgstr "npr. \"Ali imate kakšne prehranske omejitve?\""
 >>>>>>> upstream/18.0
@@ -186049,7 +187551,11 @@ msgid "e.g. \"Promoting\""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "npr. \"Promocija\""
+>>>>>>> upstream/18.0
 =======
 msgstr "npr. \"Promocija\""
 >>>>>>> upstream/18.0
@@ -186577,7 +188083,11 @@ msgid "e.g. How to get to your event, door closing time, ..."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "npr. kako priti na dogodek, čas zaprtja vrat, ..."
+>>>>>>> upstream/18.0
 =======
 msgstr "npr. kako priti na dogodek, čas zaprtja vrat, ..."
 >>>>>>> upstream/18.0
@@ -187113,7 +188623,11 @@ msgid "events@penwood.example.com"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "events@penwood.example.com"
+>>>>>>> upstream/18.0
 =======
 msgstr "events@penwood.example.com"
 >>>>>>> upstream/18.0
@@ -187642,7 +189156,11 @@ msgid "https://www.example.com"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "https://www.example.com"
+>>>>>>> upstream/18.0
 =======
 msgstr "https://www.example.com"
 >>>>>>> upstream/18.0
@@ -188193,7 +189711,11 @@ msgid "organizer@email.com"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "organizer@email.com"
+>>>>>>> upstream/18.0
 =======
 msgstr "organizer@email.com"
 >>>>>>> upstream/18.0
@@ -188717,6 +190239,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Prijave so se začele, če je trenutni datum in ura po najzgodnejšem datumu "
+"začetka veljavnosti vstopnic."
+>>>>>>> upstream/18.0
 =======
 "Prijave so se začele, če je trenutni datum in ura po najzgodnejšem datumu "
 "začetka veljavnosti vstopnic."
@@ -189366,7 +190893,11 @@ msgid "reserved"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "rezervirano"
+>>>>>>> upstream/18.0
 =======
 msgstr "rezervirano"
 >>>>>>> upstream/18.0
@@ -189905,7 +191436,11 @@ msgid "{{ object.event_id.name }}: {{ object.event_date_range }}"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "{{ object.event_id.name }}: {{ object.event_date_range }}"
+>>>>>>> upstream/18.0
 =======
 msgstr "{{ object.event_id.name }}: {{ object.event_date_range }}"
 >>>>>>> upstream/18.0

@@ -71,7 +71,11 @@ describe("parse/render", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should parse a fontawesome in a <span>", async () => {
+=======
+    test("should parse a fontawesome in a <span> (1)", async () => {
+>>>>>>> upstream/18.0
 =======
     test("should parse a fontawesome in a <span> (1)", async () => {
 >>>>>>> upstream/18.0
@@ -98,6 +102,12 @@ describe("parse/render", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should parse a fontawesome in a <span> (2)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -136,7 +146,11 @@ describe("parse/render", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should parse a fontawesome in a <i>", async () => {
+=======
+    test("should parse a fontawesome in a <i> (1)", async () => {
+>>>>>>> upstream/18.0
 =======
     test("should parse a fontawesome in a <i> (1)", async () => {
 >>>>>>> upstream/18.0
@@ -164,6 +178,12 @@ describe("parse/render", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should parse a fontawesome in a <i> (2)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -261,7 +281,11 @@ describe("parse/render", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test('should insert navigation helpers when before a fontawesome, in an editable', async () => {
+=======
+        test('should insert navigation helpers when before a fontawesome, in an editable (1)', async () => {
+>>>>>>> upstream/18.0
 =======
         test('should insert navigation helpers when before a fontawesome, in an editable (1)', async () => {
 >>>>>>> upstream/18.0
@@ -287,6 +311,11 @@ describe("parse/render", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+        test('should insert navigation helpers when before a fontawesome, in an editable (2)', async () => {
+>>>>>>> upstream/18.0
 =======
         });
         test('should insert navigation helpers when before a fontawesome, in an editable (2)', async () => {
@@ -318,7 +347,11 @@ describe("parse/render", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test('should insert navigation helpers when after a fontawesome, in an editable', async () => {
+=======
+        test('should insert navigation helpers when after a fontawesome, in an editable (1)', async () => {
+>>>>>>> upstream/18.0
 =======
         test('should insert navigation helpers when after a fontawesome, in an editable (1)', async () => {
 >>>>>>> upstream/18.0
@@ -344,6 +377,11 @@ describe("parse/render", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+        test('should insert navigation helpers when after a fontawesome, in an editable (2)', async () => {
+>>>>>>> upstream/18.0
 =======
         });
         test('should insert navigation helpers when after a fontawesome, in an editable (2)', async () => {
@@ -375,7 +413,11 @@ describe("parse/render", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test('should not insert navigation helpers when not adjacent to a fontawesome, in an editable', async () => {
+=======
+        test('should not insert navigation helpers when not adjacent to a fontawesome, in an editable (1)', async () => {
+>>>>>>> upstream/18.0
 =======
         test('should not insert navigation helpers when not adjacent to a fontawesome, in an editable (1)', async () => {
 >>>>>>> upstream/18.0
@@ -401,6 +443,11 @@ describe("parse/render", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+        test('should not insert navigation helpers when not adjacent to a fontawesome, in an editable (2)', async () => {
+>>>>>>> upstream/18.0
 =======
         });
         test('should not insert navigation helpers when not adjacent to a fontawesome, in an editable (2)', async () => {
@@ -432,7 +479,11 @@ describe("parse/render", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test('should not insert navigation helpers when adjacent to a fontawesome in contenteditable=false container', async () => {
+=======
+        test('should not insert navigation helpers when adjacent to a fontawesome in contenteditable=false container (1)', async () => {
+>>>>>>> upstream/18.0
 =======
         test('should not insert navigation helpers when adjacent to a fontawesome in contenteditable=false container (1)', async () => {
 >>>>>>> upstream/18.0
@@ -459,6 +510,11 @@ describe("parse/render", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+        test('should not insert navigation helpers when adjacent to a fontawesome in contenteditable=false container (2)', async () => {
+>>>>>>> upstream/18.0
 =======
         });
         test('should not insert navigation helpers when adjacent to a fontawesome in contenteditable=false container (2)', async () => {
@@ -491,7 +547,11 @@ describe("parse/render", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test('should not insert navigation helpers when adjacent to a fontawesome in contenteditable=false format', async () => {
+=======
+        test('should not insert navigation helpers when adjacent to a fontawesome in contenteditable=false format (1)', async () => {
+>>>>>>> upstream/18.0
 =======
         test('should not insert navigation helpers when adjacent to a fontawesome in contenteditable=false format (1)', async () => {
 >>>>>>> upstream/18.0
@@ -518,6 +578,11 @@ describe("parse/render", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+        test('should not insert navigation helpers when adjacent to a fontawesome in contenteditable=false format (2)', async () => {
+>>>>>>> upstream/18.0
 =======
         });
         test('should not insert navigation helpers when adjacent to a fontawesome in contenteditable=false format (2)', async () => {
@@ -550,7 +615,11 @@ describe("parse/render", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test('should not insert navigation helpers when adjacent to a fontawesome in contenteditable=false format (oe-nested)', async () => {
+=======
+        test('should not insert navigation helpers when adjacent to a fontawesome in contenteditable=false format (oe-nested) (1)', async () => {
+>>>>>>> upstream/18.0
 =======
         test('should not insert navigation helpers when adjacent to a fontawesome in contenteditable=false format (oe-nested) (1)', async () => {
 >>>>>>> upstream/18.0
@@ -577,6 +646,11 @@ describe("parse/render", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+        test('should not insert navigation helpers when adjacent to a fontawesome in contenteditable=false format (oe-nested) (2)', async () => {
+>>>>>>> upstream/18.0
 =======
         });
         test('should not insert navigation helpers when adjacent to a fontawesome in contenteditable=false format (oe-nested) (2)', async () => {
@@ -723,7 +797,11 @@ describe("deleteBackward", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             test("should delete a fontawesome (deleteBackward, collapsed)", async () => {
+=======
+            test("should delete a fontawesome (deleteBackward, collapsed) (1)", async () => {
+>>>>>>> upstream/18.0
 =======
             test("should delete a fontawesome (deleteBackward, collapsed) (1)", async () => {
 >>>>>>> upstream/18.0
@@ -751,6 +829,12 @@ describe("deleteBackward", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            });
+
+            test("should delete a fontawesome (deleteBackward, collapsed) (2)", async () => {
+>>>>>>> upstream/18.0
 =======
             });
 

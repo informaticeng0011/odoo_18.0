@@ -169,6 +169,7 @@ class HRLeave(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                 leave.overtime_id.sudo().unlink()
 >>>>>>> upstream/18.0
@@ -217,6 +218,8 @@ class HRLeave(models.Model):
                 raise ValidationError(_('The employee does not have enough extra hours to request this leave.'))
             if not leave.sudo().overtime_id:
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -535,6 +538,9 @@ class HRLeave(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -855,6 +861,7 @@ class HRLeave(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         res = super().action_reset_confirm()
         overtime_leaves.overtime_id.sudo().unlink()
         return res
@@ -862,6 +869,8 @@ class HRLeave(models.Model):
     def action_confirm(self):
         res = super().action_confirm()
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1177,6 +1186,9 @@ class HRLeave(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

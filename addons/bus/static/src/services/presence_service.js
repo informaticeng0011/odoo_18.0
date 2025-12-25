@@ -49,8 +49,13 @@ export const presenceService = {
         browser.addEventListener("pagehide", () => onFocusChange(false));
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         browser.addEventListener("click", onPresence);
         browser.addEventListener("keydown", onPresence);
+=======
+        browser.addEventListener("click", onPresence, true);
+        browser.addEventListener("keydown", onPresence, true);
+>>>>>>> upstream/18.0
 =======
         browser.addEventListener("click", onPresence, true);
         browser.addEventListener("keydown", onPresence, true);

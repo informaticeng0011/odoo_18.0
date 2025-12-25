@@ -551,7 +551,11 @@ class TestIrMailServer(TransactionCase, MockSmtplibCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         """Test that message/rfc822 attachments are encoded using 7bit, 8bit, or binary encoding."""
+=======
+        """Test that message/rfc822 attachments are encoded using 7bit, 8bit, or binary encoding per RFC."""
+>>>>>>> upstream/18.0
 =======
         """Test that message/rfc822 attachments are encoded using 7bit, 8bit, or binary encoding per RFC."""
 >>>>>>> upstream/18.0
@@ -875,6 +879,7 @@ class TestIrMailServer(TransactionCase, MockSmtplibCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # Verify that the attachment is correctly encoded
         acceptable_encodings = {'7bit', '8bit', 'binary'}
         for part in message.iter_attachments():
@@ -885,6 +890,8 @@ class TestIrMailServer(TransactionCase, MockSmtplibCase):
                     "The message/rfc822 attachment should be encoded using 7bit, 8bit, or binary encoding.",
                 )
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1153,6 +1160,9 @@ class TestIrMailServer(TransactionCase, MockSmtplibCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -65,6 +65,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* barcodes
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -402,6 +403,9 @@
 =======
 # * barcodes
 >>>>>>> upstream/18.0
+=======
+# * barcodes
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Ilya Rozhkov, 2024
@@ -495,6 +499,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -539,6 +544,9 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# "Anastasiia Koroleva (koan)" <koan@odoo.com>, 2025.
 >>>>>>> upstream/18.0
 =======
 # "Anastasiia Koroleva (koan)" <koan@odoo.com>, 2025.
@@ -739,6 +747,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1124,6 +1133,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-09-27 01:48+0000\n"
 "PO-Revision-Date: 2025-10-22 09:09+0000\n"
 "Last-Translator: \"Anastasiia Koroleva (koan)\" <koan@odoo.com>\n"
@@ -1191,6 +1202,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1321,6 +1335,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1780,12 +1795,18 @@ msgstr ""
 "n%100>=11 && n%100<=14)? 2 : 3);\n"
 "X-Generator: Weblate 5.12.2\n"
 >>>>>>> upstream/18.0
+=======
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || ("
+"n%100>=11 && n%100<=14)? 2 : 3);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: barcodes
 #. odoo-python
 #: code:addons/barcodes/models/barcode_rule.py:0
 msgid " '*' is not a valid Regex Barcode Pattern. Did you mean '.*'?"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2308,10 +2329,15 @@ msgstr ""
 " '*' Недопустимый шаблон для регулярного выражения штрихкода. Возможно, вы "
 "имели в виду '.*'?"
 >>>>>>> upstream/18.0
+=======
+" '*' Недопустимый шаблон для регулярного выражения штрихкода. Возможно, вы "
+"имели в виду '.*'?"
+>>>>>>> upstream/18.0
 
 #. module: barcodes
 #: model_terms:ir.ui.view,arch_db:barcodes.view_barcode_nomenclature_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2681,6 +2707,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "<i>Barcodes Nomenclatures</i> define how barcodes are recognized and "
 "categorized.\n"
 "                                When a barcode is scanned it is associated "
@@ -2784,6 +2812,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2963,6 +2994,7 @@ msgstr ""
 #. module: barcodes
 #: model_terms:ir.actions.act_window,help:barcodes.action_barcode_nomenclature_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3311,6 +3343,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "A barcode nomenclature defines how the point of sale identify and interprets "
 "barcodes"
 msgstr ""
@@ -3403,6 +3437,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3731,7 +3768,11 @@ msgid "Barcode Nomenclature"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Номенклатура штрих-кодов"
+=======
+msgstr "Номенклатура штрихкодов"
+>>>>>>> upstream/18.0
 =======
 msgstr "Номенклатура штрихкодов"
 >>>>>>> upstream/18.0
@@ -4158,7 +4199,11 @@ msgid "Barcode Pattern"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Узор штрих-кода"
+=======
+msgstr "Шаблон штрихкода"
+>>>>>>> upstream/18.0
 =======
 msgstr "Шаблон штрихкода"
 >>>>>>> upstream/18.0
@@ -4585,7 +4630,11 @@ msgid "Barcode Scanned"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Сканирование штрих-кода"
+=======
+msgstr "Штрихкод отсканирован"
+>>>>>>> upstream/18.0
 =======
 msgstr "Штрихкод отсканирован"
 >>>>>>> upstream/18.0
@@ -5007,7 +5056,11 @@ msgid "Barcode: %(barcode)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Штрихкод: %(barcode)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Штрихкод: %(barcode)s"
 >>>>>>> upstream/18.0
@@ -5434,7 +5487,11 @@ msgid "Created by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Создано"
+=======
+msgstr "Создано:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Создано:"
 >>>>>>> upstream/18.0
@@ -5856,7 +5913,11 @@ msgid "Created on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Создано"
+=======
+msgstr "Дата создания:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дата создания:"
 >>>>>>> upstream/18.0
@@ -6313,11 +6374,14 @@ msgstr "ID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:barcodes.field_barcode_nomenclature__write_uid
 #: model:ir.model.fields,field_description:barcodes.field_barcode_rule__write_uid
 msgid "Last Updated by"
 msgstr "Последнее обновление"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6636,6 +6700,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "Для использования barcodes.barcode_events_mixin необходимо реализовать метод"
 " on_barcode_scanned"
@@ -6699,6 +6764,10 @@ msgstr ""
 =======
 "Для использования barcodes.barcode_events_mixin необходимо реализовать метод"
 " on_barcode_scanned"
+>>>>>>> upstream/18.0
+=======
+"Для использования barcodes.barcode_events_mixin необходимо реализовать метод "
+"on_barcode_scanned"
 >>>>>>> upstream/18.0
 =======
 "Для использования barcodes.barcode_events_mixin необходимо реализовать метод "
@@ -7162,6 +7231,9 @@ msgstr "Последнее обновление:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7376,6 +7448,7 @@ msgstr "Последнее обновление:"
 #: model:ir.model.fields,field_description:barcodes.field_barcode_nomenclature__write_date
 #: model:ir.model.fields,field_description:barcodes.field_barcode_rule__write_date
 msgid "Last Updated on"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7797,6 +7870,9 @@ msgstr "Дата последнего обновления:"
 =======
 msgstr "Дата последнего обновления:"
 >>>>>>> upstream/18.0
+=======
+msgstr "Дата последнего обновления:"
+>>>>>>> upstream/18.0
 
 #. module: barcodes
 #: model:ir.model.fields.selection,name:barcodes.selection__barcode_nomenclature__upc_ean_conv__none
@@ -7811,6 +7887,7 @@ msgstr "Номенклатура"
 #. module: barcodes
 #: model_terms:ir.ui.view,arch_db:barcodes.view_barcode_nomenclature_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8186,6 +8263,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Patterns can also define how numerical values, such as weight or price, can "
 "be\n"
 "                                encoded into the barcode. They are indicated "
@@ -8296,6 +8375,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8611,7 +8693,11 @@ msgid "The barcode matching pattern"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Шаблон совпадения штрих-кодов"
+=======
+msgstr "Шаблон сопоставления штрихкодов"
+>>>>>>> upstream/18.0
 =======
 msgstr "Шаблон сопоставления штрихкодов"
 >>>>>>> upstream/18.0
@@ -9044,7 +9130,11 @@ msgid "The matched pattern will alias to this barcode"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Совпавший шаблон будет иметь псевдоним этого штрих-кода"
+=======
+msgstr "Совпавший шаблон будет сопоставлен с этим штрихкодом"
+>>>>>>> upstream/18.0
 =======
 msgstr "Совпавший шаблон будет сопоставлен с этим штрихкодом"
 >>>>>>> upstream/18.0
@@ -9469,8 +9559,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "В шаблоне штрих-кода %(pattern)s допущена синтаксическая ошибка: правило "
 "может содержать только одну пару скобок."
+=======
+"Ошибка синтаксиса в шаблоне штрихкода %(pattern)s: правило может содержать "
+"только одну пару фигурных скобок."
+>>>>>>> upstream/18.0
 =======
 "Ошибка синтаксиса в шаблоне штрихкода %(pattern)s: правило может содержать "
 "только одну пару фигурных скобок."
@@ -9999,6 +10094,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "В шаблоне штрих-кода %(pattern)s допущена синтаксическая ошибка: скобки "
 "могут содержать только N, за которыми следуют D."
 =======
@@ -10064,6 +10160,10 @@ msgstr ""
 =======
 "Ошибка синтаксиса в шаблоне штрихкода %(pattern)s: внутри скобок допускаются"
 " только символы N, за которыми следуют D."
+>>>>>>> upstream/18.0
+=======
+"Ошибка синтаксиса в шаблоне штрихкода %(pattern)s: внутри скобок допускаются "
+"только символы N, за которыми следуют D."
 >>>>>>> upstream/18.0
 =======
 "Ошибка синтаксиса в шаблоне штрихкода %(pattern)s: внутри скобок допускаются "
@@ -10528,8 +10628,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "В шаблоне штрих-кода %(pattern)s допущена синтаксическая ошибка: пустые "
 "скобки."
+=======
+"Ошибка синтаксиса в шаблоне штрихкода %(pattern)s: пустые фигурные скобки."
+>>>>>>> upstream/18.0
 =======
 "Ошибка синтаксиса в шаблоне штрихкода %(pattern)s: пустые фигурные скобки."
 >>>>>>> upstream/18.0
@@ -10849,6 +10953,7 @@ msgid ""
 "This rule will apply only if the barcode is encoded with the specified "
 "encoding"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11371,6 +11476,10 @@ msgstr ""
 "Это правило будет применяться только если штрихкод закодирован с указанной "
 "кодировкой"
 >>>>>>> upstream/18.0
+=======
+"Это правило будет применяться только если штрихкод закодирован с указанной "
+"кодировкой"
+>>>>>>> upstream/18.0
 
 #. module: barcodes
 #: model:ir.model.fields,field_description:barcodes.field_barcode_rule__type
@@ -11381,6 +11490,7 @@ msgstr "Тип"
 #: model:ir.model.fields,help:barcodes.field_barcode_nomenclature__upc_ean_conv
 msgid ""
 "UPC Codes can be converted to EAN by prefixing them with a zero. This "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11746,6 +11856,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "setting determines if a UPC/EAN barcode should be automatically converted in "
 "one way or another when trying to match a rule with the other encoding."
 msgstr ""
@@ -11839,6 +11951,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12131,8 +12246,12 @@ msgstr "Неизвестная команда штрихкода"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Used to order rules such that rules with a smaller sequence match first"
+=======
+msgid "Used to order rules such that rules with a smaller sequence match first"
+>>>>>>> upstream/18.0
 =======
 msgid "Used to order rules such that rules with a smaller sequence match first"
 >>>>>>> upstream/18.0
@@ -12493,7 +12612,10 @@ msgstr "Значение последнего отсканированного �
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12762,6 +12884,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12806,6 +12929,10 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+"Вы не можете удалить «%(name)s», так как это номенклатура штрихкодов по "
+"умолчанию."
 >>>>>>> upstream/18.0
 =======
 "Вы не можете удалить «%(name)s», так как это номенклатура штрихкодов по "
