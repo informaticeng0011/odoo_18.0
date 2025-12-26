@@ -189,8 +189,13 @@ class LoyaltyCard(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         """Default author is the order's salesperson if set, otherwise the order's company."""
         if not self.order_id:
+=======
+        # Default author is the order's salesperson if available, else the order's company.
+        if not self.order_id or self.order_id.sudo().company_id not in self.env.companies:
+>>>>>>> upstream/18.0
 =======
         # Default author is the order's salesperson if available, else the order's company.
         if not self.order_id or self.order_id.sudo().company_id not in self.env.companies:
@@ -903,7 +908,10 @@ class LoyaltyCard(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1001,6 +1009,9 @@ class LoyaltyCard(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

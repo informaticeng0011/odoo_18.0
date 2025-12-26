@@ -85,6 +85,7 @@ class MailingContactToList(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         previous_count = len(self.mailing_list_id.contact_ids)
         self.mailing_list_id.write({
             'contact_ids': [
@@ -93,6 +94,8 @@ class MailingContactToList(models.TransientModel):
                 if contact not in self.mailing_list_id.contact_ids]
             })
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -264,6 +267,9 @@ class MailingContactToList(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -435,7 +441,11 @@ class MailingContactToList(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                              len(self.mailing_list_id.contact_ids) - previous_count
+=======
+                             len(contacts_to_add)
+>>>>>>> upstream/18.0
 =======
                              len(contacts_to_add)
 >>>>>>> upstream/18.0

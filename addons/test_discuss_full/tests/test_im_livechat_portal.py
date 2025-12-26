@@ -104,7 +104,10 @@ from odoo import Command, tests
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.addons.test_mail_full.tests.test_portal import TestPortal
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -424,9 +427,12 @@ from odoo.addons.website_livechat.tests.test_chatbot_ui import TestLivechatChatb
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 class TestImLivechatPortal(TestLivechatChatbotUI, TestPortal):
     def test_chatbot_redirect_to_portal(self):
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -745,6 +751,9 @@ class TestImLivechatPortal(TestLivechatChatbotUI):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1078,7 +1087,11 @@ class TestImLivechatPortal(TestLivechatChatbotUI):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "redirect_link": f"/my/test_portal_records/{self.record_portal.id}",
+=======
+                    "redirect_link": f"/my/tasks/{task.id}?access_token={task.access_token}",
+>>>>>>> upstream/18.0
 =======
                     "redirect_link": f"/my/tasks/{task.id}?access_token={task.access_token}",
 >>>>>>> upstream/18.0
@@ -1519,7 +1532,11 @@ class TestImLivechatPortal(TestLivechatChatbotUI):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.start_tour("/contactus", "test_mail_full.chatbot_redirect_to_portal")
+=======
+        self.start_tour("/contactus", "chatbot_redirect_to_portal")
+>>>>>>> upstream/18.0
 =======
         self.start_tour("/contactus", "chatbot_redirect_to_portal")
 >>>>>>> upstream/18.0

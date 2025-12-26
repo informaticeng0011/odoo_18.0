@@ -179,13 +179,19 @@ export function refundedNoteContains(text) {
     });
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 export function noLinesToRefund() {
     return inLeftSide({
         content: "No lines are marked for to refund or refunding",
         trigger: ".ticket-screen:not(:has(.to-refund-highlight))",
     });
 }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 export function tipContains(amount) {
     return [
@@ -293,7 +299,10 @@ export function nthColumnContains(nRow, nCol, string) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -508,6 +517,9 @@ export function noOrderIsThere() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

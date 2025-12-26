@@ -143,7 +143,10 @@ class TestPOSLoyaltyHistory(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -537,6 +540,7 @@ class TestPOSLoyaltyHistory(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -745,6 +749,8 @@ class TestPOSLoyaltyHistory(TestPointOfSaleHttpCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_gift_card_partner(self):
         """ Test that the gift card's partner is correctly set as the customer who bought it."""
@@ -785,4 +791,7 @@ class TestPOSLoyaltyHistory(TestPointOfSaleHttpCommon):
         pos_order.confirm_coupon_programs(coupon_data)
         loyalty_card = self.env['loyalty.card'].search([('code', '=', 'test-code')])
         self.assertEqual(loyalty_card.partner_id, test_partner)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

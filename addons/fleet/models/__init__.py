@@ -123,6 +123,10 @@ from . import fleet_vehicle_tag
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from . import mail_activity_type
+>>>>>>> upstream/18.0
 =======
 from . import mail_activity_type
 >>>>>>> upstream/18.0

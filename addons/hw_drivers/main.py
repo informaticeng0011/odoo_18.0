@@ -143,7 +143,10 @@ class Manager(Thread):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -472,9 +475,15 @@ class Manager(Thread):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.token = helpers.get_token()
         self.version = helpers.get_version(detailed_version=True)
         self.previous_iot_devices = {}
+=======
+        self.version = helpers.get_version(detailed_version=True)
+        self.previous_iot_devices = {}
+        self.serial_number = helpers.get_serial_number()
+>>>>>>> upstream/18.0
 =======
         self.version = helpers.get_version(detailed_version=True)
         self.previous_iot_devices = {}
@@ -1149,6 +1158,9 @@ class Manager(Thread):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1373,6 +1385,7 @@ class Manager(Thread):
         This method send IoT Box and devices information to Odoo database
         """
         if self.server_url:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1723,6 +1736,8 @@ class Manager(Thread):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             iot_box = {
                 'name': self.hostname,
                 'identifier': self.mac_address,
@@ -1832,7 +1847,12 @@ class Manager(Thread):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'token': self.token,
+=======
+                'token': helpers.get_token(),
+                'serial_number': self.serial_number,
+>>>>>>> upstream/18.0
 =======
                 'token': helpers.get_token(),
                 'serial_number': self.serial_number,
@@ -2373,6 +2393,9 @@ class Manager(Thread):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2664,9 +2687,12 @@ class Manager(Thread):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         schedule and schedule.every().day.at("00:00").do(helpers.get_certificate_status)
         schedule and schedule.every().day.at("00:00").do(helpers.reset_log_level)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2695,6 +2721,9 @@ class Manager(Thread):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2831,8 +2860,12 @@ class Manager(Thread):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if iot_devices != self.previous_iot_devices:
                     self.previous_iot_devices = iot_devices.copy()
+=======
+                if self._get_changes_to_send():
+>>>>>>> upstream/18.0
 =======
                 if self._get_changes_to_send():
 >>>>>>> upstream/18.0

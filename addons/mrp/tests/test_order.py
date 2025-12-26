@@ -5369,7 +5369,10 @@ class TestMrpOrder(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5841,6 +5844,7 @@ class TestMrpOrder(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5987,6 +5991,8 @@ class TestMrpOrder(TestMrpCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6234,6 +6240,7 @@ class TestMrpOrder(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6388,6 +6395,8 @@ class TestMrpOrder(TestMrpCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
     def test_change_bom_and_quantity_together(self):
         """Ensure that changing the BoM and the production quantity together before saving
         does not create duplicate work orders for the same operation.
@@ -6403,6 +6412,9 @@ class TestMrpOrder(TestMrpCommon):
         mo = mo_form.save()
         self.assertEqual(len(mo.workorder_ids), 1)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 @tagged('-at_install', 'post_install')

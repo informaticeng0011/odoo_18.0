@@ -290,6 +290,7 @@ class AccountBankStatement(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             SELECT st.id
               FROM account_bank_statement st
          LEFT JOIN res_company co ON st.company_id = co.id
@@ -306,6 +307,8 @@ class AccountBankStatement(models.Model):
              WHERE ROUND(prev.balance_end_real, currency.decimal_places) != ROUND(st.balance_start, currency.decimal_places)
                {"" if all_statements else "AND st.id IN %(ids)s"}
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -458,6 +461,9 @@ class AccountBankStatement(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

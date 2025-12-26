@@ -180,7 +180,11 @@ registerWebsitePreviewTour('website_sale.snippet_products', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         goToCart({backend: true}),
+=======
+        goToCart({ backend: true, expectUnloadPage: false }),
+>>>>>>> upstream/18.0
 =======
         goToCart({ backend: true, expectUnloadPage: false }),
 >>>>>>> upstream/18.0

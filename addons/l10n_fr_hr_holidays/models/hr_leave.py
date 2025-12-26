@@ -14,6 +14,11 @@ from odoo.exceptions import UserError
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import pytz
+
+>>>>>>> upstream/18.0
 =======
 import pytz
 
@@ -97,6 +102,7 @@ class HrLeave(models.Model):
                 period = ['morning'] if self.request_date_from_period == 'am' else ['afternoon']
             else:
                 period = ['morning', 'afternoon']
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -402,6 +408,9 @@ class HrLeave(models.Model):
 =======
             attendance_ids = self.company_id.resource_calendar_id.attendance_ids | self.resource_calendar_id.attendance_ids
 >>>>>>> upstream/18.0
+=======
+            attendance_ids = self.company_id.resource_calendar_id.attendance_ids | self.resource_calendar_id.attendance_ids
+>>>>>>> upstream/18.0
             date_from, date_to = adjust_date_range(date_from, date_to, period, attendance_ids, self.employee_id)
 
         if self.request_unit_half and self.request_date_from_period == 'am':
@@ -464,6 +473,7 @@ class HrLeave(models.Model):
             fr_leaves = self.filtered(lambda leave: leave._l10n_fr_leave_applies())
             duration_by_leave_id = super(HrLeave, self - fr_leaves)._get_durations(resource_calendar=resource_calendar)
             fr_leaves_by_company = fr_leaves.grouped('company_id')
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -780,6 +790,8 @@ class HrLeave(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             if fr_leaves:
                 public_holidays = self.env['resource.calendar.leaves'].search([
                     ('resource_id', '=', False),
@@ -809,6 +821,9 @@ class HrLeave(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -852,6 +867,12 @@ class HrLeave(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                        if current in holidays_days_list:
+                            current += relativedelta(days=1)
+                            continue
+>>>>>>> upstream/18.0
 =======
                         if current in holidays_days_list:
                             current += relativedelta(days=1)
@@ -1009,6 +1030,9 @@ class HrLeave(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

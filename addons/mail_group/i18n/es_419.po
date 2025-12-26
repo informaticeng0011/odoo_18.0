@@ -72,6 +72,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* mail_group
 # 
 # Translators:
@@ -392,6 +393,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # * mail_group
 #
 # Translators:
@@ -470,6 +473,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -618,6 +624,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-16 13:40+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1035,6 +1042,9 @@ msgstr ""
 =======
 "PO-Revision-Date: 2025-12-03 17:27+0000\n"
 >>>>>>> upstream/18.0
+=======
+"PO-Revision-Date: 2025-12-03 17:27+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: \"Fernanda Alvarez (mfar)\" <mfar@odoo.com>\n"
 "Language-Team: Spanish (Latin America) <https://translate.odoo.com/projects/"
 "odoo-18/mail_group/es_419/>\n"
@@ -1044,6 +1054,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
 " ? 1 : 2);\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1278,6 +1289,9 @@ msgstr ""
 =======
 "X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_message_reject_form
@@ -1400,12 +1414,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                Solicitó cancelar su suscripción de la lista de envíos <strong t-out=\"object.name or ''\"/>.\n"
 "                <br/><br/>\n"
 "                Para confirmar, haga clic en el siguiente enlace: <strong t-if=\"ctx.get('token_url')\"><a t-att-href=\"ctx['token_url']\"><t t-out=\"ctx['token_url'] or ''\"/></a></strong>.\n"
 "                <br/><br/>\n"
 "                Si este fue un error o no solicitó esta acción, ignore este mensaje.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1628,6 +1645,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1833,8 +1853,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<i class=\"fa fa-envelope-o me-1\" role=\"img\" aria-label=\"Seudónimo\" "
 "title=\"Seudónimo\"/>"
+=======
+"<i class=\"fa fa-envelope-o me-1\" role=\"img\" aria-label=\"Alias\" title="
+"\"Alias\"/>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-envelope-o me-1\" role=\"img\" aria-label=\"Alias\" title="
 "\"Alias\"/>"
@@ -2005,8 +2030,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<i class=\"fa fa-envelope-o\" role=\"img\" aria-label=\"Seudónimo\" "
 "title=\"Seudónimo\"/>"
+=======
+"<i class=\"fa fa-envelope-o\" role=\"img\" aria-label=\"Alias\" title="
+"\"Alias\"/>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-envelope-o\" role=\"img\" aria-label=\"Alias\" title="
 "\"Alias\"/>"
@@ -2275,8 +2305,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Un diccionario de Python que se evaluará con el fin de proporcionar valores "
 "predeterminados cuando se creen nuevos registros para este seudónimo."
+=======
+"Un diccionario de Python que se evaluará con el fin de proporcionar los "
+"valores predeterminados al crear nuevos registros para este alias."
+>>>>>>> upstream/18.0
 =======
 "Un diccionario de Python que se evaluará con el fin de proporcionar los "
 "valores predeterminados al crear nuevos registros para este alias."
@@ -2479,7 +2514,11 @@ msgid "Alias"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Seudónimo"
+=======
+msgstr "Alias"
+>>>>>>> upstream/18.0
 =======
 msgstr "Alias"
 >>>>>>> upstream/18.0
@@ -2602,7 +2641,11 @@ msgid "Alias Contact Security"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Seudónimo del contacto de seguridad"
+=======
+msgstr "Seguridad del contacto del alias"
+>>>>>>> upstream/18.0
 =======
 msgstr "Seguridad del contacto del alias"
 >>>>>>> upstream/18.0
@@ -2697,7 +2740,11 @@ msgid "Alias Domain"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Dominio del seudónimo"
+=======
+msgstr "Dominio del alias"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dominio del alias"
 >>>>>>> upstream/18.0
@@ -2834,7 +2881,11 @@ msgid "Alias Domain Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nombre del dominio del seudónimo"
+=======
+msgstr "Nombre del dominio del alias"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nombre del dominio del alias"
 >>>>>>> upstream/18.0
@@ -2957,7 +3008,11 @@ msgid "Alias Email"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Correo electrónico del seudónimo"
+=======
+msgstr "Correo electrónico del alias"
+>>>>>>> upstream/18.0
 =======
 msgstr "Correo electrónico del alias"
 >>>>>>> upstream/18.0
@@ -3038,7 +3093,11 @@ msgid "Alias Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nombre del seudónimo"
+=======
+msgstr "Nombre del alias"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nombre del alias"
 >>>>>>> upstream/18.0
@@ -3119,7 +3178,11 @@ msgid "Alias Status"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Estado del seudónimo"
+=======
+msgstr "Estado del alias"
+>>>>>>> upstream/18.0
 =======
 msgstr "Estado del alias"
 >>>>>>> upstream/18.0
@@ -3200,7 +3263,11 @@ msgid "Alias status assessed on the last message received."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Estado del seudónimo evaluado en el último mensaje recibido."
+=======
+msgstr "Estado del alias evaluado en el último mensaje recibido."
+>>>>>>> upstream/18.0
 =======
 msgstr "Estado del alias evaluado en el último mensaje recibido."
 >>>>>>> upstream/18.0
@@ -3281,7 +3348,11 @@ msgid "Aliased Model"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Modelo con seudónimo"
+=======
+msgstr "Modelo con alias"
+>>>>>>> upstream/18.0
 =======
 msgstr "Modelo con alias"
 >>>>>>> upstream/18.0
@@ -3667,7 +3738,11 @@ msgid "Email Alias"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Seudónimo de correo electrónico"
+=======
+msgstr "Alias de correo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Alias de correo"
 >>>>>>> upstream/18.0
@@ -4115,8 +4190,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "ID del registro principal que tiene el seudónimo (ejemplo: el proyecto que "
 "contiene el seudónimo para la creación de tareas)"
+=======
+"ID del registro principal que tiene el alias "
+"(por ejemplo, el proyecto que contiene el alias para la creación de tareas)"
+>>>>>>> upstream/18.0
 =======
 "ID del registro principal que tiene el alias "
 "(por ejemplo, el proyecto que contiene el alias para la creación de tareas)"
@@ -4942,11 +5022,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "El modelo (tipo de documento de Odoo) al que corresponde este seudónimo. "
 "Cualquier correo entrante que no sea respuesta a un registro existente "
 "creará un nuevo registro de este modelo (por ejemplo, una tarea de "
 "proyecto)."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5005,6 +5088,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5049,6 +5135,7 @@ msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
 "<jobs@example.odoo.com>"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5581,6 +5668,10 @@ msgstr ""
 "El nombre del alias del correo, por ejemplo, \"vacantes\" para recibir los "
 "mensajes de <vacantes@ejemplo.odoo.com>."
 >>>>>>> upstream/18.0
+=======
+"El nombre del alias del correo, por ejemplo, \"vacantes\" para recibir los "
+"mensajes de <vacantes@ejemplo.odoo.com>."
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #. odoo-python
@@ -5669,8 +5760,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Aquí aparecerán los correos que la gente envíe al seudónimo de esta lista."
+=======
+msgstr "Aquí aparecerán los correos que la gente envíe al alias de esta lista."
+>>>>>>> upstream/18.0
 =======
 msgstr "Aquí aparecerán los correos que la gente envíe al alias de esta lista."
 >>>>>>> upstream/18.0
@@ -5785,7 +5880,11 @@ msgid "alias"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "seudónimo"
+=======
+msgstr "alias"
+>>>>>>> upstream/18.0
 =======
 msgstr "alias"
 >>>>>>> upstream/18.0
