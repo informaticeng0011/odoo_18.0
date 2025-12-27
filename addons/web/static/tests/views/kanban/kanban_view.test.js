@@ -99,9 +99,12 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     serverState,
     stepAllNetworkCalls,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -232,6 +235,9 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -374,6 +380,10 @@ import { registry } from "@web/core/registry";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { user } from "@web/core/user";
+>>>>>>> upstream/18.0
 =======
 import { user } from "@web/core/user";
 >>>>>>> upstream/18.0
@@ -1205,7 +1215,11 @@ test("empty group when grouped by date", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._records.shift(); // remove only record of the first group
+=======
+    MockServer.env["partner"].shift(); // remove only record of the first group
+>>>>>>> upstream/18.0
 =======
     MockServer.env["partner"].shift(); // remove only record of the first group
 >>>>>>> upstream/18.0
@@ -2738,7 +2752,11 @@ test("kanban with an action id as on_create attrs", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             Partner._records.push({ id: 299, foo: "new" });
+=======
+            MockServer.env["partner"].create({ foo: "new" });
+>>>>>>> upstream/18.0
 =======
             MockServer.env["partner"].create({ foo: "new" });
 >>>>>>> upstream/18.0
@@ -5193,7 +5211,11 @@ test("quick create record fail in grouped by many2one", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views["form,false"] = `
+=======
+    Partner._views["form"] = `
+>>>>>>> upstream/18.0
 =======
     Partner._views["form"] = `
 >>>>>>> upstream/18.0
@@ -5817,7 +5839,11 @@ test("quick create record and click Edit, name_create fails", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views["kanban,false"] = `
+=======
+    Partner._views["kanban"] = `
+>>>>>>> upstream/18.0
 =======
     Partner._views["kanban"] = `
 >>>>>>> upstream/18.0
@@ -6405,9 +6431,14 @@ test("quick create record and click Edit, name_create fails", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views["search,false"] = "<search/>";
     Partner._views["list,false"] = '<list><field name="foo"/></list>';
     Partner._views["form,false"] = `
+=======
+    Partner._views["list"] = '<list><field name="foo"/></list>';
+    Partner._views["form"] = `
+>>>>>>> upstream/18.0
 =======
     Partner._views["list"] = '<list><field name="foo"/></list>';
     Partner._views["form"] = `
@@ -7176,7 +7207,11 @@ test("quick create record is re-enabled after discard on failure", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views["form,false"] = `
+=======
+    Partner._views["form"] = `
+>>>>>>> upstream/18.0
 =======
     Partner._views["form"] = `
 >>>>>>> upstream/18.0
@@ -7798,7 +7833,11 @@ test("quick create record fails in grouped by char", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views["form,false"] = '<form><field name="foo"/></form>';
+=======
+    Partner._views["form"] = '<form><field name="foo"/></form>';
+>>>>>>> upstream/18.0
 =======
     Partner._views["form"] = '<form><field name="foo"/></form>';
 >>>>>>> upstream/18.0
@@ -8426,7 +8465,11 @@ test("quick create record fails in grouped by selection", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views["form,false"] = '<form><field name="state"/></form>';
+=======
+    Partner._views["form"] = '<form><field name="state"/></form>';
+>>>>>>> upstream/18.0
 =======
     Partner._views["form"] = '<form><field name="state"/></form>';
 >>>>>>> upstream/18.0
@@ -9697,7 +9740,11 @@ test("Open record when clicking on widget field", async function (assert) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Product._views["form,false"] = `<form string="Product"><field name="display_name"/></form>`;
+=======
+    Product._views["form"] = `<form string="Product"><field name="display_name"/></form>`;
+>>>>>>> upstream/18.0
 =======
     Product._views["form"] = `<form string="Product"><field name="display_name"/></form>`;
 >>>>>>> upstream/18.0
@@ -11767,7 +11814,11 @@ test("edit a column in grouped on m2o", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Product._views["form,false"] = `
+=======
+    Product._views["form"] = `
+>>>>>>> upstream/18.0
 =======
     Product._views["form"] = `
 >>>>>>> upstream/18.0
@@ -12415,7 +12466,11 @@ test("edit a column propagates right context", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Product._views["form,false"] = `
+=======
+    Product._views["form"] = `
+>>>>>>> upstream/18.0
 =======
     Product._views["form"] = `
 >>>>>>> upstream/18.0
@@ -14301,7 +14356,11 @@ test("sample data does not change after reload with sample data", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views["kanban,false"] = `
+=======
+    Partner._views["kanban"] = `
+>>>>>>> upstream/18.0
 =======
     Partner._views["kanban"] = `
 >>>>>>> upstream/18.0
@@ -14889,9 +14948,14 @@ test("sample data does not change after reload with sample data", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views["search,false"] = "<search/>";
     // list-view so that there is a view switcher, unused
     Partner._views["list,false"] = '<list><field name="foo"/></list>';
+=======
+    // list-view so that there is a view switcher, unused
+    Partner._views["list"] = '<list><field name="foo"/></list>';
+>>>>>>> upstream/18.0
 =======
     // list-view so that there is a view switcher, unused
     Partner._views["list"] = '<list><field name="foo"/></list>';
@@ -15687,6 +15751,7 @@ test("empty grouped kanban with sample data: add a column", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         result.groups = Product._records.map((r) => {
             return {
                 product_id: [r.id, r.display_name],
@@ -15695,6 +15760,8 @@ test("empty grouped kanban with sample data: add a column", async () => {
             };
         });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -16132,6 +16199,9 @@ test("empty grouped kanban with sample data: add a column", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16692,6 +16762,7 @@ test("empty grouped kanban with sample data: add a column and delete it right aw
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         result.groups = Product._records.map((r) => {
             return {
                 product_id: [r.id, r.display_name],
@@ -16700,6 +16771,8 @@ test("empty grouped kanban with sample data: add a column and delete it right aw
             };
         });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -17137,6 +17210,9 @@ test("empty grouped kanban with sample data: add a column and delete it right aw
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17623,6 +17699,7 @@ test("kanban with sample data: do an on_create action", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     onRpc("/web/action/load", () => {
         return {
             type: "ir.actions.act_window",
@@ -17634,6 +17711,8 @@ test("kanban with sample data: do an on_create action", async () => {
         };
     });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -18074,6 +18153,9 @@ test("kanban with sample data: do an on_create action", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18709,7 +18791,11 @@ test("button executes action and check domain", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     for (let i = 0; i < Partner.length; i++) {
+=======
+    for (let i = 0; i < Partner._records.length; i++) {
+>>>>>>> upstream/18.0
 =======
     for (let i = 0; i < Partner._records.length; i++) {
 >>>>>>> upstream/18.0
@@ -19295,7 +19381,11 @@ test("button executes action and check domain", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             Partner._records[0].active = false;
+=======
+            MockServer.env["partner"][0].active = false;
+>>>>>>> upstream/18.0
 =======
             MockServer.env["partner"][0].active = false;
 >>>>>>> upstream/18.0
@@ -23403,7 +23493,11 @@ test("folded groups kept when leaving/coming back", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "kanban,false": `
+=======
+        kanban: `
+>>>>>>> upstream/18.0
 =======
         kanban: `
 >>>>>>> upstream/18.0
@@ -23991,8 +24085,11 @@ test("folded groups kept when leaving/coming back", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "search,false": "<search/>",
         "form,false": "<form/>",
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -24467,7 +24564,11 @@ test("filter groups kept when leaving/coming back", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "kanban,false": `
+=======
+        kanban: `
+>>>>>>> upstream/18.0
 =======
         kanban: `
 >>>>>>> upstream/18.0
@@ -25056,8 +25157,12 @@ test("filter groups kept when leaving/coming back", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "search,false": "<search/>",
         "form,false": `
+=======
+        form: `
+>>>>>>> upstream/18.0
 =======
         form: `
 >>>>>>> upstream/18.0
@@ -25687,7 +25792,11 @@ test("folded groups kept when leaving/coming back (grouped by date)", async () =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "kanban,false": `
+=======
+        kanban: `
+>>>>>>> upstream/18.0
 =======
         kanban: `
 >>>>>>> upstream/18.0
@@ -26275,8 +26384,11 @@ test("folded groups kept when leaving/coming back (grouped by date)", async () =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "search,false": "<search/>",
         "form,false": "<form/>",
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -26750,7 +26862,11 @@ test("loaded records kept when leaving/coming back", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "kanban,false": `
+=======
+        kanban: `
+>>>>>>> upstream/18.0
 =======
         kanban: `
 >>>>>>> upstream/18.0
@@ -27338,8 +27454,11 @@ test("loaded records kept when leaving/coming back", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "search,false": "<search/>",
         "form,false": "<form/>",
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -28741,7 +28860,11 @@ test("quick create record in grouped kanban in a form view dialog", async () => 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views["form,false"] = `<form><field name="bar"/></form>`;
+=======
+    Partner._views["form"] = `<form><field name="bar"/></form>`;
+>>>>>>> upstream/18.0
 =======
     Partner._views["form"] = `<form><field name="bar"/></form>`;
 >>>>>>> upstream/18.0
@@ -29561,7 +29684,11 @@ test("drag & drop: content scrolls when reaching the edges", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains(".o_kanban_renderer").focus();
+=======
+    await contains(".o_kanban_renderer").click();
+>>>>>>> upstream/18.0
 =======
     await contains(".o_kanban_renderer").click();
 >>>>>>> upstream/18.0
@@ -30666,7 +30793,12 @@ test("Keep scrollTop when loading records with load more", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains(clickKanbanLoadMoreButton).click();
+=======
+    clickKanbanLoadMoreButton.click();
+    await animationFrame();
+>>>>>>> upstream/18.0
 =======
     clickKanbanLoadMoreButton.click();
     await animationFrame();
@@ -31854,9 +31986,14 @@ test("kanbans with basic and custom compiler, same arch", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views["form,false"] = `<form><field name="one2many" mode="kanban"/></form>`;
     Partner._views["search,false"] = `<search/>`;
     Partner._views["kanban,false"] = `
+=======
+    Partner._views["form"] = `<form><field name="one2many" mode="kanban"/></form>`;
+    Partner._views["kanban"] = `
+>>>>>>> upstream/18.0
 =======
     Partner._views["form"] = `<form><field name="one2many" mode="kanban"/></form>`;
     Partner._views["kanban"] = `
@@ -32843,7 +32980,12 @@ test("group by numeric field (with aggregator)", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test.tags("desktop")("drag and drop records and quickly open a record", async () => {
+=======
+test.tags("desktop");
+test("drag and drop records and quickly open a record", async () => {
+>>>>>>> upstream/18.0
 =======
 test.tags("desktop");
 test("drag and drop records and quickly open a record", async () => {
@@ -33724,6 +33866,7 @@ test("hide pager in the kanban view with sample data", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o_cp_pager").not.toBeVisible();
 =======
     expect(".o_cp_pager").not.toHaveCount();
@@ -34071,6 +34214,8 @@ test("hide pager in the kanban view with sample data", async () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     expect(".o_cp_pager").not.toHaveCount();
 });
 
@@ -34167,6 +34312,7 @@ test("limit is reset when restoring a view after ungrouping", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -34237,6 +34383,8 @@ test("limit is reset when restoring a view after ungrouping", async () => {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -34296,6 +34444,9 @@ test("add o-navigable to buttons with dropdown-item class and view buttons", asy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

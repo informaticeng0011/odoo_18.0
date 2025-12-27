@@ -167,7 +167,11 @@ QUnit.module('partner_autocomplete', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <field name="parent_id" widget="res_partner_many2one"/>
+=======
+                <field name="parent_id" widget="res_partner_many2one" placeholder="Company Name..."/>
+>>>>>>> upstream/18.0
 =======
                 <field name="parent_id" widget="res_partner_many2one" placeholder="Company Name..."/>
 >>>>>>> upstream/18.0
@@ -338,7 +342,11 @@ QUnit.module('partner_autocomplete', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         assert.expect(12);
+=======
+        assert.expect(13);
+>>>>>>> upstream/18.0
 =======
         assert.expect(13);
 >>>>>>> upstream/18.0
@@ -473,7 +481,10 @@ QUnit.module('partner_autocomplete', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -569,6 +580,9 @@ QUnit.module('partner_autocomplete', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

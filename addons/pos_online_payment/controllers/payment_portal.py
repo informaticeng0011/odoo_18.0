@@ -228,7 +228,11 @@ class PaymentPortal(payment_portal.PaymentPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             user_sudo = request.env.ref('base.public_user')
+=======
+            user_sudo = pos_order_sudo.company_id._get_public_user()
+>>>>>>> upstream/18.0
 =======
             user_sudo = pos_order_sudo.company_id._get_public_user()
 >>>>>>> upstream/18.0
@@ -838,7 +842,11 @@ class PaymentPortal(payment_portal.PaymentPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             user_sudo = request.env.ref('base.public_user')
+=======
+            user_sudo = pos_order_sudo.company_id._get_public_user()
+>>>>>>> upstream/18.0
 =======
             user_sudo = pos_order_sudo.company_id._get_public_user()
 >>>>>>> upstream/18.0
@@ -1451,9 +1459,12 @@ class PaymentPortal(payment_portal.PaymentPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return self._render_pay_confirmation(rendering_context)
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1778,6 +1789,9 @@ class PaymentPortal(payment_portal.PaymentPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

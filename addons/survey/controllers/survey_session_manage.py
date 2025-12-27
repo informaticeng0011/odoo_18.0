@@ -333,6 +333,11 @@ class UserInputSession(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if not question:
+            return {}
+>>>>>>> upstream/18.0
 =======
         if not question:
             return {}

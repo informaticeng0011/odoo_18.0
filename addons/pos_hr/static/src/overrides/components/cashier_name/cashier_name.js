@@ -7,7 +7,13 @@ patch(CashierName.prototype, {
         super.setup(...arguments);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.cashierSelector = useCashierSelector();
+=======
+        if (this.pos.config.module_pos_hr) {
+            this.cashierSelector = useCashierSelector();
+        }
+>>>>>>> upstream/18.0
 =======
         if (this.pos.config.module_pos_hr) {
             this.cashierSelector = useCashierSelector();

@@ -103,6 +103,10 @@ from odoo import Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.exceptions import ValidationError
+>>>>>>> upstream/18.0
 =======
 from odoo.exceptions import ValidationError
 >>>>>>> upstream/18.0
@@ -599,6 +603,7 @@ class TestManual(common.TestAr):
             if len_l10n_ar_price_unit_digits == len_line_price_unit_digits == decimal_price_digits_setting:
                 self.assertEqual(l10n_ar_price_unit_decimal_part, line_price_unit_decimal_part)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1376,6 +1381,9 @@ class TestManual(common.TestAr):
 =======
     def test_18_invoice_b_tax_breakdown_1(self):
 >>>>>>> upstream/18.0
+=======
+    def test_18_invoice_b_tax_breakdown_1(self):
+>>>>>>> upstream/18.0
         """ Display Both VAT and Other Taxes """
         invoice = self._create_invoice_from_dict({
             'ref': 'test_invoice_20:  Final Consumer Invoice B with multiple vat/perceptions/internal/other/national taxes',
@@ -1429,6 +1437,7 @@ class TestManual(common.TestAr):
                             'id': self.tax_other.tax_group_id.id,
                             'base_amount_currency': 10000.0,
                             'tax_amount_currency': 100.0,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1686,12 +1695,16 @@ class TestManual(common.TestAr):
 =======
                             'display_base_amount_currency': False,
 >>>>>>> upstream/18.0
+=======
+                            'display_base_amount_currency': False,
+>>>>>>> upstream/18.0
                         },
                     ],
                 },
             ],
         })
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2352,6 +2365,8 @@ class TestManual(common.TestAr):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     def test_19_invoice_b_tax_breakdown_2(self):
         """ Display only Other Taxes (VAT taxes are 0) """
         invoice = self._create_invoice_from_dict({
@@ -2474,6 +2489,9 @@ class TestManual(common.TestAr):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2844,9 +2862,12 @@ class TestManual(common.TestAr):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'name': 'Other National Ind. Taxes $',
             },
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3209,6 +3230,9 @@ class TestManual(common.TestAr):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3649,6 +3673,7 @@ class TestManual(common.TestAr):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -3799,6 +3824,8 @@ class TestManual(common.TestAr):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4183,6 +4210,9 @@ class TestManual(common.TestAr):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4644,6 +4674,7 @@ class TestManual(common.TestAr):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4828,6 +4859,8 @@ class TestManual(common.TestAr):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5138,6 +5171,7 @@ class TestManual(common.TestAr):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5256,6 +5290,8 @@ class TestManual(common.TestAr):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5408,6 +5444,9 @@ class TestManual(common.TestAr):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

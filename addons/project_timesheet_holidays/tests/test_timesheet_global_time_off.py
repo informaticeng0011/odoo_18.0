@@ -550,9 +550,15 @@ class TestTimesheetGlobalTimeOff(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # create overlapping global time off
         global_leave_start_datetime = hr_leave_start_datetime + timedelta(days=2)
         global_leave_end_datetime = global_leave_start_datetime + timedelta(hours=9)
+=======
+        # create overlapping global time off, with some margin over working day to account for different timezones
+        global_leave_start_datetime = hr_leave_start_datetime + timedelta(days=2, hours=-3)
+        global_leave_end_datetime = global_leave_start_datetime + timedelta(hours=12)
+>>>>>>> upstream/18.0
 =======
         # create overlapping global time off, with some margin over working day to account for different timezones
         global_leave_start_datetime = hr_leave_start_datetime + timedelta(days=2, hours=-3)
@@ -1252,7 +1258,10 @@ class TestTimesheetGlobalTimeOff(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1586,6 +1595,9 @@ class TestTimesheetGlobalTimeOff(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1921,7 +1933,10 @@ class TestTimesheetGlobalTimeOff(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2251,6 +2266,7 @@ class TestTimesheetGlobalTimeOff(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2275,6 +2291,8 @@ class TestTimesheetGlobalTimeOff(common.TransactionCase):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2579,6 +2597,9 @@ class TestTimesheetGlobalTimeOff(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

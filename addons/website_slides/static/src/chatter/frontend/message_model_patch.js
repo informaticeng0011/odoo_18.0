@@ -50,7 +50,11 @@ const messagePatch = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const data = await super.remove();
+=======
+        const data = await super.remove(...arguments);
+>>>>>>> upstream/18.0
 =======
         const data = await super.remove(...arguments);
 >>>>>>> upstream/18.0
@@ -275,7 +279,13 @@ const messagePatch = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.store.env.bus.trigger("reload_rating_popup_composer", data);
+=======
+        if (data) {
+            this.store.env.bus.trigger("reload_rating_popup_composer", data);
+        }
+>>>>>>> upstream/18.0
 =======
         if (data) {
             this.store.env.bus.trigger("reload_rating_popup_composer", data);

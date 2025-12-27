@@ -144,7 +144,10 @@ class TestPOSLoyaltyHistory(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -541,6 +544,7 @@ class TestPOSLoyaltyHistory(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -749,6 +753,8 @@ class TestPOSLoyaltyHistory(TestPointOfSaleHttpCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -792,6 +798,9 @@ class TestPOSLoyaltyHistory(TestPointOfSaleHttpCommon):
         loyalty_card = self.env['loyalty.card'].search([('code', '=', 'test-code')])
         self.assertEqual(loyalty_card.partner_id, test_partner)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
