@@ -131,7 +131,11 @@ class WebsiteEventController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'displayDescription': False,
+=======
+            'displayDescription': True,
+>>>>>>> upstream/18.0
 =======
             'displayDescription': True,
 >>>>>>> upstream/18.0

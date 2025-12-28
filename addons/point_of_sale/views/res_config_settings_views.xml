@@ -219,7 +219,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                         <field name="pos_rounding_method" required="pos_cash_rounding" readonly="pos_has_active_session"/>
+=======
+                                        <field name="pos_rounding_method" required="pos_cash_rounding" readonly="pos_has_active_session" options="{'no_quick_create': True}" />
+>>>>>>> upstream/18.0
 =======
                                         <field name="pos_rounding_method" required="pos_cash_rounding" readonly="pos_has_active_session" options="{'no_quick_create': True}" />
 >>>>>>> upstream/18.0
@@ -1035,7 +1039,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <setting id="stripe_payment_terminal_setting" title="The transactions are processed by Stripe. Set your Stripe credentials on the related payment method." string="Stripe" help="Accept payments with a Stripe payment terminal" documentation="applications/sales/point_of_sale/payment_methods/terminals/stripe.html">
+=======
+                            <setting id="stripe_payment_terminal_setting" title="The transactions are processed by Stripe. Set your Stripe credentials on the related payment method." string="Stripe" help="Accept payments with a Stripe payment terminal" documentation="/applications/sales/point_of_sale/payment_methods/terminals/stripe.html">
+>>>>>>> upstream/18.0
 =======
                             <setting id="stripe_payment_terminal_setting" title="The transactions are processed by Stripe. Set your Stripe credentials on the related payment method." string="Stripe" help="Accept payments with a Stripe payment terminal" documentation="/applications/sales/point_of_sale/payment_methods/terminals/stripe.html">
 >>>>>>> upstream/18.0

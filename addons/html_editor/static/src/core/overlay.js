@@ -105,6 +105,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { Component, onWillDestroy, useEffect, useExternalListener, useRef, xml } from "@odoo/owl";
 import { usePosition } from "@web/core/position/position_hook";
 import { useActiveElement } from "@web/core/ui/ui_service";
@@ -565,6 +566,8 @@ import { closestScrollableY } from "@web/core/utils/scrolling";
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 import {
     Component,
     onWillDestroy,
@@ -684,6 +687,9 @@ import { closestScrollableY } from "@web/core/utils/scrolling";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1093,6 +1099,12 @@ export class EditorOverlay extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+        this.overlayState = useState({ isOverlayVisible: true });
+        useSubEnv({ overlayState: this.overlayState });
+>>>>>>> upstream/18.0
 =======
 
         this.overlayState = useState({ isOverlayVisible: true });
@@ -1843,6 +1855,7 @@ export class EditorOverlay extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const containerRect = this.props.getContainer().getBoundingClientRect();
 =======
         const container = closestScrollableY(this.props.editable) || this.props.getContainer();
@@ -2302,6 +2315,8 @@ export class EditorOverlay extends Component {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         const container = closestScrollableY(this.props.editable) || this.props.getContainer();
         const containerRect = container.getBoundingClientRect();
         const shouldBeVisible = solution.top > containerRect.top;
@@ -2413,6 +2428,9 @@ export class EditorOverlay extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -524,7 +524,11 @@ class Warehouse(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 self[picking_type].sudo().sequence_id.write(sequence_data[picking_type])
+=======
+                self[picking_type].sudo().sequence_id.write({'company_id': self.company_id.id})
+>>>>>>> upstream/18.0
 =======
                 self[picking_type].sudo().sequence_id.write({'company_id': self.company_id.id})
 >>>>>>> upstream/18.0
@@ -1008,6 +1012,7 @@ class Warehouse(models.Model):
         """ return a route record set from an xml_id or its name. """
         data_route = route = self.env.ref(xml_id, raise_if_not_found=False)
         company = self.company_id[:1] or self.env.company
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1709,6 +1714,9 @@ class Warehouse(models.Model):
 =======
         if not route or (route.sudo().company_id and route.sudo().company_id != company):
 >>>>>>> upstream/18.0
+=======
+        if not route or (route.sudo().company_id and route.sudo().company_id != company):
+>>>>>>> upstream/18.0
             route = self.env['stock.route'].with_context(active_test=False).search([
                 ('name', 'like', route_name), ('company_id', 'in', [False, company.id])
             ], order='company_id', limit=1)
@@ -1777,7 +1785,11 @@ class Warehouse(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 route = data_route.copy({'name': data_route.name, 'company_id': company.id, 'rule_ids': False})
+=======
+                route = data_route.copy({'name': route_name, 'company_id': company.id, 'rule_ids': False})
+>>>>>>> upstream/18.0
 =======
                 route = data_route.copy({'name': route_name, 'company_id': company.id, 'rule_ids': False})
 >>>>>>> upstream/18.0

@@ -249,7 +249,10 @@ describe("insert tabulation", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -898,6 +901,9 @@ describe("insert tabulation", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1304,7 +1310,11 @@ describe("insert tabulation", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should insert tab characters at the beginning of two separate paragraphs (one indented, the other not)", async () => {
+=======
+    test("should insert tab characters at the beginning of two separate paragraphs (one indented, the other not) (1)", async () => {
+>>>>>>> upstream/18.0
 =======
     test("should insert tab characters at the beginning of two separate paragraphs (one indented, the other not) (1)", async () => {
 >>>>>>> upstream/18.0
@@ -1347,6 +1357,12 @@ describe("insert tabulation", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should insert tab characters at the beginning of two separate paragraphs (one indented, the other not) (2)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -1613,8 +1629,13 @@ describe("delete backward tabulation", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should remove one tab character", async () => {
         const tabAfterA = TAB_WIDTH - getCharWidth("p", "a");
+=======
+    const tabAfterA = TAB_WIDTH - getCharWidth("p", "a");
+    test("should remove one tab character (1)", async () => {
+>>>>>>> upstream/18.0
 =======
     const tabAfterA = TAB_WIDTH - getCharWidth("p", "a");
     test("should remove one tab character (1)", async () => {
@@ -1662,6 +1683,12 @@ describe("delete backward tabulation", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should remove one tab character (2)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -1719,8 +1746,12 @@ describe("delete backward tabulation", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should remove two tab characters", async () => {
         const tabAfterA = TAB_WIDTH - getCharWidth("p", "a");
+=======
+    test("should remove two tab characters (1)", async () => {
+>>>>>>> upstream/18.0
 =======
     test("should remove two tab characters (1)", async () => {
 >>>>>>> upstream/18.0
@@ -1761,6 +1792,12 @@ describe("delete backward tabulation", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should remove two tab characters (2)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -1833,8 +1870,13 @@ describe("delete forward tabulation", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should remove one tab character", async () => {
         const tabAfterA = TAB_WIDTH - getCharWidth("p", "a");
+=======
+    const tabAfterA = TAB_WIDTH - getCharWidth("p", "a");
+    test("should remove one tab character (1)", async () => {
+>>>>>>> upstream/18.0
 =======
     const tabAfterA = TAB_WIDTH - getCharWidth("p", "a");
     test("should remove one tab character (1)", async () => {
@@ -1882,6 +1924,12 @@ describe("delete forward tabulation", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should remove one tab character (2)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -1937,6 +1985,12 @@ describe("delete forward tabulation", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should remove one tab character (3)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -1994,8 +2048,12 @@ describe("delete forward tabulation", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should remove two tab characters", async () => {
         const tabAfterA = TAB_WIDTH - getCharWidth("p", "a");
+=======
+    test("should remove two tab characters (1)", async () => {
+>>>>>>> upstream/18.0
 =======
     test("should remove two tab characters (1)", async () => {
 >>>>>>> upstream/18.0
@@ -2036,6 +2094,12 @@ describe("delete forward tabulation", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should remove two tab characters (2)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -2092,6 +2156,12 @@ describe("delete forward tabulation", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should remove two tab characters (3)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -2164,8 +2234,13 @@ describe("delete mixed tabulation", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should remove all tab characters", async () => {
         const tabAfterA = TAB_WIDTH - getCharWidth("p", "a");
+=======
+    const tabAfterA = TAB_WIDTH - getCharWidth("p", "a");
+    test("should remove all tab characters (1)", async () => {
+>>>>>>> upstream/18.0
 =======
     const tabAfterA = TAB_WIDTH - getCharWidth("p", "a");
     test("should remove all tab characters (1)", async () => {
@@ -2214,6 +2289,12 @@ describe("delete mixed tabulation", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should remove all tab characters (2)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -2270,6 +2351,12 @@ describe("delete mixed tabulation", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should remove all tab characters (3)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -2327,6 +2414,12 @@ describe("delete mixed tabulation", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should remove all tab characters (4)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -2451,7 +2544,11 @@ describe("remove tabulation with shift+tab", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should remove tab characters from the beginning of two separate paragraphs of mixed indentations", async () => {
+=======
+    test("should remove tab characters from the beginning of two separate paragraphs of mixed indentations (1)", async () => {
+>>>>>>> upstream/18.0
 =======
     test("should remove tab characters from the beginning of two separate paragraphs of mixed indentations (1)", async () => {
 >>>>>>> upstream/18.0
@@ -2490,6 +2587,12 @@ describe("remove tabulation with shift+tab", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should remove tab characters from the beginning of two separate paragraphs of mixed indentations (2)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 

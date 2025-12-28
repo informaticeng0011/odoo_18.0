@@ -81,7 +81,11 @@ import { urlParams } from "./core/url";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { makeRuntimeHook } from "./hoot_utils";
+=======
+import { copyAndBind, makeRuntimeHook } from "./hoot_utils";
+>>>>>>> upstream/18.0
 =======
 import { copyAndBind, makeRuntimeHook } from "./hoot_utils";
 >>>>>>> upstream/18.0
@@ -398,7 +402,10 @@ import { setupHootUI } from "./ui/setup_hoot_ui";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -648,6 +655,9 @@ import { setupHootUI } from "./ui/setup_hoot_ui";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -899,6 +909,7 @@ setRunner(runner);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /**
  * @param {...unknown} values
  */
@@ -906,6 +917,8 @@ export function registerDebugInfo(...values) {
     logger.logDebug(...values);
 }
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1145,7 +1158,11 @@ export const test = runner.test;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 // Hooks
+=======
+// Test hooks
+>>>>>>> upstream/18.0
 =======
 // Test hooks
 >>>>>>> upstream/18.0
@@ -1467,7 +1484,11 @@ export const getFixture = runner.fixture.get;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 // Other functions
+=======
+// Other test runner functions
+>>>>>>> upstream/18.0
 =======
 // Other test runner functions
 >>>>>>> upstream/18.0
@@ -1714,6 +1735,7 @@ export { defineTags } from "./core/tag";
 export { createJobScopedGetter } from "./hoot_utils";
 
 // Constants
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2123,6 +2145,8 @@ export const isHootReady = setupHootUI();
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 export const globals = copyAndBind(globalThis);
 export const isHootReady = setupHootUI();
 
@@ -2149,7 +2173,11 @@ export { mockPermission, mockSendBeacon, mockUserAgent, mockVibrate } from "./mo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 export { mockFetch, mockLocation, mockWebSocket, mockWorker } from "./mock/network";
+=======
+export { mockFetch, mockLocation, mockWebSocket, mockWorker, withFetch } from "./mock/network";
+>>>>>>> upstream/18.0
 =======
 export { mockFetch, mockLocation, mockWebSocket, mockWorker, withFetch } from "./mock/network";
 >>>>>>> upstream/18.0
@@ -2372,6 +2400,9 @@ export function registerDebugInfo(...values) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

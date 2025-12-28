@@ -130,7 +130,11 @@ registry.category("web_tour.tours").add('update_billing_shipping_address', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ...tourUtils.addToCart({productName: "Office Chair Black TEST"}),
+=======
+        ...tourUtils.addToCart({ productName: "Office Chair Black TEST", expectUnloadPage: true }),
+>>>>>>> upstream/18.0
 =======
         ...tourUtils.addToCart({ productName: "Office Chair Black TEST", expectUnloadPage: true }),
 >>>>>>> upstream/18.0
@@ -634,6 +638,10 @@ registry.category("web_tour.tours").add('update_billing_shipping_address', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -1135,6 +1143,10 @@ registry.category("web_tour.tours").add('update_billing_shipping_address', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0

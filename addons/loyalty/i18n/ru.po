@@ -107,6 +107,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* loyalty
 # 
 # Translators:
@@ -510,6 +511,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # * loyalty
 #
 # Translators:
@@ -623,6 +626,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -840,6 +846,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1533,6 +1540,10 @@ msgstr ""
 "POT-Creation-Date: 2025-12-12 18:37+0000\n"
 >>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-09-09 08:28+0000\n"
+=======
+"POT-Creation-Date: 2025-12-12 18:37+0000\n"
+"PO-Revision-Date: 2025-12-26 13:59+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: \"Anastasiia Koroleva (koan)\" <koan@odoo.com>\n"
 "Language-Team: Russian <https://translate.odoo.com/projects/odoo-18/loyalty/"
 "ru/>\n"
@@ -1540,6 +1551,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1905,11 +1917,18 @@ msgstr ""
 "(n%100>=11 && n%100<=14)? 2 : 3);\n"
 "X-Generator: Weblate 5.12.2\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=4; plural="
+"(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 "
+": n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,help:loyalty.field_loyalty_program__trigger
 msgid ""
 "\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1932,6 +1951,8 @@ msgstr ""
 "        Автоматически: Покупатели получат право на вознаграждение автоматически в своей корзине.\n"
 "        Использовать код: Покупатели получат право на вознаграждение, если введут код.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1982,6 +2003,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2033,7 +2057,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Управляйте тем, где ваша программа должна быть доступна для использования.\n"
+=======
+"        Управляйте тем, где ваша программа должна быть доступна для "
+"использования.\n"
+>>>>>>> upstream/18.0
 =======
 "        Управляйте тем, где ваша программа должна быть доступна для "
 "использования.\n"
@@ -2110,12 +2139,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Show in web portal, PoS customer ticket, eCommerce checkout, the number of points available and used by reward.\n"
 "        "
 msgstr ""
 "\n"
 "        Показывайте на веб-портале, в билете покупателя PoS, в кассе электронной коммерции количество доступных и использованных баллов за вознаграждение.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2163,6 +2195,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2320,7 +2355,11 @@ msgid "%s on "
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s на "
+>>>>>>> upstream/18.0
 =======
 msgstr "%s на "
 >>>>>>> upstream/18.0
@@ -2781,7 +2820,11 @@ msgid "-> View History"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "-> Посмотреть историю"
+>>>>>>> upstream/18.0
 =======
 msgstr "-> Посмотреть историю"
 >>>>>>> upstream/18.0
@@ -3154,6 +3197,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                <div style=\"margin:0px; font-size:24px; font-family:arial, 'helvetica neue', helvetica, sans-serif; line-height:36px; color:#333333; text-align: center\">\n"
 "                    Here is your gift card!\n"
 "                </div>\n"
@@ -3177,6 +3221,8 @@ msgid ""
 "                    <span style=\"background-color:#999999; display:inline-block; width:auto; border-radius:5px;\">\n"
 "                        <a t-attf-href=\"{{ object.get_base_url() }}/shop\" target=\"_blank\" style=\"text-decoration:none; font-family:arial, 'helvetica neue', helvetica, sans-serif; font-size:22px; color:#FFFFFF; border-style:solid; border-color:#999999; border-width:20px 30px; display:inline-block; background-color:#999999; border-radius:5px; font-weight:bold; font-style:normal; line-height:26px; width:auto; text-align:center\">Use it right now!</a>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3263,6 +3309,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3402,7 +3451,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3636,6 +3688,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <img src=\"/loyalty/static/img/gift_card.png\" style="
 "\"display:block; border:0; outline:none; text-decoration:none; margin:auto;\""
 " width=\"300\"/>\n"
@@ -3649,6 +3702,8 @@ msgstr ""
 "\"format_amount(object.points, object.currency_id) or ''\">150,00 "
 "$</strong></h3>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3699,6 +3754,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3734,6 +3792,7 @@ msgstr ""
 "                        <strong>Код подарочного сертификата</strong>\n"
 "                    </p>\n"
 "                    <p style=\"margin:0px; font-size:25px;font-family:arial, "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3788,6 +3847,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "'helvetica neue', helvetica, sans-serif; line-height:38px; color:#A9A9A9\" t-"
 "out=\"object.code or ''\">4f10-15d6-41b7-b04c-7b3e</p>\n"
 "                </div>\n"
@@ -3814,6 +3875,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3860,11 +3924,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "border-style:solid; border-color:#999999; border-width:20px 30px; display"
 ":inline-block; background-color:#999999; border-radius:5px; font-weight:bold;"
 " font-style:normal; line-height:26px; width:auto; text-align:center\""
 ">Воспользуйтесь сертификатом как можно скорее!</a>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3908,6 +3975,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4045,6 +4115,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4286,9 +4359,12 @@ msgstr "<i class=\"fa fa-cube fa-fw\" title=\"Products\"/>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-cube fa-fw\" title=\"Products\"/><span>All Products</span>"
 msgstr "<i class=\"fa fa-cube fa-fw\" title=\"Products\"/><span>Все товары</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4332,6 +4408,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4395,6 +4474,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span class=\"o_stat_text\" invisible=\"program_type not in ('coupons', 'next_order_coupons')\">Coupons</span>\n"
 "                                <span class=\"o_stat_text\" invisible=\"program_type != 'loyalty'\">Loyalty Cards</span>\n"
 "                                <span class=\"o_stat_text\" invisible=\"program_type not in ('promotion', 'buy_x_get_y')\">Promos</span>\n"
@@ -4409,6 +4489,8 @@ msgstr ""
 "                                <span class=\"o_stat_text\" invisible=\"program_type != 'gift_card'\">Подарочные карты</span>\n"
 "                                <span class=\"o_stat_text\" invisible=\"program_type != 'ewallet'\">электронные кошельки</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4475,6 +4557,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4529,8 +4614,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span colspan=\"2\" invisible=\"program_type != 'coupons'\">Grant the amount"
 " of coupon points defined as the coupon value</span>"
+=======
+"<span colspan=\"2\" invisible=\"program_type != 'coupons'\">Grant the amount "
+"of coupon points defined as the coupon value</span>"
+>>>>>>> upstream/18.0
 =======
 "<span colspan=\"2\" invisible=\"program_type != 'coupons'\">Grant the amount "
 "of coupon points defined as the coupon value</span>"
@@ -4723,7 +4813,11 @@ msgid "<span>History</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>История</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>История</span>"
 >>>>>>> upstream/18.0
@@ -5088,6 +5182,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"width:100%; margin:0px auto; background:#ffffff; color:#333333;\"><tbody>\n"
 "<tr>\n"
 "    <td valign=\"top\" style=\"text-align: center; font-size: 14px;\">\n"
@@ -5101,6 +5196,8 @@ msgid ""
 "            <t t-if=\"reward.required_points &lt;= object.points\">\n"
 "                <span style=\"font-size: 50px; color: #875A7B; font-weight: bold;\" t-esc=\"reward.description\">Reward Description</span>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5156,6 +5253,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5206,11 +5306,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            before <t t-out=\"object.expiration_date or ''\">2021-06-16</t>\n"
 "        </t>\n"
 "        <p style=\"margin-top: 16px;\">\n"
 "            <strong style=\"padding: 16px 8px 16px 8px; border-radius: 3px; background-color: #F1F1F1;\" t-out=\"object.code or ''\">15637502648479132902</strong>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5257,6 +5360,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5302,7 +5408,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    Minimum purchase of <t t-out=\"rule.minimum_qty or ''\">10</t> products\n"
+=======
+"                    Minimum purchase of <t t-out=\"rule.minimum_qty or "
+"''\">10</t> products\n"
+>>>>>>> upstream/18.0
 =======
 "                    Minimum purchase of <t t-out=\"rule.minimum_qty or "
 "''\">10</t> products\n"
@@ -5377,7 +5488,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    Valid for purchase above <t t-out=\"rule.company_id.currency_id.symbol or ''\">$</t><t t-out=\"'%0.2f' % float(rule.minimum_amount) or ''\">10.00</t>\n"
+=======
+"                    Valid for purchase above <t t-"
+"out=\"rule.company_id.currency_id.symbol or ''\">$</t><t t-out=\"'%0.2f' % "
+"float(rule.minimum_amount) or ''\">10.00</t>\n"
+>>>>>>> upstream/18.0
 =======
 "                    Valid for purchase above <t t-"
 "out=\"rule.company_id.currency_id.symbol or ''\">$</t><t t-out=\"'%0.2f' % "
@@ -5467,10 +5584,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <t t-if=\"object._get_signature()\" data-o-mail-quote-container=\"1\">\n"
 "            <br/>\n"
 "            <t t-out=\"object._get_signature() or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5515,6 +5635,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5655,7 +5778,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5849,13 +5975,21 @@ msgstr ""
 ">Брэндон Фримен</t>!<br/>\n"
 "        </t>\n"
 "\n"
+<<<<<<< HEAD
 "        Ваше бонусное вознаграждение от компании <t t-out="
+=======
+"        Ваш подарок от компании <t t-out="
+>>>>>>> upstream/18.0
 "\"object.program_id.company_id.name or ''\">YourCompany</t>.<br/>\n"
 "\n"
 "        <t t-foreach=\"object.program_id.reward_ids\" t-as=\"reward\">\n"
 "            <t t-if=\"reward.required_points &lt;= object.points\">\n"
 "                <span style=\"font-size: 50px; color: #875A7B; font-weight: "
+<<<<<<< HEAD
 "bold;\" t-esc=\"reward.description\">Описание</span>\n"
+=======
+"bold;\" t-esc=\"reward.description\">Описание вознаграждения</span>\n"
+>>>>>>> upstream/18.0
 "                <br/>\n"
 "            </t>\n"
 "        </t>\n"
@@ -5863,9 +5997,16 @@ msgstr ""
 "</tr>\n"
 "<tr style=\"margin-top: 16px\">\n"
 "    <td valign=\"top\" style=\"text-align: center; font-size: 14px;\">\n"
+<<<<<<< HEAD
 "        Воспользуйтесь этим промокодом до\n"
 "        <t t-if=\"object.expiration_date\">\n"
 "            before <t t-out=\"object.expiration_date or ''\">2021-06-16</t>\n"
+=======
+"        Используйте этот промокод\n"
+"        <t t-if=\"object.expiration_date\">\n"
+"            до <t t-out=\"format_date(object.expiration_date) or ''\""
+">2021-06-16</t>\n"
+>>>>>>> upstream/18.0
 "        </t>\n"
 "        <p style=\"margin-top: 16px;\">\n"
 "            <strong style=\"padding: 16px 8px 16px 8px; border-radius: 3px; "
@@ -5875,20 +6016,35 @@ msgstr ""
 "        <t t-foreach=\"object.program_id.rule_ids\" t-as=\"rule\">\n"
 "            <t t-if=\"rule.minimum_qty not in [0, 1]\">\n"
 "                <span style=\"font-size: 14px;\">\n"
+<<<<<<< HEAD
 "                    Действует при покупке от <t t-out="
 "\"rule.minimum_qty or ''\">10</t> товаров\n"
+=======
+"                    Минимальное количество товаров в заказе <t t-out="
+"\"rule.minimum_qty or ''\">10</t> шт.\n"
+>>>>>>> upstream/18.0
 "                </span><br/>\n"
 "            </t>\n"
 "            <t t-if=\"rule.minimum_amount != 0.00\">\n"
 "                <span style=\"font-size: 14px;\">\n"
+<<<<<<< HEAD
 "                    Действителен при покупке на сумму свыше <t t-out="
 "\"rule.company_id.currency_id.symbol or ''\">$</t><t t-out="
 "\"'%0.2f' % float(rule.minimum_amount) or ''\">10,00</t>\n"
+=======
+"                    Действительно при покупке на сумму свыше <t t-out="
+"\"'%0.2f' % float(rule.minimum_amount) or ''\">10,00</t><t t-out="
+"\"rule.company_id.currency_id.symbol or ''\">$</t>\n"
+>>>>>>> upstream/18.0
 "                </span><br/>\n"
 "            </t>\n"
 "        </t>\n"
 "        <br/>\n"
+<<<<<<< HEAD
 "        Спасибо,\n"
+=======
+"        Спасибо, что вы с нами!\n"
+>>>>>>> upstream/18.0
 "        <t t-if=\"object._get_signature()\" data-o-mail-quote-container=\"1\""
 ">\n"
 "            <br/>\n"
@@ -5991,6 +6147,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6332,7 +6491,11 @@ msgid "A reward is waiting for you"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Вас ждет вознаграждение"
+>>>>>>> upstream/18.0
 =======
 msgstr "Вас ждет вознаграждение"
 >>>>>>> upstream/18.0
@@ -6766,7 +6929,11 @@ msgid "A reward product can't be of type \"combo\"."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Вознаграждение не может быть товаром типа «комбо»."
+>>>>>>> upstream/18.0
 =======
 msgstr "Вознаграждение не может быть товаром типа «комбо»."
 >>>>>>> upstream/18.0
@@ -7260,7 +7427,11 @@ msgid "Among:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Среди:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Среди:"
 >>>>>>> upstream/18.0
@@ -7703,7 +7874,11 @@ msgid "Applied to:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Применено к:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Применено к:"
 >>>>>>> upstream/18.0
@@ -8279,8 +8454,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Создайте новый с нуля или воспользуйтесь одним из шаблонов, приведенных "
 "ниже."
+=======
+"Создайте новый с нуля или воспользуйтесь одним из шаблонов, приведенных ниже."
+>>>>>>> upstream/18.0
 =======
 "Создайте новый с нуля или воспользуйтесь одним из шаблонов, приведенных ниже."
 >>>>>>> upstream/18.0
@@ -8452,7 +8631,11 @@ msgid "Created by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Создано"
+=======
+msgstr "Создано:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Создано:"
 >>>>>>> upstream/18.0
@@ -8892,7 +9075,11 @@ msgid "Created on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Создано"
+=======
+msgstr "Дата создания:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дата создания:"
 >>>>>>> upstream/18.0
@@ -9290,8 +9477,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Define Discount codes on conditional rules then share it with your customers"
 " for rewards."
+=======
+"Define Discount codes on conditional rules then share it with your customers "
+"for rewards."
+>>>>>>> upstream/18.0
 =======
 "Define Discount codes on conditional rules then share it with your customers "
 "for rewards."
@@ -9614,7 +9806,11 @@ msgid "Example: Gift for customer"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Пример: Подарок для клиента"
+>>>>>>> upstream/18.0
 =======
 msgstr "Пример: Подарок для клиента"
 >>>>>>> upstream/18.0
@@ -10053,7 +10249,11 @@ msgid "Expiration date cannot be set on a loyalty card."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Срок действия не может быть установлен на бонусной карте."
+>>>>>>> upstream/18.0
 =======
 msgstr "Срок действия не может быть установлен на бонусной карте."
 >>>>>>> upstream/18.0
@@ -10519,7 +10719,11 @@ msgid "For all customers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Для всех клиентов"
+>>>>>>> upstream/18.0
 =======
 msgstr "Для всех клиентов"
 >>>>>>> upstream/18.0
@@ -10906,9 +11110,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "электронной коммерции, в точках продаж или в обычных заказах, чтобы получить"
 " вознаграждение. Вы можете задать ограничения на его использование с помощью"
 " условного правила."
+=======
+"электронной коммерции, в точках продаж или в обычных заказах, чтобы получить "
+"вознаграждение. Вы можете задать ограничения на его использование с помощью "
+"условного правила."
+>>>>>>> upstream/18.0
 =======
 "электронной коммерции, в точках продаж или в обычных заказах, чтобы получить "
 "вознаграждение. Вы можете задать ограничения на его использование с помощью "
@@ -11003,6 +11213,7 @@ msgid "Generate eWallet"
 msgstr "Создайте электронный кошелек"
 
 #. module: loyalty
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11504,6 +11715,8 @@ msgstr "Сгенерировать {{props.context.program_item_name}}"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_program.py:0
 msgid "Get 10% off on some products, with a code"
@@ -11564,6 +11777,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Gift Cards are created manually or automatically sent by email when the customer orders a gift card product.\n"
 "                                    <br/>\n"
 "                                    Then, Gift Cards can be used to pay orders."
@@ -11572,6 +11786,8 @@ msgstr ""
 "                                   <br/>\n"
 "                                    Затем подарочные карты можно использовать для оплаты заказов."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11622,6 +11838,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11761,7 +11980,11 @@ msgid "Gift For Customer"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Подарок для клиента"
+>>>>>>> upstream/18.0
 =======
 msgstr "Подарок для клиента"
 >>>>>>> upstream/18.0
@@ -12200,7 +12423,11 @@ msgid "Gift for customer"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Подарок для клиента"
+>>>>>>> upstream/18.0
 =======
 msgstr "Подарок для клиента"
 >>>>>>> upstream/18.0
@@ -12547,8 +12774,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Grant 1 credit for each item bought then reward the customer with Y items in"
 " exchange of X credits."
+=======
+"Grant 1 credit for each item bought then reward the customer with Y items in "
+"exchange of X credits."
+>>>>>>> upstream/18.0
 =======
 "Grant 1 credit for each item bought then reward the customer with Y items in "
 "exchange of X credits."
@@ -12739,7 +12971,11 @@ msgid "History Lines"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Строки истории"
+>>>>>>> upstream/18.0
 =======
 msgstr "Строки истории"
 >>>>>>> upstream/18.0
@@ -13172,7 +13408,11 @@ msgid "History for Loyalty cards and Ewallets"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "История для бонусных карт и электронных кошельков"
+>>>>>>> upstream/18.0
 =======
 msgstr "История для бонусных карт и электронных кошельков"
 >>>>>>> upstream/18.0
@@ -13674,7 +13914,11 @@ msgid "Issued"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Выдано"
+>>>>>>> upstream/18.0
 =======
 msgstr "Выдано"
 >>>>>>> upstream/18.0
@@ -14119,7 +14363,11 @@ msgid "Last Transactions"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Последние транзакции"
+>>>>>>> upstream/18.0
 =======
 msgstr "Последние транзакции"
 >>>>>>> upstream/18.0
@@ -14560,7 +14808,11 @@ msgid "Last Updated by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Последнее обновление"
+=======
+msgstr "Последнее обновление:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Последнее обновление:"
 >>>>>>> upstream/18.0
@@ -15004,7 +15256,11 @@ msgid "Last Updated on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Последнее обновление"
+=======
+msgstr "Дата последнего обновления:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дата последнего обновления:"
 >>>>>>> upstream/18.0
@@ -15494,7 +15750,11 @@ msgid "Loyalty Transaction"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Операция с баллами"
+>>>>>>> upstream/18.0
 =======
 msgstr "Операция с баллами"
 >>>>>>> upstream/18.0
@@ -15985,7 +16245,11 @@ msgid "New Balance"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Новый баланс"
+>>>>>>> upstream/18.0
 =======
 msgstr "Новый баланс"
 >>>>>>> upstream/18.0
@@ -16419,7 +16683,11 @@ msgid "New Balance should be positive and different then old balance."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Новый баланс должен быть положительным и отличаться от старого."
+>>>>>>> upstream/18.0
 =======
 msgstr "Новый баланс должен быть положительным и отличаться от старого."
 >>>>>>> upstream/18.0
@@ -16912,7 +17180,11 @@ msgid "Order Model"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Модель заказа"
+>>>>>>> upstream/18.0
 =======
 msgstr "Модель заказа"
 >>>>>>> upstream/18.0
@@ -17390,6 +17662,10 @@ msgstr "Портал Видимый"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model,name:loyalty.model_product_pricelist
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model,name:loyalty.model_product_pricelist
 >>>>>>> upstream/18.0
@@ -18096,7 +18372,11 @@ msgid "Taxes to add on the discount line."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Налоги, которые нужно добавить к строке скидки."
+>>>>>>> upstream/18.0
 =======
 msgstr "Налоги, которые нужно добавить к строке скидки."
 >>>>>>> upstream/18.0
@@ -18616,7 +18896,11 @@ msgid "There are currently no transaction lines for this card."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "В настоящее время для этой карты нет строк транзакций."
+>>>>>>> upstream/18.0
 =======
 msgstr "В настоящее время для этой карты нет строк транзакций."
 >>>>>>> upstream/18.0
@@ -19067,7 +19351,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -19285,6 +19572,7 @@ msgid ""
 "This pricelist may not be archived. It is being used for active promotion "
 "programs: %s"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19608,6 +19896,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Этот прайс-лист не может быть архивирован. Он используется для текущих "
 "акций: %s"
 
@@ -19626,6 +19916,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -19771,7 +20064,11 @@ msgid "This program is specific to this pricelist set."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Эта акция привязана к этому набору прайс-листов."
+>>>>>>> upstream/18.0
 =======
 msgstr "Эта акция привязана к этому набору прайс-листов."
 >>>>>>> upstream/18.0
@@ -20110,6 +20407,7 @@ msgid "Trigger"
 msgstr "Триггер"
 
 #. module: loyalty
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -20759,6 +21057,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_reward.py:0
 msgid "Unsupported search operator"
@@ -20871,6 +21171,9 @@ msgstr "Недопустимый оператор поиска"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -21195,7 +21498,11 @@ msgid "Update Balance"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Обновить баланс"
+>>>>>>> upstream/18.0
 =======
 msgstr "Обновить баланс"
 >>>>>>> upstream/18.0
@@ -21628,7 +21935,11 @@ msgid "Update Loyalty Card Points"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Обновить баллы на бонусной карте"
+>>>>>>> upstream/18.0
 =======
 msgstr "Обновить баллы на бонусной карте"
 >>>>>>> upstream/18.0
@@ -22101,7 +22412,11 @@ msgid "Valid until"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Действителен до"
+>>>>>>> upstream/18.0
 =======
 msgstr "Действителен до"
 >>>>>>> upstream/18.0
@@ -22464,8 +22779,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Когда покупатели делают заказ, они накапливают баллы, которые можно обменять"
 " на вознаграждение за текущий или будущий заказ."
+=======
+"Когда покупатели делают заказ, они накапливают баллы, которые можно обменять "
+"на вознаграждение за текущий или будущий заказ."
+>>>>>>> upstream/18.0
 =======
 "Когда покупатели делают заказ, они накапливают баллы, которые можно обменять "
 "на вознаграждение за текущий или будущий заказ."
@@ -22668,7 +22988,11 @@ msgid "You are about to change the balance of the card"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Вы собираетесь изменить баланс карты"
+>>>>>>> upstream/18.0
 =======
 msgstr "Вы собираетесь изменить баланс карты"
 >>>>>>> upstream/18.0
@@ -23012,6 +23336,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/loyalty/wizard/loyalty_generate_wizard.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23521,6 +23846,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "You're about to generate %(program_type)s with a value of %(value)s for %"
 "(customer_number)i customers"
 msgstr ""
@@ -23539,6 +23866,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -23589,8 +23919,12 @@ msgid "Your reward coupon from {{ object.program_id.company_id.name }} "
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Ваш купон на вознаграждение от {{ object.program_id.company_id.name }}"
+=======
+msgstr "Ваш купон на вознаграждение от {{ object.program_id.company_id.name }}"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ваш купон на вознаграждение от {{ object.program_id.company_id.name }}"
 >>>>>>> upstream/18.0
@@ -23690,6 +24024,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "eWallets are created manually or automatically when the customer orders a eWallet product.\n"
 "                                    <br/>\n"
 "                                    Then, eWallets are proposed during the checkout, to pay orders."
@@ -23698,6 +24033,8 @@ msgstr ""
 "                                   <br/>\n"
 "                                    Затем электронные кошельки предлагаются во время оформления заказа для его оплаты."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -23748,6 +24085,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -23896,7 +24236,11 @@ msgid "on the cheapest product"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "на самый дешевый товар"
+>>>>>>> upstream/18.0
 =======
 msgstr "на самый дешевый товар"
 >>>>>>> upstream/18.0
@@ -24334,7 +24678,11 @@ msgid "on your order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "на ваш заказ"
+>>>>>>> upstream/18.0
 =======
 msgstr "на ваш заказ"
 >>>>>>> upstream/18.0
@@ -24796,7 +25144,11 @@ msgid "tax excluded"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "без учета налога"
+>>>>>>> upstream/18.0
 =======
 msgstr "без учета налога"
 >>>>>>> upstream/18.0
@@ -25229,7 +25581,11 @@ msgid "tax included"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "с учетом налога"
+>>>>>>> upstream/18.0
 =======
 msgstr "с учетом налога"
 >>>>>>> upstream/18.0
@@ -25668,7 +26024,11 @@ msgid "the value of the coupon"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "номинал купона"
+>>>>>>> upstream/18.0
 =======
 msgstr "номинал купона"
 >>>>>>> upstream/18.0
@@ -26152,6 +26512,7 @@ msgstr "использования"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -26582,6 +26943,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_program_view_form
 msgid "used)"
 msgstr "использовано)"
@@ -26693,6 +27056,9 @@ msgstr "использовано)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -26910,6 +27276,7 @@ msgstr "использовано)"
 #: code:addons/loyalty/models/loyalty_reward.py:0
 msgid "your order"
 msgstr "ваш заказ"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -27410,6 +27777,8 @@ msgstr "{{loyalty_el_title}}"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 
 #~ msgid ""
 #~ "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" "
@@ -27548,6 +27917,9 @@ msgstr "{{loyalty_el_title}}"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

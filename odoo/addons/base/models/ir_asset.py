@@ -395,7 +395,12 @@ class IrAsset(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 raise Exception(f"Unallowed to fetch files from addon {addon} for file {path_def}")
+=======
+                raise Exception(f"""Unallowed to fetch files from addon {addon} for file {path_def}. """
+                                f"""Addon {addon} is not installed""")
+>>>>>>> upstream/18.0
 =======
                 raise Exception(f"""Unallowed to fetch files from addon {addon} for file {path_def}. """
                                 f"""Addon {addon} is not installed""")

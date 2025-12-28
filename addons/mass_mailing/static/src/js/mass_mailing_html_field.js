@@ -168,7 +168,11 @@ export class MassMailingHtmlField extends HtmlField {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if ("mailing_model_id" in record.data) {
+=======
+            if (record.data.mailing_model_id) {
+>>>>>>> upstream/18.0
 =======
             if (record.data.mailing_model_id) {
 >>>>>>> upstream/18.0
@@ -1206,7 +1210,10 @@ export class MassMailingHtmlField extends HtmlField {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1441,6 +1448,9 @@ export class MassMailingHtmlField extends HtmlField {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

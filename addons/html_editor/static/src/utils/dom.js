@@ -32,7 +32,11 @@ import { closestBlock, isBlock } from "./blocks";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { isParagraphRelatedElement, isShrunkBlock, isVisible } from "./dom_info";
+=======
+import { isEmptyTextNode, isParagraphRelatedElement, isShrunkBlock, isVisible } from "./dom_info";
+>>>>>>> upstream/18.0
 =======
 import { isEmptyTextNode, isParagraphRelatedElement, isShrunkBlock, isVisible } from "./dom_info";
 >>>>>>> upstream/18.0
@@ -434,7 +438,10 @@ export function cleanTextNode(node, char, cursors) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -548,6 +555,9 @@ export function removeEmptyTextNodes(root, cursors) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -166,6 +166,7 @@ export class ImagePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 isApplied: (traversedNodes) =>
                     traversedNodes.every(
 =======
@@ -649,6 +650,11 @@ export class ImagePlugin extends Plugin {
                     targetedNodes.length &&
                     targetedNodes.every(
 >>>>>>> upstream/18.0
+=======
+                isApplied: (targetedNodes) =>
+                    targetedNodes.length &&
+                    targetedNodes.every(
+>>>>>>> upstream/18.0
                         // All nodes should be images or its ancestors
                         (node) => node.nodeName === "IMG" || node.querySelector?.("img")
                     ),
@@ -753,6 +759,10 @@ export class ImagePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                isAvailable: () => this.config.allowImageResize ?? true,
+>>>>>>> upstream/18.0
 =======
                 isAvailable: () => this.config.allowImageResize ?? true,
 >>>>>>> upstream/18.0
@@ -894,6 +904,10 @@ export class ImagePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                isAvailable: () => this.config.allowImageResize ?? true,
+>>>>>>> upstream/18.0
 =======
                 isAvailable: () => this.config.allowImageResize ?? true,
 >>>>>>> upstream/18.0
@@ -1035,6 +1049,10 @@ export class ImagePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                isAvailable: () => this.config.allowImageResize ?? true,
+>>>>>>> upstream/18.0
 =======
                 isAvailable: () => this.config.allowImageResize ?? true,
 >>>>>>> upstream/18.0
@@ -1176,6 +1194,10 @@ export class ImagePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                isAvailable: () => this.config.allowImageResize ?? true,
+>>>>>>> upstream/18.0
 =======
                 isAvailable: () => this.config.allowImageResize ?? true,
 >>>>>>> upstream/18.0
@@ -1389,6 +1411,10 @@ export class ImagePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                isAvailable: () => this.config.allowImageTransform ?? true,
+>>>>>>> upstream/18.0
 =======
                 isAvailable: () => this.config.allowImageTransform ?? true,
 >>>>>>> upstream/18.0
@@ -1853,6 +1879,7 @@ export class ImagePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const selectedImg = this.getSelectedImage();
         if (!selectedImg) {
             return;
@@ -1872,6 +1899,8 @@ export class ImagePlugin extends Plugin {
         }
         selectedImg.style.width = size || "";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2208,6 +2237,9 @@ export class ImagePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2425,6 +2457,7 @@ export class ImagePlugin extends Plugin {
     }
 
     setImageShape(className, { excludeClasses = [] } = {}) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2755,6 +2788,8 @@ export class ImagePlugin extends Plugin {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         const targetedImg = this.getTargetedImage();
         if (!targetedImg) {
             return;
@@ -2871,6 +2906,9 @@ export class ImagePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3195,8 +3233,13 @@ export class ImagePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const selectedImg = this.getSelectedImage();
         if (!selectedImg) {
+=======
+        const targetedImg = this.getTargetedImage();
+        if (!targetedImg) {
+>>>>>>> upstream/18.0
 =======
         const targetedImg = this.getTargetedImage();
         if (!targetedImg) {
@@ -3737,9 +3780,15 @@ export class ImagePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             displayName: selectedImg.src,
             defaultSource: selectedImg.src,
             downloadUrl: selectedImg.src,
+=======
+            displayName: targetedImg.src,
+            defaultSource: targetedImg.src,
+            downloadUrl: targetedImg.src,
+>>>>>>> upstream/18.0
 =======
             displayName: targetedImg.src,
             defaultSource: targetedImg.src,
@@ -4388,6 +4437,7 @@ export class ImagePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const selectedImg = this.getSelectedImage();
         if (selectedImg) {
 <<<<<<< HEAD
@@ -4714,6 +4764,8 @@ export class ImagePlugin extends Plugin {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         const targetedImg = this.getTargetedImage();
         if (targetedImg) {
             if (this.delegateTo("delete_image_overrides", targetedImg)) {
@@ -4828,6 +4880,9 @@ export class ImagePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5163,6 +5218,7 @@ export class ImagePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     getSelectedImage() {
         const selectedNodes = this.dependencies.selection.getSelectedNodes();
         return selectedNodes.find((node) => node.tagName === "IMG");
@@ -5185,6 +5241,8 @@ export class ImagePlugin extends Plugin {
         const selectedImg = selectedNodes.find((node) => node.tagName === "IMG");
         return selectedImg.getAttribute(attributeName) || undefined;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5531,6 +5589,9 @@ export class ImagePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5885,6 +5946,7 @@ export class ImagePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const selectedImg = this.getSelectedImage();
         if (!selectedImg) {
             return;
@@ -5892,6 +5954,8 @@ export class ImagePlugin extends Plugin {
         selectedImg.setAttribute("alt", description);
         selectedImg.setAttribute("title", tooltip);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6216,6 +6280,9 @@ export class ImagePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

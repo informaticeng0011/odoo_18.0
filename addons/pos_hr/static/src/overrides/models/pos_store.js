@@ -111,6 +111,10 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.employeeBuffer = [];
+>>>>>>> upstream/18.0
 =======
         this.employeeBuffer = [];
 >>>>>>> upstream/18.0
@@ -546,7 +550,10 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.employeeBuffer = [];
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

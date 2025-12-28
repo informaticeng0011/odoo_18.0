@@ -107,8 +107,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* base_import
 # 
+=======
+# * base_import
+#
+>>>>>>> upstream/18.0
 =======
 # * base_import
 #
@@ -648,7 +653,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+# "Junko Augias (juau)" <juau@odoo.com>, 2025.
+>>>>>>> upstream/18.0
 =======
 #
 # "Junko Augias (juau)" <juau@odoo.com>, 2025.
@@ -1116,6 +1126,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-10-25 07:48+0000\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1445,6 +1456,9 @@ msgstr ""
 =======
 "POT-Creation-Date: 2025-11-21 18:37+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-11-21 18:37+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-08-26 14:54+0000\n"
 "Last-Translator: \"Junko Augias (juau)\" <juau@odoo.com>\n"
 "Language-Team: Japanese <https://translate.odoo.com/projects/odoo-18/"
@@ -1561,6 +1575,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1840,7 +1857,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "単一カラムがファイル内に見つかりました。これはファイルセパレータが間違っているときによくあることです。"
+=======
+msgstr ""
+"単一カラムがファイル内に見つかりました。これはファイルセパレータが間違ってい"
+"るときによくあることです。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "単一カラムがファイル内に見つかりました。これはファイルセパレータが間違ってい"
@@ -2069,7 +2092,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "バッチインポートのたびに、この遅延が適用され、スロットル制御されていないコールを回避します。"
+=======
+msgstr ""
+"バッチインポートのたびに、この遅延が適用され、スロットル制御されていないコー"
+"ルを回避します。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "バッチインポートのたびに、この遅延が適用され、スロットル制御されていないコー"
@@ -2292,12 +2321,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "limit exceeded or memory limits exceeded). Please retry in case the issue is"
 " transient. If the issue still occurs, try to split the file rather than "
 "import it at once."
 msgstr ""
 "インポート中に不明な問題が発生しました（接続が失われた、データ制限を超えた、またはメモリ制限を超えた可能性があります）。問題が一時的なものである場合は、再試行してください。それでも問題が発生する場合は、ファイルを一度にインポートするのではなく、分割してみてください。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2408,6 +2440,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2574,10 +2609,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Column %(column)s contains incorrect values. Error in line %(line)d: "
 "%(error)s"
 msgstr "カラム%(column)s に正しくない値が含まれています。エラー行 %(line)d: %(error)s"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2684,6 +2722,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2810,9 +2851,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Could not retrieve URL: %(url)s [%(field_name)s: L%(line_number)d]: "
 "%(error)s"
 msgstr "取得できなかったURL: %(url)s [%(field_name)s: L%(line_number)d]: %(error)s"
+=======
+"Could not retrieve URL: %(url)s [%(field_name)s: L%(line_number)d]: %(error)s"
+msgstr ""
+"取得できなかったURL: %(url)s [%(field_name)s: L%(line_number)d]: %(error)s"
+>>>>>>> upstream/18.0
 =======
 "Could not retrieve URL: %(url)s [%(field_name)s: L%(line_number)d]: %(error)s"
 msgstr ""
@@ -3132,7 +3179,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "レコードのインポート中にエラーが発生しました： テキストの区切り文字は1文字でなければなりません。"
+=======
+msgstr ""
+"レコードのインポート中にエラーが発生しました： テキストの区切り文字は1文字で"
+"なければなりません。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "レコードのインポート中にエラーが発生しました： テキストの区切り文字は1文字で"
@@ -3314,6 +3367,7 @@ msgstr ""
 #: code:addons/base_import/models/base_import.py:0
 msgid ""
 "Error while importing records: all rows should be of the same size, but the "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3855,6 +3909,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "title row has %(title_row_entries)d entries while the first row has %"
 "(first_row_entries)d. You may need to change the separator character."
 msgstr ""
@@ -3896,6 +3952,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4060,7 +4119,12 @@ msgid "File to check and/or import, raw binary (not base64)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "ファイルのチェック と/または インポート。 バイナリ形式で (base64でない)"
+=======
+msgstr ""
+"ファイルのチェック と/または インポート。 バイナリ形式で (base64でない)"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "ファイルのチェック と/または インポート。 バイナリ形式で (base64でない)"
@@ -4253,7 +4317,12 @@ msgid "For CSV files, you may need to select the correct separator."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "CSVファイルの場合、正しいセパレータを選択する必要がある場合があります。"
+=======
+msgstr ""
+"CSVファイルの場合、正しいセパレータを選択する必要がある場合があります。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "CSVファイルの場合、正しいセパレータを選択する必要がある場合があります。"
@@ -4440,10 +4509,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Found invalid image data, images should be imported as either URLs or "
 "base64-encoded data."
 msgstr "無効な画像データが見つかりました。画像はURLまたはbase64でエンコードされたデータとしてインポートする必要があります。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4551,6 +4623,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4701,7 +4776,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "モデルがopenchatterを使用する場合は、履歴トラッキングはサブスクリプションを作成し、インポート中に通知を送信しますが、インポート速度が落ちます。"
+=======
+"モデルがopenchatterを使用する場合は、履歴トラッキングはサブスクリプションを作"
+"成し、インポート中に通知を送信しますが、インポート速度が落ちます。"
+>>>>>>> upstream/18.0
 =======
 "モデルがopenchatterを使用する場合は、履歴トラッキングはサブスクリプションを作"
 "成し、インポート中に通知を送信しますが、インポート速度が落ちます。"
@@ -4883,7 +4963,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "画像サイズが大きすます、アップロードされた画像は4200万ピクセル未満である必要があります。"
+=======
+msgstr ""
+"画像サイズが大きすます、アップロードされた画像は4200万ピクセル未満である必要"
+"があります。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "画像サイズが大きすます、アップロードされた画像は4200万ピクセル未満である必要"
@@ -5144,8 +5230,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "行 %(row)s, 列 %(col)s: %(cell_value)s, フォーマット: %(cell_format)sの無効なセルフォーマット。 "
 "(%(format_type)s) フォーマットはサポートされていないためです。"
+=======
+"行 %(row)s, 列 %(col)s: %(cell_value)s, フォーマット: %(cell_format)sの無効な"
+"セルフォーマット。 (%(format_type)s) フォーマットはサポートされていないためで"
+"す。"
+>>>>>>> upstream/18.0
 =======
 "行 %(row)s, 列 %(col)s: %(cell_value)s, フォーマット: %(cell_format)sの無効な"
 "セルフォーマット。 (%(format_type)s) フォーマットはサポートされていないためで"
@@ -5456,7 +5548,13 @@ msgid "Please upload an Excel (.xls or .xlsx) or .csv file to import."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "インポートするエクセル (.xls or .xlsx) または .csvファイルをアップロードして下さい。"
+=======
+msgstr ""
+"インポートするエクセル (.xls or .xlsx) または .csvファイルをアップロードして"
+"下さい。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "インポートするエクセル (.xls or .xlsx) または .csvファイルをアップロードして"
@@ -5842,7 +5940,10 @@ msgstr "ファイルはバッチごとにインポートされます"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5961,6 +6062,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6097,9 +6201,12 @@ msgstr "インポートの経過を追跡"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Unable to load \"{extension}\" file: requires Python module \"{modname}\""
 msgstr " \"{extension}\" ファイルが読み込めません: 以下のPythonモジュールが必要です \"{modname}\""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6207,6 +6314,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6317,7 +6427,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "対応できないファイルフォーマット{}\"、インポートできるのはCSV, ODS, XLS及びXLSXのみです"
+=======
+msgstr ""
+"対応できないファイルフォーマット{}\"、インポートできるのはCSV, ODS, XLS及び"
+"XLSXのみです"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "対応できないファイルフォーマット{}\"、インポートできるのはCSV, ODS, XLS及び"
@@ -6552,11 +6668,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "system. You can use a custom format in addition to the suggestions provided."
 " Leave empty to let Odoo guess the format (recommended)"
 msgstr ""
 "24時間制の場合はHHを、12時間制の場合はIIを'p'と組み合わせて使用します。提案されたフォーマットに加え、カスタムフォーマットを使用することもできます。Odooにフォーマットを推測させる場合は空白にして下さい。(推奨)"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6665,6 +6784,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6774,6 +6896,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Use YYYY to represent the year, MM for the month and DD for the day. Include"
 " separators such as a dot, forward slash or dash. You can use a custom "
 "format in addition to the suggestions provided. Leave empty to let Odoo "
@@ -6781,6 +6904,8 @@ msgid ""
 msgstr ""
 "年はYYYY、月はMM、日はDDで表します。ドット、スラッシュ、ダッシュなどのセパレータを含めます。提案されたフォーマット以外に、カスタムフォーマットを使用することもできます。Odooにフォーマットを推測させる場合は空白にして下さい。(推奨)"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6892,6 +7017,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7028,7 +7156,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "URL経由で画像をインポートすることはできません。理由については、管理者またはサポートに確認してください。"
+=======
+msgstr ""
+"URL経由で画像をインポートすることはできません。理由については、管理者またはサ"
+"ポートに確認してください。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "URL経由で画像をインポートすることはできません。理由については、管理者またはサ"

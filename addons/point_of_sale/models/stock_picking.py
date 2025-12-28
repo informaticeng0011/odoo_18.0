@@ -119,10 +119,13 @@ class StockPicking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         lines_by_product = groupby(sorted(lines, key=lambda l: l.product_id.id), key=lambda l: l.product_id.id)
         move_vals = []
         for dummy, olines in lines_by_product:
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -217,6 +220,9 @@ class StockPicking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -473,7 +479,11 @@ class StockPicking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 for line in rec.pos_order_id.lines:
+=======
+                for line in rec.move_line_ids:
+>>>>>>> upstream/18.0
 =======
                 for line in rec.move_line_ids:
 >>>>>>> upstream/18.0
@@ -1130,7 +1140,13 @@ class StockPicking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     cost_per_account[(out, exp)] += line.total_cost
+=======
+                    line_cost = next(iter(line.move_id._get_price_unit().values())) * line.quantity_product_uom
+                    if line_cost != 0:
+                        cost_per_account[out, exp] += line_cost
+>>>>>>> upstream/18.0
 =======
                     line_cost = next(iter(line.move_id._get_price_unit().values())) * line.quantity_product_uom
                     if line_cost != 0:
@@ -2209,7 +2225,11 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 move.move_line_ids.quantity = 0
+=======
+                move.move_line_ids.unlink()
+>>>>>>> upstream/18.0
 =======
                 move.move_line_ids.unlink()
 >>>>>>> upstream/18.0

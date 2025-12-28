@@ -42,6 +42,7 @@ import { insertText } from "./_helpers/user_actions";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import { em, s, strong, u } from "./_helpers/tags";
 >>>>>>> upstream/18.0
@@ -116,6 +117,8 @@ import { em, s, strong, u } from "./_helpers/tags";
 >>>>>>> upstream/18.0
 =======
 import { em, s, strong, u } from "./_helpers/tags";
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -221,7 +224,10 @@ test("should not display hint in paragraph with media content", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -303,6 +309,7 @@ test("should display hint in paragraph with strong (bold)", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const { el } = await setupEditor(`<p>${strong("[]\u200B", "first")}</p>`);
     // hint should be visible
     expect(getContent(el)).toBe(
@@ -311,6 +318,8 @@ test("should display hint in paragraph with strong (bold)", async () => {
             "first"
         )}</p>`
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -338,6 +347,9 @@ test("should display hint in paragraph with strong (bold)", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -365,11 +377,14 @@ test("should display hint in paragraph with em (italic)", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const { el } = await setupEditor(`<p>${em("[]\u200B", "first")}</p>`);
     // hint should be visible
     expect(getContent(el)).toBe(
         `<p placeholder='Type "/" for commands' class="o-we-hint">${em("[]\u200B", "first")}</p>`
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -395,6 +410,9 @@ test("should display hint in paragraph with em (italic)", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -422,11 +440,14 @@ test("should display hint in paragraph with u (underline)", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const { el } = await setupEditor(`<p>${u("[]\u200B", "first")}</p>`);
     // hint should be visible
     expect(getContent(el)).toBe(
         `<p placeholder='Type "/" for commands' class="o-we-hint">${u("[]\u200B", "first")}</p>`
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -452,6 +473,9 @@ test("should display hint in paragraph with u (underline)", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -471,6 +495,7 @@ test("should display hint in paragraph with u (underline)", async () => {
 });
 
 test("should display hint in paragraph with s (strikethrough)", async () => {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -574,6 +599,8 @@ test("should display hint in paragraph with s (strikethrough)", async () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     const { el } = await setupEditor(`<p><s data-oe-zws-empty-inline="">[]\u200B</s></p>`);
     // hint should be visible
     expect(getContent(el)).toBe(
@@ -588,6 +615,9 @@ test("should display hint in paragraph with s (strikethrough)", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
