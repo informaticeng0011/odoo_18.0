@@ -50,7 +50,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "depends": ["l10n_tw"],
+=======
+    "depends": ["l10n_tw", "base_vat"],
+>>>>>>> upstream/18.0
 =======
     "depends": ["l10n_tw", "base_vat"],
 >>>>>>> upstream/18.0
@@ -224,6 +228,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    "uninstall_hook": "uninstall_hook",
+>>>>>>> upstream/18.0
 =======
     "uninstall_hook": "uninstall_hook",
 >>>>>>> upstream/18.0

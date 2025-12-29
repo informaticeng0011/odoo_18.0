@@ -347,7 +347,11 @@ class DisplayController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             display.set_orientation(Orientation(data))
+=======
+            display.set_orientation(Orientation[data.upper()])
+>>>>>>> upstream/18.0
 =======
             display.set_orientation(Orientation[data.upper()])
 >>>>>>> upstream/18.0

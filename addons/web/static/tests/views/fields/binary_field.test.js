@@ -87,7 +87,11 @@ test("BinaryField is correctly rendered (readonly)", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const body = await request.text();
+=======
+        const body = await request.formData();
+>>>>>>> upstream/18.0
 =======
         const body = await request.formData();
 >>>>>>> upstream/18.0
@@ -308,7 +312,11 @@ test("BinaryField is correctly rendered", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const body = await request.text();
+=======
+        const body = await request.formData();
+>>>>>>> upstream/18.0
 =======
         const body = await request.formData();
 >>>>>>> upstream/18.0
@@ -878,6 +886,7 @@ test("isUploading state should be set to false after upload", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -1125,6 +1134,8 @@ test("doesn't crash if value is not a string", async () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 
 test("doesn't crash if value is not a string", async () => {
     class Dummy extends models.Model {
@@ -1172,6 +1183,9 @@ test("doesn't crash if value is not a string", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1385,6 +1399,9 @@ test("doesn't crash if value is not a string", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

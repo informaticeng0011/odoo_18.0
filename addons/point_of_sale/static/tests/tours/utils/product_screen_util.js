@@ -113,6 +113,10 @@ import * as Chrome from "@point_of_sale/../tests/tours/utils/chrome_util";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import * as PaymentScreen from "@point_of_sale/../tests/tours/utils/payment_screen_util";
+>>>>>>> upstream/18.0
 =======
 import * as PaymentScreen from "@point_of_sale/../tests/tours/utils/payment_screen_util";
 >>>>>>> upstream/18.0
@@ -578,7 +582,10 @@ export function selectFloatingOrder(index) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -928,6 +935,9 @@ export function checkFloatingOrderCount(expectedCount) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1401,6 +1411,7 @@ export function inputCustomerSearchbar(value) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -1434,6 +1445,8 @@ export function clickPartnerTab(name) {
 }
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1900,7 +1913,10 @@ export function clickFiscalPosition(name, checkIsNeeded = false) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2242,6 +2258,9 @@ export function checkFiscalPositionButton() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2834,6 +2853,7 @@ export function finishOrder() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         {
             isActive: ["desktop"],
             content: "validate the order",
@@ -2846,6 +2866,9 @@ export function finishOrder() {
             trigger: ".payment-screen .btn-switchpane:contains('Validate')",
             run: "click",
         },
+=======
+        ...PaymentScreen.clickValidate(),
+>>>>>>> upstream/18.0
 =======
         ...PaymentScreen.clickValidate(),
 >>>>>>> upstream/18.0

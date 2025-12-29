@@ -60,6 +60,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* mrp
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -296,6 +297,9 @@
 =======
 # * mrp
 >>>>>>> upstream/18.0
+=======
+# * mrp
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
@@ -377,6 +381,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -409,6 +414,9 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# "Larissa Manderfeld (lman)" <lman@odoo.com>, 2025.
 >>>>>>> upstream/18.0
 =======
 # "Larissa Manderfeld (lman)" <lman@odoo.com>, 2025.
@@ -594,6 +602,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1266,6 +1275,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-11-07 18:36+0000\n"
 "PO-Revision-Date: 2025-11-12 09:50+0000\n"
 "Last-Translator: \"Larissa Manderfeld (lman)\" <lman@odoo.com>\n"
@@ -1305,6 +1316,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1380,6 +1394,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1730,6 +1745,10 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.12.2\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_production__state
@@ -1813,7 +1832,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 " * Confirmed: The MO is confirmed, the stock rules and the reordering of the components are trigerred.\n"
+=======
+" * Confirmed: The MO is confirmed, the stock rules and the reordering of the "
+"components are trigerred.\n"
+>>>>>>> upstream/18.0
 =======
 " * Confirmed: The MO is confirmed, the stock rules and the reordering of the "
 "components are trigerred.\n"
@@ -2205,12 +2229,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "* Bestätigt: Der Fertigungsauftrag ist bestätigt. Vorhandene Bestandsregeln und die Nachbestellung von Komponenten wurden ausgelöst.\n"
 "* In Bearbeitung: Die Produktion wurde gestartet (vom Fertigungs- oder Arbeitsauftrag)\n"
 "* Abzuschließen: Die Produktion ist fertig. Der Fertigungsauftrag muss abgeschlossen werden.\n"
 "* Erledigt: Der Fertigungsauftrag ist abgeschlossen und Bestandsbewegungen wurden gebucht.\n"
 "* Abgebrochen: Der Fertigungsauftrag wurde abgebrochen und kann nicht mehr bestätigt werden."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2449,6 +2476,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2690,9 +2720,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 " <br/><br/> The manufactured products will be moved towards "
 "<b>%(destination)s</b>, <br/> as specified from <b>%(operation)s</b> "
 "destination."
+=======
+" <br/><br/> The manufactured products will be moved towards <b>%"
+"(destination)s</b>, <br/> as specified from <b>%(operation)s</b> destination."
+>>>>>>> upstream/18.0
 =======
 " <br/><br/> The manufactured products will be moved towards <b>%"
 "(destination)s</b>, <br/> as specified from <b>%(operation)s</b> destination."
@@ -3213,6 +3248,7 @@ msgstr "+ %d Tag(e)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -3420,6 +3456,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/mrp/models/stock_rule.py:0
 msgid "+ %s day(s)"
@@ -3485,6 +3523,9 @@ msgstr "+ %s Tag(e)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3699,12 +3740,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "              3 Steps: Pick components from stock, produce, and then move final product(s) from production area to stock."
 msgstr ""
 "1 Schritt: Komponenten aus Bestand verbrauchen und produzieren.\n"
 "              2 Schritte: Komponenten aus Bestand kommissionieren und dann produzieren.\n"
 "              3  Schritte: Komponenten aus Bestand kommissionieren, produzieren und dann Endprodukt(e) aus Produktion in Bestand verschieben."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3941,6 +3985,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4231,6 +4278,7 @@ msgstr ": Stunden"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-pause\" role=\"img\" aria-label=\"Pause\" title=\"Pause\"/>"
 msgstr "<i class=\"fa fa-pause\" role=\"img\" aria-label=\"Pause\" title=\"Pause\"/>"
 
@@ -4396,6 +4444,8 @@ msgstr "<i class=\"fa fa-stop\" role=\"img\" aria-label=\"Stop\" title=\"Stop\"/
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "<i class=\"fa fa-pause\" role=\"img\" aria-label=\"Pause\" title=\"Pause\"/>"
 msgstr ""
@@ -4490,6 +4540,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4728,7 +4781,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        Use this feature to store any files, like drawings or specifications.\n"
+=======
+"                        Use this feature to store any files, like drawings "
+"or specifications.\n"
+>>>>>>> upstream/18.0
 =======
 "                        Use this feature to store any files, like drawings "
 "or specifications.\n"
@@ -5119,7 +5177,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        Verwenden Sie diese Funktion, um Dateien wie Zeichnungen oder Spezifikationen zu speichern.\n"
+=======
+"                        Verwenden Sie diese Funktion, um Dateien wie "
+"Zeichnungen oder Spezifikationen zu speichern.\n"
+>>>>>>> upstream/18.0
 =======
 "                        Verwenden Sie diese Funktion, um Dateien wie "
 "Zeichnungen oder Spezifikationen zu speichern.\n"
@@ -5624,8 +5687,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "modify the quantities of components to consume for this manufacturing "
 "order.</span>"
+=======
+"modify the quantities of components to consume for this manufacturing order."
+"</span>"
+>>>>>>> upstream/18.0
 =======
 "modify the quantities of components to consume for this manufacturing order."
 "</span>"
@@ -6184,11 +6252,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                Instead, it is used to decompose a BoM into its components when:"
 msgstr ""
 "Eine Stückliste, die einen Bausatz darstellt, wird nicht mit einem Fertigungsauftrag produziert.<br/>\n"
 "                                Stattdessen wird er verwendet, um eine Stückliste in ihre Komponenten zu zerlegen, wenn:"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6424,6 +6495,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6783,12 +6857,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You should install the mrp_byproduct module if you want to manage extra products on BoMs!"
 msgstr ""
 "Alle Produktmengen müssen mindestens 0 betragen.\n"
 "Zeilen mit der Menge 0 können als optionale Zeilen verwendet werden. \n"
 "Wenn Sie weitere Produkte auf Stücklisten verwalten möchten, installieren Sie das Modul mrp_byproduct!"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7024,6 +7101,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7368,8 +7448,12 @@ msgid "Are you sure you want to cancel this manufacturing order?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Sind Sie sicher, dass Sie diesen Fertigungsauftrag stornieren möchten?"
+=======
+msgstr "Sind Sie sicher, dass Sie diesen Fertigungsauftrag stornieren möchten?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sind Sie sicher, dass Sie diesen Fertigungsauftrag stornieren möchten?"
 >>>>>>> upstream/18.0
@@ -7796,8 +7880,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "case the product is subcontracted, this can be used to determine the date at"
 " which components should be sent to the subcontractor."
+=======
+"case the product is subcontracted, this can be used to determine the date at "
+"which components should be sent to the subcontractor."
+>>>>>>> upstream/18.0
 =======
 "case the product is subcontracted, this can be used to determine the date at "
 "which components should be sent to the subcontractor."
@@ -8277,8 +8366,12 @@ msgstr "Rückstandsreihenfolge"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Backorder sequence, if equals to 0 means there is not related backorder"
+=======
+msgid "Backorder sequence, if equals to 0 means there is not related backorder"
+>>>>>>> upstream/18.0
 =======
 msgid "Backorder sequence, if equals to 0 means there is not related backorder"
 >>>>>>> upstream/18.0
@@ -8667,8 +8760,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Bills of Materials, also called recipes, are used to autocomplete components"
 " and work order instructions."
+=======
+"Bills of Materials, also called recipes, are used to autocomplete components "
+"and work order instructions."
+>>>>>>> upstream/18.0
 =======
 "Bills of Materials, also called recipes, are used to autocomplete components "
 "and work order instructions."
@@ -9062,12 +9160,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                materials used to make a finished product; through a manufacturing\n"
 "                order or a pack of products."
 msgstr ""
 "Stücklisten ermöglichen es Ihnen, die Liste der benötigten Rohstoffe\n"
 "                zu definieren, die zur Herstellung eines fertigen Produkts über einen Fertigungsauftrag\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9303,6 +9404,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9931,6 +10035,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "buying or manufacturing the components and/or subassemblies."
 "                                                       Also note that "
 "purchase security lead times will be added when appropriate."
@@ -9942,6 +10047,8 @@ msgstr ""
 "dass die Sicherheitsvorlaufzeiten für Einkäufe gegebenenfalls hinzugefügt "
 "werden."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10180,6 +10287,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10595,8 +10705,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Create a backorder if you expect to process the remaining products later. Do"
 " not create a backorder if you will not process the remaining products."
+=======
+"Create a backorder if you expect to process the remaining products later. Do "
+"not create a backorder if you will not process the remaining products."
+>>>>>>> upstream/18.0
 =======
 "Create a backorder if you expect to process the remaining products later. Do "
 "not create a backorder if you will not process the remaining products."
@@ -11008,12 +11123,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Create and confirm Manufacturing Orders this many days in advance, to have enough time to replenish components or manufacture semi-finished products.\n"
 "Note that security lead times will also be considered when appropriate."
 msgstr ""
 "Erstellen und bestätigen Sie Fertigungsaufträge einige Tage im Voraus, um genügend Zeit zu haben, Komponenten aufzufüllen oder halbfertige Produkte herzustellen.\n"
 "Beachten Sie, dass gegebenenfalls auch Sicherheitsvorlaufzeiten berücksichtigt werden."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11251,6 +11369,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11581,6 +11702,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "In a context with a single Stock Location, this includes goods stored at this Location, or any of its children.\n"
 "In a context with a single Warehouse, this includes goods stored in the Stock Location of this Warehouse, or any of its children.\n"
 "stored in the Stock Location of the Warehouse of this Shop, or any of its children.\n"
@@ -11594,6 +11716,8 @@ msgstr ""
 "untergeordneten Lagerorten.\n"
 "Andernfalls ergibt sich die Menge aus den Beständen aller Lagerorte des Typs „Intern“."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11841,6 +11965,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12112,8 +12239,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Datum, an dem Sie planen, mit der Produktion zu beginnen, oder Datum, an dem"
 " Sie tatsächlich mit der Produktion begonnen haben."
+=======
+"Datum, an dem Sie planen, mit der Produktion zu beginnen, oder Datum, an dem "
+"Sie tatsächlich mit der Produktion begonnen haben."
+>>>>>>> upstream/18.0
 =======
 "Datum, an dem Sie planen, mit der Produktion zu beginnen, oder Datum, an dem "
 "Sie tatsächlich mit der Produktion begonnen haben."
@@ -12544,8 +12676,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "you need to produce 10 units, then the operation time listed on the BOM will"
 " be multiplied by two. However, note that both time before and after "
+=======
+"you need to produce 10 units, then the operation time listed on the BOM will "
+"be multiplied by two. However, note that both time before and after "
+>>>>>>> upstream/18.0
 =======
 "you need to produce 10 units, then the operation time listed on the BOM will "
 "be multiplied by two. However, note that both time before and after "
@@ -12937,8 +13074,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Sie jedoch, dass sowohl die Zeit vor als auch nach der Produktion nur einmal"
 " gezählt wird."
+=======
+"Sie jedoch, dass sowohl die Zeit vor als auch nach der Produktion nur einmal "
+"gezählt wird."
+>>>>>>> upstream/18.0
 =======
 "Sie jedoch, dass sowohl die Zeit vor als auch nach der Produktion nur einmal "
 "gezählt wird."
@@ -13352,6 +13494,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Defines if you can consume more or less components than the quantity defined on the BoM:\n"
 "  * Allowed: allowed for all manufacturing users.\n"
 "  * Allowed with warning: allowed for all manufacturing users with summary of consumption differences when closing the manufacturing order.\n"
@@ -13364,6 +13507,8 @@ msgstr ""
 "  Beachten Sie, dass im Falle der Komponente „Verbrauch hervorheben“, bei der der Verbrauch ausschließlich manuell erfasst wird, gegebenenfalls auch Verbrauchswarnungen ausgegeben werden.\n"
 "  * Blockiert: nur ein Vorgesetzter kann einen Fertigungsauftrag schließen, wenn der Stücklistenverbrauch nicht eingehalten wird."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13614,6 +13759,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13979,6 +14127,10 @@ msgstr "Demontageauftrag"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
 >>>>>>> upstream/18.0
@@ -14951,7 +15103,11 @@ msgid "First Lot/SN"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Erste(s) Los/SN"
+=======
+msgstr "Erste Los-/Seriennummer"
+>>>>>>> upstream/18.0
 =======
 msgstr "Erste Los-/Seriennummer"
 >>>>>>> upstream/18.0
@@ -15646,6 +15802,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "In a context with a single Stock Location, this includes goods stored in this location, or any of its children.\n"
 "In a context with a single Warehouse, this includes goods stored in the Stock Location of this Warehouse, or any of its children.\n"
 "Otherwise, this includes goods stored in any Stock Location with 'internal' type."
@@ -15655,6 +15812,8 @@ msgstr ""
 "Im Kontext mit einem einzigen Lager, beinhaltet dies den Bestand an dem Lagerort in diesem Lager, oder an den \n"
 "untergeordneten Lagerorten. Andernfalls ergibt sich die Menge aus den Beständen aller Lagerorte des Typs „Intern“."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -15898,6 +16057,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16224,8 +16386,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Gibt die Reihenfolge an, in der eine Liste von Arbeitsplätzen angezeigt "
 "wird."
+=======
+"Gibt die Reihenfolge an, in der eine Liste von Arbeitsplätzen angezeigt wird."
+>>>>>>> upstream/18.0
 =======
 "Gibt die Reihenfolge an, in der eine Liste von Arbeitsplätzen angezeigt wird."
 >>>>>>> upstream/18.0
@@ -16659,6 +16825,7 @@ msgstr "Hat Arbeitsplanpositionen"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -16677,6 +16844,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -17078,6 +17247,9 @@ msgstr "Hat Arbeitsblatt"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17511,8 +17683,12 @@ msgid "If checked, some messages have a delivery error."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Falls markiert, weisen einige Nachrichten einen Zustellungsfehler auf."
+=======
+msgstr "Falls markiert, weisen einige Nachrichten einen Zustellungsfehler auf."
+>>>>>>> upstream/18.0
 =======
 msgstr "Falls markiert, weisen einige Nachrichten einen Zustellungsfehler auf."
 >>>>>>> upstream/18.0
@@ -17859,8 +18035,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Zuteilungsbericht eines Fertigungsauftrags aus, wenn dieser erledigt ist und"
 " zugewiesende Buchungen hat."
+=======
+"Zuteilungsbericht eines Fertigungsauftrags aus, wenn dieser erledigt ist und "
+"zugewiesende Buchungen hat."
+>>>>>>> upstream/18.0
 =======
 "Zuteilungsbericht eines Fertigungsauftrags aus, wenn dieser erledigt ist und "
 "zugewiesende Buchungen hat."
@@ -18253,8 +18434,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Wenn dieses Kontrollkästchen aktiviert ist, druckt Odoo automatisch das "
 "Los/SN-Etikett eines Fertigungsauftrags aus, wenn dieser erledigt ist."
+=======
+"Wenn dieses Kontrollkästchen aktiviert ist, druckt Odoo automatisch das Los/"
+"SN-Etikett eines Fertigungsauftrags aus, wenn dieser erledigt ist."
+>>>>>>> upstream/18.0
 =======
 "Wenn dieses Kontrollkästchen aktiviert ist, druckt Odoo automatisch das Los/"
 "SN-Etikett eines Fertigungsauftrags aus, wenn dieser erledigt ist."
@@ -18644,8 +18830,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If this checkbox is ticked, Odoo will automatically print the product labels"
 " of a MO when it is done."
+=======
+"If this checkbox is ticked, Odoo will automatically print the product labels "
+"of a MO when it is done."
+>>>>>>> upstream/18.0
 =======
 "If this checkbox is ticked, Odoo will automatically print the product labels "
 "of a MO when it is done."
@@ -19059,12 +19250,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Impossible to plan the workorder. Please check the workcenter "
 "availabilities."
 msgstr ""
 "Es ist nicht möglich, den Arbeitsauftrag zu planen. Bitte überprüfen Sie die"
 " Verfügbarkeiten des Arbeitsplatzes."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -19297,6 +19491,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -19581,12 +19778,15 @@ msgstr "Lagerbewegungen"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Inventory moves for which you must scan a lot number at this work order"
 msgstr ""
 "Lagerbewegungen, für die Sie eine Losnummer in diesem Arbeitsauftrag scannen"
 " müssen"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -19819,6 +20019,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -20235,8 +20438,12 @@ msgid "Late MO or Late delivery of components"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Verspätete Fertigungsauftrag oder verspätete Lieferung der Komponenten"
+=======
+msgstr "Verspätete Fertigungsauftrag oder verspätete Lieferung der Komponenten"
+>>>>>>> upstream/18.0
 =======
 msgstr "Verspätete Fertigungsauftrag oder verspätete Lieferung der Komponenten"
 >>>>>>> upstream/18.0
@@ -20583,11 +20790,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Select Bill of Materials to visualise this document as a product attachment when this product is in a bill of material."
 msgstr ""
 "Ausgeblendet lassen, wenn das Dokument nur im Produktformular zugänglich ist.\n"
 "Wählen Sie Stückliste, um dieses Dokument als Produktanhang anzuzeigen, wenn dieses Produkt in einer Stückliste enthalten ist."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -20823,6 +21033,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -21431,12 +21644,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Manufacturing operations are processed at Work Centers. A Work Center can be composed of\n"
 "                workers and/or machines, they are used for costing, scheduling, capacity planning, etc."
 msgstr ""
 "Fertigungsvorgänge werden an Arbeitsplätzen bearbeitet. Ein Arbeitsplatz kann aus\n"
 "                Arbeitern und/oder Maschinen bestehen, sie werden für die Kalkulation, Terminierung, Kapazitätsplanung usw. verwendet."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -21674,6 +21890,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -21908,6 +22127,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Manufacturing operations are processed at Work Centers. A Work Center can be composed of\n"
 "                workers and/or machines, they are used for costing, scheduling, capacity planning, etc.\n"
 "                They can be defined via the configuration menu."
@@ -21915,6 +22135,8 @@ msgstr ""
 "Fertigungsvorgänge werden an Arbeitsplätzen bearbeitet. Ein Arbeitsplatz kann aus\n"
 "                Arbeitern und/oder Maschinen bestehen, sie werden für die Kalkulation, Terminierung, Kapazitätsplanung usw. verwendet.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -22153,6 +22375,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -22391,12 +22616,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            * Waiting: The material is not available to start the production.\n"
 msgstr ""
 "Fertigungsbereitschaft für diesen Fertigungsauftrag gemäß der Stücklistenkonfiguration:\n"
 "            * Bereit: Das Material ist verfügbar, um die Produktion zu starten.\n"
 "            * Warten: Das Material ist nicht verfügbar, um die Produktion zu starten.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -22634,6 +22862,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -23044,6 +23275,7 @@ msgstr "Kein Lieferrückstand"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -23251,6 +23483,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/mrp/models/stock_rule.py:0
 msgid "No BoM Found"
@@ -23316,6 +23550,9 @@ msgstr "Keine Stückliste gefunden"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -23603,8 +23840,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "ihm/ihnen geplant werden können. Um dies zu verhindern, wird stattdessen die"
 " Löschung des Arbeitsplatzes empfohlen."
+=======
+"ihm/ihnen geplant werden können. Um dies zu verhindern, wird stattdessen die "
+"Löschung des Arbeitsplatzes empfohlen."
+>>>>>>> upstream/18.0
 =======
 "ihm/ihnen geplant werden können. Um dies zu verhindern, wird stattdessen die "
 "Löschung des Arbeitsplatzes empfohlen."
@@ -23999,8 +24241,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Stückliste verknüpft ist/sind, was bedeutet, dass das Produkt immer noch für"
 " diese verwendet werden kann."
+=======
+"Stückliste verknüpft ist/sind, was bedeutet, dass das Produkt immer noch für "
+"diese verwendet werden kann."
+>>>>>>> upstream/18.0
 =======
 "Stückliste verknüpft ist/sind, was bedeutet, dass das Produkt immer noch für "
 "diese verwendet werden kann."
@@ -24347,6 +24594,7 @@ msgstr "Anzahl der zu bearbeitenden Fertigungsaufträge"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_batch_produce__lot_qty
 msgid "Number of SN"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -25092,6 +25340,9 @@ msgstr "Anzahl Seriennummern"
 =======
 msgstr "Anzahl Seriennummern"
 >>>>>>> upstream/18.0
+=======
+msgstr "Anzahl Seriennummern"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__unbuild_count
@@ -25232,6 +25483,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                install the IoT App on a computer that is on the same local network as the\n"
 "                                barcode operator and configure the routing of the reports."
 msgstr ""
@@ -25239,6 +25491,8 @@ msgstr ""
 "                                 installieren Sie die IoT-App auf Ihrem Rechner, die sich auch demselben lokalen Netzwerk wie\n"
 "                                 der Barcode-Operator befindet, und konfigurieren Sie das Routing der Berichte."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -25478,6 +25732,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -25725,8 +25982,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Nur Fertigungsaufträge, die entweder im Entwurfsstadium oder bestätigt sind,"
 " können %s werden."
+=======
+"Nur Fertigungsaufträge, die entweder im Entwurfsstadium oder bestätigt sind, "
+"können %s werden."
+>>>>>>> upstream/18.0
 =======
 "Nur Fertigungsaufträge, die entweder im Entwurfsstadium oder bestätigt sind, "
 "können %s werden."
@@ -26159,11 +26421,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                Each operation is done at a specific Work Center and has a specific duration."
 msgstr ""
 "Vorgänge definieren, die zur Durchführung eines Arbeitsauftrags erforderlich sind.\n"
 "Jeder Vorgang wird an einem bestimmten Arbeitsplatz durchgeführt und hat eine bestimmte Dauer."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -26399,6 +26664,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -27547,8 +27815,12 @@ msgstr "Die Referenz muss pro Unternehmen eindeutig sein!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Reference of the document that generated this production order request."
+=======
+msgid "Reference of the document that generated this production order request."
+>>>>>>> upstream/18.0
 =======
 msgid "Reference of the document that generated this production order request."
 >>>>>>> upstream/18.0
@@ -27992,8 +28264,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Eingeplant vor dem vorherigen Arbeitsauftrag, geplant von %(start)s bis "
 "%(end)s"
+=======
+"Eingeplant vor dem vorherigen Arbeitsauftrag, geplant von %(start)s bis %"
+"(end)s"
+>>>>>>> upstream/18.0
 =======
 "Eingeplant vor dem vorherigen Arbeitsauftrag, geplant von %(start)s bis %"
 "(end)s"
@@ -28614,12 +28891,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Some work orders are already done, so you cannot unplan this manufacturing order.\n"
 "\n"
 "It’d be a shame to waste all that progress, right?"
 msgstr ""
 "Einige Arbeitsaufträge sind bereits erledigt, sodass Sie die Planung dieses Fertigungsauftrags nicht mehr aufheben können.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -28855,6 +29135,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -29092,12 +29375,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Some work orders have already started, so you cannot unplan this manufacturing order.\n"
 "\n"
 "It’d be a shame to waste all that progress, right?"
 msgstr ""
 "Einige Arbeitsaufträge wurden bereits gestartet, sodass Sie die Planung dieses Fertigungsauftrags nicht mehr aufheben können.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -29333,6 +29619,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -29583,8 +29872,12 @@ msgstr "Spezifische Kapazitäten"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Specific number of pieces that can be produced in parallel per product."
+=======
+msgid "Specific number of pieces that can be produced in parallel per product."
+>>>>>>> upstream/18.0
 =======
 msgid "Specific number of pieces that can be produced in parallel per product."
 >>>>>>> upstream/18.0
@@ -30145,8 +30438,12 @@ msgid "Technical field to check when we can unreserve"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Technisches Feld zum Prüfen, wann wir die Reservierung aufheben können"
+=======
+msgstr "Technisches Feld zum Prüfen, wann wir die Reservierung aufheben können"
+>>>>>>> upstream/18.0
 =======
 msgstr "Technisches Feld zum Prüfen, wann wir die Reservierung aufheben können"
 >>>>>>> upstream/18.0
@@ -30474,8 +30771,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Die von Ihnen gewählte Maßeinheit des Produkts hat eine andere Kategorie als"
 " im Produktformular."
+=======
+"Die von Ihnen gewählte Maßeinheit des Produkts hat eine andere Kategorie als "
+"im Produktformular."
+>>>>>>> upstream/18.0
 =======
 "Die von Ihnen gewählte Maßeinheit des Produkts hat eine andere Kategorie als "
 "im Produktformular."
@@ -30889,8 +31191,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Die Komponente %s und das zu produzierende Produkt sollten nicht gleich "
 "sein."
+=======
+"Die Komponente %s und das zu produzierende Produkt sollten nicht gleich sein."
+>>>>>>> upstream/18.0
 =======
 "Die Komponente %s und das zu produzierende Produkt sollten nicht gleich sein."
 >>>>>>> upstream/18.0
@@ -31305,12 +31611,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The serial number %(number)s used for byproduct %(product_name)s has already"
 " been produced"
 msgstr ""
 "Die für das Nebenprodukt %(product_name)s verwendete Seriennummer %(number)s"
 " wurde bereits produziert."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -31544,6 +31853,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -31795,8 +32107,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Der Gesamtkostenanteil für die Nebenprodukte einer Stückliste darf 100 nicht"
 " überschreiten."
+=======
+"Der Gesamtkostenanteil für die Nebenprodukte einer Stückliste darf 100 nicht "
+"überschreiten."
+>>>>>>> upstream/18.0
 =======
 "Der Gesamtkostenanteil für die Nebenprodukte einer Stückliste darf 100 nicht "
 "überschreiten."
@@ -32266,8 +32583,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Das sind die auf die Stückliste basierenden Kosten für dieses Produkt. Diese"
 " werden durch das Addieren der Komponenten- und Vorgangskosten, die für die "
+=======
+"Das sind die auf die Stückliste basierenden Kosten für dieses Produkt. Diese "
+"werden durch das Addieren der Komponenten- und Vorgangskosten, die für die "
+>>>>>>> upstream/18.0
 =======
 "Das sind die auf die Stückliste basierenden Kosten für dieses Produkt. Diese "
 "werden durch das Addieren der Komponenten- und Vorgangskosten, die für die "
@@ -32664,6 +32986,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This menu gives you the full traceability of inventory operations on a specific product.\n"
 "                You can filter on the product to see all the past movements for the product."
 msgstr ""
@@ -32822,11 +33145,14 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "This menu gives you the full traceability of inventory operations on a "
 "specific product.\n"
 "                You can filter on the product to see all the past movements "
 "for the product."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -33059,6 +33385,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Dieses Menü bietet eine vollständige Nachverfolgbarkeit der Lagervorgänge "
 "eines bestimmten Produkts.\n"
 "                Sie können nach dem Produkt filtern, um alle vergangenen "
@@ -33120,6 +33448,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -33694,8 +34025,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Maßeinheit (ME) ist die Einheit, in der der Lagerbestand geführt wird."
+=======
+msgstr "Maßeinheit (ME) ist die Einheit, in der der Lagerbestand geführt wird."
+>>>>>>> upstream/18.0
 =======
 msgstr "Maßeinheit (ME) ist die Einheit, in der der Lagerbestand geführt wird."
 >>>>>>> upstream/18.0
@@ -34057,8 +34392,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Verwenden Sie Fertigungsaufträge, um unvollendete Produkte zu bauen, während"
 " Komponenten verbraucht werden: z. B. 1 Tisch = 4 Tischbeine + 1 Tischplatte"
+=======
+"Verwenden Sie Fertigungsaufträge, um unvollendete Produkte zu bauen, während "
+"Komponenten verbraucht werden: z. B. 1 Tisch = 4 Tischbeine + 1 Tischplatte"
+>>>>>>> upstream/18.0
 =======
 "Verwenden Sie Fertigungsaufträge, um unvollendete Produkte zu bauen, während "
 "Komponenten verbraucht werden: z. B. 1 Tisch = 4 Tischbeine + 1 Tischplatte"
@@ -34499,6 +34839,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "specified for a tracked product that is having its consumed amount "
 "increased:%(products)s"
 msgstr ""
@@ -34506,6 +34847,8 @@ msgstr ""
 "verfolgtes Produkt, dessen verbrauchte Menge erhöht wird, eine "
 "Los-/Seriennummer angegeben werden muss: %(products)s"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -34740,6 +35083,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -35089,8 +35435,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "try to create a Manufacturing Order for that product using a BoM of the same"
 " operation type. That allows to define stock rules which trigger different "
+=======
+"try to create a Manufacturing Order for that product using a BoM of the same "
+"operation type. That allows to define stock rules which trigger different "
+>>>>>>> upstream/18.0
 =======
 "try to create a Manufacturing Order for that product using a BoM of the same "
 "operation type. That allows to define stock rules which trigger different "
@@ -35488,12 +35839,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "When activated, then the registration of consumption for that component is recorded manually exclusively.\n"
 "If not activated, and any of the components consumption is edited manually on the manufacturing order, Odoo assumes manual consumption also."
 msgstr ""
 "Wenn diese Option aktiviert ist, wird der Verbrauch für diese Komponente ausschließlich manuell erfasst.\n"
 "Wenn sie nicht aktiviert ist und der Verbrauch einer der Komponenten manuell auf dem Fertigungsauftrag bearbeitet wird, nimmt Odoo den manuellen Verbrauch ebenfalls an."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -35732,6 +36086,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -35992,8 +36349,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Mit dem Arbeitsplatzbedienfeld von Odoo kann Ihr Arbeiter Arbeitsaufträge in"
 " der Werkstatt starten und den Anweisungen des Arbeitsblattes folgen. "
+=======
+"Mit dem Arbeitsplatzbedienfeld von Odoo kann Ihr Arbeiter Arbeitsaufträge in "
+"der Werkstatt starten und den Anweisungen des Arbeitsblattes folgen. "
+>>>>>>> upstream/18.0
 =======
 "Mit dem Arbeitsplatzbedienfeld von Odoo kann Ihr Arbeiter Arbeitsaufträge in "
 "der Werkstatt starten und den Anweisungen des Arbeitsblattes folgen. "
@@ -36500,8 +36862,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Mit Arbeitsauftragsvorgängen können Sie die Fertigungsvorgänge erstellen und"
 " verwalten, die an Ihren Arbeitsplätzen zur Herstellung eines Produkts "
+=======
+"Mit Arbeitsauftragsvorgängen können Sie die Fertigungsvorgänge erstellen und "
+"verwalten, die an Ihren Arbeitsplätzen zur Herstellung eines Produkts "
+>>>>>>> upstream/18.0
 =======
 "Mit Arbeitsauftragsvorgängen können Sie die Fertigungsvorgänge erstellen und "
 "verwalten, die an Ihren Arbeitsplätzen zur Herstellung eines Produkts "
@@ -36936,11 +37303,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    Operations are defined in the bill of materials or added in the manufacturing order directly."
 msgstr ""
 "Arbeitsaufträge sind Vorgänge, die im Rahmen eines Fertigungsauftrags durchzuführen sind.\n"
 "                    Die Vorgänge werden in der Stückliste definiert oder direkt in den Fertigungsauftrag eingefügt."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -37176,6 +37546,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -37414,11 +37787,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            Operations are defined in the bill of materials or added in the manufacturing order directly."
 msgstr ""
 "Arbeitsaufträge sind Vorgänge, die im Rahmen eines Fertigungsauftrags durchzuführen sind.\n"
 "Die Vorgänge werden in der Stückliste definiert oder direkt in den Fertigungsauftrag eingefügt."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -37654,6 +38030,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -37992,8 +38371,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Mit der Vorgangsart „Fertigung“ können Sie keine Los- oder Seriennummern für"
 " die Komponenten anlegen oder bearbeiten. Um dies zu ändern, gehen Sie auf "
+=======
+"Mit der Vorgangsart „Fertigung“ können Sie keine Los- oder Seriennummern für "
+"die Komponenten anlegen oder bearbeiten. Um dies zu ändern, gehen Sie auf "
+>>>>>>> upstream/18.0
 =======
 "Mit der Vorgangsart „Fertigung“ können Sie keine Los- oder Seriennummern für "
 "die Komponenten anlegen oder bearbeiten. Um dies zu ändern, gehen Sie auf "
@@ -38408,6 +38792,7 @@ msgstr "Sie können nur Fertigungen mit demselben Status zusammenführen."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/mrp/models/mrp_workorder.py:0
 msgid ""
 <<<<<<< HEAD
@@ -38621,6 +39006,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "You cannot cancel a manufacturing order that is already done."
 msgstr ""
@@ -38661,6 +39048,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -38787,6 +39177,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -38955,6 +39348,7 @@ msgstr "Sie können keine zyklischen Abhängigkeiten schaffen."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -39029,6 +39423,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -39142,6 +39538,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -39356,10 +39755,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            Please review your component consumption or ask a manager to validate\n"
 "                            <span invisible=\"mrp_production_count != 1\">this manufacturing order</span>\n"
 "                            <span invisible=\"mrp_production_count == 1\">these manufacturing orders</span>.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -39594,6 +39996,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -39828,6 +40233,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            Bitte bestätigen Sie, dass dies beabsichtigt ist.\n"
 "                        </b>\n"
 "                        <b invisible=\"consumption != 'strict'\">\n"
@@ -39835,6 +40241,8 @@ msgstr ""
 "                            <span invisible=\"mrp_production_count != 1\">diesen Fertigungsauftrag</span>\n"
 "                            <span invisible=\"mrp_production_count == 1\">diese Fertigungsaufträge</span>.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -40073,6 +40481,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -40321,8 +40732,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Produktivitätsverlust definieren. Erstellen Sie einen über die Fertigungsapp"
 " im Menü „Konfiguration“ > „Produktivitätsverluste“."
+=======
+"Produktivitätsverlust definieren. Erstellen Sie einen über die Fertigungsapp "
+"im Menü „Konfiguration“ > „Produktivitätsverluste“."
+>>>>>>> upstream/18.0
 =======
 "Produktivitätsverlust definieren. Erstellen Sie einen über die Fertigungsapp "
 "im Menü „Konfiguration“ > „Produktivitätsverluste“."
@@ -40714,6 +41130,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "'Productivity'. Create one from the Manufacturing app, menu: Configuration /"
 " Productivity Losses."
 msgstr ""
@@ -40721,6 +41138,8 @@ msgstr ""
 "Produktivitätsverlust definieren. Erstellen Sie einen über die Fertigungsapp"
 " im Menü „Konfiguration“ > „Produktivitätsverluste“."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -40955,6 +41374,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -41195,8 +41617,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Produktivitätsverlust definieren. Erstellen Sie einen über die Fertigungsapp"
 " im Menü „Konfiguration“ > „Produktivitätsverluste“."
+=======
+"Produktivitätsverlust definieren. Erstellen Sie einen über die Fertigungsapp "
+"im Menü „Konfiguration“ > „Produktivitätsverluste“."
+>>>>>>> upstream/18.0
 =======
 "Produktivitätsverlust definieren. Erstellen Sie einen über die Fertigungsapp "
 "im Menü „Konfiguration“ > „Produktivitätsverluste“."
@@ -41593,8 +42020,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You need to supply Lot/Serial Number for products and 'consume' them: "
 "%(missing_products)s"
+=======
+"You need to supply Lot/Serial Number for products and 'consume' them: %"
+"(missing_products)s"
+>>>>>>> upstream/18.0
 =======
 "You need to supply Lot/Serial Number for products and 'consume' them: %"
 "(missing_products)s"
@@ -42201,6 +42633,7 @@ msgstr "Arbeitsaufträgen"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #. module: mrp
 #. odoo-javascript
@@ -42221,6 +42654,8 @@ msgstr "{{ props.isFolded ? 'Aufklappen' : 'Einklappen' }}"
 #: code:addons/mrp/static/src/components/mo_overview_operations_block/mrp_mo_overview_operations_block.xml:0
 msgid "{{ state.isFolded ? 'Unfold' : 'Fold' }}"
 msgstr "{{ state.isFolded ? 'Aufklappen' : 'Einklappen' }}"
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

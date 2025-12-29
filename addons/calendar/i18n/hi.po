@@ -36,6 +36,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* calendar
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -148,6 +149,10 @@
 #
 >>>>>>> upstream/18.0
 =======
+#
+>>>>>>> upstream/18.0
+=======
+# * calendar
 #
 >>>>>>> upstream/18.0
 =======
@@ -427,6 +432,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Ujjawal Pathak, 2025
 >>>>>>> upstream/18.0
@@ -909,10 +915,16 @@
 #
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
+=======
+# Ujjawal Pathak, 2025
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1367,6 +1379,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-10-24 18:36+0000\n"
 "PO-Revision-Date: 2025-11-21 02:26+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
@@ -1407,6 +1421,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1545,6 +1562,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1601,6 +1619,10 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+=======
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 =======
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Weblate 5.12.2\n"
@@ -1786,7 +1808,11 @@ msgid "# Meetings"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "# Meetings"
+>>>>>>> upstream/18.0
 =======
 msgstr "# Meetings"
 >>>>>>> upstream/18.0
@@ -1939,6 +1965,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"%(date_start)s, %(time_start)s से\n"
+"%(date_end)s, %(time_end)s तक (%(timezone)s)"
+>>>>>>> upstream/18.0
 =======
 "%(date_start)s, %(time_start)s से\n"
 "%(date_end)s, %(time_end)s तक (%(timezone)s)"
@@ -2124,7 +2155,11 @@ msgid "%(day)s at (%(start)s To %(end)s) (%(timezone)s)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(day)s को (%(start)s से %(end)s तक) (%(timezone)s)"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(day)s को (%(start)s से %(end)s तक) (%(timezone)s)"
 >>>>>>> upstream/18.0
@@ -2274,7 +2309,11 @@ msgid "%s has accepted the invitation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s ने न्योता स्वीकार कर लिया है"
+>>>>>>> upstream/18.0
 =======
 msgstr "%s ने न्योता स्वीकार कर लिया है"
 >>>>>>> upstream/18.0
@@ -2424,7 +2463,11 @@ msgid "%s has declined the invitation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s ने न्योता अस्वीकार कर लिया है"
+>>>>>>> upstream/18.0
 =======
 msgstr "%s ने न्योता अस्वीकार कर लिया है"
 >>>>>>> upstream/18.0
@@ -2603,6 +2646,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "    <t t-set=\"colors\" t-value=\"{'needsAction': 'grey', 'accepted': 'green', 'tentative': '#FFFF00', 'declined': 'red'}\"/>\n"
 "    <t t-set=\"is_online\" t-value=\"'appointment_type_id' in object.event_id and object.event_id.appointment_type_id\"/>\n"
 "    <t t-set=\"customer\" t-value=\"object.event_id.find_partner_customer()\"/>\n"
@@ -2616,6 +2660,8 @@ msgid ""
 "            <t t-if=\"customer\">\n"
 "                The date of your appointment with <t t-out=\"customer.name or ''\">Jesse Brown</t> has been updated.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2825,6 +2871,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3020,6 +3069,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            The appointment <strong t-out=\"object.event_id.appointment_type_id.name or ''\">Schedule a Demo</strong> is now scheduled for\n"
 "            <t t-out=\"object.event_id.get_display_time_tz(tz=object.partner_id.tz) or ''\">05/04/2021 at (11:00:00 To 11:30:00) (Europe/Brussels)</t>\n"
 "        </t>\n"
@@ -3041,6 +3091,8 @@ msgid ""
 "            Decline</a>\n"
 "        <a t-attf-href=\"/calendar/meeting/view?token={{ object.access_token }}&amp;id={{ object.event_id.id }}\" style=\"padding: 5px 10px; color: #FFFFFF; text-decoration: none; background-color: #875A7B; border: 1px solid #875A7B; border-radius: 3px\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3274,6 +3326,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3469,6 +3524,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <div style=\"border-top-start-radius: 3px; border-top-end-radius: 3px; font-size: 12px; border-collapse: separate; text-align: center; font-weight: bold; color: #ffffff; min-height: 18px; background-color: #875A7B; border: 1px solid #875A7B;\">\n"
 "                <t t-out=\"format_datetime(dt=object.event_id.start, tz=object.mail_tz if not object.event_id.allday else None, dt_format=&quot;EEEE&quot;, lang_code=object.env.lang) or &quot;&quot;\">Tuesday</t>\n"
 "            </div>\n"
@@ -3487,6 +3543,8 @@ msgid ""
 "                        <div style=\"font-size: 10px; font-weight: normal\">\n"
 "                            (<t t-out=\"object.mail_tz or ''\">Europe/Brussels</t>)\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3713,6 +3771,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3914,6 +3975,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <li>Location: <t t-out=\"object.event_id.location or ''\">Bruxelles</t>\n"
 "                        <a target=\"_blank\" t-if=\"not is_online or is_online and object.event_id.location != object.event_id.appointment_type_id.location_id.name\" t-attf-href=\"http://maps.google.com/maps?oi=map&amp;q={{object.event_id.location}}\">(View Map)</a>\n"
 "                    </li>\n"
@@ -3931,6 +3993,8 @@ msgid ""
 "                        <t t-if=\"attendee.common_name != object.common_name\">\n"
 "                            <span style=\"margin-left:5px\" t-out=\"attendee.common_name or ''\">Mitchell Admin</span>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4151,6 +4215,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4351,10 +4418,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <t t-if=\"object.get_base_url() in object.event_id.videocall_location\"> Join with Odoo Discuss</t>\n"
 "                        <t t-else=\"\"> Join at</t><br/>\n"
 "                        <a t-att-href=\"object.event_id.videocall_location\" target=\"_blank\" t-out=\"object.event_id.videocall_location or ''\">www.mycompany.com/calendar/join_videocall/xyz</a>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4550,6 +4620,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4745,7 +4818,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <t t-out=\"object.event_id.description\">Internal meeting for discussion for new pricing for product and services.</t></li>\n"
+=======
+"                    <t t-out=\"object.event_id.description\">Internal "
+"meeting for discussion for new pricing for product and services.</t></li>\n"
+>>>>>>> upstream/18.0
 =======
 "                    <t t-out=\"object.event_id.description\">Internal "
 "meeting for discussion for new pricing for product and services.</t></li>\n"
@@ -5072,10 +5150,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "    <t t-if=\"object.event_id.user_id.signature\" data-o-mail-quote-container=\"1\">\n"
 "        <br/>\n"
 "        <t t-out=\"object.event_id.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5270,6 +5351,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5470,6 +5554,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "    <t t-set=\"colors\" t-value=\"{'needsAction': 'grey', 'accepted': 'green', 'tentative': '#FFFF00', 'declined': 'red'}\"/>\n"
 "    <t t-set=\"customer\" t-value=\" object.event_id.find_partner_customer()\"/>\n"
 "    <t t-set=\"target_responsible\" t-value=\"object.partner_id == object.event_id.partner_id\"/>\n"
@@ -5490,6 +5575,8 @@ msgid ""
 "        <t t-else=\"\">\n"
 "            Your meeting <strong t-out=\"object.event_id.name or ''\">Follow-up for Project proposal</strong> has been booked.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5710,6 +5797,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5905,6 +5995,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <a t-attf-href=\"/calendar/meeting/accept?token={{object.access_token}}&amp;id={{object.event_id.id}}\" style=\"padding: 5px 10px; color: #FFFFFF; text-decoration: none; background-color: #875A7B; border: 1px solid #875A7B; border-radius: 3px\">\n"
 "            Accept</a>\n"
 "        <a t-attf-href=\"/calendar/meeting/decline?token={{object.access_token}}&amp;id={{object.event_id.id}}\" style=\"padding: 5px 10px; color: #FFFFFF; text-decoration: none; background-color: #875A7B; border: 1px solid #875A7B; border-radius: 3px\">\n"
@@ -5931,6 +6022,8 @@ msgid ""
 "                        <div style=\"font-size: 10px; font-weight: normal\">\n"
 "                            (<t t-out=\"object.mail_tz or ''\">Europe/Brussels</t>)\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6172,6 +6265,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6373,6 +6469,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <li>Location: <t t-out=\"object.event_id.location or ''\">Bruxelles</t>\n"
 "                        <a target=\"_blank\" t-if=\"not is_online or is_online and object.event_id.location != object.event_id.appointment_type_id.location_id.name\" t-attf-href=\"http://maps.google.com/maps?oi=map&amp;q={{object.event_id.location}}\">(View Map)</a>\n"
 "                    </li>\n"
@@ -6390,6 +6487,8 @@ msgid ""
 "                        <t t-if=\"attendee.common_name != object.common_name\">\n"
 "                            <span style=\"margin-left:5px\" t-out=\"attendee.common_name or ''\">Mitchell Admin</span>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6610,6 +6709,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6810,10 +6912,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <t t-if=\"object.get_base_url() in object.event_id.videocall_location\"> Join with Odoo Discuss</t>\n"
 "                        <t t-else=\"\"> Join at</t><br/>\n"
 "                        <a t-att-href=\"object.event_id.videocall_location\" target=\"_blank\" t-out=\"object.event_id.videocall_location or ''\">www.mycompany.com/calendar/join_videocall/xyz</a>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7009,6 +7114,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7204,7 +7312,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <t t-out=\"object.event_id.description\">Internal meeting for discussion for new pricing for product and services.</t></li>\n"
+=======
+"                    <t t-out=\"object.event_id.description\">Internal "
+"meeting for discussion for new pricing for product and services.</t></li>\n"
+>>>>>>> upstream/18.0
 =======
 "                    <t t-out=\"object.event_id.description\">Internal "
 "meeting for discussion for new pricing for product and services.</t></li>\n"
@@ -7531,10 +7644,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "    <t t-if=\"object.event_id.user_id.signature\" data-o-mail-quote-container=\"1\">\n"
 "        <br/>\n"
 "        <t t-out=\"object.event_id.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7729,6 +7845,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7929,6 +8048,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "    <t t-set=\"colors\" t-value=\"{'needsAction': 'grey', 'accepted': 'green', 'tentative': '#FFFF00', 'declined': 'red'}\"/>\n"
 "    <t t-set=\"is_online\" t-value=\"'appointment_type_id' in object and object.appointment_type_id\"/>\n"
 "    <t t-set=\"target_responsible\" t-value=\"object.partner_id == object.partner_id\"/>\n"
@@ -7936,6 +8056,8 @@ msgid ""
 "    <t t-set=\"recurrent\" t-value=\"object.recurrence_id and not ctx.get('calendar_template_ignore_recurrence')\"/>\n"
 "    <t t-set=\"mail_tz\" t-value=\"object._get_mail_tz() or ctx.get('mail_tz')\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8137,6 +8259,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8332,6 +8457,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <div style=\"border-top-start-radius: 3px; border-top-end-radius: 3px; font-size: 12px; border-collapse: separate; text-align: center; font-weight: bold; color: #ffffff; min-height: 18px; background-color: #875A7B; border: 1px solid #875A7B;\">\n"
 "                        <t t-out=\"format_datetime(dt=object.start, tz=mail_tz if not object.allday else None, dt_format='EEEE', lang_code=object.env.lang) \">Tuesday</t>\n"
 "                    </div>\n"
@@ -8350,6 +8476,8 @@ msgid ""
 "                                <div style=\"font-size: 10px; font-weight: normal\">\n"
 "                                    (<t t-out=\"mail_tz\"> Europe/Brussels</t>)\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8574,6 +8702,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8778,7 +8909,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            <t t-out=\"object.description\">Internal meeting for discussion for new pricing for product and services.</t></li>\n"
+=======
+"                            <t t-out=\"object.description\">Internal meeting "
+"for discussion for new pricing for product and services.</t></li>\n"
+>>>>>>> upstream/18.0
 =======
 "                            <t t-out=\"object.description\">Internal meeting "
 "for discussion for new pricing for product and services.</t></li>\n"
@@ -9103,6 +9239,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                <t t-if=\"object.get_base_url() in object.videocall_location\"> Join with Odoo Discuss</t>\n"
 "                                <t t-else=\"\"> Join at</t><br/>\n"
 "                                <a t-att-href=\"object.videocall_location\" target=\"_blank\" t-out=\"object.videocall_location or ''\">www.mycompany.com/calendar/join_videocall/xyz</a>\n"
@@ -9120,6 +9257,8 @@ msgid ""
 "                            <li>Duration:\n"
 "                                <t t-out=\"('%dH%02d' % (object.duration,round(object.duration*60)%60))\">0H30</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9335,6 +9474,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9540,7 +9682,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <t t-out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+=======
+"        <t t-out=\"object.user_id.signature or ''\" data-o-mail-"
+"quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+>>>>>>> upstream/18.0
 =======
 "        <t t-out=\"object.user_id.signature or ''\" data-o-mail-"
 "quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
@@ -9870,6 +10017,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "    <t t-set=\"colors\" t-value=\"{'needsAction': 'grey', 'accepted': 'green', 'tentative': '#FFFF00', 'declined': 'red'}\"/>\n"
 "    <t t-set=\"is_online\" t-value=\"'appointment_type_id' in object.event_id and object.event_id.appointment_type_id\"/>\n"
 "    <t t-set=\"recurrent\" t-value=\"object.recurrence_id and not ctx.get('calendar_template_ignore_recurrence')\"/>\n"
@@ -9884,6 +10032,8 @@ msgid ""
 "            Decline</a>\n"
 "        <a t-attf-href=\"/calendar/meeting/view?token={{ object.access_token }}&amp;id={{ object.event_id.id }}\" style=\"padding: 5px 10px; color: #FFFFFF; text-decoration: none; background-color: #875A7B; border: 1px solid #875A7B; border-radius: 3px\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10101,6 +10251,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10296,6 +10449,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <div style=\"border-top-start-radius: 3px; border-top-end-radius: 3px; font-size: 12px; border-collapse: separate; text-align: center; font-weight: bold; color: #ffffff; min-height: 18px; background-color: #875A7B; border: 1px solid #875A7B;\">\n"
 "                <t t-out=\"format_datetime(dt=object.event_id.start, tz=object.mail_tz if not object.event_id.allday else None, dt_format=&quot;EEEE&quot;, lang_code=object.env.lang) or &quot;&quot;\">Tuesday</t>\n"
 "            </div>\n"
@@ -10314,6 +10468,8 @@ msgid ""
 "                        <div style=\"font-size: 10px; font-weight: normal\">\n"
 "                            (<t t-out=\"object.mail_tz or ''\">Europe/Brussels</t>)\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10540,6 +10696,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10741,6 +10900,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <li>Location: <t t-out=\"object.event_id.location or ''\">Bruxelles</t>\n"
 "                        <a target=\"_blank\" t-if=\"not is_online or is_online and object.event_id.location != object.event_id.appointment_type_id.location_id.name\" t-attf-href=\"http://maps.google.com/maps?oi=map&amp;q={{object.event_id.location}}\">(View Map)</a>\n"
 "                    </li>\n"
@@ -10758,6 +10918,8 @@ msgid ""
 "                        <t t-if=\"attendee.common_name != object.common_name\">\n"
 "                            <span style=\"margin-left:5px\" t-out=\"attendee.common_name or ''\">Mitchell Admin</span>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10978,6 +11140,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11178,10 +11343,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <t t-if=\"object.get_base_url() in object.event_id.videocall_location\"> Join with Odoo Discuss</t>\n"
 "                        <t t-else=\"\"> Join at</t><br/>\n"
 "                        <a t-att-href=\"object.event_id.videocall_location\" target=\"_blank\" t-out=\"object.event_id.videocall_location or ''\">www.mycompany.com/calendar/join_videocall/xyz</a>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11377,6 +11545,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11572,7 +11743,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <t t-out=\"object.event_id.description\">Internal meeting for discussion for new pricing for product and services.</t></li>\n"
+=======
+"                    <t t-out=\"object.event_id.description\">Internal "
+"meeting for discussion for new pricing for product and services.</t></li>\n"
+>>>>>>> upstream/18.0
 =======
 "                    <t t-out=\"object.event_id.description\">Internal "
 "meeting for discussion for new pricing for product and services.</t></li>\n"
@@ -11899,10 +12075,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "    <t t-if=\"object.event_id.user_id.signature\" data-o-mail-quote-container=\"1\">\n"
 "        <br/>\n"
 "        <t t-out=\"object.event_id.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12097,6 +12276,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12275,7 +12457,11 @@ msgid "<span class=\"fa fa-plus\"/> <span>Odoo meeting</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"fa fa-plus\"/> <span>Odoo मीटिंग</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"fa fa-plus\"/> <span>Odoo मीटिंग</span>"
 >>>>>>> upstream/18.0
@@ -12424,7 +12610,11 @@ msgid "<span class=\"fa fa-plus\"/><span> Odoo meeting</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"fa fa-plus\"/><span> Odoo मीटिंग</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"fa fa-plus\"/><span> Odoo मीटिंग</span>"
 >>>>>>> upstream/18.0
@@ -12574,7 +12764,11 @@ msgid "<span class=\"fa fa-times\"/><span> Clear meeting</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"fa fa-times\"/><span> मीटिंग हटाएं</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"fa fa-times\"/><span> मीटिंग हटाएं</span>"
 >>>>>>> upstream/18.0
@@ -12727,6 +12921,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"fw-bold text-nowrap\" invisible=\"rrule_type_ui not in "
+"['weekly', 'custom'] or (rrule_type_ui == 'custom' and rrule_type != "
+"'weekly')\">इस समय दोहराएं</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"fw-bold text-nowrap\" invisible=\"rrule_type_ui not in "
 "['weekly', 'custom'] or (rrule_type_ui == 'custom' and rrule_type != "
@@ -12958,7 +13158,11 @@ msgid "<span class=\"oi oi-arrow-right\"/><span> Join video call</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"oi oi-arrow-right\"/><span> वीडियो कॉल ज्वॉइन करें</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"oi oi-arrow-right\"/><span> वीडियो कॉल ज्वॉइन करें</span>"
 >>>>>>> upstream/18.0
@@ -13107,7 +13311,11 @@ msgid "<span invisible=\"allday\" style=\"white-space: pre;\"> or </span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span invisible=\"allday\" style=\"white-space: pre;\"> या </span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span invisible=\"allday\" style=\"white-space: pre;\"> या </span>"
 >>>>>>> upstream/18.0
@@ -13256,7 +13464,11 @@ msgid "<span> Attendees</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span> प्रतिभागी</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span> प्रतिभागी</span>"
 >>>>>>> upstream/18.0
@@ -13405,7 +13617,11 @@ msgid "<span> hours</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span> घंटे</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span> घंटे</span>"
 >>>>>>> upstream/18.0
@@ -13556,6 +13772,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"इस पेज को <strong>सेव करें</strong> और फ़ीचर सेट अप करने के लिए यहां वापस आएं।"
+>>>>>>> upstream/18.0
 =======
 "इस पेज को <strong>सेव करें</strong> और फ़ीचर सेट अप करने के लिए यहां वापस आएं।"
 >>>>>>> upstream/18.0
@@ -13704,7 +13924,11 @@ msgid "A user cannot have the same contact twice."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एक उपयोगकर्ता का एक ही संपर्क दो बार नहीं हो सकता।"
+>>>>>>> upstream/18.0
 =======
 msgstr "एक उपयोगकर्ता का एक ही संपर्क दो बार नहीं हो सकता।"
 >>>>>>> upstream/18.0
@@ -13858,7 +14082,11 @@ msgid "Accepted Count"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "स्वीकार करने वाले लोगों की संख्या"
+>>>>>>> upstream/18.0
 =======
 msgstr "स्वीकार करने वाले लोगों की संख्या"
 >>>>>>> upstream/18.0
@@ -14100,7 +14328,11 @@ msgid "Action Needed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कार्रवाई की ज़रूरत है"
+>>>>>>> upstream/18.0
 =======
 msgstr "कार्रवाई की ज़रूरत है"
 >>>>>>> upstream/18.0
@@ -14516,6 +14748,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"कुछ कार्रवाइयों से कैलेंडर खुलता है या दस्तावेज़ अपलोड होने पर काम अपने-आप 'हो गया' हो जाता"
+" है"
+>>>>>>> upstream/18.0
 =======
 "कुछ कार्रवाइयों से कैलेंडर खुलता है या दस्तावेज़ अपलोड होने पर काम अपने-आप 'हो गया' हो जाता"
 " है"
@@ -14783,7 +15020,11 @@ msgid "Activity"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऐक्टिविटी"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऐक्टिविटी"
 >>>>>>> upstream/18.0
@@ -15148,7 +15389,11 @@ msgid "Activity Mixin"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऐक्टिविटी मिक्सिन"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऐक्टिविटी मिक्सिन"
 >>>>>>> upstream/18.0
@@ -15369,7 +15614,11 @@ msgid "Activity Type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऐक्टिविटी टाइप"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऐक्टिविटी टाइप"
 >>>>>>> upstream/18.0
@@ -15734,7 +15983,11 @@ msgid "Activity schedule plan Wizard"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऐक्टिविटी शेड्यूल प्लान विज़ॉर्ड"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऐक्टिविटी शेड्यूल प्लान विज़ॉर्ड"
 >>>>>>> upstream/18.0
@@ -15883,7 +16136,11 @@ msgid "Add attendees..."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्रतिभागी जोड़ें..।"
+>>>>>>> upstream/18.0
 =======
 msgstr "प्रतिभागी जोड़ें..।"
 >>>>>>> upstream/18.0
@@ -16032,7 +16289,11 @@ msgid "Add description"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "विवरण जोड़ें"
+>>>>>>> upstream/18.0
 =======
 msgstr "विवरण जोड़ें"
 >>>>>>> upstream/18.0
@@ -16181,7 +16442,11 @@ msgid "Add title"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "टाइटल जोड़ें"
+>>>>>>> upstream/18.0
 =======
 msgstr "टाइटल जोड़ें"
 >>>>>>> upstream/18.0
@@ -16330,7 +16595,11 @@ msgid "Additional Message"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अतिरिक्त मैसेज"
+>>>>>>> upstream/18.0
 =======
 msgstr "अतिरिक्त मैसेज"
 >>>>>>> upstream/18.0
@@ -16480,7 +16749,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अतिरिक्त संदेश जो रिमाइंडर के लिए सूचना के साथ भेजा जाएगा"
+>>>>>>> upstream/18.0
 =======
 msgstr "अतिरिक्त संदेश जो रिमाइंडर के लिए सूचना के साथ भेजा जाएगा"
 >>>>>>> upstream/18.0
@@ -16631,7 +16904,11 @@ msgid "All Day"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सभी दिन"
+>>>>>>> upstream/18.0
 =======
 msgstr "सभी दिन"
 >>>>>>> upstream/18.0
@@ -16781,7 +17058,11 @@ msgid "All Day, %(day)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सभी दिन, %(day)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "सभी दिन, %(day)s"
 >>>>>>> upstream/18.0
@@ -16932,7 +17213,11 @@ msgid "All events"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सभी इवेंट"
+>>>>>>> upstream/18.0
 =======
 msgstr "सभी इवेंट"
 >>>>>>> upstream/18.0
@@ -17170,7 +17455,11 @@ msgid "Archived"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "संग्रहीत किया गया"
+>>>>>>> upstream/18.0
 =======
 msgstr "संग्रहीत किया गया"
 >>>>>>> upstream/18.0
@@ -17671,7 +17960,11 @@ msgid "Attachment Count"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अटैचमेंट काउंट"
+>>>>>>> upstream/18.0
 =======
 msgstr "अटैचमेंट काउंट"
 >>>>>>> upstream/18.0
@@ -18084,7 +18377,11 @@ msgid "Attendee"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्रतिभागी"
+>>>>>>> upstream/18.0
 =======
 msgstr "प्रतिभागी"
 >>>>>>> upstream/18.0
@@ -18234,7 +18531,11 @@ msgid "Attendees"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्रतिभागी"
+>>>>>>> upstream/18.0
 =======
 msgstr "प्रतिभागी"
 >>>>>>> upstream/18.0
@@ -18383,7 +18684,11 @@ msgid "Attendees Count"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्रतिभागियों की संख्या"
+>>>>>>> upstream/18.0
 =======
 msgstr "प्रतिभागियों की संख्या"
 >>>>>>> upstream/18.0
@@ -18532,7 +18837,11 @@ msgid "Attending?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "शामिल हो रहे हैं?"
+>>>>>>> upstream/18.0
 =======
 msgstr "शामिल हो रहे हैं?"
 >>>>>>> upstream/18.0
@@ -18682,7 +18991,11 @@ msgid "Available"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "उपलब्ध"
+>>>>>>> upstream/18.0
 =======
 msgstr "उपलब्ध"
 >>>>>>> upstream/18.0
@@ -18831,7 +19144,11 @@ msgid "Available/Busy"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "उपलब्ध/बिज़ी"
+>>>>>>> upstream/18.0
 =======
 msgstr "उपलब्ध/बिज़ी"
 >>>>>>> upstream/18.0
@@ -18980,7 +19297,11 @@ msgid "Awaiting Count"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्रतीक्षा की संख्या"
+>>>>>>> upstream/18.0
 =======
 msgstr "प्रतीक्षा की संख्या"
 >>>>>>> upstream/18.0
@@ -19129,7 +19450,11 @@ msgid "Base Event"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बेस इवेंट"
+>>>>>>> upstream/18.0
 =======
 msgstr "बेस इवेंट"
 >>>>>>> upstream/18.0
@@ -19282,7 +19607,11 @@ msgid "Busy"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बिज़ी"
+>>>>>>> upstream/18.0
 =======
 msgstr "बिज़ी"
 >>>>>>> upstream/18.0
@@ -19432,7 +19761,11 @@ msgid "By day"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "दिन के हिसाब से"
+>>>>>>> upstream/18.0
 =======
 msgstr "दिन के हिसाब से"
 >>>>>>> upstream/18.0
@@ -19582,7 +19915,11 @@ msgid "Bye-bye, record!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अलविदा, रिकॉर्ड!"
+>>>>>>> upstream/18.0
 =======
 msgstr "अलविदा, रिकॉर्ड!"
 >>>>>>> upstream/18.0
@@ -19735,7 +20072,11 @@ msgid "Calendar"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कैलेंडर"
+>>>>>>> upstream/18.0
 =======
 msgstr "कैलेंडर"
 >>>>>>> upstream/18.0
@@ -19887,7 +20228,11 @@ msgid "Calendar Alarm"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कैलेंडर अलार्म"
+>>>>>>> upstream/18.0
 =======
 msgstr "कैलेंडर अलार्म"
 >>>>>>> upstream/18.0
@@ -20036,7 +20381,11 @@ msgid "Calendar Attendee Information"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कैलेंडर पर किसी मीटिंग में भाग लेने वाले लोगों की जानकारी"
+>>>>>>> upstream/18.0
 =======
 msgstr "कैलेंडर पर किसी मीटिंग में भाग लेने वाले लोगों की जानकारी"
 >>>>>>> upstream/18.0
@@ -20188,7 +20537,11 @@ msgid "Calendar Default Privacy"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कैलेंडर डिफ़ॉल्ट प्राइवेसी"
+>>>>>>> upstream/18.0
 =======
 msgstr "कैलेंडर डिफ़ॉल्ट प्राइवेसी"
 >>>>>>> upstream/18.0
@@ -20411,7 +20764,11 @@ msgid "Calendar Event"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कैलेंडर इवेंट"
+>>>>>>> upstream/18.0
 =======
 msgstr "कैलेंडर इवेंट"
 >>>>>>> upstream/18.0
@@ -20776,7 +21133,11 @@ msgid "Calendar Filters"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कैलेंडर फिल्टर"
+>>>>>>> upstream/18.0
 =======
 msgstr "कैलेंडर फिल्टर"
 >>>>>>> upstream/18.0
@@ -20925,7 +21286,11 @@ msgid "Calendar Invitation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कैलेंडर इन्विटेशन"
+>>>>>>> upstream/18.0
 =======
 msgstr "कैलेंडर इन्विटेशन"
 >>>>>>> upstream/18.0
@@ -21074,7 +21439,11 @@ msgid "Calendar Meeting"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कैलेंडर मीटिंग"
+>>>>>>> upstream/18.0
 =======
 msgstr "कैलेंडर मीटिंग"
 >>>>>>> upstream/18.0
@@ -21223,7 +21592,11 @@ msgid "Calendar Popover Delete Wizard"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कैलेंडर पॉपओवर डिलीट विज़ॉर्ड"
+>>>>>>> upstream/18.0
 =======
 msgstr "कैलेंडर पॉपओवर डिलीट विज़ॉर्ड"
 >>>>>>> upstream/18.0
@@ -21372,7 +21745,11 @@ msgid "Calendar Provider Configuration Wizard"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कैलेंडर प्रोवाइडर कॉन्फ़िगरेशन विज़ॉर्ड"
+>>>>>>> upstream/18.0
 =======
 msgstr "कैलेंडर प्रोवाइडर कॉन्फ़िगरेशन विज़ॉर्ड"
 >>>>>>> upstream/18.0
@@ -21521,7 +21898,11 @@ msgid "Calendar Settings"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कैलेंडर सेटिंग"
+>>>>>>> upstream/18.0
 =======
 msgstr "कैलेंडर सेटिंग"
 >>>>>>> upstream/18.0
@@ -21670,7 +22051,11 @@ msgid "Calendar: Date Updated"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कैलेंडर: तारीख अपडेट की गई"
+>>>>>>> upstream/18.0
 =======
 msgstr "कैलेंडर: तारीख अपडेट की गई"
 >>>>>>> upstream/18.0
@@ -21819,7 +22204,11 @@ msgid "Calendar: Event Reminder"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कैलेंडर: इवेंट के लिए रिमाइंडर"
+>>>>>>> upstream/18.0
 =======
 msgstr "कैलेंडर: इवेंट के लिए रिमाइंडर"
 >>>>>>> upstream/18.0
@@ -21968,7 +22357,11 @@ msgid "Calendar: Event Update"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कैलेंडर: इवेंट अपडेट"
+>>>>>>> upstream/18.0
 =======
 msgstr "कैलेंडर: इवेंट अपडेट"
 >>>>>>> upstream/18.0
@@ -22117,7 +22510,11 @@ msgid "Calendar: Meeting Invitation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कैलेंडर: मीटिंग के लिए न्योता"
+>>>>>>> upstream/18.0
 =======
 msgstr "कैलेंडर: मीटिंग के लिए न्योता"
 >>>>>>> upstream/18.0
@@ -22266,7 +22663,11 @@ msgid "Calendar: Reminder"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कैलेंडर: रिमाइंडर"
+>>>>>>> upstream/18.0
 =======
 msgstr "कैलेंडर: रिमाइंडर"
 >>>>>>> upstream/18.0
@@ -22385,6 +22786,7 @@ msgstr "रद्द"
 #. module: calendar
 #: model:ir.model.fields,help:calendar.field_calendar_event__is_organizer_alone
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -22635,6 +23037,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Check if the organizer is alone in the event, i.e. if the organizer is the "
 "only one that hasn't declined\n"
 "        the event (only if the organizer is not the only attendee)"
@@ -22677,6 +23081,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -22873,7 +23280,11 @@ msgid "Checked"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "जांच की गई"
+>>>>>>> upstream/18.0
 =======
 msgstr "जांच की गई"
 >>>>>>> upstream/18.0
@@ -23277,7 +23688,11 @@ msgid "Choose an external calendar to configure"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कॉन्फ़िगर करने के लिए एक एक्सटर्नल कैलेंडर चुनें"
+>>>>>>> upstream/18.0
 =======
 msgstr "कॉन्फ़िगर करने के लिए एक एक्सटर्नल कैलेंडर चुनें"
 >>>>>>> upstream/18.0
@@ -23429,6 +23844,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"चुनें कि आवर्ती क्रम में अन्य इवेंट के साथ क्या करना है. तारीख या समय में बदलाव होने पर, सभी "
+"इवेंट को अपडेट करने की अनुमति नहीं है"
+>>>>>>> upstream/18.0
 =======
 "चुनें कि आवर्ती क्रम में अन्य इवेंट के साथ क्या करना है. तारीख या समय में बदलाव होने पर, सभी "
 "इवेंट को अपडेट करने की अनुमति नहीं है"
@@ -23613,7 +24033,11 @@ msgid "Client ID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "क्लाइंड आईडी"
+>>>>>>> upstream/18.0
 =======
 msgstr "क्लाइंड आईडी"
 >>>>>>> upstream/18.0
@@ -23762,7 +24186,11 @@ msgid "Client Secret"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "क्लाइंट सीक्रेट"
+>>>>>>> upstream/18.0
 =======
 msgstr "क्लाइंट सीक्रेट"
 >>>>>>> upstream/18.0
@@ -23996,7 +24424,11 @@ msgid "Color"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कलर"
+>>>>>>> upstream/18.0
 =======
 msgstr "कलर"
 >>>>>>> upstream/18.0
@@ -24400,7 +24832,11 @@ msgid "Common name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सामान्य नाम"
+>>>>>>> upstream/18.0
 =======
 msgstr "सामान्य नाम"
 >>>>>>> upstream/18.0
@@ -24561,7 +24997,11 @@ msgid "Connect"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कनेक्ट"
+>>>>>>> upstream/18.0
 =======
 msgstr "कनेक्ट"
 >>>>>>> upstream/18.0
@@ -24711,7 +25151,11 @@ msgid "Connect your Calendar"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अपना कैलेंडर कनेक्ट करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "अपना कैलेंडर कनेक्ट करें"
 >>>>>>> upstream/18.0
@@ -24866,7 +25310,11 @@ msgid "Contact Attendees"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्रतिभागी से संपर्क करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "प्रतिभागी से संपर्क करें"
 >>>>>>> upstream/18.0
@@ -25015,7 +25463,11 @@ msgid "Count"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "काउंट"
+>>>>>>> upstream/18.0
 =======
 msgstr "काउंट"
 >>>>>>> upstream/18.0
@@ -25268,7 +25720,11 @@ msgid "Created on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इस तारीख को बनाया गया"
+>>>>>>> upstream/18.0
 =======
 msgstr "इस तारीख को बनाया गया"
 >>>>>>> upstream/18.0
@@ -25672,7 +26128,11 @@ msgid "Current Attendee"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मौजूदा प्रतिभागी"
+>>>>>>> upstream/18.0
 =======
 msgstr "मौजूदा प्रतिभागी"
 >>>>>>> upstream/18.0
@@ -25822,7 +26282,11 @@ msgid "Custom"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कस्टम"
+>>>>>>> upstream/18.0
 =======
 msgstr "कस्टम"
 >>>>>>> upstream/18.0
@@ -25971,7 +26435,11 @@ msgid "Daily"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "हर दिन"
+>>>>>>> upstream/18.0
 =======
 msgstr "हर दिन"
 >>>>>>> upstream/18.0
@@ -26128,7 +26596,11 @@ msgid "Date of month"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "महीने का दिन"
+>>>>>>> upstream/18.0
 =======
 msgstr "महीने का दिन"
 >>>>>>> upstream/18.0
@@ -26282,7 +26754,11 @@ msgid "Day of Month"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "महीने का दिन"
+>>>>>>> upstream/18.0
 =======
 msgstr "महीने का दिन"
 >>>>>>> upstream/18.0
@@ -26432,7 +26908,11 @@ msgid "Day of month"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "महीने का दिन"
+>>>>>>> upstream/18.0
 =======
 msgstr "महीने का दिन"
 >>>>>>> upstream/18.0
@@ -26668,7 +27148,11 @@ msgid "Days"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "दिन"
+>>>>>>> upstream/18.0
 =======
 msgstr "दिन"
 >>>>>>> upstream/18.0
@@ -27072,7 +27556,11 @@ msgid "Decline"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अस्वीकार करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "अस्वीकार करें"
 >>>>>>> upstream/18.0
@@ -27221,7 +27709,11 @@ msgid "Declined Count"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अस्वीकार करने वाले लोगों की संख्या"
+>>>>>>> upstream/18.0
 =======
 msgstr "अस्वीकार करने वाले लोगों की संख्या"
 >>>>>>> upstream/18.0
@@ -27455,7 +27947,11 @@ msgid "Default"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "डिफ़ॉल्ट"
+>>>>>>> upstream/18.0
 =======
 msgstr "डिफ़ॉल्ट"
 >>>>>>> upstream/18.0
@@ -27859,7 +28355,11 @@ msgid "Default Privacy"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "डिफ़ॉल्ट प्राइवेसी"
+>>>>>>> upstream/18.0
 =======
 msgstr "डिफ़ॉल्ट प्राइवेसी"
 >>>>>>> upstream/18.0
@@ -28008,7 +28508,11 @@ msgid "Default privacy setting for whom the calendar events will be visible."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कैलेंडर इवेंट किसके लिए दिखाई देंगे, इसके लिए डिफ़ॉल्ट प्राइवेसी सेटिंग।"
+>>>>>>> upstream/18.0
 =======
 msgstr "कैलेंडर इवेंट किसके लिए दिखाई देंगे, इसके लिए डिफ़ॉल्ट प्राइवेसी सेटिंग।"
 >>>>>>> upstream/18.0
@@ -28165,7 +28669,11 @@ msgid "Delete Event"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इवेंट मिटाएं"
+>>>>>>> upstream/18.0
 =======
 msgstr "इवेंट मिटाएं"
 >>>>>>> upstream/18.0
@@ -28314,7 +28822,11 @@ msgid "Delete all the events"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सभी इवेंट मिटाएं"
+>>>>>>> upstream/18.0
 =======
 msgstr "सभी इवेंट मिटाएं"
 >>>>>>> upstream/18.0
@@ -28463,7 +28975,11 @@ msgid "Delete this and following events"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इस इवेंट और आने वाले इवेंट को मिटाएं"
+>>>>>>> upstream/18.0
 =======
 msgstr "इस इवेंट और आने वाले इवेंट को मिटाएं"
 >>>>>>> upstream/18.0
@@ -28612,7 +29128,11 @@ msgid "Delete this event"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इस इवेंट को मिटाएं"
+>>>>>>> upstream/18.0
 =======
 msgstr "इस इवेंट को मिटाएं"
 >>>>>>> upstream/18.0
@@ -28761,7 +29281,11 @@ msgid "Describe your meeting"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अपनी मीटिंग के बारे में बताएं"
+>>>>>>> upstream/18.0
 =======
 msgstr "अपनी मीटिंग के बारे में बताएं"
 >>>>>>> upstream/18.0
@@ -28922,7 +29446,11 @@ msgid "Discuss"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "डिस्कस"
+>>>>>>> upstream/18.0
 =======
 msgstr "डिस्कस"
 >>>>>>> upstream/18.0
@@ -29071,7 +29599,11 @@ msgid "Discuss Channel"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "चर्चा करने के लिए चैनल"
+>>>>>>> upstream/18.0
 =======
 msgstr "चर्चा करने के लिए चैनल"
 >>>>>>> upstream/18.0
@@ -29220,7 +29752,11 @@ msgid "Display Description"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "विवरण दिखाएं"
+>>>>>>> upstream/18.0
 =======
 msgstr "विवरण दिखाएं"
 >>>>>>> upstream/18.0
@@ -29467,7 +30003,11 @@ msgid "Display Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "डिस्प्ले नाम"
+>>>>>>> upstream/18.0
 =======
 msgstr "डिस्प्ले नाम"
 >>>>>>> upstream/18.0
@@ -29889,7 +30429,11 @@ msgid "Document ID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "डॉक्यूमेंट आईडी"
+>>>>>>> upstream/18.0
 =======
 msgstr "डॉक्यूमेंट आईडी"
 >>>>>>> upstream/18.0
@@ -30038,7 +30582,11 @@ msgid "Document Model"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "डॉक्यूमेंट मॉडल"
+>>>>>>> upstream/18.0
 =======
 msgstr "डॉक्यूमेंट मॉडल"
 >>>>>>> upstream/18.0
@@ -30187,7 +30735,11 @@ msgid "Document Model Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "डॉक्यूमेंट मॉडल का नाम"
+>>>>>>> upstream/18.0
 =======
 msgstr "डॉक्यूमेंट मॉडल का नाम"
 >>>>>>> upstream/18.0
@@ -30352,7 +30904,11 @@ msgid "EMAIL"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ईमेल"
+>>>>>>> upstream/18.0
 =======
 msgstr "ईमेल"
 >>>>>>> upstream/18.0
@@ -30502,7 +31058,11 @@ msgid "Edit Recurrent event"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बार-बार होने वाले इवेंट में बदलाव करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "बार-बार होने वाले इवेंट में बदलाव करें"
 >>>>>>> upstream/18.0
@@ -30651,7 +31211,11 @@ msgid "Edit recurring event"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बार-बार होने वाले इवेंट में बदलाव करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "बार-बार होने वाले इवेंट में बदलाव करें"
 >>>>>>> upstream/18.0
@@ -30806,7 +31370,11 @@ msgid "Email - 3 Hours"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ईमेल - 3 घंटे"
+>>>>>>> upstream/18.0
 =======
 msgstr "ईमेल - 3 घंटे"
 >>>>>>> upstream/18.0
@@ -30955,7 +31523,11 @@ msgid "Email - 6 Hours"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ईमेल - 6 घंटे"
+>>>>>>> upstream/18.0
 =======
 msgstr "ईमेल - 6 घंटे"
 >>>>>>> upstream/18.0
@@ -31176,7 +31748,11 @@ msgid "Email Template"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ईमेल टेंप्लेट"
+>>>>>>> upstream/18.0
 =======
 msgstr "ईमेल टेंप्लेट"
 >>>>>>> upstream/18.0
@@ -31552,7 +32128,11 @@ msgid "End Type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एंड टाइप"
+>>>>>>> upstream/18.0
 =======
 msgstr "एंड टाइप"
 >>>>>>> upstream/18.0
@@ -31707,7 +32287,11 @@ msgid "Event Alarm"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इवेंट अलार्म"
+>>>>>>> upstream/18.0
 =======
 msgstr "इवेंट अलार्म"
 >>>>>>> upstream/18.0
@@ -31856,7 +32440,11 @@ msgid "Event Alarm Manager"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इवेंट अलार्म मैनेजर"
+>>>>>>> upstream/18.0
 =======
 msgstr "इवेंट अलार्म मैनेजर"
 >>>>>>> upstream/18.0
@@ -32005,7 +32593,11 @@ msgid "Event Meeting Type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इवेंट मीटिंग टाइप"
+>>>>>>> upstream/18.0
 =======
 msgstr "इवेंट मीटिंग टाइप"
 >>>>>>> upstream/18.0
@@ -32154,7 +32746,11 @@ msgid "Event Recurrence Rule"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इवेंट दोहराने का नियम"
+>>>>>>> upstream/18.0
 =======
 msgstr "इवेंट दोहराने का नियम"
 >>>>>>> upstream/18.0
@@ -32303,7 +32899,11 @@ msgid "Event Time"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इवेंट का समय"
+>>>>>>> upstream/18.0
 =======
 msgstr "इवेंट का समय"
 >>>>>>> upstream/18.0
@@ -32453,7 +33053,11 @@ msgid "Every %(interval)s Days"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "हर %(interval)s दिन"
+>>>>>>> upstream/18.0
 =======
 msgstr "हर %(interval)s दिन"
 >>>>>>> upstream/18.0
@@ -32603,7 +33207,11 @@ msgid "Every %(interval)s Days for %(count)s events"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(count)s इवेंट के लिए हर %(interval)s दिन"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(count)s इवेंट के लिए हर %(interval)s दिन"
 >>>>>>> upstream/18.0
@@ -32753,7 +33361,11 @@ msgid "Every %(interval)s Days until %(until)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "हर %(interval)s दिन, %(until)s तक"
+>>>>>>> upstream/18.0
 =======
 msgstr "हर %(interval)s दिन, %(until)s तक"
 >>>>>>> upstream/18.0
@@ -32903,7 +33515,11 @@ msgid "Every %(interval)s Months day %(day)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "हर %(interval)s महीने, %(day)s दिन"
+>>>>>>> upstream/18.0
 =======
 msgstr "हर %(interval)s महीने, %(day)s दिन"
 >>>>>>> upstream/18.0
@@ -33053,7 +33669,11 @@ msgid "Every %(interval)s Months day %(day)s for %(count)s events"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "हर %(interval)s महीने के %(day)s दिन, %(count)s इवेंट के लिए"
+>>>>>>> upstream/18.0
 =======
 msgstr "हर %(interval)s महीने के %(day)s दिन, %(count)s इवेंट के लिए"
 >>>>>>> upstream/18.0
@@ -33203,7 +33823,11 @@ msgid "Every %(interval)s Months day %(day)s until %(until)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "हर %(interval)s महीने के %(day)s दिन, %(until)s तक"
+>>>>>>> upstream/18.0
 =======
 msgstr "हर %(interval)s महीने के %(day)s दिन, %(until)s तक"
 >>>>>>> upstream/18.0
@@ -33353,7 +33977,11 @@ msgid "Every %(interval)s Months on the %(position)s %(weekday)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "हर %(interval)s महीने, %(position)s %(weekday)s को"
+>>>>>>> upstream/18.0
 =======
 msgstr "हर %(interval)s महीने, %(position)s %(weekday)s को"
 >>>>>>> upstream/18.0
@@ -33506,6 +34134,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"हर %(interval)s महीने, %(position)s %(weekday)s को, %(count)s इवेंट के लिए"
+>>>>>>> upstream/18.0
 =======
 "हर %(interval)s महीने, %(position)s %(weekday)s को, %(count)s इवेंट के लिए"
 >>>>>>> upstream/18.0
@@ -33656,7 +34288,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "हर %(interval)s महीने, %(position)s %(weekday)s को, %(until)s तक"
+>>>>>>> upstream/18.0
 =======
 msgstr "हर %(interval)s महीने, %(position)s %(weekday)s को, %(until)s तक"
 >>>>>>> upstream/18.0
@@ -33806,7 +34442,11 @@ msgid "Every %(interval)s Weeks on %(days)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "हर %(interval)s हफ़्ते, %(days)s को"
+>>>>>>> upstream/18.0
 =======
 msgstr "हर %(interval)s हफ़्ते, %(days)s को"
 >>>>>>> upstream/18.0
@@ -33956,7 +34596,11 @@ msgid "Every %(interval)s Weeks on %(days)s for %(count)s events"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "हर %(interval)s हफ़्ते, %(days)s को, %(count)s इवेंट के लिए"
+>>>>>>> upstream/18.0
 =======
 msgstr "हर %(interval)s हफ़्ते, %(days)s को, %(count)s इवेंट के लिए"
 >>>>>>> upstream/18.0
@@ -34106,7 +34750,11 @@ msgid "Every %(interval)s Weeks on %(days)s until %(until)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "हर %(interval)s हफ़्ते, %(days)s को, %(until)s तक"
+>>>>>>> upstream/18.0
 =======
 msgstr "हर %(interval)s हफ़्ते, %(days)s को, %(until)s तक"
 >>>>>>> upstream/18.0
@@ -34256,7 +34904,11 @@ msgid "Every %(interval)s Years"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "हर %(interval)s साल"
+>>>>>>> upstream/18.0
 =======
 msgstr "हर %(interval)s साल"
 >>>>>>> upstream/18.0
@@ -34406,7 +35058,11 @@ msgid "Every %(interval)s Years for %(count)s events"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "हर %(interval)s साल, %(count)s इवेंट के लिए"
+>>>>>>> upstream/18.0
 =======
 msgstr "हर %(interval)s साल, %(count)s इवेंट के लिए"
 >>>>>>> upstream/18.0
@@ -34520,6 +35176,7 @@ msgstr "हर %(interval)s साल, %(count)s इवेंट के लि�
 #. odoo-python
 #: code:addons/calendar/models/calendar_recurrence.py:0
 msgid "Every %(interval)s Years until %(until)s"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -34829,6 +35486,11 @@ msgstr "हर %(interval)s साल, %(until)s तक"
 
 #. module: calendar
 >>>>>>> upstream/18.0
+=======
+msgstr "हर %(interval)s साल, %(until)s तक"
+
+#. module: calendar
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_event__byday__1
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_recurrence__byday__1
 msgid "First"
@@ -34879,7 +35541,11 @@ msgid "Follow Recurrence"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बार-बार होने वाले इवेंट को फ़ॉलो करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "बार-बार होने वाले इवेंट को फ़ॉलो करें"
 >>>>>>> upstream/18.0
@@ -35110,7 +35776,11 @@ msgid "Followers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "फ़ॉलोवर"
+>>>>>>> upstream/18.0
 =======
 msgstr "फ़ॉलोवर"
 >>>>>>> upstream/18.0
@@ -35587,7 +36257,11 @@ msgid "Followers (Partners)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "फ़ॉलोवर (पार्टनर)"
+>>>>>>> upstream/18.0
 =======
 msgstr "फ़ॉलोवर (पार्टनर)"
 >>>>>>> upstream/18.0
@@ -35983,7 +36657,11 @@ msgid "Forever"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "हमेशा के लिए"
+>>>>>>> upstream/18.0
 =======
 msgstr "हमेशा के लिए"
 >>>>>>> upstream/18.0
@@ -36229,7 +36907,11 @@ msgid "Google"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Google"
+>>>>>>> upstream/18.0
 =======
 msgstr "Google"
 >>>>>>> upstream/18.0
@@ -36594,7 +37276,11 @@ msgid "Google Calendar"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Google Calendar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Google Calendar"
 >>>>>>> upstream/18.0
@@ -36743,7 +37429,11 @@ msgid "Google Calendar icon"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Google Calendar आइकॉन"
+>>>>>>> upstream/18.0
 =======
 msgstr "Google Calendar आइकॉन"
 >>>>>>> upstream/18.0
@@ -36902,7 +37592,11 @@ msgid "Google Synchronization Paused"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Google सिंक्रोनाइज़ेशन रोक दिया गया"
+>>>>>>> upstream/18.0
 =======
 msgstr "Google सिंक्रोनाइज़ेशन रोक दिया गया"
 >>>>>>> upstream/18.0
@@ -37133,7 +37827,11 @@ msgid "Group By"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इन्होंने ग्रुप किया"
+>>>>>>> upstream/18.0
 =======
 msgstr "इन्होंने ग्रुप किया"
 >>>>>>> upstream/18.0
@@ -37528,7 +38226,11 @@ msgid "HTTP Routing"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एचटीपीपी राउटिंग"
+>>>>>>> upstream/18.0
 =======
 msgstr "एचटीपीपी राउटिंग"
 >>>>>>> upstream/18.0
@@ -37759,7 +38461,11 @@ msgid "Has Message"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मैसेज है"
+>>>>>>> upstream/18.0
 =======
 msgstr "मैसेज है"
 >>>>>>> upstream/18.0
@@ -38154,7 +38860,11 @@ msgid "Hours"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "घंटे"
+>>>>>>> upstream/18.0
 =======
 msgstr "घंटे"
 >>>>>>> upstream/18.0
@@ -38401,7 +39111,11 @@ msgid "ID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आईडी"
+>>>>>>> upstream/18.0
 =======
 msgstr "आईडी"
 >>>>>>> upstream/18.0
@@ -38905,7 +39619,11 @@ msgid "If checked, new messages require your attention."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अगर यह बॉक्स चेक है, तो नए मैसेज देखने ज़रूरी हैं."
+>>>>>>> upstream/18.0
 =======
 msgstr "अगर यह बॉक्स चेक है, तो नए मैसेज देखने ज़रूरी हैं."
 >>>>>>> upstream/18.0
@@ -39382,7 +40100,11 @@ msgid "If checked, some messages have a delivery error."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अगर बॉक्स पर टिक है, तो कुछ मैसेज भेजने में गलती हुई है."
+>>>>>>> upstream/18.0
 =======
 msgstr "अगर बॉक्स पर टिक है, तो कुछ मैसेज भेजने में गलती हुई है."
 >>>>>>> upstream/18.0
@@ -39780,6 +40502,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"अगर ऐक्टिव फ़ील्ड को गलत पर सेट किया जाता है, तो यह इवेंट अलार्म की जानकारी को हटाए "
+"बिना उसे छिपाने की अनुमति देगा।"
+>>>>>>> upstream/18.0
 =======
 "अगर ऐक्टिव फ़ील्ड को गलत पर सेट किया जाता है, तो यह इवेंट अलार्म की जानकारी को हटाए "
 "बिना उसे छिपाने की अनुमति देगा।"
@@ -39992,9 +40719,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If the time is shown as 'busy', this event will be visible to other people with either the full         information or simply 'busy' written depending on its privacy. Use this option to let other people know         that you are unavailable during that period of time. \n"
 " If the event is shown as 'free', other users know         that you are available during that period of time."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -40190,6 +40920,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -40247,6 +40978,8 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -40358,6 +41091,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -40469,7 +41205,11 @@ msgid "Interval"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इंटरवल"
+>>>>>>> upstream/18.0
 =======
 msgstr "इंटरवल"
 >>>>>>> upstream/18.0
@@ -40618,7 +41358,11 @@ msgid "Invalid Email Partner"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अमान्य ईमेल पार्टनर"
+>>>>>>> upstream/18.0
 =======
 msgstr "अमान्य ईमेल पार्टनर"
 >>>>>>> upstream/18.0
@@ -40767,7 +41511,11 @@ msgid "Invitation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "न्यौता"
+>>>>>>> upstream/18.0
 =======
 msgstr "न्यौता"
 >>>>>>> upstream/18.0
@@ -40917,7 +41665,11 @@ msgid "Invitation Token"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "न्योता के लिए टोकन"
+>>>>>>> upstream/18.0
 =======
 msgstr "न्योता के लिए टोकन"
 >>>>>>> upstream/18.0
@@ -41066,7 +41818,11 @@ msgid "Invitation details"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "न्योता की जानकारी"
+>>>>>>> upstream/18.0
 =======
 msgstr "न्योता की जानकारी"
 >>>>>>> upstream/18.0
@@ -41215,7 +41971,11 @@ msgid "Invitation email to new attendees"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "नए प्रतिभागी को भेजा जाने वाला न्योते का ईमेल"
+>>>>>>> upstream/18.0
 =======
 msgstr "नए प्रतिभागी को भेजा जाने वाला न्योते का ईमेल"
 >>>>>>> upstream/18.0
@@ -41364,7 +42124,11 @@ msgid "Invitation for"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "के लिए न्योता"
+>>>>>>> upstream/18.0
 =======
 msgstr "के लिए न्योता"
 >>>>>>> upstream/18.0
@@ -41513,7 +42277,11 @@ msgid "Invitation to {{ object.event_id.name }}"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "{{ object.event_id.name }} को न्योता"
+>>>>>>> upstream/18.0
 =======
 msgstr "{{ object.event_id.name }} को न्योता"
 >>>>>>> upstream/18.0
@@ -41662,7 +42430,11 @@ msgid "Invitations"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "न्योता"
+>>>>>>> upstream/18.0
 =======
 msgstr "न्योता"
 >>>>>>> upstream/18.0
@@ -41893,7 +42665,11 @@ msgid "Is Follower"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "फ़ॉलोवर है"
+>>>>>>> upstream/18.0
 =======
 msgstr "फ़ॉलोवर है"
 >>>>>>> upstream/18.0
@@ -42288,7 +43064,11 @@ msgid "Is the Event Highlighted"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "क्या इवेंट को हाइलाइट किया गया है"
+>>>>>>> upstream/18.0
 =======
 msgstr "क्या इवेंट को हाइलाइट किया गया है"
 >>>>>>> upstream/18.0
@@ -42437,7 +43217,11 @@ msgid "Is the Organizer Alone"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "क्या आयोजक अकेले है"
+>>>>>>> upstream/18.0
 =======
 msgstr "क्या आयोजक अकेले है"
 >>>>>>> upstream/18.0
@@ -42588,7 +43372,11 @@ msgid "Join Video Call"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "वीडियो कॉल ज्वॉइन करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "वीडियो कॉल ज्वॉइन करें"
 >>>>>>> upstream/18.0
@@ -42738,7 +43526,11 @@ msgid "Last"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आखिरी"
+>>>>>>> upstream/18.0
 =======
 msgstr "आखिरी"
 >>>>>>> upstream/18.0
@@ -42976,7 +43768,11 @@ msgid "Last Updated by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इन्होंने आखिरी बार अपडेट किया"
+>>>>>>> upstream/18.0
 =======
 msgstr "इन्होंने आखिरी बार अपडेट किया"
 >>>>>>> upstream/18.0
@@ -43460,7 +44256,11 @@ msgid "Last Updated on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आखिरी बार अपडेट हुआ"
+>>>>>>> upstream/18.0
 =======
 msgstr "आखिरी बार अपडेट हुआ"
 >>>>>>> upstream/18.0
@@ -43856,7 +44656,11 @@ msgid "Last notification marked as read from base Calendar"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बेस कैलेंडर से आखिरी पढ़ी हुई सूचना"
+>>>>>>> upstream/18.0
 =======
 msgstr "बेस कैलेंडर से आखिरी पढ़ी हुई सूचना"
 >>>>>>> upstream/18.0
@@ -44006,7 +44810,11 @@ msgid "Let the event automatically repeat at that interval"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इवेंट को एक तय समय के बाद अपने आप बार-बार होने दें"
+>>>>>>> upstream/18.0
 =======
 msgstr "इवेंट को एक तय समय के बाद अपने आप बार-बार होने दें"
 >>>>>>> upstream/18.0
@@ -44156,7 +44964,11 @@ msgid "Location"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "जगह"
+>>>>>>> upstream/18.0
 =======
 msgstr "जगह"
 >>>>>>> upstream/18.0
@@ -44387,7 +45199,11 @@ msgid "Logo"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "लोगो"
+>>>>>>> upstream/18.0
 =======
 msgstr "लोगो"
 >>>>>>> upstream/18.0
@@ -44782,7 +45598,11 @@ msgid "Mail Tz"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मेल टीज़ेड"
+>>>>>>> upstream/18.0
 =======
 msgstr "मेल टीज़ेड"
 >>>>>>> upstream/18.0
@@ -44933,7 +45753,11 @@ msgid "Maybe"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "शायद"
+>>>>>>> upstream/18.0
 =======
 msgstr "शायद"
 >>>>>>> upstream/18.0
@@ -45082,7 +45906,11 @@ msgid "Me"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मैं"
+>>>>>>> upstream/18.0
 =======
 msgstr "मैं"
 >>>>>>> upstream/18.0
@@ -45232,7 +46060,11 @@ msgid "Meeting"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मीटिंग"
+>>>>>>> upstream/18.0
 =======
 msgstr "मीटिंग"
 >>>>>>> upstream/18.0
@@ -45381,7 +46213,11 @@ msgid "Meeting Subject"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मीटिंग का विषय"
+>>>>>>> upstream/18.0
 =======
 msgstr "मीटिंग का विषय"
 >>>>>>> upstream/18.0
@@ -45532,7 +46368,11 @@ msgid "Meeting Types"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मीटिंग टाइप"
+>>>>>>> upstream/18.0
 =======
 msgstr "मीटिंग टाइप"
 >>>>>>> upstream/18.0
@@ -45681,7 +46521,11 @@ msgid "Meeting URL"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मीटिंग यूआरएल"
+>>>>>>> upstream/18.0
 =======
 msgstr "मीटिंग यूआरएल"
 >>>>>>> upstream/18.0
@@ -45830,7 +46674,11 @@ msgid "Meeting linked"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मीटिंग लिंक है"
+>>>>>>> upstream/18.0
 =======
 msgstr "मीटिंग लिंक है"
 >>>>>>> upstream/18.0
@@ -45986,7 +46834,11 @@ msgid "Meetings"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मीटिंग"
+>>>>>>> upstream/18.0
 =======
 msgstr "मीटिंग"
 >>>>>>> upstream/18.0
@@ -46217,7 +47069,11 @@ msgid "Message Delivery error"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मैसेज डिलीवरी में गड़बड़ी"
+>>>>>>> upstream/18.0
 =======
 msgstr "मैसेज डिलीवरी में गड़बड़ी"
 >>>>>>> upstream/18.0
@@ -46617,7 +47473,11 @@ msgid "Microsoft Outlook icon"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Microsoft Outlook आइकॉन"
+>>>>>>> upstream/18.0
 =======
 msgstr "Microsoft Outlook आइकॉन"
 >>>>>>> upstream/18.0
@@ -46766,7 +47626,11 @@ msgid "Minutes"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मिनट"
+>>>>>>> upstream/18.0
 =======
 msgstr "मिनट"
 >>>>>>> upstream/18.0
@@ -46915,7 +47779,11 @@ msgid "Model Description"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मॉडल का विवरण"
+>>>>>>> upstream/18.0
 =======
 msgstr "मॉडल का विवरण"
 >>>>>>> upstream/18.0
@@ -47065,7 +47933,11 @@ msgid "Mon"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सोम"
+>>>>>>> upstream/18.0
 =======
 msgstr "सोम"
 >>>>>>> upstream/18.0
@@ -47215,7 +48087,11 @@ msgid "Monday"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सोमवार"
+>>>>>>> upstream/18.0
 =======
 msgstr "सोमवार"
 >>>>>>> upstream/18.0
@@ -47364,7 +48240,11 @@ msgid "Month By"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "महीने के हिसाब से"
+>>>>>>> upstream/18.0
 =======
 msgstr "महीने के हिसाब से"
 >>>>>>> upstream/18.0
@@ -47595,7 +48475,11 @@ msgid "Monthly"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "महीने के हिसाब से"
+>>>>>>> upstream/18.0
 =======
 msgstr "महीने के हिसाब से"
 >>>>>>> upstream/18.0
@@ -48067,7 +48951,11 @@ msgid "Months"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "महीने"
+>>>>>>> upstream/18.0
 =======
 msgstr "महीने"
 >>>>>>> upstream/18.0
@@ -48445,7 +49333,11 @@ msgid "More Options"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ज़्यादा विकल्प"
+>>>>>>> upstream/18.0
 =======
 msgstr "ज़्यादा विकल्प"
 >>>>>>> upstream/18.0
@@ -48594,7 +49486,11 @@ msgid "My Meetings"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मेरी मीटिंग"
+>>>>>>> upstream/18.0
 =======
 msgstr "मेरी मीटिंग"
 >>>>>>> upstream/18.0
@@ -48750,7 +49646,11 @@ msgid "Needs Action"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कार्रवाई की ज़रूरत है"
+>>>>>>> upstream/18.0
 =======
 msgstr "कार्रवाई की ज़रूरत है"
 >>>>>>> upstream/18.0
@@ -48989,7 +49889,11 @@ msgid "Next Activity Calendar Event"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अगली गतिविधि कैलेंडर इवेंट"
+>>>>>>> upstream/18.0
 =======
 msgstr "अगली गतिविधि कैलेंडर इवेंट"
 >>>>>>> upstream/18.0
@@ -49391,7 +50295,11 @@ msgid "No I'm not going."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "नहीं, मैं नहीं जा रहा।"
+>>>>>>> upstream/18.0
 =======
 msgstr "नहीं, मैं नहीं जा रहा।"
 >>>>>>> upstream/18.0
@@ -49540,7 +50448,11 @@ msgid "No feedback yet"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अभी तक कोई फ़ीडबैक नहीं"
+>>>>>>> upstream/18.0
 =======
 msgstr "अभी तक कोई फ़ीडबैक नहीं"
 >>>>>>> upstream/18.0
@@ -49689,7 +50601,11 @@ msgid "No meetings found. Let's schedule one!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कोई मीटिंग नहीं. चलिए, पहले एक मीटिंग शेड्यूल करते हैं!"
+>>>>>>> upstream/18.0
 =======
 msgstr "कोई मीटिंग नहीं. चलिए, पहले एक मीटिंग शेड्यूल करते हैं!"
 >>>>>>> upstream/18.0
@@ -49839,7 +50755,11 @@ msgid "No, keep it"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "नहीं, इसे रहने दें"
+>>>>>>> upstream/18.0
 =======
 msgstr "नहीं, इसे रहने दें"
 >>>>>>> upstream/18.0
@@ -50060,7 +50980,11 @@ msgid "Notification"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "नोटिफ़िकेशन"
+>>>>>>> upstream/18.0
 =======
 msgstr "नोटिफ़िकेशन"
 >>>>>>> upstream/18.0
@@ -50425,7 +51349,11 @@ msgid "Notification - 1 Days"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "नोटिफ़िकेशन - 1 दिन"
+>>>>>>> upstream/18.0
 =======
 msgstr "नोटिफ़िकेशन - 1 दिन"
 >>>>>>> upstream/18.0
@@ -50574,7 +51502,11 @@ msgid "Notification - 1 Hours"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "नोटिफ़िकेशन - 1 घंटा"
+>>>>>>> upstream/18.0
 =======
 msgstr "नोटिफ़िकेशन - 1 घंटा"
 >>>>>>> upstream/18.0
@@ -50723,7 +51655,11 @@ msgid "Notification - 15 Minutes"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "नोटिफ़िकेशन - 15 मिनट"
+>>>>>>> upstream/18.0
 =======
 msgstr "नोटिफ़िकेशन - 15 मिनट"
 >>>>>>> upstream/18.0
@@ -50872,7 +51808,11 @@ msgid "Notification - 2 Hours"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "नोटिफ़िकेशन - 2 घंटे"
+>>>>>>> upstream/18.0
 =======
 msgstr "नोटिफ़िकेशन - 2 घंटे"
 >>>>>>> upstream/18.0
@@ -51021,7 +51961,11 @@ msgid "Notification - 30 Minutes"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "नोटिफ़िकेशन - 30 मिनट"
+>>>>>>> upstream/18.0
 =======
 msgstr "नोटिफ़िकेशन - 30 मिनट"
 >>>>>>> upstream/18.0
@@ -51170,7 +52114,11 @@ msgid "Notifications sent to all attendees to remind of the meeting."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मीटिंग की याद दिलाने के लिए सभी प्रतिभागियों को भेजी गई सूचनाएं।"
+>>>>>>> upstream/18.0
 =======
 msgstr "मीटिंग की याद दिलाने के लिए सभी प्रतिभागियों को भेजी गई सूचनाएं।"
 >>>>>>> upstream/18.0
@@ -51401,7 +52349,11 @@ msgid "Number of Actions"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कार्रवाई की संख्या"
+>>>>>>> upstream/18.0
 =======
 msgstr "कार्रवाई की संख्या"
 >>>>>>> upstream/18.0
@@ -51796,7 +52748,11 @@ msgid "Number of Repetitions"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इवेंट को दोहराने की संख्या"
+>>>>>>> upstream/18.0
 =======
 msgstr "इवेंट को दोहराने की संख्या"
 >>>>>>> upstream/18.0
@@ -52027,7 +52983,11 @@ msgid "Number of errors"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "गलतियों की संख्या"
+>>>>>>> upstream/18.0
 =======
 msgstr "गलतियों की संख्या"
 >>>>>>> upstream/18.0
@@ -52504,7 +53464,11 @@ msgid "Number of messages requiring action"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऐसे मैसेज की संख्या जिनपर कार्रवाई करना ज़रूरी है"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऐसे मैसेज की संख्या जिनपर कार्रवाई करना ज़रूरी है"
 >>>>>>> upstream/18.0
@@ -52981,7 +53945,11 @@ msgid "Number of messages with delivery error"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऐसे मैसेज की संख्या जिनमें डिलीवरी की गड़बड़ी है"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऐसे मैसेज की संख्या जिनमें डिलीवरी की गड़बड़ी है"
 >>>>>>> upstream/18.0
@@ -53377,7 +54345,11 @@ msgid "Number of repetitions"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इवेंट को दोहराने की संख्या"
+>>>>>>> upstream/18.0
 =======
 msgstr "इवेंट को दोहराने की संख्या"
 >>>>>>> upstream/18.0
@@ -53527,7 +54499,11 @@ msgid "OK"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ठीक है"
+>>>>>>> upstream/18.0
 =======
 msgstr "ठीक है"
 >>>>>>> upstream/18.0
@@ -53676,7 +54652,11 @@ msgid "Online Meeting"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऑनलाइन मीटिंग"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऑनलाइन मीटिंग"
 >>>>>>> upstream/18.0
@@ -53825,7 +54805,11 @@ msgid "Only Internal Users"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सिर्फ़ इंटरनल यूज़र"
+>>>>>>> upstream/18.0
 =======
 msgstr "सिर्फ़ इंटरनल यूज़र"
 >>>>>>> upstream/18.0
@@ -53976,7 +54960,11 @@ msgid "Only internal users"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सिर्फ़ इंटरनल यूज़र"
+>>>>>>> upstream/18.0
 =======
 msgstr "सिर्फ़ इंटरनल यूज़र"
 >>>>>>> upstream/18.0
@@ -54131,7 +55119,11 @@ msgid "Option"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "विकल्प"
+>>>>>>> upstream/18.0
 =======
 msgstr "विकल्प"
 >>>>>>> upstream/18.0
@@ -54281,7 +55273,11 @@ msgid "Organizer"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आयोजक"
+>>>>>>> upstream/18.0
 =======
 msgstr "आयोजक"
 >>>>>>> upstream/18.0
@@ -54437,7 +55433,11 @@ msgid "Outlook Calendar"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Outlook कैलेंडर"
+>>>>>>> upstream/18.0
 =======
 msgstr "Outlook कैलेंडर"
 >>>>>>> upstream/18.0
@@ -54586,7 +55586,11 @@ msgid "Outlook Client Id"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Outlook क्लाइंट आईडी"
+>>>>>>> upstream/18.0
 =======
 msgstr "Outlook क्लाइंट आईडी"
 >>>>>>> upstream/18.0
@@ -54735,7 +55739,11 @@ msgid "Outlook Client Secret"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Outlook क्लाइंट सीक्रेट"
+>>>>>>> upstream/18.0
 =======
 msgstr "Outlook क्लाइंट सीक्रेट"
 >>>>>>> upstream/18.0
@@ -54884,7 +55892,11 @@ msgid "Outlook Synchronization Paused"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Outlook सिंक्रोनाइज़ेशन रोका गया"
+>>>>>>> upstream/18.0
 =======
 msgstr "Outlook सिंक्रोनाइज़ेशन रोका गया"
 >>>>>>> upstream/18.0
@@ -55033,7 +56045,11 @@ msgid "Participant"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्रतिभागी"
+>>>>>>> upstream/18.0
 =======
 msgstr "प्रतिभागी"
 >>>>>>> upstream/18.0
@@ -55182,7 +56198,11 @@ msgid "Partner-related data of the user"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "उपयोगकर्ता से संबंधित पार्टनर का डेटा"
+>>>>>>> upstream/18.0
 =======
 msgstr "उपयोगकर्ता से संबंधित पार्टनर का डेटा"
 >>>>>>> upstream/18.0
@@ -55331,7 +56351,11 @@ msgid "People to whom this event will be visible."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "वे लोग जिन्हें यह इवेंट दिखाई देगा।"
+>>>>>>> upstream/18.0
 =======
 msgstr "वे लोग जिन्हें यह इवेंट दिखाई देगा।"
 >>>>>>> upstream/18.0
@@ -55552,7 +56576,11 @@ msgid "Phone"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "फ़ोन"
+>>>>>>> upstream/18.0
 =======
 msgstr "फ़ोन"
 >>>>>>> upstream/18.0
@@ -55917,7 +56945,11 @@ msgid "Privacy"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "गोपनीयता"
+>>>>>>> upstream/18.0
 =======
 msgstr "गोपनीयता"
 >>>>>>> upstream/18.0
@@ -56069,7 +57101,11 @@ msgid "Private"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्राइवेट"
+>>>>>>> upstream/18.0
 =======
 msgstr "प्राइवेट"
 >>>>>>> upstream/18.0
@@ -56221,7 +57257,11 @@ msgid "Public"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पब्लिक"
+>>>>>>> upstream/18.0
 =======
 msgstr "पब्लिक"
 >>>>>>> upstream/18.0
@@ -56370,7 +57410,11 @@ msgid "Recurrence"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रिकरेंस"
+>>>>>>> upstream/18.0
 =======
 msgstr "रिकरेंस"
 >>>>>>> upstream/18.0
@@ -56520,7 +57564,11 @@ msgid "Recurrence Rule"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "दोहराने का नियम"
+>>>>>>> upstream/18.0
 =======
 msgstr "दोहराने का नियम"
 >>>>>>> upstream/18.0
@@ -56669,7 +57717,11 @@ msgid "Recurrence Termination"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "दोहराव की समाप्ति"
+>>>>>>> upstream/18.0
 =======
 msgstr "दोहराव की समाप्ति"
 >>>>>>> upstream/18.0
@@ -56818,7 +57870,11 @@ msgid "Recurrence Update"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "दोहराब के बारे में अपडेट"
+>>>>>>> upstream/18.0
 =======
 msgstr "दोहराब के बारे में अपडेट"
 >>>>>>> upstream/18.0
@@ -56968,7 +58024,11 @@ msgid "Recurrent"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "दोहराव"
+>>>>>>> upstream/18.0
 =======
 msgstr "दोहराव"
 >>>>>>> upstream/18.0
@@ -57117,7 +58177,11 @@ msgid "Recurrent Rule"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "दोहराव का नियम"
+>>>>>>> upstream/18.0
 =======
 msgstr "दोहराव का नियम"
 >>>>>>> upstream/18.0
@@ -57266,7 +58330,11 @@ msgid "Remind Before"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इससे पहले याद दिलाएं"
+>>>>>>> upstream/18.0
 =======
 msgstr "इससे पहले याद दिलाएं"
 >>>>>>> upstream/18.0
@@ -57488,7 +58556,11 @@ msgid "Reminders"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रिमाइंडर"
+>>>>>>> upstream/18.0
 =======
 msgstr "रिमाइंडर"
 >>>>>>> upstream/18.0
@@ -57853,7 +58925,11 @@ msgid "Repeat"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "दोहराएं"
+>>>>>>> upstream/18.0
 =======
 msgstr "दोहराएं"
 >>>>>>> upstream/18.0
@@ -58002,7 +59078,11 @@ msgid "Repeat On"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इस समय दोहराएं"
+>>>>>>> upstream/18.0
 =======
 msgstr "इस समय दोहराएं"
 >>>>>>> upstream/18.0
@@ -58151,7 +59231,11 @@ msgid "Repeat Until"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "तक दोहराएं"
+>>>>>>> upstream/18.0
 =======
 msgstr "तक दोहराएं"
 >>>>>>> upstream/18.0
@@ -58300,7 +59384,11 @@ msgid "Repeat every"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "दोहराएं"
+>>>>>>> upstream/18.0
 =======
 msgstr "दोहराएं"
 >>>>>>> upstream/18.0
@@ -58449,7 +59537,11 @@ msgid "Repeat every (Days/Week/Month/Year)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "हर (दिन/सप्ताह/महीना/साल) दोहराएं"
+>>>>>>> upstream/18.0
 =======
 msgstr "हर (दिन/सप्ताह/महीना/साल) दोहराएं"
 >>>>>>> upstream/18.0
@@ -58598,7 +59690,11 @@ msgid "Repeat x times"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "x बार दोहराएं"
+>>>>>>> upstream/18.0
 =======
 msgstr "x बार दोहराएं"
 >>>>>>> upstream/18.0
@@ -58748,7 +59844,11 @@ msgid "Reschedule"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "फिर से शेड्यूल करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "फिर से शेड्यूल करें"
 >>>>>>> upstream/18.0
@@ -58902,7 +60002,11 @@ msgid "Rrule"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "नियम"
+>>>>>>> upstream/18.0
 =======
 msgstr "नियम"
 >>>>>>> upstream/18.0
@@ -59051,7 +60155,11 @@ msgid "Rrule Type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "नियम के प्रकार"
+>>>>>>> upstream/18.0
 =======
 msgstr "नियम के प्रकार"
 >>>>>>> upstream/18.0
@@ -59201,7 +60309,11 @@ msgid "Sat"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "शनि"
+>>>>>>> upstream/18.0
 =======
 msgstr "शनि"
 >>>>>>> upstream/18.0
@@ -59351,7 +60463,11 @@ msgid "Saturday"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "शनिवार"
+>>>>>>> upstream/18.0
 =======
 msgstr "शनिवार"
 >>>>>>> upstream/18.0
@@ -59500,7 +60616,11 @@ msgid "Scheduled by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इन्होंने शेड्यूल किया"
+>>>>>>> upstream/18.0
 =======
 msgstr "इन्होंने शेड्यूल किया"
 >>>>>>> upstream/18.0
@@ -59653,6 +60773,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"कैलेंडर का इस्तेमाल करके एक से ज़्यादा रिकॉर्ड पर किसी एक्टिविटी को शेड्यूल करना संभव नहीं है।"
+>>>>>>> upstream/18.0
 =======
 "कैलेंडर का इस्तेमाल करके एक से ज़्यादा रिकॉर्ड पर किसी एक्टिविटी को शेड्यूल करना संभव नहीं है।"
 >>>>>>> upstream/18.0
@@ -59801,7 +60925,11 @@ msgid "Search Meetings"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मीटिंग खोजें"
+>>>>>>> upstream/18.0
 =======
 msgstr "मीटिंग खोजें"
 >>>>>>> upstream/18.0
@@ -59951,7 +61079,11 @@ msgid "Second"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "दूसरा"
+>>>>>>> upstream/18.0
 =======
 msgstr "दूसरा"
 >>>>>>> upstream/18.0
@@ -60100,7 +61232,11 @@ msgid "Select attendees..."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्रतिभागी चुनें..।"
+>>>>>>> upstream/18.0
 =======
 msgstr "प्रतिभागी चुनें..।"
 >>>>>>> upstream/18.0
@@ -60249,7 +61385,11 @@ msgid "Send Email to attendees"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्रतिभागियों को ईमेल भेजें"
+>>>>>>> upstream/18.0
 =======
 msgstr "प्रतिभागियों को ईमेल भेजें"
 >>>>>>> upstream/18.0
@@ -60398,7 +61538,11 @@ msgid "Send Invitations"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "न्योता भेजें"
+>>>>>>> upstream/18.0
 =======
 msgstr "न्योता भेजें"
 >>>>>>> upstream/18.0
@@ -60547,7 +61691,11 @@ msgid "Send Mail"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मेल भेजें"
+>>>>>>> upstream/18.0
 =======
 msgstr "मेल भेजें"
 >>>>>>> upstream/18.0
@@ -60696,7 +61844,11 @@ msgid "Sent to all attendees if a reminder is set"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अगर रिमाइंडर सेट किया गया है, तो सभी प्रतिभागी को भेजा जाता है"
+>>>>>>> upstream/18.0
 =======
 msgstr "अगर रिमाइंडर सेट किया गया है, तो सभी प्रतिभागी को भेजा जाता है"
 >>>>>>> upstream/18.0
@@ -60845,7 +61997,11 @@ msgid "Sent to all attendees if the schedule change"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अगर शेड्यूल में बदलाव होता है, तो सभी प्रतिभागी को भेजा जाता है"
+>>>>>>> upstream/18.0
 =======
 msgstr "अगर शेड्यूल में बदलाव होता है, तो सभी प्रतिभागी को भेजा जाता है"
 >>>>>>> upstream/18.0
@@ -61000,7 +62156,11 @@ msgid "Should Show Status"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "स्टेटस दिखाना चाहिए"
+>>>>>>> upstream/18.0
 =======
 msgstr "स्टेटस दिखाना चाहिए"
 >>>>>>> upstream/18.0
@@ -61149,7 +62309,11 @@ msgid "Show as"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "के तौर पर दिखाएं"
+>>>>>>> upstream/18.0
 =======
 msgstr "के तौर पर दिखाएं"
 >>>>>>> upstream/18.0
@@ -61299,7 +62463,11 @@ msgid "Snooze"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "स्नूज़ करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "स्नूज़ करें"
 >>>>>>> upstream/18.0
@@ -61459,7 +62627,11 @@ msgid "Start date of an event, without time for full days events"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "किसी इवेंट के शुरू होने की तारीख, पूरे दिन के इवेंट के लिए समय के बिना"
+>>>>>>> upstream/18.0
 =======
 msgstr "किसी इवेंट के शुरू होने की तारीख, पूरे दिन के इवेंट के लिए समय के बिना"
 >>>>>>> upstream/18.0
@@ -61613,7 +62785,11 @@ msgid "Status:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "स्थिति:"
+>>>>>>> upstream/18.0
 =======
 msgstr "स्थिति:"
 >>>>>>> upstream/18.0
@@ -61762,7 +62938,11 @@ msgid "Stop"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रोकें"
+>>>>>>> upstream/18.0
 =======
 msgstr "रोकें"
 >>>>>>> upstream/18.0
@@ -61911,7 +63091,11 @@ msgid "Stop date of an event, without time for full days events"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "किसी इवेंट के खत्म होने की तारीख, पूरे दिन के इवेंट के लिए समय के बिना"
+>>>>>>> upstream/18.0
 =======
 msgstr "किसी इवेंट के खत्म होने की तारीख, पूरे दिन के इवेंट के लिए समय के बिना"
 >>>>>>> upstream/18.0
@@ -62061,7 +63245,11 @@ msgid "Stop synchro"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सिंक्रोनाइज़ेशन रोकें"
+>>>>>>> upstream/18.0
 =======
 msgstr "सिंक्रोनाइज़ेशन रोकें"
 >>>>>>> upstream/18.0
@@ -62287,7 +63475,11 @@ msgid "Submit"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सबमिट करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "सबमिट करें"
 >>>>>>> upstream/18.0
@@ -62653,7 +63845,11 @@ msgid "Sun"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रवि"
+>>>>>>> upstream/18.0
 =======
 msgstr "रवि"
 >>>>>>> upstream/18.0
@@ -62803,7 +63999,11 @@ msgid "Sunday"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रविवार"
+>>>>>>> upstream/18.0
 =======
 msgstr "रविवार"
 >>>>>>> upstream/18.0
@@ -62953,7 +64153,11 @@ msgid "Synchro is paused"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सिंक्रोनाइज़ेशन रूका हुआ है"
+>>>>>>> upstream/18.0
 =======
 msgstr "सिंक्रोनाइज़ेशन रूका हुआ है"
 >>>>>>> upstream/18.0
@@ -63103,7 +64307,11 @@ msgid "Synchronize with"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "के साथ सिंक्रोनाइज़ करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "के साथ सिंक्रोनाइज़ करें"
 >>>>>>> upstream/18.0
@@ -63253,7 +64461,11 @@ msgid "Synchronize your calendar with Google Calendar"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अपने कैलेंडर को Google कैलेंडर से सिंक करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "अपने कैलेंडर को Google कैलेंडर से सिंक करें"
 >>>>>>> upstream/18.0
@@ -63403,7 +64615,11 @@ msgid "Synchronize your calendar with Outlook"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अपने कैलेंडर को Outlook से सिंक करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "अपने कैलेंडर को Outlook से सिंक करें"
 >>>>>>> upstream/18.0
@@ -63552,7 +64768,11 @@ msgid "Tag name already exists!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "टैग नाम पहले से ही मौजूद है!"
+>>>>>>> upstream/18.0
 =======
 msgstr "टैग नाम पहले से ही मौजूद है!"
 >>>>>>> upstream/18.0
@@ -63707,6 +64927,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"मेल रिमाइंडर के कॉन्टेंट को रेंडर करने के लिए इस्तेमाल किया जाने वाला टेंप्लेट।"
+>>>>>>> upstream/18.0
 =======
 "मेल रिमाइंडर के कॉन्टेंट को रेंडर करने के लिए इस्तेमाल किया जाने वाला टेंप्लेट।"
 >>>>>>> upstream/18.0
@@ -63855,7 +65079,11 @@ msgid "Tentative"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "संभावित"
+>>>>>>> upstream/18.0
 =======
 msgstr "संभावित"
 >>>>>>> upstream/18.0
@@ -64004,7 +65232,11 @@ msgid "Tentative Count"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "संभावित संख्या"
+>>>>>>> upstream/18.0
 =======
 msgstr "संभावित संख्या"
 >>>>>>> upstream/18.0
@@ -64153,7 +65385,11 @@ msgid "The"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "दी"
+>>>>>>> upstream/18.0
 =======
 msgstr "दी"
 >>>>>>> upstream/18.0
@@ -64306,6 +65542,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"कैलेंडर कर्मचारियों के बीच शेयर किया जाता है और पूरी तरह\n"
+"             से अन्य ऐप्लिकेशन के साथ इंटिग्रेट किया गया है, जैसे कर्मचारी की छुट्टियां या\n"
+"            बिज़नेस के अवसर।"
+>>>>>>> upstream/18.0
 =======
 "कैलेंडर कर्मचारियों के बीच शेयर किया जाता है और पूरी तरह\n"
 "             से अन्य ऐप्लिकेशन के साथ इंटिग्रेट किया गया है, जैसे कर्मचारी की छुट्टियां या\n"
@@ -64526,7 +65768,11 @@ msgid "The day must be between 1 and 31"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "दिन 1 और 31 के बीच होना चाहिए"
+>>>>>>> upstream/18.0
 =======
 msgstr "दिन 1 और 31 के बीच होना चाहिए"
 >>>>>>> upstream/18.0
@@ -64679,6 +65925,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"खत्म होने की तारीख और समय, शुरू होने की तारीख और समय से पहले नहीं हो सकता.\n"
+"मीटिंग “%(name)s” %(start_time)s बजे शुरू होती है और %(end_time)s बजे खत्म होती है"
+>>>>>>> upstream/18.0
 =======
 "खत्म होने की तारीख और समय, शुरू होने की तारीख और समय से पहले नहीं हो सकता.\n"
 "मीटिंग “%(name)s” %(start_time)s बजे शुरू होती है और %(end_time)s बजे खत्म होती है"
@@ -64867,6 +66118,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"खत्म होने की तारीख, शुरू होने की तारीख से पहले नहीं हो सकती.\n"
+"मीटिंग “%(name)s” %(start_date)s को शुरू होती है और %(end_date)s को खत्म होती है"
+>>>>>>> upstream/18.0
 =======
 "खत्म होने की तारीख, शुरू होने की तारीख से पहले नहीं हो सकती.\n"
 "मीटिंग “%(name)s” %(start_date)s को शुरू होती है और %(end_date)s को खत्म होती है"
@@ -65052,7 +66308,11 @@ msgid "The interval cannot be negative."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "दो मीटिंग के बीच का समय माइनस में नहीं हो सकता।"
+>>>>>>> upstream/18.0
 =======
 msgstr "दो मीटिंग के बीच का समय माइनस में नहीं हो सकता।"
 >>>>>>> upstream/18.0
@@ -65202,7 +66462,11 @@ msgid "The number of repetitions cannot be negative."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "दोहराव की संख्या निगेटिव नहीं हो सकती।"
+>>>>>>> upstream/18.0
 =======
 msgstr "दोहराव की संख्या निगेटिव नहीं हो सकती।"
 >>>>>>> upstream/18.0
@@ -65352,7 +66616,11 @@ msgid "There are no attendees on these events"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इन इवेंट में कोई प्रतिभागी नहीं हैं"
+>>>>>>> upstream/18.0
 =======
 msgstr "इन इवेंट में कोई प्रतिभागी नहीं हैं"
 >>>>>>> upstream/18.0
@@ -65502,7 +66770,11 @@ msgid "Third"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "तीसरा"
+>>>>>>> upstream/18.0
 =======
 msgstr "तीसरा"
 >>>>>>> upstream/18.0
@@ -65653,7 +66925,11 @@ msgid "This and following events"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "यह और आने वाले इवेंट"
+>>>>>>> upstream/18.0
 =======
 msgstr "यह और आने वाले इवेंट"
 >>>>>>> upstream/18.0
@@ -65804,7 +67080,11 @@ msgid "This event"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "यह इवेंट"
+>>>>>>> upstream/18.0
 =======
 msgstr "यह इवेंट"
 >>>>>>> upstream/18.0
@@ -65954,7 +67234,11 @@ msgid "Thu"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "गुरू"
+>>>>>>> upstream/18.0
 =======
 msgstr "गुरू"
 >>>>>>> upstream/18.0
@@ -66104,7 +67388,11 @@ msgid "Thursday"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "गुरूवार"
+>>>>>>> upstream/18.0
 =======
 msgstr "गुरूवार"
 >>>>>>> upstream/18.0
@@ -66254,7 +67542,11 @@ msgid "Timezone"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "टाइमज़ोन"
+>>>>>>> upstream/18.0
 =======
 msgstr "टाइमज़ोन"
 >>>>>>> upstream/18.0
@@ -66403,7 +67695,11 @@ msgid "Timezone used for displaying time in the mail template"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मेल टेंप्लेट में समय दिखाने के लिए इस्तेमाल किया जाने वाला टाइमज़ोन"
+>>>>>>> upstream/18.0
 =======
 msgstr "मेल टेंप्लेट में समय दिखाने के लिए इस्तेमाल किया जाने वाला टाइमज़ोन"
 >>>>>>> upstream/18.0
@@ -66553,7 +67849,11 @@ msgid "Today's Meetings"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आज की मीटिंग"
+>>>>>>> upstream/18.0
 =======
 msgstr "आज की मीटिंग"
 >>>>>>> upstream/18.0
@@ -66781,7 +68081,11 @@ msgid "Trigger"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ट्रिगर"
+>>>>>>> upstream/18.0
 =======
 msgstr "ट्रिगर"
 >>>>>>> upstream/18.0
@@ -67168,7 +68472,11 @@ msgid "Tue"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मंगल"
+>>>>>>> upstream/18.0
 =======
 msgstr "मंगल"
 >>>>>>> upstream/18.0
@@ -67318,7 +68626,11 @@ msgid "Tuesday"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मंगलवार"
+>>>>>>> upstream/18.0
 =======
 msgstr "मंगलवार"
 >>>>>>> upstream/18.0
@@ -67473,7 +68785,11 @@ msgid "Unable to save the recurrence with \"This Event\""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बार-बार होने वाले “इस इवेंट” को सेव नहीं कर सकते"
+>>>>>>> upstream/18.0
 =======
 msgstr "बार-बार होने वाले “इस इवेंट” को सेव नहीं कर सकते"
 >>>>>>> upstream/18.0
@@ -67622,7 +68938,11 @@ msgid "Uncertain"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अनिश्चित"
+>>>>>>> upstream/18.0
 =======
 msgstr "अनिश्चित"
 >>>>>>> upstream/18.0
@@ -67850,7 +69170,11 @@ msgid "Unit"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "यूनिट"
+>>>>>>> upstream/18.0
 =======
 msgstr "यूनिट"
 >>>>>>> upstream/18.0
@@ -68237,7 +69561,11 @@ msgid "Until"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "जबतक"
+>>>>>>> upstream/18.0
 =======
 msgstr "जबतक"
 >>>>>>> upstream/18.0
@@ -68386,7 +69714,11 @@ msgid "Used to manually notifiy attendees"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्रतिभागी को मैन्युअल रूप से सूचित करने के लिए इस्तेमाल किया जाता है"
+>>>>>>> upstream/18.0
 =======
 msgstr "प्रतिभागी को मैन्युअल रूप से सूचित करने के लिए इस्तेमाल किया जाता है"
 >>>>>>> upstream/18.0
@@ -68540,7 +69872,11 @@ msgid "User Can Edit"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "उपयोगकर्ता बदलाव कर सकते हैं"
+>>>>>>> upstream/18.0
 =======
 msgstr "उपयोगकर्ता बदलाव कर सकते हैं"
 >>>>>>> upstream/18.0
@@ -68689,7 +70025,11 @@ msgid "User Settings"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "यूज़र सेटिंग"
+>>>>>>> upstream/18.0
 =======
 msgstr "यूज़र सेटिंग"
 >>>>>>> upstream/18.0
@@ -68838,7 +70178,11 @@ msgid "Videocall Source"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "वीडियोकॉल का सोर्स"
+>>>>>>> upstream/18.0
 =======
 msgstr "वीडियोकॉल का सोर्स"
 >>>>>>> upstream/18.0
@@ -68988,7 +70332,11 @@ msgid "Videocall URL"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "वीडियोकॉल यूआरएल"
+>>>>>>> upstream/18.0
 =======
 msgstr "वीडियोकॉल यूआरएल"
 >>>>>>> upstream/18.0
@@ -69220,7 +70568,11 @@ msgid "View"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "देखें"
+>>>>>>> upstream/18.0
 =======
 msgstr "देखें"
 >>>>>>> upstream/18.0
@@ -69616,7 +70968,11 @@ msgid "Wed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बुध"
+>>>>>>> upstream/18.0
 =======
 msgstr "बुध"
 >>>>>>> upstream/18.0
@@ -69766,7 +71122,11 @@ msgid "Wednesday"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बुधवार"
+>>>>>>> upstream/18.0
 =======
 msgstr "बुधवार"
 >>>>>>> upstream/18.0
@@ -69916,7 +71276,11 @@ msgid "Weekday"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रविवार को छोड़कर कोई दिन"
+>>>>>>> upstream/18.0
 =======
 msgstr "रविवार को छोड़कर कोई दिन"
 >>>>>>> upstream/18.0
@@ -70065,7 +71429,11 @@ msgid "Weekly"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "साप्ताहिक"
+>>>>>>> upstream/18.0
 =======
 msgstr "साप्ताहिक"
 >>>>>>> upstream/18.0
@@ -70215,7 +71583,11 @@ msgid "Weeks"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सप्ताह"
+>>>>>>> upstream/18.0
 =======
 msgstr "सप्ताह"
 >>>>>>> upstream/18.0
@@ -70440,7 +71812,11 @@ msgid "Yearly"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सालान"
+>>>>>>> upstream/18.0
 =======
 msgstr "सालान"
 >>>>>>> upstream/18.0
@@ -70891,7 +72267,11 @@ msgid "Years"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "साल"
+>>>>>>> upstream/18.0
 =======
 msgstr "साल"
 >>>>>>> upstream/18.0
@@ -71266,7 +72646,11 @@ msgid "Yes I'm going."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "हां, मैं जा रहा हूं।"
+>>>>>>> upstream/18.0
 =======
 msgstr "हां, मैं जा रहा हूं।"
 >>>>>>> upstream/18.0
@@ -71419,6 +72803,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"निजता से जुड़ी पाबंदियों के कारण, आपको किसी दूसरे उपयोगकर्ता की कैलेंडर की डिफ़ॉल्ट निजता "
+"बदलने की अनुमति नहीं है।"
+>>>>>>> upstream/18.0
 =======
 "निजता से जुड़ी पाबंदियों के कारण, आपको किसी दूसरे उपयोगकर्ता की कैलेंडर की डिफ़ॉल्ट निजता "
 "बदलने की अनुमति नहीं है।"
@@ -71604,7 +72993,11 @@ msgid "You can't update a recurrence without base event."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आप बेस इवेंट के बिना दोहराव को अपडेट नहीं कर सकते।"
+>>>>>>> upstream/18.0
 =======
 msgstr "आप बेस इवेंट के बिना दोहराव को अपडेट नहीं कर सकते।"
 >>>>>>> upstream/18.0
@@ -71754,7 +73147,11 @@ msgid "You cannot duplicate a calendar attendee."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आप किसी कैलेंडर प्रतिभागी को डुप्लिकेट नहीं कर सकते।"
+>>>>>>> upstream/18.0
 =======
 msgstr "आप किसी कैलेंडर प्रतिभागी को डुप्लिकेट नहीं कर सकते।"
 >>>>>>> upstream/18.0
@@ -71904,7 +73301,11 @@ msgid "You have to choose at least one day in the week"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आपको हफ़्ते में कम से कम एक दिन चुनना होगा"
+>>>>>>> upstream/18.0
 =======
 msgstr "आपको हफ़्ते में कम से कम एक दिन चुनना होगा"
 >>>>>>> upstream/18.0
@@ -72054,7 +73455,11 @@ msgid "You're alone in this meeting"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आप मीटिंग में अकेले हैं"
+>>>>>>> upstream/18.0
 =======
 msgstr "आप मीटिंग में अकेले हैं"
 >>>>>>> upstream/18.0
@@ -72204,7 +73609,11 @@ msgid "accepted"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "स्वीकार किया गया"
+>>>>>>> upstream/18.0
 =======
 msgstr "स्वीकार किया गया"
 >>>>>>> upstream/18.0
@@ -72354,7 +73763,11 @@ msgid "attendees"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्रतिभागी"
+>>>>>>> upstream/18.0
 =======
 msgstr "प्रतिभागी"
 >>>>>>> upstream/18.0
@@ -72503,7 +73916,11 @@ msgid "awaiting"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इंतज़ार किया जा रहा है"
+>>>>>>> upstream/18.0
 =======
 msgstr "इंतज़ार किया जा रहा है"
 >>>>>>> upstream/18.0
@@ -72653,7 +74070,11 @@ msgid "declined"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अस्वीकार किया गया"
+>>>>>>> upstream/18.0
 =======
 msgstr "अस्वीकार किया गया"
 >>>>>>> upstream/18.0
@@ -72802,7 +74223,11 @@ msgid "e.g. Business Lunch"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "जैसे, बिज़नेस लंच"
+>>>>>>> upstream/18.0
 =======
 msgstr "जैसे, बिज़नेस लंच"
 >>>>>>> upstream/18.0
@@ -72951,7 +74376,11 @@ msgid "e.g: 12/31/2023"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "जैसे, 31/12/2023"
+>>>>>>> upstream/18.0
 =======
 msgstr "जैसे, 31/12/2023"
 >>>>>>> upstream/18.0
@@ -73100,7 +74529,11 @@ msgid "maybe,"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "शायद,"
+>>>>>>> upstream/18.0
 =======
 msgstr "शायद,"
 >>>>>>> upstream/18.0
@@ -73250,7 +74683,11 @@ msgid "no email"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कोई ईमेल नहीं"
+>>>>>>> upstream/18.0
 =======
 msgstr "कोई ईमेल नहीं"
 >>>>>>> upstream/18.0
@@ -73399,7 +74836,11 @@ msgid "no,"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "नहीं,"
+>>>>>>> upstream/18.0
 =======
 msgstr "नहीं,"
 >>>>>>> upstream/18.0
@@ -73555,7 +74996,11 @@ msgid "uncertain"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "तय नहीं"
+>>>>>>> upstream/18.0
 =======
 msgstr "तय नहीं"
 >>>>>>> upstream/18.0
@@ -73704,7 +75149,11 @@ msgid "yes,"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "हां,"
+>>>>>>> upstream/18.0
 =======
 msgstr "हां,"
 >>>>>>> upstream/18.0
@@ -73853,7 +75302,11 @@ msgid "{{ object.event_id.name }} - Reminder"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "{{ object.event_id.name }} - रिमाइंडर"
+>>>>>>> upstream/18.0
 =======
 msgstr "{{ object.event_id.name }} - रिमाइंडर"
 >>>>>>> upstream/18.0
@@ -74002,7 +75455,11 @@ msgid "{{ object.event_id.name }}: Date updated"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "{{ object.event_id.name }}: तारीख अपडेट किया गया"
+>>>>>>> upstream/18.0
 =======
 msgstr "{{ object.event_id.name }}: तारीख अपडेट किया गया"
 >>>>>>> upstream/18.0
@@ -74151,7 +75608,11 @@ msgid "{{object.name}}: Event update"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "{{object.name}}: इवेंट अपडेट"
+>>>>>>> upstream/18.0
 =======
 msgstr "{{object.name}}: इवेंट अपडेट"
 >>>>>>> upstream/18.0

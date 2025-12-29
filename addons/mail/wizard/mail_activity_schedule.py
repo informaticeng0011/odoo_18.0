@@ -31,7 +31,11 @@ from odoo.addons.mail.tools.parser import parse_res_ids
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.exceptions import ValidationError
+=======
+from odoo.exceptions import AccessError, UserError, ValidationError
+>>>>>>> upstream/18.0
 =======
 from odoo.exceptions import AccessError, UserError, ValidationError
 >>>>>>> upstream/18.0
@@ -346,6 +350,7 @@ class MailActivitySchedule(models.TransientModel):
             record.message_post(body=body)
 
         if len(applied_on) == 1:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1010,6 +1015,9 @@ class MailActivitySchedule(models.TransientModel):
 =======
             return {'type': 'ir.actions.client', 'tag': 'soft_reload'}
 >>>>>>> upstream/18.0
+=======
+            return {'type': 'ir.actions.client', 'tag': 'soft_reload'}
+>>>>>>> upstream/18.0
 
         return {
             'type': 'ir.actions.act_window',
@@ -1136,7 +1144,10 @@ class MailActivitySchedule(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1227,6 +1238,9 @@ class MailActivitySchedule(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

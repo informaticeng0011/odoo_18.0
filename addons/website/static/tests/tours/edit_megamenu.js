@@ -47,6 +47,11 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    selectHeader,
+    clickOnEditAndWaitEditMode,
+>>>>>>> upstream/18.0
 =======
     selectHeader,
     clickOnEditAndWaitEditMode,
@@ -582,7 +587,10 @@ registerWebsitePreviewTour('edit_megamenu_big_icons_subtitles', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -935,6 +943,9 @@ registerWebsitePreviewTour(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

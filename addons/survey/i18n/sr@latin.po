@@ -36,7 +36,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* survey
+=======
+# * survey
+>>>>>>> upstream/18.0
 =======
 # * survey
 >>>>>>> upstream/18.0
@@ -187,7 +191,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
@@ -300,6 +308,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -582,6 +591,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-10-11 02:16+0000\n"
 "PO-Revision-Date: 2025-11-21 06:40+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
@@ -629,6 +640,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -837,7 +851,10 @@ msgstr "%s (kopija)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1072,6 +1089,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1426,6 +1446,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:survey.survey_survey_view_kanban
 msgid ""
 "<br/>\n"
@@ -1434,6 +1455,8 @@ msgid ""
 msgstr ""
 
 #. module: survey
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1672,8 +1695,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<div style=\"background:#F0F0F0;color:#515166;padding:10px 0px;font-family:"
 "Arial,Helvetica,sans-serif;font-size:14px;\">\n"
+=======
+"<div style=\"background:#F0F0F0;color:#515166;padding:10px 0px;font-"
+"family:Arial,Helvetica,sans-serif;font-size:14px;\">\n"
+>>>>>>> upstream/18.0
 =======
 "<div style=\"background:#F0F0F0;color:#515166;padding:10px 0px;font-"
 "family:Arial,Helvetica,sans-serif;font-size:14px;\">\n"
@@ -2064,11 +2092,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                <a href=\"/\"><img t-if=\"not object.survey_id.create_uid."
 "company_id.uses_default_logo\" t-attf-src=\"/logo.png?company={{ object."
 "survey_id.create_uid.company_id.id }}\" style=\"vertical-align:baseline;max-"
 "width:100px;\"></a>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2301,6 +2332,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2550,7 +2584,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<strong t-out=\"object.scoring_percentage\"></strong>%!</p>\n"
+=======
+"<strong t-out=\"object.scoring_percentage\"/>%!</p>\n"
+>>>>>>> upstream/18.0
 =======
 "<strong t-out=\"object.scoring_percentage\"/>%!</p>\n"
 >>>>>>> upstream/18.0
@@ -2872,7 +2910,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "'participant'\">participant</t><br><br>\n"
+=======
+"'participant'\">participant</t><br/><br/>\n"
+>>>>>>> upstream/18.0
 =======
 "'participant'\">participant</t><br/><br/>\n"
 >>>>>>> upstream/18.0
@@ -3188,7 +3230,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <div style=\"margin: 16px 0px 16px 0px;\">\n"
+=======
+"        </p><div style=\"margin: 16px 0px 16px 0px;\">\n"
+>>>>>>> upstream/18.0
 =======
 "        </p><div style=\"margin: 16px 0px 16px 0px;\">\n"
 >>>>>>> upstream/18.0
@@ -3509,8 +3555,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            Please answer the survey for <t t-out=\"format_date(object."
 "deadline) or ''\">05/05/2021</t>.<br><br>\n"
+=======
+"            Please answer the survey for <t t-"
+"out=\"format_date(object.deadline) or ''\">05/05/2021</t>.<br/><br/>\n"
+>>>>>>> upstream/18.0
 =======
 "            Please answer the survey for <t t-"
 "out=\"format_date(object.deadline) or ''\">05/05/2021</t>.<br/><br/>\n"
@@ -3903,7 +3954,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "    </p>\n"
+=======
+"    \n"
+>>>>>>> upstream/18.0
 =======
 "    \n"
 >>>>>>> upstream/18.0
@@ -4235,6 +4290,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-long-arrow-right mx-2\" aria-label=\"Arrow icon\" title="
+"\"Strelica\"/>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-long-arrow-right mx-2\" aria-label=\"Arrow icon\" title="
 "\"Strelica\"/>"
@@ -4578,8 +4638,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<span class=\"text-muted\">Completed</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4824,6 +4887,9 @@ msgid "<span class=\"text-muted\">Average Duration</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5062,11 +5128,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:survey.survey_survey_view_kanban
 msgid "<span class=\"text-muted\">Registered</span>"
 msgstr ""
 
 #. module: survey
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5303,11 +5372,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:survey.survey_survey_view_kanban
 msgid "<span class=\"text-muted\">Success</span>"
 msgstr ""
 
 #. module: survey
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6064,6 +6136,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,help:survey.field_survey_question__survey_session_speed_rating
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,help:survey.field_survey_question__survey_session_speed_rating
 >>>>>>> upstream/18.0
@@ -6424,7 +6500,11 @@ msgid "Body content is the same as the template"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Telo sadržaja je isto kao kod šablona"
+>>>>>>> upstream/18.0
 =======
 msgstr "Telo sadržaja je isto kao kod šablona"
 >>>>>>> upstream/18.0
@@ -6680,7 +6760,11 @@ msgid "Certified"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sertifikovan/a"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sertifikovan/a"
 >>>>>>> upstream/18.0
@@ -7045,8 +7129,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/survey/static/src/js/tours/survey_tour.js:0
+=======
+#: model_terms:web_tour.tour,rainbow_man_message:survey.survey_tour
+>>>>>>> upstream/18.0
 =======
 #: model_terms:web_tour.tour,rainbow_man_message:survey.survey_tour
 >>>>>>> upstream/18.0
@@ -7516,7 +7604,11 @@ msgid "Custom"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prilagođeno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prilagođeno"
 >>>>>>> upstream/18.0
@@ -7763,6 +7855,10 @@ msgstr "Krajnji Rok"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,help:survey.field_survey_question__survey_session_speed_rating_time_limit
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,help:survey.field_survey_question__survey_session_speed_rating_time_limit
 >>>>>>> upstream/18.0
@@ -8334,7 +8430,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8569,6 +8668,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8844,7 +8946,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9078,6 +9183,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9359,6 +9467,7 @@ msgstr "Grupiši po"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -9637,6 +9746,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model,name:survey.model_ir_http
 msgid "HTTP Routing"
 msgstr "HTTP rutiranje"
@@ -9677,6 +9788,9 @@ msgstr "HTTP rutiranje"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10113,7 +10227,11 @@ msgid "Incorrect"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Neispravno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Neispravno"
 >>>>>>> upstream/18.0
@@ -10434,7 +10552,11 @@ msgid "Label"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Natpis"
+>>>>>>> upstream/18.0
 =======
 msgstr "Natpis"
 >>>>>>> upstream/18.0
@@ -10651,7 +10773,11 @@ msgid "Leave"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Napusti"
+>>>>>>> upstream/18.0
 =======
 msgstr "Napusti"
 >>>>>>> upstream/18.0
@@ -11137,7 +11263,11 @@ msgid "Next"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sledeće"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sledeće"
 >>>>>>> upstream/18.0
@@ -11433,7 +11563,11 @@ msgid "Number of messages requiring action"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Broj poruka koje zahtevaju akciju"
+>>>>>>> upstream/18.0
 =======
 msgstr "Broj poruka koje zahtevaju akciju"
 >>>>>>> upstream/18.0
@@ -11609,7 +11743,11 @@ msgid "Odoo"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odoo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odoo"
 >>>>>>> upstream/18.0
@@ -11933,8 +12071,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "placeholder-a koji obezbeđuje odgovarajući jezik, npr. {{ object.partner_id."
 "lang }}."
+=======
+"placeholder-a koji obezbeđuje odgovarajući jezik, npr. "
+"{{ object.partner_id.lang }}."
+>>>>>>> upstream/18.0
 =======
 "placeholder-a koji obezbeđuje odgovarajući jezik, npr. "
 "{{ object.partner_id.lang }}."
@@ -12355,7 +12498,11 @@ msgid "Participants"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Učesnici"
+>>>>>>> upstream/18.0
 =======
 msgstr "Učesnici"
 >>>>>>> upstream/18.0
@@ -12700,7 +12847,11 @@ msgid "Progress bar"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Traka napretka"
+>>>>>>> upstream/18.0
 =======
 msgstr "Traka napretka"
 >>>>>>> upstream/18.0
@@ -12955,7 +13106,11 @@ msgid "Ratings"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ocene"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ocene"
 >>>>>>> upstream/18.0
@@ -13133,7 +13288,11 @@ msgid "Registered"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Registrovan/a"
+>>>>>>> upstream/18.0
 =======
 msgstr "Registrovan/a"
 >>>>>>> upstream/18.0
@@ -13384,6 +13543,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:survey.field_survey_question__survey_session_speed_rating
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:survey.field_survey_question__survey_session_speed_rating
 >>>>>>> upstream/18.0
@@ -13880,7 +14043,11 @@ msgid "Send Email"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pošalji Email"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pošalji Email"
 >>>>>>> upstream/18.0
@@ -14029,7 +14196,11 @@ msgid "Send by Email"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pošalji Email-om"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pošalji Email-om"
 >>>>>>> upstream/18.0
@@ -15101,7 +15272,11 @@ msgid "Unable to post message, please configure the sender's email address."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nije moguće objaviti poruku, molimo podesite email adresu pošiljaoca."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nije moguće objaviti poruku, molimo podesite email adresu pošiljaoca."
 >>>>>>> upstream/18.0
@@ -15302,7 +15477,11 @@ msgid "Use template"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Koristi obrazac"
+>>>>>>> upstream/18.0
 =======
 msgstr "Koristi obrazac"
 >>>>>>> upstream/18.0
@@ -15526,7 +15705,11 @@ msgid "Validation Error"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Greška pri potvrđivanju"
+>>>>>>> upstream/18.0
 =======
 msgstr "Greška pri potvrđivanju"
 >>>>>>> upstream/18.0

@@ -134,7 +134,10 @@ registry.category("web_tour.tours").add('passkeys_tour_delete', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             // It just happens to be invisible due to scroll bar, if it becomes visible in the future just remove the :not(:visible).
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -489,7 +492,10 @@ registry.category("web_tour.tours").add('passkeys_tour_delete', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -815,6 +821,9 @@ registry.category("web_tour.tours").add('passkeys_tour_delete', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
