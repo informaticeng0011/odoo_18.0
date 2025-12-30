@@ -97,6 +97,10 @@ const CountdownWidget = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.defaultColor = "rgba(0, 0, 0, 0)";
+>>>>>>> upstream/18.0
 =======
         this.defaultColor = "rgba(0, 0, 0, 0)";
 >>>>>>> upstream/18.0

@@ -75,7 +75,11 @@ export const imStatusService = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (lastSentInactivity >= AWAY_DELAY) {
+=======
+            if (!lastSentInactivity || lastSentInactivity >= AWAY_DELAY) {
+>>>>>>> upstream/18.0
 =======
             if (!lastSentInactivity || lastSentInactivity >= AWAY_DELAY) {
 >>>>>>> upstream/18.0

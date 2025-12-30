@@ -251,7 +251,11 @@ class ResConfigSettings(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         raise UserError(_("This feature is deprecated. Contact odoo support if you need a migration key."))
+=======
+        raise UserError(_("This feature is deprecated. Contact Odoo support if you need a migration key."))
+>>>>>>> upstream/18.0
 =======
         raise UserError(_("This feature is deprecated. Contact Odoo support if you need a migration key."))
 >>>>>>> upstream/18.0
@@ -773,6 +777,12 @@ class ResConfigSettings(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    # Note: Deprecated; the button is permanently invisible.
+    # Disabling services can lead to complicance issues and is not necessary
+    # since all existing services should just work.
+>>>>>>> upstream/18.0
 =======
     # Note: Deprecated; the button is permanently invisible.
     # Disabling services can lead to complicance issues and is not necessary

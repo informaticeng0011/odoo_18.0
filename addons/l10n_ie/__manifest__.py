@@ -1,7 +1,11 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 {
     "name": "Ireland - Accounting",
+<<<<<<< HEAD
     "version": "2.0",
+=======
+    "version": "2.1",
+>>>>>>> upstream/18.0
     'countries': ['ie'],
     "icon": '/account/static/description/l10n.png',
     "category": "Accounting/Localizations/Account Charts",
@@ -16,6 +20,10 @@ This is the base module to manage the accounting chart for Republic of Ireland i
     ],
     'auto_install': ['account'],
     "data": [
+<<<<<<< HEAD
+=======
+        "data/account.account.tag.csv",
+>>>>>>> upstream/18.0
         "data/tax_report-ie.xml",
     ],
     "demo": [
