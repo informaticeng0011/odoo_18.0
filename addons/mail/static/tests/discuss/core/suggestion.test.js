@@ -132,6 +132,12 @@ test("Sort partner suggestions by recent chats", async () => {
     await click(".o-mail-Composer-send:enabled");
     await contains(".o-mail-Message-content", { text: "This is a test" });
     await click(".o-mail-DiscussSidebarChannel", { text: "General" });
+<<<<<<< HEAD
+=======
+    await contains(
+        ".o-mail-DiscussSidebarCategory-chat + .o-mail-DiscussSidebarChannel-container:text(User 2)"
+    );
+>>>>>>> upstream/18.0
     await insertText(".o-mail-Composer-input[placeholder='Message #General…']", "@");
     await insertText(".o-mail-Composer-input", "User");
     await contains(".o-mail-Composer-suggestion strong", { count: 3 });

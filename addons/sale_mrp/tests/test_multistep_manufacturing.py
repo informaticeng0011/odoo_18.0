@@ -231,7 +231,10 @@ class TestMultistepManufacturing(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         product_form.uom_po_id = cls.uom_unit
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -835,7 +838,10 @@ class TestMultistepManufacturing(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         product_form.uom_po_id = cls.uom_unit
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1434,7 +1440,10 @@ class TestMultistepManufacturing(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         bom_product_form.product_id = cls.product_manu
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2101,7 +2110,10 @@ class TestMultistepManufacturing(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         bom_product_form.product_id = self.product_raw
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2732,7 +2744,10 @@ class TestMultistepManufacturing(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3353,6 +3368,7 @@ class TestMultistepManufacturing(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3747,6 +3763,8 @@ class TestMultistepManufacturing(TestMrpCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_mto_cancel_3_steps_mo(self):
         '''
@@ -3771,4 +3789,7 @@ class TestMultistepManufacturing(TestMrpCommon):
         self.assertFalse(self.sale_order.picking_ids.move_ids.move_orig_ids)
         self.sale_order.picking_ids.action_assign()
         self.assertEqual(self.sale_order.picking_ids.move_ids.quantity, 1.0)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

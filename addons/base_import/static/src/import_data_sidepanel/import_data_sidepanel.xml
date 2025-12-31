@@ -69,7 +69,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <div t-if="fileExtension === '.csv'" class="o_import_formatting pt-3 pb-4 border-top">
+=======
+            <div t-if="fileExtension.toLowerCase() === '.csv'" class="o_import_formatting pt-3 pb-4 border-top">
+>>>>>>> upstream/18.0
 =======
             <div t-if="fileExtension.toLowerCase() === '.csv'" class="o_import_formatting pt-3 pb-4 border-top">
 >>>>>>> upstream/18.0

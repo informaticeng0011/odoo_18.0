@@ -77,6 +77,11 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { ConnectionLostError, rpc } from "@web/core/network/rpc";
+
+>>>>>>> upstream/18.0
 =======
 import { ConnectionLostError, rpc } from "@web/core/network/rpc";
 
@@ -568,10 +573,16 @@ defineModels([Partner, Bar, Foo]);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @returns
  */
 const ormRequest = async (params) => {
     const response = await fetch(`/web/dataset/call_kw/${params.model}/${params.method}`, {
+=======
+ */
+function fetchCallKw(params) {
+    return fetch(`/web/dataset/call_kw/${params.model}/${params.method}`, {
+>>>>>>> upstream/18.0
 =======
  */
 function fetchCallKw(params) {
@@ -991,6 +1002,10 @@ function fetchCallKw(params) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            id: nextJsonRpcId++,
+>>>>>>> upstream/18.0
 =======
             id: nextJsonRpcId++,
 >>>>>>> upstream/18.0
@@ -1276,7 +1291,10 @@ function fetchCallKw(params) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1494,6 +1512,9 @@ const ormRequest = async (params) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1709,7 +1730,10 @@ const ormRequest = async (params) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1926,6 +1950,11 @@ const JSON_RPC_BASIC_PARAMS = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+
+>>>>>>> upstream/18.0
+=======
+let nextJsonRpcId = 0;
 
 >>>>>>> upstream/18.0
 =======
@@ -2285,6 +2314,7 @@ test("onRpc: normal result", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await expect(response.json()).resolves.toEqual({ result: "result", error: null });
 });
 
@@ -2296,6 +2326,8 @@ test("onRpc: error handling", async () => {
     onRpc("/boom", () => {
         throw new CustomError("boom");
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2509,6 +2541,9 @@ test("onRpc: error handling", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2722,6 +2757,7 @@ test("onRpc: error handling", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const response = await fetch("/boom");
 
     expect(response).toBeInstanceOf(Response);
@@ -2737,6 +2773,9 @@ test("onRpc: error handling", async () => {
             type: "CustomError",
         },
     });
+=======
+    await expect(fetch("/boom")).rejects.toThrow("boom");
+>>>>>>> upstream/18.0
 =======
     await expect(fetch("/boom")).rejects.toThrow("boom");
 >>>>>>> upstream/18.0
@@ -3045,7 +3084,10 @@ test("onRpc: pure, error handling", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3274,8 +3316,13 @@ test("rpc: calls on mock server", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     onRpc("/route", () => true);
     onRpc("/pure/route", () => true);
+=======
+    onRpc("/route", () => "pure route response");
+    onRpc("http://pure.route.com/", () => "external route response");
+>>>>>>> upstream/18.0
 =======
     onRpc("/route", () => "pure route response");
     onRpc("http://pure.route.com/", () => "external route response");
@@ -3503,8 +3550,13 @@ test("rpc: calls on mock server", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await expect(rpc("/pure/route")).resolves.toBe(true);
     await expect(rpc("/route")).resolves.toBe(true);
+=======
+    await expect(rpc("/route")).resolves.toBe("pure route response");
+    await expect(rpc("http://pure.route.com/")).resolves.toBe("external route response");
+>>>>>>> upstream/18.0
 =======
     await expect(rpc("/route")).resolves.toBe("pure route response");
     await expect(rpc("http://pure.route.com/")).resolves.toBe("external route response");
@@ -3728,6 +3780,12 @@ test("rpc: calls on mock server", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    await expect(rpc("https://unknown.route")).rejects.toThrow(
+        "Unimplemented server external URL: https://unknown.route"
+    );
+>>>>>>> upstream/18.0
 =======
     await expect(rpc("https://unknown.route")).rejects.toThrow(
         "Unimplemented server external URL: https://unknown.route"
@@ -4022,8 +4080,11 @@ test("rpc: calls on mock server", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4235,6 +4296,9 @@ test("performRPC: custom response", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -197,7 +197,10 @@ class account_journal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -558,6 +561,9 @@ class account_journal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -920,6 +926,10 @@ class account_journal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                act_type.id as act_type_id,
+>>>>>>> upstream/18.0
 =======
                 act_type.id as act_type_id,
 >>>>>>> upstream/18.0
@@ -1405,6 +1415,10 @@ class account_journal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                act_type.id as act_type_id,
+>>>>>>> upstream/18.0
 =======
                 act_type.id as act_type_id,
 >>>>>>> upstream/18.0
@@ -1889,6 +1903,7 @@ class account_journal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for activity in self.env.cr.dictfetchall():
             act = {
                 'id': activity['id'],
@@ -1901,6 +1916,10 @@ class account_journal(models.Model):
             }
 
             activities[activity['journal_id']].append(act)
+=======
+        for activity_data in self.env.cr.dictfetchall():
+            activities[activity_data['journal_id']].append(self._transform_activity_dict(activity_data))
+>>>>>>> upstream/18.0
 =======
         for activity_data in self.env.cr.dictfetchall():
             activities[activity_data['journal_id']].append(self._transform_activity_dict(activity_data))
@@ -2633,7 +2652,10 @@ class account_journal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                AND move.date <= %s
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3019,7 +3041,11 @@ class account_journal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.env.cr.execute(query, (self.ids, last_month, today, self.env.companies.ids))
+=======
+        self.env.cr.execute(query, (self.ids, last_month, self.env.companies.ids))
+>>>>>>> upstream/18.0
 =======
         self.env.cr.execute(query, (self.ids, last_month, self.env.companies.ids))
 >>>>>>> upstream/18.0
@@ -3548,7 +3574,13 @@ class account_journal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 data.append(build_graph_data(today, last_balance, currency))
+=======
+                # Make sure the last point in the graph is at least today or a future date
+                if not journal_result or journal_result[0]['date'] < today.date():
+                    data.append(build_graph_data(today, last_balance, currency))
+>>>>>>> upstream/18.0
 =======
                 # Make sure the last point in the graph is at least today or a future date
                 if not journal_result or journal_result[0]['date'] < today.date():
@@ -4317,8 +4349,12 @@ class account_journal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     if date.strftime(DF) != today.strftime(DF):  # make sure the last point in the graph is today
                         data[:0] = [build_graph_data(date, amount, currency)]
+=======
+                    data[:0] = [build_graph_data(date, amount, currency)]
+>>>>>>> upstream/18.0
 =======
                     data[:0] = [build_graph_data(date, amount, currency)]
 >>>>>>> upstream/18.0
@@ -4860,6 +4896,7 @@ class account_journal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                AND st_line_move.state = 'posted'
 =======
 >>>>>>> upstream/18.0
@@ -4872,6 +4909,9 @@ class account_journal(models.Model):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+               AND st_line_move.state = 'posted'
 >>>>>>> upstream/18.0
 =======
                AND st_line_move.state = 'posted'
@@ -5172,6 +5212,7 @@ class account_journal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         to_check_vals = {
             journal.id: (amount_total_signed_sum, count)
             for journal, amount_total_signed_sum, count in self.env['account.move']._read_group(
@@ -5185,6 +5226,11 @@ class account_journal(models.Model):
                 aggregates=['amount_total_signed:sum', '__count'],
             )
         }
+=======
+        query, params = sale_purchase_journals._get_to_check_payment_query().select(*bills_field_list)
+        self.env.cr.execute(query, params)
+        to_check_vals = group_by_journal(self.env.cr.dictfetchall())
+>>>>>>> upstream/18.0
 =======
         query, params = sale_purchase_journals._get_to_check_payment_query().select(*bills_field_list)
         self.env.cr.execute(query, params)
@@ -5995,7 +6041,12 @@ class account_journal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             amount_total_signed_sum, count = to_check_vals.get(journal.id, (0, 0))
+=======
+            (number_to_check, sum_to_check) = self._count_results_and_sum_amounts(to_check_vals[journal.id], currency)
+
+>>>>>>> upstream/18.0
 =======
             (number_to_check, sum_to_check) = self._count_results_and_sum_amounts(to_check_vals[journal.id], currency)
 
@@ -6665,8 +6716,13 @@ class account_journal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'number_to_check': count,
                 'to_check_balance': currency.format(amount_total_signed_sum),
+=======
+                'number_to_check': number_to_check,
+                'to_check_balance': currency.format(sum_to_check),
+>>>>>>> upstream/18.0
 =======
                 'number_to_check': number_to_check,
                 'to_check_balance': currency.format(sum_to_check),
@@ -7429,7 +7485,10 @@ class account_journal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7806,6 +7865,7 @@ class account_journal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ])
 
 <<<<<<< HEAD
@@ -7868,6 +7928,11 @@ class account_journal(models.Model):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+            ('state', '=', 'posted'),
+        ])
+
 >>>>>>> upstream/18.0
 =======
             ('state', '=', 'posted'),
@@ -8820,7 +8885,11 @@ class account_journal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 action['domain'] = [(domain_type_field, 'in', ('out_invoice', 'out_refund', 'out_receipt'))]
+=======
+                action['domain'] = [(domain_type_field, 'in', ('out_invoice', 'out_refund', 'out_receipt', 'entry'))]
+>>>>>>> upstream/18.0
 =======
                 action['domain'] = [(domain_type_field, 'in', ('out_invoice', 'out_refund', 'out_receipt', 'entry'))]
 >>>>>>> upstream/18.0

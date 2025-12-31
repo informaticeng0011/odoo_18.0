@@ -200,7 +200,11 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                         help="The serial number of the Taxpayer solution unit. Provided by ZATCA")
+=======
+                                        help="Unique Serial Number automatically filled when the journal is onboarded")
+>>>>>>> upstream/18.0
 =======
                                         help="Unique Serial Number automatically filled when the journal is onboarded")
 >>>>>>> upstream/18.0
@@ -738,7 +742,10 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1241,6 +1248,7 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1327,6 +1335,8 @@ class AccountJournal(models.Model):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1694,6 +1704,9 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2141,6 +2154,7 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -2358,6 +2372,8 @@ class AccountJournal(models.Model):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2720,6 +2736,9 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3138,6 +3157,11 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            # Regenerate a new chain sequence
+            self._l10n_sa_edi_icv_onboarding()
+>>>>>>> upstream/18.0
 =======
             # Regenerate a new chain sequence
             self._l10n_sa_edi_icv_onboarding()
@@ -3935,8 +3959,14 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if CCSID_data.get('error'):
             raise UserError(_("Could not obtain Compliance CSID: %s", CCSID_data['error']))
+=======
+        if CCSID_data.get('errors') or CCSID_data.get('error'):
+            raise UserError(_("Could not obtain Compliance CSID: %s",
+                              CCSID_data['errors'][0]['message'] if CCSID_data.get('errors') else CCSID_data['error']))
+>>>>>>> upstream/18.0
 =======
         if CCSID_data.get('errors') or CCSID_data.get('error'):
             raise UserError(_("Could not obtain Compliance CSID: %s",
@@ -4823,7 +4853,11 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             qr_code_str = self.env['account.move']._l10n_sa_get_qr_code(self, signed_xml, certificate, signature, True)
+=======
+            qr_code_str = self.env['account.move']._l10n_sa_get_qr_code(self.company_id, signed_xml, certificate, signature, True)
+>>>>>>> upstream/18.0
 =======
             qr_code_str = self.env['account.move']._l10n_sa_get_qr_code(self.company_id, signed_xml, certificate, signature, True)
 >>>>>>> upstream/18.0
@@ -5348,7 +5382,10 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5856,6 +5893,9 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6348,12 +6388,16 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.l10n_sa_chain_sequence_id = self.env['ir.sequence'].create({
                 'name': f'ZATCA account move sequence for Journal {self.name} (id: {self.id})',
                 'code': f'l10n_sa_edi.account.move.{self.id}',
                 'implementation': 'no_gap',
                 'company_id': self.company_id.id,
             })
+=======
+            self.l10n_sa_chain_sequence_id = self._l10n_sa_edi_create_new_chain()
+>>>>>>> upstream/18.0
 =======
             self.l10n_sa_chain_sequence_id = self._l10n_sa_edi_create_new_chain()
 >>>>>>> upstream/18.0
@@ -7198,6 +7242,10 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        status_code = False
+>>>>>>> upstream/18.0
 =======
         status_code = False
 >>>>>>> upstream/18.0
@@ -7907,6 +7955,7 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                                 }, timeout=(30, 30))
             request_response.raise_for_status()
         except (ValueError, HTTPError) as ex:
@@ -8401,6 +8450,8 @@ class AccountJournal(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                                                 }, timeout=30)
             request_response.raise_for_status()
         except (ValueError, HTTPError) as ex:
@@ -8517,6 +8568,9 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8940,6 +8994,9 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9538,7 +9595,10 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10134,6 +10194,9 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10536,6 +10599,7 @@ class AccountJournal(models.Model):
                 'error': _("JSON response from ZATCA could not be decoded"),
                 'blocking_level': 'error'
             }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11141,6 +11205,8 @@ class AccountJournal(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         response_data['status_code'] = request_response.status_code
 
         if status_code == 409:
@@ -11255,6 +11321,9 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11685,6 +11754,9 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

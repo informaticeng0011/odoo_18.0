@@ -150,6 +150,7 @@ class HtmlFieldHistory(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def write(self, vals):
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -254,6 +255,8 @@ class HtmlFieldHistory(models.AbstractModel):
         rec_db_contents = {}
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -591,6 +594,9 @@ class HtmlFieldHistory(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -814,6 +820,7 @@ class HtmlFieldHistory(models.AbstractModel):
         vals_contain_versioned_fields = set(vals).intersection(versioned_fields)
 
         if vals_contain_versioned_fields:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1498,6 +1505,10 @@ class HtmlFieldHistory(models.AbstractModel):
             for rec in self:
                 rec_db_contents[rec.id] = {f: rec[f] for f in versioned_fields}
 >>>>>>> upstream/18.0
+=======
+            for rec in self:
+                rec_db_contents[rec.id] = {f: rec[f] for f in versioned_fields}
+>>>>>>> upstream/18.0
 
         # Call super().write before generating the patch to be sure we perform
         # the diff on sanitized data
@@ -1506,6 +1517,7 @@ class HtmlFieldHistory(models.AbstractModel):
         if not vals_contain_versioned_fields:
             return write_result
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1676,6 +1688,8 @@ class HtmlFieldHistory(models.AbstractModel):
             extra_vals = {"html_field_history": history_revs}
             write_result = super().write(extra_vals) and write_result
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2124,6 +2138,9 @@ class HtmlFieldHistory(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
