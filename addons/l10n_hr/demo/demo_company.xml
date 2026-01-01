@@ -7,7 +7,10 @@
         <field name="city">Ježdovec</field>
         <field name="country_id" ref="base.hr"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         <field name="zip">10250</field>
@@ -29,7 +32,10 @@
     </record>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     <record id="base.partner_demo_customer_hr" model="res.partner" forcecreate="1">
         <field name="name">HR Customer</field>
         <field name="vat">HR90512249179</field>
@@ -42,6 +48,9 @@
         <field name="is_company" eval="True"/>
     </record>
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     <function model="res.company" name="_onchange_country_id">
         <value eval="[ref('base.demo_company_hr')]"/>

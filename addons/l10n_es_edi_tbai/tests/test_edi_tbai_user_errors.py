@@ -225,7 +225,11 @@ class TestTbaiUserErrors(TestEsEdiTbaiCommonGipuzkoa):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'invoice_date': '2022-01-01',
+=======
+            'invoice_date': '2025-01-01',
+>>>>>>> upstream/18.0
 =======
             'invoice_date': '2025-01-01',
 >>>>>>> upstream/18.0
@@ -924,7 +928,10 @@ class TestTbaiUserErrors(TestEsEdiTbaiCommonGipuzkoa):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1209,6 +1216,9 @@ class TestTbaiUserErrors(TestEsEdiTbaiCommonGipuzkoa):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -35,6 +35,10 @@ from odoo.tools.image import is_image_size_above
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.tools.sql import SQL
+>>>>>>> upstream/18.0
 =======
 from odoo.tools.sql import SQL
 >>>>>>> upstream/18.0
@@ -321,7 +325,11 @@ class ProductTemplate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if 'uom_id' in fields_list and not res.get('uom_id'):
+=======
+        if 'uom_id' in fields_list and not res.get('uom_id') or self.env.context.get('default_uom_id') is False:
+>>>>>>> upstream/18.0
 =======
         if 'uom_id' in fields_list and not res.get('uom_id') or self.env.context.get('default_uom_id') is False:
 >>>>>>> upstream/18.0
@@ -1309,7 +1317,11 @@ class ProductTemplate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             template.cost_currency_id = template.company_id.currency_id.id or env_currency_id
+=======
+            template.cost_currency_id = template.company_id.sudo().currency_id.id or env_currency_id
+>>>>>>> upstream/18.0
 =======
             template.cost_currency_id = template.company_id.sudo().currency_id.id or env_currency_id
 >>>>>>> upstream/18.0
@@ -2186,6 +2198,7 @@ class ProductTemplate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return ['barcode', 'default_code', 'standard_price', 'volume', 'weight', 'packaging_ids', 'product_properties']
 =======
         return ['barcode', 'default_code', 'standard_price', 'volume', 'weight', 'product_properties']
@@ -2195,6 +2208,9 @@ class ProductTemplate(models.Model):
 >>>>>>> upstream/18.0
 =======
         return ['barcode', 'default_code', 'standard_price', 'volume', 'weight', 'product_properties']
+>>>>>>> upstream/18.0
+=======
+        return ['barcode', 'default_code', 'standard_price', 'volume', 'weight', 'packaging_ids', 'product_properties']
 >>>>>>> upstream/18.0
 =======
         return ['barcode', 'default_code', 'standard_price', 'volume', 'weight', 'packaging_ids', 'product_properties']
@@ -2579,6 +2595,10 @@ class ProductTemplate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # TODO remove in master: this is not needed anymore
+>>>>>>> upstream/18.0
 =======
         # TODO remove in master: this is not needed anymore
 >>>>>>> upstream/18.0
@@ -2964,7 +2984,11 @@ class ProductTemplate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if vals.get(field_name):
+=======
+                if vals.get(field_name) and not template[field_name]:
+>>>>>>> upstream/18.0
 =======
                 if vals.get(field_name) and not template[field_name]:
 >>>>>>> upstream/18.0
@@ -3328,9 +3352,12 @@ class ProductTemplate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             combine = expression.OR if operator not in expression.NEGATIVE_TERM_OPERATORS else expression.AND
             domain = combine([domain, [('product_variant_ids', operator, value)]])
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3415,6 +3442,9 @@ class ProductTemplate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3680,9 +3710,12 @@ class ProductTemplate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         len(combination) == len(lines_without_no_variants) and
                         combination.attribute_line_id == lines_without_no_variants
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3846,6 +3879,9 @@ class ProductTemplate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4653,6 +4689,11 @@ class ProductTemplate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # determines which ptav we're working on
+        current_ptav = None
+>>>>>>> upstream/18.0
 =======
         # determines which ptav we're working on
         current_ptav = None
@@ -5593,12 +5634,15 @@ class ProductTemplate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 else:
                     line_index += 1
                     continue
 
             current_ptav = current_line_values[current_ptav_index]
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6160,6 +6204,9 @@ class ProductTemplate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

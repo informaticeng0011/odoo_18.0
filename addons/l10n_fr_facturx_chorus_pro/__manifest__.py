@@ -65,7 +65,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     'name': 'France - Factur-X integration with Chorus Pro',
+=======
+    'name': 'France - Peppol integration with Chorus Pro',
+>>>>>>> upstream/18.0
 =======
     'name': 'France - Peppol integration with Chorus Pro',
 >>>>>>> upstream/18.0

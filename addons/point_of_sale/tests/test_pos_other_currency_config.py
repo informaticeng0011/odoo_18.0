@@ -363,11 +363,17 @@ class TestPoSOtherCurrencyConfig(TestPoSCommon):
                 credit += line.credit
             self.assertEqual(tools.float_compare(debit, credit, precision_rounding=self.other_currency_config.currency_id.rounding), 0)  # debit and credit should be equal
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_pos_data_standard_price_converted(self):
         self.other_currency_config.open_ui()
         res = self.other_currency_config.current_session_id.load_data({})
         product1_data = next(filter(lambda product: product['display_name'] == "Product 1", res['product.product']['data']))
         self.assertEqual(product1_data['standard_price'], 2.5)  # standard price should be converted
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

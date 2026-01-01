@@ -83,6 +83,11 @@ export class PageListController extends PageControllerMixin(listView.Controller)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                        const websiteId = this.state.activeWebsite.id;
+                        this.env.searchModel.notifyWebsiteChange(websiteId);
+>>>>>>> upstream/18.0
 =======
                         const websiteId = this.state.activeWebsite.id;
                         this.env.searchModel.notifyWebsiteChange(websiteId);

@@ -114,7 +114,12 @@ from werkzeug.urls import url_encode
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from werkzeug.exceptions import NotFound, Unauthorized
+=======
+from werkzeug.exceptions import NotFound
+from urllib.parse import parse_qsl, urlencode, urlparse
+>>>>>>> upstream/18.0
 =======
 from werkzeug.exceptions import NotFound
 from urllib.parse import parse_qsl, urlencode, urlparse
@@ -675,9 +680,13 @@ from odoo.tools import consteq
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.addons.mail.controllers.discuss.public_page import PublicPageController
 from odoo.addons.mail.models.discuss.mail_guest import add_guest_to_context
 from odoo.addons.mail.tools.discuss import Store
+=======
+from odoo.addons.mail.models.discuss.mail_guest import add_guest_to_context
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.mail.models.discuss.mail_guest import add_guest_to_context
 >>>>>>> upstream/18.0
@@ -1161,7 +1170,10 @@ class MailController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1593,6 +1605,9 @@ class MailController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2023,7 +2038,10 @@ class MailController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2461,6 +2479,9 @@ class MailController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2898,7 +2919,11 @@ class MailController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return comparison, None, cls._redirect_to_messaging()
+=======
+            return comparison, None, cls._redirect_to_generic_fallback(model, res_id)
+>>>>>>> upstream/18.0
 =======
             return comparison, None, cls._redirect_to_generic_fallback(model, res_id)
 >>>>>>> upstream/18.0
@@ -3471,7 +3496,11 @@ class MailController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             redirect = cls._redirect_to_messaging()
+=======
+            redirect = cls._redirect_to_generic_fallback(model, res_id)
+>>>>>>> upstream/18.0
 =======
             redirect = cls._redirect_to_generic_fallback(model, res_id)
 >>>>>>> upstream/18.0
@@ -4054,7 +4083,13 @@ class MailController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return cls._redirect_to_messaging()
+=======
+            return cls._redirect_to_generic_fallback(
+                model, res_id, access_token=access_token, **kwargs,
+            )
+>>>>>>> upstream/18.0
 =======
             return cls._redirect_to_generic_fallback(
                 model, res_id, access_token=access_token, **kwargs,
@@ -4913,7 +4948,13 @@ class MailController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return cls._redirect_to_messaging()
+=======
+            return cls._redirect_to_generic_fallback(
+                model, res_id, access_token=access_token, **kwargs,
+            )
+>>>>>>> upstream/18.0
 =======
             return cls._redirect_to_generic_fallback(
                 model, res_id, access_token=access_token, **kwargs,
@@ -5771,7 +5812,13 @@ class MailController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 return cls._redirect_to_messaging()
+=======
+                return cls._redirect_to_generic_fallback(
+                    model, res_id, access_token=access_token, **kwargs,
+                )
+>>>>>>> upstream/18.0
 =======
                 return cls._redirect_to_generic_fallback(
                     model, res_id, access_token=access_token, **kwargs,
@@ -6648,7 +6695,13 @@ class MailController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 return cls._redirect_to_messaging()
+=======
+                return cls._redirect_to_generic_fallback(
+                    model, res_id, access_token=access_token, **kwargs,
+                )
+>>>>>>> upstream/18.0
 =======
                 return cls._redirect_to_generic_fallback(
                     model, res_id, access_token=access_token, **kwargs,
@@ -7505,6 +7558,7 @@ class MailController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if suggested_company:
                 cids = [suggested_company.id]
             if record_action['type'] == 'ir.actions.act_url' and record_action.get('target_type') != 'public':
@@ -7522,6 +7576,8 @@ class MailController(http.Controller):
                 url = '/web/login?redirect=#%s' % url_encode(url_params)
                 return request.redirect(url)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7950,6 +8006,9 @@ class MailController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8237,6 +8296,7 @@ class MailController(http.Controller):
         record_action.pop('target_type', None)
         # the record has an URL redirection: use it directly
         if record_action['type'] == 'ir.actions.act_url':
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8666,6 +8726,8 @@ class MailController(http.Controller):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             url = record_action["url"]
             if highlight_message_id := kwargs.get("highlight_message_id"):
                 parsed_url = urlparse(url)
@@ -8783,6 +8845,9 @@ class MailController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9160,6 +9225,9 @@ class MailController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9450,6 +9518,7 @@ class MailController(http.Controller):
         view_id = record_sudo.get_formview_id()
         if view_id:
             url_params['view_id'] = view_id
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9909,6 +9978,8 @@ class MailController(http.Controller):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         if highlight_message_id := kwargs.get("highlight_message_id"):
             url_params["highlight_message_id"] = highlight_message_id
         if cids:
@@ -10024,6 +10095,9 @@ class MailController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10391,7 +10465,11 @@ class MailController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         url = f'/odoo/{model_in_url}/{res_id}?{url_encode(url_params)}'
+=======
+        url = f'/odoo/{model_in_url}/{res_id}?{url_encode(url_params, sort=True)}'
+>>>>>>> upstream/18.0
 =======
         url = f'/odoo/{model_in_url}/{res_id}?{url_encode(url_params, sort=True)}'
 >>>>>>> upstream/18.0
@@ -10993,6 +11071,7 @@ class MailController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             raise Unauthorized()
 
         # sudo: public user can access some relational fields of mail.message
@@ -11018,6 +11097,11 @@ class MailController(http.Controller):
             model_in_url = model if "." in (model := message.model) else "m-" + model
             url = f'/odoo/{model_in_url}/{message.res_id}?highlight_message_id={message_id}'
         return request.redirect(url)
+=======
+            raise NotFound()
+
+        return self._redirect_to_record(message.model, message.res_id, highlight_message_id=message_id)
+>>>>>>> upstream/18.0
 =======
             raise NotFound()
 

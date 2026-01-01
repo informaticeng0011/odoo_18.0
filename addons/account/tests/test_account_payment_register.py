@@ -146,6 +146,7 @@ from dateutil.relativedelta import relativedelta
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 from itertools import product
 >>>>>>> upstream/18.0
@@ -238,6 +239,10 @@ from itertools import product
 >>>>>>> upstream/18.0
 =======
 from itertools import product
+>>>>>>> upstream/18.0
+=======
+from itertools import product
+from unittest.mock import patch
 >>>>>>> upstream/18.0
 =======
 from itertools import product
@@ -801,11 +806,14 @@ from odoo.addons.account.tests.common import AccountTestInvoicingCommon
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 @tagged('post_install', '-at_install')
 class TestAccountPaymentRegister(AccountTestInvoicingCommon):
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1141,6 +1149,9 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon, PaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1672,7 +1683,10 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon, PaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2102,6 +2116,9 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon, PaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2662,7 +2679,11 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon, PaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'memo': Like(f'BATCH/{self.current_year}/...'),
+=======
+            'memo': 'BILL/2017/01/0001, BILL/2017/01/0002',
+>>>>>>> upstream/18.0
 =======
             'memo': 'BILL/2017/01/0001, BILL/2017/01/0002',
 >>>>>>> upstream/18.0
@@ -3149,7 +3170,11 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon, PaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'memo': Like(f'BATCH/{self.current_year}/...'),
+=======
+            'memo': 'BILL/2017/01/0001, BILL/2017/01/0002',
+>>>>>>> upstream/18.0
 =======
             'memo': 'BILL/2017/01/0001, BILL/2017/01/0002',
 >>>>>>> upstream/18.0
@@ -3749,7 +3774,11 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon, PaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'memo': Like(f'BATCH/{self.current_year}/...'),
+=======
+                'memo': 'BILL/2017/01/0001, BILL/2017/01/0002, RBILL/2017/01/0001',
+>>>>>>> upstream/18.0
 =======
                 'memo': 'BILL/2017/01/0001, BILL/2017/01/0002, RBILL/2017/01/0001',
 >>>>>>> upstream/18.0
@@ -4314,7 +4343,11 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon, PaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'memo': Like(f'BATCH/{self.current_year}/...'),
+=======
+                'memo': 'BILL/2017/01/0001, BILL/2017/01/0002',
+>>>>>>> upstream/18.0
 =======
                 'memo': 'BILL/2017/01/0001, BILL/2017/01/0002',
 >>>>>>> upstream/18.0
@@ -4900,7 +4933,10 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon, PaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5251,6 +5287,9 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon, PaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6512,7 +6551,10 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon, PaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'communication': Like(f'BATCH/{self.current_year}/...'),
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6882,7 +6924,10 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon, PaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'communication': Like(f'BATCH/{self.current_year}/...'),
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7229,7 +7274,10 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon, PaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'communication': Like(f'BATCH/{self.current_year}/...'),
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7618,6 +7666,7 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon, PaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def test_group_payment_method_with_branch(self):
         # create a new branch
         self.env.company.write({
@@ -7640,6 +7689,8 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon, PaymentCommon):
             self.partner_a.with_company(branch).write({
                 'property_account_receivable_id': receivable_account.id,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8097,6 +8148,9 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon, PaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8526,6 +8580,7 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon, PaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         (branch_invoices | parent_invoice).action_post()
 
         # branch1 + parent
@@ -8617,6 +8672,8 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon, PaymentCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9137,6 +9194,9 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon, PaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9620,6 +9680,9 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon, PaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9969,3 +10032,27 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon, PaymentCommon):
         self.env.company.parent_ids.invalidate_recordset()
         payment = wizard._create_payments()
         self.assertTrue(payment)
+<<<<<<< HEAD
+=======
+
+    def test_payment_register_wizard_without_receivable_line_due_date(self):
+        """Test creating the payment register wizard when a receivable line has no due date."""
+        invoice = self.out_invoice_1
+        invoice.button_draft()
+        invoice.invoice_payment_term_id = self.term_0_5_10_days
+        receivable_lines = invoice.line_ids.filtered(lambda x: x.account_type == 'asset_receivable')
+        self.assertEqual(len(receivable_lines), 3)
+
+        receivable_lines[0].date_maturity = False
+        invoice.action_post()
+
+        wizard = Form(self.env['account.payment.register'].with_context(
+            active_model='account.move', active_ids=invoice.ids))
+
+        self.assertEqual(wizard.amount, invoice.amount_residual)
+        self.assertRecordValues(receivable_lines, [
+            {'amount_currency': 100, 'date_maturity': False},
+            {'amount_currency': 300, 'date_maturity': fields.Date.from_string('2017-01-06')},
+            {'amount_currency': 600, 'date_maturity': fields.Date.from_string('2017-01-11')},
+        ])
+>>>>>>> upstream/18.0

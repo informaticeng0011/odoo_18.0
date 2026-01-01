@@ -132,6 +132,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import json
+
+>>>>>>> upstream/18.0
 =======
 import json
 
@@ -1403,6 +1408,7 @@ class TestCheckoutAddress(BaseUsersCommon, WebsiteSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -1435,6 +1441,8 @@ class TestCheckoutAddress(BaseUsersCommon, WebsiteSaleCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1824,6 +1832,9 @@ class TestCheckoutAddress(BaseUsersCommon, WebsiteSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2216,6 +2227,9 @@ class TestCheckoutAddress(BaseUsersCommon, WebsiteSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

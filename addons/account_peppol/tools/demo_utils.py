@@ -111,6 +111,7 @@ def _mock_button_verify_partner_endpoint(func, self, *args, **kwargs):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if state == 'valid':
         self.with_company(company).invoice_sending_method = 'peppol'
 
@@ -751,6 +752,11 @@ def _mock_get_peppol_verification_state(func, self, *args, **kwargs):
 
 def _mock_get_peppol_verification_state(func, self, *args, **kwargs):
 >>>>>>> upstream/18.0
+=======
+
+
+def _mock_get_peppol_verification_state(func, self, *args, **kwargs):
+>>>>>>> upstream/18.0
     (endpoint, eas, xml_format) = args
     if not (eas and endpoint):
         return 'not_verified'
@@ -957,6 +963,9 @@ def _mock_get_peppol_verification_state(func, self, *args, **kwargs):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

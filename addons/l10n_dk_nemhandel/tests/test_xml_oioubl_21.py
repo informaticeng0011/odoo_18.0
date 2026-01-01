@@ -186,7 +186,10 @@ class TestUBLDKOIOUBL21(TestUBLCommon, TestAccountMoveSendCommon):
 
     @freeze_time('2017-01-01')
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_oioubl_export_import_with_discount(self):
         """ Tests that the discount on a line is well exported, then taken into account when imported """
         line_vals = {
@@ -219,6 +222,9 @@ class TestUBLDKOIOUBL21(TestUBLCommon, TestAccountMoveSendCommon):
         self.assertRecordValues(new_invoice.invoice_line_ids, [line_vals])
 
     @freeze_time('2017-01-01')
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_oioubl_export_should_raise_an_error_when_partner_building_number_is_missing(self):
         self.partner_a.street = 'Paradisæblevej'  # remove the street number from the address

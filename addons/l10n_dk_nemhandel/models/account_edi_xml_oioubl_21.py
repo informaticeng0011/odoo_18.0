@@ -1,6 +1,10 @@
 from odoo import _, models, tools
 from odoo.tools import html2plaintext
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.tools.float_utils import float_round
+>>>>>>> upstream/18.0
 =======
 from odoo.tools.float_utils import float_round
 >>>>>>> upstream/18.0
@@ -250,7 +254,10 @@ class AccountEdiXmlOIOUBL21(models.AbstractModel):
                 invoice.line_ids.filtered(lambda line: line.display_type == 'payment_term').sorted('date_maturity')
             ]
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def _add_document_line_price_nodes(self, line_node, vals):
         # Override 'account.edi.xml.ubl_20' to accomodate to oioubl_21 specific rules
@@ -278,4 +285,7 @@ class AccountEdiXmlOIOUBL21(models.AbstractModel):
         charge_amount = sum(d['amount'] for d in charges)
 
         return rebate + (discount_amount - charge_amount) / quantity
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

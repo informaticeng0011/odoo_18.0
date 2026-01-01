@@ -186,7 +186,11 @@ const {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Object: { entries: $entries, fromEntries: $fromEntries, keys: $keys },
+=======
+    Object: { entries: $entries },
+>>>>>>> upstream/18.0
 =======
     Object: { entries: $entries },
 >>>>>>> upstream/18.0
@@ -854,9 +858,15 @@ const debouncedUpdateUrl = debounce(function updateUrl() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             for (const value of urlParams[key]) {
                 if (value) {
                     url.searchParams.append(key, value);
+=======
+            for (const val of value) {
+                if (val) {
+                    url.searchParams.append(key, val);
+>>>>>>> upstream/18.0
 =======
             for (const val of value) {
                 if (val) {
@@ -1871,6 +1881,7 @@ export function createUrl(params) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @param {string | Iterable<string>} id
  * @param {keyof DEFAULT_FILTERS} type
  * @param {CreateUrlFromIdOptions} [options]
@@ -1942,6 +1953,8 @@ export function createUrlFromId(id, type, options) {
         default: {
             clearAll();
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2388,6 +2401,7 @@ export function createUrlFromId(specs, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             case "suite": {
                 if (options?.ignore) {
                     for (const id of ids) {
@@ -2400,6 +2414,8 @@ export function createUrlFromId(specs, options) {
                         } else {
                             nextParams.suite.add(exludedId);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2738,6 +2754,9 @@ export function createUrlFromId(specs, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3074,7 +3093,11 @@ export function createUrlFromId(specs, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         nextParams.suite.add(id);
+=======
+                        nextParams.id.add(id);
+>>>>>>> upstream/18.0
 =======
                         nextParams.id.add(id);
 >>>>>>> upstream/18.0
@@ -3540,6 +3563,7 @@ export function createUrlFromId(specs, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             case "test": {
                 if (options?.ignore) {
                     for (const id of ids) {
@@ -3608,6 +3632,8 @@ export function createUrlFromId(specs, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
