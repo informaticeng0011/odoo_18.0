@@ -129,7 +129,10 @@ pdfjs-document-properties-file-size = ファイルサイズ:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -207,6 +210,9 @@ pdfjs-document-properties-size-mb = { NUMBER($mb, maximumSignificantDigits: 3) }
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -292,6 +298,12 @@ pdfjs-document-properties-modification-date = 更新日:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#   $dateObj (Date) - the creation/modification date and time of the PDF file
+pdfjs-document-properties-date-time-string = { DATETIME($dateObj, dateStyle: "short", timeStyle: "medium") }
+# Variables:
+>>>>>>> upstream/18.0
 =======
 #   $dateObj (Date) - the creation/modification date and time of the PDF file
 pdfjs-document-properties-date-time-string = { DATETIME($dateObj, dateStyle: "short", timeStyle: "medium") }
@@ -540,6 +552,7 @@ pdfjs-find-reached-bottom = 文書末尾に到達したので先頭から続け�
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 pdfjs-find-match-count =
     { $total ->
         [one] { $total } 件中 { $current } 件目
@@ -553,6 +566,8 @@ pdfjs-find-match-count-limit =
        *[other] { $limit } 件以上一致
     }
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -626,6 +641,9 @@ pdfjs-find-match-count-limit = { $limit } 件以上一致
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -737,6 +755,12 @@ pdfjs-text-annotation-type =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Variables:
+#   $dateObj (Date) - the modification date and time of the annotation
+pdfjs-annotation-date-time-string = { DATETIME($dateObj, dateStyle: "short", timeStyle: "medium") }
+>>>>>>> upstream/18.0
 =======
 # Variables:
 #   $dateObj (Date) - the modification date and time of the annotation
@@ -885,7 +909,11 @@ pdfjs-password-label = この PDF ファイルを開くためのパスワード�
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 pdfjs-password-invalid = 無効なパスワードです。もう一度やり直してください。
+=======
+pdfjs-password-invalid = パスワードが正しくありません。もう一度試してください。
+>>>>>>> upstream/18.0
 =======
 pdfjs-password-invalid = パスワードが正しくありません。もう一度試してください。
 >>>>>>> upstream/18.0
@@ -1000,8 +1028,11 @@ pdfjs-editor-highlight-button-label = 強調
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 pdfjs-highlight-floating-button =
     .title = 強調
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1142,7 +1173,10 @@ pdfjs-editor-resizer-label-middle-left = 左中央 — サイズ変更
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1228,6 +1262,9 @@ pdfjs-editor-resizer-middle-left =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1323,9 +1360,12 @@ pdfjs-editor-highlight-show-all-button-label = すべて表示
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 pdfjs-editor-highlight-show-all-button =
     .title = 強調の表示を切り替えます
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1454,6 +1494,9 @@ pdfjs-editor-alt-text-settings-close-button = 閉じる
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

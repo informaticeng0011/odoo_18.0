@@ -114,7 +114,11 @@ import { OrderReceipt } from "@point_of_sale/app/screens/receipt_screen/receipt/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { useState, Component, onMounted } from "@odoo/owl";
+=======
+import { useState, Component } from "@odoo/owl";
+>>>>>>> upstream/18.0
 =======
 import { useState, Component } from "@odoo/owl";
 >>>>>>> upstream/18.0
@@ -588,6 +592,7 @@ export class ReceiptScreen extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         onMounted(() => {
             const order = this.pos.get_order();
             this.currentOrder.uiState.locked = true;
@@ -601,6 +606,8 @@ export class ReceiptScreen extends Component {
     _addNewOrder() {
         this.pos.add_new_order();
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -938,6 +945,9 @@ export class ReceiptScreen extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1316,7 +1326,10 @@ export class ReceiptScreen extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.currentOrder.uiState.locked = true;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

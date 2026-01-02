@@ -23,6 +23,10 @@ import { insertTestHtml } from "../_helpers/editor";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { isBlock } from "../../src/utils/blocks";
+>>>>>>> upstream/18.0
 =======
 import { isBlock } from "../../src/utils/blocks";
 >>>>>>> upstream/18.0
@@ -305,7 +309,11 @@ describe("previousLeaf", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(whitespace.nodeType === Node.TEXT_NODE).toBe(true);
+=======
+        expect(whitespace.nodeType).toBe(Node.TEXT_NODE);
+>>>>>>> upstream/18.0
 =======
         expect(whitespace.nodeType).toBe(Node.TEXT_NODE);
 >>>>>>> upstream/18.0
@@ -1002,7 +1010,11 @@ describe("nextLeaf", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(whitespace.nodeType === Node.TEXT_NODE).toBe(true);
+=======
+        expect(whitespace.nodeType).toBe(Node.TEXT_NODE);
+>>>>>>> upstream/18.0
 =======
         expect(whitespace.nodeType).toBe(Node.TEXT_NODE);
 >>>>>>> upstream/18.0
@@ -1712,7 +1724,10 @@ describe("isShrunkBlock", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1765,6 +1780,9 @@ describe("isBlock on display none elements", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

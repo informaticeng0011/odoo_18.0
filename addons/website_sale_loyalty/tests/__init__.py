@@ -31,6 +31,10 @@ from . import test_ewallet
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from . import test_concurrent_promo_code
+>>>>>>> upstream/18.0
 =======
 from . import test_concurrent_promo_code
 >>>>>>> upstream/18.0

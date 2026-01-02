@@ -173,7 +173,11 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return self.sudo().sale_line_id.order_id or res
+=======
+        return self.sale_line_id.order_id or res
+>>>>>>> upstream/18.0
 =======
         return self.sale_line_id.order_id or res
 >>>>>>> upstream/18.0
@@ -653,7 +657,10 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -782,6 +789,9 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -868,6 +878,7 @@ class StockMoveLine(models.Model):
     _inherit = "stock.move.line"
 
     def _should_show_lot_in_invoice(self):
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1317,6 +1328,9 @@ class StockMoveLine(models.Model):
 =======
         return 'customer' in {self.location_id.usage, self.location_dest_id.usage} or self.env.ref('stock.stock_location_inter_company') in (self.location_id, self.location_dest_id)
 >>>>>>> upstream/18.0
+=======
+        return 'customer' in {self.location_id.usage, self.location_dest_id.usage} or self.env.ref('stock.stock_location_inter_company') in (self.location_id, self.location_dest_id)
+>>>>>>> upstream/18.0
 
 
 class ProcurementGroup(models.Model):
@@ -1347,6 +1361,7 @@ class StockPicking(models.Model):
     def _set_sale_id(self):
         if self.group_id:
             self.group_id.sale_id = self.sale_id
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1407,6 +1422,8 @@ class StockPicking(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         elif self.sale_id:
             vals = {
                 'sale_id': self.sale_id.id,
@@ -1430,6 +1447,9 @@ class StockPicking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1503,6 +1523,7 @@ class StockPicking(models.Model):
                 'qty_delivered': quantity,
                 'product_uom': move.product_uom.id,
             }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1923,6 +1944,8 @@ class StockPicking(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             so_line = sale_order.order_line.filtered(lambda sol: sol.product_id == product)
             if product.invoice_policy == 'delivery':
                 # Check if there is already a SO line for this product to get
@@ -2065,6 +2088,9 @@ class StockPicking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2486,6 +2512,12 @@ class StockPicking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            # New lines should be added at the bottom of the SO (higher sequence number)
+            if not so_line:
+                so_line_vals['sequence'] = max(sale_order.order_line.mapped('sequence')) + len(sale_order_lines_vals) + 1
+>>>>>>> upstream/18.0
 =======
             # New lines should be added at the bottom of the SO (higher sequence number)
             if not so_line:

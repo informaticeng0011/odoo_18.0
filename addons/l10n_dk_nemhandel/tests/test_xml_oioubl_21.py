@@ -187,7 +187,10 @@ class TestUBLDKOIOUBL21(TestUBLCommon, TestAccountMoveSendCommon):
     @freeze_time('2017-01-01')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_oioubl_export_import_with_discount(self):
@@ -223,6 +226,9 @@ class TestUBLDKOIOUBL21(TestUBLCommon, TestAccountMoveSendCommon):
 
     @freeze_time('2017-01-01')
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -57,10 +57,13 @@ import re
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from datetime import datetime
 
 from pytz import UTC
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -230,6 +233,9 @@ from lxml import etree
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -444,6 +450,7 @@ class AccountEdiXmlUBLMyInvoisMY(models.AbstractModel):
             # The current version is 1.1 (document with signature), the type code depends on the move type.
             'document_type_code_attrs': {'listVersionID': 1.1},
             'document_type_code': document_type_code,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1070,10 +1077,15 @@ class AccountEdiXmlUBLMyInvoisMY(models.AbstractModel):
             # The issue date and time must be the current time set in the UTC time zone
             'issue_date': datetime.now(tz=UTC).strftime("%Y-%m-%d"),
 >>>>>>> upstream/18.0
+=======
+            # The issue date and time must be the current time set in the UTC time zone
+            'issue_date': datetime.now(tz=UTC).strftime("%Y-%m-%d"),
+>>>>>>> upstream/18.0
             'issue_time': datetime.now(tz=UTC).strftime("%H:%M:%SZ"),
             # Exchange rate information must be provided if applicable
             'tax_exchange_rate': self._l10n_my_edi_get_tax_exchange_rate(invoice),
             'invoice_incoterm_code': invoice.invoice_incoterm_id.code,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2023,6 +2035,11 @@ class AccountEdiXmlUBLMyInvoisMY(models.AbstractModel):
             'custom_form_reference': invoice.l10n_my_edi_custom_form_reference if document_type_code in {"11", "12", "13", "14"} else None,
             'export_custom_form_reference': invoice.l10n_my_edi_custom_form_reference if document_type_code in {"01", "02", "03", "04"} else None,
 >>>>>>> upstream/18.0
+=======
+            # Depending on the move type, it will either be about exports (invoices) or imports (bills)
+            'custom_form_reference': invoice.l10n_my_edi_custom_form_reference if document_type_code in {"11", "12", "13", "14"} else None,
+            'export_custom_form_reference': invoice.l10n_my_edi_custom_form_reference if document_type_code in {"01", "02", "03", "04"} else None,
+>>>>>>> upstream/18.0
         })
 
         # these are optional, and since we can't have the correct one at the time of generating, we avoid adding them.
@@ -2140,6 +2157,12 @@ class AccountEdiXmlUBLMyInvoisMY(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # For Myinvois, prepaid amount is defined as a separate node.
+        vals['vals'].get('monetary_total_vals', {}).pop('prepaid_amount', None)
+
+>>>>>>> upstream/18.0
 =======
         # For Myinvois, prepaid amount is defined as a separate node.
         vals['vals'].get('monetary_total_vals', {}).pop('prepaid_amount', None)
@@ -2873,7 +2896,11 @@ class AccountEdiXmlUBLMyInvoisMY(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             vals for vals in vals['vals']['accounting_customer_party_vals']['party_vals']['party_identification_vals'] if vals['id_attrs'] != {'schemeID': 'TTX'}
+=======
+            vals for vals in vals['vals']['accounting_customer_party_vals']['party_vals']['party_identification_vals'] if vals.get('id_attrs', {}) != {'schemeID': 'TTX'}
+>>>>>>> upstream/18.0
 =======
             vals for vals in vals['vals']['accounting_customer_party_vals']['party_vals']['party_identification_vals'] if vals.get('id_attrs', {}) != {'schemeID': 'TTX'}
 >>>>>>> upstream/18.0
@@ -3501,6 +3528,7 @@ class AccountEdiXmlUBLMyInvoisMY(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if original_document:
             vals['vals'].update({
                 'billing_reference_vals': {
@@ -3755,10 +3783,13 @@ class AccountEdiXmlUBLMyInvoisMY(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         # Applies to credit notes, debit notes, refunds for both invoices and self-billed invoices.
         # The original document is mandatory; but in some specific cases it will be empty (sending a credit note for an invoice
         # managed outside Odoo/...)
         if document_type_code in ('02', '03', '04', '12', '13', '14'):
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4137,6 +4168,8 @@ class AccountEdiXmlUBLMyInvoisMY(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             original_document_id = None
             if original_document:
                 if original_document.l10n_my_edi_file_id:
@@ -4206,6 +4239,9 @@ class AccountEdiXmlUBLMyInvoisMY(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4439,6 +4475,7 @@ class AccountEdiXmlUBLMyInvoisMY(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4551,6 +4588,8 @@ class AccountEdiXmlUBLMyInvoisMY(models.AbstractModel):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4741,6 +4780,9 @@ class AccountEdiXmlUBLMyInvoisMY(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5000,6 +5042,7 @@ class AccountEdiXmlUBLMyInvoisMY(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         subentity_code = partner.state_id.code or ''
 
         if partner.country_id.code == 'MY' and partner.state_id.code in MALAYSIAN_SUBDIVISION_CODES:
@@ -5009,6 +5052,8 @@ class AccountEdiXmlUBLMyInvoisMY(models.AbstractModel):
         if f'{partner.country_id.code}-' in subentity_code:
             subentity_code = subentity_code.split('-')[1]
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5366,6 +5411,9 @@ class AccountEdiXmlUBLMyInvoisMY(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5613,6 +5661,7 @@ class AccountEdiXmlUBLMyInvoisMY(models.AbstractModel):
         Additionally, companies registered to use SST (sales & services tax) must provide their SST number.
         Finally, if a supplier is using TTX (tourism tax), once again that number must be provided.
         """
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6093,6 +6142,8 @@ class AccountEdiXmlUBLMyInvoisMY(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         # OVERRIDE 'account_edi_ubl_cii'
         vals = [{
             'id_attrs': {'schemeID': 'TIN'},
@@ -6255,6 +6306,9 @@ class AccountEdiXmlUBLMyInvoisMY(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6751,12 +6805,15 @@ class AccountEdiXmlUBLMyInvoisMY(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if phone_number:
                 phone = self._l10n_my_edi_get_formatted_phone_number(phone_number)
                 if E_164_REGEX.match(phone) is None:
                     self._l10n_my_edi_make_validation_error(constraints, 'phone_number_format', partner_type, partner.display_name)
             else:
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7129,6 +7186,9 @@ class AccountEdiXmlUBLMyInvoisMY(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7525,10 +7585,13 @@ class AccountEdiXmlUBLMyInvoisMY(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         document_type_code, original_document = self._l10n_my_edi_get_document_type_code(invoice)
         if document_type_code != '01' and not original_document:
             self._l10n_my_edi_make_validation_error(constraints, 'adjustment_origin', invoice.id, invoice.display_name)
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8106,10 +8169,13 @@ class AccountEdiXmlUBLMyInvoisMY(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "You must set a Tax Exemption Reason on the invoice : %(invoice_name)s as some taxes have the type 'Tax exemption'.",
                 invoice_name=record_name
             ),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8485,6 +8551,9 @@ class AccountEdiXmlUBLMyInvoisMY(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

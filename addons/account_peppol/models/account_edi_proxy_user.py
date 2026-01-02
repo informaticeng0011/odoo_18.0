@@ -122,7 +122,10 @@ from odoo.exceptions import UserError
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tools import split_every
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -490,7 +493,11 @@ class AccountEdiProxyClientUser(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             and (participant_info := company.partner_id._get_participant_info(edi_identification)) is not None
+=======
+            and (participant_info := company.partner_id._peppol_lookup_participant(edi_identification)) is not None
+>>>>>>> upstream/18.0
 =======
             and (participant_info := company.partner_id._peppol_lookup_participant(edi_identification)) is not None
 >>>>>>> upstream/18.0
@@ -693,6 +700,7 @@ class AccountEdiProxyClientUser(models.Model):
         ):
             error_msg = _(
                 "A participant with these details has already been registered on the network. "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1373,6 +1381,10 @@ class AccountEdiProxyClientUser(models.Model):
                 "If you have previously registered to a Peppol service, please deregister."
             )
 >>>>>>> upstream/18.0
+=======
+                "If you have previously registered to a Peppol service, please deregister."
+            )
+>>>>>>> upstream/18.0
             raise UserError(error_msg)
 
     # -------------------------------------------------------------------------
@@ -1466,6 +1478,10 @@ class AccountEdiProxyClientUser(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        move._autopost_bill()
+>>>>>>> upstream/18.0
 =======
         move._autopost_bill()
 >>>>>>> upstream/18.0
@@ -1669,6 +1685,12 @@ class AccountEdiProxyClientUser(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # Context added to not break stable policy: useful to tweak on databases processing large invoices
+        job_count = self._context.get('peppol_crons_job_count') or BATCH_SIZE
+        need_retrigger = False
+>>>>>>> upstream/18.0
 =======
         # Context added to not break stable policy: useful to tweak on databases processing large invoices
         job_count = self._context.get('peppol_crons_job_count') or BATCH_SIZE
@@ -2363,6 +2385,10 @@ class AccountEdiProxyClientUser(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            edi_user = edi_user.with_company(edi_user.company_id)
+>>>>>>> upstream/18.0
 =======
             edi_user = edi_user.with_company(edi_user.company_id)
 >>>>>>> upstream/18.0
@@ -2833,6 +2859,7 @@ class AccountEdiProxyClientUser(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             for uuids in split_every(BATCH_SIZE, message_uuids):
                 proxy_acks = []
                 # retrieve attachments for filtered messages
@@ -2910,6 +2937,8 @@ class AccountEdiProxyClientUser(models.Model):
                     params={'message_uuids': uuids},
                 )
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3292,6 +3321,10 @@ class AccountEdiProxyClientUser(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            edi_user = edi_user.with_company(edi_user.company_id)
+>>>>>>> upstream/18.0
 =======
             edi_user = edi_user.with_company(edi_user.company_id)
 >>>>>>> upstream/18.0
@@ -3788,6 +3821,7 @@ class AccountEdiProxyClientUser(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3797,6 +3831,8 @@ class AccountEdiProxyClientUser(models.Model):
     def _peppol_get_participant_status(self):
         for edi_user in self:
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4134,6 +4170,9 @@ class AccountEdiProxyClientUser(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

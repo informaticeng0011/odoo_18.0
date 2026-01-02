@@ -63,7 +63,13 @@ HTMLElement.prototype.oDeleteBackward = function (offset, alreadyMoved = false, 
         if (
             isDeletable(leftNode)
         ) {
+<<<<<<< HEAD
             leftNode.remove();
+=======
+            const parentEl = leftNode.parentElement;
+            leftNode.remove();
+            fillEmpty(parentEl);
+>>>>>>> upstream/18.0
             return;
         }
         if (!isBlock(leftNode) || isSelfClosingElement(leftNode)) {

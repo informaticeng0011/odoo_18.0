@@ -139,7 +139,10 @@ async function twoDeleteForward(editor) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -477,6 +480,9 @@ const pressEnter = editor => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1844,6 +1850,16 @@ X[]
                         contentAfter: unformat(`<div>a[]d</div>`),
                     });
                 });
+<<<<<<< HEAD
+=======
+                it('should fill empty block with a <br>', async () => {
+                    await testEditor(BasicEditor, {
+                        contentBefore: '<p>[]<i class="fa fa-bug" contenteditable="false"></i></p>',
+                        stepFunction: deleteForward,
+                        contentAfter: '<p>[]<br></p>',
+                    });
+                });
+>>>>>>> upstream/18.0
             });
         });
         describe('Selection not collapsed', () => {
@@ -2021,7 +2037,10 @@ X[]
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2362,6 +2381,9 @@ X[]
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3173,7 +3195,10 @@ X[]
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3518,6 +3543,9 @@ X[]
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4051,7 +4079,11 @@ X[]
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 it('should not break unbreakables', async () => {
+=======
+                it('should not break unbreakables (1)', async () => {
+>>>>>>> upstream/18.0
 =======
                 it('should not break unbreakables (1)', async () => {
 >>>>>>> upstream/18.0
@@ -4555,6 +4587,11 @@ X[]
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                });
+                it("should not break unbreakables (2)", async () => {
+>>>>>>> upstream/18.0
 =======
                 });
                 it("should not break unbreakables (2)", async () => {
@@ -5182,6 +5219,11 @@ X[]
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                });
+                it("should not break unbreakables (3)", async () => {
+>>>>>>> upstream/18.0
 =======
                 });
                 it("should not break unbreakables (3)", async () => {
@@ -5809,6 +5851,11 @@ X[]
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                });
+                it("should not break unbreakables (4)", async () => {
+>>>>>>> upstream/18.0
 =======
                 });
                 it("should not break unbreakables (4)", async () => {
@@ -6435,6 +6482,11 @@ X[]
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                });
+                it("should not break unbreakables (5)", async () => {
+>>>>>>> upstream/18.0
 =======
                 });
                 it("should not break unbreakables (5)", async () => {
@@ -7061,6 +7113,11 @@ X[]
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                });
+                it("should not break unbreakables (6)", async () => {
+>>>>>>> upstream/18.0
 =======
                 });
                 it("should not break unbreakables (6)", async () => {
@@ -7695,6 +7752,11 @@ X[]
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                });
+                it("should not break unbreakables (7)", async () => {
+>>>>>>> upstream/18.0
 =======
                 });
                 it("should not break unbreakables (7)", async () => {
@@ -8329,6 +8391,11 @@ X[]
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                });
+                it("should not break unbreakables (8)", async () => {
+>>>>>>> upstream/18.0
 =======
                 });
                 it("should not break unbreakables (8)", async () => {
@@ -9644,6 +9711,14 @@ X[]
                         stepFunction: deleteBackward,
                         contentAfter: '<p>[]<br></p>',
                     });
+<<<<<<< HEAD
+=======
+                    await testEditor(BasicEditor, {
+                        contentBefore: '<p><i class="fa fa-bug" contenteditable="false"></i>[]</p>',
+                        stepFunction: deleteBackward,
+                        contentAfter: '<p>[]<br></p>',
+                    });
+>>>>>>> upstream/18.0
                 });
                 it('should merge a paragraph with text into a paragraph with text removing spaces', async () => {
                     await testEditor(BasicEditor, {
@@ -10554,6 +10629,18 @@ X[]
                         contentAfter: '<p>abc</p><p>[]<br></p>',
                     });
                 });
+<<<<<<< HEAD
+=======
+                it('inserts an empty paragraph when Enter is pressed before a non-editable element', async () => {
+                    await testEditor(BasicEditor, {
+                        contentBefore: '<p>[]<i class="fa fa-bug" contenteditable="false"></i></p>',
+                        stepFunction: async editor => {
+                            await triggerEvent(editor.editable, 'input', { data: 'Enter', inputType: 'insertParagraph' });
+                        },
+                        contentAfter: '<p><br></p><p>[]<i class="fa fa-bug" contenteditable="false"></i></p>',
+                    });
+                });
+>>>>>>> upstream/18.0
             });
             describe('Pre', () => {
                 it('should insert a line break within the pre', async () => {
@@ -10941,7 +11028,10 @@ X[]
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11310,6 +11400,9 @@ X[]
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11923,6 +12016,18 @@ X[]
                         contentAfter: '<p>abc<br>[]<br></p>',
                     });
                 });
+<<<<<<< HEAD
+=======
+                it('inserts a <br> when a line break is inserted before a non-editable element', async () => {
+                    await testEditor(BasicEditor, {
+                        contentBefore: '<p>[]<i class="fa fa-bug" contenteditable="false"></i></p>',
+                        stepFunction: async editor => {
+                            await triggerEvent(editor.editable, 'input', { data: 'Enter', inputType: 'insertLineBreak' });
+                        },
+                        contentAfter: '<p><br>[]<i class="fa fa-bug" contenteditable="false"></i></p>',
+                    });
+                });
+>>>>>>> upstream/18.0
             });
             describe('Consecutive', () => {
                 it('should insert two <br> at the beggining of an empty paragraph', async () => {
@@ -13581,8 +13686,11 @@ X[]
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             stepFunction: async editor => editor.execCommand('applyColor', 'aquamarine', 'color'),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14165,6 +14273,9 @@ X[]
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

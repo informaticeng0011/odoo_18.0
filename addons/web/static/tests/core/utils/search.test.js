@@ -67,6 +67,10 @@ test("fuzzyLookup", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        { name: "สมศรี จู่โจม" },
+>>>>>>> upstream/18.0
 =======
         { name: "สมศรี จู่โจม" },
 >>>>>>> upstream/18.0
@@ -305,6 +309,10 @@ test("fuzzyLookup", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    expect(fuzzyLookup("สมศ", data, (d) => d.name)).toEqual([{ name: "สมศรี จู่โจม" }]);
+>>>>>>> upstream/18.0
 =======
     expect(fuzzyLookup("สมศ", data, (d) => d.name)).toEqual([{ name: "สมศรี จู่โจม" }]);
 >>>>>>> upstream/18.0

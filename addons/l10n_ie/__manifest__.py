@@ -4,7 +4,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "version": "2.0",
+=======
+    "version": "2.1",
+>>>>>>> upstream/18.0
 =======
     "version": "2.1",
 >>>>>>> upstream/18.0
@@ -31,6 +35,10 @@ This is the base module to manage the accounting chart for Republic of Ireland i
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        "data/account.account.tag.csv",
+>>>>>>> upstream/18.0
 =======
         "data/account.account.tag.csv",
 >>>>>>> upstream/18.0

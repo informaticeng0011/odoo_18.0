@@ -374,10 +374,15 @@ class ImLivechatChannel(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             AND (
                 c.livechat_active IS TRUE
                 OR m.create_date > ((now() at time zone 'UTC') - interval '30 minutes')
             )
+=======
+            AND c.livechat_active IS TRUE
+            AND m.create_date > ((now() at time zone 'UTC') - interval '30 minutes')
+>>>>>>> upstream/18.0
 =======
             AND c.livechat_active IS TRUE
             AND m.create_date > ((now() at time zone 'UTC') - interval '30 minutes')

@@ -85,10 +85,16 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # -*- coding: utf-8 -*-
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 from odoo import models, api, tools
+=======
+# Part of Odoo. See LICENSE file for full copyright and licensing details.
+
+from odoo import models
+>>>>>>> upstream/18.0
 =======
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
@@ -618,8 +624,14 @@ class IrUiMenu(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if self.env.user.has_group('hr.group_hr_user'):
             res.append(self.env.ref('hr.menu_hr_employee').id)
+=======
+        emp_menu = self.env.ref('hr.menu_hr_employee', raise_if_not_found=False)
+        if emp_menu and self.env.user.has_group('hr.group_hr_user'):
+            res.append(emp_menu.id)
+>>>>>>> upstream/18.0
 =======
         emp_menu = self.env.ref('hr.menu_hr_employee', raise_if_not_found=False)
         if emp_menu and self.env.user.has_group('hr.group_hr_user'):
@@ -1146,8 +1158,14 @@ class IrUiMenu(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if not is_department_manager:
                 res.append(self.env.ref('hr.menu_hr_department_kanban').id)
+=======
+            dep_menu = self.env.ref('hr.menu_hr_department_kanban', raise_if_not_found=False)
+            if dep_menu and not is_department_manager:
+                res.append(dep_menu.id)
+>>>>>>> upstream/18.0
 =======
             dep_menu = self.env.ref('hr.menu_hr_department_kanban', raise_if_not_found=False)
             if dep_menu and not is_department_manager:
