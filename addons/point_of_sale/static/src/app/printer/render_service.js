@@ -1,16 +1,41 @@
 /** @odoo-module **/
 
 import { registry } from "@web/core/registry";
+<<<<<<< HEAD
 import { Component, onRendered, reactive, useRef, xml } from "@odoo/owl";
 import { toCanvas } from "@point_of_sale/app/utils/html-to-image";
 
 export class RenderContainer extends Component {
     static props = ["comp", "onRendered"];
+=======
+import { Component, onMounted, reactive, useRef, xml } from "@odoo/owl";
+import { toCanvas } from "@point_of_sale/app/utils/html-to-image";
+
+class ComponentRenderer extends Component {
+    static props = ["comp", "onMounted"];
+    static template = xml`
+        <div t-ref="ref">
+            <t t-component="props.comp.component" t-props="props.comp.props"/>
+        </div>
+    `;
+    setup() {
+        this.ref = useRef("ref");
+        onMounted(() => {
+            this.props.onMounted(this.ref?.el?.firstElementChild);
+        });
+    }
+}
+
+export class RenderContainer extends Component {
+    static props = ["comp", "onRendered"];
+    static components = { ComponentRenderer };
+>>>>>>> upstream/18.0
     // the `.render-container` is used by other functions that need a
     // place where to momentarily render some html code
     // we should only intact with that div through the `whenMounted` function
     static template = xml`
         <div class="render-container-parent" style="left: -1000px; position: fixed;">
+<<<<<<< HEAD
             <div t-ref="ref">
                 <t t-if="props.comp.component" t-component="props.comp.component" t-props="props.comp.props"/>
             </div>
@@ -497,6 +522,13 @@ export class RenderContainer extends Component {
 >>>>>>> upstream/18.0
         });
     }
+=======
+            <t t-if="props.comp.component">
+                <ComponentRenderer comp="props.comp" onMounted="props.onRendered" />
+            </t>
+            <div class="render-container" />
+        </div>`;
+>>>>>>> upstream/18.0
 }
 /**
  * This service does for components what renderToElement does for templates.

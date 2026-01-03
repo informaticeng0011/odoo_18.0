@@ -123,6 +123,11 @@ import { Component, onMounted, onWillUpdateProps, useExternalListener, useRef } 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+const DEFAULT_COLOR = "#FF0000";
+
+>>>>>>> upstream/18.0
 =======
 const DEFAULT_COLOR = "#FF0000";
 
@@ -702,7 +707,11 @@ export class Colorpicker extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         defaultColor: "#FF0000",
+=======
+        defaultColor: DEFAULT_COLOR,
+>>>>>>> upstream/18.0
 =======
         defaultColor: DEFAULT_COLOR,
 >>>>>>> upstream/18.0
@@ -1209,7 +1218,12 @@ export class Colorpicker extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             const rgba = convertCSSColorToRgba(defaultCssColor);
+=======
+            const rgba =
+                convertCSSColorToRgba(defaultCssColor) || convertCSSColorToRgba(DEFAULT_COLOR);
+>>>>>>> upstream/18.0
 =======
             const rgba =
                 convertCSSColorToRgba(defaultCssColor) || convertCSSColorToRgba(DEFAULT_COLOR);

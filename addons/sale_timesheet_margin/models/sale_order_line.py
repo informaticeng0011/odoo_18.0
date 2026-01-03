@@ -190,6 +190,7 @@ class SaleOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         timesheet_sols = self.filtered(
             lambda sol: sol.qty_delivered_method == 'timesheet' and not sol.product_id.standard_price
         )
@@ -673,6 +674,9 @@ class SaleOrderLine(models.Model):
 =======
         # filter out the sale.order.lines called by this override of _compute_purchase_price for which
 >>>>>>> upstream/18.0
+=======
+        # filter out the sale.order.lines called by this override of _compute_purchase_price for which
+>>>>>>> upstream/18.0
         # we don't want the purchase price to be recomputed. Without filtring out the sale.order.lines
         # for which the recomputation was triggered by a depency from another override of _compute_purchase_price
         service_non_timesheet_sols = self.filtered(
@@ -790,7 +794,12 @@ class SaleOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             sol.product_id.service_policy == 'ordered_prepaid' and sol.state == 'sale'
+=======
+            sol.product_id.service_policy == 'ordered_prepaid' and
+            sol.state == 'sale' and sol.purchase_price != 0
+>>>>>>> upstream/18.0
 =======
             sol.product_id.service_policy == 'ordered_prepaid' and
             sol.state == 'sale' and sol.purchase_price != 0
@@ -1430,6 +1439,9 @@ class SaleOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

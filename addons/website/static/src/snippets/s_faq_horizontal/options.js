@@ -69,7 +69,11 @@ options.registry.faqHorizontalMultipleItems = options.registry.MultipleItems.ext
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const wrapwrap = iframeDocument.getElementById('wrapwrap');
+=======
+        const scrollingEl = iframeDocument.scrollingElement;
+>>>>>>> upstream/18.0
 =======
         const scrollingEl = iframeDocument.scrollingElement;
 >>>>>>> upstream/18.0
@@ -330,6 +334,7 @@ options.registry.faqHorizontalMultipleItems = options.registry.MultipleItems.ext
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const wrapwrapRect = wrapwrap.getBoundingClientRect();
 
         const scrollTop = wrapwrap.scrollTop;
@@ -337,6 +342,8 @@ options.registry.faqHorizontalMultipleItems = options.registry.MultipleItems.ext
 
         wrapwrap.scrollTo({
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -531,6 +538,9 @@ options.registry.faqHorizontalMultipleItems = options.registry.MultipleItems.ext
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

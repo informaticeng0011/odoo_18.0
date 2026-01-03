@@ -147,6 +147,10 @@ HTMLElement.prototype.oDeleteForward = function (offset) {
         const nextSibling = firstLeafNode.nextSibling;
         const nextSiblingText = nextSibling ? nextSibling.textContent : '';
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        const parentEl = firstLeafNode.parentElement;
+>>>>>>> upstream/18.0
 =======
         const parentEl = firstLeafNode.parentElement;
 >>>>>>> upstream/18.0
@@ -157,6 +161,10 @@ HTMLElement.prototype.oDeleteForward = function (offset) {
             nextSibling.textContent = nextSiblingText.replace('\u200B', '');
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        fillEmpty(parentEl);
+>>>>>>> upstream/18.0
 =======
         fillEmpty(parentEl);
 >>>>>>> upstream/18.0

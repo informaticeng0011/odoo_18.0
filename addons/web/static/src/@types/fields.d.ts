@@ -175,6 +175,7 @@ declare module "fields" {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     export type FieldType =
         "binary" |
         "boolean" |
@@ -200,6 +201,9 @@ declare module "fields" {
     // ------------------------------------------------------------------------
 
     export interface IFieldDefinition<T extends FieldType> {
+=======
+    interface IFieldDefinition<T extends FieldType> {
+>>>>>>> upstream/18.0
 =======
     interface IFieldDefinition<T extends FieldType> {
 >>>>>>> upstream/18.0
@@ -918,8 +922,11 @@ declare module "fields" {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         aggregator: "array_agg" | "avg" | "bool_and" | "bool_or" | "count" | "count_distinct" | "max" | "min" | "sum";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1449,6 +1456,9 @@ declare module "fields" {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1982,11 +1992,14 @@ declare module "fields" {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     export type CharFieldDefinition = IFieldDefinition<"char"> & ITextual & {
         size?: number;
         trim: boolean;
     };
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2511,6 +2524,9 @@ declare module "fields" {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3039,11 +3055,14 @@ declare module "fields" {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     export type HtmlFieldDefinition = IFieldDefinition<"html"> & ITextual & {
         sanitize: boolean;
         sanitize_tags: boolean;
     };
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3570,6 +3589,9 @@ declare module "fields" {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4104,6 +4126,7 @@ declare module "fields" {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     export type MonetaryFieldDefinition = IFieldDefinition<"monetary"> & INumerical & {
         currency_field: string;
     };
@@ -4112,6 +4135,8 @@ declare module "fields" {
         relation_field: string;
     };
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4640,6 +4665,9 @@ declare module "fields" {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5181,6 +5209,7 @@ declare module "fields" {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     export type FieldDefinition =
         BinaryFieldDefinition |
         BooleanFieldDefinition |
@@ -5203,6 +5232,8 @@ declare module "fields" {
         SelectionFieldDefinition |
         TextFieldDefinition;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5749,6 +5780,9 @@ declare module "fields" {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

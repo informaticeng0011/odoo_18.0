@@ -47,6 +47,7 @@ player_regexes = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     'dailymotion': r'(https?:\/\/)(www\.)?(dailymotion\.com\/(embed\/video\/|embed\/|video\/|hub\/.*#video=)|dai\.ly\/)(?P<id>[A-Za-z0-9]{6,7})',
     'instagram': r'(?:(.*)instagram.com|instagr\.am)/p/(.[a-zA-Z0-9-_\.]*)',
 <<<<<<< HEAD
@@ -270,6 +271,10 @@ player_regexes = {
     'dailymotion': r'(https?://|//)?(www\.)?(dailymotion\.com\/(embed\/video\/|embed\/|video\/|hub\/.*#video=)|dai\.ly\/)(?P<id>[A-Za-z0-9]{6,7})',
     'instagram': r'(?:(.*)instagram.com|instagr\.am)/p/(.[a-zA-Z0-9-_\.]*)',
 >>>>>>> upstream/18.0
+=======
+    'dailymotion': r'(https?://|//)?(www\.)?(dailymotion\.com\/(embed\/video\/|embed\/|video\/|hub\/.*#video=)|dai\.ly\/)(?P<id>[A-Za-z0-9]{6,7})',
+    'instagram': r'(?:(.*)instagram.com|instagr\.am)/p/(.[a-zA-Z0-9-_\.]*)',
+>>>>>>> upstream/18.0
 }
 
 
@@ -356,9 +361,12 @@ def get_video_source_data(video_url):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         youku_match = re.search(player_regexes['youku'], video_url)
         if youku_match:
             return ('youku', youku_match.group("id"), youku_match)
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -595,6 +603,7 @@ def get_video_url_data(video_url, autoplay=False, loop=False, hide_controls=Fals
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         params['autoplay'] = autoplay and 1 or 0
         if autoplay:
             params['mute'] = 1
@@ -609,6 +618,11 @@ def get_video_url_data(video_url, autoplay=False, loop=False, hide_controls=Fals
         embed_url = f'//www.instagram.com/p/{video_id}/embed/'
     elif platform == 'youku':
         embed_url = f'//player.youku.com/embed/{video_id}'
+=======
+        embed_url = f'//www.dailymotion.com/embed/video/{video_id}'
+    elif platform == 'instagram':
+        embed_url = f'//www.instagram.com/p/{video_id}/embed/'
+>>>>>>> upstream/18.0
 =======
         embed_url = f'//www.dailymotion.com/embed/video/{video_id}'
     elif platform == 'instagram':

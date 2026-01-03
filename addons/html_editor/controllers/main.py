@@ -79,6 +79,10 @@ from os.path import join as opj
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from urllib.parse import urlparse
+>>>>>>> upstream/18.0
 =======
 from urllib.parse import urlparse
 >>>>>>> upstream/18.0
@@ -392,11 +396,14 @@ CSS_ANIMATION_RULE_REGEX = (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         r"(?P<declaration>animation(-duration)?: .*?)"
         + r"(?P<value>(\d+(\.\d+)?)|(\.\d+))"
         + r"(?P<unit>ms|s)"
         + r"(?P<separator>\s|;|\"|$)"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -614,6 +621,9 @@ CSS_ANIMATION_RULE_REGEX = (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -996,7 +1006,11 @@ class HTML_Editor(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             declaration = f"--animation-ratio: {ratio}"
+=======
+            declaration = f"--animation_ratio: {ratio}"
+>>>>>>> upstream/18.0
 =======
             declaration = f"--animation_ratio: {ratio}"
 >>>>>>> upstream/18.0
@@ -1534,7 +1548,10 @@ class HTML_Editor(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 data = tools.image_process(data, size=(width, height), quality=quality, verify_resolution=True)
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2132,12 +2149,15 @@ class HTML_Editor(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             except UserError:
                 # considered as an image by the browser file input, but not
                 # recognized as such by PIL, eg .webp
                 return {'error': format_error_msg}
             except ValueError as e:
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2727,6 +2747,9 @@ class HTML_Editor(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3347,6 +3370,10 @@ class HTML_Editor(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'res_id': 0,
+>>>>>>> upstream/18.0
 =======
             'res_id': 0,
 >>>>>>> upstream/18.0
@@ -4240,8 +4267,11 @@ class HTML_Editor(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             words = preview_url.strip('/').split('/')
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4473,6 +4503,9 @@ class HTML_Editor(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4717,9 +4750,15 @@ class HTML_Editor(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 action = request.env[action_type].browse(action.id)
 
                 model = request.env[action.res_model].with_context(context)
+=======
+                action_sudo = request.env[action_type].sudo().browse(action.id)
+
+                model = request.env[action_sudo.res_model].with_context(context)
+>>>>>>> upstream/18.0
 =======
                 action_sudo = request.env[action_type].sudo().browse(action.id)
 

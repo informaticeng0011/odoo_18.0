@@ -78,6 +78,10 @@ class AccountEdiUBL(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            or self._ubl_is_excise_tax(tax_data)
+>>>>>>> upstream/18.0
 =======
             or self._ubl_is_excise_tax(tax_data)
 >>>>>>> upstream/18.0
@@ -176,8 +180,13 @@ class AccountEdiUBL(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _ubl_default_tax_subtotal_grouping_key(self, tax_grouping_key, vals):
         """ Give the values about how taxes are grouped together in TaxTotal -> TaxSubtotal
+=======
+    def _ubl_default_tax_subtotal_tax_category_grouping_key(self, tax_grouping_key, vals):
+        """ Give the values about how taxes are grouped together in TaxTotal -> TaxSubtotal -> TaxCategory
+>>>>>>> upstream/18.0
 =======
     def _ubl_default_tax_subtotal_tax_category_grouping_key(self, tax_grouping_key, vals):
         """ Give the values about how taxes are grouped together in TaxTotal -> TaxSubtotal -> TaxCategory
@@ -264,6 +273,7 @@ class AccountEdiUBL(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return {
             **tax_grouping_key,
             # Temporary solution to have withholding taxes merged with others until we know how to manage them.
@@ -271,6 +281,8 @@ class AccountEdiUBL(models.AbstractModel):
             'is_withholding': False,
         }
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -327,6 +339,9 @@ class AccountEdiUBL(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -711,12 +726,15 @@ class AccountEdiUBL(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         def tax_totals_grouping_function(base_line, tax_data, sub_currency):
             tax_grouping_key = self._ubl_default_tax_category_grouping_key(base_line, tax_data, vals, sub_currency)
             if not tax_grouping_key:
                 return
             tax_subtotal_grouping_key = self._ubl_default_tax_subtotal_grouping_key(tax_grouping_key, vals)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -776,6 +794,9 @@ class AccountEdiUBL(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -827,12 +848,15 @@ class AccountEdiUBL(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         def tax_subtotal_grouping_function(base_line, tax_data, sub_currency):
             tax_grouping_key = self._ubl_default_tax_category_grouping_key(base_line, tax_data, vals, sub_currency)
             if not tax_grouping_key:
                 return
             return self._ubl_default_tax_subtotal_grouping_key(tax_grouping_key, vals)
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -941,12 +965,16 @@ class AccountEdiUBL(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 grouping_function=lambda base_line, tax_data: self._ubl_default_tax_category_grouping_key(
                     base_line,
                     tax_data,
                     vals,
                     sub_currency,
                 ),
+=======
+                grouping_function=lambda base_line, tax_data: tax_category_grouping_function(base_line, tax_data, sub_currency),
+>>>>>>> upstream/18.0
 =======
                 grouping_function=lambda base_line, tax_data: tax_category_grouping_function(base_line, tax_data, sub_currency),
 >>>>>>> upstream/18.0

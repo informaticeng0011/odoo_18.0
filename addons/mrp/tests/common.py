@@ -266,7 +266,10 @@ class TestMrpCommon(TestStockCommon):
             }
         )
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def full_availability(self):
         """set full availability for all calendars"""
@@ -281,4 +284,7 @@ class TestMrpCommon(TestStockCommon):
             (0, 0, {'name': 'Saturday', 'dayofweek': '5', 'hour_from': 0, 'hour_to': 24, 'day_period': 'morning'}),
             (0, 0, {'name': 'Sunday', 'dayofweek': '6', 'hour_from': 0, 'hour_to': 24, 'day_period': 'morning'}),
         ]})
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

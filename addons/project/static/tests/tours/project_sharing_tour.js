@@ -168,6 +168,10 @@ const projectSharingSteps = [...stepUtils.goToAppSteps("project.menu_main_pm", '
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
     expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -693,6 +697,10 @@ const projectSharingSteps = [...stepUtils.goToAppSteps("project.menu_main_pm", '
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
     expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -1317,6 +1325,10 @@ registry.category("web_tour.tours").add("project_sharing_with_blocked_task_tour"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -1860,6 +1872,10 @@ registry.category("web_tour.tours").add("portal_project_sharing_tour_with_disall
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0

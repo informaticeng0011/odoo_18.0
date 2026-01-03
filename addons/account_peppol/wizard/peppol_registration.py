@@ -239,6 +239,7 @@ class PeppolRegistration(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for wizard in self:
             if wizard.phone_number:
                 wizard.company_id._sanitize_peppol_phone_number(wizard.phone_number)
@@ -247,6 +248,8 @@ class PeppolRegistration(models.TransientModel):
                         wizard.phone_number,
                         region=self.company_id.country_code,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -750,6 +753,9 @@ class PeppolRegistration(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1130,6 +1136,7 @@ class PeppolRegistration(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'message': _("The endpoint number might not be correct. "
                                 "Please check if you entered the right identification number."),
                 }
@@ -1273,6 +1280,8 @@ class PeppolRegistration(models.TransientModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                     'level': 'warning',
                     'message': _("The endpoint number might not be correct. "
                                 "Please check if you entered the right identification number."),
@@ -1312,6 +1321,9 @@ class PeppolRegistration(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1494,12 +1506,17 @@ class PeppolRegistration(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         edi_mode = self.env['ir.config_parameter'].sudo().get_param('account_peppol.edi.mode')
         for wizard in self:
             if wizard.edi_user_id:
                 wizard.edi_mode = wizard.edi_user_id.edi_mode
             else:
                 wizard.edi_mode = edi_mode or 'prod'
+=======
+        for wizard in self:
+            wizard.edi_mode = wizard.company_id._get_peppol_edi_mode()
+>>>>>>> upstream/18.0
 =======
         for wizard in self:
             wizard.edi_mode = wizard.company_id._get_peppol_edi_mode()

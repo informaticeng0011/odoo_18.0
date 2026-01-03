@@ -188,7 +188,10 @@ class TestUBLDKOIOUBL21(TestUBLCommon, TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -227,6 +230,9 @@ class TestUBLDKOIOUBL21(TestUBLCommon, TestAccountMoveSendCommon):
     @freeze_time('2017-01-01')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

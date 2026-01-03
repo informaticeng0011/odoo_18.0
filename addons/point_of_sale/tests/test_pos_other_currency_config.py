@@ -365,7 +365,10 @@ class TestPoSOtherCurrencyConfig(TestPoSCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -378,6 +381,9 @@ class TestPoSOtherCurrencyConfig(TestPoSCommon):
         self.assertEqual(product1_data['standard_price'], 2.5)  # standard price should be converted
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
