@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* membership
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
@@ -983,10 +984,19 @@
 # Sergio Zanchetta <primes2h@gmail.com>, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+#
+# Translators:
+# Wil Odoo, 2024
+# Marianna Ciofani, 2025
+# Sergio Zanchetta <primes2h@gmail.com>, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 17.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2023-10-26 21:55+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
@@ -1788,6 +1798,18 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: it\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Sergio Zanchetta <primes2h@gmail.com>, 2025\n"
+"Language-Team: Italian (https://app.transifex.com/odoo/teams/41243/it/)\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? "
+"1 : 2;\n"
+>>>>>>> upstream/18.0
 
 #. module: membership
 #: model:ir.model.fields,field_description:membership.field_report_membership__num_invoiced
@@ -1924,7 +1946,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<i class=\"fa fa-clock-o\" role=\"img\" aria-label=\"Period\" "
+=======
+"<i class=\"fa fa-clock-o\" role=\"img\" aria-label=\"Periodo\" "
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-clock-o\" role=\"img\" aria-label=\"Periodo\" "
 >>>>>>> upstream/18.0
@@ -2271,6 +2297,7 @@ msgstr ""
 
 #. module: membership
 #: model_terms:ir.ui.view,arch_db:membership.membership_products_kanban
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-money\" role=\"img\" aria-label=\"Price\" title=\"Price\"/>"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2729,6 +2756,13 @@ msgstr "<i class=\"fa fa-money\" role=\"img\" aria-label=\"Prezzo\" title=\"Prez
 =======
 msgstr "<i class=\"fa fa-money\" role=\"img\" aria-label=\"Prezzo\" title=\"Prezzo\"/>"
 >>>>>>> upstream/18.0
+=======
+msgid ""
+"<i class=\"fa fa-money\" role=\"img\" aria-label=\"Price\" title=\"Price\"/>"
+msgstr ""
+"<i class=\"fa fa-money\" role=\"img\" aria-label=\"Prezzo\" title=\"Prezzo\"/"
+">"
+>>>>>>> upstream/18.0
 
 #. module: membership
 #: model_terms:ir.ui.view,arch_db:membership.membership_products_kanban
@@ -2781,6 +2815,7 @@ msgstr "Partner collegato"
 #. module: membership
 #: model_terms:ir.ui.view,arch_db:membership.view_partner_form
 msgid "Buy Membership"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3238,6 +3273,9 @@ msgstr "Acquista iscrizione"
 =======
 msgstr "Acquista iscrizione"
 >>>>>>> upstream/18.0
+=======
+msgstr "Acquista iscrizione"
+>>>>>>> upstream/18.0
 
 #. module: membership
 #: model_terms:ir.ui.view,arch_db:membership.view_membership_invoice_view
@@ -3260,6 +3298,7 @@ msgstr "Data di annullamento"
 #: model:ir.model.fields.selection,name:membership.selection__report_membership__membership_state__canceled
 #: model:ir.model.fields.selection,name:membership.selection__res_partner__membership_state__canceled
 msgid "Cancelled Member"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4005,6 +4044,9 @@ msgstr "Iscritto cancellato"
 =======
 msgstr "Iscritto cancellato"
 >>>>>>> upstream/18.0
+=======
+msgstr "Iscritto cancellato"
+>>>>>>> upstream/18.0
 
 #. module: membership
 #: model_terms:ir.ui.view,arch_db:membership.membership_product_search_form_view
@@ -4129,7 +4171,11 @@ msgid "Check if the product is eligible for membership."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Verifica se il prodotto è adatto all'iscrizione."
+=======
+msgstr "Verifica se il prodotto è idoneo per l'iscrizione."
+>>>>>>> upstream/18.0
 =======
 msgstr "Verifica se il prodotto è idoneo per l'iscrizione."
 >>>>>>> upstream/18.0
@@ -4620,7 +4666,11 @@ msgid "Current Membership State"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Stato iscrizione corrente"
+=======
+msgstr "Stato corrente iscrizione"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stato corrente iscrizione"
 >>>>>>> upstream/18.0
@@ -5154,7 +5204,11 @@ msgid "Forecast"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Stima"
+=======
+msgstr "Previsione"
+>>>>>>> upstream/18.0
 =======
 msgstr "Previsione"
 >>>>>>> upstream/18.0
@@ -5619,7 +5673,11 @@ msgid "Free Member"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Iscritto non pagante"
+=======
+msgstr "Socio non pagante"
+>>>>>>> upstream/18.0
 =======
 msgstr "Socio non pagante"
 >>>>>>> upstream/18.0
@@ -6113,7 +6171,11 @@ msgid "Invoice Membership"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Fattura l'iscrizione"
+=======
+msgstr "Iscrivi con fattura"
+>>>>>>> upstream/18.0
 =======
 msgstr "Iscrivi con fattura"
 >>>>>>> upstream/18.0
@@ -6576,7 +6638,11 @@ msgid "Invoiced Member"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Iscritto con fattura"
+=======
+msgstr "Socio con fattura"
+>>>>>>> upstream/18.0
 =======
 msgstr "Socio con fattura"
 >>>>>>> upstream/18.0
@@ -6933,7 +6999,12 @@ msgid ""
 "-Non Member: A partner who has not applied for any membership.\n"
 "-Cancelled Member: A member who has cancelled his membership.\n"
 "-Old Member: A member whose membership date has expired.\n"
+<<<<<<< HEAD
 "-Waiting Member: A member who has applied for the membership and whose invoice is going to be created.\n"
+=======
+"-Waiting Member: A member who has applied for the membership and whose "
+"invoice is going to be created.\n"
+>>>>>>> upstream/18.0
 "-Invoiced Member: A member whose invoice has been created.\n"
 "-Paying member: A member who has paid the membership fee."
 msgstr ""
@@ -7052,6 +7123,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "- Non iscritto: partner che non ha richiesto alcuna iscrizione.\n"
 "- Iscritto cancellato: socio che ha annullato la sua iscrizione.\n"
 "- Vecchio iscritto: socio la cui iscrizione è scaduta.\n"
@@ -7631,6 +7703,15 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"- Non socio: partner che non ha richiesto alcuna iscrizione.\n"
+"- Socio annullato: socio che ha annullato la sua iscrizione.\n"
+"- Vecchio socio: socio la cui iscrizione è scaduta.\n"
+"- Socio in attesa: socio che ha richiesto l'iscrizione ed è in attesa che "
+"venga creata la relativa fattura.\n"
+"- Socio con fattura: socio la cui fattura è stata creata.\n"
+"- Socio con pagamento: socio che ha pagato la quota di iscrizione."
+>>>>>>> upstream/18.0
 
 #. module: membership
 #: model:ir.model.fields,help:membership.field_membership_membership_line__state
@@ -7639,7 +7720,12 @@ msgid ""
 "-Non Member: A member who has not applied for any membership.\n"
 "-Cancelled Member: A member who has cancelled his membership.\n"
 "-Old Member: A member whose membership date has expired.\n"
+<<<<<<< HEAD
 "-Waiting Member: A member who has applied for the membership and whose invoice is going to be created.\n"
+=======
+"-Waiting Member: A member who has applied for the membership and whose "
+"invoice is going to be created.\n"
+>>>>>>> upstream/18.0
 "-Invoiced Member: A member whose invoice has been created.\n"
 "-Paid Member: A member who has paid the membership amount."
 msgstr ""
@@ -7758,6 +7844,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "- Non iscritto: partner che non ha richiesto alcuna iscrizione.\n"
 "- Iscritto cancellato: socio che ha annullato la sua iscrizione.\n"
 "- Vecchio iscritto: socio la cui iscrizione è scaduta.\n"
@@ -8336,6 +8423,15 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+"- Non socio: partner che non ha richiesto alcuna iscrizione.\n"
+"- Socio annullato: socio che ha annullato la sua iscrizione.\n"
+"- Vecchio socio: socio la cui iscrizione è scaduta.\n"
+"- Socio in attesa: socio che ha richiesto l'iscrizione ed è in attesa che "
+"venga creata la relativa fattura.\n"
+"- Socio con fattura: socio la cui fattura è stata creata.\n"
+"- Socio con pagamento: socio che ha pagato la quota di iscrizione."
 >>>>>>> upstream/18.0
 
 #. module: membership
@@ -8578,7 +8674,11 @@ msgid "Members Analysis"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Analisi soci"
+=======
+msgstr "Analisi iscritti"
+>>>>>>> upstream/18.0
 =======
 msgstr "Analisi iscritti"
 >>>>>>> upstream/18.0
@@ -9370,7 +9470,11 @@ msgid "No data yet!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ancora nessun dato"
+=======
+msgstr "Ancora nessun dato."
+>>>>>>> upstream/18.0
 =======
 msgstr "Ancora nessun dato."
 >>>>>>> upstream/18.0
@@ -9833,7 +9937,11 @@ msgid "Non Member"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Non iscritto"
+=======
+msgstr "Non socio"
+>>>>>>> upstream/18.0
 =======
 msgstr "Non socio"
 >>>>>>> upstream/18.0
@@ -10181,10 +10289,19 @@ msgstr "Non socio"
 #: model_terms:ir.actions.act_window,help:membership.action_membership_members
 msgid ""
 "Odoo helps you easily track all activities related to a member: \n"
+<<<<<<< HEAD
 "                  Current Membership Status, Discussions and History of Membership, etc."
 msgstr ""
 "Odoo consente di tenere traccia facilmente delle attività di un socio: \n"
 "                 stato corrente dell'iscrizione, discussioni, cronologia delle iscrizioni ecc."
+=======
+"                  Current Membership Status, Discussions and History of "
+"Membership, etc."
+msgstr ""
+"Odoo consente di tenere traccia facilmente delle attività di un socio: \n"
+"                 stato corrente dell'iscrizione, discussioni, cronologia "
+"delle iscrizioni ecc."
+>>>>>>> upstream/18.0
 
 #. module: membership
 #: model:ir.model.fields.selection,name:membership.selection__membership_membership_line__state__old
@@ -10305,7 +10422,11 @@ msgid "Old Member"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Vecchio iscritto"
+=======
+msgstr "Vecchio socio"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vecchio socio"
 >>>>>>> upstream/18.0
@@ -10768,7 +10889,11 @@ msgid "Paid Member"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Iscritto con pagamento"
+=======
+msgstr "Socio con pagamento"
+>>>>>>> upstream/18.0
 =======
 msgstr "Socio con pagamento"
 >>>>>>> upstream/18.0
@@ -11241,7 +11366,11 @@ msgid "Partner is a free Member."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Il partner è un iscritto non pagante."
+=======
+msgstr "Il partner è un socio non pagante."
+>>>>>>> upstream/18.0
 =======
 msgstr "Il partner è un socio non pagante."
 >>>>>>> upstream/18.0
@@ -11608,6 +11737,7 @@ msgstr "Quantità"
 #. module: membership
 #: model:ir.ui.menu,name:membership.menu_report_membership
 msgid "Reporting"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12401,6 +12531,9 @@ msgstr "Rendicontazione"
 =======
 msgstr "Rendicontazione"
 >>>>>>> upstream/18.0
+=======
+msgstr "Rendicontazione"
+>>>>>>> upstream/18.0
 
 #. module: membership
 #: model_terms:ir.ui.view,arch_db:membership.view_report_membership_search
@@ -12519,7 +12652,11 @@ msgid "Revenue Done"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ricavi realizzati"
+=======
+msgstr "Ricavo realizzato"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ricavo realizzato"
 >>>>>>> upstream/18.0
@@ -12988,7 +13125,11 @@ msgid "Select if you want to give free membership."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Selezionare se si desidera fornire un'iscrizione gratuita"
+=======
+msgstr "Selezionare se si desidera offrire un'iscrizione gratuita"
+>>>>>>> upstream/18.0
 =======
 msgstr "Selezionare se si desidera offrire un'iscrizione gratuita"
 >>>>>>> upstream/18.0
@@ -13492,7 +13633,11 @@ msgid "This note will be displayed on quotations..."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Questa nota verrà visualizzata nei preventivi..."
+=======
+msgstr "Nota che viene visualizzata nei preventivi..."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nota che viene visualizzata nei preventivi..."
 >>>>>>> upstream/18.0
@@ -13958,7 +14103,11 @@ msgid "This will display waiting, invoiced and total pending columns"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Visualizza le colonne in attesa, fatturato e totale in sospeso"
+=======
+msgstr "Visualizza le colonne in attesa, fatturate e totale in sospeso"
+>>>>>>> upstream/18.0
 =======
 msgstr "Visualizza le colonne in attesa, fatturate e totale in sospeso"
 >>>>>>> upstream/18.0
@@ -14431,7 +14580,11 @@ msgid "Waiting Member"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Iscritto in attesa"
+=======
+msgstr "Socio in attesa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Socio in attesa"
 >>>>>>> upstream/18.0

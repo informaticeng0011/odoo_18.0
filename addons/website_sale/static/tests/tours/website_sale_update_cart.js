@@ -137,12 +137,16 @@ registry.category('web_tour.tours').add('shop_update_cart', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ...tourUtils.searchProduct("conference chair"),
         {
             content: "select conference chair",
             trigger: '.oe_product_cart:first a:contains("Conference Chair")',
             run: "click",
         },
+=======
+        ...tourUtils.searchProduct("conference chair", { select: true }),
+>>>>>>> upstream/18.0
 =======
         ...tourUtils.searchProduct("conference chair", { select: true }),
 >>>>>>> upstream/18.0
@@ -695,6 +699,10 @@ registry.category('web_tour.tours').add('shop_update_cart', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0

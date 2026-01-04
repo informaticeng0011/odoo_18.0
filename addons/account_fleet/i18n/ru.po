@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* account_fleet
+<<<<<<< HEAD
 # 
 # Translators:
 # Ilya Rozhkov, 2024
@@ -462,10 +463,19 @@
 # Anastasiia Koroleva, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+#
+# Translators:
+# Ilya Rozhkov, 2024
+# Wil Odoo, 2024
+# Anastasiia Koroleva, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
@@ -931,10 +941,24 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: ru\n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Anastasiia Koroleva, 2025\n"
+"Language-Team: Russian (https://app.transifex.com/odoo/teams/41243/ru/)\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
+"(n%100>=11 && n%100<=14)? 2 : 3);\n"
+>>>>>>> upstream/18.0
 
 #. module: account_fleet
 #: model_terms:ir.ui.view,arch_db:account_fleet.fleet_vehicle_log_services_view_form
 msgid ""
+<<<<<<< HEAD
 "<span class=\"o_stat_text text-success\" invisible=\"account_move_state != 'posted'\" title=\"Service's Bill\">Service's Bill</span>\n"
 "                            <span class=\"o_stat_text text-warning\" invisible=\"account_move_state == 'posted'\" title=\"Service's Bill\">Service's Bill</span>"
 msgstr ""
@@ -1508,6 +1532,19 @@ msgstr ""
 "<span class=\"o_stat_text text-success\" invisible=\"account_move_state != 'posted'\" title=\"Счет за обслуживание\">Счет за обслуживание</span>\n"
 "                            <span class=\"o_stat_text text-warning\" invisible=\"account_move_state == 'posted'\" title=\"Счет за обслуживание\">Счет за обслуживание</span>"
 >>>>>>> upstream/18.0
+=======
+"<span class=\"o_stat_text text-success\" invisible=\"account_move_state != "
+"'posted'\" title=\"Service's Bill\">Service's Bill</span>\n"
+"                            <span class=\"o_stat_text text-warning\" "
+"invisible=\"account_move_state == 'posted'\" title=\"Service's "
+"Bill\">Service's Bill</span>"
+msgstr ""
+"<span class=\"o_stat_text text-success\" invisible=\"account_move_state != "
+"'posted'\" title=\"Счет за обслуживание\">Счет за обслуживание</span>\n"
+"                            <span class=\"o_stat_text text-warning\" "
+"invisible=\"account_move_state == 'posted'\" title=\"Счет за "
+"обслуживание\">Счет за обслуживание</span>"
+>>>>>>> upstream/18.0
 
 #. module: account_fleet
 #: model:ir.model.fields,field_description:account_fleet.field_fleet_vehicle__account_move_ids
@@ -1517,6 +1554,7 @@ msgstr "Бухгалтерская Проводка"
 #. module: account_fleet
 #: model:ir.model.fields,field_description:account_fleet.field_fleet_vehicle_log_services__account_move_line_id
 msgid "Account Move Line"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1974,6 +2012,9 @@ msgstr "Проводка бухгалтерии"
 =======
 msgstr "Проводка бухгалтерии"
 >>>>>>> upstream/18.0
+=======
+msgstr "Проводка бухгалтерии"
+>>>>>>> upstream/18.0
 
 #. module: account_fleet
 #. odoo-python
@@ -2053,6 +2094,7 @@ msgstr "Счет от Поставщика"
 #. odoo-python
 #: code:addons/account_fleet/models/fleet_vehicle_log_services.py:0
 msgid ""
+<<<<<<< HEAD
 "You cannot delete log services records because one or more of them were bill"
 " created."
 msgstr ""
@@ -2626,6 +2668,13 @@ msgstr ""
 "Невозможно удалить записи об обслуживании, так как по одной или нескольким "
 "из них уже сформированы счета."
 >>>>>>> upstream/18.0
+=======
+"You cannot delete log services records because one or more of them were bill "
+"created."
+msgstr ""
+"Невозможно удалить записи об обслуживании, так как по одной или нескольким "
+"из них уже сформированы счета."
+>>>>>>> upstream/18.0
 
 #. module: account_fleet
 #. odoo-python
@@ -2748,6 +2797,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Нельзя изменить сумму обслуживания, связанного с бухгалтерской проводкой. "
+"Измените данные напрямую в соответствующем бухгалтерском документе."
+>>>>>>> upstream/18.0
 =======
 "Нельзя изменить сумму обслуживания, связанного с бухгалтерской проводкой. "
 "Измените данные напрямую в соответствующем бухгалтерском документе."

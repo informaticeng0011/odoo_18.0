@@ -39,6 +39,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
@@ -148,6 +152,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2023-05-16 13:49+0000\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -363,6 +368,13 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2025-12-31 16:37+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Kabyle <https://translate.odoo.com/projects/odoo-18/"
+"event_sale/kab/>\n"
+>>>>>>> upstream/18.0
 "Language: kab\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -403,6 +415,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "X-Generator: Weblate 5.12.2\n"
 >>>>>>> upstream/18.0
@@ -507,6 +520,15 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 "X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.14.3\n"
+
+#. module: event_sale
+#. odoo-python
+#: code:addons/event_sale/models/sale_order.py:0
+msgid "%(event_name)s - Tickets"
+msgstr ""
 >>>>>>> upstream/18.0
 
 #. module: event_sale
@@ -517,6 +539,14 @@ msgid ""
 msgstr ""
 
 #. module: event_sale
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:event_sale.event_configurator_view_form
+msgid "<i class=\"fa fa-arrow-right\"/> Configure Events &amp; Tickets"
+msgstr ""
+
+#. module: event_sale
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:event_sale.event_registration_ticket_view_form
 msgid "<span class=\"o_stat_text\">Sale Order</span>"
 msgstr ""
@@ -527,16 +557,20 @@ msgid "<span class=\"o_stat_text\">Sales</span>"
 msgstr ""
 
 #. module: event_sale
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:event_sale.view_event_registration_editor_form
 msgid "<span>Not enough seats available. All registrations were created as \"Unconfirmed\" and can be updated later on.</span>"
 msgstr ""
 
 #. module: event_sale
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:event_sale.event_ticket_id_change_exception
 msgid "<span>Registration modification for attendee:</span>"
 msgstr ""
 
 #. module: event_sale
+<<<<<<< HEAD
 #: model:ir.model.fields,help:event_sale.field_event_event_ticket__description
 #: model:ir.model.fields,help:event_sale.field_event_type_ticket__description
 msgid "A description of the ticket that you want to communicate to your customers."
@@ -550,6 +584,11 @@ msgid ""
 "A consumable product is a product for which stock is not managed.\n"
 "A service is a non-material product you provide."
 msgstr ""
+=======
+#: model_terms:ir.ui.view,arch_db:event_sale.event_configurator_view_form
+msgid "Add"
+msgstr "Rnu"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:ir.model.fields,field_description:event_sale.field_event_event__sale_order_lines_ids
@@ -589,6 +628,7 @@ msgstr ""
 #. module: event_sale
 #: model:ir.model.fields,field_description:event_sale.field_event_registration__utm_campaign_id
 msgid "Campaign"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -875,11 +915,15 @@ msgstr "Sefsex"
 =======
 msgstr "Sefsex"
 >>>>>>> upstream/18.0
+=======
+msgstr "Amzizzel"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:ir.model.fields.selection,name:event_sale.selection__event_sale_report__event_registration_state__cancel
 #: model:ir.model.fields.selection,name:event_sale.selection__event_sale_report__sale_order_state__cancel
 msgid "Cancelled"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1025,20 +1069,44 @@ msgstr "Ifsax"
 #. module: event_sale
 #: model:ir.model.fields,help:event_sale.field_sale_order_line__event_id
 msgid "Choose an event and it will automatically create a registration for this event."
+=======
+msgstr "Ifsax"
+
+#. module: event_sale
+#: model:ir.model.fields,help:event_sale.field_sale_order_line__event_id
+msgid ""
+"Choose an event and it will automatically create a registration for this "
+"event."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: event_sale
 #: model:ir.model.fields,help:event_sale.field_sale_order_line__event_ticket_id
+<<<<<<< HEAD
 msgid "Choose an event ticket and it will automatically create a registration for this event ticket."
 msgstr ""
 
 #. module: event_sale
+=======
+msgid ""
+"Choose an event ticket and it will automatically create a registration for "
+"this event ticket."
+msgstr ""
+
+#. module: event_sale
+#: model_terms:ir.ui.view,arch_db:event_sale.event_configurator_view_form
+msgid "Close"
+msgstr "Mdel"
+
+#. module: event_sale
+>>>>>>> upstream/18.0
 #: model_terms:ir.actions.act_window,help:event_sale.event_sale_report_action
 msgid "Come back once tickets have been sold to overview your sales income."
 msgstr ""
 
 #. module: event_sale
 #: model:ir.model.fields,field_description:event_sale.field_event_sale_report__company_id
+<<<<<<< HEAD
 msgid "Company"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1186,6 +1254,11 @@ msgstr "Takebbwanit"
 #: model:ir.actions.act_window,name:event_sale.event_configurator_action
 msgid "Configure an event"
 msgstr ""
+=======
+#: model:ir.model.fields,field_description:event_sale.field_registration_editor_line__company_id
+msgid "Company"
+msgstr "Takebbwanit"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:ir.model.fields.selection,name:event_sale.selection__event_sale_report__event_registration_state__open
@@ -1225,6 +1298,7 @@ msgid "Confirmed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Intem"
@@ -1330,6 +1404,15 @@ msgstr "Intem"
 >>>>>>> upstream/18.0
 =======
 msgstr "Intem"
+>>>>>>> upstream/18.0
+=======
+msgstr "Intem"
+
+#. module: event_sale
+#. odoo-python
+#: code:addons/event_sale/models/product_template.py:0
+msgid "Create an Attendee for the selected Event."
+msgstr ""
 >>>>>>> upstream/18.0
 
 #. module: event_sale
@@ -1352,6 +1435,7 @@ msgid "Created on"
 msgstr "Yerna di"
 
 #. module: event_sale
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:event_sale.field_event_event__currency_id
 #: model:ir.model.fields,field_description:event_sale.field_event_event_ticket__currency_id
 #: model:ir.model.fields,field_description:event_sale.field_event_type_ticket__currency_id
@@ -1789,6 +1873,17 @@ msgstr "Aglam"
 =======
 msgstr "Aglam"
 >>>>>>> upstream/18.0
+=======
+#: model:ir.model.fields,field_description:event_sale.field_event_sale_report__sale_order_partner_id
+#: model_terms:ir.ui.view,arch_db:event_sale.event_sale_report_view_search
+msgid "Customer"
+msgstr "Amsaɣ"
+
+#. module: event_sale
+#: model_terms:ir.ui.view,arch_db:event_sale.event_configurator_view_form
+msgid "Discard"
+msgstr "Sefsex"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:ir.model.fields,field_description:event_sale.field_event_event_configurator__display_name
@@ -1831,7 +1926,11 @@ msgid "Display Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Isem n Ubeqqeḍ"
+>>>>>>> upstream/18.0
 =======
 msgstr "Isem n Ubeqqeḍ"
 >>>>>>> upstream/18.0
@@ -1991,7 +2090,11 @@ msgid "Email"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Imayl"
+>>>>>>> upstream/18.0
 =======
 msgstr "Imayl"
 >>>>>>> upstream/18.0
@@ -2142,7 +2245,11 @@ msgid "Event"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tadyant"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tadyant"
 >>>>>>> upstream/18.0
@@ -2267,6 +2374,7 @@ msgid "Event Registration"
 msgstr ""
 
 #. module: event_sale
+<<<<<<< HEAD
 #: model:product.template,name:event_sale.product_product_event_standard_product_template
 msgid "Event Registration - Standard"
 msgstr ""
@@ -2277,6 +2385,8 @@ msgid "Event Registration - VIP"
 msgstr ""
 
 #. module: event_sale
+=======
+>>>>>>> upstream/18.0
 #: model:ir.actions.act_window,name:event_sale.action_sale_order_event_registration
 msgid "Event Registrations"
 msgstr ""
@@ -2298,6 +2408,7 @@ msgid "Event Start Date"
 msgstr ""
 
 #. module: event_sale
+<<<<<<< HEAD
 #: model:ir.model,name:event_sale.model_event_type_ticket
 msgid "Event Template Ticket"
 msgstr ""
@@ -2309,15 +2420,23 @@ msgstr ""
 #: model:ir.model.fields,field_description:event_sale.field_registration_editor_line__event_ticket_id
 #: model:ir.model.fields,field_description:event_sale.field_sale_order_line__event_ticket_id
 #: model:ir.model.fields.selection,name:event_sale.selection__product_template__detailed_type__event
+=======
+#: model:ir.model,name:event_sale.model_event_event_ticket
+#: model:ir.model.fields,field_description:event_sale.field_event_sale_report__event_ticket_id
+#: model:ir.model.fields,field_description:event_sale.field_registration_editor_line__event_ticket_id
+>>>>>>> upstream/18.0
 msgid "Event Ticket"
 msgstr ""
 
 #. module: event_sale
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:event_sale.field_product_product__event_ticket_ids
 msgid "Event Tickets"
 msgstr ""
 
 #. module: event_sale
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:event_sale.field_event_sale_report__event_type_id
 #: model_terms:ir.ui.view,arch_db:event_sale.event_sale_report_view_search
 msgid "Event Type"
@@ -2334,13 +2453,19 @@ msgid "Exception:"
 msgstr ""
 
 #. module: event_sale
+<<<<<<< HEAD
 #: model:ir.model.fields.selection,name:event_sale.selection__event_registration__payment_status__free
 #: model:ir.model.fields.selection,name:event_sale.selection__event_sale_report__payment_status__free
+=======
+#: model:ir.model.fields.selection,name:event_sale.selection__event_registration__sale_status__free
+#: model:ir.model.fields.selection,name:event_sale.selection__event_sale_report__sale_status__free
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:event_sale.event_sale_report_view_search
 msgid "Free"
 msgstr ""
 
 #. module: event_sale
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:event_sale.event_sale_report_view_search
 msgid "Group By"
 <<<<<<< HEAD
@@ -2484,6 +2609,22 @@ msgstr "Sdukel s"
 =======
 msgstr "Sdukel s"
 >>>>>>> upstream/18.0
+=======
+#. odoo-python
+#: code:addons/event_sale/models/sale_order.py:0
+msgid "Get Your Tickets"
+msgstr ""
+
+#. module: event_sale
+#: model_terms:ir.ui.view,arch_db:event_sale.event_sale_report_view_search
+msgid "Group By"
+msgstr "Sdukel s"
+
+#. module: event_sale
+#: model:ir.model.fields,field_description:event_sale.field_event_event_configurator__has_available_tickets
+msgid "Has Available Tickets"
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:ir.model.fields,field_description:event_sale.field_event_event_configurator__id
@@ -2502,6 +2643,7 @@ msgstr ""
 #. module: event_sale
 #: model:ir.model.fields,field_description:event_sale.field_event_sale_report__invoice_partner_id
 msgid "Invoice Address"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2649,6 +2791,9 @@ msgstr "Tansa n ufeter"
 #: model:ir.model.fields,field_description:event_sale.field_event_sale_report__is_paid
 msgid "Is Paid"
 msgstr ""
+=======
+msgstr "Tansa n ufeter"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:ir.model.fields,field_description:event_sale.field_event_sale_report__active
@@ -2656,6 +2801,7 @@ msgid "Is registration active (not archived)?"
 msgstr ""
 
 #. module: event_sale
+<<<<<<< HEAD
 #: model:ir.model,name:event_sale.model_account_move
 msgid "Journal Entry"
 <<<<<<< HEAD
@@ -2801,6 +2947,8 @@ msgstr "Taceqquft n tsiḍent"
 >>>>>>> upstream/18.0
 
 #. module: event_sale
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:event_sale.field_event_event_configurator__write_uid
 #: model:ir.model.fields,field_description:event_sale.field_registration_editor__write_uid
 #: model:ir.model.fields,field_description:event_sale.field_registration_editor_line__write_uid
@@ -2815,16 +2963,20 @@ msgid "Last Updated on"
 msgstr "Aleqqem aneggaru di"
 
 #. module: event_sale
+<<<<<<< HEAD
 #: model:ir.model.fields.selection,name:event_sale.selection__event_sale_report__sale_order_state__done
 msgid "Locked"
 msgstr ""
 
 #. module: event_sale
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:event_sale.field_event_registration__utm_medium_id
 msgid "Medium"
 msgstr ""
 
 #. module: event_sale
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:event_sale.field_registration_editor_line__mobile
 msgid "Mobile"
 msgstr ""
@@ -2973,6 +3125,11 @@ msgstr "Isem"
 =======
 msgstr "Isem"
 >>>>>>> upstream/18.0
+=======
+#: model:ir.model.fields,field_description:event_sale.field_registration_editor_line__name
+msgid "Name"
+msgstr "Isem"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model_terms:ir.actions.act_window,help:event_sale.event_sale_report_action
@@ -2985,6 +3142,7 @@ msgid "Non-free tickets"
 msgstr ""
 
 #. module: event_sale
+<<<<<<< HEAD
 #: model:ir.model.fields.selection,name:event_sale.selection__event_registration__payment_status__to_pay
 #: model:ir.model.fields.selection,name:event_sale.selection__event_sale_report__payment_status__to_pay
 msgid "Not Paid"
@@ -3430,6 +3588,18 @@ msgstr "Tamsisɣelt n tladna"
 =======
 msgstr "Tamsisɣelt n tladna"
 >>>>>>> upstream/18.0
+=======
+#: model:ir.model.fields.selection,name:event_sale.selection__event_registration__sale_status__to_pay
+#: model:ir.model.fields.selection,name:event_sale.selection__event_sale_report__sale_status__to_pay
+#: model_terms:ir.ui.view,arch_db:event_sale.event_registration_ticket_view_form
+msgid "Not Sold"
+msgstr ""
+
+#. module: event_sale
+#: model:ir.model.fields,field_description:event_sale.field_event_sale_report__sale_order_date
+msgid "Order Date"
+msgstr "Azemz n tladna"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:ir.model.fields,field_description:event_sale.field_registration_editor_line__registration_id
@@ -3437,6 +3607,7 @@ msgid "Original Registration"
 msgstr ""
 
 #. module: event_sale
+<<<<<<< HEAD
 #: model:ir.model.fields.selection,name:event_sale.selection__event_registration__payment_status__paid
 #: model:ir.model.fields.selection,name:event_sale.selection__event_sale_report__payment_status__paid
 #: model_terms:ir.ui.view,arch_db:event_sale.event_registration_ticket_view_form
@@ -3585,6 +3756,8 @@ msgstr "Ifra"
 >>>>>>> upstream/18.0
 
 #. module: event_sale
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:event_sale.event_sale_report_view_search
 msgid "Participant"
 msgstr ""
@@ -3595,8 +3768,12 @@ msgid "Past Events"
 msgstr ""
 
 #. module: event_sale
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:event_sale.field_event_registration__payment_status
 #: model:ir.model.fields,field_description:event_sale.field_event_sale_report__payment_status
+=======
+#: model:ir.model.fields,field_description:event_sale.field_event_sale_report__sale_status
+>>>>>>> upstream/18.0
 msgid "Payment Status"
 msgstr ""
 
@@ -3608,6 +3785,7 @@ msgstr ""
 #. module: event_sale
 #: model:ir.model.fields,field_description:event_sale.field_registration_editor_line__phone
 msgid "Phone"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3771,21 +3949,36 @@ msgstr ""
 #. module: event_sale
 #: model:ir.model.fields,field_description:event_sale.field_event_event_ticket__price_incl
 msgid "Price include"
+=======
+msgstr "Tiliɣri"
+
+#. module: event_sale
+#. odoo-python
+#: code:addons/event_sale/models/sale_order.py:0
+msgid ""
+"Please make sure all your event related lines are configured before "
+"confirming this order:%s"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: event_sale
 #: model:ir.model,name:event_sale.model_product_template
 #: model:ir.model.fields,field_description:event_sale.field_event_event_configurator__product_id
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:event_sale.field_event_event_ticket__product_id
 #: model:ir.model.fields,field_description:event_sale.field_event_sale_report__product_id
 #: model:ir.model.fields,field_description:event_sale.field_event_type_ticket__product_id
 #: model:ir.model.fields,field_description:event_sale.field_sale_order_template_line__product_id
 #: model:ir.model.fields,field_description:event_sale.field_sale_order_template_option__product_id
+=======
+#: model:ir.model.fields,field_description:event_sale.field_event_sale_report__product_id
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:event_sale.event_sale_report_view_search
 msgid "Product"
 msgstr "Afaris"
 
 #. module: event_sale
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:event_sale.field_product_product__detailed_type
 #: model:ir.model.fields,field_description:event_sale.field_product_template__detailed_type
 msgid "Product Type"
@@ -4077,6 +4270,8 @@ msgstr "Tameskalt n ufaris"
 >>>>>>> upstream/18.0
 
 #. module: event_sale
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:event_sale.selection__event_sale_report__sale_order_state__draft
 msgid "Quotation"
 msgstr "Asuter n ssuma"
@@ -4084,6 +4279,7 @@ msgstr "Asuter n ssuma"
 #. module: event_sale
 #: model:ir.model.fields.selection,name:event_sale.selection__event_sale_report__sale_order_state__sent
 msgid "Quotation Sent"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4235,6 +4431,9 @@ msgstr ""
 #: model:ir.model,name:event_sale.model_sale_order_template_option
 msgid "Quotation Template Option"
 msgstr ""
+=======
+msgstr "Asuter iţwaceggaɛ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model_terms:ir.ui.view,arch_db:event_sale.event_sale_report_view_form
@@ -4260,6 +4459,14 @@ msgid "Registration revenues"
 msgstr ""
 
 #. module: event_sale
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:event_sale.field_sale_order_line__registration_ids
+msgid "Registrations"
+msgstr ""
+
+#. module: event_sale
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:event_sale.field_registration_editor__event_registration_ids
 msgid "Registrations to Edit"
 msgstr ""
@@ -4314,7 +4521,11 @@ msgid "Sale Order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Taladna n uznuzu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Taladna n uznuzu"
 >>>>>>> upstream/18.0
@@ -4433,6 +4644,7 @@ msgid "Sale Order Status"
 msgstr ""
 
 #. module: event_sale
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:event_sale.view_event_form_inherit_ticket
 msgid "Sales"
 <<<<<<< HEAD
@@ -4576,6 +4788,16 @@ msgstr "Aznuzu"
 =======
 msgstr "Aznuzu"
 >>>>>>> upstream/18.0
+=======
+#: model:ir.model.fields,field_description:event_sale.field_event_registration__sale_status
+msgid "Sale Status"
+msgstr ""
+
+#. module: event_sale
+#: model_terms:ir.ui.view,arch_db:event_sale.view_event_form_inherit_ticket
+msgid "Sales"
+msgstr "Aznuzu"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:ir.model.fields,field_description:event_sale.field_event_event__sale_price_subtotal
@@ -4583,11 +4805,14 @@ msgid "Sales (Tax Excluded)"
 msgstr ""
 
 #. module: event_sale
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:event_sale.event_event_ticket_view_tree_from_event
 msgid "Sales End"
 msgstr ""
 
 #. module: event_sale
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model,name:event_sale.model_sale_order
 #: model:ir.model.fields,field_description:event_sale.field_event_registration__sale_order_id
 #: model:ir.model.fields,field_description:event_sale.field_registration_editor__sale_order_id
@@ -4603,6 +4828,7 @@ msgid "Sales Order Line"
 msgstr "Izirig n tladna n uznuzu"
 
 #. module: event_sale
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:event_sale.event_event_ticket_view_tree_from_event
 msgid "Sales Start"
 msgstr ""
@@ -4755,6 +4981,23 @@ msgstr "Amzenzi"
 #. module: event_sale
 #: model_terms:ir.ui.view,arch_db:event_sale.view_event_registration_editor_form
 msgid "Skip"
+=======
+#: model:ir.model.fields,field_description:event_sale.field_event_sale_report__sale_order_user_id
+msgid "Salesperson"
+msgstr "Amzenzi"
+
+#. module: event_sale
+#: model:ir.actions.act_window,name:event_sale.event_configurator_action
+msgid "Select an Event"
+msgstr ""
+
+#. module: event_sale
+#: model:ir.model.fields.selection,name:event_sale.selection__event_registration__sale_status__sold
+#: model:ir.model.fields.selection,name:event_sale.selection__event_sale_report__sale_status__sold
+#: model_terms:ir.ui.view,arch_db:event_sale.event_registration_ticket_view_form
+#: model_terms:ir.ui.view,arch_db:event_sale.event_sale_report_view_search
+msgid "Sold"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: event_sale
@@ -4795,6 +5038,7 @@ msgid "Source"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Aɣbalu"
@@ -4900,6 +5144,22 @@ msgstr "Aɣbalu"
 >>>>>>> upstream/18.0
 =======
 msgstr "Aɣbalu"
+>>>>>>> upstream/18.0
+=======
+msgstr "Aɣbalu"
+
+#. module: event_sale
+#: model:ir.model.fields,field_description:event_sale.field_event_registration__state
+msgid "Status"
+msgstr "Addad"
+
+#. module: event_sale
+#. odoo-python
+#: code:addons/event_sale/models/sale_order_line.py:0
+msgid ""
+"The sale order line with the product %(product_name)s needs an event and a "
+"ticket."
+msgstr ""
 >>>>>>> upstream/18.0
 
 #. module: event_sale
@@ -4908,6 +5168,15 @@ msgid "Ticket"
 msgstr ""
 
 #. module: event_sale
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:event_sale.field_event_event_configurator__event_ticket_id
+#: model:ir.model.fields,field_description:event_sale.field_sale_order_line__event_ticket_id
+msgid "Ticket Type"
+msgstr ""
+
+#. module: event_sale
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:event_sale.event_ticket_id_change_exception
 msgid "Ticket changed from"
 msgstr ""
@@ -4933,6 +5202,19 @@ msgid "Unconfirmed"
 msgstr ""
 
 #. module: event_sale
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,help:event_sale.field_event_registration__state
+msgid ""
+"Unconfirmed: registrations in a pending state waiting for an action "
+"(specific case, notably with sale status)\n"
+"Registered: registrations considered taken by a client\n"
+"Attended: registrations for which the attendee attended the event\n"
+"Cancelled: registrations cancelled manually"
+msgstr ""
+
+#. module: event_sale
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:event_sale.field_event_sale_report__sale_price_untaxed
 msgid "Untaxed Revenues"
 msgstr ""
@@ -4948,8 +5230,18 @@ msgid "Upcoming/Running"
 msgstr ""
 
 #. module: event_sale
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:event_sale.view_event_registration_editor_form
 msgid "please give attendee details."
+=======
+#: model_terms:ir.ui.view,arch_db:event_sale.event_configurator_view_form
+msgid "We could not find a matching event ticket for this product. <br/>"
+msgstr ""
+
+#. module: event_sale
+#: model_terms:ir.ui.view,arch_db:event_sale.view_event_registration_editor_form
+msgid "please provide attendee details."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: event_sale
@@ -4990,6 +5282,7 @@ msgid "to"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "ɣer"
@@ -5095,4 +5388,40 @@ msgstr "ɣer"
 >>>>>>> upstream/18.0
 =======
 msgstr "ɣer"
+>>>>>>> upstream/18.0
+=======
+msgstr "ɣer"
+
+#~ msgid "Cancel"
+#~ msgstr "Sefsex"
+
+#~ msgid "Currency"
+#~ msgstr "Tanfalit"
+
+#~ msgid "Description"
+#~ msgstr "Aglam"
+
+#~ msgid "Journal Entry"
+#~ msgstr "Taceqquft n tsiḍent"
+
+#~ msgid "Ok"
+#~ msgstr "Ih"
+
+#~ msgid "Order Ref"
+#~ msgstr "Tamsisɣelt n tladna"
+
+#~ msgid "Paid"
+#~ msgstr "Ifra"
+
+#~ msgid "Price"
+#~ msgstr "Ssuma "
+
+#~ msgid "Price Reduce"
+#~ msgstr "Tuǧǧit di ssuma"
+
+#~ msgid "Product Type"
+#~ msgstr "Tawsit n ufaris"
+
+#~ msgid "Product Variant"
+#~ msgstr "Tameskalt n ufaris"
 >>>>>>> upstream/18.0

@@ -1,15 +1,24 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* pos_restaurant
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
 # Maitê Dietze, 2025
 # 
+=======
+#
+# Translators:
+# Wil Odoo, 2024
+# Maitê Dietze, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-12-16 13:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Maitê Dietze, 2025\n"
@@ -526,6 +535,22 @@ msgstr ", Convidados:"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:36+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Maitê Dietze, 2025\n"
+"Language-Team: Portuguese (Brazil) (https://app.transifex.com/odoo/teams/"
+"41243/pt_BR/)\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % "
+"1000000 == 0 ? 1 : 2;\n"
+
+#. module: pos_restaurant
+#. odoo-javascript
+>>>>>>> upstream/18.0
 #: code:addons/pos_restaurant/static/src/overrides/components/payment_screen/payment_screen.xml:0
 msgid "/ Guest"
 msgstr "/ Visitante"
@@ -553,9 +578,15 @@ msgid ""
 "iceberg salad, red onions, grilled bacon, tomato sauce, pickles, barbecue "
 "sauce"
 msgstr ""
+<<<<<<< HEAD
 "200g de carne Black Angus irlandesa, cebola caramelizada com páprica, salada"
 " iceberg picada, cebola roxa, bacon grelhado, molho de tomate, picles, molho"
 " barbecue"
+=======
+"200g de carne Black Angus irlandesa, cebola caramelizada com páprica, salada "
+"iceberg picada, cebola roxa, bacon grelhado, molho de tomate, picles, molho "
+"barbecue"
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #: model_terms:ir.ui.view,arch_db:pos_restaurant.view_restaurant_floor_kanban
@@ -570,10 +601,19 @@ msgstr "<strong>Ponto de venda: </strong>"
 #. module: pos_restaurant
 #: model_terms:ir.actions.act_window,help:pos_restaurant.action_restaurant_floor_form
 msgid ""
+<<<<<<< HEAD
 "A restaurant floor represents the place where customers are served, this is where you can\n"
 "                define and position the tables."
 msgstr ""
 "Um piso de restaurante representa a área onde clientes são servidos, onde você pode\n"
+=======
+"A restaurant floor represents the place where customers are served, this is "
+"where you can\n"
+"                define and position the tables."
+msgstr ""
+"Um piso de restaurante representa a área onde clientes são servidos, onde "
+"você pode\n"
+>>>>>>> upstream/18.0
 "                definir e posicionar as mesas."
 
 #. module: pos_restaurant
@@ -1042,8 +1082,12 @@ msgstr "Comida"
 #: code:addons/pos_restaurant/static/src/overrides/components/receipt_screen/order_receipt/order_receipt.xml:0
 msgid "For convenience, we are providing the following gratuity calculations:"
 msgstr ""
+<<<<<<< HEAD
 "Para a sua conveniência, estamos fornecendo os seguintes cálculos de "
 "gorjeta:"
+=======
+"Para a sua conveniência, estamos fornecendo os seguintes cálculos de gorjeta:"
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #: model:product.template,name:pos_restaurant.pos_food_funghi_product_template
@@ -1102,8 +1146,13 @@ msgstr "Chá gelado"
 #. module: pos_restaurant
 #: model:ir.model.fields,help:pos_restaurant.field_restaurant_table__active
 msgid ""
+<<<<<<< HEAD
 "If false, the table is deactivated and will not be available in the point of"
 " sale"
+=======
+"If false, the table is deactivated and will not be available in the point of "
+"sale"
+>>>>>>> upstream/18.0
 msgstr ""
 "Se falso, a mesa é desativada e não estará disponível no ponto de venda"
 
@@ -1817,7 +1866,10 @@ msgstr "Alternar para Retirada"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/pos_restaurant/static/src/overrides/components/receipt_screen/order_receipt/order_receipt.xml:0
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2323,6 +2375,7 @@ msgstr "Mesa"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -2651,10 +2704,13 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/pos_restaurant/static/src/overrides/components/receipt_header_patch.js:0
 msgid "Table %(number)s"
 msgstr "Mesa %(number)s"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3113,11 +3169,14 @@ msgstr "Table %(number)s"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #. odoo-javascript
 #: code:addons/pos_restaurant/static/src/overrides/components/receipt_header_patch.js:0
 msgid "Table %(number)s, Guests: %(count)s"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3342,6 +3401,11 @@ msgstr "Table %(number)s, Guests: %(count)s"
 >>>>>>> upstream/18.0
 =======
 msgstr "Table %(number)s, Guests: %(count)s"
+
+#. module: pos_restaurant
+>>>>>>> upstream/18.0
+=======
+msgstr "Mesa %(number)s, Convidados: %(count)s"
 
 #. module: pos_restaurant
 >>>>>>> upstream/18.0
@@ -4159,8 +4223,12 @@ msgstr "A mesa à qual este pedido foi servido"
 
 #. module: pos_restaurant
 #: model:ir.model.fields,help:pos_restaurant.field_restaurant_table__color
+<<<<<<< HEAD
 msgid ""
 "The table's color, expressed as a valid 'background' CSS property value"
+=======
+msgid "The table's color, expressed as a valid 'background' CSS property value"
+>>>>>>> upstream/18.0
 msgstr ""
 "A cor da tabela, expressa como um valor de propriedade de CSS de 'fundo' "
 "válido"
@@ -4173,8 +4241,13 @@ msgstr "A altura da mesa em pixels"
 #. module: pos_restaurant
 #: model:ir.model.fields,help:pos_restaurant.field_restaurant_table__position_h
 msgid ""
+<<<<<<< HEAD
 "The table's horizontal position from the left side to the table's center, in"
 " pixels"
+=======
+"The table's horizontal position from the left side to the table's center, in "
+"pixels"
+>>>>>>> upstream/18.0
 msgstr ""
 "A posição horizontal da mesa, do lado esquerdo ao centro da mesa, em pixels"
 
@@ -4193,8 +4266,13 @@ msgstr "A largura da mesa em pixels"
 #: model:ir.model.fields,help:pos_restaurant.field_pos_config__takeaway_fp_id
 #: model:ir.model.fields,help:pos_restaurant.field_res_config_settings__pos_takeaway_fp_id
 msgid ""
+<<<<<<< HEAD
 "This is useful for restaurants with onsite and take-away services that imply"
 " specific tax rates."
+=======
+"This is useful for restaurants with onsite and take-away services that imply "
+"specific tax rates."
+>>>>>>> upstream/18.0
 msgstr ""
 "Isso é útil em restaurantes com serviços no local e para viagem que "
 "acarretam em tributação específica."
@@ -4329,16 +4407,24 @@ msgstr ""
 msgid ""
 "You cannot delete a table when orders are still in draft for this table."
 msgstr ""
+<<<<<<< HEAD
 "Não é possível excluir uma mesa quando há pedidos em rascunho para esta "
 "mesa."
+=======
+"Não é possível excluir uma mesa quando há pedidos em rascunho para esta mesa."
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #. odoo-javascript
 #: code:addons/pos_restaurant/static/src/app/floor_screen/floor_screen.js:0
 msgid "You cannot delete a table with orders still in draft for this table."
 msgstr ""
+<<<<<<< HEAD
 "Não é possível excluir uma mesa quando há pedidos em rascunho para esta "
 "mesa."
+=======
+"Não é possível excluir uma mesa quando há pedidos em rascunho para esta mesa."
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #. odoo-python

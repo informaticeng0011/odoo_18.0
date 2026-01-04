@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* pos_event
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
@@ -461,10 +462,18 @@
 # Anastasiia Koroleva, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+#
+# Translators:
+# Wil Odoo, 2024
+# Anastasiia Koroleva, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
 "PO-Revision-Date: 2024-09-29 00:00+0000\n"
 <<<<<<< HEAD
@@ -930,11 +939,25 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: ru\n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2024-09-29 00:00+0000\n"
+"Last-Translator: Anastasiia Koroleva, 2025\n"
+"Language-Team: Russian (https://app.transifex.com/odoo/teams/41243/ru/)\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
+"(n%100>=11 && n%100<=14)? 2 : 3);\n"
+>>>>>>> upstream/18.0
 
 #. module: pos_event
 #. odoo-javascript
 #: code:addons/pos_event/static/src/app/popup/event_configurator_popup/event_configurator_popup.js:0
 msgid " (%s seats available)"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1392,11 +1415,15 @@ msgstr " (%s мест свободно)"
 =======
 msgstr " (%s мест свободно)"
 >>>>>>> upstream/18.0
+=======
+msgstr " (%s мест свободно)"
+>>>>>>> upstream/18.0
 
 #. module: pos_event
 #. odoo-javascript
 #: code:addons/pos_event/static/src/app/popup/event_registration_popup/event_registration_popup.xml:0
 msgid "--- Select ---"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3004,6 +3031,25 @@ msgstr ""
 "<i class=\"fa fa-file-pdf-o me-1\" aria-hidden=\"true\"/>Распечатать билеты "
 "на мероприятие"
 >>>>>>> upstream/18.0
+=======
+msgstr "--- Выбрать ---"
+
+#. module: pos_event
+#: model_terms:ir.ui.view,arch_db:pos_event.pos_order_form_view_inherit
+msgid ""
+"<i class=\"fa fa-file-pdf-o me-1\" aria-hidden=\"true\"/>Print Event Badges"
+msgstr ""
+"<i class=\"fa fa-file-pdf-o me-1\" aria-hidden=\"true\"/>Распечатать бейджи "
+"участников"
+
+#. module: pos_event
+#: model_terms:ir.ui.view,arch_db:pos_event.pos_order_form_view_inherit
+msgid ""
+"<i class=\"fa fa-file-pdf-o me-1\" aria-hidden=\"true\"/>Print Event Tickets"
+msgstr ""
+"<i class=\"fa fa-file-pdf-o me-1\" aria-hidden=\"true\"/>Распечатать билеты "
+"на мероприятие"
+>>>>>>> upstream/18.0
 
 #. module: pos_event
 #: model:ir.model.fields,field_description:pos_event.field_pos_order__attendee_count
@@ -3191,7 +3237,11 @@ msgid "Event name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Название мероприятия"
+>>>>>>> upstream/18.0
 =======
 msgstr "Название мероприятия"
 >>>>>>> upstream/18.0
@@ -3664,7 +3714,11 @@ msgid "Global questions"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Глобальные вопросы"
+>>>>>>> upstream/18.0
 =======
 msgstr "Глобальные вопросы"
 >>>>>>> upstream/18.0
@@ -4125,7 +4179,11 @@ msgid "PoS Image"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Изображение для POS"
+>>>>>>> upstream/18.0
 =======
 msgstr "Изображение для POS"
 >>>>>>> upstream/18.0
@@ -4623,7 +4681,11 @@ msgid "Print Full Page Ticket"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Распечатать билет на всю страницу"
+>>>>>>> upstream/18.0
 =======
 msgstr "Распечатать билет на всю страницу"
 >>>>>>> upstream/18.0
@@ -5085,7 +5147,11 @@ msgid "Select tickets for %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Выберите билеты для %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Выберите билеты для %s"
 >>>>>>> upstream/18.0
@@ -5548,7 +5614,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Выбранный билет (%s) недоступен. Пожалуйста, выберите другой билет."
+>>>>>>> upstream/18.0
 =======
 msgstr "Выбранный билет (%s) недоступен. Пожалуйста, выберите другой билет."
 >>>>>>> upstream/18.0
@@ -6016,7 +6086,11 @@ msgid "Ticket error"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ошибка билета"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ошибка билета"
 >>>>>>> upstream/18.0
@@ -6375,6 +6449,7 @@ msgstr "Неограниченно"
 #. module: pos_event
 #. odoo-javascript
 #: code:addons/pos_event/static/src/app/models/pos_order_line.js:0
+<<<<<<< HEAD
 msgid ""
 "You cannot change quantity for a line linked with an event registration"
 msgstr ""
@@ -6832,6 +6907,11 @@ msgstr ""
 "Нельзя изменить количество в строке, связанной с регистрацией на мероприятие"
 >>>>>>> upstream/18.0
 =======
+"Нельзя изменить количество в строке, связанной с регистрацией на мероприятие"
+>>>>>>> upstream/18.0
+=======
+msgid "You cannot change quantity for a line linked with an event registration"
+msgstr ""
 "Нельзя изменить количество в строке, связанной с регистрацией на мероприятие"
 >>>>>>> upstream/18.0
 

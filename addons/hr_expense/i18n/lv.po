@@ -114,8 +114,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* hr_expense
 # 
+=======
+# * hr_expense
+#
+>>>>>>> upstream/18.0
 =======
 # * hr_expense
 #
@@ -695,6 +700,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 =======
 # Aleksejs Ivanovs <ai@myacc.pro>, 2025.
@@ -1073,10 +1079,15 @@
 # Aleksejs Ivanovs <ai@myacc.pro>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
+=======
+# Aleksejs Ivanovs <ai@myacc.pro>, 2025.
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-01-27 13:02+0000\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1499,6 +1510,11 @@ msgstr ""
 "PO-Revision-Date: 2025-11-25 09:50+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:36+0000\n"
+"PO-Revision-Date: 2025-11-25 09:50+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Latvian <https://translate.odoo.com/projects/odoo-18/"
 "hr_expense/lv/>\n"
 "Language: lv\n"
@@ -1620,6 +1636,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1883,8 +1902,12 @@ msgstr "%(employee_name)s: %(expense_name)s"
 #. module: hr_expense
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense.py:0
+<<<<<<< HEAD
 msgid ""
 "%(user)s confirms this expense is not a duplicate with similar expense."
+=======
+msgid "%(user)s confirms this expense is not a duplicate with similar expense."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_expense
@@ -2068,7 +2091,12 @@ msgstr ""
 #. module: hr_expense
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense_sheet.py:0
+<<<<<<< HEAD
 msgid "All expenses in an expense report must have the same \"paid by\" criteria."
+=======
+msgid ""
+"All expenses in an expense report must have the same \"paid by\" criteria."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_expense
@@ -2228,8 +2256,13 @@ msgid ""
 "Both price-included and price-excluded taxes will behave as price-included "
 "taxes for expenses."
 msgstr ""
+<<<<<<< HEAD
 "Gan cenā iekļauts, gan cenā neiekļauts PVN izmaksās parādās kā cenā iekļauts"
 " PVN. "
+=======
+"Gan cenā iekļauts, gan cenā neiekļauts PVN izmaksās parādās kā cenā iekļauts "
+"PVN. "
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.report_expense_sheet
@@ -2540,8 +2573,12 @@ msgstr "Darbinieku izdevumi"
 #. odoo-javascript
 #: code:addons/hr_expense/static/src/js/tours/hr_expense.js:0
 msgid ""
+<<<<<<< HEAD
 "Enter a name then choose a category and configure the amount of your "
 "expense."
+=======
+"Enter a name then choose a category and configure the amount of your expense."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_expense
@@ -3250,6 +3287,7 @@ msgid "Mitchell Admin"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "<div style=\"margin: 0px; padding: 0px;\">\n"
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
@@ -3282,6 +3320,9 @@ msgstr ""
 "    </p>\n"
 "</div>\n"
 "            "
+=======
+msgstr "Administrators Mitchell"
+>>>>>>> upstream/18.0
 =======
 msgstr "Administrators Mitchell"
 >>>>>>> upstream/18.0
@@ -4127,7 +4168,12 @@ msgstr "Noskenējiet šo QR kodu, lai iegūt Odoo lietotni:"
 #: model:ir.model.fields,help:hr_expense.field_res_users__expense_manager_id
 msgid ""
 "Select the user responsible for approving \"Expenses\" of this employee.\n"
+<<<<<<< HEAD
 "If empty, the approval is done by an Administrator or Approver (determined in settings/users)."
+=======
+"If empty, the approval is done by an Administrator or Approver (determined "
+"in settings/users)."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_expense
@@ -4176,12 +4222,15 @@ msgstr ""
 "Rādīt visus ierakstus, kuriem nākamais darbības datums ir pirms šodienas"
 
 #. module: hr_expense
+<<<<<<< HEAD
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense_sheet.py:0
 msgid "Show missing work email employees"
 msgstr ""
 
 #. module: hr_expense
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:hr_expense.field_hr_expense__accounting_date
 #: model:ir.model.fields,help:hr_expense.field_hr_expense_sheet__accounting_date
 msgid "Specify the bill date of the related vendor bill."
@@ -4329,8 +4378,12 @@ msgstr ""
 #. module: hr_expense
 #: model:ir.model.fields,help:hr_expense.field_res_company__expense_journal_id
 #: model:ir.model.fields,help:hr_expense.field_res_config_settings__expense_journal_id
+<<<<<<< HEAD
 msgid ""
 "The company's default journal used when an employee expense is created."
+=======
+msgid "The company's default journal used when an employee expense is created."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_expense
@@ -4342,8 +4395,13 @@ msgstr ""
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_template_register
 msgid ""
+<<<<<<< HEAD
 "The first word of the email subject did not correspond to any category code."
 " You'll have to set the category manually on the expense."
+=======
+"The first word of the email subject did not correspond to any category code. "
+"You'll have to set the category manually on the expense."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_expense
@@ -4382,6 +4440,7 @@ msgstr ""
 
 #. module: hr_expense
 #. odoo-python
+<<<<<<< HEAD
 #: code:addons/hr_expense/models/hr_expense_sheet.py:0
 msgid ""
 "The work email of some employees is missing. Please add it on the employee "
@@ -4390,6 +4449,8 @@ msgstr ""
 
 #. module: hr_expense
 #. odoo-python
+=======
+>>>>>>> upstream/18.0
 #: code:addons/hr_expense/models/product_product.py:0
 msgid ""
 "There are unsubmitted expenses linked to this category. Updating the "
@@ -4589,6 +4650,7 @@ msgstr "Tīmekļa lapas komunikācijas vēsture"
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.product_product_expense_form_view
 msgid ""
+<<<<<<< HEAD
 "When the cost of an expense product is different than 0, then the user"
 "                                             using this product won't be "
 "able to change the amount of the expense,"
@@ -4597,6 +4659,16 @@ msgid ""
 "                                             the company at fixed cost like "
 "allowances for mileage, per diem, accommodation"
 "                                             or meal."
+=======
+"When the cost of an expense product is different than 0, then the "
+"user                                             using this product won't be "
+"able to change the amount of the "
+"expense,                                             only the quantity. Use "
+"a cost different than 0 for expense categories funded "
+"by                                             the company at fixed cost "
+"like allowances for mileage, per diem, "
+"accommodation                                             or meal."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_expense
@@ -4690,8 +4762,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/hr_expense/models/account_move.py:0
 msgid ""
+<<<<<<< HEAD
 "You cannot delete only some entries linked to an expense report. All entries"
 " must be deleted at the same time."
+=======
+"You cannot delete only some entries linked to an expense report. All entries "
+"must be deleted at the same time."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_expense
@@ -4754,8 +4831,12 @@ msgstr ""
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense.py:0
 msgid ""
+<<<<<<< HEAD
 "You cannot set the expense total in currency to 0 if it's linked to a "
 "report."
+=======
+"You cannot set the expense total in currency to 0 if it's linked to a report."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_expense
@@ -4775,6 +4856,32 @@ msgstr ""
 #. module: hr_expense
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense.py:0
+<<<<<<< HEAD
+=======
+msgid ""
+"You don't have the rights to attach a document to a submitted expense. "
+"Please reset the expense report to draft first."
+msgstr ""
+
+#. module: hr_expense
+#. odoo-python
+#: code:addons/hr_expense/models/hr_expense_sheet.py:0
+msgid ""
+"You don't have the rights to bypass the validation process of this expense "
+"report."
+msgstr ""
+
+#. module: hr_expense
+#. odoo-python
+#: code:addons/hr_expense/models/hr_expense.py:0
+msgid ""
+"You don't have the rights to bypass the validation process of this expense."
+msgstr ""
+
+#. module: hr_expense
+#. odoo-python
+#: code:addons/hr_expense/models/hr_expense.py:0
+>>>>>>> upstream/18.0
 msgid "You have no expense to report"
 msgstr ""
 
@@ -4788,8 +4895,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense.py:0
 msgid ""
+<<<<<<< HEAD
 "You need to have at least one category that can be expensed in your database"
 " to proceed!"
+=======
+"You need to have at least one category that can be expensed in your database "
+"to proceed!"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_expense
@@ -4865,7 +4977,11 @@ msgid "e.g. mycompany.com"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "piemēram, mycompany.com"
+>>>>>>> upstream/18.0
 =======
 msgstr "piemēram, mycompany.com"
 >>>>>>> upstream/18.0

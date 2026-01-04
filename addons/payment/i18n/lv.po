@@ -14,8 +14,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* payment
 # 
+=======
+# * payment
+#
+>>>>>>> upstream/18.0
 =======
 # * payment
 #
@@ -94,7 +99,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
@@ -141,6 +150,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -856,6 +866,9 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-05-07 20:37+0000\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-12-19 17:35+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Latvian <https://translate.odoo.com/projects/odoo-18/payment/"
@@ -879,6 +892,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -927,8 +943,13 @@ msgstr ""
 #: code:addons/payment/wizards/payment_onboarding_wizard.py:0
 msgid ""
 "<h3>Please make a payment to: </h3><ul><li>Bank: %(bank)s</li><li>Account "
+<<<<<<< HEAD
 "Number: %(account_number)s</li><li>Account Holder: "
 "%(account_holder)s</li></ul>"
+=======
+"Number: %(account_number)s</li><li>Account Holder: %(account_holder)s</li></"
+"ul>"
+>>>>>>> upstream/18.0
 msgstr ""
 "<h3>Lūdzu, veiciet maksājumu uz: </h3><ul><li>Banka: %(bank)s</li><li>Konta "
 "numurs: %(account_number)s</li><li>Saņēmējs: %(account_holder)s</li></ul>"
@@ -937,19 +958,36 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:payment.payment_method_form
 msgid ""
 "<i class=\"fa fa-exclamation-triangle\"/> These properties are set to\n"
+<<<<<<< HEAD
 "                                match the behavior of providers and that of their integration with\n"
 "                                Odoo regarding this payment method. Any change may result in errors\n"
 "                                and should be tested on a test database first."
+=======
+"                                match the behavior of providers and that of "
+"their integration with\n"
+"                                Odoo regarding this payment method. Any "
+"change may result in errors\n"
+"                                and should be tested on a test database "
+"first."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.portal_breadcrumb
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-home\" role=\"img\" title=\"Home\" aria-label=\"Home\"/>"
 msgstr "<i class=\"fa fa-home\" role=\"img\" title=\"Sākums\" aria-label=\"Sākums\"/>"
+=======
+msgid ""
+"<i class=\"fa fa-home\" role=\"img\" title=\"Home\" aria-label=\"Home\"/>"
+msgstr ""
+"<i class=\"fa fa-home\" role=\"img\" title=\"Sākums\" aria-label=\"Sākums\"/>"
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.payment_capture_wizard_view_form
 msgid ""
+<<<<<<< HEAD
 "<i class=\"fa fa-info-circle oe_inline\" invisible=\"support_partial_capture"
 " != 'full_only'\" title=\"Some of the transactions you intend to capture can"
 " only be captured in full. Handle the transactions individually to capture a"
@@ -959,6 +997,17 @@ msgstr ""
 " != 'full_only'\" title=\"Dažus darījumus, kurus plānojat tvert, var tvert "
 "tikai pilnībā. Apstrādājiet darījumus atsevišķi, lai iegūtu daļēju "
 "summu.\"/>"
+=======
+"<i class=\"fa fa-info-circle oe_inline\" "
+"invisible=\"support_partial_capture != 'full_only'\" title=\"Some of the "
+"transactions you intend to capture can only be captured in full. Handle the "
+"transactions individually to capture a partial amount.\"/>"
+msgstr ""
+"<i class=\"fa fa-info-circle oe_inline\" "
+"invisible=\"support_partial_capture != 'full_only'\" title=\"Dažus "
+"darījumus, kurus plānojat tvert, var tvert tikai pilnībā. Apstrādājiet "
+"darījumus atsevišķi, lai iegūtu daļēju summu.\"/>"
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.token_form
@@ -972,7 +1021,12 @@ msgstr ""
 #. module: payment
 #: model_terms:ir.actions.act_window,help:payment.action_payment_method
 msgid "<i class=\"oi oi-arrow-right me-1\"></i> Configure a payment provider"
+<<<<<<< HEAD
 msgstr "<i class=\"oi oi-arrow-right me-1\"></i> Konfigurēt maksājumu sniedzēju"
+=======
+msgstr ""
+"<i class=\"oi oi-arrow-right me-1\"></i> Konfigurēt maksājumu sniedzēju"
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.payment_provider_form
@@ -1033,7 +1087,12 @@ msgstr "<span><i class=\"fa fa-lock\"/> Nodrošina</span>"
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.no_pms_available_warning
+<<<<<<< HEAD
 msgid "<strong><i class=\"fa fa-file-text\"/> Show availability report</strong>"
+=======
+msgid ""
+"<strong><i class=\"fa fa-file-text\"/> Show availability report</strong>"
+>>>>>>> upstream/18.0
 msgstr ""
 "<strong><i class=\"fa fa-file-text\"/> Rādīt pieejamības atskaiti</strong>"
 
@@ -1046,8 +1105,13 @@ msgstr "<strong><i class=\"oi oi-arrow-right\"/> Maksājumu metodes</strong>"
 #: model_terms:ir.ui.view,arch_db:payment.no_pms_available_warning
 msgid "<strong><i class=\"oi oi-arrow-right\"/> Payment Providers</strong>"
 msgstr ""
+<<<<<<< HEAD
 "<strong><i class=\"oi oi-arrow-right\"/> Maksājumu pakalpojumu "
 "sniedzēji</strong>"
+=======
+"<strong><i class=\"oi oi-arrow-right\"/> Maksājumu pakalpojumu sniedzēji</"
+"strong>"
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.no_pms_available_warning
@@ -1058,7 +1122,12 @@ msgstr "<strong>Maksājumu metodes nav pieejamas</strong>"
 #: model_terms:ir.ui.view,arch_db:payment.payment_capture_wizard_view_form
 msgid ""
 "<strong>Warning!</strong> There is a partial capture pending. Please wait a\n"
+<<<<<<< HEAD
 "                    moment for it to be processed. Check your payment provider configuration if\n"
+=======
+"                    moment for it to be processed. Check your payment "
+"provider configuration if\n"
+>>>>>>> upstream/18.0
 "                    the capture is still pending after a few minutes."
 msgstr ""
 
@@ -1072,7 +1141,12 @@ msgstr ""
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.payment_provider_form
 msgid ""
+<<<<<<< HEAD
 "<strong>Warning</strong> Creating a payment provider from the <em>CREATE</em> button is not supported.\n"
+=======
+"<strong>Warning</strong> Creating a payment provider from the <em>CREATE</"
+"em> button is not supported.\n"
+>>>>>>> upstream/18.0
 "                        Please use the <em>Duplicate</em> action instead."
 msgstr ""
 
@@ -1080,7 +1154,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:payment.pay
 msgid ""
 "<strong>Warning</strong> Make sure you are logged in as the\n"
+<<<<<<< HEAD
 "                                    correct partner before making this payment."
+=======
+"                                    correct partner before making this "
+"payment."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: payment
@@ -2046,7 +2125,11 @@ msgid "Full Only"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tikai pilna summa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tikai pilna summa"
 >>>>>>> upstream/18.0
@@ -2206,8 +2289,12 @@ msgstr "ID"
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.no_pms_available_warning
 msgid ""
+<<<<<<< HEAD
 "If you believe that it is an error, please contact the website "
 "administrator."
+=======
+"If you believe that it is an error, please contact the website administrator."
+>>>>>>> upstream/18.0
 msgstr ""
 "Ja uzskatāt, ka tā ir kļūda, lūdzu, sazinieties ar vietnes administratoru."
 
@@ -3331,8 +3418,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/payment/wizards/payment_capture_wizard.py:0
 msgid ""
+<<<<<<< HEAD
 "Some of the transactions you intend to capture can only be captured in full."
 " Handle the transactions individually to capture a partial amount."
+=======
+"Some of the transactions you intend to capture can only be captured in full. "
+"Handle the transactions individually to capture a partial amount."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: payment
@@ -3452,8 +3544,12 @@ msgstr ""
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_method__brand_ids
 msgid ""
+<<<<<<< HEAD
 "The brands of the payment methods that will be displayed on the payment "
 "form."
+=======
+"The brands of the payment methods that will be displayed on the payment form."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: payment
@@ -3518,9 +3614,15 @@ msgstr ""
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_method__supported_currency_ids
 msgid ""
+<<<<<<< HEAD
 "The list of currencies for that are supported by this payment method (if the"
 " provider allows it). When paying with another currency, this payment method"
 " is not available to customers."
+=======
+"The list of currencies for that are supported by this payment method (if the "
+"provider allows it). When paying with another currency, this payment method "
+"is not available to customers."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: payment
@@ -3578,8 +3680,15 @@ msgstr ""
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_method__primary_payment_method_id
 msgid ""
+<<<<<<< HEAD
 "The primary payment method of the current payment method, if the latter is a brand.\n"
 "For example, \"Card\" is the primary payment method of the card brand \"VISA\"."
+=======
+"The primary payment method of the current payment method, if the latter is a "
+"brand.\n"
+"For example, \"Card\" is the primary payment method of the card brand "
+"\"VISA\"."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: payment
@@ -3655,24 +3764,39 @@ msgstr ""
 #. odoo-python
 #: code:addons/payment/models/payment_transaction.py:0
 msgid ""
+<<<<<<< HEAD
 "The transaction with reference %(ref)s for %(amount)s encountered an error "
 "(%(provider_name)s)."
+=======
+"The transaction with reference %(ref)s for %(amount)s encountered an error (%"
+"(provider_name)s)."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: payment
 #. odoo-python
 #: code:addons/payment/models/payment_transaction.py:0
 msgid ""
+<<<<<<< HEAD
 "The transaction with reference %(ref)s for %(amount)s has been authorized "
 "(%(provider_name)s)."
+=======
+"The transaction with reference %(ref)s for %(amount)s has been authorized (%"
+"(provider_name)s)."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: payment
 #. odoo-python
 #: code:addons/payment/models/payment_transaction.py:0
 msgid ""
+<<<<<<< HEAD
 "The transaction with reference %(ref)s for %(amount)s has been confirmed "
 "(%(provider_name)s)."
+=======
+"The transaction with reference %(ref)s for %(amount)s has been confirmed (%"
+"(provider_name)s)."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: payment
@@ -3715,8 +3839,15 @@ msgstr ""
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_provider__allow_tokenization
 msgid ""
+<<<<<<< HEAD
 "This controls whether customers can save their payment methods as payment tokens.\n"
 "A payment token is an anonymous link to the payment method details saved in the\n"
+=======
+"This controls whether customers can save their payment methods as payment "
+"tokens.\n"
+"A payment token is an anonymous link to the payment method details saved in "
+"the\n"
+>>>>>>> upstream/18.0
 "provider's database, allowing the customer to reuse it for a next purchase."
 msgstr ""
 
@@ -3731,7 +3862,12 @@ msgstr ""
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.payment_link_wizard_view_form
 msgid ""
+<<<<<<< HEAD
 "This partner has no email, which may cause issues with some payment providers.\n"
+=======
+"This partner has no email, which may cause issues with some payment "
+"providers.\n"
+>>>>>>> upstream/18.0
 "                     Setting an email for this partner is advised."
 msgstr ""
 
@@ -4175,7 +4311,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4719,6 +4858,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

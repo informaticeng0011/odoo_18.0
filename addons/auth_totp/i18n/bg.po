@@ -1,7 +1,11 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* auth_totp
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Martin Trigaux, 2024
 # Petko Karamotchev, 2024
@@ -11,11 +15,16 @@
 # Peter Petrov, 2024
 # Venelin Stoykov, 2024
 # Milena Georgieva, 2024
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-09-25 08:40+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Milena Georgieva, 2024\n"
@@ -24,6 +33,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: bg\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Milena Georgieva, 2024\n"
+"Language-Team: Bulgarian (https://app.transifex.com/odoo/teams/41243/bg/)\n"
+"Language: bg\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+>>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: auth_totp
@@ -47,14 +66,26 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:auth_totp.view_totp_wizard
 msgid ""
 "<span class=\"d-md-none d-block\">Or install an authenticator app</span>\n"
+<<<<<<< HEAD
 "                                        <span class=\"d-none d-md-block\">Install an authenticator app on your mobile device</span>"
+=======
+"                                        <span class=\"d-none d-md-"
+"block\">Install an authenticator app on your mobile device</span>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: auth_totp
 #: model_terms:ir.ui.view,arch_db:auth_totp.view_totp_wizard
 msgid ""
+<<<<<<< HEAD
 "<span class=\"d-none d-md-block\">When requested to do so, scan the barcode below</span>\n"
 "                                    <span class=\"d-block d-md-none\">When requested to do so, copy the key below</span>"
+=======
+"<span class=\"d-none d-md-block\">When requested to do so, scan the barcode "
+"below</span>\n"
+"                                    <span class=\"d-block d-md-none\">When "
+"requested to do so, copy the key below</span>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: auth_totp
@@ -94,8 +125,13 @@ msgstr "Добавено на"
 #. module: auth_totp
 #: model_terms:ir.ui.view,arch_db:auth_totp.view_totp_form
 msgid ""
+<<<<<<< HEAD
 "Are you sure? The user may be asked to enter two-factor codes again on those"
 " devices"
+=======
+"Are you sure? The user may be asked to enter two-factor codes again on those "
+"devices"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: auth_totp
@@ -134,8 +170,12 @@ msgstr "Неуспешно сканиране?"
 #. module: auth_totp
 #: model_terms:ir.ui.view,arch_db:auth_totp.view_totp_wizard
 msgid "Click on this link to open your authenticator app"
+<<<<<<< HEAD
 msgstr ""
 "Натиснете върху този линк, за да отворите приложението за автентикация"
+=======
+msgstr "Натиснете върху този линк, за да отворите приложението за автентикация"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp
 #: model:ir.model.fields,field_description:auth_totp.field_auth_totp_wizard__create_uid
@@ -286,7 +326,12 @@ msgstr ""
 #. module: auth_totp
 #: model_terms:ir.ui.view,arch_db:auth_totp.auth_totp_form
 msgid ""
+<<<<<<< HEAD
 "To login, enter below the six-digit authentication code provided by your Authenticator app.\n"
+=======
+"To login, enter below the six-digit authentication code provided by your "
+"Authenticator app.\n"
+>>>>>>> upstream/18.0
 "                        <br/>"
 msgstr ""
 
@@ -320,8 +365,15 @@ msgstr "Двуфакторно заверяване"
 #: model_terms:ir.ui.view,arch_db:auth_totp.view_totp_form
 msgid ""
 "Two-factor Authentication (\"2FA\") is a system of double authentication.\n"
+<<<<<<< HEAD
 "                        The first one is done with your password and the second one with a code you get from a dedicated mobile app.\n"
 "                        Popular ones include Authy, Google Authenticator or the Microsoft Authenticator."
+=======
+"                        The first one is done with your password and the "
+"second one with a code you get from a dedicated mobile app.\n"
+"                        Popular ones include Authy, Google Authenticator or "
+"the Microsoft Authenticator."
+>>>>>>> upstream/18.0
 msgstr ""
 "Двуфакторното заверяване (\"2FA\") е система за двойно заверяване.\n"
 "Първото е през парола, а второто, чрез специализирано мобилно приложение.\n"

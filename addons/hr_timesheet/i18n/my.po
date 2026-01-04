@@ -7,6 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-12-16 13:39+0000\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -461,6 +462,10 @@ msgstr ""
 =======
 "PO-Revision-Date: 2025-11-12 12:40+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2025-11-12 12:40+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: Oakarmin Iron <oakarminiron@gmail.com>\n"
 "Language-Team: Burmese <https://translate.odoo.com/projects/odoo-18/"
 "hr_timesheet/my/>\n"
@@ -522,8 +527,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/hr_timesheet/models/hr_timesheet.py:0
 msgid ""
+<<<<<<< HEAD
 "'%(missing_plan_names)s' analytic plan(s) required on the project "
 "'%(project_name)s' linked to the timesheet."
+=======
+"'%(missing_plan_names)s' analytic plan(s) required on the project '%"
+"(project_name)s' linked to the timesheet."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_timesheet
@@ -566,7 +576,13 @@ msgstr ""
 
 #. module: hr_timesheet
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.view_kanban_account_analytic_line
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-calendar me-1\" role=\"img\" aria-label=\"Date\" title=\"Date\"/>"
+=======
+msgid ""
+"<i class=\"fa fa-calendar me-1\" role=\"img\" aria-label=\"Date\" "
+"title=\"Date\"/>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_timesheet
@@ -591,9 +607,17 @@ msgid ""
 "<span invisible=\"not has_timesheet\">\n"
 "                        You cannot delete employees who have timesheets.\n"
 "                        <span invisible=\"not has_active_employee\">\n"
+<<<<<<< HEAD
 "                            You can either archive these employees or first delete all of their timesheets.\n"
 "                        </span>\n"
 "                        <span invisible=\"has_active_employee\" groups=\"hr_timesheet.group_hr_timesheet_approver\">\n"
+=======
+"                            You can either archive these employees or first "
+"delete all of their timesheets.\n"
+"                        </span>\n"
+"                        <span invisible=\"has_active_employee\" "
+"groups=\"hr_timesheet.group_hr_timesheet_approver\">\n"
+>>>>>>> upstream/18.0
 "                            Please first delete all of their timesheets.\n"
 "                        </span>\n"
 "                    </span>\n"
@@ -769,7 +793,11 @@ msgid "All Timesheets"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "အချိန်ဇယား အားလုံး"
+>>>>>>> upstream/18.0
 =======
 msgstr "အချိန်ဇယား အားလုံး"
 >>>>>>> upstream/18.0
@@ -1085,7 +1113,12 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:hr_timesheet.timesheet_action_report_by_project
 #: model_terms:ir.actions.act_window,help:hr_timesheet.timesheet_action_report_by_task
 msgid ""
+<<<<<<< HEAD
 "Analyze the projects and tasks on which your employees spend their time.<br>\n"
+=======
+"Analyze the projects and tasks on which your employees spend their time."
+"<br>\n"
+>>>>>>> upstream/18.0
 "                Evaluate which part is billable and what costs it represents."
 msgstr ""
 
@@ -1189,7 +1222,11 @@ msgid "Archive Employees"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ဝန်ထမ်းကို Archive ရန်"
+>>>>>>> upstream/18.0
 =======
 msgstr "ဝန်ထမ်းကို Archive ရန်"
 >>>>>>> upstream/18.0
@@ -1566,7 +1603,11 @@ msgid "By Employee"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ဝန်ထမ်းအလိုက်"
+>>>>>>> upstream/18.0
 =======
 msgstr "ဝန်ထမ်းအလိုက်"
 >>>>>>> upstream/18.0
@@ -1915,7 +1956,11 @@ msgid "By Project"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ပရောဂျက်အလိုက်"
+>>>>>>> upstream/18.0
 =======
 msgstr "ပရောဂျက်အလိုက်"
 >>>>>>> upstream/18.0
@@ -2220,7 +2265,11 @@ msgid "By Task"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "တာဝန် အလိုက်"
+>>>>>>> upstream/18.0
 =======
 msgstr "တာဝန် အလိုက်"
 >>>>>>> upstream/18.0
@@ -2511,7 +2560,11 @@ msgid "Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "နေ့ရက်"
+>>>>>>> upstream/18.0
 =======
 msgstr "နေ့ရက်"
 >>>>>>> upstream/18.0
@@ -2982,7 +3035,11 @@ msgid "Effective Hours"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "သက်ရောက် နာရီများ"
+>>>>>>> upstream/18.0
 =======
 msgstr "သက်ရောက် နာရီများ"
 >>>>>>> upstream/18.0
@@ -3288,7 +3345,11 @@ msgid "Employee"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ဝန်ထမ်း"
+>>>>>>> upstream/18.0
 =======
 msgstr "ဝန်ထမ်း"
 >>>>>>> upstream/18.0
@@ -3613,8 +3674,12 @@ msgstr ""
 
 #. module: hr_timesheet
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.res_config_settings_view_form
+<<<<<<< HEAD
 msgid ""
 "Generate timesheets for validated time off requests and public holidays"
+=======
+msgid "Generate timesheets for validated time off requests and public holidays"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_timesheet
@@ -3742,7 +3807,11 @@ msgid "Internal"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "အတွင်းပိုင်း"
+>>>>>>> upstream/18.0
 =======
 msgstr "အတွင်းပိုင်း"
 >>>>>>> upstream/18.0
@@ -4149,7 +4218,11 @@ msgid "Last Month"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "နောက်ဆုံးလ"
+>>>>>>> upstream/18.0
 =======
 msgstr "နောက်ဆုံးလ"
 >>>>>>> upstream/18.0
@@ -4563,7 +4636,11 @@ msgid "Last Quarter"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "နောက်ဆုံး ၃လပါတ်"
+>>>>>>> upstream/18.0
 =======
 msgstr "နောက်ဆုံး ၃လပါတ်"
 >>>>>>> upstream/18.0
@@ -4977,7 +5054,11 @@ msgid "Last Updated by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "နောက်ဆုံးပြင်ဆင်သူ"
+>>>>>>> upstream/18.0
 =======
 msgstr "နောက်ဆုံးပြင်ဆင်သူ"
 >>>>>>> upstream/18.0
@@ -5333,7 +5414,11 @@ msgid "Last Updated on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "နောက်ဆုံးပြင်ဆင်ချိန်"
+>>>>>>> upstream/18.0
 =======
 msgstr "နောက်ဆုံးပြင်ဆင်ချိန်"
 >>>>>>> upstream/18.0
@@ -5532,7 +5617,11 @@ msgid "Last Week"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "နောက်ဆုံးအပါတ်"
+>>>>>>> upstream/18.0
 =======
 msgstr "နောက်ဆုံးအပါတ်"
 >>>>>>> upstream/18.0
@@ -5838,7 +5927,11 @@ msgid "Last Year"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "နောက်ဆုံးနှစ်"
+>>>>>>> upstream/18.0
 =======
 msgstr "နောက်ဆုံးနှစ်"
 >>>>>>> upstream/18.0
@@ -6259,7 +6352,11 @@ msgid "Meeting"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "တွေ့ဆုံခြင်း"
+>>>>>>> upstream/18.0
 =======
 msgstr "တွေ့ဆုံခြင်း"
 >>>>>>> upstream/18.0
@@ -6638,7 +6735,11 @@ msgid "Menu"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "မီနူး"
+>>>>>>> upstream/18.0
 =======
 msgstr "မီနူး"
 >>>>>>> upstream/18.0
@@ -6950,7 +7051,11 @@ msgid "Milestone"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "မိုင်စတုန်း"
+>>>>>>> upstream/18.0
 =======
 msgstr "မိုင်စတုန်း"
 >>>>>>> upstream/18.0
@@ -7136,7 +7241,11 @@ msgid "My Timesheets"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ကျွန်ုပ်၏ အချိန်ဇယားများ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ကျွန်ုပ်၏ အချိန်ဇယားများ"
 >>>>>>> upstream/18.0
@@ -7334,7 +7443,11 @@ msgid "Newest"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "အသစ်ဆုံး"
+>>>>>>> upstream/18.0
 =======
 msgstr "အသစ်ဆုံး"
 >>>>>>> upstream/18.0
@@ -7642,7 +7755,11 @@ msgid "None"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "(None)မသတ်မှတ်"
+>>>>>>> upstream/18.0
 =======
 msgstr "(None)မသတ်မှတ်"
 >>>>>>> upstream/18.0
@@ -7987,7 +8104,11 @@ msgid "Ok"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "အိုကေ"
+>>>>>>> upstream/18.0
 =======
 msgstr "အိုကေ"
 >>>>>>> upstream/18.0
@@ -8369,7 +8490,11 @@ msgid "Product Unit of Measure"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ရေတွက်ပုံ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ရေတွက်ပုံ"
 >>>>>>> upstream/18.0
@@ -8683,7 +8808,11 @@ msgid "Progress"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ပြီးမြှောက်မှူ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ပြီးမြှောက်မှူ"
 >>>>>>> upstream/18.0
@@ -9000,7 +9129,11 @@ msgid "Project"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ပရောဂျက်"
+>>>>>>> upstream/18.0
 =======
 msgstr "ပရောဂျက်"
 >>>>>>> upstream/18.0
@@ -9459,7 +9592,11 @@ msgid "Reporting"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ရီပို့ တင်ပြခြင်း"
+>>>>>>> upstream/18.0
 =======
 msgstr "ရီပို့ တင်ပြခြင်း"
 >>>>>>> upstream/18.0
@@ -9916,7 +10053,11 @@ msgid "See Timesheets"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "အချိန်ဇယားကိုကြည့်ရန်"
+>>>>>>> upstream/18.0
 =======
 msgstr "အချိန်ဇယားကိုကြည့်ရန်"
 >>>>>>> upstream/18.0
@@ -10307,7 +10448,11 @@ msgid "Task"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "တာဝန်"
+>>>>>>> upstream/18.0
 =======
 msgstr "တာဝန်"
 >>>>>>> upstream/18.0
@@ -10527,8 +10672,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/hr_timesheet/models/hr_timesheet.py:0
 msgid ""
+<<<<<<< HEAD
 "The project, the task and the analytic accounts of the timesheet must belong"
 " to the same company."
+=======
+"The project, the task and the analytic accounts of the timesheet must belong "
+"to the same company."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_timesheet
@@ -10540,8 +10690,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/hr_timesheet/models/project_project.py:0
 msgid ""
+<<<<<<< HEAD
 "These projects have some timesheet entries referencing them. Before removing"
 " these projects, you have to remove these timesheet entries."
+=======
+"These projects have some timesheet entries referencing them. Before removing "
+"these projects, you have to remove these timesheet entries."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_timesheet
@@ -10587,8 +10742,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/hr_timesheet/models/project_project.py:0
 msgid ""
+<<<<<<< HEAD
 "This project has some timesheet entries referencing it. Before removing this"
 " project, you have to remove these timesheet entries."
+=======
+"This project has some timesheet entries referencing it. Before removing this "
+"project, you have to remove these timesheet entries."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_timesheet
@@ -10611,7 +10771,12 @@ msgstr ""
 #: model:ir.model.fields,help:hr_timesheet.field_res_config_settings__project_time_mode_id
 msgid ""
 "This will set the unit of measure used in projects and tasks.\n"
+<<<<<<< HEAD
 "If you use the timesheet linked to projects, don't forget to setup the right unit of measure in your employees."
+=======
+"If you use the timesheet linked to projects, don't forget to setup the right "
+"unit of measure in your employees."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_timesheet
@@ -10715,7 +10880,11 @@ msgid "Time Off"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "နားခွင့်"
+>>>>>>> upstream/18.0
 =======
 msgstr "နားခွင့်"
 >>>>>>> upstream/18.0
@@ -11130,7 +11299,11 @@ msgid "Time Spent"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ကုန်သည့်အချိန်"
+>>>>>>> upstream/18.0
 =======
 msgstr "ကုန်သည့်အချိန်"
 >>>>>>> upstream/18.0
@@ -11559,7 +11732,11 @@ msgid "Timesheet"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "အချိန်ဇယား"
+>>>>>>> upstream/18.0
 =======
 msgstr "အချိန်ဇယား"
 >>>>>>> upstream/18.0
@@ -12010,7 +12187,11 @@ msgid "Timesheets"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "အချိန်ဇယားများ"
+>>>>>>> upstream/18.0
 =======
 msgstr "အချိန်ဇယားများ"
 >>>>>>> upstream/18.0
@@ -12369,8 +12550,12 @@ msgstr ""
 #. odoo-python
 #: code:addons/hr_timesheet/models/hr_timesheet.py:0
 msgid ""
+<<<<<<< HEAD
 "Timesheets must be created with an active employee in the selected "
 "companies."
+=======
+"Timesheets must be created with an active employee in the selected companies."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_timesheet
@@ -12444,8 +12629,13 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:hr_timesheet.act_hr_timesheet_line_by_project
 #: model_terms:ir.actions.act_window,help:hr_timesheet.timesheet_action_all
 msgid ""
+<<<<<<< HEAD
 "Track your working hours by projects every day and invoice this time to your"
 " customers."
+=======
+"Track your working hours by projects every day and invoice this time to your "
+"customers."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_timesheet
@@ -12565,7 +12755,11 @@ msgid "Training"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "လေ့ကျင့်သင်ကြားရေး"
+>>>>>>> upstream/18.0
 =======
 msgstr "လေ့ကျင့်သင်ကြားရေး"
 >>>>>>> upstream/18.0
@@ -12916,7 +13110,12 @@ msgid ""
 "        @user Assign the task to a user\n"
 "        ! Set the task a high priority\n"
 "\n"
+<<<<<<< HEAD
 "        Make sure to use the right format and order e.g. Improve the configuration screen 5h #feature #v16 @Mitchell !"
+=======
+"        Make sure to use the right format and order e.g. Improve the "
+"configuration screen 5h #feature #v16 @Mitchell !"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_timesheet
@@ -12944,7 +13143,12 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:hr_timesheet.timesheet_action_from_employee
 msgid ""
 "You can register and track your workings hours by project every\n"
+<<<<<<< HEAD
 "                    day. Every time spent on a project will become a cost and can be re-invoiced to\n"
+=======
+"                    day. Every time spent on a project will become a cost "
+"and can be re-invoiced to\n"
+>>>>>>> upstream/18.0
 "                    customers if required."
 msgstr ""
 
@@ -12963,16 +13167,28 @@ msgstr ""
 #. module: hr_timesheet
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.project_invoice_form
 msgid ""
+<<<<<<< HEAD
 "You cannot log timesheets on this project since it is linked to an inactive analytic account.<br/>\n"
 "                            Please switch to another account, or reactivate the current one to timesheet on the project."
+=======
+"You cannot log timesheets on this project since it is linked to an inactive "
+"analytic account.<br/>\n"
+"                            Please switch to another account, or reactivate "
+"the current one to timesheet on the project."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_timesheet
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.view_task_form2_inherited
 msgid ""
 "You cannot log timesheets on this project since it is linked to an inactive "
+<<<<<<< HEAD
 "analytic account.<br/> Please change this account, or reactivate the current"
 " one to timesheet on the project."
+=======
+"analytic account.<br/> Please change this account, or reactivate the current "
+"one to timesheet on the project."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_timesheet
@@ -12995,7 +13211,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.view_task_form2_inherited
 msgid ""
 "on\n"
+<<<<<<< HEAD
 "                            <span class=\"fw-bold text-dark\"> Sub-tasks</span>)"
+=======
+"                            <span class=\"fw-bold text-dark\"> Sub-tasks</"
+"span>)"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_timesheet

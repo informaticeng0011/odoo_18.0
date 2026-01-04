@@ -14,6 +14,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* mail_group
 # 
 # Translators:
@@ -799,6 +800,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # * mail_group
 #
 # Translators:
@@ -819,6 +822,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -850,6 +856,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-12-16 13:40+0000\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1652,6 +1659,9 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-12-18 10:48+0000\n"
 "Last-Translator: \"Junko Augias (juau)\" <juau@odoo.com>\n"
 "Language-Team: Japanese <https://translate.odoo.com/projects/odoo-18/"
@@ -1675,6 +1685,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1718,21 +1731,45 @@ msgstr "<br/>新しいコンテンツが投稿されるとすぐに通知され�
 msgid ""
 "<div style=\"margin: 0px; padding: 0px;\">\n"
 "                Hello,<br/><br/>\n"
+<<<<<<< HEAD
 "                You have requested to be subscribed to the mailing list <strong t-out=\"object.name or ''\"/>.\n"
 "                <br/><br/>\n"
 "                To confirm, please visit the following link: <strong t-if=\"ctx.get('token_url')\"><a t-att-href=\"ctx['token_url']\"><t t-out=\"ctx['token_url'] or ''\"/></a></strong>\n"
 "                <br/><br/>\n"
 "                If this was a mistake or you did not requested this action, please ignore this message.\n"
+=======
+"                You have requested to be subscribed to the mailing list "
+"<strong t-out=\"object.name or ''\"/>.\n"
+"                <br/><br/>\n"
+"                To confirm, please visit the following link: <strong t-"
+"if=\"ctx.get('token_url')\"><a t-att-href=\"ctx['token_url']\"><t t-"
+"out=\"ctx['token_url'] or ''\"/></a></strong>\n"
+"                <br/><br/>\n"
+"                If this was a mistake or you did not requested this action, "
+"please ignore this message.\n"
+>>>>>>> upstream/18.0
 "            </div>\n"
 "        "
 msgstr ""
 "<div style=\"margin: 0px; padding: 0px;\">\n"
 "                こんにちは。<br/><br/>\n"
+<<<<<<< HEAD
 "                メーリングリスト <strong t-out=\"object.name or ''\"/>へのご登録のご希望を受付いたしました。\n"
 "                <br/><br/>\n"
 "                確定するには以下のリンクをご確認下さい: <strong t-if=\"ctx.get('token_url')\"><a t-att-href=\"ctx['token_url']\"><t t-out=\"ctx['token_url'] or ''\"/></a></strong>\n"
 "                <br/><br/>\n"
 "                間違い、またはこの要求をされていない場合、このメッセージは無視して下さい。\n"
+=======
+"                メーリングリスト <strong t-out=\"object.name or ''\"/>へのご"
+"登録のご希望を受付いたしました。\n"
+"                <br/><br/>\n"
+"                確定するには以下のリンクをご確認下さい: <strong t-"
+"if=\"ctx.get('token_url')\"><a t-att-href=\"ctx['token_url']\"><t t-"
+"out=\"ctx['token_url'] or ''\"/></a></strong>\n"
+"                <br/><br/>\n"
+"                間違い、またはこの要求をされていない場合、このメッセージは無"
+"視して下さい。\n"
+>>>>>>> upstream/18.0
 "            </div>\n"
 "        "
 
@@ -1741,21 +1778,45 @@ msgstr ""
 msgid ""
 "<div style=\"margin: 0px; padding: 0px;\">\n"
 "                Hello,<br/><br/>\n"
+<<<<<<< HEAD
 "                You have requested to be unsubscribed to the mailing list <strong t-out=\"object.name or ''\"/>.\n"
 "                <br/><br/>\n"
 "                To confirm, please visit the following link: <strong t-if=\"ctx.get('token_url')\"><a t-att-href=\"ctx['token_url']\"><t t-out=\"ctx['token_url'] or ''\"/></a></strong>.\n"
 "                <br/><br/>\n"
 "                If this was a mistake or you did not requested this action, please ignore this message.\n"
+=======
+"                You have requested to be unsubscribed to the mailing list "
+"<strong t-out=\"object.name or ''\"/>.\n"
+"                <br/><br/>\n"
+"                To confirm, please visit the following link: <strong t-"
+"if=\"ctx.get('token_url')\"><a t-att-href=\"ctx['token_url']\"><t t-"
+"out=\"ctx['token_url'] or ''\"/></a></strong>.\n"
+"                <br/><br/>\n"
+"                If this was a mistake or you did not requested this action, "
+"please ignore this message.\n"
+>>>>>>> upstream/18.0
 "            </div>\n"
 "        "
 msgstr ""
 "<div style=\"margin: 0px; padding: 0px;\">\n"
 "                こんにちは。<br/><br/>\n"
+<<<<<<< HEAD
 "                メーリングリスト <strong t-out=\"object.name or ''\"/>へのご登録のご希望を受付け致しました。\n"
 "                <br/><br/>\n"
 "                確定するには以下のリンクをご確認下さい: <strong t-if=\"ctx.get('token_url')\"><a t-att-href=\"ctx['token_url']\"><t t-out=\"ctx['token_url'] or ''\"/></a></strong>.\n"
 "                <br/><br/>\n"
 "                間違い、またはこの要求をされていない場合、このメッセージは無視して下さい。\n"
+=======
+"                メーリングリスト <strong t-out=\"object.name or ''\"/>へのご"
+"登録のご希望を受付け致しました。\n"
+"                <br/><br/>\n"
+"                確定するには以下のリンクをご確認下さい: <strong t-"
+"if=\"ctx.get('token_url')\"><a t-att-href=\"ctx['token_url']\"><t t-"
+"out=\"ctx['token_url'] or ''\"/></a></strong>.\n"
+"                <br/><br/>\n"
+"                間違い、またはこの要求をされていない場合、このメッセージは無"
+"視して下さい。\n"
+>>>>>>> upstream/18.0
 "            </div>\n"
 "        "
 
@@ -1764,34 +1825,72 @@ msgstr ""
 msgid ""
 "<div>\n"
 "                <p>Hello <t t-out=\"object.partner_id.name or ''\"/>,</p>\n"
+<<<<<<< HEAD
 "                <p>Please find below the guidelines of the <t t-out=\"object.mail_group_id.name\"/> mailing list.</p>\n"
 "                <p><t t-out=\"object.mail_group_id.moderation_guidelines_msg or ''\"/></p>\n"
+=======
+"                <p>Please find below the guidelines of the <t t-"
+"out=\"object.mail_group_id.name\"/> mailing list.</p>\n"
+"                <p><t t-out=\"object.mail_group_id.moderation_guidelines_msg "
+"or ''\"/></p>\n"
+>>>>>>> upstream/18.0
 "            </div>\n"
 "        "
 msgstr ""
 "<div>\n"
+<<<<<<< HEAD
 "                <p>こんにちは <t t-out=\"object.partner_id.name or ''\"/></p>\n"
 "                <p> 以下に<t t-out=\"object.mail_group_id.name\"/> メーリングリスト</p>のガイドラインをお送りします。\n"
 "                <p><t t-out=\"object.mail_group_id.moderation_guidelines_msg or ''\"/></p>\n"
+=======
+"                <p>こんにちは <t t-out=\"object.partner_id.name or ''\"/></"
+"p>\n"
+"                <p> 以下に<t t-out=\"object.mail_group_id.name\"/> メーリング"
+"リスト</p>のガイドラインをお送りします。\n"
+"                <p><t t-out=\"object.mail_group_id.moderation_guidelines_msg "
+"or ''\"/></p>\n"
+>>>>>>> upstream/18.0
 "            </div>\n"
 "        "
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.message_footer
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-calendar\" role=\"img\" aria-label=\"Date\" title=\"Date\"/>"
 msgstr "<i class=\"fa fa-calendar\" role=\"img\" aria-label=\"Date\" title=\"Date\"/>"
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_groups
 msgid "<i class=\"fa fa-envelope-o me-1\" role=\"img\" aria-label=\"Alias\" title=\"Alias\"/>"
+=======
+msgid ""
+"<i class=\"fa fa-calendar\" role=\"img\" aria-label=\"Date\" title=\"Date\"/>"
+msgstr ""
+"<i class=\"fa fa-calendar\" role=\"img\" aria-label=\"Date\" title=\"Date\"/>"
+
+#. module: mail_group
+#: model_terms:ir.ui.view,arch_db:mail_group.mail_groups
+msgid ""
+"<i class=\"fa fa-envelope-o me-1\" role=\"img\" aria-label=\"Alias\" "
+"title=\"Alias\"/>"
+>>>>>>> upstream/18.0
 msgstr ""
 "<i class=\"fa fa-envelope-o me-1\" role=\"img\" aria-label=\"Alias\" "
 "title=\"Alias\"/>"
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.group_name
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-envelope-o\" role=\"img\" aria-label=\"Alias\" title=\"Alias\"/>"
 msgstr "<i class=\"fa fa-envelope-o\" role=\"img\" aria-label=\"Alias\" title=\"Alias\"/>"
+=======
+msgid ""
+"<i class=\"fa fa-envelope-o\" role=\"img\" aria-label=\"Alias\" "
+"title=\"Alias\"/>"
+msgstr ""
+"<i class=\"fa fa-envelope-o\" role=\"img\" aria-label=\"Alias\" "
+"title=\"Alias\"/>"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_groups
@@ -1823,11 +1922,19 @@ msgstr ""
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.message_attachments
 msgid ""
+<<<<<<< HEAD
 "<i class=\"oi oi-chevron-down\" role=\"img\" aria-label=\"Show attachments\""
 " title=\"Show attachments\"/>"
 msgstr ""
 "<i class=\"oi oi-chevron-down\" role=\"img\" aria-label=\"Show attachments\""
 " title=\"Show attachments\"/>"
+=======
+"<i class=\"oi oi-chevron-down\" role=\"img\" aria-label=\"Show attachments\" "
+"title=\"Show attachments\"/>"
+msgstr ""
+"<i class=\"oi oi-chevron-down\" role=\"img\" aria-label=\"Show attachments\" "
+"title=\"Show attachments\"/>"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.messages_short
@@ -1864,11 +1971,23 @@ msgstr "<span class=\"bg-warning\">保留</span>"
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_message_view_form
 msgid ""
+<<<<<<< HEAD
 "<span class=\"ms-2 badge text-bg-success\" invisible=\"author_moderation != 'allow'\">Whitelisted</span>\n"
 "                            <span class=\"ms-2 badge text-bg-danger\" invisible=\"author_moderation != 'ban'\">Banned</span>"
 msgstr ""
 "<span class=\"ms-2 badge text-bg-success\" invisible=\"author_moderation != 'allow'\">ホワイトリスト</span>\n"
 "                            <span class=\"ms-2 badge text-bg-danger\" invisible=\"author_moderation != 'ban'\">禁止</span>"
+=======
+"<span class=\"ms-2 badge text-bg-success\" invisible=\"author_moderation != "
+"'allow'\">Whitelisted</span>\n"
+"                            <span class=\"ms-2 badge text-bg-danger\" "
+"invisible=\"author_moderation != 'ban'\">Banned</span>"
+msgstr ""
+"<span class=\"ms-2 badge text-bg-success\" invisible=\"author_moderation != "
+"'allow'\">ホワイトリスト</span>\n"
+"                            <span class=\"ms-2 badge text-bg-danger\" "
+"invisible=\"author_moderation != 'ban'\">禁止</span>"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.message_footer
@@ -1894,7 +2013,13 @@ msgstr ""
 msgid ""
 "A Python dictionary that will be evaluated to provide default values when "
 "creating new records for this alias."
+<<<<<<< HEAD
 msgstr "このエイリアスの新しいレコードを作成する時にデフォルト値を与えるためのPython辞書です。"
+=======
+msgstr ""
+"このエイリアスの新しいレコードを作成する時にデフォルト値を与えるためのPython"
+"辞書です。"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_message_view_form
@@ -2102,7 +2227,11 @@ msgid "Accept"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "受理"
+=======
+msgstr "承認"
+>>>>>>> upstream/18.0
 =======
 msgstr "承認"
 >>>>>>> upstream/18.0
@@ -2916,7 +3045,11 @@ msgid "Accepted"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "受理済み"
+=======
+msgstr "承認済"
+>>>>>>> upstream/18.0
 =======
 msgstr "承認済"
 >>>>>>> upstream/18.0
@@ -3718,7 +3851,11 @@ msgid "Active"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "有効化"
+=======
+msgstr "アクティブ"
+>>>>>>> upstream/18.0
 =======
 msgstr "アクティブ"
 >>>>>>> upstream/18.0
@@ -4284,6 +4421,7 @@ msgstr "アクティブ"
 msgid ""
 "Add this email address to white list of people and accept all pending "
 "messages from the same author."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5093,6 +5231,11 @@ msgstr "このメールアドレスをホワイトリストに追加し、同じ
 =======
 msgstr "このメールアドレスをホワイトリストに追加し、同じ著作者からの保留中のメッセージをすべて承認します。"
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"このメールアドレスをホワイトリストに追加し、同じ著作者からの保留中のメッセー"
+"ジをすべて承認します。"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group__alias_id
@@ -5164,6 +5307,7 @@ msgstr "常に許可する"
 #. odoo-javascript
 #: code:addons/mail_group/static/src/js/mail_group.js:0
 msgid "An email with instructions has been sent."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5769,6 +5913,9 @@ msgstr "手順を記載したメールを送信しました。"
 =======
 msgstr "手順を記載したメールを送信しました。"
 >>>>>>> upstream/18.0
+=======
+msgstr "手順を記載したメールを送信しました。"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_view_search
@@ -5798,9 +5945,17 @@ msgstr "著作者モデレーションステータス"
 #. module: mail_group
 #: model:ir.model.fields,help:mail_group.field_mail_group_message__author_id
 msgid ""
+<<<<<<< HEAD
 "Author of the message. If not set, email_from may hold an email address that"
 " did not match any partner."
 msgstr "メッセージの作成者。設定されない場合、email_fromはどの取引先とも一致しないメールアドレスを保持します。"
+=======
+"Author of the message. If not set, email_from may hold an email address that "
+"did not match any partner."
+msgstr ""
+"メッセージの作成者。設定されない場合、email_fromはどの取引先とも一致しない"
+"メールアドレスを保持します。"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group__access_group_id
@@ -5831,7 +5986,13 @@ msgstr "メッセージの著作者を禁止 ("
 msgid ""
 "Ban this email address and reject all pending messages from the same author "
 "and send an email to the author"
+<<<<<<< HEAD
 msgstr "このメールアドレスを禁止し、同じ著作者からの保留中のメッセージを全て拒否し、作者にメールを送信します。"
+=======
+msgstr ""
+"このメールアドレスを禁止し、同じ著作者からの保留中のメッセージを全て拒否し、"
+"作者にメールを送信します。"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields.selection,name:mail_group.selection__mail_group_message__author_moderation__ban
@@ -5876,6 +6037,7 @@ msgstr " {{ object.name }}へのサブスクリプションを確認"
 #. module: mail_group
 #: model:mail.template,subject:mail_group.mail_template_list_unsubscribe
 msgid "Confirm unsubscription to {{ object.name }}"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6669,6 +6831,9 @@ msgstr " {{ object.name }} の購読解除を確認してください"
 =======
 msgstr " {{ object.name }} の購読解除を確認してください"
 >>>>>>> upstream/18.0
+=======
+msgstr " {{ object.name }} の購読解除を確認してください"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group_message__body
@@ -6766,7 +6931,12 @@ msgid ""
 "Email address of the sender. This field is set when no matching partner is "
 "found and replaces the author_id field in the chatter."
 msgstr ""
+<<<<<<< HEAD
 "送信者のメールアドレス。 このフィールドは、一致する取引先が見つからない場合は設定され、チャータ内のauthor_idフィールドを置き換えます。"
+=======
+"送信者のメールアドレス。 このフィールドは、一致する取引先が見つからない場合は"
+"設定され、チャータ内のauthor_idフィールドを置き換えます。"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,help:mail_group.field_mail_group__alias_domain
@@ -6828,7 +6998,13 @@ msgstr "グループ名"
 #. odoo-python
 #: code:addons/mail_group/models/mail_group_message.py:0
 msgid "Group message can only be linked to mail group. Current model is %s."
+<<<<<<< HEAD
 msgstr "グループメッセージはメールグループにのみリンクできます。現在のモデルは%sです。"
+=======
+msgstr ""
+"グループメッセージはメールグループにのみリンクできます。現在のモデルは%sで"
+"す。"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group__moderation_guidelines_msg
@@ -6858,16 +7034,30 @@ msgstr "ID"
 #. module: mail_group
 #: model:ir.model.fields,help:mail_group.field_mail_group__alias_parent_thread_id
 msgid ""
+<<<<<<< HEAD
 "ID of the parent record holding the alias (example: project holding the task"
 " creation alias)"
 msgstr "エイリアスを保持する親レコードのID(例：プロジェクトは、タスク作成エイリアスを保持)"
+=======
+"ID of the parent record holding the alias (example: project holding the task "
+"creation alias)"
+msgstr ""
+"エイリアスを保持する親レコードのID(例：プロジェクトは、タスク作成エイリアスを"
+"保持)"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,help:mail_group.field_mail_group__alias_bounced_content
 msgid ""
 "If set, this content will automatically be sent out to unauthorized users "
 "instead of the default message."
+<<<<<<< HEAD
 msgstr "設定されている場合、このコンテンツはデフォルトのメッセージではなく、許可されていないユーザーに自動的に送信されます。"
+=======
+msgstr ""
+"設定されている場合、このコンテンツはデフォルトのメッセージではなく、許可され"
+"ていないユーザーに自動的に送信されます。"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group__image_128
@@ -7019,7 +7209,13 @@ msgstr "メーリングリスト"
 msgid ""
 "Mailing groups are communities that like to discuss a specific topic "
 "together."
+<<<<<<< HEAD
 msgstr "メーリンググループは、特定のトピックについて一緒に議論することを好むコミュニティです。"
+=======
+msgstr ""
+"メーリンググループは、特定のトピックについて一緒に議論することを好むコミュニ"
+"ティです。"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_footer
@@ -7187,14 +7383,26 @@ msgid ""
 "Need to unsubscribe? <br/>It's right here! <span class=\"oi fa-2x oi-arrow-"
 "down float-end\" role=\"img\" aria-label=\"\" title=\"Read this !\"/>"
 msgstr ""
+<<<<<<< HEAD
 "サブスクリプション解除が必要ですか？<br/>ここですぐできます！<span class=\"oi fa-2x oi-arrow-down float-"
 "end\" role=\"img\" aria-label=\"\" title=\"Read this !\"/>"
+=======
+"サブスクリプション解除が必要ですか？<br/>ここですぐできます！<span "
+"class=\"oi fa-2x oi-arrow-down float-end\" role=\"img\" aria-label=\"\" "
+"title=\"Read this !\"/>"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,help:mail_group.field_mail_group__moderation_guidelines
 msgid ""
 "Newcomers on this moderated group will automatically receive the guidelines."
+<<<<<<< HEAD
 msgstr "このモデレートされたグループに新たに参加する人は、自動的にガイドラインを受け取ります。"
+=======
+msgstr ""
+"このモデレートされたグループに新たに参加する人は、自動的にガイドラインを受け"
+"取ります。"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.actions.act_window,help:mail_group.mail_group_member_action
@@ -7236,7 +7444,12 @@ msgstr "このグループのメッセージ数"
 #: code:addons/mail_group/models/mail_group.py:0
 msgid ""
 "Only an administrator or a moderator can send guidelines to group members."
+<<<<<<< HEAD
 msgstr "管理者またはモデレータのみがグループメンバにガイドラインを送信できます。"
+=======
+msgstr ""
+"管理者またはモデレータのみがグループメンバにガイドラインを送信できます。"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #. odoo-python
@@ -7248,7 +7461,12 @@ msgstr "メンバのみがメーリングリストにEメールを送信でき�
 #. odoo-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "Only selected groups of users can send email to the mailing list."
+<<<<<<< HEAD
 msgstr "選択されたユーザグループのみがメーリングリストにEメールを送信できます。"
+=======
+msgstr ""
+"選択されたユーザグループのみがメーリングリストにEメールを送信できます。"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,help:mail_group.field_mail_group__alias_force_thread_id
@@ -7256,7 +7474,13 @@ msgid ""
 "Optional ID of a thread (record) to which all incoming messages will be "
 "attached, even if they did not reply to it. If set, this will disable the "
 "creation of new records completely."
+<<<<<<< HEAD
 msgstr "すべての受信メッセージに添付されるスレッド(レコード)のオプションIDです。設定した場合は新しいレコードの作成を無効にします。"
+=======
+msgstr ""
+"すべての受信メッセージに添付されるスレッド(レコード)のオプションIDです。設定"
+"した場合は新しいレコードの作成を無効にします。"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group_message__group_message_parent_id
@@ -7276,11 +7500,21 @@ msgstr "親レコードスレッドID"
 #. module: mail_group
 #: model:ir.model.fields,help:mail_group.field_mail_group__alias_parent_model_id
 msgid ""
+<<<<<<< HEAD
 "Parent model holding the alias. The model holding the alias reference is not"
 " necessarily the model given by alias_model_id (example: project "
 "(parent_model) and task (model))"
 msgstr ""
 "エイリアスを保持する親モデル。エイリアスの参照を保持しているモデルは、必ずしもalias_model_idによって与えられたモデルではありません(例：プロジェクト(parent_model)とタスク(model))"
+=======
+"Parent model holding the alias. The model holding the alias reference is not "
+"necessarily the model given by alias_model_id (example: project "
+"(parent_model) and task (model))"
+msgstr ""
+"エイリアスを保持する親モデル。エイリアスの参照を保持しているモデルは、必ずし"
+"もalias_model_idによって与えられたモデルではありません(例：プロジェクト"
+"(parent_model)とタスク(model))"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group_member__partner_id
@@ -7312,7 +7546,13 @@ msgstr "モデレーション待ち"
 msgid ""
 "People receive an automatic notification about their message being waiting "
 "for moderation."
+<<<<<<< HEAD
 msgstr "メッセージ送信者はメッセージがもでレーション待ちである旨の自動通知を受け取ります。"
+=======
+msgstr ""
+"メッセージ送信者はメッセージがもでレーション待ちである旨の自動通知を受け取り"
+"ます。"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields.selection,name:mail_group.selection__mail_group_moderation__status__ban
@@ -7325,6 +7565,7 @@ msgid ""
 "Policy to post a message on the document using the mailgateway.\n"
 "- everyone: everyone can post\n"
 "- partners: only authenticated partners\n"
+<<<<<<< HEAD
 "- followers: only followers of the related document or members of following channels\n"
 msgstr ""
 "メールゲートウェイを使用したメッセージドキュメント投稿のポリシー\n"
@@ -8465,6 +8706,16 @@ msgstr ""
 "- 取引先: 認証済みの取引先のみ\n"
 "- フォロワー: 関連ドキュメントのフォロワーか、フォローしているチャネルのメンバーのみ\n"
 >>>>>>> upstream/18.0
+=======
+"- followers: only followers of the related document or members of following "
+"channels\n"
+msgstr ""
+"メールゲートウェイを使用したメッセージドキュメント投稿のポリシー\n"
+"- 全員: 誰でも投稿可能\n"
+"- 取引先: 認証済みの取引先のみ\n"
+"- フォロワー: 関連ドキュメントのフォロワーか、フォローしているチャネルのメン"
+"バーのみ\n"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_footer
@@ -8648,11 +8899,19 @@ msgstr "メーリンググループへの登録確認"
 #. odoo-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid ""
+<<<<<<< HEAD
 "Template \"mail_group.mail_template_guidelines\" was not found. No email has"
 " been sent. Please contact an administrator to fix this issue."
 msgstr ""
 "テンプレート \"mail_group.mail_template_guidelines\" "
 "が見つかりません。Eメールは送信されていません。この問題を解決するには管理者に連絡して下さい。"
+=======
+"Template \"mail_group.mail_template_guidelines\" was not found. No email has "
+"been sent. Please contact an administrator to fix this issue."
+msgstr ""
+"テンプレート \"mail_group.mail_template_guidelines\" が見つかりません。Eメー"
+"ルは送信されていません。この問題を解決するには管理者に連絡して下さい。"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_notify_moderation
@@ -8697,18 +8956,34 @@ msgstr "ガイドライン説明がありません。"
 #. module: mail_group
 #: model:ir.model.fields,help:mail_group.field_mail_group__alias_model_id
 msgid ""
+<<<<<<< HEAD
 "The model (Odoo Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
 msgstr ""
 "このエイリアスに対応した(Odooドキュメント種別)モデル。既存のレコードに返信しない任意の受信メールは、このモデルの新しいレコード(例えば、プロジェクトタスク)の作成を引き起こします"
+=======
+"The model (Odoo Document Kind) to which this alias corresponds. Any incoming "
+"email that does not reply to an existing record will cause the creation of a "
+"new record of this model (e.g. a Project Task)"
+msgstr ""
+"このエイリアスに対応した(Odooドキュメント種別)モデル。既存のレコードに返信し"
+"ない任意の受信メールは、このモデルの新しいレコード(例えば、プロジェクトタス"
+"ク)の作成を引き起こします"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,help:mail_group.field_mail_group__alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
 "<jobs@example.odoo.com>"
+<<<<<<< HEAD
 msgstr "eメールのエイリアス.例えば<jobs@example.odoo.com>のメールを受け取りたい場合'jobs’を選択"
+=======
+msgstr ""
+"eメールのエイリアス.例えば<jobs@example.odoo.com>のメールを受け取りたい場"
+"合'jobs’を選択"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #. odoo-python
@@ -8800,7 +9075,12 @@ msgstr "誤ったステータス (%s)"
 #. module: mail_group
 #: model:ir.model.constraint,message:mail_group.constraint_mail_group_moderation_mail_group_email_uniq
 msgid "You can create only one rule for a given email address in a group."
+<<<<<<< HEAD
 msgstr "グループ内の指定されたメールアドレスに対して作成できる規則は1つだけです。"
+=======
+msgstr ""
+"グループ内の指定されたメールアドレスに対して作成できる規則は1つだけです。"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_notify_moderation
@@ -8856,10 +9136,19 @@ msgstr "これまで"
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_groups
 msgid ""
 "members<br/>\n"
+<<<<<<< HEAD
 "                        <i class=\"fa fa-fw fa-envelope-o\" role=\"img\" aria-label=\"Traffic\" title=\"Traffic\"/>"
 msgstr ""
 "メンバ<br/>\n"
 "                        <i class=\"fa fa-fw fa-envelope-o\" role=\"img\" aria-label=\"Traffic\" title=\"Traffic\"/>"
+=======
+"                        <i class=\"fa fa-fw fa-envelope-o\" role=\"img\" "
+"aria-label=\"Traffic\" title=\"Traffic\"/>"
+msgstr ""
+"メンバ<br/>\n"
+"                        <i class=\"fa fa-fw fa-envelope-o\" role=\"img\" "
+"aria-label=\"Traffic\" title=\"Traffic\"/>"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_groups
@@ -8883,7 +9172,11 @@ msgid "more replies"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "さらなる返信"
+=======
+msgstr "さらに返信を表示"
+>>>>>>> upstream/18.0
 =======
 msgstr "さらに返信を表示"
 >>>>>>> upstream/18.0

@@ -1,16 +1,25 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* purchase_requisition
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Tiffany Chang, 2024
 # Wil Odoo, 2024
 # Malaz Abuidris <msea@odoo.com>, 2024
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Malaz Abuidris <msea@odoo.com>, 2024\n"
@@ -20,6 +29,18 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: ar\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Malaz Abuidris <msea@odoo.com>, 2024\n"
+"Language-Team: Arabic (https://app.transifex.com/odoo/teams/41243/ar/)\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.report_purchaserequisition_document
@@ -324,6 +345,7 @@ msgstr "إنشاء بديل "
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.purchase_order_form_inherit
 msgid ""
+<<<<<<< HEAD
 "Create a call for tender by adding alternative requests for quotation to different vendors.\n"
 "                            Make your choice by selecting the best combination of lead time, OTD and/or total amount.\n"
 "                            By comparing product lines you can also decide to order some products from one vendor and others from another vendor."
@@ -331,6 +353,20 @@ msgstr ""
 "قم بإنشاء طلب مناقصات عن طريق إضافة طلبات عروض أسعار بديلة إلى عدة موردين.\n"
 "                            قم باتخاذ قرارك عن طريق تحديد العرض الذي يحتوي على أفضل مهلة تسليم، التوصيل في الوقت المحدد، و/أو المبلغ الإجمالي.\n"
 "                            عند مقارنتك لبنود المنتجات، يمكنك أيضاً أن تقرر طلب بعض المنتجات من مورّد واحد وبقية المنتجات من مورّد آخر. "
+=======
+"Create a call for tender by adding alternative requests for quotation to "
+"different vendors.\n"
+"                            Make your choice by selecting the best "
+"combination of lead time, OTD and/or total amount.\n"
+"                            By comparing product lines you can also decide "
+"to order some products from one vendor and others from another vendor."
+msgstr ""
+"قم بإنشاء طلب مناقصات عن طريق إضافة طلبات عروض أسعار بديلة إلى عدة موردين.\n"
+"                            قم باتخاذ قرارك عن طريق تحديد العرض الذي يحتوي "
+"على أفضل مهلة تسليم، التوصيل في الوقت المحدد، و/أو المبلغ الإجمالي.\n"
+"                            عند مقارنتك لبنود المنتجات، يمكنك أيضاً أن تقرر "
+"طلب بعض المنتجات من مورّد واحد وبقية المنتجات من مورّد آخر. "
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #. odoo-python
@@ -451,7 +487,12 @@ msgstr "أيقونة من Font awesome مثال: fa-tasks "
 #: model_terms:ir.actions.act_window,help:purchase_requisition.action_purchase_requisition
 msgid ""
 "For a blanket order, you can record an agreement for a specific period\n"
+<<<<<<< HEAD
 "            (e.g. a year) and you order products within this agreement to benefit\n"
+=======
+"            (e.g. a year) and you order products within this agreement to "
+"benefit\n"
+>>>>>>> upstream/18.0
 "            from the negotiated prices."
 msgstr ""
 "للطلبات الشاملة، بإمكانك تسجيل اتفاقية لفترة محددة\n"
@@ -514,9 +555,15 @@ msgstr "إذا كان محددًا، فقد حدث خطأ في تسليم بعض
 #: model:ir.model.fields,help:purchase_requisition.field_purchase_requisition_create_alternative__creation_blocked
 msgid ""
 "If the chosen vendor or if any of the products in the original PO have a "
+<<<<<<< HEAD
 "blocking warning then we prevent creation of alternative PO. This is because"
 " normally these fields are cleared w/warning message within form view, but "
 "we cannot recreate that in this case."
+=======
+"blocking warning then we prevent creation of alternative PO. This is because "
+"normally these fields are cleared w/warning message within form view, but we "
+"cannot recreate that in this case."
+>>>>>>> upstream/18.0
 msgstr ""
 "إذا كان لدى المورّد المحدد أو أي منتج في أمر الشراء الأصلي تحذير يمنعك من "
 "الاستمرار، نقوم عندها بمنع إنشاء أمر الشراء البديل. يحدث ذلك لأنه عادة ما "
@@ -606,8 +653,13 @@ msgstr "اتفاقياتي"
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.purchase_order_form_inherit
 msgid "Name, TIN, Email, or Reference"
 msgstr ""
+<<<<<<< HEAD
 "الاسم أو الرقم التعريفي لدافع الضرائب، أو البريد الإلكتروني، أو بواسطة الرقم"
 " المرجعي "
+=======
+"الاسم أو الرقم التعريفي لدافع الضرائب، أو البريد الإلكتروني، أو بواسطة الرقم "
+"المرجعي "
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #. odoo-python
@@ -970,9 +1022,15 @@ msgstr "أمر الشراء الأصلي الذي يتم إنشاء أمر ال�
 #. odoo-python
 #: code:addons/purchase_requisition/wizard/purchase_requisition_create_alternative.py:0
 msgid ""
+<<<<<<< HEAD
 "The vendor you have selected or at least one of the products you are copying"
 " from the original order has a blocking warning on it and cannot be selected"
 " to create an alternative."
+=======
+"The vendor you have selected or at least one of the products you are copying "
+"from the original order has a blocking warning on it and cannot be selected "
+"to create an alternative."
+>>>>>>> upstream/18.0
 msgstr ""
 "المورّد الذي قمت بتحديده أو إحدى المنتجات التي تقوم بنسخها من الطلب الأصلي "
 "بها تحذير يمنعها من الاستمرار ولا يمكن تحديدها لإنشاء بديل. "
@@ -1005,11 +1063,21 @@ msgstr "هذا التحذير لمنعك من الاستمرار! \n"
 msgid ""
 "To close this purchase requisition, cancel related Requests for Quotation.\n"
 "\n"
+<<<<<<< HEAD
 "Imagine the mess if someone confirms these duplicates: double the order, double the trouble :)"
 msgstr ""
 "لإغلاق طلب الشراء هذا، قم بإلغاء طلبات عروض الأسعار ذات الصلة.\n"
 "\n"
 "تخيل الفوضى العارمة إذا قام شخص ما بتأكيد تلك النسخ المكررة: ضعفي الطلب، ضعفي الورطة :) "
+=======
+"Imagine the mess if someone confirms these duplicates: double the order, "
+"double the trouble :)"
+msgstr ""
+"لإغلاق طلب الشراء هذا، قم بإلغاء طلبات عروض الأسعار ذات الصلة.\n"
+"\n"
+"تخيل الفوضى العارمة إذا قام شخص ما بتأكيد تلك النسخ المكررة: ضعفي الطلب، "
+"ضعفي الورطة :) "
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_filter
@@ -1100,8 +1168,13 @@ msgstr "ماذا عن طلبات عروض الأسعار البديلة؟ "
 #. module: purchase_requisition
 #: model:ir.model.fields,help:purchase_requisition.field_purchase_order__has_alternatives
 msgid ""
+<<<<<<< HEAD
 "Whether or not this purchase order is linked to another purchase order as an"
 " alternative."
+=======
+"Whether or not this purchase order is linked to another purchase order as an "
+"alternative."
+>>>>>>> upstream/18.0
 msgstr "ما إذا كان أمر الشراء هذا مرتبطاً بأمر شراء آخر كبديل، أم لا. "
 
 #. module: purchase_requisition
@@ -1145,8 +1218,13 @@ msgstr "لا يمكنك تأكيد طلب شامل إذا كانت هناك بن
 #. odoo-python
 #: code:addons/purchase_requisition/models/purchase_requisition.py:0
 msgid ""
+<<<<<<< HEAD
 "You cannot confirm agreement '%(agreement)s' because it does not contain any"
 " product lines."
+=======
+"You cannot confirm agreement '%(agreement)s' because it does not contain any "
+"product lines."
+>>>>>>> upstream/18.0
 msgstr ""
 "لا يمكنك تأكيد الاتفاقية '%(agreement)s' لأنها لا تحتوي على بنود منتجات. "
 

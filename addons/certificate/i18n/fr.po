@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* certificate
+<<<<<<< HEAD
 # 
 # Translators:
 # Jolien De Paepe, 2024
@@ -763,10 +764,19 @@
 # Manon Rondou, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+#
+# Translators:
+# Jolien De Paepe, 2024
+# Wil Odoo, 2024
+# Manon Rondou, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-12-16 13:39+0000\n"
 "PO-Revision-Date: 2024-09-29 00:00+0000\n"
 <<<<<<< HEAD
@@ -1532,6 +1542,18 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: fr\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2024-09-29 00:00+0000\n"
+"Last-Translator: Manon Rondou, 2025\n"
+"Language-Team: French (https://app.transifex.com/odoo/teams/41243/fr/)\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % "
+"1000000 == 0 ? 1 : 2;\n"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #. odoo-python
@@ -2055,7 +2077,10 @@ msgstr "Date de début de validité du certificat (UTC)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2626,6 +2651,9 @@ msgstr "La taille de la clé doit être d'au moins 512 octets."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3198,7 +3226,10 @@ msgstr "La clé privée n'a pas pu être chargée."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3771,6 +3802,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4212,8 +4246,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/certificate/models/key.py:0
 msgid ""
+<<<<<<< HEAD
 "Unsupported asymmetric cryptography algorithm '%s'. Currently supported: EC,"
 " RSA."
+=======
+"Unsupported asymmetric cryptography algorithm '%s'. Currently supported: EC, "
+"RSA."
+>>>>>>> upstream/18.0
 msgstr ""
 "Algorithme de cryptographie asymétrique '%s' non pris en charge. "
 "Actuellement pris en charge : EC, RSA."
@@ -4221,12 +4260,25 @@ msgstr ""
 #. module: certificate
 #: model:ir.model.fields,help:certificate.field_certificate_certificate__public_key_id
 msgid ""
+<<<<<<< HEAD
 "Used to set a public key in case the one self-contained in the certificate is erroneus.\n"
 "                When a public key is set this way, it will be used instead of the one in the certificate.\n"
 "             "
 msgstr ""
 "Utilisé pour définir une clé publique au cas où celle contenue dans le certificat serait erronée..\n"
 "                Lorsqu'une clé publique est définie de cette manière, elle est utilisée à la place de celle qui figure dans le certificat.\n"
+=======
+"Used to set a public key in case the one self-contained in the certificate "
+"is erroneus.\n"
+"                When a public key is set this way, it will be used instead "
+"of the one in the certificate.\n"
+"             "
+msgstr ""
+"Utilisé pour définir une clé publique au cas où celle contenue dans le "
+"certificat serait erronée..\n"
+"                Lorsqu'une clé publique est définie de cette manière, elle "
+"est utilisée à la place de celle qui figure dans le certificat.\n"
+>>>>>>> upstream/18.0
 "             "
 
 #. module: certificate

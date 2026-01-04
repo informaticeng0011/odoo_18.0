@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* portal
+<<<<<<< HEAD
 # 
 # Translators:
 <<<<<<< HEAD
@@ -881,10 +882,18 @@
 # Manon Rondou, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+#
+# Translators:
+# Wil Odoo, 2025
+# Manon Rondou, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1938,6 +1947,18 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: fr\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:38+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Manon Rondou, 2025\n"
+"Language-Team: French (https://app.transifex.com/odoo/teams/41243/fr/)\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % "
+"1000000 == 0 ? 1 : 2;\n"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_security
@@ -2013,6 +2034,7 @@ msgstr ""
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.record_pager
+<<<<<<< HEAD
 msgid "<i class=\"oi oi-chevron-right\" role=\"img\" aria-label=\"Next\" title=\"Next\"/>"
 msgstr "<i class=\"oi oi-chevron-right\" role=\"img\" aria-label=\"Next\" title=\"Suivant\"/>"
 
@@ -2020,6 +2042,21 @@ msgstr "<i class=\"oi oi-chevron-right\" role=\"img\" aria-label=\"Next\" title=
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_security
 msgid "<i title=\"Documentation\" class=\"fa fa-fw o_button_icon fa-info-circle\"/>"
 msgstr "<i title=\"Documentation\" class=\"fa fa-fw o_button_icon fa-info-circle\"/>"
+=======
+msgid ""
+"<i class=\"oi oi-chevron-right\" role=\"img\" aria-label=\"Next\" "
+"title=\"Next\"/>"
+msgstr ""
+"<i class=\"oi oi-chevron-right\" role=\"img\" aria-label=\"Next\" "
+"title=\"Suivant\"/>"
+
+#. module: portal
+#: model_terms:ir.ui.view,arch_db:portal.portal_my_security
+msgid ""
+"<i title=\"Documentation\" class=\"fa fa-fw o_button_icon fa-info-circle\"/>"
+msgstr ""
+"<i title=\"Documentation\" class=\"fa fa-fw o_button_icon fa-info-circle\"/>"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_details_fields
@@ -2035,13 +2072,26 @@ msgstr "<option value=\"\">sélectionner...</option>"
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_details_fields
 msgid ""
 "<small class=\"form-text text-muted\">\n"
+<<<<<<< HEAD
 "                Company name, VAT Number and country can not be changed once document(s) have been issued for your account.\n"
+=======
+"                Company name, VAT Number and country can not be changed once "
+"document(s) have been issued for your account.\n"
+>>>>>>> upstream/18.0
 "                <br/>Please contact us directly for that operation.\n"
 "            </small>"
 msgstr ""
 "<small class=\"form-text text-muted\">\n"
+<<<<<<< HEAD
 "                Il n'est pas possible de modifier le nom de la société, le numéro de TVA et le pays une fois que des documents ont été émis pour votre compte.\n"
 "                <br/>Veuillez nous contacter directement pour effectuer cette opération.\n"
+=======
+"                Il n'est pas possible de modifier le nom de la société, le "
+"numéro de TVA et le pays une fois que des documents ont été émis pour votre "
+"compte.\n"
+"                <br/>Veuillez nous contacter directement pour effectuer "
+"cette opération.\n"
+>>>>>>> upstream/18.0
 "            </small>"
 
 #. module: portal
@@ -2055,7 +2105,13 @@ msgstr ""
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.pager
+<<<<<<< HEAD
 msgid "<span class=\"fa fa-chevron-right\" role=\"img\" aria-label=\"Next\" title=\"Next\"/>"
+=======
+msgid ""
+"<span class=\"fa fa-chevron-right\" role=\"img\" aria-label=\"Next\" "
+"title=\"Next\"/>"
+>>>>>>> upstream/18.0
 msgstr ""
 "<span class=\"fa fa-chevron-right\" role=\"img\" aria-label=\"Next\" "
 "title=\"Suivant\"/>"
@@ -2083,6 +2139,7 @@ msgstr "<strong>Ouvrir </strong>"
 #. module: portal
 #: model:mail.template,body_html:portal.mail_template_data_portal_welcome
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3063,10 +3120,28 @@ msgid ""
 >>>>>>> upstream/18.0
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"padding-top: 16px; background-color: #F1F1F1; font-family:Verdana, Arial,sans-serif; color: #454748; width: 100%; border-collapse:separate;\"><tr><td align=\"center\">\n"
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"padding: 16px; background-color: white; color: #454748; border-collapse:separate;\">\n"
+=======
+"<t t-set=\"user_name\" t-value=\"object.user_id.name or "
+"object.partner_id.name or ''\"/>\n"
+"            <t t-set=\"company_name\" t-"
+"value=\"object.user_id.company_id.name or object.partner_id.company_id.name "
+"or ''\"/>\n"
+"            <t t-set=\"signup_url\" t-value=\"object.user_id.partner_id and "
+"object.user_id.partner_id._get_signup_url() or object.partner_id and "
+"object.partner_id._get_signup_url()\"/>\n"
+"<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"padding-top: "
+"16px; background-color: #F1F1F1; font-family:Verdana, Arial,sans-serif; "
+"color: #454748; width: 100%; border-collapse:separate;\"><tr><td "
+"align=\"center\">\n"
+"<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" "
+"style=\"padding: 16px; background-color: white; color: #454748; border-"
+"collapse:separate;\">\n"
+>>>>>>> upstream/18.0
 "<tbody>\n"
 "    <!-- HEADER -->\n"
 "    <tr>\n"
 "        <td align=\"center\" style=\"min-width: 590px;\">\n"
+<<<<<<< HEAD
 "            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
 "                <tr><td valign=\"middle\">\n"
 "                    <span style=\"font-size: 10px;\">Your Account</span><br/>\n"
@@ -3752,6 +3827,27 @@ msgid ""
 "                </td></tr>\n"
 "                <tr><td colspan=\"2\" style=\"text-align:center;\">\n"
 "                  <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin:16px 0px 16px 0px;\"/>\n"
+=======
+"            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" "
+"width=\"590\" style=\"min-width: 590px; background-color: white; padding: "
+"0px 8px 0px 8px; border-collapse:separate;\">\n"
+"                <tr><td valign=\"middle\">\n"
+"                    <span style=\"font-size: 10px;\">Your Account</span><br/"
+">\n"
+"                    <span style=\"font-size: 20px; font-weight: bold;\" t-"
+"out=\"user_name\">Marc Demo</span>\n"
+"                </td><td valign=\"middle\" align=\"right\" t-if=\"not "
+"object.user_id.company_id.uses_default_logo\">\n"
+"                    <img t-attf-src=\"/logo.png?"
+"company={{ object.user_id.company_id.id }}\" style=\"padding: 0px; margin: "
+"0px; height: auto; width: 80px;\" t-att-"
+"alt=\"object.user_id.company_id.name\"/>\n"
+"                </td></tr>\n"
+"                <tr><td colspan=\"2\" style=\"text-align:center;\">\n"
+"                  <hr width=\"100%\" style=\"background-"
+"color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
+"size:0px;min-height:1px;line-height:0; margin:16px 0px 16px 0px;\"/>\n"
+>>>>>>> upstream/18.0
 "                </td></tr>\n"
 "            </table>\n"
 "        </td>\n"
@@ -3759,6 +3855,7 @@ msgid ""
 "    <!-- CONTENT -->\n"
 "    <tr>\n"
 "        <td align=\"center\" style=\"min-width: 590px;\">\n"
+<<<<<<< HEAD
 "            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
 "                <tr><td valign=\"top\" style=\"font-size: 13px;\">\n"
 "                    <div>\n"
@@ -4796,6 +4893,37 @@ msgid ""
 "                </td></tr>\n"
 "                <tr><td style=\"text-align:center;\">\n"
 "                  <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+=======
+"            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" "
+"width=\"590\" style=\"min-width: 590px; background-color: white; padding: "
+"0px 8px 0px 8px; border-collapse:separate;\">\n"
+"                <tr><td valign=\"top\" style=\"font-size: 13px;\">\n"
+"                    <div>\n"
+"                        Dear <t t-out=\"user_name\">Marc Demo</t>,<br/> <br/"
+">\n"
+"                        Welcome to <t t-out=\"company_name\">YourCompany</"
+"t>'s Portal!<br/><br/>\n"
+"                        An account has been created for you with the "
+"following login: <t t-out=\"object.user_id.login\">demo</t><br/><br/>\n"
+"                        Click on the button below to pick a password and "
+"activate your account.\n"
+"                        <div style=\"margin: 16px 0px 16px 0px; text-align: "
+"center;\">\n"
+"                            <a t-att-href=\"signup_url\" style=\"display: "
+"inline-block; padding: 10px; text-decoration: none; font-size: 12px; "
+"background-color: #875A7B; color: #fff; border-radius: 5px;\">\n"
+"                                <strong>Activate Account</strong>\n"
+"                            </a>\n"
+"                        </div>\n"
+"                        <t t-out=\"object.wizard_id.welcome_message or "
+"''\">Welcome to our company's portal.</t>\n"
+"                    </div>\n"
+"                </td></tr>\n"
+"                <tr><td style=\"text-align:center;\">\n"
+"                  <hr width=\"100%\" style=\"background-"
+"color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
+"size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+>>>>>>> upstream/18.0
 "                </td></tr>\n"
 "            </table>\n"
 "        </td>\n"
@@ -4803,6 +4931,7 @@ msgid ""
 "    <!-- FOOTER -->\n"
 "    <tr>\n"
 "        <td align=\"center\" style=\"min-width: 590px;\">\n"
+<<<<<<< HEAD
 "            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: white; font-size: 11px; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
 "                <tr><td valign=\"middle\" align=\"left\">\n"
 <<<<<<< HEAD
@@ -5466,6 +5595,29 @@ msgid ""
 "                    </t>\n"
 "                    <t t-if=\"object.user_id.company_id.website\">\n"
 "                        | <a t-attf-href=\"'%s' % {{ object.user_id.company_id.website }}\" style=\"text-decoration:none; color: #454748;\" t-out=\"object.user_id.company_id.website or ''\">http://www.example.com</a>\n"
+=======
+"            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" "
+"width=\"590\" style=\"min-width: 590px; background-color: white; font-size: "
+"11px; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
+"                <tr><td valign=\"middle\" align=\"left\">\n"
+"                    <t t-out=\"company_name\">YourCompany</t>\n"
+"                </td></tr>\n"
+"                <tr><td valign=\"middle\" align=\"left\" style=\"opacity: "
+"0.7;\">\n"
+"                    <t t-out=\"object.user_id.company_id.phone or ''\">+1 "
+"650-123-4567</t>\n"
+"                    <t t-if=\"object.user_id.company_id.email\">\n"
+"                        | <a t-attf-href=\"'mailto:%s' % "
+"{{ object.user_id.company_id.email }}\" style=\"text-decoration:none; color: "
+"#454748;\" t-out=\"object.user_id.company_id.email or "
+"''\">info@yourcompany.com</a>\n"
+"                    </t>\n"
+"                    <t t-if=\"object.user_id.company_id.website\">\n"
+"                        | <a t-attf-href=\"'%s' % "
+"{{ object.user_id.company_id.website }}\" style=\"text-decoration:none; "
+"color: #454748;\" t-out=\"object.user_id.company_id.website or ''\">http://"
+"www.example.com</a>\n"
+>>>>>>> upstream/18.0
 "                    </t>\n"
 "                </td></tr>\n"
 "            </table>\n"
@@ -5476,15 +5628,26 @@ msgid ""
 "</td></tr>\n"
 "<!-- POWERED BY -->\n"
 "<tr><td align=\"center\" style=\"min-width: 590px;\">\n"
+<<<<<<< HEAD
 "    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: #F1F1F1; color: #454748; padding: 8px; border-collapse:separate;\">\n"
 "      <tr><td style=\"text-align: center; font-size: 13px;\">\n"
 "        Powered by <a target=\"_blank\" href=\"https://www.odoo.com?utm_source=db&amp;utm_medium=portalinvite\" style=\"color: #875A7B;\">Odoo</a>\n"
+=======
+"    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" "
+"style=\"min-width: 590px; background-color: #F1F1F1; color: #454748; "
+"padding: 8px; border-collapse:separate;\">\n"
+"      <tr><td style=\"text-align: center; font-size: 13px;\">\n"
+"        Powered by <a target=\"_blank\" href=\"https://www.odoo.com?"
+"utm_source=db&amp;utm_medium=portalinvite\" style=\"color: #875A7B;\">Odoo</"
+"a>\n"
+>>>>>>> upstream/18.0
 "      </td></tr>\n"
 "    </table>\n"
 "</td></tr>\n"
 "</table>\n"
 "            "
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6402,10 +6565,28 @@ msgstr ""
 >>>>>>> upstream/18.0
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"padding-top: 16px; background-color: #F1F1F1; font-family:Verdana, Arial,sans-serif; color: #454748; width: 100%; border-collapse:separate;\"><tr><td align=\"center\">\n"
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"padding: 16px; background-color: white; color: #454748; border-collapse:separate;\">\n"
+=======
+"<t t-set=\"user_name\" t-value=\"object.user_id.name or "
+"object.partner_id.name or ''\"/>\n"
+"            <t t-set=\"company_name\" t-"
+"value=\"object.user_id.company_id.name or object.partner_id.company_id.name "
+"or ''\"/>\n"
+"            <t t-set=\"signup_url\" t-value=\"object.user_id.partner_id and "
+"object.user_id.partner_id._get_signup_url() or object.partner_id and "
+"object.partner_id._get_signup_url()\"/>\n"
+"<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"padding-top: "
+"16px; background-color: #F1F1F1; font-family:Verdana, Arial,sans-serif; "
+"color: #454748; width: 100%; border-collapse:separate;\"><tr><td "
+"align=\"center\">\n"
+"<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" "
+"style=\"padding: 16px; background-color: white; color: #454748; border-"
+"collapse:separate;\">\n"
+>>>>>>> upstream/18.0
 "<tbody>\n"
 "    <!-- HEADER -->\n"
 "    <tr>\n"
 "        <td align=\"center\" style=\"min-width: 590px;\">\n"
+<<<<<<< HEAD
 "            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
 "                <tr><td valign=\"middle\">\n"
 "                    <span style=\"font-size: 10px;\">Votre compte</span><br/>\n"
@@ -7019,6 +7200,27 @@ msgstr ""
 "                </td></tr>\n"
 "                <tr><td colspan=\"2\" style=\"text-align:center;\">\n"
 "                  <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin:16px 0px 16px 0px;\"/>\n"
+=======
+"            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" "
+"width=\"590\" style=\"min-width: 590px; background-color: white; padding: "
+"0px 8px 0px 8px; border-collapse:separate;\">\n"
+"                <tr><td valign=\"middle\">\n"
+"                    <span style=\"font-size: 10px;\">Votre compte</span><br/"
+">\n"
+"                    <span style=\"font-size: 20px; font-weight: bold;\" t-"
+"out=\"user_name\">Marc Demo</span>\n"
+"                </td><td valign=\"middle\" align=\"right\" t-if=\"not "
+"object.user_id.company_id.uses_default_logo\">\n"
+"                    <img t-attf-src=\"/logo.png?"
+"company={{ object.user_id.company_id.id }}\" style=\"padding: 0px; margin: "
+"0px; height: auto; width: 80px;\" t-att-"
+"alt=\"object.user_id.company_id.name\"/>\n"
+"                </td></tr>\n"
+"                <tr><td colspan=\"2\" style=\"text-align:center;\">\n"
+"                  <hr width=\"100%\" style=\"background-"
+"color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
+"size:0px;min-height:1px;line-height:0; margin:16px 0px 16px 0px;\"/>\n"
+>>>>>>> upstream/18.0
 "                </td></tr>\n"
 "            </table>\n"
 "        </td>\n"
@@ -7026,6 +7228,7 @@ msgstr ""
 "    <!-- CONTENT -->\n"
 "    <tr>\n"
 "        <td align=\"center\" style=\"min-width: 590px;\">\n"
+<<<<<<< HEAD
 "            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
 "                <tr><td valign=\"top\" style=\"font-size: 13px;\">\n"
 "                    <div>\n"
@@ -8403,6 +8606,37 @@ msgstr ""
 "                </td></tr>\n"
 "                <tr><td style=\"text-align:center;\">\n"
 "                  <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+=======
+"            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" "
+"width=\"590\" style=\"min-width: 590px; background-color: white; padding: "
+"0px 8px 0px 8px; border-collapse:separate;\">\n"
+"                <tr><td valign=\"top\" style=\"font-size: 13px;\">\n"
+"                    <div>\n"
+"                        Bonjour <t t-out=\"user_name\">Marc Demo</t>,<br/> "
+"<br/>\n"
+"                        Bienvenue sur le portail de <t t-"
+"out=\"company_name\">YourCompany</t> !<br/><br/>\n"
+"                        Un compte a été créé pour vous avec les identifiants "
+"suivants : <t t-out=\"object.user_id.login\">démo</t><br/><br/>\n"
+"                        Cliquez sur le bouton ci-dessous pour choisir un mot "
+"de passe et activer votre compte.\n"
+"                        <div style=\"margin: 16px 0px 16px 0px; text-align: "
+"center;\">\n"
+"                            <a t-att-href=\"signup_url\" style=\"display: "
+"inline-block; padding: 10px; text-decoration: none; font-size: 12px; "
+"background-color: #875A7B; color: #fff; border-radius: 5px;\">\n"
+"                                <strong>Activer le compte</strong>\n"
+"                            </a>\n"
+"                        </div>\n"
+"                        <t t-out=\"object.wizard_id.welcome_message or "
+"''\">Bienvenue sur le portail de notre entreprise.</t>\n"
+"                    </div>\n"
+"                </td></tr>\n"
+"                <tr><td style=\"text-align:center;\">\n"
+"                  <hr width=\"100%\" style=\"background-"
+"color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
+"size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+>>>>>>> upstream/18.0
 "                </td></tr>\n"
 "            </table>\n"
 "        </td>\n"
@@ -8410,6 +8644,7 @@ msgstr ""
 "    <!-- FOOTER -->\n"
 "    <tr>\n"
 "        <td align=\"center\" style=\"min-width: 590px;\">\n"
+<<<<<<< HEAD
 "            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: white; font-size: 11px; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
 "                <tr><td valign=\"middle\" align=\"left\">\n"
 <<<<<<< HEAD
@@ -9013,6 +9248,29 @@ msgstr ""
 "                    </t>\n"
 "                    <t t-if=\"object.user_id.company_id.website\">\n"
 "                        | <a t-attf-href=\"'%s' % {{ object.user_id.company_id.website }}\" style=\"text-decoration:none; color: #454748;\" t-out=\"object.user_id.company_id.website or ''\">http://www.example.com</a>\n"
+=======
+"            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" "
+"width=\"590\" style=\"min-width: 590px; background-color: white; font-size: "
+"11px; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
+"                <tr><td valign=\"middle\" align=\"left\">\n"
+"                    <t t-out=\"company_name\">YourCompany</t>\n"
+"                </td></tr>\n"
+"                <tr><td valign=\"middle\" align=\"left\" style=\"opacity: "
+"0.7;\">\n"
+"                    <t t-out=\"object.user_id.company_id.phone or ''\">+1 "
+"650-123-4567</t>\n"
+"                    <t t-if=\"object.user_id.company_id.email\">\n"
+"                        | <a t-attf-href=\"'mailto:%s' % "
+"{{ object.user_id.company_id.email }}\" style=\"text-decoration:none; color: "
+"#454748;\" t-out=\"object.user_id.company_id.email or "
+"''\">info@yourcompany.com</a>\n"
+"                    </t>\n"
+"                    <t t-if=\"object.user_id.company_id.website\">\n"
+"                        | <a t-attf-href=\"'%s' % "
+"{{ object.user_id.company_id.website }}\" style=\"text-decoration:none; "
+"color: #454748;\" t-out=\"object.user_id.company_id.website or ''\">http://"
+"www.example.com</a>\n"
+>>>>>>> upstream/18.0
 "                    </t>\n"
 "                </td></tr>\n"
 "            </table>\n"
@@ -9023,6 +9281,7 @@ msgstr ""
 "</td></tr>\n"
 "<!-- POWERED BY -->\n"
 "<tr><td align=\"center\" style=\"min-width: 590px;\">\n"
+<<<<<<< HEAD
 "    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: #F1F1F1; color: #454748; padding: 8px; border-collapse:separate;\">\n"
 "      <tr><td style=\"text-align: center; font-size: 13px;\">\n"
 <<<<<<< HEAD
@@ -9630,6 +9889,15 @@ msgstr ""
 =======
 "        Généré par <a target=\"_blank\" href=\"https://www.odoo.com?utm_source=db&amp;utm_medium=portalinvite\" style=\"color: #875A7B;\">Odoo</a>\n"
 >>>>>>> upstream/18.0
+=======
+"    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" "
+"style=\"min-width: 590px; background-color: #F1F1F1; color: #454748; "
+"padding: 8px; border-collapse:separate;\">\n"
+"      <tr><td style=\"text-align: center; font-size: 13px;\">\n"
+"        Généré par <a target=\"_blank\" href=\"https://www.odoo.com?"
+"utm_source=db&amp;utm_medium=portalinvite\" style=\"color: #875A7B;\">Odoo</"
+"a>\n"
+>>>>>>> upstream/18.0
 "      </td></tr>\n"
 "    </table>\n"
 "</td></tr>\n"
@@ -9786,6 +10054,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10235,8 +10506,13 @@ msgid ""
 "Changing the country is not allowed once document(s) have been issued for "
 "your account. Please contact us directly for this operation."
 msgstr ""
+<<<<<<< HEAD
 "Il n'est pas autorisé de modifier le pays une fois que des documents ont été"
 " émis pour votre compte. Veuillez nous contacter directement pour cette "
+=======
+"Il n'est pas autorisé de modifier le pays une fois que des documents ont été "
+"émis pour votre compte. Veuillez nous contacter directement pour cette "
+>>>>>>> upstream/18.0
 "opération."
 
 #. module: portal
@@ -10393,14 +10669,26 @@ msgstr "Clés API développeur"
 msgid ""
 "Disable your account, preventing any further login.<br/>\n"
 "                                        <b>\n"
+<<<<<<< HEAD
 "                                            <i class=\"fa fa-exclamation-triangle text-danger\"/>\n"
+=======
+"                                            <i class=\"fa fa-exclamation-"
+"triangle text-danger\"/>\n"
+>>>>>>> upstream/18.0
 "                                            This action cannot be undone.\n"
 "                                        </b>"
 msgstr ""
 "Désactivez votre compte pour éviter toute connexion future.<br/>\n"
 "                                        <b>\n"
+<<<<<<< HEAD
 "                                            <i class=\"fa fa-exclamation-triangle text-danger\"/>\n"
 "                                            Cette action ne peut pas être annulée.\n"
+=======
+"                                            <i class=\"fa fa-exclamation-"
+"triangle text-danger\"/>\n"
+"                                            Cette action ne peut pas être "
+"annulée.\n"
+>>>>>>> upstream/18.0
 "                                        </b>"
 
 #. module: portal
@@ -10499,8 +10787,15 @@ msgid ""
 "Here is your new API key, use it instead of a password for RPC access.\n"
 "                Your login is still necessary for interactive usage."
 msgstr ""
+<<<<<<< HEAD
 "Voici votre nouvelle clé API, utilisez-la au lieu d'un mot de passe pour l'accès RPC.\n"
 "                Vous devez toujours vous connecter pour une utilisation interactive."
+=======
+"Voici votre nouvelle clé API, utilisez-la au lieu d'un mot de passe pour "
+"l'accès RPC.\n"
+"                Vous devez toujours vous connecter pour une utilisation "
+"interactive."
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_breadcrumbs
@@ -10680,7 +10975,11 @@ msgid "Home"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Page d'accueil"
+=======
+msgstr "Accueil"
+>>>>>>> upstream/18.0
 =======
 msgstr "Accueil"
 >>>>>>> upstream/18.0
@@ -11458,12 +11757,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/portal/static/src/xml/portal_security.xml:0
 msgid "Key Description"
 msgstr "Description de la clé"
 
 #. module: portal
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11851,8 +12153,13 @@ msgstr "Message"
 #. odoo-python
 #: code:addons/portal/models/mail_thread.py:0
 msgid ""
+<<<<<<< HEAD
 "Model %(model_name)s does not support token signature, as it does not have "
 "%(field_name)s field."
+=======
+"Model %(model_name)s does not support token signature, as it does not have %"
+"(field_name)s field."
+>>>>>>> upstream/18.0
 msgstr ""
 "Le modèle %(model_name)s ne prend pas en charge la signature de jeton, car "
 "il n'a pas le champ %(field_name)s."
@@ -12000,8 +12307,12 @@ msgstr "Précédent"
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_security
 msgid ""
+<<<<<<< HEAD
 "Put my email and phone in a block list to make sure I'm never contacted "
 "again"
+=======
+"Put my email and phone in a block list to make sure I'm never contacted again"
+>>>>>>> upstream/18.0
 msgstr ""
 "Inscrivez mon e-mail et mon numéro de téléphone sur une liste de blocage "
 "pour veiller à ne plus jamais me contacter"
@@ -12241,7 +12552,10 @@ msgstr "Sécurité"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/portal/static/src/xml/portal_security.xml:0
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12598,11 +12912,23 @@ msgstr "Jeton de sécurité"
 #: model_terms:ir.ui.view,arch_db:portal.wizard_view
 msgid ""
 "Select which contacts should belong to the portal in the list below.\n"
+<<<<<<< HEAD
 "                        The email address of each selected contact must be valid and unique.\n"
 "                        If necessary, you can fix any contact's email address directly in the list."
 msgstr ""
 "Sélectionnez dans la liste ci-dessous les contacts qui doivent faire partie du portail.\n"
 "Les adresses e-mails des contacts sélectionnés doivent être correctes et uniques.\n"
+=======
+"                        The email address of each selected contact must be "
+"valid and unique.\n"
+"                        If necessary, you can fix any contact's email "
+"address directly in the list."
+msgstr ""
+"Sélectionnez dans la liste ci-dessous les contacts qui doivent faire partie "
+"du portail.\n"
+"Les adresses e-mails des contacts sélectionnés doivent être correctes et "
+"uniques.\n"
+>>>>>>> upstream/18.0
 "Si nécessaire, vous pouvez corriger ces adresses directement dans la liste."
 
 #. module: portal
@@ -12760,8 +13086,13 @@ msgid ""
 "The template \"Portal: new user\" not found for sending email to the portal "
 "user."
 msgstr ""
+<<<<<<< HEAD
 "Le modèle \"Portail : nouvel utilisateur\" introuvable pour l'envoi d'un "
 "e-mail à l'utilisateur du portail."
+=======
+"Le modèle \"Portail : nouvel utilisateur\" introuvable pour l'envoi d'un e-"
+"mail à l'utilisateur du portail."
+>>>>>>> upstream/18.0
 
 #. module: portal
 #. odoo-python
@@ -12785,8 +13116,12 @@ msgstr ""
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.wizard_view
+<<<<<<< HEAD
 msgid ""
 "This text is included at the end of the email sent to new portal users."
+=======
+msgid "This text is included at the end of the email sent to new portal users."
+>>>>>>> upstream/18.0
 msgstr ""
 "Ce texte figure à la fin de l'e-mail envoyé aux nouveaux utilisateurs du "
 "portail."
@@ -12965,6 +13300,7 @@ msgstr "Vous devriez d'abord accorder accès au portail au partenaire \"%s\"."
 
 #. module: portal
 #: model:mail.template,subject:portal.mail_template_data_portal_welcome
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13455,6 +13791,8 @@ msgstr "Votre compte sur {{ object.user_id.company_id.name }}"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "Your account at {{ object.user_id.company_id.name or "
 "object.partner_id.company_id.name }}"
@@ -13621,6 +13959,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13649,6 +13988,10 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+"Votre compte chez {{ object.user_id.company_id.name or "
+"object.partner_id.company_id.name }}"
 >>>>>>> upstream/18.0
 =======
 "Votre compte chez {{ object.user_id.company_id.name or "

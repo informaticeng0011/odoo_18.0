@@ -42,8 +42,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* hr_contract
 # 
+=======
+# * hr_contract
+#
+>>>>>>> upstream/18.0
 =======
 # * hr_contract
 #
@@ -258,7 +263,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 =======
 #
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
@@ -431,6 +441,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -565,6 +576,9 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-11-12 12:39+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Persian <https://translate.odoo.com/projects/odoo-18/"
@@ -616,6 +630,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -724,11 +741,21 @@ msgstr "/ ماه"
 #. module: hr_contract
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_hr_employee_view_form3
 msgid ""
+<<<<<<< HEAD
 "<span class=\"o_stat_text text-danger\" invisible=\"not contract_warning\" title=\"In Contract Since\">\n"
 "                                    In Contract Since\n"
 "                                </span>"
 msgstr ""
 "<span class=\"o_stat_text text-danger\" invisible=\"not contract_warning\" title=\"In Contract Since\">\n"
+=======
+"<span class=\"o_stat_text text-danger\" invisible=\"not contract_warning\" "
+"title=\"In Contract Since\">\n"
+"                                    In Contract Since\n"
+"                                </span>"
+msgstr ""
+"<span class=\"o_stat_text text-danger\" invisible=\"not contract_warning\" "
+"title=\"In Contract Since\">\n"
+>>>>>>> upstream/18.0
 "                                    از زمان قرارداد\n"
 "                                </span>"
 
@@ -747,14 +774,24 @@ msgid ""
 "<span invisible=\"contracts_count != 1\" class=\"o_stat_text text-danger\">\n"
 "                                    Contract\n"
 "                                </span>\n"
+<<<<<<< HEAD
 "                                <span invisible=\"contracts_count == 1\" class=\"o_stat_text text-danger\">\n"
+=======
+"                                <span invisible=\"contracts_count == 1\" "
+"class=\"o_stat_text text-danger\">\n"
+>>>>>>> upstream/18.0
 "                                    Contracts\n"
 "                                </span>"
 msgstr ""
 "<span invisible=\"contracts_count != 1\" class=\"o_stat_text text-danger\">\n"
 "                                    قرارداد\n"
 "                                </span>\n"
+<<<<<<< HEAD
 "                                <span invisible=\"contracts_count == 1\" class=\"o_stat_text text-danger\">\n"
+=======
+"                                <span invisible=\"contracts_count == 1\" "
+"class=\"o_stat_text text-danger\">\n"
+>>>>>>> upstream/18.0
 "                                    قراردادها\n"
 "                                </span>"
 
@@ -764,14 +801,24 @@ msgid ""
 "<span invisible=\"contracts_count == 1\" class=\"o_stat_text\">\n"
 "                                        Contracts\n"
 "                                    </span>\n"
+<<<<<<< HEAD
 "                                    <span invisible=\"contracts_count &gt; 1\" class=\"o_stat_text\">\n"
+=======
+"                                    <span invisible=\"contracts_count &gt; "
+"1\" class=\"o_stat_text\">\n"
+>>>>>>> upstream/18.0
 "                                        Contract\n"
 "                                    </span>"
 msgstr ""
 "<span invisible=\"contracts_count == 1\" class=\"o_stat_text\">\n"
 "                                        قراردادها\n"
 "                                    </span>\n"
+<<<<<<< HEAD
 "                                    <span invisible=\"contracts_count &gt; 1\" class=\"o_stat_text\">\n"
+=======
+"                                    <span invisible=\"contracts_count &gt; "
+"1\" class=\"o_stat_text\">\n"
+>>>>>>> upstream/18.0
 "                                        قرارداد\n"
 "                                    </span>"
 
@@ -856,11 +903,21 @@ msgstr "مدیر"
 #. odoo-python
 #: code:addons/hr_contract/models/hr_contract.py:0
 msgid ""
+<<<<<<< HEAD
 "An employee can only have one contract at the same time. (Excluding Draft and Cancelled contracts).\n"
 "\n"
 "Employee: %(employee_name)s"
 msgstr ""
 "یک کارمند می‌تواند تنها یک قرارداد در یک زمان داشته باشد. (به استثنای قراردادهای پیش‌نویس و لغو شده).\n"
+=======
+"An employee can only have one contract at the same time. (Excluding Draft "
+"and Cancelled contracts).\n"
+"\n"
+"Employee: %(employee_name)s"
+msgstr ""
+"یک کارمند می‌تواند تنها یک قرارداد در یک زمان داشته باشد. (به استثنای "
+"قراردادهای پیش‌نویس و لغو شده).\n"
+>>>>>>> upstream/18.0
 "\n"
 "کارمند: %(employee_name)s"
 
@@ -1433,7 +1490,11 @@ msgid "Legal Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "نام قانونی"
+>>>>>>> upstream/18.0
 =======
 msgstr "نام قانونی"
 >>>>>>> upstream/18.0
@@ -1644,8 +1705,12 @@ msgid ""
 "Number of days prior to the contract end date that a contract expiration "
 "warning is triggered."
 msgstr ""
+<<<<<<< HEAD
 "تعداد روزهایی که قبل از تاریخ پایان قرارداد، هشدار انقضای قرارداد فعال "
 "می‌شود."
+=======
+"تعداد روزهایی که قبل از تاریخ پایان قرارداد، هشدار انقضای قرارداد فعال می‌شود."
+>>>>>>> upstream/18.0
 
 #. module: hr_contract
 #: model_terms:ir.ui.view,arch_db:hr_contract.res_config_settings_view_form

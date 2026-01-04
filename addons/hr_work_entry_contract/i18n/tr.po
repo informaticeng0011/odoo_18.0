@@ -1,7 +1,11 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* hr_work_entry_contract
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 # Translators:
 # emre oktem, 2024
 # Murat Kaplan <muratk@projetgrup.com>, 2024
@@ -167,6 +171,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Deniz Guvener_Odoo <degu@odoo.com>, 2025
 >>>>>>> upstream/18.0
@@ -639,10 +644,15 @@
 # Deniz Guvener_Odoo <degu@odoo.com>, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+# Deniz Guvener_Odoo <degu@odoo.com>, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
@@ -1279,6 +1289,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: tr\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Deniz Guvener_Odoo <degu@odoo.com>, 2025\n"
+"Language-Team: Turkish (https://app.transifex.com/odoo/teams/41243/tr/)\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+>>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #. module: hr_work_entry_contract
@@ -1288,6 +1308,7 @@ msgid ""
 "\n"
 "        Defines the source for work entries generation\n"
 "\n"
+<<<<<<< HEAD
 "        Working Schedule: Work entries will be generated from the working hours below.\n"
 "        Attendances: Work entries will be generated from the employee's attendances. (requires Attendance app)\n"
 "        Planning: Work entries will be generated from the employee's planning. (requires Planning app)\n"
@@ -2165,6 +2186,26 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"        Working Schedule: Work entries will be generated from the working "
+"hours below.\n"
+"        Attendances: Work entries will be generated from the employee's "
+"attendances. (requires Attendance app)\n"
+"        Planning: Work entries will be generated from the employee's "
+"planning. (requires Planning app)\n"
+"    "
+msgstr ""
+"\n"
+"        İş girişlerinin oluşturulması için kaynağı tanımlar\n"
+"\n"
+"        Çalışma Programı: Çalışma girişleri aşağıdaki çalışma saatlerinden "
+"oluşturulacaktır.\n"
+"        Devamlılıklar: Çalışanların devamlılık durumlarından iş girişleri "
+"oluşturulacaktır. (Çalışan Devam Kontrolü uygulaması gereklidir)\n"
+"        Planlama: İş girişleri, çalışanın planlamasından oluşturulacaktır. "
+"(Planlama uygulaması gereklidir)\n"
+"    "
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry_contract
 #. odoo-python
@@ -2180,6 +2221,7 @@ msgid ""
 "%(employee)s has multiple contracts from %(date_start)s to %(date_end)s. A "
 "work entry cannot overlap multiple contracts."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2998,6 +3040,11 @@ msgstr ""
 "sözleşmesi mevcuttur: %(date_start)s - %(date_end)s. Bir iş girişi birden "
 "fazla sözleşmeyle çakışamaz."
 >>>>>>> upstream/18.0
+=======
+"%(employee)s çalışanın şu tarihler aralığında geçerli olan birden fazla "
+"sözleşmesi mevcuttur: %(date_start)s - %(date_end)s. Bir iş girişi birden "
+"fazla sözleşmeyle çakışamaz."
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry_contract
 #: model_terms:ir.ui.view,arch_db:hr_work_entry_contract.hr_work_entry_regeneration_wizard
@@ -3129,8 +3176,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<i j=\"0/\">Doğrulanmış puantaj kayıtlarını yeniden oluşturmanıza izin "
 "verilmez</i>"
+=======
+"<i class=\"fa fa-exclamation-triangle me-1\" title=\"Uyarı\"/>Onaylanmış iş "
+"girişlerinin yeniden oluştuulmasına izin verilmez"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-exclamation-triangle me-1\" title=\"Uyarı\"/>Onaylanmış iş "
 "girişlerinin yeniden oluştuulmasına izin verilmez"
@@ -3763,6 +3815,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"text-muted\">Uyarı: Seçilen dönemdeki tüm manuel "
+"değişiklikler, çalışma girdisi yeniden oluşturulurken silinecektir.</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"text-muted\">Uyarı: Seçilen dönemdeki tüm manuel "
 "değişiklikler, çalışma girdisi yeniden oluşturulurken silinecektir.</span>"
@@ -4479,7 +4536,11 @@ msgid "Fully Flexible"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tam Esnek"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tam Esnek"
 >>>>>>> upstream/18.0
@@ -4942,6 +5003,7 @@ msgstr "ID"
 #. odoo-python
 #: code:addons/hr_work_entry_contract/wizard/hr_work_entry_regeneration_wizard.py:0
 msgid ""
+<<<<<<< HEAD
 "In order to regenerate the work entries, you need to provide the wizard with"
 " an employee_id, a date_from and a date_to. In addition to that, the time "
 "interval defined by date_from and date_to must not contain any validated "
@@ -5693,6 +5755,15 @@ msgstr ""
 "Bu günü de kapsayan ayın ücreti zaten onaylanmış. Değişiklik gerekiyorsa "
 "lütfen İK ile iletişime geçin."
 >>>>>>> upstream/18.0
+=======
+"In order to regenerate the work entries, you need to provide the wizard with "
+"an employee_id, a date_from and a date_to. In addition to that, the time "
+"interval defined by date_from and date_to must not contain any validated "
+"work entries."
+msgstr ""
+"Bu günü de kapsayan ayın ücreti zaten onaylanmış. Değişiklik gerekiyorsa "
+"lütfen İK ile iletişime geçin."
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry_contract
 #. odoo-javascript
@@ -5825,6 +5896,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Geçersiz seçenek: Tam esnek takvimler için çalışma girdisi kaynağı 'Çalışma "
+"Saatleri' olamaz."
+>>>>>>> upstream/18.0
 =======
 "Geçersiz seçenek: Tam esnek takvimler için çalışma girdisi kaynağı 'Çalışma "
 "Saatleri' olamaz."
@@ -6388,8 +6464,12 @@ msgstr "Hastalık İzni"
 #. module: hr_work_entry_contract
 #. odoo-python
 #: code:addons/hr_work_entry_contract/models/hr_contract.py:0
+<<<<<<< HEAD
 msgid ""
 "Sorry, generating work entries from cancelled contracts is not allowed."
+=======
+msgid "Sorry, generating work entries from cancelled contracts is not allowed."
+>>>>>>> upstream/18.0
 msgstr ""
 "Üzgünüz, iptal edilen sözleşmelerden puantaj kayıtları oluşturulmasına izin "
 "verilmemektedir."
@@ -6402,6 +6482,7 @@ msgid ""
 "be <= '%(latest_available_date)s', which correspond to the generated work "
 "entries time interval."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7203,6 +7284,11 @@ msgstr ""
 "başlangıç tarihi; >= '%(earliest_available_date)s' bitiş tarihi <= "
 "'%(latest_available_date)s' olmalıdır."
 >>>>>>> upstream/18.0
+=======
+"Oluşturulan iş girişlerinin zaman aralığına karşılık gelecek şekilde, "
+"başlangıç tarihi; >= '%(earliest_available_date)s' bitiş tarihi <= '%"
+"(latest_available_date)s' olmalıdır."
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry_contract
 #: model_terms:ir.ui.view,arch_db:hr_work_entry_contract.hr_work_entry_contract_view_form_inherit
@@ -7410,7 +7496,11 @@ msgid "Work Entry Source Calendar Invalid"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "İş girişi kaynak takvimi geçersiz"
+>>>>>>> upstream/18.0
 =======
 msgstr "İş girişi kaynak takvimi geçersiz"
 >>>>>>> upstream/18.0

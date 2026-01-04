@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* project_mrp_account
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
@@ -461,10 +462,18 @@
 # Anastasiia Koroleva, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+#
+# Translators:
+# Wil Odoo, 2024
+# Anastasiia Koroleva, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
 "PO-Revision-Date: 2024-09-29 00:00+0000\n"
 <<<<<<< HEAD
@@ -930,11 +939,25 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: ru\n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2024-09-29 00:00+0000\n"
+"Last-Translator: Anastasiia Koroleva, 2025\n"
+"Language-Team: Russian (https://app.transifex.com/odoo/teams/41243/ru/)\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
+"(n%100>=11 && n%100<=14)? 2 : 3);\n"
+>>>>>>> upstream/18.0
 
 #. module: project_mrp_account
 #. odoo-python
 #: code:addons/project_mrp_account/models/stock_move.py:0
 msgid ""
+<<<<<<< HEAD
 "'%(missing_plan_names)s' analytic plan(s) required on the project "
 "'%(project_name)s' linked to the manufacturing order."
 msgstr ""
@@ -1508,6 +1531,13 @@ msgstr ""
 "На проекте «%(project_name)s», связанном с производственным заказом, "
 "отсутствуют аналитические планы: %(missing_plan_names)s"
 >>>>>>> upstream/18.0
+=======
+"'%(missing_plan_names)s' analytic plan(s) required on the project '%"
+"(project_name)s' linked to the manufacturing order."
+msgstr ""
+"На проекте «%(project_name)s», связанном с производственным заказом, "
+"отсутствуют аналитические планы: %(missing_plan_names)s"
+>>>>>>> upstream/18.0
 
 #. module: project_mrp_account
 #: model_terms:ir.ui.view,arch_db:project_mrp_account.mrp_production_form_view_inherit_project_mrp_account
@@ -1637,7 +1667,11 @@ msgid "Dining Table"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Обеденный стол"
+>>>>>>> upstream/18.0
 =======
 msgstr "Обеденный стол"
 >>>>>>> upstream/18.0
@@ -2098,7 +2132,11 @@ msgid "Has Analytic Account"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Есть аналитический счет"
+>>>>>>> upstream/18.0
 =======
 msgstr "Есть аналитический счет"
 >>>>>>> upstream/18.0

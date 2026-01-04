@@ -21,8 +21,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* sale_pdf_quote_builder
 # 
+=======
+# * sale_pdf_quote_builder
+#
+>>>>>>> upstream/18.0
 =======
 # * sale_pdf_quote_builder
 #
@@ -133,7 +138,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+# "Manon Rondou (ronm)" <ronm@odoo.com>, 2025.
+>>>>>>> upstream/18.0
 =======
 # "Manon Rondou (ronm)" <ronm@odoo.com>, 2025.
 >>>>>>> upstream/18.0
@@ -201,6 +210,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-12-16 13:40+0000\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -272,6 +282,9 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-12-11 12:41+0000\n"
 "Last-Translator: \"Manon Rondou (ronm)\" <ronm@odoo.com>\n"
 "Language-Team: French <https://translate.odoo.com/projects/odoo-18/"
@@ -280,6 +293,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : "
 "((n != 0 && n % 1000000 == 0) ? 1 : 2);\n"
 "X-Generator: Weblate 5.14.3\n"
@@ -344,6 +358,11 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % "
+"1000000 == 0) ? 1 : 2);\n"
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #: model:ir.actions.report,print_report_name:sale_pdf_quote_builder.action_report_saleorder_raw
@@ -368,8 +387,13 @@ msgstr "<span>Type de document :</span>"
 #. odoo-python
 #: code:addons/sale_pdf_quote_builder/models/sale_pdf_form_field.py:0
 msgid ""
+<<<<<<< HEAD
 "A form field set as used in product documents can't be linked to a quotation"
 " document."
+=======
+"A form field set as used in product documents can't be linked to a quotation "
+"document."
+>>>>>>> upstream/18.0
 msgstr ""
 "Un champ de formulaire marqué comme utilisé dans les documents produits ne "
 "peut pas être lié à un document de devis."
@@ -378,8 +402,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/sale_pdf_quote_builder/models/sale_pdf_form_field.py:0
 msgid ""
+<<<<<<< HEAD
 "A form field set as used in quotation documents can't be linked to a product"
 " document."
+=======
+"A form field set as used in quotation documents can't be linked to a product "
+"document."
+>>>>>>> upstream/18.0
 msgstr ""
 "Un champ de formulaire marqué comme utilisé dans les documents de devis ne "
 "peut pas être lié à un document produit."
@@ -409,6 +438,7 @@ msgstr "Tous les fichiers envoyés"
 #: model:ir.model.fields,help:sale_pdf_quote_builder.field_product_document__attached_on_sale
 msgid ""
 "Allows you to share the document with your customers within a sale.\n"
+<<<<<<< HEAD
 "Leave it empty if you don't want to share this document with sales customer.\n"
 "On quote: the document will be sent to and accessible by customers at any time.\n"
 "e.g. this option can be useful to share Product description files.\n"
@@ -423,6 +453,35 @@ msgstr ""
 "Confirmation de commande : le document sera envoyé aux clients et leur est accessible.\n"
 "Par exemple, cette option peut être utile pour partager des manuels d'utilisation ou des contenus numériques achetés dans le cadre d'un eCommerce.\n"
 "Dans le devis : le document sera inclus dans le PDF du devis et de la commande client entre les pages d'en-tête et le tableau du devis."
+=======
+"Leave it empty if you don't want to share this document with sales "
+"customer.\n"
+"On quote: the document will be sent to and accessible by customers at any "
+"time.\n"
+"e.g. this option can be useful to share Product description files.\n"
+"On order confirmation: the document will be sent to and accessible by "
+"customers.\n"
+"e.g. this option can be useful to share User Manual or digital content "
+"bought on ecommerce. \n"
+"Inside quote: The document will be included in the pdf of the quotation and "
+"sale order between the header pages and the quote table. "
+msgstr ""
+"Vous permet de partager le document avec vos clients dans le cadre d'une "
+"vente. \n"
+"Laissez ce champ vide si vous ne voulez pas partager ce document avec vos "
+"clients.\n"
+"Devis : le document sera envoyé aux clients et est accessible par eux à tout "
+"moment. \n"
+"Par exemple, cette option peut être utile pour partager des fichiers de "
+"description de produits. \n"
+"Confirmation de commande : le document sera envoyé aux clients et leur est "
+"accessible.\n"
+"Par exemple, cette option peut être utile pour partager des manuels "
+"d'utilisation ou des contenus numériques achetés dans le cadre d'un "
+"eCommerce.\n"
+"Dans le devis : le document sera inclus dans le PDF du devis et de la "
+"commande client entre les pages d'en-tête et le tableau du devis."
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.quotation_document_kanban
@@ -546,7 +605,11 @@ msgid "Document Type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Type de documents"
+=======
+msgstr "Type de document"
+>>>>>>> upstream/18.0
 =======
 msgstr "Type de document"
 >>>>>>> upstream/18.0
@@ -806,8 +869,13 @@ msgid ""
 "It seems that we're not able to process this pdf inside a quotation. It is "
 "either encrypted, or encoded in a format we do not support."
 msgstr ""
+<<<<<<< HEAD
 "Ce pdf ne peut pas être inclus dans le devis. Celui-ci est soit crypté, soit"
 " codé dans un format non supporté."
+=======
+"Ce pdf ne peut pas être inclus dans le devis. Celui-ci est soit crypté, soit "
+"codé dans un format non supporté."
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_quotation_document__key
@@ -886,8 +954,13 @@ msgstr ""
 #: code:addons/sale_pdf_quote_builder/models/sale_pdf_form_field.py:0
 msgid "Please use only relational fields until the last value of your path."
 msgstr ""
+<<<<<<< HEAD
 "Veuillez n'utiliser que des champs relationnels jusqu'à la dernière étape de"
 " votre chemin d'accès."
+=======
+"Veuillez n'utiliser que des champs relationnels jusqu'à la dernière étape de "
+"votre chemin d'accès."
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #. odoo-python
@@ -910,6 +983,7 @@ msgstr "Documents produits"
 #. module: sale_pdf_quote_builder
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.sale_order_template_form
 msgid ""
+<<<<<<< HEAD
 "Provide header pages and footer pages to compose an attractive quotation with more information\n"
 "                        about your company, your products and you services. <br/>\n"
 "                        The pdf of your quotes will be built by putting together header pages, product descriptions,\n"
@@ -921,6 +995,29 @@ msgstr ""
 "                        Le PDF de vos devis sera construit en assemblant les pages d'en-tête, les descriptions de produits,\n"
 "                        les détails du devis et les pages de pied de page. <br/>\n"
 "                        S'ils sont vides, les informations définies dans les paramètres de l'entreprise seront utilisées. <br/>"
+=======
+"Provide header pages and footer pages to compose an attractive quotation "
+"with more information\n"
+"                        about your company, your products and you services. "
+"<br/>\n"
+"                        The pdf of your quotes will be built by putting "
+"together header pages, product descriptions,\n"
+"                        details of the quote and then the footer pages. <br/"
+">\n"
+"                        If empty, it will use those define in the company "
+"settings. <br/>"
+msgstr ""
+"Fournissez des pages d'en-tête et de pied de page pour composer un devis "
+"attrayant avec plus d'informations\n"
+"                        sur votre société, vos produits et vos services. <br/"
+">\n"
+"                        Le PDF de vos devis sera construit en assemblant les "
+"pages d'en-tête, les descriptions de produits,\n"
+"                        les détails du devis et les pages de pied de page. "
+"<br/>\n"
+"                        S'ils sont vides, les informations définies dans les "
+"paramètres de l'entreprise seront utilisées. <br/>"
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #: model:ir.actions.report,name:sale_pdf_quote_builder.action_report_saleorder_raw
@@ -1038,7 +1135,12 @@ msgid ""
 "The path to follow to dynamically fill the form field. \n"
 "Leave empty to be able to customized it in the quotation form."
 msgstr ""
+<<<<<<< HEAD
 "Le chemin d'accès à suivre pour remplir dynamiquement le champ de formulaire. \n"
+=======
+"Le chemin d'accès à suivre pour remplir dynamiquement le champ de "
+"formulaire. \n"
+>>>>>>> upstream/18.0
 "Laissez vide pour pouvoir le personnaliser dans le formulaire de devis."
 
 #. module: sale_pdf_quote_builder
@@ -1108,8 +1210,13 @@ msgid ""
 "You can either upload a file from your computer or copy/paste an internet "
 "link to your file."
 msgstr ""
+<<<<<<< HEAD
 "Vous pouvez soit charger un fichier depuis votre ordinateur, soit "
 "copier/coller une adresse internet qui y renvoie."
+=======
+"Vous pouvez soit charger un fichier depuis votre ordinateur, soit copier/"
+"coller une adresse internet qui y renvoie."
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.quotation_document_form

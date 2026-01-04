@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* hr_homeworking
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
@@ -636,10 +637,18 @@
 # Fernanda Alvarez, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+#
+# Translators:
+# Wil Odoo, 2024
+# Fernanda Alvarez, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1681,6 +1690,19 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: es_419\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Fernanda Alvarez, 2025\n"
+"Language-Team: Spanish (Latin America) (https://app.transifex.com/odoo/teams/"
+"41243/es_419/)\n"
+"Language: es_419\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? "
+"1 : 2;\n"
+>>>>>>> upstream/18.0
 
 #. module: hr_homeworking
 #: model_terms:ir.ui.view,arch_db:hr_homeworking.res_useurs_view_form_profile
@@ -1690,9 +1712,15 @@ msgid ""
 "default work location for each day of the week. This schedule will repeat "
 "itself each week.</span>"
 msgstr ""
+<<<<<<< HEAD
 "<span class=\"text-muted fst-italic oe_inline\" colspan=\"2\">Especifique su"
 " ubicación de trabajo predeterminada para cada día de la semana. Este "
 "horario se repetirá cada semana.</span>"
+=======
+"<span class=\"text-muted fst-italic oe_inline\" colspan=\"2\">Especifique su "
+"ubicación de trabajo predeterminada para cada día de la semana. Este horario "
+"se repetirá cada semana.</span>"
+>>>>>>> upstream/18.0
 
 #. module: hr_homeworking
 #. odoo-javascript
@@ -1969,12 +1997,15 @@ msgstr "En otro - En línea"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/hr_homeworking/static/src/im_status_patch.xml:0
 msgid "At {{location}} - {{status}}"
 msgstr "En {{location}} - {{status}}"
 
 #. module: hr_homeworking
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2532,7 +2563,11 @@ msgid "Location name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nombre de ubicación"
+=======
+msgstr "Nombre de la ubicación"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nombre de la ubicación"
 >>>>>>> upstream/18.0
@@ -2887,8 +2922,13 @@ msgstr "Lunes"
 #. module: hr_homeworking
 #: model:ir.model.constraint,message:hr_homeworking.constraint_hr_employee_location_uniq_exceptional_per_day
 msgid ""
+<<<<<<< HEAD
 "Only one default work location and one exceptional work location per day per"
 " employee."
+=======
+"Only one default work location and one exceptional work location per day per "
+"employee."
+>>>>>>> upstream/18.0
 msgstr ""
 "Solo se permite una ubicación de trabajo predeterminada y una ubicación de "
 "trabajo excepcional al día por empleado."
@@ -3139,12 +3179,15 @@ msgstr "Usuario"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/hr_homeworking/static/src/im_status_patch.xml:0
 msgid "User work at {{location}} and is {{status}}"
 msgstr "El usuario trabaja en {{location}} y su estado es {{status}}"
 
 #. module: hr_homeworking
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

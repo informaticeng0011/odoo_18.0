@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* event_crm
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
@@ -462,10 +463,19 @@
 # Sergio Zanchetta <primes2h@gmail.com>, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+#
+# Translators:
+# Wil Odoo, 2024
+# Marianna Ciofani, 2024
+# Sergio Zanchetta <primes2h@gmail.com>, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
@@ -931,6 +941,18 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: it\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Sergio Zanchetta <primes2h@gmail.com>, 2025\n"
+"Language-Team: Italian (https://app.transifex.com/odoo/teams/41243/it/)\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? "
+"1 : 2;\n"
+>>>>>>> upstream/18.0
 
 #. module: event_crm
 #: model:ir.model.fields,field_description:event_crm.field_event_event__lead_count
@@ -998,6 +1020,7 @@ msgstr "Assegna automaticamente i lead creati a questo team di vendita."
 #. module: event_crm
 #: model:ir.model.fields,help:event_crm.field_event_lead_rule__lead_user_id
 msgid "Automatically assign the created leads to this Salesperson."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1455,14 +1478,22 @@ msgstr "Assegna automaticamente i lead creati a questo addetto alle vendite."
 =======
 msgstr "Assegna automaticamente i lead creati a questo addetto alle vendite."
 >>>>>>> upstream/18.0
+=======
+msgstr "Assegna automaticamente i lead creati a questo addetto alle vendite."
+>>>>>>> upstream/18.0
 
 #. module: event_crm
 #. odoo-python
 #: code:addons/event_crm/models/event_event.py:0
 msgid "Aww! No Leads created, check your Lead Generation Rules and try again."
 msgstr ""
+<<<<<<< HEAD
 "Oh! Non sono stati creati lead, verifica le regole di generazione e prova di"
 " nuovo."
+=======
+"Oh! Non sono stati creati lead, verifica le regole di generazione e prova di "
+"nuovo."
+>>>>>>> upstream/18.0
 
 #. module: event_crm
 #: model:ir.model.fields,field_description:event_crm.field_event_lead_rule__company_id
@@ -1512,8 +1543,15 @@ msgid ""
 "Attended: when attendance is confirmed and registration set to done;"
 msgstr ""
 "Creazione: alla creazione del partecipante;\n"
+<<<<<<< HEAD
 "Registrazione: quando il partecipante è registrato, manualmente o automaticamente;\n"
 "Presente: quando la partecipazione è confermata e la registrazione è impostata come effettuata;"
+=======
+"Registrazione: quando il partecipante è registrato, manualmente o "
+"automaticamente;\n"
+"Presente: quando la partecipazione è confermata e la registrazione è "
+"impostata come effettuata;"
+>>>>>>> upstream/18.0
 
 #. module: event_crm
 #: model:ir.model.fields,help:event_crm.field_event_lead_rule__lead_type
@@ -1591,8 +1629,13 @@ msgstr ""
 #. module: event_crm
 #: model:ir.model.fields,help:event_crm.field_event_lead_rule__event_id
 msgid ""
+<<<<<<< HEAD
 "Filter the attendees to include those of this specific event. If not set, no"
 " event restriction will be applied."
+=======
+"Filter the attendees to include those of this specific event. If not set, no "
+"event restriction will be applied."
+>>>>>>> upstream/18.0
 msgstr ""
 "Filtra i partecipanti per includere quelli di questo specifico evento. Se "
 "non impostato, non viene applicata alcuna limitazione per gli eventi."
@@ -1612,8 +1655,12 @@ msgstr "Genera lead"
 #: code:addons/event_crm/models/event_event.py:0
 msgid "Got it! We've noted your request. Your leads will be created soon!"
 msgstr ""
+<<<<<<< HEAD
 "Ricevuto! Abbiamo registrato la tua richiesta. I lead verranno creati "
 "presto!"
+=======
+"Ricevuto! Abbiamo registrato la tua richiesta. I lead verranno creati presto!"
+>>>>>>> upstream/18.0
 
 #. module: event_crm
 #: model:ir.model.fields,field_description:event_crm.field_event_lead_request__id
@@ -1753,7 +1800,11 @@ msgid "Lead"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Contatto"
+=======
+msgstr "Lead"
+>>>>>>> upstream/18.0
 =======
 msgstr "Lead"
 >>>>>>> upstream/18.0
@@ -2245,7 +2296,11 @@ msgid "Lead/Opportunity"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Contatto/Opportunità"
+=======
+msgstr "Lead/Opportunità"
+>>>>>>> upstream/18.0
 =======
 msgstr "Lead/Opportunità"
 >>>>>>> upstream/18.0
@@ -2660,7 +2715,12 @@ msgid ""
 "Per Order: A single Lead is created per Ticket Batch/Sale Order (B2B)"
 msgstr ""
 "Per partecipante: viene creato un lead per ciascun partecipante (B2C).\n"
+<<<<<<< HEAD
 "Per ordine: viene creato un singolo lead per lotto di biglietti/ordine di vendita (B2B)"
+=======
+"Per ordine: viene creato un singolo lead per lotto di biglietti/ordine di "
+"vendita (B2B)"
+>>>>>>> upstream/18.0
 
 #. module: event_crm
 #: model:ir.model.fields.selection,name:event_crm.selection__event_lead_rule__lead_creation_basis__order
@@ -2695,10 +2755,19 @@ msgstr "Registrazioni che attivano la regola che ha creato il lead"
 #. module: event_crm
 #: model:ir.model.fields,help:event_crm.field_event_lead_rule__company_id
 msgid ""
+<<<<<<< HEAD
 "Restrict the trigger of this rule to events belonging to a specific company.\n"
 "If not set, no company restriction will be applied."
 msgstr ""
 "Limita l'attivazione della regola agli eventi che appartengono a una specifica azienda.\n"
+=======
+"Restrict the trigger of this rule to events belonging to a specific "
+"company.\n"
+"If not set, no company restriction will be applied."
+msgstr ""
+"Limita l'attivazione della regola agli eventi che appartengono a una "
+"specifica azienda.\n"
+>>>>>>> upstream/18.0
 "Se non impostato, non viene applicata alcuna limitazione per l'azienda."
 
 #. module: event_crm

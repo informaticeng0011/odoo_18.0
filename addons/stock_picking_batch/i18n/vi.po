@@ -1,15 +1,24 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* stock_picking_batch
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
 # Thi Huong Nguyen, 2025
 # 
+=======
+#
+# Translators:
+# Wil Odoo, 2024
+# Thi Huong Nguyen, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-03-19 20:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 "Last-Translator: Thi Huong Nguyen, 2025\n"
@@ -18,6 +27,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: vi\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:38+0000\n"
+"PO-Revision-Date: 2024-09-25 09:42+0000\n"
+"Last-Translator: Thi Huong Nguyen, 2025\n"
+"Language-Team: Vietnamese (https://app.transifex.com/odoo/teams/41243/vi/)\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+>>>>>>> upstream/18.0
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: stock_picking_batch
@@ -86,19 +105,37 @@ msgstr "<strong>→</strong>"
 #. module: stock_picking_batch
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_type__batch_max_lines
 msgid ""
+<<<<<<< HEAD
 "A transfer will not be automatically added to batches that will exceed this number of lines if the transfer is added to it.\n"
 "Leave this value as '0' if no line limit."
 msgstr ""
 "Lệnh chuyển hàng sẽ không được tự động thêm vào lô lấy hàng nếu số lượng dòng này bị vượt quá khi thêm lệnh chuyển hàng.\n"
+=======
+"A transfer will not be automatically added to batches that will exceed this "
+"number of lines if the transfer is added to it.\n"
+"Leave this value as '0' if no line limit."
+msgstr ""
+"Lệnh chuyển hàng sẽ không được tự động thêm vào lô lấy hàng nếu số lượng "
+"dòng này bị vượt quá khi thêm lệnh chuyển hàng.\n"
+>>>>>>> upstream/18.0
 "Để giá trị này là '0' nếu không có giới hạn dòng."
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_type__batch_max_pickings
 msgid ""
+<<<<<<< HEAD
 "A transfer will not be automatically added to batches that will exceed this number of transfers.\n"
 "Leave this value as '0' if no transfer limit."
 msgstr ""
 "Lệnh chuyển hàng sẽ không được tự động thêm vào lô lấy hàng nếu vượt quá số lượng lệnh chuyển hàng.\n"
+=======
+"A transfer will not be automatically added to batches that will exceed this "
+"number of transfers.\n"
+"Leave this value as '0' if no transfer limit."
+msgstr ""
+"Lệnh chuyển hàng sẽ không được tự động thêm vào lô lấy hàng nếu vượt quá số "
+"lượng lệnh chuyển hàng.\n"
+>>>>>>> upstream/18.0
 "Để giá trị này là '0' nếu không có giới hạn lệnh chuyển hàng."
 
 #. module: stock_picking_batch
@@ -508,8 +545,12 @@ msgid ""
 "If the Automatic Batches feature is enabled, at least one 'Group by' option "
 "must be selected."
 msgstr ""
+<<<<<<< HEAD
 "Nếu bật tính năng Lô tự động, thì phải chọn ít nhất một tùy chọn 'Nhóm "
 "theo'."
+=======
+"Nếu bật tính năng Lô tự động, thì phải chọn ít nhất một tùy chọn 'Nhóm theo'."
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_batch_filter
@@ -562,8 +603,13 @@ msgid ""
 "Launch picking orders by aisle or area and regroup at packing zone. Ideal "
 "for large warehouses."
 msgstr ""
+<<<<<<< HEAD
 "Khởi chạy phiếu xuất kho theo lối đi hoặc khu vực và tập hợp lại tại khu vực"
 " đóng gói. Lý tưởng cho các kho hàng lớn."
+=======
+"Khởi chạy phiếu xuất kho theo lối đi hoặc khu vực và tập hợp lại tại khu vực "
+"đóng gói. Lý tưởng cho các kho hàng lớn."
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_add_to_wave__line_ids
@@ -779,7 +825,11 @@ msgid "My Activity Deadline"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Hạn chót hoạt động của tôi"
+=======
+msgstr "Thời hạn hoạt động của tôi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Thời hạn hoạt động của tôi"
 >>>>>>> upstream/18.0
@@ -1374,7 +1424,11 @@ msgid "Next Activity Deadline"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Hạn chót cho hoạt động tiếp theo"
+=======
+msgstr "Thời hạn cho hoạt động tiếp theo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Thời hạn cho hoạt động tiếp theo"
 >>>>>>> upstream/18.0
@@ -1863,8 +1917,13 @@ msgid ""
 "Pick multiple orders in one trip and prepare orders as you pick. This "
 "reduces packing time and is ideal for small products."
 msgstr ""
+<<<<<<< HEAD
 "Lấy nhiều đơn hàng trong một lần và chuẩn bị đơn hàng khi bạn lấy hàng. Việc"
 " này giúp giảm thời gian đóng gói và lý tưởng cho các sản phẩm nhỏ."
+=======
+"Lấy nhiều đơn hàng trong một lần và chuẩn bị đơn hàng khi bạn lấy hàng. Việc "
+"này giúp giảm thời gian đóng gói và lý tưởng cho các sản phẩm nhỏ."
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_add_to_wave__picking_ids
@@ -1879,8 +1938,12 @@ msgstr "Kiểu lấy hàng"
 #. module: stock_picking_batch
 #. odoo-python
 #: code:addons/stock_picking_batch/models/stock_picking_batch.py:0
+<<<<<<< HEAD
 msgid ""
 "Please add 'Done' quantities to the batch picking to create a new pack."
+=======
+msgid "Please add 'Done' quantities to the batch picking to create a new pack."
+>>>>>>> upstream/18.0
 msgstr ""
 "Hãy thêm số lượng 'Hoàn tất' vào phiếu xuất kho theo lô này để tạo một kiện "
 "hàng mới."
@@ -1964,11 +2027,17 @@ msgstr "Đánh giá"
 #: model_terms:ir.actions.act_window,help:stock_picking_batch.action_picking_tree_wave
 #: model_terms:ir.actions.act_window,help:stock_picking_batch.stock_picking_batch_action
 msgid ""
+<<<<<<< HEAD
 "Regroup multiple orders into one picking and consolidate at the packing "
 "zone."
 msgstr ""
 "Nhóm nhiều đơn hàng trong một phiếu xuất kho và tập hợp tại khu vực đóng "
 "gói."
+=======
+"Regroup multiple orders into one picking and consolidate at the packing zone."
+msgstr ""
+"Nhóm nhiều đơn hàng trong một phiếu xuất kho và tập hợp tại khu vực đóng gói."
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_add_to_wave__user_id
@@ -1997,6 +2066,7 @@ msgstr "Lỗi gửi SMS"
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__scheduled_date
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.report_picking_batch
 msgid "Scheduled Date"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2806,11 +2876,15 @@ msgstr "Ngày đã lên lịch"
 =======
 msgstr "Ngày đã lên lịch"
 >>>>>>> upstream/18.0
+=======
+msgstr "Ngày đã lên lịch"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_batch__scheduled_date
 msgid ""
 "Scheduled date for the transfers to be processed.\n"
+<<<<<<< HEAD
 "              - If manually set then scheduled date for all transfers in batch will automatically update to this date.\n"
 "              - If not manually changed and transfers are added/removed/updated then this will be their earliest scheduled date\n"
 "                but this scheduled date will not be set for all transfers in batch."
@@ -4032,6 +4106,22 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"              - If manually set then scheduled date for all transfers in "
+"batch will automatically update to this date.\n"
+"              - If not manually changed and transfers are added/removed/"
+"updated then this will be their earliest scheduled date\n"
+"                but this scheduled date will not be set for all transfers in "
+"batch."
+msgstr ""
+"Ngày đã lên lịch để xử lý lệnh chuyển hàng.\n"
+"            - Nếu được đặt thủ công thì ngày đã lên lịch cho tất cả lệnh "
+"chuyển hàng trong lô sẽ tự động cập nhật đến ngày này.\n"
+"            - Nếu không được thay đổi thủ công và các lệnh chuyển hàng được "
+"thêm/xóa/cập nhật thì đây sẽ là ngày đã lên lịch sớm nhất của chúng\n"
+"              nhưng ngày đã lên lịch này sẽ không được đặt cho tất cả lệnh "
+"chuyển hàng trong lô."
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_batch_filter
@@ -4090,8 +4180,13 @@ msgstr ""
 #. module: stock_picking_batch
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_type__wave_group_by_category
 msgid ""
+<<<<<<< HEAD
 "Split transfers by product category, then group transfers that have the same"
 " product category."
+=======
+"Split transfers by product category, then group transfers that have the same "
+"product category."
+>>>>>>> upstream/18.0
 msgstr ""
 "Tách các lệnh chuyển hàng theo danh mục sản phẩm, sau đó nhóm những lệnh "
 "chuyển hàng có cùng danh mục sản phẩm."
@@ -4169,11 +4264,21 @@ msgstr "Tóm tắt:"
 #. odoo-python
 #: code:addons/stock_picking_batch/models/stock_picking_batch.py:0
 msgid ""
+<<<<<<< HEAD
 "The following transfers cannot be added to batch transfer %(batch)s. Please check their states and operation types.\n"
 "\n"
 "Incompatibilities: %(incompatible_transfers)s"
 msgstr ""
 "Không thể thêm các lệnh chuyển hàng sau vào lệnh chuyển hàng theo lô %(batch)s. Vui lòng kiểm tra trạng thái và loại hoạt động của chúng.\n"
+=======
+"The following transfers cannot be added to batch transfer %(batch)s. Please "
+"check their states and operation types.\n"
+"\n"
+"Incompatibilities: %(incompatible_transfers)s"
+msgstr ""
+"Không thể thêm các lệnh chuyển hàng sau vào lệnh chuyển hàng theo lô %"
+"(batch)s. Vui lòng kiểm tra trạng thái và loại hoạt động của chúng.\n"
+>>>>>>> upstream/18.0
 "\n"
 "Lệnh chuyển hàng không tương thích: %(incompatible_transfers)s"
 

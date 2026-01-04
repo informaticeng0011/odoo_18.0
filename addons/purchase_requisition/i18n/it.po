@@ -1,7 +1,11 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* purchase_requisition
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Tiffany Chang, 2024
 # Wil Odoo, 2024
@@ -120,6 +124,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Sergio Zanchetta <primes2h@gmail.com>, 2025
 >>>>>>> upstream/18.0
@@ -463,10 +468,15 @@
 # Sergio Zanchetta <primes2h@gmail.com>, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+# Sergio Zanchetta <primes2h@gmail.com>, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
@@ -932,6 +942,18 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: it\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Sergio Zanchetta <primes2h@gmail.com>, 2025\n"
+"Language-Team: Italian (https://app.transifex.com/odoo/teams/41243/it/)\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? "
+"1 : 2;\n"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.report_purchaserequisition_document
@@ -1060,7 +1082,11 @@ msgid "'Purchase Agreement - %s' % (object.name)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "\"Contratto d'acquisto-%s\" % (object.name)"
+=======
+msgstr "\"Contratto di acquisto - %s\" % (object.name)"
+>>>>>>> upstream/18.0
 =======
 msgstr "\"Contratto di acquisto - %s\" % (object.name)"
 >>>>>>> upstream/18.0
@@ -1610,7 +1636,11 @@ msgid "Alternative POs"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ordini di acquisto alternativi"
+=======
+msgstr "OdA alternativi"
+>>>>>>> upstream/18.0
 =======
 msgstr "OdA alternativi"
 >>>>>>> upstream/18.0
@@ -2086,7 +2116,11 @@ msgid "An example of a purchase agreement is a blanket order."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Un esempio di contratto d'acquisto è l'accordo quadro."
+=======
+msgstr "Un esempio di contratto di acquisto è l'ordine quadro."
+>>>>>>> upstream/18.0
 =======
 msgstr "Un esempio di contratto di acquisto è l'ordine quadro."
 >>>>>>> upstream/18.0
@@ -2578,7 +2612,11 @@ msgid "Blanket Orders"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ordini aperti"
+=======
+msgstr "Ordini quadro"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ordini quadro"
 >>>>>>> upstream/18.0
@@ -3056,7 +3094,11 @@ msgid "Cancelled"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Annullata"
+=======
+msgstr "Annullato"
+>>>>>>> upstream/18.0
 =======
 msgstr "Annullato"
 >>>>>>> upstream/18.0
@@ -3518,7 +3560,11 @@ msgid "Cancelled by the agreement associated to this quotation."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Annullato dal contratto associato a questo preventivo"
+=======
+msgstr "Annullato dal contratto associato a questo preventivo."
+>>>>>>> upstream/18.0
 =======
 msgstr "Annullato dal contratto associato a questo preventivo."
 >>>>>>> upstream/18.0
@@ -4061,7 +4107,11 @@ msgid "Confirmed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Confermata"
+=======
+msgstr "Confermato"
+>>>>>>> upstream/18.0
 =======
 msgstr "Confermato"
 >>>>>>> upstream/18.0
@@ -4429,6 +4479,7 @@ msgstr "Crea alternativa"
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.purchase_order_form_inherit
 msgid ""
+<<<<<<< HEAD
 "Create a call for tender by adding alternative requests for quotation to different vendors.\n"
 "                            Make your choice by selecting the best combination of lead time, OTD and/or total amount.\n"
 "                            By comparing product lines you can also decide to order some products from one vendor and others from another vendor."
@@ -4436,6 +4487,21 @@ msgstr ""
 "Crea una gara d'appalto aggiungendo richiese di preventivo alternative per vari fornitori.\n"
 "                            Effettua una scelta in base alla migliore combinazione in termini di tempi di risposta, OTS e/o importo totale.\n"
 "                            Confrontando le righe del prodotto puoi anche decidere di ordinare alcuni prodotti da un fornitore e altri da un altro."
+=======
+"Create a call for tender by adding alternative requests for quotation to "
+"different vendors.\n"
+"                            Make your choice by selecting the best "
+"combination of lead time, OTD and/or total amount.\n"
+"                            By comparing product lines you can also decide "
+"to order some products from one vendor and others from another vendor."
+msgstr ""
+"Crea una gara d'appalto aggiungendo richiese di preventivo alternative per "
+"vari fornitori.\n"
+"                            Effettua una scelta in base alla migliore "
+"combinazione in termini di tempi di risposta, OTS e/o importo totale.\n"
+"                            Confrontando le righe del prodotto puoi anche "
+"decidere di ordinare alcuni prodotti da un fornitore e altri da un altro."
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #. odoo-python
@@ -4509,6 +4575,7 @@ msgstr "Distribuzione conto analitico"
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_filter
 msgid "Done"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4966,6 +5033,9 @@ msgstr "Completato"
 =======
 msgstr "Completato"
 >>>>>>> upstream/18.0
+=======
+msgstr "Completato"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model:ir.model.fields.selection,name:purchase_requisition.selection__purchase_requisition__state__draft
@@ -5012,6 +5082,7 @@ msgstr "Icona Font Awesome es. fa-tasks"
 #: model_terms:ir.actions.act_window,help:purchase_requisition.action_purchase_requisition
 msgid ""
 "For a blanket order, you can record an agreement for a specific period\n"
+<<<<<<< HEAD
 "            (e.g. a year) and you order products within this agreement to benefit\n"
 "            from the negotiated prices."
 msgstr ""
@@ -5702,6 +5773,16 @@ msgstr ""
 "            specifico (es. un anno), ordinando i prodotti all'interno dell'accordo e beneficiando\n"
 "            dei prezzi negoziati."
 >>>>>>> upstream/18.0
+=======
+"            (e.g. a year) and you order products within this agreement to "
+"benefit\n"
+"            from the negotiated prices."
+msgstr ""
+"Per un ordine quadro è possibile registrare un contratto per un periodo\n"
+"            specifico (es. un anno), ordinando i prodotti all'interno "
+"dell'accordo e beneficiando\n"
+"            dei prezzi negoziati."
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_filter
@@ -5759,9 +5840,15 @@ msgstr "Se selezionata, alcuni messaggi presentano un errore di consegna."
 #: model:ir.model.fields,help:purchase_requisition.field_purchase_requisition_create_alternative__creation_blocked
 msgid ""
 "If the chosen vendor or if any of the products in the original PO have a "
+<<<<<<< HEAD
 "blocking warning then we prevent creation of alternative PO. This is because"
 " normally these fields are cleared w/warning message within form view, but "
 "we cannot recreate that in this case."
+=======
+"blocking warning then we prevent creation of alternative PO. This is because "
+"normally these fields are cleared w/warning message within form view, but we "
+"cannot recreate that in this case."
+>>>>>>> upstream/18.0
 msgstr ""
 "Se il venditore scelto o se uno dei prodotti dell'ordine di acquisto "
 "originale presenta un avviso di blocco, impediamo la creazione di un ordine "
@@ -6070,7 +6157,11 @@ msgid "POs to Confirm"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ordini di acquisto da confermare"
+=======
+msgstr "OdA da confermare"
+>>>>>>> upstream/18.0
 =======
 msgstr "OdA da confermare"
 >>>>>>> upstream/18.0
@@ -6676,9 +6767,15 @@ msgstr ""
 #. odoo-python
 #: code:addons/purchase_requisition/wizard/purchase_requisition_create_alternative.py:0
 msgid ""
+<<<<<<< HEAD
 "The vendor you have selected or at least one of the products you are copying"
 " from the original order has a blocking warning on it and cannot be selected"
 " to create an alternative."
+=======
+"The vendor you have selected or at least one of the products you are copying "
+"from the original order has a blocking warning on it and cannot be selected "
+"to create an alternative."
+>>>>>>> upstream/18.0
 msgstr ""
 "Il venditore che hai selezionato oppure almeno uno dei prodotti che stai "
 "copiando dal'ordine originale presenta un avviso di blocco e non può essere "
@@ -6712,11 +6809,22 @@ msgstr "Questo è  un avviso di blocco!\n"
 msgid ""
 "To close this purchase requisition, cancel related Requests for Quotation.\n"
 "\n"
+<<<<<<< HEAD
 "Imagine the mess if someone confirms these duplicates: double the order, double the trouble :)"
 msgstr ""
 "Per chiudere questa richiesta di acquisto annulla le richieste di preventivo collegate.\n"
 "\n"
 "Immagina cosa può accadere se qualcuno conferma i duplicati: ordini duplicati, problemi duplicati :)"
+=======
+"Imagine the mess if someone confirms these duplicates: double the order, "
+"double the trouble :)"
+msgstr ""
+"Per chiudere questa richiesta di acquisto annulla le richieste di preventivo "
+"collegate.\n"
+"\n"
+"Immagina cosa può accadere se qualcuno conferma i duplicati: ordini "
+"duplicati, problemi duplicati :)"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_filter
@@ -6807,8 +6915,13 @@ msgstr "Cosa ne pensi dell'alternativa Richieste di preventivo?"
 #. module: purchase_requisition
 #: model:ir.model.fields,help:purchase_requisition.field_purchase_order__has_alternatives
 msgid ""
+<<<<<<< HEAD
 "Whether or not this purchase order is linked to another purchase order as an"
 " alternative."
+=======
+"Whether or not this purchase order is linked to another purchase order as an "
+"alternative."
+>>>>>>> upstream/18.0
 msgstr ""
 "Se l'ordine di acquisto è collegato o meno ad un altro ordine di acquisto "
 "come alternativa."
@@ -6847,8 +6960,12 @@ msgstr ""
 #: code:addons/purchase_requisition/models/purchase_requisition.py:0
 msgid "You cannot confirm a blanket order with lines missing a price."
 msgstr ""
+<<<<<<< HEAD
 "Non è possibile confermare un ordine quadro se vi sono righe prive di "
 "prezzo."
+=======
+"Non è possibile confermare un ordine quadro se vi sono righe prive di prezzo."
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #. odoo-python
@@ -6862,8 +6979,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/purchase_requisition/models/purchase_requisition.py:0
 msgid ""
+<<<<<<< HEAD
 "You cannot confirm agreement '%(agreement)s' because it does not contain any"
 " product lines."
+=======
+"You cannot confirm agreement '%(agreement)s' because it does not contain any "
+"product lines."
+>>>>>>> upstream/18.0
 msgstr ""
 "Non è possibile confermare il contratto \"%(agreement)s\" perché non "
 "contiene nessuna riga prodotto."

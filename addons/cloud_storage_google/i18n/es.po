@@ -1,15 +1,24 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* cloud_storage_google
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
 # Larissa Manderfeld, 2024
 # 
+=======
+#
+# Translators:
+# Wil Odoo, 2024
+# Larissa Manderfeld, 2024
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
 "PO-Revision-Date: 2024-09-29 00:00+0000\n"
 "Last-Translator: Larissa Manderfeld, 2024\n"
@@ -19,6 +28,18 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: es\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2024-09-29 00:00+0000\n"
+"Last-Translator: Larissa Manderfeld, 2024\n"
+"Language-Team: Spanish (https://app.transifex.com/odoo/teams/41243/es/)\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? "
+"1 : 2;\n"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_google
 #: model:ir.model,name:cloud_storage_google.model_ir_attachment
@@ -63,8 +84,13 @@ msgid ""
 "Some Google attachments are in use, please migrate cloud storages before "
 "disable the provider"
 msgstr ""
+<<<<<<< HEAD
 "Algunos archivos adjuntos de Google están en uso, migre su almacenamiento en"
 " la nube antes de deshabilitar el proveedor"
+=======
+"Algunos archivos adjuntos de Google están en uso, migre su almacenamiento en "
+"la nube antes de deshabilitar el proveedor"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_google
 #. odoo-python
@@ -83,7 +109,12 @@ msgid ""
 "The account info is not allowed to set the bucket's CORS.\n"
 "%s"
 msgstr ""
+<<<<<<< HEAD
 "La información de la cuenta no tiene permitido establecer el CORS del bucket.\n"
+=======
+"La información de la cuenta no tiene permitido establecer el CORS del "
+"bucket.\n"
+>>>>>>> upstream/18.0
 "%s"
 
 #. module: cloud_storage_google

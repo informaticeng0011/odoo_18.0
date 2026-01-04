@@ -128,6 +128,10 @@ export class ReceptionReportLine extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        labelReport: Object,
+>>>>>>> upstream/18.0
 =======
         labelReport: Object,
 >>>>>>> upstream/18.0
@@ -639,7 +643,10 @@ export class ReceptionReportLine extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const reportFile = 'stock.report_reception_report_label';
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1007,10 +1014,16 @@ export class ReceptionReportLine extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             type: "ir.actions.report",
             report_type: "qweb-pdf",
             report_name: `${reportFile}?docids=${modelIds}&quantity=${productQtys}`,
             report_file: reportFile,
+=======
+            ...this.props.labelReport,
+            context: { active_ids: modelIds },
+            data: { docids: modelIds, quantity: productQtys.join(",") },
+>>>>>>> upstream/18.0
 =======
             ...this.props.labelReport,
             context: { active_ids: modelIds },

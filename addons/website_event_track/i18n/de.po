@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* website_event_track
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
@@ -659,10 +660,19 @@
 # Larissa Manderfeld, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+#
+# Translators:
+# Wil Odoo, 2024
+# Martin Trigaux, 2024
+# Larissa Manderfeld, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1649,18 +1659,44 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: de\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:38+0000\n"
+"PO-Revision-Date: 2024-09-25 09:42+0000\n"
+"Last-Translator: Larissa Manderfeld, 2025\n"
+"Language-Team: German (https://app.transifex.com/odoo/teams/41243/de/)\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+>>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: website_event_track
 #: model:mail.template,body_html:website_event_track.mail_template_data_track_confirmation
 msgid ""
 "\n"
+<<<<<<< HEAD
 "    Dear <t t-out=\"object.partner_id.name or object.partner_name or ''\">Brandon Freeman</t><br/>\n"
 "    We are pleased to inform you that your proposal <t t-out=\"object.name or ''\">What This Event Is All About</t> has been accepted and confirmed for the event <t t-out=\"object.event_id.name or ''\">OpenWood Collection Online Reveal</t>.\n"
 "    <br/>\n"
 "    You will find more details here:\n"
 "    <div style=\"margin: 16px 0px 16px 0px;\">\n"
 "        <a t-attf-href=\"/event/{{ object.event_id.id }}/track/{{ object.id }}\" style=\"padding: 8px 16px 8px 16px; font-size: 14px; color: #FFFFFF; text-decoration: none !important; background-color: #875A7B; border: 0px solid #875A7B; border-radius:3px\">\n"
+=======
+"    Dear <t t-out=\"object.partner_id.name or object.partner_name or "
+"''\">Brandon Freeman</t><br/>\n"
+"    We are pleased to inform you that your proposal <t t-out=\"object.name "
+"or ''\">What This Event Is All About</t> has been accepted and confirmed for "
+"the event <t t-out=\"object.event_id.name or ''\">OpenWood Collection Online "
+"Reveal</t>.\n"
+"    <br/>\n"
+"    You will find more details here:\n"
+"    <div style=\"margin: 16px 0px 16px 0px;\">\n"
+"        <a t-attf-href=\"/event/{{ object.event_id.id }}/track/"
+"{{ object.id }}\" style=\"padding: 8px 16px 8px 16px; font-size: 14px; "
+"color: #FFFFFF; text-decoration: none !important; background-color: #875A7B; "
+"border: 0px solid #875A7B; border-radius:3px\">\n"
+>>>>>>> upstream/18.0
 "            View Talk\n"
 "        </a>\n"
 "    </div>\n"
@@ -1668,6 +1704,7 @@ msgid ""
 "    Thank you,\n"
 "    <t t-if=\"user.signature\" data-o-mail-quote-container=\"1\">\n"
 "        <br/>\n"
+<<<<<<< HEAD
 "        <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 "    </t>\n"
 msgstr ""
@@ -1678,6 +1715,26 @@ msgstr ""
 "    Mehr Details finden Sie hier:\n"
 "    <div style=\"margin: 16px 0px 16px 0px;\">\n"
 "        <a t-attf-href=\"/event/{{ object.event_id.id }}/track/{{ object.id }}\" style=\"padding: 8px 16px 8px 16px; font-size: 14px; color: #FFFFFF; text-decoration: none !important; background-color: #875A7B; border: 0px solid #875A7B; border-radius:3px\">\n"
+=======
+"        <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br data-"
+"o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+"    </t>\n"
+msgstr ""
+"\n"
+"    Hallo <t t-out=\"object.partner_id.name or object.partner_name or "
+"''\">Brandon Freeman</t>,<br/>\n"
+"    wir freuen uns Ihnen mitteilen zu können, dass Ihr Vorschlag <t t-"
+"out=\"object.name or ''\">Alles über diese Veranstaltung</t> eingegangen ist "
+"und für die Veranstaltung <t t-out=\"object.event_id.name or ''\">Online-"
+"Enthüllung der OpenWood-Kollektion</t> akzeptiert wurde.\n"
+"    <br/>\n"
+"    Mehr Details finden Sie hier:\n"
+"    <div style=\"margin: 16px 0px 16px 0px;\">\n"
+"        <a t-attf-href=\"/event/{{ object.event_id.id }}/track/"
+"{{ object.id }}\" style=\"padding: 8px 16px 8px 16px; font-size: 14px; "
+"color: #FFFFFF; text-decoration: none !important; background-color: #875A7B; "
+"border: 0px solid #875A7B; border-radius:3px\">\n"
+>>>>>>> upstream/18.0
 "            Vortrag anzeigen\n"
 "        </a>\n"
 "    </div>\n"
@@ -1685,7 +1742,12 @@ msgstr ""
 "    Vielen Dank\n"
 "    <t t-if=\"user.signature\" data-o-mail-quote-container=\"1\">\n"
 "        <br/>\n"
+<<<<<<< HEAD
 "        <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+=======
+"        <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br data-"
+"o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+>>>>>>> upstream/18.0
 "    </t>\n"
 
 #. module: website_event_track
@@ -1799,6 +1861,7 @@ msgstr "<span class=\"fa fa-plus me-1\"/> Beiträge planen"
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_proposal
 msgid ""
 "<span class=\"o_wetrack_proposal_error_section text-danger d-none ml8\">\n"
+<<<<<<< HEAD
 "                                    <i class=\"fa fa-close mr4\" role=\"img\" aria-label=\"Error\" title=\"Error\"/>\n"
 "                                    <span class=\"o_wetrack_proposal_error_message\"/>\n"
 "                                </span>"
@@ -1806,6 +1869,19 @@ msgstr ""
 "<span class=\"o_wetrack_proposal_error_section text-danger d-none ml8\">\n"
 "                                    <i class=\"fa fa-close mr4\" role=\"img\" aria-label=\"Error\" title=\"Error\"/>\n"
 "                                    <span class=\"o_wetrack_proposal_error_message\"/>\n"
+=======
+"                                    <i class=\"fa fa-close mr4\" "
+"role=\"img\" aria-label=\"Error\" title=\"Error\"/>\n"
+"                                    <span "
+"class=\"o_wetrack_proposal_error_message\"/>\n"
+"                                </span>"
+msgstr ""
+"<span class=\"o_wetrack_proposal_error_section text-danger d-none ml8\">\n"
+"                                    <i class=\"fa fa-close mr4\" "
+"role=\"img\" aria-label=\"Error\" title=\"Error\"/>\n"
+"                                    <span "
+"class=\"o_wetrack_proposal_error_message\"/>\n"
+>>>>>>> upstream/18.0
 "                                </span>"
 
 #. module: website_event_track
@@ -1878,10 +1954,19 @@ msgid ""
 " * Red indicates something is preventing the progress of this track\n"
 " * Green indicates the track is ready to be pulled to the next stage"
 msgstr ""
+<<<<<<< HEAD
 "Der Kanban-Status eines Beitrags zeigt besondere Situationen an, die sie betreffen:\n"
 "* Grau ist die Standardsituation.\n"
 "* Rot zeigt an, dass etwas den Fortschritt dieses Beitrags verhindert.\n"
 "* Grün zeigt an, dass der Beitrag bereit ist, in die nächste Phase gezogen zu werden."
+=======
+"Der Kanban-Status eines Beitrags zeigt besondere Situationen an, die sie "
+"betreffen:\n"
+"* Grau ist die Standardsituation.\n"
+"* Rot zeigt an, dass etwas den Fortschritt dieses Beitrags verhindert.\n"
+"* Grün zeigt an, dass der Beitrag bereit ist, in die nächste Phase gezogen "
+"zu werden."
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__message_needaction
@@ -1919,8 +2004,13 @@ msgid ""
 "Add a description to help your coworkers understand the meaning and purpose "
 "of the stage."
 msgstr ""
+<<<<<<< HEAD
 "Fügen Sie eine Beschreibung hinzu, damit Ihre Kollegen die Bedeutung und den"
 " Nutzen dieser Phase verstehen."
+=======
+"Fügen Sie eine Beschreibung hinzu, damit Ihre Kollegen die Bedeutung und den "
+"Nutzen dieser Phase verstehen."
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_stage_view_form
@@ -1986,7 +2076,12 @@ msgid ""
 "                            presentation, for publishing on our website."
 msgstr ""
 "Erlauben Sie Video- und Audioaufnahmen ihrer\n"
+<<<<<<< HEAD
 "                            Präsentation zur Veröffentlichung auf unserer Website."
+=======
+"                            Präsentation zur Veröffentlichung auf unserer "
+"Website."
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__wishlisted_by_default
@@ -2017,12 +2112,18 @@ msgid ""
 "As key track cannot be un-favorited, this field store the partner choice to "
 "remove the reminder for key tracks."
 msgstr ""
+<<<<<<< HEAD
 "Da ein Hauptbeitrag nicht deaktiviert werden kann, speichert dieses Feld die"
 " Wahl des Partners, die Erinnerung für Hauptbeiträge zu entfernen."
+=======
+"Da ein Hauptbeitrag nicht deaktiviert werden kann, speichert dieses Feld die "
+"Wahl des Partners, die Erinnerung für Hauptbeiträge zu entfernen."
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:event.track,description:website_event_track.event_7_track_17
 msgid ""
+<<<<<<< HEAD
 "As you may have heard before, making your own furniture is actually not as difficult or as complicated as you think.\n"
 "    In fact, some projects are so easy anyone could successfully complete them. For example, making a cute stool out of\n"
 "    a old tire is a real piece of cake and if you’re in need of a coffee table you can easily put one together using\n"
@@ -2031,6 +2132,23 @@ msgstr ""
 "Wie Sie vielleicht schon gehört haben, ist der Bau eigener Möbel gar nicht so schwierig oder kompliziert, wie Sie denken.\n"
 "Manche Projekte sind sogar so einfach, dass jeder sie erfolgreich durchführen kann. Zum Beispiel ist die Herstellung eines hübschen Hockers aus\n"
 "einem alten Reifen ein echtes Kinderspiel, und wenn Sie einen Couchtisch brauchen, können Sie ihn ganz einfach aus\n"
+=======
+"As you may have heard before, making your own furniture is actually not as "
+"difficult or as complicated as you think.\n"
+"    In fact, some projects are so easy anyone could successfully complete "
+"them. For example, making a cute stool out of\n"
+"    a old tire is a real piece of cake and if you’re in need of a coffee "
+"table you can easily put one together using\n"
+"    wood crates."
+msgstr ""
+"Wie Sie vielleicht schon gehört haben, ist der Bau eigener Möbel gar nicht "
+"so schwierig oder kompliziert, wie Sie denken.\n"
+"Manche Projekte sind sogar so einfach, dass jeder sie erfolgreich "
+"durchführen kann. Zum Beispiel ist die Herstellung eines hübschen Hockers "
+"aus\n"
+"einem alten Reifen ein echtes Kinderspiel, und wenn Sie einen Couchtisch "
+"brauchen, können Sie ihn ganz einfach aus\n"
+>>>>>>> upstream/18.0
 "Holzkisten bauen."
 
 #. module: website_event_track
@@ -2336,9 +2454,17 @@ msgid ""
 "            You will use these stages in order to track the progress in\n"
 "            solving an event track."
 msgstr ""
+<<<<<<< HEAD
 "Definieren Sie die Schritte, die in der Veranstaltung verwendet werden, von der\n"
 "Erstellung des Beitrags bis hin zum Abschluss.\n"
 "Sie werden diese Schritte verwenden, um den Veranstaltungsfortschritt zu verfolgen."
+=======
+"Definieren Sie die Schritte, die in der Veranstaltung verwendet werden, von "
+"der\n"
+"Erstellung des Beitrags bis hin zum Abschluss.\n"
+"Sie werden diese Schritte verwenden, um den Veranstaltungsfortschritt zu "
+"verfolgen."
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.view_event_track_kanban
@@ -2761,8 +2887,12 @@ msgstr "Falls markiert, erfordern neue Nachrichten Ihre Aufmerksamkeit."
 #: model:ir.model.fields,help:website_event_track.field_event_track__message_has_error
 #: model:ir.model.fields,help:website_event_track.field_event_track__message_has_sms_error
 msgid "If checked, some messages have a delivery error."
+<<<<<<< HEAD
 msgstr ""
 "Falls markiert, weisen einige Nachrichten einen Zustellungsfehler auf."
+=======
+msgstr "Falls markiert, weisen einige Nachrichten einen Zustellungsfehler auf."
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,help:website_event_track.field_event_track_stage__is_visible_in_agenda
@@ -2777,14 +2907,24 @@ msgid ""
 "If set an email will be sent to the customer when the track reaches this "
 "step."
 msgstr ""
+<<<<<<< HEAD
 "Wurde eine E-Mail-Adresse definiert, wird eine E-Mail an den Kunden gesandt,"
 " wenn der Beitrag diesen Schritt erreicht."
+=======
+"Wurde eine E-Mail-Adresse definiert, wird eine E-Mail an den Kunden gesandt, "
+"wenn der Beitrag diesen Schritt erreicht."
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,help:website_event_track.field_event_track__wishlisted_by_default
 msgid ""
+<<<<<<< HEAD
 "If set, the talk will be set as favorite for each attendee registered to the"
 " event."
+=======
+"If set, the talk will be set as favorite for each attendee registered to the "
+"event."
+>>>>>>> upstream/18.0
 msgstr ""
 "Wenn diese Option aktiviert ist, wird der Vortrag als Favorit für jeden für "
 "die Veranstaltung registrierten Teilnehmer festgelegt."
@@ -3066,8 +3206,13 @@ msgid ""
 "Manage from here the places where you organize your tracks (e.g. Rooms, "
 "Channels, ...)."
 msgstr ""
+<<<<<<< HEAD
 "Verwalten Sie von hier aus die Orte, an denen Sie Ihre Beiträge organisieren"
 " (z. B. Räume, Kanäle ...)."
+=======
+"Verwalten Sie von hier aus die Orte, an denen Sie Ihre Beiträge organisieren "
+"(z. B. Räume, Kanäle ...)."
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields.selection,name:website_event_track.selection__event_track__priority__1
@@ -3264,8 +3409,13 @@ msgstr ""
 #: code:addons/website_event_track/static/src/js/website_event_track_proposal_form.js:0
 msgid "Please enter either a contact email address or a contact phone number."
 msgstr ""
+<<<<<<< HEAD
 "Bitte geben Sie eine E-Mail-Adresse oder Telefonnummer an, unter der wir Sie"
 " erreichen können."
+=======
+"Bitte geben Sie eine E-Mail-Adresse oder Telefonnummer an, unter der wir Sie "
+"erreichen können."
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #. odoo-javascript
@@ -3673,10 +3823,20 @@ msgstr ""
 #. module: website_event_track
 #: model_terms:event.track,description:website_event_track.event_7_track_5
 msgid ""
+<<<<<<< HEAD
 "There are several variants of wood is available in the world but we are talking about most expensive\n"
 "    ones in the world and keeping to the point we have arranged ten most expensive wood."
 msgstr ""
 "Es gibt verschiedene Varianten von Holz auf der Welt, aber wir sprechen hier über die teuersten\n"
+=======
+"There are several variants of wood is available in the world but we are "
+"talking about most expensive\n"
+"    ones in the world and keeping to the point we have arranged ten most "
+"expensive wood."
+msgstr ""
+"Es gibt verschiedene Varianten von Holz auf der Welt, aber wir sprechen hier "
+"über die teuersten\n"
+>>>>>>> upstream/18.0
 "    der Welt und haben deshalb die zehn teuersten Holzarten zusammengestellt."
 
 #. module: website_event_track
@@ -3698,8 +3858,12 @@ msgstr ""
 #. module: website_event_track
 #: model_terms:ir.actions.act_window,help:website_event_track.event_track_visitor_action
 msgid ""
+<<<<<<< HEAD
 "They will be created automatically once attendees start browsing your "
 "events."
+=======
+"They will be created automatically once attendees start browsing your events."
+>>>>>>> upstream/18.0
 msgstr ""
 "Sie werden automatisch erstellt, sobald die Teilnehmer beginnen, Ihre "
 "Veranstaltungen zu durchsuchen."
@@ -3782,11 +3946,23 @@ msgstr "Die 10 teuersten Holzsorten der Welt"
 #. module: website_event_track
 #: model_terms:event.track,description:website_event_track.event_7_track_5
 msgid ""
+<<<<<<< HEAD
 "Top most expensive wood in the world is quite interesting topic and several people may be surprised\n"
 "    that there are hundreds of wood types exist around the globe following different properties and use."
 msgstr ""
 "Das teuerste Holz der Welt ist ein sehr interessantes Thema und manch einer mag überrascht sein,\n"
 "    dass es rund um den Globus Hunderte von Holzarten mit unterschiedlichen Eigenschaften und Verwendungszwecken gibt."
+=======
+"Top most expensive wood in the world is quite interesting topic and several "
+"people may be surprised\n"
+"    that there are hundreds of wood types exist around the globe following "
+"different properties and use."
+msgstr ""
+"Das teuerste Holz der Welt ist ein sehr interessantes Thema und manch einer "
+"mag überrascht sein,\n"
+"    dass es rund um den Globus Hunderte von Holzarten mit unterschiedlichen "
+"Eigenschaften und Verwendungszwecken gibt."
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track_visitor__track_id
@@ -4129,7 +4305,10 @@ msgstr "Ungelesene Nachrichten"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4463,6 +4642,7 @@ msgstr ""
 "Besuchern"
 
 #. module: website_event_track
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4959,15 +5139,44 @@ msgstr ""
 "Mit diesen einfachen Schritten können Sie problemlos LANGE Hölzer in einem kurzen Pickup transportieren. Eine Portion Zimmermannsgeist\n"
 "und ein paar Bretter, ein stabiler Gurt und ein paar Schrauben sind alles, was ich brauche, um\n"
 "lange Bretter vom Holzlager zum Geschäft oder zur Baustelle zu transportieren."
+=======
+#: model_terms:event.track,description:website_event_track.event_7_track_6
+msgid ""
+"Use these simple steps to easily haul LONG lumber in a short box pickup "
+"truck.  A dose of carpenter's\n"
+"    ingenuity along with a couple boards, a sturdy strap and a few screws "
+"are all I use to easily haul\n"
+"    long boards from the lumberyard to the Next Level Carpentry shop or "
+"jobsite."
+msgstr ""
+"Mit diesen einfachen Schritten können Sie problemlos LANGE Hölzer in einem "
+"kurzen Pickup transportieren. Eine Portion Zimmermannsgeist\n"
+"und ein paar Bretter, ein stabiler Gurt und ein paar Schrauben sind alles, "
+"was ich brauche, um\n"
+"lange Bretter vom Holzlager zum Geschäft oder zur Baustelle zu "
+"transportieren."
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:event.track,description:website_event_track.event_7_track_6
 msgid ""
+<<<<<<< HEAD
 "Using a unique wrapping method for a tie down strap (NOT Bungee cords!!!) allows lumber to be\n"
 "    cinched securely WITHOUT the need to tie and untie tricky or complicated knots."
 msgstr ""
 "Durch die Verwendung einer einzigartigen Wickelmethode für einen Spanngurt (KEINE Bungee-Schnüre!!!) kann das Holz sicher\n"
 "    festgezogen werden, OHNE dass knifflige oder komplizierte Knoten gebunden und gelöst werden müssen."
+=======
+"Using a unique wrapping method for a tie down strap (NOT Bungee cords!!!) "
+"allows lumber to be\n"
+"    cinched securely WITHOUT the need to tie and untie tricky or complicated "
+"knots."
+msgstr ""
+"Durch die Verwendung einer einzigartigen Wickelmethode für einen Spanngurt "
+"(KEINE Bungee-Schnüre!!!) kann das Holz sicher\n"
+"    festgezogen werden, OHNE dass knifflige oder komplizierte Knoten "
+"gebunden und gelöst werden müssen."
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.view_event_track_kanban
@@ -5044,7 +5253,12 @@ msgstr ""
 "Wir akzeptieren eine hohe Bandbreite\n"
 "                            für Präsentationsinhalte, von Reports über\n"
 "                            Kundenprojekte, Tutorials sowie Fallstudien.\n"
+<<<<<<< HEAD
 "                            Solange der Vortrag interessant präsentiert wird\n"
+=======
+"                            Solange der Vortrag interessant präsentiert "
+"wird\n"
+>>>>>>> upstream/18.0
 "                            kann der Vortrag in das Programm aufgenommen\n"
 "                            werden."
 

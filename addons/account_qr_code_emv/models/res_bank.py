@@ -141,6 +141,10 @@ class ResPartnerBank(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    @api.depends_context("company")
+>>>>>>> upstream/18.0
 =======
     @api.depends_context("company")
 >>>>>>> upstream/18.0
@@ -618,6 +622,12 @@ class ResPartnerBank(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    def _get_merchant_category_code(self):
+        return '0000'
+
+>>>>>>> upstream/18.0
 =======
     def _get_merchant_category_code(self):
         return '0000'
@@ -1198,6 +1208,7 @@ class ResPartnerBank(models.Model):
         merchant_name = self.partner_id.name and self._remove_accents(self.partner_id.name)[:25] or 'NA'
         merchant_city = self.partner_id.city and self._remove_accents(self.partner_id.city)[:15] or ''
         comment = structured_communication or free_communication or ''
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2144,6 +2155,11 @@ class ResPartnerBank(models.Model):
         additional_data_field = self._get_additional_data_field(comment) if self.include_reference else None
         merchant_category_code = self._get_merchant_category_code()
 >>>>>>> upstream/18.0
+=======
+        comment = re.sub(r'[^ A-Za-z0-9_@.\\/#&+-]+', '', self._remove_accents(comment))
+        additional_data_field = self._get_additional_data_field(comment) if self.include_reference else None
+        merchant_category_code = self._get_merchant_category_code()
+>>>>>>> upstream/18.0
         return [
             (0, '01'),                                                              # Payload Format Indicator
             (1, '12'),                                                              # Dynamic QR Codes
@@ -2262,7 +2278,11 @@ class ResPartnerBank(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             (52, '0000'),                                                           # Merchant Category Code
+=======
+            (52, merchant_category_code),                                           # Merchant Category Code
+>>>>>>> upstream/18.0
 =======
             (52, merchant_category_code),                                           # Merchant Category Code
 >>>>>>> upstream/18.0

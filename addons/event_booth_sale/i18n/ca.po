@@ -1,7 +1,11 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* event_booth_sale
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Albert Parera, 2024
 # Pere Martínez, 2024
@@ -160,6 +164,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Noemi Pla, 2025
 >>>>>>> upstream/18.0
@@ -596,10 +601,15 @@
 # Noemi Pla, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+# Noemi Pla, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
@@ -1188,6 +1198,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: ca\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Noemi Pla, 2025\n"
+"Language-Team: Catalan (https://app.transifex.com/odoo/teams/41243/ca/)\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+>>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: event_booth_sale
@@ -1338,7 +1358,11 @@ msgid "<span class=\"o_stat_text\">Sale Order</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Comanda de venda</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Comanda de venda</span>"
 >>>>>>> upstream/18.0
@@ -2089,8 +2113,13 @@ msgstr "Seleccioneu un estand d'esdeveniments"
 #. odoo-python
 #: code:addons/event_booth_sale/models/sale_order_line.py:0
 msgid ""
+<<<<<<< HEAD
 "The following booths are unavailable, please remove them to continue : "
 "%(booth_names)s"
+=======
+"The following booths are unavailable, please remove them to continue : %"
+"(booth_names)s"
+>>>>>>> upstream/18.0
 msgstr ""
 "Els estands següents no estan disponibles. Si us plau, treieu-los per a "
 "continuar : %(booth_names)s"
@@ -2099,8 +2128,12 @@ msgstr ""
 #: model:ir.model.constraint,message:event_booth_sale.constraint_event_booth_registration_unique_registration
 msgid "There can be only one registration for a booth by sale order line"
 msgstr ""
+<<<<<<< HEAD
 "Només pot haver-hi un registre per a un estand per línia de comandes de "
 "venda"
+=======
+"Només pot haver-hi un registre per a un estand per línia de comandes de venda"
+>>>>>>> upstream/18.0
 
 #. module: event_booth_sale
 #: model_terms:ir.ui.view,arch_db:event_booth_sale.event_booth_view_tree_from_event
@@ -2118,11 +2151,19 @@ msgstr ""
 #. odoo-python
 #: code:addons/event_booth_sale/models/event_booth.py:0
 msgid ""
+<<<<<<< HEAD
 "You can't delete the following booths as they are linked to sales orders: "
 "%(booths)s"
 msgstr ""
 "No podeu eliminar aquests stands perquè estan enllaçats a comandes de venda:"
 " %(booths)s"
+=======
+"You can't delete the following booths as they are linked to sales orders: %"
+"(booths)s"
+msgstr ""
+"No podeu eliminar aquests stands perquè estan enllaçats a comandes de venda: "
+"%(booths)s"
+>>>>>>> upstream/18.0
 
 #. module: event_booth_sale
 #. odoo-python
@@ -2134,7 +2175,11 @@ msgstr "Heu de seleccionar almenys un estand."
 #. odoo-python
 #: code:addons/event_booth_sale/models/event_booth_registration.py:0
 msgid ""
+<<<<<<< HEAD
 "Your order has been cancelled because the following booths have been "
 "reserved"
+=======
+"Your order has been cancelled because the following booths have been reserved"
+>>>>>>> upstream/18.0
 msgstr ""
 "S'ha cancel·lat la comanda, perquè els següents estands han estat reservats"

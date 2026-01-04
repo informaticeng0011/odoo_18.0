@@ -113,6 +113,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* website_forum
 # 
 # Translators:
@@ -151,6 +152,8 @@
 >>>>>>> upstream/18.0
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -494,6 +497,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -723,6 +729,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1201,6 +1208,10 @@ msgstr ""
 =======
 "PO-Revision-Date: 2025-11-04 21:54+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:38+0000\n"
+"PO-Revision-Date: 2025-11-04 21:54+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: \"Fernanda Alvarez (mfar)\" <mfar@odoo.com>\n"
 "Language-Team: Spanish (Latin America) <https://translate.odoo.com/projects/"
 "odoo-18/website_forum/es_419/>\n"
@@ -1208,6 +1219,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 "Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
 " ? 1 : 2);\n"
 "X-Generator: Weblate 5.12.2\n"
@@ -1548,6 +1560,11 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == "
+"0) ? 1 : 2);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: website_forum
 #. odoo-javascript
@@ -1765,19 +1782,37 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_forum.post_display
 msgid ""
 "<b class=\"d-block \">This answer has been flagged</b>\n"
+<<<<<<< HEAD
 "                            As a moderator, you can either validate or reject this answer."
 msgstr ""
 "<b class=\"d-block \">Se marcó esta respuesta</b>\n"
 "                            Como moderador, puede validar o rechazar esta respuesta. "
+=======
+"                            As a moderator, you can either validate or "
+"reject this answer."
+msgstr ""
+"<b class=\"d-block \">Se marcó esta respuesta</b>\n"
+"                            Como moderador, puede validar o rechazar esta "
+"respuesta. "
+>>>>>>> upstream/18.0
 
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.post_description_full
 msgid ""
 "<b class=\"d-block\">You have a pending post</b>\n"
+<<<<<<< HEAD
 "                        Please wait for a moderator to validate your previous post to be allowed replying questions."
 msgstr ""
 "<b class=\"d-block\">Tiene una publicación pendiente</b>\n"
 "                          Para poder responder preguntas deberá esperar a que un moderador valide su publicación previa."
+=======
+"                        Please wait for a moderator to validate your "
+"previous post to be allowed replying questions."
+msgstr ""
+"<b class=\"d-block\">Tiene una publicación pendiente</b>\n"
+"                          Para poder responder preguntas deberá esperar a "
+"que un moderador valide su publicación previa."
+>>>>>>> upstream/18.0
 
 #. module: website_forum
 #: model_terms:forum.forum,faq:website_forum.forum_help
@@ -1815,8 +1850,13 @@ msgstr ""
 msgid ""
 "<b>Answers should not start debates</b> This community Q&amp;A is not a "
 "discussion group. Please avoid holding debates in your answers as they tend "
+<<<<<<< HEAD
 "to dilute the essence of questions and answers. For brief discussions please"
 " use commenting facility."
+=======
+"to dilute the essence of questions and answers. For brief discussions please "
+"use commenting facility."
+>>>>>>> upstream/18.0
 msgstr ""
 "<b>Las respuestas no deben empezar debates</b>. Esta comunidad no es un "
 "grupo de discusión, por lo que debe evitar debatir en las respuestas para "
@@ -1829,6 +1869,7 @@ msgstr ""
 msgid ""
 "<b>Answers shouldn't just point to other Questions</b>. Instead add a "
 "question comment indication \"Possible duplicate of...\". However, it's ok "
+<<<<<<< HEAD
 "to include links to other questions or answers providing relevant additional"
 " information."
 msgstr ""
@@ -1836,13 +1877,27 @@ msgstr ""
 "agregue un comentario en el que indique que ya se hizo una pregunta similar "
 "antes. Lo que sí está bien es incluir enlaces a otras preguntas o respuestas"
 " que proporcionen información adicional relevante."
+=======
+"to include links to other questions or answers providing relevant additional "
+"information."
+msgstr ""
+"<b>Las respuestas no deben hacer referencia a otras preguntas</b>. Mejor "
+"agregue un comentario en el que indique que ya se hizo una pregunta similar "
+"antes. Lo que sí está bien es incluir enlaces a otras preguntas o respuestas "
+"que proporcionen información adicional relevante."
+>>>>>>> upstream/18.0
 
 #. module: website_forum
 #: model_terms:forum.forum,faq:website_forum.forum_help
 #: model_terms:ir.ui.view,arch_db:website_forum.default_faq
 msgid ""
+<<<<<<< HEAD
 "<b>Answers shouldn't just point to other questions</b>.Instead add a comment"
 " indicating <i>\"Possible duplicate of...\"</i>. However, it's fine to "
+=======
+"<b>Answers shouldn't just point to other questions</b>.Instead add a comment "
+"indicating <i>\"Possible duplicate of...\"</i>. However, it's fine to "
+>>>>>>> upstream/18.0
 "include links to other questions or answers providing relevant additional "
 "information."
 msgstr ""
@@ -1855,6 +1910,7 @@ msgstr ""
 #: model_terms:forum.forum,faq:website_forum.forum_help
 #: model_terms:ir.ui.view,arch_db:website_forum.default_faq
 msgid ""
+<<<<<<< HEAD
 "<b>Answers shouldn't just provide a link a solution</b>. Instead provide the"
 " solution description text in your answer, even if it's just a copy/paste. "
 "Links are welcome, but should be complementary to answer, referring sources "
@@ -1865,14 +1921,31 @@ msgstr ""
 "respuesta, incluso si solo es algo que copia y pega. Los enlaces son "
 "bienvenidos, pero solo como material complementario para indicar las fuentes"
 " de referencia o para brindar información adicional."
+=======
+"<b>Answers shouldn't just provide a link a solution</b>. Instead provide the "
+"solution description text in your answer, even if it's just a copy/paste. "
+"Links are welcome, but should be complementary to answer, referring sources "
+"or additional reading."
+msgstr ""
+"<b>Las respuestas no deben proporcionar únicamente un enlace a una solución</"
+"b>. Mejor incluya un texto en el que explique la solución en su respuesta, "
+"incluso si solo es algo que copia y pega. Los enlaces son bienvenidos, pero "
+"solo como material complementario para indicar las fuentes de referencia o "
+"para brindar información adicional."
+>>>>>>> upstream/18.0
 
 #. module: website_forum
 #: model_terms:forum.forum,faq:website_forum.forum_help
 #: model_terms:ir.ui.view,arch_db:website_forum.default_faq
 msgid ""
 "<b>Before you ask - please make sure to search for a similar question.</b> "
+<<<<<<< HEAD
 "You can search questions by their title or tags. It’s also OK to answer your"
 " own question."
+=======
+"You can search questions by their title or tags. It’s also OK to answer your "
+"own question."
+>>>>>>> upstream/18.0
 msgstr ""
 "<b>Antes de hacer una pregunta, investigue si alguien ya hizo una pregunta "
 "similar antes.</b> Puede buscar preguntas por su título o por etiquetas. "
@@ -1882,8 +1955,13 @@ msgstr ""
 #: model_terms:forum.forum,faq:website_forum.forum_help
 #: model_terms:ir.ui.view,arch_db:website_forum.default_faq
 msgid ""
+<<<<<<< HEAD
 "<b>Please avoid asking questions that are too subjective and "
 "argumentative</b> or not relevant to this community."
+=======
+"<b>Please avoid asking questions that are too subjective and argumentative</"
+"b> or not relevant to this community."
+>>>>>>> upstream/18.0
 msgstr ""
 "<b>Evite hacer preguntas subjetivas, argumentativas</b> o que no sean "
 "relevantes para esta comunidad."
@@ -1891,6 +1969,7 @@ msgstr ""
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.post_answer
 msgid ""
+<<<<<<< HEAD
 "<b>Please try to give a substantial answer.</b> If you wanted to comment on the question or answer, just\n"
 "            <b>use the commenting tool.</b> Please remember that you can always <b>revise your answers</b>\n"
 "            - no need to answer the same question twice. Also, please <b>don't forget to vote</b>\n"
@@ -1898,6 +1977,22 @@ msgid ""
 msgstr ""
 "<b>De una respuesta sustancial,</b> si desea hacer un comentario sobre la pregunta o la respuesta,\n"
 "<b>utilice la herramienta de comentarios.</b> Recuerde que siempre puede <b>revisar sus respuestas</b>, no es necesario responder dos veces a la misma pregunta. <b>Tampoco se le olvide votar</b>, ayuda a seleccionar las mejores preguntas y respuestas."
+=======
+"<b>Please try to give a substantial answer.</b> If you wanted to comment on "
+"the question or answer, just\n"
+"            <b>use the commenting tool.</b> Please remember that you can "
+"always <b>revise your answers</b>\n"
+"            - no need to answer the same question twice. Also, please "
+"<b>don't forget to vote</b>\n"
+"            - it really helps to select the best questions and answers!"
+msgstr ""
+"<b>De una respuesta sustancial,</b> si desea hacer un comentario sobre la "
+"pregunta o la respuesta,\n"
+"<b>utilice la herramienta de comentarios.</b> Recuerde que siempre puede "
+"<b>revisar sus respuestas</b>, no es necesario responder dos veces a la "
+"misma pregunta. <b>Tampoco se le olvide votar</b>, ayuda a seleccionar las "
+"mejores preguntas y respuestas."
+>>>>>>> upstream/18.0
 
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.faq_karma
@@ -1914,10 +2009,19 @@ msgstr "<b>Tiene una publicación pendiente.</b><br/>"
 #: model_terms:ir.ui.view,arch_db:website_forum.contact
 msgid ""
 "<b>|</b>\n"
+<<<<<<< HEAD
 "                    <span class=\"fa fa-trophy o-text-gold ms-2\" role=\"img\" aria-label=\"Gold badge\" title=\"Gold badge\"/>"
 msgstr ""
 "<b>|</b>\n"
 "                    <span class=\"fa fa-trophy o-text-gold ms-2\" role=\"img\" aria-label=\"Insignia de oro\" title=\"Insignia de oro\"/>"
+=======
+"                    <span class=\"fa fa-trophy o-text-gold ms-2\" "
+"role=\"img\" aria-label=\"Gold badge\" title=\"Gold badge\"/>"
+msgstr ""
+"<b>|</b>\n"
+"                    <span class=\"fa fa-trophy o-text-gold ms-2\" "
+"role=\"img\" aria-label=\"Insignia de oro\" title=\"Insignia de oro\"/>"
+>>>>>>> upstream/18.0
 
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.post_description_full
@@ -1975,6 +2079,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_forum.no_results_message
 msgid "<i class=\"fa fa-check fa-fw me-1\"/>Check your spelling and try again."
 msgstr ""
+<<<<<<< HEAD
 "<i class=\"fa fa-check fa-fw me-1\"/>Revise la gramática e inténtelo otra "
 "vez"
 
@@ -1984,6 +2089,16 @@ msgid "<i class=\"fa fa-check fa-fw me-1\"/>Try searching for one or two words."
 msgstr ""
 "<i class=\"fa fa-check fa-fw me-1\"/>Intente buscar para una o dos palabras."
 " "
+=======
+"<i class=\"fa fa-check fa-fw me-1\"/>Revise la gramática e inténtelo otra vez"
+
+#. module: website_forum
+#: model_terms:ir.ui.view,arch_db:website_forum.no_results_message
+msgid ""
+"<i class=\"fa fa-check fa-fw me-1\"/>Try searching for one or two words."
+msgstr ""
+"<i class=\"fa fa-check fa-fw me-1\"/>Intente buscar para una o dos palabras. "
+>>>>>>> upstream/18.0
 
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.display_post_question_block
@@ -1998,7 +2113,12 @@ msgstr "<i class=\"fa fa-check\"/> Aceptar"
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.edit_post
 #: model_terms:ir.ui.view,arch_db:website_forum.new_question
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-check\"/> How to configure TPS and TVQ's canadian taxes?"
+=======
+msgid ""
+"<i class=\"fa fa-check\"/> How to configure TPS and TVQ's canadian taxes?"
+>>>>>>> upstream/18.0
 msgstr ""
 "<i class=\"fa fa-check\"/>¿Cómo configurar los impuestos canadienses TPS y "
 "TVQ?"
@@ -2057,7 +2177,12 @@ msgstr "<i class=\"fa fa-info-circle fa-fw\"/> Acerca de este foro"
 #: model_terms:ir.ui.view,arch_db:website_forum.post_display
 msgid ""
 "<i class=\"fa fa-pencil\"/>\n"
+<<<<<<< HEAD
 "                                Edit<span class=\"d-none d-lg-inline\"> your answer</span>"
+=======
+"                                Edit<span class=\"d-none d-lg-inline\"> your "
+"answer</span>"
+>>>>>>> upstream/18.0
 msgstr ""
 "<i class=\"fa fa-pencil\"/>\n"
 "Edite<span class=\"d-none d-lg-inline\"> su respuesta</span>"
@@ -2103,8 +2228,13 @@ msgstr ""
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.user_profile_content
 msgid ""
+<<<<<<< HEAD
 "<i class=\"fa fa-thumbs-up text-success\" role=\"img\" aria-label=\"Positive"
 " votes\" title=\"Positive votes\"/>"
+=======
+"<i class=\"fa fa-thumbs-up text-success\" role=\"img\" aria-label=\"Positive "
+"votes\" title=\"Positive votes\"/>"
+>>>>>>> upstream/18.0
 msgstr ""
 "<i class=\"fa fa-thumbs-up text-success\" role=\"img\" aria-label=\"Votos a "
 "favor\" title=\"Votos a favor\"/>"
@@ -2160,8 +2290,13 @@ msgid ""
 "<i class=\"oi oi-arrow-right display-inline-block\"/> Return to questions "
 "list"
 msgstr ""
+<<<<<<< HEAD
 "<i class=\"oi oi-arrow-right display-inline-block\"/> Regresar a la lista de"
 " preguntas "
+=======
+"<i class=\"oi oi-arrow-right display-inline-block\"/> Regresar a la lista de "
+"preguntas "
+>>>>>>> upstream/18.0
 
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.user_profile_sub_nav
@@ -2204,7 +2339,12 @@ msgstr ""
 #. module: website_forum
 #: model_terms:forum.forum,faq:website_forum.forum_help
 #: model_terms:ir.ui.view,arch_db:website_forum.default_faq
+<<<<<<< HEAD
 msgid "<span class=\"flex-grow-1\">What kind of questions can I ask here?</span>"
+=======
+msgid ""
+"<span class=\"flex-grow-1\">What kind of questions can I ask here?</span>"
+>>>>>>> upstream/18.0
 msgstr "<span class=\"flex-grow-1\">¿Qué preguntas puedo hacer?</span>"
 
 #. module: website_forum
@@ -2223,8 +2363,13 @@ msgstr "<span class=\"flex-grow-1\">¿Qué debo evitar en mis preguntas?</span>"
 #: model_terms:forum.forum,faq:website_forum.forum_help
 #: model_terms:ir.ui.view,arch_db:website_forum.default_faq
 msgid ""
+<<<<<<< HEAD
 "<span class=\"flex-grow-1\">Why can other people edit my "
 "questions/answers?</span>"
+=======
+"<span class=\"flex-grow-1\">Why can other people edit my questions/answers?</"
+"span>"
+>>>>>>> upstream/18.0
 msgstr ""
 "<span class=\"flex-grow-1\">¿Por qué otras personas pueden editar mis "
 "preguntas y respuestas?</span>"
@@ -2243,8 +2388,13 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_forum.edit_post
 #: model_terms:ir.ui.view,arch_db:website_forum.new_question
 msgid ""
+<<<<<<< HEAD
 "<span class=\"form-text small text-muted d-block\">select text to format "
 "it.</span>"
+=======
+"<span class=\"form-text small text-muted d-block\">select text to format it."
+"</span>"
+>>>>>>> upstream/18.0
 msgstr ""
 "<span class=\"form-text small text-muted d-block\">seleccione el texto para "
 "darle formato.</span>"
@@ -2253,8 +2403,13 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_forum.edit_post
 #: model_terms:ir.ui.view,arch_db:website_forum.new_question
 msgid ""
+<<<<<<< HEAD
 "<span class=\"form-text small text-muted d-block\">use '/' to insert "
 "images.</span>"
+=======
+"<span class=\"form-text small text-muted d-block\">use '/' to insert images."
+"</span>"
+>>>>>>> upstream/18.0
 msgstr ""
 "<span class=\"form-text small text-muted d-block\">Use \"/\" para insertar "
 "imágenes.</span>"
@@ -2263,11 +2418,19 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_forum.edit_post
 #: model_terms:ir.ui.view,arch_db:website_forum.new_question
 msgid ""
+<<<<<<< HEAD
 "<span class=\"form-text small text-muted me-1\"><i class=\"fa fa-"
 "lightbulb-o\"/> Tip:</span>"
 msgstr ""
 "<span class=\"form-text small text-muted me-1\"><i class=\"fa fa-"
 "lightbulb-o\"/> Consejo:</span>"
+=======
+"<span class=\"form-text small text-muted me-1\"><i class=\"fa fa-lightbulb-"
+"o\"/> Tip:</span>"
+msgstr ""
+"<span class=\"form-text small text-muted me-1\"><i class=\"fa fa-lightbulb-"
+"o\"/> Consejo:</span>"
+>>>>>>> upstream/18.0
 
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.forum_forum_view_form
@@ -2294,6 +2457,7 @@ msgstr "<span class=\"text-muted\">Aún no hay actividad.</span>"
 #: model_terms:web_tour.tour,rainbow_man_message:website_forum.question
 msgid "<span><b>Good job!</b> You went through all steps of this tour.</span>"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2884,6 +3048,10 @@ msgstr ""
 =======
 "<span><b>¡Bien hecho!</b> Terminaste todos los pasos de este "
 "recorrido.</span>"
+>>>>>>> upstream/18.0
+=======
+"<span><b>¡Bien hecho!</b> Terminaste todos los pasos de este recorrido.</"
+"span>"
 >>>>>>> upstream/18.0
 
 #. module: website_forum
@@ -4030,9 +4198,15 @@ msgstr ""
 "un voto a favor. Sin embargo, si la respuesta no es correcta, recibirá un "
 "voto en contra. Cada voto a favor le agregará 10 puntos, mientras que cada "
 "voto en contra le restará 2 puntos. Hay un límite de 200 puntos que pueden "
+<<<<<<< HEAD
 "acumularse por pregunta o respuesta al día. La tabla que se muestra al final"
 " explica los requisitos de puntos de reputación necesarios para cada tipo de"
 " tarea de moderación."
+=======
+"acumularse por pregunta o respuesta al día. La tabla que se muestra al final "
+"explica los requisitos de puntos de reputación necesarios para cada tipo de "
+"tarea de moderación."
+>>>>>>> upstream/18.0
 
 #. module: website_forum
 #. odoo-python
@@ -4369,8 +4543,12 @@ msgid "If checked, new messages require your attention."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Si se encuentra seleccionado, hay nuevos mensajes que requieren su atención."
+=======
+msgstr "Si está seleccionado, hay nuevos mensajes que requieren tu atención."
+>>>>>>> upstream/18.0
 =======
 msgstr "Si está seleccionado, hay nuevos mensajes que requieren tu atención."
 >>>>>>> upstream/18.0
@@ -4852,7 +5030,11 @@ msgid "If checked, some messages have a delivery error."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Si se encuentra seleccionado, algunos mensajes tienen error de envío."
+=======
+msgstr "Si está seleccionado, algunos mensajes tienen error de envío."
+>>>>>>> upstream/18.0
 =======
 msgstr "Si está seleccionado, algunos mensajes tienen error de envío."
 >>>>>>> upstream/18.0
@@ -5221,8 +5403,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_forum.default_faq
 #: model_terms:ir.ui.view,arch_db:website_forum.faq_karma
 msgid "If this approach is not for you, please respect the community."
+<<<<<<< HEAD
 msgstr ""
 "Respete a la comunidad aunque usted no esté de acuerdo con su opinión."
+=======
+msgstr "Respete a la comunidad aunque usted no esté de acuerdo con su opinión."
+>>>>>>> upstream/18.0
 
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.mark_as_offensive
@@ -5231,7 +5417,12 @@ msgid ""
 "            users having a high karma can see closed posts to moderate\n"
 "            them."
 msgstr ""
+<<<<<<< HEAD
 "Si bloquea esta publicación, se ocultará para la mayoría de los usuarios. Solo\n"
+=======
+"Si bloquea esta publicación, se ocultará para la mayoría de los usuarios. "
+"Solo\n"
+>>>>>>> upstream/18.0
 "los usuarios que tengan un nivel alto de karma podrán ver las publicaciones\n"
 "bloqueadas para moderarlas."
 
@@ -5240,16 +5431,28 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_forum.default_faq
 msgid ""
 "If you fit in one of these example or if your motivation for asking the "
+<<<<<<< HEAD
 "question is “I would like to participate in a discussion about ______”, then"
 " you should not be asking here but on our mailing lists. However, if your "
+=======
+"question is “I would like to participate in a discussion about ______”, then "
+"you should not be asking here but on our mailing lists. However, if your "
+>>>>>>> upstream/18.0
 "motivation is “I would like others to explain ______ to me”, then you are "
 "probably OK."
 msgstr ""
 "Si su duda aparece en uno de estos ejemplos o si lo que en realidad quiere "
+<<<<<<< HEAD
 "es participar en un debate sobre ______, entonces no debería preguntar aquí,"
 " mejor póngase en contacto con nosotros a través de nuestra lista de "
 "correos. En cambio, si lo que quiere es que otros le expliquen ______, "
 "entonces está bien si hace su pregunta aquí."
+=======
+"es participar en un debate sobre ______, entonces no debería preguntar aquí, "
+"mejor póngase en contacto con nosotros a través de nuestra lista de correos. "
+"En cambio, si lo que quiere es que otros le expliquen ______, entonces está "
+"bien si hace su pregunta aquí."
+>>>>>>> upstream/18.0
 
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.mark_as_offensive
@@ -5258,8 +5461,15 @@ msgid ""
 "            users having a high karma can see offensive posts to moderate\n"
 "            them."
 msgstr ""
+<<<<<<< HEAD
 "Si marca esta publicación como ofensiva, se ocultará para la mayoría de los usuarios.\n"
 "Solo los usuarios que tengan un nivel alto de karma podrán ver los mensajes ofensivos\n"
+=======
+"Si marca esta publicación como ofensiva, se ocultará para la mayoría de los "
+"usuarios.\n"
+"Solo los usuarios que tengan un nivel alto de karma podrán ver los mensajes "
+"ofensivos\n"
+>>>>>>> upstream/18.0
 "para moderarlos."
 
 #. module: website_forum
@@ -5416,7 +5626,11 @@ msgid "Karma Related Rights"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Derechos relacionados con el karma"
+=======
+msgstr "Permisos relacionados con el karma"
+>>>>>>> upstream/18.0
 =======
 msgstr "Permisos relacionados con el karma"
 >>>>>>> upstream/18.0
@@ -5954,8 +6168,12 @@ msgstr "Publicación ofensiva"
 #: code:addons/website_forum/static/src/js/website_forum.js:0
 msgid "Oh no! Please <a href=\"%s\">sign in</a> to perform this action"
 msgstr ""
+<<<<<<< HEAD
 "Lo sentimos, debe <a href=\"%s\">iniciar sesión</a> para realizar esta "
 "acción"
+=======
+"Lo sentimos, debe <a href=\"%s\">iniciar sesión</a> para realizar esta acción"
+>>>>>>> upstream/18.0
 
 #. module: website_forum
 #. odoo-javascript
@@ -5994,8 +6212,12 @@ msgstr "Contenido simple"
 #: model_terms:ir.ui.view,arch_db:website_forum.forum_model_nav
 #: model_terms:ir.ui.view,arch_db:website_forum.new_question
 msgid ""
+<<<<<<< HEAD
 "Please wait for a moderator to validate your previous post before "
 "continuing."
+=======
+"Please wait for a moderator to validate your previous post before continuing."
+>>>>>>> upstream/18.0
 msgstr ""
 "Espere a que un moderador valide su publicación anterior antes de continuar."
 
@@ -6124,11 +6346,21 @@ msgstr "Público"
 msgid ""
 "Public: Forum is public\n"
 "Signed In: Forum is visible for signed in users\n"
+<<<<<<< HEAD
 "Some users: Forum and their content are hidden for non members of selected group"
 msgstr ""
 "Público: el foro es público\n"
 "Registrados: el foro es visible para los usuarios registrados\n"
 "Algunos usuarios: el foro y su contenido solo lo pueden ver los usuarios que sean miembros del grupo seleccionado."
+=======
+"Some users: Forum and their content are hidden for non members of selected "
+"group"
+msgstr ""
+"Público: el foro es público\n"
+"Registrados: el foro es visible para los usuarios registrados\n"
+"Algunos usuarios: el foro y su contenido solo lo pueden ver los usuarios que "
+"sean miembros del grupo seleccionado."
+>>>>>>> upstream/18.0
 
 #. module: website_forum
 #: model:gamification.badge,name:website_forum.badge_25
@@ -6474,8 +6706,13 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/website_forum/static/src/xml/public_templates.xml:0
 msgid ""
+<<<<<<< HEAD
 "Share this content to increase your chances to be featured on the front page"
 " and attract more visitors."
+=======
+"Share this content to increase your chances to be featured on the front page "
+"and attract more visitors."
+>>>>>>> upstream/18.0
 msgstr ""
 "Comparta este contenido para aumentar sus posibilidades de aparecer en la "
 "página principal y atraer más visitantes."
@@ -6539,8 +6776,12 @@ msgstr ""
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.no_results_message
 msgid "Sorry, we could not find any <b>unsolved</b> results"
+<<<<<<< HEAD
 msgstr ""
 "Lo sentimos, no pudimos encontrar ningún resultado <b>sin resolver</b>"
+=======
+msgstr "Lo sentimos, no pudimos encontrar ningún resultado <b>sin resolver</b>"
+>>>>>>> upstream/18.0
 
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.no_results_message
@@ -6710,6 +6951,7 @@ msgstr "No hay etiquetas que coincidan con la búsqueda seleccionada. "
 #: model_terms:ir.ui.view,arch_db:website_forum.default_faq
 #: model_terms:ir.ui.view,arch_db:website_forum.faq_karma
 msgid ""
+<<<<<<< HEAD
 "Therefore questions and answers can be edited like wiki pages by experienced"
 " users of this site in order to improve the overall quality of the knowledge"
 " base content. Such privileges are granted based on user karma level: you "
@@ -6718,6 +6960,16 @@ msgstr ""
 "Por lo tanto, los usuarios experimentados de este sitio podrán editar las "
 "preguntas y las respuestas, como en páginas de wiki, para mejorar la calidad"
 " del contenido de esta base de conocimiento. Tales privilegios se otorgan "
+=======
+"Therefore questions and answers can be edited like wiki pages by experienced "
+"users of this site in order to improve the overall quality of the knowledge "
+"base content. Such privileges are granted based on user karma level: you "
+"will be able to do the same once your karma gets high enough."
+msgstr ""
+"Por lo tanto, los usuarios experimentados de este sitio podrán editar las "
+"preguntas y las respuestas, como en páginas de wiki, para mejorar la calidad "
+"del contenido de esta base de conocimiento. Tales privilegios se otorgan "
+>>>>>>> upstream/18.0
 "según el nivel de karma del usuario. Usted podrá hacer lo mismo una vez que "
 "su karma sea lo suficientemente alto."
 
@@ -6780,10 +7032,19 @@ msgstr "Esta publicación está en espera de validación"
 #: model_terms:ir.ui.view,arch_db:website_forum.post_description_full
 msgid ""
 "This post is currently awaiting moderation and is not published yet.<br/>\n"
+<<<<<<< HEAD
 "                    As a moderator you can either <b>Accept</b> or <b>Reject</b> this post."
 msgstr ""
 "Esta publicación no se ha hecho porque no se ha validado.<br/>\n"
 "                    Como moderador puede <b>aceptar</b> o <b>rechazar</b> esta publicación."
+=======
+"                    As a moderator you can either <b>Accept</b> or "
+"<b>Reject</b> this post."
+msgstr ""
+"Esta publicación no se ha hecho porque no se ha validado.<br/>\n"
+"                    Como moderador puede <b>aceptar</b> o <b>rechazar</b> "
+"esta publicación."
+>>>>>>> upstream/18.0
 
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.post_description_full
@@ -6842,8 +7103,13 @@ msgid ""
 "To prevent your question from being flagged and possibly removed, avoid "
 "asking subjective questions where …"
 msgstr ""
+<<<<<<< HEAD
 "Para evitar que marquemos y posiblemente eliminemos su pregunta, evite hacer"
 " preguntas subjetivas en las que…"
+=======
+"Para evitar que marquemos y posiblemente eliminemos su pregunta, evite hacer "
+"preguntas subjetivas en las que…"
+>>>>>>> upstream/18.0
 
 #. module: website_forum
 #: model:forum.post.reason,name:website_forum.reason_9
@@ -7199,7 +7465,11 @@ msgid "Website meta description"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Meta descripción del sitio web"
+=======
+msgstr "Metadescripción del sitio web"
+>>>>>>> upstream/18.0
 =======
 msgstr "Metadescripción del sitio web"
 >>>>>>> upstream/18.0
@@ -7710,7 +7980,11 @@ msgid "Write a clear, explicit and concise title"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Escriba un título claro, explícito y conciso  "
+=======
+msgstr "Escribe un título claro, preciso y breve"
+>>>>>>> upstream/18.0
 =======
 msgstr "Escribe un título claro, preciso y breve"
 >>>>>>> upstream/18.0
@@ -8122,6 +8396,7 @@ msgstr "Necesita tener suficiente karma para editar etiquetas"
 #: model_terms:forum.forum,faq:website_forum.forum_help
 #: model_terms:ir.ui.view,arch_db:website_forum.default_faq
 msgid ""
+<<<<<<< HEAD
 "You should only ask practical, answerable questions based on actual problems"
 " that you face. Chatty, open-ended questions diminish the usefulness of this"
 " site and push other questions off the front page."
@@ -8129,6 +8404,15 @@ msgstr ""
 "Sus preguntas deberían ser prácticas, que se puedan resolver según problemas"
 " que usted está enfrentando. Las preguntas abiertas hacen que este sitio sea"
 " menos útil y alejarán a otras preguntas de la página principal."
+=======
+"You should only ask practical, answerable questions based on actual problems "
+"that you face. Chatty, open-ended questions diminish the usefulness of this "
+"site and push other questions off the front page."
+msgstr ""
+"Sus preguntas deberían ser prácticas, que se puedan resolver según problemas "
+"que usted está enfrentando. Las preguntas abiertas hacen que este sitio sea "
+"menos útil y alejarán a otras preguntas de la página principal."
+>>>>>>> upstream/18.0
 
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.display_post_question_block
@@ -8302,7 +8586,12 @@ msgid ""
 "        answer is selected as the right one. See what you can do with karma"
 msgstr ""
 "si su\n"
+<<<<<<< HEAD
 "respuesta es seleccionada como la correcta. Vea lo que puede hacer con el karma"
+=======
+"respuesta es seleccionada como la correcta. Vea lo que puede hacer con el "
+"karma"
+>>>>>>> upstream/18.0
 
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.no_results_message

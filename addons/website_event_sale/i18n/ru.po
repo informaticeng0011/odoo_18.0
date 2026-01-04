@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* website_event_sale
+<<<<<<< HEAD
 # 
 # Translators:
 # Сергей Шебанин <sergey@shebanin.ru>, 2024
@@ -462,10 +463,19 @@
 # Anastasiia Koroleva, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+#
+# Translators:
+# Сергей Шебанин <sergey@shebanin.ru>, 2024
+# Wil Odoo, 2024
+# Anastasiia Koroleva, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 <<<<<<< HEAD
@@ -931,6 +941,19 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: ru\n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:38+0000\n"
+"PO-Revision-Date: 2024-09-25 09:42+0000\n"
+"Last-Translator: Anastasiia Koroleva, 2025\n"
+"Language-Team: Russian (https://app.transifex.com/odoo/teams/41243/ru/)\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
+"(n%100>=11 && n%100<=14)? 2 : 3);\n"
+>>>>>>> upstream/18.0
 
 #. module: website_event_sale
 #: model_terms:ir.ui.view,arch_db:website_event_sale.event_confirmation
@@ -1049,7 +1072,11 @@ msgid "<i class=\"fa fa-check me-2\" role=\"img\"/>Registered"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-check me-2\" role=\"img\"/>Зарегистрирован"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-check me-2\" role=\"img\"/>Зарегистрирован"
 >>>>>>> upstream/18.0
@@ -1510,7 +1537,11 @@ msgid "<small>Add this event to your calendar</small>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<small>Добавить мероприятие в календарь</small>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<small>Добавить мероприятие в календарь</small>"
 >>>>>>> upstream/18.0
@@ -1870,8 +1901,13 @@ msgid ""
 "A pricelist item with a positive min. quantity cannot be applied to this "
 "event tickets product."
 msgstr ""
+<<<<<<< HEAD
 "Элемент прейскуранта с положительным значением мин. количества не может быть"
 " применен к этому продукту \"Билеты на мероприятие\"."
+=======
+"Элемент прейскуранта с положительным значением мин. количества не может быть "
+"применен к этому продукту \"Билеты на мероприятие\"."
+>>>>>>> upstream/18.0
 
 #. module: website_event_sale
 #. odoo-python
@@ -2015,7 +2051,11 @@ msgid "Don't miss out!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Не пропустите!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Не пропустите!"
 >>>>>>> upstream/18.0
@@ -2445,11 +2485,19 @@ msgstr "Извините, билеты %(ticket)s на мероприятие %(
 #. odoo-python
 #: code:addons/website_event_sale/models/sale_order.py:0
 msgid ""
+<<<<<<< HEAD
 "Sorry, only %(remaining_seats)d seats are still available for the %(ticket)s"
 " ticket for the %(event)s event."
 msgstr ""
 "К сожалению, на %(ticket)s билет на %(event)s мероприятие осталось только "
 "%(remaining_seats)d мест."
+=======
+"Sorry, only %(remaining_seats)d seats are still available for the %(ticket)s "
+"ticket for the %(event)s event."
+msgstr ""
+"К сожалению, на %(ticket)s билет на %(event)s мероприятие осталось только %"
+"(remaining_seats)d мест."
+>>>>>>> upstream/18.0
 
 #. module: website_event_sale
 #. odoo-python

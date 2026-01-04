@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* certificate
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
@@ -1106,10 +1107,20 @@
 # Chloe Wang, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+#
+# Translators:
+# Wil Odoo, 2024
+# Raymond Yu <cl_yu@hotmail.com>, 2024
+# 何彬 <vnsoft.he@gmail.com>, 2024
+# Chloe Wang, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-12-16 13:39+0000\n"
 "PO-Revision-Date: 2024-09-29 00:00+0000\n"
 <<<<<<< HEAD
@@ -1850,6 +1861,17 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: zh_CN\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2024-09-29 00:00+0000\n"
+"Last-Translator: Chloe Wang, 2025\n"
+"Language-Team: Chinese (China) (https://app.transifex.com/odoo/teams/41243/"
+"zh_CN/)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+>>>>>>> upstream/18.0
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: certificate
@@ -2366,7 +2388,10 @@ msgstr "证书生效日期 ( UTC )"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2919,6 +2944,9 @@ msgstr "密钥大小最低应为 512 字节。"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3473,7 +3501,10 @@ msgstr "私钥无法加载。"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4026,6 +4057,9 @@ msgstr "公开的部份应为 65537（或为 3 供旧系统使用）。"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4447,15 +4481,27 @@ msgstr "不支持的非对称加密算法 ''%s\"。目前支持签名方式：EC
 #. odoo-python
 #: code:addons/certificate/models/key.py:0
 msgid ""
+<<<<<<< HEAD
 "Unsupported asymmetric cryptography algorithm '%s'. Currently supported: EC,"
 " RSA."
+=======
+"Unsupported asymmetric cryptography algorithm '%s'. Currently supported: EC, "
+"RSA."
+>>>>>>> upstream/18.0
 msgstr "不支持的非对称加密算法 ''%s\"。目前支持：EC，RSA。"
 
 #. module: certificate
 #: model:ir.model.fields,help:certificate.field_certificate_certificate__public_key_id
 msgid ""
+<<<<<<< HEAD
 "Used to set a public key in case the one self-contained in the certificate is erroneus.\n"
 "                When a public key is set this way, it will be used instead of the one in the certificate.\n"
+=======
+"Used to set a public key in case the one self-contained in the certificate "
+"is erroneus.\n"
+"                When a public key is set this way, it will be used instead "
+"of the one in the certificate.\n"
+>>>>>>> upstream/18.0
 "             "
 msgstr ""
 "用于设置公钥，以防证书中自包含的公钥错误。\n"

@@ -1,7 +1,11 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* hr_contract
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Arma Gedonsky <armagedonsky@hot.ee>, 2024
 # Piia Paurson <piia@avalah.ee>, 2024
@@ -14,11 +18,16 @@
 # Stevin Lilla, 2024
 # Siim Raasuke, 2024
 # Birgit Vijar, 2024
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Birgit Vijar, 2024\n"
@@ -27,6 +36,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: et\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Birgit Vijar, 2024\n"
+"Language-Team: Estonian (https://app.transifex.com/odoo/teams/41243/et/)\n"
+"Language: et\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+>>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: hr_contract
@@ -53,11 +72,21 @@ msgstr "/ kuu"
 #. module: hr_contract
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_hr_employee_view_form3
 msgid ""
+<<<<<<< HEAD
 "<span class=\"o_stat_text text-danger\" invisible=\"not contract_warning\" title=\"In Contract Since\">\n"
 "                                    In Contract Since\n"
 "                                </span>"
 msgstr ""
 "<span class=\"o_stat_text text-danger\" invisible=\"not contract_warning\" title=\"In Contract Since\">\n"
+=======
+"<span class=\"o_stat_text text-danger\" invisible=\"not contract_warning\" "
+"title=\"In Contract Since\">\n"
+"                                    In Contract Since\n"
+"                                </span>"
+msgstr ""
+"<span class=\"o_stat_text text-danger\" invisible=\"not contract_warning\" "
+"title=\"In Contract Since\">\n"
+>>>>>>> upstream/18.0
 "                                   Leping alates\n"
 "                                </span>"
 
@@ -76,14 +105,24 @@ msgid ""
 "<span invisible=\"contracts_count != 1\" class=\"o_stat_text text-danger\">\n"
 "                                    Contract\n"
 "                                </span>\n"
+<<<<<<< HEAD
 "                                <span invisible=\"contracts_count == 1\" class=\"o_stat_text text-danger\">\n"
+=======
+"                                <span invisible=\"contracts_count == 1\" "
+"class=\"o_stat_text text-danger\">\n"
+>>>>>>> upstream/18.0
 "                                    Contracts\n"
 "                                </span>"
 msgstr ""
 "<span invisible=\"contracts_count != 1\" class=\"o_stat_text text-danger\">\n"
 "                                    Leping\n"
 "                                </span>\n"
+<<<<<<< HEAD
 "                                <span invisible=\"contracts_count == 1\" class=\"o_stat_text text-danger\">\n"
+=======
+"                                <span invisible=\"contracts_count == 1\" "
+"class=\"o_stat_text text-danger\">\n"
+>>>>>>> upstream/18.0
 "                                    Lepingud\n"
 "                                </span>"
 
@@ -93,14 +132,24 @@ msgid ""
 "<span invisible=\"contracts_count == 1\" class=\"o_stat_text\">\n"
 "                                        Contracts\n"
 "                                    </span>\n"
+<<<<<<< HEAD
 "                                    <span invisible=\"contracts_count &gt; 1\" class=\"o_stat_text\">\n"
+=======
+"                                    <span invisible=\"contracts_count &gt; "
+"1\" class=\"o_stat_text\">\n"
+>>>>>>> upstream/18.0
 "                                        Contract\n"
 "                                    </span>"
 msgstr ""
 "<span invisible=\"contracts_count == 1\" class=\"o_stat_text\">\n"
 "                                        Lepingud\n"
 "                                    </span>\n"
+<<<<<<< HEAD
 "                                    <span invisible=\"contracts_count &gt; 1\" class=\"o_stat_text\">\n"
+=======
+"                                    <span invisible=\"contracts_count &gt; "
+"1\" class=\"o_stat_text\">\n"
+>>>>>>> upstream/18.0
 "                                        Leping\n"
 "                                    </span>"
 
@@ -185,11 +234,21 @@ msgstr "Administraator"
 #. odoo-python
 #: code:addons/hr_contract/models/hr_contract.py:0
 msgid ""
+<<<<<<< HEAD
 "An employee can only have one contract at the same time. (Excluding Draft and Cancelled contracts).\n"
 "\n"
 "Employee: %(employee_name)s"
 msgstr ""
 "Töötajal saab olla ainult üks leping. (Välja arvatud \"Mustand\" statuses või \"Tühistatud\" statuses lepingud).\n"
+=======
+"An employee can only have one contract at the same time. (Excluding Draft "
+"and Cancelled contracts).\n"
+"\n"
+"Employee: %(employee_name)s"
+msgstr ""
+"Töötajal saab olla ainult üks leping. (Välja arvatud \"Mustand\" statuses "
+"või \"Tühistatud\" statuses lepingud).\n"
+>>>>>>> upstream/18.0
 "\n"
 "Töötaja: %(employee_name)s"
 
@@ -482,8 +541,12 @@ msgstr "Lahkumise Wizard"
 #: code:addons/hr_contract/wizard/hr_departure_wizard.py:0
 msgid ""
 "Departure date can't be earlier than the start date of current contract."
+<<<<<<< HEAD
 msgstr ""
 "Lahkumiskuupäev ei tohi olla varasem kui kehtiva lepingu alguskuupäev."
+=======
+msgstr "Lahkumiskuupäev ei tohi olla varasem kui kehtiva lepingu alguskuupäev."
+>>>>>>> upstream/18.0
 
 #. module: hr_contract
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_view_form

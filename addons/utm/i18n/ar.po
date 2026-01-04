@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* utm
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
@@ -814,10 +815,18 @@
 # Malaz Abuidris <msea@odoo.com>, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+#
+# Translators:
+# Wil Odoo, 2024
+# Malaz Abuidris <msea@odoo.com>, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 <<<<<<< HEAD
@@ -1635,6 +1644,18 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: ar\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:38+0000\n"
+"PO-Revision-Date: 2024-09-25 09:42+0000\n"
+"Last-Translator: Malaz Abuidris <msea@odoo.com>, 2025\n"
+"Language-Team: Arabic (https://app.transifex.com/odoo/teams/41243/ar/)\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #. odoo-python
@@ -1945,7 +1966,11 @@ msgid "Christmas Special"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "كريسمس خاص"
+=======
+msgstr "عروض الكريسماس الخاصة "
+>>>>>>> upstream/18.0
 =======
 msgstr "عروض الكريسماس الخاصة "
 >>>>>>> upstream/18.0
@@ -2776,7 +2801,11 @@ msgid "Create a Medium"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "أنشئ متوسط"
+=======
+msgstr "إنشاء وسط "
+>>>>>>> upstream/18.0
 =======
 msgstr "إنشاء وسط "
 >>>>>>> upstream/18.0
@@ -3599,7 +3628,11 @@ msgid "Create a stage for your campaigns"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "أنشئ مسرحا لمرحلتك"
+=======
+msgstr "قم بإنشاء مرحلة لحملاتك "
+>>>>>>> upstream/18.0
 =======
 msgstr "قم بإنشاء مرحلة لحملاتك "
 >>>>>>> upstream/18.0
@@ -4675,7 +4708,11 @@ msgid "Soft-Launch"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "إطلاق ناعم"
+=======
+msgstr "الإطلاق التجريبي "
+>>>>>>> upstream/18.0
 =======
 msgstr "الإطلاق التجريبي "
 >>>>>>> upstream/18.0
@@ -5345,7 +5382,11 @@ msgid "Soft-Launch Flow"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "تدفق الإطلاق الناعم"
+=======
+msgstr "مراحل الإطلاق التجريبي "
+>>>>>>> upstream/18.0
 =======
 msgstr "مراحل الإطلاق التجريبي "
 >>>>>>> upstream/18.0
@@ -5880,8 +5921,13 @@ msgstr "المراحل"
 #. module: utm
 #: model_terms:ir.actions.act_window,help:utm.action_view_utm_stage
 msgid ""
+<<<<<<< HEAD
 "Stages allow you to organize your workflow  (e.g. plan, design, in progress,"
 " done, …)."
+=======
+"Stages allow you to organize your workflow  (e.g. plan, design, in progress, "
+"done, …)."
+>>>>>>> upstream/18.0
 msgstr ""
 "تتيح لك المراحل تنظيم سير عملك (مثال: التخطيط، التصميم، قيد التنفيذ، تم "
 "الانتهاء، ...). "
@@ -5928,11 +5974,19 @@ msgstr "هذا الأسبوع"
 #. module: utm
 #: model:ir.model.fields,help:utm.field_utm_mixin__campaign_id
 msgid ""
+<<<<<<< HEAD
 "This is a name that helps you keep track of your different campaign efforts,"
 " e.g. Fall_Drive, Christmas_Special"
 msgstr ""
 "يساعدك هذا الاسم على تتبع جهود حملاتك المختلفة، مثال: fall_drive "
 "،christmas_special "
+=======
+"This is a name that helps you keep track of your different campaign efforts, "
+"e.g. Fall_Drive, Christmas_Special"
+msgstr ""
+"يساعدك هذا الاسم على تتبع جهود حملاتك المختلفة، مثال: "
+"fall_drive ،christmas_special "
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model:ir.model.fields,help:utm.field_utm_mixin__medium_id
@@ -5960,8 +6014,13 @@ msgstr "للاعتماد"
 #. odoo-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid ""
+<<<<<<< HEAD
 "Track incoming events (e.g. Christmas, Black Friday, ...) and publish timely"
 " content."
+=======
+"Track incoming events (e.g. Christmas, Black Friday, ...) and publish timely "
+"content."
+>>>>>>> upstream/18.0
 msgstr ""
 "تتبع الفعاليات القادمة (مثال: الكريسماس، الجمعة السوداء، ...) وقم بنشر "
 "المحتوى في الوقت المناسب. "
@@ -6010,8 +6069,13 @@ msgstr "مجموعة مخصصات مصدر UTM "
 #. module: utm
 #: model_terms:ir.actions.act_window,help:utm.utm_source_action
 msgid ""
+<<<<<<< HEAD
 "UTM Sources track where traffic comes from  (e.g. \"May Newsletter\", \"\", "
 "...)."
+=======
+"UTM Sources track where traffic comes from  (e.g. \"May Newsletter\", "
+"\"\", ...)."
+>>>>>>> upstream/18.0
 msgstr ""
 "مسار مصادر UTM حيث تأتي الزيارات (مثال: \"النشرة الإخبارية لشهر مايو\"، "
 "\"\"، ...). "

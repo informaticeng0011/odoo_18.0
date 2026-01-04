@@ -42,8 +42,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* im_livechat
 # 
+=======
+# * im_livechat
+#
+>>>>>>> upstream/18.0
 =======
 # * im_livechat
 #
@@ -405,6 +410,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Mikkel_Justesen, 2025
 >>>>>>> upstream/18.0
@@ -1133,10 +1139,16 @@
 # Kira Petersen, 2025
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
+=======
+# Mikkel_Justesen, 2025
+# Kira Petersen, 2025
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-01-27 13:02+0000\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1847,6 +1859,9 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-11-12 12:38+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Danish <https://translate.odoo.com/projects/odoo-18/"
@@ -1898,6 +1913,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2029,16 +2047,27 @@ msgstr "%s (kopi)"
 #: code:addons/im_livechat/models/chatbot_script.py:0
 #: code:addons/im_livechat/models/discuss_channel.py:0
 msgid ""
+<<<<<<< HEAD
 "'%(input_email)s' does not look like a valid email. Can you please try "
 "again?"
+=======
+"'%(input_email)s' does not look like a valid email. Can you please try again?"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: im_livechat
 #: model:ir.model.fields,help:im_livechat.field_im_livechat_channel_rule__action
 msgid ""
 "* 'Show' displays the chat button on the pages.\n"
+<<<<<<< HEAD
 "* 'Show with notification' is 'Show' in addition to a floating text just next to the button.\n"
 "* 'Open automatically' displays the button and automatically opens the conversation pane.\n"
+=======
+"* 'Show with notification' is 'Show' in addition to a floating text just "
+"next to the button.\n"
+"* 'Open automatically' displays the button and automatically opens the "
+"conversation pane.\n"
+>>>>>>> upstream/18.0
 "* 'Hide' hides the chat button on the pages.\n"
 msgstr ""
 
@@ -2094,6 +2123,7 @@ msgstr "<span>Hej,</span><br/>Her er en kopi af din samtale med"
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.chatbot_script_step_view_form
 msgid ""
+<<<<<<< HEAD
 "<span>Reminder: This step will only be played if no operator is "
 "available.</span>"
 msgstr ""
@@ -2103,21 +2133,45 @@ msgstr ""
 msgid ""
 "<span>Tip: At least one interaction (Question, Email, ...) is needed before the Bot can perform more complex actions (Forward to an Operator, ...). </span>\n"
 "                    <span>Use Channel Rules if you want the Bot to interact with visitors only when no operator is available.</span>"
+=======
+"<span>Reminder: This step will only be played if no operator is available.</"
+"span>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.chatbot_script_view_form
 msgid ""
 "<span>Tip: At least one interaction (Question, Email, ...) is needed before "
+<<<<<<< HEAD
 "the Bot can perform more complex actions (Forward to an Operator, "
 "...).</span>"
+=======
+"the Bot can perform more complex actions (Forward to an Operator, ...). </"
+"span>\n"
+"                    <span>Use Channel Rules if you want the Bot to interact "
+"with visitors only when no operator is available.</span>"
+msgstr ""
+
+#. module: im_livechat
+#: model_terms:ir.ui.view,arch_db:im_livechat.chatbot_script_view_form
+msgid ""
+"<span>Tip: At least one interaction (Question, Email, ...) is needed before "
+"the Bot can perform more complex actions (Forward to an Operator, ...).</"
+"span>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.chatbot_script_step_view_form
 msgid ""
+<<<<<<< HEAD
 "<span>Tip: Plan further steps for the Bot in case no operator is "
 "available.</span>"
+=======
+"<span>Tip: Plan further steps for the Bot in case no operator is available.</"
+"span>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: im_livechat
@@ -2134,10 +2188,19 @@ msgstr ""
 #: model:ir.model.fields,help:im_livechat.field_im_livechat_report_channel__is_without_answer
 msgid ""
 "A session is without answer if the operator did not answer. \n"
+<<<<<<< HEAD
 "                                       If the visitor is also the operator, the session will always be answered."
 msgstr ""
 "En session er uden svar hvis operatøren ikke svarer.\n"
 "                                       Hvis den besøgende samtidig er operatøren, vil sessionen altid blive besvaret."
+=======
+"                                       If the visitor is also the operator, "
+"the session will always be answered."
+msgstr ""
+"En session er uden svar hvis operatøren ikke svarer.\n"
+"                                       Hvis den besøgende samtidig er "
+"operatøren, vil sessionen altid blive besvaret."
+>>>>>>> upstream/18.0
 
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_discuss_channel__message_needaction
@@ -2337,8 +2400,13 @@ msgstr "Chat input placeholder"
 #. module: im_livechat
 #: model:ir.model.fields,help:im_livechat.field_discuss_channel__channel_type
 msgid ""
+<<<<<<< HEAD
 "Chat is private and unique between 2 persons. Group is private among invited"
 " persons. Channel can be freely joined (depending on its configuration)."
+=======
+"Chat is private and unique between 2 persons. Group is private among invited "
+"persons. Channel can be freely joined (depending on its configuration)."
+>>>>>>> upstream/18.0
 msgstr ""
 "Chat er privat og unikt mellem 2 personer. Gruppen er privat blandt "
 "inviterede personer. Kanalen kan frit tilsluttes (afhængigt af dens "
@@ -2393,7 +2461,11 @@ msgid "Chatbot"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Chatbot"
+>>>>>>> upstream/18.0
 =======
 msgstr "Chatbot"
 >>>>>>> upstream/18.0
@@ -2607,7 +2679,11 @@ msgid "Chatbots"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Chatbots"
+>>>>>>> upstream/18.0
 =======
 msgstr "Chatbots"
 >>>>>>> upstream/18.0
@@ -3092,7 +3168,11 @@ msgid "Forward to Operator"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Videresend til operatør"
+>>>>>>> upstream/18.0
 =======
 msgstr "Videresend til operatør"
 >>>>>>> upstream/18.0
@@ -3265,7 +3345,11 @@ msgid "Free Input"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gratis input"
+>>>>>>> upstream/18.0
 =======
 msgstr "Gratis input"
 >>>>>>> upstream/18.0
@@ -3612,7 +3696,11 @@ msgid "Hu-ho, it looks like none of our operators are available 🙁"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Åh nej, det ser ud til, at alle operatører er optaget 🙁"
+>>>>>>> upstream/18.0
 =======
 msgstr "Åh nej, det ser ud til, at alle operatører er optaget 🙁"
 >>>>>>> upstream/18.0
@@ -4223,7 +4311,11 @@ msgid "Live Chat Button"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "LiveChat-knap"
+>>>>>>> upstream/18.0
 =======
 msgstr "LiveChat-knap"
 >>>>>>> upstream/18.0
@@ -4628,7 +4720,11 @@ msgid "Livechat Username"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Livechat bruernavn"
+=======
+msgstr "Livechat brugernavn"
+>>>>>>> upstream/18.0
 =======
 msgstr "Livechat brugernavn"
 >>>>>>> upstream/18.0
@@ -5513,7 +5609,11 @@ msgid "Online Chat Language"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Online chat sprog"
+>>>>>>> upstream/18.0
 =======
 msgstr "Online chat sprog"
 >>>>>>> upstream/18.0
@@ -6124,7 +6224,11 @@ msgid "Only If"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Forudbestemte instruktioner"
+>>>>>>> upstream/18.0
 =======
 msgstr "Forudbestemte instruktioner"
 >>>>>>> upstream/18.0
@@ -6688,8 +6792,13 @@ msgstr ""
 msgid ""
 "The rule will only be applied for these countries. Example: if you select "
 "'Belgium' and 'United States' and that you set the action to 'Hide', the "
+<<<<<<< HEAD
 "chat button will be hidden on the specified URL from the visitors located in"
 " these 2 countries. This feature requires GeoIP installed on your server."
+=======
+"chat button will be hidden on the specified URL from the visitors located in "
+"these 2 countries. This feature requires GeoIP installed on your server."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: im_livechat
@@ -6795,8 +6904,12 @@ msgid ""
 "URL to a static page where you client can discuss with the operator of the "
 "channel."
 msgstr ""
+<<<<<<< HEAD
 "URL til en statisk side hvor din klient kan tale med en operatør for "
 "kanalen."
+=======
+"URL til en statisk side hvor din klient kan tale med en operatør for kanalen."
+>>>>>>> upstream/18.0
 
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_report_channel__uuid
@@ -6811,6 +6924,7 @@ msgstr ""
 #. module: im_livechat
 #: model_terms:digest.tip,tip_description:im_livechat.digest_tip_im_livechat_0
 msgid ""
+<<<<<<< HEAD
 "Use canned responses to define templates of messages in the livechat app. To"
 " load a canned response, start your sentence with ':' and select the "
 "template."
@@ -6818,6 +6932,14 @@ msgstr ""
 "Brug gemte svar til at definere skabeloner på beskeder i livechat "
 "applikationen. For at indlæse et gemt svar, starter du en sætning med ':' og"
 " vælger skabelonen."
+=======
+"Use canned responses to define templates of messages in the livechat app. To "
+"load a canned response, start your sentence with ':' and select the template."
+msgstr ""
+"Brug gemte svar til at definere skabeloner på beskeder i livechat "
+"applikationen. For at indlæse et gemt svar, starter du en sætning med ':' og "
+"vælger skabelonen."
+>>>>>>> upstream/18.0
 
 #. module: im_livechat
 #: model:ir.model,name:im_livechat.model_res_users
@@ -7044,6 +7166,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Har du noget imod at give os din e-mailadresse, så vi kan kontakte dig?"
+>>>>>>> upstream/18.0
 =======
 "Har du noget imod at give os din e-mailadresse, så vi kan kontakte dig?"
 >>>>>>> upstream/18.0
@@ -7454,11 +7580,21 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:im_livechat.im_livechat_channel_action
 msgid ""
 "You can create channels for each website on which you want\n"
+<<<<<<< HEAD
 "                to integrate the website live chat widget, allowing your website\n"
 "                visitors to talk in real time with your operators."
 msgstr ""
 "Du kan oprette kanaler for hver hjemmeside hvis du øsnker\n"
 "                 at integrere hjemmeside live chat widget'en, som gør det muligt for besøgende \n"
+=======
+"                to integrate the website live chat widget, allowing your "
+"website\n"
+"                visitors to talk in real time with your operators."
+msgstr ""
+"Du kan oprette kanaler for hver hjemmeside hvis du øsnker\n"
+"                 at integrere hjemmeside live chat widget'en, som gør det "
+"muligt for besøgende \n"
+>>>>>>> upstream/18.0
 "                 på din hjemmeside at snakke med dine operatøre i realtid."
 
 #. module: im_livechat

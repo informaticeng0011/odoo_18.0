@@ -38,6 +38,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
@@ -147,6 +151,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2023-05-16 13:48+0000\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -362,6 +367,13 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:36+0000\n"
+"PO-Revision-Date: 2025-12-31 16:39+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Kabyle <https://translate.odoo.com/projects/odoo-18/purchase/"
+"kab/>\n"
+>>>>>>> upstream/18.0
 "Language: kab\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -402,6 +414,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "X-Generator: Weblate 5.12.2\n"
 >>>>>>> upstream/18.0
@@ -506,19 +519,31 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 "X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.actions.report,print_report_name:purchase.action_report_purchase_order
 msgid ""
 "\n"
+<<<<<<< HEAD
 "                (object.state in ('draft', 'sent') and 'Request for Quotation - %s' % (object.name) or\n"
+=======
+"                (object.state in ('draft', 'sent') and 'Request for "
+"Quotation - %s' % (object.name) or\n"
+>>>>>>> upstream/18.0
 "                'Purchase Order - %s' % (object.name))"
 msgstr ""
 
 #. module: purchase
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:purchase.field_res_partner__supplier_invoice_count
 #: model:ir.model.fields,field_description:purchase.field_res_users__supplier_invoice_count
+=======
+#: model:ir.model.fields,field_description:purchase.field_purchase_order__partner_bill_count
+>>>>>>> upstream/18.0
 msgid "# Vendor Bills"
 msgstr ""
 
@@ -529,6 +554,7 @@ msgstr "Amḍan izirigen"
 
 #. module: purchase
 #. odoo-python
+<<<<<<< HEAD
 #: code:addons/purchase/models/purchase.py:0
 msgid "%(amount)s due %(date)s"
 <<<<<<< HEAD
@@ -676,18 +702,30 @@ msgstr "%(amount)s ilaqen deg %(date)s"
 #. module: purchase
 #. odoo-python
 #: code:addons/purchase/models/purchase.py:0
+=======
+#: code:addons/purchase/models/purchase_order.py:0
+>>>>>>> upstream/18.0
 msgid "%(product)s from %(original_receipt_date)s to %(new_receipt_date)s"
 msgstr ""
 
 #. module: purchase
 #. odoo-python
+<<<<<<< HEAD
 #: code:addons/purchase/models/purchase.py:0
 msgid "%s confirmed the receipt will take place on %s."
+=======
+#: code:addons/purchase/models/purchase_order.py:0
+msgid "%(vendor)s confirmed the receipt will take place on %(date)s."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: purchase
 #. odoo-python
+<<<<<<< HEAD
 #: code:addons/purchase/models/purchase.py:0
+=======
+#: code:addons/purchase/models/purchase_order.py:0
+>>>>>>> upstream/18.0
 msgid "%s modified receipt dates for the following products:"
 msgstr ""
 
@@ -703,6 +741,16 @@ msgid "'Request for Quotation - %s' % (object.name)"
 msgstr ""
 
 #. module: purchase
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
+msgid ""
+", it's 100% free! You'll save time creating beautiful quotations and track "
+"sales."
+msgstr ""
+
+#. module: purchase
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:purchase.track_po_line_qty_received_template
 #: model_terms:ir.ui.view,arch_db:purchase.track_po_line_template
 msgid "-&gt;"
@@ -725,6 +773,7 @@ msgid ""
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "        Dear <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>\n"
 "        <t t-if=\"object.partner_id.parent_id\">\n"
+<<<<<<< HEAD
 "            (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>)\n"
 "        </t>\n"
 "        <br><br>\n"
@@ -735,16 +784,42 @@ msgid ""
 "        is expected for \n"
 "        <t t-if=\"object.date_planned\">\n"
 "            <span style=\"font-weight:bold;\" t-out=\"format_date(object.date_planned) or ''\">05/05/2021</span>.\n"
+=======
+"            (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure "
+"Interior</t>)\n"
+"        </t>\n"
+"        <br/><br/>\n"
+"        Here is a reminder that the delivery of the purchase order <span "
+"style=\"font-weight:bold;\" t-out=\"object.name or ''\">P00015</span>\n"
+"        <t t-if=\"object.partner_ref\">\n"
+"            <span style=\"font-weight:bold;\">(<t t-out=\"object.partner_ref "
+"or ''\">REF_XXX</t>)</span>\n"
+"        </t>\n"
+"        is expected for \n"
+"        <t t-if=\"object.date_planned\">\n"
+"            <span style=\"font-weight:bold;\" t-"
+"out=\"format_date(object.date_planned) or ''\">05/05/2021</span>.\n"
+>>>>>>> upstream/18.0
 "        </t>\n"
 "         <t t-else=\"\">\n"
 "            <span style=\"font-weight:bold;\">undefined</span>.\n"
 "        </t>\n"
 "        Could you please confirm it will be delivered on time?\n"
+<<<<<<< HEAD
 "        <t t-if=\"not is_html_empty(object.user_id.signature)\">\n"
 "            <br><br>\n"
 "            <t t-out=\"object.user_id.signature or ''\">--<br>Mitchell Admin</t>\n"
 "        </t>\n"
 "        <br><br>\n"
+=======
+"        <t t-if=\"not is_html_empty(object.user_id.signature)\" data-o-mail-"
+"quote-container=\"1\">\n"
+"            <br/><br/>\n"
+"            <t t-out=\"object.user_id.signature or ''\" data-o-mail-"
+"quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+"        </t>\n"
+"        <br/><br/>\n"
+>>>>>>> upstream/18.0
 "    </p>\n"
 "</div>"
 msgstr ""
@@ -756,6 +831,7 @@ msgid ""
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "        Dear <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>\n"
 "        <t t-if=\"object.partner_id.parent_id\">\n"
+<<<<<<< HEAD
 "            (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>)\n"
 "        </t>\n"
 "        <br><br>\n"
@@ -776,6 +852,36 @@ msgid ""
 "            <t t-out=\"object.user_id.signature or ''\">--<br>Mitchell Admin</t>\n"
 "        </t>\n"
 "        <br><br>\n"
+=======
+"            (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure "
+"Interior</t>)\n"
+"        </t>\n"
+"        <br/><br/>\n"
+"        Here is in attachment a purchase order <span style=\"font-"
+"weight:bold;\" t-out=\"object.name or ''\">P00015</span>\n"
+"        <t t-if=\"object.partner_ref\">\n"
+"            with reference: <t t-out=\"object.partner_ref or ''\">REF_XXX</"
+"t>\n"
+"        </t>\n"
+"        amounting in <span style=\"font-weight:bold;\" t-"
+"out=\"format_amount(object.amount_total, object.currency_id) or ''\">$ "
+"10.00</span>\n"
+"        from <t t-out=\"object.company_id.name or ''\">YourCompany</t>. \n"
+"        <br/><br/>\n"
+"        <t t-if=\"object.date_planned\">\n"
+"            The receipt is expected for <span style=\"font-weight:bold;\" t-"
+"out=\"format_date(object.date_planned) or ''\">05/05/2021</span>.\n"
+"            <br/><br/>\n"
+"            Could you please acknowledge the receipt of this order?\n"
+"        </t>\n"
+"        <t t-if=\"not is_html_empty(object.user_id.signature)\" data-o-mail-"
+"quote-container=\"1\">\n"
+"            <br/><br/>\n"
+"            <t t-out=\"object.user_id.signature or ''\" data-o-mail-"
+"quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+"        </t>\n"
+"        <br/><br/>\n"
+>>>>>>> upstream/18.0
 "    </p>\n"
 "</div>"
 msgstr ""
@@ -787,6 +893,7 @@ msgid ""
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "        Dear <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>\n"
 "        <t t-if=\"object.partner_id.parent_id\">\n"
+<<<<<<< HEAD
 "            (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>)\n"
 "        </t>\n"
 "        <br><br>\n"
@@ -802,12 +909,47 @@ msgid ""
 "        <t t-if=\"not is_html_empty(object.user_id.signature)\">\n"
 "            <br><br>\n"
 "            <t t-out=\"object.user_id.signature or ''\">--<br>Mitchell Admin</t>\n"
+=======
+"            (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure "
+"Interior</t>)\n"
+"        </t>\n"
+"        <br/><br/>\n"
+"        Here is in attachment a request for quotation <span style=\"font-"
+"weight:bold;\" t-out=\"object.name or ''\">P00015</span>\n"
+"        <t t-if=\"object.partner_ref\">\n"
+"            with reference: <t t-out=\"object.partner_ref or ''\">REF_XXX</"
+"t>\n"
+"        </t>\n"
+"        from <t t-out=\"object.company_id.name or ''\">YourCompany</t>.\n"
+"        <br/><br/>\n"
+"        If you have any questions, please do not hesitate to contact us.\n"
+"        <br/><br/>\n"
+"            <a t-att-href=\"object.get_confirm_url(confirm_type='reception')"
+"\" target=\"_blank\" style=\"padding: 5px 10px; color: #FFFFFF; text-"
+"decoration: none; background-color: #875A7B; border: 1px solid #875A7B; "
+"border-radius: 3px\">\n"
+"                Accept</a>\n"
+"\n"
+"            <a t-att-href=\"object.get_confirm_url(confirm_type='decline')\" "
+"target=\"_blank\" style=\"padding: 5px 10px; color: #FFFFFF; text-"
+"decoration: none; background-color: #875A7B; border: 1px solid #875A7B; "
+"border-radius: 3px\">\n"
+"                Decline</a>\n"
+"        <br/><br/>\n"
+"        Best regards,\n"
+"        <t t-if=\"not is_html_empty(object.user_id.signature)\" data-o-mail-"
+"quote-container=\"1\">\n"
+"            <br/><br/>\n"
+"            <t t-out=\"object.user_id.signature or ''\" data-o-mail-"
+"quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+>>>>>>> upstream/18.0
 "        </t>\n"
 "    </p>\n"
 "</div>"
 msgstr ""
 
 #. module: purchase
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
 msgid "<i class=\"fa fa-comment\"/> Send message"
 msgstr ""
@@ -975,20 +1117,62 @@ msgstr ""
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_partner_kanban_view
 msgid "<i class=\"fa fa-fw fa-credit-card\" role=\"img\" aria-label=\"Purchases\" title=\"Purchases\"/>"
+=======
+#: model_terms:ir.ui.view,arch_db:purchase.purchase_partner_kanban_view
+msgid ""
+"<i class=\"fa fa-credit-card me-1\" aria-label=\"Purchases\" role=\"img\" "
+"title=\"Purchases\"/>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_orders
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-fw fa-file-text\" role=\"img\" aria-label=\"Waiting for Bill\" title=\"Waiting for Bill\"/><span class=\"d-none d-md-inline\"> Waiting for Bill</span>"
+=======
+msgid ""
+"<i class=\"fa fa-fw fa-check\" role=\"img\" aria-label=\"Done\" "
+"title=\"Done\"/><span class=\"d-none d-md-inline\"> Done</span>"
+msgstr ""
+
+#. module: purchase
+#: model_terms:ir.ui.view,arch_db:purchase.purchase_order_portal_content
+msgid "<i class=\"fa fa-fw fa-check\"/>Paid"
+msgstr ""
+
+#. module: purchase
+#: model_terms:ir.ui.view,arch_db:purchase.purchase_order_portal_content
+msgid "<i class=\"fa fa-fw fa-check\"/>Reversed"
+msgstr ""
+
+#. module: purchase
+#: model_terms:ir.ui.view,arch_db:purchase.purchase_order_portal_content
+msgid "<i class=\"fa fa-fw fa-clock-o\"/>Waiting Payment"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_orders
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-fw fa-remove\" role=\"img\" aria-label=\"Cancelled\" title=\"Cancelled\"/><span class=\"d-none d-md-inline\"> Cancelled</span>"
+=======
+msgid ""
+"<i class=\"fa fa-fw fa-file-text\" role=\"img\" aria-label=\"Waiting for "
+"Bill\" title=\"Waiting for Bill\"/><span class=\"d-none d-md-inline\"> "
+"Waiting for Bill</span>"
+msgstr ""
+
+#. module: purchase
+#: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_orders
+msgid ""
+"<i class=\"fa fa-fw fa-remove\" role=\"img\" aria-label=\"Cancelled\" "
+"title=\"Cancelled\"/><span class=\"d-none d-md-inline\"> Cancelled</span>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-print\"/> Print"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1131,12 +1315,21 @@ msgstr "<i class=\"fa fa-print\"/> Siggez"
 =======
 msgstr "<i class=\"fa fa-print\"/> Siggez"
 >>>>>>> upstream/18.0
+=======
+msgid "<i class=\"fa fa-print me-1\"/>Download / Print"
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_orders
 msgid ""
 "<span class=\"d-none d-md-inline\">Confirmation Date</span>\n"
+<<<<<<< HEAD
 "                          <span class=\"d-block d-md-none\">Confirmation</span>"
+=======
+"                          <span class=\"d-block d-md-none\">Confirmation</"
+"span>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: purchase
@@ -1156,8 +1349,25 @@ msgstr ""
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid ""
+<<<<<<< HEAD
 "<span class=\"o_form_label\" attrs=\"{'invisible': [('state','not in',('draft','sent'))]}\">Request for Quotation </span>\n"
 "                        <span class=\"o_form_label\" attrs=\"{'invisible': [('state','in',('draft','sent'))]}\">Purchase Order </span>"
+=======
+"<span class=\"o_form_label\" invisible=\"state not in ('draft', 'sent')"
+"\">Request for Quotation </span>\n"
+"                        <span class=\"o_form_label\" invisible=\"state in "
+"('draft', 'sent')\">Purchase Order </span>"
+msgstr ""
+
+#. module: purchase
+#: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
+msgid "<span class=\"o_stat_text\">Bill Matching</span>"
+msgstr ""
+
+#. module: purchase
+#: model_terms:ir.ui.view,arch_db:purchase.view_move_form_inherit_purchase
+msgid "<span class=\"o_stat_text\">Purchase Matching</span>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: purchase
@@ -1168,12 +1378,18 @@ msgstr ""
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
+<<<<<<< HEAD
 msgid "<span class=\"text-muted\" attrs=\"{'invisible': [('mail_reception_confirmed','=', False)]}\">(confirmed by vendor)</span>"
 msgstr ""
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid "<span class=\"text-muted\" attrs=\"{'invisible': [('mail_reminder_confirmed', '=', False)]}\">(confirmed by vendor)</span>"
+=======
+msgid ""
+"<span class=\"text-muted\" invisible=\"not "
+"mail_reminder_confirmed\">(confirmed by vendor)</span>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: purchase
@@ -1182,12 +1398,26 @@ msgid "<span> day(s) before</span>"
 msgstr ""
 
 #. module: purchase
+<<<<<<< HEAD
+=======
+#: model_terms:web_tour.tour,rainbow_man_message:purchase.purchase_tour
+msgid "<span><b>Good job!</b> You went through all steps of this tour.</span>"
+msgstr ""
+
+#. module: purchase
+#: model_terms:ir.ui.view,arch_db:purchase.purchase_order_portal_content
+msgid "<span>Amount</span>"
+msgstr ""
+
+#. module: purchase
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid "<span>Ask confirmation</span>"
 msgstr ""
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_portal_content
+<<<<<<< HEAD
 msgid "<span>Tax excl.</span>"
 msgstr ""
 
@@ -1340,6 +1570,10 @@ msgstr "<span>Tiẓeṭṭaḍin</span>"
 =======
 msgstr "<span>Tiẓeṭṭaḍin</span>"
 >>>>>>> upstream/18.0
+=======
+msgid "<span>Taxes</span>"
+msgstr "<span>Tiẓeṭṭaḍin</span>"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_portal_content
@@ -1352,14 +1586,37 @@ msgid "<strong class=\"d-block mb-1\">Invoices</strong>"
 msgstr ""
 
 #. module: purchase
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:purchase.report_purchasequotation_document
+msgid "<strong class=\"d-block mt-3\">Shipping address:</strong>"
+msgstr ""
+
+#. module: purchase
+#: model_terms:ir.ui.view,arch_db:purchase.report_purchaseorder_document
+msgid "<strong class=\"d-block mt-3\">Shipping address</strong>"
+msgstr ""
+
+#. module: purchase
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_portal_content
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchaseorder_document
 msgid "<strong class=\"mr16\">Subtotal</strong>"
 msgstr ""
 
 #. module: purchase
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
 msgid "<strong class=\"text-muted\">Purchase Representative</strong>"
+=======
+#: model_terms:ir.ui.view,arch_db:purchase.report_purchaseorder_document
+msgid "<strong>Amount</strong>"
+msgstr ""
+
+#. module: purchase
+#: model_terms:ir.ui.view,arch_db:purchase.report_purchaseorder_document
+msgid "<strong>Buyer</strong>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: purchase
@@ -1369,13 +1626,27 @@ msgstr ""
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchaseorder_document
+<<<<<<< HEAD
 msgid "<strong>Date Req.</strong>"
+=======
+#: model_terms:ir.ui.view,arch_db:purchase.report_purchasequotation_document
+msgid "<strong>Description</strong>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchaseorder_document
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchasequotation_document
 msgid "<strong>Description</strong>"
+=======
+msgid "<strong>Disc.</strong>"
+msgstr ""
+
+#. module: purchase
+#: model_terms:ir.ui.view,arch_db:purchase.report_purchaseorder_document
+msgid "<strong>Expected Arrival:</strong>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: purchase
@@ -1396,7 +1667,11 @@ msgstr ""
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchaseorder_document
+<<<<<<< HEAD
 msgid "<strong>Purchase Representative:</strong>"
+=======
+msgid "<strong>Payment Terms: </strong>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: purchase
@@ -1417,6 +1692,7 @@ msgstr ""
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchaseorder_document
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchasequotation_document
 msgid "<strong>Shipping address:</strong>"
 msgstr ""
@@ -1433,6 +1709,8 @@ msgstr ""
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchaseorder_document
+=======
+>>>>>>> upstream/18.0
 msgid "<strong>Taxes</strong>"
 msgstr ""
 
@@ -1448,7 +1726,21 @@ msgstr ""
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
+<<<<<<< HEAD
 msgid "<strong>This purchase has been canceled.</strong>"
+=======
+msgid "<strong>This purchase has been cancelled.</strong>"
+msgstr ""
+
+#. module: purchase
+#: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
+msgid "<strong>This quotation has been accepted.</strong>"
+msgstr ""
+
+#. module: purchase
+#: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
+msgid "<strong>This quotation has been declined.</strong>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: purchase
@@ -1457,6 +1749,7 @@ msgid "<strong>Unit Price</strong>"
 msgstr ""
 
 #. module: purchase
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_portal_content
 msgid "<strong>Update Here</strong>"
 msgstr ""
@@ -1464,15 +1757,32 @@ msgstr ""
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchaseorder_document
 msgid "<strong>Your Order Reference:</strong>"
+=======
+#: model_terms:ir.ui.view,arch_db:purchase.report_purchaseorder_document
+msgid "<strong>Your Order Reference</strong>"
+msgstr ""
+
+#. module: purchase
+#: model_terms:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
+msgid ""
+"A blanket purchase order is a purchase agreement between a buyer and a "
+"supplier to deliver goods or services to the buyer at a preset price for a "
+"period of time."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: purchase
 #. odoo-python
+<<<<<<< HEAD
 #: code:addons/purchase/models/purchase.py:0
+=======
+#: code:addons/purchase/models/purchase_order.py:0
+>>>>>>> upstream/18.0
 msgid "A sample email has been sent to %s."
 msgstr ""
 
 #. module: purchase
+<<<<<<< HEAD
 #: model:ir.model.fields,help:purchase.field_purchase_order_line__product_type
 msgid ""
 "A storable product is a product for which you manage stock. The Inventory app has to be installed.\n"
@@ -1481,18 +1791,31 @@ msgid ""
 msgstr ""
 
 #. module: purchase
+=======
+>>>>>>> upstream/18.0
 #: model:res.groups,name:purchase.group_warning_purchase
 msgid "A warning can be set on a product or a customer (Purchase)"
 msgstr ""
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
+<<<<<<< HEAD
 msgid "Ability to select a package type in purchase orders and to force a quantity that is a multiple of the number of units per package."
+=======
+msgid ""
+"Ability to select a package type in purchase orders and to force a quantity "
+"that is a multiple of the number of units per package."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: purchase
 #. odoo-python
+<<<<<<< HEAD
 #: code:addons/purchase/models/purchase.py:0
+=======
+#: code:addons/purchase/models/purchase_order.py:0
+#: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
+>>>>>>> upstream/18.0
 msgid "Accept"
 msgstr ""
 
@@ -1504,12 +1827,25 @@ msgstr ""
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_order_line__qty_received_method
 msgid ""
+<<<<<<< HEAD
 "According to product configuration, the received quantity can be automatically computed by mechanism:\n"
+=======
+"According to product configuration, the received quantity can be "
+"automatically computed by mechanism:\n"
+>>>>>>> upstream/18.0
 "  - Manual: the quantity is set manually on the line\n"
 "  - Stock Moves: the quantity comes from confirmed pickings\n"
 msgstr ""
 
 #. module: purchase
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:purchase.field_purchase_bill_line_match__account_move_id
+msgid "Account Move"
+msgstr ""
+
+#. module: purchase
+>>>>>>> upstream/18.0
 #: model:ir.actions.act_window,name:purchase.action_accrued_expense_entry
 msgid "Accrued Expense Entry"
 msgstr ""
@@ -1552,7 +1888,11 @@ msgid "Action Needed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tigawt taḍullit"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tigawt taḍullit"
 >>>>>>> upstream/18.0
@@ -1697,7 +2037,11 @@ msgid "Activities"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Irmuden"
+>>>>>>> upstream/18.0
 =======
 msgstr "Irmuden"
 >>>>>>> upstream/18.0
@@ -1842,7 +2186,11 @@ msgid "Activity Exception Decoration"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Abreqqes n tsureft n urmud"
+>>>>>>> upstream/18.0
 =======
 msgstr "Abreqqes n tsureft n urmud"
 >>>>>>> upstream/18.0
@@ -1987,7 +2335,11 @@ msgid "Activity State"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Addad n urmud"
+>>>>>>> upstream/18.0
 =======
 msgstr "Addad n urmud"
 >>>>>>> upstream/18.0
@@ -2132,6 +2484,7 @@ msgid "Activity Type Icon"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Tigniṭ n tewsit n urmud"
@@ -2237,6 +2590,19 @@ msgstr "Tigniṭ n tewsit n urmud"
 >>>>>>> upstream/18.0
 =======
 msgstr "Tigniṭ n tewsit n urmud"
+>>>>>>> upstream/18.0
+=======
+msgstr "Tigniṭ n tewsit n urmud"
+
+#. module: purchase
+#: model_terms:ir.ui.view,arch_db:purchase.bill_to_po_wizard_form
+msgid "Add Down Payment"
+msgstr ""
+
+#. module: purchase
+#: model_terms:ir.ui.view,arch_db:purchase.bill_to_po_wizard_form
+msgid "Add Products"
+msgstr ""
 >>>>>>> upstream/18.0
 
 #. module: purchase
@@ -2266,6 +2632,7 @@ msgid "Add some products or services to your quotation."
 msgstr ""
 
 #. module: purchase
+<<<<<<< HEAD
 #: model:res.groups,name:purchase.group_purchase_manager
 msgid "Administrator"
 <<<<<<< HEAD
@@ -2409,6 +2776,23 @@ msgstr "Anedbal"
 =======
 msgstr "Anedbal"
 >>>>>>> upstream/18.0
+=======
+#: model_terms:ir.ui.view,arch_db:purchase.bill_to_po_wizard_form
+#: model_terms:ir.ui.view,arch_db:purchase.purchase_bill_line_match_tree
+msgid "Add to PO"
+msgstr ""
+
+#. module: purchase
+#. odoo-python
+#: code:addons/purchase/models/purchase_bill_line_match.py:0
+msgid "Add to Purchase Order"
+msgstr ""
+
+#. module: purchase
+#: model:res.groups,name:purchase.group_purchase_manager
+msgid "Administrator"
+msgstr "Anedbal"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-python
@@ -2449,7 +2833,11 @@ msgid "All"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Akkw"
+>>>>>>> upstream/18.0
 =======
 msgstr "Akkw"
 >>>>>>> upstream/18.0
@@ -2591,6 +2979,7 @@ msgid "Allow to edit purchase orders"
 msgstr ""
 
 #. module: purchase
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:purchase.field_purchase_bill_union__amount
 msgid "Amount"
 <<<<<<< HEAD
@@ -2738,6 +3127,23 @@ msgstr "Azal"
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_report__delay_pass
 msgid "Amount of time between date planned and order by date for each purchase order line."
+=======
+#: model:ir.model.fields,field_description:purchase.field_purchase_bill_line_match__aml_id
+msgid "Aml"
+msgstr ""
+
+#. module: purchase
+#: model:ir.model.fields,field_description:purchase.field_purchase_bill_union__amount
+#: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
+msgid "Amount"
+msgstr "Azal"
+
+#. module: purchase
+#: model:ir.model.fields,help:purchase.field_purchase_report__delay_pass
+msgid ""
+"Amount of time between date planned and order by date for each purchase "
+"order line."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: purchase
@@ -2753,6 +3159,7 @@ msgstr "Amiḍan n tusliṭ"
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__analytic_distribution
 msgid "Analytic Distribution"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3039,6 +3446,9 @@ msgstr "Anadi n Tiski Tusliḍt"
 =======
 msgstr "Anadi n Tiski Tusliḍt"
 >>>>>>> upstream/18.0
+=======
+msgstr "Tiski Tusliḍt"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model,name:purchase.model_account_analytic_applicability
@@ -3083,7 +3493,11 @@ msgid "Analytic Precision"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tiseddi Tusliḍt"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tiseddi Tusliḍt"
 >>>>>>> upstream/18.0
@@ -3196,6 +3610,7 @@ msgid "Approve Order"
 msgstr "Seɣbel taladna"
 
 #. module: purchase
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__message_attachment_count
 msgid "Attachment Count"
 <<<<<<< HEAD
@@ -3484,6 +3899,28 @@ msgstr "Imyerra"
 =======
 msgstr "Imyerra"
 >>>>>>> upstream/18.0
+=======
+#: model_terms:ir.ui.view,arch_db:purchase.purchase_order_kpis_tree
+#: model_terms:ir.ui.view,arch_db:purchase.purchase_order_view_tree
+msgid "Are you sure you want to cancel the selected RFQs/Orders?"
+msgstr ""
+
+#. module: purchase
+#: model:ir.model.fields,field_description:purchase.field_purchase_order__message_attachment_count
+msgid "Attachment Count"
+msgstr "Asiḍen n Tsawit"
+
+#. module: purchase
+#: model:ir.model.fields,field_description:purchase.field_purchase_order_line__product_template_attribute_value_ids
+msgid "Attribute Values"
+msgstr "Azalen n imyerr"
+
+#. module: purchase
+#: model:ir.ui.menu,name:purchase.menu_product_attribute_action
+#: model_terms:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
+msgid "Attributes"
+msgstr "Imyerra"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.view_move_form_inherit_purchase
@@ -3523,7 +3960,11 @@ msgid "Auto-Complete"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Asmed awurman"
+>>>>>>> upstream/18.0
 =======
 msgstr "Asmed awurman"
 >>>>>>> upstream/18.0
@@ -3633,21 +4074,30 @@ msgstr "Asmed awurman"
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_account_bank_statement_line__purchase_vendor_bill_id
 #: model:ir.model.fields,field_description:purchase.field_account_move__purchase_vendor_bill_id
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:purchase.field_account_payment__purchase_vendor_bill_id
+=======
+>>>>>>> upstream/18.0
 msgid "Auto-complete"
 msgstr ""
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_account_bank_statement_line__purchase_vendor_bill_id
 #: model:ir.model.fields,help:purchase.field_account_move__purchase_vendor_bill_id
+<<<<<<< HEAD
 #: model:ir.model.fields,help:purchase.field_account_payment__purchase_vendor_bill_id
+=======
+>>>>>>> upstream/18.0
 msgid "Auto-complete from a past bill / purchase order."
 msgstr ""
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_account_bank_statement_line__purchase_id
 #: model:ir.model.fields,help:purchase.field_account_move__purchase_id
+<<<<<<< HEAD
 #: model:ir.model.fields,help:purchase.field_account_payment__purchase_id
+=======
+>>>>>>> upstream/18.0
 msgid "Auto-complete from a past purchase order."
 msgstr ""
 
@@ -3662,11 +4112,20 @@ msgid "Automatically remind the receipt date to your vendors"
 msgstr ""
 
 #. module: purchase
+<<<<<<< HEAD
 #: model:ir.model.fields,help:purchase.field_purchase_order__receipt_reminder_email
 #: model:ir.model.fields,help:purchase.field_res_partner__receipt_reminder_email
 #: model:ir.model.fields,help:purchase.field_res_users__receipt_reminder_email
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid "Automatically send a confirmation email to the vendor X days before the expected receipt date, asking him to confirm the exact date."
+=======
+#: model:ir.model.fields,help:purchase.field_res_partner__receipt_reminder_email
+#: model:ir.model.fields,help:purchase.field_res_users__receipt_reminder_email
+#: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
+msgid ""
+"Automatically send a confirmation email to the vendor X days before the "
+"expected receipt date, asking him to confirm the exact date."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: purchase
@@ -3696,11 +4155,34 @@ msgid "Bill Lines"
 msgstr ""
 
 #. module: purchase
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/purchase/models/purchase_order.py:0
+msgid "Bill Matching"
+msgstr ""
+
+#. module: purchase
+#: model:ir.model,name:purchase.model_bill_to_po_wizard
+msgid "Bill to Purchase Order"
+msgstr ""
+
+#. module: purchase
+#: model_terms:ir.ui.view,arch_db:purchase.purchase_bill_line_match_tree
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid "Billed"
 msgstr ""
 
 #. module: purchase
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:purchase.field_purchase_bill_line_match__billed_amount_untaxed
+msgid "Billed Amount Untaxed"
+msgstr ""
+
+#. module: purchase
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__qty_invoiced
 msgid "Billed Qty"
 msgstr ""
@@ -3758,7 +4240,11 @@ msgid "Bills"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tifakturin"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tifakturin"
 >>>>>>> upstream/18.0
@@ -3878,8 +4364,18 @@ msgstr ""
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__user_id
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:purchase.field_res_partner__buyer_id
 #: model:ir.model.fields,field_description:purchase.field_res_users__buyer_id
+=======
+#: model:ir.model.fields,field_description:purchase.field_purchase_report__user_id
+#: model:ir.model.fields,field_description:purchase.field_res_partner__buyer_id
+#: model:ir.model.fields,field_description:purchase.field_res_users__buyer_id
+#: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
+#: model_terms:ir.ui.view,arch_db:purchase.purchase_order_view_search
+#: model_terms:ir.ui.view,arch_db:purchase.view_purchase_order_filter
+#: model_terms:ir.ui.view,arch_db:purchase.view_purchase_order_search
+>>>>>>> upstream/18.0
 msgid "Buyer"
 msgstr ""
 
@@ -3889,12 +4385,18 @@ msgid "Calendar View"
 msgstr "Timeẓri awitay"
 
 #. module: purchase
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
 msgid "Calls for tenders are when you want to generate requests for quotations with several vendors for a given set of products to compare offers."
 msgstr ""
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
+=======
+#: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
+#: model_terms:ir.ui.view,arch_db:purchase.purchase_order_kpis_tree
+#: model_terms:ir.ui.view,arch_db:purchase.purchase_order_view_tree
+>>>>>>> upstream/18.0
 msgid "Cancel"
 msgstr "Sefsex"
 
@@ -3913,9 +4415,20 @@ msgstr ""
 
 #. module: purchase
 #. odoo-python
+<<<<<<< HEAD
 #: code:addons/purchase/models/purchase.py:0
 msgid "Cannot delete a purchase order line which is in state '%s'."
 msgstr "Ur tezmireḍ ara aţekseḍ izirig n tladna n tiɣin illan deg addad '%s'."
+=======
+#: code:addons/purchase/models/purchase_order_line.py:0
+msgid "Cannot delete a purchase order line which is in state “%s”."
+msgstr ""
+
+#. module: purchase
+#: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
+msgid "Catalog"
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__product_uom_category_id
@@ -3955,6 +4468,7 @@ msgid "Category"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Taggayt"
@@ -4061,6 +4575,14 @@ msgstr "Taggayt"
 =======
 msgstr "Taggayt"
 >>>>>>> upstream/18.0
+=======
+msgstr "Taggayt"
+
+#. module: purchase
+#: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
+msgid "Close"
+msgstr "Mdel"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_report__commercial_partner_id
@@ -4068,11 +4590,23 @@ msgid "Commercial Entity"
 msgstr "Entité commerciale"
 
 #. module: purchase
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
+msgid "Communication history"
+msgstr ""
+
+#. module: purchase
+>>>>>>> upstream/18.0
 #: model:ir.model,name:purchase.model_res_company
 msgid "Companies"
 msgstr "Tikebbaniyin"
 
 #. module: purchase
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:purchase.field_purchase_bill_line_match__company_id
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:purchase.field_purchase_bill_union__company_id
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__company_id
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__company_id
@@ -4082,13 +4616,27 @@ msgid "Company"
 msgstr "Takebbwanit"
 
 #. module: purchase
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:purchase.field_purchase_order__company_currency_id
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:purchase.field_res_config_settings__company_currency_id
 msgid "Company Currency"
 msgstr ""
 
 #. module: purchase
+<<<<<<< HEAD
 #. odoo-python
 #: code:addons/purchase/models/purchase.py:0
+=======
+#: model:ir.model.fields,field_description:purchase.field_purchase_order__amount_total_cc
+msgid "Company Total"
+msgstr ""
+
+#. module: purchase
+#. odoo-python
+#: code:addons/purchase/models/purchase_order.py:0
+>>>>>>> upstream/18.0
 msgid "Compose Email"
 msgstr "Aru  Imayl"
 
@@ -4130,7 +4678,11 @@ msgid "Config Settings"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sefrek aɣewwaṛ"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sefrek aɣewwaṛ"
 >>>>>>> upstream/18.0
@@ -4243,6 +4795,7 @@ msgid "Configuration"
 msgstr "Tawila"
 
 #. module: purchase
+<<<<<<< HEAD
 #. odoo-python
 #: code:addons/purchase/models/purchase.py:0
 msgid "Confirm"
@@ -4389,11 +4942,21 @@ msgstr "Sentem"
 >>>>>>> upstream/18.0
 
 #. module: purchase
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid "Confirm Order"
 msgstr "Sentem taladna"
 
 #. module: purchase
+<<<<<<< HEAD
+=======
+#: model:ir.actions.server,name:purchase.action_confirm_rfqs
+msgid "Confirm RFQ"
+msgstr ""
+
+#. module: purchase
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid "Confirm Receipt Date"
 msgstr ""
@@ -4428,6 +4991,7 @@ msgid "Confirmed purchase orders are not editable"
 msgstr ""
 
 #. module: purchase
+<<<<<<< HEAD
 #: model:ir.model,name:purchase.model_res_partner
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
 msgid "Contact"
@@ -4572,6 +5136,22 @@ msgstr "Anermis"
 =======
 msgstr "Anermis"
 >>>>>>> upstream/18.0
+=======
+#: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
+msgid "Connect with your software!"
+msgstr ""
+
+#. module: purchase
+#: model_terms:ir.ui.view,arch_db:purchase.report_purchaseorder_document
+#: model_terms:ir.ui.view,arch_db:purchase.report_purchasequotation_document
+msgid "Connect your software"
+msgstr ""
+
+#. module: purchase
+#: model:ir.model,name:purchase.model_res_partner
+msgid "Contact"
+msgstr "Anermis"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_product_product__purchase_method
@@ -4581,7 +5161,18 @@ msgstr ""
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_order_line__product_uom_category_id
+<<<<<<< HEAD
 msgid "Conversion between Units of Measure can only occur if they belong to the same category. The conversion will be made based on the ratios."
+=======
+msgid ""
+"Conversion between Units of Measure can only occur if they belong to the "
+"same category. The conversion will be made based on the ratios."
+msgstr ""
+
+#. module: purchase
+#: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
+msgid "Copy"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: purchase
@@ -4611,18 +5202,30 @@ msgid "Create a new product variant"
 msgstr ""
 
 #. module: purchase
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:purchase.field_bill_to_po_wizard__create_uid
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__create_uid
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__create_uid
 msgid "Created by"
 msgstr "Yerna-t"
 
 #. module: purchase
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:purchase.field_bill_to_po_wizard__create_date
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__create_date
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__create_date
 msgid "Created on"
 msgstr "Yerna di"
 
 #. module: purchase
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:purchase.field_purchase_bill_line_match__currency_id
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:purchase.field_purchase_bill_union__currency_id
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__currency_id
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__currency_id
@@ -4678,7 +5281,11 @@ msgid "Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Azemz"
+>>>>>>> upstream/18.0
 =======
 msgstr "Azemz"
 >>>>>>> upstream/18.0
@@ -4792,7 +5399,11 @@ msgstr ""
 
 #. module: purchase
 #. odoo-python
+<<<<<<< HEAD
 #: code:addons/purchase/models/purchase.py:0
+=======
+#: code:addons/purchase/models/purchase_order.py:0
+>>>>>>> upstream/18.0
 msgid "Date Updated"
 msgstr ""
 
@@ -4834,7 +5445,11 @@ msgid "Date:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Azemz:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Azemz:"
 >>>>>>> upstream/18.0
@@ -4980,7 +5595,11 @@ msgid "Days"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ussan"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ussan"
 >>>>>>> upstream/18.0
@@ -5105,24 +5724,67 @@ msgid "Days to Receive"
 msgstr ""
 
 #. module: purchase
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
+msgid "Decline"
+msgstr ""
+
+#. module: purchase
+#: model:ir.model.fields,field_description:purchase.field_purchase_order__company_price_include
+msgid "Default Sales Price Include"
+msgstr ""
+
+#. module: purchase
+#: model:ir.model.fields,help:purchase.field_purchase_order__company_price_include
+msgid ""
+"Default on whether the sales price used on the product and invoices with "
+"this Company includes its taxes."
+msgstr ""
+
+#. module: purchase
+#: model:ir.model.fields,help:purchase.field_purchase_bill_line_match__product_uom_id
+msgid "Default unit of measure used for all stock operations."
+msgstr ""
+
+#. module: purchase
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid "Define your terms and conditions ..."
 msgstr ""
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_order_line__date_planned
+<<<<<<< HEAD
 msgid "Delivery date expected from vendor. This date respectively defaults to vendor pricelist lead time then today's date."
+=======
+msgid ""
+"Delivery date expected from vendor. This date respectively defaults to "
+"vendor pricelist lead time then today's date."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_order__date_planned
+<<<<<<< HEAD
 msgid "Delivery date promised by vendor. This date is used to determine expected arrival of products."
+=======
+msgid ""
+"Delivery date promised by vendor. This date is used to determine expected "
+"arrival of products."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_order__date_order
 #: model:ir.model.fields,help:purchase.field_purchase_order_line__date_order
+<<<<<<< HEAD
 msgid "Depicts the date within which the Quotation should be confirmed and converted into a purchase order."
+=======
+msgid ""
+"Depicts the date within which the Quotation should be confirmed and "
+"converted into a purchase order."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: purchase
@@ -5131,6 +5793,27 @@ msgid "Description"
 msgstr "Aglam"
 
 #. module: purchase
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
+#: model_terms:ir.ui.view,arch_db:purchase.purchase_order_portal_content
+msgid "Disc.%"
+msgstr ""
+
+#. module: purchase
+#: model:ir.model.fields,field_description:purchase.field_purchase_order_line__discount
+msgid "Discount (%)"
+msgstr "Tuǧǧit(%)"
+
+#. module: purchase
+#: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
+msgid "Discount:"
+msgstr "Tuǧǧit:"
+
+#. module: purchase
+#: model:ir.model.fields,field_description:purchase.field_bill_to_po_wizard__display_name
+#: model:ir.model.fields,field_description:purchase.field_purchase_bill_line_match__display_name
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:purchase.field_purchase_bill_union__display_name
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__display_name
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__display_name
@@ -5171,7 +5854,11 @@ msgid "Display Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Isem n Ubeqqeḍ"
+>>>>>>> upstream/18.0
 =======
 msgstr "Isem n Ubeqqeḍ"
 >>>>>>> upstream/18.0
@@ -5284,6 +5971,7 @@ msgid "Display Type"
 msgstr ""
 
 #. module: purchase
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:purchase.field_account_analytic_applicability__business_domain
 msgid "Domain"
 <<<<<<< HEAD
@@ -5427,6 +6115,16 @@ msgstr "Taɣult"
 =======
 msgstr "Taɣult"
 >>>>>>> upstream/18.0
+=======
+#: model:ir.model.fields,field_description:purchase.field_purchase_order_line__distribution_analytic_account_ids
+msgid "Distribution Analytic Account"
+msgstr ""
+
+#. module: purchase
+#: model:ir.model.fields,field_description:purchase.field_account_analytic_applicability__business_domain
+msgid "Domain"
+msgstr "Taɣult"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields.selection,name:purchase.selection__purchase_report__state__done
@@ -5439,6 +6137,7 @@ msgid "Double validation amount"
 msgstr ""
 
 #. module: purchase
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
 msgid "Download"
 <<<<<<< HEAD
@@ -5582,6 +6281,18 @@ msgstr "Zdem"
 =======
 msgstr "Zdem"
 >>>>>>> upstream/18.0
+=======
+#. odoo-python
+#: code:addons/purchase/wizard/bill_to_po_wizard.py:0
+msgid "Down Payment (ref: %(ref)s)"
+msgstr ""
+
+#. module: purchase
+#. odoo-python
+#: code:addons/purchase/models/purchase_order.py:0
+msgid "Down Payments"
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields.selection,name:purchase.selection__purchase_report__state__draft
@@ -5594,6 +6305,7 @@ msgid "Draft RFQs"
 msgstr ""
 
 #. module: purchase
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__dest_address_id
 msgid "Dropship Address"
 msgstr ""
@@ -5602,6 +6314,18 @@ msgstr ""
 #: model:ir.model,name:purchase.model_mail_compose_message
 msgid "Email composition wizard"
 msgstr "Amarag n usuddes n Imayl"
+=======
+#: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
+msgid ""
+"Drag and drop the request for quotation PDF file into your list of "
+"quotations in Odoo. Enjoy the automation!"
+msgstr ""
+
+#. module: purchase
+#: model:ir.model.fields,field_description:purchase.field_purchase_order__dest_address_id
+msgid "Dropship Address"
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__date_planned
@@ -5616,7 +6340,11 @@ msgstr "Imzizdigen leqqayen"
 
 #. module: purchase
 #. odoo-python
+<<<<<<< HEAD
 #: code:addons/purchase/models/purchase.py:0
+=======
+#: code:addons/purchase/models/purchase_order_line.py:0
+>>>>>>> upstream/18.0
 msgid "Extra line with %s "
 msgstr ""
 
@@ -5627,6 +6355,19 @@ msgid "Fiscal Position"
 msgstr "Imiḍanen n unhil amtewsan"
 
 #. module: purchase
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:purchase.portal_my_home_purchase
+msgid "Follow orders you have to fulfill"
+msgstr ""
+
+#. module: purchase
+#: model_terms:ir.ui.view,arch_db:purchase.portal_my_home_purchase
+msgid "Follow your Requests for Quotation"
+msgstr ""
+
+#. module: purchase
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__message_follower_ids
 msgid "Followers"
 msgstr ""
@@ -5680,6 +6421,16 @@ msgid "Get warnings in orders for products or vendors"
 msgstr ""
 
 #. module: purchase
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,help:purchase.field_purchase_order_line__product_type
+msgid ""
+"Goods are tangible materials and merchandise you provide.\n"
+"A service is a non-material product you provide."
+msgstr ""
+
+#. module: purchase
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:purchase.field_purchase_report__weight
 msgid "Gross Weight"
 msgstr ""
@@ -5703,6 +6454,7 @@ msgid "Hide cancelled lines"
 msgstr "Ffer izirigen ifesxen"
 
 #. module: purchase
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
 msgid "History"
 <<<<<<< HEAD
@@ -5848,6 +6600,10 @@ msgstr "Amazray"
 >>>>>>> upstream/18.0
 
 #. module: purchase
+=======
+#: model:ir.model.fields,field_description:purchase.field_bill_to_po_wizard__id
+#: model:ir.model.fields,field_description:purchase.field_purchase_bill_line_match__id
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:purchase.field_purchase_bill_union__id
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__id
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__id
@@ -5878,12 +6634,24 @@ msgstr ""
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
+<<<<<<< HEAD
 msgid "If enabled, activates 3-way matching on vendor bills : the items must be received in order to pay the invoice."
+=======
+msgid ""
+"If enabled, activates 3-way matching on vendor bills : the items must be "
+"received in order to pay the invoice."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
+<<<<<<< HEAD
 msgid "If installed, the product variants will be added to purchase orders through a grid entry."
+=======
+msgid ""
+"If installed, the product variants will be added to purchase orders through "
+"a grid entry."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: purchase
@@ -5899,11 +6667,31 @@ msgstr ""
 
 #. module: purchase
 #. odoo-python
+<<<<<<< HEAD
 #: code:addons/purchase/models/purchase.py:0
+=======
+#: code:addons/purchase/models/purchase_order.py:0
+>>>>>>> upstream/18.0
 msgid "In order to delete a purchase order, you must cancel it first."
 msgstr "Send aţekeseḍ taladna n tiɣin, isefk aţ-tesfesxeḍ."
 
 #. module: purchase
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/purchase/models/purchase_order.py:0
+msgid ""
+"In selected purchase order to merge these details must be same\n"
+"Vendor, currency, destination, dropship address and agreement"
+msgstr ""
+
+#. module: purchase
+#: model_terms:ir.ui.view,arch_db:purchase.product_view_search_catalog
+msgid "In the Order"
+msgstr ""
+
+#. module: purchase
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__incoterm_id
 msgid "Incoterm"
 msgstr "Incoterm"
@@ -5916,8 +6704,17 @@ msgstr ""
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_order__incoterm_id
+<<<<<<< HEAD
 msgid "International Commercial Terms are a series of predefined commercial terms used in international transactions."
 msgstr "Les Incoterms sont une série de termes commerciaux prédéfinie utilisés dans les transactions internationales."
+=======
+msgid ""
+"International Commercial Terms are a series of predefined commercial terms "
+"used in international transactions."
+msgstr ""
+"Les Incoterms sont une série de termes commerciaux prédéfinie utilisés dans "
+"les transactions internationales."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
@@ -5962,6 +6759,7 @@ msgid "Invoicing"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Afeter"
@@ -6067,6 +6865,15 @@ msgstr "Afeter"
 >>>>>>> upstream/18.0
 =======
 msgstr "Afeter"
+>>>>>>> upstream/18.0
+=======
+msgstr "Afeter"
+
+#. module: purchase
+#: model:ir.model.fields,field_description:purchase.field_account_move_line__is_downpayment
+#: model:ir.model.fields,field_description:purchase.field_purchase_order_line__is_downpayment
+msgid "Is Downpayment"
+msgstr ""
 >>>>>>> upstream/18.0
 
 #. module: purchase
@@ -6075,6 +6882,7 @@ msgid "Is Follower"
 msgstr ""
 
 #. module: purchase
+<<<<<<< HEAD
 #: model:ir.model,name:purchase.model_account_move
 msgid "Journal Entry"
 <<<<<<< HEAD
@@ -6218,10 +7026,27 @@ msgstr "Taceqquft n tsiḍent"
 =======
 msgstr "Taceqquft n tsiḍent"
 >>>>>>> upstream/18.0
+=======
+#: model:ir.model.fields,field_description:purchase.field_product_product__is_in_purchase_order
+msgid "Is In Purchase Order"
+msgstr ""
+
+#. module: purchase
+#: model:ir.model.fields,field_description:purchase.field_account_bank_statement_line__is_purchase_matched
+#: model:ir.model.fields,field_description:purchase.field_account_move__is_purchase_matched
+msgid "Is Purchase Matched"
+msgstr ""
+
+#. module: purchase
+#: model:ir.model,name:purchase.model_account_move
+msgid "Journal Entry"
+msgstr "Taceqquft n tsiḍent"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model,name:purchase.model_account_move_line
 msgid "Journal Item"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6365,12 +7190,22 @@ msgstr "Amagrad n uɣmis"
 >>>>>>> upstream/18.0
 
 #. module: purchase
+=======
+msgstr "Amagrad n uɣmis"
+
+#. module: purchase
+#: model:ir.model.fields,field_description:purchase.field_bill_to_po_wizard__write_uid
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__write_uid
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__write_uid
 msgid "Last Updated by"
 msgstr "Aleqqem aneggaru sɣuṛ"
 
 #. module: purchase
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:purchase.field_bill_to_po_wizard__write_date
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__write_date
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__write_date
 msgid "Last Updated on"
@@ -6415,7 +7250,11 @@ msgid "Late"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "igellel"
+>>>>>>> upstream/18.0
 =======
 msgstr "igellel"
 >>>>>>> upstream/18.0
@@ -6548,7 +7387,13 @@ msgstr ""
 #. module: purchase
 #. odoo-javascript
 #: code:addons/purchase/static/src/js/tours/purchase.js:0
+<<<<<<< HEAD
 msgid "Let's try the Purchase app to manage the flow from purchase to reception and invoice control."
+=======
+msgid ""
+"Let's try the Purchase app to manage the flow from purchase to reception and "
+"invoice control."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: purchase
@@ -6562,6 +7407,24 @@ msgid "Levels of Approvals *"
 msgstr ""
 
 #. module: purchase
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:purchase.field_purchase_bill_line_match__line_amount_untaxed
+msgid "Line Amount Untaxed"
+msgstr ""
+
+#. module: purchase
+#: model:ir.model.fields,field_description:purchase.field_purchase_bill_line_match__line_qty
+msgid "Line Qty"
+msgstr ""
+
+#. module: purchase
+#: model:ir.model.fields,field_description:purchase.field_purchase_bill_line_match__line_uom_id
+msgid "Line Uom"
+msgstr ""
+
+#. module: purchase
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid "Lock"
 msgstr ""
@@ -6580,12 +7443,21 @@ msgstr ""
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
+<<<<<<< HEAD
 msgid "Make sure you only pay bills for which you received the goods you ordered"
+=======
+msgid ""
+"Make sure you only pay bills for which you received the goods you ordered"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
+<<<<<<< HEAD
 msgid "Manage your purchase agreements (call for tenders, blanket orders)"
+=======
+msgid "Manage blanket orders and purchase templates"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: purchase
@@ -6626,7 +7498,11 @@ msgid "Manual"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "awfus"
+>>>>>>> upstream/18.0
 =======
 msgstr "awfus"
 >>>>>>> upstream/18.0
@@ -6746,12 +7622,36 @@ msgstr ""
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_res_company__po_lead
 #: model:ir.model.fields,help:purchase.field_res_config_settings__po_lead
+<<<<<<< HEAD
 msgid "Margin of error for vendor lead times. When the system generates Purchase Orders for procuring products, they will be scheduled that many days earlier to cope with unexpected vendor delays."
+=======
+msgid ""
+"Margin of error for vendor lead times. When the system generates Purchase "
+"Orders for procuring products, they will be scheduled that many days earlier "
+"to cope with unexpected vendor delays."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_res_config_settings__use_po_lead
+<<<<<<< HEAD
 msgid "Margin of error for vendor lead times. When the system generates Purchase Orders for reordering products,they will be scheduled that many days earlier to cope with unexpected vendor delays."
+=======
+msgid ""
+"Margin of error for vendor lead times. When the system generates Purchase "
+"Orders for reordering products,they will be scheduled that many days earlier "
+"to cope with unexpected vendor delays."
+msgstr ""
+
+#. module: purchase
+#: model_terms:ir.ui.view,arch_db:purchase.purchase_bill_line_match_tree
+msgid "Match"
+msgstr "Semsasa"
+
+#. module: purchase
+#: model:ir.actions.server,name:purchase.action_merger
+msgid "Merge"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: purchase
@@ -6809,7 +7709,11 @@ msgid "Messages"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Iznan"
+>>>>>>> upstream/18.0
 =======
 msgstr "Iznan"
 >>>>>>> upstream/18.0
@@ -6987,7 +7891,11 @@ msgid "My Orders"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tiludna-yiw"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tiludna-yiw"
 >>>>>>> upstream/18.0
@@ -7150,7 +8058,11 @@ msgid "Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Isem"
+>>>>>>> upstream/18.0
 =======
 msgstr "Isem"
 >>>>>>> upstream/18.0
@@ -7357,6 +8269,7 @@ msgid "Normal"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Amagnu"
@@ -7466,10 +8379,17 @@ msgstr "Amagnu"
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_view_search
+=======
+msgstr "Amagnu"
+
+#. module: purchase
+#: model_terms:ir.ui.view,arch_db:purchase.view_purchase_order_filter
+>>>>>>> upstream/18.0
 msgid "Not Acknowledged"
 msgstr ""
 
 #. module: purchase
+<<<<<<< HEAD
 #: model:ir.model.fields.selection,name:purchase.selection__purchase_order_line__display_type__line_note
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid "Note"
@@ -7614,6 +8534,17 @@ msgstr "Awennit"
 =======
 msgstr "Awennit"
 >>>>>>> upstream/18.0
+=======
+#: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
+msgid "Not using Odoo?"
+msgstr ""
+
+#. module: purchase
+#: model:ir.model.fields.selection,name:purchase.selection__purchase_order_line__display_type__line_note
+#: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
+msgid "Note"
+msgstr "Awennit"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
@@ -7631,7 +8562,10 @@ msgid "Number of Actions"
 msgstr ""
 
 #. module: purchase
+<<<<<<< HEAD
 #: model:ir.model.fields,help:purchase.field_purchase_order__reminder_date_before_receipt
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:purchase.field_res_partner__reminder_date_before_receipt
 #: model:ir.model.fields,help:purchase.field_res_users__reminder_date_before_receipt
 msgid "Number of days to send reminder email before the promised receipt date"
@@ -7644,7 +8578,11 @@ msgstr ""
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_order__message_needaction_counter
+<<<<<<< HEAD
 msgid "Number of messages which requires an action"
+=======
+msgid "Number of messages requiring action"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: purchase
@@ -7653,6 +8591,14 @@ msgid "Number of messages with delivery error"
 msgstr ""
 
 #. module: purchase
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
+msgid "Odoo"
+msgstr "Odoo"
+
+#. module: purchase
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:purchase.selection__product_template__purchase_method__purchase
 msgid "On ordered quantities"
 msgstr ""
@@ -7673,12 +8619,30 @@ msgstr ""
 #. module: purchase
 #. odoo-javascript
 #: code:addons/purchase/static/src/js/tours/purchase.js:0
+<<<<<<< HEAD
 msgid "Once you get the price from the vendor, you can complete the purchase order with the right price."
+=======
+msgid ""
+"Once you get the price from the vendor, you can complete the purchase order "
+"with the right price."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: purchase
 #: model_terms:ir.actions.act_window,help:purchase.purchase_form_action
+<<<<<<< HEAD
 msgid "Once you ordered your products to your supplier, confirm your request for quotation and it will turn into a purchase order."
+=======
+msgid ""
+"Once you ordered your products to your supplier, confirm your request for "
+"quotation and it will turn into a purchase order."
+msgstr ""
+
+#. module: purchase
+#. odoo-python
+#: code:addons/purchase/models/product.py:0
+msgid "Operation not supported"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: purchase
@@ -7721,7 +8685,11 @@ msgid "Order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Taladna"
+>>>>>>> upstream/18.0
 =======
 msgstr "Taladna"
 >>>>>>> upstream/18.0
@@ -7831,6 +8799,10 @@ msgstr "Taladna"
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__date_order
 #: model:ir.model.fields,field_description:purchase.field_purchase_report__date_order
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:purchase.purchase_order_line_search
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_view_search
 #: model_terms:ir.ui.view,arch_db:purchase.view_purchase_order_filter
 #: model_terms:ir.ui.view,arch_db:purchase.view_purchase_order_search
@@ -7838,6 +8810,14 @@ msgid "Order Date"
 msgstr "Azemz n tladna"
 
 #. module: purchase
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:purchase.purchase_order_line_search
+msgid "Order Date: Last 365 Days"
+msgstr ""
+
+#. module: purchase
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__date_order
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_rfqs
 msgid "Order Deadline"
@@ -7872,11 +8852,21 @@ msgid "Orders"
 msgstr "Tiludna"
 
 #. module: purchase
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/purchase/models/purchase_order.py:0
+msgid "Order due %(date)s"
+msgstr ""
+
+#. module: purchase
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid "Other Information"
 msgstr ""
 
 #. module: purchase
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__product_packaging_id
 msgid "Packaging"
 <<<<<<< HEAD
@@ -8020,6 +9010,16 @@ msgstr "Tanagalt"
 =======
 msgstr "Tanagalt"
 >>>>>>> upstream/18.0
+=======
+#: model_terms:ir.ui.view,arch_db:purchase.portal_my_home_purchase
+msgid "Our Orders"
+msgstr ""
+
+#. module: purchase
+#: model:ir.model.fields,field_description:purchase.field_purchase_order_line__product_packaging_id
+msgid "Packaging"
+msgstr "Tanagalt"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__product_packaging_qty
@@ -8027,6 +9027,11 @@ msgid "Packaging Quantity"
 msgstr ""
 
 #. module: purchase
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:purchase.field_bill_to_po_wizard__partner_id
+#: model:ir.model.fields,field_description:purchase.field_purchase_bill_line_match__partner_id
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__partner_id
 msgid "Partner"
 msgstr "Amendid"
@@ -8047,6 +9052,28 @@ msgid "Payment terms"
 msgstr ""
 
 #. module: purchase
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/purchase/models/purchase_order.py:0
+msgid ""
+"Please select at least two purchase orders with state RFQ and RFQ sent to "
+"merge."
+msgstr ""
+
+#. module: purchase
+#. odoo-python
+#: code:addons/purchase/models/purchase_bill_line_match.py:0
+msgid "Please select bill lines with the same vendor."
+msgstr ""
+
+#. module: purchase
+#: model:ir.model.fields,field_description:purchase.field_purchase_bill_line_match__pol_id
+msgid "Pol"
+msgstr ""
+
+#. module: purchase
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__access_url
 msgid "Portal Access URL"
 msgstr ""
@@ -8057,11 +9084,26 @@ msgid "Preview the reminder email by sending it to yourself."
 msgstr ""
 
 #. module: purchase
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:purchase.purchase_bill_line_match_tree
+msgid "Price"
+msgstr "Ssuma"
+
+#. module: purchase
+#. odoo-javascript
+#: code:addons/purchase/static/src/product_catalog/purchase_order_line/purchase_order_line.xml:0
+msgid "Price:"
+msgstr "ssuma:"
+
+#. module: purchase
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_portal_content
 msgid "Pricing"
 msgstr ""
 
 #. module: purchase
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
 msgid "Print"
 <<<<<<< HEAD
@@ -8207,6 +9249,8 @@ msgstr "Siggez"
 >>>>>>> upstream/18.0
 
 #. module: purchase
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid "Print RFQ"
 msgstr ""
@@ -8214,6 +9258,7 @@ msgstr ""
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__priority
 msgid "Priority"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8358,6 +9403,13 @@ msgstr "Tazwart"
 
 #. module: purchase
 #: model:ir.model,name:purchase.model_product_template
+=======
+msgstr "Tazwart"
+
+#. module: purchase
+#: model:ir.model,name:purchase.model_product_template
+#: model:ir.model.fields,field_description:purchase.field_purchase_bill_line_match__product_id
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__product_id
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__product_id
 #: model:ir.model.fields,field_description:purchase.field_purchase_report__product_id
@@ -8368,6 +9420,7 @@ msgid "Product"
 msgstr "Afaris"
 
 #. module: purchase
+<<<<<<< HEAD
 #: model:ir.ui.menu,name:purchase.menu_product_attribute_action
 msgid "Product Attributes"
 <<<<<<< HEAD
@@ -8513,6 +9566,8 @@ msgstr "Imyerra n ufaris"
 >>>>>>> upstream/18.0
 
 #. module: purchase
+=======
+>>>>>>> upstream/18.0
 #: model:ir.ui.menu,name:purchase.menu_product_category_config_purchase
 msgid "Product Categories"
 msgstr "Tiggayin n ifarisen"
@@ -8524,6 +9579,14 @@ msgid "Product Category"
 msgstr "Taggayt n ifarisen"
 
 #. module: purchase
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:purchase.purchase_bill_line_match_tree
+msgid "Product Description"
+msgstr ""
+
+#. module: purchase
+>>>>>>> upstream/18.0
 #: model:ir.model,name:purchase.model_product_packaging
 msgid "Product Packaging"
 msgstr ""
@@ -8571,6 +9634,7 @@ msgid "Product Type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Tawsit n ufaris"
@@ -8676,6 +9740,19 @@ msgstr "Tawsit n ufaris"
 >>>>>>> upstream/18.0
 =======
 msgstr "Tawsit n ufaris"
+>>>>>>> upstream/18.0
+=======
+msgstr "Tawsit n ufaris"
+
+#. module: purchase
+#: model:ir.model.fields,field_description:purchase.field_purchase_bill_line_match__product_uom_price
+msgid "Product Uom Price"
+msgstr ""
+
+#. module: purchase
+#: model:ir.model.fields,field_description:purchase.field_purchase_bill_line_match__product_uom_qty
+msgid "Product Uom Qty"
+msgstr ""
 >>>>>>> upstream/18.0
 
 #. module: purchase
@@ -8716,7 +9793,11 @@ msgid "Product Variant"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tameskalt n ufaris"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tameskalt n ufaris"
 >>>>>>> upstream/18.0
@@ -8830,6 +9911,14 @@ msgid "Product Variants"
 msgstr "Timeskalin n ufaris"
 
 #. module: purchase
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:purchase.field_purchase_order_line__product_no_variant_attribute_value_ids
+msgid "Product attribute values that do not create variants"
+msgstr ""
+
+#. module: purchase
+>>>>>>> upstream/18.0
 #: model:ir.actions.act_window,name:purchase.product_normal_action_puchased
 #: model:ir.ui.menu,name:purchase.menu_procurement_partner_contact_form
 #: model:ir.ui.menu,name:purchase.menu_product_in_config_purchase
@@ -8860,6 +9949,14 @@ msgid "Purchase Agreements"
 msgstr ""
 
 #. module: purchase
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:purchase.field_purchase_bill_line_match__purchase_amount_untaxed
+msgid "Purchase Amount Untaxed"
+msgstr ""
+
+#. module: purchase
+>>>>>>> upstream/18.0
 #: model:ir.actions.act_window,name:purchase.action_purchase_order_report_all
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_report_view_tree
 #: model_terms:ir.ui.view,arch_db:purchase.view_purchase_order_graph
@@ -8868,6 +9965,7 @@ msgid "Purchase Analysis"
 msgstr "Tasleṭ n tiɣin"
 
 #. module: purchase
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:purchase.view_product_supplier_inherit
 msgid "Purchase Description"
 <<<<<<< HEAD
@@ -9011,6 +10109,16 @@ msgstr "Aglam n tiɣin"
 =======
 msgstr "Aglam n tiɣin"
 >>>>>>> upstream/18.0
+=======
+#: model_terms:ir.ui.view,arch_db:purchase.purchase_bill_line_match_tree
+msgid "Purchase Bill Lines"
+msgstr ""
+
+#. module: purchase
+#: model_terms:ir.ui.view,arch_db:purchase.view_product_supplier_inherit
+msgid "Purchase Description"
+msgstr "Aglam n tiɣin"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_res_config_settings__module_purchase_product_matrix
@@ -9025,7 +10133,11 @@ msgstr ""
 #. module: purchase
 #. odoo-python
 #: code:addons/purchase/models/product.py:0
+<<<<<<< HEAD
 #: code:addons/purchase/models/purchase.py:0
+=======
+#: code:addons/purchase/models/purchase_order_line.py:0
+>>>>>>> upstream/18.0
 msgid "Purchase History for %s"
 msgstr ""
 
@@ -9036,18 +10148,41 @@ msgid "Purchase Lead Time"
 msgstr "Amenḍaṛ n tiɣin"
 
 #. module: purchase
+<<<<<<< HEAD
 #. odoo-python
 #: code:addons/purchase/controllers/portal.py:0
 #: code:addons/purchase/models/purchase.py:0
+=======
+#: model:ir.model,name:purchase.model_purchase_bill_line_match
+msgid "Purchase Line and Vendor Bill line matching view"
+msgstr ""
+
+#. module: purchase
+#. odoo-python
+#: code:addons/purchase/models/account_invoice.py:0
+msgid "Purchase Matching"
+msgstr ""
+
+#. module: purchase
+#. odoo-python
+#: code:addons/purchase/controllers/portal.py:0
+#: code:addons/purchase/models/purchase_order.py:0
+>>>>>>> upstream/18.0
 #: model:ir.actions.report,name:purchase.action_report_purchase_order
 #: model:ir.model,name:purchase.model_purchase_order
 #: model:ir.model.fields,field_description:purchase.field_account_bank_statement_line__purchase_id
 #: model:ir.model.fields,field_description:purchase.field_account_move__purchase_id
 #: model:ir.model.fields,field_description:purchase.field_account_move_line__purchase_order_id
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:purchase.field_account_payment__purchase_id
 #: model:ir.model.fields,field_description:purchase.field_purchase_bill_union__purchase_order_id
 #: model:ir.model.fields,field_description:purchase.field_res_partner__purchase_warn
 #: model:ir.model.fields,field_description:purchase.field_res_users__purchase_warn
+=======
+#: model:ir.model.fields,field_description:purchase.field_bill_to_po_wizard__purchase_order_id
+#: model:ir.model.fields,field_description:purchase.field_purchase_bill_line_match__purchase_order_id
+#: model:ir.model.fields,field_description:purchase.field_purchase_bill_union__purchase_order_id
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:purchase.selection__account_analytic_applicability__business_domain__purchase_order
 #: model:ir.model.fields.selection,name:purchase.selection__purchase_order__state__purchase
 #: model:ir.model.fields.selection,name:purchase.selection__purchase_report__state__purchase
@@ -9076,7 +10211,10 @@ msgstr ""
 #: model:ir.model.fields,field_description:purchase.field_account_analytic_account__purchase_order_count
 #: model:ir.model.fields,field_description:purchase.field_account_bank_statement_line__purchase_order_count
 #: model:ir.model.fields,field_description:purchase.field_account_move__purchase_order_count
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:purchase.field_account_payment__purchase_order_count
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:purchase.field_res_partner__purchase_order_count
 #: model:ir.model.fields,field_description:purchase.field_res_users__purchase_order_count
 msgid "Purchase Order Count"
@@ -9116,7 +10254,25 @@ msgstr ""
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_res_company__po_lock
 #: model:ir.model.fields,help:purchase.field_res_config_settings__po_lock
+<<<<<<< HEAD
 msgid "Purchase Order Modification used when you want to purchase order editable after confirm"
+=======
+msgid ""
+"Purchase Order Modification used when you want to purchase order editable "
+"after confirm"
+msgstr ""
+
+#. module: purchase
+#: model:ir.model.fields,field_description:purchase.field_account_bank_statement_line__purchase_order_name
+#: model:ir.model.fields,field_description:purchase.field_account_move__purchase_order_name
+msgid "Purchase Order Name"
+msgstr ""
+
+#. module: purchase
+#: model:ir.model.fields,field_description:purchase.field_res_partner__purchase_warn
+#: model:ir.model.fields,field_description:purchase.field_res_users__purchase_warn
+msgid "Purchase Order Warning"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: purchase
@@ -9126,7 +10282,10 @@ msgstr ""
 #: model:ir.ui.menu,name:purchase.menu_purchase_form_action
 #: model_terms:ir.ui.view,arch_db:purchase.account_analytic_account_view_form_purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_home_menu_purchase
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_home_purchase
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_orders
 #: model_terms:ir.ui.view,arch_db:purchase.view_purchase_bill_union_filter
 #: model_terms:ir.ui.view,arch_db:purchase.view_purchase_order_filter
@@ -9140,6 +10299,7 @@ msgid "Purchase Report"
 msgstr ""
 
 #. module: purchase
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:purchase.field_purchase_report__user_id
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_view_search
 #: model_terms:ir.ui.view,arch_db:purchase.view_purchase_order_filter
@@ -9148,6 +10308,8 @@ msgid "Purchase Representative"
 msgstr ""
 
 #. module: purchase
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:purchase.field_res_config_settings__group_warning_purchase
 msgid "Purchase Warnings"
 msgstr ""
@@ -9195,6 +10357,10 @@ msgstr ""
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_product_product__purchased_product_qty
 #: model:ir.model.fields,field_description:purchase.field_product_template__purchased_product_qty
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:purchase.purchase_bill_line_match_tree
+>>>>>>> upstream/18.0
 msgid "Purchased"
 msgstr ""
 
@@ -9223,15 +10389,37 @@ msgstr ""
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_order__dest_address_id
+<<<<<<< HEAD
 msgid "Put an address if you want to deliver directly from the vendor to the customer. Otherwise, keep empty to deliver to your own company."
 msgstr ""
 
 #. module: purchase
+=======
+msgid ""
+"Put an address if you want to deliver directly from the vendor to the "
+"customer. Otherwise, keep empty to deliver to your own company."
+msgstr ""
+
+#. module: purchase
+#: model_terms:ir.ui.view,arch_db:purchase.purchase_bill_line_match_tree
+msgid "Qty"
+msgstr "Tanecta"
+
+#. module: purchase
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:purchase.field_purchase_report__qty_billed
 msgid "Qty Billed"
 msgstr ""
 
 #. module: purchase
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:purchase.field_purchase_bill_line_match__qty_invoiced
+msgid "Qty Invoiced"
+msgstr ""
+
+#. module: purchase
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:purchase.field_purchase_report__qty_ordered
 msgid "Qty Ordered"
 msgstr ""
@@ -9253,6 +10441,10 @@ msgstr ""
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__product_qty
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:purchase.purchase_history_tree
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_portal_content
 msgid "Quantity"
 msgstr "Tanecta"
@@ -9295,7 +10487,11 @@ msgid "Quantity:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tasmekta:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tasmekta:"
 >>>>>>> upstream/18.0
@@ -9430,6 +10626,21 @@ msgid "RFQ Sent"
 msgstr ""
 
 #. module: purchase
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/purchase/models/purchase_order.py:0
+msgid "RFQ merged with %(oldest_rfq_name)s and %(cancelled_rfq)s"
+msgstr ""
+
+#. module: purchase
+#. odoo-python
+#: code:addons/purchase/models/purchase_order.py:0
+msgid "RFQ merged with %s"
+msgstr ""
+
+#. module: purchase
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:purchase.view_purchase_order_filter
 msgid "RFQs"
 msgstr ""
@@ -9451,6 +10662,7 @@ msgid "Ratings"
 msgstr ""
 
 #. module: purchase
+<<<<<<< HEAD
 #: model:ir.model.fields,help:purchase.field_purchase_order__currency_rate
 msgid "Ratio between the purchase order currency and the company currency"
 msgstr ""
@@ -9458,6 +10670,15 @@ msgstr ""
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid "Re-Send by Email"
+=======
+#: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
+msgid "Re-Send by Email"
+msgstr ""
+
+#. module: purchase
+#: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
+msgid "Read the documentation"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: purchase
@@ -9509,11 +10730,23 @@ msgid "Reception Confirmed"
 msgstr ""
 
 #. module: purchase
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:purchase.field_purchase_order__mail_reception_declined
+msgid "Reception Declined"
+msgstr ""
+
+#. module: purchase
+>>>>>>> upstream/18.0
 #: model_terms:ir.actions.act_window,help:purchase.act_res_partner_2_supplier_invoices
 msgid "Record a new vendor bill"
 msgstr ""
 
 #. module: purchase
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:purchase.field_purchase_bill_line_match__reference
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:purchase.field_purchase_bill_union__name
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_kpis_tree
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_tree
@@ -9534,12 +10767,25 @@ msgstr "Aferdis n usɣel n temsisɣelt"
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_order__origin
+<<<<<<< HEAD
 msgid "Reference of the document that generated this purchase order request (e.g. a sales order)"
+=======
+msgid ""
+"Reference of the document that generated this purchase order request (e.g. a "
+"sales order)"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_order__partner_ref
+<<<<<<< HEAD
 msgid "Reference of the sales order or bid sent by the vendor. It's used to do the matching when you receive the products as this reference is usually written on the delivery order sent by your vendor."
+=======
+msgid ""
+"Reference of the sales order or bid sent by the vendor. It's used to do the "
+"matching when you receive the products as this reference is usually written "
+"on the delivery order sent by your vendor."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: purchase
@@ -9548,6 +10794,7 @@ msgid "Reminder Confirmed"
 msgstr ""
 
 #. module: purchase
+<<<<<<< HEAD
 #: model:ir.ui.menu,name:purchase.purchase_report_main
 msgid "Reporting"
 <<<<<<< HEAD
@@ -9695,6 +10942,20 @@ msgstr "Assaɣen"
 #. module: purchase
 #. odoo-python
 #: code:addons/purchase/models/purchase.py:0
+=======
+#: model:ir.model,name:purchase.model_ir_actions_report
+msgid "Report Action"
+msgstr ""
+
+#. module: purchase
+#: model:ir.ui.menu,name:purchase.purchase_report_main
+msgid "Reporting"
+msgstr "Assaɣen"
+
+#. module: purchase
+#. odoo-python
+#: code:addons/purchase/models/purchase_order.py:0
+>>>>>>> upstream/18.0
 #: model:ir.actions.report,name:purchase.report_purchase_quotation
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_portal_content
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchasequotation_document
@@ -9729,8 +10990,15 @@ msgstr "Asuter n ssuma"
 #. module: purchase
 #: model_terms:ir.actions.act_window,help:purchase.purchase_rfq
 msgid ""
+<<<<<<< HEAD
 "Requests for quotation are documents that will be sent to your suppliers to request prices for different products you consider buying.\n"
 "                Once an agreement has been found with the supplier, they will be confirmed and turned into purchase orders."
+=======
+"Requests for quotation are documents that will be sent to your suppliers to "
+"request prices for different products you consider buying.\n"
+"                Once an agreement has been found with the supplier, they "
+"will be confirmed and turned into purchase orders."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: purchase
@@ -9787,6 +11055,15 @@ msgid "Security Token"
 msgstr ""
 
 #. module: purchase
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/purchase/models/purchase_bill_line_match.py:0
+msgid "Select Vendor Bill lines to add to a Purchase Order"
+msgstr ""
+
+#. module: purchase
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/purchase/static/src/js/tours/purchase.js:0
 msgid "Select a product, or create a new one on the fly."
@@ -9802,7 +11079,14 @@ msgstr ""
 #: model:ir.model.fields,help:purchase.field_product_template__purchase_line_warn
 #: model:ir.model.fields,help:purchase.field_res_partner__purchase_warn
 #: model:ir.model.fields,help:purchase.field_res_users__purchase_warn
+<<<<<<< HEAD
 msgid "Selecting the \"Warning\" option will notify user with the message, Selecting \"Blocking Message\" will throw an exception with the message and block the flow. The Message has to be written in the next field."
+=======
+msgid ""
+"Selecting the \"Warning\" option will notify user with the message, "
+"Selecting \"Blocking Message\" will throw an exception with the message and "
+"block the flow. The Message has to be written in the next field."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: purchase
@@ -9863,7 +11147,11 @@ msgid "Send by Email"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Azen s Imayl"
+>>>>>>> upstream/18.0
 =======
 msgstr "Azen s Imayl"
 >>>>>>> upstream/18.0
@@ -9988,7 +11276,12 @@ msgstr ""
 
 #. module: purchase
 #: model:mail.template,description:purchase.email_template_edi_purchase_reminder
+<<<<<<< HEAD
 msgid "Sent to vendors before expected arrival, based on the purchase order setting"
+=======
+msgid ""
+"Sent to vendors before expected arrival, based on the purchase order setting"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: purchase
@@ -10029,7 +11322,11 @@ msgid "Sequence"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Agzum"
+>>>>>>> upstream/18.0
 =======
 msgstr "Agzum"
 >>>>>>> upstream/18.0
@@ -10185,7 +11482,11 @@ msgid "Share"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bḍu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Bḍu"
 >>>>>>> upstream/18.0
@@ -10336,7 +11637,11 @@ msgid "Source"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aɣbalu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aɣbalu"
 >>>>>>> upstream/18.0
@@ -10455,6 +11760,19 @@ msgid "Starred"
 msgstr ""
 
 #. module: purchase
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
+msgid "Start on Odoo"
+msgstr ""
+
+#. module: purchase
+#: model:ir.model.fields,field_description:purchase.field_purchase_bill_line_match__state
+msgid "State"
+msgstr "Aɣir(Wilaya)"
+
+#. module: purchase
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__state
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__state
 #: model:ir.model.fields,field_description:purchase.field_purchase_report__state
@@ -10514,6 +11832,10 @@ msgid "Supplier Pricelist"
 msgstr "Tabdart n ssuma n useǧǧaw"
 
 #. module: purchase
+<<<<<<< HEAD
+=======
+#: model:ir.model,name:purchase.model_account_tax
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__price_tax
 msgid "Tax"
 msgstr "Taẓeṭṭaṭ"
@@ -10536,21 +11858,27 @@ msgstr ""
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
+<<<<<<< HEAD
 msgid "Tax excl."
 msgstr ""
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
+=======
+>>>>>>> upstream/18.0
 msgid "Tax excl.:"
 msgstr ""
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
+<<<<<<< HEAD
 msgid "Tax incl."
 msgstr ""
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
+=======
+>>>>>>> upstream/18.0
 msgid "Tax incl.:"
 msgstr ""
 
@@ -10567,7 +11895,13 @@ msgstr ""
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_order__tax_country_id
+<<<<<<< HEAD
 msgid "Technical field to filter the available taxes depending on the fiscal country and fiscal position."
+=======
+msgid ""
+"Technical field to filter the available taxes depending on the fiscal "
+"country and fiscal position."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: purchase
@@ -10589,19 +11923,60 @@ msgstr ""
 
 #. module: purchase
 #. odoo-python
+<<<<<<< HEAD
 #: code:addons/purchase/models/purchase.py:0
+=======
+#: code:addons/purchase/models/purchase_order.py:0
+msgid "The RFQ has been acknowledged by %s."
+msgstr ""
+
+#. module: purchase
+#. odoo-python
+#: code:addons/purchase/models/purchase_order.py:0
+msgid "The RFQ has been declined by %s."
+msgstr ""
+
+#. module: purchase
+#. odoo-python
+#: code:addons/purchase/models/purchase_order.py:0
+>>>>>>> upstream/18.0
 msgid "The order receipt has been acknowledged by %s."
+msgstr ""
+
+#. module: purchase
+<<<<<<< HEAD
+#: model_terms:ir.actions.act_window,help:purchase.act_res_partner_2_purchase_order
+msgid ""
+"The request for quotation is the first step of the purchases flow. Once\n"
+"                    converted into a purchase order, you will be able to control the receipt\n"
+=======
+#. odoo-python
+#: code:addons/purchase/models/purchase_order.py:0
+msgid "The order receipt has been declined by %s."
 msgstr ""
 
 #. module: purchase
 #: model_terms:ir.actions.act_window,help:purchase.act_res_partner_2_purchase_order
 msgid ""
 "The request for quotation is the first step of the purchases flow. Once\n"
-"                    converted into a purchase order, you will be able to control the receipt\n"
+"                    converted into a purchase order, you will be able to "
+"control the receipt\n"
+>>>>>>> upstream/18.0
 "                    of the products and the vendor bill."
 msgstr ""
 
 #. module: purchase
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/purchase/models/purchase_order.py:0
+msgid ""
+"The vendor asked to decline this confirmed RfQ, if you agree on that, cancel "
+"this PO"
+msgstr ""
+
+#. module: purchase
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_orders
 msgid "There are currently no purchase orders for your account."
 msgstr ""
@@ -10613,27 +11988,60 @@ msgstr ""
 
 #. module: purchase
 #. odoo-python
+<<<<<<< HEAD
 #: code:addons/purchase/models/purchase.py:0
 msgid "There is no invoiceable line. If a product has a control policy based on received quantity, please make sure that a quantity has been received."
+=======
+#: code:addons/purchase/wizard/bill_to_po_wizard.py:0
+msgid ""
+"There are no products to add to the Purchase Order. Are these Down Payments?"
+msgstr ""
+
+#. module: purchase
+#. odoo-python
+#: code:addons/purchase/models/purchase_order.py:0
+msgid ""
+"There is no invoiceable line. If a product has a control policy based on "
+"received quantity, please make sure that a quantity has been received."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: purchase
 #: model_terms:ir.actions.act_window,help:purchase.action_purchase_order_report_all
 msgid ""
+<<<<<<< HEAD
 "This analysis allows you to easily check and analyse your company purchase history and performance.\n"
 "                You can track your negotiation performance, the delivery performance of your vendors, etc"
+=======
+"This analysis allows you to easily check and analyse your company purchase "
+"history and performance.\n"
+"                You can track your negotiation performance, the delivery "
+"performance of your vendors, etc"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_res_partner__property_purchase_currency_id
 #: model:ir.model.fields,help:purchase.field_res_users__property_purchase_currency_id
+<<<<<<< HEAD
 msgid "This currency will be used, instead of the default one, for purchases from the current partner"
+=======
+msgid ""
+"This currency will be used, instead of the default one, for purchases from "
+"the current partner"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_res_config_settings__default_purchase_method
 #: model_terms:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
+<<<<<<< HEAD
 msgid "This default value is applied to any new product created. This can be changed in the product detail form."
+=======
+msgid ""
+"This default value is applied to any new product created. This can be "
+"changed in the product detail form."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: purchase
@@ -10643,20 +12051,35 @@ msgstr ""
 
 #. module: purchase
 #. odoo-python
+<<<<<<< HEAD
 #: code:addons/purchase/models/purchase.py:0
 msgid "This product is packaged by %(pack_size).2f %(pack_name)s. You should purchase %(quantity).2f %(unit)s."
+=======
+#: code:addons/purchase/models/purchase_order_line.py:0
+msgid ""
+"This product is packaged by %(pack_size).2f %(pack_name)s. You should "
+"purchase %(quantity).2f %(unit)s."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: purchase
 #. odoo-python
 #: code:addons/purchase/models/account_invoice.py:0
+<<<<<<< HEAD
 msgid "This vendor bill has been created from: %s"
+=======
+msgid "This vendor bill has been created from: "
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: purchase
 #. odoo-python
 #: code:addons/purchase/models/account_invoice.py:0
+<<<<<<< HEAD
 msgid "This vendor bill has been modified from: %s"
+=======
+msgid "This vendor bill has been modified from: "
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: purchase
@@ -10712,11 +12135,37 @@ msgid "Total"
 msgstr "Asemday"
 
 #. module: purchase
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:purchase.purchase_bill_line_match_tree
+msgid "Total Billed"
+msgstr ""
+
+#. module: purchase
+#: model_terms:ir.ui.view,arch_db:purchase.purchase_bill_line_match_tree
+msgid "Total Purchased"
+msgstr ""
+
+#. module: purchase
+#: model_terms:ir.ui.view,arch_db:purchase.purchase_history_pivot
+msgid "Total Qty purchased"
+msgstr ""
+
+#. module: purchase
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__product_uom_qty
 msgid "Total Quantity"
 msgstr ""
 
 #. module: purchase
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:purchase.purchase_history_tree
+msgid "Total Untaxed"
+msgstr ""
+
+#. module: purchase
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_kpis_tree
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_tree
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_view_tree
@@ -10731,11 +12180,27 @@ msgid "Total amount"
 msgstr "Azal Asemday"
 
 #. module: purchase
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:purchase.purchase_history_pivot
+msgid "Total purchased amount"
+msgstr ""
+
+#. module: purchase
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:purchase.field_purchase_order__mail_reception_confirmed
 msgid "True if PO reception is confirmed by the vendor."
 msgstr ""
 
 #. module: purchase
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,help:purchase.field_purchase_order__mail_reception_declined
+msgid "True if PO reception is declined by the vendor."
+msgstr ""
+
+#. module: purchase
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:purchase.field_purchase_order__mail_reminder_confirmed
 msgid "True if the reminder email is confirmed by the vendor."
 msgstr ""
@@ -10753,8 +12218,20 @@ msgstr ""
 
 #. module: purchase
 #. odoo-python
+<<<<<<< HEAD
 #: code:addons/purchase/models/purchase.py:0
 msgid "Unable to cancel this purchase order. You must first cancel the related vendor bills."
+=======
+#: code:addons/purchase/models/purchase_order.py:0
+msgid ""
+"Unable to cancel purchase order(s): %s. You must first cancel their related "
+"vendor bills."
+msgstr ""
+
+#. module: purchase
+#: model_terms:ir.ui.view,arch_db:purchase.purchase_bill_line_match_tree
+msgid "Unit"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: purchase
@@ -10764,11 +12241,20 @@ msgid "Unit Price"
 msgstr "ssuma n yiwen"
 
 #. module: purchase
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:purchase.field_purchase_order_line__price_unit_discounted
+msgid "Unit Price (Discounted)"
+msgstr ""
+
+#. module: purchase
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid "Unit Price:"
 msgstr ""
 
 #. module: purchase
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__product_uom
 msgid "Unit of Measure"
 <<<<<<< HEAD
@@ -10912,6 +12398,12 @@ msgstr "Aferdis"
 =======
 msgstr "Aferdis"
 >>>>>>> upstream/18.0
+=======
+#: model:ir.model.fields,field_description:purchase.field_purchase_bill_line_match__product_uom_id
+#: model:ir.model.fields,field_description:purchase.field_purchase_order_line__product_uom
+msgid "Unit of Measure"
+msgstr "Aferdis"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
@@ -10962,7 +12454,11 @@ msgstr ""
 
 #. module: purchase
 #. odoo-python
+<<<<<<< HEAD
 #: code:addons/purchase/models/purchase.py:0
+=======
+#: code:addons/purchase/models/purchase_order.py:0
+>>>>>>> upstream/18.0
 msgid "Update Dates"
 msgstr ""
 
@@ -11004,6 +12500,7 @@ msgid "Urgent"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Izreb"
@@ -11109,6 +12606,16 @@ msgstr "Izreb"
 >>>>>>> upstream/18.0
 =======
 msgstr "Izreb"
+>>>>>>> upstream/18.0
+=======
+msgstr "Izreb"
+
+#. module: purchase
+#: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
+msgid ""
+"Use the above REST URL to get structured data of the purchase order in UBL "
+"format."
+msgstr ""
 >>>>>>> upstream/18.0
 
 #. module: purchase
@@ -11125,6 +12632,13 @@ msgstr ""
 #: model:ir.model.fields,field_description:purchase.field_purchase_bill_union__partner_id
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__partner_id
 #: model:ir.model.fields,field_description:purchase.field_purchase_report__partner_id
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:purchase.product_template_search_view_purchase
+#: model_terms:ir.ui.view,arch_db:purchase.product_view_search_catalog
+#: model_terms:ir.ui.view,arch_db:purchase.purchase_bill_line_match_tree
+#: model_terms:ir.ui.view,arch_db:purchase.purchase_history_tree
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_line_search
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_line_tree
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_view_search
@@ -11139,9 +12653,20 @@ msgid "Vendor Bill"
 msgstr ""
 
 #. module: purchase
+<<<<<<< HEAD
 #: model:ir.actions.act_window,name:purchase.act_res_partner_2_supplier_invoices
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
 #: model_terms:ir.ui.view,arch_db:purchase.res_partner_view_purchase_account_buttons
+=======
+#. odoo-python
+#: code:addons/purchase/models/purchase_bill_line_match.py:0
+msgid "Vendor Bill lines can only be added to one Purchase Order."
+msgstr ""
+
+#. module: purchase
+#: model:ir.actions.act_window,name:purchase.act_res_partner_2_supplier_invoices
+#: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:purchase.view_purchase_bill_union_filter
 msgid "Vendor Bills"
 msgstr ""
@@ -11177,6 +12702,7 @@ msgstr ""
 
 #. module: purchase
 #. odoo-python
+<<<<<<< HEAD
 #: code:addons/purchase/models/purchase.py:0
 msgid "View"
 <<<<<<< HEAD
@@ -11320,6 +12846,28 @@ msgstr "Timeẓri"
 =======
 msgstr "Timeẓri"
 >>>>>>> upstream/18.0
+=======
+#: code:addons/purchase/models/purchase_order.py:0
+msgid "View"
+msgstr "Timeẓri"
+
+#. module: purchase
+#: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
+msgid "View Details"
+msgstr ""
+
+#. module: purchase
+#. odoo-python
+#: code:addons/purchase/models/purchase_order.py:0
+msgid "View Order"
+msgstr ""
+
+#. module: purchase
+#. odoo-python
+#: code:addons/purchase/models/purchase_order.py:0
+msgid "View Quotation"
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_report__volume
@@ -11359,7 +12907,11 @@ msgid "Volume"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ableɣ"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ableɣ"
 >>>>>>> upstream/18.0
@@ -11505,7 +13057,11 @@ msgid "Waiting"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Iţraǧu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Iţraǧu"
 >>>>>>> upstream/18.0
@@ -11624,6 +13180,7 @@ msgid "Waiting RFQs"
 msgstr ""
 
 #. module: purchase
+<<<<<<< HEAD
 #. odoo-python
 #: code:addons/purchase/models/purchase.py:0
 #: model:ir.model.fields.selection,name:purchase.selection__product_template__purchase_line_warn__warning
@@ -11774,6 +13331,24 @@ msgstr "ɣuṛ-ek"
 #. module: purchase
 #. odoo-python
 #: code:addons/purchase/models/purchase.py:0
+=======
+#: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
+msgid "Want to import this document in Odoo?"
+msgstr ""
+
+#. module: purchase
+#. odoo-python
+#: code:addons/purchase/models/purchase_order_line.py:0
+#: model:ir.model.fields.selection,name:purchase.selection__product_template__purchase_line_warn__warning
+#: model:ir.model.fields.selection,name:purchase.selection__res_partner__purchase_warn__warning
+msgid "Warning"
+msgstr "ɣuṛ-ek"
+
+#. module: purchase
+#. odoo-python
+#: code:addons/purchase/models/purchase_order.py:0
+#: code:addons/purchase/models/purchase_order_line.py:0
+>>>>>>> upstream/18.0
 msgid "Warning for %s"
 msgstr ""
 
@@ -11832,7 +13407,11 @@ msgid "Website Messages"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Iznan n n usmel  Web"
+>>>>>>> upstream/18.0
 =======
 msgstr "Iznan n n usmel  Web"
 >>>>>>> upstream/18.0
@@ -11942,6 +13521,7 @@ msgstr "Iznan n n usmel  Web"
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_order__website_message_ids
 msgid "Website communication history"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12087,11 +13667,32 @@ msgstr "Amazray n Taywalt n usmel  Web"
 #. module: purchase
 #: model_terms:digest.tip,tip_description:purchase.digest_tip_purchase_0
 msgid "When creating a purchase order, have a look at the vendor's <i>On Time Delivery</i> rate: the percentage of products shipped on time. If it is too low, activate the <i>automated reminders</i>. A few days before the due shipment, Odoo will send the vendor an email to ask confirmation of shipment dates and keep you informed in case of any delays. To get the vendor's performance statistics, click on the OTD rate."
+=======
+msgstr "Amazray n Taywalt n usmel  Web"
+
+#. module: purchase
+#: model_terms:digest.tip,tip_description:purchase.digest_tip_purchase_0
+msgid ""
+"When creating a purchase order, have a look at the vendor's <i>On Time "
+"Delivery</i> rate: the percentage of products shipped on time. If it is too "
+"low, activate the <i>automated reminders</i>. A few days before the due "
+"shipment, Odoo will send the vendor an email to ask confirmation of shipment "
+"dates and keep you informed in case of any delays. To get the vendor's "
+"performance statistics, click on the OTD rate."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: purchase
 #: model_terms:digest.tip,tip_description:purchase.digest_tip_purchase_1
+<<<<<<< HEAD
 msgid "When sending a purchase order by email, Odoo asks the vendor to acknowledge the reception of the order. When the vendor acknowledges the order by clicking on a button in the email, the information is added on the purchase order. Use filters to track orders that have not been acknowledged."
+=======
+msgid ""
+"When sending a purchase order by email, Odoo asks the vendor to acknowledge "
+"the reception of the order. When the vendor acknowledges the order by "
+"clicking on a button in the email, the information is added on the purchase "
+"order. Use filters to track orders that have not been acknowledged."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: purchase
@@ -12102,8 +13703,26 @@ msgstr ""
 
 #. module: purchase
 #. odoo-python
+<<<<<<< HEAD
 #: code:addons/purchase/models/purchase.py:0
 msgid "You cannot change the type of a purchase order line. Instead you should delete the current line and create a new line of the proper type."
+=======
+#: code:addons/purchase/models/purchase_bill_line_match.py:0
+msgid "You can't select lines from multiple Vendor Bill to do the matching."
+msgstr ""
+
+#. module: purchase
+#. odoo-python
+#: code:addons/purchase/models/purchase_order_line.py:0
+msgid ""
+"You cannot change the type of a purchase order line. Instead you should "
+"delete the current line and create a new line of the proper type."
+msgstr ""
+
+#. module: purchase
+#: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
+msgid "You don't use a good CRM software?"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: purchase
@@ -12122,10 +13741,26 @@ msgstr ""
 
 #. module: purchase
 #. odoo-python
+<<<<<<< HEAD
 #: code:addons/purchase/models/purchase.py:0
 msgid ""
 "Your quotation contains products from company %(product_company)s whereas your quotation belongs to company %(quote_company)s. \n"
 " Please change the company of your quotation or remove the products from other companies (%(bad_products)s)."
+=======
+#: code:addons/purchase/models/purchase_bill_line_match.py:0
+msgid ""
+"You must select at least one Purchase Order line to match or create bill."
+msgstr ""
+
+#. module: purchase
+#. odoo-python
+#: code:addons/purchase/models/purchase_order.py:0
+msgid ""
+"Your quotation contains products from company %(product_company)s whereas "
+"your quotation belongs to company %(quote_company)s. \n"
+" Please change the company of your quotation or remove the products from "
+"other companies (%(bad_products)s)."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: purchase
@@ -12139,8 +13774,76 @@ msgid "day(s) before"
 msgstr ""
 
 #. module: purchase
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:purchase.bill_to_po_wizard_form
+msgid "or create new"
+msgstr ""
+
+#. module: purchase
+#. odoo-python
+#: code:addons/purchase/models/purchase_order.py:0
+msgid "purchase orders merged"
+msgstr ""
+
+#. module: purchase
+#: model_terms:ir.ui.view,arch_db:purchase.report_purchaseorder_document
+#: model_terms:ir.ui.view,arch_db:purchase.report_purchasequotation_document
+msgid "to create quotes automatically."
+msgstr ""
+
+#. module: purchase
+#: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
+msgid "to learn all the ways to connect your software with"
+msgstr ""
+
+#. module: purchase
+#: model_terms:ir.ui.view,arch_db:purchase.report_purchaseorder_document
+#: model_terms:ir.ui.view,arch_db:purchase.report_purchasequotation_document
+msgid "with"
+msgstr ""
+
+#. module: purchase
+>>>>>>> upstream/18.0
 #: model:mail.template,subject:purchase.email_template_edi_purchase
 #: model:mail.template,subject:purchase.email_template_edi_purchase_done
 #: model:mail.template,subject:purchase.email_template_edi_purchase_reminder
 msgid "{{ object.company_id.name }} Order (Ref {{ object.name or 'n/a' }})"
 msgstr ""
+<<<<<<< HEAD
+=======
+
+#~ msgid "%(amount)s due %(date)s"
+#~ msgstr "%(amount)s ilaqen deg %(date)s"
+
+#~ msgid "<i class=\"fa fa-download\"/> Download"
+#~ msgstr "<i class=\"fa fa-download\"/> Zdem"
+
+#~ msgid "<i class=\"fa fa-print\"/> Print"
+#~ msgstr "<i class=\"fa fa-print\"/> Siggez"
+
+#~ msgid "Analytic Distribution Search"
+#~ msgstr "Anadi n Tiski Tusliḍt"
+
+#~ msgid "Cannot delete a purchase order line which is in state '%s'."
+#~ msgstr ""
+#~ "Ur tezmireḍ ara aţekseḍ izirig n tladna n tiɣin illan deg addad '%s'."
+
+#~ msgid "Confirm"
+#~ msgstr "Sentem"
+
+#~ msgid "Download"
+#~ msgstr "Zdem"
+
+#~ msgid "Email composition wizard"
+#~ msgstr "Amarag n usuddes n Imayl"
+
+#~ msgid "History"
+#~ msgstr "Amazray"
+
+#~ msgid "Print"
+#~ msgstr "Siggez"
+
+#~ msgid "Product Attributes"
+#~ msgstr "Imyerra n ufaris"
+>>>>>>> upstream/18.0

@@ -1,7 +1,11 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* google_gmail
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 # Translators:
 # lhmflexerp <lhm@flexerp.dk>, 2024
 # Sanne Kristensen <sanne@vkdata.dk>, 2024
@@ -126,6 +130,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Kira Petersen, 2025
 >>>>>>> upstream/18.0
@@ -481,10 +486,15 @@
 # Kira Petersen, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+# Kira Petersen, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
@@ -965,6 +975,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: da\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Kira Petersen, 2025\n"
+"Language-Team: Danish (https://app.transifex.com/odoo/teams/41243/da/)\n"
+"Language: da\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+>>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: google_gmail
@@ -986,6 +1006,7 @@ msgstr ""
 #. module: google_gmail
 #: model_terms:ir.ui.view,arch_db:google_gmail.fetchmail_server_view_form
 msgid ""
+<<<<<<< HEAD
 "<span invisible=\"server_type != 'gmail' or not google_gmail_refresh_token\" class=\"badge text-bg-success\">\n"
 "                        Gmail Token Valid\n"
 "                    </span>"
@@ -1695,6 +1716,17 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 "<span invisible=\"server_type != 'gmail' or not google_gmail_refresh_token\" class=\"badge text-bg-success\">\n"
+"                        Gyldig gmail-token\n"
+"                    </span>"
+>>>>>>> upstream/18.0
+=======
+"<span invisible=\"server_type != 'gmail' or not google_gmail_refresh_token\" "
+"class=\"badge text-bg-success\">\n"
+"                        Gmail Token Valid\n"
+"                    </span>"
+msgstr ""
+"<span invisible=\"server_type != 'gmail' or not google_gmail_refresh_token\" "
+"class=\"badge text-bg-success\">\n"
 "                        Gyldig gmail-token\n"
 "                    </span>"
 >>>>>>> upstream/18.0
@@ -1702,6 +1734,7 @@ msgstr ""
 #. module: google_gmail
 #: model_terms:ir.ui.view,arch_db:google_gmail.ir_mail_server_view_form
 msgid ""
+<<<<<<< HEAD
 "<span invisible=\"smtp_authentication != 'gmail' or not google_gmail_refresh_token\" class=\"badge text-bg-success\">\n"
 "                        Gmail Token Valid\n"
 "                    </span>"
@@ -2411,6 +2444,17 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 "<span invisible=\"smtp_authentication != 'gmail' or not google_gmail_refresh_token\" class=\"badge text-bg-success\">\n"
+"                        Gyldig gmail-token\n"
+"                    </span>"
+>>>>>>> upstream/18.0
+=======
+"<span invisible=\"smtp_authentication != 'gmail' or not "
+"google_gmail_refresh_token\" class=\"badge text-bg-success\">\n"
+"                        Gmail Token Valid\n"
+"                    </span>"
+msgstr ""
+"<span invisible=\"smtp_authentication != 'gmail' or not "
+"google_gmail_refresh_token\" class=\"badge text-bg-success\">\n"
 "                        Gyldig gmail-token\n"
 "                    </span>"
 >>>>>>> upstream/18.0
@@ -2545,7 +2589,11 @@ msgid "Access Token Expiration Timestamp"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Udløbsdato for Outlook-adgangstoken"
+>>>>>>> upstream/18.0
 =======
 msgstr "Udløbsdato for Outlook-adgangstoken"
 >>>>>>> upstream/18.0
@@ -3023,7 +3071,11 @@ msgid "An error occur during the authentication process."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Der opstod en fejl under godkendelsesprocessen."
+>>>>>>> upstream/18.0
 =======
 msgstr "Der opstod en fejl under godkendelsesprocessen."
 >>>>>>> upstream/18.0
@@ -3501,7 +3553,11 @@ msgid "An error occurred when fetching the access token."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Der opstod en fejl under hentning af adgangstokenet."
+>>>>>>> upstream/18.0
 =======
 msgstr "Der opstod en fejl under hentning af adgangstokenet."
 >>>>>>> upstream/18.0
@@ -3879,7 +3935,12 @@ msgstr "Konfigurer opsætning"
 #: code:addons/google_gmail/models/fetchmail_server.py:0
 msgid ""
 "Connect your Gmail account with the OAuth Authentication process. \n"
+<<<<<<< HEAD
 "You will be redirected to the Gmail login page where you will need to accept the permission."
+=======
+"You will be redirected to the Gmail login page where you will need to accept "
+"the permission."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: google_gmail
@@ -3887,7 +3948,13 @@ msgstr ""
 #: code:addons/google_gmail/models/ir_mail_server.py:0
 msgid ""
 "Connect your Gmail account with the OAuth Authentication process.  \n"
+<<<<<<< HEAD
 "By default, only a user with a matching email address will be able to use this server. To extend its use, you should set a \"mail.default.from\" system parameter."
+=======
+"By default, only a user with a matching email address will be able to use "
+"this server. To extend its use, you should set a \"mail.default.from\" "
+"system parameter."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: google_gmail

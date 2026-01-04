@@ -1,13 +1,18 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* im_livechat
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Lars Petter Lilleng, 2024
 # Jorunn D. Newth, 2024
 # Thor Arne Hvidsten <thor.arne.hvidsten@gmail.com>, 2024
 # Lars Aam <lars.aam@vikenfiber.no>, 2024
 # Henning Fyllingsnes, 2024
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -864,10 +869,17 @@
 # Marius Stedjan <marius@stedjan.com>, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+# Martin Trigaux, 2024
+# Rune Restad, 2025
+# Marius Stedjan <marius@stedjan.com>, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-01-27 13:02+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
@@ -1444,6 +1456,17 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: nb\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Marius Stedjan <marius@stedjan.com>, 2025\n"
+"Language-Team: Norwegian Bokmål (https://app.transifex.com/odoo/teams/41243/"
+"nb/)\n"
+"Language: nb\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+>>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: im_livechat
@@ -1493,16 +1516,27 @@ msgstr "%s (kopi)"
 #: code:addons/im_livechat/models/chatbot_script.py:0
 #: code:addons/im_livechat/models/discuss_channel.py:0
 msgid ""
+<<<<<<< HEAD
 "'%(input_email)s' does not look like a valid email. Can you please try "
 "again?"
+=======
+"'%(input_email)s' does not look like a valid email. Can you please try again?"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: im_livechat
 #: model:ir.model.fields,help:im_livechat.field_im_livechat_channel_rule__action
 msgid ""
 "* 'Show' displays the chat button on the pages.\n"
+<<<<<<< HEAD
 "* 'Show with notification' is 'Show' in addition to a floating text just next to the button.\n"
 "* 'Open automatically' displays the button and automatically opens the conversation pane.\n"
+=======
+"* 'Show with notification' is 'Show' in addition to a floating text just "
+"next to the button.\n"
+"* 'Open automatically' displays the button and automatically opens the "
+"conversation pane.\n"
+>>>>>>> upstream/18.0
 "* 'Hide' hides the chat button on the pages.\n"
 msgstr ""
 
@@ -1556,6 +1590,7 @@ msgstr ""
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.chatbot_script_step_view_form
 msgid ""
+<<<<<<< HEAD
 "<span>Reminder: This step will only be played if no operator is "
 "available.</span>"
 msgstr ""
@@ -1565,21 +1600,45 @@ msgstr ""
 msgid ""
 "<span>Tip: At least one interaction (Question, Email, ...) is needed before the Bot can perform more complex actions (Forward to an Operator, ...). </span>\n"
 "                    <span>Use Channel Rules if you want the Bot to interact with visitors only when no operator is available.</span>"
+=======
+"<span>Reminder: This step will only be played if no operator is available.</"
+"span>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.chatbot_script_view_form
 msgid ""
 "<span>Tip: At least one interaction (Question, Email, ...) is needed before "
+<<<<<<< HEAD
 "the Bot can perform more complex actions (Forward to an Operator, "
 "...).</span>"
+=======
+"the Bot can perform more complex actions (Forward to an Operator, ...). </"
+"span>\n"
+"                    <span>Use Channel Rules if you want the Bot to interact "
+"with visitors only when no operator is available.</span>"
+msgstr ""
+
+#. module: im_livechat
+#: model_terms:ir.ui.view,arch_db:im_livechat.chatbot_script_view_form
+msgid ""
+"<span>Tip: At least one interaction (Question, Email, ...) is needed before "
+"the Bot can perform more complex actions (Forward to an Operator, ...).</"
+"span>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.chatbot_script_step_view_form
 msgid ""
+<<<<<<< HEAD
 "<span>Tip: Plan further steps for the Bot in case no operator is "
 "available.</span>"
+=======
+"<span>Tip: Plan further steps for the Bot in case no operator is available.</"
+"span>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: im_livechat
@@ -1596,7 +1655,12 @@ msgstr ""
 #: model:ir.model.fields,help:im_livechat.field_im_livechat_report_channel__is_without_answer
 msgid ""
 "A session is without answer if the operator did not answer. \n"
+<<<<<<< HEAD
 "                                       If the visitor is also the operator, the session will always be answered."
+=======
+"                                       If the visitor is also the operator, "
+"the session will always be answered."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: im_livechat
@@ -1869,7 +1933,11 @@ msgid "Button Background Color"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Knapp bakgrunn farge"
+=======
+msgstr "Bakgrunnsfarge på knapp"
+>>>>>>> upstream/18.0
 =======
 msgstr "Bakgrunnsfarge på knapp"
 >>>>>>> upstream/18.0
@@ -2442,7 +2510,11 @@ msgid "Button Text Color"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Knapp tekst farge"
+=======
+msgstr "Tekstfarge på knapp"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tekstfarge på knapp"
 >>>>>>> upstream/18.0
@@ -2933,8 +3005,13 @@ msgstr ""
 #. module: im_livechat
 #: model:ir.model.fields,help:im_livechat.field_discuss_channel__channel_type
 msgid ""
+<<<<<<< HEAD
 "Chat is private and unique between 2 persons. Group is private among invited"
 " persons. Channel can be freely joined (depending on its configuration)."
+=======
+"Chat is private and unique between 2 persons. Group is private among invited "
+"persons. Channel can be freely joined (depending on its configuration)."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: im_livechat
@@ -3277,7 +3354,11 @@ msgid "Default background color of the Livechat button"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Standard bakgrunnsfarge for Livechat knapp"
+=======
+msgstr "Standard bakgrunnsfarge for Livechat-knapp"
+>>>>>>> upstream/18.0
 =======
 msgstr "Standard bakgrunnsfarge for Livechat-knapp"
 >>>>>>> upstream/18.0
@@ -4326,7 +4407,11 @@ msgid "Livechat Button Color"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Livechat knapp farge"
+=======
+msgstr "Farge på Livechat-knapp"
+>>>>>>> upstream/18.0
 =======
 msgstr "Farge på Livechat-knapp"
 >>>>>>> upstream/18.0
@@ -5410,8 +5495,13 @@ msgstr ""
 msgid ""
 "The rule will only be applied for these countries. Example: if you select "
 "'Belgium' and 'United States' and that you set the action to 'Hide', the "
+<<<<<<< HEAD
 "chat button will be hidden on the specified URL from the visitors located in"
 " these 2 countries. This feature requires GeoIP installed on your server."
+=======
+"chat button will be hidden on the specified URL from the visitors located in "
+"these 2 countries. This feature requires GeoIP installed on your server."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: im_livechat
@@ -5514,8 +5604,12 @@ msgstr "URL Regex"
 msgid ""
 "URL to a static page where you client can discuss with the operator of the "
 "channel."
+<<<<<<< HEAD
 msgstr ""
 "URL til en statisk side hvor kunden kan diskutere med kanaloperatøren."
+=======
+msgstr "URL til en statisk side hvor kunden kan diskutere med kanaloperatøren."
+>>>>>>> upstream/18.0
 
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_report_channel__uuid
@@ -5530,9 +5624,14 @@ msgstr ""
 #. module: im_livechat
 #: model_terms:digest.tip,tip_description:im_livechat.digest_tip_im_livechat_0
 msgid ""
+<<<<<<< HEAD
 "Use canned responses to define templates of messages in the livechat app. To"
 " load a canned response, start your sentence with ':' and select the "
 "template."
+=======
+"Use canned responses to define templates of messages in the livechat app. To "
+"load a canned response, start your sentence with ':' and select the template."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: im_livechat
@@ -5662,7 +5761,12 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:im_livechat.im_livechat_channel_action
 msgid ""
 "You can create channels for each website on which you want\n"
+<<<<<<< HEAD
 "                to integrate the website live chat widget, allowing your website\n"
+=======
+"                to integrate the website live chat widget, allowing your "
+"website\n"
+>>>>>>> upstream/18.0
 "                visitors to talk in real time with your operators."
 msgstr ""
 

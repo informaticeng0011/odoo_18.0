@@ -1,7 +1,11 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* pos_loyalty
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Anders Wallenquist <anders.wallenquist@vertel.se>, 2024
 # Simon S, 2024
@@ -11,11 +15,16 @@
 # Robert Frykelius <robert.frykelius@linserv.se>, 2024
 # Chrille Hedberg <hedberg.chrille@gmail.com>, 2024
 # Jakob Krabbe <jakob.krabbe@vertel.se>, 2024
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-04-07 20:36+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Jakob Krabbe <jakob.krabbe@vertel.se>, 2024\n"
@@ -24,17 +33,37 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: sv\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Jakob Krabbe <jakob.krabbe@vertel.se>, 2024\n"
+"Language-Team: Swedish (https://app.transifex.com/odoo/teams/41243/sv/)\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+>>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: pos_loyalty
 #: model:ir.model.fields,help:pos_loyalty.field_pos_order_line__reward_identifier_code
 msgid ""
 "\n"
+<<<<<<< HEAD
 "        Technical field used to link multiple reward lines from the same reward together.\n"
 "    "
 msgstr ""
 "\n"
 "        Tekniskt fält som används för att länka flera belöningslinjer från samma belöning tillsammans.\n"
+=======
+"        Technical field used to link multiple reward lines from the same "
+"reward together.\n"
+"    "
+msgstr ""
+"\n"
+"        Tekniskt fält som används för att länka flera belöningslinjer från "
+"samma belöning tillsammans.\n"
+>>>>>>> upstream/18.0
 "    "
 
 #. module: pos_loyalty
@@ -448,8 +477,13 @@ msgid ""
 "Refunding a top up or reward product for an eWallet or gift card program is "
 "not allowed."
 msgstr ""
+<<<<<<< HEAD
 "Återbetalning av en påfyllning eller belöningsprodukt för ett eWallet- eller"
 " presentkortsprogram är inte tillåtet."
+=======
+"Återbetalning av en påfyllning eller belöningsprodukt för ett eWallet- eller "
+"presentkortsprogram är inte tillåtet."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
@@ -557,7 +591,12 @@ msgstr "Kupongen som används för att hämta ut den belöningen."
 #. odoo-python
 #: code:addons/pos_loyalty/models/pos_order.py:0
 msgid ""
+<<<<<<< HEAD
 "The following codes already exist in the database, perhaps they were already sold?\n"
+=======
+"The following codes already exist in the database, perhaps they were already "
+"sold?\n"
+>>>>>>> upstream/18.0
 "%s"
 msgstr ""
 "Följande koder finns redan i databasen, kanske har de redan sålts?\n"
@@ -569,8 +608,13 @@ msgid ""
 "The report action to be executed when creating a coupon/gift card/loyalty "
 "card in the PoS."
 msgstr ""
+<<<<<<< HEAD
 "Den rapportåtgärd som ska utföras när du skapar en kupong/ett "
 "presentkort/ett lojalitetskort i PoS."
+=======
+"Den rapportåtgärd som ska utföras när du skapar en kupong/ett presentkort/"
+"ett lojalitetskort i PoS."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
@@ -768,8 +812,12 @@ msgstr "Ja"
 #: code:addons/pos_loyalty/static/src/overrides/components/product_screen/order_summary/order_summary.js:0
 msgid "You cannot set negative quantity or price to gift card or ewallet."
 msgstr ""
+<<<<<<< HEAD
 "Du kan inte ange negativ kvantitet eller pris för presentkort eller "
 "e-wallet."
+=======
+"Du kan inte ange negativ kvantitet eller pris för presentkort eller e-wallet."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript

@@ -102,6 +102,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* hr_recruitment_skills
 # 
 # Translators:
@@ -109,6 +110,8 @@
 # Fernanda Alvarez, 2024
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -419,6 +422,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -626,6 +632,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1041,6 +1048,10 @@ msgstr ""
 =======
 "PO-Revision-Date: 2025-09-26 22:21+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:38+0000\n"
+"PO-Revision-Date: 2025-09-26 22:21+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: \"Fernanda Alvarez (mfar)\" <mfar@odoo.com>\n"
 "Language-Team: Spanish (Latin America) <https://translate.odoo.com/projects/"
 "odoo-18/hr_recruitment_skills/es_419/>\n"
@@ -1048,6 +1059,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 "Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
 " ? 1 : 2);\n"
 "X-Generator: Weblate 5.12.2\n"
@@ -1355,6 +1367,11 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == "
+"0) ? 1 : 2);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment_skills
 #: model:ir.model,name:hr_recruitment_skills.model_hr_applicant
@@ -1416,6 +1433,7 @@ msgstr "Última actualización el"
 #. odoo-python
 #: code:addons/hr_recruitment_skills/models/hr_job.py:0
 msgid "Matching Candidates"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1825,6 +1843,9 @@ msgstr "Postulantes coincidentes"
 =======
 msgstr "Postulantes coincidentes"
 >>>>>>> upstream/18.0
+=======
+msgstr "Postulantes coincidentes"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment_skills
 #: model:ir.model.fields,field_description:hr_recruitment_skills.field_hr_candidate__matching_score
@@ -1913,8 +1934,13 @@ msgstr "La habilidad %(name)s y el tipo de habilidad %(type)s no coinciden"
 #: code:addons/hr_recruitment_skills/models/hr_candidate_skill.py:0
 msgid "The skill level %(level)s is not valid for skill type: %(type)s"
 msgstr ""
+<<<<<<< HEAD
 "El nivel de habilidad %(level)s no es válido para el tipo de habilidad: "
 "%(type)s"
+=======
+"El nivel de habilidad %(level)s no es válido para el tipo de habilidad: %"
+"(type)s"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment_skills
 #: model:ir.model.constraint,message:hr_recruitment_skills.constraint_hr_candidate_skill__unique_skill
@@ -2028,8 +2054,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "En este momento no hay candidatos que cumplan con las habilidades necesarias"
 " para este puesto en la base de datos."
+=======
+"En este momento, la base de datos no tiene candidatos que cumplan con las "
+"habilidades necesarias para este puesto."
+>>>>>>> upstream/18.0
 =======
 "En este momento, la base de datos no tiene candidatos que cumplan con las "
 "habilidades necesarias para este puesto."

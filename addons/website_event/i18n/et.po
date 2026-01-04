@@ -1,7 +1,11 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* website_event
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Siim Raasuke, 2024
 # Martin Aavastik <martin@avalah.ee>, 2024
@@ -16,11 +20,16 @@
 # JanaAvalah, 2024
 # Anna, 2024
 # Stevin Lilla, 2024
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-12-16 13:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 "Last-Translator: Stevin Lilla, 2024\n"
@@ -29,6 +38,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: et\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2024-09-25 09:42+0000\n"
+"Last-Translator: Stevin Lilla, 2024\n"
+"Language-Team: Estonian (https://app.transifex.com/odoo/teams/41243/et/)\n"
+"Language: et\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+>>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: website_event
@@ -125,8 +144,17 @@ msgstr ""
 
 #. module: website_event
 #: model_terms:ir.ui.view,arch_db:website_event.index_sidebar_follow_us
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-github text-github\" aria-label=\"Github\" title=\"Github\"/>"
 msgstr "<i class=\"fa fa-github text-github\" aria-label=\"Github\" title=\"Github\"/>"
+=======
+msgid ""
+"<i class=\"fa fa-github text-github\" aria-label=\"Github\" title=\"Github\"/"
+">"
+msgstr ""
+"<i class=\"fa fa-github text-github\" aria-label=\"Github\" title=\"Github\"/"
+">"
+>>>>>>> upstream/18.0
 
 #. module: website_event
 #: model_terms:ir.ui.view,arch_db:website_event.event_pages_kanban_view
@@ -163,8 +191,17 @@ msgstr ""
 
 #. module: website_event
 #: model_terms:ir.ui.view,arch_db:website_event.index_sidebar_follow_us
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-tiktok text-tiktok\" aria-label=\"TikTok\" title=\"TikTok\"/>"
 msgstr "<i class=\"fa fa-tiktok text-tiktok\" aria-label=\"TikTok\" title=\"TikTok\"/>"
+=======
+msgid ""
+"<i class=\"fa fa-tiktok text-tiktok\" aria-label=\"TikTok\" title=\"TikTok\"/"
+">"
+msgstr ""
+"<i class=\"fa fa-tiktok text-tiktok\" aria-label=\"TikTok\" title=\"TikTok\"/"
+">"
+>>>>>>> upstream/18.0
 
 #. module: website_event
 #: model_terms:ir.ui.view,arch_db:website_event.index_sidebar_follow_us
@@ -260,12 +297,25 @@ msgstr ""
 #. module: website_event
 #: model_terms:ir.ui.view,arch_db:website_event.modal_ticket_registration
 msgid ""
+<<<<<<< HEAD
 "<span itemprop=\"availability\" content=\"http://schema.org/SoldOut\" class=\"text-danger\">\n"
 "                                        <i class=\"fa fa-ban me-2\"/>Sold Out\n"
 "                                    </span>"
 msgstr ""
 "<span itemprop=\"availability\" content=\"http://schema.org/SoldOut\" class=\"text-danger\">\n"
 "                                        <i class=\"fa fa-ban me-2\"/>Välja müüdud\n"
+=======
+"<span itemprop=\"availability\" content=\"http://schema.org/SoldOut\" "
+"class=\"text-danger\">\n"
+"                                        <i class=\"fa fa-ban me-2\"/>Sold "
+"Out\n"
+"                                    </span>"
+msgstr ""
+"<span itemprop=\"availability\" content=\"http://schema.org/SoldOut\" "
+"class=\"text-danger\">\n"
+"                                        <i class=\"fa fa-ban me-2\"/>Välja "
+"müüdud\n"
+>>>>>>> upstream/18.0
 "                                    </span>"
 
 #. module: website_event
@@ -770,8 +820,12 @@ msgstr "Filtrid"
 #. module: website_event
 #: model_terms:ir.ui.view,arch_db:website_event.event_description_full
 msgid ""
+<<<<<<< HEAD
 "Find out what people see and say about this event, and join the "
 "conversation."
+=======
+"Find out what people see and say about this event, and join the conversation."
+>>>>>>> upstream/18.0
 msgstr ""
 "Uurige, mida inimesed selle sündmuse kohta näevad ja räägivad, ning liituge "
 "vestlusega."
@@ -1388,6 +1442,15 @@ msgid "Top Bar Filter"
 msgstr "Ülemise rea filter"
 
 #. module: website_event
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/website_event/models/website_visitor.py:0
+msgid "Unsupported 'Not In' operation on visitors registrations"
+msgstr ""
+
+#. module: website_event
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:website_event.event_time
 msgid "Upcoming"
 msgstr "Tulemas"

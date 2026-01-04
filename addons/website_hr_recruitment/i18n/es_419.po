@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* website_hr_recruitment
+<<<<<<< HEAD
 # 
 # Translators:
 <<<<<<< HEAD
@@ -867,10 +868,19 @@
 >>>>>>> upstream/18.0
 # Fernanda Alvarez, 2025
 # 
+=======
+#
+# Translators:
+# Wil Odoo, 2024
+# Patricia Gutiérrez Capetillo <pagc@odoo.com>, 2024
+# Fernanda Alvarez, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1568,6 +1578,19 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: es_419\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2024-09-25 09:42+0000\n"
+"Last-Translator: Fernanda Alvarez, 2025\n"
+"Language-Team: Spanish (Latin America) (https://app.transifex.com/odoo/teams/"
+"41243/es_419/)\n"
+"Language: es_419\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? "
+"1 : 2;\n"
+>>>>>>> upstream/18.0
 
 #. module: website_hr_recruitment
 #. odoo-python
@@ -1585,6 +1608,7 @@ msgid ""
 msgstr ""
 "\n"
 "            <span class=\"text-muted small\">Tiempo para responder</span>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1930,10 +1954,13 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "            <h6>2 días hábiles</h6>\n"
 "            <span class=\"text-muted small\">Proceso</span>\n"
 "            <h6>1 llamada telefónica</h6>\n"
 "            <h6>1 entrevista presencial</h6>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2275,6 +2302,10 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 "            <span class=\"text-muted small\">Días para recibir una oferta</span>\n"
+=======
+"            <span class=\"text-muted small\">Días para recibir una oferta</"
+"span>\n"
+>>>>>>> upstream/18.0
 "            <h6>4 días después de la entrevista</h6>\n"
 "        "
 
@@ -2322,7 +2353,12 @@ msgstr "<i class=\"fa fa-globe me-1\" title=\"Sitio web\"/>"
 #. module: website_hr_recruitment
 #: model_terms:ir.ui.view,arch_db:website_hr_recruitment.detail
 msgid "<i class=\"fa fa-long-arrow-left text-primary me-2\"/>All Jobs"
+<<<<<<< HEAD
 msgstr "<i class=\"fa fa-long-arrow-left text-primary me-2\"/>Todos los trabajos"
+=======
+msgstr ""
+"<i class=\"fa fa-long-arrow-left text-primary me-2\"/>Todos los trabajos"
+>>>>>>> upstream/18.0
 
 #. module: website_hr_recruitment
 #: model_terms:ir.ui.view,arch_db:website_hr_recruitment.index
@@ -2330,8 +2366,13 @@ msgid ""
 "<i class=\"fa fa-suitcase fa-fw\" title=\"Employment type\" role=\"img\" "
 "aria-label=\"Employment type\"/>"
 msgstr ""
+<<<<<<< HEAD
 "<i class=\"fa fa-suitcase fa-fw\" title=\"Tipo de empleo\" role=\"img\" "
 "aria-label=\"Tipo de empleo\"/>"
+=======
+"<i class=\"fa fa-suitcase fa-fw\" title=\"Tipo de empleo\" role=\"img\" aria-"
+"label=\"Tipo de empleo\"/>"
+>>>>>>> upstream/18.0
 
 #. module: website_hr_recruitment
 #: model_terms:ir.ui.view,arch_db:website_hr_recruitment.apply
@@ -2352,17 +2393,31 @@ msgstr "<span class=\"fst-italic\">Sin dirección especificada</span>"
 #: model_terms:ir.ui.view,arch_db:website_hr_recruitment.thankyou_ir_ui_view
 msgid ""
 "<span class=\"h5 fw-light\">In the meantime,</span><br/>\n"
+<<<<<<< HEAD
 "                                            <span class=\"h3 mt8 mb32 fw-bold\">Take a look around our website:</span>"
 msgstr ""
 "<span class=\"h5 fw-light\">Mientras tanto,</span><br/>\n"
 "                                            <span class=\"h3 mt8 mb32 fw-bold\">Échele un vistazo a nuestro sitio web:</span>"
+=======
+"                                            <span class=\"h3 mt8 mb32 fw-"
+"bold\">Take a look around our website:</span>"
+msgstr ""
+"<span class=\"h5 fw-light\">Mientras tanto,</span><br/>\n"
+"                                            <span class=\"h3 mt8 mb32 fw-"
+"bold\">Échele un vistazo a nuestro sitio web:</span>"
+>>>>>>> upstream/18.0
 
 #. module: website_hr_recruitment
 #: model_terms:ir.ui.view,arch_db:website_hr_recruitment.index
 msgid "<span class=\"navbar-brand h5 my-0 me-sm-auto\">Our Job Offers</span>"
 msgstr ""
+<<<<<<< HEAD
 "<span class=\"navbar-brand h5 my-0 me-sm-auto\">Nuestras ofertas "
 "laborales</span>"
+=======
+"<span class=\"navbar-brand h5 my-0 me-sm-auto\">Nuestras ofertas laborales</"
+"span>"
+>>>>>>> upstream/18.0
 
 #. module: website_hr_recruitment
 #: model_terms:ir.ui.view,arch_db:website_hr_recruitment.apply
@@ -2393,28 +2448,55 @@ msgstr "<span class=\"s_website_form_label_content\">Breve introducción</span>"
 #: model_terms:ir.ui.view,arch_db:website_hr_recruitment.apply
 msgid ""
 "<span class=\"s_website_form_label_content\">Your Email</span>\n"
+<<<<<<< HEAD
 "                                                <span class=\"s_website_form_mark\"> *</span>"
 msgstr ""
 "<span class=\"s_website_form_label_content\">Su correo electrónico</span>\n"
 "                                                <span class=\"s_website_form_mark\"> *</span>"
+=======
+"                                                <span "
+"class=\"s_website_form_mark\"> *</span>"
+msgstr ""
+"<span class=\"s_website_form_label_content\">Su correo electrónico</span>\n"
+"                                                <span "
+"class=\"s_website_form_mark\"> *</span>"
+>>>>>>> upstream/18.0
 
 #. module: website_hr_recruitment
 #: model_terms:ir.ui.view,arch_db:website_hr_recruitment.apply
 msgid ""
 "<span class=\"s_website_form_label_content\">Your Name</span>\n"
+<<<<<<< HEAD
 "                                                <span class=\"s_website_form_mark\"> *</span>"
 msgstr ""
 "<span class=\"s_website_form_label_content\">Su nombre</span>\n"
 "                                                <span class=\"s_website_form_mark\"> *</span>"
+=======
+"                                                <span "
+"class=\"s_website_form_mark\"> *</span>"
+msgstr ""
+"<span class=\"s_website_form_label_content\">Su nombre</span>\n"
+"                                                <span "
+"class=\"s_website_form_mark\"> *</span>"
+>>>>>>> upstream/18.0
 
 #. module: website_hr_recruitment
 #: model_terms:ir.ui.view,arch_db:website_hr_recruitment.apply
 msgid ""
 "<span class=\"s_website_form_label_content\">Your Phone Number</span>\n"
+<<<<<<< HEAD
 "                                                <span class=\"s_website_form_mark\"> *</span>"
 msgstr ""
 "<span class=\"s_website_form_label_content\">Su número de teléfono</span>\n"
 "                                                <span class=\"s_website_form_mark\"> *</span>"
+=======
+"                                                <span "
+"class=\"s_website_form_mark\"> *</span>"
+msgstr ""
+"<span class=\"s_website_form_label_content\">Su número de teléfono</span>\n"
+"                                                <span "
+"class=\"s_website_form_mark\"> *</span>"
+>>>>>>> upstream/18.0
 
 #. module: website_hr_recruitment
 #: model_terms:ir.ui.view,arch_db:website_hr_recruitment.apply
@@ -2515,6 +2597,7 @@ msgstr "Todos los tipos"
 #. odoo-python
 #: code:addons/website_hr_recruitment/controllers/main.py:0
 msgid ""
+<<<<<<< HEAD
 "An application already exists for %(value)s. Duplicates might be rejected. "
 "%(recruiter_contact)s"
 msgstr ""
@@ -3090,6 +3173,13 @@ msgstr ""
 "Ya hay una postulación para %(value)s y si está duplicada podría ser "
 "rechazada. %(recruiter_contact)s"
 >>>>>>> upstream/18.0
+=======
+"An application already exists for %(value)s. Duplicates might be rejected. %"
+"(recruiter_contact)s"
+msgstr ""
+"Ya hay una postulación para %(value)s y si está duplicada podría ser "
+"rechazada. %(recruiter_contact)s"
+>>>>>>> upstream/18.0
 
 #. module: website_hr_recruitment
 #: model:ir.model,name:website_hr_recruitment.model_hr_applicant
@@ -3099,6 +3189,7 @@ msgstr "Postulante"
 #. module: website_hr_recruitment
 #: model_terms:ir.ui.view,arch_db:website_hr_recruitment.hr_job_form_inherit
 msgid "Application Info"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3556,6 +3647,9 @@ msgstr "Información de la postulación"
 =======
 msgstr "Información de la postulación"
 >>>>>>> upstream/18.0
+=======
+msgstr "Información de la postulación"
+>>>>>>> upstream/18.0
 
 #. module: website_hr_recruitment
 #. odoo-javascript
@@ -3577,6 +3671,7 @@ msgstr "¡Solicitar ahora!"
 #: model_terms:ir.ui.view,arch_db:website_hr_recruitment.default_website_description
 msgid ""
 "As an employee of our company, you will <b>collaborate with each department\n"
+<<<<<<< HEAD
 "                        to create and deploy disruptive products.</b> Come work at a growing company\n"
 "                        that offers great benefits with opportunities to moving forward and learn\n"
 "                        alongside accomplished leaders. We're seeking an experienced and outstanding\n"
@@ -3595,6 +3690,39 @@ msgstr ""
 "                        Este puesto es <b>creativo y riguroso</b> por naturaleza, debe pensar\n"
 "                        más allá de lo común. Esperamos que el candidato sea proactivo y tenga una mentalidad orientada hacia los\n"
 "                        resultados. Para tener éxito, debe tener habilidades sólidas para resolver problemas."
+=======
+"                        to create and deploy disruptive products.</b> Come "
+"work at a growing company\n"
+"                        that offers great benefits with opportunities to "
+"moving forward and learn\n"
+"                        alongside accomplished leaders. We're seeking an "
+"experienced and outstanding\n"
+"                        member of staff.\n"
+"                        <br/><br/>\n"
+"                        This position is both <b>creative and rigorous</b> "
+"by nature you need to think\n"
+"                        outside the box. We expect the candidate to be "
+"proactive and have a \"get it done\"\n"
+"                        spirit. To be successful, you will have solid "
+"solving problem skills."
+msgstr ""
+"Como empleado de nuestra empresa, <b>usted colaborará con todos los "
+"departamentos\n"
+"                        para crear e implementar productos revolucionarios.</"
+"b> Venga a trabajar en una empresa en crecimiento\n"
+"                        que ofrece grandes beneficios con oportunidades para "
+"crecer y aprender\n"
+"                        junto con líderes consumados. Buscamos un miembro "
+"del personal con experiencia\n"
+"                        y excepcional.\n"
+"                        <br/><br/>\n"
+"                        Este puesto es <b>creativo y riguroso</b> por "
+"naturaleza, debe pensar\n"
+"                        más allá de lo común. Esperamos que el candidato sea "
+"proactivo y tenga una mentalidad orientada hacia los\n"
+"                        resultados. Para tener éxito, debe tener habilidades "
+"sólidas para resolver problemas."
+>>>>>>> upstream/18.0
 
 #. module: website_hr_recruitment
 #: model_terms:ir.ui.view,arch_db:website_hr_recruitment.default_website_description
@@ -3631,6 +3759,7 @@ msgstr "¡Felicidades!"
 #. module: website_hr_recruitment
 #: model_terms:ir.ui.view,arch_db:website_hr_recruitment.job_right_side_bar
 msgid "Contact us"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4092,6 +4221,9 @@ msgstr "Contáctanos"
 =======
 msgstr "Contáctanos"
 >>>>>>> upstream/18.0
+=======
+msgstr "Contáctanos"
+>>>>>>> upstream/18.0
 
 #. module: website_hr_recruitment
 #. odoo-javascript
@@ -4112,8 +4244,12 @@ msgstr "Crear contenido que ayude a nuestros usuarios a diario"
 #. module: website_hr_recruitment
 #: model_terms:ir.ui.view,arch_db:website_hr_recruitment.index
 msgid ""
+<<<<<<< HEAD
 "Create new job pages from the <strong>+ <i>New</i></strong> top-right "
 "button."
+=======
+"Create new job pages from the <strong>+ <i>New</i></strong> top-right button."
+>>>>>>> upstream/18.0
 msgstr ""
 "Cree nuevas páginas de empleo con el botón <strong>+ <i>Nuevo</i></strong> "
 "en la parte superior derecha. "
@@ -4154,16 +4290,33 @@ msgstr "Nombre en pantalla"
 #: model_terms:ir.ui.view,arch_db:website_hr_recruitment.default_website_description
 msgid ""
 "Each employee has a chance to see the impact of his work.\n"
+<<<<<<< HEAD
 "                    You can make a real contribution to the success of the company.\n"
 "                    <br/>\n"
 "                    Several activities are often organized all over the year, such as weekly\n"
 "                    sports sessions, team building events, monthly drink, and much more"
+=======
+"                    You can make a real contribution to the success of the "
+"company.\n"
+"                    <br/>\n"
+"                    Several activities are often organized all over the "
+"year, such as weekly\n"
+"                    sports sessions, team building events, monthly drink, "
+"and much more"
+>>>>>>> upstream/18.0
 msgstr ""
 "Todos los empleados pueden ver lo importante que es su trabajo.\n"
 "                     Contribuya al éxito de la empresa.\n"
 "                    <br/>\n"
+<<<<<<< HEAD
 "                     Organizamos varias actividades a lo largo del año, como actividades deportivas\n"
 "                     semanales, eventos para fomentar el trabajo en equipo, convivencias mensuales y más."
+=======
+"                     Organizamos varias actividades a lo largo del año, como "
+"actividades deportivas\n"
+"                     semanales, eventos para fomentar el trabajo en equipo, "
+"convivencias mensuales y más."
+>>>>>>> upstream/18.0
 
 #. module: website_hr_recruitment
 #: model_terms:ir.ui.view,arch_db:website_hr_recruitment.default_website_description
@@ -4227,18 +4380,38 @@ msgstr "Inicio"
 msgid ""
 "I usually <strong>answer applications within 3 days</strong>.\n"
 "                                                <br/><br/>\n"
+<<<<<<< HEAD
 "                                                The next step is either a call or a meeting in our offices.\n"
 "                                                <br/><br/>\n"
 "                                                Feel free to <strong>contact me if you want a faster\n"
 "                                                feedback</strong> or if you don't get news from me\n"
+=======
+"                                                The next step is either a "
+"call or a meeting in our offices.\n"
+"                                                <br/><br/>\n"
+"                                                Feel free to <strong>contact "
+"me if you want a faster\n"
+"                                                feedback</strong> or if you "
+"don't get news from me\n"
+>>>>>>> upstream/18.0
 "                                                quickly enough."
 msgstr ""
 "Normalmente <strong>contesto postulaciones en 3 días</strong>.\n"
 "                                                <br/><br/>\n"
+<<<<<<< HEAD
 "                                                Después tendremos una llamada o nos reuniremos en nuestras oficinas.\n"
 "                                                <br/><br/>\n"
 "                                                Siéntase libre de <strong>ponerse en contacto conmigo si lo que quiere es\n"
 "                                                obtener retroalimentación antes,</strong> o si no tiene noticias de nosotros\n"
+=======
+"                                                Después tendremos una "
+"llamada o nos reuniremos en nuestras oficinas.\n"
+"                                                <br/><br/>\n"
+"                                                Siéntase libre de "
+"<strong>ponerse en contacto conmigo si lo que quiere es\n"
+"                                                obtener retroalimentación "
+"antes,</strong> o si no tiene noticias de nosotros\n"
+>>>>>>> upstream/18.0
 "                                                pronto."
 
 #. module: website_hr_recruitment
@@ -4424,7 +4597,11 @@ msgid "Insert a Job Description..."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Inserte una descripción del trabajo "
+=======
+msgstr "Inserte una descripción del trabajo..."
+>>>>>>> upstream/18.0
 =======
 msgstr "Inserte una descripción del trabajo..."
 >>>>>>> upstream/18.0
@@ -5215,12 +5392,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/website_hr_recruitment/static/src/fields/boolean_toggle_labeled_field.xml:0
 msgid "Not Published"
 msgstr "Sin publicar"
 
 #. module: website_hr_recruitment
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5801,8 +5981,11 @@ msgstr "Productos"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/website_hr_recruitment/static/src/fields/boolean_toggle_labeled_field.xml:0
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6275,10 +6458,19 @@ msgstr "Parece que el perfil que nos proporcionó no es de LinkedIn"
 #: model_terms:ir.ui.view,arch_db:website_hr_recruitment.index
 msgid ""
 "There are currently no open job opportunities,<br class=\"mb-2\"/>\n"
+<<<<<<< HEAD
 "                                            but feel free to <span class=\"fw-bold\">contact us</span> for a spontaneous application."
 msgstr ""
 "No hay oportunidades laborales en este momento,<br class=\"mb-2\"/>\n"
 "                                            pero no dude en <span class=\"fw-bold\">contactarnos</span> para una postulación espontánea."
+=======
+"                                            but feel free to <span "
+"class=\"fw-bold\">contact us</span> for a spontaneous application."
+msgstr ""
+"No hay oportunidades laborales en este momento,<br class=\"mb-2\"/>\n"
+"                                            pero no dude en <span class=\"fw-"
+"bold\">contactarnos</span> para una postulación espontánea."
+>>>>>>> upstream/18.0
 
 #. module: website_hr_recruitment
 #. odoo-javascript
@@ -6314,11 +6506,23 @@ msgstr "Visible desde este sitio web"
 #. module: website_hr_recruitment
 #: model_terms:ir.ui.view,arch_db:website_hr_recruitment.job_right_side_bar
 msgid ""
+<<<<<<< HEAD
 "We are a team of passionate people whose goal is to improve everyone's life through disruptive products.\n"
 "                                We build great products to solve your business problems."
 msgstr ""
 "Somos un equipo de personas apasionadas que tienen el objetivo de mejorar la vida de todo el mundo con productos innovadores.\n"
 "                                Creamos productos increíbles para resolver sus problemas empresariales."
+=======
+"We are a team of passionate people whose goal is to improve everyone's life "
+"through disruptive products.\n"
+"                                We build great products to solve your "
+"business problems."
+msgstr ""
+"Somos un equipo de personas apasionadas que tienen el objetivo de mejorar la "
+"vida de todo el mundo con productos innovadores.\n"
+"                                Creamos productos increíbles para resolver "
+"sus problemas empresariales."
+>>>>>>> upstream/18.0
 
 #. module: website_hr_recruitment
 #. odoo-python
@@ -6480,7 +6684,11 @@ msgid "Website meta description"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Meta descripción del sitio web"
+=======
+msgstr "Metadescripción del sitio web"
+>>>>>>> upstream/18.0
 =======
 msgstr "Metadescripción del sitio web"
 >>>>>>> upstream/18.0
@@ -6976,7 +7184,11 @@ msgid "Your Email"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Su correo electrónico"
+=======
+msgstr "Tu correo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tu correo"
 >>>>>>> upstream/18.0
@@ -7442,7 +7654,11 @@ msgid "Your Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Su nombre"
+=======
+msgstr "Tu nombre"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tu nombre"
 >>>>>>> upstream/18.0
@@ -7796,7 +8012,12 @@ msgid ""
 "                                    We usually respond within 3 days..."
 msgstr ""
 "Su postulación se publicó con éxito,<br class=\"mb-2\"/>\n"
+<<<<<<< HEAD
 "                                    Normalmente tardamos en responder 3 días..."
+=======
+"                                    Normalmente tardamos en responder 3 "
+"días..."
+>>>>>>> upstream/18.0
 
 #. module: website_hr_recruitment
 #: model_terms:ir.ui.view,arch_db:website_hr_recruitment.apply

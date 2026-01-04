@@ -86,8 +86,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* sale_pdf_quote_builder
 # 
+=======
+# * sale_pdf_quote_builder
+#
+>>>>>>> upstream/18.0
 =======
 # * sale_pdf_quote_builder
 #
@@ -522,7 +527,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+# ERPGo Odoo <erpgo.odoo@gmail.com>, 2025.
+>>>>>>> upstream/18.0
 =======
 # ERPGo Odoo <erpgo.odoo@gmail.com>, 2025.
 >>>>>>> upstream/18.0
@@ -785,6 +794,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-12-16 13:40+0000\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1125,6 +1135,10 @@ msgstr ""
 =======
 "PO-Revision-Date: 2025-12-04 13:18+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2025-12-04 13:18+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: ERPGo Odoo <erpgo.odoo@gmail.com>\n"
 "Language-Team: Azerbaijani <https://translate.odoo.com/projects/odoo-18/"
 "sale_pdf_quote_builder/az/>\n"
@@ -1133,6 +1147,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1425,6 +1440,9 @@ msgstr ""
 =======
 "X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #: model:ir.actions.report,print_report_name:sale_pdf_quote_builder.action_report_saleorder_raw
@@ -1449,16 +1467,26 @@ msgstr ""
 #. odoo-python
 #: code:addons/sale_pdf_quote_builder/models/sale_pdf_form_field.py:0
 msgid ""
+<<<<<<< HEAD
 "A form field set as used in product documents can't be linked to a quotation"
 " document."
+=======
+"A form field set as used in product documents can't be linked to a quotation "
+"document."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: sale_pdf_quote_builder
 #. odoo-python
 #: code:addons/sale_pdf_quote_builder/models/sale_pdf_form_field.py:0
 msgid ""
+<<<<<<< HEAD
 "A form field set as used in quotation documents can't be linked to a product"
 " document."
+=======
+"A form field set as used in quotation documents can't be linked to a product "
+"document."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: sale_pdf_quote_builder
@@ -1486,6 +1514,7 @@ msgstr "Bütün fayllar yükləndi"
 #: model:ir.model.fields,help:sale_pdf_quote_builder.field_product_document__attached_on_sale
 msgid ""
 "Allows you to share the document with your customers within a sale.\n"
+<<<<<<< HEAD
 "Leave it empty if you don't want to share this document with sales customer.\n"
 "On quote: the document will be sent to and accessible by customers at any time.\n"
 "e.g. this option can be useful to share Product description files.\n"
@@ -1500,6 +1529,31 @@ msgstr ""
 "Sifariş təsdiqləndikdə: sənəd müştərilərə göndəriləcək və müştərilər tərəfindən əlçatan olacaq.\n"
 "məs. bu seçim İstifadəçi Təlimatını və ya e-ticarətdən alınmış rəqəmsal məzmunu paylaşmaq üçün faydalı ola bilər. \n"
 "Daxili təklif: Sənəd başlıq səhifələri və qiymət cədvəli arasında təklif və satış sifarişinin pdf-ə daxil ediləcək. "
+=======
+"Leave it empty if you don't want to share this document with sales "
+"customer.\n"
+"On quote: the document will be sent to and accessible by customers at any "
+"time.\n"
+"e.g. this option can be useful to share Product description files.\n"
+"On order confirmation: the document will be sent to and accessible by "
+"customers.\n"
+"e.g. this option can be useful to share User Manual or digital content "
+"bought on ecommerce. \n"
+"Inside quote: The document will be included in the pdf of the quotation and "
+"sale order between the header pages and the quote table. "
+msgstr ""
+"Sənədi satış çərçivəsində müştərilərinizlə paylaşmağa imkan verir.\n"
+"Bu sənədi satış müştərisi ilə bölüşmək istəmirsinizsə, onu boş qoyun.\n"
+"Sitat üzrə: sənəd istənilən vaxt müştərilərə göndəriləcək və müştərilər "
+"tərəfindən əlçatan olacaq.\n"
+"məs. bu seçim Məhsul təsviri fayllarını paylaşmaq üçün faydalı ola bilər.\n"
+"Sifariş təsdiqləndikdə: sənəd müştərilərə göndəriləcək və müştərilər "
+"tərəfindən əlçatan olacaq.\n"
+"məs. bu seçim İstifadəçi Təlimatını və ya e-ticarətdən alınmış rəqəmsal "
+"məzmunu paylaşmaq üçün faydalı ola bilər. \n"
+"Daxili təklif: Sənəd başlıq səhifələri və qiymət cədvəli arasında təklif və "
+"satış sifarişinin pdf-ə daxil ediləcək. "
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.quotation_document_kanban
@@ -1561,7 +1615,11 @@ msgid "Archived"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Arxivləndi"
+=======
+msgstr "Arxivlənmiş"
+>>>>>>> upstream/18.0
 =======
 msgstr "Arxivlənmiş"
 >>>>>>> upstream/18.0
@@ -1851,7 +1909,11 @@ msgid "Created by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tərəfindən yaradılıb"
+=======
+msgstr "Yaradan"
+>>>>>>> upstream/18.0
 =======
 msgstr "Yaradan"
 >>>>>>> upstream/18.0
@@ -2149,6 +2211,7 @@ msgid "Created on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tarixdə yaradıldı"
 =======
 msgstr "Yaradılan tarix"
@@ -2200,6 +2263,9 @@ msgstr "Yaradılan tarix"
 >>>>>>> upstream/18.0
 =======
 msgstr "Yaradılan tarix"
+>>>>>>> upstream/18.0
+=======
+msgstr "Yaradılma tarixi"
 >>>>>>> upstream/18.0
 =======
 msgstr "Yaradılma tarixi"
@@ -2477,7 +2543,11 @@ msgid "Display Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Göstəriləcək Ad"
+=======
+msgstr "Görünən Adı"
+>>>>>>> upstream/18.0
 =======
 msgstr "Görünən Adı"
 >>>>>>> upstream/18.0
@@ -2863,7 +2933,11 @@ msgid "Group By"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Görə Qrupla"
+=======
+msgstr "Qrupla"
+>>>>>>> upstream/18.0
 =======
 msgstr "Qrupla"
 >>>>>>> upstream/18.0
@@ -3304,7 +3378,11 @@ msgid "No"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tapılmayanlar"
+=======
+msgstr "Xeyr"
+>>>>>>> upstream/18.0
 =======
 msgstr "Xeyr"
 >>>>>>> upstream/18.0
@@ -3468,11 +3546,24 @@ msgstr ""
 #. module: sale_pdf_quote_builder
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.sale_order_template_form
 msgid ""
+<<<<<<< HEAD
 "Provide header pages and footer pages to compose an attractive quotation with more information\n"
 "                        about your company, your products and you services. <br/>\n"
 "                        The pdf of your quotes will be built by putting together header pages, product descriptions,\n"
 "                        details of the quote and then the footer pages. <br/>\n"
 "                        If empty, it will use those define in the company settings. <br/>"
+=======
+"Provide header pages and footer pages to compose an attractive quotation "
+"with more information\n"
+"                        about your company, your products and you services. "
+"<br/>\n"
+"                        The pdf of your quotes will be built by putting "
+"together header pages, product descriptions,\n"
+"                        details of the quote and then the footer pages. <br/"
+">\n"
+"                        If empty, it will use those define in the company "
+"settings. <br/>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: sale_pdf_quote_builder
@@ -3638,7 +3729,11 @@ msgid "Type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tip"
+=======
+msgstr "Növ"
+>>>>>>> upstream/18.0
 =======
 msgstr "Növ"
 >>>>>>> upstream/18.0

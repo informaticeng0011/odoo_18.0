@@ -41,6 +41,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
@@ -150,6 +154,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~11.5\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2023-10-26 21:55+0000\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -365,10 +370,18 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2025-12-31 16:37+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Bosnian <https://translate.odoo.com/projects/odoo-18/iap/bs/>"
+"\n"
+>>>>>>> upstream/18.0
 "Language: bs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -585,6 +598,17 @@ msgstr ""
 #. module: iap
 #: model:ir.model.fields,field_description:iap.field_iap_account__account_info_id
 msgid "Account Info"
+=======
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.14.3\n"
+
+#. module: iap
+#: model_terms:ir.ui.view,arch_db:iap.iap_account_view_form
+msgid ""
+"<i class=\"oi oi-arrow-right\"/>\n"
+"                                    Buy Credit"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: iap
@@ -594,28 +618,43 @@ msgstr ""
 
 #. module: iap
 #: model:ir.model.fields,field_description:iap.field_iap_account__account_token
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:iap.field_iap_account_info__account_token
+=======
+>>>>>>> upstream/18.0
 msgid "Account Token"
 msgstr ""
 
 #. module: iap
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:iap.field_iap_account_info__account_uuid_hashed
 msgid "Account UUID"
 msgstr ""
 
 #. module: iap
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:iap.field_iap_account__account_token
 msgid ""
 "Account token is your authentication key for this service. Do not share it."
 msgstr ""
 
 #. module: iap
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:iap.field_iap_account__account_info_ids
 msgid "Accounts from IAP"
+=======
+#. odoo-python
+#: code:addons/iap/tools/iap_tools.py:0
+msgid ""
+"An error occurred while reaching %s. Please contact Odoo support if this "
+"error persists."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: iap
 #: model:ir.model.fields,field_description:iap.field_iap_account__balance
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:iap.field_iap_account_info__balance
 msgid "Balance"
 <<<<<<< HEAD
@@ -763,11 +802,22 @@ msgstr "Saldo"
 #. module: iap
 #: model_terms:ir.ui.view,arch_db:iap.iap_account_view_form
 msgid "Buy Credit"
+=======
+msgid "Balance"
+msgstr "Saldo"
+
+#. module: iap
+#: model:ir.model.fields.selection,name:iap.selection__iap_account__state__banned
+msgid "Banned"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: iap
 #. odoo-javascript
+<<<<<<< HEAD
 #: code:addons/iap/static/src/action_buttons_widget/action_buttons_widget.xml:0
+=======
+>>>>>>> upstream/18.0
 #: code:addons/iap/static/src/js/insufficient_credit_error_handler.js:0
 msgid "Buy credits"
 msgstr ""
@@ -784,6 +834,7 @@ msgid "Company"
 msgstr "Kompanija"
 
 #. module: iap
+<<<<<<< HEAD
 #: model:ir.model,name:iap.model_res_config_settings
 msgid "Config Settings"
 msgstr ""
@@ -791,16 +842,25 @@ msgstr ""
 #. module: iap
 #: model:ir.model.fields,field_description:iap.field_iap_account__create_uid
 #: model:ir.model.fields,field_description:iap.field_iap_account_info__create_uid
+=======
+#: model:ir.model.fields,field_description:iap.field_iap_account__create_uid
+#: model:ir.model.fields,field_description:iap.field_iap_service__create_uid
+>>>>>>> upstream/18.0
 msgid "Created by"
 msgstr "Kreirao"
 
 #. module: iap
 #: model:ir.model.fields,field_description:iap.field_iap_account__create_date
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:iap.field_iap_account_info__create_date
+=======
+#: model:ir.model.fields,field_description:iap.field_iap_service__create_date
+>>>>>>> upstream/18.0
 msgid "Created on"
 msgstr "Kreirano"
 
 #. module: iap
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:iap.field_iap_account__description
 #: model:ir.model.fields,field_description:iap.field_iap_account_info__description
 msgid "Description"
@@ -949,12 +1009,45 @@ msgstr "Opis"
 #. module: iap
 #: model:ir.model.fields,field_description:iap.field_iap_account__display_name
 #: model:ir.model.fields,field_description:iap.field_iap_account_info__display_name
+=======
+#: model:iap.service,unit_name:iap.iap_service_reveal
+msgid "Credits"
+msgstr ""
+
+#. module: iap
+#: model:ir.model.fields,field_description:iap.field_iap_account__description
+#: model:ir.model.fields,field_description:iap.field_iap_service__description
+msgid "Description"
+msgstr "Opis"
+
+#. module: iap
+#: model:ir.model.fields,field_description:iap.field_iap_account__display_name
+#: model:ir.model.fields,field_description:iap.field_iap_service__display_name
+>>>>>>> upstream/18.0
 msgid "Display Name"
 msgstr "Prikazani naziv"
 
 #. module: iap
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:iap.iap_account_view_form
 msgid "Hide Token"
+=======
+#: model:ir.model.fields,field_description:iap.field_iap_account__warning_user_ids
+msgid "Email Alert Recipients"
+msgstr ""
+
+#. module: iap
+#: model:ir.model.fields,field_description:iap.field_iap_account__warning_threshold
+msgid "Email Alert Threshold"
+msgstr ""
+
+#. module: iap
+#: model:iap.service,description:iap.iap_service_reveal
+msgid ""
+"Get quality leads and opportunities: convert your website visitors into "
+"leads, generate leads based on a set of criteria and enrich the company data "
+"of your opportunities."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: iap
@@ -965,17 +1058,23 @@ msgstr ""
 #. module: iap
 #: model:ir.actions.act_window,name:iap.iap_account_action
 #: model:ir.model,name:iap.model_iap_account
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:iap.field_iap_account_info__account_id
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:iap.iap_account_view_form
 msgid "IAP Account"
 msgstr ""
 
 #. module: iap
+<<<<<<< HEAD
 #: model:ir.model,name:iap.model_iap_account_info
 msgid "IAP Account Info"
 msgstr ""
 
 #. module: iap
+=======
+>>>>>>> upstream/18.0
 #: model:ir.ui.menu,name:iap.iap_account_menu
 #: model_terms:ir.ui.view,arch_db:iap.iap_account_view_tree
 msgid "IAP Accounts"
@@ -987,8 +1086,18 @@ msgid "IAP Lead Enrichment API"
 msgstr ""
 
 #. module: iap
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:iap.field_iap_account__id
 #: model:ir.model.fields,field_description:iap.field_iap_account_info__id
+=======
+#: model:ir.model,name:iap.model_iap_service
+msgid "IAP Service"
+msgstr ""
+
+#. module: iap
+#: model:ir.model.fields,field_description:iap.field_iap_account__id
+#: model:ir.model.fields,field_description:iap.field_iap_service__id
+>>>>>>> upstream/18.0
 msgid "ID"
 msgstr "ID"
 
@@ -999,18 +1108,33 @@ msgid "Insufficient credit to perform this service."
 msgstr ""
 
 #. module: iap
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:iap.field_iap_account__write_uid
 #: model:ir.model.fields,field_description:iap.field_iap_account_info__write_uid
+=======
+#: model:ir.model.fields,field_description:iap.field_iap_service__integer_balance
+msgid "Integer Balance"
+msgstr ""
+
+#. module: iap
+#: model:ir.model.fields,field_description:iap.field_iap_account__write_uid
+#: model:ir.model.fields,field_description:iap.field_iap_service__write_uid
+>>>>>>> upstream/18.0
 msgid "Last Updated by"
 msgstr "Zadnji ažurirao"
 
 #. module: iap
 #: model:ir.model.fields,field_description:iap.field_iap_account__write_date
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:iap.field_iap_account_info__write_date
+=======
+#: model:ir.model.fields,field_description:iap.field_iap_service__write_date
+>>>>>>> upstream/18.0
 msgid "Last Updated on"
 msgstr "Zadnje ažurirano"
 
 #. module: iap
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:iap.field_iap_account__name
 msgid "Name"
 <<<<<<< HEAD
@@ -1154,6 +1278,18 @@ msgstr "Naziv:"
 =======
 msgstr "Naziv:"
 >>>>>>> upstream/18.0
+=======
+#. odoo-javascript
+#: code:addons/iap/static/src/action_buttons_widget/action_buttons_widget.xml:0
+msgid "Manage Service & Buy Credits"
+msgstr ""
+
+#. module: iap
+#: model:ir.model.fields,field_description:iap.field_iap_account__name
+#: model:ir.model.fields,field_description:iap.field_iap_service__name
+msgid "Name"
+msgstr "Naziv:"
+>>>>>>> upstream/18.0
 
 #. module: iap
 #: model_terms:ir.ui.view,arch_db:iap.res_config_settings_view_form
@@ -1161,6 +1297,7 @@ msgid "Odoo IAP"
 msgstr ""
 
 #. module: iap
+<<<<<<< HEAD
 #: model:ir.actions.server,name:iap.open_iap_account
 msgid "Open IAP Account"
 msgstr ""
@@ -1179,6 +1316,39 @@ msgstr ""
 #: model:ir.model.fields,field_description:iap.field_iap_account__show_token
 #: model_terms:ir.ui.view,arch_db:iap.iap_account_view_form
 msgid "Show Token"
+=======
+#. odoo-python
+#: code:addons/iap/models/iap_account.py:0
+msgid ""
+"One of the email alert recipients doesn't have an email address set. Users: "
+"%s"
+msgstr ""
+
+#. module: iap
+#: model:ir.model.constraint,message:iap.constraint_iap_service_unique_technical_name
+msgid "Only one service can exist with a specific technical_name"
+msgstr ""
+
+#. module: iap
+#. odoo-python
+#: code:addons/iap/models/iap_account.py:0
+msgid "Please set a positive email alert threshold."
+msgstr ""
+
+#. module: iap
+#: model:ir.model.fields.selection,name:iap.selection__iap_account__state__registered
+msgid "Registered"
+msgstr ""
+
+#. module: iap
+#: model:ir.model.fields,field_description:iap.field_iap_account__service_id
+msgid "Service"
+msgstr "Usluga"
+
+#. module: iap
+#: model:ir.model.fields,field_description:iap.field_iap_account__service_locked
+msgid "Service Locked"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: iap
@@ -1188,6 +1358,7 @@ msgid "Start a Trial at Odoo"
 msgstr ""
 
 #. module: iap
+<<<<<<< HEAD
 #. odoo-python
 #: code:addons/iap/tools/iap_tools.py:0
 msgid ""
@@ -1203,10 +1374,40 @@ msgstr ""
 
 #. module: iap
 #: model:ir.model.fields,field_description:iap.field_iap_account_info__unit_name
+=======
+#: model:ir.model.fields,field_description:iap.field_iap_account__state
+msgid "State"
+msgstr "Rep./Fed."
+
+#. module: iap
+#: model:ir.model.fields,field_description:iap.field_iap_account__service_name
+#: model:ir.model.fields,field_description:iap.field_iap_service__technical_name
+msgid "Technical Name"
+msgstr "Tehnički naziv"
+
+#. module: iap
+#. odoo-python
+#: code:addons/iap/tools/iap_tools.py:0
+msgid ""
+"The request to the service timed out. Please contact the author of the app. "
+"The URL it tried to contact was %s"
+msgstr ""
+
+#. module: iap
+#: model:ir.model.fields,field_description:iap.field_iap_service__unit_name
+>>>>>>> upstream/18.0
 msgid "Unit Name"
 msgstr ""
 
 #. module: iap
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields.selection,name:iap.selection__iap_account__state__unregistered
+msgid "Unregistered"
+msgstr ""
+
+#. module: iap
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/iap/static/src/action_buttons_widget/action_buttons_widget.xml:0
 #: model_terms:ir.ui.view,arch_db:iap.res_config_settings_view_form
@@ -1217,6 +1418,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:iap.res_config_settings_view_form
 msgid "View your IAP Services and recharge your credits"
 msgstr ""
+<<<<<<< HEAD
 
 #. module: iap
 #: model:ir.model.fields,field_description:iap.field_iap_account__warn_me
@@ -1234,3 +1436,5 @@ msgstr ""
 #: model:ir.model.fields,help:iap.field_iap_account__warn_me
 msgid "We will send you an email when your balance gets below that threshold"
 msgstr ""
+=======
+>>>>>>> upstream/18.0

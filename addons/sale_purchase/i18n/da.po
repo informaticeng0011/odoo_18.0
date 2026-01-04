@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* sale_purchase
+<<<<<<< HEAD
 # 
 # Translators:
 # Martin Trigaux, 2024
@@ -461,10 +462,18 @@
 # Kira Petersen, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+#
+# Translators:
+# Martin Trigaux, 2024
+# Kira Petersen, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
@@ -929,6 +938,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: da\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Kira Petersen, 2025\n"
+"Language-Team: Danish (https://app.transifex.com/odoo/teams/41243/da/)\n"
+"Language: da\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+>>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: sale_purchase
@@ -955,8 +974,15 @@ msgstr "<span class=\"o_stat_text\">Salg</span>"
 #: model_terms:ir.ui.view,arch_db:sale_purchase.sale_order_cancel_view_form
 msgid ""
 "<span id=\"display_invoice_alert\" position=\"after\">\n"
+<<<<<<< HEAD
 "                <span id=\"display_purchase_orders_alert\" invisible=\"not display_purchase_orders_alert\" groups=\"purchase.group_purchase_user\">\n"
 "                    There are active purchase orders linked to this sale order that are not cancelled automatically! <br/>\n"
+=======
+"                <span id=\"display_purchase_orders_alert\" invisible=\"not "
+"display_purchase_orders_alert\" groups=\"purchase.group_purchase_user\">\n"
+"                    There are active purchase orders linked to this sale "
+"order that are not cancelled automatically! <br/>\n"
+>>>>>>> upstream/18.0
 "                </span>\n"
 "            </span>"
 msgstr ""
@@ -1147,7 +1173,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vælg den leverandør, som denne service automatisk skal indkøbes fra."
+>>>>>>> upstream/18.0
 =======
 msgstr "Vælg den leverandør, som denne service automatisk skal indkøbes fra."
 >>>>>>> upstream/18.0
@@ -1681,7 +1711,11 @@ msgid "Subcontract Service"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Underleverandørservice"
+>>>>>>> upstream/18.0
 =======
 msgstr "Underleverandørservice"
 >>>>>>> upstream/18.0

@@ -46,7 +46,11 @@ import { expect, getFixture, test } from "@odoo/hoot";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { animationFrame, mockFetch } from "@odoo/hoot-mock";
+=======
+import { animationFrame } from "@odoo/hoot-mock";
+>>>>>>> upstream/18.0
 =======
 import { animationFrame } from "@odoo/hoot-mock";
 >>>>>>> upstream/18.0
@@ -240,6 +244,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    onRpc,
+>>>>>>> upstream/18.0
 =======
     onRpc,
 >>>>>>> upstream/18.0
@@ -457,8 +465,13 @@ test("Installation page displays the app info correctly", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     mockFetch((route) => {
         expect.step(route);
+=======
+    onRpc("/*", (request) => {
+        expect.step(new URL(request.url).pathname);
+>>>>>>> upstream/18.0
 =======
     onRpc("/*", (request) => {
         expect.step(new URL(request.url).pathname);
@@ -739,8 +752,13 @@ test("Installation page displays the error message when browser is not supported
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     mockFetch((route) => {
         expect.step(route);
+=======
+    onRpc("/*", (request) => {
+        expect.step(new URL(request.url).pathname);
+>>>>>>> upstream/18.0
 =======
     onRpc("/*", (request) => {
         expect.step(new URL(request.url).pathname);

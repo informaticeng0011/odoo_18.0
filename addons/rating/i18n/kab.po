@@ -38,6 +38,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
@@ -147,6 +151,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2023-05-16 13:49+0000\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -362,6 +367,13 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2025-12-31 16:39+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Kabyle <https://translate.odoo.com/projects/odoo-18/rating/"
+"kab/>\n"
+>>>>>>> upstream/18.0
 "Language: kab\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -402,6 +414,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "X-Generator: Weblate 5.12.2\n"
 >>>>>>> upstream/18.0
@@ -506,6 +519,14 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 "X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.14.3\n"
+
+#. module: rating
+#: model_terms:ir.ui.view,arch_db:rating.rating_external_page_invalid_partner
+msgid "\" or someone from the same company can give it a rating."
+msgstr ""
 >>>>>>> upstream/18.0
 
 #. module: rating
@@ -514,6 +535,14 @@ msgid "# Ratings"
 msgstr ""
 
 #. module: rating
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:rating.rating_external_page_view
+msgid "<i class=\"fa fa-arrow-left me-1\"/> Back to the Homepage"
+msgstr ""
+
+#. module: rating
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:rating.rating_rating_view_kanban_stars
 msgid "<i class=\"fa fa-clock-o me-2\" aria-label=\"Create date\"/>"
 msgstr ""
@@ -566,7 +595,11 @@ msgid "Action Needed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tigawt taḍullit"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tigawt taḍullit"
 >>>>>>> upstream/18.0
@@ -711,7 +744,11 @@ msgid "Attachment Count"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Asiḍen n Tsawit"
+>>>>>>> upstream/18.0
 =======
 msgstr "Asiḍen n Tsawit"
 >>>>>>> upstream/18.0
@@ -867,7 +904,11 @@ msgid "Comment"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Awennit"
+>>>>>>> upstream/18.0
 =======
 msgstr "Awennit"
 >>>>>>> upstream/18.0
@@ -986,6 +1027,7 @@ msgid "Customer"
 msgstr "Amsaɣ"
 
 #. module: rating
+<<<<<<< HEAD
 #. odoo-python
 #: code:addons/rating/controllers/main.py:0
 msgid "Customer rated %r."
@@ -1280,12 +1322,26 @@ msgstr "Isem n Ubeqqeḍ"
 =======
 msgstr "Isem n Ubeqqeḍ"
 >>>>>>> upstream/18.0
+=======
+#: model:ir.model.fields,field_description:rating.field_rating_rating__display_name
+msgid "Display Name"
+msgstr "Isem n Ubeqqeḍ"
+>>>>>>> upstream/18.0
 
 #. module: rating
 #. odoo-python
 #: code:addons/rating/controllers/main.py:0
+<<<<<<< HEAD
 #: model:ir.model.fields.selection,name:rating.selection__rating_mixin__rating_avg_text__ko
 #: model:ir.model.fields.selection,name:rating.selection__rating_rating__rating_text__ko
+=======
+#: model:ir.model.fields.selection,name:rating.selection__discuss_channel__rating_avg_text__ko
+#: model:ir.model.fields.selection,name:rating.selection__product_template__rating_avg_text__ko
+#: model:ir.model.fields.selection,name:rating.selection__project_task__rating_avg_text__ko
+#: model:ir.model.fields.selection,name:rating.selection__rating_mixin__rating_avg_text__ko
+#: model:ir.model.fields.selection,name:rating.selection__rating_rating__rating_text__ko
+#: model:ir.model.fields.selection,name:rating.selection__slide_channel__rating_avg_text__ko
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:rating.rating_rating_view_search
 msgid "Dissatisfied"
 msgstr ""
@@ -1329,7 +1385,11 @@ msgid "Document"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Arrat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Arrat"
 >>>>>>> upstream/18.0
@@ -1467,11 +1527,14 @@ msgid "Followers (Partners)"
 msgstr ""
 
 #. module: rating
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:rating.rating_external_page_view
 msgid "Go back to the Homepage"
 msgstr ""
 
 #. module: rating
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:rating.rating_rating_view_search
 msgid "Group By"
 msgstr "Sdukel s"
@@ -1488,10 +1551,23 @@ msgstr ""
 
 #. module: rating
 #: model:ir.model.fields,help:rating.field_rating_rating__is_internal
+<<<<<<< HEAD
 msgid "Hide to public / portal users, independently from subtype configuration."
 msgstr ""
 
 #. module: rating
+=======
+msgid ""
+"Hide to public / portal users, independently from subtype configuration."
+msgstr ""
+
+#. module: rating
+#: model_terms:ir.ui.view,arch_db:rating.rating_external_page_invalid_partner
+msgid "Home"
+msgstr "Asebtar agejdan"
+
+#. module: rating
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:rating.field_rating_rating__id
 msgid "ID"
 msgstr "Asulay"
@@ -1544,7 +1620,11 @@ msgid "Image"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tugna"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tugna"
 >>>>>>> upstream/18.0
@@ -1675,12 +1755,25 @@ msgstr ""
 
 #. module: rating
 #: model_terms:ir.ui.view,arch_db:rating.rating_rating_view_search
+<<<<<<< HEAD
 msgid "Last 30 days"
+=======
+msgid "Last 30 Days"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: rating
 #: model_terms:ir.ui.view,arch_db:rating.rating_rating_view_search
+<<<<<<< HEAD
 msgid "Last 7 days"
+=======
+msgid "Last 365 Days"
+msgstr ""
+
+#. module: rating
+#: model_terms:ir.ui.view,arch_db:rating.rating_rating_view_search
+msgid "Last 7 Days"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: rating
@@ -1742,7 +1835,11 @@ msgid "Messages"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Iznan"
+>>>>>>> upstream/18.0
 =======
 msgstr "Iznan"
 >>>>>>> upstream/18.0
@@ -1892,6 +1989,7 @@ msgid "Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Isem"
@@ -2002,6 +2100,17 @@ msgstr "Isem"
 #. module: rating
 #: model:ir.model.fields.selection,name:rating.selection__rating_mixin__rating_avg_text__none
 #: model:ir.model.fields.selection,name:rating.selection__rating_rating__rating_text__none
+=======
+msgstr "Isem"
+
+#. module: rating
+#: model:ir.model.fields.selection,name:rating.selection__discuss_channel__rating_avg_text__none
+#: model:ir.model.fields.selection,name:rating.selection__product_template__rating_avg_text__none
+#: model:ir.model.fields.selection,name:rating.selection__project_task__rating_avg_text__none
+#: model:ir.model.fields.selection,name:rating.selection__rating_mixin__rating_avg_text__none
+#: model:ir.model.fields.selection,name:rating.selection__rating_rating__rating_text__none
+#: model:ir.model.fields.selection,name:rating.selection__slide_channel__rating_avg_text__none
+>>>>>>> upstream/18.0
 msgid "No Rating yet"
 msgstr ""
 
@@ -2022,7 +2131,11 @@ msgstr ""
 
 #. module: rating
 #: model:ir.model.fields,help:rating.field_rating_mixin__message_needaction_counter
+<<<<<<< HEAD
 msgid "Number of messages which requires an action"
+=======
+msgid "Number of messages requiring action"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: rating
@@ -2033,13 +2146,30 @@ msgstr ""
 #. module: rating
 #. odoo-python
 #: code:addons/rating/controllers/main.py:0
+<<<<<<< HEAD
 #: model:ir.model.fields.selection,name:rating.selection__rating_mixin__rating_avg_text__ok
 #: model:ir.model.fields.selection,name:rating.selection__rating_rating__rating_text__ok
+=======
+#: model:ir.model.fields.selection,name:rating.selection__discuss_channel__rating_avg_text__ok
+#: model:ir.model.fields.selection,name:rating.selection__product_template__rating_avg_text__ok
+#: model:ir.model.fields.selection,name:rating.selection__project_task__rating_avg_text__ok
+#: model:ir.model.fields.selection,name:rating.selection__rating_mixin__rating_avg_text__ok
+#: model:ir.model.fields.selection,name:rating.selection__rating_rating__rating_text__ok
+#: model:ir.model.fields.selection,name:rating.selection__slide_channel__rating_avg_text__ok
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:rating.rating_rating_view_search
 msgid "Okay"
 msgstr ""
 
 #. module: rating
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:rating.rating_external_page_invalid_partner
+msgid "Only the customer of \""
+msgstr ""
+
+#. module: rating
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:rating.field_rating_rating__parent_res_id
 msgid "Parent Document"
 msgstr ""
@@ -2075,12 +2205,15 @@ msgid "Percentage of happy ratings"
 msgstr ""
 
 #. module: rating
+<<<<<<< HEAD
 #. odoo-python
 #: code:addons/rating/models/mail_thread.py:0
 msgid "Posting a rating should be done using message post API."
 msgstr ""
 
 #. module: rating
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:rating.field_rating_rating__rated_partner_id
 #: model_terms:ir.ui.view,arch_db:rating.rating_rating_view_search
 msgid "Rated Operator"
@@ -2088,6 +2221,11 @@ msgstr ""
 
 #. module: rating
 #: model:ir.model,name:rating.model_rating_rating
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:rating.field_mail_mail__rating_id
+#: model:ir.model.fields,field_description:rating.field_mail_message__rating_id
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:rating.field_rating_rating__rating_text
 #: model_terms:ir.ui.view,arch_db:rating.rating_rating_view_form_text
 #: model_terms:ir.ui.view,arch_db:rating.rating_rating_view_search
@@ -2095,6 +2233,15 @@ msgid "Rating"
 msgstr ""
 
 #. module: rating
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:rating.rating_rating_view_graph
+#: model_terms:ir.ui.view,arch_db:rating.rating_rating_view_pivot
+msgid "Rating (/5)"
+msgstr ""
+
+#. module: rating
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:rating.field_rating_mixin__rating_avg_text
 msgid "Rating Avg Text"
 msgstr ""
@@ -2143,12 +2290,15 @@ msgid "Rating Value"
 msgstr ""
 
 #. module: rating
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:rating.rating_rating_view_graph
 #: model_terms:ir.ui.view,arch_db:rating.rating_rating_view_pivot
 msgid "Rating Value (/5)"
 msgstr ""
 
 #. module: rating
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:rating.field_rating_mixin__rating_count
 msgid "Rating count"
 msgstr ""
@@ -2160,7 +2310,11 @@ msgstr ""
 
 #. module: rating
 #. odoo-javascript
+<<<<<<< HEAD
 #: code:addons/rating/static/src/notification_item_patch.xml:0
+=======
+#: code:addons/rating/static/src/core/web/notification_item_patch.xml:0
+>>>>>>> upstream/18.0
 msgid "Rating:"
 msgstr ""
 
@@ -2172,12 +2326,19 @@ msgstr ""
 #: model:ir.model.fields,field_description:rating.field_fleet_vehicle__rating_ids
 #: model:ir.model.fields,field_description:rating.field_fleet_vehicle_log_contract__rating_ids
 #: model:ir.model.fields,field_description:rating.field_fleet_vehicle_log_services__rating_ids
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:rating.field_gamification_badge__rating_ids
 #: model:ir.model.fields,field_description:rating.field_gamification_challenge__rating_ids
 #: model:ir.model.fields,field_description:rating.field_hr_department__rating_ids
 #: model:ir.model.fields,field_description:rating.field_hr_employee__rating_ids
 #: model:ir.model.fields,field_description:rating.field_hr_job__rating_ids
 #: model:ir.model.fields,field_description:rating.field_hr_plan_employee_activity__rating_ids
+=======
+#: model:ir.model.fields,field_description:rating.field_fleet_vehicle_model__rating_ids
+#: model:ir.model.fields,field_description:rating.field_gamification_badge__rating_ids
+#: model:ir.model.fields,field_description:rating.field_gamification_challenge__rating_ids
+#: model:ir.model.fields,field_description:rating.field_iap_account__rating_ids
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:rating.field_lunch_supplier__rating_ids
 #: model:ir.model.fields,field_description:rating.field_mail_blacklist__rating_ids
 #: model:ir.model.fields,field_description:rating.field_mail_thread__rating_ids
@@ -2188,8 +2349,14 @@ msgstr ""
 #: model:ir.model.fields,field_description:rating.field_maintenance_equipment__rating_ids
 #: model:ir.model.fields,field_description:rating.field_maintenance_equipment_category__rating_ids
 #: model:ir.model.fields,field_description:rating.field_maintenance_request__rating_ids
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:rating.field_note_note__rating_ids
 #: model:ir.model.fields,field_description:rating.field_phone_blacklist__rating_ids
+=======
+#: model:ir.model.fields,field_description:rating.field_phone_blacklist__rating_ids
+#: model:ir.model.fields,field_description:rating.field_product_category__rating_ids
+#: model:ir.model.fields,field_description:rating.field_product_pricelist__rating_ids
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:rating.field_product_product__rating_ids
 #: model:ir.model.fields,field_description:rating.field_product_template__rating_ids
 #: model:ir.model.fields,field_description:rating.field_rating_mixin__rating_ids
@@ -2235,8 +2402,17 @@ msgstr ""
 #. module: rating
 #. odoo-python
 #: code:addons/rating/controllers/main.py:0
+<<<<<<< HEAD
 #: model:ir.model.fields.selection,name:rating.selection__rating_mixin__rating_avg_text__top
 #: model:ir.model.fields.selection,name:rating.selection__rating_rating__rating_text__top
+=======
+#: model:ir.model.fields.selection,name:rating.selection__discuss_channel__rating_avg_text__top
+#: model:ir.model.fields.selection,name:rating.selection__product_template__rating_avg_text__top
+#: model:ir.model.fields.selection,name:rating.selection__project_task__rating_avg_text__top
+#: model:ir.model.fields.selection,name:rating.selection__rating_mixin__rating_avg_text__top
+#: model:ir.model.fields.selection,name:rating.selection__rating_rating__rating_text__top
+#: model:ir.model.fields.selection,name:rating.selection__slide_channel__rating_avg_text__top
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:rating.rating_rating_view_search
 msgid "Satisfied"
 msgstr ""
@@ -2253,6 +2429,10 @@ msgstr ""
 
 #. module: rating
 #: model:ir.model.fields,field_description:rating.field_rating_rating__create_date
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:rating.rating_rating_view_search
+>>>>>>> upstream/18.0
 msgid "Submitted on"
 msgstr ""
 
@@ -2263,7 +2443,11 @@ msgstr ""
 
 #. module: rating
 #: model_terms:ir.ui.view,arch_db:rating.rating_external_page_view
+<<<<<<< HEAD
 msgid "Thank you, we appreciate your feedback!"
+=======
+msgid "Thank you for your feedback!"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: rating
@@ -2272,6 +2456,7 @@ msgid "There is no rating for this object at the moment."
 msgstr ""
 
 #. module: rating
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:rating.rating_rating_view_search
 msgid "Today"
 <<<<<<< HEAD
@@ -2417,6 +2602,8 @@ msgstr "Assa"
 >>>>>>> upstream/18.0
 
 #. module: rating
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:rating.field_rating_rating__is_internal
 msgid "Visible Internally Only"
 msgstr ""
@@ -2428,6 +2615,7 @@ msgid "Wrong rating value. A rate should be between 0 and 5 (received %d)."
 msgstr ""
 
 #. module: rating
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:rating.rating_rating_view_kanban
 msgid "by"
 <<<<<<< HEAD
@@ -2571,6 +2759,16 @@ msgstr "s"
 =======
 msgstr "s"
 >>>>>>> upstream/18.0
+=======
+#: model_terms:ir.ui.view,arch_db:rating.rating_external_page_invalid_partner
+msgid "You cannot rate this"
+msgstr ""
+
+#. module: rating
+#: model_terms:ir.ui.view,arch_db:rating.rating_rating_view_kanban
+msgid "by"
+msgstr "s"
+>>>>>>> upstream/18.0
 
 #. module: rating
 #: model_terms:ir.ui.view,arch_db:rating.rating_rating_view_kanban
@@ -2615,6 +2813,7 @@ msgid "on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "di"
@@ -2720,4 +2919,13 @@ msgstr "di"
 >>>>>>> upstream/18.0
 =======
 msgstr "di"
+>>>>>>> upstream/18.0
+=======
+msgstr "di"
+
+#~ msgid "Date"
+#~ msgstr "Azemz"
+
+#~ msgid "Today"
+#~ msgstr "Assa"
 >>>>>>> upstream/18.0

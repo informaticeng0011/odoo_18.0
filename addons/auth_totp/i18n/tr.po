@@ -1,7 +1,11 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* auth_totp
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 # Translators:
 # emre oktem, 2024
 # Doğan Altunbay <doganaltunbay@gmail.com>, 2024
@@ -129,6 +133,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Deniz Guvener_Odoo <degu@odoo.com>, 2025
 >>>>>>> upstream/18.0
@@ -472,10 +477,15 @@
 # Deniz Guvener_Odoo <degu@odoo.com>, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+# Deniz Guvener_Odoo <degu@odoo.com>, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-09-25 08:40+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
@@ -940,6 +950,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: tr\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Deniz Guvener_Odoo <degu@odoo.com>, 2025\n"
+"Language-Team: Turkish (https://app.transifex.com/odoo/teams/41243/tr/)\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+>>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #. module: auth_totp
@@ -963,19 +983,41 @@ msgstr "2 Faktörlü Kimlik Doğrulama artık etkindir."
 #: model_terms:ir.ui.view,arch_db:auth_totp.view_totp_wizard
 msgid ""
 "<span class=\"d-md-none d-block\">Or install an authenticator app</span>\n"
+<<<<<<< HEAD
 "                                        <span class=\"d-none d-md-block\">Install an authenticator app on your mobile device</span>"
 msgstr ""
 "<span class=\"d-md-none d-block\">Veya bir kimlik doğrulama uygulaması yükleyin</span>\n"
 "                                         <span class=\"d-none d-md-block\">Mobil cihazınıza bir kimlik doğrulama uygulaması yükleyin</span>"
+=======
+"                                        <span class=\"d-none d-md-"
+"block\">Install an authenticator app on your mobile device</span>"
+msgstr ""
+"<span class=\"d-md-none d-block\">Veya bir kimlik doğrulama uygulaması "
+"yükleyin</span>\n"
+"                                         <span class=\"d-none d-md-"
+"block\">Mobil cihazınıza bir kimlik doğrulama uygulaması yükleyin</span>"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp
 #: model_terms:ir.ui.view,arch_db:auth_totp.view_totp_wizard
 msgid ""
+<<<<<<< HEAD
 "<span class=\"d-none d-md-block\">When requested to do so, scan the barcode below</span>\n"
 "                                    <span class=\"d-block d-md-none\">When requested to do so, copy the key below</span>"
 msgstr ""
 "<span class=\"d-none d-md-block\">İstendiğinde, aşağıdaki barkodu tarayın</span>\n"
 "                                    <span class=\"d-block d-md-none\">İstendiğinde, aşağıdaki anahtarı kopyalayın</span>"
+=======
+"<span class=\"d-none d-md-block\">When requested to do so, scan the barcode "
+"below</span>\n"
+"                                    <span class=\"d-block d-md-none\">When "
+"requested to do so, copy the key below</span>"
+msgstr ""
+"<span class=\"d-none d-md-block\">İstendiğinde, aşağıdaki barkodu tarayın</"
+"span>\n"
+"                                    <span class=\"d-block d-md-"
+"none\">İstendiğinde, aşağıdaki anahtarı kopyalayın</span>"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp
 #: model_terms:ir.ui.view,arch_db:auth_totp.view_totp_wizard
@@ -1106,6 +1148,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span invisible=\"not totp_enabled\" class=\"text-muted\">Bu hesap "
+"korunmaktadır!</span>"
+>>>>>>> upstream/18.0
 =======
 "<span invisible=\"not totp_enabled\" class=\"text-muted\">Bu hesap "
 "korunmaktadır!</span>"
@@ -1683,6 +1730,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span invisible=\"not totp_enabled\" class=\"text-muted\">Hesabınız "
+"korunmaktadır!</span>"
+>>>>>>> upstream/18.0
 =======
 "<span invisible=\"not totp_enabled\" class=\"text-muted\">Hesabınız "
 "korunmaktadır!</span>"
@@ -2154,11 +2206,19 @@ msgstr "Eklendi"
 #. module: auth_totp
 #: model_terms:ir.ui.view,arch_db:auth_totp.view_totp_form
 msgid ""
+<<<<<<< HEAD
 "Are you sure? The user may be asked to enter two-factor codes again on those"
 " devices"
 msgstr ""
 "Emin misiniz? Kullanıcıdan bu cihazlarda iki faktörlü kodları tekrar girmesi"
 " istenebilir"
+=======
+"Are you sure? The user may be asked to enter two-factor codes again on those "
+"devices"
+msgstr ""
+"Emin misiniz? Kullanıcıdan bu cihazlarda iki faktörlü kodları tekrar girmesi "
+"istenebilir"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp
 #: model_terms:ir.ui.view,arch_db:auth_totp.view_totp_field
@@ -2348,11 +2408,20 @@ msgstr "Doğrulama kodu yalnızca sayıları içermelidir"
 #. module: auth_totp
 #: model_terms:ir.ui.view,arch_db:auth_totp.auth_totp_form
 msgid ""
+<<<<<<< HEAD
 "To login, enter below the six-digit authentication code provided by your Authenticator app.\n"
 "                        <br/>"
 msgstr ""
 "Oturum açmak için, Authenticator uygulamanız tarafından sağlanan altı haneli"
 " kimlik doğrulama kodunu aşağıya girin.                        <br/>"
+=======
+"To login, enter below the six-digit authentication code provided by your "
+"Authenticator app.\n"
+"                        <br/>"
+msgstr ""
+"Oturum açmak için, Authenticator uygulamanız tarafından sağlanan altı haneli "
+"kimlik doğrulama kodunu aşağıya girin.                        <br/>"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp
 #: model:ir.model.fields,field_description:auth_totp.field_res_users__totp_secret
@@ -2384,12 +2453,26 @@ msgstr "İki Faktörlü Kimlik Doğrulama"
 #: model_terms:ir.ui.view,arch_db:auth_totp.view_totp_form
 msgid ""
 "Two-factor Authentication (\"2FA\") is a system of double authentication.\n"
+<<<<<<< HEAD
 "                        The first one is done with your password and the second one with a code you get from a dedicated mobile app.\n"
 "                        Popular ones include Authy, Google Authenticator or the Microsoft Authenticator."
 msgstr ""
 "İki Faktörlü Kimlik Doğrulama (\"2FA\"), bir çift kimlik doğrulama sistemidir.\n"
 "                            Birincisi şifrenizle ve ikincisi özel bir mobil uygulamadan aldığınız bir kodla yapılır.\n"
 "                            Popüler olanlar arasında Authy, Google Authenticator veya Microsoft Authenticator bulunur."
+=======
+"                        The first one is done with your password and the "
+"second one with a code you get from a dedicated mobile app.\n"
+"                        Popular ones include Authy, Google Authenticator or "
+"the Microsoft Authenticator."
+msgstr ""
+"İki Faktörlü Kimlik Doğrulama (\"2FA\"), bir çift kimlik doğrulama "
+"sistemidir.\n"
+"                            Birincisi şifrenizle ve ikincisi özel bir mobil "
+"uygulamadan aldığınız bir kodla yapılır.\n"
+"                            Popüler olanlar arasında Authy, Google "
+"Authenticator veya Microsoft Authenticator bulunur."
+>>>>>>> upstream/18.0
 
 #. module: auth_totp
 #: model:ir.model.fields,field_description:auth_totp.field_res_users__totp_enabled

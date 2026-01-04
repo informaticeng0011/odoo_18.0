@@ -1,7 +1,11 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* stock_landed_costs
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 # Translators:
 # aleksandar ivanov, 2024
 # Ивайло Малинов <iv.malinov@gmail.com>, 2024
@@ -14,11 +18,16 @@
 # Maria Boyadjieva <marabo2000@gmail.com>, 2024
 # Rosen Vladimirov <vladimirov.rosen@gmail.com>, 2024
 # Veselina Slavkova, 2025
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 "Last-Translator: Veselina Slavkova, 2025\n"
@@ -27,6 +36,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: bg\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2024-09-25 09:42+0000\n"
+"Last-Translator: Veselina Slavkova, 2025\n"
+"Language-Team: Bulgarian (https://app.transifex.com/odoo/teams/41243/bg/)\n"
+"Language: bg\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+>>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: stock_landed_costs
@@ -37,7 +56,12 @@ msgstr ""
 
 #. module: stock_landed_costs
 #: model_terms:ir.ui.view,arch_db:stock_landed_costs.stock_landed_cost_view_kanban
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-clock-o\" title=\"Date\" role=\"img\" aria-label=\"Date\"/>"
+=======
+msgid ""
+"<i class=\"fa fa-clock-o\" title=\"Date\" role=\"img\" aria-label=\"Date\"/>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock_landed_costs
@@ -597,8 +621,12 @@ msgstr "SMS грешка при доставка"
 #: model_terms:ir.ui.view,arch_db:stock_landed_costs.view_stock_landed_cost_search
 msgid "Show all records which has next action date is before today"
 msgstr ""
+<<<<<<< HEAD
 "Показване на всички записи, на които следващата дата на действие е преди "
 "днес"
+=======
+"Показване на всички записи, на които следващата дата на действие е преди днес"
+>>>>>>> upstream/18.0
 
 #. module: stock_landed_costs
 #: model:ir.model.fields,field_description:stock_landed_costs.field_stock_landed_cost_lines__split_method
@@ -734,6 +762,11 @@ msgstr ""
 #. odoo-python
 #: code:addons/stock_landed_costs/models/product.py:0
 msgid ""
+<<<<<<< HEAD
 "You cannot change the product type or disable landed cost option because the"
 " product is used in an account move line."
+=======
+"You cannot change the product type or disable landed cost option because the "
+"product is used in an account move line."
+>>>>>>> upstream/18.0
 msgstr ""

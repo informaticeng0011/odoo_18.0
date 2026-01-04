@@ -39,6 +39,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
@@ -148,6 +152,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2023-05-16 13:48+0000\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -363,6 +368,13 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2025-12-31 16:36+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Kabyle <https://translate.odoo.com/projects/odoo-18/"
+"account_payment/kab/>\n"
+>>>>>>> upstream/18.0
 "Language: kab\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -403,6 +415,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "X-Generator: Weblate 5.12.2\n"
 >>>>>>> upstream/18.0
@@ -507,6 +520,23 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 "X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.14.3\n"
+
+#. module: account_payment
+#. odoo-python
+#: code:addons/account_payment/wizards/payment_link_wizard.py:0
+msgid ""
+"#%(number)s - Installment of <strong>%(amount)s</strong> due on <strong "
+"class=\"text-primary\">%(date)s</strong>"
+msgstr ""
+
+#. module: account_payment
+#. odoo-javascript
+#: code:addons/account_payment/static/src/js/portal_my_invoices_payment.js:0
+msgid "%s day(s) overdue"
+msgstr ""
 >>>>>>> upstream/18.0
 
 #. module: account_payment
@@ -516,7 +546,13 @@ msgstr ""
 
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_my_invoices_payment
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-arrow-circle-right\"/><span class=\"d-none d-md-inline\"> Pay Now</span>"
+=======
+msgid ""
+"<i class=\"fa fa-arrow-circle-right\"/><span class=\"d-none d-md-inline\"> "
+"Pay Now</span>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account_payment
@@ -549,28 +585,66 @@ msgid "<i class=\"fa fa-fw fa-check-circle\"/> Pending"
 msgstr ""
 
 #. module: account_payment
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_page_inherit_payment
+msgid "<i class=\"fa fa-fw fa-check-circle\"/> Processing Payment"
+msgstr ""
+
+#. module: account_payment
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_my_invoices_payment
 msgid "<span class=\"d-none d-md-inline\"> Pending</span>"
 msgstr ""
 
 #. module: account_payment
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account_payment.account_invoice_view_form_inherit_payment
 msgid "<span class=\"o_stat_text\">Payment Transaction</span>"
+=======
+#: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_payment
+msgid "<strong>Full Amount</strong><br/>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_payment
 msgid ""
+<<<<<<< HEAD
 "<strong>No suitable payment option could be found.</strong><br/>\n"
 "                                If you believe that it is an error, please contact the website administrator."
+=======
+"<strong>Installment</strong>\n"
+"                                        <br/>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.payment_refund_wizard_view_form
 msgid ""
 "<strong>Warning!</strong> There is a refund pending for this payment.\n"
+<<<<<<< HEAD
 "                        Wait a moment for it to be processed. If the refund is still pending in a\n"
 "                        few minutes, please check your payment provider configuration."
+=======
+"                        Wait a moment for it to be processed. If the refund "
+"is still pending in a\n"
+"                        few minutes, please check your payment provider "
+"configuration."
+msgstr ""
+
+#. module: account_payment
+#. odoo-python
+#: code:addons/account_payment/wizards/payment_link_wizard.py:0
+msgid "A discount will be applied if the customer pays before %s included."
+msgstr ""
+
+#. module: account_payment
+#: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_payment
+msgid ""
+"A payment has already been made on this invoice, please make sure to not pay "
+"twice."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account_payment
@@ -586,31 +660,63 @@ msgid "A token is required to create a new payment transaction."
 msgstr ""
 
 #. module: account_payment
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account_payment.payment_onboarding_step
+=======
+#: model:onboarding.onboarding.step,button_text:account_payment.onboarding_onboarding_step_payment_provider
+>>>>>>> upstream/18.0
 msgid "Activate Stripe"
 msgstr ""
 
 #. module: account_payment
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_payment
+#: model_terms:ir.ui.view,arch_db:account_payment.portal_overdue_invoices_page
+msgid "Amount"
+msgstr "Azal"
+
+#. module: account_payment
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:account_payment.field_account_payment__amount_available_for_refund
 msgid "Amount Available For Refund"
 msgstr ""
 
 #. module: account_payment
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:account_payment.field_account_bank_statement_line__amount_paid
 #: model:ir.model.fields,field_description:account_payment.field_account_move__amount_paid
 #: model:ir.model.fields,field_description:account_payment.field_account_payment__amount_paid
+=======
+#: model:ir.model.fields,field_description:account_payment.field_payment_link_wizard__invoice_amount_due
+msgid "Amount Due"
+msgstr ""
+
+#. module: account_payment
+#: model:ir.model.fields,field_description:account_payment.field_account_bank_statement_line__amount_paid
+#: model:ir.model.fields,field_description:account_payment.field_account_move__amount_paid
+>>>>>>> upstream/18.0
 msgid "Amount paid"
 msgstr ""
 
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.account_invoice_view_form_inherit_payment
+<<<<<<< HEAD
 msgid "Are you sure you want to void the authorized transaction? This action can't be undone."
+=======
+msgid ""
+"Are you sure you want to void the authorized transaction? This action can't "
+"be undone."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account_payment
 #: model:ir.model.fields,field_description:account_payment.field_account_bank_statement_line__authorized_transaction_ids
 #: model:ir.model.fields,field_description:account_payment.field_account_move__authorized_transaction_ids
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:account_payment.field_account_payment__authorized_transaction_ids
+=======
+>>>>>>> upstream/18.0
 msgid "Authorized Transactions"
 msgstr ""
 
@@ -622,6 +728,7 @@ msgstr ""
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.payment_refund_wizard_view_form
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_payment
+<<<<<<< HEAD
 msgid "Close"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1054,6 +1161,11 @@ msgstr "Tikebbaniyin"
 =======
 msgstr "Tikebbaniyin"
 >>>>>>> upstream/18.0
+=======
+#: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_payment_paid
+msgid "Close"
+msgstr "Mdel"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model:ir.model,name:account_payment.model_res_config_settings
@@ -1093,7 +1205,11 @@ msgid "Config Settings"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sefrek aɣewwaṛ"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sefrek aɣewwaṛ"
 >>>>>>> upstream/18.0
@@ -1238,7 +1354,11 @@ msgid "Created by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Yerna-t"
+>>>>>>> upstream/18.0
 =======
 msgstr "Yerna-t"
 >>>>>>> upstream/18.0
@@ -1383,7 +1503,11 @@ msgid "Created on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Yerna di"
+>>>>>>> upstream/18.0
 =======
 msgstr "Yerna di"
 >>>>>>> upstream/18.0
@@ -1528,6 +1652,7 @@ msgid "Currency"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Tanfalit"
@@ -1634,10 +1759,19 @@ msgstr "Tanfalit"
 =======
 msgstr "Tanfalit"
 >>>>>>> upstream/18.0
+=======
+msgstr "Tanfalit"
+
+#. module: account_payment
+#: model:ir.model.fields,field_description:account_payment.field_payment_link_wizard__discount_date
+msgid "Discount Date"
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model:ir.model.fields,field_description:account_payment.field_payment_refund_wizard__display_name
 msgid "Display Name"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1788,6 +1922,40 @@ msgstr ""
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.payment_onboarding_step
 msgid "Enable credit &amp; debit card payments supported by Stripe"
+=======
+msgstr "Isem n Ubeqqeḍ"
+
+#. module: account_payment
+#: model:ir.model.fields,field_description:account_payment.field_payment_link_wizard__display_open_installments
+msgid "Display Open Installments"
+msgstr ""
+
+#. module: account_payment
+#: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_success
+msgid ""
+"Done, your online payment has been successfully processed. Thank you for "
+"your order."
+msgstr ""
+
+#. module: account_payment
+#: model:ir.model.fields,field_description:account_payment.field_payment_link_wizard__epd_info
+msgid "Early Payment Discount Information"
+msgstr ""
+
+#. module: account_payment
+#: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_payment
+msgid "Early Payment Discount of"
+msgstr ""
+
+#. module: account_payment
+#: model:onboarding.onboarding.step,description:account_payment.onboarding_onboarding_step_payment_provider
+msgid "Enable credit & debit card payments supported by Stripe."
+msgstr ""
+
+#. module: account_payment
+#: model:ir.model.fields.selection,name:account_payment.selection__payment_refund_wizard__support_refund__full_only
+msgid "Full Only"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account_payment
@@ -1801,6 +1969,14 @@ msgid "Generate a Payment Link"
 msgstr ""
 
 #. module: account_payment
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:account_payment.field_payment_link_wizard__has_eligible_epd
+msgid "Has Eligible Epd"
+msgstr ""
+
+#. module: account_payment
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:account_payment.field_payment_refund_wizard__has_pending_refund
 msgid "Has a pending refund"
 msgstr ""
@@ -1843,6 +2019,7 @@ msgid "ID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Asulay"
@@ -1948,6 +2125,17 @@ msgstr "Asulay"
 >>>>>>> upstream/18.0
 =======
 msgstr "Asulay"
+>>>>>>> upstream/18.0
+=======
+msgstr "Asulay"
+
+#. module: account_payment
+#. odoo-python
+#: code:addons/account_payment/controllers/payment.py:0
+msgid ""
+"Impossible to pay all the overdue invoices if they don't share the same "
+"currency."
+msgstr ""
 >>>>>>> upstream/18.0
 
 #. module: account_payment
@@ -2007,6 +2195,7 @@ msgid "Invoices"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Tifaturin"
@@ -2112,6 +2301,14 @@ msgstr "Tifaturin"
 >>>>>>> upstream/18.0
 =======
 msgstr "Tifaturin"
+>>>>>>> upstream/18.0
+=======
+msgstr "Tifaturin"
+
+#. module: account_payment
+#: model_terms:ir.ui.view,arch_db:account_payment.portal_my_home_overdue_invoice
+msgid "Invoices &amp; Bills"
+msgstr ""
 >>>>>>> upstream/18.0
 
 #. module: account_payment
@@ -2120,6 +2317,7 @@ msgid "Invoices Count"
 msgstr ""
 
 #. module: account_payment
+<<<<<<< HEAD
 #: model:ir.model,name:account_payment.model_account_journal
 msgid "Journal"
 <<<<<<< HEAD
@@ -2263,6 +2461,16 @@ msgstr "Aɣemis"
 =======
 msgstr "Aɣemis"
 >>>>>>> upstream/18.0
+=======
+#: model_terms:ir.ui.view,arch_db:account_payment.portal_my_home_account_payment
+msgid "Invoices to pay"
+msgstr ""
+
+#. module: account_payment
+#: model:ir.model,name:account_payment.model_account_journal
+msgid "Journal"
+msgstr "Aɣemis"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model:ir.model,name:account_payment.model_account_move
@@ -2302,7 +2510,11 @@ msgid "Journal Entry"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Taceqquft n tsiḍent"
+>>>>>>> upstream/18.0
 =======
 msgstr "Taceqquft n tsiḍent"
 >>>>>>> upstream/18.0
@@ -2447,7 +2659,11 @@ msgid "Last Updated by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aleqqem aneggaru sɣuṛ"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aleqqem aneggaru sɣuṛ"
 >>>>>>> upstream/18.0
@@ -2592,7 +2808,11 @@ msgid "Last Updated on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aleqqem aneggaru di"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aleqqem aneggaru di"
 >>>>>>> upstream/18.0
@@ -2705,23 +2925,95 @@ msgid "Maximum Refund Allowed"
 msgstr ""
 
 #. module: account_payment
+<<<<<<< HEAD
 #: model:ir.model.fields,help:account_payment.field_account_payment__payment_token_id
 msgid "Note that only tokens from providers allowing to capture the amount are available."
+=======
+#: model_terms:ir.ui.view,arch_db:account_payment.payment_link_wizard__form_inherit_account_payment
+msgid "Next Installments"
+msgstr ""
+
+#. module: account_payment
+#: model:ir.model.fields,help:account_payment.field_account_payment__payment_token_id
+msgid ""
+"Note that only tokens from providers allowing to capture the amount are "
+"available."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account_payment
 #: model:ir.model.fields,help:account_payment.field_account_payment_register__payment_token_id
+<<<<<<< HEAD
 msgid "Note that tokens from providers set to only authorize transactions (instead of capturing the amount) are not available."
 msgstr ""
 
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.payment_onboarding_step
+=======
+msgid ""
+"Note that tokens from providers set to only authorize transactions (instead "
+"of capturing the amount) are not available."
+msgstr ""
+
+#. module: account_payment
+#: model:onboarding.onboarding.step,step_image_alt:account_payment.onboarding_onboarding_step_payment_provider
+msgid "Onboarding Online Payments"
+msgstr ""
+
+#. module: account_payment
+#: model:ir.model,name:account_payment.model_onboarding_onboarding_step
+msgid "Onboarding Step"
+msgstr ""
+
+#. module: account_payment
+#: model:onboarding.onboarding.step,title:account_payment.onboarding_onboarding_step_payment_provider
+>>>>>>> upstream/18.0
 msgid "Online Payments"
 msgstr ""
 
 #. module: account_payment
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account_payment.payment_onboarding_step
 msgid "Online payments enabled"
+=======
+#. odoo-python
+#: code:addons/account_payment/wizards/payment_link_wizard.py:0
+msgid "Online payment option is not enabled in Configuration."
+msgstr ""
+
+#. module: account_payment
+#. odoo-python
+#: code:addons/account_payment/controllers/portal.py:0
+msgid "Overdue invoices should share the same company."
+msgstr ""
+
+#. module: account_payment
+#. odoo-python
+#: code:addons/account_payment/controllers/portal.py:0
+msgid "Overdue invoices should share the same currency."
+msgstr ""
+
+#. module: account_payment
+#. odoo-python
+#: code:addons/account_payment/controllers/portal.py:0
+msgid "Overdue invoices should share the same partner."
+msgstr ""
+
+#. module: account_payment
+#: model:ir.model.fields.selection,name:account_payment.selection__payment_refund_wizard__support_refund__partial
+msgid "Partial"
+msgstr "Partiel"
+
+#. module: account_payment
+#: model:ir.model,name:account_payment.model_account_payment_register
+#: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_payment
+msgid "Pay"
+msgstr ""
+
+#. module: account_payment
+#: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_payment_paid
+msgid "Pay Invoice"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account_payment
@@ -2730,6 +3022,10 @@ msgid "Pay Invoices Online"
 msgstr ""
 
 #. module: account_payment
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:account_payment.portal_docs_entry
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_my_invoices_payment
 msgid "Pay Now"
 msgstr ""
@@ -2740,8 +3036,13 @@ msgid "Pay now"
 msgstr ""
 
 #. module: account_payment
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_payment
 msgid "Pay with"
+=======
+#: model_terms:ir.ui.view,arch_db:account_payment.portal_my_home_overdue_invoice
+msgid "Pay overdue"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account_payment
@@ -2783,7 +3084,11 @@ msgid "Payment"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Afru"
+>>>>>>> upstream/18.0
 =======
 msgstr "Afru"
 >>>>>>> upstream/18.0
@@ -2940,7 +3245,11 @@ msgid "Payment Methods"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tarrayin n ufru"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tarrayin n ufru"
 >>>>>>> upstream/18.0
@@ -3072,6 +3381,7 @@ msgstr ""
 #: model:ir.model,name:account_payment.model_payment_transaction
 #: model:ir.model.fields,field_description:account_payment.field_account_payment__payment_transaction_id
 #: model:ir.model.fields,field_description:account_payment.field_payment_refund_wizard__transaction_id
+<<<<<<< HEAD
 msgid "Payment Transaction"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3214,6 +3524,11 @@ msgstr "Tanigawt n ufru"
 =======
 msgstr "Tanigawt n ufru"
 >>>>>>> upstream/18.0
+=======
+#: model_terms:ir.ui.view,arch_db:account_payment.account_invoice_view_form_inherit_payment
+msgid "Payment Transaction"
+msgstr "Tanigawt n ufru"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model:ir.ui.menu,name:account_payment.payment_transaction_menu
@@ -3258,6 +3573,7 @@ msgid "Payments"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Afru"
@@ -3363,6 +3679,15 @@ msgstr "Afru"
 >>>>>>> upstream/18.0
 =======
 msgstr "Afru"
+>>>>>>> upstream/18.0
+=======
+msgstr "Afru"
+
+#. module: account_payment
+#. odoo-python
+#: code:addons/account_payment/controllers/payment.py:0
+msgid "Please log in to pay your overdue invoices"
+msgstr ""
 >>>>>>> upstream/18.0
 
 #. module: account_payment
@@ -3372,8 +3697,20 @@ msgid "Provider"
 msgstr ""
 
 #. module: account_payment
+<<<<<<< HEAD
 #. odoo-python
 #: code:addons/account_payment/models/account_payment.py:0
+=======
+#: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_payment
+#: model_terms:ir.ui.view,arch_db:account_payment.portal_overdue_invoices_page
+msgid "Reference"
+msgstr "Tamsisɣelt"
+
+#. module: account_payment
+#. odoo-python
+#: code:addons/account_payment/models/account_payment.py:0
+#: model:ir.model.fields,field_description:account_payment.field_payment_refund_wizard__support_refund
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:account_payment.payment_refund_wizard_view_form
 #: model_terms:ir.ui.view,arch_db:account_payment.view_account_payment_form_inherit_payment
 msgid "Refund"
@@ -3400,11 +3737,14 @@ msgid "Refunds Count"
 msgstr ""
 
 #. module: account_payment
+<<<<<<< HEAD
 #: model:ir.model,name:account_payment.model_account_payment_register
 msgid "Register Payment"
 msgstr ""
 
 #. module: account_payment
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:account_payment.view_account_journal_form
 msgid "SETUP"
 msgstr ""
@@ -3462,6 +3802,7 @@ msgid "State"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Aɣir(Wilaya)"
@@ -3567,6 +3908,14 @@ msgstr "Aɣir(Wilaya)"
 >>>>>>> upstream/18.0
 =======
 msgstr "Aɣir(Wilaya)"
+>>>>>>> upstream/18.0
+=======
+msgstr "Aɣir(Wilaya)"
+
+#. module: account_payment
+#: model:onboarding.onboarding.step,done_text:account_payment.onboarding_onboarding_step_payment_provider
+msgid "Step Completed!"
+msgstr ""
 >>>>>>> upstream/18.0
 
 #. module: account_payment
@@ -3584,7 +3933,12 @@ msgstr ""
 #. module: account_payment
 #. odoo-python
 #: code:addons/account_payment/wizards/payment_refund_wizard.py:0
+<<<<<<< HEAD
 msgid "The amount to be refunded must be positive and cannot be superior to %s."
+=======
+msgid ""
+"The amount to be refunded must be positive and cannot be superior to %s."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account_payment
@@ -3595,7 +3949,13 @@ msgstr ""
 #. module: account_payment
 #. odoo-python
 #: code:addons/account_payment/models/payment_transaction.py:0
+<<<<<<< HEAD
 msgid "The payment related to the transaction with reference %(ref)s has been posted: %(link)s"
+=======
+msgid ""
+"The payment related to the transaction with reference %(ref)s has been "
+"posted: %(link)s"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account_payment
@@ -3610,13 +3970,34 @@ msgid "The source payment of related refund payments"
 msgstr ""
 
 #. module: account_payment
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/account_payment/models/account_move.py:0
+msgid "There are pending transactions for this invoice."
+msgstr ""
+
+#. module: account_payment
+#. odoo-python
+#: code:addons/account_payment/models/account_move.py:0
+msgid "There is no amount to be paid."
+msgstr ""
+
+#. module: account_payment
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_error
 msgid "There was an error processing your payment: invalid invoice."
 msgstr ""
 
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_error
+<<<<<<< HEAD
 msgid "There was an error processing your payment: issue with credit card ID validation."
+=======
+msgid ""
+"There was an error processing your payment: issue with credit card ID "
+"validation."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account_payment
@@ -3630,15 +4011,55 @@ msgid "There was en error processing your payment: invalid credit card ID."
 msgstr ""
 
 #. module: account_payment
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:account_payment.field_account_bank_statement_line__transaction_ids
 #: model:ir.model.fields,field_description:account_payment.field_account_move__transaction_ids
 #: model:ir.model.fields,field_description:account_payment.field_account_payment__transaction_ids
+=======
+#. odoo-python
+#: code:addons/account_payment/models/account_move.py:0
+msgid "This invoice cannot be paid online."
+msgstr ""
+
+#. module: account_payment
+#. odoo-python
+#: code:addons/account_payment/models/account_move.py:0
+msgid "This invoice has already been paid."
+msgstr ""
+
+#. module: account_payment
+#. odoo-python
+#: code:addons/account_payment/models/account_move.py:0
+msgid "This invoice isn't posted."
+msgstr ""
+
+#. module: account_payment
+#. odoo-python
+#: code:addons/account_payment/models/account_move.py:0
+msgid "This is not an outgoing invoice."
+msgstr ""
+
+#. module: account_payment
+#: model:ir.model.fields,field_description:account_payment.field_account_bank_statement_line__transaction_count
+#: model:ir.model.fields,field_description:account_payment.field_account_move__transaction_count
+msgid "Transaction Count"
+msgstr ""
+
+#. module: account_payment
+#: model:ir.model.fields,field_description:account_payment.field_account_bank_statement_line__transaction_ids
+#: model:ir.model.fields,field_description:account_payment.field_account_move__transaction_ids
+>>>>>>> upstream/18.0
 msgid "Transactions"
 msgstr ""
 
 #. module: account_payment
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:account_payment.field_payment_refund_wizard__support_refund
 msgid "Type of Refund Supported"
+=======
+#: model:ir.model.fields.selection,name:account_payment.selection__payment_refund_wizard__support_refund__none
+msgid "Unsupported"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account_payment
@@ -3654,10 +4075,26 @@ msgstr ""
 
 #. module: account_payment
 #. odoo-python
+<<<<<<< HEAD
 #: code:addons/account_payment/models/account_journal.py:0
 msgid ""
 "You can't delete a payment method that is linked to a provider in the enabled or test state.\n"
 "Linked provider(s): %s"
+=======
+#: code:addons/account_payment/models/account_payment_method_line.py:0
+msgid ""
+"You can't delete a payment method that is linked to a provider in the "
+"enabled or test state.\n"
+"Linked providers(s): %s"
+msgstr ""
+
+#. module: account_payment
+#. odoo-python
+#: code:addons/account_payment/models/payment_provider.py:0
+msgid ""
+"You cannot uninstall this module as payments using this payment method "
+"already exist."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account_payment
@@ -3667,3 +4104,34 @@ msgid ""
 "You must first deactivate a payment provider before deleting its journal.\n"
 "Linked providers: %s"
 msgstr ""
+<<<<<<< HEAD
+=======
+
+#. module: account_payment
+#. odoo-javascript
+#: code:addons/account_payment/static/src/js/portal_my_invoices_payment.js:0
+msgid "due in %s day(s)"
+msgstr ""
+
+#. module: account_payment
+#. odoo-javascript
+#: code:addons/account_payment/static/src/js/portal_my_invoices_payment.js:0
+msgid "due today"
+msgstr ""
+
+#. module: account_payment
+#: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_payment
+msgid "has been applied."
+msgstr ""
+
+#. module: account_payment
+#: model_terms:ir.ui.view,arch_db:account_payment.portal_my_invoices_payment
+msgid "overdue"
+msgstr ""
+
+#~ msgid "Code"
+#~ msgstr "Tangalt"
+
+#~ msgid "Companies"
+#~ msgstr "Tikebbaniyin"
+>>>>>>> upstream/18.0

@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* payment_adyen
+<<<<<<< HEAD
 # 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1213,11 +1214,18 @@
 # Translators:
 # Raz Omer Hussein, 2025
 # 
+>>>>>>> upstream/18.0
+=======
+#
+# Translators:
+# Raz Omer Hussein, 2025
+#
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
@@ -2033,21 +2041,43 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: ku\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:38+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Raz Omer Hussein, 2025\n"
+"Language-Team: Kurdish (https://app.transifex.com/odoo/teams/41243/ku/)\n"
+"Language: ku\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+>>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: payment_adyen
 #: model_terms:ir.ui.view,arch_db:payment_adyen.payment_provider_form
 msgid ""
+<<<<<<< HEAD
 "<strong>Warning:</strong> To capture the amount manually, you also need to set\n"
 "                    the Capture Delay to manual on your Adyen account settings."
+=======
+"<strong>Warning:</strong> To capture the amount manually, you also need to "
+"set\n"
+"                    the Capture Delay to manual on your Adyen account "
+"settings."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: payment_adyen
 #. odoo-python
 #: code:addons/payment_adyen/models/payment_transaction.py:0
 msgid ""
+<<<<<<< HEAD
 "A request was sent to void the transaction with reference %(reference)s "
 "(%(provider)s)."
+=======
+"A request was sent to void the transaction with reference %(reference)s (%"
+"(provider)s)."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: payment_adyen
@@ -2288,7 +2318,11 @@ msgid "Code"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "کۆد"
+>>>>>>> upstream/18.0
 =======
 msgstr "کۆد"
 >>>>>>> upstream/18.0
@@ -3063,7 +3097,11 @@ msgid "Learn More"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "زیاتر بزانە"
+>>>>>>> upstream/18.0
 =======
 msgstr "زیاتر بزانە"
 >>>>>>> upstream/18.0
@@ -3655,7 +3693,11 @@ msgid "Payment Provider"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "دابینکەری پارەدان"
+>>>>>>> upstream/18.0
 =======
 msgstr "دابینکەری پارەدان"
 >>>>>>> upstream/18.0
@@ -4245,7 +4287,11 @@ msgid "Payment Transaction"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "مامەڵەی پارەدان"
+>>>>>>> upstream/18.0
 =======
 msgstr "مامەڵەی پارەدان"
 >>>>>>> upstream/18.0
@@ -4763,8 +4809,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/payment_adyen/models/payment_transaction.py:0
 msgid ""
+<<<<<<< HEAD
 "The capture request of %(amount)s for the transaction with reference %(ref)s"
 " has been requested (%(provider_name)s)."
+=======
+"The capture request of %(amount)s for the transaction with reference %(ref)s "
+"has been requested (%(provider_name)s)."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: payment_adyen

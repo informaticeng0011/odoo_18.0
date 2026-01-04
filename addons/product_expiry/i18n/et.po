@@ -42,8 +42,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* product_expiry
 # 
+=======
+# * product_expiry
+#
+>>>>>>> upstream/18.0
 =======
 # * product_expiry
 #
@@ -264,7 +269,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
@@ -395,6 +404,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-03-19 20:37+0000\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -529,6 +539,9 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-11-10 12:46+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Estonian <https://translate.odoo.com/projects/odoo-18/"
@@ -580,6 +593,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -722,6 +738,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "<span title=\"Alert\" class=\"fa fa-exclamation-triangle text-danger me-2\" "
 "invisible="
@@ -931,6 +948,11 @@ msgstr ""
 "<span title=\"Alert\" class=\"fa fa-exclamation-triangle text-danger me-2\" "
 "invisible="
 "\"product_qty &lt;= 0 or not product_expiry_alert or not expiration_date\"/>"
+>>>>>>> upstream/18.0
+=======
+"<span title=\"Alert\" class=\"fa fa-exclamation-triangle text-danger me-2\" "
+"invisible=\"product_qty &lt;= 0 or not product_expiry_alert or not "
+"expiration_date\"/>"
 >>>>>>> upstream/18.0
 
 #. module: product_expiry
@@ -1153,8 +1175,13 @@ msgstr ""
 #: model:ir.model.fields,help:product_expiry.field_product_template__use_time
 msgid ""
 "Number of days before the Expiration Date after which the goods starts "
+<<<<<<< HEAD
 "deteriorating, without being dangerous yet. It will be computed on the "
 "lot/serial number."
+=======
+"deteriorating, without being dangerous yet. It will be computed on the lot/"
+"serial number."
+>>>>>>> upstream/18.0
 msgstr ""
 "Päevade arv enne aegumiskuupäeva, mille järel kaup hakkab riknema, ilma et "
 "see oleks veel ohtlik. See arvutatakse partii/seerianumbri alusel."
@@ -1243,8 +1270,13 @@ msgid ""
 "This is the date on which the goods with this Serial Number may become "
 "dangerous and must not be consumed."
 msgstr ""
+<<<<<<< HEAD
 "See on kuupäev, mil selle seerianumbriga kaup võib muutuda ohtlikuks ja seda"
 " ei tohi tarbida."
+=======
+"See on kuupäev, mil selle seerianumbriga kaup võib muutuda ohtlikuks ja seda "
+"ei tohi tarbida."
+>>>>>>> upstream/18.0
 
 #. module: product_expiry
 #: model:ir.model.fields,help:product_expiry.field_stock_lot__removal_date
@@ -1288,8 +1320,13 @@ msgstr "Kasutage aegumiskuupäeva"
 #: model:ir.model.fields,help:product_expiry.field_stock_move_line__use_expiration_date
 #: model:ir.model.fields,help:product_expiry.field_stock_quant__use_expiration_date
 msgid ""
+<<<<<<< HEAD
 "When this box is ticked, you have the possibility to specify dates to manage"
 " product expiration, on the product and on the corresponding lot/serial "
+=======
+"When this box is ticked, you have the possibility to specify dates to manage "
+"product expiration, on the product and on the corresponding lot/serial "
+>>>>>>> upstream/18.0
 "numbers"
 msgstr ""
 "Kui see valik on märgitud, on Teil võimalik määrata kuupäevi toodete "
@@ -1307,7 +1344,12 @@ msgstr "Tarnid mõnda aegunud tootepartiid. Kas kinnitad, et soovid jätkata?"
 #. odoo-python
 #: code:addons/product_expiry/wizard/confirm_expiry.py:0
 msgid ""
+<<<<<<< HEAD
 "You are going to deliver the product %(product_name)s, %(lot_name)s which is expired.\n"
+=======
+"You are going to deliver the product %(product_name)s, %(lot_name)s which is "
+"expired.\n"
+>>>>>>> upstream/18.0
 "Do you confirm you want to proceed?"
 msgstr ""
 "Tarnid toodet %(product_name)s, %(lot_name)s, mis on aegunud.\n"

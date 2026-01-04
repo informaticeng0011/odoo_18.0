@@ -1,14 +1,22 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* microsoft_account
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
 # 
+=======
+#
+# Translators:
+# Wil Odoo, 2024
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 17.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2023-10-26 21:55+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Wil Odoo, 2024\n"
@@ -17,13 +25,29 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: ja\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Wil Odoo, 2024\n"
+"Language-Team: Japanese (https://app.transifex.com/odoo/teams/41243/ja/)\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+>>>>>>> upstream/18.0
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: microsoft_account
 #. odoo-python
 #: code:addons/microsoft_account/models/microsoft_service.py:0
 msgid "Method not supported [%s] not in [GET, POST, PUT, PATCH or DELETE]!"
+<<<<<<< HEAD
 msgstr "サポートされていないメソッド [%s]これらは[GET、POST、PUT、PATCH、DELETE]内にありません！"
+=======
+msgstr ""
+"サポートされていないメソッド [%s]これらは[GET、POST、PUT、PATCH、DELETE]内に"
+"ありません！"
+>>>>>>> upstream/18.0
 
 #. module: microsoft_account
 #: model:ir.model.fields,field_description:microsoft_account.field_res_users__microsoft_calendar_rtoken
@@ -51,7 +75,13 @@ msgstr "Microsoftユーザトークン"
 msgid ""
 "Something went wrong during your token generation. Maybe your Authorization "
 "Code is invalid"
+<<<<<<< HEAD
 msgstr "トークンの生成中に何か問題が発生しました。 承認コードが無効である可能性があります"
+=======
+msgstr ""
+"トークンの生成中に何か問題が発生しました。 承認コードが無効である可能性があり"
+"ます"
+>>>>>>> upstream/18.0
 
 #. module: microsoft_account
 #. odoo-python
@@ -59,7 +89,13 @@ msgstr "トークンの生成中に何か問題が発生しました。 承認�
 msgid ""
 "Something went wrong during your token generation. Maybe your Authorization "
 "Code is invalid or already expired"
+<<<<<<< HEAD
 msgstr "トークンの生成中に何か問題が発生しました。 承認コードが無効であるかすでに失効している可能性があります "
+=======
+msgstr ""
+"トークンの生成中に何か問題が発生しました。 承認コードが無効であるかすでに失効"
+"している可能性があります "
+>>>>>>> upstream/18.0
 
 #. module: microsoft_account
 #: model:ir.model,name:microsoft_account.model_res_users

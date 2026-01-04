@@ -114,6 +114,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* base_import_module
 # 
 # Translators:
@@ -471,6 +472,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # * base_import_module
 #
 # Translators:
@@ -590,6 +593,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -969,6 +975,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Noemi Pla, 2025
 >>>>>>> upstream/18.0
@@ -1063,6 +1070,10 @@
 # Noemi Pla, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+# Noemi Pla, 2025
+# "Noemi Pla Garcia (nopl)" <nopl@odoo.com>, 2025.
+>>>>>>> upstream/18.0
 =======
 # Noemi Pla, 2025
 # "Noemi Pla Garcia (nopl)" <nopl@odoo.com>, 2025.
@@ -1523,6 +1534,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-11-19 15:46+0000\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1997,6 +2009,9 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-09-02 22:21+0000\n"
 "Last-Translator: \"Noemi Pla Garcia (nopl)\" <nopl@odoo.com>\n"
 "Language-Team: Catalan <https://translate.odoo.com/projects/odoo-18/"
@@ -2120,6 +2135,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2353,6 +2371,7 @@ msgstr ""
 #: code:addons/base_import_module/models/ir_module.py:0
 msgid ""
 "\n"
+<<<<<<< HEAD
 "You may need the Enterprise version to install the data module. Please visit https://www.odoo.com/pricing-plan for more information.\n"
 "If you need Website themes, it can be downloaded from https://github.com/odoo/design-themes.\n"
 msgstr ""
@@ -2697,6 +2716,13 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"You may need the Enterprise version to install the data module. Please visit "
+"https://www.odoo.com/pricing-plan for more information.\n"
+"If you need Website themes, it can be downloaded from https://github.com/"
+"odoo/design-themes.\n"
+msgstr ""
+>>>>>>> upstream/18.0
 "\n"
 "Potser necessites la versió Enterprise per instal·lar el mòdul de dades. Si "
 "us plau, visita https://www.odoo.com/pricing-plan per obtindre més "
@@ -2816,6 +2842,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3186,6 +3215,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "La connexió a%(url)sha fallat, el mòdul%(module)sno es pot descarregar."
@@ -3528,6 +3558,10 @@ msgstr "La connexió a%(url)sha fallat, el mòdul%(module)sno es pot descarregar
 >>>>>>> upstream/18.0
 =======
 msgstr "La connexió a%(url)sha fallat, el mòdul%(module)sno es pot descarregar."
+>>>>>>> upstream/18.0
+=======
+msgstr ""
+"La connexió a%(url)sha fallat, el mòdul%(module)sno es pot descarregar."
 >>>>>>> upstream/18.0
 
 #. module: base_import_module
@@ -3580,8 +3614,12 @@ msgstr "Forçar inicialització"
 
 #. module: base_import_module
 #: model:ir.model.fields,help:base_import_module.field_base_import_module__force
+<<<<<<< HEAD
 msgid ""
 "Force init mode even if installed. (will update `noupdate='1'` records)"
+=======
+msgid "Force init mode even if installed. (will update `noupdate='1'` records)"
+>>>>>>> upstream/18.0
 msgstr ""
 "Forçar el mode d'inicializació fins i tot si està instal·lat (actualitzarà "
 "els registres `noupdate='1'`)"
@@ -3697,8 +3735,12 @@ msgstr "No s'ha enviat cap arxiu."
 #: model_terms:ir.ui.view,arch_db:base_import_module.view_base_module_import
 msgid "Note: you can only import data modules (.xml files and static assets)"
 msgstr ""
+<<<<<<< HEAD
 "Nota: només es poden importar mòduls de dades (fitxers XML i actius "
 "estàtics)"
+=======
+"Nota: només es poden importar mòduls de dades (fitxers XML i actius estàtics)"
+>>>>>>> upstream/18.0
 
 #. module: base_import_module
 #: model:ir.model.fields.selection,name:base_import_module.selection__ir_module_module__module_type__official
@@ -3739,8 +3781,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/base_import_module/models/ir_module.py:0
 msgid ""
+<<<<<<< HEAD
 "The installation of the data module would fail as the following dependencies"
 " can't be found in the addons-path:\n"
+=======
+"The installation of the data module would fail as the following dependencies "
+"can't be found in the addons-path:\n"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: base_import_module
@@ -3899,7 +3946,11 @@ msgid "The module %s cannot be downloaded"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "El mòdul %s no es pot descarregar"
+>>>>>>> upstream/18.0
 =======
 msgstr "El mòdul %s no es pot descarregar"
 >>>>>>> upstream/18.0

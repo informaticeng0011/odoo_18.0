@@ -114,7 +114,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* resource
+=======
+# * resource
+>>>>>>> upstream/18.0
 =======
 # * resource
 >>>>>>> upstream/18.0
@@ -461,6 +465,7 @@
 # Translators:
 # Uros Kalajdzic <ukalajdzic@gmail.com>, 2022
 # Martin Trigaux, 2022
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -961,10 +966,15 @@
 # Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>, 2022, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
+=======
+# Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>, 2022, 2025.
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0beta\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-02-12 10:37+0000\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1403,6 +1413,11 @@ msgstr ""
 "PO-Revision-Date: 2025-11-10 09:44+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2025-11-10 09:44+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Serbian (Latin script) <https://translate.odoo.com/projects/"
 "odoo-18/resource/sr_Latn/>\n"
 "Language: sr@latin\n"
@@ -1525,6 +1540,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1771,6 +1789,14 @@ msgid "<span class=\"o_stat_text\">Work Resources</span>"
 msgstr ""
 
 #. module: resource
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:resource.resource_calendar_form
+msgid "<span> hours/week</span>"
+msgstr ""
+
+#. module: resource
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:resource.field_resource_calendar__active
 #: model:ir.model.fields,field_description:resource.field_resource_resource__active
 msgid "Active"
@@ -1792,15 +1818,25 @@ msgstr "Arhivirano"
 #. module: resource
 #: model_terms:ir.ui.view,arch_db:resource.resource_calendar_form
 msgid ""
+<<<<<<< HEAD
 "Are you sure you want to switch this calendar to 1 week calendar? All "
 "entries will be lost"
+=======
+"Are you sure you want to switch to a 1-week calendar? All work entries will "
+"be lost."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: resource
 #: model_terms:ir.ui.view,arch_db:resource.resource_calendar_form
 msgid ""
+<<<<<<< HEAD
 "Are you sure you want to switch this calendar to 2 weeks calendar? All "
 "entries will be lost"
+=======
+"Are you sure you want to switch to a 2-week calendar? All work entries will "
+"be lost."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: resource
@@ -1854,7 +1890,11 @@ msgid "Avatar 128"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Avatar 128"
+>>>>>>> upstream/18.0
 =======
 msgstr "Avatar 128"
 >>>>>>> upstream/18.0
@@ -2025,6 +2065,14 @@ msgid "Company"
 msgstr "Kompanija"
 
 #. module: resource
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:resource.field_resource_calendar__full_time_required_hours
+msgid "Company Full Time"
+msgstr ""
+
+#. module: resource
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:resource.field_resource_calendar__create_uid
 #: model:ir.model.fields,field_description:resource.field_resource_calendar_attendance__create_uid
 #: model:ir.model.fields,field_description:resource.field_resource_calendar_leaves__create_uid
@@ -2043,6 +2091,7 @@ msgstr "Kreirano"
 #. module: resource
 #: model_terms:ir.ui.view,arch_db:resource.view_resource_calendar_leaves_search
 msgid "Date"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2385,6 +2434,9 @@ msgstr "Datumi"
 =======
 msgstr "Datumi"
 >>>>>>> upstream/18.0
+=======
+msgstr "Datum"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields,field_description:resource.field_resource_calendar_attendance__day_period
@@ -2403,6 +2455,18 @@ msgid "Default Working Hours"
 msgstr ""
 
 #. module: resource
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,help:resource.field_res_users__resource_calendar_id
+#: model:ir.model.fields,help:resource.field_resource_mixin__resource_calendar_id
+#: model:ir.model.fields,help:resource.field_resource_resource__calendar_id
+msgid ""
+"Define the working schedule of the resource. If not set, the resource will "
+"have fully flexible working hours."
+msgstr ""
+
+#. module: resource
+>>>>>>> upstream/18.0
 #: model_terms:ir.actions.act_window,help:resource.action_resource_calendar_form
 msgid ""
 "Define working hours and time table that could be scheduled to your project "
@@ -2482,7 +2546,11 @@ msgid "Email"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "E-mail"
+>>>>>>> upstream/18.0
 =======
 msgstr "E-mail"
 >>>>>>> upstream/18.0
@@ -2669,6 +2737,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Spoljni korisnik sa ograničenim pristupom, kreiran samo u svrhu deljenja "
+"podataka."
+>>>>>>> upstream/18.0
 =======
 "Spoljni korisnik sa ograničenim pristupom, kreiran samo u svrhu deljenja "
 "podataka."
@@ -2850,6 +2923,14 @@ msgid "First week"
 msgstr ""
 
 #. module: resource
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:resource.field_resource_calendar__flexible_hours
+msgid "Flexible Hours"
+msgstr ""
+
+#. module: resource
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:resource.selection__resource_calendar_attendance__dayofweek__4
 msgid "Friday"
 msgstr "Petak"
@@ -2873,6 +2954,14 @@ msgid "Friday Morning"
 msgstr ""
 
 #. module: resource
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:resource.resource_resource_form
+msgid "Fully Flexible"
+msgstr ""
+
+#. module: resource
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:resource.field_resource_calendar_attendance__sequence
 msgid "Gives the sequence of this line when displaying the resource calendar."
 msgstr ""
@@ -2894,6 +2983,14 @@ msgid "Hours"
 msgstr "Sati"
 
 #. module: resource
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:resource.resource_calendar_form
+msgid "Hours per Week"
+msgstr ""
+
+#. module: resource
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:resource.selection__resource_resource__resource_type__user
 #: model_terms:ir.ui.view,arch_db:resource.view_resource_resource_search
 msgid "Human"
@@ -2994,6 +3091,15 @@ msgid "Name"
 msgstr "Ime"
 
 #. module: resource
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,help:resource.field_resource_calendar__full_time_required_hours
+msgid ""
+"Number of hours to work on the company schedule to be considered as fulltime."
+msgstr ""
+
+#. module: resource
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:resource.selection__resource_calendar_leaves__time_type__other
 msgid "Other"
 msgstr "Ostalo"
@@ -3048,7 +3154,11 @@ msgid "Phone"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Telefon"
+>>>>>>> upstream/18.0
 =======
 msgstr "Telefon"
 >>>>>>> upstream/18.0
@@ -3300,7 +3410,11 @@ msgid "Related user name for the resource to manage its access."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Korisničko ime povezano je sa pristupom i upravljanjem modulima"
+=======
+msgstr "Povezano korisničko ime za resurs radi upravljanja njegovim pristupom."
+>>>>>>> upstream/18.0
 =======
 msgstr "Povezano korisničko ime za resurs radi upravljanja njegovim pristupom."
 >>>>>>> upstream/18.0
@@ -3792,7 +3906,11 @@ msgid "Share User"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Podeli korisnika"
+>>>>>>> upstream/18.0
 =======
 msgstr "Podeli korisnika"
 >>>>>>> upstream/18.0
@@ -3955,6 +4073,14 @@ msgstr "Nedelja"
 
 #. module: resource
 #: model_terms:ir.ui.view,arch_db:resource.resource_calendar_form
+<<<<<<< HEAD
+=======
+msgid "Switch"
+msgstr ""
+
+#. module: resource
+#: model_terms:ir.ui.view,arch_db:resource.resource_calendar_form
+>>>>>>> upstream/18.0
 msgid "Switch to 1 week calendar"
 msgstr ""
 
@@ -3971,7 +4097,13 @@ msgstr ""
 #. module: resource
 #. odoo-python
 #: code:addons/resource/models/resource_calendar.py:0
+<<<<<<< HEAD
 msgid "The current week (from %s to %s) correspond to the  %s one."
+=======
+msgid ""
+"The current week (from %(first_day)s to %(last_day)s) corresponds to week "
+"number %(number)s."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: resource
@@ -4120,6 +4252,16 @@ msgid "Week Number"
 msgstr ""
 
 #. module: resource
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,help:resource.field_resource_calendar__flexible_hours
+msgid ""
+"When enabled, it will allow employees to work flexibly, without relying on "
+"the company's working schedule (working hours)."
+msgstr ""
+
+#. module: resource
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:resource.field_resource_calendar_leaves__time_type
 msgid ""
 "Whether this should be computed as a time off or as work time (eg: formation)"
@@ -4200,7 +4342,11 @@ msgid "Working Schedules"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Rasporedi rada"
+>>>>>>> upstream/18.0
 =======
 msgstr "Rasporedi rada"
 >>>>>>> upstream/18.0
@@ -4369,3 +4515,9 @@ msgstr ""
 #: code:addons/resource/models/resource_calendar_attendance.py:0
 msgid "this week"
 msgstr ""
+<<<<<<< HEAD
+=======
+
+#~ msgid "Dates"
+#~ msgstr "Datumi"
+>>>>>>> upstream/18.0

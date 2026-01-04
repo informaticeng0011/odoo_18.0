@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* project_stock_account
+<<<<<<< HEAD
 # 
 # Translators:
 # Lyall Kindmurr, 2024
@@ -462,10 +463,19 @@
 # Larisa_nexterp, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+#
+# Translators:
+# Lyall Kindmurr, 2024
+# Wil Odoo, 2024
+# Larisa_nexterp, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
 "PO-Revision-Date: 2024-09-29 00:00+0000\n"
 <<<<<<< HEAD
@@ -931,11 +941,24 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: ro\n"
 "Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2024-09-29 00:00+0000\n"
+"Last-Translator: Larisa_nexterp, 2025\n"
+"Language-Team: Romanian (https://app.transifex.com/odoo/teams/41243/ro/)\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?"
+"2:1));\n"
+>>>>>>> upstream/18.0
 
 #. module: project_stock_account
 #. odoo-python
 #: code:addons/project_stock_account/models/stock_move.py:0
 msgid ""
+<<<<<<< HEAD
 "'%(missing_plan_names)s' analytic plan(s) required on the project "
 "'%(project_name)s' linked to the stock picking."
 msgstr ""
@@ -1509,6 +1532,13 @@ msgstr ""
 "Planul/planurile analitice '%(missing_plan_names)s' sunt necesare pe "
 "proiectul '%(project_name)s' asociat cu ridicarea de stoc."
 >>>>>>> upstream/18.0
+=======
+"'%(missing_plan_names)s' analytic plan(s) required on the project '%"
+"(project_name)s' linked to the stock picking."
+msgstr ""
+"Planul/planurile analitice '%(missing_plan_names)s' sunt necesare pe "
+"proiectul '%(project_name)s' asociat cu ridicarea de stoc."
+>>>>>>> upstream/18.0
 
 #. module: project_stock_account
 #: model:ir.model.fields,field_description:project_stock_account.field_stock_picking_type__analytic_costs
@@ -1627,7 +1657,11 @@ msgid "Analytic Costs"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Costuri analitice"
+>>>>>>> upstream/18.0
 =======
 msgstr "Costuri analitice"
 >>>>>>> upstream/18.0
@@ -2108,7 +2142,11 @@ msgid "Inventory Transfer"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Transfer inventar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Transfer inventar"
 >>>>>>> upstream/18.0
@@ -2598,6 +2636,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Validarea ridicărilor de stoc va genera înregistrări analitice pentru "
+"proiectul selectat. Produsele setate pentru refacturare vor fi de asemenea "
+"facturate clientului."
+>>>>>>> upstream/18.0
 =======
 "Validarea ridicărilor de stoc va genera înregistrări analitice pentru "
 "proiectul selectat. Produsele setate pentru refacturare vor fi de asemenea "

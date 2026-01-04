@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* project_todo
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
@@ -610,10 +611,18 @@
 # Marianna Ciofani, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+#
+# Translators:
+# Wil Odoo, 2024
+# Marianna Ciofani, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
@@ -1227,6 +1236,18 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: it\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Marianna Ciofani, 2025\n"
+"Language-Team: Italian (https://app.transifex.com/odoo/teams/41243/it/)\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? "
+"1 : 2;\n"
+>>>>>>> upstream/18.0
 
 #. module: project_todo
 #: model_terms:ir.ui.view,arch_db:project_todo.todo_user_onboarding
@@ -1247,7 +1268,12 @@ msgid ""
 msgstr ""
 "<span style=\"font-size: 14px;\">\n"
 "                    Aggiungi un elenco di controllo\n"
+<<<<<<< HEAD
 "                    (/<span style=\"font-style: italic;\">elenco di controllo</span>)\n"
+=======
+"                    (/<span style=\"font-style: italic;\">elenco di "
+"controllo</span>)\n"
+>>>>>>> upstream/18.0
 "                </span>"
 
 #. module: project_todo
@@ -1260,7 +1286,12 @@ msgid ""
 msgstr ""
 "<span style=\"font-size: 14px;\">\n"
 "                    Aggiungi un separatore\n"
+<<<<<<< HEAD
 "                    (/<span style=\"font-style: italic;\">separatore</span>)\n"
+=======
+"                    (/<span style=\"font-style: italic;\">separatore</"
+"span>)\n"
+>>>>>>> upstream/18.0
 "                </span>"
 
 #. module: project_todo
@@ -1306,29 +1337,59 @@ msgstr ""
 msgid ""
 "<span style=\"font-size: 14px;\">\n"
 "            Select text to\n"
+<<<<<<< HEAD
 "            <font style=\"background-color: #017E84; color: white\">Highlight</font>,\n"
 "            <span style=\"text-decoration-line: line-through;\">strikethrough</span>\n"
 "            or\n"
 "            <span style=\"font-weight: bolder;\">style</span>\n"
 "            <span style=\"font-style: italic; text-decoration-line: underline;\">it</span>\n"
+=======
+"            <font style=\"background-color: #017E84; color: "
+"white\">Highlight</font>,\n"
+"            <span style=\"text-decoration-line: line-through;"
+"\">strikethrough</span>\n"
+"            or\n"
+"            <span style=\"font-weight: bolder;\">style</span>\n"
+"            <span style=\"font-style: italic; text-decoration-line: "
+"underline;\">it</span>\n"
+>>>>>>> upstream/18.0
 "        </span>"
 msgstr ""
 "<span style=\"font-size: 14px;\">\n"
 "            Seleziona il testo per\n"
+<<<<<<< HEAD
 "            <font style=\"background-color: #017E84; color: white\">evidenziarlo</font>,\n"
 "            <span style=\"text-decoration-line: line-through;\">barrarlo</span>\n"
 "            o\n"
 "            <span style=\"font-weight: bolder;\">modificarlo</span>\n"
 "            <span style=\"font-style: italic; text-decoration-line: underline;\">a piacimento</span>\n"
+=======
+"            <font style=\"background-color: #017E84; color: "
+"white\">evidenziarlo</font>,\n"
+"            <span style=\"text-decoration-line: line-through;\">barrarlo</"
+"span>\n"
+"            o\n"
+"            <span style=\"font-weight: bolder;\">modificarlo</span>\n"
+"            <span style=\"font-style: italic; text-decoration-line: "
+"underline;\">a piacimento</span>\n"
+>>>>>>> upstream/18.0
 "        </span>"
 
 #. module: project_todo
 #: model_terms:ir.ui.view,arch_db:project_todo.todo_user_onboarding
 msgid ""
 "<span style=\"font-size: 14px;\">\n"
+<<<<<<< HEAD
 "        Access your personal pipeline with your to-dos and assigned tasks by going to the Project app and clicking\n"
 "        <span>\n"
 "            <font style=\"font-weight: bolder;\" class=\"text-o-color-2\">My Tasks</font>.\n"
+=======
+"        Access your personal pipeline with your to-dos and assigned tasks by "
+"going to the Project app and clicking\n"
+"        <span>\n"
+"            <font style=\"font-weight: bolder;\" class=\"text-o-color-2\">My "
+"Tasks</font>.\n"
+>>>>>>> upstream/18.0
 "        </span>\n"
 "    </span>\n"
 "    <br/>\n"
@@ -1338,6 +1399,7 @@ msgid ""
 "        <span style=\"font-weight: bolder;\">\n"
 "            <font class=\"text-o-color-2\">private tasks.</font>\n"
 "        </span>\n"
+<<<<<<< HEAD
 "        Any task you create privately will also be included in your to-dos. Essentially, they are interchangeable.\n"
 "    </span>"
 msgstr ""
@@ -1345,6 +1407,18 @@ msgstr ""
 "        Accedi alla tua pipeline personale con le attività da svolgere e assegnate aprendo l'app Progetto e facendo clic su\n"
 "        <span>\n"
 "            <font style=\"font-weight: bolder;\" class=\"text-o-color-2\">I miei lavori</font>.\n"
+=======
+"        Any task you create privately will also be included in your to-dos. "
+"Essentially, they are interchangeable.\n"
+"    </span>"
+msgstr ""
+"<span style=\"font-size: 14px;\">\n"
+"        Accedi alla tua pipeline personale con le attività da svolgere e "
+"assegnate aprendo l'app Progetto e facendo clic su\n"
+"        <span>\n"
+"            <font style=\"font-weight: bolder;\" class=\"text-o-color-2\">I "
+"miei lavori</font>.\n"
+>>>>>>> upstream/18.0
 "        </span>\n"
 "    </span>\n"
 "    <br/>\n"
@@ -1354,24 +1428,45 @@ msgstr ""
 "        <span style=\"font-weight: bolder;\">\n"
 "            <font class=\"text-o-color-2\">lavori privati.</font>\n"
 "        </span>\n"
+<<<<<<< HEAD
 "        Qualsiasi lavoro creato privatamente verrà incluso nei to-do. In pratica, sono interscambiabili.\n"
+=======
+"        Qualsiasi lavoro creato privatamente verrà incluso nei to-do. In "
+"pratica, sono interscambiabili.\n"
+>>>>>>> upstream/18.0
 "    </span>"
 
 #. module: project_todo
 #: model_terms:ir.ui.view,arch_db:project_todo.todo_user_onboarding
 msgid ""
 "<span style=\"font-size: 14px;\">\n"
+<<<<<<< HEAD
 "        By default, to-dos are only visible to you. You can share them with other users by adding them as\n"
 "        <span>\n"
 "            <font style=\"font-weight: bolder;\" class=\"text-o-color-2\">assignees</font>.\n"
+=======
+"        By default, to-dos are only visible to you. You can share them with "
+"other users by adding them as\n"
+"        <span>\n"
+"            <font style=\"font-weight: bolder;\" class=\"text-o-"
+"color-2\">assignees</font>.\n"
+>>>>>>> upstream/18.0
 "        </span>\n"
 "    </span>\n"
 "    <br/>"
 msgstr ""
 "<span style=\"font-size: 14px;\">\n"
+<<<<<<< HEAD
 "        Per impostazione predefinita, i to-do sono visibili solo a te. Puoi condividerli con altri utenti aggiungendoli come\n"
 "        <span>\n"
 "            <font style=\"font-weight: bolder;\" class=\"text-o-color-2\">assegnatari</font>.\n"
+=======
+"        Per impostazione predefinita, i to-do sono visibili solo a te. Puoi "
+"condividerli con altri utenti aggiungendoli come\n"
+"        <span>\n"
+"            <font style=\"font-weight: bolder;\" class=\"text-o-"
+"color-2\">assegnatari</font>.\n"
+>>>>>>> upstream/18.0
 "        </span>\n"
 "    </span>\n"
 "    <br/>"
@@ -1399,18 +1494,34 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:project_todo.todo_user_onboarding
 msgid ""
 "<span style=\"font-size: 14px;\">\n"
+<<<<<<< HEAD
 "        If you want to assign your to-do to a specific project, open the ⚙️ menu and click\n"
 "        <span>\n"
 "            <font style=\"font-weight: bolder;\" class=\"text-o-color-2\">Convert to Task</font>.\n"
+=======
+"        If you want to assign your to-do to a specific project, open the ⚙️ "
+"menu and click\n"
+"        <span>\n"
+"            <font style=\"font-weight: bolder;\" class=\"text-o-"
+"color-2\">Convert to Task</font>.\n"
+>>>>>>> upstream/18.0
 "        </span>\n"
 "        This action will make it visible to other users.\n"
 "    </span>\n"
 "    <br/>"
 msgstr ""
 "<span style=\"font-size: 14px;\">\n"
+<<<<<<< HEAD
 "        Se vuoi assegnare il tuo to-do ad un progetto specifico, apri il menu ⚙️ e fai clic su\n"
 "        <span>\n"
 "            <font style=\"font-weight: bolder;\" class=\"text-o-color-2\">Converti in lavoro</font>.\n"
+=======
+"        Se vuoi assegnare il tuo to-do ad un progetto specifico, apri il "
+"menu ⚙️ e fai clic su\n"
+"        <span>\n"
+"            <font style=\"font-weight: bolder;\" class=\"text-o-"
+"color-2\">Converti in lavoro</font>.\n"
+>>>>>>> upstream/18.0
 "        </span>\n"
 "        L'azione lo renderà visibile ad altri utenti.\n"
 "    </span>\n"
@@ -1420,23 +1531,43 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:project_todo.todo_user_onboarding
 msgid ""
 "<span style=\"font-size: 14px;\">\n"
+<<<<<<< HEAD
 "        Use it to manage your work, take notes on the go, and create tasks based on them.\n"
 "    </span>"
 msgstr ""
 "<span style=\"font-size: 14px;\">\n"
 "        È possibile utilizzarlo per gestire attività, prendere note e creare nuovi lavori.\n"
+=======
+"        Use it to manage your work, take notes on the go, and create tasks "
+"based on them.\n"
+"    </span>"
+msgstr ""
+"<span style=\"font-size: 14px;\">\n"
+"        È possibile utilizzarlo per gestire attività, prendere note e creare "
+"nuovi lavori.\n"
+>>>>>>> upstream/18.0
 "    </span>"
 
 #. module: project_todo
 #: model_terms:ir.ui.view,arch_db:project_todo.todo_user_onboarding
 msgid ""
 "<span style=\"font-size: 14px;\">\n"
+<<<<<<< HEAD
 "        Wherever you are, use the magic keyboard shortcut to add yourself a reminder &amp;#128161;\n"
+=======
+"        Wherever you are, use the magic keyboard shortcut to add yourself a "
+"reminder &amp;#128161;\n"
+>>>>>>> upstream/18.0
 "    </span>\n"
 "    <br/>"
 msgstr ""
 "<span style=\"font-size: 14px;\">\n"
+<<<<<<< HEAD
 "        Usa le scelte rapide da tastiera, ovunque ti trovi, per aggiungere un promemoria &amp;#128161;\n"
+=======
+"        Usa le scelte rapide da tastiera, ovunque ti trovi, per aggiungere "
+"un promemoria &amp;#128161;\n"
+>>>>>>> upstream/18.0
 "    </span>\n"
 "    <br/>"
 
@@ -1445,14 +1576,23 @@ msgstr ""
 msgid ""
 "<span style=\"font-size: 14px;\">Check this box to indicate it's done</span>"
 msgstr ""
+<<<<<<< HEAD
 "<span style=\"font-size: 14px;\">Spunta la casella per indicare che qualcosa"
 " è stato fatto</span>"
+=======
+"<span style=\"font-size: 14px;\">Spunta la casella per indicare che qualcosa "
+"è stato fatto</span>"
+>>>>>>> upstream/18.0
 
 #. module: project_todo
 #: model_terms:ir.ui.view,arch_db:project_todo.todo_user_onboarding
 msgid ""
+<<<<<<< HEAD
 "<span style=\"font-size: 14px;\">Click anywhere, and just start "
 "typing</span>"
+=======
+"<span style=\"font-size: 14px;\">Click anywhere, and just start typing</span>"
+>>>>>>> upstream/18.0
 msgstr ""
 "<span style=\"font-size: 14px;\">Fai clic in qualsiasi punto della pagina e "
 "inizia a scrivere</span>"
@@ -1468,6 +1608,7 @@ msgstr ""
 #. module: project_todo
 #: model_terms:ir.ui.view,arch_db:project_todo.todo_user_onboarding
 msgid ""
+<<<<<<< HEAD
 "<span style=\"font-size: 14px;\">This private to-do is for you to play around with.</span>\n"
 "    <br/>\n"
 "    <span style=\"font-size: 14px;\">Ready to give it a spin?</span>"
@@ -1475,6 +1616,18 @@ msgstr ""
 "<span style=\"font-size: 14px;\">Questa lista privata di cose da fare è per permetterti di scoprire un po' come funziona.</span>\n"
 "    <br/>\n"
 "    <span style=\"font-size: 14px;\">Sei pronto per metterti alla prova?</span>"
+=======
+"<span style=\"font-size: 14px;\">This private to-do is for you to play "
+"around with.</span>\n"
+"    <br/>\n"
+"    <span style=\"font-size: 14px;\">Ready to give it a spin?</span>"
+msgstr ""
+"<span style=\"font-size: 14px;\">Questa lista privata di cose da fare è per "
+"permetterti di scoprire un po' come funziona.</span>\n"
+"    <br/>\n"
+"    <span style=\"font-size: 14px;\">Sei pronto per metterti alla prova?</"
+"span>"
+>>>>>>> upstream/18.0
 
 #. module: project_todo
 #: model_terms:ir.ui.view,arch_db:project_todo.todo_user_onboarding
@@ -1571,6 +1724,7 @@ msgstr "Chiuso il"
 #: model:ir.actions.act_window,name:project_todo.project_task_action_convert_todo_to_task
 #: model_terms:ir.ui.view,arch_db:project_todo.project_task_view_todo_conversion_form
 msgid "Convert to Task"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2176,6 +2330,9 @@ msgstr "Converti in lavoro"
 =======
 msgstr "Converti in lavoro"
 >>>>>>> upstream/18.0
+=======
+msgstr "Converti in lavoro"
+>>>>>>> upstream/18.0
 
 #. module: project_todo
 #: model_terms:ir.ui.view,arch_db:project_todo.todo_user_onboarding
@@ -2247,10 +2404,19 @@ msgstr "ID"
 #: model_terms:ir.actions.act_window,help:project_todo.project_task_action_todo
 msgid ""
 "Keep your work organized by using memos and to-do lists.\n"
+<<<<<<< HEAD
 "                Your to-do items are private by default, but you can choose to share them with others by adding them as assignees."
 msgstr ""
 "Organizza il tuo lavoro grazie a promemoria e liste delle cose da fare.\n"
 "                I tuoi compiti sono privati per impostazione predefinita ma puoi scegliere di condividerli con altre persone aggiungendo assegnatari."
+=======
+"                Your to-do items are private by default, but you can choose "
+"to share them with others by adding them as assignees."
+msgstr ""
+"Organizza il tuo lavoro grazie a promemoria e liste delle cose da fare.\n"
+"                I tuoi compiti sono privati per impostazione predefinita ma "
+"puoi scegliere di condividerli con altre persone aggiungendo assegnatari."
+>>>>>>> upstream/18.0
 
 #. module: project_todo
 #: model:ir.model.fields,field_description:project_todo.field_mail_activity_todo_create__write_uid

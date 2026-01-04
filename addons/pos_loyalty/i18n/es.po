@@ -1,15 +1,24 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* pos_loyalty
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
 # Larissa Manderfeld, 2025
 # 
+=======
+#
+# Translators:
+# Wil Odoo, 2024
+# Larissa Manderfeld, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-04-07 20:36+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Larissa Manderfeld, 2025\n"
@@ -19,16 +28,38 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: es\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Larissa Manderfeld, 2025\n"
+"Language-Team: Spanish (https://app.transifex.com/odoo/teams/41243/es/)\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? "
+"1 : 2;\n"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.model.fields,help:pos_loyalty.field_pos_order_line__reward_identifier_code
 msgid ""
 "\n"
+<<<<<<< HEAD
 "        Technical field used to link multiple reward lines from the same reward together.\n"
 "    "
 msgstr ""
 "\n"
 "        Campo técnico que se usa para vincular varias líneas de recompensa en una sola recompensa.\n"
+=======
+"        Technical field used to link multiple reward lines from the same "
+"reward together.\n"
+"    "
+msgstr ""
+"\n"
+"        Campo técnico que se usa para vincular varias líneas de recompensa "
+"en una sola recompensa.\n"
+>>>>>>> upstream/18.0
 "    "
 
 #. module: pos_loyalty
@@ -444,8 +475,13 @@ msgid ""
 "Refunding a top up or reward product for an eWallet or gift card program is "
 "not allowed."
 msgstr ""
+<<<<<<< HEAD
 "No está permitido reembolsar una recarga o un producto de recompensa para un"
 " programa de monedero electrónico o tarjeta de regalo."
+=======
+"No está permitido reembolsar una recarga o un producto de recompensa para un "
+"programa de monedero electrónico o tarjeta de regalo."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
@@ -500,8 +536,13 @@ msgid ""
 "Some coupons are invalid. The applied coupons have been updated. Please "
 "check the order."
 msgstr ""
+<<<<<<< HEAD
 "Algunos cupones no son válidos. Los cupones aplicados han sido actualizados."
 " Por favor, compruebe el pedido."
+=======
+"Algunos cupones no son válidos. Los cupones aplicados han sido actualizados. "
+"Por favor, compruebe el pedido."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
@@ -543,8 +584,12 @@ msgstr "Este programa de códigos promocionales aún no es válido."
 #: code:addons/pos_loyalty/static/src/overrides/models/pos_store.js:0
 msgid "That promo code program requires a specific pricelist."
 msgstr ""
+<<<<<<< HEAD
 "Ese programa de código de promoción requiere una lista de precios "
 "específica."
+=======
+"Ese programa de código de promoción requiere una lista de precios específica."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.model.fields,help:pos_loyalty.field_pos_order_line__coupon_id
@@ -555,7 +600,12 @@ msgstr "El cupón usado para obtener la recompensa."
 #. odoo-python
 #: code:addons/pos_loyalty/models/pos_order.py:0
 msgid ""
+<<<<<<< HEAD
 "The following codes already exist in the database, perhaps they were already sold?\n"
+=======
+"The following codes already exist in the database, perhaps they were already "
+"sold?\n"
+>>>>>>> upstream/18.0
 "%s"
 msgstr ""
 "Los siguientes códigos ya existen en la base de datos,\n"
@@ -764,8 +814,13 @@ msgstr "Sí"
 #: code:addons/pos_loyalty/static/src/overrides/components/product_screen/order_summary/order_summary.js:0
 msgid "You cannot set negative quantity or price to gift card or ewallet."
 msgstr ""
+<<<<<<< HEAD
 "No puede establecer una cantidad o precio negativo en la tarjeta de regalo o"
 " el monedero electrónico."
+=======
+"No puede establecer una cantidad o precio negativo en la tarjeta de regalo o "
+"el monedero electrónico."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
@@ -780,7 +835,12 @@ msgstr ""
 #. odoo-python
 #: code:addons/pos_loyalty/models/loyalty_program.py:0
 msgid "You must set '%(mail_template)s' before setting '%(report)s'."
+<<<<<<< HEAD
 msgstr "Debe establecer \"%(mail_template)s\" antes de establecer \"%(report)s\"."
+=======
+msgstr ""
+"Debe establecer \"%(mail_template)s\" antes de establecer \"%(report)s\"."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript

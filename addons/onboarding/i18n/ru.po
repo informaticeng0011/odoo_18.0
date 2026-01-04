@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* onboarding
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
@@ -465,10 +466,18 @@
 # Anastasiia Koroleva, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+#
+# Translators:
+# Wil Odoo, 2024
+# Anastasiia Koroleva, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:57+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
@@ -938,6 +947,19 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: ru\n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:38+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Anastasiia Koroleva, 2025\n"
+"Language-Team: Russian (https://app.transifex.com/odoo/teams/41243/ru/)\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
+"(n%100>=11 && n%100<=14)? 2 : 3);\n"
+>>>>>>> upstream/18.0
 
 #. module: onboarding
 #: model_terms:ir.ui.view,arch_db:onboarding.onboarding_step
@@ -970,8 +992,13 @@ msgstr "Текст Alt для изображения шага"
 #. odoo-python
 #: code:addons/onboarding/models/onboarding_onboarding_step.py:0
 msgid ""
+<<<<<<< HEAD
 "An \"Opening Action\" is required for the following steps to be linked to an"
 " onboarding panel: %(step_titles)s"
+=======
+"An \"Opening Action\" is required for the following steps to be linked to an "
+"onboarding panel: %(step_titles)s"
+>>>>>>> upstream/18.0
 msgstr ""
 "Для того чтобы следующие шаги были связаны с панелью онбординга, требуется "
 "\"Действие открытия\": %(step_titles)s"
@@ -1143,7 +1170,11 @@ msgid "Created by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Создано"
+=======
+msgstr "Создано:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Создано:"
 >>>>>>> upstream/18.0
@@ -1607,7 +1638,11 @@ msgid "Created on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Создано"
+=======
+msgstr "Дата создания:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дата создания:"
 >>>>>>> upstream/18.0
@@ -2129,7 +2164,11 @@ msgid "Last Updated by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Последнее обновление"
+=======
+msgstr "Последнее обновление:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Последнее обновление:"
 >>>>>>> upstream/18.0
@@ -2597,7 +2636,11 @@ msgid "Last Updated on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Последнее обновление"
+=======
+msgstr "Дата последнего обновления:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дата последнего обновления:"
 >>>>>>> upstream/18.0
@@ -2974,8 +3017,13 @@ msgid ""
 "Name of the onboarding step model action to execute when opening the step, "
 "e.g. action_open_onboarding_1_step_1"
 msgstr ""
+<<<<<<< HEAD
 "Имя действия модели шага онбординга, которое должно выполняться при открытии"
 " шага, например, action_open_onboarding_1_step_1"
+=======
+"Имя действия модели шага онбординга, которое должно выполняться при открытии "
+"шага, например, action_open_onboarding_1_step_1"
+>>>>>>> upstream/18.0
 
 #. module: onboarding
 #. odoo-python

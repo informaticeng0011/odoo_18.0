@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* pos_adyen
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
@@ -462,10 +463,18 @@
 # Tony Ng, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+#
+# Translators:
+# Wil Odoo, 2024
+# Tony Ng, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
@@ -930,6 +939,17 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: zh_TW\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Tony Ng, 2025\n"
+"Language-Team: Chinese (Taiwan) (https://app.transifex.com/odoo/teams/41243/"
+"zh_TW/)\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+>>>>>>> upstream/18.0
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: pos_adyen
@@ -1049,7 +1069,11 @@ msgid "Add tip through payment terminal (Adyen)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "通過支付終端添加小費 (Adyen)"
+=======
+msgstr "透過付款終端機加入小費（Adyen）"
+>>>>>>> upstream/18.0
 =======
 msgstr "透過付款終端機加入小費（Adyen）"
 >>>>>>> upstream/18.0
@@ -1556,7 +1580,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "取消支付失敗。請在支付終端上手動取消它。"
+=======
+msgstr "未能取消付款。請在付款終端機上手動取消。"
+>>>>>>> upstream/18.0
 =======
 msgstr "未能取消付款。請在付款終端機上手動取消。"
 >>>>>>> upstream/18.0
@@ -1969,7 +1997,13 @@ msgstr "在測試環境中執行事項."
 msgid ""
 "Terminal %(terminal)s is already used in company %(company)s on payment "
 "method %(payment_method)s."
+<<<<<<< HEAD
 msgstr "終端機 %(terminal)s 已在 %(company)s 公司的付款方式 %(payment_method)s 上使用。"
+=======
+msgstr ""
+"終端機 %(terminal)s 已在 %(company)s 公司的付款方式 %(payment_method)s 上使"
+"用。"
+>>>>>>> upstream/18.0
 
 #. module: pos_adyen
 #. odoo-python
@@ -1986,11 +2020,19 @@ msgstr "需要將此網址貼上至 Adyen 門戶網站的終端機設定中。"
 #. module: pos_adyen
 #: model:ir.model.fields,help:pos_adyen.field_pos_payment_method__adyen_api_key
 msgid ""
+<<<<<<< HEAD
 "Used when connecting to Adyen: https://docs.adyen.com/user-management/how-"
 "to-get-the-api-key/#description"
 msgstr ""
 "連接到 Adyen 時使用: https://docs.adyen.com/user-management/how-to-get-the-api-"
 "key/#description"
+=======
+"Used when connecting to Adyen: https://docs.adyen.com/user-management/how-to-"
+"get-the-api-key/#description"
+msgstr ""
+"連接到 Adyen 時使用: https://docs.adyen.com/user-management/how-to-get-the-"
+"api-key/#description"
+>>>>>>> upstream/18.0
 
 #. module: pos_adyen
 #: model:ir.model.fields,help:pos_adyen.field_pos_payment_method__adyen_terminal_identifier

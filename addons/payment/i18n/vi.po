@@ -1,17 +1,26 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* payment
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Martin Trigaux, 2024
 # Tiffany Chang, 2024
 # Wil Odoo, 2024
 # Thi Huong Nguyen, 2025
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -740,6 +749,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: vi\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Thi Huong Nguyen, 2025\n"
+"Language-Team: Vietnamese (https://app.transifex.com/odoo/teams/41243/vi/)\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+>>>>>>> upstream/18.0
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: payment
@@ -762,17 +781,27 @@ msgstr "7Eleven"
 #: code:addons/payment/wizards/payment_onboarding_wizard.py:0
 msgid ""
 "<h3>Please make a payment to: </h3><ul><li>Bank: %(bank)s</li><li>Account "
+<<<<<<< HEAD
 "Number: %(account_number)s</li><li>Account Holder: "
 "%(account_holder)s</li></ul>"
 msgstr ""
 "<h3>Vui lòng thực hiện thanh toán tới: </h3><ul><li>Ngân hàng: "
 "%(bank)s</li><li>Số tài khoản: %(account_number)s</li><li>Chủ tài khoản: "
 "%(account_holder)s</li></ul>"
+=======
+"Number: %(account_number)s</li><li>Account Holder: %(account_holder)s</li></"
+"ul>"
+msgstr ""
+"<h3>Vui lòng thực hiện thanh toán tới: </h3><ul><li>Ngân hàng: %(bank)s</"
+"li><li>Số tài khoản: %(account_number)s</li><li>Chủ tài khoản: %"
+"(account_holder)s</li></ul>"
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.payment_method_form
 msgid ""
 "<i class=\"fa fa-exclamation-triangle\"/> These properties are set to\n"
+<<<<<<< HEAD
 "                                match the behavior of providers and that of their integration with\n"
 "                                Odoo regarding this payment method. Any change may result in errors\n"
 "                                and should be tested on a test database first."
@@ -786,10 +815,36 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:payment.portal_breadcrumb
 msgid "<i class=\"fa fa-home\" role=\"img\" title=\"Home\" aria-label=\"Home\"/>"
 msgstr "<i class=\"fa fa-home\" role=\"img\" title=\"Trang chủ\" aria-label=\"Home\"/>"
+=======
+"                                match the behavior of providers and that of "
+"their integration with\n"
+"                                Odoo regarding this payment method. Any "
+"change may result in errors\n"
+"                                and should be tested on a test database "
+"first."
+msgstr ""
+"<i class=\"fa fa-exclamation-triangle\"/> Các thuộc tính này được thiết lập "
+"để\n"
+"                                khớp hành vi của nhà cung cấp và hành vi "
+"tích hợp của họ với\n"
+"                                Odoo liên quan đến phương thức thanh toán "
+"này. Mọi thay đổi đều có thể\n"
+"                                tạo ra lỗi và trước tiên phải được kiểm tra "
+"trên cơ sở dữ liệu kiểm thử."
+
+#. module: payment
+#: model_terms:ir.ui.view,arch_db:payment.portal_breadcrumb
+msgid ""
+"<i class=\"fa fa-home\" role=\"img\" title=\"Home\" aria-label=\"Home\"/>"
+msgstr ""
+"<i class=\"fa fa-home\" role=\"img\" title=\"Trang chủ\" aria-label=\"Home\"/"
+">"
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.payment_capture_wizard_view_form
 msgid ""
+<<<<<<< HEAD
 "<i class=\"fa fa-info-circle oe_inline\" invisible=\"support_partial_capture"
 " != 'full_only'\" title=\"Some of the transactions you intend to capture can"
 " only be captured in full. Handle the transactions individually to capture a"
@@ -799,6 +854,17 @@ msgstr ""
 " != 'full_only'\" title=\"Một số giao dịch bạn định thu hồi chỉ có thể được "
 "thu đầy đủ. Hãy xử lý các giao dịch một cách riêng lẻ để thu tiền từng "
 "phần.\"/>"
+=======
+"<i class=\"fa fa-info-circle oe_inline\" "
+"invisible=\"support_partial_capture != 'full_only'\" title=\"Some of the "
+"transactions you intend to capture can only be captured in full. Handle the "
+"transactions individually to capture a partial amount.\"/>"
+msgstr ""
+"<i class=\"fa fa-info-circle oe_inline\" "
+"invisible=\"support_partial_capture != 'full_only'\" title=\"Một số giao "
+"dịch bạn định thu hồi chỉ có thể được thu đầy đủ. Hãy xử lý các giao dịch "
+"một cách riêng lẻ để thu tiền từng phần.\"/>"
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.token_form
@@ -813,8 +879,13 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:payment.action_payment_method
 msgid "<i class=\"oi oi-arrow-right me-1\"></i> Configure a payment provider"
 msgstr ""
+<<<<<<< HEAD
 "<i class=\"oi oi-arrow-right me-1\"></i> Cấu hình nhà cung cấp dịch vụ thanh"
 " toán"
+=======
+"<i class=\"oi oi-arrow-right me-1\"></i> Cấu hình nhà cung cấp dịch vụ thanh "
+"toán"
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.payment_provider_form
@@ -875,22 +946,40 @@ msgstr "<span><i class=\"fa fa-lock\"/> Bảo mật bởi</span>"
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.no_pms_available_warning
+<<<<<<< HEAD
 msgid "<strong><i class=\"fa fa-file-text\"/> Show availability report</strong>"
 msgstr ""
 "<strong><i class=\"fa fa-file-text\"/> Hiện báo cáo tình trạng khả "
 "dụng</strong>"
+=======
+msgid ""
+"<strong><i class=\"fa fa-file-text\"/> Show availability report</strong>"
+msgstr ""
+"<strong><i class=\"fa fa-file-text\"/> Hiện báo cáo tình trạng khả dụng</"
+"strong>"
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.no_pms_available_warning
 msgid "<strong><i class=\"oi oi-arrow-right\"/> Payment Methods</strong>"
+<<<<<<< HEAD
 msgstr "<strong><i class=\"oi oi-arrow-right\"/> Phương thức thanh toán</strong>"
+=======
+msgstr ""
+"<strong><i class=\"oi oi-arrow-right\"/> Phương thức thanh toán</strong>"
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.no_pms_available_warning
 msgid "<strong><i class=\"oi oi-arrow-right\"/> Payment Providers</strong>"
 msgstr ""
+<<<<<<< HEAD
 "<strong><i class=\"oi oi-arrow-right\"/> Nhà cung cấp dịch vụ thanh "
 "toán</strong>"
+=======
+"<strong><i class=\"oi oi-arrow-right\"/> Nhà cung cấp dịch vụ thanh toán</"
+"strong>"
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.no_pms_available_warning
@@ -901,12 +990,25 @@ msgstr "<strong>Không có phương thức thanh toán nào khả dụng</strong
 #: model_terms:ir.ui.view,arch_db:payment.payment_capture_wizard_view_form
 msgid ""
 "<strong>Warning!</strong> There is a partial capture pending. Please wait a\n"
+<<<<<<< HEAD
 "                    moment for it to be processed. Check your payment provider configuration if\n"
 "                    the capture is still pending after a few minutes."
 msgstr ""
 "<strong>Cảnh báo!</strong> Có khoản thu hồi thanh toán một phần đang treo. Vui lòng chờ\n"
 "                       xử lý trong giây lát. Ngoài ra, hãy kiểm tra cấu hình nhà cung cấp dịch vụ \n"
 "                       thanh toán của bạn nếu khoản thu hồi vẫn còn treo sau vài phút."
+=======
+"                    moment for it to be processed. Check your payment "
+"provider configuration if\n"
+"                    the capture is still pending after a few minutes."
+msgstr ""
+"<strong>Cảnh báo!</strong> Có khoản thu hồi thanh toán một phần đang treo. "
+"Vui lòng chờ\n"
+"                       xử lý trong giây lát. Ngoài ra, hãy kiểm tra cấu hình "
+"nhà cung cấp dịch vụ \n"
+"                       thanh toán của bạn nếu khoản thu hồi vẫn còn treo sau "
+"vài phút."
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.payment_capture_wizard_view_form
@@ -920,20 +1022,40 @@ msgstr ""
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.payment_provider_form
 msgid ""
+<<<<<<< HEAD
 "<strong>Warning</strong> Creating a payment provider from the <em>CREATE</em> button is not supported.\n"
 "                        Please use the <em>Duplicate</em> action instead."
 msgstr ""
 "<strong>Cảnh báo</strong> Không hỗ trợ tạo nhà cung cấp dịch vụ thanh toán từ nút <em>TẠO</em>.\n"
 "                        Thay vào đó, vui lòng sử dụng thao tác <em>Nhân bản</em>."
+=======
+"<strong>Warning</strong> Creating a payment provider from the <em>CREATE</"
+"em> button is not supported.\n"
+"                        Please use the <em>Duplicate</em> action instead."
+msgstr ""
+"<strong>Cảnh báo</strong> Không hỗ trợ tạo nhà cung cấp dịch vụ thanh toán "
+"từ nút <em>TẠO</em>.\n"
+"                        Thay vào đó, vui lòng sử dụng thao tác <em>Nhân bản</"
+"em>."
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.pay
 msgid ""
 "<strong>Warning</strong> Make sure you are logged in as the\n"
+<<<<<<< HEAD
 "                                    correct partner before making this payment."
 msgstr ""
 "<strong>Cảnh báo</strong> Bảo đảm bạn đã đăng nhập với tư cách\n"
 "                                      đối tác thích hợp trước khi thực hiện thanh toán."
+=======
+"                                    correct partner before making this "
+"payment."
+msgstr ""
+"<strong>Cảnh báo</strong> Bảo đảm bạn đã đăng nhập với tư cách\n"
+"                                      đối tác thích hợp trước khi thực hiện "
+"thanh toán."
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.pay
@@ -980,8 +1102,13 @@ msgid ""
 "A transaction with reference %(ref)s has been initiated using the payment "
 "method %(token)s (%(provider_name)s)."
 msgstr ""
+<<<<<<< HEAD
 "Giao dịch với mã %(ref)s đã được khởi tạo bằng phương thức thanh toán "
 "%(token)s (%(provider_name)s)."
+=======
+"Giao dịch với mã %(ref)s đã được khởi tạo bằng phương thức thanh toán %"
+"(token)s (%(provider_name)s)."
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model:payment.method,name:payment.payment_method_ach_direct_debit
@@ -1853,8 +1980,13 @@ msgid ""
 "to skip the checkout process."
 msgstr ""
 "Thanh toán nhanh cho phép khách hàng thanh toán nhanh hơn bằng cách sử dụng "
+<<<<<<< HEAD
 "một phương thức thanh toán cung cấp tất cả thông tin thanh toán và giao hàng"
 " bắt buộc, do đó có thể bỏ qua quá trình này khi thanh toán."
+=======
+"một phương thức thanh toán cung cấp tất cả thông tin thanh toán và giao hàng "
+"bắt buộc, do đó có thể bỏ qua quá trình này khi thanh toán."
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model:payment.method,name:payment.payment_method_fps
@@ -2015,8 +2147,12 @@ msgstr "ID"
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.no_pms_available_warning
 msgid ""
+<<<<<<< HEAD
 "If you believe that it is an error, please contact the website "
 "administrator."
+=======
+"If you believe that it is an error, please contact the website administrator."
+>>>>>>> upstream/18.0
 msgstr "Nếu bạn cho rằng đây là lỗi, hãy liên hệ quản trị website."
 
 #. module: payment
@@ -2031,7 +2167,12 @@ msgid ""
 "In test mode, a fake payment is processed through a test payment interface.\n"
 "This mode is advised when setting up the provider."
 msgstr ""
+<<<<<<< HEAD
 "Trong chế độ kiểm thử, một khoản thanh toán giả sẽ được xử lý thông qua giao diện thanh toán kiểm thử.\n"
+=======
+"Trong chế độ kiểm thử, một khoản thanh toán giả sẽ được xử lý thông qua giao "
+"diện thanh toán kiểm thử.\n"
+>>>>>>> upstream/18.0
 "Nên dùng chế độ này khi thiết lập nhà cung cấp dịch vụ thanh toán."
 
 #. module: payment
@@ -3148,8 +3289,13 @@ msgstr "Sofort"
 #. odoo-python
 #: code:addons/payment/wizards/payment_capture_wizard.py:0
 msgid ""
+<<<<<<< HEAD
 "Some of the transactions you intend to capture can only be captured in full."
 " Handle the transactions individually to capture a partial amount."
+=======
+"Some of the transactions you intend to capture can only be captured in full. "
+"Handle the transactions individually to capture a partial amount."
+>>>>>>> upstream/18.0
 msgstr ""
 "Một số giao dịch bạn định thu hồi chỉ có thể được thu đầy đủ. Hãy xử lý các "
 "giao dịch một cách riêng lẻ để thu tiền từng phần."
@@ -3273,8 +3419,12 @@ msgstr ""
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_method__brand_ids
 msgid ""
+<<<<<<< HEAD
 "The brands of the payment methods that will be displayed on the payment "
 "form."
+=======
+"The brands of the payment methods that will be displayed on the payment form."
+>>>>>>> upstream/18.0
 msgstr ""
 "Thương hiệu của phương thức thanh toán sẽ được hiển thị trên biểu mẫu thanh "
 "toán."
@@ -3342,12 +3492,18 @@ msgid ""
 "available to customers."
 msgstr ""
 "Danh sách các quốc gia có thể sử dụng phương thức thanh toán này (nếu nhà "
+<<<<<<< HEAD
 "cung cấp cho phép). Ở các quốc gia khác, phương thức thanh toán này sẽ không"
 " khả dụng cho khách hàng."
+=======
+"cung cấp cho phép). Ở các quốc gia khác, phương thức thanh toán này sẽ không "
+"khả dụng cho khách hàng."
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_method__supported_currency_ids
 msgid ""
+<<<<<<< HEAD
 "The list of currencies for that are supported by this payment method (if the"
 " provider allows it). When paying with another currency, this payment method"
 " is not available to customers."
@@ -3355,6 +3511,15 @@ msgstr ""
 "Danh sách các loại tiền tệ mà phương thức thanh toán này hỗ trợ (nếu nhà "
 "cung cấp cho phép). Khi thanh toán bằng loại tiền tệ khác, phương thức thanh"
 " toán này không khả dụng cho khách hàng."
+=======
+"The list of currencies for that are supported by this payment method (if the "
+"provider allows it). When paying with another currency, this payment method "
+"is not available to customers."
+msgstr ""
+"Danh sách các loại tiền tệ mà phương thức thanh toán này hỗ trợ (nếu nhà "
+"cung cấp cho phép). Khi thanh toán bằng loại tiền tệ khác, phương thức thanh "
+"toán này không khả dụng cho khách hàng."
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_method__provider_ids
@@ -3417,10 +3582,20 @@ msgstr ""
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_method__primary_payment_method_id
 msgid ""
+<<<<<<< HEAD
 "The primary payment method of the current payment method, if the latter is a brand.\n"
 "For example, \"Card\" is the primary payment method of the card brand \"VISA\"."
 msgstr ""
 "Phương thức thanh toán chính của phương thức thanh toán hiện tại, nếu phương thức thanh toán hiện tại là một thương hiệu.\n"
+=======
+"The primary payment method of the current payment method, if the latter is a "
+"brand.\n"
+"For example, \"Card\" is the primary payment method of the card brand "
+"\"VISA\"."
+msgstr ""
+"Phương thức thanh toán chính của phương thức thanh toán hiện tại, nếu phương "
+"thức thanh toán hiện tại là một thương hiệu.\n"
+>>>>>>> upstream/18.0
 "Ví dụ: \"Thẻ\" là phương thức thanh toán chính của thương hiệu thẻ \"VISA\"."
 
 #. module: payment
@@ -3498,31 +3673,55 @@ msgstr "Mẫu kết xuất biểu mẫu thanh toán nội tuyến khi thanh toá
 #. odoo-python
 #: code:addons/payment/models/payment_transaction.py:0
 msgid ""
+<<<<<<< HEAD
 "The transaction with reference %(ref)s for %(amount)s encountered an error "
 "(%(provider_name)s)."
 msgstr ""
 "Giao dịch có mã %(ref)s với số tiền %(amount)s đã gặp lỗi "
 "(%(provider_name)s)."
+=======
+"The transaction with reference %(ref)s for %(amount)s encountered an error (%"
+"(provider_name)s)."
+msgstr ""
+"Giao dịch có mã %(ref)s với số tiền %(amount)s đã gặp lỗi (%"
+"(provider_name)s)."
+>>>>>>> upstream/18.0
 
 #. module: payment
 #. odoo-python
 #: code:addons/payment/models/payment_transaction.py:0
 msgid ""
+<<<<<<< HEAD
 "The transaction with reference %(ref)s for %(amount)s has been authorized "
 "(%(provider_name)s)."
 msgstr ""
 "Giao dịch có mã %(ref)s với số tiền %(amount)s đã được uỷ quyền "
 "(%(provider_name)s)."
+=======
+"The transaction with reference %(ref)s for %(amount)s has been authorized (%"
+"(provider_name)s)."
+msgstr ""
+"Giao dịch có mã %(ref)s với số tiền %(amount)s đã được uỷ quyền (%"
+"(provider_name)s)."
+>>>>>>> upstream/18.0
 
 #. module: payment
 #. odoo-python
 #: code:addons/payment/models/payment_transaction.py:0
 msgid ""
+<<<<<<< HEAD
 "The transaction with reference %(ref)s for %(amount)s has been confirmed "
 "(%(provider_name)s)."
 msgstr ""
 "Giao dịch có mã %(ref)s với số tiền %(amount)s đã được xác nhận "
 "(%(provider_name)s)."
+=======
+"The transaction with reference %(ref)s for %(amount)s has been confirmed (%"
+"(provider_name)s)."
+msgstr ""
+"Giao dịch có mã %(ref)s với số tiền %(amount)s đã được xác nhận (%"
+"(provider_name)s)."
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model_terms:ir.actions.act_window,help:payment.action_payment_transaction
@@ -3567,6 +3766,7 @@ msgstr ""
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_provider__allow_tokenization
 msgid ""
+<<<<<<< HEAD
 "This controls whether customers can save their payment methods as payment tokens.\n"
 "A payment token is an anonymous link to the payment method details saved in the\n"
 "provider's database, allowing the customer to reuse it for a next purchase."
@@ -3574,6 +3774,20 @@ msgstr ""
 "Điều này kiểm soát việc khách hàng có thể lưu phương thức thanh toán của họ dưới dạng token thanh toán hay không.\n"
 "Token thanh toán là một liên kết ẩn danh đến thông tin phương thức thanh toán được lưu trong\n"
 "cơ sở dữ liệu của nhà cung cấp, cho phép khách hàng sử dụng lại cho lần mua hàng tiếp theo."
+=======
+"This controls whether customers can save their payment methods as payment "
+"tokens.\n"
+"A payment token is an anonymous link to the payment method details saved in "
+"the\n"
+"provider's database, allowing the customer to reuse it for a next purchase."
+msgstr ""
+"Điều này kiểm soát việc khách hàng có thể lưu phương thức thanh toán của họ "
+"dưới dạng token thanh toán hay không.\n"
+"Token thanh toán là một liên kết ẩn danh đến thông tin phương thức thanh "
+"toán được lưu trong\n"
+"cơ sở dữ liệu của nhà cung cấp, cho phép khách hàng sử dụng lại cho lần mua "
+"hàng tiếp theo."
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_provider__allow_express_checkout
@@ -3583,16 +3797,30 @@ msgid ""
 "address information is collected at payment."
 msgstr ""
 "Điều này kiểm soát việc khách hàng có thể sử dụng phương thức thanh toán "
+<<<<<<< HEAD
 "nhanh hay không. Thanh toán nhanh cho phép khách hàng thanh toán bằng Google"
 " Pay và Apple Pay từ đó thông tin địa chỉ được thu thập khi thanh toán."
+=======
+"nhanh hay không. Thanh toán nhanh cho phép khách hàng thanh toán bằng Google "
+"Pay và Apple Pay từ đó thông tin địa chỉ được thu thập khi thanh toán."
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.payment_link_wizard_view_form
 msgid ""
+<<<<<<< HEAD
 "This partner has no email, which may cause issues with some payment providers.\n"
 "                     Setting an email for this partner is advised."
 msgstr ""
 "Đối tác không có email, việc này có thể dẫn đến trục trặc với một số nhà cung cấp dịch vụ thanh toán. \n"
+=======
+"This partner has no email, which may cause issues with some payment "
+"providers.\n"
+"                     Setting an email for this partner is advised."
+msgstr ""
+"Đối tác không có email, việc này có thể dẫn đến trục trặc với một số nhà "
+"cung cấp dịch vụ thanh toán. \n"
+>>>>>>> upstream/18.0
 "                     Bạn nên điền email cho đối tác này."
 
 #. module: payment
@@ -3602,8 +3830,13 @@ msgid ""
 "This payment method needs a partner in crime; you should enable a payment "
 "provider supporting this method first."
 msgstr ""
+<<<<<<< HEAD
 "Phương thức thanh toán này cần có nhà cung cấp; trước tiên bạn cần kích hoạt"
 " nhà cung cấp dịch vụ thanh toán hỗ trợ phương thức này."
+=======
+"Phương thức thanh toán này cần có nhà cung cấp; trước tiên bạn cần kích hoạt "
+"nhà cung cấp dịch vụ thanh toán hỗ trợ phương thức này."
+>>>>>>> upstream/18.0
 
 #. module: payment
 #. odoo-python
@@ -4049,7 +4282,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4593,6 +4829,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

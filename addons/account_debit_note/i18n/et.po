@@ -1,7 +1,11 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* account_debit_note
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Siim Raasuke, 2024
 # Leaanika Randmets, 2024
@@ -11,11 +15,16 @@
 # Anna, 2024
 # Eneli Õigus <enelioigus@gmail.com>, 2024
 # Birgit Vijar, 2024
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Birgit Vijar, 2024\n"
@@ -24,6 +33,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: et\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Birgit Vijar, 2024\n"
+"Language-Team: Estonian (https://app.transifex.com/odoo/teams/41243/et/)\n"
+"Language: et\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+>>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: account_debit_note
@@ -44,11 +63,19 @@ msgstr "Tühista"
 #. module: account_debit_note
 #: model:ir.model.fields,help:account_debit_note.field_account_journal__debit_sequence
 msgid ""
+<<<<<<< HEAD
 "Check this box if you don't want to share the same sequence for invoices and"
 " debit notes made from this journal"
 msgstr ""
 "Märgi, kui ei soovi, et arvetel ja deebetarvetel oleks sama järjestus sellel"
 " andmikul"
+=======
+"Check this box if you don't want to share the same sequence for invoices and "
+"debit notes made from this journal"
+msgstr ""
+"Märgi, kui ei soovi, et arvetel ja deebetarvetel oleks sama järjestus sellel "
+"andmikul"
+>>>>>>> upstream/18.0
 
 #. module: account_debit_note
 #: model:ir.model.fields,field_description:account_debit_note.field_account_debit_note__copy_lines
@@ -197,7 +224,11 @@ msgstr "Deebetarved, mis on loodud sellele arvele"
 
 #. module: account_debit_note
 #. odoo-python
+<<<<<<< HEAD
 #: code:addons/account_debit_note/wizard/account_debit_note.py:0
+=======
+#: code:addons/account_debit_note/models/account_move.py:0
+>>>>>>> upstream/18.0
 msgid "This debit note was created from: %s"
 msgstr "See deebetarve loodi: %s"
 
@@ -226,6 +257,11 @@ msgstr "Debiteerida saab ainult postitatud kandeid. "
 #. odoo-python
 #: code:addons/account_debit_note/wizard/account_debit_note.py:0
 msgid ""
+<<<<<<< HEAD
 "You can't make a debit note for an invoice that is already linked to a debit"
 " note."
+=======
+"You can't make a debit note for an invoice that is already linked to a debit "
+"note."
+>>>>>>> upstream/18.0
 msgstr "Deebetarvet ei saa teha arvele, mis on juba seotud deebetarvega. "

@@ -1,15 +1,24 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* event_crm
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
 # Maitê Dietze, 2024
 # 
+=======
+#
+# Translators:
+# Wil Odoo, 2024
+# Maitê Dietze, 2024
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Maitê Dietze, 2024\n"
@@ -19,6 +28,19 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: pt_BR\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Maitê Dietze, 2024\n"
+"Language-Team: Portuguese (Brazil) (https://app.transifex.com/odoo/teams/"
+"41243/pt_BR/)\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % "
+"1000000 == 0 ? 1 : 2;\n"
+>>>>>>> upstream/18.0
 
 #. module: event_crm
 #: model:ir.model.fields,field_description:event_crm.field_event_event__lead_count
@@ -145,7 +167,12 @@ msgid ""
 msgstr ""
 "Criação: na criação do participante;\n"
 "Confirmação: no cadastro do participante, manual ou automaticamente;\n"
+<<<<<<< HEAD
 "Participou: quando o comparecimento é confirmado e a inscrição definida como concluída;"
+=======
+"Participou: quando o comparecimento é confirmado e a inscrição definida como "
+"concluída;"
+>>>>>>> upstream/18.0
 
 #. module: event_crm
 #: model:ir.model.fields,help:event_crm.field_event_lead_rule__lead_type
@@ -223,11 +250,19 @@ msgstr ""
 #. module: event_crm
 #: model:ir.model.fields,help:event_crm.field_event_lead_rule__event_id
 msgid ""
+<<<<<<< HEAD
 "Filter the attendees to include those of this specific event. If not set, no"
 " event restriction will be applied."
 msgstr ""
 "Filtre os participantes para incluir aqueles deste evento específico. Se não"
 " for definido, nenhuma restrição de evento será aplicada."
+=======
+"Filter the attendees to include those of this specific event. If not set, no "
+"event restriction will be applied."
+msgstr ""
+"Filtre os participantes para incluir aqueles deste evento específico. Se não "
+"for definido, nenhuma restrição de evento será aplicada."
+>>>>>>> upstream/18.0
 
 #. module: event_crm
 #: model_terms:ir.ui.view,arch_db:event_crm.event_lead_rule_view_form
@@ -380,7 +415,12 @@ msgid ""
 "Per Order: A single Lead is created per Ticket Batch/Sale Order (B2B)"
 msgstr ""
 "Por participante: um lead é criado para cada participante (B2C).\n"
+<<<<<<< HEAD
 "Por pedido: um único lead é criado por lote de ingressos/pedidos de venda (B2B)"
+=======
+"Por pedido: um único lead é criado por lote de ingressos/pedidos de venda "
+"(B2B)"
+>>>>>>> upstream/18.0
 
 #. module: event_crm
 #: model:ir.model.fields.selection,name:event_crm.selection__event_lead_rule__lead_creation_basis__order
@@ -415,10 +455,19 @@ msgstr "Inscrições que acionam a regra que criou este lead"
 #. module: event_crm
 #: model:ir.model.fields,help:event_crm.field_event_lead_rule__company_id
 msgid ""
+<<<<<<< HEAD
 "Restrict the trigger of this rule to events belonging to a specific company.\n"
 "If not set, no company restriction will be applied."
 msgstr ""
 "Restrinja o acionamento desta regra a eventos pertencentes a uma empresa específica.\n"
+=======
+"Restrict the trigger of this rule to events belonging to a specific "
+"company.\n"
+"If not set, no company restriction will be applied."
+msgstr ""
+"Restrinja o acionamento desta regra a eventos pertencentes a uma empresa "
+"específica.\n"
+>>>>>>> upstream/18.0
 "Se não for definido, nenhuma restrição da empresa será aplicada."
 
 #. module: event_crm
@@ -455,8 +504,13 @@ msgstr "Pesquisar regras de geração de lead"
 #: model:ir.model.fields,help:event_crm.field_event_event__has_lead_request
 msgid "Set to True when a Lead Generation Request is currently running."
 msgstr ""
+<<<<<<< HEAD
 "Defina como Verdadeiro quando uma solicitação de geração de leads estiver em"
 " execução no momento."
+=======
+"Defina como Verdadeiro quando uma solicitação de geração de leads estiver em "
+"execução no momento."
+>>>>>>> upstream/18.0
 
 #. module: event_crm
 #: model:ir.model.fields,field_description:event_crm.field_crm_lead__event_id
@@ -484,8 +538,12 @@ msgstr ""
 #. module: event_crm
 #: model_terms:ir.actions.act_window,help:event_crm.event_lead_rule_action
 msgid "Those automatically create leads when attendees register."
+<<<<<<< HEAD
 msgstr ""
 "Eles criam leads automaticamente quando os participantes se registram."
+=======
+msgstr "Eles criam leads automaticamente quando os participantes se registram."
+>>>>>>> upstream/18.0
 
 #. module: event_crm
 #: model_terms:ir.ui.view,arch_db:event_crm.event_lead_rule_view_search

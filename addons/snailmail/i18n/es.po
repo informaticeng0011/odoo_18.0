@@ -114,6 +114,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* snailmail
 # 
 # Translators:
@@ -161,6 +162,8 @@
 >>>>>>> upstream/18.0
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -507,6 +510,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -733,11 +737,15 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# "Noemi Pla Garcia (nopl)" <nopl@odoo.com>, 2025.
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1130,12 +1138,18 @@ msgstr ""
 >>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-08-25 10:09+0000\n"
 "Last-Translator: \"Larissa Manderfeld (lman)\" <lman@odoo.com>\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:38+0000\n"
+"PO-Revision-Date: 2025-12-31 08:44+0000\n"
+"Last-Translator: \"Noemi Pla Garcia (nopl)\" <nopl@odoo.com>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Spanish <https://translate.odoo.com/projects/odoo-18/"
 "snailmail/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 "Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
 " ? 1 : 2);\n"
 "X-Generator: Weblate 5.12.2\n"
@@ -1479,6 +1493,11 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == "
+"0) ? 1 : 2);\n"
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: snailmail
 #: model:ir.model.fields.selection,name:snailmail.selection__snailmail_letter__error_code__attachment_error
@@ -1523,8 +1542,12 @@ msgstr ""
 #. odoo-python
 #: code:addons/snailmail/models/snailmail_letter.py:0
 msgid "An unknown error happened. Please contact the support."
+<<<<<<< HEAD
 msgstr ""
 "Ocurrió un error desconocido. Por favor contacte al equipo de soporte."
+=======
+msgstr "Ocurrió un error desconocido. Por favor contacte al equipo de soporte."
+>>>>>>> upstream/18.0
 
 #. module: snailmail
 #. odoo-javascript
@@ -1783,7 +1806,11 @@ msgid "Display Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nombre mostrado"
+=======
+msgstr "Nombre para mostrar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nombre para mostrar"
 >>>>>>> upstream/18.0
@@ -2290,12 +2317,24 @@ msgstr "Informe opcional a generar y adjuntar"
 #: model_terms:ir.ui.view,arch_db:snailmail.snailmail_letter_format_error
 msgid ""
 "Our service cannot read your letter due to its format.<br/>\n"
+<<<<<<< HEAD
 "                Please modify the format of the template or update your settings\n"
 "                to automatically add a blank cover page to all letters."
 msgstr ""
 "Nuestro servicio no puede leer su carta debido a su formato.<br/>\n"
 "                 Modifique el formato de la plantilla o actualice su configuración\n"
 "                 para añadir automáticamente una portada vacía a todas las letras."
+=======
+"                Please modify the format of the template or update your "
+"settings\n"
+"                to automatically add a blank cover page to all letters."
+msgstr ""
+"Nuestro servicio no puede leer su carta debido a su formato.<br/>\n"
+"                 Modifique el formato de la plantilla o actualice su "
+"configuración\n"
+"                 para añadir automáticamente una portada vacía a todas las "
+"letras."
+>>>>>>> upstream/18.0
 
 #. module: snailmail
 #: model:ir.model.fields,field_description:snailmail.field_snailmail_letter_missing_required_fields__partner_id
@@ -2348,6 +2387,7 @@ msgstr "Enviar ahora"
 #: model:iap.service,description:snailmail.iap_service_snailmail
 msgid "Send your customer invoices and follow-up reports by post, worldwide."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2845,6 +2885,9 @@ msgstr ""
 =======
 "Envíe sus facturas e informes de seguimiento por correo postal a todo el "
 >>>>>>> upstream/18.0
+=======
+"Envíe sus facturas e informes de seguimiento por correo postal a todo el "
+>>>>>>> upstream/18.0
 "mundo."
 
 #. module: snailmail
@@ -2907,7 +2950,11 @@ msgstr "Error de formato en correo postal"
 #: model:ir.model,name:snailmail.model_snailmail_letter
 #: model:ir.model.fields,field_description:snailmail.field_mail_notification__letter_id
 msgid "Snailmail Letter"
+<<<<<<< HEAD
 msgstr "Carta de correo postal"
+=======
+msgstr "Carta por correo postal"
+>>>>>>> upstream/18.0
 
 #. module: snailmail
 #: model:ir.actions.act_window,name:snailmail.action_mail_letters
@@ -3005,8 +3052,13 @@ msgstr "La dirección del destinatario no está completa."
 #. odoo-python
 #: code:addons/snailmail/models/snailmail_letter.py:0
 msgid ""
+<<<<<<< HEAD
 "The attachment of the letter could not be sent. Please check its content and"
 " contact the support if the problem persists."
+=======
+"The attachment of the letter could not be sent. Please check its content and "
+"contact the support if the problem persists."
+>>>>>>> upstream/18.0
 msgstr ""
 "No se pudo enviar el archivo adjunto de la carta. Compruebe su contenido y "
 "póngase en contacto con el servicio de asistencia si el problema persiste."
@@ -3046,8 +3098,12 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/snailmail/static/src/core_ui/snailmail_error.xml:0
 msgid ""
+<<<<<<< HEAD
 "The letter could not be sent due to insufficient credits on your IAP "
 "account."
+=======
+"The letter could not be sent due to insufficient credits on your IAP account."
+>>>>>>> upstream/18.0
 msgstr ""
 "No se pudo enviar la carta porque su cuenta AIP no cuenta con los créditos "
 "suficientes."
@@ -3087,6 +3143,7 @@ msgid ""
 "'comment': generated by user input e.g. through discuss or composer\n"
 "'email_outgoing': generated by a mailing\n"
 "'notification': generated by system e.g. tracking messages\n"
+<<<<<<< HEAD
 "'auto_comment': generated by automated notification mechanism e.g. acknowledgment\n"
 "'user_notification': generated for a specific recipient"
 msgstr ""
@@ -3096,6 +3153,22 @@ msgstr ""
 "'email_outgoing': generado por un envío de correo\n"
 "'notification': generado por el sistema, por ejemplo, mensajes de seguimiento\n"
 "'auto_comment': generado por un mecanismo de notificación automatizado, por ejemplo un acuse de recibo\n"
+=======
+"'auto_comment': generated by automated notification mechanism e.g. "
+"acknowledgment\n"
+"'user_notification': generated for a specific recipient"
+msgstr ""
+"Utilizado para categorizar el generador de mensajes\n"
+"'email': generado por un correo electrónico entrante, por ejemplo, "
+"mailgateway\n"
+"'comment': generado por la entrada del usuario, por ejemplo, a través de "
+"conversaciones o del editor\n"
+"'email_outgoing': generado por un envío de correo\n"
+"'notification': generado por el sistema, por ejemplo, mensajes de "
+"seguimiento\n"
+"'auto_comment': generado por un mecanismo de notificación automatizado, por "
+"ejemplo un acuse de recibo\n"
+>>>>>>> upstream/18.0
 "'user_notification': generado para un destinatario específico"
 
 #. module: snailmail
@@ -3103,11 +3176,21 @@ msgstr ""
 msgid ""
 "When a letter is created, the status is 'Pending'.\n"
 "If the letter is correctly sent, the status goes in 'Sent',\n"
+<<<<<<< HEAD
 "If not, it will got in state 'Error' and the error message will be displayed in the field 'Error Message'."
 msgstr ""
 "Cuando se crea una carta, el estado es \"Pendiente\".\n"
 "Si la carta se envió correctamente, el estado va a \"Enviado\",\n"
 "De lo contrario, se pondrá en estado 'Error' y el mensaje de error se mostrará en el campo 'Mensaje de error'."
+=======
+"If not, it will got in state 'Error' and the error message will be displayed "
+"in the field 'Error Message'."
+msgstr ""
+"Cuando se crea una carta, el estado es \"Pendiente\".\n"
+"Si la carta se envió correctamente, el estado va a \"Enviado\",\n"
+"De lo contrario, se pondrá en estado 'Error' y el mensaje de error se "
+"mostrará en el campo 'Mensaje de error'."
+>>>>>>> upstream/18.0
 
 #. module: snailmail
 #. odoo-python

@@ -42,6 +42,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* maintenance
 # 
 # Translators:
@@ -49,6 +50,8 @@
 # Marta Wacławek, 2025
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -179,6 +182,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -266,6 +272,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -400,6 +407,9 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:36+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-11-21 02:30+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Polish <https://translate.odoo.com/projects/odoo-18/"
@@ -408,6 +418,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && ("
 "n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && "
 "n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
@@ -536,6 +547,12 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && "
+"(n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && "
+"n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_request_view_form
@@ -582,7 +599,11 @@ msgid "<span class=\"badge text-bg-warning float-end\">Cancelled</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"badge text-bg-warning float-end\">Anulowano</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"badge text-bg-warning float-end\">Anulowano</span>"
 >>>>>>> upstream/18.0
@@ -1103,7 +1124,11 @@ msgid "Custom Maintenance Worksheets"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Niestandardowe arkusze robocze konserwacji"
+>>>>>>> upstream/18.0
 =======
 msgstr "Niestandardowe arkusze robocze konserwacji"
 >>>>>>> upstream/18.0
@@ -1331,8 +1356,13 @@ msgid ""
 "Email alias for this equipment category. New emails will automatically "
 "create a new equipment under this category."
 msgstr ""
+<<<<<<< HEAD
 "Alias ​​e-mail dla tej kategorii sprzętu. Nowe e-maile automatycznie utworzą"
 " nowy sprzęt w tej kategorii."
+=======
+"Alias ​​e-mail dla tej kategorii sprzętu. Nowe e-maile automatycznie utworzą "
+"nowy sprzęt w tej kategorii."
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_request__email_cc
@@ -1427,7 +1457,11 @@ msgid "Equipment Count"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Liczba sprzętu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Liczba sprzętu"
 >>>>>>> upstream/18.0
@@ -1700,8 +1734,13 @@ msgstr "ID"
 #. module: maintenance
 #: model:ir.model.fields,help:maintenance.field_maintenance_equipment_category__alias_parent_thread_id
 msgid ""
+<<<<<<< HEAD
 "ID of the parent record holding the alias (example: project holding the task"
 " creation alias)"
+=======
+"ID of the parent record holding the alias (example: project holding the task "
+"creation alias)"
+>>>>>>> upstream/18.0
 msgstr ""
 "ID rekordu nadrzędnego zawierającego alias (np. projekt zawierający alias "
 "tworzenia zadań)"
@@ -2150,8 +2189,13 @@ msgid ""
 "creation of new records completely."
 msgstr ""
 "Opcjonalne ID wątku (rekordu), do którego przychodzące wiadomości będą "
+<<<<<<< HEAD
 "dowiązane, nawet jeśli nie są odpowiedzią na ten rekord. Jeśli ustawione, to"
 " będzie zapobiegać tworzeniu nowych rekordów."
+=======
+"dowiązane, nawet jeśli nie są odpowiedzią na ten rekord. Jeśli ustawione, to "
+"będzie zapobiegać tworzeniu nowych rekordów."
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model:ir.ui.menu,name:maintenance.menu_m_reports_oee
@@ -2185,8 +2229,13 @@ msgstr "ID wątku rekordu nadrzędnego"
 #. module: maintenance
 #: model:ir.model.fields,help:maintenance.field_maintenance_equipment_category__alias_parent_model_id
 msgid ""
+<<<<<<< HEAD
 "Parent model holding the alias. The model holding the alias reference is not"
 " necessarily the model given by alias_model_id (example: project "
+=======
+"Parent model holding the alias. The model holding the alias reference is not "
+"necessarily the model given by alias_model_id (example: project "
+>>>>>>> upstream/18.0
 "(parent_model) and task (model))"
 msgstr ""
 "Model nadrzędny zawierający alias. Model zawierający odwołanie do aliasu\n"
@@ -2213,12 +2262,24 @@ msgid ""
 "Policy to post a message on the document using the mailgateway.\n"
 "- everyone: everyone can post\n"
 "- partners: only authenticated partners\n"
+<<<<<<< HEAD
 "- followers: only followers of the related document or members of following channels\n"
 msgstr ""
 "Zasady publikowania wiadomości na dokumencie za pomocą poczty elektronicznej.\n"
 "- wszyscy: każdy może publikować\n"
 "- partnerzy: tylko uwierzytelnieni partnerzy\n"
 "- obserwatorzy: tylko następcy powiązanego dokumentu lub członkowie następujących kanałów\n"
+=======
+"- followers: only followers of the related document or members of following "
+"channels\n"
+msgstr ""
+"Zasady publikowania wiadomości na dokumencie za pomocą poczty "
+"elektronicznej.\n"
+"- wszyscy: każdy może publikować\n"
+"- partnerzy: tylko uwierzytelnieni partnerzy\n"
+"- obserwatorzy: tylko następcy powiązanego dokumentu lub członkowie "
+"następujących kanałów\n"
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model:ir.model.fields.selection,name:maintenance.selection__maintenance_request__maintenance_type__preventive
@@ -2376,7 +2437,11 @@ msgid "Requested by:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Na wniosek:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Na wniosek:"
 >>>>>>> upstream/18.0
@@ -2676,9 +2741,15 @@ msgstr "Tekst"
 #. module: maintenance
 #: model:ir.model.fields,help:maintenance.field_maintenance_equipment_category__alias_model_id
 msgid ""
+<<<<<<< HEAD
 "The model (Odoo Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
+=======
+"The model (Odoo Document Kind) to which this alias corresponds. Any incoming "
+"email that does not reply to an existing record will cause the creation of a "
+"new record of this model (e.g. a Project Task)"
+>>>>>>> upstream/18.0
 msgstr ""
 "Model (rodzaj dokumentu Odoo), któremu odpowiada ten alias. Każda "
 "przychodząca wiadomość e-mail, która nie odpowiada istniejącemu rekordowi, "
@@ -2690,8 +2761,13 @@ msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
 "<jobs@example.odoo.com>"
 msgstr ""
+<<<<<<< HEAD
 "Nazwa aliasu e-mail, np. \"jobs\", jeśli chcesz przechwytywać wiadomości "
 "e-mail dla <jobs@example.odoo.com>"
+=======
+"Nazwa aliasu e-mail, np. \"jobs\", jeśli chcesz przechwytywać wiadomości e-"
+"mail dla <jobs@example.odoo.com>"
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model:res.groups,comment:maintenance.group_equipment_manager
@@ -2726,7 +2802,12 @@ msgstr "Najwyższy priorytet"
 #: model_terms:ir.actions.act_window,help:maintenance.hr_equipment_action_from_category_form
 msgid ""
 "Track equipment and link it to an employee or department.\n"
+<<<<<<< HEAD
 "                You will be able to manage allocations, issues and maintenance of your equipment."
+=======
+"                You will be able to manage allocations, issues and "
+"maintenance of your equipment."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: maintenance

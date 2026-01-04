@@ -1,15 +1,24 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* pos_loyalty
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
 # Junko Augias, 2025
 # 
+=======
+#
+# Translators:
+# Wil Odoo, 2024
+# Junko Augias, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-04-07 20:36+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Junko Augias, 2025\n"
@@ -18,17 +27,37 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: ja\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Junko Augias, 2025\n"
+"Language-Team: Japanese (https://app.transifex.com/odoo/teams/41243/ja/)\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+>>>>>>> upstream/18.0
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: pos_loyalty
 #: model:ir.model.fields,help:pos_loyalty.field_pos_order_line__reward_identifier_code
 msgid ""
 "\n"
+<<<<<<< HEAD
 "        Technical field used to link multiple reward lines from the same reward together.\n"
 "    "
 msgstr ""
 "\n"
 "        同じリワードの複数のリワード明細を一緒にリンクするために使用される技術フィールド。\n"
+=======
+"        Technical field used to link multiple reward lines from the same "
+"reward together.\n"
+"    "
+msgstr ""
+"\n"
+"        同じリワードの複数のリワード明細を一緒にリンクするために使用される技"
+"術フィールド。\n"
+>>>>>>> upstream/18.0
 "    "
 
 #. module: pos_loyalty
@@ -70,7 +99,13 @@ msgstr "リワードはロードできませんでした"
 msgid ""
 "A technical field used as an alternative to the promo code. This is "
 "automatically generated when the promo code is changed."
+<<<<<<< HEAD
 msgstr "プロモコードの代替として使用される技術フィールド。プロモコードが変更されると自動的に生成されます。"
+=======
+msgstr ""
+"プロモコードの代替として使用される技術フィールド。プロモコードが変更されると"
+"自動的に生成されます。"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.model.fields,field_description:pos_loyalty.field_res_partner__loyalty_card_count
@@ -259,13 +294,25 @@ msgstr "クーポンでこのリワードはいくつのポイントが必要か
 #. odoo-python
 #: code:addons/pos_loyalty/models/pos_config.py:0
 msgid "Invalid gift card program reward. Use 1 currency per point discount."
+<<<<<<< HEAD
 msgstr "ギフトカードプログラムのリワードが無効です。1ポイントにつき1通貨の値引をご利用下さい。"
+=======
+msgstr ""
+"ギフトカードプログラムのリワードが無効です。1ポイントにつき1通貨の値引をご利"
+"用下さい。"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-python
 #: code:addons/pos_loyalty/models/pos_config.py:0
 msgid "Invalid gift card program rule. Use 1 point per currency spent."
+<<<<<<< HEAD
 msgstr "ギフトカードプログラムの規則が無効です。1ポイントにつき1通貨の値引をご利用下さい。"
+=======
+msgstr ""
+"ギフトカードプログラムの規則が無効です。1ポイントにつき1通貨の値引をご利用下"
+"さい。"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-python
@@ -437,7 +484,13 @@ msgstr "eウォレットで払戻"
 msgid ""
 "Refunding a top up or reward product for an eWallet or gift card program is "
 "not allowed."
+<<<<<<< HEAD
 msgstr "eウォレットまたはギフトカードプログラムのトップアップまたはリワードプロダクトの払戻しはできません。"
+=======
+msgstr ""
+"eウォレットまたはギフトカードプログラムのトップアップまたはリワードプロダクト"
+"の払戻しはできません。"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
@@ -491,7 +544,13 @@ msgstr "シンプルなペン"
 msgid ""
 "Some coupons are invalid. The applied coupons have been updated. Please "
 "check the order."
+<<<<<<< HEAD
 msgstr "一部のクーポンは無効です。適用されたクーポンは更新されました。オーダ内容をご確認下さい。"
+=======
+msgstr ""
+"一部のクーポンは無効です。適用されたクーポンは更新されました。オーダ内容をご"
+"確認下さい。"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
@@ -543,10 +602,19 @@ msgstr "リワードを請求する際に使用するクーポン"
 #. odoo-python
 #: code:addons/pos_loyalty/models/pos_order.py:0
 msgid ""
+<<<<<<< HEAD
 "The following codes already exist in the database, perhaps they were already sold?\n"
 "%s"
 msgstr ""
 "以下のコードはすでにデータベースに存在しています、おそらくすでに販売されたのでしょうか？\n"
+=======
+"The following codes already exist in the database, perhaps they were already "
+"sold?\n"
+"%s"
+msgstr ""
+"以下のコードはすでにデータベースに存在しています、おそらくすでに販売されたの"
+"でしょうか？\n"
+>>>>>>> upstream/18.0
 "%s"
 
 #. module: pos_loyalty
@@ -554,7 +622,13 @@ msgstr ""
 msgid ""
 "The report action to be executed when creating a coupon/gift card/loyalty "
 "card in the PoS."
+<<<<<<< HEAD
 msgstr "POSでクーポン/ギフトカード/ロイヤリティカードを作成する際に実行されるレポートアクション。"
+=======
+msgstr ""
+"POSでクーポン/ギフトカード/ロイヤリティカードを作成する際に実行されるレポート"
+"アクション。"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
@@ -562,7 +636,13 @@ msgstr "POSでクーポン/ギフトカード/ロイヤリティカードを作�
 msgid ""
 "The reward \"%s\" contain an error in its domain, your domain must be "
 "compatible with the PoS client"
+<<<<<<< HEAD
 msgstr "リワード\"%s\"のドメインにエラーが含まれています、ドメインはPOS顧客と互換性がなければなりません。"
+=======
+msgstr ""
+"リワード\"%s\"のドメインにエラーが含まれています、ドメインはPOS顧客と互換性が"
+"なければなりません。"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.model.fields,help:pos_loyalty.field_pos_order_line__reward_id
@@ -599,7 +679,13 @@ msgstr "この報酬を請求するには、バスケット内のプロダクト
 msgid ""
 "There is no email template on the gift card program and your pos is set to "
 "print them."
+<<<<<<< HEAD
 msgstr "ギフトカードプログラムにはEメールのテンプレートはなく、POSはEメールを印刷するように設定されています。"
+=======
+msgstr ""
+"ギフトカードプログラムにはEメールのテンプレートはなく、POSはEメールを印刷する"
+"ように設定されています。"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-python
@@ -607,7 +693,13 @@ msgstr "ギフトカードプログラムにはEメールのテンプレート�
 msgid ""
 "There is no print report on the gift card program and your pos is set to "
 "print them."
+<<<<<<< HEAD
 msgstr "ギフトカードプログラムには印刷レポートはなく、POSはEメールを印刷するように設定されています。"
+=======
+msgstr ""
+"ギフトカードプログラムには印刷レポートはなく、POSはEメールを印刷するように設"
+"定されています。"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.model.fields,help:pos_loyalty.field_loyalty_rule__valid_product_ids
@@ -650,7 +742,13 @@ msgstr "このクーポンはまだ有効ではありません (%s)"
 msgid ""
 "This gift card is not linked to any order. Do you really want to apply its "
 "reward?"
+<<<<<<< HEAD
 msgstr "このギフトカードはどのオーダにもリンクされていません。本当に特典を適用しますか？"
+=======
+msgstr ""
+"このギフトカードはどのオーダにもリンクされていません。本当に特典を適用します"
+"か？"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.model.fields,help:pos_loyalty.field_loyalty_program__pos_report_print_id
@@ -737,7 +835,12 @@ msgstr "はい"
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/components/product_screen/order_summary/order_summary.js:0
 msgid "You cannot set negative quantity or price to gift card or ewallet."
+<<<<<<< HEAD
 msgstr "ギフトカードまたはeウォレットに負の数量または価格を設定することはできません"
+=======
+msgstr ""
+"ギフトカードまたはeウォレットに負の数量または価格を設定することはできません"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript

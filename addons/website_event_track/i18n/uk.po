@@ -1,15 +1,24 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* website_event_track
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
 # Alina Lisnenko <alina.lisnenko@erp.co.ua>, 2024
 # 
+=======
+#
+# Translators:
+# Wil Odoo, 2024
+# Alina Lisnenko <alina.lisnenko@erp.co.ua>, 2024
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-12-16 13:41+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 "Last-Translator: Alina Lisnenko <alina.lisnenko@erp.co.ua>, 2024\n"
@@ -19,17 +28,47 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: uk\n"
 "Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:38+0000\n"
+"PO-Revision-Date: 2024-09-25 09:42+0000\n"
+"Last-Translator: Alina Lisnenko <alina.lisnenko@erp.co.ua>, 2024\n"
+"Language-Team: Ukrainian (https://app.transifex.com/odoo/teams/41243/uk/)\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != "
+"11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % "
+"100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || "
+"(n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:mail.template,body_html:website_event_track.mail_template_data_track_confirmation
 msgid ""
 "\n"
+<<<<<<< HEAD
 "    Dear <t t-out=\"object.partner_id.name or object.partner_name or ''\">Brandon Freeman</t><br/>\n"
 "    We are pleased to inform you that your proposal <t t-out=\"object.name or ''\">What This Event Is All About</t> has been accepted and confirmed for the event <t t-out=\"object.event_id.name or ''\">OpenWood Collection Online Reveal</t>.\n"
 "    <br/>\n"
 "    You will find more details here:\n"
 "    <div style=\"margin: 16px 0px 16px 0px;\">\n"
 "        <a t-attf-href=\"/event/{{ object.event_id.id }}/track/{{ object.id }}\" style=\"padding: 8px 16px 8px 16px; font-size: 14px; color: #FFFFFF; text-decoration: none !important; background-color: #875A7B; border: 0px solid #875A7B; border-radius:3px\">\n"
+=======
+"    Dear <t t-out=\"object.partner_id.name or object.partner_name or "
+"''\">Brandon Freeman</t><br/>\n"
+"    We are pleased to inform you that your proposal <t t-out=\"object.name "
+"or ''\">What This Event Is All About</t> has been accepted and confirmed for "
+"the event <t t-out=\"object.event_id.name or ''\">OpenWood Collection Online "
+"Reveal</t>.\n"
+"    <br/>\n"
+"    You will find more details here:\n"
+"    <div style=\"margin: 16px 0px 16px 0px;\">\n"
+"        <a t-attf-href=\"/event/{{ object.event_id.id }}/track/"
+"{{ object.id }}\" style=\"padding: 8px 16px 8px 16px; font-size: 14px; "
+"color: #FFFFFF; text-decoration: none !important; background-color: #875A7B; "
+"border: 0px solid #875A7B; border-radius:3px\">\n"
+>>>>>>> upstream/18.0
 "            View Talk\n"
 "        </a>\n"
 "    </div>\n"
@@ -37,7 +76,12 @@ msgid ""
 "    Thank you,\n"
 "    <t t-if=\"user.signature\" data-o-mail-quote-container=\"1\">\n"
 "        <br/>\n"
+<<<<<<< HEAD
 "        <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+=======
+"        <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br data-"
+"o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+>>>>>>> upstream/18.0
 "    </t>\n"
 msgstr ""
 
@@ -152,8 +196,15 @@ msgstr "<span class=\"fa fa-plus me-1\"/> Запланувати завданн�
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_proposal
 msgid ""
 "<span class=\"o_wetrack_proposal_error_section text-danger d-none ml8\">\n"
+<<<<<<< HEAD
 "                                    <i class=\"fa fa-close mr4\" role=\"img\" aria-label=\"Error\" title=\"Error\"/>\n"
 "                                    <span class=\"o_wetrack_proposal_error_message\"/>\n"
+=======
+"                                    <i class=\"fa fa-close mr4\" "
+"role=\"img\" aria-label=\"Error\" title=\"Error\"/>\n"
+"                                    <span "
+"class=\"o_wetrack_proposal_error_message\"/>\n"
+>>>>>>> upstream/18.0
 "                                </span>"
 msgstr ""
 
@@ -214,8 +265,12 @@ msgstr "<strong>Розташування:</strong>"
 #: model:event.track,name:website_event_track.event_track7
 msgid "A technical explanation of how to use computer design apps"
 msgstr ""
+<<<<<<< HEAD
 "Технічне пояснення того, як використовувати додатки для комп'ютерного "
 "дизайну"
+=======
+"Технічне пояснення того, як використовувати додатки для комп'ютерного дизайну"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,help:website_event_track.field_event_track__kanban_state
@@ -369,6 +424,7 @@ msgstr ""
 #. module: website_event_track
 #: model_terms:event.track,description:website_event_track.event_7_track_17
 msgid ""
+<<<<<<< HEAD
 "As you may have heard before, making your own furniture is actually not as difficult or as complicated as you think.\n"
 "    In fact, some projects are so easy anyone could successfully complete them. For example, making a cute stool out of\n"
 "    a old tire is a real piece of cake and if you’re in need of a coffee table you can easily put one together using\n"
@@ -377,6 +433,22 @@ msgstr ""
 "Як ви, можливо, вже чули раніше, зробити власні меблі насправді не так складно.\n"
 "    Насправді, деякі проекти настільки прості, що кожен може успішно їх виконати. Наприклад, зробити милий табурет зі\n"
 " старої шини — справжня штука, і якщо вам потрібен журнальний столик, ви можете легко зібрати його, використовуючи дерев’яні ящики."
+=======
+"As you may have heard before, making your own furniture is actually not as "
+"difficult or as complicated as you think.\n"
+"    In fact, some projects are so easy anyone could successfully complete "
+"them. For example, making a cute stool out of\n"
+"    a old tire is a real piece of cake and if you’re in need of a coffee "
+"table you can easily put one together using\n"
+"    wood crates."
+msgstr ""
+"Як ви, можливо, вже чули раніше, зробити власні меблі насправді не так "
+"складно.\n"
+"    Насправді, деякі проекти настільки прості, що кожен може успішно їх "
+"виконати. Наприклад, зробити милий табурет зі\n"
+" старої шини — справжня штука, і якщо вам потрібен журнальний столик, ви "
+"можете легко зібрати його, використовуючи дерев’яні ящики."
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__message_attachment_count
@@ -1122,11 +1194,19 @@ msgstr ""
 #. module: website_event_track
 #: model:ir.model.fields,help:website_event_track.field_event_track__wishlisted_by_default
 msgid ""
+<<<<<<< HEAD
 "If set, the talk will be set as favorite for each attendee registered to the"
 " event."
 msgstr ""
 "Якщо налаштовано, виступ буде встановлено як улюблений для кожного учасника,"
 " зареєстрованого на подію."
+=======
+"If set, the talk will be set as favorite for each attendee registered to the "
+"event."
+msgstr ""
+"Якщо налаштовано, виступ буде встановлено як улюблений для кожного учасника, "
+"зареєстрованого на подію."
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__website_image_url
@@ -1775,8 +1855,13 @@ msgid ""
 "Sent to speakers whose track proposal is accepted (set the template on the "
 "right stage)"
 msgstr ""
+<<<<<<< HEAD
 "Відправлено спікерам, чий запит на виступ підтверджено (встановіть шаблон на"
 " правильному етапі)"
+=======
+"Відправлено спікерам, чий запит на виступ підтверджено (встановіть шаблон на "
+"правильному етапі)"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__seo_name
@@ -2006,8 +2091,15 @@ msgstr ""
 #. module: website_event_track
 #: model_terms:event.track,description:website_event_track.event_7_track_5
 msgid ""
+<<<<<<< HEAD
 "There are several variants of wood is available in the world but we are talking about most expensive\n"
 "    ones in the world and keeping to the point we have arranged ten most expensive wood."
+=======
+"There are several variants of wood is available in the world but we are "
+"talking about most expensive\n"
+"    ones in the world and keeping to the point we have arranged ten most "
+"expensive wood."
+>>>>>>> upstream/18.0
 msgstr ""
 "У світі існує кілька варіантів деревини, але ми говоримо про найдорожчі \n"
 "у світі, і, керуючись тим, ми розробили десять найдорожчих дерев."
@@ -2029,8 +2121,12 @@ msgstr "Це стандартні доповіді зі слайдами, роз
 #. module: website_event_track
 #: model_terms:ir.actions.act_window,help:website_event_track.event_track_visitor_action
 msgid ""
+<<<<<<< HEAD
 "They will be created automatically once attendees start browsing your "
 "events."
+=======
+"They will be created automatically once attendees start browsing your events."
+>>>>>>> upstream/18.0
 msgstr ""
 "Вони будуть створені автоматично, коли учасники почнуть переглядати ваші "
 "події."
@@ -2041,8 +2137,13 @@ msgid ""
 "This field holds the image used as mobile app icon on the website (PNG "
 "format)."
 msgstr ""
+<<<<<<< HEAD
 "У цьому полі міститься зображення, яке використовується як значок мобільного"
 " додатка на веб-сайті (формат PNG)."
+=======
+"У цьому полі міститься зображення, яке використовується як значок мобільного "
+"додатка на веб-сайті (формат PNG)."
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,help:website_event_track.field_res_config_settings__events_app_name
@@ -2111,11 +2212,23 @@ msgstr "Топ-10 найдорожчої деревини у світі"
 #. module: website_event_track
 #: model_terms:event.track,description:website_event_track.event_7_track_5
 msgid ""
+<<<<<<< HEAD
 "Top most expensive wood in the world is quite interesting topic and several people may be surprised\n"
 "    that there are hundreds of wood types exist around the globe following different properties and use."
 msgstr ""
 "Найдорожча деревина у світі є досить цікавою темою, і деякі люди можуть бути здивовані, що в усьому світі \n"
 "існують сотні видів деревини, які відрізняються властивостями та використанням."
+=======
+"Top most expensive wood in the world is quite interesting topic and several "
+"people may be surprised\n"
+"    that there are hundreds of wood types exist around the globe following "
+"different properties and use."
+msgstr ""
+"Найдорожча деревина у світі є досить цікавою темою, і деякі люди можуть бути "
+"здивовані, що в усьому світі \n"
+"існують сотні видів деревини, які відрізняються властивостями та "
+"використанням."
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track_visitor__track_id
@@ -2294,6 +2407,7 @@ msgid "Unread Messages"
 msgstr "Непрочитані повідомлення"
 
 #. module: website_event_track
+<<<<<<< HEAD
 #: model_terms:event.track,description:website_event_track.event_7_track_6
 msgid ""
 "Use these simple steps to easily haul LONG lumber in a short box pickup truck.  A dose of carpenter's\n"
@@ -2303,14 +2417,48 @@ msgstr ""
 "Використовуйте ці прості кроки, щоб легко перевозити ДОВГІ пиломатеріали в пікапі з коротким ящиком. Доза винахідливості\n"
 " теслі разом із парою дощок, міцним ремінцем і кількома шурупами — це все, що я використовую, щоб легко перетягувати\n"
 " довгі дошки з лісоскладу до наступного рівня столярного цеху або на робоче місце."
+=======
+#. odoo-python
+#: code:addons/website_event_track/models/event_track.py:0
+#: code:addons/website_event_track/models/website_visitor.py:0
+msgid "Unsupported 'Not In' operation on track wishlist visitors"
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:event.track,description:website_event_track.event_7_track_6
 msgid ""
+<<<<<<< HEAD
 "Using a unique wrapping method for a tie down strap (NOT Bungee cords!!!) allows lumber to be\n"
 "    cinched securely WITHOUT the need to tie and untie tricky or complicated knots."
 msgstr ""
 "Використання унікального методу обгортання ремінця (НЕ шнурів Bungee!!!) дозволяє надійно закріплювати пиломатеріали \n"
+=======
+"Use these simple steps to easily haul LONG lumber in a short box pickup "
+"truck.  A dose of carpenter's\n"
+"    ingenuity along with a couple boards, a sturdy strap and a few screws "
+"are all I use to easily haul\n"
+"    long boards from the lumberyard to the Next Level Carpentry shop or "
+"jobsite."
+msgstr ""
+"Використовуйте ці прості кроки, щоб легко перевозити ДОВГІ пиломатеріали в "
+"пікапі з коротким ящиком. Доза винахідливості\n"
+" теслі разом із парою дощок, міцним ремінцем і кількома шурупами — це все, "
+"що я використовую, щоб легко перетягувати\n"
+" довгі дошки з лісоскладу до наступного рівня столярного цеху або на робоче "
+"місце."
+
+#. module: website_event_track
+#: model_terms:event.track,description:website_event_track.event_7_track_6
+msgid ""
+"Using a unique wrapping method for a tie down strap (NOT Bungee cords!!!) "
+"allows lumber to be\n"
+"    cinched securely WITHOUT the need to tie and untie tricky or complicated "
+"knots."
+msgstr ""
+"Використання унікального методу обгортання ремінця (НЕ шнурів Bungee!!!) "
+"дозволяє надійно закріплювати пиломатеріали \n"
+>>>>>>> upstream/18.0
 "БЕЗ необхідності зав’язувати та розв’язувати складні вузли."
 
 #. module: website_event_track
@@ -2481,8 +2629,12 @@ msgid ""
 "Who will give this talk? We will show this to attendees to showcase your "
 "talk."
 msgstr ""
+<<<<<<< HEAD
 "Хто виступатиме? Ми покажемо це учасникам, щоб продемонструвати вашу "
 "промову."
+=======
+"Хто виступатиме? Ми покажемо це учасникам, щоб продемонструвати вашу промову."
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_7_track_l3_2

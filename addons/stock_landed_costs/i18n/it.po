@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* stock_landed_costs
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
@@ -462,10 +463,19 @@
 # Sergio Zanchetta <primes2h@gmail.com>, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+#
+# Translators:
+# Wil Odoo, 2024
+# Marianna Ciofani, 2024
+# Sergio Zanchetta <primes2h@gmail.com>, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 <<<<<<< HEAD
@@ -931,6 +941,18 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: it\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2024-09-25 09:42+0000\n"
+"Last-Translator: Sergio Zanchetta <primes2h@gmail.com>, 2025\n"
+"Language-Team: Italian (https://app.transifex.com/odoo/teams/41243/it/)\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? "
+"1 : 2;\n"
+>>>>>>> upstream/18.0
 
 #. module: stock_landed_costs
 #. odoo-python
@@ -940,6 +962,7 @@ msgstr "%(product)s: %(quantity)s già fuori "
 
 #. module: stock_landed_costs
 #: model_terms:ir.ui.view,arch_db:stock_landed_costs.stock_landed_cost_view_kanban
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-clock-o\" title=\"Date\" role=\"img\" aria-label=\"Date\"/>"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1398,6 +1421,12 @@ msgstr "<i class=\"fa fa-clock-o\" title=\"Data\" role=\"img\" aria-label=\"Data
 =======
 msgstr "<i class=\"fa fa-clock-o\" title=\"Data\" role=\"img\" aria-label=\"Data\"/>"
 >>>>>>> upstream/18.0
+=======
+msgid ""
+"<i class=\"fa fa-clock-o\" title=\"Date\" role=\"img\" aria-label=\"Date\"/>"
+msgstr ""
+"<i class=\"fa fa-clock-o\" title=\"Data\" role=\"img\" aria-label=\"Data\"/>"
+>>>>>>> upstream/18.0
 
 #. module: stock_landed_costs
 #: model_terms:ir.ui.view,arch_db:stock_landed_costs.view_stock_landed_cost_form
@@ -1566,7 +1595,11 @@ msgid "Apply On"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Applica a"
+=======
+msgstr "Applicare a"
+>>>>>>> upstream/18.0
 =======
 msgstr "Applicare a"
 >>>>>>> upstream/18.0
@@ -2033,7 +2066,11 @@ msgid "By Current Cost"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Per costo attuale"
+=======
+msgstr "Per costo corrente"
+>>>>>>> upstream/18.0
 =======
 msgstr "Per costo corrente"
 >>>>>>> upstream/18.0
@@ -2517,7 +2554,11 @@ msgid "Cancelled"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Annullata"
+=======
+msgstr "Annullato"
+>>>>>>> upstream/18.0
 =======
 msgstr "Annullato"
 >>>>>>> upstream/18.0
@@ -2904,6 +2945,7 @@ msgid ""
 "Cost and adjustments lines do not match. You should maybe recompute the "
 "landed costs."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3476,6 +3518,10 @@ msgstr ""
 "Il costo e le righe di rettifica non corrispondono. I costi sbarcati devono "
 "forse essere ricalcolati."
 >>>>>>> upstream/18.0
+=======
+"Il costo e le righe di rettifica non corrispondono. I costi sbarcati devono "
+"forse essere ricalcolati."
+>>>>>>> upstream/18.0
 
 #. module: stock_landed_costs
 #: model_terms:ir.ui.view,arch_db:stock_landed_costs.account_view_move_form_inherited
@@ -3531,8 +3577,12 @@ msgstr "Metodo di suddivisione predefinito"
 #: model:ir.model.fields,help:stock_landed_costs.field_product_template__split_method_landed_cost
 msgid "Default Split Method when used for Landed Cost"
 msgstr ""
+<<<<<<< HEAD
 "Metodo di suddivisione predefinito quando viene utilizzato per costi "
 "sbarcati"
+=======
+"Metodo di suddivisione predefinito quando viene utilizzato per costi sbarcati"
+>>>>>>> upstream/18.0
 
 #. module: stock_landed_costs
 #: model:ir.model.fields,field_description:stock_landed_costs.field_stock_landed_cost_lines__name
@@ -3665,7 +3715,11 @@ msgid "Done"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Completata"
+=======
+msgstr "Completato"
+>>>>>>> upstream/18.0
 =======
 msgstr "Completato"
 >>>>>>> upstream/18.0
@@ -4133,7 +4187,11 @@ msgid "Equal"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Uguale"
+=======
+msgstr "Equo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Equo"
 >>>>>>> upstream/18.0
@@ -4488,7 +4546,12 @@ msgid ""
 msgstr ""
 "Uguale: Il costo sarà diviso in parti uguali.\n"
 "Per quantità: il costo sarà diviso in base alla quantità di prodotti.\n"
+<<<<<<< HEAD
 "Per costo attuale: il costo sarà diviso in base al costo attuale del prodotto.\n"
+=======
+"Per costo attuale: il costo sarà diviso in base al costo attuale del "
+"prodotto.\n"
+>>>>>>> upstream/18.0
 "Per peso: il costo sarà diviso in base al suo peso.\n"
 "Per volume: il costo sarà diviso in base al suo volume. "
 
@@ -4763,6 +4826,7 @@ msgstr "Prelievo"
 #. odoo-python
 #: code:addons/stock_landed_costs/models/stock_landed_cost.py:0
 msgid "Please configure Stock Expense Account for product: %s."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5220,11 +5284,15 @@ msgstr "Configurare il conto di costo giacenza del prodotto: %s."
 =======
 msgstr "Configurare il conto di costo giacenza del prodotto: %s."
 >>>>>>> upstream/18.0
+=======
+msgstr "Configurare il conto di costo giacenza del prodotto: %s."
+>>>>>>> upstream/18.0
 
 #. module: stock_landed_costs
 #. odoo-python
 #: code:addons/stock_landed_costs/models/stock_landed_cost.py:0
 msgid "Please define %s on which those additional costs should apply."
+<<<<<<< HEAD
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5684,6 +5752,9 @@ msgstr ""
 =======
 "Definire i/gli %s ai quali devono essere applicati i costi aggiuntivi."
 >>>>>>> upstream/18.0
+=======
+msgstr "Definire i/gli %s ai quali devono essere applicati i costi aggiuntivi."
+>>>>>>> upstream/18.0
 
 #. module: stock_landed_costs
 #: model:ir.model.fields.selection,name:stock_landed_costs.selection__stock_landed_cost__state__done
@@ -5849,7 +5920,11 @@ msgid "Split Method"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Metodo divisione"
+=======
+msgstr "Metodo di suddivisione"
+>>>>>>> upstream/18.0
 =======
 msgstr "Metodo di suddivisione"
 >>>>>>> upstream/18.0
@@ -6333,7 +6408,11 @@ msgid "Stock Landed Cost"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Costi di spedizione magazzino"
+=======
+msgstr "Costo sbarcato di magazzino"
+>>>>>>> upstream/18.0
 =======
 msgstr "Costo sbarcato di magazzino"
 >>>>>>> upstream/18.0
@@ -6832,7 +6911,11 @@ msgid "Validate"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Convalida"
+=======
+msgstr "Valida"
+>>>>>>> upstream/18.0
 =======
 msgstr "Valida"
 >>>>>>> upstream/18.0
@@ -7309,7 +7392,11 @@ msgid "Valuation Adjustments"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Rettifiche della valuorizzazione"
+=======
+msgstr "Rettifiche valutazione"
+>>>>>>> upstream/18.0
 =======
 msgstr "Rettifiche valutazione"
 >>>>>>> upstream/18.0
@@ -7692,8 +7779,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/stock_landed_costs/models/product.py:0
 msgid ""
+<<<<<<< HEAD
 "You cannot change the product type or disable landed cost option because the"
 " product is used in an account move line."
+=======
+"You cannot change the product type or disable landed cost option because the "
+"product is used in an account move line."
+>>>>>>> upstream/18.0
 msgstr ""
 "Impossibile cambiare il tipo di prodotto o disabilitare l'opzione di costo "
 "sbarcato, il prodotto è utilizzato in una riga di movimento contabile."

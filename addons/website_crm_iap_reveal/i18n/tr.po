@@ -1,7 +1,11 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* website_crm_iap_reveal
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 # Translators:
 # emre oktem, 2024
 # Levent Karakaş <levent@mektup.at>, 2024
@@ -175,6 +179,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Deniz Guvener_Odoo <degu@odoo.com>, 2025
 >>>>>>> upstream/18.0
@@ -665,10 +670,15 @@
 # Deniz Guvener_Odoo <degu@odoo.com>, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+# Deniz Guvener_Odoo <degu@odoo.com>, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 17.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2023-10-26 21:56+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 <<<<<<< HEAD
@@ -1329,11 +1339,22 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: tr\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:38+0000\n"
+"PO-Revision-Date: 2024-09-25 09:42+0000\n"
+"Last-Translator: Deniz Guvener_Odoo <degu@odoo.com>, 2025\n"
+"Language-Team: Turkish (https://app.transifex.com/odoo/teams/41243/tr/)\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+>>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #. module: website_crm_iap_reveal
 #: model_terms:ir.ui.view,arch_db:website_crm_iap_reveal.crm_reveal_rule_form
 msgid ""
+<<<<<<< HEAD
 "1 credit is consumed per visitor matching the website traffic conditions and"
 " whose company can be identified.<br/>"
 msgstr ""
@@ -2124,6 +2145,13 @@ msgstr ""
 "Web sitesi trafiği koşullarıyla eşleşen ve şirketi tanımlanabilen her "
 "ziyaretçi için 1 kredi kullanılır.<br/>"
 >>>>>>> upstream/18.0
+=======
+"1 credit is consumed per visitor matching the website traffic conditions and "
+"whose company can be identified.<br/>"
+msgstr ""
+"Web sitesi trafiği koşullarıyla eşleşen ve şirketi tanımlanabilen her "
+"ziyaretçi için 1 kredi kullanılır.<br/>"
+>>>>>>> upstream/18.0
 
 #. module: website_crm_iap_reveal
 #: model_terms:ir.ui.view,arch_db:website_crm_iap_reveal.crm_reveal_rule_form
@@ -2159,8 +2187,12 @@ msgstr "CRM Reveal View"
 #: model:ir.model.fields,help:website_crm_iap_reveal.field_crm_reveal_rule__lead_for
 msgid "Choose whether to track companies only or companies and their contacts"
 msgstr ""
+<<<<<<< HEAD
 "Yalnızca şirketleri mi yoksa şirketleri ve kişilerini mi izleyeceğinizi "
 "seçin"
+=======
+"Yalnızca şirketleri mi yoksa şirketleri ve kişilerini mi izleyeceğinizi seçin"
+>>>>>>> upstream/18.0
 
 #. module: website_crm_iap_reveal
 #: model:ir.model.fields.selection,name:website_crm_iap_reveal.selection__crm_reveal_rule__lead_for__companies
@@ -2398,8 +2430,13 @@ msgstr "Oluşturulan Fırsatların Sayısı"
 #. module: website_crm_iap_reveal
 #: model:ir.model.fields,help:website_crm_iap_reveal.field_crm_reveal_rule__country_ids
 msgid ""
+<<<<<<< HEAD
 "Only visitors of following countries will be converted into "
 "leads/opportunities (using GeoIP)."
+=======
+"Only visitors of following countries will be converted into leads/"
+"opportunities (using GeoIP)."
+>>>>>>> upstream/18.0
 msgstr ""
 "Sadece takip eden ülkelerin ziyaretçileri aday/fırsata dönüştürülür (GeoIP "
 "kullanarak)."
@@ -2407,11 +2444,18 @@ msgstr ""
 #. module: website_crm_iap_reveal
 #: model:ir.model.fields,help:website_crm_iap_reveal.field_crm_reveal_rule__state_ids
 msgid ""
+<<<<<<< HEAD
 "Only visitors of following states will be converted into "
 "leads/opportunities."
 msgstr ""
 "Yalnızca aşağıdaki eyaletlerin ziyaretçileri potansiyel "
 "müşterilere/fırsatlara dönüştürülecektir."
+=======
+"Only visitors of following states will be converted into leads/opportunities."
+msgstr ""
+"Yalnızca aşağıdaki eyaletlerin ziyaretçileri potansiyel müşterilere/"
+"fırsatlara dönüştürülecektir."
+>>>>>>> upstream/18.0
 
 #. module: website_crm_iap_reveal
 #: model:ir.model.fields.selection,name:website_crm_iap_reveal.selection__crm_reveal_rule__lead_type__opportunity
@@ -2456,6 +2500,7 @@ msgid ""
 "to target the homepage. Example: /page* to track all the pages which begin "
 "with /page"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3437,6 +3482,11 @@ msgstr ""
 "için boş bırakın, yalnızca ana sayfayı hedeflemek için / kullanın. Örnek: "
 "/sayfa* ifadesi, /sayfa ile başlayan tüm sayfaları izler."
 >>>>>>> upstream/18.0
+=======
+"Web sitesi sayfalarını izlemek için regex ifadesi. Tüm web sitesini izlemek "
+"için boş bırakın, yalnızca ana sayfayı hedeflemek için / kullanın. Örnek: /"
+"sayfa* ifadesi, /sayfa ile başlayan tüm sayfaları izler."
+>>>>>>> upstream/18.0
 
 #. module: website_crm_iap_reveal
 #: model:ir.model.fields,help:website_crm_iap_reveal.field_crm_reveal_rule__website_id
@@ -3511,6 +3561,7 @@ msgid ""
 "criteria. Their details will show up in the history thread of generated "
 "leads/opportunities. One credit is consumed per tracked contact."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4494,10 +4545,17 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"Bu, rolleri/kıdemlerinin kriterlerinizle eşleşmesi halinde izlenecek "
+"kişilerin sayısıdır. Bu kişilerin ayrıntıları, oluşturulan müşteri adayları "
+"veya fırsatların geçmiş dizisinde görünecektir. Takip edilen kişi başına bir "
+"kredi kullanılır."
+>>>>>>> upstream/18.0
 
 #. module: website_crm_iap_reveal
 #: model:ir.model.fields,help:website_crm_iap_reveal.field_crm_reveal_rule__suffix
 msgid ""
+<<<<<<< HEAD
 "This will be appended in name of generated lead so you can identify "
 "lead/opportunity is generated with this rule"
 msgstr ""
@@ -5288,6 +5346,13 @@ msgstr ""
 "Bu ifade, oluşturulan müşteri adayının adına eklenecek ve bu kural ile "
 "oluşturulduğunu tanımlamanızı sağlayacaktır."
 >>>>>>> upstream/18.0
+=======
+"This will be appended in name of generated lead so you can identify lead/"
+"opportunity is generated with this rule"
+msgstr ""
+"Bu ifade, oluşturulan müşteri adayının adına eklenecek ve bu kural ile "
+"oluşturulduğunu tanımlamanızı sağlayacaktır."
+>>>>>>> upstream/18.0
 
 #. module: website_crm_iap_reveal
 #: model:ir.model.fields.selection,name:website_crm_iap_reveal.selection__crm_reveal_view__reveal_state__to_process
@@ -5472,8 +5537,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Aynı URL ve ülkelerle kuralları sipariş etmek için kullanılır. İlk önce sıra"
 " numarası düşük olan kurallar işlenecektir."
+=======
+"Aynı URL ve ülkelere sahip kuralları sıralamak için kullanılır. Daha düşük "
+"sıra numarasına sahip kurallar önce işlenir."
+>>>>>>> upstream/18.0
 =======
 "Aynı URL ve ülkelere sahip kuralları sıralamak için kullanılır. Daha düşük "
 "sıra numarasına sahip kurallar önce işlenir."

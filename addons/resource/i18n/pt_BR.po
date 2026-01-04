@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* resource
+<<<<<<< HEAD
 # 
 # Translators:
 <<<<<<< HEAD
@@ -866,10 +867,18 @@
 # Maitê Dietze, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+#
+# Translators:
+# Wil Odoo, 2024
+# Maitê Dietze, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1911,6 +1920,19 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: pt_BR\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Maitê Dietze, 2025\n"
+"Language-Team: Portuguese (Brazil) (https://app.transifex.com/odoo/teams/"
+"41243/pt_BR/)\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % "
+"1000000 == 0 ? 1 : 2;\n"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #. odoo-python
@@ -2075,8 +2097,13 @@ msgid ""
 "Define the working schedule of the resource. If not set, the resource will "
 "have fully flexible working hours."
 msgstr ""
+<<<<<<< HEAD
 "Define o horário de trabalho do recurso. Se não for definido, o recurso terá"
 " um horário de trabalho totalmente flexível."
+=======
+"Define o horário de trabalho do recurso. Se não for definido, o recurso terá "
+"um horário de trabalho totalmente flexível."
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model_terms:ir.actions.act_window,help:resource.action_resource_calendar_form
@@ -2084,8 +2111,13 @@ msgid ""
 "Define working hours and time table that could be scheduled to your project "
 "members"
 msgstr ""
+<<<<<<< HEAD
 "Defina horas de trabalho e cronograma que poderiam ser programados para seus"
 " membros do projeto"
+=======
+"Defina horas de trabalho e cronograma que poderiam ser programados para seus "
+"membros do projeto"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields,field_description:resource.field_resource_calendar__display_name
@@ -2230,8 +2262,13 @@ msgid ""
 "If empty, this is a generic time off for the company. If a resource is set, "
 "the time off is only for this resource"
 msgstr ""
+<<<<<<< HEAD
 "Se estiver vazio, é uma folga genérica para a empresa. Se um recurso estiver"
 " definido, o tempo livre é apenas para este recurso"
+=======
+"Se estiver vazio, é uma folga genérica para a empresa. Se um recurso estiver "
+"definido, o tempo livre é apenas para este recurso"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields,help:resource.field_resource_resource__active
@@ -2257,8 +2294,13 @@ msgstr ""
 msgid ""
 "In a calendar with 2 weeks mode, all periods need to be in the sections."
 msgstr ""
+<<<<<<< HEAD
 "Em um calendário com modo de 2 semanas, todos os períodos precisam estar nas"
 " seções."
+=======
+"Em um calendário com modo de 2 semanas, todos os períodos precisam estar nas "
+"seções."
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields,field_description:resource.field_resource_calendar__write_uid
@@ -2320,8 +2362,12 @@ msgstr "Nome"
 #. module: resource
 #: model:ir.model.fields,help:resource.field_resource_calendar__full_time_required_hours
 msgid ""
+<<<<<<< HEAD
 "Number of hours to work on the company schedule to be considered as "
 "fulltime."
+=======
+"Number of hours to work on the company schedule to be considered as fulltime."
+>>>>>>> upstream/18.0
 msgstr ""
 "Número de horas a serem trabalhadas no cronograma da empresa para ser "
 "considerado como tempo integral."
@@ -2415,8 +2461,13 @@ msgid ""
 "workload based on their weekly working hours."
 msgstr ""
 "Recursos te permitem criar e controlar recursos que estão envolvidos em uma "
+<<<<<<< HEAD
 "fase específica do projeto. Você pode também definir seu nível de eficiência"
 " e carga de trabalho baseado nas horas de trabalho da semana."
+=======
+"fase específica do projeto. Você pode também definir seu nível de eficiência "
+"e carga de trabalho baseado nas horas de trabalho da semana."
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields.selection,name:resource.selection__resource_calendar_attendance__dayofweek__5
@@ -2673,7 +2724,10 @@ msgstr "Domingo"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3015,6 +3069,7 @@ msgstr "Trocar"
 
 #. module: resource
 #: model_terms:ir.ui.view,arch_db:resource.resource_calendar_form
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3537,6 +3592,8 @@ msgstr "Switch"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid "Switch to 1 week calendar"
 msgstr "Mudar para o calendário de 1 semana"
 
@@ -3585,10 +3642,17 @@ msgid ""
 "the efficiency factor is 200%, however the expected duration will be 30 "
 "minutes."
 msgstr ""
+<<<<<<< HEAD
 "Este campo é usado para calcular a duração esperada de uma ordem de trabalho"
 " neste centro de trabalho. Por exemplo, se uma ordem de trabalho leva uma "
 "hora e o fator de eficiência é 100%, a duração esperada será de uma hora. Se"
 " o fator de eficiência for 200%, entretanto, a duração esperada será de 30 "
+=======
+"Este campo é usado para calcular a duração esperada de uma ordem de trabalho "
+"neste centro de trabalho. Por exemplo, se uma ordem de trabalho leva uma "
+"hora e o fator de eficiência é 100%, a duração esperada será de uma hora. Se "
+"o fator de eficiência for 200%, entretanto, a duração esperada será de 30 "
+>>>>>>> upstream/18.0
 "minutos."
 
 #. module: resource
@@ -3725,8 +3789,12 @@ msgstr ""
 #. module: resource
 #: model:ir.model.fields,help:resource.field_resource_calendar_leaves__time_type
 msgid ""
+<<<<<<< HEAD
 "Whether this should be computed as a time off or as work time (eg: "
 "formation)"
+=======
+"Whether this should be computed as a time off or as work time (eg: formation)"
+>>>>>>> upstream/18.0
 msgstr ""
 "Se isso deve ser calculado como uma folga ou como tempo de trabalho (por "
 "exemplo: formação)"

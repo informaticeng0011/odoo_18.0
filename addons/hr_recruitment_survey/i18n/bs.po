@@ -5,48 +5,98 @@
 # Translators:
 # Martin Trigaux, 2018
 # Boško Stojaković <bluesoft83@gmail.com>, 2018
+<<<<<<< HEAD
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~11.5\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2023-05-16 13:49+0000\n"
 "PO-Revision-Date: 2018-09-18 09:49+0000\n"
 "Last-Translator: Boško Stojaković <bluesoft83@gmail.com>, 2018\n"
 "Language-Team: Bosnian (https://www.transifex.com/odoo/teams/41243/bs/)\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2025-12-31 16:38+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Bosnian <https://translate.odoo.com/projects/odoo-18/"
+"hr_recruitment_survey/bs/>\n"
+>>>>>>> upstream/18.0
 "Language: bs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+=======
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment_survey
 #: model:mail.template,body_html:hr_recruitment_survey.mail_template_applicant_interview_invite
 msgid ""
 "<div style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
+<<<<<<< HEAD
 "        Dear <t t-out=\"object.partner_id.name or 'applicant'\">[applicant name]</t><br><br>\n"
 "        <t>\n"
 "            You've progressed through the recruitment process and we would like you to answer some questions.\n"
 "        </t>\n"
 "        <div style=\"margin: 16px 0px 16px 0px;\">\n"
 "            <a t-att-href=\"(object.get_start_url())\" style=\"background-color: #875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px; font-size:13px;\">\n"
+=======
+"        Dear <t t-out=\"object.partner_id.name or 'applicant'\">[applicant "
+"name]</t><br/><br/>\n"
+"        <t>\n"
+"            You've progressed through the recruitment process and we would "
+"like you to answer some questions.\n"
+"        </t>\n"
+"        </p><div style=\"margin: 16px 0px 16px 0px;\">\n"
+"            <a t-att-href=\"(object.get_start_url())\" style=\"background-"
+"color: #875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: "
+"#fff; border-radius: 5px; font-size:13px;\">\n"
+>>>>>>> upstream/18.0
 "                <t>\n"
 "                    Start the written interview\n"
 "                </t>\n"
 "            </a>\n"
 "        </div>\n"
 "        <t t-if=\"object.deadline\">\n"
+<<<<<<< HEAD
 "            Please answer the interview for <t t-out=\"format_date(object.deadline)\">[deadline date]</t>.<br><br>\n"
 "        </t>\n"
 "        <t>\n"
 "            We wish you good luck! Thank you in advance for your participation.\n"
 "        </t>\n"
 "    </p>\n"
+=======
+"            Please answer the interview for <t t-"
+"out=\"format_date(object.deadline)\">[deadline date]</t>.<br/><br/>\n"
+"        </t>\n"
+"        <t>\n"
+"            We wish you good luck! Thank you in advance for your "
+"participation.\n"
+"        </t>\n"
+"    \n"
+>>>>>>> upstream/18.0
 "</div>\n"
 "            "
 msgstr ""
 
 #. module: hr_recruitment_survey
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:hr_recruitment_survey.hr_recruitment_survey_button_form_view
+msgid "<i class=\"oi oi-fw oi-arrow-right\"/>Go to Recruitment"
+msgstr ""
+
+#. module: hr_recruitment_survey
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:hr_recruitment_survey.hr_applicant_view_form_inherit
 msgid ""
 "<span class=\"o_stat_text\">Consult</span>\n"
@@ -64,6 +114,14 @@ msgid "Activities"
 msgstr "Aktivnosti"
 
 #. module: hr_recruitment_survey
+<<<<<<< HEAD
+=======
+#: model_terms:ir.actions.act_window,help:hr_recruitment_survey.survey_survey_action_recruitment
+msgid "Add a new survey"
+msgstr ""
+
+#. module: hr_recruitment_survey
+>>>>>>> upstream/18.0
 #: model:ir.model,name:hr_recruitment_survey.model_hr_applicant
 #: model:ir.model.fields,field_description:hr_recruitment_survey.field_survey_invite__applicant_id
 #: model:ir.model.fields,field_description:hr_recruitment_survey.field_survey_user_input__applicant_id
@@ -78,7 +136,13 @@ msgstr ""
 #. module: hr_recruitment_survey
 #: model:ir.model.fields,help:hr_recruitment_survey.field_hr_applicant__survey_id
 #: model:ir.model.fields,help:hr_recruitment_survey.field_hr_job__survey_id
+<<<<<<< HEAD
 msgid "Choose an interview form for this job position and you will be able to print/answer this interview from all applicants who apply for this job"
+=======
+msgid ""
+"Choose an interview form for this job position and you will be able to print/"
+"answer this interview from all applicants who apply for this job"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_recruitment_survey
@@ -144,12 +208,21 @@ msgid "Interview Survey"
 msgstr ""
 
 #. module: hr_recruitment_survey
+<<<<<<< HEAD
+=======
+#: model:ir.actions.act_window,name:hr_recruitment_survey.survey_survey_action_recruitment
+#: model:ir.ui.menu,name:hr_recruitment_survey.menu_hr_recruitment_config_surveys
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:hr_recruitment_survey.view_hr_job_kanban_inherit
 msgid "Interviews"
 msgstr ""
 
 #. module: hr_recruitment_survey
 #: model:ir.model,name:hr_recruitment_survey.model_hr_job
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:hr_recruitment_survey.field_survey_survey__hr_job_ids
+>>>>>>> upstream/18.0
 msgid "Job Position"
 msgstr "Radno mjesto"
 
@@ -185,13 +258,24 @@ msgstr ""
 
 #. module: hr_recruitment_survey
 #: model_terms:survey.survey,description:hr_recruitment_survey.survey_recruitment_form
+<<<<<<< HEAD
 msgid "Please answer those questions to help recruitment officers to preprocess your application."
+=======
+msgid ""
+"Please answer those questions to help recruitment officers to preprocess "
+"your application."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_recruitment_survey
 #: model_terms:survey.question,description:hr_recruitment_survey.survey_recruitment_form_p1
 msgid ""
+<<<<<<< HEAD
 "Please fill information about you: who you are, what are your education, experience, and activities.\n"
+=======
+"Please fill information about you: who you are, what are your education, "
+"experience, and activities.\n"
+>>>>>>> upstream/18.0
 "    It will help us managing your application."
 msgstr ""
 
@@ -204,15 +288,33 @@ msgstr ""
 #. module: hr_recruitment_survey
 #: model_terms:survey.question,description:hr_recruitment_survey.survey_recruitment_form_p1_q4
 #: model_terms:survey.question,description:hr_recruitment_survey.survey_recruitment_form_p1_q5
+<<<<<<< HEAD
 msgid "Please summarize your education history: schools, location, diplomas, ..."
+=======
+msgid ""
+"Please summarize your education history: schools, location, diplomas, ..."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_recruitment_survey
 #: model_terms:survey.question,description:hr_recruitment_survey.survey_recruitment_form_p1_q7
+<<<<<<< HEAD
 msgid "Please tell us a bit more about yourself: what are your main activities, ..."
 msgstr ""
 
 #. module: hr_recruitment_survey
+=======
+msgid ""
+"Please tell us a bit more about yourself: what are your main activities, ..."
+msgstr ""
+
+#. module: hr_recruitment_survey
+#: model:ir.model.fields.selection,name:hr_recruitment_survey.selection__survey_survey__survey_type__recruitment
+msgid "Recruitment"
+msgstr "Regrutovanje"
+
+#. module: hr_recruitment_survey
+>>>>>>> upstream/18.0
 #: model:survey.survey,title:hr_recruitment_survey.survey_recruitment_form
 msgid "Recruitment Form"
 msgstr ""
@@ -241,6 +343,10 @@ msgstr ""
 #. module: hr_recruitment_survey
 #. odoo-python
 #: code:addons/hr_recruitment_survey/models/hr_job.py:0
+<<<<<<< HEAD
+=======
+#: model:ir.model,name:hr_recruitment_survey.model_survey_survey
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:hr_recruitment_survey.field_hr_applicant__survey_id
 msgid "Survey"
 msgstr "Upitnik"
@@ -251,6 +357,14 @@ msgid "Survey Invitation Wizard"
 msgstr ""
 
 #. module: hr_recruitment_survey
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:hr_recruitment_survey.field_survey_survey__survey_type
+msgid "Survey Type"
+msgstr ""
+
+#. module: hr_recruitment_survey
+>>>>>>> upstream/18.0
 #: model:ir.model,name:hr_recruitment_survey.model_survey_user_input
 msgid "Survey User Input"
 msgstr ""
@@ -301,3 +415,13 @@ msgstr ""
 #: model:survey.question.answer,value:hr_recruitment_survey.survey_recruitment_form_p1_q8_row4
 msgid "Working with state of the art technology"
 msgstr ""
+<<<<<<< HEAD
+=======
+
+#. module: hr_recruitment_survey
+#: model_terms:ir.actions.act_window,help:hr_recruitment_survey.survey_survey_action_recruitment
+msgid ""
+"You can create surveys used for recruitments. Design easily your interview,\n"
+"                send invitations and analyze answers."
+msgstr ""
+>>>>>>> upstream/18.0

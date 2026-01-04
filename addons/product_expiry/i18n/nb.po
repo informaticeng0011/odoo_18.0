@@ -1,7 +1,11 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* product_expiry
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Jorunn D. Newth, 2024
 # Thor Arne Hvidsten <thor.arne.hvidsten@gmail.com>, 2024
@@ -10,11 +14,16 @@
 # Marius Stedjan <marius@stedjan.com>, 2024
 # Rune Restad, 2024
 # Martin Trigaux, 2024
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Martin Trigaux, 2024\n"
@@ -23,6 +32,17 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: nb\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Martin Trigaux, 2024\n"
+"Language-Team: Norwegian Bokmål (https://app.transifex.com/odoo/teams/41243/"
+"nb/)\n"
+"Language: nb\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+>>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: product_expiry
@@ -35,7 +55,11 @@ msgstr ""
 #. module: product_expiry
 #: model_terms:ir.ui.view,arch_db:product_expiry.view_production_lot_view_kanban
 msgid ""
+<<<<<<< HEAD
 "<span title=\"Alert\" class=\"fa fa-exclamation-triangle text-danger ms-2\" "
+=======
+"<span title=\"Alert\" class=\"fa fa-exclamation-triangle text-danger me-2\" "
+>>>>>>> upstream/18.0
 "invisible=\"product_qty &lt;= 0 or not product_expiry_alert or not "
 "expiration_date\"/>"
 msgstr ""
@@ -251,8 +275,13 @@ msgstr ""
 #: model:ir.model.fields,help:product_expiry.field_product_template__use_time
 msgid ""
 "Number of days before the Expiration Date after which the goods starts "
+<<<<<<< HEAD
 "deteriorating, without being dangerous yet. It will be computed on the "
 "lot/serial number."
+=======
+"deteriorating, without being dangerous yet. It will be computed on the lot/"
+"serial number."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: product_expiry
@@ -380,8 +409,13 @@ msgstr ""
 #: model:ir.model.fields,help:product_expiry.field_stock_move_line__use_expiration_date
 #: model:ir.model.fields,help:product_expiry.field_stock_quant__use_expiration_date
 msgid ""
+<<<<<<< HEAD
 "When this box is ticked, you have the possibility to specify dates to manage"
 " product expiration, on the product and on the corresponding lot/serial "
+=======
+"When this box is ticked, you have the possibility to specify dates to manage "
+"product expiration, on the product and on the corresponding lot/serial "
+>>>>>>> upstream/18.0
 "numbers"
 msgstr ""
 
@@ -397,7 +431,12 @@ msgstr ""
 #. odoo-python
 #: code:addons/product_expiry/wizard/confirm_expiry.py:0
 msgid ""
+<<<<<<< HEAD
 "You are going to deliver the product %(product_name)s, %(lot_name)s which is expired.\n"
+=======
+"You are going to deliver the product %(product_name)s, %(lot_name)s which is "
+"expired.\n"
+>>>>>>> upstream/18.0
 "Do you confirm you want to proceed?"
 msgstr ""
 

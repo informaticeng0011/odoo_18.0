@@ -114,8 +114,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* delivery
 # 
+=======
+# * delivery
+#
+>>>>>>> upstream/18.0
 =======
 # * delivery
 #
@@ -701,6 +706,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 =======
 # "Noemi Pla Garcia (nopl)" <nopl@odoo.com>, 2025.
@@ -1086,10 +1092,15 @@
 # "Noemi Pla Garcia (nopl)" <nopl@odoo.com>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
+=======
+# "Noemi Pla Garcia (nopl)" <nopl@odoo.com>, 2025.
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-01-27 13:03+0000\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1592,6 +1603,11 @@ msgstr ""
 "PO-Revision-Date: 2025-11-21 02:26+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2025-11-21 02:26+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Catalan <https://translate.odoo.com/projects/odoo-18/delivery/"
 "ca/>\n"
 "Language: ca\n"
@@ -1713,6 +1729,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2059,7 +2078,11 @@ msgid "%(carrier)s Error"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Error de %(carrier)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Error de %(carrier)s"
 >>>>>>> upstream/18.0
@@ -2524,6 +2547,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"%s\n"
+"Enviament gratuït"
+>>>>>>> upstream/18.0
 =======
 "%s\n"
 "Enviament gratuït"
@@ -3104,7 +3132,11 @@ msgid "<i class=\"oi oi-arrow-right me-1\"/>Get rate"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"oi oi-arrow-right me-1\"/>Obtindre tarifa"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"oi oi-arrow-right me-1\"/>Obtindre tarifa"
 >>>>>>> upstream/18.0
@@ -3464,6 +3496,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:delivery.view_delivery_carrier_form
 msgid ""
 "<span class=\"o_stat_text o_warning_text fw-bold\">Test</span>\n"
+<<<<<<< HEAD
 "                                <span class=\"o_stat_text\">Environment</span>"
 msgstr ""
 <<<<<<< HEAD
@@ -4006,6 +4039,13 @@ msgstr ""
 "<span class=\"o_stat_text o_warning_text fw-bold\">Entorn</span>\n"
 "                                <span class=\"o_stat_text\">de prova</span>"
 >>>>>>> upstream/18.0
+=======
+"                                <span class=\"o_stat_text\">Environment</"
+"span>"
+msgstr ""
+"<span class=\"o_stat_text o_warning_text fw-bold\">Entorn</span>\n"
+"                                <span class=\"o_stat_text\">de prova</span>"
+>>>>>>> upstream/18.0
 
 #. module: delivery
 #: model_terms:ir.ui.view,arch_db:delivery.view_delivery_carrier_form
@@ -4052,7 +4092,11 @@ msgid "<span class=\"o_stat_text text-danger\">No debug</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text text-danger\">Sense depuració</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text text-danger\">Sense depuració</span>"
 >>>>>>> upstream/18.0
@@ -4189,6 +4233,7 @@ msgstr "<span class=\"text-success\">Sol·licituds de depuració</span>"
 #: model_terms:ir.ui.view,arch_db:delivery.view_delivery_carrier_form
 msgid ""
 "<span class=\"text-success\">Production</span>\n"
+<<<<<<< HEAD
 "                                <span class=\"o_stat_text\">Environment</span>"
 msgstr ""
 <<<<<<< HEAD
@@ -4875,6 +4920,14 @@ msgstr ""
 "                                <span class=\"o_stat_text\">de "
 "producció</span>"
 >>>>>>> upstream/18.0
+=======
+"                                <span class=\"o_stat_text\">Environment</"
+"span>"
+msgstr ""
+"<span class=\"text-success\">Entorn</span>\n"
+"                                <span class=\"o_stat_text\">de producció</"
+"span>"
+>>>>>>> upstream/18.0
 
 #. module: delivery
 #: model_terms:ir.ui.view,arch_db:delivery.delivery_report_saleorder_document
@@ -4993,7 +5046,11 @@ msgid "<strong>Shipping Description</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Descripció d'enviament</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Descripció d'enviament</strong>"
 >>>>>>> upstream/18.0
@@ -5432,8 +5489,12 @@ msgstr "Transportista"
 #. odoo-python
 #: code:addons/delivery/models/delivery_carrier.py:0
 msgid ""
+<<<<<<< HEAD
 "Carrier %s cannot have the same tag in both Must Have Tags and Excluded "
 "Tags."
+=======
+"Carrier %s cannot have the same tag in both Must Have Tags and Excluded Tags."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: delivery
@@ -5665,6 +5726,7 @@ msgstr ""
 #. module: delivery
 #: model:ir.model.fields,help:delivery.field_delivery_carrier__invoice_policy
 msgid ""
+<<<<<<< HEAD
 "Estimated Cost: the customer will be invoiced the estimated cost of the shipping.\n"
 "Real Cost: the customer will be invoiced the real cost of the shipping, the cost of theshipping will be updated on the SO after the delivery."
 msgstr ""
@@ -5920,6 +5982,16 @@ msgstr ""
 "Cost real: es facturarà al client el cost real de l'enviament i, un cop "
 "entregat, aquest cost s'actualitzarà en la comanda de venda."
 >>>>>>> upstream/18.0
+=======
+"Estimated Cost: the customer will be invoiced the estimated cost of the "
+"shipping.\n"
+"Real Cost: the customer will be invoiced the real cost of the shipping, the "
+"cost of theshipping will be updated on the SO after the delivery."
+msgstr ""
+"Cost estimat: es facturarà al client el cost estimat de l'enviament.\n"
+"Cost real: es facturarà al client el cost real de l'enviament i, un cop "
+"entregat, aquest cost s'actualitzarà en la comanda de venda."
+>>>>>>> upstream/18.0
 
 #. module: delivery
 #: model:ir.model.fields.selection,name:delivery.selection__delivery_carrier__invoice_policy__estimated
@@ -5939,8 +6011,13 @@ msgstr "Empleni aquest camp si facturarà l'enviament basat en la recol·lecció
 #. module: delivery
 #: model_terms:ir.ui.view,arch_db:delivery.view_delivery_carrier_form
 msgid ""
+<<<<<<< HEAD
 "Filling this form allows you to make the shipping method available according"
 " to the content of the order or its destination."
+=======
+"Filling this form allows you to make the shipping method available according "
+"to the content of the order or its destination."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: delivery
@@ -6200,9 +6277,15 @@ msgid ""
 msgstr ""
 "Prefixos de codis zip als quals s'aplica aquest operador. Tingueu en compte "
 "que les expressions regulars es poden utilitzar per donar suport a països "
+<<<<<<< HEAD
 "amb diferents longituds de codi postal, és a dir, es pot afegir «$» al final"
 " del prefix per a coincidir amb el zip exacte (p. ex. «100$» només "
 "coincidirà amb «100» i no amb «1000»)"
+=======
+"amb diferents longituds de codi postal, és a dir, es pot afegir «$» al final "
+"del prefix per a coincidir amb el zip exacte (p. ex. «100$» només coincidirà "
+"amb «100» i no amb «1000»)"
+>>>>>>> upstream/18.0
 
 #. module: delivery
 #: model:ir.model.fields.selection,name:delivery.selection__delivery_price_rule__variable__price
@@ -6330,8 +6413,13 @@ msgid ""
 "confirmation emails. E.g. Instructions for customers to follow."
 msgstr ""
 "Detalls del mètode d'enviament que s'inclouran a les comandes de venda "
+<<<<<<< HEAD
 "inferiors i els seus correus electrònics de confirmació. P. ex. Instruccions"
 " perquè els clients les segueixin."
+=======
+"inferiors i els seus correus electrònics de confirmació. P. ex. Instruccions "
+"perquè els clients les segueixin."
+>>>>>>> upstream/18.0
 
 #. module: delivery
 #: model:delivery.carrier,name:delivery.free_delivery_carrier
@@ -6365,8 +6453,13 @@ msgstr ""
 #. module: delivery
 #: model:ir.model.fields,help:delivery.field_delivery_carrier__must_have_tag_ids
 msgid ""
+<<<<<<< HEAD
 "The method is available only if at least one product of the order has one of"
 " these tags."
+=======
+"The method is available only if at least one product of the order has one of "
+"these tags."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: delivery
@@ -6390,8 +6483,12 @@ msgstr "L'assegurança de navegació ha de ser un percentatge entre 0 i 100."
 #. odoo-python
 #: code:addons/delivery/models/delivery_carrier.py:0
 msgid "The shipping is free since the order amount exceeds %.2f."
+<<<<<<< HEAD
 msgstr ""
 "L'enviament és gratuït ja que l'import de la comanda és superior %.2f."
+=======
+msgstr "L'enviament és gratuït ja que l'import de la comanda és superior %.2f."
+>>>>>>> upstream/18.0
 
 #. module: delivery
 #. odoo-javascript
@@ -6493,6 +6590,7 @@ msgstr "Unitat de pes de l'etiqueta de mesura"
 #. odoo-python
 #: code:addons/delivery/models/sale_order.py:0
 msgid ""
+<<<<<<< HEAD
 "You can not update the shipping costs on an order where it was already invoiced!\n"
 "\n"
 "The following delivery lines (product, invoiced quantity and price) have already been processed:\n"
@@ -6501,6 +6599,20 @@ msgstr ""
 "No podeu actualitzar els costos d'enviament en una comanda on ja estava facturat!\n"
 "\n"
 "Les següents línies de lliurament (producte, quantitat facturada i preu) ja s'han processat:\n"
+=======
+"You can not update the shipping costs on an order where it was already "
+"invoiced!\n"
+"\n"
+"The following delivery lines (product, invoiced quantity and price) have "
+"already been processed:\n"
+"\n"
+msgstr ""
+"No podeu actualitzar els costos d'enviament en una comanda on ja estava "
+"facturat!\n"
+"\n"
+"Les següents línies de lliurament (producte, quantitat facturada i preu) ja "
+"s'han processat:\n"
+>>>>>>> upstream/18.0
 "\n"
 
 #. module: delivery

@@ -1,18 +1,27 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* website_crm_iap_reveal
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Siim Raasuke, 2024
 # Stevin Lilla, 2024
 # Rivo Zängov <eraser@eraser.ee>, 2024
 # Tairi Tiimann, 2024
 # Triine Aavik <triine@avalah.ee>, 2024
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 17.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2023-10-26 21:56+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 "Last-Translator: Triine Aavik <triine@avalah.ee>, 2024\n"
@@ -21,13 +30,28 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: et\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:38+0000\n"
+"PO-Revision-Date: 2024-09-25 09:42+0000\n"
+"Last-Translator: Triine Aavik <triine@avalah.ee>, 2024\n"
+"Language-Team: Estonian (https://app.transifex.com/odoo/teams/41243/et/)\n"
+"Language: et\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+>>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: website_crm_iap_reveal
 #: model_terms:ir.ui.view,arch_db:website_crm_iap_reveal.crm_reveal_rule_form
 msgid ""
+<<<<<<< HEAD
 "1 credit is consumed per visitor matching the website traffic conditions and"
 " whose company can be identified.<br/>"
+=======
+"1 credit is consumed per visitor matching the website traffic conditions and "
+"whose company can be identified.<br/>"
+>>>>>>> upstream/18.0
 msgstr ""
 "Iga külastaja kohta, kes sobib kokku veebilehe liikluse tingimustega ning "
 "kelle kaudu on ka ettevõte tuvastatav, kasutatakse ära 1 krediidipunkt.<br/>"
@@ -268,8 +292,12 @@ msgid ""
 "Make sure you know if you have to be GDPR compliant for storing personal "
 "data."
 msgstr ""
+<<<<<<< HEAD
 "Veenduge, kas te peate olema kooskõlas GDPRiga, et isiklikke andmeid "
 "hallata."
+=======
+"Veenduge, kas te peate olema kooskõlas GDPRiga, et isiklikke andmeid hallata."
+>>>>>>> upstream/18.0
 
 #. module: website_crm_iap_reveal
 #: model:ir.model.constraint,message:website_crm_iap_reveal.constraint_crm_reveal_rule_limit_extra_contacts
@@ -304,20 +332,34 @@ msgstr "Genereeritud müügivõimaluste arv"
 #. module: website_crm_iap_reveal
 #: model:ir.model.fields,help:website_crm_iap_reveal.field_crm_reveal_rule__country_ids
 msgid ""
+<<<<<<< HEAD
 "Only visitors of following countries will be converted into "
 "leads/opportunities (using GeoIP)."
 msgstr ""
 "Ainult järgnevate riikide külastajad muudetakse ümber vihjeteks/võimalusteks"
 " (kasutades GeoIP'd)."
+=======
+"Only visitors of following countries will be converted into leads/"
+"opportunities (using GeoIP)."
+msgstr ""
+"Ainult järgnevate riikide külastajad muudetakse ümber vihjeteks/võimalusteks "
+"(kasutades GeoIP'd)."
+>>>>>>> upstream/18.0
 
 #. module: website_crm_iap_reveal
 #: model:ir.model.fields,help:website_crm_iap_reveal.field_crm_reveal_rule__state_ids
 msgid ""
+<<<<<<< HEAD
 "Only visitors of following states will be converted into "
 "leads/opportunities."
 msgstr ""
 "Ainult järgnevate riikide külastajad muudetakse ümber "
 "vihjeteks/võimalusteks."
+=======
+"Only visitors of following states will be converted into leads/opportunities."
+msgstr ""
+"Ainult järgnevate riikide külastajad muudetakse ümber vihjeteks/võimalusteks."
+>>>>>>> upstream/18.0
 
 #. module: website_crm_iap_reveal
 #: model:ir.model.fields.selection,name:website_crm_iap_reveal.selection__crm_reveal_rule__lead_type__opportunity
@@ -446,8 +488,13 @@ msgstr ""
 #. module: website_crm_iap_reveal
 #: model:ir.model.fields,help:website_crm_iap_reveal.field_crm_reveal_rule__suffix
 msgid ""
+<<<<<<< HEAD
 "This will be appended in name of generated lead so you can identify "
 "lead/opportunity is generated with this rule"
+=======
+"This will be appended in name of generated lead so you can identify lead/"
+"opportunity is generated with this rule"
+>>>>>>> upstream/18.0
 msgstr ""
 "See lisatakse genereeritud müügivihje nimesse, et teil oleks selle reegliga "
 "genereeritud vihjet/võimalust vüimalik tuvastada"

@@ -35,8 +35,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* purchase_requisition
 # 
+=======
+# * purchase_requisition
+#
+>>>>>>> upstream/18.0
 =======
 # * purchase_requisition
 #
@@ -216,7 +221,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 =======
 #
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
@@ -361,6 +371,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -475,6 +486,10 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-11-25 09:51+0000\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2025-12-31 13:14+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Slovak <https://translate.odoo.com/projects/odoo-18/"
 "purchase_requisition/sk/>\n"
@@ -484,6 +499,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && n "
 ">= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);\n"
+<<<<<<< HEAD
 "X-Generator: Weblate 5.12.2\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -587,6 +603,9 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
 
 #. module: purchase_requisition
@@ -787,7 +806,11 @@ msgid "Blanket Orders"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Peňažné objednávky"
+>>>>>>> upstream/18.0
 =======
 msgstr "Peňažné objednávky"
 >>>>>>> upstream/18.0
@@ -1015,8 +1038,13 @@ msgid ""
 "Conversion between Units of Measure can only occur if they belong to the "
 "same category. The conversion will be made based on the ratios."
 msgstr ""
+<<<<<<< HEAD
 "Ku konverzii medzi mernými jednotkami môže dôjsť len v prípade, že patria do"
 " rovnakej kategórie. Konverzia bude spravená na základe pomerov."
+=======
+"Ku konverzii medzi mernými jednotkami môže dôjsť len v prípade, že patria do "
+"rovnakej kategórie. Konverzia bude spravená na základe pomerov."
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition_create_alternative__copy_products
@@ -1032,9 +1060,18 @@ msgstr ""
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.purchase_order_form_inherit
 msgid ""
+<<<<<<< HEAD
 "Create a call for tender by adding alternative requests for quotation to different vendors.\n"
 "                            Make your choice by selecting the best combination of lead time, OTD and/or total amount.\n"
 "                            By comparing product lines you can also decide to order some products from one vendor and others from another vendor."
+=======
+"Create a call for tender by adding alternative requests for quotation to "
+"different vendors.\n"
+"                            Make your choice by selecting the best "
+"combination of lead time, OTD and/or total amount.\n"
+"                            By comparing product lines you can also decide "
+"to order some products from one vendor and others from another vendor."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: purchase_requisition
@@ -1104,7 +1141,11 @@ msgstr "Zobrazovaný Názov"
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition_line__distribution_analytic_account_ids
 msgid "Distribution Analytic Account"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Priradenie analytického účtu"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_filter
@@ -1154,7 +1195,12 @@ msgstr "Úžasná ikona fronty napr. fa-tasks"
 #: model_terms:ir.actions.act_window,help:purchase_requisition.action_purchase_requisition
 msgid ""
 "For a blanket order, you can record an agreement for a specific period\n"
+<<<<<<< HEAD
 "            (e.g. a year) and you order products within this agreement to benefit\n"
+=======
+"            (e.g. a year) and you order products within this agreement to "
+"benefit\n"
+>>>>>>> upstream/18.0
 "            from the negotiated prices."
 msgstr ""
 
@@ -1214,9 +1260,15 @@ msgstr "Ak označené, potom majú niektoré správy chybu dodania."
 #: model:ir.model.fields,help:purchase_requisition.field_purchase_requisition_create_alternative__creation_blocked
 msgid ""
 "If the chosen vendor or if any of the products in the original PO have a "
+<<<<<<< HEAD
 "blocking warning then we prevent creation of alternative PO. This is because"
 " normally these fields are cleared w/warning message within form view, but "
 "we cannot recreate that in this case."
+=======
+"blocking warning then we prevent creation of alternative PO. This is because "
+"normally these fields are cleared w/warning message within form view, but we "
+"cannot recreate that in this case."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: purchase_requisition
@@ -1663,9 +1715,15 @@ msgstr ""
 #. odoo-python
 #: code:addons/purchase_requisition/wizard/purchase_requisition_create_alternative.py:0
 msgid ""
+<<<<<<< HEAD
 "The vendor you have selected or at least one of the products you are copying"
 " from the original order has a blocking warning on it and cannot be selected"
 " to create an alternative."
+=======
+"The vendor you have selected or at least one of the products you are copying "
+"from the original order has a blocking warning on it and cannot be selected "
+"to create an alternative."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: purchase_requisition
@@ -1694,7 +1752,12 @@ msgstr ""
 msgid ""
 "To close this purchase requisition, cancel related Requests for Quotation.\n"
 "\n"
+<<<<<<< HEAD
 "Imagine the mess if someone confirms these duplicates: double the order, double the trouble :)"
+=======
+"Imagine the mess if someone confirms these duplicates: double the order, "
+"double the trouble :)"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: purchase_requisition
@@ -1782,8 +1845,13 @@ msgstr ""
 #. module: purchase_requisition
 #: model:ir.model.fields,help:purchase_requisition.field_purchase_order__has_alternatives
 msgid ""
+<<<<<<< HEAD
 "Whether or not this purchase order is linked to another purchase order as an"
 " alternative."
+=======
+"Whether or not this purchase order is linked to another purchase order as an "
+"alternative."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: purchase_requisition
@@ -1826,8 +1894,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/purchase_requisition/models/purchase_requisition.py:0
 msgid ""
+<<<<<<< HEAD
 "You cannot confirm agreement '%(agreement)s' because it does not contain any"
 " product lines."
+=======
+"You cannot confirm agreement '%(agreement)s' because it does not contain any "
+"product lines."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: purchase_requisition

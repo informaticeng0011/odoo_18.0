@@ -140,6 +140,10 @@ class TestConfigManager(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'skip_auto_install': False,
+>>>>>>> upstream/18.0
 =======
             'skip_auto_install': False,
 >>>>>>> upstream/18.0
@@ -365,6 +369,10 @@ class TestConfigManager(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'skip_auto_install': False,
+>>>>>>> upstream/18.0
 =======
             'skip_auto_install': False,
 >>>>>>> upstream/18.0
@@ -589,6 +597,10 @@ class TestConfigManager(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'skip_auto_install': False,
+>>>>>>> upstream/18.0
 =======
             'skip_auto_install': False,
 >>>>>>> upstream/18.0
@@ -844,6 +856,10 @@ class TestConfigManager(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'skip_auto_install': False,
+>>>>>>> upstream/18.0
 =======
             'skip_auto_install': False,
 >>>>>>> upstream/18.0

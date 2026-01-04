@@ -35,8 +35,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* uom
 # 
+=======
+# * uom
+#
+>>>>>>> upstream/18.0
 =======
 # * uom
 #
@@ -295,6 +300,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Larisa_nexterp, 2025
 >>>>>>> upstream/18.0
@@ -673,10 +679,15 @@
 # Larisa_nexterp, 2025
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
+=======
+# Larisa_nexterp, 2025
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1110,6 +1121,13 @@ msgstr ""
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Romanian <https://translate.odoo.com/projects/odoo-18/uom/ro/>"
 "\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:38+0000\n"
+"PO-Revision-Date: 2025-11-25 09:49+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Romanian <https://translate.odoo.com/projects/odoo-18/uom/ro/"
+">\n"
+>>>>>>> upstream/18.0
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1151,6 +1169,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1225,7 +1246,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:uom.product_uom_form_view
 msgid ""
 "<span class=\"oe_grey oe_inline\">\n"
+<<<<<<< HEAD
 "                                    e.g: 1*(reference unit)=ratio*(this unit)\n"
+=======
+"                                    e.g: 1*(reference unit)=ratio*(this "
+"unit)\n"
+>>>>>>> upstream/18.0
 "                                </span>"
 msgstr ""
 
@@ -1233,7 +1259,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:uom.product_uom_form_view
 msgid ""
 "<span class=\"oe_grey oe_inline\">\n"
+<<<<<<< HEAD
 "                                    e.g: 1*(this unit)=ratio*(reference unit)\n"
+=======
+"                                    e.g: 1*(this unit)=ratio*(reference "
+"unit)\n"
+>>>>>>> upstream/18.0
 "                                </span>"
 msgstr ""
 
@@ -1336,7 +1367,12 @@ msgid ""
 "How many times this Unit of Measure is bigger than the reference Unit of "
 "Measure in this category: 1 * (this unit) = ratio * (reference unit)"
 msgstr ""
+<<<<<<< HEAD
 "Cu cât este mai mare această unitate de măsură decât unitatea de măsură de referință din aceasta categorie:\n"
+=======
+"Cu cât este mai mare această unitate de măsură decât unitatea de măsură de "
+"referință din aceasta categorie:\n"
+>>>>>>> upstream/18.0
 "1 * (aceasta unitate) = raport * (unitatea de referință)"
 
 #. module: uom
@@ -1345,7 +1381,12 @@ msgid ""
 "How much bigger or smaller this unit is compared to the reference Unit of "
 "Measure for this category: 1 * (reference unit) = ratio * (this unit)"
 msgstr ""
+<<<<<<< HEAD
 "Cu cât este mai mare sau mică această unitate în comparație cu unitatea de măsură de referință pentru această categorie: \n"
+=======
+"Cu cât este mai mare sau mică această unitate în comparație cu unitatea de "
+"măsură de referință pentru această categorie: \n"
+>>>>>>> upstream/18.0
 "1 * (unitatea de referință) = raport * (această unitate)"
 
 #. module: uom
@@ -1429,18 +1470,36 @@ msgid ""
 "Some critical fields have been modified on %s.\n"
 "Note that existing data WON'T be updated by this change.\n"
 "\n"
+<<<<<<< HEAD
 "As units of measure impact the whole system, this may cause critical issues.\n"
 "E.g. modifying the rounding could disturb your inventory balance.\n"
 "\n"
 "Therefore, changing core units of measure in a running database is not recommended."
+=======
+"As units of measure impact the whole system, this may cause critical "
+"issues.\n"
+"E.g. modifying the rounding could disturb your inventory balance.\n"
+"\n"
+"Therefore, changing core units of measure in a running database is not "
+"recommended."
+>>>>>>> upstream/18.0
 msgstr ""
 "Unele câmpuri critice au fost modificate în  %s.\n"
 "Rețineți că datele existente NU vor fi actualizate de această modificare.\n"
 "\n"
+<<<<<<< HEAD
 "Având în vedere că unitățile de măsură influențează întregul sistem, acest lucru poate cauza probleme critice.\n"
 "De exemplu, modificarea rotunjirii ar putea afecta balanța stocurilor.\n"
 "\n"
 "Prin urmare, nu se recomandă modificarea unităților de măsură fundamentale într-o bază de date aflată în exploatare."
+=======
+"Având în vedere că unitățile de măsură influențează întregul sistem, acest "
+"lucru poate cauza probleme critice.\n"
+"De exemplu, modificarea rotunjirii ar putea afecta balanța stocurilor.\n"
+"\n"
+"Prin urmare, nu se recomandă modificarea unităților de măsură fundamentale "
+"într-o bază de date aflată în exploatare."
+>>>>>>> upstream/18.0
 
 #. module: uom
 #: model:uom.category,name:uom.uom_categ_surface
@@ -1466,6 +1525,7 @@ msgstr "Raportul conversiei pentru o unitate de masura nu poate fi zero!"
 #. odoo-python
 #: code:addons/uom/models/uom_uom.py:0
 msgid ""
+<<<<<<< HEAD
 "The following units of measure are used by the system and cannot be deleted: %s\n"
 "You can archive them instead."
 msgstr ""
@@ -1679,6 +1739,15 @@ msgstr ""
 "\"\"%s\n"
 "Puteți să le arhivați în schimb."
 >>>>>>> upstream/18.0
+=======
+"The following units of measure are used by the system and cannot be deleted: "
+"%s\n"
+"You can archive them instead."
+msgstr ""
+"Următoarele unități de măsură sunt utilizate de sistem și nu pot fi șterse: "
+"\"\"%s\n"
+"Puteți să le arhivați în schimb."
+>>>>>>> upstream/18.0
 
 #. module: uom
 #: model:ir.model.constraint,message:uom.constraint_uom_uom_factor_reference_is_one
@@ -1695,8 +1764,13 @@ msgstr "Precizia de rotunjire trebuie să fie strict pozitivă."
 #. odoo-python
 #: code:addons/uom/models/uom_uom.py:0
 msgid ""
+<<<<<<< HEAD
 "The unit of measure %(unit)s defined on the order line doesn't belong to the"
 " same category as the unit of measure %(product_unit)s defined on the "
+=======
+"The unit of measure %(unit)s defined on the order line doesn't belong to the "
+"same category as the unit of measure %(product_unit)s defined on the "
+>>>>>>> upstream/18.0
 "product. Please correct the unit of measure defined on the order line or on "
 "the product. They should belong to the same category."
 msgstr ""
@@ -1717,8 +1791,12 @@ msgstr "Tip"
 msgid ""
 "Uncheck the active field to disable a unit of measure without deleting it."
 msgstr ""
+<<<<<<< HEAD
 "Debifați câmpul activ pentru a dezactiva o unitate de măsură fără a o "
 "șterge."
+=======
+"Debifați câmpul activ pentru a dezactiva o unitate de măsură fără a o șterge."
+>>>>>>> upstream/18.0
 
 #. module: uom
 #: model:uom.category,name:uom.product_uom_categ_unit
@@ -1767,8 +1845,13 @@ msgid ""
 "            <i>'Time'</i>, you will have the following units of measure:\n"
 "            Hours, Days."
 msgstr ""
+<<<<<<< HEAD
 "Unitățile de măsură care aparțin aceleiași categorii pot fi convertite între"
 " ele. De exemplu, în categoria \"Timp\", veți avea următoarele unități de "
+=======
+"Unitățile de măsură care aparțin aceleiași categorii pot fi convertite între "
+"ele. De exemplu, în categoria \"Timp\", veți avea următoarele unități de "
+>>>>>>> upstream/18.0
 "măsură: Ore, Zile."
 
 #. module: uom
@@ -1907,7 +1990,11 @@ msgid "Uom"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "UM"
+>>>>>>> upstream/18.0
 =======
 msgstr "UM"
 >>>>>>> upstream/18.0
@@ -2334,7 +2421,11 @@ msgid "ft²"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ft²"
+>>>>>>> upstream/18.0
 =======
 msgstr "ft²"
 >>>>>>> upstream/18.0
@@ -2519,7 +2610,11 @@ msgid "mm"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "mm"
+>>>>>>> upstream/18.0
 =======
 msgstr "mm"
 >>>>>>> upstream/18.0
@@ -2664,7 +2759,11 @@ msgid "m²"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "m²"
+>>>>>>> upstream/18.0
 =======
 msgstr "m²"
 >>>>>>> upstream/18.0
@@ -2824,7 +2923,11 @@ msgid "yd"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "yd"
+>>>>>>> upstream/18.0
 =======
 msgstr "yd"
 >>>>>>> upstream/18.0

@@ -1,7 +1,11 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* project
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Tiffany Chang, 2024
 # Jenni Heikkilä <jenni.heikkila@sv-oy.fi>, 2024
@@ -37,11 +41,16 @@
 # Jessica Jakara, 2025
 # Ossi Mantylahti <ossi.mantylahti@obs-solutions.fi>, 2025
 # Jarmo Kortetjärvi <jarmo.kortetjarvi@gmail.com>, 2025
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -738,6 +747,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: fi\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:36+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Jarmo Kortetjärvi <jarmo.kortetjarvi@gmail.com>, 2025\n"
+"Language-Team: Finnish (https://app.transifex.com/odoo/teams/41243/fi/)\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+>>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: project
@@ -748,7 +767,12 @@ msgid ""
 "                <p class=\"o_view_nocontent_smiling_face\">\n"
 "                    No milestones found. Let's create one!\n"
 "                </p><p>\n"
+<<<<<<< HEAD
 "                    Track major progress points that must be reached to achieve success.\n"
+=======
+"                    Track major progress points that must be reached to "
+"achieve success.\n"
+>>>>>>> upstream/18.0
 "                </p>\n"
 "            "
 msgstr ""
@@ -756,7 +780,12 @@ msgstr ""
 "                <p class=\"o_view_nocontent_smiling_face\">\n"
 "                    Virstanpylväitä ei löytynyt. Luodaan sellainen!\n"
 "                </p><p>\n"
+<<<<<<< HEAD
 "                    Seuraa tärkeimpiä edistymiskohtia, jotka on saavutettava menestyksen saavuttamiseksi.\n"
+=======
+"                    Seuraa tärkeimpiä edistymiskohtia, jotka on saavutettava "
+"menestyksen saavuttamiseksi.\n"
+>>>>>>> upstream/18.0
 "                </p>\n"
 "            "
 
@@ -767,7 +796,12 @@ msgid ""
 "\n"
 ");\n"
 "\n"
+<<<<<<< HEAD
 "export class ProjectTaskFormController extends FormControllerWithHTMLExpander {\n"
+=======
+"export class ProjectTaskFormController extends "
+"FormControllerWithHTMLExpander {\n"
+>>>>>>> upstream/18.0
 "    setup() {\n"
 "        super.setup();\n"
 "        this.notifications = useService(\"notification\");\n"
@@ -789,7 +823,12 @@ msgid ""
 "    }\n"
 "\n"
 "    get deleteConfirmationDialogProps() {\n"
+<<<<<<< HEAD
 "        const deleteConfirmationDialogProps = super.deleteConfirmationDialogProps;\n"
+=======
+"        const deleteConfirmationDialogProps = "
+"super.deleteConfirmationDialogProps;\n"
+>>>>>>> upstream/18.0
 "        if (!this.model.root.data.subtask_count) {\n"
 "            return deleteConfirmationDialogProps;\n"
 "        }\n"
@@ -802,11 +841,21 @@ msgid ""
 "    async openHistoryDialog() {\n"
 "        const record = this.model.root;\n"
 "        const versionedFieldName = 'description';\n"
+<<<<<<< HEAD
 "        const historyMetadata = record.data[\"html_field_history_metadata\"]?.[versionedFieldName];\n"
 "        if (!historyMetadata) {\n"
 "            this.notifications.add(\n"
 "                escape(_t(\n"
 "                    \"The task description lacks any past content that could be restored at the moment.\"\n"
+=======
+"        const historyMetadata = "
+"record.data[\"html_field_history_metadata\"]?.[versionedFieldName];\n"
+"        if (!historyMetadata) {\n"
+"            this.notifications.add(\n"
+"                escape(_t(\n"
+"                    \"The task description lacks any past content that could "
+"be restored at the moment.\"\n"
+>>>>>>> upstream/18.0
 "                ))\n"
 "            );\n"
 "            return;\n"
@@ -822,7 +871,12 @@ msgstr ""
 "\n"
 ");\n"
 "\n"
+<<<<<<< HEAD
 "export class ProjectTaskFormController extends FormControllerWithHTMLExpander {\n"
+=======
+"export class ProjectTaskFormController extends "
+"FormControllerWithHTMLExpander {\n"
+>>>>>>> upstream/18.0
 "    setup() {\n"
 "        super.setup();\n"
 "        this.notifications = useService(\"notification\");\n"
@@ -844,7 +898,12 @@ msgstr ""
 "    }\n"
 "\n"
 "    get deleteConfirmationDialogProps() {\n"
+<<<<<<< HEAD
 "        const deleteConfirmationDialogProps = super.deleteConfirmationDialogProps;\n"
+=======
+"        const deleteConfirmationDialogProps = "
+"super.deleteConfirmationDialogProps;\n"
+>>>>>>> upstream/18.0
 "        if (!this.model.root.data.subtask_count) {\n"
 "            return deleteConfirmationDialogProps;\n"
 "        }\n"
@@ -857,11 +916,21 @@ msgstr ""
 "    async openHistoryDialog() {\n"
 "        const record = this.model.root;\n"
 "        const versionedFieldName = 'description';\n"
+<<<<<<< HEAD
 "        const historyMetadata = record.data[\"html_field_history_metadata\"]?.[versionedFieldName];\n"
 "        if (!historyMetadata) {\n"
 "            this.notifications.add(\n"
 "                escape(_t(\n"
 "                    \"The task description lacks any past content that could be restored at the moment.\"\n"
+=======
+"        const historyMetadata = "
+"record.data[\"html_field_history_metadata\"]?.[versionedFieldName];\n"
+"        if (!historyMetadata) {\n"
+"            this.notifications.add(\n"
+"                escape(_t(\n"
+"                    \"The task description lacks any past content that could "
+"be restored at the moment.\"\n"
+>>>>>>> upstream/18.0
 "                ))\n"
 "            );\n"
 "            return;\n"
@@ -1009,7 +1078,10 @@ msgstr "# arvostelua"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:project.field_project_milestone__task_count
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1400,8 +1472,13 @@ msgstr "Vaihda tehtäväsi vaiheesta <b>vetämällä ja pudottamalla</b> kortti.
 msgid ""
 "<b>Log notes</b> for internal communications <i>(the people following this "
 "task won't be notified of the note you are logging unless you specifically "
+<<<<<<< HEAD
 "tag them)</i>. Use @ <b>mentions</b> to ping a colleague or # "
 "<b>mentions</b> to reach an entire team."
+=======
+"tag them)</i>. Use @ <b>mentions</b> to ping a colleague or # <b>mentions</"
+"b> to reach an entire team."
+>>>>>>> upstream/18.0
 msgstr ""
 "<b>Kirjaa muistiinpanot</b> sisäistä viestintää varten <i>(tätä tehtävää "
 "seuraavat henkilöt eivät saa tietoa kirjaamastasi muistiinpanosta, ellet "
@@ -1412,6 +1489,7 @@ msgstr ""
 #: model:mail.template,body_html:project.rating_project_request_email_template
 msgid ""
 "<div>\n"
+<<<<<<< HEAD
 "    <t t-set=\"access_token\" t-value=\"object._rating_get_access_token()\"/>\n"
 "    <t t-set=\"partner\" t-value=\"object._rating_get_partner()\"/>\n"
 "    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"width:100%; margin:0px auto;\">\n"
@@ -1419,19 +1497,41 @@ msgid ""
 "        <tr><td valign=\"top\" style=\"font-size: 13px;\">\n"
 "            <t t-if=\"partner.name\">\n"
 "                Hello <t t-out=\"partner.name or ''\">Brandon Freeman</t>,<br/><br/>\n"
+=======
+"    <t t-set=\"access_token\" t-value=\"object._rating_get_access_token()\"/"
+">\n"
+"    <t t-set=\"partner\" t-value=\"object._rating_get_partner()\"/>\n"
+"    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" "
+"style=\"width:100%; margin:0px auto;\">\n"
+"    <tbody>\n"
+"        <tr><td valign=\"top\" style=\"font-size: 13px;\">\n"
+"            <t t-if=\"partner.name\">\n"
+"                Hello <t t-out=\"partner.name or ''\">Brandon Freeman</t>,"
+"<br/><br/>\n"
+>>>>>>> upstream/18.0
 "            </t>\n"
 "            <t t-else=\"\">\n"
 "                Hello,<br/><br/>\n"
 "            </t>\n"
+<<<<<<< HEAD
 "            Please take a moment to rate our services related to the <strong t-out=\"object.name or ''\">Planning and budget</strong> task\n"
 "            <t t-if=\"object._rating_get_operator().name\">\n"
 "                assigned to <strong t-out=\"object._rating_get_operator().name or ''\">Mitchell Admin</strong>.<br/>\n"
+=======
+"            Please take a moment to rate our services related to the <strong "
+"t-out=\"object.name or ''\">Planning and budget</strong> task\n"
+"            <t t-if=\"object._rating_get_operator().name\">\n"
+"                assigned to <strong t-"
+"out=\"object._rating_get_operator().name or ''\">Mitchell Admin</strong>.<br/"
+">\n"
+>>>>>>> upstream/18.0
 "            </t>\n"
 "            <t t-else=\"\">\n"
 "                .<br/>\n"
 "            </t>\n"
 "        </td></tr>\n"
 "        <tr><td style=\"text-align: center;\">\n"
+<<<<<<< HEAD
 "            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"width:100%; margin: 32px 0px 32px 0px; display: inline-table;\">\n"
 "                <tr><td style=\"font-size: 13px;text-align:center;\">\n"
 "                    <strong>Tell us how you feel about our services</strong><br/>\n"
@@ -1453,6 +1553,40 @@ msgid ""
 "                            <td>\n"
 "                                <a t-attf-href=\"/rate/{{ access_token }}/1\" t-att-class=\"'pe-none' if object._rating_get_operator() else ''\">\n"
 "                                    <img alt=\"Dissatisfied\" src=\"/rating/static/src/img/rating_1.png\" title=\"Dissatisfied\"/>\n"
+=======
+"            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" "
+"width=\"590\" style=\"width:100%; margin: 32px 0px 32px 0px; display: inline-"
+"table;\">\n"
+"                <tr><td style=\"font-size: 13px;text-align:center;\">\n"
+"                    <strong>Tell us how you feel about our services</"
+"strong><br/>\n"
+"                    <span style=\"font-size: 12px; opacity: 0.5; color: "
+"#454748;\">(click on one of these smileys)</span>\n"
+"                </td></tr>\n"
+"                <tr><td style=\"font-size: 13px;\">\n"
+"                    <table style=\"width:100%;text-align:center;margin-"
+"top:2rem;\">\n"
+"                        <tr>\n"
+"                            <td>\n"
+"                                <a t-attf-href=\"/rate/{{ access_token }}/"
+"5\" t-att-class=\"'pe-none' if object._rating_get_operator() else ''\">\n"
+"                                    <img alt=\"Satisfied\" src=\"/rating/"
+"static/src/img/rating_5.png\" title=\"Satisfied\"/>\n"
+"                                </a>\n"
+"                            </td>\n"
+"                            <td>\n"
+"                                <a t-attf-href=\"/rate/{{ access_token }}/"
+"3\" t-att-class=\"'pe-none' if object._rating_get_operator() else ''\">\n"
+"                                    <img alt=\"Okay\" src=\"/rating/static/"
+"src/img/rating_3.png\" title=\"Okay\"/>\n"
+"                                </a>\n"
+"                            </td>\n"
+"                            <td>\n"
+"                                <a t-attf-href=\"/rate/{{ access_token }}/"
+"1\" t-att-class=\"'pe-none' if object._rating_get_operator() else ''\">\n"
+"                                    <img alt=\"Dissatisfied\" src=\"/rating/"
+"static/src/img/rating_1.png\" title=\"Dissatisfied\"/>\n"
+>>>>>>> upstream/18.0
 "                                </a>\n"
 "                            </td>\n"
 "                        </tr>\n"
@@ -1463,14 +1597,29 @@ msgid ""
 "        <tr><td valign=\"top\" style=\"font-size: 13px;\">\n"
 "            We appreciate your feedback. It helps us improve continuously.\n"
 "            <t t-if=\"object.project_id.rating_status == 'stage'\">\n"
+<<<<<<< HEAD
 "                <br/><span style=\"margin: 0; font-size: 12px; opacity: 0.5; color: #454748;\">This satisfaction survey has been sent because your task has been moved to the <b t-out=\"object.stage_id.name or ''\">In progress</b> stage</span>\n"
 "            </t>\n"
 "            <t t-if=\"object.project_id.rating_status == 'periodic'\">\n"
 "                <br/><span style=\"margin: 0; font-size: 12px; opacity: 0.5; color: #454748;\">This satisfaction survey is sent <b t-out=\"object.project_id.rating_status_period or ''\">weekly</b> as long as the task is in the <b t-out=\"object.stage_id.name or ''\">In progress</b> stage.</span>\n"
+=======
+"                <br/><span style=\"margin: 0; font-size: 12px; opacity: 0.5; "
+"color: #454748;\">This satisfaction survey has been sent because your task "
+"has been moved to the <b t-out=\"object.stage_id.name or ''\">In progress</"
+"b> stage</span>\n"
+"            </t>\n"
+"            <t t-if=\"object.project_id.rating_status == 'periodic'\">\n"
+"                <br/><span style=\"margin: 0; font-size: 12px; opacity: 0.5; "
+"color: #454748;\">This satisfaction survey is sent <b t-"
+"out=\"object.project_id.rating_status_period or ''\">weekly</b> as long as "
+"the task is in the <b t-out=\"object.stage_id.name or ''\">In progress</b> "
+"stage.</span>\n"
+>>>>>>> upstream/18.0
 "            </t>\n"
 "        </td></tr>\n"
 "        <tr><td><br/>Best regards,</td></tr>\n"
 "        <tr><td>\n"
+<<<<<<< HEAD
 "           <t t-out=\"object.project_id.company_id.name or ''\">YourCompany</t>\n"
 "        </td></tr>\n"
 "        <tr><td style=\"opacity: 0.5;\">\n"
@@ -1480,6 +1629,25 @@ msgid ""
 "            </t>\n"
 "            <t t-if=\"object.project_id.company_id.website\">\n"
 "                | <a t-attf-href=\"{{ object.project_id.company_id.website }}\" style=\"text-decoration:none; color: #454748;\" t-out=\"object.project_id.company_id.website or ''\">http://www.example.com</a>\n"
+=======
+"           <t t-out=\"object.project_id.company_id.name or ''\">YourCompany</"
+"t>\n"
+"        </td></tr>\n"
+"        <tr><td style=\"opacity: 0.5;\">\n"
+"            <t t-out=\"object.project_id.company_id.phone or ''\">1 "
+"650-123-4567</t>\n"
+"            <t t-if=\"object.project_id.company_id.email\">\n"
+"                | <a t-attf-href=\"mailto:"
+"{{ object.project_id.company_id.email }}\" style=\"text-decoration:none; "
+"color: #454748;\" t-out=\"object.project_id.company_id.email or "
+"''\">info@yourcompany.com</a>\n"
+"            </t>\n"
+"            <t t-if=\"object.project_id.company_id.website\">\n"
+"                | <a t-attf-href=\"{{ object.project_id.company_id.website }}"
+"\" style=\"text-decoration:none; color: #454748;\" t-"
+"out=\"object.project_id.company_id.website or ''\">http://www.example.com</"
+"a>\n"
+>>>>>>> upstream/18.0
 "            </t>\n"
 "        </td></tr>\n"
 "    </tbody>\n"
@@ -1488,6 +1656,7 @@ msgid ""
 "            "
 msgstr ""
 "<div>\n"
+<<<<<<< HEAD
 "    <t t-set=\"access_token\" t-value=\"object._rating_get_access_token()\"/>\n"
 "    <t t-set=\"partner\" t-value=\"object._rating_get_partner()\"/>\n"
 "    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"width:100%; margin:0px auto;\">\n"
@@ -1495,19 +1664,40 @@ msgstr ""
 "        <tr><td valign=\"top\" style=\"font-size: 13px;\">\n"
 "           <t t-if=\"partner.name\">\n"
 "                Hei <t t-out=\"partner.name or ''\">Brandon Freeman</t>,<br/><br/>\n"
+=======
+"    <t t-set=\"access_token\" t-value=\"object._rating_get_access_token()\"/"
+">\n"
+"    <t t-set=\"partner\" t-value=\"object._rating_get_partner()\"/>\n"
+"    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" "
+"style=\"width:100%; margin:0px auto;\">\n"
+"    <tbody>\n"
+"        <tr><td valign=\"top\" style=\"font-size: 13px;\">\n"
+"           <t t-if=\"partner.name\">\n"
+"                Hei <t t-out=\"partner.name or ''\">Brandon Freeman</t>,<br/"
+"><br/>\n"
+>>>>>>> upstream/18.0
 "           </t>\n"
 "           <t t-else=\"\">\n"
 "                Hei,<br/><br/>\n"
 "           </t>\n"
+<<<<<<< HEAD
 "            Ota hetki aikaa ja arvioi <strong t-out=\"object.name or ''\">suunnittelu- ja budjettitehtävään</strong> liittyviä palveluitamme\n"
 "           <t t-if=\"object._rating_get_operator().name\">\n"
 "               <strong t-out=\"object._rating_get_operator().name or ''\">mitchell Admin</strong>.<br/>\n"
+=======
+"            Ota hetki aikaa ja arvioi <strong t-out=\"object.name or "
+"''\">suunnittelu- ja budjettitehtävään</strong> liittyviä palveluitamme\n"
+"           <t t-if=\"object._rating_get_operator().name\">\n"
+"               <strong t-out=\"object._rating_get_operator().name or "
+"''\">mitchell Admin</strong>.<br/>\n"
+>>>>>>> upstream/18.0
 "           </t>\n"
 "           <t t-else=\"\">\n"
 "                .<br/>\n"
 "           </t>\n"
 "        </td></tr>\n"
 "        <tr><td style=\"text-align: center;\">\n"
+<<<<<<< HEAD
 "            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"width:100%; margin: 32px 0px 32px 0px; display: inline-table;\">\n"
 "                <tr><td style=\"font-size: 13px;text-align:center;\">\n"
 "                    <strong>Kerro meille, mitä mieltä olet palveluistamme</strong><br/>\n"
@@ -1529,6 +1719,40 @@ msgstr ""
 "                            <td>\n"
 "                                <a t-attf-href=\"/rate/{{ access_token }}/1\" t-att-class=\"'pe-none' if object._rating_get_operator() else ''\">\n"
 "                                    <img alt=\"Dissatisfied\" src=\"/rating/static/src/img/rating_1.png\" title=\"Dissatisfied\"/>\n"
+=======
+"            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" "
+"width=\"590\" style=\"width:100%; margin: 32px 0px 32px 0px; display: inline-"
+"table;\">\n"
+"                <tr><td style=\"font-size: 13px;text-align:center;\">\n"
+"                    <strong>Kerro meille, mitä mieltä olet palveluistamme</"
+"strong><br/>\n"
+"                    <span style=\"font-size: 12px; opacity: 0.5; color: "
+"#454748;\">(klikkaa yhtä näistä hymiöistä)</span>\n"
+"                </td></tr>\n"
+"                <tr><td style=\"font-size: 13px;\">\n"
+"                    <table style=\"width:100%;text-align:center;margin-"
+"top:2rem;\">\n"
+"                        <tr>\n"
+"                            <td>\n"
+"                                <a t-attf-href=\"/rate/{{ access_token }}/"
+"5\" t-att-class=\"'pe-none' if object._rating_get_operator() else ''\">\n"
+"                                    <img alt=\"Satisfied\" src=\"/rating/"
+"static/src/img/rating_5.png\" title=\"Satisfied\"/>\n"
+"                                </a>\n"
+"                            </td>\n"
+"                            <td>\n"
+"                                <a t-attf-href=\"/rate/{{ access_token }}/"
+"3\" t-att-class=\"'pe-none' if object._rating_get_operator() else ''\">\n"
+"                                    <img alt=\"Okay\" src=\"/rating/static/"
+"src/img/rating_3.png\" title=\"Okay\"/>\n"
+"                                </a>\n"
+"                            </td>\n"
+"                            <td>\n"
+"                                <a t-attf-href=\"/rate/{{ access_token }}/"
+"1\" t-att-class=\"'pe-none' if object._rating_get_operator() else ''\">\n"
+"                                    <img alt=\"Dissatisfied\" src=\"/rating/"
+"static/src/img/rating_1.png\" title=\"Dissatisfied\"/>\n"
+>>>>>>> upstream/18.0
 "                                </a>\n"
 "                            </td>\n"
 "                        </tr>\n"
@@ -1537,16 +1761,34 @@ msgstr ""
 "            </table>\n"
 "        </td></tr>\n"
 "        <tr><td valign=\"top\" style=\"font-size: 13px;\">\n"
+<<<<<<< HEAD
 "            Arvostamme palautettasi. Se auttaa meitä parantamaan jatkuvasti.\n"
 "            <t t-if=\"object.project_id.rating_status == 'stage'\">\n"
 "                <br/><span style=\"margin: 0; font-size: 12px; opacity: 0.5; color: #454748;\">Tämä tyytyväisyyskysely on lähetetty, koska tehtäväsi on siirretty <b t-out=\"object.stage_id.name or ''\">keskeneräiseen</b> vaiheeseen <b t-out=\"object.stage_id.name or ''\"></b> </span>\n"
 "            </t>\n"
 "            <t t-if=\"object.project_id.rating_status == 'periodic'\">\n"
 "                <br/><span style=\"margin: 0; font-size: 12px; opacity: 0.5; color: #454748;\">Tämä tyytyväisyyskysely lähetetään <b t-out=\"object.project_id.rating_status_period or ''\">viikoittain</b> niin kauan kuin tehtävä on <b t-out=\"object.stage_id.name or ''\">keskeneräisessä</b> vaiheessa.</span>\n"
+=======
+"            Arvostamme palautettasi. Se auttaa meitä parantamaan "
+"jatkuvasti.\n"
+"            <t t-if=\"object.project_id.rating_status == 'stage'\">\n"
+"                <br/><span style=\"margin: 0; font-size: 12px; opacity: 0.5; "
+"color: #454748;\">Tämä tyytyväisyyskysely on lähetetty, koska tehtäväsi on "
+"siirretty <b t-out=\"object.stage_id.name or ''\">keskeneräiseen</b> "
+"vaiheeseen <b t-out=\"object.stage_id.name or ''\"></b> </span>\n"
+"            </t>\n"
+"            <t t-if=\"object.project_id.rating_status == 'periodic'\">\n"
+"                <br/><span style=\"margin: 0; font-size: 12px; opacity: 0.5; "
+"color: #454748;\">Tämä tyytyväisyyskysely lähetetään <b t-"
+"out=\"object.project_id.rating_status_period or ''\">viikoittain</b> niin "
+"kauan kuin tehtävä on <b t-out=\"object.stage_id.name or "
+"''\">keskeneräisessä</b> vaiheessa.</span>\n"
+>>>>>>> upstream/18.0
 "            </t>\n"
 "        </td></tr>\n"
 "        <tr><td><br/>Ystävällisin terveisin,</td></tr>\n"
 "        <tr><td>\n"
+<<<<<<< HEAD
 "           <t t-out=\"object.project_id.company_id.name or ''\">Yrityksesi</t>\n"
 "        </td></tr>\n"
 "        <tr><td style=\"opacity: 0.5;\">\n"
@@ -1556,6 +1798,25 @@ msgstr ""
 "            </t>\n"
 "            <t t-if=\"object.project_id.company_id.website\">\n"
 "                | <a t-attf-href=\"{{ object.project_id.company_id.website }}\" style=\"text-decoration:none; color: #454748;\" t-out=\"object.project_id.company_id.website or ''\">http://www.example.com</a>\n"
+=======
+"           <t t-out=\"object.project_id.company_id.name or ''\">Yrityksesi</"
+"t>\n"
+"        </td></tr>\n"
+"        <tr><td style=\"opacity: 0.5;\">\n"
+"            <t t-out=\"object.project_id.company_id.phone or ''\">1 "
+"650-123-4567</t>\n"
+"            <t t-if=\"object.project_id.company_id.email\">\n"
+"                | <a t-attf-href=\"mailto:"
+"{{ object.project_id.company_id.email }}\" style=\"text-decoration:none; "
+"color: #454748;\" t-out=\"object.project_id.company_id.email or "
+"''\">info@yourcompany.com</a>\n"
+"            </t>\n"
+"            <t t-if=\"object.project_id.company_id.website\">\n"
+"                | <a t-attf-href=\"{{ object.project_id.company_id.website }}"
+"\" style=\"text-decoration:none; color: #454748;\" t-"
+"out=\"object.project_id.company_id.website or ''\">http://www.example.com</"
+"a>\n"
+>>>>>>> upstream/18.0
 "            </t>\n"
 "        </td></tr>\n"
 "    </tbody>\n"
@@ -1567,6 +1828,7 @@ msgstr ""
 #: model:mail.template,body_html:project.project_done_email_template
 msgid ""
 "<div>\n"
+<<<<<<< HEAD
 "    Dear <t t-out=\"object.partner_id.name or 'customer'\">Brandon Freeman</t>,<br/>\n"
 "    It is my pleasure to let you know that we have successfully completed the project \"<strong t-out=\"object.name or ''\">Renovations</strong>\".\n"
 "    <t t-if=\"user.signature\" data-o-mail-quote-container=\"1\">\n"
@@ -1586,35 +1848,101 @@ msgstr ""
 "    </t>\n"
 "</div>\n"
 "<br/><span style=\"margin: 0px 0px 0px 0px; font-size: 12px; opacity: 0.5; color: #454748;\" groups=\"project.group_project_stages\">Saat tämän sähköpostiviestin, koska projektisi on siirretty vaiheeseen <b t-out=\"object.stage_id.name or ''\">Valmis</b></span>\n"
+=======
+"    Dear <t t-out=\"object.partner_id.name or 'customer'\">Brandon Freeman</"
+"t>,<br/>\n"
+"    It is my pleasure to let you know that we have successfully completed "
+"the project \"<strong t-out=\"object.name or ''\">Renovations</strong>\".\n"
+"    <t t-if=\"user.signature\" data-o-mail-quote-container=\"1\">\n"
+"        <br/>\n"
+"        <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br data-"
+"o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+"    </t>\n"
+"</div>\n"
+"<br/><span style=\"margin: 0px 0px 0px 0px; font-size: 12px; opacity: 0.5; "
+"color: #454748;\" groups=\"project.group_project_stages\">You are receiving "
+"this email because your project has been moved to the stage <b t-"
+"out=\"object.stage_id.name or ''\">Done</b></span>\n"
+"            "
+msgstr ""
+"<div>\n"
+"    Hyvä <t t-out=\"object.partner_id.name or 'customer'\">Brandon Freeman</"
+"t>,<br/>\n"
+"    Minulla on ilo kertoa, että olemme onnistuneesti saattaneet "
+"projektin<strong t-out=\"object.name or ''\">\"Renovations</strong>\" "
+"päätökseen.\n"
+"    <t t-if=\"user.signature\" data-o-mail-quote-container=\"1\">\n"
+"        <br/>\n"
+"        <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br data-"
+"o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+"    </t>\n"
+"</div>\n"
+"<br/><span style=\"margin: 0px 0px 0px 0px; font-size: 12px; opacity: 0.5; "
+"color: #454748;\" groups=\"project.group_project_stages\">Saat tämän "
+"sähköpostiviestin, koska projektisi on siirretty vaiheeseen <b t-"
+"out=\"object.stage_id.name or ''\">Valmis</b></span>\n"
+>>>>>>> upstream/18.0
 "            "
 
 #. module: project
 #: model:mail.template,body_html:project.mail_template_data_project_task
 msgid ""
 "<div>\n"
+<<<<<<< HEAD
 "    Dear <t t-out=\"object.partner_id.name or 'customer'\">Brandon Freeman</t>,<br/><br/>\n"
 "    Thank you for contacting us. We appreciate your interest in our products/services.<br/>\n"
 "    Our team is currently reviewing your inquiry and will respond to your email as soon as possible.<br/>\n"
 "    If you have any further questions or concerns in the meantime, please do not hesitate to let us know. We are here to help.<br/><br/>\n"
+=======
+"    Dear <t t-out=\"object.partner_id.name or 'customer'\">Brandon Freeman</"
+"t>,<br/><br/>\n"
+"    Thank you for contacting us. We appreciate your interest in our products/"
+"services.<br/>\n"
+"    Our team is currently reviewing your inquiry and will respond to your "
+"email as soon as possible.<br/>\n"
+"    If you have any further questions or concerns in the meantime, please do "
+"not hesitate to let us know. We are here to help.<br/><br/>\n"
+>>>>>>> upstream/18.0
 "    Thank you for your patience.<br/>\n"
 "    Best regards,\n"
 "    <t t-if=\"user.signature\" data-o-mail-quote-container=\"1\">\n"
 "        <br/>\n"
+<<<<<<< HEAD
 "        <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+=======
+"        <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br data-"
+"o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+>>>>>>> upstream/18.0
 "    </t>\n"
 "</div>\n"
 "        "
 msgstr ""
 "<div>\n"
+<<<<<<< HEAD
 "    Hyvä <t t-out=\"object.partner_id.name or 'customer'\">Brandon Freeman</t>,<br/><br/>\n"
 "    Kiitos, että otit meihin yhteyttä. Arvostamme kiinnostustasi tuotteisiimme/palveluihimme.<br/>\n"
 "    Tiimimme tarkastelee parhaillaan kyselyäsi ja vastaa sähköpostiisi mahdollisimman pian.<br/>\n"
 "    Jos sinulla on tällä välin lisäkysymyksiä tai huolenaiheita, älä epäröi kertoa meille. Olemme täällä auttaaksemme.<br/><br/>\n"
+=======
+"    Hyvä <t t-out=\"object.partner_id.name or 'customer'\">Brandon Freeman</"
+"t>,<br/><br/>\n"
+"    Kiitos, että otit meihin yhteyttä. Arvostamme kiinnostustasi "
+"tuotteisiimme/palveluihimme.<br/>\n"
+"    Tiimimme tarkastelee parhaillaan kyselyäsi ja vastaa sähköpostiisi "
+"mahdollisimman pian.<br/>\n"
+"    Jos sinulla on tällä välin lisäkysymyksiä tai huolenaiheita, älä epäröi "
+"kertoa meille. Olemme täällä auttaaksemme.<br/><br/>\n"
+>>>>>>> upstream/18.0
 "    Kiitos kärsivällisyydestäsi.<br/>\n"
 "    Ystävällisin terveisin,\n"
 "    <t t-if=\"user.signature\" data-o-mail-quote-container=\"1\">\n"
 "        <br/>\n"
+<<<<<<< HEAD
 "        <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+=======
+"        <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br data-"
+"o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+>>>>>>> upstream/18.0
 "    </t>\n"
 "</div>\n"
 "        "
@@ -1622,6 +1950,7 @@ msgstr ""
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_task_form2
 msgid ""
+<<<<<<< HEAD
 "<i class=\"fa fa-fw o_button_icon fa-smile-o text-success\" invisible=\"rating_avg &lt; 3.66\" title=\"Satisfied\"/>\n"
 "                            <i class=\"fa fa-fw o_button_icon fa-meh-o text-warning\" invisible=\"rating_avg &lt; 2.33 or rating_avg &gt;= 3.66\" title=\"Okay\"/>\n"
 "                            <i class=\"fa fa-fw o_button_icon fa-frown-o text-danger\" invisible=\"rating_avg &gt;= 2.33\" title=\"Dissatisfied\"/>"
@@ -1629,6 +1958,23 @@ msgstr ""
 "<i class=\"fa fa-fw o_button_icon fa-smile-o text-success\" invisible=\"rating_avg &lt; 3.66\" title=\"Tyytyväinen\"/>\n"
 "                            <i class=\"fa fa-fw o_button_icon fa-meh-o text-warning\" invisible=\"rating_avg &lt; 2.33 or rating_avg &gt;= 3.66\" title=\"Ok\"/>\n"
 "                            <i class=\"fa fa-fw o_button_icon fa-frown-o text-danger\" invisible=\"rating_avg &gt;= 2.33\" title=\"Ei-tyytyväinen\"/>"
+=======
+"<i class=\"fa fa-fw o_button_icon fa-smile-o text-success\" "
+"invisible=\"rating_avg &lt; 3.66\" title=\"Satisfied\"/>\n"
+"                            <i class=\"fa fa-fw o_button_icon fa-meh-o text-"
+"warning\" invisible=\"rating_avg &lt; 2.33 or rating_avg &gt;= 3.66\" "
+"title=\"Okay\"/>\n"
+"                            <i class=\"fa fa-fw o_button_icon fa-frown-o "
+"text-danger\" invisible=\"rating_avg &gt;= 2.33\" title=\"Dissatisfied\"/>"
+msgstr ""
+"<i class=\"fa fa-fw o_button_icon fa-smile-o text-success\" "
+"invisible=\"rating_avg &lt; 3.66\" title=\"Tyytyväinen\"/>\n"
+"                            <i class=\"fa fa-fw o_button_icon fa-meh-o text-"
+"warning\" invisible=\"rating_avg &lt; 2.33 or rating_avg &gt;= 3.66\" "
+"title=\"Ok\"/>\n"
+"                            <i class=\"fa fa-fw o_button_icon fa-frown-o "
+"text-danger\" invisible=\"rating_avg &gt;= 2.33\" title=\"Ei-tyytyväinen\"/>"
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.edit_project
@@ -1696,8 +2042,15 @@ msgstr ""
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_project_kanban
+<<<<<<< HEAD
 msgid "<span class=\"fa fa-user me-2\" aria-label=\"Partner\" title=\"Partner\"/>"
 msgstr "<span class=\"fa fa-user me-2\" aria-label=\"Partneri\" title=\"Partneri\"/>"
+=======
+msgid ""
+"<span class=\"fa fa-user me-2\" aria-label=\"Partner\" title=\"Partner\"/>"
+msgstr ""
+"<span class=\"fa fa-user me-2\" aria-label=\"Partneri\" title=\"Partneri\"/>"
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.project_milestone_view_form
@@ -1737,13 +2090,21 @@ msgstr "<span class=\"o_stat_text\">Tehtävät</span>"
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.edit_project
+<<<<<<< HEAD
 msgid "<span class=\"text-muted o_row ps-1 pb-3\">Send a rating request:</span>"
 msgstr "<span class=\"text-muted o_row ps-1 pb-3\">Lähetä arvostelupyyntö:</span>"
+=======
+msgid ""
+"<span class=\"text-muted o_row ps-1 pb-3\">Send a rating request:</span>"
+msgstr ""
+"<span class=\"text-muted o_row ps-1 pb-3\">Lähetä arvostelupyyntö:</span>"
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.edit_project
 msgid ""
 "<span colspan=\"2\" class=\"text-muted o_row ps-1\">\n"
+<<<<<<< HEAD
 "                                                    <i class=\"fa fa-lightbulb-o pe-2\"/>\n"
 "                                                    <span invisible=\"rating_status == 'periodic'\">A rating request will be sent as soon as the task reaches a stage on which a Rating Email Template is defined.</span>\n"
 "                                                    <span invisible=\"rating_status == 'stage'\">Rating requests will be sent as long as the task remains in a stage on which a Rating Email Template is defined.</span>\n"
@@ -1753,6 +2114,31 @@ msgstr ""
 "                                                    <i class=\"fa fa-lightbulb-o pe-2\"/>\n"
 "                                                    <span invisible=\"rating_status == 'periodic'\">Arviointipyyntö lähetetään heti, kun tehtävä saavuttaa vaiheen, jossa on määritelty arviointisähköpostimalli.</span>\n"
 "                                                    <span invisible=\"rating_status == 'stage'\">Luokituspyynnöt lähetetään niin kauan kuin tehtävä on vaiheessa, johon on määritelty luokitus-sähköpostimalli.</span>\n"
+=======
+"                                                    <i class=\"fa fa-"
+"lightbulb-o pe-2\"/>\n"
+"                                                    <span "
+"invisible=\"rating_status == 'periodic'\">A rating request will be sent as "
+"soon as the task reaches a stage on which a Rating Email Template is defined."
+"</span>\n"
+"                                                    <span "
+"invisible=\"rating_status == 'stage'\">Rating requests will be sent as long "
+"as the task remains in a stage on which a Rating Email Template is defined.</"
+"span>\n"
+"                                                </span>"
+msgstr ""
+"<span colspan=\"2\" class=\"text-muted o_row ps-1\">\n"
+"                                                    <i class=\"fa fa-"
+"lightbulb-o pe-2\"/>\n"
+"                                                    <span "
+"invisible=\"rating_status == 'periodic'\">Arviointipyyntö lähetetään heti, "
+"kun tehtävä saavuttaa vaiheen, jossa on määritelty arviointisähköpostimalli."
+"</span>\n"
+"                                                    <span "
+"invisible=\"rating_status == 'stage'\">Luokituspyynnöt lähetetään niin kauan "
+"kuin tehtävä on vaiheessa, johon on määritelty luokitus-sähköpostimalli.</"
+"span>\n"
+>>>>>>> upstream/18.0
 "                                                </span>"
 
 #. module: project
@@ -1824,8 +2210,13 @@ msgstr "Projektiin \"%(project_name)s\" on luotu uusi tehtävä."
 #. odoo-python
 #: code:addons/project/models/project_task_type.py:0
 msgid ""
+<<<<<<< HEAD
 "A personal stage cannot be linked to a project because it is only visible to"
 " its corresponding user."
+=======
+"A personal stage cannot be linked to a project because it is only visible to "
+"its corresponding user."
+>>>>>>> upstream/18.0
 msgstr ""
 "Henkilökohtaista vaihetta ei voi yhdistää projektiin, koska se näkyy vain "
 "vastaavalle käyttäjälle."
@@ -1927,7 +2318,12 @@ msgid ""
 "Activity plans are used to assign a list of activities in just a few clicks\n"
 "                    (e.g. \"Progress Report\", \"Stand-up Meeting\", ...)"
 msgstr ""
+<<<<<<< HEAD
 "Toimintasuunnitelmien avulla voidaan määrittää luettelo toiminnoista vain muutamalla napsautuksella\n"
+=======
+"Toimintasuunnitelmien avulla voidaan määrittää luettelo toiminnoista vain "
+"muutamalla napsautuksella\n"
+>>>>>>> upstream/18.0
 "                    (esim. \"Seurantaraportti\", \"Pystytystapaaminen\", ...)"
 
 #. module: project
@@ -2092,8 +2488,13 @@ msgid ""
 "Analyze how quickly your team is completing your project's tasks and check "
 "if everything is progressing according to plan."
 msgstr ""
+<<<<<<< HEAD
 "Analysoi, kuinka nopeasti tiimisi suorittaa projektin tehtävät, ja tarkista,"
 " eteneekö kaikki suunnitelmien mukaan."
+=======
+"Analysoi, kuinka nopeasti tiimisi suorittaa projektin tehtävät, ja tarkista, "
+"eteneekö kaikki suunnitelmien mukaan."
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model_terms:ir.actions.act_window,help:project.action_project_task_user_tree
@@ -2104,8 +2505,12 @@ msgstr "Analysoi projektiesi edistymistä ja työntekijöidesi suoritusta."
 #. module: project
 #: model:ir.model.fields,help:project.field_project_share_wizard__share_link
 msgid "Anyone with this link can access the project in read mode."
+<<<<<<< HEAD
 msgstr ""
 "Kuka tahansa, jolla on tämä linkki, voi käyttää projektia lukutilassa."
+=======
+msgstr "Kuka tahansa, jolla on tämä linkki, voi käyttää projektia lukutilassa."
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model:ir.model.fields.selection,name:project.selection__project_task__state__03_approved
@@ -2290,6 +2695,7 @@ msgstr "Automaattinen Kanban-tila"
 #. module: project
 #: model:ir.model.fields,help:project.field_project_task_type__auto_validation_state
 msgid ""
+<<<<<<< HEAD
 "Automatically modify the state when the customer replies to the feedback for this stage.\n"
 " * Good feedback from the customer will update the state to 'Approved' (green bullet).\n"
 " * Neutral or bad feedback will set the kanban state to 'Changes Requested' (orange bullet).\n"
@@ -2297,6 +2703,21 @@ msgstr ""
 "Muuta tilaa automaattisesti, kun asiakas vastaa tämän vaiheen palautteeseen.\n"
 " * Asiakkaan antama hyvä palaute päivittää tilan \"Hyväksytty\" (vihreä pallo).\n"
 " * Neutraali tai huono palaute muuttaa kanban-tilan tilaksi \"Muutoksia pyydetään\" (oranssi luoti).\n"
+=======
+"Automatically modify the state when the customer replies to the feedback for "
+"this stage.\n"
+" * Good feedback from the customer will update the state to 'Approved' "
+"(green bullet).\n"
+" * Neutral or bad feedback will set the kanban state to 'Changes Requested' "
+"(orange bullet).\n"
+msgstr ""
+"Muuta tilaa automaattisesti, kun asiakas vastaa tämän vaiheen "
+"palautteeseen.\n"
+" * Asiakkaan antama hyvä palaute päivittää tilan \"Hyväksytty\" (vihreä "
+"pallo).\n"
+" * Neutraali tai huono palaute muuttaa kanban-tilan tilaksi \"Muutoksia "
+"pyydetään\" (oranssi luoti).\n"
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model:mail.template,description:project.mail_template_data_project_task
@@ -2444,8 +2865,12 @@ msgstr "Pyydetyt muutokset"
 #: code:addons/project/static/src/js/tours/project.js:0
 msgid ""
 "Choose a <b>name</b> for your project. <i>It can be anything you want: the "
+<<<<<<< HEAD
 "name of a customer, of a product, of a team, of a construction site, "
 "etc.</i>"
+=======
+"name of a customer, of a product, of a team, of a construction site, etc.</i>"
+>>>>>>> upstream/18.0
 msgstr ""
 "Valitse projektillesi <b>nimi</b>. <i>Se voi olla mitä tahansa: asiakkaan, "
 "tuotteen, tiimin, työmaan jne. nimi.</i>"
@@ -2527,6 +2952,7 @@ msgstr "Yhteistyökumppanit jaetussa hankkeessa"
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project__rating_status
 msgid ""
+<<<<<<< HEAD
 "Collect feedback from your customers by sending them a rating request when a task enters a certain stage. To do so, define a rating email template on the corresponding stages.\n"
 "Rating when changing stage: an email will be automatically sent when the task reaches the stage on which the rating email template is set.\n"
 "Periodic rating: an email will be automatically sent at regular intervals as long as the task remains in the stage in which the rating email template is set."
@@ -2534,6 +2960,26 @@ msgstr ""
 "Kerää palautetta asiakkailtasi lähettämällä heille luokituspyyntö, kun tehtävä on tietyssä vaiheessa. Määritä tätä varten arviointisähköpostimalli vastaaville vaiheille.\n"
 "Arvostelu vaiheen vaihtuessa: sähköpostiviesti lähetetään automaattisesti, kun tehtävä saavuttaa sen vaiheen, jolle arvostelusähköpostimalli on määritetty.\n"
 "Jaksoittainen luokitus: sähköpostiviesti lähetetään automaattisesti säännöllisin väliajoin niin kauan kuin tehtävä on siinä vaiheessa, jossa luokitus-sähköpostimalli on määritetty."
+=======
+"Collect feedback from your customers by sending them a rating request when a "
+"task enters a certain stage. To do so, define a rating email template on the "
+"corresponding stages.\n"
+"Rating when changing stage: an email will be automatically sent when the "
+"task reaches the stage on which the rating email template is set.\n"
+"Periodic rating: an email will be automatically sent at regular intervals as "
+"long as the task remains in the stage in which the rating email template is "
+"set."
+msgstr ""
+"Kerää palautetta asiakkailtasi lähettämällä heille luokituspyyntö, kun "
+"tehtävä on tietyssä vaiheessa. Määritä tätä varten arviointisähköpostimalli "
+"vastaaville vaiheille.\n"
+"Arvostelu vaiheen vaihtuessa: sähköpostiviesti lähetetään automaattisesti, "
+"kun tehtävä saavuttaa sen vaiheen, jolle arvostelusähköpostimalli on "
+"määritetty.\n"
+"Jaksoittainen luokitus: sähköpostiviesti lähetetään automaattisesti "
+"säännöllisin väliajoin niin kauan kuin tehtävä on siinä vaiheessa, jossa "
+"luokitus-sähköpostimalli on määritetty."
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_tags__color
@@ -2544,10 +2990,19 @@ msgstr "Väri"
 #. odoo-javascript
 #: code:addons/project/static/src/xml/project_task_kanban_examples.xml:0
 msgid ""
+<<<<<<< HEAD
 "Communicate with customers on the task using the email gateway. Attach logo designs to the task, so that information flows from\n"
 "      designers to the workers who print the t-shirt."
 msgstr ""
 "Kommunikoi asiakkaiden kanssa tehtävästä sähköpostiviestintäportin avulla. Liitä tehtävään logomalleja, jotta tieto kulkee osoitteesta\n"
+=======
+"Communicate with customers on the task using the email gateway. Attach logo "
+"designs to the task, so that information flows from\n"
+"      designers to the workers who print the t-shirt."
+msgstr ""
+"Kommunikoi asiakkaiden kanssa tehtävästä sähköpostiviestintäportin avulla. "
+"Liitä tehtävään logomalleja, jotta tieto kulkee osoitteesta\n"
+>>>>>>> upstream/18.0
 "      suunnittelijoilta t-paitoja painaville työntekijöille."
 
 #. module: project
@@ -2699,8 +3154,13 @@ msgstr ""
 #. module: project
 #: model_terms:ir.actions.act_window,help:project.open_view_project_all
 msgid ""
+<<<<<<< HEAD
 "Create projects to organize your tasks. Define a different workflow for each"
 " project."
+=======
+"Create projects to organize your tasks. Define a different workflow for each "
+"project."
+>>>>>>> upstream/18.0
 msgstr ""
 "Luo projekteja tehtävien organisoimiseksi. Määritä kullekin projektille oma "
 "työnkulku."
@@ -2846,10 +3306,19 @@ msgstr "Asiakkaiden arvostelujen tila"
 #. odoo-javascript
 #: code:addons/project/static/src/xml/project_task_kanban_examples.xml:0
 msgid ""
+<<<<<<< HEAD
 "Customers propose feedbacks by email; Odoo creates tasks automatically, and you can\n"
 "      communicate on the task directly."
 msgstr ""
 "Asiakkaat ehdottavat palautetta sähköpostitse; Odoo luo tehtäviä automaattisesti, ja voit tehdä\n"
+=======
+"Customers propose feedbacks by email; Odoo creates tasks automatically, and "
+"you can\n"
+"      communicate on the task directly."
+msgstr ""
+"Asiakkaat ehdottavat palautetta sähköpostitse; Odoo luo tehtäviä "
+"automaattisesti, ja voit tehdä\n"
+>>>>>>> upstream/18.0
 "      kommunikoida tehtävästä suoraan."
 
 #. module: project
@@ -2884,10 +3353,21 @@ msgstr "Päivämäärä"
 #: model:ir.model.fields,help:project.field_project_task__date_last_stage_update
 msgid ""
 "Date on which the state of your task has last been modified.\n"
+<<<<<<< HEAD
 "Based on this information you can identify tasks that are stalling and get statistics on the time it usually takes to move tasks from one stage/state to another."
 msgstr ""
 "Päivämäärä, jolloin tehtäväsi tilaa on viimeksi muutettu.\n"
 "Näiden tietojen perusteella voit tunnistaa jumissa olevat tehtävät ja saada tilastotietoja siitä, kuinka kauan tehtävien siirtäminen vaiheesta/tilasta toiseen yleensä kestää."
+=======
+"Based on this information you can identify tasks that are stalling and get "
+"statistics on the time it usually takes to move tasks from one stage/state "
+"to another."
+msgstr ""
+"Päivämäärä, jolloin tehtäväsi tilaa on viimeksi muutettu.\n"
+"Näiden tietojen perusteella voit tunnistaa jumissa olevat tehtävät ja saada "
+"tilastotietoja siitä, kuinka kauan tehtävien siirtäminen vaiheesta/tilasta "
+"toiseen yleensä kestää."
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project__date
@@ -2946,13 +3426,25 @@ msgstr "Oletusarvot"
 #: model_terms:ir.actions.act_window,help:project.open_task_type_form_domain
 msgid ""
 "Define the steps that will be used in the project from the\n"
+<<<<<<< HEAD
 "                creation of the task, up to the closing of the task or issue.\n"
+=======
+"                creation of the task, up to the closing of the task or "
+"issue.\n"
+>>>>>>> upstream/18.0
 "                You will use these stages in order to track the progress in\n"
 "                solving a task or an issue."
 msgstr ""
 "Määrittele projektissa käytettävät vaiheet projektin alusta\n"
+<<<<<<< HEAD
 "                tehtävän luomisesta aina tehtävän tai ongelman sulkemiseen asti.\n"
 "                Näitä vaiheita käytetään edistymisen seuraamiseen seuraavissa vaiheissa\n"
+=======
+"                tehtävän luomisesta aina tehtävän tai ongelman sulkemiseen "
+"asti.\n"
+"                Näitä vaiheita käytetään edistymisen seuraamiseen "
+"seuraavissa vaiheissa\n"
+>>>>>>> upstream/18.0
 "                tehtävän tai ongelman ratkaisemisen edistymistä."
 
 #. module: project
@@ -3398,8 +3890,13 @@ msgstr "Tulevat toimenpiteet"
 #. module: project
 #: model_terms:ir.actions.act_window,help:project.project_update_all_action
 msgid ""
+<<<<<<< HEAD
 "Get a snapshot of the status of your project and share its progress with key"
 " stakeholders."
+=======
+"Get a snapshot of the status of your project and share its progress with key "
+"stakeholders."
+>>>>>>> upstream/18.0
 msgstr ""
 "Saat tilannekuvan projektin tilasta ja voit jakaa sen edistymisen "
 "tärkeimpien sidosryhmien kanssa."
@@ -3424,8 +3921,13 @@ msgstr "Anna pääsy portaaliin"
 #. odoo-python
 #: code:addons/project/models/project_project.py:0
 msgid ""
+<<<<<<< HEAD
 "Grant employees access to your project or tasks by adding them as followers."
 " Employees automatically get access to the tasks they are assigned to."
+=======
+"Grant employees access to your project or tasks by adding them as followers. "
+"Employees automatically get access to the tasks they are assigned to."
+>>>>>>> upstream/18.0
 msgstr ""
 "Anna työntekijöille pääsy projektiin tai tehtäviin lisäämällä heidät "
 "seuraajiksi. Työntekijät saavat automaattisesti pääsyn tehtäviin, joihin "
@@ -3436,8 +3938,13 @@ msgstr ""
 #: code:addons/project/models/project_project.py:0
 msgid ""
 "Grant portal users access to your project by adding them as followers (the "
+<<<<<<< HEAD
 "tasks of the project are not included). To grant access to tasks to a portal"
 " user, add them as followers for these tasks."
+=======
+"tasks of the project are not included). To grant access to tasks to a portal "
+"user, add them as followers for these tasks."
+>>>>>>> upstream/18.0
 msgstr ""
 "Anna portaalin käyttäjille pääsy projektiin lisäämällä heidät seuraajiksi "
 "(projektin tehtävät eivät sisälly). Jos haluat antaa portaalin käyttäjälle "
@@ -3454,8 +3961,13 @@ msgstr "Ryhmittely"
 #. odoo-javascript
 #: code:addons/project/static/src/xml/project_task_kanban_examples.xml:0
 msgid ""
+<<<<<<< HEAD
 "Handle your idea gathering within Tasks of your new Project and discuss them"
 " in the chatter of the tasks."
+=======
+"Handle your idea gathering within Tasks of your new Project and discuss them "
+"in the chatter of the tasks."
+>>>>>>> upstream/18.0
 msgstr ""
 "Käsittele ideoiden kerääminen uuden projektisi tehtävissä ja keskustele "
 "niistä tehtävien keskustelussa."
@@ -3565,8 +4077,13 @@ msgstr "ID"
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project__alias_parent_thread_id
 msgid ""
+<<<<<<< HEAD
 "ID of the parent record holding the alias (example: project holding the task"
 " creation alias)"
+=======
+"ID of the parent record holding the alias (example: project holding the task "
+"creation alias)"
+>>>>>>> upstream/18.0
 msgstr ""
 "Ylätason aliastietueen id (esim. tehtävien luontiin käytettävän aliaksen "
 "sisältävä projekti)"
@@ -3623,6 +4140,7 @@ msgstr ""
 #. module: project
 #: model:ir.model.fields,help:project.field_project_task_type__rating_template_id
 msgid ""
+<<<<<<< HEAD
 "If set, a rating request will automatically be sent by email to the customer when the task reaches this stage. \n"
 "Alternatively, it will be sent at a regular interval as long as the task remains in this stage, depending on the configuration of your project. \n"
 "To use this feature make sure that the 'Customer Ratings' option is enabled on your project."
@@ -3630,12 +4148,32 @@ msgstr ""
 "Jos asetettu, asiakkaalle lähetetään automaattisesti sähköpostitse luokituspyyntö, kun tehtävä saavuttaa tämän vaiheen.\n"
 "Vaihtoehtoisesti se lähetetään säännöllisin väliajoin niin kauan kuin tehtävä pysyy tässä vaiheessa, projektisi asetuksista riippuen.\n"
 "Tämän ominaisuuden käyttämiseksi varmista, että 'Asiakkaan arviot' -vaihtoehto on käytössä projektissasi."
+=======
+"If set, a rating request will automatically be sent by email to the customer "
+"when the task reaches this stage. \n"
+"Alternatively, it will be sent at a regular interval as long as the task "
+"remains in this stage, depending on the configuration of your project. \n"
+"To use this feature make sure that the 'Customer Ratings' option is enabled "
+"on your project."
+msgstr ""
+"Jos asetettu, asiakkaalle lähetetään automaattisesti sähköpostitse "
+"luokituspyyntö, kun tehtävä saavuttaa tämän vaiheen.\n"
+"Vaihtoehtoisesti se lähetetään säännöllisin väliajoin niin kauan kuin "
+"tehtävä pysyy tässä vaiheessa, projektisi asetuksista riippuen.\n"
+"Tämän ominaisuuden käyttämiseksi varmista, että 'Asiakkaan arviot' "
+"-vaihtoehto on käytössä projektissasi."
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project_stage__mail_template_id
 msgid ""
+<<<<<<< HEAD
 "If set, an email will be automatically sent to the customer when the project"
 " reaches this stage."
+=======
+"If set, an email will be automatically sent to the customer when the project "
+"reaches this stage."
+>>>>>>> upstream/18.0
 msgstr ""
 "Jos asetettu, asiakkaalle lähetetään automaattisesti tekstiviesti, kun "
 "projekti saavuttaa tämän vaiheen."
@@ -3784,20 +4322,38 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:project.project_task_action_sub_task
 msgid ""
 "Keep track of the progress of your tasks from creation to completion.<br>\n"
+<<<<<<< HEAD
 "                    Collaborate efficiently by chatting in real-time or via email."
 msgstr ""
 "Seuraa tehtävien etenemistä niiden luomisesta niiden valmistumiseen.<br>\n"
 "                    Tee tehokasta yhteistyötä keskustelemalla reaaliaikaisesti tai sähköpostitse."
+=======
+"                    Collaborate efficiently by chatting in real-time or via "
+"email."
+msgstr ""
+"Seuraa tehtävien etenemistä niiden luomisesta niiden valmistumiseen.<br>\n"
+"                    Tee tehokasta yhteistyötä keskustelemalla "
+"reaaliaikaisesti tai sähköpostitse."
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model_terms:ir.actions.act_window,help:project.project_sharing_project_task_action
 #: model_terms:ir.actions.act_window,help:project.project_sharing_project_task_recurring_tasks_action
 msgid ""
 "Keep track of the progress of your tasks from creation to completion.<br>\n"
+<<<<<<< HEAD
 "                Collaborate efficiently by chatting in real-time or via email."
 msgstr ""
 "Seuraa tehtävien etenemistä niiden luomisesta niiden valmistumiseen.<br>\n"
 "                Tee tehokasta yhteistyötä keskustelemalla reaaliaikaisesti tai sähköpostitse."
+=======
+"                Collaborate efficiently by chatting in real-time or via "
+"email."
+msgstr ""
+"Seuraa tehtävien etenemistä niiden luomisesta niiden valmistumiseen.<br>\n"
+"                Tee tehokasta yhteistyötä keskustelemalla reaaliaikaisesti "
+"tai sähköpostitse."
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.rating_rating_view_search_project
@@ -3979,10 +4535,19 @@ msgstr "Alin"
 #. odoo-javascript
 #: code:addons/project/static/src/xml/project_task_kanban_examples.xml:0
 msgid ""
+<<<<<<< HEAD
 "Manage the lifecycle of your project using the kanban view. Add newly acquired projects,\n"
 "      assign them and use the"
 msgstr ""
 "Hallitse projektin elinkaarta kanban-näkymän avulla. Lisää uusia projekteja,\n"
+=======
+"Manage the lifecycle of your project using the kanban view. Add newly "
+"acquired projects,\n"
+"      assign them and use the"
+msgstr ""
+"Hallitse projektin elinkaarta kanban-näkymän avulla. Lisää uusia "
+"projekteja,\n"
+>>>>>>> upstream/18.0
 "      määritä ne ja käytä"
 
 #. module: project
@@ -4492,10 +5057,19 @@ msgstr "Järjestä tilausten prioriteetit käyttämällä"
 #: model_terms:ir.actions.act_window,help:project.project_task_action_from_partner
 msgid ""
 "Organize your tasks by dispatching them across the pipeline.<br>\n"
+<<<<<<< HEAD
 "                    Collaborate efficiently by chatting in real-time or via email."
 msgstr ""
 "Järjestä tehtävät lähettämällä ne ketjuun.<br>\n"
 "                    Tee tehokasta yhteistyötä keskustelemalla reaaliaikaisesti tai sähköpostitse."
+=======
+"                    Collaborate efficiently by chatting in real-time or via "
+"email."
+msgstr ""
+"Järjestä tehtävät lähettämällä ne ketjuun.<br>\n"
+"                    Tee tehokasta yhteistyötä keskustelemalla "
+"reaaliaikaisesti tai sähköpostitse."
+>>>>>>> upstream/18.0
 
 #. module: project
 #. odoo-python
@@ -4541,8 +5115,13 @@ msgstr "Ylätehtävä"
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project__alias_parent_model_id
 msgid ""
+<<<<<<< HEAD
 "Parent model holding the alias. The model holding the alias reference is not"
 " necessarily the model given by alias_model_id (example: project "
+=======
+"Parent model holding the alias. The model holding the alias reference is not "
+"necessarily the model given by alias_model_id (example: project "
+>>>>>>> upstream/18.0
 "(parent_model) and task (model))"
 msgstr ""
 "Aliaksen hallussa oleva emomalli. Alias-viittauksen sisältävä malli ei "
@@ -4552,8 +5131,12 @@ msgstr ""
 #. module: project
 #. odoo-python
 #: code:addons/project/models/res_partner.py:0
+<<<<<<< HEAD
 msgid ""
 "Partner company cannot be different from its assigned projects' company"
+=======
+msgid "Partner company cannot be different from its assigned projects' company"
+>>>>>>> upstream/18.0
 msgstr ""
 "Kumppaniyritys ei voi olla eri yritys kuin sille osoitettujen projektien "
 "yritys"
@@ -4575,8 +5158,12 @@ msgstr "Kumppanin tehtävät"
 msgid ""
 "People invited to collaborate on the project will have portal access rights."
 msgstr ""
+<<<<<<< HEAD
 "Projektissa yhteistyöhön kutsutuilla henkilöillä on portaalin "
 "käyttöoikeudet."
+=======
+"Projektissa yhteistyöhön kutsutuilla henkilöillä on portaalin käyttöoikeudet."
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project__privacy_visibility
@@ -4584,6 +5171,7 @@ msgstr ""
 msgid ""
 "People to whom this project and its tasks will be visible.\n"
 "\n"
+<<<<<<< HEAD
 "- Invited internal users: when following a project, internal users will get access to all of its tasks without distinction. Otherwise, they will only get access to the specific tasks they are following.\n"
 " A user with the project > administrator access right level can still access this project and its tasks, even if they are not explicitly part of the followers.\n"
 "\n"
@@ -4611,6 +5199,61 @@ msgstr ""
 "Kun projekti on jaettu muokkaustilassa, portaalin käyttäjä ohjataan tehtävien kanban- ja luettelonäkymiin. Hän voi muokata valittua määrää tehtävien kenttiä.\n"
 "\n"
 "Joka tapauksessa sisäinen käyttäjä, jolla ei ole projektin käyttöoikeuksia, voi silti päästä tehtävään, jos hänelle annetaan vastaava URL-osoite (ja jos hän kuuluu seuraajiin, jos projekti on yksityinen)."
+=======
+"- Invited internal users: when following a project, internal users will get "
+"access to all of its tasks without distinction. Otherwise, they will only "
+"get access to the specific tasks they are following.\n"
+" A user with the project > administrator access right level can still access "
+"this project and its tasks, even if they are not explicitly part of the "
+"followers.\n"
+"\n"
+"- All internal users: all internal users can access the project and all of "
+"its tasks without distinction.\n"
+"\n"
+"- Invited portal users and all internal users: all internal users can access "
+"the project and all of its tasks without distinction.\n"
+"When following a project, portal users will only get access to the specific "
+"tasks they are following.\n"
+"\n"
+"When a project is shared in read-only, the portal user is redirected to "
+"their portal. They can view the tasks they are following, but not edit "
+"them.\n"
+"When a project is shared in edit, the portal user is redirected to the "
+"kanban and list views of the tasks. They can modify a selected number of "
+"fields on the tasks.\n"
+"\n"
+"In any case, an internal user with no project access rights can still access "
+"a task, provided that they are given the corresponding URL (and that they "
+"are part of the followers if the project is private)."
+msgstr ""
+"Henkilöt, joille tämä hanke ja sen tehtävät näkyvät.\n"
+"\n"
+"- Kutsutut sisäiset käyttäjät: Kun projektia seurataan, sisäiset käyttäjät "
+"saavat pääsyn kaikkiin sen tehtäviin erottelematta. Muussa tapauksessa he "
+"saavat pääsyn vain tiettyihin tehtäviin, joita he seuraavat.\n"
+" Käyttäjä, jolla on projektin > ylläpitäjän käyttöoikeustaso, voi silti "
+"käyttää tätä projektia ja sen tehtäviä, vaikka hän ei nimenomaisesti "
+"kuuluisi seuraajiin.\n"
+"\n"
+"- Kaikki sisäiset käyttäjät: Kaikki sisäiset käyttäjät voivat käyttää "
+"projektia ja kaikkia sen tehtäviä erottelematta.\n"
+"\n"
+"- Kutsutut portaalikäyttäjät ja kaikki sisäiset käyttäjät: Kaikki sisäiset "
+"käyttäjät voivat käyttää projektia ja kaikkia sen tehtäviä erottelematta.\n"
+"Kun portaalikäyttäjät seuraavat projektia, he pääsevät käsiksi vain "
+"tiettyihin tehtäviin, joita he seuraavat.\n"
+"\n"
+"Kun hanke jaetaan vain lukuoikeudella, portaalikäyttäjä ohjataan omalle "
+"portaalilleen. Hän voi tarkastella seuraamiaan tehtäviä, mutta ei muokata "
+"niitä.\n"
+"Kun projekti on jaettu muokkaustilassa, portaalin käyttäjä ohjataan "
+"tehtävien kanban- ja luettelonäkymiin. Hän voi muokata valittua määrää "
+"tehtävien kenttiä.\n"
+"\n"
+"Joka tapauksessa sisäinen käyttäjä, jolla ei ole projektin käyttöoikeuksia, "
+"voi silti päästä tehtävään, jos hänelle annetaan vastaava URL-osoite (ja jos "
+"hän kuuluu seuraajiin, jos projekti on yksityinen)."
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project__rating_percentage_satisfaction
@@ -4662,12 +5305,22 @@ msgid ""
 "Policy to post a message on the document using the mailgateway.\n"
 "- everyone: everyone can post\n"
 "- partners: only authenticated partners\n"
+<<<<<<< HEAD
 "- followers: only followers of the related document or members of following channels\n"
+=======
+"- followers: only followers of the related document or members of following "
+"channels\n"
+>>>>>>> upstream/18.0
 msgstr ""
 "Käytäntö, jolla lähetetään viesti asiakirjaan mailgatewayn avulla.\n"
 "- everyone: kaikki voivat lähettää viestin\n"
 "- partners: vain todennetut kumppanit\n"
+<<<<<<< HEAD
 "- seuraajat: vain asiaan liittyvän asiakirjan seuraajat tai seuraavien kanavien jäsenet\n"
+=======
+"- seuraajat: vain asiaan liittyvän asiakirjan seuraajat tai seuraavien "
+"kanavien jäsenet\n"
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project__access_url
@@ -4679,10 +5332,15 @@ msgstr "Portaalin osoite"
 #. odoo-python
 #: code:addons/project/models/project_project.py:0
 msgid ""
+<<<<<<< HEAD
 "Portal users will be removed from the followers of the project and its "
 "tasks."
 msgstr ""
 "Portaalin käyttäjät poistetaan projektin ja sen tehtävien seuraajista."
+=======
+"Portal users will be removed from the followers of the project and its tasks."
+msgstr "Portaalin käyttäjät poistetaan projektin ja sen tehtävien seuraajista."
+>>>>>>> upstream/18.0
 
 #. module: project
 #. odoo-javascript
@@ -4734,8 +5392,13 @@ msgid ""
 "Private tasks cannot be converted into sub-tasks. Please set a project on "
 "the task to gain access to this feature."
 msgstr ""
+<<<<<<< HEAD
 "Yksityisiä tehtäviä ei voi muuntaa alitehtäviksi. Aseta tehtävälle projekti,"
 " jotta saat tämän ominaisuuden käyttöösi."
+=======
+"Yksityisiä tehtäviä ei voi muuntaa alitehtäviksi. Aseta tehtävälle projekti, "
+"jotta saat tämän ominaisuuden käyttöösi."
+>>>>>>> upstream/18.0
 
 #. module: project
 #. odoo-javascript
@@ -4953,8 +5616,13 @@ msgstr ""
 #. module: project
 #: model:ir.model.fields,help:project.field_project_task_type__project_ids
 msgid ""
+<<<<<<< HEAD
 "Projects in which this stage is present. If you follow a similar workflow in"
 " several projects, you can share this stage among them and get consolidated "
+=======
+"Projects in which this stage is present. If you follow a similar workflow in "
+"several projects, you can share this stage among them and get consolidated "
+>>>>>>> upstream/18.0
 "information this way."
 msgstr ""
 "Projektit, joissa tämä vaihe on läsnä. Jos noudatat samankaltaista "
@@ -5101,12 +5769,27 @@ msgstr ""
 #: model:ir.model.fields,help:project.field_project_share_collaborator_wizard__access_mode
 msgid ""
 "Read: collaborators can view tasks but cannot edit them.\n"
+<<<<<<< HEAD
 "Edit with limited access: collaborators can view and edit tasks they follow in the Kanban view.\n"
 "Edit: collaborators can view and edit all tasks in the Kanban view. Additionally, they can choose which tasks they want to follow."
 msgstr ""
 "Lue: Yhteistyökumppanit voivat tarkastella tehtäviä, mutta eivät muokata niitä.\n"
 "Muokkaa rajoitetulla käyttöoikeudella: Yhteistyökumppanit voivat tarkastella ja muokata seuraamiaan tehtäviä Kanban-näkymässä.\n"
 "Muokkaa: Yhteistyökumppanit voivat tarkastella ja muokata kaikkia tehtäviä Kanban-näkymässä. Lisäksi he voivat valita, mitä tehtäviä he haluavat seurata."
+=======
+"Edit with limited access: collaborators can view and edit tasks they follow "
+"in the Kanban view.\n"
+"Edit: collaborators can view and edit all tasks in the Kanban view. "
+"Additionally, they can choose which tasks they want to follow."
+msgstr ""
+"Lue: Yhteistyökumppanit voivat tarkastella tehtäviä, mutta eivät muokata "
+"niitä.\n"
+"Muokkaa rajoitetulla käyttöoikeudella: Yhteistyökumppanit voivat tarkastella "
+"ja muokata seuraamiaan tehtäviä Kanban-näkymässä.\n"
+"Muokkaa: Yhteistyökumppanit voivat tarkastella ja muokata kaikkia tehtäviä "
+"Kanban-näkymässä. Lisäksi he voivat valita, mitä tehtäviä he haluavat "
+"seurata."
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model:mail.template,subject:project.mail_template_data_project_task
@@ -5422,8 +6105,12 @@ msgstr "Aseta Luokitus-sähköpostimalli vaiheisiin"
 #. module: project
 #: model:mail.template,description:project.project_done_email_template
 msgid ""
+<<<<<<< HEAD
 "Set on project's stages to inform customers when a project reaches that "
 "stage"
+=======
+"Set on project's stages to inform customers when a project reaches that stage"
+>>>>>>> upstream/18.0
 msgstr ""
 "Aseta projektin vaiheet, jotta asiakkaille voidaan ilmoittaa, kun projekti "
 "saavuttaa kyseisen vaiheen"
@@ -5513,14 +6200,24 @@ msgid ""
 "Some of the selected analytic accounts are associated with a project:\n"
 "%(accountList)s\n"
 "\n"
+<<<<<<< HEAD
 "Archiving these accounts will remove the option to log timesheets for their respective projects.\n"
+=======
+"Archiving these accounts will remove the option to log timesheets for their "
+"respective projects.\n"
+>>>>>>> upstream/18.0
 "\n"
 "Are you sure you want to proceed?"
 msgstr ""
 "Jotkin valituista analyyttisistä tileistä liittyvät projektiin:\n"
 "%(accountList)s\n"
 "\n"
+<<<<<<< HEAD
 "Näiden tilien arkistointi poistaa mahdollisuuden kirjata työaikakirjanpitoa vastaavien projektien osalta.\n"
+=======
+"Näiden tilien arkistointi poistaa mahdollisuuden kirjata työaikakirjanpitoa "
+"vastaavien projektien osalta.\n"
+>>>>>>> upstream/18.0
 "\n"
 "Oletko varma, että haluat jatkaa?"
 
@@ -5541,8 +6238,13 @@ msgid ""
 msgstr ""
 "Lajittele tehtävät sprinteittäin käyttämällä virstanpylväitä, tunnisteita "
 "tai omaa ominaisuutta. Kunkin sprintin lopussa voit vain poimia luettelosta "
+<<<<<<< HEAD
 "jäljellä olevat tehtävät ja siirtää ne kaikki kerralla seuraavaan sprinttiin"
 " muokkaamalla virstanpylvästä, tagia tai ominaisuutta."
+=======
+"jäljellä olevat tehtävät ja siirtää ne kaikki kerralla seuraavaan sprinttiin "
+"muokkaamalla virstanpylvästä, tagia tai ominaisuutta."
+>>>>>>> upstream/18.0
 
 #. module: project
 #. odoo-javascript
@@ -5692,8 +6394,13 @@ msgid ""
 "this task."
 msgstr ""
 "Kaikkiin tähän tehtävään liittyviin alitehtäviin (ja niiden omiin "
+<<<<<<< HEAD
 "alitehtäviin) varattujen tuntien summa. Yleensä pienempi tai yhtä suuri kuin"
 " tämän tehtävän varatut tunnit."
+=======
+"alitehtäviin) varattujen tuntien summa. Yleensä pienempi tai yhtä suuri kuin "
+"tämän tehtävän varatut tunnit."
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.project_update_default_description
@@ -5844,8 +6551,13 @@ msgstr "Tehtävän otsikko..."
 msgid ""
 "Task Transferred from Project %(source_project)s to %(destination_project)s"
 msgstr ""
+<<<<<<< HEAD
 "Tehtävä siirretty projektista %(source_project)s kohteeseen "
 "%(destination_project)s"
+=======
+"Tehtävä siirretty projektista %(source_project)s kohteeseen %"
+"(destination_project)s"
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model:mail.message.subtype,description:project.mt_task_waiting
@@ -5962,8 +6674,12 @@ msgstr "Nykyisen käyttäjän henkilökohtainen tehtävävaihe."
 #. module: project
 #. odoo-python
 #: code:addons/project/controllers/portal.py:0
+<<<<<<< HEAD
 msgid ""
 "The document does not exist or you do not have the rights to access it."
+=======
+msgid "The document does not exist or you do not have the rights to access it."
+>>>>>>> upstream/18.0
 msgstr "Dokumenttia ei ole olemassa, tai sinulla ei ole oikeuksia nähdä sitä."
 
 #. module: project
@@ -5991,9 +6707,15 @@ msgstr "Vaihteluvälin on oltava suurempi kuin 0"
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project__alias_model_id
 msgid ""
+<<<<<<< HEAD
 "The model (Odoo Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
+=======
+"The model (Odoo Document Kind) to which this alias corresponds. Any incoming "
+"email that does not reply to an existing record will cause the creation of a "
+"new record of this model (e.g. a Project Task)"
+>>>>>>> upstream/18.0
 msgstr ""
 "Malli (Odoo Document Kind), jota tämä alias vastaa. Kaikki saapuvat "
 "sähköpostiviestit, jotka eivät vastaa olemassa olevaan tietueeseen, "
@@ -6020,8 +6742,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/project/models/project_project.py:0
 msgid ""
+<<<<<<< HEAD
 "The project's company cannot be changed if its analytic account has analytic"
 " lines or if more than one project is linked to it."
+=======
+"The project's company cannot be changed if its analytic account has analytic "
+"lines or if more than one project is linked to it."
+>>>>>>> upstream/18.0
 msgstr ""
 "Projektin yritystä ei voi muuttaa, jos sen analyyttisellä tilillä on "
 "analyyttisiä rivejä tai jos siihen on liitetty useampi kuin yksi projekti."
@@ -6036,8 +6763,13 @@ msgstr "Projektin alkamispäivän on oltava ennen sen päättymispäivää."
 #: code:addons/project/static/src/views/burndown_chart/burndown_chart_search_model.js:0
 msgid ""
 "The report should be grouped either by \"Stage\" to represent a Burndown "
+<<<<<<< HEAD
 "Chart or by \"Is Closed\" to represent a Burn-up chart. Without one of these"
 " groupings applied, the report will not provide relevant information."
+=======
+"Chart or by \"Is Closed\" to represent a Burn-up chart. Without one of these "
+"groupings applied, the report will not provide relevant information."
+>>>>>>> upstream/18.0
 msgstr ""
 "Raportti on ryhmiteltävä joko \"Vaiheen\" mukaan, jos kyseessä on "
 "palokaavio, tai \"On suljettu\" mukaan, jos kyseessä on Burn-up-kaavio. Jos "
@@ -6053,8 +6785,12 @@ msgstr "Haku ei tue operaattoria %(operator)s tai arvoa %(value)s."
 #. module: project
 #. odoo-python
 #: code:addons/project/models/project_task.py:0
+<<<<<<< HEAD
 msgid ""
 "The task and the associated partner must be linked to the same company."
+=======
+msgid "The task and the associated partner must be linked to the same company."
+>>>>>>> upstream/18.0
 msgstr ""
 "Tehtävän ja siihen liittyvän kumppanin on liityttävä samaan yritykseen."
 
@@ -6063,8 +6799,13 @@ msgstr ""
 #: code:addons/project/models/project_task.py:0
 msgid ""
 "The task cannot be shared with the recipient(s) because the privacy of the "
+<<<<<<< HEAD
 "project is too restricted. Set the privacy of the project to "
 "'%(visibility)s' in order to make it accessible by the recipient(s)."
+=======
+"project is too restricted. Set the privacy of the project to '%"
+"(visibility)s' in order to make it accessible by the recipient(s)."
+>>>>>>> upstream/18.0
 msgstr ""
 "Tehtävää ei voida jakaa vastaanottajan (vastaanottajien) kanssa, koska "
 "projektin yksityisyys on liian rajoitettu. Aseta projektin "
@@ -6119,8 +6860,13 @@ msgstr "Ei raportoitavaa."
 #: model_terms:ir.ui.view,arch_db:project.project_share_wizard_confirm_form
 msgid ""
 "They can edit shared project tasks and view specific documents in read mode "
+<<<<<<< HEAD
 "on your website. This includes leads/opportunities, quotations/sales orders,"
 " purchase orders, invoices and bills, timesheets, and tickets."
+=======
+"on your website. This includes leads/opportunities, quotations/sales orders, "
+"purchase orders, invoices and bills, timesheets, and tickets."
+>>>>>>> upstream/18.0
 msgstr ""
 "He voivat muokata jaettuja projektitehtäviä ja tarkastella tiettyjä "
 "asiakirjoja lukutilassa verkkosivustollasi. Näihin kuuluvat liidit ja "
@@ -6152,14 +6898,24 @@ msgid ""
 "This analytic account is associated with the following projects:\n"
 "%(projectList)s\n"
 "\n"
+<<<<<<< HEAD
 "Archiving the account will remove the option to log timesheets for these projects.\n"
+=======
+"Archiving the account will remove the option to log timesheets for these "
+"projects.\n"
+>>>>>>> upstream/18.0
 "\n"
 "Are you sure you want to proceed?"
 msgstr ""
 "Tämä analyyttinen tili liittyy seuraaviin hankkeisiin:\n"
 "%(projectList)s\n"
 "\n"
+<<<<<<< HEAD
 "Tilin arkistointi poistaa mahdollisuuden kirjata näiden projektien työaikakirjauksia.\n"
+=======
+"Tilin arkistointi poistaa mahdollisuuden kirjata näiden projektien "
+"työaikakirjauksia.\n"
+>>>>>>> upstream/18.0
 "\n"
 "Oletko varma, että haluat jatkaa?"
 
@@ -6167,8 +6923,13 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/project/static/src/core/web/follower_list_patch.js:0
 msgid ""
+<<<<<<< HEAD
 "This follower is currently a project collaborator. Removing them will revoke"
 " their portal access to the project. Are you sure you want to proceed?"
+=======
+"This follower is currently a project collaborator. Removing them will revoke "
+"their portal access to the project. Are you sure you want to proceed?"
+>>>>>>> upstream/18.0
 msgstr ""
 "Tämä seuraaja on tällä hetkellä projektin yhteistyökumppani. Hänen "
 "poistamisensa peruuttaa hänen portaaliyhteytensä projektiin. Oletko varma, "
@@ -6189,8 +6950,13 @@ msgstr ""
 msgid ""
 "This project is associated with %(project_company)s, whereas the selected "
 "stage belongs to %(stage_company)s. There are a couple of options to "
+<<<<<<< HEAD
 "consider: either remove the company designation from the project or from the"
 " stage. Alternatively, you can update the company information for these "
+=======
+"consider: either remove the company designation from the project or from the "
+"stage. Alternatively, you can update the company information for these "
+>>>>>>> upstream/18.0
 "records to align them under the same company."
 msgstr ""
 "Tämä hanke liittyy luokkaan %(project_company)s, kun taas valittu vaihe "
@@ -6217,8 +6983,13 @@ msgstr ""
 #: code:addons/project/models/project_project.py:0
 msgid ""
 "This project is not associated with any company, while the stage is "
+<<<<<<< HEAD
 "associated with %s. There are a couple of options to consider: either change"
 " the project's company to align with the stage's company or remove the "
+=======
+"associated with %s. There are a couple of options to consider: either change "
+"the project's company to align with the stage's company or remove the "
+>>>>>>> upstream/18.0
 "company designation from the stage"
 msgstr ""
 "Tämä projekti ei liity mihinkään yritykseen, kun taas vaihe liittyy %s. "
@@ -6568,8 +7339,13 @@ msgid ""
 "main changes about this task."
 msgstr ""
 "Käytä keskustelua <b>sähköpostien lähettämiseen</b> ja tehokkaaseen "
+<<<<<<< HEAD
 "viestintään asiakkaidesi kanssa. Lisää uusia henkilöitä seuraajien listalle,"
 " jotta he tietävät tärkeimmistä muutoksista tähän tehtävään liittyen."
+=======
+"viestintään asiakkaidesi kanssa. Lisää uusia henkilöitä seuraajien listalle, "
+"jotta he tietävät tärkeimmistä muutoksista tähän tehtävään liittyen."
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_task__display_name
@@ -6581,7 +7357,12 @@ msgid ""
 "        @user Assign the task to a user\n"
 "        ! Set the task a high priority\n"
 "\n"
+<<<<<<< HEAD
 "        Make sure to use the right format and order e.g. Improve the configuration screen 5h #feature #v16 @Mitchell !"
+=======
+"        Make sure to use the right format and order e.g. Improve the "
+"configuration screen 5h #feature #v16 @Mitchell !"
+>>>>>>> upstream/18.0
 msgstr ""
 "Käytä näitä avainsanoja otsikossa asettaaksesi uusia tehtäviä:\n"
 "\n"
@@ -6590,7 +7371,12 @@ msgstr ""
 "        @user Määritä tehtävä käyttäjälle\n"
 "        ! Aseta tehtävälle korkea prioriteetti\n"
 "\n"
+<<<<<<< HEAD
 "        Varmista, että käytät oikeaa muotoa ja järjestystä esim. Paranna konfigurointinäyttöä 5h #feature #v16 @Mitchell !"
+=======
+"        Varmista, että käytät oikeaa muotoa ja järjestystä esim. Paranna "
+"konfigurointinäyttöä 5h #feature #v16 @Mitchell !"
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model:res.groups,name:project.group_project_user
@@ -6716,8 +7502,13 @@ msgstr "Työaikaa sulkemiseen"
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_project_project_stage_unarchive_wizard
 msgid ""
+<<<<<<< HEAD
 "Would you like to unarchive all of the projects contained in these stages as"
 " well?"
+=======
+"Would you like to unarchive all of the projects contained in these stages as "
+"well?"
+>>>>>>> upstream/18.0
 msgstr ""
 "Haluaisitko myös poistaa arkiston kaikista näihin vaiheisiin sisältyvistä "
 "projekteista?"
@@ -6759,6 +7550,7 @@ msgstr "Vuotta"
 #: code:addons/project/models/project_project_stage.py:0
 msgid ""
 "You are not able to switch the company of this stage to %(company_name)s "
+<<<<<<< HEAD
 "since it currently includes projects associated with "
 "%(project_company_name)s. Please ensure that this stage exclusively consists"
 " of projects linked to %(company_name)s."
@@ -6767,6 +7559,16 @@ msgstr ""
 "sisältää tällä hetkellä hankkeita, jotka liittyvät arvoon "
 "%(project_company_name)s. Varmista, että tämä vaihe koostuu yksinomaan "
 "%(company_name)s-projektiin liittyvistä hankkeista."
+=======
+"since it currently includes projects associated with %"
+"(project_company_name)s. Please ensure that this stage exclusively consists "
+"of projects linked to %(company_name)s."
+msgstr ""
+"Et voi vaihtaa tämän vaiheen yritystä arvoon %(company_name)s, koska se "
+"sisältää tällä hetkellä hankkeita, jotka liittyvät arvoon %"
+"(project_company_name)s. Varmista, että tämä vaihe koostuu yksinomaan %"
+"(company_name)s-projektiin liittyvistä hankkeista."
+>>>>>>> upstream/18.0
 
 #. module: project
 #. odoo-javascript
@@ -6789,8 +7591,13 @@ msgstr "Voit avata alitehtäviä kanban-kortista!"
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_project_project_stage_delete_wizard
 msgid ""
+<<<<<<< HEAD
 "You cannot delete stages containing projects. You can either archive them or"
 " first delete all of their projects."
+=======
+"You cannot delete stages containing projects. You can either archive them or "
+"first delete all of their projects."
+>>>>>>> upstream/18.0
 msgstr ""
 "Et voi poistaa projekteja sisältäviä vaiheita. Voit joko arkistoida ne tai "
 "poistaa ensin kaikki niiden projektit."
@@ -6798,8 +7605,13 @@ msgstr ""
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_project_project_stage_delete_wizard
 msgid ""
+<<<<<<< HEAD
 "You cannot delete stages containing projects. You should first delete all of"
 " their projects."
+=======
+"You cannot delete stages containing projects. You should first delete all of "
+"their projects."
+>>>>>>> upstream/18.0
 msgstr ""
 "Et voi poistaa projekteja sisältäviä vaiheita. Sinun on ensin poistettava "
 "kaikki niiden projektit."
@@ -6859,11 +7671,19 @@ msgstr "Sinua on pyydetty seuraamaan tehtäväasiakirjaa :"
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.project_share_wizard_confirm_form
 msgid ""
+<<<<<<< HEAD
 "You have full control and can revoke portal access anytime. Are you ready to"
 " proceed?"
 msgstr ""
 "Sinulla on täysi hallinta ja voit peruuttaa portaalin käyttöoikeuden milloin"
 " tahansa. Oletko valmis jatkamaan?"
+=======
+"You have full control and can revoke portal access anytime. Are you ready to "
+"proceed?"
+msgstr ""
+"Sinulla on täysi hallinta ja voit peruuttaa portaalin käyttöoikeuden milloin "
+"tahansa. Oletko valmis jatkamaan?"
+>>>>>>> upstream/18.0
 
 #. module: project
 #. odoo-javascript
@@ -7236,12 +8056,15 @@ msgstr "tilassa, jotta tehtävä voidaan merkitä suoritetuksi."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/project/static/src/project_sharing/components/chatter/chatter_composer.xml:0
 msgid "state.message"
 msgstr "state.message"
 
 #. module: project
 #. odoo-javascript
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

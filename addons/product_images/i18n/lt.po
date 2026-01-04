@@ -42,8 +42,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* product_images
 # 
+=======
+# * product_images
+#
+>>>>>>> upstream/18.0
 =======
 # * product_images
 #
@@ -261,7 +266,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
@@ -392,6 +401,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -526,6 +536,9 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-11-11 17:25+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Lithuanian <https://translate.odoo.com/projects/odoo-18/"
@@ -535,6 +548,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < "
+<<<<<<< HEAD
 "11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? 1 :"
 " n % 1 != 0 ? 2: 3);\n"
 "X-Generator: Weblate 5.12.2\n"
@@ -662,20 +676,35 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? "
+"1 : n % 1 != 0 ? 2: 3);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: product_images
 #. odoo-python
 #: code:addons/product_images/wizard/product_fetch_image_wizard.py:0
 msgid ""
+<<<<<<< HEAD
 "%(matching_images_count)s matching images have been found for "
 "%(product_count)s products."
+=======
+"%(matching_images_count)s matching images have been found for %"
+"(product_count)s products."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: product_images
 #: model_terms:ir.ui.view,arch_db:product_images.product_fetch_image_wizard_view_form
 msgid ""
 "<span invisible=\"nb_products_selected &lt;= 10000\">\n"
+<<<<<<< HEAD
 "                            As only 10,000 products can be processed per day, the remaining will be\n"
+=======
+"                            As only 10,000 products can be processed per "
+"day, the remaining will be\n"
+>>>>>>> upstream/18.0
 "                            done tomorrow.\n"
 "                        </span>"
 msgstr ""
@@ -904,7 +933,11 @@ msgid "Triggered actions"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aktyvuojantys veiksmai"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aktyvuojantys veiksmai"
 >>>>>>> upstream/18.0
@@ -1057,7 +1090,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:product_images.product_fetch_image_wizard_view_form
 msgid ""
 "products will not be\n"
+<<<<<<< HEAD
 "                            processed because they either already have an image or their barcode\n"
+=======
+"                            processed because they either already have an "
+"image or their barcode\n"
+>>>>>>> upstream/18.0
 "                            number is not set."
 msgstr ""
 

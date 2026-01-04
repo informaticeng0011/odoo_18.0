@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* pos_razorpay
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
@@ -645,10 +646,18 @@
 # Marta Wacławek, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+#
+# Translators:
+# Wil Odoo, 2024
+# Marta Wacławek, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
@@ -1298,6 +1307,18 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: cs\n"
 "Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Marta Wacławek, 2025\n"
+"Language-Team: Czech (https://app.transifex.com/odoo/teams/41243/cs/)\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n "
+"<= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
+>>>>>>> upstream/18.0
 
 #. module: pos_razorpay
 #: model:ir.model.fields.selection,name:pos_razorpay.selection__pos_payment_method__razorpay_allowed_payment_modes__all
@@ -1467,7 +1488,11 @@ msgid "BHARATQR"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "BHARATQR"
+>>>>>>> upstream/18.0
 =======
 msgstr "BHARATQR"
 >>>>>>> upstream/18.0
@@ -2089,7 +2114,11 @@ msgid "Cannot process transactions with negative amount."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nelze zpracovat transakce se zápornou částkou."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nelze zpracovat transakce se zápornou částkou."
 >>>>>>> upstream/18.0
@@ -2630,6 +2659,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nelze se připojit k serveru Odoo, zkontrolujte připojení k internetu a "
+"zkuste to znovu."
+>>>>>>> upstream/18.0
 =======
 "Nelze se připojit k serveru Odoo, zkontrolujte připojení k internetu a "
 "zkuste to znovu."
@@ -3381,7 +3415,11 @@ msgid "Reference number mismatched"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Neshoda referenčního čísla"
+>>>>>>> upstream/18.0
 =======
 msgstr "Neshoda referenčního čísla"
 >>>>>>> upstream/18.0
@@ -3907,7 +3945,11 @@ msgid "This Payment Terminal is only valid for INR Currency"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tento platební terminál je platný pouze pro měnu INR."
+>>>>>>> upstream/18.0
 =======
 msgstr "Tento platební terminál je platný pouze pro měnu INR."
 >>>>>>> upstream/18.0
@@ -4438,7 +4480,11 @@ msgid "Turn it on when in Test Mode"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zapněte jej v testovacím režimu."
+>>>>>>> upstream/18.0
 =======
 msgstr "Zapněte jej v testovacím režimu."
 >>>>>>> upstream/18.0
@@ -4993,7 +5039,11 @@ msgid "UPI"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "UPI"
+>>>>>>> upstream/18.0
 =======
 msgstr "UPI"
 >>>>>>> upstream/18.0
@@ -5478,8 +5528,13 @@ msgstr "UPI"
 #. module: pos_razorpay
 #: model:ir.model.fields,help:pos_razorpay.field_pos_payment_method__razorpay_api_key
 msgid ""
+<<<<<<< HEAD
 "Used when connecting to Razorpay: "
 "https://razorpay.com/docs/payments/dashboard/account-settings/api-keys/"
+=======
+"Used when connecting to Razorpay: https://razorpay.com/docs/payments/"
+"dashboard/account-settings/api-keys/"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: pos_razorpay

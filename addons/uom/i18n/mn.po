@@ -1,7 +1,12 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* uom
 # 
+=======
+# * uom
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Minj P <pminj322@gmail.com>, 2024
 # Batmunkh Ganbat <batmunkh2522@gmail.com>, 2024
@@ -10,11 +15,16 @@
 # Baskhuu Lodoikhuu <baskhuujacara@gmail.com>, 2024
 # Martin Trigaux, 2024
 # Onii Onii <onii0223@yahoo.com>, 2024
+<<<<<<< HEAD
 # 
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 "Last-Translator: Onii Onii <onii0223@yahoo.com>, 2024\n"
@@ -24,12 +34,30 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: mn\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:38+0000\n"
+"PO-Revision-Date: 2025-12-31 13:12+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Mongolian <https://translate.odoo.com/projects/odoo-18/uom/mn/"
+">\n"
+"Language: mn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: uom
 #: model_terms:ir.ui.view,arch_db:uom.product_uom_form_view
 msgid ""
 "<span class=\"oe_grey oe_inline\">\n"
+<<<<<<< HEAD
 "                                    e.g: 1*(reference unit)=ratio*(this unit)\n"
+=======
+"                                    e.g: 1*(reference unit)=ratio*(this "
+"unit)\n"
+>>>>>>> upstream/18.0
 "                                </span>"
 msgstr ""
 
@@ -37,7 +65,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:uom.product_uom_form_view
 msgid ""
 "<span class=\"oe_grey oe_inline\">\n"
+<<<<<<< HEAD
 "                                    e.g: 1*(this unit)=ratio*(reference unit)\n"
+=======
+"                                    e.g: 1*(this unit)=ratio*(reference "
+"unit)\n"
+>>>>>>> upstream/18.0
 "                                </span>"
 msgstr ""
 
@@ -149,7 +182,12 @@ msgid ""
 "How much bigger or smaller this unit is compared to the reference Unit of "
 "Measure for this category: 1 * (reference unit) = ratio * (this unit)"
 msgstr ""
+<<<<<<< HEAD
 "Энэ хэмжих нэгж нь хэр зэрэг их эсвэл бага гэдэг нь энэ ангилалын сурвалж хэмжих нэгжтэй жишсэнээр илэрхийлэгдэнэ: \n"
+=======
+"Энэ хэмжих нэгж нь хэр зэрэг их эсвэл бага гэдэг нь энэ ангилалын сурвалж "
+"хэмжих нэгжтэй жишсэнээр илэрхийлэгдэнэ: \n"
+>>>>>>> upstream/18.0
 "1 * (сурвалж нэгж) = харьцаа * (энэ нэгж)"
 
 #. module: uom
@@ -214,7 +252,11 @@ msgstr "Нарийвчлалын орон"
 #. module: uom
 #: model_terms:ir.ui.view,arch_db:uom.uom_uom_view_search
 msgid "Search UOM"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Хэмжих нэгжээс хайх"
+>>>>>>> upstream/18.0
 
 #. module: uom
 #: model_terms:ir.ui.view,arch_db:uom.uom_categ_view_search
@@ -233,10 +275,19 @@ msgid ""
 "Some critical fields have been modified on %s.\n"
 "Note that existing data WON'T be updated by this change.\n"
 "\n"
+<<<<<<< HEAD
 "As units of measure impact the whole system, this may cause critical issues.\n"
 "E.g. modifying the rounding could disturb your inventory balance.\n"
 "\n"
 "Therefore, changing core units of measure in a running database is not recommended."
+=======
+"As units of measure impact the whole system, this may cause critical "
+"issues.\n"
+"E.g. modifying the rounding could disturb your inventory balance.\n"
+"\n"
+"Therefore, changing core units of measure in a running database is not "
+"recommended."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: uom
@@ -262,9 +313,18 @@ msgstr "Хэмжих нэгжийн хөрвүүлэлтийн коэффице�
 #. odoo-python
 #: code:addons/uom/models/uom_uom.py:0
 msgid ""
+<<<<<<< HEAD
 "The following units of measure are used by the system and cannot be deleted: %s\n"
 "You can archive them instead."
 msgstr ""
+=======
+"The following units of measure are used by the system and cannot be deleted: "
+"%s\n"
+"You can archive them instead."
+msgstr ""
+"Дараах хэмжих нэгжүүд системд ашиглагдсан байгаа тул устгаж болохгүй: %s\n"
+"Оронд нь та архивлаж болно."
+>>>>>>> upstream/18.0
 
 #. module: uom
 #: model:ir.model.constraint,message:uom.constraint_uom_uom_factor_reference_is_one
@@ -280,8 +340,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/uom/models/uom_uom.py:0
 msgid ""
+<<<<<<< HEAD
 "The unit of measure %(unit)s defined on the order line doesn't belong to the"
 " same category as the unit of measure %(product_unit)s defined on the "
+=======
+"The unit of measure %(unit)s defined on the order line doesn't belong to the "
+"same category as the unit of measure %(product_unit)s defined on the "
+>>>>>>> upstream/18.0
 "product. Please correct the unit of measure defined on the order line or on "
 "the product. They should belong to the same category."
 msgstr ""
@@ -302,7 +367,12 @@ msgstr "Төрөл"
 msgid ""
 "Uncheck the active field to disable a unit of measure without deleting it."
 msgstr ""
+<<<<<<< HEAD
 "Идэвхитэй талбарыг сонгоогүй тохиолдолд хэмжих нэгжийг устгалгүйгээр идэвхгүй болгоно\n"
+=======
+"Идэвхитэй талбарыг сонгоогүй тохиолдолд хэмжих нэгжийг устгалгүйгээр "
+"идэвхгүй болгоно\n"
+>>>>>>> upstream/18.0
 "."
 
 #. module: uom
@@ -378,7 +448,11 @@ msgstr ""
 #. module: uom
 #: model:ir.model.fields,field_description:uom.field_uom_category__uom_ids
 msgid "Uom"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Х.нэгж"
+>>>>>>> upstream/18.0
 
 #. module: uom
 #: model:uom.category,name:uom.product_uom_categ_vol
@@ -418,27 +492,47 @@ msgstr "см"
 #. module: uom
 #: model:uom.uom,name:uom.product_uom_floz
 msgid "fl oz (US)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "шингэн унц (АНУ)"
+>>>>>>> upstream/18.0
 
 #. module: uom
 #: model:uom.uom,name:uom.product_uom_foot
 msgid "ft"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "фут"
+>>>>>>> upstream/18.0
 
 #. module: uom
 #: model:uom.uom,name:uom.uom_square_foot
 msgid "ft²"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "фут кв"
+>>>>>>> upstream/18.0
 
 #. module: uom
 #: model:uom.uom,name:uom.product_uom_cubic_foot
 msgid "ft³"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "фут куб"
+>>>>>>> upstream/18.0
 
 #. module: uom
 #: model:uom.uom,name:uom.product_uom_gal
 msgid "gal (US)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "галлон (АНУ)"
+>>>>>>> upstream/18.0
 
 #. module: uom
 #: model:uom.uom,name:uom.product_uom_inch
@@ -448,7 +542,11 @@ msgstr "дотор"
 #. module: uom
 #: model:uom.uom,name:uom.product_uom_cubic_inch
 msgid "in³"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "инч куб"
+>>>>>>> upstream/18.0
 
 #. module: uom
 #: model:uom.uom,name:uom.product_uom_kgm
@@ -463,7 +561,11 @@ msgstr "км"
 #. module: uom
 #: model:uom.uom,name:uom.product_uom_lb
 msgid "lb"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "фунт"
+>>>>>>> upstream/18.0
 
 #. module: uom
 #: model:uom.uom,name:uom.product_uom_mile
@@ -473,29 +575,53 @@ msgstr "бээр"
 #. module: uom
 #: model:uom.uom,name:uom.product_uom_millimeter
 msgid "mm"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "мм"
+>>>>>>> upstream/18.0
 
 #. module: uom
 #: model:uom.uom,name:uom.uom_square_meter
 msgid "m²"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "м кв"
+>>>>>>> upstream/18.0
 
 #. module: uom
 #: model:uom.uom,name:uom.product_uom_cubic_meter
 msgid "m³"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "м куб"
+>>>>>>> upstream/18.0
 
 #. module: uom
 #: model:uom.uom,name:uom.product_uom_oz
 msgid "oz"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "унц"
+>>>>>>> upstream/18.0
 
 #. module: uom
 #: model:uom.uom,name:uom.product_uom_qt
 msgid "qt (US)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "кварт (АНУ)"
+>>>>>>> upstream/18.0
 
 #. module: uom
 #: model:uom.uom,name:uom.product_uom_yard
 msgid "yd"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ярд"
+>>>>>>> upstream/18.0

@@ -114,8 +114,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* pos_loyalty
 # 
+=======
+# * pos_loyalty
+#
+>>>>>>> upstream/18.0
 =======
 # * pos_loyalty
 #
@@ -690,7 +695,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+# "Fernanda Alvarez (mfar)" <mfar@odoo.com>, 2025.
+>>>>>>> upstream/18.0
 =======
 # "Fernanda Alvarez (mfar)" <mfar@odoo.com>, 2025.
 >>>>>>> upstream/18.0
@@ -1037,6 +1046,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-04-07 20:36+0000\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1501,6 +1511,10 @@ msgstr ""
 =======
 "PO-Revision-Date: 2025-09-22 15:38+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2025-09-22 15:38+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: \"Fernanda Alvarez (mfar)\" <mfar@odoo.com>\n"
 "Language-Team: Spanish (Latin America) <https://translate.odoo.com/projects/"
 "odoo-18/pos_loyalty/es_419/>\n"
@@ -1508,6 +1522,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 "Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
 " ? 1 : 2);\n"
 "X-Generator: Weblate 5.12.2\n"
@@ -1851,16 +1866,31 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == "
+"0) ? 1 : 2);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.model.fields,help:pos_loyalty.field_pos_order_line__reward_identifier_code
 msgid ""
 "\n"
+<<<<<<< HEAD
 "        Technical field used to link multiple reward lines from the same reward together.\n"
 "    "
 msgstr ""
 "\n"
 "        Campo técnico que se usa para vincular varias líneas de recompensa en una sola recompensa.\n"
+=======
+"        Technical field used to link multiple reward lines from the same "
+"reward together.\n"
+"    "
+msgstr ""
+"\n"
+"        Campo técnico que se usa para vincular varias líneas de recompensa "
+"en una sola recompensa.\n"
+>>>>>>> upstream/18.0
 "    "
 
 #. module: pos_loyalty
@@ -2034,7 +2064,11 @@ msgid "All PoS"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Todo el punto de venta"
+=======
+msgstr "Todos los puntos de venta"
+>>>>>>> upstream/18.0
 =======
 msgstr "Todos los puntos de venta"
 >>>>>>> upstream/18.0
@@ -2547,7 +2581,11 @@ msgid "Coupon point(s)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Puntos del cupón"
+=======
+msgstr "Punto(s) del cupón"
+>>>>>>> upstream/18.0
 =======
 msgstr "Punto(s) del cupón"
 >>>>>>> upstream/18.0
@@ -3012,7 +3050,11 @@ msgid "Discount & Loyalty"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Descuento y lealtad"
+=======
+msgstr "Descuentos y programas de lealtad"
+>>>>>>> upstream/18.0
 =======
 msgstr "Descuentos y programas de lealtad"
 >>>>>>> upstream/18.0
@@ -3723,10 +3765,19 @@ msgstr "El cupón que se usó para obtener la recompensa."
 #. odoo-python
 #: code:addons/pos_loyalty/models/pos_order.py:0
 msgid ""
+<<<<<<< HEAD
 "The following codes already exist in the database, perhaps they were already sold?\n"
 "%s"
 msgstr ""
 "Los siguientes códigos ya existen en la base de datos, ¿quizá ya se vendieron?\n"
+=======
+"The following codes already exist in the database, perhaps they were already "
+"sold?\n"
+"%s"
+msgstr ""
+"Los siguientes códigos ya existen en la base de datos, ¿quizá ya se "
+"vendieron?\n"
+>>>>>>> upstream/18.0
 "%s"
 
 #. module: pos_loyalty
@@ -3735,8 +3786,13 @@ msgid ""
 "The report action to be executed when creating a coupon/gift card/loyalty "
 "card in the PoS."
 msgstr ""
+<<<<<<< HEAD
 "La acción de reporte que se ejecutará al crear un cupón, tarjeta de regalo o"
 " tarjeta de lealtad en el PdV."
+=======
+"La acción de reporte que se ejecutará al crear un cupón, tarjeta de regalo o "
+"tarjeta de lealtad en el PdV."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
@@ -3769,8 +3825,12 @@ msgstr "No hay suficientes puntos para el cupón: %s."
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/models/pos_order.js:0
 msgid "There are not enough points on the coupon to claim this reward."
+<<<<<<< HEAD
 msgstr ""
 "El cupón no tiene los puntos suficientes para obtener esta recompensa."
+=======
+msgstr "El cupón no tiene los puntos suficientes para obtener esta recompensa."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
@@ -3933,8 +3993,13 @@ msgstr "Sí"
 #: code:addons/pos_loyalty/static/src/overrides/components/product_screen/order_summary/order_summary.js:0
 msgid "You cannot set negative quantity or price to gift card or ewallet."
 msgstr ""
+<<<<<<< HEAD
 "No puede establecer una cantidad o precio negativo en la tarjeta de regalo o"
 " monedero electrónico."
+=======
+"No puede establecer una cantidad o precio negativo en la tarjeta de regalo o "
+"monedero electrónico."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
@@ -3949,7 +4014,12 @@ msgstr ""
 #. odoo-python
 #: code:addons/pos_loyalty/models/loyalty_program.py:0
 msgid "You must set '%(mail_template)s' before setting '%(report)s'."
+<<<<<<< HEAD
 msgstr "Debe establecer %(mail_template)s\"\" antes de establecer %(report)s\"\"."
+=======
+msgstr ""
+"Debe establecer %(mail_template)s\"\" antes de establecer %(report)s\"\"."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript

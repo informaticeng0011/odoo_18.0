@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* phone_validation
+<<<<<<< HEAD
 # 
 # Translators:
 <<<<<<< HEAD
@@ -821,10 +822,18 @@
 # Wil Odoo, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+#
+# Translators:
+# Larissa Manderfeld, 2025
+# Wil Odoo, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1811,6 +1820,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: de\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:38+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Wil Odoo, 2025\n"
+"Language-Team: German (https://app.transifex.com/odoo/teams/41243/de/)\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+>>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: phone_validation
@@ -2007,7 +2026,10 @@ msgstr "Archiviert"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2502,6 +2524,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2873,8 +2898,13 @@ msgstr "Telefon auf der schwarzen Liste Ist Festnetz"
 #: model_terms:ir.actions.act_window,help:phone_validation.phone_blacklist_action
 msgid "Blacklisted phone numbers won't receive SMS Mailings anymore."
 msgstr ""
+<<<<<<< HEAD
 "Telefonnummern, die auf der schwarzen Liste stehen, erhalten keine SMS-Mails"
 " mehr."
+=======
+"Telefonnummern, die auf der schwarzen Liste stehen, erhalten keine SMS-Mails "
+"mehr."
+>>>>>>> upstream/18.0
 
 #. module: phone_validation
 #. odoo-python
@@ -2883,8 +2913,13 @@ msgid ""
 "Blocked by deletion of portal account %(portal_user_name)s by %(user_name)s "
 "(#%(user_id)s)"
 msgstr ""
+<<<<<<< HEAD
 "Blockiert durch Löschung des Portalkontos %(portal_user_name)s durch "
 "%(user_name)s (#%(user_id)s)"
+=======
+"Blockiert durch Löschung des Portalkontos %(portal_user_name)s durch %"
+"(user_name)s (#%(user_id)s)"
+>>>>>>> upstream/18.0
 
 #. module: phone_validation
 #: model:ir.model,name:phone_validation.model_res_partner
@@ -2957,14 +2992,23 @@ msgstr "Falls markiert, erfordern neue Nachrichten Ihre Aufmerksamkeit."
 #: model:ir.model.fields,help:phone_validation.field_mail_thread_phone__message_has_error
 #: model:ir.model.fields,help:phone_validation.field_phone_blacklist__message_has_error
 msgid "If checked, some messages have a delivery error."
+<<<<<<< HEAD
 msgstr ""
 "Falls markiert, weisen einige Nachrichten einen Zustellungsfehler auf."
+=======
+msgstr "Falls markiert, weisen einige Nachrichten einen Zustellungsfehler auf."
+>>>>>>> upstream/18.0
 
 #. module: phone_validation
 #: model:ir.model.fields,help:phone_validation.field_mail_thread_phone__phone_sanitized_blacklisted
 msgid ""
+<<<<<<< HEAD
 "If the sanitized phone number is on the blacklist, the contact won't receive"
 " mass mailing sms anymore, from any list"
+=======
+"If the sanitized phone number is on the blacklist, the contact won't receive "
+"mass mailing sms anymore, from any list"
+>>>>>>> upstream/18.0
 msgstr ""
 "Wenn die bereinigte Rufnummer auf der schwarzen Liste steht, erhält der "
 "Kontakt keine Massen-SMS mehr, egal von welcher Liste"
@@ -3346,7 +3390,10 @@ msgstr "Benutzer"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3677,6 +3724,7 @@ msgid ""
 "You do not have the access right to unblacklist phone numbers. Please "
 "contact your administrator."
 msgstr ""
+<<<<<<< HEAD
 "Sie haben keine Zugriffsrechte, um Telefonnummern von der schwarzen Liste zu"
 " entfernen. Bitte wenden Sie sich an Ihren Administrator."
 
@@ -4167,6 +4215,12 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+"Sie haben keine Zugriffsrechte, um Telefonnummern von der schwarzen Liste zu "
+"entfernen. Bitte wenden Sie sich an Ihren Administrator."
+
+#. module: phone_validation
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:phone_validation.phone_blacklist_remove_view_form
 msgid "e.g \"Asked to receive our next newsletters\""

@@ -114,8 +114,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* account
 # 
+=======
+# * account
+#
+>>>>>>> upstream/18.0
 =======
 # * account
 #
@@ -774,6 +779,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Pedro M. Baeza <pedro.baeza@tecnativa.com>, 2025
 # Larissa Manderfeld, 2025
 # Wil Odoo, 2025
@@ -1410,6 +1416,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # Pedro M. Baeza <pedro.baeza@tecnativa.com>, 2025
 # Wil Odoo, 2025
 # Larissa Manderfeld, 2025
@@ -1527,6 +1535,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1763,6 +1772,10 @@
 >>>>>>> upstream/18.0
 =======
 # "Noemi Pla Garcia (nopl)" <nopl@odoo.com>, 2025.
+>>>>>>> upstream/18.0
+=======
+# "Noemi Pla Garcia (nopl)" <nopl@odoo.com>, 2025.
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
 =======
 # "Noemi Pla Garcia (nopl)" <nopl@odoo.com>, 2025.
@@ -1880,6 +1893,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3066,12 +3080,18 @@ msgstr ""
 "PO-Revision-Date: 2025-12-26 14:00+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:36+0000\n"
+"PO-Revision-Date: 2025-12-26 14:00+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Spanish <https://translate.odoo.com/projects/odoo-18/account/"
 "es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3757,11 +3777,19 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == "
+"0) ? 1 : 2);\n"
+"X-Generator: Weblate 5.14.3\n"
+
+#. module: account
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:account.field_account_journal__type
 msgid ""
 "\n"
 "        Select 'Sale' for customer invoices journals.\n"
 "        Select 'Purchase' for vendor bills journals.\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4333,10 +4361,15 @@ msgid ""
 "        Select 'Cash', 'Bank' or 'Credit Card' for journals that are used in "
 "customer or vendor payments.\n"
 >>>>>>> upstream/18.0
+=======
+"        Select 'Cash', 'Bank' or 'Credit Card' for journals that are used in "
+"customer or vendor payments.\n"
+>>>>>>> upstream/18.0
 "        Select 'General' for miscellaneous operations journals.\n"
 "        "
 msgstr ""
 "\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4743,6 +4776,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "        Selecciona «Ventas» para ver los diarios de facturas de cliente.\n"
 "        Selecciona «Compras» para ver los diarios de facturas de proveedor.\n"
 "        Selecciona «Caja», «Banco» o «Tarjeta de crédito» para ver los "
@@ -4841,6 +4876,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5045,6 +5083,7 @@ msgid ""
 "        "
 msgstr ""
 "\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5675,11 +5714,17 @@ msgstr ""
 "impuestos.\n"
 "    - Fijo: el importe del impuesto permanece igual independientemente del "
 >>>>>>> upstream/18.0
+=======
+"    - Grupo de impuestos: el impuesto es un conjunto de impuestos sobre "
+"impuestos.\n"
+"    - Fijo: el importe del impuesto permanece igual independientemente del "
+>>>>>>> upstream/18.0
 "precio.\n"
 "    - Porcentaje: el importe del impuesto es un % del precio:\n"
 "        p. ej. 100 * (1 + 10 %) = 110 (sin precio incluido)\n"
 "        p. ej. 110 / (1 + 10 %) = 100 (precio incluido)\n"
 "    - Porcentaje con impuestos incluidos: el importe de impuestos es una "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5832,6 +5877,9 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+"fracción del precio:\n"
 >>>>>>> upstream/18.0
 =======
 "fracción del precio:\n"
@@ -6300,12 +6348,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "%(attachment_name)s (detached by %(user)s on "
 "%(date)s)%(attachment_extension)s"
 msgstr ""
 "%(attachment_name)s (desvinculado por %(user)s el "
 "%(date)s)%(attachment_extension)s"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6650,6 +6701,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7003,11 +7057,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "To be consistent, the journal entry must always have exactly one suspense line."
 msgstr ""
 "%(move)s alcanzó un estado que no es válido con respecto a su línea de extracto bancario correspondiente.\n"
 "Para que sea coherente, el asiento contable debe tener siempre solo una línea en suspenso."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7354,6 +7411,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7706,12 +7766,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "%(order)s - %(order_line)s; %(quantity_billed)s Billed, "
 "%(quantity_received)s Received at %(unit_price)s each"
 msgstr ""
 "%(order)s - %(order_line)s; %(quantity_billed)s facturado, "
 "%(quantity_received)s recibido a %(unit_price)s cada uno"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8056,6 +8119,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8402,12 +8468,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "%(order)s - %(order_line)s; %(quantity_invoiced)s Invoiced, "
 "%(quantity_delivered)s Delivered at %(unit_price)s each"
 msgstr ""
 "%(order)s - %(order_line)s; %(quantity_invoiced)s facturado, "
 "%(quantity_delivered)s entregado a %(unit_price)s cada uno"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8752,6 +8821,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9000,6 +9072,7 @@ msgstr "%(tag)s (%(country_code)s)"
 
 #. module: account
 #. odoo-python
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9954,6 +10027,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: code:addons/account/models/account_move.py:0
 msgid "%(tax_name)s (rounding)"
 msgstr "%(tax_name)s (redondeo)"
@@ -10152,8 +10227,12 @@ msgid "- A default Customer Invoice / Vendor Bill date will be suggested."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "- Se sugerirá una fecha de factura de cliente / proveedor por defecto."
+=======
+msgstr "- Se sugerirá una fecha de factura de cliente / proveedor por defecto."
+>>>>>>> upstream/18.0
 =======
 msgstr "- Se sugerirá una fecha de factura de cliente / proveedor por defecto."
 >>>>>>> upstream/18.0
@@ -10665,11 +10744,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account.view_partner_property_form
 msgid ". Please make sure that this is a wanted behavior."
 msgstr ". Asegúrese de que es un comportamiento deseado."
 
 #. module: account
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11295,6 +11377,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -11397,6 +11480,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11750,6 +11835,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12101,7 +12189,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t> (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>),\n"
+=======
+"            <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t> "
+"(<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>),\n"
+>>>>>>> upstream/18.0
 =======
 "            <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t> "
 "(<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>),\n"
@@ -12679,7 +12772,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            credit note <span style=\"font-weight:bold;\" t-out=\"object.name or ''\">RINV/2021/05/0001</span>\n"
+=======
+"            credit note <span style=\"font-weight:bold;\" t-"
+"out=\"object.name or ''\">RINV/2021/05/0001</span>\n"
+>>>>>>> upstream/18.0
 =======
 "            credit note <span style=\"font-weight:bold;\" t-"
 "out=\"object.name or ''\">RINV/2021/05/0001</span>\n"
@@ -13255,6 +13353,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            (with reference: <t t-out=\"object.invoice_origin or ''\">SUB003</t>)\n"
 "        </t>\n"
 "        amounting in <span style=\"font-weight:bold;\" t-out=\"format_amount(object.amount_total, object.currency_id) or ''\">$ 143,750.00</span>\n"
@@ -13265,6 +13364,8 @@ msgid ""
 "            <br/><br/>\n"
 "            <t t-out=\"object.invoice_user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13618,6 +13719,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13854,6 +13958,7 @@ msgstr ""
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "        Estimado/a\n"
 "        <t t-if=\"object.partner_id.parent_id\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14425,6 +14530,10 @@ msgstr ""
 "            <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t> "
 "(<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>):\n"
 >>>>>>> upstream/18.0
+=======
+"            <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t> "
+"(<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>):\n"
+>>>>>>> upstream/18.0
 "        </t>\n"
 "        <t t-else=\"\">\n"
 "            <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>,\n"
@@ -14432,6 +14541,7 @@ msgstr ""
 "        <br/><br/>\n"
 "        Aquí está su\n"
 "        <t t-if=\"object.name\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15003,11 +15113,16 @@ msgstr ""
 "            factura rectificativa <span style=\"font-weight:bold;\" t-"
 "out=\"object.name or ''\">RINV/2021/05/0001</span>\n"
 >>>>>>> upstream/18.0
+=======
+"            factura rectificativa <span style=\"font-weight:bold;\" t-"
+"out=\"object.name or ''\">RINV/2021/05/0001</span>\n"
+>>>>>>> upstream/18.0
 "        </t>\n"
 "        <t t-else=\"\">\n"
 "            factura rectificativa\n"
 "        </t>\n"
 "        <t t-if=\"object.invoice_origin\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15376,6 +15491,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "            (con la referencia: <t t-out=\"object.invoice_origin or "
 "''\">SUB003</t>)\n"
 "        </t>\n"
@@ -15502,6 +15619,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15851,7 +15971,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t> (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>),\n"
+=======
+"            <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t> "
+"(<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>),\n"
+>>>>>>> upstream/18.0
 =======
 "            <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t> "
 "(<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>),\n"
@@ -16429,7 +16554,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            invoice <span style=\"font-weight:bold;\" t-out=\"object.name or ''\">INV/2021/05/0005</span>\n"
+=======
+"            invoice <span style=\"font-weight:bold;\" t-out=\"object.name or "
+"''\">INV/2021/05/0005</span>\n"
+>>>>>>> upstream/18.0
 =======
 "            invoice <span style=\"font-weight:bold;\" t-out=\"object.name or "
 "''\">INV/2021/05/0005</span>\n"
@@ -17005,10 +17135,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            (with reference: <t t-out=\"object.invoice_origin or ''\">SUB003</t>)\n"
 "        </t>\n"
 "        amounting in <span style=\"font-weight:bold;\" t-out=\"format_amount(object.amount_total, object.currency_id) or ''\">$ 143,750.00</span>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -17354,6 +17487,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17703,10 +17839,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                Please use the following communication for your payment: <strong t-out=\"object.payment_reference or ''\">INV/2021/05/0005</strong>\n"
 "                <t t-if=\"object.partner_bank_id\">\n"
 "                    on the account <strong t-out=\"object.partner_bank_id.acc_number\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -18051,6 +18190,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18396,6 +18538,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <t t-if=\"hasattr(object, 'timesheet_count') and object.timesheet_count\">\n"
 "            <br/><br/>\n"
 "            PS: you can review your timesheets <a t-att-href=\"'/my/timesheets?search_in=invoice&amp;search=%s' % object.name\">from the portal.</a>\n"
@@ -18406,6 +18549,8 @@ msgid ""
 "            <br/><br/>\n"
 "            <t t-out=\"object.invoice_user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -18759,6 +18904,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18995,6 +19143,7 @@ msgstr ""
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "        Estimado/a\n"
 "        <t t-if=\"object.partner_id.parent_id\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19566,6 +19715,10 @@ msgstr ""
 "            <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t> "
 "(<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>):\n"
 >>>>>>> upstream/18.0
+=======
+"            <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t> "
+"(<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>):\n"
+>>>>>>> upstream/18.0
 "        </t>\n"
 "        <t t-else=\"\">\n"
 "            <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>,\n"
@@ -19687,7 +19840,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            factura <span style=\"font-weight:bold;\" t-out=\"object.name or ''\">INV/2021/05/0005</span>\n"
+=======
+"            factura <span style=\"font-weight:bold;\" t-out=\"object.name or "
+"''\">INV/2021/05/0005</span>\n"
+>>>>>>> upstream/18.0
 =======
 "            factura <span style=\"font-weight:bold;\" t-out=\"object.name or "
 "''\">INV/2021/05/0005</span>\n"
@@ -20263,6 +20421,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            (con referencia: <t t-out=\"object.invoice_origin or ''\">SUB003</t>)\n"
 "        </t>\n"
 "        con un importe total de <span style=\"font-weight:bold;\" t-out=\"format_amount(object.amount_total, object.currency_id) or ''\">143 750,00 €</span>\n"
@@ -20280,6 +20439,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -20619,6 +20780,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -20850,6 +21014,7 @@ msgstr ""
 "             Realice su pago lo más pronto posible.\n"
 "            <t t-if=\"object.payment_reference\">\n"
 "                <br/><br/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -21202,6 +21367,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                Utilice la siguiente referencia para realizar su pago: "
 "<strong t-out=\"object.payment_reference or ''\">INV/2021/05/0005</strong>\n"
 "                <t t-if=\"object.partner_bank_id\">\n"
@@ -21318,6 +21485,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -21545,6 +21715,7 @@ msgstr ""
 "                .\n"
 "            </t>\n"
 "        </t>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -21912,6 +22083,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "        <t t-if=\"hasattr(object, 'timesheet_count') and "
 "object.timesheet_count\">\n"
 "            <br/><br/>\n"
@@ -22037,6 +22210,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -22384,11 +22560,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Dear <t t-out=\"object.partner_id.name or ''\">Azure Interior</t><br/><br/>\n"
 "        Thank you for your payment.\n"
 "        Here is your payment receipt <span style=\"font-weight:bold;\" t-out=\"(object.name or '').replace('/','-') or ''\">BNK1-2021-05-0002</span> amounting\n"
 "        to <span style=\"font-weight:bold;\" t-out=\"format_amount(object.amount, object.currency_id) or ''\">$ 10.00</span> from <t t-out=\"object.company_id.name or ''\">YourCompany</t>.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -22737,6 +22916,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -23082,10 +23264,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <t t-if=\"not is_html_empty(user.signature)\" data-o-mail-quote-container=\"1\">\n"
 "            <br/><br/>\n"
 "            <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -23430,6 +23615,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -23663,6 +23851,7 @@ msgid ""
 msgstr ""
 "<div style=\"margin: 0px; padding: 0px;\">\n"
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -24020,6 +24209,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "        Estimado/a <t t-out=\"object.partner_id.name or ''\">Azure Interior</"
 "t>:<br/><br/>\n"
 "        Gracias por su pago.\n"
@@ -24140,6 +24331,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -24367,6 +24561,7 @@ msgstr ""
 "        No dude en contactarnos si tiene alguna pregunta.\n"
 "        <br/><br/>\n"
 "        Saludos,\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -24711,6 +24906,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "        <t t-if=\"not is_html_empty(user.signature)\" data-o-mail-quote-"
 "container=\"1\">\n"
 "            <br/><br/>\n"
@@ -24829,6 +25026,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -25067,6 +25267,7 @@ msgstr "<em>Borrador de factura </em>"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_move_kanban
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -25420,6 +25621,8 @@ msgstr "<i class=\"fa fa-clock-o\" aria-label=\"Date\" role=\"img\" title=\"Date
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "<i class=\"fa fa-clock-o fw-bold\" aria-label=\"Date\" role=\"img\" "
 "title=\"Date\"/>"
@@ -25555,6 +25758,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -25905,12 +26111,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<i class=\"fa fa-fw fa-check\" aria-label=\"Paid\" title=\"Paid\" role=\"img\"/>\n"
 "                                    <span class=\"d-none d-md-inline\"> Paid</span>"
 msgstr ""
 "<i class=\"fa fa-fw fa-check\" aria-label=\"Paid\" title=\"Paid\" role=\"img\"/>\n"
 "                                    <span class=\"d-none d-md-inline\"> Pagado </span>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -26259,6 +26468,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -26604,12 +26816,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<i class=\"fa fa-fw fa-check\" aria-label=\"Reversed\" title=\"Reversed\" role=\"img\"/>\n"
 "                                    <span class=\"d-none d-md-inline\"> Reversed</span>"
 msgstr ""
 "<i class=\"fa fa-fw fa-check\" aria-label=\"Reversed\" title=\"Reversed\" role=\"img\"/>\n"
 "                                    <span class=\"d-none d-md-inline\"> Revertido</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -26958,6 +27173,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -27303,12 +27521,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<i class=\"fa fa-fw fa-check\" aria-label=\"processing_payment\" title=\"Processing Payment\" role=\"img\"/>\n"
 "                                    <span class=\"d-none d-md-inline\"> Processing Payment</span>"
 msgstr ""
 "<i class=\"fa fa-fw fa-check\" aria-label=\"processing_payment\" title=\"Processing Payment\" role=\"img\"/>\n"
 "                                    <span class=\"d-none d-md-inline\"> Procesando pago</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -27657,6 +27878,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -28002,12 +28226,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<i class=\"fa fa-fw fa-clock-o\" aria-label=\"Opened\" title=\"Opened\" role=\"img\"/>\n"
 "                                    <span class=\"d-none d-md-inline\"> Waiting for Payment</span>"
 msgstr ""
 "<i class=\"fa fa-fw fa-clock-o\" aria-label=\"Opened\" title=\"Opened\" role=\"img\"/>\n"
 "                                    <span class=\"d-none d-md-inline\"> En espera del pago</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -28356,6 +28583,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -28702,6 +28932,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        Don't worry, you can always change this setting later on the vendor's form.\n"
 "                        You also have the option to disable the feature for all vendors in the accounting settings."
 msgstr ""
@@ -28709,6 +28940,8 @@ msgstr ""
 "                        No se preocupe, podrá cambiar esta configuración después en el formulario del proveedor.\n"
 "                        También puede desactivar la función para todos los proveedores en los ajustes de Contabilidad."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -29058,6 +29291,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -29312,6 +29548,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account.portal_my_details_fields
 msgid ""
 "<small class=\"form-text text-muted\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -29735,6 +29972,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                        You can choose how you want us to send your "
 "invoices, and with which electronic format.\n"
 "                    </small>"
@@ -29828,6 +30067,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -29966,6 +30206,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -30030,6 +30272,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -30190,6 +30435,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                    <i class=\"fa fa-fw fa-remove\" aria-label=\"Cancelled\" title=\"Cancelled\" role=\"img\"/>\n"
 "                                    <span class=\"d-none d-md-inline\"> Cancelled</span>\n"
 "                                </span>"
@@ -30198,6 +30444,8 @@ msgstr ""
 "                                    <i class=\"fa fa-fw fa-remove\" aria-label=\"Cancelled\" title=\"Cancelled\" role=\"img\"/>\n"
 "                                    <span class=\"d-none d-md-inline\"> Cancelado</span>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -30548,6 +30796,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -30895,6 +31146,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            <span invisible=\"allow_out_payment\" class=\"text-muted\">Untrusted</span>\n"
 "                            <span invisible=\"not allow_out_payment\" class=\"text-success\">Trusted</span>\n"
 "                        </span>"
@@ -30903,6 +31155,8 @@ msgstr ""
 "                            <span invisible=\"allow_out_payment\" class=\"text-muted\">No confiable</span>\n"
 "                            <span invisible=\"not allow_out_payment\" class=\"text-success\">Confiable</span>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -31253,6 +31507,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -31488,6 +31745,7 @@ msgid ""
 "<span class=\"figure-caption\">Never miss a deadline, with automated "
 "statements and alerts.</span>"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -32060,10 +32318,15 @@ msgstr ""
 "<span class=\"figure-caption\">Nunca perderá un plazo con nuestros estados y "
 "alertas automatizadas</span>"
 >>>>>>> upstream/18.0
+=======
+"<span class=\"figure-caption\">Nunca perderá un plazo con nuestros estados y "
+"alertas automatizadas</span>"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -32427,6 +32690,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "<span class=\"o_form_label mx-3 oe_edit_only text-center\" style=\"width: "
 "6ch;\" invisible=\"state != 'draft' or invoice_payment_term_id\">or</span>"
 msgstr ""
@@ -32545,6 +32810,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -32908,10 +33176,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span class=\"o_form_label\" invisible=\"match_amount != "
 "'between'\">and</span>"
 msgstr "<span class=\"o_form_label\" invisible=\"match_amount != 'between'\">y</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -33255,6 +33526,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -33683,7 +33957,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                <i>(incluido) para que no puedan modificarse</i>\n"
+=======
+"                                <i>(incluido) para que no puedan "
+"modificarse</i>\n"
+>>>>>>> upstream/18.0
 =======
 "                                <i>(incluido) para que no puedan "
 "modificarse</i>\n"
@@ -34270,12 +34549,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span class=\"text-nowrap\">$ <span "
 "class=\"oe_currency_value\">11,750.00</span></span>"
 msgstr ""
 "<span class=\"text-nowrap\"><span "
 "class=\"oe_currency_value\">11.750,00</span> €</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -34620,6 +34902,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -34851,6 +35136,7 @@ msgstr ""
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.bill_preview
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -35197,6 +35483,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "<span class=\"text-nowrap\">$ <span class=\"oe_currency_value\">19,250.00</"
 "span></span>"
 msgstr ""
@@ -35315,6 +35603,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -35546,6 +35837,7 @@ msgstr ""
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.bill_preview
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -35892,6 +36184,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "<span class=\"text-nowrap\">$ <span class=\"oe_currency_value\">7,500.00</"
 "span></span>"
 msgstr ""
@@ -36010,6 +36304,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -36372,8 +36669,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span invisible=\"name or name_placeholder or "
 "quick_edit_mode\">Borrador</span>"
+=======
+"<span invisible=\"name or name_placeholder or quick_edit_mode\">Borrador</"
+"span>"
+>>>>>>> upstream/18.0
 =======
 "<span invisible=\"name or name_placeholder or quick_edit_mode\">Borrador</"
 "span>"
@@ -36964,11 +37266,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                        <span invisible=\"reconciled_invoices_type == 'invoice'\"> Credit Note</span>"
 msgstr ""
 "<span invisible=\"reconciled_invoices_type != 'invoice'\"> Factura</span>\n"
 "                                        <span invisible=\"reconciled_invoices_type == 'invoice'\"> Factura rectificativa</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -37315,6 +37620,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -37698,11 +38006,14 @@ msgstr "<span> (Débito)</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 msgid "<span> = </span>"
 msgstr "<span> = </span>"
 
 #. module: account
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -38080,11 +38391,16 @@ msgstr "<span><span class=\"oe_currency_value\">19.250,00</span> €</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<span>1 </span>"
 msgstr "<span>1 </span>"
 =======
 msgid "<span>1</span>"
 msgstr ""
+>>>>>>> upstream/18.0
+=======
+msgid "<span>1</span>"
+msgstr "<span>1</span>"
 >>>>>>> upstream/18.0
 =======
 msgid "<span>1</span>"
@@ -38666,6 +38982,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span><b>¡Buen trabajo!</b> Pasó por todos los pasos de este "
 "recorrido.</span>"
 
@@ -38679,6 +38996,8 @@ msgstr ""
 #. module: account
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -39027,6 +39346,9 @@ msgstr "<span>=</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -39302,6 +39624,7 @@ msgid "<span>New</span>"
 msgstr "<span>Nuevo</span>"
 
 #. module: account
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -39724,6 +40047,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:account.view_partner_property_form
 msgid ""
 "<span>One or more Bank Accounts set on this partner are also used by others:"
@@ -39842,6 +40167,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -40196,6 +40524,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -40602,6 +40933,7 @@ msgstr "<span>Impuestos</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -40620,6 +40952,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -40994,6 +41328,9 @@ msgstr "<span>La cuenta bancaria podría ser un duplicado de</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -41361,8 +41698,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "antes de instalar *Contabilidad*. Su saldo se ha importado por "
 "separado.</span>"
+=======
+"antes de instalar *Contabilidad*. Su saldo se ha importado por separado.</"
+"span>"
+>>>>>>> upstream/18.0
 =======
 "antes de instalar *Contabilidad*. Su saldo se ha importado por separado.</"
 "span>"
@@ -41944,8 +42286,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span>Este pago tiene el mismo contacto, la misma cantidad y fecha que "
 "</span>"
+=======
+"<span>Este pago tiene el mismo contacto, la misma cantidad y fecha que </"
+"span>"
+>>>>>>> upstream/18.0
 =======
 "<span>Este pago tiene el mismo contacto, la misma cantidad y fecha que </"
 "span>"
@@ -42584,6 +42931,7 @@ msgstr "<span>Advertencia: este documento podría ser un duplicado de</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -42602,6 +42950,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -43084,6 +43434,9 @@ msgstr "<strong class=\"d-block mt-3\">Dirección de envío</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -43631,11 +43984,14 @@ msgstr "<strong>Referencia</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<strong>Shipping Address</strong>"
 msgstr "<strong>Dirección de envío</strong>"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -44092,12 +44448,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<strong>This currency has already been used to generate accounting entries.</strong> <br/>\n"
 "                        Changing its rounding factor now will not change the rounding made on previous entries; possibly causing an inconsistency with the new ones."
 msgstr ""
 "<strong>Esta moneda ya se ha utilizado para generar asientos contables..</strong> <br/>\n"
 "                        Cambiar su factor de redondeo ahora no cambiará el redondeo realizado en entradas anteriores; posiblemente causando una inconsistencia con los nuevos."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -44448,6 +44807,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -44869,7 +45231,10 @@ msgstr "<strong>Tipo: </strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -45399,6 +45764,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #. module: account
 <<<<<<< HEAD
@@ -45442,6 +45808,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -45941,6 +46309,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -46395,12 +46766,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                journals. This feature provides an easy way to follow up cash\n"
 "                payments on a daily basis."
 msgstr ""
 "Una caja registradora le permite gestionar asientos de caja en sus diarios\n"
 "                de caja. Esta función le proporciona una forma sencilla de llevar el seguimiento de pagos\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -46747,6 +47121,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -46997,6 +47374,7 @@ msgid "A bank account can belong to only one journal."
 msgstr "Una cuenta bancaria sólo puede pertenecer a un diario."
 
 #. module: account
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -47738,6 +48116,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/account/models/res_partner_bank.py:0
 msgid ""
@@ -47857,6 +48237,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -48088,6 +48471,7 @@ msgstr ""
 "contacto %(partner)s, pero está archivada. Desarchívela."
 
 #. module: account
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -48609,6 +48993,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.actions.act_window,help:account.action_bank_statement_tree
 msgid ""
 "A bank statement is a summary of all financial transactions\n"
@@ -48733,6 +49119,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -49080,7 +49469,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                occurring over a given period of time on a credit account. You\n"
+=======
+"                occurring over a given period of time on a credit account. "
+"You\n"
+>>>>>>> upstream/18.0
 =======
 "                occurring over a given period of time on a credit account. "
 "You\n"
@@ -49719,8 +50113,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Una tolerancia de pago definida como porcentaje debe estar siempre entre 0 y"
 " 100"
+=======
+"Una tolerancia de pago definida como porcentaje debe estar siempre entre 0 y "
+"100"
+>>>>>>> upstream/18.0
 =======
 "Una tolerancia de pago definida como porcentaje debe estar siempre entre 0 y "
 "100"
@@ -50295,8 +50694,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "A payment tolerance defined as an amount should always be higher than 0"
+=======
+msgid "A payment tolerance defined as an amount should always be higher than 0"
+>>>>>>> upstream/18.0
 =======
 msgid "A payment tolerance defined as an amount should always be higher than 0"
 >>>>>>> upstream/18.0
@@ -50782,8 +51185,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Se aconseja un redondeo por línea si sus precios tienen impuestos incluidos."
 " De esta manera, la suma de subtotales de las línea es igual al total con "
+=======
+"Se aconseja un redondeo por línea si sus precios tienen impuestos incluidos. "
+"De esta manera, la suma de subtotales de las línea es igual al total con "
+>>>>>>> upstream/18.0
 =======
 "Se aconseja un redondeo por línea si sus precios tienen impuestos incluidos. "
 "De esta manera, la suma de subtotales de las línea es igual al total con "
@@ -51473,8 +51881,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Account %s cannot be unmerged as it already belongs to a single company. The"
 " unmerge operation only splits an account based on its companies."
+=======
+"Account %s cannot be unmerged as it already belongs to a single company. The "
+"unmerge operation only splits an account based on its companies."
+>>>>>>> upstream/18.0
 =======
 "Account %s cannot be unmerged as it already belongs to a single company. The "
 "unmerge operation only splits an account based on its companies."
@@ -52073,8 +52486,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "La cuenta %s es de tipo por cobrar, pero se está utilizando en una operación"
 " de compra."
+=======
+"La cuenta %s es de tipo por cobrar, pero se está utilizando en una operación "
+"de compra."
+>>>>>>> upstream/18.0
 =======
 "La cuenta %s es de tipo por cobrar, pero se está utilizando en una operación "
 "de compra."
@@ -52564,7 +52982,10 @@ msgstr "Plantilla de plan contable"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -52618,6 +53039,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #. module: account
 <<<<<<< HEAD
@@ -52661,6 +53083,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -52683,6 +53107,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -52846,8 +53273,12 @@ msgid "Account Groups with the same granularity can't overlap"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Los grupos de cuentas con la misma granularidad no pueden superponerse"
+=======
+msgstr "Los grupos de cuentas con la misma granularidad no pueden superponerse"
+>>>>>>> upstream/18.0
 =======
 msgstr "Los grupos de cuentas con la misma granularidad no pueden superponerse"
 >>>>>>> upstream/18.0
@@ -53476,8 +53907,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "legal reports, and set the rules to close a fiscal year and generate opening"
 " entries."
+=======
+"legal reports, and set the rules to close a fiscal year and generate opening "
+"entries."
+>>>>>>> upstream/18.0
 =======
 "legal reports, and set the rules to close a fiscal year and generate opening "
 "entries."
@@ -54067,8 +54503,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Account codes must be unique. You can't create accounts with these duplicate"
 " codes: %s"
+=======
+"Account codes must be unique. You can't create accounts with these duplicate "
+"codes: %s"
+>>>>>>> upstream/18.0
 =======
 "Account codes must be unique. You can't create accounts with these duplicate "
 "codes: %s"
@@ -54646,8 +55087,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Account for the difference amount after the expense discount has been "
 "granted"
+=======
+"Account for the difference amount after the expense discount has been granted"
+>>>>>>> upstream/18.0
 =======
 "Account for the difference amount after the expense discount has been granted"
 >>>>>>> upstream/18.0
@@ -55142,9 +55587,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Cuenta que se establecerá en las líneas de asientos contables en el diario "
 "del criterio de caja y que se utilizarán para llevar un seguimiento del "
 "importe del impuesto base imponible."
+=======
+"Cuenta que se asignará a las líneas creadas en el asiento del diario en base "
+"de efectivo y que se utilizará para llevar un seguimiento de la base "
+"imponible del impuesto."
+>>>>>>> upstream/18.0
 =======
 "Cuenta que se asignará a las líneas creadas en el asiento del diario en base "
 "de efectivo y que se utilizará para llevar un seguimiento de la base "
@@ -55691,8 +56142,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Account: Post draft entries with auto_post enabled and accounting date up to"
 " today"
+=======
+"Account: Post draft entries with auto_post enabled and accounting date up to "
+"today"
+>>>>>>> upstream/18.0
 =======
 "Account: Post draft entries with auto_post enabled and accounting date up to "
 "today"
@@ -56390,6 +56846,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Accrual entry created on %(date)s: %(accrual_entry)s.                    And"
 " its reverse entry: %(reverse_entry)s."
 msgstr ""
@@ -56945,6 +57402,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Accrual entry created on %(date)s: %(accrual_entry)s.                And its "
 "reverse entry: %(reverse_entry)s."
 msgstr ""
@@ -56956,6 +57415,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -57234,8 +57696,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Add a QR-code to your invoices so that your customers can pay instantly with"
 " their mobile banking application."
+=======
+"Add a QR-code to your invoices so that your customers can pay instantly with "
+"their mobile banking application."
+>>>>>>> upstream/18.0
 =======
 "Add a QR-code to your invoices so that your customers can pay instantly with "
 "their mobile banking application."
@@ -57874,8 +58341,12 @@ msgstr "Añadir contactos a notificar..."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Add your terms & conditions at the bottom of invoices/orders/quotations"
+=======
+msgid "Add your terms & conditions at the bottom of invoices/orders/quotations"
+>>>>>>> upstream/18.0
 =======
 msgid "Add your terms & conditions at the bottom of invoices/orders/quotations"
 >>>>>>> upstream/18.0
@@ -58368,8 +58839,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Adjusting Entry {link} {percent}%% of {amount} recognized on {new_date}"
+=======
+msgid "Adjusting Entry {link} {percent}%% of {amount} recognized on {new_date}"
+>>>>>>> upstream/18.0
 =======
 msgid "Adjusting Entry {link} {percent}%% of {amount} recognized on {new_date}"
 >>>>>>> upstream/18.0
@@ -58928,8 +59403,12 @@ msgid "All our contractual relations will be governed exclusively by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Todas las relaciones contractuales serán gobernadas exclusivamente por"
+=======
+msgstr "Todas las relaciones contractuales serán gobernadas exclusivamente por"
+>>>>>>> upstream/18.0
 =======
 msgstr "Todas las relaciones contractuales serán gobernadas exclusivamente por"
 >>>>>>> upstream/18.0
@@ -59408,8 +59887,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Todas las líneas de extractos bancarios que no están conciliados antes de la"
 " fecha seleccionada."
+=======
+"Todas las líneas de extractos bancarios que no están conciliados antes de la "
+"fecha seleccionada."
+>>>>>>> upstream/18.0
 =======
 "Todas las líneas de extractos bancarios que no están conciliados antes de la "
 "fecha seleccionada."
@@ -60200,8 +60684,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Solo se puede definir una posición fiscal cada vez en la misma cuenta."
+=======
+msgstr "Solo se puede definir una posición fiscal cada vez en la misma cuenta."
+>>>>>>> upstream/18.0
 =======
 msgstr "Solo se puede definir una posición fiscal cada vez en la misma cuenta."
 >>>>>>> upstream/18.0
@@ -60664,6 +61152,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                Companies present their annual accounts in two main parts: the\n"
 "                balance sheet and the income statement (profit and loss\n"
 "                account). The annual accounts of a company are required by law\n"
@@ -60673,6 +61162,8 @@ msgstr ""
 "                a su compañía registrar todo tipo de transacciones de débito y crédito.\n"
 "                Las compañías presentan sus cuentas anuales principalmente en dos partes:\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -61024,6 +61515,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -61385,6 +61879,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "An error has occurred."
 msgstr "Ocurrió un error."
 
@@ -61420,6 +61915,11 @@ msgstr "Ocurrió un error."
 msgid ""
 "An error occurred when computing the inalterability. A gap has been detected"
 " in the sequence."
+=======
+msgid ""
+"An error occurred when computing the inalterability. A gap has been detected "
+"in the sequence."
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "An error occurred when computing the inalterability. A gap has been detected "
@@ -62225,8 +62725,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "acuerdo con la secuencia de su diario. Esta fecha de bloqueo es irreversible"
 " y no permite realizar ninguna excepción."
+=======
+"acuerdo con la secuencia de su diario. Esta fecha de bloqueo es irreversible "
+"y no permite realizar ninguna excepción."
+>>>>>>> upstream/18.0
 =======
 "acuerdo con la secuencia de su diario. Esta fecha de bloqueo es irreversible "
 "y no permite realizar ninguna excepción."
@@ -62832,8 +63337,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Any journal item on a receivable account must have a due date and vice "
 "versa."
+=======
+"Any journal item on a receivable account must have a due date and vice versa."
+>>>>>>> upstream/18.0
 =======
 "Any journal item on a receivable account must have a due date and vice versa."
 >>>>>>> upstream/18.0
@@ -63372,6 +63881,7 @@ msgstr "Archivos adjuntos"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -63492,6 +64002,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:account.field_account_move_send_wizard__attachments_not_supported
 msgid "Attachments Not Supported"
 msgstr "Adjuntos no compatibles"
@@ -63503,6 +64015,9 @@ msgstr "Adjuntos no compatibles"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -63735,7 +64250,11 @@ msgid "Back to Bill"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Regresar a la factura"
+=======
+msgstr "Volver a la factura"
+>>>>>>> upstream/18.0
 =======
 msgstr "Volver a la factura"
 >>>>>>> upstream/18.0
@@ -63853,7 +64372,11 @@ msgid "Back to Invoice"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Regresar a la factura"
+=======
+msgstr "Volver a la factura"
+>>>>>>> upstream/18.0
 =======
 msgstr "Volver a la factura"
 >>>>>>> upstream/18.0
@@ -64003,6 +64526,7 @@ msgstr "Cuenta bancaria"
 #. module: account
 #. odoo-python
 #: code:addons/account/models/res_partner_bank.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -64905,6 +65429,10 @@ msgstr "Se ha archivado la cuenta bancaria %(link)s con el número %(number)s"
 msgid "Bank Account %(link)s with number %(number)s archived"
 msgstr "Se ha archivado la cuenta bancaria %(link)s con el número %(number)s"
 >>>>>>> upstream/18.0
+=======
+msgid "Bank Account %(link)s with number %(number)s archived"
+msgstr "Se ha archivado la cuenta bancaria %(link)s con el número %(number)s"
+>>>>>>> upstream/18.0
 
 #. module: account
 #. odoo-python
@@ -65052,9 +65580,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Número de cuenta bancaria a la que se pagará la factura. Una cuenta bancaria"
 " de la empresa si esta es una factura de cliente o una factura rectificativa"
 " de proveedor, de lo contrario se usará el número de cuenta bancaria del "
+=======
+"Número de cuenta bancaria a la que se pagará la factura. Una cuenta bancaria "
+"de la empresa si esta es una factura de cliente o una factura rectificativa "
+"de proveedor, de lo contrario se usará el número de cuenta bancaria del "
+>>>>>>> upstream/18.0
 =======
 "Número de cuenta bancaria a la que se pagará la factura. Una cuenta bancaria "
 "de la empresa si esta es una factura de cliente o una factura rectificativa "
@@ -65836,11 +66370,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Bank Transactions are posted immediately after import or synchronization. Their counterparty is the bank suspense account.\n"
 "Reconciliation replaces the latter by the definitive account(s)."
 msgstr ""
 "Las transacciones bancarias se contabilizan inmediatamente después de la importación o sincronización. Su contrapartida es la cuenta bancaria transitoria.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -66187,6 +66724,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -66625,11 +67165,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Based on Payment: the tax is due as soon as the payment of the invoice is received."
 msgstr ""
 "Basado en la factura: el impuesto vence tan pronto como la factura sea validada.\n"
 "Basado en el pago: el impuesto vence tan pronto como se reciba el pago de la factura."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -66976,6 +67519,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -67301,7 +67847,10 @@ msgstr "Pagos por lotes"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -67453,6 +68002,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"El envío de facturas por lotes o en masa no está disponible. Por favor, "
+"activa la tarea programada para habilitar el envío masivo de facturas."
+>>>>>>> upstream/18.0
 =======
 "El envío de facturas por lotes o en masa no está disponible. Por favor, "
 "activa la tarea programada para habilitar el envío masivo de facturas."
@@ -67496,6 +68050,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #. module: account
 <<<<<<< HEAD
@@ -67686,6 +68241,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -67709,6 +68266,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -67786,6 +68346,7 @@ msgstr "Referencia de factura"
 #: model_terms:ir.ui.view,arch_db:account.view_account_bill_filter
 #: model_terms:ir.ui.view,arch_db:account.view_account_move_line_payment_filter
 msgid "Bills"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -68519,6 +69080,9 @@ msgstr "Facturas de proveedores"
 =======
 msgstr "Facturas de proveedores"
 >>>>>>> upstream/18.0
+=======
+msgstr "Facturas de proveedores"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
@@ -68728,8 +69292,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "encuentra seleccionado, la línea no se desplegará por defecto y aparecerá un"
 " botón de plegado."
+=======
+"encuentra seleccionado, la línea no se desplegará por defecto y aparecerá un "
+"botón de plegado."
+>>>>>>> upstream/18.0
 =======
 "encuentra seleccionado, la línea no se desplegará por defecto y aparecerá un "
 "botón de plegado."
@@ -69541,6 +70110,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -69585,6 +70155,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -70104,6 +70676,9 @@ msgstr "No es posible identificar facturas en el archivo PDF generado: %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -70753,8 +71328,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "origen será pagada por el cliente a las autoridades fiscales. En ningún caso"
 " puede"
+=======
+"origen será pagada por el cliente a las autoridades fiscales. En ningún caso "
+"puede"
+>>>>>>> upstream/18.0
 =======
 "origen será pagada por el cliente a las autoridades fiscales. En ningún caso "
 "puede"
@@ -71369,6 +71949,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Changing your company name is not allowed once invoices have been issued for"
 " your account. Please contact us directly for this operation."
 msgstr ""
@@ -71376,6 +71957,8 @@ msgstr ""
 " facturas para su cuenta. Por favor, contáctenos para realizar esta "
 "operación."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -71720,6 +72303,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -72137,8 +72723,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Check this box if you don't want to share the same sequence for invoices and"
 " credit notes made from this journal"
+=======
+"Check this box if you don't want to share the same sequence for invoices and "
+"credit notes made from this journal"
+>>>>>>> upstream/18.0
 =======
 "Check this box if you don't want to share the same sequence for invoices and "
 "credit notes made from this journal"
@@ -72768,6 +73359,10 @@ msgstr "Cerrar"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:account.field_account_payment_register__payment_method_code
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:account.field_account_payment_register__payment_method_code
 >>>>>>> upstream/18.0
@@ -73157,8 +73752,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Recolecte información y produzca estadísticas de la negociación de bienes en"
 " Europa con intrastat."
+=======
+"Recolecte información y produzca estadísticas de la negociación de bienes en "
+"Europa con intrastat."
+>>>>>>> upstream/18.0
 =======
 "Recolecte información y produzca estadísticas de la negociación de bienes en "
 "Europa con intrastat."
@@ -73848,6 +74448,7 @@ msgstr "Entidad comercial"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -73886,6 +74487,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -74473,6 +75076,9 @@ msgstr "País del socio comercial"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -75238,8 +75844,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "La conversión entre las unidades de medidas sólo puede ocurrir si pertenecen"
 " a la misma categoría. La conversión se basará en las índices establecidos."
+=======
+"La conversión entre las unidades de medidas sólo puede ocurrir si pertenecen "
+"a la misma categoría. La conversión se basará en las índices establecidos."
+>>>>>>> upstream/18.0
 =======
 "La conversión entre las unidades de medidas sólo puede ocurrir si pertenecen "
 "a la misma categoría. La conversión se basará en las índices establecidos."
@@ -75826,7 +76437,11 @@ msgid "Cost of Goods Sold"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Costo de bienes vendidos"
+=======
+msgstr "Coste de bienes vendidos"
+>>>>>>> upstream/18.0
 =======
 msgstr "Coste de bienes vendidos"
 >>>>>>> upstream/18.0
@@ -76433,6 +77048,11 @@ msgstr "Crear asientos automáticos"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/account/models/chart_template.py:0
+>>>>>>> upstream/18.0
 =======
 #. odoo-python
 #: code:addons/account/models/chart_template.py:0
@@ -77242,8 +77862,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Cree un informe estructurado con varias secciones para una navegación cómoda"
 " y una impresión simultánea."
+=======
+"Cree un informe estructurado con varias secciones para una navegación cómoda "
+"y una impresión simultánea."
+>>>>>>> upstream/18.0
 =======
 "Cree un informe estructurado con varias secciones para una navegación cómoda "
 "y una impresión simultánea."
@@ -77829,12 +78454,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Create as many ledger groups as needed to maintain separate ledgers for local GAAP, IFRS, or fiscal\n"
 "                    adjustments, ensuring compliance with diverse regulations."
 msgstr ""
 "Cree tantos grupos de libros mayores como sean necesarios para contar con distintos libros para normas locales GAAF, IFRS \n"
 "                    o fiscales, asegurando el cumplimiento con varias regulaciones."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -78183,6 +78811,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -78804,8 +79435,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Saldo acumulado en función del dominio y el orden elegido en la vista."
+=======
+msgstr "Saldo acumulado en función del dominio y el orden elegido en la vista."
+>>>>>>> upstream/18.0
 =======
 msgstr "Saldo acumulado en función del dominio y el orden elegido en la vista."
 >>>>>>> upstream/18.0
@@ -79631,8 +80266,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Fecha a partir de la cual se administra la contabilidad en Odoo. Es la fecha"
 " del asiento de apertura."
+=======
+"Fecha a partir de la cual se administra la contabilidad en Odoo. Es la fecha "
+"del asiento de apertura."
+>>>>>>> upstream/18.0
 =======
 "Fecha a partir de la cual se administra la contabilidad en Odoo. Es la fecha "
 "del asiento de apertura."
@@ -80410,7 +81050,10 @@ msgstr "Impuestos por defecto usados cuando se vende el producto"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -80574,6 +81217,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #. module: account
 <<<<<<< HEAD
@@ -80785,6 +81429,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -80807,6 +81453,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -80944,8 +81593,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Define en qué diarios se puede utilizar esta cuenta. Si está vacío, se puede"
 " utilizar en todos los diarios."
+=======
+"Define en qué diarios se puede utilizar esta cuenta. Si está vacío, se puede "
+"utilizar en todos los diarios."
+>>>>>>> upstream/18.0
 =======
 "Define en qué diarios se puede utilizar esta cuenta. Si está vacío, se puede "
 "utilizar en todos los diarios."
@@ -81521,8 +82175,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Defina la unidad monetaria más pequeña de la moneda que se utilizará para el"
 " pago."
+=======
+"Defina la unidad monetaria más pequeña de la moneda que se utilizará para el "
+"pago."
+>>>>>>> upstream/18.0
 =======
 "Defina la unidad monetaria más pequeña de la moneda que se utilizará para el "
 "pago."
@@ -82125,8 +82784,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Defines the smallest coinage of the currency that can be used to pay by "
 "cash."
+=======
+"Defines the smallest coinage of the currency that can be used to pay by cash."
+>>>>>>> upstream/18.0
 =======
 "Defines the smallest coinage of the currency that can be used to pay by cash."
 >>>>>>> upstream/18.0
@@ -82664,12 +83327,15 @@ msgstr "Descripción"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Description on invoice (e.g. Payment terms: 30 days after invoice date)"
 msgstr ""
 "Descripción en la factura (por ejemplo, Términos de pago: 30 días después de"
 " la fecha de factura)"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -83013,6 +83679,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -83458,6 +84127,7 @@ msgstr "Mostrar importe"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -83578,6 +84248,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:account.field_account_move_send_wizard__display_attachments_widget
 msgid "Display Attachments Widget"
 msgstr "Mostrar widget de adjuntos"
@@ -83589,6 +84261,9 @@ msgstr "Mostrar widget de adjuntos"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -83800,7 +84475,11 @@ msgid "Display Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nombre mostrado"
+=======
+msgstr "Nombre para mostrar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nombre para mostrar"
 >>>>>>> upstream/18.0
@@ -84564,7 +85243,10 @@ msgstr "Términos de vencimiento"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -84946,6 +85628,7 @@ msgid "Duplicate Bank Partner"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: account
@@ -84955,6 +85638,11 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr "Duplicar contacto de banco"
+
+#. module: account
 >>>>>>> upstream/18.0
 =======
 msgstr "Duplicar contacto de banco"
@@ -85807,8 +86495,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Descuento por pago anticipado: <b>%(amount)s</b> si se paga antes del "
 "<b>%(date)s</b>"
+=======
+"Descuento por pago anticipado: <b>%(amount)s</b> si se paga antes del <b>%"
+"(date)s</b>"
+>>>>>>> upstream/18.0
 =======
 "Descuento por pago anticipado: <b>%(amount)s</b> si se paga antes del <b>%"
 "(date)s</b>"
@@ -86582,8 +87275,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Error al importar el archivo adjunto  '%(file_name)s' como factura "
 "(decoder=%(decoder)s)"
+=======
+"Error al importar el archivo adjunto  '%(file_name)s' como factura (decoder=%"
+"(decoder)s)"
+>>>>>>> upstream/18.0
 =======
 "Error al importar el archivo adjunto  '%(file_name)s' como factura (decoder=%"
 "(decoder)s)"
@@ -87163,8 +87861,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Se ha producido un error al cargar la localización: falta la etiqueta "
 "%(tag_name)s del impuesto de %(country_name)s. Es probable que primero deba "
+=======
+"Se ha producido un error al cargar la localización: falta la etiqueta %"
+"(tag_name)s del impuesto de %(country_name)s. Es probable que primero deba "
+>>>>>>> upstream/18.0
 =======
 "Se ha producido un error al cargar la localización: falta la etiqueta %"
 "(tag_name)s del impuesto de %(country_name)s. Es probable que primero deba "
@@ -87814,6 +88517,7 @@ msgstr "Diarios excluidos"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #: model:ir.model.fields,field_description:account.field_account_bank_statement_line__expected_currency_rate
 #: model:ir.model.fields,field_description:account.field_account_move__expected_currency_rate
@@ -87823,6 +88527,8 @@ msgstr ""
 #. module: account
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -88168,6 +88874,9 @@ msgstr "Tipo de cambio previsto"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -88562,8 +89271,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Todas las expresiones que usan el motor 'dominio' deben tener una "
 "subfórmula."
+=======
+"Todas las expresiones que usan el motor 'dominio' deben tener una subfórmula."
+>>>>>>> upstream/18.0
 =======
 "Todas las expresiones que usan el motor 'dominio' deben tener una subfórmula."
 >>>>>>> upstream/18.0
@@ -89078,8 +89791,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Factor a aplicar en las líneas de movimiento de cuenta generadas a partir de"
 " esta línea de distribución"
+=======
+"Factor a aplicar en las líneas de movimiento de cuenta generadas a partir de "
+"esta línea de distribución"
+>>>>>>> upstream/18.0
 =======
 "Factor a aplicar en las líneas de movimiento de cuenta generadas a partir de "
 "esta línea de distribución"
@@ -89717,7 +90435,11 @@ msgid "Filter on the Account or its Display Name instead"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Filtre por la cuenta o su nombre mostrado"
+=======
+msgstr "Filtre por la cuenta o su nombre para mostrar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Filtre por la cuenta o su nombre para mostrar"
 >>>>>>> upstream/18.0
@@ -90422,8 +91144,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Para las nuevas facturas, asegúrese de adjuntar un archivo PDF o electrónico"
 " de la factura"
+=======
+"Para las nuevas facturas, asegúrese de adjuntar un archivo PDF o electrónico "
+"de la factura"
+>>>>>>> upstream/18.0
 =======
 "Para las nuevas facturas, asegúrese de adjuntar un archivo PDF o electrónico "
 "de la factura"
@@ -91100,8 +91827,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Fórmula en el formulario line_code.expression_label. Esto permite establecer"
 " el objetivo del traspaso para esta expresión (en una expresión etiquetada "
+=======
+"Fórmula en el formulario line_code.expression_label. Esto permite establecer "
+"el objetivo del traspaso para esta expresión (en una expresión etiquetada "
+>>>>>>> upstream/18.0
 =======
 "Fórmula en el formulario line_code.expression_label. Esto permite establecer "
 "el objetivo del traspaso para esta expresión (en una expresión etiquetada "
@@ -91737,8 +92469,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "sus proveedores. Puede utilizar la herramienta de búsqueda para personalizar"
 " sus informes de facturas, ajustando así el análisis a sus necesidades."
+=======
+"sus proveedores. Puede utilizar la herramienta de búsqueda para personalizar "
+"sus informes de facturas, ajustando así el análisis a sus necesidades."
+>>>>>>> upstream/18.0
 =======
 "sus proveedores. Puede utilizar la herramienta de búsqueda para personalizar "
 "sus informes de facturas, ajustando así el análisis a sus necesidades."
@@ -92317,8 +93054,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Con este informe puede obtener una vista general del importe facturado a sus"
 " clientes. Puede utilizar la herramienta de búsqueda para personalizar sus "
+=======
+"Con este informe puede obtener una vista general del importe facturado a sus "
+"clientes. Puede utilizar la herramienta de búsqueda para personalizar sus "
+>>>>>>> upstream/18.0
 =======
 "Con este informe puede obtener una vista general del importe facturado a sus "
 "clientes. Puede utilizar la herramienta de búsqueda para personalizar sus "
@@ -92926,6 +93668,7 @@ msgstr "Fecha de bloqueo global"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -93257,6 +94000,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/account/wizard/account_move_send_batch_wizard.py:0
 msgid "Go to cron configuration"
@@ -93269,6 +94014,9 @@ msgstr "Ir a la configuración del cron"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -93468,8 +94216,12 @@ msgid "Group payments into a single batch to ease the reconciliation process"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Agrupa pagos en un solo lote para facilitar el proceso de conciliación"
+=======
+msgstr "Agrupa pagos en un solo lote para facilitar el proceso de conciliación"
+>>>>>>> upstream/18.0
 =======
 msgstr "Agrupa pagos en un solo lote para facilitar el proceso de conciliación"
 >>>>>>> upstream/18.0
@@ -93931,12 +94683,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Groupby feature isn't supported by aggregation engine. Please remove the "
 "groupby value on '%s'"
 msgstr ""
 "La función de \"agrupar por\" no es compatible con el motor de agregación. "
 "Elimine el valor de \"agrupar por\" en \"%s\""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -94281,6 +95036,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -94726,12 +95484,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "    Your email has been discarded. the e-mail address you have used only accepts new invoices:"
 msgstr ""
 "Hola,\n"
 "    <br/><br/>\n"
 "    Su correo electrónico ha sido descartado. La dirección de correo electrónico que ha utilizado solo acepta nuevas facturas:"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -95078,6 +95839,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -95454,8 +96218,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "(incluyendo) la fecha estén asegurados. Solo se toman en cuenta los asientos"
 " contables posteriores a la fecha de bloqueo permanente."
+=======
+"(incluyendo) la fecha estén asegurados. Solo se toman en cuenta los asientos "
+"contables posteriores a la fecha de bloqueo permanente."
+>>>>>>> upstream/18.0
 =======
 "(incluyendo) la fecha estén asegurados. Solo se toman en cuenta los asientos "
 "contables posteriores a la fecha de bloqueo permanente."
@@ -96044,6 +96813,7 @@ msgstr "Cómo se calcula el importe total de impuestos en pedidos y facturas"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document_preview
 msgid "IBAN: BE76 4294 6878 9995"
 msgstr "IBAN: BE76 4294 6878 9995"
@@ -96276,6 +97046,8 @@ msgstr "IBAN: BE76 4294 6878 9995"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
 msgid "ICE:"
 msgstr "ICE:"
@@ -96308,6 +97080,9 @@ msgstr "ICE:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -96645,8 +97420,12 @@ msgid "If empty, uses the journal of the journal entry to be reversed."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Si está vacío, utiliza el diario del asiento contable a ser revertido."
+=======
+msgstr "Si está vacío, utiliza el diario del asiento contable a ser revertido."
+>>>>>>> upstream/18.0
 =======
 msgstr "Si está vacío, utiliza el diario del asiento contable a ser revertido."
 >>>>>>> upstream/18.0
@@ -97116,8 +97895,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If set, taxes with a lower sequence might affect this one, provided they try"
 " to do it."
+=======
+"If set, taxes with a lower sequence might affect this one, provided they try "
+"to do it."
+>>>>>>> upstream/18.0
 =======
 "If set, taxes with a lower sequence might affect this one, provided they try "
 "to do it."
@@ -97698,8 +98482,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Si está establecido, el importe calculado por este impuesto se asignará a la"
 " misma cuenta analítica de la línea de factura (si la hay)"
+=======
+"Si está establecido, el importe calculado por este impuesto se asignará a la "
+"misma cuenta analítica de la línea de factura (si la hay)"
+>>>>>>> upstream/18.0
 =======
 "Si está establecido, el importe calculado por este impuesto se asignará a la "
 "misma cuenta analítica de la línea de factura (si la hay)"
@@ -98281,12 +99070,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If set, this account will belong to Non Trade Receivable/Payable in reports and filters.\n"
 "If not, this account will belong to Trade Receivable/Payable in reports and filters."
 msgstr ""
 "Si está establecido, esta cuenta pertenecerá a los informes y filtros de cuentas por cobrar o por pagar no comerciales. \n"
 "Si no, esta cuenta pertenecerá a los informes y filtros por cobrar y por pagar comerciales."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -98635,6 +99427,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -98870,6 +99665,7 @@ msgid ""
 "excluding this tax group before displaying it. If not set, the tax group "
 "will be displayed after the 'Untaxed amount' subtotal."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -99287,6 +100083,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Si está establecido, este valor se utilizará en los documentos como la "
 "etiqueta de un subtotal sin incluir este grupo de impuestos antes de "
 "mostrarlo. Si no está establecido, el grupo de impuestos se mostrará después "
@@ -99368,6 +100166,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -99652,8 +100453,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "the related information at the time of the creation of the move and that the"
 " move needs to be checked again."
+=======
+"the related information at the time of the creation of the move and that the "
+"move needs to be checked again."
+>>>>>>> upstream/18.0
 =======
 "the related information at the time of the creation of the move and that the "
 "move needs to be checked again."
@@ -100329,9 +101135,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Si vende productos y servicios a clientes en un país extranjero en la UE, "
 "debe cobrar IVA según la dirección de entrega. Esta regla aplica sin "
 "importar dónde esté ubicado."
+=======
+"Si vende productos y servicios a clientes en un país fuera de la UE, debe "
+"cobrar el IVA en función de la dirección de entrega. Esta regla aplica sin "
+"importar dónde se encuentra usted."
+>>>>>>> upstream/18.0
 =======
 "Si vende productos y servicios a clientes en un país fuera de la UE, debe "
 "cobrar el IVA en función de la dirección de entrega. Esta regla aplica sin "
@@ -101502,8 +102314,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Incorrect fiscal year date: day is out of range for month. Month: %(month)s;"
 " Day: %(day)s"
+=======
+"Incorrect fiscal year date: day is out of range for month. Month: %(month)s; "
+"Day: %(day)s"
+>>>>>>> upstream/18.0
 =======
 "Incorrect fiscal year date: day is out of range for month. Month: %(month)s; "
 "Day: %(day)s"
@@ -102109,8 +102926,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "costs and responsibilities between buyer and seller and reflect state-of-"
 "the-art transportation practices."
+=======
+"costs and responsibilities between buyer and seller and reflect state-of-the-"
+"art transportation practices."
+>>>>>>> upstream/18.0
 =======
 "costs and responsibilities between buyer and seller and reflect state-of-the-"
 "art transportation practices."
@@ -102812,11 +103634,17 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Internal field to shorten expression_ids creation for the domain engine"
 msgstr ""
 "Campo interno para acortar la creación de expression_ids del motor de "
 "dominio"
+=======
+msgid "Internal field to shorten expression_ids creation for the domain engine"
+msgstr ""
+"Campo interno para acortar la creación de expression_ids del motor de dominio"
+>>>>>>> upstream/18.0
 =======
 msgid "Internal field to shorten expression_ids creation for the domain engine"
 msgstr ""
@@ -103549,8 +104377,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Invalid \"Zip Range\", You have to configure both \"From\" and \"To\" values"
 " for the zip range and \"To\" should be greater than \"From\"."
+=======
+"Invalid \"Zip Range\", You have to configure both \"From\" and \"To\" values "
+"for the zip range and \"To\" should be greater than \"From\"."
+>>>>>>> upstream/18.0
 =======
 "Invalid \"Zip Range\", You have to configure both \"From\" and \"To\" values "
 "for the zip range and \"To\" should be greater than \"From\"."
@@ -104184,11 +105017,14 @@ msgstr "Widget de créditos y débitos de factura pendientes"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.actions.report,name:account.account_invoices
 msgid "Invoice PDF"
 msgstr "PDF de la factura"
 
 #. module: account
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -104374,8 +105210,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "La distribución de facturas y facturas rectificativas debe contener cada una"
 " exactamente una línea para la base."
+=======
+"La distribución de facturas y facturas rectificativas debe contener cada una "
+"exactamente una línea para la base."
+>>>>>>> upstream/18.0
 =======
 "La distribución de facturas y facturas rectificativas debe contener cada una "
 "exactamente una línea para la base."
@@ -104990,12 +105831,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Invoice and credit note repartition should have at least one tax repartition"
 " line."
 msgstr ""
 "La repartición de facturas y facturas rectificativas debe tener por lo menos"
 " una línea de repartición de impuestos."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -105340,6 +106184,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -105825,6 +106672,7 @@ msgid "Invoices"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Facturas"
 =======
 msgstr "Facturas (clientes)"
@@ -105876,6 +106724,9 @@ msgstr "Facturas (clientes)"
 >>>>>>> upstream/18.0
 =======
 msgstr "Facturas (clientes)"
+>>>>>>> upstream/18.0
+=======
+msgstr "Facturas de clientes"
 >>>>>>> upstream/18.0
 =======
 msgstr "Facturas de clientes"
@@ -106555,8 +107406,12 @@ msgid "Invoices whose journal items have been reconciled with these payments."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Facturas cuyas apuntes individuales se han conciliado con estos pagos."
+=======
+msgstr "Facturas cuyas apuntes individuales se han conciliado con estos pagos."
+>>>>>>> upstream/18.0
 =======
 msgstr "Facturas cuyas apuntes individuales se han conciliado con estos pagos."
 >>>>>>> upstream/18.0
@@ -107423,8 +108278,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Journal items where the account allows reconciliation no matter the residual"
 " amount"
+=======
+"Journal items where the account allows reconciliation no matter the residual "
+"amount"
+>>>>>>> upstream/18.0
 =======
 "Journal items where the account allows reconciliation no matter the residual "
 "amount"
@@ -108013,8 +108873,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Journal where the opening entry of this company's accounting has been "
 "posted."
+=======
+"Journal where the opening entry of this company's accounting has been posted."
+>>>>>>> upstream/18.0
 =======
 "Journal where the opening entry of this company's accounting has been posted."
 >>>>>>> upstream/18.0
@@ -108513,6 +109377,7 @@ msgstr "Junio"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -108526,6 +109391,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -108858,6 +109725,9 @@ msgstr "Proveedor de KPI"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -109221,8 +110091,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Mantenga este campo vacío para usar el valor por defecto de la categoría del"
 " producto."
+=======
+"Mantenga este campo vacío para usar el valor por defecto de la categoría del "
+"producto."
+>>>>>>> upstream/18.0
 =======
 "Mantenga este campo vacío para usar el valor por defecto de la categoría del "
 "producto."
@@ -109798,8 +110673,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Keep this field empty to use the default value from the product category. If"
 " anglo-saxon accounting with automated valuation method is configured, the "
+=======
+"Keep this field empty to use the default value from the product category. If "
+"anglo-saxon accounting with automated valuation method is configured, the "
+>>>>>>> upstream/18.0
 =======
 "Keep this field empty to use the default value from the product category. If "
 "anglo-saxon accounting with automated valuation method is configured, the "
@@ -110374,8 +111254,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "valoración automatizado, se utilizará la cuenta de gastos en la categoría de"
 " producto."
+=======
+"valoración automatizado, se utilizará la cuenta de gastos en la categoría de "
+"producto."
+>>>>>>> upstream/18.0
 =======
 "valoración automatizado, se utilizará la cuenta de gastos en la categoría de "
 "producto."
@@ -111120,8 +112005,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last date at which the discounted amount must be paid in order for the Early"
 " Payment Discount to be granted"
+=======
+"Last date at which the discounted amount must be paid in order for the Early "
+"Payment Discount to be granted"
+>>>>>>> upstream/18.0
 =======
 "Last date at which the discounted amount must be paid in order for the Early "
 "Payment Discount to be granted"
@@ -111975,8 +112865,12 @@ msgstr "Crear asientos devengados "
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Make sure you first activate the audit trail in the accounting settings"
+=======
+msgid "Make sure you first activate the audit trail in the accounting settings"
+>>>>>>> upstream/18.0
 =======
 msgid "Make sure you first activate the audit trail in the accounting settings"
 >>>>>>> upstream/18.0
@@ -112459,6 +113353,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Payment Providers: Each payment provider has its own Payment Method. Request a transaction on/to a card thanks to a payment token saved by the partner when buying or subscribing online.\n"
 "Batch Deposit: Collect several customer checks at once generating and submitting a batch deposit to your bank. Module account_batch_payment is necessary.\n"
 "SEPA Direct Debit: Get paid in the SEPA zone thanks to a mandate your partner will have granted to you. Module account_sepa is necessary.\n"
@@ -112468,6 +113363,8 @@ msgstr ""
 "Depósito por lote: cobre varios cheques de clientes a la vez y genere y envíe un depósito por lote a su banco. Es necesario el módulo account_batch_payment.\n"
 "Domiciliación bancaria SEPA: cobre en la zona SEPA gracias a un mandato que le otorgará su contacto. Es necesario el módulo account_sepa.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -112825,6 +113722,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -113172,12 +114072,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "SEPA Credit Transfer: Pay in the SEPA zone by submitting a SEPA Credit Transfer file to your bank. Module account_sepa is necessary.\n"
 msgstr ""
 "Manual: obtenga su pago con cualquier método fuera de Odoo.\n"
 "Cheque: pague facturas con cheques e imprímalos desde Odoo.\n"
 "Transferencia de crédito SEPA: envíe un archiva de transferencia de crédito SEPA a su banco y así pague en la zona SEPA. Se necesita el módulo account_sepa.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -113525,6 +114428,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -113872,6 +114778,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Payment Providers: Each payment provider has its own Payment Method. Request a transaction on/to a card thanks to a payment token saved by the partner when buying or subscribing online.\n"
 "Check: Pay bills by check and print it from Odoo.\n"
 "Batch Deposit: Collect several customer checks at once generating and submitting a batch deposit to your bank. Module account_batch_payment is necessary.\n"
@@ -113885,6 +114792,8 @@ msgstr ""
 "Transferencia de crédito SEPA: pague en la zona SEPA al enviar un archivo de transferencia de crédito SEPA a su banco. Necesita el módulo account_sepa.\n"
 "Domiciliación bancaria SEPA: cobre en la zona SEPA con el mandato que le otorgará su contacto. Necesita el módulo account_sepa.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -114248,6 +115157,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -114713,8 +115625,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Matching number for this line, 'P' if it is only partially reconcile, or the"
 " name of the full reconcile if it exists."
+=======
+"Matching number for this line, 'P' if it is only partially reconcile, or the "
+"name of the full reconcile if it exists."
+>>>>>>> upstream/18.0
 =======
 "Matching number for this line, 'P' if it is only partially reconcile, or the "
 "name of the full reconcile if it exists."
@@ -115951,7 +116868,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Tenga en cuenta que la manera más sencilla para crear una factura rectificativa es crearla directamente\n"
+=======
+"Tenga en cuenta que la manera más sencilla para crear una factura "
+"rectificativa es crearla directamente\n"
+>>>>>>> upstream/18.0
 =======
 "Tenga en cuenta que la manera más sencilla para crear una factura "
 "rectificativa es crearla directamente\n"
@@ -116640,8 +117562,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Número de meses en el pasado para considerar asientos al aplicar este "
 "modelo."
+=======
+"Número de meses en el pasado para considerar asientos al aplicar este modelo."
+>>>>>>> upstream/18.0
 =======
 "Número de meses en el pasado para considerar asientos al aplicar este modelo."
 >>>>>>> upstream/18.0
@@ -117131,7 +118057,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Odoo le permite conciliar una línea de una línea de extracto bancario directamente con\n"
+=======
+"Odoo le permite conciliar una línea de una línea de extracto bancario "
+"directamente con\n"
+>>>>>>> upstream/18.0
 =======
 "Odoo le permite conciliar una línea de una línea de extracto bancario "
 "directamente con\n"
@@ -117715,8 +118646,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Odoo le ayuda a llevar con facilidad un seguimiento de todas las actividades"
 " relacionadas con un proveedor."
+=======
+"Odoo le ayuda a llevar con facilidad un seguimiento de todas las actividades "
+"relacionadas con un proveedor."
+>>>>>>> upstream/18.0
 =======
 "Odoo le ayuda a llevar con facilidad un seguimiento de todas las actividades "
 "relacionadas con un proveedor."
@@ -118379,6 +119315,7 @@ msgstr "Una vez que su factura esté lista, confírmela."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account.view_partner_property_form
 msgid "One or more Bank Accounts set on this partner are also used by other"
 msgstr ""
@@ -118386,6 +119323,8 @@ msgstr ""
 " utiliza otro"
 
 #. module: account
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -118782,8 +119721,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Solo un informe sin un informe raíz propio se puede seleccionar como informe"
 " raíz. "
+=======
+"Solo un informe sin un informe raíz propio se puede seleccionar como informe "
+"raíz. "
+>>>>>>> upstream/18.0
 =======
 "Solo un informe sin un informe raíz propio se puede seleccionar como informe "
 "raíz. "
@@ -119579,8 +120523,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Nuestras facturas se pueden pagar en un plazo de 21 días laborables, a menos"
 " que en la factura o en el pedido se indique otro plazo de pago. En caso de "
+=======
+"Nuestras facturas se pueden pagar en un plazo de 21 días laborables, a menos "
+"que en la factura o en el pedido se indique otro plazo de pago. En caso de "
+>>>>>>> upstream/18.0
 =======
 "Nuestras facturas se pueden pagar en un plazo de 21 días laborables, a menos "
 "que en la factura o en el pedido se indique otro plazo de pago. En caso de "
@@ -120166,6 +121115,10 @@ msgstr "PAY001"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.actions.report,name:account.account_invoices
+>>>>>>> upstream/18.0
 =======
 #: model:ir.actions.report,name:account.account_invoices
 >>>>>>> upstream/18.0
@@ -120434,7 +121387,11 @@ msgid "Paid"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Pagada"
+=======
+msgstr "Pagado"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pagado"
 >>>>>>> upstream/18.0
@@ -121189,7 +122146,10 @@ msgstr "Los contactos deben tener una dirección de correo electrónico."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account.view_partner_property_form
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -121456,6 +122416,7 @@ msgstr "Contactos que no tienen una cuenta bancaria"
 #. odoo-python
 #: code:addons/account/models/partner.py:0
 msgid "Partners that are used in hashed entries cannot be merged."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -122194,6 +123155,11 @@ msgstr "No es posible fusionar los contactos que se usan en asientos con hash."
 
 #. module: account
 >>>>>>> upstream/18.0
+=======
+msgstr "No es posible fusionar los contactos que se usan en asientos con hash."
+
+#. module: account
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:account.view_partner_bank_form_inherit_account
 #: model_terms:ir.ui.view,arch_db:account.view_partner_property_form
 msgid "Partners with same bank"
@@ -122323,6 +123289,9 @@ msgstr "Contactos con el mismo banco"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -123006,9 +123975,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Los pagos se utilizan para registrar movimientos de liquidez. Puede procesar"
 " esos pagos por sus propios medios o utilizando las instalaciones "
 "instaladas."
+=======
+"Los pagos se utilizan para registrar movimientos de liquidez. Puede procesar "
+"esos pagos por sus propios medios o utilizando las instalaciones instaladas."
+>>>>>>> upstream/18.0
 =======
 "Los pagos se utilizan para registrar movimientos de liquidez. Puede procesar "
 "esos pagos por sus propios medios o utilizando las instalaciones instaladas."
@@ -123552,7 +124526,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -123787,6 +124764,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -124122,6 +125102,7 @@ msgstr "Riesgo de phishing: medio"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #. odoo-javascript
 #: code:addons/account/static/src/components/account_pick_currency_rate/account_pick_currency_rate.xml:0
@@ -124131,6 +125112,8 @@ msgstr ""
 #. module: account
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -124476,6 +125459,9 @@ msgstr "Elija el tipo de cambio en una fecha determinada."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -124853,12 +125839,15 @@ msgstr "Por favor, establece un valor positivo para redondear un valor."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Please set at least one of the match texts to create a partner mapping."
 msgstr ""
 "Establezca al menos uno de los textos de coincidencia para crear un mapeo de"
 " contactos."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -125202,6 +126191,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -126062,6 +127054,7 @@ msgstr "Tipo de facturas conciliadas"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -126428,6 +127421,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:account.field_account_bank_statement_line__reconciled_payment_ids
 #: model:ir.model.fields,field_description:account.field_account_move__reconciled_payment_ids
 msgid "Reconciled Payments"
@@ -126440,6 +127435,9 @@ msgstr "Pagos conciliados"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -126633,8 +127631,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Reference of the document used to issue this payment. Eg. check number, file"
 " name, etc."
+=======
+"Reference of the document used to issue this payment. Eg. check number, file "
+"name, etc."
+>>>>>>> upstream/18.0
 =======
 "Reference of the document used to issue this payment. Eg. check number, file "
 "name, etc."
@@ -127211,6 +128214,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 msgid "Refresh currency rate to the invoice date"
@@ -127219,6 +128223,8 @@ msgstr ""
 #. module: account
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -127563,6 +128569,9 @@ msgstr "Actualizar el tipo de cambio a la fecha de la factura"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -127980,8 +128989,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Reload accounting data (taxes, accounts, ...) if you notice inconsistencies."
 " This action is irreversible."
+=======
+"Reload accounting data (taxes, accounts, ...) if you notice inconsistencies. "
+"This action is irreversible."
+>>>>>>> upstream/18.0
 =======
 "Reload accounting data (taxes, accounts, ...) if you notice inconsistencies. "
 "This action is irreversible."
@@ -128810,7 +129824,10 @@ msgstr "Revertido"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -129158,6 +130175,9 @@ msgstr "Revertido el"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -129775,7 +130795,11 @@ msgstr "Escanéeme con su aplicación bancaria."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document_preview
+=======
+#: model_terms:ir.ui.view,arch_db:account.report_invoice_qr_code_preview
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_qr_code_preview
 >>>>>>> upstream/18.0
@@ -130301,8 +131325,12 @@ msgstr "Buscar un producto"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Search in the Statement's Label to find the Invoice/Payment's reference"
+=======
+msgid "Search in the Statement's Label to find the Invoice/Payment's reference"
+>>>>>>> upstream/18.0
 =======
 msgid "Search in the Statement's Label to find the Invoice/Payment's reference"
 >>>>>>> upstream/18.0
@@ -130875,9 +131903,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "(por ejemplo, al crear una nueva factura de cliente o un pedido de venta, si"
 " seleccionamos este producto, lo considerará automáticamente como una cuenta"
 " analítica)"
+=======
+"(por ejemplo, al crear una nueva factura de cliente o un pedido de venta, si "
+"seleccionamos este producto, lo considerará automáticamente como una cuenta "
+"analítica)"
+>>>>>>> upstream/18.0
 =======
 "(por ejemplo, al crear una nueva factura de cliente o un pedido de venta, si "
 "seleccionamos este producto, lo considerará automáticamente como una cuenta "
@@ -131609,8 +132643,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Si seleccionas la opción \"Advertencia\" se notificará a los usuarios con el"
 " mensaje, si selecciona \"Mensaje de bloqueo\" se lanzará una excepción con "
+=======
+"Si seleccionas la opción \"Advertencia\" se notificará a los usuarios con el "
+"mensaje, si selecciona \"Mensaje de bloqueo\" se lanzará una excepción con "
+>>>>>>> upstream/18.0
 =======
 "Si seleccionas la opción \"Advertencia\" se notificará a los usuarios con el "
 "mensaje, si selecciona \"Mensaje de bloqueo\" se lanzará una excepción con "
@@ -132291,9 +133330,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "proveedor, esto es importante porque si esto llega a pasar, quiere decir que"
 " el correo del proveedor está en peligro. Una vez que haya comprobado que la"
 " información es correcta puede activar la función de enviar dinero."
+=======
+"proveedor, esto es importante porque si esto llega a pasar, quiere decir que "
+"el correo del proveedor está en peligro. Una vez que haya comprobado que la "
+"información es correcta puede activar la función de enviar dinero."
+>>>>>>> upstream/18.0
 =======
 "proveedor, esto es importante porque si esto llega a pasar, quiere decir que "
 "el correo del proveedor está en peligro. Una vez que haya comprobado que la "
@@ -133115,8 +134160,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Establezca un valor superior a 0,0 para activar una comprobación del crédito"
 " concedido"
+=======
+"Establezca un valor superior a 0,0 para activar una comprobación del crédito "
+"concedido"
+>>>>>>> upstream/18.0
 =======
 "Establezca un valor superior a 0,0 para activar una comprobación del crédito "
 "concedido"
@@ -133698,8 +134748,12 @@ msgid "Set active to false to hide the Journal without removing it."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Establezca el activo como False para ocultar el diario sin eliminarlo."
+=======
+msgstr "Establezca el activo como False para ocultar el diario sin eliminarlo."
+>>>>>>> upstream/18.0
 =======
 msgstr "Establezca el activo como False para ocultar el diario sin eliminarlo."
 >>>>>>> upstream/18.0
@@ -134195,12 +135249,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Setting this field will turn the line into a link, executing the action when"
 " clicked."
 msgstr ""
 "Establecer este campo convertirá la línea en un enlace y ejecutará la acción"
 " cuando se haga clic en él."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -134545,6 +135602,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -134913,8 +135973,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Shorter name used for display. The journal entries of this journal will also"
 " be named using this prefix by default."
+=======
+"Shorter name used for display. The journal entries of this journal will also "
+"be named using this prefix by default."
+>>>>>>> upstream/18.0
 =======
 "Shorter name used for display. The journal entries of this journal will also "
 "be named using this prefix by default."
@@ -135672,8 +136737,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Specify an arbitrary value that will be accrued on a         default account"
 " for the entire order, regardless of the products on the different lines."
+=======
+"Specify an arbitrary value that will be accrued on a         default account "
+"for the entire order, regardless of the products on the different lines."
+>>>>>>> upstream/18.0
 =======
 "Specify an arbitrary value that will be accrued on a         default account "
 "for the entire order, regardless of the products on the different lines."
@@ -136320,7 +137390,11 @@ msgid "State"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Provincia"
+=======
+msgstr "Estado"
+>>>>>>> upstream/18.0
 =======
 msgstr "Estado"
 >>>>>>> upstream/18.0
@@ -137117,8 +138191,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Tags assigned to this line by the tax creating it, if any. It determines its"
 " impact on financial reports."
+=======
+"Tags assigned to this line by the tax creating it, if any. It determines its "
+"impact on financial reports."
+>>>>>>> upstream/18.0
 =======
 "Tags assigned to this line by the tax creating it, if any. It determines its "
 "impact on financial reports."
@@ -138035,8 +139114,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Taxes exigible on payment and on invoice cannot be mixed on the same journal"
 " item if they share some tag."
+=======
+"Taxes exigible on payment and on invoice cannot be mixed on the same journal "
+"item if they share some tag."
+>>>>>>> upstream/18.0
 =======
 "Taxes exigible on payment and on invoice cannot be mixed on the same journal "
 "item if they share some tag."
@@ -138629,8 +139713,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Technical field containing the countries for which this company is using "
 "tax-related features(hence the ones for which l10n modules need to show tax-"
+=======
+"Technical field containing the countries for which this company is using tax-"
+"related features(hence the ones for which l10n modules need to show tax-"
+>>>>>>> upstream/18.0
 =======
 "Technical field containing the countries for which this company is using tax-"
 "related features(hence the ones for which l10n modules need to show tax-"
@@ -139257,6 +140346,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Technical field used to enforce complex sequence composition that the system would normally misunderstand.\n"
 "This is a regex that can include all the following capture groups: prefix1, year, prefix2, month, prefix3, seq, suffix.\n"
 "The prefix* groups are the separators between the year, month and the actual increasing sequence number (seq).\n"
@@ -139267,6 +140357,8 @@ msgstr ""
 "Los grupos de prefijo * son los separadores entre el año, el mes y el número de secuencia creciente real (seq).\n"
 "por ejemplo: ^(?P<prefix1>.*?)(?P<year>\\d{4})(?P<prefix2>\\D*?)(?P<month>\\d{2})(?P<prefix3>\\D+?)(?P<seq>\\d+)(?P<suffix>\\D*?)$"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -139623,6 +140715,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -140029,12 +141124,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The %(date_field)s (%(date)s) you've entered isn't aligned with the existing sequence number (%(sequence)s). Clear the sequence number to proceed.\n"
 "To maintain date-based sequences, select entries and use the resequence option from the actions menu, available in developer mode."
 msgstr ""
 "La %(date_field)s (%(date)s) ingresada no coincide con la secuencia de número existente (%(sequence)s). Elimine la secuencia de números para continuar.\n"
 "Para mantener las fechas según secuencias, seleccione los asientos y use la opción de resecuenciar desde el menú de acciones, que está disponible en modo de desarrollo."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -140385,6 +141483,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -140765,8 +141866,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The Early Payment Discount functionality can only be used with payment terms"
 " using a single 100% line. "
+=======
+"The Early Payment Discount functionality can only be used with payment terms "
+"using a single 100% line. "
+>>>>>>> upstream/18.0
 =======
 "The Early Payment Discount functionality can only be used with payment terms "
 "using a single 100% line. "
@@ -141408,8 +142514,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The Unit of Measure (UoM) '%(uom)s' you have selected for product "
 "'%(product)s', is incompatible with its category : %(category)s."
+=======
+"The Unit of Measure (UoM) '%(uom)s' you have selected for product '%"
+"(product)s', is incompatible with its category : %(category)s."
+>>>>>>> upstream/18.0
 =======
 "The Unit of Measure (UoM) '%(uom)s' you have selected for product '%"
 "(product)s', is incompatible with its category : %(category)s."
@@ -142029,8 +143140,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "El diario contable donde se registrarán las diferencias de cambio "
 "automáticas"
+=======
+"El diario contable donde se registrarán las diferencias de cambio automáticas"
+>>>>>>> upstream/18.0
 =======
 "El diario contable donde se registrarán las diferencias de cambio automáticas"
 >>>>>>> upstream/18.0
@@ -142492,8 +143607,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The amount expressed in an optional other currency if it is a multi-currency"
 " entry."
+=======
+"The amount expressed in an optional other currency if it is a multi-currency "
+"entry."
+>>>>>>> upstream/18.0
 =======
 "The amount expressed in an optional other currency if it is a multi-currency "
 "entry."
@@ -143071,8 +144191,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The amount expressed in the secondary currency must be positive when account"
 " is debited and negative when account is credited. If the currency is the "
+=======
+"The amount expressed in the secondary currency must be positive when account "
+"is debited and negative when account is credited. If the currency is the "
+>>>>>>> upstream/18.0
 =======
 "The amount expressed in the secondary currency must be positive when account "
 "is debited and negative when account is credited. If the currency is the "
@@ -143655,11 +144780,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The amount for %(partner_name)s appears unusual. Based on your historical data, the expected amount is %(mean)s (± %(wiggle)s).\n"
 "Please verify if this amount is accurate."
 msgstr ""
 "El importe para %(partner_name)s es atípico. Según sus datos históricos, el importe esperado es %(mean)s (±%(wiggle)s). \n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -144005,6 +145133,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -144382,11 +145513,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The billing frequency for %(partner_name)s appears unusual. Based on your historical data, the expected next invoice date is not before %(expected_date)s (every %(mean)s (± %(wiggle)s) days).\n"
 "Please verify if this date is accurate."
 msgstr ""
 "La frecuencia de facturación para %(partner_name)s es atípica. Según sus datos históricos, la fecha esperada para la próxima factura es después del %(expected_date)s (cada %(mean)s (± %(wiggle)s) días).\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -144734,6 +145868,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -145084,8 +146221,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Asientos de criterio de caja creados desde los impuestos en este asiento, al"
 " conciliar sus líneas."
+=======
+"Asientos de criterio de caja creados desde los impuestos en este asiento, al "
+"conciliar sus líneas."
+>>>>>>> upstream/18.0
 =======
 "Asientos de criterio de caja creados desde los impuestos en este asiento, al "
 "conciliar sus líneas."
@@ -145666,8 +146808,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "estándar, incluso si éstas se redactaron después de los presentes términos y"
 " condiciones estándar de venta. Para que sea válida, se debe acordar "
+=======
+"estándar, incluso si éstas se redactaron después de los presentes términos y "
+"condiciones estándar de venta. Para que sea válida, se debe acordar "
+>>>>>>> upstream/18.0
 =======
 "estándar, incluso si éstas se redactaron después de los presentes términos y "
 "condiciones estándar de venta. Para que sea válida, se debe acordar "
@@ -146307,7 +147454,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -146779,6 +147929,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #. module: account
 <<<<<<< HEAD
@@ -146789,6 +147940,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -147252,6 +148405,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -147681,8 +148837,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The country code of the foreign VAT number does not match any country in the"
 " group."
+=======
+"The country code of the foreign VAT number does not match any country in the "
+"group."
+>>>>>>> upstream/18.0
 =======
 "The country code of the foreign VAT number does not match any country in the "
 "group."
@@ -148270,8 +149431,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The country set on the foreign VAT fiscal position must match the one set on"
 " the report."
+=======
+"The country set on the foreign VAT fiscal position must match the one set on "
+"the report."
+>>>>>>> upstream/18.0
 =======
 "The country set on the foreign VAT fiscal position must match the one set on "
 "the report."
@@ -148854,6 +150020,7 @@ msgstr "El país para usar los informes de impuestos de esta empresa"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #. odoo-python
 #: code:addons/account/models/account_move.py:0
@@ -148863,6 +150030,8 @@ msgstr ""
 #. module: account
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -149205,6 +150374,9 @@ msgstr "El tipo de cambio debe ser estrictamente positivo."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -149557,6 +150729,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The current total is %(current_total)s but the expected total is "
 "%(expected_total)s. In order to post the invoice/bill, you can adjust its "
 "lines or the expected Total (tax inc.)."
@@ -149564,6 +150737,8 @@ msgstr ""
 "El total actual de impuestos es %(current_total)s pero el total esperado es "
 "%(expected_total)s. Para publicar la factura, puede ajustar sus líneas o el "
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -149909,6 +151084,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -150289,8 +151467,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The date the Sale Lock Date is set to by this exception. If the lock date is"
 " not changed it is set to the maximal date."
+=======
+"The date the Sale Lock Date is set to by this exception. If the lock date is "
+"not changed it is set to the maximal date."
+>>>>>>> upstream/18.0
 =======
 "The date the Sale Lock Date is set to by this exception. If the lock date is "
 "not changed it is set to the maximal date."
@@ -150991,7 +152174,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -151373,6 +152559,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #. module: account
 #. odoo-python
@@ -151384,6 +152571,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -151758,6 +152947,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -152146,12 +153338,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The foreign currency set on the journal '%(journal)s' and the account "
 "'%(account)s' must be the same."
 msgstr ""
 "La moneda extranjera establecida en el diario '%(journal)s' y la cuenta "
 "'%(account)s' debe ser la misma."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -152496,6 +153691,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -152848,11 +154046,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                            data without breaking the hash chain for subsequent parts."
 msgstr ""
 "La cadena hash es compatible: no es posible alterar los\n"
 "                                            datos sin romper la cadena hash para las partes subsecuentes."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -153198,6 +154399,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -153573,12 +154777,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The journal entry %s reached an invalid state regarding its related statement line.\n"
 "To be consistent, the journal entry must always have exactly one journal item involving the bank/cash account."
 msgstr ""
 "El asiento contable %s alcanzó un estado no válido con respecto a su línea de declaración relacionada.\n"
 "Para ser coherente, el asiento contable debe tener siempre exactamente un apunte contable que involucre la cuenta bancaria o de efectivo."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -153927,6 +155134,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -154303,8 +155513,12 @@ msgstr "El apunte contable no está vinculado a la cuenta financiera correcta"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "The last day of the month will be used if the chosen day doesn't exist."
+=======
+msgid "The last day of the month will be used if the chosen day doesn't exist."
+>>>>>>> upstream/18.0
 =======
 msgid "The last day of the month will be used if the chosen day doesn't exist."
 >>>>>>> upstream/18.0
@@ -154772,7 +155986,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "- To Match the text at the beginning of the line (in label or notes), simply fill in your text.\n"
+=======
+"- To Match the text at the beginning of the line (in label or notes), simply "
+"fill in your text.\n"
+>>>>>>> upstream/18.0
 =======
 "- To Match the text at the beginning of the line (in label or notes), simply "
 "fill in your text.\n"
@@ -155347,9 +156566,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "- Para hacer coincidir el texto al principio de la línea (en la etiqueta o notas), simplemente complete su texto.\n"
 "- Para hacer coincidir el texto en cualquier lugar (en etiquetas o notas), coloque el texto entre .*\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -155693,6 +156915,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -156042,8 +157267,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "El asiento no se puede publicar debido al siguiente motivo: "
 "%(error_message)s"
+=======
+"El asiento no se puede publicar debido al siguiente motivo: %(error_message)s"
+>>>>>>> upstream/18.0
 =======
 "El asiento no se puede publicar debido al siguiente motivo: %(error_message)s"
 >>>>>>> upstream/18.0
@@ -156514,9 +157743,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The operation is refused as it would impact an already issued tax statement."
 " Please change the journal entry date or the following lock dates to "
 "proceed: %(lock_date_info)s."
+=======
+"The operation is refused as it would impact an already issued tax statement. "
+"Please change the journal entry date or the following lock dates to proceed: "
+"%(lock_date_info)s."
+>>>>>>> upstream/18.0
 =======
 "The operation is refused as it would impact an already issued tax statement. "
 "Please change the journal entry date or the following lock dates to proceed: "
@@ -157224,6 +158459,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The order in which distribution lines are displayed and matched. For refunds"
 " to work properly, invoice distribution lines should be arranged in the same"
 " order as the credit note distribution lines they correspond to."
@@ -157231,6 +158467,8 @@ msgstr ""
 "El orden en que se muestran y coinciden las líneas de distribución. Para que"
 " las facturas rectificativas funcionen correctamente, las líneas de "
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -157576,6 +158814,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -157970,12 +159211,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The reconciliation model will only be applied to the selected "
 "customer/vendor categories."
 msgstr ""
 "El modelo de conciliación solo se aplicará a las categorías de "
 "cliente/proveedor seleccionadas."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -158320,6 +159564,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -158665,8 +159912,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The reconciliation model will only be applied to the selected "
 "customers/vendors."
+=======
+"The reconciliation model will only be applied to the selected customers/"
+"vendors."
+>>>>>>> upstream/18.0
 =======
 "The reconciliation model will only be applied to the selected customers/"
 "vendors."
@@ -159244,7 +160496,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The reconciliation model will only be applied to the selected transaction type:\n"
+=======
+"The reconciliation model will only be applied to the selected transaction "
+"type:\n"
+>>>>>>> upstream/18.0
 =======
 "The reconciliation model will only be applied to the selected transaction "
 "type:\n"
@@ -159819,7 +161076,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "El modelo de conciliación solo se aplicará al tipo de transacción seleccionado:\n"
+=======
+"El modelo de conciliación solo se aplicará al tipo de transacción "
+"seleccionado:\n"
+>>>>>>> upstream/18.0
 =======
 "El modelo de conciliación solo se aplicará al tipo de transacción "
 "seleccionado:\n"
@@ -160399,8 +161661,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "El modelo de conciliación solo se aplicará cuando se establezca un "
 "cliente/proveedor."
+=======
+"El modelo de conciliación solo se aplicará cuando se establezca un cliente/"
+"proveedor."
+>>>>>>> upstream/18.0
 =======
 "El modelo de conciliación solo se aplicará cuando se establezca un cliente/"
 "proveedor."
@@ -160985,7 +162252,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        * Contains: The proposition label must contains this string (case insensitive).\n"
+=======
+"        * Contains: The proposition label must contains this string (case "
+"insensitive).\n"
+>>>>>>> upstream/18.0
 =======
 "        * Contains: The proposition label must contains this string (case "
 "insensitive).\n"
@@ -161560,10 +162832,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        * Contiene: la etiqueta de la proposición debe contener esta cadena (no distingue mayúsculas y minúsculas).\n"
 "        * No contiene: negación de \"Contiene\".\n"
 "        * Expresión regular de coincidencia: defina su propia expresión regular. "
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -161908,6 +163183,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -162254,7 +163532,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        * Contains: The proposition note must contains this string (case insensitive).\n"
+=======
+"        * Contains: The proposition note must contains this string (case "
+"insensitive).\n"
+>>>>>>> upstream/18.0
 =======
 "        * Contains: The proposition note must contains this string (case "
 "insensitive).\n"
@@ -162829,10 +164112,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        * Contiene: la nota de la proposición debe contener esta cadena (no distingue mayúsculas y minúsculas).\n"
 "        * No contiene: negación de \"Contiene\".\n"
 "        * Expresión regular de coincidencia: defina su propia expresión regular. "
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -163177,6 +164463,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -163523,7 +164812,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        * Contains: The proposition transaction type must contains this string (case insensitive).\n"
+=======
+"        * Contains: The proposition transaction type must contains this "
+"string (case insensitive).\n"
+>>>>>>> upstream/18.0
 =======
 "        * Contains: The proposition transaction type must contains this "
 "string (case insensitive).\n"
@@ -164098,10 +165392,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        * Contiene: el tipo de transacción de la proposición debe contener esta cadena (no distingue mayúsculas y minúsculas).\n"
 "        * No contiene: negación de \"Contiene\".\n"
 "        * Expresión regular de coincidencia: defina su propia expresión regular. "
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -164446,6 +165743,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -164868,12 +166168,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The selected destination account is set to use a specific currency. Every entry transferred to it will be converted into this currency, causing\n"
 "                        the loss of any pre-existing foreign currency amount."
 msgstr ""
 "La cuenta de destino seleccionada está configurada para usar una moneda específica. Cada entrada transferida se convertirá a esta moneda, lo que provocará\n"
 "                        la pérdida de cualquier importe en moneda extranjera preexistente."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -165222,6 +166525,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -165568,12 +166874,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The selected payment method is not available for this payment, please select"
 " the payment method again."
 msgstr ""
 "El método de pago seleccionado no está disponible para este pago. Seleccione"
 " por favor otro método de pago."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -165918,6 +167227,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -166264,8 +167576,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The sending of invoices is not set up properly, make sure the report used is"
 " set for invoices."
+=======
+"The sending of invoices is not set up properly, make sure the report used is "
+"set for invoices."
+>>>>>>> upstream/18.0
 =======
 "The sending of invoices is not set up properly, make sure the report used is "
 "set for invoices."
@@ -166859,11 +168176,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The sequence regex should at least contain the seq grouping keys. For instance:\n"
 "^(?P<prefix1>.*?)(?P<seq>\\d*)(?P<suffix>\\D*?)$"
 msgstr ""
 "La expresión regular de la secuencia debe contener al menos las claves de agrupación seq. Por ejemplo:\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -167209,6 +168529,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -167620,8 +168943,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The sequences of this journal are different for Invoices and Refunds but you"
 " selected some of both types."
+=======
+"The sequences of this journal are different for Invoices and Refunds but you "
+"selected some of both types."
+>>>>>>> upstream/18.0
 =======
 "The sequences of this journal are different for Invoices and Refunds but you "
 "selected some of both types."
@@ -168260,8 +169588,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "La regla de desempate utilizada para las operaciones de redondeo de "
 "decimales"
+=======
+"La regla de desempate utilizada para las operaciones de redondeo de decimales"
+>>>>>>> upstream/18.0
 =======
 "La regla de desempate utilizada para las operaciones de redondeo de decimales"
 >>>>>>> upstream/18.0
@@ -168726,8 +170058,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "El tipo de cuenta de crédito/débito por defecto del diario no debe ser \"por"
 " cobrar\" o \"por pagar\"."
+=======
+"El tipo de cuenta de crédito/débito por defecto del diario no debe ser \"por "
+"cobrar\" o \"por pagar\"."
+>>>>>>> upstream/18.0
 =======
 "El tipo de cuenta de crédito/débito por defecto del diario no debe ser \"por "
 "cobrar\" o \"por pagar\"."
@@ -169356,8 +170693,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The entries from journal prefixes containing them will not be secured: "
 "%(prefix_info)s"
+=======
+"The entries from journal prefixes containing them will not be secured: %"
+"(prefix_info)s"
+>>>>>>> upstream/18.0
 =======
 "The entries from journal prefixes containing them will not be secured: %"
 "(prefix_info)s"
@@ -169958,8 +171300,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Todavía no hay ningún asiento contable marcado para inalterabilidad de "
 "datos."
+=======
+"Todavía no hay ningún asiento contable marcado para inalterabilidad de datos."
+>>>>>>> upstream/18.0
 =======
 "Todavía no hay ningún asiento contable marcado para inalterabilidad de datos."
 >>>>>>> upstream/18.0
@@ -170410,7 +171756,11 @@ msgid "Thirty one dollar and Five cents"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Treinta y un dólares con cinco centavos"
+=======
+msgstr "Treinta y un dólares con cinco céntimos"
+>>>>>>> upstream/18.0
 =======
 msgstr "Treinta y un dólares con cinco céntimos"
 >>>>>>> upstream/18.0
@@ -170793,6 +172143,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This account is configured in %(journal_names)s journal(s) (ids "
 "%(journal_ids)s) as payment debit or credit account. This means that this "
 "account's type should be reconcilable."
@@ -170801,6 +172152,8 @@ msgstr ""
 "%(journal_ids)s) como cuenta de crédito o débito de pago. Esto significa que"
 " el tipo de esta cuenta debe poder conciliarse."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -171147,6 +172500,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -171529,9 +172885,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This allows accountants to manage analytic and crossovered budgets. Once the"
 " master budgets and the budgets are defined, the project managers can set "
 "the planned amount on each analytic account."
+=======
+"This allows accountants to manage analytic and crossovered budgets. Once the "
+"master budgets and the budgets are defined, the project managers can set the "
+"planned amount on each analytic account."
+>>>>>>> upstream/18.0
 =======
 "This allows accountants to manage analytic and crossovered budgets. Once the "
 "master budgets and the budgets are defined, the project managers can set the "
@@ -172225,11 +173587,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This allows you grouping payments into a single batch and eases the reconciliation process.\n"
 "-This installs the account_batch_payment module."
 msgstr ""
 "Esto le permite agrupar pagos en un solo lote y facilita el proceso de conciliación. \n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -172575,6 +173940,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -172967,8 +174335,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This entry contains one or more taxes that are incompatible with your fiscal"
 " country. Check company fiscal country in the settings and tax country in "
+=======
+"This entry contains one or more taxes that are incompatible with your fiscal "
+"country. Check company fiscal country in the settings and tax country in "
+>>>>>>> upstream/18.0
 =======
 "This entry contains one or more taxes that are incompatible with your fiscal "
 "country. Check company fiscal country in the settings and tax country in "
@@ -173549,8 +174922,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This entry contains taxes that are not compatible with your fiscal position."
 " Check the country set in fiscal position and in your tax configuration."
+=======
+"This entry contains taxes that are not compatible with your fiscal position. "
+"Check the country set in fiscal position and in your tax configuration."
+>>>>>>> upstream/18.0
 =======
 "This entry contains taxes that are not compatible with your fiscal position. "
 "Check the country set in fiscal position and in your tax configuration."
@@ -174217,7 +175595,11 @@ msgid "This entry has been reversed from %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Este asiento se ha revirtido apartir de %s"
+=======
+msgstr "Este asiento se ha revertido a partir de %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Este asiento se ha revertido a partir de %s"
 >>>>>>> upstream/18.0
@@ -175025,8 +176407,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Se utilizará este plazo de pago en lugar del predeterminado para los pedidos"
 " de compra y las facturas de proveedor."
+=======
+"Se utilizará este plazo de pago en lugar del predeterminado para los pedidos "
+"de compra y las facturas de proveedor."
+>>>>>>> upstream/18.0
 =======
 "Se utilizará este plazo de pago en lugar del predeterminado para los pedidos "
 "de compra y las facturas de proveedor."
@@ -175613,7 +177000,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If you want to change its Unit of Measure, please archive this product and create a new one."
+=======
+"If you want to change its Unit of Measure, please archive this product and "
+"create a new one."
+>>>>>>> upstream/18.0
 =======
 "If you want to change its Unit of Measure, please archive this product and "
 "create a new one."
@@ -176129,8 +177521,13 @@ msgstr "Este movimiento recurrente se publicará hasta e incluida esta fecha."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "This setting cannot be changed after an invoice is created."
 msgstr "No puede cambiar esta configuración después de crear una factura."
+=======
+msgid "This setting locks once a journal entry is created."
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgid "This setting locks once a journal entry is created."
 msgstr ""
@@ -176404,8 +177801,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This wizard will validate all journal entries selected. Once journal entries"
 " are validated, you can not update them anymore."
+=======
+"This wizard will validate all journal entries selected. Once journal entries "
+"are validated, you can not update them anymore."
+>>>>>>> upstream/18.0
 =======
 "This wizard will validate all journal entries selected. Once journal entries "
 "are validated, you can not update them anymore."
@@ -176986,7 +178388,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Aquellos que pueden utilizarse para crear rápidamente apuntes de diario al conciliar\n"
+=======
+"Aquellos que pueden utilizarse para crear rápidamente apuntes de diario al "
+"conciliar\n"
+>>>>>>> upstream/18.0
 =======
 "Aquellos que pueden utilizarse para crear rápidamente apuntes de diario al "
 "conciliar\n"
@@ -177564,8 +178971,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Seleccione esta casilla si desea agrupar cuentas por nombre para "
 "fusionarlas."
+=======
+"Seleccione esta casilla si desea agrupar cuentas por nombre para fusionarlas."
+>>>>>>> upstream/18.0
 =======
 "Seleccione esta casilla si desea agrupar cuentas por nombre para fusionarlas."
 >>>>>>> upstream/18.0
@@ -178069,8 +179480,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "To add information to a previously sent invoice, reply to your \"sent\" "
 "email"
+=======
+"To add information to a previously sent invoice, reply to your \"sent\" email"
+>>>>>>> upstream/18.0
 =======
 "To add information to a previously sent invoice, reply to your \"sent\" email"
 >>>>>>> upstream/18.0
@@ -178540,11 +179955,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "To keep the audit trail, you can not delete journal entries once they have been posted.\n"
 "Instead, you can cancel the journal entry."
 msgstr ""
 "Para mantener la pista de auditoría, no puede eliminar los asientos contables una vez que los haya registrado.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -178890,6 +180308,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -179243,6 +180664,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "manually validated. You should go on the partner bank account of %(partner)s"
 " in order to validate it."
 msgstr ""
@@ -179250,6 +180672,8 @@ msgstr ""
 "beneficiario debe ser validada manualmente. Debe ir a la cuenta bancaria del"
 " contacto %(partner)s para validarla."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -179595,6 +181019,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -179942,6 +181369,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "be manually validated. You should go on the partner bank account in order to"
 " validate it."
 msgstr ""
@@ -179949,6 +181377,8 @@ msgstr ""
 "beneficiario debe ser validada manualmente. Debe ir a la cuenta bancaria del"
 " contacto para validarla."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -180294,6 +181724,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -180624,6 +182057,7 @@ msgstr "Total residual en moneda"
 #: model:ir.model.fields,field_description:account.field_account_bank_statement_line__amount_total_signed
 #: model:ir.model.fields,field_description:account.field_account_move__amount_total_signed
 msgid "Total Signed"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -181405,11 +182839,15 @@ msgstr "Total con signo"
 =======
 msgstr "Total con signo"
 >>>>>>> upstream/18.0
+=======
+msgstr "Total con signo"
+>>>>>>> upstream/18.0
 
 #. module: account
 #. odoo-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -181756,6 +183194,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Total amount due (including sales orders and this document): %(total_credit)s"
 msgstr ""
 "Importe total adeudado (incluyendo los pedidos de venta y este documento): %"
@@ -181873,6 +183313,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -182358,7 +183801,11 @@ msgid "Total in Currency Signed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Total firmado en moneda"
+=======
+msgstr "Total con signo en moneda"
+>>>>>>> upstream/18.0
 =======
 msgstr "Total con signo en moneda"
 >>>>>>> upstream/18.0
@@ -183141,6 +184588,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Total Receivable amount exceeding a limit."
 "                                      Set a value greater than 0.0 to "
 "activate a credit limit check"
@@ -183150,6 +184598,8 @@ msgstr ""
 "                                      Establezca un valor superior a 0,0 "
 "para activar una comprobación del crédito concedido"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -183497,6 +184947,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -184011,7 +185464,11 @@ msgid "Untaxed Amount"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Base imponible"
+=======
+msgstr "Importe base"
+>>>>>>> upstream/18.0
 =======
 msgstr "Importe base"
 >>>>>>> upstream/18.0
@@ -184329,7 +185786,11 @@ msgid "Untaxed Amount Signed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Base imponible firmado"
+=======
+msgstr "Importe base con signo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Importe base con signo"
 >>>>>>> upstream/18.0
@@ -184647,7 +186108,11 @@ msgid "Untaxed Amount Signed Currency"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Base imponible en la moneda firmada"
+=======
+msgstr "Importe base con signo en la moneda"
+>>>>>>> upstream/18.0
 =======
 msgstr "Importe base con signo en la moneda"
 >>>>>>> upstream/18.0
@@ -184964,7 +186429,11 @@ msgid "Untaxed Amount in Currency"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Base imponible en la moneda"
+=======
+msgstr "Importe base en la moneda"
+>>>>>>> upstream/18.0
 =======
 msgstr "Importe base en la moneda"
 >>>>>>> upstream/18.0
@@ -185281,7 +186750,11 @@ msgid "Untaxed amount"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Base imponible"
+=======
+msgstr "Importe base"
+>>>>>>> upstream/18.0
 =======
 msgstr "Importe base"
 >>>>>>> upstream/18.0
@@ -185774,8 +187247,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Use the “<i>Send by Post</i>” option to post invoices automatically. For the"
 " cost of a local stamp, we do all the manual work: your invoice will be "
+=======
+"Use the “<i>Send by Post</i>” option to post invoices automatically. For the "
+"cost of a local stamp, we do all the manual work: your invoice will be "
+>>>>>>> upstream/18.0
 =======
 "Use the “<i>Send by Post</i>” option to post invoices automatically. For the "
 "cost of a local stamp, we do all the manual work: your invoice will be "
@@ -186352,8 +187830,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "un sobre y se enviará por correo postal. Utilice esta función de la vista de"
 " lista para registrar cientos de facturas de forma masiva."
+=======
+"un sobre y se enviará por correo postal. Utilice esta función de la vista de "
+"lista para registrar cientos de facturas de forma masiva."
+>>>>>>> upstream/18.0
 =======
 "un sobre y se enviará por correo postal. Utilice esta función de la vista de "
 "lista para registrar cientos de facturas de forma masiva."
@@ -186930,11 +188413,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Odoo will automatically create one invoice line with default values to match it."
 msgstr ""
 "Utilice este campo para codificar el importe total de la factura.\n"
 "Odoo creará automáticamente una línea de factura con valores por defecto que coincida con ella."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -187280,6 +188766,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -187657,8 +189146,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Used to register a profit when the ending balance of a cash register differs"
 " from what the system computes"
+=======
+"Used to register a profit when the ending balance of a cash register differs "
+"from what the system computes"
+>>>>>>> upstream/18.0
 =======
 "Used to register a profit when the ending balance of a cash register differs "
 "from what the system computes"
@@ -188322,8 +189816,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Valide la línea de la declaración automáticamente (conciliación basada en su"
 " regla)."
+=======
+"Valide la línea de la declaración automáticamente (conciliación basada en su "
+"regla)."
+>>>>>>> upstream/18.0
 =======
 "Valide la línea de la declaración automáticamente (conciliación basada en su "
 "regla)."
@@ -188921,9 +190420,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "    * Fixed: The fixed value of the writeoff. The amount will count as a debit if it is negative, as a credit if it is positive.\n"
 "    * From Label: There is no need for regex delimiter, only the regex is needed. For instance if you want to extract the amount from\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -189267,6 +190769,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -189614,9 +191119,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "    * Fijo: El valor fijo del desajuste. El importe contará como débito si es negativo, como crédito si es positivo.\n"
 "    * De la etiqueta: no es necesario un delimitador de expresiones regulares, solo se necesita la expresión regular. Por ejemplo, si desea extraer la cantidad de\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -189961,6 +191469,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -190417,9 +191928,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    de compra o las recepciones. Esto le permite controlar las facturas\n"
 "                    que recibe de su proveedor de acuerdo con los documentos en borrador\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -190763,6 +192277,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -191181,12 +192698,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "We cannot find a chart of accounts for this company, you should configure it. \n"
 "Please go to Account Configuration and select or install a fiscal localization."
 msgstr ""
 "No podemos encontrar un plan contable para esta empresa. Debe configurarlo.\n"
 "Por favor, diríjase a la configuración de cuenta y seleccione o instale una localización fiscal."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -191534,6 +193054,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -191921,12 +193444,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "When checked this line and everything after it will be printed on a new "
 "page."
 msgstr ""
 "Cuando esta línea se encuentra seleccionada y todo lo que sigue se imprimirá"
 " en una nueva página."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -192270,6 +193796,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -192620,8 +194149,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "When checked, 0 values will not show when displaying this expression's "
 "value."
+=======
+"When checked, 0 values will not show when displaying this expression's value."
+>>>>>>> upstream/18.0
 =======
 "When checked, 0 values will not show when displaying this expression's value."
 >>>>>>> upstream/18.0
@@ -193156,8 +194689,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Escriba el nombre de un cliente para <b>crear uno</b> o <b>ver "
 "sugerencias</b>."
+=======
+"Escriba el nombre de un cliente para <b>crear uno</b> o <b>ver sugerencias</"
+"b>."
+>>>>>>> upstream/18.0
 =======
 "Escriba el nombre de un cliente para <b>crear uno</b> o <b>ver sugerencias</"
 "b>."
@@ -193734,8 +195272,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Escriba aquí <b>su propia dirección de correo electrónico</b> para probar el"
 " flujo."
+=======
+"Escriba aquí <b>su propia dirección de correo electrónico</b> para probar el "
+"flujo."
+>>>>>>> upstream/18.0
 =======
 "Escriba aquí <b>su propia dirección de correo electrónico</b> para probar el "
 "flujo."
@@ -194384,6 +195927,7 @@ msgstr "¡Valor de crédito o débito incorrecto en el asiento contable!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -194427,6 +195971,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -194945,6 +196491,9 @@ msgstr "Formato XML"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -195439,11 +196988,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "No puede archivar un diario que contiene asientos contables en estado de borrador.\n"
 "\n"
 "Para continuar:\n"
 "1. Haga clic en el botón \"asientos contables\" en la parte superior derecha en el formulario del diario.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -195789,6 +197341,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -196155,8 +197710,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You can only change the period/account for items that are not yet "
 "reconciled."
+=======
+"You can only change the period/account for items that are not yet reconciled."
+>>>>>>> upstream/18.0
 =======
 "You can only change the period/account for items that are not yet reconciled."
 >>>>>>> upstream/18.0
@@ -196646,8 +198205,12 @@ msgstr "Solo puede publicar el pago de los asientos publicados."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "You can only request a cancellation for invoice sent to the government."
+=======
+msgid "You can only request a cancellation for invoice sent to the government."
+>>>>>>> upstream/18.0
 =======
 msgid "You can only request a cancellation for invoice sent to the government."
 >>>>>>> upstream/18.0
@@ -197204,10 +198767,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "You can't create payments for entries belonging to different branches."
 msgstr ""
 "No puede crear pagos para asientos que pertenezcan a diferentes sucursales."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -197617,10 +199183,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+"No puede crear pagos para asientos que pertenezcan a diferentes sucursales "
+"sin acceso a la compañía principal."
 >>>>>>> upstream/18.0
 =======
 "No puede crear pagos para asientos que pertenezcan a diferentes sucursales "
@@ -198272,8 +199843,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "You can't create payments for entries belonging to different companies."
+=======
+msgid "You can't create payments for entries belonging to different companies."
+>>>>>>> upstream/18.0
 =======
 msgid "You can't create payments for entries belonging to different companies."
 >>>>>>> upstream/18.0
@@ -198760,12 +200335,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You can't have two payment method lines of the same payment type "
 "(%(payment_type)s) and with the same name (%(name)s) on a single journal."
 msgstr ""
 "No puede tener dos líneas de método de pago del mismo tipo de pago "
 "(%(payment_type)s) y con el mismo nombre (%(name)s) en el mismo diario."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -199110,6 +200688,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -199456,8 +201037,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You can't open the register payment wizard without at least one "
 "receivable/payable line."
+=======
+"You can't open the register payment wizard without at least one receivable/"
+"payable line."
+>>>>>>> upstream/18.0
 =======
 "You can't open the register payment wizard without at least one receivable/"
 "payable line."
@@ -200036,12 +201622,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You can't provide a foreign currency without specifying an amount in 'Amount"
 " in Currency' field."
 msgstr ""
 "No puede proporcionar una moneda extranjera sin especificar un importe en el"
 " campo de \"Importe en moneda\"."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -200386,6 +201975,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -200732,8 +202324,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You can't provide an amount in foreign currency without specifying a foreign"
 " currency."
+=======
+"You can't provide an amount in foreign currency without specifying a foreign "
+"currency."
+>>>>>>> upstream/18.0
 =======
 "You can't provide an amount in foreign currency without specifying a foreign "
 "currency."
@@ -201342,8 +202939,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You can't unlink this company from this account since there are some journal"
 " items linked to it."
+=======
+"You can't unlink this company from this account since there are some journal "
+"items linked to it."
+>>>>>>> upstream/18.0
 =======
 "You can't unlink this company from this account since there are some journal "
 "items linked to it."
@@ -201933,8 +203535,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "No puede cambiar la moneda de la compañía, ya que contiene asientos "
 "contables"
+=======
+"No puede cambiar la moneda de la compañía, ya que contiene asientos contables"
+>>>>>>> upstream/18.0
 =======
 "No puede cambiar la moneda de la compañía, ya que contiene asientos contables"
 >>>>>>> upstream/18.0
@@ -202396,8 +204002,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot change the type of an account set as Bank Account on a journal to"
 " Receivable or Payable."
+=======
+"You cannot change the type of an account set as Bank Account on a journal to "
+"Receivable or Payable."
+>>>>>>> upstream/18.0
 =======
 "You cannot change the type of an account set as Bank Account on a journal to "
 "Receivable or Payable."
@@ -203015,8 +204626,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "No se puede eliminar una línea por pagar/cobrar, ya que no sería consistente"
 " con los condiciones de pago"
+=======
+"No se puede eliminar una línea por pagar/cobrar, ya que no sería consistente "
+"con los condiciones de pago"
+>>>>>>> upstream/18.0
 =======
 "No se puede eliminar una línea por pagar/cobrar, ya que no sería consistente "
 "con los condiciones de pago"
@@ -203628,8 +205244,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot delete this mail template, it is used in the invoice sending "
 "flow."
+=======
+"You cannot delete this mail template, it is used in the invoice sending flow."
+>>>>>>> upstream/18.0
 =======
 "You cannot delete this mail template, it is used in the invoice sending flow."
 >>>>>>> upstream/18.0
@@ -204121,11 +205741,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot do this modification on a reconciled journal entry. You can just change some non legal fields or you must unreconcile first.\n"
 "Journal Entry (id): %(entry)s (%(id)s)"
 msgstr ""
 "No puede hacer esta modificación en un asiento conciliado. Puede cambiar algunos campos no legales, o romper antes la conciliación.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -204471,6 +206094,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -204852,8 +206478,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "No puede editar el diario de un asiento con un número de secuencia asignado,"
 " a menos que se elimine el nombre o se ponga \"/\". Esto podría crear un "
+=======
+"No puede editar el diario de un asiento con un número de secuencia asignado, "
+"a menos que se elimine el nombre o se ponga \"/\". Esto podría crear un "
+>>>>>>> upstream/18.0
 =======
 "No puede editar el diario de un asiento con un número de secuencia asignado, "
 "a menos que se elimine el nombre o se ponga \"/\". Esto podría crear un "
@@ -205433,8 +207064,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "No puede tener una cuenta por cobrar/a pagar que no sea conciliable. (Código"
 " de cuenta: %s)"
+=======
+"No puede tener una cuenta por cobrar/a pagar que no sea conciliable. (Código "
+"de cuenta: %s)"
+>>>>>>> upstream/18.0
 =======
 "No puede tener una cuenta por cobrar/a pagar que no sea conciliable. (Código "
 "de cuenta: %s)"
@@ -206042,8 +207678,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "No puede modificar el número de cuenta o el contacto de una cuenta que se ha"
 " marcado que es de confianza."
+=======
+"No puede modificar el número de cuenta o el contacto de una cuenta que se ha "
+"marcado que es de confianza."
+>>>>>>> upstream/18.0
 =======
 "No puede modificar el número de cuenta o el contacto de una cuenta que se ha "
 "marcado que es de confianza."
@@ -206639,8 +208280,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "No puede modificar los impuestos relacionados con un asiento publicado. Debe"
 " restablecer el asiento a borrador para hacerlo."
+=======
+"No puede modificar los impuestos relacionados con un asiento publicado. Debe "
+"restablecer el asiento a borrador para hacerlo."
+>>>>>>> upstream/18.0
 =======
 "No puede modificar los impuestos relacionados con un asiento publicado. Debe "
 "restablecer el asiento a borrador para hacerlo."
@@ -207233,8 +208879,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "No puede reducir el número de decimales de una moneda que ya se ha utilizado"
 " para realizar asientos contables."
+=======
+"No puede reducir el número de decimales de una moneda que ya se ha utilizado "
+"para realizar asientos contables."
+>>>>>>> upstream/18.0
 =======
 "No puede reducir el número de decimales de una moneda que ya se ha utilizado "
 "para realizar asientos contables."
@@ -207922,7 +209573,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -208394,6 +210048,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #. module: account
 #. odoo-python
@@ -208405,6 +210060,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -208869,6 +210526,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -209340,8 +211000,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot use this account (%s) in this journal, check the section "
 "'Control-Access' under tab 'Advanced Settings' on the related journal."
+=======
+"You cannot use this account (%s) in this journal, check the section 'Control-"
+"Access' under tab 'Advanced Settings' on the related journal."
+>>>>>>> upstream/18.0
 =======
 "You cannot use this account (%s) in this journal, check the section 'Control-"
 "Access' under tab 'Advanced Settings' on the related journal."
@@ -209989,6 +211654,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -210047,6 +211713,8 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -210688,8 +212356,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "third party in the context of any claim for damages filed against the client"
 " by an end consumer."
+=======
+"third party in the context of any claim for damages filed against the client "
+"by an end consumer."
+>>>>>>> upstream/18.0
 =======
 "third party in the context of any claim for damages filed against the client "
 "by an end consumer."
@@ -211388,7 +213061,10 @@ msgstr "aquí"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -211736,6 +213412,9 @@ msgstr "en"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -212089,8 +213768,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "en su totalidad y no incluye ningún coste relacionado con la legislación del"
 " país en el que se encuentra el cliente."
+=======
+"en su totalidad y no incluye ningún coste relacionado con la legislación del "
+"país en el que se encuentra el cliente."
+>>>>>>> upstream/18.0
 =======
 "en su totalidad y no incluye ningún coste relacionado con la legislación del "
 "país en el que se encuentra el cliente."
@@ -212689,11 +214373,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            Double check if the account can be trusted by calling the vendor.<br/>"
 msgstr ""
 "es un servicio de transferencia de dinero y no un banco.\n"
 "                            Llame al proveedor para verificar si se puede confiar en la cuenta.<br/>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -213039,6 +214726,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -213409,8 +215099,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "must be notified of any claim by means of a letter sent by recorded delivery"
 " to its registered office within 8 days of the delivery of the goods or the "
+=======
+"must be notified of any claim by means of a letter sent by recorded delivery "
+"to its registered office within 8 days of the delivery of the goods or the "
+>>>>>>> upstream/18.0
 =======
 "must be notified of any claim by means of a letter sent by recorded delivery "
 "to its registered office within 8 days of the delivery of the goods or the "
@@ -214041,8 +215736,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "se reserva el derecho de recurrir a los servicios de una empresa de cobro de"
 " deudas. Todos los gastos legales correrán a cargo del cliente."
+=======
+"se reserva el derecho de recurrir a los servicios de una empresa de cobro de "
+"deudas. Todos los gastos legales correrán a cargo del cliente."
+>>>>>>> upstream/18.0
 =======
 "se reserva el derecho de recurrir a los servicios de una empresa de cobro de "
 "deudas. Todos los gastos legales correrán a cargo del cliente."
@@ -214620,8 +216320,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "se reserva el derecho de solicitar un pago de intereses fijo que asciende al"
 " 10 % de la suma que queda por pagar."
+=======
+"se reserva el derecho de solicitar un pago de intereses fijo que asciende al "
+"10 % de la suma que queda por pagar."
+>>>>>>> upstream/18.0
 =======
 "se reserva el derecho de solicitar un pago de intereses fijo que asciende al "
 "10 % de la suma que queda por pagar."
@@ -215232,8 +216937,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "se compromete a hacer todo lo posible para prestar los servicios en el plazo"
 " acordado. Sin embargo, ninguna de sus obligaciones puede considerarse como "
+=======
+"se compromete a hacer todo lo posible para prestar los servicios en el plazo "
+"acordado. Sin embargo, ninguna de sus obligaciones puede considerarse como "
+>>>>>>> upstream/18.0
 =======
 "se compromete a hacer todo lo posible para prestar los servicios en el plazo "
 "acordado. Sin embargo, ninguna de sus obligaciones puede considerarse como "
@@ -215880,12 +217590,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "{{ object.company_id.name }} Payment Receipt (Ref {{ object.name or 'n/a' "
 "}})"
 msgstr ""
 "{{ object.company_id.name }} Comprobante de pago (Ref {{ object.name or "
 "'n/a' }})"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -216152,6 +217865,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #~ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -216341,6 +218055,11 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+#~ msgid "Invoice PDF"
+#~ msgstr "PDF de la factura"
+
 >>>>>>> upstream/18.0
 =======
 #~ msgid "Invoice PDF"
@@ -216485,6 +218204,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -216604,6 +218326,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -216757,6 +218482,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -216982,6 +218710,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -217282,6 +219013,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -464,7 +464,11 @@ describe("list", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should not outdent while nested within a list item if the list is unbreakable", async () => {
+=======
+        test("should not outdent while nested within a list item if the list is unbreakable (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should not outdent while nested within a list item if the list is unbreakable (1)", async () => {
 >>>>>>> upstream/18.0
@@ -531,6 +535,11 @@ describe("list", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+        test("should not outdent while nested within a list item if the list is unbreakable (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
         test("should not outdent while nested within a list item if the list is unbreakable (2)", async () => {
@@ -614,6 +623,11 @@ describe("list", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+        test("should not outdent while nested within a list item if the list is unbreakable (3)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
         test("should not outdent while nested within a list item if the list is unbreakable (3)", async () => {
@@ -697,6 +711,11 @@ describe("list", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+        test("should not outdent while nested within a list item if the list is unbreakable (4)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
         test("should not outdent while nested within a list item if the list is unbreakable (4)", async () => {
@@ -780,6 +799,11 @@ describe("list", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+        test("should not outdent while nested within a list item if the list is unbreakable (5)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
         test("should not outdent while nested within a list item if the list is unbreakable (5)", async () => {

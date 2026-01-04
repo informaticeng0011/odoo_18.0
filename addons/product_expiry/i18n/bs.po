@@ -40,6 +40,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
@@ -149,6 +153,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~11.5\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2023-05-16 13:49+0000\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -257,6 +262,9 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-11-25 09:51+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Bosnian <https://translate.odoo.com/projects/odoo-18/"
@@ -295,6 +303,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -368,6 +379,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -583,6 +595,25 @@ msgstr ""
 #. module: product_expiry
 #: model_terms:ir.ui.view,arch_db:product_expiry.view_move_form_expiry
 msgid "<span class=\"badge text-bg-danger\" attrs=\"{'invisible': [('product_expiry_alert', '=', False)]}\">Expiration Alert</span>"
+=======
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.12.2\n"
+
+#. module: product_expiry
+#: model_terms:ir.ui.view,arch_db:product_expiry.view_move_form_expiry
+msgid ""
+"<span class=\"badge text-bg-danger\" invisible=\"not "
+"product_expiry_alert\">Expiration Alert</span>"
+msgstr ""
+
+#. module: product_expiry
+#: model_terms:ir.ui.view,arch_db:product_expiry.view_production_lot_view_kanban
+msgid ""
+"<span title=\"Alert\" class=\"fa fa-exclamation-triangle text-danger me-2\" "
+"invisible=\"product_qty &lt;= 0 or not product_expiry_alert or not "
+"expiration_date\"/>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: product_expiry
@@ -624,11 +655,14 @@ msgid "Best before Date"
 msgstr "Najbolje prije"
 
 #. module: product_expiry
+<<<<<<< HEAD
 #: model:ir.model,name:product_expiry.model_stock_quant_reserve_line
 msgid "Choose quantity to reserve from each stock quant"
 msgstr ""
 
 #. module: product_expiry
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model,name:product_expiry.model_res_config_settings
 msgid "Config Settings"
 msgstr ""
@@ -671,7 +705,11 @@ msgid "Confirm"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Portvrdi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Portvrdi"
 >>>>>>> upstream/18.0
@@ -823,7 +861,11 @@ msgid "Confirmation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Potvrda"
+>>>>>>> upstream/18.0
 =======
 msgstr "Potvrda"
 >>>>>>> upstream/18.0
@@ -968,7 +1010,11 @@ msgid "Created by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kreirao"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kreirao"
 >>>>>>> upstream/18.0
@@ -1078,6 +1124,7 @@ msgstr "Kreirao"
 #. module: product_expiry
 #: model:ir.model.fields,field_description:product_expiry.field_expiry_picking_confirmation__create_date
 msgid "Created on"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1223,6 +1270,15 @@ msgstr "Kreirano"
 #. module: product_expiry
 #: model:ir.model.fields,help:product_expiry.field_stock_lot__alert_date
 msgid "Date to determine the expired lots and serial numbers using the filter \"Expiration Alerts\"."
+=======
+msgstr "Kreirano"
+
+#. module: product_expiry
+#: model:ir.model.fields,help:product_expiry.field_stock_lot__alert_date
+msgid ""
+"Date to determine the expired lots and serial numbers using the filter "
+"\"Expiration Alerts\"."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: product_expiry
@@ -1269,7 +1325,11 @@ msgid "Description"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Opis"
+>>>>>>> upstream/18.0
 =======
 msgstr "Opis"
 >>>>>>> upstream/18.0
@@ -1414,7 +1474,11 @@ msgid "Discard"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odbaci"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odbaci"
 >>>>>>> upstream/18.0
@@ -1564,7 +1628,11 @@ msgid "Display Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prikazani naziv"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prikazani naziv"
 >>>>>>> upstream/18.0
@@ -1688,6 +1756,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:product_expiry.field_stock_lot__expiration_date
 #: model:ir.model.fields,field_description:product_expiry.field_stock_move_line__expiration_date
 #: model:ir.model.fields,field_description:product_expiry.field_stock_quant__expiration_date
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:product_expiry.field_stock_quant_reserve_line__expiration_date
 #: model_terms:ir.ui.view,arch_db:product_expiry.stock_report_delivery_document_inherit_product_expiry
 #: model_terms:ir.ui.view,arch_db:product_expiry.view_product_form_expiry
@@ -1833,6 +1902,12 @@ msgstr "Datum isteka roka"
 =======
 msgstr "Datum isteka roka"
 >>>>>>> upstream/18.0
+=======
+#: model_terms:ir.ui.view,arch_db:product_expiry.stock_report_delivery_document_inherit_product_expiry
+#: model_terms:ir.ui.view,arch_db:product_expiry.view_product_form_expiry
+msgid "Expiration Date"
+msgstr "Datum isteka roka"
+>>>>>>> upstream/18.0
 
 #. module: product_expiry
 #: model_terms:ir.ui.view,arch_db:product_expiry.res_config_settings_view_form_stock
@@ -1840,6 +1915,14 @@ msgid "Expiration dates will appear on the delivery slip"
 msgstr ""
 
 #. module: product_expiry
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:product_expiry.view_production_lot_view_kanban
+msgid "Expiration:"
+msgstr ""
+
+#. module: product_expiry
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:product_expiry.confirm_expiry_view
 msgid "Expired Lot(s)"
 msgstr ""
@@ -1850,6 +1933,7 @@ msgid "Expiry has been reminded"
 msgstr ""
 
 #. module: product_expiry
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:product_expiry.field_expiry_picking_confirmation__id
 msgid "ID"
 <<<<<<< HEAD
@@ -1993,6 +2077,16 @@ msgstr "ID"
 =======
 msgstr "ID"
 >>>>>>> upstream/18.0
+=======
+#: model:product.removal,name:product_expiry.removal_fefo
+msgid "First Expiry First Out (FEFO)"
+msgstr ""
+
+#. module: product_expiry
+#: model:ir.model.fields,field_description:product_expiry.field_expiry_picking_confirmation__id
+msgid "ID"
+msgstr "ID"
+>>>>>>> upstream/18.0
 
 #. module: product_expiry
 #: model:res.groups,name:product_expiry.group_expiry_date_on_delivery_slip
@@ -2037,7 +2131,11 @@ msgid "Last Updated by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zadnji ažurirao"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zadnji ažurirao"
 >>>>>>> upstream/18.0
@@ -2182,7 +2280,11 @@ msgid "Last Updated on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zadnje ažurirano"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zadnje ažurirano"
 >>>>>>> upstream/18.0
@@ -2327,7 +2429,11 @@ msgid "Lot"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Lot"
+>>>>>>> upstream/18.0
 =======
 msgstr "Lot"
 >>>>>>> upstream/18.0
@@ -2440,6 +2546,7 @@ msgid "Lot/Serial"
 msgstr "Lot/Serijski"
 
 #. module: product_expiry
+<<<<<<< HEAD
 #: model:ir.model,name:product_expiry.model_stock_quant_reserve
 msgid "Manually reserve stock"
 msgstr ""
@@ -2448,24 +2555,52 @@ msgstr ""
 #: model:ir.model.fields,help:product_expiry.field_product_product__expiration_time
 #: model:ir.model.fields,help:product_expiry.field_product_template__expiration_time
 msgid "Number of days after the receipt of the products (from the vendor or in stock after production) after which the goods may become dangerous and must not be consumed. It will be computed on the lot/serial number."
+=======
+#: model:ir.model.fields,help:product_expiry.field_product_product__expiration_time
+#: model:ir.model.fields,help:product_expiry.field_product_template__expiration_time
+msgid ""
+"Number of days after the receipt of the products (from the vendor or in "
+"stock after production) after which the goods may become dangerous and must "
+"not be consumed. It will be computed on the lot/serial number."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: product_expiry
 #: model:ir.model.fields,help:product_expiry.field_product_product__alert_time
 #: model:ir.model.fields,help:product_expiry.field_product_template__alert_time
+<<<<<<< HEAD
 msgid "Number of days before the Expiration Date after which an alert should be raised on the lot/serial number. It will be computed on the lot/serial number."
+=======
+msgid ""
+"Number of days before the Expiration Date after which an alert should be "
+"raised on the lot/serial number. It will be computed on the lot/serial "
+"number."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: product_expiry
 #: model:ir.model.fields,help:product_expiry.field_product_product__removal_time
 #: model:ir.model.fields,help:product_expiry.field_product_template__removal_time
+<<<<<<< HEAD
 msgid "Number of days before the Expiration Date after which the goods should be removed from the stock. It will be computed on the lot/serial number."
+=======
+msgid ""
+"Number of days before the Expiration Date after which the goods should be "
+"removed from the stock. It will be computed on the lot/serial number."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: product_expiry
 #: model:ir.model.fields,help:product_expiry.field_product_product__use_time
 #: model:ir.model.fields,help:product_expiry.field_product_template__use_time
+<<<<<<< HEAD
 msgid "Number of days before the Expiration Date after which the goods starts deteriorating, without being dangerous yet. It will be computed on the lot/serial number."
+=======
+msgid ""
+"Number of days before the Expiration Date after which the goods starts "
+"deteriorating, without being dangerous yet. It will be computed on the lot/"
+"serial number."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: product_expiry
@@ -2506,7 +2641,11 @@ msgid "Picking"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prikupljanje proizvoda"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prikupljanje proizvoda"
 >>>>>>> upstream/18.0
@@ -2661,7 +2800,11 @@ msgid "Product"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Proizvod"
+>>>>>>> upstream/18.0
 =======
 msgstr "Proizvod"
 >>>>>>> upstream/18.0
@@ -2817,7 +2960,11 @@ msgid "Product Variant"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Varijante proizvoda"
+>>>>>>> upstream/18.0
 =======
 msgstr "Varijante proizvoda"
 >>>>>>> upstream/18.0
@@ -2938,6 +3085,14 @@ msgid "Removal Date"
 msgstr "Datum uklanjanja"
 
 #. module: product_expiry
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:product_expiry.view_production_lot_view_kanban
+msgid "Removal:"
+msgstr ""
+
+#. module: product_expiry
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:product_expiry.field_expiry_picking_confirmation__show_lots
 msgid "Show Lots"
 msgstr ""
@@ -2980,7 +3135,11 @@ msgid "Stock Move"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kretanje zalihe"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kretanje zalihe"
 >>>>>>> upstream/18.0
@@ -3103,18 +3262,34 @@ msgstr ""
 #: model:ir.model.fields,help:product_expiry.field_stock_lot__expiration_date
 #: model:ir.model.fields,help:product_expiry.field_stock_move_line__expiration_date
 #: model:ir.model.fields,help:product_expiry.field_stock_quant__expiration_date
+<<<<<<< HEAD
 #: model:ir.model.fields,help:product_expiry.field_stock_quant_reserve_line__expiration_date
 msgid "This is the date on which the goods with this Serial Number may become dangerous and must not be consumed."
 msgstr "Ovo je datum kada roba sa ovim serijskim brojem može postati opasna i ne smije biti konzumirana."
+=======
+msgid ""
+"This is the date on which the goods with this Serial Number may become "
+"dangerous and must not be consumed."
+msgstr ""
+"Ovo je datum kada roba sa ovim serijskim brojem može postati opasna i ne "
+"smije biti konzumirana."
+>>>>>>> upstream/18.0
 
 #. module: product_expiry
 #: model:ir.model.fields,help:product_expiry.field_stock_lot__removal_date
 #: model:ir.model.fields,help:product_expiry.field_stock_quant__removal_date
+<<<<<<< HEAD
 msgid "This is the date on which the goods with this Serial Number should be removed from the stock. This date will be used in FEFO removal strategy."
+=======
+msgid ""
+"This is the date on which the goods with this Serial Number should be "
+"removed from the stock. This date will be used in FEFO removal strategy."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: product_expiry
 #: model:ir.model.fields,help:product_expiry.field_stock_lot__use_date
+<<<<<<< HEAD
 msgid "This is the date on which the goods with this Serial Number start deteriorating, without being dangerous yet."
 msgstr "Ovo je datum kada roba sa ovim serijskim brojem počinje da propada, ali još nije opasna."
 
@@ -3129,6 +3304,14 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:product_expiry.view_stock_move_line_operation_tree_expiry
 msgid "This lot is expired."
 msgstr ""
+=======
+msgid ""
+"This is the date on which the goods with this Serial Number start "
+"deteriorating, without being dangerous yet."
+msgstr ""
+"Ovo je datum kada roba sa ovim serijskim brojem počinje da propada, ali još "
+"nije opasna."
+>>>>>>> upstream/18.0
 
 #. module: product_expiry
 #: model:ir.model,name:product_expiry.model_stock_picking
@@ -3168,7 +3351,11 @@ msgid "Transfer"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prenos"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prenos"
 >>>>>>> upstream/18.0
@@ -3282,7 +3469,10 @@ msgstr "Prenos"
 #: model:ir.model.fields,field_description:product_expiry.field_stock_move__use_expiration_date
 #: model:ir.model.fields,field_description:product_expiry.field_stock_move_line__use_expiration_date
 #: model:ir.model.fields,field_description:product_expiry.field_stock_quant__use_expiration_date
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:product_expiry.field_stock_quant_reserve__show_expiry
+=======
+>>>>>>> upstream/18.0
 msgid "Use Expiration Date"
 msgstr ""
 
@@ -3293,8 +3483,15 @@ msgstr ""
 #: model:ir.model.fields,help:product_expiry.field_stock_move__use_expiration_date
 #: model:ir.model.fields,help:product_expiry.field_stock_move_line__use_expiration_date
 #: model:ir.model.fields,help:product_expiry.field_stock_quant__use_expiration_date
+<<<<<<< HEAD
 #: model:ir.model.fields,help:product_expiry.field_stock_quant_reserve__show_expiry
 msgid "When this box is ticked, you have the possibility to specify dates to manage product expiration, on the product and on the corresponding lot/serial numbers"
+=======
+msgid ""
+"When this box is ticked, you have the possibility to specify dates to manage "
+"product expiration, on the product and on the corresponding lot/serial "
+"numbers"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: product_expiry
@@ -3309,7 +3506,12 @@ msgstr ""
 #. odoo-python
 #: code:addons/product_expiry/wizard/confirm_expiry.py:0
 msgid ""
+<<<<<<< HEAD
 "You are going to deliver the product %(product_name)s, %(lot_name)s which is expired.\n"
+=======
+"You are going to deliver the product %(product_name)s, %(lot_name)s which is "
+"expired.\n"
+>>>>>>> upstream/18.0
 "Do you confirm you want to proceed?"
 msgstr ""
 
@@ -3396,3 +3598,11 @@ msgid ""
 "^FS\n"
 "^FO100,250^BY3"
 msgstr ""
+<<<<<<< HEAD
+=======
+
+#. module: product_expiry
+#: model:product.removal,method:product_expiry.removal_fefo
+msgid "fefo"
+msgstr ""
+>>>>>>> upstream/18.0

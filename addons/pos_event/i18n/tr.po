@@ -1,7 +1,11 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* pos_event
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Ediz Duman <neps1192@gmail.com>, 2024
 # Nadir Gazioglu <nadirgazioglu@gmail.com>, 2024
@@ -192,6 +196,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Deniz Guvener, 2025
 >>>>>>> upstream/18.0
@@ -718,10 +723,15 @@
 # Deniz Guvener_Odoo <degu@odoo.com>, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+# Deniz Guvener_Odoo <degu@odoo.com>, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
 "PO-Revision-Date: 2024-09-29 00:00+0000\n"
 <<<<<<< HEAD
@@ -1430,12 +1440,23 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: tr\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2024-09-29 00:00+0000\n"
+"Last-Translator: Deniz Guvener_Odoo <degu@odoo.com>, 2025\n"
+"Language-Team: Turkish (https://app.transifex.com/odoo/teams/41243/tr/)\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+>>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #. module: pos_event
 #. odoo-javascript
 #: code:addons/pos_event/static/src/app/popup/event_configurator_popup/event_configurator_popup.js:0
 msgid " (%s seats available)"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2101,11 +2122,15 @@ msgstr " (%s uygun koltuk)"
 =======
 msgstr " (%s uygun koltuk)"
 >>>>>>> upstream/18.0
+=======
+msgstr " (%s uygun koltuk)"
+>>>>>>> upstream/18.0
 
 #. module: pos_event
 #. odoo-javascript
 #: code:addons/pos_event/static/src/app/popup/event_registration_popup/event_registration_popup.xml:0
 msgid "--- Select ---"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4441,6 +4466,25 @@ msgstr ""
 "<i class=\"fa fa-file-pdf-o me-1\" aria-hidden=\"true\"/>Etkinlik "
 "Biletlerini Yazdırın"
 >>>>>>> upstream/18.0
+=======
+msgstr "--- Seçin ---"
+
+#. module: pos_event
+#: model_terms:ir.ui.view,arch_db:pos_event.pos_order_form_view_inherit
+msgid ""
+"<i class=\"fa fa-file-pdf-o me-1\" aria-hidden=\"true\"/>Print Event Badges"
+msgstr ""
+"<i class=\"fa fa-file-pdf-o me-1\" aria-hidden=\"true\"/>Etkinlik Yaka "
+"Kartlarını Yazdırın"
+
+#. module: pos_event
+#: model_terms:ir.ui.view,arch_db:pos_event.pos_order_form_view_inherit
+msgid ""
+"<i class=\"fa fa-file-pdf-o me-1\" aria-hidden=\"true\"/>Print Event Tickets"
+msgstr ""
+"<i class=\"fa fa-file-pdf-o me-1\" aria-hidden=\"true\"/>Etkinlik "
+"Biletlerini Yazdırın"
+>>>>>>> upstream/18.0
 
 #. module: pos_event
 #: model:ir.model.fields,field_description:pos_event.field_pos_order__attendee_count
@@ -4683,7 +4727,11 @@ msgid "Event name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Etkinlik adı"
+>>>>>>> upstream/18.0
 =======
 msgstr "Etkinlik adı"
 >>>>>>> upstream/18.0
@@ -5376,7 +5424,11 @@ msgid "Global questions"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Genel sorular"
+>>>>>>> upstream/18.0
 =======
 msgstr "Genel sorular"
 >>>>>>> upstream/18.0
@@ -6057,7 +6109,11 @@ msgid "PoS Image"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "PoS Görseli"
+>>>>>>> upstream/18.0
 =======
 msgstr "PoS Görseli"
 >>>>>>> upstream/18.0
@@ -6738,7 +6794,11 @@ msgid "PoS Order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "PoS Siparişi"
+>>>>>>> upstream/18.0
 =======
 msgstr "PoS Siparişi"
 >>>>>>> upstream/18.0
@@ -7416,7 +7476,11 @@ msgid "PoS Order Line"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "PoS Sipariş Hattı"
+>>>>>>> upstream/18.0
 =======
 msgstr "PoS Sipariş Hattı"
 >>>>>>> upstream/18.0
@@ -8109,7 +8173,11 @@ msgid "Print Full Page Ticket"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tam Sayfa Fiş Yazdırın"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tam Sayfa Fiş Yazdırın"
 >>>>>>> upstream/18.0
@@ -8770,7 +8838,11 @@ msgid "Select tickets for %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bilet seçin: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Bilet seçin: %s"
 >>>>>>> upstream/18.0
@@ -9445,6 +9517,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Seçmiş olduğunuz bilete (%s) ulaşılamıyor. Lütfen başka bir bilet seçin."
+>>>>>>> upstream/18.0
 =======
 "Seçmiş olduğunuz bilete (%s) ulaşılamıyor. Lütfen başka bir bilet seçin."
 >>>>>>> upstream/18.0
@@ -10132,7 +10208,11 @@ msgid "Ticket error"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bilet hatası"
+>>>>>>> upstream/18.0
 =======
 msgstr "Bilet hatası"
 >>>>>>> upstream/18.0
@@ -10826,7 +10906,11 @@ msgid "Unlimited"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sınırsız"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sınırsız"
 >>>>>>> upstream/18.0
@@ -11356,6 +11440,7 @@ msgstr "Sınırsız"
 #. module: pos_event
 #. odoo-javascript
 #: code:addons/pos_event/static/src/app/models/pos_order_line.js:0
+<<<<<<< HEAD
 msgid ""
 "You cannot change quantity for a line linked with an event registration"
 <<<<<<< HEAD
@@ -12021,6 +12106,10 @@ msgstr "Bir etkinlik kaydıyla bağlantılı satırın miktarı değiştirilemez
 msgstr "Bir etkinlik kaydıyla bağlantılı satırın miktarı değiştirilemez"
 >>>>>>> upstream/18.0
 =======
+msgstr "Bir etkinlik kaydıyla bağlantılı satırın miktarı değiştirilemez"
+>>>>>>> upstream/18.0
+=======
+msgid "You cannot change quantity for a line linked with an event registration"
 msgstr "Bir etkinlik kaydıyla bağlantılı satırın miktarı değiştirilemez"
 >>>>>>> upstream/18.0
 

@@ -55,6 +55,10 @@ export class LinkPopoverWidget {
         this.href = this.$target.attr('href'); // for template
         this._keepLastPromise = new KeepLast();
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.isDocument = !!(this.$target.attr("data-mimetype") && this.$target[0].dataset.mimetype.startsWith("image"));
+>>>>>>> upstream/18.0
 =======
         this.isDocument = !!(this.$target.attr("data-mimetype") && this.$target[0].dataset.mimetype.startsWith("image"));
 >>>>>>> upstream/18.0
@@ -72,12 +76,18 @@ export class LinkPopoverWidget {
         this.$fullUrl = this.$el.find('.o_we_full_url');
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         // hide buttons for document links
         if (this.isDocument) {
             this.$el.find('.o_we_edit_link, .o_we_remove_link, .o_we_full_url').attr('hidden', true);
         }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         this.$urlLink.attr('href', this.href);
         this.$fullUrl.attr('href', this.href);

@@ -39,6 +39,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
@@ -148,6 +152,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2021-07-12 07:50+0000\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -278,6 +283,9 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-12-02 17:06+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Kabyle <https://translate.odoo.com/projects/odoo-18/"
@@ -309,6 +317,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -404,6 +415,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "X-Generator: Weblate 5.12.2\n"
 >>>>>>> upstream/18.0
@@ -424,6 +436,9 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 "X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
 =======
 "X-Generator: Weblate 5.14.3\n"
@@ -541,7 +556,11 @@ msgid "Base"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Azadur"
+>>>>>>> upstream/18.0
 =======
 msgstr "Azadur"
 >>>>>>> upstream/18.0
@@ -658,6 +677,7 @@ msgid "Boolean"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Abulyan"
@@ -745,6 +765,12 @@ msgstr "Abulyan"
 >>>>>>> upstream/18.0
 
 #. module: base_sparse_field
+=======
+msgstr "Abulyan"
+
+#. module: base_sparse_field
+#. odoo-python
+>>>>>>> upstream/18.0
 #: code:addons/base_sparse_field/models/models.py:0
 msgid "Changing the storing system for field \"%s\" is not allowed."
 msgstr ""
@@ -807,7 +833,11 @@ msgid "Display Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Isem n Ubeqqeḍ"
+>>>>>>> upstream/18.0
 =======
 msgstr "Isem n Ubeqqeḍ"
 >>>>>>> upstream/18.0
@@ -962,7 +992,11 @@ msgid "Float"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ilaw"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ilaw"
 >>>>>>> upstream/18.0
@@ -1076,7 +1110,14 @@ msgstr "Asulay"
 
 #. module: base_sparse_field
 #: model:ir.model.fields,help:base_sparse_field.field_ir_model_fields__serialization_field_id
+<<<<<<< HEAD
 msgid "If set, this field will be stored in the sparse structure of the serialization field, instead of having its own database column. This cannot be changed after creation."
+=======
+msgid ""
+"If set, this field will be stored in the sparse structure of the "
+"serialization field, instead of having its own database column. This cannot "
+"be changed after creation."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: base_sparse_field
@@ -1085,11 +1126,14 @@ msgid "Integer"
 msgstr ""
 
 #. module: base_sparse_field
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:base_sparse_field.field_sparse_fields_test____last_update
 msgid "Last Modified on"
 msgstr "Aleqqem aneggaru di"
 
 #. module: base_sparse_field
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:base_sparse_field.field_sparse_fields_test__write_uid
 msgid "Last Updated by"
 msgstr "Aleqqem aneggaru sɣuṛ"
@@ -1110,6 +1154,10 @@ msgid "Partner"
 msgstr "Amendid"
 
 #. module: base_sparse_field
+<<<<<<< HEAD
+=======
+#. odoo-python
+>>>>>>> upstream/18.0
 #: code:addons/base_sparse_field/models/models.py:0
 msgid "Renaming sparse field \"%s\" is not allowed"
 msgstr ""
@@ -1125,8 +1173,16 @@ msgid "Serialization Field"
 msgstr ""
 
 #. module: base_sparse_field
+<<<<<<< HEAD
 #: code:addons/base_sparse_field/models/models.py:0
 msgid "Serialization field %r not found for sparse field %s!"
+=======
+#. odoo-python
+#: code:addons/base_sparse_field/models/models.py:0
+msgid ""
+"Serialization field \"%(serialization_field)s\" not found for sparse field %"
+"(sparse_field)s!"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: base_sparse_field
@@ -1143,3 +1199,9 @@ msgstr ""
 #: model:ir.model.fields.selection,name:base_sparse_field.selection__ir_model_fields__ttype__serialized
 msgid "serialized"
 msgstr ""
+<<<<<<< HEAD
+=======
+
+#~ msgid "Last Modified on"
+#~ msgstr "Aleqqem aneggaru di"
+>>>>>>> upstream/18.0

@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* pos_loyalty
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
@@ -462,10 +463,19 @@
 # Sergio Zanchetta <primes2h@gmail.com>, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+#
+# Translators:
+# Wil Odoo, 2024
+# Marianna Ciofani, 2025
+# Sergio Zanchetta <primes2h@gmail.com>, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-04-07 20:36+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
@@ -931,11 +941,24 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: it\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Sergio Zanchetta <primes2h@gmail.com>, 2025\n"
+"Language-Team: Italian (https://app.transifex.com/odoo/teams/41243/it/)\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? "
+"1 : 2;\n"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.model.fields,help:pos_loyalty.field_pos_order_line__reward_identifier_code
 msgid ""
 "\n"
+<<<<<<< HEAD
 "        Technical field used to link multiple reward lines from the same reward together.\n"
 "    "
 msgstr ""
@@ -1397,6 +1420,15 @@ msgstr ""
 =======
 "        Campo tecnico utilizzato per collegare tra loro più righe dello stesso premio.\n"
 >>>>>>> upstream/18.0
+=======
+"        Technical field used to link multiple reward lines from the same "
+"reward together.\n"
+"    "
+msgstr ""
+"\n"
+"        Campo tecnico utilizzato per collegare tra loro più righe dello "
+"stesso premio.\n"
+>>>>>>> upstream/18.0
 "    "
 
 #. module: pos_loyalty
@@ -1517,7 +1549,11 @@ msgid "%s Points"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "%s Punti"
+=======
+msgstr "%s punti"
+>>>>>>> upstream/18.0
 =======
 msgstr "%s punti"
 >>>>>>> upstream/18.0
@@ -1983,7 +2019,11 @@ msgid "15% on your order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "15% sul tuo ordine"
+=======
+msgstr "15% sull'ordine"
+>>>>>>> upstream/18.0
 =======
 msgstr "15% sull'ordine"
 >>>>>>> upstream/18.0
@@ -2457,7 +2497,11 @@ msgid "A reward could not be loaded"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Non è stato possibile caricare una ricompensa"
+=======
+msgstr "Impossibile caricare un premio"
+>>>>>>> upstream/18.0
 =======
 msgstr "Impossibile caricare un premio"
 >>>>>>> upstream/18.0
@@ -2984,7 +3028,11 @@ msgid "Barcode Rule"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Regola Codice a barre"
+=======
+msgstr "Regola codice a barre"
+>>>>>>> upstream/18.0
 =======
 msgstr "Regola codice a barre"
 >>>>>>> upstream/18.0
@@ -3457,7 +3505,11 @@ msgid "Coupon Codes"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Codici Coupon"
+=======
+msgstr "Codici buono sconto"
+>>>>>>> upstream/18.0
 =======
 msgstr "Codici buono sconto"
 >>>>>>> upstream/18.0
@@ -3948,7 +4000,11 @@ msgid "Discount & Loyalty"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Sconti e fedeltà"
+=======
+msgstr "Sconto e fedeltà"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sconto e fedeltà"
 >>>>>>> upstream/18.0
@@ -4446,7 +4502,11 @@ msgid "Free Product - Simple Pen"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Prodotto gratuito-penna semplice"
+=======
+msgstr "Prodotto gratuito - Penna semplice"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prodotto gratuito - Penna semplice"
 >>>>>>> upstream/18.0
@@ -4918,7 +4978,11 @@ msgid "Gift card or Discount code"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Buono regalo o codice sconto..."
+=======
+msgstr "Carta regalo o codice sconto"
+>>>>>>> upstream/18.0
 =======
 msgstr "Carta regalo o codice sconto"
 >>>>>>> upstream/18.0
@@ -5278,8 +5342,13 @@ msgstr "Valore in punti della ricompensa nel buono sconto."
 #: code:addons/pos_loyalty/models/pos_config.py:0
 msgid "Invalid gift card program reward. Use 1 currency per point discount."
 msgstr ""
+<<<<<<< HEAD
 "Ricompensa programma carta regalo non valida. Utilizza 1 valuta per punto di"
 " sconto."
+=======
+"Ricompensa programma carta regalo non valida. Utilizza 1 valuta per punto di "
+"sconto."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-python
@@ -5483,7 +5552,11 @@ msgid "PoS Order Count"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Conteggio ordini Punto Vendita"
+=======
+msgstr "Numero ordini POS"
+>>>>>>> upstream/18.0
 =======
 msgstr "Numero ordini POS"
 >>>>>>> upstream/18.0
@@ -6053,7 +6126,11 @@ msgid "Reward Identifier Code"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Codice identificativo ricompensa"
+=======
+msgstr "Codice identificativo premio"
+>>>>>>> upstream/18.0
 =======
 msgstr "Codice identificativo premio"
 >>>>>>> upstream/18.0
@@ -6553,7 +6630,11 @@ msgid "Technical field, whether all product match"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Campo tecnico, se tutti i prodotti combaciano"
+=======
+msgstr "Campo tecnico, indica se tutti i prodotti corrispondono"
+>>>>>>> upstream/18.0
 =======
 msgstr "Campo tecnico, indica se tutti i prodotti corrispondono"
 >>>>>>> upstream/18.0
@@ -6937,7 +7018,12 @@ msgstr "Buono sconto utilizzato per richiedere la ricompensa."
 #. odoo-python
 #: code:addons/pos_loyalty/models/pos_order.py:0
 msgid ""
+<<<<<<< HEAD
 "The following codes already exist in the database, perhaps they were already sold?\n"
+=======
+"The following codes already exist in the database, perhaps they were already "
+"sold?\n"
+>>>>>>> upstream/18.0
 "%s"
 msgstr ""
 "I seguenti codici esistono già nel database, forse sono stati già venduti?\n"
@@ -7079,7 +7165,11 @@ msgid "The reward associated with this line."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ricompensa associata con la riga."
+=======
+msgstr "Premio associato alla riga."
+>>>>>>> upstream/18.0
 =======
 msgstr "Premio associato alla riga."
 >>>>>>> upstream/18.0
@@ -7541,7 +7631,11 @@ msgid "The reward could not be applied."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Non è stato possibile applicare la ricompensa."
+=======
+msgstr "Impossibile applicare il premio."
+>>>>>>> upstream/18.0
 =======
 msgstr "Impossibile applicare il premio."
 >>>>>>> upstream/18.0
@@ -8003,7 +8097,11 @@ msgid "There are not enough points for the coupon: %s."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Non ci sono abbastanza punti per il buono sconto: %s."
+=======
+msgstr "Punti non sufficienti per il buono sconto: %s."
+>>>>>>> upstream/18.0
 =======
 msgstr "Punti non sufficienti per il buono sconto: %s."
 >>>>>>> upstream/18.0
@@ -8465,8 +8563,12 @@ msgid "There are not enough points on the coupon to claim this reward."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Non ci sono abbastanza punti sul buono sconto per richiedere la ricompensa."
+=======
+msgstr "Punti sul buono sconto non sufficienti per richiedere il premio."
+>>>>>>> upstream/18.0
 =======
 msgstr "Punti sul buono sconto non sufficienti per richiedere il premio."
 >>>>>>> upstream/18.0
@@ -8928,9 +9030,13 @@ msgid "There are not enough products in the basket to claim this reward."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Nel carrello non sono presenti prodotti a sufficienza per richiedere la "
 "ricompensa."
+=======
+msgstr "Prodotti nel carrello non sufficienti per richiedere il premio."
+>>>>>>> upstream/18.0
 =======
 msgstr "Prodotti nel carrello non sufficienti per richiedere il premio."
 >>>>>>> upstream/18.0
@@ -9441,7 +9547,12 @@ msgstr "Non hai creato un portafoglio elettronico oppure sono tutti scaduti."
 #. odoo-python
 #: code:addons/pos_loyalty/models/loyalty_program.py:0
 msgid "You must set '%(mail_template)s' before setting '%(report)s'."
+<<<<<<< HEAD
 msgstr "Devi configurare \"%(mail_template)s\" prima di configurare \"%(report)s\"."
+=======
+msgstr ""
+"Devi configurare \"%(mail_template)s\" prima di configurare \"%(report)s\"."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
@@ -9561,7 +9672,11 @@ msgid "eWallet"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "eWallet"
+=======
+msgstr "Portafoglio elettronico"
+>>>>>>> upstream/18.0
 =======
 msgstr "Portafoglio elettronico"
 >>>>>>> upstream/18.0

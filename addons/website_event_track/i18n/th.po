@@ -1,15 +1,24 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* website_event_track
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
 # Rasareeyar Lappiam, 2025
 # 
+=======
+#
+# Translators:
+# Wil Odoo, 2024
+# Rasareeyar Lappiam, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-12-16 13:41+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 "Last-Translator: Rasareeyar Lappiam, 2025\n"
@@ -18,18 +27,44 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: th\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:38+0000\n"
+"PO-Revision-Date: 2024-09-25 09:42+0000\n"
+"Last-Translator: Rasareeyar Lappiam, 2025\n"
+"Language-Team: Thai (https://app.transifex.com/odoo/teams/41243/th/)\n"
+"Language: th\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+>>>>>>> upstream/18.0
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: website_event_track
 #: model:mail.template,body_html:website_event_track.mail_template_data_track_confirmation
 msgid ""
 "\n"
+<<<<<<< HEAD
 "    Dear <t t-out=\"object.partner_id.name or object.partner_name or ''\">Brandon Freeman</t><br/>\n"
 "    We are pleased to inform you that your proposal <t t-out=\"object.name or ''\">What This Event Is All About</t> has been accepted and confirmed for the event <t t-out=\"object.event_id.name or ''\">OpenWood Collection Online Reveal</t>.\n"
 "    <br/>\n"
 "    You will find more details here:\n"
 "    <div style=\"margin: 16px 0px 16px 0px;\">\n"
 "        <a t-attf-href=\"/event/{{ object.event_id.id }}/track/{{ object.id }}\" style=\"padding: 8px 16px 8px 16px; font-size: 14px; color: #FFFFFF; text-decoration: none !important; background-color: #875A7B; border: 0px solid #875A7B; border-radius:3px\">\n"
+=======
+"    Dear <t t-out=\"object.partner_id.name or object.partner_name or "
+"''\">Brandon Freeman</t><br/>\n"
+"    We are pleased to inform you that your proposal <t t-out=\"object.name "
+"or ''\">What This Event Is All About</t> has been accepted and confirmed for "
+"the event <t t-out=\"object.event_id.name or ''\">OpenWood Collection Online "
+"Reveal</t>.\n"
+"    <br/>\n"
+"    You will find more details here:\n"
+"    <div style=\"margin: 16px 0px 16px 0px;\">\n"
+"        <a t-attf-href=\"/event/{{ object.event_id.id }}/track/"
+"{{ object.id }}\" style=\"padding: 8px 16px 8px 16px; font-size: 14px; "
+"color: #FFFFFF; text-decoration: none !important; background-color: #875A7B; "
+"border: 0px solid #875A7B; border-radius:3px\">\n"
+>>>>>>> upstream/18.0
 "            View Talk\n"
 "        </a>\n"
 "    </div>\n"
@@ -37,6 +72,7 @@ msgid ""
 "    Thank you,\n"
 "    <t t-if=\"user.signature\" data-o-mail-quote-container=\"1\">\n"
 "        <br/>\n"
+<<<<<<< HEAD
 "        <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 "    </t>\n"
 msgstr ""
@@ -47,6 +83,26 @@ msgstr ""
 "    คุณจะพบรายละเอียดเพิ่มเติมได้ที่นี่:\n"
 "    <div style=\"margin: 16px 0px 16px 0px;\">\n"
 "        <a t-attf-href=\"/event/{{ object.event_id.id }}/track/{{ object.id }}\" style=\"padding: 8px 16px 8px 16px; font-size: 14px; color: #FFFFFF; text-decoration: none !important; background-color: #875A7B; border: 0px solid #875A7B; border-radius:3px\">\n"
+=======
+"        <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br data-"
+"o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+"    </t>\n"
+msgstr ""
+"\n"
+"    เรียน <t t-out=\"object.partner_id.name or object.partner_name or "
+"''\">Brandon Freeman</t><br/>\n"
+"    เรายินดีที่จะแจ้งให้คุณทราบว่าข้อเสนอ <t t-out=\"object.name or ''\">What This "
+"Event Is All About</t> ของคุณ ได้รับการยอมรับและยืนยันสำหรับกิจกรรม <t t-"
+"out=\"object.event_id.name or ''\">OpenWood Collection Online Reveal</t> "
+"แล้ว\n"
+"    <br/>\n"
+"    คุณจะพบรายละเอียดเพิ่มเติมได้ที่นี่:\n"
+"    <div style=\"margin: 16px 0px 16px 0px;\">\n"
+"        <a t-attf-href=\"/event/{{ object.event_id.id }}/track/"
+"{{ object.id }}\" style=\"padding: 8px 16px 8px 16px; font-size: 14px; "
+"color: #FFFFFF; text-decoration: none !important; background-color: #875A7B; "
+"border: 0px solid #875A7B; border-radius:3px\">\n"
+>>>>>>> upstream/18.0
 "            ดูการบรรยาย\n"
 "        </a>\n"
 "    </div>\n"
@@ -54,7 +110,12 @@ msgstr ""
 "    ขอบคุณ\n"
 "    <t t-if=\"user.signature\" data-o-mail-quote-container=\"1\">\n"
 "        <br/>\n"
+<<<<<<< HEAD
 "        <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+=======
+"        <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br data-"
+"o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+>>>>>>> upstream/18.0
 "    </t>\n"
 
 #. module: website_event_track
@@ -155,8 +216,12 @@ msgid ""
 "<span class=\"fa fa-lg fa-globe\" title=\"Values set here are website-"
 "specific.\" groups=\"website.group_multi_website\"/>"
 msgstr ""
+<<<<<<< HEAD
 "<span class=\"fa fa-lg fa-globe\" "
 "title=\"ค่าที่ตั้งไว้นี้เป็นค่าเฉพาะเว็บไซต์\" "
+=======
+"<span class=\"fa fa-lg fa-globe\" title=\"ค่าที่ตั้งไว้นี้เป็นค่าเฉพาะเว็บไซต์\" "
+>>>>>>> upstream/18.0
 "groups=\"website.group_multi_website\"/>"
 
 #. module: website_event_track
@@ -169,6 +234,7 @@ msgstr "<span class=\"fa fa-plus me-1\"/> กำหนดเพลง"
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_proposal
 msgid ""
 "<span class=\"o_wetrack_proposal_error_section text-danger d-none ml8\">\n"
+<<<<<<< HEAD
 "                                    <i class=\"fa fa-close mr4\" role=\"img\" aria-label=\"Error\" title=\"Error\"/>\n"
 "                                    <span class=\"o_wetrack_proposal_error_message\"/>\n"
 "                                </span>"
@@ -176,6 +242,19 @@ msgstr ""
 "<span class=\"o_wetrack_proposal_error_section text-danger d-none ml8\">\n"
 "                                    <i class=\"fa fa-close mr4\" role=\"img\" aria-label=\"ข้อผิดพลาด\" title=\"ข้อผิดพลาด\"/>\n"
 "                                    <span class=\"o_wetrack_proposal_error_message\"/>\n"
+=======
+"                                    <i class=\"fa fa-close mr4\" "
+"role=\"img\" aria-label=\"Error\" title=\"Error\"/>\n"
+"                                    <span "
+"class=\"o_wetrack_proposal_error_message\"/>\n"
+"                                </span>"
+msgstr ""
+"<span class=\"o_wetrack_proposal_error_section text-danger d-none ml8\">\n"
+"                                    <i class=\"fa fa-close mr4\" "
+"role=\"img\" aria-label=\"ข้อผิดพลาด\" title=\"ข้อผิดพลาด\"/>\n"
+"                                    <span "
+"class=\"o_wetrack_proposal_error_message\"/>\n"
+>>>>>>> upstream/18.0
 "                                </span>"
 
 #. module: website_event_track
@@ -288,8 +367,12 @@ msgstr "ไอคอนประเภทกิจกรรม"
 msgid ""
 "Add a description to help your coworkers understand the meaning and purpose "
 "of the stage."
+<<<<<<< HEAD
 msgstr ""
 "เพิ่มคำอธิบายเพื่อช่วยให้เพื่อนร่วมงานของคุณเข้าใจความหมายและวัตถุประสงค์ของขั้นตอน"
+=======
+msgstr "เพิ่มคำอธิบายเพื่อช่วยให้เพื่อนร่วมงานของคุณเข้าใจความหมายและวัตถุประสงค์ของขั้นตอน"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_stage_view_form
@@ -305,8 +388,12 @@ msgstr "เพิ่มขั้นตอนใหม่ในไปป์ไล
 #: model_terms:ir.actions.act_window,help:website_event_track.action_event_track_tag
 msgid ""
 "Add tags to your tracks to help your attendees browse your event web pages."
+<<<<<<< HEAD
 msgstr ""
 "เพิ่มแท็กให้กับแทร็กของคุณเพื่อช่วยให้ผู้เข้าร่วมเรียกดูหน้าเว็บอีเวนต์ของคุณ"
+=======
+msgstr "เพิ่มแท็กให้กับแทร็กของคุณเพื่อช่วยให้ผู้เข้าร่วมเรียกดูหน้าเว็บอีเวนต์ของคุณ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track19
@@ -391,6 +478,7 @@ msgstr ""
 #. module: website_event_track
 #: model_terms:event.track,description:website_event_track.event_7_track_17
 msgid ""
+<<<<<<< HEAD
 "As you may have heard before, making your own furniture is actually not as difficult or as complicated as you think.\n"
 "    In fact, some projects are so easy anyone could successfully complete them. For example, making a cute stool out of\n"
 "    a old tire is a real piece of cake and if you’re in need of a coffee table you can easily put one together using\n"
@@ -399,6 +487,21 @@ msgstr ""
 "อย่างที่คุณอาจเคยได้ยินมาก่อน การทำเฟอร์นิเจอร์ของคุณเองนั้น จริงแล้วไม่ได้ยากหรือซับซ้อนอย่างที่คุณคิด\n"
 "    บางโปรเจ็กต์นั้นง่ายมากที่ใครๆ ก็สามารถทำได้ เช่น การทำม้านั่งที่น่ารัก ทำจาก\n"
 "    ยางเก่า และถ้าหากคุณต้องการโต๊ะกาแฟ คุณก็สามารถประกอบเข้าด้วยกันได้อย่างง่ายดายด้วยกระดาษลังไม้\n"
+=======
+"As you may have heard before, making your own furniture is actually not as "
+"difficult or as complicated as you think.\n"
+"    In fact, some projects are so easy anyone could successfully complete "
+"them. For example, making a cute stool out of\n"
+"    a old tire is a real piece of cake and if you’re in need of a coffee "
+"table you can easily put one together using\n"
+"    wood crates."
+msgstr ""
+"อย่างที่คุณอาจเคยได้ยินมาก่อน การทำเฟอร์นิเจอร์ของคุณเองนั้น "
+"จริงแล้วไม่ได้ยากหรือซับซ้อนอย่างที่คุณคิด\n"
+"    บางโปรเจ็กต์นั้นง่ายมากที่ใครๆ ก็สามารถทำได้ เช่น การทำม้านั่งที่น่ารัก ทำจาก\n"
+"    ยางเก่า และถ้าหากคุณต้องการโต๊ะกาแฟ "
+"คุณก็สามารถประกอบเข้าด้วยกันได้อย่างง่ายดายด้วยกระดาษลังไม้\n"
+>>>>>>> upstream/18.0
 "   "
 
 #. module: website_event_track
@@ -575,9 +678,14 @@ msgid ""
 "information about a construction process and final result. Step by step "
 "simple explanation! Interested?"
 msgstr ""
+<<<<<<< HEAD
 "คิดจะสร้างบ้านไม้? "
 "ดูวิดีโอนี้เพื่อค้นหาข้อมูลเพิ่มเติมเกี่ยวกับขั้นตอนการก่อสร้างและผลลัพธ์ขั้นสุดท้าย"
 " อธิบายง่าย ๆ ทีละขั้นตอน! สนใจไหม?"
+=======
+"คิดจะสร้างบ้านไม้? ดูวิดีโอนี้เพื่อค้นหาข้อมูลเพิ่มเติมเกี่ยวกับขั้นตอนการก่อสร้างและผลลัพธ์ขั้นสุดท้าย "
+"อธิบายง่าย ๆ ทีละขั้นตอน! สนใจไหม?"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #. odoo-python
@@ -664,8 +772,12 @@ msgstr "โปรเจ็กต์งานไม้ DIY"
 msgid ""
 "DROP BUILDING BLOCKS HERE TO MAKE THEM AVAILABLE ACROSS ALL PROPOSAL PAGES "
 "OF ALL EVENTS"
+<<<<<<< HEAD
 msgstr ""
 "วางบล็อกสำเร็จรูปที่นี่เพื่อให้สามารถใช้งานได้ทั่วทุกหน้าข้อเสนอของกิจกรรมทั้งหมด"
+=======
+msgstr "วางบล็อกสำเร็จรูปที่นี่เพื่อให้สามารถใช้งานได้ทั่วทุกหน้าข้อเสนอของกิจกรรมทั้งหมด"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.view_event_track_search
@@ -757,8 +869,12 @@ msgstr "แสดงชื่อ"
 msgid ""
 "Display a Call to Action button to your Attendees while they watch your "
 "Track."
+<<<<<<< HEAD
 msgstr ""
 "แสดงปุ่มคำกระตุ้นการตัดสินใจให้ผู้เข้าร่วมของคุณดูขณะที่พวกเขาดูแทร็กของคุณ"
+=======
+msgstr "แสดงปุ่มคำกระตุ้นการตัดสินใจให้ผู้เข้าร่วมของคุณดูขณะที่พวกเขาดูแทร็กของคุณ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_aside_other_track
@@ -1084,8 +1200,12 @@ msgstr "วิธีผสานวัสดุฮาร์ดแวร์เข
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track8
 msgid "How to optimize your sales, from leads to sales orders"
+<<<<<<< HEAD
 msgstr ""
 "วิธีเพิ่มประสิทธิภาพการขายของคุณ เริ่มตั้งแต่ลูกค้าเป้าหมายไปจนถึงใบสั่งขาย"
+=======
+msgstr "วิธีเพิ่มประสิทธิภาพการขายของคุณ เริ่มตั้งแต่ลูกค้าเป้าหมายไปจนถึงใบสั่งขาย"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__id
@@ -1112,8 +1232,12 @@ msgstr "ไอคอนเพื่อระบุการยกเว้นก
 msgid ""
 "If checked, automatically publish tracks so that access links to customers "
 "are provided."
+<<<<<<< HEAD
 msgstr ""
 "หากเลือกไว้ จะเผยแพร่แทร็กโดยอัตโนมัติเพื่อให้เข้าถึงลิงก์ไปยังลูกค้าได้"
+=======
+msgstr "หากเลือกไว้ จะเผยแพร่แทร็กโดยอัตโนมัติเพื่อให้เข้าถึงลิงก์ไปยังลูกค้าได้"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,help:website_event_track.field_event_track__message_needaction
@@ -1141,11 +1265,18 @@ msgstr "หากตั้งค่าอีเมลจะถูกส่งไ
 #. module: website_event_track
 #: model:ir.model.fields,help:website_event_track.field_event_track__wishlisted_by_default
 msgid ""
+<<<<<<< HEAD
 "If set, the talk will be set as favorite for each attendee registered to the"
 " event."
 msgstr ""
 "หากตั้งค่าไว้ "
 "การพูดคุยจะถูกกำหนดให้เป็นรายการโปรดสำหรับผู้เข้าร่วมแต่ละคนที่ลงทะเบียนเข้าร่วมงาน"
+=======
+"If set, the talk will be set as favorite for each attendee registered to the "
+"event."
+msgstr ""
+"หากตั้งค่าไว้ การพูดคุยจะถูกกำหนดให้เป็นรายการโปรดสำหรับผู้เข้าร่วมแต่ละคนที่ลงทะเบียนเข้าร่วมงาน"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__website_image_url
@@ -1605,8 +1736,12 @@ msgstr "รูปภาพ"
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.tracks_display_list
 msgid "Plan your experience by adding your favorites talks to your wishlist"
+<<<<<<< HEAD
 msgstr ""
 "วางแผนประสบการณ์ของคุณโดยเพิ่มการพูดคุยในรายการโปรดของคุณในรายการสิ่งที่อยากได้"
+=======
+msgstr "วางแผนประสบการณ์ของคุณโดยเพิ่มการพูดคุยในรายการโปรดของคุณในรายการสิ่งที่อยากได้"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #. odoo-javascript
@@ -1647,8 +1782,12 @@ msgid ""
 "woodworking! In this video I share with you how/why I started building "
 "furniture!"
 msgstr ""
+<<<<<<< HEAD
 "อาจเป็นหนึ่งในคำถามที่ถูกถามบ่อยที่สุดที่ฉันได้รับ "
 "นั้นคือสามารถเริ่มงานไม้ได้อย่างไร! ในวิดีโอนี้ "
+=======
+"อาจเป็นหนึ่งในคำถามที่ถูกถามบ่อยที่สุดที่ฉันได้รับ นั้นคือสามารถเริ่มงานไม้ได้อย่างไร! ในวิดีโอนี้ "
+>>>>>>> upstream/18.0
 "ฉันจะแบ่งปันกับคุณว่าเหตุใดฉันจึงเริ่มสร้างเฟอร์นิเจอร์!"
 
 #. module: website_event_track
@@ -1787,8 +1926,12 @@ msgid ""
 "Sent to speakers whose track proposal is accepted (set the template on the "
 "right stage)"
 msgstr ""
+<<<<<<< HEAD
 "ส่งไปยังวิทยากรที่ได้รับการยอมรับข้อเสนอของแทร็ค "
 "(กำหนดเทมเพลตให้อยู่ในระยะที่เหมาะสม)"
+=======
+"ส่งไปยังวิทยากรที่ได้รับการยอมรับข้อเสนอของแทร็ค (กำหนดเทมเพลตให้อยู่ในระยะที่เหมาะสม)"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__seo_name
@@ -2009,15 +2152,26 @@ msgid ""
 "There are a lot of ideas worth exploring so start with the 10 DIY furniture "
 "ideas for absolute beginners."
 msgstr ""
+<<<<<<< HEAD
 "มีแนวคิดมากมายที่ควรค่าแก่การสำรวจ "
 "ดังนั้นให้เริ่มต้นด้วยแนวคิดเกี่ยวกับเฟอร์นิเจอร์ DIY 10 "
+=======
+"มีแนวคิดมากมายที่ควรค่าแก่การสำรวจ ดังนั้นให้เริ่มต้นด้วยแนวคิดเกี่ยวกับเฟอร์นิเจอร์ DIY 10 "
+>>>>>>> upstream/18.0
 "ชิ้นสำหรับผู้เริ่มต้นอย่างแท้จริง"
 
 #. module: website_event_track
 #: model_terms:event.track,description:website_event_track.event_7_track_5
 msgid ""
+<<<<<<< HEAD
 "There are several variants of wood is available in the world but we are talking about most expensive\n"
 "    ones in the world and keeping to the point we have arranged ten most expensive wood."
+=======
+"There are several variants of wood is available in the world but we are "
+"talking about most expensive\n"
+"    ones in the world and keeping to the point we have arranged ten most "
+"expensive wood."
+>>>>>>> upstream/18.0
 msgstr ""
 "ไม้มีอยู่หลายแบบในโลก แต่เรากำลังพูดถึงไม้ที่แพงที่สุด\n"
 "   หนึ่งเดียวในโลกและเราได้จัดไม้ที่แพงที่สุดสิบอันดับ"
@@ -2028,8 +2182,12 @@ msgid ""
 "These are 30 minutes talks on many different topics. Most topics are "
 "accepted in lightning talks."
 msgstr ""
+<<<<<<< HEAD
 "เป็นการพูดคุย 30 นาทีในหัวข้อต่างๆ มากมาย หัวข้อส่วนใหญ่ได้รับการยอมรับใน "
 "lightning talk"
+=======
+"เป็นการพูดคุย 30 นาทีในหัวข้อต่างๆ มากมาย หัวข้อส่วนใหญ่ได้รับการยอมรับใน lightning talk"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_proposal
@@ -2039,8 +2197,12 @@ msgstr "เหล่านี้เป็นการบรรยายมาต
 #. module: website_event_track
 #: model_terms:ir.actions.act_window,help:website_event_track.event_track_visitor_action
 msgid ""
+<<<<<<< HEAD
 "They will be created automatically once attendees start browsing your "
 "events."
+=======
+"They will be created automatically once attendees start browsing your events."
+>>>>>>> upstream/18.0
 msgstr "จะถูกสร้างขึ้นโดยอัตโนมัติเมื่อผู้เข้าร่วมเริ่มเรียกดูกิจกรรมของคุณ"
 
 #. module: website_event_track
@@ -2113,8 +2275,15 @@ msgstr "10 อันดับไม้ที่แพงที่สุดใน
 #. module: website_event_track
 #: model_terms:event.track,description:website_event_track.event_7_track_5
 msgid ""
+<<<<<<< HEAD
 "Top most expensive wood in the world is quite interesting topic and several people may be surprised\n"
 "    that there are hundreds of wood types exist around the globe following different properties and use."
+=======
+"Top most expensive wood in the world is quite interesting topic and several "
+"people may be surprised\n"
+"    that there are hundreds of wood types exist around the globe following "
+"different properties and use."
+>>>>>>> upstream/18.0
 msgstr ""
 "ไม้ที่แพงที่สุดในโลกเป็นหัวข้อที่ค่อนข้างน่าสนใจและหลายคนอาจจะแปลกใจ\n"
 "    มีไม้หลายร้อยชนิดทั่วโลกตามคุณสมบัติและการใช้งานที่แตกต่างกัน"
@@ -2229,8 +2398,12 @@ msgid ""
 "Track Visitors store statistics on your events, including how many times "
 "tracks have been wishlisted."
 msgstr ""
+<<<<<<< HEAD
 "แทร็กผู้เยี่ยมชมเก็บสถิติเกี่ยวกับอีเวนต์ของคุณ "
 "รวมถึงจำนวนแทร็กที่ถูกบันทึกเป็นรายการที่อยากได้"
+=======
+"แทร็กผู้เยี่ยมชมเก็บสถิติเกี่ยวกับอีเวนต์ของคุณ รวมถึงจำนวนแทร็กที่ถูกบันทึกเป็นรายการที่อยากได้"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:mail.message.subtype,description:website_event_track.mt_track_blocked
@@ -2264,8 +2437,12 @@ msgid ""
 "Tracks define your event schedule. They can be talks, workshops or any "
 "similar activity."
 msgstr ""
+<<<<<<< HEAD
 "แทร็กกำหนดตารางอีเวนต์ของคุณ อาจเป็นการพูดคุย เวิร์คช็อป หรือกิจกรรมอื่น ๆ "
 "ที่คล้ายคลึงกัน"
+=======
+"แทร็กกำหนดตารางอีเวนต์ของคุณ อาจเป็นการพูดคุย เวิร์คช็อป หรือกิจกรรมอื่น ๆ ที่คล้ายคลึงกัน"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_event__website_track
@@ -2296,6 +2473,7 @@ msgid "Unread Messages"
 msgstr "ข้อความที่ยังไม่ได้อ่าน"
 
 #. module: website_event_track
+<<<<<<< HEAD
 #: model_terms:event.track,description:website_event_track.event_7_track_6
 msgid ""
 "Use these simple steps to easily haul LONG lumber in a short box pickup truck.  A dose of carpenter's\n"
@@ -2304,13 +2482,41 @@ msgid ""
 msgstr ""
 "ใช้ขั้นตอนง่าย ๆ เหล่านี้เพื่อลากไม้ท่อนยาวในรถกระบะตอนสั้น ปริมาณของช่างไม้\n"
 "   ใช้เพียงความเฉลียวฉลาดของช่างไม้พร้อมกับกระดานคู่ สายรัดที่แข็งแรง และสกรูสองสามตัวเพื่อลากได้ง่ายดาย\n"
+=======
+#. odoo-python
+#: code:addons/website_event_track/models/event_track.py:0
+#: code:addons/website_event_track/models/website_visitor.py:0
+msgid "Unsupported 'Not In' operation on track wishlist visitors"
+msgstr ""
+
+#. module: website_event_track
+#: model_terms:event.track,description:website_event_track.event_7_track_6
+msgid ""
+"Use these simple steps to easily haul LONG lumber in a short box pickup "
+"truck.  A dose of carpenter's\n"
+"    ingenuity along with a couple boards, a sturdy strap and a few screws "
+"are all I use to easily haul\n"
+"    long boards from the lumberyard to the Next Level Carpentry shop or "
+"jobsite."
+msgstr ""
+"ใช้ขั้นตอนง่าย ๆ เหล่านี้เพื่อลากไม้ท่อนยาวในรถกระบะตอนสั้น ปริมาณของช่างไม้\n"
+"   ใช้เพียงความเฉลียวฉลาดของช่างไม้พร้อมกับกระดานคู่ สายรัดที่แข็งแรง "
+"และสกรูสองสามตัวเพื่อลากได้ง่ายดาย\n"
+>>>>>>> upstream/18.0
 "   กระดานยาวจากลานตัดไม้ไปจนถึงร้านช่างไม้หรือไซต์งาน"
 
 #. module: website_event_track
 #: model_terms:event.track,description:website_event_track.event_7_track_6
 msgid ""
+<<<<<<< HEAD
 "Using a unique wrapping method for a tie down strap (NOT Bungee cords!!!) allows lumber to be\n"
 "    cinched securely WITHOUT the need to tie and untie tricky or complicated knots."
+=======
+"Using a unique wrapping method for a tie down strap (NOT Bungee cords!!!) "
+"allows lumber to be\n"
+"    cinched securely WITHOUT the need to tie and untie tricky or complicated "
+"knots."
+>>>>>>> upstream/18.0
 msgstr ""
 "ใช้วิธีการพันแบบพิเศษในการมัดสาย (ไม่ใช่สายบันจี้จัม!!!) ช่วยให้ไม้เป็น\n"
 "   ถูกมัดได้อย่างปลอดภัยโดยไม่จำเป็นต้องผูกและแก้ปมที่ยุ่งยากหรือซับซ้อน"
@@ -2488,8 +2694,12 @@ msgstr "คุณกำลังพูดเกี่ยวกับอะไร
 msgid ""
 "Who will give this talk? We will show this to attendees to showcase your "
 "talk."
+<<<<<<< HEAD
 msgstr ""
 "ใครจะเป็นผู้บรรยายนี้ เราจะแสดงสิ่งนี้ให้ผู้เข้าร่วมแสดงการพูดคุยของคุณ"
+=======
+msgstr "ใครจะเป็นผู้บรรยายนี้ เราจะแสดงสิ่งนี้ให้ผู้เข้าร่วมแสดงการพูดคุยของคุณ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_7_track_l3_2
@@ -2529,8 +2739,12 @@ msgstr "คุณไม่สามารถเข้าถึงเพจนี
 msgid ""
 "You have to enable push notifications to get reminders for your favorite "
 "tracks."
+<<<<<<< HEAD
 msgstr ""
 "คุณต้องเปิดใช้งานการแจ้งเตือนแบบพุชเพื่อรับการแจ้งเตือนสำหรับแทร็กโปรดของคุณ"
+=======
+msgstr "คุณต้องเปิดใช้งานการแจ้งเตือนแบบพุชเพื่อรับการแจ้งเตือนสำหรับแทร็กโปรดของคุณ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.pwa_offline

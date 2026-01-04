@@ -1,15 +1,24 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* payment_nuvei
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2025
 # Marianna Ciofani, 2025
 # 
+=======
+#
+# Translators:
+# Wil Odoo, 2025
+# Marianna Ciofani, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-03-19 20:38+0000\n"
 "PO-Revision-Date: 2025-03-19 09:42+0000\n"
 "Last-Translator: Marianna Ciofani, 2025\n"
@@ -19,6 +28,18 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: it\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:38+0000\n"
+"PO-Revision-Date: 2025-03-19 09:42+0000\n"
+"Last-Translator: Marianna Ciofani, 2025\n"
+"Language-Team: Italian (https://app.transifex.com/odoo/teams/41243/it/)\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? "
+"1 : 2;\n"
+>>>>>>> upstream/18.0
 
 #. module: payment_nuvei
 #. odoo-python
@@ -30,11 +51,19 @@ msgstr "%(payment_method)s richiede nome e cognome."
 #. odoo-python
 #: code:addons/payment_nuvei/models/payment_transaction.py:0
 msgid ""
+<<<<<<< HEAD
 "An error occurred during the processing of your payment (%(reason)s). Please"
 " try again."
 msgstr ""
 "Si è verificato un errore durante l'elaborazione del pagamento (%(reason)s)."
 " Riprova più tardi."
+=======
+"An error occurred during the processing of your payment (%(reason)s). Please "
+"try again."
+msgstr ""
+"Si è verificato un errore durante l'elaborazione del pagamento (%(reason)s). "
+"Riprova più tardi."
+>>>>>>> upstream/18.0
 
 #. module: payment_nuvei
 #: model:ir.model.fields,field_description:payment_nuvei.field_payment_provider__code
@@ -97,8 +126,12 @@ msgstr "Dati ricevuti privi di riferimento,"
 #. module: payment_nuvei
 #. odoo-python
 #: code:addons/payment_nuvei/models/payment_transaction.py:0
+<<<<<<< HEAD
 msgid ""
 "Received invalid transaction status %(status)s and reason '%(reason)s'."
+=======
+msgid "Received invalid transaction status %(status)s and reason '%(reason)s'."
+>>>>>>> upstream/18.0
 msgstr ""
 "Stato transazione %(status)s e ragione '%(reason)s' ricevuti non validi."
 
@@ -127,8 +160,12 @@ msgstr "Il cliente ha abbandonato la pagina di pagamento."
 #. module: payment_nuvei
 #: model:ir.model.fields,help:payment_nuvei.field_payment_provider__nuvei_site_identifier
 msgid "The site identifier code associated with the merchant account."
+<<<<<<< HEAD
 msgstr ""
 "Il codice identificativo del sito associato al conto del commerciante."
+=======
+msgstr "Il codice identificativo del sito associato al conto del commerciante."
+>>>>>>> upstream/18.0
 
 #. module: payment_nuvei
 #: model:ir.model.fields,help:payment_nuvei.field_payment_provider__code

@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* uom
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
@@ -462,10 +463,19 @@
 # Sergio Zanchetta <primes2h@gmail.com>, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+#
+# Translators:
+# Wil Odoo, 2024
+# Marianna Ciofani, 2024
+# Sergio Zanchetta <primes2h@gmail.com>, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 <<<<<<< HEAD
@@ -931,11 +941,24 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: it\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:38+0000\n"
+"PO-Revision-Date: 2024-09-25 09:42+0000\n"
+"Last-Translator: Sergio Zanchetta <primes2h@gmail.com>, 2025\n"
+"Language-Team: Italian (https://app.transifex.com/odoo/teams/41243/it/)\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? "
+"1 : 2;\n"
+>>>>>>> upstream/18.0
 
 #. module: uom
 #: model_terms:ir.ui.view,arch_db:uom.product_uom_form_view
 msgid ""
 "<span class=\"oe_grey oe_inline\">\n"
+<<<<<<< HEAD
 "                                    e.g: 1*(reference unit)=ratio*(this unit)\n"
 "                                </span>"
 msgstr ""
@@ -1397,12 +1420,22 @@ msgstr ""
 =======
 "                                    es.: 1*(unità di riferimento)=rapporto*(questa unità)\n"
 >>>>>>> upstream/18.0
+=======
+"                                    e.g: 1*(reference unit)=ratio*(this "
+"unit)\n"
+"                                </span>"
+msgstr ""
+"<span class=\"oe_grey oe_inline\">\n"
+"                                    es.: 1*(unità di "
+"riferimento)=rapporto*(questa unità)\n"
+>>>>>>> upstream/18.0
 "                                </span>"
 
 #. module: uom
 #: model_terms:ir.ui.view,arch_db:uom.product_uom_form_view
 msgid ""
 "<span class=\"oe_grey oe_inline\">\n"
+<<<<<<< HEAD
 "                                    e.g: 1*(this unit)=ratio*(reference unit)\n"
 "                                </span>"
 msgstr ""
@@ -1864,6 +1897,15 @@ msgstr ""
 =======
 "                                    es.: 1*(questa unità)=rapporto*(unità di riferimento)\n"
 >>>>>>> upstream/18.0
+=======
+"                                    e.g: 1*(this unit)=ratio*(reference "
+"unit)\n"
+"                                </span>"
+msgstr ""
+"<span class=\"oe_grey oe_inline\">\n"
+"                                    es.: 1*(questa unità)=rapporto*(unità di "
+"riferimento)\n"
+>>>>>>> upstream/18.0
 "                                </span>"
 
 #. module: uom
@@ -1967,8 +2009,12 @@ msgid ""
 "Measure in this category: 1 * (this unit) = ratio * (reference unit)"
 msgstr ""
 "Quante volte l'unità di misura è maggiore dell'unità di misura di "
+<<<<<<< HEAD
 "riferimento per la categoria: 1 * (unità) = rapporto * (unità di "
 "riferimento)"
+=======
+"riferimento per la categoria: 1 * (unità) = rapporto * (unità di riferimento)"
+>>>>>>> upstream/18.0
 
 #. module: uom
 #: model:ir.model.fields,help:uom.field_uom_uom__factor
@@ -1977,8 +2023,12 @@ msgid ""
 "Measure for this category: 1 * (reference unit) = ratio * (this unit)"
 msgstr ""
 "Quanto l'unità di misura è maggiore/minore dell'unità di misura di "
+<<<<<<< HEAD
 "riferimento per la categoria: 1 * (unità di riferimento) = rapporto * "
 "(unità)"
+=======
+"riferimento per la categoria: 1 * (unità di riferimento) = rapporto * (unità)"
+>>>>>>> upstream/18.0
 
 #. module: uom
 #: model:ir.model.fields,field_description:uom.field_uom_category__id
@@ -2146,7 +2196,11 @@ msgid "Reference UoM"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Unità di misura di riferimento"
+=======
+msgstr "UdM di riferimento"
+>>>>>>> upstream/18.0
 =======
 msgstr "UdM di riferimento"
 >>>>>>> upstream/18.0
@@ -2617,7 +2671,11 @@ msgid "Search UoM Category"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Cerca nella categoria unità di misura"
+=======
+msgstr "Ricerca categoria UdM"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ricerca categoria UdM"
 >>>>>>> upstream/18.0
@@ -2973,18 +3031,37 @@ msgid ""
 "Some critical fields have been modified on %s.\n"
 "Note that existing data WON'T be updated by this change.\n"
 "\n"
+<<<<<<< HEAD
 "As units of measure impact the whole system, this may cause critical issues.\n"
 "E.g. modifying the rounding could disturb your inventory balance.\n"
 "\n"
 "Therefore, changing core units of measure in a running database is not recommended."
+=======
+"As units of measure impact the whole system, this may cause critical "
+"issues.\n"
+"E.g. modifying the rounding could disturb your inventory balance.\n"
+"\n"
+"Therefore, changing core units of measure in a running database is not "
+"recommended."
+>>>>>>> upstream/18.0
 msgstr ""
 "Alcuni campi critici sono stati modificati su %s.\n"
 "Nota che i dati esistenti NON saranno aggiornati da questa modifica.\n"
 "\n"
+<<<<<<< HEAD
 "Dato che le unità di misura hanno un impatto sul sistema, questo potrebbe creare seri problemi.\n"
 "Ad es. modificare l'arrotondamento potrebbe disturbare l'equilibrio del magazzino.\n"
 "\n"
 "Pertanto, non è consigliabile cambiare le unità di misura principali in un database in esecuzione."
+=======
+"Dato che le unità di misura hanno un impatto sul sistema, questo potrebbe "
+"creare seri problemi.\n"
+"Ad es. modificare l'arrotondamento potrebbe disturbare l'equilibrio del "
+"magazzino.\n"
+"\n"
+"Pertanto, non è consigliabile cambiare le unità di misura principali in un "
+"database in esecuzione."
+>>>>>>> upstream/18.0
 
 #. module: uom
 #: model:uom.category,name:uom.uom_categ_surface
@@ -3009,10 +3086,19 @@ msgstr "Il rapporto di conversione per una unità di misura non può essere 0."
 #. odoo-python
 #: code:addons/uom/models/uom_uom.py:0
 msgid ""
+<<<<<<< HEAD
 "The following units of measure are used by the system and cannot be deleted: %s\n"
 "You can archive them instead."
 msgstr ""
 "Le seguenti unità di misura sono utilizzate dal sistema e non possono essere eliminate: %s\n"
+=======
+"The following units of measure are used by the system and cannot be deleted: "
+"%s\n"
+"You can archive them instead."
+msgstr ""
+"Le seguenti unità di misura sono utilizzate dal sistema e non possono essere "
+"eliminate: %s\n"
+>>>>>>> upstream/18.0
 "Puoi invece archiviarle."
 
 #. module: uom
@@ -3029,8 +3115,13 @@ msgstr "La precisione di arrotondamento deve essere strettamente positiva."
 #. odoo-python
 #: code:addons/uom/models/uom_uom.py:0
 msgid ""
+<<<<<<< HEAD
 "The unit of measure %(unit)s defined on the order line doesn't belong to the"
 " same category as the unit of measure %(product_unit)s defined on the "
+=======
+"The unit of measure %(unit)s defined on the order line doesn't belong to the "
+"same category as the unit of measure %(product_unit)s defined on the "
+>>>>>>> upstream/18.0
 "product. Please correct the unit of measure defined on the order line or on "
 "the product. They should belong to the same category."
 msgstr ""
@@ -3229,8 +3320,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "La categoria dell'UDM %s deve avere almeno un'unità di misura di "
 "riferimento."
+=======
+"La categoria UdM %s deve avere almeno un'unità di misura di riferimento."
+>>>>>>> upstream/18.0
 =======
 "La categoria UdM %s deve avere almeno un'unità di misura di riferimento."
 >>>>>>> upstream/18.0
@@ -3692,9 +3787,13 @@ msgid "UoM category %s should have a reference unit of measure."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "La categoria unità di misura %s deve avere un'unità di misura di "
 "riferimento."
+=======
+msgstr "La categoria UdM %s deve avere un'unità di misura di riferimento."
+>>>>>>> upstream/18.0
 =======
 msgstr "La categoria UdM %s deve avere un'unità di misura di riferimento."
 >>>>>>> upstream/18.0
@@ -4242,7 +4341,11 @@ msgid "km"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Km"
+=======
+msgstr "km"
+>>>>>>> upstream/18.0
 =======
 msgstr "km"
 >>>>>>> upstream/18.0
@@ -4738,7 +4841,11 @@ msgid "yd"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "iarda"
+=======
+msgstr "yd"
+>>>>>>> upstream/18.0
 =======
 msgstr "yd"
 >>>>>>> upstream/18.0

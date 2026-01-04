@@ -106,6 +106,7 @@ function clickSomewhereElse() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 function checkSOLDescriptionContains(productName, text) {
     // currently must be called after exiting the edit mode on the SOL
     // TODO in the future: handle edit mode and look directly into the textarea value
@@ -117,6 +118,8 @@ function checkSOLDescriptionContains(productName, text) {
     return {
         trigger: `span:contains("${productName}") ~ textarea`,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -255,6 +258,9 @@ function checkSOLDescriptionContains(productName, text, { isReadonly = false } =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

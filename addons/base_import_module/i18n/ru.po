@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* base_import_module
+<<<<<<< HEAD
 # 
 # Translators:
 # Ilya Rozhkov, 2024
@@ -466,10 +467,19 @@
 # Anastasiia Koroleva, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+#
+# Translators:
+# Ilya Rozhkov, 2024
+# Wil Odoo, 2025
+# Anastasiia Koroleva, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-11-19 15:46+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
@@ -939,18 +949,45 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: ru\n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Anastasiia Koroleva, 2025\n"
+"Language-Team: Russian (https://app.transifex.com/odoo/teams/41243/ru/)\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
+"(n%100>=11 && n%100<=14)? 2 : 3);\n"
+>>>>>>> upstream/18.0
 
 #. module: base_import_module
 #. odoo-python
 #: code:addons/base_import_module/models/ir_module.py:0
 msgid ""
 "\n"
+<<<<<<< HEAD
 "You may need the Enterprise version to install the data module. Please visit https://www.odoo.com/pricing-plan for more information.\n"
 "If you need Website themes, it can be downloaded from https://github.com/odoo/design-themes.\n"
 msgstr ""
 "\n"
 "Для установки модуля данных вам может понадобиться версия Enterprise. Для получения дополнительной информации посетите сайт https://www.odoo.com/pricing-plan.\n"
 "Если вам нужны темы для веб-сайта, их можно загрузить с сайта https://github.com/odoo/design-themes.\n"
+=======
+"You may need the Enterprise version to install the data module. Please visit "
+"https://www.odoo.com/pricing-plan for more information.\n"
+"If you need Website themes, it can be downloaded from https://github.com/"
+"odoo/design-themes.\n"
+msgstr ""
+"\n"
+"Для установки модуля данных вам может понадобиться версия Enterprise. Для "
+"получения дополнительной информации посетите сайт https://www.odoo.com/"
+"pricing-plan.\n"
+"Если вам нужны темы для веб-сайта, их можно загрузить с сайта https://"
+"github.com/odoo/design-themes.\n"
+>>>>>>> upstream/18.0
 
 #. module: base_import_module
 #: model_terms:ir.ui.view,arch_db:base_import_module.module_form_apps_inherit
@@ -1113,7 +1150,11 @@ msgid "Created by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Создано"
+=======
+msgstr "Создано:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Создано:"
 >>>>>>> upstream/18.0
@@ -1574,7 +1615,11 @@ msgid "Created on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Создано"
+=======
+msgstr "Дата создания:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дата создания:"
 >>>>>>> upstream/18.0
@@ -1950,11 +1995,18 @@ msgstr "Принудительная инициация"
 
 #. module: base_import_module
 #: model:ir.model.fields,help:base_import_module.field_base_import_module__force
+<<<<<<< HEAD
 msgid ""
 "Force init mode even if installed. (will update `noupdate='1'` records)"
 msgstr ""
 "Принудительный режим инициализации, даже если он установлен. (обновит записи"
 " `noupdate='1'`)"
+=======
+msgid "Force init mode even if installed. (will update `noupdate='1'` records)"
+msgstr ""
+"Принудительный режим инициализации, даже если он установлен. (обновит записи "
+"`noupdate='1'`)"
+>>>>>>> upstream/18.0
 
 #. module: base_import_module
 #: model:ir.model.fields,field_description:base_import_module.field_base_import_module__id
@@ -2122,7 +2174,11 @@ msgid "Last Updated by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Последнее обновление"
+=======
+msgstr "Последнее обновление:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Последнее обновление:"
 >>>>>>> upstream/18.0
@@ -2587,7 +2643,11 @@ msgid "Last Updated on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Последнее обновление"
+=======
+msgstr "Дата последнего обновления:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дата последнего обновления:"
 >>>>>>> upstream/18.0
@@ -3030,11 +3090,19 @@ msgstr "Для настройки студии требуется приложе
 #. odoo-python
 #: code:addons/base_import_module/models/ir_module.py:0
 msgid ""
+<<<<<<< HEAD
 "The installation of the data module would fail as the following dependencies"
 " can't be found in the addons-path:\n"
 msgstr ""
 "Установка модуля данных завершится неудачей, поскольку следующие зависимости"
 " не могут быть найдены в addons-path:\n"
+=======
+"The installation of the data module would fail as the following dependencies "
+"can't be found in the addons-path:\n"
+msgstr ""
+"Установка модуля данных завершится неудачей, поскольку следующие зависимости "
+"не могут быть найдены в addons-path:\n"
+>>>>>>> upstream/18.0
 
 #. module: base_import_module
 #. odoo-python

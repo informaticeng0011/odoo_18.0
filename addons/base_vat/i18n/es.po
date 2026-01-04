@@ -1,15 +1,24 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* base_vat
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
 # Larissa Manderfeld, 2025
 # 
+=======
+#
+# Translators:
+# Wil Odoo, 2024
+# Larissa Manderfeld, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-01-27 13:03+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Larissa Manderfeld, 2025\n"
@@ -19,12 +28,28 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: es\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Larissa Manderfeld, 2025\n"
+"Language-Team: Spanish (https://app.transifex.com/odoo/teams/41243/es/)\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? "
+"1 : 2;\n"
+>>>>>>> upstream/18.0
 
 #. module: base_vat
 #. odoo-python
 #: code:addons/base_vat/models/res_partner.py:0
+<<<<<<< HEAD
 msgid ""
 "10XXXXXXXXY or 20XXXXXXXXY or 15XXXXXXXXY or 16XXXXXXXXY or 17XXXXXXXXY"
+=======
+msgid "10XXXXXXXXY or 20XXXXXXXXY or 15XXXXXXXXY or 16XXXXXXXXY or 17XXXXXXXXY"
+>>>>>>> upstream/18.0
 msgstr "10XXXXXXXXY o 20XXXXXXXXY o 15XXXXXXXXY o 16XXXXXXXXY o 17XXXXXXXXY"
 
 #. module: base_vat
@@ -49,7 +74,12 @@ msgstr "3101012009"
 #. odoo-python
 #: code:addons/base_vat/models/res_partner.py:0
 msgid "310175397400003 [Fifteen digits, first and last digits should be \"3\"]"
+<<<<<<< HEAD
 msgstr "310175397400003 [Quince dígitos, el primero y el último deben ser \"3\"]"
+=======
+msgstr ""
+"310175397400003 [Quince dígitos, el primero y el último deben ser \"3\"]"
+>>>>>>> upstream/18.0
 
 #. module: base_vat
 #. odoo-python
@@ -117,8 +147,13 @@ msgstr "DO1-01-85004-3 o 101850043"
 #: model:ir.model.fields,help:base_vat.field_res_users__vies_valid
 msgid "European VAT numbers are automatically checked on the VIES database."
 msgstr ""
+<<<<<<< HEAD
 "Los números de IVA europeos se verifican automáticamente en la base de datos"
 " VIES."
+=======
+"Los números de IVA europeos se verifican automáticamente en la base de datos "
+"VIES."
+>>>>>>> upstream/18.0
 
 #. module: base_vat
 #. odoo-python
@@ -192,10 +227,19 @@ msgstr ""
 #. odoo-python
 #: code:addons/base_vat/models/res_partner.py:0
 msgid ""
+<<<<<<< HEAD
 "The %(vat_label)s number [%(wrong_vat)s] for %(record_label)s does not seem to be valid. \n"
 "Note: the expected format is %(expected_format)s"
 msgstr ""
 "El número de %(vat_label)s [%(wrong_vat)s] para el %(record_label)s no parece correcto. \n"
+=======
+"The %(vat_label)s number [%(wrong_vat)s] for %(record_label)s does not seem "
+"to be valid. \n"
+"Note: the expected format is %(expected_format)s"
+msgstr ""
+"El número de %(vat_label)s [%(wrong_vat)s] para el %(record_label)s no "
+"parece correcto. \n"
+>>>>>>> upstream/18.0
 "Nota: el formato esperado es %(expected_format)s"
 
 #. module: base_vat
@@ -218,8 +262,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/base_vat/models/account_fiscal_position.py:0
 msgid ""
+<<<<<<< HEAD
 "The country of the foreign VAT number could not be detected. Please assign a"
 " country to the fiscal position or set a country group"
+=======
+"The country of the foreign VAT number could not be detected. Please assign a "
+"country to the fiscal position or set a country group"
+>>>>>>> upstream/18.0
 msgstr ""
 "No se ha podido detectar el país del NIF extranjero. Asigne un país a la "
 "posición fiscal o establezca un grupo de países"
@@ -228,11 +277,19 @@ msgstr ""
 #. odoo-python
 #: code:addons/base_vat/models/res_partner.py:0
 msgid ""
+<<<<<<< HEAD
 "The request for VAT validation was not processed. VIES service has responded"
 " with the following error: %s"
 msgstr ""
 "La solicitud de validación del IVA no ha sido procesada. El servicio VIES ha"
 " respondido con el siguiente error: %s"
+=======
+"The request for VAT validation was not processed. VIES service has responded "
+"with the following error: %s"
+msgstr ""
+"La solicitud de validación del IVA no ha sido procesada. El servicio VIES ha "
+"respondido con el siguiente error: %s"
+>>>>>>> upstream/18.0
 
 #. module: base_vat
 #. odoo-python

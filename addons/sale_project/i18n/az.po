@@ -89,6 +89,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* sale_project
 # 
 # Translators:
@@ -753,6 +754,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # * sale_project
 #
 # Translators:
@@ -848,6 +851,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1029,6 +1035,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1958,6 +1965,10 @@ msgstr ""
 "POT-Creation-Date: 2025-06-06 18:38+0000\n"
 "PO-Revision-Date: 2025-11-07 15:25+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2025-11-07 15:25+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: ERPGo Odoo <erpgo.odoo@gmail.com>\n"
 "Language-Team: Azerbaijani <https://translate.odoo.com/projects/odoo-18/"
 "sale_project/az/>\n"
@@ -2055,6 +2066,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2241,7 +2255,12 @@ msgid ""
 "                <p class=\"o_view_nocontent_smiling_face\">\n"
 "                    No milestones found. Let's create one!\n"
 "                </p><p>\n"
+<<<<<<< HEAD
 "                    Track major progress points that must be reached to achieve success.\n"
+=======
+"                    Track major progress points that must be reached to "
+"achieve success.\n"
+>>>>>>> upstream/18.0
 "                </p>\n"
 "            "
 msgstr ""
@@ -2282,7 +2301,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sale_project.view_edit_project_inherit_form
 msgid ""
 "<span class=\"o_stat_text\">\n"
+<<<<<<< HEAD
 "                            <span class=\"o_stat_value\">0</span> Sales Order\n"
+=======
+"                            <span class=\"o_stat_value\">0</span> Sales "
+"Order\n"
+>>>>>>> upstream/18.0
 "                        </span>\n"
 "                        <span class=\"o_stat_text\">\n"
 "                            Make Billable\n"
@@ -2325,8 +2349,15 @@ msgstr ""
 #. odoo-python
 #: code:addons/sale_project/models/sale_order_line.py:0
 msgid ""
+<<<<<<< HEAD
 "A project must be defined on the quotation %(order)s or on the form of products creating a task on order.\n"
 "The following product need a project in which to put its task: %(product_name)s"
+=======
+"A project must be defined on the quotation %(order)s or on the form of "
+"products creating a task on order.\n"
+"The following product need a project in which to put its task: %"
+"(product_name)s"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: sale_project
@@ -2340,6 +2371,7 @@ msgstr ""
 #. module: sale_project
 #: model:ir.model.fields,help:sale_project.field_sale_order_line__qty_delivered_method
 msgid ""
+<<<<<<< HEAD
 "According to product configuration, the delivered quantity can be automatically computed by mechanism:\n"
 "  - Manual: the quantity is set manually on the line\n"
 "  - Analytic From expenses: the quantity is the quantity sum from posted expenses\n"
@@ -2350,6 +2382,24 @@ msgstr ""
 "  - Manual: kəmiyyət sətirdə əl ilə təyin edilir\n"
 "  - Xərclərdən analitik: kəmiyyət dərc edilmiş xərclərdən alınan kəmiyyət məbləğidir\n"
 "  - Vaxt cədvəli: kəmiyyət bu satış sətiri ilə əlaqəli tapşırıqlar üzrə qeydə alınan saatların cəmidir\n"
+=======
+"According to product configuration, the delivered quantity can be "
+"automatically computed by mechanism:\n"
+"  - Manual: the quantity is set manually on the line\n"
+"  - Analytic From expenses: the quantity is the quantity sum from posted "
+"expenses\n"
+"  - Timesheet: the quantity is the sum of hours recorded on tasks linked to "
+"this sale line\n"
+"  - Stock Moves: the quantity comes from confirmed pickings\n"
+msgstr ""
+"Məhsulun konfiqurasiyasına uyğun olaraq, çatdırılan miqdar avtomatik olaraq "
+"mexanizmlə hesablana bilər:\n"
+"  - Manual: kəmiyyət sətirdə əl ilə təyin edilir\n"
+"  - Xərclərdən analitik: kəmiyyət dərc edilmiş xərclərdən alınan kəmiyyət "
+"məbləğidir\n"
+"  - Vaxt cədvəli: kəmiyyət bu satış sətiri ilə əlaqəli tapşırıqlar üzrə "
+"qeydə alınan saatların cəmidir\n"
+>>>>>>> upstream/18.0
 "  - Anbar hərəkətləri: miqdar təsdiq edilmiş qəbullardan gəlir\n"
 
 #. module: sale_project
@@ -2424,7 +2474,11 @@ msgid "Billable"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fakturalanmalı"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fakturalanmalı"
 >>>>>>> upstream/18.0
@@ -2671,7 +2725,11 @@ msgid "Cancelled"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ləğv olundu"
+=======
+msgstr "Ləğv edildi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ləğv edildi"
 >>>>>>> upstream/18.0
@@ -3067,7 +3125,10 @@ msgstr "Parametrləri Konfiqurasiya edin"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3578,6 +3639,7 @@ msgstr "Satılan Malların Dəyəri"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3620,6 +3682,8 @@ msgstr "Satılan Malların Dəyəri"
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4067,6 +4131,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4470,7 +4537,11 @@ msgid "Create a vendor bill"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Podratçı fakturasını tərtib edin"
+=======
+msgstr "Təchizatçı qaiməsi yaradın"
+>>>>>>> upstream/18.0
 =======
 msgstr "Təchizatçı qaiməsi yaradın"
 >>>>>>> upstream/18.0
@@ -4791,8 +4862,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Hesab-fakturalar yaradın, ödənişləri qediyyata alın və podratçılarınızla "
 "aparılan müzakirələri izləyin. "
+=======
+"Hesab-fakturalar yaradın, ödənişləri qediyyata alın və təchizatçılarınızla "
+"aparılan müzakirələri izləyin."
+>>>>>>> upstream/18.0
 =======
 "Hesab-fakturalar yaradın, ödənişləri qediyyata alın və təchizatçılarınızla "
 "aparılan müzakirələri izləyin."
@@ -5170,7 +5246,11 @@ msgid "Customer Invoices"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Müştərinin Hesab-fakturaları"
+=======
+msgstr "Müştəri Hesab-fakturaları"
+>>>>>>> upstream/18.0
 =======
 msgstr "Müştəri Hesab-fakturaları"
 >>>>>>> upstream/18.0
@@ -5455,7 +5535,11 @@ msgid "Invoice your time and material to customers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vaxtınızı və materialınızı müştərilərə fakturalayın"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vaxtınızı və materialınızı müştərilərə fakturalayın"
 >>>>>>> upstream/18.0
@@ -5664,6 +5748,7 @@ msgstr "Daha çox"
 #: model:ir.model.fields,help:sale_project.field_product_product__service_type
 #: model:ir.model.fields,help:sale_project.field_product_template__service_type
 msgid ""
+<<<<<<< HEAD
 "Manually set quantities on order: Invoice based on the manually entered quantity, without creating an analytic account.\n"
 "Timesheets on contract: Invoice based on the tracked hours on the related timesheet.\n"
 "Create a task and track hours: Create a task on the sales order validation and track the work hours."
@@ -5671,6 +5756,21 @@ msgstr ""
 "Sifariş üzrə miqdarı əl ilə təyin edin: Analitik hesab yaratmadan əl ilə daxil edilmiş kəmiyyətə əsaslanan faktura.\n"
 "Müqavilə üzrə vaxt cədvəlləri: Müvafiq vaxt cədvəlində izlənilən saatlara əsaslanan faktura.\n"
 "Tapşırıq yaradın və saatları izləyin: Satış sifarişinin təsdiqi ilə bağlı tapşırıq yaradın və iş saatlarını izləyin."
+=======
+"Manually set quantities on order: Invoice based on the manually entered "
+"quantity, without creating an analytic account.\n"
+"Timesheets on contract: Invoice based on the tracked hours on the related "
+"timesheet.\n"
+"Create a task and track hours: Create a task on the sales order validation "
+"and track the work hours."
+msgstr ""
+"Sifariş üzrə miqdarı əl ilə təyin edin: Analitik hesab yaratmadan əl ilə "
+"daxil edilmiş kəmiyyətə əsaslanan faktura.\n"
+"Müqavilə üzrə vaxt cədvəlləri: Müvafiq vaxt cədvəlində izlənilən saatlara "
+"əsaslanan faktura.\n"
+"Tapşırıq yaradın və saatları izləyin: Satış sifarişinin təsdiqi ilə bağlı "
+"tapşırıq yaradın və iş saatlarını izləyin."
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #. odoo-python
@@ -5778,7 +5878,11 @@ msgid "Milestones"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mərhələlər"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mərhələlər"
 >>>>>>> upstream/18.0
@@ -6091,8 +6195,13 @@ msgstr ""
 #. module: sale_project
 #: model:ir.model.fields,help:sale_project.field_project_milestone__quantity_percentage
 msgid ""
+<<<<<<< HEAD
 "Percentage of the ordered quantity that will automatically be delivered once"
 " the milestone is reached."
+=======
+"Percentage of the ordered quantity that will automatically be delivered once "
+"the milestone is reached."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: sale_project
@@ -6265,7 +6374,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6758,6 +6870,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7101,8 +7216,13 @@ msgstr "Məhsul Çeşidi"
 #: model:ir.model.fields,help:sale_project.field_project_project__reinvoiced_sale_order_id
 msgid ""
 "Products added to stock pickings, whose operation type is configured to "
+<<<<<<< HEAD
 "generate analytic costs, will be re-invoiced in this sales order if they are"
 " set up for it."
+=======
+"generate analytic costs, will be re-invoiced in this sales order if they are "
+"set up for it."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: sale_project
@@ -7240,7 +7360,11 @@ msgid "Projects"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Layihələr"
+>>>>>>> upstream/18.0
 =======
 msgstr "Layihələr"
 >>>>>>> upstream/18.0
@@ -7567,9 +7691,20 @@ msgstr ""
 #. module: sale_project
 #: model:ir.model.fields,help:sale_project.field_project_task__sale_line_id
 msgid ""
+<<<<<<< HEAD
 "Sales Order Item to which the time spent on this task will be added in order to be invoiced to your customer.\n"
 "By default the sales order item set on the project will be selected. In the absence of one, the last prepaid sales order item that has time remaining will be used.\n"
 "Remove the sales order item in order to make this task non billable. You can also change or remove the sales order item of each timesheet entry individually."
+=======
+"Sales Order Item to which the time spent on this task will be added in order "
+"to be invoiced to your customer.\n"
+"By default the sales order item set on the project will be selected. In the "
+"absence of one, the last prepaid sales order item that has time remaining "
+"will be used.\n"
+"Remove the sales order item in order to make this task non billable. You can "
+"also change or remove the sales order item of each timesheet entry "
+"individually."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: sale_project
@@ -7596,8 +7731,16 @@ msgstr "Satış Sifarişləri"
 #. module: sale_project
 #: model:ir.model.fields,help:sale_project.field_project_project__sale_line_id
 msgid ""
+<<<<<<< HEAD
 "Sales order item that will be selected by default on the tasks and timesheets of this project, except if the employee set on the timesheets is explicitely linked to another sales order item on the project.\n"
 "It can be modified on each task and timesheet entry individually if necessary."
+=======
+"Sales order item that will be selected by default on the tasks and "
+"timesheets of this project, except if the employee set on the timesheets is "
+"explicitely linked to another sales order item on the project.\n"
+"It can be modified on each task and timesheet entry individually if "
+"necessary."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: sale_project
@@ -7750,7 +7893,11 @@ msgid "Tasks"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tapşırıqlar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tapşırıqlar"
 >>>>>>> upstream/18.0
@@ -8161,7 +8308,11 @@ msgid "Vendor Bills"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Podratçının Fakturaları"
+=======
+msgstr "Təchizatçı Qaimələri"
+>>>>>>> upstream/18.0
 =======
 msgstr "Təchizatçı Qaimələri"
 >>>>>>> upstream/18.0

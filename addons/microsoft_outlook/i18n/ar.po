@@ -1,15 +1,24 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* microsoft_outlook
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
 # Malaz Abuidris <msea@odoo.com>, 2024
 # 
+=======
+#
+# Translators:
+# Wil Odoo, 2024
+# Malaz Abuidris <msea@odoo.com>, 2024
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Malaz Abuidris <msea@odoo.com>, 2024\n"
@@ -19,6 +28,18 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: ar\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Malaz Abuidris <msea@odoo.com>, 2024\n"
+"Language-Team: Arabic (https://app.transifex.com/odoo/teams/41243/ar/)\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+>>>>>>> upstream/18.0
 
 #. module: microsoft_outlook
 #: model_terms:ir.ui.view,arch_db:microsoft_outlook.fetchmail_server_view_form
@@ -39,22 +60,42 @@ msgstr ""
 #. module: microsoft_outlook
 #: model_terms:ir.ui.view,arch_db:microsoft_outlook.fetchmail_server_view_form
 msgid ""
+<<<<<<< HEAD
 "<span invisible=\"server_type != 'outlook' or not microsoft_outlook_refresh_token\" class=\"badge text-bg-success\">\n"
 "                        Outlook Token Valid\n"
 "                    </span>"
 msgstr ""
 "<span invisible=\"server_type != 'outlook' or not microsoft_outlook_refresh_token\" class=\"badge text-bg-success\">\n"
+=======
+"<span invisible=\"server_type != 'outlook' or not "
+"microsoft_outlook_refresh_token\" class=\"badge text-bg-success\">\n"
+"                        Outlook Token Valid\n"
+"                    </span>"
+msgstr ""
+"<span invisible=\"server_type != 'outlook' or not "
+"microsoft_outlook_refresh_token\" class=\"badge text-bg-success\">\n"
+>>>>>>> upstream/18.0
 "                        رمز Outlook صالح\n"
 "                    </span>"
 
 #. module: microsoft_outlook
 #: model_terms:ir.ui.view,arch_db:microsoft_outlook.ir_mail_server_view_form
 msgid ""
+<<<<<<< HEAD
 "<span invisible=\"smtp_authentication != 'outlook' or not microsoft_outlook_refresh_token\" class=\"badge text-bg-success\">\n"
 "                        Outlook Token Valid\n"
 "                    </span>"
 msgstr ""
 "<span invisible=\"smtp_authentication != 'outlook' or not microsoft_outlook_refresh_token\" class=\"badge text-bg-success\">\n"
+=======
+"<span invisible=\"smtp_authentication != 'outlook' or not "
+"microsoft_outlook_refresh_token\" class=\"badge text-bg-success\">\n"
+"                        Outlook Token Valid\n"
+"                    </span>"
+msgstr ""
+"<span invisible=\"smtp_authentication != 'outlook' or not "
+"microsoft_outlook_refresh_token\" class=\"badge text-bg-success\">\n"
+>>>>>>> upstream/18.0
 "                        رمز Outlook صالح\n"
 "                    </span>"
 
@@ -86,10 +127,21 @@ msgstr "تهيئة الإعدادات "
 #: code:addons/microsoft_outlook/models/ir_mail_server.py:0
 msgid ""
 "Connect your Outlook account with the OAuth Authentication process.  \n"
+<<<<<<< HEAD
 "By default, only a user with a matching email address will be able to use this server. To extend its use, you should set a \"mail.default.from\" system parameter."
 msgstr ""
 "قم بتوصيل حساب Outlook الخاص بك مع عملية مصادقة OAuth. \n"
 "افتراضياً، سيُسمح فقط للمستخدم الذي يملك عنوان البريد الإلكتروني المطابق استخدام هذا الخادم. لزيادة إمكانية استخدامه، عليك تعيين معيار نظام \"mail.default.from\". "
+=======
+"By default, only a user with a matching email address will be able to use "
+"this server. To extend its use, you should set a \"mail.default.from\" "
+"system parameter."
+msgstr ""
+"قم بتوصيل حساب Outlook الخاص بك مع عملية مصادقة OAuth. \n"
+"افتراضياً، سيُسمح فقط للمستخدم الذي يملك عنوان البريد الإلكتروني المطابق "
+"استخدام هذا الخادم. لزيادة إمكانية استخدامه، عليك تعيين معيار نظام "
+"\"mail.default.from\". "
+>>>>>>> upstream/18.0
 
 #. module: microsoft_outlook
 #. odoo-python
@@ -125,8 +177,13 @@ msgstr "خادم البريد الوارد "
 #. odoo-python
 #: code:addons/microsoft_outlook/models/ir_mail_server.py:0
 msgid ""
+<<<<<<< HEAD
 "Incorrect Connection Security for Outlook mail server “%s”. Please set it to"
 " \"TLS (STARTTLS)\"."
+=======
+"Incorrect Connection Security for Outlook mail server “%s”. Please set it to "
+"\"TLS (STARTTLS)\"."
+>>>>>>> upstream/18.0
 msgstr ""
 "أمان الاتصال غير صالح لخادم بريد Outlook الإلكتروني \"%s\". يرجى تعيينه لـ "
 "\"TLS (STARTTLS)\". "
@@ -211,8 +268,13 @@ msgid ""
 "(your email address). This should be the same account as the one used for "
 "the Outlook OAuthentication Token."
 msgstr ""
+<<<<<<< HEAD
 "يرجى تعبئة حقل \"اسم المستخدم\" باسم المستخدم من حساب Outlook/Office365الخاص"
 " بك (عنوان البريد الإلكتروني). يجب أن يكون ذلك نفس الحساب المستخدَم لرمز "
+=======
+"يرجى تعبئة حقل \"اسم المستخدم\" باسم المستخدم من حساب Outlook/Office365الخاص "
+"بك (عنوان البريد الإلكتروني). يجب أن يكون ذلك نفس الحساب المستخدَم لرمز "
+>>>>>>> upstream/18.0
 "مصادقة Outlook. "
 
 #. module: microsoft_outlook
@@ -222,8 +284,13 @@ msgid ""
 "Please leave the password field empty for Outlook mail server “%s”. The "
 "OAuth process does not require it"
 msgstr ""
+<<<<<<< HEAD
 "يرجى ترك حقل كلمة السر فارغاً لخادم بريد Outlook الإلكتروني \"%s\". لا تتطلب"
 " عملية المصادقة ذلك "
+=======
+"يرجى ترك حقل كلمة السر فارغاً لخادم بريد Outlook الإلكتروني \"%s\". لا تتطلب "
+"عملية المصادقة ذلك "
+>>>>>>> upstream/18.0
 
 #. module: microsoft_outlook
 #: model_terms:ir.ui.view,arch_db:microsoft_outlook.ir_mail_server_view_form
@@ -255,8 +322,13 @@ msgstr "نوع الخادم "
 #: model_terms:ir.ui.view,arch_db:microsoft_outlook.fetchmail_server_view_form
 #: model_terms:ir.ui.view,arch_db:microsoft_outlook.ir_mail_server_view_form
 msgid ""
+<<<<<<< HEAD
 "Setup your Outlook API credentials in the general settings to link a Outlook"
 " account."
+=======
+"Setup your Outlook API credentials in the general settings to link a Outlook "
+"account."
+>>>>>>> upstream/18.0
 msgstr ""
 "قم بضبط بيانات اعتماد الواجهة البرمجية للتطبيق لـ Outlook في الإعدادات "
 "العامة لربط حساب Outlook. "

@@ -1,7 +1,11 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* payment
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Tiffany Chang, 2024
 # Sanna Edelman <direct@generare.com>, 2024
@@ -209,6 +213,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Jessica Jakara, 2025
 # Ossi Mantylahti <ossi.mantylahti@obs-solutions.fi>, 2025
 =======
@@ -968,10 +973,16 @@
 # Jessica Jakara, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+# Ossi Mantylahti <ossi.mantylahti@obs-solutions.fi>, 2025
+# Jessica Jakara, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2096,6 +2107,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: fi\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Jessica Jakara, 2025\n"
+"Language-Team: Finnish (https://app.transifex.com/odoo/teams/41243/fi/)\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+>>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: payment
@@ -2118,17 +2139,27 @@ msgstr "7Eleven"
 #: code:addons/payment/wizards/payment_onboarding_wizard.py:0
 msgid ""
 "<h3>Please make a payment to: </h3><ul><li>Bank: %(bank)s</li><li>Account "
+<<<<<<< HEAD
 "Number: %(account_number)s</li><li>Account Holder: "
 "%(account_holder)s</li></ul>"
 msgstr ""
 "<h3>Suorita maksu seuraavaan osoitteeseen: </h3><ul><li>Pankki: "
 "%(bank)s</li><li>Tilinumero: %(account_number)s</li><li>Tilinhaltija: "
 "%(account_holder)s</li></ul>"
+=======
+"Number: %(account_number)s</li><li>Account Holder: %(account_holder)s</li></"
+"ul>"
+msgstr ""
+"<h3>Suorita maksu seuraavaan osoitteeseen: </h3><ul><li>Pankki: %(bank)s</"
+"li><li>Tilinumero: %(account_number)s</li><li>Tilinhaltija: %"
+"(account_holder)s</li></ul>"
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.payment_method_form
 msgid ""
 "<i class=\"fa fa-exclamation-triangle\"/> These properties are set to\n"
+<<<<<<< HEAD
 "                                match the behavior of providers and that of their integration with\n"
 "                                Odoo regarding this payment method. Any change may result in errors\n"
 "                                and should be tested on a test database first."
@@ -2142,10 +2173,34 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:payment.portal_breadcrumb
 msgid "<i class=\"fa fa-home\" role=\"img\" title=\"Home\" aria-label=\"Home\"/>"
 msgstr "<i class=\"fa fa-home\" role=\"img\" title=\"Home\" aria-label=\"Home\"/>"
+=======
+"                                match the behavior of providers and that of "
+"their integration with\n"
+"                                Odoo regarding this payment method. Any "
+"change may result in errors\n"
+"                                and should be tested on a test database "
+"first."
+msgstr ""
+"<i class=\"fa fa-exclamation-triangle\"/> Nämä ominaisuudet asetetaan\n"
+"                                vastaamaan palveluntarjoajien käyttäytymistä "
+"ja niiden integraation ja\n"
+"                                Odoon kanssa tämän maksutavan osalta. Kaikki "
+"muutokset voivat aiheuttaa virheitä\n"
+"                                ja ne tulisi testata ensin "
+"testitietokannassa."
+
+#. module: payment
+#: model_terms:ir.ui.view,arch_db:payment.portal_breadcrumb
+msgid ""
+"<i class=\"fa fa-home\" role=\"img\" title=\"Home\" aria-label=\"Home\"/>"
+msgstr ""
+"<i class=\"fa fa-home\" role=\"img\" title=\"Home\" aria-label=\"Home\"/>"
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.payment_capture_wizard_view_form
 msgid ""
+<<<<<<< HEAD
 "<i class=\"fa fa-info-circle oe_inline\" invisible=\"support_partial_capture"
 " != 'full_only'\" title=\"Some of the transactions you intend to capture can"
 " only be captured in full. Handle the transactions individually to capture a"
@@ -2155,6 +2210,17 @@ msgstr ""
 " != 'full_only'\" title=\"Jotkin tapahtumat, jotka aiot tallentaa, voidaan "
 "tallentaa vain kokonaisuudessaan. Käsittele tapahtumia yksitellen, jotta "
 "voit tallentaa osittaisen summan.\"/>"
+=======
+"<i class=\"fa fa-info-circle oe_inline\" "
+"invisible=\"support_partial_capture != 'full_only'\" title=\"Some of the "
+"transactions you intend to capture can only be captured in full. Handle the "
+"transactions individually to capture a partial amount.\"/>"
+msgstr ""
+"<i class=\"fa fa-info-circle oe_inline\" "
+"invisible=\"support_partial_capture != 'full_only'\" title=\"Jotkin "
+"tapahtumat, jotka aiot tallentaa, voidaan tallentaa vain kokonaisuudessaan. "
+"Käsittele tapahtumia yksitellen, jotta voit tallentaa osittaisen summan.\"/>"
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.token_form
@@ -2229,8 +2295,15 @@ msgstr "<span><i class=\"fa fa-lock\"/> Varmistaja</span>"
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.no_pms_available_warning
+<<<<<<< HEAD
 msgid "<strong><i class=\"fa fa-file-text\"/> Show availability report</strong>"
 msgstr "<strong><i class=\"fa fa-file-text\"/> Näytä saatavuusraportti</strong>"
+=======
+msgid ""
+"<strong><i class=\"fa fa-file-text\"/> Show availability report</strong>"
+msgstr ""
+"<strong><i class=\"fa fa-file-text\"/> Näytä saatavuusraportti</strong>"
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.no_pms_available_warning
@@ -2252,12 +2325,24 @@ msgstr "<strong>Maksutapaa ei ole saatavilla</strong>"
 #: model_terms:ir.ui.view,arch_db:payment.payment_capture_wizard_view_form
 msgid ""
 "<strong>Warning!</strong> There is a partial capture pending. Please wait a\n"
+<<<<<<< HEAD
 "                    moment for it to be processed. Check your payment provider configuration if\n"
 "                    the capture is still pending after a few minutes."
 msgstr ""
 "<strong>Varoitus!</strong> Vireillä on osittainen tallennus. Odota\n"
 "                    hetki, kunnes se on käsitelty. Tarkista maksupalveluntarjoajan asetukset, jos\n"
 "                    tallennus on edelleen vireillä muutaman minuutin kuluttua."
+=======
+"                    moment for it to be processed. Check your payment "
+"provider configuration if\n"
+"                    the capture is still pending after a few minutes."
+msgstr ""
+"<strong>Varoitus!</strong> Vireillä on osittainen tallennus. Odota\n"
+"                    hetki, kunnes se on käsitelty. Tarkista "
+"maksupalveluntarjoajan asetukset, jos\n"
+"                    tallennus on edelleen vireillä muutaman minuutin "
+"kuluttua."
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.payment_capture_wizard_view_form
@@ -2265,26 +2350,51 @@ msgid ""
 "<strong>Warning!</strong> You can not capture a negative amount nor more\n"
 "                    than"
 msgstr ""
+<<<<<<< HEAD
 "<strong>Varoitus!</strong> Et voi tallentaa negatiivista summaa etkä enempää\n"
+=======
+"<strong>Varoitus!</strong> Et voi tallentaa negatiivista summaa etkä "
+"enempää\n"
+>>>>>>> upstream/18.0
 "                    kuin"
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.payment_provider_form
 msgid ""
+<<<<<<< HEAD
 "<strong>Warning</strong> Creating a payment provider from the <em>CREATE</em> button is not supported.\n"
 "                        Please use the <em>Duplicate</em> action instead."
 msgstr ""
 "<strong>Varoitus</strong> Maksupalveluntarjoajan luominen <em>LUO-painikkeesta</em> ei ole tuettu.\n"
 "                        Käytä sen sijaan <em>Tee kaksoiskappale -toimintoa</em>."
+=======
+"<strong>Warning</strong> Creating a payment provider from the <em>CREATE</"
+"em> button is not supported.\n"
+"                        Please use the <em>Duplicate</em> action instead."
+msgstr ""
+"<strong>Varoitus</strong> Maksupalveluntarjoajan luominen <em>LUO-"
+"painikkeesta</em> ei ole tuettu.\n"
+"                        Käytä sen sijaan <em>Tee kaksoiskappale -toimintoa</"
+"em>."
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.pay
 msgid ""
 "<strong>Warning</strong> Make sure you are logged in as the\n"
+<<<<<<< HEAD
 "                                    correct partner before making this payment."
 msgstr ""
 "<strong>Varoitus</strong> Varmista, että olet kirjautunut sisään nimellä\n"
 "                                    oikeana kumppanina ennen tämän maksun suorittamista."
+=======
+"                                    correct partner before making this "
+"payment."
+msgstr ""
+"<strong>Varoitus</strong> Varmista, että olet kirjautunut sisään nimellä\n"
+"                                    oikeana kumppanina ennen tämän maksun "
+"suorittamista."
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.pay
@@ -2295,8 +2405,12 @@ msgstr "<strong>Varoitus</strong> Valuutta puuttuu tai on virheellinen."
 #: model_terms:ir.ui.view,arch_db:payment.pay
 msgid "<strong>Warning</strong> You must be logged in to pay."
 msgstr ""
+<<<<<<< HEAD
 "<strong>Varoitus</strong> Sinun täytyy olla kirjautuneena sisään "
 "maksaaksesi."
+=======
+"<strong>Varoitus</strong> Sinun täytyy olla kirjautuneena sisään maksaaksesi."
+>>>>>>> upstream/18.0
 
 #. module: payment
 #. odoo-python
@@ -2322,8 +2436,13 @@ msgid ""
 "A transaction with reference %(ref)s has been initiated to save a new "
 "payment method (%(provider_name)s)"
 msgstr ""
+<<<<<<< HEAD
 "Uuden maksutavan tallentamiseksi on käynnistetty maksutapahtuma, jonka viite"
 " on %(ref)s (%(provider_name)s)"
+=======
+"Uuden maksutavan tallentamiseksi on käynnistetty maksutapahtuma, jonka viite "
+"on %(ref)s (%(provider_name)s)"
+>>>>>>> upstream/18.0
 
 #. module: payment
 #. odoo-python
@@ -2332,8 +2451,13 @@ msgid ""
 "A transaction with reference %(ref)s has been initiated using the payment "
 "method %(token)s (%(provider_name)s)."
 msgstr ""
+<<<<<<< HEAD
 "Maksutapahtuma, jonka viite on %(ref)s, on käynnistetty maksutapaa %(token)s"
 " (%(provider_name)s) käyttäen."
+=======
+"Maksutapahtuma, jonka viite on %(ref)s, on käynnistetty maksutapaa %(token)s "
+"(%(provider_name)s) käyttäen."
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model:payment.method,name:payment.payment_method_ach_direct_debit
@@ -2537,7 +2661,11 @@ msgid "Abitab"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Abitab"
+>>>>>>> upstream/18.0
 =======
 msgstr "Abitab"
 >>>>>>> upstream/18.0
@@ -3476,7 +3604,11 @@ msgid "Astropay TEF"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Astropay TEF"
+>>>>>>> upstream/18.0
 =======
 msgstr "Astropay TEF"
 >>>>>>> upstream/18.0
@@ -4322,7 +4454,11 @@ msgid "Banco Guayaquil"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Banco Guayaquil"
+>>>>>>> upstream/18.0
 =======
 msgstr "Banco Guayaquil"
 >>>>>>> upstream/18.0
@@ -5083,7 +5219,11 @@ msgid "Banco Pichincha"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Banco Pichincha"
+>>>>>>> upstream/18.0
 =======
 msgstr "Banco Pichincha"
 >>>>>>> upstream/18.0
@@ -6433,7 +6573,11 @@ msgid "Facilito"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Facilito"
+>>>>>>> upstream/18.0
 =======
 msgstr "Facilito"
 >>>>>>> upstream/18.0
@@ -7146,8 +7290,12 @@ msgstr "ID"
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.no_pms_available_warning
 msgid ""
+<<<<<<< HEAD
 "If you believe that it is an error, please contact the website "
 "administrator."
+=======
+"If you believe that it is an error, please contact the website administrator."
+>>>>>>> upstream/18.0
 msgstr ""
 "Jos uskot, että kyseessä on virhe, ota yhteyttä verkkosivun ylläpitäjään."
 
@@ -7522,7 +7670,11 @@ msgid "Local Payments"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Local Payments"
+>>>>>>> upstream/18.0
 =======
 msgstr "Local Payments"
 >>>>>>> upstream/18.0
@@ -8509,7 +8661,11 @@ msgid "Nuvei"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nuvei"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nuvei"
 >>>>>>> upstream/18.0
@@ -9394,7 +9550,11 @@ msgid "Oxxo Pay"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Oxxo Pay"
+>>>>>>> upstream/18.0
 =======
 msgstr "Oxxo Pay"
 >>>>>>> upstream/18.0
@@ -10581,7 +10741,11 @@ msgid "Redpagos"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Redpagos"
+>>>>>>> upstream/18.0
 =======
 msgstr "Redpagos"
 >>>>>>> upstream/18.0
@@ -11179,8 +11343,13 @@ msgid ""
 "Refund is a feature allowing to refund customers directly from the payment "
 "in Odoo."
 msgstr ""
+<<<<<<< HEAD
 "Palautus on toiminto, jonka avulla voit palauttaa asiakkaalle maksun suoraan"
 " Odoon maksusta."
+=======
+"Palautus on toiminto, jonka avulla voit palauttaa asiakkaalle maksun suoraan "
+"Odoon maksusta."
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.payment_transaction_form
@@ -11410,7 +11579,11 @@ msgid "SPEI"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "SPEI"
+>>>>>>> upstream/18.0
 =======
 msgstr "SPEI"
 >>>>>>> upstream/18.0
@@ -12059,8 +12232,13 @@ msgstr "Sofort"
 #. odoo-python
 #: code:addons/payment/wizards/payment_capture_wizard.py:0
 msgid ""
+<<<<<<< HEAD
 "Some of the transactions you intend to capture can only be captured in full."
 " Handle the transactions individually to capture a partial amount."
+=======
+"Some of the transactions you intend to capture can only be captured in full. "
+"Handle the transactions individually to capture a partial amount."
+>>>>>>> upstream/18.0
 msgstr ""
 "Jotkin tapahtumat, jotka aiot tallentaa, voidaan tallentaa vain "
 "kokonaisuudessaan. Käsittele tapahtumat yksitellen, jotta voit tallentaa "
@@ -12173,8 +12351,13 @@ msgstr "Pääsytunniste on virheellinen."
 #: code:addons/payment/wizards/payment_capture_wizard.py:0
 msgid "The amount to capture must be positive and cannot be superior to %s."
 msgstr ""
+<<<<<<< HEAD
 "Tallennettavan määrän on oltava positiivinen, eikä se voi olla suurempi kuin"
 " %s."
+=======
+"Tallennettavan määrän on oltava positiivinen, eikä se voi olla suurempi kuin "
+"%s."
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_method__image
@@ -12185,8 +12368,12 @@ msgstr "Tässä maksutavassa käytettävä pohjakuva; 64x64 px-muodossa."
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_method__brand_ids
 msgid ""
+<<<<<<< HEAD
 "The brands of the payment methods that will be displayed on the payment "
 "form."
+=======
+"The brands of the payment methods that will be displayed on the payment form."
+>>>>>>> upstream/18.0
 msgstr "Maksutapojen tuotemerkit, jotka näytetään maksulomakkeella."
 
 #. module: payment
@@ -12215,8 +12402,13 @@ msgid ""
 "The countries in which this payment provider is available. Leave blank to "
 "make it available in all countries."
 msgstr ""
+<<<<<<< HEAD
 "Maat, joissa tämä maksupalveluntarjoaja on saatavilla. Jätä tyhjäksi, jos se"
 " on käytettävissä kaikissa maissa."
+=======
+"Maat, joissa tämä maksupalveluntarjoaja on saatavilla. Jätä tyhjäksi, jos se "
+"on käytettävissä kaikissa maissa."
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_provider__available_currency_ids
@@ -12258,9 +12450,15 @@ msgstr ""
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_method__supported_currency_ids
 msgid ""
+<<<<<<< HEAD
 "The list of currencies for that are supported by this payment method (if the"
 " provider allows it). When paying with another currency, this payment method"
 " is not available to customers."
+=======
+"The list of currencies for that are supported by this payment method (if the "
+"provider allows it). When paying with another currency, this payment method "
+"is not available to customers."
+>>>>>>> upstream/18.0
 msgstr ""
 "Luettelo valuutoista, joita tämä maksutapa tukee (jos palveluntarjoaja "
 "sallii sen). Kun maksetaan muulla valuutalla, tämä maksutapa ei ole "
@@ -12329,10 +12527,20 @@ msgstr ""
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_method__primary_payment_method_id
 msgid ""
+<<<<<<< HEAD
 "The primary payment method of the current payment method, if the latter is a brand.\n"
 "For example, \"Card\" is the primary payment method of the card brand \"VISA\"."
 msgstr ""
 "Nykyisen maksutavan ensisijainen maksutapa, jos jälkimmäinen on tuotemerkki.\n"
+=======
+"The primary payment method of the current payment method, if the latter is a "
+"brand.\n"
+"For example, \"Card\" is the primary payment method of the card brand "
+"\"VISA\"."
+msgstr ""
+"Nykyisen maksutavan ensisijainen maksutapa, jos jälkimmäinen on "
+"tuotemerkki.\n"
+>>>>>>> upstream/18.0
 "Esimerkiksi \"Luottokortti\" on korttimerkin \"VISA\" ensisijainen maksutapa."
 
 #. module: payment
@@ -12412,31 +12620,55 @@ msgstr ""
 #. odoo-python
 #: code:addons/payment/models/payment_transaction.py:0
 msgid ""
+<<<<<<< HEAD
 "The transaction with reference %(ref)s for %(amount)s encountered an error "
 "(%(provider_name)s)."
 msgstr ""
 "Viitteellä %(ref)s suoritetussa tapahtumassa %(amount)s tapahtui virhe "
 "(%(provider_name)s)."
+=======
+"The transaction with reference %(ref)s for %(amount)s encountered an error (%"
+"(provider_name)s)."
+msgstr ""
+"Viitteellä %(ref)s suoritetussa tapahtumassa %(amount)s tapahtui virhe (%"
+"(provider_name)s)."
+>>>>>>> upstream/18.0
 
 #. module: payment
 #. odoo-python
 #: code:addons/payment/models/payment_transaction.py:0
 msgid ""
+<<<<<<< HEAD
 "The transaction with reference %(ref)s for %(amount)s has been authorized "
 "(%(provider_name)s)."
 msgstr ""
 "Viitteellä %(ref)s oleva tapahtuma %(amount)s on hyväksytty "
 "(%(provider_name)s)."
+=======
+"The transaction with reference %(ref)s for %(amount)s has been authorized (%"
+"(provider_name)s)."
+msgstr ""
+"Viitteellä %(ref)s oleva tapahtuma %(amount)s on hyväksytty (%"
+"(provider_name)s)."
+>>>>>>> upstream/18.0
 
 #. module: payment
 #. odoo-python
 #: code:addons/payment/models/payment_transaction.py:0
 msgid ""
+<<<<<<< HEAD
 "The transaction with reference %(ref)s for %(amount)s has been confirmed "
 "(%(provider_name)s)."
 msgstr ""
 "Viitteellä %(ref)s tehty tapahtuma %(amount)s on vahvistettu "
 "(%(provider_name)s)."
+=======
+"The transaction with reference %(ref)s for %(amount)s has been confirmed (%"
+"(provider_name)s)."
+msgstr ""
+"Viitteellä %(ref)s tehty tapahtuma %(amount)s on vahvistettu (%"
+"(provider_name)s)."
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model_terms:ir.actions.act_window,help:payment.action_payment_transaction
@@ -12482,6 +12714,7 @@ msgstr ""
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_provider__allow_tokenization
 msgid ""
+<<<<<<< HEAD
 "This controls whether customers can save their payment methods as payment tokens.\n"
 "A payment token is an anonymous link to the payment method details saved in the\n"
 "provider's database, allowing the customer to reuse it for a next purchase."
@@ -12489,6 +12722,20 @@ msgstr ""
 "Tällä säädetään, voivatko asiakkaat tallentaa maksutapojaan maksutunnisteiksi.\n"
 "Maksutunniste on anonyymi linkki maksutavan tietoihin, jotka on tallennettu osoitteeseen\n"
 "palveluntarjoajan tietokantaan, jolloin asiakas voi käyttää sitä uudelleen seuraavassa ostoksessa."
+=======
+"This controls whether customers can save their payment methods as payment "
+"tokens.\n"
+"A payment token is an anonymous link to the payment method details saved in "
+"the\n"
+"provider's database, allowing the customer to reuse it for a next purchase."
+msgstr ""
+"Tällä säädetään, voivatko asiakkaat tallentaa maksutapojaan "
+"maksutunnisteiksi.\n"
+"Maksutunniste on anonyymi linkki maksutavan tietoihin, jotka on tallennettu "
+"osoitteeseen\n"
+"palveluntarjoajan tietokantaan, jolloin asiakas voi käyttää sitä uudelleen "
+"seuraavassa ostoksessa."
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_provider__allow_express_checkout
@@ -12504,11 +12751,22 @@ msgstr ""
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.payment_link_wizard_view_form
 msgid ""
+<<<<<<< HEAD
 "This partner has no email, which may cause issues with some payment providers.\n"
 "                     Setting an email for this partner is advised."
 msgstr ""
 "Tällä kumppanilla ei ole sähköpostia, mikä voi aiheuttaa ongelmia joidenkin maksupalvelujen tarjoajien kanssa.\n"
 "                     Tälle kumppanille on suositeltavaa määrittää sähköpostiosoite."
+=======
+"This partner has no email, which may cause issues with some payment "
+"providers.\n"
+"                     Setting an email for this partner is advised."
+msgstr ""
+"Tällä kumppanilla ei ole sähköpostia, mikä voi aiheuttaa ongelmia joidenkin "
+"maksupalvelujen tarjoajien kanssa.\n"
+"                     Tälle kumppanille on suositeltavaa määrittää "
+"sähköpostiosoite."
+>>>>>>> upstream/18.0
 
 #. module: payment
 #. odoo-python
@@ -12582,8 +12840,12 @@ msgstr "Tapahtuma"
 msgid ""
 "Transaction authorization is not supported by the following payment "
 "providers: %s"
+<<<<<<< HEAD
 msgstr ""
 "Seuraavat maksupalveluntarjoajat eivät tue tapahtumien valtuutusta: %s"
+=======
+msgstr "Seuraavat maksupalveluntarjoajat eivät tue tapahtumien valtuutusta: %s"
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model:payment.method,name:payment.payment_method_truemoney
@@ -12912,7 +13174,11 @@ msgid "WebPay"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "WebPay"
+>>>>>>> upstream/18.0
 =======
 msgstr "WebPay"
 >>>>>>> upstream/18.0
@@ -13720,6 +13986,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -13824,6 +14091,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14307,6 +14576,9 @@ msgstr "Et voi poistaa oletusmaksutapaa."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14631,8 +14903,13 @@ msgid ""
 "You cannot delete the payment provider %s; disable it or uninstall it "
 "instead."
 msgstr ""
+<<<<<<< HEAD
 "Maksupalveluntarjoajaa %s ei voi poistaa, vaan se on otettava pois käytöstä,"
 " tai poistettava moduuli joka sen lisää."
+=======
+"Maksupalveluntarjoajaa %s ei voi poistaa, vaan se on otettava pois käytöstä, "
+"tai poistettava moduuli joka sen lisää."
+>>>>>>> upstream/18.0
 
 #. module: payment
 #. odoo-python

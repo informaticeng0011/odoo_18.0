@@ -1,7 +1,11 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* uom
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Tamás Dombos, 2024
 # Ákos Nagy <akos.nagy@oregional.hu>, 2024
@@ -11,11 +15,16 @@
 # gezza <geza.nagy@oregional.hu>, 2024
 # Martin Trigaux, 2024
 # Tamás Németh <ntomasz81@gmail.com>, 2024
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 "Last-Translator: Tamás Németh <ntomasz81@gmail.com>, 2024\n"
@@ -24,13 +33,28 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: hu\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:38+0000\n"
+"PO-Revision-Date: 2024-09-25 09:42+0000\n"
+"Last-Translator: Tamás Németh <ntomasz81@gmail.com>, 2024\n"
+"Language-Team: Hungarian (https://app.transifex.com/odoo/teams/41243/hu/)\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+>>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: uom
 #: model_terms:ir.ui.view,arch_db:uom.product_uom_form_view
 msgid ""
 "<span class=\"oe_grey oe_inline\">\n"
+<<<<<<< HEAD
 "                                    e.g: 1*(reference unit)=ratio*(this unit)\n"
+=======
+"                                    e.g: 1*(reference unit)=ratio*(this "
+"unit)\n"
+>>>>>>> upstream/18.0
 "                                </span>"
 msgstr ""
 
@@ -38,7 +62,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:uom.product_uom_form_view
 msgid ""
 "<span class=\"oe_grey oe_inline\">\n"
+<<<<<<< HEAD
 "                                    e.g: 1*(this unit)=ratio*(reference unit)\n"
+=======
+"                                    e.g: 1*(this unit)=ratio*(reference "
+"unit)\n"
+>>>>>>> upstream/18.0
 "                                </span>"
 msgstr ""
 
@@ -234,10 +263,19 @@ msgid ""
 "Some critical fields have been modified on %s.\n"
 "Note that existing data WON'T be updated by this change.\n"
 "\n"
+<<<<<<< HEAD
 "As units of measure impact the whole system, this may cause critical issues.\n"
 "E.g. modifying the rounding could disturb your inventory balance.\n"
 "\n"
 "Therefore, changing core units of measure in a running database is not recommended."
+=======
+"As units of measure impact the whole system, this may cause critical "
+"issues.\n"
+"E.g. modifying the rounding could disturb your inventory balance.\n"
+"\n"
+"Therefore, changing core units of measure in a running database is not "
+"recommended."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: uom
@@ -264,7 +302,12 @@ msgstr "Egy mértékegység átváltási aránya nem lehet 0!"
 #. odoo-python
 #: code:addons/uom/models/uom_uom.py:0
 msgid ""
+<<<<<<< HEAD
 "The following units of measure are used by the system and cannot be deleted: %s\n"
+=======
+"The following units of measure are used by the system and cannot be deleted: "
+"%s\n"
+>>>>>>> upstream/18.0
 "You can archive them instead."
 msgstr ""
 
@@ -282,8 +325,13 @@ msgstr "A kerekítési pontosság csak pozitív lehet."
 #. odoo-python
 #: code:addons/uom/models/uom_uom.py:0
 msgid ""
+<<<<<<< HEAD
 "The unit of measure %(unit)s defined on the order line doesn't belong to the"
 " same category as the unit of measure %(product_unit)s defined on the "
+=======
+"The unit of measure %(unit)s defined on the order line doesn't belong to the "
+"same category as the unit of measure %(product_unit)s defined on the "
+>>>>>>> upstream/18.0
 "product. Please correct the unit of measure defined on the order line or on "
 "the product. They should belong to the same category."
 msgstr ""
@@ -304,8 +352,13 @@ msgstr "Típus"
 msgid ""
 "Uncheck the active field to disable a unit of measure without deleting it."
 msgstr ""
+<<<<<<< HEAD
 "Az aktív mező kijelölésének megszüntetésével kikapcsolhat egy mértékegységet"
 " annak törlése nélkül."
+=======
+"Az aktív mező kijelölésének megszüntetésével kikapcsolhat egy mértékegységet "
+"annak törlése nélkül."
+>>>>>>> upstream/18.0
 
 #. module: uom
 #: model:uom.category,name:uom.product_uom_categ_unit
@@ -356,7 +409,12 @@ msgid ""
 msgstr ""
 "Ugyanabba a kategóriába tartozó mértékegységek \n"
 "            átválthatóak egymás közt. Például, az\n"
+<<<<<<< HEAD
 "            <i>'Idő'</i>, kategóriában, a következő mértékegységek találhatók: óra, nap."
+=======
+"            <i>'Idő'</i>, kategóriában, a következő mértékegységek "
+"találhatók: óra, nap."
+>>>>>>> upstream/18.0
 
 #. module: uom
 #. odoo-python

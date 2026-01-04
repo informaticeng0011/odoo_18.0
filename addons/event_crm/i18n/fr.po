@@ -1,15 +1,24 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* event_crm
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
 # Manon Rondou, 2025
 # 
+=======
+#
+# Translators:
+# Wil Odoo, 2024
+# Manon Rondou, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Manon Rondou, 2025\n"
@@ -19,6 +28,18 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: fr\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Manon Rondou, 2025\n"
+"Language-Team: French (https://app.transifex.com/odoo/teams/41243/fr/)\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % "
+"1000000 == 0 ? 1 : 2;\n"
+>>>>>>> upstream/18.0
 
 #. module: event_crm
 #: model:ir.model.fields,field_description:event_crm.field_event_event__lead_count
@@ -94,8 +115,13 @@ msgstr "Attribuer automatiquement les pistes créées à ce vendeur."
 #: code:addons/event_crm/models/event_event.py:0
 msgid "Aww! No Leads created, check your Lead Generation Rules and try again."
 msgstr ""
+<<<<<<< HEAD
 "Oh ! Aucune piste n'a été créée, vérifiez vos règles de génération de pistes"
 " et réessayez."
+=======
+"Oh ! Aucune piste n'a été créée, vérifiez vos règles de génération de pistes "
+"et réessayez."
+>>>>>>> upstream/18.0
 
 #. module: event_crm
 #: model:ir.model.fields,field_description:event_crm.field_event_lead_rule__company_id
@@ -146,7 +172,12 @@ msgid ""
 msgstr ""
 "Création : lors de la création du participant ;\n"
 "Inscrit : lors de l'inscription manuelle ou automatique du participant ;\n"
+<<<<<<< HEAD
 "Présent : lorsque la participation est confirmée et l'inscription est considérée comme terminée ;"
+=======
+"Présent : lorsque la participation est confirmée et l'inscription est "
+"considérée comme terminée ;"
+>>>>>>> upstream/18.0
 
 #. module: event_crm
 #: model:ir.model.fields,help:event_crm.field_event_lead_rule__lead_type
@@ -224,11 +255,19 @@ msgstr ""
 #. module: event_crm
 #: model:ir.model.fields,help:event_crm.field_event_lead_rule__event_id
 msgid ""
+<<<<<<< HEAD
 "Filter the attendees to include those of this specific event. If not set, no"
 " event restriction will be applied."
 msgstr ""
 "Filtrer les participants afin d'inclure ceux de cet événement spécifique. Si"
 " non défini, aucune restriction d'événement ne sera appliquée."
+=======
+"Filter the attendees to include those of this specific event. If not set, no "
+"event restriction will be applied."
+msgstr ""
+"Filtrer les participants afin d'inclure ceux de cet événement spécifique. Si "
+"non défini, aucune restriction d'événement ne sera appliquée."
+>>>>>>> upstream/18.0
 
 #. module: event_crm
 #: model_terms:ir.ui.view,arch_db:event_crm.event_lead_rule_view_form
@@ -245,8 +284,13 @@ msgstr "Générer des pistes"
 #: code:addons/event_crm/models/event_event.py:0
 msgid "Got it! We've noted your request. Your leads will be created soon!"
 msgstr ""
+<<<<<<< HEAD
 "Bien reçu ! Nous avons pris note de votre demande. Vos pistes seront bientôt"
 " créées !"
+=======
+"Bien reçu ! Nous avons pris note de votre demande. Vos pistes seront bientôt "
+"créées !"
+>>>>>>> upstream/18.0
 
 #. module: event_crm
 #: model:ir.model.fields,field_description:event_crm.field_event_lead_request__id
@@ -382,7 +426,12 @@ msgid ""
 "Per Order: A single Lead is created per Ticket Batch/Sale Order (B2B)"
 msgstr ""
 "Par participant : Une piste est créée pour chaque participant (B2C).\n"
+<<<<<<< HEAD
 "Par commande : Une seule piste est créée par lot de tickets/commande client (B2B)"
+=======
+"Par commande : Une seule piste est créée par lot de tickets/commande client "
+"(B2B)"
+>>>>>>> upstream/18.0
 
 #. module: event_crm
 #: model:ir.model.fields.selection,name:event_crm.selection__event_lead_rule__lead_creation_basis__order
@@ -417,10 +466,19 @@ msgstr "Les inscriptions déclenchent la règle qui a créé cette piste"
 #. module: event_crm
 #: model:ir.model.fields,help:event_crm.field_event_lead_rule__company_id
 msgid ""
+<<<<<<< HEAD
 "Restrict the trigger of this rule to events belonging to a specific company.\n"
 "If not set, no company restriction will be applied."
 msgstr ""
 "Restreindre le déclenchement de cette règle à des événements qui appartiennent à une entreprise spécifique.\n"
+=======
+"Restrict the trigger of this rule to events belonging to a specific "
+"company.\n"
+"If not set, no company restriction will be applied."
+msgstr ""
+"Restreindre le déclenchement de cette règle à des événements qui "
+"appartiennent à une entreprise spécifique.\n"
+>>>>>>> upstream/18.0
 "Si non défini, aucune restriction ne sera appliquée."
 
 #. module: event_crm

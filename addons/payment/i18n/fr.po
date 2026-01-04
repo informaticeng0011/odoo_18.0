@@ -1,18 +1,27 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* payment
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Martin Trigaux, 2024
 # Tiffany Chang, 2024
 # Wil Odoo, 2024
 # Jolien De Paepe, 2024
 # Manon Rondou, 2025
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -742,6 +751,18 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: fr\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Manon Rondou, 2025\n"
+"Language-Team: French (https://app.transifex.com/odoo/teams/41243/fr/)\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % "
+"1000000 == 0 ? 1 : 2;\n"
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_provider_onboarding_wizard___data_fetched
@@ -763,6 +784,7 @@ msgstr "7Eleven"
 #: code:addons/payment/wizards/payment_onboarding_wizard.py:0
 msgid ""
 "<h3>Please make a payment to: </h3><ul><li>Bank: %(bank)s</li><li>Account "
+<<<<<<< HEAD
 "Number: %(account_number)s</li><li>Account Holder: "
 "%(account_holder)s</li></ul>"
 msgstr ""
@@ -770,11 +792,20 @@ msgstr ""
 "</h3><ul><li>Banque : %(bank)s</li><li>Numéro de compte : "
 "%(account_number)s</li><li>Titulaire du compte : "
 "%(account_holder)s</li></ul>"
+=======
+"Number: %(account_number)s</li><li>Account Holder: %(account_holder)s</li></"
+"ul>"
+msgstr ""
+"<h3>Veuillez effectuer un paiement sur le compte suivant : </"
+"h3><ul><li>Banque : %(bank)s</li><li>Numéro de compte : %(account_number)s</"
+"li><li>Titulaire du compte : %(account_holder)s</li></ul>"
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.payment_method_form
 msgid ""
 "<i class=\"fa fa-exclamation-triangle\"/> These properties are set to\n"
+<<<<<<< HEAD
 "                                match the behavior of providers and that of their integration with\n"
 "                                Odoo regarding this payment method. Any change may result in errors\n"
 "                                and should be tested on a test database first."
@@ -788,10 +819,35 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:payment.portal_breadcrumb
 msgid "<i class=\"fa fa-home\" role=\"img\" title=\"Home\" aria-label=\"Home\"/>"
 msgstr "<i class=\"fa fa-home\" role=\"img\" title=\"Page d'accueil\" aria-label=\"Home\"/>"
+=======
+"                                match the behavior of providers and that of "
+"their integration with\n"
+"                                Odoo regarding this payment method. Any "
+"change may result in errors\n"
+"                                and should be tested on a test database "
+"first."
+msgstr ""
+"<i class=\"fa fa-exclamation-triangle\"/> Ces propriétés sont définies pour\n"
+"                                correspondre au comportement des "
+"fournisseurs et de leur intégration avec\n"
+"                                Odoo concernant ce mode de paiement. Toute "
+"modification peut entraîner des erreurs\n"
+"                                et doit d'abord être testée sur une base de "
+"données de test."
+
+#. module: payment
+#: model_terms:ir.ui.view,arch_db:payment.portal_breadcrumb
+msgid ""
+"<i class=\"fa fa-home\" role=\"img\" title=\"Home\" aria-label=\"Home\"/>"
+msgstr ""
+"<i class=\"fa fa-home\" role=\"img\" title=\"Page d'accueil\" aria-"
+"label=\"Home\"/>"
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.payment_capture_wizard_view_form
 msgid ""
+<<<<<<< HEAD
 "<i class=\"fa fa-info-circle oe_inline\" invisible=\"support_partial_capture"
 " != 'full_only'\" title=\"Some of the transactions you intend to capture can"
 " only be captured in full. Handle the transactions individually to capture a"
@@ -801,6 +857,18 @@ msgstr ""
 " != 'full_only'\" title=\"Certaines des transactions que vous voulez "
 "capturer ne peuvent être capturées que dans leur intégralité. Traitez les "
 "transactions individuellement pour capturer un montant partiel.\"/>"
+=======
+"<i class=\"fa fa-info-circle oe_inline\" "
+"invisible=\"support_partial_capture != 'full_only'\" title=\"Some of the "
+"transactions you intend to capture can only be captured in full. Handle the "
+"transactions individually to capture a partial amount.\"/>"
+msgstr ""
+"<i class=\"fa fa-info-circle oe_inline\" "
+"invisible=\"support_partial_capture != 'full_only'\" title=\"Certaines des "
+"transactions que vous voulez capturer ne peuvent être capturées que dans "
+"leur intégralité. Traitez les transactions individuellement pour capturer un "
+"montant partiel.\"/>"
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.token_form
@@ -877,10 +945,18 @@ msgstr "<span><i class=\"fa fa-lock\"/> Sécurisé par</span>"
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.no_pms_available_warning
+<<<<<<< HEAD
 msgid "<strong><i class=\"fa fa-file-text\"/> Show availability report</strong>"
 msgstr ""
 "<strong><i class=\"fa fa-file-text\"/> Afficher le rapport de "
 "disponibilté</strong>"
+=======
+msgid ""
+"<strong><i class=\"fa fa-file-text\"/> Show availability report</strong>"
+msgstr ""
+"<strong><i class=\"fa fa-file-text\"/> Afficher le rapport de disponibilté</"
+"strong>"
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.no_pms_available_warning
@@ -902,12 +978,25 @@ msgstr "<strong>Aucun mode de paiement disponible</strong>"
 #: model_terms:ir.ui.view,arch_db:payment.payment_capture_wizard_view_form
 msgid ""
 "<strong>Warning!</strong> There is a partial capture pending. Please wait a\n"
+<<<<<<< HEAD
 "                    moment for it to be processed. Check your payment provider configuration if\n"
 "                    the capture is still pending after a few minutes."
 msgstr ""
 "<strong>Avertissement !</strong> Une capture partielle est en attente. Veuillez patienter\n"
 "                    jusqu'à ce qu'elle soit traitée. Vérifiez la configuration de votre fournisseur de paiement si\n"
 "                    la capture est toujours en attente après quelques minutes."
+=======
+"                    moment for it to be processed. Check your payment "
+"provider configuration if\n"
+"                    the capture is still pending after a few minutes."
+msgstr ""
+"<strong>Avertissement !</strong> Une capture partielle est en attente. "
+"Veuillez patienter\n"
+"                    jusqu'à ce qu'elle soit traitée. Vérifiez la "
+"configuration de votre fournisseur de paiement si\n"
+"                    la capture est toujours en attente après quelques "
+"minutes."
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.payment_capture_wizard_view_form
@@ -915,26 +1004,49 @@ msgid ""
 "<strong>Warning!</strong> You can not capture a negative amount nor more\n"
 "                    than"
 msgstr ""
+<<<<<<< HEAD
 "<strong>Avertissement !</strong> Vous ne pouvez pas capturer un montant négatif ou un montant supérieur\n"
+=======
+"<strong>Avertissement !</strong> Vous ne pouvez pas capturer un montant "
+"négatif ou un montant supérieur\n"
+>>>>>>> upstream/18.0
 "                    à"
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.payment_provider_form
 msgid ""
+<<<<<<< HEAD
 "<strong>Warning</strong> Creating a payment provider from the <em>CREATE</em> button is not supported.\n"
 "                        Please use the <em>Duplicate</em> action instead."
 msgstr ""
 "<strong>Avertissement</strong> La création d'un fournisseur de paiement à partir du bouton <em>CRÉER</em> n'est pas prise en charge.\n"
+=======
+"<strong>Warning</strong> Creating a payment provider from the <em>CREATE</"
+"em> button is not supported.\n"
+"                        Please use the <em>Duplicate</em> action instead."
+msgstr ""
+"<strong>Avertissement</strong> La création d'un fournisseur de paiement à "
+"partir du bouton <em>CRÉER</em> n'est pas prise en charge.\n"
+>>>>>>> upstream/18.0
 "                        Veuillez plutôt utiliser l'action <em>Dupliquer</em>."
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.pay
 msgid ""
 "<strong>Warning</strong> Make sure you are logged in as the\n"
+<<<<<<< HEAD
 "                                    correct partner before making this payment."
 msgstr ""
 "<strong>Avertissement</strong> Assurez-vous d'être connecté comme\n"
 "                                    le bon partenaire avant d'effectuer ce paiement."
+=======
+"                                    correct partner before making this "
+"payment."
+msgstr ""
+"<strong>Avertissement</strong> Assurez-vous d'être connecté comme\n"
+"                                    le bon partenaire avant d'effectuer ce "
+"paiement."
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.pay
@@ -983,8 +1095,13 @@ msgid ""
 "A transaction with reference %(ref)s has been initiated using the payment "
 "method %(token)s (%(provider_name)s)."
 msgstr ""
+<<<<<<< HEAD
 "Une transaction avec la référence %(ref)s a été initiée en utilisant le mode"
 " de paiement %(token)s (%(provider_name)s)."
+=======
+"Une transaction avec la référence %(ref)s a été initiée en utilisant le mode "
+"de paiement %(token)s (%(provider_name)s)."
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model:payment.method,name:payment.payment_method_ach_direct_debit
@@ -1473,7 +1590,12 @@ msgid ""
 "you are sure you can ship the goods to them."
 msgstr ""
 "Capturez le montant depuis Odoo quand la livraison est effectuée.\n"
+<<<<<<< HEAD
 "Utilisez-le si vous voulez débiter les cartes de vos clients uniquement quand\n"
+=======
+"Utilisez-le si vous voulez débiter les cartes de vos clients uniquement "
+"quand\n"
+>>>>>>> upstream/18.0
 "vous êtes sûr de pouvoir leur livrer la marchandise."
 
 #. module: payment
@@ -2019,8 +2141,12 @@ msgstr "ID"
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.no_pms_available_warning
 msgid ""
+<<<<<<< HEAD
 "If you believe that it is an error, please contact the website "
 "administrator."
+=======
+"If you believe that it is an error, please contact the website administrator."
+>>>>>>> upstream/18.0
 msgstr ""
 "Si vous pensez qu'il s'agit d'une erreur, veuillez contacter "
 "l'administrateur du site web."
@@ -2037,7 +2163,12 @@ msgid ""
 "In test mode, a fake payment is processed through a test payment interface.\n"
 "This mode is advised when setting up the provider."
 msgstr ""
+<<<<<<< HEAD
 "En mode test, un faux paiement est traité via une interface de paiement test.\n"
+=======
+"En mode test, un faux paiement est traité via une interface de paiement "
+"test.\n"
+>>>>>>> upstream/18.0
 "Ce mode est conseillé lors de la configuration du fournisseur."
 
 #. module: payment
@@ -2873,8 +3004,13 @@ msgstr "Pix"
 #: code:addons/payment/models/payment_method.py:0
 msgid "Please make sure that %(payment_method)s is supported by %(provider)s."
 msgstr ""
+<<<<<<< HEAD
 "Veuillez vous assurer que %(payment_method)s est pris en charge par "
 "%(provider)s."
+=======
+"Veuillez vous assurer que %(payment_method)s est pris en charge par %"
+"(provider)s."
+>>>>>>> upstream/18.0
 
 #. module: payment
 #. odoo-python
@@ -3031,8 +3167,13 @@ msgid ""
 "Refund is a feature allowing to refund customers directly from the payment "
 "in Odoo."
 msgstr ""
+<<<<<<< HEAD
 "Le remboursement est une fonctionnalité permettant de rembourser les clients"
 " directement à partir du paiement dans Odoo."
+=======
+"Le remboursement est une fonctionnalité permettant de rembourser les clients "
+"directement à partir du paiement dans Odoo."
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.payment_transaction_form
@@ -3158,8 +3299,13 @@ msgstr "Sofort"
 #. odoo-python
 #: code:addons/payment/wizards/payment_capture_wizard.py:0
 msgid ""
+<<<<<<< HEAD
 "Some of the transactions you intend to capture can only be captured in full."
 " Handle the transactions individually to capture a partial amount."
+=======
+"Some of the transactions you intend to capture can only be captured in full. "
+"Handle the transactions individually to capture a partial amount."
+>>>>>>> upstream/18.0
 msgstr ""
 "Certaines des transactions que vous voulez capturer ne peuvent être "
 "capturées que dans leur intégralité. Traitez les transactions "
@@ -3284,8 +3430,12 @@ msgstr ""
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_method__brand_ids
 msgid ""
+<<<<<<< HEAD
 "The brands of the payment methods that will be displayed on the payment "
 "form."
+=======
+"The brands of the payment methods that will be displayed on the payment form."
+>>>>>>> upstream/18.0
 msgstr ""
 "Les marques des modes de paiement qui seront affichées sur le formulaire de "
 "paiement."
@@ -3352,16 +3502,28 @@ msgid ""
 "provider allows it). In other countries, this payment method is not "
 "available to customers."
 msgstr ""
+<<<<<<< HEAD
 "La liste des pays dans lesquels ce mode de paiement peut être utilisé (si le"
 " fournisseur le permet). Dans les autres pays, ce mode de paiement n'est pas"
 " disponible pour les clients."
+=======
+"La liste des pays dans lesquels ce mode de paiement peut être utilisé (si le "
+"fournisseur le permet). Dans les autres pays, ce mode de paiement n'est pas "
+"disponible pour les clients."
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_method__supported_currency_ids
 msgid ""
+<<<<<<< HEAD
 "The list of currencies for that are supported by this payment method (if the"
 " provider allows it). When paying with another currency, this payment method"
 " is not available to customers."
+=======
+"The list of currencies for that are supported by this payment method (if the "
+"provider allows it). When paying with another currency, this payment method "
+"is not available to customers."
+>>>>>>> upstream/18.0
 msgstr ""
 "La liste des devises qui sont prises en charge par ce mode de paiement (si "
 "le fournisseur le permet). Lorsque le paiement est effectué dans une autre "
@@ -3406,8 +3568,13 @@ msgid ""
 "The message displayed if the order is successfully done after the payment "
 "process"
 msgstr ""
+<<<<<<< HEAD
 "Le message affiché si la commande est livrée avec succès après le traitement"
 " du paiement"
+=======
+"Le message affiché si la commande est livrée avec succès après le traitement "
+"du paiement"
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_provider__pending_msg
@@ -3434,11 +3601,23 @@ msgstr ""
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_method__primary_payment_method_id
 msgid ""
+<<<<<<< HEAD
 "The primary payment method of the current payment method, if the latter is a brand.\n"
 "For example, \"Card\" is the primary payment method of the card brand \"VISA\"."
 msgstr ""
 "Le mode de paiement primaire du mode de paiement actuel, si ce dernier est une marque. \n"
 "Par exemple, \"Carte\" est le mode de paiement primaire de la carte de marque \"VISA\"."
+=======
+"The primary payment method of the current payment method, if the latter is a "
+"brand.\n"
+"For example, \"Card\" is the primary payment method of the card brand "
+"\"VISA\"."
+msgstr ""
+"Le mode de paiement primaire du mode de paiement actuel, si ce dernier est "
+"une marque. \n"
+"Par exemple, \"Carte\" est le mode de paiement primaire de la carte de "
+"marque \"VISA\"."
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_token__provider_ref
@@ -3502,8 +3681,12 @@ msgstr "Le modèle d'un formulaire de paiement rapide."
 #: model:ir.model.fields,help:payment.field_payment_provider__inline_form_view_id
 msgid ""
 "The template rendering the inline payment form when making a direct payment"
+<<<<<<< HEAD
 msgstr ""
 "Le modèle d'un formulaire de paiement inline lors d'un paiement direct"
+=======
+msgstr "Le modèle d'un formulaire de paiement inline lors d'un paiement direct"
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_provider__token_inline_form_view_id
@@ -3517,8 +3700,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/payment/models/payment_transaction.py:0
 msgid ""
+<<<<<<< HEAD
 "The transaction with reference %(ref)s for %(amount)s encountered an error "
 "(%(provider_name)s)."
+=======
+"The transaction with reference %(ref)s for %(amount)s encountered an error (%"
+"(provider_name)s)."
+>>>>>>> upstream/18.0
 msgstr ""
 "La transaction avec la référence %(ref)s pour un montant de %(amount)s a "
 "rencontrée une erreur (%(provider_name)s)."
@@ -3527,21 +3715,37 @@ msgstr ""
 #. odoo-python
 #: code:addons/payment/models/payment_transaction.py:0
 msgid ""
+<<<<<<< HEAD
 "The transaction with reference %(ref)s for %(amount)s has been authorized "
 "(%(provider_name)s)."
 msgstr ""
 "La transaction avec la référence %(ref)s pour un montant de %(amount)s a été"
 " autorisée (%(provider_name)s)."
+=======
+"The transaction with reference %(ref)s for %(amount)s has been authorized (%"
+"(provider_name)s)."
+msgstr ""
+"La transaction avec la référence %(ref)s pour un montant de %(amount)s a été "
+"autorisée (%(provider_name)s)."
+>>>>>>> upstream/18.0
 
 #. module: payment
 #. odoo-python
 #: code:addons/payment/models/payment_transaction.py:0
 msgid ""
+<<<<<<< HEAD
 "The transaction with reference %(ref)s for %(amount)s has been confirmed "
 "(%(provider_name)s)."
 msgstr ""
 "La transaction avec la référence %(ref)s pour un montant de %(amount)s a été"
 " confirmée (%(provider_name)s)."
+=======
+"The transaction with reference %(ref)s for %(amount)s has been confirmed (%"
+"(provider_name)s)."
+msgstr ""
+"La transaction avec la référence %(ref)s pour un montant de %(amount)s a été "
+"confirmée (%(provider_name)s)."
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model_terms:ir.actions.act_window,help:payment.action_payment_transaction
@@ -3571,8 +3775,13 @@ msgid ""
 "This action will also archive %s tokens that are registered with this "
 "payment method."
 msgstr ""
+<<<<<<< HEAD
 "Cette action archivera également %s jetons qui sont enregistrés avec ce mode"
 " de paiement."
+=======
+"Cette action archivera également %s jetons qui sont enregistrés avec ce mode "
+"de paiement."
+>>>>>>> upstream/18.0
 
 #. module: payment
 #. odoo-python
@@ -3587,6 +3796,7 @@ msgstr ""
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_provider__allow_tokenization
 msgid ""
+<<<<<<< HEAD
 "This controls whether customers can save their payment methods as payment tokens.\n"
 "A payment token is an anonymous link to the payment method details saved in the\n"
 "provider's database, allowing the customer to reuse it for a next purchase."
@@ -3594,6 +3804,20 @@ msgstr ""
 "Ceci permet de contrôler si les clients peuvent enregistrer leurs modes de paiement comme des jetons de paiement.\n"
 "Un jeton de paiement est un lien anonyme aux détails du mode de paiement enregistré dans \n"
 "la base de donnée du fournisseur, permettant au client de le réutiliser pour un achat suivant."
+=======
+"This controls whether customers can save their payment methods as payment "
+"tokens.\n"
+"A payment token is an anonymous link to the payment method details saved in "
+"the\n"
+"provider's database, allowing the customer to reuse it for a next purchase."
+msgstr ""
+"Ceci permet de contrôler si les clients peuvent enregistrer leurs modes de "
+"paiement comme des jetons de paiement.\n"
+"Un jeton de paiement est un lien anonyme aux détails du mode de paiement "
+"enregistré dans \n"
+"la base de donnée du fournisseur, permettant au client de le réutiliser pour "
+"un achat suivant."
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_provider__allow_express_checkout
@@ -3603,16 +3827,30 @@ msgid ""
 "address information is collected at payment."
 msgstr ""
 "Ceci permet de contrôler si les clients peuvent utiliser des modes de "
+<<<<<<< HEAD
 "paiement rapides. Le paiement rapide permet aux clients de payer avec Google"
 " Pay et Apple Pay dont les coordonnées sont recueillies au paiement."
+=======
+"paiement rapides. Le paiement rapide permet aux clients de payer avec Google "
+"Pay et Apple Pay dont les coordonnées sont recueillies au paiement."
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.payment_link_wizard_view_form
 msgid ""
+<<<<<<< HEAD
 "This partner has no email, which may cause issues with some payment providers.\n"
 "                     Setting an email for this partner is advised."
 msgstr ""
 "Ce partenaire n'a pas d'e-mail, ce qui pourrait poser problème à certains fournisseurs de paiement. \n"
+=======
+"This partner has no email, which may cause issues with some payment "
+"providers.\n"
+"                     Setting an email for this partner is advised."
+msgstr ""
+"Ce partenaire n'a pas d'e-mail, ce qui pourrait poser problème à certains "
+"fournisseurs de paiement. \n"
+>>>>>>> upstream/18.0
 "Il est recommandé de configurer un e-mail pour ce partenaire."
 
 #. module: payment
@@ -3845,8 +4083,12 @@ msgstr ""
 msgid ""
 "Whether each of the transactions' provider supports the partial capture."
 msgstr ""
+<<<<<<< HEAD
 "Si le fournisseur de chaque transaction prend en charge la capture "
 "partielle."
+=======
+"Si le fournisseur de chaque transaction prend en charge la capture partielle."
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_provider__is_published
@@ -3889,6 +4131,7 @@ msgid ""
 "You cannot change the company of a payment provider with existing "
 "transactions."
 msgstr ""
+<<<<<<< HEAD
 "Vous ne pouvez pas modifier la société d'un fournisseur de paiement pour des"
 " transactions existantes."
 
@@ -4451,6 +4694,13 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"Vous ne pouvez pas modifier la société d'un fournisseur de paiement pour des "
+"transactions existantes."
+
+#. module: payment
+#. odoo-python
+>>>>>>> upstream/18.0
 #: code:addons/payment/models/payment_method.py:0
 msgid "You cannot delete the default payment method."
 msgstr "Vous ne pouvez pas supprimer le mode de paiement par défaut."
@@ -4631,6 +4881,9 @@ msgstr "Vous ne pouvez pas supprimer le mode de paiement par défaut."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

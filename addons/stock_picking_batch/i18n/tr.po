@@ -42,8 +42,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* stock_picking_batch
 # 
+=======
+# * stock_picking_batch
+#
+>>>>>>> upstream/18.0
 =======
 # * stock_picking_batch
 #
@@ -346,6 +351,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Deniz Guvener_Odoo <degu@odoo.com>, 2025
 >>>>>>> upstream/18.0
@@ -731,10 +737,15 @@
 # Deniz Guvener_Odoo <degu@odoo.com>, 2025
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
+=======
+# Deniz Guvener_Odoo <degu@odoo.com>, 2025
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-03-19 20:37+0000\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1158,6 +1169,10 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-11-21 02:38+0000\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:38+0000\n"
+"PO-Revision-Date: 2025-12-31 16:33+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Turkish <https://translate.odoo.com/projects/odoo-18/"
 "stock_picking_batch/tr/>\n"
@@ -1166,6 +1181,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+<<<<<<< HEAD
 "X-Generator: Weblate 5.12.2\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1291,6 +1307,9 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.report_picking_batch
@@ -1409,7 +1428,11 @@ msgid "2023-08-20"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "20-08-2023"
+>>>>>>> upstream/18.0
 =======
 msgstr "20-08-2023"
 >>>>>>> upstream/18.0
@@ -1756,7 +1779,11 @@ msgstr "20-08-2023"
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_type_kanban_batch
 msgid "<span class=\"col-6\">Waves</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"col-6\">Dalgalar</span>"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.view_picking_type_form_inherit
@@ -1764,6 +1791,11 @@ msgid ""
 "<span class=\"o_form_label fw-bold\" invisible=\"not auto_batch\" "
 "style=\"white-space: nowrap;\">Wave Grouping</span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"o_form_label fw-bold\" invisible=\"not auto_batch\" style"
+"=\"white-space: nowrap;\">Dalga Gruplama</span>"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.view_picking_type_form_inherit
@@ -1771,6 +1803,11 @@ msgid ""
 "<span class=\"o_form_label fw-bold\" invisible=\"not auto_batch\">Batch "
 "Grouping</span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"o_form_label fw-bold\" invisible=\"not auto_batch\">Toplu "
+"Gruplama</span>"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.report_picking_batch
@@ -1810,19 +1847,37 @@ msgstr "<strong>→</strong>"
 #. module: stock_picking_batch
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_type__batch_max_lines
 msgid ""
+<<<<<<< HEAD
 "A transfer will not be automatically added to batches that will exceed this number of lines if the transfer is added to it.\n"
 "Leave this value as '0' if no line limit."
 msgstr ""
 "Bu satır sayısını aşacak partilere havale eklenmesi halinde otomatik olarak havale eklenmeyecektir.\n"
+=======
+"A transfer will not be automatically added to batches that will exceed this "
+"number of lines if the transfer is added to it.\n"
+"Leave this value as '0' if no line limit."
+msgstr ""
+"Bu satır sayısını aşacak partilere havale eklenmesi halinde otomatik olarak "
+"havale eklenmeyecektir.\n"
+>>>>>>> upstream/18.0
 "Satır sınırı yoksa bu değeri '0' olarak bırakın."
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_type__batch_max_pickings
 msgid ""
+<<<<<<< HEAD
 "A transfer will not be automatically added to batches that will exceed this number of transfers.\n"
 "Leave this value as '0' if no transfer limit."
 msgstr ""
 "Bu transfer sayısını aşan partilere otomatik olarak transfer eklenmeyecektir.\n"
+=======
+"A transfer will not be automatically added to batches that will exceed this "
+"number of transfers.\n"
+"Leave this value as '0' if no transfer limit."
+msgstr ""
+"Bu transfer sayısını aşan partilere otomatik olarak transfer "
+"eklenmeyecektir.\n"
+>>>>>>> upstream/18.0
 "Transfer limiti yoksa bu değeri '0' olarak bırakın."
 
 #. module: stock_picking_batch
@@ -1959,7 +2014,11 @@ msgstr "Batch"
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.view_picking_type_form_inherit
 msgid "Batch & Wave Transfers"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Toplu ve Dalga Transferler"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.report_picking_batch
@@ -1969,7 +2028,11 @@ msgstr "Toplu Bordro Adı"
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_type__batch_properties_definition
 msgid "Batch Properties"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Toplu İş Özellikleri"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #. odoo-python
@@ -2013,7 +2076,11 @@ msgstr "Bu transfer ile ilişkili toplu transfer"
 #: model_terms:ir.actions.act_window,help:stock_picking_batch.action_picking_tree_wave
 #: model_terms:ir.actions.act_window,help:stock_picking_batch.stock_picking_batch_action
 msgid "Batch transfers"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Toplu transferler"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_type_kanban_batch
@@ -2046,7 +2113,11 @@ msgstr "Grup transferi oluşturulamıyor"
 #. module: stock_picking_batch
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_type__wave_category_ids
 msgid "Categories to consider when grouping waves."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dalgaları gruplandırırken dikkate alınması gereken kategoriler."
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_batch_form
@@ -2069,7 +2140,11 @@ msgstr "Yazdırılacak Etiket Türünü Seçin"
 #: model_terms:ir.actions.act_window,help:stock_picking_batch.action_picking_tree_wave
 #: model_terms:ir.actions.act_window,help:stock_picking_batch.stock_picking_batch_action
 msgid "Cluster transfers"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Küme transferleri"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__company_id
@@ -2182,17 +2257,29 @@ msgstr "Grupla"
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_type__batch_group_by_dest_loc
 msgid "Group by Destination Location"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Varış Yerine Göre Gruplandırın"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_type__batch_group_by_src_loc
 msgid "Group by Source Location"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kaynak Konumuna Göre Gruplandırın"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.report_picking_batch
 msgid "Gujarat"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gujarat"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__has_message
@@ -2302,7 +2389,11 @@ msgid "John Doe"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "John Doe"
+>>>>>>> upstream/18.0
 =======
 msgstr "John Doe"
 >>>>>>> upstream/18.0
@@ -2456,6 +2547,11 @@ msgid ""
 "Launch picking orders by aisle or area and regroup at packing zone. Ideal "
 "for large warehouses."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Toplama siparişlerini koridor veya alana göre başlatın ve paketleme "
+"bölgesinde yeniden gruplayın. Büyük depolar için idealdir."
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_add_to_wave__line_ids
@@ -2475,17 +2571,29 @@ msgstr "Konum"
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.report_picking_batch
 msgid "Location From Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Konum İsimden"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.report_picking_batch
 msgid "Location To Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Konum Adı"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_type__wave_location_ids
 msgid "Locations to consider when grouping waves."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dalgaları gruplandırırken dikkate alınması gereken konumlar."
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.report_picking_batch
@@ -2495,12 +2603,20 @@ msgstr "Lot Numarası"
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_type__batch_max_lines
 msgid "Maximum lines"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Maksimum hatlar"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_type__batch_max_pickings
 msgid "Maximum transfers"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Maksimum transferler"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__message_has_error
@@ -2586,7 +2702,11 @@ msgstr "Operasyonlar"
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.report_picking_batch
 msgid "Package ID"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Paket Kimliği"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.actions.act_window,help:stock_picking_batch.action_picking_tree_wave
@@ -2595,6 +2715,11 @@ msgid ""
 "Pick multiple orders in one trip and prepare orders as you pick. This "
 "reduces packing time and is ideal for small products."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Tek seferde birden fazla sipariş toplayın ve siparişleri topladıkça "
+"hazırlayın. Bu, paketleme süresini azaltır ve küçük ürünler için idealdir."
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_add_to_wave__picking_ids
@@ -2609,8 +2734,12 @@ msgstr "Toplama Türü"
 #. module: stock_picking_batch
 #. odoo-python
 #: code:addons/stock_picking_batch/models/stock_picking_batch.py:0
+<<<<<<< HEAD
 msgid ""
 "Please add 'Done' quantities to the batch picking to create a new pack."
+=======
+msgid "Please add 'Done' quantities to the batch picking to create a new pack."
+>>>>>>> upstream/18.0
 msgstr ""
 "Yeni bir paket oluşturmak için lütfen batch transfere 'Bitti' miktarlarını "
 "ekleyin."
@@ -2618,7 +2747,11 @@ msgstr ""
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_type_kanban_batch
 msgid "Prepare Batch"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Parti Hazırla"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.actions.act_window,name:stock_picking_batch.action_prepare_wave
@@ -2627,7 +2760,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_wave_kanban
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_wave_tree
 msgid "Prepare Wave"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dalga Hazırla"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_batch_form
@@ -2648,7 +2785,11 @@ msgstr "Ürün"
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.report_picking_batch
 msgid "Product Barcode"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ürün Barkodu"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_type__wave_group_by_category
@@ -2694,9 +2835,16 @@ msgstr "Değerlendirmeler"
 #: model_terms:ir.actions.act_window,help:stock_picking_batch.action_picking_tree_wave
 #: model_terms:ir.actions.act_window,help:stock_picking_batch.stock_picking_batch_action
 msgid ""
+<<<<<<< HEAD
 "Regroup multiple orders into one picking and consolidate at the packing "
 "zone."
 msgstr ""
+=======
+"Regroup multiple orders into one picking and consolidate at the packing zone."
+msgstr ""
+"Birden fazla siparişi tek bir toplama halinde yeniden gruplandırın ve "
+"paketleme bölgesinde birleştirin."
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_add_to_wave__user_id
@@ -2714,7 +2862,11 @@ msgstr "Sorumlu Kullanıcı"
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.report_picking_batch
 msgid "Result Package ID"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sonuç Paket Kimliği"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__message_has_sms_error
@@ -2731,6 +2883,7 @@ msgstr "Planlanan Tarih"
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_batch__scheduled_date
 msgid ""
 "Scheduled date for the transfers to be processed.\n"
+<<<<<<< HEAD
 "              - If manually set then scheduled date for all transfers in batch will automatically update to this date.\n"
 "              - If not manually changed and transfers are added/removed/updated then this will be their earliest scheduled date\n"
 "                but this scheduled date will not be set for all transfers in batch."
@@ -2738,6 +2891,21 @@ msgstr ""
 "Transferlerin işlenmesi için planlanan tarih.\n"
 "- Manuel olarak ayarlanırsa, toplu olarak tüm transferler için planlanan tarih otomatik olarak bu tarihe güncellenir.\n"
 "- Manuel olarak değiştirilmezse ve transferler eklenir/kaldırılır/güncellenirse, bu onların en erken planlanan tarihi olacaktır, ancak bu planlanan tarih toplu olarak tüm transferler için ayarlanmaz."
+=======
+"              - If manually set then scheduled date for all transfers in "
+"batch will automatically update to this date.\n"
+"              - If not manually changed and transfers are added/removed/"
+"updated then this will be their earliest scheduled date\n"
+"                but this scheduled date will not be set for all transfers in "
+"batch."
+msgstr ""
+"Transferlerin işlenmesi için planlanan tarih.\n"
+"- Manuel olarak ayarlanırsa, toplu olarak tüm transferler için planlanan "
+"tarih otomatik olarak bu tarihe güncellenir.\n"
+"- Manuel olarak değiştirilmezse ve transferler eklenir/kaldırılır/"
+"güncellenirse, bu onların en erken planlanan tarihi olacaktır, ancak bu "
+"planlanan tarih toplu olarak tüm transferler için ayarlanmaz."
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_batch_filter
@@ -2747,12 +2915,20 @@ msgstr "Toplu Transfer Arama"
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.view_picking_type_form_inherit
 msgid "Select locations you want to group"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gruplamak istediğiniz konumları seçin"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.view_picking_type_form_inherit
 msgid "Select product categories you want to group"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gruplamak istediğiniz ürün kategorilerini seçin"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking__batch_sequence
@@ -2790,19 +2966,37 @@ msgid ""
 "Split transfers by defined locations, then group transfers with the same "
 "location."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Transferleri tanımlı konumlara göre ayırın, ardından aynı konuma sahip "
+"transferleri gruplayın."
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_type__wave_group_by_category
 msgid ""
+<<<<<<< HEAD
 "Split transfers by product category, then group transfers that have the same"
 " product category."
 msgstr ""
+=======
+"Split transfers by product category, then group transfers that have the same "
+"product category."
+msgstr ""
+"Transferleri ürün kategorisine göre ayırın, ardından aynı ürün kategorisine "
+"sahip transferleri gruplayın."
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_type__wave_group_by_product
 msgid ""
 "Split transfers by product then group transfers that have the same product."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Transferleri ürüne göre ayırın, ardından aynı ürüne sahip transferleri "
+"gruplayın."
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:mail.message.subtype,description:stock_picking_batch.mt_batch_state
@@ -2869,10 +3063,22 @@ msgstr "Özet:"
 #. odoo-python
 #: code:addons/stock_picking_batch/models/stock_picking_batch.py:0
 msgid ""
+<<<<<<< HEAD
 "The following transfers cannot be added to batch transfer %(batch)s. Please check their states and operation types.\n"
 "\n"
 "Incompatibilities: %(incompatible_transfers)s"
 msgstr ""
+=======
+"The following transfers cannot be added to batch transfer %(batch)s. Please "
+"check their states and operation types.\n"
+"\n"
+"Incompatibilities: %(incompatible_transfers)s"
+msgstr ""
+"Aşağıdaki aktarımlar toplu aktarıma eklenemez %(batch)s. Lütfen durumlarını "
+"ve çalışma türlerini kontrol edin.\n"
+"\n"
+"Uyumsuzluklar: %(incompatible_transfers)s"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #. odoo-python
@@ -2922,7 +3128,11 @@ msgstr "Aktarım"
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.report_picking_batch
 msgid "Transfer Display Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Transfer Görünen Adı"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.report_picking_batch
@@ -2969,7 +3179,11 @@ msgid "Transfer Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Transfer Adı"
+>>>>>>> upstream/18.0
 =======
 msgstr "Transfer Adı"
 >>>>>>> upstream/18.0
@@ -3123,7 +3337,11 @@ msgstr "Kayıtlardaki istisna etkinliğinin türü."
 #. odoo-python
 #: code:addons/stock_picking_batch/models/stock_picking.py:0
 msgid "Unassigned responsible from %s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Atanmamış sorumlu %s"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.actions.server,name:stock_picking_batch.action_unreserve_batch_picking
@@ -3144,12 +3362,20 @@ msgstr "Depo"
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_type__wave_location_ids
 msgid "Wave Locations"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dalga Konumları"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_type__wave_category_ids
 msgid "Wave Product Categories"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dalga Ürün Kategorileri"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_add_to_wave__wave_id
@@ -3171,7 +3397,11 @@ msgstr "Dalga Transferleri"
 #: model_terms:ir.actions.act_window,help:stock_picking_batch.action_picking_tree_wave
 #: model_terms:ir.actions.act_window,help:stock_picking_batch.stock_picking_batch_action
 msgid "Wave transfers"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dalga transferleri"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__website_message_ids
@@ -3223,9 +3453,17 @@ msgstr "mevcut bir grup transfer"
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__estimated_shipping_volume
 msgid "shipping_volume"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "shipping_volume"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__estimated_shipping_weight
 msgid "shipping_weight"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "shipping_weight"
+>>>>>>> upstream/18.0

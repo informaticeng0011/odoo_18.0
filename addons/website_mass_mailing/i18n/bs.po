@@ -40,6 +40,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
@@ -149,6 +153,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~11.5\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2023-05-16 13:50+0000\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -257,6 +262,9 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:38+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-11-25 11:15+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Bosnian <https://translate.odoo.com/projects/odoo-18/"
@@ -295,6 +303,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -368,6 +379,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -584,6 +596,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_mass_mailing.newsletter_subscribe_options
 msgid ", .o_newsletter_popup"
 msgstr ""
+=======
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: website_mass_mailing
 #: model_terms:ir.ui.view,arch_db:website_mass_mailing.newsletter_subscribe_options
@@ -601,16 +618,41 @@ msgid ".s_newsletter_list"
 msgstr ""
 
 #. module: website_mass_mailing
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:website_mass_mailing.s_newsletter_block_form_template
 msgid ""
 "<span class=\"fa fa-check-circle\"/>\n"
 "                                Thank you for subscribing!"
+=======
+#: model_terms:ir.ui.view,arch_db:website_mass_mailing.s_newsletter_subscribe_form
+msgid ""
+"<i class=\"fa fa-check-circle-o\" role=\"img\"/> Thanks for registering!"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: website_mass_mailing
 #: model_terms:ir.ui.view,arch_db:website_mass_mailing.s_newsletter_block_form_template
 msgid ""
+<<<<<<< HEAD
 "<span class=\"s_website_form_label_content\">I agree to receive updates</span>\n"
+=======
+"<span class=\"s_website_form_label_content\">Email</span>\n"
+"                                <span class=\"s_website_form_mark\"> *</span>"
+msgstr ""
+
+#. module: website_mass_mailing
+#: model_terms:ir.ui.view,arch_db:website_mass_mailing.s_newsletter_block_form_template
+msgid ""
+"<span class=\"s_website_form_label_content\">I agree to receive updates</"
+"span>\n"
+"                                <span class=\"s_website_form_mark\"> *</span>"
+msgstr ""
+
+#. module: website_mass_mailing
+#: model_terms:ir.ui.view,arch_db:website_mass_mailing.s_newsletter_block_form_template
+msgid ""
+"<span class=\"s_website_form_label_content\">Name</span>\n"
+>>>>>>> upstream/18.0
 "                                <span class=\"s_website_form_mark\"> *</span>"
 msgstr ""
 
@@ -622,6 +664,7 @@ msgid ""
 msgstr ""
 
 #. module: website_mass_mailing
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:website_mass_mailing.s_newsletter_block_form_template
 msgid ""
 "<span class=\"s_website_form_label_content\">Your Email</span>\n"
@@ -636,11 +679,14 @@ msgid ""
 msgstr ""
 
 #. module: website_mass_mailing
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:website_mass_mailing.s_newsletter_subscribe_popup
 msgid "Always <b>First</b>."
 msgstr ""
 
 #. module: website_mass_mailing
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:website_mass_mailing.s_newsletter_block_default_template
 msgid "Always First."
 msgstr ""
@@ -653,6 +699,11 @@ msgstr ""
 #. module: website_mass_mailing
 #: model_terms:ir.ui.view,arch_db:website_mass_mailing.s_newsletter_subscribe_popup
 msgid "Be the first to find out all the latest news,<br/> products, and trends."
+=======
+#: model_terms:ir.ui.view,arch_db:website_mass_mailing.s_newsletter_subscribe_popup
+msgid ""
+"Be the first to find out all the latest news,<br/> products, and trends."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: website_mass_mailing
@@ -695,7 +746,11 @@ msgid "Close"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zatvori"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zatvori"
 >>>>>>> upstream/18.0
@@ -840,7 +895,11 @@ msgid "Companies"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kompanije"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kompanije"
 >>>>>>> upstream/18.0
@@ -956,7 +1015,11 @@ msgstr "Kontakt"
 #. module: website_mass_mailing
 #. odoo-javascript
 #: code:addons/website_mass_mailing/static/src/js/website_mass_mailing.editor.js:0
+<<<<<<< HEAD
 msgid "Display Thanks Button"
+=======
+msgid "Display Thanks Message"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: website_mass_mailing
@@ -1003,6 +1066,7 @@ msgid "Error"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Greška"
@@ -1108,6 +1172,14 @@ msgstr "Greška"
 >>>>>>> upstream/18.0
 =======
 msgstr "Greška"
+>>>>>>> upstream/18.0
+=======
+msgstr "Greška"
+
+#. module: website_mass_mailing
+#: model_terms:ir.ui.view,arch_db:website_mass_mailing.s_newsletter_block_form_template
+msgid "First Name"
+msgstr ""
 >>>>>>> upstream/18.0
 
 #. module: website_mass_mailing
@@ -1116,6 +1188,26 @@ msgid "Form Subscription"
 msgstr ""
 
 #. module: website_mass_mailing
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:website_mass_mailing.s_newsletter_block_default_template
+msgid ""
+"Get all the latest news, blog posts and product updates from our company, "
+"delivered directly to your inbox."
+msgstr ""
+
+#. module: website_mass_mailing
+#: model_terms:ir.ui.view,arch_db:website_mass_mailing.s_newsletter_block_form_template
+msgid "John Smith"
+msgstr ""
+
+#. module: website_mass_mailing
+#: model_terms:ir.ui.view,arch_db:website_mass_mailing.s_newsletter_block_form_template
+msgid "Last Name"
+msgstr ""
+
+#. module: website_mass_mailing
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/website_mass_mailing/controllers/website_form.py:0
 msgid "Mailing List(s) not found!"
@@ -1140,7 +1232,13 @@ msgstr ""
 #. module: website_mass_mailing
 #. odoo-javascript
 #: code:addons/website_mass_mailing/static/src/js/website_mass_mailing.editor.js:0
+<<<<<<< HEAD
 msgid "No mailing list found, do you want to create a new one? This will save all your changes, are you sure you want to proceed?"
+=======
+msgid ""
+"No mailing list found, do you want to create a new one? This will save all "
+"your changes, are you sure you want to proceed?"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: website_mass_mailing
@@ -1161,6 +1259,14 @@ msgid "Subscribe to"
 msgstr ""
 
 #. module: website_mass_mailing
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:website_mass_mailing.s_newsletter_block_default_template
+msgid "Subscribe to our newsletter"
+msgstr ""
+
+#. module: website_mass_mailing
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/website_mass_mailing/static/src/js/website_mass_mailing.js:0
 msgid "Success"
@@ -1175,6 +1281,7 @@ msgstr ""
 #. module: website_mass_mailing
 #: model_terms:ir.ui.view,arch_db:website_mass_mailing.newsletter_subscribe_options
 msgid "Template"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1320,6 +1427,13 @@ msgstr "Prijedlog"
 #. module: website_mass_mailing
 #: model_terms:ir.ui.view,arch_db:website_mass_mailing.s_newsletter_subscribe_form
 msgid "Thanks"
+=======
+msgstr "Prijedlog"
+
+#. module: website_mass_mailing
+#: model_terms:ir.ui.view,arch_db:website_mass_mailing.s_newsletter_block_form_template
+msgid "Thank you for subscribing!"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: website_mass_mailing
@@ -1330,7 +1444,13 @@ msgstr ""
 
 #. module: website_mass_mailing
 #: model_terms:ir.ui.view,arch_db:website_mass_mailing.s_newsletter_block_form_template
+<<<<<<< HEAD
 msgid "We send one weekly newsletter per list and always try to keep it interesting. You can unsubscribe at any time."
+=======
+msgid ""
+"We send one weekly newsletter per list and always try to keep it "
+"interesting. You can unsubscribe at any time."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: website_mass_mailing
@@ -1341,7 +1461,11 @@ msgstr ""
 
 #. module: website_mass_mailing
 #: model_terms:ir.ui.view,arch_db:website_mass_mailing.s_newsletter_block_form_template
+<<<<<<< HEAD
 msgid "You will now be informed about the latest news.<br/>"
+=======
+msgid "You will now be informed about the latest news."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: website_mass_mailing
@@ -1354,6 +1478,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/website_mass_mailing/static/src/js/mass_mailing_form_editor.js:0
 msgid "Your Name"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1499,4 +1624,19 @@ msgstr "Vaše ime"
 #. module: website_mass_mailing
 #: model_terms:ir.ui.view,arch_db:website_mass_mailing.s_newsletter_subscribe_form
 msgid "your email..."
+=======
+msgstr "Vaše ime"
+
+#. module: website_mass_mailing
+#: model_terms:ir.ui.view,arch_db:website_mass_mailing.snippets
+msgid ""
+"form, updates, digest, bulletin, announcements, notifications, "
+"communication, email, modal, alert, dialog, prompt, pop-up, subscription"
+msgstr ""
+
+#. module: website_mass_mailing
+#: model_terms:ir.ui.view,arch_db:website_mass_mailing.s_newsletter_block_form_template
+#: model_terms:ir.ui.view,arch_db:website_mass_mailing.s_newsletter_subscribe_form
+msgid "johnsmith@example.com"
+>>>>>>> upstream/18.0
 msgstr ""

@@ -1,16 +1,25 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* base_import_module
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Manon Rondou, 2024
 # Wil Odoo, 2024
 # Erwin van der Ploeg <erwin@odooexperts.nl>, 2024
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-11-19 15:46+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Erwin van der Ploeg <erwin@odooexperts.nl>, 2024\n"
@@ -19,6 +28,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: nl\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Erwin van der Ploeg <erwin@odooexperts.nl>, 2024\n"
+"Language-Team: Dutch (https://app.transifex.com/odoo/teams/41243/nl/)\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+>>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: base_import_module
@@ -26,12 +45,26 @@ msgstr ""
 #: code:addons/base_import_module/models/ir_module.py:0
 msgid ""
 "\n"
+<<<<<<< HEAD
 "You may need the Enterprise version to install the data module. Please visit https://www.odoo.com/pricing-plan for more information.\n"
 "If you need Website themes, it can be downloaded from https://github.com/odoo/design-themes.\n"
 msgstr ""
 "\n"
 "Mogelijk heb je de Enterprise-versie nodig om de gegevensmodule te installeren. Ga naar https://www.odoo.com/pricing-plan voor meer informatie.\n"
 "Als je website-thema's nodig hebt, kan je deze downloaden van https://github.com/odoo/design-themes.\n"
+=======
+"You may need the Enterprise version to install the data module. Please visit "
+"https://www.odoo.com/pricing-plan for more information.\n"
+"If you need Website themes, it can be downloaded from https://github.com/"
+"odoo/design-themes.\n"
+msgstr ""
+"\n"
+"Mogelijk heb je de Enterprise-versie nodig om de gegevensmodule te "
+"installeren. Ga naar https://www.odoo.com/pricing-plan voor meer "
+"informatie.\n"
+"Als je website-thema's nodig hebt, kan je deze downloaden van https://"
+"github.com/odoo/design-themes.\n"
+>>>>>>> upstream/18.0
 
 #. module: base_import_module
 #: model_terms:ir.ui.view,arch_db:base_import_module.module_form_apps_inherit
@@ -121,8 +154,12 @@ msgstr "Forceer init"
 
 #. module: base_import_module
 #: model:ir.model.fields,help:base_import_module.field_base_import_module__force
+<<<<<<< HEAD
 msgid ""
 "Force init mode even if installed. (will update `noupdate='1'` records)"
+=======
+msgid "Force init mode even if installed. (will update `noupdate='1'` records)"
+>>>>>>> upstream/18.0
 msgstr ""
 "Forceer init modus, zelfs als dit geïnstalleerd is. (dit update "
 "`noupdate='1'` records)"
@@ -280,8 +317,13 @@ msgstr "Studio aanpassingen vereisen de Odoo Studio app."
 #. odoo-python
 #: code:addons/base_import_module/models/ir_module.py:0
 msgid ""
+<<<<<<< HEAD
 "The installation of the data module would fail as the following dependencies"
 " can't be found in the addons-path:\n"
+=======
+"The installation of the data module would fail as the following dependencies "
+"can't be found in the addons-path:\n"
+>>>>>>> upstream/18.0
 msgstr ""
 "De installatie van de gegevensmodule zou mislukken omdat de volgende "
 "afhankelijkheden niet kunnen worden gevonden in de addons-path:\n"

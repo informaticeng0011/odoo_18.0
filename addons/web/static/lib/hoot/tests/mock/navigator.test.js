@@ -85,8 +85,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { describe, expect, test } from "@odoo/hoot";
 import { mockSendBeacon, mockTouch, mockVibrate } from "@odoo/hoot-mock";
+=======
+import { describe, expect, mockSendBeacon, mockTouch, mockVibrate, test } from "@odoo/hoot";
+>>>>>>> upstream/18.0
 =======
 import { describe, expect, mockSendBeacon, mockTouch, mockVibrate, test } from "@odoo/hoot";
 >>>>>>> upstream/18.0

@@ -42,7 +42,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* pos_restaurant
+=======
+# * pos_restaurant
+>>>>>>> upstream/18.0
 =======
 # * pos_restaurant
 >>>>>>> upstream/18.0
@@ -217,7 +221,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
@@ -348,6 +356,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-06-03 08:43+0000\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -485,6 +494,10 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-11-21 06:40+0000\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:36+0000\n"
+"PO-Revision-Date: 2025-12-31 16:34+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Serbian (Latin script) <https://translate.odoo.com/projects/"
 "odoo-18/pos_restaurant/sr_Latn/>\n"
@@ -494,6 +507,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+<<<<<<< HEAD
 "X-Generator: Weblate 5.12.2\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -624,6 +638,20 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/pos_restaurant/static/src/overrides/components/receipt_screen/order_receipt/order_receipt.xml:0
 msgid ", Guests:"
+=======
+"X-Generator: Weblate 5.14.3\n"
+
+#. module: pos_restaurant
+#. odoo-javascript
+#: code:addons/pos_restaurant/static/src/overrides/components/payment_screen/payment_screen.xml:0
+msgid "/ Guest"
+msgstr ""
+
+#. module: pos_restaurant
+#. odoo-javascript
+#: code:addons/pos_restaurant/static/src/app/control_buttons/control_buttons.js:0
+msgid "18:45 John 4P"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: pos_restaurant
@@ -648,7 +676,11 @@ msgstr ""
 
 #. module: pos_restaurant
 #: model_terms:ir.ui.view,arch_db:pos_restaurant.view_restaurant_floor_kanban
+<<<<<<< HEAD
 msgid "<strong>Point of Sales: </strong>"
+=======
+msgid "<strong>Point of Sales:</strong>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: pos_restaurant
@@ -668,13 +700,22 @@ msgstr "Aktivno"
 #. module: pos_restaurant
 #. odoo-javascript
 #: code:addons/pos_restaurant/static/src/app/floor_screen/floor_screen.xml:0
+<<<<<<< HEAD
 msgid "Add"
 msgstr "Dodaj"
+=======
+msgid "Add Floor"
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #. odoo-javascript
 #: code:addons/pos_restaurant/static/src/app/floor_screen/floor_screen.xml:0
+<<<<<<< HEAD
 msgid "Add Floor"
+=======
+msgid "Add Table"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: pos_restaurant
@@ -754,11 +795,14 @@ msgid "Alternative Fiscal Position"
 msgstr ""
 
 #. module: pos_restaurant
+<<<<<<< HEAD
 #: model:ir.model.fields,help:pos_restaurant.field_restaurant_table__name
 msgid "An internal identification of a table"
 msgstr ""
 
 #. module: pos_restaurant
+=======
+>>>>>>> upstream/18.0
 #: model:product.attribute.value,name:pos_restaurant.product_attribute_value_anchovy
 msgid "Anchovy"
 msgstr ""
@@ -787,7 +831,10 @@ msgstr ""
 
 #. module: pos_restaurant
 #. odoo-javascript
+<<<<<<< HEAD
 #: code:addons/pos_restaurant/static/src/app/split_bill_screen/split_bill_screen.xml:0
+=======
+>>>>>>> upstream/18.0
 #: code:addons/pos_restaurant/static/src/app/tip_screen/tip_screen.xml:0
 msgid "Back"
 msgstr "Nazad"
@@ -837,7 +884,11 @@ msgid "Background Color"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pozadinska boja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pozadinska boja"
 >>>>>>> upstream/18.0
@@ -987,6 +1038,11 @@ msgid "Bill"
 msgstr "Račun"
 
 #. module: pos_restaurant
+<<<<<<< HEAD
+=======
+#. odoo-javascript
+#: code:addons/pos_restaurant/static/src/app/bill_screen/bill_screen.xml:0
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:pos_restaurant.field_pos_config__iface_printbill
 msgid "Bill Printing"
 msgstr ""
@@ -1010,6 +1066,7 @@ msgid "Book table"
 msgstr ""
 
 #. module: pos_restaurant
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/pos_restaurant/static/src/overrides/models/pos_store.js:0
 msgid ""
@@ -1018,6 +1075,8 @@ msgid ""
 msgstr ""
 
 #. module: pos_restaurant
+=======
+>>>>>>> upstream/18.0
 #: model:product.template,description_sale:pos_restaurant.product_old_fashioned_product_template
 msgid "Bourbon, bitters, sugar, and a twist of citrus zest."
 msgstr ""
@@ -1078,6 +1137,7 @@ msgid "Cart"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Korpa"
@@ -1204,6 +1264,21 @@ msgstr "Korpa"
 >>>>>>> upstream/18.0
 =======
 msgstr "Korpa"
+>>>>>>> upstream/18.0
+=======
+msgstr "Korpa"
+
+#. module: pos_restaurant
+#. odoo-javascript
+#: code:addons/pos_restaurant/static/src/app/floor_screen/floor_screen.xml:0
+msgid "Change Floor Background"
+msgstr ""
+
+#. module: pos_restaurant
+#. odoo-javascript
+#: code:addons/pos_restaurant/static/src/app/floor_screen/floor_screen.js:0
+msgid "Change table number?"
+msgstr ""
 >>>>>>> upstream/18.0
 
 #. module: pos_restaurant
@@ -1219,8 +1294,13 @@ msgstr ""
 #. module: pos_restaurant
 #. odoo-javascript
 #: code:addons/pos_restaurant/static/src/app/floor_screen/floor_screen.xml:0
+<<<<<<< HEAD
 msgid "Close"
 msgstr "Zatvori"
+=======
+msgid "Clone"
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #. odoo-javascript
@@ -1257,6 +1337,7 @@ msgstr "Podešavanje konfiguracije"
 #. odoo-javascript
 #: code:addons/pos_restaurant/static/src/overrides/components/receipt_screen/receipt_screen.xml:0
 msgid "Continue"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1432,6 +1513,9 @@ msgstr "Nastavi"
 #: code:addons/pos_restaurant/static/src/app/floor_screen/floor_screen.xml:0
 msgid "Copy"
 msgstr ""
+=======
+msgstr "Nastavi"
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #: model:product.template,name:pos_restaurant.product_cosmopolitan_product_template
@@ -1474,6 +1558,7 @@ msgstr ""
 
 #. module: pos_restaurant
 #. odoo-javascript
+<<<<<<< HEAD
 #: code:addons/pos_restaurant/static/src/app/floor_screen/floor_screen.xml:0
 msgid "Discard"
 <<<<<<< HEAD
@@ -1645,6 +1730,11 @@ msgstr "Poništi"
 =======
 msgstr "Poništi"
 >>>>>>> upstream/18.0
+=======
+#: code:addons/pos_restaurant/static/src/overrides/models/pos_store.js:0
+msgid "Dine in"
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_floor__display_name
@@ -1669,11 +1759,22 @@ msgstr ""
 
 #. module: pos_restaurant
 #. odoo-javascript
+<<<<<<< HEAD
+=======
+#: code:addons/pos_restaurant/static/src/app/control_buttons/control_buttons.js:0
+#: code:addons/pos_restaurant/static/src/app/control_buttons/control_buttons.xml:0
+msgid "Edit Order Name"
+msgstr ""
+
+#. module: pos_restaurant
+#. odoo-javascript
+>>>>>>> upstream/18.0
 #: code:addons/pos_restaurant/static/src/overrides/components/navbar/navbar.xml:0
 msgid "Edit Plan"
 msgstr ""
 
 #. module: pos_restaurant
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/pos_restaurant/static/src/overrides/components/navbar/navbar.js:0
 msgid "Edit order note"
@@ -1686,6 +1787,8 @@ msgid "Emma's Birthday Party"
 msgstr ""
 
 #. module: pos_restaurant
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:pos_restaurant.field_pos_config__iface_splitbill
 msgid "Enables Bill Splitting in the Point of Sale."
 msgstr ""
@@ -1697,6 +1800,16 @@ msgid "Encountered error when loading image. Please try again."
 msgstr ""
 
 #. module: pos_restaurant
+<<<<<<< HEAD
+=======
+#. odoo-javascript
+#: code:addons/pos_restaurant/static/src/app/floor_screen/floor_screen.js:0
+#: code:addons/pos_restaurant/static/src/overrides/components/navbar/navbar.js:0
+msgid "Enter a table number"
+msgstr ""
+
+#. module: pos_restaurant
+>>>>>>> upstream/18.0
 #: model:product.template,name:pos_restaurant.espresso_product_template
 msgid "Espresso"
 msgstr ""
@@ -1722,6 +1835,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/pos_restaurant/static/src/app/floor_screen/floor_screen.xml:0
 msgid "File"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2065,6 +2179,9 @@ msgstr "Unesite"
 =======
 msgstr "Unesite"
 >>>>>>> upstream/18.0
+=======
+msgstr "Datoteka"
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #: model:ir.model,name:pos_restaurant.model_account_fiscal_position
@@ -2111,7 +2228,11 @@ msgid "Fiscal Position"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fiskalna pozicija"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fiskalna pozicija"
 >>>>>>> upstream/18.0
@@ -2284,7 +2405,11 @@ msgid "Fiscal Positions"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fiskalne pozicije"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fiskalne pozicije"
 >>>>>>> upstream/18.0
@@ -2434,6 +2559,15 @@ msgid "Floor Name ?"
 msgstr ""
 
 #. module: pos_restaurant
+<<<<<<< HEAD
+=======
+#. odoo-javascript
+#: code:addons/pos_restaurant/static/src/overrides/components/navbar/navbar.xml:0
+msgid "Floor Plan"
+msgstr ""
+
+#. module: pos_restaurant
+>>>>>>> upstream/18.0
 #: model:ir.actions.act_window,name:pos_restaurant.action_restaurant_floor_form
 #: model:ir.ui.menu,name:pos_restaurant.menu_restaurant_floor_all
 msgid "Floor Plans"
@@ -2535,6 +2669,15 @@ msgstr ""
 
 #. module: pos_restaurant
 #. odoo-javascript
+<<<<<<< HEAD
+=======
+#: code:addons/pos_restaurant/static/src/overrides/components/navbar/navbar.js:0
+msgid "Jump"
+msgstr ""
+
+#. module: pos_restaurant
+#. odoo-javascript
+>>>>>>> upstream/18.0
 #: code:addons/pos_restaurant/static/src/overrides/components/payment_screen/payment_screen.xml:0
 msgid "Keep Open"
 msgstr ""
@@ -2554,6 +2697,7 @@ msgstr "Poslednje ažuriranje dana"
 #. module: pos_restaurant
 #. odoo-javascript
 #: code:addons/pos_restaurant/static/src/app/floor_screen/floor_screen.xml:0
+<<<<<<< HEAD
 msgid "Link"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2724,6 +2868,10 @@ msgstr "Veza"
 =======
 msgstr "Veza"
 >>>>>>> upstream/18.0
+=======
+msgid "Loading"
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #. odoo-javascript
@@ -2732,6 +2880,7 @@ msgid "Loading Image Error"
 msgstr ""
 
 #. module: pos_restaurant
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/pos_restaurant/static/src/overrides/components/product_screen/actionpad_widget/actionpad_widget.xml:0
 #: code:addons/pos_restaurant/static/src/overrides/components/product_screen/product_screen.xml:0
@@ -2907,6 +3056,8 @@ msgstr "Učitavam..."
 >>>>>>> upstream/18.0
 
 #. module: pos_restaurant
+=======
+>>>>>>> upstream/18.0
 #: model:product.template,name:pos_restaurant.pos_food_maki_product_template
 msgid "Lunch Maki 18pc"
 msgstr ""
@@ -2929,13 +3080,21 @@ msgstr ""
 #. module: pos_restaurant
 #. odoo-javascript
 #: code:addons/pos_restaurant/static/src/app/floor_screen/floor_screen.xml:0
+<<<<<<< HEAD
 msgid "MakeRound"
+=======
+msgid "Make Round"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: pos_restaurant
 #. odoo-javascript
 #: code:addons/pos_restaurant/static/src/app/floor_screen/floor_screen.xml:0
+<<<<<<< HEAD
 msgid "MakeSquare"
+=======
+msgid "Make Square"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: pos_restaurant
@@ -2945,6 +3104,7 @@ msgstr ""
 
 #. module: pos_restaurant
 #. odoo-javascript
+<<<<<<< HEAD
 #: code:addons/pos_restaurant/static/src/app/floor_screen/floor_screen.xml:0
 msgid "Merge"
 <<<<<<< HEAD
@@ -3116,6 +3276,11 @@ msgstr "Spoji"
 =======
 msgstr "Spoji"
 >>>>>>> upstream/18.0
+=======
+#: code:addons/pos_restaurant/static/src/overrides/models/pos_store.js:0
+msgid "Message"
+msgstr "Poruka"
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #: model:product.template,name:pos_restaurant.milkshake_banana_product_template
@@ -3143,12 +3308,15 @@ msgid "Mozzarella Sandwich"
 msgstr ""
 
 #. module: pos_restaurant
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/pos_restaurant/static/src/overrides/models/pos_store.js:0
 msgid "Multiple open orders"
 msgstr ""
 
 #. module: pos_restaurant
+=======
+>>>>>>> upstream/18.0
 #: model:product.attribute.value,name:pos_restaurant.product_attribute_value_mushroom
 #: model:product.attribute.value,name:pos_restaurant.product_attribute_value_mushroom_pasta
 msgid "Mushroom"
@@ -3173,11 +3341,21 @@ msgstr ""
 
 #. module: pos_restaurant
 #. odoo-javascript
+<<<<<<< HEAD
+=======
+#: code:addons/pos_restaurant/static/src/overrides/models/pos_store.js:0
+msgid "Note"
+msgstr "Beleška"
+
+#. module: pos_restaurant
+#. odoo-javascript
+>>>>>>> upstream/18.0
 #: code:addons/pos_restaurant/static/src/app/floor_screen/floor_screen.js:0
 msgid "Number of Seats?"
 msgstr ""
 
 #. module: pos_restaurant
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/pos_restaurant/static/src/overrides/components/receipt_screen/order_receipt/order_receipt.xml:0
 msgid "Odoo Point of Sale"
@@ -3190,6 +3368,8 @@ msgid "Odoo Restaurant"
 msgstr ""
 
 #. module: pos_restaurant
+=======
+>>>>>>> upstream/18.0
 #: model:product.template,name:pos_restaurant.product_old_fashioned_product_template
 msgid "Old Fashioned"
 msgstr ""
@@ -3253,7 +3433,10 @@ msgstr ""
 
 #. module: pos_restaurant
 #. odoo-javascript
+<<<<<<< HEAD
 #: code:addons/pos_restaurant/static/src/overrides/components/product_screen/actionpad_widget/actionpad_widget.xml:0
+=======
+>>>>>>> upstream/18.0
 #: code:addons/pos_restaurant/static/src/overrides/components/product_screen/product_screen.xml:0
 #: code:addons/pos_restaurant/static/src/overrides/components/receipt_screen/receipt_screen.xml:0
 msgid "Pay"
@@ -3261,7 +3444,10 @@ msgstr ""
 
 #. module: pos_restaurant
 #. odoo-javascript
+<<<<<<< HEAD
 #: code:addons/pos_restaurant/static/src/app/split_bill_screen/split_bill_screen.xml:0
+=======
+>>>>>>> upstream/18.0
 #: code:addons/pos_restaurant/static/src/overrides/components/product_screen/actionpad_widget/actionpad_widget.xml:0
 msgid "Payment"
 msgstr "Isplata"
@@ -3322,7 +3508,11 @@ msgid "Picture"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Slika"
+>>>>>>> upstream/18.0
 =======
 msgstr "Slika"
 >>>>>>> upstream/18.0
@@ -3467,6 +3657,15 @@ msgid "Pizza Vegetarian"
 msgstr ""
 
 #. module: pos_restaurant
+<<<<<<< HEAD
+=======
+#. odoo-javascript
+#: code:addons/pos_restaurant/static/src/overrides/components/navbar/navbar.xml:0
+msgid "Plan"
+msgstr "Plan"
+
+#. module: pos_restaurant
+>>>>>>> upstream/18.0
 #: model:ir.model,name:pos_restaurant.model_pos_config
 msgid "Point of Sale Configuration"
 msgstr "Podešavanje POS terminala mesta prodaje"
@@ -3525,6 +3724,15 @@ msgstr ""
 #. module: pos_restaurant
 #. odoo-javascript
 #: code:addons/pos_restaurant/static/src/app/product_screen/order_summary/order_summary.xml:0
+<<<<<<< HEAD
+=======
+msgid "Release Order"
+msgstr ""
+
+#. module: pos_restaurant
+#. odoo-javascript
+#: code:addons/pos_restaurant/static/src/app/product_screen/order_summary/order_summary.xml:0
+>>>>>>> upstream/18.0
 msgid "Release table"
 msgstr ""
 
@@ -3611,6 +3819,15 @@ msgid "Salmon and Avocado"
 msgstr ""
 
 #. module: pos_restaurant
+<<<<<<< HEAD
+=======
+#. odoo-javascript
+#: code:addons/pos_restaurant/static/src/app/floor_screen/floor_screen.xml:0
+msgid "Save"
+msgstr "Sačuvaj"
+
+#. module: pos_restaurant
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:pos_restaurant.res_config_settings_view_form
 msgid "Save this page and come back here to set up the feature."
 msgstr ""
@@ -3628,6 +3845,15 @@ msgid "Seats"
 msgstr ""
 
 #. module: pos_restaurant
+<<<<<<< HEAD
+=======
+#. odoo-javascript
+#: code:addons/pos_restaurant/static/src/overrides/components/navbar/navbar.xml:0
+msgid "Select table to transfer order"
+msgstr ""
+
+#. module: pos_restaurant
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_floor__sequence
 msgid "Sequence"
 msgstr "Niz"
@@ -3645,8 +3871,11 @@ msgid "Settle"
 msgstr ""
 
 #. module: pos_restaurant
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/pos_restaurant/static/src/app/floor_screen/floor_screen.xml:0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_table__shape
 msgid "Shape"
 msgstr ""
@@ -3684,6 +3913,15 @@ msgid "Split"
 msgstr "Podeli"
 
 #. module: pos_restaurant
+<<<<<<< HEAD
+=======
+#. odoo-javascript
+#: code:addons/pos_restaurant/static/src/app/split_bill_screen/split_bill_screen.xml:0
+msgid "Split Order"
+msgstr ""
+
+#. module: pos_restaurant
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:pos_restaurant.res_config_settings_view_form
 msgid "Split total or order lines"
 msgstr ""
@@ -3718,14 +3956,29 @@ msgstr ""
 
 #. module: pos_restaurant
 #. odoo-javascript
+<<<<<<< HEAD
 #: code:addons/pos_restaurant/static/src/overrides/components/navbar/navbar.xml:0
 msgid "TABLES"
+=======
+#: code:addons/pos_restaurant/static/src/app/control_buttons/control_buttons.xml:0
+msgid "Switch to Dine in"
+msgstr ""
+
+#. module: pos_restaurant
+#. odoo-javascript
+#: code:addons/pos_restaurant/static/src/app/control_buttons/control_buttons.xml:0
+msgid "Switch to Takeaway"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: pos_restaurant
 #. odoo-javascript
 #: code:addons/pos_restaurant/static/src/app/floor_screen/floor_screen.xml:0
+<<<<<<< HEAD
 #: code:addons/pos_restaurant/static/src/overrides/components/receipt_screen/order_receipt/order_receipt.xml:0
+=======
+#: code:addons/pos_restaurant/static/src/overrides/components/navbar/navbar.xml:0
+>>>>>>> upstream/18.0
 #: code:addons/pos_restaurant/static/src/overrides/components/ticket_screen/ticket_screen.js:0
 #: code:addons/pos_restaurant/static/src/overrides/components/ticket_screen/ticket_screen.xml:0
 #: model:ir.model.fields,field_description:pos_restaurant.field_pos_order__table_id
@@ -3733,6 +3986,21 @@ msgid "Table"
 msgstr "Sto"
 
 #. module: pos_restaurant
+<<<<<<< HEAD
+=======
+#. odoo-javascript
+#: code:addons/pos_restaurant/static/src/overrides/components/receipt_header_patch.js:0
+msgid "Table %(number)s"
+msgstr ""
+
+#. module: pos_restaurant
+#. odoo-javascript
+#: code:addons/pos_restaurant/static/src/overrides/components/receipt_header_patch.js:0
+msgid "Table %(number)s, Guests: %(count)s"
+msgstr ""
+
+#. module: pos_restaurant
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:pos_restaurant.field_pos_config__module_pos_restaurant_appointment
 #: model:ir.model.fields,field_description:pos_restaurant.field_res_config_settings__pos_module_pos_restaurant_appointment
 #: model_terms:ir.ui.view,arch_db:pos_restaurant.res_config_settings_view_form
@@ -3740,14 +4008,25 @@ msgid "Table Booking"
 msgstr ""
 
 #. module: pos_restaurant
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_table__name
 msgid "Table Name"
+=======
+#: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_table__table_number
+msgid "Table Number"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: pos_restaurant
 #. odoo-javascript
+<<<<<<< HEAD
 #: code:addons/pos_restaurant/static/src/app/floor_screen/floor_screen.js:0
 msgid "Table Name ?"
+=======
+#: code:addons/pos_restaurant/static/src/overrides/components/navbar/navbar.js:0
+#: code:addons/pos_restaurant/static/src/overrides/components/navbar/navbar.xml:0
+msgid "Table Selector"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: pos_restaurant
@@ -3763,8 +4042,13 @@ msgstr ""
 
 #. module: pos_restaurant
 #. odoo-javascript
+<<<<<<< HEAD
 #: code:addons/pos_restaurant/static/src/app/control_buttons/control_buttons.xml:0
 msgid "Take-away"
+=======
+#: code:addons/pos_restaurant/static/src/overrides/models/pos_store.js:0
+msgid "Take out"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: pos_restaurant
@@ -3774,6 +4058,14 @@ msgid "Takeaway"
 msgstr ""
 
 #. module: pos_restaurant
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:pos_restaurant.res_config_settings_view_form
+msgid "Taxes must be included in price."
+msgstr ""
+
+#. module: pos_restaurant
+>>>>>>> upstream/18.0
 #: model:product.template,description_sale:pos_restaurant.product_margarita_product_template
 msgid "Tequila Jose Cuervo, lime jus, sugar cane Cointreau"
 msgstr ""
@@ -3794,6 +4086,14 @@ msgid "The default number of customer served at this table."
 msgstr ""
 
 #. module: pos_restaurant
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,help:pos_restaurant.field_restaurant_table__table_number
+msgid "The number of the table as displayed on the floor plan"
+msgstr ""
+
+#. module: pos_restaurant
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:pos_restaurant.field_restaurant_table__parent_id
 msgid "The parent table if this table is part of a group of tables"
 msgstr ""
@@ -3855,12 +4155,15 @@ msgstr ""
 
 #. module: pos_restaurant
 #. odoo-javascript
+<<<<<<< HEAD
 #: code:addons/pos_restaurant/static/src/app/floor_screen/floor_screen.xml:0
 msgid "Tint"
 msgstr ""
 
 #. module: pos_restaurant
 #. odoo-javascript
+=======
+>>>>>>> upstream/18.0
 #: code:addons/pos_restaurant/static/src/overrides/components/ticket_screen/ticket_screen.xml:0
 msgid "Tip"
 msgstr ""
@@ -3896,24 +4199,30 @@ msgstr "Ukupno:"
 
 #. module: pos_restaurant
 #. odoo-javascript
+<<<<<<< HEAD
 #: code:addons/pos_restaurant/static/src/app/floor_screen/floor_screen.xml:0
 msgid "Transfer"
 msgstr "Prenos"
 
 #. module: pos_restaurant
 #. odoo-javascript
+=======
+>>>>>>> upstream/18.0
 #: code:addons/pos_restaurant/static/src/app/control_buttons/control_buttons.xml:0
 msgid "Transfer / Merge"
 msgstr ""
 
 #. module: pos_restaurant
 #. odoo-javascript
+<<<<<<< HEAD
 #: code:addons/pos_restaurant/static/src/app/floor_screen/floor_screen.xml:0
 msgid "Unlink"
 msgstr ""
 
 #. module: pos_restaurant
 #. odoo-javascript
+=======
+>>>>>>> upstream/18.0
 #: code:addons/pos_restaurant/static/src/app/floor_screen/floor_screen.js:0
 msgid "Unsupported File Format"
 msgstr ""
@@ -3970,7 +4279,11 @@ msgid "Username"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Korisničko ime"
+>>>>>>> upstream/18.0
 =======
 msgstr "Korisničko ime"
 >>>>>>> upstream/18.0
@@ -4210,6 +4523,33 @@ msgstr ""
 msgid "or book the table for later"
 msgstr ""
 
+<<<<<<< HEAD
+=======
+#~ msgid "Add"
+#~ msgstr "Dodaj"
+
+#~ msgid "Close"
+#~ msgstr "Zatvori"
+
+#~ msgid "Discard"
+#~ msgstr "Poništi"
+
+#~ msgid "Fill"
+#~ msgstr "Unesite"
+
+#~ msgid "Link"
+#~ msgstr "Veza"
+
+#~ msgid "Loading..."
+#~ msgstr "Učitavam..."
+
+#~ msgid "Merge"
+#~ msgstr "Spoji"
+
+#~ msgid "Transfer"
+#~ msgstr "Prenos"
+
+>>>>>>> upstream/18.0
 #~ msgid "Amount"
 #~ msgstr "Iznos"
 
@@ -4228,9 +4568,12 @@ msgstr ""
 #~ msgid "Logo"
 #~ msgstr "Logotip"
 
+<<<<<<< HEAD
 #~ msgid "Note"
 #~ msgstr "Beleška"
 
+=======
+>>>>>>> upstream/18.0
 #~ msgid "Ok"
 #~ msgstr "U redu"
 

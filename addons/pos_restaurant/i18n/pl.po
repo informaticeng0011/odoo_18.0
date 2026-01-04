@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* pos_restaurant
+<<<<<<< HEAD
 # 
 # Translators:
 <<<<<<< HEAD
@@ -626,10 +627,18 @@
 # Marta Wacławek, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+#
+# Translators:
+# Wil Odoo, 2025
+# Marta Wacławek, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-12-16 13:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
@@ -1642,6 +1651,22 @@ msgstr ", Goście:"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:36+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Marta Wacławek, 2025\n"
+"Language-Team: Polish (https://app.transifex.com/odoo/teams/41243/pl/)\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && "
+"(n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && "
+"n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+
+#. module: pos_restaurant
+#. odoo-javascript
+>>>>>>> upstream/18.0
 #: code:addons/pos_restaurant/static/src/overrides/components/payment_screen/payment_screen.xml:0
 msgid "/ Guest"
 msgstr "/ Goście"
@@ -1670,8 +1695,13 @@ msgid ""
 "sauce"
 msgstr ""
 "200 g irlandzkiej wołowiny Black Angus, karmelizowana cebula z papryką, "
+<<<<<<< HEAD
 "posiekana sałata lodowa, czerwona cebula, grillowany boczek, sos pomidorowy,"
 " pikle, sos barbecue"
+=======
+"posiekana sałata lodowa, czerwona cebula, grillowany boczek, sos pomidorowy, "
+"pikle, sos barbecue"
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #: model_terms:ir.ui.view,arch_db:pos_restaurant.view_restaurant_floor_kanban
@@ -1686,10 +1716,19 @@ msgstr "<strong>Punkt Sprzedaży:</strong>"
 #. module: pos_restaurant
 #: model_terms:ir.actions.act_window,help:pos_restaurant.action_restaurant_floor_form
 msgid ""
+<<<<<<< HEAD
 "A restaurant floor represents the place where customers are served, this is where you can\n"
 "                define and position the tables."
 msgstr ""
 "Sala restauracyjna jest odpowiednikiem miejsca, gdzie obsługiwani są klienci, \n"
+=======
+"A restaurant floor represents the place where customers are served, this is "
+"where you can\n"
+"                define and position the tables."
+msgstr ""
+"Sala restauracyjna jest odpowiednikiem miejsca, gdzie obsługiwani są "
+"klienci, \n"
+>>>>>>> upstream/18.0
 "tutaj możesz utworzyć i ustawić stoły. "
 
 #. module: pos_restaurant
@@ -2216,8 +2255,13 @@ msgstr "Herbata mrożona"
 #. module: pos_restaurant
 #: model:ir.model.fields,help:pos_restaurant.field_restaurant_table__active
 msgid ""
+<<<<<<< HEAD
 "If false, the table is deactivated and will not be available in the point of"
 " sale"
+=======
+"If false, the table is deactivated and will not be available in the point of "
+"sale"
+>>>>>>> upstream/18.0
 msgstr ""
 "Jeśli wartość false, stolik jest dezaktywowany i nie będzie dostępny w "
 "punkcie sprzedaży."
@@ -2400,7 +2444,11 @@ msgid "Make Round"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Okrągły"
+>>>>>>> upstream/18.0
 =======
 msgstr "Okrągły"
 >>>>>>> upstream/18.0
@@ -2878,7 +2926,11 @@ msgid "Make Square"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kwadratowy"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kwadratowy"
 >>>>>>> upstream/18.0
@@ -3320,8 +3372,13 @@ msgstr "Rezerwacja online w restauracji"
 #: code:addons/pos_restaurant/static/src/app/floor_screen/floor_screen.js:0
 msgid "Only web-compatible Image formats such as .png or .jpeg are supported."
 msgstr ""
+<<<<<<< HEAD
 "Obsługiwane są tylko formaty obrazów kompatybilne ze stronami internetowymi,"
 " takie jak .png lub .jpeg."
+=======
+"Obsługiwane są tylko formaty obrazów kompatybilne ze stronami internetowymi, "
+"takie jak .png lub .jpeg."
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #. odoo-javascript
@@ -3598,7 +3655,11 @@ msgid "Release Order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Wydaj zamówienie"
+>>>>>>> upstream/18.0
 =======
 msgstr "Wydaj zamówienie"
 >>>>>>> upstream/18.0
@@ -4346,7 +4407,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/pos_restaurant/static/src/overrides/components/receipt_screen/order_receipt/order_receipt.xml:0
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4852,6 +4916,7 @@ msgstr "Stół"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -4940,6 +5005,8 @@ msgstr "Stół"
 msgid "Table %(number)s"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5313,6 +5380,9 @@ msgstr "Stolik %(number)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5683,6 +5753,7 @@ msgid "Table %(number)s, Guests: %(count)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: pos_restaurant
@@ -5827,6 +5898,11 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr "Stolik %(number)s, Goście: %(count)s"
+
+#. module: pos_restaurant
 >>>>>>> upstream/18.0
 =======
 msgstr "Stolik %(number)s, Goście: %(count)s"
@@ -6563,7 +6639,11 @@ msgid "Take Away"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Na wynos"
+>>>>>>> upstream/18.0
 =======
 msgstr "Na wynos"
 >>>>>>> upstream/18.0
@@ -6979,8 +7059,12 @@ msgstr "Stolik, do którego podano to zamówienie "
 
 #. module: pos_restaurant
 #: model:ir.model.fields,help:pos_restaurant.field_restaurant_table__color
+<<<<<<< HEAD
 msgid ""
 "The table's color, expressed as a valid 'background' CSS property value"
+=======
+msgid "The table's color, expressed as a valid 'background' CSS property value"
+>>>>>>> upstream/18.0
 msgstr ""
 "Kolor stolika, wyrażony jako prawidłowa wartość właściwości CSS "
 "\"background\"."
@@ -6993,8 +7077,13 @@ msgstr "Wysokość stołu podana w pikselach "
 #. module: pos_restaurant
 #: model:ir.model.fields,help:pos_restaurant.field_restaurant_table__position_h
 msgid ""
+<<<<<<< HEAD
 "The table's horizontal position from the left side to the table's center, in"
 " pixels"
+=======
+"The table's horizontal position from the left side to the table's center, in "
+"pixels"
+>>>>>>> upstream/18.0
 msgstr ""
 "Pozioma pozycja stolika od lewej strony do środka stolika, w pikselach."
 
@@ -7013,8 +7102,13 @@ msgstr "Szerokość stołu podana w pikselach "
 #: model:ir.model.fields,help:pos_restaurant.field_pos_config__takeaway_fp_id
 #: model:ir.model.fields,help:pos_restaurant.field_res_config_settings__pos_takeaway_fp_id
 msgid ""
+<<<<<<< HEAD
 "This is useful for restaurants with onsite and take-away services that imply"
 " specific tax rates."
+=======
+"This is useful for restaurants with onsite and take-away services that imply "
+"specific tax rates."
+>>>>>>> upstream/18.0
 msgstr ""
 "Jest to przydatne w przypadku restauracji z usługami na miejscu i na wynos, "
 "które implikują określone stawki podatkowe."
@@ -7056,7 +7150,12 @@ msgstr "Napiwki"
 #. module: pos_restaurant
 #: model:product.template,description_sale:pos_restaurant.pos_food_margherita_product_template
 msgid "Tomato sauce, Agerola mozzarella \"fior di latte\", fresh basil"
+<<<<<<< HEAD
 msgstr "Sos pomidorowy, mozzarella Agerola \"fior di latter\" DOP, świeża bazylia"
+=======
+msgstr ""
+"Sos pomidorowy, mozzarella Agerola \"fior di latter\" DOP, świeża bazylia"
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #. odoo-javascript

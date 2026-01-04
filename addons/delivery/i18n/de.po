@@ -1,15 +1,24 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* delivery
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
 # Larissa Manderfeld, 2025
 # 
+=======
+#
+# Translators:
+# Wil Odoo, 2024
+# Larissa Manderfeld, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-01-27 13:03+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Larissa Manderfeld, 2025\n"
@@ -18,6 +27,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: de\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Larissa Manderfeld, 2025\n"
+"Language-Team: German (https://app.transifex.com/odoo/teams/41243/de/)\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+>>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: delivery
@@ -56,17 +75,31 @@ msgid ""
 "                </p>"
 msgstr ""
 "<p class=\"o_view_nocontent\">\n"
+<<<<<<< HEAD
 "                    Kaufen Sie jetzt Odoo Enterprise, um weitere Anbieter zu erhalten.\n"
+=======
+"                    Kaufen Sie jetzt Odoo Enterprise, um weitere Anbieter zu "
+"erhalten.\n"
+>>>>>>> upstream/18.0
 "                </p>"
 
 #. module: delivery
 #: model_terms:ir.ui.view,arch_db:delivery.view_delivery_carrier_form
 msgid ""
 "<span class=\"o_stat_text o_warning_text fw-bold\">Test</span>\n"
+<<<<<<< HEAD
 "                                <span class=\"o_stat_text\">Environment</span>"
 msgstr ""
 "<span class=\"o_warning_text\">Test-</span>\n"
 "                                    <span class=\"o_stat_text\">Umgebung</span>"
+=======
+"                                <span class=\"o_stat_text\">Environment</"
+"span>"
+msgstr ""
+"<span class=\"o_warning_text\">Test-</span>\n"
+"                                    <span class=\"o_stat_text\">Umgebung</"
+"span>"
+>>>>>>> upstream/18.0
 
 #. module: delivery
 #: model_terms:ir.ui.view,arch_db:delivery.view_delivery_carrier_form
@@ -82,7 +115,12 @@ msgstr "<span class=\"text-success\">Fehlerbeseitigungsanfragen</span>"
 #: model_terms:ir.ui.view,arch_db:delivery.view_delivery_carrier_form
 msgid ""
 "<span class=\"text-success\">Production</span>\n"
+<<<<<<< HEAD
 "                                <span class=\"o_stat_text\">Environment</span>"
+=======
+"                                <span class=\"o_stat_text\">Environment</"
+"span>"
+>>>>>>> upstream/18.0
 msgstr ""
 "<span class=\"text-success\">Produktions-</span>\n"
 "                                <span class=\"o_stat_text\">umgebung</span>"
@@ -99,9 +137,15 @@ msgid ""
 "customers on the Sales Order and sales confirmation email.E.g. instructions "
 "for customers to follow."
 msgstr ""
+<<<<<<< HEAD
 "Eine Beschreibung der Liefermethode, die Sie Ihren Kunden im Verkaufsauftrag"
 " und in der Verkaufsbestätigungs-E-Mail mitteilen möchten, z. B. "
 "Anweisungen, die die Kunden befolgen sollen."
+=======
+"Eine Beschreibung der Liefermethode, die Sie Ihren Kunden im Verkaufsauftrag "
+"und in der Verkaufsbestätigungs-E-Mail mitteilen möchten, z. B. Anweisungen, "
+"die die Kunden befolgen sollen."
+>>>>>>> upstream/18.0
 
 #. module: delivery
 #: model:ir.model.fields,help:delivery.field_delivery_carrier__integration_level
@@ -146,8 +190,12 @@ msgid ""
 "Amount of the order to benefit from a free shipping, expressed in the "
 "company currency"
 msgstr ""
+<<<<<<< HEAD
 "Betrag (in Unternehmenswährung) des Auftrags, ab dem kostenlos geliefert "
 "wird"
+=======
+"Betrag (in Unternehmenswährung) des Auftrags, ab dem kostenlos geliefert wird"
+>>>>>>> upstream/18.0
 
 #. module: delivery
 #: model_terms:ir.ui.view,arch_db:delivery.view_delivery_carrier_form
@@ -187,8 +235,12 @@ msgstr "Zusteller"
 #. odoo-python
 #: code:addons/delivery/models/delivery_carrier.py:0
 msgid ""
+<<<<<<< HEAD
 "Carrier %s cannot have the same tag in both Must Have Tags and Excluded "
 "Tags."
+=======
+"Carrier %s cannot have the same tag in both Must Have Tags and Excluded Tags."
+>>>>>>> upstream/18.0
 msgstr ""
 "Zusteller %s kann nicht dasselbe Stichwort in den „Dringend notwenigen "
 "Stichwörtern“ und in den „Ausgeschlossenen Stichwörtern“ haben"
@@ -365,7 +417,12 @@ msgid ""
 "Delivery zip prefixes are assigned to delivery carriers to restrict\n"
 "            which zips it is available to."
 msgstr ""
+<<<<<<< HEAD
 "PLZ-Präfixe für Lieferungen werden den Zustellern zugewiesen, um einzuschränken,\n"
+=======
+"PLZ-Präfixe für Lieferungen werden den Zustellern zugewiesen, um "
+"einzuschränken,\n"
+>>>>>>> upstream/18.0
 "            welche Postleitzahlen sie verfügbar sind."
 
 #. module: delivery
@@ -427,11 +484,24 @@ msgstr "Fehler: Diese Liefermethode ist nicht verfügbar."
 #. module: delivery
 #: model:ir.model.fields,help:delivery.field_delivery_carrier__invoice_policy
 msgid ""
+<<<<<<< HEAD
 "Estimated Cost: the customer will be invoiced the estimated cost of the shipping.\n"
 "Real Cost: the customer will be invoiced the real cost of the shipping, the cost of theshipping will be updated on the SO after the delivery."
 msgstr ""
 "Geschätzte Kosten: Dem Kunden werden die geschätzten Kosten für den Versand in Rechnung gestellt.\n"
 "Tatsächliche Kosten: Dem Kunden werden die tatsächlichen Kosten für den Versand in Rechnung gestellt, die Kosten für den Versand werden nach der Lieferung auf dem Verkaufsauftrag aktualisiert."
+=======
+"Estimated Cost: the customer will be invoiced the estimated cost of the "
+"shipping.\n"
+"Real Cost: the customer will be invoiced the real cost of the shipping, the "
+"cost of theshipping will be updated on the SO after the delivery."
+msgstr ""
+"Geschätzte Kosten: Dem Kunden werden die geschätzten Kosten für den Versand "
+"in Rechnung gestellt.\n"
+"Tatsächliche Kosten: Dem Kunden werden die tatsächlichen Kosten für den "
+"Versand in Rechnung gestellt, die Kosten für den Versand werden nach der "
+"Lieferung auf dem Verkaufsauftrag aktualisiert."
+>>>>>>> upstream/18.0
 
 #. module: delivery
 #: model:ir.model.fields.selection,name:delivery.selection__delivery_carrier__invoice_policy__estimated
@@ -453,8 +523,13 @@ msgstr ""
 #. module: delivery
 #: model_terms:ir.ui.view,arch_db:delivery.view_delivery_carrier_form
 msgid ""
+<<<<<<< HEAD
 "Filling this form allows you to make the shipping method available according"
 " to the content of the order or its destination."
+=======
+"Filling this form allows you to make the shipping method available according "
+"to the content of the order or its destination."
+>>>>>>> upstream/18.0
 msgstr ""
 "Wenn Sie dieses Formular ausfüllen, können Sie die Versandmethode "
 "entsprechend dem Inhalt des Auftrags oder dem Zielort auswählen."
@@ -852,8 +927,13 @@ msgid ""
 "confirmation emails. E.g. Instructions for customers to follow."
 msgstr ""
 "Details zur Versandmethode, die in den unteren Teil der Bestellungen und "
+<<<<<<< HEAD
 "deren Bestätigungs-E-Mails aufgenommen werden. Z. B. Anweisungen für Kunden,"
 " die zu befolgen sind."
+=======
+"deren Bestätigungs-E-Mails aufgenommen werden. Z. B. Anweisungen für Kunden, "
+"die zu befolgen sind."
+>>>>>>> upstream/18.0
 
 #. module: delivery
 #: model:delivery.carrier,name:delivery.free_delivery_carrier
@@ -889,8 +969,13 @@ msgstr ""
 #. module: delivery
 #: model:ir.model.fields,help:delivery.field_delivery_carrier__must_have_tag_ids
 msgid ""
+<<<<<<< HEAD
 "The method is available only if at least one product of the order has one of"
 " these tags."
+=======
+"The method is available only if at least one product of the order has one of "
+"these tags."
+>>>>>>> upstream/18.0
 msgstr ""
 "Die Methode ist nur verfügbar, wenn mindestens ein Produkt des Auftrags "
 "eines dieser Stichwörter hat."
@@ -933,8 +1018,15 @@ msgid ""
 "            quotation) or the invoice (based on the delivery orders)."
 msgstr ""
 "Diese Methode ermöglicht die automatische Berechnung der Versandkosten,\n"
+<<<<<<< HEAD
 "            entsprechend Ihrer Einstellungen; auf dem Verkaufsauftrag (basierend\n"
 "                auf dem Angebot) oder der Rechnung (basierend auf den Lieferaufträgen)."
+=======
+"            entsprechend Ihrer Einstellungen; auf dem Verkaufsauftrag "
+"(basierend\n"
+"                auf dem Angebot) oder der Rechnung (basierend auf den "
+"Lieferaufträgen)."
+>>>>>>> upstream/18.0
 
 #. module: delivery
 #: model:ir.model.fields,help:delivery.field_delivery_carrier__fixed_margin
@@ -948,8 +1040,13 @@ msgid ""
 "package easily. Use <shipmenttrackingnumber> as a placeholder in your URL."
 msgstr ""
 "Diese Option fügt einen Link für den Kunden im Portal ein, um sein Paket "
+<<<<<<< HEAD
 "einfach zu verfolgen. Verwenden Sie <shipmenttrackingnumber> als Platzhalter"
 " in Ihrer URL."
+=======
+"einfach zu verfolgen. Verwenden Sie <shipmenttrackingnumber> als Platzhalter "
+"in Ihrer URL."
+>>>>>>> upstream/18.0
 
 #. module: delivery
 #: model:ir.model.fields,help:delivery.field_delivery_carrier__margin
@@ -1025,6 +1122,7 @@ msgstr "Bezeichnung der Gewichtsmaßeinheit"
 #. odoo-python
 #: code:addons/delivery/models/sale_order.py:0
 msgid ""
+<<<<<<< HEAD
 "You can not update the shipping costs on an order where it was already invoiced!\n"
 "\n"
 "The following delivery lines (product, invoiced quantity and price) have already been processed:\n"
@@ -1033,6 +1131,20 @@ msgstr ""
 "Sie können die Versandkosten für einen Auftrag, der bereits abgerechnet wurde, nicht aktualisieren!\n"
 "\n"
 "Die folgenden Lieferpositionen (Produkt, abgerechnete Menge und Preis) sind bereits bearbeitet worden:\n"
+=======
+"You can not update the shipping costs on an order where it was already "
+"invoiced!\n"
+"\n"
+"The following delivery lines (product, invoiced quantity and price) have "
+"already been processed:\n"
+"\n"
+msgstr ""
+"Sie können die Versandkosten für einen Auftrag, der bereits abgerechnet "
+"wurde, nicht aktualisieren!\n"
+"\n"
+"Die folgenden Lieferpositionen (Produkt, abgerechnete Menge und Preis) sind "
+"bereits bearbeitet worden:\n"
+>>>>>>> upstream/18.0
 
 #. module: delivery
 #. odoo-python

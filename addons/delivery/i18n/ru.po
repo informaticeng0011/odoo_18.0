@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* delivery
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
@@ -478,10 +479,19 @@
 # Anastasiia Koroleva, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+#
+# Translators:
+# Wil Odoo, 2024
+# Ilya Rozhkov, 2024
+# Anastasiia Koroleva, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-01-27 13:03+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
@@ -963,6 +973,19 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: ru\n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Anastasiia Koroleva, 2025\n"
+"Language-Team: Russian (https://app.transifex.com/odoo/teams/41243/ru/)\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
+"(n%100>=11 && n%100<=14)? 2 : 3);\n"
+>>>>>>> upstream/18.0
 
 #. module: delivery
 #. odoo-python
@@ -1091,6 +1114,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"%s\n"
+"Бесплатная доставка"
+>>>>>>> upstream/18.0
 =======
 "%s\n"
 "Бесплатная доставка"
@@ -1568,17 +1596,31 @@ msgid ""
 "                </p>"
 msgstr ""
 "<p class=\"o_view_nocontent\">\n"
+<<<<<<< HEAD
 "                    Купите Odoo Enterprise сейчас, чтобы получить больше провайдеров.\n"
+=======
+"                    Купите Odoo Enterprise сейчас, чтобы получить больше "
+"провайдеров.\n"
+>>>>>>> upstream/18.0
 "                </p>"
 
 #. module: delivery
 #: model_terms:ir.ui.view,arch_db:delivery.view_delivery_carrier_form
 msgid ""
 "<span class=\"o_stat_text o_warning_text fw-bold\">Test</span>\n"
+<<<<<<< HEAD
 "                                <span class=\"o_stat_text\">Environment</span>"
 msgstr ""
 "<span class=\"o_stat_text o_warning_text fw-bold\">Тест</span>\n"
 "                                <span class=\"o_stat_text\">Окружающая среда</span>"
+=======
+"                                <span class=\"o_stat_text\">Environment</"
+"span>"
+msgstr ""
+"<span class=\"o_stat_text o_warning_text fw-bold\">Тест</span>\n"
+"                                <span class=\"o_stat_text\">Окружающая "
+"среда</span>"
+>>>>>>> upstream/18.0
 
 #. module: delivery
 #: model_terms:ir.ui.view,arch_db:delivery.view_delivery_carrier_form
@@ -1594,10 +1636,19 @@ msgstr "<span class=\"text-success\">Запросы на отладку</span>"
 #: model_terms:ir.ui.view,arch_db:delivery.view_delivery_carrier_form
 msgid ""
 "<span class=\"text-success\">Production</span>\n"
+<<<<<<< HEAD
 "                                <span class=\"o_stat_text\">Environment</span>"
 msgstr ""
 "<span class=\"text-success\">Производство</span>\n"
 "                                <span class=\"o_stat_text\">Окружающая среда</span>"
+=======
+"                                <span class=\"o_stat_text\">Environment</"
+"span>"
+msgstr ""
+"<span class=\"text-success\">Производство</span>\n"
+"                                <span class=\"o_stat_text\">Окружающая "
+"среда</span>"
+>>>>>>> upstream/18.0
 
 #. module: delivery
 #: model_terms:ir.ui.view,arch_db:delivery.delivery_report_saleorder_document
@@ -1716,7 +1767,11 @@ msgid "<strong>Shipping Description</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Информация о доставке</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Информация о доставке</strong>"
 >>>>>>> upstream/18.0
@@ -2155,6 +2210,7 @@ msgstr "Перевозчик"
 #. odoo-python
 #: code:addons/delivery/models/delivery_carrier.py:0
 msgid ""
+<<<<<<< HEAD
 "Carrier %s cannot have the same tag in both Must Have Tags and Excluded "
 "Tags."
 msgstr ""
@@ -2728,6 +2784,12 @@ msgstr ""
 "У перевозчика %s не может быть один и тот же тег и в «Обязательные теги», и "
 "в «Исключенные теги»."
 >>>>>>> upstream/18.0
+=======
+"Carrier %s cannot have the same tag in both Must Have Tags and Excluded Tags."
+msgstr ""
+"У перевозчика %s не может быть один и тот же тег и в «Обязательные теги», и "
+"в «Исключенные теги»."
+>>>>>>> upstream/18.0
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__carrier_description
@@ -2856,7 +2918,11 @@ msgid "Choose a pick-up point"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Выберите пункт самовывоза"
+>>>>>>> upstream/18.0
 =======
 msgstr "Выберите пункт самовывоза"
 >>>>>>> upstream/18.0
@@ -3335,7 +3401,11 @@ msgid "Choose this location"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Выбрать эту локацию"
+>>>>>>> upstream/18.0
 =======
 msgstr "Выбрать эту локацию"
 >>>>>>> upstream/18.0
@@ -3848,7 +3918,11 @@ msgid "Created by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Создано"
+=======
+msgstr "Создано:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Создано:"
 >>>>>>> upstream/18.0
@@ -4312,7 +4386,11 @@ msgid "Created on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Создано"
+=======
+msgstr "Дата создания:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дата создания:"
 >>>>>>> upstream/18.0
@@ -4795,8 +4873,15 @@ msgid ""
 "            UPS Express, UPS Standard) with a set of pricing rules attached\n"
 "            to each method."
 msgstr ""
+<<<<<<< HEAD
 "У каждого перевозчика (например, UPS) может быть несколько способов доставки (например.\n"
 "            UPS Express, UPS Standard) с набором правил ценообразования, привязанных\n"
+=======
+"У каждого перевозчика (например, UPS) может быть несколько способов доставки "
+"(например.\n"
+"            UPS Express, UPS Standard) с набором правил ценообразования, "
+"привязанных\n"
+>>>>>>> upstream/18.0
 "            для каждого метода."
 
 #. module: delivery
@@ -4819,11 +4904,23 @@ msgstr "Ошибка: данный способ доставки недосту�
 #. module: delivery
 #: model:ir.model.fields,help:delivery.field_delivery_carrier__invoice_policy
 msgid ""
+<<<<<<< HEAD
 "Estimated Cost: the customer will be invoiced the estimated cost of the shipping.\n"
 "Real Cost: the customer will be invoiced the real cost of the shipping, the cost of theshipping will be updated on the SO after the delivery."
 msgstr ""
 "Расчетная стоимость: клиенту будет выставлен счет на расчетную стоимость доставки.\n"
 "Реальная стоимость: покупателю будет выставлен счет на реальную стоимость доставки, стоимость доставки будет обновлена на СЦ после доставки."
+=======
+"Estimated Cost: the customer will be invoiced the estimated cost of the "
+"shipping.\n"
+"Real Cost: the customer will be invoiced the real cost of the shipping, the "
+"cost of theshipping will be updated on the SO after the delivery."
+msgstr ""
+"Расчетная стоимость: клиенту будет выставлен счет на расчетную стоимость "
+"доставки.\n"
+"Реальная стоимость: покупателю будет выставлен счет на реальную стоимость "
+"доставки, стоимость доставки будет обновлена на СЦ после доставки."
+>>>>>>> upstream/18.0
 
 #. module: delivery
 #: model:ir.model.fields.selection,name:delivery.selection__delivery_carrier__invoice_policy__estimated
@@ -4839,12 +4936,18 @@ msgstr "Исключенные теги"
 #: model:ir.model.fields,help:delivery.field_sale_order__carrier_id
 msgid "Fill this field if you plan to invoice the shipping based on picking."
 msgstr ""
+<<<<<<< HEAD
 "Заполните это поле, если вы планируете выставлять счет за доставку на основе"
 " комплектации."
+=======
+"Заполните это поле, если вы планируете выставлять счет за доставку на основе "
+"комплектации."
+>>>>>>> upstream/18.0
 
 #. module: delivery
 #: model_terms:ir.ui.view,arch_db:delivery.view_delivery_carrier_form
 msgid ""
+<<<<<<< HEAD
 "Filling this form allows you to make the shipping method available according"
 " to the content of the order or its destination."
 msgstr ""
@@ -5418,6 +5521,13 @@ msgstr ""
 "Заполнение этой формы позволяет сделать способ доставки доступным в "
 "зависимости от содержимого заказа или пункта назначения."
 >>>>>>> upstream/18.0
+=======
+"Filling this form allows you to make the shipping method available according "
+"to the content of the order or its destination."
+msgstr ""
+"Заполнение этой формы позволяет сделать способ доставки доступным в "
+"зависимости от содержимого заказа или пункта назначения."
+>>>>>>> upstream/18.0
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__fixed_margin
@@ -5469,8 +5579,13 @@ msgid ""
 "If the order total amount (shipping excluded) is above or equal to this "
 "value, the customer benefits from a free shipping"
 msgstr ""
+<<<<<<< HEAD
 "Если сумма заказа больше (за исключением доставки) или равна этому значению,"
 " то доставка для покупателя является бесплатной"
+=======
+"Если сумма заказа больше (за исключением доставки) или равна этому значению, "
+"то доставка для покупателя является бесплатной"
+>>>>>>> upstream/18.0
 
 #. module: delivery
 #: model:ir.model.fields,help:delivery.field_delivery_carrier__max_volume
@@ -5591,7 +5706,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Если общий объем заказа превышает этот объем, метод будет недоступен."
+>>>>>>> upstream/18.0
 =======
 msgstr "Если общий объем заказа превышает этот объем, метод будет недоступен."
 >>>>>>> upstream/18.0
@@ -6054,7 +6173,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Если общий вес заказа превышает этот вес, метод будет недоступен."
+>>>>>>> upstream/18.0
 =======
 msgstr "Если общий вес заказа превышает этот вес, метод будет недоступен."
 >>>>>>> upstream/18.0
@@ -6549,7 +6672,11 @@ msgid "Last Updated by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Последнее обновление"
+=======
+msgstr "Последнее обновление:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Последнее обновление:"
 >>>>>>> upstream/18.0
@@ -7017,7 +7144,11 @@ msgid "Last Updated on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Последнее обновление"
+=======
+msgstr "Дата последнего обновления:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дата последнего обновления:"
 >>>>>>> upstream/18.0
@@ -7510,7 +7641,11 @@ msgid "Map view"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Карта"
+>>>>>>> upstream/18.0
 =======
 msgstr "Карта"
 >>>>>>> upstream/18.0
@@ -7989,7 +8124,11 @@ msgid "Max Volume"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Максимальный объем"
+>>>>>>> upstream/18.0
 =======
 msgstr "Максимальный объем"
 >>>>>>> upstream/18.0
@@ -8460,7 +8599,11 @@ msgid "Must Have Tags"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Обязательные теги"
+>>>>>>> upstream/18.0
 =======
 msgstr "Обязательные теги"
 >>>>>>> upstream/18.0
@@ -8933,7 +9076,11 @@ msgid "No pick-up points are available for this delivery address."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Нет доступных пунктов самовывоза для этого адреса доставки."
+>>>>>>> upstream/18.0
 =======
 msgstr "Нет доступных пунктов самовывоза для этого адреса доставки."
 >>>>>>> upstream/18.0
@@ -9409,7 +9556,11 @@ msgid "Opening hours"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Часы работы"
+>>>>>>> upstream/18.0
 =======
 msgstr "Часы работы"
 >>>>>>> upstream/18.0
@@ -9883,7 +10034,11 @@ msgid "Pickup Location Data"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Данные пункта самовывоза"
+>>>>>>> upstream/18.0
 =======
 msgstr "Данные пункта самовывоза"
 >>>>>>> upstream/18.0
@@ -10528,6 +10683,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Метод НЕ будет доступен, если хотя бы один товар в заказе имеет один из "
+"указанных тегов."
+>>>>>>> upstream/18.0
 =======
 "Метод НЕ будет доступен, если хотя бы один товар в заказе имеет один из "
 "указанных тегов."
@@ -10988,6 +11148,7 @@ msgstr ""
 #. module: delivery
 #: model:ir.model.fields,help:delivery.field_delivery_carrier__must_have_tag_ids
 msgid ""
+<<<<<<< HEAD
 "The method is available only if at least one product of the order has one of"
 " these tags."
 msgstr ""
@@ -11561,6 +11722,13 @@ msgstr ""
 "Метод будет доступен только в том случае, если хотя бы один товар в заказе "
 "имеет один из указанных тегов."
 >>>>>>> upstream/18.0
+=======
+"The method is available only if at least one product of the order has one of "
+"these tags."
+msgstr ""
+"Метод будет доступен только в том случае, если хотя бы один товар в заказе "
+"имеет один из указанных тегов."
+>>>>>>> upstream/18.0
 
 #. module: delivery
 #: model:ir.model.fields,help:delivery.field_delivery_carrier__get_return_label_from_portal
@@ -11705,7 +11873,11 @@ msgid "There was an error loading the map"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ошибка загрузки карты"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ошибка загрузки карты"
 >>>>>>> upstream/18.0
@@ -12060,7 +12232,12 @@ msgid ""
 "            quotation) or the invoice (based on the delivery orders)."
 msgstr ""
 "Эти методы позволяют автоматически рассчитать стоимость доставки\n"
+<<<<<<< HEAD
 "            в соответствии с вашими настройками; на основе заказа на продажу \n"
+=======
+"            в соответствии с вашими настройками; на основе заказа на "
+"продажу \n"
+>>>>>>> upstream/18.0
 "            или на основе счет-фактуры (после заказа на поставку)."
 
 #. module: delivery
@@ -12188,6 +12365,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Эта опция добавляет клиенту ссылку в портале для отслеживания посылки. "
+"Используйте <shipmenttrackingnumber> как плейсхолдер в вашем URL."
+>>>>>>> upstream/18.0
 =======
 "Эта опция добавляет клиенту ссылку в портале для отслеживания посылки. "
 "Используйте <shipmenttrackingnumber> как плейсхолдер в вашем URL."
@@ -12772,7 +12954,11 @@ msgid "Tracking Link"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ссылка для отслеживания"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ссылка для отслеживания"
 >>>>>>> upstream/18.0
@@ -13175,6 +13361,7 @@ msgstr "Этикетка единицы измерения массы"
 #. odoo-python
 #: code:addons/delivery/models/sale_order.py:0
 msgid ""
+<<<<<<< HEAD
 "You can not update the shipping costs on an order where it was already invoiced!\n"
 "\n"
 "The following delivery lines (product, invoiced quantity and price) have already been processed:\n"
@@ -13183,6 +13370,20 @@ msgstr ""
 "Вы не можете обновить стоимость доставки в заказе, на который уже был выставлен счет!\n"
 "\n"
 "Следующие строки доставки (продукт, выставленное количество и цена) уже обработаны:\n"
+=======
+"You can not update the shipping costs on an order where it was already "
+"invoiced!\n"
+"\n"
+"The following delivery lines (product, invoiced quantity and price) have "
+"already been processed:\n"
+"\n"
+msgstr ""
+"Вы не можете обновить стоимость доставки в заказе, на который уже был "
+"выставлен счет!\n"
+"\n"
+"Следующие строки доставки (продукт, выставленное количество и цена) уже "
+"обработаны:\n"
+>>>>>>> upstream/18.0
 "\n"
 
 #. module: delivery
@@ -13314,7 +13515,11 @@ msgid "Your postal code"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ваш индекс"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ваш индекс"
 >>>>>>> upstream/18.0
@@ -13794,6 +13999,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"например, https://ekartlogistics.com/shipmenttrack/<shipmenttrackingnumber>"
+>>>>>>> upstream/18.0
 =======
 "например, https://ekartlogistics.com/shipmenttrack/<shipmenttrackingnumber>"
 >>>>>>> upstream/18.0

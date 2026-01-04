@@ -42,7 +42,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* lunch
+=======
+# * lunch
+>>>>>>> upstream/18.0
 =======
 # * lunch
 >>>>>>> upstream/18.0
@@ -217,7 +221,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
@@ -348,6 +356,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0beta\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-06-03 08:43+0000\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -484,6 +493,9 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-11-15 18:12+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Serbian (Latin script) <https://translate.odoo.com/projects/"
@@ -536,6 +548,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -721,6 +736,7 @@ msgid ""
 "width=\"590\" style=\"min-width: 590px; background-color: white; padding: "
 "0px 8px 0px 8px; border-collapse:separate;\">\n"
 "                <tr><td valign=\"middle\">\n"
+<<<<<<< HEAD
 "                    <span style=\"font-size: 10px;\">Lunch Order</span><br>\n"
 "                </td><td valign=\"middle\" align=\"right\" t-if=\"not user."
 "company_id.uses_default_logo\">\n"
@@ -732,6 +748,20 @@ msgid ""
 "                  <hr width=\"100%\" style=\"background-color:"
 "rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;"
 "min-height:1px;line-height:0; margin:16px 0px 16px 0px;\">\n"
+=======
+"                    <span style=\"font-size: 10px;\">Lunch Order</span><br/"
+">\n"
+"                </td><td valign=\"middle\" align=\"right\" t-if=\"not "
+"user.company_id.uses_default_logo\">\n"
+"                    <img t-attf-src=\"/logo.png?"
+"company={{ user.company_id.id }}\" style=\"padding: 0px; margin: 0px; "
+"height: auto; width: 80px;\" t-att-alt=\"user.company_id.name\"/>\n"
+"                </td></tr>\n"
+"                <tr><td colspan=\"2\" style=\"text-align:center;\">\n"
+"                  <hr width=\"100%\" style=\"background-"
+"color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
+"size:0px;min-height:1px;line-height:0; margin:16px 0px 16px 0px;\"/>\n"
+>>>>>>> upstream/18.0
 "                </td></tr>\n"
 "            </table>\n"
 "        </td>\n"
@@ -745,6 +775,7 @@ msgid ""
 "                <tr>\n"
 "                    <td valign=\"top\" style=\"font-size: 13px;\">\n"
 "    <div>\n"
+<<<<<<< HEAD
 "        <t t-set=\"lines\" t-value=\"ctx.get('lines', [])\"></t>\n"
 "        <t t-set=\"order\" t-value=\"ctx.get('order')\"></t>\n"
 "        <t t-set=\"currency\" t-value=\"user.env['res.currency']."
@@ -764,6 +795,27 @@ msgid ""
 "out=\"site['address'] or ''\"></t></p>\n"
 "            </t>\n"
 "            <br>\n"
+=======
+"        <t t-set=\"lines\" t-value=\"ctx.get('lines', [])\"/>\n"
+"        <t t-set=\"order\" t-value=\"ctx.get('order')\"/>\n"
+"        <t t-set=\"currency\" t-"
+"value=\"user.env['res.currency'].browse(order.get('currency_id'))\"/>\n"
+"        <p>\n"
+"        Dear <t t-out=\"order.get('supplier_name', '')\">Laurie Poiret</t>,\n"
+"        </p><p>\n"
+"        Here is, today orders for <t t-out=\"order.get('company_name', '')"
+"\">LunchCompany</t>:\n"
+"        </p>\n"
+"\n"
+"        <t t-if=\"sites\">\n"
+"            <br/>\n"
+"            <p>Location</p>\n"
+"            <t t-foreach=\"site\" t-as=\"site\">\n"
+"                <p><t t-out=\"site['name'] or ''\"/> : <t t-"
+"out=\"site['address'] or ''\"/></p>\n"
+"            </t>\n"
+"            <br/>\n"
+>>>>>>> upstream/18.0
 "        </t>\n"
 "\n"
 "        <table>\n"
@@ -808,10 +860,17 @@ msgid ""
 "currency) or ''\">$ 1.00</td>\n"
 "                </tr>\n"
 "                <tr>\n"
+<<<<<<< HEAD
 "                    <td></td>\n"
 "                    <td></td>\n"
 "                    <td></td>\n"
 "                    <td></td>\n"
+=======
+"                    <td/>\n"
+"                    <td/>\n"
+"                    <td/>\n"
+"                    <td/>\n"
+>>>>>>> upstream/18.0
 "                    <td style=\"width: 100%; font-size: 13px; border-top: "
 "1px solid black;\"><strong>Total</strong></td>\n"
 "                    <td style=\"width: 100%; font-size: 13px; border-top: "
@@ -828,9 +887,15 @@ msgid ""
 "                </tr>\n"
 "                <tr>\n"
 "                    <td style=\"text-align:center;\">\n"
+<<<<<<< HEAD
 "                        <hr width=\"100%\" style=\"background-color:"
 "rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;"
 "min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\">\n"
+=======
+"                        <hr width=\"100%\" style=\"background-"
+"color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
+"size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+>>>>>>> upstream/18.0
 "                    </td>\n"
 "                </tr>\n"
 "            </table>\n"
@@ -849,6 +914,7 @@ msgid ""
 "0.7;\">\n"
 "                    <t t-out=\"user.company_id.phone or ''\">+1 "
 "650-123-4567</t>\n"
+<<<<<<< HEAD
 "                    <t t-if=\"user.company_id.phone and (user.company_id."
 "email or user.company_id.website)\">|</t>\n"
 "                    <t t-if=\"user.company_id.email\">\n"
@@ -862,6 +928,21 @@ msgid ""
 "                        <a t-attf-href=\"'%s' % {{ user.company_id."
 "website }}\" style=\"text-decoration:none; color: #454748;\" t-out=\"user."
 "company_id.website or ''\">http://www.example.com</a>\n"
+=======
+"                    <t t-if=\"user.company_id.phone and "
+"(user.company_id.email or user.company_id.website)\">|</t>\n"
+"                    <t t-if=\"user.company_id.email\">\n"
+"                        <a t-attf-href=\"'mailto:%s' % "
+"{{ user.company_id.email }}\" style=\"text-decoration:none; color: "
+"#454748;\" t-out=\"user.company_id.email or ''\">info@yourcompany.com</a>\n"
+"                    </t>\n"
+"                    <t t-if=\"user.company_id.email and "
+"user.company_id.website\">|</t>\n"
+"                    <t t-if=\"user.company_id.website\">\n"
+"                        <a t-attf-href=\"'%s' % {{ user.company_id.website }}"
+"\" style=\"text-decoration:none; color: #454748;\" t-"
+"out=\"user.company_id.website or ''\">http://www.example.com</a>\n"
+>>>>>>> upstream/18.0
 "                    </t>\n"
 "                </td></tr>\n"
 "            </table>\n"
@@ -1347,6 +1428,14 @@ msgid "Display"
 msgstr "Prikaz"
 
 #. module: lunch
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:lunch.field_lunch_order__display_add_button
+msgid "Display Add Button"
+msgstr ""
+
+#. module: lunch
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:lunch.field_lunch_alert__display_name
 #: model:ir.model.fields,field_description:lunch.field_lunch_cashmove__display_name
 #: model:ir.model.fields,field_description:lunch.field_lunch_cashmove_report__display_name
@@ -1441,7 +1530,11 @@ msgid "Everyone"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Svi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Svi"
 >>>>>>> upstream/18.0
@@ -1992,32 +2085,56 @@ msgid "Lunch: Supplier Order"
 msgstr ""
 
 #. module: lunch
+<<<<<<< HEAD
 #: model:ir.actions.server,name:lunch.lunch_alert_cron_sa_221
+=======
+#: model:ir.actions.server,name:lunch.lunch_alert_cron_sa_228
+>>>>>>> upstream/18.0
 msgid "Lunch: alert chat notification (Alert for Office 3)"
 msgstr ""
 
 #. module: lunch
+<<<<<<< HEAD
 #: model:ir.actions.server,name:lunch.lunch_supplier_cron_sa_222
+=======
+#: model:ir.actions.server,name:lunch.lunch_supplier_cron_sa_229
+>>>>>>> upstream/18.0
 msgid "Lunch: send automatic email to Coin gourmand"
 msgstr ""
 
 #. module: lunch
+<<<<<<< HEAD
 #: model:ir.actions.server,name:lunch.lunch_supplier_cron_sa_217
+=======
+#: model:ir.actions.server,name:lunch.lunch_supplier_cron_sa_224
+>>>>>>> upstream/18.0
 msgid "Lunch: send automatic email to Lunch Supplier"
 msgstr ""
 
 #. module: lunch
+<<<<<<< HEAD
 #: model:ir.actions.server,name:lunch.lunch_supplier_cron_sa_223
+=======
+#: model:ir.actions.server,name:lunch.lunch_supplier_cron_sa_230
+>>>>>>> upstream/18.0
 msgid "Lunch: send automatic email to Pizza Inn"
 msgstr ""
 
 #. module: lunch
+<<<<<<< HEAD
 #: model:ir.actions.server,name:lunch.lunch_supplier_cron_sa_225
+=======
+#: model:ir.actions.server,name:lunch.lunch_supplier_cron_sa_232
+>>>>>>> upstream/18.0
 msgid "Lunch: send automatic email to Sushi Shop"
 msgstr ""
 
 #. module: lunch
+<<<<<<< HEAD
 #: model:ir.actions.server,name:lunch.lunch_supplier_cron_sa_224
+=======
+#: model:ir.actions.server,name:lunch.lunch_supplier_cron_sa_231
+>>>>>>> upstream/18.0
 msgid "Lunch: send automatic email to The Corner"
 msgstr ""
 
@@ -2176,6 +2293,21 @@ msgid "No cash move yet"
 msgstr ""
 
 #. module: lunch
+<<<<<<< HEAD
+=======
+#. odoo-javascript
+#: code:addons/lunch/static/src/views/no_content_helper.xml:0
+msgid "No location found"
+msgstr ""
+
+#. module: lunch
+#. odoo-javascript
+#: code:addons/lunch/static/src/components/lunch_dashboard.xml:0
+msgid "No lunch location available."
+msgstr ""
+
+#. module: lunch
+>>>>>>> upstream/18.0
 #: model_terms:ir.actions.act_window,help:lunch.lunch_order_action_control_suppliers
 msgid "No lunch order yet"
 msgstr ""
@@ -2282,7 +2414,11 @@ msgid "Number of messages requiring action"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Broj poruka koje zahtevaju akciju"
+>>>>>>> upstream/18.0
 =======
 msgstr "Broj poruka koje zahtevaju akciju"
 >>>>>>> upstream/18.0
@@ -2464,7 +2600,11 @@ msgstr ""
 
 #. module: lunch
 #: model_terms:ir.ui.view,arch_db:lunch.lunch_order_view_tree
+<<<<<<< HEAD
 msgid "Order lines Tree"
+=======
+msgid "Order lines List"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: lunch
@@ -2543,6 +2683,15 @@ msgid "Pizza Vegetarian"
 msgstr ""
 
 #. module: lunch
+<<<<<<< HEAD
+=======
+#. odoo-javascript
+#: code:addons/lunch/static/src/views/no_content_helper.xml:0
+msgid "Please create a location to start ordering."
+msgstr ""
+
+#. module: lunch
+>>>>>>> upstream/18.0
 #: model_terms:lunch.alert,message:lunch.alert_office_3
 msgid "Please order"
 msgstr ""
@@ -2592,6 +2741,10 @@ msgstr ""
 
 #. module: lunch
 #: model:ir.model.fields,field_description:lunch.field_lunch_product__product_image
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:lunch.view_lunch_product_kanban
+>>>>>>> upstream/18.0
 msgid "Product Image"
 msgstr "Slika proizvoda"
 
@@ -2628,15 +2781,22 @@ msgstr ""
 
 #. module: lunch
 #: model_terms:ir.ui.view,arch_db:lunch.lunch_product_category_view_tree
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:lunch.lunch_product_view_tree
+>>>>>>> upstream/18.0
 msgid "Products List"
 msgstr "Lista proizvoda"
 
 #. module: lunch
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:lunch.lunch_product_view_tree
 msgid "Products Tree"
 msgstr ""
 
 #. module: lunch
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:lunch.field_lunch_order__quantity
 msgid "Quantity"
 msgstr "Količina"
@@ -2985,6 +3145,11 @@ msgid ""
 msgstr ""
 
 #. module: lunch
+<<<<<<< HEAD
+=======
+#. odoo-javascript
+#: code:addons/lunch/static/src/components/lunch_dashboard.xml:0
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:lunch.lunch_order_view_search
 msgid "Today"
 msgstr "Danas"
@@ -3163,7 +3328,11 @@ msgid "Vendors"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dobavljači"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dobavljači"
 >>>>>>> upstream/18.0
@@ -3349,6 +3518,10 @@ msgstr ""
 #. module: lunch
 #. odoo-python
 #: code:addons/lunch/models/lunch_order.py:0
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:lunch.lunch_order_view_form
+>>>>>>> upstream/18.0
 msgid ""
 "Your wallet does not contain enough money to order that. To add some money "
 "to your wallet, please contact your lunch manager."
@@ -3379,7 +3552,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:lunch.lunch_cashmove_report_view_tree
 #: model_terms:ir.ui.view,arch_db:lunch.lunch_cashmove_report_view_tree_2
 #: model_terms:ir.ui.view,arch_db:lunch.lunch_cashmove_view_tree
+<<<<<<< HEAD
 msgid "cashmove tree"
+=======
+msgid "cashmove list"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: lunch

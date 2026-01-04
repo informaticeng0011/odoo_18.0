@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* project_todo
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
@@ -598,10 +599,18 @@
 # Thi Huong Nguyen, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+#
+# Translators:
+# Wil Odoo, 2024
+# Thi Huong Nguyen, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
@@ -1202,6 +1211,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: vi\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Thi Huong Nguyen, 2025\n"
+"Language-Team: Vietnamese (https://app.transifex.com/odoo/teams/41243/vi/)\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+>>>>>>> upstream/18.0
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: project_todo
@@ -1236,7 +1255,12 @@ msgid ""
 msgstr ""
 "<span style=\"font-size: 14px;\">\n"
 "                    Thêm một dấu phân cách\n"
+<<<<<<< HEAD
 "                    (/<span style=\"font-style: italic;\">dấu phân cách</span>)\n"
+=======
+"                    (/<span style=\"font-style: italic;\">dấu phân cách</"
+"span>)\n"
+>>>>>>> upstream/18.0
 "                </span>"
 
 #. module: project_todo
@@ -1282,29 +1306,59 @@ msgstr ""
 msgid ""
 "<span style=\"font-size: 14px;\">\n"
 "            Select text to\n"
+<<<<<<< HEAD
 "            <font style=\"background-color: #017E84; color: white\">Highlight</font>,\n"
 "            <span style=\"text-decoration-line: line-through;\">strikethrough</span>\n"
 "            or\n"
 "            <span style=\"font-weight: bolder;\">style</span>\n"
 "            <span style=\"font-style: italic; text-decoration-line: underline;\">it</span>\n"
+=======
+"            <font style=\"background-color: #017E84; color: "
+"white\">Highlight</font>,\n"
+"            <span style=\"text-decoration-line: line-through;"
+"\">strikethrough</span>\n"
+"            or\n"
+"            <span style=\"font-weight: bolder;\">style</span>\n"
+"            <span style=\"font-style: italic; text-decoration-line: "
+"underline;\">it</span>\n"
+>>>>>>> upstream/18.0
 "        </span>"
 msgstr ""
 "<span style=\"font-size: 14px;\">\n"
 "            Chọn văn bản để\n"
+<<<<<<< HEAD
 "            <font style=\"background-color: #017E84; color: white\">tô màu</font>,\n"
 "            <span style=\"text-decoration-line: line-through;\">gạch ngang</span>\n"
 "            hoặc\n"
 "            <span style=\"font-weight: bolder;\">tạo kiểu</span>\n"
 "            <span style=\"font-style: italic; text-decoration-line: underline;\">cho văn bản đó</span>\n"
+=======
+"            <font style=\"background-color: #017E84; color: white\">tô màu</"
+"font>,\n"
+"            <span style=\"text-decoration-line: line-through;\">gạch ngang</"
+"span>\n"
+"            hoặc\n"
+"            <span style=\"font-weight: bolder;\">tạo kiểu</span>\n"
+"            <span style=\"font-style: italic; text-decoration-line: "
+"underline;\">cho văn bản đó</span>\n"
+>>>>>>> upstream/18.0
 "        </span>"
 
 #. module: project_todo
 #: model_terms:ir.ui.view,arch_db:project_todo.todo_user_onboarding
 msgid ""
 "<span style=\"font-size: 14px;\">\n"
+<<<<<<< HEAD
 "        Access your personal pipeline with your to-dos and assigned tasks by going to the Project app and clicking\n"
 "        <span>\n"
 "            <font style=\"font-weight: bolder;\" class=\"text-o-color-2\">My Tasks</font>.\n"
+=======
+"        Access your personal pipeline with your to-dos and assigned tasks by "
+"going to the Project app and clicking\n"
+"        <span>\n"
+"            <font style=\"font-weight: bolder;\" class=\"text-o-color-2\">My "
+"Tasks</font>.\n"
+>>>>>>> upstream/18.0
 "        </span>\n"
 "    </span>\n"
 "    <br/>\n"
@@ -1314,6 +1368,7 @@ msgid ""
 "        <span style=\"font-weight: bolder;\">\n"
 "            <font class=\"text-o-color-2\">private tasks.</font>\n"
 "        </span>\n"
+<<<<<<< HEAD
 "        Any task you create privately will also be included in your to-dos. Essentially, they are interchangeable.\n"
 "    </span>"
 msgstr ""
@@ -1913,6 +1968,18 @@ msgstr ""
 >>>>>>> upstream/18.0
 "        <span>\n"
 "            <font style=\"font-weight: bolder;\" class=\"text-o-color-2\">Nhiệm vụ của tôi</font>.\n"
+=======
+"        Any task you create privately will also be included in your to-dos. "
+"Essentially, they are interchangeable.\n"
+"    </span>"
+msgstr ""
+"<span style=\"font-size: 14px;\">\n"
+"        Truy cập quy trình cá nhân chứa các việc cần làm và nhiệm vụ được "
+"giao cho bạn bằng cách vào ứng dụng Project và nhấp\n"
+"        <span>\n"
+"            <font style=\"font-weight: bolder;\" class=\"text-o-"
+"color-2\">Nhiệm vụ của tôi</font>.\n"
+>>>>>>> upstream/18.0
 "        </span>\n"
 "    </span>\n"
 "    <br/>\n"
@@ -1922,24 +1989,45 @@ msgstr ""
 "        <span style=\"font-weight: bolder;\">\n"
 "            <font class=\"text-o-color-2\">nhiệm vụ riêng tư.</font>\n"
 "        </span>\n"
+<<<<<<< HEAD
 "        Bất kỳ nhiệm vụ nào bạn tạo riêng cũng sẽ được đưa vào danh sách việc cần làm này. Về cơ bản, chúng tương tự nhau.\n"
+=======
+"        Bất kỳ nhiệm vụ nào bạn tạo riêng cũng sẽ được đưa vào danh sách "
+"việc cần làm này. Về cơ bản, chúng tương tự nhau.\n"
+>>>>>>> upstream/18.0
 "    </span>"
 
 #. module: project_todo
 #: model_terms:ir.ui.view,arch_db:project_todo.todo_user_onboarding
 msgid ""
 "<span style=\"font-size: 14px;\">\n"
+<<<<<<< HEAD
 "        By default, to-dos are only visible to you. You can share them with other users by adding them as\n"
 "        <span>\n"
 "            <font style=\"font-weight: bolder;\" class=\"text-o-color-2\">assignees</font>.\n"
+=======
+"        By default, to-dos are only visible to you. You can share them with "
+"other users by adding them as\n"
+"        <span>\n"
+"            <font style=\"font-weight: bolder;\" class=\"text-o-"
+"color-2\">assignees</font>.\n"
+>>>>>>> upstream/18.0
 "        </span>\n"
 "    </span>\n"
 "    <br/>"
 msgstr ""
 "<span style=\"font-size: 14px;\">\n"
+<<<<<<< HEAD
 "        Theo mặc định, việc cần làm chỉ hiển thị cho bạn. Bạn có thể chia sẻ chúng với những người dùng khác bằng cách thêm họ làm\n"
 "        <span>\n"
 "            <font style=\"font-weight: bolder;\" class=\"text-o-color-2\">người được phân công</font>.\n"
+=======
+"        Theo mặc định, việc cần làm chỉ hiển thị cho bạn. Bạn có thể chia sẻ "
+"chúng với những người dùng khác bằng cách thêm họ làm\n"
+"        <span>\n"
+"            <font style=\"font-weight: bolder;\" class=\"text-o-"
+"color-2\">người được phân công</font>.\n"
+>>>>>>> upstream/18.0
 "        </span>\n"
 "    </span>\n"
 "    <br/>"
@@ -1967,18 +2055,34 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:project_todo.todo_user_onboarding
 msgid ""
 "<span style=\"font-size: 14px;\">\n"
+<<<<<<< HEAD
 "        If you want to assign your to-do to a specific project, open the ⚙️ menu and click\n"
 "        <span>\n"
 "            <font style=\"font-weight: bolder;\" class=\"text-o-color-2\">Convert to Task</font>.\n"
+=======
+"        If you want to assign your to-do to a specific project, open the ⚙️ "
+"menu and click\n"
+"        <span>\n"
+"            <font style=\"font-weight: bolder;\" class=\"text-o-"
+"color-2\">Convert to Task</font>.\n"
+>>>>>>> upstream/18.0
 "        </span>\n"
 "        This action will make it visible to other users.\n"
 "    </span>\n"
 "    <br/>"
 msgstr ""
 "<span style=\"font-size: 14px;\">\n"
+<<<<<<< HEAD
 "        Nếu bạn muốn chuyển việc cần làm vào một dự án cụ thể, hãy mở menu ⚙️ và nhấp\n"
 "        <span>\n"
 "            <font style=\"font-weight: bolder;\" class=\"text-o-color-2\">Chuyển đổi thành Nhiệm vụ</font>.\n"
+=======
+"        Nếu bạn muốn chuyển việc cần làm vào một dự án cụ thể, hãy mở menu ⚙️ "
+"và nhấp\n"
+"        <span>\n"
+"            <font style=\"font-weight: bolder;\" class=\"text-o-"
+"color-2\">Chuyển đổi thành Nhiệm vụ</font>.\n"
+>>>>>>> upstream/18.0
 "        </span>\n"
 "        Hành động này sẽ cho phép người dùng khác thấy được nhiệm vụ đó.\n"
 "    </span>\n"
@@ -1988,23 +2092,43 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:project_todo.todo_user_onboarding
 msgid ""
 "<span style=\"font-size: 14px;\">\n"
+<<<<<<< HEAD
 "        Use it to manage your work, take notes on the go, and create tasks based on them.\n"
 "    </span>"
 msgstr ""
 "<span style=\"font-size: 14px;\">\n"
 "        Sử dụng để quản lý công việc của bạn, ghi chú khi đang di chuyển và tạo nhiệm vụ từ chúng.\n"
+=======
+"        Use it to manage your work, take notes on the go, and create tasks "
+"based on them.\n"
+"    </span>"
+msgstr ""
+"<span style=\"font-size: 14px;\">\n"
+"        Sử dụng để quản lý công việc của bạn, ghi chú khi đang di chuyển và "
+"tạo nhiệm vụ từ chúng.\n"
+>>>>>>> upstream/18.0
 "    </span>"
 
 #. module: project_todo
 #: model_terms:ir.ui.view,arch_db:project_todo.todo_user_onboarding
 msgid ""
 "<span style=\"font-size: 14px;\">\n"
+<<<<<<< HEAD
 "        Wherever you are, use the magic keyboard shortcut to add yourself a reminder &amp;#128161;\n"
+=======
+"        Wherever you are, use the magic keyboard shortcut to add yourself a "
+"reminder &amp;#128161;\n"
+>>>>>>> upstream/18.0
 "    </span>\n"
 "    <br/>"
 msgstr ""
 "<span style=\"font-size: 14px;\">\n"
+<<<<<<< HEAD
 "        Dù bạn ở đâu, hãy sử dụng phím tắt thần kỳ để thêm nhắc nhở cho chính mình &amp;#128161;\n"
+=======
+"        Dù bạn ở đâu, hãy sử dụng phím tắt thần kỳ để thêm nhắc nhở cho "
+"chính mình &amp;#128161;\n"
+>>>>>>> upstream/18.0
 "    </span>\n"
 "    <br/>"
 
@@ -2013,14 +2137,23 @@ msgstr ""
 msgid ""
 "<span style=\"font-size: 14px;\">Check this box to indicate it's done</span>"
 msgstr ""
+<<<<<<< HEAD
 "<span style=\"font-size: 14px;\">Đánh dấu ô này để cho biết đã hoàn "
 "tất</span>"
+=======
+"<span style=\"font-size: 14px;\">Đánh dấu ô này để cho biết đã hoàn tất</"
+"span>"
+>>>>>>> upstream/18.0
 
 #. module: project_todo
 #: model_terms:ir.ui.view,arch_db:project_todo.todo_user_onboarding
 msgid ""
+<<<<<<< HEAD
 "<span style=\"font-size: 14px;\">Click anywhere, and just start "
 "typing</span>"
+=======
+"<span style=\"font-size: 14px;\">Click anywhere, and just start typing</span>"
+>>>>>>> upstream/18.0
 msgstr ""
 "<span style=\"font-size: 14px;\">Nhấp vào bất kỳ đâu, rồi chỉ cần bắt đầu "
 "nhập</span>"
@@ -2030,17 +2163,32 @@ msgstr ""
 msgid ""
 "<span style=\"font-size: 14px;\">Press Ctrl+Z/⌘+Z to undo any change</span>"
 msgstr ""
+<<<<<<< HEAD
 "<span style=\"font-size: 14px;\">Bấm Ctrl+Z/⌘+Z để hoàn tác mọi thay "
 "đổi</span>"
+=======
+"<span style=\"font-size: 14px;\">Bấm Ctrl+Z/⌘+Z để hoàn tác mọi thay đổi</"
+"span>"
+>>>>>>> upstream/18.0
 
 #. module: project_todo
 #: model_terms:ir.ui.view,arch_db:project_todo.todo_user_onboarding
 msgid ""
+<<<<<<< HEAD
 "<span style=\"font-size: 14px;\">This private to-do is for you to play around with.</span>\n"
 "    <br/>\n"
 "    <span style=\"font-size: 14px;\">Ready to give it a spin?</span>"
 msgstr ""
 "<span style=\"font-size: 14px;\">Việc cần làm riêng tư này là nơi bạn được thoả sức sử dụng.</span>\n"
+=======
+"<span style=\"font-size: 14px;\">This private to-do is for you to play "
+"around with.</span>\n"
+"    <br/>\n"
+"    <span style=\"font-size: 14px;\">Ready to give it a spin?</span>"
+msgstr ""
+"<span style=\"font-size: 14px;\">Việc cần làm riêng tư này là nơi bạn được "
+"thoả sức sử dụng.</span>\n"
+>>>>>>> upstream/18.0
 "    <br/>\n"
 "    <span style=\"font-size: 14px;\">Bạn đã sẵn sàng thử chưa?</span>"
 
@@ -2211,10 +2359,21 @@ msgstr "ID"
 #: model_terms:ir.actions.act_window,help:project_todo.project_task_action_todo
 msgid ""
 "Keep your work organized by using memos and to-do lists.\n"
+<<<<<<< HEAD
 "                Your to-do items are private by default, but you can choose to share them with others by adding them as assignees."
 msgstr ""
 "Quản lý công việc một cách ngăn nắp bằng cách sử dụng các bản ghi nhớ và danh sách việc cần làm.\n"
 "                  Theo mặc định, các đầu mục việc cần làm của bạn ở chế độ riêng tư, nhưng bạn có thể chia sẻ chúng với người khác bằng cách thêm họ làm người được giao."
+=======
+"                Your to-do items are private by default, but you can choose "
+"to share them with others by adding them as assignees."
+msgstr ""
+"Quản lý công việc một cách ngăn nắp bằng cách sử dụng các bản ghi nhớ và "
+"danh sách việc cần làm.\n"
+"                  Theo mặc định, các đầu mục việc cần làm của bạn ở chế độ "
+"riêng tư, nhưng bạn có thể chia sẻ chúng với người khác bằng cách thêm họ "
+"làm người được giao."
+>>>>>>> upstream/18.0
 
 #. module: project_todo
 #: model:ir.model.fields,field_description:project_todo.field_mail_activity_todo_create__write_uid

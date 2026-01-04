@@ -1,14 +1,22 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* mail_plugin
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
 # 
+=======
+#
+# Translators:
+# Wil Odoo, 2024
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Wil Odoo, 2024\n"
@@ -17,6 +25,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: th\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Wil Odoo, 2024\n"
+"Language-Team: Thai (https://app.transifex.com/odoo/teams/41243/th/)\n"
+"Language: th\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+>>>>>>> upstream/18.0
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: mail_plugin
@@ -70,9 +88,13 @@ msgstr "รายได้ประจำปี"
 msgid ""
 "Attachments could not be logged in Odoo because their total size exceeded "
 "the allowed maximum."
+<<<<<<< HEAD
 msgstr ""
 "ไม่สามารถบันทึกสิ่งที่แนบมาใน Odoo "
 "ได้เนื่องจากขนาดรวมเกินขนาดสูงสุดที่อนุญาต"
+=======
+msgstr "ไม่สามารถบันทึกสิ่งที่แนบมาใน Odoo ได้เนื่องจากขนาดรวมเกินขนาดสูงสุดที่อนุญาต"
+>>>>>>> upstream/18.0
 
 #. module: mail_plugin
 #. odoo-python
@@ -177,9 +199,13 @@ msgstr "พบผู้ติดต่อ (%(count)s)"
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_outlook.xml:0
 msgid "Could not autocomplete the company. Internal error. Try again later..."
+<<<<<<< HEAD
 msgstr ""
 "ไม่สามารถเติมข้อมูลบริษัทอัตโนมัติได้ เกิดข้อผิดพลาดภายใน "
 "ลองอีกครั้งในภายหลัง..."
+=======
+msgstr "ไม่สามารถเติมข้อมูลบริษัทอัตโนมัติได้ เกิดข้อผิดพลาดภายใน ลองอีกครั้งในภายหลัง..."
+>>>>>>> upstream/18.0
 
 #. module: mail_plugin
 #. odoo-javascript
@@ -454,8 +480,12 @@ msgstr "ไม่มีบริษัทใดที่เชื่อมโย
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_outlook.xml:0
 msgid "No company linked to this contact could be enriched or found in Odoo"
+<<<<<<< HEAD
 msgstr ""
 "ไม่มีบริษัทใดที่เชื่อมโยงกับผู้ติดต่อรายนี้สามารถเติมเต็มหรือพบได้ใน Odoo"
+=======
+msgstr "ไม่มีบริษัทใดที่เชื่อมโยงกับผู้ติดต่อรายนี้สามารถเติมเต็มหรือพบได้ใน Odoo"
+>>>>>>> upstream/18.0
 
 #. module: mail_plugin
 #. odoo-javascript
@@ -522,9 +552,13 @@ msgstr "อนุญาตให้มี IAP พาร์ทเนอร์เ�
 msgid ""
 "Oops, looks like you have exhausted your free enrichment requests. Please "
 "log in to try again."
+<<<<<<< HEAD
 msgstr ""
 "อ๊ะ ดูเหมือนว่าคุณได้ใช้ คำขอเติมเต็มข้อมูลฟรี ของคุณหมดแล้ว "
 "กรุณาเข้าสู่ระบบเพื่อลองอีกครั้ง"
+=======
+msgstr "อ๊ะ ดูเหมือนว่าคุณได้ใช้ คำขอเติมเต็มข้อมูลฟรี ของคุณหมดแล้ว กรุณาเข้าสู่ระบบเพื่อลองอีกครั้ง"
+>>>>>>> upstream/18.0
 
 #. module: mail_plugin
 #. odoo-javascript
@@ -676,9 +710,13 @@ msgstr "ผู้ติดต่อรายนี้ไม่มีที่อ
 msgid ""
 "This is your notification address. Search the Contact manually to link this "
 "email to a record."
+<<<<<<< HEAD
 msgstr ""
 "นี่คือที่อยู่การแจ้งเตือนของคุณ "
 "ค้นหาผู้ติดต่อด้วยตนเองเพื่อเชื่อมโยงอีเมลนี้กับบันทึก"
+=======
+msgstr "นี่คือที่อยู่การแจ้งเตือนของคุณ ค้นหาผู้ติดต่อด้วยตนเองเพื่อเชื่อมโยงอีเมลนี้กับบันทึก"
+>>>>>>> upstream/18.0
 
 #. module: mail_plugin
 #. odoo-python
@@ -692,9 +730,13 @@ msgstr "ไม่มีพาร์ทเนอร์รายนี้"
 msgid ""
 "Warning: Attachments could not be logged in Odoo because their total size "
 "exceeded the allowed maximum."
+<<<<<<< HEAD
 msgstr ""
 "คำเตือน: ไม่สามารถบันทึกไฟล์แนบใน Odoo ได้ "
 "เนื่องจากขนาดรวมเกินขนาดสูงสุดที่อนุญาต"
+=======
+msgstr "คำเตือน: ไม่สามารถบันทึกไฟล์แนบใน Odoo ได้ เนื่องจากขนาดรวมเกินขนาดสูงสุดที่อนุญาต"
+>>>>>>> upstream/18.0
 
 #. module: mail_plugin
 #. odoo-javascript
@@ -703,8 +745,13 @@ msgid ""
 "Warning: Could not fetch the attachments %(attachments)s as their sizes are "
 "bigger then the maximum size of %(size)sMB per each attachment."
 msgstr ""
+<<<<<<< HEAD
 "คำเตือน: ไม่สามารถดึงไฟล์แนบ %(attachments)s ได้ "
 "เนื่องจากมีขนาดใหญ่กว่าขนาดสูงสุด %(size)sMB ต่อไฟล์แนบแต่ละไฟล์"
+=======
+"คำเตือน: ไม่สามารถดึงไฟล์แนบ %(attachments)s ได้ เนื่องจากมีขนาดใหญ่กว่าขนาดสูงสุด %"
+"(size)sMB ต่อไฟล์แนบแต่ละไฟล์"
+>>>>>>> upstream/18.0
 
 #. module: mail_plugin
 #. odoo-javascript

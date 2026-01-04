@@ -158,6 +158,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { expectElementCount } from "./_helpers/ui_expectations";
+>>>>>>> upstream/18.0
 =======
 import { expectElementCount } from "./_helpers/ui_expectations";
 >>>>>>> upstream/18.0
@@ -756,7 +760,11 @@ describe("Wysiwyg Component", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(".o-we-toolbar").toHaveCount(0);
+=======
+        await expectElementCount(".o-we-toolbar", 0);
+>>>>>>> upstream/18.0
 =======
         await expectElementCount(".o-we-toolbar", 0);
 >>>>>>> upstream/18.0
@@ -1355,7 +1363,11 @@ describe("Wysiwyg Component", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(".o-we-toolbar").toHaveCount(1);
+=======
+        await expectElementCount(".o-we-toolbar", 1);
+>>>>>>> upstream/18.0
 =======
         await expectElementCount(".o-we-toolbar", 1);
 >>>>>>> upstream/18.0
@@ -1958,6 +1970,7 @@ describe("Wysiwyg Component", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(".o-we-toolbar").toHaveCount(0);
         await setupWysiwyg({ toolbar: true });
         expect(".o-wysiwyg").toHaveCount(1);
@@ -1972,6 +1985,8 @@ describe("Wysiwyg Component", () => {
         expect(".odoo-editor-editable").toHaveCount(1);
         expect(".o-we-toolbar").toHaveCount(0);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2426,6 +2441,9 @@ describe("Wysiwyg Component", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

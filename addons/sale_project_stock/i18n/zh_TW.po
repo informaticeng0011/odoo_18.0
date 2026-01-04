@@ -1,15 +1,24 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* sale_project_stock
+<<<<<<< HEAD
 # 
 # Translators:
 # Tony Ng, 2024
 # Wil Odoo, 2025
 # 
+=======
+#
+# Translators:
+# Tony Ng, 2024
+# Wil Odoo, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-01-27 13:04+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Wil Odoo, 2025\n"
@@ -18,6 +27,17 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: zh_TW\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Wil Odoo, 2025\n"
+"Language-Team: Chinese (Taiwan) (https://app.transifex.com/odoo/teams/41243/"
+"zh_TW/)\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+>>>>>>> upstream/18.0
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: sale_project_stock
@@ -46,7 +66,13 @@ msgstr "庫存移動"
 msgid ""
 "The Sales Order %(order)s linked to the Project %(project)s is cancelled. "
 "You cannot validate a stock picking on a cancelled Sales Order."
+<<<<<<< HEAD
 msgstr "連結至專案 %(project)s 的銷售單 %(order)s 已取消。你不可驗證已取消銷售單的庫存提取。"
+=======
+msgstr ""
+"連結至專案 %(project)s 的銷售單 %(order)s 已取消。你不可驗證已取消銷售單的庫"
+"存提取。"
+>>>>>>> upstream/18.0
 
 #. module: sale_project_stock
 #. odoo-python
@@ -56,7 +82,12 @@ msgid ""
 "locked. You cannot validate a stock picking on a locked Sales Order. Please "
 "create a new SO linked to this Project."
 msgstr ""
+<<<<<<< HEAD
 "連結至專案 %(project)s 的銷售單 %(order)s 目前已鎖定。你不可驗證已鎖定銷售單的庫存提取。請建立一張連結至該專案的新銷售單。"
+=======
+"連結至專案 %(project)s 的銷售單 %(order)s 目前已鎖定。你不可驗證已鎖定銷售單"
+"的庫存提取。請建立一張連結至該專案的新銷售單。"
+>>>>>>> upstream/18.0
 
 #. module: sale_project_stock
 #. odoo-python
@@ -64,13 +95,23 @@ msgstr ""
 msgid ""
 "The Sales Order %(order)s linked to the Project %(project)s must be "
 "validated before validating the stock picking."
+<<<<<<< HEAD
 msgstr "驗證庫存提取之前，必須先驗證連結至專案 %(project)s 的銷售單 %(order)s。"
+=======
+msgstr ""
+"驗證庫存提取之前，必須先驗證連結至專案 %(project)s 的銷售單 %(order)s。"
+>>>>>>> upstream/18.0
 
 #. module: sale_project_stock
 #: model_terms:ir.actions.act_window,help:sale_project_stock.stock_move_per_sale_order_line_action
 msgid ""
 "This menu gives you the full traceability of inventory\n"
+<<<<<<< HEAD
 "                operations on a specific product. You can filter on the product\n"
+=======
+"                operations on a specific product. You can filter on the "
+"product\n"
+>>>>>>> upstream/18.0
 "                to see all the past or future movements for the product."
 msgstr ""
 "此選單能讓您完整的追蹤某一特定產品的盤點\n"

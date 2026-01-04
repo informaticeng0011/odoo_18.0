@@ -4,6 +4,10 @@ from odoo.tools import html2plaintext
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.tools.float_utils import float_round
+>>>>>>> upstream/18.0
 =======
 from odoo.tools.float_utils import float_round
 >>>>>>> upstream/18.0
@@ -265,7 +269,10 @@ class AccountEdiXmlOIOUBL21(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -302,6 +309,9 @@ class AccountEdiXmlOIOUBL21(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

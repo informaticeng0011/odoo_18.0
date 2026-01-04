@@ -1,18 +1,27 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* website_event_booth
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Ákos Nagy <akos.nagy@oregional.hu>, 2024
 # Martin Trigaux, 2024
 # gezza <geza.nagy@oregional.hu>, 2024
 # krnkris, 2024
 # Tamás Németh <ntomasz81@gmail.com>, 2024
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 "Last-Translator: Tamás Németh <ntomasz81@gmail.com>, 2024\n"
@@ -21,12 +30,27 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: hu\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:38+0000\n"
+"PO-Revision-Date: 2024-09-25 09:42+0000\n"
+"Last-Translator: Tamás Németh <ntomasz81@gmail.com>, 2024\n"
+"Language-Team: Hungarian (https://app.transifex.com/odoo/teams/41243/hu/)\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+>>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: website_event_booth
 #: model_terms:ir.ui.view,arch_db:website_event_booth.event_booth_registration_details
 msgid ""
+<<<<<<< HEAD
 "<i class=\"fa fa-exclamation-triangle me-2\" role=\"img\" aria-label=\"Error\" title=\"Error\"/>\n"
+=======
+"<i class=\"fa fa-exclamation-triangle me-2\" role=\"img\" aria-"
+"label=\"Error\" title=\"Error\"/>\n"
+>>>>>>> upstream/18.0
 "                    <span class=\"o_wbooth_registration_error_message\"/>"
 msgstr ""
 
@@ -34,7 +58,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_event_booth.event_booth_registration
 msgid ""
 "<i class=\"fa fa-exclamation-triangle\"/>\n"
+<<<<<<< HEAD
 "                                        <span>Sorry, several booths are now sold out. Please change your choices before validating again.</span>"
+=======
+"                                        <span>Sorry, several booths are now "
+"sold out. Please change your choices before validating again.</span>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: website_event_booth
@@ -187,14 +216,26 @@ msgstr "Menjen vissza"
 
 #. module: website_event_booth
 #. odoo-javascript
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:website_event_booth.event_booth_layout
 #: code:addons/website_event_booth/static/src/js/booth_register.js:0
 #, python-format
+=======
+#: code:addons/website_event_booth/static/src/js/booth_register.js:0
+>>>>>>> upstream/18.0
 msgid "It looks like your email is linked to an existing account."
 msgstr ""
 
 #. module: website_event_booth
 #: model_terms:ir.ui.view,arch_db:website_event_booth.event_booth_layout
+<<<<<<< HEAD
+=======
+msgid "It's no longer possible to book a booth."
+msgstr ""
+
+#. module: website_event_booth
+#: model_terms:ir.ui.view,arch_db:website_event_booth.event_booth_layout
+>>>>>>> upstream/18.0
 msgid "Link to list of future events"
 msgstr ""
 

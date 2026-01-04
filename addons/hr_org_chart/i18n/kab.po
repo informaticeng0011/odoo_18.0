@@ -39,6 +39,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
@@ -148,6 +152,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2023-01-17 08:01+0000\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -363,6 +368,13 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2025-12-31 16:38+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Kabyle <https://translate.odoo.com/projects/odoo-18/"
+"hr_org_chart/kab/>\n"
+>>>>>>> upstream/18.0
 "Language: kab\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -403,6 +415,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "X-Generator: Weblate 5.12.2\n"
 >>>>>>> upstream/18.0
@@ -507,6 +520,19 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 "X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.14.3\n"
+
+#. module: hr_org_chart
+#: model_terms:ir.ui.view,arch_db:hr_org_chart.hr_employee_view_form_inherit_org_chart
+msgid "<span class=\"o_stat_text\">Org Chart</span>"
+msgstr ""
+
+#. module: hr_org_chart
+#: model_terms:ir.actions.act_window,help:hr_org_chart.action_hr_employee_org_chart
+msgid "Add a new employee"
+msgstr ""
 >>>>>>> upstream/18.0
 
 #. module: hr_org_chart
@@ -515,6 +541,23 @@ msgid "Basic Employee"
 msgstr ""
 
 #. module: hr_org_chart
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:hr_org_chart.field_hr_employee__department_color
+#: model:ir.model.fields,field_description:hr_org_chart.field_hr_employee_base__department_color
+#: model:ir.model.fields,field_description:hr_org_chart.field_hr_employee_public__department_color
+msgid "Department Color"
+msgstr ""
+
+#. module: hr_org_chart
+#: model:ir.model.fields,field_description:hr_org_chart.field_hr_employee__child_count
+#: model:ir.model.fields,field_description:hr_org_chart.field_hr_employee_base__child_count
+#: model:ir.model.fields,field_description:hr_org_chart.field_hr_employee_public__child_count
+msgid "Direct Subordinates Count"
+msgstr ""
+
+#. module: hr_org_chart
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:hr_org_chart.field_hr_employee__subordinate_ids
 #: model:ir.model.fields,help:hr_org_chart.field_hr_employee_public__subordinate_ids
 msgid "Direct and indirect subordinates"
@@ -564,6 +607,7 @@ msgid "Employee"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Amaris"
@@ -669,6 +713,14 @@ msgstr "Amaris"
 >>>>>>> upstream/18.0
 =======
 msgstr "Amaris"
+>>>>>>> upstream/18.0
+=======
+msgstr "Amaris"
+
+#. module: hr_org_chart
+#: model_terms:ir.ui.view,arch_db:hr_org_chart.hr_department_hierarchy_view
+msgid "Employees"
+msgstr "Imuras"
 >>>>>>> upstream/18.0
 
 #. module: hr_org_chart
@@ -678,6 +730,17 @@ msgid "In order to get an organigram, set a manager and save the record."
 msgstr ""
 
 #. module: hr_org_chart
+<<<<<<< HEAD
+=======
+#. odoo-javascript
+#: code:addons/hr_org_chart/static/src/views/hr_employee_hierarchy/hr_employee_hierarchy_controller.xml:0
+msgid ""
+"In the Organigram you will have a clear overview of the hierarchy of "
+"employees."
+msgstr ""
+
+#. module: hr_org_chart
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:hr_org_chart.field_hr_employee__child_all_count
 #: model:ir.model.fields,field_description:hr_org_chart.field_hr_employee_base__child_all_count
 #: model:ir.model.fields,field_description:hr_org_chart.field_hr_employee_public__child_all_count
@@ -704,6 +767,15 @@ msgstr ""
 
 #. module: hr_org_chart
 #. odoo-javascript
+<<<<<<< HEAD
+=======
+#: code:addons/hr_org_chart/static/src/views/hr_employee_hierarchy/hr_employee_hierarchy_controller.xml:0
+msgid "No Data"
+msgstr ""
+
+#. module: hr_org_chart
+#. odoo-javascript
+>>>>>>> upstream/18.0
 #: code:addons/hr_org_chart/static/src/fields/hr_org_chart.xml:0
 msgid "No hierarchy position."
 msgstr ""
@@ -715,6 +787,15 @@ msgid "Operation not supported"
 msgstr ""
 
 #. module: hr_org_chart
+<<<<<<< HEAD
+=======
+#: model:ir.actions.act_window,name:hr_org_chart.action_hr_employee_org_chart
+#: model:ir.ui.menu,name:hr_org_chart.menu_hr_employee_org_chart
+msgid "Org Chart"
+msgstr ""
+
+#. module: hr_org_chart
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:hr_org_chart.hr_employee_public_view_form_inherit_org_chart
 #: model_terms:ir.ui.view,arch_db:hr_org_chart.hr_employee_view_form_inherit_org_chart
 #: model_terms:ir.ui.view,arch_db:hr_org_chart.res_users_view_form
@@ -727,6 +808,16 @@ msgid "Public Employee"
 msgstr ""
 
 #. module: hr_org_chart
+<<<<<<< HEAD
+=======
+#: model_terms:ir.actions.act_window,help:hr_org_chart.action_hr_employee_org_chart
+msgid ""
+"Quickly find all the information you need for your employees such as contact "
+"data, job position, availability, etc."
+msgstr ""
+
+#. module: hr_org_chart
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/hr_org_chart/static/src/fields/hr_org_chart.xml:0
 msgid "Redirect"
@@ -746,7 +837,11 @@ msgstr ""
 
 #. module: hr_org_chart
 #. odoo-javascript
+<<<<<<< HEAD
 #: code:addons/hr_org_chart/static/src/fields/hr_org_chart.js:0
+=======
+#: code:addons/hr_org_chart/static/src/fields/hooks.js:0
+>>>>>>> upstream/18.0
 msgid "Team"
 msgstr ""
 
@@ -761,3 +856,12 @@ msgstr ""
 #: code:addons/hr_org_chart/static/src/fields/hr_org_chart.xml:0
 msgid "Total"
 msgstr "Asemday"
+<<<<<<< HEAD
+=======
+
+#. module: hr_org_chart
+#. odoo-javascript
+#: code:addons/hr_org_chart/static/src/views/hr_employee_hierarchy/hr_employee_hierarchy_card.xml:0
+msgid "people"
+msgstr ""
+>>>>>>> upstream/18.0

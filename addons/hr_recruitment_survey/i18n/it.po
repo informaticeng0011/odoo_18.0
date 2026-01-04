@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* hr_recruitment_survey
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
@@ -462,10 +463,19 @@
 # Sergio Zanchetta <primes2h@gmail.com>, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+#
+# Translators:
+# Wil Odoo, 2024
+# Marianna Ciofani, 2025
+# Sergio Zanchetta <primes2h@gmail.com>, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-12-16 13:40+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
@@ -931,28 +941,62 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: it\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Sergio Zanchetta <primes2h@gmail.com>, 2025\n"
+"Language-Team: Italian (https://app.transifex.com/odoo/teams/41243/it/)\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? "
+"1 : 2;\n"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment_survey
 #: model:mail.template,body_html:hr_recruitment_survey.mail_template_applicant_interview_invite
 msgid ""
 "<div style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
+<<<<<<< HEAD
 "        Dear <t t-out=\"object.partner_id.name or 'applicant'\">[applicant name]</t><br/><br/>\n"
 "        <t>\n"
 "            You've progressed through the recruitment process and we would like you to answer some questions.\n"
 "        </t>\n"
 "        </p><div style=\"margin: 16px 0px 16px 0px;\">\n"
 "            <a t-att-href=\"(object.get_start_url())\" style=\"background-color: #875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px; font-size:13px;\">\n"
+=======
+"        Dear <t t-out=\"object.partner_id.name or 'applicant'\">[applicant "
+"name]</t><br/><br/>\n"
+"        <t>\n"
+"            You've progressed through the recruitment process and we would "
+"like you to answer some questions.\n"
+"        </t>\n"
+"        </p><div style=\"margin: 16px 0px 16px 0px;\">\n"
+"            <a t-att-href=\"(object.get_start_url())\" style=\"background-"
+"color: #875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: "
+"#fff; border-radius: 5px; font-size:13px;\">\n"
+>>>>>>> upstream/18.0
 "                <t>\n"
 "                    Start the written interview\n"
 "                </t>\n"
 "            </a>\n"
 "        </div>\n"
 "        <t t-if=\"object.deadline\">\n"
+<<<<<<< HEAD
 "            Please answer the interview for <t t-out=\"format_date(object.deadline)\">[deadline date]</t>.<br/><br/>\n"
 "        </t>\n"
 "        <t>\n"
 "            We wish you good luck! Thank you in advance for your participation.\n"
+=======
+"            Please answer the interview for <t t-"
+"out=\"format_date(object.deadline)\">[deadline date]</t>.<br/><br/>\n"
+"        </t>\n"
+"        <t>\n"
+"            We wish you good luck! Thank you in advance for your "
+"participation.\n"
+>>>>>>> upstream/18.0
 "        </t>\n"
 "    \n"
 "</div>\n"
@@ -960,19 +1004,37 @@ msgid ""
 msgstr ""
 "<div style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
+<<<<<<< HEAD
 "        Gentile <t t-out=\"object.partner_id.name or 'applicant'\">[nome candidato]</t><br/><br/>\n"
 "        <t>\n"
 "            il processo di assunzione prosegue e desideriamo che tu risponda ad alcune domande.\n"
 "        </t>\n"
 "        </p><div style=\"margin: 16px 0px 16px 0px;\">\n"
 "            <a t-att-href=\"(object.get_start_url())\" style=\"background-color: #875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px; font-size:13px;\">\n"
+=======
+"        Gentile <t t-out=\"object.partner_id.name or 'applicant'\">[nome "
+"candidato]</t><br/><br/>\n"
+"        <t>\n"
+"            il processo di assunzione prosegue e desideriamo che tu risponda "
+"ad alcune domande.\n"
+"        </t>\n"
+"        </p><div style=\"margin: 16px 0px 16px 0px;\">\n"
+"            <a t-att-href=\"(object.get_start_url())\" style=\"background-"
+"color: #875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: "
+"#fff; border-radius: 5px; font-size:13px;\">\n"
+>>>>>>> upstream/18.0
 "                <t>\n"
 "                    Inizia il colloquio scritto\n"
 "                </t>\n"
 "            </a>\n"
 "        </div>\n"
 "        <t t-if=\"object.deadline\">\n"
+<<<<<<< HEAD
 "            Per favore rispondi alle domande entro il <t t-out=\"format_date(object.deadline)\">[data limite]</t>.<br/><br/>\n"
+=======
+"            Per favore rispondi alle domande entro il <t t-"
+"out=\"format_date(object.deadline)\">[data limite]</t>.<br/><br/>\n"
+>>>>>>> upstream/18.0
 "        </t>\n"
 "        <t>\n"
 "            Buona fortuna! Grazie in anticipo per la partecipazione.\n"
@@ -1026,8 +1088,13 @@ msgstr "Candidato_ colloquio"
 #: model:ir.model.fields,help:hr_recruitment_survey.field_hr_applicant__survey_id
 #: model:ir.model.fields,help:hr_recruitment_survey.field_hr_job__survey_id
 msgid ""
+<<<<<<< HEAD
 "Choose an interview form for this job position and you will be able to "
 "print/answer this interview from all applicants who apply for this job"
+=======
+"Choose an interview form for this job position and you will be able to print/"
+"answer this interview from all applicants who apply for this job"
+>>>>>>> upstream/18.0
 msgstr ""
 "Scegliere una scheda colloquio per la posizione lavorativa, in modo da  "
 "poter stampare/rispondere a tutti i colloqui dei candidati al lavoro"
@@ -1169,8 +1236,12 @@ msgid "Getting perks such as free parking, gym passes"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Ottenere vantaggi come il parcheggio gratuito, tessere per la palestra"
+=======
+msgstr "Ottenere gratifiche come parcheggi gratuiti, abbonamenti palestra"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ottenere gratifiche come parcheggi gratuiti, abbonamenti palestra"
 >>>>>>> upstream/18.0
@@ -1681,7 +1752,11 @@ msgid "Knowledge"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Knowledge"
+=======
+msgstr "Preparazione"
+>>>>>>> upstream/18.0
 =======
 msgstr "Preparazione"
 >>>>>>> upstream/18.0
@@ -2142,7 +2217,11 @@ msgid "Management quality"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Qualità Management"
+=======
+msgstr "Qualità della dirigenza"
+>>>>>>> upstream/18.0
 =======
 msgstr "Qualità della dirigenza"
 >>>>>>> upstream/18.0
@@ -2512,6 +2591,7 @@ msgid ""
 "Please answer those questions to help recruitment officers to preprocess "
 "your application."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3084,10 +3164,15 @@ msgstr ""
 "È pregato di rispondere a queste domande per aiutare gli addetti alla "
 "selezione del personale a elaborare preventivamente la candidatura."
 >>>>>>> upstream/18.0
+=======
+"È pregato di rispondere a queste domande per aiutare gli addetti alla "
+"selezione del personale a elaborare preventivamente la candidatura."
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment_survey
 #: model_terms:survey.question,description:hr_recruitment_survey.survey_recruitment_form_p1
 msgid ""
+<<<<<<< HEAD
 "Please fill information about you: who you are, what are your education, experience, and activities.\n"
 "    It will help us managing your application."
 msgstr ""
@@ -3663,6 +3748,15 @@ msgstr ""
 "Compilare le seguenti informazioni: dati personali, istruzione, esperienza e attività.\n"
 "    Ci aiuta a gestire la candidatura."
 >>>>>>> upstream/18.0
+=======
+"Please fill information about you: who you are, what are your education, "
+"experience, and activities.\n"
+"    It will help us managing your application."
+msgstr ""
+"Compilare le seguenti informazioni: dati personali, istruzione, esperienza e "
+"attività.\n"
+"    Ci aiuta a gestire la candidatura."
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment_survey
 #. odoo-python
@@ -3789,9 +3883,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Raccontaci il tuo percorso di studi: dove hai studiato, in quali istituti, "
 "titoli conseguiti..."
+=======
+msgstr "Riassumere il proprio percorso di studi: scuole, luoghi, diplomi..."
+>>>>>>> upstream/18.0
 =======
 msgstr "Riassumere il proprio percorso di studi: scuole, luoghi, diplomi..."
 >>>>>>> upstream/18.0
@@ -4253,7 +4351,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Raccontaci di più sul tuo conto: attività principali..."
+=======
+msgstr "Approfondimenti personali: attività principali..."
+>>>>>>> upstream/18.0
 =======
 msgstr "Approfondimenti personali: attività principali..."
 >>>>>>> upstream/18.0
@@ -4719,7 +4821,11 @@ msgid "Recruitment Form"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Modulo di assunzione"
+=======
+msgstr "Modulo di selezione"
+>>>>>>> upstream/18.0
 =======
 msgstr "Modulo di selezione"
 >>>>>>> upstream/18.0
@@ -5185,7 +5291,11 @@ msgid "See interview report"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Vedere il rapporto dell'intervista"
+=======
+msgstr "Vedi resoconto colloquio"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vedi resoconto colloquio"
 >>>>>>> upstream/18.0
@@ -5702,7 +5812,11 @@ msgid "Were you referred by an employee?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Sei stato segnalato da un dipendente ?"
+=======
+msgstr "È stato segnalato da un dipendente ?"
+>>>>>>> upstream/18.0
 =======
 msgstr "È stato segnalato da un dipendente ?"
 >>>>>>> upstream/18.0
@@ -6072,5 +6186,10 @@ msgid ""
 "You can create surveys used for recruitments. Design easily your interview,\n"
 "                send invitations and analyze answers."
 msgstr ""
+<<<<<<< HEAD
 "Puoi creare sondaggi utilizzati per i processi di assunzione. Progetta facilmente il colloquio,\n"
+=======
+"Puoi creare sondaggi utilizzati per i processi di assunzione. Progetta "
+"facilmente il colloquio,\n"
+>>>>>>> upstream/18.0
 "                invia inviti e analizza le risposte."

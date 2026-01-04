@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* sale_mrp
+<<<<<<< HEAD
 # 
 # Translators:
 # Martin Trigaux, 2024
@@ -462,10 +463,19 @@
 # Kira Petersen, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+#
+# Translators:
+# Martin Trigaux, 2024
+# Sanne Kristensen <sanne@vkdata.dk>, 2024
+# Kira Petersen, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
@@ -930,6 +940,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: da\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Kira Petersen, 2025\n"
+"Language-Team: Danish (https://app.transifex.com/odoo/teams/41243/da/)\n"
+"Language: da\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+>>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: sale_mrp
@@ -1049,7 +1069,11 @@ msgid "<i class=\"fa fa-fw fa-check\"/> <b>Manufactured</b>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-fw fa-check\"/> <b>Produceret</b>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-fw fa-check\"/> <b>Produceret</b>"
 >>>>>>> upstream/18.0
@@ -1515,7 +1539,11 @@ msgid "<i class=\"fa fa-fw fa-clock-o\"/> <b>In progress</b>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-fw fa-clock-o\"/> <b>Under forberedelse</b>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-fw fa-clock-o\"/> <b>Under forberedelse</b>"
 >>>>>>> upstream/18.0
@@ -1991,7 +2019,11 @@ msgid "<strong>Manufacturing Orders</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Produktionsordrer</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Produktionsordrer</strong>"
 >>>>>>> upstream/18.0
@@ -2339,6 +2371,7 @@ msgstr "<strong>Produktionsordrer</strong>"
 #. odoo-python
 #: code:addons/sale_mrp/models/mrp_bom.py:0
 msgid ""
+<<<<<<< HEAD
 "As long as there are some sale order lines that must be delivered/invoiced and are related to these bills of materials, you can not remove them.\n"
 "The error concerns these products: %s"
 msgstr ""
@@ -2912,6 +2945,15 @@ msgstr ""
 "Du kan ikke fjerne disse styklister, så længe der er salgsordrelinjer, der endnu ikke er leveret eller faktureret, og som er knyttet til dem.\n"
 "Fejlen vedrører følgende produkter: %s"
 >>>>>>> upstream/18.0
+=======
+"As long as there are some sale order lines that must be delivered/invoiced "
+"and are related to these bills of materials, you can not remove them.\n"
+"The error concerns these products: %s"
+msgstr ""
+"Du kan ikke fjerne disse styklister, så længe der er salgsordrelinjer, der "
+"endnu ikke er leveret eller faktureret, og som er knyttet til dem.\n"
+"Fejlen vedrører følgende produkter: %s"
+>>>>>>> upstream/18.0
 
 #. module: sale_mrp
 #: model:ir.model,name:sale_mrp.model_mrp_bom
@@ -3066,7 +3108,11 @@ msgid "Manufacturing orders associated with this sales order."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Produktionsordrer tilknyttet denne salgsordre."
+>>>>>>> upstream/18.0
 =======
 msgstr "Produktionsordrer tilknyttet denne salgsordre."
 >>>>>>> upstream/18.0
@@ -3527,7 +3573,11 @@ msgid "Origin sale order line"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Oprindelige salgsordrelinje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Oprindelige salgsordrelinje"
 >>>>>>> upstream/18.0

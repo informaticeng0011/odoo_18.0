@@ -114,12 +114,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* calendar_sms
 #
 # Translators:
 # Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>, 2022
 #
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -463,6 +466,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -694,6 +700,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2023-05-16 13:49+0000\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1046,6 +1053,9 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-08-08 07:47+0000\n"
 "Last-Translator: Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>\n"
 "Language-Team: Serbian (Latin script) <https://translate.odoo.com/projects/"
@@ -1170,6 +1180,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1427,6 +1440,7 @@ msgstr "Podsetnik događaja: %(name)s, %(time)s."
 #. module: calendar_sms
 #: model:sms.template,body:calendar_sms.sms_template_data_calendar_reminder
 msgid ""
+<<<<<<< HEAD
 "Event reminder: {{ object.name }}, {{ object.get_display_time_tz(object."
 "partner_id.tz) }}"
 msgstr ""
@@ -2000,12 +2014,20 @@ msgstr ""
 "Podsetnik na događaj: {{ object.name }}, {{ "
 "object.get_display_time_tz(object.partner_id.tz) }}"
 >>>>>>> upstream/18.0
+=======
+"Event reminder: {{ object.name }}, "
+"{{ object.get_display_time_tz(object.partner_id.tz) }}"
+msgstr ""
+"Podsetnik na događaj: {{ object.name }}, "
+"{{ object.get_display_time_tz(object.partner_id.tz) }}"
+>>>>>>> upstream/18.0
 
 #. module: calendar_sms
 #. odoo-python
 #: code:addons/calendar_sms/models/calendar_alarm.py:0
 #: model:ir.model.fields,field_description:calendar_sms.field_calendar_alarm__sms_notify_responsible
 msgid "Notify Responsible"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2463,6 +2485,9 @@ msgstr "Obavesti odgovorno lice"
 =======
 msgstr "Obavesti odgovorno lice"
 >>>>>>> upstream/18.0
+=======
+msgstr "Obavesti odgovorno lice"
+>>>>>>> upstream/18.0
 
 #. module: calendar_sms
 #: model_terms:ir.ui.view,arch_db:calendar_sms.view_calendar_event_form_inherited
@@ -2480,17 +2505,25 @@ msgid "SMS Text Message"
 msgstr "SMS poruka"
 
 #. module: calendar_sms
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/calendar_sms/models/calendar_event.py:0
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:calendar_sms.view_calendar_event_tree_inherited
 msgid "Send SMS"
 msgstr "Šalji SMS"
 
 #. module: calendar_sms
+<<<<<<< HEAD
 #. odoo-python
 #: code:addons/calendar_sms/models/calendar_event.py:0
 msgid "Send SMS Text Message"
 msgstr "Pošalji SMS poruku"
 
 #. module: calendar_sms
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:calendar_sms.view_calendar_event_form_inherited
 msgid "Send SMS to attendees"
 msgstr "Šalji SMS učesnicima"
@@ -2510,3 +2543,9 @@ msgstr "Na ovim događajima nema učesnika"
 #: model:ir.model.fields,field_description:calendar_sms.field_calendar_alarm__alarm_type
 msgid "Type"
 msgstr "Vrsta"
+<<<<<<< HEAD
+=======
+
+#~ msgid "Send SMS Text Message"
+#~ msgstr "Pošalji SMS poruku"
+>>>>>>> upstream/18.0

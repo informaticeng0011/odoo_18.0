@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* sale_project_stock
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2025
@@ -461,10 +462,18 @@
 # Anastasiia Koroleva, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+#
+# Translators:
+# Wil Odoo, 2025
+# Anastasiia Koroleva, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-01-27 13:04+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
@@ -930,6 +939,19 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: ru\n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Anastasiia Koroleva, 2025\n"
+"Language-Team: Russian (https://app.transifex.com/odoo/teams/41243/ru/)\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
+"(n%100>=11 && n%100<=14)? 2 : 3);\n"
+>>>>>>> upstream/18.0
 
 #. module: sale_project_stock
 #: model_terms:ir.actions.act_window,help:sale_project_stock.stock_move_per_sale_order_line_action
@@ -1072,6 +1094,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "Заказ на продажу %(order)s, связанный с проектом %(project)s, отменен. Вы не"
 " можете подтвердить складскую операцию по отмененному заказу."
@@ -1527,6 +1550,10 @@ msgstr ""
 =======
 "Заказ на продажу %(order)s, связанный с проектом %(project)s, отменен. Вы не"
 " можете подтвердить складскую операцию по отмененному заказу."
+>>>>>>> upstream/18.0
+=======
+"Заказ на продажу %(order)s, связанный с проектом %(project)s, отменен. Вы не "
+"можете подтвердить складскую операцию по отмененному заказу."
 >>>>>>> upstream/18.0
 
 #. module: sale_project_stock
@@ -1651,6 +1678,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "Заказ на продажу %(order)s, связанный с проектом %(project)s, заблокирован. "
 "Невозможно подтвердить складскую операцию. Пожалуйста, создайте новый заказ,"
@@ -2220,6 +2248,11 @@ msgstr ""
 "Заказ на продажу %(order)s, связанный с проектом %(project)s, заблокирован. "
 "Невозможно подтвердить складскую операцию. Пожалуйста, создайте новый заказ,"
 " связанный с этим проектом."
+>>>>>>> upstream/18.0
+=======
+"Заказ на продажу %(order)s, связанный с проектом %(project)s, заблокирован. "
+"Невозможно подтвердить складскую операцию. Пожалуйста, создайте новый заказ, "
+"связанный с этим проектом."
 >>>>>>> upstream/18.0
 
 #. module: sale_project_stock
@@ -2343,6 +2376,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Заказ на продажу %(order)s, связанный с проектом %(project)s, должен быть "
+"подтвержден до подтверждения складской операции."
+>>>>>>> upstream/18.0
 =======
 "Заказ на продажу %(order)s, связанный с проектом %(project)s, должен быть "
 "подтвержден до подтверждения складской операции."
@@ -2804,11 +2842,21 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:sale_project_stock.stock_move_per_sale_order_line_action
 msgid ""
 "This menu gives you the full traceability of inventory\n"
+<<<<<<< HEAD
 "                operations on a specific product. You can filter on the product\n"
 "                to see all the past or future movements for the product."
 msgstr ""
 "Это меню позволяет вам полностью отслеживать складские\n"
 "                операции по конкретному продукту. Вы можете отфильтровать продукт,\n"
+=======
+"                operations on a specific product. You can filter on the "
+"product\n"
+"                to see all the past or future movements for the product."
+msgstr ""
+"Это меню позволяет вам полностью отслеживать складские\n"
+"                операции по конкретному продукту. Вы можете отфильтровать "
+"продукт,\n"
+>>>>>>> upstream/18.0
 "                чтобы увидеть все прошлые или будущие движения продукта."
 
 #. module: sale_project_stock

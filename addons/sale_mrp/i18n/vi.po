@@ -1,15 +1,24 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* sale_mrp
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
 # Thi Huong Nguyen, 2024
 # 
+=======
+#
+# Translators:
+# Wil Odoo, 2024
+# Thi Huong Nguyen, 2024
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Thi Huong Nguyen, 2024\n"
@@ -18,6 +27,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: vi\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Thi Huong Nguyen, 2024\n"
+"Language-Team: Vietnamese (https://app.transifex.com/odoo/teams/41243/vi/)\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+>>>>>>> upstream/18.0
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: sale_mrp
@@ -59,10 +78,19 @@ msgstr "<strong>Lệnh sản xuất</strong>"
 #. odoo-python
 #: code:addons/sale_mrp/models/mrp_bom.py:0
 msgid ""
+<<<<<<< HEAD
 "As long as there are some sale order lines that must be delivered/invoiced and are related to these bills of materials, you can not remove them.\n"
 "The error concerns these products: %s"
 msgstr ""
 "Một khi có một số chi tiết đơn bán hàng cần được giao/xuất hóa đơn và liên quan đến các hóa đơn nguyên liệu này, thì bạn không thể xóa chúng.\n"
+=======
+"As long as there are some sale order lines that must be delivered/invoiced "
+"and are related to these bills of materials, you can not remove them.\n"
+"The error concerns these products: %s"
+msgstr ""
+"Một khi có một số chi tiết đơn bán hàng cần được giao/xuất hóa đơn và liên "
+"quan đến các hóa đơn nguyên liệu này, thì bạn không thể xóa chúng.\n"
+>>>>>>> upstream/18.0
 "Lỗi liên quan đến các sản phẩm này: %s"
 
 #. module: sale_mrp

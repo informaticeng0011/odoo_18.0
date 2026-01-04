@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* microsoft_calendar
+<<<<<<< HEAD
 # 
 # Translators:
 <<<<<<< HEAD
@@ -791,10 +792,18 @@
 # Wil Odoo, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+#
+# Translators:
+# Thi Huong Nguyen, 2025
+# Wil Odoo, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1745,6 +1754,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: vi\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Wil Odoo, 2025\n"
+"Language-Team: Vietnamese (https://app.transifex.com/odoo/teams/41243/vi/)\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+>>>>>>> upstream/18.0
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: microsoft_calendar
@@ -1798,6 +1817,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/microsoft_calendar/models/res_users.py:0
 msgid ""
+<<<<<<< HEAD
 "An error occurred while generating the token. Your authorization code may be"
 " invalid or has already expired [%s]. You should check your Client ID and "
 "secret on the Microsoft Azure portal or try to stop and restart your "
@@ -1805,6 +1825,15 @@ msgid ""
 msgstr ""
 "Đã xảy ra lỗi khi tạo mã token. Mã uỷ quyền của bạn có thể không hợp lệ hoặc"
 " đã quá hạn [%s]. Bạn nên kiểm tra ID và mã bí mật của máy khách trong cổng "
+=======
+"An error occurred while generating the token. Your authorization code may be "
+"invalid or has already expired [%s]. You should check your Client ID and "
+"secret on the Microsoft Azure portal or try to stop and restart your "
+"calendar synchronisation."
+msgstr ""
+"Đã xảy ra lỗi khi tạo mã token. Mã uỷ quyền của bạn có thể không hợp lệ hoặc "
+"đã quá hạn [%s]. Bạn nên kiểm tra ID và mã bí mật của máy khách trong cổng "
+>>>>>>> upstream/18.0
 "Microsoft Azure hoặc thử dừng và khởi động lại đồng bộ hóa lịch. "
 
 #. module: microsoft_calendar
@@ -1897,6 +1926,7 @@ msgid ""
 "Due to an Outlook Calendar limitation, recurrence updates must be done "
 "directly in Outlook Calendar."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2909,11 +2939,16 @@ msgstr ""
 "Do giới hạn của Outlook Lịch, các cập nhật chu kỳ lặp phải được thực hiện "
 "trực tiếp trong Outlook Lịch."
 >>>>>>> upstream/18.0
+=======
+"Do giới hạn của Outlook Lịch, các cập nhật chu kỳ lặp phải được thực hiện "
+"trực tiếp trong Outlook Lịch."
+>>>>>>> upstream/18.0
 
 #. module: microsoft_calendar
 #. odoo-python
 #: code:addons/microsoft_calendar/models/calendar.py:0
 msgid ""
+<<<<<<< HEAD
 "Due to an Outlook Calendar limitation, recurrence updates must be done directly in Outlook Calendar.\n"
 "If this recurrence is not shown in Outlook Calendar, you must delete it in Odoo Calendar and recreate it in Outlook Calendar."
 msgstr ""
@@ -3727,6 +3762,17 @@ msgstr ""
 =======
 "Nếu chu kỳ lặp này không được hiển thị trong Outlook Lịch, bạn phải xóa nó trong Odoo Lịch và tạo lại trong Outlook Lịch."
 >>>>>>> upstream/18.0
+=======
+"Due to an Outlook Calendar limitation, recurrence updates must be done "
+"directly in Outlook Calendar.\n"
+"If this recurrence is not shown in Outlook Calendar, you must delete it in "
+"Odoo Calendar and recreate it in Outlook Calendar."
+msgstr ""
+"Do giới hạn của Outlook Lịch, các cập nhật định kỳ phải được thực hiện trực "
+"tiếp trong Outlook Lịch.\n"
+"Nếu chu kỳ lặp này không được hiển thị trong Outlook Lịch, bạn phải xóa nó "
+"trong Odoo Lịch và tạo lại trong Outlook Lịch."
+>>>>>>> upstream/18.0
 
 #. module: microsoft_calendar
 #. odoo-python
@@ -3896,7 +3942,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4331,6 +4380,9 @@ msgstr "Quản lý cảnh báo sự kiện"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4652,11 +4704,24 @@ msgstr "Quy tắc lặp lại sự kiện"
 #. odoo-python
 #: code:addons/microsoft_calendar/models/calendar.py:0
 msgid ""
+<<<<<<< HEAD
 "For a correct synchronization between Odoo and Outlook Calendar, all attendees must have an email address. However, some events do not respect this condition. As long as the events are incorrect, the calendars will not be synchronized.\n"
 "Either update the events/attendees or archive these events %(details)s:\n"
 "%(invalid_events)s"
 msgstr ""
 "Để đồng bộ hóa chính xác giữa Odoo và Lịch Outlook, tất cả người tham dự phải có địa chỉ email. Tuy nhiên, một số sự kiện không tuân theo điều kiện này. Miễn là sự kiện không chính xác, lịch sẽ không được đồng bộ.\n"
+=======
+"For a correct synchronization between Odoo and Outlook Calendar, all "
+"attendees must have an email address. However, some events do not respect "
+"this condition. As long as the events are incorrect, the calendars will not "
+"be synchronized.\n"
+"Either update the events/attendees or archive these events %(details)s:\n"
+"%(invalid_events)s"
+msgstr ""
+"Để đồng bộ hóa chính xác giữa Odoo và Lịch Outlook, tất cả người tham dự "
+"phải có địa chỉ email. Tuy nhiên, một số sự kiện không tuân theo điều kiện "
+"này. Miễn là sự kiện không chính xác, lịch sẽ không được đồng bộ.\n"
+>>>>>>> upstream/18.0
 "Cập nhật sự kiện/người tham dự hoặc lưu trữ sự kiện này %(details)s:\n"
 "%(invalid_events)s"
 
@@ -4756,6 +4821,7 @@ msgstr "Token đồng bộ tiếp theo của Microsoft "
 #. module: microsoft_calendar
 #: model:ir.model.fields,field_description:microsoft_calendar.field_calendar_event__microsoft_recurrence_master_id
 msgid "Microsoft Recurrence Master Id"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5565,6 +5631,9 @@ msgstr "Master ID của chu kỳ lặp Microsoft"
 =======
 msgstr "Master ID của chu kỳ lặp Microsoft"
 >>>>>>> upstream/18.0
+=======
+msgstr "Master ID của chu kỳ lặp Microsoft"
+>>>>>>> upstream/18.0
 
 #. module: microsoft_calendar
 #: model:ir.model.fields,field_description:microsoft_calendar.field_res_config_settings__cal_microsoft_sync_paused
@@ -5626,6 +5695,7 @@ msgid ""
 "the day of the previous event, and cannot be moved to or after the day of "
 "the following event."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6841,6 +6911,11 @@ msgstr ""
 "hoặc trước ngày diễn ra sự kiện trước đó và không thể di chuyển đến hoặc sau"
 " ngày diễn ra sự kiện tiếp theo."
 >>>>>>> upstream/18.0
+=======
+"Giới hạn của Outlook: trong chu kỳ lặp, không thể di chuyển một sự kiện đến "
+"hoặc trước ngày diễn ra sự kiện trước đó và không thể di chuyển đến hoặc sau "
+"ngày diễn ra sự kiện tiếp theo."
+>>>>>>> upstream/18.0
 
 #. module: microsoft_calendar
 #: model:ir.actions.server,name:microsoft_calendar.ir_cron_sync_all_cals_ir_actions_server
@@ -6886,8 +6961,13 @@ msgstr "Chỉ đồng bộ hóa sự kiện mới"
 #. odoo-javascript
 #: code:addons/microsoft_calendar/static/src/views/microsoft_calendar/microsoft_calendar_controller.js:0
 msgid ""
+<<<<<<< HEAD
 "The Outlook Synchronization needs to be configured before you can use it, do"
 " you want to do it now?"
+=======
+"The Outlook Synchronization needs to be configured before you can use it, do "
+"you want to do it now?"
+>>>>>>> upstream/18.0
 msgstr ""
 "Đồng bộ hóa Outlook cần phải được định cấu hình trước khi bạn có thể sử "
 "dụng, bạn có muốn thực hiện bây giờ không? "

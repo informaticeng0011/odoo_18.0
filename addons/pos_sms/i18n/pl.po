@@ -42,6 +42,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* pos_sms
 # 
 # Translators:
@@ -743,6 +744,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # * pos_sms
 #
 # Translators:
@@ -791,6 +794,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -878,6 +884,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1624,6 +1631,9 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-11-21 02:33+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Polish <https://translate.odoo.com/projects/odoo-18/pos_sms/"
@@ -1632,6 +1642,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && ("
 "n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && "
 "n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
@@ -1760,11 +1771,18 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && "
+"(n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && "
+"n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: pos_sms
 #: model:sms.template,body:pos_sms.sms_template_data_point_of_sale
 msgid ""
 "\n"
+<<<<<<< HEAD
 "                {{ object.company_id.name }} : Your order with reference: {{ object.pos_reference }} was processed succesfully with amount {{  object.currency_id.format(object.amount_total) }}. Use {{ object.pos_reference }}  for further reference\n"
 "            "
 msgstr ""
@@ -2938,6 +2956,20 @@ msgstr ""
 "                {{ object.company_id.name }} : Twoje zamówienie o numerze referencyjnym: {{ object.pos_reference }} zostało pomyślnie przetworzone z kwotą {{  object.currency_id.format(object.amount_total) }}. Użyj {{ object.pos_reference }} jako referencję w przyszłości\n"
 "            "
 >>>>>>> upstream/18.0
+=======
+"                {{ object.company_id.name }} : Your order with reference: "
+"{{ object.pos_reference }} was processed succesfully with amount "
+"{{  object.currency_id.format(object.amount_total) }}. Use "
+"{{ object.pos_reference }}  for further reference\n"
+"            "
+msgstr ""
+"\n"
+"                {{ object.company_id.name }} : Twoje zamówienie o numerze "
+"referencyjnym: {{ object.pos_reference }} zostało pomyślnie przetworzone z "
+"kwotą {{  object.currency_id.format(object.amount_total) }}. Użyj "
+"{{ object.pos_reference }} jako referencję w przyszłości\n"
+"            "
+>>>>>>> upstream/18.0
 
 #. module: pos_sms
 #: model:ir.model,name:pos_sms.model_res_config_settings
@@ -3010,7 +3042,11 @@ msgid "SMS will be sent to the customer based on this template"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Do klienta zostanie wysłany SMS na podstawie tego szablonu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Do klienta zostanie wysłany SMS na podstawie tego szablonu"
 >>>>>>> upstream/18.0
@@ -3184,7 +3220,11 @@ msgid "Sms Receipt template"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Szablon odbioru SMS"
+>>>>>>> upstream/18.0
 =======
 msgstr "Szablon odbioru SMS"
 >>>>>>> upstream/18.0

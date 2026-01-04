@@ -42,8 +42,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* resource
 # 
+=======
+# * resource
+#
+>>>>>>> upstream/18.0
 =======
 # * resource
 #
@@ -390,6 +395,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Wil Odoo, 2025
 >>>>>>> upstream/18.0
@@ -1094,10 +1100,16 @@
 # Kira Petersen, 2025
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
+=======
+# Wil Odoo, 2025
+# Kira Petersen, 2025
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2013,6 +2025,9 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-05-14 20:48+0000\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-11-10 09:43+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Danish <https://translate.odoo.com/projects/odoo-18/resource/"
@@ -2064,6 +2079,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2393,7 +2411,11 @@ msgid "Company Full Time"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fuldtid i virksomheden"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fuldtid i virksomheden"
 >>>>>>> upstream/18.0
@@ -2984,6 +3006,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Angiv ressourcens arbejdstider. Hvis du ikke angiver dette, har ressourcen "
+"fuldstændig fleksible arbejdstider."
+>>>>>>> upstream/18.0
 =======
 "Angiv ressourcens arbejdstider. Hvis du ikke angiver dette, har ressourcen "
 "fuldstændig fleksible arbejdstider."
@@ -3806,7 +3833,11 @@ msgid "Fully Flexible"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fuldt fleksibel"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fuldt fleksibel"
 >>>>>>> upstream/18.0
@@ -4280,8 +4311,13 @@ msgid ""
 "If the active field is set to False, it will allow you to hide the resource "
 "record without removing it."
 msgstr ""
+<<<<<<< HEAD
 "Hvis det aktive felt er sat til Falsk, vil du kunne gemme ressourcen uden at"
 " fjerne den."
+=======
+"Hvis det aktive felt er sat til Falsk, vil du kunne gemme ressourcen uden at "
+"fjerne den."
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields,help:resource.field_resource_calendar__active
@@ -4289,8 +4325,13 @@ msgid ""
 "If the active field is set to false, it will allow you to hide the Working "
 "Time without removing it."
 msgstr ""
+<<<<<<< HEAD
 "Hvis det aktive felt er sat til falsk, vil det gøre dig istand til at skjule"
 " Arbejdstiden uden at fjerne den."
+=======
+"Hvis det aktive felt er sat til falsk, vil det gøre dig istand til at skjule "
+"Arbejdstiden uden at fjerne den."
+>>>>>>> upstream/18.0
 
 #. module: resource
 #. odoo-python
@@ -4360,6 +4401,7 @@ msgstr "Navn"
 #. module: resource
 #: model:ir.model.fields,help:resource.field_resource_calendar__full_time_required_hours
 msgid ""
+<<<<<<< HEAD
 "Number of hours to work on the company schedule to be considered as "
 "fulltime."
 msgstr ""
@@ -5028,6 +5070,12 @@ msgstr ""
 "Det timetal, der ifølge virksomhedens arbejdstidsplan kræves for at opnå "
 "status som fuldtidsansat."
 >>>>>>> upstream/18.0
+=======
+"Number of hours to work on the company schedule to be considered as fulltime."
+msgstr ""
+"Det timetal, der ifølge virksomhedens arbejdstidsplan kræves for at opnå "
+"status som fuldtidsansat."
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields.selection,name:resource.selection__resource_calendar_leaves__time_type__other
@@ -5376,7 +5424,10 @@ msgstr "Søndag"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5895,6 +5946,9 @@ msgstr "Skift"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6284,11 +6338,19 @@ msgid ""
 "the efficiency factor is 200%, however the expected duration will be 30 "
 "minutes."
 msgstr ""
+<<<<<<< HEAD
 "Dette felt bruges til at udregne den forventede varighed for en arbejdsordre"
 " ved dette arbejdscentre. For eksempel, hvis en arbejdsordre tager en time, "
 "og effektivitetsfaktoren er 100%, vil den forventede varighed være en time. "
 "Hvis effektivitetsfaktoren er 200%, vil den forventede varighed derimod være"
 " 30 minutter."
+=======
+"Dette felt bruges til at udregne den forventede varighed for en arbejdsordre "
+"ved dette arbejdscentre. For eksempel, hvis en arbejdsordre tager en time, "
+"og effektivitetsfaktoren er 100%, vil den forventede varighed være en time. "
+"Hvis effektivitetsfaktoren er 200%, vil den forventede varighed derimod være "
+"30 minutter."
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields.selection,name:resource.selection__resource_calendar_attendance__dayofweek__3
@@ -6421,8 +6483,12 @@ msgstr ""
 #. module: resource
 #: model:ir.model.fields,help:resource.field_resource_calendar_leaves__time_type
 msgid ""
+<<<<<<< HEAD
 "Whether this should be computed as a time off or as work time (eg: "
 "formation)"
+=======
+"Whether this should be computed as a time off or as work time (eg: formation)"
+>>>>>>> upstream/18.0
 msgstr ""
 "Hvorvidt dette bør udregnes som fri tid eller arbejdstid (f.eks.: formation)"
 
@@ -6525,7 +6591,11 @@ msgid "first"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "første"
+>>>>>>> upstream/18.0
 =======
 msgstr "første"
 >>>>>>> upstream/18.0

@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* sale_project
+<<<<<<< HEAD
 # 
 # Translators:
 <<<<<<< HEAD
@@ -691,10 +692,19 @@
 # Larisa_nexterp, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+#
+# Translators:
+# Lyall Kindmurr, 2024
+# Wil Odoo, 2025
+# Larisa_nexterp, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1608,6 +1618,18 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: ro\n"
 "Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Larisa_nexterp, 2025\n"
+"Language-Team: Romanian (https://app.transifex.com/odoo/teams/41243/ro/)\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?"
+"2:1));\n"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #. odoo-python
@@ -1617,12 +1639,18 @@ msgid ""
 "                <p class=\"o_view_nocontent_smiling_face\">\n"
 "                    No milestones found. Let's create one!\n"
 "                </p><p>\n"
+<<<<<<< HEAD
 "                    Track major progress points that must be reached to achieve success.\n"
+=======
+"                    Track major progress points that must be reached to "
+"achieve success.\n"
+>>>>>>> upstream/18.0
 "                </p>\n"
 "            "
 msgstr ""
 "\n"
 "                <p class=\"o_view_nocontent_smiling_face\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2082,6 +2110,12 @@ msgstr ""
 >>>>>>> upstream/18.0
 "                </p><p>\n"
 "                    Monitorizați punctele de progres major care trebuie atinse pentru a obține succes.\n"
+=======
+"                    Nu au fost găsite etape. Hai să creăm una!\n"
+"                </p><p>\n"
+"                    Monitorizați punctele de progres major care trebuie "
+"atinse pentru a obține succes.\n"
+>>>>>>> upstream/18.0
 "                </p>\n"
 
 #. module: sale_project
@@ -2202,7 +2236,11 @@ msgid "%(name)s's Sales Order Items"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "%(name)sElementele comenzii de vânzare"
+=======
+msgstr "Articolele comenzii de vânzare ale lui %(name)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Articolele comenzii de vânzare ale lui %(name)s"
 >>>>>>> upstream/18.0
@@ -2664,7 +2702,11 @@ msgid "%(name)s's Sales Orders"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "%(name)sComenzile de vânzare ale"
+=======
+msgstr "Comenzile de vânzare ale lui %(name)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Comenzile de vânzare ale lui %(name)s"
 >>>>>>> upstream/18.0
@@ -3017,6 +3059,7 @@ msgid ""
 "the cancellation of the sales order.\" invisible=\"sale_order_state != "
 "'cancel'\"/>"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3703,6 +3746,13 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"<span class=\"fa fa-exclamation-triangle text-warning\" title=\"Comanda de "
+"vânzare asociată acestui proiect a fost anulată. Vă recomandăm fie să "
+"actualizați articolul comenzii de vânzare, fie să anulați acest proiect în "
+"concordanță cu anularea comenzii de vânzare.\" invisible=\"sale_order_state !"
+"= 'cancel'\"/>"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #: model_terms:ir.ui.view,arch_db:sale_project.view_sale_project_inherit_form
@@ -3713,6 +3763,7 @@ msgid ""
 "cancellation of the sales order.\" invisible=\"sale_order_state != "
 "'cancel'\"/>"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4399,18 +4450,31 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"<span class=\"fa fa-exclamation-triangle text-warning\" title=\"Comanda de "
+"vânzare asociată acestei sarcini a fost anulată. Vă recomandăm fie să "
+"actualizați articolul comenzii de vânzare, fie să anulați această sarcină în "
+"concordanță cu anularea comenzii de vânzare.\" invisible=\"sale_order_state !"
+"= 'cancel'\"/>"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #: model_terms:ir.ui.view,arch_db:sale_project.view_edit_project_inherit_form
 msgid ""
 "<span class=\"o_stat_text\">\n"
+<<<<<<< HEAD
 "                            <span class=\"o_stat_value\">0</span> Sales Order\n"
+=======
+"                            <span class=\"o_stat_value\">0</span> Sales "
+"Order\n"
+>>>>>>> upstream/18.0
 "                        </span>\n"
 "                        <span class=\"o_stat_text\">\n"
 "                            Make Billable\n"
 "                        </span>"
 msgstr ""
 "<span class=\"o_stat_text\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4868,6 +4932,10 @@ msgstr ""
 =======
 "                            <span class=\"o_stat_value\">0</span> Comandă de vânzare\n"
 >>>>>>> upstream/18.0
+=======
+"                            <span class=\"o_stat_value\">0</span> Comandă de "
+"vânzare\n"
+>>>>>>> upstream/18.0
 "                        </span>\n"
 "                        <span class=\"o_stat_text\">\n"
 "                            Faceți facturabil\n"
@@ -4995,7 +5063,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            Comenzi de vânzări\n"
+=======
+"                            Comenzi de vânzare\n"
+>>>>>>> upstream/18.0
 =======
 "                            Comenzi de vânzare\n"
 >>>>>>> upstream/18.0
@@ -5460,6 +5532,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"o_stat_text\">Client</span>\n"
+"                        <span class=\"o_stat_text\">Previzualizare</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"o_stat_text\">Client</span>\n"
 "                        <span class=\"o_stat_text\">Previzualizare</span>"
@@ -6041,7 +6118,11 @@ msgid "<span class=\"o_stat_text\">Tasks</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Sarcini</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Sarcini</span>"
 >>>>>>> upstream/18.0
@@ -6394,6 +6475,7 @@ msgstr "<span>)</span>"
 #. odoo-python
 #: code:addons/sale_project/models/sale_order_line.py:0
 msgid ""
+<<<<<<< HEAD
 "A project must be defined on the quotation %(order)s or on the form of products creating a task on order.\n"
 "The following product need a project in which to put its task: %(product_name)s"
 msgstr ""
@@ -6967,6 +7049,17 @@ msgstr ""
 "Un proiect trebuie definit pe oferta %(order)s sau pe formularul produselor care creează o sarcină la comandă.\n"
 "Următorul produs are nevoie de un proiect în care să adauge sarcina: %(product_name)s"
 >>>>>>> upstream/18.0
+=======
+"A project must be defined on the quotation %(order)s or on the form of "
+"products creating a task on order.\n"
+"The following product need a project in which to put its task: %"
+"(product_name)s"
+msgstr ""
+"Un proiect trebuie definit pe oferta %(order)s sau pe formularul produselor "
+"care creează o sarcină la comandă.\n"
+"Următorul produs are nevoie de un proiect în care să adauge sarcina: %"
+"(product_name)s"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #: model:ir.model.fields,help:sale_project.field_sale_order__project_id
@@ -7089,6 +7182,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"O sarcină va fi creată pentru proiect la confirmarea comenzii de vânzare. "
+"Distribuția analitică a acestui proiect va servi și ca referință pentru "
+"articolele de comandă de vânzare nou create."
+>>>>>>> upstream/18.0
 =======
 "O sarcină va fi creată pentru proiect la confirmarea comenzii de vânzare. "
 "Distribuția analitică a acestui proiect va servi și ca referință pentru "
@@ -7663,6 +7762,7 @@ msgstr ""
 #. module: sale_project
 #: model:ir.model.fields,help:sale_project.field_sale_order_line__qty_delivered_method
 msgid ""
+<<<<<<< HEAD
 "According to product configuration, the delivered quantity can be automatically computed by mechanism:\n"
 "  - Manual: the quantity is set manually on the line\n"
 "  - Analytic From expenses: the quantity is the quantity sum from posted expenses\n"
@@ -8360,6 +8460,25 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"According to product configuration, the delivered quantity can be "
+"automatically computed by mechanism:\n"
+"  - Manual: the quantity is set manually on the line\n"
+"  - Analytic From expenses: the quantity is the quantity sum from posted "
+"expenses\n"
+"  - Timesheet: the quantity is the sum of hours recorded on tasks linked to "
+"this sale line\n"
+"  - Stock Moves: the quantity comes from confirmed pickings\n"
+msgstr ""
+"Conform configurării produsului, cantitatea livrată poate fi calculată "
+"automat prin mecanism:\n"
+"  - Manual: cantitatea este setată manual pe linie\n"
+"  - Analitic din cheltuieli: cantitatea este suma din cheltuielile "
+"înregistrate\n"
+"  - Foaie de pontaj: cantitatea este suma orelor înregistrate pe sarcinile "
+"legate de această linie de vânzare\n"
+"  - Mișcări de stoc: cantitatea provine din recepții confirmate\n"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #. odoo-python
@@ -8479,7 +8598,11 @@ msgid "Based on Delivered Quantity (Manual)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "În funcție de cantitatea livrată (manual)"
+=======
+msgstr "Bazat pe cantitatea livrată (manual)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Bazat pe cantitatea livrată (manual)"
 >>>>>>> upstream/18.0
@@ -9016,7 +9139,10 @@ msgstr "Setări de configurare"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9359,6 +9485,7 @@ msgid "Cost of Goods Sold"
 msgstr "Costul bunurilor vândute"
 
 #. module: sale_project
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9971,6 +10098,8 @@ msgstr "Creați un proiect"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/sale_project/models/project_project.py:0
 msgid "Cost of Goods Sold Items"
@@ -10093,6 +10222,9 @@ msgstr "Creează proiect"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10439,7 +10571,11 @@ msgid "Create a customer invoice"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Creați o factură de client"
+=======
+msgstr "Creează o factură de client"
+>>>>>>> upstream/18.0
 =======
 msgstr "Creează o factură de client"
 >>>>>>> upstream/18.0
@@ -10901,7 +11037,11 @@ msgid "Create a new quotation, the first step of a new sale!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Creați o ofertă nouă, primul pas al unei vânzări noi!"
+=======
+msgstr "Creează o ofertă nouă, primul pas al unei noi vânzări!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Creează o ofertă nouă, primul pas al unei noi vânzări!"
 >>>>>>> upstream/18.0
@@ -11366,6 +11506,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Creează un proiect pentru comandă cu o sarcină pentru fiecare linie de "
+"comandă de vânzare pentru a urmări timpul petrecut."
+>>>>>>> upstream/18.0
 =======
 "Creează un proiect pentru comandă cu o sarcină pentru fiecare linie de "
 "comandă de vânzare pentru a urmări timpul petrecut."
@@ -11942,6 +12087,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Creează o sarcină într-un proiect existent pentru a urmări timpul petrecut."
+>>>>>>> upstream/18.0
 =======
 "Creează o sarcină într-un proiect existent pentru a urmări timpul petrecut."
 >>>>>>> upstream/18.0
@@ -12403,7 +12552,11 @@ msgid "Create a vendor bill"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Creați o factură de furnizor"
+=======
+msgstr "Creează o factură de furnizor"
+>>>>>>> upstream/18.0
 =======
 msgstr "Creează o factură de furnizor"
 >>>>>>> upstream/18.0
@@ -12751,6 +12904,7 @@ msgstr "Creează o factură de furnizor"
 #. odoo-python
 #: code:addons/sale_project/models/product_template.py:0
 msgid "Create an empty project for the order to track the time spent."
+<<<<<<< HEAD
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13207,6 +13361,9 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 "Creează un proiect gol pentru comandă pentru a urmări timpul petrecut."
+>>>>>>> upstream/18.0
+=======
+msgstr "Creează un proiect gol pentru comandă pentru a urmări timpul petrecut."
 >>>>>>> upstream/18.0
 
 #. module: sale_project
@@ -13216,6 +13373,7 @@ msgid ""
 "Create invoices, register payments and keep track of the discussions with "
 "your customers."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13787,6 +13945,9 @@ msgstr ""
 "Creează facturi, înregistrează plăți și urmărește discuțiile cu clienții "
 "tăi."
 >>>>>>> upstream/18.0
+=======
+"Creează facturi, înregistrează plăți și urmărește discuțiile cu clienții tăi."
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #. odoo-python
@@ -13909,8 +14070,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Creați facturi, înregistrați plăți și țineți evidența discuțiilor cu "
 "furnizorii dvs."
+=======
+"Creează facturi, înregistrează plăți și urmărește discuțiile cu furnizorii "
+"tăi."
+>>>>>>> upstream/18.0
 =======
 "Creează facturi, înregistrează plăți și urmărește discuțiile cu furnizorii "
 "tăi."
@@ -14486,7 +14652,11 @@ msgid "Create on Order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Creare la comandă"
+=======
+msgstr "Creează la comandă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Creează la comandă"
 >>>>>>> upstream/18.0
@@ -14951,6 +15121,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Creează proiecte sau sarcini mai târziu și leagă-le la comandă pentru a "
+"urmări timpul petrecut."
+>>>>>>> upstream/18.0
 =======
 "Creează proiecte sau sarcini mai târziu și leagă-le la comandă pentru a "
 "urmări timpul petrecut."
@@ -15526,7 +15701,11 @@ msgid "Customer"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "ClientClient"
+=======
+msgstr "Client"
+>>>>>>> upstream/18.0
 =======
 msgstr "Client"
 >>>>>>> upstream/18.0
@@ -15993,7 +16172,11 @@ msgid "Defined on quotation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Definit pe ofertă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Definit pe ofertă"
 >>>>>>> upstream/18.0
@@ -16460,7 +16643,11 @@ msgid "Digital Marketing Campaign (project)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Campanie de marketing digital (proiect)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Campanie de marketing digital (proiect)"
 >>>>>>> upstream/18.0
@@ -16921,7 +17108,11 @@ msgid "Display Sales Order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Afișare comandă de vânzare"
+=======
+msgstr "Afișează comanda de vânzare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Afișează comanda de vânzare"
 >>>>>>> upstream/18.0
@@ -17383,7 +17574,11 @@ msgid "Done"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Efectuat"
+=======
+msgstr "Finalizat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Finalizat"
 >>>>>>> upstream/18.0
@@ -17850,7 +18045,11 @@ msgid "Empty project"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Proiect gol"
+>>>>>>> upstream/18.0
 =======
 msgstr "Proiect gol"
 >>>>>>> upstream/18.0
@@ -18311,7 +18510,11 @@ msgid "Flooring Services"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Servicii de pardoseli"
+>>>>>>> upstream/18.0
 =======
 msgstr "Servicii de pardoseli"
 >>>>>>> upstream/18.0
@@ -18779,7 +18982,11 @@ msgid "Invoice your milestones when they are reached."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Facturați etapele importante atunci când acestea sunt atinse."
+=======
+msgstr "Facturați etapele atunci când sunt atinse."
+>>>>>>> upstream/18.0
 =======
 msgstr "Facturați etapele atunci când sunt atinse."
 >>>>>>> upstream/18.0
@@ -19241,7 +19448,11 @@ msgid "Invoice your time and material to customers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Facturați-vă timpul și materialul către clienți"
+=======
+msgstr "Facturați timpul și materialele către clienți"
+>>>>>>> upstream/18.0
 =======
 msgstr "Facturați timpul și materialele către clienți"
 >>>>>>> upstream/18.0
@@ -19716,7 +19927,11 @@ msgid "Invoicing Policy"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Politică de facturare"
+=======
+msgstr "Politica de facturare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Politica de facturare"
 >>>>>>> upstream/18.0
@@ -20177,7 +20392,11 @@ msgid "Journal Entry"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Înregistrare de jurnal "
+=======
+msgstr "Înregistrare în jurnal"
+>>>>>>> upstream/18.0
 =======
 msgstr "Înregistrare în jurnal"
 >>>>>>> upstream/18.0
@@ -20644,7 +20863,11 @@ msgid "Load more"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Încarcă mai mult "
+=======
+msgstr "Încarcă mai mult"
+>>>>>>> upstream/18.0
 =======
 msgstr "Încarcă mai mult"
 >>>>>>> upstream/18.0
@@ -20992,6 +21215,7 @@ msgstr "Încarcă mai mult"
 #: model:ir.model.fields,help:sale_project.field_product_product__service_type
 #: model:ir.model.fields,help:sale_project.field_product_template__service_type
 msgid ""
+<<<<<<< HEAD
 "Manually set quantities on order: Invoice based on the manually entered quantity, without creating an analytic account.\n"
 "Timesheets on contract: Invoice based on the tracked hours on the related timesheet.\n"
 "Create a task and track hours: Create a task on the sales order validation and track the work hours."
@@ -21683,6 +21907,20 @@ msgstr ""
 "Pontaje pe contract: Facturați pe baza orelor urmărite pe pontajul aferent.\n"
 "Creați o sarcină și urmăriți orele: Creați o sarcină la validarea comenzii de vânzare și urmăriți orele de lucru."
 >>>>>>> upstream/18.0
+=======
+"Manually set quantities on order: Invoice based on the manually entered "
+"quantity, without creating an analytic account.\n"
+"Timesheets on contract: Invoice based on the tracked hours on the related "
+"timesheet.\n"
+"Create a task and track hours: Create a task on the sales order validation "
+"and track the work hours."
+msgstr ""
+"Setați manual cantitățile pe comandă: Facturați pe baza cantității introduse "
+"manual, fără a crea un cont analitic.\n"
+"Pontaje pe contract: Facturați pe baza orelor urmărite pe pontajul aferent.\n"
+"Creați o sarcină și urmăriți orele: Creați o sarcină la validarea comenzii "
+"de vânzare și urmăriți orele de lucru."
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #. odoo-python
@@ -21807,7 +22045,11 @@ msgid "Method to update delivered qty"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Metoda de actualizare a cantității livrate"
+=======
+msgstr "Metodă de actualizare a cantității livrate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Metodă de actualizare a cantității livrate"
 >>>>>>> upstream/18.0
@@ -22271,7 +22513,11 @@ msgid "Milestones"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Etape importante"
+=======
+msgstr "Etape"
+>>>>>>> upstream/18.0
 =======
 msgstr "Etape"
 >>>>>>> upstream/18.0
@@ -22733,7 +22979,11 @@ msgid "New Sales Order Item"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Element nou pentru comanda de vânzări"
+=======
+msgstr "Articol nou de comandă de vânzare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Articol nou de comandă de vânzare"
 >>>>>>> upstream/18.0
@@ -23206,7 +23456,11 @@ msgid "Office Furniture Set (task)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Set mobilier birou (sarcină)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Set mobilier birou (sarcină)"
 >>>>>>> upstream/18.0
@@ -23669,7 +23923,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odată ce oferta este confirmată de client, devine comandă de vânzare."
+>>>>>>> upstream/18.0
 =======
 msgstr "Odată ce oferta este confirmată de client, devine comandă de vânzare."
 >>>>>>> upstream/18.0
@@ -24136,7 +24394,11 @@ msgid "Painting"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pictură"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pictură"
 >>>>>>> upstream/18.0
@@ -24483,6 +24745,7 @@ msgstr "Pictură"
 #. module: sale_project
 #: model:ir.model.fields,help:sale_project.field_project_milestone__quantity_percentage
 msgid ""
+<<<<<<< HEAD
 "Percentage of the ordered quantity that will automatically be delivered once"
 " the milestone is reached."
 msgstr ""
@@ -25058,10 +25321,18 @@ msgstr ""
 "Procent din cantitatea comandată care va fi livrat automat odată ce etapa "
 "este atinsă."
 >>>>>>> upstream/18.0
+=======
+"Percentage of the ordered quantity that will automatically be delivered once "
+"the milestone is reached."
+msgstr ""
+"Procent din cantitatea comandată care va fi livrat automat odată ce etapa "
+"este atinsă."
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #: model:product.template,name:sale_project.product_product_plumbing_product_template
 msgid "Plumbing Services"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -25707,6 +25978,8 @@ msgstr "Preț fix/preplătit"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr "Servicii de instalații sanitare"
 
 #. module: sale_project
@@ -25833,6 +26106,9 @@ msgstr "Preplătit/Preț fix"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -26075,6 +26351,7 @@ msgstr "Variantă de produs"
 #: model:ir.model.fields,help:sale_project.field_project_project__reinvoiced_sale_order_id
 msgid ""
 "Products added to stock pickings, whose operation type is configured to "
+<<<<<<< HEAD
 "generate analytic costs, will be re-invoiced in this sales order if they are"
 " set up for it."
 msgstr ""
@@ -26762,6 +27039,14 @@ msgstr ""
 "configurat să genereze costuri analitice, vor fi refacturate în această "
 "comandă de vânzare dacă sunt configurate pentru acest lucru."
 >>>>>>> upstream/18.0
+=======
+"generate analytic costs, will be re-invoiced in this sales order if they are "
+"set up for it."
+msgstr ""
+"Produsele adăugate la recepții de stoc, al căror tip de operațiune este "
+"configurat să genereze costuri analitice, vor fi refacturate în această "
+"comandă de vânzare dacă sunt configurate pentru acest lucru."
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #: model:ir.model,name:sale_project.model_project_project
@@ -26895,7 +27180,11 @@ msgid "Project Account"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Contul de proiect"
+=======
+msgstr "Cont proiect"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cont proiect"
 >>>>>>> upstream/18.0
@@ -27356,7 +27645,11 @@ msgid "Project Milestone"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Etapa de referință a proiectului"
+=======
+msgstr "Etapă proiect"
+>>>>>>> upstream/18.0
 =======
 msgstr "Etapă proiect"
 >>>>>>> upstream/18.0
@@ -27817,7 +28110,11 @@ msgid "Project Milestones"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Etapele de referință ale proiectului"
+=======
+msgstr "Etape proiect"
+>>>>>>> upstream/18.0
 =======
 msgstr "Etape proiect"
 >>>>>>> upstream/18.0
@@ -28279,7 +28576,11 @@ msgid "Project Template"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Model Proiect"
+=======
+msgstr "Șablon proiect"
+>>>>>>> upstream/18.0
 =======
 msgstr "Șablon proiect"
 >>>>>>> upstream/18.0
@@ -28763,7 +29064,11 @@ msgid "Quotation Template Line"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Linia șablonului de ofertă"
+=======
+msgstr "Linie șablon ofertă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Linie șablon ofertă"
 >>>>>>> upstream/18.0
@@ -29224,7 +29529,11 @@ msgid "Sales & Invoicing"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Vânzări & facturare"
+=======
+msgstr "Vânzări și facturare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vânzări și facturare"
 >>>>>>> upstream/18.0
@@ -29685,7 +29994,11 @@ msgid "Sales Analysis Report"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Raport de analiză a vânzărilor"
+=======
+msgstr "Raport analiză vânzări"
+>>>>>>> upstream/18.0
 =======
 msgstr "Raport analiză vânzări"
 >>>>>>> upstream/18.0
@@ -30057,6 +30370,7 @@ msgstr "Articol comandă de vânzare"
 #: model:ir.model.fields,help:sale_project.field_project_milestone__sale_line_id
 msgid "Sales Order Item that will be updated once the milestone is reached."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -30629,10 +30943,15 @@ msgstr ""
 "Articolul comenzii de vânzare care va fi actualizat odată ce etapa este "
 "atinsă."
 >>>>>>> upstream/18.0
+=======
+"Articolul comenzii de vânzare care va fi actualizat odată ce etapa este "
+"atinsă."
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #: model:ir.model.fields,help:sale_project.field_project_task__sale_line_id
 msgid ""
+<<<<<<< HEAD
 "Sales Order Item to which the time spent on this task will be added in order to be invoiced to your customer.\n"
 "By default the sales order item set on the project will be selected. In the absence of one, the last prepaid sales order item that has time remaining will be used.\n"
 "Remove the sales order item in order to make this task non billable. You can also change or remove the sales order item of each timesheet entry individually."
@@ -31324,6 +31643,25 @@ msgstr ""
 "Implicit, va fi selectat articolul de comandă de vânzare setat pe proiect. În lipsa acestuia, se va folosi ultimul articol de comandă de vânzare preplătit care are timp rămas.\n"
 "Eliminați articolul de comandă de vânzare pentru ca această sarcină să nu fie facturabilă. Puteți schimba sau elimina articolul de comandă de vânzare pentru fiecare pontaj în parte."
 >>>>>>> upstream/18.0
+=======
+"Sales Order Item to which the time spent on this task will be added in order "
+"to be invoiced to your customer.\n"
+"By default the sales order item set on the project will be selected. In the "
+"absence of one, the last prepaid sales order item that has time remaining "
+"will be used.\n"
+"Remove the sales order item in order to make this task non billable. You can "
+"also change or remove the sales order item of each timesheet entry "
+"individually."
+msgstr ""
+"Articolul comenzii de vânzare la care va fi adăugat timpul petrecut pe "
+"această sarcină pentru a fi facturat clientului.\n"
+"Implicit, va fi selectat articolul de comandă de vânzare setat pe proiect. "
+"În lipsa acestuia, se va folosi ultimul articol de comandă de vânzare "
+"preplătit care are timp rămas.\n"
+"Eliminați articolul de comandă de vânzare pentru ca această sarcină să nu "
+"fie facturabilă. Puteți schimba sau elimina articolul de comandă de vânzare "
+"pentru fiecare pontaj în parte."
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #. odoo-javascript
@@ -31331,6 +31669,7 @@ msgstr ""
 #: code:addons/sale_project/models/project_project.py:0
 #: code:addons/sale_project/static/src/components/project_right_side_panel/components/project_profitability_section.xml:0
 msgid "Sales Order Items"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -31788,6 +32127,9 @@ msgstr "Articole comandă de vânzare"
 =======
 msgstr "Articole comandă de vânzare"
 >>>>>>> upstream/18.0
+=======
+msgstr "Articole comandă de vânzare"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #: model:ir.model,name:sale_project.model_sale_order_line
@@ -31805,11 +32147,26 @@ msgstr "Comenzi de vânzare"
 #. module: sale_project
 #: model:ir.model.fields,help:sale_project.field_project_project__sale_line_id
 msgid ""
+<<<<<<< HEAD
 "Sales order item that will be selected by default on the tasks and timesheets of this project, except if the employee set on the timesheets is explicitely linked to another sales order item on the project.\n"
 "It can be modified on each task and timesheet entry individually if necessary."
 msgstr ""
 "Articolul comenzii de vânzare care va fi selectat în mod implicit pe sarcinile și fișele de pontaj ale acestui proiect, cu excepția cazului în care angajatul stabilit pe fișele de pontaj este legat în mod explicit de un alt articol al comenzii de vânzare din cadrul proiectului.\n"
 "Dacă este necesar, acesta poate fi modificat individual pentru fiecare sarcină și fișă de pontaj."
+=======
+"Sales order item that will be selected by default on the tasks and "
+"timesheets of this project, except if the employee set on the timesheets is "
+"explicitely linked to another sales order item on the project.\n"
+"It can be modified on each task and timesheet entry individually if "
+"necessary."
+msgstr ""
+"Articolul comenzii de vânzare care va fi selectat în mod implicit pe "
+"sarcinile și fișele de pontaj ale acestui proiect, cu excepția cazului în "
+"care angajatul stabilit pe fișele de pontaj este legat în mod explicit de un "
+"alt articol al comenzii de vânzare din cadrul proiectului.\n"
+"Dacă este necesar, acesta poate fi modificat individual pentru fiecare "
+"sarcină și fișă de pontaj."
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #: model:ir.model.fields,help:sale_project.field_project_task__sale_order_id
@@ -31933,7 +32290,11 @@ msgid "Screw Driver"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Șurubelniță"
+>>>>>>> upstream/18.0
 =======
 msgstr "Șurubelniță"
 >>>>>>> upstream/18.0
@@ -32457,6 +32818,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "Articolul comenzii de vânzare ar trebui să conțină un produs de tip "
 "serviciu."
@@ -32912,6 +33274,9 @@ msgstr ""
 =======
 "Articolul comenzii de vânzare ar trebui să conțină un produs de tip "
 "serviciu."
+>>>>>>> upstream/18.0
+=======
+"Articolul comenzii de vânzare ar trebui să conțină un produs de tip serviciu."
 >>>>>>> upstream/18.0
 
 #. module: sale_project
@@ -32921,6 +33286,7 @@ msgid ""
 "The product %s should not have a global project since it will generate a "
 "project."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -33493,6 +33859,10 @@ msgstr ""
 "Produsul %s nu ar trebui să aibă un proiect global, dacă oricum va genera un"
 " proiect."
 >>>>>>> upstream/18.0
+=======
+"Produsul %s nu ar trebui să aibă un proiect global, dacă oricum va genera un "
+"proiect."
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #. odoo-python
@@ -33635,6 +34005,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Proiectul nu a putut fi creat deoarece comanda de vânzare trebuie să fie "
+"confirmată, este deja legată de un proiect sau nu implică niciun serviciu."
+>>>>>>> upstream/18.0
 =======
 "Proiectul nu a putut fi creat deoarece comanda de vânzare trebuie să fie "
 "confirmată, este deja legată de un proiect sau nu implică niciun serviciu."
@@ -34252,7 +34627,11 @@ msgid "Website Redesign Service (project & task)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Serviciu de redesign website (proiect & sarcină)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Serviciu de redesign website (proiect & sarcină)"
 >>>>>>> upstream/18.0
@@ -34713,7 +35092,11 @@ msgid "Wiring Services"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Servicii de cablare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Servicii de cablare"
 >>>>>>> upstream/18.0
@@ -35064,8 +35447,13 @@ msgid ""
 "You cannot link the order item %(order_id)s - %(product_id)s to this task "
 "because it is a re-invoiced expense."
 msgstr ""
+<<<<<<< HEAD
 "Nu puteți lega elementul de comandă %(order_id)s - %(product_id)s la această"
 " sarcină deoarece este o cheltuială refacturată."
+=======
+"Nu puteți lega elementul de comandă %(order_id)s - %(product_id)s la această "
+"sarcină deoarece este o cheltuială refacturată."
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #. odoo-python
@@ -35185,7 +35573,11 @@ msgid "You will be able to create an invoice and collect the payment."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Veți putea crea o factură și colecta plata."
+>>>>>>> upstream/18.0
 =======
 msgstr "Veți putea crea o factură și colecta plata."
 >>>>>>> upstream/18.0

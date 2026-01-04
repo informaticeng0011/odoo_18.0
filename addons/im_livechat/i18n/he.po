@@ -1,7 +1,11 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* im_livechat
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 # Translators:
 # ExcaliberX <excaliberx@gmail.com>, 2024
 # Fishfur A Banter <fishfurbanter@gmail.com>, 2024
@@ -157,6 +161,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Yoram Lavi, 2025
 >>>>>>> upstream/18.0
@@ -689,10 +694,16 @@
 # or balmas, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+# Yoram Lavi, 2025
+# or balmas, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-01-27 13:02+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
@@ -1258,6 +1269,18 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: he\n"
 "Plural-Forms: nplurals=3; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % 1 == 0) ? 1: 2;\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: or balmas, 2025\n"
+"Language-Team: Hebrew (https://app.transifex.com/odoo/teams/41243/he/)\n"
+"Language: he\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % "
+"1 == 0) ? 1: 2;\n"
+>>>>>>> upstream/18.0
 
 #. module: im_livechat
 #. odoo-python
@@ -1306,16 +1329,27 @@ msgstr "%s (העתק)"
 #: code:addons/im_livechat/models/chatbot_script.py:0
 #: code:addons/im_livechat/models/discuss_channel.py:0
 msgid ""
+<<<<<<< HEAD
 "'%(input_email)s' does not look like a valid email. Can you please try "
 "again?"
+=======
+"'%(input_email)s' does not look like a valid email. Can you please try again?"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: im_livechat
 #: model:ir.model.fields,help:im_livechat.field_im_livechat_channel_rule__action
 msgid ""
 "* 'Show' displays the chat button on the pages.\n"
+<<<<<<< HEAD
 "* 'Show with notification' is 'Show' in addition to a floating text just next to the button.\n"
 "* 'Open automatically' displays the button and automatically opens the conversation pane.\n"
+=======
+"* 'Show with notification' is 'Show' in addition to a floating text just "
+"next to the button.\n"
+"* 'Open automatically' displays the button and automatically opens the "
+"conversation pane.\n"
+>>>>>>> upstream/18.0
 "* 'Hide' hides the chat button on the pages.\n"
 msgstr ""
 
@@ -1371,6 +1405,7 @@ msgstr ""
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.chatbot_script_step_view_form
 msgid ""
+<<<<<<< HEAD
 "<span>Reminder: This step will only be played if no operator is "
 "available.</span>"
 msgstr ""
@@ -1380,21 +1415,45 @@ msgstr ""
 msgid ""
 "<span>Tip: At least one interaction (Question, Email, ...) is needed before the Bot can perform more complex actions (Forward to an Operator, ...). </span>\n"
 "                    <span>Use Channel Rules if you want the Bot to interact with visitors only when no operator is available.</span>"
+=======
+"<span>Reminder: This step will only be played if no operator is available.</"
+"span>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.chatbot_script_view_form
 msgid ""
 "<span>Tip: At least one interaction (Question, Email, ...) is needed before "
+<<<<<<< HEAD
 "the Bot can perform more complex actions (Forward to an Operator, "
 "...).</span>"
+=======
+"the Bot can perform more complex actions (Forward to an Operator, ...). </"
+"span>\n"
+"                    <span>Use Channel Rules if you want the Bot to interact "
+"with visitors only when no operator is available.</span>"
+msgstr ""
+
+#. module: im_livechat
+#: model_terms:ir.ui.view,arch_db:im_livechat.chatbot_script_view_form
+msgid ""
+"<span>Tip: At least one interaction (Question, Email, ...) is needed before "
+"the Bot can perform more complex actions (Forward to an Operator, ...).</"
+"span>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.chatbot_script_step_view_form
 msgid ""
+<<<<<<< HEAD
 "<span>Tip: Plan further steps for the Bot in case no operator is "
 "available.</span>"
+=======
+"<span>Tip: Plan further steps for the Bot in case no operator is available.</"
+"span>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: im_livechat
@@ -1411,7 +1470,12 @@ msgstr ""
 #: model:ir.model.fields,help:im_livechat.field_im_livechat_report_channel__is_without_answer
 msgid ""
 "A session is without answer if the operator did not answer. \n"
+<<<<<<< HEAD
 "                                       If the visitor is also the operator, the session will always be answered."
+=======
+"                                       If the visitor is also the operator, "
+"the session will always be answered."
+>>>>>>> upstream/18.0
 msgstr ""
 "אם המפעיל לא ענה סשן הוא ללא מענה. אם המבקר הוא גם המפעיל, השיחה תמיד תיענה."
 
@@ -1613,8 +1677,13 @@ msgstr ""
 #. module: im_livechat
 #: model:ir.model.fields,help:im_livechat.field_discuss_channel__channel_type
 msgid ""
+<<<<<<< HEAD
 "Chat is private and unique between 2 persons. Group is private among invited"
 " persons. Channel can be freely joined (depending on its configuration)."
+=======
+"Chat is private and unique between 2 persons. Group is private among invited "
+"persons. Channel can be freely joined (depending on its configuration)."
+>>>>>>> upstream/18.0
 msgstr ""
 "צ'אט הוא פרטי וייחודי ל-2 משתמשים. קבוצה היא פרטית למוזמנים בלבד. ההצטרפות "
 "לערוץ הנה חופשית (תלוי בהגדרות)."
@@ -1790,7 +1859,11 @@ msgid "Chatbot Script"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Chatbot Script"
+>>>>>>> upstream/18.0
 =======
 msgstr "Chatbot Script"
 >>>>>>> upstream/18.0
@@ -2356,7 +2429,11 @@ msgid "Chatbot Script Step"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Chatbot Script Step"
+>>>>>>> upstream/18.0
 =======
 msgstr "Chatbot Script Step"
 >>>>>>> upstream/18.0
@@ -3488,7 +3565,11 @@ msgid "Leave Channel"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "עזוב ערוץ"
+>>>>>>> upstream/18.0
 =======
 msgstr "עזוב ערוץ"
 >>>>>>> upstream/18.0
@@ -4522,8 +4603,13 @@ msgstr ""
 msgid ""
 "The rule will only be applied for these countries. Example: if you select "
 "'Belgium' and 'United States' and that you set the action to 'Hide', the "
+<<<<<<< HEAD
 "chat button will be hidden on the specified URL from the visitors located in"
 " these 2 countries. This feature requires GeoIP installed on your server."
+=======
+"chat button will be hidden on the specified URL from the visitors located in "
+"these 2 countries. This feature requires GeoIP installed on your server."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: im_livechat
@@ -4641,9 +4727,14 @@ msgstr ""
 #. module: im_livechat
 #: model_terms:digest.tip,tip_description:im_livechat.digest_tip_im_livechat_0
 msgid ""
+<<<<<<< HEAD
 "Use canned responses to define templates of messages in the livechat app. To"
 " load a canned response, start your sentence with ':' and select the "
 "template."
+=======
+"Use canned responses to define templates of messages in the livechat app. To "
+"load a canned response, start your sentence with ':' and select the template."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: im_livechat
@@ -4773,7 +4864,12 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:im_livechat.im_livechat_channel_action
 msgid ""
 "You can create channels for each website on which you want\n"
+<<<<<<< HEAD
 "                to integrate the website live chat widget, allowing your website\n"
+=======
+"                to integrate the website live chat widget, allowing your "
+"website\n"
+>>>>>>> upstream/18.0
 "                visitors to talk in real time with your operators."
 msgstr ""
 

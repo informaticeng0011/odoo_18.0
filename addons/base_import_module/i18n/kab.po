@@ -39,6 +39,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
@@ -148,6 +152,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2019-08-26 08:16+0000\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -256,6 +261,9 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-11-29 18:00+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Kabyle <https://translate.odoo.com/projects/odoo-18/"
@@ -294,6 +302,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -403,6 +414,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
@@ -507,6 +519,33 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 "X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.14.3\n"
+
+#. module: base_import_module
+#. odoo-python
+#: code:addons/base_import_module/models/ir_module.py:0
+msgid ""
+"\n"
+"You may need the Enterprise version to install the data module. Please visit "
+"https://www.odoo.com/pricing-plan for more information.\n"
+"If you need Website themes, it can be downloaded from https://github.com/"
+"odoo/design-themes.\n"
+msgstr ""
+
+#. module: base_import_module
+#: model_terms:ir.ui.view,arch_db:base_import_module.module_form_apps_inherit
+#: model_terms:ir.ui.view,arch_db:base_import_module.module_view_kanban_apps_inherit
+msgid "Activate"
+msgstr ""
+
+#. module: base_import_module
+#. odoo-python
+#: code:addons/base_import_module/models/ir_module.py:0
+#: model_terms:ir.ui.view,arch_db:base_import_module.view_module_filter_apps_inherit
+msgid "Apps"
+msgstr ""
 >>>>>>> upstream/18.0
 
 #. module: base_import_module
@@ -517,6 +556,7 @@ msgstr "Sefsex"
 #. module: base_import_module
 #: model_terms:ir.ui.view,arch_db:base_import_module.view_base_module_import
 msgid "Close"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -660,6 +700,25 @@ msgstr "Mdel"
 >>>>>>> upstream/18.0
 
 #. module: base_import_module
+=======
+msgstr "Mdel"
+
+#. module: base_import_module
+#. odoo-python
+#: code:addons/base_import_module/models/ir_module.py:0
+msgid ""
+"Connection to %(url)s failed, the module %(module)s cannot be downloaded."
+msgstr ""
+
+#. module: base_import_module
+#. odoo-python
+#: code:addons/base_import_module/models/ir_module.py:0
+msgid "Connection to %s failed The list of industry modules cannot be fetched"
+msgstr ""
+
+#. module: base_import_module
+#. odoo-python
+>>>>>>> upstream/18.0
 #: code:addons/base_import_module/controllers/main.py:0
 msgid "Could not select database '%s'"
 msgstr ""
@@ -712,6 +771,7 @@ msgid "Display Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Isem n Ubeqqeḍ"
@@ -820,6 +880,22 @@ msgstr "Isem n Ubeqqeḍ"
 >>>>>>> upstream/18.0
 
 #. module: base_import_module
+=======
+msgstr "Isem n Ubeqqeḍ"
+
+#. module: base_import_module
+#. odoo-python
+#: code:addons/base_import_module/models/ir_module.py:0
+msgid ""
+"Error while importing module '%(module)s'.\n"
+"\n"
+" %(error_message)s \n"
+"\n"
+msgstr ""
+
+#. module: base_import_module
+#. odoo-python
+>>>>>>> upstream/18.0
 #: code:addons/base_import_module/models/ir_module.py:0
 msgid "File '%s' exceed maximum allowed file size"
 msgstr ""
@@ -840,11 +916,14 @@ msgid "ID"
 msgstr "Asulay"
 
 #. module: base_import_module
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:base_import_module.view_base_module_import
 msgid "Import App"
 msgstr ""
 
 #. module: base_import_module
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:base_import_module.field_base_import_module__import_message
 msgid "Import Message"
 msgstr ""
@@ -853,13 +932,21 @@ msgstr ""
 #: model:ir.actions.act_window,name:base_import_module.action_view_base_module_import
 #: model:ir.model,name:base_import_module.model_base_import_module
 #: model:ir.ui.menu,name:base_import_module.menu_view_base_module_import
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:base_import_module.view_base_module_import
+=======
+>>>>>>> upstream/18.0
 msgid "Import Module"
 msgstr ""
 
 #. module: base_import_module
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:base_import_module.view_base_module_import
 msgid "Import module"
+=======
+#: model:ir.model.fields,field_description:base_import_module.field_base_import_module__with_demo
+msgid "Import demo data of module"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: base_import_module
@@ -868,9 +955,31 @@ msgid "Imported Module"
 msgstr ""
 
 #. module: base_import_module
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:base_import_module.field_base_import_module____last_update
 msgid "Last Modified on"
 msgstr "Aleqqem aneggaru di"
+=======
+#: model:ir.model.fields.selection,name:base_import_module.selection__ir_module_module__module_type__industries
+msgid "Industries"
+msgstr ""
+
+#. module: base_import_module
+#: model_terms:ir.ui.view,arch_db:base_import_module.view_base_module_import
+msgid "Install"
+msgstr ""
+
+#. module: base_import_module
+#. odoo-python
+#: code:addons/base_import_module/models/ir_module.py:0
+msgid "Install an Industry"
+msgstr ""
+
+#. module: base_import_module
+#: model_terms:ir.ui.view,arch_db:base_import_module.view_base_module_import
+msgid "Install the application"
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: base_import_module
 #: model:ir.model.fields,field_description:base_import_module.field_base_import_module__write_uid
@@ -883,6 +992,7 @@ msgid "Last Updated on"
 msgstr "Aleqqem aneggaru di"
 
 #. module: base_import_module
+<<<<<<< HEAD
 #: model:ir.model,name:base_import_module.model_ir_module_module
 msgid "Module"
 <<<<<<< HEAD
@@ -1026,6 +1136,24 @@ msgstr "Azegrir"
 =======
 msgstr "Azegrir"
 >>>>>>> upstream/18.0
+=======
+#: model_terms:ir.ui.view,arch_db:base_import_module.view_base_module_import
+msgid "Load demo data"
+msgstr ""
+
+#. module: base_import_module
+#. odoo-python
+#: code:addons/base_import_module/models/ir_module.py:0
+msgid ""
+"Load demo data to test the industry's features with sample records. Do not "
+"load them if this is your production database."
+msgstr ""
+
+#. module: base_import_module
+#: model:ir.model,name:base_import_module.model_ir_module_module
+msgid "Module"
+msgstr "Azegrir"
+>>>>>>> upstream/18.0
 
 #. module: base_import_module
 #: model:ir.model.fields,field_description:base_import_module.field_base_import_module__module_file
@@ -1033,6 +1161,30 @@ msgid "Module .ZIP file"
 msgstr ""
 
 #. module: base_import_module
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:base_import_module.field_ir_module_module__module_type
+msgid "Module Type"
+msgstr ""
+
+#. module: base_import_module
+#: model:ir.model,name:base_import_module.model_base_module_uninstall
+msgid "Module Uninstall"
+msgstr ""
+
+#. module: base_import_module
+#: model_terms:ir.ui.view,arch_db:base_import_module.view_base_module_import
+msgid "Module file (.zip)"
+msgstr ""
+
+#. module: base_import_module
+#: model:ir.model.fields,field_description:base_import_module.field_base_import_module__modules_dependencies
+msgid "Modules Dependencies"
+msgstr ""
+
+#. module: base_import_module
+#. odoo-python
+>>>>>>> upstream/18.0
 #: code:addons/base_import_module/models/ir_module.py:0
 msgid "No file sent."
 msgstr ""
@@ -1043,16 +1195,36 @@ msgid "Note: you can only import data modules (.xml files and static assets)"
 msgstr ""
 
 #. module: base_import_module
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields.selection,name:base_import_module.selection__ir_module_module__module_type__official
+msgid "Official Apps"
+msgstr ""
+
+#. module: base_import_module
+#. odoo-python
+#: code:addons/base_import_module/models/ir_module.py:0
+msgid "Only administrators can install data modules."
+msgstr ""
+
+#. module: base_import_module
+#. odoo-python
+>>>>>>> upstream/18.0
 #: code:addons/base_import_module/controllers/main.py:0
 msgid "Only administrators can upload a module"
 msgstr ""
 
 #. module: base_import_module
+<<<<<<< HEAD
+=======
+#. odoo-python
+>>>>>>> upstream/18.0
 #: code:addons/base_import_module/models/ir_module.py:0
 msgid "Only zip files are supported."
 msgstr ""
 
 #. module: base_import_module
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:base_import_module.view_base_module_import
 msgid "Open Modules"
 msgstr ""
@@ -1063,26 +1235,65 @@ msgid "Select module package to import (.zip file):"
 msgstr ""
 
 #. module: base_import_module
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:base_import_module.field_base_import_module__state
 msgid "Status"
 msgstr "Addad"
 
 #. module: base_import_module
+<<<<<<< HEAD
 #: code:addons/base_import_module/models/ir_module.py:0
 msgid "Studio customizations require Studio"
 msgstr ""
 
 #. module: base_import_module
+=======
+#. odoo-python
+>>>>>>> upstream/18.0
 #: code:addons/base_import_module/models/ir_module.py:0
 msgid "Studio customizations require the Odoo Studio app."
 msgstr ""
 
 #. module: base_import_module
+<<<<<<< HEAD
 #: code:addons/base_import_module/models/ir_module.py:0
 msgid ""
 "Unmet module dependencies: \n"
 "\n"
 " - %s"
+=======
+#. odoo-python
+#: code:addons/base_import_module/models/ir_module.py:0
+msgid ""
+"The installation of the data module would fail as the following dependencies "
+"can't be found in the addons-path:\n"
+msgstr ""
+
+#. module: base_import_module
+#. odoo-python
+#: code:addons/base_import_module/models/ir_module.py:0
+msgid ""
+"The list of industry applications cannot be fetched. Please try again later"
+msgstr ""
+
+#. module: base_import_module
+#. odoo-python
+#: code:addons/base_import_module/models/ir_module.py:0
+msgid "The module %s cannot be downloaded"
+msgstr ""
+
+#. module: base_import_module
+#. odoo-python
+#: code:addons/base_import_module/models/ir_module.py:0
+msgid "Unknown module dependencies:"
+msgstr ""
+
+#. module: base_import_module
+#: model_terms:ir.ui.view,arch_db:base_import_module.module_form_apps_inherit
+#: model_terms:ir.ui.view,arch_db:base_import_module.module_view_kanban_apps_inherit
+msgid "Upgrade"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: base_import_module
@@ -1123,7 +1334,11 @@ msgid "View"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Timeẓri"
+>>>>>>> upstream/18.0
 =======
 msgstr "Timeẓri"
 >>>>>>> upstream/18.0
@@ -1239,3 +1454,9 @@ msgstr ""
 #: model:ir.model.fields.selection,name:base_import_module.selection__base_import_module__state__init
 msgid "init"
 msgstr ""
+<<<<<<< HEAD
+=======
+
+#~ msgid "Last Modified on"
+#~ msgstr "Aleqqem aneggaru di"
+>>>>>>> upstream/18.0

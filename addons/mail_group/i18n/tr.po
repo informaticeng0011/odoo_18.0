@@ -114,8 +114,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* mail_group
 # 
+=======
+# * mail_group
+#
+>>>>>>> upstream/18.0
 =======
 # * mail_group
 #
@@ -766,6 +771,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Deniz Guvener, 2025
 >>>>>>> upstream/18.0
@@ -1448,10 +1454,16 @@
 # "Deniz Guvener Unal (degu)" <degu@odoo.com>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
+=======
+# Deniz Guvener_Odoo <degu@odoo.com>, 2025
+# "Deniz Guvener Unal (degu)" <degu@odoo.com>, 2025.
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-12-16 13:40+0000\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2132,6 +2144,11 @@ msgstr ""
 "PO-Revision-Date: 2025-11-25 09:48+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2025-11-25 09:48+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Turkish <https://translate.odoo.com/projects/odoo-18/"
 "mail_group/tr/>\n"
 "Language: tr\n"
@@ -2253,6 +2270,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2520,6 +2540,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+") <span invisible=\"not send_email\">ve onlara</span> adresinden bir e-posta "
+"gönderin."
+>>>>>>> upstream/18.0
 =======
 ") <span invisible=\"not send_email\">ve onlara</span> adresinden bir e-posta "
 "gönderin."
@@ -2671,21 +2696,45 @@ msgstr "<br/> Bazı yeni içerikler yayınlanır yayınlanmaz bildirim alırsın
 msgid ""
 "<div style=\"margin: 0px; padding: 0px;\">\n"
 "                Hello,<br/><br/>\n"
+<<<<<<< HEAD
 "                You have requested to be subscribed to the mailing list <strong t-out=\"object.name or ''\"/>.\n"
 "                <br/><br/>\n"
 "                To confirm, please visit the following link: <strong t-if=\"ctx.get('token_url')\"><a t-att-href=\"ctx['token_url']\"><t t-out=\"ctx['token_url'] or ''\"/></a></strong>\n"
 "                <br/><br/>\n"
 "                If this was a mistake or you did not requested this action, please ignore this message.\n"
+=======
+"                You have requested to be subscribed to the mailing list "
+"<strong t-out=\"object.name or ''\"/>.\n"
+"                <br/><br/>\n"
+"                To confirm, please visit the following link: <strong t-"
+"if=\"ctx.get('token_url')\"><a t-att-href=\"ctx['token_url']\"><t t-"
+"out=\"ctx['token_url'] or ''\"/></a></strong>\n"
+"                <br/><br/>\n"
+"                If this was a mistake or you did not requested this action, "
+"please ignore this message.\n"
+>>>>>>> upstream/18.0
 "            </div>\n"
 "        "
 msgstr ""
 "<div style=\"margin: 0px; padding: 0px;\">\n"
 "                Merhaba<br/><br/>\n"
+<<<<<<< HEAD
 "                E-posta listesine abone olmayı talep ettiniz <strong t-out=\"object.name or ''\"/>.\n"
 "                <br/><br/>\n"
 "                Onaylamak için lütfen aşağıdaki bağlantıyı ziyaret edin: <strong t-if=\"ctx.get('token_url')\"><a t-att-href=\"ctx['token_url']\"><t t-out=\"ctx['token_url'] or ''\"/></a></strong>\n"
 "                <br/><br/>\n"
 "                Bu bir hataysa veya bu eylemi talep etmediyseniz, lütfen bu mesajı yok sayın.\n"
+=======
+"                E-posta listesine abone olmayı talep ettiniz <strong t-"
+"out=\"object.name or ''\"/>.\n"
+"                <br/><br/>\n"
+"                Onaylamak için lütfen aşağıdaki bağlantıyı ziyaret edin: "
+"<strong t-if=\"ctx.get('token_url')\"><a t-att-href=\"ctx['token_url']\"><t "
+"t-out=\"ctx['token_url'] or ''\"/></a></strong>\n"
+"                <br/><br/>\n"
+"                Bu bir hataysa veya bu eylemi talep etmediyseniz, lütfen bu "
+"mesajı yok sayın.\n"
+>>>>>>> upstream/18.0
 "            </div>\n"
 "        "
 
@@ -2694,21 +2743,45 @@ msgstr ""
 msgid ""
 "<div style=\"margin: 0px; padding: 0px;\">\n"
 "                Hello,<br/><br/>\n"
+<<<<<<< HEAD
 "                You have requested to be unsubscribed to the mailing list <strong t-out=\"object.name or ''\"/>.\n"
 "                <br/><br/>\n"
 "                To confirm, please visit the following link: <strong t-if=\"ctx.get('token_url')\"><a t-att-href=\"ctx['token_url']\"><t t-out=\"ctx['token_url'] or ''\"/></a></strong>.\n"
 "                <br/><br/>\n"
 "                If this was a mistake or you did not requested this action, please ignore this message.\n"
+=======
+"                You have requested to be unsubscribed to the mailing list "
+"<strong t-out=\"object.name or ''\"/>.\n"
+"                <br/><br/>\n"
+"                To confirm, please visit the following link: <strong t-"
+"if=\"ctx.get('token_url')\"><a t-att-href=\"ctx['token_url']\"><t t-"
+"out=\"ctx['token_url'] or ''\"/></a></strong>.\n"
+"                <br/><br/>\n"
+"                If this was a mistake or you did not requested this action, "
+"please ignore this message.\n"
+>>>>>>> upstream/18.0
 "            </div>\n"
 "        "
 msgstr ""
 "<div style=\"margin: 0px; padding: 0px;\">\n"
 "                Merhaba<br/><br/>\n"
+<<<<<<< HEAD
 "                Posta listesi aboneliğinden çıkarılmayı talep ettiniz <strong t-out=\"object.name or ''\"/>.\n"
 "                <br/><br/>\n"
 "                Onaylamak için lütfen aşağıdaki bağlantıyı ziyaret edin: <strong t-if=\"ctx.get('token_url')\"><a t-att-href=\"ctx['token_url']\"><t t-out=\"ctx['token_url'] or ''\"/></a></strong>.\n"
 "                <br/><br/>\n"
 "                Bu bir hataysa veya bu eylemi talep etmediyseniz, lütfen bu mesajı yok sayın.\n"
+=======
+"                Posta listesi aboneliğinden çıkarılmayı talep ettiniz "
+"<strong t-out=\"object.name or ''\"/>.\n"
+"                <br/><br/>\n"
+"                Onaylamak için lütfen aşağıdaki bağlantıyı ziyaret edin: "
+"<strong t-if=\"ctx.get('token_url')\"><a t-att-href=\"ctx['token_url']\"><t "
+"t-out=\"ctx['token_url'] or ''\"/></a></strong>.\n"
+"                <br/><br/>\n"
+"                Bu bir hataysa veya bu eylemi talep etmediyseniz, lütfen bu "
+"mesajı yok sayın.\n"
+>>>>>>> upstream/18.0
 "            </div>\n"
 "        "
 
@@ -2717,6 +2790,7 @@ msgstr ""
 msgid ""
 "<div>\n"
 "                <p>Hello <t t-out=\"object.partner_id.name or ''\"/>,</p>\n"
+<<<<<<< HEAD
 "                <p>Please find below the guidelines of the <t t-out=\"object.mail_group_id.name\"/> mailing list.</p>\n"
 "                <p><t t-out=\"object.mail_group_id.moderation_guidelines_msg or ''\"/></p>\n"
 "            </div>\n"
@@ -2826,10 +2900,20 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"                <p>Please find below the guidelines of the <t t-"
+"out=\"object.mail_group_id.name\"/> mailing list.</p>\n"
+"                <p><t t-out=\"object.mail_group_id.moderation_guidelines_msg "
+"or ''\"/></p>\n"
+"            </div>\n"
+"        "
+msgstr ""
+>>>>>>> upstream/18.0
 "<div>\n"
 "                <p>Merhaba <t t-out=\"object.partner_id.name or ''\"/>,</p>\n"
 "                <p>Lütfen aşağıda <t t-out=\"object.mail_group_id.name\"/> "
 "posta listesinin yönergelerini bulabilirsiniz.</p>\n"
+<<<<<<< HEAD
 "                <p><t t-out="
 "\"object.mail_group_id.moderation_guidelines_msg or ''\"/></p>\n"
 "           </div>\n"
@@ -2946,14 +3030,42 @@ msgstr "<i class=\"fa fa-calendar\" role=\"img\" aria-label=\"Date\" title=\"Dat
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_groups
 msgid "<i class=\"fa fa-envelope-o me-1\" role=\"img\" aria-label=\"Alias\" title=\"Alias\"/>"
+=======
+"                <p><t t-out=\"object.mail_group_id.moderation_guidelines_msg "
+"or ''\"/></p>\n"
+"           </div>\n"
+"        "
+
+#. module: mail_group
+#: model_terms:ir.ui.view,arch_db:mail_group.message_footer
+msgid ""
+"<i class=\"fa fa-calendar\" role=\"img\" aria-label=\"Date\" title=\"Date\"/>"
+msgstr ""
+"<i class=\"fa fa-calendar\" role=\"img\" aria-label=\"Date\" title=\"Date\"/>"
+
+#. module: mail_group
+#: model_terms:ir.ui.view,arch_db:mail_group.mail_groups
+msgid ""
+"<i class=\"fa fa-envelope-o me-1\" role=\"img\" aria-label=\"Alias\" "
+"title=\"Alias\"/>"
+>>>>>>> upstream/18.0
 msgstr ""
 "<i class=\"fa fa-envelope-o me-1\" role=\"img\" aria-label=\"Alias\" "
 "title=\"Alias\"/>"
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.group_name
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-envelope-o\" role=\"img\" aria-label=\"Alias\" title=\"Alias\"/>"
 msgstr "<i class=\"fa fa-envelope-o\" role=\"img\" aria-label=\"Alias\" title=\"Alias\"/>"
+=======
+msgid ""
+"<i class=\"fa fa-envelope-o\" role=\"img\" aria-label=\"Alias\" "
+"title=\"Alias\"/>"
+msgstr ""
+"<i class=\"fa fa-envelope-o\" role=\"img\" aria-label=\"Alias\" "
+"title=\"Alias\"/>"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_groups
@@ -3109,6 +3221,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"oi oi-arrow-left\" role=\"img\" aria-label=\"Previous message\" "
+"title=\"Önceki mesaj\"/>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"oi oi-arrow-left\" role=\"img\" aria-label=\"Previous message\" "
 "title=\"Önceki mesaj\"/>"
@@ -3811,6 +3928,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"oi oi-arrow-right\" role=\"img\" aria-label=\"Next message\" "
+"title=\"Sonraki mesaj\"/>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"oi oi-arrow-right\" role=\"img\" aria-label=\"Next message\" "
 "title=\"Sonraki mesaj\"/>"
@@ -4371,6 +4493,7 @@ msgstr ""
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.message_attachments
 msgid ""
+<<<<<<< HEAD
 "<i class=\"oi oi-chevron-down\" role=\"img\" aria-label=\"Show attachments\""
 " title=\"Show attachments\"/>"
 msgstr ""
@@ -5069,6 +5192,13 @@ msgstr ""
 "<i class=\"oi oi-chevron-down\" role=\"img\" aria-label=\"Show attachments\""
 " title=\"Ekleri göster\"/>"
 >>>>>>> upstream/18.0
+=======
+"<i class=\"oi oi-chevron-down\" role=\"img\" aria-label=\"Show attachments\" "
+"title=\"Show attachments\"/>"
+msgstr ""
+"<i class=\"oi oi-chevron-down\" role=\"img\" aria-label=\"Show attachments\" "
+"title=\"Ekleri göster\"/>"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.messages_short
@@ -5215,6 +5345,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"oi oi-chevron-down\" role=\"img\" aria-label=\"Show replies\" "
+"title=\"Yanıtları göster\"/>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"oi oi-chevron-down\" role=\"img\" aria-label=\"Show replies\" "
 "title=\"Yanıtları göster\"/>"
@@ -5917,6 +6052,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"oi oi-chevron-right\" role=\"img\" aria-label=\"Hide "
+"attachments\" title=\"Ekleri gizle\"/>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"oi oi-chevron-right\" role=\"img\" aria-label=\"Hide "
 "attachments\" title=\"Ekleri gizle\"/>"
@@ -6619,6 +6759,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"oi oi-chevron-right\" role=\"img\" aria-label=\"Hide replies\" "
+"title=\"Yanıtları gizle\"/>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"oi oi-chevron-right\" role=\"img\" aria-label=\"Hide replies\" "
 "title=\"Yanıtları gizle\"/>"
@@ -7184,6 +7329,7 @@ msgstr "<span class=\"bg-warning\">Beklemede</span>"
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_message_view_form
 msgid ""
+<<<<<<< HEAD
 "<span class=\"ms-2 badge text-bg-success\" invisible=\"author_moderation != 'allow'\">Whitelisted</span>\n"
 "                            <span class=\"ms-2 badge text-bg-danger\" invisible=\"author_moderation != 'ban'\">Banned</span>"
 msgstr ""
@@ -7398,6 +7544,17 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"<span class=\"ms-2 badge text-bg-success\" invisible=\"author_moderation != "
+"'allow'\">Whitelisted</span>\n"
+"                            <span class=\"ms-2 badge text-bg-danger\" "
+"invisible=\"author_moderation != 'ban'\">Banned</span>"
+msgstr ""
+"<span class=\"ms-2 badge text-bg-success\" invisible=\"author_moderation != "
+"'allow'\">Beyaz Listede</span>\n"
+"                            <span class=\"ms-2 badge text-bg-danger\" "
+"invisible=\"author_moderation != 'ban'\">Yasaklandı</span>"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.message_footer
@@ -7559,11 +7716,19 @@ msgstr "Yazar Moderasyon Durumu"
 #. module: mail_group
 #: model:ir.model.fields,help:mail_group.field_mail_group_message__author_id
 msgid ""
+<<<<<<< HEAD
 "Author of the message. If not set, email_from may hold an email address that"
 " did not match any partner."
 msgstr ""
 "Mesajı yazan. Ayarlanmamışsa, email_from hiç bir iş ortağıyla eşleşmeyen bir"
 " eposta adrsini tutabilir."
+=======
+"Author of the message. If not set, email_from may hold an email address that "
+"did not match any partner."
+msgstr ""
+"Mesajı yazan. Ayarlanmamışsa, email_from hiç bir iş ortağıyla eşleşmeyen bir "
+"eposta adrsini tutabilir."
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group__access_group_id
@@ -7595,8 +7760,13 @@ msgid ""
 "Ban this email address and reject all pending messages from the same author "
 "and send an email to the author"
 msgstr ""
+<<<<<<< HEAD
 "Bu e-posta adresini yasaklayın ve aynı yazardan gelen bekleyen tüm mesajları"
 " reddedin ve yazara bir e-posta gönderin"
+=======
+"Bu e-posta adresini yasaklayın ve aynı yazardan gelen bekleyen tüm mesajları "
+"reddedin ve yazara bir e-posta gönderin"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields.selection,name:mail_group.selection__mail_group_message__author_moderation__ban
@@ -7667,7 +7837,11 @@ msgid "Choose or configure a custom domain"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Özel bir alan adı seçin veya yapılandırın"
+>>>>>>> upstream/18.0
 =======
 msgstr "Özel bir alan adı seçin veya yapılandırın"
 >>>>>>> upstream/18.0
@@ -7886,8 +8060,12 @@ msgstr ""
 #. module: mail_group
 #: model:ir.model.fields,help:mail_group.field_mail_group__alias_domain
 msgid "Email domain e.g. 'example.com' in 'odoo@example.com'"
+<<<<<<< HEAD
 msgstr ""
 "E-posta alan adı, örneğin 'odoo@example.com' adresindeki 'example.com'"
+=======
+msgstr "E-posta alan adı, örneğin 'odoo@example.com' adresindeki 'example.com'"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_view_form
@@ -7974,6 +8152,7 @@ msgstr "ID"
 #. module: mail_group
 #: model:ir.model.fields,help:mail_group.field_mail_group__alias_parent_thread_id
 msgid ""
+<<<<<<< HEAD
 "ID of the parent record holding the alias (example: project holding the task"
 " creation alias)"
 msgstr ""
@@ -8658,6 +8837,13 @@ msgstr ""
 "Takma adı barındıran üst kayıt kimliği (örnek: görev oluşturma takma adını "
 "barındıran proje)"
 >>>>>>> upstream/18.0
+=======
+"ID of the parent record holding the alias (example: project holding the task "
+"creation alias)"
+msgstr ""
+"Takma adı barındıran üst kayıt kimliği (örnek: görev oluşturma takma adını "
+"barındıran proje)"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,help:mail_group.field_mail_group__alias_bounced_content
@@ -8725,7 +8911,11 @@ msgid "Invalid email address “%s”"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Geçersiz e-posta adresi “%s”"
+>>>>>>> upstream/18.0
 =======
 msgstr "Geçersiz e-posta adresi “%s”"
 >>>>>>> upstream/18.0
@@ -9093,7 +9283,11 @@ msgid "Local-part based incoming detection"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Yerel bölüm bazlı gelen algılama"
+>>>>>>> upstream/18.0
 =======
 msgstr "Yerel bölüm bazlı gelen algılama"
 >>>>>>> upstream/18.0
@@ -9892,6 +10086,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "Abonelikten çıkmak mı istiyorsunuz? <br/>İşte burada! <span class="
 "\"oi fa-2x oi-arrow-down float-end\" role=\"img\" aria-label=\"\" title=\""
@@ -10066,6 +10261,11 @@ msgstr ""
 "Abonelikten çıkmak mı istiyorsunuz? <br/>İşte burada! <span class="
 "\"oi fa-2x oi-arrow-down float-end\" role=\"img\" aria-label=\"\" title=\""
 "Read this !\"/>"
+>>>>>>> upstream/18.0
+=======
+"Abonelikten çıkmak mı istiyorsunuz? <br/>İşte burada! <span class=\"oi fa-2x "
+"oi-arrow-down float-end\" role=\"img\" aria-label=\"\" title=\"Read this !\"/"
+">"
 >>>>>>> upstream/18.0
 
 #. module: mail_group
@@ -10116,8 +10316,12 @@ msgstr "Bu gruptaki ileti sayısı"
 msgid ""
 "Only an administrator or a moderator can send guidelines to group members."
 msgstr ""
+<<<<<<< HEAD
 "Grup üyelerine yalnızca bir yönetici veya bir moderatör kılavuz "
 "gönderebilir."
+=======
+"Grup üyelerine yalnızca bir yönetici veya bir moderatör kılavuz gönderebilir."
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #. odoo-python
@@ -10165,6 +10369,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Yalnızca seçilen kullanıcı grupları posta listesine e-posta gönderebilir."
+>>>>>>> upstream/18.0
 =======
 "Yalnızca seçilen kullanıcı grupları posta listesine e-posta gönderebilir."
 >>>>>>> upstream/18.0
@@ -10278,6 +10486,7 @@ msgid ""
 "attached, even if they did not reply to it. If set, this will disable the "
 "creation of new records completely."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11142,6 +11351,11 @@ msgstr ""
 "parçacığının (kayıt) isteğe bağlı kimliği. Ayarlandığı durumlarda yeni "
 "kayıtların oluşturulması tamamen devre dışı bırakılır."
 >>>>>>> upstream/18.0
+=======
+"Gelen tüm mesajların, yanıt verilmemiş olsa bile ekleneceği bir iş "
+"parçacığının (kayıt) isteğe bağlı kimliği. Ayarlandığı durumlarda yeni "
+"kayıtların oluşturulması tamamen devre dışı bırakılır."
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group_message__group_message_parent_id
@@ -11161,17 +11375,27 @@ msgstr "Üst kayıt iş parçacığı kimliği"
 #. module: mail_group
 #: model:ir.model.fields,help:mail_group.field_mail_group__alias_parent_model_id
 msgid ""
+<<<<<<< HEAD
 "Parent model holding the alias. The model holding the alias reference is not"
 " necessarily the model given by alias_model_id (example: project "
 "(parent_model) and task (model))"
 msgstr ""
 "Rumuzun bulunduğu üst model. Rumuz referansın bulunduğu model zorunlu olarak"
 " alias_model_id tarafından verilen model değildir.  (örnek: project "
+=======
+"Parent model holding the alias. The model holding the alias reference is not "
+"necessarily the model given by alias_model_id (example: project "
+"(parent_model) and task (model))"
+msgstr ""
+"Rumuzun bulunduğu üst model. Rumuz referansın bulunduğu model zorunlu olarak "
+"alias_model_id tarafından verilen model değildir.  (örnek: project "
+>>>>>>> upstream/18.0
 "(parent_model) ve görev (model))"
 
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group_member__partner_id
 msgid "Partner"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11629,6 +11853,9 @@ msgstr "Partner"
 =======
 msgstr "Partner"
 >>>>>>> upstream/18.0
+=======
+msgstr "Partner"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group__member_partner_ids
@@ -11670,7 +11897,12 @@ msgid ""
 "Policy to post a message on the document using the mailgateway.\n"
 "- everyone: everyone can post\n"
 "- partners: only authenticated partners\n"
+<<<<<<< HEAD
 "- followers: only followers of the related document or members of following channels\n"
+=======
+"- followers: only followers of the related document or members of following "
+"channels\n"
+>>>>>>> upstream/18.0
 msgstr ""
 "Posta geçidini kullanarak gönderilecek mesajların kuralları:\n"
 "- herkes: herkes posta gönderebilir\n"
@@ -11859,8 +12091,13 @@ msgstr "Posta grubuna abonelik onayı"
 #. odoo-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid ""
+<<<<<<< HEAD
 "Template \"mail_group.mail_template_guidelines\" was not found. No email has"
 " been sent. Please contact an administrator to fix this issue."
+=======
+"Template \"mail_group.mail_template_guidelines\" was not found. No email has "
+"been sent. Please contact an administrator to fix this issue."
+>>>>>>> upstream/18.0
 msgstr ""
 "\"mail_group.mail_template_guidelines\" şablonu bulunamadı. Hiçbir e-posta "
 "gönderilmedi. Bu sorunu gidermek için lütfen bir yöneticiye başvurun."
@@ -11908,9 +12145,15 @@ msgstr "Yönerge açıklaması eksik."
 #. module: mail_group
 #: model:ir.model.fields,help:mail_group.field_mail_group__alias_model_id
 msgid ""
+<<<<<<< HEAD
 "The model (Odoo Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
+=======
+"The model (Odoo Document Kind) to which this alias corresponds. Any incoming "
+"email that does not reply to an existing record will cause the creation of a "
+"new record of this model (e.g. a Project Task)"
+>>>>>>> upstream/18.0
 msgstr ""
 "Bu rumuzun karşılık geldiği model (Odoo Belge Türü). Mevcut bir kayda yanıt "
 "vermeyen herhangi bir gelen e-posta, bu modelin yeni bir kaydının "
@@ -12074,10 +12317,19 @@ msgstr "olmuştur"
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_groups
 msgid ""
 "members<br/>\n"
+<<<<<<< HEAD
 "                        <i class=\"fa fa-fw fa-envelope-o\" role=\"img\" aria-label=\"Traffic\" title=\"Traffic\"/>"
 msgstr ""
 "üyeler<br/>\n"
 "                        <i class=\"fa fa-fw fa-envelope-o\" role=\"img\" aria-label=\"Traffic\" title=\"Traffic\"/>"
+=======
+"                        <i class=\"fa fa-fw fa-envelope-o\" role=\"img\" "
+"aria-label=\"Traffic\" title=\"Traffic\"/>"
+msgstr ""
+"üyeler<br/>\n"
+"                        <i class=\"fa fa-fw fa-envelope-o\" role=\"img\" "
+"aria-label=\"Traffic\" title=\"Traffic\"/>"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_groups

@@ -265,7 +265,11 @@ EXPORT_FCT_RE = re.compile(r"""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     (?P<identifier>\w+)                     # name the function
+=======
+    (?P<identifier>[\w$]+)                  # name of the function
+>>>>>>> upstream/18.0
 =======
     (?P<identifier>[\w$]+)                  # name of the function
 >>>>>>> upstream/18.0
@@ -846,7 +850,11 @@ EXPORT_CLASS_RE = re.compile(r"""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     (?P<identifier>\w+)                     # name of the class
+=======
+    (?P<identifier>[\w$]+)                  # name of the class
+>>>>>>> upstream/18.0
 =======
     (?P<identifier>[\w$]+)                  # name of the class
 >>>>>>> upstream/18.0
@@ -1423,7 +1431,11 @@ EXPORT_FCT_DEFAULT_RE = re.compile(r"""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     (?P<identifier>\w+)                     # name of the function
+=======
+    (?P<identifier>[\w$]+)                  # name of the function
+>>>>>>> upstream/18.0
 =======
     (?P<identifier>[\w$]+)                  # name of the function
 >>>>>>> upstream/18.0
@@ -2004,7 +2016,11 @@ EXPORT_CLASS_DEFAULT_RE = re.compile(r"""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     (?P<identifier>\w+)                     # name of the class or the function
+=======
+    (?P<identifier>[\w$]+)                  # name of the class or the function
+>>>>>>> upstream/18.0
 =======
     (?P<identifier>[\w$]+)                  # name of the class or the function
 >>>>>>> upstream/18.0
@@ -2580,7 +2596,11 @@ EXPORT_VAR_RE = re.compile(r"""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     (?P<identifier>\w+)         # variable name
+=======
+    (?P<identifier>[\w$]+)      # variable name
+>>>>>>> upstream/18.0
 =======
     (?P<identifier>[\w$]+)      # variable name
 >>>>>>> upstream/18.0
@@ -3158,7 +3178,11 @@ EXPORT_DEFAULT_VAR_RE = re.compile(r"""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     (?P<identifier>\w+)\s*      # variable name
+=======
+    (?P<identifier>[\w$]+)\s*   # variable name
+>>>>>>> upstream/18.0
 =======
     (?P<identifier>[\w$]+)\s*   # variable name
 >>>>>>> upstream/18.0
@@ -3734,7 +3758,11 @@ EXPORT_OBJECT_RE = re.compile(r"""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     (?P<object>{[\w\s,]+})              # { a, b, c as x, ... }
+=======
+    (?P<object>{[\w$\s,]+})             # { a, b, c as x, ... }
+>>>>>>> upstream/18.0
 =======
     (?P<object>{[\w$\s,]+})             # { a, b, c as x, ... }
 >>>>>>> upstream/18.0
@@ -4312,7 +4340,11 @@ EXPORT_FROM_RE = re.compile(r"""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     (?P<object>{[\w\s,]+})\s*           # { a, b, c as x, ... }
+=======
+    (?P<object>{[\w$\s,]+})\s*          # { a, b, c as x, ... }
+>>>>>>> upstream/18.0
 =======
     (?P<object>{[\w$\s,]+})\s*          # { a, b, c as x, ... }
 >>>>>>> upstream/18.0
@@ -4920,7 +4952,11 @@ EXPORT_DEFAULT_RE = re.compile(r"""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     (\s+\w+\s*=)?       # something (optional)
+=======
+    (\s+[\w$]+\s*=)?    # something (optional)
+>>>>>>> upstream/18.0
 =======
     (\s+[\w$]+\s*=)?    # something (optional)
 >>>>>>> upstream/18.0
@@ -5508,7 +5544,11 @@ IMPORT_BASIC_RE = re.compile(r"""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     (?P<object>{[\s\w,]+})\s*           # { a, b, c as x, ... }
+=======
+    (?P<object>{[\s\w$,]+})\s*          # { a, b, c as x, ... }
+>>>>>>> upstream/18.0
 =======
     (?P<object>{[\s\w$,]+})\s*          # { a, b, c as x, ... }
 >>>>>>> upstream/18.0
@@ -6087,7 +6127,11 @@ IMPORT_LEGACY_DEFAULT_RE = re.compile(r"""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     (?P<identifier>\w+)\s*                              # default variable name
+=======
+    (?P<identifier>[\w$]+)\s*                           # default variable name
+>>>>>>> upstream/18.0
 =======
     (?P<identifier>[\w$]+)\s*                           # default variable name
 >>>>>>> upstream/18.0
@@ -6666,7 +6710,11 @@ IMPORT_DEFAULT = re.compile(r"""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     (?P<identifier>\w+)\s*              # default variable name
+=======
+    (?P<identifier>[\w$]+)\s*           # default variable name
+>>>>>>> upstream/18.0
 =======
     (?P<identifier>[\w$]+)\s*           # default variable name
 >>>>>>> upstream/18.0
@@ -7245,8 +7293,13 @@ IMPORT_DEFAULT_AND_NAMED_RE = re.compile(r"""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     (?P<default_export>\w+)\s*,\s*                  # default variable name,
     (?P<named_exports>{[\s\w,]+})\s*                # { a, b, c as x, ... }
+=======
+    (?P<default_export>[\w$]+)\s*,\s*               # default variable name,
+    (?P<named_exports>{[\s\w$,]+})\s*                # { a, b, c as x, ... }
+>>>>>>> upstream/18.0
 =======
     (?P<default_export>[\w$]+)\s*,\s*               # default variable name,
     (?P<named_exports>{[\s\w$,]+})\s*                # { a, b, c as x, ... }
@@ -8004,12 +8057,15 @@ IMPORT_STAR = re.compile(r"""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     ^(?P<space>\s*)       # indentation
     import\s+\*\s+as\s+   # import * as
     (?P<identifier>\w+)   # alias
     \s*from\s*            # from
     (?P<path>[^;\n]+)     # path
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8426,6 +8482,9 @@ IMPORT_STAR = re.compile(r"""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8858,6 +8917,7 @@ IMPORT_DEFAULT_AND_STAR = re.compile(r"""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     ^(?P<space>\s*)                 # indentation
     import\s+                       # import
     (?P<default_export>\w+)\s*,\s*  # default export name,
@@ -8866,6 +8926,8 @@ IMPORT_DEFAULT_AND_STAR = re.compile(r"""
     \s*from\s*                      # from
     (?P<path>[^;\n]+)               # path
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9284,6 +9346,9 @@ IMPORT_DEFAULT_AND_STAR = re.compile(r"""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9619,7 +9684,11 @@ def convert_unnamed_relative_import(content):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     repl = r"require(\g<path>)"
+=======
+    repl = r"\g<space>require(\g<path>)"
+>>>>>>> upstream/18.0
 =======
     repl = r"\g<space>require(\g<path>)"
 >>>>>>> upstream/18.0
@@ -9726,6 +9795,7 @@ def relative_path_to_module_path(url, path_rel):
 
 
 ODOO_MODULE_RE = re.compile(r"""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10146,6 +10216,8 @@ ODOO_MODULE_RE = re.compile(r"""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     \s*                                # starting white space
     \/(\*|\/)                          # /* or //
     .*                                 # any comment in between (optional)
@@ -10290,6 +10362,9 @@ ODOO_MODULE_RE = re.compile(r"""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

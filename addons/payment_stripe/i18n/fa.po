@@ -1,14 +1,22 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* payment_stripe
+<<<<<<< HEAD
 # 
 # Translators:
 # Tiffany Chang, 2025
 # 
+=======
+#
+# Translators:
+# Tiffany Chang, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Tiffany Chang, 2025\n"
@@ -17,6 +25,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: fa\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:38+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Tiffany Chang, 2025\n"
+"Language-Team: Persian (https://app.transifex.com/odoo/teams/41243/fa/)\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+>>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #. module: payment_stripe
@@ -229,8 +247,13 @@ msgid ""
 "The refund did not go through. Please log into your Stripe Dashboard to get "
 "more information on that matter, and address any accounting discrepancies."
 msgstr ""
+<<<<<<< HEAD
 "بازپرداخت انجام نشد. لطفاً وارد داشبورد Stripe خود شوید تا اطلاعات بیشتری در"
 " این باره به دست آورید و هرگونه ناهماهنگی حسابداری را رسیدگی کنید."
+=======
+"بازپرداخت انجام نشد. لطفاً وارد داشبورد Stripe خود شوید تا اطلاعات بیشتری در "
+"این باره به دست آورید و هرگونه ناهماهنگی حسابداری را رسیدگی کنید."
+>>>>>>> upstream/18.0
 
 #. module: payment_stripe
 #: model:ir.model.fields,help:payment_stripe.field_payment_provider__code
@@ -266,15 +289,25 @@ msgstr "وب‌هوک استریپ شما با موفقیت تنظیم شد!"
 msgid ""
 "You cannot create a Stripe Webhook if your Stripe Secret Key is not set."
 msgstr ""
+<<<<<<< HEAD
 "شما نمی‌توانید یک وب‌هوک Stripe ایجاد کنید اگر کلید مخفی Stripe شما تنظیم "
 "نشده باشد."
+=======
+"شما نمی‌توانید یک وب‌هوک Stripe ایجاد کنید اگر کلید مخفی Stripe شما تنظیم نشده "
+"باشد."
+>>>>>>> upstream/18.0
 
 #. module: payment_stripe
 #. odoo-python
 #: code:addons/payment_stripe/models/payment_provider.py:0
 msgid ""
+<<<<<<< HEAD
 "You cannot set the provider state to Enabled until your onboarding to Stripe"
 " is completed."
+=======
+"You cannot set the provider state to Enabled until your onboarding to Stripe "
+"is completed."
+>>>>>>> upstream/18.0
 msgstr ""
 "نمی‌توانید وضعیت ارائه‌دهنده را به فعال تغییر دهید تا فرآیند پذیرش شما در "
 "Stripe کامل شود."
@@ -283,8 +316,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/payment_stripe/models/payment_provider.py:0
 msgid ""
+<<<<<<< HEAD
 "You cannot set the provider to Test Mode while it is linked with your Stripe"
 " account."
+=======
+"You cannot set the provider to Test Mode while it is linked with your Stripe "
+"account."
+>>>>>>> upstream/18.0
 msgstr ""
 "شما نمی‌توانید ارائه‌دهنده را به حالت آزمایشی تنظیم کنید در حالی که به حساب "
 "Stripe شما متصل است."

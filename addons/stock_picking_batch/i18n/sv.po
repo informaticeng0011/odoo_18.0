@@ -1,7 +1,11 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* stock_picking_batch
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Chrille Hedberg <hedberg.chrille@gmail.com>, 2024
 # Claes-Johan Dahlin, 2024
@@ -19,11 +23,16 @@
 # Martin Trigaux, 2024
 # Kristoffer Grundström <lovaren@gmail.com>, 2024
 # Jakob Krabbe <jakob.krabbe@vertel.se>, 2024
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-03-19 20:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 "Last-Translator: Jakob Krabbe <jakob.krabbe@vertel.se>, 2024\n"
@@ -32,6 +41,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: sv\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:38+0000\n"
+"PO-Revision-Date: 2024-09-25 09:42+0000\n"
+"Last-Translator: Jakob Krabbe <jakob.krabbe@vertel.se>, 2024\n"
+"Language-Team: Swedish (https://app.transifex.com/odoo/teams/41243/sv/)\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+>>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: stock_picking_batch
@@ -100,19 +119,37 @@ msgstr "<strong>→</strong>"
 #. module: stock_picking_batch
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_type__batch_max_lines
 msgid ""
+<<<<<<< HEAD
 "A transfer will not be automatically added to batches that will exceed this number of lines if the transfer is added to it.\n"
 "Leave this value as '0' if no line limit."
 msgstr ""
 "En överföring kommer inte automatiskt att läggas till i partier som skulle överskrida detta antal rader om överföringen läggs till.\n"
+=======
+"A transfer will not be automatically added to batches that will exceed this "
+"number of lines if the transfer is added to it.\n"
+"Leave this value as '0' if no line limit."
+msgstr ""
+"En överföring kommer inte automatiskt att läggas till i partier som skulle "
+"överskrida detta antal rader om överföringen läggs till.\n"
+>>>>>>> upstream/18.0
 "Lämna detta värde som \"0\" om det inte finns någon radbegränsning."
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_type__batch_max_pickings
 msgid ""
+<<<<<<< HEAD
 "A transfer will not be automatically added to batches that will exceed this number of transfers.\n"
 "Leave this value as '0' if no transfer limit."
 msgstr ""
 "En överföring kommer inte automatiskt att läggas till i parter som skulle överskrida detta antal överföringar.\n"
+=======
+"A transfer will not be automatically added to batches that will exceed this "
+"number of transfers.\n"
+"Leave this value as '0' if no transfer limit."
+msgstr ""
+"En överföring kommer inte automatiskt att läggas till i parter som skulle "
+"överskrida detta antal överföringar.\n"
+>>>>>>> upstream/18.0
 "Lämna detta värde som \"0\" om det inte finns någon överföringsgräns."
 
 #. module: stock_picking_batch
@@ -717,8 +754,13 @@ msgid ""
 "Pick multiple orders in one trip and prepare orders as you pick. This "
 "reduces packing time and is ideal for small products."
 msgstr ""
+<<<<<<< HEAD
 "Plocka flera order på en gång och förbered orderna efterhand som du plockar."
 " Detta minskar packningstiden och är perfekt för små produkter."
+=======
+"Plocka flera order på en gång och förbered orderna efterhand som du plockar. "
+"Detta minskar packningstiden och är perfekt för små produkter."
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_add_to_wave__picking_ids
@@ -733,8 +775,12 @@ msgstr "Plocktyp"
 #. module: stock_picking_batch
 #. odoo-python
 #: code:addons/stock_picking_batch/models/stock_picking_batch.py:0
+<<<<<<< HEAD
 msgid ""
 "Please add 'Done' quantities to the batch picking to create a new pack."
+=======
+msgid "Please add 'Done' quantities to the batch picking to create a new pack."
+>>>>>>> upstream/18.0
 msgstr ""
 "Lägg till \"Klara\" kvantiteter till plockningspartiet för att skapa ett "
 "nytt paket."
@@ -818,8 +864,12 @@ msgstr "Betyg"
 #: model_terms:ir.actions.act_window,help:stock_picking_batch.action_picking_tree_wave
 #: model_terms:ir.actions.act_window,help:stock_picking_batch.stock_picking_batch_action
 msgid ""
+<<<<<<< HEAD
 "Regroup multiple orders into one picking and consolidate at the packing "
 "zone."
+=======
+"Regroup multiple orders into one picking and consolidate at the packing zone."
+>>>>>>> upstream/18.0
 msgstr ""
 "Omgruppera flera order till en plockning och konsolidera vid packzonen."
 
@@ -856,6 +906,7 @@ msgstr "Schemalagt datum"
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_batch__scheduled_date
 msgid ""
 "Scheduled date for the transfers to be processed.\n"
+<<<<<<< HEAD
 "              - If manually set then scheduled date for all transfers in batch will automatically update to this date.\n"
 "              - If not manually changed and transfers are added/removed/updated then this will be their earliest scheduled date\n"
 "                but this scheduled date will not be set for all transfers in batch."
@@ -864,6 +915,23 @@ msgstr ""
 "              - Om det manuellt sätts kommer planerat datum för alla överföringar i partiet automatiskt att uppdateras till detta datum.\n"
 "              - Om det inte manuellt ändras och överföringar läggs till/avlägsnas/uppdateras så kommer detta att vara deras tidigaste planerade datum,\n"
 "                men detta planerade datum kommer inte att sättas för alla överföringar i partiet."
+=======
+"              - If manually set then scheduled date for all transfers in "
+"batch will automatically update to this date.\n"
+"              - If not manually changed and transfers are added/removed/"
+"updated then this will be their earliest scheduled date\n"
+"                but this scheduled date will not be set for all transfers in "
+"batch."
+msgstr ""
+"Planerat datum för överföringarna att behandlas.\n"
+"              - Om det manuellt sätts kommer planerat datum för alla "
+"överföringar i partiet automatiskt att uppdateras till detta datum.\n"
+"              - Om det inte manuellt ändras och överföringar läggs till/"
+"avlägsnas/uppdateras så kommer detta att vara deras tidigaste planerade "
+"datum,\n"
+"                men detta planerade datum kommer inte att sättas för alla "
+"överföringar i partiet."
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_batch_filter
@@ -922,8 +990,13 @@ msgstr ""
 #. module: stock_picking_batch
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_type__wave_group_by_category
 msgid ""
+<<<<<<< HEAD
 "Split transfers by product category, then group transfers that have the same"
 " product category."
+=======
+"Split transfers by product category, then group transfers that have the same "
+"product category."
+>>>>>>> upstream/18.0
 msgstr ""
 "Dela upp överföringar efter produktkategori och gruppera sedan överföringar "
 "som har samma produktkategori."
@@ -1001,11 +1074,21 @@ msgstr "Sammanfattning:"
 #. odoo-python
 #: code:addons/stock_picking_batch/models/stock_picking_batch.py:0
 msgid ""
+<<<<<<< HEAD
 "The following transfers cannot be added to batch transfer %(batch)s. Please check their states and operation types.\n"
 "\n"
 "Incompatibilities: %(incompatible_transfers)s"
 msgstr ""
 "Följande överföringar kan inte läggas till i %(batch)s för batchöverföring. Kontrollera deras tillstånd och drifttyper.\n"
+=======
+"The following transfers cannot be added to batch transfer %(batch)s. Please "
+"check their states and operation types.\n"
+"\n"
+"Incompatibilities: %(incompatible_transfers)s"
+msgstr ""
+"Följande överföringar kan inte läggas till i %(batch)s för batchöverföring. "
+"Kontrollera deras tillstånd och drifttyper.\n"
+>>>>>>> upstream/18.0
 "\n"
 "Inkompatibiliteter: %(inkompatible_transfers)s"
 

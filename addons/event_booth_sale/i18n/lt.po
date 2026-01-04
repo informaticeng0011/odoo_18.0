@@ -1,7 +1,11 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* event_booth_sale
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 # Translators:
 # UAB "Draugiški sprendimai" <transifex@draugiskisprendimai.lt>, 2024
 # Arunas V. <arunas@devoro.com>, 2024
@@ -11,11 +15,16 @@
 # Linas Versada <linaskrisiukenas@gmail.com>, 2024
 # Jonas Zinkevicius <jozi@odoo.com>, 2024
 # Martin Trigaux, 2024
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Martin Trigaux, 2024\n"
@@ -25,6 +34,19 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: lt\n"
 "Plural-Forms: nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < 11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? 1 : n % 1 != 0 ? 2: 3);\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Martin Trigaux, 2024\n"
+"Language-Team: Lithuanian (https://app.transifex.com/odoo/teams/41243/lt/)\n"
+"Language: lt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < "
+"11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? "
+"1 : n % 1 != 0 ? 2: 3);\n"
+>>>>>>> upstream/18.0
 
 #. module: event_booth_sale
 #: model_terms:ir.ui.view,arch_db:event_booth_sale.event_booth_view_form_from_event
@@ -341,8 +363,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/event_booth_sale/models/sale_order_line.py:0
 msgid ""
+<<<<<<< HEAD
 "The following booths are unavailable, please remove them to continue : "
 "%(booth_names)s"
+=======
+"The following booths are unavailable, please remove them to continue : %"
+"(booth_names)s"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: event_booth_sale
@@ -364,8 +391,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/event_booth_sale/models/event_booth.py:0
 msgid ""
+<<<<<<< HEAD
 "You can't delete the following booths as they are linked to sales orders: "
 "%(booths)s"
+=======
+"You can't delete the following booths as they are linked to sales orders: %"
+"(booths)s"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: event_booth_sale
@@ -378,6 +410,10 @@ msgstr ""
 #. odoo-python
 #: code:addons/event_booth_sale/models/event_booth_registration.py:0
 msgid ""
+<<<<<<< HEAD
 "Your order has been cancelled because the following booths have been "
 "reserved"
+=======
+"Your order has been cancelled because the following booths have been reserved"
+>>>>>>> upstream/18.0
 msgstr ""

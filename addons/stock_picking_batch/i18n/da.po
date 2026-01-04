@@ -42,8 +42,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* stock_picking_batch
 # 
+=======
+# * stock_picking_batch
+#
+>>>>>>> upstream/18.0
 =======
 # * stock_picking_batch
 #
@@ -260,7 +265,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
@@ -391,6 +400,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-03-19 20:37+0000\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -525,6 +535,9 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:38+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-11-21 02:37+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Danish <https://translate.odoo.com/projects/odoo-18/"
@@ -576,6 +589,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -722,14 +738,24 @@ msgstr "<strong>→</strong>"
 #. module: stock_picking_batch
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_type__batch_max_lines
 msgid ""
+<<<<<<< HEAD
 "A transfer will not be automatically added to batches that will exceed this number of lines if the transfer is added to it.\n"
+=======
+"A transfer will not be automatically added to batches that will exceed this "
+"number of lines if the transfer is added to it.\n"
+>>>>>>> upstream/18.0
 "Leave this value as '0' if no line limit."
 msgstr ""
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_type__batch_max_pickings
 msgid ""
+<<<<<<< HEAD
 "A transfer will not be automatically added to batches that will exceed this number of transfers.\n"
+=======
+"A transfer will not be automatically added to batches that will exceed this "
+"number of transfers.\n"
+>>>>>>> upstream/18.0
 "Leave this value as '0' if no transfer limit."
 msgstr ""
 
@@ -1011,7 +1037,11 @@ msgid "Choose Type of Labels To Print"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vælg, hvilken etikettype der skal udskrives"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vælg, hvilken etikettype der skal udskrives"
 >>>>>>> upstream/18.0
@@ -1513,8 +1543,12 @@ msgstr "Pluk type"
 #. module: stock_picking_batch
 #. odoo-python
 #: code:addons/stock_picking_batch/models/stock_picking_batch.py:0
+<<<<<<< HEAD
 msgid ""
 "Please add 'Done' quantities to the batch picking to create a new pack."
+=======
+msgid "Please add 'Done' quantities to the batch picking to create a new pack."
+>>>>>>> upstream/18.0
 msgstr ""
 "Vær venlig at tilføje 'Færdig' kvantiteter til parti plukket for at oprette "
 "en ny pakke."
@@ -1598,8 +1632,12 @@ msgstr "Bedømmelser"
 #: model_terms:ir.actions.act_window,help:stock_picking_batch.action_picking_tree_wave
 #: model_terms:ir.actions.act_window,help:stock_picking_batch.stock_picking_batch_action
 msgid ""
+<<<<<<< HEAD
 "Regroup multiple orders into one picking and consolidate at the packing "
 "zone."
+=======
+"Regroup multiple orders into one picking and consolidate at the packing zone."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock_picking_batch
@@ -1635,6 +1673,7 @@ msgstr "Planlagt dato"
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_batch__scheduled_date
 msgid ""
 "Scheduled date for the transfers to be processed.\n"
+<<<<<<< HEAD
 "              - If manually set then scheduled date for all transfers in batch will automatically update to this date.\n"
 "              - If not manually changed and transfers are added/removed/updated then this will be their earliest scheduled date\n"
 "                but this scheduled date will not be set for all transfers in batch."
@@ -1643,6 +1682,22 @@ msgstr ""
 "            - Hvis manuelt angivet vil den planlagte dato for alle overførsler i partier blive opdateret automatisk til denne dato.\n"
 "            - Hvis ikke manuelt ændret og overførsler er tilføjet/fjernet/opdateret så vil dette være deres tidligst planlagte dato\n"
 "              men denne planlagte dato vil ikke bilve angivet for alle overførsler i partiet."
+=======
+"              - If manually set then scheduled date for all transfers in "
+"batch will automatically update to this date.\n"
+"              - If not manually changed and transfers are added/removed/"
+"updated then this will be their earliest scheduled date\n"
+"                but this scheduled date will not be set for all transfers in "
+"batch."
+msgstr ""
+"Planlagt dato for overførsler til behandling.\n"
+"            - Hvis manuelt angivet vil den planlagte dato for alle "
+"overførsler i partier blive opdateret automatisk til denne dato.\n"
+"            - Hvis ikke manuelt ændret og overførsler er tilføjet/fjernet/"
+"opdateret så vil dette være deres tidligst planlagte dato\n"
+"              men denne planlagte dato vil ikke bilve angivet for alle "
+"overførsler i partiet."
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_batch_filter
@@ -1699,8 +1754,13 @@ msgstr ""
 #. module: stock_picking_batch
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_type__wave_group_by_category
 msgid ""
+<<<<<<< HEAD
 "Split transfers by product category, then group transfers that have the same"
 " product category."
+=======
+"Split transfers by product category, then group transfers that have the same "
+"product category."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock_picking_batch
@@ -1774,7 +1834,12 @@ msgstr "Resumé:"
 #. odoo-python
 #: code:addons/stock_picking_batch/models/stock_picking_batch.py:0
 msgid ""
+<<<<<<< HEAD
 "The following transfers cannot be added to batch transfer %(batch)s. Please check their states and operation types.\n"
+=======
+"The following transfers cannot be added to batch transfer %(batch)s. Please "
+"check their states and operation types.\n"
+>>>>>>> upstream/18.0
 "\n"
 "Incompatibilities: %(incompatible_transfers)s"
 msgstr ""

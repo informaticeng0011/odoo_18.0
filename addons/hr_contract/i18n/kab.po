@@ -39,6 +39,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
@@ -148,6 +152,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2023-05-16 13:48+0000\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -364,6 +369,13 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2025-12-31 16:37+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Kabyle <https://translate.odoo.com/projects/odoo-18/"
+"hr_contract/kab/>\n"
+>>>>>>> upstream/18.0
 "Language: kab\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -404,6 +416,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "X-Generator: Weblate 5.12.2\n"
 >>>>>>> upstream/18.0
@@ -445,6 +458,9 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 "X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
 =======
 "X-Generator: Weblate 5.14.3\n"
@@ -534,10 +550,34 @@ msgstr ""
 #. module: hr_contract
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_hr_employee_view_form3
 msgid ""
+<<<<<<< HEAD
 "<span attrs=\"{'invisible' : [('contracts_count', '!=', 1)]}\" class=\"o_stat_text text-danger\">\n"
 "                                    Contract\n"
 "                                </span>\n"
 "                                <span attrs=\"{'invisible' : [('contracts_count', '=', 1)]}\" class=\"o_stat_text text-danger\">\n"
+=======
+"<span class=\"o_stat_text text-danger\" invisible=\"not contract_warning\" "
+"title=\"In Contract Since\">\n"
+"                                    In Contract Since\n"
+"                                </span>"
+msgstr ""
+
+#. module: hr_contract
+#: model_terms:ir.ui.view,arch_db:hr_contract.hr_hr_employee_view_form3
+msgid ""
+"<span class=\"o_stat_text text-success\" invisible=\"contract_warning\" "
+"title=\"In Contract Since\"> In Contract Since</span>"
+msgstr ""
+
+#. module: hr_contract
+#: model_terms:ir.ui.view,arch_db:hr_contract.hr_hr_employee_view_form3
+msgid ""
+"<span invisible=\"contracts_count != 1\" class=\"o_stat_text text-danger\">\n"
+"                                    Contract\n"
+"                                </span>\n"
+"                                <span invisible=\"contracts_count == 1\" "
+"class=\"o_stat_text text-danger\">\n"
+>>>>>>> upstream/18.0
 "                                    Contracts\n"
 "                                </span>"
 msgstr ""
@@ -545,15 +585,24 @@ msgstr ""
 #. module: hr_contract
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_view_form
 msgid ""
+<<<<<<< HEAD
 "<span attrs=\"{'invisible' : [('contracts_count', '=', 1)]}\" class=\"o_stat_text\">\n"
 "                                        Contracts\n"
 "                                    </span>\n"
 "                                    <span attrs=\"{'invisible' : [('contracts_count', '&gt;', 1)]}\" class=\"o_stat_text\">\n"
+=======
+"<span invisible=\"contracts_count == 1\" class=\"o_stat_text\">\n"
+"                                        Contracts\n"
+"                                    </span>\n"
+"                                    <span invisible=\"contracts_count &gt; "
+"1\" class=\"o_stat_text\">\n"
+>>>>>>> upstream/18.0
 "                                        Contract\n"
 "                                    </span>"
 msgstr ""
 
 #. module: hr_contract
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_hr_employee_view_form3
 msgid ""
 "<span class=\"o_stat_text text-danger\" attrs=\"{'invisible' : [('contract_warning', '=', False)]}\" title=\"In Contract Since\">\n"
@@ -580,12 +629,30 @@ msgid ""
 "<span class=\"o_stat_text\">\n"
 "                                        From\n"
 "                                    </span>"
+=======
+#: model_terms:ir.ui.view,arch_db:hr_contract.res_config_settings_view_form
+msgid "<span>Days</span>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_contract
 #. odoo-python
 #: code:addons/hr_contract/models/hr_contract.py:0
+<<<<<<< HEAD
 msgid "According to the contract's end date, this contract has been put in red on the %s. Please advise and correct."
+=======
+msgid ""
+"According to Employee's Working Permit Expiration Date, this contract has "
+"been put in red on the %s. Please advise and correct."
+msgstr ""
+
+#. module: hr_contract
+#. odoo-python
+#: code:addons/hr_contract/models/hr_contract.py:0
+msgid ""
+"According to the contract's end date, this contract has been put in red on "
+"the %s. Please advise and correct."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_contract
@@ -626,7 +693,11 @@ msgid "Action Needed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tigawt taḍullit"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tigawt taḍullit"
 >>>>>>> upstream/18.0
@@ -771,6 +842,7 @@ msgid "Active"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Urmid"
@@ -879,6 +951,12 @@ msgstr "Urmid"
 >>>>>>> upstream/18.0
 
 #. module: hr_contract
+=======
+msgstr "Urmid"
+
+#. module: hr_contract
+#: model:ir.model.fields,field_description:hr_contract.field_hr_contract__active_employee
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract_history__active_employee
 msgid "Active Employee"
 msgstr ""
@@ -926,7 +1004,11 @@ msgid "Activities"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Irmuden"
+>>>>>>> upstream/18.0
 =======
 msgstr "Irmuden"
 >>>>>>> upstream/18.0
@@ -1071,7 +1153,11 @@ msgid "Activity Exception Decoration"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Abreqqes n tsureft n urmud"
+>>>>>>> upstream/18.0
 =======
 msgstr "Abreqqes n tsureft n urmud"
 >>>>>>> upstream/18.0
@@ -1217,7 +1303,11 @@ msgid "Activity State"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Addad n urmud"
+>>>>>>> upstream/18.0
 =======
 msgstr "Addad n urmud"
 >>>>>>> upstream/18.0
@@ -1362,6 +1452,7 @@ msgid "Activity Type Icon"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Tigniṭ n tewsit n urmud"
@@ -1467,6 +1558,14 @@ msgstr "Tigniṭ n tewsit n urmud"
 >>>>>>> upstream/18.0
 =======
 msgstr "Tigniṭ n tewsit n urmud"
+>>>>>>> upstream/18.0
+=======
+msgstr "Tigniṭ n tewsit n urmud"
+
+#. module: hr_contract
+#: model:ir.model,name:hr_contract.model_mail_activity_schedule
+msgid "Activity schedule plan Wizard"
+msgstr ""
 >>>>>>> upstream/18.0
 
 #. module: hr_contract
@@ -1507,7 +1606,11 @@ msgid "Administrator"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Anedbal"
+>>>>>>> upstream/18.0
 =======
 msgstr "Anedbal"
 >>>>>>> upstream/18.0
@@ -1618,7 +1721,12 @@ msgstr "Anedbal"
 #. odoo-python
 #: code:addons/hr_contract/models/hr_contract.py:0
 msgid ""
+<<<<<<< HEAD
 "An employee can only have one contract at the same time. (Excluding Draft and Cancelled contracts).\n"
+=======
+"An employee can only have one contract at the same time. (Excluding Draft "
+"and Cancelled contracts).\n"
+>>>>>>> upstream/18.0
 "\n"
 "Employee: %(employee_name)s"
 msgstr ""
@@ -1662,7 +1770,11 @@ msgid "Archived"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Yettwaɣbeṛ"
+>>>>>>> upstream/18.0
 =======
 msgstr "Yettwaɣbeṛ"
 >>>>>>> upstream/18.0
@@ -1772,6 +1884,7 @@ msgstr "Yettwaɣbeṛ"
 #. module: hr_contract
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract__message_attachment_count
 msgid "Attachment Count"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1917,6 +2030,18 @@ msgstr "Asiḍen n Tsawit"
 #. module: hr_contract
 #: model:ir.model.fields,field_description:hr_contract.field_res_users__bank_account_id
 msgid "Bank Account Number"
+=======
+msgstr "Asiḍen n Tsawit"
+
+#. module: hr_contract
+#: model:ir.model.fields,field_description:hr_contract.field_res_users__bank_account_id
+msgid "Bank Account"
+msgstr "Amiḍan n lbanka"
+
+#. module: hr_contract
+#: model:ir.model,name:hr_contract.model_hr_employee_base
+msgid "Basic Employee"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_contract
@@ -1928,7 +2053,13 @@ msgstr ""
 #. module: hr_contract
 #. odoo-javascript
 #: code:addons/hr_contract/static/src/widgets/tooltip_warning_widget.js:0
+<<<<<<< HEAD
 msgid "Calendar Mismatch: The employee's calendar does not match this contract's calendar. This could lead to unexpected behaviors."
+=======
+msgid ""
+"Calendar Mismatch: The employee's calendar does not match this contract's "
+"calendar. This could lead to unexpected behaviors."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_contract
@@ -1938,6 +2069,14 @@ msgid "Cancelled"
 msgstr "Ifsax"
 
 #. module: hr_contract
+<<<<<<< HEAD
+=======
+#: model:ir.model,name:hr_contract.model_res_company
+msgid "Companies"
+msgstr "Tikebbaniyin"
+
+#. module: hr_contract
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract__company_id
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract_history__company_id
 msgid "Company"
@@ -1956,6 +2095,7 @@ msgid "Company country"
 msgstr ""
 
 #. module: hr_contract
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract_history__contract_id
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_view_search
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_departure_wizard_view_form
@@ -2101,11 +2241,30 @@ msgstr "Agatu"
 =======
 msgstr "Agatu"
 >>>>>>> upstream/18.0
+=======
+#: model:ir.model,name:hr_contract.model_res_config_settings
+msgid "Config Settings"
+msgstr "Sefrek aɣewwaṛ"
+
+#. module: hr_contract
+#: model:ir.model.fields,field_description:hr_contract.field_hr_contract_history__contract_id
+#: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_view_search
+#: model_terms:ir.ui.view,arch_db:hr_contract.hr_departure_wizard_view_form
+#: model_terms:ir.ui.view,arch_db:hr_contract.res_config_settings_view_form
+msgid "Contract"
+msgstr "Agatu"
+>>>>>>> upstream/18.0
 
 #. module: hr_contract
 #. odoo-python
 #: code:addons/hr_contract/models/hr_contract.py:0
+<<<<<<< HEAD
 msgid "Contract %(contract)s: start date (%(start)s) must be earlier than contract end date (%(end)s)."
+=======
+msgid ""
+"Contract %(contract)s: start date (%(start)s) must be earlier than contract "
+"end date (%(end)s)."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_contract
@@ -2116,6 +2275,7 @@ msgstr ""
 
 #. module: hr_contract
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_view_form
+<<<<<<< HEAD
 msgid "Contract Details"
 msgstr ""
 
@@ -2123,6 +2283,21 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_view_form
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_departure_wizard_view_form
 msgid "Contract End Date"
+=======
+#: model_terms:ir.ui.view,arch_db:hr_contract.hr_departure_wizard_view_form
+msgid "Contract End Date"
+msgstr ""
+
+#. module: hr_contract
+#: model_terms:ir.ui.view,arch_db:hr_contract.res_config_settings_view_form
+msgid "Contract Expiration Notice Period"
+msgstr ""
+
+#. module: hr_contract
+#: model:ir.model.fields,field_description:hr_contract.field_res_company__contract_expiration_notice_period
+#: model:ir.model.fields,field_description:hr_contract.field_res_config_settings__contract_expiration_notice_period
+msgid "Contract Expiry Notice Period"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_contract
@@ -2186,7 +2361,11 @@ msgid "Contract Type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tawsit n Ugatu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tawsit n Ugatu"
 >>>>>>> upstream/18.0
@@ -2300,7 +2479,10 @@ msgstr ""
 
 #. module: hr_contract
 #: model:ir.model.fields,field_description:hr_contract.field_hr_employee__contract_warning
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_employee_view_search
+=======
+>>>>>>> upstream/18.0
 msgid "Contract Warning"
 msgstr ""
 
@@ -2353,7 +2535,11 @@ msgid "Contract history"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Amezruy n Ugatu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Amezruy n Ugatu"
 >>>>>>> upstream/18.0
@@ -2469,6 +2655,11 @@ msgstr ""
 #: model:ir.actions.act_window,name:hr_contract.action_hr_contract
 #: model:ir.actions.act_window,name:hr_contract.hr_contract_history_view_form_action
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract_history__contract_ids
+<<<<<<< HEAD
+=======
+#: model:ir.ui.menu,name:hr_contract.hr_menu_contract
+#: model:ir.ui.menu,name:hr_contract.menu_hr_employee_contracts
+>>>>>>> upstream/18.0
 #: model:ir.ui.menu,name:hr_contract.menu_human_resources_configuration_contract
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_history_view_list
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_view_activity
@@ -2510,7 +2701,11 @@ msgid "Contracts"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Iguta"
+>>>>>>> upstream/18.0
 =======
 msgstr "Iguta"
 >>>>>>> upstream/18.0
@@ -2671,7 +2866,11 @@ msgid "Country"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tamurt"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tamurt"
 >>>>>>> upstream/18.0
@@ -2781,6 +2980,7 @@ msgstr "Tamurt"
 #. module: hr_contract
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract__country_code
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract_history__country_code
+<<<<<<< HEAD
 msgid "Country Code"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2923,6 +3123,11 @@ msgstr "Angal n Tmurt"
 =======
 msgstr "Angal n Tmurt"
 >>>>>>> upstream/18.0
+=======
+#: model:ir.model.fields,field_description:hr_contract.field_hr_payroll_structure_type__country_code
+msgid "Country Code"
+msgstr "Angal n Tmurt"
+>>>>>>> upstream/18.0
 
 #. module: hr_contract
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_history_view_form
@@ -2962,7 +3167,11 @@ msgid "Create"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Rnu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Rnu"
 >>>>>>> upstream/18.0
@@ -3156,7 +3365,11 @@ msgid "Delete"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kkes"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kkes"
 >>>>>>> upstream/18.0
@@ -3303,7 +3516,11 @@ msgid "Department"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Agezdu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Agezdu"
 >>>>>>> upstream/18.0
@@ -3418,10 +3635,23 @@ msgstr ""
 #. module: hr_contract
 #. odoo-python
 #: code:addons/hr_contract/wizard/hr_departure_wizard.py:0
+<<<<<<< HEAD
 msgid "Departure date can't be earlier than the start date of current contract."
 msgstr ""
 
 #. module: hr_contract
+=======
+msgid ""
+"Departure date can't be earlier than the start date of current contract."
+msgstr ""
+
+#. module: hr_contract
+#: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_view_form
+msgid "Details"
+msgstr "Ifatusen"
+
+#. module: hr_contract
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract__display_name
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract_history__display_name
 #: model:ir.model.fields,field_description:hr_contract.field_hr_payroll_structure_type__display_name
@@ -3461,7 +3691,11 @@ msgid "Display Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Isem n Ubeqqeḍ"
+>>>>>>> upstream/18.0
 =======
 msgstr "Isem n Ubeqqeḍ"
 >>>>>>> upstream/18.0
@@ -3614,7 +3848,11 @@ msgid "Employee"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Amaris"
+>>>>>>> upstream/18.0
 =======
 msgstr "Amaris"
 >>>>>>> upstream/18.0
@@ -3759,7 +3997,11 @@ msgid "Employee Contract"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Agatu n Umaris"
+>>>>>>> upstream/18.0
 =======
 msgstr "Agatu n Umaris"
 >>>>>>> upstream/18.0
@@ -3930,7 +4172,11 @@ msgid "Employees"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Imuras"
+>>>>>>> upstream/18.0
 =======
 msgstr "Imuras"
 >>>>>>> upstream/18.0
@@ -4077,7 +4323,11 @@ msgid "End Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Azemz n tagara"
+>>>>>>> upstream/18.0
 =======
 msgstr "Azemz n tagara"
 >>>>>>> upstream/18.0
@@ -4209,6 +4459,10 @@ msgstr ""
 #. module: hr_contract
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract__first_contract_date
 #: model:ir.model.fields,field_description:hr_contract.field_hr_employee__first_contract_date
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:hr_contract.field_hr_employee_public__first_contract_date
+>>>>>>> upstream/18.0
 msgid "First Contract Date"
 msgstr ""
 
@@ -4228,11 +4482,26 @@ msgid "Font awesome icon e.g. fa-tasks"
 msgstr ""
 
 #. module: hr_contract
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_view_kanban
+msgid "From"
+msgstr "Si"
+
+#. module: hr_contract
+#: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_view_form
+#: model_terms:ir.ui.view,arch_db:hr_contract.hr_hr_employee_view_form2
+msgid "Fully Flexible"
+msgstr ""
+
+#. module: hr_contract
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_view_search
 msgid "Future Activities"
 msgstr ""
 
 #. module: hr_contract
+<<<<<<< HEAD
 #: model:ir.model.fields.selection,name:hr_contract.selection__hr_contract__kanban_state__done
 msgid "Green"
 msgstr ""
@@ -4243,6 +4512,8 @@ msgid "Grey"
 msgstr ""
 
 #. module: hr_contract
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_history_view_search
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_view_search
 msgid "Group By"
@@ -4293,10 +4564,24 @@ msgstr ""
 
 #. module: hr_contract
 #: model:ir.model.fields,help:hr_contract.field_hr_contract__message_has_error
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,help:hr_contract.field_hr_contract__message_has_sms_error
+>>>>>>> upstream/18.0
 msgid "If checked, some messages have a delivery error."
 msgstr ""
 
 #. module: hr_contract
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,help:hr_contract.field_hr_contract__active_employee
+msgid ""
+"If the active field is set to False, it will allow you to hide the resource "
+"record without removing it."
+msgstr ""
+
+#. module: hr_contract
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract_history__is_under_contract
 msgid "Is Currently Under Contract"
 msgstr ""
@@ -4347,7 +4632,11 @@ msgid "Job Position"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tadekkwant n Umahil"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tadekkwant n Umahil"
 >>>>>>> upstream/18.0
@@ -4477,6 +4766,19 @@ msgid "Late Activities"
 msgstr ""
 
 #. module: hr_contract
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:hr_contract.field_hr_employee__legal_name
+msgid "Legal Name"
+msgstr ""
+
+#. module: hr_contract
+#: model:ir.model,name:hr_contract.model_ir_ui_menu
+msgid "Menu"
+msgstr "Umuɣ"
+
+#. module: hr_contract
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract__message_has_error
 msgid "Message Delivery error"
 msgstr ""
@@ -4505,7 +4807,11 @@ msgid "Messages"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Iznan"
+>>>>>>> upstream/18.0
 =======
 msgstr "Iznan"
 >>>>>>> upstream/18.0
@@ -4619,7 +4925,11 @@ msgid "New"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Amaynut"
+>>>>>>> upstream/18.0
 =======
 msgstr "Amaynut"
 >>>>>>> upstream/18.0
@@ -4752,6 +5062,14 @@ msgid "No Contracts"
 msgstr ""
 
 #. module: hr_contract
+<<<<<<< HEAD
+=======
+#: model_terms:ir.actions.act_window,help:hr_contract.hr_contract_history_view_list_action
+msgid "No data to display"
+msgstr ""
+
+#. module: hr_contract
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:hr_contract.selection__hr_contract_history__under_contract_state__blocked
 msgid "Not Under Contract"
 msgstr ""
@@ -4795,7 +5113,11 @@ msgid "Notes"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Iwenniten"
+>>>>>>> upstream/18.0
 =======
 msgstr "Iwenniten"
 >>>>>>> upstream/18.0
@@ -4908,13 +5230,34 @@ msgid "Number of Actions"
 msgstr ""
 
 #. module: hr_contract
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:hr_contract.res_config_settings_view_form
+msgid ""
+"Number of days prior to the contract end date that a contract expiration "
+"warning is triggered."
+msgstr ""
+
+#. module: hr_contract
+#: model_terms:ir.ui.view,arch_db:hr_contract.res_config_settings_view_form
+msgid ""
+"Number of days prior to the work permit expiration date that a warning is "
+"triggered."
+msgstr ""
+
+#. module: hr_contract
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract__message_has_error_counter
 msgid "Number of errors"
 msgstr ""
 
 #. module: hr_contract
 #: model:ir.model.fields,help:hr_contract.field_hr_contract__message_needaction_counter
+<<<<<<< HEAD
 msgid "Number of messages which requires an action"
+=======
+msgid "Number of messages requiring action"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_contract
@@ -4923,6 +5266,14 @@ msgid "Number of messages with delivery error"
 msgstr ""
 
 #. module: hr_contract
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields.selection,name:hr_contract.selection__hr_contract__kanban_state__normal
+msgid "Ongoing"
+msgstr ""
+
+#. module: hr_contract
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_history_view_form
 msgid "Open Contract"
 msgstr ""
@@ -4933,14 +5284,28 @@ msgid "Person responsible for validating the employee's contracts."
 msgstr ""
 
 #. module: hr_contract
+<<<<<<< HEAD
+=======
+#: model:ir.model,name:hr_contract.model_hr_employee_public
+msgid "Public Employee"
+msgstr ""
+
+#. module: hr_contract
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract__rating_ids
 msgid "Ratings"
 msgstr ""
 
 #. module: hr_contract
+<<<<<<< HEAD
 #: model:ir.model.fields.selection,name:hr_contract.selection__hr_contract__kanban_state__blocked
 msgid "Red"
 msgstr ""
+=======
+#: model:ir.model.fields.selection,name:hr_contract.selection__hr_contract__kanban_state__done
+msgid "Ready"
+msgstr "Ihegga"
+>>>>>>> upstream/18.0
 
 #. module: hr_contract
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_history_view_list
@@ -4949,6 +5314,14 @@ msgid "Reference Working Time"
 msgstr ""
 
 #. module: hr_contract
+<<<<<<< HEAD
+=======
+#: model:ir.model,name:hr_contract.model_resource_calendar_leaves
+msgid "Resource Time Off Detail"
+msgstr ""
+
+#. module: hr_contract
+>>>>>>> upstream/18.0
 #: model:ir.model,name:hr_contract.model_resource_calendar
 msgid "Resource Working Time"
 msgstr ""
@@ -4991,7 +5364,11 @@ msgid "Resources"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tiɣbula"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tiɣbula"
 >>>>>>> upstream/18.0
@@ -5116,6 +5493,14 @@ msgid "Running Contracts"
 msgstr ""
 
 #. module: hr_contract
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:hr_contract.field_hr_contract__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr ""
+
+#. module: hr_contract
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_view_form
 msgid "Salary Information"
 msgstr ""
@@ -5195,7 +5580,11 @@ msgid "Start Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Azemz n tazwara"
+>>>>>>> upstream/18.0
 =======
 msgstr "Azemz n tazwara"
 >>>>>>> upstream/18.0
@@ -5328,6 +5717,10 @@ msgstr ""
 #. module: hr_contract
 #: model:ir.model.fields,help:hr_contract.field_hr_contract__country_code
 #: model:ir.model.fields,help:hr_contract.field_hr_contract_history__country_code
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,help:hr_contract.field_hr_payroll_structure_type__country_code
+>>>>>>> upstream/18.0
 msgid ""
 "The ISO country code in two chars. \n"
 "You can use this field for quick search."
@@ -5340,6 +5733,25 @@ msgid "The contract of %s is about to expire."
 msgstr ""
 
 #. module: hr_contract
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:hr_contract.hr_hr_employee_view_form2
+msgid "The default working hours are set in configuration."
+msgstr ""
+
+#. module: hr_contract
+#. odoo-python
+#: code:addons/hr_contract/models/hr_contract.py:0
+msgid "The work permit of %s is about to expire."
+msgstr ""
+
+#. module: hr_contract
+#: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_view_kanban
+msgid "To"
+msgstr "Ɣer"
+
+#. module: hr_contract
+>>>>>>> upstream/18.0
 #: model:mail.message.subtype,name:hr_contract.mt_contract_pending
 msgid "To Renew"
 msgstr ""
@@ -5367,6 +5779,7 @@ msgstr ""
 #. module: hr_contract
 #: model:ir.model,name:hr_contract.model_res_users
 msgid "User"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5513,6 +5926,9 @@ msgstr "Aseqdac"
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract__visa_expire
 msgid "Visa Expire Date"
 msgstr ""
+=======
+msgstr "Aseqdac"
+>>>>>>> upstream/18.0
 
 #. module: hr_contract
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract__visa_no
@@ -5526,6 +5942,35 @@ msgid "Wage"
 msgstr ""
 
 #. module: hr_contract
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields.selection,name:hr_contract.selection__hr_contract__kanban_state__blocked
+msgid "Warning"
+msgstr "ɣuṛ-ek"
+
+#. module: hr_contract
+#: model:ir.model.fields,field_description:hr_contract.field_hr_contract__website_message_ids
+msgid "Website Messages"
+msgstr "Iznan n n usmel  Web"
+
+#. module: hr_contract
+#: model:ir.model.fields,help:hr_contract.field_hr_contract__website_message_ids
+msgid "Website communication history"
+msgstr "Amazray n Taywalt n usmel  Web"
+
+#. module: hr_contract
+#: model_terms:ir.ui.view,arch_db:hr_contract.res_config_settings_view_form
+msgid "Work Permit Expiration Notice Period"
+msgstr ""
+
+#. module: hr_contract
+#: model:ir.model.fields,field_description:hr_contract.field_res_company__work_permit_expiration_notice_period
+#: model:ir.model.fields,field_description:hr_contract.field_res_config_settings__work_permit_expiration_notice_period
+msgid "Work Permit Expiry Notice Period"
+msgstr ""
+
+#. module: hr_contract
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract__permit_no
 msgid "Work Permit No"
 msgstr ""
@@ -5538,6 +5983,12 @@ msgid "Working Schedule"
 msgstr ""
 
 #. module: hr_contract
+<<<<<<< HEAD
 #: model:ir.ui.menu,name:hr_contract.menu_resource_calendar_view
 msgid "Working Times"
+=======
+#. odoo-python
+#: code:addons/hr_contract/models/hr_employee.py:0
+msgid "You cannot delete an employee with a running contract."
+>>>>>>> upstream/18.0
 msgstr ""

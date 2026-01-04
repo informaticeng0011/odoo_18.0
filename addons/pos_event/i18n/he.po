@@ -108,8 +108,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* pos_event
 # 
+=======
+# * pos_event
+#
+>>>>>>> upstream/18.0
 =======
 # * pos_event
 #
@@ -658,7 +663,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
+=======
+# or balmas <or@laylinetech.com>, 2025.
+>>>>>>> upstream/18.0
 =======
 # or balmas <or@laylinetech.com>, 2025.
 >>>>>>> upstream/18.0
@@ -987,6 +996,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1319,6 +1329,9 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-09-16 22:20+0000\n"
 "Last-Translator: or balmas <or@laylinetech.com>\n"
 "Language-Team: Hebrew <https://translate.odoo.com/projects/odoo-18/pos_event/"
@@ -1436,6 +1449,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1656,6 +1672,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/pos_event/static/src/app/popup/event_configurator_popup/event_configurator_popup.js:0
 msgid " (%s seats available)"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2089,6 +2106,9 @@ msgstr " (%s כסאות זמינים)"
 =======
 msgstr " (%s כסאות זמינים)"
 >>>>>>> upstream/18.0
+=======
+msgstr " (%s כסאות זמינים)"
+>>>>>>> upstream/18.0
 
 #. module: pos_event
 #. odoo-javascript
@@ -2098,6 +2118,7 @@ msgstr "---בחר---"
 
 #. module: pos_event
 #: model_terms:ir.ui.view,arch_db:pos_event.pos_order_form_view_inherit
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-file-pdf-o me-1\" aria-hidden=\"true\"/>Print Event Badges"
 msgstr "<i class=\"fa fa-file-pdf-o me-1\" aria-hidden=\"true\"/> הדפס תגי אירוע"
 
@@ -2105,6 +2126,19 @@ msgstr "<i class=\"fa fa-file-pdf-o me-1\" aria-hidden=\"true\"/> הדפס תג�
 #: model_terms:ir.ui.view,arch_db:pos_event.pos_order_form_view_inherit
 msgid "<i class=\"fa fa-file-pdf-o me-1\" aria-hidden=\"true\"/>Print Event Tickets"
 msgstr "<i class=\"fa fa-file-pdf-o me-1\" aria-hidden=\"true\"/> הדפס כרטיסי אירוע"
+=======
+msgid ""
+"<i class=\"fa fa-file-pdf-o me-1\" aria-hidden=\"true\"/>Print Event Badges"
+msgstr ""
+"<i class=\"fa fa-file-pdf-o me-1\" aria-hidden=\"true\"/> הדפס תגי אירוע"
+
+#. module: pos_event
+#: model_terms:ir.ui.view,arch_db:pos_event.pos_order_form_view_inherit
+msgid ""
+"<i class=\"fa fa-file-pdf-o me-1\" aria-hidden=\"true\"/>Print Event Tickets"
+msgstr ""
+"<i class=\"fa fa-file-pdf-o me-1\" aria-hidden=\"true\"/> הדפס כרטיסי אירוע"
+>>>>>>> upstream/18.0
 
 #. module: pos_event
 #: model:ir.model.fields,field_description:pos_event.field_pos_order__attendee_count
@@ -2284,8 +2318,12 @@ msgstr "בלתי מוגבל"
 #. module: pos_event
 #. odoo-javascript
 #: code:addons/pos_event/static/src/app/models/pos_order_line.js:0
+<<<<<<< HEAD
 msgid ""
 "You cannot change quantity for a line linked with an event registration"
+=======
+msgid "You cannot change quantity for a line linked with an event registration"
+>>>>>>> upstream/18.0
 msgstr "לא ניתן לשנות את הכמות עבור שורה המקושרת עם רישום לאירוע. "
 
 #. module: pos_event

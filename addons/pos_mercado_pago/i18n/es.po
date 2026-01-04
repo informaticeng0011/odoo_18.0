@@ -1,15 +1,24 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* pos_mercado_pago
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
 # Larissa Manderfeld, 2024
 # 
+=======
+#
+# Translators:
+# Wil Odoo, 2024
+# Larissa Manderfeld, 2024
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Larissa Manderfeld, 2024\n"
@@ -19,6 +28,18 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: es\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Larissa Manderfeld, 2024\n"
+"Language-Team: Spanish (https://app.transifex.com/odoo/teams/41243/es/)\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? "
+"1 : 2;\n"
+>>>>>>> upstream/18.0
 
 #. module: pos_mercado_pago
 #: model_terms:ir.ui.view,arch_db:pos_mercado_pago.pos_payment_method_view_form_inherit_pos_mercado_pago
@@ -42,8 +63,13 @@ msgid ""
 "Enter your Point Smart terminal serial number written on the back of your "
 "terminal (after the S/N:)"
 msgstr ""
+<<<<<<< HEAD
 "Introduzca el número de serie de su terminal Point Smart escrito en la parte"
 " posterior de su terminal (después del número de serie:)"
+=======
+"Introduzca el número de serie de su terminal Point Smart escrito en la parte "
+"posterior de su terminal (después del número de serie:)"
+>>>>>>> upstream/18.0
 
 #. module: pos_mercado_pago
 #: model_terms:ir.ui.view,arch_db:pos_mercado_pago.pos_payment_method_view_form_inherit_pos_mercado_pago
@@ -53,17 +79,30 @@ msgstr "Forzar PDV"
 #. module: pos_mercado_pago
 #: model:ir.model.fields,help:pos_mercado_pago.field_pos_payment_method__mp_bearer_token
 msgid ""
+<<<<<<< HEAD
 "Mercado Pago customer production user token: "
 "https://www.mercadopago.com.mx/developers/en/reference"
 msgstr ""
 "Token de usuario de producción del cliente de Mercado Pago: "
 "https://www.mercadopago.com.mx/developers/es/reference"
+=======
+"Mercado Pago customer production user token: https://www.mercadopago.com.mx/"
+"developers/en/reference"
+msgstr ""
+"Token de usuario de producción del cliente de Mercado Pago: https://"
+"www.mercadopago.com.mx/developers/es/reference"
+>>>>>>> upstream/18.0
 
 #. module: pos_mercado_pago
 #: model:ir.model.fields,help:pos_mercado_pago.field_pos_payment_method__mp_webhook_secret_key
 msgid ""
+<<<<<<< HEAD
 "Mercado Pago production secret key from integration application: "
 "https://www.mercadopago.com.mx/developers/panel/app"
+=======
+"Mercado Pago production secret key from integration application: https://"
+"www.mercadopago.com.mx/developers/panel/app"
+>>>>>>> upstream/18.0
 msgstr ""
 "Clave secreta de producción de Mercado Pago desde la aplicación de "
 "integración: https://www.mercadopago.com.mx/developers/panel/app"

@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* pos_restaurant
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
@@ -462,10 +463,19 @@
 # Sergio Zanchetta <primes2h@gmail.com>, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+#
+# Translators:
+# Wil Odoo, 2024
+# Marianna Ciofani, 2025
+# Sergio Zanchetta <primes2h@gmail.com>, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-12-16 13:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
@@ -1438,6 +1448,21 @@ msgstr ", coperti:"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:36+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Sergio Zanchetta <primes2h@gmail.com>, 2025\n"
+"Language-Team: Italian (https://app.transifex.com/odoo/teams/41243/it/)\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? "
+"1 : 2;\n"
+
+#. module: pos_restaurant
+#. odoo-javascript
+>>>>>>> upstream/18.0
 #: code:addons/pos_restaurant/static/src/overrides/components/payment_screen/payment_screen.xml:0
 msgid "/ Guest"
 msgstr "/ Ospite"
@@ -1482,10 +1507,19 @@ msgstr "<strong>Punto vendita:</strong>"
 #. module: pos_restaurant
 #: model_terms:ir.actions.act_window,help:pos_restaurant.action_restaurant_floor_form
 msgid ""
+<<<<<<< HEAD
 "A restaurant floor represents the place where customers are served, this is where you can\n"
 "                define and position the tables."
 msgstr ""
 "Un piano ristorante rappresenta il luogo nel quale vengono serviti i clienti e dove è possibile\n"
+=======
+"A restaurant floor represents the place where customers are served, this is "
+"where you can\n"
+"                define and position the tables."
+msgstr ""
+"Un piano ristorante rappresenta il luogo nel quale vengono serviti i clienti "
+"e dove è possibile\n"
+>>>>>>> upstream/18.0
 "                definire e posizionare i tavoli."
 
 #. module: pos_restaurant
@@ -1652,7 +1686,11 @@ msgid "Adjust Amount"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Regola l'importo"
+=======
+msgstr "Rettifica importo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Rettifica importo"
 >>>>>>> upstream/18.0
@@ -2116,8 +2154,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Regola l'importo autorizzato dai terminali di pagamento per aggiungere una "
 "mancia dopo che i clienti sono andati via o alla fine della giornata."
+=======
+"Rettifica l'importo autorizzato dai terminali di pagamento per aggiungere "
+"una mancia, dopo l'uscita dei clienti o al termine della giornata."
+>>>>>>> upstream/18.0
 =======
 "Rettifica l'importo autorizzato dai terminali di pagamento per aggiungere "
 "una mancia, dopo l'uscita dei clienti o al termine della giornata."
@@ -2910,7 +2953,11 @@ msgid "Created by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Creata da"
+=======
+msgstr "Creato da"
+>>>>>>> upstream/18.0
 =======
 msgstr "Creato da"
 >>>>>>> upstream/18.0
@@ -3326,8 +3373,12 @@ msgstr "Abilita la divisione del conto nel punto vendita."
 #. odoo-javascript
 #: code:addons/pos_restaurant/static/src/app/floor_screen/floor_screen.js:0
 msgid "Encountered error when loading image. Please try again."
+<<<<<<< HEAD
 msgstr ""
 "Riscontrato un errore durante il caricamento dell'immagine, riprovare."
+=======
+msgstr "Riscontrato un errore durante il caricamento dell'immagine, riprovare."
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #. odoo-javascript
@@ -3432,6 +3483,7 @@ msgstr "Mappa piani e tavoli"
 #. module: pos_restaurant
 #: model:pos.category,name:pos_restaurant.food
 msgid "Food"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4037,11 +4089,15 @@ msgstr "Alimenti"
 =======
 msgstr "Alimenti"
 >>>>>>> upstream/18.0
+=======
+msgstr "Alimenti"
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #. odoo-javascript
 #: code:addons/pos_restaurant/static/src/overrides/components/receipt_screen/order_receipt/order_receipt.xml:0
 msgid "For convenience, we are providing the following gratuity calculations:"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4499,6 +4555,9 @@ msgstr "Per comodità, forniamo i seguenti calcoli relativi alle mance:"
 =======
 msgstr "Per comodità, forniamo i seguenti calcoli relativi alle mance:"
 >>>>>>> upstream/18.0
+=======
+msgstr "Per comodità, forniamo i seguenti calcoli relativi alle mance:"
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #: model:product.template,name:pos_restaurant.pos_food_funghi_product_template
@@ -4557,8 +4616,13 @@ msgstr "Tè freddo"
 #. module: pos_restaurant
 #: model:ir.model.fields,help:pos_restaurant.field_restaurant_table__active
 msgid ""
+<<<<<<< HEAD
 "If false, the table is deactivated and will not be available in the point of"
 " sale"
+=======
+"If false, the table is deactivated and will not be available in the point of "
+"sale"
+>>>>>>> upstream/18.0
 msgstr ""
 "Se falso, il tavolo non è attivo e non sarà disponibile nel punto vendita"
 
@@ -4686,7 +4750,11 @@ msgid "Keep Open"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Lasciare aperto"
+=======
+msgstr "Tieni aperto"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tieni aperto"
 >>>>>>> upstream/18.0
@@ -5317,7 +5385,11 @@ msgid "PRO FORMA"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "PRO FORMA"
+=======
+msgstr "PROFORMA"
+>>>>>>> upstream/18.0
 =======
 msgstr "PROFORMA"
 >>>>>>> upstream/18.0
@@ -6030,7 +6102,11 @@ msgid "Set Tip After Payment"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Imposta mancia dopo pagamento"
+=======
+msgstr "Imposta mancia dopo il pagamento"
+>>>>>>> upstream/18.0
 =======
 msgstr "Imposta mancia dopo il pagamento"
 >>>>>>> upstream/18.0
@@ -6493,7 +6569,11 @@ msgid "Settle"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Regola"
+=======
+msgstr "Salda"
+>>>>>>> upstream/18.0
 =======
 msgstr "Salda"
 >>>>>>> upstream/18.0
@@ -6986,7 +7066,11 @@ msgid "Split"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Dividi"
+=======
+msgstr "Suddividi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Suddividi"
 >>>>>>> upstream/18.0
@@ -7551,7 +7635,10 @@ msgstr "Passa a da asporto"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/pos_restaurant/static/src/overrides/components/receipt_screen/order_receipt/order_receipt.xml:0
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8057,7 +8144,10 @@ msgstr "Tavolo"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8565,6 +8655,9 @@ msgstr "Tavolo %(number)s, ospiti: %(count)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8985,8 +9078,12 @@ msgstr "Il tavolo al quale è stato servito quest'ordine"
 
 #. module: pos_restaurant
 #: model:ir.model.fields,help:pos_restaurant.field_restaurant_table__color
+<<<<<<< HEAD
 msgid ""
 "The table's color, expressed as a valid 'background' CSS property value"
+=======
+msgid "The table's color, expressed as a valid 'background' CSS property value"
+>>>>>>> upstream/18.0
 msgstr ""
 "Il colore del tavolo, espresso come valore valido della proprietà CSS "
 "\"background\""
@@ -8999,8 +9096,13 @@ msgstr "L'altezza del tavolo in pixel"
 #. module: pos_restaurant
 #: model:ir.model.fields,help:pos_restaurant.field_restaurant_table__position_h
 msgid ""
+<<<<<<< HEAD
 "The table's horizontal position from the left side to the table's center, in"
 " pixels"
+=======
+"The table's horizontal position from the left side to the table's center, in "
+"pixels"
+>>>>>>> upstream/18.0
 msgstr ""
 "La posizione orizzontale del tavolo, in pixel, dal bordo sinistro al centro "
 "del tavolo"
@@ -9022,8 +9124,13 @@ msgstr "La larghezza del tavolo in pixel"
 #: model:ir.model.fields,help:pos_restaurant.field_pos_config__takeaway_fp_id
 #: model:ir.model.fields,help:pos_restaurant.field_res_config_settings__pos_takeaway_fp_id
 msgid ""
+<<<<<<< HEAD
 "This is useful for restaurants with onsite and take-away services that imply"
 " specific tax rates."
+=======
+"This is useful for restaurants with onsite and take-away services that imply "
+"specific tax rates."
+>>>>>>> upstream/18.0
 msgstr ""
 "Questo è utile per ristoranti con servizi in loco o da asporto che "
 "comportano aliquote fiscali specifiche."
@@ -9174,7 +9281,11 @@ msgid "Tipping"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Lasciare una mancia"
+=======
+msgstr "Mancia"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mancia"
 >>>>>>> upstream/18.0
@@ -9639,8 +9750,13 @@ msgid ""
 "You cannot remove a table that is used in a PoS session, close the "
 "session(s) first."
 msgstr ""
+<<<<<<< HEAD
 "Impossibile rimuovere un tavolo usato in una sessione POS, chiudere prima le"
 " sessioni."
+=======
+"Impossibile rimuovere un tavolo usato in una sessione POS, chiudere prima le "
+"sessioni."
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #. odoo-javascript

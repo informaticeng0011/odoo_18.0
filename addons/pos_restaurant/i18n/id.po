@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* pos_restaurant
+<<<<<<< HEAD
 # 
 # Translators:
 <<<<<<< HEAD
@@ -626,10 +627,18 @@
 # Wil Odoo, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+#
+# Translators:
+# Abe Manyo, 2025
+# Wil Odoo, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-12-16 13:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
@@ -1134,10 +1143,21 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: id\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:36+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Wil Odoo, 2025\n"
+"Language-Team: Indonesian (https://app.transifex.com/odoo/teams/41243/id/)\n"
+"Language: id\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+>>>>>>> upstream/18.0
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: pos_restaurant
 #. odoo-javascript
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1642,6 +1662,8 @@ msgstr ", Tamu:"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: code:addons/pos_restaurant/static/src/overrides/components/payment_screen/payment_screen.xml:0
 msgid "/ Guest"
 msgstr "/ Tamu"
@@ -1685,7 +1707,12 @@ msgstr "<strong>Point of Sales (POS):</strong>"
 #. module: pos_restaurant
 #: model_terms:ir.actions.act_window,help:pos_restaurant.action_restaurant_floor_form
 msgid ""
+<<<<<<< HEAD
 "A restaurant floor represents the place where customers are served, this is where you can\n"
+=======
+"A restaurant floor represents the place where customers are served, this is "
+"where you can\n"
+>>>>>>> upstream/18.0
 "                define and position the tables."
 msgstr ""
 "Lantai restoran menunjukkan tempat di mana pelanggan dilayani, di sini\n"
@@ -2217,8 +2244,13 @@ msgstr "Ice Tea"
 #. module: pos_restaurant
 #: model:ir.model.fields,help:pos_restaurant.field_restaurant_table__active
 msgid ""
+<<<<<<< HEAD
 "If false, the table is deactivated and will not be available in the point of"
 " sale"
+=======
+"If false, the table is deactivated and will not be available in the point of "
+"sale"
+>>>>>>> upstream/18.0
 msgstr "Jika salah, tabel dinonaktifkan dan tidak akan tersedia pada pos"
 
 #. module: pos_restaurant
@@ -2930,7 +2962,10 @@ msgstr "Ganti menjadi Takeaway"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/pos_restaurant/static/src/overrides/components/receipt_screen/order_receipt/order_receipt.xml:0
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3436,6 +3471,7 @@ msgstr "Tabel"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -3524,6 +3560,8 @@ msgstr "Tabel"
 msgid "Table %(number)s"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3897,6 +3935,9 @@ msgstr "Meja %(number)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4294,6 +4335,7 @@ msgid "Table %(number)s, Guests: %(count)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: pos_restaurant
@@ -4357,6 +4399,11 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr "Meja %(number)s, Tamu: %(count)s"
+
+#. module: pos_restaurant
 >>>>>>> upstream/18.0
 =======
 msgstr "Meja %(number)s, Tamu: %(count)s"
@@ -5172,8 +5219,12 @@ msgstr "Meja di mana pesanan ini dilayani"
 
 #. module: pos_restaurant
 #: model:ir.model.fields,help:pos_restaurant.field_restaurant_table__color
+<<<<<<< HEAD
 msgid ""
 "The table's color, expressed as a valid 'background' CSS property value"
+=======
+msgid "The table's color, expressed as a valid 'background' CSS property value"
+>>>>>>> upstream/18.0
 msgstr "Warna meja, diekspresikan sebagai nilai properti 'latar' CSS yang sah"
 
 #. module: pos_restaurant
@@ -5184,8 +5235,13 @@ msgstr "Tinggi meja dalam pixel"
 #. module: pos_restaurant
 #: model:ir.model.fields,help:pos_restaurant.field_restaurant_table__position_h
 msgid ""
+<<<<<<< HEAD
 "The table's horizontal position from the left side to the table's center, in"
 " pixels"
+=======
+"The table's horizontal position from the left side to the table's center, in "
+"pixels"
+>>>>>>> upstream/18.0
 msgstr ""
 "Posisi horizontal meja dari sisi kiri ke pusat meja, dalam satuan pixel"
 
@@ -5204,8 +5260,13 @@ msgstr "Lebar meja dalam pixel"
 #: model:ir.model.fields,help:pos_restaurant.field_pos_config__takeaway_fp_id
 #: model:ir.model.fields,help:pos_restaurant.field_res_config_settings__pos_takeaway_fp_id
 msgid ""
+<<<<<<< HEAD
 "This is useful for restaurants with onsite and take-away services that imply"
 " specific tax rates."
+=======
+"This is useful for restaurants with onsite and take-away services that imply "
+"specific tax rates."
+>>>>>>> upstream/18.0
 msgstr ""
 "Ini berguna untuk restoran dengan layanan di tempat atau bungkus pulang "
 "dengan pajak yang spesifik."

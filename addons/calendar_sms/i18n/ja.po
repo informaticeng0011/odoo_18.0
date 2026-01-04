@@ -74,12 +74,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* calendar_sms
 # 
 # Translators:
 # Wil Odoo, 2024
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -305,6 +308,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -456,6 +462,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 12:52+0000\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -686,6 +693,9 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-10-21 22:20+0000\n"
 "Last-Translator: \"Junko Augias (juau)\" <juau@odoo.com>\n"
 "Language-Team: Japanese <https://translate.odoo.com/projects/odoo-18/"
@@ -769,6 +779,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -946,11 +959,19 @@ msgstr "イベントリマインダー: %(name)s, %(time)s."
 #. module: calendar_sms
 #: model:sms.template,body:calendar_sms.sms_template_data_calendar_reminder
 msgid ""
+<<<<<<< HEAD
 "Event reminder: {{ object.name }}, {{ "
 "object.get_display_time_tz(object.partner_id.tz) }}"
 msgstr ""
 "イベントリマインダ: {{ object.name }}, {{ "
 "object.get_display_time_tz(object.partner_id.tz) }}"
+=======
+"Event reminder: {{ object.name }}, "
+"{{ object.get_display_time_tz(object.partner_id.tz) }}"
+msgstr ""
+"イベントリマインダ: {{ object.name }}, "
+"{{ object.get_display_time_tz(object.partner_id.tz) }}"
+>>>>>>> upstream/18.0
 
 #. module: calendar_sms
 #. odoo-python
@@ -1053,7 +1074,11 @@ msgid "Send SMS"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "SMS配信"
+=======
+msgstr "SMS送信"
+>>>>>>> upstream/18.0
 =======
 msgstr "SMS送信"
 >>>>>>> upstream/18.0
@@ -1354,7 +1379,11 @@ msgid "Send SMS to attendees"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "出席者にSMS配信"
+=======
+msgstr "出席者にSMS送信"
+>>>>>>> upstream/18.0
 =======
 msgstr "出席者にSMS送信"
 >>>>>>> upstream/18.0

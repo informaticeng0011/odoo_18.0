@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* account_qr_code_emv
+<<<<<<< HEAD
 # 
 # Translators:
 # Martin Trigaux, 2024
@@ -895,10 +896,20 @@
 # Noemi Pla, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+#
+# Translators:
+# Martin Trigaux, 2024
+# Josep Anton Belchi, 2024
+# Santiago Payà <santiagopim@gmail.com>, 2025
+# Noemi Pla, 2025
+#
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
@@ -1627,6 +1638,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: ca\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Noemi Pla, 2025\n"
+"Language-Team: Catalan (https://app.transifex.com/odoo/teams/41243/ca/)\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+>>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: account_qr_code_emv
@@ -1802,7 +1823,11 @@ msgid "A bank account is required for EMV QR Code generation."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Es necessita un compte bancari per generar el codi QR EMV."
+>>>>>>> upstream/18.0
 =======
 msgstr "Es necessita un compte bancari per generar el codi QR EMV."
 >>>>>>> upstream/18.0
@@ -2489,7 +2514,11 @@ msgid "Display Qr Setting"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mostrar els paràmetres del QR"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mostrar els paràmetres del QR"
 >>>>>>> upstream/18.0
@@ -3171,7 +3200,11 @@ msgid "EMV Merchant-Presented QR-code"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Codi QR EMV del comerciant"
+>>>>>>> upstream/18.0
 =======
 msgstr "Codi QR EMV del comerciant"
 >>>>>>> upstream/18.0
@@ -3852,7 +3885,11 @@ msgid "EMV QR Configuration"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Configuració del QR EMV"
+>>>>>>> upstream/18.0
 =======
 msgstr "Configuració del QR EMV"
 >>>>>>> upstream/18.0
@@ -4545,7 +4582,11 @@ msgid "Include Reference"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Incloure la referència"
+>>>>>>> upstream/18.0
 =======
 msgstr "Incloure la referència"
 >>>>>>> upstream/18.0
@@ -5260,7 +5301,11 @@ msgid "Include the reference in the QR code."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Inclou la referència al codi QR."
+>>>>>>> upstream/18.0
 =======
 msgstr "Inclou la referència al codi QR."
 >>>>>>> upstream/18.0
@@ -5942,7 +5987,11 @@ msgid "Missing Merchant Account Information."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Falta la informació del compte del comerciant."
+>>>>>>> upstream/18.0
 =======
 msgstr "Falta la informació del compte del comerciant."
 >>>>>>> upstream/18.0
@@ -6624,7 +6673,11 @@ msgid "Missing Merchant City."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Falta la ciutat del comerciant."
+>>>>>>> upstream/18.0
 =======
 msgstr "Falta la ciutat del comerciant."
 >>>>>>> upstream/18.0
@@ -7306,7 +7359,11 @@ msgid "Missing Proxy Type."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Falta el tipus de proxy."
+>>>>>>> upstream/18.0
 =======
 msgstr "Falta el tipus de proxy."
 >>>>>>> upstream/18.0
@@ -7988,7 +8045,11 @@ msgid "Missing Proxy Value."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Falta el valor de proxy."
+>>>>>>> upstream/18.0
 =======
 msgstr "Falta el valor de proxy."
 >>>>>>> upstream/18.0
@@ -8501,6 +8562,7 @@ msgstr "Falta el valor de proxy."
 #. odoo-python
 #: code:addons/account_qr_code_emv/models/res_bank.py:0
 msgid ""
+<<<<<<< HEAD
 "No EMV QR Code is available for the country of the account "
 "%(account_number)s."
 msgstr ""
@@ -9349,6 +9411,13 @@ msgstr ""
 "No hi ha cap codi QR EMV QR disponible per al país del teu compte "
 "%(account_number)s."
 >>>>>>> upstream/18.0
+=======
+"No EMV QR Code is available for the country of the account %"
+"(account_number)s."
+msgstr ""
+"No hi ha cap codi QR EMV QR disponible per al país del teu compte %"
+"(account_number)s."
+>>>>>>> upstream/18.0
 
 #. module: account_qr_code_emv
 #: model:ir.model.fields.selection,name:account_qr_code_emv.selection__res_partner_bank__proxy_type__none
@@ -9545,7 +9614,11 @@ msgid "Proxy Value"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Valor de proxy"
+>>>>>>> upstream/18.0
 =======
 msgstr "Valor de proxy"
 >>>>>>> upstream/18.0
